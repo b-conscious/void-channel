@@ -67,6 +67,7 @@ export default function HomeScreen({ navigation }) {
       // First load, or repopulate — wait for fresh data with shuffle
       const data = await api.getCategories({ shuffle: true, refresh: forceFresh });
       setCategories(data);
+      setServerSleeping(false);
       store.setCachedCategories(data);
       pickHero(data);
     } catch (err) {
@@ -83,16 +84,20 @@ export default function HomeScreen({ navigation }) {
   const handleWakeUp = useCallback(async () => {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
     setWaking(true);
+    // Try the long-timeout ping first. Whether it succeeds or fails,
+    // always attempt to load categories — the server may have woken
+    // by the time the second request fires.
+    try { await api.wakeUp(); } catch {}
+    // Server should be warm now — try loading for real
+    setServerSleeping(false);
+    setWaking(false);
+    setLoading(true);
     try {
-      // Ping with 60s timeout — Render cold start can take 30-50s
-      await api.wakeUp();
-      setServerSleeping(false);
-      setWaking(false);
-      setLoading(true);
-      loadCategories();
+      await loadCategories();
     } catch {
-      setWaking(false);
-      // Still failed — leave the button visible to try again
+      // If it STILL fails, show the wake button again
+      setServerSleeping(true);
+      setLoading(false);
     }
   }, [loadCategories]);
 
