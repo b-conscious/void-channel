@@ -30,7 +30,7 @@
     "web": {
       "bundler": "metro",
       "output": "single",
-      "favicon": null
+      "favicon": "./assets/favicon.png"
     },
     "plugins": [
       "expo-video",
