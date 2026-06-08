@@ -189,7 +189,7 @@ export default function HomeScreen({ navigation }) {
 
       <Animated.ScrollView
         style={styles.scroll}
-        onScroll={Animated.event([{ nativeEvent: { contentOffset: { y: scrollY } } }], { useNativeDriver: true })}
+        onScroll={Animated.event([{ nativeEvent: { contentOffset: { y: scrollY } } }], { useNativeDriver: Platform.OS !== 'web' })}
         scrollEventThrottle={16}
         showsVerticalScrollIndicator={false}
       >
