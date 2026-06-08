@@ -9,8 +9,8 @@ const BASE_URL = __DEV__
   ? "http://10.0.0.25:3001"
   : "https://void-channel.onrender.com";
 
-const TIMEOUT = 15000;
-const LONG_TIMEOUT = 60000; // For cold-start wake-ups
+const TIMEOUT = 30000;       // 30s — Archive.org can be slow
+const LONG_TIMEOUT = 90000;  // 90s — Render cold start wake-up
 
 async function request(path, options = {}) {
   const timeout = options._timeout || TIMEOUT;
@@ -79,9 +79,21 @@ export async function getRelated(identifier, limit = 15) {
   return request(`/api/related/${encodeURIComponent(identifier)}?limit=${limit}`);
 }
 
-/** Wake the server from Render free-tier sleep — long timeout */
+/** Wake the server from Render free-tier sleep — hits lightweight /health */
 export async function wakeUp() {
-  return request("/api/categories?rows=1", { _timeout: LONG_TIMEOUT });
+  // Use the health endpoint — it returns instantly without hitting Archive.org.
+  // The heavy /api/categories call happens AFTER the server is confirmed awake.
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), LONG_TIMEOUT);
+  try {
+    const res = await fetch(`${BASE_URL}/health`, { signal: controller.signal });
+    clearTimeout(timer);
+    return await res.json();
+  } catch (err) {
+    clearTimeout(timer);
+    if (err.name === "AbortError") throw new Error("Wake-up timed out after 60s");
+    throw err;
+  }
 }
 
 // ── Hearts ─────────────────────────────────────────────────

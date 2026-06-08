@@ -82,23 +82,22 @@ export default function HomeScreen({ navigation }) {
   }, []);
 
   const handleWakeUp = useCallback(async () => {
-    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
+    try { Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium); } catch {}
     setWaking(true);
-    // Try the long-timeout ping first. Whether it succeeds or fails,
-    // always attempt to load categories — the server may have woken
-    // by the time the second request fires.
-    try { await api.wakeUp(); } catch {}
-    // Server should be warm now — try loading for real
+    console.log('[WakeUp] Pinging /health...');
+    try {
+      const health = await api.wakeUp();
+      console.log('[WakeUp] Server responded:', health);
+    } catch (err) {
+      console.warn('[WakeUp] Health ping failed:', err.message);
+      // Don't bail — server might still be partially awake
+    }
+    // Server should be warm now — try loading categories
+    console.log('[WakeUp] Loading categories...');
     setServerSleeping(false);
     setWaking(false);
     setLoading(true);
-    try {
-      await loadCategories();
-    } catch {
-      // If it STILL fails, show the wake button again
-      setServerSleeping(true);
-      setLoading(false);
-    }
+    loadCategories();
   }, [loadCategories]);
 
   const handleRepopulate = useCallback(async () => {
