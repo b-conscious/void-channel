@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Void Channel",
+    "slug": "void-channel",
+    "version": "0.3.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "backgroundColor": "#0c0c0f"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "org.cash.voidchannel",
+      "infoPlist": {
+        "NSAppTransportSecurity": {
+          "NSAllowsArbitraryLoads": true
+        }
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0c0c0f"
+      },
+      "package": "org.cash.voidchannel",
+      "edgeToEdgeEnabled": true,
+      "usesCleartextTraffic": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": null
+    },
+    "plugins": [
+      "expo-video",
+      "expo-font"
+    ]
+  }
+}
