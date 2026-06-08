@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback, useRef } from 'react';
 import {
   View, Text, ScrollView, FlatList, Image, TouchableOpacity, Pressable, StyleSheet,
   ActivityIndicator, Linking, Alert, Animated, Dimensions, LayoutAnimation,
-  Platform, UIManager,
+  Platform, UIManager, Share,
 } from 'react-native';
 
 const { height: SCREEN_H } = Dimensions.get('window');
@@ -130,6 +130,20 @@ export default function PlayerScreen({ route, navigation }) {
     } catch (e) { console.warn('[heart sync]', e?.message); }
   }, [hearted, item]);
 
+  const handleShare = useCallback(async () => {
+    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+    const url = item.archiveUrl || `https://void-channel.vercel.app`;
+    try {
+      await Share.share({
+        message: Platform.OS === 'ios'
+          ? `${item.title} — found on Void Channel`
+          : `${item.title} — found on Void Channel\n${url}`,
+        url: Platform.OS === 'ios' ? url : undefined,
+        title: item.title,
+      });
+    } catch {}
+  }, [item]);
+
   const handleDownload = useCallback(async () => {
     if (!item.videoUrl) return;
     Alert.alert('Download for offline?', `Save "${item.title}" to your device.`, [
@@ -241,6 +255,7 @@ export default function PlayerScreen({ route, navigation }) {
               accent="#ff3b5c"
               onPress={toggleHeart}
             />
+            <ActionBtn icon="share-outline" label="SHARE" accent={accent} onPress={handleShare} />
             <ActionBtn icon={inWatchlist ? 'bookmark' : 'bookmark-outline'} label={inWatchlist ? 'SAVED' : 'SAVE'} active={inWatchlist} accent={accent} onPress={toggleWatchlist} />
             {localUri ? (
               <ActionBtn icon="checkmark-circle" label="DOWNLOADED" active accent={accent} />
