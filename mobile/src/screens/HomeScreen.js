@@ -29,6 +29,8 @@ export default function HomeScreen({ navigation }) {
   const [menuOpen, setMenuOpen] = useState(false);
   const [categories, setCategories] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [serverSleeping, setServerSleeping] = useState(false);
+  const [waking, setWaking] = useState(false);
   const [refreshing, setRefreshing] = useState(false);
   const [heroItem, setHeroItem] = useState(null);
   const [topHearts, setTopHearts] = useState([]);
@@ -69,11 +71,30 @@ export default function HomeScreen({ navigation }) {
       pickHero(data);
     } catch (err) {
       console.error('[HomeScreen]', err);
+      if (err.message?.includes('timed out') || err.message?.includes('fetch')) {
+        setServerSleeping(true);
+      }
     } finally {
       setLoading(false);
       setRefreshing(false);
     }
   }, []);
+
+  const handleWakeUp = useCallback(async () => {
+    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
+    setWaking(true);
+    try {
+      // Ping with 60s timeout — Render cold start can take 30-50s
+      await api.wakeUp();
+      setServerSleeping(false);
+      setWaking(false);
+      setLoading(true);
+      loadCategories();
+    } catch {
+      setWaking(false);
+      // Still failed — leave the button visible to try again
+    }
+  }, [loadCategories]);
 
   const handleRepopulate = useCallback(async () => {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
@@ -184,6 +205,29 @@ export default function HomeScreen({ navigation }) {
           onPress={handleHeroPress}
           onRandom={handleRandom}
         />
+
+        {/* Wake Up Server */}
+        {serverSleeping && (
+          <View style={styles.wakeBlock}>
+            <Text style={styles.wakeEmoji}>📡</Text>
+            <Text style={styles.wakeTitle}>SERVER IS SLEEPING</Text>
+            <Text style={styles.wakeSub}>
+              Free tier backend hibernates after 15 min of inactivity.{'\n'}
+              One tap wakes it up — takes about 30 seconds.
+            </Text>
+            <TouchableOpacity
+              onPress={handleWakeUp}
+              style={[styles.wakeBtn, { borderColor: accent, backgroundColor: waking ? accent + '20' : 'transparent' }]}
+              activeOpacity={0.75}
+              disabled={waking}
+            >
+              <Ionicons name={waking ? "pulse" : "power"} size={16} color={accent} style={{ marginRight: 8 }} />
+              <Text style={[styles.wakeBtnText, { color: accent }]}>
+                {waking ? "WAKING UP..." : "WAKE UP SERVER"}
+              </Text>
+            </TouchableOpacity>
+          </View>
+        )}
 
         {/* Community Hearts — items the most users have loved */}
         {topHearts.length > 0 && (
@@ -639,6 +683,20 @@ const styles = StyleSheet.create({
   repopulateText: { fontFamily: fonts.monoBold, fontSize: 10, letterSpacing: 1.5 },
   dividerLine: { flex: 1, height: StyleSheet.hairlineWidth, backgroundColor: colors.surface },
   dividerText: { fontFamily: fonts.mono, fontSize: 9, color: colors.textGhost, letterSpacing: 2 },
+  // Wake up server
+  wakeBlock: {
+    alignItems: 'center', paddingVertical: 40, paddingHorizontal: spacing.screenPadding,
+  },
+  wakeEmoji: { fontSize: 36, marginBottom: 12 },
+  wakeTitle: { fontFamily: fonts.monoBold, fontSize: 13, color: colors.textPrimary, letterSpacing: 2, marginBottom: 8 },
+  wakeSub: { fontFamily: fonts.sans, fontSize: 13, color: colors.textMuted, textAlign: 'center', lineHeight: 20, marginBottom: 20 },
+  wakeBtn: {
+    flexDirection: 'row', alignItems: 'center', justifyContent: 'center',
+    paddingHorizontal: 24, paddingVertical: 12,
+    borderRadius: radius.full, borderWidth: 1,
+  },
+  wakeBtnText: { fontFamily: fonts.monoBold, fontSize: 11, letterSpacing: 1.5 },
+
   footer: { paddingHorizontal: spacing.screenPadding, paddingTop: 28, borderTopWidth: StyleSheet.hairlineWidth, borderTopColor: colors.surface, marginTop: 12, gap: 3 },
   footerLine: { fontFamily: fonts.sans, fontSize: 11, color: colors.textMuted, fontStyle: 'italic', textAlign: 'center' },
 });

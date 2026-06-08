@@ -10,10 +10,13 @@ const BASE_URL = __DEV__
   : "https://void-channel.onrender.com";
 
 const TIMEOUT = 15000;
+const LONG_TIMEOUT = 60000; // For cold-start wake-ups
 
 async function request(path, options = {}) {
+  const timeout = options._timeout || TIMEOUT;
+  delete options._timeout;
   const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), TIMEOUT);
+  const timer = setTimeout(() => controller.abort(), timeout);
   try {
     const res = await fetch(`${BASE_URL}${path}`, {
       ...options,
@@ -76,6 +79,11 @@ export async function getRelated(identifier, limit = 15) {
   return request(`/api/related/${encodeURIComponent(identifier)}?limit=${limit}`);
 }
 
+/** Wake the server from Render free-tier sleep — long timeout */
+export async function wakeUp() {
+  return request("/api/categories?rows=1", { _timeout: LONG_TIMEOUT });
+}
+
 // ── Hearts ─────────────────────────────────────────────────
 
 export async function heartItem(item) {
@@ -100,5 +108,5 @@ export async function getTopHearts(limit = 30) {
 
 export default {
   getCategories, getCategoryItems, searchItems, getItem, getRandomItem,
-  getRelated, heartItem, unheartItem, getTopHearts,
+  getRelated, wakeUp, heartItem, unheartItem, getTopHearts,
 };
