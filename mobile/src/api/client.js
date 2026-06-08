@@ -7,7 +7,7 @@
 // `localhost` from a phone means the phone itself — won't work.
 const BASE_URL = __DEV__
   ? "http://10.0.0.25:3001"
-  : "https://your-proxy.example.com";
+  : "https://void-channel.onrender.com";
 
 const TIMEOUT = 15000;
 
