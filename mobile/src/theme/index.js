@@ -72,10 +72,14 @@ export const shadows = {
   },
 };
 
+// Responsive cards — wider on desktop/web
+const _screenW = typeof window !== 'undefined' && window.innerWidth ? window.innerWidth : 400;
+const _isWide = _screenW > 768;
+
 export const cardSize = {
-  width: 198,
-  height: 124,
-  gap: 10,
+  width: _isWide ? 250 : 198,
+  height: _isWide ? 156 : 124,
+  gap: _isWide ? 14 : 10,
 };
 
 export default { colors, fonts, spacing, radius, shadows, cardSize };

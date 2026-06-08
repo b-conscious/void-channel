@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback, useRef, useMemo } from 'react';
 import {
-  View, Text, Animated, TouchableOpacity, Pressable,
+  View, Text, Animated, TouchableOpacity, Pressable, Modal,
   StyleSheet, Dimensions, Image, Platform,
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -11,6 +11,7 @@ import * as Haptics from 'expo-haptics';
 import CategoryRow from '../components/CategoryRow';
 import SkeletonCard from '../components/SkeletonCard';
 import { useGeneration } from '../context/GenerationContext';
+import { GENERATIONS } from '../data/generations';
 import api from '../api/client';
 import store from '../store/cache';
 import { colors, fonts, spacing, radius } from '../theme';
@@ -24,7 +25,8 @@ function pickRandom(arr) {
 
 export default function HomeScreen({ navigation }) {
   const insets = useSafeAreaInsets();
-  const { gen } = useGeneration();
+  const { gen, generationId, chooseGeneration } = useGeneration();
+  const [menuOpen, setMenuOpen] = useState(false);
   const [categories, setCategories] = useState([]);
   const [loading, setLoading] = useState(true);
   const [refreshing, setRefreshing] = useState(false);
@@ -135,17 +137,34 @@ export default function HomeScreen({ navigation }) {
         style={[styles.floatingHeader, { paddingTop: insets.top + 8, opacity: headerAnim }]}
         pointerEvents="box-none"
       >
-        <View style={styles.logoWrap}>
-          <Text style={[styles.logoVoid, { color: accent }]}>VOID</Text>
-          <Text style={styles.logoCh}> CH.</Text>
-          <View style={[styles.liveIndicator, { backgroundColor: '#ff2d78' }]} />
-          <Text style={styles.liveText}>LIVE</Text>
+        <View style={styles.headerLeft}>
+          <TouchableOpacity onPress={() => setMenuOpen(true)} style={styles.hamburger} hitSlop={8}>
+            <Ionicons name="menu" size={22} color={colors.textPrimary} />
+          </TouchableOpacity>
+          <View style={styles.logoWrap}>
+            <Text style={[styles.logoVoid, { color: accent }]}>VOID</Text>
+            <Text style={styles.logoCh}> CH.</Text>
+            <View style={[styles.liveIndicator, { backgroundColor: '#ff2d78' }]} />
+            <Text style={styles.liveText}>LIVE</Text>
+          </View>
         </View>
         <TouchableOpacity onPress={handleRandom} style={[styles.randomBtn, { backgroundColor: accent }]} hitSlop={8}>
           <Ionicons name="shuffle" size={12} color={gen.accentOnDark} style={{ marginRight: 4 }} />
           <Text style={[styles.randomText, { color: gen.accentOnDark }]}>SURPRISE ME</Text>
         </TouchableOpacity>
       </Animated.View>
+
+      {/* ── Hamburger drawer ── */}
+      <DrawerMenu
+        visible={menuOpen}
+        onClose={() => setMenuOpen(false)}
+        accent={accent}
+        gen={gen}
+        generationId={generationId}
+        chooseGeneration={chooseGeneration}
+        navigation={navigation}
+        onRandom={() => { setMenuOpen(false); handleRandom(); }}
+      />
 
       <Animated.ScrollView
         style={styles.scroll}
@@ -429,6 +448,124 @@ function ScanlineOverlay({ height }) {
   );
 }
 
+function DrawerMenu({ visible, onClose, accent, gen, generationId, chooseGeneration, navigation, onRandom }) {
+  if (!visible) return null;
+
+  const GEN_OPTS = [
+    { id: 'boomer', label: 'BOOMER', color: GENERATIONS.boomer.accentColor },
+    { id: 'millennial', label: 'MILLENNIAL', color: GENERATIONS.millennial.accentColor },
+    { id: 'genz', label: 'GEN Z', color: GENERATIONS.genz.accentColor },
+  ];
+
+  const menuItems = [
+    { icon: 'tv', label: 'BROWSE', tab: 'Browse' },
+    { icon: 'search', label: 'SEARCH', tab: 'Search' },
+    { icon: 'compass', label: 'SIGNAL', tab: 'Signal' },
+    { icon: 'bookmark', label: 'MY VOID', tab: 'My Void' },
+  ];
+
+  return (
+    <Modal transparent visible={visible} animationType="fade" onRequestClose={onClose}>
+      <Pressable style={drawerStyles.overlay} onPress={onClose}>
+        <Pressable style={drawerStyles.drawer} onPress={(e) => e.stopPropagation()}>
+          {/* Header */}
+          <View style={drawerStyles.drawerHeader}>
+            <Text style={[drawerStyles.drawerLogo, { color: accent }]}>VOID</Text>
+            <Text style={drawerStyles.drawerLogoSub}> CHANNEL</Text>
+          </View>
+
+          {/* Nav items */}
+          {menuItems.map((item) => (
+            <TouchableOpacity
+              key={item.tab}
+              style={drawerStyles.menuItem}
+              onPress={() => { onClose(); navigation.navigate(item.tab); }}
+              activeOpacity={0.7}
+            >
+              <Ionicons name={item.icon} size={18} color={accent} style={{ width: 28 }} />
+              <Text style={drawerStyles.menuLabel}>{item.label}</Text>
+            </TouchableOpacity>
+          ))}
+
+          <View style={drawerStyles.divider} />
+
+          {/* Generation switcher */}
+          <Text style={drawerStyles.sectionLabel}>GENERATION</Text>
+          <View style={drawerStyles.genRow}>
+            {GEN_OPTS.map((g) => (
+              <TouchableOpacity
+                key={g.id}
+                onPress={() => {
+                  Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+                  chooseGeneration(g.id);
+                }}
+                style={[
+                  drawerStyles.genPill,
+                  generationId === g.id && { borderColor: g.color, backgroundColor: g.color + '20' },
+                ]}
+              >
+                <Text style={[
+                  drawerStyles.genPillText,
+                  generationId === g.id && { color: g.color },
+                ]}>{g.label}</Text>
+              </TouchableOpacity>
+            ))}
+          </View>
+
+          <View style={drawerStyles.divider} />
+
+          {/* Surprise Me */}
+          <TouchableOpacity style={drawerStyles.menuItem} onPress={onRandom} activeOpacity={0.7}>
+            <Ionicons name="shuffle" size={18} color={accent} style={{ width: 28 }} />
+            <Text style={drawerStyles.menuLabel}>SURPRISE ME</Text>
+          </TouchableOpacity>
+
+          {/* Footer */}
+          <View style={{ flex: 1 }} />
+          <Text style={drawerStyles.footerText}>VOID CHANNEL v0.2</Text>
+          <Text style={drawerStyles.footerText}>ARCHIVE.ORG · PUBLIC DOMAIN</Text>
+        </Pressable>
+      </Pressable>
+    </Modal>
+  );
+}
+
+const drawerStyles = StyleSheet.create({
+  overlay: {
+    flex: 1, backgroundColor: 'rgba(0,0,0,0.6)',
+    flexDirection: 'row',
+  },
+  drawer: {
+    width: 260, backgroundColor: colors.bg,
+    borderRightWidth: 1, borderRightColor: colors.surface,
+    paddingTop: 60, paddingBottom: 30, paddingHorizontal: 20,
+  },
+  drawerHeader: {
+    flexDirection: 'row', alignItems: 'baseline',
+    marginBottom: 28, paddingBottom: 16,
+    borderBottomWidth: StyleSheet.hairlineWidth, borderBottomColor: colors.surface,
+  },
+  drawerLogo: { fontFamily: fonts.monoBold, fontSize: 20, letterSpacing: 4 },
+  drawerLogoSub: { fontFamily: fonts.mono, fontSize: 12, color: colors.textMuted, letterSpacing: 1 },
+  menuItem: {
+    flexDirection: 'row', alignItems: 'center',
+    paddingVertical: 13, paddingHorizontal: 4,
+  },
+  menuLabel: { fontFamily: fonts.monoBold, fontSize: 12, color: colors.textPrimary, letterSpacing: 1.5 },
+  divider: {
+    height: StyleSheet.hairlineWidth, backgroundColor: colors.surface,
+    marginVertical: 16,
+  },
+  sectionLabel: { fontFamily: fonts.mono, fontSize: 9, color: colors.textGhost, letterSpacing: 2, marginBottom: 10 },
+  genRow: { flexDirection: 'row', gap: 8 },
+  genPill: {
+    paddingHorizontal: 12, paddingVertical: 7,
+    borderRadius: radius.sm, borderWidth: 1, borderColor: colors.border,
+  },
+  genPillText: { fontFamily: fonts.monoBold, fontSize: 9, color: colors.textMuted, letterSpacing: 1 },
+  footerText: { fontFamily: fonts.mono, fontSize: 9, color: colors.textGhost, letterSpacing: 1, textAlign: 'center', marginTop: 4 },
+});
+
 function SkeletonRow() {
   return (
     <View style={{ marginBottom: 34 }}>
@@ -447,6 +584,8 @@ const styles = StyleSheet.create({
     flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center',
     paddingHorizontal: spacing.screenPadding, paddingBottom: 10,
   },
+  headerLeft: { flexDirection: 'row', alignItems: 'center', gap: 10 },
+  hamburger: { padding: 4 },
   scroll: { flex: 1 },
   logoWrap: { flexDirection: 'row', alignItems: 'center', gap: 6 },
   logoVoid: { fontFamily: fonts.monoBold, fontSize: 18, letterSpacing: 4 },

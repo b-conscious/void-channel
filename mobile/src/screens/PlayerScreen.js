@@ -285,6 +285,7 @@ export default function PlayerScreen({ route, navigation }) {
                 data={relatedItems}
                 keyExtractor={(r) => r.id}
                 horizontal
+                nestedScrollEnabled
                 showsHorizontalScrollIndicator={false}
                 contentContainerStyle={{ paddingVertical: 4 }}
                 renderItem={({ item: rel }) => (
