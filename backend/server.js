@@ -431,12 +431,48 @@ app.get("/health", (req, res) => {
   res.json({ status: "ok", uptime: process.uptime() });
 });
 
+// ── Self-warming category cache ──────────────────────────────
+// Cloudflare has a hard 100s origin timeout. Fetching all 78 categories
+// from Archive.org takes >100s on a cold cache → 524 error. The cache
+// can never re-warm through user requests once Cloudflare is in front.
+// Fix: pre-warm on startup and every 15 min so user requests always hit cache.
+
+async function warmCategories() {
+  const bucketMs = 20 * 60 * 1000;
+  const currentBucket = Math.floor(Date.now() / bucketMs);
+  const nextBucket = currentBucket + 1;
+
+  for (const bucket of [currentBucket, nextBucket]) {
+    const cacheKey = `all_categories:${bucket}`;
+    const existing = await cache.get(cacheKey);
+    if (existing) {
+      console.log(`  ✓ Cache warm: ${cacheKey} (${existing.length} cats)`);
+      continue;
+    }
+    console.log(`  → Warming: ${cacheKey} (fetching from Archive.org)...`);
+    try {
+      const categories = await archive.getAllCategories(15, false);
+      cache.set(cacheKey, categories, 1200);
+      console.log(`  ✓ Warmed: ${categories.length} categories cached`);
+    } catch (err) {
+      console.error(`  ✗ Warm failed: ${err.message}`);
+    }
+  }
+}
+
 // ── Start ──────────────────────────────────────────────────
 
 app.listen(PORT, async () => {
   console.log(`\n  ⚡ VOID CHANNEL PROXY`);
   console.log(`  → http://localhost:${PORT}`);
-  console.log(`  → Cache TTL: categories=20m, items=6h, search=30m\n`);
+  console.log(`  → Cache TTL: categories=20m, items=6h, search=30m`);
+  console.log(`  → Self-warming: every 15 min (current + next bucket)\n`);
+
+  // Warm category cache on startup (runs in background, doesn't block server start)
+  warmCategories();
+  // Re-warm every 15 minutes — pre-fetches both current and next time bucket
+  // so the cache is never cold when a user request arrives
+  setInterval(warmCategories, 15 * 60 * 1000);
 
   // Backfill usernames for profiles that have none (one-time on startup)
   try {

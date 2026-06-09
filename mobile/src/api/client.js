@@ -3,10 +3,16 @@
  * The app never hits archive.org directly.
  */
 
-// Point this at your computer's LAN IP so a real phone can reach the proxy.
-// `localhost` from a phone means the phone itself — won't work.
+// In dev: use localhost when running on the same machine.
+// If accessed via LAN IP (e.g. phone on same wifi), use that IP for the API too.
+// In production: always use the custom domain.
 const BASE_URL = __DEV__
-  ? "http://localhost:3001"
+  ? (typeof window !== 'undefined' &&
+     window.location &&
+     window.location.hostname !== 'localhost' &&
+     window.location.hostname !== '127.0.0.1'
+      ? `http://${window.location.hostname}:3001`
+      : "http://localhost:3001")
   : "https://api.voidtv.net";
 
 const TIMEOUT = 30000;       // 30s — Archive.org can be slow
