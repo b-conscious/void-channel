@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback, useRef, useMemo } from 'react';
 import {
-  View, Text, Animated, TouchableOpacity, Pressable, Modal,
+  View, Text, Animated, TouchableOpacity, Pressable, Modal, Linking,
   StyleSheet, Dimensions, Image, Platform,
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -390,6 +390,15 @@ export default function HomeScreen({ navigation }) {
           <Text style={styles.footerLine}>◈ SOURCE: ARCHIVE.ORG — PUBLIC DOMAIN & CC ◈</Text>
           <Text style={styles.footerLine}>all these films were made by real people</Text>
           <Text style={styles.footerLine}>for reasons we can only guess at</Text>
+          <TouchableOpacity
+            onPress={() => Linking.openURL('https://square.link/u/IteDL7XI')}
+            style={styles.footerDonate}
+            activeOpacity={0.7}
+          >
+            <Text style={[styles.footerLine, { color: '#ff2d78', fontStyle: 'normal' }]}>
+              ♥ Support Void Channel
+            </Text>
+          </TouchableOpacity>
         </View>
       </Animated.ScrollView>
     </View>
@@ -608,9 +617,24 @@ function DrawerMenu({ visible, onClose, accent, gen, generationId, chooseGenerat
             <Text style={drawerStyles.menuLabel}>SURPRISE ME</Text>
           </TouchableOpacity>
 
+          <View style={drawerStyles.divider} />
+
+          {/* Support */}
+          <TouchableOpacity
+            style={drawerStyles.supportBtn}
+            onPress={() => Linking.openURL('https://square.link/u/IteDL7XI')}
+            activeOpacity={0.7}
+          >
+            <Ionicons name="heart" size={16} color="#ff2d78" style={{ width: 28 }} />
+            <Text style={[drawerStyles.menuLabel, { color: '#ff2d78' }]}>SUPPORT VOID CH.</Text>
+          </TouchableOpacity>
+          <Text style={drawerStyles.supportSub}>
+            Help keep the signal alive — donations go toward hosting & curation.
+          </Text>
+
           {/* Footer */}
           <View style={{ flex: 1 }} />
-          <Text style={drawerStyles.footerText}>VOID CHANNEL v0.2</Text>
+          <Text style={drawerStyles.footerText}>VOID CHANNEL v0.3</Text>
           <Text style={drawerStyles.footerText}>ARCHIVE.ORG · PUBLIC DOMAIN</Text>
         </Pressable>
       </Pressable>
@@ -651,6 +675,11 @@ const drawerStyles = StyleSheet.create({
     borderRadius: radius.sm, borderWidth: 1, borderColor: colors.border,
   },
   genPillText: { fontFamily: fonts.monoBold, fontSize: 9, color: colors.textMuted, letterSpacing: 1 },
+  supportBtn: {
+    flexDirection: 'row', alignItems: 'center',
+    paddingVertical: 13, paddingHorizontal: 4,
+  },
+  supportSub: { fontFamily: fonts.sans, fontSize: 11, color: colors.textMuted, marginLeft: 32, marginTop: -6, lineHeight: 16 },
   footerText: { fontFamily: fonts.mono, fontSize: 9, color: colors.textGhost, letterSpacing: 1, textAlign: 'center', marginTop: 4 },
 });
 
@@ -754,4 +783,5 @@ const styles = StyleSheet.create({
 
   footer: { paddingHorizontal: spacing.screenPadding, paddingTop: 28, borderTopWidth: StyleSheet.hairlineWidth, borderTopColor: colors.surface, marginTop: 12, gap: 3 },
   footerLine: { fontFamily: fonts.sans, fontSize: 11, color: colors.textMuted, fontStyle: 'italic', textAlign: 'center' },
+  footerDonate: { marginTop: 14, paddingVertical: 8 },
 });
