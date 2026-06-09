@@ -148,26 +148,7 @@ export default function HomeScreen({ navigation }) {
   // Reset per-category pages when generation changes so user sees the new ordering
   useEffect(() => { setCatPages({}); }, [generationId]);
 
-  // ── Pixel font crispness — disable anti-aliasing for monospace fonts on web ──
-  useEffect(() => {
-    if (Platform.OS !== 'web' || typeof document === 'undefined') return;
-    const id = 'voidtv-pixel-crisp-css';
-    if (document.getElementById(id)) return;
-    const s = document.createElement('style');
-    s.id = id;
-    s.textContent = [
-      '/* VOIDtv — crisp pixel/monospace fonts */',
-      '[data-testid], [class*="mono"], [style*="SpaceMono"] {',
-      '  -webkit-font-smoothing: none;',
-      '  -moz-osx-font-smoothing: unset;',
-      '  font-smooth: never;',
-      '}',
-      '/* Global: all mono-spaced text gets sharp rendering */',
-      '@font-face { font-family: SpaceMono_400Regular; font-display: swap; }',
-      '@font-face { font-family: SpaceMono_700Bold; font-display: swap; }',
-    ].join('\n');
-    document.head.appendChild(s);
-  }, []);
+  // Retro CSS (font-smoothing, scrollbars, etc.) is now injected globally in App.js
 
 
   const headerAnim = scrollY.interpolate({
