@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from "react";
 import { View, StyleSheet, Animated, Easing } from "react-native";
-// NOTE: Uses RN built-in Animated instead of Reanimated to avoid TDZ crash in prod bundles.
 import { colors, radius, cardSize } from "../theme";
 
 export default function SkeletonCard({ width, height }) {
@@ -8,16 +7,6 @@ export default function SkeletonCard({ width, height }) {
 
   useEffect(() => {
     const anim = Animated.loop(
-      Animated.timing(opacity, {
-        toValue: 1,
-        duration: 900,
-        easing: Easing.inOut(Easing.ease),
-        useNativeDriver: true,
-      }),
-      { iterations: -1 }
-    );
-    // Reverse direction — need sequence for ping-pong
-    const pingPong = Animated.loop(
       Animated.sequence([
         Animated.timing(opacity, {
           toValue: 1,
@@ -33,8 +22,8 @@ export default function SkeletonCard({ width, height }) {
         }),
       ])
     );
-    pingPong.start();
-    return () => pingPong.stop();
+    anim.start();
+    return () => anim.stop();
   }, []);
 
   const w = width || cardSize.width;

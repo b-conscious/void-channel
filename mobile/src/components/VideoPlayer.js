@@ -16,6 +16,20 @@ const { width: SCREEN_W } = Dimensions.get("window");
 const FADE_DURATION = 220;
 const HIDE_DELAY = 4000;
 
+/** Format seconds → "3:07" or "1:02:15" */
+function formatTime(sec) {
+  const total = Math.floor(sec || 0);
+  if (total >= 3600) {
+    const h = Math.floor(total / 3600);
+    const m = Math.floor((total % 3600) / 60);
+    const s = total % 60;
+    return `${h}:${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}`;
+  }
+  const m = Math.floor(total / 60);
+  const s = total % 60;
+  return `${m}:${s.toString().padStart(2, "0")}`;
+}
+
 /**
  * Scrubable progress bar — supports tap-to-seek AND drag-to-scrub.
  * Uses native DOM pointer events on web (PanResponder is unreliable there).
@@ -442,13 +456,6 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
     setError(null);
     try { player.replace(videoUrl); player.play(); } catch {}
   }, [player, videoUrl]);
-
-  const formatTime = (sec) => {
-    const total = Math.floor(sec || 0);
-    const m = Math.floor(total / 60);
-    const s = total % 60;
-    return `${m}:${s.toString().padStart(2, "0")}`;
-  };
 
   return (
     <View ref={containerRef} dataSet={{vpcontainer: "1"}} style={styles.container}>

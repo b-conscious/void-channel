@@ -360,7 +360,7 @@ app.get("/health", (req, res) => {
 app.listen(PORT, () => {
   console.log(`\n  ⚡ VOID CHANNEL PROXY`);
   console.log(`  → http://localhost:${PORT}`);
-  console.log(`  → Cache TTL: categories=1h, items=6h, search=30m\n`);
+  console.log(`  → Cache TTL: categories=20m, items=6h, search=30m\n`);
 });
 
 module.exports = app;

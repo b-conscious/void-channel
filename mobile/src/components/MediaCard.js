@@ -47,6 +47,9 @@ export default function MediaCard({ item, onPress, size = 'default', style }) {
     store.isHearted(item.id).then(setHearted);
   }, [item.id]);
 
+  // Cleanup hover timer on unmount
+  useEffect(() => () => clearTimeout(hoverTimer.current), []);
+
   const toggleHeart = useCallback(async () => {
     const next = !hearted;
     setHearted(next);
@@ -170,9 +173,6 @@ export default function MediaCard({ item, onPress, size = 'default', style }) {
             </View>
           ) : null}
         </View>
-
-        {/* Play icon — appears on hover */}
-        {hovered && !hovered && false /* play icon for deep hover only */ }
 
         {/* Hover info overlay — shows description, subjects, creator */}
         {hovered && (

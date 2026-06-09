@@ -74,15 +74,15 @@ export default function CategoryRow({
   const canPrev = page > 1;
   const canNext = totalPages === 0 || page < totalPages;
 
-  // Scroll refs and hover state for arrows
+  // Scroll refs — track positions in refs to avoid re-rendering on every scroll frame.
+  // Only the derived arrow visibility state triggers re-renders.
   const listRef = useRef(null);
-  const [scrollOffset, setScrollOffset] = useState(0);
-  const [contentWidth, setContentWidth] = useState(0);
-  const [containerWidth, setContainerWidth] = useState(SCREEN_W);
+  const scrollOffsetRef = useRef(0);
+  const contentWidthRef = useRef(0);
+  const containerWidthRef = useRef(SCREEN_W);
+  const [canScrollLeft, setCanScrollLeft] = useState(false);
+  const [canScrollRight, setCanScrollRight] = useState(false);
   const [rowHovered, setRowHovered] = useState(false);
-
-  const canScrollLeft = scrollOffset > 10;
-  const canScrollRight = contentWidth > containerWidth + scrollOffset + 10;
 
   // Arrow opacity — CSS transition on web, instant on native
   const onRowHoverIn = useCallback(() => {
@@ -100,23 +100,31 @@ export default function CategoryRow({
   };
 
   const scrollLeft = useCallback(() => {
-    const next = Math.max(0, scrollOffset - SCROLL_AMOUNT);
+    const next = Math.max(0, scrollOffsetRef.current - SCROLL_AMOUNT);
     listRef.current?.scrollToOffset({ offset: next, animated: true });
-  }, [scrollOffset]);
+  }, []);
 
   const scrollRight = useCallback(() => {
-    const next = scrollOffset + SCROLL_AMOUNT;
+    const next = scrollOffsetRef.current + SCROLL_AMOUNT;
     listRef.current?.scrollToOffset({ offset: next, animated: true });
     // If near the end and we can page, load more
-    if (next + containerWidth >= contentWidth - 50 && hasPagination && canNext && !loadingMore) {
+    if (next + containerWidthRef.current >= contentWidthRef.current - 50 && hasPagination && canNext && !loadingMore) {
       onPageChange(category.id, page + 1);
     }
-  }, [scrollOffset, containerWidth, contentWidth, hasPagination, canNext, loadingMore, page, category.id, onPageChange]);
+  }, [hasPagination, canNext, loadingMore, page, category.id, onPageChange]);
 
   const handleScroll = useCallback((e) => {
-    setScrollOffset(e.nativeEvent.contentOffset.x);
-    setContentWidth(e.nativeEvent.contentSize.width);
-    setContainerWidth(e.nativeEvent.layoutMeasurement.width);
+    const ox = e.nativeEvent.contentOffset.x;
+    const cw = e.nativeEvent.contentSize.width;
+    const vw = e.nativeEvent.layoutMeasurement.width;
+    scrollOffsetRef.current = ox;
+    contentWidthRef.current = cw;
+    containerWidthRef.current = vw;
+    // Only re-render if arrow visibility actually changed
+    const newLeft = ox > 10;
+    const newRight = cw > vw + ox + 10;
+    setCanScrollLeft((prev) => prev !== newLeft ? newLeft : prev);
+    setCanScrollRight((prev) => prev !== newRight ? newRight : prev);
   }, []);
 
   return (

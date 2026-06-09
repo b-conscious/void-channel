@@ -21,6 +21,7 @@ import { colors, fonts, spacing, radius } from '../theme';
 
 const { width: SCREEN_W } = Dimensions.get('window');
 const HERO_H = Math.round(SCREEN_W * 0.62);
+const DONATE_URL = 'https://square.link/u/IteDL7XI';
 
 function pickRandom(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
@@ -177,16 +178,11 @@ export default function HomeScreen({ navigation }) {
   const handleWakeUp = useCallback(async () => {
     try { Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium); } catch {}
     setWaking(true);
-    console.log('[WakeUp] Pinging /health...');
     try {
-      const health = await api.wakeUp();
-      console.log('[WakeUp] Server responded:', health);
+      await api.wakeUp();
     } catch (err) {
-      console.warn('[WakeUp] Health ping failed:', err.message);
       // Don't bail — server might still be partially awake
     }
-    // Server should be warm now — try loading categories
-    console.log('[WakeUp] Loading categories...');
     setServerSleeping(false);
     setWaking(false);
     setLoading(true);
@@ -356,12 +352,12 @@ export default function HomeScreen({ navigation }) {
         </View>
         {/* Support banner */}
         <TouchableOpacity
-          onPress={() => Linking.openURL('https://square.link/u/IteDL7XI')}
+          onPress={() => Linking.openURL(DONATE_URL)}
           style={styles.supportBanner}
           activeOpacity={0.7}
         >
           <Text style={styles.supportBannerText}>SUPPORT HUMAN CREATIONS</Text>
-          <Ionicons name="gift" size={13} color="#39ff14" />
+          <Ionicons name="gift" size={20} color="#f5a623" style={{ marginHorizontal: 2 }} />
           <Text style={styles.supportBannerSlogan}>FIGHT THE SLOP</Text>
         </TouchableOpacity>
         <Text style={[styles.headerTagline, { color: accent }]}>GENERATING SINCE 1895</Text>
@@ -656,11 +652,11 @@ export default function HomeScreen({ navigation }) {
           <Text style={styles.footerLine}>before AI slop, there was human creativity</Text>
           <Text style={[styles.footerLine, { marginTop: 8, fontSize: 9, letterSpacing: 1 }]}>SOURCE: ARCHIVE.ORG — PUBLIC DOMAIN & CC</Text>
           <TouchableOpacity
-            onPress={() => Linking.openURL('https://square.link/u/IteDL7XI')}
+            onPress={() => Linking.openURL(DONATE_URL)}
             style={styles.footerDonate}
             activeOpacity={0.7}
           >
-            <Ionicons name="gift-outline" size={12} color="#ff2d78" />
+            <Ionicons name="gift" size={16} color="#f5a623" />
             <Text style={[styles.footerLine, { color: '#ff2d78', fontStyle: 'normal' }]}>
               SUPPORT HUMAN CREATIONS — FIGHT THE SLOP
             </Text>
@@ -1057,10 +1053,10 @@ function DrawerMenu({ visible, onClose, accent, gen, generationId, chooseGenerat
           {/* Support */}
           <TouchableOpacity
             style={drawerStyles.supportBtn}
-            onPress={() => Linking.openURL('https://square.link/u/IteDL7XI')}
+            onPress={() => Linking.openURL(DONATE_URL)}
             activeOpacity={0.7}
           >
-            <Ionicons name="gift" size={16} color="#39ff14" style={{ width: 28 }} />
+            <Ionicons name="gift" size={22} color="#f5a623" style={{ width: 30 }} />
             <View>
               <Text style={drawerStyles.menuLabel}>SUPPORT HUMAN CREATIONS</Text>
               <Text style={[drawerStyles.supportSub, { color: '#39ff14' }]}>FIGHT THE SLOP — donate to keep real cinema alive</Text>
