@@ -17,7 +17,7 @@ import { useGame } from '../context/GameContext';
 import { useSidebar, EXPANDED_W, COLLAPSED_W } from '../context/SidebarContext';
 
 var BRAND_BLUE = '#5cb8ff';
-var DONATE_URL = 'https://square.link/u/IteDL7XI';
+var DONATE_URL = 'https://square.link/u/dJioBmlW';
 
 var TAB_COLORS = {
   Browse:    '#5cb8ff',
@@ -229,7 +229,13 @@ export default function DesktopSidebar({ state, navigation }) {
 
         {/* ── Footer ── */}
         <View style={styles.footer}>
-          <Text style={styles.footerText}>VOIDtv v0.3</Text>
+          <Text style={[styles.footerText, { color: '#f5a623', marginBottom: 1 }]}>A project of</Text>
+          <Text style={[styles.footerText, { color: '#f5a623', fontFamily: fonts.monoBold, fontSize: 7.5, letterSpacing: 0.3 }]}>Church of American</Text>
+          <Text style={[styles.footerText, { color: '#f5a623', fontFamily: fonts.monoBold, fontSize: 7.5, letterSpacing: 0.3 }]}>Strength & Hope</Text>
+          <TouchableOpacity onPress={function () { Linking.openURL('https://cashvalues.org'); }} activeOpacity={0.7}>
+            <Text style={[styles.footerText, { color: BRAND_BLUE, textDecorationLine: 'underline', marginTop: 2 }]}>CASHvalues.org</Text>
+          </TouchableOpacity>
+          <Text style={[styles.footerText, { marginTop: 4 }]}>VOIDtv v0.3</Text>
           <Text style={styles.footerText}>source: archive.org</Text>
         </View>
       </ScrollView>

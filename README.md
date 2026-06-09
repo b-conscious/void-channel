@@ -680,7 +680,7 @@ Each generation defines:
 | **Upstash Redis** | L2 cache (REST API) | Free | daring-lamprey-145377.upstash.io |
 | **Cloudflare** | DNS, CDN, SSL | Free | Registrar for voidtv.net |
 | **GitHub** | Source control | Free | github.com/b-conscious/void-channel |
-| **Square** | Donations | -- | square.link/u/IteDL7XI |
+| **Square** | Donations | -- | square.link/u/dJioBmlW |
 
 ### Environment Variables
 
@@ -857,6 +857,6 @@ npx expo start          # Native (iOS/Android via Expo Go)
 
 ---
 
-**DONATE_URL:** [square.link/u/IteDL7XI](https://square.link/u/IteDL7XI)
+**DONATE_URL:** [square.link/u/dJioBmlW](https://square.link/u/dJioBmlW)
 
 *Before AI slop, there was human creativity. Generating since 1895.*

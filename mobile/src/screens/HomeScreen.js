@@ -23,7 +23,7 @@ import { useSidebar, CONTENT_GAP } from '../context/SidebarContext';
 
 const { width: SCREEN_W } = Dimensions.get('window');
 const IS_DESKTOP = Platform.OS === 'web' && SCREEN_W > 900;
-const DONATE_URL = 'https://square.link/u/IteDL7XI';
+const DONATE_URL = 'https://square.link/u/dJioBmlW';
 const BRAND_BLUE = '#5cb8ff'; // vivid blue — donate icon + tagline
 
 // YouTube-style filter chips — text-only genre aggregates, no thumbnails = fast
@@ -641,15 +641,22 @@ export default function HomeScreen({ navigation }) {
           <Ionicons name="gift" size={20} color={BRAND_BLUE} />
           <View style={{ marginLeft: 10, flex: 1 }}>
             <Text style={styles.donateCtaTitle}>KEEP THIS WEIRDNESS RUNNING</Text>
-            <Text style={styles.donateCtaSub}>donate to support VOIDtv servers & updates</Text>
+            <Text style={styles.donateCtaSub}>a project of the Church of American Strength & Hope</Text>
+            <Text style={styles.donateCtaSub}>501(c)(3) non-profit · CASHvalues.org</Text>
           </View>
           <Ionicons name="chevron-forward" size={16} color={BRAND_BLUE + '80'} />
         </TouchableOpacity>
 
         {/* Footer */}
         <View style={[styles.footer, { paddingBottom: insets.bottom + 90 }]}>
-          <Text style={[styles.footerLine, { color: BRAND_BLUE, fontFamily: fonts.monoBold, letterSpacing: 2 }]}>◈ GENERATING SINCE 1895 ◈</Text>
           <Text style={[styles.footerLine, { fontStyle: 'italic' }]}>when you stare into the void, humanity stares back</Text>
+          <View style={{ marginTop: 10, gap: 2 }}>
+            <Text style={[styles.footerLine, { color: BRAND_BLUE, fontFamily: fonts.monoBold, fontSize: 10, letterSpacing: 1.5 }]}>A PROJECT OF</Text>
+            <Text style={[styles.footerLine, { color: '#f5a623', fontFamily: fonts.monoBold, fontSize: 11, letterSpacing: 1 }]}>CHURCH OF AMERICAN STRENGTH & HOPE</Text>
+            <TouchableOpacity onPress={() => Linking.openURL('https://cashvalues.org')} activeOpacity={0.7}>
+              <Text style={[styles.footerLine, { color: BRAND_BLUE, textDecorationLine: 'underline', fontSize: 10 }]}>CASHvalues.org</Text>
+            </TouchableOpacity>
+          </View>
           <Text style={[styles.footerLine, { marginTop: 8, fontSize: 9, letterSpacing: 1 }]}>SOURCE: ARCHIVE.ORG — PUBLIC DOMAIN & CC</Text>
           <TouchableOpacity
             onPress={() => Linking.openURL(DONATE_URL)}
@@ -1083,8 +1090,11 @@ function DrawerMenu({ visible, onClose, accent, gen, generationId, chooseGenerat
 
           {/* Footer */}
           <View style={{ flex: 1 }} />
-          <Text style={drawerStyles.footerText}>VOIDtv v0.3</Text>
-          <Text style={drawerStyles.footerText}>ARCHIVE.ORG · PUBLIC DOMAIN</Text>
+          <Text style={[drawerStyles.footerText, { color: '#f5a623', fontSize: 9 }]}>A project of Church of American Strength & Hope</Text>
+          <TouchableOpacity onPress={() => Linking.openURL('https://cashvalues.org')} activeOpacity={0.7}>
+            <Text style={[drawerStyles.footerText, { color: BRAND_BLUE, textDecorationLine: 'underline' }]}>CASHvalues.org</Text>
+          </TouchableOpacity>
+          <Text style={drawerStyles.footerText}>VOIDtv v0.3 · ARCHIVE.ORG · PUBLIC DOMAIN</Text>
         </Pressable>
       </Pressable>
     </Modal>
