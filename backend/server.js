@@ -124,7 +124,7 @@ app.get("/api/categories", async (req, res) => {
     const timeBucket = Math.floor(Date.now() / (20 * 60 * 1000));
     const cacheKey = `all_categories:${timeBucket}`;
     if (!shuffle && !refresh) {
-      const cached = cache.get(cacheKey);
+      const cached = await cache.get(cacheKey);
       if (cached) {
         res.set("X-Cache", "HIT");
         return res.json(cached);
@@ -157,7 +157,7 @@ app.get("/api/category/:id", async (req, res) => {
     const rows = Math.min(parseInt(req.query.rows) || 25, 50);
     const cacheKey = `cat:${id}:${page}:${rows}`;
 
-    const cached = cache.get(cacheKey);
+    const cached = await cache.get(cacheKey);
     if (cached) {
       res.set("X-Cache", "HIT");
       return res.json(cached);
@@ -198,7 +198,7 @@ app.get("/api/search", async (req, res) => {
     const maxDuration = parseInt(req.query.maxDuration) || 0; // seconds, 0 = no max
     const cacheKey = `search:${q}:${categoryId || ""}:${collectionId || ""}:${creatorQuery || ""}:${page}:${rows}:${minDuration}:${maxDuration}`;
 
-    const cached = cache.get(cacheKey);
+    const cached = await cache.get(cacheKey);
     if (cached) {
       res.set("X-Cache", "HIT");
       return res.json(cached);
@@ -267,7 +267,7 @@ app.get("/api/shorts", async (req, res) => {
     const timeBucket = Math.floor(Date.now() / (30 * 60 * 1000)); // 30min rotation
     const cacheKey = `shorts:${limit}:${timeBucket}`;
 
-    const cached = cache.get(cacheKey);
+    const cached = await cache.get(cacheKey);
     if (cached) {
       res.set("X-Cache", "HIT");
       return res.json(cached);
@@ -298,7 +298,7 @@ app.get("/api/item/:identifier", async (req, res) => {
     const { identifier } = req.params;
     const cacheKey = `item:${identifier}`;
 
-    const cached = cache.get(cacheKey);
+    const cached = await cache.get(cacheKey);
     if (cached) {
       res.set("X-Cache", "HIT");
       return res.json(cached);
@@ -325,7 +325,7 @@ app.get("/api/related/:identifier", async (req, res) => {
     const limit = Math.min(parseInt(req.query.limit) || 15, 30);
     const cacheKey = `related:${identifier}:${limit}`;
 
-    const cached = cache.get(cacheKey);
+    const cached = await cache.get(cacheKey);
     if (cached) {
       res.set("X-Cache", "HIT");
       return res.json(cached);

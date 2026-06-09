@@ -132,12 +132,12 @@ router.delete("/hearts", (req, res) => {
 
 // ── Flush cache ──────────────────────────────────────────
 
-router.delete("/cache", (req, res) => {
+router.delete("/cache", async (req, res) => {
   if (req._cache) {
     const count = req._cache.stats().entries;
-    req._cache.store.clear();
-    console.log(`[admin] Cache flushed by ${req.user.email} — ${count} entries cleared`);
-    res.json({ ok: true, flushed: count, message: `Cleared ${count} cache entries` });
+    await req._cache.flush();
+    console.log(`[admin] Cache flushed by ${req.user.email} — ${count} L1 entries + Redis cleared`);
+    res.json({ ok: true, flushed: count, message: `Cleared ${count} cache entries (L1 + Redis)` });
   } else {
     res.json({ ok: true, flushed: 0, message: "No cache reference available" });
   }
