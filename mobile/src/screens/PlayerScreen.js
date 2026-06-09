@@ -74,7 +74,7 @@ export default function PlayerScreen({ route, navigation }) {
   // Deep-link support: /watch/:id only provides params.id, no full item object.
   // Normal navigation passes a full item object. Handle both.
   const stub = params.item || { id: params.id, title: '', thumbnail: null };
-  const { categoryId, queue, queueIndex, channelLabel } = params;
+  const { categoryId, queue, queueIndex, channelLabel, channelCatIds, channelPage } = params;
   const insets = useSafeAreaInsets();
   const { width: windowW } = useWindowDimensions();
   const { sidebarWidth } = useSidebar();
@@ -89,6 +89,44 @@ export default function PlayerScreen({ route, navigation }) {
   const { user, isAuthenticated } = useAuth();
   const accent = gen.accentColor;
   const inChannel = Array.isArray(queue) && queue.length > 0;
+
+  // ── Infinite channel pagination: pre-fetch next batch before the queue runs out ──
+  // Like doom-scrolling — the user never sees a loading state, content is always ready.
+  // Each PlayerScreen mount checks the remaining buffer and fetches ahead if low.
+  const liveQueueRef = useRef(queue || []);
+  const livePageRef = useRef(channelPage || 1);
+  const fetchingMoreRef = useRef(false);
+
+  useEffect(() => {
+    if (!inChannel || !channelCatIds?.length) return;
+    // Reset refs from route params (in case they grew from a previous mount)
+    liveQueueRef.current = queue || [];
+    livePageRef.current = channelPage || 1;
+
+    var currentIdx = queueIndex ?? 0;
+    var remaining = liveQueueRef.current.length - currentIdx - 1;
+
+    // Keep a buffer of ~10 items ahead — start fetching when under 10 remaining
+    if (remaining < 10 && !fetchingMoreRef.current) {
+      fetchingMoreRef.current = true;
+      var nextPage = livePageRef.current + 1;
+      api.getChannelQueue(channelCatIds, 25, nextPage)
+        .then(function (result) {
+          var newItems = (result && result.items) || [];
+          if (newItems.length > 0) {
+            // Dedupe against existing queue
+            var existing = new Set(liveQueueRef.current.map(function (i) { return i.id; }));
+            var unique = newItems.filter(function (i) { return !existing.has(i.id); });
+            if (unique.length > 0) {
+              liveQueueRef.current = liveQueueRef.current.concat(unique);
+              livePageRef.current = nextPage;
+            }
+          }
+        })
+        .catch(function () {})
+        .finally(function () { fetchingMoreRef.current = false; });
+    }
+  }, []); // Run once on mount
 
   // Guard: if no item ID (bad deep link like /watch/ with no id), go home
   useEffect(() => {
@@ -154,6 +192,7 @@ export default function PlayerScreen({ route, navigation }) {
   const videoRef = useRef(null);
 
   // When the current video ends, advance to next item (channel queue or autoplay related).
+  // Uses the live queue ref which may have grown via pre-fetch — infinite channel pagination.
   const handleVideoEnded = useCallback(() => {
     // Fire "complete" watch event
     api.sendWatchEvent({
@@ -163,15 +202,26 @@ export default function PlayerScreen({ route, navigation }) {
     }).catch(() => {});
 
     if (inChannel) {
-      const nextIndex = ((queueIndex ?? 0) + 1) % queue.length;
-      const nextItem = queue[nextIndex];
-      navigation.replace("Player", {
-        item: nextItem, id: nextItem.id, queue, queueIndex: nextIndex, categoryId, channelLabel,
-      });
+      // Use the live queue (may be extended by pre-fetch) instead of the original route param queue
+      var currentQueue = liveQueueRef.current.length > 0 ? liveQueueRef.current : (queue || []);
+      var nextIndex = (queueIndex ?? 0) + 1;
+      // If we've reached the end and have no more items, wrap around
+      if (nextIndex >= currentQueue.length) nextIndex = 0;
+      var nextItem = currentQueue[nextIndex];
+      if (nextItem) {
+        navigation.replace("Player", {
+          item: nextItem, id: nextItem.id,
+          queue: currentQueue,
+          queueIndex: nextIndex,
+          categoryId, channelLabel,
+          channelCatIds: channelCatIds,    // pass through for next mount's pre-fetch
+          channelPage: livePageRef.current, // pass the latest page so next mount knows where we are
+        });
+      }
     } else if (autoplay && relatedItems.length > 0) {
       navigation.replace("Player", { item: relatedItems[0], id: relatedItems[0].id });
     }
-  }, [stub, inChannel, queue, queueIndex, categoryId, channelLabel, navigation, autoplay, relatedItems]);
+  }, [stub, inChannel, queue, queueIndex, categoryId, channelLabel, channelCatIds, navigation, autoplay, relatedItems]);
 
   // Inject skeleton pulse keyframes on web
   useEffect(() => {

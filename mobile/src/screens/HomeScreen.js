@@ -376,15 +376,17 @@ export default function HomeScreen({ navigation }) {
     }
   }, []);
 
-  // ── Deep channel queue: fetch 200+ items from Archive.org, not just the 15 pre-cached ──
+  // ── Deep channel queue with infinite pagination ──
+  // Load a small first batch (25 items) for instant playback, then Player
+  // pre-fetches the next page in the background — doom-scroll for video.
   const [loadingChannel, setLoadingChannel] = useState(null); // label of channel being loaded
   const handleChannelPress = useCallback(async (cat, label, catIds) => {
     if (!catIds?.length) return;
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
     setLoadingChannel(label);
     try {
-      // Fetch deep queue — 200 items mixed from all the channel's categories
-      const result = await api.getChannelQueue(catIds, 200);
+      // Fetch first page — just 25 items for fast start
+      const result = await api.getChannelQueue(catIds, 25, 1);
       const deepItems = result?.items || [];
       // Fall back to shallow pre-cached items if deep fetch fails
       const queue = deepItems.length > 0 ? deepItems : (cat?.items || []);
@@ -396,6 +398,8 @@ export default function HomeScreen({ navigation }) {
         queueIndex: 0,
         categoryId: catIds[0],
         channelLabel: label,
+        channelCatIds: catIds,   // Player uses this to fetch more pages
+        channelPage: 1,          // current page — Player increments as it fetches
       });
     } catch (err) {
       console.warn('[channel queue]', err.message);
@@ -408,6 +412,8 @@ export default function HomeScreen({ navigation }) {
           queueIndex: 0,
           categoryId: cat.id,
           channelLabel: label,
+          channelCatIds: catIds,
+          channelPage: 0,
         });
       }
     } finally {
