@@ -4,9 +4,11 @@ import {
   ActivityIndicator, Linking, Alert, Animated, Dimensions, LayoutAnimation,
   Platform, UIManager, Share, TextInput,
 } from 'react-native';
-const { height: SCREEN_H } = Dimensions.get('window');
+const { height: SCREEN_H, width: SCREEN_W } = Dimensions.get('window');
 const IS_WEB = Platform.OS === 'web';
+const IS_DESKTOP = IS_WEB && SCREEN_W > 900;
 const VIDEO_H = IS_WEB ? Math.round(SCREEN_H * 0.52) : Math.round(SCREEN_H * 0.42);
+const SIDEBAR_W = IS_DESKTOP ? 340 : 0;
 
 // Enable LayoutAnimation on Android
 if (Platform.OS === 'android' && UIManager.setLayoutAnimationEnabledExperimental) {
@@ -21,6 +23,7 @@ import VideoPlayer from '../components/VideoPlayer';
 import AddToPlaylistModal from '../components/AddToPlaylistModal';
 import { useGeneration } from '../context/GenerationContext';
 import { useGame } from '../context/GameContext';
+import { useAuth } from '../context/AuthContext';
 import api from '../api/client';
 import store from '../store/cache';
 import { colors, fonts, spacing, radius } from '../theme';
@@ -42,11 +45,11 @@ export default function PlayerScreen({ route, navigation }) {
   const insets = useSafeAreaInsets();
   const { gen } = useGeneration();
   const { onWatchItem, onContribute, XP_REWARDS } = useGame();
+  const { user, isAuthenticated } = useAuth();
   const accent = gen.accentColor;
   const inChannel = Array.isArray(queue) && queue.length > 0;
 
-  // When the current video ends, advance to the next item in the channel queue.
-  // Loops back to the start when we reach the end.
+  // When the current video ends, advance to next item (channel queue or autoplay related).
   const handleVideoEnded = useCallback(() => {
     // Fire "complete" watch event
     api.sendWatchEvent({
@@ -55,13 +58,16 @@ export default function PlayerScreen({ route, navigation }) {
       event_type: 'complete', watch_percent: 100,
     }).catch(() => {});
 
-    if (!inChannel) return;
-    const nextIndex = ((queueIndex ?? 0) + 1) % queue.length;
-    const nextItem = queue[nextIndex];
-    navigation.replace("Player", {
-      item: nextItem, queue, queueIndex: nextIndex, categoryId, channelLabel,
-    });
-  }, [stub, inChannel, queue, queueIndex, categoryId, channelLabel, navigation]);
+    if (inChannel) {
+      const nextIndex = ((queueIndex ?? 0) + 1) % queue.length;
+      const nextItem = queue[nextIndex];
+      navigation.replace("Player", {
+        item: nextItem, queue, queueIndex: nextIndex, categoryId, channelLabel,
+      });
+    } else if (autoplay && relatedItems.length > 0) {
+      navigation.replace("Player", { item: relatedItems[0] });
+    }
+  }, [stub, inChannel, queue, queueIndex, categoryId, channelLabel, navigation, autoplay, relatedItems]);
 
   // Build an optimistic video URL — Archive.org commonly has a 512Kb MPEG4 at a predictable path.
   // This lets us start playback almost instantly while the real metadata loads in the background.
@@ -92,6 +98,12 @@ export default function PlayerScreen({ route, navigation }) {
   const [contributeExtra, setContributeExtra] = useState('');
   const [contributing, setContributing] = useState(false);
   const [playlistModalOpen, setPlaylistModalOpen] = useState(false);
+  const [autoplay, setAutoplay] = useState(true);
+  const [comments, setComments] = useState([]);
+  const [commentsLoading, setCommentsLoading] = useState(false);
+  const [commentText, setCommentText] = useState('');
+  const [commentPosting, setCommentPosting] = useState(false);
+  const [commentsExpanded, setCommentsExpanded] = useState(false);
   const watchStartSent = useRef(false);
   const xpOpacity = useRef(new Animated.Value(0)).current;
   const xpFired = useRef(false);
@@ -165,7 +177,8 @@ export default function PlayerScreen({ route, navigation }) {
             event_type: 'start', watch_percent: 0,
           }).catch(() => {});
         }
-        api.getRelated(stub.id, 12).then(setRelatedItems).catch(() => {});
+        api.getRelated(stub.id, 20).then(setRelatedItems).catch(() => {});
+        api.getComments(stub.id).then((c) => { if (!cancelled) setComments(c.comments || []); }).catch(() => {});
         api.getXRay(stub.id).then((xray) => {
           if (xray && !cancelled) {
             setXrayData(xray.contributions || {});
@@ -383,6 +396,73 @@ export default function PlayerScreen({ route, navigation }) {
     setInfoExpanded((v) => !v);
   }, []);
 
+  // Desktop sidebar — related videos shown vertically like YouTube
+  const SidebarContent = IS_DESKTOP ? (
+    <ScrollView style={styles.sidebar} showsVerticalScrollIndicator={false} contentContainerStyle={{ paddingBottom: 40 }}>
+      {/* Autoplay toggle */}
+      <View style={styles.sidebarAutoplay}>
+        <Text style={styles.sidebarAutoplayLabel}>AUTOPLAY</Text>
+        <TouchableOpacity
+          onPress={() => setAutoplay((v) => !v)}
+          style={[styles.autoplayToggle, autoplay && { backgroundColor: accent }]}
+          activeOpacity={0.7}
+        >
+          <View style={[styles.autoplayKnob, autoplay && styles.autoplayKnobOn]} />
+        </TouchableOpacity>
+      </View>
+
+      {/* Up Next */}
+      {relatedItems.length > 0 && (
+        <>
+          <View style={styles.sidebarUpNext}>
+            <Text style={[styles.sidebarUpNextLabel, { color: accent }]}>UP NEXT</Text>
+          </View>
+          <Pressable
+            onPress={() => {
+              Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+              navigation.replace('Player', { item: relatedItems[0] });
+            }}
+            style={styles.sidebarUpNextCard}
+          >
+            <FastImage uri={relatedItems[0].thumbnail} itemId={relatedItems[0].id} style={styles.sidebarUpNextThumb} contentFit="cover" />
+            <View style={styles.sidebarUpNextInfo}>
+              <Text style={styles.sidebarUpNextTitle} numberOfLines={2}>{relatedItems[0].title}</Text>
+              {relatedItems[0].year ? <Text style={[styles.sidebarUpNextYear, { color: accent }]}>{relatedItems[0].year}</Text> : null}
+              {relatedItems[0].creator ? <Text style={styles.sidebarUpNextCreator} numberOfLines={1}>
+                {Array.isArray(relatedItems[0].creator) ? relatedItems[0].creator[0] : relatedItems[0].creator}
+              </Text> : null}
+            </View>
+          </Pressable>
+
+          {/* Separator */}
+          <View style={styles.sidebarDivider} />
+
+          {/* More related */}
+          <Text style={styles.sidebarSectionLabel}>RABBIT HOLE</Text>
+          {relatedItems.slice(1).map((rel) => (
+            <Pressable
+              key={rel.id}
+              onPress={() => {
+                Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+                navigation.replace('Player', { item: rel });
+              }}
+              style={styles.sidebarRelCard}
+            >
+              <FastImage uri={rel.thumbnail} itemId={rel.id} style={styles.sidebarRelThumb} contentFit="cover" />
+              <View style={styles.sidebarRelInfo}>
+                <Text style={styles.sidebarRelTitle} numberOfLines={2}>{rel.title}</Text>
+                {rel.year ? <Text style={[styles.sidebarRelYear, { color: accent }]}>{rel.year}</Text> : null}
+                {rel.creator ? <Text style={styles.sidebarRelCreator} numberOfLines={1}>
+                  {Array.isArray(rel.creator) ? rel.creator[0] : rel.creator}
+                </Text> : null}
+              </View>
+            </Pressable>
+          ))}
+        </>
+      )}
+    </ScrollView>
+  ) : null;
+
   return (
     <View style={styles.container}>
       {/* XP toast */}
@@ -391,6 +471,11 @@ export default function PlayerScreen({ route, navigation }) {
           <Text style={[styles.xpToastText, { color: accent }]}>{xpToast}</Text>
         </Animated.View>
       )}
+
+      {/* Desktop: two-column row. Mobile: stacked. */}
+      <View style={IS_DESKTOP ? styles.desktopRow : { flex: 1 }}>
+        {/* Left column: video + info */}
+        <View style={IS_DESKTOP ? styles.desktopMain : { flex: 1 }}>
 
       {/* Video area — taller default */}
       <View style={[styles.playerArea, { height: infoExpanded ? VIDEO_H * 0.7 : VIDEO_H }]}>
@@ -414,14 +499,13 @@ export default function PlayerScreen({ route, navigation }) {
             videoUrl={videoSource}
             title={item.title}
             onBack={() => navigation.goBack()}
-            onEnded={inChannel ? handleVideoEnded : undefined}
+            onEnded={(inChannel || autoplay) ? handleVideoEnded : undefined}
             onVideoError={handleVideoError}
             channelLabel={inChannel ? channelLabel || "CHANNEL" : undefined}
           />
         )}
 
-        {/* Back/fullscreen overlay only when video player is NOT shown
-             (loading/error state). VideoPlayer has its own controls. */}
+        {/* Back/fullscreen overlay only when video player is NOT shown */}
         {!videoSource && (
           <TouchableOpacity
             style={[styles.overlayBack, { top: insets.top + 8 }]}
@@ -432,6 +516,23 @@ export default function PlayerScreen({ route, navigation }) {
           </TouchableOpacity>
         )}
       </View>
+
+      {/* Mobile autoplay toggle — below video */}
+      {!IS_DESKTOP && (
+        <View style={styles.mobileAutoplayRow}>
+          <Text style={styles.mobileAutoplayLabel}>Autoplay</Text>
+          <TouchableOpacity
+            onPress={() => setAutoplay((v) => !v)}
+            style={[styles.autoplayToggle, autoplay && { backgroundColor: accent }]}
+            activeOpacity={0.7}
+          >
+            <View style={[styles.autoplayKnob, autoplay && styles.autoplayKnobOn]} />
+          </TouchableOpacity>
+          {autoplay && relatedItems.length > 0 && (
+            <Text style={styles.mobileUpNextHint} numberOfLines={1}>Up next: {relatedItems[0]?.title}</Text>
+          )}
+        </View>
+      )}
 
       {/* ── Info panel below video ── */}
       <ScrollView
@@ -883,8 +984,109 @@ export default function PlayerScreen({ route, navigation }) {
           </View>
         )}
 
-        {/* ── Rabbit Hole — prominent, full-width ── */}
-        {relatedItems.length > 0 && (
+        {/* ── Comments Section ── */}
+        <View style={styles.commentsSection}>
+          <TouchableOpacity
+            onPress={() => setCommentsExpanded((v) => !v)}
+            style={styles.commentsSectionHeader}
+            activeOpacity={0.7}
+          >
+            <Ionicons name="chatbubble-outline" size={13} color={accent} />
+            <Text style={[styles.sectionLabel, { color: accent }]}>COMMENTS</Text>
+            <Text style={styles.sectionSub}>{comments.length > 0 ? `${comments.length}` : 'be first'}</Text>
+            <View style={{ flex: 1 }} />
+            <Ionicons name={commentsExpanded ? "chevron-up" : "chevron-down"} size={14} color={colors.textSecondary} />
+          </TouchableOpacity>
+
+          {/* Preview — show first 2 when collapsed */}
+          {!commentsExpanded && comments.length > 0 && (
+            <View style={styles.commentsPreview}>
+              {comments.slice(0, 2).map((c) => (
+                <View key={c.id} style={styles.commentRow}>
+                  <Text style={styles.commentAuthor}>{c.username || 'anon'}</Text>
+                  <Text style={styles.commentBody} numberOfLines={1}>{c.body}</Text>
+                </View>
+              ))}
+            </View>
+          )}
+
+          {/* Expanded: full list + compose */}
+          {commentsExpanded && (
+            <View style={styles.commentsExpanded}>
+              {/* Compose */}
+              {isAuthenticated ? (
+                <View style={styles.composeRow}>
+                  <TextInput
+                    style={[styles.composeInput, { borderColor: accent + '40' }]}
+                    value={commentText}
+                    onChangeText={setCommentText}
+                    placeholder="Add a comment..."
+                    placeholderTextColor={colors.textGhost}
+                    maxLength={2000}
+                    multiline
+                  />
+                  <TouchableOpacity
+                    style={[styles.composeBtn, { backgroundColor: commentText.trim() ? accent : colors.surface }]}
+                    disabled={!commentText.trim() || commentPosting}
+                    onPress={async () => {
+                      if (!commentText.trim()) return;
+                      setCommentPosting(true);
+                      try {
+                        const result = await api.postComment(item.id, commentText.trim());
+                        setComments((prev) => [{
+                          id: result.comment?.id || Date.now(),
+                          body: commentText.trim(),
+                          username: user?.username || user?.display_name || 'you',
+                          user_id: user?.id,
+                          created_at: new Date().toISOString(),
+                          upvote_count: 0,
+                        }, ...prev]);
+                        setCommentText('');
+                        Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
+                      } catch (err) {
+                        Alert.alert('Error', err.message || 'Could not post comment');
+                      }
+                      setCommentPosting(false);
+                    }}
+                    activeOpacity={0.7}
+                  >
+                    {commentPosting ? (
+                      <ActivityIndicator size="small" color={colors.bg} />
+                    ) : (
+                      <Ionicons name="send" size={14} color={commentText.trim() ? colors.bg : colors.textGhost} />
+                    )}
+                  </TouchableOpacity>
+                </View>
+              ) : (
+                <TouchableOpacity
+                  onPress={() => navigation.navigate('Auth')}
+                  style={styles.commentSignIn}
+                >
+                  <Text style={[styles.commentSignInText, { color: accent }]}>SIGN IN TO COMMENT</Text>
+                </TouchableOpacity>
+              )}
+
+              {/* Comment list */}
+              {comments.map((c) => (
+                <View key={c.id} style={styles.commentCard}>
+                  <View style={styles.commentHeader}>
+                    <Text style={[styles.commentAuthor, { color: accent }]}>{c.username || 'anon'}</Text>
+                    <Text style={styles.commentTime}>
+                      {c.created_at ? new Date(c.created_at).toLocaleDateString() : ''}
+                    </Text>
+                  </View>
+                  <Text style={styles.commentBody}>{c.body}</Text>
+                </View>
+              ))}
+              {comments.length === 0 && (
+                <Text style={styles.commentsEmpty}>No comments yet — start the conversation.</Text>
+              )}
+            </View>
+          )}
+        </View>
+
+        {/* ── Rabbit Hole — horizontal on mobile, hidden on desktop (shown in sidebar) ── */}
+        {!IS_DESKTOP && relatedItems.length > 0 && (
           <View style={styles.rabbitSection}>
             <View style={styles.sectionLine}>
               <View style={[styles.sectionLineBorder, { backgroundColor: accent + '30' }]} />
@@ -936,6 +1138,12 @@ export default function PlayerScreen({ route, navigation }) {
           </View>
         )}
       </ScrollView>
+
+        </View>{/* end desktopMain or flex:1 */}
+
+        {/* Desktop sidebar */}
+        {SidebarContent}
+      </View>{/* end desktopRow or flex:1 */}
 
       {/* Add to Playlist modal */}
       <AddToPlaylistModal
@@ -1764,4 +1972,117 @@ const styles = StyleSheet.create({
   },
   formatName: { fontFamily: fonts.mono, fontSize: 11, color: colors.textSecondary },
   formatSize: { fontFamily: fonts.mono, fontSize: 11, color: colors.textMuted },
+
+  // ── Desktop two-column layout ──
+  desktopRow: { flex: 1, flexDirection: 'row' },
+  desktopMain: { flex: 1 },
+
+  // ── Mobile autoplay row ──
+  mobileAutoplayRow: {
+    flexDirection: 'row', alignItems: 'center', gap: 8,
+    paddingHorizontal: spacing.screenPadding, paddingVertical: 6,
+    borderBottomWidth: StyleSheet.hairlineWidth, borderBottomColor: colors.surface + '60',
+  },
+  mobileAutoplayLabel: { fontFamily: fonts.mono, fontSize: 10, color: colors.textMuted, letterSpacing: 0.5 },
+  mobileUpNextHint: {
+    flex: 1, fontFamily: fonts.sans, fontSize: 10, color: colors.textGhost,
+    marginLeft: 4,
+  },
+
+  // ── Autoplay toggle (shared) ──
+  autoplayToggle: {
+    width: 34, height: 18, borderRadius: 9,
+    backgroundColor: colors.surface,
+    justifyContent: 'center', paddingHorizontal: 2,
+  },
+  autoplayKnob: {
+    width: 14, height: 14, borderRadius: 7,
+    backgroundColor: colors.textMuted,
+  },
+  autoplayKnobOn: {
+    backgroundColor: '#fff', alignSelf: 'flex-end',
+  },
+
+  // ── Desktop sidebar ──
+  sidebar: {
+    width: SIDEBAR_W,
+    backgroundColor: colors.bg,
+    borderLeftWidth: 1, borderLeftColor: colors.surface,
+    paddingHorizontal: 14, paddingTop: 12,
+  },
+  sidebarAutoplay: {
+    flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between',
+    marginBottom: 14,
+  },
+  sidebarAutoplayLabel: { fontFamily: fonts.monoBold, fontSize: 10, color: colors.textMuted, letterSpacing: 1 },
+  sidebarUpNext: { marginBottom: 8 },
+  sidebarUpNextLabel: { fontFamily: fonts.monoBold, fontSize: 11, letterSpacing: 2 },
+  sidebarUpNextCard: {
+    flexDirection: 'row', gap: 10, padding: 8,
+    borderRadius: radius.md, backgroundColor: colors.surface + '40',
+    borderWidth: 1, borderColor: colors.surface,
+  },
+  sidebarUpNextThumb: { width: 120, height: 72, borderRadius: 6, backgroundColor: colors.card },
+  sidebarUpNextInfo: { flex: 1, justifyContent: 'center' },
+  sidebarUpNextTitle: { fontFamily: fonts.sansSemiBold, fontSize: 13, color: colors.textPrimary, lineHeight: 17 },
+  sidebarUpNextYear: { fontFamily: fonts.mono, fontSize: 10, marginTop: 3 },
+  sidebarUpNextCreator: { fontFamily: fonts.sans, fontSize: 10, color: colors.textMuted, marginTop: 1 },
+  sidebarDivider: {
+    height: 1, backgroundColor: colors.surface, marginVertical: 12,
+  },
+  sidebarSectionLabel: {
+    fontFamily: fonts.monoBold, fontSize: 9, color: colors.textMuted,
+    letterSpacing: 1.5, marginBottom: 10,
+  },
+  sidebarRelCard: {
+    flexDirection: 'row', gap: 8, marginBottom: 10,
+  },
+  sidebarRelThumb: { width: 100, height: 60, borderRadius: 4, backgroundColor: colors.card },
+  sidebarRelInfo: { flex: 1, justifyContent: 'center' },
+  sidebarRelTitle: { fontFamily: fonts.sans, fontSize: 12, color: colors.textPrimary, lineHeight: 15 },
+  sidebarRelYear: { fontFamily: fonts.mono, fontSize: 9, marginTop: 2 },
+  sidebarRelCreator: { fontFamily: fonts.sans, fontSize: 10, color: colors.textMuted, marginTop: 1 },
+
+  // ── Comments ──
+  commentsSection: {
+    marginTop: 10, paddingHorizontal: spacing.screenPadding,
+  },
+  commentsSectionHeader: {
+    flexDirection: 'row', alignItems: 'center', gap: 6,
+    paddingVertical: 8,
+  },
+  commentsPreview: { paddingBottom: 4 },
+  commentRow: {
+    flexDirection: 'row', gap: 6, paddingVertical: 3, alignItems: 'baseline',
+  },
+  commentAuthor: { fontFamily: fonts.monoBold, fontSize: 10, color: colors.textSecondary, letterSpacing: 0.3 },
+  commentBody: { fontFamily: fonts.sans, fontSize: 12, color: colors.textPrimary, lineHeight: 16, flex: 1 },
+  commentTime: { fontFamily: fonts.mono, fontSize: 8, color: colors.textGhost },
+  commentsExpanded: { paddingTop: 4, paddingBottom: 10 },
+  composeRow: {
+    flexDirection: 'row', gap: 8, marginBottom: 12, alignItems: 'flex-end',
+  },
+  composeInput: {
+    flex: 1, fontFamily: fonts.sans, fontSize: 13, color: colors.textPrimary,
+    backgroundColor: colors.surface + '40', borderRadius: radius.sm,
+    borderWidth: 1, padding: 10, minHeight: 38, maxHeight: 80,
+    textAlignVertical: 'top',
+  },
+  composeBtn: {
+    width: 38, height: 38, borderRadius: radius.sm,
+    justifyContent: 'center', alignItems: 'center',
+  },
+  commentSignIn: { paddingVertical: 10 },
+  commentSignInText: { fontFamily: fonts.monoBold, fontSize: 10, letterSpacing: 1.2 },
+  commentCard: {
+    paddingVertical: 8, borderBottomWidth: StyleSheet.hairlineWidth,
+    borderBottomColor: colors.surface + '60',
+  },
+  commentHeader: {
+    flexDirection: 'row', alignItems: 'baseline', gap: 6, marginBottom: 3,
+  },
+  commentsEmpty: {
+    fontFamily: fonts.mono, fontSize: 11, color: colors.textGhost,
+    textAlign: 'center', paddingVertical: 16,
+  },
 });

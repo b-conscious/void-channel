@@ -355,8 +355,8 @@ export default function HomeScreen({ navigation }) {
           style={styles.supportBanner}
           activeOpacity={0.7}
         >
-          <Ionicons name="gift-outline" size={14} color="#ff2d78" />
           <Text style={styles.supportBannerText}>SUPPORT HUMAN CREATIONS</Text>
+          <Ionicons name="gift" size={13} color="#39ff14" />
           <Text style={styles.supportBannerSlogan}>FIGHT THE SLOP</Text>
         </TouchableOpacity>
         <Text style={[styles.headerTagline, { color: accent }]}>GENERATING SINCE 1895</Text>
@@ -1051,10 +1051,10 @@ function DrawerMenu({ visible, onClose, accent, gen, generationId, chooseGenerat
             onPress={() => Linking.openURL('https://square.link/u/IteDL7XI')}
             activeOpacity={0.7}
           >
-            <Ionicons name="gift-outline" size={16} color="#ff2d78" style={{ width: 28 }} />
+            <Ionicons name="gift" size={16} color="#39ff14" style={{ width: 28 }} />
             <View>
-              <Text style={[drawerStyles.menuLabel, { color: '#ff2d78' }]}>SUPPORT HUMAN CREATIONS</Text>
-              <Text style={drawerStyles.supportSub}>FIGHT THE SLOP — donate to keep real cinema alive</Text>
+              <Text style={drawerStyles.menuLabel}>SUPPORT HUMAN CREATIONS</Text>
+              <Text style={[drawerStyles.supportSub, { color: '#39ff14' }]}>FIGHT THE SLOP — donate to keep real cinema alive</Text>
             </View>
           </TouchableOpacity>
 
@@ -1202,20 +1202,20 @@ const styles = StyleSheet.create({
   signInChipText: {
     fontFamily: fonts.mono, fontSize: 8, color: colors.textMuted, letterSpacing: 0.8,
   },
-  // Support banner — prominent call to action
+  // Support banner — one row: SUPPORT HUMAN CREATIONS [gift] FIGHT THE SLOP
   supportBanner: {
     flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 6,
-    marginTop: 8, paddingVertical: 8, paddingHorizontal: 12,
+    marginTop: 8, paddingVertical: 7, paddingHorizontal: 12,
     borderRadius: radius.sm,
-    borderWidth: 1, borderColor: '#ff2d7835',
-    backgroundColor: '#ff2d7808',
+    borderWidth: 1, borderColor: '#39ff1425',
+    backgroundColor: '#39ff1406',
   },
   supportBannerText: {
-    fontFamily: fonts.monoBold, fontSize: 10, color: '#ff2d78', letterSpacing: 1.5,
+    fontFamily: fonts.monoBold, fontSize: 9, color: colors.textSecondary, letterSpacing: 1.2,
   },
   supportBannerSlogan: {
-    fontFamily: fonts.monoBold, fontSize: 9, color: '#ff2d7880', letterSpacing: 1,
-    borderLeftWidth: 1, borderLeftColor: '#ff2d7830', paddingLeft: 6,
+    fontFamily: fonts.monoBold, fontSize: 10, color: '#39ff14', letterSpacing: 1.5,
+    textShadowColor: '#39ff1460', textShadowOffset: { width: 0, height: 0 }, textShadowRadius: 6,
   },
   randomBtn: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 10, paddingVertical: 6, borderRadius: radius.sm },
   randomText: { fontFamily: fonts.monoBold, fontSize: 9, letterSpacing: 1.2 },

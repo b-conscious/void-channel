@@ -28,6 +28,7 @@ const playlistRoutes = require("./playlists");
 const subscriptionRoutes = require("./subscriptions");
 const trendingRoutes = require("./trending");
 const adminRoutes = require("./admin");
+const commentRoutes = require("./comments");
 
 const app = express();
 const cache = new Cache(1200); // 20min default TTL (was 1hr — rotate content faster)
@@ -66,6 +67,9 @@ app.use(optionalAuth);
 app.use("/api/playlists", playlistRoutes);
 app.use("/api/subscriptions", subscriptionRoutes);
 app.use("/api", trendingRoutes);
+
+// Comments — public read, auth required for write
+app.use("/api", commentRoutes);
 
 // Admin routes — inject cache reference for flush control
 app.use("/api/admin", (req, res, next) => { req._cache = cache; next(); }, adminRoutes);

@@ -360,6 +360,39 @@ export async function getRecommendations(limit = 20) {
   return request(`/api/recommendations?limit=${limit}`);
 }
 
+// ── Comments ────────────────────────────────────────────
+
+/** Get comments for an item */
+export async function getComments(itemId, page = 1, sort = "newest") {
+  return request(`/api/items/${encodeURIComponent(itemId)}/comments?page=${page}&sort=${sort}`);
+}
+
+/** Post a comment on an item */
+export async function postComment(itemId, body, parent_id = null) {
+  return request(`/api/items/${encodeURIComponent(itemId)}/comments`, {
+    method: "POST",
+    body: JSON.stringify({ body, parent_id }),
+  });
+}
+
+/** Edit own comment */
+export async function editComment(commentId, body) {
+  return request(`/api/comments/${commentId}`, {
+    method: "PATCH",
+    body: JSON.stringify({ body }),
+  });
+}
+
+/** Delete own comment (soft delete) */
+export async function deleteComment(commentId) {
+  return request(`/api/comments/${commentId}`, { method: "DELETE" });
+}
+
+/** Get replies to a comment */
+export async function getCommentReplies(commentId) {
+  return request(`/api/comments/${commentId}/replies`);
+}
+
 // ── Admin ───────────────────────────────────────────────
 
 /** Get admin dashboard stats */
@@ -427,6 +460,7 @@ export default {
   addToPlaylist, removeFromPlaylist, reorderPlaylist,
   getSubscriptions, subscribe, unsubscribe, getSubscriptionFeed,
   sendWatchEvent, getTrending, getRecommendations,
+  getComments, postComment, editComment, deleteComment, getCommentReplies,
   adminDashboard, adminWipeViews, adminWipeHearts, adminFlushCache,
   adminUsers, adminContributions, adminApproveContribution, adminRejectContribution,
   adminSetBanner, adminClearBanner,
