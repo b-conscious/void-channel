@@ -4,7 +4,7 @@ import {
   ActivityIndicator, Linking, Alert, Animated, Dimensions, LayoutAnimation,
   Platform, UIManager, Share, TextInput,
 } from 'react-native';
-import { useSidebar } from '../context/SidebarContext';
+import { useSidebar, CONTENT_GAP } from '../context/SidebarContext';
 const { height: SCREEN_H, width: SCREEN_W } = Dimensions.get('window');
 const IS_WEB = Platform.OS === 'web';
 const IS_DESKTOP = IS_WEB && SCREEN_W > 900;
@@ -77,8 +77,9 @@ export default function PlayerScreen({ route, navigation }) {
   const { categoryId, queue, queueIndex, channelLabel } = params;
   const insets = useSafeAreaInsets();
   const { sidebarWidth } = useSidebar();
-  const NAV_W = IS_DESKTOP ? sidebarWidth : 0;
-  const AVAILABLE_W = SCREEN_W - NAV_W - SIDEBAR_W;
+  const NAV_W = IS_DESKTOP ? sidebarWidth + CONTENT_GAP : 0;   // sidebar + 6px gap (handled by nav marginLeft)
+  const RIGHT_PAD = IS_DESKTOP ? CONTENT_GAP : 0;
+  const AVAILABLE_W = SCREEN_W - NAV_W - SIDEBAR_W - RIGHT_PAD;
   const VIDEO_H = IS_WEB
     ? Math.min(Math.round(AVAILABLE_W * 9 / 16), Math.round(SCREEN_H * 0.75))
     : Math.round(SCREEN_H * 0.42);
@@ -2340,7 +2341,7 @@ const styles = StyleSheet.create({
   formatSize: { fontFamily: fonts.mono, fontSize: 11, color: colors.textMuted },
 
   // ── Desktop two-column layout ──
-  desktopRow: { flex: 1, flexDirection: 'row', paddingHorizontal: 16 },
+  desktopRow: { flex: 1, flexDirection: 'row', paddingRight: CONTENT_GAP },
   desktopMain: { flex: 1 },
 
   // ── Mobile autoplay row ──

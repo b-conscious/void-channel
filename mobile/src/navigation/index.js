@@ -6,7 +6,7 @@ import { StyleSheet, Platform, View, Text, ActivityIndicator, Dimensions } from 
 import { BlurView } from 'expo-blur';
 import { Ionicons } from '@expo/vector-icons';
 import DesktopSidebar from '../components/DesktopSidebar';
-import { useSidebar } from '../context/SidebarContext';
+import { useSidebar, CONTENT_GAP } from '../context/SidebarContext';
 
 var IS_DESKTOP = Platform.OS === 'web' && Dimensions.get('window').width > 900;
 
@@ -76,7 +76,7 @@ function TabNavigator() {
   var { sidebarWidth } = useSidebar();
   var desktopProps = IS_DESKTOP ? {
     tabBar: function (props) { return <DesktopSidebar {...props} />; },
-    sceneContainerStyle: { marginLeft: sidebarWidth },
+    sceneContainerStyle: { marginLeft: sidebarWidth + CONTENT_GAP },
   } : {};
 
   return (

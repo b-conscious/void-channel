@@ -19,7 +19,7 @@ import api from '../api/client';
 import store from '../store/cache';
 import { colors, fonts, spacing, radius } from '../theme';
 
-import { useSidebar } from '../context/SidebarContext';
+import { useSidebar, CONTENT_GAP } from '../context/SidebarContext';
 
 const { width: SCREEN_W } = Dimensions.get('window');
 const IS_DESKTOP = Platform.OS === 'web' && SCREEN_W > 900;
@@ -63,8 +63,10 @@ function pickRandom(arr) {
 export default function HomeScreen({ navigation }) {
   const insets = useSafeAreaInsets();
   const { sidebarWidth } = useSidebar();
-  const SIDEBAR_GAP = IS_DESKTOP ? 32 : 0;   // total gap split evenly left+right
-  const contentW = IS_DESKTOP ? SCREEN_W - sidebarWidth - SIDEBAR_GAP : SCREEN_W;
+  // Left gap (6px) is handled by navigation marginLeft.
+  // Right gap (6px) balances it — total 12px accounted for.
+  const RIGHT_PAD = IS_DESKTOP ? CONTENT_GAP : 0;
+  const contentW = IS_DESKTOP ? SCREEN_W - sidebarWidth - CONTENT_GAP - RIGHT_PAD : SCREEN_W;
   const heroH = Math.round(contentW * 0.62);
   const { gen, generationId, chooseGeneration } = useGeneration();
   const { user, isAuthenticated, updateProfile, signOut } = useAuth();
@@ -497,7 +499,7 @@ export default function HomeScreen({ navigation }) {
       <Animated.ScrollView
         ref={scrollRef}
         style={styles.scroll}
-        contentContainerStyle={SIDEBAR_GAP ? { paddingHorizontal: SIDEBAR_GAP / 2 } : undefined}
+        contentContainerStyle={RIGHT_PAD ? { paddingRight: RIGHT_PAD } : undefined}
         onScroll={Animated.event([{ nativeEvent: { contentOffset: { y: scrollY } } }], { useNativeDriver: Platform.OS !== 'web' })}
         scrollEventThrottle={16}
         showsVerticalScrollIndicator={false}

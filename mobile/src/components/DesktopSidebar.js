@@ -69,42 +69,12 @@ export default function DesktopSidebar({ state, navigation }) {
     }
   }
 
-  // ── Collapsed: icon rail ──
+  // ── Collapsed: just a small expand arrow at the left edge ──
   if (collapsed) {
     return (
-      <View style={[styles.sidebar, { width: COLLAPSED_W }]}>
-        {/* Toggle — expand */}
-        <TouchableOpacity onPress={toggleSidebar} style={styles.toggleBtn} activeOpacity={0.7}>
-          <Ionicons name="menu" size={20} color={colors.textSecondary} />
-        </TouchableOpacity>
-
-        {/* Icon rail */}
-        {RAIL_ITEMS.map(function (item) {
-          var isActive = activeRoute === item.name;
-          var color = TAB_COLORS[item.name] || colors.textSecondary;
-          return (
-            <TouchableOpacity
-              key={item.name}
-              onPress={function () { handleTabPress(item.name); }}
-              style={[styles.railItem, isActive && { backgroundColor: color + '15' }]}
-              activeOpacity={0.7}
-            >
-              <Ionicons
-                name={isActive ? item.iconFocused : item.icon}
-                size={22}
-                color={isActive ? color : colors.textSecondary}
-              />
-            </TouchableOpacity>
-          );
-        })}
-
-        {/* Support icon */}
-        <TouchableOpacity
-          onPress={function () { Linking.openURL(DONATE_URL); }}
-          style={styles.railItem}
-          activeOpacity={0.7}
-        >
-          <Ionicons name="gift" size={20} color={BRAND_BLUE} />
+      <View style={[styles.sidebar, { width: COLLAPSED_W, alignItems: 'center', justifyContent: 'flex-start', paddingTop: 12 }]}>
+        <TouchableOpacity onPress={toggleSidebar} style={styles.collapseArrow} activeOpacity={0.7}>
+          <Ionicons name="chevron-forward" size={18} color={colors.textMuted} />
         </TouchableOpacity>
       </View>
     );
@@ -118,10 +88,10 @@ export default function DesktopSidebar({ state, navigation }) {
         contentContainerStyle={styles.scrollContent}
         showsVerticalScrollIndicator={false}
       >
-        {/* Toggle — collapse */}
+        {/* Toggle — collapse to arrow */}
         <View style={styles.topRow}>
           <TouchableOpacity onPress={toggleSidebar} style={styles.toggleBtn} activeOpacity={0.7}>
-            <Ionicons name="menu" size={20} color={colors.textSecondary} />
+            <Ionicons name="chevron-back" size={18} color={colors.textSecondary} />
           </TouchableOpacity>
         </View>
 
@@ -365,10 +335,11 @@ var styles = StyleSheet.create({
     letterSpacing: 0.5, textAlign: 'center', marginTop: 3,
   },
 
-  // Collapsed icon rail
-  railItem: {
-    width: COLLAPSED_W, height: 44,
+  // Collapsed: minimal expand arrow
+  collapseArrow: {
+    width: 24, height: 24,
     justifyContent: 'center', alignItems: 'center',
-    borderRadius: radius.lg,
+    borderRadius: 12,
+    backgroundColor: colors.surface,
   },
 });

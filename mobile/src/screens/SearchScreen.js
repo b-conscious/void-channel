@@ -14,8 +14,8 @@ import { colors, fonts, spacing, cardSize, radius } from '../theme';
 const { width: SCREEN_W } = Dimensions.get('window');
 const IS_DESKTOP = Platform.OS === 'web' && SCREEN_W > 900;
 const DESKTOP_SIDEBAR = IS_DESKTOP ? 150 : 0;   // matches SidebarContext EXPANDED_W
-const DESKTOP_PAD = IS_DESKTOP ? 32 : 0;         // balanced horizontal padding
-const CONTENT_W = SCREEN_W - DESKTOP_SIDEBAR - DESKTOP_PAD;
+const DESKTOP_GAP = IS_DESKTOP ? 12 : 0;         // 6px left (nav) + 6px right padding
+const CONTENT_W = SCREEN_W - DESKTOP_SIDEBAR - DESKTOP_GAP;
 const COLS = Math.max(2, Math.floor(
   (CONTENT_W - spacing.screenPadding * 2 + cardSize.gap) / (cardSize.width + cardSize.gap)
 ));
@@ -397,7 +397,7 @@ export default function SearchScreen({ navigation, route }) {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: colors.bg, ...(IS_DESKTOP ? { paddingHorizontal: DESKTOP_PAD / 2 } : {}) },
+  container: { flex: 1, backgroundColor: colors.bg, ...(IS_DESKTOP ? { paddingRight: 6 } : {}) },
   header: {
     paddingHorizontal: spacing.screenPadding, paddingTop: 16, paddingBottom: 4,
     borderBottomWidth: StyleSheet.hairlineWidth, borderBottomColor: colors.surface,

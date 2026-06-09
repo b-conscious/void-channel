@@ -8,7 +8,8 @@
 import React, { createContext, useContext, useState, useCallback } from 'react';
 
 var EXPANDED_W = 150;
-var COLLAPSED_W = 56;
+var COLLAPSED_W = 28;    // just enough for a chevron arrow
+var CONTENT_GAP = 6;     // gap between sidebar right edge and content left edge
 
 var SidebarContext = createContext({
   collapsed: false,
@@ -34,4 +35,4 @@ export function useSidebar() {
   return useContext(SidebarContext);
 }
 
-export { EXPANDED_W, COLLAPSED_W };
+export { EXPANDED_W, COLLAPSED_W, CONTENT_GAP };
