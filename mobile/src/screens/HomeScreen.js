@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback, useRef, useMemo } from 'react';
 import {
   View, Text, Animated, TouchableOpacity, Pressable, Modal, Linking,
-  ScrollView, StyleSheet, Dimensions, Platform, TextInput,
+  ScrollView, StyleSheet, Dimensions, Platform, TextInput, useWindowDimensions,
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { LinearGradient } from 'expo-linear-gradient';
@@ -62,11 +62,12 @@ function pickRandom(arr) {
 
 export default function HomeScreen({ navigation }) {
   const insets = useSafeAreaInsets();
+  const { width: windowW } = useWindowDimensions();
   const { sidebarWidth } = useSidebar();
-  // Left gap (6px) is handled by navigation marginLeft.
-  // Right gap (6px) balances it — total 12px accounted for.
-  const RIGHT_PAD = IS_DESKTOP ? CONTENT_GAP : 0;
-  const contentW = IS_DESKTOP ? SCREEN_W - sidebarWidth - CONTENT_GAP - RIGHT_PAD : SCREEN_W;
+  // Navigation marginLeft = sidebarWidth + CONTENT_GAP. Scene width = windowW - that.
+  // Right padding = CONTENT_GAP for symmetry. Hero fills scene minus right pad.
+  const sceneW = IS_DESKTOP ? windowW - sidebarWidth - CONTENT_GAP : windowW;
+  const contentW = IS_DESKTOP ? sceneW - CONTENT_GAP : windowW;
   const heroH = Math.round(contentW * 0.62);
   const { gen, generationId, chooseGeneration } = useGeneration();
   const { user, isAuthenticated, updateProfile, signOut } = useAuth();
@@ -374,7 +375,7 @@ export default function HomeScreen({ navigation }) {
         style={[styles.stickyHeader, { paddingTop: insets.top + 4 }]}
       >
         <View style={styles.headerTop}>
-          <View style={styles.headerLeft}>
+          <View style={IS_DESKTOP ? styles.headerCol : styles.headerLeft}>
             {!IS_DESKTOP && (
               <TouchableOpacity onPress={() => setMenuOpen(true)} style={styles.hamburger} hitSlop={8}>
                 <Ionicons name="menu" size={22} color={colors.textPrimary} />
@@ -389,7 +390,7 @@ export default function HomeScreen({ navigation }) {
               </TouchableOpacity>
             )}
           </View>
-          {/* ── Desktop: centered search bar like YouTube ── */}
+          {/* ── Desktop: centered search bar — 3-column flex for true centering ── */}
           {IS_DESKTOP && (
             <Pressable
               onPress={() => navigation.navigate('Search')}
@@ -399,7 +400,7 @@ export default function HomeScreen({ navigation }) {
               <Text style={styles.desktopSearchPlaceholder}>Search VOIDtv</Text>
             </Pressable>
           )}
-          <View style={styles.headerRight}>
+          <View style={IS_DESKTOP ? [styles.headerRight, styles.headerCol, { justifyContent: 'flex-end' }] : styles.headerRight}>
             {/* User avatar + name when logged in */}
             {isAuthenticated && user ? (
               <TouchableOpacity
@@ -499,7 +500,7 @@ export default function HomeScreen({ navigation }) {
       <Animated.ScrollView
         ref={scrollRef}
         style={styles.scroll}
-        contentContainerStyle={RIGHT_PAD ? { paddingRight: RIGHT_PAD } : undefined}
+        contentContainerStyle={IS_DESKTOP ? { paddingRight: CONTENT_GAP } : undefined}
         onScroll={Animated.event([{ nativeEvent: { contentOffset: { y: scrollY } } }], { useNativeDriver: Platform.OS !== 'web' })}
         scrollEventThrottle={16}
         showsVerticalScrollIndicator={false}
@@ -1177,6 +1178,7 @@ const styles = StyleSheet.create({
   },
   headerLeft: { flexDirection: 'row', alignItems: 'center', gap: 10 },
   headerRight: { flexDirection: 'row', alignItems: 'center', gap: 8 },
+  headerCol: { flex: 1, flexDirection: 'row', alignItems: 'center' },  // equal-width columns for centering search bar
   hamburger: { padding: 4 },
   scroll: { flex: 1 },
   logoWrap: { flexDirection: 'row', alignItems: 'baseline' },

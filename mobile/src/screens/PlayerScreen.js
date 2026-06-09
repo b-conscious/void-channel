@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback, useRef } from 'react';
 import {
   View, Text, ScrollView, FlatList, TouchableOpacity, Pressable, StyleSheet,
   ActivityIndicator, Linking, Alert, Animated, Dimensions, LayoutAnimation,
-  Platform, UIManager, Share, TextInput,
+  Platform, UIManager, Share, TextInput, useWindowDimensions,
 } from 'react-native';
 import { useSidebar, CONTENT_GAP } from '../context/SidebarContext';
 const { height: SCREEN_H, width: SCREEN_W } = Dimensions.get('window');
@@ -76,10 +76,11 @@ export default function PlayerScreen({ route, navigation }) {
   const stub = params.item || { id: params.id, title: '', thumbnail: null };
   const { categoryId, queue, queueIndex, channelLabel } = params;
   const insets = useSafeAreaInsets();
+  const { width: windowW } = useWindowDimensions();
   const { sidebarWidth } = useSidebar();
-  const NAV_W = IS_DESKTOP ? sidebarWidth + CONTENT_GAP : 0;   // sidebar + 6px gap (handled by nav marginLeft)
-  const RIGHT_PAD = IS_DESKTOP ? CONTENT_GAP : 0;
-  const AVAILABLE_W = SCREEN_W - NAV_W - SIDEBAR_W - RIGHT_PAD;
+  const NAV_MARGIN = IS_DESKTOP ? sidebarWidth + CONTENT_GAP : 0; // nav marginLeft
+  const sceneW = windowW - NAV_MARGIN;                            // actual scene width
+  const AVAILABLE_W = IS_DESKTOP ? sceneW - SIDEBAR_W - CONTENT_GAP : windowW; // video area minus sidebar and right pad
   const VIDEO_H = IS_WEB
     ? Math.min(Math.round(AVAILABLE_W * 9 / 16), Math.round(SCREEN_H * 0.75))
     : Math.round(SCREEN_H * 0.42);
