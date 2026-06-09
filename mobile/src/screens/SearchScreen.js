@@ -1,4 +1,4 @@
-import React, { useState, useCallback, useRef, useMemo } from 'react';
+import React, { useState, useCallback, useRef, useMemo, useEffect } from 'react';
 import {
   View, Text, FlatList, StyleSheet, ActivityIndicator,
   ScrollView, TouchableOpacity, Dimensions,
@@ -41,7 +41,7 @@ function pickRandom(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
 }
 
-export default function SearchScreen({ navigation }) {
+export default function SearchScreen({ navigation, route }) {
   const insets = useSafeAreaInsets();
   const { gen, generationId } = useGeneration();
   const accent = gen.accentColor;
@@ -58,15 +58,70 @@ export default function SearchScreen({ navigation }) {
   const hint = useMemo(() => pickRandom(gen.searchHints), [gen.id]);
   const debounceRef = useRef(null);
 
+  // ── "See More" — incoming category from HomeScreen ──
+  const [seeMoreCategory, setSeeMoreCategory] = useState(null);
+
+  // Combine base filters with any incoming "See More" category
+  const filters = useMemo(() => {
+    if (!seeMoreCategory) return FILTERS;
+    // Don't duplicate if already in base filters
+    if (FILTERS.some(f => f.categoryId === seeMoreCategory.id)) return FILTERS;
+    const label = (seeMoreCategory.name || seeMoreCategory.id).toUpperCase();
+    return [
+      FILTERS[0], // EVERYTHING stays first
+      {
+        categoryId: seeMoreCategory.id,
+        label_boomer: label,
+        label_millennial: label,
+        label_genz: (seeMoreCategory.name || seeMoreCategory.id).toLowerCase(),
+      },
+      ...FILTERS.slice(1),
+    ];
+  }, [seeMoreCategory]);
+
+  // Ref so doSearch always reads the latest filters list
+  const filtersRef = useRef(filters);
+  filtersRef.current = filters;
+
   function getFilterLabel(f) {
     const key = `label_${generationId}`;
     return (f[key] || f.label_millennial || '').toUpperCase();
   }
 
+  // Handle "See More" navigation from HomeScreen
+  useEffect(() => {
+    const categoryId = route?.params?.categoryId;
+    const categoryName = route?.params?.categoryName;
+    if (!categoryId) return;
+
+    setSeeMoreCategory({ id: categoryId, name: categoryName || categoryId });
+
+    // Find index: if in base FILTERS use that, otherwise it'll be at index 1 (dynamic slot)
+    const baseIdx = FILTERS.findIndex(f => f.categoryId === categoryId);
+    const targetIdx = baseIdx >= 0 ? baseIdx : 1;
+
+    setActiveFilter(targetIdx);
+    setQuery('');
+
+    // Direct API call — avoids timing issues with state/memo updates
+    setLoading(true);
+    setSearched(true);
+    api.searchItems('', { page: 1, rows: 30, category: categoryId })
+      .then(data => {
+        setResults(data.items || []);
+        setSearchPage(1);
+      })
+      .catch(err => {
+        console.warn('[search:seeMore]', err);
+        setResults([]);
+      })
+      .finally(() => setLoading(false));
+  }, [route?.params?._ts]); // _ts changes on each "See More" tap
+
   const doSearch = useCallback(async (q, filterIdx, page = 1, durIdx) => {
     const idx = filterIdx ?? activeFilter;
     const dIdx = durIdx ?? activeDuration;
-    const filter = FILTERS[idx];
+    const filter = filtersRef.current[idx] || filtersRef.current[0];
     const dur = DURATION_FILTERS[dIdx];
     const hasQ = q && q.trim().length >= 2;
 
@@ -119,7 +174,7 @@ export default function SearchScreen({ navigation }) {
 
   const handleItemPress = useCallback((item) => {
     // If a filter is active, attribute the watch to that category for streak tracking
-    const categoryId = FILTERS[activeFilter]?.categoryId || null;
+    const categoryId = filtersRef.current[activeFilter]?.categoryId || null;
     navigation.navigate('Player', { item, id: item.id, categoryId });
   }, [navigation, activeFilter]);
 
@@ -132,7 +187,7 @@ export default function SearchScreen({ navigation }) {
           horizontal showsHorizontalScrollIndicator={false}
           style={styles.filterRow} contentContainerStyle={styles.filterContent}
         >
-          {FILTERS.map((f, i) => (
+          {filters.map((f, i) => (
             <TouchableOpacity
               key={i} onPress={() => handleFilterPress(i)}
               style={[styles.chip, activeFilter === i && { borderColor: accent, backgroundColor: accent + '18' }]}

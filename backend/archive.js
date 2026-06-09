@@ -38,7 +38,7 @@ const NEWS_POLITICS_EXCLUDE = ' ' + [
 
 // Categories that should NEVER have news/politics bleed
 const ENTERTAINMENT_IDS = new Set([
-  'anime', 'cartoons', 'saturday_morning', 'afterschool', 'comedy', 'horror',
+  'anime', 'cartoons', 'saturday_morning', 'afterschool', 'comedy', 'horror', 'feature_length',
   'scifi', 'noir', 'western', 'romance', 'silent_film', 'blaxploitation',
   'music_video', 'sports', 'nature_wildlife', 'game_shows', 'art_film',
   'abstract', 'theatre', 'foreign', 'shopping', 'ephemeral', 'amateur',
@@ -125,6 +125,13 @@ const CATEGORIES = [
     name: "The Animation Vault",
     subtitle: "Hand-drawn, cel-painted, before pixels existed",
     query: "collection:(classic_cartoons) AND mediatype:(movies)",
+  },
+  {
+    id: "feature_length",
+    group: "type",
+    name: "Feature Films",
+    subtitle: "Full-length movies — grab the popcorn, this'll take a while",
+    query: 'collection:(feature_films) AND mediatype:(movies)',
   },
   {
     id: "horror",

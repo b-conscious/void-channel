@@ -20,7 +20,7 @@ const CAT_GLYPHS = {
   ephemeral: '◎',   prelinger: '▶',  oddities: '✦',
   religious: '✝',    medical: '✚',   amateur: '◈',
   psa: '⚠',         commercials: '$', travelogues: '◇',
-  computers: '◉',   cartoons: '★',   horror: '☠',
+  computers: '◉',   cartoons: '★',   feature_length: '🎬', horror: '☠',
   scifi: '◈',       noir: '◆',       newsreels: '▣',
   educational_tv: '▷', mature: '⚠',
   // Decades
@@ -127,6 +127,22 @@ export default function CategoryRow({
     setCanScrollRight((prev) => prev !== newRight ? newRight : prev);
   }, []);
 
+  // Detect overflow on initial render — show right arrow immediately if content is wider than viewport
+  const handleContentSizeChange = useCallback((contentW) => {
+    contentWidthRef.current = contentW;
+    if (containerWidthRef.current > 0) {
+      setCanScrollRight(contentW > containerWidthRef.current + 10);
+    }
+  }, []);
+
+  const handleListLayout = useCallback((e) => {
+    const vw = e.nativeEvent.layout.width;
+    containerWidthRef.current = vw;
+    if (contentWidthRef.current > 0) {
+      setCanScrollRight(contentWidthRef.current > vw + 10);
+    }
+  }, []);
+
   return (
     <View style={styles.container}>
       {/* Header */}
@@ -212,6 +228,8 @@ export default function CategoryRow({
             contentContainerStyle={styles.listContent}
             onScroll={handleScroll}
             scrollEventThrottle={16}
+            onContentSizeChange={handleContentSizeChange}
+            onLayout={handleListLayout}
             renderItem={({ item }) => (
               <MediaCard item={item} onPress={(it) => onItemPress(it, category.id)} />
             )}
@@ -261,6 +279,8 @@ export default function CategoryRow({
             contentContainerStyle={styles.listContent}
             onScroll={handleScroll}
             scrollEventThrottle={16}
+            onContentSizeChange={handleContentSizeChange}
+            onLayout={handleListLayout}
             renderItem={({ item }) => (
               <MediaCard item={item} onPress={(it) => onItemPress(it, category.id)} />
             )}

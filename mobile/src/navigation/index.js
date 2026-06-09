@@ -1,20 +1,23 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { StyleSheet, Platform, View } from 'react-native';
+import { StyleSheet, Platform, View, ActivityIndicator } from 'react-native';
 import { BlurView } from 'expo-blur';
 import { Ionicons } from '@expo/vector-icons';
 
+// HomeScreen loads eagerly — it's the first thing the user sees
 import HomeScreen from '../screens/HomeScreen';
-import SearchScreen from '../screens/SearchScreen';
-import SignalScreen from '../screens/SignalScreen';
-import WatchlistScreen from '../screens/WatchlistScreen';
-import PlayerScreen from '../screens/PlayerScreen';
-import AuthScreen from '../screens/AuthScreen';
-import PlaylistScreen from '../screens/PlaylistScreen';
-import PlaylistsListScreen from '../screens/PlaylistsListScreen';
-import AdminScreen from '../screens/AdminScreen';
+
+// Everything else lazy-loads — only parsed when navigated to
+const SearchScreen = React.lazy(() => import('../screens/SearchScreen'));
+const SignalScreen = React.lazy(() => import('../screens/SignalScreen'));
+const WatchlistScreen = React.lazy(() => import('../screens/WatchlistScreen'));
+const PlayerScreen = React.lazy(() => import('../screens/PlayerScreen'));
+const AuthScreen = React.lazy(() => import('../screens/AuthScreen'));
+const PlaylistScreen = React.lazy(() => import('../screens/PlaylistScreen'));
+const PlaylistsListScreen = React.lazy(() => import('../screens/PlaylistsListScreen'));
+const AdminScreen = React.lazy(() => import('../screens/AdminScreen'));
 
 import { useGeneration } from '../context/GenerationContext';
 import { colors, fonts } from '../theme';
@@ -28,6 +31,25 @@ const TAB_CONFIG = {
   Signal:  { default: 'compass-outline',  focused: 'compass' },
   'My Void':{ default: 'bookmark-outline', focused: 'bookmark' },
 };
+
+// Minimal loading fallback — just the background color
+function ScreenFallback() {
+  return (
+    <View style={{ flex: 1, backgroundColor: colors.bg, alignItems: 'center', justifyContent: 'center' }}>
+      <ActivityIndicator color={colors.textMuted} size="small" />
+    </View>
+  );
+}
+
+// Wrap lazy components for React Navigation compatibility
+function LazySearch(props) { return <Suspense fallback={<ScreenFallback />}><SearchScreen {...props} /></Suspense>; }
+function LazySignal(props) { return <Suspense fallback={<ScreenFallback />}><SignalScreen {...props} /></Suspense>; }
+function LazyWatchlist(props) { return <Suspense fallback={<ScreenFallback />}><WatchlistScreen {...props} /></Suspense>; }
+function LazyPlayer(props) { return <Suspense fallback={<ScreenFallback />}><PlayerScreen {...props} /></Suspense>; }
+function LazyAuth(props) { return <Suspense fallback={<ScreenFallback />}><AuthScreen {...props} /></Suspense>; }
+function LazyPlaylist(props) { return <Suspense fallback={<ScreenFallback />}><PlaylistScreen {...props} /></Suspense>; }
+function LazyPlaylists(props) { return <Suspense fallback={<ScreenFallback />}><PlaylistsListScreen {...props} /></Suspense>; }
+function LazyAdmin(props) { return <Suspense fallback={<ScreenFallback />}><AdminScreen {...props} /></Suspense>; }
 
 function TabBackground() {
   if (Platform.OS === 'ios') {
@@ -68,9 +90,9 @@ function TabNavigator() {
       })}
     >
       <Tab.Screen name="Browse"   component={HomeScreen} />
-      <Tab.Screen name="Search"   component={SearchScreen} />
-      <Tab.Screen name="Signal"   component={SignalScreen} />
-      <Tab.Screen name="My Void"  component={WatchlistScreen} />
+      <Tab.Screen name="Search"   component={LazySearch} />
+      <Tab.Screen name="Signal"   component={LazySignal} />
+      <Tab.Screen name="My Void"  component={LazyWatchlist} />
     </Tab.Navigator>
   );
 }
@@ -79,7 +101,6 @@ export default function Navigation() {
   const { gen } = useGeneration();
   const accent = gen?.accentColor || colors.amber;
 
-  // React Navigation v7 requires a `fonts` block on themes
   const theme = {
     dark: true,
     colors: {
@@ -98,8 +119,7 @@ export default function Navigation() {
     },
   };
 
-  // ── Web URL routing — real browser URLs, back/forward, shareable links ──
-  // Defined inside component to avoid TDZ in production bundles.
+  // Web URL routing
   const linking = Platform.OS === 'web' ? {
     prefixes: [
       typeof window !== 'undefined' ? window.location.origin : 'http://localhost:8081',
@@ -124,7 +144,6 @@ export default function Navigation() {
     },
   } : undefined;
 
-  // Update browser tab title on screen change (web only)
   const onStateChange = Platform.OS === 'web' ? function (state) {
     var route = state && state.routes ? state.routes[state.index] : null;
     if (!route) return;
@@ -145,53 +164,16 @@ export default function Navigation() {
     <NavigationContainer theme={theme} linking={linking} onStateChange={onStateChange}>
       <Stack.Navigator screenOptions={{ headerShown: false, header: () => null }}>
         <Stack.Screen name="Main" component={TabNavigator} />
-        <Stack.Screen
-          name="Player"
-          component={PlayerScreen}
-          options={{
-            headerShown: false,
-            header: () => null,
-            presentation: Platform.OS === 'web' ? 'card' : 'fullScreenModal',
-            animation: Platform.OS === 'web' ? 'none' : 'slide_from_bottom',
-          }}
-        />
-        <Stack.Screen
-          name="Auth"
-          component={AuthScreen}
-          options={{
-            headerShown: false,
-            header: () => null,
-            presentation: Platform.OS === 'web' ? 'card' : 'modal',
-            animation: Platform.OS === 'web' ? 'none' : 'slide_from_bottom',
-          }}
-        />
-        <Stack.Screen
-          name="Playlists"
-          component={PlaylistsListScreen}
-          options={{
-            headerShown: false,
-            header: () => null,
-            animation: Platform.OS === 'web' ? 'none' : 'slide_from_right',
-          }}
-        />
-        <Stack.Screen
-          name="Playlist"
-          component={PlaylistScreen}
-          options={{
-            headerShown: false,
-            header: () => null,
-            animation: Platform.OS === 'web' ? 'none' : 'slide_from_right',
-          }}
-        />
-        <Stack.Screen
-          name="Admin"
-          component={AdminScreen}
-          options={{
-            headerShown: false,
-            header: () => null,
-            animation: Platform.OS === 'web' ? 'none' : 'slide_from_right',
-          }}
-        />
+        <Stack.Screen name="Player" component={LazyPlayer}
+          options={{ presentation: Platform.OS === 'web' ? 'card' : 'fullScreenModal', animation: Platform.OS === 'web' ? 'none' : 'slide_from_bottom' }} />
+        <Stack.Screen name="Auth" component={LazyAuth}
+          options={{ presentation: Platform.OS === 'web' ? 'card' : 'modal', animation: Platform.OS === 'web' ? 'none' : 'slide_from_bottom' }} />
+        <Stack.Screen name="Playlists" component={LazyPlaylists}
+          options={{ animation: Platform.OS === 'web' ? 'none' : 'slide_from_right' }} />
+        <Stack.Screen name="Playlist" component={LazyPlaylist}
+          options={{ animation: Platform.OS === 'web' ? 'none' : 'slide_from_right' }} />
+        <Stack.Screen name="Admin" component={LazyAdmin}
+          options={{ animation: Platform.OS === 'web' ? 'none' : 'slide_from_right' }} />
       </Stack.Navigator>
     </NavigationContainer>
   );

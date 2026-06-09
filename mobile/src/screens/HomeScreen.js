@@ -244,7 +244,7 @@ export default function HomeScreen({ navigation }) {
 
   // See More — navigate to search filtered by this category
   const handleSeeMore = useCallback((category) => {
-    navigation.navigate('Search', { categoryId: category.id, categoryName: category.name });
+    navigation.navigate('Search', { categoryId: category.id, categoryName: category.name, _ts: Date.now() });
   }, [navigation]);
 
   // Subscribe / unsubscribe to a category
