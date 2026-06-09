@@ -30,6 +30,7 @@ const CAT_GLYPHS = {
   show_betty_boop: '◈', show_popeye: '◈', show_looney: '◈',
   show_woody: '◈', show_mickey: '◈', show_felix: '◈',
   show_threestooges: '◈', show_twilightzone: '◈',
+  most_popular: '🏆',
   community_hearts: '♥',
   trending: '🔥', for_you: '◈', sub_feed: '▸',
   // New type categories

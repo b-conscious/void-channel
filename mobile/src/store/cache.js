@@ -19,10 +19,10 @@ const KEYS = {
   WATCHLIST: "@void_watchlist",
   HISTORY: "@void_history",
   HEARTS: "@void_hearts", // local set of item IDs the user has hearted
-  // v5 — added feature_length category. Bumping the key invalidates the previous cache
-  // so users immediately see the new sections without waiting for the TTL.
-  CATEGORIES_CACHE: "@void_categories_v5",
-  CATEGORIES_TIMESTAMP: "@void_categories_ts_v5",
+  // v6 — added most_popular + feature_length categories. Bumping the key invalidates
+  // the previous cache so users immediately see the new sections without waiting for the TTL.
+  CATEGORIES_CACHE: "@void_categories_v6",
+  CATEGORIES_TIMESTAMP: "@void_categories_ts_v6",
 };
 
 const CACHE_TTL = 60 * 60 * 1000; // 1 hour in ms

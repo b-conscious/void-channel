@@ -79,6 +79,27 @@ export async function searchItems(query, opts = {}) {
   return request(`/api/search?${params.toString()}`);
 }
 
+/**
+ * Browse all items in an Archive.org collection (e.g. "betty_boop_cartoons").
+ * Used for "More from this show/series" on the player screen.
+ */
+export async function searchCollection(collectionId, query = '', opts = {}) {
+  const { page = 1, rows = 30 } = opts;
+  const params = new URLSearchParams({ page: String(page), rows: String(rows), collection: collectionId });
+  if (query && query.length >= 2) params.set('q', query);
+  return request(`/api/search?${params.toString()}`);
+}
+
+/**
+ * Find all items by a specific creator/studio.
+ * Used for "More by this creator" on the player screen.
+ */
+export async function searchCreator(creator, opts = {}) {
+  const { page = 1, rows = 30 } = opts;
+  const params = new URLSearchParams({ page: String(page), rows: String(rows), creator });
+  return request(`/api/search?${params.toString()}`);
+}
+
 export async function getItem(identifier) {
   return request(`/api/item/${identifier}`);
 }
@@ -449,7 +470,8 @@ export async function adminClearBanner() {
 }
 
 export default {
-  getCategories, getCategoryItems, searchItems, getItem, getRandomItem,
+  getCategories, getCategoryItems, searchItems, searchCollection, searchCreator,
+  getItem, getRandomItem,
   getRelated, wakeUp, heartItem, unheartItem, getTopHearts,
   setAuthToken, register, login, loginAnonymous, refreshToken,
   getProfile, updateProfile,

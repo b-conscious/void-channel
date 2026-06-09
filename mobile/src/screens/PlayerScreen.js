@@ -882,6 +882,43 @@ export default function PlayerScreen({ route, navigation }) {
                 </View>
               )}
 
+              {/* Browse collection / creator chips — "more from this show" */}
+              {(item.collections?.length > 0 || item.creator) && (
+                <View style={styles.browseChipsWrap}>
+                  {item.collections?.slice(0, 4).map((col) => (
+                    <TouchableOpacity
+                      key={col}
+                      style={[styles.browseChip, { borderColor: accent + '40' }]}
+                      onPress={() => navigation.navigate('Search', {
+                        collection: col,
+                        collectionName: col.replace(/_/g, ' '),
+                        _ts: Date.now(),
+                      })}
+                    >
+                      <Ionicons name="folder-open-outline" size={12} color={accent} />
+                      <Text style={[styles.browseChipText, { color: accent }]} numberOfLines={1}>
+                        {col.replace(/_/g, ' ')}
+                      </Text>
+                    </TouchableOpacity>
+                  ))}
+                  {item.creator && (
+                    <TouchableOpacity
+                      style={[styles.browseChip, { borderColor: accent + '40' }]}
+                      onPress={() => navigation.navigate('Search', {
+                        creator: Array.isArray(item.creator) ? item.creator[0] : item.creator,
+                        creatorName: Array.isArray(item.creator) ? item.creator[0] : item.creator,
+                        _ts: Date.now(),
+                      })}
+                    >
+                      <Ionicons name="person-outline" size={12} color={accent} />
+                      <Text style={[styles.browseChipText, { color: accent }]} numberOfLines={1}>
+                        {Array.isArray(item.creator) ? item.creator[0] : item.creator}
+                      </Text>
+                    </TouchableOpacity>
+                  )}
+                </View>
+              )}
+
               {/* Archive link */}
               {item.archiveUrl && (
                 <TouchableOpacity
@@ -2103,6 +2140,30 @@ const styles = StyleSheet.create({
     fontSize: 9,
     color: colors.textSecondary,
     letterSpacing: 0.3,
+  },
+  browseChipsWrap: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: 6,
+    marginBottom: 10,
+    marginTop: 2,
+  },
+  browseChip: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 5,
+    backgroundColor: colors.card,
+    paddingHorizontal: 10,
+    paddingVertical: 5,
+    borderRadius: radius.full,
+    borderWidth: 1,
+    maxWidth: 180,
+  },
+  browseChipText: {
+    fontFamily: fonts.mono,
+    fontSize: 10,
+    letterSpacing: 0.3,
+    flexShrink: 1,
   },
   archiveLink: {
     flexDirection: 'row',

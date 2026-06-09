@@ -61,6 +61,10 @@ export default function SearchScreen({ navigation, route }) {
   // ── "See More" — incoming category from HomeScreen ──
   const [seeMoreCategory, setSeeMoreCategory] = useState(null);
 
+  // ── "More from collection / creator" — incoming from PlayerScreen ──
+  const [browseCollection, setBrowseCollection] = useState(null); // { id, name }
+  const [browseCreator, setBrowseCreator] = useState(null); // string
+
   // Combine base filters with any incoming "See More" category
   const filters = useMemo(() => {
     if (!seeMoreCategory) return FILTERS;
@@ -92,8 +96,47 @@ export default function SearchScreen({ navigation, route }) {
   useEffect(() => {
     const categoryId = route?.params?.categoryId;
     const categoryName = route?.params?.categoryName;
+    const collectionId = route?.params?.collection;
+    const collectionName = route?.params?.collectionName;
+    const creatorName = route?.params?.creator;
+
+    // Collection browse — "more from this show/series"
+    if (collectionId) {
+      setBrowseCollection({ id: collectionId, name: collectionName || collectionId });
+      setBrowseCreator(null);
+      setSeeMoreCategory(null);
+      setActiveFilter(0);
+      setQuery('');
+      setLoading(true);
+      setSearched(true);
+      api.searchCollection(collectionId, '', { page: 1, rows: 30 })
+        .then(data => { setResults(data.items || []); setSearchPage(1); })
+        .catch(err => { console.warn('[search:collection]', err); setResults([]); })
+        .finally(() => setLoading(false));
+      return;
+    }
+
+    // Creator browse — "more by this director/studio"
+    if (creatorName) {
+      setBrowseCreator(creatorName);
+      setBrowseCollection(null);
+      setSeeMoreCategory(null);
+      setActiveFilter(0);
+      setQuery('');
+      setLoading(true);
+      setSearched(true);
+      api.searchCreator(creatorName, { page: 1, rows: 30 })
+        .then(data => { setResults(data.items || []); setSearchPage(1); })
+        .catch(err => { console.warn('[search:creator]', err); setResults([]); })
+        .finally(() => setLoading(false));
+      return;
+    }
+
     if (!categoryId) return;
 
+    // Regular "See More" category browse
+    setBrowseCollection(null);
+    setBrowseCreator(null);
     setSeeMoreCategory({ id: categoryId, name: categoryName || categoryId });
 
     // Find index: if in base FILTERS use that, otherwise it'll be at index 1 (dynamic slot)
@@ -116,7 +159,7 @@ export default function SearchScreen({ navigation, route }) {
         setResults([]);
       })
       .finally(() => setLoading(false));
-  }, [route?.params?._ts]); // _ts changes on each "See More" tap
+  }, [route?.params?._ts]); // _ts changes on each "See More" or collection/creator tap
 
   const doSearch = useCallback(async (q, filterIdx, page = 1, durIdx) => {
     const idx = filterIdx ?? activeFilter;
@@ -124,6 +167,32 @@ export default function SearchScreen({ navigation, route }) {
     const filter = filtersRef.current[idx] || filtersRef.current[0];
     const dur = DURATION_FILTERS[dIdx];
     const hasQ = q && q.trim().length >= 2;
+
+    // If browsing a collection or creator, search within it
+    if (browseCollection) {
+      if (page === 1) setLoading(true);
+      else setLoadingMore(true);
+      setSearched(true);
+      try {
+        const data = await api.searchCollection(browseCollection.id, hasQ ? q.trim() : '', { page, rows: 30 });
+        setResults(data.items || []);
+        setSearchPage(page);
+      } catch (err) { console.warn('[search:collection]', err); if (page === 1) setResults([]); }
+      finally { setLoading(false); setLoadingMore(false); }
+      return;
+    }
+    if (browseCreator) {
+      if (page === 1) setLoading(true);
+      else setLoadingMore(true);
+      setSearched(true);
+      try {
+        const data = await api.searchCreator(browseCreator, { page, rows: 30 });
+        setResults(data.items || []);
+        setSearchPage(page);
+      } catch (err) { console.warn('[search:creator]', err); if (page === 1) setResults([]); }
+      finally { setLoading(false); setLoadingMore(false); }
+      return;
+    }
 
     // No query and no filter — clear
     if (!hasQ && !filter.categoryId) {
@@ -154,7 +223,7 @@ export default function SearchScreen({ navigation, route }) {
       setLoading(false);
       setLoadingMore(false);
     }
-  }, [activeFilter, activeDuration]);
+  }, [activeFilter, activeDuration, browseCollection, browseCreator]);
 
   const handleChange = useCallback((text) => {
     setQuery(text);
@@ -182,41 +251,77 @@ export default function SearchScreen({ navigation, route }) {
     <View style={[styles.container, { paddingTop: insets.top }]}>
       <View style={styles.header}>
         <Text style={[styles.title, { color: accent }]}>{gen.searchTitle}</Text>
-        <SearchBar value={query} onChangeText={handleChange} onSubmit={() => doSearch(query)} placeholder={hint} accentColor={accent} />
-        <ScrollView
-          horizontal showsHorizontalScrollIndicator={false}
-          style={styles.filterRow} contentContainerStyle={styles.filterContent}
-        >
-          {filters.map((f, i) => (
-            <TouchableOpacity
-              key={i} onPress={() => handleFilterPress(i)}
-              style={[styles.chip, activeFilter === i && { borderColor: accent, backgroundColor: accent + '18' }]}
-              activeOpacity={0.75}
-            >
-              <Text style={[styles.chipText, activeFilter === i && { color: accent }]}>
-                {getFilterLabel(f)}
+
+        {/* Collection / Creator context banner */}
+        {(browseCollection || browseCreator) && (
+          <View style={[styles.browseBanner, { borderColor: accent + '40' }]}>
+            <Ionicons
+              name={browseCollection ? 'folder-open-outline' : 'person-outline'}
+              size={14} color={accent}
+            />
+            <View style={{ flex: 1 }}>
+              <Text style={styles.browseBannerLabel}>
+                {browseCollection ? 'COLLECTION' : 'CREATOR'}
               </Text>
+              <Text style={[styles.browseBannerName, { color: accent }]} numberOfLines={1}>
+                {browseCollection ? browseCollection.name : browseCreator}
+              </Text>
+            </View>
+            <TouchableOpacity
+              onPress={() => { setBrowseCollection(null); setBrowseCreator(null); setResults([]); setSearched(false); }}
+              hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
+            >
+              <Ionicons name="close-circle" size={18} color={colors.textGhost} />
             </TouchableOpacity>
-          ))}
-        </ScrollView>
+          </View>
+        )}
+
+        <SearchBar
+          value={query} onChangeText={handleChange} onSubmit={() => doSearch(query)}
+          placeholder={browseCollection ? `Search in ${browseCollection.name}...` : browseCreator ? `Search by ${browseCreator}...` : hint}
+          accentColor={accent}
+        />
+
+        {/* Category filter chips — hidden when browsing a collection/creator */}
+        {!browseCollection && !browseCreator && (
+          <ScrollView
+            horizontal showsHorizontalScrollIndicator={false}
+            style={styles.filterRow} contentContainerStyle={styles.filterContent}
+          >
+            {filters.map((f, i) => (
+              <TouchableOpacity
+                key={i} onPress={() => handleFilterPress(i)}
+                style={[styles.chip, activeFilter === i && { borderColor: accent, backgroundColor: accent + '18' }]}
+                activeOpacity={0.75}
+              >
+                <Text style={[styles.chipText, activeFilter === i && { color: accent }]}>
+                  {getFilterLabel(f)}
+                </Text>
+              </TouchableOpacity>
+            ))}
+          </ScrollView>
+        )}
+
         {/* Duration filter row */}
-        <ScrollView
-          horizontal showsHorizontalScrollIndicator={false}
-          style={styles.durationRow} contentContainerStyle={styles.filterContent}
-        >
-          <Ionicons name="time-outline" size={13} color={colors.textGhost} style={{ marginRight: 2, alignSelf: 'center' }} />
-          {DURATION_FILTERS.map((d, i) => (
-            <TouchableOpacity
-              key={i} onPress={() => handleDurationPress(i)}
-              style={[styles.durChip, activeDuration === i && { borderColor: accent, backgroundColor: accent + '18' }]}
-              activeOpacity={0.75}
-            >
-              <Text style={[styles.durChipText, activeDuration === i && { color: accent }]}>
-                {d.label}
-              </Text>
-            </TouchableOpacity>
-          ))}
-        </ScrollView>
+        {!browseCollection && !browseCreator && (
+          <ScrollView
+            horizontal showsHorizontalScrollIndicator={false}
+            style={styles.durationRow} contentContainerStyle={styles.filterContent}
+          >
+            <Ionicons name="time-outline" size={13} color={colors.textGhost} style={{ marginRight: 2, alignSelf: 'center' }} />
+            {DURATION_FILTERS.map((d, i) => (
+              <TouchableOpacity
+                key={i} onPress={() => handleDurationPress(i)}
+                style={[styles.durChip, activeDuration === i && { borderColor: accent, backgroundColor: accent + '18' }]}
+                activeOpacity={0.75}
+              >
+                <Text style={[styles.durChipText, activeDuration === i && { color: accent }]}>
+                  {d.label}
+                </Text>
+              </TouchableOpacity>
+            ))}
+          </ScrollView>
+        )}
       </View>
 
       {loading ? (
@@ -294,6 +399,28 @@ const styles = StyleSheet.create({
     borderBottomWidth: StyleSheet.hairlineWidth, borderBottomColor: colors.surface,
   },
   title: { fontFamily: fonts.monoBold, fontSize: 10, letterSpacing: 2.5, marginBottom: 12 },
+  browseBanner: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+    backgroundColor: colors.card,
+    paddingHorizontal: 12,
+    paddingVertical: 8,
+    borderRadius: radius.md,
+    borderWidth: 1,
+    marginBottom: 10,
+  },
+  browseBannerLabel: {
+    fontFamily: fonts.mono,
+    fontSize: 8,
+    color: colors.textGhost,
+    letterSpacing: 1.5,
+  },
+  browseBannerName: {
+    fontFamily: fonts.monoBold,
+    fontSize: 12,
+    letterSpacing: 0.3,
+  },
   filterRow: { marginTop: 12, marginBottom: 4, marginHorizontal: -spacing.screenPadding },
   filterContent: { paddingHorizontal: spacing.screenPadding, gap: 7, paddingBottom: 4 },
   chip: { paddingHorizontal: 12, paddingVertical: 6, borderRadius: radius.full, borderWidth: 1, borderColor: colors.border },

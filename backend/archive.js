@@ -40,7 +40,7 @@ const NEWS_POLITICS_EXCLUDE = ' ' + [
 
 // Categories that should NEVER have news/politics bleed
 const ENTERTAINMENT_IDS = new Set([
-  'anime', 'cartoons', 'saturday_morning', 'afterschool', 'comedy', 'horror', 'feature_length',
+  'anime', 'cartoons', 'saturday_morning', 'afterschool', 'comedy', 'horror', 'feature_length', 'most_popular',
   'scifi', 'noir', 'western', 'romance', 'silent_film', 'blaxploitation',
   'music_video', 'sports', 'nature_wildlife', 'game_shows', 'art_film',
   'abstract', 'theatre', 'foreign', 'shopping', 'ephemeral', 'amateur',
@@ -127,6 +127,14 @@ const CATEGORIES = [
     name: "The Animation Vault",
     subtitle: "Hand-drawn, cel-painted, before pixels existed",
     query: "collection:(classic_cartoons) AND mediatype:(movies)",
+  },
+  {
+    id: "most_popular",
+    group: "type",
+    name: "Most Popular",
+    subtitle: "The most watched films on the Internet Archive — all time",
+    query: 'mediatype:(movies)',
+    sort: 'downloads desc',
   },
   {
     id: "feature_length",
@@ -813,6 +821,18 @@ async function getItem(identifier) {
   const files = data?.files || [];
   const { fast, best } = pickVideos(files);
 
+  // Extract collections and subjects for "browse this collection" feature
+  const rawCollections = Array.isArray(meta.collection)
+    ? meta.collection : meta.collection ? [meta.collection] : [];
+  // Filter out internal/system collections
+  const collections = rawCollections.filter(c =>
+    c && !c.startsWith('fav-') && c !== 'opensource' && c !== 'community'
+    && c !== 'movies' && c !== 'opensource_movies'
+  );
+  const subjects = Array.isArray(meta.subject)
+    ? meta.subject.map(String).slice(0, 15)
+    : meta.subject ? String(meta.subject).split(';').map(s => s.trim()).filter(Boolean).slice(0, 15) : [];
+
   return {
     id: identifier,
     title: meta.title || "Untitled",
@@ -820,6 +840,8 @@ async function getItem(identifier) {
     year: meta.year || meta.date || null,
     creator: flattenCreator(meta.creator),
     duration: meta.runtime || null,
+    collections,
+    subjects,
     thumbnail: THUMB_URL(identifier, null),
     archiveUrl: `${BASE}/details/${identifier}`,
     videoUrl: fast ? FILE_URL(identifier, fast.name) : null,
@@ -895,6 +917,9 @@ async function getCategoryItems(categoryId, rows = 25, page = 1, shuffle = false
   let items;
   if (shuffle) {
     items = await searchVariety(query, rows);
+  } else if (cat.sort) {
+    // Category has a fixed sort (e.g. most_popular → downloads desc) — no blending
+    items = await search(query, rows, page, cat.sort);
   } else if (page === 1) {
     // First page: blended (mainstream → obscure gradient)
     items = await searchBlended(query, rows);
@@ -991,6 +1016,27 @@ async function getRelated(identifier, limit = 15) {
   }
 }
 
+/**
+ * Browse a raw Archive.org collection — "more from this show/series".
+ * Used when the user taps a collection chip on the player page.
+ */
+async function searchCollection(collectionId, query = '', rows = 30, page = 1) {
+  let lucene = `collection:(${collectionId})`;
+  if (query && query.trim().length >= 2) {
+    lucene = `${lucene} AND (${query.trim()})`;
+  }
+  lucene += ' AND mediatype:(movies)' + NSFW_EXCLUDE;
+  return search(lucene, rows, page, 'downloads desc');
+}
+
+/**
+ * Search by creator — "more by this director/studio".
+ */
+async function searchCreator(creator, rows = 30, page = 1) {
+  const lucene = `creator:(${JSON.stringify(creator)}) AND mediatype:(movies)` + NSFW_EXCLUDE;
+  return search(lucene, rows, page, 'downloads desc');
+}
+
 module.exports = {
   CATEGORIES,
   NSFW_EXCLUDE,
@@ -999,6 +1045,8 @@ module.exports = {
   getRelated,
   getCategoryItems,
   getAllCategories,
+  searchCollection,
+  searchCreator,
   normalizeItem,
   THUMB_URL,
   FILE_URL,

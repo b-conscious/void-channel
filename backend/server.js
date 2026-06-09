@@ -155,18 +155,20 @@ app.get("/api/search", async (req, res) => {
   try {
     const q = (req.query.q || "").trim();
     const categoryId = req.query.category;
+    const collectionId = req.query.collection; // raw Archive.org collection (e.g. betty_boop_cartoons)
+    const creatorQuery = req.query.creator;    // creator/studio name
     const hasQ = q.length >= 2;
 
-    // Need at least a query OR a category
-    if (!hasQ && !categoryId) {
-      return res.status(400).json({ error: "Query must be at least 2 characters, or a category must be provided" });
+    // Need at least a query, category, collection, or creator
+    if (!hasQ && !categoryId && !collectionId && !creatorQuery) {
+      return res.status(400).json({ error: "Query, category, collection, or creator required" });
     }
 
     const page = parseInt(req.query.page) || 1;
     const rows = Math.min(parseInt(req.query.rows) || 25, 50);
     const minDuration = parseInt(req.query.minDuration) || 0; // seconds
     const maxDuration = parseInt(req.query.maxDuration) || 0; // seconds, 0 = no max
-    const cacheKey = `search:${q}:${categoryId || ""}:${page}:${rows}:${minDuration}:${maxDuration}`;
+    const cacheKey = `search:${q}:${categoryId || ""}:${collectionId || ""}:${creatorQuery || ""}:${page}:${rows}:${minDuration}:${maxDuration}`;
 
     const cached = cache.get(cacheKey);
     if (cached) {
@@ -174,9 +176,15 @@ app.get("/api/search", async (req, res) => {
       return res.json(cached);
     }
 
-    // Build Lucene query: combine category prefix (if any) with user query (if any)
+    // Build Lucene query
     let lucene;
-    if (categoryId) {
+    if (collectionId) {
+      // Raw collection browsing — "more from this show/series"
+      lucene = hasQ ? `collection:(${collectionId}) AND (${q})` : `collection:(${collectionId})`;
+    } else if (creatorQuery) {
+      // Creator search — "more by this studio/director"
+      lucene = hasQ ? `creator:(${JSON.stringify(creatorQuery)}) AND (${q})` : `creator:(${JSON.stringify(creatorQuery)})`;
+    } else if (categoryId) {
       const cat = archive.CATEGORIES.find((c) => c.id === categoryId);
       if (!cat) return res.status(400).json({ error: "Unknown category" });
       // Strip the trailing mediatype clause from the category's query — we add it once at the end
@@ -199,8 +207,17 @@ app.get("/api/search", async (req, res) => {
     }
     const searchQuery = `${lucene} AND mediatype:(movies)${nsfwFilter}${durationFilter}`;
 
-    const items = await archive.search(searchQuery, rows, page);
-    const result = { query: q, category: categoryId || null, page, rows, items };
+    // Determine sort order: collection/creator → downloads, category may override, else default
+    let sortOrder;
+    if (collectionId || creatorQuery) {
+      sortOrder = 'downloads desc';
+    } else if (categoryId) {
+      const cat = archive.CATEGORIES.find((c) => c.id === categoryId);
+      sortOrder = cat?.sort || 'downloads desc';
+    }
+
+    const items = await archive.search(searchQuery, rows, page, sortOrder);
+    const result = { query: q, category: categoryId || null, collection: collectionId || null, creator: creatorQuery || null, page, rows, items };
 
     cache.set(cacheKey, result, 1800); // 30 min
     res.set("X-Cache", "MISS");
