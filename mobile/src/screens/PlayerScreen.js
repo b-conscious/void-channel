@@ -7,9 +7,11 @@ import {
 const { height: SCREEN_H, width: SCREEN_W } = Dimensions.get('window');
 const IS_WEB = Platform.OS === 'web';
 const IS_DESKTOP = IS_WEB && SCREEN_W > 900;
-// Desktop: video eats the full viewport height — scroll down for info/sidebar.
-const VIDEO_H = IS_WEB ? SCREEN_H : Math.round(SCREEN_H * 0.42);
-const SIDEBAR_W = IS_DESKTOP ? 340 : 0;
+// YouTube-style: video + sidebar side-by-side. Video is 16:9 of the left column.
+const SIDEBAR_W = IS_DESKTOP ? 420 : 0;
+const VIDEO_H = IS_WEB
+  ? Math.min(Math.round((SCREEN_W - SIDEBAR_W) * 9 / 16), Math.round(SCREEN_H * 0.72))
+  : Math.round(SCREEN_H * 0.42);
 
 // Enable LayoutAnimation on Android
 if (Platform.OS === 'android' && UIManager.setLayoutAnimationEnabledExperimental) {
@@ -136,6 +138,10 @@ export default function PlayerScreen({ route, navigation }) {
   const [commentPosting, setCommentPosting] = useState(false);
   const [commentsExpanded, setCommentsExpanded] = useState(false);
   const [rabbitExpanded, setRabbitExpanded] = useState(false);
+  // Sidebar filter: 'all' | 'col:collectionName' | 'creator:name'
+  const [sidebarFilter, setSidebarFilter] = useState('all');
+  const [filteredItems, setFilteredItems] = useState([]);
+  const [filteredLoading, setFilteredLoading] = useState(false);
   const watchStartSent = useRef(false);
   const xpOpacity = useRef(new Animated.Value(0)).current;
   const xpFired = useRef(false);
@@ -525,10 +531,73 @@ export default function PlayerScreen({ route, navigation }) {
     </>
   );
 
-  // Desktop sidebar — related videos shown vertically like YouTube
+  // ── Sidebar filter chip handler ──
+  const handleSidebarFilter = useCallback((filter) => {
+    setSidebarFilter(filter);
+    if (filter === 'all') { setFilteredItems([]); return; }
+    setFilteredLoading(true);
+    const colonIdx = filter.indexOf(':');
+    const type = filter.slice(0, colonIdx);
+    const value = filter.slice(colonIdx + 1);
+    const fetcher = type === 'col'
+      ? api.searchCollection(value, '', { rows: 20 })
+      : api.searchCreator(value, { rows: 20 });
+    fetcher.then((res) => setFilteredItems(res?.items || res || []))
+      .catch(() => setFilteredItems([]))
+      .finally(() => setFilteredLoading(false));
+  }, []);
+
+  // Items displayed in sidebar — filtered or all
+  const sidebarItems = sidebarFilter === 'all' ? relatedItems : filteredItems;
+  const sidebarIsLoading = sidebarFilter === 'all' ? relatedLoading : filteredLoading;
+
+  // Build filter chip options from item metadata
+  const filterChips = [];
+  filterChips.push({ key: 'all', label: 'All' });
+  if (item.collections?.length > 0) {
+    item.collections.slice(0, 2).forEach((col) => {
+      filterChips.push({ key: `col:${col}`, label: col.replace(/_/g, ' ') });
+    });
+  }
+  if (item.creator) {
+    const creatorName = Array.isArray(item.creator) ? item.creator[0] : item.creator;
+    if (creatorName) filterChips.push({ key: `creator:${creatorName}`, label: creatorName });
+  }
+
+  // Desktop sidebar — YouTube-style with filter chips
   const SidebarContent = IS_DESKTOP ? (
-    <ScrollView style={styles.sidebar} showsVerticalScrollIndicator={false} contentContainerStyle={{ paddingBottom: 10 }}>
-      {/* Autoplay toggle */}
+    <ScrollView style={styles.sidebar} showsVerticalScrollIndicator={false} contentContainerStyle={{ paddingBottom: 20 }}>
+      {/* ── Filter chips — like YouTube's "All / From DoctorRamani / ..." ── */}
+      {filterChips.length > 1 && (
+        <ScrollView horizontal showsHorizontalScrollIndicator={false} style={styles.sidebarChipScroll} contentContainerStyle={{ gap: 8, paddingBottom: 2 }}>
+          {filterChips.map((chip) => {
+            const active = sidebarFilter === chip.key;
+            return (
+              <TouchableOpacity
+                key={chip.key}
+                onPress={() => handleSidebarFilter(chip.key)}
+                style={[
+                  styles.sidebarChip,
+                  active ? { backgroundColor: colors.textPrimary } : { backgroundColor: colors.surface },
+                ]}
+                activeOpacity={0.7}
+              >
+                <Text
+                  style={[
+                    styles.sidebarChipText,
+                    active ? { color: colors.bg } : { color: colors.textSecondary },
+                  ]}
+                  numberOfLines={1}
+                >
+                  {chip.label}
+                </Text>
+              </TouchableOpacity>
+            );
+          })}
+        </ScrollView>
+      )}
+
+      {/* Autoplay row */}
       <View style={styles.sidebarAutoplay}>
         <Text style={styles.sidebarAutoplayLabel}>AUTOPLAY</Text>
         <TouchableOpacity
@@ -540,115 +609,68 @@ export default function PlayerScreen({ route, navigation }) {
         </TouchableOpacity>
       </View>
 
-      {/* Skeleton placeholders while rabbit hole loads — void noise thumbnails */}
-      {relatedLoading && relatedItems.length === 0 && (
+      {/* Skeleton loading state */}
+      {sidebarIsLoading && sidebarItems.length === 0 && (
         <>
-          <View style={styles.sidebarUpNext}>
-            <Text style={[styles.sidebarUpNextLabel, { color: accent }]}>UP NEXT</Text>
-          </View>
-          {/* Skeleton Up Next card */}
-          <View style={styles.sidebarUpNextCard}>
-            <View dataSet={{voidNoise: 'static'}} style={[styles.sidebarUpNextThumb, { backgroundColor: colors.card }]} />
-            <View style={styles.sidebarUpNextInfo}>
-              <View dataSet={{skeleton: '1'}} style={[styles.skeletonLine, { width: '80%' }]} />
-              <View dataSet={{skeleton: '1'}} style={[styles.skeletonLine, { width: '40%', marginTop: 6 }]} />
-            </View>
-          </View>
-          <View style={styles.sidebarDivider} />
-          <Text style={styles.sidebarSectionLabel}>RABBIT HOLE</Text>
-          {[1, 2, 3, 4, 5].map((i) => (
+          {[1, 2, 3, 4, 5, 6].map((i) => (
             <View key={i} style={styles.sidebarRelCard}>
               <View dataSet={{voidNoise: 'static'}} style={[styles.sidebarRelThumb, { backgroundColor: colors.card }]} />
               <View style={styles.sidebarRelInfo}>
                 <View dataSet={{skeleton: '1'}} style={[styles.skeletonLine, { width: `${65 + (i * 7) % 30}%` }]} />
-                <View dataSet={{skeleton: '1'}} style={[styles.skeletonLine, { width: '30%', marginTop: 4 }]} />
+                <View dataSet={{skeleton: '1'}} style={[styles.skeletonLine, { width: '50%', marginTop: 4 }]} />
+                <View dataSet={{skeleton: '1'}} style={[styles.skeletonLine, { width: '35%', marginTop: 4 }]} />
               </View>
             </View>
           ))}
         </>
       )}
 
-      {/* Up Next */}
-      {/* Browse full collection — "VIEW ALL" link */}
-      {item.collections?.length > 0 && (
+      {/* Video list — YouTube-style cards */}
+      {sidebarItems.map((rel, idx) => (
         <Pressable
+          key={rel.id}
           onPress={() => {
             Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-            navigation.navigate('Search', {
-              collection: item.collections[0],
-              collectionName: item.collections[0].replace(/_/g, ' '),
-              _ts: Date.now(),
-            });
+            navigation.replace('Player', { item: rel, id: rel.id });
           }}
-          style={[styles.sidebarViewAll, { borderColor: accent + '40' }]}
+          style={styles.sidebarRelCard}
         >
-          <Ionicons name="albums-outline" size={13} color={accent} />
-          <Text style={[styles.sidebarViewAllText, { color: accent }]} numberOfLines={1}>
-            {item.collections[0].replace(/_/g, ' ')}
-          </Text>
-          <View style={{ flex: 1 }} />
-          <Text style={[styles.sidebarViewAllBtn, { color: accent }]}>VIEW ALL</Text>
-          <Ionicons name="chevron-forward" size={14} color={accent} />
-        </Pressable>
-      )}
-
-      {relatedItems.length > 0 && (
-        <>
-          <View style={styles.sidebarUpNext}>
-            <Text style={[styles.sidebarUpNextLabel, { color: accent }]}>
-              {item.collections?.length > 0 ? 'NEXT IN SERIES' : 'UP NEXT'}
+          <View style={styles.sidebarThumbWrap}>
+            <FastImage uri={rel.thumbnail} itemId={rel.id} style={styles.sidebarRelThumb} contentFit="cover" priority="low" />
+            {idx === 0 && sidebarFilter === 'all' && (
+              <View style={[styles.sidebarUpNextBadge, { backgroundColor: accent }]}>
+                <Text style={styles.sidebarUpNextBadgeText}>UP NEXT</Text>
+              </View>
+            )}
+          </View>
+          <View style={styles.sidebarRelInfo}>
+            <Text style={styles.sidebarRelTitle} numberOfLines={2}>{cleanTitle(rel.title)}</Text>
+            {rel.creator ? (
+              <Text style={styles.sidebarRelCreator} numberOfLines={1}>
+                {Array.isArray(rel.creator) ? rel.creator[0] : rel.creator}
+              </Text>
+            ) : null}
+            <Text style={styles.sidebarRelMeta}>
+              {rel.year || ''}{rel.year && rel.downloads ? ' · ' : ''}{rel.downloads ? `${rel.downloads.toLocaleString()} views` : ''}
             </Text>
           </View>
-          <Pressable
-            onPress={() => {
-              Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-              navigation.replace('Player', { item: relatedItems[0], id: relatedItems[0].id });
-            }}
-            style={styles.sidebarUpNextCard}
-          >
-            <FastImage uri={relatedItems[0].thumbnail} itemId={relatedItems[0].id} style={styles.sidebarUpNextThumb} contentFit="cover" priority="low" />
-            <View style={styles.sidebarUpNextInfo}>
-              <Text style={styles.sidebarUpNextTitle} numberOfLines={2}>{cleanTitle(relatedItems[0].title)}</Text>
-              {relatedItems[0].year ? <Text style={[styles.sidebarUpNextYear, { color: accent }]}>{relatedItems[0].year}</Text> : null}
-            </View>
-          </Pressable>
+        </Pressable>
+      ))}
 
-          {/* Separator */}
-          <View style={styles.sidebarDivider} />
-
-          {/* More related */}
-          <Text style={styles.sidebarSectionLabel}>MORE EPISODES</Text>
-          {relatedItems.slice(1).map((rel) => (
-            <Pressable
-              key={rel.id}
-              onPress={() => {
-                Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-                navigation.replace('Player', { item: rel, id: rel.id });
-              }}
-              style={styles.sidebarRelCard}
-            >
-              <FastImage uri={rel.thumbnail} itemId={rel.id} style={styles.sidebarRelThumb} contentFit="cover" priority="low" />
-              <View style={styles.sidebarRelInfo}>
-                <Text style={styles.sidebarRelTitle} numberOfLines={2}>{cleanTitle(rel.title)}</Text>
-                {rel.year ? <Text style={[styles.sidebarRelYear, { color: accent }]}>{rel.year}</Text> : null}
-              </View>
-            </Pressable>
-          ))}
-
-          {/* Shuffle — reload rabbit hole */}
-          <Pressable
-            onPress={() => {
-              setRelatedLoading(true);
-              setRelatedItems([]);
-              api.getRelated(item.id, 20).then(setRelatedItems).catch(() => {}).finally(() => setRelatedLoading(false));
-              Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-            }}
-            style={[styles.sidebarShuffleBtn, { borderColor: accent + '30' }]}
-          >
-            <Ionicons name="shuffle" size={10} color={accent} />
-            <Text style={[styles.sidebarShuffleText, { color: accent }]}>SHUFFLE</Text>
-          </Pressable>
-        </>
+      {/* Shuffle */}
+      {sidebarFilter === 'all' && sidebarItems.length > 0 && (
+        <Pressable
+          onPress={() => {
+            setRelatedLoading(true);
+            setRelatedItems([]);
+            api.getRelated(item.id, 20).then(setRelatedItems).catch(() => {}).finally(() => setRelatedLoading(false));
+            Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+          }}
+          style={[styles.sidebarShuffleBtn, { borderColor: accent + '30' }]}
+        >
+          <Ionicons name="shuffle" size={10} color={accent} />
+          <Text style={[styles.sidebarShuffleText, { color: accent }]}>SHUFFLE</Text>
+        </Pressable>
       )}
     </ScrollView>
   ) : null;
@@ -1390,20 +1412,23 @@ export default function PlayerScreen({ route, navigation }) {
       )}
 
       {IS_DESKTOP ? (
-        /* ── DESKTOP: full-viewport video, scroll down for info + sidebar ── */
-        <ScrollView style={{ flex: 1 }} bounces={false} showsVerticalScrollIndicator={false}>
-          <View style={[styles.playerArea, { height: VIDEO_H }]}>
-            {videoInner}
-          </View>
-          <View style={styles.desktopRow}>
-            <View style={styles.desktopMain}>
-              <View style={styles.infoPanel}>
-                {infoPanelContent}
-              </View>
+        /* ── DESKTOP: YouTube layout — video+info left, sidebar right, side-by-side ── */
+        <View style={styles.desktopRow}>
+          <View style={styles.desktopMain}>
+            <View style={[styles.playerArea, { height: VIDEO_H }]}>
+              {videoInner}
             </View>
-            {SidebarContent}
+            <ScrollView
+              style={styles.infoPanel}
+              contentContainerStyle={{ paddingBottom: 40 }}
+              bounces={false}
+              showsVerticalScrollIndicator={false}
+            >
+              {infoPanelContent}
+            </ScrollView>
           </View>
-        </ScrollView>
+          {SidebarContent}
+        </View>
       ) : (
         /* ── MOBILE: stacked layout with inner scroll ── */
         <View style={{ flex: 1 }}>
@@ -2340,58 +2365,53 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff', alignSelf: 'flex-end',
   },
 
-  // ── Desktop sidebar — wide, readable, YouTube-scale thumbnails ──
+  // ── Desktop sidebar — YouTube-style with filter chips ──
   sidebar: {
     width: SIDEBAR_W,
     backgroundColor: colors.bg,
     borderLeftWidth: 1, borderLeftColor: colors.surface,
-    paddingLeft: 12, paddingRight: 8, paddingTop: 10,
+    paddingLeft: 12, paddingRight: 8, paddingTop: 8,
+  },
+  // Filter chips — YouTube "All / From Creator / Collection" style
+  sidebarChipScroll: { marginBottom: 10 },
+  sidebarChip: {
+    paddingHorizontal: 12, paddingVertical: 6,
+    borderRadius: radius.full,
+  },
+  sidebarChipText: {
+    fontFamily: fonts.sansMedium, fontSize: 13,
   },
   sidebarAutoplay: {
     flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between',
-    marginBottom: 10,
+    marginBottom: 8,
   },
   sidebarAutoplayLabel: { fontFamily: fonts.monoBold, fontSize: 10, color: colors.textMuted, letterSpacing: 1 },
-  sidebarViewAll: {
-    flexDirection: 'row', alignItems: 'center', gap: 6,
-    borderWidth: 1, borderRadius: radius.sm,
-    paddingHorizontal: 10, paddingVertical: 8,
-    marginBottom: 12,
-  },
-  sidebarViewAllText: {
-    fontFamily: fonts.sansMedium, fontSize: 13,
-    flexShrink: 1,
-  },
-  sidebarViewAllBtn: {
-    fontFamily: fonts.monoBold, fontSize: 10, letterSpacing: 1,
-  },
-  sidebarUpNext: { marginBottom: 6 },
-  sidebarUpNextLabel: { fontFamily: fonts.monoBold, fontSize: 11, letterSpacing: 1.5 },
-  sidebarUpNextCard: {
-    flexDirection: 'row', gap: 10, padding: 6,
-    borderRadius: radius.sm, backgroundColor: colors.surface + '40',
-    borderWidth: 1, borderColor: colors.surface,
-  },
-  sidebarUpNextThumb: { width: 150, height: 85, borderRadius: 4, backgroundColor: colors.card },
-  sidebarUpNextInfo: { flex: 1, justifyContent: 'center', overflow: 'hidden' },
-  sidebarUpNextTitle: { fontFamily: fonts.sansSemiBold, fontSize: 14, color: colors.textPrimary, lineHeight: 19 },
-  sidebarUpNextYear: { fontFamily: fonts.mono, fontSize: 11, marginTop: 3 },
-  sidebarUpNextCreator: { fontFamily: fonts.sans, fontSize: 11, color: colors.textMuted, marginTop: 2 },
-  sidebarDivider: {
-    height: 1, backgroundColor: colors.surface, marginVertical: 10,
-  },
-  sidebarSectionLabel: {
-    fontFamily: fonts.monoBold, fontSize: 10, color: colors.textMuted,
-    letterSpacing: 1.5, marginBottom: 8,
-  },
+  // Sidebar video cards — match YouTube's thumbnail + title + creator + meta
   sidebarRelCard: {
-    flexDirection: 'row', gap: 10, marginBottom: 8, alignItems: 'center',
+    flexDirection: 'row', gap: 8, marginBottom: 10, alignItems: 'flex-start',
   },
-  sidebarRelThumb: { width: 130, height: 73, borderRadius: 4, backgroundColor: colors.card },
-  sidebarRelInfo: { flex: 1, overflow: 'hidden' },
-  sidebarRelTitle: { fontFamily: fonts.sans, fontSize: 13, color: colors.textPrimary, lineHeight: 18 },
+  sidebarThumbWrap: { position: 'relative' },
+  sidebarRelThumb: { width: 168, height: 94, borderRadius: 8, backgroundColor: colors.card },
+  sidebarUpNextBadge: {
+    position: 'absolute', top: 4, left: 4,
+    paddingHorizontal: 5, paddingVertical: 2,
+    borderRadius: 3,
+  },
+  sidebarUpNextBadgeText: { fontFamily: fonts.monoBold, fontSize: 8, color: colors.bg, letterSpacing: 0.5 },
+  sidebarRelInfo: { flex: 1, paddingTop: 2 },
+  sidebarRelTitle: {
+    fontFamily: fonts.sansMedium, fontSize: 14, color: colors.textPrimary,
+    lineHeight: 20, marginBottom: 3,
+  },
+  sidebarRelCreator: {
+    fontFamily: fonts.sans, fontSize: 12, color: colors.textMuted,
+    lineHeight: 16,
+  },
+  sidebarRelMeta: {
+    fontFamily: fonts.sans, fontSize: 12, color: colors.textMuted,
+    lineHeight: 16, marginTop: 1,
+  },
   sidebarRelYear: { fontFamily: fonts.mono, fontSize: 11, marginTop: 2 },
-  sidebarRelCreator: { fontFamily: fonts.sans, fontSize: 11, color: colors.textMuted, marginTop: 2 },
   sidebarShuffleBtn: {
     flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 5,
     paddingVertical: 8, marginTop: 6, borderRadius: radius.sm,
