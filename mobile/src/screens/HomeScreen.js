@@ -432,16 +432,6 @@ export default function HomeScreen({ navigation }) {
             </TouchableOpacity>
           </View>
         </View>
-        {/* Support banner */}
-        <TouchableOpacity
-          onPress={() => Linking.openURL(DONATE_URL)}
-          style={styles.supportBanner}
-          activeOpacity={0.7}
-        >
-          <Text style={styles.supportBannerText}>SUPPORT HUMAN CREATIONS</Text>
-          <Ionicons name="gift" size={20} color={BRAND_BLUE} style={{ marginHorizontal: 2 }} />
-          <Text style={styles.supportBannerSlogan}>FIGHT THE AI SLOP</Text>
-        </TouchableOpacity>
         <Text style={[styles.headerTagline, { color: BRAND_BLUE }]}>GENERATING SINCE 1895</Text>
         <Text style={styles.headerTaglineSub}>public domain cinema — before AI slop, there was human creativity</Text>
       </View>
@@ -637,16 +627,21 @@ export default function HomeScreen({ navigation }) {
           <Text style={[styles.footerLine, { color: BRAND_BLUE, fontFamily: fonts.monoBold, letterSpacing: 2 }]}>◈ GENERATING SINCE 1895 ◈</Text>
           <Text style={styles.footerLine}>before AI slop, there was human creativity</Text>
           <Text style={[styles.footerLine, { marginTop: 8, fontSize: 9, letterSpacing: 1 }]}>SOURCE: ARCHIVE.ORG — PUBLIC DOMAIN & CC</Text>
+
+          {/* Big donate CTA */}
           <TouchableOpacity
             onPress={() => Linking.openURL(DONATE_URL)}
-            style={styles.footerDonate}
-            activeOpacity={0.7}
+            style={styles.donateCta}
+            activeOpacity={0.8}
           >
-            <Ionicons name="gift" size={16} color={BRAND_BLUE} />
-            <Text style={styles.footerLine}>
-              <Text style={{ color: '#f5a623' }}>SUPPORT HUMAN CREATIONS</Text>
-              <Text style={{ color: '#39ff14' }}> — FIGHT THE AI SLOP</Text>
-            </Text>
+            <View style={styles.donateCtaInner}>
+              <Ionicons name="gift" size={22} color="#fff" />
+              <View style={{ marginLeft: 12, flex: 1 }}>
+                <Text style={styles.donateCtaTitle}>KEEP VOIDtv RUNNING</Text>
+                <Text style={styles.donateCtaSub}>support continued updates & server costs</Text>
+              </View>
+              <Ionicons name="chevron-forward" size={18} color="#fff8" />
+            </View>
           </TouchableOpacity>
         </View>
       </Animated.ScrollView>
@@ -1284,21 +1279,6 @@ const styles = StyleSheet.create({
   signInChipText: {
     fontFamily: fonts.mono, fontSize: 8, color: colors.textMuted, letterSpacing: 0.8,
   },
-  // Support banner — one row: SUPPORT HUMAN CREATIONS [gift] FIGHT THE AI SLOP
-  supportBanner: {
-    flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 6,
-    marginTop: 8, paddingVertical: 7, paddingHorizontal: 12,
-    borderRadius: radius.sm,
-    borderWidth: 1, borderColor: '#39ff1425',
-    backgroundColor: '#39ff1406',
-  },
-  supportBannerText: {
-    fontFamily: fonts.monoBold, fontSize: 9, color: '#f5a623', letterSpacing: 1.2,
-  },
-  supportBannerSlogan: {
-    fontFamily: fonts.monoBold, fontSize: 10, color: '#39ff14', letterSpacing: 1.5,
-    textShadow: '0px 0px 6px #39ff1460',
-  },
   randomBtn: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 10, paddingVertical: 6, borderRadius: radius.sm },
   randomText: { fontFamily: fonts.monoBold, fontSize: 9, letterSpacing: 1.2 },
   heroContent: { ...StyleSheet.absoluteFillObject, paddingHorizontal: spacing.screenPadding, paddingBottom: 20, justifyContent: 'space-between' },
@@ -1431,5 +1411,20 @@ const styles = StyleSheet.create({
 
   footer: { paddingHorizontal: spacing.screenPadding, paddingTop: 28, borderTopWidth: StyleSheet.hairlineWidth, borderTopColor: colors.surface, marginTop: 12, gap: 3 },
   footerLine: { fontFamily: fonts.sans, fontSize: 11, color: colors.textMuted, fontStyle: 'italic', textAlign: 'center' },
-  footerDonate: { marginTop: 14, paddingVertical: 8, flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 6 },
+  donateCta: {
+    marginTop: 20, marginHorizontal: 4, borderRadius: radius.md,
+    backgroundColor: '#f5a623', overflow: 'hidden',
+  },
+  donateCtaInner: {
+    flexDirection: 'row', alignItems: 'center',
+    paddingVertical: 16, paddingHorizontal: 18,
+  },
+  donateCtaTitle: {
+    fontFamily: fonts.monoBold, fontSize: 13, color: '#000',
+    letterSpacing: 1.5,
+  },
+  donateCtaSub: {
+    fontFamily: fonts.mono, fontSize: 10, color: '#0008',
+    letterSpacing: 0.5, marginTop: 2,
+  },
 });
