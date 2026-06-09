@@ -104,6 +104,7 @@ export default function PlayerScreen({ route, navigation }) {
   const [commentText, setCommentText] = useState('');
   const [commentPosting, setCommentPosting] = useState(false);
   const [commentsExpanded, setCommentsExpanded] = useState(false);
+  const [rabbitExpanded, setRabbitExpanded] = useState(false);
   const watchStartSent = useRef(false);
   const xpOpacity = useRef(new Animated.Value(0)).current;
   const xpFired = useRef(false);
@@ -1085,39 +1086,49 @@ export default function PlayerScreen({ route, navigation }) {
           )}
         </View>
 
-        {/* ── Rabbit Hole — horizontal on mobile, hidden on desktop (shown in sidebar) ── */}
+        {/* ── Rabbit Hole — collapsible on mobile, hidden on desktop (shown in sidebar) ── */}
         {!IS_DESKTOP && relatedItems.length > 0 && (
           <View style={styles.rabbitSection}>
-            <View style={styles.sectionLine}>
-              <View style={[styles.sectionLineBorder, { backgroundColor: accent + '30' }]} />
-              <Text style={styles.rabbitEmoji}>🐇</Text>
-              <Text style={[styles.sectionLabel, { color: accent }]}>RABBIT HOLE</Text>
-              <Text style={styles.sectionSub}>similar but different</Text>
-              <View style={[styles.sectionLineBorder, { backgroundColor: accent + '30' }]} />
-            </View>
-            <FlatList
-              data={relatedItems}
-              keyExtractor={(r) => r.id}
-              horizontal
-              nestedScrollEnabled
-              showsHorizontalScrollIndicator={false}
-              contentContainerStyle={styles.rabbitList}
-              renderItem={({ item: rel }) => (
-                <Pressable
-                  onPress={() => {
-                    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-                    navigation.replace('Player', { item: rel });
-                  }}
-                  style={styles.rabbitCard}
-                >
-                  <FastImage uri={rel.thumbnail} itemId={rel.id} style={styles.rabbitThumb} contentFit="cover" />
-                  <View style={styles.rabbitCardInfo}>
-                    <Text style={styles.rabbitCardTitle} numberOfLines={2}>{rel.title}</Text>
-                    {rel.year ? <Text style={[styles.rabbitCardYear, { color: accent }]}>{rel.year}</Text> : null}
-                  </View>
-                </Pressable>
-              )}
-            />
+            <TouchableOpacity
+              onPress={() => { setRabbitExpanded((v) => !v); Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light); }}
+              style={styles.rabbitToggle}
+              activeOpacity={0.7}
+            >
+              <Text style={styles.rabbitIcon}>🐇</Text>
+              <Text style={[styles.rabbitToggleText, { color: accent }]}>
+                RABBIT HOLE
+              </Text>
+              <Text style={styles.rabbitToggleCount}>{relatedItems.length}</Text>
+              <Ionicons
+                name={rabbitExpanded ? "chevron-up" : "chevron-down"}
+                size={14} color={colors.textSecondary}
+              />
+            </TouchableOpacity>
+            {rabbitExpanded && (
+              <FlatList
+                data={relatedItems}
+                keyExtractor={(r) => r.id}
+                horizontal
+                nestedScrollEnabled
+                showsHorizontalScrollIndicator={false}
+                contentContainerStyle={styles.rabbitList}
+                renderItem={({ item: rel }) => (
+                  <Pressable
+                    onPress={() => {
+                      Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+                      navigation.replace('Player', { item: rel });
+                    }}
+                    style={styles.rabbitCard}
+                  >
+                    <FastImage uri={rel.thumbnail} itemId={rel.id} style={styles.rabbitThumb} contentFit="cover" />
+                    <View style={styles.rabbitCardInfo}>
+                      <Text style={styles.rabbitCardTitle} numberOfLines={2}>{rel.title}</Text>
+                      {rel.year ? <Text style={[styles.rabbitCardYear, { color: accent }]}>{rel.year}</Text> : null}
+                    </View>
+                  </Pressable>
+                )}
+              />
+            )}
           </View>
         )}
 
@@ -1944,7 +1955,14 @@ const styles = StyleSheet.create({
   descMore: { fontFamily: fonts.monoBold, fontSize: 11, marginTop: 4 },
 
   // Rabbit hole
-  rabbitSection: { marginTop: 14, paddingBottom: 16 },
+  rabbitSection: { marginTop: 6, paddingBottom: 8 },
+  rabbitToggle: {
+    flexDirection: 'row', alignItems: 'center', gap: 6,
+    paddingHorizontal: spacing.screenPadding, paddingVertical: 10,
+  },
+  rabbitIcon: { fontSize: 18 },
+  rabbitToggleText: { fontFamily: fonts.monoBold, fontSize: 10, letterSpacing: 1.5 },
+  rabbitToggleCount: { fontFamily: fonts.mono, fontSize: 9, color: colors.textGhost, flex: 1 },
   sectionLine: {
     flexDirection: 'row', alignItems: 'center', gap: 8,
     paddingHorizontal: spacing.screenPadding,

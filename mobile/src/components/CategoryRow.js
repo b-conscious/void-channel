@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useRef, useState, useCallback } from 'react';
 import {
   View, Text, FlatList, StyleSheet, TouchableOpacity, ScrollView,
-  Platform, Dimensions, ActivityIndicator,
+  Platform, Dimensions, ActivityIndicator, Pressable,
 } from 'react-native';
+import Animated, { useSharedValue, useAnimatedStyle, withTiming } from 'react-native-reanimated';
 import { Ionicons } from '@expo/vector-icons';
 import MediaCard from './MediaCard';
 import SkeletonCard from './SkeletonCard';
@@ -11,6 +12,7 @@ import { colors, fonts, spacing, cardSize, radius } from '../theme';
 
 const SCREEN_W = Dimensions.get('window').width;
 const IS_DESKTOP = Platform.OS === 'web' && SCREEN_W > 768;
+const SCROLL_AMOUNT = cardSize.width * 2 + cardSize.gap * 2; // scroll 2 cards at a time
 
 const CAT_GLYPHS = {
   // Type categories — obscure first
@@ -48,17 +50,15 @@ const CAT_GLYPHS = {
 };
 
 /**
- * CategoryRow now supports pagination.
- * Props:
- *   page         - current page number (1-based), default 1
- *   totalPages   - total pages available (0 = unknown, hides controls)
- *   loadingMore  - true while fetching next/prev page
- *   onPageChange - (categoryId, newPage) callback
+ * CategoryRow — Amazon Video style:
+ *   - Horizontal scroll with hover-reveal arrow buttons on left/right
+ *   - "See More ›" link next to category name
+ *   - Pagination support for loading more content
  */
 export default function CategoryRow({
   category, onItemPress, loading,
   page = 1, totalPages = 0, loadingMore = false, onPageChange,
-  subscribed = false, onSubscribe,
+  subscribed = false, onSubscribe, onSeeMore,
 }) {
   const { gen } = useGeneration();
   const items = category?.items || [];
@@ -71,32 +71,65 @@ export default function CategoryRow({
 
   const hasPagination = onPageChange && items.length > 0;
   const canPrev = page > 1;
-  const canNext = totalPages === 0 || page < totalPages; // if totalPages unknown, always allow next
+  const canNext = totalPages === 0 || page < totalPages;
 
-  // "Load more" card shown at end of horizontal FlatList
-  const LoadMoreCard = () => {
-    if (!hasPagination || !canNext) return null;
-    return (
-      <TouchableOpacity
-        style={[styles.loadMoreCard, { borderColor: accent + '55' }]}
-        onPress={() => onPageChange(category.id, page + 1)}
-        activeOpacity={0.7}
-        disabled={loadingMore}
-      >
-        {loadingMore ? (
-          <ActivityIndicator color={accent} size="small" />
-        ) : (
-          <>
-            <Ionicons name="arrow-forward-circle-outline" size={28} color={accent} />
-            <Text style={[styles.loadMoreText, { color: accent }]}>NEXT{'\n'}PAGE</Text>
-          </>
-        )}
-      </TouchableOpacity>
-    );
-  };
+  // Scroll refs and hover state for arrows
+  const listRef = useRef(null);
+  const [scrollOffset, setScrollOffset] = useState(0);
+  const [contentWidth, setContentWidth] = useState(0);
+  const [containerWidth, setContainerWidth] = useState(SCREEN_W);
+  const [rowHovered, setRowHovered] = useState(false);
+
+  const canScrollLeft = scrollOffset > 10;
+  const canScrollRight = contentWidth > containerWidth + scrollOffset + 10;
+
+  // Arrow opacity animations
+  const leftArrowOpacity = useSharedValue(0);
+  const rightArrowOpacity = useSharedValue(0);
+
+  const onRowHoverIn = useCallback(() => {
+    if (Platform.OS !== 'web') return;
+    setRowHovered(true);
+    leftArrowOpacity.value = withTiming(1, { duration: 200 });
+    rightArrowOpacity.value = withTiming(1, { duration: 200 });
+  }, []);
+
+  const onRowHoverOut = useCallback(() => {
+    setRowHovered(false);
+    leftArrowOpacity.value = withTiming(0, { duration: 150 });
+    rightArrowOpacity.value = withTiming(0, { duration: 150 });
+  }, []);
+
+  const leftArrowStyle = useAnimatedStyle(() => ({
+    opacity: leftArrowOpacity.value,
+  }));
+  const rightArrowStyle = useAnimatedStyle(() => ({
+    opacity: rightArrowOpacity.value,
+  }));
+
+  const scrollLeft = useCallback(() => {
+    const next = Math.max(0, scrollOffset - SCROLL_AMOUNT);
+    listRef.current?.scrollToOffset({ offset: next, animated: true });
+  }, [scrollOffset]);
+
+  const scrollRight = useCallback(() => {
+    const next = scrollOffset + SCROLL_AMOUNT;
+    listRef.current?.scrollToOffset({ offset: next, animated: true });
+    // If near the end and we can page, load more
+    if (next + containerWidth >= contentWidth - 50 && hasPagination && canNext && !loadingMore) {
+      onPageChange(category.id, page + 1);
+    }
+  }, [scrollOffset, containerWidth, contentWidth, hasPagination, canNext, loadingMore, page, category.id, onPageChange]);
+
+  const handleScroll = useCallback((e) => {
+    setScrollOffset(e.nativeEvent.contentOffset.x);
+    setContentWidth(e.nativeEvent.contentSize.width);
+    setContainerWidth(e.nativeEvent.layoutMeasurement.width);
+  }, []);
 
   return (
     <View style={styles.container}>
+      {/* Header */}
       <View style={styles.header}>
         <View style={styles.headerLeft}>
           <View style={styles.nameRow}>
@@ -104,6 +137,18 @@ export default function CategoryRow({
             <Text style={styles.name}>{name}</Text>
             {hasPagination && (
               <Text style={styles.pageIndicator}>pg {page}</Text>
+            )}
+            {/* See More link */}
+            {onSeeMore && items.length > 0 && (
+              <TouchableOpacity
+                onPress={() => onSeeMore(category)}
+                style={styles.seeMoreBtn}
+                activeOpacity={0.7}
+                hitSlop={6}
+              >
+                <Text style={[styles.seeMoreText, { color: accent }]}>See More</Text>
+                <Ionicons name="chevron-forward" size={11} color={accent} />
+              </TouchableOpacity>
             )}
           </View>
           {subtitle ? <Text style={styles.subtitle}>{subtitle}</Text> : null}
@@ -140,60 +185,106 @@ export default function CategoryRow({
           <Text style={styles.emptyText}>— {gen?.noSignal || 'DEAD AIR'} —</Text>
         </View>
       ) : IS_DESKTOP ? (
-        <>
-          <View style={styles.grid}>
-            {items.map((item) => (
-              <MediaCard key={item.id} item={item} onPress={(it) => onItemPress(it, category.id)} />
-            ))}
-          </View>
-          {/* Desktop pagination controls */}
-          {hasPagination && (
-            <View style={styles.paginationRow}>
+        <Pressable
+          onHoverIn={onRowHoverIn}
+          onHoverOut={onRowHoverOut}
+          style={styles.rowWrap}
+        >
+          {/* Left arrow */}
+          {canScrollLeft && (
+            <Animated.View style={[styles.arrowOverlay, styles.arrowLeft, leftArrowStyle]}>
               <TouchableOpacity
-                onPress={() => onPageChange(category.id, page - 1)}
-                style={[styles.pageBtn, { borderColor: accent + '55' }, !canPrev && styles.pageBtnDisabled]}
-                activeOpacity={0.7}
-                disabled={!canPrev || loadingMore}
+                onPress={scrollLeft}
+                style={styles.arrowBtn}
+                activeOpacity={0.8}
               >
-                <Ionicons name="chevron-back" size={14} color={canPrev ? accent : colors.textGhost} />
-                <Text style={[styles.pageBtnText, { color: canPrev ? accent : colors.textGhost }]}>PREV</Text>
+                <Ionicons name="chevron-back" size={24} color="#fff" />
               </TouchableOpacity>
-
-              {loadingMore ? (
-                <ActivityIndicator color={accent} size="small" />
-              ) : (
-                <Text style={styles.pageText}>PAGE {page}</Text>
-              )}
-
-              <TouchableOpacity
-                onPress={() => onPageChange(category.id, page + 1)}
-                style={[styles.pageBtn, { borderColor: accent + '55' }, !canNext && styles.pageBtnDisabled]}
-                activeOpacity={0.7}
-                disabled={!canNext || loadingMore}
-              >
-                <Text style={[styles.pageBtnText, { color: canNext ? accent : colors.textGhost }]}>NEXT</Text>
-                <Ionicons name="chevron-forward" size={14} color={canNext ? accent : colors.textGhost} />
-              </TouchableOpacity>
-            </View>
+            </Animated.View>
           )}
-        </>
-      ) : (
-        <>
+
           <FlatList
+            ref={listRef}
             data={items}
             keyExtractor={(item) => item.id}
             horizontal
             showsHorizontalScrollIndicator={false}
             contentContainerStyle={styles.listContent}
+            onScroll={handleScroll}
+            scrollEventThrottle={16}
             renderItem={({ item }) => (
               <MediaCard item={item} onPress={(it) => onItemPress(it, category.id)} />
             )}
-            ListFooterComponent={LoadMoreCard}
+            ListFooterComponent={hasPagination && canNext ? (
+              <TouchableOpacity
+                style={[styles.loadMoreCard, { borderColor: accent + '55' }]}
+                onPress={() => onPageChange(category.id, page + 1)}
+                activeOpacity={0.7}
+                disabled={loadingMore}
+              >
+                {loadingMore ? (
+                  <ActivityIndicator color={accent} size="small" />
+                ) : (
+                  <>
+                    <Ionicons name="arrow-forward-circle-outline" size={28} color={accent} />
+                    <Text style={[styles.loadMoreText, { color: accent }]}>NEXT{'\n'}PAGE</Text>
+                  </>
+                )}
+              </TouchableOpacity>
+            ) : null}
+            initialNumToRender={5}
+            maxToRenderPerBatch={4}
+            windowSize={5}
+          />
+
+          {/* Right arrow */}
+          {canScrollRight && (
+            <Animated.View style={[styles.arrowOverlay, styles.arrowRight, rightArrowStyle]}>
+              <TouchableOpacity
+                onPress={scrollRight}
+                style={styles.arrowBtn}
+                activeOpacity={0.8}
+              >
+                <Ionicons name="chevron-forward" size={24} color="#fff" />
+              </TouchableOpacity>
+            </Animated.View>
+          )}
+        </Pressable>
+      ) : (
+        <>
+          <FlatList
+            ref={listRef}
+            data={items}
+            keyExtractor={(item) => item.id}
+            horizontal
+            showsHorizontalScrollIndicator={false}
+            contentContainerStyle={styles.listContent}
+            onScroll={handleScroll}
+            scrollEventThrottle={16}
+            renderItem={({ item }) => (
+              <MediaCard item={item} onPress={(it) => onItemPress(it, category.id)} />
+            )}
+            ListFooterComponent={hasPagination && canNext ? (
+              <TouchableOpacity
+                style={[styles.loadMoreCard, { borderColor: accent + '55' }]}
+                onPress={() => onPageChange(category.id, page + 1)}
+                activeOpacity={0.7}
+                disabled={loadingMore}
+              >
+                {loadingMore ? (
+                  <ActivityIndicator color={accent} size="small" />
+                ) : (
+                  <>
+                    <Ionicons name="arrow-forward-circle-outline" size={28} color={accent} />
+                    <Text style={[styles.loadMoreText, { color: accent }]}>NEXT{'\n'}PAGE</Text>
+                  </>
+                )}
+              </TouchableOpacity>
+            ) : null}
             initialNumToRender={3}
             maxToRenderPerBatch={3}
             windowSize={3}
             removeClippedSubviews={Platform.OS !== 'web'}
-            getItemLayout={null}
           />
           {/* Prev page button for mobile — shown below the row when on page 2+ */}
           {hasPagination && canPrev && (
@@ -214,13 +305,13 @@ export default function CategoryRow({
 }
 
 const styles = StyleSheet.create({
-  container: { marginBottom: 34 },
+  container: { marginBottom: 30 },
   header: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'flex-end',
     paddingHorizontal: spacing.screenPadding,
-    marginBottom: 11,
+    marginBottom: 10,
   },
   headerLeft: { flex: 1 },
   nameRow: { flexDirection: 'row', alignItems: 'center', gap: 7 },
@@ -228,6 +319,17 @@ const styles = StyleSheet.create({
   name: { fontFamily: fonts.monoBold, fontSize: 11, letterSpacing: 1.5, color: colors.textPrimary, flexShrink: 1 },
   pageIndicator: { fontFamily: fonts.mono, fontSize: 9, color: colors.textGhost, letterSpacing: 0.5 },
   subtitle: { fontFamily: fonts.sans, fontSize: 12, color: colors.textMuted, marginTop: 3, marginLeft: 17, fontStyle: 'italic' },
+
+  // See More link
+  seeMoreBtn: {
+    flexDirection: 'row', alignItems: 'center', gap: 2,
+    marginLeft: 8, paddingVertical: 2, paddingHorizontal: 4,
+  },
+  seeMoreText: {
+    fontFamily: fonts.mono, fontSize: 9, letterSpacing: 0.5,
+  },
+
+  // Subscribe button
   subBtn: {
     flexDirection: 'row', alignItems: 'center', gap: 4,
     paddingHorizontal: 10, paddingVertical: 5,
@@ -235,15 +337,46 @@ const styles = StyleSheet.create({
     alignSelf: 'flex-start',
   },
   subBtnText: { fontFamily: fonts.mono, fontSize: 8, letterSpacing: 1, color: colors.textSecondary },
-  grid: {
-    flexDirection: 'row', flexWrap: 'wrap',
-    paddingHorizontal: spacing.screenPadding, gap: cardSize.gap,
+
+  // Row wrapper for hover detection
+  rowWrap: { position: 'relative' },
+
+  // Arrow overlays — Amazon Video style
+  arrowOverlay: {
+    position: 'absolute', top: 0, bottom: 0,
+    width: 44, zIndex: 10,
+    justifyContent: 'center', alignItems: 'center',
   },
+  arrowLeft: {
+    left: 0,
+    // Gradient fade from dark to transparent
+    ...(Platform.OS === 'web' ? {
+      backgroundImage: 'linear-gradient(to right, rgba(12,12,15,0.85), transparent)',
+    } : {
+      backgroundColor: 'rgba(12,12,15,0.6)',
+    }),
+  },
+  arrowRight: {
+    right: 0,
+    ...(Platform.OS === 'web' ? {
+      backgroundImage: 'linear-gradient(to left, rgba(12,12,15,0.85), transparent)',
+    } : {
+      backgroundColor: 'rgba(12,12,15,0.6)',
+    }),
+  },
+  arrowBtn: {
+    width: 36, height: 36, borderRadius: 18,
+    backgroundColor: 'rgba(255,255,255,0.12)',
+    justifyContent: 'center', alignItems: 'center',
+    borderWidth: 1, borderColor: 'rgba(255,255,255,0.15)',
+  },
+
+  // List content
   listContent: { paddingHorizontal: spacing.screenPadding, paddingVertical: 2 },
   emptyWrap: { paddingHorizontal: spacing.screenPadding, paddingVertical: 20 },
   emptyText: { fontFamily: fonts.mono, fontSize: 10, color: colors.textGhost, letterSpacing: 1 },
 
-  // Load more card (end of horizontal list on mobile)
+  // Load more card (end of horizontal list)
   loadMoreCard: {
     width: 90,
     height: cardSize.height,
@@ -260,39 +393,6 @@ const styles = StyleSheet.create({
     fontSize: 9,
     letterSpacing: 1.5,
     textAlign: 'center',
-  },
-
-  // Desktop pagination row
-  paginationRow: {
-    flexDirection: 'row',
-    justifyContent: 'center',
-    alignItems: 'center',
-    gap: 16,
-    marginTop: 14,
-    paddingHorizontal: spacing.screenPadding,
-  },
-  pageBtn: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    paddingHorizontal: 14,
-    paddingVertical: 7,
-    borderRadius: radius.full,
-    borderWidth: 1,
-    gap: 4,
-  },
-  pageBtnDisabled: {
-    opacity: 0.35,
-  },
-  pageBtnText: {
-    fontFamily: fonts.monoBold,
-    fontSize: 10,
-    letterSpacing: 1.5,
-  },
-  pageText: {
-    fontFamily: fonts.mono,
-    fontSize: 10,
-    color: colors.textMuted,
-    letterSpacing: 1,
   },
 
   // Mobile prev button (below the row)

@@ -758,7 +758,22 @@ async function getItem(identifier) {
     headers: { "User-Agent": "VoidChannel/0.2" },
     timeout: 15000,
   });
-  const data = await res.json();
+  if (!res.ok) {
+    console.warn(`[archive] getItem(${identifier}) HTTP ${res.status}`);
+    return {
+      id: identifier,
+      title: identifier.replace(/_/g, " "),
+      description: "Item metadata unavailable from Archive.org.",
+      year: null, creator: null, duration: null,
+      thumbnail: THUMB_URL(identifier),
+      archiveUrl: `${BASE}/details/${identifier}`,
+      videoUrl: FILE_URL(identifier, `${identifier}_512kb.mp4`),
+      videoUrlHQ: null, videoSize: null, videoFormat: null,
+      availableFormats: [],
+    };
+  }
+  let data;
+  try { data = await res.json(); } catch { data = {}; }
 
   const meta = data?.metadata || {};
   const files = data?.files || [];

@@ -100,15 +100,7 @@ export default function MediaCard({ item, onPress, size = 'default', style }) {
     return `${mm}:${String(ss).padStart(2, '0')}`;
   }, [item.runtime]);
 
-  // Web: show hover info after 400ms delay; Mobile: long-press shows it
-  const onHoverIn = useCallback(() => {
-    if (Platform.OS !== 'web') return;
-    hoverTimer.current = setTimeout(() => setHovered(true), 400);
-  }, []);
-  const onHoverOut = useCallback(() => {
-    clearTimeout(hoverTimer.current);
-    setHovered(false);
-  }, []);
+  // (hover handlers moved to onCardHoverIn/onCardHoverOut with animation)
   const onLongPress = useCallback(() => {
     if (Platform.OS === 'web') return;
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
@@ -118,16 +110,43 @@ export default function MediaCard({ item, onPress, size = 'default', style }) {
   const desc = item.description || '';
   const subjects = Array.isArray(item.subjects) ? item.subjects.slice(0, 5) : [];
 
+  const accent = gen?.accentColor || colors.amber;
+
+  // Hover glow border animation
+  const glowOpacity = useSharedValue(0);
+  const hoverScale = useSharedValue(1);
+
+  const onCardHoverIn = useCallback(() => {
+    if (Platform.OS !== 'web') return;
+    hoverTimer.current = setTimeout(() => setHovered(true), 400);
+    glowOpacity.value = withTiming(1, { duration: 200 });
+    hoverScale.value = withTiming(1.03, { duration: 250 });
+  }, []);
+
+  const onCardHoverOut = useCallback(() => {
+    clearTimeout(hoverTimer.current);
+    setHovered(false);
+    glowOpacity.value = withTiming(0, { duration: 200 });
+    hoverScale.value = withTiming(1, { duration: 200 });
+  }, []);
+
+  const glowStyle = useAnimatedStyle(() => ({
+    borderWidth: 1.5,
+    borderColor: `rgba(255,255,255,${glowOpacity.value * 0.25})`,
+    transform: [{ scale: hoverScale.value }],
+  }));
+
   return (
     <AnimatedPressable
       onPress={() => { setHovered(false); Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light); onPress(item); }}
       onPressIn={() => { scale.value = withSpring(0.94, SPRING); }}
       onPressOut={() => { scale.value = withSpring(1, SPRING); }}
       onLongPress={onLongPress}
-      onHoverIn={onHoverIn}
-      onHoverOut={onHoverOut}
+      onHoverIn={onCardHoverIn}
+      onHoverOut={onCardHoverOut}
       style={[{ width: w, marginRight: cardSize.gap }, animStyle, style]}
     >
+      <Animated.View style={[{ width: w, height: h, borderRadius: radius.md }, glowStyle]}>
       <FastImage
         uri={item.thumbnail}
         itemId={item.id}
@@ -160,17 +179,26 @@ export default function MediaCard({ item, onPress, size = 'default', style }) {
           ) : null}
         </View>
 
+        {/* Play icon — appears on hover */}
+        {hovered && !hovered && false /* play icon for deep hover only */ }
+
         {/* Hover info overlay — shows description, subjects, creator */}
         {hovered && (
           <View style={styles.hoverOverlay}>
             <LinearGradient
-              colors={['rgba(12,12,15,0.95)', 'rgba(12,12,15,0.98)']}
+              colors={['rgba(12,12,15,0.93)', 'rgba(12,12,15,0.97)']}
               style={StyleSheet.absoluteFill}
             />
+            {/* Play button centered */}
+            <View style={styles.hoverPlayRow}>
+              <View style={[styles.hoverPlayBtn, { borderColor: accent }]}>
+                <Ionicons name="play" size={18} color={accent} style={{ marginLeft: 2 }} />
+              </View>
+            </View>
             <Text style={styles.hoverTitle} numberOfLines={2}>{item.title}</Text>
             {creator ? <Text style={styles.hoverCreator}>{creator}{item.year ? ` · ${item.year}` : ''}</Text> : null}
             {durationLabel ? <Text style={styles.hoverMeta}>{durationLabel}</Text> : null}
-            {desc ? <Text style={styles.hoverDesc} numberOfLines={4}>{desc}</Text> : null}
+            {desc ? <Text style={styles.hoverDesc} numberOfLines={3}>{desc}</Text> : null}
             {subjects.length > 0 && (
               <View style={styles.hoverTags}>
                 {subjects.map((s, i) => (
@@ -191,7 +219,7 @@ export default function MediaCard({ item, onPress, size = 'default', style }) {
           </View>
         )}
 
-        {/* Heart — separate touch target so it doesn't trigger card navigation */}
+        {/* Heart — separate touch target */}
         <TouchableOpacity
           onPress={toggleHeart}
           style={styles.heartBtn}
@@ -201,13 +229,14 @@ export default function MediaCard({ item, onPress, size = 'default', style }) {
           <Animated.View style={heartAnimStyle}>
             <Ionicons
               name={hearted ? "heart" : "heart-outline"}
-              size={20}
+              size={18}
               color={hearted ? "#ff3b5c" : "#fff"}
               style={styles.heartIcon}
             />
           </Animated.View>
         </TouchableOpacity>
       </FastImage>
+      </Animated.View>
     </AnimatedPressable>
   );
 }
@@ -250,6 +279,17 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   heartIcon: { textShadowColor: 'rgba(0,0,0,0.6)', textShadowOffset: { width: 0, height: 1 }, textShadowRadius: 2 },
+
+  // Hover play button
+  hoverPlayRow: {
+    alignItems: 'center', marginBottom: 6,
+  },
+  hoverPlayBtn: {
+    width: 36, height: 36, borderRadius: 18,
+    borderWidth: 1.5,
+    backgroundColor: 'rgba(0,0,0,0.5)',
+    justifyContent: 'center', alignItems: 'center',
+  },
 
   // Hover info overlay
   hoverOverlay: {

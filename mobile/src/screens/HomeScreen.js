@@ -238,6 +238,11 @@ export default function HomeScreen({ navigation }) {
     navigation.navigate('Player', { item, categoryId });
   }, [navigation]);
 
+  // See More — navigate to search filtered by this category
+  const handleSeeMore = useCallback((category) => {
+    navigation.navigate('Search', { categoryId: category.id, categoryName: category.name });
+  }, [navigation]);
+
   // Subscribe / unsubscribe to a category
   const [subscribedIds, setSubscribedIds] = useState(new Set());
   useEffect(() => {
@@ -567,6 +572,7 @@ export default function HomeScreen({ navigation }) {
                 onPageChange={handlePageChange}
                 subscribed={subscribedIds.has(cat.id)}
                 onSubscribe={handleSubscribe}
+                onSeeMore={handleSeeMore}
               />
             ))}
 
@@ -588,6 +594,7 @@ export default function HomeScreen({ navigation }) {
                     onPageChange={handlePageChange}
                     subscribed={subscribedIds.has(cat.id)}
                     onSubscribe={handleSubscribe}
+                onSeeMore={handleSeeMore}
                   />
                 ))}
               </LazySection>
@@ -611,6 +618,7 @@ export default function HomeScreen({ navigation }) {
                     onPageChange={handlePageChange}
                     subscribed={subscribedIds.has(cat.id)}
                     onSubscribe={handleSubscribe}
+                onSeeMore={handleSeeMore}
                   />
                 ))}
               </LazySection>
@@ -634,6 +642,7 @@ export default function HomeScreen({ navigation }) {
                     onPageChange={handlePageChange}
                     subscribed={subscribedIds.has(cat.id)}
                     onSubscribe={handleSubscribe}
+                onSeeMore={handleSeeMore}
                   />
                 ))}
               </LazySection>
