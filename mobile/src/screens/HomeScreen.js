@@ -708,6 +708,17 @@ export default function HomeScreen({ navigation }) {
           />
         )}
 
+        {/* ── Spotlight: TV & Features — big visual cards, always visible ── */}
+        {!loading && allCategories.length > 0 && (
+          <SpotlightRow
+            categories={allCategories}
+            accent={accent}
+            onItemPress={handleItemPress}
+            onSeeMore={handleSeeMore}
+            contentW={contentW}
+          />
+        )}
+
         {/* Genre content — shows when a filter chip (not "all") is active */}
         {visibleTypeCats.map((cat) => (
           <CategoryRow
@@ -1025,6 +1036,175 @@ function ChannelsRow({ categories, accent, onChannelPress, generationId, loading
     </View>
   );
 }
+
+// ── Spotlight Row: TV & Features — big visual entry points, always visible ──
+// Two hero-sized cards with rotating thumbnails. These are the "I want to watch
+// something real" entry points — the most popular categories on the whole site.
+function SpotlightRow({ categories, accent, onItemPress, onSeeMore, contentW }) {
+  var tvCat = categories.find(function (c) { return c.id === 'tv_movies'; });
+  var featuresCat = categories.find(function (c) { return c.id === 'feature_length'; });
+  if (!tvCat && !featuresCat) return null;
+
+  var spots = [
+    { cat: tvCat, icon: 'tv-outline', title: 'TELEVISION', sub: 'Classic shows, serials & broadcasts' },
+    { cat: featuresCat, icon: 'film-outline', title: 'FULL LENGTH FILMS', sub: 'Feature-length movies you can watch right now' },
+  ].filter(function (s) { return s.cat && s.cat.items && s.cat.items.length > 0; });
+
+  if (spots.length === 0) return null;
+
+  // Desktop: side by side. Mobile: stacked.
+  var cardW = IS_DESKTOP ? Math.floor((contentW - spacing.screenPadding * 2 - 12) / 2) : contentW - spacing.screenPadding * 2;
+  var cardH = IS_DESKTOP ? 220 : 170;
+
+  return (
+    <View style={spotStyles.block}>
+      <View style={spotStyles.headerRow}>
+        <Text style={[spotStyles.sectionTitle, { color: accent }]}>NOW PLAYING</Text>
+      </View>
+      <View style={[spotStyles.row, IS_DESKTOP && spotStyles.rowDesktop]}>
+        {spots.map(function (spot) {
+          // Pick 4 random thumbnails from the category for a mini preview strip
+          var shuffled = (spot.cat.items || []).slice().sort(function () { return Math.random() - 0.5; });
+          var hero = shuffled[0];
+          var previews = shuffled.slice(1, 5);
+
+          return (
+            <Pressable
+              key={spot.cat.id}
+              onPress={function () { onSeeMore(spot.cat); }}
+              style={[spotStyles.card, { width: cardW, height: cardH }]}
+            >
+              {/* Background thumbnail */}
+              <FastImage
+                uri={hero ? hero.thumbnail : ''}
+                itemId={hero ? hero.id : spot.cat.id}
+                style={[StyleSheet.absoluteFill, { borderRadius: 10 }]}
+                contentFit="cover"
+              />
+              {/* Dark gradient overlay */}
+              <LinearGradient
+                colors={['rgba(12,12,15,0.15)', 'rgba(12,12,15,0.5)', 'rgba(12,12,15,0.92)']}
+                locations={[0, 0.45, 1]}
+                style={[StyleSheet.absoluteFill, { borderRadius: 10 }]}
+              />
+              {/* Content overlay */}
+              <View style={spotStyles.cardContent}>
+                <View style={spotStyles.cardTop}>
+                  <View style={[spotStyles.iconBadge, { backgroundColor: accent }]}>
+                    <Ionicons name={spot.icon} size={14} color={colors.bg} />
+                  </View>
+                </View>
+                <View style={spotStyles.cardBottom}>
+                  <Text style={spotStyles.cardTitle}>{spot.title}</Text>
+                  <Text style={spotStyles.cardSub}>{spot.sub}</Text>
+                  {/* Mini preview strip — 4 tiny thumbnails */}
+                  {previews.length > 0 && (
+                    <View style={spotStyles.previewStrip}>
+                      {previews.map(function (p) {
+                        return (
+                          <TouchableOpacity
+                            key={p.id}
+                            onPress={function () { onItemPress(p, spot.cat.id); }}
+                            activeOpacity={0.8}
+                            style={spotStyles.previewThumb}
+                          >
+                            <FastImage
+                              uri={p.thumbnail}
+                              itemId={p.id}
+                              style={spotStyles.previewImg}
+                              contentFit="cover"
+                            />
+                          </TouchableOpacity>
+                        );
+                      })}
+                      <TouchableOpacity
+                        onPress={function () { onSeeMore(spot.cat); }}
+                        style={spotStyles.previewMore}
+                        activeOpacity={0.7}
+                      >
+                        <Ionicons name="arrow-forward" size={12} color={accent} />
+                      </TouchableOpacity>
+                    </View>
+                  )}
+                </View>
+              </View>
+            </Pressable>
+          );
+        })}
+      </View>
+    </View>
+  );
+}
+
+var spotStyles = StyleSheet.create({
+  block: { marginTop: 12, marginBottom: 8 },
+  headerRow: { paddingHorizontal: spacing.screenPadding, marginBottom: 10 },
+  sectionTitle: { fontFamily: fonts.monoBold, fontSize: 11, letterSpacing: 2 },
+  row: { paddingHorizontal: spacing.screenPadding, gap: 12 },
+  rowDesktop: { flexDirection: 'row' },
+  card: {
+    borderRadius: 10,
+    overflow: 'hidden',
+    backgroundColor: colors.card,
+    marginBottom: IS_DESKTOP ? 0 : 12,
+  },
+  cardContent: {
+    flex: 1,
+    justifyContent: 'space-between',
+    padding: 14,
+  },
+  cardTop: { flexDirection: 'row', justifyContent: 'flex-start' },
+  iconBadge: {
+    width: 28, height: 28, borderRadius: 14,
+    justifyContent: 'center', alignItems: 'center',
+  },
+  cardBottom: {},
+  cardTitle: {
+    fontFamily: fonts.monoBold,
+    fontSize: 18,
+    color: '#fff',
+    letterSpacing: 2,
+    textShadowColor: 'rgba(0,0,0,0.7)',
+    textShadowOffset: { width: 0, height: 1 },
+    textShadowRadius: 4,
+  },
+  cardSub: {
+    fontFamily: fonts.sans,
+    fontSize: 12,
+    color: 'rgba(255,255,255,0.75)',
+    marginTop: 3,
+    textShadowColor: 'rgba(0,0,0,0.5)',
+    textShadowOffset: { width: 0, height: 1 },
+    textShadowRadius: 3,
+  },
+  previewStrip: {
+    flexDirection: 'row',
+    marginTop: 10,
+    gap: 6,
+    alignItems: 'center',
+  },
+  previewThumb: {
+    borderRadius: 4,
+    overflow: 'hidden',
+    borderWidth: 1,
+    borderColor: 'rgba(255,255,255,0.15)',
+  },
+  previewImg: {
+    width: IS_DESKTOP ? 64 : 52,
+    height: IS_DESKTOP ? 36 : 30,
+    borderRadius: 4,
+  },
+  previewMore: {
+    width: IS_DESKTOP ? 36 : 30,
+    height: IS_DESKTOP ? 36 : 30,
+    borderRadius: IS_DESKTOP ? 18 : 15,
+    backgroundColor: 'rgba(255,255,255,0.1)',
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderWidth: 1,
+    borderColor: 'rgba(255,255,255,0.15)',
+  },
+});
 
 function ScanlineOverlay({ height }) {
   return (
