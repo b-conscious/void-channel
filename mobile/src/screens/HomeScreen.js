@@ -2,6 +2,7 @@ import React, { useState, useEffect, useCallback, useRef, useMemo } from 'react'
 import {
   View, Text, Animated, TouchableOpacity, Pressable, Modal, Linking,
   ScrollView, StyleSheet, Dimensions, Platform, TextInput, useWindowDimensions,
+  ActivityIndicator,
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { LinearGradient } from 'expo-linear-gradient';
@@ -375,18 +376,43 @@ export default function HomeScreen({ navigation }) {
     }
   }, []);
 
-  // Launch a category as a continuously-playing channel
-  const handleChannelPress = useCallback((cat, label) => {
-    if (!cat?.items?.length) return;
+  // ── Deep channel queue: fetch 200+ items from Archive.org, not just the 15 pre-cached ──
+  const [loadingChannel, setLoadingChannel] = useState(null); // label of channel being loaded
+  const handleChannelPress = useCallback(async (cat, label, catIds) => {
+    if (!catIds?.length) return;
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
-    navigation.navigate('Player', {
-      item: cat.items[0],
-      id: cat.items[0].id,
-      queue: cat.items,
-      queueIndex: 0,
-      categoryId: cat.id,
-      channelLabel: label,
-    });
+    setLoadingChannel(label);
+    try {
+      // Fetch deep queue — 200 items mixed from all the channel's categories
+      const result = await api.getChannelQueue(catIds, 200);
+      const deepItems = result?.items || [];
+      // Fall back to shallow pre-cached items if deep fetch fails
+      const queue = deepItems.length > 0 ? deepItems : (cat?.items || []);
+      if (queue.length === 0) { setLoadingChannel(null); return; }
+      navigation.navigate('Player', {
+        item: queue[0],
+        id: queue[0].id,
+        queue: queue,
+        queueIndex: 0,
+        categoryId: catIds[0],
+        channelLabel: label,
+      });
+    } catch (err) {
+      console.warn('[channel queue]', err.message);
+      // Fallback: use shallow pre-cached items
+      if (cat?.items?.length) {
+        navigation.navigate('Player', {
+          item: cat.items[0],
+          id: cat.items[0].id,
+          queue: cat.items,
+          queueIndex: 0,
+          categoryId: cat.id,
+          channelLabel: label,
+        });
+      }
+    } finally {
+      setLoadingChannel(null);
+    }
   }, [navigation]);
 
   // Track which category the hero came from so streak works for hero taps too
@@ -672,6 +698,7 @@ export default function HomeScreen({ navigation }) {
             accent={accent}
             onChannelPress={handleChannelPress}
             generationId={generationId}
+            loadingChannel={loadingChannel}
           />
         )}
 
@@ -889,7 +916,9 @@ function ShortsRow({ items, accent, onItemPress }) {
 }
 
 // Channels row — TV channel tiles with multi-source mixing, sorted by generation
-function ChannelsRow({ categories, accent, onChannelPress, generationId }) {
+// Channels now fetch deep queues (200+ items) from Archive.org on tap,
+// not just the shallow 15-per-category home cache.
+function ChannelsRow({ categories, accent, onChannelPress, generationId, loadingChannel }) {
   var channelScrollRef = useRef(null);
   var channelXRef = useRef(0);
   var scrollChannels = useCallback(function (dir) {
@@ -914,6 +943,7 @@ function ChannelsRow({ categories, accent, onChannelPress, generationId }) {
     { label: "THE WEIRD SHELF", icon: "✦", catIds: ["oddities", "abstract", "conspiracy", "amateur"] },
   ];
 
+  // Still compute shallow mix for filtering (only show channels that have SOME content loaded)
   const channels = channelDefs
     .map((def) => {
       const mixed = mixCategoryItems(categories, def.catIds);
@@ -939,7 +969,7 @@ function ChannelsRow({ categories, accent, onChannelPress, generationId }) {
     <View style={styles.channelsBlock}>
       <View style={styles.channelsHeader}>
         <Text style={[styles.channelsTitle, { color: accent }]}>◉ CHANNELS</Text>
-        <Text style={styles.channelsSubtitle}>tap to tune in — auto-plays through</Text>
+        <Text style={styles.channelsSubtitle}>tap to tune in — deep queue from the archive</Text>
       </View>
       <View style={IS_DESKTOP ? styles.scrollArrowRow : undefined}>
         {IS_DESKTOP && (
@@ -956,22 +986,29 @@ function ChannelsRow({ categories, accent, onChannelPress, generationId }) {
           onScroll={(e) => { channelXRef.current = e.nativeEvent.contentOffset.x; }}
           scrollEventThrottle={32}
         >
-          {channels.map((ch) => (
-            <Pressable
-              key={ch.label}
-              onPress={() => onChannelPress(ch.category, ch.label)}
-              style={[styles.channelTile, { borderColor: accent + '30' }]}
-            >
-              <View style={[styles.liveBadge, { backgroundColor: accent }]}>
-                <View style={styles.liveBadgeDot} />
-                <Text style={styles.liveBadgeText}>LIVE</Text>
-              </View>
-              <Text style={[styles.channelTileLabel, { color: '#fff' }]} numberOfLines={1}>{ch.label}</Text>
-              <Text style={styles.channelTileSub}>
-                {ch.category.items.length} mixed · auto-advance
-              </Text>
-            </Pressable>
-          ))}
+          {channels.map((ch) => {
+            var isLoading = loadingChannel === ch.label;
+            return (
+              <Pressable
+                key={ch.label}
+                onPress={() => !isLoading && onChannelPress(ch.category, ch.label, ch.catIds)}
+                style={[styles.channelTile, { borderColor: accent + '30', opacity: isLoading ? 0.6 : 1 }]}
+              >
+                {isLoading ? (
+                  <ActivityIndicator size="small" color={accent} style={{ marginBottom: 4 }} />
+                ) : (
+                  <View style={[styles.liveBadge, { backgroundColor: accent }]}>
+                    <View style={styles.liveBadgeDot} />
+                    <Text style={styles.liveBadgeText}>LIVE</Text>
+                  </View>
+                )}
+                <Text style={[styles.channelTileLabel, { color: '#fff' }]} numberOfLines={1}>{ch.label}</Text>
+                <Text style={styles.channelTileSub}>
+                  {isLoading ? 'loading deep queue...' : `${ch.catIds.length} sources · auto-advance`}
+                </Text>
+              </Pressable>
+            );
+          })}
         </ScrollView>
         {IS_DESKTOP && (
           <TouchableOpacity onPress={() => scrollChannels('right')} style={styles.chipArrow} activeOpacity={0.7}>

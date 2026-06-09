@@ -55,6 +55,7 @@ app.use((req, res, next) => {
   else if (route === 'categories' || route === 'category')       edge('s-maxage=1200, stale-while-revalidate=600');   // 20m — matches server cache
   else if (route === 'search')                                   edge('s-maxage=1800, stale-while-revalidate=600');   // 30m
   else if (route === 'shorts')                                   edge('s-maxage=1800, stale-while-revalidate=600');   // 30m
+  else if (route === 'channel')                                   edge('s-maxage=1800, stale-while-revalidate=600');   // 30m — channel queues
   else if (route === 'related')                                  edge('s-maxage=3600, stale-while-revalidate=600');   // 1h
   else if (route === 'trending')                                 edge('s-maxage=300, stale-while-revalidate=120');    // 5m — fast-changing
   else if ((route === 'hearts' || route === 'views') && sub === 'top')
@@ -172,6 +173,71 @@ app.get("/api/category/:id", async (req, res) => {
   } catch (err) {
     console.error(`[/api/category/${req.params.id}]`, err);
     res.status(500).json({ error: "Failed to fetch category" });
+  }
+});
+
+/**
+ * GET /api/channel/queue?cats=horror,deep_creature,deep_vampire&rows=200&page=1
+ * Builds a deep mixed queue from multiple categories for continuous channel playback.
+ * Instead of relying on the shallow 15-items-per-category home cache, this fetches
+ * 50+ items per category directly from Archive.org and mixes them round-robin.
+ * Result: 200+ unique items per channel — hours of continuous viewing.
+ */
+app.get("/api/channel/queue", async (req, res) => {
+  try {
+    const catIds = (req.query.cats || "").split(",").filter(Boolean);
+    if (catIds.length === 0) {
+      return res.status(400).json({ error: "cats parameter required (comma-separated category IDs)" });
+    }
+
+    const totalRows = Math.min(parseInt(req.query.rows) || 200, 500);
+    const page = parseInt(req.query.page) || 1;
+    // Fetch enough per category so mixing produces totalRows items
+    const rowsPerCat = Math.ceil(totalRows / catIds.length) + 10;
+
+    // Time bucket gives variety on repeat visits (rotates every 30 min)
+    const timeBucket = Math.floor(Date.now() / (30 * 60 * 1000));
+    const cacheKey = `channel:${catIds.sort().join(",")}:${totalRows}:${page}:${timeBucket}`;
+
+    const cached = await cache.get(cacheKey);
+    if (cached) {
+      res.set("X-Cache", "HIT");
+      return res.json(cached);
+    }
+
+    // Fetch items from each category in parallel — shuffle=true for variety
+    const results = await Promise.allSettled(
+      catIds.map((catId) => archive.getCategoryItems(catId, rowsPerCat, page, true))
+    );
+
+    // Collect successful results
+    const allCatItems = results
+      .filter((r) => r.status === "fulfilled" && r.value && !r.value.error)
+      .map((r) => r.value.items || []);
+
+    // Mix items round-robin from all categories, deduped
+    const seen = new Set();
+    const mixed = [];
+    const maxRounds = rowsPerCat;
+    for (let round = 0; round < maxRounds && mixed.length < totalRows; round++) {
+      for (const items of allCatItems) {
+        const item = items[round];
+        if (item && !seen.has(item.id)) {
+          seen.add(item.id);
+          mixed.push(item);
+          if (mixed.length >= totalRows) break;
+        }
+      }
+    }
+
+    const result = { items: mixed, total: mixed.length, page, cats: catIds };
+    cache.set(cacheKey, result, 1800); // 30 min cache
+    res.set("X-Cache", "MISS");
+    console.log(`[/api/channel/queue] ${catIds.length} cats → ${mixed.length} items (${totalRows} requested)`);
+    res.json(result);
+  } catch (err) {
+    console.error("[/api/channel/queue]", err);
+    res.status(500).json({ error: "Failed to build channel queue" });
   }
 });
 

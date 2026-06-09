@@ -72,6 +72,18 @@ export async function getCategoryItems(categoryId, page = 1, rows = 25) {
 }
 
 /**
+ * Deep channel queue — fetches 200+ mixed items from multiple categories.
+ * Used when a user taps a channel tile. Returns a playlist-sized queue
+ * for hours of continuous auto-advance playback.
+ *   catIds: array of category IDs (e.g. ['horror', 'deep_creature', 'deep_vampire'])
+ *   rows: total items to return (default 200, max 500)
+ *   page: pagination for infinite channels (default 1)
+ */
+export async function getChannelQueue(catIds, rows = 200, page = 1) {
+  return request(`/api/channel/queue?cats=${catIds.join(',')}&rows=${rows}&page=${page}`);
+}
+
+/**
  * Search. Optional category filter narrows to that collection.
  * Either query (>=2 chars) or category is required.
  */
@@ -481,7 +493,7 @@ export async function adminClearBanner() {
 }
 
 export default {
-  getCategories, getCategoryItems, searchItems, searchCollection, searchCreator,
+  getCategories, getCategoryItems, getChannelQueue, searchItems, searchCollection, searchCreator,
   getItem, getShorts, getRandomItem,
   getRelated, wakeUp, heartItem, unheartItem, getTopHearts,
   setAuthToken, register, login, loginAnonymous, refreshToken,
