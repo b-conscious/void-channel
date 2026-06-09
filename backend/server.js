@@ -27,6 +27,7 @@ const embedRoutes = require("./embed");
 const playlistRoutes = require("./playlists");
 const subscriptionRoutes = require("./subscriptions");
 const trendingRoutes = require("./trending");
+const adminRoutes = require("./admin");
 
 const app = express();
 const cache = new Cache(1200); // 20min default TTL (was 1hr — rotate content faster)
@@ -65,6 +66,14 @@ app.use(optionalAuth);
 app.use("/api/playlists", playlistRoutes);
 app.use("/api/subscriptions", subscriptionRoutes);
 app.use("/api", trendingRoutes);
+
+// Admin routes — inject cache reference for flush control
+app.use("/api/admin", (req, res, next) => { req._cache = cache; next(); }, adminRoutes);
+
+// Public banner endpoint — anyone can read the current site banner
+app.get("/api/banner", (req, res) => {
+  res.json(adminRoutes.getBanner ? adminRoutes.getBanner() : null);
+});
 
 // ── Routes ─────────────────────────────────────────────────
 
@@ -334,12 +343,6 @@ app.get("/api/views/top", (req, res) => {
 /** GET /api/views/stats — total views across all items */
 app.get("/api/views/stats", (req, res) => {
   res.json({ totalViews: views.getTotalViews() });
-});
-
-/** DELETE /api/views — wipe all view/trending data (admin) */
-app.delete("/api/views", (req, res) => {
-  const wiped = views.resetAll();
-  res.json({ ok: true, wiped, message: `Cleared ${wiped} view records` });
 });
 
 // ── Health Check ───────────────────────────────────────────

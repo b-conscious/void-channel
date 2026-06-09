@@ -14,6 +14,7 @@ import PlayerScreen from '../screens/PlayerScreen';
 import AuthScreen from '../screens/AuthScreen';
 import PlaylistScreen from '../screens/PlaylistScreen';
 import PlaylistsListScreen from '../screens/PlaylistsListScreen';
+import AdminScreen from '../screens/AdminScreen';
 
 import { useGeneration } from '../context/GenerationContext';
 import { colors, fonts } from '../theme';
@@ -133,6 +134,15 @@ export default function Navigation() {
         <Stack.Screen
           name="Playlist"
           component={PlaylistScreen}
+          options={{
+            headerShown: false,
+            header: () => null,
+            animation: Platform.OS === 'web' ? 'none' : 'slide_from_right',
+          }}
+        />
+        <Stack.Screen
+          name="Admin"
+          component={AdminScreen}
           options={{
             headerShown: false,
             header: () => null,

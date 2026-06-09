@@ -1031,6 +1031,18 @@ function DrawerMenu({ visible, onClose, accent, gen, generationId, chooseGenerat
             <Text style={drawerStyles.menuLabel}>ACCOUNT</Text>
           </TouchableOpacity>
 
+          {/* Admin — only visible to admin emails */}
+          {isAuthenticated && user && ['bryankorth31@gmail.com', 'preacherb@cashvalues.org'].includes((user.email || '').toLowerCase()) && (
+            <TouchableOpacity
+              style={drawerStyles.menuItem}
+              onPress={() => { onClose(); navigation.navigate('Admin'); }}
+              activeOpacity={0.7}
+            >
+              <Ionicons name="shield-checkmark" size={18} color="#ff3b5c" style={{ width: 28 }} />
+              <Text style={[drawerStyles.menuLabel, { color: '#ff3b5c' }]}>ADMIN PANEL</Text>
+            </TouchableOpacity>
+          )}
+
           <View style={drawerStyles.divider} />
 
           {/* Support */}

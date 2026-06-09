@@ -360,6 +360,61 @@ export async function getRecommendations(limit = 20) {
   return request(`/api/recommendations?limit=${limit}`);
 }
 
+// ── Admin ───────────────────────────────────────────────
+
+/** Get admin dashboard stats */
+export async function adminDashboard() {
+  return request("/api/admin/dashboard");
+}
+
+/** Wipe all view/trending data */
+export async function adminWipeViews() {
+  return request("/api/admin/views", { method: "DELETE" });
+}
+
+/** Wipe all heart data */
+export async function adminWipeHearts() {
+  return request("/api/admin/hearts", { method: "DELETE" });
+}
+
+/** Flush the server-side cache */
+export async function adminFlushCache() {
+  return request("/api/admin/cache", { method: "DELETE" });
+}
+
+/** List registered users */
+export async function adminUsers() {
+  return request("/api/admin/users");
+}
+
+/** Get pending contributions */
+export async function adminContributions(status = "pending") {
+  return request(`/api/admin/contributions?status=${status}`);
+}
+
+/** Approve a contribution */
+export async function adminApproveContribution(id) {
+  return request(`/api/admin/contributions/${id}/approve`, { method: "POST" });
+}
+
+/** Reject a contribution */
+export async function adminRejectContribution(id) {
+  return request(`/api/admin/contributions/${id}/reject`, { method: "POST" });
+}
+
+/** Set a site-wide banner message */
+export async function adminSetBanner(message, type = "info") {
+  return request("/api/admin/broadcast", {
+    method: "POST",
+    body: JSON.stringify({ message, type }),
+  });
+}
+
+/** Clear the site-wide banner */
+export async function adminClearBanner() {
+  return request("/api/admin/broadcast", { method: "DELETE" });
+}
+
 export default {
   getCategories, getCategoryItems, searchItems, getItem, getRandomItem,
   getRelated, wakeUp, heartItem, unheartItem, getTopHearts,
@@ -372,4 +427,7 @@ export default {
   addToPlaylist, removeFromPlaylist, reorderPlaylist,
   getSubscriptions, subscribe, unsubscribe, getSubscriptionFeed,
   sendWatchEvent, getTrending, getRecommendations,
+  adminDashboard, adminWipeViews, adminWipeHearts, adminFlushCache,
+  adminUsers, adminContributions, adminApproveContribution, adminRejectContribution,
+  adminSetBanner, adminClearBanner,
 };

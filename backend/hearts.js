@@ -88,6 +88,13 @@ function getCount(itemId) {
   return data.items[itemId]?.count || 0;
 }
 
+function resetAll() {
+  const count = Object.keys(data.items).length;
+  data = { items: {} };
+  scheduleFlush();
+  return count;
+}
+
 load();
 
-module.exports = { heart, unheart, getTop, getCount };
+module.exports = { heart, unheart, getTop, getCount, resetAll };
