@@ -4,17 +4,12 @@ import {
   ActivityIndicator, Linking, Alert, Animated, Dimensions, LayoutAnimation,
   Platform, UIManager, Share, TextInput,
 } from 'react-native';
+import { useSidebar } from '../context/SidebarContext';
 const { height: SCREEN_H, width: SCREEN_W } = Dimensions.get('window');
 const IS_WEB = Platform.OS === 'web';
 const IS_DESKTOP = IS_WEB && SCREEN_W > 900;
-// YouTube-style: video + sidebar side-by-side. Video is 16:9 of the left column.
-// Left nav sidebar (DesktopSidebar) is position:fixed at 150px — PlayerScreen must offset.
-const NAV_W = IS_DESKTOP ? 150 : 0;
+// YouTube-style layout constants — NAV_W is dynamic via SidebarContext (see component body)
 const SIDEBAR_W = IS_DESKTOP ? 360 : 0;
-const AVAILABLE_W = SCREEN_W - NAV_W - SIDEBAR_W;
-const VIDEO_H = IS_WEB
-  ? Math.min(Math.round(AVAILABLE_W * 9 / 16), Math.round(SCREEN_H * 0.75))
-  : Math.round(SCREEN_H * 0.42);
 
 // Enable LayoutAnimation on Android
 if (Platform.OS === 'android' && UIManager.setLayoutAnimationEnabledExperimental) {
@@ -81,6 +76,12 @@ export default function PlayerScreen({ route, navigation }) {
   const stub = params.item || { id: params.id, title: '', thumbnail: null };
   const { categoryId, queue, queueIndex, channelLabel } = params;
   const insets = useSafeAreaInsets();
+  const { sidebarWidth } = useSidebar();
+  const NAV_W = IS_DESKTOP ? sidebarWidth : 0;
+  const AVAILABLE_W = SCREEN_W - NAV_W - SIDEBAR_W;
+  const VIDEO_H = IS_WEB
+    ? Math.min(Math.round(AVAILABLE_W * 9 / 16), Math.round(SCREEN_H * 0.75))
+    : Math.round(SCREEN_H * 0.42);
   const { gen } = useGeneration();
   const { onWatchItem, onContribute, XP_REWARDS } = useGame();
   const { user, isAuthenticated } = useAuth();
@@ -1406,7 +1407,7 @@ export default function PlayerScreen({ route, navigation }) {
   );
 
   return (
-    <View style={styles.container}>
+    <View style={[styles.container, IS_DESKTOP && { marginLeft: NAV_W }]}>
       {/* XP toast */}
       {xpToast && (
         <Animated.View style={[styles.xpToast, { opacity: xpOpacity, borderColor: accent }]}>
@@ -2087,7 +2088,7 @@ function ActionIcon({ icon, label, color, onPress, loading }) {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: colors.bg, ...(IS_DESKTOP ? { marginLeft: NAV_W } : {}) },
+  container: { flex: 1, backgroundColor: colors.bg },
   xpToast: {
     position: 'absolute', top: 60, right: 16, zIndex: 99,
     borderWidth: 1, borderRadius: radius.full,

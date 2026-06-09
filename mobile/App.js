@@ -8,6 +8,7 @@ import { useFonts } from 'expo-font';
 import { SpaceMono_400Regular, SpaceMono_700Bold } from '@expo-google-fonts/space-mono';
 import { DMSans_400Regular, DMSans_500Medium, DMSans_600SemiBold } from '@expo-google-fonts/dm-sans';
 
+import { SidebarProvider } from './src/context/SidebarContext';
 import { GenerationProvider } from './src/context/GenerationContext';
 import { AuthProvider } from './src/context/AuthContext';
 import { GameProvider } from './src/context/GameContext';
@@ -33,14 +34,16 @@ export default function App() {
   return (
     <GestureHandlerRootView style={styles.root}>
       <SafeAreaProvider>
-        <GenerationProvider>
-          <AuthProvider>
-            <GameProvider>
-              <StatusBar style="light" />
-              <Navigation />
-            </GameProvider>
-          </AuthProvider>
-        </GenerationProvider>
+        <SidebarProvider>
+          <GenerationProvider>
+            <AuthProvider>
+              <GameProvider>
+                <StatusBar style="light" />
+                <Navigation />
+              </GameProvider>
+            </AuthProvider>
+          </GenerationProvider>
+        </SidebarProvider>
       </SafeAreaProvider>
     </GestureHandlerRootView>
   );

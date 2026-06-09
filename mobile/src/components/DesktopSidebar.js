@@ -1,15 +1,10 @@
 /**
  * DesktopSidebar — YouTube-style persistent left navigation for desktop web.
  *
- * Rendered via Tab.Navigator's `tabBar` prop on desktop (SCREEN_W > 900).
- * Receives { state, navigation, descriptors } from React Navigation.
- * Uses position:fixed on web so it stays visible while scrolling.
+ * Collapsible: expanded (150px) shows icons + labels + sections,
+ * collapsed (56px) shows just icon rail. Toggle via hamburger button.
  *
- * Mapping to YouTube sidebar:
- *   Browse   → Home
- *   Search   → Search
- *   Signal   → Subscriptions / Explore
- *   You >    → History, Playlists, Saved, Hearted, Downloads
+ * Search removed from sidebar — search bar lives in the header permanently.
  */
 
 import React from 'react';
@@ -19,8 +14,8 @@ import { colors, fonts, spacing, radius } from '../theme';
 import { useGeneration } from '../context/GenerationContext';
 import { useAuth } from '../context/AuthContext';
 import { useGame } from '../context/GameContext';
+import { useSidebar, EXPANDED_W, COLLAPSED_W } from '../context/SidebarContext';
 
-var SIDEBAR_NAV_W = 150;
 var BRAND_BLUE = '#5cb8ff';
 var DONATE_URL = 'https://square.link/u/IteDL7XI';
 
@@ -31,9 +26,9 @@ var TAB_COLORS = {
   'My Void': '#f5a623',
 };
 
+// Main nav — Search removed (search bar is always in header)
 var NAV_ITEMS = [
   { name: 'Browse', icon: 'tv-outline', iconFocused: 'tv', label: 'Browse' },
-  { name: 'Search', icon: 'search-outline', iconFocused: 'search', label: 'Search' },
   { name: 'Signal', icon: 'compass-outline', iconFocused: 'compass', label: 'Signal' },
 ];
 
@@ -45,9 +40,15 @@ var YOU_ITEMS = [
   { icon: 'download-outline', label: 'Downloads', tab: 'My Void' },
 ];
 
-export { SIDEBAR_NAV_W };
+// Collapsed icon rail items — includes My Void
+var RAIL_ITEMS = [
+  { name: 'Browse', icon: 'tv-outline', iconFocused: 'tv' },
+  { name: 'Signal', icon: 'compass-outline', iconFocused: 'compass' },
+  { name: 'My Void', icon: 'bookmark-outline', iconFocused: 'bookmark' },
+];
 
 export default function DesktopSidebar({ state, navigation }) {
+  var { collapsed, sidebarWidth, toggleSidebar } = useSidebar();
   var activeIndex = state?.index ?? 0;
   var activeRoute = state?.routes?.[activeIndex]?.name || 'Browse';
   var { gen } = useGeneration();
@@ -60,7 +61,6 @@ export default function DesktopSidebar({ state, navigation }) {
   }
 
   function handleStackPress(screen) {
-    // Navigate to a Stack screen above the tab navigator
     var parent = navigation.getParent?.();
     if (parent) {
       parent.navigate(screen);
@@ -69,20 +69,68 @@ export default function DesktopSidebar({ state, navigation }) {
     }
   }
 
+  // ── Collapsed: icon rail ──
+  if (collapsed) {
+    return (
+      <View style={[styles.sidebar, { width: COLLAPSED_W }]}>
+        {/* Toggle — expand */}
+        <TouchableOpacity onPress={toggleSidebar} style={styles.toggleBtn} activeOpacity={0.7}>
+          <Ionicons name="menu" size={20} color={colors.textSecondary} />
+        </TouchableOpacity>
+
+        {/* Icon rail */}
+        {RAIL_ITEMS.map(function (item) {
+          var isActive = activeRoute === item.name;
+          var color = TAB_COLORS[item.name] || colors.textSecondary;
+          return (
+            <TouchableOpacity
+              key={item.name}
+              onPress={function () { handleTabPress(item.name); }}
+              style={[styles.railItem, isActive && { backgroundColor: color + '15' }]}
+              activeOpacity={0.7}
+            >
+              <Ionicons
+                name={isActive ? item.iconFocused : item.icon}
+                size={22}
+                color={isActive ? color : colors.textSecondary}
+              />
+            </TouchableOpacity>
+          );
+        })}
+
+        {/* Support icon */}
+        <TouchableOpacity
+          onPress={function () { Linking.openURL(DONATE_URL); }}
+          style={styles.railItem}
+          activeOpacity={0.7}
+        >
+          <Ionicons name="gift" size={20} color={BRAND_BLUE} />
+        </TouchableOpacity>
+      </View>
+    );
+  }
+
+  // ── Expanded: full sidebar ──
   return (
-    <View style={styles.sidebar}>
+    <View style={[styles.sidebar, { width: EXPANDED_W }]}>
       <ScrollView
         style={{ flex: 1 }}
         contentContainerStyle={styles.scrollContent}
         showsVerticalScrollIndicator={false}
       >
-        {/* ── Logo — clickable → Browse ── */}
+        {/* Toggle — collapse */}
+        <View style={styles.topRow}>
+          <TouchableOpacity onPress={toggleSidebar} style={styles.toggleBtn} activeOpacity={0.7}>
+            <Ionicons name="menu" size={20} color={colors.textSecondary} />
+          </TouchableOpacity>
+        </View>
+
+        {/* ── Logo — clickable, navigates to Browse ── */}
         <TouchableOpacity onPress={function () { handleTabPress('Browse'); }} style={styles.logoSection} activeOpacity={0.7}>
           <View style={styles.logoRow}>
             <Text style={[styles.logoVoid, { color: accent }]}>VOID</Text>
             <Text style={styles.logoTv}>tv</Text>
           </View>
-          <Text style={[styles.tagline, { color: BRAND_BLUE }]}>GENERATING SINCE 1895</Text>
         </TouchableOpacity>
 
         {/* ── Main nav tabs ── */}
@@ -113,7 +161,7 @@ export default function DesktopSidebar({ state, navigation }) {
 
         <View style={styles.separator} />
 
-        {/* ── You section (YouTube pattern) ── */}
+        {/* ── You section ── */}
         <TouchableOpacity
           onPress={function () { handleTabPress('My Void'); }}
           style={styles.sectionHeaderRow}
@@ -225,23 +273,29 @@ var styles = StyleSheet.create({
     left: 0,
     top: 0,
     bottom: 0,
-    width: SIDEBAR_NAV_W,
     backgroundColor: colors.bg,
     borderRightWidth: StyleSheet.hairlineWidth,
     borderRightColor: colors.surface,
     zIndex: 50,
   },
   scrollContent: {
-    paddingTop: 20,
+    paddingTop: 4,
     paddingBottom: 40,
   },
 
+  // Toggle button
+  topRow: { paddingHorizontal: 12, marginBottom: 4 },
+  toggleBtn: {
+    width: 36, height: 36, borderRadius: radius.lg,
+    justifyContent: 'center', alignItems: 'center',
+    marginTop: 8, marginBottom: 4,
+  },
+
   // Logo
-  logoSection: { paddingHorizontal: 12, marginBottom: 18 },
+  logoSection: { paddingHorizontal: 12, marginBottom: 14 },
   logoRow: { flexDirection: 'row', alignItems: 'baseline' },
   logoVoid: { fontFamily: fonts.monoBold, fontSize: 16, letterSpacing: 2.5 },
   logoTv: { fontFamily: fonts.sans, fontSize: 13, color: colors.textMuted, letterSpacing: 0.5 },
-  tagline: { fontFamily: fonts.mono, fontSize: 7, letterSpacing: 1.2, marginTop: 3 },
 
   // Nav items (tabs)
   navItem: {
@@ -258,7 +312,7 @@ var styles = StyleSheet.create({
     marginVertical: 12, marginHorizontal: 12,
   },
 
-  // Section headers (You, Explore)
+  // Section headers
   sectionHeaderRow: {
     flexDirection: 'row', alignItems: 'center', gap: 4,
     paddingHorizontal: 12, paddingVertical: 4, marginBottom: 4,
@@ -268,7 +322,7 @@ var styles = StyleSheet.create({
     paddingHorizontal: 12, marginBottom: 6,
   },
 
-  // Quick links (You items, Explore items)
+  // Quick links
   quickLink: {
     flexDirection: 'row', alignItems: 'center', gap: 10,
     paddingVertical: 7, paddingHorizontal: 12,
@@ -296,7 +350,7 @@ var styles = StyleSheet.create({
   },
   signInText: { fontFamily: fonts.sansMedium, fontSize: 13 },
 
-  // Support — stacked to keep sidebar narrow
+  // Support — wraps at narrow width
   supportRow: {
     flexDirection: 'row', alignItems: 'flex-start', gap: 8,
     paddingHorizontal: 12, paddingVertical: 8, marginBottom: 8,
@@ -309,5 +363,12 @@ var styles = StyleSheet.create({
   footerText: {
     fontFamily: fonts.mono, fontSize: 8, color: colors.textGhost,
     letterSpacing: 0.5, textAlign: 'center', marginTop: 3,
+  },
+
+  // Collapsed icon rail
+  railItem: {
+    width: COLLAPSED_W, height: 44,
+    justifyContent: 'center', alignItems: 'center',
+    borderRadius: radius.lg,
   },
 });

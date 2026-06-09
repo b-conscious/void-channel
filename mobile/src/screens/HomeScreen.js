@@ -19,12 +19,10 @@ import api from '../api/client';
 import store from '../store/cache';
 import { colors, fonts, spacing, radius } from '../theme';
 
-import { SIDEBAR_NAV_W } from '../components/DesktopSidebar';
+import { useSidebar } from '../context/SidebarContext';
 
 const { width: SCREEN_W } = Dimensions.get('window');
 const IS_DESKTOP = Platform.OS === 'web' && SCREEN_W > 900;
-const CONTENT_W = IS_DESKTOP ? SCREEN_W - SIDEBAR_NAV_W : SCREEN_W;
-const HERO_H = Math.round(CONTENT_W * 0.62);
 const DONATE_URL = 'https://square.link/u/IteDL7XI';
 const BRAND_BLUE = '#5cb8ff'; // vivid blue — donate icon + tagline
 
@@ -62,6 +60,9 @@ function pickRandom(arr) {
 
 export default function HomeScreen({ navigation }) {
   const insets = useSafeAreaInsets();
+  const { sidebarWidth } = useSidebar();
+  const contentW = IS_DESKTOP ? SCREEN_W - sidebarWidth : SCREEN_W;
+  const heroH = Math.round(contentW * 0.62);
   const { gen, generationId, chooseGeneration } = useGeneration();
   const { user, isAuthenticated, updateProfile, signOut } = useAuth();
   const [menuOpen, setMenuOpen] = useState(false);
@@ -544,6 +545,8 @@ export default function HomeScreen({ navigation }) {
           accent={accent}
           onPress={handleHeroPress}
           onRandom={handleRandom}
+          contentW={contentW}
+          heroH={heroH}
         />
 
         {/* Wake Up Server */}
@@ -715,8 +718,8 @@ function LazySection({ children, delayMs = 100, estimatedHeight = 200 }) {
   return <>{children}</>;
 }
 
-function HeroCard({ item, loading, insetTop, loadingMsg, tagline, gen, accent, onPress, onRandom }) {
-  const totalH = HERO_H + 20; // header is now outside scroll, no inset padding needed
+function HeroCard({ item, loading, insetTop, loadingMsg, tagline, gen, accent, onPress, onRandom, contentW, heroH }) {
+  const totalH = heroH + 20; // header is now outside scroll, no inset padding needed
 
   if (loading && !item) {
     return (
@@ -734,11 +737,11 @@ function HeroCard({ item, loading, insetTop, loadingMsg, tagline, gen, accent, o
   const creator = Array.isArray(item.creator) ? item.creator[0] : item.creator;
 
   return (
-    <Pressable onPress={onPress} style={{ height: totalH, width: CONTENT_W }}>
+    <Pressable onPress={onPress} style={{ height: totalH, width: contentW }}>
       <FastImage
         uri={item.thumbnail}
         itemId={item.id}
-        style={{ width: CONTENT_W, height: totalH }}
+        style={{ width: contentW, height: totalH }}
         contentFit="cover"
         priority="high"
       />

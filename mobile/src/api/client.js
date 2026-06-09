@@ -5,9 +5,10 @@
 
 // Point this at your computer's LAN IP so a real phone can reach the proxy.
 // `localhost` from a phone means the phone itself — won't work.
+// Once DNS is live: "https://api.voidtv.net"  (Cloudflare → Render)
 const BASE_URL = __DEV__
   ? "http://localhost:3001"
-  : "https://api.voidtv.net";
+  : "https://void-channel.onrender.com";
 
 const TIMEOUT = 30000;       // 30s — Archive.org can be slow
 const LONG_TIMEOUT = 90000;  // 90s — Render cold start wake-up

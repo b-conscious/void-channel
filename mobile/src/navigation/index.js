@@ -5,7 +5,8 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { StyleSheet, Platform, View, Text, ActivityIndicator, Dimensions } from 'react-native';
 import { BlurView } from 'expo-blur';
 import { Ionicons } from '@expo/vector-icons';
-import DesktopSidebar, { SIDEBAR_NAV_W } from '../components/DesktopSidebar';
+import DesktopSidebar from '../components/DesktopSidebar';
+import { useSidebar } from '../context/SidebarContext';
 
 var IS_DESKTOP = Platform.OS === 'web' && Dimensions.get('window').width > 900;
 
@@ -72,9 +73,10 @@ function TabBackground() {
 
 function TabNavigator() {
   // On desktop: replace bottom tabs with DesktopSidebar, shift screen content right
+  var { sidebarWidth } = useSidebar();
   var desktopProps = IS_DESKTOP ? {
     tabBar: function (props) { return <DesktopSidebar {...props} />; },
-    sceneContainerStyle: { marginLeft: SIDEBAR_NAV_W },
+    sceneContainerStyle: { marginLeft: sidebarWidth },
   } : {};
 
   return (
