@@ -117,16 +117,14 @@ export default function HomeScreen({ navigation }) {
       return ai - bi;
     });
   }, [allCategories, gen.categoryPriority]);
+  // Filter chips replace the old browse-by-genre rows.
+  // "All" → curated rows only (Hearts, Trending, etc.). Chip → that genre's content.
   const visibleTypeCats = useMemo(() => {
-    // When a filter chip is active (not "all"), only show matching category
-    if (activeChip !== 'all') {
-      const match = typeCats.filter((c) => c.id === activeChip);
-      return match.length > 0 ? match : typeCats.slice(0, CATS_PER_PAGE);
-    }
-    const start = catPage * CATS_PER_PAGE;
-    return typeCats.slice(start, start + CATS_PER_PAGE);
-  }, [typeCats, catPage, activeChip]);
-  const totalTypePages = Math.max(1, Math.ceil(typeCats.length / CATS_PER_PAGE));
+    if (activeChip === 'all') return []; // curated rows handle the "all" view
+    // Search every category (type, deep, show, decade) for the selected genre
+    const match = allCategories.filter((c) => c.id === activeChip);
+    return match;
+  }, [allCategories, activeChip]);
 
   // Per-category pagination — tracks which page each category is on + loading state
   const [catPages, setCatPages] = useState({});       // { [catId]: pageNumber }
@@ -641,155 +639,20 @@ export default function HomeScreen({ navigation }) {
           />
         )}
 
-        {/* Browse — 5 categories at a time with retune */}
-        {loading && allCategories.length === 0 ? (
-          <>
-            <View style={styles.divider}>
-              <View style={styles.dividerLine} />
-              <Text style={styles.dividerText}>THE COLLECTION</Text>
-              <View style={styles.dividerLine} />
-            </View>
-            {Array.from({ length: 4 }).map((_, i) => <SkeletonRow key={i} />)}
-          </>
-        ) : (
-          <>
-            {/* ── Browse toolbar — compact tuner strip ── */}
-            <View style={[styles.browseToolbar, { borderColor: accent + '25' }]}>
-              {/* Left: label + page dial */}
-              <View style={styles.browseToolbarLeft}>
-                <Text style={[styles.browseLabel, { color: accent }]}>THE VAULT</Text>
-                <Text style={styles.browseSub}>BY GENRE</Text>
-              </View>
-
-              {/* Center: retune dial */}
-              <View style={styles.tuneDial}>
-                <TouchableOpacity
-                  onPress={() => handleRetune('up')}
-                  style={[styles.tuneArrow, { borderColor: accent + '40' }]}
-                  activeOpacity={0.7}
-                  hitSlop={6}
-                >
-                  <Ionicons name="chevron-back" size={16} color={accent} />
-                </TouchableOpacity>
-                <View style={styles.tuneDisplay}>
-                  <Text style={[styles.tuneChannel, { color: accent }]}>{catPage + 1}</Text>
-                  <Text style={styles.tuneTotalText}>/ {totalTypePages}</Text>
-                </View>
-                <TouchableOpacity
-                  onPress={() => handleRetune('down')}
-                  style={[styles.tuneArrow, { borderColor: accent + '40' }]}
-                  activeOpacity={0.7}
-                  hitSlop={6}
-                >
-                  <Ionicons name="chevron-forward" size={16} color={accent} />
-                </TouchableOpacity>
-              </View>
-
-              {/* Right: repopulate */}
-              <TouchableOpacity
-                onPress={handleRepopulate}
-                style={[styles.reshuffleBtn, { borderColor: accent + '50', backgroundColor: accent + '0a' }]}
-                activeOpacity={0.7}
-                disabled={refreshing}
-              >
-                <Ionicons
-                  name={refreshing ? "sync" : "shuffle"}
-                  size={14}
-                  color={accent}
-                />
-                <Text style={[styles.reshuffleText, { color: accent }]}>
-                  {refreshing ? "TUNING..." : "NEW STUFF"}
-                </Text>
-              </TouchableOpacity>
-            </View>
-
-            {visibleTypeCats.map((cat) => (
-              <CategoryRow
-                key={cat.id}
-                category={cat}
-                onItemPress={handleItemPress}
-                page={catPages[cat.id] || 1}
-                loadingMore={!!catLoading[cat.id]}
-                onPageChange={handlePageChange}
-                subscribed={subscribedIds.has(cat.id)}
-                onSubscribe={handleSubscribe}
-                onSeeMore={handleSeeMore}
-              />
-            ))}
-
-            {/* Deep cuts — granular sub-categories (lazy: renders 2.5s after above-fold) */}
-            {deepCats.length > 0 && (
-              <LazySection delayMs={2500} estimatedHeight={deepCats.length * 180}>
-                <View style={styles.divider}>
-                  <View style={styles.dividerLine} />
-                  <Text style={styles.dividerText}>DEEP CUTS — THE WEIRD STUFF</Text>
-                  <View style={styles.dividerLine} />
-                </View>
-                {deepCats.map((cat) => (
-                  <CategoryRow
-                    key={cat.id}
-                    category={cat}
-                    onItemPress={handleItemPress}
-                    page={catPages[cat.id] || 1}
-                    loadingMore={!!catLoading[cat.id]}
-                    onPageChange={handlePageChange}
-                    subscribed={subscribedIds.has(cat.id)}
-                    onSubscribe={handleSubscribe}
-                onSeeMore={handleSeeMore}
-                  />
-                ))}
-              </LazySection>
-            )}
-
-            {/* By show / series (lazy: renders 5s after above-fold) */}
-            {showCats.length > 0 && (
-              <LazySection delayMs={5000} estimatedHeight={showCats.length * 180}>
-                <View style={styles.divider}>
-                  <View style={styles.dividerLine} />
-                  <Text style={styles.dividerText}>BY SERIES — THE CLASSICS</Text>
-                  <View style={styles.dividerLine} />
-                </View>
-                {showCats.map((cat) => (
-                  <CategoryRow
-                    key={cat.id}
-                    category={cat}
-                    onItemPress={handleItemPress}
-                    page={catPages[cat.id] || 1}
-                    loadingMore={!!catLoading[cat.id]}
-                    onPageChange={handlePageChange}
-                    subscribed={subscribedIds.has(cat.id)}
-                    onSubscribe={handleSubscribe}
-                onSeeMore={handleSeeMore}
-                  />
-                ))}
-              </LazySection>
-            )}
-
-            {/* By decade (lazy: renders 8s after above-fold) */}
-            {decadeCats.length > 0 && (
-              <LazySection delayMs={8000} estimatedHeight={decadeCats.length * 180}>
-                <View style={styles.divider}>
-                  <View style={styles.dividerLine} />
-                  <Text style={styles.dividerText}>BY DECADE — TIME MACHINE</Text>
-                  <View style={styles.dividerLine} />
-                </View>
-                {decadeCats.map((cat) => (
-                  <CategoryRow
-                    key={cat.id}
-                    category={cat}
-                    onItemPress={handleItemPress}
-                    page={catPages[cat.id] || 1}
-                    loadingMore={!!catLoading[cat.id]}
-                    onPageChange={handlePageChange}
-                    subscribed={subscribedIds.has(cat.id)}
-                    onSubscribe={handleSubscribe}
-                onSeeMore={handleSeeMore}
-                  />
-                ))}
-              </LazySection>
-            )}
-          </>
-        )}
+        {/* Genre content — shows when a filter chip (not "all") is active */}
+        {visibleTypeCats.map((cat) => (
+          <CategoryRow
+            key={cat.id}
+            category={cat}
+            onItemPress={handleItemPress}
+            page={catPages[cat.id] || 1}
+            loadingMore={!!catLoading[cat.id]}
+            onPageChange={handlePageChange}
+            subscribed={subscribedIds.has(cat.id)}
+            onSubscribe={handleSubscribe}
+            onSeeMore={handleSeeMore}
+          />
+        ))}
 
         {/* Footer */}
         <View style={[styles.footer, { paddingBottom: insets.bottom + 90 }]}>
