@@ -217,24 +217,36 @@ export default function HomeScreen({ navigation }) {
     <View style={styles.container}>
       {/* Floating header (fades as you scroll) */}
       <Animated.View
-        style={[styles.floatingHeader, { paddingTop: insets.top + 8, opacity: headerAnim }]}
+        style={[styles.floatingHeader, { paddingTop: insets.top + 4, opacity: headerAnim }]}
         pointerEvents="box-none"
       >
-        <View style={styles.headerLeft}>
-          <TouchableOpacity onPress={() => setMenuOpen(true)} style={styles.hamburger} hitSlop={8}>
-            <Ionicons name="menu" size={22} color={colors.textPrimary} />
-          </TouchableOpacity>
-          <View style={styles.logoWrap}>
-            <Text style={[styles.logoVoid, { color: accent }]}>VOID</Text>
-            <Text style={styles.logoCh}> CH.</Text>
-            <View style={[styles.liveIndicator, { backgroundColor: '#ff2d78' }]} />
-            <Text style={styles.liveText}>LIVE</Text>
+        <View style={styles.headerTop}>
+          <View style={styles.headerLeft}>
+            <TouchableOpacity onPress={() => setMenuOpen(true)} style={styles.hamburger} hitSlop={8}>
+              <Ionicons name="menu" size={22} color={colors.textPrimary} />
+            </TouchableOpacity>
+            <View style={styles.logoWrap}>
+              <Text style={[styles.logoVoid, { color: accent }]}>VOID</Text>
+              <Text style={styles.logoCh}> CHANNEL</Text>
+            </View>
+          </View>
+          <View style={styles.headerRight}>
+            <TouchableOpacity
+              onPress={() => Linking.openURL('https://square.link/u/IteDL7XI')}
+              style={styles.supportHeaderBtn}
+              activeOpacity={0.7}
+              hitSlop={6}
+            >
+              <Ionicons name="heart" size={13} color="#ff2d78" />
+              <Text style={styles.supportHeaderText}>SUPPORT</Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={handleRandom} style={[styles.randomBtn, { backgroundColor: accent }]} hitSlop={8}>
+              <Ionicons name="shuffle" size={12} color={gen.accentOnDark} style={{ marginRight: 4 }} />
+              <Text style={[styles.randomText, { color: gen.accentOnDark }]}>SURPRISE ME</Text>
+            </TouchableOpacity>
           </View>
         </View>
-        <TouchableOpacity onPress={handleRandom} style={[styles.randomBtn, { backgroundColor: accent }]} hitSlop={8}>
-          <Ionicons name="shuffle" size={12} color={gen.accentOnDark} style={{ marginRight: 4 }} />
-          <Text style={[styles.randomText, { color: gen.accentOnDark }]}>SURPRISE ME</Text>
-        </TouchableOpacity>
+        <Text style={[styles.headerTagline, { color: accent + 'aa' }]}>◈ generating since 1895 — public domain cinema ◈</Text>
       </Animated.View>
 
       {/* ── Hamburger drawer ── */}
@@ -668,8 +680,11 @@ function DrawerMenu({ visible, onClose, accent, gen, generationId, chooseGenerat
         <Pressable style={drawerStyles.drawer} onPress={(e) => e.stopPropagation()}>
           {/* Header */}
           <View style={drawerStyles.drawerHeader}>
-            <Text style={[drawerStyles.drawerLogo, { color: accent }]}>VOID</Text>
-            <Text style={drawerStyles.drawerLogoSub}> CHANNEL</Text>
+            <View style={drawerStyles.drawerLogoRow}>
+              <Text style={[drawerStyles.drawerLogo, { color: accent }]}>VOID</Text>
+              <Text style={drawerStyles.drawerLogoSub}> CHANNEL</Text>
+            </View>
+            <Text style={drawerStyles.drawerTagline}>generating since 1895</Text>
           </View>
 
           {/* Nav items */}
@@ -766,12 +781,13 @@ const drawerStyles = StyleSheet.create({
     paddingTop: 60, paddingBottom: 30, paddingHorizontal: 20,
   },
   drawerHeader: {
-    flexDirection: 'row', alignItems: 'baseline',
     marginBottom: 28, paddingBottom: 16,
     borderBottomWidth: StyleSheet.hairlineWidth, borderBottomColor: colors.surface,
   },
+  drawerLogoRow: { flexDirection: 'row', alignItems: 'baseline' },
   drawerLogo: { fontFamily: fonts.monoBold, fontSize: 20, letterSpacing: 4 },
   drawerLogoSub: { fontFamily: fonts.mono, fontSize: 12, color: colors.textMuted, letterSpacing: 1 },
+  drawerTagline: { fontFamily: fonts.mono, fontSize: 9, color: colors.textGhost, letterSpacing: 1.5, marginTop: 4 },
   menuItem: {
     flexDirection: 'row', alignItems: 'center',
     paddingVertical: 13, paddingHorizontal: 4,
@@ -811,18 +827,33 @@ const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: colors.bg },
   floatingHeader: {
     position: 'absolute', top: 0, left: 0, right: 0, zIndex: 10,
+    paddingHorizontal: spacing.screenPadding, paddingBottom: 6,
+  },
+  headerTop: {
     flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center',
-    paddingHorizontal: spacing.screenPadding, paddingBottom: 10,
   },
   headerLeft: { flexDirection: 'row', alignItems: 'center', gap: 10 },
+  headerRight: { flexDirection: 'row', alignItems: 'center', gap: 8 },
   hamburger: { padding: 4 },
   scroll: { flex: 1 },
-  logoWrap: { flexDirection: 'row', alignItems: 'center', gap: 6 },
+  logoWrap: { flexDirection: 'row', alignItems: 'baseline' },
   logoVoid: { fontFamily: fonts.monoBold, fontSize: 18, letterSpacing: 4 },
-  logoCh: { fontFamily: fonts.mono, fontSize: 14, color: colors.textSecondary, letterSpacing: 1 },
-  liveIndicator: { width: 6, height: 6, borderRadius: 3 },
-  liveText: { fontFamily: fonts.monoBold, fontSize: 9, color: '#ff2d78', letterSpacing: 1.5 },
-  randomBtn: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 12, paddingVertical: 8, borderRadius: radius.sm },
+  logoCh: { fontFamily: fonts.mono, fontSize: 11, color: colors.textMuted, letterSpacing: 1 },
+  headerTagline: {
+    fontFamily: fonts.mono, fontSize: 9, letterSpacing: 1.5,
+    textAlign: 'center', marginTop: 4,
+  },
+  supportHeaderBtn: {
+    flexDirection: 'row', alignItems: 'center', gap: 4,
+    paddingHorizontal: 10, paddingVertical: 6,
+    borderRadius: radius.sm,
+    borderWidth: 1, borderColor: '#ff2d7840',
+    backgroundColor: '#ff2d7810',
+  },
+  supportHeaderText: {
+    fontFamily: fonts.monoBold, fontSize: 8, color: '#ff2d78', letterSpacing: 1.2,
+  },
+  randomBtn: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 10, paddingVertical: 6, borderRadius: radius.sm },
   randomText: { fontFamily: fonts.monoBold, fontSize: 9, letterSpacing: 1.2 },
   heroContent: { ...StyleSheet.absoluteFillObject, paddingHorizontal: spacing.screenPadding, paddingBottom: 20, justifyContent: 'space-between' },
   heroTopRow: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' },
