@@ -252,7 +252,7 @@ var styles = StyleSheet.create({
     backgroundColor: colors.bg,
     borderRightWidth: StyleSheet.hairlineWidth,
     borderRightColor: colors.surface,
-    zIndex: 50,
+    zIndex: 9999,
   },
   scrollContent: {
     paddingTop: 4,

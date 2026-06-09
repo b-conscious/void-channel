@@ -1,5 +1,5 @@
-import React, { Suspense } from 'react';
-import { NavigationContainer } from '@react-navigation/native';
+import React, { Suspense, useState } from 'react';
+import { NavigationContainer, useNavigationContainerRef } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { StyleSheet, Platform, View, Text, ActivityIndicator, Dimensions } from 'react-native';
@@ -75,7 +75,7 @@ function TabNavigator() {
   // On desktop: replace bottom tabs with DesktopSidebar, shift screen content right
   var { sidebarWidth } = useSidebar();
   var desktopProps = IS_DESKTOP ? {
-    tabBar: function (props) { return <DesktopSidebar {...props} />; },
+    tabBar: function () { return null; },   // Sidebar rendered at Navigation level — persists on all screens
   } : {};
 
   return (
@@ -146,9 +146,44 @@ function TabNavigator() {
   );
 }
 
+// ── Persistent desktop sidebar — rendered OUTSIDE the Stack so it stays visible
+// on every screen (Player, Auth, Playlists, etc.), not just the Tab screens.
+// Synthesises the { state, navigation } props that DesktopSidebar expects.
+var TAB_NAMES = ['Browse', 'Search', 'Signal', 'My Void'];
+
+function PersistentSidebar({ navigationRef, activeTab }) {
+  var idx = TAB_NAMES.indexOf(activeTab);
+  var state = {
+    index: idx >= 0 ? idx : 0,
+    routes: TAB_NAMES.map(function (n) { return { name: n }; }),
+  };
+  var navigation = {
+    navigate: function (name) {
+      if (!navigationRef || !navigationRef.isReady()) return;
+      if (TAB_NAMES.indexOf(name) >= 0) {
+        navigationRef.navigate('Main', { screen: name });
+      } else {
+        navigationRef.navigate(name);
+      }
+    },
+    getParent: function () {
+      return {
+        navigate: function (screen) {
+          if (navigationRef && navigationRef.isReady()) {
+            navigationRef.navigate(screen);
+          }
+        },
+      };
+    },
+  };
+  return <DesktopSidebar state={state} navigation={navigation} />;
+}
+
 export default function Navigation() {
   const { gen } = useGeneration();
   const accent = gen?.accentColor || colors.amber;
+  const navigationRef = useNavigationContainerRef();
+  const [activeTab, setActiveTab] = useState('Browse');
 
   const theme = {
     dark: true,
@@ -196,6 +231,13 @@ export default function Navigation() {
   const onStateChange = Platform.OS === 'web' ? function (state) {
     var route = state && state.routes ? state.routes[state.index] : null;
     if (!route) return;
+    // Track active tab for persistent sidebar
+    var mainRoute = state.routes.find(function (r) { return r.name === 'Main'; });
+    if (mainRoute && mainRoute.state) {
+      var tabIdx = mainRoute.state.index;
+      var tabName = mainRoute.state.routes[tabIdx] && mainRoute.state.routes[tabIdx].name;
+      if (tabName) setActiveTab(tabName);
+    }
     var titles = { Main: 'VOIDtv', Auth: 'Sign In — VOIDtv', Playlists: 'Playlists — VOIDtv', Admin: 'Admin — VOIDtv' };
     if (route.name === 'Player') {
       var name = (route.params && route.params.item && route.params.item.title) || (route.params && route.params.id) || 'Watch';
@@ -210,7 +252,8 @@ export default function Navigation() {
   } : undefined;
 
   return (
-    <NavigationContainer theme={theme} linking={linking} onStateChange={onStateChange}>
+    <NavigationContainer ref={navigationRef} theme={theme} linking={linking} onStateChange={onStateChange}>
+      {IS_DESKTOP && <PersistentSidebar navigationRef={navigationRef} activeTab={activeTab} />}
       <Stack.Navigator screenOptions={{ headerShown: false, header: () => null }}>
         <Stack.Screen name="Main" component={TabNavigator} />
         <Stack.Screen name="Player" component={LazyPlayer}
