@@ -317,10 +317,26 @@ function normalizeItem(doc) {
     year: doc.year || null,
     creator: flattenCreator(doc.creator),
     downloads: doc.downloads || 0,
+    runtime: parseRuntime(doc.runtime),
     thumbnail: THUMB_URL(doc.identifier),
     archiveUrl: `${BASE}/details/${doc.identifier}`,
     videoUrl: null,
   };
+}
+
+/** Parse Archive.org runtime into total seconds. Handles "HH:MM:SS", "MM:SS", "123" (seconds), etc. */
+function parseRuntime(raw) {
+  if (!raw) return null;
+  const str = Array.isArray(raw) ? raw[0] : String(raw);
+  if (!str) return null;
+  // "HH:MM:SS" or "MM:SS"
+  const parts = str.split(":");
+  if (parts.length === 3) return (+parts[0]) * 3600 + (+parts[1]) * 60 + (+parts[2]);
+  if (parts.length === 2) return (+parts[0]) * 60 + (+parts[1]);
+  // Plain number (seconds or minutes — if > 300 assume seconds, else minutes)
+  const num = parseFloat(str);
+  if (isNaN(num)) return null;
+  return num > 300 ? Math.round(num) : Math.round(num * 60);
 }
 
 // Available Archive.org sort options. We rotate through these for variety.
@@ -344,7 +360,7 @@ function shuffleArray(arr) {
 }
 
 async function search(query, rows = 25, page = 1, sort = "downloads desc") {
-  const fields = ["identifier", "title", "description", "year", "creator", "downloads"];
+  const fields = ["identifier", "title", "description", "year", "creator", "downloads", "runtime"];
   const fieldStr = fields.map((f) => `fl[]=${f}`).join("&");
   const sortParam = `sort[]=${encodeURIComponent(sort)}`;
   const url = `${SEARCH_URL}?q=${encodeURIComponent(query)}&${fieldStr}&${sortParam}&rows=${rows}&page=${page}&output=json`;

@@ -82,6 +82,22 @@ export default function MediaCard({ item, onPress, size = 'default', style }) {
   const animStyle = useAnimatedStyle(() => ({ transform: [{ scale: scale.value }] }));
   const creator = Array.isArray(item.creator) ? item.creator[0] : item.creator;
 
+  // Format runtime seconds → "1:23" or "1:02:15"
+  const durationLabel = React.useMemo(() => {
+    const sec = item.runtime;
+    if (!sec || sec <= 0) return null;
+    const s = Math.round(sec);
+    if (s >= 3600) {
+      const hh = Math.floor(s / 3600);
+      const mm = Math.floor((s % 3600) / 60);
+      const ss = s % 60;
+      return `${hh}:${String(mm).padStart(2, '0')}:${String(ss).padStart(2, '0')}`;
+    }
+    const mm = Math.floor(s / 60);
+    const ss = s % 60;
+    return `${mm}:${String(ss).padStart(2, '0')}`;
+  }, [item.runtime]);
+
   return (
     <AnimatedPressable
       onPress={() => { Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light); onPress(item); }}
@@ -109,12 +125,19 @@ export default function MediaCard({ item, onPress, size = 'default', style }) {
           <Text style={[styles.vibeText, { color: vibeTextColor }]}>{vibeLabel}</Text>
         </View>
 
-        {/* Year */}
-        {item.year ? (
-          <View style={styles.yearChip}>
-            <Text style={styles.yearText}>{item.year}</Text>
-          </View>
-        ) : null}
+        {/* Duration + Year — top right */}
+        <View style={styles.topRight}>
+          {durationLabel ? (
+            <View style={styles.durationChip}>
+              <Text style={styles.durationText}>{durationLabel}</Text>
+            </View>
+          ) : null}
+          {item.year ? (
+            <View style={styles.yearChip}>
+              <Text style={styles.yearText}>{item.year}</Text>
+            </View>
+          ) : null}
+        </View>
 
         {/* Title */}
         <View style={styles.titleBlock}>
@@ -155,8 +178,16 @@ const styles = StyleSheet.create({
     paddingHorizontal: 6, paddingVertical: 3, borderRadius: 2,
   },
   vibeText: { fontFamily: fonts.monoBold, fontSize: 8, letterSpacing: 0.4 },
-  yearChip: {
+  topRight: {
     position: 'absolute', top: 7, right: 7,
+    flexDirection: 'row', gap: 4, alignItems: 'center',
+  },
+  durationChip: {
+    backgroundColor: 'rgba(0,0,0,0.75)',
+    paddingHorizontal: 5, paddingVertical: 2, borderRadius: 2,
+  },
+  durationText: { fontFamily: fonts.mono, fontSize: 9, color: '#fff', letterSpacing: 0.3 },
+  yearChip: {
     backgroundColor: 'rgba(0,0,0,0.6)',
     paddingHorizontal: 5, paddingVertical: 2, borderRadius: 2,
   },
