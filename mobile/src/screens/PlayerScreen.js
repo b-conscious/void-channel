@@ -8,7 +8,7 @@ const { height: SCREEN_H, width: SCREEN_W } = Dimensions.get('window');
 const IS_WEB = Platform.OS === 'web';
 const IS_DESKTOP = IS_WEB && SCREEN_W > 900;
 const VIDEO_H = IS_WEB ? Math.round(SCREEN_H * 0.52) : Math.round(SCREEN_H * 0.42);
-const SIDEBAR_W = IS_DESKTOP ? 160 : 0;
+const SIDEBAR_W = IS_DESKTOP ? 180 : 0;
 
 // Enable LayoutAnimation on Android
 if (Platform.OS === 'android' && UIManager.setLayoutAnimationEnabledExperimental) {
@@ -2164,41 +2164,41 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff', alignSelf: 'flex-end',
   },
 
-  // ── Desktop sidebar (compact 160px) ──
+  // ── Desktop sidebar (180px — tight padding, full-size thumbs, capped titles) ──
   sidebar: {
     width: SIDEBAR_W,
     backgroundColor: colors.bg,
     borderLeftWidth: 1, borderLeftColor: colors.surface,
-    paddingLeft: 6, paddingRight: 3, paddingTop: 6,
+    paddingLeft: 5, paddingRight: 3, paddingTop: 6,
   },
   sidebarAutoplay: {
     flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between',
-    marginBottom: 6,
+    marginBottom: 5,
   },
   sidebarAutoplayLabel: { fontFamily: fonts.monoBold, fontSize: 7, color: colors.textMuted, letterSpacing: 0.8 },
   sidebarUpNext: { marginBottom: 3 },
   sidebarUpNextLabel: { fontFamily: fonts.monoBold, fontSize: 8, letterSpacing: 1.2 },
   sidebarUpNextCard: {
-    flexDirection: 'row', gap: 4, padding: 4,
+    flexDirection: 'row', gap: 5, padding: 3,
     borderRadius: radius.sm, backgroundColor: colors.surface + '40',
     borderWidth: 1, borderColor: colors.surface,
   },
-  sidebarUpNextThumb: { width: 50, height: 30, borderRadius: 2, backgroundColor: colors.card },
+  sidebarUpNextThumb: { width: 64, height: 38, borderRadius: 3, backgroundColor: colors.card },
   sidebarUpNextInfo: { flex: 1, justifyContent: 'center', overflow: 'hidden' },
-  sidebarUpNextTitle: { fontFamily: fonts.sansSemiBold, fontSize: 9, color: colors.textPrimary, lineHeight: 11 },
+  sidebarUpNextTitle: { fontFamily: fonts.sansSemiBold, fontSize: 10, color: colors.textPrimary, lineHeight: 12 },
   sidebarUpNextYear: { fontFamily: fonts.mono, fontSize: 7, marginTop: 1 },
   sidebarUpNextCreator: { fontFamily: fonts.sans, fontSize: 7, color: colors.textMuted, marginTop: 1 },
   sidebarDivider: {
-    height: 1, backgroundColor: colors.surface, marginVertical: 6,
+    height: 1, backgroundColor: colors.surface, marginVertical: 5,
   },
   sidebarSectionLabel: {
     fontFamily: fonts.monoBold, fontSize: 7, color: colors.textMuted,
-    letterSpacing: 1.2, marginBottom: 4,
+    letterSpacing: 1.2, marginBottom: 3,
   },
   sidebarRelCard: {
-    flexDirection: 'row', gap: 4, marginBottom: 4, alignItems: 'center',
+    flexDirection: 'row', gap: 4, marginBottom: 3, alignItems: 'center',
   },
-  sidebarRelThumb: { width: 44, height: 26, borderRadius: 2, backgroundColor: colors.card },
+  sidebarRelThumb: { width: 56, height: 34, borderRadius: 3, backgroundColor: colors.card },
   sidebarRelInfo: { flex: 1, overflow: 'hidden' },
   sidebarRelTitle: { fontFamily: fonts.sans, fontSize: 9, color: colors.textPrimary, lineHeight: 11 },
   sidebarRelYear: { fontFamily: fonts.mono, fontSize: 7, marginTop: 1 },
