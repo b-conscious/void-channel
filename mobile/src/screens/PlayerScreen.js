@@ -9,7 +9,7 @@ const IS_WEB = Platform.OS === 'web';
 const IS_DESKTOP = IS_WEB && SCREEN_W > 900;
 // YouTube-style: video + sidebar side-by-side. Video is 16:9 of the left column.
 // Left nav sidebar (DesktopSidebar) is position:fixed at 220px — PlayerScreen must offset.
-const NAV_W = IS_DESKTOP ? 220 : 0;
+const NAV_W = IS_DESKTOP ? 190 : 0;
 const SIDEBAR_W = IS_DESKTOP ? 360 : 0;
 const AVAILABLE_W = SCREEN_W - NAV_W - SIDEBAR_W;
 const VIDEO_H = IS_WEB

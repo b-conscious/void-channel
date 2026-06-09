@@ -20,7 +20,7 @@ import { useGeneration } from '../context/GenerationContext';
 import { useAuth } from '../context/AuthContext';
 import { useGame } from '../context/GameContext';
 
-var SIDEBAR_NAV_W = 220;
+var SIDEBAR_NAV_W = 190;
 var BRAND_BLUE = '#5cb8ff';
 var DONATE_URL = 'https://square.link/u/IteDL7XI';
 
@@ -237,49 +237,49 @@ var styles = StyleSheet.create({
   },
 
   // Logo
-  logoSection: { paddingHorizontal: 18, marginBottom: 22 },
+  logoSection: { paddingHorizontal: 14, marginBottom: 18 },
   logoRow: { flexDirection: 'row', alignItems: 'baseline' },
-  logoVoid: { fontFamily: fonts.monoBold, fontSize: 18, letterSpacing: 3 },
-  logoTv: { fontFamily: fonts.sans, fontSize: 14, color: colors.textMuted, letterSpacing: 0.5 },
-  tagline: { fontFamily: fonts.mono, fontSize: 8, letterSpacing: 1.5, marginTop: 4 },
+  logoVoid: { fontFamily: fonts.monoBold, fontSize: 16, letterSpacing: 2.5 },
+  logoTv: { fontFamily: fonts.sans, fontSize: 13, color: colors.textMuted, letterSpacing: 0.5 },
+  tagline: { fontFamily: fonts.mono, fontSize: 7, letterSpacing: 1.2, marginTop: 3 },
 
   // Nav items (tabs)
   navItem: {
-    flexDirection: 'row', alignItems: 'center', gap: 14,
-    paddingVertical: 10, paddingHorizontal: 18,
-    borderRadius: radius.lg, marginHorizontal: 8, marginBottom: 2,
+    flexDirection: 'row', alignItems: 'center', gap: 12,
+    paddingVertical: 9, paddingHorizontal: 14,
+    borderRadius: radius.lg, marginHorizontal: 6, marginBottom: 2,
   },
   navLabel: {
-    fontFamily: fonts.sans, fontSize: 14, color: colors.textSecondary, lineHeight: 20,
+    fontFamily: fonts.sans, fontSize: 13, color: colors.textSecondary, lineHeight: 18,
   },
 
   separator: {
     height: StyleSheet.hairlineWidth, backgroundColor: colors.surface,
-    marginVertical: 14, marginHorizontal: 18,
+    marginVertical: 12, marginHorizontal: 14,
   },
 
   // Section headers (You, Explore)
   sectionHeaderRow: {
     flexDirection: 'row', alignItems: 'center', gap: 4,
-    paddingHorizontal: 18, paddingVertical: 4, marginBottom: 4,
+    paddingHorizontal: 14, paddingVertical: 4, marginBottom: 4,
   },
   sectionHeader: {
-    fontFamily: fonts.sansMedium, fontSize: 16, color: colors.textPrimary, lineHeight: 22,
-    paddingHorizontal: 18, marginBottom: 6,
+    fontFamily: fonts.sansMedium, fontSize: 15, color: colors.textPrimary, lineHeight: 20,
+    paddingHorizontal: 14, marginBottom: 6,
   },
 
   // Quick links (You items, Explore items)
   quickLink: {
-    flexDirection: 'row', alignItems: 'center', gap: 14,
-    paddingVertical: 8, paddingHorizontal: 18,
-    borderRadius: radius.lg, marginHorizontal: 8, marginBottom: 1,
+    flexDirection: 'row', alignItems: 'center', gap: 12,
+    paddingVertical: 7, paddingHorizontal: 14,
+    borderRadius: radius.lg, marginHorizontal: 6, marginBottom: 1,
   },
   quickLabel: {
-    fontFamily: fonts.sans, fontSize: 14, color: colors.textSecondary, lineHeight: 20,
+    fontFamily: fonts.sans, fontSize: 13, color: colors.textSecondary, lineHeight: 18,
   },
 
   // User
-  userSection: { paddingHorizontal: 18, marginBottom: 14 },
+  userSection: { paddingHorizontal: 14, marginBottom: 14 },
   userAvatar: {
     width: 32, height: 32, borderRadius: 16,
     justifyContent: 'center', alignItems: 'center', marginBottom: 6,
@@ -292,22 +292,22 @@ var styles = StyleSheet.create({
 
   signInRow: {
     flexDirection: 'row', alignItems: 'center', gap: 10,
-    paddingHorizontal: 18, paddingVertical: 8, marginBottom: 12,
+    paddingHorizontal: 14, paddingVertical: 8, marginBottom: 12,
   },
-  signInText: { fontFamily: fonts.sansMedium, fontSize: 14 },
+  signInText: { fontFamily: fonts.sansMedium, fontSize: 13 },
 
-  // Support
+  // Support — stacked to keep sidebar narrow
   supportRow: {
-    flexDirection: 'row', alignItems: 'center', gap: 10,
-    paddingHorizontal: 18, paddingVertical: 8, marginBottom: 8,
+    flexDirection: 'row', alignItems: 'flex-start', gap: 8,
+    paddingHorizontal: 14, paddingVertical: 8, marginBottom: 8,
   },
-  supportText: { fontFamily: fonts.sansMedium, fontSize: 12, color: '#f5a623' },
-  supportSub: { fontFamily: fonts.sans, fontSize: 10, color: '#39ff14', marginTop: 1 },
+  supportText: { fontFamily: fonts.sansMedium, fontSize: 11, color: '#f5a623', lineHeight: 15 },
+  supportSub: { fontFamily: fonts.sans, fontSize: 10, color: '#39ff14', marginTop: 2 },
 
   // Footer
-  footer: { marginTop: 12, paddingHorizontal: 18 },
+  footer: { marginTop: 12, paddingHorizontal: 14 },
   footerText: {
-    fontFamily: fonts.mono, fontSize: 9, color: colors.textGhost,
+    fontFamily: fonts.mono, fontSize: 8, color: colors.textGhost,
     letterSpacing: 0.5, textAlign: 'center', marginTop: 3,
   },
 });
