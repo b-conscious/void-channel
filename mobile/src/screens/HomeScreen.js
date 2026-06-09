@@ -368,8 +368,12 @@ export default function HomeScreen({ navigation }) {
     try { const ri = await api.getRandomItem(); navigation.navigate('Player', { item: ri, id: ri.id }); } catch {}
   }, [navigation]);
 
+  // On desktop the fixed-position sidebar sits on top of content;
+  // each screen must push its own content right to avoid overlapping.
+  const desktopMargin = IS_DESKTOP ? sidebarWidth + CONTENT_GAP : 0;
+
   return (
-    <View style={styles.container}>
+    <View style={[styles.container, { marginLeft: desktopMargin }]}>
       {/* Sticky header — always visible, solid background */}
       <View
         style={[styles.stickyHeader, { paddingTop: insets.top + 4 }]}

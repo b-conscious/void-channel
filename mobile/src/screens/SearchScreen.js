@@ -1,24 +1,18 @@
 import React, { useState, useCallback, useRef, useMemo, useEffect } from 'react';
 import {
   View, Text, FlatList, StyleSheet, ActivityIndicator,
-  ScrollView, TouchableOpacity, Dimensions, Platform,
+  ScrollView, TouchableOpacity, Dimensions, Platform, useWindowDimensions,
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import SearchBar from '../components/SearchBar';
 import MediaCard from '../components/MediaCard';
 import { useGeneration } from '../context/GenerationContext';
+import { useSidebar, CONTENT_GAP } from '../context/SidebarContext';
 import api from '../api/client';
 import { colors, fonts, spacing, cardSize, radius } from '../theme';
 
-const { width: SCREEN_W } = Dimensions.get('window');
-const IS_DESKTOP = Platform.OS === 'web' && SCREEN_W > 900;
-const DESKTOP_SIDEBAR = IS_DESKTOP ? 150 : 0;   // matches SidebarContext EXPANDED_W
-const DESKTOP_GAP = IS_DESKTOP ? 12 : 0;         // 6px left (nav) + 6px right padding
-const CONTENT_W = SCREEN_W - DESKTOP_SIDEBAR - DESKTOP_GAP;
-const COLS = Math.max(2, Math.floor(
-  (CONTENT_W - spacing.screenPadding * 2 + cardSize.gap) / (cardSize.width + cardSize.gap)
-));
+const IS_DESKTOP = Platform.OS === 'web' && Dimensions.get('window').width > 900;
 
 // Filter chips map to backend category IDs (or null for everything).
 // Labels are per-generation; everything else is shared.
@@ -49,6 +43,15 @@ export default function SearchScreen({ navigation, route }) {
   const insets = useSafeAreaInsets();
   const { gen, generationId } = useGeneration();
   const accent = gen.accentColor;
+  const { width: windowW } = useWindowDimensions();
+  const { sidebarWidth } = useSidebar();
+
+  // Reactive content width — scene = window minus sidebar+gap (applied via paddingLeft in nav)
+  const sceneW = IS_DESKTOP ? windowW - sidebarWidth - CONTENT_GAP : windowW;
+  const contentW = IS_DESKTOP ? sceneW - CONTENT_GAP : windowW;  // minus right padding too
+  const COLS = Math.max(2, Math.floor(
+    (contentW - spacing.screenPadding * 2 + cardSize.gap) / (cardSize.width + cardSize.gap)
+  ));
 
   const [query, setQuery] = useState('');
   const [activeFilter, setActiveFilter] = useState(0);
@@ -251,8 +254,12 @@ export default function SearchScreen({ navigation, route }) {
     navigation.navigate('Player', { item, id: item.id, categoryId });
   }, [navigation, activeFilter]);
 
+  // On desktop the fixed-position sidebar sits on top of content;
+  // each screen must push its own content right to avoid overlapping.
+  const desktopMargin = IS_DESKTOP ? sidebarWidth + CONTENT_GAP : 0;
+
   return (
-    <View style={[styles.container, { paddingTop: insets.top }]}>
+    <View style={[styles.container, { paddingTop: insets.top, marginLeft: desktopMargin }]}>
       <View style={styles.header}>
         <Text style={[styles.title, { color: accent }]}>{gen.searchTitle}</Text>
 
@@ -397,7 +404,7 @@ export default function SearchScreen({ navigation, route }) {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: colors.bg, ...(IS_DESKTOP ? { paddingRight: 6 } : {}) },
+  container: { flex: 1, backgroundColor: colors.bg, ...(IS_DESKTOP ? { paddingRight: CONTENT_GAP } : {}) },
   header: {
     paddingHorizontal: spacing.screenPadding, paddingTop: 16, paddingBottom: 4,
     borderBottomWidth: StyleSheet.hairlineWidth, borderBottomColor: colors.surface,

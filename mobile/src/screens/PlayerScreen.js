@@ -1409,7 +1409,7 @@ export default function PlayerScreen({ route, navigation }) {
   );
 
   return (
-    <View style={styles.container}>
+    <View style={[styles.container, { marginLeft: NAV_MARGIN }]}>
       {/* XP toast */}
       {xpToast && (
         <Animated.View style={[styles.xpToast, { opacity: xpOpacity, borderColor: accent }]}>

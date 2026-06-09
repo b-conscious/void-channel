@@ -5,6 +5,8 @@ import {
   ScrollView,
   TouchableOpacity,
   StyleSheet,
+  Platform,
+  Dimensions,
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
@@ -13,8 +15,11 @@ import * as Haptics from 'expo-haptics';
 import WaveAvatar from '../components/WaveAvatar';
 import { useGeneration } from '../context/GenerationContext';
 import { useGame } from '../context/GameContext';
+import { useSidebar, CONTENT_GAP } from '../context/SidebarContext';
 import { GENERATIONS } from '../data/generations';
 import { colors, fonts, spacing, radius } from '../theme';
+
+const IS_DESKTOP = Platform.OS === 'web' && Dimensions.get('window').width > 900;
 
 const GEN_OPTIONS = [
   { id: 'boomer',     label: 'Boomer',     range: '1946–1964' },
@@ -43,12 +48,14 @@ export default function SignalScreen() {
     totalWatched, daysExploring,
     totalContributions, contributionsByType, recentContributions,
   } = useGame();
+  const { sidebarWidth } = useSidebar();
+  const desktopMargin = IS_DESKTOP ? sidebarWidth + CONTENT_GAP : 0;
 
   const accent = gen.accentColor;
 
   return (
     <ScrollView
-      style={styles.container}
+      style={[styles.container, { marginLeft: desktopMargin }]}
       contentContainerStyle={{ paddingTop: insets.top + 16, paddingBottom: insets.bottom + 90 }}
       showsVerticalScrollIndicator={false}
     >

@@ -76,7 +76,6 @@ function TabNavigator() {
   var { sidebarWidth } = useSidebar();
   var desktopProps = IS_DESKTOP ? {
     tabBar: function (props) { return <DesktopSidebar {...props} />; },
-    sceneContainerStyle: { marginLeft: sidebarWidth + CONTENT_GAP },
   } : {};
 
   return (
