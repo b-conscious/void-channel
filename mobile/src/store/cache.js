@@ -134,33 +134,30 @@ export async function setCachedCategories(data) {
   }
 }
 
-// ── Offline Downloads ──────────────────────────────────────
+// ── Offline Downloads (native only — no-op on web) ────────
 
-const DOWNLOAD_DIR = `${FileSystem.documentDirectory}void-channel/`;
+import { Platform } from "react-native";
+
+const IS_WEB = Platform.OS === "web";
+const DOWNLOAD_DIR = IS_WEB ? "" : `${FileSystem.documentDirectory}void-channel/`;
 
 async function ensureDownloadDir() {
+  if (IS_WEB) return;
   const info = await FileSystem.getInfoAsync(DOWNLOAD_DIR);
   if (!info.exists) {
     await FileSystem.makeDirectoryAsync(DOWNLOAD_DIR, { intermediates: true });
   }
 }
 
-/**
- * Download a video for offline viewing.
- * Returns the local file URI.
- */
 export async function downloadVideo(identifier, videoUrl, onProgress) {
+  if (IS_WEB) return null;
   await ensureDownloadDir();
   const localUri = `${DOWNLOAD_DIR}${identifier}.mp4`;
-
-  // Check if already downloaded
   const info = await FileSystem.getInfoAsync(localUri);
   if (info.exists) return localUri;
 
   const download = FileSystem.createDownloadResumable(
-    videoUrl,
-    localUri,
-    {},
+    videoUrl, localUri, {},
     (progress) => {
       if (onProgress) {
         const pct = progress.totalBytesWritten / progress.totalBytesExpectedToWrite;
@@ -168,35 +165,26 @@ export async function downloadVideo(identifier, videoUrl, onProgress) {
       }
     }
   );
-
   const result = await download.downloadAsync();
   return result?.uri || localUri;
 }
 
-/**
- * Check if a video is downloaded locally.
- */
 export async function getLocalVideo(identifier) {
+  if (IS_WEB) return null;
   const localUri = `${DOWNLOAD_DIR}${identifier}.mp4`;
   const info = await FileSystem.getInfoAsync(localUri);
   return info.exists ? localUri : null;
 }
 
-/**
- * Delete a downloaded video.
- */
 export async function deleteLocalVideo(identifier) {
+  if (IS_WEB) return;
   const localUri = `${DOWNLOAD_DIR}${identifier}.mp4`;
   const info = await FileSystem.getInfoAsync(localUri);
-  if (info.exists) {
-    await FileSystem.deleteAsync(localUri);
-  }
+  if (info.exists) await FileSystem.deleteAsync(localUri);
 }
 
-/**
- * Get total disk usage of downloads.
- */
 export async function getDownloadsDiskUsage() {
+  if (IS_WEB) return 0;
   await ensureDownloadDir();
   const files = await FileSystem.readDirectoryAsync(DOWNLOAD_DIR);
   let total = 0;
