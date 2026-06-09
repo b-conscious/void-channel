@@ -1,9 +1,12 @@
 import React from 'react';
-import { View, Text, FlatList, StyleSheet, TouchableOpacity, ScrollView } from 'react-native';
+import { View, Text, FlatList, StyleSheet, TouchableOpacity, ScrollView, Platform, Dimensions } from 'react-native';
 import MediaCard from './MediaCard';
 import SkeletonCard from './SkeletonCard';
 import { useGeneration } from '../context/GenerationContext';
 import { colors, fonts, spacing, cardSize } from '../theme';
+
+const SCREEN_W = Dimensions.get('window').width;
+const IS_DESKTOP = Platform.OS === 'web' && SCREEN_W > 768;
 
 const CAT_GLYPHS = {
   prelinger: '▶', horror: '☠', computers: '◉',
@@ -65,24 +68,32 @@ export default function CategoryRow({ category, onItemPress, loading, onSeeAll }
           <Text style={styles.emptyText}>— {gen?.noSignal || 'DEAD AIR'} —</Text>
         </View>
       ) : (
-        <FlatList
-          data={items}
-          keyExtractor={(item) => item.id}
-          horizontal
-          showsHorizontalScrollIndicator={false}
-          contentContainerStyle={styles.listContent}
-          renderItem={({ item }) => (
-            <MediaCard item={item} onPress={(it) => onItemPress(it, category.id)} />
-          )}
-          initialNumToRender={4}
-          maxToRenderPerBatch={4}
-          windowSize={5}
-          getItemLayout={(_, index) => ({
-            length: cardSize.width + cardSize.gap,
-            offset: (cardSize.width + cardSize.gap) * index,
-            index,
-          })}
-        />
+        {IS_DESKTOP ? (
+          <View style={styles.grid}>
+            {items.map((item) => (
+              <MediaCard key={item.id} item={item} onPress={(it) => onItemPress(it, category.id)} />
+            ))}
+          </View>
+        ) : (
+          <FlatList
+            data={items}
+            keyExtractor={(item) => item.id}
+            horizontal
+            showsHorizontalScrollIndicator={false}
+            contentContainerStyle={styles.listContent}
+            renderItem={({ item }) => (
+              <MediaCard item={item} onPress={(it) => onItemPress(it, category.id)} />
+            )}
+            initialNumToRender={4}
+            maxToRenderPerBatch={4}
+            windowSize={5}
+            getItemLayout={(_, index) => ({
+              length: cardSize.width + cardSize.gap,
+              offset: (cardSize.width + cardSize.gap) * index,
+              index,
+            })}
+          />
+        )}
       )}
     </View>
   );
@@ -104,6 +115,10 @@ const styles = StyleSheet.create({
   subtitle: { fontFamily: fonts.sans, fontSize: 12, color: colors.textMuted, marginTop: 3, marginLeft: 17, fontStyle: 'italic' },
   seeAll: { paddingLeft: 12, paddingBottom: 2 },
   seeAllText: { fontFamily: fonts.mono, fontSize: 9, color: colors.textGhost, letterSpacing: 1 },
+  grid: {
+    flexDirection: 'row', flexWrap: 'wrap',
+    paddingHorizontal: spacing.screenPadding, gap: cardSize.gap,
+  },
   listContent: { paddingHorizontal: spacing.screenPadding, paddingVertical: 2 },
   emptyWrap: { paddingHorizontal: spacing.screenPadding, paddingVertical: 20 },
   emptyText: { fontFamily: fonts.mono, fontSize: 10, color: colors.textGhost, letterSpacing: 1 },

@@ -27,7 +27,9 @@ export default function HomeScreen({ navigation }) {
   const insets = useSafeAreaInsets();
   const { gen, generationId, chooseGeneration } = useGeneration();
   const [menuOpen, setMenuOpen] = useState(false);
-  const [categories, setCategories] = useState([]);
+  const [allCategories, setAllCategories] = useState([]);
+  const [catPage, setCatPage] = useState(0);
+  const CATS_PER_PAGE = 5;
   const [loading, setLoading] = useState(true);
   const [serverSleeping, setServerSleeping] = useState(false);
   const [waking, setWaking] = useState(false);
@@ -39,6 +41,25 @@ export default function HomeScreen({ navigation }) {
   const loadingMsg = useMemo(() => pickRandom(gen.loadingMessages), [gen.id]);
   const scrollY = useRef(new Animated.Value(0)).current;
   const accent = gen.accentColor;
+
+  // Paginate: show CATS_PER_PAGE "type" categories at a time
+  const typeCats = useMemo(() => allCategories.filter((c) => !c.group || c.group === 'type'), [allCategories]);
+  const deepCats = useMemo(() => allCategories.filter((c) => c.group === 'deep'), [allCategories]);
+  const showCats = useMemo(() => allCategories.filter((c) => c.group === 'show'), [allCategories]);
+  const decadeCats = useMemo(() => allCategories.filter((c) => c.group === 'decade'), [allCategories]);
+  const visibleTypeCats = useMemo(() => {
+    const start = catPage * CATS_PER_PAGE;
+    return typeCats.slice(start, start + CATS_PER_PAGE);
+  }, [typeCats, catPage]);
+  const totalTypePages = Math.max(1, Math.ceil(typeCats.length / CATS_PER_PAGE));
+
+  const handleRetune = useCallback((direction) => {
+    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+    setCatPage((prev) => {
+      if (direction === 'up') return prev > 0 ? prev - 1 : totalTypePages - 1;
+      return prev < totalTypePages - 1 ? prev + 1 : 0;
+    });
+  }, [totalTypePages]);
 
   const headerAnim = scrollY.interpolate({
     inputRange: [0, 80], outputRange: [1, 0], extrapolate: 'clamp',
@@ -53,11 +74,11 @@ export default function HomeScreen({ navigation }) {
         // Show cache instantly while we fetch a fresh shuffled batch in background
         const cached = await store.getCachedCategories();
         if (cached) {
-          setCategories(cached);
+          setAllCategories(cached);
           setLoading(false);
           pickHero(cached);
           api.getCategories({ shuffle: true }).then((fresh) => {
-            setCategories(fresh);
+            setAllCategories(fresh);
             store.setCachedCategories(fresh);
             pickHero(fresh);
           }).catch(() => {});
@@ -66,7 +87,7 @@ export default function HomeScreen({ navigation }) {
       }
       // First load, or repopulate — wait for fresh data with shuffle
       const data = await api.getCategories({ shuffle: true, refresh: forceFresh });
-      setCategories(data);
+      setAllCategories(data);
       setServerSleeping(false);
       store.setCachedCategories(data);
       pickHero(data);
@@ -247,16 +268,16 @@ export default function HomeScreen({ navigation }) {
         )}
 
         {/* Channels — auto-playing queues for a couple of standout categories */}
-        {!loading && categories.length > 0 && (
+        {!loading && allCategories.length > 0 && (
           <ChannelsRow
-            categories={categories}
+            categories={allCategories}
             accent={accent}
             onChannelPress={handleChannelPress}
           />
         )}
 
-        {/* Browse — grouped by type and decade */}
-        {loading && categories.length === 0 ? (
+        {/* Browse — 5 categories at a time with retune */}
+        {loading && allCategories.length === 0 ? (
           <>
             <View style={styles.divider}>
               <View style={styles.dividerLine} />
@@ -267,12 +288,38 @@ export default function HomeScreen({ navigation }) {
           </>
         ) : (
           <>
-            {/* By type — with a re-shuffle button */}
+            {/* By type — paginated, 5 at a time */}
             <View style={styles.divider}>
               <View style={styles.dividerLine} />
               <Text style={styles.dividerText}>BROWSE BY TYPE</Text>
               <View style={styles.dividerLine} />
             </View>
+
+            {/* Retune controls */}
+            <View style={styles.retuneRow}>
+              <TouchableOpacity
+                onPress={() => handleRetune('up')}
+                style={[styles.retuneBtn, { borderColor: accent }]}
+                activeOpacity={0.75}
+              >
+                <Ionicons name="chevron-up" size={14} color={accent} style={{ marginRight: 5 }} />
+                <Text style={[styles.retuneText, { color: accent }]}>RETUNE UP</Text>
+              </TouchableOpacity>
+
+              <Text style={styles.retunePageText}>
+                {catPage + 1} / {totalTypePages}
+              </Text>
+
+              <TouchableOpacity
+                onPress={() => handleRetune('down')}
+                style={[styles.retuneBtn, { borderColor: accent }]}
+                activeOpacity={0.75}
+              >
+                <Text style={[styles.retuneText, { color: accent }]}>RETUNE DOWN</Text>
+                <Ionicons name="chevron-down" size={14} color={accent} style={{ marginLeft: 5 }} />
+              </TouchableOpacity>
+            </View>
+
             <TouchableOpacity
               onPress={handleRepopulate}
               style={[styles.repopulateBtn, { borderColor: accent }]}
@@ -289,57 +336,50 @@ export default function HomeScreen({ navigation }) {
                 {refreshing ? "TUNING IN NEW SIGNAL..." : "REPOPULATE — GIVE ME NEW STUFF"}
               </Text>
             </TouchableOpacity>
-            {categories
-              .filter((c) => !c.group || c.group === "type")
-              .map((cat) => (
-                <CategoryRow key={cat.id} category={cat} onItemPress={handleItemPress} />
-              ))}
+
+            {visibleTypeCats.map((cat) => (
+              <CategoryRow key={cat.id} category={cat} onItemPress={handleItemPress} />
+            ))}
 
             {/* Deep cuts — granular sub-categories */}
-            {categories.some((c) => c.group === "deep") && (
+            {deepCats.length > 0 && (
               <>
                 <View style={styles.divider}>
                   <View style={styles.dividerLine} />
                   <Text style={styles.dividerText}>DEEP CUTS</Text>
                   <View style={styles.dividerLine} />
                 </View>
-                {categories
-                  .filter((c) => c.group === "deep")
-                  .map((cat) => (
-                    <CategoryRow key={cat.id} category={cat} onItemPress={handleItemPress} />
-                  ))}
+                {deepCats.map((cat) => (
+                  <CategoryRow key={cat.id} category={cat} onItemPress={handleItemPress} />
+                ))}
               </>
             )}
 
             {/* By show / series */}
-            {categories.some((c) => c.group === "show") && (
+            {showCats.length > 0 && (
               <>
                 <View style={styles.divider}>
                   <View style={styles.dividerLine} />
                   <Text style={styles.dividerText}>BROWSE BY SHOW</Text>
                   <View style={styles.dividerLine} />
                 </View>
-                {categories
-                  .filter((c) => c.group === "show")
-                  .map((cat) => (
-                    <CategoryRow key={cat.id} category={cat} onItemPress={handleItemPress} />
-                  ))}
+                {showCats.map((cat) => (
+                  <CategoryRow key={cat.id} category={cat} onItemPress={handleItemPress} />
+                ))}
               </>
             )}
 
             {/* By decade */}
-            {categories.some((c) => c.group === "decade") && (
+            {decadeCats.length > 0 && (
               <>
                 <View style={styles.divider}>
                   <View style={styles.dividerLine} />
                   <Text style={styles.dividerText}>BROWSE BY DECADE</Text>
                   <View style={styles.dividerLine} />
                 </View>
-                {categories
-                  .filter((c) => c.group === "decade")
-                  .map((cat) => (
-                    <CategoryRow key={cat.id} category={cat} onItemPress={handleItemPress} />
-                  ))}
+                {decadeCats.map((cat) => (
+                  <CategoryRow key={cat.id} category={cat} onItemPress={handleItemPress} />
+                ))}
               </>
             )}
           </>
@@ -672,6 +712,17 @@ const styles = StyleSheet.create({
   channelTileSub: { fontFamily: fonts.mono, fontSize: 9, color: "rgba(255,255,255,0.6)", letterSpacing: 0.5, marginTop: 2 },
 
   divider: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: spacing.screenPadding, marginVertical: 20, gap: 10 },
+  retuneRow: {
+    flexDirection: 'row', alignItems: 'center', justifyContent: 'center',
+    gap: 16, marginTop: -4, marginBottom: 10,
+  },
+  retuneBtn: {
+    flexDirection: 'row', alignItems: 'center',
+    paddingHorizontal: 14, paddingVertical: 8,
+    borderRadius: radius.full, borderWidth: 1,
+  },
+  retuneText: { fontFamily: fonts.monoBold, fontSize: 10, letterSpacing: 1.5 },
+  retunePageText: { fontFamily: fonts.mono, fontSize: 10, color: colors.textMuted, letterSpacing: 1 },
   repopulateBtn: {
     flexDirection: "row",
     alignItems: "center",
