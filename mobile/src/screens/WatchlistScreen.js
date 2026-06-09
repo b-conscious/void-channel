@@ -431,13 +431,13 @@ const styles = StyleSheet.create({
   },
   title: {
     fontFamily: fonts.monoBold,
-    fontSize: 11,
+    fontSize: 13,
     letterSpacing: 3,
     marginBottom: 3,
   },
   subtitle: {
     fontFamily: fonts.sans,
-    fontSize: 12,
+    fontSize: 13,
     color: colors.textMuted,
     fontStyle: 'italic',
   },
@@ -476,7 +476,7 @@ const styles = StyleSheet.create({
   },
   sectionLabel: {
     fontFamily: fonts.monoBold,
-    fontSize: 10,
+    fontSize: 11,
     letterSpacing: 1.5,
   },
   countBadge: {

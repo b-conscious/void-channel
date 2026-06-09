@@ -2124,8 +2124,8 @@ const styles = StyleSheet.create({
   },
   titleRow: { flexDirection: 'row', alignItems: 'flex-start' },
   title: {
-    fontFamily: fonts.sansSemiBold, fontSize: 18, color: colors.textPrimary,
-    lineHeight: 24, flex: 1,
+    fontFamily: fonts.sansSemiBold, fontSize: 20, color: colors.textPrimary,
+    lineHeight: 26, flex: 1,
   },
   metaChips: {
     flexDirection: 'row', alignItems: 'center', gap: 8,
@@ -2135,7 +2135,7 @@ const styles = StyleSheet.create({
     borderWidth: 1, borderRadius: radius.sm,
     paddingHorizontal: 7, paddingVertical: 2,
   },
-  metaChipText: { fontFamily: fonts.monoBold, fontSize: 11, letterSpacing: 1 },
+  metaChipText: { fontFamily: fonts.monoBold, fontSize: 12, letterSpacing: 0.8 },
   creatorText: {
     fontFamily: fonts.sans, fontSize: 14, color: colors.textSecondary,
     maxWidth: '60%',
@@ -2172,8 +2172,8 @@ const styles = StyleSheet.create({
     paddingVertical: 6, paddingHorizontal: 8,
   },
   actionIconLabel: {
-    fontFamily: fonts.mono, fontSize: 11, color: colors.textMuted,
-    letterSpacing: 0.5,
+    fontFamily: fonts.sans, fontSize: 12, color: colors.textSecondary,
+    letterSpacing: 0.3,
   },
 
   // Share drawer
@@ -2216,7 +2216,7 @@ const styles = StyleSheet.create({
   },
   descText: {
     fontFamily: fonts.sans, fontSize: 14, color: colors.textSecondary,
-    lineHeight: 22,
+    lineHeight: 22, letterSpacing: 0.1,
   },
   infoTabBody: {},
   infoMetaGrid: {

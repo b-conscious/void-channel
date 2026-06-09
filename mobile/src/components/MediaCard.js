@@ -269,8 +269,8 @@ const styles = StyleSheet.create({
   },
   yearText: { fontFamily: fonts.mono, fontSize: 9, color: colors.amber, letterSpacing: 0.3 },
   titleBlock: { position: 'absolute', bottom: 0, left: 0, right: 0, paddingLeft: 8, paddingBottom: 7, paddingTop: 6, paddingRight: 36 },
-  title: { fontFamily: fonts.sansSemiBold, fontSize: 10.5, color: '#fff', lineHeight: 13 },
-  creator: { fontFamily: fonts.sans, fontSize: 9, color: 'rgba(255,255,255,0.5)', marginTop: 1 },
+  title: { fontFamily: fonts.sansSemiBold, fontSize: 12, color: '#fff', lineHeight: 15 },
+  creator: { fontFamily: fonts.sans, fontSize: 10, color: 'rgba(255,255,255,0.55)', marginTop: 1 },
   heartBtn: {
     position: 'absolute',
     bottom: 6, right: 6,
@@ -301,11 +301,11 @@ const styles = StyleSheet.create({
     zIndex: 10,
   },
   hoverTitle: {
-    fontFamily: fonts.sansSemiBold, fontSize: 12, color: '#fff',
-    lineHeight: 15, marginBottom: 3,
+    fontFamily: fonts.sansSemiBold, fontSize: 13, color: '#fff',
+    lineHeight: 17, marginBottom: 3,
   },
   hoverCreator: {
-    fontFamily: fonts.sans, fontSize: 10, color: 'rgba(255,255,255,0.6)', marginBottom: 2,
+    fontFamily: fonts.sans, fontSize: 11, color: 'rgba(255,255,255,0.6)', marginBottom: 2,
   },
   hoverMeta: {
     fontFamily: fonts.mono, fontSize: 9, color: colors.amber, marginBottom: 5, letterSpacing: 0.5,

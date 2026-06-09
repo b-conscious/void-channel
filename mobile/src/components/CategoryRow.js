@@ -337,10 +337,10 @@ const styles = StyleSheet.create({
   },
   headerLeft: { flex: 1 },
   nameRow: { flexDirection: 'row', alignItems: 'center', gap: 7 },
-  glyph: { fontFamily: fonts.mono, fontSize: 10 },
-  name: { fontFamily: fonts.monoBold, fontSize: 11, letterSpacing: 1.5, color: colors.textPrimary, flexShrink: 1 },
-  pageIndicator: { fontFamily: fonts.mono, fontSize: 9, color: colors.textGhost, letterSpacing: 0.5 },
-  subtitle: { fontFamily: fonts.sans, fontSize: 12, color: colors.textMuted, marginTop: 3, marginLeft: 17, fontStyle: 'italic' },
+  glyph: { fontFamily: fonts.mono, fontSize: 11 },
+  name: { fontFamily: fonts.monoBold, fontSize: 13, letterSpacing: 1.5, color: colors.textPrimary, flexShrink: 1 },
+  pageIndicator: { fontFamily: fonts.mono, fontSize: 10, color: colors.textGhost, letterSpacing: 0.5 },
+  subtitle: { fontFamily: fonts.sans, fontSize: 13, color: colors.textMuted, marginTop: 3, marginLeft: 17, fontStyle: 'italic' },
 
   // See More link
   seeMoreBtn: {
