@@ -5,7 +5,8 @@ import {
   Platform, UIManager, Share, TextInput,
 } from 'react-native';
 const { height: SCREEN_H } = Dimensions.get('window');
-const VIDEO_H = Math.round(SCREEN_H * 0.42);
+const IS_WEB = Platform.OS === 'web';
+const VIDEO_H = IS_WEB ? Math.round(SCREEN_H * 0.52) : Math.round(SCREEN_H * 0.42);
 
 // Enable LayoutAnimation on Android
 if (Platform.OS === 'android' && UIManager.setLayoutAnimationEnabledExperimental) {
@@ -1543,7 +1544,7 @@ const xrayStyles = StyleSheet.create({
   },
 });
 
-/* Netflix-style vertical icon button */
+/* Compact action button — icon + label inline */
 function ActionIcon({ icon, label, color, onPress, loading }) {
   return (
     <TouchableOpacity
@@ -1552,8 +1553,8 @@ function ActionIcon({ icon, label, color, onPress, loading }) {
       disabled={!onPress}
       activeOpacity={0.7}
     >
-      {loading ? <ActivityIndicator color={color || colors.textPrimary} size="small" style={{ height: 26 }} />
-        : icon ? <Ionicons name={icon} size={24} color={color || colors.textPrimary} />
+      {loading ? <ActivityIndicator color={color || colors.textPrimary} size="small" style={{ height: 16 }} />
+        : icon ? <Ionicons name={icon} size={16} color={color || colors.textPrimary} />
         : null}
       <Text style={[styles.actionIconLabel, color ? { color } : null]}>{label}</Text>
     </TouchableOpacity>
@@ -1596,44 +1597,44 @@ const styles = StyleSheet.create({
 
   titleBlock: {
     paddingHorizontal: spacing.screenPadding,
-    paddingTop: 14,
-    paddingBottom: 6,
+    paddingTop: 8,
+    paddingBottom: 4,
   },
   titleRow: { flexDirection: 'row', alignItems: 'flex-start' },
   title: {
-    fontFamily: fonts.sansSemiBold, fontSize: 20, color: colors.textPrimary,
-    lineHeight: 26, flex: 1,
+    fontFamily: fonts.sansSemiBold, fontSize: 15, color: colors.textPrimary,
+    lineHeight: 20, flex: 1,
   },
   metaChips: {
-    flexDirection: 'row', alignItems: 'center', gap: 10,
-    marginTop: 6, flexWrap: 'wrap',
+    flexDirection: 'row', alignItems: 'center', gap: 8,
+    marginTop: 3, flexWrap: 'wrap',
   },
   metaChip: {
     borderWidth: 1, borderRadius: radius.sm,
-    paddingHorizontal: 8, paddingVertical: 2,
+    paddingHorizontal: 6, paddingVertical: 1,
   },
-  metaChipText: { fontFamily: fonts.monoBold, fontSize: 11, letterSpacing: 1 },
+  metaChipText: { fontFamily: fonts.monoBold, fontSize: 10, letterSpacing: 1 },
   creatorText: {
-    fontFamily: fonts.sans, fontSize: 13, color: colors.textSecondary,
+    fontFamily: fonts.sans, fontSize: 12, color: colors.textSecondary,
     maxWidth: '60%',
   },
-  durationText: { fontFamily: fonts.mono, fontSize: 12, color: colors.textMuted },
-  viewCountWrap: { flexDirection: 'row', alignItems: 'center', gap: 4 },
-  viewCountText: { fontFamily: fonts.mono, fontSize: 11, color: colors.textMuted },
+  durationText: { fontFamily: fonts.mono, fontSize: 11, color: colors.textMuted },
+  viewCountWrap: { flexDirection: 'row', alignItems: 'center', gap: 3 },
+  viewCountText: { fontFamily: fonts.mono, fontSize: 10, color: colors.textMuted },
 
-  // Netflix-style icon strip
+  // Compact horizontal action strip
   actionStrip: {
     flexDirection: 'row', justifyContent: 'space-around',
-    paddingVertical: 10, paddingHorizontal: spacing.screenPadding,
+    paddingVertical: 6, paddingHorizontal: spacing.screenPadding,
     borderBottomWidth: StyleSheet.hairlineWidth, borderBottomColor: colors.surface + '80',
   },
   actionIcon: {
-    alignItems: 'center', justifyContent: 'center', gap: 4,
-    minWidth: 56, paddingVertical: 4,
+    flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 4,
+    paddingVertical: 5, paddingHorizontal: 6,
   },
   actionIconLabel: {
     fontFamily: fonts.mono, fontSize: 9, color: colors.textMuted,
-    letterSpacing: 0.5, textAlign: 'center',
+    letterSpacing: 0.5,
   },
 
   // Share drawer
@@ -1653,21 +1654,21 @@ const styles = StyleSheet.create({
   // Expandable Info Tab
   infoTab: {
     marginHorizontal: spacing.screenPadding,
-    marginTop: 8,
+    marginTop: 4,
     backgroundColor: colors.surface,
     borderRadius: radius.md,
-    padding: 12,
+    padding: 10,
     borderWidth: 1,
     borderColor: colors.border,
   },
   infoTabExpanded: {
-    paddingBottom: 16,
+    paddingBottom: 12,
   },
   infoTabHeader: {
     flexDirection: 'row',
     alignItems: 'center',
-    gap: 6,
-    marginBottom: 6,
+    gap: 5,
+    marginBottom: 4,
   },
   infoTabLabel: {
     fontFamily: fonts.monoBold,

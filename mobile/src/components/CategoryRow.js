@@ -33,7 +33,7 @@ const CAT_GLYPHS = {
   anime: '◈', saturday_morning: '★', afterschool: '▷', education: '▣',
   howto: '◉', foreign: '◇', art_film: '◆', theatre: '▷',
   abstract: '✦', conspiracy: '◎', public_access: '▶', shopping: '$',
-  violence: '☠', music_video: '♫', sports: '●', nature_wildlife: '◇',
+  sex_ed: '♡', violence: '☠', music_video: '♫', sports: '●', nature_wildlife: '◇',
   comedy: '★', western: '◆', romance: '♡', documentary: '▣',
   game_shows: '▸', silent_film: '◷', war_footage: '⚑', blaxploitation: '◈',
   // New decades

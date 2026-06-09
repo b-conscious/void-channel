@@ -265,10 +265,9 @@ export default function HomeScreen({ navigation }) {
 
   return (
     <View style={styles.container}>
-      {/* Floating header (fades as you scroll) */}
-      <Animated.View
-        style={[styles.floatingHeader, { paddingTop: insets.top + 4, opacity: headerAnim }]}
-        pointerEvents="box-none"
+      {/* Sticky header — always visible, solid background */}
+      <View
+        style={[styles.stickyHeader, { paddingTop: insets.top + 4 }]}
       >
         <View style={styles.headerTop}>
           <View style={styles.headerLeft}>
@@ -296,8 +295,9 @@ export default function HomeScreen({ navigation }) {
             </TouchableOpacity>
           </View>
         </View>
-        <Text style={[styles.headerTagline, { color: accent + 'aa' }]}>◈ generating since 1895 — public domain cinema ◈</Text>
-      </Animated.View>
+        <Text style={[styles.headerTagline, { color: accent }]}>GENERATING SINCE 1895</Text>
+        <Text style={styles.headerTaglineSub}>public domain cinema — before AI, there was human creativity</Text>
+      </View>
 
       {/* ── Hamburger drawer ── */}
       <DrawerMenu
@@ -622,12 +622,12 @@ function LazySection({ children, delayMs = 100, estimatedHeight = 200 }) {
 }
 
 function HeroCard({ item, loading, insetTop, loadingMsg, tagline, gen, accent, onPress, onRandom }) {
-  const totalH = HERO_H + insetTop + 70;
+  const totalH = HERO_H + 20; // header is now outside scroll, no inset padding needed
 
   if (loading && !item) {
     return (
       <View style={{ height: totalH, backgroundColor: colors.card }}>
-        <View style={[styles.heroLoadingBlock, { paddingTop: insetTop + 20 }]}>
+        <View style={[styles.heroLoadingBlock, { paddingTop: 20 }]}>
           <Text style={[styles.heroLoadingMsg, { color: accent }]}>{loadingMsg}</Text>
           <Text style={styles.heroLoadingTagline}>{tagline}</Text>
         </View>
@@ -655,7 +655,7 @@ function HeroCard({ item, loading, insetTop, loadingMsg, tagline, gen, accent, o
         style={[StyleSheet.absoluteFill, { height: totalH }]}
         pointerEvents="none"
       />
-      <View style={[styles.heroContent, { paddingTop: insetTop + 60 }]}>
+      <View style={[styles.heroContent, { paddingTop: 20 }]}>
         {/* Spacer — floating header sits above this */}
         <View style={{ flex: 1 }} />
 
@@ -679,8 +679,18 @@ function HeroCard({ item, loading, insetTop, loadingMsg, tagline, gen, accent, o
 // Channels row — looks like TV channel preview tiles
 function ChannelsRow({ categories, accent, onChannelPress }) {
   const channelDefs = [
-    { catId: "cartoons",  label: "CARTOON CHANNEL", icon: "★" },
-    { catId: "scifi",     label: "SCI-FI CHANNEL",  icon: "◈" },
+    { catId: "cartoons",       label: "CARTOON CHANNEL",   icon: "★" },
+    { catId: "scifi",          label: "SCI-FI CHANNEL",    icon: "◈" },
+    { catId: "noir",           label: "NOIR CHANNEL",      icon: "◆" },
+    { catId: "horror",         label: "HORROR CHANNEL",    icon: "☠" },
+    { catId: "comedy",         label: "COMEDY CHANNEL",    icon: "★" },
+    { catId: "documentary",    label: "DOCS CHANNEL",      icon: "▣" },
+    { catId: "western",        label: "WESTERN CHANNEL",   icon: "◆" },
+    { catId: "anime",          label: "ANIME CHANNEL",     icon: "◈" },
+    { catId: "newsreels",      label: "NEWS CHANNEL",      icon: "▣" },
+    { catId: "music_video",    label: "MUSIC CHANNEL",     icon: "♫" },
+    { catId: "nature_wildlife",label: "NATURE CHANNEL",    icon: "◇" },
+    { catId: "public_access",  label: "PUBLIC ACCESS",     icon: "▶" },
   ];
 
   const channels = channelDefs
@@ -922,9 +932,12 @@ function SkeletonRow() {
 
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: colors.bg },
-  floatingHeader: {
-    position: 'absolute', top: 0, left: 0, right: 0, zIndex: 10,
-    paddingHorizontal: spacing.screenPadding, paddingBottom: 6,
+  stickyHeader: {
+    backgroundColor: colors.bg,
+    paddingHorizontal: spacing.screenPadding, paddingBottom: 8,
+    borderBottomWidth: StyleSheet.hairlineWidth,
+    borderBottomColor: colors.surface,
+    zIndex: 10,
   },
   headerTop: {
     flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center',
@@ -937,8 +950,14 @@ const styles = StyleSheet.create({
   logoVoid: { fontFamily: fonts.monoBold, fontSize: 18, letterSpacing: 4 },
   logoCh: { fontFamily: fonts.mono, fontSize: 11, color: colors.textMuted, letterSpacing: 1 },
   headerTagline: {
-    fontFamily: fonts.mono, fontSize: 9, letterSpacing: 1.5,
-    textAlign: 'center', marginTop: 4,
+    fontFamily: fonts.monoBold, fontSize: 14, letterSpacing: 3,
+    textAlign: 'center', marginTop: 6,
+    textTransform: 'uppercase',
+  },
+  headerTaglineSub: {
+    fontFamily: fonts.sans, fontSize: 11, color: colors.textMuted,
+    textAlign: 'center', marginTop: 2,
+    fontStyle: 'italic',
   },
   supportHeaderBtn: {
     flexDirection: 'row', alignItems: 'center', gap: 4,

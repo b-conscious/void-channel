@@ -281,10 +281,26 @@ const CATEGORIES = [
     query: "(subject:(blaxploitation) OR title:(\"shaft\") OR title:(\"foxy brown\") OR title:(\"dolemite\") OR subject:(\"black cinema\" AND year:[1970 TO 1985])) AND mediatype:(movies)",
   },
   {
+    id: "sex_ed",
+    group: "type",
+    name: "The Talk",
+    subtitle: "How every decade explained the birds and the bees",
+    query: [
+      '(subject:("sex education" OR "sex hygiene" OR "venereal disease"',
+      '  OR "social hygiene" OR "sex instruction" OR "human sexuality"',
+      '  OR "family planning" OR "birth control" OR reproduction',
+      '  OR "sexual behavior" OR "puberty" OR "menstruation"',
+      '  OR "dating etiquette" OR "marriage guidance" OR "family life education"',
+      '  OR "vd" OR "std" OR "sexually transmitted"))',
+      'AND mediatype:(movies)',
+    ].join(' '),
+    mature: true,
+  },
+  {
     id: "mature",
     group: "type",
     name: "⚠ Behind Closed Doors",
-    subtitle: "How every era talked about bodies — stag reels, burlesque, sex ed",
+    subtitle: "How every era talked about bodies — stag reels, burlesque, peep shows",
     query: [
       '(collection:(stag_films OR exploitation_films)',
       'OR subject:(erotic OR stag OR "pin-up" OR burlesque OR "sex education"',
