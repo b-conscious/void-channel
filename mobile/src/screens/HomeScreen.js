@@ -22,6 +22,7 @@ import { colors, fonts, spacing, radius } from '../theme';
 const { width: SCREEN_W } = Dimensions.get('window');
 const HERO_H = Math.round(SCREEN_W * 0.62);
 const DONATE_URL = 'https://square.link/u/IteDL7XI';
+const BRAND_BLUE = '#5cb8ff'; // vivid blue — donate icon + tagline
 
 function pickRandom(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
@@ -231,7 +232,7 @@ export default function HomeScreen({ navigation }) {
   }, [refreshing]);
 
   const handleItemPress = useCallback((item, categoryId) => {
-    navigation.navigate('Player', { item, categoryId });
+    navigation.navigate('Player', { item, id: item.id, categoryId });
   }, [navigation]);
 
   // See More — navigate to search filtered by this category
@@ -276,6 +277,7 @@ export default function HomeScreen({ navigation }) {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
     navigation.navigate('Player', {
       item: cat.items[0],
+      id: cat.items[0].id,
       queue: cat.items,
       queueIndex: 0,
       categoryId: cat.id,
@@ -288,12 +290,12 @@ export default function HomeScreen({ navigation }) {
   const handleHeroPress = useCallback(() => {
     if (!heroItem) return;
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
-    navigation.navigate('Player', { item: heroItem, categoryId: heroCategoryIdRef.current });
+    navigation.navigate('Player', { item: heroItem, id: heroItem?.id, categoryId: heroCategoryIdRef.current });
   }, [heroItem, navigation]);
 
   const handleRandom = useCallback(async () => {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-    try { navigation.navigate('Player', { item: await api.getRandomItem() }); } catch {}
+    try { const ri = await api.getRandomItem(); navigation.navigate('Player', { item: ri, id: ri.id }); } catch {}
   }, [navigation]);
 
   return (
@@ -357,11 +359,11 @@ export default function HomeScreen({ navigation }) {
           activeOpacity={0.7}
         >
           <Text style={styles.supportBannerText}>SUPPORT HUMAN CREATIONS</Text>
-          <Ionicons name="gift" size={20} color="#4da6ff" style={{ marginHorizontal: 2 }} />
-          <Text style={styles.supportBannerSlogan}>FIGHT THE SLOP</Text>
+          <Ionicons name="gift" size={20} color={BRAND_BLUE} style={{ marginHorizontal: 2 }} />
+          <Text style={styles.supportBannerSlogan}>FIGHT THE AI SLOP</Text>
         </TouchableOpacity>
-        <Text style={[styles.headerTagline, { color: accent }]}>GENERATING SINCE 1895</Text>
-        <Text style={styles.headerTaglineSub}>public domain cinema — before AI, there was human creativity</Text>
+        <Text style={[styles.headerTagline, { color: BRAND_BLUE }]}>GENERATING SINCE 1895</Text>
+        <Text style={styles.headerTaglineSub}>public domain cinema — before AI slop, there was human creativity</Text>
       </View>
 
       {/* Avatar picker modal */}
@@ -648,7 +650,7 @@ export default function HomeScreen({ navigation }) {
 
         {/* Footer */}
         <View style={[styles.footer, { paddingBottom: insets.bottom + 90 }]}>
-          <Text style={styles.footerLine}>◈ GENERATING SINCE 1895 ◈</Text>
+          <Text style={[styles.footerLine, { color: BRAND_BLUE, fontFamily: fonts.monoBold, letterSpacing: 2 }]}>◈ GENERATING SINCE 1895 ◈</Text>
           <Text style={styles.footerLine}>before AI slop, there was human creativity</Text>
           <Text style={[styles.footerLine, { marginTop: 8, fontSize: 9, letterSpacing: 1 }]}>SOURCE: ARCHIVE.ORG — PUBLIC DOMAIN & CC</Text>
           <TouchableOpacity
@@ -656,10 +658,10 @@ export default function HomeScreen({ navigation }) {
             style={styles.footerDonate}
             activeOpacity={0.7}
           >
-            <Ionicons name="gift" size={16} color="#4da6ff" />
+            <Ionicons name="gift" size={16} color={BRAND_BLUE} />
             <Text style={styles.footerLine}>
               <Text style={{ color: '#f5a623' }}>SUPPORT HUMAN CREATIONS</Text>
-              <Text style={{ color: '#39ff14' }}> — FIGHT THE SLOP</Text>
+              <Text style={{ color: '#39ff14' }}> — FIGHT THE AI SLOP</Text>
             </Text>
           </TouchableOpacity>
         </View>
@@ -667,8 +669,7 @@ export default function HomeScreen({ navigation }) {
 
       {/* ── Floating menu FAB — appears when header scrolls out of view ── */}
       <Animated.View
-        style={[styles.fab, { bottom: insets.bottom + 74, opacity: fabAnim }]}
-        pointerEvents="auto"
+        style={[styles.fab, { bottom: insets.bottom + 74, opacity: fabAnim, pointerEvents: 'auto' }]}
       >
         <TouchableOpacity
           onPress={() => setMenuOpen(true)}
@@ -718,7 +719,7 @@ function HeroCard({ item, loading, insetTop, loadingMsg, tagline, gen, accent, o
           <Text style={[styles.heroLoadingMsg, { color: accent }]}>{loadingMsg}</Text>
           <Text style={styles.heroLoadingTagline}>{tagline}</Text>
         </View>
-        <LinearGradient colors={['transparent', colors.bg]} locations={[0.7, 1]} style={StyleSheet.absoluteFill} pointerEvents="none" />
+        <LinearGradient colors={['transparent', colors.bg]} locations={[0.7, 1]} style={[StyleSheet.absoluteFill, { pointerEvents: 'none' }]} />
       </View>
     );
   }
@@ -739,8 +740,7 @@ function HeroCard({ item, loading, insetTop, loadingMsg, tagline, gen, accent, o
       <LinearGradient
         colors={['rgba(12,12,15,0.2)', 'transparent', 'rgba(12,12,15,0.55)', 'rgba(12,12,15,0.97)', colors.bg]}
         locations={[0, 0.25, 0.55, 0.85, 1]}
-        style={[StyleSheet.absoluteFill, { height: totalH }]}
-        pointerEvents="none"
+        style={[StyleSheet.absoluteFill, { height: totalH, pointerEvents: 'none' }]}
       />
       <View style={[styles.heroContent, { paddingTop: 20 }]}>
         {/* Spacer — floating header sits above this */}
@@ -788,11 +788,11 @@ function ChannelsRow({ categories, accent, onChannelPress }) {
   // Each channel mixes items from multiple related categories
   const channelDefs = [
     {
-      label: "CARTOON CHANNEL", icon: "★",
+      label: "CARTOONS", icon: "★",
       catIds: ["cartoons", "show_betty_boop", "show_popeye", "show_looney", "show_woody", "show_mickey", "show_felix", "saturday_morning"],
     },
     {
-      label: "SCI-FI CHANNEL", icon: "◈",
+      label: "SCI-FI", icon: "◈",
       catIds: ["scifi", "deep_space", "deep_atomic"],
     },
     {
@@ -800,31 +800,31 @@ function ChannelsRow({ categories, accent, onChannelPress }) {
       catIds: ["horror", "deep_creature", "deep_vampire", "deep_camp"],
     },
     {
-      label: "NOIR CHANNEL", icon: "◆",
+      label: "NOIR", icon: "◆",
       catIds: ["noir", "deep_mental_hygiene"],
     },
     {
-      label: "COMEDY CHANNEL", icon: "★",
+      label: "COMEDY", icon: "★",
       catIds: ["comedy", "show_threestooges", "oddities"],
     },
     {
-      label: "DOCS CHANNEL", icon: "▣",
+      label: "DOCS", icon: "▣",
       catIds: ["documentary", "newsreels", "nature_wildlife"],
     },
     {
-      label: "WESTERN CHANNEL", icon: "◆",
+      label: "WESTERNS", icon: "◆",
       catIds: ["western", "war_footage"],
     },
     {
-      label: "ANIME CHANNEL", icon: "◈",
+      label: "ANIME", icon: "◈",
       catIds: ["anime", "foreign"],
     },
     {
-      label: "THE PROJECTION ROOM", icon: "▶",
+      label: "PROJECTION ROOM", icon: "▶",
       catIds: ["prelinger", "psa", "deep_driver_ed", "deep_propaganda"],
     },
     {
-      label: "MUSIC CHANNEL", icon: "♫",
+      label: "MUSIC", icon: "♫",
       catIds: ["music_video", "commercials"],
     },
     {
@@ -882,8 +882,7 @@ function ChannelsRow({ categories, accent, onChannelPress }) {
             <LinearGradient
               colors={["rgba(12,12,15,0)", "rgba(12,12,15,0.85)", "rgba(12,12,15,1)"]}
               locations={[0.2, 0.7, 1]}
-              style={StyleSheet.absoluteFill}
-              pointerEvents="none"
+              style={[StyleSheet.absoluteFill, { pointerEvents: 'none' }]}
             />
             <View style={styles.channelTileContent}>
               <View style={[styles.liveBadge, { backgroundColor: accent }]}>
@@ -904,7 +903,7 @@ function ChannelsRow({ categories, accent, onChannelPress }) {
 
 function ScanlineOverlay({ height }) {
   return (
-    <View style={[StyleSheet.absoluteFill, { height, overflow: 'hidden' }]} pointerEvents="none">
+    <View style={[StyleSheet.absoluteFill, { height, overflow: 'hidden', pointerEvents: 'none' }]}>
       {Array.from({ length: Math.ceil(height / 4) }).map((_, i) =>
         i % 2 === 0
           ? <View key={i} style={{ height: 1, backgroundColor: 'rgba(0,0,0,0.16)' }} />
@@ -940,7 +939,7 @@ function DrawerMenu({ visible, onClose, accent, gen, generationId, chooseGenerat
               <Text style={[drawerStyles.drawerLogo, { color: accent }]}>VOID</Text>
               <Text style={drawerStyles.drawerLogoSub}> CHANNEL</Text>
             </View>
-            <Text style={drawerStyles.drawerTagline}>generating since 1895</Text>
+            <Text style={[drawerStyles.drawerTagline, { color: BRAND_BLUE }]}>generating since 1895</Text>
           </View>
 
           {/* User account section */}
@@ -1057,10 +1056,10 @@ function DrawerMenu({ visible, onClose, accent, gen, generationId, chooseGenerat
             onPress={() => Linking.openURL(DONATE_URL)}
             activeOpacity={0.7}
           >
-            <Ionicons name="gift" size={22} color="#4da6ff" style={{ width: 30 }} />
+            <Ionicons name="gift" size={22} color={BRAND_BLUE} style={{ width: 30 }} />
             <View>
               <Text style={[drawerStyles.menuLabel, { color: '#f5a623' }]}>SUPPORT HUMAN CREATIONS</Text>
-              <Text style={[drawerStyles.supportSub, { color: '#39ff14' }]}>FIGHT THE SLOP — donate to keep real cinema alive</Text>
+              <Text style={[drawerStyles.supportSub, { color: '#39ff14' }]}>FIGHT THE AI SLOP — donate to keep real cinema alive</Text>
             </View>
           </TouchableOpacity>
 
@@ -1208,7 +1207,7 @@ const styles = StyleSheet.create({
   signInChipText: {
     fontFamily: fonts.mono, fontSize: 8, color: colors.textMuted, letterSpacing: 0.8,
   },
-  // Support banner — one row: SUPPORT HUMAN CREATIONS [gift] FIGHT THE SLOP
+  // Support banner — one row: SUPPORT HUMAN CREATIONS [gift] FIGHT THE AI SLOP
   supportBanner: {
     flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 6,
     marginTop: 8, paddingVertical: 7, paddingHorizontal: 12,
@@ -1221,7 +1220,7 @@ const styles = StyleSheet.create({
   },
   supportBannerSlogan: {
     fontFamily: fonts.monoBold, fontSize: 10, color: '#39ff14', letterSpacing: 1.5,
-    textShadowColor: '#39ff1460', textShadowOffset: { width: 0, height: 0 }, textShadowRadius: 6,
+    textShadow: '0px 0px 6px #39ff1460',
   },
   randomBtn: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 10, paddingVertical: 6, borderRadius: radius.sm },
   randomText: { fontFamily: fonts.monoBold, fontSize: 9, letterSpacing: 1.2 },

@@ -472,7 +472,7 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
       {/* Custom touch zones + controls only on web. On mobile, the native iOS/Android
           player (nativeControls=true above) handles play/pause, skip, fullscreen, exit. */}
       {Platform.OS === "web" && (<>
-      <View style={[StyleSheet.absoluteFill, styles.zones]} pointerEvents="box-none">
+      <View style={[StyleSheet.absoluteFill, styles.zones, { pointerEvents: 'box-none' }]}>
         <Pressable
           style={styles.zoneHalf}
           onPress={handleVideoPress}
@@ -494,7 +494,8 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
         <View style={[
           styles.seekBadge,
           seekDirection > 0 ? styles.seekBadgeRight : styles.seekBadgeLeft,
-        ]} pointerEvents="none">
+          { pointerEvents: 'none' },
+        ]}>
           <Ionicons
             name={seekDirection > 0 ? "play-forward" : "play-back"}
             size={26}
@@ -508,7 +509,7 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
 
       {/* Buffering */}
       {isBuffering && !error && (
-        <View style={styles.overlay} pointerEvents="none">
+        <View style={[styles.overlay, { pointerEvents: 'none' }]}>
           <ActivityIndicator color={colors.amber} size="large" />
           <Text style={styles.bufferText}>BUFFERING...</Text>
         </View>
@@ -524,7 +525,7 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
 
       {/* Controls */}
       {isLoaded && !error && (
-        <Animated.View style={[StyleSheet.absoluteFill, styles.controlsLayer, controlsStyle]} pointerEvents="box-none">
+        <Animated.View style={[StyleSheet.absoluteFill, styles.controlsLayer, controlsStyle, { pointerEvents: 'box-none' }]}>
           <View style={styles.topBar}>
             <TouchableOpacity onPress={onBack} style={styles.backBtn} hitSlop={8}>
               <Ionicons name="chevron-down" size={24} color="#fff" />
@@ -720,10 +721,7 @@ const styles = StyleSheet.create({
     backgroundColor: colors.amber,
     marginLeft: -7,
     // Subtle shadow for visibility
-    shadowColor: "#000",
-    shadowOffset: { width: 0, height: 1 },
-    shadowOpacity: 0.5,
-    shadowRadius: 2,
+    boxShadow: '0px 1px 2px rgba(0,0,0,0.5)',
     elevation: 3,
   },
   progressThumbActive: {

@@ -34,7 +34,7 @@ export default function WatchlistScreen({ navigation }) {
 
   const handleItemPress = useCallback((item) => {
     // Watchlist/history items don't carry their origin category — pass null so streak resets cleanly
-    navigation.navigate('Player', { item, categoryId: null });
+    navigation.navigate('Player', { item, id: item.id, categoryId: null });
   }, [navigation]);
 
   const tabs = [

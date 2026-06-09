@@ -15,6 +15,13 @@ const { supabase, requireAuth } = require("./supabase");
 
 const router = express.Router();
 
+// Generate a display username from UUID when profile has none set
+function usernameFromId(userId) {
+  if (!userId) return 'anon';
+  const clean = String(userId).replace(/-/g, '');
+  return 'void_' + clean.slice(0, 8);
+}
+
 // In-memory fallback when Supabase isn't configured
 let memComments = []; // [{ id, item_id, user_id, username, body, created_at, upvote_count, is_deleted }]
 
@@ -52,7 +59,9 @@ router.get("/items/:itemId/comments", async (req, res) => {
           item_id: c.item_id,
           user_id: c.user_id,
           body: c.body,
-          username: c.profiles?.username || c.profiles?.display_name || "anon",
+          // Always show a unique identifier — never "anon"
+          username: c.profiles?.username || usernameFromId(c.user_id),
+          display_name: c.profiles?.display_name || null,
           avatar_url: c.profiles?.avatar_url || null,
           rank: c.profiles?.rank || "wanderer",
           upvote_count: c.upvote_count || 0,
@@ -102,7 +111,8 @@ router.get("/comments/:id/replies", async (req, res) => {
           id: c.id,
           user_id: c.user_id,
           body: c.body,
-          username: c.profiles?.username || c.profiles?.display_name || "anon",
+          username: c.profiles?.username || usernameFromId(c.user_id),
+          display_name: c.profiles?.display_name || null,
           avatar_url: c.profiles?.avatar_url || null,
           rank: c.profiles?.rank || "wanderer",
           upvote_count: c.upvote_count || 0,
@@ -177,8 +187,14 @@ router.post("/items/:itemId/comments", requireAuth, async (req, res) => {
           await supabase.rpc("increment_reply_count", { comment_id: parent_id }).catch(() => {});
         }
 
-        console.log(`[comments] ${req.user.email} commented on ${itemId}`);
-        return res.json({ comment: data });
+        console.log(`[comments] ${req.user.email || req.user.username} commented on ${itemId}`);
+        // Return the username so the frontend can display it immediately
+        return res.json({
+          comment: {
+            ...data,
+            username: req.user.username || usernameFromId(req.user.id),
+          }
+        });
       } catch (sbErr) {
         // Supabase failed (table missing, etc) — fall through to in-memory
         console.warn("[comments/post] Supabase failed, using in-memory:", sbErr.message);
@@ -190,7 +206,7 @@ router.post("/items/:itemId/comments", requireAuth, async (req, res) => {
       id: `mem_${Date.now()}_${Math.random().toString(36).slice(2, 6)}`,
       item_id: itemId,
       user_id: req.user.id,
-      username: req.user.username || req.user.display_name || req.user.email?.split("@")[0] || "anon",
+      username: req.user.username || usernameFromId(req.user.id),
       body: body.trim(),
       parent_id: parent_id || null,
       upvote_count: 0,

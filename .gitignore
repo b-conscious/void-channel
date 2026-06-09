@@ -5,6 +5,7 @@ web-build/
 *.log
 .DS_Store
 backend/hearts.json
+backend/data/
 mobile/.env
 backend/.env
 .env

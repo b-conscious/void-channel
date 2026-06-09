@@ -21,6 +21,31 @@ const NSFW_EXCLUDE = ' ' + [
   '  OR "peep show" OR "burlesque show" OR provocative)',
 ].join(' ');
 
+// Exclude news/politics/current-events bleed from entertainment categories.
+// Archive.org metadata is community-tagged — people slap "anime" on political videos, etc.
+// This filter keeps news/politics contained to their own category (newsreels, documentary).
+const NEWS_POLITICS_EXCLUDE = ' ' + [
+  'NOT subject:(politics OR political OR politician OR government OR election',
+  '  OR congress OR senate OR democrat OR republican OR presidential OR president',
+  '  OR trump OR obama OR biden OR clinton OR campaign OR legislation OR ballot',
+  '  OR "current events" OR "breaking news" OR "press conference" OR protest',
+  '  OR referendum OR parliament OR partisan OR "executive order" OR geopolitics',
+  '  OR "foreign policy" OR diplomacy OR sanctions)',
+  'NOT subject:(news OR newsreel OR "news report" OR "news clip" OR "news broadcast"',
+  '  OR headline OR journalism OR "news anchor" OR "press release")',
+  'NOT collection:(newsreels OR news OR opensource_media)',
+].join(' ');
+
+// Categories that should NEVER have news/politics bleed
+const ENTERTAINMENT_IDS = new Set([
+  'anime', 'cartoons', 'saturday_morning', 'afterschool', 'comedy', 'horror',
+  'scifi', 'noir', 'western', 'romance', 'silent_film', 'blaxploitation',
+  'music_video', 'sports', 'nature_wildlife', 'game_shows', 'art_film',
+  'abstract', 'theatre', 'foreign', 'shopping', 'ephemeral', 'amateur',
+  'howto', 'deep_creature', 'deep_camp', 'deep_vampire', 'deep_space',
+  'deep_cartoon_silly', 'deep_cigarette_ads', 'deep_food_ads',
+]);
+
 const CATEGORIES = [
   // ── By type — ordered obscure-first, mainstream later ───────────────────
   // Voice: "generating since 1895" — every name should feel like a channel you'd tune into
@@ -854,7 +879,9 @@ function pickBestVideo(files) {
 async function getCategoryItems(categoryId, rows = 25, page = 1, shuffle = false) {
   const cat = CATEGORIES.find((c) => c.id === categoryId);
   if (!cat) return { error: "Category not found" };
-  const query = cat.mature ? cat.query : cat.query + NSFW_EXCLUDE;
+  let query = cat.mature ? cat.query : cat.query + NSFW_EXCLUDE;
+  // Keep news/politics out of entertainment categories
+  if (ENTERTAINMENT_IDS.has(cat.id)) query += NEWS_POLITICS_EXCLUDE;
 
   let items;
   if (shuffle) {
@@ -879,7 +906,8 @@ async function getAllCategories(rowsPerCategory = 20, shuffle = false) {
     const batch = CATEGORIES.slice(i, i + BATCH_SIZE);
     const batchResults = await Promise.allSettled(
       batch.map(async (cat) => {
-        const query = cat.mature ? cat.query : cat.query + NSFW_EXCLUDE;
+        let query = cat.mature ? cat.query : cat.query + NSFW_EXCLUDE;
+        if (ENTERTAINMENT_IDS.has(cat.id)) query += NEWS_POLITICS_EXCLUDE;
         let items;
         if (shuffle) {
           items = await searchVariety(query, rowsPerCategory);

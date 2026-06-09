@@ -120,7 +120,7 @@ export default function SearchScreen({ navigation }) {
   const handleItemPress = useCallback((item) => {
     // If a filter is active, attribute the watch to that category for streak tracking
     const categoryId = FILTERS[activeFilter]?.categoryId || null;
-    navigation.navigate('Player', { item, categoryId });
+    navigation.navigate('Player', { item, id: item.id, categoryId });
   }, [navigation, activeFilter]);
 
   return (
@@ -177,7 +177,7 @@ export default function SearchScreen({ navigation }) {
         </View>
       ) : !searched ? (
         <View style={styles.status}>
-          <Text style={styles.promptLine}>GENERATING SINCE 1895</Text>
+          <Text style={[styles.promptLine, { color: '#5cb8ff', fontFamily: fonts.monoBold }]}>GENERATING SINCE 1895</Text>
           <Text style={[styles.promptBig, { color: accent }]}>40 MILLION ITEMS</Text>
           <Text style={styles.promptLine}>before AI slop, there was human creativity</Text>
           <View style={[styles.hintPill, { borderColor: accent + '55' }]}>

@@ -8,7 +8,7 @@ const { height: SCREEN_H, width: SCREEN_W } = Dimensions.get('window');
 const IS_WEB = Platform.OS === 'web';
 const IS_DESKTOP = IS_WEB && SCREEN_W > 900;
 const VIDEO_H = IS_WEB ? Math.round(SCREEN_H * 0.52) : Math.round(SCREEN_H * 0.42);
-const SIDEBAR_W = IS_DESKTOP ? 340 : 0;
+const SIDEBAR_W = IS_DESKTOP ? 160 : 0;
 
 // Enable LayoutAnimation on Android
 if (Platform.OS === 'android' && UIManager.setLayoutAnimationEnabledExperimental) {
@@ -58,8 +58,24 @@ const XRAY_FIELDS = [
   { type: 'year',     label: 'Year',       icon: 'calendar-outline', placeholder: 'Corrected year, e.g. 1954' },
 ];
 
+// ── Clean broadcast titles for sidebar display ──
+// "DW News : DW : June 9, 2026 4:00am-4:02am CEST" → "DW News : DW"
+// "PRESSTV : June 9, 2026 5:30am-6:00am IRST" → "PRESSTV"
+const DATE_RE = /\s*:?\s*(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},?\s*\d{4}\s+\d{1,2}:\d{2}.*/i;
+function cleanTitle(title, maxLen = 32) {
+  if (!title) return '';
+  let cleaned = title.replace(DATE_RE, '').replace(/\s*:\s*$/, '').trim();
+  cleaned = cleaned || title;
+  if (cleaned.length > maxLen) cleaned = cleaned.slice(0, maxLen - 1).trimEnd() + '…';
+  return cleaned;
+}
+
 export default function PlayerScreen({ route, navigation }) {
-  const { item: stub, categoryId, queue, queueIndex, channelLabel } = route.params;
+  const params = route.params || {};
+  // Deep-link support: /watch/:id only provides params.id, no full item object.
+  // Normal navigation passes a full item object. Handle both.
+  const stub = params.item || { id: params.id, title: '', thumbnail: null };
+  const { categoryId, queue, queueIndex, channelLabel } = params;
   const insets = useSafeAreaInsets();
   const { gen } = useGeneration();
   const { onWatchItem, onContribute, XP_REWARDS } = useGame();
@@ -67,25 +83,22 @@ export default function PlayerScreen({ route, navigation }) {
   const accent = gen.accentColor;
   const inChannel = Array.isArray(queue) && queue.length > 0;
 
-  // When the current video ends, advance to next item (channel queue or autoplay related).
-  const handleVideoEnded = useCallback(() => {
-    // Fire "complete" watch event
-    api.sendWatchEvent({
-      item_id: stub.id, item_title: stub.title,
-      category_id: categoryId || null,
-      event_type: 'complete', watch_percent: 100,
-    }).catch(() => {});
-
-    if (inChannel) {
-      const nextIndex = ((queueIndex ?? 0) + 1) % queue.length;
-      const nextItem = queue[nextIndex];
-      navigation.replace("Player", {
-        item: nextItem, queue, queueIndex: nextIndex, categoryId, channelLabel,
-      });
-    } else if (autoplay && relatedItems.length > 0) {
-      navigation.replace("Player", { item: relatedItems[0] });
+  // Guard: if no item ID (bad deep link like /watch/ with no id), go home
+  useEffect(() => {
+    if (!stub.id) {
+      navigation.replace('Main');
     }
-  }, [stub, inChannel, queue, queueIndex, categoryId, channelLabel, navigation, autoplay, relatedItems]);
+  }, [stub.id, navigation]);
+
+  // Safe goBack — if deep-linked directly to /watch/:id there's no history,
+  // so fall back to home screen instead of crashing.
+  const safeGoBack = useCallback(() => {
+    if (navigation.canGoBack()) {
+      navigation.goBack();
+    } else {
+      navigation.replace('Main');
+    }
+  }, [navigation]);
 
   // Build an optimistic video URL — Archive.org commonly has a 512Kb MPEG4 at a predictable path.
   // This lets us start playback almost instantly while the real metadata loads in the background.
@@ -107,6 +120,7 @@ export default function PlayerScreen({ route, navigation }) {
   const [xpToast, setXpToast] = useState(null);
   const [infoExpanded, setInfoExpanded] = useState(false);
   const [relatedItems, setRelatedItems] = useState([]);
+  const [relatedLoading, setRelatedLoading] = useState(true);
   const [xrayData, setXrayData] = useState({});
   const [xrayTotal, setXrayTotal] = useState(0);
   const [contributeOpen, setContributeOpen] = useState(false);
@@ -128,7 +142,42 @@ export default function PlayerScreen({ route, navigation }) {
   const xpFired = useRef(false);
   const videoRef = useRef(null);
 
+  // When the current video ends, advance to next item (channel queue or autoplay related).
+  const handleVideoEnded = useCallback(() => {
+    // Fire "complete" watch event
+    api.sendWatchEvent({
+      item_id: stub.id, item_title: stub.title,
+      category_id: categoryId || null,
+      event_type: 'complete', watch_percent: 100,
+    }).catch(() => {});
+
+    if (inChannel) {
+      const nextIndex = ((queueIndex ?? 0) + 1) % queue.length;
+      const nextItem = queue[nextIndex];
+      navigation.replace("Player", {
+        item: nextItem, id: nextItem.id, queue, queueIndex: nextIndex, categoryId, channelLabel,
+      });
+    } else if (autoplay && relatedItems.length > 0) {
+      navigation.replace("Player", { item: relatedItems[0], id: relatedItems[0].id });
+    }
+  }, [stub, inChannel, queue, queueIndex, categoryId, channelLabel, navigation, autoplay, relatedItems]);
+
+  // Inject skeleton pulse keyframes on web
   useEffect(() => {
+    if (!IS_WEB || typeof document === 'undefined') return;
+    const id = 'skeleton-pulse-css';
+    if (document.getElementById(id)) return;
+    const s = document.createElement('style');
+    s.id = id;
+    s.textContent = `
+      @keyframes skeletonPulse { 0%,100%{opacity:0.3} 50%{opacity:0.6} }
+      [data-skeleton] { animation: skeletonPulse 1.2s ease-in-out infinite; }
+    `;
+    document.head.appendChild(s);
+  }, []);
+
+  useEffect(() => {
+    if (!stub.id) return; // Guard: no ID = nothing to load
     let cancelled = false;
 
     // Phase 1: local checks (instant) — run in parallel with network
@@ -196,7 +245,7 @@ export default function PlayerScreen({ route, navigation }) {
             event_type: 'start', watch_percent: 0,
           }).catch(() => {});
         }
-        api.getRelated(stub.id, 20).then(setRelatedItems).catch(() => {});
+        api.getRelated(stub.id, 20).then(setRelatedItems).catch(() => {}).finally(() => setRelatedLoading(false));
         setCommentsLoading(true);
         api.getComments(stub.id).then((c) => {
           if (!cancelled) setComments(c.comments || []);
@@ -437,6 +486,34 @@ export default function PlayerScreen({ route, navigation }) {
         </TouchableOpacity>
       </View>
 
+      {/* Skeleton placeholders while rabbit hole loads — void noise thumbnails */}
+      {relatedLoading && relatedItems.length === 0 && (
+        <>
+          <View style={styles.sidebarUpNext}>
+            <Text style={[styles.sidebarUpNextLabel, { color: accent }]}>UP NEXT</Text>
+          </View>
+          {/* Skeleton Up Next card */}
+          <View style={styles.sidebarUpNextCard}>
+            <View dataSet={{voidNoise: 'static'}} style={[styles.sidebarUpNextThumb, { backgroundColor: colors.card }]} />
+            <View style={styles.sidebarUpNextInfo}>
+              <View dataSet={{skeleton: '1'}} style={[styles.skeletonLine, { width: '80%' }]} />
+              <View dataSet={{skeleton: '1'}} style={[styles.skeletonLine, { width: '40%', marginTop: 6 }]} />
+            </View>
+          </View>
+          <View style={styles.sidebarDivider} />
+          <Text style={styles.sidebarSectionLabel}>RABBIT HOLE</Text>
+          {[1, 2, 3, 4, 5].map((i) => (
+            <View key={i} style={styles.sidebarRelCard}>
+              <View dataSet={{voidNoise: 'static'}} style={[styles.sidebarRelThumb, { backgroundColor: colors.card }]} />
+              <View style={styles.sidebarRelInfo}>
+                <View dataSet={{skeleton: '1'}} style={[styles.skeletonLine, { width: `${65 + (i * 7) % 30}%` }]} />
+                <View dataSet={{skeleton: '1'}} style={[styles.skeletonLine, { width: '30%', marginTop: 4 }]} />
+              </View>
+            </View>
+          ))}
+        </>
+      )}
+
       {/* Up Next */}
       {relatedItems.length > 0 && (
         <>
@@ -446,17 +523,14 @@ export default function PlayerScreen({ route, navigation }) {
           <Pressable
             onPress={() => {
               Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-              navigation.replace('Player', { item: relatedItems[0] });
+              navigation.replace('Player', { item: relatedItems[0], id: relatedItems[0].id });
             }}
             style={styles.sidebarUpNextCard}
           >
             <FastImage uri={relatedItems[0].thumbnail} itemId={relatedItems[0].id} style={styles.sidebarUpNextThumb} contentFit="cover" />
             <View style={styles.sidebarUpNextInfo}>
-              <Text style={styles.sidebarUpNextTitle} numberOfLines={2}>{relatedItems[0].title}</Text>
+              <Text style={styles.sidebarUpNextTitle} numberOfLines={1}>{cleanTitle(relatedItems[0].title, 28)}</Text>
               {relatedItems[0].year ? <Text style={[styles.sidebarUpNextYear, { color: accent }]}>{relatedItems[0].year}</Text> : null}
-              {relatedItems[0].creator ? <Text style={styles.sidebarUpNextCreator} numberOfLines={1}>
-                {Array.isArray(relatedItems[0].creator) ? relatedItems[0].creator[0] : relatedItems[0].creator}
-              </Text> : null}
             </View>
           </Pressable>
 
@@ -470,17 +544,14 @@ export default function PlayerScreen({ route, navigation }) {
               key={rel.id}
               onPress={() => {
                 Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-                navigation.replace('Player', { item: rel });
+                navigation.replace('Player', { item: rel, id: rel.id });
               }}
               style={styles.sidebarRelCard}
             >
               <FastImage uri={rel.thumbnail} itemId={rel.id} style={styles.sidebarRelThumb} contentFit="cover" />
               <View style={styles.sidebarRelInfo}>
-                <Text style={styles.sidebarRelTitle} numberOfLines={2}>{rel.title}</Text>
+                <Text style={styles.sidebarRelTitle} numberOfLines={1}>{cleanTitle(rel.title, 28)}</Text>
                 {rel.year ? <Text style={[styles.sidebarRelYear, { color: accent }]}>{rel.year}</Text> : null}
-                {rel.creator ? <Text style={styles.sidebarRelCreator} numberOfLines={1}>
-                  {Array.isArray(rel.creator) ? rel.creator[0] : rel.creator}
-                </Text> : null}
               </View>
             </Pressable>
           ))}
@@ -507,6 +578,22 @@ export default function PlayerScreen({ route, navigation }) {
       <View style={[styles.playerArea, { height: infoExpanded ? VIDEO_H * 0.7 : VIDEO_H }]}>
         {!videoSource ? (
           <View style={styles.loadingWrap}>
+            {/* TV static noise behind loading spinner — "out of the void" */}
+            {IS_WEB && (
+              <View
+                dataSet={{ voidNoise: 'static' }}
+                style={[StyleSheet.absoluteFill, { backgroundColor: colors.card, opacity: 0.6 }]}
+              />
+            )}
+            {/* Show item thumbnail as poster while video loads */}
+            {stub.thumbnail && (
+              <FastImage
+                uri={stub.thumbnail}
+                itemId={stub.id}
+                style={[StyleSheet.absoluteFill, { opacity: 0.35 }]}
+                contentFit="cover"
+              />
+            )}
             {error ? (
               <>
                 <Ionicons name="warning-outline" size={40} color={colors.textMuted} />
@@ -515,7 +602,7 @@ export default function PlayerScreen({ route, navigation }) {
             ) : (
               <>
                 <ActivityIndicator color={accent} size="large" />
-                <Text style={[styles.loadingText, { color: accent }]}>LOADING VIDEO...</Text>
+                <Text style={[styles.loadingText, { color: accent }]}>TUNING SIGNAL...</Text>
               </>
             )}
           </View>
@@ -524,7 +611,7 @@ export default function PlayerScreen({ route, navigation }) {
             ref={videoRef}
             videoUrl={videoSource}
             title={item.title}
-            onBack={() => navigation.goBack()}
+            onBack={safeGoBack}
             onEnded={(inChannel || autoplay) ? handleVideoEnded : undefined}
             onVideoError={handleVideoError}
             channelLabel={inChannel ? channelLabel || "CHANNEL" : undefined}
@@ -535,7 +622,7 @@ export default function PlayerScreen({ route, navigation }) {
         {!videoSource && (
           <TouchableOpacity
             style={[styles.overlayBack, { top: insets.top + 8 }]}
-            onPress={() => navigation.goBack()}
+            onPress={safeGoBack}
             hitSlop={10}
           >
             <Ionicons name="chevron-back" size={26} color="#fff" />
@@ -1026,8 +1113,18 @@ export default function PlayerScreen({ route, navigation }) {
             <Ionicons name={commentsExpanded ? "chevron-up" : "chevron-down"} size={14} color={colors.textSecondary} />
           </TouchableOpacity>
 
-          {/* Preview — show first 2 when collapsed */}
-          {!commentsExpanded && comments.length > 0 && (
+          {/* Preview — skeleton while loading, first 2 when collapsed */}
+          {!commentsExpanded && commentsLoading && (
+            <View style={styles.commentsPreview}>
+              {[1, 2].map((i) => (
+                <View key={i} style={styles.commentRow}>
+                  <View dataSet={{skeleton: '1'}} style={[styles.skeletonLine, { width: 50, marginRight: 6 }]} />
+                  <View dataSet={{skeleton: '1'}} style={[styles.skeletonLine, { flex: 1 }]} />
+                </View>
+              ))}
+            </View>
+          )}
+          {!commentsExpanded && !commentsLoading && comments.length > 0 && (
             <View style={styles.commentsPreview}>
               {comments.slice(0, 2).map((c) => (
                 <View key={c.id} style={styles.commentRow}>
@@ -1064,7 +1161,7 @@ export default function PlayerScreen({ route, navigation }) {
                         setComments((prev) => [{
                           id: result.comment?.id || Date.now(),
                           body: commentText.trim(),
-                          username: user?.username || user?.display_name || 'you',
+                          username: result.comment?.username || user?.username || ('void_' + (user?.id || '').replace(/-/g, '').slice(0, 8)),
                           user_id: user?.id,
                           created_at: new Date().toISOString(),
                           upvote_count: 0,
@@ -1122,6 +1219,16 @@ export default function PlayerScreen({ route, navigation }) {
           )}
         </View>
 
+        {/* ── Rabbit Hole — skeleton while loading on mobile ── */}
+        {!IS_DESKTOP && relatedLoading && relatedItems.length === 0 && (
+          <View style={styles.rabbitSection}>
+            <View style={styles.rabbitToggle}>
+              <Text style={styles.rabbitIcon}>🐇</Text>
+              <Text style={[styles.rabbitToggleText, { color: accent }]}>RABBIT HOLE</Text>
+              <ActivityIndicator size="small" color={accent} style={{ marginLeft: 6 }} />
+            </View>
+          </View>
+        )}
         {/* ── Rabbit Hole — collapsible on mobile, hidden on desktop (shown in sidebar) ── */}
         {!IS_DESKTOP && relatedItems.length > 0 && (
           <View style={styles.rabbitSection}>
@@ -1152,13 +1259,13 @@ export default function PlayerScreen({ route, navigation }) {
                   <Pressable
                     onPress={() => {
                       Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-                      navigation.replace('Player', { item: rel });
+                      navigation.replace('Player', { item: rel, id: rel.id });
                     }}
                     style={styles.rabbitCard}
                   >
                     <FastImage uri={rel.thumbnail} itemId={rel.id} style={styles.rabbitThumb} contentFit="cover" />
                     <View style={styles.rabbitCardInfo}>
-                      <Text style={styles.rabbitCardTitle} numberOfLines={2}>{rel.title}</Text>
+                      <Text style={styles.rabbitCardTitle} numberOfLines={1}>{cleanTitle(rel.title)}</Text>
                       {rel.year ? <Text style={[styles.rabbitCardYear, { color: accent }]}>{rel.year}</Text> : null}
                     </View>
                   </Pressable>
@@ -1560,9 +1667,9 @@ const clipStyles = StyleSheet.create({
     letterSpacing: 0.5,
   },
   previewTagline: {
-    fontFamily: fonts.mono,
+    fontFamily: fonts.monoBold,
     fontSize: 8,
-    color: '#555',
+    color: '#5cb8ff',
     letterSpacing: 1,
     marginTop: 2,
   },
@@ -1954,7 +2061,7 @@ const styles = StyleSheet.create({
   infoMetaValue: {
     fontFamily: fonts.sans,
     fontSize: 12,
-    color: colors.text,
+    color: colors.textPrimary,
     flex: 1,
   },
   infoTagsWrap: {
@@ -2057,45 +2164,55 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff', alignSelf: 'flex-end',
   },
 
-  // ── Desktop sidebar ──
+  // ── Desktop sidebar (compact 160px) ──
   sidebar: {
     width: SIDEBAR_W,
     backgroundColor: colors.bg,
     borderLeftWidth: 1, borderLeftColor: colors.surface,
-    paddingHorizontal: 14, paddingTop: 12,
+    paddingLeft: 6, paddingRight: 3, paddingTop: 6,
   },
   sidebarAutoplay: {
     flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between',
-    marginBottom: 14,
+    marginBottom: 6,
   },
-  sidebarAutoplayLabel: { fontFamily: fonts.monoBold, fontSize: 10, color: colors.textMuted, letterSpacing: 1 },
-  sidebarUpNext: { marginBottom: 8 },
-  sidebarUpNextLabel: { fontFamily: fonts.monoBold, fontSize: 11, letterSpacing: 2 },
+  sidebarAutoplayLabel: { fontFamily: fonts.monoBold, fontSize: 7, color: colors.textMuted, letterSpacing: 0.8 },
+  sidebarUpNext: { marginBottom: 3 },
+  sidebarUpNextLabel: { fontFamily: fonts.monoBold, fontSize: 8, letterSpacing: 1.2 },
   sidebarUpNextCard: {
-    flexDirection: 'row', gap: 10, padding: 8,
-    borderRadius: radius.md, backgroundColor: colors.surface + '40',
+    flexDirection: 'row', gap: 4, padding: 4,
+    borderRadius: radius.sm, backgroundColor: colors.surface + '40',
     borderWidth: 1, borderColor: colors.surface,
   },
-  sidebarUpNextThumb: { width: 120, height: 72, borderRadius: 6, backgroundColor: colors.card },
-  sidebarUpNextInfo: { flex: 1, justifyContent: 'center' },
-  sidebarUpNextTitle: { fontFamily: fonts.sansSemiBold, fontSize: 13, color: colors.textPrimary, lineHeight: 17 },
-  sidebarUpNextYear: { fontFamily: fonts.mono, fontSize: 10, marginTop: 3 },
-  sidebarUpNextCreator: { fontFamily: fonts.sans, fontSize: 10, color: colors.textMuted, marginTop: 1 },
+  sidebarUpNextThumb: { width: 50, height: 30, borderRadius: 2, backgroundColor: colors.card },
+  sidebarUpNextInfo: { flex: 1, justifyContent: 'center', overflow: 'hidden' },
+  sidebarUpNextTitle: { fontFamily: fonts.sansSemiBold, fontSize: 9, color: colors.textPrimary, lineHeight: 11 },
+  sidebarUpNextYear: { fontFamily: fonts.mono, fontSize: 7, marginTop: 1 },
+  sidebarUpNextCreator: { fontFamily: fonts.sans, fontSize: 7, color: colors.textMuted, marginTop: 1 },
   sidebarDivider: {
-    height: 1, backgroundColor: colors.surface, marginVertical: 12,
+    height: 1, backgroundColor: colors.surface, marginVertical: 6,
   },
   sidebarSectionLabel: {
-    fontFamily: fonts.monoBold, fontSize: 9, color: colors.textMuted,
-    letterSpacing: 1.5, marginBottom: 10,
+    fontFamily: fonts.monoBold, fontSize: 7, color: colors.textMuted,
+    letterSpacing: 1.2, marginBottom: 4,
   },
   sidebarRelCard: {
-    flexDirection: 'row', gap: 8, marginBottom: 10,
+    flexDirection: 'row', gap: 4, marginBottom: 4, alignItems: 'center',
   },
-  sidebarRelThumb: { width: 100, height: 60, borderRadius: 4, backgroundColor: colors.card },
-  sidebarRelInfo: { flex: 1, justifyContent: 'center' },
-  sidebarRelTitle: { fontFamily: fonts.sans, fontSize: 12, color: colors.textPrimary, lineHeight: 15 },
-  sidebarRelYear: { fontFamily: fonts.mono, fontSize: 9, marginTop: 2 },
-  sidebarRelCreator: { fontFamily: fonts.sans, fontSize: 10, color: colors.textMuted, marginTop: 1 },
+  sidebarRelThumb: { width: 44, height: 26, borderRadius: 2, backgroundColor: colors.card },
+  sidebarRelInfo: { flex: 1, overflow: 'hidden' },
+  sidebarRelTitle: { fontFamily: fonts.sans, fontSize: 9, color: colors.textPrimary, lineHeight: 11 },
+  sidebarRelYear: { fontFamily: fonts.mono, fontSize: 7, marginTop: 1 },
+  sidebarRelCreator: { fontFamily: fonts.sans, fontSize: 7, color: colors.textMuted, marginTop: 1 },
+
+  // ── Skeleton loading ──
+  // Animation applied via CSS `[data-skeleton]` selector (injected in useEffect above)
+  skeletonPulse: {
+    opacity: 0.4,
+  },
+  skeletonLine: {
+    height: 10, borderRadius: 3, backgroundColor: colors.surface,
+    opacity: 0.4,
+  },
 
   // ── Comments ──
   commentsSection: {

@@ -16,6 +16,8 @@ import { useAuth } from '../context/AuthContext';
 import { useGeneration } from '../context/GenerationContext';
 import { colors, fonts, spacing, radius } from '../theme';
 
+const BRAND_BLUE = '#5cb8ff';
+
 export default function AuthScreen({ navigation }) {
   const insets = useSafeAreaInsets();
   const { gen } = useGeneration();
@@ -42,7 +44,7 @@ export default function AuthScreen({ navigation }) {
       } else {
         await signIn(email.trim(), password);
       }
-      navigation.goBack();
+      navigation.canGoBack() ? navigation.goBack() : navigation.replace('Main');
     } catch (err) {
       setError(err.message || 'Something went wrong');
     }
@@ -50,7 +52,7 @@ export default function AuthScreen({ navigation }) {
   }, [mode, email, password, username, signIn, register, navigation]);
 
   const handleSkip = useCallback(() => {
-    navigation.goBack();
+    navigation.canGoBack() ? navigation.goBack() : navigation.replace('Main');
   }, [navigation]);
 
   return (
@@ -61,7 +63,7 @@ export default function AuthScreen({ navigation }) {
       <ScrollView contentContainerStyle={styles.scroll} keyboardShouldPersistTaps="handled">
         {/* Header */}
         <View style={styles.header}>
-          <TouchableOpacity onPress={() => navigation.goBack()} style={styles.backBtn} hitSlop={8}>
+          <TouchableOpacity onPress={() => navigation.canGoBack() ? navigation.goBack() : navigation.replace('Main')} style={styles.backBtn} hitSlop={8}>
             <Ionicons name="chevron-back" size={24} color={colors.textPrimary} />
           </TouchableOpacity>
         </View>
@@ -178,7 +180,7 @@ const styles = StyleSheet.create({
   brand: { alignItems: 'center', marginTop: 20, marginBottom: 32 },
   brandTitle: { fontFamily: fonts.monoBold, fontSize: 36, letterSpacing: 8 },
   brandSub: { fontFamily: fonts.mono, fontSize: 12, color: colors.textMuted, letterSpacing: 6, marginTop: -2 },
-  tagline: { fontFamily: fonts.mono, fontSize: 10, color: colors.textGhost, letterSpacing: 1.5, marginTop: 12, fontStyle: 'italic' },
+  tagline: { fontFamily: fonts.monoBold, fontSize: 10, color: BRAND_BLUE, letterSpacing: 1.5, marginTop: 12 },
   modeRow: { flexDirection: 'row', marginBottom: 24, gap: 0 },
   modeTab: {
     flex: 1, paddingVertical: 12, alignItems: 'center',

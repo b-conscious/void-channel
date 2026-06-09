@@ -98,8 +98,51 @@ export default function Navigation() {
     },
   };
 
+  // ── Web URL routing — real browser URLs, back/forward, shareable links ──
+  // Defined inside component to avoid TDZ in production bundles.
+  const linking = Platform.OS === 'web' ? {
+    prefixes: [
+      typeof window !== 'undefined' ? window.location.origin : 'http://localhost:8081',
+    ],
+    config: {
+      screens: {
+        Main: {
+          path: '',
+          screens: {
+            Browse:    '',
+            Search:    'search',
+            Signal:    'signal',
+            'My Void': 'watchlist',
+          },
+        },
+        Player:    'watch/:id',
+        Auth:      'auth',
+        Playlists: 'playlists',
+        Playlist:  'playlist/:playlistId',
+        Admin:     'admin',
+      },
+    },
+  } : undefined;
+
+  // Update browser tab title on screen change (web only)
+  const onStateChange = Platform.OS === 'web' ? function (state) {
+    var route = state && state.routes ? state.routes[state.index] : null;
+    if (!route) return;
+    var titles = { Main: 'Void Channel', Auth: 'Sign In — Void Channel', Playlists: 'Playlists — Void Channel', Admin: 'Admin — Void Channel' };
+    if (route.name === 'Player') {
+      var name = (route.params && route.params.item && route.params.item.title) || (route.params && route.params.id) || 'Watch';
+      document.title = name + ' — Void Channel';
+    } else if (route.name === 'Main') {
+      var tab = route.state && route.state.routes ? route.state.routes[route.state.index] : null;
+      var tabTitles = { Browse: 'Void Channel', Search: 'Search — Void Channel', Signal: 'Signal — Void Channel', 'My Void': 'My Void — Void Channel' };
+      document.title = (tab ? tabTitles[tab.name] : null) || 'Void Channel';
+    } else {
+      document.title = titles[route.name] || 'Void Channel';
+    }
+  } : undefined;
+
   return (
-    <NavigationContainer theme={theme}>
+    <NavigationContainer theme={theme} linking={linking} onStateChange={onStateChange}>
       <Stack.Navigator screenOptions={{ headerShown: false, header: () => null }}>
         <Stack.Screen name="Main" component={TabNavigator} />
         <Stack.Screen

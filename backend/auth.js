@@ -10,6 +10,13 @@ const { supabase, optionalAuth, requireAuth } = require("./supabase");
 
 const router = express.Router();
 
+// Generate a unique username like "void_a3f8b2c1" from the user's UUID
+function generateUsername(uuid) {
+  // Take chars from UUID (skip hyphens), grab 8 for a short but unique tag
+  const clean = uuid.replace(/-/g, '');
+  return 'void_' + clean.slice(0, 8);
+}
+
 // ── Register (email + password) ────────────────────────────
 
 router.post("/register", async (req, res) => {
@@ -40,11 +47,12 @@ router.post("/register", async (req, res) => {
     }
 
     const userId = authData.user.id;
+    const autoUsername = username || generateUsername(userId);
 
-    // Create profile
+    // Create profile — always has a unique username
     const { error: profileError } = await supabase.from("profiles").upsert({
       id: userId,
-      username: username || null,
+      username: autoUsername,
       display_name: displayName || username || email.split("@")[0],
       generation: generation || "millennial",
       xp: 0,
@@ -131,9 +139,11 @@ router.post("/anonymous", async (req, res) => {
       return res.status(500).json({ error: "Failed to create anonymous session" });
     }
 
-    // Create a bare profile for the anonymous user
+    // Create a bare profile for the anonymous user — still gets a unique username
+    const anonUsername = generateUsername(data.user.id);
     await supabase.from("profiles").upsert({
       id: data.user.id,
+      username: anonUsername,
       display_name: "Anonymous Explorer",
       generation: req.body.generation || "millennial",
       xp: 0,
@@ -141,7 +151,7 @@ router.post("/anonymous", async (req, res) => {
     });
 
     res.json({
-      user: { id: data.user.id, is_anonymous: true },
+      user: { id: data.user.id, username: anonUsername, is_anonymous: true },
       session: {
         access_token: data.session.access_token,
         refresh_token: data.session.refresh_token,

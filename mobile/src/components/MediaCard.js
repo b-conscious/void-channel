@@ -152,8 +152,7 @@ export default function MediaCard({ item, onPress, size = 'default', style }) {
         <LinearGradient
           colors={['transparent', 'rgba(0,0,0,0.1)', 'rgba(12,12,15,0.88)']}
           locations={[0.25, 0.55, 1]}
-          style={StyleSheet.absoluteFill}
-          pointerEvents="none"
+          style={[StyleSheet.absoluteFill, { pointerEvents: 'none' }]}
         />
 
         {/* Vibe tag */}
@@ -281,7 +280,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
-  heartIcon: { textShadowColor: 'rgba(0,0,0,0.6)', textShadowOffset: { width: 0, height: 1 }, textShadowRadius: 2 },
+  heartIcon: { textShadow: '0px 1px 2px rgba(0,0,0,0.6)' },
 
   // Hover play button
   hoverPlayRow: {

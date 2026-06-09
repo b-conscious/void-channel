@@ -357,10 +357,39 @@ app.get("/health", (req, res) => {
 
 // ── Start ──────────────────────────────────────────────────
 
-app.listen(PORT, () => {
+app.listen(PORT, async () => {
   console.log(`\n  ⚡ VOID CHANNEL PROXY`);
   console.log(`  → http://localhost:${PORT}`);
   console.log(`  → Cache TTL: categories=20m, items=6h, search=30m\n`);
+
+  // Backfill usernames for profiles that have none (one-time on startup)
+  try {
+    const { supabase } = require("./supabase");
+    if (supabase) {
+      const { data: nullProfiles } = await supabase
+        .from("profiles")
+        .select("id")
+        .is("username", null)
+        .limit(500);
+      if (nullProfiles && nullProfiles.length > 0) {
+        let patched = 0;
+        for (const p of nullProfiles) {
+          const clean = p.id.replace(/-/g, '');
+          const username = 'void_' + clean.slice(0, 8);
+          const { error } = await supabase
+            .from("profiles")
+            .update({ username })
+            .eq("id", p.id)
+            .is("username", null); // guard: only if still null
+          if (!error) patched++;
+        }
+        if (patched > 0) console.log(`  → Backfilled ${patched} profile usernames`);
+      }
+    }
+  } catch (err) {
+    // Non-fatal — backfill is best-effort
+    console.warn("  → Username backfill skipped:", err.message);
+  }
 });
 
 module.exports = app;

@@ -54,6 +54,7 @@ export default function PlaylistScreen({ route, navigation }) {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
     navigation.navigate('Player', {
       item: playlist.items[0],
+      id: playlist.items[0]?.item_id || playlist.items[0]?.id,
       queue: playlist.items.map((pi) => ({
         id: pi.item_id,
         title: pi.item_title,
@@ -77,6 +78,7 @@ export default function PlaylistScreen({ route, navigation }) {
     }));
     navigation.navigate('Player', {
       item: queue[index],
+      id: queue[index]?.id,
       queue,
       queueIndex: index,
       channelLabel: playlist.title,
