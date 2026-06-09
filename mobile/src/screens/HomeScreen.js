@@ -11,6 +11,7 @@ import * as Haptics from 'expo-haptics';
 import FastImage from '../components/FastImage';
 import CategoryRow from '../components/CategoryRow';
 import SkeletonCard from '../components/SkeletonCard';
+import AvatarPickerModal from '../components/AvatarPickerModal';
 import { useGeneration } from '../context/GenerationContext';
 import { useAuth } from '../context/AuthContext';
 import { GENERATIONS } from '../data/generations';
@@ -28,7 +29,9 @@ function pickRandom(arr) {
 export default function HomeScreen({ navigation }) {
   const insets = useSafeAreaInsets();
   const { gen, generationId, chooseGeneration } = useGeneration();
+  const { user, isAuthenticated, updateProfile, signOut } = useAuth();
   const [menuOpen, setMenuOpen] = useState(false);
+  const [avatarPickerOpen, setAvatarPickerOpen] = useState(false);
   const [allCategories, setAllCategories] = useState([]);
   const [catPage, setCatPage] = useState(0);
   const CATS_PER_PAGE = 5;
@@ -280,24 +283,68 @@ export default function HomeScreen({ navigation }) {
             </View>
           </View>
           <View style={styles.headerRight}>
-            <TouchableOpacity
-              onPress={() => Linking.openURL('https://square.link/u/IteDL7XI')}
-              style={styles.supportHeaderBtn}
-              activeOpacity={0.7}
-              hitSlop={6}
-            >
-              <Ionicons name="heart" size={13} color="#ff2d78" />
-              <Text style={styles.supportHeaderText}>SUPPORT</Text>
-            </TouchableOpacity>
+            {/* User avatar + name when logged in */}
+            {isAuthenticated && user ? (
+              <TouchableOpacity
+                onPress={() => setAvatarPickerOpen(true)}
+                style={styles.userChip}
+                activeOpacity={0.7}
+              >
+                {user.avatar_url ? (
+                  <FastImage uri={user.avatar_url} itemId={`av_${user.id}`} style={styles.userAvatar} contentFit="cover" />
+                ) : (
+                  <View style={[styles.userAvatarGlyph, { backgroundColor: accent + '30' }]}>
+                    <Text style={[styles.userAvatarGlyphText, { color: accent }]}>
+                      {(user.username || user.display_name || '?')[0].toUpperCase()}
+                    </Text>
+                  </View>
+                )}
+                <Text style={styles.userChipName} numberOfLines={1}>
+                  {user.username || user.display_name || 'void dweller'}
+                </Text>
+              </TouchableOpacity>
+            ) : (
+              <TouchableOpacity
+                onPress={() => navigation.navigate('Auth')}
+                style={styles.signInChip}
+                activeOpacity={0.7}
+                hitSlop={6}
+              >
+                <Ionicons name="person-outline" size={12} color={colors.textMuted} />
+                <Text style={styles.signInChipText}>SIGN IN</Text>
+              </TouchableOpacity>
+            )}
             <TouchableOpacity onPress={handleRandom} style={[styles.randomBtn, { backgroundColor: accent }]} hitSlop={8}>
               <Ionicons name="shuffle" size={12} color={gen.accentOnDark} style={{ marginRight: 4 }} />
               <Text style={[styles.randomText, { color: gen.accentOnDark }]}>SURPRISE ME</Text>
             </TouchableOpacity>
           </View>
         </View>
+        {/* Support banner */}
+        <TouchableOpacity
+          onPress={() => Linking.openURL('https://square.link/u/IteDL7XI')}
+          style={styles.supportBanner}
+          activeOpacity={0.7}
+        >
+          <Ionicons name="gift-outline" size={14} color="#ff2d78" />
+          <Text style={styles.supportBannerText}>SUPPORT HUMAN CREATIONS</Text>
+          <Text style={styles.supportBannerSlogan}>FIGHT THE SLOP</Text>
+        </TouchableOpacity>
         <Text style={[styles.headerTagline, { color: accent }]}>GENERATING SINCE 1895</Text>
         <Text style={styles.headerTaglineSub}>public domain cinema — before AI, there was human creativity</Text>
       </View>
+
+      {/* Avatar picker modal */}
+      <AvatarPickerModal
+        visible={avatarPickerOpen}
+        onClose={() => setAvatarPickerOpen(false)}
+        accent={accent}
+        currentAvatar={user?.avatar_url}
+        onSelect={async (avatar) => {
+          const url = avatar.url || `glyph:${avatar.glyph}`;
+          await updateProfile({ avatar_url: url });
+        }}
+      />
 
       {/* ── Hamburger drawer ── */}
       <DrawerMenu
@@ -309,6 +356,10 @@ export default function HomeScreen({ navigation }) {
         chooseGeneration={chooseGeneration}
         navigation={navigation}
         onRandom={() => { setMenuOpen(false); handleRandom(); }}
+        user={user}
+        isAuthenticated={isAuthenticated}
+        onAvatarPress={() => setAvatarPickerOpen(true)}
+        onSignOut={signOut}
       />
 
       <Animated.ScrollView
@@ -571,8 +622,9 @@ export default function HomeScreen({ navigation }) {
             style={styles.footerDonate}
             activeOpacity={0.7}
           >
+            <Ionicons name="gift-outline" size={12} color="#ff2d78" />
             <Text style={[styles.footerLine, { color: '#ff2d78', fontStyle: 'normal' }]}>
-              ♥ Support Void Channel
+              SUPPORT HUMAN CREATIONS — FIGHT THE SLOP
             </Text>
           </TouchableOpacity>
         </View>
@@ -676,29 +728,91 @@ function HeroCard({ item, loading, insetTop, loadingMsg, tagline, gen, accent, o
   );
 }
 
-// Channels row — looks like TV channel preview tiles
+// Interleave items from multiple categories, deduped by id
+function mixCategoryItems(categories, catIds, maxItems = 40) {
+  const cats = catIds.map((id) => categories.find((c) => c.id === id)).filter(Boolean);
+  if (cats.length === 0) return [];
+  const seen = new Set();
+  const mixed = [];
+  const maxRounds = 20;
+  for (let round = 0; round < maxRounds && mixed.length < maxItems; round++) {
+    for (const cat of cats) {
+      const item = cat.items?.[round];
+      if (item && !seen.has(item.id)) {
+        seen.add(item.id);
+        mixed.push(item);
+        if (mixed.length >= maxItems) break;
+      }
+    }
+  }
+  return mixed;
+}
+
+// Channels row — TV channel tiles with multi-source mixing for variety
 function ChannelsRow({ categories, accent, onChannelPress }) {
+  // Each channel mixes items from multiple related categories
   const channelDefs = [
-    { catId: "cartoons",       label: "CARTOON CHANNEL",   icon: "★" },
-    { catId: "scifi",          label: "SCI-FI CHANNEL",    icon: "◈" },
-    { catId: "noir",           label: "NOIR CHANNEL",      icon: "◆" },
-    { catId: "horror",         label: "HORROR CHANNEL",    icon: "☠" },
-    { catId: "comedy",         label: "COMEDY CHANNEL",    icon: "★" },
-    { catId: "documentary",    label: "DOCS CHANNEL",      icon: "▣" },
-    { catId: "western",        label: "WESTERN CHANNEL",   icon: "◆" },
-    { catId: "anime",          label: "ANIME CHANNEL",     icon: "◈" },
-    { catId: "newsreels",      label: "NEWS CHANNEL",      icon: "▣" },
-    { catId: "music_video",    label: "MUSIC CHANNEL",     icon: "♫" },
-    { catId: "nature_wildlife",label: "NATURE CHANNEL",    icon: "◇" },
-    { catId: "public_access",  label: "PUBLIC ACCESS",     icon: "▶" },
+    {
+      label: "CARTOON CHANNEL", icon: "★",
+      catIds: ["cartoons", "show_betty_boop", "show_popeye", "show_looney", "show_woody", "show_mickey", "show_felix", "saturday_morning"],
+    },
+    {
+      label: "SCI-FI CHANNEL", icon: "◈",
+      catIds: ["scifi", "deep_space", "deep_atomic"],
+    },
+    {
+      label: "NIGHTMARE FUEL", icon: "☠",
+      catIds: ["horror", "deep_creature", "deep_vampire", "deep_camp"],
+    },
+    {
+      label: "NOIR CHANNEL", icon: "◆",
+      catIds: ["noir", "deep_mental_hygiene"],
+    },
+    {
+      label: "COMEDY CHANNEL", icon: "★",
+      catIds: ["comedy", "show_threestooges", "oddities"],
+    },
+    {
+      label: "DOCS CHANNEL", icon: "▣",
+      catIds: ["documentary", "newsreels", "nature_wildlife"],
+    },
+    {
+      label: "WESTERN CHANNEL", icon: "◆",
+      catIds: ["western", "war_footage"],
+    },
+    {
+      label: "ANIME CHANNEL", icon: "◈",
+      catIds: ["anime", "foreign"],
+    },
+    {
+      label: "THE PROJECTION ROOM", icon: "▶",
+      catIds: ["prelinger", "psa", "deep_driver_ed", "deep_propaganda"],
+    },
+    {
+      label: "MUSIC CHANNEL", icon: "♫",
+      catIds: ["music_video", "commercials"],
+    },
+    {
+      label: "PUBLIC ACCESS", icon: "▶",
+      catIds: ["public_access", "shopping", "game_shows"],
+    },
+    {
+      label: "THE WEIRD SHELF", icon: "✦",
+      catIds: ["oddities", "abstract", "conspiracy", "amateur"],
+    },
   ];
 
   const channels = channelDefs
-    .map((def) => ({
-      ...def,
-      category: categories.find((c) => c.id === def.catId),
-    }))
-    .filter((ch) => ch.category?.items?.length > 0);
+    .map((def) => {
+      const mixed = mixCategoryItems(categories, def.catIds);
+      // Use first category that has items for the thumbnail stack
+      const primaryCat = def.catIds.map((id) => categories.find((c) => c.id === id)).find((c) => c?.items?.length > 0);
+      return {
+        ...def,
+        category: primaryCat ? { ...primaryCat, id: def.catIds[0], items: mixed } : null,
+      };
+    })
+    .filter((ch) => ch.category?.items?.length > 2);
 
   if (channels.length === 0) return null;
 
@@ -711,7 +825,7 @@ function ChannelsRow({ categories, accent, onChannelPress }) {
       <View style={styles.channelsRow}>
         {channels.map((ch) => (
           <Pressable
-            key={ch.catId}
+            key={ch.label}
             onPress={() => onChannelPress(ch.category, ch.label)}
             style={styles.channelTile}
           >
@@ -743,7 +857,7 @@ function ChannelsRow({ categories, accent, onChannelPress }) {
               </View>
               <Text style={styles.channelTileLabel} numberOfLines={1}>{ch.label}</Text>
               <Text style={styles.channelTileSub}>
-                {ch.category.items.length} items · auto-advance
+                {ch.category.items.length} mixed · auto-advance
               </Text>
             </View>
           </Pressable>
@@ -765,7 +879,7 @@ function ScanlineOverlay({ height }) {
   );
 }
 
-function DrawerMenu({ visible, onClose, accent, gen, generationId, chooseGeneration, navigation, onRandom }) {
+function DrawerMenu({ visible, onClose, accent, gen, generationId, chooseGeneration, navigation, onRandom, user, isAuthenticated, onAvatarPress, onSignOut }) {
   if (!visible) return null;
 
   const GEN_OPTS = [
@@ -785,7 +899,7 @@ function DrawerMenu({ visible, onClose, accent, gen, generationId, chooseGenerat
     <Modal transparent visible={visible} animationType="fade" onRequestClose={onClose}>
       <Pressable style={drawerStyles.overlay} onPress={onClose}>
         <Pressable style={drawerStyles.drawer} onPress={(e) => e.stopPropagation()}>
-          {/* Header */}
+          {/* Header with user info */}
           <View style={drawerStyles.drawerHeader}>
             <View style={drawerStyles.drawerLogoRow}>
               <Text style={[drawerStyles.drawerLogo, { color: accent }]}>VOID</Text>
@@ -793,6 +907,42 @@ function DrawerMenu({ visible, onClose, accent, gen, generationId, chooseGenerat
             </View>
             <Text style={drawerStyles.drawerTagline}>generating since 1895</Text>
           </View>
+
+          {/* User account section */}
+          {isAuthenticated && user ? (
+            <View style={drawerStyles.userSection}>
+              <TouchableOpacity onPress={() => { onClose(); onAvatarPress?.(); }} style={drawerStyles.userRow} activeOpacity={0.7}>
+                {user.avatar_url ? (
+                  <FastImage uri={user.avatar_url} itemId={`dav_${user.id}`} style={drawerStyles.drawerAvatar} contentFit="cover" />
+                ) : (
+                  <View style={[drawerStyles.drawerAvatarFallback, { backgroundColor: accent + '30' }]}>
+                    <Text style={[drawerStyles.drawerAvatarGlyph, { color: accent }]}>
+                      {(user.username || '?')[0].toUpperCase()}
+                    </Text>
+                  </View>
+                )}
+                <View style={{ flex: 1 }}>
+                  <Text style={drawerStyles.drawerUsername}>{user.username || user.display_name || 'void dweller'}</Text>
+                  <Text style={drawerStyles.drawerUserSub}>tap to change avatar</Text>
+                </View>
+              </TouchableOpacity>
+              <TouchableOpacity onPress={() => { onClose(); onSignOut?.(); }} style={drawerStyles.signOutBtn} activeOpacity={0.7}>
+                <Ionicons name="log-out-outline" size={14} color={colors.textMuted} />
+                <Text style={drawerStyles.signOutText}>SIGN OUT</Text>
+              </TouchableOpacity>
+            </View>
+          ) : (
+            <TouchableOpacity
+              onPress={() => { onClose(); navigation.navigate('Auth'); }}
+              style={drawerStyles.drawerSignIn}
+              activeOpacity={0.7}
+            >
+              <Ionicons name="person-outline" size={16} color={accent} style={{ width: 28 }} />
+              <Text style={[drawerStyles.menuLabel, { color: accent }]}>SIGN IN / CREATE ACCOUNT</Text>
+            </TouchableOpacity>
+          )}
+
+          <View style={drawerStyles.divider} />
 
           {/* Nav items */}
           {menuItems.map((item) => (
@@ -860,12 +1010,12 @@ function DrawerMenu({ visible, onClose, accent, gen, generationId, chooseGenerat
             onPress={() => Linking.openURL('https://square.link/u/IteDL7XI')}
             activeOpacity={0.7}
           >
-            <Ionicons name="heart" size={16} color="#ff2d78" style={{ width: 28 }} />
-            <Text style={[drawerStyles.menuLabel, { color: '#ff2d78' }]}>SUPPORT VOID CH.</Text>
+            <Ionicons name="gift-outline" size={16} color="#ff2d78" style={{ width: 28 }} />
+            <View>
+              <Text style={[drawerStyles.menuLabel, { color: '#ff2d78' }]}>SUPPORT HUMAN CREATIONS</Text>
+              <Text style={drawerStyles.supportSub}>FIGHT THE SLOP — donate to keep real cinema alive</Text>
+            </View>
           </TouchableOpacity>
-          <Text style={drawerStyles.supportSub}>
-            Help keep the signal alive — donations go toward hosting & curation.
-          </Text>
 
           {/* Footer */}
           <View style={{ flex: 1 }} />
@@ -895,6 +1045,30 @@ const drawerStyles = StyleSheet.create({
   drawerLogo: { fontFamily: fonts.monoBold, fontSize: 20, letterSpacing: 4 },
   drawerLogoSub: { fontFamily: fonts.mono, fontSize: 12, color: colors.textMuted, letterSpacing: 1 },
   drawerTagline: { fontFamily: fonts.mono, fontSize: 9, color: colors.textGhost, letterSpacing: 1.5, marginTop: 4 },
+  // User section in drawer
+  userSection: {
+    paddingVertical: 12, paddingHorizontal: 4,
+  },
+  userRow: {
+    flexDirection: 'row', alignItems: 'center', gap: 10, marginBottom: 8,
+  },
+  drawerAvatar: { width: 36, height: 36, borderRadius: 18 },
+  drawerAvatarFallback: {
+    width: 36, height: 36, borderRadius: 18,
+    justifyContent: 'center', alignItems: 'center',
+  },
+  drawerAvatarGlyph: { fontFamily: fonts.monoBold, fontSize: 16 },
+  drawerUsername: { fontFamily: fonts.monoBold, fontSize: 12, color: colors.textPrimary, letterSpacing: 0.5 },
+  drawerUserSub: { fontFamily: fonts.mono, fontSize: 9, color: colors.textGhost, letterSpacing: 0.5, marginTop: 1 },
+  signOutBtn: {
+    flexDirection: 'row', alignItems: 'center', gap: 6,
+    paddingVertical: 6, paddingHorizontal: 4, marginTop: 4,
+  },
+  signOutText: { fontFamily: fonts.mono, fontSize: 9, color: colors.textMuted, letterSpacing: 1 },
+  drawerSignIn: {
+    flexDirection: 'row', alignItems: 'center',
+    paddingVertical: 13, paddingHorizontal: 4,
+  },
   menuItem: {
     flexDirection: 'row', alignItems: 'center',
     paddingVertical: 13, paddingHorizontal: 4,
@@ -915,7 +1089,7 @@ const drawerStyles = StyleSheet.create({
     flexDirection: 'row', alignItems: 'center',
     paddingVertical: 13, paddingHorizontal: 4,
   },
-  supportSub: { fontFamily: fonts.sans, fontSize: 11, color: colors.textMuted, marginLeft: 32, marginTop: -6, lineHeight: 16 },
+  supportSub: { fontFamily: fonts.monoBold, fontSize: 8, color: '#ff2d7880', letterSpacing: 1.2, marginTop: 2 },
   footerText: { fontFamily: fonts.mono, fontSize: 9, color: colors.textGhost, letterSpacing: 1, textAlign: 'center', marginTop: 4 },
 });
 
@@ -959,15 +1133,48 @@ const styles = StyleSheet.create({
     textAlign: 'center', marginTop: 2,
     fontStyle: 'italic',
   },
-  supportHeaderBtn: {
-    flexDirection: 'row', alignItems: 'center', gap: 4,
-    paddingHorizontal: 10, paddingVertical: 6,
-    borderRadius: radius.sm,
-    borderWidth: 1, borderColor: '#ff2d7840',
-    backgroundColor: '#ff2d7810',
+  // User chip — avatar + name in header
+  userChip: {
+    flexDirection: 'row', alignItems: 'center', gap: 5,
+    paddingRight: 8, paddingLeft: 2, paddingVertical: 2,
+    borderRadius: radius.full, backgroundColor: colors.surface,
   },
-  supportHeaderText: {
-    fontFamily: fonts.monoBold, fontSize: 8, color: '#ff2d78', letterSpacing: 1.2,
+  userAvatar: {
+    width: 24, height: 24, borderRadius: 12,
+  },
+  userAvatarGlyph: {
+    width: 24, height: 24, borderRadius: 12,
+    justifyContent: 'center', alignItems: 'center',
+  },
+  userAvatarGlyphText: {
+    fontFamily: fonts.monoBold, fontSize: 11,
+  },
+  userChipName: {
+    fontFamily: fonts.monoBold, fontSize: 9, color: colors.textPrimary,
+    letterSpacing: 0.5, maxWidth: 80,
+  },
+  signInChip: {
+    flexDirection: 'row', alignItems: 'center', gap: 4,
+    paddingHorizontal: 8, paddingVertical: 5,
+    borderRadius: radius.sm, borderWidth: 1, borderColor: colors.surface,
+  },
+  signInChipText: {
+    fontFamily: fonts.mono, fontSize: 8, color: colors.textMuted, letterSpacing: 0.8,
+  },
+  // Support banner — prominent call to action
+  supportBanner: {
+    flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 6,
+    marginTop: 8, paddingVertical: 8, paddingHorizontal: 12,
+    borderRadius: radius.sm,
+    borderWidth: 1, borderColor: '#ff2d7835',
+    backgroundColor: '#ff2d7808',
+  },
+  supportBannerText: {
+    fontFamily: fonts.monoBold, fontSize: 10, color: '#ff2d78', letterSpacing: 1.5,
+  },
+  supportBannerSlogan: {
+    fontFamily: fonts.monoBold, fontSize: 9, color: '#ff2d7880', letterSpacing: 1,
+    borderLeftWidth: 1, borderLeftColor: '#ff2d7830', paddingLeft: 6,
   },
   randomBtn: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 10, paddingVertical: 6, borderRadius: radius.sm },
   randomText: { fontFamily: fonts.monoBold, fontSize: 9, letterSpacing: 1.2 },
@@ -1067,5 +1274,5 @@ const styles = StyleSheet.create({
 
   footer: { paddingHorizontal: spacing.screenPadding, paddingTop: 28, borderTopWidth: StyleSheet.hairlineWidth, borderTopColor: colors.surface, marginTop: 12, gap: 3 },
   footerLine: { fontFamily: fonts.sans, fontSize: 11, color: colors.textMuted, fontStyle: 'italic', textAlign: 'center' },
-  footerDonate: { marginTop: 14, paddingVertical: 8 },
+  footerDonate: { marginTop: 14, paddingVertical: 8, flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 6 },
 });
