@@ -375,7 +375,15 @@ export default function HomeScreen({ navigation }) {
               </TouchableOpacity>
             )}
           </View>
-          {/* ── Desktop: centered search bar — 3-column flex for true centering ── */}
+          {/* ── Desktop: logo + centered search bar ── */}
+          {IS_DESKTOP && (
+            <TouchableOpacity onPress={() => navigation.navigate('Browse')} activeOpacity={0.7} style={{ marginRight: 16 }}>
+              <View style={{ flexDirection: 'row', alignItems: 'baseline' }}>
+                <Text style={{ fontFamily: fonts.monoBold, fontSize: 16, letterSpacing: 2.5, color: accent }}>VOID</Text>
+                <Text style={{ fontFamily: fonts.sans, fontSize: 13, color: colors.textMuted, letterSpacing: 0.5 }}>tv</Text>
+              </View>
+            </TouchableOpacity>
+          )}
           {IS_DESKTOP && (
             <Pressable
               onPress={() => navigation.navigate('Search')}
@@ -567,7 +575,7 @@ export default function HomeScreen({ navigation }) {
           />
         )}
 
-        {/* Shorts — short-form content (YouTube Shorts style) */}
+        {/* Void Snacks — short-form content under 2 min */}
         {shorts.length > 0 && (
           <ShortsRow
             items={shorts}
@@ -757,7 +765,7 @@ function mixCategoryItems(categories, catIds, maxItems = 100) {
   return mixed;
 }
 
-// Shorts row — tall portrait cards, YouTube Shorts style
+// Void Snacks row — tall portrait cards, quick bites under 2 min
 function ShortsRow({ items, accent, onItemPress }) {
   if (!items || items.length === 0) return null;
 
@@ -768,9 +776,9 @@ function ShortsRow({ items, accent, onItemPress }) {
           <View style={[styles.shortsBadge, { backgroundColor: accent }]}>
             <Ionicons name="flash" size={12} color={colors.bg} />
           </View>
-          <Text style={[styles.shortsTitle, { color: accent }]}>Shorts</Text>
+          <Text style={[styles.shortsTitle, { color: accent }]}>Void Snacks</Text>
         </View>
-        <Text style={styles.shortsSubtitle}>quick clips under 2 minutes</Text>
+        <Text style={styles.shortsSubtitle}>quick bites under 2 minutes</Text>
       </View>
       <ScrollView
         horizontal
