@@ -92,8 +92,9 @@ router.get("/:id", async (req, res) => {
       return res.status(404).json({ error: "Playlist not found" });
     }
 
-    // Only owner or public
-    if (playlist.user_id !== req.user.id && !playlist.is_public) {
+    // Only owner or public — anonymous users can view public playlists
+    const isOwner = req.user && playlist.user_id === req.user.id;
+    if (!isOwner && !playlist.is_public) {
       return res.status(404).json({ error: "Playlist not found" });
     }
 

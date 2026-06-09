@@ -4,8 +4,9 @@ const BASE = "https://archive.org";
 const SEARCH_URL = `${BASE}/advancedsearch.php`;
 const META_URL = (id) => `${BASE}/metadata/${id}`;
 // Width-capped thumbnails — archive.org default is often 600-1200px, way too big for cards.
-// 250px is enough for card grids at 2x retina; getItem() uses full-size for poster/hero.
-const THUMB_URL = (id, w = 250) => `${BASE}/services/img/${id}${w ? `?w=${w}` : ''}`;
+// 100px loads 6x faster than full-size. Cards are ~150px wide, so 100px is fine even at 2x.
+// getItem() uses full-size (w=null) for poster/hero.
+const THUMB_URL = (id, w = 100) => `${BASE}/services/img/${id}${w ? `?w=${w}` : ''}`;
 const FILE_URL = (id, file) => `${BASE}/download/${id}/${encodeURIComponent(file)}`;
 
 // Exclude adult/mature/sex-ed content from all regular category & search queries.
@@ -931,9 +932,9 @@ async function getCategoryItems(categoryId, rows = 25, page = 1, shuffle = false
 }
 
 async function getAllCategories(rowsPerCategory = 20, shuffle = false) {
-  // Batch in groups of 4 — each blended search makes 2 parallel requests,
-  // so this is 8 concurrent requests to Archive.org (safe under rate limits)
-  const BATCH_SIZE = 4;
+  // Batch in groups of 6 — smaller rows (15 items) and 100px thumbs mean each
+  // request is lighter, so we can safely run more in parallel for faster load.
+  const BATCH_SIZE = 6;
   const allResults = [];
 
   for (let i = 0; i < CATEGORIES.length; i += BATCH_SIZE) {

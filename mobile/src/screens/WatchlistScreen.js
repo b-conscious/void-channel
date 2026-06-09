@@ -1,11 +1,12 @@
 import React, { useState, useCallback, useMemo } from 'react';
 import {
   View, Text, FlatList, ScrollView, StyleSheet, TouchableOpacity,
-  Dimensions, Platform,
+  Dimensions, Platform, Alert, Linking, Share,
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useFocusEffect } from '@react-navigation/native';
 import { Ionicons } from '@expo/vector-icons';
+import * as Haptics from 'expo-haptics';
 import { useGeneration } from '../context/GenerationContext';
 import { useAuth } from '../context/AuthContext';
 import { useGame } from '../context/GameContext';
@@ -83,6 +84,46 @@ export default function WatchlistScreen({ navigation }) {
     setExpandedSection(prev => prev === section ? null : section);
   }, []);
 
+  // ── Remove individual history item ────────────────────
+  const removeHistoryItem = useCallback(async (itemId) => {
+    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+    const updated = await store.removeFromHistory(itemId);
+    setHistory(updated);
+  }, []);
+
+  const clearAllHistory = useCallback(() => {
+    Alert.alert(
+      'Clear History',
+      'Remove all watch history? This cannot be undone.',
+      [
+        { text: 'Cancel', style: 'cancel' },
+        {
+          text: 'Clear All',
+          style: 'destructive',
+          onPress: async () => {
+            Haptics.notificationAsync(Haptics.NotificationFeedbackType.Warning);
+            const updated = await store.clearHistory();
+            setHistory(updated);
+          },
+        },
+      ]
+    );
+  }, []);
+
+  // ── Share playlist ────────────────────────────────────
+  const sharePlaylist = useCallback(async (pl) => {
+    const url = `https://void-channel.onrender.com/playlist/${pl.id}`;
+    const text = `${pl.title} — curated on Void Channel`;
+    try {
+      if (Platform.OS === 'web') {
+        if (navigator?.clipboard) await navigator.clipboard.writeText(url);
+      } else {
+        await Share.share({ message: `${text}\n${url}`, url });
+      }
+      Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
+    } catch {}
+  }, []);
+
   // ── Section header ─────────────────────────────────────
   function SectionHead({ icon, label, count, actionLabel, onAction }) {
     return (
@@ -115,32 +156,42 @@ export default function WatchlistScreen({ navigation }) {
     );
   }
 
-  // ── History list item (compact row with thumbnail + timestamp) ──
+  // ── History list item (compact row with thumbnail + timestamp + delete) ──
   function HistoryItem({ item }) {
     return (
-      <TouchableOpacity
-        style={styles.historyRow}
-        onPress={() => handleItemPress(item)}
-        activeOpacity={0.7}
-      >
-        <FastImage
-          uri={item.thumbnail}
-          itemId={item.id}
-          style={styles.historyThumb}
-          contentFit="cover"
-        />
-        <View style={styles.historyInfo}>
-          <Text style={styles.historyTitle} numberOfLines={2}>
-            {item.title || 'Untitled'}
-          </Text>
-          <View style={styles.historyMetaRow}>
-            {item.creator ? (
-              <Text style={styles.historyCreator} numberOfLines={1}>{item.creator}</Text>
-            ) : null}
-            <Text style={styles.historyTime}>{timeAgo(item.watchedAt)}</Text>
+      <View style={styles.historyRow}>
+        <TouchableOpacity
+          style={styles.historyRowTap}
+          onPress={() => handleItemPress(item)}
+          activeOpacity={0.7}
+        >
+          <FastImage
+            uri={item.thumbnail}
+            itemId={item.id}
+            style={styles.historyThumb}
+            contentFit="cover"
+          />
+          <View style={styles.historyInfo}>
+            <Text style={styles.historyTitle} numberOfLines={2}>
+              {item.title || 'Untitled'}
+            </Text>
+            <View style={styles.historyMetaRow}>
+              {item.creator ? (
+                <Text style={styles.historyCreator} numberOfLines={1}>{item.creator}</Text>
+              ) : null}
+              <Text style={styles.historyTime}>{timeAgo(item.watchedAt)}</Text>
+            </View>
           </View>
-        </View>
-      </TouchableOpacity>
+        </TouchableOpacity>
+        <TouchableOpacity
+          onPress={() => removeHistoryItem(item.id)}
+          style={styles.historyDeleteBtn}
+          hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
+          activeOpacity={0.6}
+        >
+          <Ionicons name="close" size={14} color={colors.textGhost} />
+        </TouchableOpacity>
+      </View>
     );
   }
 
@@ -167,13 +218,29 @@ export default function WatchlistScreen({ navigation }) {
       {/* ── Continue Watching (recent history) ─────────── */}
       {recentHistory.length > 0 && (
         <View style={styles.section}>
-          <SectionHead
-            icon="time-outline"
-            label="CONTINUE WATCHING"
-            count={history.length}
-            actionLabel={expandedSection === 'history' ? 'COLLAPSE' : 'SEE ALL'}
-            onAction={() => toggleSection('history')}
-          />
+          <View style={styles.sectionHead}>
+            <View style={styles.sectionHeadLeft}>
+              <Ionicons name="time-outline" size={13} color={accent} />
+              <Text style={[styles.sectionLabel, { color: accent }]}>CONTINUE WATCHING</Text>
+              {history.length > 0 && (
+                <View style={[styles.countBadge, { backgroundColor: accent + '20' }]}>
+                  <Text style={[styles.countBadgeText, { color: accent }]}>{history.length}</Text>
+                </View>
+              )}
+            </View>
+            <View style={{ flexDirection: 'row', gap: 12 }}>
+              {expandedSection === 'history' && history.length > 0 && (
+                <TouchableOpacity onPress={clearAllHistory} activeOpacity={0.7} hitSlop={8}>
+                  <Text style={[styles.sectionAction, { color: colors.textGhost }]}>CLEAR ALL</Text>
+                </TouchableOpacity>
+              )}
+              <TouchableOpacity onPress={() => toggleSection('history')} activeOpacity={0.7} hitSlop={8}>
+                <Text style={[styles.sectionAction, { color: accent }]}>
+                  {expandedSection === 'history' ? 'COLLAPSE' : 'SEE ALL'}
+                </Text>
+              </TouchableOpacity>
+            </View>
+          </View>
           {expandedSection === 'history' ? (
             <View style={styles.historyList}>
               {history.slice(0, 50).map((item, i) => (
@@ -236,7 +303,7 @@ export default function WatchlistScreen({ navigation }) {
         )}
       </View>
 
-      {/* ── Playlists ──────────────────────────────────── */}
+      {/* ── Playlists — your curated corner of the Archive ── */}
       <View style={styles.section}>
         <SectionHead
           icon="albums-outline"
@@ -249,8 +316,8 @@ export default function WatchlistScreen({ navigation }) {
           <SectionEmpty
             icon="albums-outline"
             text={isAuthenticated
-              ? 'create a playlist to organize your finds'
-              : 'sign in to create playlists'}
+              ? 'create a playlist to curate your corner of the archive'
+              : 'sign in to create and share playlists'}
           />
         ) : (
           <FlatList
@@ -260,28 +327,52 @@ export default function WatchlistScreen({ navigation }) {
             showsHorizontalScrollIndicator={false}
             contentContainerStyle={styles.hRow}
             renderItem={({ item: pl }) => (
-              <TouchableOpacity
-                style={styles.playlistCard}
-                onPress={() => navigation.navigate('Playlist', { playlistId: pl.id })}
-                activeOpacity={0.7}
-              >
-                {pl.cover_thumbnail ? (
-                  <FastImage
-                    uri={pl.cover_thumbnail}
-                    itemId={pl.id}
-                    style={styles.playlistThumb}
-                    contentFit="cover"
-                  />
-                ) : (
-                  <View style={[styles.playlistThumb, styles.playlistThumbEmpty]}>
-                    <Ionicons name="albums" size={20} color={colors.textGhost} />
-                  </View>
-                )}
-                <Text style={styles.playlistTitle} numberOfLines={1}>{pl.title}</Text>
-                <Text style={styles.playlistMeta}>
-                  {pl.item_count || 0} item{(pl.item_count || 0) !== 1 ? 's' : ''}
-                </Text>
-              </TouchableOpacity>
+              <View style={styles.playlistCard}>
+                <TouchableOpacity
+                  onPress={() => navigation.navigate('Playlist', { playlistId: pl.id })}
+                  activeOpacity={0.7}
+                >
+                  {pl.cover_thumbnail ? (
+                    <FastImage
+                      uri={pl.cover_thumbnail}
+                      itemId={pl.id}
+                      style={styles.playlistThumb}
+                      contentFit="cover"
+                    />
+                  ) : (
+                    <View style={[styles.playlistThumb, styles.playlistThumbEmpty]}>
+                      <Ionicons name="albums" size={20} color={colors.textGhost} />
+                    </View>
+                  )}
+                </TouchableOpacity>
+                <View style={styles.playlistBottom}>
+                  <TouchableOpacity
+                    style={{ flex: 1 }}
+                    onPress={() => navigation.navigate('Playlist', { playlistId: pl.id })}
+                    activeOpacity={0.7}
+                  >
+                    <Text style={styles.playlistTitle} numberOfLines={1}>{pl.title}</Text>
+                    <View style={styles.playlistMetaRow}>
+                      <Text style={styles.playlistMeta}>
+                        {pl.item_count || 0} item{(pl.item_count || 0) !== 1 ? 's' : ''}
+                      </Text>
+                      {pl.is_public && (
+                        <View style={[styles.publicBadge, { backgroundColor: accent + '20' }]}>
+                          <Text style={[styles.publicBadgeText, { color: accent }]}>PUBLIC</Text>
+                        </View>
+                      )}
+                    </View>
+                  </TouchableOpacity>
+                  <TouchableOpacity
+                    onPress={() => sharePlaylist(pl)}
+                    style={styles.shareBtn}
+                    hitSlop={{ top: 6, bottom: 6, left: 6, right: 6 }}
+                    activeOpacity={0.6}
+                  >
+                    <Ionicons name="share-social-outline" size={14} color={colors.textMuted} />
+                  </TouchableOpacity>
+                </View>
+              </View>
             )}
           />
         )}
@@ -446,6 +537,19 @@ const styles = StyleSheet.create({
     borderBottomWidth: StyleSheet.hairlineWidth,
     borderBottomColor: colors.surface,
   },
+  historyRowTap: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    flex: 1,
+  },
+  historyDeleteBtn: {
+    width: 28,
+    height: 28,
+    borderRadius: 14,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginLeft: 6,
+  },
   historyThumb: {
     width: 100,
     height: 58,
@@ -512,16 +616,40 @@ const styles = StyleSheet.create({
     borderColor: colors.border,
     borderStyle: 'dashed',
   },
+  playlistBottom: {
+    flexDirection: 'row',
+    alignItems: 'flex-start',
+    marginTop: 5,
+  },
   playlistTitle: {
     fontFamily: fonts.sans,
     fontSize: 12,
     color: colors.textPrimary,
-    marginTop: 6,
+  },
+  playlistMetaRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 5,
+    marginTop: 1,
   },
   playlistMeta: {
     fontFamily: fonts.mono,
     fontSize: 9,
     color: colors.textGhost,
+  },
+  publicBadge: {
+    paddingHorizontal: 5,
+    paddingVertical: 1,
+    borderRadius: radius.full,
+  },
+  publicBadgeText: {
+    fontFamily: fonts.monoBold,
+    fontSize: 7,
+    letterSpacing: 0.8,
+  },
+  shareBtn: {
+    padding: 4,
+    marginLeft: 2,
     marginTop: 1,
   },
 

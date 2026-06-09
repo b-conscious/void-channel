@@ -104,7 +104,7 @@ app.get("/api/categories", async (req, res) => {
       }
     }
 
-    const categories = await archive.getAllCategories(24, shuffle);
+    const categories = await archive.getAllCategories(15, shuffle);
 
     // Cache for 20 min (matches the time bucket rotation)
     if (!shuffle) cache.set(cacheKey, categories, 1200);

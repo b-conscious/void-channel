@@ -85,7 +85,8 @@ export default function CategoryRow({
   const [canScrollRight, setCanScrollRight] = useState(false);
   const [rowHovered, setRowHovered] = useState(false);
 
-  // Arrow opacity — CSS transition on web, instant on native
+  // Arrow opacity — always visible on desktop so users know they can scroll.
+  // Brightens slightly on row hover for polish.
   const onRowHoverIn = useCallback(() => {
     if (Platform.OS !== 'web') return;
     setRowHovered(true);
@@ -96,7 +97,7 @@ export default function CategoryRow({
   }, []);
 
   const arrowOpacityStyle = {
-    opacity: rowHovered ? 1 : 0,
+    opacity: rowHovered ? 1 : 0.7,
     ...(Platform.OS === 'web' ? { transition: 'opacity 0.2s ease' } : {}),
   };
 

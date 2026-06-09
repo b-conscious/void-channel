@@ -19,10 +19,10 @@ const KEYS = {
   WATCHLIST: "@void_watchlist",
   HISTORY: "@void_history",
   HEARTS: "@void_hearts", // local set of item IDs the user has hearted
-  // v6 — added most_popular + feature_length categories. Bumping the key invalidates
-  // the previous cache so users immediately see the new sections without waiting for the TTL.
-  CATEGORIES_CACHE: "@void_categories_v6",
-  CATEGORIES_TIMESTAMP: "@void_categories_ts_v6",
+  // v7 — smaller thumbnails (100px), new categories. Bumping the key invalidates
+  // the previous cache so users get the faster-loading thumbnails immediately.
+  CATEGORIES_CACHE: "@void_categories_v7",
+  CATEGORIES_TIMESTAMP: "@void_categories_ts_v7",
 };
 
 const CACHE_TTL = 60 * 60 * 1000; // 1 hour in ms
@@ -108,6 +108,18 @@ export async function addToHistory(item) {
   const updated = [entry, ...filtered].slice(0, 100); // cap at 100
   await AsyncStorage.setItem(KEYS.HISTORY, JSON.stringify(updated));
   return updated;
+}
+
+export async function removeFromHistory(itemId) {
+  const list = await getHistory();
+  const updated = list.filter((i) => i.id !== itemId);
+  await AsyncStorage.setItem(KEYS.HISTORY, JSON.stringify(updated));
+  return updated;
+}
+
+export async function clearHistory() {
+  await AsyncStorage.setItem(KEYS.HISTORY, JSON.stringify([]));
+  return [];
 }
 
 // ── Categories Cache ───────────────────────────────────────
@@ -257,6 +269,8 @@ export default {
   setHearted,
   getHistory,
   addToHistory,
+  removeFromHistory,
+  clearHistory,
   getCachedCategories,
   getCategoriesTimestamp,
   setCachedCategories,
