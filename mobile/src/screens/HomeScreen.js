@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback, useRef, useMemo } from 'react';
 import {
   View, Text, Animated, TouchableOpacity, Pressable, Modal, Linking,
-  StyleSheet, Dimensions, Platform,
+  ScrollView, StyleSheet, Dimensions, Platform,
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { LinearGradient } from 'expo-linear-gradient';
@@ -19,10 +19,19 @@ import api from '../api/client';
 import store from '../store/cache';
 import { colors, fonts, spacing, radius } from '../theme';
 
+import { SIDEBAR_NAV_W } from '../components/DesktopSidebar';
+
 const { width: SCREEN_W } = Dimensions.get('window');
-const HERO_H = Math.round(SCREEN_W * 0.62);
+const IS_DESKTOP = Platform.OS === 'web' && SCREEN_W > 900;
+const CONTENT_W = IS_DESKTOP ? SCREEN_W - SIDEBAR_NAV_W : SCREEN_W;
+const HERO_H = Math.round(CONTENT_W * 0.62);
 const DONATE_URL = 'https://square.link/u/IteDL7XI';
 const BRAND_BLUE = '#5cb8ff'; // vivid blue — donate icon + tagline
+
+// Shorts card dimensions — tall portrait like YouTube Shorts
+const SHORTS_CARD_W = IS_DESKTOP ? 180 : 150;
+const SHORTS_CARD_H = Math.round(SHORTS_CARD_W * 1.7); // ~9:16 portrait
+const SHORTS_GAP = IS_DESKTOP ? 14 : 10;
 
 function pickRandom(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
@@ -46,6 +55,7 @@ export default function HomeScreen({ navigation }) {
   const [trending, setTrending] = useState([]);
   const [subFeed, setSubFeed] = useState([]);
   const [forYou, setForYou] = useState([]);
+  const [shorts, setShorts] = useState([]);
   // Re-pick when generation changes so taglines/loading msgs match the active gen
   const tagline = useMemo(() => pickRandom(gen.taglines), [gen.id]);
   const loadingMsg = useMemo(() => pickRandom(gen.loadingMessages), [gen.id]);
@@ -220,6 +230,13 @@ export default function HomeScreen({ navigation }) {
       .catch(() => setTopHearts([]));
   }, [refreshing]); // re-fetch on repopulate too
 
+  // Shorts — short-form content (under 2 min)
+  useEffect(() => {
+    api.getShorts(15)
+      .then((data) => setShorts(Array.isArray(data) ? data : data?.items || []))
+      .catch(() => setShorts([]));
+  }, [refreshing]);
+
   // Phase 2: Trending (always), Subscription Feed + For You (auth only)
   useEffect(() => {
     api.getTrending(15)
@@ -315,13 +332,17 @@ export default function HomeScreen({ navigation }) {
       >
         <View style={styles.headerTop}>
           <View style={styles.headerLeft}>
-            <TouchableOpacity onPress={() => setMenuOpen(true)} style={styles.hamburger} hitSlop={8}>
-              <Ionicons name="menu" size={22} color={colors.textPrimary} />
-            </TouchableOpacity>
-            <View style={styles.logoWrap}>
-              <Text style={[styles.logoVoid, { color: accent }]}>VOID</Text>
-              <Text style={styles.logoCh}> CHANNEL</Text>
-            </View>
+            {!IS_DESKTOP && (
+              <TouchableOpacity onPress={() => setMenuOpen(true)} style={styles.hamburger} hitSlop={8}>
+                <Ionicons name="menu" size={22} color={colors.textPrimary} />
+              </TouchableOpacity>
+            )}
+            {!IS_DESKTOP && (
+              <View style={styles.logoWrap}>
+                <Text style={[styles.logoVoid, { color: accent }]}>VOID</Text>
+                <Text style={styles.logoCh}> CHANNEL</Text>
+              </View>
+            )}
           </View>
           <View style={styles.headerRight}>
             {/* User avatar + name when logged in */}
@@ -481,6 +502,15 @@ export default function HomeScreen({ navigation }) {
               subtitle: "Based on what you've been watching",
               items: forYou,
             }}
+            onItemPress={handleItemPress}
+          />
+        )}
+
+        {/* Shorts — short-form content (YouTube Shorts style) */}
+        {shorts.length > 0 && (
+          <ShortsRow
+            items={shorts}
+            accent={accent}
             onItemPress={handleItemPress}
           />
         )}
@@ -676,8 +706,8 @@ export default function HomeScreen({ navigation }) {
         </View>
       </Animated.ScrollView>
 
-      {/* ── Floating menu FAB — appears when header scrolls out of view ── */}
-      <Animated.View
+      {/* ── Floating menu FAB — appears when header scrolls out of view (mobile only) ── */}
+      {!IS_DESKTOP && <Animated.View
         style={[styles.fab, { bottom: insets.bottom + 74, opacity: fabAnim, pointerEvents: 'auto' }]}
       >
         <TouchableOpacity
@@ -701,7 +731,7 @@ export default function HomeScreen({ navigation }) {
         >
           <Ionicons name="chevron-up" size={16} color={colors.textMuted} />
         </TouchableOpacity>
-      </Animated.View>
+      </Animated.View>}
     </View>
   );
 }
@@ -790,6 +820,60 @@ function mixCategoryItems(categories, catIds, maxItems = 100) {
     }
   }
   return mixed;
+}
+
+// Shorts row — tall portrait cards, YouTube Shorts style
+function ShortsRow({ items, accent, onItemPress }) {
+  if (!items || items.length === 0) return null;
+
+  return (
+    <View style={styles.shortsBlock}>
+      <View style={styles.shortsHeader}>
+        <View style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
+          <View style={[styles.shortsBadge, { backgroundColor: accent }]}>
+            <Ionicons name="flash" size={12} color={colors.bg} />
+          </View>
+          <Text style={[styles.shortsTitle, { color: accent }]}>Shorts</Text>
+        </View>
+        <Text style={styles.shortsSubtitle}>quick clips under 2 minutes</Text>
+      </View>
+      <ScrollView
+        horizontal
+        showsHorizontalScrollIndicator={false}
+        contentContainerStyle={styles.shortsRow}
+      >
+        {items.slice(0, IS_DESKTOP ? 8 : 10).map(function (item) {
+          var creator = Array.isArray(item.creator) ? item.creator[0] : item.creator;
+          var dl = item.downloads ? (item.downloads >= 1000 ? Math.round(item.downloads / 1000) + 'K' : item.downloads) : '';
+          return (
+            <TouchableOpacity
+              key={item.id}
+              onPress={function () { onItemPress(item, null); }}
+              style={styles.shortsCard}
+              activeOpacity={0.8}
+            >
+              <FastImage
+                uri={item.thumbnail}
+                itemId={item.id}
+                style={styles.shortsThumb}
+                contentFit="cover"
+              />
+              {/* Bottom gradient */}
+              <LinearGradient
+                colors={['transparent', 'rgba(0,0,0,0.7)', 'rgba(0,0,0,0.92)']}
+                locations={[0.4, 0.75, 1]}
+                style={[StyleSheet.absoluteFill, { borderRadius: 12, pointerEvents: 'none' }]}
+              />
+              <View style={styles.shortsCardContent}>
+                <Text style={styles.shortsCardTitle} numberOfLines={2}>{item.title || 'Untitled'}</Text>
+                {dl ? <Text style={styles.shortsCardMeta}>{dl} views</Text> : null}
+              </View>
+            </TouchableOpacity>
+          );
+        })}
+      </ScrollView>
+    </View>
+  );
 }
 
 // Channels row — TV channel tiles with multi-source mixing for variety
@@ -1261,6 +1345,40 @@ const styles = StyleSheet.create({
   liveBadgeText: { fontFamily: fonts.monoBold, fontSize: 8, letterSpacing: 1, color: colors.bg },
   channelTileLabel: { fontFamily: fonts.monoBold, fontSize: 13, color: "#fff", letterSpacing: 1 },
   channelTileSub: { fontFamily: fonts.mono, fontSize: 9, color: "rgba(255,255,255,0.6)", letterSpacing: 0.5, marginTop: 2 },
+
+  // Shorts
+  shortsBlock: { marginBottom: 8, paddingTop: 6 },
+  shortsHeader: { paddingHorizontal: spacing.screenPadding, marginBottom: 14 },
+  shortsTitle: { fontFamily: fonts.sansSemiBold, fontSize: 20, letterSpacing: 0.5 },
+  shortsSubtitle: { fontFamily: fonts.sans, fontSize: 13, color: colors.textMuted, marginTop: 2 },
+  shortsBadge: {
+    width: 24, height: 24, borderRadius: 6,
+    justifyContent: 'center', alignItems: 'center',
+  },
+  shortsRow: {
+    flexDirection: 'row', paddingHorizontal: spacing.screenPadding, gap: SHORTS_GAP,
+    paddingRight: spacing.screenPadding + 20,
+  },
+  shortsCard: {
+    width: SHORTS_CARD_W, height: SHORTS_CARD_H,
+    borderRadius: 12, overflow: 'hidden',
+    backgroundColor: colors.card, position: 'relative',
+  },
+  shortsThumb: {
+    width: SHORTS_CARD_W, height: SHORTS_CARD_H,
+    borderRadius: 12,
+  },
+  shortsCardContent: {
+    position: 'absolute', bottom: 0, left: 0, right: 0,
+    padding: 10, paddingTop: 16,
+  },
+  shortsCardTitle: {
+    fontFamily: fonts.sansMedium, fontSize: 14, color: '#fff',
+    lineHeight: 19, marginBottom: 3,
+  },
+  shortsCardMeta: {
+    fontFamily: fonts.sans, fontSize: 12, color: 'rgba(255,255,255,0.65)',
+  },
 
   divider: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: spacing.screenPadding, marginVertical: 20, gap: 10 },
   dividerLine: { flex: 1, height: StyleSheet.hairlineWidth, backgroundColor: colors.surface },

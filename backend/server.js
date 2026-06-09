@@ -229,6 +229,37 @@ app.get("/api/search", async (req, res) => {
 });
 
 /**
+ * GET /api/shorts
+ * Short-form content — videos under 2 minutes from the Archive.
+ * YouTube Shorts equivalent for public domain clips, trailers, newsreels.
+ */
+app.get("/api/shorts", async (req, res) => {
+  try {
+    const limit = Math.min(parseInt(req.query.limit) || 20, 50);
+    const timeBucket = Math.floor(Date.now() / (30 * 60 * 1000)); // 30min rotation
+    const cacheKey = `shorts:${limit}:${timeBucket}`;
+
+    const cached = cache.get(cacheKey);
+    if (cached) {
+      res.set("X-Cache", "HIT");
+      return res.json(cached);
+    }
+
+    // Short-form: under 120 seconds, sorted by popularity
+    const query = `mediatype:(movies) AND runtime:[1 TO 120]${archive.NSFW_EXCLUDE}`;
+    const page = Math.floor(Math.random() * 5) + 1; // rotate through pages for variety
+    const items = await archive.search(query, limit, page, "downloads desc");
+
+    cache.set(cacheKey, items, 1800); // 30 min cache
+    res.set("X-Cache", "MISS");
+    res.json(items);
+  } catch (err) {
+    console.error("[/api/shorts]", err);
+    res.status(500).json({ error: "Failed to fetch shorts" });
+  }
+});
+
+/**
  * GET /api/item/:identifier
  * Full item details including resolved video URL.
  * This is the expensive call — hits the Archive metadata API

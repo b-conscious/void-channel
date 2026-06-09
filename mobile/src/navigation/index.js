@@ -2,9 +2,12 @@ import React, { Suspense } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { StyleSheet, Platform, View, Text, ActivityIndicator } from 'react-native';
+import { StyleSheet, Platform, View, Text, ActivityIndicator, Dimensions } from 'react-native';
 import { BlurView } from 'expo-blur';
 import { Ionicons } from '@expo/vector-icons';
+import DesktopSidebar, { SIDEBAR_NAV_W } from '../components/DesktopSidebar';
+
+var IS_DESKTOP = Platform.OS === 'web' && Dimensions.get('window').width > 900;
 
 // HomeScreen loads eagerly — it's the first thing the user sees
 import HomeScreen from '../screens/HomeScreen';
@@ -68,8 +71,15 @@ function TabBackground() {
 }
 
 function TabNavigator() {
+  // On desktop: replace bottom tabs with DesktopSidebar, shift screen content right
+  var desktopProps = IS_DESKTOP ? {
+    tabBar: function (props) { return <DesktopSidebar {...props} />; },
+    sceneContainerStyle: { marginLeft: SIDEBAR_NAV_W },
+  } : {};
+
   return (
     <Tab.Navigator
+      {...desktopProps}
       screenOptions={({ route }) => {
         var tabColor = TAB_COLORS[route.name] || colors.amber;
         var cfg = TAB_CONFIG[route.name] || { default: 'ellipse-outline', focused: 'ellipse' };

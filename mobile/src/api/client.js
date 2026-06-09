@@ -104,6 +104,11 @@ export async function getItem(identifier) {
   return request(`/api/item/${identifier}`);
 }
 
+/** Shorts — short-form content under 2 min (YouTube Shorts equivalent) */
+export async function getShorts(limit = 15) {
+  return request(`/api/shorts?limit=${limit}`);
+}
+
 export async function getRandomItem() {
   return request("/api/random");
 }
@@ -471,7 +476,7 @@ export async function adminClearBanner() {
 
 export default {
   getCategories, getCategoryItems, searchItems, searchCollection, searchCreator,
-  getItem, getRandomItem,
+  getItem, getShorts, getRandomItem,
   getRelated, wakeUp, heartItem, unheartItem, getTopHearts,
   setAuthToken, register, login, loginAnonymous, refreshToken,
   getProfile, updateProfile,
