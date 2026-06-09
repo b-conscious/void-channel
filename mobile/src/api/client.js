@@ -7,7 +7,7 @@
 // `localhost` from a phone means the phone itself — won't work.
 const BASE_URL = __DEV__
   ? "http://localhost:3001"
-  : "https://void-channel.onrender.com";
+  : "https://api.voidtv.watch";
 
 const TIMEOUT = 30000;       // 30s — Archive.org can be slow
 const LONG_TIMEOUT = 90000;  // 90s — Render cold start wake-up

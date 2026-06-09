@@ -40,6 +40,33 @@ const PORT = process.env.PORT || 3001;
 app.use(cors());
 app.use(express.json());
 
+// ── Cloudflare CDN edge-cache headers ─────────────────────
+// s-maxage = edge (CDN) cache TTL; max-age=0 = browsers always revalidate via CDN
+// stale-while-revalidate = CDN serves stale content while fetching fresh in background
+// Routes not listed here get no Cache-Control → Cloudflare passes through uncached
+app.use((req, res, next) => {
+  if (req.method !== 'GET') return next();
+  const seg = req.path.split('/');
+  const route = seg[2]; // /api/<route>/...
+  const sub = seg[3];
+  const edge = (ttl) => res.set('Cache-Control', `public, max-age=0, ${ttl}`);
+
+  if      (route === 'item' && sub)                              edge('s-maxage=21600, stale-while-revalidate=3600'); // 6h — static metadata
+  else if (route === 'categories' || route === 'category')       edge('s-maxage=1200, stale-while-revalidate=600');   // 20m — matches server cache
+  else if (route === 'search')                                   edge('s-maxage=1800, stale-while-revalidate=600');   // 30m
+  else if (route === 'shorts')                                   edge('s-maxage=1800, stale-while-revalidate=600');   // 30m
+  else if (route === 'related')                                  edge('s-maxage=3600, stale-while-revalidate=600');   // 1h
+  else if (route === 'trending')                                 edge('s-maxage=300, stale-while-revalidate=120');    // 5m — fast-changing
+  else if ((route === 'hearts' || route === 'views') && sub === 'top')
+                                                                 edge('s-maxage=300, stale-while-revalidate=120');    // 5m
+  else if ((route === 'hearts' || route === 'views') && (sub === 'count' || sub === 'stats'))
+                                                                 edge('s-maxage=300, stale-while-revalidate=60');     // 5m
+  else if (route === 'banner')                                   edge('s-maxage=60');                                 // 1m
+  else if (route === 'random')                                   res.set('Cache-Control', 'no-store');                // never cache
+
+  next();
+});
+
 // Request logging
 app.use((req, res, next) => {
   const start = Date.now();
@@ -110,6 +137,7 @@ app.get("/api/categories", async (req, res) => {
     if (!shuffle) cache.set(cacheKey, categories, 1200);
 
     res.set("X-Cache", shuffle ? "BYPASS" : refresh ? "REFRESH" : "MISS");
+    if (shuffle) res.set("Cache-Control", "no-store"); // bypass CDN for shuffled results
     res.json(categories);
   } catch (err) {
     console.error("[/api/categories]", err);
