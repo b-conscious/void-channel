@@ -622,26 +622,35 @@ export default function HomeScreen({ navigation }) {
           />
         ))}
 
+        {/* Donate CTA — visible between content and footer */}
+        <TouchableOpacity
+          onPress={() => Linking.openURL(DONATE_URL)}
+          style={styles.donateCta}
+          activeOpacity={0.8}
+        >
+          <Ionicons name="gift" size={20} color={BRAND_BLUE} />
+          <View style={{ marginLeft: 10, flex: 1 }}>
+            <Text style={styles.donateCtaTitle}>KEEP THIS WEIRDNESS RUNNING</Text>
+            <Text style={styles.donateCtaSub}>donate to support VOIDtv servers & updates</Text>
+          </View>
+          <Ionicons name="chevron-forward" size={16} color={BRAND_BLUE + '80'} />
+        </TouchableOpacity>
+
         {/* Footer */}
         <View style={[styles.footer, { paddingBottom: insets.bottom + 90 }]}>
           <Text style={[styles.footerLine, { color: BRAND_BLUE, fontFamily: fonts.monoBold, letterSpacing: 2 }]}>◈ GENERATING SINCE 1895 ◈</Text>
           <Text style={styles.footerLine}>before AI slop, there was human creativity</Text>
           <Text style={[styles.footerLine, { marginTop: 8, fontSize: 9, letterSpacing: 1 }]}>SOURCE: ARCHIVE.ORG — PUBLIC DOMAIN & CC</Text>
-
-          {/* Big donate CTA */}
           <TouchableOpacity
             onPress={() => Linking.openURL(DONATE_URL)}
-            style={styles.donateCta}
-            activeOpacity={0.8}
+            style={styles.footerDonate}
+            activeOpacity={0.7}
           >
-            <View style={styles.donateCtaInner}>
-              <Ionicons name="gift" size={22} color="#fff" />
-              <View style={{ marginLeft: 12, flex: 1 }}>
-                <Text style={styles.donateCtaTitle}>KEEP VOIDtv RUNNING</Text>
-                <Text style={styles.donateCtaSub}>support continued updates & server costs</Text>
-              </View>
-              <Ionicons name="chevron-forward" size={18} color="#fff8" />
-            </View>
+            <Ionicons name="gift" size={16} color={BRAND_BLUE} />
+            <Text style={styles.footerLine}>
+              <Text style={{ color: '#f5a623' }}>SUPPORT HUMAN CREATIONS</Text>
+              <Text style={{ color: '#39ff14' }}> — FIGHT THE AI SLOP</Text>
+            </Text>
           </TouchableOpacity>
         </View>
       </Animated.ScrollView>
@@ -1411,20 +1420,21 @@ const styles = StyleSheet.create({
 
   footer: { paddingHorizontal: spacing.screenPadding, paddingTop: 28, borderTopWidth: StyleSheet.hairlineWidth, borderTopColor: colors.surface, marginTop: 12, gap: 3 },
   footerLine: { fontFamily: fonts.sans, fontSize: 11, color: colors.textMuted, fontStyle: 'italic', textAlign: 'center' },
+  footerDonate: { marginTop: 14, paddingVertical: 8, flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 6 },
   donateCta: {
-    marginTop: 20, marginHorizontal: 4, borderRadius: radius.md,
-    backgroundColor: '#f5a623', overflow: 'hidden',
-  },
-  donateCtaInner: {
     flexDirection: 'row', alignItems: 'center',
-    paddingVertical: 16, paddingHorizontal: 18,
+    marginHorizontal: spacing.screenPadding, marginTop: 24, marginBottom: 8,
+    paddingVertical: 14, paddingHorizontal: 16,
+    borderRadius: radius.md,
+    borderWidth: 1, borderColor: BRAND_BLUE + '30',
+    backgroundColor: BRAND_BLUE + '0A',
   },
   donateCtaTitle: {
-    fontFamily: fonts.monoBold, fontSize: 13, color: '#000',
-    letterSpacing: 1.5,
+    fontFamily: fonts.monoBold, fontSize: 11, color: '#f5a623',
+    letterSpacing: 1.2,
   },
   donateCtaSub: {
-    fontFamily: fonts.mono, fontSize: 10, color: '#0008',
-    letterSpacing: 0.5, marginTop: 2,
+    fontFamily: fonts.mono, fontSize: 9, color: colors.textMuted,
+    letterSpacing: 0.4, marginTop: 2,
   },
 });
