@@ -3,7 +3,9 @@ const fetch = require("node-fetch");
 const BASE = "https://archive.org";
 const SEARCH_URL = `${BASE}/advancedsearch.php`;
 const META_URL = (id) => `${BASE}/metadata/${id}`;
-const THUMB_URL = (id) => `${BASE}/services/img/${id}`;
+// Width-capped thumbnails — archive.org default is often 600-1200px, way too big for cards.
+// 250px is enough for card grids at 2x retina; getItem() uses full-size for poster/hero.
+const THUMB_URL = (id, w = 250) => `${BASE}/services/img/${id}${w ? `?w=${w}` : ''}`;
 const FILE_URL = (id, file) => `${BASE}/download/${id}/${encodeURIComponent(file)}`;
 
 // Exclude adult/mature/sex-ed content from all regular category & search queries.
@@ -797,7 +799,7 @@ async function getItem(identifier) {
       title: identifier.replace(/_/g, " "),
       description: "Item metadata unavailable from Archive.org.",
       year: null, creator: null, duration: null,
-      thumbnail: THUMB_URL(identifier),
+      thumbnail: THUMB_URL(identifier, null),
       archiveUrl: `${BASE}/details/${identifier}`,
       videoUrl: FILE_URL(identifier, `${identifier}_512kb.mp4`),
       videoUrlHQ: null, videoSize: null, videoFormat: null,
@@ -818,7 +820,7 @@ async function getItem(identifier) {
     year: meta.year || meta.date || null,
     creator: flattenCreator(meta.creator),
     duration: meta.runtime || null,
-    thumbnail: THUMB_URL(identifier),
+    thumbnail: THUMB_URL(identifier, null),
     archiveUrl: `${BASE}/details/${identifier}`,
     videoUrl: fast ? FILE_URL(identifier, fast.name) : null,
     videoUrlHQ: best ? FILE_URL(identifier, best.name) : null,

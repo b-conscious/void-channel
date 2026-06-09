@@ -4,7 +4,7 @@
  * Users pick one as their profile picture.
  */
 
-const IA_THUMB = (id) => `https://archive.org/services/img/${id}`;
+const IA_THUMB = (id) => `https://archive.org/services/img/${id}?w=100`;
 
 const AVATARS = [
   // ── Vintage oddities ──
