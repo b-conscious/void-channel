@@ -61,7 +61,8 @@ function pickRandom(arr) {
 export default function HomeScreen({ navigation }) {
   const insets = useSafeAreaInsets();
   const { sidebarWidth } = useSidebar();
-  const contentW = IS_DESKTOP ? SCREEN_W - sidebarWidth : SCREEN_W;
+  const DESKTOP_PAD = IS_DESKTOP ? 20 : 0;
+  const contentW = IS_DESKTOP ? SCREEN_W - sidebarWidth - (DESKTOP_PAD * 2) : SCREEN_W;
   const heroH = Math.round(contentW * 0.62);
   const { gen, generationId, chooseGeneration } = useGeneration();
   const { user, isAuthenticated, updateProfile, signOut } = useAuth();
@@ -495,6 +496,7 @@ export default function HomeScreen({ navigation }) {
       <Animated.ScrollView
         ref={scrollRef}
         style={styles.scroll}
+        contentContainerStyle={IS_DESKTOP ? { paddingHorizontal: DESKTOP_PAD } : undefined}
         onScroll={Animated.event([{ nativeEvent: { contentOffset: { y: scrollY } } }], { useNativeDriver: Platform.OS !== 'web' })}
         scrollEventThrottle={16}
         showsVerticalScrollIndicator={false}
