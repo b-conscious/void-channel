@@ -38,6 +38,9 @@ export default function HomeScreen({ navigation }) {
   const [refreshing, setRefreshing] = useState(false);
   const [heroItem, setHeroItem] = useState(null);
   const [topHearts, setTopHearts] = useState([]);
+  const [trending, setTrending] = useState([]);
+  const [subFeed, setSubFeed] = useState([]);
+  const [forYou, setForYou] = useState([]);
   // Re-pick when generation changes so taglines/loading msgs match the active gen
   const tagline = useMemo(() => pickRandom(gen.taglines), [gen.id]);
   const loadingMsg = useMemo(() => pickRandom(gen.loadingMessages), [gen.id]);
@@ -183,9 +186,56 @@ export default function HomeScreen({ navigation }) {
       .catch(() => setTopHearts([]));
   }, [refreshing]); // re-fetch on repopulate too
 
+  // Phase 2: Trending, Subscription Feed, For You
+  useEffect(() => {
+    api.getTrending(15)
+      .then((data) => setTrending(Array.isArray(data) ? data : data?.items || []))
+      .catch(() => setTrending([]));
+
+    // These require auth — fail silently for anonymous users
+    api.getSubscriptionFeed(1, 15)
+      .then((data) => setSubFeed(data?.items || []))
+      .catch(() => setSubFeed([]));
+
+    api.getRecommendations(15)
+      .then((data) => setForYou(data?.items || []))
+      .catch(() => setForYou([]));
+  }, [refreshing]);
+
   const handleItemPress = useCallback((item, categoryId) => {
     navigation.navigate('Player', { item, categoryId });
   }, [navigation]);
+
+  // Subscribe / unsubscribe to a category
+  const [subscribedIds, setSubscribedIds] = useState(new Set());
+  useEffect(() => {
+    api.getSubscriptions()
+      .then((subs) => {
+        if (Array.isArray(subs)) {
+          setSubscribedIds(new Set(subs.map((s) => s.category_id)));
+        }
+      })
+      .catch(() => {}); // silent fail for anonymous
+  }, []);
+
+  const handleSubscribe = useCallback(async (categoryId, shouldSubscribe) => {
+    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+    try {
+      if (shouldSubscribe) {
+        await api.subscribe(categoryId);
+        setSubscribedIds((prev) => new Set([...prev, categoryId]));
+      } else {
+        await api.unsubscribe(categoryId);
+        setSubscribedIds((prev) => {
+          const next = new Set(prev);
+          next.delete(categoryId);
+          return next;
+        });
+      }
+    } catch (err) {
+      console.warn('[subscribe]', err.message);
+    }
+  }, []);
 
   // Launch a category as a continuously-playing channel
   const handleChannelPress = useCallback((cat, label) => {
@@ -317,6 +367,45 @@ export default function HomeScreen({ navigation }) {
           />
         )}
 
+        {/* Trending — most-watched in the last 48h */}
+        {trending.length > 0 && (
+          <CategoryRow
+            category={{
+              id: "trending",
+              name: "Trending Now",
+              subtitle: "Most-watched on Void Channel right now",
+              items: trending,
+            }}
+            onItemPress={handleItemPress}
+          />
+        )}
+
+        {/* For You — personalized recommendations (authed users only) */}
+        {forYou.length > 0 && (
+          <CategoryRow
+            category={{
+              id: "for_you",
+              name: "For You",
+              subtitle: "Based on what you've been watching",
+              items: forYou,
+            }}
+            onItemPress={handleItemPress}
+          />
+        )}
+
+        {/* Subscription Feed — items from followed categories */}
+        {subFeed.length > 0 && (
+          <CategoryRow
+            category={{
+              id: "sub_feed",
+              name: "From Your Subscriptions",
+              subtitle: "New from categories you follow",
+              items: subFeed,
+            }}
+            onItemPress={handleItemPress}
+          />
+        )}
+
         {/* Channels — auto-playing queues for a couple of standout categories */}
         {!loading && allCategories.length > 0 && (
           <ChannelsRow
@@ -396,6 +485,8 @@ export default function HomeScreen({ navigation }) {
                 page={catPages[cat.id] || 1}
                 loadingMore={!!catLoading[cat.id]}
                 onPageChange={handlePageChange}
+                subscribed={subscribedIds.has(cat.id)}
+                onSubscribe={handleSubscribe}
               />
             ))}
 
@@ -415,6 +506,8 @@ export default function HomeScreen({ navigation }) {
                     page={catPages[cat.id] || 1}
                     loadingMore={!!catLoading[cat.id]}
                     onPageChange={handlePageChange}
+                    subscribed={subscribedIds.has(cat.id)}
+                    onSubscribe={handleSubscribe}
                   />
                 ))}
               </LazySection>
@@ -436,6 +529,8 @@ export default function HomeScreen({ navigation }) {
                     page={catPages[cat.id] || 1}
                     loadingMore={!!catLoading[cat.id]}
                     onPageChange={handlePageChange}
+                    subscribed={subscribedIds.has(cat.id)}
+                    onSubscribe={handleSubscribe}
                   />
                 ))}
               </LazySection>
@@ -457,6 +552,8 @@ export default function HomeScreen({ navigation }) {
                     page={catPages[cat.id] || 1}
                     loadingMore={!!catLoading[cat.id]}
                     onPageChange={handlePageChange}
+                    subscribed={subscribedIds.has(cat.id)}
+                    onSubscribe={handleSubscribe}
                   />
                 ))}
               </LazySection>

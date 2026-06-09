@@ -40,6 +40,7 @@ export default function WatchlistScreen({ navigation }) {
   const tabs = [
     { key: 'saved', label: 'SAVED', icon: 'bookmark' },
     { key: 'history', label: 'HISTORY', icon: 'time' },
+    { key: 'playlists', label: 'PLAYLISTS', icon: 'albums' },
   ];
 
   const emptyConfig = {
@@ -57,7 +58,10 @@ export default function WatchlistScreen({ navigation }) {
           {tabs.map((t) => (
             <TouchableOpacity
               key={t.key}
-              onPress={() => setTab(t.key)}
+              onPress={() => {
+                if (t.key === 'playlists') { navigation.navigate('Playlists'); return; }
+                setTab(t.key);
+              }}
               style={[styles.tab, tab === t.key && { borderColor: accent, backgroundColor: accent + '18' }]}
               activeOpacity={0.75}
             >

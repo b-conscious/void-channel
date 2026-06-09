@@ -12,6 +12,8 @@ import SignalScreen from '../screens/SignalScreen';
 import WatchlistScreen from '../screens/WatchlistScreen';
 import PlayerScreen from '../screens/PlayerScreen';
 import AuthScreen from '../screens/AuthScreen';
+import PlaylistScreen from '../screens/PlaylistScreen';
+import PlaylistsListScreen from '../screens/PlaylistsListScreen';
 
 import { useGeneration } from '../context/GenerationContext';
 import { colors, fonts } from '../theme';
@@ -117,6 +119,24 @@ export default function Navigation() {
             header: () => null,
             presentation: Platform.OS === 'web' ? 'card' : 'modal',
             animation: Platform.OS === 'web' ? 'none' : 'slide_from_bottom',
+          }}
+        />
+        <Stack.Screen
+          name="Playlists"
+          component={PlaylistsListScreen}
+          options={{
+            headerShown: false,
+            header: () => null,
+            animation: Platform.OS === 'web' ? 'none' : 'slide_from_right',
+          }}
+        />
+        <Stack.Screen
+          name="Playlist"
+          component={PlaylistScreen}
+          options={{
+            headerShown: false,
+            header: () => null,
+            animation: Platform.OS === 'web' ? 'none' : 'slide_from_right',
           }}
         />
       </Stack.Navigator>

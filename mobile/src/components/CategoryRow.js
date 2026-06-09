@@ -28,6 +28,7 @@ const CAT_GLYPHS = {
   show_woody: '◈', show_mickey: '◈', show_felix: '◈',
   show_threestooges: '◈', show_twilightzone: '◈',
   community_hearts: '♥',
+  trending: '🔥', for_you: '◈', sub_feed: '▸',
   // Deep cuts
   deep_driver_ed: '⚠', deep_mental_hygiene: '◎', deep_dating: '♡',
   deep_hygiene: '◎', deep_propaganda: '⚑', deep_atomic: '☢',
@@ -48,6 +49,7 @@ const CAT_GLYPHS = {
 export default function CategoryRow({
   category, onItemPress, loading,
   page = 1, totalPages = 0, loadingMore = false, onPageChange,
+  subscribed = false, onSubscribe,
 }) {
   const { gen } = useGeneration();
   const items = category?.items || [];
@@ -97,6 +99,22 @@ export default function CategoryRow({
           </View>
           {subtitle ? <Text style={styles.subtitle}>{subtitle}</Text> : null}
         </View>
+        {onSubscribe && (
+          <TouchableOpacity
+            onPress={() => onSubscribe(category.id, !subscribed)}
+            style={[styles.subBtn, subscribed && { borderColor: accent, backgroundColor: accent + '15' }]}
+            activeOpacity={0.7}
+          >
+            <Ionicons
+              name={subscribed ? "notifications" : "notifications-outline"}
+              size={12}
+              color={subscribed ? accent : colors.textSecondary}
+            />
+            <Text style={[styles.subBtnText, subscribed && { color: accent }]}>
+              {subscribed ? 'FOLLOWING' : 'FOLLOW'}
+            </Text>
+          </TouchableOpacity>
+        )}
       </View>
 
       {loading ? (
@@ -201,6 +219,13 @@ const styles = StyleSheet.create({
   name: { fontFamily: fonts.monoBold, fontSize: 11, letterSpacing: 1.5, color: colors.textPrimary, flexShrink: 1 },
   pageIndicator: { fontFamily: fonts.mono, fontSize: 9, color: colors.textGhost, letterSpacing: 0.5 },
   subtitle: { fontFamily: fonts.sans, fontSize: 12, color: colors.textMuted, marginTop: 3, marginLeft: 17, fontStyle: 'italic' },
+  subBtn: {
+    flexDirection: 'row', alignItems: 'center', gap: 4,
+    paddingHorizontal: 10, paddingVertical: 5,
+    borderRadius: radius.full, borderWidth: 1, borderColor: colors.border,
+    alignSelf: 'flex-start',
+  },
+  subBtnText: { fontFamily: fonts.mono, fontSize: 8, letterSpacing: 1, color: colors.textSecondary },
   grid: {
     flexDirection: 'row', flexWrap: 'wrap',
     paddingHorizontal: spacing.screenPadding, gap: cardSize.gap,

@@ -251,6 +251,115 @@ export async function getContributionStats() {
   return request("/api/xray/user/stats");
 }
 
+// ── Playlists ───────────────────────────────────────────
+
+/** List current user's playlists */
+export async function getPlaylists() {
+  return request("/api/playlists");
+}
+
+/** Create a new playlist */
+export async function createPlaylist(title, description = "", is_public = false) {
+  return request("/api/playlists", {
+    method: "POST",
+    body: JSON.stringify({ title, description, is_public }),
+  });
+}
+
+/** Get a single playlist with all its items */
+export async function getPlaylist(playlistId) {
+  return request(`/api/playlists/${playlistId}`);
+}
+
+/** Update playlist metadata */
+export async function updatePlaylist(playlistId, updates) {
+  return request(`/api/playlists/${playlistId}`, {
+    method: "PATCH",
+    body: JSON.stringify(updates),
+  });
+}
+
+/** Delete a playlist */
+export async function deletePlaylist(playlistId) {
+  return request(`/api/playlists/${playlistId}`, { method: "DELETE" });
+}
+
+/** Add item to a playlist */
+export async function addToPlaylist(playlistId, item) {
+  return request(`/api/playlists/${playlistId}/items`, {
+    method: "POST",
+    body: JSON.stringify({
+      item_id: item.id,
+      item_title: item.title,
+      item_thumbnail: item.thumbnail,
+      item_year: item.year,
+      item_creator: Array.isArray(item.creator) ? item.creator[0] : item.creator,
+    }),
+  });
+}
+
+/** Remove item from a playlist */
+export async function removeFromPlaylist(playlistId, itemId) {
+  return request(`/api/playlists/${playlistId}/items/${encodeURIComponent(itemId)}`, {
+    method: "DELETE",
+  });
+}
+
+/** Reorder playlist items */
+export async function reorderPlaylist(playlistId, itemIds) {
+  return request(`/api/playlists/${playlistId}/reorder`, {
+    method: "POST",
+    body: JSON.stringify({ item_ids: itemIds }),
+  });
+}
+
+// ── Subscriptions ───────────────────────────────────────
+
+/** List user's subscriptions */
+export async function getSubscriptions() {
+  return request("/api/subscriptions");
+}
+
+/** Subscribe to a category */
+export async function subscribe(categoryId) {
+  return request("/api/subscriptions", {
+    method: "POST",
+    body: JSON.stringify({ category_id: categoryId }),
+  });
+}
+
+/** Unsubscribe from a category */
+export async function unsubscribe(categoryId) {
+  return request(`/api/subscriptions/${encodeURIComponent(categoryId)}`, {
+    method: "DELETE",
+  });
+}
+
+/** Get subscription feed — items from followed categories */
+export async function getSubscriptionFeed(page = 1, rows = 20) {
+  return request(`/api/subscriptions/feed?page=${page}&rows=${rows}`);
+}
+
+// ── Watch Events & Discovery ────────────────────────────
+
+/** Fire a watch event (start/progress/complete/skip) */
+export async function sendWatchEvent(event) {
+  return request("/api/watch-events", {
+    method: "POST",
+    body: JSON.stringify(event),
+  });
+}
+
+/** Get trending items (most-watched in last 48h) */
+export async function getTrending(limit = 20) {
+  return request(`/api/trending?limit=${limit}`);
+}
+
+/** Get personalized "For You" recommendations (requires auth) */
+export async function getRecommendations(limit = 20) {
+  return request(`/api/recommendations?limit=${limit}`);
+}
+
 export default {
   getCategories, getCategoryItems, searchItems, getItem, getRandomItem,
   getRelated, wakeUp, heartItem, unheartItem, getTopHearts,
@@ -259,4 +368,8 @@ export default {
   syncHistory, syncWatchlist, syncHearts, syncGame, syncPull,
   getXRay, contribute, getContributionStats,
   recordView, getViewCount, getTopViewed, getViewStats,
+  getPlaylists, createPlaylist, getPlaylist, updatePlaylist, deletePlaylist,
+  addToPlaylist, removeFromPlaylist, reorderPlaylist,
+  getSubscriptions, subscribe, unsubscribe, getSubscriptionFeed,
+  sendWatchEvent, getTrending, getRecommendations,
 };

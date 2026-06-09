@@ -17,6 +17,7 @@ import * as Haptics from 'expo-haptics';
 
 import FastImage from '../components/FastImage';
 import VideoPlayer from '../components/VideoPlayer';
+import AddToPlaylistModal from '../components/AddToPlaylistModal';
 import { useGeneration } from '../context/GenerationContext';
 import { useGame } from '../context/GameContext';
 import api from '../api/client';
@@ -46,13 +47,20 @@ export default function PlayerScreen({ route, navigation }) {
   // When the current video ends, advance to the next item in the channel queue.
   // Loops back to the start when we reach the end.
   const handleVideoEnded = useCallback(() => {
+    // Fire "complete" watch event
+    api.sendWatchEvent({
+      item_id: stub.id, item_title: stub.title,
+      category_id: categoryId || null,
+      event_type: 'complete', watch_percent: 100,
+    }).catch(() => {});
+
     if (!inChannel) return;
     const nextIndex = ((queueIndex ?? 0) + 1) % queue.length;
     const nextItem = queue[nextIndex];
     navigation.replace("Player", {
       item: nextItem, queue, queueIndex: nextIndex, categoryId, channelLabel,
     });
-  }, [inChannel, queue, queueIndex, categoryId, channelLabel, navigation]);
+  }, [stub, inChannel, queue, queueIndex, categoryId, channelLabel, navigation]);
 
   // Build an optimistic video URL — Archive.org commonly has a 512Kb MPEG4 at a predictable path.
   // This lets us start playback almost instantly while the real metadata loads in the background.
@@ -82,6 +90,8 @@ export default function PlayerScreen({ route, navigation }) {
   const [contributeValue, setContributeValue] = useState('');
   const [contributeExtra, setContributeExtra] = useState('');
   const [contributing, setContributing] = useState(false);
+  const [playlistModalOpen, setPlaylistModalOpen] = useState(false);
+  const watchStartSent = useRef(false);
   const xpOpacity = useRef(new Animated.Value(0)).current;
   const xpFired = useRef(false);
   const videoRef = useRef(null);
@@ -139,12 +149,21 @@ export default function PlayerScreen({ route, navigation }) {
           if (result?.xpGained > 0) showXpToast(result.xpGained);
         }
 
-        // Record view + fetch rabbit hole + X-Ray data in background
+        // Record view + watch event + fetch rabbit hole + X-Ray data in background
         api.recordView(stub.id, {
           title: merged.title, thumbnail: merged.thumbnail,
           creator: typeof merged.creator === 'string' ? merged.creator : merged.creator?.[0],
           year: merged.year,
         }).then((v) => { if (v?.views) setViewCount(v.views); }).catch(() => {});
+        if (!watchStartSent.current) {
+          watchStartSent.current = true;
+          api.sendWatchEvent({
+            item_id: stub.id, item_title: merged.title,
+            item_thumbnail: merged.thumbnail, item_creator: merged.creator?.[0] || merged.creator,
+            item_year: merged.year, category_id: categoryId || null,
+            event_type: 'start', watch_percent: 0,
+          }).catch(() => {});
+        }
         api.getRelated(stub.id, 12).then(setRelatedItems).catch(() => {});
         api.getXRay(stub.id).then((xray) => {
           if (xray && !cancelled) {
@@ -459,6 +478,12 @@ export default function PlayerScreen({ route, navigation }) {
             label={inWatchlist ? 'Saved' : 'Save'}
             color={inWatchlist ? accent : colors.textPrimary}
             onPress={toggleWatchlist}
+          />
+          <ActionIcon
+            icon="list-outline"
+            label="Playlist"
+            color={colors.textPrimary}
+            onPress={() => { Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light); setPlaylistModalOpen(true); }}
           />
           <ActionIcon
             icon="cut-outline"
@@ -824,6 +849,14 @@ export default function PlayerScreen({ route, navigation }) {
           </View>
         )}
       </ScrollView>
+
+      {/* Add to Playlist modal */}
+      <AddToPlaylistModal
+        visible={playlistModalOpen}
+        item={item}
+        onClose={() => setPlaylistModalOpen(false)}
+        onAdded={() => Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success)}
+      />
     </View>
   );
 }

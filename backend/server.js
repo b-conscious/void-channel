@@ -24,6 +24,9 @@ const authRoutes = require("./auth");
 const syncRoutes = require("./sync");
 const xrayRoutes = require("./contributions");
 const embedRoutes = require("./embed");
+const playlistRoutes = require("./playlists");
+const subscriptionRoutes = require("./subscriptions");
+const trendingRoutes = require("./trending");
 
 const app = express();
 const cache = new Cache(1200); // 20min default TTL (was 1hr — rotate content faster)
@@ -57,6 +60,11 @@ app.use(embedRoutes);
 
 // Optional auth on all remaining routes — sets req.user if token present
 app.use(optionalAuth);
+
+// Phase 2: Playlists, Subscriptions, Trending, Recommendations
+app.use("/api/playlists", playlistRoutes);
+app.use("/api/subscriptions", subscriptionRoutes);
+app.use("/api", trendingRoutes);
 
 // ── Routes ─────────────────────────────────────────────────
 
