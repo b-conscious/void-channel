@@ -357,7 +357,7 @@ export default function HomeScreen({ navigation }) {
           activeOpacity={0.7}
         >
           <Text style={styles.supportBannerText}>SUPPORT HUMAN CREATIONS</Text>
-          <Ionicons name="gift" size={20} color="#f5a623" style={{ marginHorizontal: 2 }} />
+          <Ionicons name="gift" size={20} color="#4da6ff" style={{ marginHorizontal: 2 }} />
           <Text style={styles.supportBannerSlogan}>FIGHT THE SLOP</Text>
         </TouchableOpacity>
         <Text style={[styles.headerTagline, { color: accent }]}>GENERATING SINCE 1895</Text>
@@ -656,9 +656,10 @@ export default function HomeScreen({ navigation }) {
             style={styles.footerDonate}
             activeOpacity={0.7}
           >
-            <Ionicons name="gift" size={16} color="#f5a623" />
-            <Text style={[styles.footerLine, { color: '#ff2d78', fontStyle: 'normal' }]}>
-              SUPPORT HUMAN CREATIONS — FIGHT THE SLOP
+            <Ionicons name="gift" size={16} color="#4da6ff" />
+            <Text style={styles.footerLine}>
+              <Text style={{ color: '#f5a623' }}>SUPPORT HUMAN CREATIONS</Text>
+              <Text style={{ color: '#39ff14' }}> — FIGHT THE SLOP</Text>
             </Text>
           </TouchableOpacity>
         </View>
@@ -1056,9 +1057,9 @@ function DrawerMenu({ visible, onClose, accent, gen, generationId, chooseGenerat
             onPress={() => Linking.openURL(DONATE_URL)}
             activeOpacity={0.7}
           >
-            <Ionicons name="gift" size={22} color="#f5a623" style={{ width: 30 }} />
+            <Ionicons name="gift" size={22} color="#4da6ff" style={{ width: 30 }} />
             <View>
-              <Text style={drawerStyles.menuLabel}>SUPPORT HUMAN CREATIONS</Text>
+              <Text style={[drawerStyles.menuLabel, { color: '#f5a623' }]}>SUPPORT HUMAN CREATIONS</Text>
               <Text style={[drawerStyles.supportSub, { color: '#39ff14' }]}>FIGHT THE SLOP — donate to keep real cinema alive</Text>
             </View>
           </TouchableOpacity>
@@ -1216,7 +1217,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#39ff1406',
   },
   supportBannerText: {
-    fontFamily: fonts.monoBold, fontSize: 9, color: colors.textSecondary, letterSpacing: 1.2,
+    fontFamily: fonts.monoBold, fontSize: 9, color: '#f5a623', letterSpacing: 1.2,
   },
   supportBannerSlogan: {
     fontFamily: fonts.monoBold, fontSize: 10, color: '#39ff14', letterSpacing: 1.5,

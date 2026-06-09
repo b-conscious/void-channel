@@ -27,39 +27,45 @@ router.get("/items/:itemId/comments", async (req, res) => {
     const offset = (page - 1) * limit;
     const sort = req.query.sort === "newest" ? "newest" : "top";
 
+    // Try Supabase first, fall back to in-memory if table doesn't exist or query fails
     if (supabase) {
-      let query = supabase
-        .from("comments")
-        .select("id, item_id, user_id, body, upvote_count, reply_count, is_edited, is_deleted, created_at, parent_id, profiles(username, display_name, avatar_url, rank)")
-        .eq("item_id", itemId)
-        .is("parent_id", null) // top-level only
-        .eq("is_deleted", false)
-        .range(offset, offset + limit - 1);
+      try {
+        let query = supabase
+          .from("comments")
+          .select("id, item_id, user_id, body, upvote_count, reply_count, is_edited, is_deleted, created_at, parent_id, profiles(username, display_name, avatar_url, rank)")
+          .eq("item_id", itemId)
+          .is("parent_id", null) // top-level only
+          .eq("is_deleted", false)
+          .range(offset, offset + limit - 1);
 
-      if (sort === "top") {
-        query = query.order("upvote_count", { ascending: false }).order("created_at", { ascending: false });
-      } else {
-        query = query.order("created_at", { ascending: false });
+        if (sort === "top") {
+          query = query.order("upvote_count", { ascending: false }).order("created_at", { ascending: false });
+        } else {
+          query = query.order("created_at", { ascending: false });
+        }
+
+        const { data, error } = await query;
+        if (error) throw error;
+
+        const comments = (data || []).map((c) => ({
+          id: c.id,
+          item_id: c.item_id,
+          user_id: c.user_id,
+          body: c.body,
+          username: c.profiles?.username || c.profiles?.display_name || "anon",
+          avatar_url: c.profiles?.avatar_url || null,
+          rank: c.profiles?.rank || "wanderer",
+          upvote_count: c.upvote_count || 0,
+          reply_count: c.reply_count || 0,
+          is_edited: c.is_edited || false,
+          created_at: c.created_at,
+        }));
+
+        return res.json({ comments, page, hasMore: comments.length === limit });
+      } catch (sbErr) {
+        // Supabase query failed (table missing, network, etc) — fall through to in-memory
+        console.warn("[comments/get] Supabase failed, using in-memory:", sbErr.message);
       }
-
-      const { data, error } = await query;
-      if (error) throw error;
-
-      const comments = (data || []).map((c) => ({
-        id: c.id,
-        item_id: c.item_id,
-        user_id: c.user_id,
-        body: c.body,
-        username: c.profiles?.username || c.profiles?.display_name || "anon",
-        avatar_url: c.profiles?.avatar_url || null,
-        rank: c.profiles?.rank || "wanderer",
-        upvote_count: c.upvote_count || 0,
-        reply_count: c.reply_count || 0,
-        is_edited: c.is_edited || false,
-        created_at: c.created_at,
-      }));
-
-      return res.json({ comments, page, hasMore: comments.length === limit });
     }
 
     // Fallback: in-memory
@@ -81,29 +87,33 @@ router.get("/comments/:id/replies", async (req, res) => {
     const { id } = req.params;
 
     if (supabase) {
-      const { data, error } = await supabase
-        .from("comments")
-        .select("id, item_id, user_id, body, upvote_count, is_edited, is_deleted, created_at, parent_id, profiles(username, display_name, avatar_url, rank)")
-        .eq("parent_id", id)
-        .eq("is_deleted", false)
-        .order("created_at", { ascending: true })
-        .limit(50);
+      try {
+        const { data, error } = await supabase
+          .from("comments")
+          .select("id, item_id, user_id, body, upvote_count, is_edited, is_deleted, created_at, parent_id, profiles(username, display_name, avatar_url, rank)")
+          .eq("parent_id", id)
+          .eq("is_deleted", false)
+          .order("created_at", { ascending: true })
+          .limit(50);
 
-      if (error) throw error;
+        if (error) throw error;
 
-      const replies = (data || []).map((c) => ({
-        id: c.id,
-        user_id: c.user_id,
-        body: c.body,
-        username: c.profiles?.username || c.profiles?.display_name || "anon",
-        avatar_url: c.profiles?.avatar_url || null,
-        rank: c.profiles?.rank || "wanderer",
-        upvote_count: c.upvote_count || 0,
-        is_edited: c.is_edited || false,
-        created_at: c.created_at,
-      }));
+        const replies = (data || []).map((c) => ({
+          id: c.id,
+          user_id: c.user_id,
+          body: c.body,
+          username: c.profiles?.username || c.profiles?.display_name || "anon",
+          avatar_url: c.profiles?.avatar_url || null,
+          rank: c.profiles?.rank || "wanderer",
+          upvote_count: c.upvote_count || 0,
+          is_edited: c.is_edited || false,
+          created_at: c.created_at,
+        }));
 
-      return res.json({ replies });
+        return res.json({ replies });
+      } catch (sbErr) {
+        console.warn("[comments/replies] Supabase failed, using in-memory:", sbErr.message);
+      }
     }
 
     const replies = memComments
@@ -130,41 +140,49 @@ router.post("/items/:itemId/comments", requireAuth, async (req, res) => {
       return res.status(400).json({ error: "Comment too long (max 2000 chars)" });
     }
 
+    // Try Supabase first, fall back to in-memory if table missing or query fails
     if (supabase) {
-      // Rate limit: 10 comments per hour
-      const oneHourAgo = new Date(Date.now() - 3600000).toISOString();
-      const { count } = await supabase
-        .from("comments")
-        .select("id", { count: "exact", head: true })
-        .eq("user_id", req.user.id)
-        .gte("created_at", oneHourAgo);
+      try {
+        // Rate limit: 10 comments per hour
+        const oneHourAgo = new Date(Date.now() - 3600000).toISOString();
+        const { count, error: countErr } = await supabase
+          .from("comments")
+          .select("id", { count: "exact", head: true })
+          .eq("user_id", req.user.id)
+          .gte("created_at", oneHourAgo);
 
-      if (count >= 10) {
-        return res.status(429).json({ error: "Rate limit: max 10 comments per hour" });
+        if (countErr) throw countErr;
+
+        if (count >= 10) {
+          return res.status(429).json({ error: "Rate limit: max 10 comments per hour" });
+        }
+
+        const insert = {
+          item_id: itemId,
+          user_id: req.user.id,
+          body: body.trim(),
+          parent_id: parent_id || null,
+        };
+
+        const { data, error } = await supabase
+          .from("comments")
+          .insert(insert)
+          .select("id, item_id, user_id, body, created_at")
+          .single();
+
+        if (error) throw error;
+
+        // If it's a reply, increment reply_count on parent
+        if (parent_id) {
+          await supabase.rpc("increment_reply_count", { comment_id: parent_id }).catch(() => {});
+        }
+
+        console.log(`[comments] ${req.user.email} commented on ${itemId}`);
+        return res.json({ comment: data });
+      } catch (sbErr) {
+        // Supabase failed (table missing, etc) — fall through to in-memory
+        console.warn("[comments/post] Supabase failed, using in-memory:", sbErr.message);
       }
-
-      const insert = {
-        item_id: itemId,
-        user_id: req.user.id,
-        body: body.trim(),
-        parent_id: parent_id || null,
-      };
-
-      const { data, error } = await supabase
-        .from("comments")
-        .insert(insert)
-        .select("id, item_id, user_id, body, created_at")
-        .single();
-
-      if (error) throw error;
-
-      // If it's a reply, increment reply_count on parent
-      if (parent_id) {
-        await supabase.rpc("increment_reply_count", { comment_id: parent_id }).catch(() => {});
-      }
-
-      console.log(`[comments] ${req.user.email} commented on ${itemId}`);
-      return res.json({ comment: data });
     }
 
     // Fallback: in-memory
@@ -172,7 +190,7 @@ router.post("/items/:itemId/comments", requireAuth, async (req, res) => {
       id: `mem_${Date.now()}_${Math.random().toString(36).slice(2, 6)}`,
       item_id: itemId,
       user_id: req.user.id,
-      username: req.user.email?.split("@")[0] || "anon",
+      username: req.user.username || req.user.display_name || req.user.email?.split("@")[0] || "anon",
       body: body.trim(),
       parent_id: parent_id || null,
       upvote_count: 0,
@@ -185,6 +203,7 @@ router.post("/items/:itemId/comments", requireAuth, async (req, res) => {
     // Cap memory at 1000 comments
     if (memComments.length > 1000) memComments = memComments.slice(0, 1000);
 
+    console.log(`[comments/mem] ${req.user.email || req.user.id} commented on ${itemId}`);
     res.json({ comment });
   } catch (err) {
     console.error("[comments/post]", err.message);
@@ -206,18 +225,22 @@ router.patch("/comments/:id", requireAuth, async (req, res) => {
     }
 
     if (supabase) {
-      const { data, error } = await supabase
-        .from("comments")
-        .update({ body: body.trim(), is_edited: true, updated_at: new Date().toISOString() })
-        .eq("id", id)
-        .eq("user_id", req.user.id)
-        .select("id, body, is_edited")
-        .single();
+      try {
+        const { data, error } = await supabase
+          .from("comments")
+          .update({ body: body.trim(), is_edited: true, updated_at: new Date().toISOString() })
+          .eq("id", id)
+          .eq("user_id", req.user.id)
+          .select("id, body, is_edited")
+          .single();
 
-      if (error) throw error;
-      if (!data) return res.status(404).json({ error: "Comment not found or not yours" });
+        if (error) throw error;
+        if (!data) return res.status(404).json({ error: "Comment not found or not yours" });
 
-      return res.json({ comment: data });
+        return res.json({ comment: data });
+      } catch (sbErr) {
+        console.warn("[comments/patch] Supabase failed, using in-memory:", sbErr.message);
+      }
     }
 
     // Fallback
@@ -238,18 +261,22 @@ router.delete("/comments/:id", requireAuth, async (req, res) => {
     const { id } = req.params;
 
     if (supabase) {
-      const { data, error } = await supabase
-        .from("comments")
-        .update({ is_deleted: true, body: "[deleted]" })
-        .eq("id", id)
-        .eq("user_id", req.user.id)
-        .select("id")
-        .single();
+      try {
+        const { data, error } = await supabase
+          .from("comments")
+          .update({ is_deleted: true, body: "[deleted]" })
+          .eq("id", id)
+          .eq("user_id", req.user.id)
+          .select("id")
+          .single();
 
-      if (error) throw error;
-      if (!data) return res.status(404).json({ error: "Comment not found or not yours" });
+        if (error) throw error;
+        if (!data) return res.status(404).json({ error: "Comment not found or not yours" });
 
-      return res.json({ ok: true });
+        return res.json({ ok: true });
+      } catch (sbErr) {
+        console.warn("[comments/delete] Supabase failed, using in-memory:", sbErr.message);
+      }
     }
 
     // Fallback

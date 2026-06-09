@@ -28,6 +28,24 @@ import api from '../api/client';
 import store from '../store/cache';
 import { colors, fonts, spacing, radius } from '../theme';
 
+// ── Relative time (e.g. "2 min ago", "3h ago", "yesterday") ──
+function timeAgo(dateStr) {
+  if (!dateStr) return '';
+  const diff = Date.now() - new Date(dateStr).getTime();
+  const sec = Math.floor(diff / 1000);
+  if (sec < 60) return 'just now';
+  const min = Math.floor(sec / 60);
+  if (min < 60) return `${min}m ago`;
+  const hr = Math.floor(min / 60);
+  if (hr < 24) return `${hr}h ago`;
+  const day = Math.floor(hr / 24);
+  if (day === 1) return 'yesterday';
+  if (day < 30) return `${day}d ago`;
+  const mo = Math.floor(day / 30);
+  if (mo < 12) return `${mo}mo ago`;
+  return `${Math.floor(mo / 12)}y ago`;
+}
+
 // ── X-Ray field config ──
 const XRAY_FIELDS = [
   { type: 'cast',     label: 'Cast',      icon: 'people-outline',   placeholder: 'Actor name' },
@@ -179,7 +197,14 @@ export default function PlayerScreen({ route, navigation }) {
           }).catch(() => {});
         }
         api.getRelated(stub.id, 20).then(setRelatedItems).catch(() => {});
-        api.getComments(stub.id).then((c) => { if (!cancelled) setComments(c.comments || []); }).catch(() => {});
+        setCommentsLoading(true);
+        api.getComments(stub.id).then((c) => {
+          if (!cancelled) setComments(c.comments || []);
+        }).catch((err) => {
+          console.warn('[comments] fetch failed:', err.message);
+        }).finally(() => {
+          if (!cancelled) setCommentsLoading(false);
+        });
         api.getXRay(stub.id).then((xray) => {
           if (xray && !cancelled) {
             setXrayData(xray.contributions || {});
@@ -994,7 +1019,9 @@ export default function PlayerScreen({ route, navigation }) {
           >
             <Ionicons name="chatbubble-outline" size={13} color={accent} />
             <Text style={[styles.sectionLabel, { color: accent }]}>COMMENTS</Text>
-            <Text style={styles.sectionSub}>{comments.length > 0 ? `${comments.length}` : 'be first'}</Text>
+            <Text style={styles.sectionSub}>
+              {commentsLoading ? '...' : comments.length > 0 ? `${comments.length}` : 'be first'}
+            </Text>
             <View style={{ flex: 1 }} />
             <Ionicons name={commentsExpanded ? "chevron-up" : "chevron-down"} size={14} color={colors.textSecondary} />
           </TouchableOpacity>
@@ -1004,7 +1031,7 @@ export default function PlayerScreen({ route, navigation }) {
             <View style={styles.commentsPreview}>
               {comments.slice(0, 2).map((c) => (
                 <View key={c.id} style={styles.commentRow}>
-                  <Text style={styles.commentAuthor}>{c.username || 'anon'}</Text>
+                  <Text style={[styles.commentAuthor, { color: accent }]}>{c.username || 'anon'}</Text>
                   <Text style={styles.commentBody} numberOfLines={1}>{c.body}</Text>
                 </View>
               ))}
@@ -1062,24 +1089,33 @@ export default function PlayerScreen({ route, navigation }) {
                 <TouchableOpacity
                   onPress={() => navigation.navigate('Auth')}
                   style={styles.commentSignIn}
+                  activeOpacity={0.7}
                 >
+                  <Ionicons name="log-in-outline" size={14} color={accent} />
                   <Text style={[styles.commentSignInText, { color: accent }]}>SIGN IN TO COMMENT</Text>
                 </TouchableOpacity>
               )}
 
+              {/* Loading */}
+              {commentsLoading && (
+                <ActivityIndicator size="small" color={accent} style={{ paddingVertical: 12 }} />
+              )}
+
               {/* Comment list */}
-              {comments.map((c) => (
+              {!commentsLoading && comments.map((c) => (
                 <View key={c.id} style={styles.commentCard}>
                   <View style={styles.commentHeader}>
                     <Text style={[styles.commentAuthor, { color: accent }]}>{c.username || 'anon'}</Text>
-                    <Text style={styles.commentTime}>
-                      {c.created_at ? new Date(c.created_at).toLocaleDateString() : ''}
-                    </Text>
+                    {c.rank && c.rank !== 'wanderer' && (
+                      <Text style={[styles.commentRank, { color: accent + '80' }]}>{c.rank}</Text>
+                    )}
+                    <View style={{ flex: 1 }} />
+                    <Text style={styles.commentTime}>{timeAgo(c.created_at)}</Text>
                   </View>
                   <Text style={styles.commentBody}>{c.body}</Text>
                 </View>
               ))}
-              {comments.length === 0 && (
+              {!commentsLoading && comments.length === 0 && (
                 <Text style={styles.commentsEmpty}>No comments yet — start the conversation.</Text>
               )}
             </View>
@@ -2090,7 +2126,8 @@ const styles = StyleSheet.create({
     width: 38, height: 38, borderRadius: radius.sm,
     justifyContent: 'center', alignItems: 'center',
   },
-  commentSignIn: { paddingVertical: 10 },
+  commentRank: { fontFamily: fonts.mono, fontSize: 8, letterSpacing: 0.5, textTransform: 'uppercase' },
+  commentSignIn: { flexDirection: 'row', alignItems: 'center', gap: 6, paddingVertical: 10 },
   commentSignInText: { fontFamily: fonts.monoBold, fontSize: 10, letterSpacing: 1.2 },
   commentCard: {
     paddingVertical: 8, borderBottomWidth: StyleSheet.hairlineWidth,
