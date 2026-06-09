@@ -137,6 +137,150 @@ const CATEGORIES = [
     query: '(subject:("educational television" OR "classroom film" OR "school" OR "instructional") OR collection:(classic_tv)) AND mediatype:(movies) AND NOT collection:(prelinger)',
   },
   {
+    id: "anime",
+    name: "Anime & Manga",
+    subtitle: "Japanese animation — from vintage to fan-subbed obscurities",
+    query: "(subject:(anime) OR subject:(manga) OR collection:(anime) OR collection:(japanese_animation)) AND mediatype:(movies)",
+  },
+  {
+    id: "saturday_morning",
+    name: "Saturday Morning",
+    subtitle: "Pour the cereal, turn on the TV — it's 1987 and nothing matters",
+    query: "(subject:(\"saturday morning\") OR subject:(\"children's television\") OR collection:(saturday_morning_cartoons) OR (title:(\"He-Man\") OR title:(\"Transformers\") OR title:(\"GI Joe\") OR title:(\"Thundercats\") OR title:(\"Voltron\") OR title:(\"Teenage Mutant Ninja\"))) AND mediatype:(movies)",
+  },
+  {
+    id: "afterschool",
+    name: "After School Special",
+    subtitle: "The 3:30 PM life lessons nobody asked for but everyone remembers",
+    query: "(subject:(\"after school\") OR title:(\"after school special\") OR (subject:(children) AND subject:(educational) AND year:[1970 TO 1999])) AND mediatype:(movies)",
+  },
+  {
+    id: "education",
+    name: "The Classroom",
+    subtitle: "Lectures, lessons, and the stuff teachers showed when they were tired",
+    query: "(subject:(educational) OR subject:(\"educational films\") OR collection:(educationalfilms)) AND mediatype:(movies)",
+  },
+  {
+    id: "howto",
+    name: "How To",
+    subtitle: "Step-by-step instructions from when YouTube didn't exist yet",
+    query: "(subject:(\"how to\") OR subject:(instructional) OR subject:(tutorial) OR title:(\"how to\")) AND mediatype:(movies)",
+  },
+  {
+    id: "foreign",
+    name: "World Cinema",
+    subtitle: "Subtitles optional, vibes mandatory — cinema without borders",
+    query: "(subject:(\"foreign film\") OR subject:(\"world cinema\") OR subject:(\"french film\") OR subject:(\"italian film\") OR subject:(\"german film\") OR subject:(\"japanese film\") OR subject:(\"indian cinema\") OR collection:(world_cinema)) AND mediatype:(movies)",
+  },
+  {
+    id: "art_film",
+    name: "Art House",
+    subtitle: "Avant-garde, experimental, and deliberately confusing — on purpose",
+    query: "(subject:(\"art film\") OR subject:(\"experimental film\") OR subject:(\"avant-garde\") OR subject:(\"art house\") OR collection:(art_films)) AND mediatype:(movies)",
+  },
+  {
+    id: "theatre",
+    name: "Stage & Theatre",
+    subtitle: "Live performances captured before they vanished forever",
+    query: "(subject:(theatre) OR subject:(theater) OR subject:(\"stage performance\") OR subject:(\"live performance\") OR subject:(\"broadway\") OR subject:(\"stage play\")) AND mediatype:(movies)",
+  },
+  {
+    id: "abstract",
+    name: "Abstract & Visual",
+    subtitle: "No plot, no characters — just light, color, and motion",
+    query: "(subject:(abstract) OR subject:(\"visual art\") OR subject:(\"video art\") OR subject:(\"motion graphics\") OR subject:(\"experimental animation\")) AND mediatype:(movies)",
+  },
+  {
+    id: "conspiracy",
+    name: "Down the Rabbit Hole",
+    subtitle: "Conspiracy docs, fringe theories, and late-night paranoia fuel",
+    query: "(subject:(conspiracy) OR subject:(\"conspiracy theory\") OR subject:(ufo) OR subject:(paranormal) OR subject:(\"secret society\") OR title:(\"conspiracy\") OR title:(\"coverup\")) AND mediatype:(movies)",
+  },
+  {
+    id: "public_access",
+    name: "Public Access",
+    subtitle: "Local cable TV — unfiltered, unhinged, unforgettable",
+    query: "(subject:(\"public access\") OR subject:(\"public access television\") OR collection:(public_access_tv) OR subject:(\"cable access\") OR title:(\"public access\")) AND mediatype:(movies)",
+  },
+  {
+    id: "shopping",
+    name: "Home Shopping",
+    subtitle: "QVC, infomercials, and products that definitely didn't work",
+    query: "(subject:(infomercial) OR subject:(\"home shopping\") OR subject:(\"shopping channel\") OR title:(infomercial) OR title:(\"home shopping\") OR title:(\"as seen on tv\")) AND mediatype:(movies)",
+  },
+  {
+    id: "violence",
+    name: "Action & Violence",
+    subtitle: "Stunts, fights, explosions — the good stuff",
+    query: "(subject:(action) OR subject:(\"martial arts\") OR subject:(\"action film\") OR subject:(war) OR subject:(violence) OR subject:(\"fight scene\")) AND mediatype:(movies)",
+  },
+  {
+    id: "music_video",
+    name: "Music Videos & Concerts",
+    subtitle: "Live shows, music films, and the MTV era before it died",
+    query: "(subject:(\"music video\") OR subject:(concert) OR subject:(\"live music\") OR subject:(\"live performance\" AND music) OR collection:(music_videos)) AND mediatype:(movies)",
+  },
+  {
+    id: "sports",
+    name: "Classic Sports",
+    subtitle: "When athletes were regular-sized and the footage was grainy",
+    query: "(subject:(sports) OR subject:(\"sports film\") OR subject:(baseball) OR subject:(boxing) OR subject:(football) OR subject:(olympics)) AND mediatype:(movies)",
+  },
+  {
+    id: "nature_wildlife",
+    name: "Nature & Wildlife",
+    subtitle: "Planet Earth before it needed saving",
+    query: "(subject:(nature) OR subject:(wildlife) OR subject:(\"nature documentary\") OR subject:(\"national parks\") OR subject:(\"animal\") OR collection:(nature_docs)) AND mediatype:(movies)",
+  },
+  {
+    id: "comedy",
+    name: "Comedy Gold",
+    subtitle: "Slapstick, stand-up, sketch — humor that aged in every direction",
+    query: "(subject:(comedy) OR subject:(\"comedy film\") OR subject:(\"stand-up comedy\") OR subject:(humor) OR subject:(slapstick)) AND mediatype:(movies)",
+  },
+  {
+    id: "western",
+    name: "The Western",
+    subtitle: "Outlaws, showdowns, and dust — the original American genre",
+    query: "(subject:(western) OR subject:(\"western film\") OR subject:(cowboy) OR subject:(\"wild west\")) AND mediatype:(movies)",
+  },
+  {
+    id: "romance",
+    name: "Love Stories",
+    subtitle: "When romance meant actual dialogue and not a dating app",
+    query: "(subject:(romance) OR subject:(\"romantic film\") OR subject:(\"love story\") OR subject:(\"romantic drama\")) AND mediatype:(movies)",
+  },
+  {
+    id: "documentary",
+    name: "The Documentary",
+    subtitle: "Real people, real stories — before everything was 'content'",
+    query: "(subject:(documentary) OR subject:(\"documentary film\") OR collection:(documentaries)) AND mediatype:(movies)",
+  },
+  {
+    id: "game_shows",
+    name: "Game Shows",
+    subtitle: "Prizes, buzzers, and hosts who smiled too much",
+    query: "(subject:(\"game show\") OR title:(\"game show\") OR title:(\"wheel of fortune\") OR title:(\"jeopardy\") OR title:(\"price is right\") OR subject:(\"quiz show\")) AND mediatype:(movies)",
+  },
+  {
+    id: "silent_film",
+    name: "The Silent Era",
+    subtitle: "Before sound ruined everything — pure visual storytelling",
+    query: "(subject:(\"silent film\") OR subject:(\"silent movie\") OR subject:(\"silent era\") OR collection:(silent_films) OR year:[1895 TO 1929]) AND mediatype:(movies)",
+  },
+  {
+    id: "war_footage",
+    name: "War Footage",
+    subtitle: "Real conflict on film — not for the faint of heart",
+    query: "(subject:(\"world war\") OR subject:(\"war footage\") OR subject:(\"military film\") OR subject:(\"combat footage\") OR subject:(\"war documentary\") OR collection:(war_footage)) AND mediatype:(movies)",
+  },
+  {
+    id: "blaxploitation",
+    name: "Blaxploitation",
+    subtitle: "Shaft, Foxy Brown, and the baddest soundtracks ever recorded",
+    query: "(subject:(blaxploitation) OR title:(\"shaft\") OR title:(\"foxy brown\") OR title:(\"dolemite\") OR subject:(\"black cinema\" AND year:[1970 TO 1985])) AND mediatype:(movies)",
+  },
+  {
     id: "mature",
     group: "type",
     name: "⚠ Behind Closed Doors",
@@ -394,6 +538,34 @@ const CATEGORIES = [
     subtitle: "VHS tapes, neon, and the last analog decade",
     query: "year:[1980 TO 1989] AND mediatype:(movies)",
   },
+  {
+    id: "d1990s",
+    group: "decade",
+    name: "The Nineties",
+    subtitle: "Grunge, dial-up, and the last decade before the internet ate everything",
+    query: "year:[1990 TO 1999] AND mediatype:(movies)",
+  },
+  {
+    id: "d2000s",
+    group: "decade",
+    name: "The 2000s",
+    subtitle: "Y2K survived, reality TV didn't — the camcorder-to-digital shift",
+    query: "year:[2000 TO 2009] AND mediatype:(movies)",
+  },
+  {
+    id: "d2010s",
+    group: "decade",
+    name: "The 2010s",
+    subtitle: "HD uploads, YouTube culture, and independent everything",
+    query: "year:[2010 TO 2019] AND mediatype:(movies)",
+  },
+  {
+    id: "d2020s",
+    group: "decade",
+    name: "The 2020s",
+    subtitle: "Pandemic footage, livestreams, and whatever this era turns out to be",
+    query: "year:[2020 TO 2029] AND mediatype:(movies)",
+  },
 ];
 
 function stripHTML(str) {
@@ -409,6 +581,12 @@ function flattenCreator(c) {
 }
 
 function normalizeItem(doc) {
+  // Flatten subjects to an array of strings
+  let subjects = [];
+  if (doc.subject) {
+    if (Array.isArray(doc.subject)) subjects = doc.subject.map(String).slice(0, 10);
+    else if (typeof doc.subject === 'string') subjects = doc.subject.split(';').map((s) => s.trim()).filter(Boolean).slice(0, 10);
+  }
   return {
     id: doc.identifier || "",
     title: doc.title || "Untitled",
@@ -417,6 +595,7 @@ function normalizeItem(doc) {
     creator: flattenCreator(doc.creator),
     downloads: doc.downloads || 0,
     runtime: parseRuntime(doc.runtime),
+    subjects,
     thumbnail: THUMB_URL(doc.identifier),
     archiveUrl: `${BASE}/details/${doc.identifier}`,
     videoUrl: null,
@@ -485,7 +664,7 @@ function dedupeItems(items) {
 }
 
 async function search(query, rows = 25, page = 1, sort = "downloads desc") {
-  const fields = ["identifier", "title", "description", "year", "creator", "downloads", "runtime"];
+  const fields = ["identifier", "title", "description", "year", "creator", "downloads", "runtime", "subject"];
   const fieldStr = fields.map((f) => `fl[]=${f}`).join("&");
   const sortParam = `sort[]=${encodeURIComponent(sort)}`;
   const url = `${SEARCH_URL}?q=${encodeURIComponent(query)}&${fieldStr}&${sortParam}&rows=${rows}&page=${page}&output=json`;

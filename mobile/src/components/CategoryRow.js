@@ -29,6 +29,15 @@ const CAT_GLYPHS = {
   show_threestooges: '◈', show_twilightzone: '◈',
   community_hearts: '♥',
   trending: '🔥', for_you: '◈', sub_feed: '▸',
+  // New type categories
+  anime: '◈', saturday_morning: '★', afterschool: '▷', education: '▣',
+  howto: '◉', foreign: '◇', art_film: '◆', theatre: '▷',
+  abstract: '✦', conspiracy: '◎', public_access: '▶', shopping: '$',
+  violence: '☠', music_video: '♫', sports: '●', nature_wildlife: '◇',
+  comedy: '★', western: '◆', romance: '♡', documentary: '▣',
+  game_shows: '▸', silent_film: '◷', war_footage: '⚑', blaxploitation: '◈',
+  // New decades
+  d1990s: '◷', d2000s: '◷', d2010s: '◷', d2020s: '◷',
   // Deep cuts
   deep_driver_ed: '⚠', deep_mental_hygiene: '◎', deep_dating: '♡',
   deep_hygiene: '◎', deep_propaganda: '⚑', deep_atomic: '☢',

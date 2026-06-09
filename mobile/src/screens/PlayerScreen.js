@@ -565,17 +565,103 @@ export default function PlayerScreen({ route, navigation }) {
           />
         )}
 
-        {/* ── Description preview — always visible ── */}
-        {item.description ? (
-          <TouchableOpacity onPress={toggleInfo} activeOpacity={0.8} style={styles.descBlock}>
-            <Text style={styles.descText} numberOfLines={infoExpanded ? undefined : 3}>
+        {/* ── Expandable Info Tab ── */}
+        <TouchableOpacity
+          onPress={toggleInfo}
+          activeOpacity={0.8}
+          style={[styles.infoTab, infoExpanded && styles.infoTabExpanded]}
+        >
+          <View style={styles.infoTabHeader}>
+            <Ionicons name="information-circle-outline" size={16} color={accent} />
+            <Text style={[styles.infoTabLabel, { color: accent }]}>
+              {infoExpanded ? 'ABOUT THIS VIDEO' : 'INFO'}
+            </Text>
+            <View style={{ flex: 1 }} />
+            <Ionicons
+              name={infoExpanded ? "chevron-up" : "chevron-down"}
+              size={16}
+              color={colors.textSecondary}
+            />
+          </View>
+
+          {/* Collapsed: 3-line preview */}
+          {!infoExpanded && item.description ? (
+            <Text style={styles.descText} numberOfLines={2}>
               {item.description}
             </Text>
-            {!infoExpanded && (
-              <Text style={[styles.descMore, { color: accent }]}>more...</Text>
-            )}
-          </TouchableOpacity>
-        ) : null}
+          ) : null}
+
+          {/* Expanded: full info */}
+          {infoExpanded && (
+            <View style={styles.infoTabBody}>
+              {item.description ? (
+                <Text style={[styles.descText, { marginBottom: 12 }]}>
+                  {item.description}
+                </Text>
+              ) : null}
+
+              {/* Metadata chips */}
+              <View style={styles.infoMetaGrid}>
+                {creator ? (
+                  <View style={styles.infoMetaRow}>
+                    <Ionicons name="person-outline" size={12} color={colors.textSecondary} />
+                    <Text style={styles.infoMetaLabel}>Creator</Text>
+                    <Text style={styles.infoMetaValue}>{creator}</Text>
+                  </View>
+                ) : null}
+                {item.year ? (
+                  <View style={styles.infoMetaRow}>
+                    <Ionicons name="calendar-outline" size={12} color={colors.textSecondary} />
+                    <Text style={styles.infoMetaLabel}>Year</Text>
+                    <Text style={styles.infoMetaValue}>{item.year}</Text>
+                  </View>
+                ) : null}
+                {item.runtime ? (
+                  <View style={styles.infoMetaRow}>
+                    <Ionicons name="time-outline" size={12} color={colors.textSecondary} />
+                    <Text style={styles.infoMetaLabel}>Duration</Text>
+                    <Text style={styles.infoMetaValue}>
+                      {item.runtime >= 3600
+                        ? `${Math.floor(item.runtime / 3600)}h ${Math.floor((item.runtime % 3600) / 60)}m`
+                        : `${Math.floor(item.runtime / 60)}m ${Math.round(item.runtime % 60)}s`}
+                    </Text>
+                  </View>
+                ) : null}
+                {viewCount > 0 ? (
+                  <View style={styles.infoMetaRow}>
+                    <Ionicons name="eye-outline" size={12} color={colors.textSecondary} />
+                    <Text style={styles.infoMetaLabel}>Views</Text>
+                    <Text style={styles.infoMetaValue}>{viewCount.toLocaleString()}</Text>
+                  </View>
+                ) : null}
+              </View>
+
+              {/* Subjects / tags */}
+              {item.subjects?.length > 0 && (
+                <View style={styles.infoTagsWrap}>
+                  {item.subjects.slice(0, 8).map((s, i) => (
+                    <View key={i} style={styles.infoTagChip}>
+                      <Text style={styles.infoTagText}>{s}</Text>
+                    </View>
+                  ))}
+                </View>
+              )}
+
+              {/* Archive link */}
+              {item.archiveUrl && (
+                <TouchableOpacity
+                  onPress={() => Linking.openURL(item.archiveUrl)}
+                  style={styles.archiveLink}
+                >
+                  <Ionicons name="open-outline" size={12} color={accent} />
+                  <Text style={[styles.archiveLinkText, { color: accent }]}>
+                    View on Internet Archive
+                  </Text>
+                </TouchableOpacity>
+              )}
+            </View>
+          )}
+        </TouchableOpacity>
 
         {/* ── X-Ray — community-contributed metadata ── */}
         {xrayTotal > 0 && (
@@ -1564,15 +1650,87 @@ const styles = StyleSheet.create({
   },
   shareChipText: { fontFamily: fonts.monoBold, fontSize: 9, color: colors.textPrimary, letterSpacing: 0.5 },
 
-  // Description block
-  descBlock: {
-    paddingHorizontal: spacing.screenPadding,
-    paddingVertical: 10,
-    borderBottomWidth: StyleSheet.hairlineWidth, borderBottomColor: colors.surface + '80',
+  // Expandable Info Tab
+  infoTab: {
+    marginHorizontal: spacing.screenPadding,
+    marginTop: 8,
+    backgroundColor: colors.surface,
+    borderRadius: radius.md,
+    padding: 12,
+    borderWidth: 1,
+    borderColor: colors.border,
+  },
+  infoTabExpanded: {
+    paddingBottom: 16,
+  },
+  infoTabHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+    marginBottom: 6,
+  },
+  infoTabLabel: {
+    fontFamily: fonts.monoBold,
+    fontSize: 10,
+    letterSpacing: 1.5,
   },
   descText: {
     fontFamily: fonts.sans, fontSize: 13, color: colors.textSecondary,
     lineHeight: 20,
+  },
+  infoTabBody: {},
+  infoMetaGrid: {
+    gap: 8,
+    marginBottom: 10,
+  },
+  infoMetaRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+  },
+  infoMetaLabel: {
+    fontFamily: fonts.mono,
+    fontSize: 10,
+    color: colors.textGhost,
+    letterSpacing: 0.5,
+    width: 60,
+  },
+  infoMetaValue: {
+    fontFamily: fonts.sans,
+    fontSize: 12,
+    color: colors.text,
+    flex: 1,
+  },
+  infoTagsWrap: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: 5,
+    marginBottom: 10,
+  },
+  infoTagChip: {
+    backgroundColor: colors.bg,
+    paddingHorizontal: 8,
+    paddingVertical: 3,
+    borderRadius: radius.full,
+    borderWidth: 1,
+    borderColor: colors.border,
+  },
+  infoTagText: {
+    fontFamily: fonts.mono,
+    fontSize: 9,
+    color: colors.textSecondary,
+    letterSpacing: 0.3,
+  },
+  archiveLink: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 5,
+    marginTop: 4,
+  },
+  archiveLinkText: {
+    fontFamily: fonts.mono,
+    fontSize: 10,
+    letterSpacing: 0.5,
   },
   descMore: { fontFamily: fonts.monoBold, fontSize: 11, marginTop: 4 },
 

@@ -150,7 +150,52 @@ async function ensureDownloadDir() {
 }
 
 export async function downloadVideo(identifier, videoUrl, onProgress) {
-  if (IS_WEB) return null;
+  // Web: fetch blob and trigger browser download
+  if (IS_WEB) {
+    try {
+      const res = await fetch(videoUrl);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const contentLength = parseInt(res.headers.get('content-length') || '0', 10);
+      const reader = res.body?.getReader();
+      if (!reader) {
+        // Fallback: just open in new tab for direct download
+        const a = document.createElement('a');
+        a.href = videoUrl;
+        a.download = `${identifier}.mp4`;
+        a.target = '_blank';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        return videoUrl;
+      }
+      // Stream with progress
+      const chunks = [];
+      let received = 0;
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+        chunks.push(value);
+        received += value.length;
+        if (onProgress && contentLength > 0) onProgress(received / contentLength);
+      }
+      const blob = new Blob(chunks, { type: 'video/mp4' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `${identifier}.mp4`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      setTimeout(() => URL.revokeObjectURL(url), 5000);
+      return videoUrl;
+    } catch (err) {
+      // Last-resort fallback: open direct URL
+      window.open(videoUrl, '_blank');
+      return videoUrl;
+    }
+  }
+
+  // Native: use expo-file-system
   await ensureDownloadDir();
   const localUri = `${DOWNLOAD_DIR}${identifier}.mp4`;
   const info = await FileSystem.getInfoAsync(localUri);

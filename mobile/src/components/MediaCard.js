@@ -1,5 +1,5 @@
-import React, { useState, useCallback, useEffect } from 'react';
-import { View, Text, StyleSheet, Pressable, Dimensions, TouchableOpacity } from 'react-native';
+import React, { useState, useCallback, useEffect, useRef } from 'react';
+import { View, Text, StyleSheet, Pressable, Dimensions, TouchableOpacity, Platform } from 'react-native';
 import Animated, { useSharedValue, useAnimatedStyle, withSpring, withSequence, withTiming } from 'react-native-reanimated';
 import { LinearGradient } from 'expo-linear-gradient';
 import { Ionicons } from '@expo/vector-icons';
@@ -35,6 +35,8 @@ const AnimatedPressable = Animated.createAnimatedComponent(Pressable);
 
 export default function MediaCard({ item, onPress, size = 'default', style }) {
   const [hearted, setHearted] = useState(false);
+  const [hovered, setHovered] = useState(false);
+  const hoverTimer = useRef(null);
   const scale = useSharedValue(1);
   const heartScale = useSharedValue(1);
   const { gen } = useGeneration();
@@ -98,11 +100,32 @@ export default function MediaCard({ item, onPress, size = 'default', style }) {
     return `${mm}:${String(ss).padStart(2, '0')}`;
   }, [item.runtime]);
 
+  // Web: show hover info after 400ms delay; Mobile: long-press shows it
+  const onHoverIn = useCallback(() => {
+    if (Platform.OS !== 'web') return;
+    hoverTimer.current = setTimeout(() => setHovered(true), 400);
+  }, []);
+  const onHoverOut = useCallback(() => {
+    clearTimeout(hoverTimer.current);
+    setHovered(false);
+  }, []);
+  const onLongPress = useCallback(() => {
+    if (Platform.OS === 'web') return;
+    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
+    setHovered((v) => !v);
+  }, []);
+
+  const desc = item.description || '';
+  const subjects = Array.isArray(item.subjects) ? item.subjects.slice(0, 5) : [];
+
   return (
     <AnimatedPressable
-      onPress={() => { Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light); onPress(item); }}
+      onPress={() => { setHovered(false); Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light); onPress(item); }}
       onPressIn={() => { scale.value = withSpring(0.94, SPRING); }}
       onPressOut={() => { scale.value = withSpring(1, SPRING); }}
+      onLongPress={onLongPress}
+      onHoverIn={onHoverIn}
+      onHoverOut={onHoverOut}
       style={[{ width: w, marginRight: cardSize.gap }, animStyle, style]}
     >
       <FastImage
@@ -137,11 +160,36 @@ export default function MediaCard({ item, onPress, size = 'default', style }) {
           ) : null}
         </View>
 
-        {/* Title */}
-        <View style={styles.titleBlock}>
-          <Text style={styles.title} numberOfLines={2}>{item.title}</Text>
-          {creator ? <Text style={styles.creator} numberOfLines={1}>{creator}</Text> : null}
-        </View>
+        {/* Hover info overlay — shows description, subjects, creator */}
+        {hovered && (
+          <View style={styles.hoverOverlay}>
+            <LinearGradient
+              colors={['rgba(12,12,15,0.95)', 'rgba(12,12,15,0.98)']}
+              style={StyleSheet.absoluteFill}
+            />
+            <Text style={styles.hoverTitle} numberOfLines={2}>{item.title}</Text>
+            {creator ? <Text style={styles.hoverCreator}>{creator}{item.year ? ` · ${item.year}` : ''}</Text> : null}
+            {durationLabel ? <Text style={styles.hoverMeta}>{durationLabel}</Text> : null}
+            {desc ? <Text style={styles.hoverDesc} numberOfLines={4}>{desc}</Text> : null}
+            {subjects.length > 0 && (
+              <View style={styles.hoverTags}>
+                {subjects.map((s, i) => (
+                  <View key={i} style={styles.hoverTag}>
+                    <Text style={styles.hoverTagText}>{s}</Text>
+                  </View>
+                ))}
+              </View>
+            )}
+          </View>
+        )}
+
+        {/* Title — hidden when hover overlay is showing */}
+        {!hovered && (
+          <View style={styles.titleBlock}>
+            <Text style={styles.title} numberOfLines={2}>{item.title}</Text>
+            {creator ? <Text style={styles.creator} numberOfLines={1}>{creator}</Text> : null}
+          </View>
+        )}
 
         {/* Heart — separate touch target so it doesn't trigger card navigation */}
         <TouchableOpacity
@@ -202,4 +250,36 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   heartIcon: { textShadowColor: 'rgba(0,0,0,0.6)', textShadowOffset: { width: 0, height: 1 }, textShadowRadius: 2 },
+
+  // Hover info overlay
+  hoverOverlay: {
+    ...StyleSheet.absoluteFillObject,
+    padding: 9,
+    justifyContent: 'flex-start',
+    zIndex: 10,
+  },
+  hoverTitle: {
+    fontFamily: fonts.sansSemiBold, fontSize: 12, color: '#fff',
+    lineHeight: 15, marginBottom: 3,
+  },
+  hoverCreator: {
+    fontFamily: fonts.sans, fontSize: 10, color: 'rgba(255,255,255,0.6)', marginBottom: 2,
+  },
+  hoverMeta: {
+    fontFamily: fonts.mono, fontSize: 9, color: colors.amber, marginBottom: 5, letterSpacing: 0.5,
+  },
+  hoverDesc: {
+    fontFamily: fonts.sans, fontSize: 10, color: 'rgba(255,255,255,0.75)',
+    lineHeight: 14, marginBottom: 5,
+  },
+  hoverTags: {
+    flexDirection: 'row', flexWrap: 'wrap', gap: 3,
+  },
+  hoverTag: {
+    backgroundColor: 'rgba(255,255,255,0.1)',
+    paddingHorizontal: 5, paddingVertical: 2, borderRadius: 2,
+  },
+  hoverTagText: {
+    fontFamily: fonts.mono, fontSize: 8, color: 'rgba(255,255,255,0.6)', letterSpacing: 0.3,
+  },
 });
