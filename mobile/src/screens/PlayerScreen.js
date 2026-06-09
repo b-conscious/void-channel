@@ -62,12 +62,10 @@ const XRAY_FIELDS = [
 // "DW News : DW : June 9, 2026 4:00am-4:02am CEST" → "DW News : DW"
 // "PRESSTV : June 9, 2026 5:30am-6:00am IRST" → "PRESSTV"
 const DATE_RE = /\s*:?\s*(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},?\s*\d{4}\s+\d{1,2}:\d{2}.*/i;
-function cleanTitle(title, maxLen = 32) {
+function cleanTitle(title) {
   if (!title) return '';
-  let cleaned = title.replace(DATE_RE, '').replace(/\s*:\s*$/, '').trim();
-  cleaned = cleaned || title;
-  if (cleaned.length > maxLen) cleaned = cleaned.slice(0, maxLen - 1).trimEnd() + '…';
-  return cleaned;
+  const cleaned = title.replace(DATE_RE, '').replace(/\s*:\s*$/, '').trim();
+  return cleaned || title;
 }
 
 export default function PlayerScreen({ route, navigation }) {
@@ -529,7 +527,7 @@ export default function PlayerScreen({ route, navigation }) {
           >
             <FastImage uri={relatedItems[0].thumbnail} itemId={relatedItems[0].id} style={styles.sidebarUpNextThumb} contentFit="cover" />
             <View style={styles.sidebarUpNextInfo}>
-              <Text style={styles.sidebarUpNextTitle} numberOfLines={1}>{cleanTitle(relatedItems[0].title, 28)}</Text>
+              <Text style={styles.sidebarUpNextTitle} numberOfLines={2}>{cleanTitle(relatedItems[0].title)}</Text>
               {relatedItems[0].year ? <Text style={[styles.sidebarUpNextYear, { color: accent }]}>{relatedItems[0].year}</Text> : null}
             </View>
           </Pressable>
@@ -550,35 +548,25 @@ export default function PlayerScreen({ route, navigation }) {
             >
               <FastImage uri={rel.thumbnail} itemId={rel.id} style={styles.sidebarRelThumb} contentFit="cover" />
               <View style={styles.sidebarRelInfo}>
-                <Text style={styles.sidebarRelTitle} numberOfLines={1}>{cleanTitle(rel.title, 28)}</Text>
+                <Text style={styles.sidebarRelTitle} numberOfLines={2}>{cleanTitle(rel.title)}</Text>
                 {rel.year ? <Text style={[styles.sidebarRelYear, { color: accent }]}>{rel.year}</Text> : null}
               </View>
             </Pressable>
           ))}
 
           {/* Shuffle — reload rabbit hole */}
-          <TouchableOpacity
+          <Pressable
             onPress={() => {
               setRelatedLoading(true);
               setRelatedItems([]);
               api.getRelated(item.id, 20).then(setRelatedItems).catch(() => {}).finally(() => setRelatedLoading(false));
               Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
             }}
-            style={[styles.sidebarShuffleBtn, { borderColor: accent + '40' }]}
-            activeOpacity={0.7}
+            style={[styles.sidebarShuffleBtn, { borderColor: accent + '30' }]}
           >
-            <Ionicons name="shuffle" size={11} color={accent} />
+            <Ionicons name="shuffle" size={10} color={accent} />
             <Text style={[styles.sidebarShuffleText, { color: accent }]}>SHUFFLE</Text>
-          </TouchableOpacity>
-
-          {/* Now playing info — uses bottom-right space */}
-          <View style={styles.sidebarDivider} />
-          <View style={styles.sidebarNowPlaying}>
-            <Text style={styles.sidebarNowLabel}>NOW PLAYING</Text>
-            <Text style={[styles.sidebarNowTitle, { color: colors.textPrimary }]} numberOfLines={2}>{cleanTitle(item.title, 50)}</Text>
-            {item.year ? <Text style={[styles.sidebarNowYear, { color: accent }]}>{item.year}</Text> : null}
-            {creator ? <Text style={styles.sidebarNowCreator} numberOfLines={1}>{creator}</Text> : null}
-          </View>
+          </Pressable>
         </>
       )}
     </ScrollView>
@@ -2228,16 +2216,11 @@ const styles = StyleSheet.create({
   sidebarRelYear: { fontFamily: fonts.mono, fontSize: 7, marginTop: 1 },
   sidebarRelCreator: { fontFamily: fonts.sans, fontSize: 7, color: colors.textMuted, marginTop: 1 },
   sidebarShuffleBtn: {
-    flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 4,
-    paddingVertical: 5, marginTop: 4, borderRadius: radius.sm,
-    borderWidth: 1,
+    flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 3,
+    paddingVertical: 4, marginTop: 2, borderRadius: radius.sm,
+    borderWidth: 1, opacity: 0.7,
   },
-  sidebarShuffleText: { fontFamily: fonts.monoBold, fontSize: 7, letterSpacing: 1.2 },
-  sidebarNowPlaying: { paddingVertical: 2 },
-  sidebarNowLabel: { fontFamily: fonts.monoBold, fontSize: 7, color: colors.textMuted, letterSpacing: 1.2, marginBottom: 3 },
-  sidebarNowTitle: { fontFamily: fonts.sansSemiBold, fontSize: 10, lineHeight: 13 },
-  sidebarNowYear: { fontFamily: fonts.mono, fontSize: 8, marginTop: 2 },
-  sidebarNowCreator: { fontFamily: fonts.sans, fontSize: 8, color: colors.textMuted, marginTop: 1 },
+  sidebarShuffleText: { fontFamily: fonts.monoBold, fontSize: 7, letterSpacing: 1 },
 
   // ── Skeleton loading ──
   // Animation applied via CSS `[data-skeleton]` selector (injected in useEffect above)
