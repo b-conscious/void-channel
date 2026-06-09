@@ -67,15 +67,14 @@ export default function CategoryRow({ category, onItemPress, loading, onSeeAll }
         <View style={styles.emptyWrap}>
           <Text style={styles.emptyText}>— {gen?.noSignal || 'DEAD AIR'} —</Text>
         </View>
+      ) : IS_DESKTOP ? (
+        <View style={styles.grid}>
+          {items.map((item) => (
+            <MediaCard key={item.id} item={item} onPress={(it) => onItemPress(it, category.id)} />
+          ))}
+        </View>
       ) : (
-        {IS_DESKTOP ? (
-          <View style={styles.grid}>
-            {items.map((item) => (
-              <MediaCard key={item.id} item={item} onPress={(it) => onItemPress(it, category.id)} />
-            ))}
-          </View>
-        ) : (
-          <FlatList
+        <FlatList
             data={items}
             keyExtractor={(item) => item.id}
             horizontal
@@ -93,7 +92,6 @@ export default function CategoryRow({ category, onItemPress, loading, onSeeAll }
               index,
             })}
           />
-        )}
       )}
     </View>
   );
