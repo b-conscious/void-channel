@@ -3,10 +3,9 @@ const fetch = require("node-fetch");
 const BASE = "https://archive.org";
 const SEARCH_URL = `${BASE}/advancedsearch.php`;
 const META_URL = (id) => `${BASE}/metadata/${id}`;
-// Width-capped thumbnails — archive.org default is often 600-1200px, way too big for cards.
-// 100px loads 6x faster than full-size. Cards are ~150px wide, so 100px is fine even at 2x.
-// getItem() uses full-size (w=null) for poster/hero.
-const THUMB_URL = (id, w = 100) => `${BASE}/services/img/${id}${w ? `?w=${w}` : ''}`;
+// Full-resolution thumbnails — Archive.org serves them at native size.
+// Speed comes from skeleton wireframes during load, not from resolution reduction.
+const THUMB_URL = (id, w = null) => `${BASE}/services/img/${id}${w ? `?w=${w}` : ''}`;
 const FILE_URL = (id, file) => `${BASE}/download/${id}/${encodeURIComponent(file)}`;
 
 // Exclude adult/mature/sex-ed content from all regular category & search queries.
@@ -303,7 +302,7 @@ const CATEGORIES = [
     id: "game_shows",
     name: "Game Shows",
     subtitle: "Prizes, buzzers, and hosts who smiled too much",
-    query: "(subject:(\"game show\") OR title:(\"game show\") OR title:(\"wheel of fortune\") OR title:(\"jeopardy\") OR title:(\"price is right\") OR subject:(\"quiz show\")) AND mediatype:(movies)",
+    query: '(subject:("game show" OR "game shows" OR "quiz show" OR "quiz shows" OR "tv game" OR "television game") OR collection:(game_shows OR gameshow) OR title:("wheel of fortune") OR title:("jeopardy") OR title:("price is right") OR title:("family feud") OR title:("match game") OR title:("hollywood squares") OR title:("lets make a deal") OR title:("password") OR title:("to tell the truth") OR title:("press your luck") OR title:("card sharks") OR title:("sale of the century") OR title:("name that tune") OR title:("what\'s my line") OR title:("i\'ve got a secret") OR title:("supermarket sweep") OR title:("double dare") OR title:("nickelodeon guts") OR title:("legends of the hidden temple") OR title:("wipeout") OR title:("deal or no deal") OR title:("who wants to be a millionaire")) AND mediatype:(movies)',
   },
   {
     id: "silent_film",
@@ -796,24 +795,34 @@ async function searchVariety(query, rows = 25) {
 }
 
 async function getItem(identifier) {
-  const url = META_URL(identifier);
-  const res = await fetch(url, {
-    headers: { "User-Agent": "VoidChannel/0.2" },
-    timeout: 15000,
-  });
+  // Strip version suffixes (e.g. ":1") that Archive search sometimes appends
+  var cleanId = identifier.replace(/:\d+$/, '');
+  var fallback = {
+    id: cleanId,
+    title: cleanId.replace(/_/g, " "),
+    description: "Item metadata unavailable from Archive.org.",
+    year: null, creator: null, duration: null,
+    thumbnail: THUMB_URL(cleanId, null),
+    archiveUrl: `${BASE}/details/${cleanId}`,
+    videoUrl: FILE_URL(cleanId, `${cleanId}_512kb.mp4`),
+    videoUrlHQ: null, videoSize: null, videoFormat: null,
+    availableFormats: [],
+  };
+
+  var res;
+  try {
+    var url = META_URL(cleanId);
+    res = await fetch(url, {
+      headers: { "User-Agent": "VoidChannel/0.2" },
+      timeout: 15000,
+    });
+  } catch (err) {
+    console.warn(`[archive] getItem(${cleanId}) network error:`, err.message);
+    return fallback;
+  }
   if (!res.ok) {
-    console.warn(`[archive] getItem(${identifier}) HTTP ${res.status}`);
-    return {
-      id: identifier,
-      title: identifier.replace(/_/g, " "),
-      description: "Item metadata unavailable from Archive.org.",
-      year: null, creator: null, duration: null,
-      thumbnail: THUMB_URL(identifier, null),
-      archiveUrl: `${BASE}/details/${identifier}`,
-      videoUrl: FILE_URL(identifier, `${identifier}_512kb.mp4`),
-      videoUrlHQ: null, videoSize: null, videoFormat: null,
-      availableFormats: [],
-    };
+    console.warn(`[archive] getItem(${cleanId}) HTTP ${res.status}`);
+    return fallback;
   }
   let data;
   try { data = await res.json(); } catch { data = {}; }
@@ -835,7 +844,7 @@ async function getItem(identifier) {
     : meta.subject ? String(meta.subject).split(';').map(s => s.trim()).filter(Boolean).slice(0, 15) : [];
 
   return {
-    id: identifier,
+    id: cleanId,
     title: meta.title || "Untitled",
     description: stripHTML(meta.description).slice(0, 800),
     year: meta.year || meta.date || null,
@@ -843,10 +852,10 @@ async function getItem(identifier) {
     duration: meta.runtime || null,
     collections,
     subjects,
-    thumbnail: THUMB_URL(identifier, null),
-    archiveUrl: `${BASE}/details/${identifier}`,
-    videoUrl: fast ? FILE_URL(identifier, fast.name) : null,
-    videoUrlHQ: best ? FILE_URL(identifier, best.name) : null,
+    thumbnail: THUMB_URL(cleanId, null),
+    archiveUrl: `${BASE}/details/${cleanId}`,
+    videoUrl: fast ? FILE_URL(cleanId, fast.name) : null,
+    videoUrlHQ: best ? FILE_URL(cleanId, best.name) : null,
     videoSize: fast ? parseInt(fast.size || 0) : null,
     videoFormat: fast ? fast.format : null,
     availableFormats: files
@@ -855,7 +864,7 @@ async function getItem(identifier) {
         name: f.name,
         format: f.format || "unknown",
         size: parseInt(f.size || 0),
-        url: FILE_URL(identifier, f.name),
+        url: FILE_URL(cleanId, f.name),
       })),
   };
 }
@@ -970,7 +979,8 @@ async function getAllCategories(rowsPerCategory = 20, shuffle = false) {
  */
 async function getRelated(identifier, limit = 15) {
   try {
-    const url = META_URL(identifier);
+    var cleanId = identifier.replace(/:\d+$/, '');
+    const url = META_URL(cleanId);
     const res = await fetch(url, {
       headers: { "User-Agent": "VoidChannel/0.3" },
       timeout: 12000,
@@ -982,35 +992,55 @@ async function getRelated(identifier, limit = 15) {
     const subjects = Array.isArray(meta.subject)
       ? meta.subject
       : meta.subject ? String(meta.subject).split(";").map((s) => s.trim()) : [];
-    const collections = Array.isArray(meta.collection)
+    const rawCollections = Array.isArray(meta.collection)
       ? meta.collection
       : meta.collection ? [meta.collection] : [];
+    // Filter to meaningful collections (skip internal Archive.org ones)
+    const collections = rawCollections.filter(c =>
+      c && !c.startsWith('fav-') && c !== 'opensource' && c !== 'community'
+      && c !== 'movies' && c !== 'opensource_movies'
+    );
 
-    // Build OR clauses from top subjects (cap at 4 to keep query sane)
-    const subClauses = subjects
-      .slice(0, 4)
-      .map((s) => `subject:(${JSON.stringify(s)})`)
-      .join(" OR ");
-    const colClauses = collections
-      .slice(0, 2)
-      .map((c) => `collection:(${c})`)
-      .join(" OR ");
-
-    let query;
-    if (subClauses && colClauses) {
-      query = `(${subClauses} OR ${colClauses})`;
-    } else if (subClauses) {
-      query = `(${subClauses})`;
-    } else if (colClauses) {
-      query = `(${colClauses})`;
-    } else {
-      return []; // no metadata to build from
+    // ── TIER 1: Same show / same collection ──────────────────
+    // If this item belongs to a real collection (= a show/series on Archive.org),
+    // fetch more episodes from that collection first. Sort by title so episodes
+    // appear in roughly the right order (most Archive uploads name files sequentially).
+    var sameShow = [];
+    if (collections.length > 0) {
+      const colClauses = collections.slice(0, 3).map(c => `collection:(${c})`).join(' OR ');
+      const colQuery = `(${colClauses}) AND mediatype:(movies) NOT identifier:(${cleanId})` + NSFW_EXCLUDE;
+      try {
+        sameShow = await search(colQuery, limit, 1, 'titleSorter asc');
+      } catch { sameShow = []; }
     }
 
-    query += ` AND mediatype:(movies) NOT identifier:(${identifier})`;
-    query += NSFW_EXCLUDE;
+    // If same-show filled everything we need, done — no mixing required
+    if (sameShow.length >= limit) return sameShow.slice(0, limit);
 
-    return await searchVariety(query, limit);
+    // ── TIER 2: Subject-based backfill ───────────────────────
+    // Fill remaining slots with content that shares subjects/tags but
+    // isn't from the same collection (avoid duplicates).
+    var backfill = [];
+    const remaining = limit - sameShow.length;
+    if (remaining > 0 && subjects.length > 0) {
+      const subClauses = subjects
+        .slice(0, 4)
+        .map(s => `subject:(${JSON.stringify(s)})`)
+        .join(' OR ');
+      // Exclude same-collection items so we don't duplicate tier 1
+      const excludeCol = collections.length > 0
+        ? collections.slice(0, 3).map(c => ` NOT collection:(${c})`).join('')
+        : '';
+      const subQuery = `(${subClauses}) AND mediatype:(movies) NOT identifier:(${cleanId})${excludeCol}` + NSFW_EXCLUDE;
+      try {
+        backfill = await searchVariety(subQuery, remaining);
+      } catch { backfill = []; }
+    }
+
+    // Merge: same-show episodes on top (ordered), then subject-based variety
+    const seenIds = new Set(sameShow.map(i => i.id));
+    const deduped = backfill.filter(i => !seenIds.has(i.id));
+    return [...sameShow, ...deduped].slice(0, limit);
   } catch (err) {
     console.error(`[getRelated] ${identifier}:`, err.message);
     return [];

@@ -7,8 +7,9 @@ import {
 const { height: SCREEN_H, width: SCREEN_W } = Dimensions.get('window');
 const IS_WEB = Platform.OS === 'web';
 const IS_DESKTOP = IS_WEB && SCREEN_W > 900;
-const VIDEO_H = IS_WEB ? Math.round(SCREEN_H * 0.52) : Math.round(SCREEN_H * 0.42);
-const SIDEBAR_W = IS_DESKTOP ? 420 : 0;
+// Desktop: video eats the full viewport height — scroll down for info/sidebar.
+const VIDEO_H = IS_WEB ? SCREEN_H : Math.round(SCREEN_H * 0.42);
+const SIDEBAR_W = IS_DESKTOP ? 340 : 0;
 
 // Enable LayoutAnimation on Android
 if (Platform.OS === 'android' && UIManager.setLayoutAnimationEnabledExperimental) {
@@ -477,6 +478,48 @@ export default function PlayerScreen({ route, navigation }) {
     setInfoExpanded((v) => !v);
   }, []);
 
+  // Video area inner content — shared between desktop (full-width) and mobile (column) layouts
+  var videoInner = (
+    <>
+      {!videoSource ? (
+        <View style={styles.loadingWrap}>
+          {IS_WEB && (
+            <View dataSet={{voidNoise: 'static'}} style={[StyleSheet.absoluteFill, { backgroundColor: colors.card, opacity: 0.6 }]} />
+          )}
+          {stub.thumbnail && (
+            <FastImage uri={stub.thumbnail} itemId={stub.id} style={[StyleSheet.absoluteFill, { opacity: 0.35 }]} contentFit="cover" />
+          )}
+          {error ? (
+            <>
+              <Ionicons name="warning-outline" size={40} color={colors.textMuted} />
+              <Text style={styles.errorText}>{error}</Text>
+            </>
+          ) : (
+            <>
+              <ActivityIndicator color={accent} size="large" />
+              <Text style={[styles.loadingText, { color: accent }]}>TUNING SIGNAL...</Text>
+            </>
+          )}
+        </View>
+      ) : (
+        <VideoPlayer
+          ref={videoRef}
+          videoUrl={videoSource}
+          title={item.title}
+          onBack={safeGoBack}
+          onEnded={(inChannel || autoplay) ? handleVideoEnded : undefined}
+          onVideoError={handleVideoError}
+          channelLabel={inChannel ? channelLabel || "CHANNEL" : undefined}
+        />
+      )}
+      {!videoSource && (
+        <TouchableOpacity style={[styles.overlayBack, { top: insets.top + 8 }]} onPress={safeGoBack} hitSlop={10}>
+          <Ionicons name="chevron-back" size={26} color="#fff" />
+        </TouchableOpacity>
+      )}
+    </>
+  );
+
   // Desktop sidebar — related videos shown vertically like YouTube
   const SidebarContent = IS_DESKTOP ? (
     <ScrollView style={styles.sidebar} showsVerticalScrollIndicator={false} contentContainerStyle={{ paddingBottom: 10 }}>
@@ -521,10 +564,35 @@ export default function PlayerScreen({ route, navigation }) {
       )}
 
       {/* Up Next */}
+      {/* Browse full collection — "VIEW ALL" link */}
+      {item.collections?.length > 0 && (
+        <Pressable
+          onPress={() => {
+            Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+            navigation.navigate('Search', {
+              collection: item.collections[0],
+              collectionName: item.collections[0].replace(/_/g, ' '),
+              _ts: Date.now(),
+            });
+          }}
+          style={[styles.sidebarViewAll, { borderColor: accent + '40' }]}
+        >
+          <Ionicons name="albums-outline" size={13} color={accent} />
+          <Text style={[styles.sidebarViewAllText, { color: accent }]} numberOfLines={1}>
+            {item.collections[0].replace(/_/g, ' ')}
+          </Text>
+          <View style={{ flex: 1 }} />
+          <Text style={[styles.sidebarViewAllBtn, { color: accent }]}>VIEW ALL</Text>
+          <Ionicons name="chevron-forward" size={14} color={accent} />
+        </Pressable>
+      )}
+
       {relatedItems.length > 0 && (
         <>
           <View style={styles.sidebarUpNext}>
-            <Text style={[styles.sidebarUpNextLabel, { color: accent }]}>UP NEXT</Text>
+            <Text style={[styles.sidebarUpNextLabel, { color: accent }]}>
+              {item.collections?.length > 0 ? 'NEXT IN SERIES' : 'UP NEXT'}
+            </Text>
           </View>
           <Pressable
             onPress={() => {
@@ -544,7 +612,7 @@ export default function PlayerScreen({ route, navigation }) {
           <View style={styles.sidebarDivider} />
 
           {/* More related */}
-          <Text style={styles.sidebarSectionLabel}>RABBIT HOLE</Text>
+          <Text style={styles.sidebarSectionLabel}>MORE EPISODES</Text>
           {relatedItems.slice(1).map((rel) => (
             <Pressable
               key={rel.id}
@@ -580,100 +648,9 @@ export default function PlayerScreen({ route, navigation }) {
     </ScrollView>
   ) : null;
 
-  return (
-    <View style={styles.container}>
-      {/* XP toast */}
-      {xpToast && (
-        <Animated.View style={[styles.xpToast, { opacity: xpOpacity, borderColor: accent }]}>
-          <Text style={[styles.xpToastText, { color: accent }]}>{xpToast}</Text>
-        </Animated.View>
-      )}
-
-      {/* Desktop: two-column row. Mobile: stacked. */}
-      <View style={IS_DESKTOP ? styles.desktopRow : { flex: 1 }}>
-        {/* Left column: video + info */}
-        <View style={IS_DESKTOP ? styles.desktopMain : { flex: 1 }}>
-
-      {/* Video area — taller default */}
-      <View style={[styles.playerArea, { height: infoExpanded ? VIDEO_H * 0.7 : VIDEO_H }]}>
-        {!videoSource ? (
-          <View style={styles.loadingWrap}>
-            {/* TV static noise behind loading spinner — "out of the void" */}
-            {IS_WEB && (
-              <View
-                dataSet={{ voidNoise: 'static' }}
-                style={[StyleSheet.absoluteFill, { backgroundColor: colors.card, opacity: 0.6 }]}
-              />
-            )}
-            {/* Show item thumbnail as poster while video loads */}
-            {stub.thumbnail && (
-              <FastImage
-                uri={stub.thumbnail}
-                itemId={stub.id}
-                style={[StyleSheet.absoluteFill, { opacity: 0.35 }]}
-                contentFit="cover"
-              />
-            )}
-            {error ? (
-              <>
-                <Ionicons name="warning-outline" size={40} color={colors.textMuted} />
-                <Text style={styles.errorText}>{error}</Text>
-              </>
-            ) : (
-              <>
-                <ActivityIndicator color={accent} size="large" />
-                <Text style={[styles.loadingText, { color: accent }]}>TUNING SIGNAL...</Text>
-              </>
-            )}
-          </View>
-        ) : (
-          <VideoPlayer
-            ref={videoRef}
-            videoUrl={videoSource}
-            title={item.title}
-            onBack={safeGoBack}
-            onEnded={(inChannel || autoplay) ? handleVideoEnded : undefined}
-            onVideoError={handleVideoError}
-            channelLabel={inChannel ? channelLabel || "CHANNEL" : undefined}
-          />
-        )}
-
-        {/* Back/fullscreen overlay only when video player is NOT shown */}
-        {!videoSource && (
-          <TouchableOpacity
-            style={[styles.overlayBack, { top: insets.top + 8 }]}
-            onPress={safeGoBack}
-            hitSlop={10}
-          >
-            <Ionicons name="chevron-back" size={26} color="#fff" />
-          </TouchableOpacity>
-        )}
-      </View>
-
-      {/* Mobile autoplay toggle — below video */}
-      {!IS_DESKTOP && (
-        <View style={styles.mobileAutoplayRow}>
-          <Text style={styles.mobileAutoplayLabel}>Autoplay</Text>
-          <TouchableOpacity
-            onPress={() => setAutoplay((v) => !v)}
-            style={[styles.autoplayToggle, autoplay && { backgroundColor: accent }]}
-            activeOpacity={0.7}
-          >
-            <View style={[styles.autoplayKnob, autoplay && styles.autoplayKnobOn]} />
-          </TouchableOpacity>
-          {autoplay && relatedItems.length > 0 && (
-            <Text style={styles.mobileUpNextHint} numberOfLines={1}>Up next: {relatedItems[0]?.title}</Text>
-          )}
-        </View>
-      )}
-
-      {/* ── Info panel below video ── */}
-      <ScrollView
-        style={styles.infoPanel}
-        contentContainerStyle={{ paddingBottom: insets.bottom + 90 }}
-        bounces={false}
-        showsVerticalScrollIndicator={false}
-      >
+  // ── Info panel content — shared between desktop and mobile layouts ──
+  var infoPanelContent = (
+      <>
         {/* ── Title block — Netflix-style dense header ── */}
         <View style={styles.titleBlock}>
           <View style={styles.titleRow}>
@@ -699,6 +676,53 @@ export default function PlayerScreen({ route, navigation }) {
             ) : null}
           </View>
         </View>
+
+        {/* ── Browse series / creator — always visible ── */}
+        {(item.collections?.length > 0 || item.creator) && (
+          <View style={styles.seriesChipsRow}>
+            {item.collections?.slice(0, 3).map((col) => (
+              <TouchableOpacity
+                key={col}
+                style={[styles.seriesChip, { borderColor: accent + '50' }]}
+                onPress={() => {
+                  Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+                  navigation.navigate('Search', {
+                    collection: col,
+                    collectionName: col.replace(/_/g, ' '),
+                    _ts: Date.now(),
+                  });
+                }}
+                activeOpacity={0.7}
+              >
+                <Ionicons name="albums-outline" size={13} color={accent} />
+                <Text style={[styles.seriesChipText, { color: accent }]} numberOfLines={1}>
+                  {col.replace(/_/g, ' ')}
+                </Text>
+                <Ionicons name="chevron-forward" size={12} color={accent + '80'} />
+              </TouchableOpacity>
+            ))}
+            {item.creator && (
+              <TouchableOpacity
+                style={[styles.seriesChip, { borderColor: colors.textMuted + '40' }]}
+                onPress={() => {
+                  Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+                  navigation.navigate('Search', {
+                    creator: Array.isArray(item.creator) ? item.creator[0] : item.creator,
+                    creatorName: Array.isArray(item.creator) ? item.creator[0] : item.creator,
+                    _ts: Date.now(),
+                  });
+                }}
+                activeOpacity={0.7}
+              >
+                <Ionicons name="person-outline" size={13} color={colors.textSecondary} />
+                <Text style={[styles.seriesChipText, { color: colors.textSecondary }]} numberOfLines={1}>
+                  {Array.isArray(item.creator) ? item.creator[0] : item.creator}
+                </Text>
+                <Ionicons name="chevron-forward" size={12} color={colors.textMuted} />
+              </TouchableOpacity>
+            )}
+          </View>
+        )}
 
         {/* ── Quick actions — icon strip like Netflix ── */}
         <View style={styles.actionStrip}>
@@ -1348,13 +1372,62 @@ export default function PlayerScreen({ route, navigation }) {
             ))}
           </View>
         )}
-      </ScrollView>
+      </>
+  );
 
-        </View>{/* end desktopMain or flex:1 */}
+  return (
+    <View style={styles.container}>
+      {/* XP toast */}
+      {xpToast && (
+        <Animated.View style={[styles.xpToast, { opacity: xpOpacity, borderColor: accent }]}>
+          <Text style={[styles.xpToastText, { color: accent }]}>{xpToast}</Text>
+        </Animated.View>
+      )}
 
-        {/* Desktop sidebar */}
-        {SidebarContent}
-      </View>{/* end desktopRow or flex:1 */}
+      {IS_DESKTOP ? (
+        /* ── DESKTOP: full-viewport video, scroll down for info + sidebar ── */
+        <ScrollView style={{ flex: 1 }} bounces={false} showsVerticalScrollIndicator={false}>
+          <View style={[styles.playerArea, { height: VIDEO_H }]}>
+            {videoInner}
+          </View>
+          <View style={styles.desktopRow}>
+            <View style={styles.desktopMain}>
+              <View style={styles.infoPanel}>
+                {infoPanelContent}
+              </View>
+            </View>
+            {SidebarContent}
+          </View>
+        </ScrollView>
+      ) : (
+        /* ── MOBILE: stacked layout with inner scroll ── */
+        <View style={{ flex: 1 }}>
+          <View style={[styles.playerArea, { height: infoExpanded ? VIDEO_H * 0.7 : VIDEO_H }]}>
+            {videoInner}
+          </View>
+          <View style={styles.mobileAutoplayRow}>
+            <Text style={styles.mobileAutoplayLabel}>Autoplay</Text>
+            <TouchableOpacity
+              onPress={() => setAutoplay((v) => !v)}
+              style={[styles.autoplayToggle, autoplay && { backgroundColor: accent }]}
+              activeOpacity={0.7}
+            >
+              <View style={[styles.autoplayKnob, autoplay && styles.autoplayKnobOn]} />
+            </TouchableOpacity>
+            {autoplay && relatedItems.length > 0 && (
+              <Text style={styles.mobileUpNextHint} numberOfLines={1}>Up next: {relatedItems[0]?.title}</Text>
+            )}
+          </View>
+          <ScrollView
+            style={styles.infoPanel}
+            contentContainerStyle={{ paddingBottom: insets.bottom + 90 }}
+            bounces={false}
+            showsVerticalScrollIndicator={false}
+          >
+            {infoPanelContent}
+          </ScrollView>
+        </View>
+      )}
 
       {/* Add to Playlist modal */}
       <AddToPlaylistModal
@@ -2041,6 +2114,23 @@ const styles = StyleSheet.create({
   viewCountWrap: { flexDirection: 'row', alignItems: 'center', gap: 4 },
   viewCountText: { fontFamily: fonts.mono, fontSize: 12, color: colors.textMuted },
 
+  // ── Browse series / creator chips — always visible under title ──
+  seriesChipsRow: {
+    flexDirection: 'row', flexWrap: 'wrap', gap: 8,
+    paddingHorizontal: spacing.screenPadding,
+    paddingTop: 6, paddingBottom: 2,
+  },
+  seriesChip: {
+    flexDirection: 'row', alignItems: 'center', gap: 6,
+    borderWidth: 1, borderRadius: radius.full,
+    paddingHorizontal: 12, paddingVertical: 6,
+    maxWidth: '90%',
+  },
+  seriesChipText: {
+    fontFamily: fonts.sansMedium, fontSize: 13,
+    flexShrink: 1,
+  },
+
   // Compact horizontal action strip
   actionStrip: {
     flexDirection: 'row', justifyContent: 'space-around',
@@ -2250,13 +2340,26 @@ const styles = StyleSheet.create({
     width: SIDEBAR_W,
     backgroundColor: colors.bg,
     borderLeftWidth: 1, borderLeftColor: colors.surface,
-    paddingLeft: 14, paddingRight: 10, paddingTop: 10,
+    paddingLeft: 12, paddingRight: 8, paddingTop: 10,
   },
   sidebarAutoplay: {
     flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between',
     marginBottom: 10,
   },
   sidebarAutoplayLabel: { fontFamily: fonts.monoBold, fontSize: 10, color: colors.textMuted, letterSpacing: 1 },
+  sidebarViewAll: {
+    flexDirection: 'row', alignItems: 'center', gap: 6,
+    borderWidth: 1, borderRadius: radius.sm,
+    paddingHorizontal: 10, paddingVertical: 8,
+    marginBottom: 12,
+  },
+  sidebarViewAllText: {
+    fontFamily: fonts.sansMedium, fontSize: 13,
+    flexShrink: 1,
+  },
+  sidebarViewAllBtn: {
+    fontFamily: fonts.monoBold, fontSize: 10, letterSpacing: 1,
+  },
   sidebarUpNext: { marginBottom: 6 },
   sidebarUpNextLabel: { fontFamily: fonts.monoBold, fontSize: 11, letterSpacing: 1.5 },
   sidebarUpNextCard: {
@@ -2264,7 +2367,7 @@ const styles = StyleSheet.create({
     borderRadius: radius.sm, backgroundColor: colors.surface + '40',
     borderWidth: 1, borderColor: colors.surface,
   },
-  sidebarUpNextThumb: { width: 168, height: 95, borderRadius: 4, backgroundColor: colors.card },
+  sidebarUpNextThumb: { width: 150, height: 85, borderRadius: 4, backgroundColor: colors.card },
   sidebarUpNextInfo: { flex: 1, justifyContent: 'center', overflow: 'hidden' },
   sidebarUpNextTitle: { fontFamily: fonts.sansSemiBold, fontSize: 14, color: colors.textPrimary, lineHeight: 19 },
   sidebarUpNextYear: { fontFamily: fonts.mono, fontSize: 11, marginTop: 3 },
@@ -2279,7 +2382,7 @@ const styles = StyleSheet.create({
   sidebarRelCard: {
     flexDirection: 'row', gap: 10, marginBottom: 8, alignItems: 'center',
   },
-  sidebarRelThumb: { width: 140, height: 79, borderRadius: 4, backgroundColor: colors.card },
+  sidebarRelThumb: { width: 130, height: 73, borderRadius: 4, backgroundColor: colors.card },
   sidebarRelInfo: { flex: 1, overflow: 'hidden' },
   sidebarRelTitle: { fontFamily: fonts.sans, fontSize: 13, color: colors.textPrimary, lineHeight: 18 },
   sidebarRelYear: { fontFamily: fonts.mono, fontSize: 11, marginTop: 2 },

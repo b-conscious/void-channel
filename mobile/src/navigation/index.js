@@ -2,7 +2,7 @@ import React, { Suspense } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { StyleSheet, Platform, View, ActivityIndicator } from 'react-native';
+import { StyleSheet, Platform, View, Text, ActivityIndicator } from 'react-native';
 import { BlurView } from 'expo-blur';
 import { Ionicons } from '@expo/vector-icons';
 
@@ -32,6 +32,15 @@ const TAB_CONFIG = {
   'My Void':{ default: 'bookmark-outline', focused: 'bookmark' },
 };
 
+// Each tab glows in its own unique color —
+// desaturated when idle, bright + glow when selected.
+var TAB_COLORS = {
+  Browse:    '#5cb8ff',   // brand blue — home base
+  Search:    '#b566ff',   // violet — discovery
+  Signal:    '#4ade80',   // emerald — radar / signal
+  'My Void': '#f5a623',   // amber gold — personal vault
+};
+
 // Minimal loading fallback — just the background color
 function ScreenFallback() {
   return (
@@ -59,35 +68,64 @@ function TabBackground() {
 }
 
 function TabNavigator() {
-  const { gen } = useGeneration();
-  const accent = gen?.accentColor || colors.amber;
-
   return (
     <Tab.Navigator
-      screenOptions={({ route }) => ({
-        headerShown: false,
-        header: () => null,
-        tabBarStyle: {
-          position: 'absolute',
-          backgroundColor: Platform.OS === 'ios' ? 'transparent' : colors.bg,
-          borderTopColor: colors.surface,
-          borderTopWidth: StyleSheet.hairlineWidth,
-          elevation: 0,
-        },
-        tabBarBackground: () => <TabBackground />,
-        tabBarActiveTintColor: accent,
-        tabBarInactiveTintColor: colors.textGhost,
-        tabBarLabelStyle: {
-          fontFamily: fonts.mono,
-          fontSize: 9,
-          letterSpacing: 1,
-          marginBottom: Platform.OS === 'android' ? 4 : 0,
-        },
-        tabBarIcon: ({ focused, color, size }) => {
-          const cfg = TAB_CONFIG[route.name] || { default: 'ellipse-outline', focused: 'ellipse' };
-          return <Ionicons name={focused ? cfg.focused : cfg.default} size={21} color={color} />;
-        },
-      })}
+      screenOptions={({ route }) => {
+        var tabColor = TAB_COLORS[route.name] || colors.amber;
+        var cfg = TAB_CONFIG[route.name] || { default: 'ellipse-outline', focused: 'ellipse' };
+
+        return {
+          headerShown: false,
+          header: () => null,
+          tabBarStyle: {
+            position: 'absolute',
+            backgroundColor: Platform.OS === 'ios' ? 'transparent' : colors.bg,
+            borderTopColor: colors.surface,
+            borderTopWidth: StyleSheet.hairlineWidth,
+            elevation: 0,
+            height: Platform.OS === 'ios' ? 84 : 64,
+            paddingBottom: Platform.OS === 'ios' ? 22 : 6,
+            paddingTop: 6,
+          },
+          tabBarBackground: () => <TabBackground />,
+          tabBarIcon: ({ focused }) => {
+            var iconName = focused ? cfg.focused : cfg.default;
+            var iconColor = focused ? tabColor : tabColor + '55';
+            var glowStyle = focused ? {
+              textShadowColor: tabColor,
+              textShadowOffset: { width: 0, height: 0 },
+              textShadowRadius: Platform.OS === 'web' ? 14 : 8,
+            } : {};
+            return (
+              <Ionicons
+                name={iconName}
+                size={26}
+                color={iconColor}
+                style={glowStyle}
+              />
+            );
+          },
+          tabBarLabel: ({ focused }) => {
+            var labelColor = focused ? tabColor : tabColor + '55';
+            var glowStyle = focused ? {
+              textShadowColor: tabColor,
+              textShadowOffset: { width: 0, height: 0 },
+              textShadowRadius: Platform.OS === 'web' ? 10 : 5,
+            } : {};
+            return (
+              <Text style={[{
+                fontFamily: fonts.mono,
+                fontSize: 10,
+                letterSpacing: 1.2,
+                color: labelColor,
+                marginBottom: Platform.OS === 'android' ? 4 : 0,
+              }, glowStyle]}>
+                {route.name.toUpperCase()}
+              </Text>
+            );
+          },
+        };
+      }}
     >
       <Tab.Screen name="Browse"   component={HomeScreen} />
       <Tab.Screen name="Search"   component={LazySearch} />
