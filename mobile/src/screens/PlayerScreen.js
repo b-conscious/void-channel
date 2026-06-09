@@ -8,7 +8,7 @@ const { height: SCREEN_H, width: SCREEN_W } = Dimensions.get('window');
 const IS_WEB = Platform.OS === 'web';
 const IS_DESKTOP = IS_WEB && SCREEN_W > 900;
 const VIDEO_H = IS_WEB ? Math.round(SCREEN_H * 0.52) : Math.round(SCREEN_H * 0.42);
-const SIDEBAR_W = IS_DESKTOP ? 180 : 0;
+const SIDEBAR_W = IS_DESKTOP ? 200 : 0;
 
 // Enable LayoutAnimation on Android
 if (Platform.OS === 'android' && UIManager.setLayoutAnimationEnabledExperimental) {
@@ -2176,12 +2176,12 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff', alignSelf: 'flex-end',
   },
 
-  // ── Desktop sidebar (180px — tight padding, full-size thumbs, capped titles) ──
+  // ── Desktop sidebar (200px — edge-to-edge content, zero wasted right space) ──
   sidebar: {
     width: SIDEBAR_W,
     backgroundColor: colors.bg,
     borderLeftWidth: 1, borderLeftColor: colors.surface,
-    paddingLeft: 5, paddingRight: 3, paddingTop: 6,
+    paddingLeft: 4, paddingRight: 2, paddingTop: 6,
   },
   sidebarAutoplay: {
     flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between',
@@ -2195,11 +2195,11 @@ const styles = StyleSheet.create({
     borderRadius: radius.sm, backgroundColor: colors.surface + '40',
     borderWidth: 1, borderColor: colors.surface,
   },
-  sidebarUpNextThumb: { width: 64, height: 38, borderRadius: 3, backgroundColor: colors.card },
+  sidebarUpNextThumb: { width: 72, height: 42, borderRadius: 3, backgroundColor: colors.card },
   sidebarUpNextInfo: { flex: 1, justifyContent: 'center', overflow: 'hidden' },
-  sidebarUpNextTitle: { fontFamily: fonts.sansSemiBold, fontSize: 10, color: colors.textPrimary, lineHeight: 12 },
-  sidebarUpNextYear: { fontFamily: fonts.mono, fontSize: 7, marginTop: 1 },
-  sidebarUpNextCreator: { fontFamily: fonts.sans, fontSize: 7, color: colors.textMuted, marginTop: 1 },
+  sidebarUpNextTitle: { fontFamily: fonts.sansSemiBold, fontSize: 11, color: colors.textPrimary, lineHeight: 14 },
+  sidebarUpNextYear: { fontFamily: fonts.mono, fontSize: 8, marginTop: 1 },
+  sidebarUpNextCreator: { fontFamily: fonts.sans, fontSize: 8, color: colors.textMuted, marginTop: 1 },
   sidebarDivider: {
     height: 1, backgroundColor: colors.surface, marginVertical: 5,
   },
@@ -2208,13 +2208,13 @@ const styles = StyleSheet.create({
     letterSpacing: 1.2, marginBottom: 3,
   },
   sidebarRelCard: {
-    flexDirection: 'row', gap: 4, marginBottom: 3, alignItems: 'center',
+    flexDirection: 'row', gap: 5, marginBottom: 4, alignItems: 'center',
   },
-  sidebarRelThumb: { width: 56, height: 34, borderRadius: 3, backgroundColor: colors.card },
+  sidebarRelThumb: { width: 64, height: 38, borderRadius: 3, backgroundColor: colors.card },
   sidebarRelInfo: { flex: 1, overflow: 'hidden' },
-  sidebarRelTitle: { fontFamily: fonts.sans, fontSize: 9, color: colors.textPrimary, lineHeight: 11 },
-  sidebarRelYear: { fontFamily: fonts.mono, fontSize: 7, marginTop: 1 },
-  sidebarRelCreator: { fontFamily: fonts.sans, fontSize: 7, color: colors.textMuted, marginTop: 1 },
+  sidebarRelTitle: { fontFamily: fonts.sans, fontSize: 11, color: colors.textPrimary, lineHeight: 14 },
+  sidebarRelYear: { fontFamily: fonts.mono, fontSize: 8, marginTop: 1 },
+  sidebarRelCreator: { fontFamily: fonts.sans, fontSize: 8, color: colors.textMuted, marginTop: 1 },
   sidebarShuffleBtn: {
     flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 3,
     paddingVertical: 4, marginTop: 2, borderRadius: radius.sm,
