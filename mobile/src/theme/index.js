@@ -77,8 +77,8 @@ const _screenW = typeof window !== 'undefined' && window.innerWidth ? window.inn
 const _isWide = _screenW > 768;
 
 export const cardSize = {
-  width: _isWide ? 250 : 198,
-  height: _isWide ? 156 : 124,
+  width: _isWide ? 300 : 198,
+  height: _isWide ? 169 : 124,   // 16:9 aspect ratio
   gap: _isWide ? 14 : 10,
 };
 

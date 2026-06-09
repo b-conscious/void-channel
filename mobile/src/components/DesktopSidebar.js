@@ -76,14 +76,14 @@ export default function DesktopSidebar({ state, navigation }) {
         contentContainerStyle={styles.scrollContent}
         showsVerticalScrollIndicator={false}
       >
-        {/* ── Logo ── */}
-        <View style={styles.logoSection}>
+        {/* ── Logo — clickable → Browse ── */}
+        <TouchableOpacity onPress={function () { handleTabPress('Browse'); }} style={styles.logoSection} activeOpacity={0.7}>
           <View style={styles.logoRow}>
             <Text style={[styles.logoVoid, { color: accent }]}>VOID</Text>
-            <Text style={styles.logoCh}> CHANNEL</Text>
+            <Text style={styles.logoTv}>tv</Text>
           </View>
           <Text style={[styles.tagline, { color: BRAND_BLUE }]}>GENERATING SINCE 1895</Text>
-        </View>
+        </TouchableOpacity>
 
         {/* ── Main nav tabs ── */}
         {NAV_ITEMS.map(function (item) {
@@ -211,7 +211,7 @@ export default function DesktopSidebar({ state, navigation }) {
 
         {/* ── Footer ── */}
         <View style={styles.footer}>
-          <Text style={styles.footerText}>VOID CHANNEL v0.3</Text>
+          <Text style={styles.footerText}>VOIDtv v0.3</Text>
           <Text style={styles.footerText}>source: archive.org</Text>
         </View>
       </ScrollView>
@@ -239,8 +239,8 @@ var styles = StyleSheet.create({
   // Logo
   logoSection: { paddingHorizontal: 18, marginBottom: 22 },
   logoRow: { flexDirection: 'row', alignItems: 'baseline' },
-  logoVoid: { fontFamily: fonts.monoBold, fontSize: 16, letterSpacing: 3 },
-  logoCh: { fontFamily: fonts.mono, fontSize: 10, color: colors.textMuted, letterSpacing: 1 },
+  logoVoid: { fontFamily: fonts.monoBold, fontSize: 18, letterSpacing: 3 },
+  logoTv: { fontFamily: fonts.sans, fontSize: 14, color: colors.textMuted, letterSpacing: 0.5 },
   tagline: { fontFamily: fonts.mono, fontSize: 8, letterSpacing: 1.5, marginTop: 4 },
 
   // Nav items (tabs)

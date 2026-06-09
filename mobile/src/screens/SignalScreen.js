@@ -212,7 +212,7 @@ export default function SignalScreen() {
 
       {/* ── Footer ───────────────────────────────────────────── */}
       <View style={styles.footer}>
-        <Text style={styles.footerText}>VOID CHANNEL v0.3 · ARCHIVE.ORG</Text>
+        <Text style={styles.footerText}>VOIDtv v0.3 · ARCHIVE.ORG</Text>
       </View>
     </ScrollView>
   );

@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback, useRef, useMemo } from 'react';
 import {
   View, Text, Animated, TouchableOpacity, Pressable, Modal, Linking,
-  ScrollView, StyleSheet, Dimensions, Platform,
+  ScrollView, StyleSheet, Dimensions, Platform, TextInput,
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { LinearGradient } from 'expo-linear-gradient';
@@ -131,6 +131,27 @@ export default function HomeScreen({ navigation }) {
 
   // Reset category page when generation changes so user sees the new ordering
   useEffect(() => { setCatPage(0); }, [generationId]);
+
+  // ── Pixel font crispness — disable anti-aliasing for monospace fonts on web ──
+  useEffect(() => {
+    if (Platform.OS !== 'web' || typeof document === 'undefined') return;
+    const id = 'voidtv-pixel-crisp-css';
+    if (document.getElementById(id)) return;
+    const s = document.createElement('style');
+    s.id = id;
+    s.textContent = [
+      '/* VOIDtv — crisp pixel/monospace fonts */',
+      '[data-testid], [class*="mono"], [style*="SpaceMono"] {',
+      '  -webkit-font-smoothing: none;',
+      '  -moz-osx-font-smoothing: unset;',
+      '  font-smooth: never;',
+      '}',
+      '/* Global: all mono-spaced text gets sharp rendering */',
+      '@font-face { font-family: SpaceMono_400Regular; font-display: swap; }',
+      '@font-face { font-family: SpaceMono_700Bold; font-display: swap; }',
+    ].join('\n');
+    document.head.appendChild(s);
+  }, []);
 
   const handleRetune = useCallback((direction) => {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
@@ -338,12 +359,24 @@ export default function HomeScreen({ navigation }) {
               </TouchableOpacity>
             )}
             {!IS_DESKTOP && (
-              <View style={styles.logoWrap}>
-                <Text style={[styles.logoVoid, { color: accent }]}>VOID</Text>
-                <Text style={styles.logoCh}> CHANNEL</Text>
-              </View>
+              <TouchableOpacity onPress={() => navigation.navigate('Browse')} activeOpacity={0.7}>
+                <View style={styles.logoWrap}>
+                  <Text style={[styles.logoVoid, { color: accent }]}>VOID</Text>
+                  <Text style={styles.logoTv}>tv</Text>
+                </View>
+              </TouchableOpacity>
             )}
           </View>
+          {/* ── Desktop: centered search bar like YouTube ── */}
+          {IS_DESKTOP && (
+            <Pressable
+              onPress={() => navigation.navigate('Search')}
+              style={styles.desktopSearchBar}
+            >
+              <Ionicons name="search" size={16} color={colors.textMuted} />
+              <Text style={styles.desktopSearchPlaceholder}>Search VOIDtv</Text>
+            </Pressable>
+          )}
           <View style={styles.headerRight}>
             {/* User avatar + name when logged in */}
             {isAuthenticated && user ? (
@@ -486,7 +519,7 @@ export default function HomeScreen({ navigation }) {
             category={{
               id: "trending",
               name: "Trending Now",
-              subtitle: "Most-watched on Void Channel right now",
+              subtitle: "Most-watched on VOIDtv right now",
               items: trending,
             }}
             onItemPress={handleItemPress}
@@ -1158,7 +1191,7 @@ function DrawerMenu({ visible, onClose, accent, gen, generationId, chooseGenerat
 
           {/* Footer */}
           <View style={{ flex: 1 }} />
-          <Text style={drawerStyles.footerText}>VOID CHANNEL v0.3</Text>
+          <Text style={drawerStyles.footerText}>VOIDtv v0.3</Text>
           <Text style={drawerStyles.footerText}>ARCHIVE.ORG · PUBLIC DOMAIN</Text>
         </Pressable>
       </Pressable>
@@ -1261,7 +1294,29 @@ const styles = StyleSheet.create({
   scroll: { flex: 1 },
   logoWrap: { flexDirection: 'row', alignItems: 'baseline' },
   logoVoid: { fontFamily: fonts.monoBold, fontSize: 18, letterSpacing: 4 },
-  logoCh: { fontFamily: fonts.mono, fontSize: 11, color: colors.textMuted, letterSpacing: 1 },
+  logoTv: { fontFamily: fonts.sans, fontSize: 14, color: colors.textMuted, letterSpacing: 0.5 },
+  // Desktop centered search bar (YouTube style)
+  desktopSearchBar: {
+    flex: 1,
+    maxWidth: 540,
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 10,
+    backgroundColor: colors.surface,
+    borderRadius: radius.full,
+    borderWidth: 1,
+    borderColor: colors.border,
+    paddingHorizontal: 16,
+    paddingVertical: 8,
+    marginHorizontal: 24,
+    ...(Platform.OS === 'web' ? { cursor: 'pointer' } : {}),
+  },
+  desktopSearchPlaceholder: {
+    fontFamily: fonts.sans,
+    fontSize: 14,
+    color: colors.textMuted,
+    flex: 1,
+  },
   headerTagline: {
     fontFamily: fonts.monoBold, fontSize: 14, letterSpacing: 3,
     textAlign: 'center', marginTop: 6,

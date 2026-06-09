@@ -8,9 +8,12 @@ const { height: SCREEN_H, width: SCREEN_W } = Dimensions.get('window');
 const IS_WEB = Platform.OS === 'web';
 const IS_DESKTOP = IS_WEB && SCREEN_W > 900;
 // YouTube-style: video + sidebar side-by-side. Video is 16:9 of the left column.
-const SIDEBAR_W = IS_DESKTOP ? 420 : 0;
+// Left nav sidebar (DesktopSidebar) is position:fixed at 220px — PlayerScreen must offset.
+const NAV_W = IS_DESKTOP ? 220 : 0;
+const SIDEBAR_W = IS_DESKTOP ? 360 : 0;
+const AVAILABLE_W = SCREEN_W - NAV_W - SIDEBAR_W;
 const VIDEO_H = IS_WEB
-  ? Math.min(Math.round((SCREEN_W - SIDEBAR_W) * 9 / 16), Math.round(SCREEN_H * 0.72))
+  ? Math.min(Math.round(AVAILABLE_W * 9 / 16), Math.round(SCREEN_H * 0.75))
   : Math.round(SCREEN_H * 0.42);
 
 // Enable LayoutAnimation on Android
@@ -363,7 +366,7 @@ export default function PlayerScreen({ route, navigation }) {
       const sec = Math.floor(s % 60);
       return `${m}:${sec.toString().padStart(2, '0')}`;
     };
-    return `${item.title} [${formatSec(clipStart)}–${formatSec(clipEnd)}] — generating since 1895 // Void Channel`;
+    return `${item.title} [${formatSec(clipStart)}–${formatSec(clipEnd)}] — generating since 1895 // VOIDtv`;
   }, [item, clipStart, clipEnd]);
 
   const handleClipCopyLink = useCallback(async () => {
@@ -407,7 +410,7 @@ export default function PlayerScreen({ route, navigation }) {
   }, [item]);
 
   const getShareText = useCallback(() => {
-    return `${item.title} — generating since 1895 // Void Channel`;
+    return `${item.title} — generating since 1895 // VOIDtv`;
   }, [item]);
 
   const handleCopyLink = useCallback(async () => {
@@ -1639,7 +1642,7 @@ function ClipEditor({
           </View>
         </View>
         <View style={clipStyles.previewInfo}>
-          <Text style={clipStyles.previewBrand}>VOID CHANNEL</Text>
+          <Text style={clipStyles.previewBrand}>VOIDtv</Text>
           <Text style={clipStyles.previewTitle} numberOfLines={2}>{itemTitle || 'Untitled'}</Text>
           <Text style={[clipStyles.previewMeta, { color: accent }]}>
             {formatSec(clipStart)}–{formatSec(clipEnd)}{itemYear ? ` · ${itemYear}` : ''}
@@ -2084,7 +2087,7 @@ function ActionIcon({ icon, label, color, onPress, loading }) {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: colors.bg },
+  container: { flex: 1, backgroundColor: colors.bg, ...(IS_DESKTOP ? { marginLeft: NAV_W } : {}) },
   xpToast: {
     position: 'absolute', top: 60, right: 16, zIndex: 99,
     borderWidth: 1, borderRadius: radius.full,
@@ -2367,7 +2370,7 @@ const styles = StyleSheet.create({
 
   // ── Desktop sidebar — YouTube-style with filter chips ──
   sidebar: {
-    width: SIDEBAR_W,
+    width: SIDEBAR_W || 360,
     backgroundColor: colors.bg,
     borderLeftWidth: 1, borderLeftColor: colors.surface,
     paddingLeft: 12, paddingRight: 8, paddingTop: 8,

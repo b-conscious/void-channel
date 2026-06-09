@@ -563,9 +563,7 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
               )}
             </View>
 
-            <TouchableOpacity onPress={toggleFullscreen} style={styles.fsBtn} hitSlop={8}>
-              <Ionicons name={isFs ? "contract-outline" : "expand-outline"} size={22} color="#fff" />
-            </TouchableOpacity>
+            {/* Fullscreen button is in the bottom progress bar — removed duplicate here */}
           </View>
 
           <View style={styles.centerRow}>

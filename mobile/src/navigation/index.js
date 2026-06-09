@@ -195,16 +195,16 @@ export default function Navigation() {
   const onStateChange = Platform.OS === 'web' ? function (state) {
     var route = state && state.routes ? state.routes[state.index] : null;
     if (!route) return;
-    var titles = { Main: 'Void Channel', Auth: 'Sign In — Void Channel', Playlists: 'Playlists — Void Channel', Admin: 'Admin — Void Channel' };
+    var titles = { Main: 'VOIDtv', Auth: 'Sign In — VOIDtv', Playlists: 'Playlists — VOIDtv', Admin: 'Admin — VOIDtv' };
     if (route.name === 'Player') {
       var name = (route.params && route.params.item && route.params.item.title) || (route.params && route.params.id) || 'Watch';
-      document.title = name + ' — Void Channel';
+      document.title = name + ' — VOIDtv';
     } else if (route.name === 'Main') {
       var tab = route.state && route.state.routes ? route.state.routes[route.state.index] : null;
-      var tabTitles = { Browse: 'Void Channel', Search: 'Search — Void Channel', Signal: 'Signal — Void Channel', 'My Void': 'My Void — Void Channel' };
-      document.title = (tab ? tabTitles[tab.name] : null) || 'Void Channel';
+      var tabTitles = { Browse: 'VOIDtv', Search: 'Search — VOIDtv', Signal: 'Signal — VOIDtv', 'My Void': 'My Void — VOIDtv' };
+      document.title = (tab ? tabTitles[tab.name] : null) || 'VOIDtv';
     } else {
-      document.title = titles[route.name] || 'Void Channel';
+      document.title = titles[route.name] || 'VOIDtv';
     }
   } : undefined;
 

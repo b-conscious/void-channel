@@ -1,5 +1,5 @@
 /**
- * API Client — talks to the Void Channel proxy.
+ * API Client — talks to the VOIDtv proxy.
  * The app never hits archive.org directly.
  */
 
@@ -247,7 +247,7 @@ export async function getViewCount(itemId) {
   return request(`/api/views/count/${encodeURIComponent(itemId)}`);
 }
 
-/** Get most-viewed items on Void Channel */
+/** Get most-viewed items on VOIDtv */
 export async function getTopViewed(limit = 30) {
   return request(`/api/views/top?limit=${limit}`);
 }

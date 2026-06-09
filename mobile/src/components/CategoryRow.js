@@ -208,18 +208,21 @@ export default function CategoryRow({
           onHoverOut={onRowHoverOut}
           style={styles.rowWrap}
         >
-          {/* Left arrow */}
-          {canScrollLeft && (
-            <View style={[styles.arrowOverlay, styles.arrowLeft, arrowOpacityStyle]}>
-              <TouchableOpacity
-                onPress={scrollLeft}
-                style={styles.arrowBtn}
-                activeOpacity={0.8}
-              >
-                <Ionicons name="chevron-back" size={24} color="#fff" />
-              </TouchableOpacity>
-            </View>
-          )}
+          {/* Left arrow — always visible on desktop, dimmed when at scroll start */}
+          <View style={[
+            styles.arrowOverlay,
+            styles.arrowLeft,
+            arrowOpacityStyle,
+            !canScrollLeft && { opacity: 0.25, pointerEvents: 'none' },
+          ]}>
+            <TouchableOpacity
+              onPress={scrollLeft}
+              style={styles.arrowBtn}
+              activeOpacity={0.8}
+            >
+              <Ionicons name="chevron-back" size={24} color="#fff" />
+            </TouchableOpacity>
+          </View>
 
           <FlatList
             ref={listRef}
@@ -257,18 +260,21 @@ export default function CategoryRow({
             windowSize={5}
           />
 
-          {/* Right arrow */}
-          {canScrollRight && (
-            <View style={[styles.arrowOverlay, styles.arrowRight, arrowOpacityStyle]}>
-              <TouchableOpacity
-                onPress={scrollRight}
-                style={styles.arrowBtn}
-                activeOpacity={0.8}
-              >
-                <Ionicons name="chevron-forward" size={24} color="#fff" />
-              </TouchableOpacity>
-            </View>
-          )}
+          {/* Right arrow — always visible on desktop, dimmed when at scroll end */}
+          <View style={[
+            styles.arrowOverlay,
+            styles.arrowRight,
+            arrowOpacityStyle,
+            !canScrollRight && { opacity: 0.25, pointerEvents: 'none' },
+          ]}>
+            <TouchableOpacity
+              onPress={scrollRight}
+              style={styles.arrowBtn}
+              activeOpacity={0.8}
+            >
+              <Ionicons name="chevron-forward" size={24} color="#fff" />
+            </TouchableOpacity>
+          </View>
         </Pressable>
       ) : (
         <>
