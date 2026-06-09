@@ -222,7 +222,7 @@ export default function PlayerScreen({ route, navigation }) {
   }, []);
 
   const getClipUrl = useCallback(() => {
-    return `https://void-channel.vercel.app/watch/${item.id}?start=${clipStart}&end=${clipEnd}`;
+    return `https://void-channel.onrender.com/watch/${item.id}?start=${clipStart}&end=${clipEnd}`;
   }, [item, clipStart, clipEnd]);
 
   const getClipText = useCallback(() => {
@@ -271,7 +271,7 @@ export default function PlayerScreen({ route, navigation }) {
   }, [clipStart]);
 
   const getShareUrl = useCallback(() => {
-    return `https://void-channel.vercel.app/watch/${item.id}`;
+    return `https://void-channel.onrender.com/watch/${item.id}`;
   }, [item]);
 
   const getShareText = useCallback(() => {
@@ -475,7 +475,7 @@ export default function PlayerScreen({ route, navigation }) {
             icon="globe-outline"
             label="Void Page"
             color={colors.textPrimary}
-            onPress={() => Linking.openURL(`https://void-channel.vercel.app/watch/${item.id}`)}
+            onPress={() => Linking.openURL(`https://void-channel.onrender.com/watch/${item.id}`)}
           />
         </View>
 
@@ -522,6 +522,9 @@ export default function PlayerScreen({ route, navigation }) {
             onClose={() => setClipMode(false)}
             copied={clipCopied}
             accent={accent}
+            itemTitle={item.title}
+            itemYear={item.year}
+            itemThumbnail={item.thumbnail}
           />
         )}
 
@@ -818,7 +821,7 @@ function ClipEditor({
   clipStart, clipEnd, duration,
   onChangeStart, onChangeEnd, onPreview,
   onCopyLink, onShareTwitter, onShareFacebook,
-  onClose, copied, accent,
+  onClose, copied, accent, itemTitle, itemYear, itemThumbnail,
 }) {
   const MIN_CLIP = 10;
   const MAX_CLIP = 30;
@@ -969,6 +972,28 @@ function ClipEditor({
         </View>
       </View>
 
+      {/* Branded preview card — shows what the shared link looks like */}
+      <View style={clipStyles.previewCard}>
+        <View style={clipStyles.previewThumbWrap}>
+          {itemThumbnail ? (
+            <FastImage uri={itemThumbnail} itemId="clip-preview" style={clipStyles.previewThumb} contentFit="cover" />
+          ) : (
+            <View style={[clipStyles.previewThumb, { backgroundColor: '#1a1a1a' }]} />
+          )}
+          <View style={[clipStyles.previewBadge, { backgroundColor: accent }]}>
+            <Text style={clipStyles.previewBadgeText}>{clipDuration}s CLIP</Text>
+          </View>
+        </View>
+        <View style={clipStyles.previewInfo}>
+          <Text style={clipStyles.previewBrand}>VOID CHANNEL</Text>
+          <Text style={clipStyles.previewTitle} numberOfLines={2}>{itemTitle || 'Untitled'}</Text>
+          <Text style={[clipStyles.previewMeta, { color: accent }]}>
+            {formatSec(clipStart)}–{formatSec(clipEnd)}{itemYear ? ` · ${itemYear}` : ''}
+          </Text>
+          <Text style={clipStyles.previewTagline}>generating since 1895</Text>
+        </View>
+      </View>
+
       {/* Actions */}
       <View style={clipStyles.actions}>
         <TouchableOpacity
@@ -1090,6 +1115,71 @@ const clipStyles = StyleSheet.create({
     borderRadius: radius.full,
   },
   durationText: { fontFamily: fonts.monoBold, fontSize: 11, letterSpacing: 0.5 },
+  // Branded preview card
+  previewCard: {
+    flexDirection: 'row',
+    backgroundColor: '#111',
+    borderRadius: 8,
+    overflow: 'hidden',
+    marginBottom: 14,
+    borderWidth: 1,
+    borderColor: 'rgba(255,255,255,0.08)',
+  },
+  previewThumbWrap: {
+    width: 100,
+    height: 80,
+    position: 'relative',
+  },
+  previewThumb: {
+    width: 100,
+    height: 80,
+  },
+  previewBadge: {
+    position: 'absolute',
+    bottom: 4,
+    left: 4,
+    borderRadius: 3,
+    paddingHorizontal: 5,
+    paddingVertical: 2,
+  },
+  previewBadgeText: {
+    fontFamily: fonts.monoBold,
+    fontSize: 8,
+    color: '#000',
+    letterSpacing: 0.5,
+  },
+  previewInfo: {
+    flex: 1,
+    padding: 8,
+    justifyContent: 'center',
+  },
+  previewBrand: {
+    fontFamily: fonts.monoBold,
+    fontSize: 8,
+    letterSpacing: 2,
+    color: '#f5a623',
+    marginBottom: 3,
+  },
+  previewTitle: {
+    fontFamily: fonts.sansMedium || fonts.sans,
+    fontSize: 12,
+    color: '#e8e0d4',
+    lineHeight: 15,
+    marginBottom: 2,
+  },
+  previewMeta: {
+    fontFamily: fonts.monoBold,
+    fontSize: 10,
+    letterSpacing: 0.5,
+  },
+  previewTagline: {
+    fontFamily: fonts.mono,
+    fontSize: 8,
+    color: '#555',
+    letterSpacing: 1,
+    marginTop: 2,
+  },
+
   actions: {
     flexDirection: 'row',
     gap: 8,

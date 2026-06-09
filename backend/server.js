@@ -22,6 +22,7 @@ const { optionalAuth } = require("./supabase");
 const authRoutes = require("./auth");
 const syncRoutes = require("./sync");
 const xrayRoutes = require("./contributions");
+const embedRoutes = require("./embed");
 
 const app = express();
 const cache = new Cache(1200); // 20min default TTL (was 1hr — rotate content faster)
@@ -49,6 +50,9 @@ app.use((req, res, next) => {
 app.use("/api/auth", authRoutes);
 app.use("/api/sync", syncRoutes);
 app.use("/api/xray", xrayRoutes);
+
+// Embed / OG-meta pages (served at root, not /api)
+app.use(embedRoutes);
 
 // Optional auth on all remaining routes — sets req.user if token present
 app.use(optionalAuth);
