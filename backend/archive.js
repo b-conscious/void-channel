@@ -10,7 +10,7 @@ const FILE_URL = (id, file) => `${BASE}/download/${id}/${encodeURIComponent(file
 // Anything caught here lives in the dedicated "Human Sexuality Through Time" category instead.
 // Leading space so it's safe to concatenate directly: query + NSFW_EXCLUDE
 const NSFW_EXCLUDE = ' ' + [
-  'NOT collection:(stag_films OR exploitation_films)',
+  'NOT collection:(stag_films OR exploitation_films OR opensource_movies)',
   'NOT subject:(erotic OR erotica OR stag OR nudity OR nude OR pornograph*',
   '  OR "blue film" OR "adults only" OR "adult film" OR burlesque OR "pin-up"',
   '  OR "strip tease" OR striptease OR "sex education" OR "sex hygiene"',
@@ -18,7 +18,16 @@ const NSFW_EXCLUDE = ' ' + [
   '  OR "sexual behavior" OR "human sexuality" OR "birth control"',
   '  OR "family planning" OR reproduction OR "sex instruction"',
   '  OR risque OR boudoir OR "girlie" OR pinup OR cheesecake',
-  '  OR "peep show" OR "burlesque show" OR provocative)',
+  '  OR "peep show" OR "burlesque show" OR provocative',
+  '  OR hentai OR xxx OR nsfw OR porn OR "sex tape" OR futa OR futanari',
+  '  OR milf OR anal OR blowjob OR handjob OR masturbat* OR orgasm',
+  '  OR threesome OR gangbang OR bondage OR bdsm OR fetish)',
+  'NOT title:(porn* OR xxx OR nsfw OR hentai OR "sex tape" OR futa OR futanari',
+  '  OR milf OR anal OR blowjob OR handjob OR orgasm OR masturbat*',
+  '  OR threesome OR gangbang OR bondage OR bdsm OR "big dick" OR "big cock"',
+  '  OR slut OR whore OR "pussy" OR cum OR creampie OR dildo OR vibrator',
+  '  OR "nude" OR naked OR topless OR "strip tease" OR "adults only"',
+  '  OR onlyfans OR chaturbate OR pornhub OR xvideos OR xhamster)',
 ].join(' ');
 
 const CATEGORIES = [

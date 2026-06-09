@@ -57,7 +57,8 @@ export async function getCategories({ shuffle = false, refresh = false } = {}) {
   if (shuffle) params.set("shuffle", "true");
   if (refresh) params.set("refresh", "true");
   const qs = params.toString();
-  return request(`/api/categories${qs ? "?" + qs : ""}`);
+  // Categories fetches 47 collections from Archive.org — can take 2+ min on cold cache
+  return request(`/api/categories${qs ? "?" + qs : ""}`, { _timeout: 180000 });
 }
 
 export async function getCategoryItems(categoryId, page = 1, rows = 25) {
