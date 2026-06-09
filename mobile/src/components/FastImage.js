@@ -125,10 +125,19 @@ export default function FastImage(props) {
     return function () { anim.stop(); };
   }, [loaded]);
 
+  var resolveTimer = useRef(null);
+
+  // Clean up resolve timer on unmount
+  useEffect(function () {
+    return function () {
+      if (resolveTimer.current) clearTimeout(resolveTimer.current);
+    };
+  }, []);
+
   var onImageLoad = function () {
     if (IS_WEB) {
       setResolving(true);
-      setTimeout(function () { setLoaded(true); }, 750);
+      resolveTimer.current = setTimeout(function () { setLoaded(true); }, 750);
     } else {
       setLoaded(true);
     }

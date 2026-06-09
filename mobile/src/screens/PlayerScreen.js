@@ -177,6 +177,7 @@ export default function PlayerScreen({ route, navigation }) {
   useEffect(() => {
     if (!stub.id) return; // Guard: no ID = nothing to load
     let cancelled = false;
+    const cleanupTimers = []; // track all setTimeout IDs for cleanup
 
     // Phase 1: local checks (instant) — run in parallel with network
     Promise.all([
@@ -212,11 +213,10 @@ export default function PlayerScreen({ route, navigation }) {
 
         // If a higher-quality version exists, upgrade after 5 seconds of playback
         if (full.videoUrlHQ && full.videoUrlHQ !== full.videoUrl) {
-          setTimeout(() => {
-            if (!cancelled) {
-              setVideoUrl(full.videoUrlHQ);
-            }
+          const hqTimer = setTimeout(() => {
+            if (!cancelled) setVideoUrl(full.videoUrlHQ);
           }, 5000);
+          cleanupTimers.push(hqTimer);
         }
 
         await store.addToHistory(merged);
@@ -243,21 +243,26 @@ export default function PlayerScreen({ route, navigation }) {
             event_type: 'start', watch_percent: 0,
           }).catch(() => {});
         }
+        // Rabbit hole loads immediately (visible in sidebar)
         api.getRelated(stub.id, 20).then(setRelatedItems).catch(() => {}).finally(() => setRelatedLoading(false));
-        setCommentsLoading(true);
-        api.getComments(stub.id).then((c) => {
-          if (!cancelled) setComments(c.comments || []);
-        }).catch((err) => {
-          console.warn('[comments] fetch failed:', err.message);
-        }).finally(() => {
-          if (!cancelled) setCommentsLoading(false);
-        });
-        api.getXRay(stub.id).then((xray) => {
-          if (xray && !cancelled) {
-            setXrayData(xray.contributions || {});
-            setXrayTotal(xray.total || 0);
-          }
-        }).catch(() => {});
+
+        // Defer comments + x-ray — below the fold, load after a short delay
+        const deferTimer = setTimeout(() => {
+          if (cancelled) return;
+          setCommentsLoading(true);
+          api.getComments(stub.id).then((c) => {
+            if (!cancelled) setComments(c.comments || []);
+          }).catch(() => {}).finally(() => {
+            if (!cancelled) setCommentsLoading(false);
+          });
+          api.getXRay(stub.id).then((xray) => {
+            if (xray && !cancelled) {
+              setXrayData(xray.contributions || {});
+              setXrayTotal(xray.total || 0);
+            }
+          }).catch(() => {});
+        }, 1500); // 1.5s after mount — video is playing by then
+        cleanupTimers.push(deferTimer);
       } catch (err) {
         if (cancelled) return;
         console.error('[PlayerScreen]', err);
@@ -266,7 +271,10 @@ export default function PlayerScreen({ route, navigation }) {
       }
     })();
 
-    return () => { cancelled = true; };
+    return () => {
+      cancelled = true;
+      cleanupTimers.forEach(clearTimeout);
+    };
   }, [stub.id]);
 
   function showXpToast(amount) {

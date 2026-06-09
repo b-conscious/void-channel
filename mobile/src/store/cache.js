@@ -125,6 +125,13 @@ export async function getCachedCategories() {
   }
 }
 
+export async function getCategoriesTimestamp() {
+  try {
+    const ts = await AsyncStorage.getItem(KEYS.CATEGORIES_TIMESTAMP);
+    return ts ? parseInt(ts) : 0;
+  } catch { return 0; }
+}
+
 export async function setCachedCategories(data) {
   try {
     await AsyncStorage.setItem(KEYS.CATEGORIES_CACHE, JSON.stringify(data));
@@ -251,6 +258,7 @@ export default {
   getHistory,
   addToHistory,
   getCachedCategories,
+  getCategoriesTimestamp,
   setCachedCategories,
   downloadVideo,
   getLocalVideo,

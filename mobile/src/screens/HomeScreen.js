@@ -145,17 +145,22 @@ export default function HomeScreen({ navigation }) {
     const forceFresh = mode === "repopulate";
     try {
       if (!forceFresh) {
-        // Show cache instantly while we fetch a fresh shuffled batch in background
+        // Show cache instantly — only background-refresh if cache is older than 10 min
         const cached = await store.getCachedCategories();
         if (cached) {
           setAllCategories(cached);
           setLoading(false);
           pickHero(cached);
-          api.getCategories({ shuffle: true }).then((fresh) => {
-            setAllCategories(fresh);
-            store.setCachedCategories(fresh);
-            pickHero(fresh);
-          }).catch(() => {});
+          // Check if cache is recent enough to skip the background fetch
+          const ts = await store.getCategoriesTimestamp?.() || 0;
+          const ageMs = Date.now() - ts;
+          if (ageMs > 10 * 60 * 1000) { // older than 10 min → refresh in background
+            api.getCategories({ shuffle: true }).then((fresh) => {
+              setAllCategories(fresh);
+              store.setCachedCategories(fresh);
+              pickHero(fresh);
+            }).catch(() => {});
+          }
           return;
         }
       }
@@ -215,21 +220,23 @@ export default function HomeScreen({ navigation }) {
       .catch(() => setTopHearts([]));
   }, [refreshing]); // re-fetch on repopulate too
 
-  // Phase 2: Trending, Subscription Feed, For You
+  // Phase 2: Trending (always), Subscription Feed + For You (auth only)
   useEffect(() => {
     api.getTrending(15)
       .then((data) => setTrending(Array.isArray(data) ? data : data?.items || []))
       .catch(() => setTrending([]));
 
-    // These require auth — fail silently for anonymous users
-    api.getSubscriptionFeed(1, 15)
-      .then((data) => setSubFeed(data?.items || []))
-      .catch(() => setSubFeed([]));
+    // Only hit these endpoints if signed in — saves 2 failed requests for anon users
+    if (isAuthenticated) {
+      api.getSubscriptionFeed(1, 15)
+        .then((data) => setSubFeed(data?.items || []))
+        .catch(() => setSubFeed([]));
 
-    api.getRecommendations(15)
-      .then((data) => setForYou(data?.items || []))
-      .catch(() => setForYou([]));
-  }, [refreshing]);
+      api.getRecommendations(15)
+        .then((data) => setForYou(data?.items || []))
+        .catch(() => setForYou([]));
+    }
+  }, [refreshing, isAuthenticated]);
 
   const handleItemPress = useCallback((item, categoryId) => {
     navigation.navigate('Player', { item, id: item.id, categoryId });
@@ -243,14 +250,16 @@ export default function HomeScreen({ navigation }) {
   // Subscribe / unsubscribe to a category
   const [subscribedIds, setSubscribedIds] = useState(new Set());
   useEffect(() => {
+    // Only fetch subscriptions if signed in — avoids a 401 for anonymous users
+    if (!isAuthenticated) return;
     api.getSubscriptions()
       .then((subs) => {
         if (Array.isArray(subs)) {
           setSubscribedIds(new Set(subs.map((s) => s.category_id)));
         }
       })
-      .catch(() => {}); // silent fail for anonymous
-  }, []);
+      .catch(() => {});
+  }, [isAuthenticated]);
 
   const handleSubscribe = useCallback(async (categoryId, shouldSubscribe) => {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
