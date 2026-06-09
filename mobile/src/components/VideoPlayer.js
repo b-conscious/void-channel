@@ -281,13 +281,13 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
     clearTimeout(hideTimer.current);
     if (isPlaying) {
       hideTimer.current = setTimeout(() => {
-        Animated.timing(controlsVisible, { toValue: 0, duration: FADE_DURATION, easing: RNEasing.out(RNEasing.ease), useNativeDriver: true }).start();
+        Animated.timing(controlsVisible, { toValue: 0, duration: FADE_DURATION, easing: RNEasing.out(RNEasing.ease), useNativeDriver: Platform.OS !== 'web' }).start();
       }, HIDE_DELAY);
     }
   }, [isPlaying]);
 
   const showControls = useCallback(() => {
-    Animated.timing(controlsVisible, { toValue: 1, duration: FADE_DURATION, useNativeDriver: true }).start();
+    Animated.timing(controlsVisible, { toValue: 1, duration: FADE_DURATION, useNativeDriver: Platform.OS !== 'web' }).start();
     resetHideTimer();
   }, [resetHideTimer]);
 

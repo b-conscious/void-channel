@@ -225,9 +225,9 @@ export default function PlayerScreen({ route, navigation }) {
   function showXpToast(amount) {
     setXpToast(`+${amount} XP`);
     Animated.sequence([
-      Animated.timing(xpOpacity, { toValue: 1, duration: 250, useNativeDriver: true }),
+      Animated.timing(xpOpacity, { toValue: 1, duration: 250, useNativeDriver: Platform.OS !== 'web' }),
       Animated.delay(1800),
-      Animated.timing(xpOpacity, { toValue: 0, duration: 400, useNativeDriver: true }),
+      Animated.timing(xpOpacity, { toValue: 0, duration: 400, useNativeDriver: Platform.OS !== 'web' }),
     ]).start();
   }
 

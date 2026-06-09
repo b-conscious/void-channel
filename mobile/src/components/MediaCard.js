@@ -31,7 +31,8 @@ function getVibeIndex(id) {
   return Math.abs(h);
 }
 
-const SPRING = { damping: 18, stiffness: 320, mass: 0.7, useNativeDriver: true };
+const USE_NATIVE = Platform.OS !== 'web';
+const SPRING = { damping: 18, stiffness: 320, mass: 0.7, useNativeDriver: USE_NATIVE };
 const AnimatedPressable = Animated.createAnimatedComponent(Pressable);
 
 export default function MediaCard({ item, onPress, size = 'default', style }) {
@@ -56,8 +57,8 @@ export default function MediaCard({ item, onPress, size = 'default', style }) {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
     // Pop animation (RN Animated sequence)
     Animated.sequence([
-      Animated.timing(heartScale, { toValue: 1.4, duration: 110, useNativeDriver: true }),
-      Animated.spring(heartScale, { toValue: 1, damping: 8, stiffness: 200, useNativeDriver: true }),
+      Animated.timing(heartScale, { toValue: 1.4, duration: 110, useNativeDriver: USE_NATIVE }),
+      Animated.spring(heartScale, { toValue: 1, damping: 8, stiffness: 200, useNativeDriver: USE_NATIVE }),
     ]).start();
     // Persist locally
     await store.setHearted(item.id, next);
