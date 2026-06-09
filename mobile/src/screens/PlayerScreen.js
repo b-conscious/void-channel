@@ -292,7 +292,7 @@ export default function PlayerScreen({ route, navigation }) {
                   <Pressable
                     onPress={() => {
                       Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-                      navigation.push('Player', { item: rel });
+                      navigation.replace('Player', { item: rel });
                     }}
                     style={styles.rabbitCard}
                   >
