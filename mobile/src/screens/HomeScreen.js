@@ -46,6 +46,8 @@ const FILTER_CHIPS = [
   { id: 'sports', label: 'Sports' },
   { id: 'romance', label: 'Romance' },
   { id: 'nature_wildlife', label: 'Nature' },
+  { id: 'cringe', label: 'Cringe' },
+  { id: 'tv_movies', label: 'TV & Movies' },
   { id: 'mature', label: '18+' },
 ];
 
@@ -433,8 +435,7 @@ export default function HomeScreen({ navigation }) {
             </TouchableOpacity>
           </View>
         </View>
-        <Text style={[styles.headerTagline, { color: BRAND_BLUE }]}>GENERATING SINCE 1895</Text>
-        <Text style={styles.headerTaglineSub}>public domain cinema — before AI slop, there was human creativity</Text>
+        {/* Tagline removed — vertical space reclaimed for content like YouTube */}
       </View>
 
       {/* Avatar picker modal */}
@@ -600,7 +601,7 @@ export default function HomeScreen({ navigation }) {
           />
         )}
 
-        {/* Channels — auto-playing queues for a couple of standout categories */}
+        {/* Channels — compact text-only tiles, no thumbnails */}
         {!loading && allCategories.length > 0 && (
           <ChannelsRow
             categories={allCategories}
@@ -641,7 +642,7 @@ export default function HomeScreen({ navigation }) {
         {/* Footer */}
         <View style={[styles.footer, { paddingBottom: insets.bottom + 90 }]}>
           <Text style={[styles.footerLine, { color: BRAND_BLUE, fontFamily: fonts.monoBold, letterSpacing: 2 }]}>◈ GENERATING SINCE 1895 ◈</Text>
-          <Text style={styles.footerLine}>before AI slop, there was human creativity</Text>
+          <Text style={[styles.footerLine, { fontStyle: 'italic' }]}>when you stare into the void, humanity stares back</Text>
           <Text style={[styles.footerLine, { marginTop: 8, fontSize: 9, letterSpacing: 1 }]}>SOURCE: ARCHIVE.ORG — PUBLIC DOMAIN & CC</Text>
           <TouchableOpacity
             onPress={() => Linking.openURL(DONATE_URL)}
@@ -889,46 +890,24 @@ function ChannelsRow({ categories, accent, onChannelPress }) {
         <Text style={[styles.channelsTitle, { color: accent }]}>◉ CHANNELS</Text>
         <Text style={styles.channelsSubtitle}>tap to tune in — auto-plays through</Text>
       </View>
-      <View style={styles.channelsRow}>
+      <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.channelsRow}>
         {channels.map((ch) => (
           <Pressable
             key={ch.label}
             onPress={() => onChannelPress(ch.category, ch.label)}
-            style={styles.channelTile}
+            style={[styles.channelTile, { borderColor: accent + '30' }]}
           >
-            {/* Thumbnail collage preview */}
-            <View style={styles.thumbStack}>
-              {ch.category.items.slice(0, 3).map((it, i) => (
-                <FastImage
-                  key={it.id}
-                  uri={it.thumbnail}
-                  itemId={it.id}
-                  style={[
-                    styles.thumbStackImg,
-                    { left: i * 22, zIndex: 3 - i, opacity: 1 - i * 0.18 },
-                  ]}
-                  contentFit="cover"
-                />
-              ))}
+            <View style={[styles.liveBadge, { backgroundColor: accent }]}>
+              <View style={styles.liveBadgeDot} />
+              <Text style={styles.liveBadgeText}>LIVE</Text>
             </View>
-            <LinearGradient
-              colors={["rgba(12,12,15,0)", "rgba(12,12,15,0.85)", "rgba(12,12,15,1)"]}
-              locations={[0.2, 0.7, 1]}
-              style={[StyleSheet.absoluteFill, { pointerEvents: 'none' }]}
-            />
-            <View style={styles.channelTileContent}>
-              <View style={[styles.liveBadge, { backgroundColor: accent }]}>
-                <View style={styles.liveBadgeDot} />
-                <Text style={styles.liveBadgeText}>LIVE</Text>
-              </View>
-              <Text style={styles.channelTileLabel} numberOfLines={1}>{ch.label}</Text>
-              <Text style={styles.channelTileSub}>
-                {ch.category.items.length} mixed · auto-advance
-              </Text>
-            </View>
+            <Text style={[styles.channelTileLabel, { color: '#fff' }]} numberOfLines={1}>{ch.label}</Text>
+            <Text style={styles.channelTileSub}>
+              {ch.category.items.length} mixed · auto-advance
+            </Text>
           </Pressable>
         ))}
-      </View>
+      </ScrollView>
     </View>
   );
 }
@@ -1252,16 +1231,7 @@ const styles = StyleSheet.create({
     color: colors.textPrimary,
     letterSpacing: 0.3,
   },
-  headerTagline: {
-    fontFamily: fonts.monoBold, fontSize: 14, letterSpacing: 3,
-    textAlign: 'center', marginTop: 6,
-    textTransform: 'uppercase',
-  },
-  headerTaglineSub: {
-    fontFamily: fonts.sans, fontSize: 11, color: colors.textMuted,
-    textAlign: 'center', marginTop: 2,
-    fontStyle: 'italic',
-  },
+  // headerTagline/Sub removed — vertical space reclaimed
   // User chip — avatar + name in header
   userChip: {
     flexDirection: 'row', alignItems: 'center', gap: 5,
@@ -1310,11 +1280,9 @@ const styles = StyleSheet.create({
   channelsHeader: { paddingHorizontal: spacing.screenPadding, marginBottom: 12 },
   channelsTitle: { fontFamily: fonts.monoBold, fontSize: 11, letterSpacing: 2 },
   channelsSubtitle: { fontFamily: fonts.sans, fontSize: 12, color: colors.textMuted, fontStyle: "italic", marginTop: 2 },
-  channelsRow: { flexDirection: "row", paddingHorizontal: spacing.screenPadding, gap: 10 },
-  channelTile: { flex: 1, height: 130, borderRadius: 10, overflow: "hidden", backgroundColor: colors.card },
-  thumbStack: { ...StyleSheet.absoluteFillObject },
-  thumbStackImg: { position: "absolute", top: 0, width: "100%", height: "100%" },
-  channelTileContent: { ...StyleSheet.absoluteFillObject, padding: 12, justifyContent: "flex-end" },
+  channelsRow: { flexDirection: "row", paddingHorizontal: spacing.screenPadding, gap: 10, paddingBottom: 4 },
+  channelTile: { paddingHorizontal: 14, paddingVertical: 12, borderRadius: 10, backgroundColor: colors.card, borderWidth: 1, minWidth: 130 },
+  // thumbStack/thumbStackImg removed — channels are text-only now
   liveBadge: { flexDirection: "row", alignItems: "center", alignSelf: "flex-start", paddingHorizontal: 7, paddingVertical: 3, borderRadius: 3, marginBottom: 8, gap: 4 },
   liveBadgeDot: { width: 5, height: 5, borderRadius: 3, backgroundColor: colors.bg },
   liveBadgeText: { fontFamily: fonts.monoBold, fontSize: 8, letterSpacing: 1, color: colors.bg },

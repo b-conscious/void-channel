@@ -1,7 +1,7 @@
 import React, { useState, useCallback, useRef, useMemo, useEffect } from 'react';
 import {
   View, Text, FlatList, StyleSheet, ActivityIndicator,
-  ScrollView, TouchableOpacity, Dimensions,
+  ScrollView, TouchableOpacity, Dimensions, Platform,
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
@@ -12,8 +12,12 @@ import api from '../api/client';
 import { colors, fonts, spacing, cardSize, radius } from '../theme';
 
 const { width: SCREEN_W } = Dimensions.get('window');
+const IS_DESKTOP = Platform.OS === 'web' && SCREEN_W > 900;
+const DESKTOP_SIDEBAR = IS_DESKTOP ? 150 : 0;   // matches SidebarContext EXPANDED_W
+const DESKTOP_PAD = IS_DESKTOP ? 32 : 0;         // balanced horizontal padding
+const CONTENT_W = SCREEN_W - DESKTOP_SIDEBAR - DESKTOP_PAD;
 const COLS = Math.max(2, Math.floor(
-  (SCREEN_W - spacing.screenPadding * 2 + cardSize.gap) / (cardSize.width + cardSize.gap)
+  (CONTENT_W - spacing.screenPadding * 2 + cardSize.gap) / (cardSize.width + cardSize.gap)
 ));
 
 // Filter chips map to backend category IDs (or null for everything).
@@ -393,7 +397,7 @@ export default function SearchScreen({ navigation, route }) {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: colors.bg },
+  container: { flex: 1, backgroundColor: colors.bg, ...(IS_DESKTOP ? { paddingHorizontal: DESKTOP_PAD / 2 } : {}) },
   header: {
     paddingHorizontal: spacing.screenPadding, paddingTop: 16, paddingBottom: 4,
     borderBottomWidth: StyleSheet.hairlineWidth, borderBottomColor: colors.surface,

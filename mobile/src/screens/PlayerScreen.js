@@ -1407,7 +1407,7 @@ export default function PlayerScreen({ route, navigation }) {
   );
 
   return (
-    <View style={[styles.container, IS_DESKTOP && { marginLeft: NAV_W }]}>
+    <View style={styles.container}>
       {/* XP toast */}
       {xpToast && (
         <Animated.View style={[styles.xpToast, { opacity: xpOpacity, borderColor: accent }]}>
@@ -2340,7 +2340,7 @@ const styles = StyleSheet.create({
   formatSize: { fontFamily: fonts.mono, fontSize: 11, color: colors.textMuted },
 
   // ── Desktop two-column layout ──
-  desktopRow: { flex: 1, flexDirection: 'row' },
+  desktopRow: { flex: 1, flexDirection: 'row', paddingHorizontal: 16 },
   desktopMain: { flex: 1 },
 
   // ── Mobile autoplay row ──

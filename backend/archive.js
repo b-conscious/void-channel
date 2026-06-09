@@ -40,7 +40,7 @@ const NEWS_POLITICS_EXCLUDE = ' ' + [
 
 // Categories that should NEVER have news/politics bleed
 const ENTERTAINMENT_IDS = new Set([
-  'anime', 'cartoons', 'saturday_morning', 'afterschool', 'comedy', 'horror', 'feature_length', 'most_popular',
+  'anime', 'cartoons', 'saturday_morning', 'afterschool', 'comedy', 'horror', 'feature_length', 'most_popular', 'cringe', 'tv_movies',
   'scifi', 'noir', 'western', 'romance', 'silent_film', 'blaxploitation',
   'music_video', 'sports', 'nature_wildlife', 'game_shows', 'art_film',
   'abstract', 'theatre', 'foreign', 'shopping', 'ephemeral', 'amateur',
@@ -337,6 +337,20 @@ const CATEGORIES = [
       'AND mediatype:(movies)',
     ].join(' '),
     mature: true,
+  },
+  {
+    id: "cringe",
+    group: "type",
+    name: "Cringe Archive",
+    subtitle: "So bad it's good — awkward PSAs, bizarre ads, and pure secondhand embarrassment",
+    query: '(subject:(awkward OR cringe OR "bad acting" OR "so bad" OR embarrassing OR cheesy) OR collection:(Drive-in_Ads OR ephemeral OR oddball_films) OR (subject:(training OR educational) AND subject:(dating OR hygiene OR etiquette))) AND mediatype:(movies)',
+  },
+  {
+    id: "tv_movies",
+    group: "type",
+    name: "TV & Movies",
+    subtitle: "Classic television and full-length films — the original binge watch",
+    query: '(collection:(classic_tv OR feature_films OR television OR old_tv) OR subject:("television program" OR "tv show" OR "television series" OR "full length" OR "feature film")) AND mediatype:(movies)',
   },
   {
     id: "mature",
