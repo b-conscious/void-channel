@@ -433,21 +433,8 @@ function HeroCard({ item, loading, insetTop, loadingMsg, tagline, gen, accent, o
         style={[StyleSheet.absoluteFill, { height: totalH }]}
         pointerEvents="none"
       />
-      <View style={[styles.heroContent, { paddingTop: insetTop + 16 }]}>
-        {/* Logo + random in hero */}
-        <View style={styles.heroTopRow}>
-          <View style={styles.logoWrap}>
-            <Text style={[styles.logoVoid, { color: accent }]}>VOID</Text>
-            <Text style={styles.logoCh}> CH.</Text>
-            <View style={[styles.liveIndicator, { backgroundColor: '#ff2d78' }]} />
-            <Text style={styles.liveText}>LIVE</Text>
-          </View>
-          <TouchableOpacity onPress={onRandom} style={[styles.randomBtn, { backgroundColor: accent }]} hitSlop={8}>
-            <Ionicons name="shuffle" size={12} color={gen.accentOnDark} style={{ marginRight: 4 }} />
-            <Text style={[styles.randomText, { color: gen.accentOnDark }]}>SURPRISE ME</Text>
-          </TouchableOpacity>
-        </View>
-
+      <View style={[styles.heroContent, { paddingTop: insetTop + 60 }]}>
+        {/* Spacer — floating header sits above this */}
         <View style={{ flex: 1 }} />
 
         {/* Item info */}
