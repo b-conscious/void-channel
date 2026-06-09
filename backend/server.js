@@ -18,6 +18,7 @@ const cors = require("cors");
 const Cache = require("./cache");
 const archive = require("./archive");
 const hearts = require("./hearts");
+const views = require("./views");
 const { optionalAuth } = require("./supabase");
 const authRoutes = require("./auth");
 const syncRoutes = require("./sync");
@@ -301,6 +302,30 @@ app.get("/api/hearts/top", (req, res) => {
 /** GET /api/hearts/count/:id — heart count for a single item */
 app.get("/api/hearts/count/:id", (req, res) => {
   res.json({ id: req.params.id, hearts: hearts.getCount(req.params.id) });
+});
+
+// ── Views ─────────────────────────────────────────────────
+
+/** POST /api/views/:id — record a view (fire from player on load) */
+app.post("/api/views/:id", (req, res) => {
+  const count = views.recordView(req.params.id, req.body);
+  res.json({ id: req.params.id, views: count });
+});
+
+/** GET /api/views/:id — get view count */
+app.get("/api/views/count/:id", (req, res) => {
+  res.json({ id: req.params.id, views: views.getCount(req.params.id) });
+});
+
+/** GET /api/views/top — most-viewed on Void Channel */
+app.get("/api/views/top", (req, res) => {
+  const limit = Math.min(parseInt(req.query.limit) || 30, 100);
+  res.json(views.getTop(limit));
+});
+
+/** GET /api/views/stats — total views across all items */
+app.get("/api/views/stats", (req, res) => {
+  res.json({ totalViews: views.getTotalViews() });
 });
 
 // ── Health Check ───────────────────────────────────────────

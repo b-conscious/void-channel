@@ -206,6 +206,31 @@ export async function syncPull() {
   return request("/api/sync/pull");
 }
 
+// ── Views ────────────────────────────────────────────────
+
+/** Record a view — fire-and-forget from PlayerScreen */
+export async function recordView(itemId, meta = {}) {
+  return request(`/api/views/${encodeURIComponent(itemId)}`, {
+    method: "POST",
+    body: JSON.stringify(meta),
+  });
+}
+
+/** Get view count for a single item */
+export async function getViewCount(itemId) {
+  return request(`/api/views/count/${encodeURIComponent(itemId)}`);
+}
+
+/** Get most-viewed items on Void Channel */
+export async function getTopViewed(limit = 30) {
+  return request(`/api/views/top?limit=${limit}`);
+}
+
+/** Get total views across all items */
+export async function getViewStats() {
+  return request("/api/views/stats");
+}
+
 // ── X-Ray (Contributions) ────────────────────────────────
 
 /** Get all community-contributed metadata for an item */
@@ -233,4 +258,5 @@ export default {
   getProfile, updateProfile,
   syncHistory, syncWatchlist, syncHearts, syncGame, syncPull,
   getXRay, contribute, getContributionStats,
+  recordView, getViewCount, getTopViewed, getViewStats,
 };

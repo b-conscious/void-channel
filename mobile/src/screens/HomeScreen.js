@@ -331,7 +331,7 @@ export default function HomeScreen({ navigation }) {
           <>
             <View style={styles.divider}>
               <View style={styles.dividerLine} />
-              <Text style={styles.dividerText}>BROWSE</Text>
+              <Text style={styles.dividerText}>THE COLLECTION</Text>
               <View style={styles.dividerLine} />
             </View>
             {Array.from({ length: 4 }).map((_, i) => <SkeletonRow key={i} />)}
@@ -342,8 +342,8 @@ export default function HomeScreen({ navigation }) {
             <View style={[styles.browseToolbar, { borderColor: accent + '25' }]}>
               {/* Left: label + page dial */}
               <View style={styles.browseToolbarLeft}>
-                <Text style={[styles.browseLabel, { color: accent }]}>BROWSE</Text>
-                <Text style={styles.browseSub}>BY TYPE</Text>
+                <Text style={[styles.browseLabel, { color: accent }]}>THE VAULT</Text>
+                <Text style={styles.browseSub}>BY GENRE</Text>
               </View>
 
               {/* Center: retune dial */}
@@ -404,7 +404,7 @@ export default function HomeScreen({ navigation }) {
               <LazySection delayMs={150} estimatedHeight={deepCats.length * 180}>
                 <View style={styles.divider}>
                   <View style={styles.dividerLine} />
-                  <Text style={styles.dividerText}>DEEP CUTS</Text>
+                  <Text style={styles.dividerText}>DEEP CUTS — THE WEIRD STUFF</Text>
                   <View style={styles.dividerLine} />
                 </View>
                 {deepCats.map((cat) => (
@@ -425,7 +425,7 @@ export default function HomeScreen({ navigation }) {
               <LazySection delayMs={300} estimatedHeight={showCats.length * 180}>
                 <View style={styles.divider}>
                   <View style={styles.dividerLine} />
-                  <Text style={styles.dividerText}>BROWSE BY SHOW</Text>
+                  <Text style={styles.dividerText}>BY SERIES — THE CLASSICS</Text>
                   <View style={styles.dividerLine} />
                 </View>
                 {showCats.map((cat) => (
@@ -446,7 +446,7 @@ export default function HomeScreen({ navigation }) {
               <LazySection delayMs={450} estimatedHeight={decadeCats.length * 180}>
                 <View style={styles.divider}>
                   <View style={styles.dividerLine} />
-                  <Text style={styles.dividerText}>BROWSE BY DECADE</Text>
+                  <Text style={styles.dividerText}>BY DECADE — TIME MACHINE</Text>
                   <View style={styles.dividerLine} />
                 </View>
                 {decadeCats.map((cat) => (
@@ -668,7 +668,7 @@ function DrawerMenu({ visible, onClose, accent, gen, generationId, chooseGenerat
   ];
 
   const menuItems = [
-    { icon: 'tv', label: 'BROWSE', tab: 'Browse' },
+    { icon: 'tv', label: 'THE VAULT', tab: 'Browse' },
     { icon: 'search', label: 'SEARCH', tab: 'Search' },
     { icon: 'compass', label: 'SIGNAL', tab: 'Signal' },
     { icon: 'bookmark', label: 'MY VOID', tab: 'My Void' },

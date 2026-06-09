@@ -77,6 +77,7 @@ export default function PlayerScreen({ route, navigation }) {
   const [xrayData, setXrayData] = useState({});
   const [xrayTotal, setXrayTotal] = useState(0);
   const [contributeOpen, setContributeOpen] = useState(false);
+  const [viewCount, setViewCount] = useState(0);
   const [contributeType, setContributeType] = useState('cast');
   const [contributeValue, setContributeValue] = useState('');
   const [contributeExtra, setContributeExtra] = useState('');
@@ -138,7 +139,12 @@ export default function PlayerScreen({ route, navigation }) {
           if (result?.xpGained > 0) showXpToast(result.xpGained);
         }
 
-        // Fetch rabbit hole (related) items + X-Ray data in background
+        // Record view + fetch rabbit hole + X-Ray data in background
+        api.recordView(stub.id, {
+          title: merged.title, thumbnail: merged.thumbnail,
+          creator: typeof merged.creator === 'string' ? merged.creator : merged.creator?.[0],
+          year: merged.year,
+        }).then((v) => { if (v?.views) setViewCount(v.views); }).catch(() => {});
         api.getRelated(stub.id, 12).then(setRelatedItems).catch(() => {});
         api.getXRay(stub.id).then((xray) => {
           if (xray && !cancelled) {
@@ -430,6 +436,12 @@ export default function PlayerScreen({ route, navigation }) {
             ) : null}
             {item.duration ? (
               <Text style={styles.durationText}>{item.duration}</Text>
+            ) : null}
+            {viewCount > 0 ? (
+              <View style={styles.viewCountWrap}>
+                <Ionicons name="eye-outline" size={11} color={colors.textMuted} />
+                <Text style={styles.viewCountText}>{viewCount.toLocaleString()} {viewCount === 1 ? 'view' : 'views'}</Text>
+              </View>
             ) : null}
           </View>
         </View>
@@ -1487,6 +1499,8 @@ const styles = StyleSheet.create({
     maxWidth: '60%',
   },
   durationText: { fontFamily: fonts.mono, fontSize: 12, color: colors.textMuted },
+  viewCountWrap: { flexDirection: 'row', alignItems: 'center', gap: 4 },
+  viewCountText: { fontFamily: fonts.mono, fontSize: 11, color: colors.textMuted },
 
   // Netflix-style icon strip
   actionStrip: {
