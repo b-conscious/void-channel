@@ -473,7 +473,7 @@ export default function PlayerScreen({ route, navigation }) {
 
   // Desktop sidebar — related videos shown vertically like YouTube
   const SidebarContent = IS_DESKTOP ? (
-    <ScrollView style={styles.sidebar} showsVerticalScrollIndicator={false} contentContainerStyle={{ paddingBottom: 40 }}>
+    <ScrollView style={styles.sidebar} showsVerticalScrollIndicator={false} contentContainerStyle={{ paddingBottom: 10 }}>
       {/* Autoplay toggle */}
       <View style={styles.sidebarAutoplay}>
         <Text style={styles.sidebarAutoplayLabel}>AUTOPLAY</Text>
@@ -555,6 +555,30 @@ export default function PlayerScreen({ route, navigation }) {
               </View>
             </Pressable>
           ))}
+
+          {/* Shuffle — reload rabbit hole */}
+          <TouchableOpacity
+            onPress={() => {
+              setRelatedLoading(true);
+              setRelatedItems([]);
+              api.getRelated(item.id, 20).then(setRelatedItems).catch(() => {}).finally(() => setRelatedLoading(false));
+              Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+            }}
+            style={[styles.sidebarShuffleBtn, { borderColor: accent + '40' }]}
+            activeOpacity={0.7}
+          >
+            <Ionicons name="shuffle" size={11} color={accent} />
+            <Text style={[styles.sidebarShuffleText, { color: accent }]}>SHUFFLE</Text>
+          </TouchableOpacity>
+
+          {/* Now playing info — uses bottom-right space */}
+          <View style={styles.sidebarDivider} />
+          <View style={styles.sidebarNowPlaying}>
+            <Text style={styles.sidebarNowLabel}>NOW PLAYING</Text>
+            <Text style={[styles.sidebarNowTitle, { color: colors.textPrimary }]} numberOfLines={2}>{cleanTitle(item.title, 50)}</Text>
+            {item.year ? <Text style={[styles.sidebarNowYear, { color: accent }]}>{item.year}</Text> : null}
+            {creator ? <Text style={styles.sidebarNowCreator} numberOfLines={1}>{creator}</Text> : null}
+          </View>
         </>
       )}
     </ScrollView>
@@ -2203,6 +2227,17 @@ const styles = StyleSheet.create({
   sidebarRelTitle: { fontFamily: fonts.sans, fontSize: 9, color: colors.textPrimary, lineHeight: 11 },
   sidebarRelYear: { fontFamily: fonts.mono, fontSize: 7, marginTop: 1 },
   sidebarRelCreator: { fontFamily: fonts.sans, fontSize: 7, color: colors.textMuted, marginTop: 1 },
+  sidebarShuffleBtn: {
+    flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 4,
+    paddingVertical: 5, marginTop: 4, borderRadius: radius.sm,
+    borderWidth: 1,
+  },
+  sidebarShuffleText: { fontFamily: fonts.monoBold, fontSize: 7, letterSpacing: 1.2 },
+  sidebarNowPlaying: { paddingVertical: 2 },
+  sidebarNowLabel: { fontFamily: fonts.monoBold, fontSize: 7, color: colors.textMuted, letterSpacing: 1.2, marginBottom: 3 },
+  sidebarNowTitle: { fontFamily: fonts.sansSemiBold, fontSize: 10, lineHeight: 13 },
+  sidebarNowYear: { fontFamily: fonts.mono, fontSize: 8, marginTop: 2 },
+  sidebarNowCreator: { fontFamily: fonts.sans, fontSize: 8, color: colors.textMuted, marginTop: 1 },
 
   // ── Skeleton loading ──
   // Animation applied via CSS `[data-skeleton]` selector (injected in useEffect above)
