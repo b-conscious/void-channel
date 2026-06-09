@@ -47,7 +47,7 @@ const FILTER_CHIPS = [
   { id: 'romance', label: 'Romance' },
   { id: 'nature_wildlife', label: 'Nature' },
   { id: 'cringe', label: 'Cringe' },
-  { id: 'tv_movies', label: 'TV & Movies' },
+  { id: 'tv_movies', label: 'TV' },
   { id: 'mature', label: '18+' },
 ];
 

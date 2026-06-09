@@ -24,6 +24,40 @@ SplashScreen.preventAutoHideAsync();
  * blocky. Sans-serif body text (DM Sans) keeps standard antialiasing
  * for readability. Called once at app startup — idempotent.
  */
+function injectWebHead() {
+  if (Platform.OS !== 'web' || typeof document === 'undefined') return;
+  if (document.getElementById('voidtv-head')) return;
+
+  // Mark as injected
+  var marker = document.createElement('meta');
+  marker.id = 'voidtv-head';
+  document.head.appendChild(marker);
+
+  // ── Theme color — prevents white flash on Chrome/Android ──
+  var tc = document.createElement('meta');
+  tc.name = 'theme-color';
+  tc.content = '#0c0c0f';
+  document.head.appendChild(tc);
+
+  // ── Page title ──
+  document.title = 'VOIDtv';
+
+  // ── Preconnect to external domains for faster first-request ──
+  ['https://archive.org', 'https://api.voidtv.net', 'https://fonts.googleapis.com', 'https://fonts.gstatic.com'].forEach(function (href) {
+    var link = document.createElement('link');
+    link.rel = 'preconnect';
+    link.href = href;
+    if (href.includes('gstatic')) link.crossOrigin = 'anonymous';
+    document.head.appendChild(link);
+  });
+
+  // ── DNS prefetch for archive thumbnail CDN ──
+  var dns = document.createElement('link');
+  dns.rel = 'dns-prefetch';
+  dns.href = 'https://ia800100.us.archive.org';
+  document.head.appendChild(dns);
+}
+
 function injectRetroCss() {
   if (Platform.OS !== 'web' || typeof document === 'undefined') return;
   var id = 'voidtv-retro-css';
@@ -98,8 +132,8 @@ export default function App() {
     DMSans_600SemiBold,
   });
 
-  // Inject retro CSS as early as possible
-  useEffect(() => { injectRetroCss(); }, []);
+  // Inject web head tags and retro CSS as early as possible
+  useEffect(() => { injectWebHead(); injectRetroCss(); }, []);
 
   useEffect(() => {
     if (fontsLoaded || fontError) SplashScreen.hideAsync();
