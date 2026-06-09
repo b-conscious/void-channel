@@ -10,7 +10,7 @@ const FILE_URL = (id, file) => `${BASE}/download/${id}/${encodeURIComponent(file
 // Anything caught here lives in the dedicated "Human Sexuality Through Time" category instead.
 // Leading space so it's safe to concatenate directly: query + NSFW_EXCLUDE
 const NSFW_EXCLUDE = ' ' + [
-  'NOT collection:(stag_films OR exploitation_films OR opensource_movies)',
+  'NOT collection:(stag_films OR exploitation_films)',
   'NOT subject:(erotic OR erotica OR stag OR nudity OR nude OR pornograph*',
   '  OR "blue film" OR "adults only" OR "adult film" OR burlesque OR "pin-up"',
   '  OR "strip tease" OR striptease OR "sex education" OR "sex hygiene"',
