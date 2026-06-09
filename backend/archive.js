@@ -434,23 +434,32 @@ async function getCategoryItems(categoryId, rows = 25, page = 1, shuffle = false
 }
 
 async function getAllCategories(rowsPerCategory = 20, shuffle = false) {
-  const results = await Promise.allSettled(
-    CATEGORIES.map(async (cat) => {
-      const query = cat.mature ? cat.query : cat.query + NSFW_EXCLUDE;
-      return {
-        ...cat,
-        items: shuffle
-          ? await searchVariety(query, rowsPerCategory)
-          : await search(query, rowsPerCategory),
-      };
-    })
-  );
+  // Batch in groups of 6 to avoid overwhelming Archive.org
+  // (36 parallel requests gets rate-limited → timeouts)
+  const BATCH_SIZE = 6;
+  const allResults = [];
 
-  return results.map((r, i) => {
-    if (r.status === "fulfilled") return r.value;
-    console.error(`[archive] failed to fetch ${CATEGORIES[i].id}:`, r.reason);
-    return { ...CATEGORIES[i], items: [] };
-  });
+  for (let i = 0; i < CATEGORIES.length; i += BATCH_SIZE) {
+    const batch = CATEGORIES.slice(i, i + BATCH_SIZE);
+    const batchResults = await Promise.allSettled(
+      batch.map(async (cat) => {
+        const query = cat.mature ? cat.query : cat.query + NSFW_EXCLUDE;
+        return {
+          ...cat,
+          items: shuffle
+            ? await searchVariety(query, rowsPerCategory)
+            : await search(query, rowsPerCategory),
+        };
+      })
+    );
+    allResults.push(...batchResults.map((r, j) => {
+      if (r.status === "fulfilled") return r.value;
+      console.error(`[archive] failed to fetch ${batch[j].id}:`, r.reason);
+      return { ...batch[j], items: [] };
+    }));
+  }
+
+  return allResults;
 }
 
 /**
