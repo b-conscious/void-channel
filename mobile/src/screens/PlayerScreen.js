@@ -354,7 +354,7 @@ const styles = StyleSheet.create({
     backgroundColor: colors.bg,
   },
   xpToastText: { fontFamily: fonts.monoBold, fontSize: 12, letterSpacing: 1 },
-  playerArea: { backgroundColor: '#000', width: '100%' },
+  playerArea: { backgroundColor: '#000', width: '100%', position: 'relative' },
   loadingWrap: { flex: 1, justifyContent: 'center', alignItems: 'center', gap: 12 },
   loadingText: { fontFamily: fonts.mono, fontSize: 11, letterSpacing: 1.5 },
   errorWrap: { flex: 1, justifyContent: 'center', alignItems: 'center', gap: 12, padding: 24 },
