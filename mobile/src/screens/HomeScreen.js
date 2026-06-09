@@ -51,6 +51,33 @@ const FILTER_CHIPS = [
   { id: 'mature', label: '18+' },
 ];
 
+// ── Chip sort order per generation — what each gen finds most interesting first ──
+// "All" always stays first, 18+ always last. Middle chips reorder by preference.
+const CHIP_ORDER = {
+  boomer: [
+    'noir', 'western', 'newsreels', 'documentary', 'feature_length', 'educational_tv',
+    'cartoons', 'comedy', 'sports', 'nature_wildlife', 'prelinger', 'music_video',
+    'public_access', 'scifi', 'horror', 'romance', 'tv_movies', 'anime', 'cringe',
+  ],
+  millennial: [
+    'horror', 'scifi', 'noir', 'cartoons', 'comedy', 'anime', 'documentary',
+    'music_video', 'cringe', 'prelinger', 'public_access', 'tv_movies', 'feature_length',
+    'western', 'educational_tv', 'newsreels', 'sports', 'nature_wildlife', 'romance',
+  ],
+  genz: [
+    'anime', 'cringe', 'horror', 'comedy', 'music_video', 'tv_movies', 'scifi',
+    'cartoons', 'feature_length', 'public_access', 'documentary', 'nature_wildlife',
+    'romance', 'sports', 'prelinger', 'noir', 'western', 'educational_tv', 'newsreels',
+  ],
+};
+
+// ── Channel sort order per generation ──
+const CHANNEL_ORDER = {
+  boomer: ['NOIR', 'WESTERNS', 'DOCS', 'COMEDY', 'CARTOONS', 'PROJECTION ROOM', 'MUSIC', 'SCI-FI', 'NIGHTMARE FUEL', 'PUBLIC ACCESS', 'ANIME', 'THE WEIRD SHELF'],
+  millennial: ['NIGHTMARE FUEL', 'SCI-FI', 'NOIR', 'CARTOONS', 'COMEDY', 'ANIME', 'DOCS', 'MUSIC', 'PROJECTION ROOM', 'THE WEIRD SHELF', 'PUBLIC ACCESS', 'WESTERNS'],
+  genz: ['ANIME', 'NIGHTMARE FUEL', 'COMEDY', 'MUSIC', 'THE WEIRD SHELF', 'SCI-FI', 'CARTOONS', 'PUBLIC ACCESS', 'DOCS', 'NOIR', 'PROJECTION ROOM', 'WESTERNS'],
+};
+
 // Shorts card dimensions — tall portrait like YouTube Shorts
 const SHORTS_CARD_W = IS_DESKTOP ? 180 : 150;
 const SHORTS_CARD_H = Math.round(SHORTS_CARD_W * 1.7); // ~9:16 portrait
@@ -90,6 +117,32 @@ export default function HomeScreen({ navigation }) {
   const loadingMsg = useMemo(() => pickRandom(gen.loadingMessages), [gen.id]);
   const scrollY = useRef(new Animated.Value(0)).current;
   const accent = gen.accentColor;
+
+  // Sort filter chips by generation preference — "All" first, 18+ last
+  const sortedChips = useMemo(() => {
+    const order = CHIP_ORDER[generationId] || CHIP_ORDER.millennial;
+    const allChip = FILTER_CHIPS.find(c => c.id === 'all');
+    const matureChip = FILTER_CHIPS.find(c => c.id === 'mature');
+    const rest = FILTER_CHIPS.filter(c => c.id !== 'all' && c.id !== 'mature');
+    const sorted = [...rest].sort((a, b) => {
+      const ai = order.indexOf(a.id);
+      const bi = order.indexOf(b.id);
+      if (ai === -1 && bi === -1) return 0;
+      if (ai === -1) return 1;
+      if (bi === -1) return -1;
+      return ai - bi;
+    });
+    return [allChip, ...sorted, matureChip];
+  }, [generationId]);
+
+  // Chip bar horizontal scroll — arrow navigation on desktop
+  const chipScrollRef = useRef(null);
+  const chipXRef = useRef(0);
+  const scrollChipBar = useCallback((dir) => {
+    var step = 280;
+    var newX = dir === 'left' ? Math.max(0, chipXRef.current - step) : chipXRef.current + step;
+    chipScrollRef.current?.scrollTo?.({ x: newX, animated: true });
+  }, []);
 
   // Sort by generation's categoryPriority — categories listed first appear at the top
   const typeCats = useMemo(() => {
@@ -462,33 +515,48 @@ export default function HomeScreen({ navigation }) {
         onSignOut={signOut}
       />
 
-      {/* ── YouTube-style filter chip bar — text-only genre channels ── */}
-      <ScrollView
-        horizontal
-        showsHorizontalScrollIndicator={false}
-        contentContainerStyle={styles.chipBar}
-        style={styles.chipBarWrap}
-      >
-        {FILTER_CHIPS.map((chip) => {
-          const isActive = activeChip === chip.id;
-          return (
-            <TouchableOpacity
-              key={chip.id}
-              onPress={() => { setActiveChip(chip.id); try { Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light); } catch {} }}
-              style={[
-                styles.chip,
-                isActive && { backgroundColor: colors.textPrimary },
-              ]}
-              activeOpacity={0.7}
-            >
-              <Text style={[
-                styles.chipText,
-                isActive && { color: colors.bg },
-              ]}>{chip.label}</Text>
-            </TouchableOpacity>
-          );
-        })}
-      </ScrollView>
+      {/* ── Filter chip bar — generation-sorted, with desktop arrows ── */}
+      <View style={[styles.chipBarWrap, IS_DESKTOP && styles.chipBarRow]}>
+        {IS_DESKTOP && (
+          <TouchableOpacity onPress={() => scrollChipBar('left')} style={styles.chipArrow} activeOpacity={0.7}>
+            <Ionicons name="chevron-back" size={16} color={colors.textSecondary} />
+          </TouchableOpacity>
+        )}
+        <ScrollView
+          ref={chipScrollRef}
+          horizontal
+          showsHorizontalScrollIndicator={false}
+          contentContainerStyle={styles.chipBar}
+          style={{ flex: 1 }}
+          onScroll={(e) => { chipXRef.current = e.nativeEvent.contentOffset.x; }}
+          scrollEventThrottle={32}
+        >
+          {sortedChips.map((chip) => {
+            const isActive = activeChip === chip.id;
+            return (
+              <TouchableOpacity
+                key={chip.id}
+                onPress={() => { setActiveChip(chip.id); try { Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light); } catch {} }}
+                style={[
+                  styles.chip,
+                  isActive && { backgroundColor: colors.textPrimary },
+                ]}
+                activeOpacity={0.7}
+              >
+                <Text style={[
+                  styles.chipText,
+                  isActive && { color: colors.bg },
+                ]}>{chip.label}</Text>
+              </TouchableOpacity>
+            );
+          })}
+        </ScrollView>
+        {IS_DESKTOP && (
+          <TouchableOpacity onPress={() => scrollChipBar('right')} style={styles.chipArrow} activeOpacity={0.7}>
+            <Ionicons name="chevron-forward" size={16} color={colors.textSecondary} />
+          </TouchableOpacity>
+        )}
+      </View>
 
       <Animated.ScrollView
         ref={scrollRef}
@@ -603,6 +671,7 @@ export default function HomeScreen({ navigation }) {
             categories={allCategories}
             accent={accent}
             onChannelPress={handleChannelPress}
+            generationId={generationId}
           />
         )}
 
@@ -819,71 +888,50 @@ function ShortsRow({ items, accent, onItemPress }) {
   );
 }
 
-// Channels row — TV channel tiles with multi-source mixing for variety
-function ChannelsRow({ categories, accent, onChannelPress }) {
+// Channels row — TV channel tiles with multi-source mixing, sorted by generation
+function ChannelsRow({ categories, accent, onChannelPress, generationId }) {
+  var channelScrollRef = useRef(null);
+  var channelXRef = useRef(0);
+  var scrollChannels = useCallback(function (dir) {
+    var step = 320;
+    var newX = dir === 'left' ? Math.max(0, channelXRef.current - step) : channelXRef.current + step;
+    channelScrollRef.current?.scrollTo?.({ x: newX, animated: true });
+  }, []);
+
   // Each channel mixes items from multiple related categories
   const channelDefs = [
-    {
-      label: "CARTOONS", icon: "★",
-      catIds: ["cartoons", "show_betty_boop", "show_popeye", "show_looney", "show_woody", "show_mickey", "show_felix", "saturday_morning"],
-    },
-    {
-      label: "SCI-FI", icon: "◈",
-      catIds: ["scifi", "deep_space", "deep_atomic"],
-    },
-    {
-      label: "NIGHTMARE FUEL", icon: "☠",
-      catIds: ["horror", "deep_creature", "deep_vampire", "deep_camp"],
-    },
-    {
-      label: "NOIR", icon: "◆",
-      catIds: ["noir", "deep_mental_hygiene"],
-    },
-    {
-      label: "COMEDY", icon: "★",
-      catIds: ["comedy", "show_threestooges", "oddities"],
-    },
-    {
-      label: "DOCS", icon: "▣",
-      catIds: ["documentary", "newsreels", "nature_wildlife"],
-    },
-    {
-      label: "WESTERNS", icon: "◆",
-      catIds: ["western", "war_footage"],
-    },
-    {
-      label: "ANIME", icon: "◈",
-      catIds: ["anime", "foreign"],
-    },
-    {
-      label: "PROJECTION ROOM", icon: "▶",
-      catIds: ["prelinger", "psa", "deep_driver_ed", "deep_propaganda"],
-    },
-    {
-      label: "MUSIC", icon: "♫",
-      catIds: ["music_video", "commercials"],
-    },
-    {
-      label: "PUBLIC ACCESS", icon: "▶",
-      catIds: ["public_access", "shopping", "game_shows"],
-    },
-    {
-      label: "THE WEIRD SHELF", icon: "✦",
-      catIds: ["oddities", "abstract", "conspiracy", "amateur"],
-    },
+    { label: "CARTOONS", icon: "★", catIds: ["cartoons", "show_betty_boop", "show_popeye", "show_looney", "show_woody", "show_mickey", "show_felix", "saturday_morning"] },
+    { label: "SCI-FI", icon: "◈", catIds: ["scifi", "deep_space", "deep_atomic"] },
+    { label: "NIGHTMARE FUEL", icon: "☠", catIds: ["horror", "deep_creature", "deep_vampire", "deep_camp"] },
+    { label: "NOIR", icon: "◆", catIds: ["noir", "deep_mental_hygiene"] },
+    { label: "COMEDY", icon: "★", catIds: ["comedy", "show_threestooges", "oddities"] },
+    { label: "DOCS", icon: "▣", catIds: ["documentary", "newsreels", "nature_wildlife"] },
+    { label: "WESTERNS", icon: "◆", catIds: ["western", "war_footage"] },
+    { label: "ANIME", icon: "◈", catIds: ["anime", "foreign"] },
+    { label: "PROJECTION ROOM", icon: "▶", catIds: ["prelinger", "psa", "deep_driver_ed", "deep_propaganda"] },
+    { label: "MUSIC", icon: "♫", catIds: ["music_video", "commercials"] },
+    { label: "PUBLIC ACCESS", icon: "▶", catIds: ["public_access", "shopping", "game_shows"] },
+    { label: "THE WEIRD SHELF", icon: "✦", catIds: ["oddities", "abstract", "conspiracy", "amateur"] },
   ];
 
   const channels = channelDefs
     .map((def) => {
       const mixed = mixCategoryItems(categories, def.catIds);
-      // Use first category that has items for the thumbnail stack
       const primaryCat = def.catIds.map((id) => categories.find((c) => c.id === id)).find((c) => c?.items?.length > 0);
-      return {
-        ...def,
-        category: primaryCat ? { ...primaryCat, id: def.catIds[0], items: mixed } : null,
-      };
+      return { ...def, category: primaryCat ? { ...primaryCat, id: def.catIds[0], items: mixed } : null };
     })
     .filter((ch) => ch.category?.items?.length > 2);
+
+  // Sort channels by generation preference
+  const order = CHANNEL_ORDER[generationId] || CHANNEL_ORDER.millennial;
+  channels.sort((a, b) => {
+    const ai = order.indexOf(a.label);
+    const bi = order.indexOf(b.label);
+    if (ai === -1 && bi === -1) return 0;
+    if (ai === -1) return 1;
+    if (bi === -1) return -1;
+    return ai - bi;
+  });
 
   if (channels.length === 0) return null;
 
@@ -893,24 +941,44 @@ function ChannelsRow({ categories, accent, onChannelPress }) {
         <Text style={[styles.channelsTitle, { color: accent }]}>◉ CHANNELS</Text>
         <Text style={styles.channelsSubtitle}>tap to tune in — auto-plays through</Text>
       </View>
-      <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.channelsRow}>
-        {channels.map((ch) => (
-          <Pressable
-            key={ch.label}
-            onPress={() => onChannelPress(ch.category, ch.label)}
-            style={[styles.channelTile, { borderColor: accent + '30' }]}
-          >
-            <View style={[styles.liveBadge, { backgroundColor: accent }]}>
-              <View style={styles.liveBadgeDot} />
-              <Text style={styles.liveBadgeText}>LIVE</Text>
-            </View>
-            <Text style={[styles.channelTileLabel, { color: '#fff' }]} numberOfLines={1}>{ch.label}</Text>
-            <Text style={styles.channelTileSub}>
-              {ch.category.items.length} mixed · auto-advance
-            </Text>
-          </Pressable>
-        ))}
-      </ScrollView>
+      <View style={IS_DESKTOP ? styles.scrollArrowRow : undefined}>
+        {IS_DESKTOP && (
+          <TouchableOpacity onPress={() => scrollChannels('left')} style={styles.chipArrow} activeOpacity={0.7}>
+            <Ionicons name="chevron-back" size={16} color={colors.textSecondary} />
+          </TouchableOpacity>
+        )}
+        <ScrollView
+          ref={channelScrollRef}
+          horizontal
+          showsHorizontalScrollIndicator={false}
+          contentContainerStyle={styles.channelsRow}
+          style={IS_DESKTOP ? { flex: 1 } : undefined}
+          onScroll={(e) => { channelXRef.current = e.nativeEvent.contentOffset.x; }}
+          scrollEventThrottle={32}
+        >
+          {channels.map((ch) => (
+            <Pressable
+              key={ch.label}
+              onPress={() => onChannelPress(ch.category, ch.label)}
+              style={[styles.channelTile, { borderColor: accent + '30' }]}
+            >
+              <View style={[styles.liveBadge, { backgroundColor: accent }]}>
+                <View style={styles.liveBadgeDot} />
+                <Text style={styles.liveBadgeText}>LIVE</Text>
+              </View>
+              <Text style={[styles.channelTileLabel, { color: '#fff' }]} numberOfLines={1}>{ch.label}</Text>
+              <Text style={styles.channelTileSub}>
+                {ch.category.items.length} mixed · auto-advance
+              </Text>
+            </Pressable>
+          ))}
+        </ScrollView>
+        {IS_DESKTOP && (
+          <TouchableOpacity onPress={() => scrollChannels('right')} style={styles.chipArrow} activeOpacity={0.7}>
+            <Ionicons name="chevron-forward" size={16} color={colors.textSecondary} />
+          </TouchableOpacity>
+        )}
+      </View>
     </View>
   );
 }
@@ -1216,6 +1284,20 @@ const styles = StyleSheet.create({
     borderBottomColor: colors.surface,
     backgroundColor: colors.bg,
     zIndex: 9,
+  },
+  chipBarRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  chipArrow: {
+    width: 28,
+    height: 36,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  scrollArrowRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
   },
   chipBar: {
     flexDirection: 'row',
