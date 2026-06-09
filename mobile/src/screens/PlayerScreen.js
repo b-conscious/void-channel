@@ -244,10 +244,15 @@ export default function PlayerScreen({ route, navigation }) {
             event_type: 'start', watch_percent: 0,
           }).catch(() => {});
         }
-        // Rabbit hole loads immediately (visible in sidebar)
-        api.getRelated(stub.id, 20).then(setRelatedItems).catch(() => {}).finally(() => setRelatedLoading(false));
+        // ── Progressive loading: prioritize video, defer everything else ──
+        // Tier 2 (~4s): sidebar / rabbit hole — below the fold on desktop
+        const relatedTimer = setTimeout(() => {
+          if (cancelled) return;
+          api.getRelated(stub.id, 20).then(setRelatedItems).catch(() => {}).finally(() => setRelatedLoading(false));
+        }, 4000);
+        cleanupTimers.push(relatedTimer);
 
-        // Defer comments + x-ray — below the fold, load after a short delay
+        // Tier 3 (~10s): comments + x-ray — far below fold, lowest priority
         const deferTimer = setTimeout(() => {
           if (cancelled) return;
           setCommentsLoading(true);
@@ -262,7 +267,7 @@ export default function PlayerScreen({ route, navigation }) {
               setXrayTotal(xray.total || 0);
             }
           }).catch(() => {});
-        }, 1500); // 1.5s after mount — video is playing by then
+        }, 10000);
         cleanupTimers.push(deferTimer);
       } catch (err) {
         if (cancelled) return;
@@ -601,7 +606,7 @@ export default function PlayerScreen({ route, navigation }) {
             }}
             style={styles.sidebarUpNextCard}
           >
-            <FastImage uri={relatedItems[0].thumbnail} itemId={relatedItems[0].id} style={styles.sidebarUpNextThumb} contentFit="cover" />
+            <FastImage uri={relatedItems[0].thumbnail} itemId={relatedItems[0].id} style={styles.sidebarUpNextThumb} contentFit="cover" priority="low" />
             <View style={styles.sidebarUpNextInfo}>
               <Text style={styles.sidebarUpNextTitle} numberOfLines={2}>{cleanTitle(relatedItems[0].title)}</Text>
               {relatedItems[0].year ? <Text style={[styles.sidebarUpNextYear, { color: accent }]}>{relatedItems[0].year}</Text> : null}
@@ -622,7 +627,7 @@ export default function PlayerScreen({ route, navigation }) {
               }}
               style={styles.sidebarRelCard}
             >
-              <FastImage uri={rel.thumbnail} itemId={rel.id} style={styles.sidebarRelThumb} contentFit="cover" />
+              <FastImage uri={rel.thumbnail} itemId={rel.id} style={styles.sidebarRelThumb} contentFit="cover" priority="low" />
               <View style={styles.sidebarRelInfo}>
                 <Text style={styles.sidebarRelTitle} numberOfLines={2}>{cleanTitle(rel.title)}</Text>
                 {rel.year ? <Text style={[styles.sidebarRelYear, { color: accent }]}>{rel.year}</Text> : null}
@@ -1344,7 +1349,7 @@ export default function PlayerScreen({ route, navigation }) {
                     }}
                     style={styles.rabbitCard}
                   >
-                    <FastImage uri={rel.thumbnail} itemId={rel.id} style={styles.rabbitThumb} contentFit="cover" />
+                    <FastImage uri={rel.thumbnail} itemId={rel.id} style={styles.rabbitThumb} contentFit="cover" priority="low" />
                     <View style={styles.rabbitCardInfo}>
                       <Text style={styles.rabbitCardTitle} numberOfLines={1}>{cleanTitle(rel.title)}</Text>
                       {rel.year ? <Text style={[styles.rabbitCardYear, { color: accent }]}>{rel.year}</Text> : null}
