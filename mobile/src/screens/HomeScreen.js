@@ -51,10 +51,36 @@ export default function HomeScreen({ navigation }) {
   const accent = gen.accentColor;
 
   // Paginate: show CATS_PER_PAGE "type" categories at a time
-  const typeCats = useMemo(() => allCategories.filter((c) => !c.group || c.group === 'type'), [allCategories]);
+  // Sort by generation's categoryPriority — categories listed first appear at the top
+  const typeCats = useMemo(() => {
+    const raw = allCategories.filter((c) => !c.group || c.group === 'type');
+    const priority = gen.categoryPriority || [];
+    if (priority.length === 0) return raw;
+    return [...raw].sort((a, b) => {
+      const ai = priority.indexOf(a.id);
+      const bi = priority.indexOf(b.id);
+      // Items in priority list come first, in listed order; unlisted items keep original order at the end
+      if (ai === -1 && bi === -1) return 0;
+      if (ai === -1) return 1;
+      if (bi === -1) return -1;
+      return ai - bi;
+    });
+  }, [allCategories, gen.categoryPriority]);
   const deepCats = useMemo(() => allCategories.filter((c) => c.group === 'deep'), [allCategories]);
   const showCats = useMemo(() => allCategories.filter((c) => c.group === 'show'), [allCategories]);
-  const decadeCats = useMemo(() => allCategories.filter((c) => c.group === 'decade'), [allCategories]);
+  const decadeCats = useMemo(() => {
+    const raw = allCategories.filter((c) => c.group === 'decade');
+    const priority = gen.categoryPriority || [];
+    if (priority.length === 0) return raw;
+    return [...raw].sort((a, b) => {
+      const ai = priority.indexOf(a.id);
+      const bi = priority.indexOf(b.id);
+      if (ai === -1 && bi === -1) return 0;
+      if (ai === -1) return 1;
+      if (bi === -1) return -1;
+      return ai - bi;
+    });
+  }, [allCategories, gen.categoryPriority]);
   const visibleTypeCats = useMemo(() => {
     const start = catPage * CATS_PER_PAGE;
     return typeCats.slice(start, start + CATS_PER_PAGE);
@@ -90,6 +116,9 @@ export default function HomeScreen({ navigation }) {
       setCatLoading((prev) => ({ ...prev, [categoryId]: false }));
     }
   }, [catLoading]);
+
+  // Reset category page when generation changes so user sees the new ordering
+  useEffect(() => { setCatPage(0); }, [generationId]);
 
   const handleRetune = useCallback((direction) => {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);

@@ -11,6 +11,14 @@ export const GENERATIONS = {
     range: '1946 – 1964',
     accentColor: '#d4a843',
     accentOnDark: '#000',
+    // Category display priority — top of home screen first
+    categoryPriority: [
+      'noir', 'western', 'newsreels', 'documentary', 'war_footage',
+      'religious', 'comedy', 'silent_film', 'd1950s', 'd1960s', 'd1940s',
+      'travelogues', 'psa', 'commercials', 'cartoons', 'educational_tv',
+      'prelinger', 'sports', 'nature_wildlife', 'game_shows', 'horror',
+      'scifi', 'music_video', 'd1970s', 'd1930s', 'medical', 'ephemeral',
+    ],
     taglines: [
       "Before AI slop, there was human creativity.",
       "Generating since 1895.",
@@ -106,6 +114,14 @@ export const GENERATIONS = {
     range: '1981 – 1996',
     accentColor: '#f5a623',
     accentOnDark: '#000',
+    // Category display priority — top of home screen first
+    categoryPriority: [
+      'horror', 'scifi', 'noir', 'cartoons', 'comedy', 'anime',
+      'documentary', 'computers', 'music_video', 'd1990s', 'd2000s',
+      'conspiracy', 'oddities', 'prelinger', 'abstract', 'amateur',
+      'blaxploitation', 'western', 'psa', 'ephemeral', 'd1980s', 'd1970s',
+      'commercials', 'newsreels', 'travelogues', 'public_access',
+    ],
     taglines: [
       "Before AI slop, there was human creativity.",
       "Generating since 1895.",
@@ -201,6 +217,14 @@ export const GENERATIONS = {
     range: '1997 – 2012',
     accentColor: '#b2ff3e',
     accentOnDark: '#000',
+    // Category display priority — top of home screen first
+    categoryPriority: [
+      'anime', 'abstract', 'horror', 'comedy', 'music_video',
+      'conspiracy', 'oddities', 'violence', 'public_access', 'd2010s', 'd2020s',
+      'amateur', 'scifi', 'cartoons', 'howto', 'foreign',
+      'd2000s', 'd1990s', 'blaxploitation', 'noir', 'shopping',
+      'computers', 'documentary', 'art_film', 'theatre',
+    ],
     taglines: [
       "before ai slop, there was human creativity.",
       "generating since 1895.",

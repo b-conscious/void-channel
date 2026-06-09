@@ -2,10 +2,10 @@
  * Subscriptions — follow categories/collections.
  *
  * Routes:
- *   GET    /api/subscriptions              — list user's subscriptions
- *   POST   /api/subscriptions              — subscribe to a category
- *   DELETE /api/subscriptions/:categoryId  — unsubscribe
- *   GET    /api/subscriptions/feed         — items from subscribed categories
+ *   GET    /api/subscriptions              — list user's subscriptions (empty if anonymous)
+ *   POST   /api/subscriptions              — subscribe to a category (requires auth)
+ *   DELETE /api/subscriptions/:categoryId  — unsubscribe (requires auth)
+ *   GET    /api/subscriptions/feed         — items from subscribed categories (empty if anonymous)
  */
 
 const express = require("express");
@@ -14,12 +14,18 @@ const archive = require("./archive");
 
 const router = express.Router();
 
-router.use(requireAuth);
+// NOTE: No blanket requireAuth — GET routes return empty for anonymous users,
+// POST/DELETE require auth explicitly.
 
 // ── List subscriptions ────────────────────────────────────
 
 router.get("/", async (req, res) => {
   try {
+    // Anonymous users — return empty
+    if (!req.user || !supabase) {
+      return res.json([]);
+    }
+
     const { data, error } = await supabase
       .from("subscriptions")
       .select("*")
@@ -30,75 +36,20 @@ router.get("/", async (req, res) => {
     res.json(data || []);
   } catch (err) {
     console.error("[subscriptions] list:", err.message);
-    res.status(500).json({ error: "Failed to fetch subscriptions" });
-  }
-});
-
-// ── Subscribe to category ─────────────────────────────────
-
-router.post("/", async (req, res) => {
-  try {
-    const { category_id } = req.body;
-    if (!category_id) {
-      return res.status(400).json({ error: "category_id is required" });
-    }
-
-    // Validate category exists
-    const cat = archive.CATEGORIES.find((c) => c.id === category_id);
-    if (!cat) {
-      return res.status(400).json({ error: "Unknown category" });
-    }
-
-    // Limit: 30 subscriptions
-    const { count } = await supabase
-      .from("subscriptions")
-      .select("id", { count: "exact", head: true })
-      .eq("user_id", req.user.id);
-
-    if (count >= 30) {
-      return res.status(400).json({ error: "Maximum 30 subscriptions" });
-    }
-
-    const { data, error } = await supabase
-      .from("subscriptions")
-      .upsert({
-        user_id: req.user.id,
-        category_id,
-        category_name: cat.name,
-      }, { onConflict: "user_id,category_id" })
-      .select()
-      .single();
-
-    if (error) throw error;
-    res.status(201).json(data);
-  } catch (err) {
-    console.error("[subscriptions] subscribe:", err.message);
-    res.status(500).json({ error: "Failed to subscribe" });
-  }
-});
-
-// ── Unsubscribe ───────────────────────────────────────────
-
-router.delete("/:categoryId", async (req, res) => {
-  try {
-    const { error } = await supabase
-      .from("subscriptions")
-      .delete()
-      .eq("user_id", req.user.id)
-      .eq("category_id", req.params.categoryId);
-
-    if (error) throw error;
-    res.json({ ok: true });
-  } catch (err) {
-    console.error("[subscriptions] unsubscribe:", err.message);
-    res.status(500).json({ error: "Failed to unsubscribe" });
+    res.json([]); // Graceful fallback — don't 500 for this
   }
 });
 
 // ── Subscription feed — items from followed categories ────
+// Must be ABOVE /:categoryId to avoid route conflict
 
 router.get("/feed", async (req, res) => {
   try {
+    // Anonymous users — return empty feed
+    if (!req.user || !supabase) {
+      return res.json({ items: [], page: 1, total: 0, message: "Sign in to subscribe to categories" });
+    }
+
     const page = parseInt(req.query.page) || 1;
     const rows = Math.min(parseInt(req.query.rows) || 20, 50);
 
@@ -147,7 +98,68 @@ router.get("/feed", async (req, res) => {
     });
   } catch (err) {
     console.error("[subscriptions] feed:", err.message);
-    res.status(500).json({ error: "Failed to fetch subscription feed" });
+    res.json({ items: [], page: 1, total: 0 }); // Graceful fallback
+  }
+});
+
+// ── Subscribe to category ─────────────────────────────────
+
+router.post("/", requireAuth, async (req, res) => {
+  try {
+    const { category_id } = req.body;
+    if (!category_id) {
+      return res.status(400).json({ error: "category_id is required" });
+    }
+
+    // Validate category exists
+    const cat = archive.CATEGORIES.find((c) => c.id === category_id);
+    if (!cat) {
+      return res.status(400).json({ error: "Unknown category" });
+    }
+
+    // Limit: 30 subscriptions
+    const { count } = await supabase
+      .from("subscriptions")
+      .select("id", { count: "exact", head: true })
+      .eq("user_id", req.user.id);
+
+    if (count >= 30) {
+      return res.status(400).json({ error: "Maximum 30 subscriptions" });
+    }
+
+    const { data, error } = await supabase
+      .from("subscriptions")
+      .upsert({
+        user_id: req.user.id,
+        category_id,
+        category_name: cat.name,
+      }, { onConflict: "user_id,category_id" })
+      .select()
+      .single();
+
+    if (error) throw error;
+    res.status(201).json(data);
+  } catch (err) {
+    console.error("[subscriptions] subscribe:", err.message);
+    res.status(500).json({ error: "Failed to subscribe" });
+  }
+});
+
+// ── Unsubscribe ───────────────────────────────────────────
+
+router.delete("/:categoryId", requireAuth, async (req, res) => {
+  try {
+    const { error } = await supabase
+      .from("subscriptions")
+      .delete()
+      .eq("user_id", req.user.id)
+      .eq("category_id", req.params.categoryId);
+
+    if (error) throw error;
+    res.json({ ok: true });
+  } catch (err) {
+    console.error("[subscriptions] unsubscribe:", err.message);
+    res.status(500).json({ error: "Failed to unsubscribe" });
   }
 });
 
