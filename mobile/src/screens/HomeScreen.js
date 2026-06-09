@@ -28,6 +28,29 @@ const HERO_H = Math.round(CONTENT_W * 0.62);
 const DONATE_URL = 'https://square.link/u/IteDL7XI';
 const BRAND_BLUE = '#5cb8ff'; // vivid blue — donate icon + tagline
 
+// YouTube-style filter chips — text-only genre aggregates, no thumbnails = fast
+const FILTER_CHIPS = [
+  { id: 'all', label: 'All' },
+  { id: 'horror', label: 'Horror' },
+  { id: 'scifi', label: 'Sci-Fi' },
+  { id: 'comedy', label: 'Comedy' },
+  { id: 'noir', label: 'Noir' },
+  { id: 'cartoons', label: 'Cartoons' },
+  { id: 'documentary', label: 'Docs' },
+  { id: 'western', label: 'Westerns' },
+  { id: 'anime', label: 'Anime' },
+  { id: 'music_video', label: 'Music' },
+  { id: 'educational_tv', label: 'Educational' },
+  { id: 'newsreels', label: 'Newsreels' },
+  { id: 'feature_length', label: 'Features' },
+  { id: 'public_access', label: 'Public Access' },
+  { id: 'prelinger', label: 'Prelinger' },
+  { id: 'sports', label: 'Sports' },
+  { id: 'romance', label: 'Romance' },
+  { id: 'nature_wildlife', label: 'Nature' },
+  { id: 'mature', label: '18+' },
+];
+
 // Shorts card dimensions — tall portrait like YouTube Shorts
 const SHORTS_CARD_W = IS_DESKTOP ? 180 : 150;
 const SHORTS_CARD_H = Math.round(SHORTS_CARD_W * 1.7); // ~9:16 portrait
@@ -56,6 +79,7 @@ export default function HomeScreen({ navigation }) {
   const [subFeed, setSubFeed] = useState([]);
   const [forYou, setForYou] = useState([]);
   const [shorts, setShorts] = useState([]);
+  const [activeChip, setActiveChip] = useState('all');
   // Re-pick when generation changes so taglines/loading msgs match the active gen
   const tagline = useMemo(() => pickRandom(gen.taglines), [gen.id]);
   const loadingMsg = useMemo(() => pickRandom(gen.loadingMessages), [gen.id]);
@@ -94,9 +118,14 @@ export default function HomeScreen({ navigation }) {
     });
   }, [allCategories, gen.categoryPriority]);
   const visibleTypeCats = useMemo(() => {
+    // When a filter chip is active (not "all"), only show matching category
+    if (activeChip !== 'all') {
+      const match = typeCats.filter((c) => c.id === activeChip);
+      return match.length > 0 ? match : typeCats.slice(0, CATS_PER_PAGE);
+    }
     const start = catPage * CATS_PER_PAGE;
     return typeCats.slice(start, start + CATS_PER_PAGE);
-  }, [typeCats, catPage]);
+  }, [typeCats, catPage, activeChip]);
   const totalTypePages = Math.max(1, Math.ceil(typeCats.length / CATS_PER_PAGE));
 
   // Per-category pagination — tracks which page each category is on + loading state
@@ -244,37 +273,51 @@ export default function HomeScreen({ navigation }) {
 
   useEffect(() => { loadCategories(); }, [loadCategories]);
 
-  // Load the global community hearts library (top-hearted items across all users)
-  useEffect(() => {
-    api.getTopHearts(20)
-      .then(setTopHearts)
-      .catch(() => setTopHearts([]));
-  }, [refreshing]); // re-fetch on repopulate too
+  // ── PROGRESSIVE LOADING WATERFALL ──
+  // Tier 1 (0s): Categories + hero (handled by loadCategories above)
+  // Tier 2 (1.5s): Community hearts + trending (first visible rows)
+  // Tier 3 (3.5s): Shorts, For You, Sub Feed (below fold)
+  const tier2Loaded = useRef(false);
+  const tier3Loaded = useRef(false);
 
-  // Shorts — short-form content (under 2 min)
   useEffect(() => {
-    api.getShorts(15)
-      .then((data) => setShorts(Array.isArray(data) ? data : data?.items || []))
-      .catch(() => setShorts([]));
+    if (refreshing) { tier2Loaded.current = false; tier3Loaded.current = false; }
   }, [refreshing]);
 
-  // Phase 2: Trending (always), Subscription Feed + For You (auth only)
+  // Tier 2 — fires after hero + categories are loaded (or 1.5s, whichever is first)
   useEffect(() => {
-    api.getTrending(15)
-      .then((data) => setTrending(Array.isArray(data) ? data : data?.items || []))
-      .catch(() => setTrending([]));
+    if (loading && !refreshing) return; // wait for tier 1
+    if (tier2Loaded.current && !refreshing) return;
+    const t = setTimeout(() => {
+      tier2Loaded.current = true;
+      api.getTopHearts(20).then(setTopHearts).catch(() => setTopHearts([]));
+      api.getTrending(15)
+        .then((data) => setTrending(Array.isArray(data) ? data : data?.items || []))
+        .catch(() => setTrending([]));
+    }, refreshing ? 0 : 1500);
+    return () => clearTimeout(t);
+  }, [loading, refreshing]);
 
-    // Only hit these endpoints if signed in — saves 2 failed requests for anon users
-    if (isAuthenticated) {
-      api.getSubscriptionFeed(1, 15)
-        .then((data) => setSubFeed(data?.items || []))
-        .catch(() => setSubFeed([]));
-
-      api.getRecommendations(15)
-        .then((data) => setForYou(data?.items || []))
-        .catch(() => setForYou([]));
-    }
-  }, [refreshing, isAuthenticated]);
+  // Tier 3 — fires 3.5s after page load (below fold content)
+  useEffect(() => {
+    if (loading && !refreshing) return;
+    if (tier3Loaded.current && !refreshing) return;
+    const t = setTimeout(() => {
+      tier3Loaded.current = true;
+      api.getShorts(15)
+        .then((data) => setShorts(Array.isArray(data) ? data : data?.items || []))
+        .catch(() => setShorts([]));
+      if (isAuthenticated) {
+        api.getSubscriptionFeed(1, 15)
+          .then((data) => setSubFeed(data?.items || []))
+          .catch(() => setSubFeed([]));
+        api.getRecommendations(15)
+          .then((data) => setForYou(data?.items || []))
+          .catch(() => setForYou([]));
+      }
+    }, refreshing ? 0 : 3500);
+    return () => clearTimeout(t);
+  }, [loading, refreshing, isAuthenticated]);
 
   const handleItemPress = useCallback((item, categoryId) => {
     navigation.navigate('Player', { item, id: item.id, categoryId });
@@ -456,6 +499,34 @@ export default function HomeScreen({ navigation }) {
         onAvatarPress={() => setAvatarPickerOpen(true)}
         onSignOut={signOut}
       />
+
+      {/* ── YouTube-style filter chip bar — text-only genre channels ── */}
+      <ScrollView
+        horizontal
+        showsHorizontalScrollIndicator={false}
+        contentContainerStyle={styles.chipBar}
+        style={styles.chipBarWrap}
+      >
+        {FILTER_CHIPS.map((chip) => {
+          const isActive = activeChip === chip.id;
+          return (
+            <TouchableOpacity
+              key={chip.id}
+              onPress={() => { setActiveChip(chip.id); try { Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light); } catch {} }}
+              style={[
+                styles.chip,
+                isActive && { backgroundColor: colors.textPrimary },
+              ]}
+              activeOpacity={0.7}
+            >
+              <Text style={[
+                styles.chipText,
+                isActive && { color: colors.bg },
+              ]}>{chip.label}</Text>
+            </TouchableOpacity>
+          );
+        })}
+      </ScrollView>
 
       <Animated.ScrollView
         ref={scrollRef}
@@ -646,9 +717,9 @@ export default function HomeScreen({ navigation }) {
               />
             ))}
 
-            {/* Deep cuts — granular sub-categories (lazy: renders 150ms after above-fold) */}
+            {/* Deep cuts — granular sub-categories (lazy: renders 2.5s after above-fold) */}
             {deepCats.length > 0 && (
-              <LazySection delayMs={150} estimatedHeight={deepCats.length * 180}>
+              <LazySection delayMs={2500} estimatedHeight={deepCats.length * 180}>
                 <View style={styles.divider}>
                   <View style={styles.dividerLine} />
                   <Text style={styles.dividerText}>DEEP CUTS — THE WEIRD STUFF</Text>
@@ -670,9 +741,9 @@ export default function HomeScreen({ navigation }) {
               </LazySection>
             )}
 
-            {/* By show / series (lazy: renders 300ms after above-fold) */}
+            {/* By show / series (lazy: renders 5s after above-fold) */}
             {showCats.length > 0 && (
-              <LazySection delayMs={300} estimatedHeight={showCats.length * 180}>
+              <LazySection delayMs={5000} estimatedHeight={showCats.length * 180}>
                 <View style={styles.divider}>
                   <View style={styles.dividerLine} />
                   <Text style={styles.dividerText}>BY SERIES — THE CLASSICS</Text>
@@ -694,9 +765,9 @@ export default function HomeScreen({ navigation }) {
               </LazySection>
             )}
 
-            {/* By decade (lazy: renders 450ms after above-fold) */}
+            {/* By decade (lazy: renders 8s after above-fold) */}
             {decadeCats.length > 0 && (
-              <LazySection delayMs={450} estimatedHeight={decadeCats.length * 180}>
+              <LazySection delayMs={8000} estimatedHeight={decadeCats.length * 180}>
                 <View style={styles.divider}>
                   <View style={styles.dividerLine} />
                   <Text style={styles.dividerText}>BY DECADE — TIME MACHINE</Text>
@@ -800,11 +871,11 @@ function HeroCard({ item, loading, insetTop, loadingMsg, tagline, gen, accent, o
   const creator = Array.isArray(item.creator) ? item.creator[0] : item.creator;
 
   return (
-    <Pressable onPress={onPress} style={{ height: totalH }}>
+    <Pressable onPress={onPress} style={{ height: totalH, width: CONTENT_W }}>
       <FastImage
         uri={item.thumbnail}
         itemId={item.id}
-        style={{ width: SCREEN_W, height: totalH }}
+        style={{ width: CONTENT_W, height: totalH }}
         contentFit="cover"
         priority="high"
       />
@@ -1316,6 +1387,35 @@ const styles = StyleSheet.create({
     fontSize: 14,
     color: colors.textMuted,
     flex: 1,
+  },
+  // ── YouTube-style filter chip bar ──
+  chipBarWrap: {
+    maxHeight: 44,
+    borderBottomWidth: StyleSheet.hairlineWidth,
+    borderBottomColor: colors.surface,
+    backgroundColor: colors.bg,
+    zIndex: 9,
+  },
+  chipBar: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+    paddingHorizontal: spacing.screenPadding,
+    paddingVertical: 8,
+  },
+  chip: {
+    paddingHorizontal: 14,
+    paddingVertical: 7,
+    borderRadius: radius.full,
+    backgroundColor: colors.surface,
+    borderWidth: 1,
+    borderColor: colors.border,
+  },
+  chipText: {
+    fontFamily: fonts.sansMedium,
+    fontSize: 13,
+    color: colors.textPrimary,
+    letterSpacing: 0.3,
   },
   headerTagline: {
     fontFamily: fonts.monoBold, fontSize: 14, letterSpacing: 3,
