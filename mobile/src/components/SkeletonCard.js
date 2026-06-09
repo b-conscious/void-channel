@@ -1,33 +1,48 @@
-import React, { useEffect } from "react";
-import { View, StyleSheet } from "react-native";
-import Animated, {
-  useSharedValue,
-  useAnimatedStyle,
-  withRepeat,
-  withTiming,
-  Easing,
-} from "react-native-reanimated";
+import React, { useEffect, useRef } from "react";
+import { View, StyleSheet, Animated, Easing } from "react-native";
+// NOTE: Uses RN built-in Animated instead of Reanimated to avoid TDZ crash in prod bundles.
 import { colors, radius, cardSize } from "../theme";
 
 export default function SkeletonCard({ width, height }) {
-  const opacity = useSharedValue(0.4);
+  const opacity = useRef(new Animated.Value(0.4)).current;
 
   useEffect(() => {
-    opacity.value = withRepeat(
-      withTiming(1, { duration: 900, easing: Easing.inOut(Easing.ease) }),
-      -1,
-      true
+    const anim = Animated.loop(
+      Animated.timing(opacity, {
+        toValue: 1,
+        duration: 900,
+        easing: Easing.inOut(Easing.ease),
+        useNativeDriver: true,
+      }),
+      { iterations: -1 }
     );
+    // Reverse direction — need sequence for ping-pong
+    const pingPong = Animated.loop(
+      Animated.sequence([
+        Animated.timing(opacity, {
+          toValue: 1,
+          duration: 900,
+          easing: Easing.inOut(Easing.ease),
+          useNativeDriver: true,
+        }),
+        Animated.timing(opacity, {
+          toValue: 0.4,
+          duration: 900,
+          easing: Easing.inOut(Easing.ease),
+          useNativeDriver: true,
+        }),
+      ])
+    );
+    pingPong.start();
+    return () => pingPong.stop();
   }, []);
-
-  const animStyle = useAnimatedStyle(() => ({ opacity: opacity.value }));
 
   const w = width || cardSize.width;
   const h = height || cardSize.height;
 
   return (
     <View style={[styles.container, { width: w, marginRight: cardSize.gap }]}>
-      <Animated.View style={[styles.card, { width: w, height: h }, animStyle]} />
+      <Animated.View style={[styles.card, { width: w, height: h, opacity }]} />
     </View>
   );
 }

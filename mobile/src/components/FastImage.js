@@ -6,18 +6,11 @@
  * No dead space, no blank rectangles — every card has visible content immediately.
  *
  * Works on web AND native (no blurhash dependency).
+ * NOTE: Uses RN built-in Animated instead of Reanimated to avoid TDZ crash in prod bundles.
  */
-import React, { useState, useEffect, useMemo } from "react";
-import { View, StyleSheet, Platform } from "react-native";
+import React, { useState, useEffect, useMemo, useRef } from "react";
+import { View, StyleSheet, Platform, Animated, Easing } from "react-native";
 import { Image } from "expo-image";
-import Animated, {
-  useSharedValue,
-  useAnimatedStyle,
-  withRepeat,
-  withTiming,
-  withSequence,
-  Easing,
-} from "react-native-reanimated";
 import { colors } from "../theme";
 
 // Derive a subtle tint color from the item id so each card shimmer is unique
@@ -45,7 +38,8 @@ export default function FastImage({
   children,
 }) {
   const [loaded, setLoaded] = useState(false);
-  const shimmerOpacity = useSharedValue(0.35);
+  const shimmerOpacity = useRef(new Animated.Value(0.35)).current;
+  const imgOpacity = useRef(new Animated.Value(0)).current;
   const tint = useMemo(
     () => TINT_PALETTE[hashStr(itemId) % TINT_PALETTE.length],
     [itemId]
@@ -54,36 +48,41 @@ export default function FastImage({
   // Pulsing shimmer animation
   useEffect(() => {
     if (loaded) return;
-    shimmerOpacity.value = withRepeat(
-      withSequence(
-        withTiming(0.7, { duration: 800, easing: Easing.inOut(Easing.ease) }),
-        withTiming(0.35, { duration: 800, easing: Easing.inOut(Easing.ease) })
-      ),
-      -1,
-      false
+    const anim = Animated.loop(
+      Animated.sequence([
+        Animated.timing(shimmerOpacity, {
+          toValue: 0.7,
+          duration: 800,
+          easing: Easing.inOut(Easing.ease),
+          useNativeDriver: true,
+        }),
+        Animated.timing(shimmerOpacity, {
+          toValue: 0.35,
+          duration: 800,
+          easing: Easing.inOut(Easing.ease),
+          useNativeDriver: true,
+        }),
+      ])
     );
+    anim.start();
+    return () => anim.stop();
   }, [loaded]);
-
-  const shimmerStyle = useAnimatedStyle(() => ({
-    opacity: shimmerOpacity.value,
-  }));
-
-  // Image fade-in
-  const imgOpacity = useSharedValue(0);
-  const imgStyle = useAnimatedStyle(() => ({
-    opacity: imgOpacity.value,
-  }));
 
   const onImageLoad = () => {
     setLoaded(true);
-    imgOpacity.value = withTiming(1, { duration: 250, easing: Easing.out(Easing.ease) });
+    Animated.timing(imgOpacity, {
+      toValue: 1,
+      duration: 250,
+      easing: Easing.out(Easing.ease),
+      useNativeDriver: true,
+    }).start();
   };
 
   return (
     <View style={[styles.container, style]}>
       {/* Shimmer placeholder — always behind the image */}
       {!loaded && (
-        <Animated.View style={[StyleSheet.absoluteFill, styles.shimmer, shimmerStyle]}>
+        <Animated.View style={[StyleSheet.absoluteFill, styles.shimmer, { opacity: shimmerOpacity }]}>
           <View style={[StyleSheet.absoluteFill, { backgroundColor: tint }]} />
           {/* Gradient stripe that pulses across */}
           <View style={styles.shimmerStripe} />
@@ -91,7 +90,7 @@ export default function FastImage({
       )}
 
       {/* Real image — fades in when loaded */}
-      <Animated.View style={[StyleSheet.absoluteFill, imgStyle]}>
+      <Animated.View style={[StyleSheet.absoluteFill, { opacity: imgOpacity }]}>
         <Image
           source={{ uri }}
           style={StyleSheet.absoluteFill}

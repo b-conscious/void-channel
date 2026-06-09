@@ -1,6 +1,7 @@
 import React, { useState, useCallback, useEffect, useRef } from 'react';
-import { View, Text, StyleSheet, Pressable, Dimensions, TouchableOpacity, Platform } from 'react-native';
-import Animated, { useSharedValue, useAnimatedStyle, withSpring, withSequence, withTiming } from 'react-native-reanimated';
+import { View, Text, StyleSheet, Pressable, Dimensions, TouchableOpacity, Platform, Animated } from 'react-native';
+// NOTE: react-native-reanimated useAnimatedStyle causes TDZ crash in production bundles.
+// Using RN's built-in Animated API instead — same spring physics, no worklet issues.
 import { LinearGradient } from 'expo-linear-gradient';
 import { Ionicons } from '@expo/vector-icons';
 import * as Haptics from 'expo-haptics';
@@ -30,15 +31,15 @@ function getVibeIndex(id) {
   return Math.abs(h);
 }
 
-const SPRING = { damping: 18, stiffness: 320, mass: 0.7 };
+const SPRING = { damping: 18, stiffness: 320, mass: 0.7, useNativeDriver: true };
 const AnimatedPressable = Animated.createAnimatedComponent(Pressable);
 
 export default function MediaCard({ item, onPress, size = 'default', style }) {
   const [hearted, setHearted] = useState(false);
   const [hovered, setHovered] = useState(false);
   const hoverTimer = useRef(null);
-  const scale = useSharedValue(1);
-  const heartScale = useSharedValue(1);
+  const scale = useRef(new Animated.Value(1)).current;
+  const heartScale = useRef(new Animated.Value(1)).current;
   const { gen } = useGeneration();
 
   // Load heart state from local storage on mount
@@ -50,11 +51,11 @@ export default function MediaCard({ item, onPress, size = 'default', style }) {
     const next = !hearted;
     setHearted(next);
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
-    // Pop animation
-    heartScale.value = withSequence(
-      withTiming(1.4, { duration: 110 }),
-      withSpring(1, { damping: 8, stiffness: 200 }),
-    );
+    // Pop animation (RN Animated sequence)
+    Animated.sequence([
+      Animated.timing(heartScale, { toValue: 1.4, duration: 110, useNativeDriver: true }),
+      Animated.spring(heartScale, { toValue: 1, damping: 8, stiffness: 200, useNativeDriver: true }),
+    ]).start();
     // Persist locally
     await store.setHearted(item.id, next);
     // Sync to server (fire-and-forget; UI doesn't wait)
@@ -67,9 +68,7 @@ export default function MediaCard({ item, onPress, size = 'default', style }) {
     }
   }, [hearted, item]);
 
-  const heartAnimStyle = useAnimatedStyle(() => ({
-    transform: [{ scale: heartScale.value }],
-  }));
+  const heartAnimStyle = { transform: [{ scale: heartScale }] };
 
   const vibes = gen?.vibes || [];
   const vibeIdx = getVibeIndex(item.id);
@@ -81,7 +80,7 @@ export default function MediaCard({ item, onPress, size = 'default', style }) {
   const w = size === 'hero' ? W - 36 : size === 'large' ? 240 : cardSize.width;
   const h = size === 'hero' ? Math.round((W - 36) * 0.58) : size === 'large' ? 152 : cardSize.height;
 
-  const animStyle = useAnimatedStyle(() => ({ transform: [{ scale: scale.value }] }));
+  const animStyle = { transform: [{ scale: scale }] };
   const creator = Array.isArray(item.creator) ? item.creator[0] : item.creator;
 
   // Format runtime seconds → "1:23" or "1:02:15"
@@ -100,7 +99,6 @@ export default function MediaCard({ item, onPress, size = 'default', style }) {
     return `${mm}:${String(ss).padStart(2, '0')}`;
   }, [item.runtime]);
 
-  // (hover handlers moved to onCardHoverIn/onCardHoverOut with animation)
   const onLongPress = useCallback(() => {
     if (Platform.OS === 'web') return;
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
@@ -109,44 +107,38 @@ export default function MediaCard({ item, onPress, size = 'default', style }) {
 
   const desc = item.description || '';
   const subjects = Array.isArray(item.subjects) ? item.subjects.slice(0, 5) : [];
-
   const accent = gen?.accentColor || colors.amber;
 
-  // Hover glow border animation
-  const glowOpacity = useSharedValue(0);
-  const hoverScale = useSharedValue(1);
+  // Hover state — use simple React state for glow, no Reanimated worklets
+  const [isHoverGlow, setIsHoverGlow] = useState(false);
 
   const onCardHoverIn = useCallback(() => {
     if (Platform.OS !== 'web') return;
+    setIsHoverGlow(true);
     hoverTimer.current = setTimeout(() => setHovered(true), 400);
-    glowOpacity.value = withTiming(1, { duration: 200 });
-    hoverScale.value = withTiming(1.03, { duration: 250 });
   }, []);
 
   const onCardHoverOut = useCallback(() => {
+    setIsHoverGlow(false);
     clearTimeout(hoverTimer.current);
     setHovered(false);
-    glowOpacity.value = withTiming(0, { duration: 200 });
-    hoverScale.value = withTiming(1, { duration: 200 });
   }, []);
-
-  const glowStyle = useAnimatedStyle(() => ({
-    borderWidth: 1.5,
-    borderColor: `rgba(255,255,255,${glowOpacity.value * 0.25})`,
-    transform: [{ scale: hoverScale.value }],
-  }));
 
   return (
     <AnimatedPressable
       onPress={() => { setHovered(false); Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light); onPress(item); }}
-      onPressIn={() => { scale.value = withSpring(0.94, SPRING); }}
-      onPressOut={() => { scale.value = withSpring(1, SPRING); }}
+      onPressIn={() => { Animated.spring(scale, { toValue: 0.94, ...SPRING }).start(); }}
+      onPressOut={() => { Animated.spring(scale, { toValue: 1, ...SPRING }).start(); }}
       onLongPress={onLongPress}
       onHoverIn={onCardHoverIn}
       onHoverOut={onCardHoverOut}
       style={[{ width: w, marginRight: cardSize.gap }, animStyle, style]}
     >
-      <Animated.View style={[{ width: w, height: h, borderRadius: radius.md }, glowStyle]}>
+      <View style={[
+        styles.cardWrap,
+        { width: w, height: h },
+        isHoverGlow && styles.cardWrapHover,
+      ]}>
       <FastImage
         uri={item.thumbnail}
         itemId={item.id}
@@ -236,14 +228,24 @@ export default function MediaCard({ item, onPress, size = 'default', style }) {
           </Animated.View>
         </TouchableOpacity>
       </FastImage>
-      </Animated.View>
+      </View>
     </AnimatedPressable>
   );
 }
 
 const styles = StyleSheet.create({
-  card: {
+  cardWrap: {
     borderRadius: radius.md,
+    borderWidth: 1.5,
+    borderColor: 'transparent',
+    ...(Platform.OS === 'web' ? { transition: 'border-color 0.2s ease, transform 0.25s ease' } : {}),
+  },
+  cardWrapHover: {
+    borderColor: 'rgba(255,255,255,0.22)',
+    ...(Platform.OS === 'web' ? { transform: [{ scale: 1.03 }] } : {}),
+  },
+  card: {
+    borderRadius: radius.md - 1,
     overflow: 'hidden',
     backgroundColor: colors.card,
   },

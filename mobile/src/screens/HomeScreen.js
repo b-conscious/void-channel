@@ -767,12 +767,12 @@ function HeroCard({ item, loading, insetTop, loadingMsg, tagline, gen, accent, o
 }
 
 // Interleave items from multiple categories, deduped by id
-function mixCategoryItems(categories, catIds, maxItems = 40) {
+function mixCategoryItems(categories, catIds, maxItems = 100) {
   const cats = catIds.map((id) => categories.find((c) => c.id === id)).filter(Boolean);
   if (cats.length === 0) return [];
   const seen = new Set();
   const mixed = [];
-  const maxRounds = 20;
+  const maxRounds = 50;
   for (let round = 0; round < maxRounds && mixed.length < maxItems; round++) {
     for (const cat of cats) {
       const item = cat.items?.[round];

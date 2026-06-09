@@ -3,7 +3,8 @@ import {
   View, Text, FlatList, StyleSheet, TouchableOpacity, ScrollView,
   Platform, Dimensions, ActivityIndicator, Pressable,
 } from 'react-native';
-import Animated, { useSharedValue, useAnimatedStyle, withTiming } from 'react-native-reanimated';
+// NOTE: Removed react-native-reanimated — useAnimatedStyle causes TDZ crash in prod bundles.
+// Arrow overlays use CSS opacity transition + React state instead.
 import { Ionicons } from '@expo/vector-icons';
 import MediaCard from './MediaCard';
 import SkeletonCard from './SkeletonCard';
@@ -83,29 +84,20 @@ export default function CategoryRow({
   const canScrollLeft = scrollOffset > 10;
   const canScrollRight = contentWidth > containerWidth + scrollOffset + 10;
 
-  // Arrow opacity animations
-  const leftArrowOpacity = useSharedValue(0);
-  const rightArrowOpacity = useSharedValue(0);
-
+  // Arrow opacity — CSS transition on web, instant on native
   const onRowHoverIn = useCallback(() => {
     if (Platform.OS !== 'web') return;
     setRowHovered(true);
-    leftArrowOpacity.value = withTiming(1, { duration: 200 });
-    rightArrowOpacity.value = withTiming(1, { duration: 200 });
   }, []);
 
   const onRowHoverOut = useCallback(() => {
     setRowHovered(false);
-    leftArrowOpacity.value = withTiming(0, { duration: 150 });
-    rightArrowOpacity.value = withTiming(0, { duration: 150 });
   }, []);
 
-  const leftArrowStyle = useAnimatedStyle(() => ({
-    opacity: leftArrowOpacity.value,
-  }));
-  const rightArrowStyle = useAnimatedStyle(() => ({
-    opacity: rightArrowOpacity.value,
-  }));
+  const arrowOpacityStyle = {
+    opacity: rowHovered ? 1 : 0,
+    ...(Platform.OS === 'web' ? { transition: 'opacity 0.2s ease' } : {}),
+  };
 
   const scrollLeft = useCallback(() => {
     const next = Math.max(0, scrollOffset - SCROLL_AMOUNT);
@@ -192,7 +184,7 @@ export default function CategoryRow({
         >
           {/* Left arrow */}
           {canScrollLeft && (
-            <Animated.View style={[styles.arrowOverlay, styles.arrowLeft, leftArrowStyle]}>
+            <View style={[styles.arrowOverlay, styles.arrowLeft, arrowOpacityStyle]}>
               <TouchableOpacity
                 onPress={scrollLeft}
                 style={styles.arrowBtn}
@@ -200,7 +192,7 @@ export default function CategoryRow({
               >
                 <Ionicons name="chevron-back" size={24} color="#fff" />
               </TouchableOpacity>
-            </Animated.View>
+            </View>
           )}
 
           <FlatList
@@ -239,7 +231,7 @@ export default function CategoryRow({
 
           {/* Right arrow */}
           {canScrollRight && (
-            <Animated.View style={[styles.arrowOverlay, styles.arrowRight, rightArrowStyle]}>
+            <View style={[styles.arrowOverlay, styles.arrowRight, arrowOpacityStyle]}>
               <TouchableOpacity
                 onPress={scrollRight}
                 style={styles.arrowBtn}
@@ -247,7 +239,7 @@ export default function CategoryRow({
               >
                 <Ionicons name="chevron-forward" size={24} color="#fff" />
               </TouchableOpacity>
-            </Animated.View>
+            </View>
           )}
         </Pressable>
       ) : (

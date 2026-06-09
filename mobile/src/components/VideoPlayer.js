@@ -1,13 +1,12 @@
 import React, { useRef, useCallback, useEffect, useState, forwardRef, useImperativeHandle } from "react";
 import {
   View, Text, TouchableOpacity, Pressable, StyleSheet, Dimensions,
-  ActivityIndicator, Platform,
+  ActivityIndicator, Platform, Animated, Easing as RNEasing,
 } from "react-native";
+// NOTE: Removed react-native-reanimated — useAnimatedStyle causes TDZ crash in prod bundles.
+// Using RN built-in Animated API for controls fade.
 import { useVideoPlayer, VideoView } from "expo-video";
 import { useEvent } from "expo";
-import Animated, {
-  useSharedValue, useAnimatedStyle, withTiming, Easing,
-} from "react-native-reanimated";
 import * as Haptics from "expo-haptics";
 import { Ionicons } from "@expo/vector-icons";
 import { colors, fonts } from "../theme";
@@ -131,7 +130,7 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
   const volHideTimer = useRef(null);
   const videoViewRef = useRef(null);
   const containerRef = useRef(null);
-  const controlsVisible = useSharedValue(1);
+  const controlsVisible = useRef(new Animated.Value(1)).current;
 
   const player = useVideoPlayer(videoUrl, (p) => {
     p.loop = false;
@@ -262,19 +261,19 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
   const isBuffering = status === "loading";
   const isLoaded = status === "readyToPlay";
 
-  const controlsStyle = useAnimatedStyle(() => ({ opacity: controlsVisible.value }));
+  const controlsStyle = { opacity: controlsVisible };
 
   const resetHideTimer = useCallback(() => {
     clearTimeout(hideTimer.current);
     if (isPlaying) {
       hideTimer.current = setTimeout(() => {
-        controlsVisible.value = withTiming(0, { duration: FADE_DURATION, easing: Easing.out(Easing.ease) });
+        Animated.timing(controlsVisible, { toValue: 0, duration: FADE_DURATION, easing: RNEasing.out(RNEasing.ease), useNativeDriver: true }).start();
       }, HIDE_DELAY);
     }
   }, [isPlaying]);
 
   const showControls = useCallback(() => {
-    controlsVisible.value = withTiming(1, { duration: FADE_DURATION });
+    Animated.timing(controlsVisible, { toValue: 1, duration: FADE_DURATION, useNativeDriver: true }).start();
     resetHideTimer();
   }, [resetHideTimer]);
 
