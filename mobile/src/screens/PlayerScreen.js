@@ -8,7 +8,7 @@ const { height: SCREEN_H, width: SCREEN_W } = Dimensions.get('window');
 const IS_WEB = Platform.OS === 'web';
 const IS_DESKTOP = IS_WEB && SCREEN_W > 900;
 const VIDEO_H = IS_WEB ? Math.round(SCREEN_H * 0.52) : Math.round(SCREEN_H * 0.42);
-const SIDEBAR_W = IS_DESKTOP ? 200 : 0;
+const SIDEBAR_W = IS_DESKTOP ? 420 : 0;
 
 // Enable LayoutAnimation on Android
 if (Platform.OS === 'android' && UIManager.setLayoutAnimationEnabledExperimental) {
@@ -1777,18 +1777,18 @@ const xrayStyles = StyleSheet.create({
   },
   chipLabel: {
     fontFamily: fonts.monoBold,
-    fontSize: 8,
+    fontSize: 10,
     color: colors.textMuted,
     letterSpacing: 1,
   },
   chipValue: {
     fontFamily: fonts.sans,
-    fontSize: 12,
+    fontSize: 13,
     color: colors.textPrimary,
   },
   chipExtra: {
     fontFamily: fonts.sans,
-    fontSize: 11,
+    fontSize: 12,
     color: colors.textMuted,
     fontStyle: 'italic',
   },
@@ -2021,25 +2021,25 @@ const styles = StyleSheet.create({
   },
   titleRow: { flexDirection: 'row', alignItems: 'flex-start' },
   title: {
-    fontFamily: fonts.sansSemiBold, fontSize: 15, color: colors.textPrimary,
-    lineHeight: 20, flex: 1,
+    fontFamily: fonts.sansSemiBold, fontSize: 18, color: colors.textPrimary,
+    lineHeight: 24, flex: 1,
   },
   metaChips: {
     flexDirection: 'row', alignItems: 'center', gap: 8,
-    marginTop: 3, flexWrap: 'wrap',
+    marginTop: 4, flexWrap: 'wrap',
   },
   metaChip: {
     borderWidth: 1, borderRadius: radius.sm,
-    paddingHorizontal: 6, paddingVertical: 1,
+    paddingHorizontal: 7, paddingVertical: 2,
   },
-  metaChipText: { fontFamily: fonts.monoBold, fontSize: 10, letterSpacing: 1 },
+  metaChipText: { fontFamily: fonts.monoBold, fontSize: 11, letterSpacing: 1 },
   creatorText: {
-    fontFamily: fonts.sans, fontSize: 12, color: colors.textSecondary,
+    fontFamily: fonts.sans, fontSize: 14, color: colors.textSecondary,
     maxWidth: '60%',
   },
-  durationText: { fontFamily: fonts.mono, fontSize: 11, color: colors.textMuted },
-  viewCountWrap: { flexDirection: 'row', alignItems: 'center', gap: 3 },
-  viewCountText: { fontFamily: fonts.mono, fontSize: 10, color: colors.textMuted },
+  durationText: { fontFamily: fonts.mono, fontSize: 12, color: colors.textMuted },
+  viewCountWrap: { flexDirection: 'row', alignItems: 'center', gap: 4 },
+  viewCountText: { fontFamily: fonts.mono, fontSize: 12, color: colors.textMuted },
 
   // Compact horizontal action strip
   actionStrip: {
@@ -2048,11 +2048,11 @@ const styles = StyleSheet.create({
     borderBottomWidth: StyleSheet.hairlineWidth, borderBottomColor: colors.surface + '80',
   },
   actionIcon: {
-    flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 4,
-    paddingVertical: 5, paddingHorizontal: 6,
+    flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 5,
+    paddingVertical: 6, paddingHorizontal: 8,
   },
   actionIconLabel: {
-    fontFamily: fonts.mono, fontSize: 9, color: colors.textMuted,
+    fontFamily: fonts.mono, fontSize: 11, color: colors.textMuted,
     letterSpacing: 0.5,
   },
 
@@ -2091,12 +2091,12 @@ const styles = StyleSheet.create({
   },
   infoTabLabel: {
     fontFamily: fonts.monoBold,
-    fontSize: 10,
+    fontSize: 12,
     letterSpacing: 1.5,
   },
   descText: {
-    fontFamily: fonts.sans, fontSize: 13, color: colors.textSecondary,
-    lineHeight: 20,
+    fontFamily: fonts.sans, fontSize: 14, color: colors.textSecondary,
+    lineHeight: 22,
   },
   infoTabBody: {},
   infoMetaGrid: {
@@ -2110,14 +2110,14 @@ const styles = StyleSheet.create({
   },
   infoMetaLabel: {
     fontFamily: fonts.mono,
-    fontSize: 10,
+    fontSize: 12,
     color: colors.textGhost,
     letterSpacing: 0.5,
-    width: 60,
+    width: 70,
   },
   infoMetaValue: {
     fontFamily: fonts.sans,
-    fontSize: 12,
+    fontSize: 14,
     color: colors.textPrimary,
     flex: 1,
   },
@@ -2137,16 +2137,16 @@ const styles = StyleSheet.create({
   },
   infoTagText: {
     fontFamily: fonts.mono,
-    fontSize: 9,
+    fontSize: 11,
     color: colors.textSecondary,
     letterSpacing: 0.3,
   },
   browseChipsWrap: {
     flexDirection: 'row',
     flexWrap: 'wrap',
-    gap: 6,
-    marginBottom: 10,
-    marginTop: 2,
+    gap: 8,
+    marginBottom: 12,
+    marginTop: 4,
   },
   browseChip: {
     flexDirection: 'row',
@@ -2161,7 +2161,7 @@ const styles = StyleSheet.create({
   },
   browseChipText: {
     fontFamily: fonts.mono,
-    fontSize: 10,
+    fontSize: 12,
     letterSpacing: 0.3,
     flexShrink: 1,
   },
@@ -2173,7 +2173,7 @@ const styles = StyleSheet.create({
   },
   archiveLinkText: {
     fontFamily: fonts.mono,
-    fontSize: 10,
+    fontSize: 12,
     letterSpacing: 0.5,
   },
   descMore: { fontFamily: fonts.monoBold, fontSize: 11, marginTop: 4 },
@@ -2195,9 +2195,9 @@ const styles = StyleSheet.create({
   sectionLineBorder: { flex: 1, height: 1 },
   sectionLineBorderDim: { flex: 1, height: 1, backgroundColor: colors.surface },
   rabbitEmoji: { fontSize: 13 },
-  sectionLabel: { fontFamily: fonts.monoBold, fontSize: 10, letterSpacing: 1.5 },
-  sectionLabelDim: { fontFamily: fonts.monoBold, fontSize: 10, letterSpacing: 1.5, color: colors.textGhost },
-  sectionSub: { fontFamily: fonts.sans, fontSize: 11, color: colors.textMuted, fontStyle: 'italic' },
+  sectionLabel: { fontFamily: fonts.monoBold, fontSize: 12, letterSpacing: 1.5 },
+  sectionLabelDim: { fontFamily: fonts.monoBold, fontSize: 12, letterSpacing: 1.5, color: colors.textGhost },
+  sectionSub: { fontFamily: fonts.sans, fontSize: 12, color: colors.textMuted, fontStyle: 'italic' },
   rabbitList: { paddingHorizontal: spacing.screenPadding },
   rabbitCard: { width: 130, marginRight: 10 },
   rabbitThumb: { width: 130, height: 78, borderRadius: 6, backgroundColor: colors.card },
@@ -2245,51 +2245,51 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff', alignSelf: 'flex-end',
   },
 
-  // ── Desktop sidebar (200px — edge-to-edge content, zero wasted right space) ──
+  // ── Desktop sidebar — wide, readable, YouTube-scale thumbnails ──
   sidebar: {
     width: SIDEBAR_W,
     backgroundColor: colors.bg,
     borderLeftWidth: 1, borderLeftColor: colors.surface,
-    paddingLeft: 4, paddingRight: 2, paddingTop: 6,
+    paddingLeft: 14, paddingRight: 10, paddingTop: 10,
   },
   sidebarAutoplay: {
     flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between',
-    marginBottom: 5,
+    marginBottom: 10,
   },
-  sidebarAutoplayLabel: { fontFamily: fonts.monoBold, fontSize: 7, color: colors.textMuted, letterSpacing: 0.8 },
-  sidebarUpNext: { marginBottom: 3 },
-  sidebarUpNextLabel: { fontFamily: fonts.monoBold, fontSize: 8, letterSpacing: 1.2 },
+  sidebarAutoplayLabel: { fontFamily: fonts.monoBold, fontSize: 10, color: colors.textMuted, letterSpacing: 1 },
+  sidebarUpNext: { marginBottom: 6 },
+  sidebarUpNextLabel: { fontFamily: fonts.monoBold, fontSize: 11, letterSpacing: 1.5 },
   sidebarUpNextCard: {
-    flexDirection: 'row', gap: 5, padding: 3,
+    flexDirection: 'row', gap: 10, padding: 6,
     borderRadius: radius.sm, backgroundColor: colors.surface + '40',
     borderWidth: 1, borderColor: colors.surface,
   },
-  sidebarUpNextThumb: { width: 72, height: 42, borderRadius: 3, backgroundColor: colors.card },
+  sidebarUpNextThumb: { width: 168, height: 95, borderRadius: 4, backgroundColor: colors.card },
   sidebarUpNextInfo: { flex: 1, justifyContent: 'center', overflow: 'hidden' },
-  sidebarUpNextTitle: { fontFamily: fonts.sansSemiBold, fontSize: 11, color: colors.textPrimary, lineHeight: 14 },
-  sidebarUpNextYear: { fontFamily: fonts.mono, fontSize: 8, marginTop: 1 },
-  sidebarUpNextCreator: { fontFamily: fonts.sans, fontSize: 8, color: colors.textMuted, marginTop: 1 },
+  sidebarUpNextTitle: { fontFamily: fonts.sansSemiBold, fontSize: 14, color: colors.textPrimary, lineHeight: 19 },
+  sidebarUpNextYear: { fontFamily: fonts.mono, fontSize: 11, marginTop: 3 },
+  sidebarUpNextCreator: { fontFamily: fonts.sans, fontSize: 11, color: colors.textMuted, marginTop: 2 },
   sidebarDivider: {
-    height: 1, backgroundColor: colors.surface, marginVertical: 5,
+    height: 1, backgroundColor: colors.surface, marginVertical: 10,
   },
   sidebarSectionLabel: {
-    fontFamily: fonts.monoBold, fontSize: 7, color: colors.textMuted,
-    letterSpacing: 1.2, marginBottom: 3,
+    fontFamily: fonts.monoBold, fontSize: 10, color: colors.textMuted,
+    letterSpacing: 1.5, marginBottom: 8,
   },
   sidebarRelCard: {
-    flexDirection: 'row', gap: 5, marginBottom: 4, alignItems: 'center',
+    flexDirection: 'row', gap: 10, marginBottom: 8, alignItems: 'center',
   },
-  sidebarRelThumb: { width: 64, height: 38, borderRadius: 3, backgroundColor: colors.card },
+  sidebarRelThumb: { width: 140, height: 79, borderRadius: 4, backgroundColor: colors.card },
   sidebarRelInfo: { flex: 1, overflow: 'hidden' },
-  sidebarRelTitle: { fontFamily: fonts.sans, fontSize: 11, color: colors.textPrimary, lineHeight: 14 },
-  sidebarRelYear: { fontFamily: fonts.mono, fontSize: 8, marginTop: 1 },
-  sidebarRelCreator: { fontFamily: fonts.sans, fontSize: 8, color: colors.textMuted, marginTop: 1 },
+  sidebarRelTitle: { fontFamily: fonts.sans, fontSize: 13, color: colors.textPrimary, lineHeight: 18 },
+  sidebarRelYear: { fontFamily: fonts.mono, fontSize: 11, marginTop: 2 },
+  sidebarRelCreator: { fontFamily: fonts.sans, fontSize: 11, color: colors.textMuted, marginTop: 2 },
   sidebarShuffleBtn: {
-    flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 3,
-    paddingVertical: 4, marginTop: 2, borderRadius: radius.sm,
+    flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 5,
+    paddingVertical: 8, marginTop: 6, borderRadius: radius.sm,
     borderWidth: 1, opacity: 0.7,
   },
-  sidebarShuffleText: { fontFamily: fonts.monoBold, fontSize: 7, letterSpacing: 1 },
+  sidebarShuffleText: { fontFamily: fonts.monoBold, fontSize: 10, letterSpacing: 1.2 },
 
   // ── Skeleton loading ──
   // Animation applied via CSS `[data-skeleton]` selector (injected in useEffect above)
@@ -2314,7 +2314,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row', gap: 6, paddingVertical: 3, alignItems: 'baseline',
   },
   commentAuthor: { fontFamily: fonts.monoBold, fontSize: 10, color: colors.textSecondary, letterSpacing: 0.3 },
-  commentBody: { fontFamily: fonts.sans, fontSize: 12, color: colors.textPrimary, lineHeight: 16, flex: 1 },
+  commentBody: { fontFamily: fonts.sans, fontSize: 14, color: colors.textPrimary, lineHeight: 20, flex: 1 },
   commentTime: { fontFamily: fonts.mono, fontSize: 8, color: colors.textGhost },
   commentsExpanded: { paddingTop: 4, paddingBottom: 10 },
   composeRow: {
