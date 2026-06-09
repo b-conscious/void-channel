@@ -112,7 +112,7 @@ export default function WatchlistScreen({ navigation }) {
 
   // ── Share playlist ────────────────────────────────────
   const sharePlaylist = useCallback(async (pl) => {
-    const url = `https://void-channel.onrender.com/playlist/${pl.id}`;
+    const url = `https://api.voidtv.net/playlist/${pl.id}`;
     const text = `${pl.title} — curated on VOIDtv`;
     try {
       if (Platform.OS === 'web') {

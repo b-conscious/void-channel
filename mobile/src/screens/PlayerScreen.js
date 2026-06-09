@@ -358,7 +358,7 @@ export default function PlayerScreen({ route, navigation }) {
   }, []);
 
   const getClipUrl = useCallback(() => {
-    return `https://void-channel.onrender.com/watch/${item.id}?start=${clipStart}&end=${clipEnd}`;
+    return `https://api.voidtv.net/watch/${item.id}?start=${clipStart}&end=${clipEnd}`;
   }, [item, clipStart, clipEnd]);
 
   const getClipText = useCallback(() => {
@@ -407,7 +407,7 @@ export default function PlayerScreen({ route, navigation }) {
   }, [clipStart]);
 
   const getShareUrl = useCallback(() => {
-    return `https://void-channel.onrender.com/watch/${item.id}`;
+    return `https://api.voidtv.net/watch/${item.id}`;
   }, [item]);
 
   const getShareText = useCallback(() => {
@@ -802,7 +802,7 @@ export default function PlayerScreen({ route, navigation }) {
             icon="globe-outline"
             label="Void Page"
             color={colors.textPrimary}
-            onPress={() => Linking.openURL(`https://void-channel.onrender.com/watch/${item.id}`)}
+            onPress={() => Linking.openURL(`https://api.voidtv.net/watch/${item.id}`)}
           />
         </View>
 

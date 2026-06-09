@@ -100,21 +100,6 @@ export default function HomeScreen({ navigation }) {
       return ai - bi;
     });
   }, [allCategories, gen.categoryPriority]);
-  const deepCats = useMemo(() => allCategories.filter((c) => c.group === 'deep'), [allCategories]);
-  const showCats = useMemo(() => allCategories.filter((c) => c.group === 'show'), [allCategories]);
-  const decadeCats = useMemo(() => {
-    const raw = allCategories.filter((c) => c.group === 'decade');
-    const priority = gen.categoryPriority || [];
-    if (priority.length === 0) return raw;
-    return [...raw].sort((a, b) => {
-      const ai = priority.indexOf(a.id);
-      const bi = priority.indexOf(b.id);
-      if (ai === -1 && bi === -1) return 0;
-      if (ai === -1) return 1;
-      if (bi === -1) return -1;
-      return ai - bi;
-    });
-  }, [allCategories, gen.categoryPriority]);
   // Filter chips replace the old browse-by-genre rows.
   // "All" → curated rows only (Hearts, Trending, etc.). Chip → that genre's content.
   const visibleTypeCats = useMemo(() => {
@@ -154,8 +139,8 @@ export default function HomeScreen({ navigation }) {
     }
   }, [catLoading]);
 
-  // Reset category page when generation changes so user sees the new ordering
-  useEffect(() => { setCatPage(0); }, [generationId]);
+  // Reset per-category pages when generation changes so user sees the new ordering
+  useEffect(() => { setCatPages({}); }, [generationId]);
 
   // ── Pixel font crispness — disable anti-aliasing for monospace fonts on web ──
   useEffect(() => {
@@ -545,8 +530,8 @@ export default function HomeScreen({ navigation }) {
             <Text style={styles.wakeEmoji}>📡</Text>
             <Text style={styles.wakeTitle}>SERVER IS SLEEPING</Text>
             <Text style={styles.wakeSub}>
-              Free tier backend hibernates after 15 min of inactivity.{'\n'}
-              One tap wakes it up — takes about 30 seconds.
+              Backend may need a moment to warm up after downtime.{'\n'}
+              One tap wakes it up — usually takes a few seconds.
             </Text>
             <TouchableOpacity
               onPress={handleWakeUp}
@@ -694,18 +679,6 @@ export default function HomeScreen({ navigation }) {
       </Animated.View>}
     </View>
   );
-}
-
-/** Lazy renderer — delays mounting children until `delayMs` after first render.
- *  Keeps initial paint fast by only rendering above-fold content immediately. */
-function LazySection({ children, delayMs = 100, estimatedHeight = 200 }) {
-  const [ready, setReady] = React.useState(false);
-  React.useEffect(() => {
-    const t = setTimeout(() => setReady(true), delayMs);
-    return () => clearTimeout(t);
-  }, [delayMs]);
-  if (!ready) return <View style={{ minHeight: estimatedHeight }} />;
-  return <>{children}</>;
 }
 
 function HeroCard({ item, loading, insetTop, loadingMsg, tagline, gen, accent, onPress, onRandom, contentW, heroH }) {

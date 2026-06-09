@@ -1,7 +1,7 @@
 /**
  * Embed / OG-meta routes — branded clip wrapper.
  *
- * When a Void Channel clip link is shared on Twitter, Discord, Facebook, etc.,
+ * When a VOIDtv clip link is shared on Twitter, Discord, Facebook, etc.,
  * these routes serve an HTML page with rich OpenGraph + Twitter Card meta tags
  * so the link unfurls into a branded preview card.
  *
@@ -57,7 +57,7 @@ function buildPage({ id, title, creator, year, description, start, end, isClip }
     : safeTitle;
 
   const ogDesc = isClip
-    ? `Clip from "${safeTitle}" ${safeYear ? `(${safeYear})` : ""} — ${safeCreator}. Watch the full video on Void Channel.`
+    ? `Clip from "${safeTitle}" ${safeYear ? `(${safeYear})` : ""} — ${safeCreator}. Watch the full video on VOIDtv.`
     : `${safeDesc}`;
 
   const thumbnailUrl = thumb(id);
@@ -71,7 +71,7 @@ function buildPage({ id, title, creator, year, description, start, end, isClip }
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>${ogTitle} — Void Channel</title>
+  <title>${ogTitle} — VOIDtv</title>
 
   <!-- OpenGraph -->
   <meta property="og:type" content="video.other">
@@ -80,7 +80,7 @@ function buildPage({ id, title, creator, year, description, start, end, isClip }
   <meta property="og:image" content="${thumbnailUrl}">
   <meta property="og:image:width" content="640">
   <meta property="og:image:height" content="480">
-  <meta property="og:site_name" content="Void Channel">
+  <meta property="og:site_name" content="VOIDtv">
   <meta property="og:video" content="${video}">
   <meta property="og:video:type" content="video/mp4">
   <meta property="og:video:width" content="640">
@@ -97,7 +97,7 @@ function buildPage({ id, title, creator, year, description, start, end, isClip }
 
   <!-- oEmbed discovery (Discord, Slack) -->
   <link rel="alternate" type="application/json+oembed"
-    href="https://void-channel.onrender.com/oembed?url=${encodeURIComponent(`https://void-channel.onrender.com/watch/${id}`)}&format=json">
+    href="https://api.voidtv.net/oembed?url=${encodeURIComponent(`https://api.voidtv.net/watch/${id}`)}&format=json">
 
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -243,7 +243,7 @@ function buildPage({ id, title, creator, year, description, start, end, isClip }
 
   <div class="brand-bar">
     <div class="brand-left">
-      <span class="brand-logo">Void Channel</span>
+      <span class="brand-logo">VOIDtv</span>
       <span class="brand-tag">generating since 1895</span>
     </div>
   </div>
@@ -270,7 +270,7 @@ function buildPage({ id, title, creator, year, description, start, end, isClip }
       <a href="https://archive.org/details/${esc(id)}" class="cta-primary" target="_blank" rel="noopener">
         &#9654; Full Video on Archive.org
       </a>
-      <a href="https://void-channel.onrender.com/api/item/${esc(id)}" class="cta-secondary" target="_blank" rel="noopener">
+      <a href="https://api.voidtv.net/api/item/${esc(id)}" class="cta-secondary" target="_blank" rel="noopener">
         &#128218; Item Data
       </a>
     </div>
@@ -278,7 +278,7 @@ function buildPage({ id, title, creator, year, description, start, end, isClip }
 
   <div class="footer">
     PUBLIC DOMAIN &middot; FROM THE <a href="https://archive.org" target="_blank" rel="noopener">INTERNET ARCHIVE</a>
-    &middot; POWERED BY <a href="#">VOID CHANNEL</a>
+    &middot; POWERED BY <a href="https://voidtv.net">VOIDtv</a>
   </div>
 
   ${isClip ? `
@@ -360,13 +360,13 @@ router.get("/oembed", (req, res) => {
   res.json({
     version: "1.0",
     type: "video",
-    provider_name: "Void Channel",
-    provider_url: "https://void-channel.onrender.com",
-    title: `${id} — Void Channel`,
+    provider_name: "VOIDtv",
+    provider_url: "https://api.voidtv.net",
+    title: `${id} — VOIDtv`,
     thumbnail_url: thumb(id),
     thumbnail_width: 640,
     thumbnail_height: 480,
-    html: `<iframe src="https://void-channel.onrender.com/watch/${id}" width="640" height="360" frameborder="0" allowfullscreen></iframe>`,
+    html: `<iframe src="https://api.voidtv.net/watch/${id}" width="640" height="360" frameborder="0" allowfullscreen></iframe>`,
     width: 640,
     height: 360,
   });

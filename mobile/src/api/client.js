@@ -118,7 +118,7 @@ export async function getRelated(identifier, limit = 15) {
   return request(`/api/related/${encodeURIComponent(identifier)}?limit=${limit}`);
 }
 
-/** Wake the server from Render free-tier sleep — hits lightweight /health */
+/** Wake the server / verify it's reachable — hits lightweight /health */
 export async function wakeUp() {
   // Use the health endpoint — it returns instantly without hitting Archive.org.
   // The heavy /api/categories call happens AFTER the server is confirmed awake.
