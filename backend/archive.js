@@ -18,16 +18,7 @@ const NSFW_EXCLUDE = ' ' + [
   '  OR "sexual behavior" OR "human sexuality" OR "birth control"',
   '  OR "family planning" OR reproduction OR "sex instruction"',
   '  OR risque OR boudoir OR "girlie" OR pinup OR cheesecake',
-  '  OR "peep show" OR "burlesque show" OR provocative',
-  '  OR hentai OR xxx OR nsfw OR porn OR "sex tape" OR futa OR futanari',
-  '  OR milf OR anal OR blowjob OR handjob OR masturbat* OR orgasm',
-  '  OR threesome OR gangbang OR bondage OR bdsm OR fetish)',
-  'NOT title:(porn* OR xxx OR nsfw OR hentai OR "sex tape" OR futa OR futanari',
-  '  OR milf OR anal OR blowjob OR handjob OR orgasm OR masturbat*',
-  '  OR threesome OR gangbang OR bondage OR bdsm OR "big dick" OR "big cock"',
-  '  OR slut OR whore OR "pussy" OR cum OR creampie OR dildo OR vibrator',
-  '  OR "nude" OR naked OR topless OR "strip tease" OR "adults only"',
-  '  OR onlyfans OR chaturbate OR pornhub OR xvideos OR xhamster)',
+  '  OR "peep show" OR "burlesque show" OR provocative)',
 ].join(' ');
 
 const CATEGORIES = [
