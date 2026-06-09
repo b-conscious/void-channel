@@ -12,14 +12,19 @@
  *   - All categories:    1 hour (the big initial payload)
  */
 
+require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 const Cache = require("./cache");
 const archive = require("./archive");
 const hearts = require("./hearts");
+const { optionalAuth } = require("./supabase");
+const authRoutes = require("./auth");
+const syncRoutes = require("./sync");
+const xrayRoutes = require("./contributions");
 
 const app = express();
-const cache = new Cache(3600); // 1hr default TTL
+const cache = new Cache(1200); // 20min default TTL (was 1hr — rotate content faster)
 
 const PORT = process.env.PORT || 3001;
 
@@ -39,6 +44,15 @@ app.use((req, res, next) => {
   next();
 });
 
+// ── Auth & Sync ───────────────────────────────────────────
+
+app.use("/api/auth", authRoutes);
+app.use("/api/sync", syncRoutes);
+app.use("/api/xray", xrayRoutes);
+
+// Optional auth on all remaining routes — sets req.user if token present
+app.use(optionalAuth);
+
 // ── Routes ─────────────────────────────────────────────────
 
 /**
@@ -53,7 +67,9 @@ app.get("/api/categories", async (req, res) => {
 
     // When shuffle is on, don't cache — each call should return different items.
     // When refresh is true, force a fresh fetch and update the cache.
-    const cacheKey = "all_categories";
+    // Time-bucket: rotate content every 20 minutes so repeat visits show new items.
+    const timeBucket = Math.floor(Date.now() / (20 * 60 * 1000));
+    const cacheKey = `all_categories:${timeBucket}`;
     if (!shuffle && !refresh) {
       const cached = cache.get(cacheKey);
       if (cached) {
@@ -62,10 +78,10 @@ app.get("/api/categories", async (req, res) => {
       }
     }
 
-    const categories = await archive.getAllCategories(20, shuffle);
+    const categories = await archive.getAllCategories(12, shuffle);
 
-    // Only cache the non-shuffled default response
-    if (!shuffle) cache.set(cacheKey, categories, 3600);
+    // Cache for 20 min (matches the time bucket rotation)
+    if (!shuffle) cache.set(cacheKey, categories, 1200);
 
     res.set("X-Cache", shuffle ? "BYPASS" : refresh ? "REFRESH" : "MISS");
     res.json(categories);
@@ -96,7 +112,7 @@ app.get("/api/category/:id", async (req, res) => {
     const result = await archive.getCategoryItems(id, rows, page);
     if (result.error) return res.status(404).json(result);
 
-    cache.set(cacheKey, result, 3600);
+    cache.set(cacheKey, result, 1200); // 20 min (was 1hr)
     res.set("X-Cache", "MISS");
     res.json(result);
   } catch (err) {
@@ -122,7 +138,9 @@ app.get("/api/search", async (req, res) => {
 
     const page = parseInt(req.query.page) || 1;
     const rows = Math.min(parseInt(req.query.rows) || 25, 50);
-    const cacheKey = `search:${q}:${categoryId || ""}:${page}:${rows}`;
+    const minDuration = parseInt(req.query.minDuration) || 0; // seconds
+    const maxDuration = parseInt(req.query.maxDuration) || 0; // seconds, 0 = no max
+    const cacheKey = `search:${q}:${categoryId || ""}:${page}:${rows}:${minDuration}:${maxDuration}`;
 
     const cached = cache.get(cacheKey);
     if (cached) {
@@ -143,8 +161,17 @@ app.get("/api/search", async (req, res) => {
     }
     // Append NSFW exclusion unless the user explicitly opted into mature content
     const mature = req.query.mature === "true";
-    const nsfwFilter = mature ? "" : ' NOT collection:(stag_films) NOT subject:(erotic OR stag OR nudity OR nude OR pornograph* OR "blue film" OR "adults only" OR "adult film")';
-    const searchQuery = `${lucene} AND mediatype:(movies)${nsfwFilter}`;
+    const nsfwFilter = mature ? "" : " " + archive.NSFW_EXCLUDE;
+    // Duration filter — Archive.org `runtime` is in seconds (as a string number)
+    let durationFilter = "";
+    if (minDuration > 0 && maxDuration > 0) {
+      durationFilter = ` AND runtime:[${minDuration} TO ${maxDuration}]`;
+    } else if (minDuration > 0) {
+      durationFilter = ` AND runtime:[${minDuration} TO 999999]`;
+    } else if (maxDuration > 0) {
+      durationFilter = ` AND runtime:[0 TO ${maxDuration}]`;
+    }
+    const searchQuery = `${lucene} AND mediatype:(movies)${nsfwFilter}${durationFilter}`;
 
     const items = await archive.search(searchQuery, rows, page);
     const result = { query: q, category: categoryId || null, page, rows, items };

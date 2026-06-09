@@ -1,16 +1,18 @@
 import React, { useState, useEffect, useCallback, useRef, useMemo } from 'react';
 import {
   View, Text, Animated, TouchableOpacity, Pressable, Modal, Linking,
-  StyleSheet, Dimensions, Image, Platform,
+  StyleSheet, Dimensions, Platform,
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { LinearGradient } from 'expo-linear-gradient';
 import { Ionicons } from '@expo/vector-icons';
 import * as Haptics from 'expo-haptics';
 
+import FastImage from '../components/FastImage';
 import CategoryRow from '../components/CategoryRow';
 import SkeletonCard from '../components/SkeletonCard';
 import { useGeneration } from '../context/GenerationContext';
+import { useAuth } from '../context/AuthContext';
 import { GENERATIONS } from '../data/generations';
 import api from '../api/client';
 import store from '../store/cache';
@@ -53,6 +55,36 @@ export default function HomeScreen({ navigation }) {
   }, [typeCats, catPage]);
   const totalTypePages = Math.max(1, Math.ceil(typeCats.length / CATS_PER_PAGE));
 
+  // Per-category pagination — tracks which page each category is on + loading state
+  const [catPages, setCatPages] = useState({});       // { [catId]: pageNumber }
+  const [catLoading, setCatLoading] = useState({});   // { [catId]: true/false }
+
+  const handlePageChange = useCallback(async (categoryId, newPage) => {
+    if (newPage < 1 || catLoading[categoryId]) return;
+    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+    setCatLoading((prev) => ({ ...prev, [categoryId]: true }));
+    try {
+      const result = await api.getCategoryItems(categoryId, newPage, 20);
+      const items = result?.items || [];
+      if (items.length === 0 && newPage > 1) {
+        // No more pages — stay on current page
+        setCatLoading((prev) => ({ ...prev, [categoryId]: false }));
+        return;
+      }
+      setCatPages((prev) => ({ ...prev, [categoryId]: newPage }));
+      // Replace the items in allCategories for this category
+      setAllCategories((prev) =>
+        prev.map((cat) =>
+          cat.id === categoryId ? { ...cat, items } : cat
+        )
+      );
+    } catch (err) {
+      console.warn('[pageChange]', categoryId, err?.message);
+    } finally {
+      setCatLoading((prev) => ({ ...prev, [categoryId]: false }));
+    }
+  }, [catLoading]);
+
   const handleRetune = useCallback((direction) => {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
     setCatPage((prev) => {
@@ -64,6 +96,11 @@ export default function HomeScreen({ navigation }) {
   const headerAnim = scrollY.interpolate({
     inputRange: [0, 80], outputRange: [1, 0], extrapolate: 'clamp',
   });
+  // Floating menu button — inverse of header: fades IN as you scroll down
+  const fabAnim = scrollY.interpolate({
+    inputRange: [60, 140], outputRange: [0, 1], extrapolate: 'clamp',
+  });
+  const scrollRef = useRef(null);
 
   const loadCategories = useCallback(async (mode = "open") => {
     // mode: "open" → fetch shuffled but show cache first if present (fast)
@@ -213,6 +250,7 @@ export default function HomeScreen({ navigation }) {
       />
 
       <Animated.ScrollView
+        ref={scrollRef}
         style={styles.scroll}
         onScroll={Animated.event([{ nativeEvent: { contentOffset: { y: scrollY } } }], { useNativeDriver: Platform.OS !== 'web' })}
         scrollEventThrottle={16}
@@ -288,108 +326,137 @@ export default function HomeScreen({ navigation }) {
           </>
         ) : (
           <>
-            {/* By type — paginated, 5 at a time */}
-            <View style={styles.divider}>
-              <View style={styles.dividerLine} />
-              <Text style={styles.dividerText}>BROWSE BY TYPE</Text>
-              <View style={styles.dividerLine} />
-            </View>
+            {/* ── Browse toolbar — compact tuner strip ── */}
+            <View style={[styles.browseToolbar, { borderColor: accent + '25' }]}>
+              {/* Left: label + page dial */}
+              <View style={styles.browseToolbarLeft}>
+                <Text style={[styles.browseLabel, { color: accent }]}>BROWSE</Text>
+                <Text style={styles.browseSub}>BY TYPE</Text>
+              </View>
 
-            {/* Retune controls */}
-            <View style={styles.retuneRow}>
+              {/* Center: retune dial */}
+              <View style={styles.tuneDial}>
+                <TouchableOpacity
+                  onPress={() => handleRetune('up')}
+                  style={[styles.tuneArrow, { borderColor: accent + '40' }]}
+                  activeOpacity={0.7}
+                  hitSlop={6}
+                >
+                  <Ionicons name="chevron-back" size={16} color={accent} />
+                </TouchableOpacity>
+                <View style={styles.tuneDisplay}>
+                  <Text style={[styles.tuneChannel, { color: accent }]}>{catPage + 1}</Text>
+                  <Text style={styles.tuneTotalText}>/ {totalTypePages}</Text>
+                </View>
+                <TouchableOpacity
+                  onPress={() => handleRetune('down')}
+                  style={[styles.tuneArrow, { borderColor: accent + '40' }]}
+                  activeOpacity={0.7}
+                  hitSlop={6}
+                >
+                  <Ionicons name="chevron-forward" size={16} color={accent} />
+                </TouchableOpacity>
+              </View>
+
+              {/* Right: repopulate */}
               <TouchableOpacity
-                onPress={() => handleRetune('up')}
-                style={[styles.retuneBtn, { borderColor: accent }]}
-                activeOpacity={0.75}
+                onPress={handleRepopulate}
+                style={[styles.reshuffleBtn, { borderColor: accent + '50', backgroundColor: accent + '0a' }]}
+                activeOpacity={0.7}
+                disabled={refreshing}
               >
-                <Ionicons name="chevron-up" size={14} color={accent} style={{ marginRight: 5 }} />
-                <Text style={[styles.retuneText, { color: accent }]}>RETUNE UP</Text>
-              </TouchableOpacity>
-
-              <Text style={styles.retunePageText}>
-                {catPage + 1} / {totalTypePages}
-              </Text>
-
-              <TouchableOpacity
-                onPress={() => handleRetune('down')}
-                style={[styles.retuneBtn, { borderColor: accent }]}
-                activeOpacity={0.75}
-              >
-                <Text style={[styles.retuneText, { color: accent }]}>RETUNE DOWN</Text>
-                <Ionicons name="chevron-down" size={14} color={accent} style={{ marginLeft: 5 }} />
+                <Ionicons
+                  name={refreshing ? "sync" : "shuffle"}
+                  size={14}
+                  color={accent}
+                />
+                <Text style={[styles.reshuffleText, { color: accent }]}>
+                  {refreshing ? "TUNING..." : "NEW STUFF"}
+                </Text>
               </TouchableOpacity>
             </View>
-
-            <TouchableOpacity
-              onPress={handleRepopulate}
-              style={[styles.repopulateBtn, { borderColor: accent }]}
-              activeOpacity={0.75}
-              disabled={refreshing}
-            >
-              <Ionicons
-                name={refreshing ? "sync" : "shuffle"}
-                size={14}
-                color={accent}
-                style={{ marginRight: 7 }}
-              />
-              <Text style={[styles.repopulateText, { color: accent }]}>
-                {refreshing ? "TUNING IN NEW SIGNAL..." : "REPOPULATE — GIVE ME NEW STUFF"}
-              </Text>
-            </TouchableOpacity>
 
             {visibleTypeCats.map((cat) => (
-              <CategoryRow key={cat.id} category={cat} onItemPress={handleItemPress} />
+              <CategoryRow
+                key={cat.id}
+                category={cat}
+                onItemPress={handleItemPress}
+                page={catPages[cat.id] || 1}
+                loadingMore={!!catLoading[cat.id]}
+                onPageChange={handlePageChange}
+              />
             ))}
 
-            {/* Deep cuts — granular sub-categories */}
+            {/* Deep cuts — granular sub-categories (lazy: renders 150ms after above-fold) */}
             {deepCats.length > 0 && (
-              <>
+              <LazySection delayMs={150} estimatedHeight={deepCats.length * 180}>
                 <View style={styles.divider}>
                   <View style={styles.dividerLine} />
                   <Text style={styles.dividerText}>DEEP CUTS</Text>
                   <View style={styles.dividerLine} />
                 </View>
                 {deepCats.map((cat) => (
-                  <CategoryRow key={cat.id} category={cat} onItemPress={handleItemPress} />
+                  <CategoryRow
+                    key={cat.id}
+                    category={cat}
+                    onItemPress={handleItemPress}
+                    page={catPages[cat.id] || 1}
+                    loadingMore={!!catLoading[cat.id]}
+                    onPageChange={handlePageChange}
+                  />
                 ))}
-              </>
+              </LazySection>
             )}
 
-            {/* By show / series */}
+            {/* By show / series (lazy: renders 300ms after above-fold) */}
             {showCats.length > 0 && (
-              <>
+              <LazySection delayMs={300} estimatedHeight={showCats.length * 180}>
                 <View style={styles.divider}>
                   <View style={styles.dividerLine} />
                   <Text style={styles.dividerText}>BROWSE BY SHOW</Text>
                   <View style={styles.dividerLine} />
                 </View>
                 {showCats.map((cat) => (
-                  <CategoryRow key={cat.id} category={cat} onItemPress={handleItemPress} />
+                  <CategoryRow
+                    key={cat.id}
+                    category={cat}
+                    onItemPress={handleItemPress}
+                    page={catPages[cat.id] || 1}
+                    loadingMore={!!catLoading[cat.id]}
+                    onPageChange={handlePageChange}
+                  />
                 ))}
-              </>
+              </LazySection>
             )}
 
-            {/* By decade */}
+            {/* By decade (lazy: renders 450ms after above-fold) */}
             {decadeCats.length > 0 && (
-              <>
+              <LazySection delayMs={450} estimatedHeight={decadeCats.length * 180}>
                 <View style={styles.divider}>
                   <View style={styles.dividerLine} />
                   <Text style={styles.dividerText}>BROWSE BY DECADE</Text>
                   <View style={styles.dividerLine} />
                 </View>
                 {decadeCats.map((cat) => (
-                  <CategoryRow key={cat.id} category={cat} onItemPress={handleItemPress} />
+                  <CategoryRow
+                    key={cat.id}
+                    category={cat}
+                    onItemPress={handleItemPress}
+                    page={catPages[cat.id] || 1}
+                    loadingMore={!!catLoading[cat.id]}
+                    onPageChange={handlePageChange}
+                  />
                 ))}
-              </>
+              </LazySection>
             )}
           </>
         )}
 
         {/* Footer */}
         <View style={[styles.footer, { paddingBottom: insets.bottom + 90 }]}>
-          <Text style={styles.footerLine}>◈ SOURCE: ARCHIVE.ORG — PUBLIC DOMAIN & CC ◈</Text>
-          <Text style={styles.footerLine}>all these films were made by real people</Text>
-          <Text style={styles.footerLine}>for reasons we can only guess at</Text>
+          <Text style={styles.footerLine}>◈ GENERATING SINCE 1895 ◈</Text>
+          <Text style={styles.footerLine}>before AI slop, there was human creativity</Text>
+          <Text style={[styles.footerLine, { marginTop: 8, fontSize: 9, letterSpacing: 1 }]}>SOURCE: ARCHIVE.ORG — PUBLIC DOMAIN & CC</Text>
           <TouchableOpacity
             onPress={() => Linking.openURL('https://square.link/u/IteDL7XI')}
             style={styles.footerDonate}
@@ -401,8 +468,48 @@ export default function HomeScreen({ navigation }) {
           </TouchableOpacity>
         </View>
       </Animated.ScrollView>
+
+      {/* ── Floating menu FAB — appears when header scrolls out of view ── */}
+      <Animated.View
+        style={[styles.fab, { bottom: insets.bottom + 74, opacity: fabAnim }]}
+        pointerEvents="auto"
+      >
+        <TouchableOpacity
+          onPress={() => setMenuOpen(true)}
+          style={[styles.fabBtn, { backgroundColor: colors.surface, borderColor: accent + '40' }]}
+          activeOpacity={0.8}
+          hitSlop={6}
+        >
+          <Ionicons name="menu" size={20} color={accent} />
+        </TouchableOpacity>
+        <TouchableOpacity
+          onPress={() => {
+            Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+            scrollRef.current?.scrollTo?.({ y: 0, animated: true });
+            // Animated.ScrollView wraps getNode in some versions
+            scrollRef.current?.getNode?.()?.scrollTo?.({ y: 0, animated: true });
+          }}
+          style={[styles.fabBtn, styles.fabBtnSmall, { backgroundColor: colors.surface, borderColor: accent + '25' }]}
+          activeOpacity={0.8}
+          hitSlop={6}
+        >
+          <Ionicons name="chevron-up" size={16} color={colors.textMuted} />
+        </TouchableOpacity>
+      </Animated.View>
     </View>
   );
+}
+
+/** Lazy renderer — delays mounting children until `delayMs` after first render.
+ *  Keeps initial paint fast by only rendering above-fold content immediately. */
+function LazySection({ children, delayMs = 100, estimatedHeight = 200 }) {
+  const [ready, setReady] = React.useState(false);
+  React.useEffect(() => {
+    const t = setTimeout(() => setReady(true), delayMs);
+    return () => clearTimeout(t);
+  }, [delayMs]);
+  if (!ready) return <View style={{ minHeight: estimatedHeight }} />;
+  return <>{children}</>;
 }
 
 function HeroCard({ item, loading, insetTop, loadingMsg, tagline, gen, accent, onPress, onRandom }) {
@@ -425,7 +532,13 @@ function HeroCard({ item, loading, insetTop, loadingMsg, tagline, gen, accent, o
 
   return (
     <Pressable onPress={onPress} style={{ height: totalH }}>
-      <Image source={{ uri: item.thumbnail }} style={{ width: SCREEN_W, height: totalH }} resizeMode="cover" />
+      <FastImage
+        uri={item.thumbnail}
+        itemId={item.id}
+        style={{ width: SCREEN_W, height: totalH }}
+        contentFit="cover"
+        priority="high"
+      />
       <ScanlineOverlay height={totalH} />
       <LinearGradient
         colors={['rgba(12,12,15,0.2)', 'transparent', 'rgba(12,12,15,0.55)', 'rgba(12,12,15,0.97)', colors.bg]}
@@ -486,14 +599,15 @@ function ChannelsRow({ categories, accent, onChannelPress }) {
             {/* Thumbnail collage preview */}
             <View style={styles.thumbStack}>
               {ch.category.items.slice(0, 3).map((it, i) => (
-                <Image
+                <FastImage
                   key={it.id}
-                  source={{ uri: it.thumbnail }}
+                  uri={it.thumbnail}
+                  itemId={it.id}
                   style={[
                     styles.thumbStackImg,
                     { left: i * 22, zIndex: 3 - i, opacity: 1 - i * 0.18 },
                   ]}
-                  resizeMode="cover"
+                  contentFit="cover"
                 />
               ))}
             </View>
@@ -602,6 +716,18 @@ function DrawerMenu({ visible, onClose, accent, gen, generationId, chooseGenerat
           <TouchableOpacity style={drawerStyles.menuItem} onPress={onRandom} activeOpacity={0.7}>
             <Ionicons name="shuffle" size={18} color={accent} style={{ width: 28 }} />
             <Text style={drawerStyles.menuLabel}>SURPRISE ME</Text>
+          </TouchableOpacity>
+
+          <View style={drawerStyles.divider} />
+
+          {/* Account */}
+          <TouchableOpacity
+            style={drawerStyles.menuItem}
+            onPress={() => { onClose(); navigation.navigate('Auth'); }}
+            activeOpacity={0.7}
+          >
+            <Ionicons name="person-circle-outline" size={18} color={accent} style={{ width: 28 }} />
+            <Text style={drawerStyles.menuLabel}>ACCOUNT</Text>
           </TouchableOpacity>
 
           <View style={drawerStyles.divider} />
@@ -728,32 +854,38 @@ const styles = StyleSheet.create({
   channelTileSub: { fontFamily: fonts.mono, fontSize: 9, color: "rgba(255,255,255,0.6)", letterSpacing: 0.5, marginTop: 2 },
 
   divider: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: spacing.screenPadding, marginVertical: 20, gap: 10 },
-  retuneRow: {
-    flexDirection: 'row', alignItems: 'center', justifyContent: 'center',
-    gap: 16, marginTop: -4, marginBottom: 10,
-  },
-  retuneBtn: {
-    flexDirection: 'row', alignItems: 'center',
-    paddingHorizontal: 14, paddingVertical: 8,
-    borderRadius: radius.full, borderWidth: 1,
-  },
-  retuneText: { fontFamily: fonts.monoBold, fontSize: 10, letterSpacing: 1.5 },
-  retunePageText: { fontFamily: fonts.mono, fontSize: 10, color: colors.textMuted, letterSpacing: 1 },
-  repopulateBtn: {
-    flexDirection: "row",
-    alignItems: "center",
-    justifyContent: "center",
-    alignSelf: "center",
-    marginTop: -8,
-    marginBottom: 14,
-    paddingHorizontal: 16,
-    paddingVertical: 9,
-    borderRadius: radius.full,
-    borderWidth: 1,
-  },
-  repopulateText: { fontFamily: fonts.monoBold, fontSize: 10, letterSpacing: 1.5 },
   dividerLine: { flex: 1, height: StyleSheet.hairlineWidth, backgroundColor: colors.surface },
   dividerText: { fontFamily: fonts.mono, fontSize: 9, color: colors.textGhost, letterSpacing: 2 },
+
+  // ── Browse toolbar — compact tuner strip ──
+  browseToolbar: {
+    flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between',
+    marginHorizontal: spacing.screenPadding,
+    marginTop: 16, marginBottom: 14,
+    paddingVertical: 10, paddingHorizontal: 14,
+    borderWidth: 1, borderRadius: radius.md,
+    backgroundColor: colors.surface + '30',
+  },
+  browseToolbarLeft: { flexDirection: 'column' },
+  browseLabel: { fontFamily: fonts.monoBold, fontSize: 11, letterSpacing: 2 },
+  browseSub: { fontFamily: fonts.mono, fontSize: 8, color: colors.textGhost, letterSpacing: 1.5, marginTop: 1 },
+  tuneDial: {
+    flexDirection: 'row', alignItems: 'center', gap: 6,
+  },
+  tuneArrow: {
+    width: 30, height: 30, borderRadius: 15,
+    borderWidth: 1,
+    justifyContent: 'center', alignItems: 'center',
+  },
+  tuneDisplay: { flexDirection: 'row', alignItems: 'baseline', gap: 3, minWidth: 36, justifyContent: 'center' },
+  tuneChannel: { fontFamily: fonts.monoBold, fontSize: 20, letterSpacing: 1 },
+  tuneTotalText: { fontFamily: fonts.mono, fontSize: 10, color: colors.textGhost },
+  reshuffleBtn: {
+    flexDirection: 'column', alignItems: 'center', gap: 3,
+    paddingHorizontal: 12, paddingVertical: 8,
+    borderRadius: radius.md, borderWidth: 1,
+  },
+  reshuffleText: { fontFamily: fonts.monoBold, fontSize: 7, letterSpacing: 1 },
   // Wake up server
   wakeBlock: {
     alignItems: 'center', paddingVertical: 40, paddingHorizontal: spacing.screenPadding,
@@ -767,6 +899,24 @@ const styles = StyleSheet.create({
     borderRadius: radius.full, borderWidth: 1,
   },
   wakeBtnText: { fontFamily: fonts.monoBold, fontSize: 11, letterSpacing: 1.5 },
+
+  // Floating action button (menu + scroll-to-top)
+  fab: {
+    position: 'absolute', left: 14, zIndex: 20,
+    alignItems: 'center', gap: 8,
+  },
+  fabBtn: {
+    width: 44, height: 44, borderRadius: 22,
+    justifyContent: 'center', alignItems: 'center',
+    borderWidth: 1,
+    ...Platform.select({
+      web: { boxShadow: '0 2px 12px rgba(0,0,0,0.5)' },
+      default: { elevation: 6, shadowColor: '#000', shadowOffset: { width: 0, height: 2 }, shadowOpacity: 0.4, shadowRadius: 6 },
+    }),
+  },
+  fabBtnSmall: {
+    width: 34, height: 34, borderRadius: 17,
+  },
 
   footer: { paddingHorizontal: spacing.screenPadding, paddingTop: 28, borderTopWidth: StyleSheet.hairlineWidth, borderTopColor: colors.surface, marginTop: 12, gap: 3 },
   footerLine: { fontFamily: fonts.sans, fontSize: 11, color: colors.textMuted, fontStyle: 'italic', textAlign: 'center' },

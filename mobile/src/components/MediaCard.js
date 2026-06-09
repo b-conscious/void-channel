@@ -1,9 +1,10 @@
 import React, { useState, useCallback, useEffect } from 'react';
-import { View, Text, Image, StyleSheet, Pressable, Dimensions, TouchableOpacity } from 'react-native';
+import { View, Text, StyleSheet, Pressable, Dimensions, TouchableOpacity } from 'react-native';
 import Animated, { useSharedValue, useAnimatedStyle, withSpring, withSequence, withTiming } from 'react-native-reanimated';
 import { LinearGradient } from 'expo-linear-gradient';
 import { Ionicons } from '@expo/vector-icons';
 import * as Haptics from 'expo-haptics';
+import FastImage from './FastImage';
 import { useGeneration } from '../context/GenerationContext';
 import api from '../api/client';
 import store from '../store/cache';
@@ -33,7 +34,6 @@ const SPRING = { damping: 18, stiffness: 320, mass: 0.7 };
 const AnimatedPressable = Animated.createAnimatedComponent(Pressable);
 
 export default function MediaCard({ item, onPress, size = 'default', style }) {
-  const [imgLoaded, setImgLoaded] = useState(false);
   const [hearted, setHearted] = useState(false);
   const scale = useSharedValue(1);
   const heartScale = useSharedValue(1);
@@ -105,14 +105,12 @@ export default function MediaCard({ item, onPress, size = 'default', style }) {
       onPressOut={() => { scale.value = withSpring(1, SPRING); }}
       style={[{ width: w, marginRight: cardSize.gap }, animStyle, style]}
     >
-      <View style={[styles.card, { width: w, height: h }]}>
-        {!imgLoaded && <View style={[StyleSheet.absoluteFill, styles.placeholder]} />}
-        <Image
-          source={{ uri: item.thumbnail }}
-          style={[StyleSheet.absoluteFill, { opacity: imgLoaded ? 1 : 0 }]}
-          resizeMode="cover"
-          onLoad={() => setImgLoaded(true)}
-        />
+      <FastImage
+        uri={item.thumbnail}
+        itemId={item.id}
+        style={[styles.card, { width: w, height: h }]}
+        priority={size === 'hero' ? 'high' : 'normal'}
+      >
         <LinearGradient
           colors={['transparent', 'rgba(0,0,0,0.1)', 'rgba(12,12,15,0.88)']}
           locations={[0.25, 0.55, 1]}
@@ -161,7 +159,7 @@ export default function MediaCard({ item, onPress, size = 'default', style }) {
             />
           </Animated.View>
         </TouchableOpacity>
-      </View>
+      </FastImage>
     </AnimatedPressable>
   );
 }
@@ -172,7 +170,6 @@ const styles = StyleSheet.create({
     overflow: 'hidden',
     backgroundColor: colors.card,
   },
-  placeholder: { backgroundColor: colors.card },
   vibeTag: {
     position: 'absolute', top: 7, left: 7,
     paddingHorizontal: 6, paddingVertical: 3, borderRadius: 2,

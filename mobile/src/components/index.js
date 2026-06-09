@@ -1,3 +1,4 @@
+export { default as FastImage } from "./FastImage";
 export { default as MediaCard } from "./MediaCard";
 export { default as CategoryRow } from "./CategoryRow";
 export { default as SkeletonCard } from "./SkeletonCard";

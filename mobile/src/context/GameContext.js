@@ -1,97 +1,90 @@
-import React, { createContext, useContext, useState, useEffect, useCallback, useRef, useMemo } from 'react';
-import { getRank, getNextRank, getDailyBounties, checkBounty } from '../data/generations';
+import React, { createContext, useContext, useState, useEffect, useCallback, useRef } from 'react';
+import { getRank, getNextRank } from '../data/generations';
 import * as gameStore from '../store/gameStore';
 
 const GameContext = createContext(null);
-const RARE_THRESHOLD = 5000;
+
+/**
+ * XP rewards for contributions — these mirror backend/contributions.js
+ * so we can show optimistic XP immediately.
+ */
+const XP_REWARDS = {
+  cast: 10,
+  director: 10,
+  writer: 10,
+  producer: 10,
+  trivia: 15,
+  context: 20,
+  tag: 5,
+  warning: 5,
+  year: 10,
+};
 
 export function GameProvider({ children }) {
   const [xp, setXP] = useState(0);
-  const [rareUnearthed, setRareUnearthed] = useState([]);
   const [totalWatched, setTotalWatched] = useState(0);
+  const [totalContributions, setTotalContributions] = useState(0);
+  const [contributionsByType, setContributionsByType] = useState({});
   const [daysExploring, setDaysExploring] = useState(0);
-  const [completedBounties, setCompletedBounties] = useState([]);
-  const [streakCount, setStreakCount] = useState(0);
-  const [streakBest, setStreakBest] = useState(0);
+  const [recentContributions, setRecentContributions] = useState([]);
   const [loaded, setLoaded] = useState(false);
 
-  // Refs to read latest values inside async handlers and avoid stale closure bugs
+  // Refs to avoid stale closures
   const xpRef = useRef(0);
-  const completedRef = useRef([]);
 
   useEffect(() => { xpRef.current = xp; }, [xp]);
-  useEffect(() => { completedRef.current = completedBounties; }, [completedBounties]);
-
-  // Recompute today's date once per day boundary by reading it at start of each action
-  const today = new Date().toISOString().slice(0, 10);
-  const bounties = useMemo(() => getDailyBounties(today), [today]);
 
   useEffect(() => {
     gameStore.loadGameState().then((state) => {
       setXP(state.xp);
-      setRareUnearthed(state.rareUnearthed);
       setTotalWatched(state.totalWatched);
+      setTotalContributions(state.totalContributions);
+      setContributionsByType(state.contributionsByType);
       setDaysExploring(state.daysExploring);
-      setCompletedBounties(state.completedBounties);
-      setStreakCount(state.streakCount);
-      setStreakBest(state.streakBest);
+      setRecentContributions(state.recentContributions);
       xpRef.current = state.xp;
-      completedRef.current = state.completedBounties;
       setLoaded(true);
     });
   }, []);
 
-  // Fired when user opens an item in the player
+  /**
+   * Track a video watch. Minimal XP — watching discovers content,
+   * but the real XP comes from contributing metadata.
+   */
   const onWatchItem = useCallback(async (item, categoryId) => {
     if (!item) return { xpGained: 0 };
 
-    let xpGained = 10; // base XP
+    const xpGained = 2; // small base XP for watching
 
-    // 1. Increment total watched + unique day count
     const newTotal = await gameStore.incrementWatched();
     setTotalWatched(newTotal);
 
-    // 2. Rare item discovery (only counts if downloads metadata is available AND below threshold)
-    const downloads = typeof item.downloads === 'number' ? item.downloads : null;
-    if (downloads !== null && downloads < RARE_THRESHOLD) {
-      const { isNew, list } = await gameStore.addRareUnearthed(item.id);
-      if (isNew) {
-        xpGained += 25;
-        setRareUnearthed(list);
-      }
-    }
-
-    // 3. Rabbit Hole streak (only if categoryId is known)
-    if (categoryId) {
-      const { count, best } = await gameStore.updateStreak(categoryId);
-      setStreakCount(count);
-      setStreakBest(best);
-      // Bonus XP every time streak hits a multiple of 3
-      if (count >= 3 && count % 3 === 0) xpGained += 30;
-    } else {
-      // Unknown category — break the streak so streak only counts intentional dives
-      const { count, best } = await gameStore.updateStreak(null);
-      setStreakCount(count);
-      setStreakBest(best);
-    }
-
-    // 4. Daily bounty completion — use ref so two simultaneous calls don't both miss
-    const todayBounties = getDailyBounties(new Date().toISOString().slice(0, 10));
-    for (const bounty of todayBounties) {
-      if (completedRef.current.includes(bounty.id)) continue;
-      if (checkBounty(bounty, item, categoryId)) {
-        const updated = await gameStore.saveCompletedBounty(bounty.id);
-        completedRef.current = updated;
-        setCompletedBounties(updated);
-        xpGained += bounty.xp;
-      }
-    }
-
-    // 5. Award XP
     const nextXP = xpRef.current + xpGained;
     xpRef.current = nextXP;
     setXP(nextXP);
     await gameStore.saveXP(nextXP);
+
+    return { xpGained };
+  }, []);
+
+  /**
+   * Record a successful contribution — called after the backend confirms.
+   * Awards XP and updates local contribution stats.
+   */
+  const onContribute = useCallback(async (fieldType, itemId, itemTitle) => {
+    const xpGained = XP_REWARDS[fieldType] || 10;
+
+    // Award XP
+    const nextXP = xpRef.current + xpGained;
+    xpRef.current = nextXP;
+    setXP(nextXP);
+    await gameStore.saveXP(nextXP);
+
+    // Track contribution
+    const stats = await gameStore.addContribution(fieldType, itemId, itemTitle);
+    setTotalContributions(stats.total);
+    setContributionsByType(stats.byType);
+    setRecentContributions(stats.recent);
 
     return { xpGained };
   }, []);
@@ -105,11 +98,10 @@ export function GameProvider({ children }) {
   return (
     <GameContext.Provider value={{
       xp, rank, nextRank, rankProgress, xpToNext, xpInRank,
-      rareUnearthed,
       totalWatched, daysExploring,
-      streakCount, streakBest,
-      bounties, completedBounties,
-      onWatchItem, loaded,
+      totalContributions, contributionsByType, recentContributions,
+      onWatchItem, onContribute, loaded,
+      XP_REWARDS,
     }}>
       {children}
     </GameContext.Provider>

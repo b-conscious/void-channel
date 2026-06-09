@@ -12,14 +12,123 @@ import * as Haptics from "expo-haptics";
 import { Ionicons } from "@expo/vector-icons";
 import { colors, fonts } from "../theme";
 
+
 const { width: SCREEN_W } = Dimensions.get("window");
 const FADE_DURATION = 220;
 const HIDE_DELAY = 4000;
 
-export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnded, channelLabel }, ref) {
+/**
+ * Scrubable progress bar — supports tap-to-seek AND drag-to-scrub.
+ * Uses native DOM pointer events on web (PanResponder is unreliable there).
+ */
+function ProgressBar({ progress, position, duration, onSeek, isFs, toggleFullscreen, showControls, formatTime }) {
+  const barRef = useRef(null);
+  const barWidth = useRef(200);
+  const [scrubbing, setScrubbing] = useState(false);
+  const [scrubProgress, setScrubProgress] = useState(0);
+
+  const onBarLayout = useCallback((e) => {
+    barWidth.current = e.nativeEvent.layout.width;
+  }, []);
+
+  // --- Web: attach real DOM pointer events for reliable scrub ---
+  // Uses data attribute + document.querySelector because RN Web refs don't expose DOM nodes directly
+  const barId = useRef(`vp-bar-${Math.random().toString(36).slice(2, 8)}`).current;
+
+  useEffect(() => {
+    if (Platform.OS !== "web") return;
+    // Wait for DOM to mount
+    const timer = setTimeout(() => {
+      const el = document.querySelector(`[data-barid="${barId}"]`);
+      if (!el) return;
+
+      let dragging = false;
+
+      const pctFromEvent = (e) => {
+        const rect = el.getBoundingClientRect();
+        return Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width));
+      };
+
+      const onDown = (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        dragging = true;
+        el.setPointerCapture(e.pointerId);
+        setScrubbing(true);
+        setScrubProgress(pctFromEvent(e));
+        showControls();
+      };
+
+      const onMove = (e) => {
+        if (!dragging) return;
+        e.preventDefault();
+        setScrubProgress(pctFromEvent(e));
+      };
+
+      const onUp = (e) => {
+        if (!dragging) return;
+        dragging = false;
+        onSeek(pctFromEvent(e));
+        setScrubbing(false);
+      };
+
+      el.addEventListener("pointerdown", onDown);
+      el.addEventListener("pointermove", onMove);
+      el.addEventListener("pointerup", onUp);
+      el.addEventListener("pointercancel", () => { dragging = false; setScrubbing(false); });
+
+      barRef.current = { _cleanup: () => {
+        el.removeEventListener("pointerdown", onDown);
+        el.removeEventListener("pointermove", onMove);
+        el.removeEventListener("pointerup", onUp);
+      }};
+    }, 500);
+
+    return () => {
+      clearTimeout(timer);
+      if (barRef.current?._cleanup) barRef.current._cleanup();
+    };
+  }, [onSeek, showControls, barId]);
+
+  const displayProgress = scrubbing ? scrubProgress : progress;
+  const displayTime = scrubbing ? scrubProgress * duration : position;
+
+  return (
+    <View style={styles.bottomBar}>
+      <Text style={styles.timeText}>{formatTime(displayTime)}</Text>
+      <View
+        ref={barRef}
+        dataSet={{barid: barId}}
+        style={styles.progressWrap}
+        onLayout={onBarLayout}
+      >
+        {/* Expanded hit area — the visible bar is inside */}
+        <View style={styles.progressBg}>
+          <View style={[styles.progressFill, { width: `${displayProgress * 100}%` }]} />
+        </View>
+        {/* Thumb — bigger when scrubbing */}
+        <View style={[
+          styles.progressThumb,
+          { left: `${displayProgress * 100}%` },
+          scrubbing && styles.progressThumbActive,
+        ]} />
+      </View>
+      <Text style={[styles.timeText, styles.timeRight]}>{formatTime(duration)}</Text>
+      <TouchableOpacity onPress={toggleFullscreen} style={styles.fsBtnBottom} hitSlop={6}>
+        <Ionicons name={isFs ? "contract" : "scan-outline"} size={20} color="#fff" />
+      </TouchableOpacity>
+    </View>
+  );
+}
+
+export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnded, onVideoError, channelLabel }, ref) {
   const [error, setError] = useState(null);
   const [isFs, setIsFs] = useState(false);
+  const [volume, setVolume] = useState(1);        // 0–1
+  const [muted, setMuted] = useState(false);
+  const [showVolSlider, setShowVolSlider] = useState(false);
   const hideTimer = useRef(null);
+  const volHideTimer = useRef(null);
   const videoViewRef = useRef(null);
   const containerRef = useRef(null);
   const controlsVisible = useSharedValue(1);
@@ -41,6 +150,25 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
     };
   }, []);
 
+  // Hide native browser <video> controls via CSS injection.
+  // This is global + idempotent — no DOM node resolution needed (getDOMNode is unreliable on RN Web).
+  useEffect(() => {
+    if (Platform.OS !== "web" || typeof document === "undefined") return;
+    const styleId = "vp-hide-native-controls";
+    if (document.getElementById(styleId)) return;
+    const style = document.createElement("style");
+    style.id = styleId;
+    style.textContent = [
+      "video::-webkit-media-controls { display: none !important; }",
+      "video::-webkit-media-controls-enclosure { display: none !important; }",
+      "video::-webkit-media-controls-panel { display: none !important; }",
+      "video::-webkit-media-controls-overlay-play-button { display: none !important; }",
+      "video::-moz-range-track { display: none !important; }",
+      "video { pointer-events: none !important; }",
+    ].join("\n");
+    document.head.appendChild(style);
+  }, []);
+
   const toggleFullscreen = useCallback(async () => {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
     if (Platform.OS === "web") {
@@ -50,7 +178,7 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
           else if (document.webkitExitFullscreen) document.webkitExitFullscreen();
         } else {
           // Fullscreen the whole VideoPlayer container so our React controls remain visible
-          const node = containerRef.current;
+          const node = document.querySelector('[data-vpcontainer="1"]');
           if (node?.requestFullscreen) await node.requestFullscreen();
           else if (node?.webkitRequestFullscreen) node.webkitRequestFullscreen();
         }
@@ -61,7 +189,7 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
     videoViewRef.current?.enterFullscreen?.();
   }, []);
 
-  // Expose enterFullscreen to parent via ref
+  // Expose methods to parent via ref
   useImperativeHandle(ref, () => ({
     enterFullscreen: () => {
       if (Platform.OS === "web") {
@@ -70,7 +198,14 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
         videoViewRef.current?.enterFullscreen?.();
       }
     },
-  }), [toggleFullscreen]);
+    getCurrentTime: () => player.currentTime || 0,
+    getDuration: () => player.duration || 0,
+    seekTo: (sec) => {
+      userJustSeekedRef.current = true;
+      player.currentTime = sec;
+      lastGoodTimeRef.current = sec;
+    },
+  }), [toggleFullscreen, player]);
 
   // Subscribe to player events via expo's useEvent hook
   const { isPlaying } = useEvent(player, "playingChange", { isPlaying: player.playing });
@@ -78,8 +213,12 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
 
   // Status changes — capture errors
   useEffect(() => {
-    if (status === "error") setError("Failed to load video. Tap to retry.");
-    else setError(null);
+    if (status === "error") {
+      setError("Failed to load video. Tap to retry.");
+      onVideoError?.();
+    } else {
+      setError(null);
+    }
   }, [status]);
 
   // Periodic time updates for the progress bar.
@@ -203,6 +342,41 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
 
   useEffect(() => () => stopSeek(), [stopSeek]);
 
+  // ── Volume controls ──
+  const toggleMute = useCallback(() => {
+    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+    const next = !muted;
+    setMuted(next);
+    try { player.muted = next; } catch {}
+    showControls();
+  }, [muted, player, showControls]);
+
+  const changeVolume = useCallback((delta) => {
+    setVolume((prev) => {
+      const next = Math.max(0, Math.min(1, prev + delta));
+      try { player.volume = next; } catch {}
+      if (next > 0 && muted) { setMuted(false); try { player.muted = false; } catch {} }
+      return next;
+    });
+    setShowVolSlider(true);
+    clearTimeout(volHideTimer.current);
+    volHideTimer.current = setTimeout(() => setShowVolSlider(false), 2000);
+    showControls();
+  }, [player, muted, showControls]);
+
+  const handleVolSliderPress = useCallback((e) => {
+    // Tap on volume bar to set volume directly
+    const nativeX = e.nativeEvent.locationX;
+    const barW = 80; // matches style width
+    const pct = Math.max(0, Math.min(1, nativeX / barW));
+    setVolume(pct);
+    try { player.volume = pct; } catch {}
+    if (pct > 0 && muted) { setMuted(false); try { player.muted = false; } catch {} }
+    showControls();
+  }, [player, muted, showControls]);
+
+  useEffect(() => () => clearTimeout(volHideTimer.current), []);
+
   // Single tap = play/pause; double tap = toggle fullscreen.
   // 280ms window — tight enough to feel snappy, loose enough to catch double taps.
   const tapTimerRef = useRef(null);
@@ -246,6 +420,15 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
       } else if (e.key?.toLowerCase() === "f") {
         e.preventDefault();
         toggleFullscreen();
+      } else if (e.key?.toLowerCase() === "m") {
+        e.preventDefault();
+        toggleMute();
+      } else if (e.code === "ArrowUp") {
+        e.preventDefault();
+        changeVolume(0.1);
+      } else if (e.code === "ArrowDown") {
+        e.preventDefault();
+        changeVolume(-0.1);
       }
     };
     window.addEventListener("mousemove", onMouseMove);
@@ -254,7 +437,7 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
       window.removeEventListener("mousemove", onMouseMove);
       window.removeEventListener("keydown", onKey);
     };
-  }, [showControls, togglePlay, skipForward, skipBack, toggleFullscreen]);
+  }, [showControls, togglePlay, skipForward, skipBack, toggleFullscreen, toggleMute, changeVolume]);
 
   const retry = useCallback(() => {
     setError(null);
@@ -269,7 +452,7 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
   };
 
   return (
-    <View ref={containerRef} style={styles.container}>
+    <View ref={containerRef} dataSet={{vpcontainer: "1"}} style={styles.container}>
       <VideoView
         ref={videoViewRef}
         player={player}
@@ -349,6 +532,30 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
               ) : null}
               <Text style={styles.playerTitle} numberOfLines={1}>{title}</Text>
             </View>
+            {/* Volume control */}
+            <View style={styles.volumeWrap}>
+              <TouchableOpacity
+                onPress={toggleMute}
+                onLongPress={() => { setShowVolSlider((v) => !v); showControls(); }}
+                style={styles.volBtn}
+                hitSlop={8}
+                delayLongPress={300}
+              >
+                <Ionicons
+                  name={muted || volume === 0 ? "volume-mute" : volume < 0.5 ? "volume-low" : "volume-high"}
+                  size={20}
+                  color="#fff"
+                />
+              </TouchableOpacity>
+              {showVolSlider && (
+                <Pressable onPress={handleVolSliderPress} style={styles.volSlider}>
+                  <View style={styles.volSliderBg}>
+                    <View style={[styles.volSliderFill, { width: `${(muted ? 0 : volume) * 100}%` }]} />
+                  </View>
+                </Pressable>
+              )}
+            </View>
+
             <TouchableOpacity onPress={toggleFullscreen} style={styles.fsBtn} hitSlop={8}>
               <Ionicons name={isFs ? "contract-outline" : "expand-outline"} size={22} color="#fff" />
             </TouchableOpacity>
@@ -377,26 +584,16 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
             </TouchableOpacity>
           </View>
 
-          <View style={styles.bottomBar}>
-            <Text style={styles.timeText}>{formatTime(position)}</Text>
-            <TouchableOpacity
-              style={styles.progressWrap}
-              activeOpacity={1}
-              onPress={(e) => {
-                const barWidth = SCREEN_W - 112;
-                seek(Math.max(0, Math.min(1, e.nativeEvent.locationX / barWidth)));
-              }}
-            >
-              <View style={styles.progressBg}>
-                <View style={[styles.progressFill, { width: `${progress * 100}%` }]} />
-                <View style={[styles.progressThumb, { left: `${progress * 100}%` }]} />
-              </View>
-            </TouchableOpacity>
-            <Text style={[styles.timeText, styles.timeRight]}>{formatTime(duration)}</Text>
-            <TouchableOpacity onPress={toggleFullscreen} style={styles.fsBtnBottom} hitSlop={6}>
-              <Ionicons name={isFs ? "contract" : "scan-outline"} size={20} color="#fff" />
-            </TouchableOpacity>
-          </View>
+          <ProgressBar
+            progress={progress}
+            position={position}
+            duration={duration}
+            onSeek={seek}
+            isFs={isFs}
+            toggleFullscreen={toggleFullscreen}
+            showControls={showControls}
+            formatTime={formatTime}
+          />
         </Animated.View>
       )}
       </>)}
@@ -444,6 +641,18 @@ const styles = StyleSheet.create({
   backBtn: { padding: 4 },
   fsBtn: { padding: 4, marginLeft: 8 },
   fsBtnBottom: { padding: 4, marginLeft: 4 },
+  // Volume
+  volumeWrap: { flexDirection: "row", alignItems: "center" },
+  volBtn: { padding: 4, marginLeft: 4 },
+  volSlider: {
+    width: 80, height: 28, justifyContent: "center",
+    marginLeft: 4,
+    cursor: Platform.OS === "web" ? "pointer" : undefined,
+  },
+  volSliderBg: {
+    height: 4, backgroundColor: "rgba(255,255,255,0.25)", borderRadius: 2, overflow: "hidden",
+  },
+  volSliderFill: { height: "100%", backgroundColor: colors.amber, borderRadius: 2 },
   titleBlock: { flex: 1, marginHorizontal: 8 },
   playerTitle: { fontFamily: fonts.sansMedium, fontSize: 14, color: "#fff" },
   channelTag: { flexDirection: "row", alignItems: "center", gap: 5, marginBottom: 3 },
@@ -481,11 +690,44 @@ const styles = StyleSheet.create({
   },
   timeText: { fontFamily: fonts.mono, fontSize: 11, color: "rgba(255,255,255,0.75)", width: 40 },
   timeRight: { textAlign: "right" },
-  progressWrap: { flex: 1, paddingVertical: 14 },
-  progressBg: { height: 3, backgroundColor: "rgba(255,255,255,0.2)", borderRadius: 2, position: "relative" },
+  progressWrap: {
+    flex: 1,
+    height: 36,                       // tall touch target
+    justifyContent: "center",
+    cursor: Platform.OS === "web" ? "pointer" : undefined,
+    zIndex: 20,                       // above video element
+    position: "relative",
+  },
+  progressBg: {
+    height: 4,
+    backgroundColor: "rgba(255,255,255,0.25)",
+    borderRadius: 2,
+    overflow: "hidden",
+  },
   progressFill: { height: "100%", backgroundColor: colors.amber, borderRadius: 2 },
   progressThumb: {
-    position: "absolute", top: -5, width: 13, height: 13, borderRadius: 7,
-    backgroundColor: colors.amber, marginLeft: -6,
+    position: "absolute",
+    top: 36 / 2 - 7,                 // vertically center in the 36px touch area
+    width: 14,
+    height: 14,
+    borderRadius: 7,
+    backgroundColor: colors.amber,
+    marginLeft: -7,
+    // Subtle shadow for visibility
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.5,
+    shadowRadius: 2,
+    elevation: 3,
+  },
+  progressThumbActive: {
+    width: 20,
+    height: 20,
+    borderRadius: 10,
+    marginLeft: -10,
+    top: 36 / 2 - 10,
+    backgroundColor: "#fff",
+    borderWidth: 3,
+    borderColor: colors.amber,
   },
 });

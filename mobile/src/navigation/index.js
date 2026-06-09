@@ -11,6 +11,7 @@ import SearchScreen from '../screens/SearchScreen';
 import SignalScreen from '../screens/SignalScreen';
 import WatchlistScreen from '../screens/WatchlistScreen';
 import PlayerScreen from '../screens/PlayerScreen';
+import AuthScreen from '../screens/AuthScreen';
 
 import { useGeneration } from '../context/GenerationContext';
 import { colors, fonts } from '../theme';
@@ -40,6 +41,7 @@ function TabNavigator() {
     <Tab.Navigator
       screenOptions={({ route }) => ({
         headerShown: false,
+        header: () => null,
         tabBarStyle: {
           position: 'absolute',
           backgroundColor: Platform.OS === 'ios' ? 'transparent' : colors.bg,
@@ -95,12 +97,27 @@ export default function Navigation() {
 
   return (
     <NavigationContainer theme={theme}>
-      <Stack.Navigator screenOptions={{ headerShown: false }}>
+      <Stack.Navigator screenOptions={{ headerShown: false, header: () => null }}>
         <Stack.Screen name="Main" component={TabNavigator} />
         <Stack.Screen
           name="Player"
           component={PlayerScreen}
-          options={{ presentation: 'fullScreenModal', animation: 'slide_from_bottom' }}
+          options={{
+            headerShown: false,
+            header: () => null,
+            presentation: Platform.OS === 'web' ? 'card' : 'fullScreenModal',
+            animation: Platform.OS === 'web' ? 'none' : 'slide_from_bottom',
+          }}
+        />
+        <Stack.Screen
+          name="Auth"
+          component={AuthScreen}
+          options={{
+            headerShown: false,
+            header: () => null,
+            presentation: Platform.OS === 'web' ? 'card' : 'modal',
+            animation: Platform.OS === 'web' ? 'none' : 'slide_from_bottom',
+          }}
         />
       </Stack.Navigator>
     </NavigationContainer>

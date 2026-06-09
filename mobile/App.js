@@ -9,6 +9,7 @@ import { SpaceMono_400Regular, SpaceMono_700Bold } from '@expo-google-fonts/spac
 import { DMSans_400Regular, DMSans_500Medium, DMSans_600SemiBold } from '@expo-google-fonts/dm-sans';
 
 import { GenerationProvider } from './src/context/GenerationContext';
+import { AuthProvider } from './src/context/AuthContext';
 import { GameProvider } from './src/context/GameContext';
 import Navigation from './src/navigation';
 
@@ -33,10 +34,12 @@ export default function App() {
     <GestureHandlerRootView style={styles.root}>
       <SafeAreaProvider>
         <GenerationProvider>
-          <GameProvider>
-            <StatusBar style="light" />
-            <Navigation />
-          </GameProvider>
+          <AuthProvider>
+            <GameProvider>
+              <StatusBar style="light" />
+              <Navigation />
+            </GameProvider>
+          </AuthProvider>
         </GenerationProvider>
       </SafeAreaProvider>
     </GestureHandlerRootView>
