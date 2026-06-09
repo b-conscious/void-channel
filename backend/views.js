@@ -126,4 +126,15 @@ function getTotalViews() {
   return Object.values(viewData).reduce((sum, v) => sum + v.count, 0);
 }
 
-module.exports = { recordView, getCount, getTop, getRecent, getTotalViews };
+/**
+ * Wipe all view data — for admin use when test data pollutes trending.
+ */
+function resetAll() {
+  const count = Object.keys(viewData).length;
+  viewData = {};
+  recentViews = [];
+  dirty = true;
+  return count;
+}
+
+module.exports = { recordView, getCount, getTop, getRecent, getTotalViews, resetAll };

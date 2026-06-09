@@ -336,6 +336,12 @@ app.get("/api/views/stats", (req, res) => {
   res.json({ totalViews: views.getTotalViews() });
 });
 
+/** DELETE /api/views — wipe all view/trending data (admin) */
+app.delete("/api/views", (req, res) => {
+  const wiped = views.resetAll();
+  res.json({ ok: true, wiped, message: `Cleared ${wiped} view records` });
+});
+
 // ── Health Check ───────────────────────────────────────────
 
 app.get("/health", (req, res) => {
