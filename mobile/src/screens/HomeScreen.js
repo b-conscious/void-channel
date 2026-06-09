@@ -68,8 +68,6 @@ export default function HomeScreen({ navigation }) {
   const [menuOpen, setMenuOpen] = useState(false);
   const [avatarPickerOpen, setAvatarPickerOpen] = useState(false);
   const [allCategories, setAllCategories] = useState([]);
-  const [catPage, setCatPage] = useState(0);
-  const CATS_PER_PAGE = 5;
   const [loading, setLoading] = useState(true);
   const [serverSleeping, setServerSleeping] = useState(false);
   const [waking, setWaking] = useState(false);
@@ -87,7 +85,6 @@ export default function HomeScreen({ navigation }) {
   const scrollY = useRef(new Animated.Value(0)).current;
   const accent = gen.accentColor;
 
-  // Paginate: show CATS_PER_PAGE "type" categories at a time
   // Sort by generation's categoryPriority — categories listed first appear at the top
   const typeCats = useMemo(() => {
     const raw = allCategories.filter((c) => !c.group || c.group === 'type');
@@ -181,13 +178,6 @@ export default function HomeScreen({ navigation }) {
     document.head.appendChild(s);
   }, []);
 
-  const handleRetune = useCallback((direction) => {
-    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-    setCatPage((prev) => {
-      if (direction === 'up') return prev > 0 ? prev - 1 : totalTypePages - 1;
-      return prev < totalTypePages - 1 ? prev + 1 : 0;
-    });
-  }, [totalTypePages]);
 
   const headerAnim = scrollY.interpolate({
     inputRange: [0, 80], outputRange: [1, 0], extrapolate: 'clamp',
