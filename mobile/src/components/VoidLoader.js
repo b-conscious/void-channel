@@ -133,11 +133,15 @@ function injectCrtKeyframes() {
   var s = document.createElement('style');
   s.id = 'void-crt-keyframes';
   s.textContent =
-    '@keyframes voidPowerOn{0%{opacity:0;transform:scaleY(0.04);filter:brightness(4) saturate(0)}' +
-    '30%{opacity:1;transform:scaleY(1.06);filter:brightness(2.2)}60%{transform:scaleY(0.98)}' +
-    '100%{opacity:1;transform:scaleY(1)}}' +
+    // Power-on flash: transform + brightness only (opacity is owned by the ramp below).
+    '@keyframes voidPowerOn{0%{transform:scaleY(0.04);filter:brightness(4) saturate(0)}' +
+    '30%{transform:scaleY(1.06);filter:brightness(2.2)}60%{transform:scaleY(0.98)}' +
+    '100%{transform:scaleY(1)}}' +
     '@keyframes voidPowerOff{0%{opacity:1;transform:scaleY(1)}55%{opacity:1;transform:scaleY(0.03);filter:brightness(3)}' +
-    '100%{opacity:0;transform:scaleY(0.03);filter:brightness(0)}}';
+    '100%{opacity:0;transform:scaleY(0.03);filter:brightness(0)}}' +
+    // Opacity ramps up in 4 quarters over the 40s stream: 60% -> 75% -> 85% -> 100% ("tuning in").
+    '@keyframes voidOpacityRamp{0%,24.9%{opacity:0.6}25%,49.9%{opacity:0.75}' +
+    '50%,74.9%{opacity:0.85}75%,100%{opacity:1}}';
   document.head.appendChild(s);
 }
 
@@ -191,9 +195,9 @@ function StaticVideo({ size, label, color, style }) {
         style={{ width: '100%', height: '100%', position: 'absolute', top: 0, left: 0, overflow: 'hidden', borderRadius: 8 }}
         dangerouslySetInnerHTML={{
           __html: '<video src="' + clipUrl + '" autoplay muted loop playsinline '
-            + 'style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;opacity:0.88;'
+            + 'style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;'
             + 'filter:saturate(0.7) contrast(1.15) brightness(' + brightness + ');'
-            + 'animation:voidPowerOn 360ms ease-out;" />'
+            + 'animation:voidPowerOn 360ms ease-out, voidOpacityRamp 40s linear forwards;" />'
         }}
       />
       <View style={[StyleSheet.absoluteFill, styles.staticOverlay]} />
