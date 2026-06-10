@@ -771,16 +771,8 @@ export default function HomeScreen({ navigation }) {
           </View>
         )}
 
-        {/* Channels — compact text-only tiles, no thumbnails */}
-        {!loading && allCategories.length > 0 && (
-          <ChannelsRow
-            categories={allCategories}
-            accent={accent}
-            onChannelPress={handleChannelPress}
-            generationId={generationId}
-            loadingChannel={loadingChannel}
-          />
-        )}
+        {/* Channels row removed — it duplicated the genre content below and the "LIVE"
+            badge was misleading (it's auto-advancing archive video, not a live stream). */}
 
         {/* ── Spotlight: TV & Features — big visual cards, always visible ── */}
         {!loading && allCategories.length > 0 && (
