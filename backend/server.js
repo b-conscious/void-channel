@@ -56,6 +56,7 @@ app.use(express.json());
 // Serve /static/* from backend/public/static with aggressive CDN caching
 const path = require("path");
 const fs = require("fs");
+const fetch = require("node-fetch");
 const STATIC_DIR = path.join(__dirname, "public", "static");
 app.use("/static", express.static(STATIC_DIR, {
   maxAge: "30d",                     // browser cache: 30 days (immutable assets)
@@ -85,6 +86,47 @@ app.get("/api/loaders", (req, res) => {
   } catch (err) {
     console.error("[/api/loaders]", err);
     res.json({ clips: [] });
+  }
+});
+
+// ── Thumbnail proxy + cache ───────────────────────────────
+// Archive.org thumbnails are slow and frequently blocked cross-origin (ORB) or reset.
+// We proxy them through our own origin (api.voidtv.net) with long immutable cache headers,
+// so they're cacheable at the Cloudflare edge + browser, and never hit cross-origin blocks.
+// On any failure we 302-redirect to the original Archive URL — graceful degradation.
+const _thumbCache = new Map();           // cleanId -> { buf, ct, exp }
+const THUMB_TTL = 6 * 60 * 60 * 1000;    // 6h in memory
+const THUMB_MAX = 600;                    // cap memory (~600 thumbs)
+app.get("/api/thumb/:id", async (req, res) => {
+  const cleanId = String(req.params.id)
+    .replace(/:\d+$/, "")
+    .replace(/\.(jpe?g|png|webp|gif)$/i, "");
+  const sendImg = (buf, ct) => {
+    res.set("Content-Type", ct || "image/jpeg");
+    res.set("Cache-Control", "public, max-age=2592000, immutable"); // 30d — Cloudflare + browser cache
+    res.set("Access-Control-Allow-Origin", "*");
+    res.send(buf);
+  };
+
+  // Serve from memory if we've already fetched this thumb (don't re-hit Archive → no throttling)
+  const hit = _thumbCache.get(cleanId);
+  if (hit && hit.exp > Date.now()) return sendImg(hit.buf, hit.ct);
+
+  const src = `https://archive.org/services/img/${cleanId}`;
+  try {
+    const r = await fetch(src, {
+      headers: { "User-Agent": "VoidChannel/0.3 (+https://voidtv.net)" },
+      timeout: 8000,
+      redirect: "follow",
+    });
+    if (!r.ok) return res.redirect(302, src);
+    const buf = Buffer.from(await r.arrayBuffer());
+    const ct = r.headers.get("content-type") || "image/jpeg";
+    _thumbCache.set(cleanId, { buf, ct, exp: Date.now() + THUMB_TTL });
+    if (_thumbCache.size > THUMB_MAX) _thumbCache.delete(_thumbCache.keys().next().value); // evict oldest
+    return sendImg(buf, ct);
+  } catch (err) {
+    return res.redirect(302, src); // archive.org slow/blocked → fall back to direct
   }
 });
 

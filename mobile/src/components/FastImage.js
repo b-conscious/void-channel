@@ -20,6 +20,23 @@ import { colors } from "../theme";
 // Use var (not let/const) at module scope to avoid TDZ in production bundles
 var IS_WEB = Platform.OS === "web";
 
+// API base for the thumbnail proxy (mirrors api/client.js BASE_URL logic)
+var API_BASE = (typeof __DEV__ !== "undefined" && __DEV__)
+  ? (typeof window !== "undefined" && window.location &&
+     window.location.hostname !== "localhost" && window.location.hostname !== "127.0.0.1"
+      ? "http://" + window.location.hostname + ":3001"
+      : "http://localhost:3001")
+  : "https://api.voidtv.net";
+
+// Route Archive.org thumbnails through our proxy: cached at the Cloudflare edge + browser,
+// and immune to the cross-origin (ORB) blocks + connection resets we get hotlinking archive.org.
+function proxyThumb(u) {
+  if (!u || typeof u !== "string") return u;
+  var m = u.match(/archive\.org\/services\/img\/([^?#]+)/);
+  if (!m) return u;
+  return API_BASE + "/api/thumb/" + m[1];
+}
+
 var TINT_PALETTE = [
   "rgba(245,166,35,0.08)",
   "rgba(255,45,120,0.08)",
@@ -38,7 +55,7 @@ function hashStr(s) {
 }
 
 export default function FastImage(props) {
-  var uri = props.uri;
+  var uri = proxyThumb(props.uri);
   var itemId = props.itemId;
   var style = props.style;
   var priority = props.priority || "normal";
