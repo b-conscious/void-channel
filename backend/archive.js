@@ -38,6 +38,14 @@ const NEWS_POLITICS_EXCLUDE = ' ' + [
   'NOT collection:(newsreels OR news OR opensource_media)',
 ].join(' ');
 
+// Never surface UNVIEWABLE items (they 401/500 on play — no point showing a thumbnail you can't
+// watch). Two signals: `access-restricted-item:true` (lending/dark; indexed + queryable), and the
+// YouTube/social MIRROR collections whose files are flagged `private:true` (e.g. funnyordie —
+// the .mp4 401s). `private` is a FILE-level flag advancedsearch doesn't index, so we exclude the
+// mirror collections themselves. Add more here as dead-video sources surface. Applied in search().
+const RESTRICTED_EXCLUDE =
+  ' NOT collection:(funnyordie OR podcasts_mirror OR mirrortube) NOT access-restricted-item:true';
+
 // Keep graphic/clinical medical content (surgery, autopsy, anatomy, childbirth) out of the TV
 // rows — it belongs in The Operating Theater (`medical`), not the main TV feed. Append to a query.
 const MEDICAL_EXCLUDE = ' NOT (subject:(surgery OR surgical OR autopsy OR dissection OR anatomy'
@@ -849,7 +857,8 @@ async function search(query, rows = 25, page = 1, sort = "downloads desc") {
   const fields = ["identifier", "title", "description", "year", "creator", "downloads", "runtime", "subject"];
   const fieldStr = fields.map((f) => `fl[]=${f}`).join("&");
   const sortParam = `sort[]=${encodeURIComponent(sort)}`;
-  const url = `${SEARCH_URL}?q=${encodeURIComponent(query)}&${fieldStr}&${sortParam}&rows=${rows}&page=${page}&output=json`;
+  // Every search drops unviewable items (restricted/private-mirror) so no dead thumbnails appear.
+  const url = `${SEARCH_URL}?q=${encodeURIComponent(query + RESTRICTED_EXCLUDE)}&${fieldStr}&${sortParam}&rows=${rows}&page=${page}&output=json`;
 
   // Resilient: Archive.org intermittently returns 5xx / HTML (under load, or during our cold
   // starts). Never let that throw — it would surface as a 500 on /api/search & /api/shorts.
