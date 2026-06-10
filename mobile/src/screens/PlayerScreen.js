@@ -195,6 +195,15 @@ export default function PlayerScreen({ route, navigation }) {
     navigation.navigate('Main', { screen: 'Browse' });
   }, [navigation]);
 
+  // Stop playback whenever the player loses focus or unmounts — clicking Browse / a tab / back left the
+  // audio playing because expo-video doesn't reliably release the <video> on web. This catches EVERY
+  // exit path, not just the logo.
+  useEffect(() => {
+    const stop = () => { try { videoRef.current?.pause?.(); } catch {} };
+    const unsub = navigation.addListener('blur', stop);
+    return () => { unsub(); stop(); };
+  }, [navigation]);
+
   // Build an optimistic video URL — Archive.org commonly has a 512Kb MPEG4 at a predictable path.
   // This lets us start playback almost instantly while the real metadata loads in the background.
   const guessVideoUrl = useCallback((id) => {
