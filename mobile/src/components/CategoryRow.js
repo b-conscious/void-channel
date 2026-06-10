@@ -8,6 +8,7 @@ import {
 import { Ionicons } from '@expo/vector-icons';
 import MediaCard from './MediaCard';
 import SkeletonCard from './SkeletonCard';
+import VoidLoader from './VoidLoader';
 import { useGeneration } from '../context/GenerationContext';
 import { colors, fonts, spacing, cardSize, radius } from '../theme';
 
@@ -50,6 +51,18 @@ const CAT_GLYPHS = {
   deep_creature: '☠', deep_camp: '★', deep_space: '◆',
   deep_cartoon_silly: '✦', deep_vampire: '🦇',
 };
+
+// Subtle per-row tint so the wall's rows delineate from one another — very faint, category-derived
+// (each category gets a consistent hue), so scrolling the sea reads as distinct bands, not a blur.
+var ROW_TINTS = [
+  'rgba(92,184,255,0.045)', 'rgba(245,166,35,0.045)', 'rgba(178,255,62,0.04)',
+  'rgba(181,102,255,0.045)', 'rgba(255,45,120,0.04)', 'rgba(0,229,255,0.04)',
+];
+function rowTint(id) {
+  var s = id || 'x', h = 0;
+  for (var i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) & 0xffffffff;
+  return ROW_TINTS[Math.abs(h) % ROW_TINTS.length];
+}
 
 /**
  * CategoryRow — Amazon Video style:
@@ -146,7 +159,7 @@ export default function CategoryRow({
   }, []);
 
   return (
-    <View style={styles.container}>
+    <View style={[styles.container, { backgroundColor: rowTint(category.id) }]}>
       {/* Header */}
       <View style={styles.header}>
         <View style={styles.headerLeft}>
@@ -190,18 +203,33 @@ export default function CategoryRow({
       </View>
 
       {loading ? (
+        // Fill the loading row with the void-stream itself — each TV channel-surfed to a different
+        // scene — so content materializes out of the void instead of dead skeleton cards.
         <ScrollView
           horizontal
           showsHorizontalScrollIndicator={false}
           contentContainerStyle={styles.listContent}
           scrollEnabled={false}
         >
-          {Array.from({ length: 5 }).map((_, i) => <SkeletonCard key={i} />)}
+          {Array.from({ length: IS_DESKTOP ? 5 : 4 }).map((_, i) => (
+            <View key={i} style={{ marginRight: cardSize.gap }}>
+              <VoidLoader mode="static" size="card" label={i === 0 ? 'tuning in...' : undefined} />
+            </View>
+          ))}
         </ScrollView>
       ) : items.length === 0 ? (
-        <View style={styles.emptyWrap}>
-          <Text style={styles.emptyText}>— {gen?.noSignal || 'DEAD AIR'} —</Text>
-        </View>
+        <ScrollView
+          horizontal
+          showsHorizontalScrollIndicator={false}
+          contentContainerStyle={styles.listContent}
+          scrollEnabled={false}
+        >
+          {Array.from({ length: IS_DESKTOP ? 4 : 3 }).map((_, i) => (
+            <View key={i} style={{ marginRight: cardSize.gap }}>
+              <VoidLoader mode="static" size="card" label={i === 0 ? (gen?.noSignal || 'DEAD AIR') : undefined} />
+            </View>
+          ))}
+        </ScrollView>
       ) : IS_DESKTOP ? (
         <Pressable
           onHoverIn={onRowHoverIn}
@@ -333,7 +361,7 @@ export default function CategoryRow({
 }
 
 const styles = StyleSheet.create({
-  container: { marginBottom: 30 },
+  container: { marginBottom: 14, paddingTop: 10, paddingBottom: 14, borderRadius: 6 },
   header: {
     flexDirection: 'row',
     justifyContent: 'space-between',

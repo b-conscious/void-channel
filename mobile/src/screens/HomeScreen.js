@@ -766,12 +766,14 @@ export default function HomeScreen({ navigation }) {
 
         {/* TV Static loading strip — fills space while categories load */}
         {loading && Platform.OS === 'web' && (
-          <View style={{ marginTop: 16, marginBottom: 8, paddingHorizontal: spacing.screenPadding }}>
-            <View style={{ flexDirection: 'row', gap: 10 }}>
-              <VoidLoader mode="static" size="channel" label="tuning in..." style={{ flex: 1, height: 100, borderRadius: 8 }} />
-              <VoidLoader mode="static" size="channel" style={{ flex: 1, height: 100, borderRadius: 8 }} />
-              {IS_DESKTOP && <VoidLoader mode="static" size="channel" style={{ flex: 1, height: 100, borderRadius: 8 }} />}
-            </View>
+          <View style={{ marginTop: 16, marginBottom: 8, paddingHorizontal: spacing.screenPadding, gap: 12 }}>
+            {[0, 1, 2].map((r) => (
+              <View key={r} style={{ flexDirection: 'row', gap: 10 }}>
+                <VoidLoader mode="static" size="channel" label={r === 0 ? 'tuning in...' : undefined} style={{ flex: 1, height: 100, borderRadius: 8 }} />
+                <VoidLoader mode="static" size="channel" style={{ flex: 1, height: 100, borderRadius: 8 }} />
+                {IS_DESKTOP && <VoidLoader mode="static" size="channel" style={{ flex: 1, height: 100, borderRadius: 8 }} />}
+              </View>
+            ))}
           </View>
         )}
 
