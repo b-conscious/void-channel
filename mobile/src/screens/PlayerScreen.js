@@ -781,8 +781,9 @@ export default function PlayerScreen({ route, navigation }) {
         </>
       )}
 
-      {/* Video list — 2-column grid on desktop to fill the wide channel sidebar */}
-      <View style={IS_DESKTOP ? styles.sidebarGrid : null}>
+      {/* Related list — SINGLE column (full sidebar width) so titles/descriptions read fully
+          instead of being crushed into a 2-column grid ("!", "198 O"…). */}
+      <View>
       {sidebarItems.map((rel, idx) => (
         <Pressable
           key={rel.id}
@@ -790,7 +791,7 @@ export default function PlayerScreen({ route, navigation }) {
             Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
             navigation.replace('Player', { item: rel, id: rel.id });
           }}
-          style={[styles.sidebarRelCard, IS_DESKTOP && styles.sidebarRelCardGrid]}
+          style={styles.sidebarRelCard}
         >
           <View style={styles.sidebarThumbWrap}>
             <FastImage uri={rel.thumbnail} itemId={rel.id} style={styles.sidebarRelThumb} contentFit="cover" priority="low" />
