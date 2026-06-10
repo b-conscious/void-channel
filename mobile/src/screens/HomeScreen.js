@@ -123,7 +123,9 @@ export default function HomeScreen({ navigation }) {
   // Right padding = CONTENT_GAP for symmetry. Hero fills scene minus right pad.
   const sceneW = IS_DESKTOP ? windowW - sidebarWidth - CONTENT_GAP : windowW;
   const contentW = IS_DESKTOP ? sceneW - CONTENT_GAP : windowW;
-  const heroH = Math.round(contentW * 0.62);
+  // Hero: smaller than Prime's (our archive thumbnails are low-res and shouldn't be blown
+  // up huge). Capped on desktop so it doesn't dominate a wide screen; proportional on mobile.
+  const heroH = IS_DESKTOP ? Math.min(Math.round(contentW * 0.30), 380) : Math.round(contentW * 0.52);
   const { gen, generationId, chooseGeneration } = useGeneration();
   const { user, isAuthenticated, updateProfile, signOut } = useAuth();
   const [menuOpen, setMenuOpen] = useState(false);
