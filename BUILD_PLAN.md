@@ -185,3 +185,26 @@ silent sources), flagged not code-fixed.
 `fd8cc92` mobile playsinline + desktop player resize · `cec8fba` remove LIVE channels ·
 `a752f0e` thumbnail proxy · `6d40083` void-stream video · `5ef4a8f` admin-unlimited Archivist ·
 `7aaf294` big batch (mobile content fix, autoplay, Archivist, layout, auth, title cap).
+
+## 11. Mobile testing backlog — Bryan's on-device notes (PENDING)
+Done in this note-batch: **ffmpeg installed** (User PATH → `C:\Users\bryan\ffmpeg\ffmpeg-…-full_build\bin`);
+both void-stream renditions **fast-started losslessly** (`-c copy -movflags +faststart`, moov→front, AAC
+audio kept). Audio tracks CONFIRMED present in both `void-stream.mp4` (lo) + `void-stream-hi.mp4` (hi).
+
+Still TODO:
+1. **Banned category** — new "Banned" channel: banned/censored films across eras (archive.js category). On-vibe.
+2. **Channel options ABOVE their content** — filter/channel chips must sit above the area they populate
+   (currently below). Confirm screen (Player channel sidebar vs Search filter row).
+3. **More card options (Amazon ref)** — MediaCard hover-expand needs the fuller Prime action row
+   (play, +My Void, more info, mute) AND cards must visibly emerge from the void (FastImage resolve is in;
+   the §5 scroll-focus "in/out of the void" — the "out" — still TODO).
+4. **Opening video audio** — intro must carry sound. Track present; browser needs the tap gesture (VoidIntro
+   has it). Re-verify after the H.264 deploy + hard cache clear.
+5. **Audio-on-show / mute-on-hover** — videos play audio WHEN SHOWN, mute when hovered elsewhere (void's
+   ambient sound; hovering a card quiets it). Needs gesture unlock first. CLARIFY exact scope/contexts.
+6. **TV category — medical junk on main** — surgical/inappropriate medical content leaking into TV main →
+   add medical/NSFW fencing to the TV query.
+7. **TV category — real episodes across eras** — tighten to ACTUAL tv episodes spanning decades (not just PD
+   oldies); apply the generational `recognizable`+`diversify` treatment (same as cartoons).
+8. **Mobile fullscreen bug** — fullscreen + rotate phone → WHITE SCREEN; "still seeing old options" = partly
+   stale service-worker cache. Investigate VideoPlayer native fullscreen + orientation on mobile web.
