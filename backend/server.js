@@ -221,43 +221,44 @@ app.get("/api/categories", async (req, res) => {
     const shuffle = req.query.shuffle === "true";
     const refresh = req.query.refresh === "true";
     const gen = parseGen(req.query.gen);   // generational era-lean (null = no lean / legacy clients)
-    const genKey = gen || 'none';
 
-    // When shuffle is on, don't cache — each call should return different items.
-    // When refresh is true, force a fresh fetch and update the cache.
-    // Time-bucket: rotate content every 20 minutes so repeat visits show new items.
-    // Cache key includes the generation so each era-lean caches independently.
+    // The heavy fetch is GEN-AGNOSTIC — ONE shared payload (warmed). The per-gen era-lean is a cheap
+    // in-memory reorder of it (archive.applyEraLean), so we never fetch all ~80 categories once per
+    // generation — that overwhelmed Archive.org and timed out every real (gen-bearing) request.
     const timeBucket = Math.floor(Date.now() / (20 * 60 * 1000));
-    const cacheKey = `all_categories:${genKey}:${timeBucket}`;
+    const baseKey = `all_categories:none:${timeBucket}`;
+    const genKey = gen ? `all_categories:${gen}:${timeBucket}` : baseKey;
+
+    // Fast path: already-computed per-gen (or base) payload
     if (!shuffle && !refresh) {
-      const cached = await cache.get(cacheKey);
-      if (cached) {
-        res.set("X-Cache", "HIT");
-        return res.json(cached);
+      const cached = await cache.get(genKey);
+      if (cached) { res.set("X-Cache", "HIT"); return res.json(cached); }
+    }
+
+    // Get the shared base payload: cache → fetch once → last-known-good (never blank the app).
+    let base = (!shuffle && !refresh) ? await cache.get(baseKey) : null;
+    if (!base) {
+      const fetched = await archive.getAllCategories(15, shuffle); // gen-agnostic base
+      if (categoriesHaveContent(fetched)) {
+        base = fetched;
+        lastGoodCategories['none'] = fetched;
+        if (!shuffle) cache.set(baseKey, fetched, 1200);
+      } else {
+        base = lastGoodCategories['none'] || null; // Archive throttled/empty — fall back to last-good
       }
     }
 
-    const categories = await archive.getAllCategories(15, shuffle, gen);
-
-    if (categoriesHaveContent(categories)) {
-      lastGoodCategories[genKey] = categories;
-      // Cache for 20 min (matches the time bucket rotation). Never cache shuffled or empty results.
-      if (!shuffle) cache.set(cacheKey, categories, 1200);
-      res.set("X-Cache", shuffle ? "BYPASS" : refresh ? "REFRESH" : "MISS");
+    if (base && categoriesHaveContent(base)) {
+      const out = gen ? archive.applyEraLean(base, gen) : base;
+      if (gen && !shuffle) { lastGoodCategories[gen] = out; cache.set(genKey, out, 1200); }
+      res.set("X-Cache", shuffle ? "BYPASS" : "MISS");
       if (shuffle) res.set("Cache-Control", "no-store"); // bypass CDN for shuffled results
-      return res.json(categories);
+      return res.json(out);
     }
 
-    // Fresh fetch came back empty (Archive throttled/errored). Serve last-known-good if we have it
-    // rather than blanking the app. Do NOT cache the empty result.
-    if (lastGoodCategories[genKey]) {
-      res.set("X-Cache", "STALE-GOOD");
-      res.set("Cache-Control", "no-store");
-      return res.json(lastGoodCategories[genKey]);
-    }
     res.set("X-Cache", "EMPTY");
     res.set("Cache-Control", "no-store");
-    res.json(categories);
+    res.json([]);
   } catch (err) {
     console.error("[/api/categories]", err);
     res.status(500).json({ error: "Failed to fetch categories" });
@@ -636,38 +637,29 @@ async function warmCategories() {
   const currentBucket = Math.floor(Date.now() / bucketMs);
   const nextBucket = currentBucket + 1;
 
-  // Each generational era-lean caches its own payload, so warm them all (Cloudflare's 100s timeout
-  // means a cold fetch behind the CDN would 524). The default gen (millennial) + the no-lean key get
-  // current+next bucket; boomer/genz get the current bucket only to bound Archive.org load.
-  const plan = [
-    { gen: null,         buckets: [currentBucket, nextBucket] },  // 'none' — direct / legacy clients
-    { gen: 'millennial', buckets: [currentBucket, nextBucket] },  // default generation
-    { gen: 'boomer',     buckets: [currentBucket] },
-    { gen: 'genz',       buckets: [currentBucket] },
-  ];
-  for (const { gen, buckets } of plan) {
-    const genKey = gen || 'none';
-    for (const bucket of buckets) {
-      const cacheKey = `all_categories:${genKey}:${bucket}`;
-      const existing = await cache.get(cacheKey);
-      if (existing) {
-        console.log(`  ✓ Cache warm: ${cacheKey} (${existing.length} cats)`);
-        continue;
+  // Only the GEN-AGNOSTIC base payload is heavy, so that's all we warm (current + next bucket). The
+  // per-generation era-lean is a cheap in-memory reorder of this base at request time (see the
+  // /api/categories route), so it never needs its own warm or Archive fetch.
+  for (const bucket of [currentBucket, nextBucket]) {
+    const cacheKey = `all_categories:none:${bucket}`;
+    const existing = await cache.get(cacheKey);
+    if (existing) {
+      console.log(`  ✓ Cache warm: ${cacheKey} (${existing.length} cats)`);
+      continue;
+    }
+    console.log(`  → Warming: ${cacheKey} (fetching from Archive.org)...`);
+    try {
+      const categories = await archive.getAllCategories(15, false); // gen-agnostic base
+      if (categoriesHaveContent(categories)) {
+        lastGoodCategories['none'] = categories;
+        cache.set(cacheKey, categories, 1200);
+        console.log(`  ✓ Warmed: ${categories.length} categories cached`);
+      } else {
+        // Archive throttled/errored — do NOT poison the cache with empty content.
+        console.warn(`  ⚠ Warm skipped: Archive returned sparse content, keeping previous cache`);
       }
-      console.log(`  → Warming: ${cacheKey} (fetching from Archive.org)...`);
-      try {
-        const categories = await archive.getAllCategories(15, false, gen);
-        if (categoriesHaveContent(categories)) {
-          lastGoodCategories[genKey] = categories;
-          cache.set(cacheKey, categories, 1200);
-          console.log(`  ✓ Warmed: ${genKey} bucket ${bucket} (${categories.length} cats)`);
-        } else {
-          // Archive throttled/errored — do NOT poison the cache with empty content.
-          console.warn(`  ⚠ Warm skipped (${genKey}): Archive returned sparse content, keeping previous cache`);
-        }
-      } catch (err) {
-        console.error(`  ✗ Warm failed (${genKey}): ${err.message}`);
-      }
+    } catch (err) {
+      console.error(`  ✗ Warm failed: ${err.message}`);
     }
   }
 }

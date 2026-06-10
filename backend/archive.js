@@ -750,6 +750,58 @@ function eraFor(gen, cat) {
   return GENERATION_ERAS[gen];
 }
 
+// Cheap, in-memory era-lean for the HOME payload: reorder each recognizable row's items by the
+// generation's year lean — NO Archive fetches. This lets /api/categories serve a per-gen lean
+// derived from the ONE shared (no-gen) payload, instead of fetching all ~80 categories once per
+// generation (which overwhelmed Archive.org → request timeouts). Weaker than the per-category true
+// lean (getCategoryItems still does the deep year-windowed fetch for the See-More page), but it's
+// instant + reliable and keeps the home wall leaning. Pure function; returns a new array.
+function applyEraLean(categories, gen) {
+  const eraDef = GENERATION_ERAS[gen];
+  if (!eraDef || !Array.isArray(categories)) return categories;
+  const { anchor, floor } = eraDef;
+  const yearOf = (it) => { const y = parseInt(it && it.year, 10); return Number.isFinite(y) ? y : null; };
+  const dir = anchor && anchor.sort === 'year desc' ? -1 : 1;
+
+  return categories.map((cat) => {
+    if (!cat || !cat.recognizable || !Array.isArray(cat.items) || cat.items.length < 3) return cat;
+    let items = cat.items;
+
+    // genz: keep only items at/above the floor (mid-to-current) — but never blank a row.
+    if (floor != null) {
+      const kept = items.filter((it) => { const y = yearOf(it); return y != null && y >= floor; });
+      if (kept.length >= 3) items = kept;
+    }
+
+    // Split into the era window (the lead, year-sorted in the lean direction) + the rest (variety).
+    const lead = [], rest = [];
+    for (const it of items) {
+      const y = yearOf(it);
+      const inWin = y != null
+        && (!anchor || anchor.from == null || y >= anchor.from)
+        && (!anchor || anchor.to == null || y <= anchor.to);
+      (inWin ? lead : rest).push(it);
+    }
+    lead.sort((a, b) => dir * ((yearOf(a) || 0) - (yearOf(b) || 0)));
+
+    // Weave variety through the year-ordered lead (same shape as searchBlended's era weave).
+    let woven;
+    if (lead.length && rest.length) {
+      woven = [];
+      const everyN = Math.max(2, Math.round(lead.length / rest.length));
+      let ri = 0;
+      for (let i = 0; i < lead.length; i++) {
+        woven.push(lead[i]);
+        if ((i + 1) % everyN === 0 && ri < rest.length) woven.push(rest[ri++]);
+      }
+      while (ri < rest.length) woven.push(rest[ri++]);
+    } else {
+      woven = lead.concat(rest);
+    }
+    return { ...cat, items: woven };
+  });
+}
+
 function stripHTML(str) {
   if (!str) return "";
   if (Array.isArray(str)) str = str[0] || "";
@@ -1334,6 +1386,7 @@ module.exports = {
   getRelated,
   getCategoryItems,
   getAllCategories,
+  applyEraLean,
   searchCollection,
   searchCreator,
   normalizeItem,
