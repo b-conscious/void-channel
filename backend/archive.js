@@ -851,13 +851,19 @@ async function search(query, rows = 25, page = 1, sort = "downloads desc") {
   const sortParam = `sort[]=${encodeURIComponent(sort)}`;
   const url = `${SEARCH_URL}?q=${encodeURIComponent(query)}&${fieldStr}&${sortParam}&rows=${rows}&page=${page}&output=json`;
 
-  const res = await fetch(url, {
-    headers: { "User-Agent": "VoidChannel/0.3" },
-    timeout: 15000,
-  });
-  const data = await res.json();
-  const docs = data?.response?.docs || [];
-  return docs.map(normalizeItem);
+  // Resilient: Archive.org intermittently returns 5xx / HTML (under load, or during our cold
+  // starts). Never let that throw — it would surface as a 500 on /api/search & /api/shorts.
+  // Return [] so callers degrade to an empty result. (Routes must not cache empty — see server.js.)
+  try {
+    const res = await fetch(url, { headers: { "User-Agent": "VoidChannel/0.3" }, timeout: 15000 });
+    if (!res.ok) { console.warn(`[archive.search] HTTP ${res.status}`); return []; }
+    const data = await res.json();
+    const docs = data?.response?.docs || [];
+    return docs.map(normalizeItem);
+  } catch (e) {
+    console.warn(`[archive.search] ${e && e.message}`);
+    return [];
+  }
 }
 
 /**

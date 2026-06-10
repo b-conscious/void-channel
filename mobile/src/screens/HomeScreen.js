@@ -190,14 +190,14 @@ export default function HomeScreen({ navigation }) {
       return ai - bi;
     });
   }, [allCategories, gen.categoryPriority]);
-  // Filter chips replace the old browse-by-genre rows.
-  // "All" → curated rows only (Hearts, Trending, etc.). Chip → that genre's content.
+  // MOBILE = "the wall": every type category as a vertical scroll of horizontal rows (no chips) —
+  // an overwhelming sea of variety. DESKTOP keeps the chip filter for now: "All" → curated rows
+  // only; a chip → that genre's content. (Empty rows are dropped so the wall stays dense.)
   const visibleTypeCats = useMemo(() => {
-    if (activeChip === 'all') return []; // curated rows handle the "all" view
-    // Search every category (type, deep, show, decade) for the selected genre
-    const match = allCategories.filter((c) => c.id === activeChip);
-    return match;
-  }, [allCategories, activeChip]);
+    if (!IS_DESKTOP) return typeCats.filter((c) => (c.items || []).length > 0);
+    if (activeChip === 'all') return []; // desktop "all" → curated rows handle it
+    return allCategories.filter((c) => c.id === activeChip);
+  }, [typeCats, allCategories, activeChip]);
 
   // Per-category pagination — tracks which page each category is on + loading state
   const [catPages, setCatPages] = useState({});       // { [catId]: pageNumber }
@@ -613,8 +613,9 @@ export default function HomeScreen({ navigation }) {
         onSignOut={signOut}
       />
 
-      {/* ── Filter chip bar — generation-sorted, with desktop arrows ── */}
-      <View style={[styles.chipBarWrap, IS_DESKTOP && styles.chipBarRow]}>
+      {/* ── Filter chip bar — DESKTOP only. Mobile is the full category wall (no chips). ── */}
+      {IS_DESKTOP && (
+      <View style={[styles.chipBarWrap, styles.chipBarRow]}>
         {IS_DESKTOP && (
           <TouchableOpacity onPress={() => scrollChipBar('left')} style={styles.chipArrow} activeOpacity={0.7}>
             <Ionicons name="chevron-back" size={16} color={colors.textSecondary} />
@@ -655,6 +656,7 @@ export default function HomeScreen({ navigation }) {
           </TouchableOpacity>
         )}
       </View>
+      )}
 
       <Animated.ScrollView
         ref={scrollRef}

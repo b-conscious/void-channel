@@ -419,7 +419,7 @@ app.get("/api/search", async (req, res) => {
     const items = await archive.search(searchQuery, rows, page, sortOrder);
     const result = { query: q, category: categoryId || null, collection: collectionId || null, creator: creatorQuery || null, page, rows, items };
 
-    cache.set(cacheKey, result, 1800); // 30 min
+    if (items.length) cache.set(cacheKey, result, 1800); // 30 min (never cache an empty blip)
     res.set("X-Cache", "MISS");
     res.json(result);
   } catch (err) {
@@ -455,7 +455,7 @@ app.get("/api/shorts", async (req, res) => {
     const raw = await archive.search(query, limit * 2, page, "downloads desc");
     const items = archive.diversify(raw, 2).slice(0, limit);
 
-    cache.set(cacheKey, items, 1800); // 30 min cache
+    if (items.length) cache.set(cacheKey, items, 1800); // 30 min cache (never cache an empty blip)
     res.set("X-Cache", "MISS");
     res.json(items);
   } catch (err) {
