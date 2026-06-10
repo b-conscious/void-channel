@@ -120,6 +120,59 @@ Also TBD: the colorful **vibe tags** (CURSED/WEIRD) on cards — keep / tone-dow
 **Free app.** Voluntary **$5/yr "Member/Patron"** (not a wall). Archivist **top-ups** ~$1/wk / pay-what-you-want.
 Keep perks insubstantial (cosmetic/recognition) so donations stay tax-deductible for the 501c3 — confirm with accountant.
 
+## 9. Content treatment — "generational variety" (STANDING SPEC, in progress)
+The default texture should feel **generational**, not antique: every broad row should span the
+**decades + recognizable series** (X-Men '90s, Transformers '80s, 2000s cartoons … *and* a Betty
+Boop), never a single-era/single-show dump. Applies **throughout EXCEPT category specifics**
+(decade rows, The Silent Era, the dedicated show rows, mature) which stay narrow on purpose.
+
+**Philosophy — the junk is a FEATURE, not a bug.** Keep the "stream of noise" (amateur fan
+uploads, etc.) **searchable** — the recognizable-bias + junk-filtering applies ONLY to curated
+BROWSE rows. **Search stays raw.** That noise is the raw material people earn XP curating
+(add metadata = points), and the long game is humans making the Archive useful "to humanity, not
+just LM" training fodder. Do **not** filter global search. **NSFW is already handled** (NSFW_EXCLUDE
++ isolated mature categories) — do not re-architect it.
+
+**Mechanism (in `backend/archive.js`):**
+- `diversify(items, maxPerKey=2)` — caps how many items share a series/creator (key = creator,
+  else normalized title root) so one show can't flood a row. Opt-in via **`diversify: true`** on
+  a category (over-fetches 2× then trims) so it never starves a single-source row.
+- **Per-category blend bias** — `searchBlended(query, rows, opts)`. Default = 30% popular / 70%
+  deep-obscure (gold for weird-film rows). **`recognizable: true`** on a category → `RECOGNIZABLE_BLEND`
+  (65% popular, shallow pages, non-anchor portion ALSO from quality sorts) so known series surface
+  instead of fan junk. The "60% obscure" ethos is **not** one-size-fits-all.
+- **`cartoons` ("The Animation Vault")** is the proven first application: retargeted off the
+  Betty-Boop-heavy `classic_cartoons` to `animationandcartoons` + recognizable cross-decade series,
+  excluding the dedicated shows, `map`/`pmv` fan-junk filtered, `diversify:true` + `recognizable:true`.
+  Verified: consistent 1910s→2010s spread (X-Men/Gargoyles/DuckTales/He-Man/Transformers/Fleischer), no junk.
+
+**⚠️ CLAUSE BUDGET GOTCHA:** `getCategoryItems`/`getAllCategories` auto-append `NSFW_EXCLUDE` +
+`NEWS_POLITICS_EXCLUDE` to ENTERTAINMENT_IDS categories. If the combined query gets too long,
+Archive returns **ZERO** (silent). Keep category queries lean (the broad cartoon query had to be
+trimmed). Also: apostrophes in `title:("dexter's …")` break the Lucene parser → 0. Avoid them.
+
+**TODO — rollout:** add `recognizable: true` (+ usually `diversify: true`) to the other nostalgia
+`type` rows (e.g. Saturday Morning, Most Popular, Comedy Gold, Horror, Sci-Fi, Western); leave the
+weird/deep rows (Lost Reels, The Weird Shelf, deep cuts) on the default deep-obscure blend.
+
+**⚠️ "SNACKS"/SHORTS BUG (found, NOT fixed):** `/api/shorts` filters `runtime:[1 TO 120]`, but
+Archive's `runtime` is a **display string** ("11:03") so the range is a broken lexical compare —
+it returns ~10-min films and drops real <2-min clips. True duration filtering isn't possible via
+Archive search. **Fix = query short-BY-NATURE collections** (commercials / trailers / cartoon
+shorts / newsreels), then client-filter by parsed `runtime`. (Confirm whether "snacks" == shorts.)
+
+## 10. Session bug-fix batch (DONE + web bundle compiles clean — NOT yet pushed)
+Frontend (`mobile/src`): (1) search grid right-column clip → `MediaCard` responsive `width` +
+`SearchScreen` computes exact `CARD_W`; (2) unified year/duration badge styling; (5) clip-drag was
+finicky (effect re-bound listeners every move via 300ms debounce) → bind once, read live via ref;
+(6) clip PREVIEW now polls + pauses at clipEnd (added `play`/`pause` to VideoPlayer ref handle);
+(7) FB/X share hijacked by mobile apps → `shareTo()` uses `navigator.share` on mobile web, web
+composer in new tab on desktop; (9) tapping a video then it SWITCHING → `handleVideoError` no longer
+skips to a related video while metadata is still loading (waits for confirmed URL).
+Backend: (8) rabbit hole "first 3 identical" → `getRelated` dedupes by BASE id (strips `:N` segments)
++ drops current item. Audio (3,4) = asset/browser-constrained (HEVC void-stream re-encode + genuinely
+silent sources), flagged not code-fixed.
+
 ## 8. Recent commit trail (this session, newest first)
 `b2b8010` VoidIntro · `f19dbb1` loader opacity ramp · `81081a7` loader no-seek (8s cuts) ·
 `9f1b0d5` loader seek/fill · `68b3636` shrink hero · `587922e` CORS+rubberband ·

@@ -35,7 +35,7 @@ const USE_NATIVE = Platform.OS !== 'web';
 const SPRING = { damping: 18, stiffness: 320, mass: 0.7, useNativeDriver: USE_NATIVE };
 const AnimatedPressable = Animated.createAnimatedComponent(Pressable);
 
-export default function MediaCard({ item, onPress, size = 'default', style }) {
+export default function MediaCard({ item, onPress, size = 'default', style, width }) {
   const [hearted, setHearted] = useState(false);
   const [hovered, setHovered] = useState(false);
   const hoverTimer = useRef(null);
@@ -81,8 +81,16 @@ export default function MediaCard({ item, onPress, size = 'default', style }) {
   const vibeTextColor = VIBE_TEXT[vibeIdx % VIBE_TEXT.length];
 
   const W = Dimensions.get('window').width;
-  const w = size === 'hero' ? W - 36 : size === 'large' ? 240 : cardSize.width;
-  const h = size === 'hero' ? Math.round((W - 36) * 0.58) : size === 'large' ? 152 : cardSize.height;
+  // When a grid passes an explicit `width`, the card flexes to fill its column exactly
+  // (keeps 16:9) — this is what stops the right column getting clipped off-screen.
+  const w = width != null ? width
+    : size === 'hero' ? W - 36
+    : size === 'large' ? 240
+    : cardSize.width;
+  const h = width != null ? Math.round(width * 9 / 16)
+    : size === 'hero' ? Math.round((W - 36) * 0.58)
+    : size === 'large' ? 152
+    : cardSize.height;
 
   const animStyle = { transform: [{ scale: scale }] };
   const creator = Array.isArray(item.creator) ? item.creator[0] : item.creator;
@@ -155,8 +163,13 @@ export default function MediaCard({ item, onPress, size = 'default', style }) {
           style={[StyleSheet.absoluteFill, { pointerEvents: 'none' }]}
         />
 
-        {/* Vibe tag */}
-        <View style={[styles.vibeTag, { backgroundColor: vibeBg }]}>
+        {/* Vibe tag — reveal-only (hover on web, long-press on mobile) so the default card field
+            stays clean and content resolves out of the static without loud chips competing. */}
+        <View style={[
+          styles.vibeTag,
+          { backgroundColor: vibeBg, opacity: (isHoverGlow || hovered) ? 1 : 0 },
+          Platform.OS === 'web' ? { transition: 'opacity 0.2s ease' } : null,
+        ]}>
           <Text style={[styles.vibeText, { color: vibeTextColor }]}>{vibeLabel}</Text>
         </View>
 
@@ -252,19 +265,23 @@ const styles = StyleSheet.create({
   vibeTag: {
     position: 'absolute', top: 7, left: 7,
     paddingHorizontal: 6, paddingVertical: 3, borderRadius: 2,
+    zIndex: 11, // above the hover overlay (zIndex 10) so it stays visible during reveal
   },
   vibeText: { fontFamily: fonts.monoBold, fontSize: 8, letterSpacing: 0.4 },
   topRight: {
     position: 'absolute', top: 7, right: 7,
     flexDirection: 'row', gap: 4, alignItems: 'center',
   },
+  // Year + duration share one chip style so a card with only a year and a card with
+  // only a runtime read as the same element (Archive's index omits runtime on many items,
+  // so we can't guarantee both — but they should never look like two different widgets).
   durationChip: {
-    backgroundColor: 'rgba(0,0,0,0.75)',
+    backgroundColor: 'rgba(0,0,0,0.72)',
     paddingHorizontal: 5, paddingVertical: 2, borderRadius: 2,
   },
   durationText: { fontFamily: fonts.mono, fontSize: 9, color: '#fff', letterSpacing: 0.3 },
   yearChip: {
-    backgroundColor: 'rgba(0,0,0,0.6)',
+    backgroundColor: 'rgba(0,0,0,0.72)',
     paddingHorizontal: 5, paddingVertical: 2, borderRadius: 2,
   },
   yearText: { fontFamily: fonts.mono, fontSize: 9, color: colors.amber, letterSpacing: 0.3 },

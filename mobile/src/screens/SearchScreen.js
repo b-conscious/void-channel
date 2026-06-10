@@ -53,6 +53,9 @@ export default function SearchScreen({ navigation, route }) {
   const COLS = Math.max(2, Math.floor(
     (contentW - spacing.screenPadding * 2 + cardSize.gap) / (cardSize.width + cardSize.gap)
   ));
+  // Cards flex to fill the row exactly so the last column is never clipped off-screen.
+  const gridInnerW = contentW - spacing.screenPadding * 2;
+  const CARD_W = Math.floor((gridInnerW - cardSize.gap * (COLS - 1)) / COLS);
 
   const [query, setQuery] = useState('');
   const [activeFilter, setActiveFilter] = useState(0);
@@ -367,7 +370,7 @@ export default function SearchScreen({ navigation, route }) {
           numColumns={COLS}
           contentContainerStyle={[styles.grid, { paddingBottom: insets.bottom + 90 }]}
           columnWrapperStyle={COLS > 1 ? styles.gridRow : undefined}
-          renderItem={({ item }) => <MediaCard item={item} onPress={handleItemPress} style={{ marginRight: 0 }} />}
+          renderItem={({ item }) => <MediaCard item={item} onPress={handleItemPress} width={CARD_W} style={{ marginRight: 0 }} />}
           ListHeaderComponent={
             <Text style={styles.resultCount}>
               {results.length} TRANSMISSION{results.length !== 1 ? 'S' : ''} FOUND · PAGE {searchPage}

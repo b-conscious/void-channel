@@ -445,10 +445,15 @@ app.get("/api/shorts", async (req, res) => {
       return res.json(cached);
     }
 
-    // Short-form: under 120 seconds, sorted by popularity
+    // Over-fetch + diversify so one creator/series can't flood the snack feed.
+    // ⚠️ KNOWN LIMITATION: Archive's `runtime` is a DISPLAY STRING ("11:03"), not a number, so
+    // `runtime:[1 TO 120]` is a broken lexical compare — it lets through ~10-min films and drops
+    // real <2min clips. True "snacks" needs a redesign: query short-BY-NATURE collections
+    // (commercials / trailers / cartoon shorts / newsreels) instead of a runtime range. See BUILD_PLAN.
     const query = `mediatype:(movies) AND runtime:[1 TO 120]${archive.NSFW_EXCLUDE}`;
     const page = Math.floor(Math.random() * 5) + 1; // rotate through pages for variety
-    const items = await archive.search(query, limit, page, "downloads desc");
+    const raw = await archive.search(query, limit * 2, page, "downloads desc");
+    const items = archive.diversify(raw, 2).slice(0, limit);
 
     cache.set(cacheKey, items, 1800); // 30 min cache
     res.set("X-Cache", "MISS");

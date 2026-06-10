@@ -291,6 +291,8 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
       player.currentTime = sec;
       lastGoodTimeRef.current = sec;
     },
+    play: () => { try { player.play(); } catch {} },
+    pause: () => { try { player.pause(); } catch {} },
   }), [toggleFullscreen, player]);
 
   // Subscribe to player events via expo's useEvent hook

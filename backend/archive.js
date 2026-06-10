@@ -125,8 +125,28 @@ const CATEGORIES = [
     id: "cartoons",
     group: "type",
     name: "The Animation Vault",
-    subtitle: "Hand-drawn, cel-painted, before pixels existed",
-    query: "collection:(classic_cartoons) AND mediatype:(movies)",
+    subtitle: "Saturday mornings across the decades — 30s shorts to 90s/2000s series",
+    // Span the GENERATIONS of animation, not just 1930s theatrical shorts. Draw from the broad
+    // animationandcartoons umbrella + recognizable cross-decade series (X-Men, Transformers,
+    // Gargoyles, Animaniacs, PPG…), and EXCLUDE the shows that already have their own rows so the
+    // Vault is "everything else animation" instead of a Betty Boop/Popeye dump. The `diversify`
+    // flag then caps any one series so a single show can't flood the row.
+    // Clause budget matters: getCategoryItems auto-appends NSFW_EXCLUDE + NEWS_POLITICS_EXCLUDE
+    // (cartoons is an ENTERTAINMENT_ID), and if the combined query gets too long Archive returns
+    // ZERO. So this stays lean: the broad animationandcartoons umbrella (spans the decades) +
+    // a handful of recognizable cross-decade series, betty/popeye excluded (they own their rows),
+    // map/pmv fan-junk filtered. The `diversify` cap then stops any one show flooding the row.
+    query:
+      '(collection:(animationandcartoons) ' +
+      'OR title:("x-men") OR title:("transformers") OR title:("he-man") OR title:("thundercats") ' +
+      'OR title:("scooby-doo") OR title:("ducktales") OR title:("gargoyles") OR title:("animaniacs") ' +
+      'OR title:("the powerpuff girls")) ' +
+      'AND mediatype:(movies) ' +
+      'NOT title:(map) NOT title:(pmv) ' +
+      'NOT collection:(betty_boop_cartoons) NOT collection:(popeyethesailorman) ' +
+      'NOT title:("betty boop") NOT title:(popeye)',
+    diversify: true,
+    recognizable: true,
   },
   {
     id: "most_popular",
@@ -735,6 +755,37 @@ function dedupeItems(items) {
   });
 }
 
+// A "series key" groups items that are really the same show/creator, so a row can cap how many
+// of them it shows. Prefer the creator (studio/uploader); fall back to a normalized title root.
+function seriesKey(it) {
+  const c = Array.isArray(it.creator) ? it.creator[0] : it.creator;
+  if (c && String(c).trim().length > 1) return 'c:' + String(c).trim().toLowerCase();
+  const t = String(it.title || '')
+    .toLowerCase()
+    .replace(/[\W_]+/g, ' ')
+    .replace(/\b(episode|ep|vol|volume|part|pt|no|number|chapter|disc)\b.*$/i, '')
+    .trim();
+  const root = t.split(/\s+/).filter(Boolean).slice(0, 3).join(' ');
+  return 't:' + (root || String(it.id || '').toLowerCase());
+}
+
+// Variety treatment: cap how many items share a series/creator so one show can't flood a row.
+// This is "variety over virality" applied to the final assembled list — the same ethos as the
+// blended search, but enforced on output. Opt-in per category (see `diversify` flag) so it never
+// starves a legitimately single-source row (e.g. The Computer Chronicles, the decade rows).
+function diversify(items, maxPerKey = 2) {
+  const counts = new Map();
+  const out = [];
+  for (const it of items || []) {
+    const k = seriesKey(it);
+    const n = counts.get(k) || 0;
+    if (n >= maxPerKey) continue;
+    counts.set(k, n + 1);
+    out.push(it);
+  }
+  return out;
+}
+
 async function search(query, rows = 25, page = 1, sort = "downloads desc") {
   const fields = ["identifier", "title", "description", "year", "creator", "downloads", "runtime", "subject"];
   const fieldStr = fields.map((f) => `fl[]=${f}`).join("&");
@@ -760,15 +811,28 @@ async function search(query, rows = 25, page = 1, sort = "downloads desc") {
  * Archive.org has millions of videos — page 35 of "addeddate asc" is totally
  * different content than page 2.
  */
-async function searchBlended(query, rows = 20) {
-  const anchorCount = Math.max(3, Math.ceil(rows * 0.3));
+// Blend preset for "recognizable" rows (cartoons / nostalgia): mostly popular picks from shallow
+// pages, and the non-anchor portion drawn from the SAME quality sorts (not the deep-obscure ones)
+// so known series surface reliably instead of amateur fan junk. The deep-obscure default still
+// powers the weird-film rows — the 60%-obscure ethos is gold for Lost Reels, junk for cartoons,
+// so it's now a per-category choice (see `recognizable` flag). NOTE: this only shapes the curated
+// BROWSE rows; search stays raw so the full stream of noise remains discoverable + curatable.
+const RECOGNIZABLE_BLEND = { anchorRatio: 0.65, anchorPageMax: 3, deepPageMax: 8, deepFromAnchor: true };
+
+async function searchBlended(query, rows = 20, opts = {}) {
+  const anchorRatio   = opts.anchorRatio   ?? 0.3;   // share of popular "anchor" picks
+  const anchorPageMax = opts.anchorPageMax ?? 5;     // how deep the anchor pages roam
+  const deepPageMax   = opts.deepPageMax   ?? 30;    // how deep the "obscure" pull roams
+  const deepSorts     = opts.deepFromAnchor ? ANCHOR_SORTS : DEEP_SORTS;
+
+  const anchorCount = Math.max(3, Math.ceil(rows * anchorRatio));
   const deepCount = rows - anchorCount;
 
   const anchorSort = pickRandom(ANCHOR_SORTS);
-  const anchorPage = Math.floor(Math.random() * 5) + 1;   // pages 1-5 (was always 1)
+  const anchorPage = Math.floor(Math.random() * anchorPageMax) + 1;
 
-  const deepSort = pickRandom(DEEP_SORTS);
-  const deepPage = Math.floor(Math.random() * 30) + 1;    // pages 1-30 (was 1-8)
+  const deepSort = pickRandom(deepSorts);
+  const deepPage = Math.floor(Math.random() * deepPageMax) + 1;
 
   // Two parallel requests — anchor + deep (keep it lean for bulk loads)
   let [anchorItems, deepItems] = await Promise.all([
@@ -778,7 +842,7 @@ async function searchBlended(query, rows = 20) {
 
   // Fallback: if deep page was past end of results, retry with low page
   if (deepItems.length === 0) {
-    deepItems = await search(query, deepCount + 10, 1, pickRandom(DEEP_SORTS));
+    deepItems = await search(query, deepCount + 10, 1, pickRandom(deepSorts));
   }
   // Fallback: if anchor page was too deep for a small collection
   if (anchorItems.length === 0 && anchorPage > 1) {
@@ -942,19 +1006,25 @@ async function getCategoryItems(categoryId, rows = 25, page = 1, shuffle = false
   // Keep news/politics out of entertainment categories
   if (ENTERTAINMENT_IDS.has(cat.id)) query += NEWS_POLITICS_EXCLUDE;
 
+  // When a category opts into the variety treatment, over-fetch so capping per series doesn't
+  // leave the row short, then diversify + trim back to `rows`.
+  const fetchRows = cat.diversify ? rows * 2 : rows;
+  const blendOpts = cat.recognizable ? RECOGNIZABLE_BLEND : undefined;
+
   let items;
   if (shuffle) {
-    items = await searchVariety(query, rows);
+    items = await searchVariety(query, fetchRows);
   } else if (cat.sort) {
     // Category has a fixed sort (e.g. most_popular → downloads desc) — no blending
     items = await search(query, rows, page, cat.sort);
   } else if (page === 1) {
-    // First page: blended (mainstream → obscure gradient)
-    items = await searchBlended(query, rows);
+    // First page: blended (mainstream → obscure gradient, or recognizable-leaning per category)
+    items = await searchBlended(query, fetchRows, blendOpts);
   } else {
     // Subsequent pages: straight paginated search
-    items = await search(query, rows, page);
+    items = await search(query, fetchRows, page);
   }
+  if (cat.diversify) items = diversify(items, 2).slice(0, rows);
   return { ...cat, items };
 }
 
@@ -970,13 +1040,16 @@ async function getAllCategories(rowsPerCategory = 20, shuffle = false) {
       batch.map(async (cat) => {
         let query = cat.mature ? cat.query : cat.query + NSFW_EXCLUDE;
         if (ENTERTAINMENT_IDS.has(cat.id)) query += NEWS_POLITICS_EXCLUDE;
+        const fetchRows = cat.diversify ? rowsPerCategory * 2 : rowsPerCategory;
+        const blendOpts = cat.recognizable ? RECOGNIZABLE_BLEND : undefined;
         let items;
         if (shuffle) {
-          items = await searchVariety(query, rowsPerCategory);
+          items = await searchVariety(query, fetchRows);
         } else {
-          // Default: blended rows — mainstream first, obscure trailing
-          items = await searchBlended(query, rowsPerCategory);
+          // Default: blended rows — mainstream first, obscure trailing (or recognizable-leaning)
+          items = await searchBlended(query, fetchRows, blendOpts);
         }
+        if (cat.diversify) items = diversify(items, 2).slice(0, rowsPerCategory);
         return { ...cat, items };
       })
     );
@@ -1055,10 +1128,20 @@ async function getRelated(identifier, limit = 15) {
       } catch { backfill = []; }
     }
 
-    // Merge: same-show episodes on top (ordered), then subject-based variety
-    const seenIds = new Set(sameShow.map(i => i.id));
-    const deduped = backfill.filter(i => !seenIds.has(i.id));
-    return [...sameShow, ...deduped].slice(0, limit);
+    // Merge: same-show episodes on top (ordered), then subject-based variety.
+    // Dedupe by BASE identifier (strip ":3" segment suffixes) and drop the current item, so the
+    // same film — uploaded as multiple segments, or returned twice by Archive's unsorted/un-deduped
+    // results — can't surface as "the first three recommendations are all identical".
+    const baseId = (x) => String(x || '').replace(/:\d+$/, '');
+    const seenBases = new Set([baseId(cleanId)]);
+    const merged = [];
+    for (const it of [...sameShow, ...backfill]) {
+      const b = baseId(it.id);
+      if (!b || seenBases.has(b)) continue;
+      seenBases.add(b);
+      merged.push(it);
+    }
+    return merged.slice(0, limit);
   } catch (err) {
     console.error(`[getRelated] ${identifier}:`, err.message);
     return [];
@@ -1090,6 +1173,7 @@ module.exports = {
   CATEGORIES,
   NSFW_EXCLUDE,
   search,
+  diversify,
   getItem,
   getRelated,
   getCategoryItems,

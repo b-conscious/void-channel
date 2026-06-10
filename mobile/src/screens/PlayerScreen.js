@@ -73,6 +73,35 @@ function cleanTitle(title) {
   return cleaned;
 }
 
+// Open a share target reliably across platforms.
+// On MOBILE WEB the FB/X "sharer" universal links get intercepted by the installed app, which
+// opens its home feed and drops the link — so we hand off to the native share sheet
+// (navigator.share), which always carries the URL. DESKTOP web opens the web composer in a new
+// tab (never handing off to an app). Native builds use the OS Linking handler.
+function shareTo({ platform, url, text }) {
+  const intent =
+    platform === 'twitter'
+      ? `https://twitter.com/intent/tweet?text=${encodeURIComponent(text || '')}&url=${encodeURIComponent(url)}`
+      : platform === 'reddit'
+      ? `https://www.reddit.com/submit?url=${encodeURIComponent(url)}&title=${encodeURIComponent(text || '')}`
+      : `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`;
+
+  if (Platform.OS === 'web' && typeof window !== 'undefined') {
+    const nav = typeof navigator !== 'undefined' ? navigator : null;
+    const isMobileWeb = !!nav && /Mobi|Android|iPhone|iPad|iPod/i.test(nav.userAgent || '');
+    const canNativeShare = !!nav && typeof nav.share === 'function' &&
+      (typeof nav.canShare !== 'function' || nav.canShare({ url }));
+    if (isMobileWeb && canNativeShare) {
+      nav.share({ title: 'VOIDtv', text, url }).catch(() => {});
+      return;
+    }
+    const w = window.open(intent, '_blank', 'noopener,noreferrer');
+    if (!w) { try { window.location.href = intent; } catch (e) {} }
+    return;
+  }
+  Linking.openURL(intent).catch(() => {});
+}
+
 export default function PlayerScreen({ route, navigation }) {
   const params = route.params || {};
   // Deep-link support: /watch/:id only provides params.id, no full item object.
@@ -381,6 +410,12 @@ export default function PlayerScreen({ route, navigation }) {
       setVideoReady(true);
       return;
     }
+    // Metadata hasn't resolved yet: the optimistic `_512kb.mp4` guess commonly 404s before
+    // getItem() returns. Do NOT skip/advance here — that's what made the player jump to a
+    // *different* video the instant you tapped one. Wait; Recovery 1 retries the confirmed URL.
+    if (!videoReady && !item.videoUrl) {
+      return;
+    }
     // Recovery 2: confirmed URL failed → try the HQ derivative once (different encode/codec).
     if (!triedHQRef.current && item.videoUrlHQ && item.videoUrlHQ !== videoUrl) {
       triedHQRef.current = true;
@@ -487,24 +522,39 @@ export default function PlayerScreen({ route, navigation }) {
 
   const handleClipShareTwitter = useCallback(() => {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-    const text = encodeURIComponent(getClipText());
-    const url = encodeURIComponent(getClipUrl());
-    Linking.openURL(`https://twitter.com/intent/tweet?text=${text}&url=${url}`);
+    shareTo({ platform: 'twitter', url: getClipUrl(), text: getClipText() });
   }, [getClipText, getClipUrl]);
 
   const handleClipShareFacebook = useCallback(() => {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-    const url = encodeURIComponent(getClipUrl());
-    Linking.openURL(`https://www.facebook.com/sharer/sharer.php?u=${url}`);
-  }, [getClipUrl]);
+    shareTo({ platform: 'facebook', url: getClipUrl(), text: getClipText() });
+  }, [getClipText, getClipUrl]);
+
+  const previewTimerRef = useRef(null);
+  const stopClipPreview = useCallback(() => {
+    if (previewTimerRef.current) { clearInterval(previewTimerRef.current); previewTimerRef.current = null; }
+  }, []);
 
   const handleClipPreview = useCallback(() => {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-    // Seek to clip start and play
-    if (videoRef.current?.seekTo) {
-      videoRef.current.seekTo(clipStart);
-    }
-  }, [clipStart]);
+    const v = videoRef.current;
+    if (!v?.seekTo) return;
+    stopClipPreview();
+    // Seek to clip start, play, then poll position and pause at clipEnd so PREVIEW shows
+    // exactly the selected range instead of running past it.
+    v.seekTo(clipStart);
+    v.play?.();
+    previewTimerRef.current = setInterval(() => {
+      const t = v.getCurrentTime?.() ?? 0;
+      if (t >= clipEnd) {
+        v.pause?.();
+        stopClipPreview();
+      }
+    }, 120);
+  }, [clipStart, clipEnd, stopClipPreview]);
+
+  // Stop any running clip preview when the component unmounts.
+  useEffect(() => stopClipPreview, [stopClipPreview]);
 
   const getShareUrl = useCallback(() => {
     return `https://api.voidtv.net/watch/${item.id}`;
@@ -533,22 +583,17 @@ export default function PlayerScreen({ route, navigation }) {
 
   const handleShareFacebook = useCallback(() => {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-    const url = encodeURIComponent(getShareUrl());
-    Linking.openURL(`https://www.facebook.com/sharer/sharer.php?u=${url}`);
-  }, [getShareUrl]);
+    shareTo({ platform: 'facebook', url: getShareUrl(), text: getShareText() });
+  }, [getShareText, getShareUrl]);
 
   const handleShareTwitter = useCallback(() => {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-    const text = encodeURIComponent(getShareText());
-    const url = encodeURIComponent(getShareUrl());
-    Linking.openURL(`https://twitter.com/intent/tweet?text=${text}&url=${url}`);
+    shareTo({ platform: 'twitter', url: getShareUrl(), text: getShareText() });
   }, [getShareText, getShareUrl]);
 
   const handleShareReddit = useCallback(() => {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-    const title = encodeURIComponent(getShareText());
-    const url = encodeURIComponent(getShareUrl());
-    Linking.openURL(`https://www.reddit.com/submit?url=${url}&title=${title}`);
+    shareTo({ platform: 'reddit', url: getShareUrl(), text: getShareText() });
   }, [getShareText, getShareUrl]);
 
   const handleShareNative = useCallback(async () => {
@@ -953,7 +998,7 @@ export default function PlayerScreen({ route, navigation }) {
             onCopyLink={handleClipCopyLink}
             onShareTwitter={handleClipShareTwitter}
             onShareFacebook={handleClipShareFacebook}
-            onClose={() => setClipMode(false)}
+            onClose={() => { stopClipPreview(); setClipMode(false); }}
             copied={clipCopied}
             accent={accent}
             itemTitle={item.title}
@@ -1606,8 +1651,15 @@ function ClipEditor({
   const startPct = duration > 0 ? (clipStart / duration) * 100 : 0;
   const endPct = duration > 0 ? (clipEnd / duration) * 100 : 100;
 
-  // Web pointer events for dragging handles
+  // Web pointer events for dragging handles.
   const barId = React.useRef(`clip-bar-${Math.random().toString(36).slice(2, 8)}`).current;
+
+  // The drag handlers read live values/callbacks through this ref so the pointer listeners can
+  // be attached exactly ONCE (deps: [barId]). Previously the effect depended on clipStart/clipEnd,
+  // so every move tore down + re-bound the listeners through a 300ms debounce — which is why a
+  // single swipe only nudged a handle a few seconds before dying and forced repeated swiping.
+  const liveRef = React.useRef(null);
+  liveRef.current = { clipStart, clipEnd, duration, onChangeStart, onChangeEnd };
 
   React.useEffect(() => {
     if (Platform.OS !== 'web' || typeof document === 'undefined') return;
@@ -1620,32 +1672,30 @@ function ClipEditor({
       const pctToTime = (e) => {
         const rect = el.getBoundingClientRect();
         const pct = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width));
-        return Math.round(pct * duration);
+        return Math.round(pct * (liveRef.current.duration || 0));
       };
 
       const onDown = (e) => {
         e.preventDefault();
         e.stopPropagation();
+        const { clipStart, clipEnd } = liveRef.current;
         const t = pctToTime(e);
-        const distStart = Math.abs(t - clipStart);
-        const distEnd = Math.abs(t - clipEnd);
-        activeDrag = distStart <= distEnd ? 'start' : 'end';
-        el.setPointerCapture(e.pointerId);
+        activeDrag = Math.abs(t - clipStart) <= Math.abs(t - clipEnd) ? 'start' : 'end';
+        try { el.setPointerCapture(e.pointerId); } catch (err) {}
         setDragging(activeDrag);
       };
 
       const onMove = (e) => {
         if (!activeDrag) return;
         e.preventDefault();
+        const { clipStart, clipEnd, duration, onChangeStart, onChangeEnd } = liveRef.current;
         const t = pctToTime(e);
         if (activeDrag === 'start') {
           const clamped = Math.max(0, Math.min(t, clipEnd - MIN_CLIP));
-          const limited = Math.max(clamped, clipEnd - MAX_CLIP);
-          onChangeStart(limited);
+          onChangeStart(Math.max(clamped, clipEnd - MAX_CLIP));
         } else {
           const clamped = Math.min(duration, Math.max(t, clipStart + MIN_CLIP));
-          const limited = Math.min(clamped, clipStart + MAX_CLIP);
-          onChangeEnd(limited);
+          onChangeEnd(Math.min(clamped, clipStart + MAX_CLIP));
         }
       };
 
@@ -1673,7 +1723,7 @@ function ClipEditor({
       clearTimeout(timer);
       if (barRef.current?._cleanup) barRef.current._cleanup();
     };
-  }, [barId, duration, clipStart, clipEnd, onChangeStart, onChangeEnd]);
+  }, [barId]);
 
   return (
     <View style={clipStyles.container}>
