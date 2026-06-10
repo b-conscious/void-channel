@@ -925,8 +925,8 @@ export default function PlayerScreen({ route, navigation }) {
             onPress={toggleWatchlist}
           />
           <ActionIcon
-            icon="list-outline"
-            label="Playlist"
+            icon="add-circle-outline"
+            label="Add to Playlist"
             color={colors.textPrimary}
             onPress={() => { Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light); setPlaylistModalOpen(true); }}
           />
@@ -953,12 +953,6 @@ export default function PlayerScreen({ route, navigation }) {
               loading={downloading}
             />
           ) : null}
-          <ActionIcon
-            icon="globe-outline"
-            label="Void Page"
-            color={colors.textPrimary}
-            onPress={() => Linking.openURL(`https://api.voidtv.net/watch/${item.id}`)}
-          />
         </View>
 
         {/* ── Share drawer ── */}
@@ -967,6 +961,10 @@ export default function PlayerScreen({ route, navigation }) {
             <TouchableOpacity style={[styles.shareChip, copied && { borderColor: accent, backgroundColor: accent + '15' }]} onPress={handleCopyLink} activeOpacity={0.7}>
               <Ionicons name={copied ? "checkmark-circle" : "link-outline"} size={16} color={copied ? accent : colors.textPrimary} />
               <Text style={[styles.shareChipText, copied && { color: accent }]}>{copied ? 'COPIED!' : 'COPY LINK'}</Text>
+            </TouchableOpacity>
+            <TouchableOpacity style={styles.shareChip} onPress={() => Linking.openURL(getShareUrl())} activeOpacity={0.7}>
+              <Ionicons name="globe-outline" size={16} color={colors.textPrimary} />
+              <Text style={styles.shareChipText}>VOID PAGE</Text>
             </TouchableOpacity>
             <TouchableOpacity style={styles.shareChip} onPress={handleShareTwitter} activeOpacity={0.7}>
               <Ionicons name="logo-twitter" size={16} color="#1DA1F2" />
