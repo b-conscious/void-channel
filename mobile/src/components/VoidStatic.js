@@ -62,9 +62,14 @@ export default function VoidStatic() {
       if (document.querySelector('[data-vpcontainer="1"]')) { schedule(); return; }
       var dur = 500 + Math.floor(Math.random() * 400); // 0.5–0.9s burst — a brief touch
       try {
+        // CRITICAL: only MOUNT the overlay for the burst itself. A permanent full-screen
+        // mix-blend-mode layer breaks <video> compositing app-wide (picture goes black, audio
+        // keeps playing), so between bursts it must be display:none — not just opacity:0.
+        el.style.display = 'block';
         el.style.animation = 'none';
         void el.offsetWidth; // force reflow so the animation re-triggers each time
         el.style.animation = 'voidStaticBurst ' + dur + 'ms steps(10)';
+        setTimeout(function () { try { if (el) el.style.display = 'none'; } catch (e) {} }, dur + 80);
       } catch (e) {}
       schedule();
     }
@@ -85,7 +90,8 @@ export default function VoidStatic() {
       position: 'fixed', top: 0, left: 0, right: 0, bottom: 0,
       pointerEvents: 'none',
       zIndex: 9998,            // under VoidIntro (9999), over the app
-      opacity: 0,
+      display: 'none',         // mounted ONLY during a burst (see fire) — a permanent blend layer
+      opacity: 0,              // breaks <video> compositing app-wide (black picture + audio only)
       backgroundImage: 'url("' + NOISE + '")',
       backgroundRepeat: 'repeat',
       mixBlendMode: 'screen',  // gray noise glows over the dark void instead of muddying it
