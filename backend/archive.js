@@ -857,8 +857,11 @@ async function search(query, rows = 25, page = 1, sort = "downloads desc") {
   const fields = ["identifier", "title", "description", "year", "creator", "downloads", "runtime", "subject"];
   const fieldStr = fields.map((f) => `fl[]=${f}`).join("&");
   const sortParam = `sort[]=${encodeURIComponent(sort)}`;
-  // Every search drops unviewable items (restricted/private-mirror) so no dead thumbnails appear.
-  const url = `${SEARCH_URL}?q=${encodeURIComponent(query + RESTRICTED_EXCLUDE)}&${fieldStr}&${sortParam}&rows=${rows}&page=${page}&output=json`;
+  // RESTRICTED_EXCLUDE is TEMPORARILY OFF — Bryan wants to re-test the previously-filtered videos now
+  // that the player is fixed. To re-enable, append ` + RESTRICTED_EXCLUDE` to `query` below.
+  // (Verified earlier: funny_or_die files are private:true→401, access-restricted movies 403 for anon,
+  //  so most are still genuinely dead — the proper fix is a resolve-time playable check, not this.)
+  const url = `${SEARCH_URL}?q=${encodeURIComponent(query)}&${fieldStr}&${sortParam}&rows=${rows}&page=${page}&output=json`;
 
   // Resilient: Archive.org intermittently returns 5xx / HTML (under load, or during our cold
   // starts). Never let that throw — it would surface as a 500 on /api/search & /api/shorts.

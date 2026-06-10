@@ -120,7 +120,13 @@ Also TBD: the colorful **vibe tags** (CURSED/WEIRD) on cards — keep / tone-dow
 - **iOS:** videos need `playsinline`/`webkit-playsinline` (set on the player's `<video>` in `VideoPlayer.js`) or iOS
   forces fullscreen. Web autoplay must start **muted**; sound restores on first trusted gesture (sticky activation).
 - **Player layout (desktop):** explicit widths from `useWindowDimensions` (the Player Stack scene doesn't stretch on
-  web, so `flex:1` collapses). Currently video column ~40%, channel sidebar ~58% (2-col grid). Tunable in `PlayerScreen.js`.
+  web, so `flex:1` collapses). Video column is now the DOMINANT ~62%, related rail ~36% (was backwards). Tunable in `PlayerScreen.js`.
+- **⚠️ `flex:1` + explicit `width` = collapse (RN-Web).** `flex:1` sets `flex-basis:0%`; with `flexGrow:0` that 0% beats an
+  explicit `width`, so the element collapses to ~0. If you set an explicit `width` on a flex child, do NOT also give it
+  `flex:1` in its style (bit us: desktop video column rendered tiny inside the related grid).
+- **⚠️ Full-screen `mix-blend-mode` overlays KILL `<video>` picture.** A permanent fixed full-screen blend layer (even
+  `opacity:0`) knocks `<video>` out of hardware compositing on Chromium → black picture, audio still plays, app-wide.
+  Void overlays (VoidStatic etc.) must be `display:none` except while actively animating, and never sit over the player.
 
 ## 7. Monetization model (decided)
 **Free app.** Voluntary **$5/yr "Member/Patron"** (not a wall). Archivist **top-ups** ~$1/wk / pay-what-you-want.
@@ -260,3 +266,79 @@ The Archivist stops being a search filter and becomes the instrument you tune yo
   Home from the profile; profile screen SHOWS + lets you edit your likes (transparency = trust).
 
 Status: SPEC captured. Big build — slot into a rollout (likely its own, after/with the void-sea layout).
+
+## 14. "Before they disappear forever" — lean into ephemerality (Bryan, this session)
+Turn the Archive's content DECAY into the feature, not the bug. Items get restricted/removed over time
+(copyright, IA's legal compliance, dead mirrors). Instead of only HIDING the dead ones, SURFACE the
+at-risk ones with urgency: *watch it before it's gone forever.* The thesis at its sharpest — witnessing
+human creativity before it vanishes (to restriction, to decay, to AI slop).
+
+- **Already-gone** (401 / private / restricted) → HIDDEN. Done (`RESTRICTED_EXCLUDE`, this session).
+- **At-risk** → the new feature: a **"Fading Signals" / "Before They Vanish"** row of the rarest /
+  least-downloaded / most-fragile items, framed with urgency. The least-seen content is the most likely
+  to disappear (nobody preserving what nobody found) — which is exactly the existing deep-cut /
+  `downloads asc` ethos, reframed with stakes.
+- **Aesthetic**: the rarer an item, the harder it dissolves out of the static — a "weak signal /
+  endangered" treatment. Ties directly to the SIGNAL STRENGTH idea (§4).
+- **Mechanic**: a "witnessed" log — *things you watched before they vanished* — +XP and a Hall of Fame
+  for catching a rare signal before it died. Plugs into the Archivist profile (§13) + GameContext.
+- **Copy**: "before AI slop, human creativity — and it's disappearing. watch while you can."
+- **PRIME TARGET = branded / newish / full-length** (Bryan): copyrighted shows + branded content are
+  what gets taken down — so the "Before They Vanish Into The Void" row surfaces the branded/recent
+  full-length titles that are STILL viewable, with urgency. Data backs the pattern: the
+  `access-restricted-item:true` pool (4.45M movies) is full of already-locked recent branded
+  broadcasts (e.g. C-SPAN) that 403 for anon — proof that branded/recent content is exactly what
+  gets pulled over time. PD/old = the stable spine; branded/newish = the candle burning down.
+- **Definitions in code:** "already locked" (hidden) = `access-restricted-item:true` + private-mirror
+  collections (`RESTRICTED_EXCLUDE`, shipped). "Still-viewable but at-risk" (the Vanish row) = branded/
+  recent full-length not yet restricted (heuristic: feature-length + recent year + branded source/collection).
+
+Status: SPEC captured. Slots with the Archivist / ratings (SIGNAL STRENGTH) rollout.
+
+## 15. SESSION HANDOFF → next chat = full debug + surgical-fix pass (this session)
+A LOT shipped fast today, push-to-master each time. Live on `master` @ `926aa37`. The next chat should
+be a careful, surgical debug/fix pass over all of it. **Hard cache-clear (Empty-Cache-and-Hard-Reload /
+unregister SW) before testing — the sticky service worker masked nearly everything this session.**
+
+**Shipped today (newest → oldest):**
+- **Desktop player fixed (3 stacked bugs):** clean `/watch/:id` URLs (`getPathFromState`); VoidStatic
+  blend-overlay no longer kills `<video>` picture; desktop video column no longer collapses (`flex:1`
+  vs explicit width) — video is now the dominant ~62%, related rail ~36%. (See §6 gotchas.)
+- **Mobile/desktop "wall":** every category as a vertical scroll of horizontal rows; chip bar gone on
+  mobile; "All" = the full wall. Subtle per-row coloration. Void-stream fills loading/empty rows.
+  Scattered void-stream TV bands (~1/6 rows, channel-surfed to different ~7s scenes). **Void Snacks**
+  row every 3 rows (rotated for variety).
+- **Void effects:** VoidStatic occasional static (now `display:none` except during a burst). Loaders +
+  intro play the fast-started void-stream (audio confirmed).
+- **Content treatment:** recognizable+diversify on all genre rows; "The TV Set" (real episodes, medical
+  fenced); "Banned" (cult cinema, extremist-fenced).
+- **Backend resilience:** `archive.search` degrades to `[]` on Archive 5xx (no more 500s on
+  /api/shorts & /api/search); shorts/search don't cache an empty blip.
+- **`RESTRICTED_EXCLUDE` is currently OFF** (re-test, below).
+
+**DEBUG / SURGICAL-FIX AGENDA (next chat):**
+1. **Restricted re-test:** filter is OFF so Bryan can see which previously-blocked videos actually play.
+   Verified: funny_or_die files `private:true`→401; access-restricted movies 403 for anon (C-SPAN sample)
+   → most are genuinely dead. Decide: re-enable `RESTRICTED_EXCLUDE`, OR build a **resolve-time playable
+   check** (HEAD the resolved URL in `getItem`, mark unviewable) — that's the right fix vs. wholesale
+   collection excludes.
+2. **Player related-cards compress titles** ("!", "198 O", "1ST THI"): the 2-col `sidebarGrid` crushes
+   the card text. Partly was the column-collapse (now fixed) — but make the related list **single-column /
+   roomier** so titles read. (PlayerScreen `sidebarGrid` / `sidebarCard`.)
+3. **"!" titles:** many related cards show a bare "!" — `cleanTitle` likely strips a leading date/prefix
+   and leaves the "!". Fix in `PlayerScreen.cleanTitle`.
+4. **Clip slider:** drag was rewritten (rebind bug) — confirm it works on the FRESH build; if not, dig in.
+5. **Mobile fullscreen → white screen on rotate** (still open, §11.8).
+6. **Perf:** the wall (~30 rows, non-virtualized `ScrollView`) + scattered `<video>` TVs + snacks rows —
+   check mobile perf; **virtualize the vertical list (`FlatList`)** if sluggish.
+7. **Audio-on-show / mute-on-hover** (§11.5) — still needs the exact-scope decision.
+8. Verify the desktop player end-to-end on a fresh build (big video left, related right, plays).
+
+**Still spec'd, not built:** void-sea polish (§12), Archivist-as-the-only-algorithm (§13), "Before They
+Vanish Into The Void" — branded/newish full-length (§14).
+
+**Today's commits (newest first):** `926aa37` desktop video collapse · `aa4eb9c` VoidStatic video fix ·
+`00cc0ea` player video-dominant · `6ac2ae6` hide unviewable · `85f9e76` void snacks · `0ce7975` scattered
+TVs + clean URLs · `ac08422` row coloration + void-fill · `3a060ca` wall desktop + channel-surf ·
+`4e4cd31` mobile wall + search resilience · `ac9b4c5` content rollout (TV/Banned/genre treatment) ·
+`d212d50` fast-start videos · `01e96b9` VoidStatic · `410298b` generational treatment + mobile bug batch.
