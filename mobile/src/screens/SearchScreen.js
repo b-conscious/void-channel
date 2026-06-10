@@ -382,7 +382,13 @@ export default function SearchScreen({ navigation, route }) {
       {loading ? (
         <View style={styles.status}>
           {Platform.OS === 'web' ? (
-            <VoidLoader mode="static" size="channel" label="scanning archive..." style={{ width: 200, height: 120, marginBottom: 12, borderRadius: 8 }} />
+            // A wall of void TVs while it scans — each plays a DIFFERENT 10s edit of the void stream
+            // (staggered by VoidLoader's mount-order rule), so you watch the edits roll past while you wait.
+            <View style={styles.scanGrid}>
+              {Array.from({ length: 4 }).map((_, i) => (
+                <VoidLoader key={i} mode="static" size="channel" style={styles.scanTv} />
+              ))}
+            </View>
           ) : (
             <ActivityIndicator color={accent} size="small" />
           )}
@@ -494,6 +500,8 @@ const styles = StyleSheet.create({
   durChipText: { fontFamily: fonts.mono, fontSize: 8, color: colors.textGhost, letterSpacing: 0.6 },
   status: { flex: 1, justifyContent: 'center', alignItems: 'center', gap: 8, paddingBottom: 80, paddingHorizontal: spacing.screenPadding },
   statusText: { fontFamily: fonts.mono, fontSize: 11, letterSpacing: 1.5 },
+  scanGrid: { flexDirection: 'row', flexWrap: 'wrap', gap: 10, justifyContent: 'center', marginBottom: 14, maxWidth: 700 },
+  scanTv: { width: 160, height: 96, borderRadius: 8 },
   deadAir: { fontFamily: fonts.monoBold, fontSize: 14, color: colors.textGhost, letterSpacing: 2 },
   deadAirSub: { fontFamily: fonts.sans, fontSize: 13, color: colors.textGhost, fontStyle: 'italic', textAlign: 'center' },
   promptLine: { fontFamily: fonts.mono, fontSize: 10, color: colors.textMuted, letterSpacing: 1.5, textAlign: 'center' },
