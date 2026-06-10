@@ -2502,7 +2502,9 @@ const styles = StyleSheet.create({
   desktopRow: { flex: 1, flexDirection: 'row', paddingRight: CONTENT_GAP },
   // flex:1 + minWidth:0 so the video column fills ALL space the sidebar doesn't take
   // (without minWidth:0 a flex child won't shrink below its content's intrinsic width).
-  desktopMain: { flex: 1, minWidth: 0 },
+  // NO `flex: 1` here — its flex-basis:0% beats the explicit `width: AVAILABLE_W` set in the
+  // render (flexGrow:0), collapsing the video column to ~0 and rendering the player tiny.
+  desktopMain: { minWidth: 0 },
 
   // ── Mobile autoplay row ──
   mobileAutoplayRow: {
