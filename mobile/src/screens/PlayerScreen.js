@@ -679,11 +679,11 @@ export default function PlayerScreen({ route, navigation }) {
           channelLabel={inChannel ? channelLabel || "CHANNEL" : undefined}
         />
       )}
-      {!videoSource && (
-        <TouchableOpacity style={[styles.overlayBack, { top: insets.top + 8 }]} onPress={safeGoBack} hitSlop={10}>
-          <Ionicons name="chevron-back" size={26} color="#fff" />
-        </TouchableOpacity>
-      )}
+      {/* ALWAYS-visible exit — guarantees a way out even if the video never loads or the player's
+          own controls auto-hide. (Was gated on !videoSource, so a stalled video trapped you.) */}
+      <TouchableOpacity style={[styles.overlayBack, { top: insets.top + 8 }]} onPress={safeGoBack} hitSlop={10}>
+        <Ionicons name="chevron-back" size={26} color="#fff" />
+      </TouchableOpacity>
     </>
   );
 

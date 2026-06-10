@@ -132,7 +132,7 @@ export default function HomeScreen({ navigation }) {
   // up huge). Capped on desktop so it doesn't dominate a wide screen; proportional on mobile.
   const heroH = IS_DESKTOP ? Math.min(Math.round(contentW * 0.30), 380) : Math.round(contentW * 0.52);
   const { gen, generationId, chooseGeneration } = useGeneration();
-  const { user, isAuthenticated, updateProfile, signOut } = useAuth();
+  const { user, isAuthenticated, isAnonymous, updateProfile, signOut } = useAuth();
   const [menuOpen, setMenuOpen] = useState(false);
   const [avatarPickerOpen, setAvatarPickerOpen] = useState(false);
   const [allCategories, setAllCategories] = useState([]);
@@ -182,7 +182,9 @@ export default function HomeScreen({ navigation }) {
 
   // Sort by generation's categoryPriority — categories listed first appear at the top
   const typeCats = useMemo(() => {
-    const raw = allCategories.filter((c) => !c.group || c.group === 'type');
+    // Mature rows are SEQUESTERED off the default wall (not censored) — reachable only on purpose via
+    // the 18+ chip (desktop) / the 18+ drawer toggle (mobile). See visibleTypeCats.
+    const raw = allCategories.filter((c) => (!c.group || c.group === 'type') && !c.mature);
     const priority = gen.categoryPriority || [];
     if (priority.length === 0) return raw;
     return [...raw].sort((a, b) => {
@@ -199,9 +201,20 @@ export default function HomeScreen({ navigation }) {
   // non-empty type category as a vertical scroll of horizontal rows — an overwhelming sea of
   // variety, on every platform. A desktop chip simply narrows the wall down to that one genre.
   const visibleTypeCats = useMemo(() => {
+    // 18+ → ALL mature rows (sequestered, but reachable on purpose). "All" excludes mature (typeCats
+    // already drops it). A specific chip narrows to that one genre.
+    if (activeChip === 'mature') return allCategories.filter((c) => c.mature && (c.items || []).length > 0);
     if (activeChip === 'all') return typeCats.filter((c) => (c.items || []).length > 0);
     return allCategories.filter((c) => c.id === activeChip);
   }, [typeCats, allCategories, activeChip]);
+
+  // 18+ is MEMBERS-ONLY: the mature wall is corralled + reachable, but only for REAL members.
+  // Anonymous sessions don't count (anon sign-in is ON), so an anon/non-member gets the sign-in /
+  // create-account screen instead.
+  const selectChip = useCallback((id) => {
+    if (id === 'mature' && (!isAuthenticated || isAnonymous)) { setMenuOpen(false); navigation.navigate('Auth'); return; }
+    setActiveChip(id);
+  }, [isAuthenticated, isAnonymous, navigation]);
 
   // Per-category pagination — tracks which page each category is on + loading state
   const [catPages, setCatPages] = useState({});       // { [catId]: pageNumber }
@@ -609,6 +622,8 @@ export default function HomeScreen({ navigation }) {
         visible={menuOpen}
         onClose={() => setMenuOpen(false)}
         accent={accent}
+        activeChip={activeChip}
+        onSelectChip={selectChip}
         gen={gen}
         generationId={generationId}
         chooseGeneration={chooseGeneration}
@@ -642,7 +657,7 @@ export default function HomeScreen({ navigation }) {
             return (
               <TouchableOpacity
                 key={chip.id}
-                onPress={() => { setActiveChip(chip.id); try { Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light); } catch {} }}
+                onPress={() => { selectChip(chip.id); try { Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light); } catch {} }}
                 style={[
                   styles.chip,
                   isActive && { backgroundColor: colors.textPrimary },
@@ -1402,7 +1417,7 @@ function ScanlineOverlay({ height }) {
   );
 }
 
-function DrawerMenu({ visible, onClose, accent, gen, generationId, chooseGeneration, navigation, onRandom, user, isAuthenticated, onAvatarPress, onSignOut }) {
+function DrawerMenu({ visible, onClose, accent, activeChip, onSelectChip, gen, generationId, chooseGeneration, navigation, onRandom, user, isAuthenticated, onAvatarPress, onSignOut }) {
   if (!visible) return null;
 
   const GEN_OPTS = [
@@ -1472,7 +1487,7 @@ function DrawerMenu({ visible, onClose, accent, gen, generationId, chooseGenerat
             <TouchableOpacity
               key={item.tab}
               style={drawerStyles.menuItem}
-              onPress={() => { onClose(); navigation.navigate(item.tab); }}
+              onPress={() => { onClose(); if (item.tab === 'Browse') onSelectChip?.('all'); navigation.navigate(item.tab); }}
               activeOpacity={0.7}
             >
               <Ionicons name={item.icon} size={18} color={accent} style={{ width: 28 }} />
@@ -1511,6 +1526,16 @@ function DrawerMenu({ visible, onClose, accent, gen, generationId, chooseGenerat
           <TouchableOpacity style={drawerStyles.menuItem} onPress={onRandom} activeOpacity={0.7}>
             <Ionicons name="shuffle" size={18} color={accent} style={{ width: 28 }} />
             <Text style={drawerStyles.menuLabel}>SURPRISE ME</Text>
+          </TouchableOpacity>
+
+          {/* 18+ — mature rows are sequestered off the default wall; reachable here on purpose (not censored) */}
+          <TouchableOpacity
+            style={drawerStyles.menuItem}
+            onPress={() => { onClose(); onSelectChip?.(activeChip === 'mature' ? 'all' : 'mature'); }}
+            activeOpacity={0.7}
+          >
+            <Ionicons name="warning-outline" size={18} color={accent} style={{ width: 28 }} />
+            <Text style={drawerStyles.menuLabel}>{activeChip === 'mature' ? '← EXIT 18+' : '18+  BEHIND CLOSED DOORS'}</Text>
           </TouchableOpacity>
 
           <View style={drawerStyles.divider} />

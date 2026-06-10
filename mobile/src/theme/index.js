@@ -1,8 +1,8 @@
 export const colors = {
-  bg: "#0c0c0f",
-  surface: "#141418",
-  card: "#18181e",
-  cardHover: "#20202a",
+  bg: "#08080b",        // deeper void — darker background
+  surface: "#101015",
+  card: "#131318",      // cards sit lower in the void
+  cardHover: "#22222e",
 
   // Primary amber — the base channel color
   amber: "#f5a623",
@@ -24,13 +24,13 @@ export const colors = {
     rare:      { bg: "#ff2d78", text: "#fff" },
   },
 
-  textPrimary: "#e4e2dc",
-  textSecondary: "#8a8a92",
-  textMuted: "#5a5a62",
-  textGhost: "#34343c",
+  textPrimary: "#f4f3ee",   // brighter, crisper foreground
+  textSecondary: "#a2a2ac",
+  textMuted: "#70707a",
+  textGhost: "#3a3a44",
 
-  border: "#26262e",
-  borderLight: "#36363e",
+  border: "#34343f",        // cleaner, more defined edges
+  borderLight: "#4a4a54",
 
   error: "#e55039",
   success: "#27ae60",

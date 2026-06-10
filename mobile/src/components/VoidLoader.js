@@ -52,6 +52,11 @@ var STATIC_CLIPS = [
 // Track which clips have been preloaded in the browser
 var preloadedClips = {};
 
+// Monotonic per-instance index for StaticVideo. Each mounted "TV" grabs the next number so we can
+// stagger their playback 10 seconds apart by mount order — a desynchronised wall where every screen
+// started at a different time, instead of one clip looping in lockstep across all of them.
+var _staticVideoSeq = 0;
+
 // Fetch the full clip list once (memoized). Replaces STATIC_CLIPS when it resolves.
 var _manifestFetched = false;
 function fetchClipManifest() {
@@ -150,12 +155,14 @@ function injectCrtKeyframes() {
 }
 
 // ── TV Static Video Component (Web only) ──────────────────
-// One shared "void stream," every instance shows a DIFFERENT moment (random start time)
-// at a DIFFERENT brightness, blinks on like a CRT, and blinks out after 20-40s.
+// One shared "void stream," every instance shows a DIFFERENT moment — staggered 10s apart by mount
+// order — at a DIFFERENT brightness, blinks on like a CRT, and blinks out after 20-40s.
 function StaticVideo({ size, label, color, style }) {
   var clipUrl = useMemo(getRandomClip, []);
   // Per-instance brightness — some dim (TV in a dark room), some bright. The "wall of TVs" look.
   var brightness = useMemo(function () { return (0.45 + Math.random() * 0.85).toFixed(2); }, []);
+  // Per-instance index — staggers this TV's playback 10s × index (see staggerStart below).
+  var seq = useMemo(function () { return _staticVideoSeq++; }, []);
   var dims = SIZE_MAP[size] || SIZE_MAP.default;
   var [failed, setFailed] = useState(false);
   var [blinkedOut, setBlinkedOut] = useState(false);
@@ -170,21 +177,20 @@ function StaticVideo({ size, label, color, style }) {
     var onError = function () { setFailed(true); };
     video.addEventListener('error', onError);
 
-    // Channel-surf: the stream is FAST-START now, so seek each TV to a DIFFERENT ~7s scene. The
-    // wall then shows a bunch of different "shows" at once instead of every screen in lockstep,
-    // and they stay out of phase across loops because each started at its own offset. (You built
-    // it as 6–8s clips, so a random ~7s boundary lands on a fresh scene.)
-    function seekToScene() {
+    // Stagger each TV's playback by 10s × its mount index, so the wall is DESYNCHRONISED — every
+    // screen starts at a different time, 10 seconds apart — instead of looping in lockstep. The
+    // stream is fast-start so seeking is instant; the ~116s clip gives ~11 distinct phases before
+    // the offset wraps. (Replaces the old random ~7s scene seek, which could cluster TVs together.)
+    function staggerStart() {
       try {
         var d = video.duration;
-        if (d && isFinite(d) && d > 8) {
-          var scenes = Math.max(1, Math.floor(d / 7));
-          video.currentTime = Math.min(Math.floor(Math.random() * scenes) * 7, d - 1);
+        if (d && isFinite(d) && d > 1) {
+          video.currentTime = (seq * 10) % d;
         }
       } catch (e) {}
     }
-    if (video.readyState >= 1) seekToScene();
-    else video.addEventListener('loadedmetadata', seekToScene, { once: true });
+    if (video.readyState >= 1) staggerStart();
+    else video.addEventListener('loadedmetadata', staggerStart, { once: true });
 
     // Blink out after a random 20-40s, then settle to the quiet VOID pulse (so a long
     // load never shows a video forever, and the field keeps flickering).
