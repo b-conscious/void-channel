@@ -1,5 +1,5 @@
 import React, { Suspense, useState } from 'react';
-import { NavigationContainer, useNavigationContainerRef } from '@react-navigation/native';
+import { NavigationContainer, useNavigationContainerRef, getPathFromState as defaultGetPathFromState } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { StyleSheet, Platform, View, Text, ActivityIndicator, Dimensions } from 'react-native';
@@ -225,6 +225,14 @@ export default function Navigation() {
         Playlist:  'playlist/:playlistId',
         Admin:     'admin',
       },
+    },
+    // The Player carries the full item object (and queue, etc.) as STATE-only params for instant
+    // render — never serialize them into the URL. Default behavior turned them into
+    // `?item=[object Object]`, which made reload/share of a /watch link redirect home. Keep watch
+    // URLs clean (/watch/:id) so they reload + share correctly (PlayerScreen falls back to the id).
+    getPathFromState(state, options) {
+      var path = defaultGetPathFromState(state, options);
+      return typeof path === 'string' ? path.replace(/(watch\/[^/?#]+)\?[^#]*/, '$1') : path;
     },
   } : undefined;
 

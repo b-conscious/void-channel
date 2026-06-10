@@ -791,19 +791,28 @@ export default function HomeScreen({ navigation }) {
           />
         )}
 
-        {/* Genre content — shows when a filter chip (not "all") is active */}
-        {visibleTypeCats.map((cat) => (
-          <CategoryRow
-            key={cat.id}
-            category={cat}
-            onItemPress={handleItemPress}
-            page={catPages[cat.id] || 1}
-            loadingMore={!!catLoading[cat.id]}
-            onPageChange={handlePageChange}
-            subscribed={subscribedIds.has(cat.id)}
-            onSubscribe={handleSubscribe}
-            onSeeMore={handleSeeMore}
-          />
+        {/* The wall — every category as a side-scrolling row, with void-stream TVs scattered
+            through it (each channel-surfed to a different scene): the "wall of screens" you surf
+            past on the way down. Web only (static-video mode); ~1-in-6 rows, hash-scattered. */}
+        {visibleTypeCats.map((cat, idx) => (
+          <React.Fragment key={cat.id}>
+            <CategoryRow
+              category={cat}
+              onItemPress={handleItemPress}
+              page={catPages[cat.id] || 1}
+              loadingMore={!!catLoading[cat.id]}
+              onPageChange={handlePageChange}
+              subscribed={subscribedIds.has(cat.id)}
+              onSubscribe={handleSubscribe}
+              onSeeMore={handleSeeMore}
+            />
+            {Platform.OS === 'web' && idx < visibleTypeCats.length - 1
+              && ((((idx + 1) * 2654435761) >>> 0) % 6 === 0) && (
+              <View style={{ marginHorizontal: spacing.screenPadding, marginBottom: 16 }}>
+                <VoidLoader mode="static" size="row" style={{ width: '100%', height: 150, borderRadius: 8 }} />
+              </View>
+            )}
+          </React.Fragment>
         ))}
 
         {/* Donate CTA — visible between content and footer */}
