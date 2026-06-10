@@ -46,7 +46,7 @@ the loaders, the audio intro, and the Now Playing channels.
 
 ---
 
-## 4. The 3 queued features (user said "yes" to all)
+## 4. Queued features (user said "yes")
 1. ✅ **Audio intro** — `mobile/src/components/VoidIntro.js`, mounted in `App.js` after `<Navigation/>`.
    Once-per-session full-screen "▶ TAP TO ENTER THE VOID"; first tap unmutes the stream (audio gesture)
    and fades into the app. **DONE & deployed.** (Toggle to first-visit-only via localStorage if it feels heavy.)
@@ -60,6 +60,18 @@ the loaders, the audio intro, and the Now Playing channels.
    Soft "become a founding member" nudge after trial (not a wall). Perks: bigger Archivist allowance + Hall of Fame +
    flair. **Hard part = donation→`supporter_until` attribution** (Square webhook + a reference carrying the user id,
    or a redeem-code flow). Run the final donation-vs-fee shape past the church's accountant.
+4. ⬜ **Rating / quality-weighting system** — explicit ratings to weight videos *correctly* (today we only have
+   passive views + binary hearts). Theme it as **"SIGNAL STRENGTH" (1–5 bars)** to fit the analog/void aesthetic.
+   - **Backend:** `ratings(user_id, item_id, value SMALLINT 1-5, created_at)` table (one row per user/item, upsert).
+     Aggregate avg + count per item. Endpoints: `POST /api/ratings/:id` (set/update), `GET /api/ratings/:id` (avg+count+mine).
+   - **Weight it correctly (the key):** use a **Bayesian average** = `(C*m + sum) / (C + count)` where `m` = global
+     mean rating, `C` ≈ 10 (confidence). Stops a single 5★ from outranking a well-reviewed 4★. This is THE thing
+     that makes weighting honest.
+   - **Composite rank score:** blend the Bayesian rating (quality) + views (popularity) + hearts (love) + recency →
+     one score that powers a **"Top Rated"** row, recommendations, search ranking, and demoting junk. This is the
+     "better system" foundation — once ratings exist, recs/ranking get dramatically better.
+   - **Frontend:** a signal-bars rate control on `PlayerScreen`; show the score on cards (`MediaCard`) + player.
+     +XP for rating (ties into `GameContext`).
 
 ---
 
