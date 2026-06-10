@@ -333,6 +333,12 @@ unregister SW) before testing — the sticky service worker masked nearly everyt
    check mobile perf; **virtualize the vertical list (`FlatList`)** if sluggish.
 7. **Audio-on-show / mute-on-hover** (§11.5) — still needs the exact-scope decision.
 8. Verify the desktop player end-to-end on a fresh build (big video left, related right, plays).
+9. **Gen Z Signal — gate the old-old content (Bryan):** when `generationId === 'genz'`, the Signal feed's
+   TOP cards must NOT surface very-old content — a Gen Z shouldn't open Signal to 1930s–50s reels. Gate
+   hard by year (e.g. drop year < ~1980, or weight strongly toward recent) in `SignalScreen` (it reads
+   GenerationContext). Confirm the exact threshold + which rows count as "top cards" with Bryan. (Boomer
+   = opposite lean; Millennial = nostalgic middle. This is the generational content treatment applied to
+   Signal, not just copy.)
 
 **Still spec'd, not built:** void-sea polish (§12), Archivist-as-the-only-algorithm (§13), "Before They
 Vanish Into The Void" — branded/newish full-length (§14).
