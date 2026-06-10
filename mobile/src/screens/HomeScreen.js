@@ -101,9 +101,14 @@ function shuffled(arr) {
 
 // Client-side variety: reshuffle category order + items within each category.
 // Free, instant, and zero load on Archive.org — replaces the slow live "shuffle" fetch.
+// EXCEPTION: recognizable rows are era-ordered by the backend generational lean ("starts older →
+// works up" / "recent → back", with variety already woven in), so we must NOT shuffle their items —
+// that would scramble the ordering. Only non-leaned rows get item-shuffled for per-visit variety.
 function reshuffleCats(cats) {
   if (!Array.isArray(cats) || cats.length === 0) return cats;
-  return shuffled(cats.map((c) => ({ ...c, items: shuffled(c.items) })));
+  return shuffled(cats.map((c) => (
+    c && c.recognizable ? { ...c } : { ...c, items: shuffled(c.items) }
+  )));
 }
 
 // Guard: only swap in a fresh payload if it actually has substantial content.
@@ -207,7 +212,7 @@ export default function HomeScreen({ navigation }) {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
     setCatLoading((prev) => ({ ...prev, [categoryId]: true }));
     try {
-      const result = await api.getCategoryItems(categoryId, newPage, 20);
+      const result = await api.getCategoryItems(categoryId, newPage, 20, generationId);
       const items = result?.items || [];
       if (items.length === 0 && newPage > 1) {
         // No more pages — stay on current page
@@ -226,7 +231,7 @@ export default function HomeScreen({ navigation }) {
     } finally {
       setCatLoading((prev) => ({ ...prev, [categoryId]: false }));
     }
-  }, [catLoading]);
+  }, [catLoading, generationId]);
 
   // Reset per-category pages when generation changes so user sees the new ordering
   useEffect(() => { setCatPages({}); }, [generationId]);
@@ -246,11 +251,14 @@ export default function HomeScreen({ navigation }) {
   const loadCategories = useCallback(async (mode = "open") => {
     // mode: "open" → show cache first (reshuffled for variety), refresh if stale
     //       "repopulate" → pull genuinely fresh content via the fast blended path
+    // The active generation drives the backend era-lean; it's threaded into every fetch + the
+    // client cache is scoped per-gen, so switching generation re-runs this with the right lean.
     const forceFresh = mode === "repopulate";
+    const g = generationId;
     try {
       if (!forceFresh) {
         // Show cache instantly, reshuffled client-side for per-visit variety (zero Archive load)
-        const cached = await store.getCachedCategories();
+        const cached = await store.getCachedCategories(g);
         if (cached) {
           const varied = reshuffleCats(cached);
           setAllCategories(varied);
@@ -260,13 +268,13 @@ export default function HomeScreen({ navigation }) {
           // FAST cached endpoint (the backend self-warms it). NOT refresh=true: that forces a
           // slow ~47-collection fetch that can exceed Cloudflare's 100s timeout → 524 → "CORS"
           // error. The cached endpoint is instant and always has CORS headers.
-          const ts = await store.getCategoriesTimestamp?.() || 0;
+          const ts = await store.getCategoriesTimestamp?.(g) || 0;
           if (Date.now() - ts > 10 * 60 * 1000) {
-            api.getCategories().then((fresh) => {
+            api.getCategories({ gen: g }).then((fresh) => {
               if (hasRealContent(fresh)) {
                 const v = reshuffleCats(fresh);
                 setAllCategories(v);
-                store.setCachedCategories(fresh);
+                store.setCachedCategories(fresh, g);
               }
             }).catch(() => {});
           }
@@ -277,23 +285,23 @@ export default function HomeScreen({ navigation }) {
         // CRITICAL: paint from the pre-warmed server cache (blended, ~instant). Do NOT block
         // on the live shuffle path — it fires ~47 uncached Archive.org requests (80–200s) and
         // returns empty when throttled. Variety comes from the client-side reshuffle instead.
-        const fast = await api.getCategories({ shuffle: false });
+        const fast = await api.getCategories({ shuffle: false, gen: g });
         const varied = reshuffleCats(fast);
         setAllCategories(varied);
         setServerSleeping(false);
         setLoading(false);
-        store.setCachedCategories(fast);
+        store.setCachedCategories(fast, g);
         pickHero(varied);
         return;
       }
       // Repopulate — pull from the FAST cached endpoint (reliable, instant, has CORS).
       // Never refresh=true (slow, can 524/CORS-fail). Variety comes from the client reshuffle.
-      const data = await api.getCategories();
+      const data = await api.getCategories({ gen: g });
       if (hasRealContent(data)) {
         const varied = reshuffleCats(data);
         setAllCategories(varied);
         setServerSleeping(false);
-        store.setCachedCategories(data);
+        store.setCachedCategories(data, g);
         pickHero(varied);
       } else if (allCategoriesRef.current.length) {
         // Throttled/empty — keep what we have, just reshuffle for a fresh feel
@@ -310,7 +318,7 @@ export default function HomeScreen({ navigation }) {
       setLoading(false);
       setRefreshing(false);
     }
-  }, []);
+  }, [generationId]);
 
   // Keep the ref in sync so callbacks can read current categories without re-creating
   useEffect(() => { allCategoriesRef.current = allCategories; }, [allCategories]);
@@ -986,7 +994,86 @@ function rotateArray(arr, n) {
 }
 
 function ShortsRow({ items, accent, onItemPress }) {
+  // Horizontal scroll refs/state — mirror CategoryRow so Void Snacks gets the SAME left/right
+  // overlay arrows as the genre rows it's interleaved with (desktop). Mobile keeps swipe-only.
+  // Hooks must run before the empty-items early return below (rules of hooks).
+  var scrollRef = useRef(null);
+  var offsetRef = useRef(0);
+  var contentWRef = useRef(0);
+  var containerWRef = useRef(SCREEN_W);
+  var [canLeft, setCanLeft] = useState(false);
+  var [canRight, setCanRight] = useState(false);
+  var [hovered, setHovered] = useState(false);
+
+  var onScroll = useCallback(function (e) {
+    var ox = e.nativeEvent.contentOffset.x;
+    var cw = e.nativeEvent.contentSize.width;
+    var vw = e.nativeEvent.layoutMeasurement.width;
+    offsetRef.current = ox; contentWRef.current = cw; containerWRef.current = vw;
+    var nl = ox > 10, nr = cw > vw + ox + 10;
+    setCanLeft(function (p) { return p !== nl ? nl : p; });
+    setCanRight(function (p) { return p !== nr ? nr : p; });
+  }, []);
+  var onContentSize = useCallback(function (w) {
+    contentWRef.current = w;
+    if (containerWRef.current > 0) setCanRight(w > containerWRef.current + 10);
+  }, []);
+  var onRowLayout = useCallback(function (e) {
+    var vw = e.nativeEvent.layout.width; containerWRef.current = vw;
+    if (contentWRef.current > 0) setCanRight(contentWRef.current > vw + 10);
+  }, []);
+  var scrollBy = useCallback(function (dir) {
+    var step = SHORTS_CARD_W * 2 + SHORTS_GAP * 2; // ~2 cards, like CategoryRow
+    var next = dir === 'left' ? Math.max(0, offsetRef.current - step) : offsetRef.current + step;
+    scrollRef.current && scrollRef.current.scrollTo && scrollRef.current.scrollTo({ x: next, animated: true });
+  }, []);
+
   if (!items || items.length === 0) return null;
+
+  var arrowStyle = { opacity: hovered ? 1 : 0.7, ...(Platform.OS === 'web' ? { transition: 'opacity 0.2s ease' } : {}) };
+
+  var scroller = (
+    <ScrollView
+      ref={scrollRef}
+      horizontal
+      showsHorizontalScrollIndicator={false}
+      contentContainerStyle={styles.shortsRow}
+      onScroll={onScroll}
+      scrollEventThrottle={16}
+      onContentSizeChange={onContentSize}
+      onLayout={onRowLayout}
+    >
+      {items.slice(0, IS_DESKTOP ? 20 : 16).map(function (item) {
+        var creator = Array.isArray(item.creator) ? item.creator[0] : item.creator;
+        var dl = item.downloads ? (item.downloads >= 1000 ? Math.round(item.downloads / 1000) + 'K' : item.downloads) : '';
+        return (
+          <TouchableOpacity
+            key={item.id}
+            onPress={function () { onItemPress(item, null); }}
+            style={styles.shortsCard}
+            activeOpacity={0.8}
+          >
+            <FastImage
+              uri={item.thumbnail}
+              itemId={item.id}
+              style={styles.shortsThumb}
+              contentFit="cover"
+            />
+            {/* Bottom gradient */}
+            <LinearGradient
+              colors={['transparent', 'rgba(0,0,0,0.7)', 'rgba(0,0,0,0.92)']}
+              locations={[0.4, 0.75, 1]}
+              style={[StyleSheet.absoluteFill, { borderRadius: 12, pointerEvents: 'none' }]}
+            />
+            <View style={styles.shortsCardContent}>
+              <Text style={styles.shortsCardTitle} numberOfLines={2}>{item.title || 'Untitled'}</Text>
+              {dl ? <Text style={styles.shortsCardMeta}>{dl} views</Text> : null}
+            </View>
+          </TouchableOpacity>
+        );
+      })}
+    </ScrollView>
+  );
 
   return (
     <View style={styles.shortsBlock}>
@@ -999,41 +1086,27 @@ function ShortsRow({ items, accent, onItemPress }) {
         </View>
         <Text style={styles.shortsSubtitle}>quick bites under 2 minutes</Text>
       </View>
-      <ScrollView
-        horizontal
-        showsHorizontalScrollIndicator={false}
-        contentContainerStyle={styles.shortsRow}
-      >
-        {items.slice(0, IS_DESKTOP ? 20 : 16).map(function (item) {
-          var creator = Array.isArray(item.creator) ? item.creator[0] : item.creator;
-          var dl = item.downloads ? (item.downloads >= 1000 ? Math.round(item.downloads / 1000) + 'K' : item.downloads) : '';
-          return (
-            <TouchableOpacity
-              key={item.id}
-              onPress={function () { onItemPress(item, null); }}
-              style={styles.shortsCard}
-              activeOpacity={0.8}
-            >
-              <FastImage
-                uri={item.thumbnail}
-                itemId={item.id}
-                style={styles.shortsThumb}
-                contentFit="cover"
-              />
-              {/* Bottom gradient */}
-              <LinearGradient
-                colors={['transparent', 'rgba(0,0,0,0.7)', 'rgba(0,0,0,0.92)']}
-                locations={[0.4, 0.75, 1]}
-                style={[StyleSheet.absoluteFill, { borderRadius: 12, pointerEvents: 'none' }]}
-              />
-              <View style={styles.shortsCardContent}>
-                <Text style={styles.shortsCardTitle} numberOfLines={2}>{item.title || 'Untitled'}</Text>
-                {dl ? <Text style={styles.shortsCardMeta}>{dl} views</Text> : null}
-              </View>
+      {IS_DESKTOP ? (
+        <Pressable
+          onHoverIn={function () { setHovered(true); }}
+          onHoverOut={function () { setHovered(false); }}
+          style={styles.shortsRowWrap}
+        >
+          {/* Left arrow — same look as the genre rows; dims at the scroll start */}
+          <View style={[styles.shortsArrowOverlay, styles.shortsArrowLeft, arrowStyle, !canLeft && { opacity: 0.25, pointerEvents: 'none' }]}>
+            <TouchableOpacity onPress={function () { scrollBy('left'); }} style={styles.shortsArrowBtn} activeOpacity={0.8}>
+              <Ionicons name="chevron-back" size={24} color="#fff" />
             </TouchableOpacity>
-          );
-        })}
-      </ScrollView>
+          </View>
+          {scroller}
+          {/* Right arrow — dims at the scroll end */}
+          <View style={[styles.shortsArrowOverlay, styles.shortsArrowRight, arrowStyle, !canRight && { opacity: 0.25, pointerEvents: 'none' }]}>
+            <TouchableOpacity onPress={function () { scrollBy('right'); }} style={styles.shortsArrowBtn} activeOpacity={0.8}>
+              <Ionicons name="chevron-forward" size={24} color="#fff" />
+            </TouchableOpacity>
+          </View>
+        </Pressable>
+      ) : scroller}
     </View>
   );
 }
@@ -1744,6 +1817,30 @@ const styles = StyleSheet.create({
   },
   shortsCardMeta: {
     fontFamily: fonts.sans, fontSize: 12, color: 'rgba(255,255,255,0.65)',
+  },
+  // Void Snacks horizontal-scroll arrows — same Amazon-style overlay as CategoryRow (desktop)
+  shortsRowWrap: { position: 'relative' },
+  shortsArrowOverlay: {
+    position: 'absolute', top: 0, bottom: 0, width: 44, zIndex: 10,
+    justifyContent: 'center', alignItems: 'center',
+  },
+  shortsArrowLeft: {
+    left: 0,
+    ...(Platform.OS === 'web'
+      ? { backgroundImage: 'linear-gradient(to right, rgba(12,12,15,0.85), transparent)' }
+      : { backgroundColor: 'rgba(12,12,15,0.6)' }),
+  },
+  shortsArrowRight: {
+    right: 0,
+    ...(Platform.OS === 'web'
+      ? { backgroundImage: 'linear-gradient(to left, rgba(12,12,15,0.85), transparent)' }
+      : { backgroundColor: 'rgba(12,12,15,0.6)' }),
+  },
+  shortsArrowBtn: {
+    width: 36, height: 36, borderRadius: 18,
+    backgroundColor: 'rgba(255,255,255,0.12)',
+    justifyContent: 'center', alignItems: 'center',
+    borderWidth: 1, borderColor: 'rgba(255,255,255,0.15)',
   },
 
   divider: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: spacing.screenPadding, marginVertical: 20, gap: 10 },

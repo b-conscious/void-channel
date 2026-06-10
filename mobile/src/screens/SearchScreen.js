@@ -15,6 +15,12 @@ import { colors, fonts, spacing, cardSize, radius } from '../theme';
 
 const IS_DESKTOP = Platform.OS === 'web' && Dimensions.get('window').width > 900;
 
+// Page size — the backend caps a single search at 50 (was requesting 30). "Load more" appends the
+// next page on top, so the visible count grows past 50 instead of being stuck at one page.
+const SEARCH_ROWS = 50;
+// "Re-roll" cycles the sort so the SAME query returns a genuinely different result set each tap.
+const REROLL_SORTS = ['downloads desc', 'downloads asc', 'addeddate desc', 'year desc', 'year asc', 'avg_rating desc', 'week desc'];
+
 // Filter chips map to backend category IDs (or null for everything).
 // Labels are per-generation; everything else is shared.
 const FILTERS = [
@@ -64,10 +70,12 @@ export default function SearchScreen({ navigation, route }) {
   const [searched, setSearched] = useState(false);
   const [searchPage, setSearchPage] = useState(1);
   const [loadingMore, setLoadingMore] = useState(false);
+  const [hasMore, setHasMore] = useState(false);       // last page returned a full batch → more to load
   const [activeDuration, setActiveDuration] = useState(0); // index into DURATION_FILTERS
   // Hint re-rolls when generation changes
   const hint = useMemo(() => pickRandom(gen.searchHints), [gen.id]);
   const debounceRef = useRef(null);
+  const sortRef = useRef(null);                          // current re-roll sort (null = default ranking)
 
   // ── "See More" — incoming category from HomeScreen ──
   const [seeMoreCategory, setSeeMoreCategory] = useState(null);
@@ -120,8 +128,9 @@ export default function SearchScreen({ navigation, route }) {
       setQuery('');
       setLoading(true);
       setSearched(true);
-      api.searchCollection(collectionId, '', { page: 1, rows: 30 })
-        .then(data => { setResults(data.items || []); setSearchPage(1); })
+      sortRef.current = null;
+      api.searchCollection(collectionId, '', { page: 1, rows: SEARCH_ROWS })
+        .then(data => { const it = data.items || []; setResults(it); setSearchPage(1); setHasMore(it.length >= SEARCH_ROWS); })
         .catch(err => { console.warn('[search:collection]', err); setResults([]); })
         .finally(() => setLoading(false));
       return;
@@ -136,8 +145,9 @@ export default function SearchScreen({ navigation, route }) {
       setQuery('');
       setLoading(true);
       setSearched(true);
-      api.searchCreator(creatorName, { page: 1, rows: 30 })
-        .then(data => { setResults(data.items || []); setSearchPage(1); })
+      sortRef.current = null;
+      api.searchCreator(creatorName, { page: 1, rows: SEARCH_ROWS })
+        .then(data => { const it = data.items || []; setResults(it); setSearchPage(1); setHasMore(it.length >= SEARCH_ROWS); })
         .catch(err => { console.warn('[search:creator]', err); setResults([]); })
         .finally(() => setLoading(false));
       return;
@@ -160,10 +170,13 @@ export default function SearchScreen({ navigation, route }) {
     // Direct API call — avoids timing issues with state/memo updates
     setLoading(true);
     setSearched(true);
-    api.searchItems('', { page: 1, rows: 30, category: categoryId })
+    sortRef.current = null;
+    api.searchItems('', { page: 1, rows: SEARCH_ROWS, category: categoryId })
       .then(data => {
-        setResults(data.items || []);
+        const it = data.items || [];
+        setResults(it);
         setSearchPage(1);
+        setHasMore(it.length >= SEARCH_ROWS);
       })
       .catch(err => {
         console.warn('[search:seeMore]', err);
@@ -172,12 +185,25 @@ export default function SearchScreen({ navigation, route }) {
       .finally(() => setLoading(false));
   }, [route?.params?._ts]); // _ts changes on each "See More" or collection/creator tap
 
+  // Apply a page of results: REPLACE on page 1, APPEND (deduped by id) on later pages — so "load
+  // more" accumulates instead of swapping. hasMore = the last page came back full (likely more).
+  const applyResults = useCallback((items, page) => {
+    setResults((prev) => {
+      if (page <= 1) return items;
+      const seen = new Set(prev.map((i) => i.id));
+      return prev.concat(items.filter((i) => i && !seen.has(i.id)));
+    });
+    setSearchPage(page);
+    setHasMore(items.length >= SEARCH_ROWS);
+  }, []);
+
   const doSearch = useCallback(async (q, filterIdx, page = 1, durIdx) => {
     const idx = filterIdx ?? activeFilter;
     const dIdx = durIdx ?? activeDuration;
     const filter = filtersRef.current[idx] || filtersRef.current[0];
     const dur = DURATION_FILTERS[dIdx];
     const hasQ = q && q.trim().length >= 2;
+    const sort = sortRef.current || undefined;   // re-roll sort (null on a fresh search)
 
     // If browsing a collection or creator, search within it
     if (browseCollection) {
@@ -185,9 +211,8 @@ export default function SearchScreen({ navigation, route }) {
       else setLoadingMore(true);
       setSearched(true);
       try {
-        const data = await api.searchCollection(browseCollection.id, hasQ ? q.trim() : '', { page, rows: 30 });
-        setResults(data.items || []);
-        setSearchPage(page);
+        const data = await api.searchCollection(browseCollection.id, hasQ ? q.trim() : '', { page, rows: SEARCH_ROWS, sort });
+        applyResults(data.items || [], page);
       } catch (err) { console.warn('[search:collection]', err); if (page === 1) setResults([]); }
       finally { setLoading(false); setLoadingMore(false); }
       return;
@@ -197,9 +222,8 @@ export default function SearchScreen({ navigation, route }) {
       else setLoadingMore(true);
       setSearched(true);
       try {
-        const data = await api.searchCreator(browseCreator, { page, rows: 30 });
-        setResults(data.items || []);
-        setSearchPage(page);
+        const data = await api.searchCreator(browseCreator, { page, rows: SEARCH_ROWS, sort });
+        applyResults(data.items || [], page);
       } catch (err) { console.warn('[search:creator]', err); if (page === 1) setResults([]); }
       finally { setLoading(false); setLoadingMore(false); }
       return;
@@ -210,6 +234,7 @@ export default function SearchScreen({ navigation, route }) {
       setResults([]);
       setSearched(false);
       setSearchPage(1);
+      setHasMore(false);
       return;
     }
 
@@ -219,14 +244,13 @@ export default function SearchScreen({ navigation, route }) {
     try {
       const data = await api.searchItems(hasQ ? q.trim() : '', {
         page,
-        rows: 30,
+        rows: SEARCH_ROWS,
         category: filter.categoryId || undefined,
         minDuration: dur.min || undefined,
         maxDuration: dur.max || undefined,
+        sort,
       });
-      const items = data.items || [];
-      setResults(items);
-      setSearchPage(page);
+      applyResults(data.items || [], page);
     } catch (err) {
       console.warn('[search]', err);
       if (page === 1) setResults([]);
@@ -234,23 +258,39 @@ export default function SearchScreen({ navigation, route }) {
       setLoading(false);
       setLoadingMore(false);
     }
-  }, [activeFilter, activeDuration, browseCollection, browseCreator]);
+  }, [activeFilter, activeDuration, browseCollection, browseCreator, applyResults]);
 
   const handleChange = useCallback((text) => {
     setQuery(text);
+    sortRef.current = null;            // a fresh query starts from the default ranking
     clearTimeout(debounceRef.current);
     debounceRef.current = setTimeout(() => doSearch(text), 420);
   }, [doSearch]);
 
   const handleFilterPress = useCallback((idx) => {
     setActiveFilter(idx);
+    sortRef.current = null;
     doSearch(query, idx, 1, activeDuration);
   }, [query, doSearch, activeDuration]);
 
   const handleDurationPress = useCallback((idx) => {
     setActiveDuration(idx);
+    sortRef.current = null;
     doSearch(query, activeFilter, 1, idx);
   }, [query, activeFilter, doSearch]);
+
+  // Load more — append the next page (the LOAD MORE button + infinite scroll both call this)
+  const handleLoadMore = useCallback(() => {
+    if (loading || loadingMore || !hasMore) return;
+    doSearch(query, activeFilter, searchPage + 1, activeDuration);
+  }, [loading, loadingMore, hasMore, query, activeFilter, searchPage, activeDuration, doSearch]);
+
+  // Re-roll — re-run the current search from page 1 with a fresh sort = a genuinely different set
+  const handleReroll = useCallback(() => {
+    const pool = REROLL_SORTS.filter((s) => s !== sortRef.current);
+    sortRef.current = pool[Math.floor(Math.random() * pool.length)];
+    doSearch(query, activeFilter, 1, activeDuration);
+  }, [query, activeFilter, activeDuration, doSearch]);
 
   const handleItemPress = useCallback((item) => {
     // If a filter is active, attribute the watch to that category for streak tracking
@@ -292,7 +332,7 @@ export default function SearchScreen({ navigation, route }) {
         )}
 
         <SearchBar
-          value={query} onChangeText={handleChange} onSubmit={() => doSearch(query)}
+          value={query} onChangeText={handleChange} onSubmit={() => { sortRef.current = null; doSearch(query); }}
           placeholder={browseCollection ? `Search in ${browseCollection.name}...` : browseCreator ? `Search by ${browseCreator}...` : hint}
           accentColor={accent}
         />
@@ -373,37 +413,40 @@ export default function SearchScreen({ navigation, route }) {
           contentContainerStyle={[styles.grid, { paddingBottom: insets.bottom + 90 }]}
           columnWrapperStyle={COLS > 1 ? styles.gridRow : undefined}
           renderItem={({ item }) => <MediaCard item={item} onPress={handleItemPress} width={CARD_W} style={{ marginRight: 0 }} />}
+          onEndReached={handleLoadMore}
+          onEndReachedThreshold={0.6}
           ListHeaderComponent={
             <Text style={styles.resultCount}>
-              {results.length} TRANSMISSION{results.length !== 1 ? 'S' : ''} FOUND · PAGE {searchPage}
+              {results.length} TRANSMISSION{results.length !== 1 ? 'S' : ''} FOUND
             </Text>
           }
           ListFooterComponent={
-            <View style={styles.paginationRow}>
-              <TouchableOpacity
-                onPress={() => doSearch(query, activeFilter, searchPage - 1)}
-                style={[styles.pageBtn, { borderColor: accent + '55' }, searchPage <= 1 && styles.pageBtnDisabled]}
-                activeOpacity={0.7}
-                disabled={searchPage <= 1 || loadingMore}
-              >
-                <Ionicons name="chevron-back" size={14} color={searchPage > 1 ? accent : colors.textGhost} />
-                <Text style={[styles.pageBtnText, { color: searchPage > 1 ? accent : colors.textGhost }]}>PREV</Text>
-              </TouchableOpacity>
-
-              {loadingMore ? (
-                <ActivityIndicator color={accent} size="small" />
-              ) : (
-                <Text style={styles.pageText}>PAGE {searchPage}</Text>
+            <View style={styles.footerRow}>
+              {hasMore && (
+                <TouchableOpacity
+                  onPress={handleLoadMore}
+                  style={[styles.footerBtn, { borderColor: accent + '55' }]}
+                  activeOpacity={0.7}
+                  disabled={loadingMore}
+                >
+                  {loadingMore ? (
+                    <ActivityIndicator color={accent} size="small" />
+                  ) : (
+                    <>
+                      <Ionicons name="add-circle-outline" size={15} color={accent} />
+                      <Text style={[styles.footerBtnText, { color: accent }]}>LOAD MORE</Text>
+                    </>
+                  )}
+                </TouchableOpacity>
               )}
-
               <TouchableOpacity
-                onPress={() => doSearch(query, activeFilter, searchPage + 1)}
-                style={[styles.pageBtn, { borderColor: accent + '55' }, results.length < 30 && styles.pageBtnDisabled]}
+                onPress={handleReroll}
+                style={[styles.footerBtn, { borderColor: accent + '55' }]}
                 activeOpacity={0.7}
-                disabled={results.length < 30 || loadingMore}
+                disabled={loading || loadingMore}
               >
-                <Text style={[styles.pageBtnText, { color: results.length >= 30 ? accent : colors.textGhost }]}>NEXT</Text>
-                <Ionicons name="chevron-forward" size={14} color={results.length >= 30 ? accent : colors.textGhost} />
+                <Ionicons name="shuffle" size={15} color={accent} />
+                <Text style={[styles.footerBtnText, { color: accent }]}>RE-ROLL</Text>
               </TouchableOpacity>
             </View>
           }
@@ -460,25 +503,24 @@ const styles = StyleSheet.create({
   grid: { paddingHorizontal: spacing.screenPadding, paddingTop: 16 },
   gridRow: { gap: cardSize.gap, marginBottom: cardSize.gap, justifyContent: 'flex-start' },
   resultCount: { fontFamily: fonts.mono, fontSize: 9, color: colors.textGhost, letterSpacing: 1, marginBottom: 14 },
-  // Pagination
-  paginationRow: {
+  // Load-more + re-roll footer
+  footerRow: {
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    gap: 16,
+    gap: 12,
     marginTop: 20,
     marginBottom: 10,
+    flexWrap: 'wrap',
   },
-  pageBtn: {
+  footerBtn: {
     flexDirection: 'row',
     alignItems: 'center',
-    paddingHorizontal: 14,
-    paddingVertical: 7,
+    paddingHorizontal: 16,
+    paddingVertical: 8,
     borderRadius: radius.full,
     borderWidth: 1,
-    gap: 4,
+    gap: 5,
   },
-  pageBtnDisabled: { opacity: 0.35 },
-  pageBtnText: { fontFamily: fonts.monoBold, fontSize: 10, letterSpacing: 1.5 },
-  pageText: { fontFamily: fonts.mono, fontSize: 10, color: colors.textMuted, letterSpacing: 1 },
+  footerBtnText: { fontFamily: fonts.monoBold, fontSize: 10, letterSpacing: 1.5 },
 });

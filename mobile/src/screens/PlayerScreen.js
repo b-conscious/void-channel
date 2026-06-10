@@ -67,8 +67,13 @@ const DATE_RE = /\s*:?\s*(?:January|February|March|April|May|June|July|August|Se
 const MAX_TITLE_LEN = 90; // hard cap so runaway Archive titles can't blow out layout
 function cleanTitle(title) {
   if (!title) return '';
-  let cleaned = title.replace(DATE_RE, '').replace(/\s*:\s*$/, '').trim();
-  cleaned = cleaned || title;
+  // Archive titles are usually strings but can come back as a multi-valued array — take the first.
+  const raw = Array.isArray(title) ? (title[0] || '') : String(title);
+  let cleaned = raw.replace(DATE_RE, '').replace(/\s*:\s*$/, '').trim();
+  cleaned = cleaned || raw;
+  // Never render a contentless title (e.g. social-mirror items literally titled "!"). Require at
+  // least one letter/number in ANY script so real non-Latin titles survive; punctuation-only drops.
+  if (!/[\p{L}\p{N}]/u.test(cleaned)) return '';
   if (cleaned.length > MAX_TITLE_LEN) cleaned = cleaned.slice(0, MAX_TITLE_LEN - 1).trimEnd() + '…';
   return cleaned;
 }

@@ -124,30 +124,35 @@ export async function clearHistory() {
 
 // ── Categories Cache ───────────────────────────────────────
 
-export async function getCachedCategories() {
+// The cache is scoped per generation — each era-lean ('boomer'/'millennial'/'genz') caches its own
+// payload, so switching generation never shows another gen's leaning from a stale client cache.
+function catKey(gen) { return `${KEYS.CATEGORIES_CACHE}:${gen || 'none'}`; }
+function tsKey(gen) { return `${KEYS.CATEGORIES_TIMESTAMP}:${gen || 'none'}`; }
+
+export async function getCachedCategories(gen = null) {
   try {
-    const ts = await AsyncStorage.getItem(KEYS.CATEGORIES_TIMESTAMP);
+    const ts = await AsyncStorage.getItem(tsKey(gen));
     if (!ts || Date.now() - parseInt(ts) > CACHE_TTL) {
       return null; // expired or missing
     }
-    const raw = await AsyncStorage.getItem(KEYS.CATEGORIES_CACHE);
+    const raw = await AsyncStorage.getItem(catKey(gen));
     return raw ? JSON.parse(raw) : null;
   } catch {
     return null;
   }
 }
 
-export async function getCategoriesTimestamp() {
+export async function getCategoriesTimestamp(gen = null) {
   try {
-    const ts = await AsyncStorage.getItem(KEYS.CATEGORIES_TIMESTAMP);
+    const ts = await AsyncStorage.getItem(tsKey(gen));
     return ts ? parseInt(ts) : 0;
   } catch { return 0; }
 }
 
-export async function setCachedCategories(data) {
+export async function setCachedCategories(data, gen = null) {
   try {
-    await AsyncStorage.setItem(KEYS.CATEGORIES_CACHE, JSON.stringify(data));
-    await AsyncStorage.setItem(KEYS.CATEGORIES_TIMESTAMP, Date.now().toString());
+    await AsyncStorage.setItem(catKey(gen), JSON.stringify(data));
+    await AsyncStorage.setItem(tsKey(gen), Date.now().toString());
   } catch (err) {
     console.warn("[cache] failed to write categories:", err);
   }

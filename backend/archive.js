@@ -727,6 +727,29 @@ for (const cat of CATEGORIES) {
   if (RECOGNIZABLE_IDS.has(cat.id)) cat.recognizable = true;
 }
 
+// ── Generational era-lean — the "signal" default ordering (Bryan) ─────────────────────────────
+// The default browse display leans to the user's content era WITHOUT walling the rest off:
+//   • boomer     → oldest-first, works up (lead ~1930–1975); FULL cross-era variety mixed in
+//   • millennial → the middle, works up to current (lead ~1980–2012); FULL cross-era variety
+//   • genz       → recent-first (lead 2005+), but variety reaches back to the '70s (floor 1970) —
+//                  '70s/'80s content is "good gen z cringe" (Bryan); still the only gen with a floor,
+//                  so it never drops to 1930s–50s reels, just down to the '70s
+// Applied ONLY to the recognizable genre/nostalgia rows (which already include The TV Set +
+// Feature Films) — the weird/deep void rows, decade rows, Silent Era, dedicated shows + mature keep
+// their authored shape. SEARCH is never touched. The lean shapes the ANCHOR (the lead of each row);
+// the deep/variety pull stays cross-era (except genz's floor). Tunable — just edit the windows.
+const GENERATION_ERAS = {
+  boomer:     { anchor: { from: 1930, to: 1975, sort: 'year asc'  }, floor: null },
+  millennial: { anchor: { from: 1980, to: 2012, sort: 'year asc'  }, floor: null },
+  genz:       { anchor: { from: 2005, to: null, sort: 'year desc' }, floor: 1970 },
+};
+// Returns the era-lean config for a (generation, category) pair, or undefined when no lean applies
+// (unknown gen, or a row that isn't a recognizable genre/nostalgia row).
+function eraFor(gen, cat) {
+  if (!gen || !cat || !cat.recognizable) return undefined;
+  return GENERATION_ERAS[gen];
+}
+
 function stripHTML(str) {
   if (!str) return "";
   if (Array.isArray(str)) str = str[0] || "";
@@ -901,11 +924,22 @@ async function searchBlended(query, rows = 20, opts = {}) {
   const anchorPageMax = opts.anchorPageMax ?? 5;     // how deep the anchor pages roam
   const deepPageMax   = opts.deepPageMax   ?? 30;    // how deep the "obscure" pull roams
   const deepSorts     = opts.deepFromAnchor ? ANCHOR_SORTS : DEEP_SORTS;
+  const era           = opts.era;                    // generational era-lean (optional, see GENERATION_ERAS)
 
   const anchorCount = Math.max(3, Math.ceil(rows * anchorRatio));
   const deepCount = rows - anchorCount;
 
-  const anchorSort = pickRandom(ANCHOR_SORTS);
+  // Archive year range; open-ended bounds use '*'. Short clause — safe for the §budget gotcha.
+  const yearClause = (from, to) =>
+    (from == null && to == null) ? '' : ` AND year:[${from == null ? '*' : from} TO ${to == null ? '*' : to}]`;
+
+  // The era lean shapes the ANCHOR (the lead of the row) by a year window + sort direction. The
+  // deep/variety pull stays cross-era — EXCEPT a generation with a `floor` (genz) bounds its variety
+  // too, so even the mixed-in items stay mid-to-current.
+  const anchorQuery = era && era.anchor ? query + yearClause(era.anchor.from, era.anchor.to) : query;
+  const deepQuery   = era && era.floor != null ? query + yearClause(era.floor, null) : query;
+
+  const anchorSort = era && era.anchor ? era.anchor.sort : pickRandom(ANCHOR_SORTS);
   const anchorPage = Math.floor(Math.random() * anchorPageMax) + 1;
 
   const deepSort = pickRandom(deepSorts);
@@ -913,26 +947,49 @@ async function searchBlended(query, rows = 20, opts = {}) {
 
   // Two parallel requests — anchor + deep (keep it lean for bulk loads)
   let [anchorItems, deepItems] = await Promise.all([
-    search(query, anchorCount + 8, anchorPage, anchorSort),
-    search(query, deepCount + 10, deepPage, deepSort),
+    search(anchorQuery, anchorCount + 8, anchorPage, anchorSort),
+    search(deepQuery, deepCount + 10, deepPage, deepSort),
   ]);
 
+  // Fallback: an era-constrained anchor can come back empty (e.g. genz + noir has ~no recent items).
+  // Retry without the era WINDOW so the row still fills — but use deepQuery (not the bare query) so a
+  // floored generation (genz) still never drops below its floor even in the fallback. The lean is
+  // best-effort; the floor is not. (boomer/millennial have no floor → deepQuery === query here.)
+  if (anchorItems.length === 0 && era && era.anchor) {
+    anchorItems = await search(deepQuery, anchorCount + 8, 1, pickRandom(ANCHOR_SORTS));
+  }
   // Fallback: if deep page was past end of results, retry with low page
   if (deepItems.length === 0) {
-    deepItems = await search(query, deepCount + 10, 1, pickRandom(deepSorts));
+    deepItems = await search(deepQuery, deepCount + 10, 1, pickRandom(deepSorts));
   }
   // Fallback: if anchor page was too deep for a small collection
   if (anchorItems.length === 0 && anchorPage > 1) {
-    anchorItems = await search(query, anchorCount + 8, 1, anchorSort);
+    anchorItems = await search(anchorQuery, anchorCount + 8, 1, anchorSort);
   }
 
-  // Anchor items stay in order (most recognizable first)
-  // Deep items get shuffled (randomize within the obscure pool)
+  // Anchor items stay in order (era-leaned: oldest-first / newest-first per generation, else
+  // most-recognizable first). Deep items get shuffled (randomize within the variety pool).
   const anchor = anchorItems.slice(0, anchorCount);
   const deep = shuffleArray(deepItems).slice(0, deepCount);
 
-  // Combine: mainstream → obscure gradient within the row
-  return dedupeItems([...anchor, ...deep]).slice(0, rows);
+  let combined;
+  if (era && deep.length) {
+    // Era lean: WEAVE the variety through the year-ordered backbone ("works up, with variety thrown
+    // in") rather than appending it — otherwise a downstream diversify+trim crops the variety off the
+    // tail and the row reads as one solid year.
+    combined = [];
+    let di = 0;
+    const everyN = Math.max(2, Math.round(anchor.length / deep.length));
+    for (let i = 0; i < anchor.length; i++) {
+      combined.push(anchor[i]);
+      if ((i + 1) % everyN === 0 && di < deep.length) combined.push(deep[di++]);
+    }
+    while (di < deep.length) combined.push(deep[di++]); // any leftover variety
+  } else {
+    // Default: era/mainstream lead → variety trailing (the established mainstream→obscure gradient).
+    combined = [...anchor, ...deep];
+  }
+  return dedupeItems(combined).slice(0, rows);
 }
 
 // Variety search: fully random sort + page, shuffled. Used for "repopulate" and rabbit hole.
@@ -1076,7 +1133,7 @@ function pickBestVideo(files) {
   return fast;
 }
 
-async function getCategoryItems(categoryId, rows = 25, page = 1, shuffle = false) {
+async function getCategoryItems(categoryId, rows = 25, page = 1, shuffle = false, gen = null) {
   const cat = CATEGORIES.find((c) => c.id === categoryId);
   if (!cat) return { error: "Category not found" };
   let query = cat.mature ? cat.query : cat.query + NSFW_EXCLUDE;
@@ -1086,7 +1143,11 @@ async function getCategoryItems(categoryId, rows = 25, page = 1, shuffle = false
   // When a category opts into the variety treatment, over-fetch so capping per series doesn't
   // leave the row short, then diversify + trim back to `rows`.
   const fetchRows = cat.diversify ? rows * 2 : rows;
-  const blendOpts = cat.recognizable ? RECOGNIZABLE_BLEND : undefined;
+  // Merge the recognizable blend (if any) with the generational era-lean (if any) into one opts bag.
+  const era = eraFor(gen, cat);
+  const blendOpts = (cat.recognizable || era)
+    ? { ...(cat.recognizable ? RECOGNIZABLE_BLEND : {}), ...(era ? { era } : {}) }
+    : undefined;
 
   let items;
   if (shuffle) {
@@ -1105,7 +1166,7 @@ async function getCategoryItems(categoryId, rows = 25, page = 1, shuffle = false
   return { ...cat, items };
 }
 
-async function getAllCategories(rowsPerCategory = 20, shuffle = false) {
+async function getAllCategories(rowsPerCategory = 20, shuffle = false, gen = null) {
   // Batch in groups of 6 — smaller rows (15 items) and 100px thumbs mean each
   // request is lighter, so we can safely run more in parallel for faster load.
   const BATCH_SIZE = 6;
@@ -1118,7 +1179,11 @@ async function getAllCategories(rowsPerCategory = 20, shuffle = false) {
         let query = cat.mature ? cat.query : cat.query + NSFW_EXCLUDE;
         if (ENTERTAINMENT_IDS.has(cat.id)) query += NEWS_POLITICS_EXCLUDE;
         const fetchRows = cat.diversify ? rowsPerCategory * 2 : rowsPerCategory;
-        const blendOpts = cat.recognizable ? RECOGNIZABLE_BLEND : undefined;
+        // Recognizable blend + generational era-lean (both optional) merged into one opts bag.
+        const era = eraFor(gen, cat);
+        const blendOpts = (cat.recognizable || era)
+          ? { ...(cat.recognizable ? RECOGNIZABLE_BLEND : {}), ...(era ? { era } : {}) }
+          : undefined;
         let items;
         if (shuffle) {
           items = await searchVariety(query, fetchRows);
@@ -1138,6 +1203,16 @@ async function getAllCategories(rowsPerCategory = 20, shuffle = false) {
   }
 
   return allResults;
+}
+
+// An item whose title has NO real letters/numbers in any script — e.g. social-mirror VODs
+// (youtube-*/twitch-vod-*) literally titled "!" — is contentless junk in a "more like this"
+// rail (it renders as a bare "!" card). Drop it. Uses a Unicode-aware test so real non-Latin
+// titles (Korean, Arabic, CJK) are KEPT; only punctuation-only titles ("!", "?!", "…") fall out.
+// Scoped to the curated related rail — global search stays raw on purpose.
+function hasRealTitle(it) {
+  const t = Array.isArray(it && it.title) ? it.title[0] : (it && it.title);
+  return !!t && /[\p{L}\p{N}]/u.test(String(t));
 }
 
 /**
@@ -1180,6 +1255,9 @@ async function getRelated(identifier, limit = 15) {
       try {
         sameShow = await search(colQuery, limit, 1, 'titleSorter asc');
       } catch { sameShow = []; }
+      // Drop contentless "!" junk (social-mirror VODs) BEFORE the early return below — otherwise a
+      // mirror-collection seed returns a rail full of "!" cards without ever hitting the merge loop.
+      sameShow = sameShow.filter(hasRealTitle);
     }
 
     // If same-show filled everything we need, done — no mixing required
@@ -1215,6 +1293,7 @@ async function getRelated(identifier, limit = 15) {
     for (const it of [...sameShow, ...backfill]) {
       const b = baseId(it.id);
       if (!b || seenBases.has(b)) continue;
+      if (!hasRealTitle(it)) continue; // skip contentless "!" junk (social-mirror VODs)
       seenBases.add(b);
       merged.push(it);
     }

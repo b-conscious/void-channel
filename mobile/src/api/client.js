@@ -58,17 +58,20 @@ async function request(path, options = {}) {
  *            from a bigger pool (varied sorts + pages). Bypasses cache.
  *   refresh: if true, force a fresh fetch from Archive.org and update the cache.
  */
-export async function getCategories({ shuffle = false, refresh = false } = {}) {
+export async function getCategories({ shuffle = false, refresh = false, gen = null } = {}) {
   const params = new URLSearchParams();
   if (shuffle) params.set("shuffle", "true");
   if (refresh) params.set("refresh", "true");
+  if (gen) params.set("gen", gen);     // generational era-lean for the default browse display
   const qs = params.toString();
   // Categories fetches 47 collections from Archive.org — can take 2+ min on cold cache
   return request(`/api/categories${qs ? "?" + qs : ""}`, { _timeout: 180000 });
 }
 
-export async function getCategoryItems(categoryId, page = 1, rows = 25) {
-  return request(`/api/category/${categoryId}?page=${page}&rows=${rows}`);
+export async function getCategoryItems(categoryId, page = 1, rows = 25, gen = null) {
+  const params = new URLSearchParams({ page: String(page), rows: String(rows) });
+  if (gen) params.set("gen", gen);
+  return request(`/api/category/${categoryId}?${params.toString()}`);
 }
 
 /**
@@ -108,12 +111,13 @@ export async function archivistStatus() {
  * Either query (>=2 chars) or category is required.
  */
 export async function searchItems(query, opts = {}) {
-  const { page = 1, rows = 25, category, minDuration, maxDuration } = opts;
+  const { page = 1, rows = 25, category, minDuration, maxDuration, sort } = opts;
   const params = new URLSearchParams({ page: String(page), rows: String(rows) });
   if (query && query.length >= 2) params.set("q", query);
   if (category) params.set("category", category);
   if (minDuration) params.set("minDuration", String(minDuration));
   if (maxDuration) params.set("maxDuration", String(maxDuration));
+  if (sort) params.set("sort", sort);   // re-roll: a different sort = a different result set
   return request(`/api/search?${params.toString()}`);
 }
 
@@ -122,9 +126,10 @@ export async function searchItems(query, opts = {}) {
  * Used for "More from this show/series" on the player screen.
  */
 export async function searchCollection(collectionId, query = '', opts = {}) {
-  const { page = 1, rows = 30 } = opts;
+  const { page = 1, rows = 30, sort } = opts;
   const params = new URLSearchParams({ page: String(page), rows: String(rows), collection: collectionId });
   if (query && query.length >= 2) params.set('q', query);
+  if (sort) params.set('sort', sort);
   return request(`/api/search?${params.toString()}`);
 }
 
@@ -133,8 +138,9 @@ export async function searchCollection(collectionId, query = '', opts = {}) {
  * Used for "More by this creator" on the player screen.
  */
 export async function searchCreator(creator, opts = {}) {
-  const { page = 1, rows = 30 } = opts;
+  const { page = 1, rows = 30, sort } = opts;
   const params = new URLSearchParams({ page: String(page), rows: String(rows), creator });
+  if (sort) params.set('sort', sort);
   return request(`/api/search?${params.toString()}`);
 }
 
