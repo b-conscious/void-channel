@@ -146,6 +146,7 @@ export default function HomeScreen({ navigation }) {
   const [trending, setTrending] = useState([]);
   const [subFeed, setSubFeed] = useState([]);
   const [forYou, setForYou] = useState([]);
+  const [history, setHistory] = useState([]);   // Continue Watching — recent watch history
   const [shorts, setShorts] = useState([]);
   const [activeChip, setActiveChip] = useState('all');
   // Re-pick when generation changes so taglines/loading msgs match the active gen
@@ -373,6 +374,15 @@ export default function HomeScreen({ navigation }) {
   }
 
   useEffect(() => { loadCategories(); }, [loadCategories]);
+
+  // Continue Watching — load recent history on mount + every time we return to the wall (so a video
+  // you just stopped shows up immediately).
+  useEffect(() => {
+    const load = () => store.getHistory?.().then((h) => setHistory(Array.isArray(h) ? h.slice(0, 12) : [])).catch(() => {});
+    load();
+    const unsub = navigation.addListener?.('focus', load);
+    return unsub;
+  }, [navigation]);
 
   // ── PROGRESSIVE LOADING WATERFALL ──
   // Tier 1 (0s): Categories + hero (handled by loadCategories above)
@@ -806,6 +816,10 @@ export default function HomeScreen({ navigation }) {
                 onItemPress={handleItemPress}
               />
             )}
+            {/* Continue Watching — sits under the first Void Snacks row (smaller cards) */}
+            {idx === 0 && history.length > 0 && (
+              <ContinueRow items={history} accent={accent} onItemPress={handleItemPress} />
+            )}
             {Platform.OS === 'web' && idx < visibleTypeCats.length - 1
               && ((((idx + 1) * 2654435761) >>> 0) % 6 === 0) && (
               <View style={{ marginHorizontal: spacing.screenPadding, marginBottom: 16 }}>
@@ -974,6 +988,28 @@ function rotateArray(arr, n) {
   if (!arr || arr.length < 2) return arr || [];
   var k = ((n % arr.length) + arr.length) % arr.length;
   return arr.slice(k).concat(arr.slice(0, k));
+}
+
+// Continue Watching — recent watch history as a compact small-card row (lives under the first snacks
+// row). Tap to jump back into a video you stopped.
+function ContinueRow({ items, accent, onItemPress }) {
+  if (!items || items.length === 0) return null;
+  return (
+    <View style={styles.continueBlock}>
+      <View style={styles.continueHeader}>
+        <Ionicons name="play-circle-outline" size={15} color={accent} style={{ marginRight: 6 }} />
+        <Text style={[styles.continueTitle, { color: accent }]}>Continue Watching</Text>
+      </View>
+      <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.continueRowContent}>
+        {items.map((item) => (
+          <TouchableOpacity key={item.id} onPress={() => onItemPress(item, null)} style={styles.continueCard} activeOpacity={0.8}>
+            <FastImage uri={item.thumbnail} itemId={item.id} style={styles.continueThumb} contentFit="cover" />
+            <Text style={styles.continueCardTitle} numberOfLines={1}>{item.title || 'Untitled'}</Text>
+          </TouchableOpacity>
+        ))}
+      </ScrollView>
+    </View>
+  );
 }
 
 function ShortsRow({ items, accent, onItemPress }) {
@@ -1753,6 +1789,14 @@ const styles = StyleSheet.create({
   randomText: { fontFamily: fonts.monoBold, fontSize: 9, letterSpacing: 1.2 },
   donateBtn: { flexDirection: 'row', alignItems: 'center', backgroundColor: BRAND_BLUE, paddingHorizontal: 13, paddingVertical: 6, borderRadius: radius.full },
   donateText: { fontFamily: fonts.monoBold, fontSize: 10, letterSpacing: 1.2, color: '#08080b' },
+  // Continue Watching — compact small-card row
+  continueBlock: { marginBottom: 10, paddingTop: 4 },
+  continueHeader: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: spacing.screenPadding, marginBottom: 8 },
+  continueTitle: { fontFamily: fonts.sansSemiBold, fontSize: 15, letterSpacing: 0.3 },
+  continueRowContent: { flexDirection: 'row', paddingHorizontal: spacing.screenPadding, gap: 10 },
+  continueCard: { width: IS_DESKTOP ? 150 : 124 },
+  continueThumb: { width: IS_DESKTOP ? 150 : 124, height: IS_DESKTOP ? 84 : 70, borderRadius: 6, backgroundColor: colors.card },
+  continueCardTitle: { fontFamily: fonts.sans, fontSize: 11, color: colors.textSecondary, marginTop: 4 },
   heroContent: { ...StyleSheet.absoluteFillObject, paddingHorizontal: spacing.screenPadding, paddingBottom: 20, justifyContent: 'space-between' },
   heroTopRow: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' },
   heroEyebrow: { fontFamily: fonts.monoBold, fontSize: 8, letterSpacing: 2, marginBottom: 8 },
