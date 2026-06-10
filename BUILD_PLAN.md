@@ -37,6 +37,13 @@ This blocks: random-start seeking, fast loading, and smooth play. **Fix = re-exp
 Verify fast-start by reading top atoms — `ftyp … moov …` (good) vs `ftyp … mdat …` (bad). This unblocks
 the loaders, the audio intro, and the Now Playing channels.
 
+**⚠️ The current file is H.265/HEVC** — Chrome/Firefox often can't play HEVC at all. **MUST re-encode to H.264.**
+
+**Two-rendition plan (user's idea — adaptive quality):** export TWO H.264 MP4s, keep audio in both:
+- **`void-stream-lo.mp4`** — loaders: 480p (854×480), ~0.8–1 Mbps, **~5–8 MB**.
+- **`void-stream-hi.mp4`** — intro/hero showcase: 720p (1280×720), ~3–5 Mbps, **~20–40 MB**.
+- **WIRING TODO (not done yet):** `VoidLoader.js` → use `void-stream-lo.mp4` for loaders (drop the manifest-random for the single stream). `VoidIntro.js` → use `void-stream-hi.mp4` on desktop, `void-stream-lo.mp4` on mobile. Each 404s → graceful fallback (pulse / brand-only), so safe to wire ahead.
+
 ---
 
 ## 4. The 3 queued features (user said "yes" to all)
