@@ -188,6 +188,13 @@ export default function PlayerScreen({ route, navigation }) {
     }
   }, [navigation]);
 
+  // The top-left VOIDtv logo ENDS viewing: stop the video (so no audio keeps playing) and return
+  // straight to the main Browse wall — NOT goBack, which in a rabbit hole lands on the previous video.
+  const endViewing = useCallback(() => {
+    try { videoRef.current?.pause?.(); } catch {}
+    navigation.navigate('Main', { screen: 'Browse' });
+  }, [navigation]);
+
   // Build an optimistic video URL — Archive.org commonly has a 512Kb MPEG4 at a predictable path.
   // This lets us start playback almost instantly while the real metadata loads in the background.
   const guessVideoUrl = useCallback((id) => {
@@ -679,10 +686,10 @@ export default function PlayerScreen({ route, navigation }) {
           channelLabel={inChannel ? channelLabel || "CHANNEL" : undefined}
         />
       )}
-      {/* ALWAYS-visible exit — guarantees a way out even if the video never loads or the player's
-          own controls auto-hide. (Was gated on !videoSource, so a stalled video trapped you.) */}
-      <TouchableOpacity style={[styles.overlayBack, { top: insets.top + 8 }]} onPress={safeGoBack} hitSlop={10}>
-        <Ionicons name="chevron-back" size={26} color="#fff" />
+      {/* ALWAYS-visible VOIDtv logo — taps return to the main Browse wall AND end viewing (stop the
+          video). Persistent so a stalled/failed video can never trap you. */}
+      <TouchableOpacity style={[styles.exitLogo, { top: insets.top + 8 }]} onPress={endViewing} hitSlop={10} activeOpacity={0.8}>
+        <Text style={styles.exitLogoText}>VOID<Text style={styles.exitLogoTv}>tv</Text></Text>
       </TouchableOpacity>
     </>
   );
@@ -2273,6 +2280,20 @@ const styles = StyleSheet.create({
     justifyContent: 'center', alignItems: 'center',
     zIndex: 10,
   },
+  // Always-visible VOIDtv logo / exit (top-left). A pill so it reads over any video frame.
+  exitLogo: {
+    position: 'absolute', left: 12,
+    paddingVertical: 5, paddingHorizontal: 11,
+    borderRadius: 999,
+    backgroundColor: 'rgba(0,0,0,0.55)',
+    flexDirection: 'row', alignItems: 'center',
+    zIndex: 20,
+  },
+  exitLogoText: {
+    fontFamily: fonts.monoBold, fontSize: 16, letterSpacing: 1.5, color: '#fff',
+    textShadowColor: 'rgba(0,0,0,0.6)', textShadowOffset: { width: 0, height: 1 }, textShadowRadius: 4,
+  },
+  exitLogoTv: { color: '#5cb8ff', fontSize: 11, letterSpacing: 1 },
   overlayFs: {
     position: 'absolute', right: 12,
     width: 38, height: 38, borderRadius: 19,
