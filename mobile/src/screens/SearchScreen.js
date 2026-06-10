@@ -21,6 +21,14 @@ const SEARCH_ROWS = 50;
 // "Re-roll" cycles the sort so the SAME query returns a genuinely different result set each tap.
 const REROLL_SORTS = ['downloads desc', 'downloads asc', 'addeddate desc', 'year desc', 'year asc', 'avg_rating desc', 'week desc'];
 
+// Static assets live on the API origin (Render). The dedicated search-loading clip is served there.
+const STATIC_BASE = __DEV__
+  ? (typeof window !== 'undefined' && window.location && window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1'
+      ? 'http://' + window.location.hostname + ':3001'
+      : 'http://localhost:3001')
+  : 'https://api.voidtv.net';
+const SEARCH_LOADING_SRC = STATIC_BASE + '/static/search-loading.mp4';
+
 // Filter chips map to backend category IDs (or null for everything).
 // Labels are per-generation; everything else is shared.
 const FILTERS = [
@@ -382,12 +390,14 @@ export default function SearchScreen({ navigation, route }) {
       {loading ? (
         <View style={styles.status}>
           {Platform.OS === 'web' ? (
-            // A wall of void TVs while it scans — each plays a DIFFERENT 10s edit of the void stream
-            // (staggered by VoidLoader's mount-order rule), so you watch the edits roll past while you wait.
-            <View style={styles.scanGrid}>
-              {Array.from({ length: 4 }).map((_, i) => (
-                <VoidLoader key={i} mode="static" size="channel" style={styles.scanTv} />
-              ))}
+            // The dedicated "searching the void" TV-screen clip — big, fills the scan area.
+            <View style={styles.scanVideoWrap}>
+              <div
+                style={{ width: '100%' }}
+                dangerouslySetInnerHTML={{ __html:
+                  '<video src="' + SEARCH_LOADING_SRC + '" autoplay muted loop playsinline '
+                  + 'style="width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:12px;display:block;" />' }}
+              />
             </View>
           ) : (
             <ActivityIndicator color={accent} size="small" />
@@ -500,8 +510,7 @@ const styles = StyleSheet.create({
   durChipText: { fontFamily: fonts.mono, fontSize: 8, color: colors.textGhost, letterSpacing: 0.6 },
   status: { flex: 1, justifyContent: 'center', alignItems: 'center', gap: 8, paddingBottom: 80, paddingHorizontal: spacing.screenPadding },
   statusText: { fontFamily: fonts.mono, fontSize: 11, letterSpacing: 1.5 },
-  scanGrid: { flexDirection: 'row', flexWrap: 'wrap', gap: 10, justifyContent: 'center', marginBottom: 14, maxWidth: 700 },
-  scanTv: { width: 160, height: 96, borderRadius: 8 },
+  scanVideoWrap: { width: '100%', maxWidth: 860, marginBottom: 14, alignItems: 'center' },
   deadAir: { fontFamily: fonts.monoBold, fontSize: 14, color: colors.textGhost, letterSpacing: 2 },
   deadAirSub: { fontFamily: fonts.sans, fontSize: 13, color: colors.textGhost, fontStyle: 'italic', textAlign: 'center' },
   promptLine: { fontFamily: fonts.mono, fontSize: 10, color: colors.textMuted, letterSpacing: 1.5, textAlign: 'center' },
