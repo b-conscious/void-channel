@@ -22,7 +22,11 @@ export function SidebarProvider({ children }) {
   var collapsed = _s[0];
   var setCollapsed = _s[1];
   var toggleSidebar = useCallback(function () { setCollapsed(function (p) { return !p; }); }, []);
-  var sidebarWidth = collapsed ? COLLAPSED_W : EXPANDED_W;
+  // Content layout reserves the EXPANDED width ALWAYS — so opening/closing the sidebar never reflows
+  // the player / search bar / wall (Bryan: "have the player start where it flexes to; the search bar
+  // just needs to not be flexible"). The sidebar itself still collapses visually — DesktopSidebar
+  // self-sizes from `collapsed`, not from this value, so nothing here breaks its toggle.
+  var sidebarWidth = EXPANDED_W;
 
   return (
     <SidebarContext.Provider value={{ collapsed, sidebarWidth, toggleSidebar }}>
