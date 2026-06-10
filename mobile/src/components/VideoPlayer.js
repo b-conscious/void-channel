@@ -236,6 +236,13 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
       const el = document.querySelector('[data-vpcontainer="1"] video');
       if (el && el !== videoEl) {
         videoEl = el;
+        // Force INLINE playback on mobile web — without playsinline, iOS Safari forces
+        // every video into fullscreen. These attributes keep it playing in the page.
+        try {
+          el.setAttribute("playsinline", "true");
+          el.setAttribute("webkit-playsinline", "true");
+          el.playsInline = true;
+        } catch (e) {}
         el.addEventListener("error", onMediaError);
         clearInterval(iv);
       }

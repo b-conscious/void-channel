@@ -84,7 +84,10 @@ export default function PlayerScreen({ route, navigation }) {
   const { sidebarWidth } = useSidebar();
   const NAV_MARGIN = IS_DESKTOP ? sidebarWidth + CONTENT_GAP : 0; // nav marginLeft
   const sceneW = windowW - NAV_MARGIN;                            // actual scene width
-  const AVAILABLE_W = IS_DESKTOP ? sceneW - SIDEBAR_W - CONTENT_GAP : windowW; // video area minus sidebar and right pad
+  // Desktop: shrink the video player, give the freed space to the channel/related videos.
+  // Channel list takes ~58% of the width; the player column is the remainder (~40%).
+  const SIDE_W = IS_DESKTOP ? Math.round(sceneW * 0.58) : 0;
+  const AVAILABLE_W = IS_DESKTOP ? sceneW - SIDE_W - CONTENT_GAP : windowW; // the (now smaller) video column
   const VIDEO_H = IS_WEB
     ? Math.min(Math.round(AVAILABLE_W * 9 / 16), Math.round(SCREEN_H * 0.75))
     : Math.round(SCREEN_H * 0.42);
@@ -667,7 +670,7 @@ export default function PlayerScreen({ route, navigation }) {
 
   // Desktop sidebar — YouTube-style with filter chips
   const SidebarContent = IS_DESKTOP ? (
-    <ScrollView style={styles.sidebar} showsVerticalScrollIndicator={false} contentContainerStyle={{ paddingBottom: 20 }}>
+    <ScrollView style={[styles.sidebar, { width: SIDE_W }]} showsVerticalScrollIndicator={false} contentContainerStyle={{ paddingBottom: 20 }}>
       {/* ── Filter chips — like YouTube's "All / From DoctorRamani / ..." ── */}
       {filterChips.length > 1 && (
         <ScrollView horizontal showsHorizontalScrollIndicator={false} style={styles.sidebarChipScroll} contentContainerStyle={{ gap: 8, paddingBottom: 2 }}>
@@ -731,7 +734,8 @@ export default function PlayerScreen({ route, navigation }) {
         </>
       )}
 
-      {/* Video list — YouTube-style cards */}
+      {/* Video list — 2-column grid on desktop to fill the wide channel sidebar */}
+      <View style={IS_DESKTOP ? styles.sidebarGrid : null}>
       {sidebarItems.map((rel, idx) => (
         <Pressable
           key={rel.id}
@@ -739,7 +743,7 @@ export default function PlayerScreen({ route, navigation }) {
             Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
             navigation.replace('Player', { item: rel, id: rel.id });
           }}
-          style={styles.sidebarRelCard}
+          style={[styles.sidebarRelCard, IS_DESKTOP && styles.sidebarRelCardGrid]}
         >
           <View style={styles.sidebarThumbWrap}>
             <FastImage uri={rel.thumbnail} itemId={rel.id} style={styles.sidebarRelThumb} contentFit="cover" priority="low" />
@@ -762,6 +766,7 @@ export default function PlayerScreen({ route, navigation }) {
           </View>
         </Pressable>
       ))}
+      </View>
 
       {/* Shuffle */}
       {sidebarFilter === 'all' && sidebarItems.length > 0 && (
@@ -2499,6 +2504,8 @@ const styles = StyleSheet.create({
   sidebarRelCard: {
     flexDirection: 'row', gap: 8, marginBottom: 10, alignItems: 'flex-start',
   },
+  sidebarGrid: { flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-between' },
+  sidebarRelCardGrid: { width: '48.5%' }, // 2-up grid in the wide desktop channel sidebar
   sidebarThumbWrap: { position: 'relative' },
   sidebarRelThumb: { width: 168, height: 94, borderRadius: 8, backgroundColor: colors.card },
   sidebarUpNextBadge: {
