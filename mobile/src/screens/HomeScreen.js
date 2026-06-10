@@ -384,7 +384,7 @@ export default function HomeScreen({ navigation }) {
     if (tier3Loaded.current && !refreshing) return;
     const t = setTimeout(() => {
       tier3Loaded.current = true;
-      api.getShorts(15)
+      api.getShorts(50) // big pool — the wall drops a Void Snacks row every 3 rows, rotated for variety
         .then((data) => setShorts(Array.isArray(data) ? data : data?.items || []))
         .catch(() => setShorts([]));
       if (isAuthenticated) {
@@ -806,6 +806,15 @@ export default function HomeScreen({ navigation }) {
               onSubscribe={handleSubscribe}
               onSeeMore={handleSeeMore}
             />
+            {/* Void Snacks every 3 rows — one horizontal row of diverse short clips; scroll
+                sideways for variety. Each insertion is rotated to a different slice of the pool. */}
+            {shorts.length > 0 && ((idx + 1) % 3 === 0) && idx < visibleTypeCats.length - 1 && (
+              <ShortsRow
+                items={rotateArray(shorts, Math.floor((idx + 1) / 3) * 11)}
+                accent={accent}
+                onItemPress={handleItemPress}
+              />
+            )}
             {Platform.OS === 'web' && idx < visibleTypeCats.length - 1
               && ((((idx + 1) * 2654435761) >>> 0) % 6 === 0) && (
               <View style={{ marginHorizontal: spacing.screenPadding, marginBottom: 16 }}>
@@ -969,6 +978,13 @@ function mixCategoryItems(categories, catIds, maxItems = 100) {
 }
 
 // Void Snacks row — tall portrait cards, quick bites under 2 min
+// Rotate an array by n so each interleaved Void Snacks row leads with different clips.
+function rotateArray(arr, n) {
+  if (!arr || arr.length < 2) return arr || [];
+  var k = ((n % arr.length) + arr.length) % arr.length;
+  return arr.slice(k).concat(arr.slice(0, k));
+}
+
 function ShortsRow({ items, accent, onItemPress }) {
   if (!items || items.length === 0) return null;
 
@@ -988,7 +1004,7 @@ function ShortsRow({ items, accent, onItemPress }) {
         showsHorizontalScrollIndicator={false}
         contentContainerStyle={styles.shortsRow}
       >
-        {items.slice(0, IS_DESKTOP ? 8 : 10).map(function (item) {
+        {items.slice(0, IS_DESKTOP ? 20 : 16).map(function (item) {
           var creator = Array.isArray(item.creator) ? item.creator[0] : item.creator;
           var dl = item.downloads ? (item.downloads >= 1000 ? Math.round(item.downloads / 1000) + 'K' : item.downloads) : '';
           return (
