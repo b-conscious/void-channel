@@ -162,19 +162,9 @@ function StaticVideo({ size, label, color, style }) {
     var onError = function () { setFailed(true); };
     video.addEventListener('error', onError);
 
-    // Start at a random point so every TV is on a different frame of the same broadcast.
-    // NOTE: reliable seeking REQUIRES a fast-start mp4 (moov atom at the FRONT). On a
-    // non-faststart file the browser can't jump, so it stays near 0 ("same spot"). We retry
-    // across several events as a best effort; the real fix is re-exporting faststart.
-    var seekRandom = function () {
-      try {
-        var d = video.duration;
-        if (d && isFinite(d) && d > 2) video.currentTime = Math.random() * (d - 1);
-      } catch (e) {}
-    };
-    ['loadedmetadata', 'loadeddata', 'canplay'].forEach(function (ev) { video.addEventListener(ev, seekRandom); });
-    if (video.readyState >= 1) seekRandom();
-    var seekRetry = setTimeout(seekRandom, 1500);
+    // No seeking — the stream is already cut into 8-second scenes by you, so we just let it
+    // play through them and loop. (Seeking would jump into the middle of a scene, and a
+    // non-faststart file can't seek anyway.)
 
     // Blink out after a random 20-40s, then settle to the quiet VOID pulse (so a long
     // load never shows a video forever, and the field keeps flickering).
@@ -186,9 +176,7 @@ function StaticVideo({ size, label, color, style }) {
 
     return function () {
       clearTimeout(blinkTimer);
-      clearTimeout(seekRetry);
       video.removeEventListener('error', onError);
-      ['loadedmetadata', 'loadeddata', 'canplay'].forEach(function (ev) { video.removeEventListener(ev, seekRandom); });
     };
   }, []);
 
