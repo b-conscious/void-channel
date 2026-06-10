@@ -83,6 +83,26 @@ export async function getChannelQueue(catIds, rows = 200, page = 1) {
   return request(`/api/channel/queue?cats=${catIds.join(',')}&rows=${rows}&page=${page}`);
 }
 
+// ── The Archivist (AI rabbit-hole guide) ───────────────────
+/**
+ * Ask the Archivist. Returns { reply, items, usesLeft, limit } or, on quota,
+ * a 429 with { reply, usesLeft:0, limit }. `refused:true` for declined searches.
+ *   query: natural-language prompt
+ *   context: { currentItemId, currentItemTitle } — what the user is watching (optional)
+ */
+export async function askArchivist(query, context = {}) {
+  return request('/api/archivist', {
+    method: 'POST',
+    body: JSON.stringify({ query, context }),
+    _timeout: 60000, // model + grounded search round-trips
+  });
+}
+
+/** Remaining Archivist consults this week — doesn't spend one. */
+export async function archivistStatus() {
+  return request('/api/archivist/status');
+}
+
 /**
  * Search. Optional category filter narrows to that collection.
  * Either query (>=2 chars) or category is required.
@@ -493,7 +513,8 @@ export async function adminClearBanner() {
 }
 
 export default {
-  getCategories, getCategoryItems, getChannelQueue, searchItems, searchCollection, searchCreator,
+  getCategories, getCategoryItems, getChannelQueue, askArchivist, archivistStatus,
+  searchItems, searchCollection, searchCreator,
   getItem, getShorts, getRandomItem,
   getRelated, wakeUp, heartItem, unheartItem, getTopHearts,
   setAuthToken, register, login, loginAnonymous, refreshToken,

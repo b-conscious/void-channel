@@ -5,9 +5,11 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "node --watch server.js"
+    "dev": "node --watch server.js",
+    "test:key": "node test-archivist-key.js"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
     "@supabase/supabase-js": "^2.45.0",
     "@upstash/redis": "^1.38.0",
     "cors": "^2.8.5",

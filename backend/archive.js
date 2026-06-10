@@ -798,7 +798,11 @@ async function searchBlended(query, rows = 20) {
 async function searchVariety(query, rows = 25) {
   const allSorts = [...ANCHOR_SORTS, ...DEEP_SORTS];
   const sort = pickRandom(allSorts);
-  const page = Math.floor(Math.random() * 40) + 1; // pages 1-40 (was 1-5)
+  // Pages 1-12: Archive.org's advancedsearch slows down sharply at deep pages, and deep
+  // pages past the end of smaller collections return empty → triggers a 2nd fallback request.
+  // 1-12 (× varied sorts) keeps good rotation while staying in Archive's fast, populated range.
+  // (Was 1-40, which made the full shuffle pass take ~80s and hammered Archive.org.)
+  const page = Math.floor(Math.random() * 12) + 1;
   const items = await search(query, rows * 2, page, sort);
   // If deep page returned nothing (past end of results), fall back to page 1
   if (items.length === 0) {

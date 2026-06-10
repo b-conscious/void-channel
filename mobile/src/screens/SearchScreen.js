@@ -7,6 +7,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import SearchBar from '../components/SearchBar';
 import MediaCard from '../components/MediaCard';
+import { VoidLoader } from '../components';
 import { useGeneration } from '../context/GenerationContext';
 import { useSidebar, CONTENT_GAP } from '../context/SidebarContext';
 import api from '../api/client';
@@ -337,7 +338,11 @@ export default function SearchScreen({ navigation, route }) {
 
       {loading ? (
         <View style={styles.status}>
-          <ActivityIndicator color={accent} size="small" />
+          {Platform.OS === 'web' ? (
+            <VoidLoader mode="static" size="channel" label="scanning archive..." style={{ width: 200, height: 120, marginBottom: 12, borderRadius: 8 }} />
+          ) : (
+            <ActivityIndicator color={accent} size="small" />
+          )}
           <Text style={[styles.statusText, { color: accent }]}>SCANNING ARCHIVE...</Text>
         </View>
       ) : searched && results.length === 0 ? (

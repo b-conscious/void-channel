@@ -12,6 +12,7 @@ import * as Haptics from 'expo-haptics';
 import FastImage from '../components/FastImage';
 import CategoryRow from '../components/CategoryRow';
 import SkeletonCard from '../components/SkeletonCard';
+import { VoidLoader, TheArchivist } from '../components';
 import AvatarPickerModal from '../components/AvatarPickerModal';
 import { useGeneration } from '../context/GenerationContext';
 import { useAuth } from '../context/AuthContext';
@@ -88,6 +89,32 @@ function pickRandom(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
 }
 
+// Fisher–Yates shuffle (returns a new array)
+function shuffled(arr) {
+  const a = (arr || []).slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const t = a[i]; a[i] = a[j]; a[j] = t;
+  }
+  return a;
+}
+
+// Client-side variety: reshuffle category order + items within each category.
+// Free, instant, and zero load on Archive.org — replaces the slow live "shuffle" fetch.
+function reshuffleCats(cats) {
+  if (!Array.isArray(cats) || cats.length === 0) return cats;
+  return shuffled(cats.map((c) => ({ ...c, items: shuffled(c.items) })));
+}
+
+// Guard: only swap in a fresh payload if it actually has substantial content.
+// A throttled Archive.org response can return all 47 categories but with empty items;
+// swapping that in would blank the page (and poison the cache). Require >=50% populated.
+function hasRealContent(cats) {
+  if (!Array.isArray(cats) || cats.length === 0) return false;
+  const populated = cats.filter((c) => c && c.items && c.items.length > 0).length;
+  return populated >= Math.ceil(cats.length * 0.5);
+}
+
 export default function HomeScreen({ navigation }) {
   const insets = useSafeAreaInsets();
   const { width: windowW } = useWindowDimensions();
@@ -102,6 +129,7 @@ export default function HomeScreen({ navigation }) {
   const [menuOpen, setMenuOpen] = useState(false);
   const [avatarPickerOpen, setAvatarPickerOpen] = useState(false);
   const [allCategories, setAllCategories] = useState([]);
+  const allCategoriesRef = useRef([]); // mirrors allCategories for stable reads inside callbacks
   const [loading, setLoading] = useState(true);
   const [serverSleeping, setServerSleeping] = useState(false);
   const [waking, setWaking] = useState(false);
@@ -215,36 +243,62 @@ export default function HomeScreen({ navigation }) {
   const scrollRef = useRef(null);
 
   const loadCategories = useCallback(async (mode = "open") => {
-    // mode: "open" → fetch shuffled but show cache first if present (fast)
-    //       "repopulate" → bust cache + fetch a totally fresh shuffled batch
+    // mode: "open" → show cache first (reshuffled for variety), refresh if stale
+    //       "repopulate" → pull genuinely fresh content via the fast blended path
     const forceFresh = mode === "repopulate";
     try {
       if (!forceFresh) {
-        // Show cache instantly — only background-refresh if cache is older than 10 min
+        // Show cache instantly, reshuffled client-side for per-visit variety (zero Archive load)
         const cached = await store.getCachedCategories();
         if (cached) {
-          setAllCategories(cached);
+          const varied = reshuffleCats(cached);
+          setAllCategories(varied);
           setLoading(false);
-          pickHero(cached);
-          // Check if cache is recent enough to skip the background fetch
+          pickHero(varied);
+          // If cache is stale (>10 min), pull fresh content in the background.
+          // Use the FAST blended path (refresh), NOT the slow/fragile live shuffle, and
+          // only swap it in if it actually has content (guards against Archive throttling).
           const ts = await store.getCategoriesTimestamp?.() || 0;
-          const ageMs = Date.now() - ts;
-          if (ageMs > 10 * 60 * 1000) { // older than 10 min → refresh in background
-            api.getCategories({ shuffle: true }).then((fresh) => {
-              setAllCategories(fresh);
-              store.setCachedCategories(fresh);
-              pickHero(fresh);
+          if (Date.now() - ts > 10 * 60 * 1000) {
+            api.getCategories({ refresh: true }).then((fresh) => {
+              if (hasRealContent(fresh)) {
+                const v = reshuffleCats(fresh);
+                setAllCategories(v);
+                store.setCachedCategories(fresh);
+              }
             }).catch(() => {});
           }
           return;
         }
+
+        // ── FIRST VISIT (no client cache) ──
+        // CRITICAL: paint from the pre-warmed server cache (blended, ~instant). Do NOT block
+        // on the live shuffle path — it fires ~47 uncached Archive.org requests (80–200s) and
+        // returns empty when throttled. Variety comes from the client-side reshuffle instead.
+        const fast = await api.getCategories({ shuffle: false });
+        const varied = reshuffleCats(fast);
+        setAllCategories(varied);
+        setServerSleeping(false);
+        setLoading(false);
+        store.setCachedCategories(fast);
+        pickHero(varied);
+        return;
       }
-      // First load, or repopulate — wait for fresh data with shuffle
-      const data = await api.getCategories({ shuffle: true, refresh: forceFresh });
-      setAllCategories(data);
-      setServerSleeping(false);
-      store.setCachedCategories(data);
-      pickHero(data);
+      // Repopulate — fresh content via the FAST blended path (reliable, ~seconds),
+      // never the slow deep-page shuffle. Guard against empty/throttled responses.
+      const data = await api.getCategories({ refresh: true });
+      if (hasRealContent(data)) {
+        const varied = reshuffleCats(data);
+        setAllCategories(varied);
+        setServerSleeping(false);
+        store.setCachedCategories(data);
+        pickHero(varied);
+      } else if (allCategoriesRef.current.length) {
+        // Throttled/empty — keep what we have, just reshuffle for a fresh feel
+        const varied = reshuffleCats(allCategoriesRef.current);
+        setAllCategories(varied);
+        pickHero(varied);
+      }
     } catch (err) {
       console.error('[HomeScreen]', err);
       if (err.message?.includes('timed out') || err.message?.includes('fetch')) {
@@ -255,6 +309,9 @@ export default function HomeScreen({ navigation }) {
       setRefreshing(false);
     }
   }, []);
+
+  // Keep the ref in sync so callbacks can read current categories without re-creating
+  useEffect(() => { allCategoriesRef.current = allCategories; }, [allCategories]);
 
   const handleWakeUp = useCallback(async () => {
     try { Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium); } catch {}
@@ -272,8 +329,14 @@ export default function HomeScreen({ navigation }) {
 
   const handleRepopulate = useCallback(async () => {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
+    // Instant feedback: reshuffle what's already loaded so the page visibly refreshes now
+    if (allCategoriesRef.current.length) {
+      const varied = reshuffleCats(allCategoriesRef.current);
+      setAllCategories(varied);
+      pickHero(varied);
+    }
     setRefreshing(true);
-    await loadCategories("repopulate");
+    await loadCategories("repopulate"); // pulls genuinely fresh content via the fast path
   }, [loadCategories]);
 
   function pickHero(cats) {
@@ -697,6 +760,17 @@ export default function HomeScreen({ navigation }) {
           />
         )}
 
+        {/* TV Static loading strip — fills space while categories load */}
+        {loading && Platform.OS === 'web' && (
+          <View style={{ marginTop: 16, marginBottom: 8, paddingHorizontal: spacing.screenPadding }}>
+            <View style={{ flexDirection: 'row', gap: 10 }}>
+              <VoidLoader mode="static" size="channel" label="tuning in..." style={{ flex: 1, height: 100, borderRadius: 8 }} />
+              <VoidLoader mode="static" size="channel" style={{ flex: 1, height: 100, borderRadius: 8 }} />
+              {IS_DESKTOP && <VoidLoader mode="static" size="channel" style={{ flex: 1, height: 100, borderRadius: 8 }} />}
+            </View>
+          </View>
+        )}
+
         {/* Channels — compact text-only tiles, no thumbnails */}
         {!loading && allCategories.length > 0 && (
           <ChannelsRow
@@ -800,6 +874,9 @@ export default function HomeScreen({ navigation }) {
           <Ionicons name="chevron-up" size={16} color={colors.textMuted} />
         </TouchableOpacity>
       </Animated.View>}
+
+      {/* The Archivist — AI rabbit-hole guide (floating console) */}
+      <TheArchivist navigation={navigation} accent={accent} />
     </View>
   );
 }
@@ -809,12 +886,18 @@ function HeroCard({ item, loading, insetTop, loadingMsg, tagline, gen, accent, o
 
   if (loading && !item) {
     return (
-      <View style={{ height: totalH, backgroundColor: colors.card }}>
-        <View style={[styles.heroLoadingBlock, { paddingTop: 20 }]}>
+      <View style={{ height: totalH, backgroundColor: colors.card, overflow: 'hidden' }}>
+        {/* TV static video behind loading text — creates energy while we fetch */}
+        {Platform.OS === 'web' && (
+          <View style={[StyleSheet.absoluteFill, { opacity: 0.5 }]}>
+            <VoidLoader mode="static" size="hero" style={{ width: '100%', height: '100%', borderRadius: 0 }} />
+          </View>
+        )}
+        <View style={[styles.heroLoadingBlock, { paddingTop: 20, zIndex: 2 }]}>
           <Text style={[styles.heroLoadingMsg, { color: accent }]}>{loadingMsg}</Text>
           <Text style={styles.heroLoadingTagline}>{tagline}</Text>
         </View>
-        <LinearGradient colors={['transparent', colors.bg]} locations={[0.7, 1]} style={[StyleSheet.absoluteFill, { pointerEvents: 'none' }]} />
+        <LinearGradient colors={['transparent', colors.bg]} locations={[0.7, 1]} style={[StyleSheet.absoluteFill, { pointerEvents: 'none', zIndex: 1 }]} />
       </View>
     );
   }
@@ -1009,8 +1092,13 @@ function ChannelsRow({ categories, accent, onChannelPress, generationId, loading
               <Pressable
                 key={ch.label}
                 onPress={() => !isLoading && onChannelPress(ch.category, ch.label, ch.catIds)}
-                style={[styles.channelTile, { borderColor: accent + '30', opacity: isLoading ? 0.6 : 1 }]}
+                style={[styles.channelTile, { borderColor: isLoading ? accent + '60' : accent + '30' }]}
               >
+                {isLoading ? (
+                  <View style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, overflow: 'hidden', borderRadius: 8 }}>
+                    <VoidLoader mode="static" size="channel" style={{ width: '100%', height: '100%', borderRadius: 8, position: 'absolute', opacity: 0.4 }} />
+                  </View>
+                ) : null}
                 {isLoading ? (
                   <ActivityIndicator size="small" color={accent} style={{ marginBottom: 4 }} />
                 ) : (
@@ -1021,7 +1109,7 @@ function ChannelsRow({ categories, accent, onChannelPress, generationId, loading
                 )}
                 <Text style={[styles.channelTileLabel, { color: '#fff' }]} numberOfLines={1}>{ch.label}</Text>
                 <Text style={styles.channelTileSub}>
-                  {isLoading ? 'loading deep queue...' : `${ch.catIds.length} sources · auto-advance`}
+                  {isLoading ? 'tuning in...' : `${ch.catIds.length} sources · auto-advance`}
                 </Text>
               </Pressable>
             );

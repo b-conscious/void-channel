@@ -35,10 +35,58 @@ const cache = new Cache(1200); // 20min default TTL (was 1hr — rotate content 
 
 const PORT = process.env.PORT || 3001;
 
+// ── Last-known-good categories ───────────────────────────────
+// Archive.org occasionally throttles or errors, returning categories with empty items.
+// Caching/serving that blanks the whole app for everyone for 20 min. We keep the last
+// payload that actually had content and (a) never cache an empty result, (b) serve the
+// last-good payload if a fresh fetch comes back empty.
+let lastGoodCategories = null;
+function categoriesHaveContent(cats) {
+  if (!Array.isArray(cats) || cats.length === 0) return false;
+  const populated = cats.filter((c) => c && Array.isArray(c.items) && c.items.length > 0).length;
+  return populated >= Math.ceil(cats.length * 0.5); // require >=50% of categories populated
+}
+
 // ── Middleware ──────────────────────────────────────────────
 
 app.use(cors());
 app.use(express.json());
+
+// ── Static assets (TV static loading videos etc.) ─────────
+// Serve /static/* from backend/public/static with aggressive CDN caching
+const path = require("path");
+const fs = require("fs");
+const STATIC_DIR = path.join(__dirname, "public", "static");
+app.use("/static", express.static(STATIC_DIR, {
+  maxAge: "30d",                     // browser cache: 30 days (immutable assets)
+  setHeaders: (res) => {
+    res.set("Cache-Control", "public, max-age=2592000, immutable");
+    res.set("Access-Control-Allow-Origin", "*");
+  },
+}));
+
+// Loader-clip manifest — auto-discovers every .mp4 in public/static so the app can
+// pick a random loading filler. Drop in any number of clips, no code change needed.
+let _loaderClipsCache = null;
+let _loaderClipsCacheAt = 0;
+app.get("/api/loaders", (req, res) => {
+  try {
+    // Re-scan at most once a minute (cheap, but no need to hit disk on every request)
+    if (!_loaderClipsCache || Date.now() - _loaderClipsCacheAt > 60000) {
+      const files = fs.existsSync(STATIC_DIR) ? fs.readdirSync(STATIC_DIR) : [];
+      _loaderClipsCache = files
+        .filter((f) => /\.(mp4|webm)$/i.test(f))
+        .sort()
+        .map((f) => `/static/${f}`);
+      _loaderClipsCacheAt = Date.now();
+    }
+    res.set("Cache-Control", "public, max-age=300, stale-while-revalidate=600");
+    res.json({ clips: _loaderClipsCache });
+  } catch (err) {
+    console.error("[/api/loaders]", err);
+    res.json({ clips: [] });
+  }
+});
 
 // ── Cloudflare CDN edge-cache headers ─────────────────────
 // s-maxage = edge (CDN) cache TTL; max-age=0 = browsers always revalidate via CDN
@@ -96,6 +144,9 @@ app.use("/api/playlists", playlistRoutes);
 app.use("/api/subscriptions", subscriptionRoutes);
 app.use("/api", trendingRoutes);
 
+// The Archivist — AI rabbit-hole guide (Claude Haiku). Account-gated + weekly quota.
+app.use("/api/archivist", require("./archivist"));
+
 // Comments — public read, auth required for write
 app.use("/api", commentRoutes);
 
@@ -134,11 +185,24 @@ app.get("/api/categories", async (req, res) => {
 
     const categories = await archive.getAllCategories(15, shuffle);
 
-    // Cache for 20 min (matches the time bucket rotation)
-    if (!shuffle) cache.set(cacheKey, categories, 1200);
+    if (categoriesHaveContent(categories)) {
+      lastGoodCategories = categories;
+      // Cache for 20 min (matches the time bucket rotation). Never cache shuffled or empty results.
+      if (!shuffle) cache.set(cacheKey, categories, 1200);
+      res.set("X-Cache", shuffle ? "BYPASS" : refresh ? "REFRESH" : "MISS");
+      if (shuffle) res.set("Cache-Control", "no-store"); // bypass CDN for shuffled results
+      return res.json(categories);
+    }
 
-    res.set("X-Cache", shuffle ? "BYPASS" : refresh ? "REFRESH" : "MISS");
-    if (shuffle) res.set("Cache-Control", "no-store"); // bypass CDN for shuffled results
+    // Fresh fetch came back empty (Archive throttled/errored). Serve last-known-good if we have it
+    // rather than blanking the app. Do NOT cache the empty result.
+    if (lastGoodCategories) {
+      res.set("X-Cache", "STALE-GOOD");
+      res.set("Cache-Control", "no-store");
+      return res.json(lastGoodCategories);
+    }
+    res.set("X-Cache", "EMPTY");
+    res.set("Cache-Control", "no-store");
     res.json(categories);
   } catch (err) {
     console.error("[/api/categories]", err);
@@ -518,8 +582,14 @@ async function warmCategories() {
     console.log(`  → Warming: ${cacheKey} (fetching from Archive.org)...`);
     try {
       const categories = await archive.getAllCategories(15, false);
-      cache.set(cacheKey, categories, 1200);
-      console.log(`  ✓ Warmed: ${categories.length} categories cached`);
+      if (categoriesHaveContent(categories)) {
+        lastGoodCategories = categories;
+        cache.set(cacheKey, categories, 1200);
+        console.log(`  ✓ Warmed: ${categories.length} categories cached`);
+      } else {
+        // Archive throttled/errored — do NOT poison the cache with empty content.
+        console.warn(`  ⚠ Warm skipped: Archive returned sparse content, keeping previous cache`);
+      }
     } catch (err) {
       console.error(`  ✗ Warm failed: ${err.message}`);
     }

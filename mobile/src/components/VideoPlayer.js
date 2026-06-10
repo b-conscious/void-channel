@@ -16,6 +16,18 @@ const { width: SCREEN_W } = Dimensions.get("window");
 const FADE_DURATION = 220;
 const HIDE_DELAY = 4000;
 
+// ── Web autoplay gesture tracking ──────────────────────────
+// Browsers block autoplay-WITH-AUDIO until the user has interacted with the page.
+// We start the first video muted (so it autoplays instantly), then restore sound on
+// the first interaction. Once any gesture happens, subsequent videos can start unmuted.
+let _webHasGesture = false;
+if (Platform.OS === "web" && typeof window !== "undefined") {
+  const mark = (e) => { if (e && e.isTrusted) _webHasGesture = true; };
+  ["pointerdown", "keydown", "touchend"].forEach((t) =>
+    window.addEventListener(t, mark, { passive: true })
+  );
+}
+
 /** Format seconds → "3:07" or "1:02:15" */
 function formatTime(sec) {
   const total = Math.floor(sec || 0);
@@ -138,7 +150,10 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
   const [error, setError] = useState(null);
   const [isFs, setIsFs] = useState(false);
   const [volume, setVolume] = useState(1);        // 0–1
-  const [muted, setMuted] = useState(false);
+  // On web, start muted IF the user hasn't interacted yet — lets the video autoplay
+  // immediately instead of sitting paused. We auto-restore sound on first interaction.
+  const [muted, setMuted] = useState(Platform.OS === "web" && !_webHasGesture);
+  const userMutedRef = useRef(false); // true only if the user explicitly muted
   const [showVolSlider, setShowVolSlider] = useState(false);
   const hideTimer = useRef(null);
   const volHideTimer = useRef(null);
@@ -148,8 +163,35 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
 
   const player = useVideoPlayer(videoUrl, (p) => {
     p.loop = false;
+    // Muted autoplay is always allowed; play with sound only if a gesture already happened.
+    if (Platform.OS === "web") p.muted = !_webHasGesture;
     p.play();
   });
+
+  // ── Web: restore sound on the first user interaction after a muted autoplay ──
+  useEffect(() => {
+    if (Platform.OS !== "web" || typeof window === "undefined") return;
+    if (!muted) return;            // already has sound
+    let done = false;
+    const unmute = (e) => {
+      if (done || (e && !e.isTrusted)) return; // only real user gestures restore sound
+      done = true;
+      _webHasGesture = true;
+      if (!userMutedRef.current) {
+        setMuted(false);
+        try { player.muted = false; } catch {}
+        try { player.play(); } catch {}
+      }
+    };
+    window.addEventListener("pointerdown", unmute, { once: true });
+    window.addEventListener("keydown", unmute, { once: true });
+    window.addEventListener("touchend", unmute, { once: true });
+    return () => {
+      window.removeEventListener("pointerdown", unmute);
+      window.removeEventListener("keydown", unmute);
+      window.removeEventListener("touchend", unmute);
+    };
+  }, [muted, player]);
 
   // Track web fullscreen state so we can update the button + listen for Esc
   useEffect(() => {
@@ -181,6 +223,30 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
     ].join("\n");
     document.head.appendChild(style);
   }, []);
+
+  // Web backstop: catch native <video> load failures (e.g. NotSupportedError for non-H.264
+  // sources). expo-video sometimes surfaces these only as an uncaught promise rejection, not a
+  // statusChange — so we attach directly to the player's <video> element and report the error.
+  useEffect(() => {
+    if (Platform.OS !== "web" || typeof document === "undefined") return;
+    let videoEl = null;
+    const onMediaError = () => { setError("Failed to load video."); onVideoError && onVideoError(); };
+    // The <video> mounts asynchronously; poll briefly until it's there, then attach once.
+    const iv = setInterval(() => {
+      const el = document.querySelector('[data-vpcontainer="1"] video');
+      if (el && el !== videoEl) {
+        videoEl = el;
+        el.addEventListener("error", onMediaError);
+        clearInterval(iv);
+      }
+    }, 250);
+    const stop = setTimeout(() => clearInterval(iv), 5000);
+    return () => {
+      clearInterval(iv);
+      clearTimeout(stop);
+      if (videoEl) videoEl.removeEventListener("error", onMediaError);
+    };
+  }, [onVideoError, videoUrl]);
 
   const toggleFullscreen = useCallback(async () => {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
@@ -359,6 +425,7 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
   const toggleMute = useCallback(() => {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
     const next = !muted;
+    userMutedRef.current = next; // remember explicit intent so auto-unmute won't override
     setMuted(next);
     try { player.muted = next; } catch {}
     showControls();

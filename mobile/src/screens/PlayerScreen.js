@@ -21,6 +21,7 @@ import * as Haptics from 'expo-haptics';
 
 import FastImage from '../components/FastImage';
 import VideoPlayer from '../components/VideoPlayer';
+import { VoidLoader } from '../components';
 import AddToPlaylistModal from '../components/AddToPlaylistModal';
 import { useGeneration } from '../context/GenerationContext';
 import { useGame } from '../context/GameContext';
@@ -63,10 +64,13 @@ const XRAY_FIELDS = [
 // "DW News : DW : June 9, 2026 4:00am-4:02am CEST" → "DW News : DW"
 // "PRESSTV : June 9, 2026 5:30am-6:00am IRST" → "PRESSTV"
 const DATE_RE = /\s*:?\s*(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},?\s*\d{4}\s+\d{1,2}:\d{2}.*/i;
+const MAX_TITLE_LEN = 90; // hard cap so runaway Archive titles can't blow out layout
 function cleanTitle(title) {
   if (!title) return '';
-  const cleaned = title.replace(DATE_RE, '').replace(/\s*:\s*$/, '').trim();
-  return cleaned || title;
+  let cleaned = title.replace(DATE_RE, '').replace(/\s*:\s*$/, '').trim();
+  cleaned = cleaned || title;
+  if (cleaned.length > MAX_TITLE_LEN) cleaned = cleaned.slice(0, MAX_TITLE_LEN - 1).trimEnd() + '…';
+  return cleaned;
 }
 
 export default function PlayerScreen({ route, navigation }) {
@@ -193,14 +197,8 @@ export default function PlayerScreen({ route, navigation }) {
 
   // When the current video ends, advance to next item (channel queue or autoplay related).
   // Uses the live queue ref which may have grown via pre-fetch — infinite channel pagination.
-  const handleVideoEnded = useCallback(() => {
-    // Fire "complete" watch event
-    api.sendWatchEvent({
-      item_id: stub.id, item_title: stub.title,
-      category_id: categoryId || null,
-      event_type: 'complete', watch_percent: 100,
-    }).catch(() => {});
-
+  // Advance to the next item (channel queue or autoplay → related). Returns true if it moved.
+  const advanceToNext = useCallback(() => {
     if (inChannel) {
       // Use the live queue (may be extended by pre-fetch) instead of the original route param queue
       var currentQueue = liveQueueRef.current.length > 0 ? liveQueueRef.current : (queue || []);
@@ -217,11 +215,26 @@ export default function PlayerScreen({ route, navigation }) {
           channelCatIds: channelCatIds,    // pass through for next mount's pre-fetch
           channelPage: livePageRef.current, // pass the latest page so next mount knows where we are
         });
+        return true;
       }
-    } else if (autoplay && relatedItems.length > 0) {
-      navigation.replace("Player", { item: relatedItems[0], id: relatedItems[0].id });
+      return false;
     }
-  }, [stub, inChannel, queue, queueIndex, categoryId, channelLabel, channelCatIds, navigation, autoplay, relatedItems]);
+    if (autoplay && relatedItems.length > 0) {
+      navigation.replace("Player", { item: relatedItems[0], id: relatedItems[0].id });
+      return true;
+    }
+    return false;
+  }, [inChannel, queue, queueIndex, categoryId, channelLabel, channelCatIds, navigation, autoplay, relatedItems]);
+
+  const handleVideoEnded = useCallback(() => {
+    // Fire "complete" watch event
+    api.sendWatchEvent({
+      item_id: stub.id, item_title: stub.title,
+      category_id: categoryId || null,
+      event_type: 'complete', watch_percent: 100,
+    }).catch(() => {});
+    advanceToNext();
+  }, [stub, categoryId, advanceToNext]);
 
   // Inject skeleton pulse keyframes on web
   useEffect(() => {
@@ -274,13 +287,11 @@ export default function PlayerScreen({ route, navigation }) {
           setError('No video stream available.');
         }
 
-        // If a higher-quality version exists, upgrade after 5 seconds of playback
-        if (full.videoUrlHQ && full.videoUrlHQ !== full.videoUrl) {
-          const hqTimer = setTimeout(() => {
-            if (!cancelled) setVideoUrl(full.videoUrlHQ);
-          }, 5000);
-          cleanupTimers.push(hqTimer);
-        }
+        // NOTE: We intentionally do NOT auto-upgrade to videoUrlHQ. Swapping the source
+        // mid-playback forces expo-video to reload + re-buffer the bigger file, and on web
+        // the re-play() is blocked by autoplay policy (no fresh gesture) → the video stalls
+        // and appears to "need a click". Staying on the fast low-bitrate stream gives instant,
+        // uninterrupted playback. (videoUrlHQ remains available for a future manual quality toggle.)
 
         await store.addToHistory(merged);
 
@@ -357,13 +368,47 @@ export default function PlayerScreen({ route, navigation }) {
   const videoSource = localUri || videoUrl;
 
   // If the optimistic URL fails, fall back to the confirmed URL from metadata
+  const triedHQRef = useRef(false);
+  const skippedRef = useRef(false);
   const handleVideoError = useCallback(() => {
+    // Recovery 1: the optimistic guessed URL failed → use the confirmed URL from metadata.
     if (!videoReady && item.videoUrl && item.videoUrl !== videoUrl) {
       console.log('[PlayerScreen] Optimistic URL failed, falling back to confirmed URL');
       setVideoUrl(item.videoUrl);
       setVideoReady(true);
+      return;
     }
-  }, [videoReady, item.videoUrl, videoUrl]);
+    // Recovery 2: confirmed URL failed → try the HQ derivative once (different encode/codec).
+    if (!triedHQRef.current && item.videoUrlHQ && item.videoUrlHQ !== videoUrl) {
+      triedHQRef.current = true;
+      console.log('[PlayerScreen] Confirmed URL failed, trying HQ derivative');
+      setVideoUrl(item.videoUrlHQ);
+      return;
+    }
+    // Unrecoverable: this item has no browser-playable source (e.g. non-H.264 MP4 / .ogv).
+    // Skip exactly once so a channel/doom-scroll never gets stuck on a dead video.
+    if (skippedRef.current) return;
+    skippedRef.current = true;
+    api.sendWatchEvent({
+      item_id: stub.id, item_title: stub.title,
+      category_id: categoryId || null, event_type: 'skip', watch_percent: 0,
+    }).catch(() => {});
+
+    if (inChannel) {
+      advanceToNext();
+      return;
+    }
+    if (autoplay) {
+      if (!advanceToNext()) {
+        // Related not loaded yet — fetch now and jump to the first suggestion.
+        api.getRelated(stub.id, 10)
+          .then((items) => { if (items && items.length) navigation.replace('Player', { item: items[0], id: items[0].id }); })
+          .catch(() => {});
+      }
+      return;
+    }
+    // Solo with autoplay off: leave the player's "Failed to load — tap to retry" overlay.
+  }, [videoReady, item.videoUrl, item.videoUrlHQ, videoUrl, inChannel, autoplay, stub, categoryId, advanceToNext, navigation]);
 
   const toggleWatchlist = useCallback(async () => {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
@@ -665,9 +710,14 @@ export default function PlayerScreen({ route, navigation }) {
         </TouchableOpacity>
       </View>
 
-      {/* Skeleton loading state */}
+      {/* Skeleton loading state — first card gets TV static, rest are shimmer */}
       {sidebarIsLoading && sidebarItems.length === 0 && (
         <>
+          {Platform.OS === 'web' && (
+            <View style={{ marginBottom: 10, borderRadius: 8, overflow: 'hidden' }}>
+              <VoidLoader mode="static" size="row" label="scanning the archive..." style={{ height: 100, borderRadius: 8 }} />
+            </View>
+          )}
           {[1, 2, 3, 4, 5, 6].map((i) => (
             <View key={i} style={styles.sidebarRelCard}>
               <View dataSet={{voidNoise: 'static'}} style={[styles.sidebarRelThumb, { backgroundColor: colors.card }]} />
@@ -1459,7 +1509,7 @@ export default function PlayerScreen({ route, navigation }) {
   );
 
   return (
-    <View style={[styles.container, { marginLeft: NAV_MARGIN }]}>
+    <View style={[styles.container, IS_DESKTOP ? { width: sceneW, marginLeft: NAV_MARGIN } : null]}>
       {/* XP toast */}
       {xpToast && (
         <Animated.View style={[styles.xpToast, { opacity: xpOpacity, borderColor: accent }]}>
@@ -1470,7 +1520,7 @@ export default function PlayerScreen({ route, navigation }) {
       {IS_DESKTOP ? (
         /* ── DESKTOP: YouTube layout — video+info left, sidebar right, side-by-side ── */
         <View style={styles.desktopRow}>
-          <View style={styles.desktopMain}>
+          <View style={[styles.desktopMain, { width: AVAILABLE_W, flexGrow: 0, flexShrink: 0 }]}>
             <View style={[styles.playerArea, { height: VIDEO_H }]}>
               {videoInner}
             </View>
@@ -2393,7 +2443,9 @@ const styles = StyleSheet.create({
 
   // ── Desktop two-column layout ──
   desktopRow: { flex: 1, flexDirection: 'row', paddingRight: CONTENT_GAP },
-  desktopMain: { flex: 1 },
+  // flex:1 + minWidth:0 so the video column fills ALL space the sidebar doesn't take
+  // (without minWidth:0 a flex child won't shrink below its content's intrinsic width).
+  desktopMain: { flex: 1, minWidth: 0 },
 
   // ── Mobile autoplay row ──
   mobileAutoplayRow: {
@@ -2424,6 +2476,7 @@ const styles = StyleSheet.create({
   // ── Desktop sidebar — YouTube-style with filter chips ──
   sidebar: {
     width: SIDEBAR_W || 360,
+    flexGrow: 0, flexShrink: 0,   // pin to 360 — don't let the ScrollView grow into the video column
     backgroundColor: colors.bg,
     borderLeftWidth: 1, borderLeftColor: colors.surface,
     paddingLeft: 12, paddingRight: 8, paddingTop: 8,

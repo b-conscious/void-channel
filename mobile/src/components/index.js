@@ -7,3 +7,4 @@ export { default as SearchBar } from "./SearchBar";
 export { default as WaveAvatar } from "./WaveAvatar";
 export { default as DailyBountyCard } from "./DailyBountyCard";
 export { default as VoidLoader } from "./VoidLoader";
+export { default as TheArchivist } from "./TheArchivist";

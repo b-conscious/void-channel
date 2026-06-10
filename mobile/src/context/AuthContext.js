@@ -68,8 +68,19 @@ export function AuthProvider({ children }) {
           scheduleRefresh(result.session);
         }
       } catch (err) {
-        console.warn('[auth] token refresh failed:', err);
-        // Don't sign out — they can still use local data
+        // If the refresh token is dead (401 / invalid), the only recovery is a fresh sign-in.
+        // Clear the stale session SILENTLY and continue anonymously — don't nag a user who may
+        // never have signed in, and stop sending a dead Bearer token on every request.
+        const msg = String(err?.message || '');
+        const isAuthFailure = /401|unauthor|refresh failed|sign in again|invalid/i.test(msg);
+        if (isAuthFailure) {
+          setSession(null);
+          setUser(null);
+          api.setAuthToken(null);
+          try { await AsyncStorage.removeItem(KEYS.SESSION); } catch {}
+          try { await AsyncStorage.removeItem(KEYS.USER); } catch {}
+        }
+        // Transient network error: keep the session and let the next scheduled refresh retry.
       }
     }, refreshIn);
   }, []);
