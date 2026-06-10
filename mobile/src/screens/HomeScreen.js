@@ -596,9 +596,9 @@ export default function HomeScreen({ navigation }) {
                 <Text style={styles.signInChipText}>SIGN IN</Text>
               </TouchableOpacity>
             )}
-            <TouchableOpacity onPress={handleRandom} style={[styles.randomBtn, { backgroundColor: accent }]} hitSlop={8}>
-              <Ionicons name="shuffle" size={12} color={gen.accentOnDark} style={{ marginRight: 4 }} />
-              <Text style={[styles.randomText, { color: gen.accentOnDark }]}>SURPRISE ME</Text>
+            <TouchableOpacity onPress={() => Linking.openURL(DONATE_URL)} style={styles.donateBtn} hitSlop={8} activeOpacity={0.85}>
+              <Ionicons name="heart" size={12} color="#08080b" style={{ marginRight: 5 }} />
+              <Text style={styles.donateText}>DONATE</Text>
             </TouchableOpacity>
           </View>
         </View>
@@ -1783,6 +1783,8 @@ const styles = StyleSheet.create({
   },
   randomBtn: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 10, paddingVertical: 6, borderRadius: radius.sm },
   randomText: { fontFamily: fonts.monoBold, fontSize: 9, letterSpacing: 1.2 },
+  donateBtn: { flexDirection: 'row', alignItems: 'center', backgroundColor: BRAND_BLUE, paddingHorizontal: 13, paddingVertical: 6, borderRadius: radius.full },
+  donateText: { fontFamily: fonts.monoBold, fontSize: 10, letterSpacing: 1.2, color: '#08080b' },
   heroContent: { ...StyleSheet.absoluteFillObject, paddingHorizontal: spacing.screenPadding, paddingBottom: 20, justifyContent: 'space-between' },
   heroTopRow: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' },
   heroEyebrow: { fontFamily: fonts.monoBold, fontSize: 8, letterSpacing: 2, marginBottom: 8 },
