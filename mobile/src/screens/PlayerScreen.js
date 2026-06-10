@@ -115,8 +115,10 @@ export default function PlayerScreen({ route, navigation }) {
   const sceneW = windowW - NAV_MARGIN;                            // actual scene width
   // Desktop: shrink the video player, give the freed space to the channel/related videos.
   // Channel list takes ~58% of the width; the player column is the remainder (~40%).
-  const SIDE_W = IS_DESKTOP ? Math.round(sceneW * 0.58) : 0;
-  const AVAILABLE_W = IS_DESKTOP ? sceneW - SIDE_W - CONTENT_GAP : windowW; // the (now smaller) video column
+  // Video is the DOMINANT column (~62%); the related sidebar is the narrower rail (~36%). This was
+  // backwards (video 40% / related 58%), which made the player open looking like the related grid.
+  const SIDE_W = IS_DESKTOP ? Math.max(300, Math.round(sceneW * 0.36)) : 0;
+  const AVAILABLE_W = IS_DESKTOP ? Math.max(360, sceneW - SIDE_W - CONTENT_GAP) : windowW; // the video column
   const VIDEO_H = IS_WEB
     ? Math.min(Math.round(AVAILABLE_W * 9 / 16), Math.round(SCREEN_H * 0.75))
     : Math.round(SCREEN_H * 0.42);
