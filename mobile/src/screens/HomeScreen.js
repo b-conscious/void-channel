@@ -739,40 +739,8 @@ export default function HomeScreen({ navigation }) {
           />
         )}
 
-        {/* Trending — most-watched in the last 48h */}
-        {trending.length > 0 && (
-          <CategoryRow
-            category={{
-              id: "trending",
-              name: "Trending Now",
-              subtitle: "Most-watched on VOIDtv right now",
-              items: trending,
-            }}
-            onItemPress={handleItemPress}
-          />
-        )}
-
-        {/* For You — personalized recommendations (authed users only) */}
-        {forYou.length > 0 && (
-          <CategoryRow
-            category={{
-              id: "for_you",
-              name: "For You",
-              subtitle: "Based on what you've been watching",
-              items: forYou,
-            }}
-            onItemPress={handleItemPress}
-          />
-        )}
-
-        {/* Void Snacks — short-form content under 2 min */}
-        {shorts.length > 0 && (
-          <ShortsRow
-            items={shorts}
-            accent={accent}
-            onItemPress={handleItemPress}
-          />
-        )}
+        {/* Trending Now + For You removed (per Bryan) — the genre category rows begin here. The
+            first Void Snacks row now comes AFTER the first category row, via the interleave below. */}
 
         {/* Subscription Feed — items from followed categories */}
         {subFeed.length > 0 && (
@@ -829,11 +797,11 @@ export default function HomeScreen({ navigation }) {
               onSubscribe={handleSubscribe}
               onSeeMore={handleSeeMore}
             />
-            {/* Void Snacks every 3 rows — one horizontal row of diverse short clips; scroll
-                sideways for variety. Each insertion is rotated to a different slice of the pool. */}
-            {shorts.length > 0 && ((idx + 1) % 3 === 0) && idx < visibleTypeCats.length - 1 && (
+            {/* Void Snacks AFTER the first category row, then every 3 (idx 0,3,6…): cat1 → snacks →
+                3 cats → snacks → … Each insertion is rotated to a different slice of the pool. */}
+            {shorts.length > 0 && (idx % 3 === 0) && idx < visibleTypeCats.length - 1 && (
               <ShortsRow
-                items={rotateArray(shorts, Math.floor((idx + 1) / 3) * 11)}
+                items={rotateArray(shorts, Math.floor(idx / 3) * 11)}
                 accent={accent}
                 onItemPress={handleItemPress}
               />
