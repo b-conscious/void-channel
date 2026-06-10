@@ -190,12 +190,11 @@ export default function HomeScreen({ navigation }) {
       return ai - bi;
     });
   }, [allCategories, gen.categoryPriority]);
-  // MOBILE = "the wall": every type category as a vertical scroll of horizontal rows (no chips) —
-  // an overwhelming sea of variety. DESKTOP keeps the chip filter for now: "All" → curated rows
-  // only; a chip → that genre's content. (Empty rows are dropped so the wall stays dense.)
+  // "The wall": "All" (the default — and mobile has no chips, so it stays on "All") renders EVERY
+  // non-empty type category as a vertical scroll of horizontal rows — an overwhelming sea of
+  // variety, on every platform. A desktop chip simply narrows the wall down to that one genre.
   const visibleTypeCats = useMemo(() => {
-    if (!IS_DESKTOP) return typeCats.filter((c) => (c.items || []).length > 0);
-    if (activeChip === 'all') return []; // desktop "all" → curated rows handle it
+    if (activeChip === 'all') return typeCats.filter((c) => (c.items || []).length > 0);
     return allCategories.filter((c) => c.id === activeChip);
   }, [typeCats, allCategories, activeChip]);
 

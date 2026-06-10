@@ -170,9 +170,21 @@ function StaticVideo({ size, label, color, style }) {
     var onError = function () { setFailed(true); };
     video.addEventListener('error', onError);
 
-    // No seeking — the stream is already cut into 8-second scenes by you, so we just let it
-    // play through them and loop. (Seeking would jump into the middle of a scene, and a
-    // non-faststart file can't seek anyway.)
+    // Channel-surf: the stream is FAST-START now, so seek each TV to a DIFFERENT ~7s scene. The
+    // wall then shows a bunch of different "shows" at once instead of every screen in lockstep,
+    // and they stay out of phase across loops because each started at its own offset. (You built
+    // it as 6–8s clips, so a random ~7s boundary lands on a fresh scene.)
+    function seekToScene() {
+      try {
+        var d = video.duration;
+        if (d && isFinite(d) && d > 8) {
+          var scenes = Math.max(1, Math.floor(d / 7));
+          video.currentTime = Math.min(Math.floor(Math.random() * scenes) * 7, d - 1);
+        }
+      } catch (e) {}
+    }
+    if (video.readyState >= 1) seekToScene();
+    else video.addEventListener('loadedmetadata', seekToScene, { once: true });
 
     // Blink out after a random 20-40s, then settle to the quiet VOID pulse (so a long
     // load never shows a video forever, and the field keeps flickering).
