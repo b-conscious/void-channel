@@ -38,9 +38,15 @@ const NEWS_POLITICS_EXCLUDE = ' ' + [
   'NOT collection:(newsreels OR news OR opensource_media)',
 ].join(' ');
 
+// Keep graphic/clinical medical content (surgery, autopsy, anatomy, childbirth) out of the TV
+// rows — it belongs in The Operating Theater (`medical`), not the main TV feed. Append to a query.
+const MEDICAL_EXCLUDE = ' NOT (subject:(surgery OR surgical OR autopsy OR dissection OR anatomy'
+  + ' OR "medical procedure" OR childbirth OR obstetric OR cadaver OR pathology OR vivisection)'
+  + ' OR collection:(medicalheritagelibrary))';
+
 // Categories that should NEVER have news/politics bleed
 const ENTERTAINMENT_IDS = new Set([
-  'anime', 'cartoons', 'saturday_morning', 'afterschool', 'comedy', 'horror', 'feature_length', 'most_popular', 'cringe', 'tv_movies',
+  'anime', 'cartoons', 'saturday_morning', 'afterschool', 'comedy', 'horror', 'feature_length', 'most_popular', 'cringe', 'tv_movies', 'banned',
   'scifi', 'noir', 'western', 'romance', 'silent_film', 'blaxploitation',
   'music_video', 'sports', 'nature_wildlife', 'game_shows', 'art_film',
   'abstract', 'theatre', 'foreign', 'shopping', 'ephemeral', 'amateur',
@@ -196,7 +202,7 @@ const CATEGORIES = [
     group: "type",
     name: "The TV Cart",
     subtitle: "The teacher wheeled it in and everyone shut up",
-    query: '(subject:("educational television" OR "classroom film" OR "school" OR "instructional") OR collection:(classic_tv)) AND mediatype:(movies) AND NOT collection:(prelinger)',
+    query: '(subject:("educational television" OR "classroom film" OR "school" OR "instructional") OR collection:(classic_tv)) AND mediatype:(movies) AND NOT collection:(prelinger)' + MEDICAL_EXCLUDE,
   },
   {
     id: "anime",
@@ -368,9 +374,36 @@ const CATEGORIES = [
   {
     id: "tv_movies",
     group: "type",
-    name: "TV & Movies",
-    subtitle: "Classic television and full-length films — the original binge watch",
-    query: '(collection:(classic_tv OR feature_films OR television OR old_tv) OR subject:("television program" OR "tv show" OR "television series" OR "full length" OR "feature film")) AND mediatype:(movies)',
+    name: "The TV Set",
+    subtitle: "Real shows across the decades — the set never turned off",
+    // Actual TV episodes spanning eras (recognizable series + classic_tv/old_tv collections),
+    // fenced from the classroom/instructional + graphic-medical films that were leaking on-main.
+    // Lean on collections + recognizable show titles (the broad "television" SUBJECT tag is
+    // garbage on Archive — it returns childbirth clips and "HARLEM SHAKE POOP"). Kept short so
+    // the news/NSFW fences don't tip Archive past its query-complexity limit (→ 0 results).
+    query:
+      '(collection:(classic_tv OR old_tv OR television) '
+      + 'OR title:("i love lucy") OR title:("the twilight zone") OR title:("the andy griffith show") '
+      + 'OR title:("dragnet") OR title:("perry mason") OR title:("bonanza") OR title:("star trek") '
+      + 'OR title:("the lone ranger") OR title:("gunsmoke") OR title:("leave it to beaver") OR title:("the honeymooners")) '
+      + 'AND mediatype:(movies) '
+      + 'NOT title:(surgery OR autopsy OR childbirth OR dissection OR delivery OR medical OR poop)'
+      + MEDICAL_EXCLUDE,
+  },
+  {
+    id: "banned",
+    group: "type",
+    name: "Banned",
+    subtitle: "Censored, pulled, prohibited — the cinema they tried to bury",
+    // Banned CINEMA only. The bare `banned`/`censored` subject tags pull modern deplatformed
+    // extremist channels (verified in testing), so we lean on film terms + known cult/banned
+    // titles, exclude propaganda/extremist/religious, and the category is in ENTERTAINMENT_IDS
+    // so NEWS_POLITICS_EXCLUDE strips political bleed too.
+    query: '(subject:("video nasty" OR "pre-code" OR "banned film" OR "censored film" OR "exploitation film" OR "cult film") '
+      + 'OR title:("reefer madness") OR title:("freaks") OR title:("the tingler") OR title:("glen or glenda") '
+      + 'OR title:("maniac") OR title:("the last house") OR title:("i drink your blood")) '
+      + 'AND mediatype:(movies) '
+      + 'NOT subject:(propaganda OR extremist OR nazi OR conspiracy OR religion OR religious OR sermon)',
   },
   {
     id: "mature",
@@ -659,6 +692,32 @@ const CATEGORIES = [
     query: "year:[2020 TO 2029] AND mediatype:(movies)",
   },
 ];
+
+// ── Generational treatment rollout ───────────────────────────────────────────────────────────
+// Stamp the "cartoon treatment" across the main browse rows so the whole app gets a better, more
+// varied selection across the eras — WITHOUT disturbing the category specifics or the void's weird.
+//   • diversify    → per-series cap (de-flood) on every `type` browse row
+//   • recognizable → popular-leaning blend (vs deep-obscure) for the genre/nostalgia rows
+// Deliberately-weird void rows (Lost Reels, The Weird Shelf, The Projection Room, Public Access,
+// Cringe…) get diversify only — they KEEP the deep-obscure blend, that's their whole point. The
+// `deep` cuts, the dedicated `show` rows, the `decade` rows, and `mature` are left exactly as
+// authored. Single-source rows (one collection / one show) skip the cap so it can't starve them.
+const RECOGNIZABLE_IDS = new Set([
+  'cartoons', 'tv_movies', 'banned',
+  'horror', 'scifi', 'noir', 'feature_length', 'anime', 'saturday_morning', 'afterschool',
+  'foreign', 'violence', 'music_video', 'sports', 'nature_wildlife', 'comedy', 'western',
+  'romance', 'documentary', 'game_shows', 'blaxploitation', 'war_footage',
+]);
+const NO_DIVERSIFY_IDS = new Set(['computers']); // single-collection rows the cap would starve
+for (const cat of CATEGORIES) {
+  // Skip the "category specifics": deep cuts, dedicated shows, decade rows — left as authored.
+  // (Many genre rows have no `group` field at all, so we exclude the specifics rather than
+  //  require group==='type'.)
+  if (cat.group === 'deep' || cat.group === 'show' || cat.group === 'decade') continue;
+  if (cat.mature || cat.sort) continue;     // mature + fixed-sort (Most Popular) rows stay as-is
+  if (!NO_DIVERSIFY_IDS.has(cat.id)) cat.diversify = true;
+  if (RECOGNIZABLE_IDS.has(cat.id)) cat.recognizable = true;
+}
 
 function stripHTML(str) {
   if (!str) return "";

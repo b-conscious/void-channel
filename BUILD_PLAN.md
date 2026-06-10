@@ -208,3 +208,25 @@ Still TODO:
    oldies); apply the generational `recognizable`+`diversify` treatment (same as cartoons).
 8. **Mobile fullscreen bug** — fullscreen + rotate phone → WHITE SCREEN; "still seeing old options" = partly
    stale service-worker cache. Investigate VideoPlayer native fullscreen + orientation on mobile web.
+
+## 12. Layout vision — "the void sea" (Bryan, this session)
+Browse = Amazon-Prime structure, skinned as the void. Ref: `Videos\Screen Recordings\Screen Recording
+2026-06-09 213729.mp4` (= Prime home — horizontal rows, 16:9 cards, "See more ›", hover-expand w/ actions).
+`CategoryRow` already IS the Prime row (header + See More + hover-arrows + horizontal cards + pagination).
+
+- **A lot of category rows, scroll down → massive variety** (NOT technically endless — just render many of the
+  ~80 existing categories: type + deep + decade + show, + facet/blended variety rows). recognizable+diversify
+  already varies each row internally. Virtualize the vertical list; lazy-load each row's items as it nears view.
+- **Each row scrolls horizontally** (CategoryRow — done).
+- **Scattered void-stream TVs**: between sections, drop `VoidLoader` static-video bands at SEEDED-random
+  intervals (seed by feed index so they don't reshuffle on re-render) — the "wall of TVs" you surf past; each
+  CRT-blinks on as it scrolls in, per-instance brightness. Reuses VoidLoader (now plays `void-stream.mp4`).
+- **"See More" → faceted category page** (NEW `CategoryScreen`): one category exploded into a vertical stack of
+  horizontal rows — decades / sub-genres / deep cuts / most-hearted — each a `CategoryRow`. Re-point
+  `handleSeeMore` (currently → Search grid). Needs a small backend facet helper (category query + buckets).
+- **Card expand must work on MOBILE** (tap/long-press, not hover-only): Prime info-popup + action row
+  (▶ Play · ＋ My Void · ♥ · ⓘ More).
+- **No "ON NOW".**
+
+Build order (rising risk): ① mobile-native card expand → ② faceted See-More page → ③ the variety sea +
+scattered void-TVs. ① and ② don't endanger the 1,805-line HomeScreen.
