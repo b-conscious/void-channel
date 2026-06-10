@@ -230,3 +230,33 @@ Browse = Amazon-Prime structure, skinned as the void. Ref: `Videos\Screen Record
 
 Build order (rising risk): ① mobile-native card expand → ② faceted See-More page → ③ the variety sea +
 scattered void-TVs. ① and ② don't endanger the 1,805-line HomeScreen.
+
+## 13. The Archivist as "the only algorithm" — conversational profile-building (Bryan, this session)
+**Thesis inversion (the whole point):** VOIDtv has NO surveillance recommendation engine. The ONLY
+"algorithm" on the app is one the user **deliberately authors by talking to the Archivist** —
+transparent, consensual, human-shaped. Where every other platform's algorithm is done *to* you, yours
+is something *you build*. This is "before AI slop, human creativity" applied to personalization itself.
+The Archivist stops being a search filter and becomes the instrument you tune your own signal with.
+
+**Baked into the Archivist (core, not optional):**
+- Every Archivist conversation **adds/subtracts likes & interests** → persists to the user's taste profile.
+- **Each opening conversation asks a couple of questions** (like this / not that / into this?) that add or
+  subtract from the profile.
+- The profile is **visible** and **drives a personal row** ("your row") shown where appropriate + reflected
+  in the user profile screen.
+- It's the **singular** personalization — reframes the current passive "For You"/recommendations.
+  Community signals (trending, hearts) stay — those aren't *your* algorithm.
+- **Access = value = donation reason:** more Archivist access (member / `archivist_credits`) → more
+  profile-building → a richer row. The donation ask becomes "fund *your* sharper signal," not a paywall.
+
+**Maps to existing infra:**
+- `backend/archivist.js` (Claude Haiku `claude-haiku-4-5-20251001`) — extend to EXTRACT + PERSIST
+  likes/interests each turn (structured output / tool use) and generate the opening questions.
+- `profiles` table — add taste fields (likes / dislikes / interests as weighted JSON).
+  `archivist_usage`, `supporter_until`, `archivist_credits` already exist.
+- Personal-row endpoint — build a row weighted by the taste profile (liked subjects / genres / eras /
+  creators); served as "your row".
+- Frontend `TheArchivist.js` — opening-question flow + conversational profile updates; a "Your Row" on
+  Home from the profile; profile screen SHOWS + lets you edit your likes (transparency = trust).
+
+Status: SPEC captured. Big build — slot into a rollout (likely its own, after/with the void-sea layout).
