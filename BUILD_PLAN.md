@@ -301,6 +301,10 @@ be a careful, surgical debug/fix pass over all of it. **Hard cache-clear (Empty-
 unregister SW) before testing — the sticky service worker masked nearly everything this session.**
 
 **Shipped today (newest → oldest):**
+- **Player polish:** related rail → **single column** (full width — titles/creator/views read fully, no
+  more "!"/"198 O"); action strip → explicit **"Add to Playlist"** + **Void Page folded into the Share
+  drawer** (one fewer redundant button); SearchScreen grid no longer crashes on resize (`key` on the
+  `numColumns` FlatList — RN forbids changing it live).
 - **Desktop player fixed (3 stacked bugs):** clean `/watch/:id` URLs (`getPathFromState`); VoidStatic
   blend-overlay no longer kills `<video>` picture; desktop video column no longer collapses (`flex:1`
   vs explicit width) — video is now the dominant ~62%, related rail ~36%. (See §6 gotchas.)
@@ -322,9 +326,8 @@ unregister SW) before testing — the sticky service worker masked nearly everyt
    → most are genuinely dead. Decide: re-enable `RESTRICTED_EXCLUDE`, OR build a **resolve-time playable
    check** (HEAD the resolved URL in `getItem`, mark unviewable) — that's the right fix vs. wholesale
    collection excludes.
-2. **Player related-cards compress titles** ("!", "198 O", "1ST THI"): the 2-col `sidebarGrid` crushes
-   the card text. Partly was the column-collapse (now fixed) — but make the related list **single-column /
-   roomier** so titles read. (PlayerScreen `sidebarGrid` / `sidebarCard`.)
+2. ✅ **DONE — related rail is single-column now** (full width; titles/creator/views read fully).
+   Remaining nicety (optional): bigger thumbnails in the now-wider single-column cards.
 3. **"!" titles:** many related cards show a bare "!" — `cleanTitle` likely strips a leading date/prefix
    and leaves the "!". Fix in `PlayerScreen.cleanTitle`.
 4. **Clip slider:** drag was rewritten (rebind bug) — confirm it works on the FRESH build; if not, dig in.
@@ -339,11 +342,14 @@ unregister SW) before testing — the sticky service worker masked nearly everyt
    GenerationContext). Confirm the exact threshold + which rows count as "top cards" with Bryan. (Boomer
    = opposite lean; Millennial = nostalgic middle. This is the generational content treatment applied to
    Signal, not just copy.)
+10. **Favicon 404:** the site has no `favicon.ico` (404 in console) — add one (cosmetic, ~5 min).
 
 **Still spec'd, not built:** void-sea polish (§12), Archivist-as-the-only-algorithm (§13), "Before They
 Vanish Into The Void" — branded/newish full-length (§14).
 
-**Today's commits (newest first):** `926aa37` desktop video collapse · `aa4eb9c` VoidStatic video fix ·
+**Today's commits (newest first):** `1e3a241` add-to-playlist + void-page→share · `7208606` numColumns
+crash fix · `246c037` single-col related rail · `5ed0f95` genz-signal note · `926aa37` desktop video
+collapse · `aa4eb9c` VoidStatic video fix ·
 `00cc0ea` player video-dominant · `6ac2ae6` hide unviewable · `85f9e76` void snacks · `0ce7975` scattered
 TVs + clean URLs · `ac08422` row coloration + void-fill · `3a060ca` wall desktop + channel-surf ·
 `4e4cd31` mobile wall + search resilience · `ac9b4c5` content rollout (TV/Banned/genre treatment) ·
