@@ -163,16 +163,18 @@ function StaticVideo({ size, label, color, style }) {
     video.addEventListener('error', onError);
 
     // Start at a random point so every TV is on a different frame of the same broadcast.
-    // (Seeking only range-requests that slice — a long stream never fully downloads.)
+    // NOTE: reliable seeking REQUIRES a fast-start mp4 (moov atom at the FRONT). On a
+    // non-faststart file the browser can't jump, so it stays near 0 ("same spot"). We retry
+    // across several events as a best effort; the real fix is re-exporting faststart.
     var seekRandom = function () {
       try {
-        if (video.duration && isFinite(video.duration) && video.duration > 1.5) {
-          video.currentTime = Math.random() * (video.duration - 1);
-        }
+        var d = video.duration;
+        if (d && isFinite(d) && d > 2) video.currentTime = Math.random() * (d - 1);
       } catch (e) {}
     };
+    ['loadedmetadata', 'loadeddata', 'canplay'].forEach(function (ev) { video.addEventListener(ev, seekRandom); });
     if (video.readyState >= 1) seekRandom();
-    video.addEventListener('loadedmetadata', seekRandom);
+    var seekRetry = setTimeout(seekRandom, 1500);
 
     // Blink out after a random 20-40s, then settle to the quiet VOID pulse (so a long
     // load never shows a video forever, and the field keeps flickering).
@@ -184,8 +186,9 @@ function StaticVideo({ size, label, color, style }) {
 
     return function () {
       clearTimeout(blinkTimer);
+      clearTimeout(seekRetry);
       video.removeEventListener('error', onError);
-      video.removeEventListener('loadedmetadata', seekRandom);
+      ['loadedmetadata', 'loadeddata', 'canplay'].forEach(function (ev) { video.removeEventListener(ev, seekRandom); });
     };
   }, []);
 
@@ -200,7 +203,7 @@ function StaticVideo({ size, label, color, style }) {
         style={{ width: '100%', height: '100%', position: 'absolute', top: 0, left: 0, overflow: 'hidden', borderRadius: 8 }}
         dangerouslySetInnerHTML={{
           __html: '<video src="' + clipUrl + '" autoplay muted loop playsinline '
-            + 'style="width:100%;height:100%;object-fit:cover;opacity:0.88;'
+            + 'style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;opacity:0.88;'
             + 'filter:saturate(0.7) contrast(1.15) brightness(' + brightness + ');'
             + 'animation:voidPowerOn 360ms ease-out;" />'
         }}
