@@ -30,6 +30,7 @@ const router = express.Router();
 const { supabase, requireAuth } = require("./supabase");
 const archive = require("./archive");
 const Cache = require("./cache");
+const { isAdmin } = require("./admin");
 
 let Anthropic = null;
 try { Anthropic = require("@anthropic-ai/sdk"); } catch (_) { /* dep not installed yet */ }
@@ -160,12 +161,13 @@ router.post("/", requireAuth, async (req, res) => {
   const ctx = req.body?.context || {};
   if (!query) return res.status(400).json({ error: "Ask the Archivist something." });
 
+  const admin = isAdmin(user); // admins get unlimited consults (no quota, no spend)
   const bucket = dayBucket();
   const dailyLimit = dailyLimitFor(user);
   const dailyUsed = await getUsage(userId, bucket);
   const credits = creditsFor(user);
   const dailyRemaining = Math.max(0, dailyLimit - dailyUsed);
-  const totalLeft = dailyRemaining + credits;
+  const totalLeft = admin ? 9999 : dailyRemaining + credits;
 
   // 1) Explicit-intent gate — refuse without a call, cache, or quota hit.
   if (EXPLICIT_INTENT.test(query)) {
@@ -241,8 +243,11 @@ router.post("/", requireAuth, async (req, res) => {
     const result = { reply: finalText || "Here's where the signal led me.", items: surfaced.slice(0, MAX_ITEMS_RETURNED) };
 
     // Spend exactly one consult: daily allowance first, then an earned credit.
-    if (dailyRemaining > 0) await incrUsage(userId, bucket, dailyUsed);
-    else await spendCredit(user, credits);
+    // Admins are unlimited — they spend nothing.
+    if (!admin) {
+      if (dailyRemaining > 0) await incrUsage(userId, bucket, dailyUsed);
+      else await spendCredit(user, credits);
+    }
 
     // Accumulate: cache this curation so the next explorer gets it free + instant.
     if (result.items.length) {
@@ -258,15 +263,17 @@ router.post("/", requireAuth, async (req, res) => {
 
 // Status — remaining consults today (daily allowance + earned credits). Spends nothing.
 router.get("/status", requireAuth, async (req, res) => {
+  const admin = isAdmin(req.user);
   const bucket = dayBucket();
   const dailyUsed = await getUsage(req.user.id, bucket);
   const dailyLimit = dailyLimitFor(req.user);
   const credits = creditsFor(req.user);
   res.json({
     enabled: !!client,
-    usesLeft: Math.max(0, dailyLimit - dailyUsed) + credits,
-    limit: dailyLimit,
+    usesLeft: admin ? 9999 : Math.max(0, dailyLimit - dailyUsed) + credits,
+    limit: admin ? 9999 : dailyLimit,
     credits,
+    unlimited: admin,
     supporter: !!(req.user?.supporter_until && new Date(req.user.supporter_until) > new Date()),
   });
 });

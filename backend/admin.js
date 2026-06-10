@@ -251,4 +251,11 @@ function formatUptime(seconds) {
   return `${m}m`;
 }
 
+// Shared admin check — reused by other modules (e.g. the Archivist's unlimited bypass).
+function isAdmin(user) {
+  const email = ((user && user.email) || "").toLowerCase();
+  return ADMIN_EMAILS.includes(email);
+}
+
 module.exports = router;
+module.exports.isAdmin = isAdmin;

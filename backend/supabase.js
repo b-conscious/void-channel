@@ -61,7 +61,9 @@ async function optionalAuth(req, res, next) {
       .eq("id", user.id)
       .single();
 
-    req.user = profile || { id: user.id, email: user.email };
+    // Always carry the auth email onto req.user (the profiles row has no email column,
+    // so without this admin checks that rely on req.user.email silently fail).
+    req.user = profile ? { ...profile, email: user.email } : { id: user.id, email: user.email };
     req.accessToken = token;
   } catch (err) {
     console.warn("[auth] token validation failed:", err.message);
