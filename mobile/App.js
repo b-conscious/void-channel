@@ -13,6 +13,7 @@ import { GenerationProvider } from './src/context/GenerationContext';
 import { AuthProvider } from './src/context/AuthContext';
 import { GameProvider } from './src/context/GameContext';
 import Navigation from './src/navigation';
+import VoidIntro from './src/components/VoidIntro';
 
 SplashScreen.preventAutoHideAsync();
 
@@ -158,6 +159,7 @@ export default function App() {
               <GameProvider>
                 <StatusBar style="light" />
                 <Navigation />
+                <VoidIntro />
               </GameProvider>
             </AuthProvider>
           </GenerationProvider>
