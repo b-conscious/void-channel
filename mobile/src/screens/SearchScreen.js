@@ -365,6 +365,8 @@ export default function SearchScreen({ navigation, route }) {
         </View>
       ) : (
         <FlatList
+          // Remount when the column count changes — RN forbids changing numColumns on the fly.
+          key={'grid-' + COLS}
           data={results}
           keyExtractor={(item) => item.id}
           numColumns={COLS}
