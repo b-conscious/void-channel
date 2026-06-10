@@ -67,9 +67,13 @@ function fetchClipManifest() {
     .catch(function () { /* keep defaults */ });
 }
 
+// Loaders now play YOUR single hand-cut void-stream edit (the lo rendition) — not random AI
+// dissolve clips (those are retired to public/static/_disabled/). No random pick, no seek: the
+// stream is already cut into ~8-second scenes, so we just let it play through + loop. Per-instance
+// brightness still gives the "wall of TVs" look, and StaticVideo falls back to the pulsing VOID if
+// the file 404s. (Name kept as getRandomClip so its callers — clipUrl + preload — are untouched.)
 function getRandomClip() {
-  var idx = Math.floor(Math.random() * STATIC_CLIPS.length);
-  return STATIC_BASE + STATIC_CLIPS[idx];
+  return STATIC_BASE + '/static/void-stream.mp4';
 }
 
 // Preload one clip in the background (call once after app loads)

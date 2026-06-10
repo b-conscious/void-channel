@@ -29,20 +29,26 @@ by **Church of American Strength & Hope** (501c3), donation-supported. React Nat
 - **DONATE_URL:** `https://square.link/u/dJioBmlW`
 - **SQL already run** in Supabase (`backend/schema-archivist.sql`): `archivist_usage`, `profiles.supporter_until`, `profiles.archivist_credits`.
 
-## 3. ⚠️ Biggest pending USER action: re-export the void stream
-`backend/public/static/void-stream.mp4` is **67 MB and NOT fast-start** (moov atom at the END).
-This blocks: random-start seeking, fast loading, and smooth play. **Fix = re-export via HandBrake**
-(handbrake.fr): check **"Web Optimized"** (fast-start), 480p (854px wide), H.264 RF≈30, keep audio →
-~5–15 MB. Drop into `backend/public/static/void-stream.mp4` (same name). Then commit+push it.
-Verify fast-start by reading top atoms — `ftyp … moov …` (good) vs `ftyp … mdat …` (bad). This unblocks
-the loaders, the audio intro, and the Now Playing channels.
+## 3. The void stream — RE-EXPORTED + WIRED (was the biggest pending action)
+✅ **DONE by user:** the void stream is re-encoded and split into two renditions, both in
+`backend/public/static/`:
+- **`void-stream.mp4`** = the **lo** rendition (now **14 MB**, down from the 67 MB HEVC) — used by the loaders.
+- **`void-stream-hi.mp4`** = the **hi** rendition (**35 MB**) — used by the intro on desktop.
+  *(Was uploaded as `void-stream-hi..mp4` — double-dot typo — now renamed.)*
+- The 4 random AI dissolve clips are retired to `public/static/_disabled/` — loaders no longer use them.
 
-**⚠️ The current file is H.265/HEVC** — Chrome/Firefox often can't play HEVC at all. **MUST re-encode to H.264.**
+✅ **DONE (wiring, this session):**
+- `VoidLoader.js` → `getRandomClip()` now returns the single `/static/void-stream.mp4` (the lo) for
+  ALL loaders. No random pick, no seek (respects the ~8-second scene cuts); per-instance brightness
+  keeps the "wall of TVs" look; 404 → graceful fallback to the pulsing VOID.
+- `VoidIntro.js` → plays `void-stream-hi.mp4` when `window.innerWidth > 900` (desktop showcase),
+  else `void-stream.mp4` (mobile). First tap unmutes — this is where the audio edit comes alive.
 
-**Two-rendition plan (user's idea — adaptive quality):** export TWO H.264 MP4s, keep audio in both:
-- **`void-stream-lo.mp4`** — loaders: 480p (854×480), ~0.8–1 Mbps, **~5–8 MB**.
-- **`void-stream-hi.mp4`** — intro/hero showcase: 720p (1280×720), ~3–5 Mbps, **~20–40 MB**.
-- **WIRING TODO (not done yet):** `VoidLoader.js` → use `void-stream-lo.mp4` for loaders (drop the manifest-random for the single stream). `VoidIntro.js` → use `void-stream-hi.mp4` on desktop, `void-stream-lo.mp4` on mobile. Each 404s → graceful fallback (pulse / brand-only), so safe to wire ahead.
+**⚠️ STILL VERIFY:** that the re-encodes are actually **H.264 + fast-start** (the old file was H.265/HEVC,
+which Chrome/Firefox can't play → would fall back to the pulse). Check top atoms `ftyp … moov …` (good)
+vs `ftyp … mdat …` (bad). And these assets must be **committed** so Render serves them in prod.
+
+**Still TODO:** the **Now Playing channels** (§2) can reuse the same stream once built.
 
 ---
 

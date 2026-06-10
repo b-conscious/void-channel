@@ -22,7 +22,10 @@ var STATIC_BASE = __DEV__
       : 'http://localhost:3001')
   : 'https://api.voidtv.net';
 
-var STREAM_URL = STATIC_BASE + '/static/void-stream.mp4';
+// Desktop gets the hi rendition (the showcase); mobile gets the lighter lo (void-stream.mp4).
+// Web-only component, so window is available at eval; the intro plays once at load.
+var STREAM_URL = STATIC_BASE + '/static/void-stream'
+  + ((typeof window !== 'undefined' && window.innerWidth > 900) ? '-hi' : '') + '.mp4';
 
 export default function VoidIntro() {
   if (Platform.OS !== 'web') return null;
