@@ -729,7 +729,7 @@ for (const cat of CATEGORIES) {
 
 // ── Generational era-lean — the "signal" default ordering (Bryan) ─────────────────────────────
 // The default browse display leans to the user's content era WITHOUT walling the rest off:
-//   • boomer     → oldest-first, works up (lead ~1930–1975); FULL cross-era variety mixed in
+//   • boomer     → leads from the '60s, works up (lead ~1960–1985); FULL cross-era variety mixed in
 //   • millennial → the middle, works up to current (lead ~1980–2012); FULL cross-era variety
 //   • genz       → recent-first (lead 2005+), but variety reaches back to the '70s (floor 1970) —
 //                  '70s/'80s content is "good gen z cringe" (Bryan); still the only gen with a floor,
@@ -739,7 +739,7 @@ for (const cat of CATEGORIES) {
 // their authored shape. SEARCH is never touched. The lean shapes the ANCHOR (the lead of each row);
 // the deep/variety pull stays cross-era (except genz's floor). Tunable — just edit the windows.
 const GENERATION_ERAS = {
-  boomer:     { anchor: { from: 1930, to: 1975, sort: 'year asc'  }, floor: null },
+  boomer:     { anchor: { from: 1960, to: 1985, sort: 'year asc'  }, floor: null },
   millennial: { anchor: { from: 1980, to: 2012, sort: 'year asc'  }, floor: null },
   genz:       { anchor: { from: 2005, to: null, sort: 'year desc' }, floor: 1970 },
 };
@@ -928,7 +928,29 @@ function diversify(items, maxPerKey = 2) {
   return out;
 }
 
+// ── Archive circuit-breaker ──────────────────────────────────────────────────────────────────
+// When archive.org starts failing (timeouts / 5xx — usually because it's rate-limiting OUR IP),
+// retrying just prolongs the limit window. After a burst of consecutive failures we OPEN the breaker:
+// every search() returns [] IMMEDIATELY without touching Archive, for a short cooldown — so its limiter
+// can relax. One success closes it again. This stops the warm + searchBlended's empty-result fallbacks
+// from hammering a throttled Archive — the exact failure that took the home wall down (an over-eager
+// warm got the IP rate-limited, then the retries kept it limited).
+let _archiveFails = 0;
+let _archiveCircuitUntil = 0;
+const ARCHIVE_FAIL_THRESHOLD = 6;   // consecutive failures that trip the breaker
+const ARCHIVE_COOLDOWN_MS = 60000;  // 60s breather before we probe Archive again
+function _noteArchiveFail() {
+  _archiveFails++;
+  if (_archiveFails >= ARCHIVE_FAIL_THRESHOLD && Date.now() >= _archiveCircuitUntil) {
+    _archiveCircuitUntil = Date.now() + ARCHIVE_COOLDOWN_MS;
+    console.warn(`[archive] circuit OPEN ${ARCHIVE_COOLDOWN_MS / 1000}s — backing off; Archive is rate-limiting us`);
+  }
+}
+
 async function search(query, rows = 25, page = 1, sort = "downloads desc") {
+  // Breaker open → skip the call so Archive's rate-limit window can expire (don't hammer it).
+  if (Date.now() < _archiveCircuitUntil) return [];
+
   const fields = ["identifier", "title", "description", "year", "creator", "downloads", "runtime", "subject"];
   const fieldStr = fields.map((f) => `fl[]=${f}`).join("&");
   const sortParam = `sort[]=${encodeURIComponent(sort)}`;
@@ -943,12 +965,14 @@ async function search(query, rows = 25, page = 1, sort = "downloads desc") {
   // Return [] so callers degrade to an empty result. (Routes must not cache empty — see server.js.)
   try {
     const res = await fetch(url, { headers: { "User-Agent": "VoidChannel/0.3" }, timeout: 15000 });
-    if (!res.ok) { console.warn(`[archive.search] HTTP ${res.status}`); return []; }
+    if (!res.ok) { console.warn(`[archive.search] HTTP ${res.status}`); _noteArchiveFail(); return []; }
     const data = await res.json();
     const docs = data?.response?.docs || [];
+    _archiveFails = 0; // success → close the breaker (reset the failure streak)
     return docs.map(normalizeItem);
   } catch (e) {
     console.warn(`[archive.search] ${e && e.message}`);
+    _noteArchiveFail();
     return [];
   }
 }
