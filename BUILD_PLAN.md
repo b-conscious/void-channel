@@ -354,3 +354,72 @@ collapse · `aa4eb9c` VoidStatic video fix ·
 TVs + clean URLs · `ac08422` row coloration + void-fill · `3a060ca` wall desktop + channel-surf ·
 `4e4cd31` mobile wall + search resilience · `ac9b4c5` content rollout (TV/Banned/genre treatment) ·
 `d212d50` fast-start videos · `01e96b9` VoidStatic · `410298b` generational treatment + mobile bug batch.
+
+## 16. SESSION HANDOFF #2 (the big debug+feature session — read this first)
+Live on `master` @ **`68c7e92`**, pushed (tree clean). A LOT shipped + we **caused & recovered a ~40-min
+prod outage**. The hard-won nuances below are the real value — a fresh session would miss them.
+
+### ⚠️ DEPLOY / INFRA NUANCES (these bit us hard)
+- **Render auto-deploy OFTEN doesn't cut over.** It shows "Deploy live for <sha>" but the OLD process keeps
+  serving (check `/health` uptime — if it keeps climbing, it never restarted). **Fix: Render → Manual Deploy →
+  "Deploy latest commit"** (or **Suspend → Resume** if a restart won't take). Always manual-deploy backend changes
+  and confirm uptime resets to ~0. This cost us ~40 min of confusion mid-outage.
+- **Archive.org rate-limits Render's IP if you hammer it.** A 5×-per-gen category warm (the original era-lean)
+  throttled Archive → every gen request timed out (120s+) → home wall down for everyone. **DON'T multiply
+  Archive fetching** (no per-gen full-category fetches, no aggressive warm). A **circuit-breaker** now guards
+  `archive.search` (6 consecutive fails → return [] for 60s, no Archive call) — keep it.
+- **Static videos** (loaders) live in `backend/public/static/` → served by **Render** (need a backend deploy to
+  appear). Must be **H.264 + AAC + fast-start**: `ffmpeg -i src -c copy -movflags +faststart out.mp4` (moov→front).
+  ffmpeg is at `C:\Users\bryan\ffmpeg\ffmpeg-2026-06-08-git-...full_build\bin`. (`search-loading.mp4` was added
+  this way — **needs a Render manual-deploy to serve**, else it 404s.)
+- **Frontend = Vercel (auto-deploys on push, cutover reliable). Backend = Render (manual-deploy reliable).**
+- **Claude Preview tool can't render this app's desktop (>900px).** Verify via the Metro bundle instead:
+  `curl -s "http://localhost:8081/index.bundle?platform=web&dev=true" | head -c 40` → starts `var __BUNDLE_START_TIME__`.
+  Bryan's Metro usually runs on :8081. Desktop visual changes = Bryan verifies on the live site.
+
+### What shipped (grouped)
+- **Generational era-lean** (the "signal" default, on the **Browse wall** — NOT SignalScreen which is profile):
+  boomer leads **'60s**, millennial mid→up, genz recent→**'70s** floor. **HOME lean = cheap in-memory reorder
+  (`archive.applyEraLean`) of ONE shared base payload** — see [[voidtv-generational-era-lean]]. Deep lean per
+  category in `searchBlended(opts.era)`. `reshuffleCats` must SKIP recognizable rows (else it scrambles the order).
+- **Mature content**: SEQUESTERED off the default wall (`typeCats` drops `c.mature`), reachable via the **18+ chip
+  (desktop) / drawer toggle (mobile)**, **MEMBERS-ONLY** (gate on `isAuthenticated && !isAnonymous` — anonymous
+  sign-in IS enabled). Bryan's stance: **not censorship — corral + accessible**. See [[voidtv-social-mirror-junk]].
+- **Search**: 50 rows + LOAD MORE (append) + infinite scroll + RE-ROLL (`?sort=` whitelist). Loader = the big
+  `search-loading.mp4` clip. The `runtime` duration filter is still the broken lexical compare (§9 SNACKS bug).
+- **Player**: top-left **VOIDtv logo = return to wall + end viewing**; **blur+unmount listener pauses video on
+  EVERY exit** (expo-video doesn't release `<video>` on web — fixed the "audio keeps playing"); always-visible exit.
+- **Removed `VoidStatic`** — its app-wide `mixBlendMode` overlay was blacking out `<video>` in fullscreen (§6 killer).
+- **Wall top cleanup**: Trending Now + For You removed; **Void Snacks now after row 1 then every 3** (`idx%3===0`);
+  **Continue Watching** compact row under the first snacks (loads history on focus; re-opens from start — no resume yet).
+- **DONATE** button replaced SURPRISE ME (header). **Crispness** theme pass (deeper bg, brighter/cleaner edges).
+- **Void TVs stagger 10s apart** by mount order (VoidLoader `_staticVideoSeq`).
+- §15.3 **"!" related cards** fixed (`hasRealTitle` drops zero-alphanumeric social-mirror junk; Unicode-aware).
+
+### ⚠️ THE NEXT BIG THING — header/hamburger refactor (Bryan wants this, NOT done)
+A persistent **full-width** top bar on EVERY screen, **hidden in fullscreen**: `☰ hamburger · VOIDtv logo(=back/wall)
+· centered search · user · ♥ Donate`. The **hamburger opens the nav** (reuse the existing `DrawerMenu`), and the
+**left sidebar + its collapse-arrow are REMOVED**, content goes full-width. (Bryan flip-flopped then confirmed:
+**hamburger YES, arrow GONE.**) It's all-or-nothing — removing the sidebar means the header must carry nav
+everywhere — so build it as ONE cohesive pass + Bryan verifies live. NOTE: `SidebarContext.sidebarWidth` is
+currently pinned to `EXPANDED_W` (a stop-the-reflow stopgap) and `DesktopSidebar` self-sizes from `collapsed`;
+the refactor supersedes both.
+
+### Pending queue (besides the header)
+- **Rabbit-hole**: first-3-identical + duplicates → stronger dedupe (Archive ships the same film under different
+  identifiers; base-id dedupe isn't enough — use title-root). + **exclude already-watched** (filter against local history).
+- **Player**: "click video → it switches a couple times" (`handleVideoError` skipping mid-load). **Fullscreen won't
+  *engage*** (dt+mobile) — re-test now VoidStatic's gone; the black-screen was that overlay, the not-entering is separate.
+- **Gating leak (Bryan: important)**: mature must NOT appear in **popular/most-watched/community** rows
+  (`views`/`hearts`/`trending` store items with no mature flag). Plan: client flags mature on record → backend filters.
+  Also: **Community Loves / Subscriptions / Spotlight** are still above the genre wall — Bryan may want them gone too.
+- **"Graphic" = catch-all category for medical + violence** (corral + fence off the wall, same pattern as mature).
+- **Comment username** shows the default (`void_xxxx`) when signed in — resolve the profile username.
+- Continue Watching **resume-from-position**. Search **chips rotate** per visit. Remove the now-dead **trending/forYou
+  fetches** (still fetched, not rendered). Boomer/genz era windows are tunable (`GENERATION_ERAS`).
+
+**This session's commits (newest→oldest):** `68c7e92` search-loading video · `0fa18da` continue-watching ·
+`ef98f72` wall-top cleanup + snacks reorder · `c9011bd` donate button · `669ed66` audio-stops-on-navigate ·
+`32fe846` search void-TV wall · `479fb40` sidebar no-reflow · `f5c9aeb` VOIDtv exit logo · `abba016` crispness +
+mature-sequester + remove-VoidStatic · `c736ec1` circuit-breaker (outage recovery) · `27a95db` redeploy ·
+`cfe1700` in-memory era-lean hotfix · `3cd7ccd` era-lean + search load-more/re-roll + snacks arrows + "!" fix.
