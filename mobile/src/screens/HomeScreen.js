@@ -255,12 +255,13 @@ export default function HomeScreen({ navigation }) {
           setAllCategories(varied);
           setLoading(false);
           pickHero(varied);
-          // If cache is stale (>10 min), pull fresh content in the background.
-          // Use the FAST blended path (refresh), NOT the slow/fragile live shuffle, and
-          // only swap it in if it actually has content (guards against Archive throttling).
+          // If cache is stale (>10 min), pull fresh content in the background — from the
+          // FAST cached endpoint (the backend self-warms it). NOT refresh=true: that forces a
+          // slow ~47-collection fetch that can exceed Cloudflare's 100s timeout → 524 → "CORS"
+          // error. The cached endpoint is instant and always has CORS headers.
           const ts = await store.getCategoriesTimestamp?.() || 0;
           if (Date.now() - ts > 10 * 60 * 1000) {
-            api.getCategories({ refresh: true }).then((fresh) => {
+            api.getCategories().then((fresh) => {
               if (hasRealContent(fresh)) {
                 const v = reshuffleCats(fresh);
                 setAllCategories(v);
@@ -284,9 +285,9 @@ export default function HomeScreen({ navigation }) {
         pickHero(varied);
         return;
       }
-      // Repopulate — fresh content via the FAST blended path (reliable, ~seconds),
-      // never the slow deep-page shuffle. Guard against empty/throttled responses.
-      const data = await api.getCategories({ refresh: true });
+      // Repopulate — pull from the FAST cached endpoint (reliable, instant, has CORS).
+      // Never refresh=true (slow, can 524/CORS-fail). Variety comes from the client reshuffle.
+      const data = await api.getCategories();
       if (hasRealContent(data)) {
         const varied = reshuffleCats(data);
         setAllCategories(varied);
