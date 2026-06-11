@@ -232,6 +232,10 @@ export default function Navigation() {
     if (!route) return;
     setActiveRoute(route.name);   // drives hiding the chrome on the Player
     if (Platform.OS !== 'web' || typeof document === 'undefined') return;
+    // Release focus on every navigation. The element that was clicked to navigate (a card,
+    // a button) otherwise keeps focus inside the now display:none + aria-hidden old screen,
+    // which Chrome blocks and logs, and which traps assistive-tech users in a hidden tree.
+    try { if (document.activeElement && document.activeElement.blur) document.activeElement.blur(); } catch (e) {}
     var titles = { Main: 'VOIDtv', Search: 'Search — VOIDtv', Auth: 'Sign In — VOIDtv', Playlists: 'Playlists — VOIDtv', Admin: 'Admin — VOIDtv' };
     if (route.name === 'Player') {
       var name = (route.params && route.params.item && route.params.item.title) || (route.params && route.params.id) || 'Watch';
