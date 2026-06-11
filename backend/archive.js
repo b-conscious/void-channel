@@ -729,42 +729,70 @@ for (const cat of CATEGORIES) {
 
 // ── Generational era-lean — the "signal" default ordering (Bryan) ─────────────────────────────
 // The default browse display leans to the user's content era WITHOUT walling the rest off:
-//   • boomer     → leads from the '60s, works up (lead ~1960–1985); FULL cross-era variety mixed in
-//   • millennial → the middle, works up to current (lead ~1980–2012); FULL cross-era variety
+//   • boomer     → leads from the '60s, works up (lead ~1960–1985); cross-era variety trails
+//   • millennial → the middle, works up to current (lead ~1980–2012); cross-era variety trails
 //   • genz       → recent-first (lead 2005+), but variety reaches back to the '70s (floor 1970) —
 //                  '70s/'80s content is "good gen z cringe" (Bryan); still the only gen with a floor,
 //                  so it never drops to 1930s–50s reels, just down to the '70s
-// Applied ONLY to the recognizable genre/nostalgia rows (which already include The TV Set +
-// Feature Films) — the weird/deep void rows, decade rows, Silent Era, dedicated shows + mature keep
-// their authored shape. SEARCH is never touched. The lean shapes the ANCHOR (the lead of each row);
-// the deep/variety pull stays cross-era (except genz's floor). Tunable — just edit the windows.
+// HEAVIER + WALL-WIDE (Bryan: "heavier lean for all"): applies to EVERY row except the rows whose
+// identity IS an era or a ranking — decade rows, the dedicated show rows, The Silent Era, mature,
+// and fixed-sort community rows (Most Popular). The weird/deep void rows keep their deep-obscure
+// CONTENT (the blend is untouched) but their display ORDER now leans to the generation too — they
+// were the old-skew mass at the top of the wall. SEARCH is never touched. Tunable windows below.
 const GENERATION_ERAS = {
   boomer:     { anchor: { from: 1960, to: 1985, sort: 'year asc'  }, floor: null },
   millennial: { anchor: { from: 1980, to: 2012, sort: 'year asc'  }, floor: null },
   genz:       { anchor: { from: 2005, to: null, sort: 'year desc' }, floor: 1970 },
 };
+
+// Rows the era-lean must never touch: their items stay exactly as authored.
+const ERA_EXEMPT_IDS = new Set(['silent_film']);
+function eraExempt(cat) {
+  if (!cat) return true;
+  if (cat.group === 'decade' || cat.group === 'show') return true;  // era/series-defined rows
+  if (cat.mature || cat.sort) return true;                          // sequestered + rank-ordered rows
+  return ERA_EXEMPT_IDS.has(cat.id);
+}
+
 // Returns the era-lean config for a (generation, category) pair, or undefined when no lean applies
-// (unknown gen, or a row that isn't a recognizable genre/nostalgia row).
+// (unknown gen, or an era-exempt row).
 function eraFor(gen, cat) {
-  if (!gen || !cat || !cat.recognizable) return undefined;
+  if (!gen || !cat || eraExempt(cat)) return undefined;
   return GENERATION_ERAS[gen];
 }
 
-// Cheap, in-memory era-lean for the HOME payload: reorder each recognizable row's items by the
+// Cheap, in-memory era-lean for the HOME payload: reorder every non-exempt row's items by the
 // generation's year lean — NO Archive fetches. This lets /api/categories serve a per-gen lean
 // derived from the ONE shared (no-gen) payload, instead of fetching all ~80 categories once per
 // generation (which overwhelmed Archive.org → request timeouts). Weaker than the per-category true
 // lean (getCategoryItems still does the deep year-windowed fetch for the See-More page), but it's
 // instant + reliable and keeps the home wall leaning. Pure function; returns a new array.
+//
+// HEAVIER (v2): the lean shapes the whole wall, not just a row's interior —
+//   • each row's FACE is pure in-era (PURE_HEAD cards before any variety weaves in; was slot 2)
+//   • off-era items rank by PROXIMITY to the era window, so far-off decades always trail
+//   • genz's 1970 floor applies to every leaned row (never-blank-a-row guard kept)
+//   • ROW ORDER leans too: rows are scored by how era-fitting their face is, so e.g. a 1930s-heavy
+//     PSA row sinks for genz and the decade rows drift toward their own generation
 function applyEraLean(categories, gen) {
   const eraDef = GENERATION_ERAS[gen];
   if (!eraDef || !Array.isArray(categories)) return categories;
   const { anchor, floor } = eraDef;
   const yearOf = (it) => { const y = parseInt(it && it.year, 10); return Number.isFinite(y) ? y : null; };
   const dir = anchor && anchor.sort === 'year desc' ? -1 : 1;
+  // Distance (in years) from the era window — 0 = inside it, 999 = unknown year.
+  const winDist = (y) => {
+    if (y == null) return 999;
+    if (anchor.from != null && y < anchor.from) return anchor.from - y;
+    if (anchor.to != null && y > anchor.to) return y - anchor.to;
+    return 0;
+  };
 
-  return categories.map((cat) => {
-    if (!cat || !cat.recognizable || !Array.isArray(cat.items) || cat.items.length < 3) return cat;
+  const PURE_HEAD = 6;   // the row face: this many pure in-era cards before any variety
+  const WEAVE_EVERY = 4; // then one variety card every N era cards
+
+  const leaned = categories.map((cat) => {
+    if (eraExempt(cat) || !Array.isArray(cat.items) || cat.items.length < 3) return cat;
     let items = cat.items;
 
     // genz: keep only items at/above the floor (mid-to-current) — but never blank a row.
@@ -773,26 +801,25 @@ function applyEraLean(categories, gen) {
       if (kept.length >= 3) items = kept;
     }
 
-    // Split into the era window (the lead, year-sorted in the lean direction) + the rest (variety).
+    // Split into the era window (the lead, year-sorted in the lean direction) + the rest.
     const lead = [], rest = [];
-    for (const it of items) {
-      const y = yearOf(it);
-      const inWin = y != null
-        && (!anchor || anchor.from == null || y >= anchor.from)
-        && (!anchor || anchor.to == null || y <= anchor.to);
-      (inWin ? lead : rest).push(it);
-    }
+    for (const it of items) (winDist(yearOf(it)) === 0 ? lead : rest).push(it);
     lead.sort((a, b) => dir * ((yearOf(a) || 0) - (yearOf(b) || 0)));
+    // Off-era items: closest-to-the-window first (ties break in the lean direction), so when a row
+    // has little or no in-era content it still leads with its most era-adjacent items.
+    rest.sort((a, b) => {
+      const da = winDist(yearOf(a)), db = winDist(yearOf(b));
+      return da !== db ? da - db : dir * ((yearOf(a) || 0) - (yearOf(b) || 0));
+    });
 
-    // Weave variety through the year-ordered lead (same shape as searchBlended's era weave).
+    // Pure in-era face, then weave the (proximity-ranked) variety in sparsely.
     let woven;
     if (lead.length && rest.length) {
-      woven = [];
-      const everyN = Math.max(2, Math.round(lead.length / rest.length));
+      woven = lead.slice(0, PURE_HEAD);
       let ri = 0;
-      for (let i = 0; i < lead.length; i++) {
+      for (let i = PURE_HEAD; i < lead.length; i++) {
         woven.push(lead[i]);
-        if ((i + 1) % everyN === 0 && ri < rest.length) woven.push(rest[ri++]);
+        if ((i - PURE_HEAD + 1) % WEAVE_EVERY === 0 && ri < rest.length) woven.push(rest[ri++]);
       }
       while (ri < rest.length) woven.push(rest[ri++]);
     } else {
@@ -800,6 +827,26 @@ function applyEraLean(categories, gen) {
     }
     return { ...cat, items: woven };
   });
+
+  // Row-order lean: score each row by how era-fitting its face is (in-window = 1, decaying per
+  // decade away, unknown years a small constant) and surface the best fits first. Exempt rows are
+  // scored on their authored items, so old decade rows naturally sink for genz and rise for boomer.
+  // Stable tiebreak keeps the authored order between equal rows. The client's banded reshuffle
+  // jitters within this spine for per-visit variety without undoing it.
+  const rowScore = (cat) => {
+    if (!cat || !Array.isArray(cat.items) || cat.items.length === 0) return -1;
+    const face = cat.items.slice(0, 10);
+    let s = 0;
+    for (const it of face) {
+      const d = winDist(yearOf(it));
+      s += d === 999 ? 0.2 : 1 / (1 + d / 10);
+    }
+    return s / face.length;
+  };
+  return leaned
+    .map((cat, i) => ({ cat, i, s: rowScore(cat) }))
+    .sort((a, b) => (b.s - a.s) || (a.i - b.i))
+    .map((x) => x.cat);
 }
 
 function stripHTML(str) {
