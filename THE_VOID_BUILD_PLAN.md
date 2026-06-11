@@ -26,6 +26,62 @@ This is the single source of truth for strategy and build order. It supersedes a
 - **Determinations:** choices reserved for B, made during the sprint by ear or judgment.
 - **Failure surfaces:** where this job will break first, named so the break is expected and cheap.
 ---
+## 0. THE CURATION COMMONS (cross-cutting, applies to every JOB)
+THE VOID is curated the way Wikipedia is written: by the people using it. The Archive's noise
+is raw material; turning it into signal is the product, and USERS do it alongside B. This is
+not a feature on the list, it is the thread through the list. B's ruling 2026-06-11: "the user
+curation part of this in the wikipedia sense needs to be all through this."
+
+**The mechanisms (existing and planned):**
+- X-Ray contributions (LIVE in Void Channel): users add metadata to items, earn XP.
+- Ratings as SIGNAL STRENGTH (JOB_15): explicit quality signal, Bayesian-weighted.
+- The witnessed log (JOB_17): watching at-risk items before they vanish is itself curation.
+- Flag and correct (JOB_8 cross-links, JOB_13 rights): bad matches and wrong rights get fixed
+  by whoever notices.
+- Highlights and marginalia (JOB_12): readers map the texts.
+- Editorial hooks (JOB_14): B's voice leads; community-suggested hooks become a pipeline later.
+- The Archivist profile (JOB_16): self-authored taste is curation of one's own signal.
+
+**The contract:** every contribution is visible on the contributor's profile, earns XP, and
+feeds the composite rank (JOB_15) so human judgment, not engagement mechanics, orders the void.
+**VOICE PRIMACY (B's ruling, 2026-06-11):** B's voice leads and is never displaced by the
+recommendations imported from the field or by community edits. B's entries are the editorial
+layer of record (`voice:b`, only B edits them). Community contributions are SIGNED, subordinate,
+and enrich what B has not claimed. The Cultpix lesson supplies mechanics, not the author.
+
+---
+## 0-B. RIGHTS POSTURE AND CONTENT BOUNDS (B's rulings, 2026-06-11)
+- **Posture:** THE VOID is a discovery and curation UI over media the Internet Archive hosts
+  and serves, funded by a nonprofit church to curate and show the beauty of human creativity
+  at a time that is needed for the soul. The bytes live at IA; VOID points, frames, curates.
+  Rights metadata (JOB_13) INFORMS the experience (labels, gems lists, vanish heuristics); it
+  does not gate curation. Structural compliance is automatic: when IA pulls an item, the next
+  sync loses it.
+- **NSFW:** nearly every kind is admitted, UNDER THE MATURE CORRAL (18+, members-only, off the
+  default wall, and off popular/community rows once the leak fix in the debt register ships).
+- **Hard excludes everywhere, including inside the corral:** hate/extremist material and
+  politics/government/news content. (Categories excluded by law or by IA's own policies are
+  excluded as a matter of course.)
+- Counsel remains an advisory checkpoint on JOB_17 specifically; it is not a gate on this
+  posture.
+
+---
+## 0-C. PLATFORM RULING (B, 2026-06-11): THE WEB IS THE PRODUCT
+The product ships as the web app plus PWA: installable from the browser, home-screen icon,
+web push, instant updates on deploy, no store gatekeeper. This is strategy, not settling:
+no app store would carry the corral, the PWA install grants audible autoplay in Chrome
+(installed users open INTO the soundscape; iOS remains one-tap-per-session by Apple policy,
+served by the TAP TO ENTER gate), and one codebase preserves the velocity engine.
+**Parked with the native lane:** JOB_2's engine swap, JOB_4's react-native-track-player half,
+react-native-media-console (accepted as the native control base, dissolves while native is
+parked), Notifee, the VLC fallback. Reopen on evidence, not on principle. JOB_2's remaining
+WEB items (next-up overlay, metadata-only preload) fold into the active lanes. TV reach in the
+meantime: Chromecast from the web app, TV browsers, and the deck/projector mode.
+**The long game:** contributed metadata flows UPSTREAM. The Archive itself gets better because
+VOID users hunted here. That is the church giving labor back to the commons, and it is the
+strongest line in the IA partnership letter after the grant.
+
+---
 ## 1. ARCHITECTURE
 ```
                     THE ARCHIVE SPINE
@@ -102,6 +158,8 @@ Categories may also carry the flags the existing backend already uses for shapin
 ```json
 {
   "id": "",
+  "source": "ia | nasa | commons | loc (absent means ia; non-ia ids are prefixed, JOB_13)",
+  "rights": "licenseurl or rights statement when the source provides one (JOB_13)",
   "type": "video | audio | game | text",
   "title": "",
   "creator": "",
@@ -315,6 +373,189 @@ REMAINING in this job: the native engine swap itself, native PiP, preloading, su
 **Failure surfaces:** OCR quality on old scans (disable highlight where no text layer). Honor-system scores being gamed (social defense: small community, names visible).
 **Acceptance:** Play a game, claim a score, see the leaderboard. Highlight a passage in a novel, see it on re-read. Public bookshelf visible to others.
 ---
+### JOB_13: Source Adapters + Ingest Hardening (parallel lane, any time after JOB_1)
+**Build:** Multi-source Spine. Namespaced item ids: new sources REQUIRE a prefix (`nasa:`,
+`commons:`, `loc:`); bare ids remain valid aliases for `ia:` so existing hearts/history/playlists
+never break. Additive `source` field on the item schema (absent means `ia`). Adapter interface in
+`spine/adapters/{source}.js`: search, normalize, getFullItem, resolveStream. Wikidata SPARQL
+enrichment pass at SYNC time (never request time): PD films with IA ids (P724 + P6216=Q19652)
+gain director/cast/genre/date and form the canonical GEMS list that powers the recency ruling's
+"classic gems & cult" curated crates; cross-source availability map stored (P10 Commons files,
+P1651 YouTube ids as LINK-OUTS ONLY). NASA adapter as the template (free key, clean REST, PD
+guaranteed). Rights capture: request `licenseurl` in the IA fl[] set, store per item, document
+the verification step (the Prelinger rule: many are PD, many are NOT, DO NOT ASSUME).
+**Streaming-reliability gate** (the field's number one killer of IA apps): timed range-request
+sampling at sync measures first-byte and sustained throughput on the resolved derivative; items
+under the floor carry `stream_ok:false` and curated surfaces exclude them. Search stays raw.
+Playability reporting extends per source.
+**Source priorities (ruled 2026-06-11):** Wikidata first (the index, not a source), NASA second
+(adapter template), LoC next sprint, AAPB key application submitted early (rights are per-item),
+Commons DEMOTED until platform-aware playability exists (WebM/OGV fails iOS Safari), Europeana
+research, Open Images niche, **YouTube API CUT** (ToS prohibits the use case; P1651 link-outs
+replace it at zero risk).
+**Determinations:** throughput floor values (B tunes by feel on real items). Which crates run the
+gate first. NASA key (instant). AAPB application timing.
+**Failure surfaces:** SPARQL endpoint flakiness (cache hard, partial results acceptable).
+Range-request sampling inflating sync time (sample, never exhaustive). The id-prefix retrofit
+leaking into the frontend (bare ids stay the IA alias by contract).
+**Episode grouping pipeline (folded in from the third field doc):** five-step waterfall at
+sync time, cheapest first: IA collection structure, title regex parse, Wikidata series data
+(P179/P4908/P1545), TMDB fuzzy match (Fuse.js internally, free key, ~40 req/10s, cache hard,
+ATTRIBUTION REQUIRED: "powered by TMDB"), store with `groupingSource` and `confidence`.
+Output: seriesName/season/episode/airDate per item. Surfaces QUIETLY: "Episode 5 of 26" label,
+a "more from this show" doorway, in-order scheduling for the Dial, search enrichment. NOT a
+binge UI. Low-confidence groupings are Edit Layer bait: humans confirm or correct, signed,
+for XP (the commons applied to the machine's guesses).
+**Toolkit adoptions (ruled):** wikibase-sdk for the Wikidata pass; ffprobe (ffmpeg already on
+B's box) joins the streaming gate for codec truth alongside range-request throughput; Fuse.js
+inside the pipeline only (FTS5 stays the search bar). REJECTED: iajs for reads (our layer has
+the breaker and budgets; iajs is reconsidered ONLY as a write-path candidate for upstream IA
+contributions, where the official Python `internetarchive` lib in the stemworks worker is the
+lean). expo-netflix, fast-image, linear-gradient: already covered by shipped work.
+**Acceptance:** a NASA item plays end to end through the normal player with `source:"nasa"`.
+A gems-crate item shows Wikidata enrichment (director, date). An item failing the throughput
+floor is absent from its curated crate but findable in raw search. A Dragnet-style scattered
+series shows grouped episode labels with confidence recorded. Fixtures gain one NASA item
+and one enriched gem.
+
+---
+### JOB_14: The Programming Desk (parallel lane, any time after JOB_1; pairs with the aesthetic remodel)
+**Build:** The editorial heartbeat (the retention mechanism the frictionless model lacks).
+Editorial calendar: scheduled THEME slots (week or month) defined as config (theme id, crate
+refs, copy, window), rendered as a pinned theme section at the top of the wall during the
+window. Double features: two items plus one editorial paragraph on the pairing. Per-item
+editorial hooks: a `hook` field surfaced on cards and the player ("the most unhinged thing the
+US government ever produced"); Opus drafts, B rewrites, stored in Supabase so B edits without
+deploys. Weekly featured rotation. Re-engagement channel v1: opt-in web push plus a "new this
+week" surface; notification copy in B's voice. CHEAP V1 SHIPS FIRST: one pinned theme crate
+with B's copy at the top of the wall.
+**THE DIAL (channel surfing like old TV):** drop into a stream already in progress. A channel
+is an ordered queue with a deterministic schedule; playback position derives from the clock
+(`(now - epoch) mod schedule walked into the queue`), so everyone tuning in sees the SAME
+moment with ZERO server state, and flipping channels lands mid-scene like real broadcast. The
+channel queues, the player's start-at-position seek, and the surf aesthetic already exist;
+this is wiring, not invention. Carried from the ops log (section 4.2 synchronized channels,
+B's yes long predates this plan) and endorsed by the field lessons as the secondary mode:
+browse-and-choose stays the architecture, the Dial is the late-night lean-back layer and the
+single most on-identity mechanic the product can ship. Programming desk themes can schedule
+the dial (Friday night public access block).
+**Launch framing (captured for the press wave):** free, no ads, no account needed, no
+third-party tracking. The honest wording matters: anonymous sessions and first-party view
+counts exist, so the claim is "no ads, no trackers, nothing sold," not a blanket "no tracking."
+**Determinations:** cadence (weekly vs monthly to start). Push provider (self-hosted Web Push
+vs service). Hook storage shape.
+**Failure surfaces:** notification permission UX (ask at a moment of delight, never on load).
+Editorial cadence outpacing B's writing time (Opus drafts in batches, B rewrites).
+**Acceptance:** a theme week renders pinned with copy. A double feature pairs two items with a
+note. A push fires for a scheduled premiere on an opted-in browser. A per-item hook shows on a
+card and the player.
+
+---
+### JOB_15: Signal Strength (ratings + the composite rank)
+**Build:** Carried from ops log section 4.4, the foundation of honest curation. Ratings table
+(`user_id, item_id, value 1-5, item_type`, one row per user/item, upsert). Themed as SIGNAL
+STRENGTH (1 to 5 bars) to fit the aesthetic. **Bayesian average** `(C*m + sum) / (C + count)`
+with global mean m and confidence C around 10, so one 5-star vote never outranks a well-reviewed
+4. Composite rank: Bayesian quality + views + hearts + recency in one score that powers a Top
+Rated row, search ranking, recommendation weighting, and junk demotion. Frontend: signal-bars
+control on the player, score on cards. Rating earns XP (curation commons).
+**Determinations:** the blend weights (B tunes against real rows). Whether the score shows as
+bars or a number on cards.
+**Failure surfaces:** tiny vote counts early (the Bayesian prior is the defense, say so in UI).
+Rating spam (one row per user/item plus XP caps).
+**Acceptance:** rate a film, see bars persist, watch a Top Rated row order by the composite,
+confirm a single 5-star cannot beat an established 4.2.
+
+---
+### JOB_16: The Archivist Profile (the only algorithm)
+**Build:** Carried intact from ops log section 13, the thesis inversion: NO surveillance
+recommendation engine. The only personalization is one the user DELIBERATELY AUTHORS by talking
+to the Archivist. Every conversation extracts and persists likes, dislikes, interests (weighted
+JSON on profiles); each opening conversation asks a couple of taste questions; the profile is
+VISIBLE and EDITABLE on the profile screen (transparency is the trust); it drives exactly one
+personal row ("your row") on the wall. Community signals (trending, hearts, Top Rated) stay,
+those are collective, not personal. Access scales with membership and credits: the donation ask
+becomes "fund your sharper signal," never a paywall.
+**Determinations:** opening-question cadence (every conversation vs first per day). Profile
+field taxonomy.
+**Failure surfaces:** extraction quality (structured output from the Haiku Archivist, validate
+against schema). Profile drift (user edits always win over inferred values).
+**Acceptance:** tell the Archivist two likes and one dislike, see them on the profile screen,
+edit one, watch "your row" change accordingly.
+
+---
+### JOB_17: Before They Vanish (counsel-gated)
+**Build:** Carried from ops log section 14. Surface the at-risk layer with urgency: branded and
+recent full-length items still viewable but statistically likely to be restricted (the
+access-restricted pool proves the pattern). "Fading signals" row, weak-signal dissolve
+treatment scaled by rarity, the WITNESSED LOG (+XP, Hall of Fame for catching a rare signal
+before it died, feeds the curation commons and the Archivist profile).
+**GATE:** counsel advisory before ship (watchlist). B's standing rights posture (section 0-B)
+is the operating doctrine; this row is simply where it is sharpest, so one review earns its
+keep here. If counsel advises reshape, the witnessed-log mechanic survives on PD items.
+**Determinations:** the at-risk heuristic thresholds. Copy intensity.
+**Failure surfaces:** the gate itself (if counsel says reshape, the witnessed-log mechanic
+survives on PD items: "you were one of 12 people ever to watch this").
+**Acceptance:** counsel sign-off recorded, then: a vanish row renders with urgency copy, a
+watched item lands in the witnessed log with XP.
+
+---
+### JOB_18: The Edit Layer (the commons' core mechanic; after JOB_1, pairs with JOB_15)
+**Build:** Wikipedia mechanics, zine voice. Append-only `edits` table (item_id, item_type,
+field, value, author_id, created_at, status: live | queued | reverted). Served value = latest
+live revision per item and field. Fields open first: description, tags; hooks join after
+JOB_14 wiring; title fixes last. VOICE HIERARCHY per section 0: `voice:b` entries are the
+record, only B edits them, community revisions are SIGNED, render with attribution, and never
+displace a `voice:b` value. Trust tiers: under the XP threshold edits queue; over it they
+publish live; revert is one tap for B and high-XP watchers. Every accepted edit earns XP and
+feeds the JOB_15 composite. Per-item history visible. Edit affordance: long-press the
+description on player or card. Export path: accepted revisions exportable as clean metadata
+for upstream contribution to IA (the long game made literal).
+**PREREQUISITES (graduated from the watchlist, ruled 2026-06-11):** the Supabase RLS audit
+and per-IP API rate limiting ship BEFORE any community write path opens. Similarly the
+mature-leak fix (flag mature on record, filter community rows) ships BEFORE the corral
+expands. Performance cost of the layer itself: zero IF served values are materialized on
+write, never resolved per request.
+**Determinations:** XP thresholds. Whether hooks require B acceptance even from trusted
+editors (recommend yes; hooks are the voice).
+**Failure surfaces:** vandalism (attribution, tiers, one-tap revert; signed opinion
+self-moderates). Spam in signed fields (report affordance plus revert). Edit conflicts do not
+exist by construction (append-only, recency wins).
+**Acceptance:** a new user's edit queues; a trusted user's edit goes live; revert restores
+the prior revision instantly; history shows the chain; XP lands; a signed hook renders with
+its author.
+
+---
+### JOB_19: The Installable Void (PWA, push, version handshake)
+**Build:** The platform ruling made real. Web manifest (name, icons, theme color, standalone
+display, splash). Install prompt UX in B's voice ("tune in: install the void"), shown at a
+moment of delight, never on load. iOS add-to-home-screen hint (one time). Web push: VAPID
+keys, subscription store, a small backend sender; powers the Programming Desk notifications.
+Service-worker VERSION HANDSHAKE (watchlist item, same job): API version header plus a "new
+version, tap to refresh" toast, killing the stale-bundle bug class for users and for us.
+Installed-user grace: skip the intro gate and open with sound where the platform allows
+(Chrome grants audible autoplay to installed PWAs; iOS keeps the tap gate by policy).
+**Determinations:** prompt timing and copy (B). Icon set (the remodel's first deliverable).
+**Failure surfaces:** iOS PWA quirks (push only when installed, background audio later).
+Permission fatigue (one ask, well placed, never repeated).
+**Acceptance:** install on Android Chrome and desktop, icon opens standalone with splash.
+A scheduled push arrives with the app closed. A deploy triggers the refresh toast on an old
+tab. An installed Chrome user opens straight into ambient sound.
+
+---
+### VOID CHANNEL DEBT REGISTER (small, tracked in the ops log, paid down opportunistically)
+Carried so nothing silently dies: mobile-native card expand and the faceted See-More
+CategoryScreen (ops log section 12, build order 1 and 2). Mature leak into popular/community
+rows (B: important; client flags mature on record, backend filters). Rabbit-hole dedupe by
+title root plus exclude-already-watched. Continue Watching resume-from-position. Comment
+username showing the default for signed-in users. Remove the dead trending/forYou fetches.
+Favicon. The "Graphic" catch-all corral. Audio-on-show/mute-on-hover scope decision.
+Ops log section 5 (living static background, scroll-focus in/out of the void, card-edge
+static) and section 9-B's remodel note are INPUTS to the aesthetic remodel pass.
+**CONFLICT FOR B:** ops log section 4.3 says founding member is $5/YEAR; JOB_9 says $5-8
+MONTHLY. One number has to win before any tier copy ships (accountant reviews either way).
+
+---
 ## 7. MIXWEAVE BRIDGE (runs independently, after JOB_5 + JOB_9)
 `mixweave ingest --voidradio <crate|playlist>` pulls public domain audio AND ready-made StemSets from the Spine + Void Backend into MIXWEAVE's library. The Shellac Stack and the gospel crate arrive as rights-clean, pre-stemmed mix material. MIXWEAVE's own stem step becomes a cache hit for anything VOID RADIO already separated.
 See MIXWEAVE_BUILD_PLAN.md for the full DJ engine spec (JOB_0 through JOB_7 of that plan). The bridge is MIXWEAVE JOB_9.
@@ -349,7 +590,7 @@ JOB_12  Social (games + text)            COMMUNITY LAYER
   |
 MIXWEAVE BRIDGE                          DJ ENGINE CONNECTED
 ```
-Parallel tracks: JOB_6 and JOB_7 can run any time after JOB_2 (they need the dev client and the Spine, both exist by then; their web surfaces only need the Spine). JOB_9 can run any time after JOB_3 (needs the audio mapper, not the player). This means three build lanes can move simultaneously once the Spine and dev client exist.
+Parallel tracks: JOB_6 and JOB_7 can run any time after JOB_2 (they need the dev client and the Spine, both exist by then; their web surfaces only need the Spine). JOB_9 can run any time after JOB_3 (needs the audio mapper, not the player). JOB_13 (source adapters + ingest hardening) and JOB_14 (the Programming Desk) can run any time after JOB_1 and touch neither the dev client nor each other. TV apps (Apple TV / Android TV / Fire TV via the react-native-tvos fork; Roku is a separate stack) are the platform horizon after JOB_11. This means up to four build lanes can move simultaneously once the Spine and dev client exist.
 Audible, playable, or readable output from every stage. B's senses are the acceptance instrument throughout.
 ---
 ## 9. DEPENDENCY MAP
