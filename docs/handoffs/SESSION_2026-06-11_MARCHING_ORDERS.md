@@ -24,7 +24,7 @@ This file sequences; the plan specifies.
 
 ## Local dev reality
 - Spine :3002 (`cd spine && SPINE_ADMIN_KEY=void-spine-dev node spine.js`), pool survives
-  restarts, 111 crates total after additions, db file gitignored.
+  restarts, 109 crates total (92 seeded + 17 IA-collection additions), db file gitignored.
 - Backend :3001 (`cd backend && node server.js`), SPINE_URL in backend/.env routes ALL
   Archive traffic through the Spine (unset = direct, which is how the Spine itself uses
   archive.js without recursion).
@@ -53,8 +53,14 @@ This file sequences; the plan specifies.
 - Prerequisites FIRST: Supabase RLS audit, per-IP API rate limiting (now blockers, not
   chores). Then JOB_18 Edit Layer, fields description+tags, trust tiers, materialize served
   values on write.
-**PARALLEL LANE when B wants a second thread:** JOB_3 audio mapper (Listen mode begins;
-georgeblood variants, etree sets, the hard one by design).
+**STANDING PARALLEL LANE (runs alongside the moves, worktree agent shape, B approved
+parallel):** JOB_13 source adapters. Pure Spine-side, zero file collision with the Voice
+Loop. First slice: Wikidata enrichment (wikibase-sdk, gems list, cross-source map) + the
+NASA template adapter (namespaced ids). Multi-source is the existential hedge against IA
+concentration, not just content breadth. Needs from B at lane start: NASA key (instant,
+free at api.nasa.gov) and the AAPB key application (submit early, approval is slow).
+**SECOND PARALLEL OPTION when B wants another thread:** JOB_3 audio mapper (Listen mode
+begins; georgeblood variants, etree sets, the hard one by design).
 
 ## Standing rulings ledger (2026-06-11, all B's)
 - Web is the product (PWA). Native lane parked, media-console parked with it. Section 0-C.
