@@ -424,6 +424,17 @@ export default function PlayerScreen({ route, navigation }) {
   // If the optimistic URL fails, fall back to the confirmed URL from metadata
   const triedHQRef = useRef(false);
   const skippedRef = useRef(false);
+  // True when the optimistic URL errored BEFORE metadata arrived. When the confirmed URL
+  // lands, auto-apply it — previously the player sat dead waiting for a manual RETRY tap.
+  const preReadyErrorRef = useRef(false);
+  useEffect(() => {
+    if (preReadyErrorRef.current && !videoReady && item.videoUrl && item.videoUrl !== videoUrl) {
+      preReadyErrorRef.current = false;
+      console.log('[PlayerScreen] Confirmed URL arrived after early error — auto-applying');
+      setVideoUrl(item.videoUrl);
+      setVideoReady(true);
+    }
+  }, [item.videoUrl, videoReady, videoUrl]);
   const handleVideoError = useCallback(() => {
     // Mid-play errors must NEVER hop to a different video (Bryan: "a selected video starts
     // playing and then it jumps to another, unprompted"). A stream that already played real
@@ -445,6 +456,7 @@ export default function PlayerScreen({ route, navigation }) {
     // getItem() returns. Do NOT skip/advance here — that's what made the player jump to a
     // *different* video the instant you tapped one. Wait; Recovery 1 retries the confirmed URL.
     if (!videoReady && !item.videoUrl) {
+      preReadyErrorRef.current = true; // metadata not here yet — the effect above resumes us
       return;
     }
     // Recovery 2: confirmed URL failed → try the HQ derivative once (different encode/codec).

@@ -257,7 +257,11 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
   useEffect(() => {
     if (Platform.OS !== "web" || typeof document === "undefined") return;
     let videoEl = null;
-    const onMediaError = () => { setError("Failed to load video."); onVideoError && onVideoError(); };
+    const onMediaError = () => {
+      if (attemptSilentRetry()) return;
+      setError("Failed to load video.");
+      onVideoError && onVideoError();
+    };
     // The <video> mounts asynchronously; poll briefly until it's there, then attach once.
     const iv = setInterval(() => {
       const el = document.querySelector('[data-vpcontainer="1"] video');
@@ -269,6 +273,9 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
           el.setAttribute("playsinline", "true");
           el.setAttribute("webkit-playsinline", "true");
           el.playsInline = true;
+          // Buffer from the moment the page opens, not from the first tap — browsers default
+          // to preload=metadata, which leaves the stream cold until play() is pressed.
+          el.preload = "auto";
         } catch (e) {}
         el.addEventListener("error", onMediaError);
         clearInterval(iv);
@@ -348,9 +355,34 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
   const { isPlaying } = useEvent(player, "playingChange", { isPlaying: player.playing });
   const { status } = useEvent(player, "statusChange", { status: player.status });
 
-  // Status changes — capture errors
+  // Silent retry ladder: IA first-bytes can take 3-10s and transient errors are common.
+  // Before showing ANY error or bubbling onVideoError, retry the SAME source up to twice
+  // (2s, then 4s). Pre-play only — mid-play errors keep the no-hop overlay behavior.
+  const silentRetryRef = useRef(0);
+  const retryTimerRef = useRef(null);
+  const attemptSilentRetry = useCallback(() => {
+    const everPlayed = lastGoodTimeRef.current > 1.5;
+    if (everPlayed || silentRetryRef.current >= 2) return false;
+    silentRetryRef.current += 1;
+    const delay = silentRetryRef.current * 2000;
+    clearTimeout(retryTimerRef.current);
+    retryTimerRef.current = setTimeout(() => {
+      try { player.replace(videoUrl); player.play(); } catch (e) {}
+    }, delay);
+    return true;
+  }, [player, videoUrl]);
+
+  // New source = clean slate for errors and the ladder; also kill any pending retry.
+  useEffect(() => {
+    setError(null);
+    silentRetryRef.current = 0;
+    return () => clearTimeout(retryTimerRef.current);
+  }, [videoUrl]);
+
+  // Status changes — capture errors (after the silent ladder is exhausted)
   useEffect(() => {
     if (status === "error") {
+      if (attemptSilentRetry()) return;
       setError("Failed to load video. Tap to retry.");
       onVideoError?.();
     } else {
