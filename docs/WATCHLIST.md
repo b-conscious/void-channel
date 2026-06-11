@@ -91,6 +91,10 @@ and relationship items stay tracked at lower volume.
   budget on real low-end hardware once per milestone. (2026-06-11)
 
 ## Relationships
+- **The 1/3-to-IA pledge needs two signatures before it is public copy:** a CASH board
+  resolution authorizing the recurring grant, and the accountant's pass on the disclosure
+  wording. The direct archive.org/donate link is already live in the drawer and needs neither.
+  (2026-06-11)
 - **Talk to the Internet Archive.** A 501(c)(3) church making the Archive usable for humans is
   exactly the story IA likes. A partner contact can mean rate-limit relief, blessed status, and
   resilience the circuit breaker cannot buy. This is a letter B can send; Opus can draft it.

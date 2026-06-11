@@ -284,6 +284,14 @@ REMAINING in this job: the native engine swap itself, native PiP, preloading, su
 - *Daily Bounty:* one free credit per day through the existing DailyBountyCard.
 - *Routing:* RULED BY B: web checkout on Vercel, not in-app purchase. Two streams on one page: OFFERINGS (pure gifts, deductible, the plate) and FUEL (supports that unlock, honestly labeled, not deductible).
 - *Language:* unlock paths say "support" or "fuel," never "donate." Accountant reviews tier copy before launch.
+- *The Internet Archive share (B, 2026-06-11):* one third of donations granted onward to the
+  Internet Archive (a 501c3-to-501c3 grant: clean, normal, donor deduction unaffected). Needs a
+  board resolution + accountant sign-off on the disclosure line before the pledge goes public.
+  SHIPPED ALREADY: a direct "GIVE TO THE INTERNET ARCHIVE" link (archive.org/donate) beside our
+  own in the drawer, zero accounting burden, donor gets IA's receipt. The pledge copy ("a third
+  of everything you give here goes to the Archive") lands after counsel/accountant review.
+  This pairs with the watchlist's IA partnership letter: a church app that SENDS THEM MONEY is
+  the strongest possible opening line.
 - *Cost transparency:* every job shows its approximate compute cost next to the queue button. People fund what they can see.
 **Determinations:** Worker hardware and storage budget. Denoise default for shellac (switchable, B rules by ear on five samples). How visibly the tier-two path is presented (quiet capability vs loud feature; worth real counsel for a public C.A.S.H. app).
 **Failure surfaces:** Separation quality on pre-war mono (UI states the source era plainly). Rights edge cases (resolver defaults to no). Worker crash recovery (idempotent, resumable by design).

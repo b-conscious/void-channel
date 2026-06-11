@@ -199,6 +199,19 @@ export default function DrawerMenu({ nav }) {
               </View>
             </TouchableOpacity>
 
+            {/* Give straight to the source — every item here exists because the Archive kept it */}
+            <TouchableOpacity
+              style={drawerStyles.supportBtn}
+              onPress={() => Linking.openURL('https://archive.org/donate')}
+              activeOpacity={0.7}
+            >
+              <Ionicons name="library" size={22} color={BRAND_BLUE} style={{ width: 30 }} />
+              <View>
+                <Text style={[drawerStyles.menuLabel, { color: BRAND_BLUE }]}>GIVE TO THE INTERNET ARCHIVE</Text>
+                <Text style={drawerStyles.supportSub}>they keep the vault — donate to them directly</Text>
+              </View>
+            </TouchableOpacity>
+
             {/* Footer */}
             <View style={{ flex: 1 }} />
             <Text style={[drawerStyles.footerText, { color: '#f5a623', fontSize: 9 }]}>A project of Church of American Strength & Hope</Text>

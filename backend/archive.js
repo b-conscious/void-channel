@@ -1532,8 +1532,10 @@ if (SPINE_URL) {
   };
 
   getCategoryItems = async (categoryId, rows = 25, page = 1, shuffle = false, gen = null) => {
-    const cat = CATEGORIES.find((c) => c.id === categoryId);
-    if (!cat) return { error: 'Category not found' };
+    // Spine-registered crates (IA-collection additions) may not exist in the local CATEGORIES
+    // array; serve them straight from the pool with generic flags instead of 404ing.
+    const cat = CATEGORIES.find((c) => c.id === categoryId)
+      || { id: categoryId, recognizable: false, diversify: false, mature: false };
     try {
       // Over-fetch for the diversify cap ONLY on page 1: against a finite pool, rows*2 paging
       // would jump the offset past the pool end (page 2 of a 50-pool at rows=50 returns zero).
@@ -1548,7 +1550,7 @@ if (SPINE_URL) {
         const leaned = applyEraLean([{ ...cat, items }], gen);
         items = (leaned && leaned[0] && leaned[0].items) || items;
       }
-      return { ...cat, items };
+      return { ...cat, ...(r.name ? { name: r.name, subtitle: r.subtitle, type: r.type } : {}), items };
     } catch (e) {
       console.error('[spine category]', e.message);
       return { ...cat, items: [] };
