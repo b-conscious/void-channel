@@ -1,0 +1,25 @@
+{
+  "_readme": "Permanent regression surface (plan section 5). B picks half: entries marked PENDING_B await his picks. Every mapper change reruns spine/test-fixtures.js against these.",
+  "fixtures": [
+    { "id": "ZydereenOfNeptune", "type": "video", "why": "known-good feature, plays in browser" },
+    { "id": "drapnoir", "type": "video", "why": "foreign feature, tests metadata variance" },
+    { "id": "he-man-and-the-masters-of-the-universe_202312", "type": "video", "why": "series upload, multi-file" },
+    { "id": "Be_Ye_Holy", "type": "video", "why": "audio-only item in a video crate: must fail PLAYABILITY gracefully" },
+    { "id": "78_la-rinka_jimmy-shand-and-his-band-beale-hurndall_gbia3037740a", "type": "audio", "why": "georgeblood 78, stylus variants, JOB_3 target" },
+    { "id": "78_youre-fooling-someone_nelly-wijsbek-tony-vess-orchestra-griffin-fox-muir_gbia0123980b", "type": "audio", "why": "second 78, b-side naming" },
+    { "id": "arcade_big10", "type": "game", "why": "MAME arcade, emulator metadata present" },
+    { "id": "arcade_ar_dart", "type": "game", "why": "arcade variant set naming" },
+    { "id": "Bolsilibros_Seleccion_terror_-_327_de_617", "type": "text", "why": "scanned pulp, BookReader path" },
+    { "id": "Brigitte_en_accion_-_374_de_500", "type": "text", "why": "second scanned text, page count check" },
+    { "id": "PENDING_B_1", "type": "video", "why": "B pick" },
+    { "id": "PENDING_B_2", "type": "video", "why": "B pick" },
+    { "id": "PENDING_B_3", "type": "audio", "why": "B pick: etree show with multiple sets" },
+    { "id": "PENDING_B_4", "type": "audio", "why": "B pick" },
+    { "id": "PENDING_B_5", "type": "game", "why": "B pick: em-dosbox DOS game" },
+    { "id": "PENDING_B_6", "type": "game", "why": "B pick: JSMESS console game" },
+    { "id": "PENDING_B_7", "type": "text", "why": "B pick: EPUB novel" },
+    { "id": "PENDING_B_8", "type": "text", "why": "B pick: comic" },
+    { "id": "PENDING_B_9", "type": "text", "why": "B pick: sheet music" },
+    { "id": "PENDING_B_10", "type": "video", "why": "B pick: item with no derivatives" }
+  ]
+}

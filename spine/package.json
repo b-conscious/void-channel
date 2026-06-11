@@ -1,0 +1,14 @@
+{
+  "name": "void-archive-spine",
+  "version": "0.1.0",
+  "description": "The Archive Spine. Owns all communication with archive.org for THE VOID.",
+  "main": "spine.js",
+  "scripts": {
+    "start": "node spine.js",
+    "fixtures": "node test-fixtures.js"
+  },
+  "engines": { "node": ">=22.5" },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
