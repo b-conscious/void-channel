@@ -16,6 +16,7 @@ import * as Haptics from 'expo-haptics';
 
 import FastImage from '../components/FastImage';
 import { useGeneration } from '../context/GenerationContext';
+import { useAuth } from '../context/AuthContext';
 import api from '../api/client';
 import { colors, fonts, spacing, radius } from '../theme';
 
@@ -27,6 +28,7 @@ export default function PlaylistsListScreen({ navigation }) {
   const { gen } = useGeneration();
   const accent = gen.accentColor;
 
+  const { isAuthenticated } = useAuth();
   const [playlists, setPlaylists] = useState([]);
   const [loading, setLoading] = useState(true);
   const [refreshing, setRefreshing] = useState(false);
@@ -34,6 +36,9 @@ export default function PlaylistsListScreen({ navigation }) {
   const [newTitle, setNewTitle] = useState('');
 
   const load = useCallback(async (isRefresh = false) => {
+    // No session (or session still bootstrapping) → don't fire a doomed request (401 noise).
+    // The effect re-runs when isAuthenticated flips true, so the list loads once auth lands.
+    if (!isAuthenticated) { setPlaylists([]); setLoading(false); setRefreshing(false); return; }
     if (isRefresh) setRefreshing(true);
     else setLoading(true);
     try {
@@ -45,7 +50,7 @@ export default function PlaylistsListScreen({ navigation }) {
       setLoading(false);
       setRefreshing(false);
     }
-  }, []);
+  }, [isAuthenticated]);
 
   useEffect(() => { load(); }, [load]);
 

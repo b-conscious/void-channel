@@ -12,6 +12,7 @@ import {
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import * as Haptics from 'expo-haptics';
+import { useAuth } from '../context/AuthContext';
 import api from '../api/client';
 import { colors, fonts, spacing, radius } from '../theme';
 
@@ -26,15 +27,23 @@ export default function AddToPlaylistModal({ visible, item, onClose, onAdded }) 
   const [error, setError] = useState(null);
 
   // Fetch playlists when modal opens
+  const { isAuthenticated } = useAuth();
   useEffect(() => {
     if (!visible) return;
+    // No session → don't fire a doomed 401; tell the user instead.
+    if (!isAuthenticated) {
+      setPlaylists([]);
+      setLoading(false);
+      setError('Sign in to use playlists.');
+      return;
+    }
     setLoading(true);
     setError(null);
     api.getPlaylists()
       .then((data) => setPlaylists(Array.isArray(data) ? data : []))
       .catch((err) => setError(err.message))
       .finally(() => setLoading(false));
-  }, [visible]);
+  }, [visible, isAuthenticated]);
 
   const handleAddToPlaylist = useCallback(async (playlistId) => {
     if (!item || adding) return;

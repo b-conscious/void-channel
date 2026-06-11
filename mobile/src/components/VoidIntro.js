@@ -82,7 +82,6 @@ export default function VoidIntro() {
             {entering ? 'ENTERING…' : '▶  TAP TO ENTER THE VOID'}
           </Text>
         </View>
-        {!entering ? <Text style={styles.sound}>♪ sound on</Text> : null}
       </View>
     </Pressable>
   );
@@ -109,5 +108,4 @@ var styles = StyleSheet.create({
     backgroundColor: 'rgba(12,12,15,0.5)',
   },
   enterText: { fontFamily: fonts.monoBold, fontSize: 13, letterSpacing: 2 },
-  sound: { fontFamily: fonts.mono, fontSize: 10, color: 'rgba(228,226,220,0.45)', letterSpacing: 1.5, marginTop: 14 },
 });

@@ -16,6 +16,12 @@ const { width: SCREEN_W } = Dimensions.get("window");
 const FADE_DURATION = 220;
 const HIDE_DELAY = 4000;
 
+// Touch devices get the YouTube-mobile gesture vocabulary (double-tap halves = skip ±);
+// fine-pointer devices keep desktop muscle memory (double-click = fullscreen, arrows = seek).
+const IS_TOUCH = typeof window !== 'undefined' && window.matchMedia
+  ? window.matchMedia('(pointer: coarse)').matches
+  : Platform.OS !== 'web';
+
 // ── Web autoplay gesture tracking ──────────────────────────
 // Browsers block autoplay-WITH-AUDIO until the user has interacted with the page.
 // We start the first video muted (so it autoplays instantly), then restore sound on
@@ -46,7 +52,7 @@ function formatTime(sec) {
  * Scrubable progress bar — supports tap-to-seek AND drag-to-scrub.
  * Uses native DOM pointer events on web (PanResponder is unreliable there).
  */
-function ProgressBar({ progress, position, duration, onSeek, isFs, toggleFullscreen, showControls, formatTime }) {
+function ProgressBar({ progress, position, duration, onSeek, isFs, toggleFullscreen, showControls, formatTime, rate, onCycleRate }) {
   const barRef = useRef(null);
   const barWidth = useRef(200);
   const [scrubbing, setScrubbing] = useState(false);
@@ -139,6 +145,12 @@ function ProgressBar({ progress, position, duration, onSeek, isFs, toggleFullscr
         ]} />
       </View>
       <Text style={[styles.timeText, styles.timeRight]}>{formatTime(duration)}</Text>
+      {/* Playback-speed cycle: 1 → 1.25 → 1.5 → 2 → 0.5 */}
+      <TouchableOpacity onPress={onCycleRate} style={styles.rateBtn} hitSlop={6}>
+        <Text style={[styles.rateText, rate !== 1 && { color: colors.amber }]}>
+          {rate % 1 === 0 ? `${rate}×` : `${rate}×`.replace('0.', '.')}
+        </Text>
+      </TouchableOpacity>
       <TouchableOpacity onPress={toggleFullscreen} style={styles.fsBtnBottom} hitSlop={6}>
         <Ionicons name={isFs ? "contract" : "scan-outline"} size={20} color="#fff" />
       </TouchableOpacity>
@@ -296,6 +308,22 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
     videoViewRef.current?.enterFullscreen?.();
   }, []);
 
+  // ── Picture-in-Picture (web) ──────────────────────────────────────────
+  const pipSupported = Platform.OS === 'web' && typeof document !== 'undefined' &&
+    (document.pictureInPictureEnabled ||
+     (typeof HTMLVideoElement !== 'undefined' && HTMLVideoElement.prototype.webkitSetPresentationMode));
+  const togglePiP = useCallback(async () => {
+    try {
+      const v = document.querySelector('[data-vpcontainer="1"] video');
+      if (!v) return;
+      if (document.pictureInPictureElement) await document.exitPictureInPicture();
+      else if (v.requestPictureInPicture) await v.requestPictureInPicture();
+      else if (v.webkitSetPresentationMode) {
+        v.webkitSetPresentationMode(v.webkitPresentationMode === 'picture-in-picture' ? 'inline' : 'picture-in-picture');
+      }
+    } catch (e) {}
+  }, []);
+
   // Expose methods to parent via ref
   useImperativeHandle(ref, () => ({
     enterFullscreen: () => {
@@ -436,30 +464,38 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
     showControls();
   }, [player, duration, showControls]);
 
-  // Long-press continuous seek (left = rewind, right = fast-forward) — uses seekIntervalRef declared above
-  const [seekDirection, setSeekDirection] = useState(0); // -1, 0, +1 — for the visual indicator
+  // ── Playback speed ─────────────────────────────────────────────────────
+  // Hold-to-fast-forward (the TikTok/Shorts pattern): long-press = 2× while held, release
+  // restores the user's chosen rate. The cycle button in the progress bar sets that base rate.
+  const [holdSpeed, setHoldSpeed] = useState(false);
+  const [rate, setRate] = useState(1);
+  const userRateRef = useRef(1);
 
-  const startSeek = useCallback((delta) => {
+  const applyRate = useCallback((r) => {
+    try { player.playbackRate = r; } catch (e) {}
+  }, [player]);
+
+  const startHoldSpeed = useCallback(() => {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
-    setSeekDirection(delta > 0 ? 1 : -1);
+    setHoldSpeed(true);
+    applyRate(2);
+  }, [applyRate]);
+
+  const endHoldSpeed = useCallback(() => {
+    setHoldSpeed(false);
+    applyRate(userRateRef.current);
+  }, [applyRate]);
+
+  const cycleRate = useCallback(() => {
+    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+    const RATES = [1, 1.25, 1.5, 2, 0.5];
+    const idx = RATES.indexOf(userRateRef.current);
+    const next = RATES[(idx + 1) % RATES.length];
+    userRateRef.current = next;
+    setRate(next);
+    applyRate(next);
     showControls();
-    if (seekIntervalRef.current) clearInterval(seekIntervalRef.current);
-    seekIntervalRef.current = setInterval(() => {
-      const cur = player.currentTime || 0;
-      const next = Math.max(0, Math.min(duration || cur + 100, cur + delta));
-      player.currentTime = next;
-    }, 100); // 100ms × delta seconds = ~20s of playback per real second
-  }, [player, duration, showControls]);
-
-  const stopSeek = useCallback(() => {
-    if (seekIntervalRef.current) {
-      clearInterval(seekIntervalRef.current);
-      seekIntervalRef.current = null;
-    }
-    setSeekDirection(0);
-  }, []);
-
-  useEffect(() => () => stopSeek(), [stopSeek]);
+  }, [applyRate, showControls]);
 
   // ── Volume controls ──
   const toggleMute = useCallback(() => {
@@ -497,27 +533,29 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
 
   useEffect(() => () => clearTimeout(volHideTimer.current), []);
 
-  // Single tap = play/pause; double tap = toggle fullscreen.
+  // Single tap = play/pause. Double tap is PER ZONE: on touch, left = −10s / right = +30s
+  // (YouTube-mobile vocabulary); on fine pointers, double-click = fullscreen (desktop muscle memory).
   // 280ms window — tight enough to feel snappy, loose enough to catch double taps.
   const tapTimerRef = useRef(null);
   const lastTapRef = useRef(0);
-  const handleVideoPress = useCallback(() => {
+  const lastTapSideRef = useRef(null);
+  const handleZoneTap = useCallback((side) => {
     const now = Date.now();
-    const sinceLast = now - lastTapRef.current;
+    const isDouble = now - lastTapRef.current < 280 && lastTapSideRef.current === side && tapTimerRef.current;
     lastTapRef.current = now;
+    lastTapSideRef.current = side;
+    if (tapTimerRef.current) { clearTimeout(tapTimerRef.current); tapTimerRef.current = null; }
 
-    if (sinceLast < 280 && tapTimerRef.current) {
-      clearTimeout(tapTimerRef.current);
-      tapTimerRef.current = null;
-      toggleFullscreen();
+    if (isDouble) {
+      if (IS_TOUCH) (side === 'left' ? skipBack() : skipForward());
+      else toggleFullscreen();
       return;
     }
-
     tapTimerRef.current = setTimeout(() => {
       tapTimerRef.current = null;
       togglePlay();
     }, 280);
-  }, [togglePlay, toggleFullscreen]);
+  }, [togglePlay, toggleFullscreen, skipBack, skipForward]);
 
   useEffect(() => () => { if (tapTimerRef.current) clearTimeout(tapTimerRef.current); }, []);
 
@@ -582,35 +620,25 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
       <View style={[StyleSheet.absoluteFill, styles.zones, { pointerEvents: 'box-none' }]}>
         <Pressable
           style={styles.zoneHalf}
-          onPress={handleVideoPress}
-          onLongPress={() => startSeek(-2)}
-          onPressOut={stopSeek}
+          onPress={() => handleZoneTap('left')}
+          onLongPress={startHoldSpeed}
+          onPressOut={endHoldSpeed}
           delayLongPress={350}
         />
         <Pressable
           style={styles.zoneHalf}
-          onPress={handleVideoPress}
-          onLongPress={() => startSeek(2)}
-          onPressOut={stopSeek}
+          onPress={() => handleZoneTap('right')}
+          onLongPress={startHoldSpeed}
+          onPressOut={endHoldSpeed}
           delayLongPress={350}
         />
       </View>
 
-      {/* Seek indicator badge while long-pressing */}
-      {seekDirection !== 0 && (
-        <View style={[
-          styles.seekBadge,
-          seekDirection > 0 ? styles.seekBadgeRight : styles.seekBadgeLeft,
-          { pointerEvents: 'none' },
-        ]}>
-          <Ionicons
-            name={seekDirection > 0 ? "play-forward" : "play-back"}
-            size={26}
-            color={colors.amber}
-          />
-          <Text style={styles.seekBadgeText}>
-            {seekDirection > 0 ? "FAST FORWARD" : "REWIND"}
-          </Text>
+      {/* 2× indicator while holding (TikTok-style hold-to-speed) */}
+      {holdSpeed && (
+        <View style={[styles.seekBadge, styles.seekBadgeRight, { pointerEvents: 'none' }]}>
+          <Ionicons name="play-forward" size={26} color={colors.amber} />
+          <Text style={styles.seekBadgeText}>2× SPEED</Text>
         </View>
       )}
 
@@ -646,6 +674,12 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
               ) : null}
               <Text style={styles.playerTitle} numberOfLines={1}>{title}</Text>
             </View>
+            {/* Picture-in-Picture (where the browser supports it) */}
+            {pipSupported ? (
+              <TouchableOpacity onPress={togglePiP} style={styles.volBtn} hitSlop={8}>
+                <Ionicons name="browsers-outline" size={18} color="#fff" />
+              </TouchableOpacity>
+            ) : null}
             {/* Volume control */}
             <View style={styles.volumeWrap}>
               <TouchableOpacity
@@ -673,12 +707,9 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
             {/* Fullscreen button is in the bottom progress bar — removed duplicate here */}
           </View>
 
+          {/* Chrome reduction: the 10/30 skip buttons are gone — double-tap zones (touch),
+              arrow keys (desktop), and hold-for-2× cover seeking with twice the video real estate. */}
           <View style={styles.centerRow}>
-            <TouchableOpacity onPress={skipBack} style={styles.skipBtn} activeOpacity={0.7} hitSlop={6}>
-              <Ionicons name="play-back" size={22} color="#fff" />
-              <Text style={styles.skipText}>10</Text>
-            </TouchableOpacity>
-
             <TouchableOpacity onPress={togglePlay} style={styles.centerPlay} activeOpacity={0.8}>
               <View style={styles.playCircle}>
                 <Ionicons
@@ -688,11 +719,6 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
                   style={isPlaying ? undefined : { marginLeft: 2 }}
                 />
               </View>
-            </TouchableOpacity>
-
-            <TouchableOpacity onPress={skipForward} style={styles.skipBtn} activeOpacity={0.7} hitSlop={6}>
-              <Ionicons name="play-forward" size={22} color="#fff" />
-              <Text style={styles.skipText}>30</Text>
             </TouchableOpacity>
           </View>
 
@@ -705,6 +731,8 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
             toggleFullscreen={toggleFullscreen}
             showControls={showControls}
             formatTime={formatTime}
+            rate={rate}
+            onCycleRate={cycleRate}
           />
         </Animated.View>
       )}
@@ -718,6 +746,8 @@ const styles = StyleSheet.create({
   video: { width: "100%", height: "100%" },
   zones: { flexDirection: "row" },
   zoneHalf: { flex: 1 },
+  rateBtn: { paddingHorizontal: 6, paddingVertical: 4, minWidth: 38, alignItems: 'center' },
+  rateText: { fontFamily: fonts.monoBold, fontSize: 12, color: '#fff', letterSpacing: 0.5 },
   seekBadge: {
     position: "absolute",
     top: "50%",

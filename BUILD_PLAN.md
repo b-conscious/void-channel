@@ -403,6 +403,44 @@ chip-bar JSX + FILTER_CHIPS/CHIP_ORDER consts + sortedChips/scroll helpers + sty
 HomeScreen. The chip MECHANISM stays (activeChip 'all'|'mature' only) — it powers the drawer's
 18+ / Browse routing and the mature sequestration. Verified at 2200px: no chip row, TopBar+wall fine.
 
+### 🎮 VIDEOPLAYER v2 — gesture layer SHIPPED (local); engine swap CAPTURED for the native migration
+Bryan's research doc (rn-video v6/v7, Jellyfin/Stremio/YouTube/Video.js patterns) — REALITY CHECK:
+VOIDtv ships as RN-WEB (Vercel + mobile browsers); `react-native-video` is iOS/Android-native ONLY.
+The engine swap (PiP/preload/DRM natively, v7 player-view split) belongs to the FUTURE dev-client
+migration shared with VOID RADIO's react-native-track-player — one door, several upgrades. Web path
+if/when needed = Video.js (@videojs/react) or MSE. CAPTURED, NOT BUILT: queue-awareness ("Next up"
+overlay last 15s + preload — ⚠️ preloading Archive MEDIA doubles bandwidth/view, rate-limit risk;
+metadata+thumb prefetch is the safe version), Stremio/Raffi-style stream-info chip (res/era/format —
+Archive quality varies wildly and the player should SAY it), Jellyfin lesson (continue-watching/next-up
+as first-class), volume/brightness swipe zones (iOS web ignores programmatic volume; brightness = fake
+dim overlay on web).
+SHIPPED NOW (VideoPlayer.js, web-compatible, VERIFIED by DOM probes):
+- **Double-tap zones**: touch = left −10s / right +30s (YouTube-mobile vocabulary); fine pointer =
+  double-click fullscreen (desktop muscle memory). `IS_TOUCH` via `(pointer: coarse)`.
+- **Hold-for-2×** (TikTok pattern): long-press either zone → 2× while held → release restores the
+  USER'S chosen rate (verified 2.0 during hold → 1.5 after release). Replaced the old long-press
+  FF/RW interval machinery (seekDirection/startSeek/stopSeek removed).
+- **Playback-rate cycle button** in the progress bar: 1 → 1.25 → 1.5 → 2 → 0.5 (verified on the
+  real <video>: 1 → 1.25 → 1.5). Amber when ≠ 1×.
+- **PiP button** (top bar, web where supported; Safari webkitSetPresentationMode fallback).
+- **Chrome reduction**: center 10/30 skip buttons REMOVED (gestures + arrow keys cover it; play
+  circle stays). Keyboard lean-back set already existed: space/←→/f/m/↑↓.
+- Cosmetic TODO: the "2× SPEED" hold badge didn't render in the synthetic probe — eyeball on-device.
+
+### ✅ VOID SNACKS REBUILT — §9 SNACKS BUG RESOLVED (post-1975 lean, audited; local-only)
+`/api/shorts` no longer uses the broken `runtime:[1 TO 120]` lexical range. New design (server.js):
+three short-BY-NATURE pools — `classic_tv_commercials` (5.8k ≥1975) + `movie_trailers` (50k ≥1975),
+both year-clause-bound `year:[1975 TO 9999]` (Bryan: "heavily leaned after 1975"), + `universal_newsreels`
+(~600, all 1940s-60s) as the VINTAGE GARNISH hard-capped at ~10%/serving (Bryan tuned 20→10). Real duration filter via new
+`archive.parseRuntimeSeconds()` ("11:03"→663s; ≤180s kept, unknown kept — pools are short by nature).
+TITLE HEURISTICS carry the load (23/24 items have NO runtime metadata): trailers REQUIRE
+trailer/teaser/spot in title (kills full movies mislabeled into the collection); commercials REQUIRE
+singular "Commercial"-ish signal AND NOT plural "Commercials" (plural = hour-long compilation tapes);
+COMPILATION_RE also blocks W/O/C full broadcasts, airchecks, "commercial breaks", "all trailers";
+NSFW title backstop (emmanuelle/etc — subject-based NSFW_EXCLUDE alone leaked). AUDITED: 83% post-1975 /
+17% garnish / 0 over-3min / 0 compilations / 0 NSFW. UI copy → "ads, trailers & reels under 3 minutes".
+⚠️ pool collection names VALIDATED against Archive (Drive-in_Ads, newsreels, prelinger_ads DON'T exist).
+
 ### ✅ UNPROMPTED VIDEO-JUMP FIXED + fullscreen fix-plan completed (VERIFIED by repro)
 Bryan: "a selected video starts playing and then it jumps to another, unprompted" (also re-broke his
 fullscreen — the hop unmounts the player mid-FS). Fix in `PlayerScreen.handleVideoError`: if
