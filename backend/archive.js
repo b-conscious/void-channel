@@ -861,6 +861,22 @@ function flattenCreator(c) {
   return String(c);
 }
 
+// Archive's `runtime` is a DISPLAY STRING ("1:23:45", "11:03", "0:45" — sometimes an array or a
+// bare number of seconds). Search-side `runtime:[a TO b]` ranges are lexical compares on that
+// string and therefore broken — filter AFTER fetching, with this. Returns seconds, or null.
+function parseRuntimeSeconds(runtime) {
+  if (runtime == null) return null;
+  if (Array.isArray(runtime)) runtime = runtime[0];
+  const s = String(runtime).trim();
+  if (!s) return null;
+  if (/^\d+(\.\d+)?$/.test(s)) return Math.round(parseFloat(s)); // bare seconds
+  const m = s.match(/^(\d+):(\d{1,2})(?::(\d{1,2}))?$/);
+  if (!m) return null;
+  return m[3] != null
+    ? (+m[1]) * 3600 + (+m[2]) * 60 + (+m[3])  // H:MM:SS
+    : (+m[1]) * 60 + (+m[2]);                  // M:SS
+}
+
 function normalizeItem(doc) {
   // Flatten subjects to an array of strings
   let subjects = [];
@@ -1453,6 +1469,7 @@ module.exports = {
   NSFW_EXCLUDE,
   search,
   diversify,
+  parseRuntimeSeconds,
   getItem,
   getRelated,
   getCategoryItems,

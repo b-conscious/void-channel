@@ -463,15 +463,66 @@ app.get("/api/shorts", async (req, res) => {
       return res.json(cached);
     }
 
-    // Over-fetch + diversify so one creator/series can't flood the snack feed.
-    // ⚠️ KNOWN LIMITATION: Archive's `runtime` is a DISPLAY STRING ("11:03"), not a number, so
-    // `runtime:[1 TO 120]` is a broken lexical compare — it lets through ~10-min films and drops
-    // real <2min clips. True "snacks" needs a redesign: query short-BY-NATURE collections
-    // (commercials / trailers / cartoon shorts / newsreels) instead of a runtime range. See BUILD_PLAN.
-    const query = `mediatype:(movies) AND runtime:[1 TO 120]${archive.NSFW_EXCLUDE}`;
-    const page = Math.floor(Math.random() * 5) + 1; // rotate through pages for variety
-    const raw = await archive.search(query, limit * 2, page, "downloads desc");
-    const items = archive.diversify(raw, 2).slice(0, limit);
+    // Void Snacks — short-BY-NATURE pools (vintage TV commercials / movie trailers / newsreels)
+    // with a REAL duration filter on the parsed runtime. The old `runtime:[1 TO 120]` range was a
+    // broken LEXICAL compare on Archive's display-string runtime — it let ~10-min films through
+    // and dropped genuine <2-min clips (BUILD_PLAN §9).
+    const SNACK_MAX_SEC = 180;
+    // Most pool items ship with NO runtime metadata, so title heuristics carry real weight:
+    // the pools contain hour-long COMPILATION tapes ("...Commercial Collection", "Bumpers"),
+    // full movies mislabeled as trailers, and multi-part episodes — none of which are snacks.
+    const COMPILATION_RE = /compilation|collection|complete|full[ -](movie|film|show|episode)|marathon|season|episodes?\b|\b\d+\s*-?\s*parter\b|bumpers|supercut|mixtape|hours? of|w\/o\/c|original commercials|aircheck|off[- ]air|broadcast|recording|commercial breaks|all trailers/i;
+    const NSFW_TITLE_RE = /emmanuelle|erotic|nude|naked|xxx|porn|\bsex\b|softcore|sensual/i;
+    // HEAVILY post-1975 (Bryan): the two MAIN pools are year-clause-bound ≥1975 (4-digit years
+    // compare correctly even as strings; items missing `year` drop out of the mains — intended).
+    // Validated depth: commercials ≥1975 = 5.8k, trailers ≥1975 = 50k.
+    const SNACK_POOLS = [
+      { // TV commercials — the collection ALSO hosts full taped broadcasts ("Raiders... W/O/C")
+        // and compilation tapes. Singles say "Commercial" (SINGULAR); compilations say
+        // "Commercials" — require the positive single-ad signal.
+        q: 'collection:(classic_tv_commercials) AND mediatype:(movies) AND year:[1975 TO 9999]', pages: 12,
+        keep: (t) => /\bcommercial\b|\bspot\b|\bpsa\b|public service|\bpromo\b|jingle|\bad\b/i.test(t)
+          && !/commercials\b/i.test(t) && !COMPILATION_RE.test(t),
+      },
+      { // movie trailers — full films get uploaded here mislabeled; require trailer-ish title
+        q: 'collection:(movie_trailers) AND mediatype:(movies) AND year:[1975 TO 9999]', pages: 40,
+        keep: (t) => /trailer|teaser|preview|tv spot/i.test(t) && !COMPILATION_RE.test(t),
+      },
+      { // Universal Newsreels (~600, all pre-1968) — the VINTAGE GARNISH, woven ~1-in-5 below
+        q: 'collection:(universal_newsreels) AND mediatype:(movies)', pages: 2,
+        keep: () => true, garnish: true,
+      },
+    ];
+    const SNACK_SORTS = ['downloads desc', 'addeddate desc', 'week desc'];
+    const pools = await Promise.all(SNACK_POOLS.map((pool, i) => {
+      const page = Math.floor(Math.random() * pool.pages) + 1;
+      const sort = SNACK_SORTS[(timeBucket + i) % SNACK_SORTS.length];
+      return archive.search(pool.q + archive.NSFW_EXCLUDE, limit * 2, page, sort)
+        .then((rows) => rows.filter((it) => {
+          const title = String((it && it.title) || '');
+          return pool.keep(title) && !NSFW_TITLE_RE.test(title);
+        }))
+        .catch(() => []);
+    }));
+    // Weighted weave: the post-1975 mains alternate; the vintage garnish lands ~1 in 10 slots
+    // (heavily leaned, not walled — an occasional 1948 newsreel between a 1986 ad and a 2014 trailer).
+    const mains = pools.filter((_, i) => !SNACK_POOLS[i].garnish);
+    const garnish = pools.filter((_, i) => SNACK_POOLS[i].garnish).flat();
+    const garnishMax = Math.ceil(limit / 10); // hard-cap the vintage share at ~10% per serving
+    const merged = [];
+    const maxLen = Math.max(...mains.map((p) => p.length), 0);
+    let g = 0;
+    for (let i = 0; i < maxLen; i++) {
+      for (const p of mains) if (p[i]) merged.push(p[i]);
+      if ((i + 1) % 5 === 0 && g < garnishMax && garnish[g]) merged.push(garnish[g++]);
+    }
+    // Keep true shorts: parsed runtime ≤ 3 min. Unknown runtime is KEPT — these pools are short
+    // by nature (post title-filtering), and commercials often ship without runtime metadata.
+    const fit = merged.filter((it) => {
+      const sec = archive.parseRuntimeSeconds(it && it.runtime);
+      return sec == null || (sec > 0 && sec <= SNACK_MAX_SEC);
+    });
+    const items = archive.diversify(fit, 2).slice(0, limit);
 
     if (items.length) cache.set(cacheKey, items, 1800); // 30 min cache (never cache an empty blip)
     res.set("X-Cache", "MISS");

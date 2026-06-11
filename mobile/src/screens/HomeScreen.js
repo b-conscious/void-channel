@@ -892,7 +892,7 @@ function ShortsRow({ items, accent, onItemPress }) {
           </View>
           <Text style={[styles.shortsTitle, { color: accent }]}>Void Snacks</Text>
         </View>
-        <Text style={styles.shortsSubtitle}>quick bites under 2 minutes</Text>
+        <Text style={styles.shortsSubtitle}>quick bites — ads, trailers & reels under 3 minutes</Text>
       </View>
       {IS_DESKTOP ? (
         <Pressable
