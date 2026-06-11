@@ -21,9 +21,14 @@ function buildQuery(cat) {
 async function syncCategory(cat, syncCount) {
   const sort = SORTS[(syncCount + cat.id.length) % SORTS.length];
   const page = 1 + ((syncCount + cat.id.length) % 4);
-  const raw = await archive.search(buildQuery(cat), ROWS_PER_SYNC, page, sort);
+  let raw = await archive.search(buildQuery(cat), ROWS_PER_SYNC, page, sort);
+  // Thin categories do not reach rotated pages; an empty draw on page>1 falls back to page 1
+  // so a niche crate can never be parked empty for multiple sync cycles.
+  if ((!Array.isArray(raw) || raw.length === 0) && page > 1) {
+    raw = await archive.search(buildQuery(cat), ROWS_PER_SYNC, 1, sort);
+  }
   if (!Array.isArray(raw) || raw.length === 0) {
-    return { id: cat.id, added: 0, seen: 0, note: 'empty result (throttle or thin page), pool unchanged' };
+    return { id: cat.id, added: 0, seen: 0, note: 'empty result (throttle or thin query), pool unchanged' };
   }
   let added = 0;
   for (const item of raw) {

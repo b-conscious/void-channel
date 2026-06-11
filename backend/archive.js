@@ -1464,6 +1464,98 @@ async function searchCreator(creator, rows = 30, page = 1) {
   return search(lucene, rows, page, 'downloads desc');
 }
 
+// ── SPINE TRANSPORT (JOB_1) ─────────────────────────────────────────────────────────────────
+// When SPINE_URL is set (the Void Backend process), ALL Archive traffic routes through the
+// Archive Spine: wall and category pages come from accumulated pools, search/item are raw
+// passthroughs. When unset (the Spine process itself requires this very file), the direct
+// Archive paths above run unchanged. One module, two processes, no recursion. Reassigning the
+// function declarations below also reroutes every INTERNAL caller (getRelated, searchBlended,
+// shorts, trending) in the backend process, which is the point.
+// dotenv here (idempotent) because this module can be required BEFORE server.js configures it;
+// the Spine process has no .env in its working directory, so it stays on the direct paths.
+try { require('dotenv').config(); } catch (e) {}
+const SPINE_URL = process.env.SPINE_URL || null;
+
+async function spineGet(path, timeoutMs = 30000) {
+  const opts = typeof AbortSignal !== 'undefined' && AbortSignal.timeout
+    ? { signal: AbortSignal.timeout(timeoutMs) } : {};
+  const res = await fetch(`${SPINE_URL}${path}`, opts);
+  if (!res.ok) throw new Error(`spine ${res.status} on ${path.slice(0, 60)}`);
+  return res.json();
+}
+
+// Deterministic per-20-minute-bucket shuffle: the pool is stable between syncs, so this is
+// what keeps the wall's per-visit variety alive without any Archive load (the old role of
+// the searchBlended sort/page randomness).
+function bucketRng(key) {
+  let h = 2166136261;
+  for (const c of key) { h ^= c.charCodeAt(0); h = Math.imul(h, 16777619); }
+  return () => {
+    h = Math.imul(h ^ (h >>> 15), 2246822507);
+    h = Math.imul(h ^ (h >>> 13), 3266489909);
+    return ((h ^= h >>> 16) >>> 0) / 4294967296;
+  };
+}
+function bucketSample(items, n, key) {
+  const bucket = Math.floor(Date.now() / (20 * 60 * 1000));
+  const rnd = bucketRng(`${key}:${bucket}`);
+  const arr = items.slice();
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(rnd() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr.slice(0, n);
+}
+
+if (SPINE_URL) {
+  console.log(`[archive] SPINE transport active -> ${SPINE_URL}`);
+
+  search = async (query, rows = 25, page = 1, sort = 'downloads desc') => {
+    try {
+      const r = await spineGet(`/search?raw=true&q=${encodeURIComponent(query)}&rows=${rows}&page=${page}&sort=${encodeURIComponent(sort)}`);
+      return r.items || [];
+    } catch (e) {
+      console.error('[spine search]', e.message);
+      return []; // same degrade-to-empty contract the direct path has
+    }
+  };
+
+  getItem = (identifier) => spineGet(`/item/${encodeURIComponent(identifier)}`);
+
+  getAllCategories = async (rowsPerCategory = 20) => {
+    const wall = await spineGet(`/wall?type=video&rows=50`, 20000);
+    return (wall.categories || []).map((c) => {
+      let items = bucketSample(c.items || [], c.diversify ? rowsPerCategory * 2 : rowsPerCategory, c.id);
+      if (c.diversify) items = diversify(items, 2).slice(0, rowsPerCategory);
+      return { ...c, items };
+    });
+  };
+
+  getCategoryItems = async (categoryId, rows = 25, page = 1, shuffle = false, gen = null) => {
+    const cat = CATEGORIES.find((c) => c.id === categoryId);
+    if (!cat) return { error: 'Category not found' };
+    try {
+      // Over-fetch for the diversify cap ONLY on page 1: against a finite pool, rows*2 paging
+      // would jump the offset past the pool end (page 2 of a 50-pool at rows=50 returns zero).
+      const fetchRows = (cat.diversify && page === 1) ? rows * 2 : rows;
+      const r = await spineGet(`/category/${encodeURIComponent(categoryId)}?page=${page}&rows=${fetchRows}`);
+      let items = r.items || [];
+      if (shuffle) items = bucketSample(items, items.length, `${categoryId}:reroll:${Date.now()}`);
+      // Diversify only on page 1: on a finite pool page the per-series cap starves the row
+      // (25 raw -> 4 survivors when one series dominates); deeper pages serve the pool as-is.
+      if (cat.diversify && page === 1) items = diversify(items, 2).slice(0, rows);
+      if (gen) {
+        const leaned = applyEraLean([{ ...cat, items }], gen);
+        items = (leaned && leaned[0] && leaned[0].items) || items;
+      }
+      return { ...cat, items };
+    } catch (e) {
+      console.error('[spine category]', e.message);
+      return { ...cat, items: [] };
+    }
+  };
+}
+
 module.exports = {
   CATEGORIES,
   NSFW_EXCLUDE,

@@ -51,6 +51,18 @@ app.get('/category/:id', async (req, res) => {
   res.json({ id: cat.id, type: cat.type, name: cat.name, subtitle: cat.subtitle, page, rows, items });
 });
 
+// Bulk wall: every active category of a type with a slice of its pool. ONE call builds the
+// Void Backend's wall payload; request-time policy (era lean, gating) stays downstream.
+app.get('/wall', (req, res) => {
+  const type = req.query.type || 'video';
+  const rows = Math.min(parseInt(req.query.rows, 10) || 50, 100);
+  const wall = cats.list(type).filter((c) => c.active).map(({ query, ...pub }) => ({
+    ...pub,
+    items: dbx.getPool(pub.id, 1, rows),
+  }));
+  res.json({ type, rows, categories: wall });
+});
+
 app.get('/item/:identifier', async (req, res) => {
   try {
     const type = req.query.type || 'video';
@@ -74,9 +86,13 @@ app.get('/search', async (req, res) => {
       return res.json({ q, source: 'local', items: dbx.searchLocal(q, type, rows) });
     }
     const typeClause = type ? ` AND mediatype:(${type === 'text' ? 'texts' : type === 'video' ? 'movies' : type === 'game' ? 'software' : 'audio'})` : '';
-    const items = await cached(`s:${type}:${rows}:${q}`, 5 * 60 * 1000,
-      () => archive.search(`(${q})${typeClause}`, rows, 1, 'downloads desc'));
-    res.json({ q, source: 'live', items: items || [] });
+    const page = Math.max(1, parseInt(req.query.page, 10) || 1);
+    const sort = String(req.query.sort || 'downloads desc');
+    // raw=true skips the type clause entirely: the caller controls the full query string
+    const fullQ = req.query.raw === 'true' ? q : `(${q})${typeClause}`;
+    const items = await cached(`s:${type}:${rows}:${page}:${sort}:${fullQ}`, 5 * 60 * 1000,
+      () => archive.search(fullQ, rows, page, sort));
+    res.json({ q, source: 'live', page, items: items || [] });
   } catch (err) {
     res.status(502).json({ error: String(err.message || err).slice(0, 200) });
   }
