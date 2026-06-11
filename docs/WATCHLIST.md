@@ -4,6 +4,35 @@ Things B is counting on Opus to track that sit outside the day-to-day build. Rev
 session. Items move to a JOB or to a professional (counsel, accountant) when they ripen. Flat
 register. Dated entries. Nothing here is panic; everything here is named so it stays cheap.
 
+B's priority ruling (2026-06-11): technical make-or-break items lead this file. Legal, cost,
+and relationship items stay tracked at lower volume.
+
+## Technical make-or-break (the lead section)
+- **JOB_1 parity is verified by payload diffs, not eyeballs.** The migration's real risk is the
+  quiet one: the wall still renders but loses the living texture (era lean, variety rotation,
+  snacks heuristics) and goes stale within a week. Acceptance diffs actual before/after payloads
+  per generation. (2026-06-11)
+- **Spine fallback is designed in, not bolted on.** Backend treats Spine with last-known-good +
+  stale-while-revalidate, never blank. Paired win if persistence lands: backend cold starts stop
+  mattering at all. Paired loss if it does not: failure surface doubles. (2026-06-11)
+- **Playability rate per crate** is the invisible number that decides shipped vs cut. Spine
+  health samples N items per crate and reports % with working derivatives. Triple weight for
+  audio and games. (2026-06-11)
+- **The dev loop is the velocity engine.** Web Metro stays the daily driver after the dev-client
+  door opens; native builds (10 to 20 min each, no local iOS on Windows) run as a batched side
+  lane. If native ever becomes the primary loop, project speed dies by 10x. (2026-06-11)
+- **CI does not exist yet.** One GitHub Action: web bundle compile + fixture tests on every push,
+  before auto-deploy. Lands with JOB_0 (fixtures are born there). The stale-bundle phantom bugs
+  this session were all catchable by it. (2026-06-11)
+- **Local FTS5 search at JOB_0 time** is nearly free; retrofitted later it is a migration. Instant
+  search over curated pools, live passthrough kept for raw depth. (2026-06-11)
+- **Service-worker version handshake.** Old bundles hitting new APIs will generate phantom bug
+  reports from users exactly like the ones that burned this session. API version header + "new
+  version, tap to refresh" toast kills the class. Small job, schedule it near JOB_1. (2026-06-11)
+- **Thumbnail proxy bandwidth rides Render.** A Cloudflare edge-cache rule in front of
+  /api/thumb/* is ten minutes of config and removes a cost cliff + a latency tax. Already noted
+  as optional in the ops log; upgrade to do-soon. (2026-06-11)
+
 ## Legal and rights (the ones that can hurt a 501c3)
 - **"Before They Vanish" (§14 of the ops log) is the riskiest standing spec.** It deliberately
   surfaces branded and recent material BECAUSE it is the most likely to be infringing. Archive.org
