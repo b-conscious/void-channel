@@ -86,6 +86,14 @@ begins; georgeblood variants, etree sets, the hard one by design).
 - Theme cadence and first theme week copy (JOB_14). Install prompt copy (JOB_19).
 - Throughput floor values (JOB_13 gate).
 
+## Shipped after these orders were first written (do not redo)
+- Playback friction fix (commit 57139e8): preload=auto buffers the stream on page open;
+  the confirmed URL auto-applies when metadata arrives after an early optimistic-URL error
+  (the manual RETRY tap is gone); pre-play errors silently retry the same source twice
+  (2s then 4s) before any error surfaces. This was the playback doc's Fix 2/4 first slice.
+  Mid-play keeps the no-hop rule. Remaining from that doc: resolve-on-card-tap (pass the
+  pending promise through navigation), still open, small.
+
 ## Known broken / dirty
 - blaxploitation crate query is malformed Lucene, returns zero everywhere. Fix or rewrite.
 - tapers/dead use mediatype:(etree), the audio clause bug is FIXED but other etree-family
