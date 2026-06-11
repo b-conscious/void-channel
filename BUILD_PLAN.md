@@ -1,5 +1,12 @@
 # VOIDtv — Build Plan / Session Handoff
 
+> **READ ORDER FOR NEW SESSIONS:** strategy and build order live in
+> **[THE_VOID_BUILD_PLAN.md](THE_VOID_BUILD_PLAN.md)** (v1.1, the single source of truth for
+> the four-mode expansion: Watch/Listen/Play/Read, the Archive Spine, JOBs 0-12). THIS file is
+> the **Void Channel operational log**: deploy gotchas, content-treatment rules, shipped-session
+> history. Read the strategy plan first, then this, then `/docs/handoffs/`. Shipped work
+> recorded here OUTRANKS the strategy plan where they conflict (its §10 says the same).
+
 > Self-contained handoff for a fresh session. The app is **live in production** and all work
 > below is **pushed to `master`** (which auto-deploys). Last commit at handoff: **`b2b8010`**.
 
