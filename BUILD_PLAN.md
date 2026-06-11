@@ -396,7 +396,125 @@ prod outage**. The hard-won nuances below are the real value — a fresh session
 - **Void TVs stagger 10s apart** by mount order (VoidLoader `_staticVideoSeq`).
 - §15.3 **"!" related cards** fixed (`hasRealTitle` drops zero-alphanumeric social-mirror junk; Unicode-aware).
 
-### ⚠️ THE NEXT BIG THING — header/hamburger refactor (Bryan wants this, NOT done)
+### ✅ DESKTOP FILTER CHIP BAR REMOVED (Bryan: "categories back up top — please correct")
+It was never re-ADDED — it survived from pre-session code (mobile lost chips earlier; desktop kept
+them) and became prominent once the sidebar died + content went full-width. Now gone everywhere:
+chip-bar JSX + FILTER_CHIPS/CHIP_ORDER consts + sortedChips/scroll helpers + styles deleted from
+HomeScreen. The chip MECHANISM stays (activeChip 'all'|'mature' only) — it powers the drawer's
+18+ / Browse routing and the mature sequestration. Verified at 2200px: no chip row, TopBar+wall fine.
+
+### ✅ UNPROMPTED VIDEO-JUMP FIXED + fullscreen fix-plan completed (VERIFIED by repro)
+Bryan: "a selected video starts playing and then it jumps to another, unprompted" (also re-broke his
+fullscreen — the hop unmounts the player mid-FS). Fix in `PlayerScreen.handleVideoError`: if
+`videoRef.getCurrentTime() > 1.5s` and NOT in a channel, a media error returns early → the player's
+"tap to retry" overlay, NO source-swap, NO auto-advance. Channels keep auto-advance (doom-scroll never
+sticks); pre-play failures keep the optimistic→confirmed→HQ→skip recovery chain. VERIFIED: dispatched
+`error` at t=30 → URL stayed `/watch/Zydereen…`, retry overlay shown (previously navigated to a
+different film). ALSO shipped: iOS Safari fullscreen fallback (`video.webkitEnterFullscreen()` when
+element-FS API is missing — closes "some mobile FS works, some doesn't") and ghost-audio hardening
+(VideoPlayer pauses the outgoing expo player on swap/unmount; expo-video doesn't release <video> on
+web). NOTE for live testing: Bryan's tab had a stale half-HMR bundle (phantom "Pressable is not
+defined" + "no screen named Search" + "unknown module 880") — those are NOT in current source; a
+hard refresh clears them. Current source verified booting clean.
+
+### ✅ SEARCH MOVED INTO THE TOPBAR (Bryan) — one input, no second screen-with-input, no chips
+TopBar now holds a REAL search input (desktop: centered pill TextInput; mobile: the search icon
+expands the bar into back·input·go). Submit → `navigate('Search', { q, _ts })`. SearchScreen is now
+purely the RESULTS surface: its own SearchBar + category filter chips + duration chips are REMOVED
+("remove the seen filters"); a `q` param branch in the route-params effect runs the search directly;
+the context banner now also covers See-More categories (COLLECTION/CREATOR/CATEGORY + ✕). Search moved
+OUT of the mobile bottom tabs (now Browse/Signal/My Void) into a Stack screen; linking `search` path
+is root-level (deep links `/search?q=…` + `/search?categoryId=…` VERIFIED working → 50 results, banner
+correct); DrawerMenu SEARCH item removed. LOAD MORE + RE-ROLL + infinite scroll kept. doSearch still
+honors filtersRef/duration internally (pinned EVERYTHING/ANY — See-More scoping still works through it).
+
+### ✅ MOBILE PLAYER ACTION STRIP FIXED (Bryan: "most buttons below the player don't work") —
+measured: the 6 labeled row-buttons spanned 491px in a 390px viewport with `overflow-x: hidden`
+(Share half-clipped, Download fully OFF-SCREEN, rest cramped → mis-taps). ActionIcon is now compact
+on mobile (icon above tiny label, flex:1 each — all six fit 18→372px, verified) and "Add to
+Playlist"→"Playlist". Handlers themselves verified firing (synthetic dispatch opened the share
+drawer). Caveat: Love/hearts are auth-gated server-side — anonymous taps silently no-op (UX nudge TBD).
+
+### ✅ FOLLOW TAGS REMOVED (Bryan) — CategoryRow follow/following chip + HomeScreen's
+subscribedIds/handleSubscribe wiring deleted (the only consumers). The "From Your Subscriptions" feed
+row still renders for accounts with existing follows; there's just no follow/unfollow UI anymore.
+
+### ✅ WALL VIRTUALIZED — gen-switch freeze FIXED (§15.6/§12 item, was mandatory)
+Bryan: "signal changing to genz just locked me on dt" (persisted on a fresh tab). Reproduced at desktop
+width in the preview (explicit `preview_resize` 2200×1100 DOES render the desktop layout — the old
+"preview can't do desktop" note is wrong for explicit sizes): returning to the wall after a gen switch
+ran the full non-virtualized re-render → long tasks **2059ms + 1729ms + 819ms…** ≈ 5.5s frozen, 8,967
+DOM nodes, 5 mounted void-TV videos. **Fix:** the wall's vertical list is now `Animated.FlatList`
+(HomeScreen): `wallData` memo interleaves cat/snack/continue/TV-band entries (same layout rules),
+hero→spotlight = ListHeaderComponent, CTA+footer = ListFooterComponent, initialNumToRender 5 /
+maxToRenderPerBatch 3 / windowSize 7; FAB scrollTo → scrollToOffset. **After:** longest task 656ms,
+rest 100–300ms batches; pill-press 248→73ms; ~2,700 DOM nodes; 1 video. Rows mount on approach; far
+rows unmount (void TVs CRT-blink on re-entry — on-vibe). Also benefits the upcoming accumulate-only
+deeper rows. Bundle compiles; Bryan verifies feel on dt.
+
+### ✅ FULLSCREEN STUTTER — FIXED (VideoPlayer render churn; Bryan verifies feel)
+"FS works but oddly stuttered/glitchy." Three compounding web-side causes in `VideoPlayer.js`, all fixed:
+(1) the 250ms progress tick re-rendered the WHOLE player 4×/s even with controls hidden → tick now
+re-renders only while controls are shown (the buffer-underrun watchdog still runs on refs — keep it);
+(2) EVERY mousemove spawned a new JS-driven `Animated.timing` → `showControls` now just resets the hide
+timer when already visible; (3) the controls layer stayed mounted at opacity 0 OVER the video (the §6
+compositing lesson) → it now UNMOUNTS after the fade (`controlsShown` state; remounts on mousemove/tap
+with a fresh tick so the bar isn't stale). Bare <video> composites alone when controls are hidden.
+NOTE: dev bundle adds its own jank — judge final smoothness on a prod build/live. Headless preview can't
+verify (fullscreen denied + autoplay won't stick); bundle compiles clean.
+
+### 🔬 FULLSCREEN — DIAGNOSED (root causes confirmed by live repro; fixes pending Bryan's go)
+Bryan: fullscreen "starts on dt, then glitches and the audio keeps playing"; mobile inconsistent. REPRO'D
+in the local preview: dispatching ONE transient `error` on the playing `<video>` made the app
+**navigation.replace to a DIFFERENT video** (`/watch/Zydereen…` → `/watch/turner_video_107180`).
+**Chain = the dt glitch:** stream hiccup → `PlayerScreen.handleVideoError` unrecoverable branch →
+autoplay hops to related → PlayerScreen (and the fullscreened `[data-vpcontainer]` node) unmounts →
+browser force-exits fullscreen → expo-video doesn't release the old `<video>` on web (§16) → **audio
+keeps playing**. Same root as §16's "click video → it switches" pending bug. **Mobile split:** iOS
+Safari has NO element-fullscreen API — `container.requestFullscreen` is undefined → silent no-op
+(toggleFullscreen `VideoPlayer.js:258`); works on Android. iOS needs `video.webkitEnterFullscreen()`.
+**Fix plan (not yet applied):** (1) mid-play errors (videoRef.getCurrentTime() > ~3s) must NOT hop —
+show the existing retry overlay; keep auto-advance for channels + pre-play failures; (2) iOS fallback
+to `webkitEnterFullscreen` on the inner `<video>`; (3) harden VideoPlayer unmount: explicitly pause
+the DOM `<video>` (belt+braces for the §16 non-release); (4) scope the fullscreen target per-instance
+(today `querySelector('[data-vpcontainer="1"]')` is global; single instance currently, fine). NOTE:
+the Claude preview context DENIES fullscreen permissions (headless) — engage-tests must be on a real
+browser. ✅ FIXED this session: TopBar rendered over the Player on deep-link/refresh (initial route
+never hit onStateChange) → `onReady` now syncs `activeRoute` (navigation/index.js); verified.
+
+### ✅ ERA-LEAN v2 — "heavier lean for all" (IMPLEMENTED, verified locally; pending commit/push + Render manual deploy)
+Bryan: wall skewed old-old even on genz + variety frozen. Diagnosis: NO gates were up (RESTRICTED_EXCLUDE
+still off; v1 lean verified working in prod) — the skew was (1) local backend not running → stale client
+cache (start `backend && node server.js` before judging localhost!), (2) lean only touched 22/81
+recognizable rows while the un-leaned weird/deep rows (8/10 pre-1970 faces) dominated, (3) the shared
+payload often has no 2005+ items to lead with. Variety frozen = reshuffleCats skipped recognizable rows
+(the anti-scramble fix) + 20-min server bucket.
+**v2 (this session):** `archive.js` — `eraExempt()` (decade/show/mature/`sort`-ranked/silent_film stay
+authored), `eraFor` broadened to ALL non-exempt rows (See-More/pagination leans too), `applyEraLean` v2:
+PURE_HEAD=6 in-era face, WEAVE_EVERY=4, off-era ranked by proximity-to-window, genz 1970 floor wall-wide
+(never-blank guard kept), + ROW-ORDER lean (rows scored by face-affinity; decade rows drift to their gen).
+`HomeScreen.js` — reshuffleCats → BANDED shuffle (rows & items in bands of 4): per-visit variety without
+scrambling the lean; replaces the recognizable-skip. **Verified local:** genz first-10 rows all lead
+2005–2026 (1930s row sinks to #78/81), boomer leads d1960s/d1970s/d1980s + '60s deep cuts; most_popular/
+silent_film/all decade rows item-identical to base. Still in-memory only — no per-gen Archive fetching
+(outage-safe). Future thickener if rows feel thin on genz (floor shrinks them): add a small recent slice
+to the warm per row (bounded), see "option d". NOTE: local backend/.env has no Redis creds ("[cache] No
+Redis credentials — L1 only") — prod Render env has its own; restore locally if durable cache wanted.
+
+### ✅ header/hamburger refactor — IMPLEMENTED (web bundle compiles clean; pending Bryan live-verify + commit/push)
+**DONE this session (uncommitted in the working tree):** new `mobile/src/components/TopBar.js` (`☰ · logo · centered
+search · user · ♥ DONATE`, fixed/absolute, hamburger on both platforms) + `mobile/src/components/DrawerMenu.js`
+(extracted out of HomeScreen, opened from the bar; sources gen/auth from context; 18+/Browse route a `chip` param to
+HomeScreen). `SidebarContext` repurposed → `{ drawerOpen, openDrawer, closeDrawer, headerH }` (same provider/hook
+names). `navigation/index.js` renders TopBar + DrawerMenu OUTSIDE the Stack on BOTH platforms via a `makeNav`
+bridge, and hides them when `route === 'Player'`. Every screen swapped `marginLeft: sidebarWidth+CONTENT_GAP` →
+`paddingTop: insets.top + headerH`, content full-width; Player is full-bleed (`NAV_MARGIN = 0`). `DesktopSidebar.js`
+DELETED. Mobile keeps bottom tabs **and** the bar (Bryan's call). Verified: `index.bundle?platform=web` → HTTP 200,
+`var __BUNDLE_START_TIME__`. **Still needs:** Bryan live-verify (desktop especially — Preview tool can't do >900px),
+then commit + push to `master`.
+
+Original spec ↓ (kept for reference)
+### ⚠️ header/hamburger refactor — the spec
 A persistent **full-width** top bar on EVERY screen, **hidden in fullscreen**: `☰ hamburger · VOIDtv logo(=back/wall)
 · centered search · user · ♥ Donate`. The **hamburger opens the nav** (reuse the existing `DrawerMenu`), and the
 **left sidebar + its collapse-arrow are REMOVED**, content goes full-width. (Bryan flip-flopped then confirmed:

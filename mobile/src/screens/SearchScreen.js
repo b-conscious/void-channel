@@ -1,15 +1,14 @@
 import React, { useState, useCallback, useRef, useMemo, useEffect } from 'react';
 import {
   View, Text, FlatList, StyleSheet, ActivityIndicator,
-  ScrollView, TouchableOpacity, Dimensions, Platform, useWindowDimensions,
+  TouchableOpacity, Dimensions, Platform, useWindowDimensions,
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
-import SearchBar from '../components/SearchBar';
 import MediaCard from '../components/MediaCard';
 import { VoidLoader } from '../components';
 import { useGeneration } from '../context/GenerationContext';
-import { useSidebar, CONTENT_GAP } from '../context/SidebarContext';
+import { useSidebar } from '../context/SidebarContext';
 import api from '../api/client';
 import { colors, fonts, spacing, cardSize, radius } from '../theme';
 
@@ -56,14 +55,14 @@ function pickRandom(arr) {
 
 export default function SearchScreen({ navigation, route }) {
   const insets = useSafeAreaInsets();
-  const { gen, generationId } = useGeneration();
+  const { gen } = useGeneration();
   const accent = gen.accentColor;
   const { width: windowW } = useWindowDimensions();
-  const { sidebarWidth } = useSidebar();
+  const { headerH } = useSidebar();
 
-  // Reactive content width — scene = window minus sidebar+gap (applied via paddingLeft in nav)
-  const sceneW = IS_DESKTOP ? windowW - sidebarWidth - CONTENT_GAP : windowW;
-  const contentW = IS_DESKTOP ? sceneW - CONTENT_GAP : windowW;  // minus right padding too
+  // Full-width content under the persistent top bar (the desktop sidebar is gone).
+  const sceneW = windowW;
+  const contentW = windowW;
   const COLS = Math.max(2, Math.floor(
     (contentW - spacing.screenPadding * 2 + cardSize.gap) / (cardSize.width + cardSize.gap)
   ));
@@ -82,7 +81,6 @@ export default function SearchScreen({ navigation, route }) {
   const [activeDuration, setActiveDuration] = useState(0); // index into DURATION_FILTERS
   // Hint re-rolls when generation changes
   const hint = useMemo(() => pickRandom(gen.searchHints), [gen.id]);
-  const debounceRef = useRef(null);
   const sortRef = useRef(null);                          // current re-roll sort (null = default ranking)
 
   // ── "See More" — incoming category from HomeScreen ──
@@ -114,11 +112,6 @@ export default function SearchScreen({ navigation, route }) {
   const filtersRef = useRef(filters);
   filtersRef.current = filters;
 
-  function getFilterLabel(f) {
-    const key = `label_${generationId}`;
-    return (f[key] || f.label_millennial || '').toUpperCase();
-  }
-
   // Handle "See More" navigation from HomeScreen
   useEffect(() => {
     const categoryId = route?.params?.categoryId;
@@ -126,6 +119,26 @@ export default function SearchScreen({ navigation, route }) {
     const collectionId = route?.params?.collection;
     const collectionName = route?.params?.collectionName;
     const creatorName = route?.params?.creator;
+
+    // Direct query from the persistent TopBar — the single search input lives there now;
+    // this screen is purely the results surface (no input, no filter chips).
+    const q = route?.params?.q;
+    if (q != null && String(q).trim().length >= 2) {
+      const qq = String(q).trim();
+      setBrowseCollection(null);
+      setBrowseCreator(null);
+      setSeeMoreCategory(null);
+      setActiveFilter(0);
+      setQuery(qq);
+      setLoading(true);
+      setSearched(true);
+      sortRef.current = null;
+      api.searchItems(qq, { page: 1, rows: SEARCH_ROWS })
+        .then(data => { const it = data.items || []; setResults(it); setSearchPage(1); setHasMore(it.length >= SEARCH_ROWS); })
+        .catch(err => { console.warn('[search:q]', err); setResults([]); })
+        .finally(() => setLoading(false));
+      return;
+    }
 
     // Collection browse — "more from this show/series"
     if (collectionId) {
@@ -268,25 +281,6 @@ export default function SearchScreen({ navigation, route }) {
     }
   }, [activeFilter, activeDuration, browseCollection, browseCreator, applyResults]);
 
-  const handleChange = useCallback((text) => {
-    setQuery(text);
-    sortRef.current = null;            // a fresh query starts from the default ranking
-    clearTimeout(debounceRef.current);
-    debounceRef.current = setTimeout(() => doSearch(text), 420);
-  }, [doSearch]);
-
-  const handleFilterPress = useCallback((idx) => {
-    setActiveFilter(idx);
-    sortRef.current = null;
-    doSearch(query, idx, 1, activeDuration);
-  }, [query, doSearch, activeDuration]);
-
-  const handleDurationPress = useCallback((idx) => {
-    setActiveDuration(idx);
-    sortRef.current = null;
-    doSearch(query, activeFilter, 1, idx);
-  }, [query, activeFilter, doSearch]);
-
   // Load more — append the next page (the LOAD MORE button + infinite scroll both call this)
   const handleLoadMore = useCallback(() => {
     if (loading || loadingMore || !hasMore) return;
@@ -306,84 +300,34 @@ export default function SearchScreen({ navigation, route }) {
     navigation.navigate('Player', { item, id: item.id, categoryId });
   }, [navigation, activeFilter]);
 
-  // On desktop the fixed-position sidebar sits on top of content;
-  // each screen must push its own content right to avoid overlapping.
-  const desktopMargin = IS_DESKTOP ? sidebarWidth + CONTENT_GAP : 0;
-
   return (
-    <View style={[styles.container, { paddingTop: insets.top, marginLeft: desktopMargin }]}>
+    <View style={[styles.container, { paddingTop: insets.top + headerH }]}>
       <View style={styles.header}>
         <Text style={[styles.title, { color: accent }]}>{gen.searchTitle}</Text>
 
-        {/* Collection / Creator context banner */}
-        {(browseCollection || browseCreator) && (
+        {/* Context banner — what scoped these results (collection / creator / See-More category).
+            The search input + filter chips are gone: the TopBar is the single search affordance. */}
+        {(browseCollection || browseCreator || seeMoreCategory) && (
           <View style={[styles.browseBanner, { borderColor: accent + '40' }]}>
             <Ionicons
-              name={browseCollection ? 'folder-open-outline' : 'person-outline'}
+              name={browseCollection ? 'folder-open-outline' : browseCreator ? 'person-outline' : 'albums-outline'}
               size={14} color={accent}
             />
             <View style={{ flex: 1 }}>
               <Text style={styles.browseBannerLabel}>
-                {browseCollection ? 'COLLECTION' : 'CREATOR'}
+                {browseCollection ? 'COLLECTION' : browseCreator ? 'CREATOR' : 'CATEGORY'}
               </Text>
               <Text style={[styles.browseBannerName, { color: accent }]} numberOfLines={1}>
-                {browseCollection ? browseCollection.name : browseCreator}
+                {browseCollection ? browseCollection.name : browseCreator || seeMoreCategory.name}
               </Text>
             </View>
             <TouchableOpacity
-              onPress={() => { setBrowseCollection(null); setBrowseCreator(null); setResults([]); setSearched(false); }}
+              onPress={() => { setBrowseCollection(null); setBrowseCreator(null); setSeeMoreCategory(null); setActiveFilter(0); setResults([]); setSearched(false); }}
               hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
             >
               <Ionicons name="close-circle" size={18} color={colors.textGhost} />
             </TouchableOpacity>
           </View>
-        )}
-
-        <SearchBar
-          value={query} onChangeText={handleChange} onSubmit={() => { sortRef.current = null; doSearch(query); }}
-          placeholder={browseCollection ? `Search in ${browseCollection.name}...` : browseCreator ? `Search by ${browseCreator}...` : hint}
-          accentColor={accent}
-        />
-
-        {/* Category filter chips — hidden when browsing a collection/creator */}
-        {!browseCollection && !browseCreator && (
-          <ScrollView
-            horizontal showsHorizontalScrollIndicator={false}
-            style={styles.filterRow} contentContainerStyle={styles.filterContent}
-          >
-            {filters.map((f, i) => (
-              <TouchableOpacity
-                key={i} onPress={() => handleFilterPress(i)}
-                style={[styles.chip, activeFilter === i && { borderColor: accent, backgroundColor: accent + '18' }]}
-                activeOpacity={0.75}
-              >
-                <Text style={[styles.chipText, activeFilter === i && { color: accent }]}>
-                  {getFilterLabel(f)}
-                </Text>
-              </TouchableOpacity>
-            ))}
-          </ScrollView>
-        )}
-
-        {/* Duration filter row */}
-        {!browseCollection && !browseCreator && (
-          <ScrollView
-            horizontal showsHorizontalScrollIndicator={false}
-            style={styles.durationRow} contentContainerStyle={styles.filterContent}
-          >
-            <Ionicons name="time-outline" size={13} color={colors.textGhost} style={{ marginRight: 2, alignSelf: 'center' }} />
-            {DURATION_FILTERS.map((d, i) => (
-              <TouchableOpacity
-                key={i} onPress={() => handleDurationPress(i)}
-                style={[styles.durChip, activeDuration === i && { borderColor: accent, backgroundColor: accent + '18' }]}
-                activeOpacity={0.75}
-              >
-                <Text style={[styles.durChipText, activeDuration === i && { color: accent }]}>
-                  {d.label}
-                </Text>
-              </TouchableOpacity>
-            ))}
-          </ScrollView>
         )}
       </View>
 
@@ -416,7 +360,7 @@ export default function SearchScreen({ navigation, route }) {
           <Text style={[styles.promptBig, { color: accent }]}>40 MILLION ITEMS</Text>
           <Text style={styles.promptLine}>before AI slop, there was human creativity</Text>
           <View style={[styles.hintPill, { borderColor: accent + '55' }]}>
-            <Text style={[styles.hintText, { color: accent + 'aa' }]}>{hint}</Text>
+            <Text style={[styles.hintText, { color: accent + 'aa' }]}>↑ search from the bar above — try “{hint}”</Text>
           </View>
         </View>
       ) : (
@@ -473,7 +417,7 @@ export default function SearchScreen({ navigation, route }) {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: colors.bg, ...(IS_DESKTOP ? { paddingRight: CONTENT_GAP } : {}) },
+  container: { flex: 1, backgroundColor: colors.bg },
   header: {
     paddingHorizontal: spacing.screenPadding, paddingTop: 16, paddingBottom: 4,
     borderBottomWidth: StyleSheet.hairlineWidth, borderBottomColor: colors.surface,

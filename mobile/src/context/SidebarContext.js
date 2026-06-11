@@ -1,42 +1,46 @@
 /**
- * SidebarContext — shared collapsed/expanded state for the desktop sidebar.
+ * Chrome context — shared state for the persistent top bar + hamburger drawer.
  *
- * Consumed by DesktopSidebar (owns the toggle), navigation/index (marginLeft),
- * HomeScreen (content width), and PlayerScreen (video sizing).
+ * (Formerly SidebarContext, for the now-removed desktop sidebar. The file +
+ * SidebarProvider + useSidebar names are kept so App.js and screen imports are
+ * stable — only the value shape changed.)
+ *
+ * Provides:
+ *  - drawerOpen / openDrawer() / closeDrawer() — the hamburger nav drawer,
+ *    rendered once at the Navigation level and openable from the TopBar.
+ *  - headerH — content height the persistent TopBar occupies. Each screen pads
+ *    its content top by `insets.top + headerH` so nothing hides behind the bar.
  */
 
 import React, { createContext, useContext, useState, useCallback } from 'react';
 
-var EXPANDED_W = 150;
-var COLLAPSED_W = 28;    // just enough for a chevron arrow
-var CONTENT_GAP = 6;     // gap between sidebar right edge and content left edge
+// Content height of the persistent top bar — excludes the safe-area inset,
+// which each screen adds itself via useSafeAreaInsets().
+var HEADER_H = 52;
 
-var SidebarContext = createContext({
-  collapsed: false,
-  sidebarWidth: EXPANDED_W,
-  toggleSidebar: function () {},
+var ChromeContext = createContext({
+  drawerOpen: false,
+  openDrawer: function () {},
+  closeDrawer: function () {},
+  headerH: HEADER_H,
 });
 
 export function SidebarProvider({ children }) {
   var _s = useState(false);
-  var collapsed = _s[0];
-  var setCollapsed = _s[1];
-  var toggleSidebar = useCallback(function () { setCollapsed(function (p) { return !p; }); }, []);
-  // Content layout reserves the EXPANDED width ALWAYS — so opening/closing the sidebar never reflows
-  // the player / search bar / wall (Bryan: "have the player start where it flexes to; the search bar
-  // just needs to not be flexible"). The sidebar itself still collapses visually — DesktopSidebar
-  // self-sizes from `collapsed`, not from this value, so nothing here breaks its toggle.
-  var sidebarWidth = EXPANDED_W;
+  var drawerOpen = _s[0];
+  var setDrawerOpen = _s[1];
+  var openDrawer = useCallback(function () { setDrawerOpen(true); }, []);
+  var closeDrawer = useCallback(function () { setDrawerOpen(false); }, []);
 
   return (
-    <SidebarContext.Provider value={{ collapsed, sidebarWidth, toggleSidebar }}>
+    <ChromeContext.Provider value={{ drawerOpen, openDrawer, closeDrawer, headerH: HEADER_H }}>
       {children}
-    </SidebarContext.Provider>
+    </ChromeContext.Provider>
   );
 }
 
 export function useSidebar() {
-  return useContext(SidebarContext);
+  return useContext(ChromeContext);
 }
 
-export { EXPANDED_W, COLLAPSED_W, CONTENT_GAP };
+export { HEADER_H };

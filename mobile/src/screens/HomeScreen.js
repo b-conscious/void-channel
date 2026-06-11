@@ -13,7 +13,6 @@ import FastImage from '../components/FastImage';
 import CategoryRow from '../components/CategoryRow';
 import SkeletonCard from '../components/SkeletonCard';
 import { VoidLoader, TheArchivist } from '../components';
-import AvatarPickerModal from '../components/AvatarPickerModal';
 import { useGeneration } from '../context/GenerationContext';
 import { useAuth } from '../context/AuthContext';
 import { GENERATIONS } from '../data/generations';
@@ -21,7 +20,7 @@ import api from '../api/client';
 import store from '../store/cache';
 import { colors, fonts, spacing, radius } from '../theme';
 
-import { useSidebar, CONTENT_GAP } from '../context/SidebarContext';
+import { useSidebar } from '../context/SidebarContext';
 
 const { width: SCREEN_W } = Dimensions.get('window');
 const IS_DESKTOP = Platform.OS === 'web' && SCREEN_W > 900;
@@ -29,49 +28,9 @@ const DONATE_URL = 'https://square.link/u/dJioBmlW';
 const BRAND_BLUE = '#5cb8ff'; // vivid blue — donate icon + tagline
 
 // YouTube-style filter chips — text-only genre aggregates, no thumbnails = fast
-const FILTER_CHIPS = [
-  { id: 'all', label: 'All' },
-  { id: 'horror', label: 'Horror' },
-  { id: 'scifi', label: 'Sci-Fi' },
-  { id: 'comedy', label: 'Comedy' },
-  { id: 'noir', label: 'Noir' },
-  { id: 'cartoons', label: 'Cartoons' },
-  { id: 'documentary', label: 'Docs' },
-  { id: 'western', label: 'Westerns' },
-  { id: 'anime', label: 'Anime' },
-  { id: 'music_video', label: 'Music' },
-  { id: 'educational_tv', label: 'Educational' },
-  { id: 'newsreels', label: 'Newsreels' },
-  { id: 'feature_length', label: 'Features' },
-  { id: 'public_access', label: 'Public Access' },
-  { id: 'prelinger', label: 'Prelinger' },
-  { id: 'sports', label: 'Sports' },
-  { id: 'romance', label: 'Romance' },
-  { id: 'nature_wildlife', label: 'Nature' },
-  { id: 'cringe', label: 'Cringe' },
-  { id: 'tv_movies', label: 'TV' },
-  { id: 'mature', label: '18+' },
-];
-
-// ── Chip sort order per generation — what each gen finds most interesting first ──
-// "All" always stays first, 18+ always last. Middle chips reorder by preference.
-const CHIP_ORDER = {
-  boomer: [
-    'noir', 'western', 'newsreels', 'documentary', 'feature_length', 'educational_tv',
-    'cartoons', 'comedy', 'sports', 'nature_wildlife', 'prelinger', 'music_video',
-    'public_access', 'scifi', 'horror', 'romance', 'tv_movies', 'anime', 'cringe',
-  ],
-  millennial: [
-    'horror', 'scifi', 'noir', 'cartoons', 'comedy', 'anime', 'documentary',
-    'music_video', 'cringe', 'prelinger', 'public_access', 'tv_movies', 'feature_length',
-    'western', 'educational_tv', 'newsreels', 'sports', 'nature_wildlife', 'romance',
-  ],
-  genz: [
-    'anime', 'cringe', 'horror', 'comedy', 'music_video', 'tv_movies', 'scifi',
-    'cartoons', 'feature_length', 'public_access', 'documentary', 'nature_wildlife',
-    'romance', 'sports', 'prelinger', 'noir', 'western', 'educational_tv', 'newsreels',
-  ],
-};
+// (The desktop filter chip bar is GONE per Bryan — the wall is always the full "All" sea on every
+// platform. The chip MECHANISM survives only for the drawer's 18+ / Browse routes: activeChip is
+// 'all' or 'mature', nothing else sets it.)
 
 // ── Channel sort order per generation ──
 const CHANNEL_ORDER = {
@@ -99,16 +58,20 @@ function shuffled(arr) {
   return a;
 }
 
-// Client-side variety: reshuffle category order + items within each category.
-// Free, instant, and zero load on Archive.org — replaces the slow live "shuffle" fetch.
-// EXCEPTION: recognizable rows are era-ordered by the backend generational lean ("starts older →
-// works up" / "recent → back", with variety already woven in), so we must NOT shuffle their items —
-// that would scramble the ordering. Only non-leaned rows get item-shuffled for per-visit variety.
+// Client-side variety: BANDED shuffle — rows and items shuffle only within small local bands.
+// Free, instant, zero Archive load. The backend era-lean orders BOTH the rows and each row's
+// items for the generation; a full shuffle un-did that, and the old fix (skip recognizable rows
+// entirely) froze them between visits. Banded is the middle: every visit looks different, but an
+// era-leaned spine survives — a recent-first row stays recent-first, old rows stay sunk.
+function bandShuffle(arr, band) {
+  if (!Array.isArray(arr) || arr.length < 3) return arr || [];
+  const out = [];
+  for (let i = 0; i < arr.length; i += band) out.push(...shuffled(arr.slice(i, i + band)));
+  return out;
+}
 function reshuffleCats(cats) {
   if (!Array.isArray(cats) || cats.length === 0) return cats;
-  return shuffled(cats.map((c) => (
-    c && c.recognizable ? { ...c } : { ...c, items: shuffled(c.items) }
-  )));
+  return bandShuffle(cats.map((c) => (c ? { ...c, items: bandShuffle(c.items, 4) } : c)), 4);
 }
 
 // Guard: only swap in a fresh payload if it actually has substantial content.
@@ -120,21 +83,18 @@ function hasRealContent(cats) {
   return populated >= Math.ceil(cats.length * 0.5);
 }
 
-export default function HomeScreen({ navigation }) {
+export default function HomeScreen({ navigation, route }) {
   const insets = useSafeAreaInsets();
   const { width: windowW } = useWindowDimensions();
-  const { sidebarWidth } = useSidebar();
-  // Navigation marginLeft = sidebarWidth + CONTENT_GAP. Scene width = windowW - that.
-  // Right padding = CONTENT_GAP for symmetry. Hero fills scene minus right pad.
-  const sceneW = IS_DESKTOP ? windowW - sidebarWidth - CONTENT_GAP : windowW;
-  const contentW = IS_DESKTOP ? sceneW - CONTENT_GAP : windowW;
+  const { headerH, openDrawer, closeDrawer } = useSidebar();
+  // Content is full-width now — the desktop left sidebar is gone (nav lives in the top bar).
+  const sceneW = windowW;
+  const contentW = windowW;
   // Hero: smaller than Prime's (our archive thumbnails are low-res and shouldn't be blown
   // up huge). Capped on desktop so it doesn't dominate a wide screen; proportional on mobile.
   const heroH = IS_DESKTOP ? Math.min(Math.round(contentW * 0.30), 380) : Math.round(contentW * 0.52);
   const { gen, generationId, chooseGeneration } = useGeneration();
   const { user, isAuthenticated, isAnonymous, updateProfile, signOut } = useAuth();
-  const [menuOpen, setMenuOpen] = useState(false);
-  const [avatarPickerOpen, setAvatarPickerOpen] = useState(false);
   const [allCategories, setAllCategories] = useState([]);
   const allCategoriesRef = useRef([]); // mirrors allCategories for stable reads inside callbacks
   const [loading, setLoading] = useState(true);
@@ -154,32 +114,6 @@ export default function HomeScreen({ navigation }) {
   const loadingMsg = useMemo(() => pickRandom(gen.loadingMessages), [gen.id]);
   const scrollY = useRef(new Animated.Value(0)).current;
   const accent = gen.accentColor;
-
-  // Sort filter chips by generation preference — "All" first, 18+ last
-  const sortedChips = useMemo(() => {
-    const order = CHIP_ORDER[generationId] || CHIP_ORDER.millennial;
-    const allChip = FILTER_CHIPS.find(c => c.id === 'all');
-    const matureChip = FILTER_CHIPS.find(c => c.id === 'mature');
-    const rest = FILTER_CHIPS.filter(c => c.id !== 'all' && c.id !== 'mature');
-    const sorted = [...rest].sort((a, b) => {
-      const ai = order.indexOf(a.id);
-      const bi = order.indexOf(b.id);
-      if (ai === -1 && bi === -1) return 0;
-      if (ai === -1) return 1;
-      if (bi === -1) return -1;
-      return ai - bi;
-    });
-    return [allChip, ...sorted, matureChip];
-  }, [generationId]);
-
-  // Chip bar horizontal scroll — arrow navigation on desktop
-  const chipScrollRef = useRef(null);
-  const chipXRef = useRef(0);
-  const scrollChipBar = useCallback((dir) => {
-    var step = 280;
-    var newX = dir === 'left' ? Math.max(0, chipXRef.current - step) : chipXRef.current + step;
-    chipScrollRef.current?.scrollTo?.({ x: newX, animated: true });
-  }, []);
 
   // Sort by generation's categoryPriority — categories listed first appear at the top
   const typeCats = useMemo(() => {
@@ -213,9 +147,18 @@ export default function HomeScreen({ navigation }) {
   // Anonymous sessions don't count (anon sign-in is ON), so an anon/non-member gets the sign-in /
   // create-account screen instead.
   const selectChip = useCallback((id) => {
-    if (id === 'mature' && (!isAuthenticated || isAnonymous)) { setMenuOpen(false); navigation.navigate('Auth'); return; }
+    if (id === 'mature' && (!isAuthenticated || isAnonymous)) { closeDrawer(); navigation.navigate('Auth'); return; }
     setActiveChip(id);
-  }, [isAuthenticated, isAnonymous, navigation]);
+  }, [isAuthenticated, isAnonymous, navigation, closeDrawer]);
+
+  // The hamburger drawer routes "18+" / "Browse" here via a `chip` param.
+  useEffect(() => {
+    const chip = route?.params?.chip;
+    if (chip) {
+      selectChip(chip);
+      navigation.setParams?.({ chip: undefined });
+    }
+  }, [route?.params?.chip]);
 
   // Per-category pagination — tracks which page each category is on + loading state
   const [catPages, setCatPages] = useState({});       // { [catId]: pageNumber }
@@ -439,38 +382,8 @@ export default function HomeScreen({ navigation }) {
     navigation.navigate('Search', { categoryId: category.id, categoryName: category.name, _ts: Date.now() });
   }, [navigation]);
 
-  // Subscribe / unsubscribe to a category
-  const [subscribedIds, setSubscribedIds] = useState(new Set());
-  useEffect(() => {
-    // Only fetch subscriptions if signed in — avoids a 401 for anonymous users
-    if (!isAuthenticated) return;
-    api.getSubscriptions()
-      .then((subs) => {
-        if (Array.isArray(subs)) {
-          setSubscribedIds(new Set(subs.map((s) => s.category_id)));
-        }
-      })
-      .catch(() => {});
-  }, [isAuthenticated]);
-
-  const handleSubscribe = useCallback(async (categoryId, shouldSubscribe) => {
-    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-    try {
-      if (shouldSubscribe) {
-        await api.subscribe(categoryId);
-        setSubscribedIds((prev) => new Set([...prev, categoryId]));
-      } else {
-        await api.unsubscribe(categoryId);
-        setSubscribedIds((prev) => {
-          const next = new Set(prev);
-          next.delete(categoryId);
-          return next;
-        });
-      }
-    } catch (err) {
-      console.warn('[subscribe]', err.message);
-    }
-  }, []);
+  // (FOLLOW tags removed from rows per Bryan — the "From Your Subscriptions" feed row still
+  // renders for accounts with existing follows; there's just no follow/unfollow UI anymore.)
 
   // ── Deep channel queue with infinite pagination ──
   // Load a small first batch (25 items) for instant playback, then Player
@@ -530,174 +443,81 @@ export default function HomeScreen({ navigation }) {
     try { const ri = await api.getRandomItem(); navigation.navigate('Player', { item: ri, id: ri.id }); } catch {}
   }, [navigation]);
 
-  // On desktop the fixed-position sidebar sits on top of content;
-  // each screen must push its own content right to avoid overlapping.
-  const desktopMargin = IS_DESKTOP ? sidebarWidth + CONTENT_GAP : 0;
+  // ── Virtualized wall (§12/§15.6): the vertical list is a windowed FlatList so a generation
+  // switch (or any payload swap) re-renders a screenful (~5 rows), not all ~80 — the full-wall
+  // synchronous commit froze desktop for seconds (measured 2.0s + 1.7s + 0.8s long tasks).
+  // Rows materialize as they scroll near; void TVs CRT-blink back in on re-entry (on-vibe, §12).
+  const wallData = useMemo(() => {
+    const out = [];
+    const len = visibleTypeCats.length;
+    visibleTypeCats.forEach((cat, idx) => {
+      out.push({ k: 'cat_' + cat.id, type: 'cat', cat, idx });
+      // Void Snacks AFTER the first category row, then every 3 (idx 0,3,6…); each rotated.
+      if (shorts.length > 0 && (idx % 3 === 0) && idx < len - 1) out.push({ k: 'snack_' + idx, type: 'snack', idx });
+      // Continue Watching — sits under the first Void Snacks row
+      if (idx === 0 && history.length > 0) out.push({ k: 'continue', type: 'continue' });
+      // Scattered void-stream TVs — ~1-in-6 rows, hash-scattered (web only)
+      if (Platform.OS === 'web' && idx < len - 1 && ((((idx + 1) * 2654435761) >>> 0) % 6 === 0)) {
+        out.push({ k: 'tv_' + idx, type: 'tv' });
+      }
+    });
+    return out;
+  }, [visibleTypeCats, shorts, history.length]);
+
+  const wallKeyExtractor = useCallback((entry) => entry.k, []);
+
+  const renderWallItem = useCallback(({ item: entry }) => {
+    if (entry.type === 'cat') {
+      return (
+        <CategoryRow
+          category={entry.cat}
+          onItemPress={handleItemPress}
+          page={catPages[entry.cat.id] || 1}
+          loadingMore={!!catLoading[entry.cat.id]}
+          onPageChange={handlePageChange}
+          onSeeMore={handleSeeMore}
+        />
+      );
+    }
+    if (entry.type === 'snack') {
+      return (
+        <ShortsRow
+          items={rotateArray(shorts, Math.floor(entry.idx / 3) * 11)}
+          accent={accent}
+          onItemPress={handleItemPress}
+        />
+      );
+    }
+    if (entry.type === 'continue') {
+      return <ContinueRow items={history} accent={accent} onItemPress={handleItemPress} />;
+    }
+    if (entry.type === 'tv') {
+      return (
+        <View style={{ marginHorizontal: spacing.screenPadding, marginBottom: 16 }}>
+          <VoidLoader mode="static" size="row" style={{ width: '100%', height: 150, borderRadius: 8 }} />
+        </View>
+      );
+    }
+    return null;
+  }, [handleItemPress, catPages, catLoading, handlePageChange, handleSeeMore, shorts, history, accent]);
 
   return (
-    <View style={[styles.container, { marginLeft: desktopMargin }]}>
-      {/* Sticky header — always visible, solid background */}
-      <View
-        style={[styles.stickyHeader, { paddingTop: insets.top + 4 }]}
-      >
-        <View style={styles.headerTop}>
-          <View style={IS_DESKTOP ? styles.headerCol : styles.headerLeft}>
-            {!IS_DESKTOP && (
-              <TouchableOpacity onPress={() => setMenuOpen(true)} style={styles.hamburger} hitSlop={8}>
-                <Ionicons name="menu" size={22} color={colors.textPrimary} />
-              </TouchableOpacity>
-            )}
-            {!IS_DESKTOP && (
-              <TouchableOpacity onPress={() => navigation.navigate('Browse')} activeOpacity={0.7}>
-                <View style={styles.logoWrap}>
-                  <Text style={[styles.logoVoid, { color: accent }]}>VOID</Text>
-                  <Text style={styles.logoTv}>tv</Text>
-                </View>
-              </TouchableOpacity>
-            )}
-          </View>
-          {/* ── Desktop: logo + centered search bar ── */}
-          {IS_DESKTOP && (
-            <TouchableOpacity onPress={() => navigation.navigate('Browse')} activeOpacity={0.7} style={{ marginRight: 16 }}>
-              <View style={{ flexDirection: 'row', alignItems: 'baseline' }}>
-                <Text style={{ fontFamily: fonts.monoBold, fontSize: 16, letterSpacing: 2.5, color: accent }}>VOID</Text>
-                <Text style={{ fontFamily: fonts.sans, fontSize: 13, color: colors.textMuted, letterSpacing: 0.5 }}>tv</Text>
-              </View>
-            </TouchableOpacity>
-          )}
-          {IS_DESKTOP && (
-            <Pressable
-              onPress={() => navigation.navigate('Search')}
-              style={styles.desktopSearchBar}
-            >
-              <Ionicons name="search" size={16} color={colors.textMuted} />
-              <Text style={styles.desktopSearchPlaceholder}>Search VOIDtv</Text>
-            </Pressable>
-          )}
-          <View style={IS_DESKTOP ? [styles.headerRight, styles.headerCol, { justifyContent: 'flex-end' }] : styles.headerRight}>
-            {/* User avatar + name when logged in */}
-            {isAuthenticated && user ? (
-              <TouchableOpacity
-                onPress={() => setAvatarPickerOpen(true)}
-                style={styles.userChip}
-                activeOpacity={0.7}
-              >
-                {user.avatar_url ? (
-                  <FastImage uri={user.avatar_url} itemId={`av_${user.id}`} style={styles.userAvatar} contentFit="cover" />
-                ) : (
-                  <View style={[styles.userAvatarGlyph, { backgroundColor: accent + '30' }]}>
-                    <Text style={[styles.userAvatarGlyphText, { color: accent }]}>
-                      {(user.username || user.display_name || '?')[0].toUpperCase()}
-                    </Text>
-                  </View>
-                )}
-                <Text style={styles.userChipName} numberOfLines={1}>
-                  {user.username || user.display_name || 'void dweller'}
-                </Text>
-              </TouchableOpacity>
-            ) : (
-              <TouchableOpacity
-                onPress={() => navigation.navigate('Auth')}
-                style={styles.signInChip}
-                activeOpacity={0.7}
-                hitSlop={6}
-              >
-                <Ionicons name="person-outline" size={12} color={colors.textMuted} />
-                <Text style={styles.signInChipText}>SIGN IN</Text>
-              </TouchableOpacity>
-            )}
-            <TouchableOpacity onPress={() => Linking.openURL(DONATE_URL)} style={styles.donateBtn} hitSlop={8} activeOpacity={0.85}>
-              <Ionicons name="heart" size={12} color="#08080b" style={{ marginRight: 5 }} />
-              <Text style={styles.donateText}>DONATE</Text>
-            </TouchableOpacity>
-          </View>
-        </View>
-        {/* Tagline removed — vertical space reclaimed for content like YouTube */}
-      </View>
-
-      {/* Avatar picker modal */}
-      <AvatarPickerModal
-        visible={avatarPickerOpen}
-        onClose={() => setAvatarPickerOpen(false)}
-        accent={accent}
-        currentAvatar={user?.avatar_url}
-        onSelect={async (avatar) => {
-          const url = avatar.url || `glyph:${avatar.glyph}`;
-          await updateProfile({ avatar_url: url });
-        }}
-      />
-
-      {/* ── Hamburger drawer ── */}
-      <DrawerMenu
-        visible={menuOpen}
-        onClose={() => setMenuOpen(false)}
-        accent={accent}
-        activeChip={activeChip}
-        onSelectChip={selectChip}
-        gen={gen}
-        generationId={generationId}
-        chooseGeneration={chooseGeneration}
-        navigation={navigation}
-        onRandom={() => { setMenuOpen(false); handleRandom(); }}
-        user={user}
-        isAuthenticated={isAuthenticated}
-        onAvatarPress={() => setAvatarPickerOpen(true)}
-        onSignOut={signOut}
-      />
-
-      {/* ── Filter chip bar — DESKTOP only. Mobile is the full category wall (no chips). ── */}
-      {IS_DESKTOP && (
-      <View style={[styles.chipBarWrap, styles.chipBarRow]}>
-        {IS_DESKTOP && (
-          <TouchableOpacity onPress={() => scrollChipBar('left')} style={styles.chipArrow} activeOpacity={0.7}>
-            <Ionicons name="chevron-back" size={16} color={colors.textSecondary} />
-          </TouchableOpacity>
-        )}
-        <ScrollView
-          ref={chipScrollRef}
-          horizontal
-          showsHorizontalScrollIndicator={false}
-          contentContainerStyle={styles.chipBar}
-          style={{ flex: 1 }}
-          onScroll={(e) => { chipXRef.current = e.nativeEvent.contentOffset.x; }}
-          scrollEventThrottle={32}
-        >
-          {sortedChips.map((chip) => {
-            const isActive = activeChip === chip.id;
-            return (
-              <TouchableOpacity
-                key={chip.id}
-                onPress={() => { selectChip(chip.id); try { Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light); } catch {} }}
-                style={[
-                  styles.chip,
-                  isActive && { backgroundColor: colors.textPrimary },
-                ]}
-                activeOpacity={0.7}
-              >
-                <Text style={[
-                  styles.chipText,
-                  isActive && { color: colors.bg },
-                ]}>{chip.label}</Text>
-              </TouchableOpacity>
-            );
-          })}
-        </ScrollView>
-        {IS_DESKTOP && (
-          <TouchableOpacity onPress={() => scrollChipBar('right')} style={styles.chipArrow} activeOpacity={0.7}>
-            <Ionicons name="chevron-forward" size={16} color={colors.textSecondary} />
-          </TouchableOpacity>
-        )}
-      </View>
-      )}
-
-      <Animated.ScrollView
+    <View style={[styles.container, { paddingTop: insets.top + headerH }]}>
+      <Animated.FlatList
         ref={scrollRef}
         style={styles.scroll}
-        contentContainerStyle={IS_DESKTOP ? { paddingRight: CONTENT_GAP } : undefined}
+        data={wallData}
+        keyExtractor={wallKeyExtractor}
+        renderItem={renderWallItem}
+        initialNumToRender={5}
+        maxToRenderPerBatch={3}
+        windowSize={7}
+        updateCellsBatchingPeriod={50}
         onScroll={Animated.event([{ nativeEvent: { contentOffset: { y: scrollY } } }], { useNativeDriver: Platform.OS !== 'web' })}
         scrollEventThrottle={16}
         showsVerticalScrollIndicator={false}
-      >
+        ListHeaderComponent={
+          <>
         {/* Hero */}
         <HeroCard
           item={heroItem}
@@ -792,43 +612,10 @@ export default function HomeScreen({ navigation }) {
           />
         )}
 
-        {/* The wall — every category as a side-scrolling row, with void-stream TVs scattered
-            through it (each channel-surfed to a different scene): the "wall of screens" you surf
-            past on the way down. Web only (static-video mode); ~1-in-6 rows, hash-scattered. */}
-        {visibleTypeCats.map((cat, idx) => (
-          <React.Fragment key={cat.id}>
-            <CategoryRow
-              category={cat}
-              onItemPress={handleItemPress}
-              page={catPages[cat.id] || 1}
-              loadingMore={!!catLoading[cat.id]}
-              onPageChange={handlePageChange}
-              subscribed={subscribedIds.has(cat.id)}
-              onSubscribe={handleSubscribe}
-              onSeeMore={handleSeeMore}
-            />
-            {/* Void Snacks AFTER the first category row, then every 3 (idx 0,3,6…): cat1 → snacks →
-                3 cats → snacks → … Each insertion is rotated to a different slice of the pool. */}
-            {shorts.length > 0 && (idx % 3 === 0) && idx < visibleTypeCats.length - 1 && (
-              <ShortsRow
-                items={rotateArray(shorts, Math.floor(idx / 3) * 11)}
-                accent={accent}
-                onItemPress={handleItemPress}
-              />
-            )}
-            {/* Continue Watching — sits under the first Void Snacks row (smaller cards) */}
-            {idx === 0 && history.length > 0 && (
-              <ContinueRow items={history} accent={accent} onItemPress={handleItemPress} />
-            )}
-            {Platform.OS === 'web' && idx < visibleTypeCats.length - 1
-              && ((((idx + 1) * 2654435761) >>> 0) % 6 === 0) && (
-              <View style={{ marginHorizontal: spacing.screenPadding, marginBottom: 16 }}>
-                <VoidLoader mode="static" size="row" style={{ width: '100%', height: 150, borderRadius: 8 }} />
-              </View>
-            )}
-          </React.Fragment>
-        ))}
-
+          </>
+        }
+        ListFooterComponent={
+          <>
         {/* Donate CTA — visible between content and footer */}
         <TouchableOpacity
           onPress={() => Linking.openURL(DONATE_URL)}
@@ -867,14 +654,16 @@ export default function HomeScreen({ navigation }) {
             </Text>
           </TouchableOpacity>
         </View>
-      </Animated.ScrollView>
+          </>
+        }
+      />
 
       {/* ── Floating menu FAB — appears when header scrolls out of view (mobile only) ── */}
       {!IS_DESKTOP && <Animated.View
         style={[styles.fab, { bottom: insets.bottom + 74, opacity: fabAnim, pointerEvents: 'auto' }]}
       >
         <TouchableOpacity
-          onPress={() => setMenuOpen(true)}
+          onPress={openDrawer}
           style={[styles.fabBtn, { backgroundColor: colors.surface, borderColor: accent + '40' }]}
           activeOpacity={0.8}
           hitSlop={6}
@@ -884,9 +673,9 @@ export default function HomeScreen({ navigation }) {
         <TouchableOpacity
           onPress={() => {
             Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-            scrollRef.current?.scrollTo?.({ y: 0, animated: true });
-            // Animated.ScrollView wraps getNode in some versions
-            scrollRef.current?.getNode?.()?.scrollTo?.({ y: 0, animated: true });
+            scrollRef.current?.scrollToOffset?.({ offset: 0, animated: true });
+            // Animated.FlatList wraps getNode in some versions
+            scrollRef.current?.getNode?.()?.scrollToOffset?.({ offset: 0, animated: true });
           }}
           style={[styles.fabBtn, styles.fabBtnSmall, { backgroundColor: colors.surface, borderColor: accent + '25' }]}
           activeOpacity={0.8}
@@ -1421,244 +1210,7 @@ function ScanlineOverlay({ height }) {
   );
 }
 
-function DrawerMenu({ visible, onClose, accent, activeChip, onSelectChip, gen, generationId, chooseGeneration, navigation, onRandom, user, isAuthenticated, onAvatarPress, onSignOut }) {
-  if (!visible) return null;
-
-  const GEN_OPTS = [
-    { id: 'boomer', label: 'BOOMER', color: GENERATIONS.boomer.accentColor },
-    { id: 'millennial', label: 'MILLENNIAL', color: GENERATIONS.millennial.accentColor },
-    { id: 'genz', label: 'GEN Z', color: GENERATIONS.genz.accentColor },
-  ];
-
-  const menuItems = [
-    { icon: 'tv', label: 'THE VAULT', tab: 'Browse' },
-    { icon: 'search', label: 'SEARCH', tab: 'Search' },
-    { icon: 'compass', label: 'SIGNAL', tab: 'Signal' },
-    { icon: 'bookmark', label: 'MY VOID', tab: 'My Void' },
-  ];
-
-  return (
-    <Modal transparent visible={visible} animationType="fade" onRequestClose={onClose}>
-      <Pressable style={drawerStyles.overlay} onPress={onClose}>
-        <Pressable style={drawerStyles.drawer} onPress={(e) => e.stopPropagation()}>
-          {/* Header with user info */}
-          <View style={drawerStyles.drawerHeader}>
-            <View style={drawerStyles.drawerLogoRow}>
-              <Text style={[drawerStyles.drawerLogo, { color: accent }]}>VOID</Text>
-              <Text style={drawerStyles.drawerLogoSub}> CHANNEL</Text>
-            </View>
-            <Text style={[drawerStyles.drawerTagline, { color: BRAND_BLUE }]}>generating since 1895</Text>
-          </View>
-
-          {/* User account section */}
-          {isAuthenticated && user ? (
-            <View style={drawerStyles.userSection}>
-              <TouchableOpacity onPress={() => { onClose(); onAvatarPress?.(); }} style={drawerStyles.userRow} activeOpacity={0.7}>
-                {user.avatar_url ? (
-                  <FastImage uri={user.avatar_url} itemId={`dav_${user.id}`} style={drawerStyles.drawerAvatar} contentFit="cover" />
-                ) : (
-                  <View style={[drawerStyles.drawerAvatarFallback, { backgroundColor: accent + '30' }]}>
-                    <Text style={[drawerStyles.drawerAvatarGlyph, { color: accent }]}>
-                      {(user.username || '?')[0].toUpperCase()}
-                    </Text>
-                  </View>
-                )}
-                <View style={{ flex: 1 }}>
-                  <Text style={drawerStyles.drawerUsername}>{user.username || user.display_name || 'void dweller'}</Text>
-                  <Text style={drawerStyles.drawerUserSub}>tap to change avatar</Text>
-                </View>
-              </TouchableOpacity>
-              <TouchableOpacity onPress={() => { onClose(); onSignOut?.(); }} style={drawerStyles.signOutBtn} activeOpacity={0.7}>
-                <Ionicons name="log-out-outline" size={14} color={colors.textMuted} />
-                <Text style={drawerStyles.signOutText}>SIGN OUT</Text>
-              </TouchableOpacity>
-            </View>
-          ) : (
-            <TouchableOpacity
-              onPress={() => { onClose(); navigation.navigate('Auth'); }}
-              style={drawerStyles.drawerSignIn}
-              activeOpacity={0.7}
-            >
-              <Ionicons name="person-outline" size={16} color={accent} style={{ width: 28 }} />
-              <Text style={[drawerStyles.menuLabel, { color: accent }]}>SIGN IN / CREATE ACCOUNT</Text>
-            </TouchableOpacity>
-          )}
-
-          <View style={drawerStyles.divider} />
-
-          {/* Nav items */}
-          {menuItems.map((item) => (
-            <TouchableOpacity
-              key={item.tab}
-              style={drawerStyles.menuItem}
-              onPress={() => { onClose(); if (item.tab === 'Browse') onSelectChip?.('all'); navigation.navigate(item.tab); }}
-              activeOpacity={0.7}
-            >
-              <Ionicons name={item.icon} size={18} color={accent} style={{ width: 28 }} />
-              <Text style={drawerStyles.menuLabel}>{item.label}</Text>
-            </TouchableOpacity>
-          ))}
-
-          <View style={drawerStyles.divider} />
-
-          {/* Generation switcher */}
-          <Text style={drawerStyles.sectionLabel}>GENERATION</Text>
-          <View style={drawerStyles.genRow}>
-            {GEN_OPTS.map((g) => (
-              <TouchableOpacity
-                key={g.id}
-                onPress={() => {
-                  Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-                  chooseGeneration(g.id);
-                }}
-                style={[
-                  drawerStyles.genPill,
-                  generationId === g.id && { borderColor: g.color, backgroundColor: g.color + '20' },
-                ]}
-              >
-                <Text style={[
-                  drawerStyles.genPillText,
-                  generationId === g.id && { color: g.color },
-                ]}>{g.label}</Text>
-              </TouchableOpacity>
-            ))}
-          </View>
-
-          <View style={drawerStyles.divider} />
-
-          {/* Surprise Me */}
-          <TouchableOpacity style={drawerStyles.menuItem} onPress={onRandom} activeOpacity={0.7}>
-            <Ionicons name="shuffle" size={18} color={accent} style={{ width: 28 }} />
-            <Text style={drawerStyles.menuLabel}>SURPRISE ME</Text>
-          </TouchableOpacity>
-
-          {/* 18+ — mature rows are sequestered off the default wall; reachable here on purpose (not censored) */}
-          <TouchableOpacity
-            style={drawerStyles.menuItem}
-            onPress={() => { onClose(); onSelectChip?.(activeChip === 'mature' ? 'all' : 'mature'); }}
-            activeOpacity={0.7}
-          >
-            <Ionicons name="warning-outline" size={18} color={accent} style={{ width: 28 }} />
-            <Text style={drawerStyles.menuLabel}>{activeChip === 'mature' ? '← EXIT 18+' : '18+  BEHIND CLOSED DOORS'}</Text>
-          </TouchableOpacity>
-
-          <View style={drawerStyles.divider} />
-
-          {/* Account */}
-          <TouchableOpacity
-            style={drawerStyles.menuItem}
-            onPress={() => { onClose(); navigation.navigate('Auth'); }}
-            activeOpacity={0.7}
-          >
-            <Ionicons name="person-circle-outline" size={18} color={accent} style={{ width: 28 }} />
-            <Text style={drawerStyles.menuLabel}>ACCOUNT</Text>
-          </TouchableOpacity>
-
-          {/* Admin — only visible to admin emails */}
-          {isAuthenticated && user && ['bryankorth31@gmail.com', 'preacherb@cashvalues.org'].includes((user.email || '').toLowerCase()) && (
-            <TouchableOpacity
-              style={drawerStyles.menuItem}
-              onPress={() => { onClose(); navigation.navigate('Admin'); }}
-              activeOpacity={0.7}
-            >
-              <Ionicons name="shield-checkmark" size={18} color="#ff3b5c" style={{ width: 28 }} />
-              <Text style={[drawerStyles.menuLabel, { color: '#ff3b5c' }]}>ADMIN PANEL</Text>
-            </TouchableOpacity>
-          )}
-
-          <View style={drawerStyles.divider} />
-
-          {/* Support */}
-          <TouchableOpacity
-            style={drawerStyles.supportBtn}
-            onPress={() => Linking.openURL(DONATE_URL)}
-            activeOpacity={0.7}
-          >
-            <Ionicons name="gift" size={22} color={BRAND_BLUE} style={{ width: 30 }} />
-            <View>
-              <Text style={[drawerStyles.menuLabel, { color: '#f5a623' }]}>SUPPORT HUMAN CREATIONS</Text>
-              <Text style={[drawerStyles.supportSub, { color: '#39ff14' }]}>FIGHT THE AI SLOP — donate to keep real cinema alive</Text>
-            </View>
-          </TouchableOpacity>
-
-          {/* Footer */}
-          <View style={{ flex: 1 }} />
-          <Text style={[drawerStyles.footerText, { color: '#f5a623', fontSize: 9 }]}>A project of Church of American Strength & Hope</Text>
-          <TouchableOpacity onPress={() => Linking.openURL('https://cashvalues.org')} activeOpacity={0.7}>
-            <Text style={[drawerStyles.footerText, { color: BRAND_BLUE, textDecorationLine: 'underline' }]}>CASHvalues.org</Text>
-          </TouchableOpacity>
-          <Text style={drawerStyles.footerText}>VOIDtv v0.3 · ARCHIVE.ORG · PUBLIC DOMAIN</Text>
-        </Pressable>
-      </Pressable>
-    </Modal>
-  );
-}
-
-const drawerStyles = StyleSheet.create({
-  overlay: {
-    flex: 1, backgroundColor: 'rgba(0,0,0,0.6)',
-    flexDirection: 'row',
-  },
-  drawer: {
-    width: 260, backgroundColor: colors.bg,
-    borderRightWidth: 1, borderRightColor: colors.surface,
-    paddingTop: 60, paddingBottom: 30, paddingHorizontal: 20,
-  },
-  drawerHeader: {
-    marginBottom: 28, paddingBottom: 16,
-    borderBottomWidth: StyleSheet.hairlineWidth, borderBottomColor: colors.surface,
-  },
-  drawerLogoRow: { flexDirection: 'row', alignItems: 'baseline' },
-  drawerLogo: { fontFamily: fonts.monoBold, fontSize: 20, letterSpacing: 4 },
-  drawerLogoSub: { fontFamily: fonts.mono, fontSize: 12, color: colors.textMuted, letterSpacing: 1 },
-  drawerTagline: { fontFamily: fonts.mono, fontSize: 9, color: colors.textGhost, letterSpacing: 1.5, marginTop: 4 },
-  // User section in drawer
-  userSection: {
-    paddingVertical: 12, paddingHorizontal: 4,
-  },
-  userRow: {
-    flexDirection: 'row', alignItems: 'center', gap: 10, marginBottom: 8,
-  },
-  drawerAvatar: { width: 36, height: 36, borderRadius: 18 },
-  drawerAvatarFallback: {
-    width: 36, height: 36, borderRadius: 18,
-    justifyContent: 'center', alignItems: 'center',
-  },
-  drawerAvatarGlyph: { fontFamily: fonts.monoBold, fontSize: 16 },
-  drawerUsername: { fontFamily: fonts.monoBold, fontSize: 12, color: colors.textPrimary, letterSpacing: 0.5 },
-  drawerUserSub: { fontFamily: fonts.mono, fontSize: 9, color: colors.textGhost, letterSpacing: 0.5, marginTop: 1 },
-  signOutBtn: {
-    flexDirection: 'row', alignItems: 'center', gap: 6,
-    paddingVertical: 6, paddingHorizontal: 4, marginTop: 4,
-  },
-  signOutText: { fontFamily: fonts.mono, fontSize: 9, color: colors.textMuted, letterSpacing: 1 },
-  drawerSignIn: {
-    flexDirection: 'row', alignItems: 'center',
-    paddingVertical: 13, paddingHorizontal: 4,
-  },
-  menuItem: {
-    flexDirection: 'row', alignItems: 'center',
-    paddingVertical: 13, paddingHorizontal: 4,
-  },
-  menuLabel: { fontFamily: fonts.monoBold, fontSize: 12, color: colors.textPrimary, letterSpacing: 1.5 },
-  divider: {
-    height: StyleSheet.hairlineWidth, backgroundColor: colors.surface,
-    marginVertical: 16,
-  },
-  sectionLabel: { fontFamily: fonts.mono, fontSize: 9, color: colors.textGhost, letterSpacing: 2, marginBottom: 10 },
-  genRow: { flexDirection: 'row', gap: 8 },
-  genPill: {
-    paddingHorizontal: 12, paddingVertical: 7,
-    borderRadius: radius.sm, borderWidth: 1, borderColor: colors.border,
-  },
-  genPillText: { fontFamily: fonts.monoBold, fontSize: 9, color: colors.textMuted, letterSpacing: 1 },
-  supportBtn: {
-    flexDirection: 'row', alignItems: 'center',
-    paddingVertical: 13, paddingHorizontal: 4,
-  },
-  supportSub: { fontFamily: fonts.monoBold, fontSize: 8, color: '#ff2d7880', letterSpacing: 1.2, marginTop: 2 },
-  footerText: { fontFamily: fonts.mono, fontSize: 9, color: colors.textGhost, letterSpacing: 1, textAlign: 'center', marginTop: 4 },
-});
+// DrawerMenu + its styles now live in components/DrawerMenu.js (shared, opened from the TopBar).
 
 function SkeletonRow() {
   return (
@@ -1713,48 +1265,10 @@ const styles = StyleSheet.create({
     color: colors.textMuted,
     flex: 1,
   },
-  // ── YouTube-style filter chip bar ──
-  chipBarWrap: {
-    maxHeight: 44,
-    borderBottomWidth: StyleSheet.hairlineWidth,
-    borderBottomColor: colors.surface,
-    backgroundColor: colors.bg,
-    zIndex: 9,
-  },
-  chipBarRow: {
-    flexDirection: 'row',
-    alignItems: 'center',
-  },
-  chipArrow: {
-    width: 28,
-    height: 36,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
+  // (chip bar styles removed — the desktop chip bar is gone)
   scrollArrowRow: {
     flexDirection: 'row',
     alignItems: 'center',
-  },
-  chipBar: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 8,
-    paddingHorizontal: spacing.screenPadding,
-    paddingVertical: 8,
-  },
-  chip: {
-    paddingHorizontal: 14,
-    paddingVertical: 7,
-    borderRadius: radius.full,
-    backgroundColor: colors.surface,
-    borderWidth: 1,
-    borderColor: colors.border,
-  },
-  chipText: {
-    fontFamily: fonts.sansMedium,
-    fontSize: 13,
-    color: colors.textPrimary,
-    letterSpacing: 0.3,
   },
   // headerTagline/Sub removed — vertical space reclaimed
   // User chip — avatar + name in header

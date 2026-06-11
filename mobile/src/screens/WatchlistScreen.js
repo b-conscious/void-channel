@@ -10,7 +10,7 @@ import * as Haptics from 'expo-haptics';
 import { useGeneration } from '../context/GenerationContext';
 import { useAuth } from '../context/AuthContext';
 import { useGame } from '../context/GameContext';
-import { useSidebar, CONTENT_GAP } from '../context/SidebarContext';
+import { useSidebar } from '../context/SidebarContext';
 import FastImage from '../components/FastImage';
 import MediaCard from '../components/MediaCard';
 import api from '../api/client';
@@ -57,8 +57,7 @@ export default function WatchlistScreen({ navigation }) {
   const { gen } = useGeneration();
   const { isAuthenticated } = useAuth();
   const { xp, rank, totalWatched } = useGame();
-  const { sidebarWidth } = useSidebar();
-  const desktopMargin = IS_DESKTOP ? sidebarWidth + CONTENT_GAP : 0;
+  const { headerH } = useSidebar();
   const accent = gen.accentColor;
 
   const [watchlist, setWatchlist] = useState([]);
@@ -200,7 +199,7 @@ export default function WatchlistScreen({ navigation }) {
 
   return (
     <ScrollView
-      style={[styles.container, { paddingTop: insets.top, marginLeft: desktopMargin }]}
+      style={[styles.container, { paddingTop: insets.top + headerH }]}
       contentContainerStyle={{ paddingBottom: insets.bottom + 100 }}
       showsVerticalScrollIndicator={false}
     >

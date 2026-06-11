@@ -73,7 +73,7 @@ function rowTint(id) {
 export default function CategoryRow({
   category, onItemPress, loading,
   page = 1, totalPages = 0, loadingMore = false, onPageChange,
-  subscribed = false, onSubscribe, onSeeMore,
+  onSeeMore,
 }) {
   const { gen } = useGeneration();
   const items = category?.items || [];
@@ -184,22 +184,6 @@ export default function CategoryRow({
           </View>
           {subtitle ? <Text style={styles.subtitle}>{subtitle}</Text> : null}
         </View>
-        {onSubscribe && (
-          <TouchableOpacity
-            onPress={() => onSubscribe(category.id, !subscribed)}
-            style={[styles.subBtn, subscribed && { borderColor: accent, backgroundColor: accent + '15' }]}
-            activeOpacity={0.7}
-          >
-            <Ionicons
-              name={subscribed ? "notifications" : "notifications-outline"}
-              size={12}
-              color={subscribed ? accent : colors.textSecondary}
-            />
-            <Text style={[styles.subBtnText, subscribed && { color: accent }]}>
-              {subscribed ? 'FOLLOWING' : 'FOLLOW'}
-            </Text>
-          </TouchableOpacity>
-        )}
       </View>
 
       {loading ? (
@@ -384,15 +368,6 @@ const styles = StyleSheet.create({
   seeMoreText: {
     fontFamily: fonts.mono, fontSize: 9, letterSpacing: 0.5,
   },
-
-  // Subscribe button
-  subBtn: {
-    flexDirection: 'row', alignItems: 'center', gap: 4,
-    paddingHorizontal: 10, paddingVertical: 5,
-    borderRadius: radius.full, borderWidth: 1, borderColor: colors.border,
-    alignSelf: 'flex-start',
-  },
-  subBtnText: { fontFamily: fonts.mono, fontSize: 8, letterSpacing: 1, color: colors.textSecondary },
 
   // Row wrapper for hover detection
   rowWrap: { position: 'relative' },

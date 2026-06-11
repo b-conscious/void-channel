@@ -4,7 +4,7 @@ import {
   ActivityIndicator, Linking, Alert, Animated, Dimensions, LayoutAnimation,
   Platform, UIManager, Share, TextInput, useWindowDimensions,
 } from 'react-native';
-import { useSidebar, CONTENT_GAP } from '../context/SidebarContext';
+// (SidebarContext not needed here — the persistent top bar is hidden on the Player.)
 const { height: SCREEN_H, width: SCREEN_W } = Dimensions.get('window');
 const IS_WEB = Platform.OS === 'web';
 const IS_DESKTOP = IS_WEB && SCREEN_W > 900;
@@ -115,15 +115,14 @@ export default function PlayerScreen({ route, navigation }) {
   const { categoryId, queue, queueIndex, channelLabel, channelCatIds, channelPage } = params;
   const insets = useSafeAreaInsets();
   const { width: windowW } = useWindowDimensions();
-  const { sidebarWidth } = useSidebar();
-  const NAV_MARGIN = IS_DESKTOP ? sidebarWidth + CONTENT_GAP : 0; // nav marginLeft
+  const NAV_MARGIN = 0; // top bar is hidden on the Player — full-bleed, no left offset
   const sceneW = windowW - NAV_MARGIN;                            // actual scene width
   // Desktop: shrink the video player, give the freed space to the channel/related videos.
   // Channel list takes ~58% of the width; the player column is the remainder (~40%).
   // Video is the DOMINANT column (~62%); the related sidebar is the narrower rail (~36%). This was
   // backwards (video 40% / related 58%), which made the player open looking like the related grid.
   const SIDE_W = IS_DESKTOP ? Math.max(300, Math.round(sceneW * 0.36)) : 0;
-  const AVAILABLE_W = IS_DESKTOP ? Math.max(360, sceneW - SIDE_W - CONTENT_GAP) : windowW; // the video column
+  const AVAILABLE_W = IS_DESKTOP ? Math.max(360, sceneW - SIDE_W - 6) : windowW; // the video column
   const VIDEO_H = IS_WEB
     ? Math.min(Math.round(AVAILABLE_W * 9 / 16), Math.round(SCREEN_H * 0.75))
     : Math.round(SCREEN_H * 0.42);
@@ -426,6 +425,15 @@ export default function PlayerScreen({ route, navigation }) {
   const triedHQRef = useRef(false);
   const skippedRef = useRef(false);
   const handleVideoError = useCallback(() => {
+    // Mid-play errors must NEVER hop to a different video (Bryan: "a selected video starts
+    // playing and then it jumps to another, unprompted"). A stream that already played real
+    // seconds is having a transient Archive hiccup — leave the player's "tap to retry" overlay
+    // instead of swapping sources or auto-advancing. (The old hop also unmounted the player
+    // mid-fullscreen → force-exited fullscreen with ghost audio.) Channels keep auto-advance —
+    // doom-scroll must never get stuck on a dead stream.
+    const playedSec = videoRef.current?.getCurrentTime?.() || 0;
+    if (playedSec > 1.5 && !inChannel) return;
+
     // Recovery 1: the optimistic guessed URL failed → use the confirmed URL from metadata.
     if (!videoReady && item.videoUrl && item.videoUrl !== videoUrl) {
       console.log('[PlayerScreen] Optimistic URL failed, falling back to confirmed URL');
@@ -950,7 +958,7 @@ export default function PlayerScreen({ route, navigation }) {
           />
           <ActionIcon
             icon="add-circle-outline"
-            label="Add to Playlist"
+            label={IS_DESKTOP ? 'Add to Playlist' : 'Playlist'}
             color={colors.textPrimary}
             onPress={() => { Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light); setPlaylistModalOpen(true); }}
           />
@@ -2254,17 +2262,21 @@ const xrayStyles = StyleSheet.create({
 
 /* Compact action button — icon + label inline */
 function ActionIcon({ icon, label, color, onPress, loading }) {
+  // Mobile: icon-above-tiny-label, flex:1 — six labeled row-buttons overflowed a 390px viewport
+  // (the strip measured 491px; Share was clipped, Download fully off-screen with overflow-x hidden).
   return (
     <TouchableOpacity
       onPress={onPress}
-      style={styles.actionIcon}
+      style={IS_DESKTOP ? styles.actionIcon : styles.actionIconCompact}
       disabled={!onPress}
       activeOpacity={0.7}
     >
       {loading ? <ActivityIndicator color={color || colors.textPrimary} size="small" style={{ height: 16 }} />
-        : icon ? <Ionicons name={icon} size={16} color={color || colors.textPrimary} />
+        : icon ? <Ionicons name={icon} size={IS_DESKTOP ? 16 : 18} color={color || colors.textPrimary} />
         : null}
-      <Text style={[styles.actionIconLabel, color ? { color } : null]}>{label}</Text>
+      <Text style={[IS_DESKTOP ? styles.actionIconLabel : styles.actionIconLabelCompact, color ? { color } : null]} numberOfLines={1}>
+        {label}
+      </Text>
     </TouchableOpacity>
   );
 }
@@ -2373,6 +2385,15 @@ const styles = StyleSheet.create({
   actionIconLabel: {
     fontFamily: fonts.sans, fontSize: 12, color: colors.textSecondary,
     letterSpacing: 0.3,
+  },
+  // Mobile: compact column buttons that share the row evenly — never overflow the viewport
+  actionIconCompact: {
+    flex: 1, flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 3,
+    paddingVertical: 6, paddingHorizontal: 2,
+  },
+  actionIconLabelCompact: {
+    fontFamily: fonts.sans, fontSize: 9.5, color: colors.textSecondary,
+    letterSpacing: 0.2,
   },
 
   // Share drawer
@@ -2535,7 +2556,7 @@ const styles = StyleSheet.create({
   formatSize: { fontFamily: fonts.mono, fontSize: 11, color: colors.textMuted },
 
   // ── Desktop two-column layout ──
-  desktopRow: { flex: 1, flexDirection: 'row', paddingRight: CONTENT_GAP },
+  desktopRow: { flex: 1, flexDirection: 'row', paddingRight: 6 },
   // flex:1 + minWidth:0 so the video column fills ALL space the sidebar doesn't take
   // (without minWidth:0 a flex child won't shrink below its content's intrinsic width).
   // NO `flex: 1` here — its flex-basis:0% beats the explicit `width: AVAILABLE_W` set in the

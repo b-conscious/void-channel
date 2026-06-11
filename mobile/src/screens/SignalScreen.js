@@ -15,7 +15,7 @@ import * as Haptics from 'expo-haptics';
 import WaveAvatar from '../components/WaveAvatar';
 import { useGeneration } from '../context/GenerationContext';
 import { useGame } from '../context/GameContext';
-import { useSidebar, CONTENT_GAP } from '../context/SidebarContext';
+import { useSidebar } from '../context/SidebarContext';
 import { GENERATIONS } from '../data/generations';
 import { colors, fonts, spacing, radius } from '../theme';
 
@@ -48,15 +48,14 @@ export default function SignalScreen() {
     totalWatched, daysExploring,
     totalContributions, contributionsByType, recentContributions,
   } = useGame();
-  const { sidebarWidth } = useSidebar();
-  const desktopMargin = IS_DESKTOP ? sidebarWidth + CONTENT_GAP : 0;
+  const { headerH } = useSidebar();
 
   const accent = gen.accentColor;
 
   return (
     <ScrollView
-      style={[styles.container, { marginLeft: desktopMargin }]}
-      contentContainerStyle={{ paddingTop: insets.top + 16, paddingBottom: insets.bottom + 90 }}
+      style={styles.container}
+      contentContainerStyle={{ paddingTop: insets.top + headerH + 16, paddingBottom: insets.bottom + 90 }}
       showsVerticalScrollIndicator={false}
     >
       {/* ── Wave Avatar ──────────────────────────────────────── */}

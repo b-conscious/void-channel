@@ -160,6 +160,13 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
   const videoViewRef = useRef(null);
   const containerRef = useRef(null);
   const controlsVisible = useRef(new Animated.Value(1)).current;
+  // Mounted/visible state for the controls layer. The opacity animation alone left the layer
+  // mounted at opacity 0 OVER the <video> — which (a) re-rendered with every progress tick and
+  // (b) kept the video off the browser's fast compositing path → visible stutter in fullscreen.
+  // When hidden, the layer now unmounts entirely and progress ticks stop re-rendering.
+  const [controlsShown, setControlsShown] = useState(true);
+  const controlsShownRef = useRef(true);
+  controlsShownRef.current = controlsShown;
 
   const player = useVideoPlayer(videoUrl, (p) => {
     p.loop = false;
@@ -167,6 +174,14 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
     if (Platform.OS === "web") p.muted = !_webHasGesture;
     p.play();
   });
+
+  // Belt + braces: expo-video doesn't reliably release the <video> on web, so a swapped/unmounted
+  // player could keep playing AUDIO with no picture (the "ghost audio" after fullscreen glitches).
+  // Explicitly pause the outgoing player whenever it changes or the component unmounts.
+  useEffect(() => {
+    if (Platform.OS !== "web") return undefined;
+    return () => { try { player.pause(); } catch (e) {} };
+  }, [player]);
 
   // ── Web: restore sound on the first user interaction after a muted autoplay ──
   useEffect(() => {
@@ -267,6 +282,12 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
           const node = document.querySelector('[data-vpcontainer="1"]');
           if (node?.requestFullscreen) await node.requestFullscreen();
           else if (node?.webkitRequestFullscreen) node.webkitRequestFullscreen();
+          else {
+            // iOS Safari has NO element-fullscreen API — fall back to the video element's
+            // native fullscreen (native controls take over; rotation handled by iOS).
+            const v = node ? node.querySelector('video') : null;
+            if (v && v.webkitEnterFullscreen) v.webkitEnterFullscreen();
+          }
         }
       } catch (e) { console.warn("fullscreen failed", e); }
       return;
@@ -319,7 +340,9 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
   const seekIntervalRef = useRef(null);
   useEffect(() => {
     const id = setInterval(() => {
-      setTick((t) => t + 1);
+      // Re-render for the progress bar only while the controls are on screen — when they're
+      // hidden nothing consumes `position`, and a 4Hz re-render over the video causes stutter.
+      if (controlsShownRef.current) setTick((t) => t + 1);
       const cur = player.currentTime || 0;
       const last = lastGoodTimeRef.current;
       const dur = player.duration || 0;
@@ -356,12 +379,20 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
     clearTimeout(hideTimer.current);
     if (isPlaying) {
       hideTimer.current = setTimeout(() => {
-        Animated.timing(controlsVisible, { toValue: 0, duration: FADE_DURATION, easing: RNEasing.out(RNEasing.ease), useNativeDriver: Platform.OS !== 'web' }).start();
+        Animated.timing(controlsVisible, { toValue: 0, duration: FADE_DURATION, easing: RNEasing.out(RNEasing.ease), useNativeDriver: Platform.OS !== 'web' }).start(({ finished }) => {
+          // Fade complete → unmount the layer so the bare <video> gets the fast path.
+          if (finished) setControlsShown(false);
+        });
       }, HIDE_DELAY);
     }
   }, [isPlaying]);
 
   const showControls = useCallback(() => {
+    // Already visible (the common case — e.g. EVERY mousemove lands here): just push the hide
+    // timer back. Spawning a new JS-driven Animated.timing per mousemove was animation churn.
+    if (controlsShownRef.current) { resetHideTimer(); return; }
+    setControlsShown(true);
+    setTick((t) => t + 1); // refresh position immediately so the bar doesn't show a stale time
     Animated.timing(controlsVisible, { toValue: 1, duration: FADE_DURATION, useNativeDriver: Platform.OS !== 'web' }).start();
     resetHideTimer();
   }, [resetHideTimer]);
@@ -599,8 +630,8 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
         </TouchableOpacity>
       )}
 
-      {/* Controls */}
-      {isLoaded && !error && (
+      {/* Controls — fully unmounted when hidden (not just opacity 0) so the video composites alone */}
+      {isLoaded && !error && controlsShown && (
         <Animated.View style={[StyleSheet.absoluteFill, styles.controlsLayer, controlsStyle, { pointerEvents: 'box-none' }]}>
           <View style={styles.topBar}>
             <TouchableOpacity onPress={onBack} style={styles.backBtn} hitSlop={8}>
