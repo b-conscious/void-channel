@@ -268,16 +268,34 @@ app.listen(PORT, () => {
   console.log(`  -> http://localhost:${PORT}`);
   console.log(`  -> categories: ${cats.list().length} (video ${cats.list('video').length}, audio ${cats.list('audio').length}, game ${cats.list('game').length}, text ${cats.list('text').length})`);
   console.log(`  -> pool cap ${dbx.POOL_CAP}/category, sync every ${Math.round(SYNC_INTERVAL_MS / 3600000)}h\n`);
-  // Sync on startup only when the pool is empty or stale; a restart with a healthy db must NOT
-  // trigger a full re-sync (that is the cold-boot problem this service exists to kill).
-  const last = Date.parse(dbx.metaGet('last_sync') || 0) || 0;
-  if (Date.now() - last > SYNC_INTERVAL_MS) {
-    console.log('  -> pool stale, starting sync');
-    sync.fullSync().then((r) => console.log(`  -> sync done: +${r.added} items, ${r.errors ? r.errors.length : 0} errors`)).catch((e) => console.error('[spine sync]', e));
-  } else {
-    console.log(`  -> pool fresh (last sync ${dbx.metaGet('last_sync')}), no startup sync`);
+  // SELF-HEALING SYNC SCHEDULER (cutover lesson 2026-06-13): a full sync that lands almost
+  // nothing means Archive is rate-limiting our IP (the crash-loop hammered it). The old code
+  // banked last_sync=now even on an empty sync and then waited 8h — leaving the wall blank for
+  // hours after IA cooled off. Now: if the pool is UNHEALTHY after a sync, retry on a short
+  // interval (15m) until a real sync lands; once healthy, back off to the normal 8h. This fills
+  // the wall the moment IA lets us back in, with no manual trigger and no 8h trap.
+  const RETRY_MS = 15 * 60 * 1000;
+  const HEALTHY_MIN = 500; // video pool rows that count as "we actually have content"
+  function poolHealthy() {
+    try { return dbx.db.prepare("SELECT COUNT(*) c FROM pool WHERE type='video'").get().c >= HEALTHY_MIN; }
+    catch (e) { return false; }
   }
-  setInterval(() => {
-    sync.fullSync().then((r) => console.log(`  -> scheduled sync: +${r.added}, ${r.errors ? r.errors.length : 0} errors`)).catch((e) => console.error('[spine sync]', e));
-  }, SYNC_INTERVAL_MS);
+  async function syncCycle() {
+    try {
+      const r = await sync.fullSync();
+      console.log(`  -> sync: +${r.added || 0} items, ${r.errors ? r.errors.length : 0} errors`);
+    } catch (e) { console.error('[spine sync]', e); }
+    const healthy = poolHealthy();
+    const next = healthy ? SYNC_INTERVAL_MS : RETRY_MS;
+    console.log(`  -> pool ${healthy ? 'healthy' : 'THIN (likely IA rate-limit) — retrying in 15m'}; next sync in ${Math.round(next / 60000)}m`);
+    setTimeout(syncCycle, next);
+  }
+  const last = Date.parse(dbx.metaGet('last_sync') || 0) || 0;
+  if (!poolHealthy() || Date.now() - last > SYNC_INTERVAL_MS) {
+    console.log('  -> pool stale/thin, starting sync');
+    syncCycle();
+  } else {
+    console.log(`  -> pool fresh + healthy (last sync ${dbx.metaGet('last_sync')}), no startup sync`);
+    setTimeout(syncCycle, SYNC_INTERVAL_MS);
+  }
 });
