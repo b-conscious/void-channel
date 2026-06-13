@@ -43,6 +43,9 @@ literally TV (a wall of channels, lean-back, the void-TV aesthetic). The product
 3. Roku BUILD vs BUY — willing to do a separate BrightScript build, or prefer a third-party
    feed/converter?
 
+
+B NOTE (2026-06-13): B already develops/uses VOIDtv on a 55-inch TV at ~10ft and it reads/works well there. So PHASE 1 (10-foot legibility/scale) is LARGELY ALREADY SOLVED - a real advantage. CAVEAT: that proves the VISUALS at TV distance with a POINTER (mouse/keyboard on a PC-driven TV); it does NOT prove REMOTE input. A Fire TV/Roku user has only a D-pad, no pointer - so PHASE 2 (focus navigation) is still the core remaining work, plus the real-TV-stick runtime (constrained WebView) vs a full desktop browser. Cheap path B is effectively already on: run the web app on a TV (HDMI/cast/smart-TV browser) = a real TV experience for anyone with a pointer/browser, no store needed; the formal Fire/Roku app is specifically about reaching couch users who ONLY have a remote.
+
 ## THE PROCESS, END TO END (Fire TV as the worked example)
 The reusable backend / Spine / IA streaming is platform-agnostic and DONE — a huge head start.
 The TV work is almost entirely CLIENT: focus nav + 10-foot UI + per-store packaging.
