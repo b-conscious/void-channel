@@ -62,5 +62,12 @@ ok(parseFilename('no_pattern_here.mp4') === null, 'no pattern -> null');
 ok(classify({ name: 'feature.mp4', length: '48:00' }, null, parseRuntimeSeconds) === 'episode', 'long video -> episode by duration');
 ok(classify({ name: 'spot.mp4', length: '0:45' }, null, parseRuntimeSeconds) === 'trailer', 'short -> trailer by duration');
 
+// ── 6. Real-world scene-tagged filenames -> clean titles ─────────────────────────────────
+const scene = parseFilename('Adventures.of.Superman.S01E03.The.Mind.Machine.1080p.WEB-DL.x264-GROUP.mkv');
+ok(scene && scene.season === 1 && scene.episode === 3, 'scene name: S01E03 parsed');
+ok(scene && scene.episodeTitle === 'The Mind Machine', 'scene tags stripped from ep title');
+const yr = parseFilename('Dragnet.1954.S02E04.The.Big.Thief.720p.mp4');
+ok(yr && yr.episode === 4 && yr.episodeTitle === 'The Big Thief', 'year-in-name + tags -> clean title');
+
 console.log(`\nfanout tests: ${pass} passed, ${fail} failed`);
 process.exit(fail ? 1 : 0);

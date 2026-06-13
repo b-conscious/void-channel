@@ -24,8 +24,14 @@ const MUSIC_RE = /music\s*video|\bmv\b/i;
 const TRAILER_RE = /trailer|promo|teaser|tv[\s._-]*spot|\bbumper\b/i;
 const EXTRA_RE = /bonus|extra|behind[\s._-]the[\s._-]scenes|deleted|blooper|gag[\s._-]reel|featurette|interview|\bintro\b|\boutro\b/i;
 
+// Strip scene/quality release tags from the first one onward — real IA rips carry
+// "...The.Mind.Machine.1080p.WEB-DL.x264-GROUP". Everything from the first tag is noise.
+const SCENE_RE = /[\s._-]+(1080p|720p|480p|2160p|4k|web[\s._-]?dl|web[\s._-]?rip|blu[\s._-]?ray|brrip|bdrip|dvd[\s._-]?rip|hdtv|pdtv|x264|x265|h[\s._-]?264|h[\s._-]?265|hevc|xvid|divx|aac\d?|ac3|mp3|dts|10bit|8bit|hdr|remux|proper|repack|internal|amzn|dsnp|\d{3,4}kbps)\b.*$/i;
 function cleanName(raw) {
-  return String(raw || '').replace(VIDEO_EXT, '').replace(/[._]+/g, ' ').replace(/\s+/g, ' ').replace(/[\s:;,_-]+$/, '').trim();
+  return String(raw || '')
+    .replace(VIDEO_EXT, '')
+    .replace(SCENE_RE, '')                                   // drop quality tags + release group
+    .replace(/[._]+/g, ' ').replace(/\s+/g, ' ').replace(/[\s:;,_-]+$/, '').trim();
 }
 
 function parseFilename(name) {

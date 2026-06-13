@@ -263,6 +263,12 @@ B pays out of pocket (token economy).
   auto-deploy on commit) which RE-POKES IA. So doc-only updates are committed LOCALLY and the
   push is HELD until IA recovers, to preserve the quiet window. The real fix is a Render Build
   Filter (Ignored Paths: mobile/**, docs/**) so frontend/doc changes don't restart the backend.
+- EPISODE FAN-OUT (B decision; design docs/FANOUT_DESIGN.md): step 1 DONE — spine/fanout.js
+  pure module (17/17 offline tests, scene-tag stripping incl.). RESUME at step 2: pool schema
+  (is_bundle/fanned/fan_version, additive) -> step 3 getItem file selector (additive) -> step 4
+  wall emits ONE season card per bundle in general rows (full fan-out in series view) -> step 5
+  series-rails wiring -> step 6 backfill (GATED on IA healthy, only step that waits). Steps 2-5
+  are throttle-safe (compute off existing metadata). fanout.js is NOT yet wired into getItem.
 - Icon system: continue pass-by-pass — bottom nav (NEEDS B's 3-tab mapping Browse/Signal/MyVoid);
   player controls; content-type badges on cards; settings/drawer; framed/CRT sheets (harder
   crops). 28 icons sliced, VoidIcon built, header+wordmark+doors wired.
