@@ -1659,7 +1659,16 @@ if (SPINE_URL) {
   getItem = (identifier, opts) => spineGet(`/item/${encodeURIComponent(identifier)}${opts && opts.skipVet ? '?novet=1' : ''}`);
 
   getAllCategories = async (rowsPerCategory = 20) => {
-    const wall = await spineGet(`/wall?type=video&rows=50`, 20000);
+    // Degrade to empty (NOT 500) when the spine is unreachable — e.g. while it restarts
+    // after a crash. The /api/categories handler + warm guard treat [] as "keep last good /
+    // warming", so the site stays up instead of throwing ECONNREFUSED 500s at users.
+    let wall;
+    try {
+      wall = await spineGet(`/wall?type=video&rows=50`, 20000);
+    } catch (e) {
+      console.error('[spine wall] unreachable, serving empty:', e.message);
+      return [];
+    }
     return (wall.categories || []).map((c) => {
       const pool = dropFutureDated(c.items || []); // strip fake-future spam everywhere (P3)
       let items;
