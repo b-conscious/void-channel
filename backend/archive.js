@@ -23,6 +23,21 @@ const NSFW_EXCLUDE = ' ' + [
   '  OR "peep show" OR "burlesque show" OR provocative)',
 ].join(' ');
 
+// Mature-by-TITLE screen for UNGATED surfaces (snacks, default wall, related). The
+// query-level NSFW_EXCLUDE is subject/collection-based, so an adult-BRAND item sitting in a
+// mainstream collection (e.g. "Playboy TV Promo" in classic_tv_commercials) sails through
+// untagged (P2). This catches the brands + explicit markers by title. CORRAL, NOT CENSOR
+// (B's standing ruling): these items stay findable in search and behind the 18+ gate — this
+// only keeps them off the ungated default surfaces. Word-bounded to avoid false hits.
+const MATURE_TITLE_RE = new RegExp([
+  'playboy', 'penthouse', 'hustler', 'brazzers', 'bangbros', 'naughty america',
+  'girls gone wild', 'emmanuelle', 'x-?rated', '\\bxxx\\b', 'hardcore', 'softcore',
+  'erotic', 'erotica', 'pornograph', '\\bporn\\b', '\\bnude\\b', 'nudity', 'topless',
+  'full frontal', 'strip ?club', 'strip ?tease', 'stripper', '\\bescort\\b', 'brothel',
+  'lingerie', 'wet t-?shirt', 'bikini contest', 'adult (film|video|entertainment|movie)',
+  '\\b18\\+', 'for adults only', 'hentai', '\\becchi\\b', 'sensual', '\\bsex\\b',
+].join('|'), 'i');
+
 // Exclude news/politics/current-events bleed from entertainment categories.
 // Archive.org metadata is community-tagged — people slap "anime" on political videos, etc.
 // This filter keeps news/politics contained to their own category (newsreels, documentary).
@@ -222,7 +237,7 @@ const CATEGORIES = [
     id: "saturday_morning",
     name: "Saturday Morning",
     subtitle: "Pour the cereal, turn on the TV — it's 1987 and nothing matters",
-    query: "(subject:(\"saturday morning\") OR subject:(\"children's television\") OR collection:(saturday_morning_cartoons) OR (title:(\"He-Man\") OR title:(\"Transformers\") OR title:(\"GI Joe\") OR title:(\"Thundercats\") OR title:(\"Voltron\") OR title:(\"Teenage Mutant Ninja\"))) AND mediatype:(movies)",
+    query: "(subject:(\"saturday morning\") OR subject:(\"children's television\") OR collection:(saturdaymorningcartoons) OR (title:(\"He-Man\") OR title:(\"Transformers\") OR title:(\"GI Joe\") OR title:(\"Thundercats\") OR title:(\"Voltron\") OR title:(\"Teenage Mutant Ninja\"))) AND mediatype:(movies)",
   },
   {
     id: "afterschool",
@@ -742,7 +757,10 @@ for (const cat of CATEGORIES) {
 const GENERATION_ERAS = {
   boomer:     { anchor: { from: 1960, to: 1985, sort: 'year asc'  }, floor: null },
   millennial: { anchor: { from: 1980, to: 2012, sort: 'year asc'  }, floor: null },
-  genz:       { anchor: { from: 2005, to: null, sort: 'year desc' }, floor: 1970 },
+  // genz capped at 2022: unbounded meant year-desc FACED every row with the newest-dated
+  // uploads (civic meetings, gameplay rips, mirror spam — "nonsense everywhere", B). The
+  // 2005-2022 core leads; the 2023+ upload wave ranks by proximity and trails.
+  genz:       { anchor: { from: 2005, to: 2022, sort: 'year desc' }, floor: 1970 },
 };
 
 // Rows the era-lean must never touch: their items stay exactly as authored.
@@ -778,7 +796,13 @@ function applyEraLean(categories, gen) {
   const eraDef = GENERATION_ERAS[gen];
   if (!eraDef || !Array.isArray(categories)) return categories;
   const { anchor, floor } = eraDef;
-  const yearOf = (it) => { const y = parseInt(it && it.year, 10); return Number.isFinite(y) ? y : null; };
+  // Years beyond next year are metadata garbage ("2037 Convention" was leading rows on a
+  // year-desc lean) — treat as unknown so they rank like any undated item.
+  const MAX_SANE_YEAR = new Date().getFullYear() + 1;
+  const yearOf = (it) => {
+    const y = parseInt(it && it.year, 10);
+    return Number.isFinite(y) && y <= MAX_SANE_YEAR ? y : null;
+  };
   const dir = anchor && anchor.sort === 'year desc' ? -1 : 1;
   // Distance (in years) from the era window — 0 = inside it, 999 = unknown year.
   const winDist = (y) => {
@@ -891,27 +915,12 @@ function normalizeItem(doc) {
     year: doc.year || null,
     creator: flattenCreator(doc.creator),
     downloads: doc.downloads || 0,
-    runtime: parseRuntime(doc.runtime),
+    runtime: parseRuntimeSeconds(doc.runtime),
     subjects,
     thumbnail: THUMB_URL(doc.identifier),
     archiveUrl: `${BASE}/details/${doc.identifier}`,
     videoUrl: null,
   };
-}
-
-/** Parse Archive.org runtime into total seconds. Handles "HH:MM:SS", "MM:SS", "123" (seconds), etc. */
-function parseRuntime(raw) {
-  if (!raw) return null;
-  const str = Array.isArray(raw) ? raw[0] : String(raw);
-  if (!str) return null;
-  // "HH:MM:SS" or "MM:SS"
-  const parts = str.split(":");
-  if (parts.length === 3) return (+parts[0]) * 3600 + (+parts[1]) * 60 + (+parts[2]);
-  if (parts.length === 2) return (+parts[0]) * 60 + (+parts[1]);
-  // Plain number (seconds or minutes — if > 300 assume seconds, else minutes)
-  const num = parseFloat(str);
-  if (isNaN(num)) return null;
-  return num > 300 ? Math.round(num) : Math.round(num * 60);
 }
 
 // Sort tiers: "anchor" sorts give recognizable items, "deep" sorts surface obscure ones.
@@ -1149,9 +1158,87 @@ async function searchVariety(query, rows = 25) {
   return shuffleArray(items).slice(0, rows);
 }
 
-async function getItem(identifier) {
+// ── PLAYABILITY VET (the "real fix" for dead tapes) ─────────────────────────────────────
+// A file URL can exist and still be unplayable in a browser: restricted items serve an HTML
+// login wall with HTTP 200 (daniel-tiger), ripper uploads carry codecs Chrome can't decode
+// (xvid/divx/mpeg4-part2/hevc). One ranged GET reads enough to tell. Verdicts persist —
+// a codec never changes, so each file is sniffed ONCE ever. Fail OPEN on no-verdict: only a
+// POSITIVE bad suppresses; the player's graceful-skip stays the catcher's mitt.
+const _vfs = require("fs");
+const _vpath = require("path");
+const CODEC_CACHE_PATH = _vpath.join(__dirname, "codec-cache.json");
+let _codecCache = {};
+try { _codecCache = JSON.parse(_vfs.readFileSync(CODEC_CACHE_PATH, "utf8")); } catch {}
+let _codecSaveTimer = null;
+function _codecCacheSet(key, v) {
+  _codecCache[key] = v;
+  clearTimeout(_codecSaveTimer);
+  _codecSaveTimer = setTimeout(() => {
+    try { _vfs.writeFileSync(CODEC_CACHE_PATH, JSON.stringify(_codecCache)); } catch {}
+  }, 2000);
+  if (_codecSaveTimer.unref) _codecSaveTimer.unref();
+}
+
+const GOOD_CODEC = /avc1|avc3|vp09|av01/;
+const BAD_CODEC = /mp4v|xvid|divx|DX50|mpg4|hvc1|hev1|3iv2|s263/i;
+
+// Scan one fetched region. HTML body = login wall/error page = definitively dead. For mp4
+// bytes, only scan AFTER the moov/stsd marker so ftyp compatible brands ("avc1" appears
+// there on Part-2 files too) cannot false-pass. null = no verdict in this region.
+function _scanRegion(buf) {
+  const s = buf.toString("latin1");
+  if (/^\s*</.test(s.slice(0, 64)) || s.slice(0, 512).includes("<!DOCTYPE") || s.slice(0, 512).includes("<html")) return "html";
+  let at = s.indexOf("stsd");
+  if (at === -1) at = s.indexOf("moov");
+  if (at === -1) return null;
+  const region = s.slice(at);
+  if (GOOD_CODEC.test(region)) return "ok";
+  if (BAD_CODEC.test(region)) return "bad";
+  return null;
+}
+
+async function _rangeFetch(url, range, timeoutMs = 8000) {
+  const res = await fetch(url, { headers: { Range: `bytes=${range}`, "User-Agent": "VoidChannel/0.2" }, timeout: timeoutMs });
+  if (res.status === 403 || res.status === 404) return { gone: true };
+  if (!res.ok && res.status !== 206) throw new Error(`range ${res.status}`);
+  return { buf: Buffer.from(await res.arrayBuffer()) };
+}
+
+async function vetPlayable(cleanId, file) {
+  if (!file) return "bad";
+  const fmt = String(file.format || "");
+  if (fmt === "h.264" || fmt === "h.264 IA") return "ok"; // IA-made derivative, always avc1
+  const key = `${cleanId}/${file.name}`;
+  if (_codecCache[key]) return _codecCache[key];
+  const url = FILE_URL(cleanId, file.name);
+  let verdict = "unknown";
+  try {
+    const head = await _rangeFetch(url, "0-131071");
+    if (head.gone) verdict = "bad";
+    else {
+      let v = _scanRegion(head.buf);
+      if (v === null) {
+        // moov at the END (non-faststart) — the tail carries the codec atoms instead.
+        const tail = await _rangeFetch(url, "-262144");
+        v = tail.gone ? "html" : _scanRegion(tail.buf);
+      }
+      verdict = v === "html" ? "bad" : (v || "unknown");
+    }
+  } catch (e) {
+    return "unknown"; // network flake — no verdict, no cache, retry naturally next resolve
+  }
+  if (verdict !== "unknown") _codecCacheSet(key, verdict);
+  return verdict;
+}
+
+async function getItem(identifier, opts = {}) {
   // Strip version suffixes (e.g. ":1") that Archive search sometimes appends
   var cleanId = identifier.replace(/:\d+$/, '');
+  // When the metadata fetch fails we know NOTHING about the files — fabricating a
+  // <id>_512kb.mp4 guess here poisoned the wall with dead tapes (screen-recording uploads
+  // never have that derivative; the cached guess 404s as NotSupportedError for 6h).
+  // videoUrl null is the honest signal: the player graceful-skips it, the kids resolver
+  // drops it fail-closed, and /api/item caches fallbacks briefly so a flake heals fast.
   var fallback = {
     id: cleanId,
     title: cleanId.replace(/_/g, " "),
@@ -1159,9 +1246,10 @@ async function getItem(identifier) {
     year: null, creator: null, duration: null,
     thumbnail: THUMB_URL(cleanId, null),
     archiveUrl: `${BASE}/details/${cleanId}`,
-    videoUrl: FILE_URL(cleanId, `${cleanId}_512kb.mp4`),
+    videoUrl: null,
     videoUrlHQ: null, videoSize: null, videoFormat: null,
     availableFormats: [],
+    fallback: true,
   };
 
   var res;
@@ -1184,7 +1272,16 @@ async function getItem(identifier) {
 
   const meta = data?.metadata || {};
   const files = data?.files || [];
-  const { fast, best } = pickVideos(files);
+  let { fast, best } = pickVideos(files);
+  // Playability vet: suppress files that are POSITIVELY unplayable (HTML wall, bad codec).
+  // A bad fast falls through to best; all bad -> no videoUrl (kids drop it fail-closed,
+  // the player shows its honest error instead of NotSupportedError churn).
+  // skipVet (vouched kids content): B already approved it — vetting it stormed IA and blanked
+  // the kids wall (P1). Trust the vouch; the player graceful-skip stays the safety net.
+  if (!opts.skipVet && fast && (await vetPlayable(cleanId, fast)) === "bad") {
+    fast = (best && (await vetPlayable(cleanId, best)) !== "bad") ? best : null;
+    best = null;
+  }
 
   // Extract collections and subjects for "browse this collection" feature
   const rawCollections = Array.isArray(meta.collection)
@@ -1242,16 +1339,23 @@ function pickVideos(files) {
     (f) => f.format === "HiRes MPEG4",
   ];
 
-  // Find the lowest available (fast start)
+  // Fast = smallest real mp4 by SIZE, not the format ladder: screen-recording uploads put
+  // the multi-GB ORIGINAL under "MPEG4" and the streaming derivative under "h.264 IA", so
+  // the ladder picked 2.3GB originals (slice 30). Floor 1MB + no *sample* files so a stub
+  // can't win. Ladder still ranks "best" below.
   let fast = null;
-  for (const test of tiers) {
-    fast = mp4s.find(test);
-    if (fast) break;
-  }
-  if (!fast) {
-    // Fallback: smallest file
-    mp4s.sort((a, b) => parseInt(a.size || 0) - parseInt(b.size || 0));
-    fast = mp4s[0];
+  const sized = mp4s.filter((f) => parseInt(f.size || 0) > 1024 * 1024 && !/sample/i.test(f.name));
+  if (sized.length) {
+    fast = sized.reduce((a, b) => (parseInt(a.size || 0) <= parseInt(b.size || 0) ? a : b));
+  } else {
+    for (const test of tiers) {
+      fast = mp4s.find(test);
+      if (fast) break;
+    }
+    if (!fast) {
+      mp4s.sort((a, b) => parseInt(a.size || 0) - parseInt(b.size || 0));
+      fast = mp4s[0];
+    }
   }
 
   // Find the best available (highest quality)
@@ -1391,12 +1495,21 @@ async function getRelated(identifier, limit = 15) {
     if (collections.length > 0) {
       const colClauses = collections.slice(0, 3).map(c => `collection:(${c})`).join(' OR ');
       const colQuery = `(${colClauses}) AND mediatype:(movies) NOT identifier:(${cleanId})` + NSFW_EXCLUDE;
+      // Page by item-id hash: every member of a big collection used to get the IDENTICAL
+      // page-1 rail ("same side vids on most vids", B). Different items now window
+      // different slices of the collection; page 1 stays the fallback.
+      let h = 0;
+      for (let i = 0; i < cleanId.length; i++) h = ((h * 31) + cleanId.charCodeAt(i)) >>> 0;
+      const colPage = 1 + (h % 3);
       try {
-        sameShow = await search(colQuery, limit, 1, 'titleSorter asc');
+        sameShow = await search(colQuery, limit, colPage, 'titleSorter asc');
+        if (sameShow.length === 0 && colPage > 1) sameShow = await search(colQuery, limit, 1, 'titleSorter asc');
       } catch { sameShow = []; }
       // Drop contentless "!" junk (social-mirror VODs) BEFORE the early return below — otherwise a
       // mirror-collection seed returns a rail full of "!" cards without ever hitting the merge loop.
-      sameShow = sameShow.filter(hasRealTitle);
+      // ^!-PREFIXED titles are the same mirror class with words attached ("! Charity Stream...")
+      // and they sort FIRST under titleSorter asc — drop them too (B's screenshot, 2026-06-12).
+      sameShow = sameShow.filter((it) => hasRealTitle(it) && !/^\s*!/.test(String(it.title || '')));
     }
 
     // If same-show filled everything we need, done — no mixing required
@@ -1433,6 +1546,7 @@ async function getRelated(identifier, limit = 15) {
       const b = baseId(it.id);
       if (!b || seenBases.has(b)) continue;
       if (!hasRealTitle(it)) continue; // skip contentless "!" junk (social-mirror VODs)
+      if (/^\s*!/.test(String(it.title || ''))) continue; // ^!-prefixed mirror VODs (B 2026-06-12)
       seenBases.add(b);
       merged.push(it);
     }
@@ -1507,6 +1621,28 @@ function bucketSample(items, n, key) {
   return arr.slice(0, n);
 }
 
+// Drop future-dated items: a year past next year is metadata garbage (P3 — fake-dated
+// "2037 Convention" JW spam was LEADING Most Popular). Global wall sanity; items with no/
+// sane year pass untouched. Items missing year are kept (most pool items lack year).
+const _MAX_WALL_YEAR = new Date().getFullYear() + 1;
+function dropFutureDated(items) {
+  if (!Array.isArray(items)) return items;
+  return items.filter((it) => {
+    const y = parseInt(it && it.year, 10);
+    return !(Number.isFinite(y) && y > _MAX_WALL_YEAR);
+  });
+}
+
+// High-download NON-FILM spam that floods IA's most-downloaded "movies" (P3 follow-on):
+// CapCut/editing templates, IPTV reseller ads, contact-spam uploads. These aren't films and
+// have no business leading "the most watched films". Title-only, word-bounded; legit popular
+// uploads (Rick Astley, Open Library howtos) pass. Used on the downloads-ranked rows.
+const JUNK_TITLE_RE = /capcut|beat ?sync template|\biptv\b|\bm3u\b|whatsapp|telegram ?(channel|link)|free ?download (link|now)|\bcrack(ed)?\b|keygen|\bapk\b|t\.me\//i;
+function dropJunk(items) {
+  if (!Array.isArray(items)) return items;
+  return items.filter((it) => !JUNK_TITLE_RE.test(String((it && it.title) || '')));
+}
+
 if (SPINE_URL) {
   console.log(`[archive] SPINE transport active -> ${SPINE_URL}`);
 
@@ -1520,13 +1656,22 @@ if (SPINE_URL) {
     }
   };
 
-  getItem = (identifier) => spineGet(`/item/${encodeURIComponent(identifier)}`);
+  getItem = (identifier, opts) => spineGet(`/item/${encodeURIComponent(identifier)}${opts && opts.skipVet ? '?novet=1' : ''}`);
 
   getAllCategories = async (rowsPerCategory = 20) => {
     const wall = await spineGet(`/wall?type=video&rows=50`, 20000);
     return (wall.categories || []).map((c) => {
-      let items = bucketSample(c.items || [], c.diversify ? rowsPerCategory * 2 : rowsPerCategory, c.id);
-      if (c.diversify) items = diversify(items, 2).slice(0, rowsPerCategory);
+      const pool = dropFutureDated(c.items || []); // strip fake-future spam everywhere (P3)
+      let items;
+      if (/downloads/.test(c.sort || '')) {
+        // Fixed downloads-sort rows (Most Popular): ACTUALLY rank by downloads — bucketSample
+        // shuffled them, so 7-download spam led "the most watched films" (P3). No shuffle.
+        // dropJunk strips the high-download non-film spam (capcut/iptv) that floods the top.
+        items = dropJunk(pool).slice().sort((a, b) => (b.downloads || 0) - (a.downloads || 0)).slice(0, rowsPerCategory);
+      } else {
+        items = bucketSample(pool, c.diversify ? rowsPerCategory * 2 : rowsPerCategory, c.id);
+        if (c.diversify) items = diversify(items, 2).slice(0, rowsPerCategory);
+      }
       return { ...c, items };
     });
   };
@@ -1541,7 +1686,10 @@ if (SPINE_URL) {
       // would jump the offset past the pool end (page 2 of a 50-pool at rows=50 returns zero).
       const fetchRows = (cat.diversify && page === 1) ? rows * 2 : rows;
       const r = await spineGet(`/category/${encodeURIComponent(categoryId)}?page=${page}&rows=${fetchRows}`);
-      let items = r.items || [];
+      let items = dropFutureDated(r.items || []); // same future-spam sanity as the wall (P3)
+      if (/downloads/.test(cat.sort || '') && !shuffle) {
+        items = dropJunk(items).slice().sort((a, b) => (b.downloads || 0) - (a.downloads || 0));
+      }
       if (shuffle) items = bucketSample(items, items.length, `${categoryId}:reroll:${Date.now()}`);
       // Diversify only on page 1: on a finite pool page the per-series cap starves the row
       // (25 raw -> 4 survivors when one series dominates); deeper pages serve the pool as-is.
@@ -1558,9 +1706,93 @@ if (SPINE_URL) {
   };
 }
 
+// ── HARD EXCLUDES: B's kill list ──────────────────────────────────────────────────────────
+// hard-excludes.json ids vanish from EVERY surface. Wraps whatever search/getItem/category
+// functions are live at this point (direct or spine transport), so one layer covers both
+// paths. File re-reads every 60s — B edits and saves, no restart. Only B's rulings gate.
+let _hex = { t: 0, ids: new Set() };
+function hardExcludes() {
+  if (Date.now() - _hex.t > 60 * 1000) {
+    _hex.t = Date.now();
+    try {
+      const j = JSON.parse(_vfs.readFileSync(_vpath.join(__dirname, "hard-excludes.json"), "utf8"));
+      _hex.ids = new Set((j.ids || []).map(String));
+    } catch (e) { /* keep last good list */ }
+  }
+  return _hex.ids;
+}
+function dropExcluded(items) {
+  const kill = hardExcludes();
+  if (!kill.size || !Array.isArray(items)) return items;
+  return items.filter((it) => it && !kill.has(it.id));
+}
+
+// ── FOREIGN GATE (B: "foreign needs gating unless selected, new cat to catch") ──────────
+// Foreign-language items leave the GENERAL rows and collect into the existing 'foreign'
+// row — gated unless selected, never deleted. Detection: non-Latin scripts + explicit
+// language markers in the title. anime/foreign/show/mature rows are exempt; SEARCH is
+// never sifted (the raw law).
+const FOREIGN_SCRIPT = /[Ѐ-ӿ֐-׿؀-ۿऀ-ॿ一-鿿぀-ヿ가-힯฀-๿]/;
+const FOREIGN_MARK = /\b(espa[nñ]ol|latino|castellano|subtitulado|dublado|legendado|en fran[cç]ais|vostfr|deutschsprachig|auf deutsch|po polsku|на русском|русская версия)\b/i;
+const FOREIGN_EXEMPT = new Set(['foreign', 'anime']);
+function isForeignTitle(t) {
+  t = String(t || '');
+  return FOREIGN_SCRIPT.test(t) || FOREIGN_MARK.test(t);
+}
+function siftForeign(cats) {
+  if (!Array.isArray(cats)) return cats;
+  const caught = [];
+  const out = cats.map((c) => {
+    if (!c || FOREIGN_EXEMPT.has(c.id) || c.group === 'show' || c.mature) return c;
+    const keep = [];
+    for (const it of (c.items || [])) {
+      if (it && isForeignTitle(it.title)) caught.push(it);
+      else keep.push(it);
+    }
+    return { ...c, items: keep };
+  });
+  const f = out.find((c) => c && c.id === 'foreign');
+  if (f && caught.length) {
+    const seen = new Set((f.items || []).map((i) => i && i.id));
+    f.items = [...(f.items || []), ...caught.filter((i) => i && !seen.has(i.id))].slice(0, 60);
+  }
+  return out;
+}
+{
+  const _search = search;
+  search = async (...a) => dropExcluded(await _search(...a));
+  const _getItem = getItem;
+  getItem = async (identifier, opts) => {
+    const cleanId = String(identifier || "").replace(/:\d+$/, "");
+    if (hardExcludes().has(cleanId)) {
+      // Direct links die gracefully: known shape, no video, clearly marked.
+      return {
+        id: cleanId, title: "This item has been removed from VOIDtv.", description: "",
+        year: null, creator: null, duration: null, thumbnail: null,
+        archiveUrl: `${BASE}/details/${cleanId}`, videoUrl: null, videoUrlHQ: null,
+        videoSize: null, videoFormat: null, availableFormats: [], excluded: true,
+      };
+    }
+    return _getItem(identifier, opts);
+  };
+  const _getAll = getAllCategories;
+  getAllCategories = async (...a) => siftForeign(((await _getAll(...a)) || []).map((c) => ({ ...c, items: dropExcluded(c.items) })));
+  const _getCat = getCategoryItems;
+  getCategoryItems = async (...a) => {
+    const r = await _getCat(...a);
+    if (!r || !r.items) return r;
+    let items = dropExcluded(r.items);
+    // Single-row fetches: gate foreign out of general rows (no catch destination here —
+    // the items remain in the foreign row on the wall and in raw search).
+    if (!FOREIGN_EXEMPT.has(r.id) && r.group !== 'show' && !r.mature) items = items.filter((it) => !it || !isForeignTitle(it.title));
+    return { ...r, items };
+  };
+}
+
 module.exports = {
   CATEGORIES,
   NSFW_EXCLUDE,
+  MATURE_TITLE_RE,
   search,
   diversify,
   parseRuntimeSeconds,

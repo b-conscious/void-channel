@@ -100,12 +100,12 @@ if (Platform.OS === 'web' && typeof window !== 'undefined') {
   setTimeout(preloadRandomClip, 3000);
 }
 
-export default function VoidLoader({ source, size, label, accent, style, mode }) {
+export default function VoidLoader({ source, size, label, accent, style, mode, persist }) {
   var color = accent || BRAND_BLUE;
 
   // ── TV Static video mode ──
   if (mode === 'static' && Platform.OS === 'web') {
-    return <StaticVideo size={size} label={label} color={color} style={style} />;
+    return <StaticVideo size={size} label={label} color={color} style={style} persist={persist} />;
   }
 
   // ── Custom animation source (GIF, image) ──
@@ -157,7 +157,7 @@ function injectCrtKeyframes() {
 // ── TV Static Video Component (Web only) ──────────────────
 // One shared "void stream," every instance shows a DIFFERENT moment — staggered 10s apart by mount
 // order — at a DIFFERENT brightness, blinks on like a CRT, and blinks out after 20-40s.
-function StaticVideo({ size, label, color, style }) {
+function StaticVideo({ size, label, color, style, persist }) {
   var clipUrl = useMemo(getRandomClip, []);
   // Per-instance brightness — some dim (TV in a dark room), some bright. The "wall of TVs" look.
   var brightness = useMemo(function () { return (0.45 + Math.random() * 0.85).toFixed(2); }, []);
@@ -166,10 +166,42 @@ function StaticVideo({ size, label, color, style }) {
   var dims = SIZE_MAP[size] || SIZE_MAP.default;
   var [failed, setFailed] = useState(false);
   var [blinkedOut, setBlinkedOut] = useState(false);
+  // persist mode (the wall TVs): blink CYCLES — dark for a beat, then power back on at a
+  // new offset. Without it every TV died permanently within 20-40s of load and the wall
+  // field went dark for the rest of the session (B's report).
+  var [dark, setDark] = useState(false);
+  var [cycle, setCycle] = useState(0);
   var containerRef = useRef(null);
-
+  // LAZY LOAD: with TVs as in-row card tiles, a fresh wall mounted 20 videos of the same
+  // stream at once and Chrome stalled them ALL at readyState 0. Each TV now waits until it
+  // is near the viewport before mounting its <video>; on-screen count stays small.
+  var uid = useMemo(function () { return 'sv' + Math.random().toString(36).slice(2, 9); }, []);
+  var [visible, setVisible] = useState(false);
   useEffect(function () {
     if (typeof document === 'undefined') return;
+    var el = document.querySelector('[data-svio="' + uid + '"]');
+    if (!el || typeof IntersectionObserver === 'undefined') { setVisible(true); return; }
+    var io = new IntersectionObserver(function (entries) {
+      for (var i = 0; i < entries.length; i++) {
+        if (entries[i].isIntersecting) { setVisible(true); io.disconnect(); return; }
+      }
+    }, { rootMargin: '250px' });
+    io.observe(el);
+    // Belt: IO never fires in hidden tabs (and flakes in embedded webviews) — poll the rect
+    // as a fallback so a TV in view always lights once the tab is actually looked at.
+    var poll = setInterval(function () {
+      var r = el.getBoundingClientRect();
+      if (r.width > 0 && r.top < window.innerHeight + 250 && r.bottom > -250) {
+        setVisible(true);
+        clearInterval(poll);
+        io.disconnect();
+      }
+    }, 2000);
+    return function () { io.disconnect(); clearInterval(poll); };
+  }, [uid]);
+
+  useEffect(function () {
+    if (typeof document === 'undefined' || dark || !visible) return;
     injectCrtKeyframes();
     var video = containerRef.current && containerRef.current.querySelector && containerRef.current.querySelector('video');
     if (!video) return;
@@ -180,48 +212,68 @@ function StaticVideo({ size, label, color, style }) {
     // Stagger each TV's playback by 10s × its mount index, so the wall is DESYNCHRONISED — every
     // screen starts at a different time, 10 seconds apart — instead of looping in lockstep. The
     // stream is fast-start so seeking is instant; the ~116s clip gives ~11 distinct phases before
-    // the offset wraps. (Replaces the old random ~7s scene seek, which could cluster TVs together.)
+    // the offset wraps. Each blink cycle advances the phase so a TV never resumes where it left.
     function staggerStart() {
       try {
         var d = video.duration;
         if (d && isFinite(d) && d > 1) {
-          video.currentTime = (seq * 10) % d;
+          // +0-6s jitter: mount order can collide phases (remounts skew the seq sequence)
+          video.currentTime = ((((seq + cycle) * 10) + Math.random() * 6) % d);
         }
       } catch (e) {}
     }
     if (video.readyState >= 1) staggerStart();
     else video.addEventListener('loadedmetadata', staggerStart, { once: true });
 
-    // Blink out after a random 20-40s, then settle to the quiet VOID pulse (so a long
-    // load never shows a video forever, and the field keeps flickering).
+    // Blink out after a random 20-40s. persist: go dark (the separate effect below brings
+    // it back — the timer must NOT live here, because this effect re-runs when dark flips
+    // and its cleanup would kill the recovery). Otherwise settle to the quiet VOID pulse.
     var lifespan = 20000 + Math.random() * 20000;
+    var offTimer = null;
     var blinkTimer = setTimeout(function () {
       try { video.style.animation = 'voidPowerOff 420ms ease-in forwards'; } catch (e) {}
-      setTimeout(function () { setBlinkedOut(true); }, 430);
+      offTimer = setTimeout(function () {
+        if (persist) setDark(true);
+        else setBlinkedOut(true);
+      }, 430);
     }, lifespan);
 
     return function () {
       clearTimeout(blinkTimer);
+      clearTimeout(offTimer);
       video.removeEventListener('error', onError);
     };
-  }, []);
+  }, [cycle, dark, persist, visible]);
 
-  if (failed || blinkedOut) {
+  // The relight: while dark (persist only), wait a beat then power back on at the next
+  // phase. Lives in its own effect so the video effect's cleanup can't cancel it.
+  useEffect(function () {
+    if (!dark || !persist) return;
+    var t = setTimeout(function () {
+      setDark(false);
+      setCycle(function (c) { return c + 1; });
+    }, 700 + Math.random() * 1800);
+    return function () { clearTimeout(t); };
+  }, [dark, persist]);
+
+  if (failed || blinkedOut || dark) {
     return <PulsingVoid size={size} label={label} color={color} style={style} />;
   }
 
   return (
-    <View style={[styles.center, dims, { overflow: 'hidden', position: 'relative' }, style]}>
-      <div
-        ref={containerRef}
-        style={{ width: '100%', height: '100%', position: 'absolute', top: 0, left: 0, overflow: 'hidden', borderRadius: 8 }}
-        dangerouslySetInnerHTML={{
-          __html: '<video src="' + clipUrl + '" autoplay muted loop playsinline '
-            + 'style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;'
-            + 'filter:saturate(0.7) contrast(1.15) brightness(' + brightness + ');'
-            + 'animation:voidPowerOn 360ms ease-out, voidOpacityRamp 40s linear forwards;" />'
-        }}
-      />
+    <View style={[styles.center, dims, { overflow: 'hidden', position: 'relative' }, style]} dataSet={{ svio: uid }}>
+      {visible && (
+        <div
+          ref={containerRef}
+          style={{ width: '100%', height: '100%', position: 'absolute', top: 0, left: 0, overflow: 'hidden', borderRadius: 8 }}
+          dangerouslySetInnerHTML={{
+            __html: '<video src="' + clipUrl + '" autoplay muted loop playsinline '
+              + 'style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;'
+              + 'filter:saturate(0.7) contrast(1.15) brightness(' + brightness + ');'
+              + 'animation:voidPowerOn 360ms ease-out, voidOpacityRamp 40s linear forwards;" />'
+          }}
+        />
+      )}
       <View style={[StyleSheet.absoluteFill, styles.staticOverlay]} />
       {label ? <Text style={[styles.staticLabel, { color: color }]}>{label}</Text> : null}
     </View>

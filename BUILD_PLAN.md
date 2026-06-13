@@ -139,6 +139,23 @@ Also TBD: the colorful **vibe tags** (CURSED/WEIRD) on cards — keep / tone-dow
 **Free app.** Voluntary **$5/yr "Member/Patron"** (not a wall). Archivist **top-ups** ~$1/wk / pay-what-you-want.
 Keep perks insubstantial (cosmetic/recognition) so donations stay tax-deductible for the 501c3 — confirm with accountant.
 
+## 9-B. CONTENT DIRECTION UPDATE (Bryan, 2026-06-11 — supersedes the default-era texture below)
+- **Recency-first overall:** "way less interested in older than 50 years" as the DEFAULT texture
+  across surfaces. The pre-~1975 layer earns its place only as CURATED shorter lists: "classic
+  gems and cult." This generalizes the snacks post-1975 lean to the whole product. Era-lean
+  windows, crate sorts, and pool sampling should bias recent; the old stuff concentrates into
+  deliberate gem/cult crates instead of being the ambient default.
+- **Surface the hunt:** VHS, comics/graphic novels, cartoons — people "have been corralled into
+  not seeing this process of hunting as good or needed." The dig itself is the product.
+- **Hentai / adult animation:** include as findable content UNDER THE EXISTING MATURE CORRAL
+  (members-only 18+ gate, off the default wall — Bryan's standing "corral, not censorship"
+  ruling). Note for counsel review alongside the rest of the mature surface: adult content on a
+  501(c)(3) church app is a counsel-worthy optic even when gated; the gate design already exists.
+- **Aesthetic remodel queued:** "the coloring / aesthetic needs remodel. this we will do." Not
+  yet specced; expect a dedicated pass.
+- **Incoming:** Bryan is bringing a list of new APIs + lessons from others in the space; discuss
+  before building further on this section.
+
 ## 9. Content treatment — "generational variety" (STANDING SPEC, in progress)
 The default texture should feel **generational**, not antique: every broad row should span the
 **decades + recognizable series** (X-Men '90s, Transformers '80s, 2000s cartoons … *and* a Betty
@@ -567,6 +584,14 @@ A persistent **full-width** top bar on EVERY screen, **hidden in fullscreen**: `
 everywhere — so build it as ONE cohesive pass + Bryan verifies live. NOTE: `SidebarContext.sidebarWidth` is
 currently pinned to `EXPANDED_W` (a stop-the-reflow stopgap) and `DesktopSidebar` self-sizes from `collapsed`;
 the refactor supersedes both.
+
+### B's ruling 2026-06-12: VOID TICS + VOID SNACKS, one pool
+Clips are 100% the Void Tics fuel. Tics and Void Snacks draw from the SAME pool, and both
+surfaces are FOREVER SCROLLABLE (infinite feed, never a dead end) and EMOTABLE (reaction
+interactions on each clip). Emote state needs Supabase, so the build slots into the Move 3
+lane (Edit Layer prereqs are built; waits on B running the schema SQL). Design implication
+recorded now so the clip pipeline is sized for it: every clip cut lands in the shared
+tics/snacks pool, not a per-surface stash.
 
 ### Pending queue (besides the header)
 - **Rabbit-hole**: first-3-identical + duplicates → stronger dedupe (Archive ships the same film under different

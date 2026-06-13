@@ -34,6 +34,14 @@ and relationship items stay tracked at lower volume.
   as optional in the ops log; upgrade to do-soon. (2026-06-11)
 
 ## Legal and rights (the ones that can hurt a 501c3)
+- **TMDB API terms likely class VOIDtv as COMMERCIAL (2026-06-11).** Section 2 examples catch
+  us on three: (iv) generating revenue (donations) while recommending movies/TV; (iii) being a
+  destination site with an LLM (the Archivist); (v) any AI training/validation with TMDB content
+  is a hard breach. Commercial use needs a written agreement + possible fees, not the free key.
+  B applied for a free nonprofit key (described honestly: free, no ads, donations-only, never
+  for AI training, attribution promised). If they refuse/charge, DROP TMDB and use Wikidata
+  (CC0, no agreement) for the catalog + kids gate. Do not ship TMDB content without a key that
+  expressly permits it. (2026-06-11)
 - **"Before They Vanish" (§14 of the ops log) is the riskiest standing spec.** It deliberately
   surfaces branded and recent material BECAUSE it is the most likely to be infringing. Archive.org
   carries host liability; a curator that promotes known-likely-infringing items invites a
@@ -69,7 +77,25 @@ and relationship items stay tracked at lower volume.
   the community's labor; losing them breaks faith. Verify retention, schedule an export. The
   Spine db snapshot (JOB_0 determination) is part of the same answer. (2026-06-11)
 
+## Useful to ALL — researched, parked
+- **App-wide VHS video/audio cleaner (CAS sharpen + temporal denoise + RNNoise/hum-notch) is
+  BLOCKED by CORS on Archive media (2026-06-12).** Reading pixels (WebGL) or audio samples
+  (WebAudio) from cross-origin Archive video taints the canvas/context -> SecurityError. This
+  app already proxies thumbnails (/api/thumb) precisely because Archive sends no permissive
+  CORS (ERR_BLOCKED_BY_ORB). Running the cleaner would require proxying full video through our
+  backend = the bandwidth cliff we avoid (it took prod down once). VIABLE only on content WE
+  host with CORS (void-stream, future clips/stems). Spec is sound (deinterlace->denoise->
+  sharpen order, single-pass, low-latency); revisit if we ever self-host the VHS tapes. Do not
+  build app-wide into the CORS wall. (2026-06-12)
+
 ## Money and operational cliffs
+- **File-based backend state blocks any mirror/failover plan.** B asked about a duplicate
+  backend (2026-06-12); the honest blocker is that views.json, kids-picks/kids-saturday,
+  wiki-cache and the L1 cache live as per-instance local files — two instances drift
+  immediately (different kids walls, different censor verdicts). Prerequisites to revisit:
+  move durable state to Supabase/Upstash, and decide Move 1 (Spine production home) first.
+  Cheaper resilience available now: bake a last-good static categories payload to the CDN so
+  the wall still browses when the backend is down. (2026-06-12)
 - **Free-tier cliffs are real liabilities:** Render (sleep + bandwidth), Vercel (bandwidth),
   Supabase (rows + storage), Upstash (commands). A traffic spike converts directly into outage or
   surprise bill. The funding circuit (JOB_9 mechanics) should be live BEFORE any deliberate

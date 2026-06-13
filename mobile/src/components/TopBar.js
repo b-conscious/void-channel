@@ -18,6 +18,7 @@ import { Ionicons } from '@expo/vector-icons';
 
 import FastImage from './FastImage';
 import { useGeneration } from '../context/GenerationContext';
+import { useKids } from '../context/KidsContext';
 import { useAuth } from '../context/AuthContext';
 import { useSidebar, HEADER_H } from '../context/SidebarContext';
 import { colors, fonts, radius, spacing } from '../theme';
@@ -31,7 +32,8 @@ export default function TopBar({ nav }) {
   const { openDrawer } = useSidebar();
   const { gen } = useGeneration();
   const { user, isAuthenticated } = useAuth();
-  const accent = gen?.accentColor || colors.amber;
+  const { kidsMode, kidsAccent } = useKids();
+  const accent = kidsMode ? kidsAccent : (gen?.accentColor || colors.amber);
 
   // Search lives HERE now (Bryan) — a real input, not a navigate-then-type pill. Submitting
   // routes straight to the results screen with the query; that screen has no input of its own.
@@ -93,12 +95,13 @@ export default function TopBar({ nav }) {
             <View style={styles.logoWrap}>
               <Text style={[styles.logoVoid, { color: accent }]}>VOID</Text>
               <Text style={styles.logoTv}>tv</Text>
+              {kidsMode && <Text style={[styles.logoKids, { color: kidsAccent }]}> KIDS</Text>}
             </View>
           </TouchableOpacity>
         </View>
 
-        {/* ── Center: search input (desktop) ── */}
-        {IS_DESKTOP ? (
+        {/* ── Center: search input (desktop). KIDS: no raw search, the pill is gone ── */}
+        {IS_DESKTOP && !kidsMode ? (
           <View style={[styles.searchPill, styles.desktopSearchBar]}>
             <Ionicons name="search" size={16} color={colors.textMuted} />
             <TextInput
@@ -125,7 +128,7 @@ export default function TopBar({ nav }) {
 
         {/* ── Right: search icon (mobile) + user + donate ── */}
         <View style={[styles.side, styles.sideRight, IS_DESKTOP && styles.sideFlex]}>
-          {!IS_DESKTOP && (
+          {!IS_DESKTOP && !kidsMode && (
             <TouchableOpacity onPress={() => setSearchOpen(true)} style={styles.iconBtn} hitSlop={6} activeOpacity={0.7}>
               <Ionicons name="search" size={20} color={colors.textSecondary} />
             </TouchableOpacity>
@@ -151,10 +154,12 @@ export default function TopBar({ nav }) {
               <Text style={styles.signInChipText}>SIGN IN</Text>
             </TouchableOpacity>
           )}
-          <TouchableOpacity onPress={() => Linking.openURL(DONATE_URL)} style={styles.donateBtn} hitSlop={8} activeOpacity={0.85}>
-            <Ionicons name="heart" size={12} color="#08080b" style={{ marginRight: 5 }} />
-            <Text style={styles.donateText}>DONATE</Text>
-          </TouchableOpacity>
+          {!kidsMode && (
+            <TouchableOpacity onPress={() => Linking.openURL(DONATE_URL)} style={styles.donateBtn} hitSlop={8} activeOpacity={0.85}>
+              <Ionicons name="heart" size={12} color="#08080b" style={{ marginRight: 5 }} />
+              <Text style={styles.donateText}>DONATE</Text>
+            </TouchableOpacity>
+          )}
         </View>
       </View>
     </View>
@@ -183,6 +188,7 @@ const styles = StyleSheet.create({
   hamburger: { padding: 4 },
   iconBtn: { padding: 4 },
   logoWrap: { flexDirection: 'row', alignItems: 'baseline' },
+  logoKids: { fontFamily: fonts.monoBold, fontSize: 15, letterSpacing: 1.5 },
   logoVoid: { fontFamily: fonts.monoBold, fontSize: 18, letterSpacing: 4 },
   logoTv: { fontFamily: fonts.sans, fontSize: 14, color: colors.textMuted, letterSpacing: 0.5 },
 

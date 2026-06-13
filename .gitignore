@@ -6,6 +6,15 @@ web-build/
 .DS_Store
 backend/hearts.json
 backend/data/
+# Runtime caches/state — written by the running backend, never source. Must stay out of
+# git AND out of the lockfile baseline (they mutate every request).
+backend/codec-cache.json
+backend/wiki-cache.json
+backend/kids-sources/_raw/
+backend/public/static/_disabled/
+spine-error.log
+backend-error.log
+.claude/
 mobile/.env
 backend/.env
 .env

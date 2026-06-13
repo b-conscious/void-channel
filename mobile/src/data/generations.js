@@ -33,7 +33,7 @@ export const GENERATIONS = {
       "WARMING UP THE SET...",
     ],
     heroEyebrow: '◈ ON THE AIR ◈',
-    watchBtnText: 'WATCH THIS',
+    watchBtnText: 'WATCH',
     searchTitle: 'SEARCH THE COLLECTION',
     searchPlaceholder: '',
     searchHints: [
@@ -136,7 +136,7 @@ export const GENERATIONS = {
       "TUNING THE SIGNAL...",
     ],
     heroEyebrow: '◈ ON THE AIR RIGHT NOW ◈',
-    watchBtnText: 'WATCH THIS',
+    watchBtnText: 'WATCH',
     searchTitle: 'FIND SOMETHING WEIRD',
     searchPlaceholder: '',
     searchHints: [
@@ -239,7 +239,7 @@ export const GENERATIONS = {
       "ONE SEC BESTIE...",
     ],
     heroEyebrow: 'POV: ON THE AIR',
-    watchBtnText: 'WATCH THIS (TRUST)',
+    watchBtnText: 'WATCH',
     searchTitle: 'find something weird',
     searchPlaceholder: '',
     searchHints: [

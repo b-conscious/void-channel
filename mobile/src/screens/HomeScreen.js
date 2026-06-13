@@ -1,8 +1,8 @@
-import React, { useState, useEffect, useCallback, useRef, useMemo } from 'react';
+import React, { useState, useEffect, useCallback, useRef, useMemo, startTransition } from 'react';
 import {
   View, Text, Animated, TouchableOpacity, Pressable, Modal, Linking,
   ScrollView, StyleSheet, Dimensions, Platform, TextInput, useWindowDimensions,
-  ActivityIndicator,
+  ActivityIndicator, InteractionManager,
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { LinearGradient } from 'expo-linear-gradient';
@@ -21,6 +21,7 @@ import store from '../store/cache';
 import { colors, fonts, spacing, radius } from '../theme';
 
 import { useSidebar } from '../context/SidebarContext';
+import { useKids } from '../context/KidsContext';
 
 const { width: SCREEN_W } = Dimensions.get('window');
 const IS_DESKTOP = Platform.OS === 'web' && SCREEN_W > 900;
@@ -86,7 +87,7 @@ function hasRealContent(cats) {
 export default function HomeScreen({ navigation, route }) {
   const insets = useSafeAreaInsets();
   const { width: windowW } = useWindowDimensions();
-  const { headerH, openDrawer, closeDrawer } = useSidebar();
+  const { headerH, openDrawer, closeDrawer, drawerOpen } = useSidebar();
   // Content is full-width now — the desktop left sidebar is gone (nav lives in the top bar).
   const sceneW = windowW;
   const contentW = windowW;
@@ -94,6 +95,7 @@ export default function HomeScreen({ navigation, route }) {
   // up huge). Capped on desktop so it doesn't dominate a wide screen; proportional on mobile.
   const heroH = IS_DESKTOP ? Math.min(Math.round(contentW * 0.30), 380) : Math.round(contentW * 0.52);
   const { gen, generationId, chooseGeneration } = useGeneration();
+  const { kidsMode, kidsAccent } = useKids();
   const { user, isAuthenticated, isAnonymous, updateProfile, signOut } = useAuth();
   const [allCategories, setAllCategories] = useState([]);
   const allCategoriesRef = useRef([]); // mirrors allCategories for stable reads inside callbacks
@@ -108,17 +110,39 @@ export default function HomeScreen({ navigation, route }) {
   const [forYou, setForYou] = useState([]);
   const [history, setHistory] = useState([]);   // Continue Watching — recent watch history
   const [shorts, setShorts] = useState([]);
+  const [theme, setTheme] = useState(null); // JOB_14: active editorial theme window or null
   const [activeChip, setActiveChip] = useState('all');
   // Re-pick when generation changes so taglines/loading msgs match the active gen
   const tagline = useMemo(() => pickRandom(gen.taglines), [gen.id]);
   const loadingMsg = useMemo(() => pickRandom(gen.loadingMessages), [gen.id]);
   const scrollY = useRef(new Animated.Value(0)).current;
-  const accent = gen.accentColor;
+  const accent = kidsMode ? kidsAccent : gen.accentColor;
 
   // Sort by generation's categoryPriority — categories listed first appear at the top
   const typeCats = useMemo(() => {
     // Mature rows are SEQUESTERED off the default wall (not censored) — reachable only on purpose via
     // the 18+ chip (desktop) / the 18+ drawer toggle (mobile). See visibleTypeCats.
+    // VOIDtv KIDS belt-and-braces: the allowlist is ALSO enforced at render, so a stale
+    // bundle, cached payload, or any race can never draw a non-kid row. KEEP IN SYNC with
+    // KIDS_ALLOWLIST in backend/server.js.
+    const KIDS_CLIENT_ALLOW = new Set(['pbs_kids', 'saturday_morning', 'kids_picks', 'kids_channel']);
+    // vouched lanes (hand picks, the channel, and B's source-folder pages) skip the year floor
+    const kidsVouched = (id) => id === 'kids_picks' || id.startsWith('kids_channel') || id.startsWith('kidsrc_');
+    const kidsAllowed = (id) => KIDS_CLIENT_ALLOW.has(id) || id.startsWith('kids_channel') || id.startsWith('kidsrc_');
+    if (kidsMode) {
+      // Filter dead/unplayable tapes at the DATA level so the hero, the queue, AND the rows
+      // all use clean items (the row-only filter let dead tapes through as the hero/queue).
+      // Uploader re-encodes + YouTube-ripper prefixes + DVD menus = no playable derivative.
+      const BAD_ID = /(h-?264|x-?26[45]|hevc|pdtv|hdtv|web-?dl|bd-?rip|dvd-?rip|dvddisc|dvd\d|disc\d|\b\d{3,4}p\b|\b\d+fps\b|\d+kbit|aac-sx|videoplayback|y-?2-?mate|youtube|ssyoutube|savefrom|2conv|\b2mate)/i;
+      const BAD_TITLE = /\b(dvd|disc|title menu|main menu)\b/i;
+      const clean = (arr) => (arr || []).filter((it) => it && it.id && !BAD_ID.test(it.id) && !BAD_TITLE.test(String(it.title || '')));
+      return allCategories
+        .filter((c) => c && kidsAllowed(c.id) && !c.mature)
+        .map((c) => kidsVouched(c.id)
+          ? ({ ...c, items: clean(c.items) })
+          : ({ ...c, items: clean((c.items || []).filter((it) => it && it.year && it.year >= 1980)) }))
+        .filter((c) => (c.items || []).length > 0);
+    }
     const raw = allCategories.filter((c) => (!c.group || c.group === 'type') && !c.mature);
     const priority = gen.categoryPriority || [];
     if (priority.length === 0) return raw;
@@ -131,7 +155,14 @@ export default function HomeScreen({ navigation, route }) {
       if (bi === -1) return -1;
       return ai - bi;
     });
-  }, [allCategories, gen.categoryPriority]);
+  }, [allCategories, gen.categoryPriority, kidsMode]);
+
+  // VOIDtv KIDS: the hero must come from the kid-filtered set, never the raw payload pick
+  const safeHeroItem = useMemo(() => {
+    if (!kidsMode) return heroItem;
+    for (const c of typeCats) if (c.items && c.items.length) return c.items[0];
+    return null;
+  }, [kidsMode, heroItem, typeCats]);
   // "The wall": "All" (the default — and mobile has no chips, so it stays on "All") renders EVERY
   // non-empty type category as a vertical scroll of horizontal rows — an overwhelming sea of
   // variety, on every platform. A desktop chip simply narrows the wall down to that one genre.
@@ -157,8 +188,12 @@ export default function HomeScreen({ navigation, route }) {
     if (chip) {
       selectChip(chip);
       navigation.setParams?.({ chip: undefined });
+      // Slice 16: mature rides the payload only with the PIN gate; the in-memory payload
+      // predates verification, so entering 18+ refetches with the gate header attached.
+      if (chip === 'mature' && api.hasMatureGate()) loadCategoriesRef.current?.('repopulate');
     }
-  }, [route?.params?.chip]);
+  }, [route?.params?.chip, route?.params?._gate]);
+  const loadCategoriesRef = useRef(null);
 
   // Per-category pagination — tracks which page each category is on + loading state
   const [catPages, setCatPages] = useState({});       // { [catId]: pageNumber }
@@ -205,6 +240,37 @@ export default function HomeScreen({ navigation, route }) {
   });
   const scrollRef = useRef(null);
 
+  // ── Smooth signal switch (B's ruling 2026-06-11): the wall swap commits BEHIND the drawer.
+  // The fetch starts the moment a generation is selected; the heavy commit (90 rows of cards)
+  // is what froze the screen. While the drawer is open the prepared payload is STASHED; when
+  // the drawer closes it applies after the close animation as a non-urgent transition, so the
+  // user steps out onto a finished wall. Payloads arriving with the drawer already closed
+  // apply immediately, still inside a transition.
+  const pendingWallRef = useRef(null);
+  const drawerOpenRef = useRef(false);
+  useEffect(() => { drawerOpenRef.current = drawerOpen; }, [drawerOpen]);
+
+  const applyWallPayload = useCallback((varied, hero = true) => {
+    if (drawerOpenRef.current) { pendingWallRef.current = { varied, hero }; return; }
+    startTransition(() => {
+      setAllCategories(varied);
+      if (hero) pickHero(varied);
+    });
+  }, []);
+
+  useEffect(() => {
+    if (drawerOpen || !pendingWallRef.current) return;
+    const { varied, hero } = pendingWallRef.current;
+    pendingWallRef.current = null;
+    const task = InteractionManager.runAfterInteractions(() => {
+      startTransition(() => {
+        setAllCategories(varied);
+        if (hero) pickHero(varied);
+      });
+    });
+    return () => task.cancel && task.cancel();
+  }, [drawerOpen]);
+
   const loadCategories = useCallback(async (mode = "open") => {
     // mode: "open" → show cache first (reshuffled for variety), refresh if stale
     //       "repopulate" → pull genuinely fresh content via the fast blended path
@@ -213,14 +279,14 @@ export default function HomeScreen({ navigation, route }) {
     const forceFresh = mode === "repopulate";
     const g = generationId;
     try {
-      if (!forceFresh) {
+      // VOIDtv KIDS: never serve or write the client cache in kids mode. The cache holds the
+      // ADULT wall; fail closed means kids payloads come from the server-side allowlist only.
+      if (!forceFresh && !kidsMode) {
         // Show cache instantly, reshuffled client-side for per-visit variety (zero Archive load)
         const cached = await store.getCachedCategories(g);
         if (cached) {
-          const varied = reshuffleCats(cached);
-          setAllCategories(varied);
+          applyWallPayload(reshuffleCats(cached));
           setLoading(false);
-          pickHero(varied);
           // If cache is stale (>10 min), pull fresh content in the background — from the
           // FAST cached endpoint (the backend self-warms it). NOT refresh=true: that forces a
           // slow ~47-collection fetch that can exceed Cloudflare's 100s timeout → 524 → "CORS"
@@ -229,8 +295,7 @@ export default function HomeScreen({ navigation, route }) {
           if (Date.now() - ts > 10 * 60 * 1000) {
             api.getCategories({ gen: g }).then((fresh) => {
               if (hasRealContent(fresh)) {
-                const v = reshuffleCats(fresh);
-                setAllCategories(v);
+                applyWallPayload(reshuffleCats(fresh), false);
                 store.setCachedCategories(fresh, g);
               }
             }).catch(() => {});
@@ -242,29 +307,25 @@ export default function HomeScreen({ navigation, route }) {
         // CRITICAL: paint from the pre-warmed server cache (blended, ~instant). Do NOT block
         // on the live shuffle path — it fires ~47 uncached Archive.org requests (80–200s) and
         // returns empty when throttled. Variety comes from the client-side reshuffle instead.
-        const fast = await api.getCategories({ shuffle: false, gen: g });
-        const varied = reshuffleCats(fast);
-        setAllCategories(varied);
+        const fast = await api.getCategories({ shuffle: false, gen: g, kids: kidsMode });
+        applyWallPayload(reshuffleCats(fast));
         setServerSleeping(false);
         setLoading(false);
-        store.setCachedCategories(fast, g);
-        pickHero(varied);
+        // never persist kids or GATED payloads (a cached mature payload would leak past
+        // the PIN on the next session)
+        if (!kidsMode && !api.hasMatureGate()) store.setCachedCategories(fast, g);
         return;
       }
       // Repopulate — pull from the FAST cached endpoint (reliable, instant, has CORS).
       // Never refresh=true (slow, can 524/CORS-fail). Variety comes from the client reshuffle.
-      const data = await api.getCategories({ gen: g });
+      const data = await api.getCategories({ gen: g, kids: kidsMode });
       if (hasRealContent(data)) {
-        const varied = reshuffleCats(data);
-        setAllCategories(varied);
+        applyWallPayload(reshuffleCats(data));
         setServerSleeping(false);
-        store.setCachedCategories(data, g);
-        pickHero(varied);
+        if (!kidsMode && !api.hasMatureGate()) store.setCachedCategories(data, g);
       } else if (allCategoriesRef.current.length) {
         // Throttled/empty — keep what we have, just reshuffle for a fresh feel
-        const varied = reshuffleCats(allCategoriesRef.current);
-        setAllCategories(varied);
-        pickHero(varied);
+        applyWallPayload(reshuffleCats(allCategoriesRef.current));
       }
     } catch (err) {
       console.error('[HomeScreen]', err);
@@ -275,7 +336,7 @@ export default function HomeScreen({ navigation, route }) {
       setLoading(false);
       setRefreshing(false);
     }
-  }, [generationId]);
+  }, [generationId, applyWallPayload, kidsMode]);
 
   // Keep the ref in sync so callbacks can read current categories without re-creating
   useEffect(() => { allCategoriesRef.current = allCategories; }, [allCategories]);
@@ -316,7 +377,7 @@ export default function HomeScreen({ navigation, route }) {
     setHeroItem(item);
   }
 
-  useEffect(() => { loadCategories(); }, [loadCategories]);
+  useEffect(() => { loadCategories(); loadCategoriesRef.current = loadCategories; }, [loadCategories]);
 
   // Continue Watching — load recent history on mount + every time we return to the wall (so a video
   // you just stopped shows up immediately).
@@ -344,6 +405,8 @@ export default function HomeScreen({ navigation, route }) {
     if (tier2Loaded.current && !refreshing) return;
     const t = setTimeout(() => {
       tier2Loaded.current = true;
+      // KIDS: community surfaces do not exist; never even fetch them (fail closed)
+      if (kidsMode) { setTopHearts([]); setTrending([]); return; }
       api.getTopHearts(20).then(setTopHearts).catch(() => setTopHearts([]));
       api.getTrending(15)
         .then((data) => setTrending(Array.isArray(data) ? data : data?.items || []))
@@ -358,9 +421,14 @@ export default function HomeScreen({ navigation, route }) {
     if (tier3Loaded.current && !refreshing) return;
     const t = setTimeout(() => {
       tier3Loaded.current = true;
-      api.getShorts(50) // big pool — the wall drops a Void Snacks row every 3 rows, rotated for variety
-        .then((data) => setShorts(Array.isArray(data) ? data : data?.items || []))
-        .catch(() => setShorts([]));
+      if (!kidsMode) {
+        api.getShorts(50) // big pool — the wall drops a Void Snacks row every 3 rows, rotated for variety
+          .then((data) => setShorts(Array.isArray(data) ? data : data?.items || []))
+          .catch(() => setShorts([]));
+        api.getTheme() // JOB_14: pinned editorial crate; null outside every window
+          .then((d) => setTheme(d && d.theme ? d.theme : null))
+          .catch(() => {});
+      }
       if (isAuthenticated) {
         api.getSubscriptionFeed(1, 15)
           .then((data) => setSubFeed(data?.items || []))
@@ -433,14 +501,44 @@ export default function HomeScreen({ navigation, route }) {
   // Track which category the hero came from so streak works for hero taps too
   const heroCategoryIdRef = useRef(null);
   const handleHeroPress = useCallback(() => {
-    if (!heroItem) return;
+    if (!safeHeroItem) return;
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
-    navigation.navigate('Player', { item: heroItem, id: heroItem?.id, categoryId: heroCategoryIdRef.current });
-  }, [heroItem, navigation]);
+    navigation.navigate('Player', { item: safeHeroItem, id: safeHeroItem?.id, categoryId: heroCategoryIdRef.current });
+  }, [safeHeroItem, navigation]);
 
   const handleRandom = useCallback(async () => {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
     try { const ri = await api.getRandomItem(); navigation.navigate('Player', { item: ri, id: ri.id }); } catch {}
+  }, [navigation]);
+
+  // KIDS TIME-TRAVEL TV (slice 17): tune into the Saturday Morning channel AS IF live. The
+  // clock decides which vouched block is "on" and how far in, so tapping drops you mid-stream
+  // exactly like the old broadcast. Period ads ride along on purpose (B: the texture IS the
+  // time machine). Finite channel (no catIds), so playback just rides the vouched queue.
+  // Tap a kids tape -> tune in AS IF live, AND hand the player the whole channel as a QUEUE
+  // (B: "there isnt any autoplay or right side videos in kids to go to"). The queue makes a
+  // dead/menu tape auto-skip to the next, and autoplay walk the channel — all vouched, no
+  // catIds so it never fetches raw related into kids.
+  const handleKidsLivePress = useCallback((item, label, channelItems) => {
+    if (!item) return;
+    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
+    const q = Array.isArray(channelItems) && channelItems.length ? channelItems : [item];
+    const idx = Math.max(0, q.findIndex((x) => x.id === item.id));
+    navigation.navigate('Player', { item, id: item.id, queue: q, queueIndex: idx, channelLabel: label || 'KIDS', liveSync: true });
+  }, [navigation]);
+
+  const handleChannelTune = useCallback((items, label) => {
+    if (!items || !items.length) return;
+    // The blocks have no runtime metadata, so position is computed from the REAL video
+    // duration in the player (liveSync). Pick today's block when several are vouched, so the
+    // channel changes day to day but stays the same for everyone tuning in together.
+    const dayIdx = Math.floor(Date.now() / 86400000) % items.length;
+    const item = items[dayIdx];
+    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
+    navigation.navigate('Player', {
+      item, id: item.id, queue: items, queueIndex: dayIdx,
+      channelLabel: label || 'SATURDAY MORNING', channelPage: 1, liveSync: true,
+    });
   }, [navigation]);
 
   // ── Virtualized wall (§12/§15.6): the vertical list is a windowed FlatList so a generation
@@ -450,23 +548,63 @@ export default function HomeScreen({ navigation, route }) {
   const wallData = useMemo(() => {
     const out = [];
     const len = visibleTypeCats.length;
+    // JOB_14: the active theme pins its crate into the wall at theme.slot (after that many
+    // category rows) and out of its normal position. B's ruling 2026-06-11: gems never LEAD
+    // the wall; recency-first is the face, the pin is a discovery a few rows in (default 5).
+    // The crate comes from the loaded payload: zero extra fetches, absent crate = no pin.
+    const themedCat = (theme && !kidsMode) ? visibleTypeCats.find((c) => c.id === theme.crateId) : null;
+    const themeSlot = Math.max(1, parseInt(theme && theme.slot, 10) || 5);
+    let catCount = 0;
     visibleTypeCats.forEach((cat, idx) => {
+      if (themedCat && cat.id === themedCat.id) return;
       out.push({ k: 'cat_' + cat.id, type: 'cat', cat, idx });
+      catCount++;
+      if (themedCat && catCount === themeSlot) out.push({ k: 'theme_' + themedCat.id, type: 'theme', cat: themedCat });
       // Void Snacks AFTER the first category row, then every 3 (idx 0,3,6…); each rotated.
-      if (shorts.length > 0 && (idx % 3 === 0) && idx < len - 1) out.push({ k: 'snack_' + idx, type: 'snack', idx });
-      // Continue Watching — sits under the first Void Snacks row
-      if (idx === 0 && history.length > 0) out.push({ k: 'continue', type: 'continue' });
+      // KIDS: no snacks (they are literally commercials), no Dial (raw channel queues).
+      if (!kidsMode && shorts.length > 0 && (idx % 3 === 0) && idx < len - 1) out.push({ k: 'snack_' + idx, type: 'snack', idx });
+      // Continue Watching — sits under the first Void Snacks row. NEVER in kids: local
+      // history can hold adult items watched before the toggle.
+      if (!kidsMode && idx === 0 && history.length > 0) out.push({ k: 'continue', type: 'continue' });
+      // (The Dial row was pulled off the wall, slice 17. Its clock mechanic now drives the
+      // kids time-travel channel, which renders as the kids_channel cat below.)
       // Scattered void-stream TVs — ~1-in-6 rows, hash-scattered (web only)
       if (Platform.OS === 'web' && idx < len - 1 && ((((idx + 1) * 2654435761) >>> 0) % 6 === 0)) {
         out.push({ k: 'tv_' + idx, type: 'tv' });
       }
     });
+    // Fewer rows than the slot: the pin still lands, at the end
+    if (themedCat && catCount < themeSlot) out.push({ k: 'theme_' + themedCat.id, type: 'theme', cat: themedCat });
     return out;
-  }, [visibleTypeCats, shorts, history.length]);
+  }, [visibleTypeCats, shorts, history.length, theme, kidsMode]);
 
   const wallKeyExtractor = useCallback((entry) => entry.k, []);
 
   const renderWallItem = useCallback(({ item: entry }) => {
+    if (entry.type === 'theme') {
+      return (
+        <View style={{ marginBottom: 10 }}>
+          <View style={{ paddingHorizontal: spacing.screenPadding, marginBottom: 6 }}>
+            <Text style={{ fontFamily: fonts.mono, fontSize: 11, letterSpacing: 2, color: accent }}>
+              {String(theme?.title || 'THIS WEEK').toUpperCase()}
+            </Text>
+            {!!theme?.copy && (
+              <Text style={{ fontFamily: fonts.sans, fontSize: 12, color: colors.textSecondary, marginTop: 2 }}>
+                {theme.copy}
+              </Text>
+            )}
+          </View>
+          <CategoryRow
+            category={entry.cat}
+            onItemPress={handleItemPress}
+            page={catPages[entry.cat.id] || 1}
+            loadingMore={!!catLoading[entry.cat.id]}
+            onPageChange={handlePageChange}
+            onSeeMore={handleSeeMore}
+          />
+        </View>
+      );
+    }
     if (entry.type === 'cat') {
       return (
         <CategoryRow
@@ -491,15 +629,35 @@ export default function HomeScreen({ navigation, route }) {
     if (entry.type === 'continue') {
       return <ContinueRow items={history} accent={accent} onItemPress={handleItemPress} />;
     }
+    // KIDS network channel: a full browse ROW of the vouched tapes (B: "load the rest into
+    // the rows"). Tapping any tape tunes in AS IF live. The row header is the network name.
+    if (entry.type === 'cat' && entry.cat.id.startsWith('kids_channel')) {
+      const chName = entry.cat.name || 'SATURDAY MORNING';
+      // Client belt: dedupe + hide uploader RE-ENCODES (ids tagged h-264/480p/pdtv/128kbit/etc.)
+      // that IA has no browser-playable derivative for and that throw NotSupportedError. The
+      // real broadcast tapes carry no codec tags. Immediate relief; the proper resolve-time
+      // playability check is the tomorrow fix.
+      const BAD_ENCODE = /(h-?264|x-?26[45]|hevc|pdtv|hdtv|web-?dl|bd-?rip|dvd-?rip|dvddisc|dvd\d|disc\d|\b\d{3,4}p\b|\b\d+fps\b|\d+kbit|aac-sx|videoplayback)/i;
+      const BAD_TITLE = /\b(dvd|disc|title menu|main menu)\b/i; // DVD-rip menus (Preston's-style) that show a navigable menu, not a broadcast
+      const seen = new Set();
+      const items = (entry.cat.items || []).filter((it) => it && it.id && !seen.has(it.id) && (seen.add(it.id), true) && !BAD_ENCODE.test(it.id) && !BAD_TITLE.test(String(it.title || '')));
+      return (
+        <CategoryRow
+          category={{ ...entry.cat, items, name: '▸ ' + chName, subtitle: 'time travel TV · tap to tune in live' }}
+          onItemPress={(it) => handleKidsLivePress(it, chName, items)}
+        />
+      );
+    }
     if (entry.type === 'tv') {
       return (
         <View style={{ marginHorizontal: spacing.screenPadding, marginBottom: 16 }}>
-          <VoidLoader mode="static" size="row" style={{ width: '100%', height: 150, borderRadius: 8 }} />
+          {/* persist: wall TVs blink-cycle forever instead of dying after one 20-40s life */}
+          <VoidLoader mode="static" size="row" persist style={{ width: '100%', height: 150, borderRadius: 8 }} />
         </View>
       );
     }
     return null;
-  }, [handleItemPress, catPages, catLoading, handlePageChange, handleSeeMore, shorts, history, accent]);
+  }, [handleItemPress, catPages, catLoading, handlePageChange, handleSeeMore, shorts, history, accent, theme, handleChannelTune, handleKidsLivePress]);
 
   return (
     <View style={[styles.container, { paddingTop: insets.top + headerH }]}>
@@ -520,7 +678,7 @@ export default function HomeScreen({ navigation, route }) {
           <>
         {/* Hero */}
         <HeroCard
-          item={heroItem}
+          item={safeHeroItem}
           loading={loading}
           insetTop={insets.top}
           loadingMsg={loadingMsg}
@@ -556,8 +714,19 @@ export default function HomeScreen({ navigation, route }) {
           </View>
         )}
 
-        {/* Community Hearts — items the most users have loved */}
-        {topHearts.length > 0 && (
+        {/* CATALOG FRONT DOOR — SHOWS + MOVIES atop the wall (B's pick: cards AND drawer
+            items). Destinations, not searches: straight into the verified catalog grid. */}
+        {!kidsMode && (
+          <CatalogDoorRow
+            accent={accent}
+            contentW={contentW}
+            onShows={() => navigation.navigate('Search', { catalog: 'series', _ts: Date.now() })}
+            onMovies={() => navigation.navigate('Search', { catalog: 'movies', _ts: Date.now() })}
+          />
+        )}
+
+        {/* Community Hearts — items the most users have loved. NEVER in kids. */}
+        {!kidsMode && topHearts.length > 0 && (
           <CategoryRow
             category={{
               id: "community_hearts",
@@ -572,8 +741,8 @@ export default function HomeScreen({ navigation, route }) {
         {/* Trending Now + For You removed (per Bryan) — the genre category rows begin here. The
             first Void Snacks row now comes AFTER the first category row, via the interleave below. */}
 
-        {/* Subscription Feed — items from followed categories */}
-        {subFeed.length > 0 && (
+        {/* Subscription Feed — items from followed categories. NEVER in kids. */}
+        {!kidsMode && subFeed.length > 0 && (
           <CategoryRow
             category={{
               id: "sub_feed",
@@ -601,13 +770,13 @@ export default function HomeScreen({ navigation, route }) {
         {/* Channels row removed — it duplicated the genre content below and the "LIVE"
             badge was misleading (it's auto-advancing archive video, not a live stream). */}
 
-        {/* ── Spotlight: TV & Features — big visual cards, always visible ── */}
-        {!loading && allCategories.length > 0 && (
+        {/* ── Spotlight: TV & Features — big visual cards into the VERIFIED catalog. NEVER in kids. ── */}
+        {!kidsMode && !loading && (
           <SpotlightRow
-            categories={allCategories}
             accent={accent}
             onItemPress={handleItemPress}
-            onSeeMore={handleSeeMore}
+            onShows={() => navigation.navigate('Search', { catalog: 'series', _ts: Date.now() })}
+            onMovies={() => navigation.navigate('Search', { catalog: 'movies', _ts: Date.now() })}
             contentW={contentW}
           />
         )}
@@ -1029,18 +1198,69 @@ function ChannelsRow({ categories, accent, onChannelPress, generationId, loading
   );
 }
 
+// ── Catalog front door: SHOWS + MOVIES as compact direct destinations atop the wall.
+// Routes into THE CATALOG (series cards → episodes in order / verified film grid) with
+// no query — before this the catalog only existed behind the Search genre chips.
+function CatalogDoorRow({ accent, contentW, onShows, onMovies }) {
+  var cardW = Math.floor((contentW - spacing.screenPadding * 2 - 10) / 2);
+  var doors = [
+    { key: 'series', icon: 'albums-outline', title: 'SHOWS', sub: 'series · episodes in order', onPress: onShows },
+    { key: 'movies', icon: 'film-outline', title: 'MOVIES', sub: 'the verified film catalog', onPress: onMovies },
+  ];
+  return (
+    <View style={doorStyles.row}>
+      {doors.map(function (d) {
+        return (
+          <Pressable
+            key={d.key}
+            onPress={d.onPress}
+            style={[doorStyles.card, { width: cardW, borderColor: accent + '55' }]}
+          >
+            <Ionicons name={d.icon} size={18} color={accent} />
+            <View style={{ flex: 1 }}>
+              <Text style={[doorStyles.title, { color: accent }]}>{d.title}</Text>
+              <Text style={doorStyles.sub}>{d.sub}</Text>
+            </View>
+            <Ionicons name="arrow-forward" size={14} color={accent + '99'} />
+          </Pressable>
+        );
+      })}
+    </View>
+  );
+}
+
+var doorStyles = StyleSheet.create({
+  row: { flexDirection: 'row', gap: 10, paddingHorizontal: spacing.screenPadding, marginTop: 14, marginBottom: 4 },
+  card: {
+    flexDirection: 'row', alignItems: 'center', gap: 10,
+    borderWidth: 1, borderRadius: 10, paddingVertical: 14, paddingHorizontal: 14,
+    backgroundColor: colors.surface,
+  },
+  title: { fontFamily: fonts.monoBold, fontSize: 13, letterSpacing: 2 },
+  sub: { fontFamily: fonts.mono, fontSize: 9, color: colors.textMuted, letterSpacing: 0.8, marginTop: 2 },
+});
+
 // ── Spotlight Row: TV & Features — big visual entry points, always visible ──
-// Two hero-sized cards with rotating thumbnails. These are the "I want to watch
-// something real" entry points — the most popular categories on the whole site.
-function SpotlightRow({ categories, accent, onItemPress, onSeeMore, contentW }) {
-  var tvCat = categories.find(function (c) { return c.id === 'tv_movies'; });
-  var featuresCat = categories.find(function (c) { return c.id === 'feature_length'; });
-  if (!tvCat && !featuresCat) return null;
+// CURATED DOORS ONLY (B's ruling: "they still contain junk and that's not where that
+// goes — we have areas to search that"). These cards used to feed from the raw machine
+// crates (tv_movies / feature_length); now both the thumbnails AND the destinations are
+// the VERIFIED catalog. Raw crates stay on the wall rows and in search — the hunt is
+// untouched, the doors are clean.
+function SpotlightRow({ accent, onItemPress, onShows, onMovies, contentW }) {
+  var [doorSeries, setDoorSeries] = useState([]);
+  var [doorMovies, setDoorMovies] = useState([]);
+  useEffect(function () {
+    var live = true;
+    api.getCatalogSeries({ rows: 10 }).then(function (d) { if (live) setDoorSeries((d && d.items) || []); }).catch(function () {});
+    api.getCatalogMovies({ rows: 10 }).then(function (d) { if (live) setDoorMovies((d && d.items) || []); }).catch(function () {});
+    return function () { live = false; };
+  }, []);
 
   var spots = [
-    { cat: tvCat, icon: 'tv-outline', title: 'TELEVISION', sub: 'Classic shows, serials & broadcasts' },
-    { cat: featuresCat, icon: 'film-outline', title: 'FULL LENGTH FILMS', sub: 'Feature-length movies you can watch right now' },
-  ].filter(function (s) { return s.cat && s.cat.items && s.cat.items.length > 0; });
+    // Series previews aren't playable items (they're show cards) — every tap goes to the grid.
+    { key: 'series', icon: 'tv-outline', title: 'TELEVISION', sub: 'Verified shows — episodes in order', items: doorSeries, go: onShows, playable: false },
+    { key: 'movies', icon: 'film-outline', title: 'FULL LENGTH FILMS', sub: 'The verified film catalog', items: doorMovies, go: onMovies, playable: true },
+  ].filter(function (s) { return s.items.length > 0; });
 
   if (spots.length === 0) return null;
 
@@ -1055,21 +1275,21 @@ function SpotlightRow({ categories, accent, onItemPress, onSeeMore, contentW }) 
       </View>
       <View style={[spotStyles.row, IS_DESKTOP && spotStyles.rowDesktop]}>
         {spots.map(function (spot) {
-          // Pick 4 random thumbnails from the category for a mini preview strip
-          var shuffled = (spot.cat.items || []).slice().sort(function () { return Math.random() - 0.5; });
+          // Pick 4 random thumbnails from the verified catalog for a mini preview strip
+          var shuffled = spot.items.slice().sort(function () { return Math.random() - 0.5; });
           var hero = shuffled[0];
           var previews = shuffled.slice(1, 5);
 
           return (
             <Pressable
-              key={spot.cat.id}
-              onPress={function () { onSeeMore(spot.cat); }}
+              key={spot.key}
+              onPress={spot.go}
               style={[spotStyles.card, { width: cardW, height: cardH }]}
             >
               {/* Background thumbnail */}
               <FastImage
                 uri={hero ? hero.thumbnail : ''}
-                itemId={hero ? hero.id : spot.cat.id}
+                itemId={hero ? (hero.id || hero.key) : spot.key}
                 style={[StyleSheet.absoluteFill, { borderRadius: 10 }]}
                 contentFit="cover"
               />
@@ -1095,14 +1315,14 @@ function SpotlightRow({ categories, accent, onItemPress, onSeeMore, contentW }) 
                       {previews.map(function (p) {
                         return (
                           <TouchableOpacity
-                            key={p.id}
-                            onPress={function () { onItemPress(p, spot.cat.id); }}
+                            key={p.id || p.key}
+                            onPress={spot.playable ? function () { onItemPress(p, 'catalog_movies'); } : spot.go}
                             activeOpacity={0.8}
                             style={spotStyles.previewThumb}
                           >
                             <FastImage
                               uri={p.thumbnail}
-                              itemId={p.id}
+                              itemId={p.id || p.key}
                               style={spotStyles.previewImg}
                               contentFit="cover"
                             />
@@ -1110,7 +1330,7 @@ function SpotlightRow({ categories, accent, onItemPress, onSeeMore, contentW }) 
                         );
                       })}
                       <TouchableOpacity
-                        onPress={function () { onSeeMore(spot.cat); }}
+                        onPress={spot.go}
                         style={spotStyles.previewMore}
                         activeOpacity={0.7}
                       >

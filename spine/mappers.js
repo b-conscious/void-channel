@@ -38,8 +38,9 @@ function baseDetail(identifier, md, type) {
 }
 
 // VIDEO: the existing resolver already returns videoUrl/videoUrlHQ and friends.
-async function video(identifier) {
-  return archive.getItem(identifier);
+// opts threads through (e.g. skipVet for vouched kids content — P1).
+async function video(identifier, opts) {
+  return archive.getItem(identifier, opts);
 }
 
 // AUDIO stub: playable tracks (mp3/ogg), FLAC as hqUrl, ordered by track field else filename.
@@ -113,9 +114,28 @@ async function text(identifier) {
 
 const byType = { video, audio, game, text };
 
-async function getDetailedItem(identifier, type = 'video') {
-  const fn = byType[type] || video;
-  return fn(identifier);
+// Namespaced ids dispatch to their source adapter (JOB_13): 'nasa:xyz' resolves through the
+// NASA adapter; bare ids remain IA by contract, so nothing existing changes path.
+const SOURCE_ADAPTERS = { nasa: require('./adapters/nasa.js'), commons: require('./adapters/commons.js') };
+
+// Resolved-item cache (the FULL detail object, not just raw metadata): the video path
+// delegates to archive.getItem which re-fetched IA on every call, so every kids channel
+// build re-resolved all ~240 tapes and stormed IA (P1, blank kids wall). Cache the resolved
+// result 6h keyed by id+type+vet so a tape is resolved once, then served from memory.
+const _resolved = new Map();
+async function getDetailedItem(identifier, type = 'video', opts = {}) {
+  const key = `${type}:${opts.skipVet ? 'nv:' : ''}${identifier}`;
+  const hit = _resolved.get(key);
+  if (hit && Date.now() - hit.t < META_TTL) return hit.v;
+  const m = /^([a-z]+):(.+)$/.exec(identifier || '');
+  const v = (m && SOURCE_ADAPTERS[m[1]])
+    ? await SOURCE_ADAPTERS[m[1]].getFullItem(m[2])
+    : await (byType[type] || video)(identifier, opts);
+  if (v) {
+    _resolved.set(key, { t: Date.now(), v });
+    if (_resolved.size > 2000) _resolved.delete(_resolved.keys().next().value);
+  }
+  return v;
 }
 
 module.exports = { getDetailedItem };

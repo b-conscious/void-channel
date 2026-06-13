@@ -149,12 +149,53 @@ export async function getCategoriesTimestamp(gen = null) {
   } catch { return 0; }
 }
 
+// The wall payload outgrew the web localStorage quota (90+ crates x items x 3 gen keys), and
+// a failed write silently leaves a STALE cache serving old walls forever. So: the cached copy
+// is a slim first-paint version (12 items per crate, clipped descriptions), only the ACTIVE
+// gen stays cached (other gen keys evicted), and a quota error clears our keys and retries
+// once. The fresh network payload in memory is always the full one; this only shapes what
+// survives to the next visit.
+const GENS = ['boomer', 'millennial', 'genz', 'none'];
+
+function slimCategories(data) {
+  const cats = Array.isArray(data) ? data : (data && data.categories);
+  if (!Array.isArray(cats)) return data;
+  const slim = cats.map((c) => ({
+    ...c,
+    items: (c.items || []).slice(0, 12).map((it) => ({
+      ...it,
+      description: typeof it.description === 'string' ? it.description.slice(0, 140) : it.description,
+    })),
+  }));
+  return Array.isArray(data) ? slim : { ...data, categories: slim };
+}
+
+async function evictOtherGens(activeGen) {
+  for (const g of GENS) {
+    if (g === (activeGen || 'none')) continue;
+    try { await AsyncStorage.removeItem(catKey(g)); await AsyncStorage.removeItem(tsKey(g)); } catch {}
+  }
+}
+
 export async function setCachedCategories(data, gen = null) {
+  const payload = JSON.stringify(slimCategories(data));
   try {
-    await AsyncStorage.setItem(catKey(gen), JSON.stringify(data));
+    await evictOtherGens(gen);
+    await AsyncStorage.setItem(catKey(gen), payload);
     await AsyncStorage.setItem(tsKey(gen), Date.now().toString());
   } catch (err) {
-    console.warn("[cache] failed to write categories:", err);
+    // Quota: clear every category key we own and retry once. Still failing stays non-fatal,
+    // but the stale entry is GONE, so the next visit refetches instead of serving old walls.
+    try {
+      for (const g of GENS) {
+        await AsyncStorage.removeItem(catKey(g));
+        await AsyncStorage.removeItem(tsKey(g));
+      }
+      await AsyncStorage.setItem(catKey(gen), payload);
+      await AsyncStorage.setItem(tsKey(gen), Date.now().toString());
+    } catch (err2) {
+      console.warn("[cache] categories cache disabled this visit (quota):", err2 && err2.name);
+    }
   }
 }
 

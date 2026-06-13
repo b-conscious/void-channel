@@ -14,7 +14,7 @@ import { colors, fonts } from "../theme";
 
 const { width: SCREEN_W } = Dimensions.get("window");
 const FADE_DURATION = 220;
-const HIDE_DELAY = 4000;
+const HIDE_DELAY = 1000; // B 2026-06-11: controls clear in 1s, lean-back wins
 
 // Touch devices get the YouTube-mobile gesture vocabulary (double-tap halves = skip ±);
 // fine-pointer devices keep desktop muscle memory (double-click = fullscreen, arrows = seek).
@@ -27,11 +27,42 @@ const IS_TOUCH = typeof window !== 'undefined' && window.matchMedia
 // We start the first video muted (so it autoplays instantly), then restore sound on
 // the first interaction. Once any gesture happens, subsequent videos can start unmuted.
 let _webHasGesture = false;
+// JOB_19: an INSTALLED PWA (standalone display) is granted audible autoplay by Chrome,
+// so it counts as the gesture from the first frame — installed users open INTO sound.
+if (Platform.OS === "web" && typeof window !== "undefined"
+    && window.matchMedia && window.matchMedia("(display-mode: standalone)").matches) {
+  _webHasGesture = true;
+}
 if (Platform.OS === "web" && typeof window !== "undefined") {
   const mark = (e) => { if (e && e.isTrusted) _webHasGesture = true; };
   ["pointerdown", "keydown", "touchend"].forEach((t) =>
     window.addEventListener(t, mark, { passive: true })
   );
+}
+
+// VHS CLEAN (the viable half of B's cleaner): composite-level CSS filter on the video
+// subtree only — no canvas, no CORS taint, so it works on Archive-served media app-wide.
+// LOW = tone only; MED/HIGH add an SVG sharpen kernel. The audio half stays parked
+// (cross-origin audio is silenced by Web Audio; see the watchlist).
+const CLEAN_LEVELS = ['OFF', 'LOW', 'MED', 'HIGH'];
+function injectCleanDefs() {
+  if (Platform.OS !== 'web' || typeof document === 'undefined') return;
+  if (document.getElementById('void-vhs-clean-defs')) return;
+  const host = document.createElement('div');
+  host.id = 'void-vhs-clean-defs';
+  host.setAttribute('aria-hidden', 'true');
+  host.style.cssText = 'position:absolute;width:0;height:0;overflow:hidden';
+  host.innerHTML = `
+<svg width="0" height="0">
+  <filter id="void-sharpen-soft"><feConvolveMatrix order="3" kernelMatrix="0 -0.25 0 -0.25 2 -0.25 0 -0.25 0" preserveAlpha="true"/></filter>
+  <filter id="void-sharpen"><feConvolveMatrix order="3" kernelMatrix="0 -0.5 0 -0.5 3 -0.5 0 -0.5 0" preserveAlpha="true"/></filter>
+</svg>
+<style>
+[data-vhsclean="1"]{filter:contrast(1.05) saturate(1.07) brightness(1.01)}
+[data-vhsclean="2"]{filter:url(#void-sharpen-soft) contrast(1.08) saturate(1.1) brightness(1.02)}
+[data-vhsclean="3"]{filter:url(#void-sharpen) contrast(1.12) saturate(1.13) brightness(1.03)}
+</style>`;
+  document.body.appendChild(host);
 }
 
 /** Format seconds → "3:07" or "1:02:15" */
@@ -52,7 +83,7 @@ function formatTime(sec) {
  * Scrubable progress bar — supports tap-to-seek AND drag-to-scrub.
  * Uses native DOM pointer events on web (PanResponder is unreliable there).
  */
-function ProgressBar({ progress, position, duration, onSeek, isFs, toggleFullscreen, showControls, formatTime, rate, onCycleRate }) {
+function ProgressBar({ progress, position, duration, onSeek, isFs, toggleFullscreen, showControls, formatTime, rate, onCycleRate, cleanLevel, onCycleClean }) {
   const barRef = useRef(null);
   const barWidth = useRef(200);
   const [scrubbing, setScrubbing] = useState(false);
@@ -145,6 +176,12 @@ function ProgressBar({ progress, position, duration, onSeek, isFs, toggleFullscr
         ]} />
       </View>
       <Text style={[styles.timeText, styles.timeRight]}>{formatTime(duration)}</Text>
+      {/* VHS CLEAN cycle: OFF → LOW → MED → HIGH (composite CSS filter, web only) */}
+      <TouchableOpacity onPress={onCycleClean} style={styles.rateBtn} hitSlop={6}>
+        <Text style={[styles.rateText, cleanLevel > 0 && { color: colors.amber }]}>
+          {cleanLevel > 0 ? `CLN ${CLEAN_LEVELS[cleanLevel]}` : 'CLN'}
+        </Text>
+      </TouchableOpacity>
       {/* Playback-speed cycle: 1 → 1.25 → 1.5 → 2 → 0.5 */}
       <TouchableOpacity onPress={onCycleRate} style={styles.rateBtn} hitSlop={6}>
         <Text style={[styles.rateText, rate !== 1 && { color: colors.amber }]}>
@@ -161,6 +198,20 @@ function ProgressBar({ progress, position, duration, onSeek, isFs, toggleFullscr
 export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnded, onVideoError, channelLabel }, ref) {
   const [error, setError] = useState(null);
   const [isFs, setIsFs] = useState(false);
+  // VHS CLEAN level (0-3), persisted per device. Filter defs inject once below.
+  const [cleanLevel, setCleanLevel] = useState(() => {
+    if (Platform.OS !== 'web' || typeof localStorage === 'undefined') return 0;
+    const v = parseInt(localStorage.getItem('@void_vhs_clean'), 10);
+    return v >= 1 && v <= 3 ? v : 0;
+  });
+  useEffect(() => { injectCleanDefs(); }, []);
+  const cycleClean = useCallback(() => {
+    setCleanLevel((l) => {
+      const n = (l + 1) % CLEAN_LEVELS.length;
+      try { localStorage.setItem('@void_vhs_clean', String(n)); } catch {}
+      return n;
+    });
+  }, []);
   const [volume, setVolume] = useState(1);        // 0–1
   // On web, start muted IF the user hasn't interacted yet — lets the video autoplay
   // immediately instead of sitting paused. We auto-restore sound on first interaction.
@@ -297,15 +348,21 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
           if (document.exitFullscreen) await document.exitFullscreen();
           else if (document.webkitExitFullscreen) document.webkitExitFullscreen();
         } else {
-          // Fullscreen the whole VideoPlayer container so our React controls remain visible
-          const node = document.querySelector('[data-vpcontainer="1"]');
-          if (node?.requestFullscreen) await node.requestFullscreen();
-          else if (node?.webkitRequestFullscreen) node.webkitRequestFullscreen();
+          // Fullscreen THIS instance's container via its own ref. The global
+          // [data-vpcontainer] selector could grab a dead prior player's node (expo-video
+          // does not release <video> on web), making engage a silent no-op.
+          const node = (containerRef.current && containerRef.current.requestFullscreen !== undefined)
+            ? containerRef.current
+            : document.querySelector('[data-vpcontainer="1"]');
+          if (!node) { console.warn('fullscreen: container node not found'); return; }
+          if (node.requestFullscreen) await node.requestFullscreen();
+          else if (node.webkitRequestFullscreen) node.webkitRequestFullscreen();
           else {
             // iOS Safari has NO element-fullscreen API — fall back to the video element's
             // native fullscreen (native controls take over; rotation handled by iOS).
-            const v = node ? node.querySelector('video') : null;
+            const v = node.querySelector ? node.querySelector('video') : null;
             if (v && v.webkitEnterFullscreen) v.webkitEnterFullscreen();
+            else console.warn('fullscreen: no API available on this browser');
           }
         }
       } catch (e) { console.warn("fullscreen failed", e); }
@@ -321,7 +378,8 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
      (typeof HTMLVideoElement !== 'undefined' && HTMLVideoElement.prototype.webkitSetPresentationMode));
   const togglePiP = useCallback(async () => {
     try {
-      const v = document.querySelector('[data-vpcontainer="1"] video');
+      const scope = (containerRef.current && containerRef.current.querySelector) ? containerRef.current : document;
+      const v = scope.querySelector('video') || document.querySelector('[data-vpcontainer="1"] video');
       if (!v) return;
       if (document.pictureInPictureElement) await document.exitPictureInPicture();
       else if (v.requestPictureInPicture) await v.requestPictureInPicture();
@@ -553,13 +611,25 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
   }, [player, muted, showControls]);
 
   const handleVolSliderPress = useCallback((e) => {
-    // Tap on volume bar to set volume directly
-    const nativeX = e.nativeEvent.locationX;
-    const barW = 80; // matches style width
-    const pct = Math.max(0, Math.min(1, nativeX / barW));
+    // Tap/click on the bar sets volume. RN-web press events carry NO locationX (it was NaN,
+    // which made the slider a dead placeholder, B 2026-06-11): on web derive X from pageX
+    // against the bar's live rect, and use the real width instead of the styled constant.
+    const ne = e.nativeEvent || {};
+    let x = ne.locationX;
+    let barW = 80;
+    if (Platform.OS === 'web' && e.currentTarget && e.currentTarget.getBoundingClientRect) {
+      const rect = e.currentTarget.getBoundingClientRect();
+      barW = rect.width || barW;
+      const pageX = ne.pageX != null ? ne.pageX
+        : (ne.changedTouches && ne.changedTouches[0] && ne.changedTouches[0].pageX);
+      if (pageX != null) x = pageX - rect.left;
+    }
+    if (x == null || isNaN(x)) return;
+    const pct = Math.max(0, Math.min(1, x / barW));
     setVolume(pct);
     try { player.volume = pct; } catch {}
     if (pct > 0 && muted) { setMuted(false); try { player.muted = false; } catch {} }
+    if (pct === 0 && !muted) { setMuted(true); try { player.muted = true; } catch {} }
     showControls();
   }, [player, muted, showControls]);
 
@@ -636,15 +706,21 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
 
   return (
     <View ref={containerRef} dataSet={{vpcontainer: "1"}} style={styles.container}>
-      <VideoView
-        ref={videoViewRef}
-        player={player}
-        style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, width: '100%', height: '100%' }}
-        contentFit="contain"
-        nativeControls={Platform.OS !== "web"}
-        allowsPictureInPicture
-        allowsFullscreen
-      />
+      {/* VHS CLEAN wraps ONLY the video subtree — controls/overlays stay unfiltered */}
+      <View
+        style={StyleSheet.absoluteFill}
+        dataSet={Platform.OS === 'web' ? { vhsclean: String(cleanLevel) } : undefined}
+      >
+        <VideoView
+          ref={videoViewRef}
+          player={player}
+          style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, width: '100%', height: '100%' }}
+          contentFit="contain"
+          nativeControls={Platform.OS !== "web"}
+          allowsPictureInPicture
+          allowsFullscreen
+        />
+      </View>
 
       {/* Custom touch zones + controls only on web. On mobile, the native iOS/Android
           player (nativeControls=true above) handles play/pause, skip, fullscreen, exit. */}
@@ -727,7 +803,9 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
                   color="#fff"
                 />
               </TouchableOpacity>
-              {showVolSlider && (
+              {/* B 2026-06-11 "fill this out": the slider was a 2s flash after keyboard
+                  nudges; on web it now lives permanently beside mute. Tap/click sets level. */}
+              {(Platform.OS === 'web' || showVolSlider) && (
                 <Pressable onPress={handleVolSliderPress} style={styles.volSlider}>
                   <View style={styles.volSliderBg}>
                     <View style={[styles.volSliderFill, { width: `${(muted ? 0 : volume) * 100}%` }]} />
@@ -765,6 +843,8 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
             formatTime={formatTime}
             rate={rate}
             onCycleRate={cycleRate}
+            cleanLevel={cleanLevel}
+            onCycleClean={cycleClean}
           />
         </Animated.View>
       )}

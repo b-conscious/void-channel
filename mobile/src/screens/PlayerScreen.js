@@ -24,6 +24,7 @@ import VideoPlayer from '../components/VideoPlayer';
 import { VoidLoader } from '../components';
 import AddToPlaylistModal from '../components/AddToPlaylistModal';
 import { useGeneration } from '../context/GenerationContext';
+import { useKids } from '../context/KidsContext';
 import { useGame } from '../context/GameContext';
 import { useAuth } from '../context/AuthContext';
 import api from '../api/client';
@@ -78,6 +79,38 @@ function cleanTitle(title) {
   return cleaned;
 }
 
+// Series guess from a raw title — the client twin of the spine's grouping parseTitle.
+// "Celebrity DeathMatch Season 1-6" -> "Celebrity DeathMatch". Lets the MORE OF THIS SHOW
+// rail work the FIRST time anyone opens a show from raw search, before the spine has
+// grouped (the ingest catches it up for everyone after).
+function seriesGuessFromTitle(title) {
+  const t = Array.isArray(title) ? (title[0] || '') : String(title || '');
+  const PATTERNS = [
+    /^(.*?)[\s._-]*s(?:eason)?[\s._-]*\d{1,2}[\s._-]*e(?:p(?:isode)?)?[\s._-]*\d{1,3}\b/i,
+    /^(.*?)[\s._-]*\b\d{1,2}x\d{1,3}\b/i,
+    /^(.*?)[\s._-]*\bseason[\s._-]*\d/i,
+    /^(.*?)[\s._-]*\b(?:episode|ep)[\s._-]*\d/i,
+    /^(.*?)\s*[-–—:]\s*(?:the\s+)?complete\b/i,
+  ];
+  for (const re of PATTERNS) {
+    const m = re.exec(t);
+    if (!m) continue;
+    const name = m[1].replace(/[._-]+/g, ' ').replace(/\s+/g, ' ').replace(/[\s:;,]+$/, '').trim();
+    if (name.replace(/[^a-z0-9]/gi, '').length >= 3) return name;
+  }
+  return null;
+}
+
+// A candidate only counts as a show-mate if its title actually carries the show's name
+// (same token-overlap guard as the kids resolver — no "Bill Nye" grabbing Ghostbusters).
+function titleHasTokens(name, title) {
+  const norm = (x) => String(x || '').toLowerCase().replace(/[^a-z0-9 ]/g, ' ').split(/\s+/).filter((w) => w.length > 2);
+  const n = norm(name);
+  if (!n.length) return false;
+  const t = new Set(norm(Array.isArray(title) ? title[0] : title));
+  return n.filter((w) => t.has(w)).length / n.length >= 0.6;
+}
+
 // Open a share target reliably across platforms.
 // On MOBILE WEB the FB/X "sharer" universal links get intercepted by the installed app, which
 // opens its home feed and drops the link — so we hand off to the native share sheet
@@ -112,7 +145,7 @@ export default function PlayerScreen({ route, navigation }) {
   // Deep-link support: /watch/:id only provides params.id, no full item object.
   // Normal navigation passes a full item object. Handle both.
   const stub = params.item || { id: params.id, title: '', thumbnail: null };
-  const { categoryId, queue, queueIndex, channelLabel, channelCatIds, channelPage } = params;
+  const { categoryId, queue, queueIndex, channelLabel, channelCatIds, channelPage, startAtSeconds, liveSync } = params;
   const insets = useSafeAreaInsets();
   const { width: windowW } = useWindowDimensions();
   const NAV_MARGIN = 0; // top bar is hidden on the Player — full-bleed, no left offset
@@ -127,10 +160,14 @@ export default function PlayerScreen({ route, navigation }) {
     ? Math.min(Math.round(AVAILABLE_W * 9 / 16), Math.round(SCREEN_H * 0.75))
     : Math.round(SCREEN_H * 0.42);
   const { gen } = useGeneration();
+  const { kidsMode } = useKids();
   const { onWatchItem, onContribute, XP_REWARDS } = useGame();
   const { user, isAuthenticated } = useAuth();
   const accent = gen.accentColor;
   const inChannel = Array.isArray(queue) && queue.length > 0;
+  // THE DIAL: real channel surfing shows static between channels. The overlay covers the
+  // player from tune-in until the mid-scene seek lands, then cuts to picture like a TV.
+  const [tuningStatic, setTuningStatic] = useState((!!startAtSeconds && startAtSeconds >= 5) || !!liveSync);
 
   // ── Infinite channel pagination: pre-fetch next batch before the queue runs out ──
   // Like doom-scrolling — the user never sees a loading state, content is always ready.
@@ -170,6 +207,40 @@ export default function PlayerScreen({ route, navigation }) {
     }
   }, []); // Run once on mount
 
+  // ── THE DIAL: tune-in lands mid-scene. One-shot seek to the clock-derived offset as soon
+  // as the player can seek. Never re-seeks (a retry or recovery resuming at the live position
+  // would jump the viewer); polls because VideoPlayer exposes imperatives, not an onReady.
+  // liveSync (kids time-travel TV): the seek target is derived from the video's ACTUAL
+  // duration once known, so a 3-hour tape with no runtime metadata still positions correctly
+  // to the clock. Everyone tuning in at the same minute lands on the same frame.
+  const dialSeekDoneRef = useRef(false);
+  useEffect(() => {
+    const wantsSeek = liveSync || (startAtSeconds && startAtSeconds >= 5);
+    if (!wantsSeek || dialSeekDoneRef.current) return;
+    var tries = 0;
+    // Static safety cap: never block the picture longer than 8s even if readiness never fires
+    var cap = setTimeout(function () { setTuningStatic(false); }, 8000);
+    var t = setInterval(function () {
+      var v = videoRef.current;
+      if (++tries > 66) { clearInterval(t); setTuningStatic(false); return; } // give up after ~20s
+      if (!v || !v.seekTo) return;
+      var d = (v.getDuration && v.getDuration()) || 0;
+      var ct = (v.getCurrentTime && v.getCurrentTime()) || 0;
+      if (!(d > 0) && !(ct > 0)) return; // stream not ready yet
+      // liveSync needs the real duration to mod the clock into it; plain dial uses the fixed offset
+      var target = liveSync ? (d > 0 ? Math.floor((Date.now() / 1000) % d) : -1) : startAtSeconds;
+      if (liveSync && target < 0) return; // wait for duration
+      // Near-end guard: when the real runtime is shorter than the scheduled slot, start over
+      // instead of seeking into the last seconds (auto-advance would instantly hop).
+      if (!(d > 0) || target < d - 10) v.seekTo(target);
+      dialSeekDoneRef.current = true;
+      clearInterval(t);
+      // One beat for the seeked frame to land, then hard-cut from static to picture
+      setTimeout(function () { setTuningStatic(false); }, 350);
+    }, 300);
+    return function () { clearInterval(t); clearTimeout(cap); };
+  }, [startAtSeconds, liveSync]);
+
   // Guard: if no item ID (bad deep link like /watch/ with no id), go home
   useEffect(() => {
     if (!stub.id) {
@@ -203,15 +274,11 @@ export default function PlayerScreen({ route, navigation }) {
     return () => { unsub(); stop(); };
   }, [navigation]);
 
-  // Build an optimistic video URL — Archive.org commonly has a 512Kb MPEG4 at a predictable path.
-  // This lets us start playback almost instantly while the real metadata loads in the background.
-  const guessVideoUrl = useCallback((id) => {
-    if (!id) return null;
-    return `https://archive.org/download/${id}/${id}_512kb.mp4`;
-  }, []);
-
+  // No more optimistic <id>_512kb.mp4 guessing: modern uploads have no such derivative, so
+  // the guess spammed NotSupportedError and read as a broken episode (B's DBZ report). The
+  // Spine's cached item resolution is sub-second warm; the tuning static covers the wait.
   const [item, setItem] = useState(stub);
-  const [videoUrl, setVideoUrl] = useState(stub.videoUrl || guessVideoUrl(stub.id));
+  const [videoUrl, setVideoUrl] = useState(stub.videoUrl || null);
   const [videoReady, setVideoReady] = useState(!!stub.videoUrl); // true if we have a confirmed URL
   const [loading, setLoading] = useState(false); // no longer blocks the whole screen
   const [error, setError] = useState(null);
@@ -224,6 +291,10 @@ export default function PlayerScreen({ route, navigation }) {
   const [infoExpanded, setInfoExpanded] = useState(false);
   const [relatedItems, setRelatedItems] = useState([]);
   const [relatedLoading, setRelatedLoading] = useState(true);
+  // MORE OF THIS SHOW (slice 32): the verified series this item belongs to, episodes in
+  // order. Ref mirrors state so the (deps-frozen) sidebar filter handler reads it live.
+  const [seriesInfo, setSeriesInfo] = useState(null);
+  const seriesRef = useRef(null);
   const [xrayData, setXrayData] = useState({});
   const [xrayTotal, setXrayTotal] = useState(0);
   const [contributeOpen, setContributeOpen] = useState(false);
@@ -375,7 +446,19 @@ export default function PlayerScreen({ route, navigation }) {
         // Tier 2 (~4s): sidebar / rabbit hole — below the fold on desktop
         const relatedTimer = setTimeout(() => {
           if (cancelled) return;
-          api.getRelated(stub.id, 20).then(setRelatedItems).catch(() => {}).finally(() => setRelatedLoading(false));
+          if (!kidsMode) {
+            api.getRelated(stub.id, 20).then(setRelatedItems).catch(() => {}).finally(() => setRelatedLoading(false));
+            // MORE OF THIS SHOW: series membership rail. Verified grouping when the spine
+            // knows the item; otherwise a live TITLE GUESS + search, so the rail works the
+            // first time anyone digs a show out of raw search (B's Celebrity DeathMatch flow).
+            api.getItemSeries(stub.id).then((d) => {
+              if (cancelled) return;
+              const info = d && d.series ? { key: d.series.key, name: d.series.name, items: d.items || [] } : null;
+              // A verified group always wins; never null-overwrite a live guess already shown.
+              if (info || !seriesRef.current) { seriesRef.current = info; setSeriesInfo(info); }
+            }).catch(() => {});
+          }
+          else setRelatedLoading(false);
         }, 4000);
         cleanupTimers.push(relatedTimer);
 
@@ -383,7 +466,7 @@ export default function PlayerScreen({ route, navigation }) {
         const deferTimer = setTimeout(() => {
           if (cancelled) return;
           setCommentsLoading(true);
-          api.getComments(stub.id).then((c) => {
+          if (!kidsMode) api.getComments(stub.id).then((c) => {
             if (!cancelled) setComments(c.comments || []);
           }).catch(() => {}).finally(() => {
             if (!cancelled) setCommentsLoading(false);
@@ -424,13 +507,35 @@ export default function PlayerScreen({ route, navigation }) {
   // If the optimistic URL fails, fall back to the confirmed URL from metadata
   const triedHQRef = useRef(false);
   const skippedRef = useRef(false);
-  // True when the optimistic URL errored BEFORE metadata arrived. When the confirmed URL
-  // lands, auto-apply it — previously the player sat dead waiting for a manual RETRY tap.
-  const preReadyErrorRef = useRef(false);
+  // LIVE SERIES GUESS: when no verified grouping exists, derive the show name from the
+  // RESOLVED item title (route stubs from deep links carry no title) and search for
+  // show-mates. Runs once per item; a verified group arriving later always overrides.
+  const guessTriedRef = useRef(null);
   useEffect(() => {
-    if (preReadyErrorRef.current && !videoReady && item.videoUrl && item.videoUrl !== videoUrl) {
+    if (kidsMode || seriesInfo || !item?.title || guessTriedRef.current === item.id) return;
+    guessTriedRef.current = item.id;
+    const guess = seriesGuessFromTitle(item.title);
+    if (!guess) return;
+    api.searchItems(`"${guess}"`, { rows: 16 }).then((res) => {
+      const hits = (res?.items || res || [])
+        .filter((h) => h && h.id && h.id !== item.id && titleHasTokens(guess, h.title))
+        .slice(0, 10);
+      if (hits.length && !seriesRef.current) {
+        const ginfo = { key: null, name: guess, items: hits, guessed: true };
+        seriesRef.current = ginfo;
+        setSeriesInfo(ginfo);
+      }
+    }).catch(() => {});
+  }, [item, seriesInfo, kidsMode]);
+
+  // Kept for the error handler's pre-ready branch (a stub-provided URL can still fail early).
+  const preReadyErrorRef = useRef(false);
+  // Adopt the confirmed URL the moment metadata lands. With no optimistic guess the player
+  // starts with videoUrl null, so this effect — not an error recovery — is the normal path
+  // from tuning static to picture.
+  useEffect(() => {
+    if (!videoReady && item.videoUrl && item.videoUrl !== videoUrl) {
       preReadyErrorRef.current = false;
-      console.log('[PlayerScreen] Confirmed URL arrived after early error — auto-applying');
       setVideoUrl(item.videoUrl);
       setVideoReady(true);
     }
@@ -470,6 +575,9 @@ export default function PlayerScreen({ route, navigation }) {
     // Skip exactly once so a channel/doom-scroll never gets stuck on a dead video.
     if (skippedRef.current) return;
     skippedRef.current = true;
+    // Dead source: drop the tuning static IMMEDIATELY (don't make the user stare at 8s of
+    // snow on a tape that will never play) — B kept hitting this hang on dead DVD-rip tapes.
+    setTuningStatic(false);
     api.sendWatchEvent({
       item_id: stub.id, item_title: stub.title,
       category_id: categoryId || null, event_type: 'skip', watch_percent: 0,
@@ -482,13 +590,15 @@ export default function PlayerScreen({ route, navigation }) {
     if (autoplay) {
       if (!advanceToNext()) {
         // Related not loaded yet — fetch now and jump to the first suggestion.
-        api.getRelated(stub.id, 10)
+        // KIDS: never hop into raw related content; stop playback cleanly instead.
+        if (!kidsMode) api.getRelated(stub.id, 10)
           .then((items) => { if (items && items.length) navigation.replace('Player', { item: items[0], id: items[0].id }); })
           .catch(() => {});
       }
       return;
     }
-    // Solo with autoplay off: leave the player's "Failed to load — tap to retry" overlay.
+    // Solo (incl. kids tapes): show a clean message instead of a frozen black screen.
+    setError("This recording won't play in the browser. Tap back and pick another.");
   }, [videoReady, item.videoUrl, item.videoUrlHQ, videoUrl, inChannel, autoplay, stub, categoryId, advanceToNext, navigation]);
 
   const toggleWatchlist = useCallback(async () => {
@@ -715,6 +825,17 @@ export default function PlayerScreen({ route, navigation }) {
           channelLabel={inChannel ? channelLabel || "CHANNEL" : undefined}
         />
       )}
+      {/* THE DIAL: between-channels static. Covers the player until the tune-in seek lands. */}
+      {tuningStatic && (
+        <View style={[StyleSheet.absoluteFill, { zIndex: 30, backgroundColor: '#000', pointerEvents: 'none' }]}>
+          <VoidLoader mode="static" size="row" style={{ width: '100%', height: '100%', borderRadius: 0 }} />
+          <View style={{ position: 'absolute', bottom: 28, left: 0, right: 0, alignItems: 'center' }}>
+            <Text style={{ fontFamily: fonts.mono, fontSize: 12, letterSpacing: 3, color: '#ffffff' }}>
+              ▸ TUNING {String(channelLabel || '').toUpperCase()}
+            </Text>
+          </View>
+        </View>
+      )}
       {/* VOIDtv exit logo — CENTERED at the top of the video (interim until the persistent header,
           was colliding with the title top-left). Tap = return to wall + end viewing. box-none so
           only the pill is tappable, not the whole strip. */}
@@ -728,12 +849,19 @@ export default function PlayerScreen({ route, navigation }) {
 
   // ── Sidebar filter chip handler ──
   const handleSidebarFilter = useCallback((filter) => {
+    if (kidsMode) return; // KIDS: the rail's collection/creator fetches reach raw content
     setSidebarFilter(filter);
     if (filter === 'all') { setFilteredItems([]); return; }
     setFilteredLoading(true);
     const colonIdx = filter.indexOf(':');
     const type = filter.slice(0, colonIdx);
     const value = filter.slice(colonIdx + 1);
+    // Series chip: episodes already arrived with the membership lookup — no fetch.
+    if (type === 'series') {
+      setFilteredItems((seriesRef.current && seriesRef.current.items) || []);
+      setFilteredLoading(false);
+      return;
+    }
     const fetcher = type === 'col'
       ? api.searchCollection(value, '', { rows: 20 })
       : api.searchCreator(value, { rows: 20 });
@@ -749,6 +877,11 @@ export default function PlayerScreen({ route, navigation }) {
   // Build filter chip options from item metadata
   const filterChips = [];
   filterChips.push({ key: 'all', label: 'All' });
+  // MORE OF THIS SHOW — leads the chips when the item belongs to a verified series
+  // Verified groups include self in items (need >1); guessed mates already exclude self.
+  if (seriesInfo && seriesInfo.items.length > (seriesInfo.guessed ? 0 : 1)) {
+    filterChips.push({ key: `series:${seriesInfo.key}`, label: `▸ ${seriesInfo.name}` });
+  }
   if (item.collections?.length > 0) {
     item.collections.slice(0, 2).forEach((col) => {
       filterChips.push({ key: `col:${col}`, label: col.replace(/_/g, ' ') });
@@ -825,6 +958,38 @@ export default function PlayerScreen({ route, navigation }) {
         </>
       )}
 
+      {/* MORE OF THIS SHOW — show-mates lead the sidebar (B: "already be searching for
+          like... display some on the right side bar"). Tap hands the mate list over as the
+          queue so auto-advance walks the show. The chip above is the see-more tab. */}
+      {sidebarFilter === 'all' && seriesInfo && seriesInfo.items.length > 0 && (
+        <View style={{ marginBottom: 6 }}>
+          <Text style={{ fontFamily: fonts.monoBold, fontSize: 10, letterSpacing: 2, color: accent, marginBottom: 6 }}>
+            ▸ MORE OF {String(seriesInfo.name).toUpperCase().slice(0, 28)}
+          </Text>
+          {seriesInfo.items.filter((m) => m.id !== item.id).slice(0, 4).map((m, mi, arr) => (
+            <Pressable
+              key={`mate-${m.id}`}
+              onPress={() => {
+                Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+                navigation.replace('Player', {
+                  item: m, id: m.id,
+                  queue: arr, queueIndex: mi, channelLabel: `▸ ${seriesInfo.name}`,
+                });
+              }}
+              style={styles.sidebarRelCard}
+            >
+              <View style={styles.sidebarThumbWrap}>
+                <FastImage uri={m.thumbnail} itemId={m.id} style={styles.sidebarRelThumb} contentFit="cover" priority="low" />
+              </View>
+              <View style={styles.sidebarRelInfo}>
+                <Text style={styles.sidebarRelTitle} numberOfLines={2}>{cleanTitle(m.title)}</Text>
+                <Text style={styles.sidebarRelMeta}>{m.year || ''}</Text>
+              </View>
+            </Pressable>
+          ))}
+        </View>
+      )}
+
       {/* Related list — SINGLE column (full sidebar width) so titles/descriptions read fully
           instead of being crushed into a 2-column grid ("!", "198 O"…). */}
       <View>
@@ -833,6 +998,15 @@ export default function PlayerScreen({ route, navigation }) {
           key={rel.id}
           onPress={() => {
             Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+            // Series chip active: hand the EPISODE LIST over as the player queue, so
+            // auto-advance walks the show in broadcast order from the tapped episode.
+            if (sidebarFilter.startsWith('series:') && seriesInfo) {
+              navigation.replace('Player', {
+                item: rel, id: rel.id,
+                queue: sidebarItems, queueIndex: idx, channelLabel: `▸ ${seriesInfo.name}`,
+              });
+              return;
+            }
             navigation.replace('Player', { item: rel, id: rel.id });
           }}
           style={styles.sidebarRelCard}
@@ -864,6 +1038,7 @@ export default function PlayerScreen({ route, navigation }) {
       {sidebarFilter === 'all' && sidebarItems.length > 0 && (
         <Pressable
           onPress={() => {
+            if (kidsMode) return;
             setRelatedLoading(true);
             setRelatedItems([]);
             api.getRelated(item.id, 20).then(setRelatedItems).catch(() => {}).finally(() => setRelatedLoading(false));
@@ -1406,8 +1581,8 @@ export default function PlayerScreen({ route, navigation }) {
           </View>
         )}
 
-        {/* ── Comments Section ── */}
-        <View style={styles.commentsSection}>
+        {/* ── Comments Section (hidden entirely in KIDS mode) ── */}
+        {!kidsMode && <View style={styles.commentsSection}>
           <TouchableOpacity
             onPress={() => setCommentsExpanded((v) => !v)}
             style={styles.commentsSectionHeader}
@@ -1526,7 +1701,7 @@ export default function PlayerScreen({ route, navigation }) {
               )}
             </View>
           )}
-        </View>
+        </View>}
 
         {/* ── Rabbit Hole — skeleton while loading on mobile ── */}
         {!IS_DESKTOP && relatedLoading && relatedItems.length === 0 && (
@@ -1615,19 +1790,21 @@ export default function PlayerScreen({ route, navigation }) {
       {IS_DESKTOP ? (
         /* ── DESKTOP: YouTube layout — video+info left, sidebar right, side-by-side ── */
         <View style={styles.desktopRow}>
-          <View style={[styles.desktopMain, { width: AVAILABLE_W, flexGrow: 0, flexShrink: 0 }]}>
+          {/* ONE scroll for video + info (B: the pinned video forced a sliver view of
+              comments). The video scrolls away with the page; info gets full height. */}
+          <ScrollView
+            style={[styles.desktopMain, { width: AVAILABLE_W, flexGrow: 0, flexShrink: 0 }]}
+            contentContainerStyle={{ paddingBottom: 40 }}
+            bounces={false}
+            showsVerticalScrollIndicator={false}
+          >
             <View style={[styles.playerArea, { height: VIDEO_H }]}>
               {videoInner}
             </View>
-            <ScrollView
-              style={styles.infoPanel}
-              contentContainerStyle={{ paddingBottom: 40 }}
-              bounces={false}
-              showsVerticalScrollIndicator={false}
-            >
+            <View style={styles.infoPanel}>
               {infoPanelContent}
-            </ScrollView>
-          </View>
+            </View>
+          </ScrollView>
           {SidebarContent}
         </View>
       ) : (

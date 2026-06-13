@@ -22,6 +22,8 @@ const views = require("./views");
 const { optionalAuth } = require("./supabase");
 const authRoutes = require("./auth");
 const syncRoutes = require("./sync");
+const { router: matureGateRoutes, gateVerified } = require("./maturegate");
+const rateLimit = require("express-rate-limit");
 const xrayRoutes = require("./contributions");
 const embedRoutes = require("./embed");
 const playlistRoutes = require("./playlists");
@@ -60,6 +62,24 @@ function categoriesHaveContent(cats) {
 
 app.use(cors());
 app.use(express.json());
+
+// ── Per-IP rate limiting (slice 16, the Move 3 prerequisite). Behind Cloudflare/Render the
+// client IP arrives via X-Forwarded-For, hence trust proxy. Budgets are generous for real
+// use and hostile to scrapers/relay-hammering; the watchlist's "protect the bill and the
+// Archive relationship" item. 429s carry standard headers.
+app.set("trust proxy", 1);
+app.use("/api/", rateLimit({
+  windowMs: 5 * 60 * 1000, max: 600,
+  standardHeaders: true, legacyHeaders: false,
+}));
+app.use("/api/search", rateLimit({
+  windowMs: 5 * 60 * 1000, max: 120,
+  standardHeaders: true, legacyHeaders: false,
+}));
+app.use("/api/auth", rateLimit({
+  windowMs: 5 * 60 * 1000, max: 40,
+  standardHeaders: true, legacyHeaders: false,
+}));
 
 // ── Static assets (TV static loading videos etc.) ─────────
 // Serve /static/* from backend/public/static with aggressive CDN caching
@@ -162,6 +182,9 @@ app.use((req, res, next) => {
   else if ((route === 'hearts' || route === 'views') && (sub === 'count' || sub === 'stats'))
                                                                  edge('s-maxage=300, stale-while-revalidate=60');     // 5m
   else if (route === 'banner')                                   edge('s-maxage=60');                                 // 1m
+  else if (route === 'theme')                                    edge('s-maxage=300, stale-while-revalidate=60');     // 5m — editorial window
+  else if (route === 'library')                                  edge('s-maxage=1200, stale-while-revalidate=600');   // 20m — pool-backed, matches categories
+  else if (route === 'catalog')                                  edge('s-maxage=1200, stale-while-revalidate=600');   // 20m — the verified catalog
   else if (route === 'random')                                   res.set('Cache-Control', 'no-store');                // never cache
 
   next();
@@ -182,6 +205,7 @@ app.use((req, res, next) => {
 
 app.use("/api/auth", authRoutes);
 app.use("/api/sync", syncRoutes);
+app.use(matureGateRoutes); // slice 16: PIN set/verify for the mature gate
 app.use("/api/xray", xrayRoutes);
 
 // Embed / OG-meta pages (served at root, not /api)
@@ -189,6 +213,9 @@ app.use(embedRoutes);
 
 // Optional auth on all remaining routes — sets req.user if token present
 app.use(optionalAuth);
+
+// JOB_14: editorial theme window (config-file driven, B edits without deploys)
+app.use(require("./themes"));
 
 // Phase 2: Playlists, Subscriptions, Trending, Recommendations
 app.use("/api/playlists", playlistRoutes);
@@ -216,10 +243,300 @@ app.get("/api/banner", (req, res) => {
  * Returns all categories with items — the big initial payload.
  * This is what populates the home screen.
  */
+// VOIDtv KIDS (slice 13): the hard gate is an ALLOWLIST, fail closed. With ?kids=1 the
+// payload contains ONLY these crates; everything else does not exist for the client.
+// Conservative on purpose: machine-picked pools cannot promise <=11-safe (the Censored
+// Eleven class lives in PD cartoon pools), so Betty Boop and Looney Tunes stay out until
+// the curation commons' human kid-verified tag exists. B reviews and tunes this list.
+// B's revision 2026-06-11: kids = MODERN only ("modern kids cant even see the black and
+// white"). Classic show crates are out; Archive crates carry a hard 1980+ item floor where
+// unknown years DROP (fail closed). NASA and Commons skip the floor: inherently modern.
+// v4 (B: "nature and other things bleeding"): the broad MACHINE crates leak — nature_wildlife
+// carries predation/mating/death, cartoons=animationandcartoons is ALL animation (adult/anime
+// included). Neither is kid-safe by construction. Kids now stands on the DEFENSIBLE sources
+// only: pbs_kids (creator:"PBS Kids", kid-targeted by the tag), saturday_morning (kid-broadcast
+// query), and the vouched lanes (kids_picks, kids_channel) where B's judgment is the gate.
+// v5 (B: "fix"): maximum safety. saturday_morning dropped too — even kid-broadcast queries
+// are machine-broad. Kids stands ONLY on pbs_kids (creator:"PBS Kids", the one defensible
+// machine source) and the vouched lanes (kids_picks, kids_channel) where B's judgment gates.
+// B: "keep what we have found is good in our accepted" — pbs_kids + saturday_morning stay
+// as accepted machine crates, ALONGSIDE the vouched lanes (network channels, picks, sources).
+const KIDS_ALLOWLIST = new Set([
+  'pbs_kids', 'saturday_morning', 'kids_picks',
+]);
+
+// B's Safe Shelf (kids-picks.json): hand-vouched identifiers resolved into a kids crate.
+// Config re-read on TTL like the theme desk; resolution leans on getItem's own 6h cache.
+const KIDS_PICKS_PATH = require("path").join(__dirname, "kids-picks.json");
+let _kidsPicks = { t: 0, cat: null };
+// Resolve ONE Safe Shelf entry: try it as an Archive identifier first; if that does not
+// resolve, treat it as a TITLE (B said "links OR names") and take the top search hit.
+// A name only resolves to a title that ACTUALLY MATCHES it. Without this, "Bill Nye Outer
+// Space" grabbed Filmation's Ghostbusters and "Berenstain Bears" grabbed Unus Annus (adult)
+// off the top-downloaded hit. On a kids shelf that is a catastrophe; require token overlap.
+// Wiki backstop: drop any resolved kids item that Wikidata FLAGS as a never-kids class
+// (YouTube channel, adult). Uses the 24h-cached signal; fails OPEN (unknown/error serves,
+// since B's vouch is the gate) so a Wikidata outage never blanks the kids wall.
+const { wikiSignalBest, cachedSignalBest } = require("./wikigate");
+// Serve backstop: CACHED verdicts only (no network) so it never fails open under load. It
+// drops anything Wikidata has ALREADY flagged (durable on disk). /check does the live lookups
+// and warms the cache, so running it on new content arms this gate permanently.
+// B's blocklist (2026-06-12): YouTube mirror accounts are never kid-vouchable — the account
+// name says nothing about what's inside. Matched against id, creator AND title so the cut
+// holds however the item surfaces. Extend the list as B flags more.
+const KIDS_BLOCK = /supercookie|actinf/i; // actinf: ML lecture streams riding the saturday_morning crate (B kill, 2026-06-12)
+function dropWikiFlagged(items) {
+  return (items || []).filter((it) => {
+    if (KIDS_BLOCK.test(it.id) || KIDS_BLOCK.test(String(it.creator || "")) || KIDS_BLOCK.test(String(it.title || ""))) {
+      console.warn("[kids] blocklisted, dropped:", it.id);
+      return false;
+    }
+    if (cachedSignalBest(it.title) === "flagged") { console.warn("[kids] wiki-flagged, dropped:", it.title); return false; }
+    return true;
+  });
+}
+
+function titleMatches(query, title) {
+  const norm = (x) => String(x || "").toLowerCase().replace(/[^a-z0-9 ]/g, " ").split(/\s+/).filter((w) => w.length > 2);
+  const q = norm(query);
+  if (!q.length) return true;
+  const t = new Set(norm(title));
+  const hit = q.filter((w) => t.has(w)).length;
+  return hit / q.length >= 0.6; // a strong majority of the name's words must be in the title
+}
+
+async function resolvePick(entry) {
+  const s = String(entry || "").trim();
+  if (!s) return null;
+  // An EXACT identifier (no spaces) is a precise vouch and resolves directly. A NAME must
+  // verify: take the first PLAYABLE ranked hit whose title actually matches. No match =
+  // nothing (an empty slot beats the wrong item, and a kid must never get Unus Annus).
+  // skipVet: vouched kids content is B-APPROVED already. The slice-36 playability vet adds
+  // a ranged GET per uncached file; a 10-channel build fired ~480 IA requests at once,
+  // tripped rate-limiting, and the empty result got cached for 10m (P1, the missing kids
+  // wall). Vouched content trusts B's curation; the player graceful-skip + BAD_ENCODE/DEAD_T
+  // heuristics remain the safety net for the rare dead vouched tape.
+  if (!/\s/.test(s)) {
+    const direct = await archive.getItem(s, { skipVet: true }).catch(() => null);
+    return (direct && direct.videoUrl) ? direct : null;
+  }
+  const hits = await archive.search(s, 8, 1, "downloads desc").catch(() => null);
+  for (const h of (Array.isArray(hits) ? hits : [])) {
+    if (!h || !h.id || !titleMatches(s, h.title)) continue;
+    const full = await archive.getItem(h.id, { skipVet: true }).catch(() => null);
+    if (full && full.videoUrl) return full;
+  }
+  return null;
+}
+
+async function kidsPicksCategory() {
+  if (Date.now() - _kidsPicks.t < 60 * 1000) return _kidsPicks.cat;
+  _kidsPicks.t = Date.now();
+  try {
+    const cfg = JSON.parse(require("fs").readFileSync(KIDS_PICKS_PATH, "utf8"));
+    const entries = (cfg.ids || []).slice(0, 100);
+    if (!entries.length) { _kidsPicks.cat = null; return null; }
+    const items = await dropWikiFlagged((await Promise.all(entries.map((e) => resolvePick(e).catch(() => null)))).filter(Boolean));
+    _kidsPicks.cat = items.length ? {
+      id: "kids_picks", group: "type", mature: false,
+      name: cfg.name || "THE SAFE SHELF",
+      subtitle: cfg.subtitle || "picked by hand",
+      items,
+    } : null;
+  } catch (e) { /* keep last good */ }
+  return _kidsPicks.cat;
+}
+const KIDS_NO_FLOOR = new Set([]);
+const KIDS_YEAR_FLOOR = 1980;
+const kidsFilter = (cats) => (Array.isArray(cats) ? cats : [])
+  .filter((c) => c && KIDS_ALLOWLIST.has(c.id) && !c.mature)
+  // dropWikiFlagged here too: the machine crates were the one kids lane that skipped the
+  // backstop (blocklist + cached wiki verdicts) — SupercookieArchives leaked through it.
+  .map((c) => KIDS_NO_FLOOR.has(c.id) ? ({ ...c, items: dropWikiFlagged(c.items) }) : ({
+    ...c,
+    items: dropWikiFlagged((c.items || []).filter((it) => it && it.year && it.year >= KIDS_YEAR_FLOOR)),
+  }))
+  .filter((c) => (c.items || []).length > 0);
+// B's vouched picks lead the kids wall when present (async resolve, never blocks)
+// KIDS time-travel TV (slice 17): the vouched Saturday-morning blocks as one "live" channel.
+const KIDS_SAT_PATH = require("path").join(__dirname, "kids-saturday.json");
+// One tape per channel per day, played AS IF live. We resolve ONLY the day-rotated block
+// (not all 231 tapes), so each channel costs ~1 getItem. The full block list lives in
+// kids-saturday.json; the day rotation keeps everyone synced and changes the airing daily.
+// Resolve a channel's tapes into a browse row (B: "load the rest into the rows"). Capped,
+// parallel, wiki-backstopped. getItem is cached (6h) so repeat builds are cheap.
+// Resolve an array through `fn` at most `limit` at a time. Full Promise.all over 240 kids
+// ids (10 channels x 24) stormed IA into rate-limiting and blanked the wall (P1). A small
+// concurrency cap keeps peak IA load gentle so every channel resolves.
+async function mapLimit(arr, limit, fn) {
+  const out = new Array(arr.length);
+  let i = 0;
+  async function worker() {
+    while (i < arr.length) {
+      const idx = i++;
+      out[idx] = await fn(arr[idx], idx).catch(() => null);
+    }
+  }
+  await Promise.all(Array.from({ length: Math.min(limit, arr.length) }, worker));
+  return out;
+}
+
+async function resolveChannelBlocks(blocks, cap) {
+  // Resolve extra so cutting still fills the row. B: cut anything "seconds long" (commercials,
+  // bumpers, launch spots that got harvested) -> keep only real broadcasts. Dedupe by id
+  // (was throwing React duplicate-key warnings when a tape appeared twice).
+  const ids = (Array.isArray(blocks) ? blocks : []).slice(0, (cap || 12) * 2);
+  const items = (await mapLimit(ids, 5, (id) => resolvePick(id))).filter(Boolean);
+  // Runtime metadata is usually missing on IA, so a title heuristic carries the load: cut the
+  // seconds-long ephemera (commercials, promos, bumpers, launch spots) UNLESS the title also
+  // signals a long broadcast ("full episodes", "broadcast", "morning"...).
+  const SHORT_T = /\b(commercials?|promos?|bumpers?|launch|tv ?spots?|idents?|teasers?|adverts?|station ?id|intro|opening|credits)\b/i;
+  const LONG_T = /\b(full|broadcast|episodes?|marathon|block|morning|hour|complete|stream|hours?)\b/i;
+  // Uploader re-encodes (codec tags in the id) that IA has no playable derivative for and
+  // that throw NotSupportedError. The real broadcast tapes carry no codec tags. Cut by id.
+  const BAD_ENCODE = /(h-?264|x-?26[45]|hevc|pdtv|hdtv|web-?dl|bd-?rip|dvd-?rip|\d{3,4}p|\d+fps|\d+kbit|aac-sx|videoplayback)/i;
+  // Dead/empty DVD-rip artifacts that resolve a URL but hang the player (B: "the intro to the
+  // dvd rips and such that are empty but hang the media if selected"). Cut unconditionally.
+  const DEAD_T = /\b(dvd ?menu|main ?menu|disc ?menu|fbi ?warning|previews?|trailers? ?reel|opening ?logos?|disc ?\d|menu ?screen|interlaced ?\d)\b/i;
+  const seen = new Set();
+  const kept = [];
+  for (const it of items) {
+    if (seen.has(it.id)) continue;
+    seen.add(it.id);
+    if (BAD_ENCODE.test(it.id)) continue; // re-encode with no playable derivative
+    const t = String(it.title || '');
+    if (DEAD_T.test(t)) continue; // empty menu/intro that hangs the player
+    const tooShort = (it.runtime != null && it.runtime > 0 && it.runtime < 180) || (SHORT_T.test(t) && !LONG_T.test(t));
+    if (tooShort) continue;
+    kept.push(it);
+    if (kept.length >= (cap || 12)) break;
+  }
+  return dropWikiFlagged(kept);
+}
+
+let _kidsSat = { t: 0, cats: [] };
+async function kidsSaturdayChannels() {
+  if (Date.now() - _kidsSat.t < 10 * 60 * 1000 && _kidsSat.cats.length) return _kidsSat.cats; // 10m, but only when we actually have channels
+  try {
+    const cfg = JSON.parse(require("fs").readFileSync(KIDS_SAT_PATH, "utf8"));
+    // New shape: channels:[{name,blocks}]. Legacy shape: {blocks:[]} = one SATURDAY MORNING.
+    const channels = Array.isArray(cfg.channels) ? cfg.channels
+      : (Array.isArray(cfg.blocks) && cfg.blocks.length ? [{ name: cfg.name || "SATURDAY MORNING", blocks: cfg.blocks }] : []);
+    const out = [];
+    for (const ch of channels) {
+      const items = await resolveChannelBlocks(ch.blocks, 12);
+      if (items.length) out.push({
+        id: "kids_channel_" + String(ch.name).replace(/[^a-z0-9]+/gi, "_").toLowerCase(),
+        group: "type", mature: false, live: true, name: ch.name, subtitle: "time travel TV", items,
+      });
+    }
+    // Show best-so-far immediately (a partial build still beats a blank wall), but ARM the
+    // 10m cache ONLY on a FULL build. A partial result (storm dropped channels) keeps t
+    // un-advanced from the last full lock, so the next request retries and fills the rest;
+    // once all channels resolve it locks for 10m. Never regress a fuller cache to a thinner one.
+    if (out.length >= _kidsSat.cats.length) _kidsSat.cats = out;
+    if (out.length >= channels.length) _kidsSat.t = Date.now();
+  } catch (e) { /* keep last good */ }
+  return _kidsSat.cats;
+}
+
+// KIDS SOURCES (B's drop-folder): each backend/kids-sources/*.json is a vouched IA page
+// turned into its own kids row. Handles raw Advanced-Search JSON, {identifiers:[]}, {ids:[]},
+// or a bare array. Resolution + the titleMatches/playable guards are shared with resolvePick.
+const KIDS_SOURCES_DIR = require("path").join(__dirname, "kids-sources");
+function extractSourceIds(json) {
+  if (Array.isArray(json)) return json.map((x) => (typeof x === "string" ? x : (x && (x.identifier || x.id)))).filter(Boolean);
+  if (!json || typeof json !== "object") return [];
+  if (Array.isArray(json.identifiers)) return json.identifiers;
+  if (Array.isArray(json.ids)) return json.ids;
+  if (json.response && Array.isArray(json.response.docs)) return json.response.docs.map((d) => d.identifier).filter(Boolean);
+  if (Array.isArray(json.docs)) return json.docs.map((d) => d && (d.identifier || d.id)).filter(Boolean);
+  return [];
+}
+function slugFile(name) { return "kidsrc_" + String(name).replace(/\.json$/i, "").replace(/[^a-z0-9]+/gi, "_").toLowerCase(); }
+
+async function readKidsSourceFiles() {
+  const fs = require("fs");
+  let files = [];
+  try { files = fs.readdirSync(KIDS_SOURCES_DIR).filter((f) => /\.json$/i.test(f) && !f.startsWith("_")); } catch (e) { return []; }
+  return files.map((f) => {
+    try {
+      const json = JSON.parse(fs.readFileSync(require("path").join(KIDS_SOURCES_DIR, f), "utf8"));
+      return { file: f, name: (json && json.name) || f.replace(/\.json$/i, ""), subtitle: (json && json.subtitle) || "", ids: extractSourceIds(json).slice(0, 80) };
+    } catch (e) { return { file: f, name: f, subtitle: "", ids: [], error: e.message }; }
+  });
+}
+
+let _kidsSrc = { t: 0, cats: [] };
+async function kidsSourceCategories() {
+  if (Date.now() - _kidsSrc.t < 60 * 1000) return _kidsSrc.cats;
+  _kidsSrc.t = Date.now();
+  try {
+    const files = await readKidsSourceFiles();
+    const cats = [];
+    for (const f of files) {
+      if (!f.ids.length) continue;
+      const items = await dropWikiFlagged((await Promise.all(f.ids.map((id) => resolvePick(id).catch(() => null)))).filter(Boolean));
+      if (items.length) cats.push({ id: slugFile(f.file), group: "type", mature: false, name: f.name, subtitle: f.subtitle, items });
+    }
+    _kidsSrc.cats = cats;
+  } catch (e) { /* keep last good */ }
+  return _kidsSrc.cats;
+}
+
+async function kidsShape(cats) {
+  const base = kidsFilter(cats);
+  // kids-sources/ is a PURE INBOX (B's ruling 2026-06-12): his extension drops EVERY batch
+  // there — kids, normal, adult alike — so the folder must never auto-serve to the kids
+  // wall. Worked batches move into kids-saturday.json (or their lane) and _raw/. The /check
+  // endpoint still reads the folder; it is the inbox's vetting tool.
+  const [picks, channels] = await Promise.all([kidsPicksCategory(), kidsSaturdayChannels()]);
+  // network channels lead (the marquee), then B's hand picks, then pools
+  return [...(channels || []), picks, ...base].filter(Boolean);
+}
+
+// CHECK a kids-source page before trusting it: per file, what resolved (eyeball the titles
+// for safety) and what failed. B runs this to confirm a page is kid-safe AND playable.
+app.get("/api/kids-sources/check", async (req, res) => {
+  res.set("Cache-Control", "no-store");
+  try {
+    const files = await readKidsSourceFiles();
+    const report = [];
+    for (const f of files) {
+      const resolved = [];
+      const failed = [];
+      for (const id of f.ids) {
+        const item = await resolvePick(id).catch(() => null);
+        if (item && item.videoUrl) {
+          const wiki = await wikiSignalBest(item.title).catch(() => ({ signal: "unknown" }));
+          resolved.push({ id, title: item.title, wiki: wiki.signal }); // confirmed | flagged | unknown
+        } else failed.push(id);
+      }
+      const counts = resolved.reduce((a, r) => (a[r.wiki] = (a[r.wiki] || 0) + 1, a), {});
+      report.push({ file: f.file, name: f.name, total: f.ids.length, wikiCounts: counts, resolved, failed, parseError: f.error || null });
+    }
+    res.json({ dir: "backend/kids-sources", files: report });
+  } catch (err) {
+    res.status(500).json({ error: String(err.message || err).slice(0, 200) });
+  }
+});
+
 app.get("/api/categories", async (req, res) => {
   try {
     const shuffle = req.query.shuffle === "true";
     const refresh = req.query.refresh === "true";
+    const kids = req.query.kids === "1";
+    // Slice 16 ENFORCEMENT: mature categories ride the payload ONLY with a PIN-verified
+    // gate token. Until now the client politely hid them; now the server withholds them.
+    const matureOk = gateVerified(req);
+    // A gated (mature-bearing) response must NEVER land in the shared edge cache: same URL,
+    // different audience. Private + no-store overrides the CDN header middleware.
+    if (matureOk) res.set("Cache-Control", "private, no-store");
+    const shape = async (cats) => {
+      const base = Array.isArray(cats) ? cats : [];
+      if (kids) return kidsShape(base); // allowlist + floor + B's Safe Shelf on top
+      return matureOk ? base : base.filter((c) => c && !c.mature);
+    };
     const gen = parseGen(req.query.gen);   // generational era-lean (null = no lean / legacy clients)
 
     // The heavy fetch is GEN-AGNOSTIC — ONE shared payload (warmed). The per-gen era-lean is a cheap
@@ -232,7 +549,7 @@ app.get("/api/categories", async (req, res) => {
     // Fast path: already-computed per-gen (or base) payload
     if (!shuffle && !refresh) {
       const cached = await cache.get(genKey);
-      if (cached) { res.set("X-Cache", "HIT"); return res.json(cached); }
+      if (cached) { res.set("X-Cache", "HIT"); return res.json(await shape(cached)); }
     }
 
     // Get the shared base payload: cache → fetch once → last-known-good (never blank the app).
@@ -253,7 +570,7 @@ app.get("/api/categories", async (req, res) => {
       if (gen && !shuffle) { lastGoodCategories[gen] = out; cache.set(genKey, out, 1200); }
       res.set("X-Cache", shuffle ? "BYPASS" : "MISS");
       if (shuffle) res.set("Cache-Control", "no-store"); // bypass CDN for shuffled results
-      return res.json(out);
+      return res.json(await shape(out));
     }
 
     res.set("X-Cache", "EMPTY");
@@ -385,7 +702,21 @@ app.get("/api/search", async (req, res) => {
     // Optional explicit sort (the "re-roll" button); whitelist-validated, else ignored. In the key
     // so each re-roll is its own cache entry instead of serving the previous sort's results.
     const reqSort = SEARCH_SORTS.has(req.query.sort) ? req.query.sort : null;
-    const cacheKey = `search:${q}:${categoryId || ""}:${collectionId || ""}:${creatorQuery || ""}:${page}:${rows}:${minDuration}:${maxDuration}:${reqSort || ""}`;
+    // P4 (B: "stale search results"): a plain text query used a FIXED downloads-desc sort, so
+    // searching "X" returned the identical top forever. Rotate the default sort over a 6h
+    // bucket keyed by the query — stable within a session (pagination stays consistent),
+    // fresh across time. Quality-biased sorts only (no recency/year, which surface fresh
+    // junk); relevance is preserved because the query still constrains every result. Explicit
+    // ?sort (re-roll) and category/collection/creator browsing keep their intended order.
+    const SEARCH_ROT = ['downloads desc', 'week desc', 'month desc', 'avg_rating desc'];
+    let qRotSort = null;
+    if (!reqSort && hasQ && !categoryId && !collectionId && !creatorQuery) {
+      const bucket = Math.floor(Date.now() / (6 * 60 * 60 * 1000));
+      let h = bucket >>> 0;
+      for (const ch of q) h = (Math.imul(h, 31) + ch.charCodeAt(0)) >>> 0;
+      qRotSort = SEARCH_ROT[h % SEARCH_ROT.length];
+    }
+    const cacheKey = `search:${q}:${categoryId || ""}:${collectionId || ""}:${creatorQuery || ""}:${page}:${rows}:${minDuration}:${maxDuration}:${reqSort || qRotSort || ""}`;
 
     const cached = await cache.get(cacheKey);
     if (cached) {
@@ -432,6 +763,8 @@ app.get("/api/search", async (req, res) => {
     } else if (!sortOrder && categoryId) {
       const cat = archive.CATEGORIES.find((c) => c.id === categoryId);
       sortOrder = cat?.sort || 'downloads desc';
+    } else if (!sortOrder && qRotSort) {
+      sortOrder = qRotSort; // P4 rotated default for plain text queries
     }
 
     const items = await archive.search(searchQuery, rows, page, sortOrder);
@@ -472,7 +805,10 @@ app.get("/api/shorts", async (req, res) => {
     // the pools contain hour-long COMPILATION tapes ("...Commercial Collection", "Bumpers"),
     // full movies mislabeled as trailers, and multi-part episodes — none of which are snacks.
     const COMPILATION_RE = /compilation|collection|complete|full[ -](movie|film|show|episode)|marathon|season|episodes?\b|\b\d+\s*-?\s*parter\b|bumpers|supercut|mixtape|hours? of|w\/o\/c|original commercials|aircheck|off[- ]air|broadcast|recording|commercial breaks|all trailers/i;
-    const NSFW_TITLE_RE = /emmanuelle|erotic|nude|naked|xxx|porn|\bsex\b|softcore|sensual/i;
+    // Adult-BRAND + marker screen (P2: "Playboy TV Promo" slipped onto the ungated wall via
+    // the commercials pool's \bpromo\b keep — the old generic-word regex missed brand names).
+    // Shared corral screen; items stay findable in search + behind the 18+ gate.
+    const NSFW_TITLE_RE = archive.MATURE_TITLE_RE;
     // HEAVILY post-1975 (Bryan): the two MAIN pools are year-clause-bound ≥1975 (4-digit years
     // compare correctly even as strings; items missing `year` drop out of the mains — intended).
     // Validated depth: commercials ≥1975 = 5.8k, trailers ≥1975 = 50k.
@@ -551,12 +887,50 @@ app.get("/api/item/:identifier", async (req, res) => {
     }
 
     const item = await archive.getItem(identifier);
-    cache.set(cacheKey, item, 21600); // 6 hours
+    // Fallbacks (metadata fetch flaked) heal in 60s; real metadata is static, 6h.
+    cache.set(cacheKey, item, item.fallback ? 60 : 21600);
+    // THE HUNT FEEDS THE CATALOG: every successfully opened item gets pooled + grouped in
+    // the spine (fire-and-forget). Opening is the curation signal — raw search results are
+    // never ingested wholesale.
+    if (process.env.SPINE_URL && !item.fallback && item.videoUrl) {
+      fetch(`${process.env.SPINE_URL}/catalog/ingest`, {
+        method: "POST",
+        headers: { "content-type": "application/json", "x-spine-key": process.env.SPINE_ADMIN_KEY || "void-spine-dev" },
+        body: JSON.stringify({ item: {
+          id: item.id, title: item.title, description: item.description, year: item.year,
+          creator: item.creator, downloads: item.downloads, runtime: item.duration, subjects: item.subjects,
+        } }),
+      }).catch(() => {});
+    }
     res.set("X-Cache", "MISS");
     res.json(item);
   } catch (err) {
     console.error(`[/api/item/${req.params.identifier}]`, err);
     res.status(500).json({ error: "Failed to fetch item" });
+  }
+});
+
+/**
+ * GET /api/item/:identifier/series — player rail "more of this show": the verified series
+ * this item belongs to (spine grouping, conf >= 0.85) plus its episodes in broadcast order.
+ * { series: null } when unknown or the spine is down — the rail simply doesn't render.
+ */
+app.get("/api/item/:identifier/series", async (req, res) => {
+  try {
+    const { identifier } = req.params;
+    const cacheKey = `itemseries:${identifier}`;
+    const cached = await cache.get(cacheKey);
+    if (cached) { res.set("X-Cache", "HIT"); return res.json(cached); }
+    let data = { series: null };
+    if (process.env.SPINE_URL) {
+      const r = await fetch(`${process.env.SPINE_URL}/catalog/item/${encodeURIComponent(identifier)}/series`);
+      if (r.ok) data = await r.json();
+    }
+    cache.set(cacheKey, data, 3600); // 1h — grouping changes at sync cadence
+    res.set("X-Cache", "MISS");
+    res.json(data);
+  } catch (err) {
+    res.json({ series: null }); // rail is optional; never break the player
   }
 });
 
@@ -673,8 +1047,64 @@ app.get("/api/views/stats", (req, res) => {
 
 // ── Health Check ───────────────────────────────────────────
 
-app.get("/health", (req, res) => {
-  res.json({ status: "ok", uptime: process.uptime() });
+// Health now reports SPINE REACHABILITY (P8): the spine dying silently blanked the whole
+// wall + search because spineGet degrades to empty with no signal. A 1.5s ping surfaces it
+// so monitoring (and the loop/babysit flows) catch a dead spine immediately instead of via
+// a blank wall. degraded=true when a configured spine is unreachable.
+app.get("/health", async (req, res) => {
+  let spine = null;
+  if (process.env.SPINE_URL) {
+    spine = "down";
+    try {
+      const ctrl = new AbortController();
+      const t = setTimeout(() => ctrl.abort(), 1500);
+      const r = await fetch(`${process.env.SPINE_URL}/health`, { signal: ctrl.signal });
+      clearTimeout(t);
+      if (r.ok) spine = "up";
+    } catch (e) { spine = "down"; }
+  }
+  res.json({ status: "ok", uptime: process.uptime(), spine, degraded: spine === "down" });
+});
+
+// THE LIBRARY (slice 11): instant filtered browse over the Spine pools. When the Spine is
+// not wired (prod before cutover), reply with a fallback flag so the client quietly uses
+// the live composed search instead — clunkier but never broken.
+app.get("/api/library", async (req, res) => {
+  const spineUrl = process.env.SPINE_URL;
+  if (!spineUrl) return res.json({ fallback: "live", total: 0, items: [] });
+  try {
+    const qs = new URLSearchParams(req.query).toString();
+    const r = await fetch(`${spineUrl.replace(/\/$/, "")}/library?${qs}`);
+    if (!r.ok) throw new Error(`spine ${r.status}`);
+    res.json(await r.json());
+  } catch (err) {
+    console.warn("[/api/library]", err.message);
+    res.json({ fallback: "live", total: 0, items: [] });
+  }
+});
+
+// THE CATALOG (slice 12): movies/series destinations, same Spine proxy + fallback shape.
+app.get("/api/catalog/*", async (req, res) => {
+  const spineUrl = process.env.SPINE_URL;
+  if (!spineUrl) return res.json({ fallback: "live", total: 0, items: [] });
+  try {
+    const path = req.path.replace(/^\/api/, "");
+    const qs = new URLSearchParams(req.query).toString();
+    const r = await fetch(`${spineUrl.replace(/\/$/, "")}${path}${qs ? "?" + qs : ""}`);
+    if (!r.ok) throw new Error(`spine ${r.status}`);
+    res.json(await r.json());
+  } catch (err) {
+    console.warn("[/api/catalog]", err.message);
+    res.json({ fallback: "live", total: 0, items: [] });
+  }
+});
+
+// JOB_19 version handshake: the value changes on every deploy/restart, the client polls it
+// and offers "new version, tap to refresh" — killing the stale-bundle bug class for users.
+const SERVER_VERSION = `${require("./package.json").version}+${Date.now()}`;
+app.get("/api/version", (req, res) => {
+  res.set("Cache-Control", "no-store");
+  res.json({ version: SERVER_VERSION });
 });
 
 // ── Self-warming category cache ──────────────────────────────
@@ -728,6 +1158,12 @@ app.listen(PORT, async () => {
   // Re-warm every 15 minutes — pre-fetches both current and next time bucket
   // so the cache is never cold when a user request arrives
   setInterval(warmCategories, 15 * 60 * 1000);
+
+  // Warm the KIDS channels off the request path (P1/P5): the cold build resolves ~240 tapes
+  // and used to run synchronously on the first kid's request (150s+ blank wall). Doing it at
+  // boot + every 10m means a kid always meets a pre-resolved wall. Staggered after categories.
+  setTimeout(() => { kidsSaturdayChannels().then((c) => console.log(`  ✓ kids channels warmed: ${c.length}`)).catch(() => {}); kidsPicksCategory().catch(() => {}); }, 3000);
+  setInterval(() => { kidsSaturdayChannels().catch(() => {}); }, 10 * 60 * 1000);
 
   // Backfill usernames for profiles that have none (one-time on startup)
   try {

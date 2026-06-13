@@ -1,4 +1,4 @@
-import React, { useState, useCallback, useMemo } from 'react';
+import React, { useState, useCallback, useMemo, useEffect } from 'react';
 import {
   View, Text, FlatList, ScrollView, StyleSheet, TouchableOpacity,
   Dimensions, Platform, Alert, Linking, Share, useWindowDimensions,
@@ -52,7 +52,7 @@ function StatTile({ label, value, accent }) {
   );
 }
 
-export default function WatchlistScreen({ navigation }) {
+export default function WatchlistScreen({ navigation, route }) {
   const insets = useSafeAreaInsets();
   const { gen } = useGeneration();
   const { isAuthenticated } = useAuth();
@@ -81,6 +81,11 @@ export default function WatchlistScreen({ navigation }) {
   const handleItemPress = useCallback((item) => {
     navigation.navigate('Player', { item, id: item.id, categoryId: null });
   }, [navigation]);
+
+  // Drawer HISTORY item lands here with the section pre-expanded (B 2026-06-11)
+  useEffect(() => {
+    if (route?.params?.section) setExpandedSection(route.params.section);
+  }, [route?.params?.section, route?.params?._ts]);
 
   const toggleSection = useCallback((section) => {
     setExpandedSection(prev => prev === section ? null : section);

@@ -6,7 +6,7 @@
 // In dev: use localhost when running on the same machine.
 // If accessed via LAN IP (e.g. phone on same wifi), use that IP for the API too.
 // In production: always use the custom domain.
-const BASE_URL = __DEV__
+export const BASE_URL = __DEV__
   ? (typeof window !== 'undefined' &&
      window.location &&
      window.location.hostname !== 'localhost' &&
@@ -25,6 +25,18 @@ export function setAuthToken(token) {
   _authToken = token;
 }
 
+// ── Mature gate (slice 16): the PIN-verified token rides as a header. IN MEMORY ONLY by
+// design — a fresh session always re-asks the PIN (B: kids on the family device).
+let _matureGate = null;
+export function setMatureGate(token) { _matureGate = token || null; }
+export function hasMatureGate() { return !!_matureGate; }
+export async function setMaturePin(pin, currentPin) {
+  return request("/api/mature-gate/set", { method: "POST", body: JSON.stringify({ pin, currentPin }) });
+}
+export async function verifyMaturePin(pin) {
+  return request("/api/mature-gate/verify", { method: "POST", body: JSON.stringify({ pin }) });
+}
+
 async function request(path, options = {}) {
   const timeout = options._timeout || TIMEOUT;
   delete options._timeout;
@@ -33,6 +45,7 @@ async function request(path, options = {}) {
   try {
     const headers = { "Content-Type": "application/json", ...options.headers };
     if (_authToken) headers["Authorization"] = `Bearer ${_authToken}`;
+    if (_matureGate) headers["X-Mature-Gate"] = _matureGate;
 
     const res = await fetch(`${BASE_URL}${path}`, {
       ...options,
@@ -58,11 +71,12 @@ async function request(path, options = {}) {
  *            from a bigger pool (varied sorts + pages). Bypasses cache.
  *   refresh: if true, force a fresh fetch from Archive.org and update the cache.
  */
-export async function getCategories({ shuffle = false, refresh = false, gen = null } = {}) {
+export async function getCategories({ shuffle = false, refresh = false, gen = null, kids = false } = {}) {
   const params = new URLSearchParams();
   if (shuffle) params.set("shuffle", "true");
   if (refresh) params.set("refresh", "true");
   if (gen) params.set("gen", gen);     // generational era-lean for the default browse display
+  if (kids) params.set("kids", "1");   // VOIDtv KIDS: server-side allowlist, fail closed
   const qs = params.toString();
   // Categories fetches 47 collections from Archive.org — can take 2+ min on cold cache
   return request(`/api/categories${qs ? "?" + qs : ""}`, { _timeout: 180000 });
@@ -111,13 +125,14 @@ export async function archivistStatus() {
  * Either query (>=2 chars) or category is required.
  */
 export async function searchItems(query, opts = {}) {
-  const { page = 1, rows = 25, category, minDuration, maxDuration, sort } = opts;
+  const { page = 1, rows = 25, category, minDuration, maxDuration, sort, mature } = opts;
   const params = new URLSearchParams({ page: String(page), rows: String(rows) });
   if (query && query.length >= 2) params.set("q", query);
   if (category) params.set("category", category);
   if (minDuration) params.set("minDuration", String(minDuration));
   if (maxDuration) params.set("maxDuration", String(maxDuration));
   if (sort) params.set("sort", sort);   // re-roll: a different sort = a different result set
+  if (mature) params.set("mature", "true"); // 18+ chip — corral stays opt-in and member-gated in UI
   return request(`/api/search?${params.toString()}`);
 }
 
@@ -146,6 +161,47 @@ export async function searchCreator(creator, opts = {}) {
 
 export async function getItem(identifier) {
   return request(`/api/item/${identifier}`);
+}
+
+/** JOB_14 — active editorial theme window, or { theme: null } outside every window */
+export async function getTheme() {
+  return request("/api/theme");
+}
+
+/** THE LIBRARY — instant filtered browse over the Spine pools (chips without text).
+ *  Returns { fallback: 'live' } when the backend has no Spine; caller falls back to live search. */
+export async function getLibrary(opts = {}) {
+  const params = new URLSearchParams();
+  for (const k of ["terms", "crates", "yearFrom", "yearTo", "minRuntime", "maxRuntime", "q", "rows", "page"]) {
+    if (opts[k] != null && opts[k] !== "") params.set(k, String(opts[k]));
+  }
+  return request(`/api/library?${params.toString()}`);
+}
+
+/** THE CATALOG — verified destinations. Movies: Wikidata-verified films IA hosts.
+ *  Series: grouped shows; getSeriesEpisodes returns one show's episodes in order. */
+export async function getCatalogMovies(opts = {}) {
+  const params = new URLSearchParams();
+  for (const k of ["rows", "page", "yearFrom", "yearTo", "q"]) {
+    if (opts[k] != null && opts[k] !== "") params.set(k, String(opts[k]));
+  }
+  return request(`/api/catalog/movies?${params.toString()}`);
+}
+export async function getCatalogSeries(opts = {}) {
+  const params = new URLSearchParams();
+  for (const k of ["rows", "page", "q"]) {
+    if (opts[k] != null && opts[k] !== "") params.set(k, String(opts[k]));
+  }
+  return request(`/api/catalog/series?${params.toString()}`);
+}
+export async function getSeriesEpisodes(key, opts = {}) {
+  const params = new URLSearchParams();
+  if (opts.rows) params.set("rows", String(opts.rows));
+  return request(`/api/catalog/series/${encodeURIComponent(key)}?${params.toString()}`);
+}
+/** Player rail: the verified series an item belongs to + episodes in order ({series:null} if none). */
+export async function getItemSeries(id) {
+  return request(`/api/item/${encodeURIComponent(id)}/series`);
 }
 
 /** Shorts — short-form content under 2 min (YouTube Shorts equivalent) */
@@ -521,9 +577,11 @@ export async function adminClearBanner() {
 export default {
   getCategories, getCategoryItems, getChannelQueue, askArchivist, archivistStatus,
   searchItems, searchCollection, searchCreator,
-  getItem, getShorts, getRandomItem,
+  getItem, getShorts, getRandomItem, getTheme, getLibrary,
+  getCatalogMovies, getCatalogSeries, getSeriesEpisodes, getItemSeries,
   getRelated, wakeUp, heartItem, unheartItem, getTopHearts,
   setAuthToken, register, login, loginAnonymous, refreshToken,
+  setMatureGate, hasMatureGate, setMaturePin, verifyMaturePin,
   getProfile, updateProfile,
   syncHistory, syncWatchlist, syncHearts, syncGame, syncPull,
   getXRay, contribute, getContributionStats,

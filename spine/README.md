@@ -50,3 +50,17 @@ item. CI runs this plus a web bundle export on every push.
   duplication; the circuit breaker and NSFW excludes ride along). JOB_1 may relocate the file.
 - Audio/game/text item mappers are JOB_0 stubs; JOB_3/6/7 complete them.
 - The `query` field is stripped from public /categories responses.
+
+## Source adapters (JOB_13)
+- `adapters/<source>.js` implements `fetchPage(cat, page, rows)` for sync and (for playable
+  sources) `getFullItem(bareId)` for detail. A category opts in with `source: '<name>'`.
+- Item ids from non-IA sources are namespaced (`nasa:<id>`); bare ids are IA by contract, so
+  nothing downstream branches. `mappers.getDetailedItem` dispatches on the prefix.
+- `adapters/nasa.js`: keyless images-api.nasa.gov, everything public domain. The template.
+- `adapters/commons.js`: Wikimedia Commons, WebM only by their policy. Items carry
+  `stream_format: 'webm'` (the frontend's iOS-notice hook, B's ruling: inform, never gate)
+  and `rights` from extmetadata. Detail prefers server-side VP9 transcodes.
+- `adapters/wikidata.js`: the index, not a source. One SPARQL pass at sync time finds PD films
+  carrying IA ids (P724 + P6216), dedupes mirror ids per film, writes the `enrichment` table
+  (qid, directors, genres, year, cross-source links, iaAliases) keyed by bare IA id, and fills
+  the `gems_wikidata` crate. Items keep bare IA ids so playback rides the normal path.

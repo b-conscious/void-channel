@@ -24,6 +24,7 @@ const PlaylistsListScreen = React.lazy(() => import('../screens/PlaylistsListScr
 const AdminScreen = React.lazy(() => import('../screens/AdminScreen'));
 
 import { useGeneration } from '../context/GenerationContext';
+import { useKids } from '../context/KidsContext';
 import { colors, fonts } from '../theme';
 
 const Tab = createBottomTabNavigator();
@@ -71,6 +72,9 @@ function TabBackground() {
 }
 
 function TabNavigator() {
+  // VOIDtv KIDS: Browse is the only world. Signal (community) and My Void (history that may
+  // predate the toggle) do not exist as tabs in kids mode.
+  var { kidsMode } = useKids();
   // On desktop the bottom tab bar is hidden — nav lives in the persistent TopBar + drawer.
   var desktopProps = IS_DESKTOP ? {
     tabBar: function () { return null; },
@@ -137,8 +141,8 @@ function TabNavigator() {
       }}
     >
       <Tab.Screen name="Browse"   component={HomeScreen} />
-      <Tab.Screen name="Signal"   component={LazySignal} />
-      <Tab.Screen name="My Void"  component={LazyWatchlist} />
+      {!kidsMode && <Tab.Screen name="Signal"   component={LazySignal} />}
+      {!kidsMode && <Tab.Screen name="My Void"  component={LazyWatchlist} />}
     </Tab.Navigator>
   );
 }

@@ -56,7 +56,8 @@ app.get('/category/:id', async (req, res) => {
 app.get('/wall', (req, res) => {
   const type = req.query.type || 'video';
   const rows = Math.min(parseInt(req.query.rows, 10) || 50, 100);
-  const wall = cats.list(type).filter((c) => c.active).map(({ query, ...pub }) => ({
+  // wall:false crates (series seeds) pool + group + serve via catalog, but never row the wall
+  const wall = cats.list(type).filter((c) => c.active && c.wall !== false).map(({ query, ...pub }) => ({
     ...pub,
     items: dbx.getPool(pub.id, 1, rows),
   }));
@@ -66,7 +67,10 @@ app.get('/wall', (req, res) => {
 app.get('/item/:identifier', async (req, res) => {
   try {
     const type = req.query.type || 'video';
-    const item = await mappers.getDetailedItem(req.params.identifier, type);
+    // novet=1: vouched kids resolve skips the playability vet (P1 — the vet stormed IA and
+    // blanked the kids wall). The backend only sets this for B-approved content.
+    const opts = req.query.novet === '1' ? { skipVet: true } : {};
+    const item = await mappers.getDetailedItem(req.params.identifier, type, opts);
     if (!item) return res.status(404).json({ error: 'not found' });
     res.json(item);
   } catch (err) {
@@ -95,6 +99,108 @@ app.get('/search', async (req, res) => {
     res.json({ q, source: 'live', page, items: items || [] });
   } catch (err) {
     res.status(502).json({ error: String(err.message || err).slice(0, 200) });
+  }
+});
+
+// THE LIBRARY: instant filtered browse over the pools (genre terms/crates, year window,
+// runtime window, optional title contains). The chips downstream filter THIS, not live
+// Archive: that was the clunk. Raw live search stays untouched on /search.
+app.get('/library', (req, res) => {
+  const split = (s) => String(s || '').split(',').map((x) => x.trim().toLowerCase()).filter(Boolean);
+  const items = dbx.libraryQuery({
+    type: req.query.type || 'video',
+    terms: split(req.query.terms),
+    crates: String(req.query.crates || '').split(',').map((x) => x.trim()).filter(Boolean),
+    yearFrom: parseInt(req.query.yearFrom, 10) || null,
+    yearTo: parseInt(req.query.yearTo, 10) || null,
+    minR: parseInt(req.query.minRuntime, 10) || null,
+    maxR: parseInt(req.query.maxRuntime, 10) || null,
+    q: String(req.query.q || '').trim().toLowerCase(),
+    rows: Math.min(parseInt(req.query.rows, 10) || 60, 200),
+    page: Math.max(1, parseInt(req.query.page, 10) || 1),
+  });
+  res.json(items);
+});
+
+// THE CATALOG (slice 12): destinations, not searches. Movies = the Wikidata-verified films
+// table; series = the grouped shows with episodes in broadcast order.
+app.get('/catalog/movies', (req, res) => {
+  res.json(dbx.catalogMovies({
+    rows: Math.min(parseInt(req.query.rows, 10) || 60, 200),
+    page: Math.max(1, parseInt(req.query.page, 10) || 1),
+    yearFrom: parseInt(req.query.yearFrom, 10) || null,
+    yearTo: parseInt(req.query.yearTo, 10) || null,
+    q: String(req.query.q || '').trim().toLowerCase(),
+  }));
+});
+app.get('/catalog/series', (req, res) => {
+  res.json(dbx.catalogSeries({
+    rows: Math.min(parseInt(req.query.rows, 10) || 60, 200),
+    page: Math.max(1, parseInt(req.query.page, 10) || 1),
+    q: String(req.query.q || '').trim().toLowerCase(),
+  }));
+});
+app.get('/catalog/series/:key', (req, res) => {
+  res.json(dbx.seriesItems(req.params.key, Math.min(parseInt(req.query.rows, 10) || 200, 300)));
+});
+// Player rail: which verified series does this item belong to, and its episodes in order.
+app.get('/catalog/item/:id/series', (req, res) => {
+  const s = dbx.itemSeries(req.params.id);
+  if (!s) return res.json({ series: null });
+  res.json({ series: s, ...dbx.seriesItems(s.key, 120) });
+});
+// THE HUNT FEEDS THE CATALOG: the backend posts every item a user successfully OPENS.
+// Pool it under the synthetic 'hunted' crate (findable in the library, NEVER on a kids
+// allowlist) and title-parse it into grouping; the next verifyPass wikidata-verifies new
+// keys, so real hunting grows the verified catalog while junk stays below the 0.85 face.
+app.post('/catalog/ingest', requireAdmin, express.json({ limit: '64kb' }), (req, res) => {
+  try {
+    const it = req.body && req.body.item;
+    if (!it || !it.id || !it.title) return res.status(400).json({ error: 'item required' });
+    const id = String(it.id).slice(0, 200);
+    const slim = {
+      id,
+      title: String(it.title).slice(0, 300),
+      description: String(it.description || '').slice(0, 400),
+      year: parseInt(it.year, 10) || null,
+      creator: typeof it.creator === 'string' ? it.creator.slice(0, 200) : '',
+      downloads: parseInt(it.downloads, 10) || 0,
+      runtime: parseInt(it.runtime, 10) || null,
+      subjects: Array.isArray(it.subjects) ? it.subjects.slice(0, 10).map(String) : [],
+      thumbnail: `https://archive.org/services/img/${encodeURIComponent(id)}`,
+      archiveUrl: `https://archive.org/details/${encodeURIComponent(id)}`,
+      videoUrl: null,
+    };
+    dbx.upsertItem('hunted', 'video', slim);
+    const parsed = require('./grouping.js').parseTitle(slim.title);
+    if (parsed) {
+      dbx.db.prepare(`
+        INSERT INTO grouping (item_id, series_key, series_name, season, episode, source, confidence)
+        VALUES (?, ?, ?, ?, ?, ?, ?)
+        ON CONFLICT(item_id) DO UPDATE SET
+          series_key = excluded.series_key, series_name = excluded.series_name,
+          season = excluded.season, episode = excluded.episode,
+          source = excluded.source, confidence = excluded.confidence
+        WHERE excluded.confidence >= grouping.confidence
+      `).run(id, parsed.key, parsed.name, parsed.season, parsed.episode, 'title', parsed.conf);
+    }
+    res.json({ ok: true, grouped: parsed ? parsed.key : null });
+  } catch (err) {
+    res.status(500).json({ error: String(err.message || err).slice(0, 200) });
+  }
+});
+
+// Manual regroup + films refresh without waiting for a sync cycle (admin)
+app.post('/catalog/rebuild', requireAdmin, async (req, res) => {
+  try {
+    const g = require('./grouping.js').regroup(dbx);
+    let verify = null;
+    try { verify = await require('./grouping.js').verifyPass(dbx); } catch (e) { verify = { error: String(e.message || e).slice(0, 120) }; }
+    let films = null;
+    try { films = await require('./adapters/wikidata.js').syncFilms(); } catch (e) { films = { error: String(e.message || e).slice(0, 120) }; }
+    res.json({ grouped: g, verify, films });
+  } catch (err) {
+    res.status(500).json({ error: String(err.message || err).slice(0, 200) });
   }
 });
 

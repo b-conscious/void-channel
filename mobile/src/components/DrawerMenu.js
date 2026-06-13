@@ -11,13 +11,14 @@
  */
 
 import React, { useState } from 'react';
-import { View, Text, TouchableOpacity, Pressable, Modal, Linking, StyleSheet } from 'react-native';
+import { View, Text, TouchableOpacity, Pressable, Modal, Linking, StyleSheet, ScrollView, Platform } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import * as Haptics from 'expo-haptics';
 
 import FastImage from './FastImage';
 import AvatarPickerModal from './AvatarPickerModal';
 import { useGeneration } from '../context/GenerationContext';
+import { useKids } from '../context/KidsContext';
 import { useAuth } from '../context/AuthContext';
 import { useSidebar } from '../context/SidebarContext';
 import { GENERATIONS } from '../data/generations';
@@ -31,9 +32,10 @@ const ADMIN_EMAILS = ['bryankorth31@gmail.com', 'preacherb@cashvalues.org'];
 export default function DrawerMenu({ nav }) {
   const { drawerOpen, closeDrawer } = useSidebar();
   const { gen, generationId, chooseGeneration } = useGeneration();
-  const { user, isAuthenticated, signOut, updateProfile } = useAuth();
+  const { user, isAuthenticated, isAnonymous, signOut, updateProfile } = useAuth();
+  const { kidsMode, kidsAccent, enterKids, exitKids } = useKids();
   const [avatarOpen, setAvatarOpen] = useState(false);
-  const accent = gen?.accentColor || colors.amber;
+  const accent = kidsMode ? kidsAccent : (gen?.accentColor || colors.amber);
 
   const GEN_OPTS = [
     { id: 'boomer', label: 'BOOMER', color: GENERATIONS.boomer.accentColor },
@@ -54,11 +56,45 @@ export default function DrawerMenu({ nav }) {
     try { const ri = await api.getRandomItem(); nav.navigate('Player', { item: ri, id: ri.id }); } catch {}
   }
 
+  // VOIDtv KIDS: the drawer is the gate's front door. In kids mode it holds exactly two
+  // things: the safe shelf and the parent-gated exit. Nothing else exists.
+  if (kidsMode) {
+    return (
+      <Modal transparent visible={drawerOpen} animationType="fade" onRequestClose={closeDrawer}>
+        <Pressable style={drawerStyles.overlay} onPress={closeDrawer}>
+          <Pressable style={drawerStyles.drawer} onPress={(e) => e.stopPropagation()}>
+            <View style={drawerStyles.drawerHeader}>
+              <View style={drawerStyles.drawerLogoRow}>
+                <Text style={[drawerStyles.drawerLogo, { color: kidsAccent }]}>VOID</Text>
+                <Text style={drawerStyles.drawerLogoSub}>tv KIDS</Text>
+              </View>
+              <Text style={[drawerStyles.drawerTagline, { color: kidsAccent }]}>the safe shelf</Text>
+            </View>
+            <View style={drawerStyles.divider} />
+            <TouchableOpacity style={drawerStyles.menuItem} onPress={() => { closeDrawer(); nav.navigate('Browse', { chip: 'all' }); }} activeOpacity={0.7}>
+              <Ionicons name="tv" size={18} color={kidsAccent} style={{ width: 28 }} />
+              <Text style={drawerStyles.menuLabel}>THE VAULT</Text>
+            </TouchableOpacity>
+            <TouchableOpacity style={drawerStyles.menuItem} onPress={() => { if (exitKids()) closeDrawer(); }} activeOpacity={0.7}>
+              <Ionicons name="lock-closed-outline" size={18} color={colors.textMuted} style={{ width: 28 }} />
+              <Text style={drawerStyles.menuLabel}>EXIT KIDS MODE  (PARENTS)</Text>
+            </TouchableOpacity>
+            <View style={{ flex: 1 }} />
+            <Text style={drawerStyles.footerText}>VOIDtv KIDS · curated shelf only</Text>
+          </Pressable>
+        </Pressable>
+      </Modal>
+    );
+  }
+
   return (
     <>
       <Modal transparent visible={drawerOpen} animationType="fade" onRequestClose={closeDrawer}>
         <Pressable style={drawerStyles.overlay} onPress={closeDrawer}>
           <Pressable style={drawerStyles.drawer} onPress={(e) => e.stopPropagation()}>
+            {/* Scrollable: on short screens the lower half (18+, account, support) was
+                clipped and unreachable — B could not find items below the fold. */}
+            <ScrollView style={{ flex: 1 }} contentContainerStyle={{ flexGrow: 1 }} showsVerticalScrollIndicator={false}>
             {/* Header with user info */}
             <View style={drawerStyles.drawerHeader}>
               <View style={drawerStyles.drawerLogoRow}>
@@ -116,6 +152,43 @@ export default function DrawerMenu({ nav }) {
                 <Text style={drawerStyles.menuLabel}>{item.label}</Text>
               </TouchableOpacity>
             ))}
+            {/* CATALOG FRONT DOOR (B's pick: both drawer items and wall cards) — SHOWS and
+                MOVIES route straight into the verified catalog, no query needed. */}
+            <TouchableOpacity
+              style={drawerStyles.menuItem}
+              onPress={() => { closeDrawer(); nav.navigate('Search', { catalog: 'series', _ts: Date.now() }); }}
+              activeOpacity={0.7}
+            >
+              <Ionicons name="albums-outline" size={18} color={accent} style={{ width: 28 }} />
+              <Text style={drawerStyles.menuLabel}>SHOWS</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={drawerStyles.menuItem}
+              onPress={() => { closeDrawer(); nav.navigate('Search', { catalog: 'movies', _ts: Date.now() }); }}
+              activeOpacity={0.7}
+            >
+              <Ionicons name="film-outline" size={18} color={accent} style={{ width: 28 }} />
+              <Text style={drawerStyles.menuLabel}>MOVIES</Text>
+            </TouchableOpacity>
+            {/* HISTORY (B 2026-06-11): straight to the watch history, expanded */}
+            <TouchableOpacity
+              style={drawerStyles.menuItem}
+              onPress={() => { closeDrawer(); nav.navigate('My Void', { section: 'history', _ts: Date.now() }); }}
+              activeOpacity={0.7}
+            >
+              <Ionicons name="time-outline" size={18} color={accent} style={{ width: 28 }} />
+              <Text style={drawerStyles.menuLabel}>HISTORY</Text>
+            </TouchableOpacity>
+            {/* VOIDtv KIDS — one tap in; getting OUT requires the parent gate. Lives up here
+                with the nav so it is never below the fold (B could not find it). */}
+            <TouchableOpacity
+              style={drawerStyles.menuItem}
+              onPress={() => { enterKids(); closeDrawer(); nav.navigate('Browse', { chip: 'all' }); }}
+              activeOpacity={0.7}
+            >
+              <Ionicons name="happy-outline" size={18} color={'#ffd34d'} style={{ width: 28 }} />
+              <Text style={[drawerStyles.menuLabel, { color: '#ffd34d' }]}>VOIDTV KIDS</Text>
+            </TouchableOpacity>
 
             <View style={drawerStyles.divider} />
 
@@ -150,10 +223,37 @@ export default function DrawerMenu({ nav }) {
               <Text style={drawerStyles.menuLabel}>SURPRISE ME</Text>
             </TouchableOpacity>
 
-            {/* 18+ — mature rows are sequestered off the default wall; reachable here on purpose (not censored) */}
+            {/* 18+ — sequestered, reachable on purpose (not censored), and PIN-GATED
+                (slice 16): members only, then the account holder's PIN. The server withholds
+                mature payloads without the verified gate token, so this is enforcement. */}
             <TouchableOpacity
               style={drawerStyles.menuItem}
-              onPress={() => { closeDrawer(); nav.navigate('Browse', { chip: 'mature' }); }}
+              onPress={async () => {
+                if (!isAuthenticated || isAnonymous) { closeDrawer(); nav.navigate('Auth'); return; }
+                try {
+                  if (!api.hasMatureGate()) {
+                    const probe = await api.verifyMaturePin('');
+                    if (probe && probe.needsSetup) {
+                      const p1 = Platform.OS === 'web' && window.prompt ? window.prompt('Create your 18+ PIN (4-8 digits).\nYou will need it every session.') : null;
+                      if (!p1 || !/^\d{4,8}$/.test(p1.trim())) return;
+                      const r = await api.setMaturePin(p1.trim());
+                      if (r && r.gate) api.setMatureGate(r.gate);
+                    }
+                  }
+                } catch (e) {
+                  // wrong/empty PIN probe path: ask for the PIN properly
+                  const pin = Platform.OS === 'web' && window.prompt ? window.prompt('Enter your 18+ PIN') : null;
+                  if (!pin) return;
+                  try {
+                    const r = await api.verifyMaturePin(pin.trim());
+                    if (r && r.gate) api.setMatureGate(r.gate);
+                    else return;
+                  } catch (e2) { return; }
+                }
+                if (!api.hasMatureGate()) return;
+                closeDrawer();
+                nav.navigate('Browse', { chip: 'mature', _gate: Date.now() });
+              }}
               activeOpacity={0.7}
             >
               <Ionicons name="warning-outline" size={18} color={accent} style={{ width: 28 }} />
@@ -219,6 +319,7 @@ export default function DrawerMenu({ nav }) {
               <Text style={[drawerStyles.footerText, { color: BRAND_BLUE, textDecorationLine: 'underline' }]}>CASHvalues.org</Text>
             </TouchableOpacity>
             <Text style={drawerStyles.footerText}>VOIDtv v0.3 · ARCHIVE.ORG · PUBLIC DOMAIN</Text>
+            </ScrollView>
           </Pressable>
         </Pressable>
       </Modal>

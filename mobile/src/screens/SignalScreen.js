@@ -14,6 +14,7 @@ import * as Haptics from 'expo-haptics';
 
 import WaveAvatar from '../components/WaveAvatar';
 import { useGeneration } from '../context/GenerationContext';
+import { useKids } from '../context/KidsContext';
 import { useGame } from '../context/GameContext';
 import { useSidebar } from '../context/SidebarContext';
 import { GENERATIONS } from '../data/generations';
@@ -49,8 +50,20 @@ export default function SignalScreen() {
     totalContributions, contributionsByType, recentContributions,
   } = useGame();
   const { headerH } = useSidebar();
+  const { kidsMode, kidsAccent } = useKids();
 
   const accent = gen.accentColor;
+
+  // VOIDtv KIDS: Signal is a community surface; it does not exist in kids mode. The tab is
+  // already gone — this guard covers deep links, fail closed.
+  if (kidsMode) {
+    return (
+      <View style={[styles.container, { paddingTop: insets.top + headerH, alignItems: 'center', justifyContent: 'center' }]}>
+        <Text style={{ fontFamily: fonts.monoBold, fontSize: 22, color: kidsAccent, letterSpacing: 2 }}>VOIDtv KIDS</Text>
+        <Text style={{ fontFamily: fonts.sans, fontSize: 12, color: colors.textMuted, marginTop: 6 }}>everything safe is on the wall</Text>
+      </View>
+    );
+  }
 
   return (
     <ScrollView

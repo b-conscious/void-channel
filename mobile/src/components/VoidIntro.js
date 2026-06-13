@@ -9,7 +9,7 @@
  * Web only — it relies on an HTML <video> + the user gesture to unlock audio.
  */
 
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { View, Text, Pressable, StyleSheet, Platform } from 'react-native';
 import { colors, fonts } from '../theme';
 
@@ -31,11 +31,45 @@ export default function VoidIntro() {
   if (Platform.OS !== 'web') return null;
 
   var seen = useState(function () {
-    try { return !!sessionStorage.getItem('void_intro_seen'); } catch (e) { return false; }
+    try {
+      // JOB_19: installed PWA opens straight into the void — no gate, sound is granted
+      if (window.matchMedia && window.matchMedia('(display-mode: standalone)').matches) return true;
+      return !!sessionStorage.getItem('void_intro_seen');
+    } catch (e) { return false; }
   });
   var [show, setShow] = useState(!seen[0]);
   var [entering, setEntering] = useState(false);
   var containerRef = useRef(null);
+
+  // SOUND AT THE INTRO (B, desktop): try unmuted right away — browsers allow it when the
+  // site has engagement history (repeat visitors, PWA). Denied -> stay muted and unmute on
+  // the FIRST gesture anywhere (any click/key, not just the ENTER button). Mobile browsers
+  // will simply keep denying until tap, which is the accepted behavior.
+  useEffect(function () {
+    if (!show || typeof window === 'undefined') return;
+    var v = containerRef.current && containerRef.current.querySelector && containerRef.current.querySelector('video');
+    if (!v) return;
+    var unlock = function () {
+      try { v.muted = false; v.volume = 1; var p = v.play && v.play(); if (p && p.catch) p.catch(function () {}); } catch (e) {}
+    };
+    var armed = false;
+    try {
+      v.muted = false; v.volume = 1;
+      var p = v.play();
+      if (p && p.catch) p.catch(function () {
+        try { v.muted = true; v.play().catch(function () {}); } catch (e) {}
+        armed = true;
+        window.addEventListener('pointerdown', unlock, { once: true });
+        window.addEventListener('keydown', unlock, { once: true });
+      });
+    } catch (e) {}
+    return function () {
+      if (armed) {
+        window.removeEventListener('pointerdown', unlock);
+        window.removeEventListener('keydown', unlock);
+      }
+    };
+  }, [show]);
 
   if (!show) return null;
 

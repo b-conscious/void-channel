@@ -10,10 +10,12 @@ import { DMSans_400Regular, DMSans_500Medium, DMSans_600SemiBold } from '@expo-g
 
 import { SidebarProvider } from './src/context/SidebarContext';
 import { GenerationProvider } from './src/context/GenerationContext';
+import { KidsProvider } from './src/context/KidsContext';
 import { AuthProvider } from './src/context/AuthContext';
 import { GameProvider } from './src/context/GameContext';
 import Navigation from './src/navigation';
 import VoidIntro from './src/components/VoidIntro';
+import VersionWatch from './src/components/VersionWatch';
 
 SplashScreen.preventAutoHideAsync();
 
@@ -57,6 +59,31 @@ function injectWebHead() {
   dns.rel = 'dns-prefetch';
   dns.href = 'https://ia800100.us.archive.org';
   document.head.appendChild(dns);
+
+  // ── JOB_19: PWA manifest + icons (served from /public on Vercel/Metro) ──
+  var man = document.createElement('link');
+  man.rel = 'manifest';
+  man.href = '/manifest.json';
+  document.head.appendChild(man);
+  var apple = document.createElement('link');
+  apple.rel = 'apple-touch-icon';
+  apple.href = '/icon-192.png';
+  document.head.appendChild(apple);
+
+  // ── JOB_19: register the service worker (installability). It caches almost nothing by
+  // design; the version handshake (VersionWatch) is what tells users to refresh. ──
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function () {
+      navigator.serviceWorker.register('/sw.js').catch(function () {});
+    });
+  }
+
+  // ── JOB_19: capture the install prompt so a button can fire it on a gesture ──
+  window.addEventListener('beforeinstallprompt', function (e) {
+    e.preventDefault();
+    window.__voidInstallPrompt = e;
+    window.dispatchEvent(new Event('void-installable'));
+  });
 }
 
 function injectRetroCss() {
@@ -153,6 +180,7 @@ export default function App() {
   return (
     <GestureHandlerRootView style={styles.root}>
       <SafeAreaProvider>
+        <KidsProvider>
         <SidebarProvider>
           <GenerationProvider>
             <AuthProvider>
@@ -160,10 +188,12 @@ export default function App() {
                 <StatusBar style="light" />
                 <Navigation />
                 <VoidIntro />
+                <VersionWatch />
               </GameProvider>
             </AuthProvider>
           </GenerationProvider>
         </SidebarProvider>
+        </KidsProvider>
       </SafeAreaProvider>
     </GestureHandlerRootView>
   );

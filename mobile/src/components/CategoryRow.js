@@ -1,7 +1,7 @@
-import React, { useRef, useState, useCallback } from 'react';
+import React, { useRef, useState, useCallback, useMemo } from 'react';
 import {
   View, Text, FlatList, StyleSheet, TouchableOpacity, ScrollView,
-  Platform, Dimensions, ActivityIndicator, Pressable,
+  Platform, Dimensions, ActivityIndicator, Pressable, useWindowDimensions,
 } from 'react-native';
 // NOTE: Removed react-native-reanimated — useAnimatedStyle causes TDZ crash in prod bundles.
 // Arrow overlays use CSS opacity transition + React state instead.
@@ -14,6 +14,10 @@ import { colors, fonts, spacing, cardSize, radius } from '../theme';
 
 const SCREEN_W = Dimensions.get('window').width;
 const IS_DESKTOP = Platform.OS === 'web' && SCREEN_W > 768;
+
+// B-LOCKED STANDING RULING (2026-06-12): void TVs are 10% of wall cards, hardwired.
+// "i am tired of it not being accepted and lost." Do not change without B's explicit go.
+const VOID_TV_CARD_RATIO = 0.10;
 const SCROLL_AMOUNT = cardSize.width * 2 + cardSize.gap * 2; // scroll 2 cards at a time
 
 const CAT_GLYPHS = {
@@ -76,7 +80,31 @@ export default function CategoryRow({
   onSeeMore,
 }) {
   const { gen } = useGeneration();
-  const items = category?.items || [];
+  const rawItems = category?.items || [];
+  // THE VOID BLEEDS THROUGH — B's STANDING RULING (2026-06-12, hardwired): void TVs are
+  // 10% of cards, each on its own 10s stagger. Do NOT dilute or drop this; changing
+  // VOID_TV_CARD_RATIO needs B's explicit go (memory: voidtv-void-tv-cards). Inserts a TV
+  // after every ~9th real card across all non-kids rows (~1 in 10 rendered = 10%); the
+  // first insertion is offset by row-id hash so TVs don't stack into one vertical column.
+  // Each tile is its own VoidLoader -> unique 10s-staggered start (VoidLoader _staticVideoSeq)
+  // + lazy-load (only near-viewport tiles mount video, so density != load storm). Kids and
+  // vouched lanes stay sunny (excluded). Stream is ONE swappable URL — B swaps the file
+  // over time with zero code change.
+  const items = useMemo(() => {
+    if (Platform.OS !== 'web' || rawItems.length < 2) return rawItems;
+    const id = String(category?.id || '');
+    if (/^kids|^pbs_kids$|^saturday_morning$/.test(id)) return rawItems;
+    const every = Math.max(1, Math.round((1 - VOID_TV_CARD_RATIO) / VOID_TV_CARD_RATIO)); // 9 -> 1 TV per 9 cards = 10%
+    let h = 0;
+    for (let i = 0; i < id.length; i++) h = ((h * 31) + id.charCodeAt(i)) >>> 0;
+    const offset = h % every;
+    const out = [];
+    for (let i = 0; i < rawItems.length; i++) {
+      out.push(rawItems[i]);
+      if ((i + 1 + offset) % every === 0) out.push({ id: '__voidtv_' + id + '_' + i, _tv: true });
+    }
+    return out;
+  }, [rawItems, category?.id]);
   const glyph = CAT_GLYPHS[category.id] || '▸';
   const accent = gen?.accentColor || colors.amber;
 
@@ -97,6 +125,11 @@ export default function CategoryRow({
   const [canScrollLeft, setCanScrollLeft] = useState(false);
   const [canScrollRight, setCanScrollRight] = useState(false);
   const [rowHovered, setRowHovered] = useState(false);
+  // LIVE width, not the module-load snapshot: loading with DevTools docked (or any window
+  // under the breakpoint) froze IS_DESKTOP false and silently removed every scroll arrow
+  // app-wide for the whole session (B hit this 2026-06-11).
+  const { width: liveW } = useWindowDimensions();
+  const isDesktopLive = Platform.OS === 'web' && liveW > 768;
 
   // Arrow opacity — always visible on desktop so users know they can scroll.
   // Brightens slightly on row hover for polish.
@@ -214,7 +247,7 @@ export default function CategoryRow({
             </View>
           ))}
         </ScrollView>
-      ) : IS_DESKTOP ? (
+      ) : isDesktopLive ? (
         <Pressable
           onHoverIn={onRowHoverIn}
           onHoverOut={onRowHoverOut}
@@ -247,7 +280,11 @@ export default function CategoryRow({
             scrollEventThrottle={16}
             onContentSizeChange={handleContentSizeChange}
             onLayout={handleListLayout}
-            renderItem={({ item }) => (
+            renderItem={({ item }) => item._tv ? (
+              <View style={{ marginRight: cardSize.gap }}>
+                <VoidLoader mode="static" size="card" persist />
+              </View>
+            ) : (
               <MediaCard item={item} onPress={(it) => onItemPress(it, category.id)} />
             )}
             ListFooterComponent={hasPagination && canNext ? (
@@ -301,7 +338,11 @@ export default function CategoryRow({
             scrollEventThrottle={16}
             onContentSizeChange={handleContentSizeChange}
             onLayout={handleListLayout}
-            renderItem={({ item }) => (
+            renderItem={({ item }) => item._tv ? (
+              <View style={{ marginRight: cardSize.gap }}>
+                <VoidLoader mode="static" size="card" persist />
+              </View>
+            ) : (
               <MediaCard item={item} onPress={(it) => onItemPress(it, category.id)} />
             )}
             ListFooterComponent={hasPagination && canNext ? (
