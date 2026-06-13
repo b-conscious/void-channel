@@ -11,6 +11,14 @@
 const { spawn } = require('child_process');
 const path = require('path');
 
+// The 512 MB "squeeze" env vars (BACKEND_HEAP_MB / SPINE_HEAP_MB / SPINE_POOL_CAP) got left
+// set on Render and STARVE the spine on the 2 GB box — it heap-OOMs at ~227 MB every sync
+// because SPINE_HEAP_MB=230 caps it. Deleting them in the Render UI kept not sticking, so we
+// strip them HERE before spawning either child: the launcher is the source of truth, no
+// dashboard step required. Children inherit this cleaned env. (To deliberately cap memory
+// later, set the var AND remove it from this list.)
+for (const k of ['BACKEND_HEAP_MB', 'SPINE_HEAP_MB', 'SPINE_POOL_CAP']) delete process.env[k];
+
 // Heap caps are OPT-IN via env only. With a right-sized instance (Standard 2 GB) we let
 // Node manage memory with its defaults — no artificial cap that would starve the spine's
 // sync. The 512 MB squeeze taught us hard caps just trade an OOM for a heap-OOM; the real
