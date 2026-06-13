@@ -1,5 +1,22 @@
 # LOCKFILE: the upgrade build (JOB_13 onward)
 
+## SLICE 67 (EPISODE FAN-OUT step 1, B's decision; design in docs/FANOUT_DESIGN.md): the pure
+## fan-out module — turn a bundled IA item's files[] into per-episode records so a mislabeled
+## "Show S1 + Music Videos" item becomes correctly-titled episodes (music/trailers corralled).
+## Throttle-SAFE: no IA, no DB, computes off metadata we already fetch; built + tested fully
+## offline during the archive.org tarpit. computeFanOut(meta, parseRuntimeSeconds): filter
+## playable video (skip *sample*/>1MB), <=1 -> null; per file classify (keyword>duration,
+## SxxExx overrides) + parseFilename (slice-2 patterns on the FILENAME; trailing (?!\d) not \b
+## because "_" is a word char and \b fails on S02E04_Title) + assembleTitle; GATE: fan out only
+## when >=1 file parses a real episode number (messy no-S/E multi-video stays one card).
+## AMENDED from B's doc: general rows emit ONE season card (not 120 episode cards) -> series
+## view + queue carry the full fan-out (wall-explosion fix). UNLOCKED: spine/fanout.js (NEW),
+## spine/test-fanout.js (NEW), docs/FANOUT_DESIGN.md (NEW), docs/LOCKFILE_JOB13.md.
+## RESULT: 14/14 offline tests pass (Dragnet bundle -> 3 episodes parsed+titled, music+trailer
+## corralled; single video -> null; messy bundle -> null; NxNN/Episode patterns; duration
+## heuristics). HELD with the batch (spine code needs a deploy; push re-pokes IA). Next steps
+## 2-6 in FANOUT_DESIGN.md; step 6 (backfill) waits on IA recovery.
+
 ## SLICE 66 (IA RECOVERY FIX, SHIPPED 414bb56): Render logs proved archive.org TARPITS our
 ## throttled IP — requests HANG ~30s ("[spine search] The user aborted a request" /
 ## "/api/search -> 200 (30170ms)"), not a 429/403. node-fetch's soft `timeout` does NOT fire

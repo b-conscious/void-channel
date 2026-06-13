@@ -45,7 +45,8 @@ d0cfc95d76f0280450a5510b63efa38b *./backend/sync.js
 f5b8b7753f5a575619b3477a1b61d92b *./backend/views.js
 a04855e08d62818238da2e6d9279d647 *./backend/wikigate.js
 b4d3a17a68ba52123fe1a0cce05bb868 *./docs/DEBUG_SWEEP_2026-06-12.md
-4ec1e63281442df7a5c2e7072be1d796 *./docs/LOCKFILE_JOB13.md
+3b411104768ee9d1b0502c4010a09764 *./docs/FANOUT_DESIGN.md
+8b9027649511baf72cdde57fc73bb301 *./docs/LOCKFILE_JOB13.md
 81cc30a56d78ad7e16b3fd21c589267b *./docs/ROADMAP_2026-06-12.md
 78febc4ed546de550eb7f8f7f218030c *./docs/SESSION_FULL_2026-06-13.md
 8a8b0dcd9da71a6fd279ebcb8e86af5a *./docs/SUBTITLES_PIPELINE.md
@@ -203,6 +204,7 @@ ebf2300bb6c3575626e54b46e9f45d9d *./spine/README.md
 9c704aaed38e6727ff9c386dfc3f1181 *./spine/adapters/wikidata.js
 5c4e1a6806727d3d43022d07c2bdf331 *./spine/categories.js
 de947ab244ee445b8fd15cf30111abf9 *./spine/db.js
+f4580b9fcbb5479105fa4b36415593fd *./spine/fanout.js
 e5b3219ba044781e19321d9cd47a06f4 *./spine/grouping.js
 8431bacaa35505329593f1d6440d2cb9 *./spine/mappers.js
 fa7177f9895a943f38f1494eb8767961 *./spine/package-lock.json
@@ -210,6 +212,7 @@ ed61f04a409de6051a7455b5ea5ce053 *./spine/package.json
 178ad62b69fb92bc4278a4915d0d1f9d *./spine/series-seeds.json
 c546318c8d8583a13a6fa2602b209f1a *./spine/spine.js
 afa94e4d77498a7587a07bd5c6ff8e45 *./spine/sync.js
+5f1ccab3061d0b1ca855dcdce29e6e1e *./spine/test-fanout.js
 ea6f19d38d2210030b308fbfcc93d3cc *./spine/test-fixtures.js
 2551b28deb8ab787e74efd56564a2119 *./start-prod.js
 e0cbcaa8fe3d08335d6a88876e094078 *./start-void.cmd
