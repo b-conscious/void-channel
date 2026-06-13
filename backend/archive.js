@@ -1036,7 +1036,12 @@ async function search(query, rows = 25, page = 1, sort = "downloads desc") {
   // starts). Never let that throw — it would surface as a 500 on /api/search & /api/shorts.
   // Return [] so callers degrade to an empty result. (Routes must not cache empty — see server.js.)
   try {
-    const res = await fetch(url, { headers: { "User-Agent": "VoidChannel/0.3" }, timeout: 15000 });
+    // HARD abort at 8s via AbortSignal — node-fetch's `timeout` option does NOT reliably
+    // fire when Archive TARPITS a throttled IP (holds the socket open, trickles nothing).
+    // Those 30s hangs piled up open connections and kept signalling activity to IA, so the
+    // throttle never got a quiet window to expire (the block dragged for hours). A hard abort
+    // fails fast, trips the breaker, and lets us go QUIET so IA releases the IP. (2026-06-13)
+    const res = await fetch(url, { headers: { "User-Agent": "VoidChannel/0.3" }, signal: AbortSignal.timeout(8000) });
     if (!res.ok) { console.warn(`[archive.search] HTTP ${res.status}`); _noteArchiveFail(); return []; }
     const data = await res.json();
     const docs = data?.response?.docs || [];
@@ -1198,7 +1203,7 @@ function _scanRegion(buf) {
 }
 
 async function _rangeFetch(url, range, timeoutMs = 8000) {
-  const res = await fetch(url, { headers: { Range: `bytes=${range}`, "User-Agent": "VoidChannel/0.2" }, timeout: timeoutMs });
+  const res = await fetch(url, { headers: { Range: `bytes=${range}`, "User-Agent": "VoidChannel/0.2" }, signal: AbortSignal.timeout(timeoutMs) });
   if (res.status === 403 || res.status === 404) return { gone: true };
   if (!res.ok && res.status !== 206) throw new Error(`range ${res.status}`);
   return { buf: Buffer.from(await res.arrayBuffer()) };
@@ -1252,21 +1257,28 @@ async function getItem(identifier, opts = {}) {
     fallback: true,
   };
 
+  // Breaker open (Archive throttling us) → fail FAST with the no-video fallback instead of
+  // hanging 30s on a tarpitted metadata fetch (the playback-side of the same hang). Lets the
+  // IP go quiet so the throttle can expire. (2026-06-13)
+  if (Date.now() < _archiveCircuitUntil) return fallback;
   var res;
   try {
     var url = META_URL(cleanId);
     res = await fetch(url, {
       headers: { "User-Agent": "VoidChannel/0.2" },
-      timeout: 15000,
+      signal: AbortSignal.timeout(8000), // HARD abort — node-fetch `timeout` doesn't fire under tarpit
     });
   } catch (err) {
     console.warn(`[archive] getItem(${cleanId}) network error:`, err.message);
+    _noteArchiveFail();
     return fallback;
   }
   if (!res.ok) {
     console.warn(`[archive] getItem(${cleanId}) HTTP ${res.status}`);
+    _noteArchiveFail();
     return fallback;
   }
+  _archiveFails = 0; // success → close the breaker
   let data;
   try { data = await res.json(); } catch { data = {}; }
 
