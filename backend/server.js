@@ -414,12 +414,18 @@ async function resolveChannelBlocks(blocks, cap) {
   return dropWikiFlagged(kept);
 }
 
-let _kidsSat = { t: 0, cats: [] };
-async function kidsSaturdayChannels() {
-  if (Date.now() - _kidsSat.t < 10 * 60 * 1000 && _kidsSat.cats.length) return _kidsSat.cats; // 10m, but only when we actually have channels
+let _kidsSat = { t: 0, cats: [], building: false };
+// The channel build resolves ~240 tapes live from IA (~90s cold) — FAR too slow to block a
+// request on. Blocking it made every kids request time out, and with no in-flight dedup
+// concurrent requests started competing builds that starved each other (the "kids won't
+// populate / won't select" bug). So the build runs in the BACKGROUND: requests get whatever
+// is cached right now (the fast pool crates + picks render immediately even with zero
+// channels yet), and channels fill in over the next minute, appearing on refresh.
+async function buildKidsSatChannels() {
+  if (_kidsSat.building) return;            // in-flight dedup: one build at a time
+  _kidsSat.building = true;
   try {
     const cfg = JSON.parse(require("fs").readFileSync(KIDS_SAT_PATH, "utf8"));
-    // New shape: channels:[{name,blocks}]. Legacy shape: {blocks:[]} = one SATURDAY MORNING.
     const channels = Array.isArray(cfg.channels) ? cfg.channels
       : (Array.isArray(cfg.blocks) && cfg.blocks.length ? [{ name: cfg.name || "SATURDAY MORNING", blocks: cfg.blocks }] : []);
     const out = [];
@@ -429,14 +435,18 @@ async function kidsSaturdayChannels() {
         id: "kids_channel_" + String(ch.name).replace(/[^a-z0-9]+/gi, "_").toLowerCase(),
         group: "type", mature: false, live: true, name: ch.name, subtitle: "time travel TV", items,
       });
+      // Publish progress per channel so they appear on refresh as they resolve (and a
+      // never-finishing build still surfaces what it got). Never regress a fuller cache.
+      if (out.length >= _kidsSat.cats.length) _kidsSat.cats = out.slice();
     }
-    // Show best-so-far immediately (a partial build still beats a blank wall), but ARM the
-    // 10m cache ONLY on a FULL build. A partial result (storm dropped channels) keeps t
-    // un-advanced from the last full lock, so the next request retries and fills the rest;
-    // once all channels resolve it locks for 10m. Never regress a fuller cache to a thinner one.
-    if (out.length >= _kidsSat.cats.length) _kidsSat.cats = out;
-    if (out.length >= channels.length) _kidsSat.t = Date.now();
+    if (out.length && out.length >= channels.length) _kidsSat.t = Date.now(); // full build → 10m lock
   } catch (e) { /* keep last good */ }
+  finally { _kidsSat.building = false; }
+}
+// Non-blocking accessor: serve the cache, kick a background build when stale. NEVER awaits.
+function kidsSaturdayChannels() {
+  const fresh = Date.now() - _kidsSat.t < 10 * 60 * 1000 && _kidsSat.cats.length;
+  if (!fresh) buildKidsSatChannels(); // fire-and-forget; returns immediately below
   return _kidsSat.cats;
 }
 
@@ -1162,8 +1172,8 @@ app.listen(PORT, async () => {
   // Warm the KIDS channels off the request path (P1/P5): the cold build resolves ~240 tapes
   // and used to run synchronously on the first kid's request (150s+ blank wall). Doing it at
   // boot + every 10m means a kid always meets a pre-resolved wall. Staggered after categories.
-  setTimeout(() => { kidsSaturdayChannels().then((c) => console.log(`  ✓ kids channels warmed: ${c.length}`)).catch(() => {}); kidsPicksCategory().catch(() => {}); }, 3000);
-  setInterval(() => { kidsSaturdayChannels().catch(() => {}); }, 10 * 60 * 1000);
+  setTimeout(() => { buildKidsSatChannels().then(() => console.log(`  ✓ kids channels warmed: ${_kidsSat.cats.length}`)).catch(() => {}); kidsPicksCategory().catch(() => {}); }, 3000);
+  setInterval(() => { buildKidsSatChannels().catch(() => {}); }, 10 * 60 * 1000);
 
   // Backfill usernames for profiles that have none (one-time on startup)
   try {

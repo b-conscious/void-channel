@@ -770,16 +770,10 @@ export default function HomeScreen({ navigation, route }) {
         {/* Channels row removed — it duplicated the genre content below and the "LIVE"
             badge was misleading (it's auto-advancing archive video, not a live stream). */}
 
-        {/* ── Spotlight: TV & Features — big visual cards into the VERIFIED catalog. NEVER in kids. ── */}
-        {!kidsMode && !loading && (
-          <SpotlightRow
-            accent={accent}
-            onItemPress={handleItemPress}
-            onShows={() => navigation.navigate('Search', { catalog: 'series', _ts: Date.now() })}
-            onMovies={() => navigation.navigate('Search', { catalog: 'movies', _ts: Date.now() })}
-            contentW={contentW}
-          />
-        )}
+        {/* SpotlightRow (TELEVISION / FULL LENGTH FILMS) REMOVED 2026-06-13 (B: "pick a
+            lane"): it duplicated the SHOWS/MOVIES catalog doors above and routed to the same
+            catalog, AND it rendered nothing whenever the catalog was empty (IA-blocked). The
+            doors are the canonical, always-visible front door (slice 24). One lane. */}
 
           </>
         }
