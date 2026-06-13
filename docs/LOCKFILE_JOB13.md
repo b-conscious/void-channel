@@ -1,5 +1,20 @@
 # LOCKFILE: the upgrade build (JOB_13 onward)
 
+## SLICE 66 (IA RECOVERY FIX, SHIPPED 414bb56): Render logs proved archive.org TARPITS our
+## throttled IP — requests HANG ~30s ("[spine search] The user aborted a request" /
+## "/api/search -> 200 (30170ms)"), not a 429/403. node-fetch's soft `timeout` does NOT fire
+## under a tarpit, so hung connections piled up and kept IA from ever seeing a QUIET window to
+## expire the throttle (block dragged hours = self-inflicted). FIX: archive.search, getItem,
+## and the vet _rangeFetch now hard-abort at 8s via AbortSignal.timeout (was the ignored
+## `timeout: 15000`); getItem also fails fast to the no-video fallback when the breaker is open
+## and feeds _noteArchiveFail on failure. Fail fast -> trip breaker -> back off -> go QUIET ->
+## IA releases the IP. Dormant when IA is healthy (<1s). Low-risk: 8s > occasional fail on a
+## genuinely-slow query (tunable); search+getItem share one breaker (intentional, a transient
+## search blip can <=60s short-circuit playback). UNLOCKED: backend/archive.js.
+## RESULT: shipped + verified live (new build spine:up, degraded:false). Recovery pending —
+## the throttle needs time to expire now that we are quiet. (Detail: SESSION_FULL_2026-06-13.md
+## section 3.)
+
 ## SLICE 56 (declared before edit): P8 — SPINE DEATH WAS SILENT (blanked the whole wall +
 ## search with no signal). Two diagnostic fixes, no behavior change: (1) /health pings the
 ## spine (1.5s timeout) and reports { spine: up|down, degraded } so monitoring/loop flows

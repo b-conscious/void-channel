@@ -11,15 +11,23 @@ secrets/media excluded). Every change declared UNLOCKED + re-locked.
 ================================================================================
 - PROD is LIVE on the upgraded build (api.voidtv.net + www.voidtv.net), Render Standard 2 GB,
   co-located backend+spine via start-prod.js, spine.db on a 1 GB persistent disk at /var/data.
-- BLOCKER: archive.org has rate-limited Render's Oregon egress IP (earned by the cutover
-  crash-loop hammering it). Seeded wall + catalog WORK; anything live (search, playback,
-  kids channels) returns empty until the block lifts. It is TEMPORARY (automated cooldown,
-  not a ban — local/home IP works fine). B chose to WAIT it out. Do NOT redeploy while
-  waiting (a restart re-pokes IA and resets the cooldown).
-- HELD (committed locally, NOT pushed — ships in one push when IA clears): kids non-blocking
-  fix, catalog-doors consolidation, new VT app icon, icon-system pass 1 (VoidIcon + header).
-  The back button was in an earlier held commit; it only shows when there is a previous
-  screen (not on the home root).
+- BLOCKER (DIAGNOSED + FIX SHIPPED 2026-06-13): archive.org is THROTTLING Render's Oregon
+  egress IP — but NOT a 429 reject and NOT a 403 ban. It TARPITS: holds our requests open
+  ~30s with no response. Proof from Render logs: "[spine search] The user aborted a request"
+  + "/api/search -> 200 (30170ms)". Proof it is IP-specific not a code bug: local/home IP
+  resolves IA instantly on the SAME code. WHY IT DRAGGED FOR HOURS: node-fetch's soft
+  `timeout` does NOT fire under a tarpit, so every search + every 15-min sync retry left a
+  30s hanging connection open — which kept signalling activity to IA, so the throttle never
+  got a QUIET window to expire. We were prolonging our own block. FIX (slice 66): hard-abort
+  every IA fetch at 8s via AbortSignal.timeout (search/getItem/vet) + feed/check the circuit
+  breaker -> fail fast -> back off -> go QUIET -> IA can release the IP. Seeded wall + catalog
+  keep working throughout (they read the pool/films table, not live IA).
+- SHIPPED 2026-06-13 (pushed, commit 414bb56, batch of 11): the kids non-blocking fix,
+  catalog-doors consolidation, back button, void-icon system pass 1 (VoidIcon + header +
+  wordmark + SHOWS/MOVIES content-type icons), new transparent VT app icon, FAB removal,
+  and the hard-abort recovery fix. Render backend + Vercel frontend both deployed; new build
+  confirmed live (spine:up, degraded:false). Awaiting IA throttle to expire now that we're
+  quiet. NOTHING is held anymore — the tree is fully pushed.
 
 ================================================================================
 ## 1. PRODUCTION CUTOVER + ARCHITECTURE
@@ -77,9 +85,15 @@ CAUSE: the OOM crash-loop restarted the spine dozens of times, each firing a ful
 archive.org from Render's IP -> IA rate-limited the IP. Every live IA call (search, item
 resolve/playback, kids channel resolve) returns empty/fails. Seeded data (wall rows, catalog
 films) works because it is static.
-NOT PERMANENT: automated cooldown, not a ban. Proven not VOIDtv-wide — local/home IP resolves
-IA instantly. Will not re-trigger (circuit breaker backs off; self-healing sync is gentle).
-FIXES SHIPPED so prod survives + self-heals:
+EXACT MECHANISM (from Render logs 2026-06-13): NOT a 429 reject, NOT a 403 ban — a TARPIT.
+Requests to archive.org HANG ~30s with no response, then our own timeout aborts ("[spine
+search] The user aborted a request" / "/api/search -> 200 (30170ms)"). NOT a code bug —
+local/home IP resolves IA instantly on identical code, so it is purely the throttled Render IP.
+WHY IT DRAGGED HOURS (the key insight): node-fetch's soft `timeout` does NOT fire under a
+tarpit (the socket stays "active"), so every search + every 15-min sync retry left a 30s
+hanging connection open. That sustained signal kept IA from ever seeing a QUIET window to
+expire the throttle — we were prolonging our own block.
+FIXES SHIPPED so prod survives + RECOVERS:
 - Seed (c7e004c, 52a73b9): committed spine/seed-spine.db (local 17k-item sync, 39 MB) +
   launcher seeds the disk on boot when empty. Decided by ROW COUNT (<500 video rows), not file
   size (an empty schema+WAL exceeds 1 MB — the size check skipped the seed; row-count fixed it).
@@ -87,7 +101,18 @@ FIXES SHIPPED so prod survives + self-heals:
 - Self-healing sync scheduler (d86eed8): the spine retries sync every 15 min while the pool is
   THIN (<500 video rows), then backs off to 8 h once healthy. Removes the 8-hour-empty trap
   (the old code banked an empty sync as "fresh"). Fills the moment IA lets us back in.
-STATUS: still blocked as of session end. B is waiting it out.
+- HARD-ABORT (slice 66, commit 414bb56) — THE RECOVERY FIX: every IA fetch (search, getItem,
+  vet _rangeFetch) now uses AbortSignal.timeout(8000) instead of node-fetch's ignored `timeout`
+  option, so a tarpitted request dies in 8s -> trips the circuit breaker (6 fails -> 60s
+  backoff) -> we go QUIET. getItem also fails fast to the no-video fallback when the breaker is
+  open (playback stops hanging 30s) and feeds the breaker on failure. Going quiet is the
+  mechanism that lets IA release the IP. KNOWN low-risk downstream: 8s is more aggressive than
+  the old 15s (a genuinely-slow-but-working query could occasionally fail — tune up if seen);
+  search+getItem now share one breaker (intentional for "go quiet"; a transient search blip can
+  briefly <=60s short-circuit playback). Dormant entirely when IA is healthy (<1s responses).
+STATUS (session end): batch pushed; new build live (spine:up); we have gone quiet; awaiting the
+throttle to expire. If it does not clear in a reasonable window, escalate to a DIFFERENT-REGION
+spine (fresh egress IP; reversible) — same-region won't help (Render shares egress IPs).
 
 ================================================================================
 ## 4. DEBUG SWEEP — punch list P1-P8 (docs/DEBUG_SWEEP_2026-06-12.md)
@@ -170,15 +195,35 @@ STATUS: still blocked as of session end. B is waiting it out.
   buffer -> all synced to same frame; distinct #t = distinct resource + native start offset).
   PUSHED (3fdb3b7) — live.
 - 64 Pick-a-lane: removed duplicate SpotlightRow (TV/FILMS); SHOWS/MOVIES doors are the one
-  lane. HELD.
-- 65 Persistent back button (nav canGoBack/goBack + TopBar chevron). HELD. Shows only when
-  there is a previous screen.
+  lane. SHIPPED.
+- 65 Persistent back button (nav canGoBack/goBack + TopBar chevron). SHIPPED. Shows only when
+  there is a previous screen (not on the home root).
+- 66 HARD-ABORT IA fetches (the recovery fix) — see section 3. SHIPPED (414bb56).
 - Kids non-blocking build: channel build runs in BACKGROUND (deduped, incremental per channel,
   warmed at boot + 10m); requests serve cached pool crates instantly (0.013s, was 90-120s
-  timeout). Verified local: 9 channels populate. HELD.
-- ICON SYSTEM pass 1: see the dedicated section in SESSION_2026-06-13_CUTOVER.md. VoidIcon
-  component + header hamburger/back wired + verified; 28 icons sliced; 16-sheet inventory
-  documented. HELD.
+  timeout). Verified local: 9 channels populate. SHIPPED. Trade-off: kids first-load shows pool
+  crates immediately, network channels fill ~90s later (instant load > old 90s blocking).
+- ICON SYSTEM (B's neon-CRT icons, replacing Ionicons app-wide; inventory in
+  SESSION_2026-06-13_CUTOVER.md). SHIPPED so far: VoidIcon.js (static require map; icons carry
+  their own neon color+glow, NOT tintable; size sets box, contain-fit; hasVoidIcon() guard ->
+  Ionicon fallback). Wired+live: header (hamburger/back/etc.), the neon VOIDtv WORDMARK in
+  TopBar (replaces text logo; assets/voidtv-wordmark.png), SHOWS/MOVIES doors (type_tv_show /
+  type_movie). Sliced+registered: 17 content-type icons. Sliced, NOT wired: 5 bottom-nav (needs
+  B's 3-tab mapping: Browse/Signal/MyVoid <-> the sheet's home/browse/search/library/settings).
+  Pipeline: PIL slice sheet -> key near-black to alpha -> autocrop -> assets/voidicons/<surface>_
+  <role>.png -> add require line in VoidIcon -> wire surface. NEXT: player controls, content-type
+  badges on cards, settings/drawer, the framed/CRT sheets (harder crops).
+- NEW APP ICON: bold VT-swirl logo -> icon-192/512 + favicon. TRANSPARENT circular cutout (B:
+  no black outside the circle); mask centered on the badge bbox with a ~1.5% inset to kill stray
+  edge pixels; manifest icon-512 purpose changed "any maskable" -> "any" so launchers honor the
+  transparency. SHIPPED.
+- FAB REMOVED (B): the mobile floating menu FAB stacked bottom-left behind the Archivist console
+  (both at left, the code comment wrongly assumed it was on the right). Removed; TopBar hamburger
+  is the menu. SHIPPED. (Dead: unused fabAnim + styles.fab remain, harmless.)
+- MONITORING (B flagged the gap): WATCHLIST entry added. Recommended UptimeRobot KEYWORD monitor
+  on /health, keyword `"degraded":false`, alert when NOT found (catches spine-degraded AND total
+  down; a plain HTTP monitor misses spine-down because /health returns 200 when degraded).
+  Zero-code, no deploy. Optional /health?strict=1 (503 when degraded) for status-based tools.
 
 ================================================================================
 ## 6. SUPABASE SQL (run this session)
@@ -189,11 +234,14 @@ STATUS: still blocked as of session end. B is waiting it out.
   watch_history/watchlist; the best-effort SQL named some that don't exist — no-op'd).
 
 ================================================================================
-## 7. HELD COMMITS (push in ONE go when IA clears -> one deploy, everything lands)
+## 7. SHIP STATUS (the held batch was PUSHED 2026-06-13)
 ================================================================================
-On local master ahead of origin: kids non-blocking + pick-a-lane; back button + first icons;
-new app icon; icon pass 1 (VoidIcon + header). When IA is confirmed cooled: `git push origin
-master`, then verify /health + wall + playback + kids.
+The batch is no longer held — pushed as commit 414bb56 (11 commits): kids non-blocking,
+pick-a-lane, back button, void-icon system pass 1 (VoidIcon + header + wordmark + content-type
+doors), new transparent app icon, FAB removal, hard-abort recovery fix. Render backend + Vercel
+frontend deployed; new build live (spine:up, degraded:false). Tree fully pushed, working tree
+clean. REMAINING after IA recovers: verify the live wall reflects all fixes (Most Popular clean,
+snacks corral, kids channels populate, 10% TVs, icons, wordmark, transparent app icon).
 
 ================================================================================
 ## 8. STANDING RULINGS / MEMORY
@@ -206,12 +254,21 @@ B pays out of pocket (token economy).
 ================================================================================
 ## 9. OPEN / NEXT (B's court unless noted)
 ================================================================================
-- Wait out the IA block, then push the held batch + verify prod (playback/kids/search).
-- Icon system: continue pass-by-pass (bottom nav — needs B's "Signal" mapping; player controls;
-  content-type badges; settings/drawer; framed/CRT sheets). All held, frontend-only.
+- IA RECOVERY WATCH: batch is pushed, we've gone quiet (slice 66). Watch for the throttle to
+  expire (search returns hits, item resolve gives a videoUrl). Probe SPARINGLY — each search
+  pokes IA; the self-healing scheduler already probes every 15 min. If it does not clear in a
+  reasonable window, escalate to a DIFFERENT-REGION spine (fresh IP; reversible). When it
+  clears, verify the wall reflects all fixes.
+- DOC-PUSH COUPLING: pushing ANY commit (incl docs) restarts the Render backend (root dir blank,
+  auto-deploy on commit) which RE-POKES IA. So doc-only updates are committed LOCALLY and the
+  push is HELD until IA recovers, to preserve the quiet window. The real fix is a Render Build
+  Filter (Ignored Paths: mobile/**, docs/**) so frontend/doc changes don't restart the backend.
+- Icon system: continue pass-by-pass — bottom nav (NEEDS B's 3-tab mapping Browse/Signal/MyVoid);
+  player controls; content-type badges on cards; settings/drawer; framed/CRT sheets (harder
+  crops). 28 icons sliced, VoidIcon built, header+wordmark+doors wired.
 - Hero video at top of wall should CYCLE through fresh picks (B ask, not built).
 - Hover-to-preview clips on cards (B idea, not built).
 - P4 search ranking rotation (B's call).
-- Render Build Filter (mobile/** ignored) so frontend pushes don't restart the backend.
+- Monitoring: B to set up the UptimeRobot keyword monitor (zero-code); optional /health?strict=1.
 - Two-services or different-region spine (memory isolation / fresh IP) — reversible, deferred.
 - Standing court: founding-member pricing; TMDB drop-vs-wait; OpenSubtitles key; native lane.
