@@ -11,12 +11,15 @@
 const { spawn } = require('child_process');
 const path = require('path');
 
-const BACKEND_HEAP = process.env.BACKEND_HEAP_MB || '256';
-const SPINE_HEAP = process.env.SPINE_HEAP_MB || '144';
+// Heap caps are OPT-IN via env only. With a right-sized instance (Standard 2 GB) we let
+// Node manage memory with its defaults — no artificial cap that would starve the spine's
+// sync. The 512 MB squeeze taught us hard caps just trade an OOM for a heap-OOM; the real
+// fix is enough RAM, not a tighter cap. Set *_HEAP_MB only to deliberately constrain.
+function heapArg(envVal) { return envVal ? [`--max-old-space-size=${envVal}`] : []; }
 
 function startBackend() {
   console.log('[start-prod] starting backend (primary)...');
-  const p = spawn(process.execPath, [`--max-old-space-size=${BACKEND_HEAP}`, path.join(__dirname, 'backend', 'server.js')],
+  const p = spawn(process.execPath, [...heapArg(process.env.BACKEND_HEAP_MB), path.join(__dirname, 'backend', 'server.js')],
     { cwd: path.join(__dirname, 'backend'), stdio: 'inherit', env: process.env });
   p.on('exit', (code) => {
     console.error(`[start-prod] backend exited (${code}). Exiting so Render restarts the service.`);
@@ -28,7 +31,7 @@ let spineAttempts = 0;
 function startSpine() {
   spineAttempts++;
   console.log(`[start-prod] starting spine (secondary, attempt ${spineAttempts})...`);
-  const p = spawn(process.execPath, [`--max-old-space-size=${SPINE_HEAP}`, path.join(__dirname, 'spine', 'spine.js')],
+  const p = spawn(process.execPath, [...heapArg(process.env.SPINE_HEAP_MB), path.join(__dirname, 'spine', 'spine.js')],
     { cwd: path.join(__dirname, 'spine'), stdio: 'inherit', env: process.env });
   p.on('exit', (code) => {
     const delay = Math.min(120000, 10000 * spineAttempts); // 10s, 20s ... cap 2m
