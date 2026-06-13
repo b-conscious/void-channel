@@ -18,6 +18,25 @@ const ICONS = {
   hdr_hamburger: require('../../assets/voidicons/hdr_hamburger.png'),
   hdr_profile: require('../../assets/voidicons/hdr_profile.png'),
   hdr_donate: require('../../assets/voidicons/hdr_donate.png'),
+
+  // Content types (the 18-icon sheet) — type identity on doors/cards/rows.
+  type_movie: require('../../assets/voidicons/movie.png'),
+  type_tv_show: require('../../assets/voidicons/tv_show.png'),
+  type_short_film: require('../../assets/voidicons/short_film.png'),
+  type_documentary: require('../../assets/voidicons/documentary.png'),
+  type_clapperboard: require('../../assets/voidicons/clapperboard.png'),
+  type_educational: require('../../assets/voidicons/educational.png'),
+  type_animation: require('../../assets/voidicons/animation.png'),
+  type_commercial: require('../../assets/voidicons/commercial.png'),
+  type_music: require('../../assets/voidicons/music.png'),
+  type_radio_drama: require('../../assets/voidicons/radio_drama.png'),
+  type_podcast: require('../../assets/voidicons/podcast.png'),
+  type_ebook: require('../../assets/voidicons/ebook.png'),
+  type_audiobook: require('../../assets/voidicons/audiobook.png'),
+  type_comic: require('../../assets/voidicons/comic.png'),
+  type_magazine: require('../../assets/voidicons/magazine.png'),
+  type_retro_game: require('../../assets/voidicons/retro_game.png'),
+  type_arcade_game: require('../../assets/voidicons/arcade_game.png'),
 };
 
 export function hasVoidIcon(name) {

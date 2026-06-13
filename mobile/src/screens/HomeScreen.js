@@ -7,6 +7,7 @@ import {
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { LinearGradient } from 'expo-linear-gradient';
 import { Ionicons } from '@expo/vector-icons';
+import VoidIcon, { hasVoidIcon } from '../components/VoidIcon';
 import * as Haptics from 'expo-haptics';
 
 import FastImage from '../components/FastImage';
@@ -1198,8 +1199,8 @@ function ChannelsRow({ categories, accent, onChannelPress, generationId, loading
 function CatalogDoorRow({ accent, contentW, onShows, onMovies }) {
   var cardW = Math.floor((contentW - spacing.screenPadding * 2 - 10) / 2);
   var doors = [
-    { key: 'series', icon: 'albums-outline', title: 'SHOWS', sub: 'series · episodes in order', onPress: onShows },
-    { key: 'movies', icon: 'film-outline', title: 'MOVIES', sub: 'the verified film catalog', onPress: onMovies },
+    { key: 'series', icon: 'albums-outline', voidIcon: 'type_tv_show', title: 'SHOWS', sub: 'series · episodes in order', onPress: onShows },
+    { key: 'movies', icon: 'film-outline', voidIcon: 'type_movie', title: 'MOVIES', sub: 'the verified film catalog', onPress: onMovies },
   ];
   return (
     <View style={doorStyles.row}>
@@ -1210,7 +1211,9 @@ function CatalogDoorRow({ accent, contentW, onShows, onMovies }) {
             onPress={d.onPress}
             style={[doorStyles.card, { width: cardW, borderColor: accent + '55' }]}
           >
-            <Ionicons name={d.icon} size={18} color={accent} />
+            {hasVoidIcon(d.voidIcon)
+              ? <VoidIcon name={d.voidIcon} size={26} />
+              : <Ionicons name={d.icon} size={18} color={accent} />}
             <View style={{ flex: 1 }}>
               <Text style={[doorStyles.title, { color: accent }]}>{d.title}</Text>
               <Text style={doorStyles.sub}>{d.sub}</Text>
