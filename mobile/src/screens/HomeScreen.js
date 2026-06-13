@@ -822,32 +822,8 @@ export default function HomeScreen({ navigation, route }) {
         }
       />
 
-      {/* ── Floating menu FAB — appears when header scrolls out of view (mobile only) ── */}
-      {!IS_DESKTOP && <Animated.View
-        style={[styles.fab, { bottom: insets.bottom + 74, opacity: fabAnim, pointerEvents: 'auto' }]}
-      >
-        <TouchableOpacity
-          onPress={openDrawer}
-          style={[styles.fabBtn, { backgroundColor: colors.surface, borderColor: accent + '40' }]}
-          activeOpacity={0.8}
-          hitSlop={6}
-        >
-          <Ionicons name="menu" size={20} color={accent} />
-        </TouchableOpacity>
-        <TouchableOpacity
-          onPress={() => {
-            Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-            scrollRef.current?.scrollToOffset?.({ offset: 0, animated: true });
-            // Animated.FlatList wraps getNode in some versions
-            scrollRef.current?.getNode?.()?.scrollToOffset?.({ offset: 0, animated: true });
-          }}
-          style={[styles.fabBtn, styles.fabBtnSmall, { backgroundColor: colors.surface, borderColor: accent + '25' }]}
-          activeOpacity={0.8}
-          hitSlop={6}
-        >
-          <Ionicons name="chevron-up" size={16} color={colors.textMuted} />
-        </TouchableOpacity>
-      </Animated.View>}
+      {/* Floating menu FAB removed (B 2026-06-13): on mobile it stacked bottom-left right
+          behind the Archivist console. The TopBar hamburger is the menu affordance. */}
 
       {/* The Archivist — AI rabbit-hole guide (floating console) */}
       <TheArchivist navigation={navigation} accent={accent} />
