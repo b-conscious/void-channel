@@ -19,6 +19,28 @@ const path = require('path');
 // later, set the var AND remove it from this list.)
 for (const k of ['BACKEND_HEAP_MB', 'SPINE_HEAP_MB', 'SPINE_POOL_CAP']) delete process.env[k];
 
+// SEED THE DISK (cutover 2026-06-13): the crash-loop hammered archive.org and got Render's
+// IP rate-limited, so the spine's first sync lands nothing and the wall stays blank for
+// however long IA stays mad. spine/seed-spine.db is a known-good local sync (17k items).
+// If the disk DB is missing or empty (< 1 MB = schema only, no real rows), copy the seed in
+// BEFORE the spine opens it — wall fills instantly, no IA dependency. Never overwrites a real
+// synced DB (the self-healing sync refreshes it later once IA cools).
+(function seedDiskIfEmpty() {
+  const fs = require('fs');
+  const disk = process.env.SPINE_DB || path.join(__dirname, 'spine', 'spine.db');
+  const seed = path.join(__dirname, 'spine', 'seed-spine.db');
+  try {
+    if (!fs.existsSync(seed)) return;
+    const empty = !fs.existsSync(disk) || fs.statSync(disk).size < 1024 * 1024;
+    if (empty) {
+      fs.copyFileSync(seed, disk);
+      console.log(`[start-prod] seeded ${disk} from seed-spine.db (${Math.round(fs.statSync(disk).size / 1048576)} MB)`);
+    } else {
+      console.log('[start-prod] disk DB already populated; seed skipped');
+    }
+  } catch (e) { console.error('[start-prod] seed failed (continuing):', e.message); }
+})();
+
 // Heap caps are OPT-IN via env only. With a right-sized instance (Standard 2 GB) we let
 // Node manage memory with its defaults — no artificial cap that would starve the spine's
 // sync. The 512 MB squeeze taught us hard caps just trade an OOM for a heap-OOM; the real
