@@ -277,4 +277,32 @@ B pays out of pocket (token economy).
 - P4 search ranking rotation (B's call).
 - Monitoring: B to set up the UptimeRobot keyword monitor (zero-code); optional /health?strict=1.
 - Two-services or different-region spine (memory isolation / fresh IP) — reversible, deferred.
+- KIDS-WARM GATING (small, B 2026-06-13): the kids channel boot/10-min warm (buildKidsSat
+  Channels -> resolvePick -> search) still gives IA a tiny breaker-limited poke each cycle
+  while throttled. Gate it to SKIP the warm while the circuit breaker is open (Date.now() <
+  _archiveCircuitUntil) so we are PERFECTLY silent during a throttle. Low effort, do in the
+  consolidation pass.
+- CONSOLIDATION / DURABILITY PHASE (B, planned ~a few days out, when prod is stable — NOT
+  mid-incident). Goal: rewind complexity where we iterated past issues with whack-a-mole, and
+  harden. Concretely: (1) replace heuristic pile-ups (BAD_ENCODE/DEAD_T/SHORT_T regex screens,
+  the multiple title filters) with the ROOT-CAUSE fixes we found (the playability vet + metadata
+  resolution already supersede much of it); (2) unify duplicated classification (kids/mature/
+  foreign screens into one pass); (3) ADD A REAL TEST SUITE first (the fanout tests are the
+  model) so simplification is safe — you cannot simplify confidently without regression tests;
+  (4) durability: the IA dependency (partnership/self-host hot content), single-instance file
+  state -> durable shared store, monitoring (UptimeRobot + /health?strict=1), the deploy
+  coupling (Render Build Filter). Method: deliberate, one consolidation per slice, tests-first,
+  the lock protocol, on a STABLE prod (simplifying a live system is its own risk).
+- FUNDING / ORG AVENUES (B curious). The 501(c)(3) status is the key enabler (grants, tax-
+  deductible donations, org partnerships). Natural allies/paths: (1) INTERNET ARCHIVE
+  partnership FIRST — a 501c3 making the Archive usable for humans IS IA's mission story; could
+  give rate-limit relief / blessed status / visibility AND solve the existential IA-dependency
+  risk at once (watchlist already flags this; Opus can draft the letter). (2) Open-culture orgs:
+  Creative Commons, Wikimedia Foundation (we use Wikidata/Commons), DPLA, Public Domain Review,
+  library/archive assns. (3) Grants: NEH (humanities), IMLS (libraries/museums), Knight (media/
+  civic), Mozilla (open web); the "before AI slop, human creativity" thesis is timely and
+  fundable right now. LEAD ASSET: a LIVE working demo (you now have one) beats a pitch deck.
+  CAVEAT (vigilant): funder/partner association raises the stakes on the rights posture + the
+  mature corral (same optic as app-store review) — clean that up before the conversations.
+  SEQUENCE: harden/consolidate -> clean rights posture -> IA conversation -> open-culture/grants.
 - Standing court: founding-member pricing; TMDB drop-vs-wait; OpenSubtitles key; native lane.
