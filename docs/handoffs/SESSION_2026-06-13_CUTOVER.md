@@ -1,5 +1,28 @@
 # SESSION HANDOFF — 2026-06-12/13: debug sweep, then the production cutover
 
+## ICON SYSTEM (B's neon-CRT icons — IN PROGRESS, phased)
+B dropped 16 neon-CRT icon sheets (~150 icons) to replace Ionicons app-wide — his aesthetic
+remodel. Source sheets: C:/Users/bryan/AppData/Local/Temp/zipdrop (re-share if temp cleared).
+Pipeline: PIL slice each sheet -> transparent PNG (key near-black to alpha, autocrop) ->
+mobile/assets/voidicons/<surface>_<role>.png -> VoidIcon.js (static require map) -> wire per
+surface, replacing Ionicons. Icons carry their own neon COLOR + glow (not tintable — palette
+is intentional); halftone texture fades below ~28px but silhouette+color read fine.
+SHEET INVENTORY (surface -> file):
+ header(3cb52282 clean) · content-types(1a84042b clean,18) · game+community(3247674a clean) ·
+ bottom-nav inactive(37ecc14f framed) · bottom-nav ACTIVE(4732bb8e clean) · player ctrls
+ (3e68ae91 framed) · audio-player(7c503a0a framed) · video-player ext(d88d7108 CRT bezel) ·
+ card actions(73ef31ee CRT bezel) · settings(3d57987a framed) · settings mono-blue(c497b016) ·
+ search suite(0468217f) · reader(055c9109 CRT) · empty/error states(2471fc59) ·
+ share/notif/social(c099fc1b) · single: share-to-facebook(a9ae9848).
+DONE: VoidIcon component built; header hamburger + back wired & VERIFIED live (looks good);
+ sliced so far = content-types(18) + header(5) + bottom-nav(5). NEXT PASSES (priority): bottom
+ nav (NOTE: app has 3 tabs Browse/Signal/MyVoid but B's sheet has 5 home/browse/search/library/
+ settings — mapping needs B: Browse->nav_browse, MyVoid->nav_library, Signal->? ), player
+ controls, content-type badges on cards, then settings/drawer + the framed/CRT sheets (harder
+ crops). All held with the deploy batch (frontend, no IA dependency).
+
+
+
 Self-contained handoff for a fresh session (any model). Continuity lives in the files, not
 the model. Read order: THE_VOID_BUILD_PLAN.md, BUILD_PLAN.md, docs/ROADMAP_2026-06-12.md,
 docs/DEBUG_SWEEP_2026-06-12.md, docs/LOCKFILE_JOB13.md (slice-by-slice detail for everything

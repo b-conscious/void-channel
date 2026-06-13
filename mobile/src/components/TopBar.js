@@ -17,6 +17,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 
 import FastImage from './FastImage';
+import VoidIcon from './VoidIcon';
 import { useGeneration } from '../context/GenerationContext';
 import { useKids } from '../context/KidsContext';
 import { useAuth } from '../context/AuthContext';
@@ -92,11 +93,11 @@ export default function TopBar({ nav }) {
               to (B: "a simple back button at all times to go to last"). */}
           {nav && nav.canGoBack && nav.canGoBack() && (
             <TouchableOpacity onPress={nav.goBack} style={styles.hamburger} hitSlop={8} activeOpacity={0.7}>
-              <Ionicons name="chevron-back" size={24} color={colors.textPrimary} />
+              <VoidIcon name="hdr_back" size={30} />
             </TouchableOpacity>
           )}
           <TouchableOpacity onPress={openDrawer} style={styles.hamburger} hitSlop={8} activeOpacity={0.7}>
-            <Ionicons name="menu" size={24} color={colors.textPrimary} />
+            <VoidIcon name="hdr_hamburger" size={30} />
           </TouchableOpacity>
           <TouchableOpacity onPress={() => nav.navigate('Browse')} activeOpacity={0.7}>
             <View style={styles.logoWrap}>
