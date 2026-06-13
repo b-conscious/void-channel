@@ -96,6 +96,14 @@ and relationship items stay tracked at lower volume.
   move durable state to Supabase/Upstash, and decide Move 1 (Spine production home) first.
   Cheaper resilience available now: bake a last-good static categories payload to the CDN so
   the wall still browses when the backend is down. (2026-06-12)
+- **No uptime alerting (B flagged 2026-06-13).** /health reports {spine,degraded} and stderr
+  goes to logfiles, but nothing ALERTS — a spine death at 3 AM is found by manual check. CLOSE
+  THE LOOP with an UptimeRobot (free) KEYWORD monitor on https://api.voidtv.net/health: keyword
+  `"degraded":false`, alert when NOT found — catches BOTH spine-degraded and total-down in one
+  monitor (a plain HTTP monitor misses spine-down because /health returns 200 even when
+  degraded). Zero-code, no deploy — B can set it up now. Optional: add /health?strict=1 (503
+  when degraded) to the deploy batch for status-based tools. Do NOT health-probe IA (poking a
+  throttled IA prolongs the block); monitor backend+spine liveness only. (2026-06-13)
 - **Free-tier cliffs are real liabilities:** Render (sleep + bandwidth), Vercel (bandwidth),
   Supabase (rows + storage), Upstash (commands). A traffic spike converts directly into outage or
   surprise bill. The funding circuit (JOB_9 mechanics) should be live BEFORE any deliberate
