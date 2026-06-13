@@ -170,6 +170,14 @@ function makeNav(navigationRef) {
         },
       };
     },
+    // Persistent back (B: "a simple back button at all times to go to last"). Used by the
+    // TopBar; only shown when there IS a previous screen to return to.
+    canGoBack: function () {
+      return !!(navigationRef && navigationRef.isReady() && navigationRef.canGoBack());
+    },
+    goBack: function () {
+      if (navigationRef && navigationRef.isReady() && navigationRef.canGoBack()) navigationRef.goBack();
+    },
   };
 }
 

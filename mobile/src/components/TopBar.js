@@ -88,6 +88,13 @@ export default function TopBar({ nav }) {
       <View style={styles.row}>
         {/* ── Left: hamburger + logo ── */}
         <View style={[styles.side, IS_DESKTOP && styles.sideFlex]}>
+          {/* Persistent back — go to last screen, shown whenever there's somewhere to go back
+              to (B: "a simple back button at all times to go to last"). */}
+          {nav && nav.canGoBack && nav.canGoBack() && (
+            <TouchableOpacity onPress={nav.goBack} style={styles.hamburger} hitSlop={8} activeOpacity={0.7}>
+              <Ionicons name="chevron-back" size={24} color={colors.textPrimary} />
+            </TouchableOpacity>
+          )}
           <TouchableOpacity onPress={openDrawer} style={styles.hamburger} hitSlop={8} activeOpacity={0.7}>
             <Ionicons name="menu" size={24} color={colors.textPrimary} />
           </TouchableOpacity>
