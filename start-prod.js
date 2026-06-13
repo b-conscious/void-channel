@@ -30,13 +30,26 @@ for (const k of ['BACKEND_HEAP_MB', 'SPINE_HEAP_MB', 'SPINE_POOL_CAP']) delete p
   const disk = process.env.SPINE_DB || path.join(__dirname, 'spine', 'spine.db');
   const seed = path.join(__dirname, 'spine', 'seed-spine.db');
   try {
-    if (!fs.existsSync(seed)) return;
-    const empty = !fs.existsSync(disk) || fs.statSync(disk).size < 1024 * 1024;
-    if (empty) {
+    if (!fs.existsSync(seed)) { console.log('[start-prod] no seed file present'); return; }
+    // Decide by ROW COUNT, not file size: an empty-but-schema'd SQLite + WAL exceeds 1 MB,
+    // so the old size check skipped the seed. Open the disk DB read-only and count real pool
+    // rows; seed only when it's effectively empty (< 500 video rows). Never clobbers a real DB.
+    let videoRows = 0;
+    if (fs.existsSync(disk)) {
+      try {
+        const { DatabaseSync } = require('node:sqlite');
+        const d = new DatabaseSync(disk, { readOnly: true });
+        try { videoRows = d.prepare("SELECT COUNT(*) c FROM pool WHERE type='video'").get().c; } catch (e) { videoRows = 0; }
+        d.close();
+      } catch (e) { videoRows = 0; }
+    }
+    if (videoRows < 500) {
+      // Remove stale WAL/SHM so the copied DB isn't shadowed by an empty journal.
+      for (const ext of ['', '-wal', '-shm']) { try { if (ext && fs.existsSync(disk + ext)) fs.rmSync(disk + ext); } catch (e) {} }
       fs.copyFileSync(seed, disk);
-      console.log(`[start-prod] seeded ${disk} from seed-spine.db (${Math.round(fs.statSync(disk).size / 1048576)} MB)`);
+      console.log(`[start-prod] seeded ${disk} from seed-spine.db (disk had ${videoRows} video rows)`);
     } else {
-      console.log('[start-prod] disk DB already populated; seed skipped');
+      console.log(`[start-prod] disk DB has ${videoRows} video rows; seed skipped`);
     }
   } catch (e) { console.error('[start-prod] seed failed (continuing):', e.message); }
 })();
