@@ -209,26 +209,15 @@ function StaticVideo({ size, label, color, style, persist }) {
     var onError = function () { setFailed(true); };
     video.addEventListener('error', onError);
 
-    // Stagger each TV's playback by 10s × its mount index, so the wall is DESYNCHRONISED — every
-    // screen starts at a different time, 10 seconds apart — instead of looping in lockstep. The
-    // stream is fast-start so seeking is instant; the ~116s clip gives ~11 distinct phases before
-    // the offset wraps. Each blink cycle advances the phase so a TV never resumes where it left.
-    function staggerStart() {
-      try {
-        var d = video.duration;
-        if (d && isFinite(d) && d > 1) {
-          // +0-6s jitter: mount order can collide phases (remounts skew the seq sequence)
-          video.currentTime = ((((seq + cycle) * 10) + Math.random() * 6) % d);
-        }
-      } catch (e) {}
-    }
-    if (video.readyState >= 1) staggerStart();
-    else video.addEventListener('loadedmetadata', staggerStart, { once: true });
+    // Stagger is now NATIVE via the #t media-fragment in the src (see render). The old JS
+    // currentTime seek silently failed: every tile loads the IDENTICAL url, so Chrome shared
+    // ONE decoded buffer across them and they synced to the same frame (verified live: 3 tiles
+    // stuck at 1.2s). A distinct #t per tile makes each <video> a distinct resource AND sets
+    // its start second — so the 10s stagger actually holds. No JS seek needed.
 
-    // Blink out after a random 20-40s. persist: go dark (the separate effect below brings
-    // it back — the timer must NOT live here, because this effect re-runs when dark flips
-    // and its cleanup would kill the recovery). Otherwise settle to the quiet VOID pulse.
-    var lifespan = 20000 + Math.random() * 20000;
+    // Blink to a fresh scene about every 20s (B: "a different fresh video more often, ~20s").
+    // persist: go dark, the relight effect below brings it back at the next offset.
+    var lifespan = 17000 + Math.random() * 6000;
     var offTimer = null;
     var blinkTimer = setTimeout(function () {
       try { video.style.animation = 'voidPowerOff 420ms ease-in forwards'; } catch (e) {}
@@ -260,6 +249,10 @@ function StaticVideo({ size, label, color, style, persist }) {
     return <PulsingVoid size={size} label={label} color={color} style={style} />;
   }
 
+  // 10s stagger across tiles (seq) + advance 20s each blink cycle (a fresh scene). The #t
+  // media fragment sets the start second natively and makes each element a DISTINCT resource
+  // (kills the shared-buffer sync). Modulo 100 keeps the offset inside the ~116s stream.
+  var startAt = (((seq * 10) + (cycle * 20)) % 100);
   return (
     <View style={[styles.center, dims, { overflow: 'hidden', position: 'relative' }, style]} dataSet={{ svio: uid }}>
       {visible && (
@@ -267,7 +260,7 @@ function StaticVideo({ size, label, color, style, persist }) {
           ref={containerRef}
           style={{ width: '100%', height: '100%', position: 'absolute', top: 0, left: 0, overflow: 'hidden', borderRadius: 8 }}
           dangerouslySetInnerHTML={{
-            __html: '<video src="' + clipUrl + '" autoplay muted loop playsinline '
+            __html: '<video src="' + clipUrl + '#t=' + startAt + '" autoplay muted loop playsinline '
               + 'style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;'
               + 'filter:saturate(0.7) contrast(1.15) brightness(' + brightness + ');'
               + 'animation:voidPowerOn 360ms ease-out, voidOpacityRamp 40s linear forwards;" />'
