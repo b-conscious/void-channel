@@ -306,3 +306,13 @@ B pays out of pocket (token economy).
   mature corral (same optic as app-store review) — clean that up before the conversations.
   SEQUENCE: harden/consolidate -> clean rights posture -> IA conversation -> open-culture/grants.
 - Standing court: founding-member pricing; TMDB drop-vs-wait; OpenSubtitles key; native lane.
+
+================================================================================
+## BRANDING / LOGO TERMS (so it stays straight)
+================================================================================
+- WORDMARK (a.k.a. logotype): the brand NAME styled as a logo - text-based. VOIDtv's is the
+  neon "VOIDtv" (blue VOID + orange Tv). Lives in the HEADER (TopBar, assets/voidtv-wordmark.png).
+- APP ICON / LOGOMARK: the SYMBOL/badge - the round VT swirl. The PWA/install/favicon/taskbar
+  icon (mobile/public/icon-192|512.png, favicon, transparent circular cutout on void black).
+- They are a PAIR: wordmark in the header, logomark as the app icon. Do NOT swap one for the
+  other (an earlier session put the app icon in the header by mistake; corrected 2026-06-13).
