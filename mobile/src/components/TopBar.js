@@ -14,8 +14,8 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, TouchableOpacity, Linking, StyleSheet, Platform, Dimensions, Image } from 'react-native';
 
-// B's round VT app icon — the header brand mark (B: "use the app icon").
-const VOIDTV_ICON = require('../../assets/app-icon.png');
+// B's neon VOIDtv wordmark — the header logo. ~4.1:1.
+const VOIDTV_WORDMARK = require('../../assets/voidtv-wordmark.png');
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 
@@ -104,7 +104,7 @@ export default function TopBar({ nav }) {
           </TouchableOpacity>
           <TouchableOpacity onPress={() => nav.navigate('Browse')} activeOpacity={0.7}>
             <View style={styles.logoWrap}>
-              <Image source={VOIDTV_ICON} style={styles.logoIcon} resizeMode="contain" />
+              <Image source={VOIDTV_WORDMARK} style={styles.logoImg} resizeMode="contain" />
               {kidsMode && <Text style={[styles.logoKids, { color: kidsAccent }]}> KIDS</Text>}
             </View>
           </TouchableOpacity>
@@ -199,7 +199,7 @@ const styles = StyleSheet.create({
   hamburger: { padding: 4 },
   iconBtn: { padding: 4 },
   logoWrap: { flexDirection: 'row', alignItems: 'center' },
-  logoIcon: { width: 36, height: 36 }, // round VT app icon
+  logoImg: { height: 32, width: 131 }, // 4.1:1 wordmark
   logoKids: { fontFamily: fonts.monoBold, fontSize: 15, letterSpacing: 1.5 },
   logoVoid: { fontFamily: fonts.monoBold, fontSize: 18, letterSpacing: 4 },
   logoTv: { fontFamily: fonts.sans, fontSize: 14, color: colors.textMuted, letterSpacing: 0.5 },
