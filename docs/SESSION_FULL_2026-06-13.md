@@ -316,3 +316,8 @@ B pays out of pocket (token economy).
   icon (mobile/public/icon-192|512.png, favicon, transparent circular cutout on void black).
 - They are a PAIR: wordmark in the header, logomark as the app icon. Do NOT swap one for the
   other (an earlier session put the app icon in the header by mistake; corrected 2026-06-13).
+
+COLLAB NOTE (B, 2026-06-13): Bryan values being taught the correct NAMES and the REASONS as we
+go (e.g. learning "wordmark" vs "app icon/logomark"). It builds shared, precise vocabulary so
+there is LESS MISCOMMUNICATION on future, more complex work. Practice: name the thing + a one-
+line why, briefly, inline - don't skip the term, don't lecture.
