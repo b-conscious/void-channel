@@ -9,7 +9,10 @@ const metaCache = new Map();
 async function rawMetadata(identifier) {
   const hit = metaCache.get(identifier);
   if (hit && Date.now() - hit.t < META_TTL) return hit.v;
-  const res = await fetch(`https://archive.org/metadata/${encodeURIComponent(identifier)}`, { timeout: 20000 });
+  // HARD abort at 8s. node-fetch's `{ timeout }` option is IGNORED by Node's built-in fetch
+  // (undici), so under an IA tarpit this hung ~30s with NO working timeout, kept signalling a
+  // throttled IA, and prolonged the block. AbortSignal.timeout actually fires. (2026-06-14)
+  const res = await fetch(`https://archive.org/metadata/${encodeURIComponent(identifier)}`, { signal: AbortSignal.timeout(8000) });
   if (!res.ok) throw new Error(`metadata ${res.status}`);
   const v = await res.json();
   metaCache.set(identifier, { t: Date.now(), v });

@@ -6,7 +6,7 @@ a2c1f48e7553f6b5da21da50aa4d2d25 *./README.md
 983318a4634447b503483e11e34ebca3 *./THE_VOID_BUILD_PLAN.md
 36c82553ae7d85aea22a0d80a898cd11 *./backend/_migrate.js
 e4c7d9dfb3c73f54bcc62df1bf2bff79 *./backend/admin.js
-69b7d4bbcc868b7718cf6c580cd20a81 *./backend/archive.js
+4402250553d85419312ae97864cffbd2 *./backend/archive.js
 b1c2730a58927219ffdd4fe1baed6ffd *./backend/archivist.js
 1c5ad7d49733b3ca4a2d23f7662608e9 *./backend/auth.js
 bb8b7f3e4d6784f9999622bbeb336635 *./backend/cache.js
@@ -208,7 +208,7 @@ ebf2300bb6c3575626e54b46e9f45d9d *./spine/README.md
 de947ab244ee445b8fd15cf30111abf9 *./spine/db.js
 0f9c6ae8839fab37923f8f53446705e4 *./spine/fanout.js
 e5b3219ba044781e19321d9cd47a06f4 *./spine/grouping.js
-8431bacaa35505329593f1d6440d2cb9 *./spine/mappers.js
+628ef9396d558f2dc49585a37e735593 *./spine/mappers.js
 fa7177f9895a943f38f1494eb8767961 *./spine/package-lock.json
 ed61f04a409de6051a7455b5ea5ce053 *./spine/package.json
 178ad62b69fb92bc4278a4915d0d1f9d *./spine/series-seeds.json
@@ -216,6 +216,6 @@ c546318c8d8583a13a6fa2602b209f1a *./spine/spine.js
 afa94e4d77498a7587a07bd5c6ff8e45 *./spine/sync.js
 488e35ef45f02bcdd0cc96fdd93ca859 *./spine/test-fanout.js
 ea6f19d38d2210030b308fbfcc93d3cc *./spine/test-fixtures.js
-2551b28deb8ab787e74efd56564a2119 *./start-prod.js
+31f62f73de8fcd3976eb49409feff2de *./start-prod.js
 e0cbcaa8fe3d08335d6a88876e094078 *./start-void.cmd
 1906c0584947258a610ba9c9187210f5 *./vercel.json

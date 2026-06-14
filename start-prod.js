@@ -74,8 +74,16 @@ let spineAttempts = 0;
 function startSpine() {
   spineAttempts++;
   console.log(`[start-prod] starting spine (secondary, attempt ${spineAttempts})...`);
+  // The spine must use DIRECT archive.org paths. If it inherits SPINE_URL it reroutes its own
+  // archive.search/getItem back to localhost:3002 (ITSELF) and recurses until the request times
+  // out — search returns empty, item resolves 500, never reaching IA (2026-06-14 root cause).
+  // Render injects SPINE_URL at the platform level, so the .env-absence assumption in archive.js
+  // doesn't protect us here; we strip it for the spine child explicitly. The BACKEND keeps
+  // SPINE_URL (that's how it reaches the spine).
+  const spineEnv = { ...process.env };
+  delete spineEnv.SPINE_URL;
   const p = spawn(process.execPath, [...heapArg(process.env.SPINE_HEAP_MB), path.join(__dirname, 'spine', 'spine.js')],
-    { cwd: path.join(__dirname, 'spine'), stdio: 'inherit', env: process.env });
+    { cwd: path.join(__dirname, 'spine'), stdio: 'inherit', env: spineEnv });
   p.on('exit', (code) => {
     const delay = Math.min(120000, 10000 * spineAttempts); // 10s, 20s ... cap 2m
     console.error(`[start-prod] spine exited (${code}). Backend stays up; restarting spine in ${delay / 1000}s.`);

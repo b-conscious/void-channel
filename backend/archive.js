@@ -1602,7 +1602,7 @@ async function searchCreator(creator, rows = 30, page = 1) {
 try { require('dotenv').config(); } catch (e) {}
 const SPINE_URL = process.env.SPINE_URL || null;
 
-async function spineGet(path, timeoutMs = 30000) {
+async function spineGet(path, timeoutMs = 10000) {  // 10s default: the spine's own IA fetches abort at 8s, so waiting 30s only stacked hung requests (2026-06-14)
   const opts = typeof AbortSignal !== 'undefined' && AbortSignal.timeout
     ? { signal: AbortSignal.timeout(timeoutMs) } : {};
   const res = await fetch(`${SPINE_URL}${path}`, opts);
@@ -1659,11 +1659,14 @@ if (SPINE_URL) {
   console.log(`[archive] SPINE transport active -> ${SPINE_URL}`);
 
   search = async (query, rows = 25, page = 1, sort = 'downloads desc') => {
+    if (Date.now() < _archiveCircuitUntil) return []; // breaker: stop hammering a struggling spine/IA
     try {
       const r = await spineGet(`/search?raw=true&q=${encodeURIComponent(query)}&rows=${rows}&page=${page}&sort=${encodeURIComponent(sort)}`);
+      _archiveFails = 0; // success closes the breaker
       return r.items || [];
     } catch (e) {
       console.error('[spine search]', e.message);
+      _noteArchiveFail(); // feed the breaker so repeated spine/IA failures back off (was missing — search never tripped it)
       return []; // same degrade-to-empty contract the direct path has
     }
   };
