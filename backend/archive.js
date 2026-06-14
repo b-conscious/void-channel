@@ -1236,6 +1236,8 @@ async function vetPlayable(cleanId, file) {
   return verdict;
 }
 
+const { computeFanOut } = require('../spine/fanout.js'); // episode fan-out for bundled series items (pure module)
+
 async function getItem(identifier, opts = {}) {
   // Strip version suffixes (e.g. ":1") that Archive search sometimes appends
   var cleanId = identifier.replace(/:\d+$/, '');
@@ -1285,12 +1287,27 @@ async function getItem(identifier, opts = {}) {
   const meta = data?.metadata || {};
   const files = data?.files || [];
   let { fast, best } = pickVideos(files);
-  // Playability vet: suppress files that are POSITIVELY unplayable (HTML wall, bad codec).
-  // A bad fast falls through to best; all bad -> no videoUrl (kids drop it fail-closed,
-  // the player shows its honest error instead of NotSupportedError churn).
-  // skipVet (vouched kids content): B already approved it — vetting it stormed IA and blanked
-  // the kids wall (P1). Trust the vouch; the player graceful-skip stays the safety net.
-  if (!opts.skipVet && fast && (await vetPlayable(cleanId, fast)) === "bad") {
+  // Episode fan-out: a bundled "complete series" item is many episode FILES, not one video with
+  // many "formats" — that mislabeling dumped all episodes under AVAILABLE FORMATS (Aqua Teen,
+  // 2026-06-14). When the manifest fans out, resolve it AS A SERIES (episodes[]); default-play the
+  // first episode and SKIP the single-file vet (fanout already chose an mp4/non-x265 file per
+  // episode, and vetting one arbitrary file of hundreds would wrongly condemn the whole series).
+  let episodes = null;
+  const fan = computeFanOut(data, parseRuntimeSeconds);
+  if (fan && fan.length) {
+    const sizeByName = new Map(files.map((f) => [f.name, parseInt(f.size || 0) || null]));
+    episodes = fan.map((e) => ({
+      file: e.file, title: e.displayTitle, season: e.season, episode: e.episode,
+      episodeTitle: e.episodeTitle, contentType: e.contentType,
+      videoUrl: FILE_URL(cleanId, e.file), size: sizeByName.get(e.file) || null,
+    }));
+    const firstEp = episodes.find((x) => x.contentType === 'episode') || episodes[0];
+    fast = { name: firstEp.file, size: firstEp.size, format: 'mp4' };
+    best = null;
+  } else if (!opts.skipVet && fast && (await vetPlayable(cleanId, fast)) === "bad") {
+    // Playability vet: suppress files that are POSITIVELY unplayable (HTML wall, bad codec). A bad
+    // fast falls through to best; all bad -> no videoUrl (kids drop it fail-closed). skipVet
+    // (vouched kids content) trusts B's approval — vetting it stormed IA and blanked kids (P1).
     fast = (best && (await vetPlayable(cleanId, best)) !== "bad") ? best : null;
     best = null;
   }
@@ -1322,7 +1339,7 @@ async function getItem(identifier, opts = {}) {
     videoUrlHQ: best ? FILE_URL(cleanId, best.name) : null,
     videoSize: fast ? parseInt(fast.size || 0) : null,
     videoFormat: fast ? fast.format : null,
-    availableFormats: files
+    availableFormats: episodes ? [] : files
       .filter((f) => f.name && f.name.toLowerCase().endsWith(".mp4"))
       .map((f) => ({
         name: f.name,
@@ -1330,6 +1347,7 @@ async function getItem(identifier, opts = {}) {
         size: parseInt(f.size || 0),
         url: FILE_URL(cleanId, f.name),
       })),
+    ...(episodes ? { isBundle: true, episodes } : {}),
   };
 }
 
