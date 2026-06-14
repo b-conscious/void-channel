@@ -1759,6 +1759,37 @@ export default function PlayerScreen({ route, navigation }) {
           </View>
         )}
 
+        {/* ── Episodes (a bundled series, fanned into per-episode entries) ── */}
+        {item.episodes?.length > 0 && (
+          <View style={styles.formatsSection}>
+            <View style={styles.sectionLine}>
+              <View style={styles.sectionLineBorderDim} />
+              <Text style={styles.sectionLabelDim}>EPISODES · {item.episodes.length}</Text>
+              <View style={styles.sectionLineBorderDim} />
+            </View>
+            {item.episodes.map((ep, i) => {
+              const active = videoUrl === ep.videoUrl;
+              const showSeason = ep.contentType === 'episode' && ep.season != null &&
+                (i === 0 || item.episodes[i - 1].season !== ep.season);
+              const tag = ep.episode != null
+                ? `S${String(ep.season ?? 0).padStart(2, '0')}E${String(ep.episode).padStart(2, '0')}`
+                : String(ep.contentType || 'extra').toUpperCase();
+              const label = ep.episodeTitle || ep.title || ep.file;
+              return (
+                <React.Fragment key={ep.file || i}>
+                  {showSeason && <Text style={styles.episodeSeason}>SEASON {ep.season}</Text>}
+                  <TouchableOpacity style={styles.formatRow} activeOpacity={0.7} onPress={() => setVideoUrl(ep.videoUrl)}>
+                    <Text style={[styles.formatName, active && { color: accent }]} numberOfLines={1}>
+                      {active ? '▸ ' : ''}{tag}  {label}
+                    </Text>
+                    <Text style={styles.formatSize}>{ep.size ? `${(ep.size / 1024 / 1024).toFixed(0)} MB` : ''}</Text>
+                  </TouchableOpacity>
+                </React.Fragment>
+              );
+            })}
+          </View>
+        )}
+
         {/* ── Expandable formats ── */}
         {infoExpanded && item.availableFormats?.length > 1 && (
           <View style={styles.formatsSection}>
@@ -2741,8 +2772,9 @@ const styles = StyleSheet.create({
     paddingVertical: 8,
     borderBottomWidth: StyleSheet.hairlineWidth, borderBottomColor: colors.surface,
   },
-  formatName: { fontFamily: fonts.mono, fontSize: 11, color: colors.textSecondary },
+  formatName: { fontFamily: fonts.mono, fontSize: 11, color: colors.textSecondary, flex: 1, marginRight: 10 },
   formatSize: { fontFamily: fonts.mono, fontSize: 11, color: colors.textMuted },
+  episodeSeason: { fontFamily: fonts.monoBold, fontSize: 10, color: colors.textMuted, letterSpacing: 1, marginTop: 14, marginBottom: 4 },
 
   // ── Desktop two-column layout ──
   desktopRow: { flex: 1, flexDirection: 'row', paddingRight: 6 },
