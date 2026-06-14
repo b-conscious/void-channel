@@ -69,5 +69,22 @@ ok(scene && scene.episodeTitle === 'The Mind Machine', 'scene tags stripped from
 const yr = parseFilename('Dragnet.1954.S02E04.The.Big.Thief.720p.mp4');
 ok(yr && yr.episode === 4 && yr.episodeTitle === 'The Big Thief', 'year-in-name + tags -> clean title');
 
+// ── 7. Real ATHF complete-series bundle: dedup + paren scene tags + codec preference (2026-06-14)
+const athf = { metadata: { title: 'Aqua Teen Hunger Force Complete sereis (2000) (1080p HMAX WEB-DL H265 SDR DD English)' }, files: [
+  { name: 'Aqua Teen Hunger Force (2000) - S06E02 - Shake Like Me (1080p WEB-DL x265 r00t).mp4', size: '210000000', source: 'original' },
+  { name: 'Aqua Teen Hunger Force (2000) - S06e02 - Shake Like Me.mp4', size: '64000000', source: 'derivative' },
+  { name: 'Aqua Teen Hunger Force (2000) - S06E02 - Shake Like Me.mkv', size: '300000000', source: 'original' },
+  { name: 'Aqua Teen Hunger Force (2000) - S06E03 - Robositter.mp4', size: '63000000' },
+] };
+const af = computeFanOut(athf, parseRuntimeSeconds);
+ok(af && af.length === 2, 'ATHF: 3 files of S06E02 dedupe to ONE card (+ S06E03) => 2 episodes');
+const e2 = af && af.find((x) => x.episode === 2);
+ok(e2 && /\.mp4$/i.test(e2.file) && !/x265|\.mkv/i.test(e2.file), 'ATHF: picked a non-x265 .mp4 for S06E02');
+ok(e2 && e2.episodeTitle === 'Shake Like Me', 'ATHF: paren-wrapped scene tag stripped from ep title');
+ok(e2 && e2.displayTitle === 'Aqua Teen Hunger Force (2000) S06E02: Shake Like Me', 'ATHF: clean display title (no leading dash, no (1080p)');
+ok(af && af[0].episode === 2 && af[1].episode === 3, 'ATHF: episodes sorted by season/episode');
+const pa = parseFilename('Aqua Teen Hunger Force (2000) - S06E02 - Shake Like Me (1080p WEB-DL x265 r00t).mp4');
+ok(pa && pa.episodeTitle === 'Shake Like Me', 'paren-wrapped (1080p...) tag stripped at parse');
+
 console.log(`\nfanout tests: ${pass} passed, ${fail} failed`);
 process.exit(fail ? 1 : 0);

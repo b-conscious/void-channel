@@ -26,12 +26,17 @@ const EXTRA_RE = /bonus|extra|behind[\s._-]the[\s._-]scenes|deleted|blooper|gag[
 
 // Strip scene/quality release tags from the first one onward — real IA rips carry
 // "...The.Mind.Machine.1080p.WEB-DL.x264-GROUP". Everything from the first tag is noise.
-const SCENE_RE = /[\s._-]+(1080p|720p|480p|2160p|4k|web[\s._-]?dl|web[\s._-]?rip|blu[\s._-]?ray|brrip|bdrip|dvd[\s._-]?rip|hdtv|pdtv|x264|x265|h[\s._-]?264|h[\s._-]?265|hevc|xvid|divx|aac\d?|ac3|mp3|dts|10bit|8bit|hdr|remux|proper|repack|internal|amzn|dsnp|\d{3,4}kbps)\b.*$/i;
+// Lead-in includes ( and [ : real rips wrap the tag in parens/brackets "...Shake Like Me (1080p
+// WEB-DL x265)". The old class required a \s._- separator, so "(1080p" did NOT strip and the tag
+// leaked into the episode title (Aqua Teen, 2026-06-14).
+const SCENE_RE = /[(\[\s._-]+(1080p|720p|480p|2160p|4k|web[\s._-]?dl|web[\s._-]?rip|blu[\s._-]?ray|brrip|bdrip|dvd[\s._-]?rip|hdtv|pdtv|x264|x265|h[\s._-]?264|h[\s._-]?265|hevc|xvid|divx|aac\d?|ac3|mp3|dts|10bit|8bit|hdr|remux|proper|repack|internal|amzn|dsnp|\d{3,4}kbps)\b.*$/i;
 function cleanName(raw) {
   return String(raw || '')
     .replace(VIDEO_EXT, '')
     .replace(SCENE_RE, '')                                   // drop quality tags + release group
-    .replace(/[._]+/g, ' ').replace(/\s+/g, ' ').replace(/[\s:;,_-]+$/, '').trim();
+    .replace(/[._]+/g, ' ').replace(/\s+/g, ' ')
+    .replace(/^[\s:;,_-]+/, '').replace(/[\s:;,_-]+$/, '')   // strip leading AND trailing seps ("- Shake Like Me" -> "Shake Like Me")
+    .trim();
 }
 
 function parseFilename(name) {
@@ -77,6 +82,23 @@ function assembleTitle(show, parsed, itemTitle) {
 // meta = the IA metadata object ({ metadata: {...}, files: [...] }). Returns the fanned[]
 // array (>1 playable video AND >=1 real episode) or null (single video / no episodes -> the
 // item stays a single card, pickVideos as today).
+// Browser-playability-aware score for choosing ONE file when an episode ships as several copies
+// (a complete-series bundle carries each episode as mkv + mp4 + IA-derived variants). x265/h265/
+// hevc play poorly in-browser, so they LOSE even inside an .mp4 container; .mp4/.m4v win; a capped
+// size tiebreak prefers the fuller copy. The resolve layer still does the authoritative playable
+// check — this just nominates the right candidate so we don't make a card per duplicate file.
+function fileScore(f) {
+  const name = String((f && f.name) || '');
+  const ext = (name.match(/\.([a-z0-9]+)$/i) || [, ''])[1].toLowerCase();
+  let s = 0;
+  if (/x265|h\.?265|hevc/i.test(name)) s -= 2000;             // browser-hostile codec, avoid
+  if (ext === 'mp4' || ext === 'm4v') s += 1000;             // playable container
+  else if (ext === 'webm' || ext === 'ogv') s += 400;
+  const size = parseInt(f && f.size, 10);
+  if (Number.isFinite(size)) s += Math.min(size / 1e7, 50);  // capped size tiebreak
+  return s;
+}
+
 function computeFanOut(meta, parseRuntimeSeconds) {
   const itemTitle = (meta && meta.metadata && meta.metadata.title) || '';
   const files = (meta && meta.files) || [];
@@ -84,27 +106,44 @@ function computeFanOut(meta, parseRuntimeSeconds) {
     f && f.name && VIDEO_EXT.test(f.name) && !SAMPLE_RE.test(f.name) &&
     (f.size == null || parseInt(f.size, 10) > 1024 * 1024));
   if (vids.length <= 1) return null;                          // not a bundle
-  const fanned = vids.map((f) => {
+  const entries = vids.map((f) => {
     const parsed = parseFilename(f.name);
     const contentType = classify(f, parsed, parseRuntimeSeconds);
     const show = (parsed && parsed.show) || cleanName(itemTitle);
     return {
-      file: f.name,
-      contentType,
-      season: parsed ? parsed.season : null,
-      episode: parsed ? parsed.episode : null,
-      episodeTitle: parsed ? parsed.episodeTitle : null,
-      displayTitle: assembleTitle(show, parsed, itemTitle),
-      confidence: parsed ? parsed.conf : 0.4,
-      source: parsed ? 'filename' : 'item_title_fallback',
+      f,
+      rec: {
+        file: f.name,
+        contentType,
+        season: parsed ? parsed.season : null,
+        episode: parsed ? parsed.episode : null,
+        episodeTitle: parsed ? parsed.episodeTitle : null,
+        displayTitle: assembleTitle(show, parsed, itemTitle),
+        confidence: parsed ? parsed.conf : 0.4,
+        source: parsed ? 'filename' : 'item_title_fallback',
+      },
     };
   });
-  // Open-question ruling: fan out ONLY when there is REAL episode structure (at least one file
-  // parsed a season/episode number) — not just the default "episode" classification. A messy
-  // multi-video bundle with no S/E anywhere stays a single card (could be a film collection,
-  // not a show; don't manufacture a fake season).
+  // ONE card per (season, episode). A complete-series bundle ships each episode as multiple files
+  // (mkv + mp4 + derivatives) — without this it became a card PER FILE (300 cards, half dupes,
+  // Aqua Teen 2026-06-14). Group by season/episode and keep the best playable candidate. Files
+  // with no episode number (extras, music videos, trailers) are NOT deduped — they pass through.
+  const byEp = new Map();
+  const passthrough = [];
+  for (const e of entries) {
+    if (e.rec.episode == null) { passthrough.push(e.rec); continue; }
+    const key = `${e.rec.season == null ? 'x' : e.rec.season}:${e.rec.episode}`;
+    const prev = byEp.get(key);
+    if (!prev || fileScore(e.f) > fileScore(prev.f)) byEp.set(key, e);
+  }
+  const eps = [...byEp.values()].map((e) => e.rec)
+    .sort((a, b) => (a.season || 0) - (b.season || 0) || (a.episode || 0) - (b.episode || 0));
+  const fanned = eps.concat(passthrough);
+  // Fan out ONLY when there is REAL episode structure (at least one parsed season/episode), not
+  // just the default "episode" classification. A messy multi-video bundle with no S/E anywhere
+  // stays a single card (could be a film collection, not a show; don't manufacture a fake season).
   if (!fanned.some((x) => x.episode != null)) return null;
   return fanned;
 }
 
-module.exports = { computeFanOut, parseFilename, classify, assembleTitle, VIDEO_EXT };
+module.exports = { computeFanOut, parseFilename, classify, assembleTitle, fileScore, VIDEO_EXT };
