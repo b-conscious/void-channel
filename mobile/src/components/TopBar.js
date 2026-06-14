@@ -91,7 +91,7 @@ export default function TopBar({ nav }) {
     <View style={[styles.bar, { paddingTop: insets.top }]}>
       <View style={styles.row}>
         {/* ── Left: hamburger + logo ── */}
-        <View style={[styles.side, IS_DESKTOP && styles.sideFlex]}>
+        <View style={[styles.side, !IS_DESKTOP && styles.sideLeft, IS_DESKTOP && styles.sideFlex]}>
           {/* Persistent back — go to last screen, shown whenever there's somewhere to go back
               to (B: "a simple back button at all times to go to last"). */}
           {nav && nav.canGoBack && nav.canGoBack() && (
@@ -104,7 +104,7 @@ export default function TopBar({ nav }) {
           </TouchableOpacity>
           <TouchableOpacity onPress={() => nav.navigate('Browse')} activeOpacity={0.7}>
             <View style={styles.logoWrap}>
-              <Image source={VOIDTV_WORDMARK} style={styles.logoImg} resizeMode="contain" />
+              <Image source={VOIDTV_WORDMARK} style={[styles.logoImg, !IS_DESKTOP && styles.logoImgMobile]} resizeMode="contain" />
               {kidsMode && <Text style={[styles.logoKids, { color: kidsAccent }]}> KIDS</Text>}
             </View>
           </TouchableOpacity>
@@ -154,9 +154,11 @@ export default function TopBar({ nav }) {
                   </Text>
                 </View>
               )}
-              <Text style={styles.userChipName} numberOfLines={1}>
-                {user.username || user.display_name || 'void dweller'}
-              </Text>
+              {IS_DESKTOP && (
+                <Text style={styles.userChipName} numberOfLines={1}>
+                  {user.username || user.display_name || 'void dweller'}
+                </Text>
+              )}
             </TouchableOpacity>
           ) : (
             <TouchableOpacity onPress={() => nav.navigate('Auth')} style={styles.signInChip} activeOpacity={0.7} hitSlop={6}>
@@ -165,7 +167,7 @@ export default function TopBar({ nav }) {
             </TouchableOpacity>
           )}
           {!kidsMode && (
-            <TouchableOpacity onPress={() => Linking.openURL(DONATE_URL)} style={styles.donateBtn} hitSlop={8} activeOpacity={0.85}>
+            <TouchableOpacity onPress={() => Linking.openURL(DONATE_URL)} style={[styles.donateBtn, !IS_DESKTOP && styles.donateBtnMobile]} hitSlop={8} activeOpacity={0.85}>
               <Ionicons name="heart" size={12} color="#08080b" style={{ marginRight: 5 }} />
               <Text style={styles.donateText}>DONATE</Text>
             </TouchableOpacity>
@@ -196,10 +198,12 @@ const styles = StyleSheet.create({
   side: { flexDirection: 'row', alignItems: 'center', gap: 10 },
   sideFlex: { flex: 1 },                       // desktop: equal-width side cols center the search pill
   sideRight: { justifyContent: 'flex-end', gap: 8 },
+  sideLeft: { flexShrink: 1, minWidth: 0 },     // mobile: let the logo cluster yield so DONATE never clips off the right edge
   hamburger: { padding: 4 },
   iconBtn: { padding: 4 },
   logoWrap: { flexDirection: 'row', alignItems: 'center' },
   logoImg: { height: 32, width: 131 }, // 4.1:1 wordmark
+  logoImgMobile: { height: 26, width: 104, flexShrink: 1 }, // smaller + shrinkable on phones so the header fits
   logoKids: { fontFamily: fonts.monoBold, fontSize: 15, letterSpacing: 1.5 },
   logoVoid: { fontFamily: fonts.monoBold, fontSize: 18, letterSpacing: 4 },
   logoTv: { fontFamily: fonts.sans, fontSize: 14, color: colors.textMuted, letterSpacing: 0.5 },
@@ -243,5 +247,6 @@ const styles = StyleSheet.create({
   },
   signInChipText: { fontFamily: fonts.mono, fontSize: 8, color: colors.textMuted, letterSpacing: 0.8 },
   donateBtn: { flexDirection: 'row', alignItems: 'center', backgroundColor: BRAND_BLUE, paddingHorizontal: 13, paddingVertical: 6, borderRadius: radius.full },
+  donateBtnMobile: { paddingHorizontal: 9 },    // tighter on phones (part of the header-fit fix)
   donateText: { fontFamily: fonts.monoBold, fontSize: 10, letterSpacing: 1.2, color: '#08080b' },
 });
