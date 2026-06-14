@@ -11,7 +11,9 @@ secrets/media excluded). Every change declared UNLOCKED + re-locked.
 ================================================================================
 - PROD is LIVE on the upgraded build (api.voidtv.net + www.voidtv.net), Render Standard 2 GB,
   co-located backend+spine via start-prod.js, spine.db on a 1 GB persistent disk at /var/data.
-- BLOCKER (DIAGNOSED + FIX SHIPPED 2026-06-13): archive.org is THROTTLING Render's Oregon
+- BLOCKER [RESOLVED 2026-06-14 — root cause was SPINE SELF-RECURSION + a dead undici timeout,
+  NOT an IA ban; see §3 "RESOLVED"]. Original 2026-06-13 diagnosis kept below for the record:
+  archive.org appeared to be THROTTLING Render's Oregon
   egress IP — but NOT a 429 reject and NOT a 403 ban. It TARPITS: holds our requests open
   ~30s with no response. Proof from Render logs: "[spine search] The user aborted a request"
   + "/api/search -> 200 (30170ms)". Proof it is IP-specific not a code bug: local/home IP
@@ -113,6 +115,28 @@ FIXES SHIPPED so prod survives + RECOVERS:
 STATUS (session end): batch pushed; new build live (spine:up); we have gone quiet; awaiting the
 throttle to expire. If it does not clear in a reasonable window, escalate to a DIFFERENT-REGION
 spine (fresh egress IP; reversible) — same-region won't help (Render shares egress IPs).
+
+RESOLVED 2026-06-14 — THE BLOCK WAS MOSTLY SELF-INFLICTED, NOT AN IA BAN. Investigating under
+load found TWO bugs that made us LOOK throttled and kept us hammering IA:
+  (1) SPINE SELF-RECURSION. start-prod.js spawned the spine with the full env, which on Render
+      includes SPINE_URL (platform-injected — the ".env-absence => direct paths" assumption in
+      archive.js only holds LOCALLY). So the spine's own archive.search/getItem rerouted to
+      localhost:3002 = ITSELF and recursed until the 30s spineGet timeout. Search returned EMPTY
+      after 30s and item resolves 500'd — never reaching IA at all. The slice-66 hard-abort was
+      added to archive.js search()/getItem(), but the LIVE path is backend -> spineGet -> spine,
+      so it never bit; the 30s logs were recursion towers collapsing, not an IA tarpit.
+  (2) DEAD TIMEOUT on the one path that DID hit IA. spine/mappers.js rawMetadata used
+      fetch(url, { timeout: 20000 }) — node-fetch syntax that Node's built-in fetch (undici)
+      SILENTLY IGNORES, so item-metadata resolves had NO working timeout, hung the full ~30s
+      under any IA slowness, and kept signalling a throttled IA so it never got a quiet window.
+  FIX (commit 9c2fade): strip SPINE_URL from the spine child's env in start-prod.js (spine uses
+  DIRECT IA paths); replace the dead {timeout} in mappers.js with AbortSignal.timeout(8000);
+  lower spineGet default 30s -> 10s; feed _noteArchiveFail() on rerouted-search failure so the
+  breaker actually trips. After a CLEAR-CACHE deploy: search chaplin/western/noir = 25 real
+  items in ~1s (was 30s + 0 items); item resolve fast (was 30s/500). IA reachable from Render.
+  META-LESSON: behavior + logs outrank the dashboard AND the file you remember fixing — git was
+  correct and the deploy read "live," yet the running path was broken. The decisive clue was the
+  LOG PREFIX ([spine search], not [archive.search]) pointing at the code path that actually ran.
 
 ================================================================================
 ## 4. DEBUG SWEEP — punch list P1-P8 (docs/DEBUG_SWEEP_2026-06-12.md)

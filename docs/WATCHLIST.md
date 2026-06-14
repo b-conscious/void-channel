@@ -33,6 +33,17 @@ and relationship items stay tracked at lower volume.
   /api/thumb/* is ten minutes of config and removes a cost cliff + a latency tax. Already noted
   as optional in the ops log; upgrade to do-soon. (2026-06-11)
 
+- **Two prod footguns that cost a multi-hour false "IA ban" (2026-06-14, FIXED commit 9c2fade;
+  kept as a standing check).** (1) ENV INHERITANCE ON RENDER: children spawned with the full
+  process.env inherit PLATFORM-injected vars (SPINE_URL), which broke the ".env-absence => direct
+  paths" assumption and made the spine recurse into itself. When a process must NOT see a var,
+  strip it explicitly at spawn — never rely on it being absent. (2) NODE-FETCH-ISMS: Node's
+  built-in fetch (undici) SILENTLY IGNORES `{ timeout }`; only AbortSignal.timeout fires. Audit
+  every fetch() for `{ timeout }` and other node-fetch-only options. META-LESSON: when prod
+  misbehaves, trust BEHAVIOR + LOGS over the dashboard and over the file you remember fixing —
+  diagnose the code path that actually RUNS (the `[spine search]` log prefix was the tell, vs the
+  `[archive.search]` path we kept "fixing"). (2026-06-14)
+
 ## Legal and rights (the ones that can hurt a 501c3)
 - **TMDB API terms likely class VOIDtv as COMMERCIAL (2026-06-11).** Section 2 examples catch
   us on three: (iv) generating revenue (donations) while recommending movies/TV; (iii) being a
