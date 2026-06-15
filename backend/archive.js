@@ -1255,6 +1255,7 @@ async function getItem(identifier, opts = {}) {
     archiveUrl: `${BASE}/details/${cleanId}`,
     videoUrl: null,
     videoUrlHQ: null, videoSize: null, videoFormat: null,
+    captions: [],
     availableFormats: [],
     fallback: true,
   };
@@ -1287,6 +1288,7 @@ async function getItem(identifier, opts = {}) {
   const meta = data?.metadata || {};
   const files = data?.files || [];
   let { fast, best } = pickVideos(files);
+  const captions = detectCaptions(files);
   // Episode fan-out: a bundled "complete series" item is many episode FILES, not one video with
   // many "formats" — that mislabeling dumped all episodes under AVAILABLE FORMATS (Aqua Teen,
   // 2026-06-14). When the manifest fans out, resolve it AS A SERIES (episodes[]); default-play the
@@ -1339,6 +1341,7 @@ async function getItem(identifier, opts = {}) {
     videoUrlHQ: best ? FILE_URL(cleanId, best.name) : null,
     videoSize: fast ? parseInt(fast.size || 0) : null,
     videoFormat: fast ? fast.format : null,
+    captions,
     availableFormats: episodes ? [] : files
       .filter((f) => f.name && f.name.toLowerCase().endsWith(".mp4"))
       .map((f) => ({
@@ -1349,6 +1352,22 @@ async function getItem(identifier, opts = {}) {
       })),
     ...(episodes ? { isBundle: true, episodes } : {}),
   };
+}
+
+// CAPTIONS layer 1: surface sidecar subtitle files IA sometimes ships alongside a video
+// (.srt / .vtt). The player requests these through /api/captions, which fetches + converts to
+// WebVTT and serves same-origin. Language is a best-effort guess from the filename
+// (movie.en.srt / movie_fr.vtt), default 'en'. Binary 608/.scc closed-caption is intentionally
+// skipped here — it needs decoding, not a text passthrough (a later layer).
+function detectCaptions(files) {
+  if (!Array.isArray(files)) return [];
+  return files
+    .filter((f) => f.name && /\.(srt|vtt)$/i.test(f.name))
+    .map((f) => {
+      const lower = f.name.toLowerCase();
+      const m = lower.match(/[._-]([a-z]{2,3})\.(?:srt|vtt)$/);
+      return { file: f.name, lang: m ? m[1] : 'en', format: lower.endsWith('.vtt') ? 'vtt' : 'srt' };
+    });
 }
 
 /**

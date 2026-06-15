@@ -163,6 +163,12 @@ export async function getItem(identifier) {
   return request(`/api/item/${identifier}`);
 }
 
+/** Same-origin WebVTT URL for a video's sidecar caption file (served + converted by the
+ *  backend). The player wraps the fetched VTT in a blob: URL to feed a <track>. */
+export function getCaptionUrl(identifier, file) {
+  return `${BASE_URL}/api/captions/${encodeURIComponent(identifier)}?file=${encodeURIComponent(file)}`;
+}
+
 /** JOB_14 — active editorial theme window, or { theme: null } outside every window */
 export async function getTheme() {
   return request("/api/theme");
@@ -577,7 +583,7 @@ export async function adminClearBanner() {
 export default {
   getCategories, getCategoryItems, getChannelQueue, askArchivist, archivistStatus,
   searchItems, searchCollection, searchCreator,
-  getItem, getShorts, getRandomItem, getTheme, getLibrary,
+  getItem, getCaptionUrl, getShorts, getRandomItem, getTheme, getLibrary,
   getCatalogMovies, getCatalogSeries, getSeriesEpisodes, getItemSeries,
   getRelated, wakeUp, heartItem, unheartItem, getTopHearts,
   setAuthToken, register, login, loginAnonymous, refreshToken,

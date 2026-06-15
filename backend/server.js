@@ -159,6 +159,58 @@ app.get("/api/thumb/:id", async (req, res) => {
   }
 });
 
+// ── Captions (layer 1) ────────────────────────────────────
+// Serve a video's sidecar subtitle file as WebVTT, SAME-ORIGIN. The web app fetches this,
+// wraps it in a blob: URL, and feeds a <track> — so we sidestep the cross-origin <track>/CORS
+// landmine (adding `crossorigin` to the <video> would risk tainting IA playback). SRT is
+// converted to VTT (comma→dot on the ms separator + a WEBVTT header); .vtt passes through.
+const _vttCache = new Map();
+const VTT_TTL = 1000 * 60 * 60 * 24 * 7; // 7d — captions are immutable
+const VTT_MAX = 500;
+function srtToVtt(srt) {
+  let s = String(srt).replace(/^﻿/, "").replace(/\r\n/g, "\n").replace(/\r/g, "\n");
+  s = s.replace(/(\d{2}:\d{2}:\d{2}),(\d{3})/g, "$1.$2");
+  return "WEBVTT\n\n" + s.trim() + "\n";
+}
+function ensureVttHeader(vtt) {
+  const s = String(vtt).replace(/^﻿/, "");
+  return /^\s*WEBVTT/.test(s) ? s : "WEBVTT\n\n" + s.trim() + "\n";
+}
+app.get("/api/captions/:identifier", async (req, res) => {
+  const cleanId = String(req.params.identifier).replace(/:\d+$/, "");
+  const file = String(req.query.file || "");
+  // Path-traversal guard: only the sidecar subtitle files we advertised, no parent-dir escapes.
+  if (!file || file.includes("..") || !/\.(srt|vtt)$/i.test(file)) {
+    return res.status(400).send("bad caption file");
+  }
+  const sendVtt = (text) => {
+    res.set("Content-Type", "text/vtt; charset=utf-8");
+    res.set("Cache-Control", "public, max-age=604800, immutable");
+    res.set("Access-Control-Allow-Origin", "*");
+    res.send(text);
+  };
+  const cacheKey = `${cleanId}/${file}`;
+  const hit = _vttCache.get(cacheKey);
+  if (hit && hit.exp > Date.now()) return sendVtt(hit.text);
+
+  const src = `https://archive.org/download/${encodeURIComponent(cleanId)}/${file.split("/").map(encodeURIComponent).join("/")}`;
+  try {
+    const r = await fetch(src, {
+      headers: { "User-Agent": "VoidChannel/0.3 (+https://voidtv.net)" },
+      signal: AbortSignal.timeout(8000),
+      redirect: "follow",
+    });
+    if (!r.ok) return res.status(502).send("caption fetch failed");
+    let text = await r.text();
+    text = /\.srt$/i.test(file) ? srtToVtt(text) : ensureVttHeader(text);
+    _vttCache.set(cacheKey, { text, exp: Date.now() + VTT_TTL });
+    if (_vttCache.size > VTT_MAX) _vttCache.delete(_vttCache.keys().next().value);
+    return sendVtt(text);
+  } catch (err) {
+    return res.status(502).send("caption error");
+  }
+});
+
 // ── Cloudflare CDN edge-cache headers ─────────────────────
 // s-maxage = edge (CDN) cache TTL; max-age=0 = browsers always revalidate via CDN
 // stale-while-revalidate = CDN serves stale content while fetching fresh in background

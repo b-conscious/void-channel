@@ -504,6 +504,16 @@ export default function PlayerScreen({ route, navigation }) {
 
   const videoSource = localUri || videoUrl;
 
+  // CAPTIONS (layer 1): if the resolved item advertised a sidecar subtitle file, pick one
+  // (prefer English) and hand the player a same-origin VTT URL. null = no CC button shown.
+  const captionTrack = (() => {
+    const caps = item.captions;
+    if (!Array.isArray(caps) || caps.length === 0) return null;
+    const pick = caps.find((c) => c.lang === 'en') || caps[0];
+    if (!pick || !pick.file) return null;
+    return { url: api.getCaptionUrl(item.id, pick.file), lang: pick.lang || 'en' };
+  })();
+
   // If the optimistic URL fails, fall back to the confirmed URL from metadata
   const triedHQRef = useRef(false);
   const skippedRef = useRef(false);
@@ -823,6 +833,8 @@ export default function PlayerScreen({ route, navigation }) {
           onEnded={(inChannel || autoplay) ? handleVideoEnded : undefined}
           onVideoError={handleVideoError}
           channelLabel={inChannel ? channelLabel || "CHANNEL" : undefined}
+          captionUrl={captionTrack?.url}
+          captionLang={captionTrack?.lang}
         />
       )}
       {/* THE DIAL: between-channels static. Covers the player until the tune-in seek lands. */}

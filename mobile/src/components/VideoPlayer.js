@@ -83,7 +83,7 @@ function formatTime(sec) {
  * Scrubable progress bar — supports tap-to-seek AND drag-to-scrub.
  * Uses native DOM pointer events on web (PanResponder is unreliable there).
  */
-function ProgressBar({ progress, position, duration, onSeek, isFs, toggleFullscreen, showControls, formatTime, rate, onCycleRate, cleanLevel, onCycleClean }) {
+function ProgressBar({ progress, position, duration, onSeek, isFs, toggleFullscreen, showControls, formatTime, rate, onCycleRate, cleanLevel, onCycleClean, hasCaptions, ccOn, onToggleCC }) {
   const barRef = useRef(null);
   const barWidth = useRef(200);
   const [scrubbing, setScrubbing] = useState(false);
@@ -176,6 +176,12 @@ function ProgressBar({ progress, position, duration, onSeek, isFs, toggleFullscr
         ]} />
       </View>
       <Text style={[styles.timeText, styles.timeRight]}>{formatTime(duration)}</Text>
+      {/* Captions toggle — only when this item actually has a sidecar track */}
+      {hasCaptions && (
+        <TouchableOpacity onPress={onToggleCC} style={styles.rateBtn} hitSlop={6}>
+          <Text style={[styles.rateText, ccOn && { color: colors.amber }]}>CC</Text>
+        </TouchableOpacity>
+      )}
       {/* VHS CLEAN cycle: OFF → LOW → MED → HIGH (composite CSS filter, web only) */}
       <TouchableOpacity onPress={onCycleClean} style={styles.rateBtn} hitSlop={6}>
         <Text style={[styles.rateText, cleanLevel > 0 && { color: colors.amber }]}>
@@ -195,7 +201,7 @@ function ProgressBar({ progress, position, duration, onSeek, isFs, toggleFullscr
   );
 }
 
-export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnded, onVideoError, channelLabel }, ref) {
+export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnded, onVideoError, channelLabel, captionUrl, captionLang }, ref) {
   const [error, setError] = useState(null);
   const [isFs, setIsFs] = useState(false);
   // VHS CLEAN level (0-3), persisted per device. Filter defs inject once below.
@@ -209,6 +215,21 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
     setCleanLevel((l) => {
       const n = (l + 1) % CLEAN_LEVELS.length;
       try { localStorage.setItem('@void_vhs_clean', String(n)); } catch {}
+      return n;
+    });
+  }, []);
+  // CAPTIONS (layer 1): CC on/off, persisted. ccOnRef lets the track-attach callback read the
+  // latest toggle without re-running the (expensive) fetch+attach effect.
+  const [ccOn, setCcOn] = useState(() => {
+    if (Platform.OS !== 'web' || typeof localStorage === 'undefined') return false;
+    return localStorage.getItem('@void_cc') === '1';
+  });
+  const ccOnRef = useRef(ccOn);
+  ccOnRef.current = ccOn;
+  const toggleCC = useCallback(() => {
+    setCcOn((v) => {
+      const n = !v;
+      try { localStorage.setItem('@void_cc', n ? '1' : '0'); } catch {}
       return n;
     });
   }, []);
@@ -339,6 +360,61 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
       if (videoEl) videoEl.removeEventListener("error", onMediaError);
     };
   }, [onVideoError, videoUrl]);
+
+  // CAPTIONS (layer 1) — attach a sidecar subtitle track. We fetch the same-origin VTT from our
+  // backend (ACAO:* lets the web app read it cross-origin), wrap it in a blob: URL, and feed THAT
+  // to <track>. A blob: URL is same-origin to the document, so the browser renders cues natively
+  // WITHOUT needing `crossorigin` on the <video> (which would risk tainting IA playback).
+  useEffect(() => {
+    if (Platform.OS !== "web" || typeof document === "undefined" || !captionUrl) return;
+    let cancelled = false, blobUrl = null, videoEl = null, iv = null, stop = null;
+    const clearTracks = (el) => el && el.querySelectorAll('track[data-voidcc="1"]').forEach((t) => t.remove());
+    fetch(captionUrl)
+      .then((r) => (r.ok ? r.text() : Promise.reject(new Error("cc " + r.status))))
+      .then((vtt) => {
+        if (cancelled) return;
+        blobUrl = URL.createObjectURL(new Blob([vtt], { type: "text/vtt" }));
+        const attach = (el) => {
+          clearTracks(el);
+          const tr = document.createElement("track");
+          tr.kind = "subtitles";
+          tr.label = (captionLang || "en").toUpperCase();
+          tr.srclang = captionLang || "en";
+          tr.default = true;
+          tr.src = blobUrl;
+          tr.setAttribute("data-voidcc", "1");
+          el.appendChild(tr);
+          // The TextTrack registers a beat after the element mounts — apply the current toggle then.
+          const apply = () => {
+            const tt = el.textTracks && el.textTracks[el.textTracks.length - 1];
+            if (tt) tt.mode = ccOnRef.current ? "showing" : "hidden";
+          };
+          tr.addEventListener("load", apply);
+          setTimeout(apply, 50);
+        };
+        iv = setInterval(() => {
+          const el = document.querySelector('[data-vpcontainer="1"] video');
+          if (el && el !== videoEl) { videoEl = el; attach(el); clearInterval(iv); }
+        }, 250);
+        stop = setTimeout(() => clearInterval(iv), 5000);
+      })
+      .catch(() => {});
+    return () => {
+      cancelled = true;
+      if (iv) clearInterval(iv);
+      if (stop) clearTimeout(stop);
+      clearTracks(videoEl);
+      if (blobUrl) URL.revokeObjectURL(blobUrl);
+    };
+  }, [captionUrl, captionLang]);
+
+  // Flip the attached track on/off when the CC toggle changes (no re-fetch).
+  useEffect(() => {
+    if (Platform.OS !== "web" || typeof document === "undefined") return;
+    const el = document.querySelector('[data-vpcontainer="1"] video');
+    if (!el || !el.textTracks) return;
+    for (let i = 0; i < el.textTracks.length; i++) el.textTracks[i].mode = ccOn ? "showing" : "hidden";
+  }, [ccOn]);
 
   const toggleFullscreen = useCallback(async () => {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
@@ -845,6 +921,9 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
             onCycleRate={cycleRate}
             cleanLevel={cleanLevel}
             onCycleClean={cycleClean}
+            hasCaptions={!!captionUrl}
+            ccOn={ccOn}
+            onToggleCC={toggleCC}
           />
         </Animated.View>
       )}
