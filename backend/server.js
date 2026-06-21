@@ -605,8 +605,11 @@ app.get("/api/categories", async (req, res) => {
     // in-memory reorder of it (archive.applyEraLean), so we never fetch all ~80 categories once per
     // generation — that overwhelmed Archive.org and timed out every real (gen-bearing) request.
     const timeBucket = Math.floor(Date.now() / (20 * 60 * 1000));
+    // Tight home wall vs the Vault (everything else). tier rides the processed-payload cache key
+    // (the raw baseKey stays tier-agnostic — one fetch feeds both tiers).
+    const tier = req.query.tier === 'vault' ? 'vault' : 'wall';
     const baseKey = `all_categories:none:${timeBucket}`;
-    const genKey = gen ? `all_categories:${gen}:${timeBucket}` : baseKey;
+    const genKey = `all_categories:${gen || 'none'}:${tier}:${timeBucket}`;
 
     // Fast path: already-computed per-gen (or base) payload
     if (!shuffle && !refresh) {
@@ -628,8 +631,21 @@ app.get("/api/categories", async (req, res) => {
     }
 
     if (base && categoriesHaveContent(base)) {
-      const out = gen ? archive.applyEraLean(base, gen) : base;
-      if (gen && !shuffle) { lastGoodCategories[gen] = out; cache.set(genKey, out, 1200); }
+      // TIER the one shared payload (B 2026-06-15): the tight home wall (11 rows) vs the Vault
+      // (everything else, still fully searchable). Read the wall flag from the canonical CATEGORIES
+      // so it survives the spine-wall transport. FAIL OPEN on the wall — if the tier data is missing,
+      // never blank it; serve the full payload. The color-era recency floor applies to the wall only.
+      const wallIds = new Set(archive.CATEGORIES.filter((c) => c.wall).map((c) => c.id));
+      let tiered = tier === 'vault'
+        ? base.filter((c) => c && !wallIds.has(c.id))
+        : base.filter((c) => c && wallIds.has(c.id));
+      if (tier === 'wall') {
+        if (tiered.length < 5) tiered = base;                  // guard: never blank the wall
+        tiered = archive.applyWallRecencyFloor(tiered);        // drop pre-1965 dated items
+      }
+      const out = gen ? archive.applyEraLean(tiered, gen) : tiered;
+      if (gen && !shuffle && tier === 'wall') lastGoodCategories[gen] = out;
+      if (!shuffle) cache.set(genKey, out, 1200);
       res.set("X-Cache", shuffle ? "BYPASS" : "MISS");
       if (shuffle) res.set("Cache-Control", "no-store"); // bypass CDN for shuffled results
       return res.json(await shape(out));

@@ -283,7 +283,7 @@ const CATEGORIES = [
   },
   {
     id: "conspiracy",
-    name: "Down the Rabbit Hole",
+    name: "Conspiracy",
     subtitle: "Conspiracy docs, fringe theories, and late-night paranoia fuel",
     query: "(subject:(conspiracy) OR subject:(\"conspiracy theory\") OR subject:(ufo) OR subject:(paranormal) OR subject:(\"secret society\") OR title:(\"conspiracy\") OR title:(\"coverup\")) AND mediatype:(movies)",
   },
@@ -732,7 +732,16 @@ const RECOGNIZABLE_IDS = new Set([
   'romance', 'documentary', 'game_shows', 'blaxploitation', 'war_footage',
 ]);
 const NO_DIVERSIFY_IDS = new Set(['computers']); // single-collection rows the cap would starve
+// TIGHT HOME WALL (B 2026-06-15): only these 11 ride the main wall; everything else moves to the
+// Vault (still fully searchable + directly reachable). Stamped as cat.wall so the /api/categories
+// route can tier the ONE shared payload. Was ~80 obscure-first rows -> the "too much going on /
+// old categories on the wall" problem; this is the accessibility cut.
+const WALL_IDS = new Set([
+  'most_popular', 'feature_length', 'tv_movies', 'comedy', 'violence', 'cartoons',
+  'anime', 'music_video', 'documentary', 'banned', 'conspiracy',
+]);
 for (const cat of CATEGORIES) {
+  cat.wall = WALL_IDS.has(cat.id);
   // Skip the "category specifics": deep cuts, dedicated shows, decade rows — left as authored.
   // (Many genre rows have no `group` field at all, so we exclude the specifics rather than
   //  require group==='type'.)
@@ -871,6 +880,25 @@ function applyEraLean(categories, gen) {
     .map((cat, i) => ({ cat, i, s: rowScore(cat) }))
     .sort((a, b) => (b.s - a.s) || (a.i - b.i))
     .map((x) => x.cat);
+}
+
+// WALL RECENCY FLOOR (B 2026-06-15): keep the home wall in the color era so stray black-and-white
+// archival thumbnails stop facing newcomers. Drops DATED items older than minYear from wall rows;
+// undated items are kept (lots of fine content lacks a year, and the floor's target is the dated
+// pre-color mass). Never blanks a row (falls back to the row's authored items if the floor guts it).
+// Most Popular (sort) is exempt — it's a ranking row by identity. Pairs with the category cut.
+function applyWallRecencyFloor(categories, minYear = 1965) {
+  if (!Array.isArray(categories)) return categories;
+  const MAX_SANE_YEAR = new Date().getFullYear() + 1;
+  const yearOf = (it) => {
+    const y = parseInt(it && it.year, 10);
+    return Number.isFinite(y) && y <= MAX_SANE_YEAR ? y : null;
+  };
+  return categories.map((cat) => {
+    if (!cat || cat.mature || cat.sort || !Array.isArray(cat.items) || cat.items.length < 3) return cat;
+    const kept = cat.items.filter((it) => { const y = yearOf(it); return y == null || y >= minYear; });
+    return kept.length >= 3 ? { ...cat, items: kept } : cat;
+  });
 }
 
 function stripHTML(str) {
@@ -1862,6 +1890,7 @@ module.exports = {
   getCategoryItems,
   getAllCategories,
   applyEraLean,
+  applyWallRecencyFloor,
   searchCollection,
   searchCreator,
   normalizeItem,
