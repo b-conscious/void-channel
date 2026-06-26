@@ -617,6 +617,22 @@ app.get("/api/categories", async (req, res) => {
       if (cached) { res.set("X-Cache", "HIT"); return res.json(await shape(cached)); }
     }
 
+    // HINDI tier serves LIVE from IA, not the spine's pool-based wall. The pool holds ~no
+    // Hindi-language content (it was synced from the English-centric category queries, and the
+    // foreign-gate pushes non-Latin out), so the pool wall returns an empty Hindi section. Fetch
+    // the hindi category queries live instead (cached 20 min so it pokes IA at most once a bucket).
+    if (tier === 'hindi') {
+      const hindiCats = archive.CATEGORIES.filter((c) => c.group === 'hindi');
+      const rows = await Promise.all(hindiCats.map(async (c) => {
+        let items = [];
+        try { items = await archive.search(c.query + archive.NSFW_EXCLUDE, 22, 1, c.sort || 'downloads desc'); } catch (e) {}
+        return { ...c, items: Array.isArray(items) ? items : [] };
+      }));
+      if (!shuffle && rows.some((r) => r.items.length)) cache.set(genKey, rows, 1200);
+      res.set("X-Cache", "MISS");
+      return res.json(await shape(rows));
+    }
+
     // Get the shared base payload: cache → fetch once → last-known-good (never blank the app).
     let base = (!shuffle && !refresh) ? await cache.get(baseKey) : null;
     if (!base) {
