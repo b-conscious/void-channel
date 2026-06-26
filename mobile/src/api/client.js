@@ -71,12 +71,13 @@ async function request(path, options = {}) {
  *            from a bigger pool (varied sorts + pages). Bypasses cache.
  *   refresh: if true, force a fresh fetch from Archive.org and update the cache.
  */
-export async function getCategories({ shuffle = false, refresh = false, gen = null, kids = false } = {}) {
+export async function getCategories({ shuffle = false, refresh = false, gen = null, kids = false, tier = null } = {}) {
   const params = new URLSearchParams();
   if (shuffle) params.set("shuffle", "true");
   if (refresh) params.set("refresh", "true");
   if (gen) params.set("gen", gen);     // generational era-lean for the default browse display
   if (kids) params.set("kids", "1");   // VOIDtv KIDS: server-side allowlist, fail closed
+  if (tier) params.set("tier", tier);  // 'vault' (The Stacks) / 'hindi' — non-wall section rows
   const qs = params.toString();
   // Categories fetches 47 collections from Archive.org — can take 2+ min on cold cache
   return request(`/api/categories${qs ? "?" + qs : ""}`, { _timeout: 180000 });

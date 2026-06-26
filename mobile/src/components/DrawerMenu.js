@@ -170,6 +170,27 @@ export default function DrawerMenu({ nav }) {
               <Ionicons name="film-outline" size={18} color={accent} style={{ width: 28 }} />
               <Text style={drawerStyles.menuLabel}>MOVIES</Text>
             </TouchableOpacity>
+            {/* HINDI CINEMA — the unfiltered Hindi section (tier:'hindi'), a deliverable for
+                Hindi-speaking partners. Its own door so it feels intentional and the main wall
+                stays tight. */}
+            <TouchableOpacity
+              style={drawerStyles.menuItem}
+              onPress={() => { closeDrawer(); nav.navigate('Section', { tier: 'hindi', title: 'Hindi Cinema' }); }}
+              activeOpacity={0.7}
+            >
+              <Ionicons name="globe-outline" size={18} color={accent} style={{ width: 28 }} />
+              <Text style={drawerStyles.menuLabel}>HINDI CINEMA</Text>
+            </TouchableOpacity>
+            {/* THE STACKS — the archival / weird / deep-cut rows pulled off the tight main wall
+                (tier:'vault'). Demoted, not deleted: still here, still searchable. */}
+            <TouchableOpacity
+              style={drawerStyles.menuItem}
+              onPress={() => { closeDrawer(); nav.navigate('Section', { tier: 'vault', title: 'The Stacks' }); }}
+              activeOpacity={0.7}
+            >
+              <Ionicons name="layers-outline" size={18} color={accent} style={{ width: 28 }} />
+              <Text style={drawerStyles.menuLabel}>THE STACKS</Text>
+            </TouchableOpacity>
             {/* HISTORY (B 2026-06-11): straight to the watch history, expanded */}
             <TouchableOpacity
               style={drawerStyles.menuItem}

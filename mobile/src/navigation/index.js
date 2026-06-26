@@ -22,6 +22,7 @@ const AuthScreen = React.lazy(() => import('../screens/AuthScreen'));
 const PlaylistScreen = React.lazy(() => import('../screens/PlaylistScreen'));
 const PlaylistsListScreen = React.lazy(() => import('../screens/PlaylistsListScreen'));
 const AdminScreen = React.lazy(() => import('../screens/AdminScreen'));
+const SectionScreen = React.lazy(() => import('../screens/SectionScreen'));
 
 import { useGeneration } from '../context/GenerationContext';
 import { useKids } from '../context/KidsContext';
@@ -63,6 +64,7 @@ function LazyAuth(props) { return <Suspense fallback={<ScreenFallback />}><AuthS
 function LazyPlaylist(props) { return <Suspense fallback={<ScreenFallback />}><PlaylistScreen {...props} /></Suspense>; }
 function LazyPlaylists(props) { return <Suspense fallback={<ScreenFallback />}><PlaylistsListScreen {...props} /></Suspense>; }
 function LazyAdmin(props) { return <Suspense fallback={<ScreenFallback />}><AdminScreen {...props} /></Suspense>; }
+function LazySection(props) { return <Suspense fallback={<ScreenFallback />}><SectionScreen {...props} /></Suspense>; }
 
 function TabBackground() {
   if (Platform.OS === 'ios') {
@@ -227,6 +229,7 @@ export default function Navigation() {
         Playlists: 'playlists',
         Playlist:  'playlist/:playlistId',
         Admin:     'admin',
+        Section:   'section',
       },
     },
     // The Player carries the full item object (and queue, etc.) as STATE-only params for instant
@@ -283,6 +286,8 @@ export default function Navigation() {
         <Stack.Screen name="Playlist" component={LazyPlaylist}
           options={{ animation: Platform.OS === 'web' ? 'none' : 'slide_from_right' }} />
         <Stack.Screen name="Admin" component={LazyAdmin}
+          options={{ animation: Platform.OS === 'web' ? 'none' : 'slide_from_right' }} />
+        <Stack.Screen name="Section" component={LazySection}
           options={{ animation: Platform.OS === 'web' ? 'none' : 'slide_from_right' }} />
       </Stack.Navigator>
 
