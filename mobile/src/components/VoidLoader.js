@@ -154,6 +154,21 @@ function injectCrtKeyframes() {
   document.head.appendChild(s);
 }
 
+// Force a <video> to RELEASE its decoder + network instead of leaking it. Browsers do NOT promptly
+// free a removed-from-DOM media element (especially autoplay+loop), and the wall TVs recreate a
+// fresh <video> every ~20s blink-cycle (distinct #t = a fresh decode each time) plus on every
+// scroll/navigation unmount. Without an explicit release those decoders pile up, exhaust Chrome's
+// hardware-decoder budget, and starve the MAIN player into the "glitches that accumulate" stutter
+// (a hard reload clears it = the tell). pause + clear src + load() is the reliable release sequence.
+function teardownVideo(video) {
+  if (!video) return;
+  try {
+    video.pause();
+    video.removeAttribute('src');
+    video.load();
+  } catch (e) {}
+}
+
 // ── TV Static Video Component (Web only) ──────────────────
 // One shared "void stream," every instance shows a DIFFERENT moment — staggered 10s apart by mount
 // order — at a DIFFERENT brightness, blinks on like a CRT, and blinks out after 20-40s.
@@ -231,6 +246,7 @@ function StaticVideo({ size, label, color, style, persist }) {
       clearTimeout(blinkTimer);
       clearTimeout(offTimer);
       video.removeEventListener('error', onError);
+      teardownVideo(video); // release the decoder before this <video> is recreated or unmounted
     };
   }, [cycle, dark, persist, visible]);
 
