@@ -607,7 +607,7 @@ app.get("/api/categories", async (req, res) => {
     const timeBucket = Math.floor(Date.now() / (20 * 60 * 1000));
     // Tight home wall vs the Vault (everything else). tier rides the processed-payload cache key
     // (the raw baseKey stays tier-agnostic — one fetch feeds both tiers).
-    const tier = req.query.tier === 'vault' ? 'vault' : 'wall';
+    const tier = (req.query.tier === 'vault' || req.query.tier === 'hindi') ? req.query.tier : 'wall';
     const baseKey = `all_categories:none:${timeBucket}`;
     const genKey = `all_categories:${gen || 'none'}:${tier}:${timeBucket}`;
 
@@ -636,12 +636,15 @@ app.get("/api/categories", async (req, res) => {
       // so it survives the spine-wall transport. FAIL OPEN on the wall — if the tier data is missing,
       // never blank it; serve the full payload. The color-era recency floor applies to the wall only.
       const wallIds = new Set(archive.CATEGORIES.filter((c) => c.wall).map((c) => c.id));
-      let tiered = tier === 'vault'
-        ? base.filter((c) => c && !wallIds.has(c.id))
-        : base.filter((c) => c && wallIds.has(c.id));
-      if (tier === 'wall') {
-        if (tiered.length < 5) tiered = base;                  // guard: never blank the wall
-        tiered = archive.applyWallRecencyFloor(tiered);        // drop pre-1965 dated items
+      let tiered;
+      if (tier === 'hindi') {
+        tiered = base.filter((c) => c && c.group === 'hindi');                        // the Hindi section
+      } else if (tier === 'vault') {
+        tiered = base.filter((c) => c && !wallIds.has(c.id) && c.group !== 'hindi');  // everything else
+      } else {
+        tiered = base.filter((c) => c && wallIds.has(c.id));                          // the tight wall
+        if (tiered.length < 5) tiered = base;                                         // guard: never blank the wall
+        tiered = archive.applyWallRecencyFloor(tiered);                               // color-era floor
       }
       const out = gen ? archive.applyEraLean(tiered, gen) : tiered;
       if (gen && !shuffle && tier === 'wall') lastGoodCategories[gen] = out;

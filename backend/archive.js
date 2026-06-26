@@ -263,6 +263,36 @@ const CATEGORIES = [
     subtitle: "Subtitles optional, vibes mandatory — cinema without borders",
     query: "(subject:(\"foreign film\") OR subject:(\"world cinema\") OR subject:(\"french film\") OR subject:(\"italian film\") OR subject:(\"german film\") OR subject:(\"japanese film\") OR subject:(\"indian cinema\") OR collection:(world_cinema)) AND mediatype:(movies)",
   },
+  // HINDI SECTION (B 2026-06-15): a deliverable for Hindi-speaking partners. group:'hindi' keeps
+  // these OFF the main wall and OUT of the generic Vault; the route serves them at ?tier=hindi.
+  // UNFILTERED (B's standing rights posture: no junk/piracy/ripper screen); sort downloads-desc
+  // surfaces the recognizable canon (Sholay, Padosan) AND the modern uploads. Exempt from the
+  // foreign-gate (Devanagari titles must show) and the era-lean/recency-floor (the classics are
+  // pre-1965). See memory voidtv-rights-posture-dont-moralize.
+  {
+    id: "hindi_popular",
+    group: "hindi",
+    name: "Bollywood",
+    subtitle: "Hindi cinema, the whole shelf: classics to this year's uploads",
+    query: "language:(Hindi) AND mediatype:(movies)",
+    sort: "downloads desc",
+  },
+  {
+    id: "hindi_golden",
+    group: "hindi",
+    name: "Golden Age",
+    subtitle: "The canon: Pyaasa, Mughal-e-Azam, Sholay, Padosan",
+    query: "language:(Hindi) AND mediatype:(movies) AND year:[1950 TO 1985]",
+    sort: "downloads desc",
+  },
+  {
+    id: "hindi_new",
+    group: "hindi",
+    name: "New Releases",
+    subtitle: "Recent Hindi films, fresh off the upload",
+    query: "language:(Hindi) AND mediatype:(movies) AND year:[2015 TO 2035]",
+    sort: "downloads desc",
+  },
   {
     id: "art_film",
     name: "Art House",
@@ -776,7 +806,7 @@ const GENERATION_ERAS = {
 const ERA_EXEMPT_IDS = new Set(['silent_film']);
 function eraExempt(cat) {
   if (!cat) return true;
-  if (cat.group === 'decade' || cat.group === 'show') return true;  // era/series-defined rows
+  if (cat.group === 'decade' || cat.group === 'show' || cat.group === 'hindi') return true;  // era/series-defined + hindi rows
   if (cat.mature || cat.sort) return true;                          // sequestered + rank-ordered rows
   return ERA_EXEMPT_IDS.has(cat.id);
 }
@@ -1832,7 +1862,7 @@ function siftForeign(cats) {
   if (!Array.isArray(cats)) return cats;
   const caught = [];
   const out = cats.map((c) => {
-    if (!c || FOREIGN_EXEMPT.has(c.id) || c.group === 'show' || c.mature) return c;
+    if (!c || FOREIGN_EXEMPT.has(c.id) || c.group === 'show' || c.group === 'hindi' || c.mature) return c;
     const keep = [];
     for (const it of (c.items || [])) {
       if (it && isForeignTitle(it.title)) caught.push(it);
@@ -1873,7 +1903,7 @@ function siftForeign(cats) {
     let items = dropExcluded(r.items);
     // Single-row fetches: gate foreign out of general rows (no catch destination here —
     // the items remain in the foreign row on the wall and in raw search).
-    if (!FOREIGN_EXEMPT.has(r.id) && r.group !== 'show' && !r.mature) items = items.filter((it) => !it || !isForeignTitle(it.title));
+    if (!FOREIGN_EXEMPT.has(r.id) && r.group !== 'show' && r.group !== 'hindi' && !r.mature) items = items.filter((it) => !it || !isForeignTitle(it.title));
     return { ...r, items };
   };
 }
