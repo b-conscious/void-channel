@@ -647,11 +647,28 @@ app.get("/api/categories", async (req, res) => {
     }
 
     if (base && categoriesHaveContent(base)) {
+      const wallIds = new Set(archive.CATEGORIES.filter((c) => c.wall).map((c) => c.id));
+      // MOST POPULAR = the most-downloaded items ACROSS our curated WALL cats (B: "most watched /
+      // popular within our current filtered cats"), deduped. Derived from the already-fetched +
+      // already junk-screened category items, so no extra IA load. Beats a raw IA download query
+      // (which is ~80% templates/test-files/batch-dumps); the feature_films query is the fallback.
+      const mpCat = base.find((c) => c && c.id === 'most_popular');
+      if (mpCat) {
+        const seen = new Set();
+        const cross = [];
+        for (const c of base) {
+          if (!c || c.id === 'most_popular' || c.mature || !wallIds.has(c.id)) continue;
+          for (const it of (c.items || [])) {
+            if (it && it.id && !seen.has(it.id)) { seen.add(it.id); cross.push(it); }
+          }
+        }
+        cross.sort((a, b) => (b.downloads || 0) - (a.downloads || 0));
+        if (cross.length >= 10) mpCat.items = cross.slice(0, 25);
+      }
       // TIER the one shared payload (B 2026-06-15): the tight home wall (11 rows) vs the Vault
       // (everything else, still fully searchable). Read the wall flag from the canonical CATEGORIES
       // so it survives the spine-wall transport. FAIL OPEN on the wall — if the tier data is missing,
       // never blank it; serve the full payload. The color-era recency floor applies to the wall only.
-      const wallIds = new Set(archive.CATEGORIES.filter((c) => c.wall).map((c) => c.id));
       let tiered;
       if (tier === 'hindi') {
         tiered = base.filter((c) => c && c.group === 'hindi');                        // the Hindi section
