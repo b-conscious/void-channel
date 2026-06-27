@@ -1771,6 +1771,17 @@ function dropBroadcastJunk(items) {
   });
 }
 
+// Social-mirror VODs (youtube-*/twitch-*/soop-*/tiktok-* ids) are bulk rips of current-affairs and
+// commentary channels (e.g. "China Insights" geopolitics) living in IA's mirrortube /
+// social-media-video / deemphasize collections. VOIDtv is a cinema platform, NOT a news feed
+// (B 2026-06-15: "this isnt a news site or app"); these flooded the hero + Most Popular. Real films
+// never carry a youtube- id, so the prefix is a zero-false-positive drop. Curated surfaces only;
+// search stays raw (memory: voidtv-social-mirror-junk).
+function dropSocialMirror(items) {
+  if (!Array.isArray(items)) return items;
+  return items.filter((it) => !/^(?:youtube|twitch|soop|tiktok|funnyordie)[-_]/i.test(String((it && it.id) || '')));
+}
+
 if (SPINE_URL) {
   console.log(`[archive] SPINE transport active -> ${SPINE_URL}`);
 
@@ -1801,7 +1812,7 @@ if (SPINE_URL) {
       return [];
     }
     return (wall.categories || []).map((c) => {
-      const pool = dropBroadcastJunk(dropFutureDated(c.items || [])); // future-spam (P3) + off-air captures (B)
+      const pool = dropSocialMirror(dropBroadcastJunk(dropFutureDated(c.items || []))); // future-spam (P3) + off-air captures + youtube mirrors (B)
       let items;
       if (/downloads/.test(c.sort || '')) {
         // Fixed downloads-sort rows (Most Popular): ACTUALLY rank by downloads — bucketSample
@@ -1826,7 +1837,7 @@ if (SPINE_URL) {
       // would jump the offset past the pool end (page 2 of a 50-pool at rows=50 returns zero).
       const fetchRows = (cat.diversify && page === 1) ? rows * 2 : rows;
       const r = await spineGet(`/category/${encodeURIComponent(categoryId)}?page=${page}&rows=${fetchRows}`);
-      let items = dropBroadcastJunk(dropFutureDated(r.items || [])); // future-spam (P3) + off-air captures (B)
+      let items = dropSocialMirror(dropBroadcastJunk(dropFutureDated(r.items || []))); // future-spam (P3) + off-air captures + youtube mirrors (B)
       if (/downloads/.test(cat.sort || '') && !shuffle) {
         items = dropJunk(items).slice().sort((a, b) => (b.downloads || 0) - (a.downloads || 0));
       }
