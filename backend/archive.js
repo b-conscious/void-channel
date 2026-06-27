@@ -182,7 +182,10 @@ const CATEGORIES = [
     group: "type",
     name: "Most Popular",
     subtitle: "The most watched films on the Internet Archive — all time",
-    query: 'mediatype:(movies)',
+    // Constrained to the feature_films collection (B 2026-06-15: raw mediatype:(movies) downloads
+    // are ~80% non-film junk: editing templates, "test file mp4", "graphics", batch dumps, gameplay
+    // rips). feature_films is curated real cinema, so downloads here reflect actual film popularity.
+    query: 'collection:(feature_films) AND mediatype:(movies)',
     sort: 'downloads desc',
   },
   {
@@ -1747,7 +1750,7 @@ function dropFutureDated(items) {
 // CapCut/editing templates, IPTV reseller ads, contact-spam uploads. These aren't films and
 // have no business leading "the most watched films". Title-only, word-bounded; legit popular
 // uploads (Rick Astley, Open Library howtos) pass. Used on the downloads-ranked rows.
-const JUNK_TITLE_RE = /capcut|beat ?sync template|\biptv\b|\bm3u\b|whatsapp|telegram ?(channel|link)|free ?download (link|now)|\bcrack(ed)?\b|keygen|\bapk\b|t\.me\//i;
+const JUNK_TITLE_RE = /capcut|beat ?sync template|\btemplate\b|\biptv\b|\bm3u\b|whatsapp|telegram ?(channel|link)|free ?download (link|now)|\bcrack(ed)?\b|keygen|\bapk\b|t\.me\/|\btest ?file\b|\bpublicvideos?\b|\btosec\b|\bdat ?pack\b|\bgameplay\b|^\s*graphics\s*$/i;
 function dropJunk(items) {
   if (!Array.isArray(items)) return items;
   return items.filter((it) => !JUNK_TITLE_RE.test(String((it && it.title) || '')));
