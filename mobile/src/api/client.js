@@ -592,6 +592,20 @@ export async function adminRemoveExclude(id) {
   return request(`/api/admin/excludes/${encodeURIComponent(id)}`, { method: "DELETE" });
 }
 
+/** Series seeds (SHOWS catalog wish list): list / add / remove + pull (trigger the spine sync). */
+export async function adminGetSeries() {
+  return request("/api/admin/series");
+}
+export async function adminAddSeries(name, query = "") {
+  return request("/api/admin/series", { method: "POST", body: JSON.stringify({ name, query }) });
+}
+export async function adminRemoveSeries(id) {
+  return request(`/api/admin/series/${encodeURIComponent(id)}`, { method: "DELETE" });
+}
+export async function adminPullSeries() {
+  return request("/api/admin/series/pull", { method: "POST", _timeout: 60000 });
+}
+
 export default {
   getCategories, getCategoryItems, getChannelQueue, askArchivist, archivistStatus,
   searchItems, searchCollection, searchCreator,
@@ -613,4 +627,5 @@ export default {
   adminUsers, adminContributions, adminApproveContribution, adminRejectContribution,
   adminSetBanner, adminClearBanner,
   adminGetExcludes, adminAddExclude, adminRemoveExclude,
+  adminGetSeries, adminAddSeries, adminRemoveSeries, adminPullSeries,
 };

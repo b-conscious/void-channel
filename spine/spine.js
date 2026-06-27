@@ -15,6 +15,25 @@ const SYNC_INTERVAL_MS = parseInt(process.env.SPINE_SYNC_INTERVAL_MS || String(8
 const app = express();
 const startedAt = Date.now();
 
+// SERIES SEEDS from Supabase (the admin series wish list). The spine reads them itself (option 1)
+// and merges with series-seeds.json, so an in-app add takes effect without a code deploy. Read on
+// boot + every 5 min; the /catalog/seeds/sync endpoint refreshes + pools on demand (the admin Pull).
+const { supabase: _supa } = require('./supabase.js');
+async function refreshSupaSeeds() {
+  if (!_supa) return;
+  try {
+    const { data, error } = await _supa.from('series_seeds').select('name, query, enabled');
+    if (!error && Array.isArray(data)) {
+      cats.setSupabaseSeeds(
+        data.filter((r) => r && r.name && r.enabled !== false)
+            .map((r) => (r.query ? { name: r.name, query: r.query } : r.name))
+      );
+    }
+  } catch (e) { /* keep current seeds */ }
+}
+refreshSupaSeeds();
+setInterval(refreshSupaSeeds, 5 * 60 * 1000);
+
 // Short-TTL cache for live passthroughs (search, item detail rides mappers' own cache).
 const liveCache = new Map();
 function cached(key, ttlMs, fn) {
@@ -199,6 +218,22 @@ app.post('/catalog/rebuild', requireAdmin, async (req, res) => {
     let films = null;
     try { films = await require('./adapters/wikidata.js').syncFilms(); } catch (e) { films = { error: String(e.message || e).slice(0, 120) }; }
     res.json({ grouped: g, verify, films });
+  } catch (err) {
+    res.status(500).json({ error: String(err.message || err).slice(0, 200) });
+  }
+});
+
+// ADMIN PULL: refresh series seeds from Supabase, then pool the show crates and regroup. Returns
+// immediately; the pooling runs in the background (each crate is an IA search, so it can take a while).
+app.post('/catalog/seeds/sync', requireAdmin, async (req, res) => {
+  try {
+    await refreshSupaSeeds();
+    const crates = cats.list('video').filter((c) => c.id && c.id.startsWith('show_seed_'));
+    res.json({ ok: true, crates: crates.length, note: 'pooling in background' });
+    (async () => {
+      for (const c of crates) { try { await sync.syncOne(c.id); } catch (e) { /* skip a crate */ } }
+      try { require('./grouping.js').regroup(dbx); } catch (e) { /* skip regroup */ }
+    })();
   } catch (err) {
     res.status(500).json({ error: String(err.message || err).slice(0, 200) });
   }

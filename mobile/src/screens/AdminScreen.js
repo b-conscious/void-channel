@@ -44,6 +44,9 @@ export default function AdminScreen({ navigation }) {
   const [excludes, setExcludes] = useState([]);
   const [killId, setKillId] = useState('');
   const [killReason, setKillReason] = useState('');
+  const [series, setSeries] = useState([]);
+  const [seriesName, setSeriesName] = useState('');
+  const [seriesQuery, setSeriesQuery] = useState('');
 
   // Check admin access
   const isAdmin = user && ADMIN_EMAILS.includes((user.email || '').toLowerCase());
@@ -83,6 +86,34 @@ export default function AdminScreen({ navigation }) {
     try { await api.adminRemoveExclude(id); await fetchExcludes(); } catch (e) {}
     setActionLoading(null);
   }, [fetchExcludes]);
+
+  const fetchSeries = useCallback(async () => {
+    try { const r = await api.adminGetSeries(); setSeries(Array.isArray(r?.series) ? r.series : []); }
+    catch (e) { /* ignore */ }
+  }, []);
+  useEffect(() => { fetchSeries(); }, [fetchSeries]);
+
+  const addSeries = useCallback(async () => {
+    const name = seriesName.trim();
+    if (!name) return;
+    setActionLoading('series_add');
+    try { await api.adminAddSeries(name, seriesQuery.trim()); setSeriesName(''); setSeriesQuery(''); await fetchSeries(); }
+    catch (e) { if (Platform.OS === 'web' && window.alert) window.alert('Failed: ' + e.message); }
+    setActionLoading(null);
+  }, [seriesName, seriesQuery, fetchSeries]);
+
+  const removeSeries = useCallback(async (id) => {
+    setActionLoading('series_' + id);
+    try { await api.adminRemoveSeries(id); await fetchSeries(); } catch (e) {}
+    setActionLoading(null);
+  }, [fetchSeries]);
+
+  const pullSeries = useCallback(async () => {
+    setActionLoading('series_pull');
+    try { await api.adminPullSeries(); if (Platform.OS === 'web' && window.alert) window.alert('Pull started. Shows fill in over the next few minutes.'); }
+    catch (e) { if (Platform.OS === 'web' && window.alert) window.alert('Failed: ' + e.message); }
+    setActionLoading(null);
+  }, []);
 
   const doAction = useCallback(async (actionKey, apiCall, confirmMsg) => {
     if (confirmMsg) {
@@ -371,6 +402,49 @@ export default function AdminScreen({ navigation }) {
                       </View>
                       <TouchableOpacity onPress={() => removeKill(ex.id)} hitSlop={8} style={styles.killDel}>
                         {actionLoading === ('kill_' + ex.id)
+                          ? <ActivityIndicator size="small" color={colors.textMuted} />
+                          : <Ionicons name="trash-outline" size={16} color={colors.textMuted} />}
+                      </TouchableOpacity>
+                    </View>
+                  ))}
+                </View>
+              )}
+            </Section>
+
+            {/* ── Series (SHOWS catalog) ── */}
+            <Section title="SERIES (SHOWS CATALOG)" icon="tv-outline" accent={accent}>
+              <Text style={styles.killHint}>Add a show name. It enters the SHOWS catalog + player rails (not the wall). Tap PULL NOW to fetch its episodes from the archive (fills in over a few minutes).</Text>
+              <TextInput
+                style={styles.bannerInput}
+                value={seriesName}
+                onChangeText={setSeriesName}
+                placeholder="show name (e.g. Cheers)..."
+                placeholderTextColor={colors.textGhost}
+                autoCapitalize="words"
+              />
+              <TextInput
+                style={styles.bannerInput}
+                value={seriesQuery}
+                onChangeText={setSeriesQuery}
+                placeholder="custom IA query (optional)..."
+                placeholderTextColor={colors.textGhost}
+                autoCapitalize="none"
+                autoCorrect={false}
+              />
+              <View style={styles.bannerBtns}>
+                <ActionButton label="ADD SHOW" icon="add-circle-outline" color={accent} loading={actionLoading === 'series_add'} onPress={addSeries} />
+                <ActionButton label="PULL NOW" icon="cloud-download-outline" color="#39ff14" loading={actionLoading === 'series_pull'} onPress={pullSeries} />
+              </View>
+              {series.length > 0 && (
+                <View style={{ marginTop: 10 }}>
+                  {series.map((s) => (
+                    <View key={s.id} style={styles.killRow}>
+                      <View style={{ flex: 1, minWidth: 0 }}>
+                        <Text style={styles.killId} numberOfLines={1}>{s.name}</Text>
+                        {s.query ? <Text style={styles.killReason} numberOfLines={1}>{s.query}</Text> : null}
+                      </View>
+                      <TouchableOpacity onPress={() => removeSeries(s.id)} hitSlop={8} style={styles.killDel}>
+                        {actionLoading === ('series_' + s.id)
                           ? <ActivityIndicator size="small" color={colors.textMuted} />
                           : <Ionicons name="trash-outline" size={16} color={colors.textMuted} />}
                       </TouchableOpacity>

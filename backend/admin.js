@@ -263,6 +263,48 @@ router.delete("/excludes/:id", async (req, res) => {
   res.json({ ok: true });
 });
 
+// ── Series seeds (the SHOWS catalog wish list) ──
+router.get("/series", async (req, res) => {
+  if (!supabase) return res.json({ series: [] });
+  const { data, error } = await supabase.from("series_seeds")
+    .select("id, name, query, enabled, created_at").order("created_at", { ascending: false });
+  if (error) return res.status(500).json({ error: error.message });
+  res.json({ series: data || [] });
+});
+router.post("/series", async (req, res) => {
+  const name = String((req.body && req.body.name) || "").trim();
+  const query = (req.body && req.body.query) ? String(req.body.query).slice(0, 400) : null;
+  if (!name) return res.status(400).json({ error: "name required" });
+  if (!supabase) return res.status(503).json({ error: "supabase unavailable" });
+  const { data, error } = await supabase.from("series_seeds").insert({ name, query }).select().single();
+  if (error) {
+    if (error.code === "23505") return res.status(409).json({ error: "already added" });
+    return res.status(500).json({ error: error.message });
+  }
+  console.log(`[admin] series added by ${req.user.email}: ${name}`);
+  res.json({ ok: true, series: data });
+});
+router.delete("/series/:id", async (req, res) => {
+  if (!supabase) return res.status(503).json({ error: "supabase unavailable" });
+  const { error } = await supabase.from("series_seeds").delete().eq("id", req.params.id);
+  if (error) return res.status(500).json({ error: error.message });
+  res.json({ ok: true });
+});
+// Pull: tell the spine to refresh seeds from Supabase + pool the new shows (background).
+router.post("/series/pull", async (req, res) => {
+  const url = process.env.SPINE_URL;
+  if (!url) return res.status(503).json({ error: "spine not configured" });
+  try {
+    const r = await fetch(`${url}/catalog/seeds/sync`, {
+      method: "POST", headers: { "x-spine-key": process.env.SPINE_ADMIN_KEY || "" },
+    });
+    const j = await r.json().catch(() => ({}));
+    res.json({ ok: r.ok, spine: j });
+  } catch (e) {
+    res.status(502).json({ error: String(e.message || e).slice(0, 200) });
+  }
+});
+
 // Expose banner for non-admin routes to read
 router.getBanner = () => siteBanner;
 

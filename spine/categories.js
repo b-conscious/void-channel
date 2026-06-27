@@ -96,26 +96,43 @@ const GEMS = [
   { id: 'gems_wikidata', name: 'Classic Gems and Cult', subtitle: 'The old stuff that earned its place', source: 'wikidata', query: 'pd-films-with-ia-id', type: 'video', group: 'type', sort: 'downloads desc', recognizable: true, diversify: false, mature: false, exclude_nsfw: false, exclude_news: false, active: true },
 ];
 
-// SERIES SEEDS (B's catalog buildout): spine/series-seeds.json names become show crates that
-// sync pools and grouping turns into catalog series. wall:false keeps them OFF the browse
-// wall (catalog + rails destinations only). Fail-soft: a broken file seeds nothing.
-let VIDEO_SEEDS = [];
+// SERIES SEEDS (B's catalog buildout): names become show crates that sync pools and grouping turns
+// into catalog series. wall:false keeps them OFF the browse wall (catalog + rails only). TWO sources,
+// MERGED + dedup'd by crate id: series-seeds.json (committed) and the series_seeds Supabase table
+// (added live from the admin panel via setSupabaseSeeds). Crates are REFRESHABLE so an in-app add
+// takes effect on the next seeds-sync without a spine restart. Fail-soft: a broken source seeds nothing.
+function buildSeedCrate(s) {
+  const name = typeof s === 'string' ? s : (s && s.name);
+  const key = String(name || '').toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_+|_+$/g, '');
+  if (!key) return null;
+  return {
+    id: `show_seed_${key}`, name, subtitle: 'From the series catalog',
+    query: (typeof s === 'object' && s && s.query) || `title:("${name}") AND mediatype:(movies)`,
+    type: 'video', group: 'show', wall: false, recognizable: false, diversify: false,
+    mature: false, exclude_nsfw: true, exclude_news: true, active: true,
+  };
+}
+let JSON_SEEDS = [];
 try {
   const seeds = JSON.parse(require('fs').readFileSync(require('path').join(__dirname, 'series-seeds.json'), 'utf8'));
-  VIDEO_SEEDS = (seeds.series || []).map((s) => {
-    const name = typeof s === 'string' ? s : s.name;
-    const key = String(name).toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_+|_+$/g, '');
-    if (!key) return null;
-    return {
-      id: `show_seed_${key}`, name, subtitle: 'From the series catalog',
-      query: (typeof s === 'object' && s.query) || `title:("${name}") AND mediatype:(movies)`,
-      type: 'video', group: 'show', wall: false, recognizable: false, diversify: false,
-      mature: false, exclude_nsfw: true, exclude_news: true, active: true,
-    };
-  }).filter(Boolean);
-} catch (e) { /* no seeds file or bad JSON — seed nothing */ }
-
-const ALL = [...VIDEO, ...VIDEO_IA, ...VIDEO_NASA, ...VIDEO_COMMONS, ...GEMS, ...VIDEO_SEEDS, ...AUDIO, ...GAMES, ...TEXTS];
+  JSON_SEEDS = seeds.series || [];
+} catch (e) { /* no seeds file or bad JSON */ }
+let SUPA_SEEDS = [];   // live list from the series_seeds Supabase table (set by the spine on refresh)
+let VIDEO_SEEDS = [];
+let ALL = [];
+function rebuild() {
+  const seen = new Set();
+  VIDEO_SEEDS = [...JSON_SEEDS, ...SUPA_SEEDS]
+    .map(buildSeedCrate)
+    .filter((c) => c && !seen.has(c.id) && (seen.add(c.id), true));
+  ALL = [...VIDEO, ...VIDEO_IA, ...VIDEO_NASA, ...VIDEO_COMMONS, ...GEMS, ...VIDEO_SEEDS, ...AUDIO, ...GAMES, ...TEXTS];
+}
+// Replace the live Supabase seed list (rows: strings or {name, query}) and rebuild the crate set.
+function setSupabaseSeeds(rows) {
+  SUPA_SEEDS = Array.isArray(rows) ? rows : [];
+  rebuild();
+}
+rebuild();
 
 function list(type) {
   return type ? ALL.filter((c) => c.type === type) : ALL;
@@ -124,4 +141,4 @@ function get(id) {
   return ALL.find((c) => c.id === id) || null;
 }
 
-module.exports = { ALL, list, get };
+module.exports = { list, get, setSupabaseSeeds };
