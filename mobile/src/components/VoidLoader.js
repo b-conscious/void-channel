@@ -192,27 +192,21 @@ function StaticVideo({ size, label, color, style, persist }) {
   // is near the viewport before mounting its <video>; on-screen count stays small.
   var uid = useMemo(function () { return 'sv' + Math.random().toString(36).slice(2, 9); }, []);
   var [visible, setVisible] = useState(false);
+  // Toggle visibility BOTH ways and KEEP observing. It used to set visible=true and DISCONNECT on
+  // first sight, so `visible` latched true: a tile scrolled OFF screen kept churning a fresh <video>
+  // every ~20s forever, and the set of forever-churning tiles only GREW as you browsed, compounding
+  // into a system-wide slowdown that "builds like feedback" (B 2026-06-15). Now off-screen tiles go
+  // !visible -> the video effect stops -> no churn. The svio container stays mounted (see render)
+  // so this observe target is stable across the dark/relight cycle.
   useEffect(function () {
     if (typeof document === 'undefined') return;
     var el = document.querySelector('[data-svio="' + uid + '"]');
     if (!el || typeof IntersectionObserver === 'undefined') { setVisible(true); return; }
     var io = new IntersectionObserver(function (entries) {
-      for (var i = 0; i < entries.length; i++) {
-        if (entries[i].isIntersecting) { setVisible(true); io.disconnect(); return; }
-      }
-    }, { rootMargin: '250px' });
+      for (var i = 0; i < entries.length; i++) setVisible(entries[i].isIntersecting);
+    }, { rootMargin: '200px' });
     io.observe(el);
-    // Belt: IO never fires in hidden tabs (and flakes in embedded webviews) — poll the rect
-    // as a fallback so a TV in view always lights once the tab is actually looked at.
-    var poll = setInterval(function () {
-      var r = el.getBoundingClientRect();
-      if (r.width > 0 && r.top < window.innerHeight + 250 && r.bottom > -250) {
-        setVisible(true);
-        clearInterval(poll);
-        io.disconnect();
-      }
-    }, 2000);
-    return function () { io.disconnect(); clearInterval(poll); };
+    return function () { io.disconnect(); };
   }, [uid]);
 
   useEffect(function () {
@@ -261,17 +255,17 @@ function StaticVideo({ size, label, color, style, persist }) {
     return function () { clearTimeout(t); };
   }, [dark, persist]);
 
-  if (failed || blinkedOut || dark) {
-    return <PulsingVoid size={size} label={label} color={color} style={style} />;
-  }
-
   // 10s stagger across tiles (seq) + advance 20s each blink cycle (a fresh scene). The #t
   // media fragment sets the start second natively and makes each element a DISTINCT resource
   // (kills the shared-buffer sync). Modulo 100 keeps the offset inside the ~116s stream.
   var startAt = (((seq * 10) + (cycle * 20)) % 100);
+  // The svio container ALWAYS mounts (stable IO target). The <video> renders only while ON SCREEN
+  // and lit; dark / blinked-out / failed / off-screen show the pulsing VOID instead. This is what
+  // lets off-screen tiles stop churning video (the compounding-slowdown fix).
+  var showVideo = visible && !dark && !failed && !blinkedOut;
   return (
     <View style={[styles.center, dims, { overflow: 'hidden', position: 'relative' }, style]} dataSet={{ svio: uid }}>
-      {visible && (
+      {showVideo ? (
         <div
           ref={containerRef}
           style={{ width: '100%', height: '100%', position: 'absolute', top: 0, left: 0, overflow: 'hidden', borderRadius: 8 }}
@@ -282,6 +276,8 @@ function StaticVideo({ size, label, color, style, persist }) {
               + 'animation:voidPowerOn 360ms ease-out, voidOpacityRamp 40s linear forwards;" />'
           }}
         />
+      ) : (
+        <PulsingVoid size={size} label={label} color={color} style={StyleSheet.absoluteFill} />
       )}
       <View style={[StyleSheet.absoluteFill, styles.staticOverlay]} />
       {label ? <Text style={[styles.staticLabel, { color: color }]}>{label}</Text> : null}
