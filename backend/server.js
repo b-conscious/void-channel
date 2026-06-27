@@ -126,6 +126,12 @@ app.get("/api/loaders", (req, res) => {
 const _thumbCache = new Map();           // cleanId -> { buf, ct, exp }
 const THUMB_TTL = 6 * 60 * 60 * 1000;    // 6h in memory
 const THUMB_MAX = 600;                    // cap memory (~600 thumbs)
+// Image transform for the thumbnail proxy: convert IA thumbnails to webp + cap size (sharp =
+// libvips, fast + memory-efficient). Loaded defensively so a missing/broken native binary degrades
+// to serving the originals instead of breaking thumbnails.
+let _sharp = null;
+try { _sharp = require("sharp"); } catch (e) { console.warn("[thumb] sharp unavailable, serving original thumbnails:", e.message); }
+
 app.get("/api/thumb/:id", async (req, res) => {
   const cleanId = String(req.params.id)
     .replace(/:\d+$/, "")
@@ -149,8 +155,16 @@ app.get("/api/thumb/:id", async (req, res) => {
       redirect: "follow",
     });
     if (!r.ok) return res.redirect(302, src);
-    const buf = Buffer.from(await r.arrayBuffer());
-    const ct = r.headers.get("content-type") || "image/jpeg";
+    let buf = Buffer.from(await r.arrayBuffer());
+    let ct = r.headers.get("content-type") || "image/jpeg";
+    // webp + size cap = the efficiency win: smaller bytes, less client memory. Falls back to the
+    // original buffer on any sharp error (animated gif, odd format, decode failure).
+    if (_sharp) {
+      try {
+        buf = await _sharp(buf).rotate().resize({ width: 512, withoutEnlargement: true }).webp({ quality: 74 }).toBuffer();
+        ct = "image/webp";
+      } catch (e) { /* keep the original buf/ct */ }
+    }
     _thumbCache.set(cleanId, { buf, ct, exp: Date.now() + THUMB_TTL });
     if (_thumbCache.size > THUMB_MAX) _thumbCache.delete(_thumbCache.keys().next().value); // evict oldest
     return sendImg(buf, ct);
