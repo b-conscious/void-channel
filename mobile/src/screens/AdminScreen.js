@@ -41,6 +41,9 @@ export default function AdminScreen({ navigation }) {
   const [users, setUsers] = useState([]);
   const [showUsers, setShowUsers] = useState(false);
   const [showContribs, setShowContribs] = useState(false);
+  const [excludes, setExcludes] = useState([]);
+  const [killId, setKillId] = useState('');
+  const [killReason, setKillReason] = useState('');
 
   // Check admin access
   const isAdmin = user && ADMIN_EMAILS.includes((user.email || '').toLowerCase());
@@ -60,7 +63,26 @@ export default function AdminScreen({ navigation }) {
     setRefreshing(false);
   }, []);
 
-  useEffect(() => { fetchDashboard(); }, [fetchDashboard]);
+  const fetchExcludes = useCallback(async () => {
+    try { const r = await api.adminGetExcludes(); setExcludes(Array.isArray(r?.excludes) ? r.excludes : []); }
+    catch (e) { /* ignore */ }
+  }, []);
+  useEffect(() => { fetchDashboard(); fetchExcludes(); }, [fetchDashboard, fetchExcludes]);
+
+  const addKill = useCallback(async () => {
+    const id = killId.trim();
+    if (!id) return;
+    setActionLoading('kill_add');
+    try { await api.adminAddExclude(id, killReason.trim()); setKillId(''); setKillReason(''); await fetchExcludes(); }
+    catch (e) { if (Platform.OS === 'web' && window.alert) window.alert('Failed: ' + e.message); }
+    setActionLoading(null);
+  }, [killId, killReason, fetchExcludes]);
+
+  const removeKill = useCallback(async (id) => {
+    setActionLoading('kill_' + id);
+    try { await api.adminRemoveExclude(id); await fetchExcludes(); } catch (e) {}
+    setActionLoading(null);
+  }, [fetchExcludes]);
 
   const doAction = useCallback(async (actionKey, apiCall, confirmMsg) => {
     if (confirmMsg) {
@@ -312,6 +334,51 @@ export default function AdminScreen({ navigation }) {
                 </View>
               )}
             </Section>
+
+            {/* ── Kill List ── */}
+            <Section title="KILL LIST" icon="ban-outline" accent={accent}>
+              <Text style={styles.killHint}>Paste an Internet Archive id (the part after /watch/). It vanishes from the wall, search, related, and direct links within 60s.</Text>
+              <TextInput
+                style={styles.bannerInput}
+                value={killId}
+                onChangeText={setKillId}
+                placeholder="archive.org identifier..."
+                placeholderTextColor={colors.textGhost}
+                autoCapitalize="none"
+                autoCorrect={false}
+              />
+              <TextInput
+                style={styles.bannerInput}
+                value={killReason}
+                onChangeText={setKillReason}
+                placeholder="reason (optional)..."
+                placeholderTextColor={colors.textGhost}
+              />
+              <ActionButton
+                label="KILL IT"
+                icon="ban-outline"
+                color="#ff3b5c"
+                loading={actionLoading === 'kill_add'}
+                onPress={addKill}
+              />
+              {excludes.length > 0 && (
+                <View style={{ marginTop: 10 }}>
+                  {excludes.map((ex) => (
+                    <View key={ex.id} style={styles.killRow}>
+                      <View style={{ flex: 1, minWidth: 0 }}>
+                        <Text style={styles.killId} numberOfLines={1}>{ex.ia_id}</Text>
+                        {ex.reason ? <Text style={styles.killReason} numberOfLines={1}>{ex.reason}</Text> : null}
+                      </View>
+                      <TouchableOpacity onPress={() => removeKill(ex.id)} hitSlop={8} style={styles.killDel}>
+                        {actionLoading === ('kill_' + ex.id)
+                          ? <ActivityIndicator size="small" color={colors.textMuted} />
+                          : <Ionicons name="trash-outline" size={16} color={colors.textMuted} />}
+                      </TouchableOpacity>
+                    </View>
+                  ))}
+                </View>
+              )}
+            </Section>
           </>
         )}
       </ScrollView>
@@ -384,6 +451,11 @@ const styles = StyleSheet.create({
     flexDirection: 'row', alignItems: 'center', gap: 6, marginBottom: 12,
   },
   sectionTitle: { fontFamily: fonts.monoBold, fontSize: 11, letterSpacing: 2 },
+  killHint: { fontFamily: fonts.sans, fontSize: 11, color: colors.textMuted, lineHeight: 15, marginBottom: 8 },
+  killRow: { flexDirection: 'row', alignItems: 'center', gap: 8, paddingVertical: 6, borderTopWidth: StyleSheet.hairlineWidth, borderTopColor: colors.surface },
+  killId: { fontFamily: fonts.mono, fontSize: 11, color: colors.textPrimary },
+  killReason: { fontFamily: fonts.sans, fontSize: 10, color: colors.textMuted, marginTop: 1 },
+  killDel: { padding: 4 },
 
   statRow: {
     flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center',

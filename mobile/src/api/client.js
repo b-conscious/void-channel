@@ -581,6 +581,17 @@ export async function adminClearBanner() {
   return request("/api/admin/broadcast", { method: "DELETE" });
 }
 
+/** Kill list (hard_excludes): list / add / remove items that vanish from every surface. */
+export async function adminGetExcludes() {
+  return request("/api/admin/excludes");
+}
+export async function adminAddExclude(ia_id, reason = "") {
+  return request("/api/admin/excludes", { method: "POST", body: JSON.stringify({ ia_id, reason }) });
+}
+export async function adminRemoveExclude(id) {
+  return request(`/api/admin/excludes/${encodeURIComponent(id)}`, { method: "DELETE" });
+}
+
 export default {
   getCategories, getCategoryItems, getChannelQueue, askArchivist, archivistStatus,
   searchItems, searchCollection, searchCreator,
@@ -601,4 +612,5 @@ export default {
   adminDashboard, adminWipeViews, adminWipeHearts, adminFlushCache,
   adminUsers, adminContributions, adminApproveContribution, adminRejectContribution,
   adminSetBanner, adminClearBanner,
+  adminGetExcludes, adminAddExclude, adminRemoveExclude,
 };
