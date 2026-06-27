@@ -20,6 +20,20 @@ const archive = require("./archive");
 const hearts = require("./hearts");
 const views = require("./views");
 const { optionalAuth } = require("./supabase");
+
+// Admin kill list: poll Supabase hard_excludes every 60s and feed archive's exclude filter (the
+// spine has no Supabase; enforcement runs in the backend's spine-transport dropExcluded wrappers).
+// Items inserted into the table (via the admin panel OR directly) vanish from every surface in 60s.
+const { supabase: _adminSb } = require("./supabase");
+async function refreshHardExcludes() {
+  if (!_adminSb) return;
+  try {
+    const { data, error } = await _adminSb.from("hard_excludes").select("ia_id");
+    if (!error && Array.isArray(data)) archive.setExtraExcludes(data.map((r) => r.ia_id));
+  } catch (e) { /* keep last good list */ }
+}
+refreshHardExcludes();
+setInterval(refreshHardExcludes, 60 * 1000);
 const authRoutes = require("./auth");
 const syncRoutes = require("./sync");
 const { router: matureGateRoutes, gateVerified } = require("./maturegate");

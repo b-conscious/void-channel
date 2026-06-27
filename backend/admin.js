@@ -237,6 +237,32 @@ router.delete("/broadcast", (req, res) => {
   res.json({ ok: true });
 });
 
+// ── Kill list (hard_excludes): items that vanish from every surface in <=60s ──
+router.get("/excludes", async (req, res) => {
+  if (!supabase) return res.json({ excludes: [] });
+  const { data, error } = await supabase.from("hard_excludes")
+    .select("id, ia_id, reason, created_at").order("created_at", { ascending: false });
+  if (error) return res.status(500).json({ error: error.message });
+  res.json({ excludes: data || [] });
+});
+router.post("/excludes", async (req, res) => {
+  const ia_id = String((req.body && req.body.ia_id) || "").trim();
+  const reason = (req.body && req.body.reason) ? String(req.body.reason).slice(0, 280) : null;
+  if (!ia_id) return res.status(400).json({ error: "ia_id required" });
+  if (!supabase) return res.status(503).json({ error: "supabase unavailable" });
+  const { data, error } = await supabase.from("hard_excludes")
+    .upsert({ ia_id, reason }, { onConflict: "ia_id" }).select().single();
+  if (error) return res.status(500).json({ error: error.message });
+  console.log(`[admin] kill added by ${req.user.email}: ${ia_id}`);
+  res.json({ ok: true, exclude: data });
+});
+router.delete("/excludes/:id", async (req, res) => {
+  if (!supabase) return res.status(503).json({ error: "supabase unavailable" });
+  const { error } = await supabase.from("hard_excludes").delete().eq("id", req.params.id);
+  if (error) return res.status(500).json({ error: error.message });
+  res.json({ ok: true });
+});
+
 // Expose banner for non-admin routes to read
 router.getBanner = () => siteBanner;
 

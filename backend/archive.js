@@ -1862,6 +1862,11 @@ if (SPINE_URL) {
 // functions are live at this point (direct or spine transport), so one layer covers both
 // paths. File re-reads every 60s — B edits and saves, no restart. Only B's rulings gate.
 let _hex = { t: 0, ids: new Set() };
+// Admin kill list from Supabase (hard_excludes table), injected by the backend's 60s poller and
+// MERGED with hard-excludes.json. The spine has no Supabase, but prod enforcement runs in the
+// backend's spine-transport wrappers (dropExcluded below), so this backend-injected set covers it.
+let _extraHex = new Set();
+function setExtraExcludes(ids) { _extraHex = new Set((Array.isArray(ids) ? ids : []).map(String)); }
 function hardExcludes() {
   if (Date.now() - _hex.t > 60 * 1000) {
     _hex.t = Date.now();
@@ -1870,7 +1875,10 @@ function hardExcludes() {
       _hex.ids = new Set((j.ids || []).map(String));
     } catch (e) { /* keep last good list */ }
   }
-  return _hex.ids;
+  if (!_extraHex.size) return _hex.ids;
+  const merged = new Set(_hex.ids);
+  for (const id of _extraHex) merged.add(id);
+  return merged;
 }
 function dropExcluded(items) {
   const kill = hardExcludes();
@@ -1953,6 +1961,7 @@ module.exports = {
   getAllCategories,
   applyEraLean,
   applyWallRecencyFloor,
+  setExtraExcludes,
   searchCollection,
   searchCreator,
   normalizeItem,
