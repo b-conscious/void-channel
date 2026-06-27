@@ -389,6 +389,12 @@ export default function HomeScreen({ navigation, route }) {
     return unsub;
   }, [navigation]);
 
+  // Clear Continue Watching — wipes local watch history and hides the row immediately.
+  const handleClearContinue = useCallback(async () => {
+    try { await store.clearHistory?.(); } catch {}
+    setHistory([]);
+  }, []);
+
   // ── PROGRESSIVE LOADING WATERFALL ──
   // Tier 1 (0s): Categories + hero (handled by loadCategories above)
   // Tier 2 (1.5s): Community hearts + trending (first visible rows)
@@ -628,7 +634,7 @@ export default function HomeScreen({ navigation, route }) {
       );
     }
     if (entry.type === 'continue') {
-      return <ContinueRow items={history} accent={accent} onItemPress={handleItemPress} />;
+      return <ContinueRow items={history} accent={accent} onItemPress={handleItemPress} onClear={handleClearContinue} />;
     }
     // KIDS network channel: a full browse ROW of the vouched tapes (B: "load the rest into
     // the rows"). Tapping any tape tunes in AS IF live. The row header is the network name.
@@ -658,7 +664,7 @@ export default function HomeScreen({ navigation, route }) {
       );
     }
     return null;
-  }, [handleItemPress, catPages, catLoading, handlePageChange, handleSeeMore, shorts, history, accent, theme, handleChannelTune, handleKidsLivePress]);
+  }, [handleItemPress, catPages, catLoading, handlePageChange, handleSeeMore, shorts, history, accent, theme, handleChannelTune, handleKidsLivePress, handleClearContinue]);
 
   return (
     <View style={[styles.container, { paddingTop: insets.top + headerH }]}>
@@ -921,13 +927,20 @@ function rotateArray(arr, n) {
 
 // Continue Watching — recent watch history as a compact small-card row (lives under the first snacks
 // row). Tap to jump back into a video you stopped.
-function ContinueRow({ items, accent, onItemPress }) {
+function ContinueRow({ items, accent, onItemPress, onClear }) {
   if (!items || items.length === 0) return null;
   return (
     <View style={styles.continueBlock}>
       <View style={styles.continueHeader}>
         <Ionicons name="play-circle-outline" size={15} color={accent} style={{ marginRight: 6 }} />
         <Text style={[styles.continueTitle, { color: accent }]}>Continue Watching</Text>
+        <View style={{ flex: 1 }} />
+        {onClear ? (
+          <TouchableOpacity onPress={onClear} hitSlop={8} style={styles.continueClearBtn} activeOpacity={0.7}>
+            <Ionicons name="close" size={12} color={colors.textMuted} style={{ marginRight: 3 }} />
+            <Text style={styles.continueClearText}>CLEAR</Text>
+          </TouchableOpacity>
+        ) : null}
       </View>
       <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.continueRowContent}>
         {items.map((item) => (
@@ -1504,6 +1517,8 @@ const styles = StyleSheet.create({
   continueCard: { width: IS_DESKTOP ? 150 : 124 },
   continueThumb: { width: IS_DESKTOP ? 150 : 124, height: IS_DESKTOP ? 84 : 70, borderRadius: 6, backgroundColor: colors.card },
   continueCardTitle: { fontFamily: fonts.sans, fontSize: 11, color: colors.textSecondary, marginTop: 4 },
+  continueClearBtn: { flexDirection: 'row', alignItems: 'center', paddingVertical: 2, paddingHorizontal: 4 },
+  continueClearText: { fontFamily: fonts.mono, fontSize: 9, color: colors.textMuted, letterSpacing: 1 },
   heroContent: { ...StyleSheet.absoluteFillObject, paddingHorizontal: spacing.screenPadding, paddingBottom: 20, justifyContent: 'space-between' },
   heroTopRow: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' },
   heroEyebrow: { fontFamily: fonts.monoBold, fontSize: 8, letterSpacing: 2, marginBottom: 8 },
