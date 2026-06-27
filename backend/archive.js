@@ -431,14 +431,17 @@ const CATEGORIES = [
     subtitle: "Real shows across the decades — the set never turned off",
     // Actual TV episodes spanning eras (recognizable series + classic_tv/old_tv collections),
     // fenced from the classroom/instructional + graphic-medical films that were leaking on-main.
-    // Lean on collections + recognizable show titles (the broad "television" SUBJECT tag is
-    // garbage on Archive — it returns childbirth clips and "HARLEM SHAKE POOP"). Kept short so
-    // the news/NSFW fences don't tip Archive past its query-complexity limit (→ 0 results).
+    // Lean on the curated collections + the SPECIFIC subjects "television series"/"sitcom" (the
+    // BARE "television" subject tag is garbage: childbirth clips, "HARLEM SHAKE POOP", so it stays
+    // out) + a few era anchors: 50s-60s classics AND proven-available 90s (Roseanne, NewsRadio,
+    // Farscape, Forensic Files). dropBroadcastJunk strips the off-air news captures; the
+    // generational era-lean surfaces the 90s for millennial/genz. Kept short so the news/NSFW
+    // fences don't tip Archive past its query-complexity limit (0 results).
     query:
-      '(collection:(classic_tv OR old_tv OR television) '
-      + 'OR title:("i love lucy") OR title:("the twilight zone") OR title:("the andy griffith show") '
-      + 'OR title:("dragnet") OR title:("perry mason") OR title:("bonanza") OR title:("star trek") '
-      + 'OR title:("the lone ranger") OR title:("gunsmoke") OR title:("leave it to beaver") OR title:("the honeymooners")) '
+      '(collection:(classic_tv OR old_tv) '
+      + 'OR subject:("television series" OR sitcom) '
+      + 'OR title:("i love lucy") OR title:("the twilight zone") OR title:("star trek") '
+      + 'OR title:("roseanne") OR title:("newsradio") OR title:("farscape") OR title:("forensic files")) '
       + 'AND mediatype:(movies) '
       + 'NOT title:(surgery OR autopsy OR childbirth OR dissection OR delivery OR medical OR poop)'
       + MEDICAL_EXCLUDE,
@@ -1750,6 +1753,20 @@ function dropJunk(items) {
   return items.filter((it) => !JUNK_TITLE_RE.test(String((it && it.title) || '')));
 }
 
+// Off-air broadcast captures (B 2026-06-15: "The TV Set is mostly junk recorded from TV"). The TV
+// News Archive / DVR rips name their files with the recording timestamp:
+// "DW News : DW : June 9, 2026 4:00am-4:02am CEST". That month-day-year + clock-time signature is
+// essentially unique to off-air captures (real shows/films carry no broadcast clock), so it is a
+// clean drop for the news/recording sludge that floods The TV Set. Applied wall-wide like dropJunk.
+const BROADCAST_TITLE_RE = /(?:january|february|march|april|may|june|july|august|september|october|november|december)\s+\d{1,2},?\s*\d{4}\s+\d{1,2}:\d{2}\s*(?:am|pm)?/i;
+function dropBroadcastJunk(items) {
+  if (!Array.isArray(items)) return items;
+  return items.filter((it) => {
+    const t = Array.isArray(it && it.title) ? it.title[0] : (it && it.title);
+    return !(t && BROADCAST_TITLE_RE.test(String(t)));
+  });
+}
+
 if (SPINE_URL) {
   console.log(`[archive] SPINE transport active -> ${SPINE_URL}`);
 
@@ -1780,7 +1797,7 @@ if (SPINE_URL) {
       return [];
     }
     return (wall.categories || []).map((c) => {
-      const pool = dropFutureDated(c.items || []); // strip fake-future spam everywhere (P3)
+      const pool = dropBroadcastJunk(dropFutureDated(c.items || [])); // future-spam (P3) + off-air captures (B)
       let items;
       if (/downloads/.test(c.sort || '')) {
         // Fixed downloads-sort rows (Most Popular): ACTUALLY rank by downloads — bucketSample
@@ -1805,7 +1822,7 @@ if (SPINE_URL) {
       // would jump the offset past the pool end (page 2 of a 50-pool at rows=50 returns zero).
       const fetchRows = (cat.diversify && page === 1) ? rows * 2 : rows;
       const r = await spineGet(`/category/${encodeURIComponent(categoryId)}?page=${page}&rows=${fetchRows}`);
-      let items = dropFutureDated(r.items || []); // same future-spam sanity as the wall (P3)
+      let items = dropBroadcastJunk(dropFutureDated(r.items || [])); // future-spam (P3) + off-air captures (B)
       if (/downloads/.test(cat.sort || '') && !shuffle) {
         items = dropJunk(items).slice().sort((a, b) => (b.downloads || 0) - (a.downloads || 0));
       }
