@@ -44,6 +44,12 @@ const PORT = process.env.PORT || 3001;
 // last-good payload if a fresh fetch comes back empty.
 // Keyed by generation ('boomer'/'millennial'/'genz'/'none') — each era-lean keeps its own last-good.
 let lastGoodCategories = {};
+// Healthy WALLS only (>= WALL_MIN_ROWS rows with items), per gen. Fallback for when a deploy /
+// spine-warm blip yields a thin wall, so a thin payload is never cached or served (B: "wall only
+// has 2/4 rows" was a thin payload that had poisoned the server + Cloudflare edge cache for 20m).
+let lastGoodWall = {};
+const WALL_MIN_ROWS = 8;
+const rowsWithItems = (arr) => (Array.isArray(arr) ? arr : []).filter((c) => c && (c.items || []).length > 0).length;
 const VALID_GENS = ['boomer', 'millennial', 'genz'];
 function parseGen(q) { return VALID_GENS.includes(q) ? q : null; }
 // Sorts the client may request via ?sort= — powers search "re-roll" (a genuinely different set for
@@ -694,6 +700,15 @@ app.get("/api/categories", async (req, res) => {
         tiered = archive.applyWallRecencyFloor(tiered);                               // color-era floor
       }
       const out = gen ? archive.applyEraLean(tiered, gen) : tiered;
+      // THIN-WALL GUARD: never cache (server OR Cloudflare edge) a thin wall from a warm/blip; that
+      // 20-min poisoning is what showed "2/4 rows". Serve the last full wall instead when thin.
+      if (tier === 'wall' && rowsWithItems(out) < WALL_MIN_ROWS) {
+        const lg = lastGoodWall[gen || 'none'];
+        res.set("Cache-Control", "no-store");
+        res.set("X-Cache", "THIN");
+        return res.json(await shape(lg && rowsWithItems(lg) > rowsWithItems(out) ? lg : out));
+      }
+      if (tier === 'wall') lastGoodWall[gen || 'none'] = out;  // remember a healthy wall
       if (gen && !shuffle && tier === 'wall') lastGoodCategories[gen] = out;
       if (!shuffle) cache.set(genKey, out, 1200);
       res.set("X-Cache", shuffle ? "BYPASS" : "MISS");
