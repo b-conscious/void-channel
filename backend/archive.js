@@ -1753,12 +1753,13 @@ function dropJunk(items) {
   return items.filter((it) => !JUNK_TITLE_RE.test(String((it && it.title) || '')));
 }
 
-// Off-air broadcast captures (B 2026-06-15: "The TV Set is mostly junk recorded from TV"). The TV
-// News Archive / DVR rips name their files with the recording timestamp:
-// "DW News : DW : June 9, 2026 4:00am-4:02am CEST". That month-day-year + clock-time signature is
-// essentially unique to off-air captures (real shows/films carry no broadcast clock), so it is a
-// clean drop for the news/recording sludge that floods The TV Set. Applied wall-wide like dropJunk.
-const BROADCAST_TITLE_RE = /(?:january|february|march|april|may|june|july|august|september|october|november|december)\s+\d{1,2},?\s*\d{4}\s+\d{1,2}:\d{2}\s*(?:am|pm)?/i;
+// Off-air broadcast captures (B 2026-06-15: "The TV Set is mostly junk recorded from TV", and the
+// showcase example "20260220-Lokala-Nyheter-Smaland-Fre-20-feb-07-07"). These DVR / news-archive
+// rips name their files with the recording timestamp, in several formats real shows/films never
+// carry: a month-name date + clock ("DW News : DW : June 9, 2026 4:00am"), a numeric YYYYMMDD stamp
+// ("20260220"), an ISO date ("2026-02-20"), or an am/pm broadcast slot. We keep the CLOCK
+// requirement on the month-name form so a date-titled film ("December 7, 1941") is NOT dropped.
+const BROADCAST_TITLE_RE = /(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?\s+\d{1,2},?\s*\d{2,4}\s+\d{1,2}[:.]\d{2}|\b(?:19|20)\d{6}\b|\b(?:19|20)\d{2}[-\/._]\d{2}[-\/._]\d{2}\b|\b\d{1,2}[:.\-]\d{2}\s*(?:am|pm)\b/i;
 function dropBroadcastJunk(items) {
   if (!Array.isArray(items)) return items;
   return items.filter((it) => {
