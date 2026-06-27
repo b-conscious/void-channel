@@ -186,6 +186,7 @@ export default function AdminScreen({ navigation }) {
   return (
     <View style={styles.container}>
       <ScrollView
+        style={{ flex: 1 }}
         contentContainerStyle={{ paddingTop: insets.top + 12, paddingBottom: insets.bottom + 40 }}
         refreshControl={<RefreshControl refreshing={refreshing} onRefresh={() => { setRefreshing(true); fetchDashboard(); }} tintColor={accent} />}
       >
