@@ -906,24 +906,21 @@ app.get("/api/shorts", async (req, res) => {
     // the commercials pool's \bpromo\b keep — the old generic-word regex missed brand names).
     // Shared corral screen; items stay findable in search + behind the 18+ gate.
     const NSFW_TITLE_RE = archive.MATURE_TITLE_RE;
-    // HEAVILY post-1975 (Bryan): the two MAIN pools are year-clause-bound ≥1975 (4-digit years
-    // compare correctly even as strings; items missing `year` drop out of the mains — intended).
-    // Validated depth: commercials ≥1975 = 5.8k, trailers ≥1975 = 50k.
+    // 1980 FLOOR (B 2026-06-15: "1980s as oldest", to keep Snacks from feeling like all old shit).
+    // The two MAIN pools are year-clause-bound >=1980 (4-digit years compare correctly even as
+    // strings; items missing `year` drop out of the mains, intended). The pre-1968 Universal-
+    // Newsreel "vintage garnish" pool was removed for the same reason.
     const SNACK_POOLS = [
       { // TV commercials — the collection ALSO hosts full taped broadcasts ("Raiders... W/O/C")
         // and compilation tapes. Singles say "Commercial" (SINGULAR); compilations say
         // "Commercials" — require the positive single-ad signal.
-        q: 'collection:(classic_tv_commercials) AND mediatype:(movies) AND year:[1975 TO 9999]', pages: 12,
+        q: 'collection:(classic_tv_commercials) AND mediatype:(movies) AND year:[1980 TO 9999]', pages: 12,
         keep: (t) => /\bcommercial\b|\bspot\b|\bpsa\b|public service|\bpromo\b|jingle|\bad\b/i.test(t)
           && !/commercials\b/i.test(t) && !COMPILATION_RE.test(t),
       },
       { // movie trailers — full films get uploaded here mislabeled; require trailer-ish title
-        q: 'collection:(movie_trailers) AND mediatype:(movies) AND year:[1975 TO 9999]', pages: 40,
+        q: 'collection:(movie_trailers) AND mediatype:(movies) AND year:[1980 TO 9999]', pages: 40,
         keep: (t) => /trailer|teaser|preview|tv spot/i.test(t) && !COMPILATION_RE.test(t),
-      },
-      { // Universal Newsreels (~600, all pre-1968) — the VINTAGE GARNISH, woven ~1-in-5 below
-        q: 'collection:(universal_newsreels) AND mediatype:(movies)', pages: 2,
-        keep: () => true, garnish: true,
       },
     ];
     const SNACK_SORTS = ['downloads desc', 'addeddate desc', 'week desc'];
@@ -937,17 +934,11 @@ app.get("/api/shorts", async (req, res) => {
         }))
         .catch(() => []);
     }));
-    // Weighted weave: the post-1975 mains alternate; the vintage garnish lands ~1 in 10 slots
-    // (heavily leaned, not walled — an occasional 1948 newsreel between a 1986 ad and a 2014 trailer).
-    const mains = pools.filter((_, i) => !SNACK_POOLS[i].garnish);
-    const garnish = pools.filter((_, i) => SNACK_POOLS[i].garnish).flat();
-    const garnishMax = Math.ceil(limit / 10); // hard-cap the vintage share at ~10% per serving
+    // Round-robin interleave so neither pool (1980+ ads / trailers) dominates the row.
     const merged = [];
-    const maxLen = Math.max(...mains.map((p) => p.length), 0);
-    let g = 0;
+    const maxLen = Math.max(...pools.map((p) => p.length), 0);
     for (let i = 0; i < maxLen; i++) {
-      for (const p of mains) if (p[i]) merged.push(p[i]);
-      if ((i + 1) % 5 === 0 && g < garnishMax && garnish[g]) merged.push(garnish[g++]);
+      for (const p of pools) if (p[i]) merged.push(p[i]);
     }
     // Keep true shorts: parsed runtime ≤ 3 min. Unknown runtime is KEPT — these pools are short
     // by nature (post title-filtering), and commercials often ship without runtime metadata.
