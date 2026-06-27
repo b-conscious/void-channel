@@ -97,10 +97,11 @@ const GEMS = [
 ];
 
 // SERIES SEEDS (B's catalog buildout): names become show crates that sync pools and grouping turns
-// into catalog series. wall:false keeps them OFF the browse wall (catalog + rails only). TWO sources,
-// MERGED + dedup'd by crate id: series-seeds.json (committed) and the series_seeds Supabase table
-// (added live from the admin panel via setSupabaseSeeds). Crates are REFRESHABLE so an in-app add
-// takes effect on the next seeds-sync without a spine restart. Fail-soft: a broken source seeds nothing.
+// into catalog series. wall:false keeps them OFF the browse wall (catalog + rails only). The
+// series_seeds Supabase table is the SOURCE OF TRUTH once loaded, so admin deletions actually stick;
+// series-seeds.json only bootstraps before the first read / when Supabase is unreachable (so the
+// catalog is never seedless on boot). Crates are REFRESHABLE so an in-app add/remove takes effect on
+// the next seeds-sync without a spine restart. Fail-soft: a broken source seeds nothing.
 function buildSeedCrate(s) {
   const name = typeof s === 'string' ? s : (s && s.name);
   const key = String(name || '').toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_+|_+$/g, '');
@@ -117,12 +118,15 @@ try {
   const seeds = JSON.parse(require('fs').readFileSync(require('path').join(__dirname, 'series-seeds.json'), 'utf8'));
   JSON_SEEDS = seeds.series || [];
 } catch (e) { /* no seeds file or bad JSON */ }
-let SUPA_SEEDS = [];   // live list from the series_seeds Supabase table (set by the spine on refresh)
+let SUPA_SEEDS = [];      // live list from the series_seeds Supabase table (set by the spine on refresh)
+let _supaLoaded = false;  // true once a SUCCESSFUL Supabase read has happened
 let VIDEO_SEEDS = [];
 let ALL = [];
 function rebuild() {
+  // Supabase wins once loaded (admin deletions stick); JSON only bootstraps before the first read.
+  const source = _supaLoaded ? SUPA_SEEDS : JSON_SEEDS;
   const seen = new Set();
-  VIDEO_SEEDS = [...JSON_SEEDS, ...SUPA_SEEDS]
+  VIDEO_SEEDS = source
     .map(buildSeedCrate)
     .filter((c) => c && !seen.has(c.id) && (seen.add(c.id), true));
   ALL = [...VIDEO, ...VIDEO_IA, ...VIDEO_NASA, ...VIDEO_COMMONS, ...GEMS, ...VIDEO_SEEDS, ...AUDIO, ...GAMES, ...TEXTS];
@@ -130,6 +134,7 @@ function rebuild() {
 // Replace the live Supabase seed list (rows: strings or {name, query}) and rebuild the crate set.
 function setSupabaseSeeds(rows) {
   SUPA_SEEDS = Array.isArray(rows) ? rows : [];
+  _supaLoaded = true;
   rebuild();
 }
 rebuild();
