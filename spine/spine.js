@@ -233,6 +233,8 @@ app.post('/catalog/seeds/sync', requireAdmin, async (req, res) => {
     (async () => {
       for (const c of crates) { try { await sync.syncOne(c.id); } catch (e) { /* skip a crate */ } }
       try { require('./grouping.js').regroup(dbx); } catch (e) { /* skip regroup */ }
+      // Wikidata verify so the new shows reach the catalog SHOWS face (conf >= 0.85), not just the pool.
+      try { await require('./grouping.js').verifyPass(dbx); } catch (e) { /* skip verify */ }
     })();
   } catch (err) {
     res.status(500).json({ error: String(err.message || err).slice(0, 200) });
