@@ -309,6 +309,23 @@ function buildPage({ id, title, creator, year, description, start, end, isClip }
  */
 router.get("/watch/:id", async (req, res) => {
   const { id } = req.params;
+
+  // Humans get bounced to the APP (voidtv.net), where the video actually plays; only social
+  // crawlers get the OG page below, so link previews still render. Without this split a person
+  // clicking a shared link landed on the preview page whose only CTA is "watch on archive.org"
+  // (tester: Copy Link / Void Page / socials all "redirect to IA, can't watch the video").
+  // Override the app origin with the APP_URL env if the frontend domain ever changes.
+  const ua = String(req.get("user-agent") || "");
+  const isCrawler = /bot|crawler|spider|facebookexternalhit|twitterbot|slackbot|discordbot|whatsapp|telegram|linkedinbot|embedly|pinterest|redditbot|googlebot|bingbot|skype|vkshare|preview/i.test(ua);
+  if (!isCrawler) {
+    const APP_URL = process.env.APP_URL || "https://voidtv.net";
+    const p = new URLSearchParams();
+    if (req.query.start) p.set("start", String(req.query.start));
+    if (req.query.end) p.set("end", String(req.query.end));
+    const qs = p.toString();
+    return res.redirect(302, `${APP_URL}/watch/${encodeURIComponent(id)}${qs ? "?" + qs : ""}`);
+  }
+
   const start = parseInt(req.query.start) || 0;
   const end = parseInt(req.query.end) || 0;
   const isClip = start > 0 || end > 0;
