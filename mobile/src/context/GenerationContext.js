@@ -3,7 +3,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { GENERATIONS } from '../data/generations';
 
 const KEY = '@void_generation';
-const DEFAULT = 'millennial';
+const DEFAULT = 'void';
 
 const GenerationContext = createContext(null);
 
