@@ -806,6 +806,9 @@ const GENERATION_ERAS = {
   // uploads (civic meetings, gameplay rips, mirror spam — "nonsense everywhere", B). The
   // 2005-2022 core leads; the 2023+ upload wave ranks by proximity and trails.
   genz:       { anchor: { from: 2005, to: 2022, sort: 'year desc' }, floor: 1970 },
+  // VOID = the single default lean (B 2026-06-28, signal removal): newest-first on every row,
+  // variety reaching back to 1970; older media lives in search/void-hunting, not the default wall.
+  void:       { anchor: { from: 2008, to: 2025, sort: 'year desc' }, floor: 1970 },
 };
 
 // Rows the era-lean must never touch: their items stay exactly as authored.
@@ -838,7 +841,9 @@ function eraFor(gen, cat) {
 //   • ROW ORDER leans too: rows are scored by how era-fitting their face is, so e.g. a 1930s-heavy
 //     PSA row sinks for genz and the decade rows drift toward their own generation
 function applyEraLean(categories, gen) {
-  const eraDef = GENERATION_ERAS[gen];
+  // One lean for everyone now (signal removal): always the VOID newest-first profile, whatever
+  // gen the (possibly legacy/cached) client sends. The `gen` param is kept for call-site signature.
+  const eraDef = GENERATION_ERAS.void;
   if (!eraDef || !Array.isArray(categories)) return categories;
   const { anchor, floor } = eraDef;
   // Years beyond next year are metadata garbage ("2037 Convention" was leading rows on a

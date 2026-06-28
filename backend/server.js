@@ -64,7 +64,7 @@ let lastGoodCategories = {};
 let lastGoodWall = {};
 const WALL_MIN_ROWS = 8;
 const rowsWithItems = (arr) => (Array.isArray(arr) ? arr : []).filter((c) => c && (c.items || []).length > 0).length;
-const VALID_GENS = ['boomer', 'millennial', 'genz'];
+const VALID_GENS = ['void', 'boomer', 'millennial', 'genz']; // legacy gens still parse; all lean the same (VOID) now
 function parseGen(q) { return VALID_GENS.includes(q) ? q : null; }
 // Sorts the client may request via ?sort= — powers search "re-roll" (a genuinely different set for
 // the same query). Whitelisted so a bad value can't break the Archive query; unknown → ignored.
@@ -643,7 +643,9 @@ app.get("/api/categories", async (req, res) => {
     // (the raw baseKey stays tier-agnostic — one fetch feeds both tiers).
     const tier = (req.query.tier === 'vault' || req.query.tier === 'hindi') ? req.query.tier : 'wall';
     const baseKey = `all_categories:none:${timeBucket}`;
-    const genKey = `all_categories:${gen || 'none'}:${tier}:${timeBucket}`;
+    // One identity now (VOID): the lean is uniform for everyone, so the processed wall is shared
+    // across all clients — one cache entry per tier (no per-gen fan-out, which fed the genKey churn).
+    const genKey = `all_categories:all:${tier}:${timeBucket}`;
 
     // Fast path: already-computed per-gen (or base) payload
     if (!shuffle && !refresh) {
@@ -713,16 +715,18 @@ app.get("/api/categories", async (req, res) => {
         if (tiered.length < 5) tiered = base;                                         // guard: never blank the wall
         tiered = archive.applyWallRecencyFloor(tiered);                               // color-era floor
       }
-      const out = gen ? archive.applyEraLean(tiered, gen) : tiered;
+      const out = archive.applyEraLean(tiered, gen); // always the VOID newest lean now (gen ignored inside)
       // THIN-WALL GUARD: never cache (server OR Cloudflare edge) a thin wall from a warm/blip; that
       // 20-min poisoning is what showed "2/4 rows". Serve the last full wall instead when thin.
+      // One shared last-good bucket now (uniform lean) — a thin request falls back to ANY client's
+      // last full wall, not just one keyed to its own gen.
       if (tier === 'wall' && rowsWithItems(out) < WALL_MIN_ROWS) {
-        const lg = lastGoodWall[gen || 'none'];
+        const lg = lastGoodWall.all;
         res.set("Cache-Control", "no-store");
         res.set("X-Cache", "THIN");
         return res.json(await shape(lg && rowsWithItems(lg) > rowsWithItems(out) ? lg : out));
       }
-      if (tier === 'wall') lastGoodWall[gen || 'none'] = out;  // remember a healthy wall
+      if (tier === 'wall') lastGoodWall.all = out;  // remember a healthy wall
       if (gen && !shuffle && tier === 'wall') lastGoodCategories[gen] = out;
       if (!shuffle) cache.set(genKey, out, 1200);
       res.set("X-Cache", shuffle ? "BYPASS" : "MISS");
