@@ -64,6 +64,17 @@ let lastGoodCategories = {};
 let lastGoodWall = {};
 const WALL_MIN_ROWS = 8;
 const rowsWithItems = (arr) => (Array.isArray(arr) ? arr : []).filter((c) => c && (c.items || []).length > 0).length;
+// Persist the last full wall across restarts. In-memory lastGoodWall is empty on a fresh deploy/
+// restart, so the warm-up rebuilds thin for ~60s (B's recurring "where did the rows go" = the
+// deploy warm window). Saved to Redis (L2) on every healthy wall + restored on boot, the thin-guard
+// can serve the full 11 the instant the server comes back, killing the warm-window thin wall.
+const LASTGOOD_WALL_KEY = 'lastgood:wall:all';
+(async () => {
+  try {
+    const w = await cache.get(LASTGOOD_WALL_KEY);
+    if (w && rowsWithItems(w) >= WALL_MIN_ROWS) { lastGoodWall.all = w; console.log(`[wall] restored last-good wall from cache (${rowsWithItems(w)} rows)`); }
+  } catch (e) { /* cold cache / no redis — the warm-up will fill it */ }
+})();
 const VALID_GENS = ['void', 'boomer', 'millennial', 'genz']; // legacy gens still parse; all lean the same (VOID) now
 function parseGen(q) { return VALID_GENS.includes(q) ? q : null; }
 // Sorts the client may request via ?sort= — powers search "re-roll" (a genuinely different set for
@@ -718,15 +729,21 @@ app.get("/api/categories", async (req, res) => {
       const out = archive.applyEraLean(tiered, gen); // always the VOID newest lean now (gen ignored inside)
       // THIN-WALL GUARD: never cache (server OR Cloudflare edge) a thin wall from a warm/blip; that
       // 20-min poisoning is what showed "2/4 rows". Serve the last full wall instead when thin.
-      // One shared last-good bucket now (uniform lean) — a thin request falls back to ANY client's
+      // One shared last-good bucket now (uniform lean): a thin request falls back to ANY client's
       // last full wall, not just one keyed to its own gen.
       if (tier === 'wall' && rowsWithItems(out) < WALL_MIN_ROWS) {
-        const lg = lastGoodWall.all;
+        let lg = lastGoodWall.all;
+        // Cold-boot fallback: if in-memory last-good isn't populated yet (just restarted), pull the
+        // persisted full wall from Redis so a warm-window request serves 11, not thin.
+        if (!lg || rowsWithItems(lg) < WALL_MIN_ROWS) {
+          try { const cached = await cache.get(LASTGOOD_WALL_KEY); if (cached && rowsWithItems(cached) > rowsWithItems(lg || [])) { lg = cached; lastGoodWall.all = cached; } } catch {}
+        }
         res.set("Cache-Control", "no-store");
         res.set("X-Cache", "THIN");
         return res.json(await shape(lg && rowsWithItems(lg) > rowsWithItems(out) ? lg : out));
       }
-      if (tier === 'wall') lastGoodWall.all = out;  // remember a healthy wall
+      // Remember a healthy wall in memory AND Redis (so it survives the next restart, 1-day TTL).
+      if (tier === 'wall') { lastGoodWall.all = out; cache.set(LASTGOOD_WALL_KEY, out, 86400).catch(() => {}); }
       if (gen && !shuffle && tier === 'wall') lastGoodCategories[gen] = out;
       if (!shuffle) cache.set(genKey, out, 1200);
       res.set("X-Cache", shuffle ? "BYPASS" : "MISS");
