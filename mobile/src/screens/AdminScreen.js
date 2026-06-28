@@ -42,9 +42,13 @@ export default function AdminScreen({ navigation }) {
   const [showUsers, setShowUsers] = useState(false);
   const [showContribs, setShowContribs] = useState(false);
   const [excludes, setExcludes] = useState([]);
+  const [excludesErr, setExcludesErr] = useState(false);
+  const [excludesLoaded, setExcludesLoaded] = useState(false);
   const [killId, setKillId] = useState('');
   const [killReason, setKillReason] = useState('');
   const [series, setSeries] = useState([]);
+  const [seriesErr, setSeriesErr] = useState(false);
+  const [seriesLoaded, setSeriesLoaded] = useState(false);
   const [seriesName, setSeriesName] = useState('');
   const [seriesQuery, setSeriesQuery] = useState('');
 
@@ -67,8 +71,9 @@ export default function AdminScreen({ navigation }) {
   }, []);
 
   const fetchExcludes = useCallback(async () => {
-    try { const r = await api.adminGetExcludes(); setExcludes(Array.isArray(r?.excludes) ? r.excludes : []); }
-    catch (e) { /* ignore */ }
+    try { const r = await api.adminGetExcludes(); setExcludes(Array.isArray(r?.excludes) ? r.excludes : []); setExcludesErr(false); }
+    catch (e) { setExcludesErr(true); }
+    finally { setExcludesLoaded(true); }
   }, []);
   useEffect(() => { fetchDashboard(); fetchExcludes(); }, [fetchDashboard, fetchExcludes]);
 
@@ -88,8 +93,9 @@ export default function AdminScreen({ navigation }) {
   }, [fetchExcludes]);
 
   const fetchSeries = useCallback(async () => {
-    try { const r = await api.adminGetSeries(); setSeries(Array.isArray(r?.series) ? r.series : []); }
-    catch (e) { /* ignore */ }
+    try { const r = await api.adminGetSeries(); setSeries(Array.isArray(r?.series) ? r.series : []); setSeriesErr(false); }
+    catch (e) { setSeriesErr(true); }
+    finally { setSeriesLoaded(true); }
   }, []);
   useEffect(() => { fetchSeries(); }, [fetchSeries]);
 
@@ -188,7 +194,7 @@ export default function AdminScreen({ navigation }) {
       <ScrollView
         style={{ flex: 1 }}
         contentContainerStyle={{ paddingTop: insets.top + 12, paddingBottom: insets.bottom + 40 }}
-        refreshControl={<RefreshControl refreshing={refreshing} onRefresh={() => { setRefreshing(true); fetchDashboard(); }} tintColor={accent} />}
+        refreshControl={<RefreshControl refreshing={refreshing} onRefresh={() => { setRefreshing(true); fetchDashboard(); fetchExcludes(); fetchSeries(); }} tintColor={accent} />}
       >
         {/* Header */}
         <View style={styles.header}>
@@ -199,7 +205,7 @@ export default function AdminScreen({ navigation }) {
             <Text style={[styles.headerTitle, { color: accent }]}>ADMIN PANEL</Text>
             <Text style={styles.headerSub}>{user.email}</Text>
           </View>
-          <TouchableOpacity onPress={() => { setRefreshing(true); fetchDashboard(); }} hitSlop={12}>
+          <TouchableOpacity onPress={() => { setRefreshing(true); fetchDashboard(); fetchExcludes(); fetchSeries(); }} hitSlop={12}>
             <Ionicons name="refresh" size={20} color={colors.textMuted} />
           </TouchableOpacity>
         </View>
@@ -393,6 +399,11 @@ export default function AdminScreen({ navigation }) {
                 loading={actionLoading === 'kill_add'}
                 onPress={addKill}
               />
+              {excludes.length === 0 && (
+                <Text style={styles.emptyText}>
+                  {!excludesLoaded ? 'Loading…' : excludesErr ? "Couldn't load — tap refresh ↑" : 'No kills yet'}
+                </Text>
+              )}
               {excludes.length > 0 && (
                 <View style={{ marginTop: 10 }}>
                   {excludes.map((ex) => (
@@ -436,6 +447,11 @@ export default function AdminScreen({ navigation }) {
                 <ActionButton label="ADD SHOW" icon="add-circle-outline" color={accent} loading={actionLoading === 'series_add'} onPress={addSeries} />
                 <ActionButton label="PULL NOW" icon="cloud-download-outline" color="#39ff14" loading={actionLoading === 'series_pull'} onPress={pullSeries} />
               </View>
+              {series.length === 0 && (
+                <Text style={styles.emptyText}>
+                  {!seriesLoaded ? 'Loading…' : seriesErr ? "Couldn't load — tap refresh ↑" : 'No shows added yet'}
+                </Text>
+              )}
               {series.length > 0 && (
                 <View style={{ marginTop: 10 }}>
                   {series.map((s) => (
