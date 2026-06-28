@@ -401,7 +401,7 @@ export default function AdminScreen({ navigation }) {
               />
               {excludes.length === 0 && (
                 <Text style={styles.emptyText}>
-                  {!excludesLoaded ? 'Loading…' : excludesErr ? "Couldn't load — tap refresh ↑" : 'No kills yet'}
+                  {!excludesLoaded ? 'Loading…' : excludesErr ? "Couldn't load, tap refresh ↑" : 'No kills yet'}
                 </Text>
               )}
               {excludes.length > 0 && (
@@ -449,7 +449,7 @@ export default function AdminScreen({ navigation }) {
               </View>
               {series.length === 0 && (
                 <Text style={styles.emptyText}>
-                  {!seriesLoaded ? 'Loading…' : seriesErr ? "Couldn't load — tap refresh ↑" : 'No shows added yet'}
+                  {!seriesLoaded ? 'Loading…' : seriesErr ? "Couldn't load, tap refresh ↑" : 'No shows added yet'}
                 </Text>
               )}
               {series.length > 0 && (

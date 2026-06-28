@@ -174,7 +174,7 @@ router.post("/", requireAuth, async (req, res) => {
   if (EXPLICIT_INTENT.test(query)) {
     return res.json({
       refused: true,
-      reply: "That's not a thread I'll pull — mature material isn't something the Archivist hunts down. You can browse the mature section manually if you're looking for it.",
+      reply: "That's not a thread I'll pull. Mature material isn't something the Archivist hunts down. You can browse the mature section manually if you're looking for it.",
       items: [],
       usesLeft: totalLeft,
       limit: dailyLimit,
@@ -195,7 +195,7 @@ router.post("/", requireAuth, async (req, res) => {
   if (totalLeft <= 0) {
     return res.status(429).json({
       error: "quota_exceeded",
-      reply: "The Archivist needs to rest — you're out of consults for today. Curate the archive to earn more, or drop a coin in the machine (supporters get four times the rabbit-holes).",
+      reply: "The Archivist needs to rest. You're out of consults for today. Curate the archive to earn more, or drop a coin in the machine (supporters get four times the rabbit-holes).",
       usesLeft: 0,
       limit: dailyLimit,
       credits: 0,

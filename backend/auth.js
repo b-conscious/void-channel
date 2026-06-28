@@ -177,7 +177,7 @@ router.post("/refresh", async (req, res) => {
   try {
     const { data, error } = await supabase.auth.refreshSession({ refresh_token });
     if (error) {
-      return res.status(401).json({ error: "Token refresh failed — please sign in again" });
+      return res.status(401).json({ error: "Token refresh failed. Please sign in again" });
     }
 
     res.json({

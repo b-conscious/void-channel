@@ -84,7 +84,7 @@ const CATEGORIES = [
     id: "ephemeral",
     group: "type",
     name: "Lost Reels",
-    subtitle: "Someone's life on 8mm — found, digitized, yours now",
+    subtitle: "Someone's life on 8mm, found, digitized, yours now",
     query: "collection:(home_movies) AND mediatype:(movies)",
   },
   {
@@ -154,7 +154,7 @@ const CATEGORIES = [
     id: "cartoons",
     group: "type",
     name: "The Animation Vault",
-    subtitle: "Saturday mornings across the decades — 30s shorts to 90s/2000s series",
+    subtitle: "Saturday mornings across the decades, 30s shorts to 90s/2000s series",
     // Span the GENERATIONS of animation, not just 1930s theatrical shorts. Draw from the broad
     // animationandcartoons umbrella + recognizable cross-decade series (X-Men, Transformers,
     // Gargoyles, Animaniacs, PPG…), and EXCLUDE the shows that already have their own rows so the
@@ -181,7 +181,7 @@ const CATEGORIES = [
     id: "most_popular",
     group: "type",
     name: "Most Popular",
-    subtitle: "The most watched films on the Internet Archive — all time",
+    subtitle: "The most watched films on the Internet Archive, all time",
     // Constrained to the feature_films collection (B 2026-06-15: raw mediatype:(movies) downloads
     // are ~80% non-film junk: editing templates, "test file mp4", "graphics", batch dumps, gameplay
     // rips). feature_films is curated real cinema, so downloads here reflect actual film popularity.
@@ -192,7 +192,7 @@ const CATEGORIES = [
     id: "feature_length",
     group: "type",
     name: "Feature Films",
-    subtitle: "Full-length movies — grab the popcorn, this'll take a while",
+    subtitle: "Full-length movies, grab the popcorn, this'll take a while",
     query: 'collection:(feature_films) AND mediatype:(movies)',
   },
   {
@@ -206,14 +206,14 @@ const CATEGORIES = [
     id: "scifi",
     group: "type",
     name: "Futures That Never Happened",
-    subtitle: "How every decade imagined tomorrow — and got it wrong",
+    subtitle: "How every decade imagined tomorrow, and got it wrong",
     query: 'subject:("science fiction" OR "atomic age" OR "space") AND mediatype:(movies) AND collection:(feature_films OR prelinger)',
   },
   {
     id: "noir",
     group: "type",
     name: "Smoke & Shadows",
-    subtitle: "Detectives, dames, double-crosses — the noir canon",
+    subtitle: "Detectives, dames, double-crosses, the noir canon",
     query: "(collection:(Film_Noir) OR subject:(noir OR detective)) AND mediatype:(movies)",
   },
   {
@@ -233,13 +233,13 @@ const CATEGORIES = [
   {
     id: "anime",
     name: "Anime & Manga",
-    subtitle: "Japanese animation — from vintage to fan-subbed obscurities",
+    subtitle: "Japanese animation, from vintage to fan-subbed obscurities",
     query: "(subject:(anime) OR subject:(manga) OR collection:(anime) OR collection:(japanese_animation)) AND mediatype:(movies)",
   },
   {
     id: "saturday_morning",
     name: "Saturday Morning",
-    subtitle: "Pour the cereal, turn on the TV — it's 1987 and nothing matters",
+    subtitle: "Pour the cereal, turn on the TV, it's 1987 and nothing matters",
     query: "(subject:(\"saturday morning\") OR subject:(\"children's television\") OR collection:(saturdaymorningcartoons) OR (title:(\"He-Man\") OR title:(\"Transformers\") OR title:(\"GI Joe\") OR title:(\"Thundercats\") OR title:(\"Voltron\") OR title:(\"Teenage Mutant Ninja\"))) AND mediatype:(movies)",
   },
   {
@@ -263,7 +263,7 @@ const CATEGORIES = [
   {
     id: "foreign",
     name: "World Cinema",
-    subtitle: "Subtitles optional, vibes mandatory — cinema without borders",
+    subtitle: "Subtitles optional, vibes mandatory, cinema without borders",
     query: "(subject:(\"foreign film\") OR subject:(\"world cinema\") OR subject:(\"french film\") OR subject:(\"italian film\") OR subject:(\"german film\") OR subject:(\"japanese film\") OR subject:(\"indian cinema\") OR collection:(world_cinema)) AND mediatype:(movies)",
   },
   // HINDI SECTION (B 2026-06-15): a deliverable for Hindi-speaking partners. group:'hindi' keeps
@@ -299,7 +299,7 @@ const CATEGORIES = [
   {
     id: "art_film",
     name: "Art House",
-    subtitle: "Avant-garde, experimental, and deliberately confusing — on purpose",
+    subtitle: "Avant-garde, experimental, and deliberately confusing, on purpose",
     query: "(subject:(\"art film\") OR subject:(\"experimental film\") OR subject:(\"avant-garde\") OR subject:(\"art house\") OR collection:(art_films)) AND mediatype:(movies)",
   },
   {
@@ -311,7 +311,7 @@ const CATEGORIES = [
   {
     id: "abstract",
     name: "Abstract & Visual",
-    subtitle: "No plot, no characters — just light, color, and motion",
+    subtitle: "No plot, no characters, just light, color, and motion",
     query: "(subject:(abstract) OR subject:(\"visual art\") OR subject:(\"video art\") OR subject:(\"motion graphics\") OR subject:(\"experimental animation\")) AND mediatype:(movies)",
   },
   {
@@ -323,7 +323,7 @@ const CATEGORIES = [
   {
     id: "public_access",
     name: "Public Access",
-    subtitle: "Local cable TV — unfiltered, unhinged, unforgettable",
+    subtitle: "Local cable TV, unfiltered, unhinged, unforgettable",
     query: "(subject:(\"public access\") OR subject:(\"public access television\") OR collection:(public_access_tv) OR subject:(\"cable access\") OR title:(\"public access\")) AND mediatype:(movies)",
   },
   {
@@ -335,7 +335,7 @@ const CATEGORIES = [
   {
     id: "violence",
     name: "Action & Violence",
-    subtitle: "Stunts, fights, explosions — the good stuff",
+    subtitle: "Stunts, fights, explosions, the good stuff",
     query: "(subject:(action) OR subject:(\"martial arts\") OR subject:(\"action film\") OR subject:(war) OR subject:(violence) OR subject:(\"fight scene\")) AND mediatype:(movies)",
   },
   {
@@ -359,13 +359,13 @@ const CATEGORIES = [
   {
     id: "comedy",
     name: "Comedy Gold",
-    subtitle: "Slapstick, stand-up, sketch — humor that aged in every direction",
+    subtitle: "Slapstick, stand-up, sketch, humor that aged in every direction",
     query: "(subject:(comedy) OR subject:(\"comedy film\") OR subject:(\"stand-up comedy\") OR subject:(humor) OR subject:(slapstick)) AND mediatype:(movies)",
   },
   {
     id: "western",
     name: "The Western",
-    subtitle: "Outlaws, showdowns, and dust — the original American genre",
+    subtitle: "Outlaws, showdowns, and dust, the original American genre",
     query: "(subject:(western) OR subject:(\"western film\") OR subject:(cowboy) OR subject:(\"wild west\")) AND mediatype:(movies)",
   },
   {
@@ -377,7 +377,7 @@ const CATEGORIES = [
   {
     id: "documentary",
     name: "The Documentary",
-    subtitle: "Real people, real stories — before everything was 'content'",
+    subtitle: "Real people, real stories, before everything was 'content'",
     query: "(subject:(documentary) OR subject:(\"documentary film\") OR collection:(documentaries)) AND mediatype:(movies)",
   },
   {
@@ -389,13 +389,13 @@ const CATEGORIES = [
   {
     id: "silent_film",
     name: "The Silent Era",
-    subtitle: "Before sound ruined everything — pure visual storytelling",
+    subtitle: "Before sound ruined everything, pure visual storytelling",
     query: "(subject:(\"silent film\") OR subject:(\"silent movie\") OR subject:(\"silent era\") OR collection:(silent_films) OR year:[1895 TO 1929]) AND mediatype:(movies)",
   },
   {
     id: "war_footage",
     name: "War Footage",
-    subtitle: "Real conflict on film — not for the faint of heart",
+    subtitle: "Real conflict on film, not for the faint of heart",
     query: "(subject:(\"world war\") OR subject:(\"war footage\") OR subject:(\"military film\") OR subject:(\"combat footage\") OR subject:(\"war documentary\") OR collection:(war_footage)) AND mediatype:(movies)",
   },
   {
@@ -424,14 +424,14 @@ const CATEGORIES = [
     id: "cringe",
     group: "type",
     name: "Cringe Archive",
-    subtitle: "So bad it's good — awkward PSAs, bizarre ads, and pure secondhand embarrassment",
+    subtitle: "So bad it's good, awkward PSAs, bizarre ads, and pure secondhand embarrassment",
     query: '(subject:(awkward OR cringe OR "bad acting" OR "so bad" OR embarrassing OR cheesy) OR collection:(Drive-in_Ads OR ephemeral OR oddball_films) OR (subject:(training OR educational) AND subject:(dating OR hygiene OR etiquette))) AND mediatype:(movies)',
   },
   {
     id: "tv_movies",
     group: "type",
     name: "The TV Set",
-    subtitle: "Real shows across the decades — the set never turned off",
+    subtitle: "Real shows across the decades, the set never turned off",
     // Actual TV episodes spanning eras (recognizable series + classic_tv/old_tv collections),
     // fenced from the classroom/instructional + graphic-medical films that were leaking on-main.
     // Lean on the curated collections + the SPECIFIC subjects "television series"/"sitcom" (the
@@ -453,7 +453,7 @@ const CATEGORIES = [
     id: "banned",
     group: "type",
     name: "Banned",
-    subtitle: "Censored, pulled, prohibited — the cinema they tried to bury",
+    subtitle: "Censored, pulled, prohibited, the cinema they tried to bury",
     // Banned CINEMA only. The bare `banned`/`censored` subject tags pull modern deplatformed
     // extremist channels (verified in testing), so we lean on film terms + known cult/banned
     // titles, exclude propaganda/extremist/religious, and the category is in ENTERTAINMENT_IDS
@@ -468,7 +468,7 @@ const CATEGORIES = [
     id: "mature",
     group: "type",
     name: "⚠ Behind Closed Doors",
-    subtitle: "How every era talked about bodies — stag reels, burlesque, peep shows",
+    subtitle: "How every era talked about bodies, stag reels, burlesque, peep shows",
     query: [
       '(collection:(stag_films OR exploitation_films)',
       'OR subject:(erotic OR stag OR "pin-up" OR burlesque OR "sex education"',
@@ -489,7 +489,7 @@ const CATEGORIES = [
     group: "deep",
     parent: "prelinger",
     name: "Blood on the Highway",
-    subtitle: "Scare-film driver's ed — they really showed you the wreck",
+    subtitle: "Scare-film driver's ed, they really showed you the wreck",
     query: 'collection:(prelinger) AND subject:("driver education" OR "traffic safety" OR driving OR "automobile safety" OR highway) AND mediatype:(movies)',
   },
   {
@@ -619,7 +619,7 @@ const CATEGORIES = [
     group: "show",
     parent: "cartoons",
     name: "Betty Boop",
-    subtitle: "Fleischer Studios, 1930s — jazz-age animation at its weirdest",
+    subtitle: "Fleischer Studios, 1930s, jazz-age animation at its weirdest",
     query: "collection:(betty_boop_cartoons) OR (title:(\"betty boop\") AND mediatype:(movies))",
   },
   {
@@ -627,7 +627,7 @@ const CATEGORIES = [
     group: "show",
     parent: "cartoons",
     name: "Popeye the Sailor",
-    subtitle: "Spinach, punching, and Olive Oyl — repeat forever",
+    subtitle: "Spinach, punching, and Olive Oyl, repeat forever",
     query: "(title:(popeye) OR collection:(popeyethesailorman)) AND mediatype:(movies)",
   },
   {
@@ -635,7 +635,7 @@ const CATEGORIES = [
     group: "show",
     parent: "cartoons",
     name: "Looney Tunes",
-    subtitle: "Bugs, Daffy, Porky — the originals, not the reboots",
+    subtitle: "Bugs, Daffy, Porky, the originals, not the reboots",
     query: "(title:(\"looney tunes\") OR title:(\"merrie melodies\") OR title:(\"bugs bunny\")) AND mediatype:(movies)",
   },
   {
@@ -651,7 +651,7 @@ const CATEGORIES = [
     group: "show",
     parent: "cartoons",
     name: "Classic Disney",
-    subtitle: "Mickey, Donald, Goofy — before the copyright wall",
+    subtitle: "Mickey, Donald, Goofy, before the copyright wall",
     query: "(title:(\"mickey mouse\") OR title:(\"donald duck\") OR title:(\"goofy\")) AND mediatype:(movies)",
   },
   {
@@ -659,7 +659,7 @@ const CATEGORIES = [
     group: "show",
     parent: "cartoons",
     name: "Felix the Cat",
-    subtitle: "The first cartoon star — silent era, pure imagination",
+    subtitle: "The first cartoon star, silent era, pure imagination",
     query: "title:(\"felix the cat\") AND mediatype:(movies)",
   },
   {
@@ -675,7 +675,7 @@ const CATEGORIES = [
     group: "show",
     parent: "scifi",
     name: "The Fifth Dimension",
-    subtitle: "Twilight Zone, Outer Limits — anthology sci-fi that still hits",
+    subtitle: "Twilight Zone, Outer Limits, anthology sci-fi that still hits",
     query: "(title:(\"twilight zone\") OR title:(\"outer limits\") OR title:(\"one step beyond\")) AND mediatype:(movies)",
   },
 
@@ -733,7 +733,7 @@ const CATEGORIES = [
     id: "d2000s",
     group: "decade",
     name: "The 2000s",
-    subtitle: "Y2K survived, reality TV didn't — the camcorder-to-digital shift",
+    subtitle: "Y2K survived, reality TV didn't, the camcorder-to-digital shift",
     query: "year:[2000 TO 2009] AND mediatype:(movies)",
   },
   {

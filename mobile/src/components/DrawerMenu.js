@@ -288,7 +288,7 @@ export default function DrawerMenu({ nav }) {
               <Ionicons name="gift" size={22} color={BRAND_BLUE} style={{ width: 30 }} />
               <View>
                 <Text style={[drawerStyles.menuLabel, { color: '#f5a623' }]}>SUPPORT HUMAN CREATIONS</Text>
-                <Text style={[drawerStyles.supportSub, { color: '#39ff14' }]}>FIGHT THE AI SLOP — donate to keep real cinema alive</Text>
+                <Text style={[drawerStyles.supportSub, { color: '#39ff14' }]}>FIGHT THE AI SLOP: donate to keep real cinema alive</Text>
               </View>
             </TouchableOpacity>
 
@@ -301,7 +301,7 @@ export default function DrawerMenu({ nav }) {
               <Ionicons name="library" size={22} color={BRAND_BLUE} style={{ width: 30 }} />
               <View>
                 <Text style={[drawerStyles.menuLabel, { color: BRAND_BLUE }]}>GIVE TO THE INTERNET ARCHIVE</Text>
-                <Text style={drawerStyles.supportSub}>they keep the vault — donate to them directly</Text>
+                <Text style={drawerStyles.supportSub}>they keep the vault, donate to them directly</Text>
               </View>
             </TouchableOpacity>
 

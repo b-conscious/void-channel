@@ -752,7 +752,7 @@ export default function HomeScreen({ navigation, route }) {
             category={{
               id: "community_hearts",
               name: "♥ Community Loves",
-              subtitle: `What other users are hearting — ${topHearts.length} items`,
+              subtitle: `What other users are hearting · ${topHearts.length} items`,
               items: topHearts,
             }}
             onItemPress={handleItemPress}
@@ -834,7 +834,7 @@ export default function HomeScreen({ navigation, route }) {
             <Ionicons name="gift" size={16} color={BRAND_BLUE} />
             <Text style={styles.footerLine}>
               <Text style={{ color: '#f5a623' }}>SUPPORT HUMAN CREATIONS</Text>
-              <Text style={{ color: '#39ff14' }}> — FIGHT THE AI SLOP</Text>
+              <Text style={{ color: '#39ff14' }}> · FIGHT THE AI SLOP</Text>
             </Text>
           </TouchableOpacity>
         </View>
@@ -1258,7 +1258,7 @@ function SpotlightRow({ accent, onItemPress, onShows, onMovies, contentW }) {
 
   var spots = [
     // Series previews aren't playable items (they're show cards) — every tap goes to the grid.
-    { key: 'series', icon: 'tv-outline', title: 'TELEVISION', sub: 'Verified shows — episodes in order', items: doorSeries, go: onShows, playable: false },
+    { key: 'series', icon: 'tv-outline', title: 'TELEVISION', sub: 'Verified shows · episodes in order', items: doorSeries, go: onShows, playable: false },
     { key: 'movies', icon: 'film-outline', title: 'FULL LENGTH FILMS', sub: 'The verified film catalog', items: doorMovies, go: onMovies, playable: true },
   ].filter(function (s) { return s.items.length > 0; });
 

@@ -701,7 +701,7 @@ export default function SearchScreen({ navigation, route }) {
           <Text style={[styles.promptBig, { color: accent }]}>40 MILLION ITEMS</Text>
           <Text style={styles.promptLine}>before AI slop, there was human creativity</Text>
           <View style={[styles.hintPill, { borderColor: accent + '55' }]}>
-            <Text style={[styles.hintText, { color: accent + 'aa' }]}>↑ search from the bar above — try “{hint}”</Text>
+            <Text style={[styles.hintText, { color: accent + 'aa' }]}>↑ search from the bar above, try “{hint}”</Text>
           </View>
         </View>
       ) : (

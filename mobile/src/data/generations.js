@@ -48,7 +48,7 @@ const VOID = {
     'try: unhinged',
   ],
   emptySearch: 'Nothing found. The algorithm has failed you.',
-  noSignal: '— DEAD AIR ON THIS CHANNEL —',
+  noSignal: '· DEAD AIR ON THIS CHANNEL ·',
   categories: {
     ephemeral:     { name: 'Found Footage & Home Movies',  subtitle: "Somebody's past life on 8mm" },
     prelinger:     { name: 'Industrial & Educational',     subtitle: 'Training films, documentaries, weird workplace stuff' },

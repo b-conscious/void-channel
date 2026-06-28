@@ -69,7 +69,7 @@ export default function TheArchivist({ navigation, contextItem, accent }) {
     } catch (e) {
       const msg = String(e?.message || '');
       if (msg.includes('429') || /quota/i.test(msg)) {
-        setTurns((t) => [...t, { q, reply: "The Archivist needs to rest — you've used your consults this week.", items: [], quota: true }]);
+        setTurns((t) => [...t, { q, reply: "The Archivist needs to rest. You've used your consults this week.", items: [], quota: true }]);
         setStatus((s) => ({ ...(s || {}), usesLeft: 0 }));
       } else if (msg.includes('401') || /auth/i.test(msg)) {
         setAuthNeeded(true);
@@ -126,8 +126,8 @@ export default function TheArchivist({ navigation, contextItem, accent }) {
               {turns.length === 0 && !loading && (
                 <View style={styles.intro}>
                   <Text style={styles.introText}>
-                    I'm the Archivist. Tell me a vibe, a year, a rabbit hole — "creepy 1950s educational films,"
-                    "lost home movies," "cartoons that feel like fever dreams" — and I'll pull the thread.
+                    I'm the Archivist. Tell me a vibe, a year, a rabbit hole: "creepy 1950s educational films,"
+                    "lost home movies," "cartoons that feel like fever dreams," and I'll pull the thread.
                   </Text>
                   {contextItem ? (
                     <Pressable onPress={() => { setQuery(`more like "${contextItem.title}"`); }} style={[styles.suggestChip, { borderColor: tint + '55' }]}>

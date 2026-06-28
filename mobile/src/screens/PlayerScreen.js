@@ -671,7 +671,7 @@ export default function PlayerScreen({ route, navigation }) {
       const sec = Math.floor(s % 60);
       return `${m}:${sec.toString().padStart(2, '0')}`;
     };
-    return `${item.title} [${formatSec(clipStart)}–${formatSec(clipEnd)}] — generating since 1895 // VOIDtv`;
+    return `${item.title} [${formatSec(clipStart)}–${formatSec(clipEnd)}] · generating since 1895 // VOIDtv`;
   }, [item, clipStart, clipEnd]);
 
   const handleClipCopyLink = useCallback(async () => {
@@ -730,7 +730,7 @@ export default function PlayerScreen({ route, navigation }) {
   }, [item]);
 
   const getShareText = useCallback(() => {
-    return `${item.title} — generating since 1895 // VOIDtv`;
+    return `${item.title} · generating since 1895 // VOIDtv`;
   }, [item]);
 
   const handleCopyLink = useCallback(async () => {
