@@ -1628,6 +1628,10 @@ async function getRelated(identifier, limit = 15) {
       // ^!-PREFIXED titles are the same mirror class with words attached ("! Charity Stream...")
       // and they sort FIRST under titleSorter asc — drop them too (B's screenshot, 2026-06-12).
       sameShow = sameShow.filter((it) => hasRealTitle(it) && !/^\s*!/.test(String(it.title || '')));
+      // Curated-rail junk screen: credit-fragment / *Prototype* / livestream / dump spam can fill a
+      // whole same-collection rail in title order (B 2026-06-28: the "Dangerous Assignment Ending
+      // Credits [#11..#25]" flood). Filter BEFORE the early return so junk never short-circuits it.
+      sameShow = cleanRail(sameShow);
     }
 
     // If same-show filled everything we need, done — no mixing required
@@ -1668,7 +1672,7 @@ async function getRelated(identifier, limit = 15) {
       seenBases.add(b);
       merged.push(it);
     }
-    return merged.slice(0, limit);
+    return cleanRail(merged).slice(0, limit); // junk-screen the subject backfill too, then trim
   } catch (err) {
     console.error(`[getRelated] ${identifier}:`, err.message);
     return [];
@@ -1758,7 +1762,11 @@ function dropFutureDated(items) {
 // ...|"<name> videos" personal upload dumps (residentmikelee/ghomayshi/solati/black cats/tm-bax)
 // |bare spam-domain titles (Fullvideo.video-baran3.com). These are non-content dumps, not films
 // (B 2026-06-28). Quality filter only, NOT a rights/origin call.
-const JUNK_TITLE_RE = /capcut|beat ?sync template|\btemplate\b|\biptv\b|\bm3u\b|whatsapp|telegram ?(channel|link)|free ?download (link|now)|\bcrack(ed)?\b|keygen|\bapk\b|t\.me\/|\btest ?file\b|\bpublicvideos?\b|\btosec\b|\bdat ?pack\b|\bgameplay\b|^\s*graphics\s*$|\bvideos\s*$|\b[\w-]+\.(?:com|net|info|xyz|biz|online|site)\b/i;
+// ...|credit-sequence fragments ("Ending/Opening/Closing/End Credits") |bracketed/asterisked
+// "*Prototype*" dumps. These are an upscaler/colorizer channel's numbered fragment spam that
+// flooded the autoplay rail (B 2026-06-28). Quality junk, not a creator/origin call. We match the
+// wrapped Prototype tag so a real film literally named "Prototype" is NOT dropped.
+const JUNK_TITLE_RE = /capcut|beat ?sync template|\btemplate\b|\biptv\b|\bm3u\b|whatsapp|telegram ?(channel|link)|free ?download (link|now)|\bcrack(ed)?\b|keygen|\bapk\b|t\.me\/|\btest ?file\b|\bpublicvideos?\b|\btosec\b|\bdat ?pack\b|\bgameplay\b|^\s*graphics\s*$|\bvideos\s*$|\b[\w-]+\.(?:com|net|info|xyz|biz|online|site)\b|\b(?:ending|opening|closing|end)\s+credits\b|[\*\[\(]\s*prototype\s*[\*\]\)]/i;
 function dropJunk(items) {
   if (!Array.isArray(items)) return items;
   return items.filter((it) => !JUNK_TITLE_RE.test(String((it && it.title) || '')));
@@ -1817,6 +1825,12 @@ function dropLiveStreams(items) {
     if (/\bLIVE\s*$/.test(creator)) return false;                             // channel named "... LIVE" (caps) -> drop
     return true;
   });
+}
+
+// The full curated-junk chain, for any curated surface (wall rows + the related/autoplay rail).
+// Search stays raw on purpose (rights posture).
+function cleanRail(items) {
+  return dropLiveStreams(dropJunk(dropSocialMirror(dropBroadcastJunk(dropFutureDated(items || [])))));
 }
 
 if (SPINE_URL) {
