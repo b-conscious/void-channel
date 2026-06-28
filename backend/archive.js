@@ -1750,7 +1750,10 @@ function dropFutureDated(items) {
 // CapCut/editing templates, IPTV reseller ads, contact-spam uploads. These aren't films and
 // have no business leading "the most watched films". Title-only, word-bounded; legit popular
 // uploads (Rick Astley, Open Library howtos) pass. Used on the downloads-ranked rows.
-const JUNK_TITLE_RE = /capcut|beat ?sync template|\btemplate\b|\biptv\b|\bm3u\b|whatsapp|telegram ?(channel|link)|free ?download (link|now)|\bcrack(ed)?\b|keygen|\bapk\b|t\.me\/|\btest ?file\b|\bpublicvideos?\b|\btosec\b|\bdat ?pack\b|\bgameplay\b|^\s*graphics\s*$/i;
+// ...|"<name> videos" personal upload dumps (residentmikelee/ghomayshi/solati/black cats/tm-bax)
+// |bare spam-domain titles (Fullvideo.video-baran3.com). These are non-content dumps, not films
+// (B 2026-06-28). Quality filter only, NOT a rights/origin call.
+const JUNK_TITLE_RE = /capcut|beat ?sync template|\btemplate\b|\biptv\b|\bm3u\b|whatsapp|telegram ?(channel|link)|free ?download (link|now)|\bcrack(ed)?\b|keygen|\bapk\b|t\.me\/|\btest ?file\b|\bpublicvideos?\b|\btosec\b|\bdat ?pack\b|\bgameplay\b|^\s*graphics\s*$|\bvideos\s*$|\b[\w-]+\.(?:com|net|info|xyz|biz|online|site)\b/i;
 function dropJunk(items) {
   if (!Array.isArray(items)) return items;
   return items.filter((it) => !JUNK_TITLE_RE.test(String((it && it.title) || '')));
@@ -1762,7 +1765,9 @@ function dropJunk(items) {
 // carry: a month-name date + clock ("DW News : DW : June 9, 2026 4:00am"), a numeric YYYYMMDD stamp
 // ("20260220"), an ISO date ("2026-02-20"), or an am/pm broadcast slot. We keep the CLOCK
 // requirement on the month-name form so a date-titled film ("December 7, 1941") is NOT dropped.
-const BROADCAST_TITLE_RE = /(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?\s+\d{1,2},?\s*\d{2,4}\s+\d{1,2}[:.]\d{2}|\b(?:19|20)\d{6}\b|\b(?:19|20)\d{2}[-\/._]\d{2}[-\/._]\d{2}\b|\b\d{1,2}[:.\-]\d{2}\s*(?:am|pm)\b/i;
+// ...|a month-name range ("Feb23-March 3 2026") |a numeric D/M/Y or M/D/Y date ("2/14/2026",
+// "21/2/26") — these flag livestream / WoE-style capture titles (B 2026-06-28).
+const BROADCAST_TITLE_RE = /(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?\s+\d{1,2},?\s*\d{2,4}\s+\d{1,2}[:.]\d{2}|(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?\s*\d{1,2}\s*[-–]\s*(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)|\b(?:19|20)\d{6}\b|\b(?:19|20)\d{2}[-\/._]\d{2}[-\/._]\d{2}\b|\b\d{1,2}[\/\-]\d{1,2}[\/\-]\d{2,4}\b|\b\d{1,2}[:.\-]\d{2}\s*(?:am|pm)\b/i;
 function dropBroadcastJunk(items) {
   if (!Array.isArray(items)) return items;
   return items.filter((it) => {
@@ -1812,13 +1817,12 @@ if (SPINE_URL) {
       return [];
     }
     return (wall.categories || []).map((c) => {
-      const pool = dropSocialMirror(dropBroadcastJunk(dropFutureDated(c.items || []))); // future-spam (P3) + off-air captures + youtube mirrors (B)
+      const pool = dropJunk(dropSocialMirror(dropBroadcastJunk(dropFutureDated(c.items || [])))); // future-spam (P3) + off-air captures + youtube mirrors (B) + dump/spam junk (B 2026-06-28, now ALL wall rows not just downloads-sort)
       let items;
       if (/downloads/.test(c.sort || '')) {
         // Fixed downloads-sort rows (Most Popular): ACTUALLY rank by downloads — bucketSample
         // shuffled them, so 7-download spam led "the most watched films" (P3). No shuffle.
-        // dropJunk strips the high-download non-film spam (capcut/iptv) that floods the top.
-        items = dropJunk(pool).slice().sort((a, b) => (b.downloads || 0) - (a.downloads || 0)).slice(0, rowsPerCategory);
+        items = pool.slice().sort((a, b) => (b.downloads || 0) - (a.downloads || 0)).slice(0, rowsPerCategory);
       } else {
         items = bucketSample(pool, c.diversify ? rowsPerCategory * 2 : rowsPerCategory, c.id);
         if (c.diversify) items = diversify(items, 2).slice(0, rowsPerCategory);
@@ -1837,9 +1841,9 @@ if (SPINE_URL) {
       // would jump the offset past the pool end (page 2 of a 50-pool at rows=50 returns zero).
       const fetchRows = (cat.diversify && page === 1) ? rows * 2 : rows;
       const r = await spineGet(`/category/${encodeURIComponent(categoryId)}?page=${page}&rows=${fetchRows}`);
-      let items = dropSocialMirror(dropBroadcastJunk(dropFutureDated(r.items || []))); // future-spam (P3) + off-air captures + youtube mirrors (B)
+      let items = dropJunk(dropSocialMirror(dropBroadcastJunk(dropFutureDated(r.items || [])))); // future-spam (P3) + off-air captures + youtube mirrors (B) + dump/spam junk (B 2026-06-28)
       if (/downloads/.test(cat.sort || '') && !shuffle) {
-        items = dropJunk(items).slice().sort((a, b) => (b.downloads || 0) - (a.downloads || 0));
+        items = items.slice().sort((a, b) => (b.downloads || 0) - (a.downloads || 0));
       }
       if (shuffle) items = bucketSample(items, items.length, `${categoryId}:reroll:${Date.now()}`);
       // Diversify only on page 1: on a finite pool page the per-series cap starves the row
