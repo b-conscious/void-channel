@@ -1787,6 +1787,33 @@ function dropSocialMirror(items) {
   return items.filter((it) => !/^(?:youtube|twitch|soop|tiktok|funnyordie)[-_]/i.test(String((it && it.id) || '')));
 }
 
+// Livestream tags vs real concerts (B 2026-06-28: "live by itself = trash, but live WITH
+// connecting words / music city / band = not"). We only drop when "live" is a bare stream marker
+// AND there's no music/concert context. So "Piece of Pie LIVE", "...livestream", "LIVE NOW", a 🔴
+// title, or a creator channel ending in "LIVE" go; but "Live at Wembley", "Queen - Live in Concert",
+// "Music City Live", "Nirvana Unplugged" stay, and ordinary titles that merely contain the word
+// ("Live and Let Die", "Live Free or Die Hard", "Live Nation Presents") are never touched.
+// LIVE_OK = music/concert context that ALWAYS protects a title. LIVE_TRASH = the only
+// unambiguous livestream-marker forms (we deliberately do NOT treat "(Live)" as trash: it's the
+// standard concert-track suffix, e.g. "Bohemian Rhapsody (Live)"). A trailing ALL-CAPS "LIVE" is a
+// drop signal ONLY in the creator/channel field ("Piece of Pie LIVE") — in a title it's usually a
+// concert ("Metallica LIVE"), so we leave titles alone there.
+const LIVE_OK_RE = /\b(?:concert|band|orchestra|symphony|philharmonic|tour|festival|acoustic|unplugged|setlist|gig|jam|on ?stage|musical?|sessions?|performance|recital|ensemble|quartet|choir|opera|jazz|blues|reggae|in concert|at the|live at|live in|live from|live aid|live ?8|music city|wembley|red rocks)\b/i;
+const LIVE_TRASH_RE = /\bli?ve ?stream\b|\blive now\b|🔴/i;
+function dropLiveStreams(items) {
+  if (!Array.isArray(items)) return items;
+  return items.filter((it) => {
+    const t = Array.isArray(it && it.title) ? it.title[0] : (it && it.title);
+    const cr = Array.isArray(it && it.creator) ? it.creator[0] : (it && it.creator);
+    const title = String(t || '');
+    const creator = String(cr || '');
+    if (LIVE_OK_RE.test(title)) return true;                                  // music/concert context -> keep
+    if (LIVE_TRASH_RE.test(title) || LIVE_TRASH_RE.test(creator)) return false; // livestream-form -> drop
+    if (/\bLIVE\s*$/.test(creator)) return false;                             // channel named "... LIVE" (caps) -> drop
+    return true;
+  });
+}
+
 if (SPINE_URL) {
   console.log(`[archive] SPINE transport active -> ${SPINE_URL}`);
 
@@ -1817,7 +1844,7 @@ if (SPINE_URL) {
       return [];
     }
     return (wall.categories || []).map((c) => {
-      const pool = dropJunk(dropSocialMirror(dropBroadcastJunk(dropFutureDated(c.items || [])))); // future-spam (P3) + off-air captures + youtube mirrors (B) + dump/spam junk (B 2026-06-28, now ALL wall rows not just downloads-sort)
+      const pool = dropLiveStreams(dropJunk(dropSocialMirror(dropBroadcastJunk(dropFutureDated(c.items || []))))); // future-spam (P3) + off-air captures + youtube mirrors (B) + dump/spam junk + bare-LIVE streams (B 2026-06-28, ALL wall rows)
       let items;
       if (/downloads/.test(c.sort || '')) {
         // Fixed downloads-sort rows (Most Popular): ACTUALLY rank by downloads — bucketSample
@@ -1841,7 +1868,7 @@ if (SPINE_URL) {
       // would jump the offset past the pool end (page 2 of a 50-pool at rows=50 returns zero).
       const fetchRows = (cat.diversify && page === 1) ? rows * 2 : rows;
       const r = await spineGet(`/category/${encodeURIComponent(categoryId)}?page=${page}&rows=${fetchRows}`);
-      let items = dropJunk(dropSocialMirror(dropBroadcastJunk(dropFutureDated(r.items || [])))); // future-spam (P3) + off-air captures + youtube mirrors (B) + dump/spam junk (B 2026-06-28)
+      let items = dropLiveStreams(dropJunk(dropSocialMirror(dropBroadcastJunk(dropFutureDated(r.items || []))))); // future-spam (P3) + off-air captures + youtube mirrors (B) + dump/spam junk + bare-LIVE streams (B 2026-06-28)
       if (/downloads/.test(cat.sort || '') && !shuffle) {
         items = items.slice().sort((a, b) => (b.downloads || 0) - (a.downloads || 0));
       }
