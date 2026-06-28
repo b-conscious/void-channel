@@ -8,6 +8,12 @@ import {
 const { height: SCREEN_H, width: SCREEN_W } = Dimensions.get('window');
 const IS_WEB = Platform.OS === 'web';
 const IS_DESKTOP = IS_WEB && SCREEN_W > 900;
+// Share/clip links point at the APP host (www.voidtv.net), NOT api.voidtv.net (whose /watch page is
+// an OG-embed that bounces to the Archive, so shared links would not play - tester report). On web
+// that is the live origin; native falls back to the production site.
+const APP_ORIGIN = (IS_WEB && typeof window !== 'undefined' && window.location && window.location.origin)
+  ? window.location.origin
+  : 'https://www.voidtv.net';
 // YouTube-style layout constants — NAV_W is dynamic via SidebarContext (see component body)
 const SIDEBAR_W = IS_DESKTOP ? 360 : 0;
 
@@ -656,7 +662,7 @@ export default function PlayerScreen({ route, navigation }) {
   }, []);
 
   const getClipUrl = useCallback(() => {
-    return `https://api.voidtv.net/watch/${item.id}?start=${clipStart}&end=${clipEnd}`;
+    return `${APP_ORIGIN}/watch/${item.id}?start=${clipStart}&end=${clipEnd}`;
   }, [item, clipStart, clipEnd]);
 
   const getClipText = useCallback(() => {
@@ -720,7 +726,7 @@ export default function PlayerScreen({ route, navigation }) {
   useEffect(() => stopClipPreview, [stopClipPreview]);
 
   const getShareUrl = useCallback(() => {
-    return `https://api.voidtv.net/watch/${item.id}`;
+    return `${APP_ORIGIN}/watch/${item.id}`;
   }, [item]);
 
   const getShareText = useCallback(() => {
