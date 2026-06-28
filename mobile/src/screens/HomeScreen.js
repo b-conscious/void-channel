@@ -303,7 +303,7 @@ export default function HomeScreen({ navigation, route }) {
           // error. The cached endpoint is instant and always has CORS headers.
           // THIN cache = a 2-4 row wall that stuck from a past deploy/warm window (B's recurring
           // "only N rows"). The origin is always full, so don't wait out the 10-min staleness
-          // window — refetch NOW and swap in the full wall the moment it lands. isFullWall on the
+          // window: refetch NOW and swap in the full wall the moment it lands. isFullWall on the
           // fresh payload still guards against re-poisoning if the server itself is mid-warm.
           const ts = await store.getCategoriesTimestamp?.(g) || 0;
           const cacheThin = !isFullWall(cached);

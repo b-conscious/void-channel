@@ -21,7 +21,6 @@ import { useGeneration } from '../context/GenerationContext';
 import { useKids } from '../context/KidsContext';
 import { useAuth } from '../context/AuthContext';
 import { useSidebar } from '../context/SidebarContext';
-import { GENERATIONS } from '../data/generations';
 import api from '../api/client';
 import { colors, fonts, radius } from '../theme';
 
@@ -31,17 +30,11 @@ const ADMIN_EMAILS = ['bryankorth31@gmail.com', 'preacherb@cashvalues.org'];
 
 export default function DrawerMenu({ nav }) {
   const { drawerOpen, closeDrawer } = useSidebar();
-  const { gen, generationId, chooseGeneration } = useGeneration();
+  const { gen } = useGeneration();
   const { user, isAuthenticated, isAnonymous, signOut, updateProfile } = useAuth();
   const { kidsMode, kidsAccent, enterKids, exitKids } = useKids();
   const [avatarOpen, setAvatarOpen] = useState(false);
   const accent = kidsMode ? kidsAccent : (gen?.accentColor || colors.amber);
-
-  const GEN_OPTS = [
-    { id: 'boomer', label: 'BOOMER', color: GENERATIONS.boomer.accentColor },
-    { id: 'millennial', label: 'MILLENNIAL', color: GENERATIONS.millennial.accentColor },
-    { id: 'genz', label: 'GEN Z', color: GENERATIONS.genz.accentColor },
-  ];
 
   // (SEARCH removed — search lives in the TopBar's input on every screen.)
   const menuItems = [
@@ -213,7 +206,7 @@ export default function DrawerMenu({ nav }) {
 
             <View style={drawerStyles.divider} />
 
-            {/* Generation switcher removed 2026-06-28 (signal mechanics gone) — one VOID identity now. */}
+            {/* Generation switcher removed 2026-06-28 (signal mechanics gone): one VOID identity now. */}
 
             <View style={drawerStyles.divider} />
 

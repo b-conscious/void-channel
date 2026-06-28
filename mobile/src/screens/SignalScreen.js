@@ -17,16 +17,9 @@ import { useGeneration } from '../context/GenerationContext';
 import { useKids } from '../context/KidsContext';
 import { useGame } from '../context/GameContext';
 import { useSidebar } from '../context/SidebarContext';
-import { GENERATIONS } from '../data/generations';
 import { colors, fonts, spacing, radius } from '../theme';
 
 const IS_DESKTOP = Platform.OS === 'web' && Dimensions.get('window').width > 900;
-
-const GEN_OPTIONS = [
-  { id: 'boomer',     label: 'Boomer',     range: '1946–1964' },
-  { id: 'millennial', label: 'Millennial', range: '1981–1996' },
-  { id: 'genz',       label: 'Gen Z',      range: '1997–2012' },
-];
 
 // Labels + icons for contribution types
 const CONTRIB_TYPES = {
@@ -43,7 +36,7 @@ const CONTRIB_TYPES = {
 
 export default function SignalScreen() {
   const insets = useSafeAreaInsets();
-  const { generationId, gen, chooseGeneration } = useGeneration();
+  const { gen } = useGeneration();
   const {
     xp, rank, nextRank, rankProgress, xpInRank, xpToNext,
     totalWatched, daysExploring,
@@ -161,7 +154,7 @@ export default function SignalScreen() {
         </>
       )}
 
-      {/* "Your Generation" picker removed 2026-06-28 — one VOID identity, signal mechanics gone. */}
+      {/* "Your Generation" picker removed 2026-06-28: one VOID identity, signal mechanics gone. */}
 
       {/* ── Stats ────────────────────────────────────────────── */}
       <SectionHeader label="YOUR STATS" accent={accent} icon="stats-chart-outline" />

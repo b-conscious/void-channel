@@ -27,7 +27,7 @@ const VOID = {
     "No algorithm would have recommended this.",
     "The original generators.",
     "Generating since 1895.",
-    "Every frame — a human decision.",
+    "Every frame, a human decision.",
   ],
   loadingMessages: [
     "FINDING THE TAPE...",
