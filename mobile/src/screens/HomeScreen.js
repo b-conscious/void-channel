@@ -84,6 +84,15 @@ function hasRealContent(cats) {
   const populated = cats.filter((c) => c && c.items && c.items.length > 0).length;
   return populated >= Math.ceil(cats.length * 0.5);
 }
+// A "full" wall has at least this many populated rows (an ABSOLUTE floor, not a ratio). A deploy /
+// warm-window payload can come back thin (2-4 rows); we still SHOW it (better than blank) but never
+// CACHE it, so a thin wall can't poison the client cache and persist (B's recurring "only N rows" -
+// the origin was always full; a thin payload had stuck in the client cache).
+const WALL_MIN_ROWS = 6;
+function isFullWall(cats) {
+  if (!Array.isArray(cats)) return false;
+  return cats.filter((c) => c && c.items && c.items.length > 0).length >= WALL_MIN_ROWS;
+}
 
 export default function HomeScreen({ navigation, route }) {
   const insets = useSafeAreaInsets();
@@ -295,7 +304,7 @@ export default function HomeScreen({ navigation, route }) {
           const ts = await store.getCategoriesTimestamp?.(g) || 0;
           if (Date.now() - ts > 10 * 60 * 1000) {
             api.getCategories({ gen: g }).then((fresh) => {
-              if (hasRealContent(fresh)) {
+              if (isFullWall(fresh)) {
                 applyWallPayload(reshuffleCats(fresh), false);
                 store.setCachedCategories(fresh, g);
               }

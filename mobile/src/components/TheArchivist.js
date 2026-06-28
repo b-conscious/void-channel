@@ -143,7 +143,12 @@ export default function TheArchivist({ navigation, contextItem, accent }) {
                   <Text style={[styles.reply, t.refused && { color: colors.textMuted, fontStyle: 'italic' }]}>{t.reply}</Text>
 
                   {t.items && t.items.length > 0 && (
-                    <ScrollView horizontal showsHorizontalScrollIndicator={false} style={{ marginTop: 10 }} contentContainerStyle={{ gap: 10 }}>
+                    <ScrollView
+                      horizontal
+                      showsHorizontalScrollIndicator={Platform.OS === 'web'} // web/desktop has no touch-swipe; the visible bar is the affordance + signals there's more
+                      style={{ marginTop: 10 }}
+                      contentContainerStyle={{ gap: 10, paddingRight: 8, paddingBottom: 2 }} // trailing room so the last card isn't clipped flush
+                    >
                       {t.items.map((it) => (
                         <TouchableOpacity key={it.id} onPress={() => openItem(it)} activeOpacity={0.8} style={styles.card}>
                           <FastImage uri={it.thumbnail} itemId={it.id} style={styles.cardImg} contentFit="cover" />
