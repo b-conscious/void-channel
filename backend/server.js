@@ -69,11 +69,16 @@ const rowsWithItems = (arr) => (Array.isArray(arr) ? arr : []).filter((c) => c &
 // deploy warm window). Saved to Redis (L2) on every healthy wall + restored on boot, the thin-guard
 // can serve the full 11 the instant the server comes back, killing the warm-window thin wall.
 const LASTGOOD_WALL_KEY = 'lastgood:wall:all';
+const LASTGOOD_BASE_KEY = 'lastgood:base:none';
 (async () => {
   try {
     const w = await cache.get(LASTGOOD_WALL_KEY);
     if (w && rowsWithItems(w) >= WALL_MIN_ROWS) { lastGoodWall.all = w; console.log(`[wall] restored last-good wall from cache (${rowsWithItems(w)} rows)`); }
   } catch (e) { /* cold cache / no redis — the warm-up will fill it */ }
+  try {
+    const b = await cache.get(LASTGOOD_BASE_KEY);
+    if (Array.isArray(b) && b.length && rowsWithItems(b) > 0) { lastGoodCategories['none'] = b; console.log(`[wall] restored last-good base from cache (${b.length} cats)`); }
+  } catch (e) { /* cold cache / no redis */ }
 })();
 const VALID_GENS = ['void', 'boomer', 'millennial', 'genz']; // legacy gens still parse; all lean the same (VOID) now
 function parseGen(q) { return VALID_GENS.includes(q) ? q : null; }
@@ -683,13 +688,23 @@ app.get("/api/categories", async (req, res) => {
     // Get the shared base payload: cache → fetch once → last-known-good (never blank the app).
     let base = (!shuffle && !refresh) ? await cache.get(baseKey) : null;
     if (!base) {
-      const fetched = await archive.getAllCategories(15, shuffle); // gen-agnostic base
+      // Wrap the rebuild fetch: getAllCategories THROWING (an Archive/spine hiccup when the 20-min
+      // cache expires) must NOT blow past this graceful fallback into the {error} catch and blank the
+      // wall (B 2026-06-28 outage: /api/categories returned {"error"} ~45 min after deploy, once the
+      // cache expired and the rebuild threw). On throw OR empty, fall back to last-good: in-memory
+      // first, then the Redis-persisted copy (survives restarts).
+      let fetched = [];
+      try { fetched = await archive.getAllCategories(15, shuffle); }
+      catch (e) { console.error('[categories] getAllCategories threw, falling back to last-good:', e.message); }
       if (categoriesHaveContent(fetched)) {
         base = fetched;
         lastGoodCategories['none'] = fetched;
-        if (!shuffle) cache.set(baseKey, fetched, 1200);
+        if (!shuffle) { cache.set(baseKey, fetched, 1200); cache.set(LASTGOOD_BASE_KEY, fetched, 86400).catch(() => {}); }
       } else {
-        base = lastGoodCategories['none'] || null; // Archive throttled/empty — fall back to last-good
+        base = lastGoodCategories['none'] || null; // Archive threw/empty: fall back to in-memory last-good
+        if (!base) { // cold restart with no in-memory copy yet: try the persisted one
+          try { const persisted = await cache.get(LASTGOOD_BASE_KEY); if (categoriesHaveContent(persisted)) { base = persisted; lastGoodCategories['none'] = persisted; } } catch {}
+        }
       }
     }
 
@@ -727,6 +742,19 @@ app.get("/api/categories", async (req, res) => {
         tiered = archive.applyWallRecencyFloor(tiered);                               // color-era floor
       }
       const out = archive.applyEraLean(tiered, gen); // always the VOID newest lean now (gen ignored inside)
+      // MATURE-BY-TITLE CORRAL (B 2026-06-28): the wall drops mature CATEGORIES, but an adult-TITLED
+      // upload can ride inside a SAFE category (an NSFW clip in the anime collection). Screen those
+      // off the wall tier. The wall's cats are all non-mature and the gated 18+ view uses a different
+      // path, so this never touches it. Corral not censor: items stay in search + behind the gate.
+      if (tier === 'wall') {
+        for (const c of out) {
+          if (!c || !Array.isArray(c.items)) continue;
+          c.items = c.items.filter((it) => {
+            const t = Array.isArray(it && it.title) ? it.title[0] : (it && it.title);
+            return !(t && archive.MATURE_TITLE_RE.test(String(t)));
+          });
+        }
+      }
       // THIN-WALL GUARD: never cache (server OR Cloudflare edge) a thin wall from a warm/blip; that
       // 20-min poisoning is what showed "2/4 rows". Serve the last full wall instead when thin.
       // One shared last-good bucket now (uniform lean): a thin request falls back to ANY client's
@@ -756,7 +784,20 @@ app.get("/api/categories", async (req, res) => {
     res.json([]);
   } catch (err) {
     console.error("[/api/categories]", err);
-    res.status(500).json({ error: "Failed to fetch categories" });
+    // SAFETY NET: never hard-fail the wall with {error} (that blanked it for users, B 2026-06-28).
+    // Serve the last-good wall if we have one (memory, else persisted), else an empty array the
+    // client tolerates by keeping its own cache. Always 200 + no-store so nothing caches the miss.
+    // shape()/kids/matureOk are scoped inside the try, so we re-derive minimally here: fail CLOSED
+    // for kids (empty), and drop mature inline for everyone else.
+    res.set("Cache-Control", "no-store");
+    if (req.query.kids === "1") { res.set("X-Cache", "ERROR-EMPTY"); return res.json([]); }
+    try {
+      let lg = lastGoodWall.all;
+      if (!lg || rowsWithItems(lg) < WALL_MIN_ROWS) { const p = await cache.get(LASTGOOD_WALL_KEY); if (p && rowsWithItems(p) >= WALL_MIN_ROWS) lg = p; }
+      if (Array.isArray(lg) && rowsWithItems(lg) > 0) { res.set("X-Cache", "ERROR-LASTGOOD"); return res.json(lg.filter((c) => c && !c.mature)); }
+    } catch (e2) { console.error("[/api/categories] last-good fallback also failed:", e2.message); }
+    res.set("X-Cache", "ERROR-EMPTY");
+    res.json([]);
   }
 });
 

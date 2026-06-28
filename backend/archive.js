@@ -36,6 +36,9 @@ const MATURE_TITLE_RE = new RegExp([
   'full frontal', 'strip ?club', 'strip ?tease', 'stripper', '\\bescort\\b', 'brothel',
   'lingerie', 'wet t-?shirt', 'bikini contest', 'adult (film|video|entertainment|movie)',
   '\\b18\\+', 'for adults only', 'hentai', '\\becchi\\b', 'sensual', '\\bsex\\b',
+  // explicit markers that slipped the wall (B 2026-06-28): "(NSFW)" + the "NFSW" misspelling,
+  // "Uncensored"/"decensored" adult re-cuts, and the notorious "Boku no Pico".
+  '\\bnsfw\\b', '\\bnfsw\\b', 'uncensored', 'decensored', 'boku no pico',
 ].join('|'), 'i');
 
 // Exclude news/politics/current-events bleed from entertainment categories.
