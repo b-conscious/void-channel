@@ -161,40 +161,7 @@ export default function SignalScreen() {
         </>
       )}
 
-      {/* ── Generation ───────────────────────────────────────── */}
-      <SectionHeader label="YOUR GENERATION" accent={accent} icon="people-outline" />
-      <View style={styles.sectionBody}>
-        <Text style={styles.genIntro}>
-          Changes how the app talks to you — category names, search hints, vibe tags, and accent color.
-        </Text>
-        <View style={styles.genPills}>
-          {GEN_OPTIONS.map((opt) => {
-            const isActive = generationId === opt.id;
-            const optAccent = GENERATIONS[opt.id].accentColor;
-            return (
-              <TouchableOpacity
-                key={opt.id}
-                onPress={() => {
-                  Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-                  chooseGeneration(opt.id);
-                }}
-                style={[
-                  styles.genPill,
-                  isActive && { borderColor: optAccent, backgroundColor: optAccent + '18' },
-                ]}
-                activeOpacity={0.75}
-              >
-                <Text style={[styles.genPillLabel, isActive && { color: optAccent }]}>
-                  {opt.label}
-                </Text>
-                <Text style={[styles.genPillRange, isActive && { color: optAccent + 'aa' }]}>
-                  {opt.range}
-                </Text>
-              </TouchableOpacity>
-            );
-          })}
-        </View>
-      </View>
+      {/* "Your Generation" picker removed 2026-06-28 — one VOID identity, signal mechanics gone. */}
 
       {/* ── Stats ────────────────────────────────────────────── */}
       <SectionHeader label="YOUR STATS" accent={accent} icon="stats-chart-outline" />

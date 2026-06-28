@@ -213,28 +213,7 @@ export default function DrawerMenu({ nav }) {
 
             <View style={drawerStyles.divider} />
 
-            {/* Generation switcher */}
-            <Text style={drawerStyles.sectionLabel}>GENERATION</Text>
-            <View style={drawerStyles.genRow}>
-              {GEN_OPTS.map((g) => (
-                <TouchableOpacity
-                  key={g.id}
-                  onPress={() => {
-                    try { Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light); } catch {}
-                    chooseGeneration(g.id);
-                  }}
-                  style={[
-                    drawerStyles.genPill,
-                    generationId === g.id && { borderColor: g.color, backgroundColor: g.color + '20' },
-                  ]}
-                >
-                  <Text style={[
-                    drawerStyles.genPillText,
-                    generationId === g.id && { color: g.color },
-                  ]}>{g.label}</Text>
-                </TouchableOpacity>
-              ))}
-            </View>
+            {/* Generation switcher removed 2026-06-28 (signal mechanics gone) — one VOID identity now. */}
 
             <View style={drawerStyles.divider} />
 
