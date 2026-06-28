@@ -818,6 +818,14 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
         />
       </View>
 
+      {/* Always-visible exit: the main controls are gated on isLoaded, so a video that never loads
+          (or errors) left no way out (tester: "only way out is the down arrow, only if it loads"). */}
+      {(!isLoaded || error) && (
+        <TouchableOpacity onPress={onBack} style={styles.alwaysBack} hitSlop={10} activeOpacity={0.7}>
+          <Ionicons name="chevron-down" size={24} color="#fff" />
+        </TouchableOpacity>
+      )}
+
       {/* 2× indicator while holding (TikTok-style hold-to-speed) */}
       {holdSpeed && (
         <View style={[styles.seekBadge, styles.seekBadgeRight, { pointerEvents: 'none' }]}>
@@ -934,6 +942,12 @@ export default forwardRef(function VideoPlayer({ videoUrl, title, onBack, onEnde
 
 const styles = StyleSheet.create({
   container: { flex: 1, width: '100%', backgroundColor: "#000" },
+  alwaysBack: {
+    position: 'absolute', top: 12, left: 12, zIndex: 60,
+    width: 40, height: 40, borderRadius: 20,
+    backgroundColor: 'rgba(0,0,0,0.55)',
+    justifyContent: 'center', alignItems: 'center',
+  },
   video: { width: "100%", height: "100%" },
   zones: { flexDirection: "row" },
   zoneHalf: { flex: 1 },
