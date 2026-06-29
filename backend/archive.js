@@ -1934,10 +1934,20 @@ function hardExcludes() {
   for (const id of _extraHex) merged.add(id);
   return merged;
 }
+// CSA / child-exploitation HARD BLOCK (B 2026-06-28: "look what just showed up" - børneporno +
+// "Viols d'Enfants" surfaced on the wall). A categorical, fail-CLOSED title block so these don't
+// have to be killed one identifier at a time. Applies to EVERY curated surface AND search (unlike
+// the junk/quality filters, which leave search raw) - this is a legal/safety line, same posture as
+// kids-fail-closed, NOT the rights/ethics-of-others filtering. High-precision terms only.
+const CSA_BLOCK_RE = /b[oø]rneporno|kinderporno|child\s*porn|childporn|child pornography|kiddie\s*porn|viols?\s*d['’]enfants?|p[ée]dophil|paedophil|lolicon|shotacon|jailbait|\bcsam\b|child\s+(?:sex|sexual)\s*abuse|under\s?age\s+(?:sex|nude|porn)|minors?\s+(?:sex|nude|porn)/i;
+function isCSATitle(it) {
+  const t = Array.isArray(it && it.title) ? it.title[0] : (it && it.title);
+  return !!t && CSA_BLOCK_RE.test(String(t));
+}
 function dropExcluded(items) {
+  if (!Array.isArray(items)) return items;
   const kill = hardExcludes();
-  if (!kill.size || !Array.isArray(items)) return items;
-  return items.filter((it) => it && !kill.has(it.id));
+  return items.filter((it) => it && !kill.has(it.id) && !isCSATitle(it));
 }
 
 // ── FOREIGN GATE (B: "foreign needs gating unless selected, new cat to catch") ──────────
@@ -1977,16 +1987,17 @@ function siftForeign(cats) {
   const _getItem = getItem;
   getItem = async (identifier, opts) => {
     const cleanId = String(identifier || "").replace(/:\d+$/, "");
-    if (hardExcludes().has(cleanId)) {
-      // Direct links die gracefully: known shape, no video, clearly marked.
-      return {
-        id: cleanId, title: "This item has been removed from VOIDtv.", description: "",
-        year: null, creator: null, duration: null, thumbnail: null,
-        archiveUrl: `${BASE}/details/${cleanId}`, videoUrl: null, videoUrlHQ: null,
-        videoSize: null, videoFormat: null, availableFormats: [], excluded: true,
-      };
-    }
-    return _getItem(identifier, opts);
+    const _removed = () => ({
+      id: cleanId, title: "This item has been removed from VOIDtv.", description: "",
+      year: null, creator: null, duration: null, thumbnail: null,
+      archiveUrl: `${BASE}/details/${cleanId}`, videoUrl: null, videoUrlHQ: null,
+      videoSize: null, videoFormat: null, availableFormats: [], excluded: true,
+    });
+    // Direct links die gracefully: known shape, no video, clearly marked.
+    if (hardExcludes().has(cleanId)) return _removed();
+    const it = await _getItem(identifier, opts);
+    if (isCSATitle(it)) return _removed(); // CSA hard block also covers direct links
+    return it;
   };
   const _getAll = getAllCategories;
   getAllCategories = async (...a) => siftForeign(((await _getAll(...a)) || []).map((c) => ({ ...c, items: dropExcluded(c.items) })));
