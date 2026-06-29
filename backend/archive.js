@@ -777,7 +777,8 @@ const NO_DIVERSIFY_IDS = new Set(['computers']); // single-collection rows the c
 // old categories on the wall" problem; this is the accessibility cut.
 const WALL_IDS = new Set([
   'most_popular', 'feature_length', 'tv_movies', 'comedy', 'violence', 'cartoons',
-  'anime', 'music_video', 'documentary', 'banned', 'conspiracy',
+  'anime', 'documentary', 'banned', 'conspiracy',
+  // music_video (Music Videos & Concerts) pulled off the wall 2026-06-28 (B); still searchable + in the Vault.
 ]);
 for (const cat of CATEGORIES) {
   cat.wall = WALL_IDS.has(cat.id);
