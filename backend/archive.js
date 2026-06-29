@@ -1580,6 +1580,19 @@ function hasRealTitle(it) {
   return !!t && /[\p{L}\p{N}]/u.test(String(t));
 }
 
+// Recency floor for the AUTOPLAY / UP NEXT rail (B 2026-06-28: an 80s trailer's "next" was a wall
+// of 1900s-1920s silent films). Drop items with a KNOWN year before the floor; keep undated items
+// (unknown year, not necessarily old). Matches the wall's color-era line. Related/curated only -
+// search stays raw, and a direct visit to an old title still plays.
+const RELATED_YEAR_FLOOR = 1965;
+function dropOld(items) {
+  if (!Array.isArray(items)) return items;
+  return items.filter((it) => {
+    const y = parseInt(it && it.year, 10);
+    return !(Number.isFinite(y) && y < RELATED_YEAR_FLOOR);
+  });
+}
+
 /**
  * Rabbit Hole — find items adjacent to the one the user just watched.
  * Uses the item's subjects + collection to build a "more like this" query,
@@ -1635,7 +1648,7 @@ async function getRelated(identifier, limit = 15) {
       // Curated-rail junk screen: credit-fragment / *Prototype* / livestream / dump spam can fill a
       // whole same-collection rail in title order (B 2026-06-28: the "Dangerous Assignment Ending
       // Credits [#11..#25]" flood). Filter BEFORE the early return so junk never short-circuits it.
-      sameShow = cleanRail(sameShow);
+      sameShow = dropOld(cleanRail(sameShow));
     }
 
     // If same-show filled everything we need, done — no mixing required
@@ -1676,7 +1689,7 @@ async function getRelated(identifier, limit = 15) {
       seenBases.add(b);
       merged.push(it);
     }
-    return cleanRail(merged).slice(0, limit); // junk-screen the subject backfill too, then trim
+    return dropOld(cleanRail(merged)).slice(0, limit); // junk-screen + recency-floor, then trim
   } catch (err) {
     console.error(`[getRelated] ${identifier}:`, err.message);
     return [];
