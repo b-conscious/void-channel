@@ -688,9 +688,10 @@ export default function HomeScreen({ navigation, route }) {
         data={wallData}
         keyExtractor={wallKeyExtractor}
         renderItem={renderWallItem}
-        initialNumToRender={5}
-        maxToRenderPerBatch={3}
-        windowSize={7}
+        initialNumToRender={30}
+        maxToRenderPerBatch={12}
+        windowSize={31}
+        removeClippedSubviews={false}
         updateCellsBatchingPeriod={50}
         onScroll={Animated.event([{ nativeEvent: { contentOffset: { y: scrollY } } }], { useNativeDriver: Platform.OS !== 'web' })}
         scrollEventThrottle={16}
