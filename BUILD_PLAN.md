@@ -8,9 +8,57 @@
 > recorded here OUTRANKS the strategy plan where they conflict (its §10 says the same).
 
 > Self-contained handoff for a fresh session. The app is **live in production** and all work
-> below is **pushed to `master`** (which auto-deploys). Last commit at handoff: **`b2b8010`**.
+> below is **pushed to `master`** (which auto-deploys). Last commit at handoff: **`7a41f75`**.
+> **Latest work: see [§17 — Session 2026-06-28/29](#17-session-2026-06-2829--filters-signal-removal-csa-block-wall-render-fix-up-next-era-lean) (newest, read first).**
 
 ---
+
+## 17. SESSION 2026-06-28/29 — filters, signal removal, CSA block, wall-render fix, UP NEXT era-lean
+
+All pushed to `master` (auto-deployed). Commit range this session: `…1e644a7 → 7a41f75`. MD5 lock
+relocked after every commit. The big through-line: a long fight with "the wall keeps going
+empty / only N rows," which turned out to be **several distinct causes**, all now fixed.
+
+### What shipped (grouped)
+
+**A. Curated-surface junk/quality filters** (`backend/archive.js`; wall rows + related rail only — SEARCH STAYS RAW)
+- `JUNK_TITLE_RE` extended: "<name> videos" personal dumps, bare spam-domains, `Ending/Opening/Closing/End Credits` fragments, wrapped `*Prototype*` dumps. `dropJunk` now runs on ALL wall rows (was downloads-sorted only).
+- `BROADCAST_TITLE_RE` extended: month-name ranges (`Feb23-March 3 2026`) + numeric `D/M/Y`/`M/D/Y` (livestream/WoE captures).
+- `dropLiveStreams` (new): drops bare-`LIVE` streams (livestream/`LIVE NOW`/🔴, creator channels ending caps `LIVE`) but KEEPS music/concert context (`Live at`, `(Live)`, `Metallica LIVE`, Music City, etc.).
+- `cleanRail` (new) = the full junk chain; now applied to the related/autoplay rail (`getRelated`), which previously only screened `!`-junk.
+
+**B. SIGNAL MECHANICS REMOVED → one "VOID" identity** (B: "remove the entire signal mechanics and lean newer in all as default, the rest is searchable in void hunting")
+- `mobile/src/data/generations.js`: collapsed boomer/millennial/genz → a single `VOID` profile (amber, capitalized voice, newest-leaning `categoryPriority`, merged vibe labels). The 3 old keys alias VOID.
+- `backend/archive.js`: added `GENERATION_ERAS.void` (newest-first, year-desc 2008-2025, floor 1970); `applyEraLean` ALWAYS uses void regardless of `gen`.
+- `backend/server.js`: `'void'` allowed in `VALID_GENS`; always lean; collapsed per-gen processed-wall cache to ONE key per tier (`all_categories:all:<tier>:<bucket>`) + one shared `lastGoodWall.all`.
+- Picker UI removed from `DrawerMenu.js` + `SignalScreen.js` (the Signal *community tab* stays). `GenerationContext` no longer restores a legacy stored gen (migrates it to `void`) — that restore was flipping the wall onto a stale per-gen cache after first paint.
+- Dead-ref cleanup + em-dash scrub of comments. (Memory `voidtv-generational-era-lean` marked SUPERSEDED.)
+
+**C. CSA / child-exploitation HARD BLOCK** (`backend/archive.js`, B flagged `børneporno` + `Viols d'Enfants` on the wall)
+- `CSA_BLOCK_RE` + `isCSATitle`, folded into `dropExcluded` → drops on EVERY surface INCLUDING search (unlike junk filters) + `getItem` direct links. Legal/safety line, the deliberate EXCEPTION to the rights-posture (memory updated). High-precision terms; verified it doesn't touch legit child/kids content.
+
+**D. Wall resilience / the "empty wall" saga** (the recurring pain)
+- `eab83ae` client: refetch immediately when the CACHED wall is thin (don't wait out the 10-min staleness window).
+- `ac4c828` backend: persist last-good wall to Redis + restore on boot → a freshly-restarted server serves the full wall instantly (kills the deploy warm-window thin wall). Cold-boot fallback in the thin-guard reads it.
+- `a8ba131` backend: harden `/api/categories` so a fetch throw degrades to last-good instead of returning `{error}` (that `{error}` was a real outage — wall blanked).
+- `75a196f` client: stop restoring the legacy stored generation (the "rows show on load then disappear" cache-flip).
+- `034df9d` client: **the actual "rows missing" bug** — the wall `FlatList` kept `initialNumToRender=5/windowSize=7` from the ~80-row era; on the tight ~10-row wall the full-height hero ate the window and off-screen rows collapsed to 0 height (couldn't scroll to them) → only ~4 of 10 rendered. Now renders all rows up front (`initialNumToRender=30`, `windowSize=31`, `removeClippedSubviews={false}`). **Diagnosed via live DOM inspection through the Chrome extension** (cache had 10, DOM had 4).
+
+**E. Wall composition** — removed `music_video` (Music Videos & Concerts) from `WALL_IDS` (still searchable + in the Vault). Wall is now 10 rows.
+
+**F. UP NEXT / autoplay era-lean** (`getRelated`, B: an 80s trailer's "next" was 1900s-1920s silent films; then "can we not have the same era as playing?")
+- `dropOld(items, baseYear)`: recency floor RELATIVE to the watched item's year (`baseYear - 15`); newer always fine; unknown item-year → absolute 1965 fallback. So '85 item → ~1970+, 2010 → ~1995+, a genuinely-old 1955 item still gets its own era.
+
+**G. No-em-dash sweep** — scrubbed AI-slop-tell em dashes from user-facing copy (30 `archive.js` subtitle/name values + donate/share/hint/Archivist/admin/auth/Archivist-reply strings). Left placeholders (`'—'`), ` — VOIDtv` title separators, code comments, server logs.
+
+### Open / pending (Bryan's call — NOT done)
+- **Render Build Filter** (his dashboard): set Ignored Paths `mobile/**`, `docs/**` so frontend/doc pushes stop restarting the API (the warm-window root cause). The persist-wall fix mitigates it; the Build Filter eliminates it.
+- **Graphic-death footage** (e.g. `R. Budd Dwyer Suicide`) — block? Separate category from CSA, his call.
+- **Widen the mature corral** — ecchi/adult leaked onto the wall (`Sexy Cosplay Doll`, `Pink Detectives Aphrodisiac`, incubus/succubus); `MATURE_TITLE_RE` misses these. The server.js wall-tier mature-title screen exists (`tier==='wall'`) but the regex needs widening.
+- **UP NEXT window** — currently ±0 newer cap, 15-yr lookback; tighten to same-decade or cap newer if wanted; exempt same-collection tier for old-series continuity if wanted.
+- **Supabase Anonymous Sign-Ins** still OFF (pre-existing, §2).
+
+
 
 ## 0. What VOIDtv is
 A discovery-first front-end for the **Internet Archive's** public-domain video, styled as
