@@ -12,8 +12,13 @@ export function GenerationProvider({ children }) {
   const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
+    // Signal mechanics removed: ONE 'void' identity. Do NOT restore a legacy stored generation
+    // (boomer/millennial/genz). Reading it back flipped generationId AFTER first paint, which swapped
+    // the wall onto that gen's STALE per-gen client cache from a past warm window (B 2026-06-28:
+    // "rows show on load, then disappear" - the full void wall painted first, then collapsed to the
+    // old gen's thin cache). Migrate any legacy value to 'void' and stay there.
     AsyncStorage.getItem(KEY).then((val) => {
-      if (val && GENERATIONS[val]) setGenerationId(val);
+      if (val && val !== 'void') AsyncStorage.setItem(KEY, 'void').catch(() => {});
       setLoaded(true);
     });
   }, []);
