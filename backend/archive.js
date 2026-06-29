@@ -1581,15 +1581,20 @@ function hasRealTitle(it) {
 }
 
 // Recency floor for the AUTOPLAY / UP NEXT rail (B 2026-06-28: an 80s trailer's "next" was a wall
-// of 1900s-1920s silent films). Drop items with a KNOWN year before the floor; keep undated items
-// (unknown year, not necessarily old). Matches the wall's color-era line. Related/curated only -
-// search stays raw, and a direct visit to an old title still plays.
+// of 1900s-1920s silent films; then "can we not have the same era as playing?"). The floor is
+// RELATIVE to the item you're watching: keep "next" in the same era, never jumping more than
+// ERA_LOOKBACK years OLDER than the current item (newer is fine, recency-first). So an '85 item ->
+// ~1970+, a 2010 item -> ~1995+. With no known item year, fall back to the absolute color-era line.
+// Drops only KNOWN-year items below the floor; undated pass. Curated only - search stays raw, and a
+// direct visit to an old title still plays.
 const RELATED_YEAR_FLOOR = 1965;
-function dropOld(items) {
+const ERA_LOOKBACK = 15;
+function dropOld(items, baseYear) {
   if (!Array.isArray(items)) return items;
+  const floor = (Number.isFinite(baseYear) && baseYear) ? (baseYear - ERA_LOOKBACK) : RELATED_YEAR_FLOOR;
   return items.filter((it) => {
     const y = parseInt(it && it.year, 10);
-    return !(Number.isFinite(y) && y < RELATED_YEAR_FLOOR);
+    return !(Number.isFinite(y) && y < floor);
   });
 }
 
@@ -1608,6 +1613,11 @@ async function getRelated(identifier, limit = 15) {
     });
     const data = await res.json();
     const meta = data?.metadata || {};
+
+    // The year of the item being watched — drives the era-relative floor (keep "next" in the same
+    // era). From `year`, else the first 4-digit run in `date`. null = unknown -> absolute floor.
+    const _ym = (v) => { const m = String(Array.isArray(v) ? v[0] : (v || '')).match(/\b(1[89]\d{2}|20\d{2})\b/); return m ? parseInt(m[1], 10) : null; };
+    const baseYear = _ym(meta.year) || _ym(meta.date) || null;
 
     // Gather subjects and collections
     const subjects = Array.isArray(meta.subject)
@@ -1648,7 +1658,7 @@ async function getRelated(identifier, limit = 15) {
       // Curated-rail junk screen: credit-fragment / *Prototype* / livestream / dump spam can fill a
       // whole same-collection rail in title order (B 2026-06-28: the "Dangerous Assignment Ending
       // Credits [#11..#25]" flood). Filter BEFORE the early return so junk never short-circuits it.
-      sameShow = dropOld(cleanRail(sameShow));
+      sameShow = dropOld(cleanRail(sameShow), baseYear);
     }
 
     // If same-show filled everything we need, done — no mixing required
@@ -1689,7 +1699,7 @@ async function getRelated(identifier, limit = 15) {
       seenBases.add(b);
       merged.push(it);
     }
-    return dropOld(cleanRail(merged)).slice(0, limit); // junk-screen + recency-floor, then trim
+    return dropOld(cleanRail(merged), baseYear).slice(0, limit); // junk-screen + era-relative floor, then trim
   } catch (err) {
     console.error(`[getRelated] ${identifier}:`, err.message);
     return [];
