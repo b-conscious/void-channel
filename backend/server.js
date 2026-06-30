@@ -743,7 +743,7 @@ app.get("/api/categories", async (req, res) => {
         tiered = base.filter((c) => c && archive.MODERN_IDS.has(c.id))
           .map((c) => archive.MODERN_LABELS[c.id] ? { ...c, ...archive.MODERN_LABELS[c.id] } : c);  // clean genre names
         if (tiered.length < 4) tiered = base.filter((c) => c && wallIds.has(c.id));  // guard: never blank
-        tiered = archive.applyWallRecencyFloor(tiered, 1990);  // 90s -> current
+        tiered = archive.applyWallRecencyFloor(tiered, 1985);  // mid-80s -> current (fuller, captures the 80s/90s entertainment IA actually has)
       } else {
         tiered = base.filter((c) => c && wallIds.has(c.id));                          // the tight wall
         if (tiered.length < 5) tiered = base;                                         // guard: never blank the wall

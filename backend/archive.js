@@ -39,6 +39,9 @@ const MATURE_TITLE_RE = new RegExp([
   // explicit markers that slipped the wall (B 2026-06-28): "(NSFW)" + the "NFSW" misspelling,
   // "Uncensored"/"decensored" adult re-cuts, and the notorious "Boku no Pico".
   '\\bnsfw\\b', '\\bnfsw\\b', 'uncensored', 'decensored', 'boku no pico',
+  // adult-anime / ecchi & fetish terms that leaked onto the wall (B 2026-06-28): succubus/incubus
+  // "lessons", aphrodisiac, vore, etc.
+  'succubus', 'incubus', 'aphrodisiac', 'ahegao', '\\blewd\\b', 'doujin', 'eroge', '\\bvore\\b', 'fanservice',
 ].join('|'), 'i');
 
 // Exclude news/politics/current-events bleed from entertainment categories.
