@@ -104,12 +104,30 @@ const FEATURED = {
   creator: 'a new creator',
   badge: 'COMING SOON',
   tagline: "A new comedy skit show. Each week Jasen steps into the ring with rent, bills, and adulthood. Tune in to see if he's winning this round.",
-  image: 'https://api.voidtv.net/static/featured/jasen.webp',
+  images: [
+    'https://api.voidtv.net/static/featured/jasen1.webp',
+    'https://api.voidtv.net/static/featured/jasen2.webp',
+    'https://api.voidtv.net/static/featured/jasen3.webp',
+    'https://api.voidtv.net/static/featured/jasen4.webp',
+  ],
 };
 
 function FeaturedCard({ data, accent, onPress }) {
   const { width: ww } = useWindowDimensions();
-  if (!data) return null;
+  const imgs = (data && Array.isArray(data.images) && data.images.length) ? data.images : (data && data.image ? [data.image] : []);
+  const [idx, setIdx] = useState(0);
+  const fade = useRef(new Animated.Value(1)).current;
+  useEffect(() => {
+    if (imgs.length < 2) return undefined;
+    const t = setInterval(() => {
+      Animated.timing(fade, { toValue: 0.12, duration: 450, useNativeDriver: Platform.OS !== 'web' }).start(() => {
+        setIdx((i) => (i + 1) % imgs.length);
+        Animated.timing(fade, { toValue: 1, duration: 450, useNativeDriver: Platform.OS !== 'web' }).start();
+      });
+    }, 4800);
+    return () => clearInterval(t);
+  }, [imgs.length]);
+  if (!data || imgs.length === 0) return null;
   const isDesk = ww > 900;
   const avail = Math.max(280, ww - spacing.screenPadding * 2);
   const cardW = isDesk ? Math.min(avail, 720) : avail;
@@ -117,7 +135,12 @@ function FeaturedCard({ data, accent, onPress }) {
   return (
     <View style={{ paddingHorizontal: spacing.screenPadding, marginTop: 6, marginBottom: 18, alignItems: 'center' }}>
       <TouchableOpacity activeOpacity={0.92} onPress={onPress} style={[fcStyles.card, { width: cardW, borderColor: accent + '55' }]}>
-        <Image source={{ uri: data.image }} style={{ width: '100%', height: imgH }} resizeMode="cover" />
+        <Animated.Image source={{ uri: imgs[idx] }} style={{ width: '100%', height: imgH, opacity: fade }} resizeMode="cover" />
+        {imgs.length > 1 && (
+          <View style={fcStyles.dots}>
+            {imgs.map((_, i) => <View key={i} style={[fcStyles.dot, i === idx && { backgroundColor: accent, opacity: 1 }]} />)}
+          </View>
+        )}
         <View style={fcStyles.caption}>
           <View style={[fcStyles.badge, { backgroundColor: accent }]}><Text style={fcStyles.badgeText}>{data.badge}</Text></View>
           <Text style={fcStyles.title} numberOfLines={1}>{data.title}</Text>
@@ -130,6 +153,8 @@ function FeaturedCard({ data, accent, onPress }) {
 }
 const fcStyles = StyleSheet.create({
   card: { borderRadius: radius.md, overflow: 'hidden', borderWidth: 1, backgroundColor: colors.surface },
+  dots: { position: 'absolute', top: 10, right: 12, flexDirection: 'row', gap: 5 },
+  dot: { width: 6, height: 6, borderRadius: 3, backgroundColor: 'rgba(255,255,255,0.45)' },
   caption: { paddingHorizontal: 16, paddingTop: 12, paddingBottom: 14 },
   badge: { alignSelf: 'flex-start', paddingHorizontal: 10, paddingVertical: 4, borderRadius: 4, marginBottom: 9 },
   badgeText: { fontFamily: fonts.monoBold, fontSize: 10, letterSpacing: 1.5, color: '#000' },
