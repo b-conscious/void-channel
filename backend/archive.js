@@ -791,7 +791,9 @@ const WALL_IDS = new Set([
 // a broad genre dump. READY rows below; "Adult Humor" + "Past Premium Programming" are pending new
 // query-backed cats (content depth on IA still to be tested).
 const MODERN_IDS = new Set([
-  'feature_length', 'tv_movies', 'cartoons', 'anime', 'comedy', 'documentary',
+  // 'comedy' pulled off the Modern wall 2026-06-28 (B): too subjective ("gold" is a quality call) and
+  // its broad tag pulled the most mismatches (YouTube essays, podcasts, civic uploads). Stays in search/Void.
+  'feature_length', 'tv_movies', 'cartoons', 'anime', 'documentary',
 ]);
 // Clean genre labels for Modern Mode (the Void names are flavored: "Classic Cartoons", "Drive-In
 // Horror"). Applied only in the modern tier; the Void wall keeps its character.
@@ -800,7 +802,6 @@ const MODERN_LABELS = {
   tv_movies:      { name: 'Sitcoms',       subtitle: 'Series and sitcoms' },
   cartoons:       { name: 'Cartoons',      subtitle: 'Animation' },
   anime:          { name: 'Anime',         subtitle: 'Japanese animation' },
-  comedy:         { name: 'Comedy',        subtitle: 'Stand-up, sketch, and sitcom comedy' },
   documentary:    { name: 'Documentaries', subtitle: 'Real stories' },
 };
 // Premium from the Past (B 2026-06-28): HBO/Showtime/premium-cable series. IA HAS these but its
