@@ -737,11 +737,18 @@ app.get("/api/categories", async (req, res) => {
       } else if (tier === 'vault') {
         tiered = base.filter((c) => c && !wallIds.has(c.id) && c.group !== 'hindi');  // everything else
       } else if (tier === 'adult') {
-        // After Dark (B 2026-06-28): the adult section on its OWN page, off the commercial wall.
-        // Needs adult=1 (the 18+ acknowledgment) so matureOk keeps the mature cats in `base`.
-        // De-flood it: one uploader was dumping dozens of numbered "Sissy Clip ##" into a row, so
-        // cap per-series (diversify) - reads curated, not a raw single-uploader spam dump.
-        tiered = base.filter((c) => c && c.mature).map((c) => ({ ...c, items: archive.diversify(c.items || [], 2) }));
+        // After Dark (B 2026-06-28): the adult section on its OWN page, off the commercial wall, gated
+        // only by the one-time 18+ acknowledgment (adult=1 -> matureOk). The "3rd lane": human
+        // sexuality as record, not a porn feed. Curated vintage-adult-cinema rows (live, like Premium)
+        // lead; the existing mature cats trail. Everything de-flooded (diversify caps the spam dumps);
+        // CSA/hate are still hard-blocked because archive.search runs dropExcluded.
+        const adultRows = await Promise.all(archive.ADULT_ROWS.map(async (r) => {
+          let items = [];
+          try { items = await archive.search(r.query, 24, 1, 'downloads desc'); } catch (e) {}
+          return { id: r.id, name: r.name, subtitle: r.subtitle, sort: 'downloads desc', items: archive.diversify(Array.isArray(items) ? items : [], 2) };
+        }));
+        const matureCats = base.filter((c) => c && c.mature).map((c) => ({ ...c, items: archive.diversify(c.items || [], 2) }));
+        tiered = [...adultRows.filter((r) => (r.items || []).length >= 3), ...matureCats];
       } else if (tier === 'modern') {
         // MODERN MODE (B 2026-06-28): the "modern shows & movies app" face. Curated genre/format rows
         // (archive.MODERN_IDS), recency-floored to 1990 so it reads as a current streaming catalog.

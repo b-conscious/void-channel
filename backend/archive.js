@@ -808,6 +808,19 @@ const MODERN_LABELS = {
 // not pooled) and pin them as a Modern row. Not NSFW-excluded - it's the humanity window; adult
 // premium (e.g. HBO's "Real Sex") rides along and corrals behind the 18+ door in the default view.
 const PREMIUM_QUERY = 'title:("Sopranos" OR "Six Feet Under" OR "The Wire" OR "Deadwood" OR "Carnivale" OR "Tales from the Crypt" OR "Mr. Show" OR "Larry Sanders" OR "Curb Your Enthusiasm" OR "Entourage" OR "Dream On" OR "Sex and the City" OR "Tales from the Darkside" OR "Dexter" OR "Real Sex") AND mediatype:(movies)';
+
+// AFTER DARK rows (B 2026-06-28, the "3rd lane"): human sexuality as part of the human RECORD, not a
+// porn feed - legitimate adult MEDIA that lives on IA. IA's real depth here is vintage adult cinema
+// (stag/nudie/exploitation/erotica/burlesque), surfaced live + de-flooded. CSA/hate still hard-block
+// (search runs dropExcluded); low-effort spam is capped by diversify. Off the commercial wall, gated
+// only by the one-time 18+ acknowledgment.
+const ADULT_ROWS = [
+  { id: 'adult_stag',      name: 'Stag Films',        subtitle: 'Vintage stag reels, roughies, the early underground', query: '(subject:("stag film") OR subject:(stag) OR subject:(roughie) OR subject:(roughies)) AND mediatype:(movies)' },
+  { id: 'adult_nudie',     name: 'Nudie Cuties',      subtitle: 'The 1960s nudie-cutie genre',                          query: '(subject:("nudie cutie") OR subject:("nudie cuties") OR subject:(nudie) OR subject:(nudist)) AND mediatype:(movies)' },
+  { id: 'adult_exploit',   name: 'Sexploitation',     subtitle: 'Grindhouse, roughies, the exploitation era',           query: '(subject:(sexploitation) OR subject:(exploitation) OR subject:(grindhouse)) AND mediatype:(movies)' },
+  { id: 'adult_erotica',   name: 'Vintage Erotica',   subtitle: 'Erotic art and early erotic film',                     query: '(subject:(erotica) OR subject:(erotic) OR subject:("erotic film")) AND mediatype:(movies)' },
+  { id: 'adult_burlesque', name: 'Burlesque & Pin-Up', subtitle: 'Burlesque, pin-up, peep-show reels',                  query: '(subject:(burlesque) OR subject:("pin-up") OR subject:(pinup) OR subject:("peep show")) AND mediatype:(movies)' },
+];
 for (const cat of CATEGORIES) {
   cat.wall = WALL_IDS.has(cat.id);
   // Skip the "category specifics": deep cuts, dedicated shows, decade rows — left as authored.
@@ -2093,6 +2106,7 @@ module.exports = {
   MODERN_IDS,
   MODERN_LABELS,
   PREMIUM_QUERY,
+  ADULT_ROWS,
   setExtraExcludes,
   searchCollection,
   searchCreator,
