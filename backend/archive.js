@@ -1901,11 +1901,18 @@ function dropLiveStreams(items) {
 // junk. Word-anchored so it does NOT eat legit titles ("Good News", "Bad News Bears", "Broadcast
 // News", "The Newsroom", "Anchorman"). Curated surfaces only; search stays raw.
 const NEWS_NOISE_RE = /\b(?:nightly|evening|morning|breaking|local|world|national|late|noon|action|channel \d+) news\b|news ?(?:report|broadcast|bulletin|update|cast|hour|anchor|tonight|center|desk|flash)|news at \d|\b(?:cnn|msnbc|c-?span|newsmax|oann)\b|fox news|bbc news|nbc news|abc news|cbs news|sky news|al ?jazeera|\bnyheter\b|\bnoticias\b|\bnachrichten\b|\bnieuws\b|telegiornale|\bvod\b|\btwitch\b|kick\.com|sub-?athon|stream (?:highlights|replay|vod|archive)/i;
+// Non-cinematic TALKING-HEAD / podcast / brief content (B 2026-06-28, "Sam Vaknin in action"): a
+// person lecturing/vlogging/podcasting is not the entertainment fit for the wall. Tested against
+// TITLE and CREATOR (the uploader is often the tell). High-confidence only: named lecture channels
+// + clear podcast/brief markers. Legit docs (Chomsky, Zizek, Adam Curtis) are NOT caught.
+const TALKINGHEAD_RE = /\bvaknin\b|gigaohm|information brief|\[video version\]|comedy bang ?bang/i;
 function dropNewsNoise(items) {
   if (!Array.isArray(items)) return items;
   return items.filter((it) => {
     const t = Array.isArray(it && it.title) ? it.title[0] : (it && it.title);
-    return !(t && NEWS_NOISE_RE.test(String(t)));
+    const cr = Array.isArray(it && it.creator) ? it.creator[0] : (it && it.creator);
+    const blob = String(t || '') + '  ' + String(cr || '');
+    return !(NEWS_NOISE_RE.test(blob) || TALKINGHEAD_RE.test(blob));
   });
 }
 

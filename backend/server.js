@@ -99,7 +99,16 @@ const LASTGOOD_BASE_KEY = 'lastgood:base:none';
     const b = await cache.get(LASTGOOD_BASE_KEY);
     if (Array.isArray(b) && b.length && rowsWithItems(b) > 0) { lastGoodCategories['none'] = b; console.log(`[wall] restored last-good base from cache (${b.length} cats)`); }
   } catch (e) { /* cold cache / no redis */ }
+  try {
+    const p = await cache.get(LASTGOOD_PREMIUM_KEY);
+    if (Array.isArray(p) && p.length >= 3) { lastGoodPremium = p; }
+  } catch (e) { /* cold cache / no redis */ }
 })();
+// Premium is a LIVE fetch (IA buries it in search), so a cold archive / open circuit-breaker right
+// after a restart returns too few and the Premium draw row blinks out. Keep the last good set in
+// memory + Redis and fall back to it, so Premium never vanishes once we've seen it.
+let lastGoodPremium = [];
+const LASTGOOD_PREMIUM_KEY = 'lastgood:premium';
 const VALID_GENS = ['void', 'boomer', 'millennial', 'genz']; // legacy gens still parse; all lean the same (VOID) now
 function parseGen(q) { return VALID_GENS.includes(q) ? q : null; }
 // Sorts the client may request via ?sort= — powers search "re-roll" (a genuinely different set for
@@ -778,14 +787,18 @@ app.get("/api/categories", async (req, res) => {
         if (tiered.length < 4) tiered = base.filter((c) => c && wallIds.has(c.id));  // guard: never blank
         tiered = archive.applyWallRecencyFloor(tiered, 1985);  // mid-80s -> current (fuller, captures the 80s/90s entertainment IA actually has)
         // Premium from the Past — HBO/Showtime-era prestige TV, surfaced via a tuned title query
-        // (IA buries it in search ranking). sort:'downloads desc' makes it floor-exempt + ranked.
-        // Bonus row: a fetch failure must never block the wall.
+        // (IA buries it in search ranking). ROBUST: a cold archive / open breaker right after a deploy
+        // returns too few, so fall back to the last good set (memory + Redis) - the draw never blinks
+        // out. sort:'downloads desc' = floor-exempt + ranked. Fetch failure never blocks the wall.
+        const premRow = (items) => ({ id: 'premium_past', name: 'Premium from the Past', subtitle: 'HBO, Showtime & premium-cable series', sort: 'downloads desc', items });
         try {
-          const prem = await archive.search(archive.PREMIUM_QUERY, 24, 1, 'downloads desc');
-          if (Array.isArray(prem) && prem.length >= 3) {
-            tiered = [{ id: 'premium_past', name: 'Premium from the Past', subtitle: 'HBO, Showtime & premium-cable series', sort: 'downloads desc', items: prem }, ...tiered];
-          }
-        } catch (e) { /* premium is a bonus row; never block the wall on it */ }
+          let prem = await archive.search(archive.PREMIUM_QUERY, 24, 1, 'downloads desc');
+          if (Array.isArray(prem) && prem.length >= 3) { lastGoodPremium = prem; cache.set(LASTGOOD_PREMIUM_KEY, prem, 86400).catch(() => {}); }
+          else { prem = lastGoodPremium; }
+          if (Array.isArray(prem) && prem.length >= 3) tiered = [premRow(prem), ...tiered];
+        } catch (e) {
+          if (Array.isArray(lastGoodPremium) && lastGoodPremium.length >= 3) tiered = [premRow(lastGoodPremium), ...tiered];
+        }
       } else {
         tiered = base.filter((c) => c && wallIds.has(c.id));                          // the tight wall
         if (tiered.length < 5) tiered = base;                                         // guard: never blank the wall
