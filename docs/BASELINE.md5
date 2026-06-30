@@ -65,7 +65,7 @@ c9d3907b0365bb627cd9e743018d453c *./docs/handoffs/README.md
 a7f7a67da1492173302f07bb7b8cb134 *./docs/handoffs/SESSION_2026-06-13_CUTOVER.md
 08fb49e38c4638fa05242a6ae15025cb *./docs/holo-demo.html
 48ffc50ffccb88c1afbd085ac4bacdff *./fixtures/fixtures.json
-d1948e203501036bbd26abf573ec18cd *./mobile/App.js
+1fe2c78fd73b7d66cec046f193b88d18 *./mobile/App.js
 c9c7720699872fc5832fa2df094aa5a4 *./mobile/app.json
 f882fa77e7a04ea107e609ad6da924e3 *./mobile/assets/app-icon.png
 5de40389145918bb434b52b2428ab448 *./mobile/assets/favicon.png
@@ -114,7 +114,7 @@ f5e0e47487297c6efa7ae5c40bb3d3d7 *./mobile/src/components/AddToPlaylistModal.js
 aad2db204845ccb9472af4b227ad39f4 *./mobile/src/components/CategoryRow.js
 12f27a8f11665ef02ca1f6dfb5abd93f *./mobile/src/components/DailyBountyCard.js
 b826443fac86406b9ca194e93d2fa102 *./mobile/src/components/DialRow.js
-e39d6f26dd1641e1cbedeecc7133dc34 *./mobile/src/components/DrawerMenu.js
+6f5e8289c1bce49e0a62e2f837670314 *./mobile/src/components/DrawerMenu.js
 47fe52531e8b1ceb004ef589d2553724 *./mobile/src/components/FastImage.js
 a6335e1036f55fa70290b7a4571f70b3 *./mobile/src/components/MediaCard.js
 24ca9d80a6da34b0616e3789430dc016 *./mobile/src/components/SearchBar.js
@@ -133,13 +133,14 @@ f721c914ddfa12aa4c384d64132ece56 *./mobile/src/context/AuthContext.js
 eb2b0c77583e0c3927df2e51b5745c42 *./mobile/src/context/GameContext.js
 ec027cd8212faef344814e6caf1b10cf *./mobile/src/context/GenerationContext.js
 a9f01181a35256fa52f80ca755fa6c4c *./mobile/src/context/KidsContext.js
+cf26ca162614a7fb4a320fa747c31cec *./mobile/src/context/ModernModeContext.js
 c95f2f9ed9cd0ad872c9b0b661d9bfb1 *./mobile/src/context/SidebarContext.js
 ea51aeb387e606cfedc53cebde8cfb2a *./mobile/src/data/avatars.js
 c581a20eb916f22672183f58fba98fdc *./mobile/src/data/generations.js
 d201aa76b5daea84f18879587a1e3aa7 *./mobile/src/navigation/index.js
 fa75725279f4468fb7fdb7447b461123 *./mobile/src/screens/AdminScreen.js
 3fb0239d689880f1b7b4647ede9a3638 *./mobile/src/screens/AuthScreen.js
-c7a39603b9be2323429a2e48ece4b0cb *./mobile/src/screens/HomeScreen.js
+2030e7b0b4efaeda59682b2be0fc5522 *./mobile/src/screens/HomeScreen.js
 e638add4a6fb4dfa8c8098f40b13150e *./mobile/src/screens/PlayerScreen.js
 d2f5edf67a92e076561fff07838e325f *./mobile/src/screens/PlaylistScreen.js
 01b9b295dbc34b85a07a7c54fcdee472 *./mobile/src/screens/PlaylistsListScreen.js

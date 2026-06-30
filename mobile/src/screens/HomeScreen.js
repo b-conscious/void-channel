@@ -23,6 +23,7 @@ import { colors, fonts, spacing, radius } from '../theme';
 
 import { useSidebar } from '../context/SidebarContext';
 import { useKids } from '../context/KidsContext';
+import { useModernMode } from '../context/ModernModeContext';
 
 const { width: SCREEN_W } = Dimensions.get('window');
 const IS_DESKTOP = Platform.OS === 'web' && SCREEN_W > 900;
@@ -106,6 +107,7 @@ export default function HomeScreen({ navigation, route }) {
   const heroH = IS_DESKTOP ? Math.min(Math.round(contentW * 0.30), 380) : Math.round(contentW * 0.52);
   const { gen, generationId, chooseGeneration } = useGeneration();
   const { kidsMode, kidsAccent } = useKids();
+  const { modernMode } = useModernMode();
   const { user, isAuthenticated, isAnonymous, updateProfile, signOut } = useAuth();
   const [allCategories, setAllCategories] = useState([]);
   const allCategoriesRef = useRef([]); // mirrors allCategories for stable reads inside callbacks
@@ -288,12 +290,16 @@ export default function HomeScreen({ navigation, route }) {
     // client cache is scoped per-gen, so switching generation re-runs this with the right lean.
     const forceFresh = mode === "repopulate";
     const g = generationId;
+    // Modern Mode is a content lens: fetch tier=modern and namespace the client cache per mode so the
+    // void wall and the modern wall never overwrite each other. gen still drives the newest lean.
+    const mtier = modernMode ? 'modern' : undefined;
+    const ckey = modernMode ? g + ':modern' : g;
     try {
       // VOIDtv KIDS: never serve or write the client cache in kids mode. The cache holds the
       // ADULT wall; fail closed means kids payloads come from the server-side allowlist only.
       if (!forceFresh && !kidsMode) {
         // Show cache instantly, reshuffled client-side for per-visit variety (zero Archive load)
-        const cached = await store.getCachedCategories(g);
+        const cached = await store.getCachedCategories(ckey);
         if (cached) {
           applyWallPayload(reshuffleCats(cached));
           setLoading(false);
@@ -305,13 +311,13 @@ export default function HomeScreen({ navigation, route }) {
           // "only N rows"). The origin is always full, so don't wait out the 10-min staleness
           // window: refetch NOW and swap in the full wall the moment it lands. isFullWall on the
           // fresh payload still guards against re-poisoning if the server itself is mid-warm.
-          const ts = await store.getCategoriesTimestamp?.(g) || 0;
+          const ts = await store.getCategoriesTimestamp?.(ckey) || 0;
           const cacheThin = !isFullWall(cached);
           if (cacheThin || Date.now() - ts > 10 * 60 * 1000) {
-            api.getCategories({ gen: g }).then((fresh) => {
+            api.getCategories({ gen: g, tier: mtier }).then((fresh) => {
               if (isFullWall(fresh)) {
                 applyWallPayload(reshuffleCats(fresh), false);
-                store.setCachedCategories(fresh, g);
+                store.setCachedCategories(fresh, ckey);
               }
             }).catch(() => {});
           }
@@ -322,22 +328,22 @@ export default function HomeScreen({ navigation, route }) {
         // CRITICAL: paint from the pre-warmed server cache (blended, ~instant). Do NOT block
         // on the live shuffle path — it fires ~47 uncached Archive.org requests (80–200s) and
         // returns empty when throttled. Variety comes from the client-side reshuffle instead.
-        const fast = await api.getCategories({ shuffle: false, gen: g, kids: kidsMode });
+        const fast = await api.getCategories({ shuffle: false, gen: g, kids: kidsMode, tier: mtier });
         applyWallPayload(reshuffleCats(fast));
         setServerSleeping(false);
         setLoading(false);
         // never persist kids or GATED payloads (a cached mature payload would leak past
         // the PIN on the next session)
-        if (!kidsMode && !api.hasMatureGate()) store.setCachedCategories(fast, g);
+        if (!kidsMode && !api.hasMatureGate()) store.setCachedCategories(fast, ckey);
         return;
       }
       // Repopulate — pull from the FAST cached endpoint (reliable, instant, has CORS).
       // Never refresh=true (slow, can 524/CORS-fail). Variety comes from the client reshuffle.
-      const data = await api.getCategories({ gen: g, kids: kidsMode });
+      const data = await api.getCategories({ gen: g, kids: kidsMode, tier: mtier });
       if (hasRealContent(data)) {
         applyWallPayload(reshuffleCats(data));
         setServerSleeping(false);
-        if (!kidsMode && !api.hasMatureGate()) store.setCachedCategories(data, g);
+        if (!kidsMode && !api.hasMatureGate()) store.setCachedCategories(data, ckey);
       } else if (allCategoriesRef.current.length) {
         // Throttled/empty — keep what we have, just reshuffle for a fresh feel
         applyWallPayload(reshuffleCats(allCategoriesRef.current));
@@ -351,7 +357,7 @@ export default function HomeScreen({ navigation, route }) {
       setLoading(false);
       setRefreshing(false);
     }
-  }, [generationId, applyWallPayload, kidsMode]);
+  }, [generationId, applyWallPayload, kidsMode, modernMode]);
 
   // Keep the ref in sync so callbacks can read current categories without re-creating
   useEffect(() => { allCategoriesRef.current = allCategories; }, [allCategories]);

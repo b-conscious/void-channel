@@ -11,6 +11,7 @@ import { DMSans_400Regular, DMSans_500Medium, DMSans_600SemiBold } from '@expo-g
 import { SidebarProvider } from './src/context/SidebarContext';
 import { GenerationProvider } from './src/context/GenerationContext';
 import { KidsProvider } from './src/context/KidsContext';
+import { ModernModeProvider } from './src/context/ModernModeContext';
 import { AuthProvider } from './src/context/AuthContext';
 import { GameProvider } from './src/context/GameContext';
 import Navigation from './src/navigation';
@@ -181,6 +182,7 @@ export default function App() {
     <GestureHandlerRootView style={styles.root}>
       <SafeAreaProvider>
         <KidsProvider>
+        <ModernModeProvider>
         <SidebarProvider>
           <GenerationProvider>
             <AuthProvider>
@@ -193,6 +195,7 @@ export default function App() {
             </AuthProvider>
           </GenerationProvider>
         </SidebarProvider>
+        </ModernModeProvider>
         </KidsProvider>
       </SafeAreaProvider>
     </GestureHandlerRootView>

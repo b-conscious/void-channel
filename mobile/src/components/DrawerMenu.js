@@ -19,6 +19,7 @@ import FastImage from './FastImage';
 import AvatarPickerModal from './AvatarPickerModal';
 import { useGeneration } from '../context/GenerationContext';
 import { useKids } from '../context/KidsContext';
+import { useModernMode } from '../context/ModernModeContext';
 import { useAuth } from '../context/AuthContext';
 import { useSidebar } from '../context/SidebarContext';
 import api from '../api/client';
@@ -33,6 +34,7 @@ export default function DrawerMenu({ nav }) {
   const { gen } = useGeneration();
   const { user, isAuthenticated, isAnonymous, signOut, updateProfile } = useAuth();
   const { kidsMode, kidsAccent, enterKids, exitKids } = useKids();
+  const { modernMode, toggleModern } = useModernMode();
   const [avatarOpen, setAvatarOpen] = useState(false);
   const accent = kidsMode ? kidsAccent : (gen?.accentColor || colors.amber);
 
@@ -202,6 +204,17 @@ export default function DrawerMenu({ nav }) {
             >
               <Ionicons name="happy-outline" size={18} color={'#ffd34d'} style={{ width: 28 }} />
               <Text style={[drawerStyles.menuLabel, { color: '#ffd34d' }]}>VOIDTV KIDS</Text>
+            </TouchableOpacity>
+
+            {/* Modern Mode — content lens: filters the wall to a current shows & movies catalog
+                (tier=modern, recency-floored). Same skin/player/search; a plain toggle, flip freely. */}
+            <TouchableOpacity
+              style={drawerStyles.menuItem}
+              onPress={() => { toggleModern(); closeDrawer(); nav.navigate('Browse', { chip: 'all' }); }}
+              activeOpacity={0.7}
+            >
+              <Ionicons name={modernMode ? 'toggle' : 'toggle-outline'} size={18} color={modernMode ? accent : colors.textMuted} style={{ width: 28 }} />
+              <Text style={drawerStyles.menuLabel}>MODERN MODE{modernMode ? '  ·  ON' : ''}</Text>
             </TouchableOpacity>
 
             <View style={drawerStyles.divider} />
