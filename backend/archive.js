@@ -781,14 +781,28 @@ const WALL_IDS = new Set([
   // music_video (Music Videos & Concerts) pulled off the wall 2026-06-28 (B); still searchable + in the Vault.
 ]);
 
-// MODERN MODE content set (B 2026-06-28): the "modern shows & movies app" face. A curated subset of
-// genre/format rows, recency-floored to 1990 in the tier handler (server.js). Same backend, player,
-// and search - just a cleaner content lens reached via the Modern toggle; everything else stays in
-// Void mode + search.
+// MODERN MODE content set (B 2026-06-28; default mode, 90s-current). Genre/format rows for the
+// "modern shows & movies app" face, recency-floored to 1990 in the tier handler (server.js). Same
+// backend, player, search - a cleaner content lens; everything else stays in Void mode + search.
 const MODERN_IDS = new Set([
-  'feature_length', 'tv_movies', 'anime', 'documentary', 'comedy', 'violence',
-  'horror', 'scifi', 'romance',
+  'feature_length', 'tv_movies', 'anime', 'documentary', 'comedy',
+  'violence', 'horror', 'scifi', 'romance', 'foreign', 'nature_wildlife',
 ]);
+// Clean genre labels for Modern Mode (the Void names are flavored: "Drive-In Horror", "Retro Sci-Fi",
+// "Action & Violence"). Applied only in the modern tier; the Void wall keeps its character.
+const MODERN_LABELS = {
+  feature_length:  { name: 'Movies',         subtitle: 'Feature-length films' },
+  tv_movies:       { name: 'TV',             subtitle: 'Series and made-for-TV' },
+  anime:           { name: 'Anime',          subtitle: 'Japanese animation' },
+  documentary:     { name: 'Documentaries',  subtitle: 'Real stories' },
+  comedy:          { name: 'Comedy',         subtitle: 'Laughs across the genre' },
+  violence:        { name: 'Action',         subtitle: 'Stunts, fights, thrillers' },
+  horror:          { name: 'Horror',         subtitle: 'Scares and the supernatural' },
+  scifi:           { name: 'Sci-Fi',         subtitle: 'Space, the future, the unreal' },
+  romance:         { name: 'Romance',        subtitle: 'Love stories' },
+  foreign:         { name: 'International',   subtitle: 'Films from around the world' },
+  nature_wildlife: { name: 'Nature',         subtitle: 'Wildlife and the natural world' },
+};
 for (const cat of CATEGORIES) {
   cat.wall = WALL_IDS.has(cat.id);
   // Skip the "category specifics": deep cuts, dedicated shows, decade rows — left as authored.
@@ -2059,6 +2073,7 @@ module.exports = {
   applyEraLean,
   applyWallRecencyFloor,
   MODERN_IDS,
+  MODERN_LABELS,
   setExtraExcludes,
   searchCollection,
   searchCreator,

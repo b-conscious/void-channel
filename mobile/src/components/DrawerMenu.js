@@ -206,15 +206,15 @@ export default function DrawerMenu({ nav }) {
               <Text style={[drawerStyles.menuLabel, { color: '#ffd34d' }]}>VOIDTV KIDS</Text>
             </TouchableOpacity>
 
-            {/* Modern Mode — content lens: filters the wall to a current shows & movies catalog
-                (tier=modern, recency-floored). Same skin/player/search; a plain toggle, flip freely. */}
+            {/* Void Mode toggle — Modern (shows & movies, 90s-current) is the DEFAULT; this flips into
+                the classic weird-old-TV Void wall. Same skin/player/search; flip freely. */}
             <TouchableOpacity
               style={drawerStyles.menuItem}
               onPress={() => { toggleModern(); closeDrawer(); nav.navigate('Browse', { chip: 'all' }); }}
               activeOpacity={0.7}
             >
-              <Ionicons name={modernMode ? 'toggle' : 'toggle-outline'} size={18} color={modernMode ? accent : colors.textMuted} style={{ width: 28 }} />
-              <Text style={drawerStyles.menuLabel}>MODERN MODE{modernMode ? '  ·  ON' : ''}</Text>
+              <Ionicons name={!modernMode ? 'toggle' : 'toggle-outline'} size={18} color={!modernMode ? accent : colors.textMuted} style={{ width: 28 }} />
+              <Text style={drawerStyles.menuLabel}>VOID MODE{!modernMode ? '  ·  ON' : ''}</Text>
             </TouchableOpacity>
 
             <View style={drawerStyles.divider} />

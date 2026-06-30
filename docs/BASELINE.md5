@@ -6,7 +6,7 @@ a2c1f48e7553f6b5da21da50aa4d2d25 *./README.md
 983318a4634447b503483e11e34ebca3 *./THE_VOID_BUILD_PLAN.md
 36c82553ae7d85aea22a0d80a898cd11 *./backend/_migrate.js
 efd21275343922288dd40a7f470e6e6b *./backend/admin.js
-b05e922dc9a75e458e97c09062faf0bb *./backend/archive.js
+4e3d5f34567a265e4c2b32c1c972532d *./backend/archive.js
 3e848fbcb96c137f3b5d1da23282c9cb *./backend/archivist.js
 202c1c461c144761cfe3de334f65f037 *./backend/auth.js
 bb8b7f3e4d6784f9999622bbeb336635 *./backend/cache.js
@@ -34,7 +34,7 @@ b8633bdfba4cf8032f2d597f5c7b3960 *./backend/schema-archivist.sql
 d44519af97a967977cb5e80bec2a6266 *./backend/schema-phase2.sql
 204023ab272655ee5e915858ee6b17ae *./backend/schema-rls-audit.sql
 145e8214611674d5c9bfdc3178f9e901 *./backend/schema.sql
-d56304d10bea0f5f8697769f6a4670f2 *./backend/server.js
+429e277e5726fbdb7a025ccd27d8ce32 *./backend/server.js
 0d900637f7eaef0616ea093f764c69b3 *./backend/subscriptions.js
 9919afcaaa607a0a565e18cebab35cc8 *./backend/supabase.js
 d0cfc95d76f0280450a5510b63efa38b *./backend/sync.js
@@ -114,7 +114,7 @@ f5e0e47487297c6efa7ae5c40bb3d3d7 *./mobile/src/components/AddToPlaylistModal.js
 aad2db204845ccb9472af4b227ad39f4 *./mobile/src/components/CategoryRow.js
 12f27a8f11665ef02ca1f6dfb5abd93f *./mobile/src/components/DailyBountyCard.js
 b826443fac86406b9ca194e93d2fa102 *./mobile/src/components/DialRow.js
-6f5e8289c1bce49e0a62e2f837670314 *./mobile/src/components/DrawerMenu.js
+71756a401f32cc1de0a0654ebb514851 *./mobile/src/components/DrawerMenu.js
 47fe52531e8b1ceb004ef589d2553724 *./mobile/src/components/FastImage.js
 a6335e1036f55fa70290b7a4571f70b3 *./mobile/src/components/MediaCard.js
 24ca9d80a6da34b0616e3789430dc016 *./mobile/src/components/SearchBar.js
@@ -133,7 +133,7 @@ f721c914ddfa12aa4c384d64132ece56 *./mobile/src/context/AuthContext.js
 eb2b0c77583e0c3927df2e51b5745c42 *./mobile/src/context/GameContext.js
 ec027cd8212faef344814e6caf1b10cf *./mobile/src/context/GenerationContext.js
 a9f01181a35256fa52f80ca755fa6c4c *./mobile/src/context/KidsContext.js
-cf26ca162614a7fb4a320fa747c31cec *./mobile/src/context/ModernModeContext.js
+60364108663db47e63bfe8fc6cbcc304 *./mobile/src/context/ModernModeContext.js
 c95f2f9ed9cd0ad872c9b0b661d9bfb1 *./mobile/src/context/SidebarContext.js
 ea51aeb387e606cfedc53cebde8cfb2a *./mobile/src/data/avatars.js
 c581a20eb916f22672183f58fba98fdc *./mobile/src/data/generations.js

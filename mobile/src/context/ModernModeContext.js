@@ -9,12 +9,14 @@ const KEY = '@void_mode';
 const ModernContext = createContext(null);
 
 export function ModernModeProvider({ children }) {
-  const [modernMode, setModernMode] = useState(false);
+  // Modern is the DEFAULT face now (B 2026-06-28); Void is the opt-in toggle. Only drop to Void if
+  // the user has explicitly chosen it before.
+  const [modernMode, setModernMode] = useState(true);
   const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
     AsyncStorage.getItem(KEY)
-      .then((v) => { if (v === 'modern') setModernMode(true); })
+      .then((v) => { if (v === 'void') setModernMode(false); })
       .catch(() => {})
       .finally(() => setLoaded(true));
   }, []);
