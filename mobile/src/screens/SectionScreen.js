@@ -17,7 +17,7 @@ import api from '../api/client';
 import { colors, fonts, spacing } from '../theme';
 
 export default function SectionScreen({ route, navigation }) {
-  const { tier, title } = route.params || {};
+  const { tier, title, adult } = route.params || {};
   const { gen, generationId } = useGeneration();
   const accent = gen?.accentColor || colors.amber;
   const insets = useSafeAreaInsets();
@@ -28,7 +28,7 @@ export default function SectionScreen({ route, navigation }) {
   useEffect(() => {
     let cancelled = false;
     setLoading(true);
-    api.getCategories({ tier, gen: generationId })
+    api.getCategories({ tier, gen: generationId, adult })
       .then((data) => {
         if (cancelled) return;
         setCats(Array.isArray(data) ? data.filter((c) => c && (c.items || []).length > 0) : []);
@@ -36,7 +36,7 @@ export default function SectionScreen({ route, navigation }) {
       .catch(() => { if (!cancelled) setCats([]); })
       .finally(() => { if (!cancelled) setLoading(false); });
     return () => { cancelled = true; };
-  }, [tier, generationId]);
+  }, [tier, generationId, adult]);
 
   const onItemPress = useCallback((item) => {
     if (item && item.id) navigation.navigate('Player', { item, id: item.id });
@@ -60,10 +60,10 @@ export default function SectionScreen({ route, navigation }) {
           data={cats}
           keyExtractor={(c) => c.id}
           renderItem={renderRow}
-          initialNumToRender={4}
-          maxToRenderPerBatch={3}
-          windowSize={7}
-          removeClippedSubviews
+          initialNumToRender={30}
+          maxToRenderPerBatch={12}
+          windowSize={31}
+          removeClippedSubviews={false}
           showsVerticalScrollIndicator={false}
           contentContainerStyle={{ paddingBottom: 40 }}
         />

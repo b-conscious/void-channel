@@ -34,7 +34,7 @@ b8633bdfba4cf8032f2d597f5c7b3960 *./backend/schema-archivist.sql
 d44519af97a967977cb5e80bec2a6266 *./backend/schema-phase2.sql
 204023ab272655ee5e915858ee6b17ae *./backend/schema-rls-audit.sql
 145e8214611674d5c9bfdc3178f9e901 *./backend/schema.sql
-4f05ef173e4c9f340f3f396679dc1680 *./backend/server.js
+dd5109b3c8dec8432df5806b3d6c12c4 *./backend/server.js
 0d900637f7eaef0616ea093f764c69b3 *./backend/subscriptions.js
 9919afcaaa607a0a565e18cebab35cc8 *./backend/supabase.js
 d0cfc95d76f0280450a5510b63efa38b *./backend/sync.js
@@ -108,13 +108,13 @@ f882fa77e7a04ea107e609ad6da924e3 *./mobile/public/icon-192.png
 40fb9809d1565eec295ca0b0b227570e *./mobile/public/icon-512.png
 7a893c77ee64a99565f08ec567efc70e *./mobile/public/manifest.json
 ebcea8cda885340b61ed38d52fd6189c *./mobile/public/sw.js
-df8efdd6dc427a0e32755e0f5be3f0db *./mobile/src/api/client.js
+c64a185a605073464075b12ec6a69103 *./mobile/src/api/client.js
 f5e0e47487297c6efa7ae5c40bb3d3d7 *./mobile/src/components/AddToPlaylistModal.js
 39b528235dfc0f80e5c6f8d26166bf1d *./mobile/src/components/AvatarPickerModal.js
 aad2db204845ccb9472af4b227ad39f4 *./mobile/src/components/CategoryRow.js
 12f27a8f11665ef02ca1f6dfb5abd93f *./mobile/src/components/DailyBountyCard.js
 b826443fac86406b9ca194e93d2fa102 *./mobile/src/components/DialRow.js
-71756a401f32cc1de0a0654ebb514851 *./mobile/src/components/DrawerMenu.js
+b8aac0c36d01e36af75086ea1b7c0fa6 *./mobile/src/components/DrawerMenu.js
 47fe52531e8b1ceb004ef589d2553724 *./mobile/src/components/FastImage.js
 a6335e1036f55fa70290b7a4571f70b3 *./mobile/src/components/MediaCard.js
 24ca9d80a6da34b0616e3789430dc016 *./mobile/src/components/SearchBar.js
@@ -124,7 +124,7 @@ b3312718a8fd6c9471b522236de40348 *./mobile/src/components/TopBar.js
 eb43b0afa5b18eb2e9f12a67c290cf63 *./mobile/src/components/VersionWatch.js
 7523f6b5a8a65a577f78cd2973d09edc *./mobile/src/components/VideoPlayer.js
 fe9114c2cc0815f9ac600b627bed2265 *./mobile/src/components/VoidIcon.js
-d19942e351c041992ce5b48ffffbf9f5 *./mobile/src/components/VoidIntro.js
+a6ee5fb4087d723492a4698b5209e8d3 *./mobile/src/components/VoidIntro.js
 131aff453e48ec5f677f0588ebb8639b *./mobile/src/components/VoidLoader.js
 34b6daaeb893c170d6d93a78945a170b *./mobile/src/components/VoidStatic.js
 0091a3489cbb285ce9c8fae7999cd0a6 *./mobile/src/components/WaveAvatar.js
@@ -145,7 +145,7 @@ e638add4a6fb4dfa8c8098f40b13150e *./mobile/src/screens/PlayerScreen.js
 d2f5edf67a92e076561fff07838e325f *./mobile/src/screens/PlaylistScreen.js
 01b9b295dbc34b85a07a7c54fcdee472 *./mobile/src/screens/PlaylistsListScreen.js
 fde80170c4553b1a44dd4db3f715e855 *./mobile/src/screens/SearchScreen.js
-bb169051e38d22ff9fae8e98b2031b92 *./mobile/src/screens/SectionScreen.js
+9ef6e89e41fa6784f4ef26ec34a71dd0 *./mobile/src/screens/SectionScreen.js
 88fe349ed92045b9f056e36b38f950ca *./mobile/src/screens/SignalScreen.js
 88be26f85ac2dce5c795a47fe61b13e4 *./mobile/src/screens/WatchlistScreen.js
 33da3b7fc18b5565dfd07883ed4f1db8 *./mobile/src/shims/reanimated-web.js

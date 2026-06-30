@@ -195,16 +195,7 @@ export default function DrawerMenu({ nav }) {
               <Ionicons name="time-outline" size={18} color={accent} style={{ width: 28 }} />
               <Text style={drawerStyles.menuLabel}>HISTORY</Text>
             </TouchableOpacity>
-            {/* VOIDtv KIDS — one tap in; getting OUT requires the parent gate. Lives up here
-                with the nav so it is never below the fold (B could not find it). */}
-            <TouchableOpacity
-              style={drawerStyles.menuItem}
-              onPress={() => { enterKids(); closeDrawer(); nav.navigate('Browse', { chip: 'all' }); }}
-              activeOpacity={0.7}
-            >
-              <Ionicons name="happy-outline" size={18} color={'#ffd34d'} style={{ width: 28 }} />
-              <Text style={[drawerStyles.menuLabel, { color: '#ffd34d' }]}>VOIDTV KIDS</Text>
-            </TouchableOpacity>
+            {/* VOIDtv KIDS removed 2026-06-28 (B): not a kids platform; the entry is stripped. */}
 
             {/* Void Mode toggle — Modern (shows & movies, 90s-current) is the DEFAULT; this flips into
                 the classic weird-old-TV Void wall. Same skin/player/search; flip freely. */}
@@ -229,41 +220,28 @@ export default function DrawerMenu({ nav }) {
               <Text style={drawerStyles.menuLabel}>SURPRISE ME</Text>
             </TouchableOpacity>
 
-            {/* 18+ — sequestered, reachable on purpose (not censored), and PIN-GATED
-                (slice 16): members only, then the account holder's PIN. The server withholds
-                mature payloads without the verified gate token, so this is enforcement. */}
+            {/* AFTER DARK (18+): adult section on its OWN page, off the commercial wall (B 2026-06-28).
+                One-time 18+ acknowledgment (no PIN, no account); the entry disclaimer covers the rest. */}
             <TouchableOpacity
               style={drawerStyles.menuItem}
-              onPress={async () => {
-                if (!isAuthenticated || isAnonymous) { closeDrawer(); nav.navigate('Auth'); return; }
-                try {
-                  if (!api.hasMatureGate()) {
-                    const probe = await api.verifyMaturePin('');
-                    if (probe && probe.needsSetup) {
-                      const p1 = Platform.OS === 'web' && window.prompt ? window.prompt('Create your 18+ PIN (4-8 digits).\nYou will need it every session.') : null;
-                      if (!p1 || !/^\d{4,8}$/.test(p1.trim())) return;
-                      const r = await api.setMaturePin(p1.trim());
-                      if (r && r.gate) api.setMatureGate(r.gate);
-                    }
-                  }
-                } catch (e) {
-                  // wrong/empty PIN probe path: ask for the PIN properly
-                  const pin = Platform.OS === 'web' && window.prompt ? window.prompt('Enter your 18+ PIN') : null;
-                  if (!pin) return;
-                  try {
-                    const r = await api.verifyMaturePin(pin.trim());
-                    if (r && r.gate) api.setMatureGate(r.gate);
-                    else return;
-                  } catch (e2) { return; }
+              onPress={() => {
+                const K = '@void_adult_ok';
+                let ok = false;
+                try { ok = (typeof localStorage !== 'undefined') && localStorage.getItem(K) === '1'; } catch (e) {}
+                if (!ok) {
+                  const yes = (Platform.OS === 'web' && window.confirm)
+                    ? window.confirm('AFTER DARK contains adult material. Are you 18 or older?')
+                    : true;
+                  if (!yes) return;
+                  try { localStorage.setItem(K, '1'); } catch (e) {}
                 }
-                if (!api.hasMatureGate()) return;
                 closeDrawer();
-                nav.navigate('Browse', { chip: 'mature', _gate: Date.now() });
+                nav.navigate('Section', { tier: 'adult', title: 'After Dark', adult: 1 });
               }}
               activeOpacity={0.7}
             >
-              <Ionicons name="warning-outline" size={18} color={accent} style={{ width: 28 }} />
-              <Text style={drawerStyles.menuLabel}>18+  BEHIND CLOSED DOORS</Text>
+              <Ionicons name="moon-outline" size={18} color={accent} style={{ width: 28 }} />
+              <Text style={drawerStyles.menuLabel}>AFTER DARK  ·  18+</Text>
             </TouchableOpacity>
 
             <View style={drawerStyles.divider} />

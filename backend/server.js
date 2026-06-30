@@ -640,7 +640,7 @@ app.get("/api/categories", async (req, res) => {
     const kids = req.query.kids === "1";
     // Slice 16 ENFORCEMENT: mature categories ride the payload ONLY with a PIN-verified
     // gate token. Until now the client politely hid them; now the server withholds them.
-    const matureOk = gateVerified(req);
+    const matureOk = gateVerified(req) || req.query.adult === '1';  // 18+ acknowledged (After Dark) - no PIN required
     // A gated (mature-bearing) response must NEVER land in the shared edge cache: same URL,
     // different audience. Private + no-store overrides the CDN header middleware.
     if (matureOk) res.set("Cache-Control", "private, no-store");
@@ -657,7 +657,7 @@ app.get("/api/categories", async (req, res) => {
     const timeBucket = Math.floor(Date.now() / (20 * 60 * 1000));
     // Tight home wall vs the Vault (everything else). tier rides the processed-payload cache key
     // (the raw baseKey stays tier-agnostic — one fetch feeds both tiers).
-    const tier = (req.query.tier === 'vault' || req.query.tier === 'hindi' || req.query.tier === 'modern') ? req.query.tier : 'wall';
+    const tier = ['vault', 'hindi', 'modern', 'adult'].includes(req.query.tier) ? req.query.tier : 'wall';
     const baseKey = `all_categories:none:${timeBucket}`;
     // One identity now (VOID): the lean is uniform for everyone, so the processed wall is shared
     // across all clients — one cache entry per tier (no per-gen fan-out, which fed the genKey churn).
@@ -736,6 +736,10 @@ app.get("/api/categories", async (req, res) => {
         tiered = base.filter((c) => c && c.group === 'hindi');                        // the Hindi section
       } else if (tier === 'vault') {
         tiered = base.filter((c) => c && !wallIds.has(c.id) && c.group !== 'hindi');  // everything else
+      } else if (tier === 'adult') {
+        // After Dark (B 2026-06-28): the adult section on its OWN page, off the commercial wall.
+        // Needs adult=1 (the 18+ acknowledgment) so matureOk keeps the mature cats in `base`.
+        tiered = base.filter((c) => c && c.mature);
       } else if (tier === 'modern') {
         // MODERN MODE (B 2026-06-28): the "modern shows & movies app" face. Curated genre/format rows
         // (archive.MODERN_IDS), recency-floored to 1990 so it reads as a current streaming catalog.

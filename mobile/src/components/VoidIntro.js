@@ -111,9 +111,12 @@ export default function VoidIntro() {
       <View style={styles.center}>
         <Text style={styles.logo}>VOID<Text style={styles.logoTv}>tv</Text></Text>
         <Text style={styles.tagline}>before AI slop, there was human creativity</Text>
+        <Text style={styles.disclaimer}>
+          VOIDtv is an unfiltered window into human-made media, served from the Internet Archive. It holds mature, strange, and forgotten things no algorithm would ever recommend, and nothing here is AI-generated. By entering, you confirm you're 18+ and understand you may encounter adult or disturbing material.
+        </Text>
         <View style={[styles.enterBtn, { borderColor: BRAND_BLUE }]}>
           <Text style={[styles.enterText, { color: BRAND_BLUE }]}>
-            {entering ? 'ENTERING…' : '▶  TAP TO ENTER THE VOID'}
+            {entering ? 'ENTERING…' : '▶  ENTER THE VOID'}
           </Text>
         </View>
       </View>
@@ -135,6 +138,10 @@ var styles = StyleSheet.create({
   tagline: {
     fontFamily: fonts.sans, fontSize: 13, color: 'rgba(228,226,220,0.7)',
     marginTop: 8, fontStyle: 'italic', textAlign: 'center',
+  },
+  disclaimer: {
+    fontFamily: fonts.sans, fontSize: 12, color: 'rgba(228,226,220,0.6)',
+    marginTop: 18, textAlign: 'center', lineHeight: 17, maxWidth: 440,
   },
   enterBtn: {
     marginTop: 34, borderWidth: 1, borderRadius: 30,
