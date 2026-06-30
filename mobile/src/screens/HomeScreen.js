@@ -13,7 +13,7 @@ import * as Haptics from 'expo-haptics';
 import FastImage from '../components/FastImage';
 import CategoryRow from '../components/CategoryRow';
 import SkeletonCard from '../components/SkeletonCard';
-import { VoidLoader, TheArchivist } from '../components';
+import { VoidLoader } from '../components';
 import { useGeneration } from '../context/GenerationContext';
 import { useAuth } from '../context/AuthContext';
 import { GENERATIONS } from '../data/generations';
@@ -876,8 +876,7 @@ export default function HomeScreen({ navigation, route }) {
       {/* Floating menu FAB removed (B 2026-06-13): on mobile it stacked bottom-left right
           behind the Archivist console. The TopBar hamburger is the menu affordance. */}
 
-      {/* The Archivist — AI rabbit-hole guide (floating console) */}
-      <TheArchivist navigation={navigation} accent={accent} />
+      {/* The Archivist removed 2026-06-28 (B: no value). Component + backend left dead-but-harmless. */}
     </View>
   );
 }
