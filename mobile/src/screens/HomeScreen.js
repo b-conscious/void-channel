@@ -103,27 +103,25 @@ const FEATURED = {
   title: 'Jasen Wrestles With Life',
   creator: 'a new creator',
   badge: 'COMING SOON',
-  tagline: 'A comedy skit show. Watch Jasen try to pin rent, bills, and his own future self. He is losing.',
+  tagline: "A new comedy skit show. Each week Jasen steps into the ring with rent, bills, and adulthood. Tune in to see if he's winning this round.",
   image: 'https://api.voidtv.net/static/featured/jasen.webp',
 };
 
-function FeaturedCard({ data, accent, height, onPress }) {
+function FeaturedCard({ data, accent, onPress }) {
   const { width: ww } = useWindowDimensions();
   if (!data) return null;
   const isDesk = ww > 900;
-  const w = Math.max(280, ww - spacing.screenPadding * 2);
-  const h = height || Math.min(Math.round(w * (isDesk ? 0.34 : 0.60)), isDesk ? 360 : 300);
+  const avail = Math.max(280, ww - spacing.screenPadding * 2);
+  const cardW = isDesk ? Math.min(avail, 720) : avail;
+  const imgH = Math.round(cardW * (896 / 1200)); // poster's native ratio: shown whole, no words cropped
   return (
-    <View style={{ paddingHorizontal: spacing.screenPadding, marginBottom: 16, marginTop: 4 }}>
-      <TouchableOpacity activeOpacity={0.92} onPress={onPress} style={[fcStyles.card, { height: h, borderColor: accent + '55' }]}>
-        <Image source={{ uri: data.image }} style={StyleSheet.absoluteFill} resizeMode="cover" />
-        <LinearGradient colors={['transparent', 'rgba(8,8,11,0.35)', 'rgba(8,8,11,0.92)']} style={StyleSheet.absoluteFill} />
-        <View style={[fcStyles.badge, { backgroundColor: accent }]}>
-          <Text style={fcStyles.badgeText}>{data.badge}</Text>
-        </View>
-        <View style={fcStyles.meta}>
+    <View style={{ paddingHorizontal: spacing.screenPadding, marginTop: 6, marginBottom: 18, alignItems: 'center' }}>
+      <TouchableOpacity activeOpacity={0.92} onPress={onPress} style={[fcStyles.card, { width: cardW, borderColor: accent + '55' }]}>
+        <Image source={{ uri: data.image }} style={{ width: '100%', height: imgH }} resizeMode="cover" />
+        <View style={fcStyles.caption}>
+          <View style={[fcStyles.badge, { backgroundColor: accent }]}><Text style={fcStyles.badgeText}>{data.badge}</Text></View>
           <Text style={fcStyles.title} numberOfLines={1}>{data.title}</Text>
-          <Text style={fcStyles.tagline} numberOfLines={2}>{data.tagline}</Text>
+          <Text style={fcStyles.tagline} numberOfLines={3}>{data.tagline}</Text>
           <Text style={[fcStyles.creator, { color: accent }]}>from {data.creator}</Text>
         </View>
       </TouchableOpacity>
@@ -131,13 +129,13 @@ function FeaturedCard({ data, accent, height, onPress }) {
   );
 }
 const fcStyles = StyleSheet.create({
-  card: { width: '100%', borderRadius: radius.md, overflow: 'hidden', borderWidth: 1, backgroundColor: colors.surface },
-  badge: { position: 'absolute', top: 12, left: 12, paddingHorizontal: 10, paddingVertical: 4, borderRadius: 4 },
+  card: { borderRadius: radius.md, overflow: 'hidden', borderWidth: 1, backgroundColor: colors.surface },
+  caption: { paddingHorizontal: 16, paddingTop: 12, paddingBottom: 14 },
+  badge: { alignSelf: 'flex-start', paddingHorizontal: 10, paddingVertical: 4, borderRadius: 4, marginBottom: 9 },
   badgeText: { fontFamily: fonts.monoBold, fontSize: 10, letterSpacing: 1.5, color: '#000' },
-  meta: { position: 'absolute', left: 16, right: 16, bottom: 14 },
-  title: { fontFamily: fonts.sansSemiBold, fontSize: 22, color: '#fff' },
-  tagline: { fontFamily: fonts.sans, fontSize: 13, color: 'rgba(255,255,255,0.82)', marginTop: 3 },
-  creator: { fontFamily: fonts.mono, fontSize: 11, letterSpacing: 1, marginTop: 6 },
+  title: { fontFamily: fonts.sansSemiBold, fontSize: 21, color: colors.textPrimary },
+  tagline: { fontFamily: fonts.sans, fontSize: 13, color: colors.textSecondary, marginTop: 4, lineHeight: 18 },
+  creator: { fontFamily: fonts.mono, fontSize: 11, letterSpacing: 1, marginTop: 8 },
 });
 
 export default function HomeScreen({ navigation, route }) {
@@ -778,7 +776,6 @@ export default function HomeScreen({ navigation, route }) {
           <FeaturedCard
             data={FEATURED}
             accent={accent}
-            height={heroH}
             onPress={() => {
               if (Platform.OS === 'web' && typeof window !== 'undefined' && window.alert) {
                 window.alert(FEATURED.title + '\n\nComing soon. ' + FEATURED.tagline);
