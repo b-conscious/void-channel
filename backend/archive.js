@@ -809,6 +809,12 @@ const MODERN_LABELS = {
 // premium (e.g. HBO's "Real Sex") rides along and corrals behind the 18+ door in the default view.
 const PREMIUM_QUERY = 'title:("Sopranos" OR "Six Feet Under" OR "The Wire" OR "Deadwood" OR "Carnivale" OR "Tales from the Crypt" OR "Mr. Show" OR "Larry Sanders" OR "Curb Your Enthusiasm" OR "Entourage" OR "Dream On" OR "Sex and the City" OR "Tales from the Darkside" OR "Dexter" OR "Real Sex") AND mediatype:(movies)';
 
+// IDEAS & LECTURES (B 2026-06-28): the thinkers' lane. Vaknin/Zizek-type talking-head content is
+// filtered OFF the entertainment rows (TALKINGHEAD_RE) but has massive value, so it gets its OWN row.
+// Live-fetched, so the curated junk-chain that strips it from the wall does NOT apply here (this row
+// IS that content). CSA/kill still screened (search runs dropExcluded). Big minds, talks, lectures.
+const IDEAS_QUERY = '(title:("Sam Vaknin" OR "Zizek" OR "Žižek" OR "Noam Chomsky" OR "Alan Watts" OR "Carl Jung" OR "Terence McKenna" OR "Christopher Hitchens" OR "Carl Sagan" OR "Richard Feynman" OR lecture) OR subject:(philosophy OR psychology OR "critical theory")) AND mediatype:(movies)';
+
 // PORN THROUGH THE AGES (B 2026-06-28, the "3rd lane"): human sexuality as part of the human RECORD,
 // walked chronologically, not a porn feed. Legitimate adult MEDIA on IA - vintage adult cinema is its
 // real depth. Rows are ORDERED as an era journey (stag -> pin-up -> nudie -> sexploitation -> erotica).
@@ -2114,6 +2120,7 @@ module.exports = {
   MODERN_IDS,
   MODERN_LABELS,
   PREMIUM_QUERY,
+  IDEAS_QUERY,
   ADULT_ROWS,
   setExtraExcludes,
   searchCollection,

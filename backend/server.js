@@ -103,12 +103,18 @@ const LASTGOOD_BASE_KEY = 'lastgood:base:none';
     const p = await cache.get(LASTGOOD_PREMIUM_KEY);
     if (Array.isArray(p) && p.length >= 3) { lastGoodPremium = p; }
   } catch (e) { /* cold cache / no redis */ }
+  try {
+    const ix = await cache.get(LASTGOOD_IDEAS_KEY);
+    if (Array.isArray(ix) && ix.length >= 3) { lastGoodIdeas = ix; }
+  } catch (e) { /* cold cache / no redis */ }
 })();
-// Premium is a LIVE fetch (IA buries it in search), so a cold archive / open circuit-breaker right
-// after a restart returns too few and the Premium draw row blinks out. Keep the last good set in
-// memory + Redis and fall back to it, so Premium never vanishes once we've seen it.
+// Premium + Ideas are LIVE fetches (IA buries them in search), so a cold archive / open breaker right
+// after a restart returns too few and the draw row blinks out. Keep the last good set in memory +
+// Redis and fall back to it, so these rows never vanish once we've seen them.
 let lastGoodPremium = [];
 const LASTGOOD_PREMIUM_KEY = 'lastgood:premium';
+let lastGoodIdeas = [];
+const LASTGOOD_IDEAS_KEY = 'lastgood:ideas';
 const VALID_GENS = ['void', 'boomer', 'millennial', 'genz']; // legacy gens still parse; all lean the same (VOID) now
 function parseGen(q) { return VALID_GENS.includes(q) ? q : null; }
 // Sorts the client may request via ?sort= — powers search "re-roll" (a genuinely different set for
@@ -798,6 +804,18 @@ app.get("/api/categories", async (req, res) => {
           if (Array.isArray(prem) && prem.length >= 3) tiered = [premRow(prem), ...tiered];
         } catch (e) {
           if (Array.isArray(lastGoodPremium) && lastGoodPremium.length >= 3) tiered = [premRow(lastGoodPremium), ...tiered];
+        }
+        // Ideas & Lectures — the thinkers' lane (Vaknin, Žižek, Chomsky...). Live-fetched, so it
+        // bypasses the talking-head filter that (rightly) keeps these OFF the entertainment rows.
+        // Appended (trails the entertainment rows). Robust like Premium; CSA/kill still screened.
+        const ideasRow = (items) => ({ id: 'ideas_lectures', name: 'Ideas & Lectures', subtitle: 'Big minds and talks: Vaknin, Žižek, Chomsky, and thinkers worth the time', sort: 'downloads desc', items });
+        try {
+          let idea = await archive.search(archive.IDEAS_QUERY, 24, 1, 'downloads desc');
+          if (Array.isArray(idea) && idea.length >= 3) { lastGoodIdeas = idea; cache.set(LASTGOOD_IDEAS_KEY, idea, 86400).catch(() => {}); }
+          else { idea = lastGoodIdeas; }
+          if (Array.isArray(idea) && idea.length >= 3) tiered = [...tiered, ideasRow(idea)];
+        } catch (e) {
+          if (Array.isArray(lastGoodIdeas) && lastGoodIdeas.length >= 3) tiered = [...tiered, ideasRow(lastGoodIdeas)];
         }
       } else {
         tiered = base.filter((c) => c && wallIds.has(c.id));                          // the tight wall
