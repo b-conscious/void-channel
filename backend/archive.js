@@ -1882,10 +1882,23 @@ function dropLiveStreams(items) {
   });
 }
 
+// News + streaming-bs drop for the curated wall (B 2026-06-28: "no news... or streaming bs").
+// Targets news-AS-BROADCAST + network brands + foreign news words + livestream/VOD/twitch/subathon
+// junk. Word-anchored so it does NOT eat legit titles ("Good News", "Bad News Bears", "Broadcast
+// News", "The Newsroom", "Anchorman"). Curated surfaces only; search stays raw.
+const NEWS_NOISE_RE = /\b(?:nightly|evening|morning|breaking|local|world|national|late|noon|action|channel \d+) news\b|news ?(?:report|broadcast|bulletin|update|cast|hour|anchor|tonight|center|desk|flash)|news at \d|\b(?:cnn|msnbc|c-?span|newsmax|oann)\b|fox news|bbc news|nbc news|abc news|cbs news|sky news|al ?jazeera|\bnyheter\b|\bnoticias\b|\bnachrichten\b|\bnieuws\b|telegiornale|\bvod\b|\btwitch\b|kick\.com|sub-?athon|stream (?:highlights|replay|vod|archive)/i;
+function dropNewsNoise(items) {
+  if (!Array.isArray(items)) return items;
+  return items.filter((it) => {
+    const t = Array.isArray(it && it.title) ? it.title[0] : (it && it.title);
+    return !(t && NEWS_NOISE_RE.test(String(t)));
+  });
+}
+
 // The full curated-junk chain, for any curated surface (wall rows + the related/autoplay rail).
 // Search stays raw on purpose (rights posture).
 function cleanRail(items) {
-  return dropLiveStreams(dropJunk(dropSocialMirror(dropBroadcastJunk(dropFutureDated(items || [])))));
+  return dropNewsNoise(dropLiveStreams(dropJunk(dropSocialMirror(dropBroadcastJunk(dropFutureDated(items || []))))));
 }
 
 if (SPINE_URL) {
@@ -1918,7 +1931,7 @@ if (SPINE_URL) {
       return [];
     }
     return (wall.categories || []).map((c) => {
-      const pool = dropLiveStreams(dropJunk(dropSocialMirror(dropBroadcastJunk(dropFutureDated(c.items || []))))); // future-spam (P3) + off-air captures + youtube mirrors (B) + dump/spam junk + bare-LIVE streams (B 2026-06-28, ALL wall rows)
+      const pool = dropNewsNoise(dropLiveStreams(dropJunk(dropSocialMirror(dropBroadcastJunk(dropFutureDated(c.items || [])))))); // junk + live + news/streaming-bs (B 2026-06-28), ALL wall rows
       let items;
       if (/downloads/.test(c.sort || '')) {
         // Fixed downloads-sort rows (Most Popular): ACTUALLY rank by downloads — bucketSample
@@ -1942,7 +1955,7 @@ if (SPINE_URL) {
       // would jump the offset past the pool end (page 2 of a 50-pool at rows=50 returns zero).
       const fetchRows = (cat.diversify && page === 1) ? rows * 2 : rows;
       const r = await spineGet(`/category/${encodeURIComponent(categoryId)}?page=${page}&rows=${fetchRows}`);
-      let items = dropLiveStreams(dropJunk(dropSocialMirror(dropBroadcastJunk(dropFutureDated(r.items || []))))); // future-spam (P3) + off-air captures + youtube mirrors (B) + dump/spam junk + bare-LIVE streams (B 2026-06-28)
+      let items = dropNewsNoise(dropLiveStreams(dropJunk(dropSocialMirror(dropBroadcastJunk(dropFutureDated(r.items || [])))))); // junk + live + news/streaming-bs (B 2026-06-28)
       if (/downloads/.test(cat.sort || '') && !shuffle) {
         items = items.slice().sort((a, b) => (b.downloads || 0) - (a.downloads || 0));
       }
