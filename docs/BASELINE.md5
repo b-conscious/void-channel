@@ -24,6 +24,8 @@ a8ecab3796dbb2a1227d56a93bbcd928 *./backend/maturegate.js
 2f7ae0b9a8567648b798c9b43b5f1f07 *./backend/package-lock.json
 f978af706c7a675ba802f7807f899565 *./backend/package.json
 d271ab7f658a90ef3976fe196f25ae22 *./backend/playlists.js
+21415864f18d7c9f9adf36e3207b799b *./backend/public/static/featured/jasen.jpg
+3a0df9da5c8977637a7d0a7c73019116 *./backend/public/static/featured/jasen.webp
 c3bab565f2ab67c2c2f4aedae2f4fcdb *./backend/public/static/search-loading.mp4
 f8067a166113ce3262e66e6eb3702aee *./backend/public/static/void-stream-hi.mp4
 3370a2ee3021ff7ff42c28acc4d787c0 *./backend/public/static/void-stream.mp4
@@ -141,7 +143,7 @@ c581a20eb916f22672183f58fba98fdc *./mobile/src/data/generations.js
 d201aa76b5daea84f18879587a1e3aa7 *./mobile/src/navigation/index.js
 fa75725279f4468fb7fdb7447b461123 *./mobile/src/screens/AdminScreen.js
 3fb0239d689880f1b7b4647ede9a3638 *./mobile/src/screens/AuthScreen.js
-ad77d3896a7c0c97d5a9ef80317ed98e *./mobile/src/screens/HomeScreen.js
+e3e6c03ff677bf5c0ad4661d4d2eb841 *./mobile/src/screens/HomeScreen.js
 e638add4a6fb4dfa8c8098f40b13150e *./mobile/src/screens/PlayerScreen.js
 d2f5edf67a92e076561fff07838e325f *./mobile/src/screens/PlaylistScreen.js
 01b9b295dbc34b85a07a7c54fcdee472 *./mobile/src/screens/PlaylistsListScreen.js

@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback, useRef, useMemo, startTransition } from 'react';
 import {
-  View, Text, Animated, TouchableOpacity, Pressable, Modal, Linking,
+  View, Text, Animated, TouchableOpacity, Pressable, Modal, Linking, Image,
   ScrollView, StyleSheet, Dimensions, Platform, TextInput, useWindowDimensions,
   ActivityIndicator, InteractionManager,
 } from 'react-native';
@@ -94,6 +94,51 @@ function isFullWall(cats) {
   if (!Array.isArray(cats)) return false;
   return cats.filter((c) => c && c.items && c.items.length > 0).length >= WALL_MIN_ROWS;
 }
+
+// FEATURED / Coming Soon (B 2026-06-30): VOIDtv's first original-creator promo, pinned at the very top
+// of the wall. Config-driven — set FEATURED to null to remove; swap image/title to update; add a
+// `video` URL later to make the card playable. The seed of a creators lane.
+const FEATURED = {
+  id: 'featured_jasen',
+  title: 'Jasen Wrestles With Life',
+  creator: 'a new creator',
+  badge: 'COMING SOON',
+  tagline: 'A comedy skit show. Watch Jasen try to pin rent, bills, and his own future self. He is losing.',
+  image: 'https://api.voidtv.net/static/featured/jasen.webp',
+};
+
+function FeaturedCard({ data, accent, onPress }) {
+  const { width: ww } = useWindowDimensions();
+  if (!data) return null;
+  const isDesk = ww > 900;
+  const w = Math.max(280, ww - spacing.screenPadding * 2);
+  const h = Math.min(Math.round(w * (isDesk ? 0.34 : 0.60)), isDesk ? 360 : 300);
+  return (
+    <View style={{ paddingHorizontal: spacing.screenPadding, marginBottom: 16, marginTop: 4 }}>
+      <TouchableOpacity activeOpacity={0.92} onPress={onPress} style={[fcStyles.card, { height: h, borderColor: accent + '55' }]}>
+        <Image source={{ uri: data.image }} style={StyleSheet.absoluteFill} resizeMode="cover" />
+        <LinearGradient colors={['transparent', 'rgba(8,8,11,0.35)', 'rgba(8,8,11,0.92)']} style={StyleSheet.absoluteFill} />
+        <View style={[fcStyles.badge, { backgroundColor: accent }]}>
+          <Text style={fcStyles.badgeText}>{data.badge}</Text>
+        </View>
+        <View style={fcStyles.meta}>
+          <Text style={fcStyles.title} numberOfLines={1}>{data.title}</Text>
+          <Text style={fcStyles.tagline} numberOfLines={2}>{data.tagline}</Text>
+          <Text style={[fcStyles.creator, { color: accent }]}>from {data.creator}</Text>
+        </View>
+      </TouchableOpacity>
+    </View>
+  );
+}
+const fcStyles = StyleSheet.create({
+  card: { width: '100%', borderRadius: radius.md, overflow: 'hidden', borderWidth: 1, backgroundColor: colors.surface },
+  badge: { position: 'absolute', top: 12, left: 12, paddingHorizontal: 10, paddingVertical: 4, borderRadius: 4 },
+  badgeText: { fontFamily: fonts.monoBold, fontSize: 10, letterSpacing: 1.5, color: '#000' },
+  meta: { position: 'absolute', left: 16, right: 16, bottom: 14 },
+  title: { fontFamily: fonts.sansSemiBold, fontSize: 22, color: '#fff' },
+  tagline: { fontFamily: fonts.sans, fontSize: 13, color: 'rgba(255,255,255,0.82)', marginTop: 3 },
+  creator: { fontFamily: fonts.mono, fontSize: 11, letterSpacing: 1, marginTop: 6 },
+});
 
 export default function HomeScreen({ navigation, route }) {
   const insets = useSafeAreaInsets();
@@ -600,6 +645,7 @@ export default function HomeScreen({ navigation, route }) {
   const wallData = useMemo(() => {
     const out = [];
     const len = visibleTypeCats.length;
+    if (FEATURED && !kidsMode) out.push({ k: 'featured', type: 'featured' }); // first original-creator promo, pinned on top
     // JOB_14: the active theme pins its crate into the wall at theme.slot (after that many
     // category rows) and out of its normal position. B's ruling 2026-06-11: gems never LEAD
     // the wall; recency-first is the face, the pin is a discovery a few rows in (default 5).
@@ -632,6 +678,19 @@ export default function HomeScreen({ navigation, route }) {
   const wallKeyExtractor = useCallback((entry) => entry.k, []);
 
   const renderWallItem = useCallback(({ item: entry }) => {
+    if (entry.type === 'featured') {
+      return (
+        <FeaturedCard
+          data={FEATURED}
+          accent={accent}
+          onPress={() => {
+            if (Platform.OS === 'web' && typeof window !== 'undefined' && window.alert) {
+              window.alert(FEATURED.title + '\n\nComing soon. ' + FEATURED.tagline);
+            }
+          }}
+        />
+      );
+    }
     if (entry.type === 'theme') {
       return (
         <View style={{ marginBottom: 10 }}>
