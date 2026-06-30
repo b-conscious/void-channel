@@ -744,6 +744,15 @@ app.get("/api/categories", async (req, res) => {
           .map((c) => archive.MODERN_LABELS[c.id] ? { ...c, ...archive.MODERN_LABELS[c.id] } : c);  // clean genre names
         if (tiered.length < 4) tiered = base.filter((c) => c && wallIds.has(c.id));  // guard: never blank
         tiered = archive.applyWallRecencyFloor(tiered, 1985);  // mid-80s -> current (fuller, captures the 80s/90s entertainment IA actually has)
+        // Premium from the Past — HBO/Showtime-era prestige TV, surfaced via a tuned title query
+        // (IA buries it in search ranking). sort:'downloads desc' makes it floor-exempt + ranked.
+        // Bonus row: a fetch failure must never block the wall.
+        try {
+          const prem = await archive.search(archive.PREMIUM_QUERY, 24, 1, 'downloads desc');
+          if (Array.isArray(prem) && prem.length >= 3) {
+            tiered = [{ id: 'premium_past', name: 'Premium from the Past', subtitle: 'HBO, Showtime & premium-cable series', sort: 'downloads desc', items: prem }, ...tiered];
+          }
+        } catch (e) { /* premium is a bonus row; never block the wall on it */ }
       } else {
         tiered = base.filter((c) => c && wallIds.has(c.id));                          // the tight wall
         if (tiered.length < 5) tiered = base;                                         // guard: never blank the wall

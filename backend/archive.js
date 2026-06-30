@@ -39,9 +39,9 @@ const MATURE_TITLE_RE = new RegExp([
   // explicit markers that slipped the wall (B 2026-06-28): "(NSFW)" + the "NFSW" misspelling,
   // "Uncensored"/"decensored" adult re-cuts, and the notorious "Boku no Pico".
   '\\bnsfw\\b', '\\bnfsw\\b', 'uncensored', 'decensored', 'boku no pico',
-  // adult-anime / ecchi & fetish terms that leaked onto the wall (B 2026-06-28): succubus/incubus
-  // "lessons", aphrodisiac, vore, etc.
-  'succubus', 'incubus', 'aphrodisiac', 'ahegao', '\\blewd\\b', 'doujin', 'eroge', '\\bvore\\b', 'fanservice',
+  // genuinely-explicit adult-anime terms only (B 2026-06-28: do NOT hedge onto legit content -
+  // dropped 'incubus'/'succubus'/'fanservice', which caught real films like the 1966 Incubus).
+  'aphrodisiac', 'ahegao', '\\blewd\\b', 'doujin', 'eroge', '\\bvore\\b',
 ].join('|'), 'i');
 
 // Exclude news/politics/current-events bleed from entertainment categories.
@@ -803,6 +803,11 @@ const MODERN_LABELS = {
   comedy:         { name: 'Comedy',        subtitle: 'Stand-up, sketch, and sitcom comedy' },
   documentary:    { name: 'Documentaries', subtitle: 'Real stories' },
 };
+// Premium from the Past (B 2026-06-28): HBO/Showtime/premium-cable series. IA HAS these but its
+// search RANKING buries them under junk, so we surface them with a tuned title query (live-fetched,
+// not pooled) and pin them as a Modern row. Not NSFW-excluded - it's the humanity window; adult
+// premium (e.g. HBO's "Real Sex") rides along and corrals behind the 18+ door in the default view.
+const PREMIUM_QUERY = 'title:("Sopranos" OR "Six Feet Under" OR "The Wire" OR "Deadwood" OR "Carnivale" OR "Tales from the Crypt" OR "Mr. Show" OR "Larry Sanders" OR "Curb Your Enthusiasm" OR "Entourage" OR "Dream On" OR "Sex and the City" OR "Tales from the Darkside" OR "Dexter" OR "Real Sex") AND mediatype:(movies)';
 for (const cat of CATEGORIES) {
   cat.wall = WALL_IDS.has(cat.id);
   // Skip the "category specifics": deep cuts, dedicated shows, decade rows — left as authored.
@@ -2074,6 +2079,7 @@ module.exports = {
   applyWallRecencyFloor,
   MODERN_IDS,
   MODERN_LABELS,
+  PREMIUM_QUERY,
   setExtraExcludes,
   searchCollection,
   searchCreator,
