@@ -64,6 +64,26 @@ let lastGoodCategories = {};
 let lastGoodWall = {};
 const WALL_MIN_ROWS = 8;
 const rowsWithItems = (arr) => (Array.isArray(arr) ? arr : []).filter((c) => c && (c.items || []).length > 0).length;
+// No cross-row repeats (B 2026-06-28): a film tagged in two genres (or pulled into Most Popular)
+// would otherwise show in two rows. Walk rows in DISPLAY order - first row to show an item keeps it,
+// later rows drop it; rows emptied by dedup fall away. Keyed by base id (strip :N segment suffixes).
+function dedupeRows(cats) {
+  if (!Array.isArray(cats)) return cats;
+  const seen = new Set();
+  const out = [];
+  for (const c of cats) {
+    if (!c || !Array.isArray(c.items)) { if (c) out.push(c); continue; }
+    const items = [];
+    for (const it of c.items) {
+      const b = String((it && it.id) || '').replace(/:\d+$/, '');
+      if (!b || seen.has(b)) continue;
+      seen.add(b);
+      items.push(it);
+    }
+    if (items.length > 0) out.push({ ...c, items });
+  }
+  return out;
+}
 // Persist the last full wall across restarts. In-memory lastGoodWall is empty on a fresh deploy/
 // restart, so the warm-up rebuilds thin for ~60s (B's recurring "where did the rows go" = the
 // deploy warm window). Saved to Redis (L2) on every healthy wall + restored on boot, the thin-guard
@@ -771,7 +791,7 @@ app.get("/api/categories", async (req, res) => {
         if (tiered.length < 5) tiered = base;                                         // guard: never blank the wall
         tiered = archive.applyWallRecencyFloor(tiered);                               // color-era floor
       }
-      const out = archive.applyEraLean(tiered, gen); // always the VOID newest lean now (gen ignored inside)
+      let out = archive.applyEraLean(tiered, gen); // always the VOID newest lean now (gen ignored inside)
       // MATURE-BY-TITLE CORRAL (B 2026-06-28): the wall drops mature CATEGORIES, but an adult-TITLED
       // upload can ride inside a SAFE category (an NSFW clip in the anime collection). Screen those
       // off the wall tier. The wall's cats are all non-mature and the gated 18+ view uses a different
@@ -785,6 +805,7 @@ app.get("/api/categories", async (req, res) => {
           });
         }
       }
+      out = dedupeRows(out); // no cross-row repeats: a video shows in at most one row
       // THIN-WALL GUARD: never cache (server OR Cloudflare edge) a thin wall from a warm/blip; that
       // 20-min poisoning is what showed "2/4 rows". Serve the last full wall instead when thin.
       // One shared last-good bucket now (uniform lean): a thin request falls back to ANY client's
