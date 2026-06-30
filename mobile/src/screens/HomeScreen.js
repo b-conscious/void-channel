@@ -129,18 +129,24 @@ function FeaturedCard({ data, accent, onPress }) {
   }, [imgs.length]);
   if (!data || imgs.length === 0) return null;
   const isDesk = ww > 900;
-  const avail = Math.max(280, ww - spacing.screenPadding * 2);
-  const cardW = isDesk ? Math.min(avail, 720) : avail;
-  const imgH = Math.round(cardW * (896 / 1200)); // poster's native ratio: shown whole, no words cropped
+  const cardW = Math.max(280, isDesk ? Math.min(ww - spacing.screenPadding * 2, 960) : (ww - spacing.screenPadding * 2));
+  const stageH = Math.round((cardW * 9) / 16); // bigger, cinematic 16:9; the 4:3 poster sits inside, sides blur-filled
+  const blurBg = [StyleSheet.absoluteFill, { opacity: fade, transform: [{ scale: 1.2 }] }, Platform.OS === 'web' ? { filter: 'blur(26px)' } : null];
   return (
     <View style={{ paddingHorizontal: spacing.screenPadding, marginTop: 6, marginBottom: 18, alignItems: 'center' }}>
       <TouchableOpacity activeOpacity={0.92} onPress={onPress} style={[fcStyles.card, { width: cardW, borderColor: accent + '55' }]}>
-        <Animated.Image source={{ uri: imgs[idx] }} style={{ width: '100%', height: imgH, opacity: fade }} resizeMode="cover" />
-        {imgs.length > 1 && (
-          <View style={fcStyles.dots}>
-            {imgs.map((_, i) => <View key={i} style={[fcStyles.dot, i === idx && { backgroundColor: accent, opacity: 1 }]} />)}
-          </View>
-        )}
+        <View style={{ width: '100%', height: stageH, backgroundColor: '#000', overflow: 'hidden' }}>
+          {/* blurred, zoomed copy fills the side gaps so there are no black bars */}
+          <Animated.Image source={{ uri: imgs[idx] }} style={blurBg} resizeMode="cover" blurRadius={Platform.OS === 'web' ? 0 : 18} />
+          <View style={[StyleSheet.absoluteFill, { backgroundColor: 'rgba(8,8,11,0.28)' }]} />
+          {/* the full poster, uncropped, centered on top */}
+          <Animated.Image source={{ uri: imgs[idx] }} style={[StyleSheet.absoluteFill, { opacity: fade }]} resizeMode="contain" />
+          {imgs.length > 1 && (
+            <View style={fcStyles.dots}>
+              {imgs.map((_, i) => <View key={i} style={[fcStyles.dot, i === idx && { backgroundColor: accent, opacity: 1 }]} />)}
+            </View>
+          )}
+        </View>
         <View style={fcStyles.caption}>
           <View style={[fcStyles.badge, { backgroundColor: accent }]}><Text style={fcStyles.badgeText}>{data.badge}</Text></View>
           <Text style={fcStyles.title} numberOfLines={1}>{data.title}</Text>
