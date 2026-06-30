@@ -236,7 +236,7 @@ export default function DrawerMenu({ nav }) {
                   try { localStorage.setItem(K, '1'); } catch (e) {}
                 }
                 closeDrawer();
-                nav.navigate('Section', { tier: 'adult', title: 'After Dark', adult: 1 });
+                nav.navigate('Section', { tier: 'adult', title: 'Porn Through the Ages', subtitle: 'Human sexuality as media, walked through the eras. Reachable, unashamed, never a porn feed.', adult: 1 });
               }}
               activeOpacity={0.7}
             >
