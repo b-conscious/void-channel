@@ -784,24 +784,21 @@ const WALL_IDS = new Set([
 // MODERN MODE content set (B 2026-06-28; default mode, 90s-current). Genre/format rows for the
 // "modern shows & movies app" face, recency-floored to 1990 in the tier handler (server.js). Same
 // backend, player, search - a cleaner content lens; everything else stays in Void mode + search.
+// Reoriented to "genuinely entertaining + wanted" (B 2026-06-28): the curated entertainment set, not
+// a broad genre dump. READY rows below; "Adult Humor" + "Past Premium Programming" are pending new
+// query-backed cats (content depth on IA still to be tested).
 const MODERN_IDS = new Set([
-  'feature_length', 'tv_movies', 'anime', 'documentary', 'comedy',
-  'violence', 'horror', 'scifi', 'romance', 'foreign', 'nature_wildlife',
+  'feature_length', 'tv_movies', 'cartoons', 'anime', 'comedy', 'documentary',
 ]);
-// Clean genre labels for Modern Mode (the Void names are flavored: "Drive-In Horror", "Retro Sci-Fi",
-// "Action & Violence"). Applied only in the modern tier; the Void wall keeps its character.
+// Clean genre labels for Modern Mode (the Void names are flavored: "Classic Cartoons", "Drive-In
+// Horror"). Applied only in the modern tier; the Void wall keeps its character.
 const MODERN_LABELS = {
-  feature_length:  { name: 'Movies',         subtitle: 'Feature-length films' },
-  tv_movies:       { name: 'TV',             subtitle: 'Series and made-for-TV' },
-  anime:           { name: 'Anime',          subtitle: 'Japanese animation' },
-  documentary:     { name: 'Documentaries',  subtitle: 'Real stories' },
-  comedy:          { name: 'Comedy',         subtitle: 'Laughs across the genre' },
-  violence:        { name: 'Action',         subtitle: 'Stunts, fights, thrillers' },
-  horror:          { name: 'Horror',         subtitle: 'Scares and the supernatural' },
-  scifi:           { name: 'Sci-Fi',         subtitle: 'Space, the future, the unreal' },
-  romance:         { name: 'Romance',        subtitle: 'Love stories' },
-  foreign:         { name: 'International',   subtitle: 'Films from around the world' },
-  nature_wildlife: { name: 'Nature',         subtitle: 'Wildlife and the natural world' },
+  feature_length: { name: 'Movies',        subtitle: 'Feature-length films' },
+  tv_movies:      { name: 'Sitcoms',       subtitle: 'Series and sitcoms' },
+  cartoons:       { name: 'Cartoons',      subtitle: 'Animation' },
+  anime:          { name: 'Anime',         subtitle: 'Japanese animation' },
+  comedy:         { name: 'Comedy',        subtitle: 'Stand-up, sketch, and sitcom comedy' },
+  documentary:    { name: 'Documentaries', subtitle: 'Real stories' },
 };
 for (const cat of CATEGORIES) {
   cat.wall = WALL_IDS.has(cat.id);

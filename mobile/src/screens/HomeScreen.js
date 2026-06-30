@@ -587,9 +587,8 @@ export default function HomeScreen({ navigation, route }) {
       out.push({ k: 'cat_' + cat.id, type: 'cat', cat, idx });
       catCount++;
       if (themedCat && catCount === themeSlot) out.push({ k: 'theme_' + themedCat.id, type: 'theme', cat: themedCat });
-      // Void Snacks AFTER the first category row, then every 3 (idx 0,3,6…); each rotated.
-      // KIDS: no snacks (they are literally commercials), no Dial (raw channel queues).
-      if (!kidsMode && shorts.length > 0 && (idx % 3 === 0) && idx < len - 1) out.push({ k: 'snack_' + idx, type: 'snack', idx });
+      // Void Snacks REMOVED 2026-06-28 (B: vestigial, ate wall space + added confusion). No snack row
+      // is injected anymore; the getShorts fetch + ShortsRow component remain dead-but-harmless.
       // Continue Watching — sits under the first Void Snacks row. NEVER in kids: local
       // history can hold adult items watched before the toggle.
       if (!kidsMode && idx === 0 && history.length > 0) out.push({ k: 'continue', type: 'continue' });
