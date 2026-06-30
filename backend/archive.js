@@ -1982,7 +1982,7 @@ function hardExcludes() {
 // have to be killed one identifier at a time. Applies to EVERY curated surface AND search (unlike
 // the junk/quality filters, which leave search raw) - this is a legal/safety line, same posture as
 // kids-fail-closed, NOT the rights/ethics-of-others filtering. High-precision terms only.
-const CSA_BLOCK_RE = /b[oø]rneporno|kinderporno|child\s*porn|childporn|child pornography|kiddie\s*porn|viols?\s*d['’]enfants?|p[ée]dophil|paedophil|lolicon|shotacon|jailbait|\bcsam\b|child\s+(?:sex|sexual)\s*abuse|under\s?age\s+(?:sex|nude|porn)|minors?\s+(?:sex|nude|porn)/i;
+const CSA_BLOCK_RE = /b[oø]rneporno|kinderporno|child\s*porn|childporn|child pornography|kiddie\s*porn|viols?\s*d['’]enfants?|p[ée]dophil|paedophil|lolicon|shotacon|jailbait|\bcsam\b|child\s+(?:sex|sexual)\s*abuse|child\s*molest|under\s?age\s+(?:sex|nude|porn)|minors?\s+(?:sex|nude|porn)/i;
 function isCSATitle(it) {
   const t = Array.isArray(it && it.title) ? it.title[0] : (it && it.title);
   return !!t && CSA_BLOCK_RE.test(String(t));
