@@ -17,7 +17,7 @@ import api from '../api/client';
 import { colors, fonts, spacing } from '../theme';
 
 export default function SectionScreen({ route, navigation }) {
-  const { tier, title, adult } = route.params || {};
+  const { tier, title, subtitle, adult } = route.params || {};
   const { gen, generationId } = useGeneration();
   const accent = gen?.accentColor || colors.amber;
   const insets = useSafeAreaInsets();
@@ -50,6 +50,7 @@ export default function SectionScreen({ route, navigation }) {
     <View style={[styles.container, { paddingTop: insets.top + HEADER_H + 8 }]}>
       <View style={styles.header}>
         <Text style={[styles.title, { color: accent }]}>{String(title || 'SECTION').toUpperCase()}</Text>
+        {subtitle ? <Text style={styles.subtitle}>{subtitle}</Text> : null}
       </View>
       {loading ? (
         <View style={styles.center}><ActivityIndicator color={accent} size="large" /></View>
@@ -76,6 +77,7 @@ const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: colors.bg },
   header: { paddingHorizontal: spacing.screenPadding, paddingBottom: 10 },
   title: { fontFamily: fonts.monoBold, fontSize: 16, letterSpacing: 2 },
+  subtitle: { fontFamily: fonts.sans, fontSize: 12, color: colors.textMuted, marginTop: 4, lineHeight: 16 },
   center: { flex: 1, justifyContent: 'center', alignItems: 'center' },
   empty: { fontFamily: fonts.mono, fontSize: 12, color: colors.textMuted },
 });

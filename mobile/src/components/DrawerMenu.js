@@ -180,11 +180,11 @@ export default function DrawerMenu({ nav }) {
                 (tier:'vault'). Demoted, not deleted: still here, still searchable. */}
             <TouchableOpacity
               style={drawerStyles.menuItem}
-              onPress={() => { closeDrawer(); nav.navigate('Section', { tier: 'vault', title: 'The Stacks' }); }}
+              onPress={() => { closeDrawer(); nav.navigate('Section', { tier: 'vault', title: 'The Stacks', subtitle: 'The full deep archive: every weird, obscure, and deep-cut row that lives off the main wall. Demoted, never deleted.' }); }}
               activeOpacity={0.7}
             >
               <Ionicons name="layers-outline" size={18} color={accent} style={{ width: 28 }} />
-              <Text style={drawerStyles.menuLabel}>THE STACKS</Text>
+              <Text style={drawerStyles.menuLabel}>THE STACKS  ·  DEEP ARCHIVE</Text>
             </TouchableOpacity>
             {/* HISTORY (B 2026-06-11): straight to the watch history, expanded */}
             <TouchableOpacity

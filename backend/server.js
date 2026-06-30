@@ -739,7 +739,9 @@ app.get("/api/categories", async (req, res) => {
       } else if (tier === 'adult') {
         // After Dark (B 2026-06-28): the adult section on its OWN page, off the commercial wall.
         // Needs adult=1 (the 18+ acknowledgment) so matureOk keeps the mature cats in `base`.
-        tiered = base.filter((c) => c && c.mature);
+        // De-flood it: one uploader was dumping dozens of numbered "Sissy Clip ##" into a row, so
+        // cap per-series (diversify) - reads curated, not a raw single-uploader spam dump.
+        tiered = base.filter((c) => c && c.mature).map((c) => ({ ...c, items: archive.diversify(c.items || [], 2) }));
       } else if (tier === 'modern') {
         // MODERN MODE (B 2026-06-28): the "modern shows & movies app" face. Curated genre/format rows
         // (archive.MODERN_IDS), recency-floored to 1990 so it reads as a current streaming catalog.

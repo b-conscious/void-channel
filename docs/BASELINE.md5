@@ -34,7 +34,7 @@ b8633bdfba4cf8032f2d597f5c7b3960 *./backend/schema-archivist.sql
 d44519af97a967977cb5e80bec2a6266 *./backend/schema-phase2.sql
 204023ab272655ee5e915858ee6b17ae *./backend/schema-rls-audit.sql
 145e8214611674d5c9bfdc3178f9e901 *./backend/schema.sql
-dd5109b3c8dec8432df5806b3d6c12c4 *./backend/server.js
+92ea9093f6b1faf8184eea2d3a05768f *./backend/server.js
 0d900637f7eaef0616ea093f764c69b3 *./backend/subscriptions.js
 9919afcaaa607a0a565e18cebab35cc8 *./backend/supabase.js
 d0cfc95d76f0280450a5510b63efa38b *./backend/sync.js
@@ -114,7 +114,7 @@ f5e0e47487297c6efa7ae5c40bb3d3d7 *./mobile/src/components/AddToPlaylistModal.js
 aad2db204845ccb9472af4b227ad39f4 *./mobile/src/components/CategoryRow.js
 12f27a8f11665ef02ca1f6dfb5abd93f *./mobile/src/components/DailyBountyCard.js
 b826443fac86406b9ca194e93d2fa102 *./mobile/src/components/DialRow.js
-b8aac0c36d01e36af75086ea1b7c0fa6 *./mobile/src/components/DrawerMenu.js
+3ed73b537cc9f786c2533b43ad6669ac *./mobile/src/components/DrawerMenu.js
 47fe52531e8b1ceb004ef589d2553724 *./mobile/src/components/FastImage.js
 a6335e1036f55fa70290b7a4571f70b3 *./mobile/src/components/MediaCard.js
 24ca9d80a6da34b0616e3789430dc016 *./mobile/src/components/SearchBar.js
@@ -145,7 +145,7 @@ e638add4a6fb4dfa8c8098f40b13150e *./mobile/src/screens/PlayerScreen.js
 d2f5edf67a92e076561fff07838e325f *./mobile/src/screens/PlaylistScreen.js
 01b9b295dbc34b85a07a7c54fcdee472 *./mobile/src/screens/PlaylistsListScreen.js
 fde80170c4553b1a44dd4db3f715e855 *./mobile/src/screens/SearchScreen.js
-9ef6e89e41fa6784f4ef26ec34a71dd0 *./mobile/src/screens/SectionScreen.js
+6765b9bb8c860e77bf2d1138db5dac2c *./mobile/src/screens/SectionScreen.js
 88fe349ed92045b9f056e36b38f950ca *./mobile/src/screens/SignalScreen.js
 88be26f85ac2dce5c795a47fe61b13e4 *./mobile/src/screens/WatchlistScreen.js
 33da3b7fc18b5565dfd07883ed4f1db8 *./mobile/src/shims/reanimated-web.js
