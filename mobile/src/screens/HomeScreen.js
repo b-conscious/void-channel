@@ -107,12 +107,12 @@ const FEATURED = {
   image: 'https://api.voidtv.net/static/featured/jasen.webp',
 };
 
-function FeaturedCard({ data, accent, onPress }) {
+function FeaturedCard({ data, accent, height, onPress }) {
   const { width: ww } = useWindowDimensions();
   if (!data) return null;
   const isDesk = ww > 900;
   const w = Math.max(280, ww - spacing.screenPadding * 2);
-  const h = Math.min(Math.round(w * (isDesk ? 0.34 : 0.60)), isDesk ? 360 : 300);
+  const h = height || Math.min(Math.round(w * (isDesk ? 0.34 : 0.60)), isDesk ? 360 : 300);
   return (
     <View style={{ paddingHorizontal: spacing.screenPadding, marginBottom: 16, marginTop: 4 }}>
       <TouchableOpacity activeOpacity={0.92} onPress={onPress} style={[fcStyles.card, { height: h, borderColor: accent + '55' }]}>
@@ -645,7 +645,6 @@ export default function HomeScreen({ navigation, route }) {
   const wallData = useMemo(() => {
     const out = [];
     const len = visibleTypeCats.length;
-    if (FEATURED && !kidsMode) out.push({ k: 'featured', type: 'featured' }); // first original-creator promo, pinned on top
     // JOB_14: the active theme pins its crate into the wall at theme.slot (after that many
     // category rows) and out of its normal position. B's ruling 2026-06-11: gems never LEAD
     // the wall; recency-first is the face, the pin is a discovery a few rows in (default 5).
@@ -678,19 +677,6 @@ export default function HomeScreen({ navigation, route }) {
   const wallKeyExtractor = useCallback((entry) => entry.k, []);
 
   const renderWallItem = useCallback(({ item: entry }) => {
-    if (entry.type === 'featured') {
-      return (
-        <FeaturedCard
-          data={FEATURED}
-          accent={accent}
-          onPress={() => {
-            if (Platform.OS === 'web' && typeof window !== 'undefined' && window.alert) {
-              window.alert(FEATURED.title + '\n\nComing soon. ' + FEATURED.tagline);
-            }
-          }}
-        />
-      );
-    }
     if (entry.type === 'theme') {
       return (
         <View style={{ marginBottom: 10 }}>
@@ -787,20 +773,33 @@ export default function HomeScreen({ navigation, route }) {
         showsVerticalScrollIndicator={false}
         ListHeaderComponent={
           <>
-        {/* Hero */}
-        <HeroCard
-          item={safeHeroItem}
-          loading={loading}
-          insetTop={insets.top}
-          loadingMsg={loadingMsg}
-          tagline={tagline}
-          gen={gen}
-          accent={accent}
-          onPress={handleHeroPress}
-          onRandom={handleRandom}
-          contentW={contentW}
-          heroH={heroH}
-        />
+        {/* Showcase: a Featured promo OWNS the top slot when set (B 2026-06-30); else the rotating hero */}
+        {(FEATURED && !kidsMode) ? (
+          <FeaturedCard
+            data={FEATURED}
+            accent={accent}
+            height={heroH}
+            onPress={() => {
+              if (Platform.OS === 'web' && typeof window !== 'undefined' && window.alert) {
+                window.alert(FEATURED.title + '\n\nComing soon. ' + FEATURED.tagline);
+              }
+            }}
+          />
+        ) : (
+          <HeroCard
+            item={safeHeroItem}
+            loading={loading}
+            insetTop={insets.top}
+            loadingMsg={loadingMsg}
+            tagline={tagline}
+            gen={gen}
+            accent={accent}
+            onPress={handleHeroPress}
+            onRandom={handleRandom}
+            contentW={contentW}
+            heroH={heroH}
+          />
+        )}
 
         {/* Wake Up Server */}
         {serverSleeping && (
