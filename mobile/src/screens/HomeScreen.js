@@ -388,14 +388,39 @@ export default function HomeScreen({ navigation, route }) {
     await loadCategories("repopulate"); // pulls genuinely fresh content via the fast path
   }, [loadCategories]);
 
+  // The hero is the storefront window (B 2026-06-28): it has to GRAB, or nobody scrolls. So instead
+  // of a random pick (which kept landing on conspiracy docs / obscure uploads), SCORE candidates and
+  // choose from the strongest few — marquee genre + has artwork + proven popularity + a real title —
+  // with enough spread that it still rotates each launch.
+  const HERO_MARQUEE = new Set([
+    'feature_length', 'premium_past', 'most_popular', 'movies',
+    'anime', 'horror', 'scifi', 'comedy', 'tv_movies', 'violence', 'action', 'cartoons',
+  ]);
   function pickHero(cats) {
-    // Pick from a random non-empty category so the hero rotates each launch
-    const eligible = cats.filter((c) => c.items?.length > 0);
+    const eligible = (cats || []).filter((c) => c && c.items && c.items.length > 0);
     if (eligible.length === 0) return;
-    const cat = eligible[Math.floor(Math.random() * eligible.length)];
-    const item = cat.items[Math.floor(Math.random() * Math.min(cat.items.length, 6))];
-    heroCategoryIdRef.current = cat.id;
-    setHeroItem(item);
+    const pool = [];
+    for (const c of eligible) {
+      const marquee = HERO_MARQUEE.has(c.id);
+      for (const it of c.items.slice(0, 8)) {
+        if (it && it.id) pool.push({ it, cat: c, marquee });
+      }
+    }
+    if (pool.length === 0) return;
+    const score = (e) => {
+      const it = e.it;
+      let s = e.marquee ? 50 : 0;
+      if (it.thumbnail) s += 30;                              // a hero with no image is dead
+      s += Math.min(40, Math.log10((Number(it.downloads) || 0) + 1) * 8); // popular = proven draw, capped
+      const t = String(Array.isArray(it.title) ? it.title[0] : (it.title || ''));
+      if (t.length >= 8 && t.length <= 80) s += 10;           // a real, readable title
+      return s;
+    };
+    const ranked = pool.map((e) => ({ e, s: score(e) })).sort((a, b) => b.s - a.s);
+    const top = ranked.slice(0, 8);                            // rotate among the strongest few
+    const pick = top[Math.floor(Math.random() * top.length)].e;
+    heroCategoryIdRef.current = pick.cat.id;
+    setHeroItem(pick.it);
   }
 
   useEffect(() => { loadCategories(); loadCategoriesRef.current = loadCategories; }, [loadCategories]);
