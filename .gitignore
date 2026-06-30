@@ -18,3 +18,7 @@ backend-error.log
 mobile/.env
 backend/.env
 .env
+
+_*.json
+_retest.js
+_livetest.js
