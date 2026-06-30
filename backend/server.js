@@ -657,7 +657,7 @@ app.get("/api/categories", async (req, res) => {
     const timeBucket = Math.floor(Date.now() / (20 * 60 * 1000));
     // Tight home wall vs the Vault (everything else). tier rides the processed-payload cache key
     // (the raw baseKey stays tier-agnostic — one fetch feeds both tiers).
-    const tier = (req.query.tier === 'vault' || req.query.tier === 'hindi') ? req.query.tier : 'wall';
+    const tier = (req.query.tier === 'vault' || req.query.tier === 'hindi' || req.query.tier === 'modern') ? req.query.tier : 'wall';
     const baseKey = `all_categories:none:${timeBucket}`;
     // One identity now (VOID): the lean is uniform for everyone, so the processed wall is shared
     // across all clients — one cache entry per tier (no per-gen fan-out, which fed the genKey churn).
@@ -736,6 +736,13 @@ app.get("/api/categories", async (req, res) => {
         tiered = base.filter((c) => c && c.group === 'hindi');                        // the Hindi section
       } else if (tier === 'vault') {
         tiered = base.filter((c) => c && !wallIds.has(c.id) && c.group !== 'hindi');  // everything else
+      } else if (tier === 'modern') {
+        // MODERN MODE (B 2026-06-28): the "modern shows & movies app" face. Curated genre/format rows
+        // (archive.MODERN_IDS), recency-floored to 1990 so it reads as a current streaming catalog.
+        // Same skin/player/search; just a cleaner content lens. fail-open if the set somehow misses.
+        tiered = base.filter((c) => c && archive.MODERN_IDS.has(c.id));
+        if (tiered.length < 4) tiered = base.filter((c) => c && wallIds.has(c.id));  // guard: never blank
+        tiered = archive.applyWallRecencyFloor(tiered, 1990);
       } else {
         tiered = base.filter((c) => c && wallIds.has(c.id));                          // the tight wall
         if (tiered.length < 5) tiered = base;                                         // guard: never blank the wall
@@ -746,7 +753,7 @@ app.get("/api/categories", async (req, res) => {
       // upload can ride inside a SAFE category (an NSFW clip in the anime collection). Screen those
       // off the wall tier. The wall's cats are all non-mature and the gated 18+ view uses a different
       // path, so this never touches it. Corral not censor: items stay in search + behind the gate.
-      if (tier === 'wall') {
+      if (tier === 'wall' || tier === 'modern') {
         for (const c of out) {
           if (!c || !Array.isArray(c.items)) continue;
           c.items = c.items.filter((it) => {

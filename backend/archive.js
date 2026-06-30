@@ -780,6 +780,15 @@ const WALL_IDS = new Set([
   'anime', 'documentary', 'banned', 'conspiracy',
   // music_video (Music Videos & Concerts) pulled off the wall 2026-06-28 (B); still searchable + in the Vault.
 ]);
+
+// MODERN MODE content set (B 2026-06-28): the "modern shows & movies app" face. A curated subset of
+// genre/format rows, recency-floored to 1990 in the tier handler (server.js). Same backend, player,
+// and search - just a cleaner content lens reached via the Modern toggle; everything else stays in
+// Void mode + search.
+const MODERN_IDS = new Set([
+  'feature_length', 'tv_movies', 'anime', 'documentary', 'comedy', 'violence',
+  'horror', 'scifi', 'romance',
+]);
 for (const cat of CATEGORIES) {
   cat.wall = WALL_IDS.has(cat.id);
   // Skip the "category specifics": deep cuts, dedicated shows, decade rows — left as authored.
@@ -2049,6 +2058,7 @@ module.exports = {
   getAllCategories,
   applyEraLean,
   applyWallRecencyFloor,
+  MODERN_IDS,
   setExtraExcludes,
   searchCollection,
   searchCreator,
