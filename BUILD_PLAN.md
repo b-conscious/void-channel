@@ -58,7 +58,38 @@ empty / only N rows," which turned out to be **several distinct causes**, all no
 - **UP NEXT window** — currently ±0 newer cap, 15-yr lookback; tighten to same-decade or cap newer if wanted; exempt same-collection tier for old-series continuity if wanted.
 - **Supabase Anonymous Sign-Ins** still OFF (pre-existing, §2).
 
+## 18. SESSION 2026-06-28/29 (cont.) — Modern as DEFAULT, de-gate, After Dark, Ideas, promote-prep
 
+Big arc: VOIDtv reoriented from "weird-old-TV wall" into a **modern shows & movies app by default**,
+with the weird/adult/deep content moved into clearly-labeled lanes. Commit range `…3013c71 → 3759340`.
+
+### The new shape (what a visitor gets)
+- **Entry disclaimer** (`VoidIntro.js`): the humanity-window / 18+ notice, "ENTER THE VOID". Entering = acknowledgment.
+- **MODERN is the DEFAULT** (`ModernModeContext`, defaults on; `@void_mode`); **Void** is the opt-in drawer toggle. Modern wall = `tier=modern`: curated genre rows (`MODERN_IDS` + `MODERN_LABELS`: Movies, Sitcoms, Cartoons, Anime, Comedy, Documentaries), **recency floor 1985**, clean names.
+- **Premium from the Past** row pinned on top (`PREMIUM_QUERY`, live-fetched, **robust** via `lastGoodPremium` + Redis so it never blinks out).
+- **Ideas & Lectures** row appended (`IDEAS_QUERY`: Vaknin/Žižek/Chomsky/Watts/etc.) — the thinkers' lane, live-fetched so it bypasses the talking-head filter, robust like Premium.
+- **After Dark** = drawer door → one-time 18+ confirm (no PIN/account) → `SectionScreen` `tier=adult` (needs `adult=1`; `matureOk` now accepts it). Titled **"Porn Through the Ages"**: era journey (Stag Era → Burlesque & Pin-Up → Nudie Cuties → Sexploitation → Adult Films → Erotica & Art) via `ADULT_ROWS`, de-flooded (`diversify`). The "3rd lane" (B): human sexuality as record; **legitimate adult media incl. hardcore stays**, NOT sliced by act; off the commercial wall.
+- **The Stacks** (`tier=vault`): relabeled "THE STACKS · DEEP ARCHIVE" + an on-page explainer (SectionScreen `subtitle`). Kept separate from the wall by design (lean front vs full archive).
+- **Hero** is now SCORED (`pickHero`): marquee genre + has-art + popularity + real title, rotates among the top 8 (was random → kept landing on conspiracy/obscure).
+
+### Filtering this session (curated wall only; SEARCH stays raw)
+- **No cross-row repeats** (`dedupeRows` in server.js): a video shows in at most one row.
+- **No news / no streaming-bs** (`NEWS_NOISE_RE`): broadcast news, network brands, livestream/VOD/twitch/subathon.
+- **No talking-head** (`TALKINGHEAD_RE`, title+creator): Vaknin/GigaohmBiological lectures, "information brief", "[video version]" podcasts, Comedy Bang Bang — OFF entertainment rows but KEPT in search + the Ideas row.
+- **Void Snacks removed** from the wall.
+- **CSA block tightened**: added `child molest*` (caught "The Child Molester (1964)").
+- **Mature corral widened then TRIMMED** per B's no-hedge rule: dropped `incubus`/`succubus`/`fanservice` (were hiding legit films like the 1966 Incubus); kept genuinely-explicit terms.
+
+### Removed
+- **VOIDtv KIDS** (drawer entry; not a kids platform). **The Archivist** (FAB removed; component+backend dead-but-harmless). The old PIN/members 18+ gate (replaced by the disclaimer + 18+ confirm).
+
+### Posture locked (memory: voidtv-rights-posture)
+NO copyright/rights filtering (no ripped/branded filter). The ONLY gates: **CSA** + **hate/extremist** (B's two lines) + his kill list + mature behind the After Dark door + the quality/junk + no-news cuts. "Humanity window, won't limit out of hedging fear." Verified there's no copyright filter; the piracy-SPAM markers in JUNK_TITLE_RE (iptv/crack/keygen/etc.) remain and B can pull them if he wants.
+
+### OPEN / pending
+- **Render Build Filter** (B's dashboard, Ignored Paths `mobile/**` + `docs/**`): THE remaining blocker — Render auto-deploy lags badly all session, so backend changes take 10-18 min or need a Manual Deploy. This is now the #1 promote item.
+- **Social/OG meta cards** — none exist; a shared voidtv.net link previews bare. Needs the proper Expo-web (SDK54, metro single-output) head mechanism — a clean pass, not a guess. Promote-nice-to-have.
+- **Mobile once-over**; **graphic-death** (Dwyer) block is still B's call; Supabase anon sign-ins now largely moot (Archivist gone).
 
 ## 0. What VOIDtv is
 A discovery-first front-end for the **Internet Archive's** public-domain video, styled as
