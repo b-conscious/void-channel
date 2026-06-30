@@ -100,6 +100,7 @@ a365ecf3fb2dab3b7de98f17433982ce *./mobile/assets/voidicons/tv_show.png
 0f370f35694a06110745e7ea019ab7ce *./mobile/assets/voidtv-wordmark.png
 850905b038d7a67bb7525ae427206046 *./mobile/babel.config.js
 829d47c34c79ad0512d9efb8602e9b2e *./mobile/index.js
+afe5cbbf0f524c14d73838f6c018165a *./mobile/inject-og.js
 48fa8dce678b38c87bb03a4ad21fe068 *./mobile/metro.config.js
 048679b69a9d38fdea5b2dd84eedb9ee *./mobile/package-lock.json
 f7d05009fd85422b8dcf91f9079ed4ea *./mobile/package.json
@@ -154,7 +155,7 @@ eead806222dae987306eb35e82c3af7e *./mobile/src/store/cache.js
 734d9b9ad806da4c46dcc8d37bd0f51f *./mobile/src/store/gameStore.js
 7078bd17141e14858ae8261c9fcb5980 *./mobile/src/theme/index.js
 366dc210c862c9f6c51b78d7e51aa51c *./mobile/start-web.bat
-a09a7fa22e7624c0a5ae9e5c2d50f416 *./mobile/vercel.json
+58e188902b6f6ac14a8bdc86c7b1d793 *./mobile/vercel.json
 ec066216a413685955bf9d912b884a7d *./scripts/lock.js
 cb5d629be9e36f3de0e7c381e0d4a0f2 *./spine/.gitignore
 ebf2300bb6c3575626e54b46e9f45d9d *./spine/README.md
@@ -177,4 +178,4 @@ afa94e4d77498a7587a07bd5c6ff8e45 *./spine/sync.js
 ea6f19d38d2210030b308fbfcc93d3cc *./spine/test-fixtures.js
 31f62f73de8fcd3976eb49409feff2de *./start-prod.js
 e0cbcaa8fe3d08335d6a88876e094078 *./start-void.cmd
-1906c0584947258a610ba9c9187210f5 *./vercel.json
+27b4fc5a2f23c3dbb07f4cb8c60fdf1f *./vercel.json

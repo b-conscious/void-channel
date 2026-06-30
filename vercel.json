@@ -1,5 +1,5 @@
 {
-  "buildCommand": "cd mobile && npm install && npx expo export --platform web",
+  "buildCommand": "cd mobile && npm install && npx expo export --platform web && node inject-og.js",
   "outputDirectory": "mobile/dist",
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
