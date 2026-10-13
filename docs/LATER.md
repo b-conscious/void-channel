@@ -29,6 +29,12 @@ jumps the queue.
   link, synced play, chat strip; (4) "pick for me" and "put something on" (one card, shuffle,
   what's-on-now) for the seven-minute-scroll problem; (5) shareable lists ("my 90s starter pack");
   (6) a "Not streaming anywhere else" shelf; (7) spoiler-safe cards by default.
+- **The connoisseur (B 2026-10-13: "a small model... a movie/show connoisseur and expert").**
+  (1) Builder pass: per-show expert notes written once from our own metadata (why-this, next-three
+  on VoidTV, mood tags, best starting episode, primer for obscure shows), static, style set by B;
+  (2) live "ask the curator" via a tiny Cloudflare Worker that retrieves catalog rows and only
+  recommends what plays here (key stays server-side); (3) an optional in-browser small model for
+  privacy, later. The voice is the site's voice.
 - **One sourcing line** in the footer (Internet Archive + the TMDB credit), never per card. (2026-10-13)
 
 ## Pull after the site is live
