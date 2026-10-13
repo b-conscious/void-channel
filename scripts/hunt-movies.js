@@ -182,8 +182,10 @@ async function main() {
   const valued = new Set(['--budget', '--open', '--pause', '--min-votes', '--limit', '--kind']);
   const filter = (args.find((a, i) => !a.startsWith('--') && !valued.has(args[i - 1])) || '').toLowerCase();
   const hunted = (m) => fs.existsSync(path.join(OUT_DIR, `${slug(m.title)}-${m.year || 'x'}.json`));
-  const isKids = (m) => m.kids || (m.genres || []).some((g) => KIDS_GENRES.has(g)) || KIDS_RE.test(m.title);
-  let jobs = LIST.filter((m) => m.year && +m.year >= 1990 && !isKids(m) && !m.adult === !m.adult)
+  // Kids' TV movies are IN (B 2026-10-13: "kids movies are fine"); --no-kids excludes them if ever wanted.
+  const noKids = args.includes('--no-kids');
+  const isKids = (m) => noKids && (m.kids || (m.genres || []).some((g) => KIDS_GENRES.has(g)) || KIDS_RE.test(m.title));
+  let jobs = LIST.filter((m) => m.year && +m.year >= 1990 && !isKids(m))
     .filter((m) => (filter ? m.title.toLowerCase().includes(filter) : (m.votes || 0) >= minVotes && !hunted(m)))
     .filter((m) => (kind ? m.kind === kind : true))
     .sort((a, b) => (b.votes || 0) - (a.votes || 0)).slice(0, limit);
