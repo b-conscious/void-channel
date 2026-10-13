@@ -29,6 +29,12 @@ CREATE TABLE episodes (
   seconds INTEGER, format TEXT, playable INTEGER, size_mb INTEGER, alternates INTEGER,
   PRIMARY KEY (show_slug, season, number)
 );
+CREATE TABLE movies (
+  tmdb_id INTEGER PRIMARY KEY, kind TEXT, title TEXT NOT NULL, year INTEGER, runtime INTEGER, rating REAL, votes INTEGER,
+  poster TEXT, backdrop TEXT, overview TEXT, state TEXT NOT NULL, confidence REAL, item TEXT, item_title TEXT, file TEXT, url TEXT,
+  seconds INTEGER, format TEXT, playable INTEGER, size_mb INTEGER, archive_mentions INTEGER, hunted_at TEXT
+);
+CREATE INDEX idx_movies_state ON movies(state);
 CREATE INDEX idx_episodes_state ON episodes(state);
 CREATE INDEX idx_episodes_item ON episodes(item);
 CREATE VIEW coverage AS
@@ -68,8 +74,24 @@ for (const entry of LIST.shows) {
     eps++;
   }
 }
+// TV movies and specials from catalog/movies/*.json (written by hunt-movies.js).
+const MOV_DIR = path.join(ROOT, 'catalog', 'movies');
+const insMov = db.prepare(`INSERT OR REPLACE INTO movies VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)`);
+let movies = 0;
+if (fs.existsSync(MOV_DIR)) {
+  for (const f of fs.readdirSync(MOV_DIR)) {
+    if (!f.endsWith('.json')) continue;
+    const m = JSON.parse(fs.readFileSync(path.join(MOV_DIR, f), 'utf8'));
+    const p = m.file;
+    insMov.run(m.tmdbId, m.kind, m.title, m.year ? +m.year : null, m.runtime, m.rating, m.votes, m.poster, m.backdrop, m.overview, m.state,
+      p ? p.conf : null, p ? p.item : null, p ? p.itemTitle : null, p ? p.file : null, p ? p.url : null, p ? p.seconds : null, p ? p.format : null,
+      p ? (p.playable ? 1 : 0) : null, p ? p.sizeMB : null, m.archiveMentions, m.huntedAt);
+    movies++;
+  }
+}
 db.exec('COMMIT');
+const liveMovies = db.prepare(`SELECT COUNT(*) c FROM movies WHERE state='LIVE'`).get().c;
 const live = db.prepare(`SELECT COUNT(*) c FROM episodes WHERE state='LIVE'`).get().c;
 const review = db.prepare(`SELECT COUNT(*) c FROM episodes WHERE state='REVIEW'`).get().c;
 db.close();
-console.log(`${path.relative(ROOT, OUT)}: ${shows} matched shows (${LIST.shows.length} listed), ${eps} episode rows, ${live} live, ${review} review, ${(fs.statSync(OUT).size / 1e6).toFixed(1)} MB`);
+console.log(`${path.relative(ROOT, OUT)}: ${shows} matched shows (${LIST.shows.length} listed), ${eps} episode rows, ${live} live, ${review} review; ${movies} movies hunted, ${liveMovies} live; ${(fs.statSync(OUT).size / 1e6).toFixed(1)} MB`);

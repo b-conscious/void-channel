@@ -31,6 +31,22 @@ const shows = fs.readdirSync(SHOWS_DIR).filter((f) => f.endsWith('.json'))
   .map((s) => ({ ...s, eps: s.seasons.reduce((n, se) => n + se.episodes.length, 0) }))
   .sort((a, b) => b.eps - a.eps);
 
+// TV movies and specials: each is a one-episode "show" in the TV Movies row.
+const MOV_DIR = path.join(ROOT, 'catalog', 'movies');
+if (fs.existsSync(MOV_DIR)) {
+  for (const f of fs.readdirSync(MOV_DIR)) {
+    if (!f.endsWith('.json')) continue;
+    const m = JSON.parse(fs.readFileSync(path.join(MOV_DIR, f), 'utf8'));
+    if (!m.file || !m.file.playable || m.state === 'MISSING') continue;
+    shows.push({
+      show: m.title, slug: 'movie-' + m.tmdbId, type: m.kind === 'special' ? 'Specials' : 'TV Movies', network: m.kind === 'special' ? 'Special' : 'TV Movie',
+      year: m.year, runtime: m.runtime, poster: m.poster, backdrop: m.backdrop, overview: m.overview, genres: [], rating: m.rating, country: null, matchedAt: m.huntedAt,
+      seasons: [{ season: 1, episodes: [{ n: 1, name: m.title + (m.year ? ' (' + m.year + ')' : ''), state: m.state, url: m.file.url, min: Math.round(m.file.seconds / 60), item: m.file.item }] }],
+      eps: 1,
+    });
+  }
+}
+
 const html = `<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>VOIDtv</title>
@@ -81,7 +97,7 @@ footer{color:var(--dim);font-size:12px;padding:20px;border-top:1px solid var(--l
 <footer>Shows stream from the Internet Archive. Artwork and metadata from TMDB; this product uses the TMDB API but is not endorsed or certified by TMDB.</footer>
 <script>
 const SHOWS=${JSON.stringify(shows)};
-const TYPES=${JSON.stringify(LIST.types)};
+const TYPES=${JSON.stringify([...LIST.types, 'TV Movies', 'Specials'])};
 const state={q:'',type:'',genre:'',network:'',decade:'',sort:'eps',show:null,se:0,e:0};
 const $=(id)=>document.getElementById(id);
 const esc=(s)=>String(s).replace(/[&<>"]/g,(c)=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
