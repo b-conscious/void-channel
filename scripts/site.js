@@ -36,6 +36,10 @@ for (const s of data.shows) {
   }));
 }
 fs.writeFileSync(path.join(OUT, '_redirects'), '/show/* /index.html 200\n');
+// Pages Functions live beside the output: the password gate (functions/_middleware.js) only runs
+// when the SITE_PASSWORD variable is set on the Pages project.
+const fnSrc = path.join(ROOT, 'functions');
+if (fs.existsSync(fnSrc)) { fs.mkdirSync(path.join(OUT, 'functions'), { recursive: true }); for (const f of fs.readdirSync(fnSrc)) fs.copyFileSync(path.join(fnSrc, f), path.join(OUT, 'functions', f)); }
 fs.writeFileSync(path.join(OUT, '_headers'), '/data/*\n  Cache-Control: public, max-age=300\n/show/*\n  Cache-Control: public, max-age=300\n');
 fs.writeFileSync(path.join(OUT, 'robots.txt'), 'User-agent: *\nAllow: /\n');
 
