@@ -76,7 +76,8 @@ async function tvmaze(show) {
   const cf = path.join(CACHE_DIR, key + '.json');
   if (fs.existsSync(cf)) return JSON.parse(fs.readFileSync(cf, 'utf8'));
   try {
-    const r = await fetch('https://api.tvmaze.com/singlesearch/shows?q=' + encodeURIComponent(show), { signal: AbortSignal.timeout(20000) });
+    // Punctuation confuses TVmaze's search ("NTSF:SD:SUV::" finds nothing; "NTSF SD SUV" does).
+    const r = await fetch('https://api.tvmaze.com/singlesearch/shows?q=' + encodeURIComponent(show.replace(/[^\w\s'&!.-]/g, ' ').replace(/\s+/g, ' ').trim()), { signal: AbortSignal.timeout(20000) });
     if (!r.ok) return null;
     const s = await r.json();
     const er = await fetch(`https://api.tvmaze.com/shows/${s.id}/episodes`, { signal: AbortSignal.timeout(20000) });

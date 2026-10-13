@@ -1,0 +1,460 @@
+{
+  "show": "Delocated",
+  "slug": "delocated",
+  "type": "Adult Swim",
+  "network": "Adult Swim",
+  "matchedAt": "2026-10-13T01:43:54.660Z",
+  "tvmaze": {
+    "id": 6223,
+    "name": "Delocated",
+    "runtime": 15,
+    "premiered": "2009-02-12",
+    "network": "Adult Swim"
+  },
+  "coverage": {
+    "total": 30,
+    "live": 7,
+    "review": 0,
+    "missing": 23,
+    "pct": 23
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Pilot",
+          "airdate": "2009-02-12",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "delocated",
+            "itemTitle": "Delocated",
+            "file": "(2009) Delocated/Season 1/Delocated - 1x01 - Pilot.mp4",
+            "name": "(2009) Delocated/Season 1/Delocated - 1x01 - Pilot",
+            "url": "https://archive.org/download/delocated/(2009)%20Delocated%2FSeason%201%2FDelocated%20-%201x01%20-%20Pilot.mp4",
+            "seconds": 680,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 67
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "delocated-2009",
+              "itemTitle": "Delocated (2009)",
+              "file": "Delocated - S1E01 - Untitled Pilot [Demon].mp4",
+              "name": "Delocated - S1E01 - Untitled Pilot [Demon]",
+              "url": "https://archive.org/download/delocated-2009/Delocated%20-%20S1E01%20-%20Untitled%20Pilot%20%5BDemon%5D.mp4",
+              "seconds": 680,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 67
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "Bar Mitzvah",
+          "airdate": "2009-02-19",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "delocated",
+            "itemTitle": "Delocated",
+            "file": "(2009) Delocated/Season 1/Delocated - 1x02 - Bar Mitzvah.mp4",
+            "name": "(2009) Delocated/Season 1/Delocated - 1x02 - Bar Mitzvah",
+            "url": "https://archive.org/download/delocated/(2009)%20Delocated%2FSeason%201%2FDelocated%20-%201x02%20-%20Bar%20Mitzvah.mp4",
+            "seconds": 692,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 67
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "delocated-2009",
+              "itemTitle": "Delocated (2009)",
+              "file": "Delocated - S1E02 - Bar Mitzvah [Geophage].mp4",
+              "name": "Delocated - S1E02 - Bar Mitzvah [Geophage]",
+              "url": "https://archive.org/download/delocated-2009/Delocated%20-%20S1E02%20-%20Bar%20Mitzvah%20%5BGeophage%5D.mp4",
+              "seconds": 692,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 67
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "name": "Good Buds",
+          "airdate": "2009-02-26",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "delocated",
+            "itemTitle": "Delocated",
+            "file": "(2009) Delocated/Season 1/Delocated - 1x03 - Good Buds.mp4",
+            "name": "(2009) Delocated/Season 1/Delocated - 1x03 - Good Buds",
+            "url": "https://archive.org/download/delocated/(2009)%20Delocated%2FSeason%201%2FDelocated%20-%201x03%20-%20Good%20Buds.mp4",
+            "seconds": 688,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 67
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "delocated-2009",
+              "itemTitle": "Delocated (2009)",
+              "file": "Delocated - S1E03 - Good Buds [Geophage].mp4",
+              "name": "Delocated - S1E03 - Good Buds [Geophage]",
+              "url": "https://archive.org/download/delocated-2009/Delocated%20-%20S1E03%20-%20Good%20Buds%20%5BGeophage%5D.mp4",
+              "seconds": 688,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 67
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "name": "Rage Cage",
+          "airdate": "2009-03-08",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "delocated",
+            "itemTitle": "Delocated",
+            "file": "(2009) Delocated/Season 1/Delocated - 1x04 - Rage Cage.mp4",
+            "name": "(2009) Delocated/Season 1/Delocated - 1x04 - Rage Cage",
+            "url": "https://archive.org/download/delocated/(2009)%20Delocated%2FSeason%201%2FDelocated%20-%201x04%20-%20Rage%20Cage.mp4",
+            "seconds": 692,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 67
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "delocated-2009",
+              "itemTitle": "Delocated (2009)",
+              "file": "Delocated - S1E04 - Rage Cage [Geophage].mp4",
+              "name": "Delocated - S1E04 - Rage Cage [Geophage]",
+              "url": "https://archive.org/download/delocated-2009/Delocated%20-%20S1E04%20-%20Rage%20Cage%20%5BGeophage%5D.mp4",
+              "seconds": 692,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 67
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "name": "The Soother",
+          "airdate": "2009-03-15",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "delocated",
+            "itemTitle": "Delocated",
+            "file": "(2009) Delocated/Season 1/Delocated - 1x05 - The Soother.mp4",
+            "name": "(2009) Delocated/Season 1/Delocated - 1x05 - The Soother",
+            "url": "https://archive.org/download/delocated/(2009)%20Delocated%2FSeason%201%2FDelocated%20-%201x05%20-%20The%20Soother.mp4",
+            "seconds": 692,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 67
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "delocated-2009",
+              "itemTitle": "Delocated (2009)",
+              "file": "Delocated - S1E05 - The Soother [Geophage].mp4",
+              "name": "Delocated - S1E05 - The Soother [Geophage]",
+              "url": "https://archive.org/download/delocated-2009/Delocated%20-%20S1E05%20-%20The%20Soother%20%5BGeophage%5D.mp4",
+              "seconds": 692,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 67
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "name": "Member's Only",
+          "airdate": "2009-03-22",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "delocated",
+            "itemTitle": "Delocated",
+            "file": "(2009) Delocated/Season 1/Delocated - 1x06 - Member's Only.mp4",
+            "name": "(2009) Delocated/Season 1/Delocated - 1x06 - Member's Only",
+            "url": "https://archive.org/download/delocated/(2009)%20Delocated%2FSeason%201%2FDelocated%20-%201x06%20-%20Member's%20Only.mp4",
+            "seconds": 684,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 66
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "delocated-2009",
+              "itemTitle": "Delocated (2009)",
+              "file": "Delocated - S1E06 - Member's Only [Geophage].mp4",
+              "name": "Delocated - S1E06 - Member's Only [Geophage]",
+              "url": "https://archive.org/download/delocated-2009/Delocated%20-%20S1E06%20-%20Member's%20Only%20%5BGeophage%5D.mp4",
+              "seconds": 684,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 66
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "name": "Sick of It!",
+          "airdate": "2009-03-29",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "delocated",
+            "itemTitle": "Delocated",
+            "file": "(2009) Delocated/Season 1/Delocated - 1x07 - Sick of It!.mp4",
+            "name": "(2009) Delocated/Season 1/Delocated - 1x07 - Sick of It!",
+            "url": "https://archive.org/download/delocated/(2009)%20Delocated%2FSeason%201%2FDelocated%20-%201x07%20-%20Sick%20of%20It!.mp4",
+            "seconds": 692,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 67
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "delocated-2009",
+              "itemTitle": "Delocated (2009)",
+              "file": "Delocated - S1E07 - Sick of It! [Geophage].mp4",
+              "name": "Delocated - S1E07 - Sick of It! [Geophage]",
+              "url": "https://archive.org/download/delocated-2009/Delocated%20-%20S1E07%20-%20Sick%20of%20It!%20%5BGeophage%5D.mp4",
+              "seconds": 692,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 67
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Decoys",
+          "airdate": "2010-08-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Conversions",
+          "airdate": "2010-08-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Dog Mayor",
+          "airdate": "2010-09-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Mixer",
+          "airdate": "2010-09-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Jon He Does It",
+          "airdate": "2010-09-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Mole",
+          "airdate": "2010-09-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Kim's Krafts",
+          "airdate": "2010-09-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Fidence",
+          "airdate": "2010-10-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Tap",
+          "airdate": "2010-10-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "RVB&B",
+          "airdate": "2010-10-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "David's Girlfriend",
+          "airdate": "2010-10-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Coma",
+          "airdate": "2010-11-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Lipples",
+          "airdate": "2012-02-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Skins",
+          "airdate": "2012-02-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Midnight Munchingtons",
+          "airdate": "2012-02-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Camping",
+          "airdate": "2012-02-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Warm-Up",
+          "airdate": "2012-03-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Sample",
+          "airdate": "2012-03-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Friend",
+          "airdate": "2012-03-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "TB's Mom",
+          "airdate": "2012-03-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Jon Done Gone Nuts",
+          "airdate": "2012-03-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Reunion Show",
+          "airdate": "2012-04-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "The Frrt Identity",
+          "airdate": "2013-03-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    }
+  ]
+}
