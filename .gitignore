@@ -22,3 +22,6 @@ backend/.env
 _*.json
 _retest.js
 _livetest.js
+
+# builder: raw Archive/TVmaze responses stay local (regenerable)
+catalog/cache/
