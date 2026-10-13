@@ -22,6 +22,13 @@ jumps the queue.
   tab; trivia distilled by Claude from Wikipedia episode/show articles with a source line under
   each item, cached in the builder. No invented facts, no scene-level X-Ray until we can read the
   video. (2026-10-13)
+- **Sharing and social (B's couch-view research, 2026-10-13).** In order of cheapness:
+  (1) share links that carry the moment: `/s/<show>/s4e11?t=12m40s` with a poster card and
+  episode title; (2) a clip button: in/out points become a link that plays only that span (no
+  file made, nothing hosted), later an in-browser export for shorts; (3) watch together: room
+  link, synced play, chat strip; (4) "pick for me" and "put something on" (one card, shuffle,
+  what's-on-now) for the seven-minute-scroll problem; (5) shareable lists ("my 90s starter pack");
+  (6) a "Not streaming anywhere else" shelf; (7) spoiler-safe cards by default.
 - **One sourcing line** in the footer (Internet Archive + the TMDB credit), never per card. (2026-10-13)
 
 ## Pull after the site is live
