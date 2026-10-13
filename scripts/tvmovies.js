@@ -93,8 +93,14 @@ async function main() {
     const cap = +(args[args.indexOf('--runtimes') + 1]) || 2000;
     let n = 0;
     for (const m of todo.slice(0, cap)) {
-      try { const d = await tmdb('/movie/' + m.tmdbId); m.runtime = d.runtime || 0; m.imdb = d.imdb_id || null; n++; }
-      catch (e) { m.runtime = 0; }
+      try {
+        const d = await tmdb('/movie/' + m.tmdbId);
+        m.runtime = d.runtime || 0; m.imdb = d.imdb_id || null;
+        m.companies = (d.production_companies || []).map((c) => c.name).slice(0, 4);
+        // Kids' networks make kids' movies; B's rule keeps them off the shelf.
+        m.kids = m.companies.some((c) => /disney|nickelodeon|nick jr|cartoon network|pbs kids|boomerang|mattel|hasbro|dreamworks animation|sesame/i.test(c)) || undefined;
+        n++;
+      } catch (e) { m.runtime = 0; }
       if (n % 100 === 0) { fs.writeFileSync(OUT, JSON.stringify(list, null, 1)); console.log(`  ${n} runtimes filled`); }
     }
     fs.writeFileSync(OUT, JSON.stringify(list, null, 1));
