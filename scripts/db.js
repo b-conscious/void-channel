@@ -19,7 +19,8 @@ CREATE TABLE shows (
   slug TEXT PRIMARY KEY, name TEXT NOT NULL, type TEXT NOT NULL, network TEXT,
   tvmaze_id INTEGER, runtime INTEGER, premiered TEXT, tvmaze_network TEXT,
   episodes_total INTEGER, live INTEGER, review INTEGER, missing INTEGER, covered_pct INTEGER,
-  hunted INTEGER NOT NULL DEFAULT 0, matched_at TEXT
+  hunted INTEGER NOT NULL DEFAULT 0, matched_at TEXT,
+  tmdb_id INTEGER, poster TEXT, backdrop TEXT, overview TEXT, genres TEXT, rating REAL
 );
 CREATE TABLE episodes (
   show_slug TEXT NOT NULL REFERENCES shows(slug), season INTEGER NOT NULL, number INTEGER NOT NULL,
@@ -40,7 +41,10 @@ CREATE VIEW review_queue AS
 `);
 
 const slugOf = (s) => s.toLowerCase().replace(/&/g, ' and ').replace(/['’]/g, '').replace(/[^a-z0-9]+/g, ' ').trim().replace(/ /g, '-');
-const insShow = db.prepare(`INSERT INTO shows VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)`);
+const ART_FILE = path.join(ROOT, 'catalog', 'art.json');
+const ART = fs.existsSync(ART_FILE) ? JSON.parse(fs.readFileSync(ART_FILE, 'utf8')) : {};
+const artCols = (slug) => { const a = ART[slug] || {}; return [a.tmdbId || null, a.poster || null, a.backdrop || null, a.overview || null, a.genres ? a.genres.join(', ') : null, a.rating || null]; };
+const insShow = db.prepare(`INSERT INTO shows VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)`);
 const insEp = db.prepare(`INSERT INTO episodes VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)`);
 
 let shows = 0, eps = 0;
@@ -50,11 +54,11 @@ for (const entry of LIST.shows) {
   const f = path.join(SHOWS_DIR, slug + '.json');
   const g = fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : null;
   if (!g || !g.seasons) {
-    insShow.run(slug, entry.name, entry.type, entry.network, null, null, null, null, null, null, null, null, null, 0, null);
+    insShow.run(slug, entry.name, entry.type, entry.network, null, null, null, null, null, null, null, null, null, 0, null, ...artCols(slug));
     continue;
   }
   insShow.run(slug, entry.name, entry.type, entry.network, g.tvmaze.id, g.tvmaze.runtime, g.tvmaze.premiered, g.tvmaze.network,
-    g.coverage.total, g.coverage.live, g.coverage.review, g.coverage.missing, g.coverage.pct, 1, g.matchedAt);
+    g.coverage.total, g.coverage.live, g.coverage.review, g.coverage.missing, g.coverage.pct, 1, g.matchedAt, ...artCols(slug));
   shows++;
   for (const se of g.seasons) for (const e of se.episodes) {
     const p = e.file;
