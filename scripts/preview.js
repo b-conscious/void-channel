@@ -1,78 +1,119 @@
-// Watch page: a single HTML file built from catalog/shows/*.json so B can watch what the
-// builder has found so far. Shows -> seasons -> episodes -> plays straight from archive.org.
-// Not the site; a first taste of it. Usage: node scripts/preview.js  -> catalog/preview.html
+// Browse page: a single HTML file built from catalog/shows/*.json + catalog/art.json.
+// Browse (filters, sort, search, genre grid) -> show (seasons, episodes) -> plays from archive.org.
+// Only episodes a browser can play are listed. Usage: node scripts/preview.js -> catalog/preview.html
 const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
 const SHOWS_DIR = path.join(ROOT, 'catalog', 'shows');
 const OUT = path.join(ROOT, 'catalog', 'preview.html');
-
+const LIST = JSON.parse(fs.readFileSync(path.join(__dirname, 'show-list.json'), 'utf8'));
 const ART_FILE = path.join(ROOT, 'catalog', 'art.json');
 const ART = fs.existsSync(ART_FILE) ? JSON.parse(fs.readFileSync(ART_FILE, 'utf8')) : {};
 
 const shows = fs.readdirSync(SHOWS_DIR).filter((f) => f.endsWith('.json'))
   .map((f) => JSON.parse(fs.readFileSync(path.join(SHOWS_DIR, f), 'utf8')))
   .filter((s) => s.seasons)
-  .map((s) => ({
-    show: s.show, slug: s.slug, type: s.type, network: s.network, year: (s.tvmaze.premiered || '').slice(0, 4), runtime: s.tvmaze.runtime,
-    poster: (ART[s.slug] || {}).poster || null, backdrop: (ART[s.slug] || {}).backdrop || null,
-    overview: (ART[s.slug] || {}).overview || '', genres: (ART[s.slug] || {}).genres || [], rating: (ART[s.slug] || {}).rating || null,
-    seasons: s.seasons.map((se) => ({
-      season: se.season,
-      // Only files a browser can actually play; silent or black ones stay in the review queue.
-      episodes: se.episodes.filter((e) => e.file && e.file.playable).map((e) => ({ n: e.number, name: e.name, state: e.state, url: e.file.url, min: Math.round(e.file.seconds / 60), item: e.file.item })),
-    })).filter((se) => se.episodes.length),
-  }))
+  .map((s) => {
+    const a = ART[s.slug] || {};
+    const year = (s.tvmaze.premiered || a.year || '').slice(0, 4);
+    return {
+      show: s.show, slug: s.slug, type: s.type, network: s.network, year, runtime: s.tvmaze.runtime,
+      poster: a.poster || null, backdrop: a.backdrop || null, overview: a.overview || '', genres: a.genres || [], rating: a.rating || null,
+      country: a.country || null, matchedAt: s.matchedAt,
+      seasons: s.seasons.map((se) => ({
+        season: se.season,
+        episodes: se.episodes.filter((e) => e.file && e.file.playable).map((e) => ({ n: e.number, name: e.name, state: e.state, url: e.file.url, min: Math.round(e.file.seconds / 60), item: e.file.item })),
+      })).filter((se) => se.episodes.length),
+    };
+  })
   .filter((s) => s.seasons.length)
-  .sort((a, b) => b.seasons.reduce((n, se) => n + se.episodes.length, 0) - a.seasons.reduce((n, se) => n + se.episodes.length, 0));
+  .map((s) => ({ ...s, eps: s.seasons.reduce((n, se) => n + se.episodes.length, 0) }))
+  .sort((a, b) => b.eps - a.eps);
 
 const html = `<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>VOIDtv preview</title>
+<title>VOIDtv</title>
 <style>
-:root{--bg:#07080c;--panel:#0f1118;--line:#1d2130;--fg:#e8e8ee;--dim:#8a8fa3;--acc:#5fd4ff;--rev:#f3c969}
+:root{--bg:#07080c;--panel:#0f1118;--panel2:#161926;--line:#1d2130;--fg:#e8e8ee;--dim:#8a8fa3;--acc:#5fd4ff;--rev:#f3c969}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.4 system-ui,Segoe UI,Roboto,sans-serif}
-header{display:flex;align-items:baseline;gap:14px;padding:14px 20px;border-bottom:1px solid var(--line)}
-header b{font-size:22px;letter-spacing:.04em}header span{color:var(--dim)}
-main{display:grid;grid-template-columns:300px 1fr;min-height:calc(100vh - 54px)}
-nav{border-right:1px solid var(--line);overflow:auto;max-height:calc(100vh - 54px)}
-nav button{display:flex;gap:12px;align-items:center;width:100%;text-align:left;background:none;border:0;border-bottom:1px solid var(--line);color:var(--fg);padding:8px 12px;cursor:pointer;font:inherit}
-nav button:hover,nav button.on{background:var(--panel)}nav small{display:block;color:var(--dim)}
-nav img,nav .ph{width:44px;height:66px;object-fit:cover;border-radius:4px;background:var(--panel);flex:none}
-.hero{position:relative;border-radius:8px;overflow:hidden;margin-bottom:12px;background:var(--panel)}
-.hero img{width:100%;max-height:220px;object-fit:cover;display:block;opacity:.55}
-.hero .t{position:absolute;left:18px;bottom:14px;right:18px}.hero .t b{font-size:26px}.hero .t p{margin:6px 0 0;color:var(--fg);max-width:720px;font-size:14px}
-.hero .g{color:var(--dim);font-size:12px;margin-top:4px}
-section{padding:16px 20px;overflow:auto;max-height:calc(100vh - 54px)}
-video{width:100%;max-height:62vh;background:#000;border-radius:6px;outline:none}
-.now{display:flex;justify-content:space-between;align-items:center;margin:10px 0 6px}.now b{font-size:18px}
-.btn{background:var(--panel);border:1px solid var(--line);color:var(--fg);padding:8px 14px;border-radius:6px;cursor:pointer;font:inherit}
-h3{margin:18px 0 6px;color:var(--dim);font-weight:600;letter-spacing:.06em;font-size:12px}
-.ep{display:flex;gap:10px;align-items:center;padding:8px 10px;border-radius:6px;cursor:pointer}.ep:hover,.ep.on{background:var(--panel)}
-.ep .n{color:var(--dim);width:36px}.ep .m{color:var(--dim);margin-left:auto}.ep .r{color:var(--rev);font-size:11px;border:1px solid var(--rev);border-radius:4px;padding:0 5px}
-.hint{color:var(--dim);font-size:13px;margin-top:14px}
-@media(max-width:800px){main{grid-template-columns:1fr}nav{max-height:200px}}
+a{color:inherit;text-decoration:none}button,select,input{font:inherit}
+header{position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:16px;padding:10px 20px;background:rgba(7,8,12,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+header .logo{font-size:22px;font-weight:700;letter-spacing:.04em;cursor:pointer}header .logo span{color:var(--acc)}
+header input{flex:1;max-width:420px;background:var(--panel);border:1px solid var(--line);color:var(--fg);padding:8px 12px;border-radius:8px;outline:none}
+header input:focus{border-color:var(--acc)}
+.bar{display:flex;flex-wrap:wrap;gap:8px;padding:12px 20px;align-items:center}
+.bar select{background:var(--panel);border:1px solid var(--line);color:var(--fg);padding:7px 10px;border-radius:8px}
+.bar .count{color:var(--dim);margin-left:auto;font-size:13px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;padding:0 20px 8px}
+.chip{background:var(--panel2);border:1px solid var(--line);color:var(--fg);padding:4px 10px;border-radius:999px;font-size:13px;cursor:pointer}
+.chip.on{border-color:var(--acc);color:var(--acc)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:14px;padding:6px 20px 24px}
+.card{cursor:pointer;border-radius:8px;overflow:hidden;background:var(--panel);outline:2px solid transparent}
+.card:hover,.card:focus{outline-color:var(--acc)}
+.card .p{aspect-ratio:2/3;background:var(--panel2);display:flex;align-items:center;justify-content:center;color:var(--dim);font-size:12px;text-align:center;padding:8px}
+.card img{width:100%;height:100%;object-fit:cover;display:block}
+.card .t{padding:8px 10px 10px}.card b{display:block;font-size:14px;line-height:1.25}.card small{color:var(--dim);display:block;margin-top:3px}
+.card .r{color:var(--rev);font-size:12px}
+h2{margin:18px 20px 8px;font-size:18px}h2 small{color:var(--dim);font-weight:400;font-size:13px;margin-left:8px}
+.genres{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px;padding:0 20px 24px}
+.genres button{background:var(--panel);border:1px solid var(--line);color:var(--fg);padding:16px 10px;border-radius:10px;cursor:pointer}
+.genres button:hover{border-color:var(--acc)}.genres small{display:block;color:var(--dim);margin-top:3px}
+.show{padding:0 20px 24px}
+.back{background:none;border:0;color:var(--acc);cursor:pointer;padding:12px 0}
+.hero{position:relative;border-radius:10px;overflow:hidden;background:var(--panel);min-height:160px}
+.hero img{width:100%;max-height:300px;object-fit:cover;display:block;opacity:.5}
+.hero .t{position:absolute;left:20px;bottom:16px;right:20px}.hero .t b{font-size:28px}.hero .t p{margin:6px 0 0;max-width:760px;font-size:14px}.hero .g{color:var(--dim);font-size:12px;margin-top:4px}
+.player{display:grid;grid-template-columns:1fr 340px;gap:16px;margin-top:14px}
+video{width:100%;max-height:70vh;background:#000;border-radius:8px;outline:none}
+.now{display:flex;justify-content:space-between;align-items:center;margin:10px 0 0;gap:10px}.now b{font-size:17px}
+.btn{background:var(--panel);border:1px solid var(--line);color:var(--fg);padding:8px 14px;border-radius:8px;cursor:pointer;white-space:nowrap}
+.eps{max-height:76vh;overflow:auto;background:var(--panel);border-radius:8px;padding:6px}
+.eps h3{margin:10px 8px 4px;color:var(--dim);font-weight:600;letter-spacing:.06em;font-size:11px}
+.ep{display:flex;gap:8px;align-items:center;padding:7px 8px;border-radius:6px;cursor:pointer;font-size:14px}.ep:hover,.ep.on{background:var(--panel2)}
+.ep .n{color:var(--dim);width:34px;flex:none}.ep .m{color:var(--dim);margin-left:auto;flex:none}.ep .rv{color:var(--rev);font-size:11px;border:1px solid var(--rev);border-radius:4px;padding:0 4px}
+.hint{color:var(--dim);font-size:13px;margin-top:12px}
+footer{color:var(--dim);font-size:12px;padding:20px;border-top:1px solid var(--line);margin-top:20px}
+@media(max-width:860px){.player{grid-template-columns:1fr}.eps{max-height:40vh}.hero .t b{font-size:22px}}
 </style></head><body>
-<header><b>VOID<span style="color:var(--acc)">tv</span></b><span>preview: what the builder has found so far</span></header>
-<main><nav id="nav"></nav><section id="sec"></section></main>
+<header><div class="logo" onclick="go('')">VOID<span>tv</span></div><input id="q" placeholder="Search shows…" oninput="state.q=this.value;render()"></header>
+<main id="main"></main>
+<footer>Shows stream from the Internet Archive. Artwork and metadata from TMDB; this product uses the TMDB API but is not endorsed or certified by TMDB.</footer>
 <script>
 const SHOWS=${JSON.stringify(shows)};
-let cur={s:0,se:0,e:0};
+const TYPES=${JSON.stringify(LIST.types)};
+const state={q:'',type:'',genre:'',network:'',decade:'',sort:'eps',show:null,se:0,e:0};
 const $=(id)=>document.getElementById(id);
-function nav(){$('nav').innerHTML=SHOWS.map((s,i)=>{const n=s.seasons.reduce((a,se)=>a+se.episodes.length,0);return '<button class="'+(i===cur.s?'on':'')+'" onclick="pick('+i+')">'+(s.poster?'<img loading="lazy" src="'+s.poster+'" alt="">':'<span class="ph"></span>')+'<span>'+s.show+'<small>'+s.network+' · '+s.year+' · '+n+' episodes</small></span></button>'}).join('')}
-function hero(s){if(!s.backdrop&&!s.overview)return '';return '<div class="hero">'+(s.backdrop?'<img src="'+s.backdrop+'" alt="">':'')+'<div class="t"><b>'+s.show+'</b>'+(s.overview?'<p>'+s.overview.slice(0,220)+(s.overview.length>220?'…':'')+'</p>':'')+'<div class="g">'+[s.genres.join(' · '),s.rating?'★ '+s.rating:''].filter(Boolean).join('  ·  ')+'</div></div></div>'}
-function pick(i){cur={s:i,se:0,e:0};render(true)}
-function play(se,e){cur.se=se;cur.e=e;render(true)}
-function next(){const s=SHOWS[cur.s];if(cur.e+1<s.seasons[cur.se].episodes.length)play(cur.se,cur.e+1);else if(cur.se+1<s.seasons.length)play(cur.se+1,0)}
-function render(autoplay){nav();const s=SHOWS[cur.s];const ep=s.seasons[cur.se].episodes[cur.e];
-$('sec').innerHTML=(autoplay?'':hero(s))+'<video id="v" controls '+(autoplay?'autoplay':'')+' src="'+ep.url+'"></video>'
-+'<div class="now"><div><b>'+s.show+'</b> &nbsp; S'+String(s.seasons[cur.se].season).padStart(2,'0')+'E'+String(ep.n).padStart(2,'0')+' · '+ep.name+(ep.state==='REVIEW'?' <span class="r">review</span>':'')+'</div><button class="btn" onclick="next()">Next episode ▶</button></div>'
-+s.seasons.map((se,si)=>'<h3>SEASON '+se.season+'</h3>'+se.episodes.map((x,ei)=>'<div class="ep '+(si===cur.se&&ei===cur.e?'on':'')+'" onclick="play('+si+','+ei+')"><span class="n">E'+x.n+'</span><span>'+x.name+'</span>'+(x.state==='REVIEW'?'<span class="r">review</span>':'')+'<span class="m">'+x.min+' min</span></div>').join('')).join('')
-+'<p class="hint">Video streams straight from archive.org. Space / K play-pause, N next episode, F fullscreen. "review" = the builder is not sure this file is this episode.</p>';
-const v=$('v');v.onended=next;v.onerror=()=>{v.insertAdjacentHTML('afterend','<p style="color:#f66">This file would not play in the browser (codec or missing). Next episode in 3s…</p>');setTimeout(next,3000)};}
-document.addEventListener('keydown',(k)=>{const v=$('v');if(!v||k.target.tagName==='INPUT')return;if(k.key===' '||k.key==='k'){k.preventDefault();v.paused?v.play():v.pause()}if(k.key==='n')next();if(k.key==='f')v.requestFullscreen&&v.requestFullscreen();if(k.key==='ArrowRight')v.currentTime+=10;if(k.key==='ArrowLeft')v.currentTime-=10});
-render(false);
+const esc=(s)=>String(s).replace(/[&<>"]/g,(c)=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const decade=(y)=>y?Math.floor(+y/10)*10+'s':'';
+function counts(key){const m={};for(const s of SHOWS){const v=key==='genres'?s.genres:[s[key]];for(const x of v)if(x)m[x]=(m[x]||0)+1}return Object.entries(m).sort((a,b)=>b[1]-a[1])}
+function filtered(){const q=state.q.trim().toLowerCase();let r=SHOWS.filter(s=>(!state.type||s.type===state.type)&&(!state.genre||s.genres.includes(state.genre))&&(!state.network||s.network===state.network)&&(!state.decade||decade(s.year)===state.decade)&&(!q||s.show.toLowerCase().includes(q)||s.genres.join(' ').toLowerCase().includes(q)||(s.network||'').toLowerCase().includes(q)));
+ const by={eps:(a,b)=>b.eps-a.eps,rating:(a,b)=>(b.rating||0)-(a.rating||0)||b.eps-a.eps,year:(a,b)=>(+b.year||0)-(+a.year||0),old:(a,b)=>(+a.year||9999)-(+b.year||9999),az:(a,b)=>a.show.localeCompare(b.show),added:(a,b)=>(b.matchedAt||'').localeCompare(a.matchedAt||'')};return r.sort(by[state.sort]||by.eps)}
+function sel(key,label,opts){return '<select onchange="state.'+key+'=this.value;render()"><option value="">'+label+'</option>'+opts.map(([v,n])=>'<option value="'+esc(v)+'"'+(state[key]===v?' selected':'')+'>'+esc(v)+(n?' ('+n+')':'')+'</option>').join('')+'</select>'}
+function card(s){const total=s.eps;return '<div class="card" tabindex="0" onclick="go(\\''+s.slug+'\\')" onkeydown="if(event.key===\\'Enter\\')go(\\''+s.slug+'\\')">'+(s.poster?'<div class="p"><img loading="lazy" src="'+s.poster+'" alt=""></div>':'<div class="p">'+esc(s.show)+'</div>')+'<div class="t"><b>'+esc(s.show)+'</b><small>'+esc(s.network||'')+(s.year?' · '+s.year:'')+' · '+total+' ep'+(total===1?'':'s')+(s.rating?' · ★ '+s.rating:'')+'</small></div></div>'}
+function browse(){const list=filtered();const any=state.type||state.genre||state.network||state.decade||state.q;
+ let h='<div class="bar">'+sel('type','All rows',TYPES.map(t=>[t,SHOWS.filter(s=>s.type===t).length]).filter(x=>x[1]))+sel('genre','All genres',counts('genres'))+sel('network','All networks',counts('network').slice(0,60))+sel('decade','All decades',[['1990s'],['2000s'],['2010s'],['2020s']].map(([d])=>[d,SHOWS.filter(s=>decade(s.year)===d).length]))
+ +'<select onchange="state.sort=this.value;render()">'+[['eps','Most episodes'],['rating','Top rated'],['year','Newest'],['old','Oldest'],['added','Recently added'],['az','A to Z']].map(([v,n])=>'<option value="'+v+'"'+(state.sort===v?' selected':'')+'>'+n+'</option>').join('')+'</select>'
+ +'<span class="count">'+list.length+' shows · '+list.reduce((n,s)=>n+s.eps,0)+' episodes</span></div>';
+ if(any)h+='<div class="chips">'+[['type',state.type],['genre',state.genre],['network',state.network],['decade',state.decade]].filter(x=>x[1]).map(([k,v])=>'<span class="chip on" onclick="state.'+k+'=\\'\\';render()">'+esc(v)+' ✕</span>').join('')+(state.q?'<span class="chip on" onclick="state.q=\\'\\';$(\\'q\\').value=\\'\\';render()">“'+esc(state.q)+'” ✕</span>':'')+'</div>';
+ h+='<div class="grid">'+list.map(card).join('')+'</div>';
+ if(!any){h+='<h2>Explore by Genre</h2><div class="genres">'+counts('genres').map(([g,n])=>'<button onclick="state.genre=\\''+esc(g)+'\\';render();window.scrollTo(0,0)">'+esc(g)+'<small>'+n+' shows</small></button>').join('')+'</div>';
+  h+='<h2>By Network</h2><div class="genres">'+counts('network').slice(0,24).map(([g,n])=>'<button onclick="state.network=\\''+esc(g)+'\\';render();window.scrollTo(0,0)">'+esc(g)+'<small>'+n+' shows</small></button>').join('')+'</div>'}
+ $('main').innerHTML=h}
+function showView(autoplay){const s=state.show;const se=s.seasons[state.se];const ep=se.episodes[state.e];
+ let h='<div class="show"><button class="back" onclick="go(\\'\\')">← Browse</button>';
+ if(!autoplay)h+='<div class="hero">'+(s.backdrop?'<img src="'+s.backdrop+'" alt="">':'')+'<div class="t"><b>'+esc(s.show)+'</b>'+(s.overview?'<p>'+esc(s.overview.slice(0,260))+(s.overview.length>260?'…':'')+'</p>':'')+'<div class="g">'+[s.network,s.year,s.genres.join(' · '),s.rating?'★ '+s.rating:'',s.eps+' episodes'].filter(Boolean).join('  ·  ')+'</div></div></div>';
+ h+='<div class="player"><div><video id="v" controls '+(autoplay?'autoplay':'')+' src="'+ep.url+'"></video><div class="now"><div><b>S'+String(se.season).padStart(2,'0')+'E'+String(ep.n).padStart(2,'0')+'</b> · '+esc(ep.name)+(ep.state==='REVIEW'?' <span class="rv">review</span>':'')+'</div><button class="btn" onclick="next()">Next episode ▶</button></div><p class="hint">Space / K play-pause · N next · F fullscreen · ← → skip 10s. "review" = the builder is not sure this file is this episode.</p></div>';
+ h+='<div class="eps">'+s.seasons.map((x,si)=>'<h3>SEASON '+x.season+'</h3>'+x.episodes.map((y,ei)=>'<div class="ep '+(si===state.se&&ei===state.e?'on':'')+'" onclick="play('+si+','+ei+')"><span class="n">E'+y.n+'</span><span>'+esc(y.name)+'</span>'+(y.state==='REVIEW'?'<span class="rv">review</span>':'')+'<span class="m">'+y.min+'m</span></div>').join('')).join('')+'</div></div></div>';
+ $('main').innerHTML=h;const v=$('v');v.onended=next;v.onerror=()=>{v.insertAdjacentHTML('afterend','<p style="color:#f66">This file would not play. Next episode in 3s…</p>');setTimeout(next,3000)}}
+function go(slug){if(!slug){state.show=null;history.replaceState(null,'','#');render();return}const s=SHOWS.find(x=>x.slug===slug);if(!s)return;state.show=s;const r=resume(s);state.se=r.se;state.e=r.e;history.replaceState(null,'','#'+slug);render();window.scrollTo(0,0)}
+function play(se,e){state.se=se;state.e=e;remember();showView(true)}
+function next(){const s=state.show;if(state.e+1<s.seasons[state.se].episodes.length)play(state.se,state.e+1);else if(state.se+1<s.seasons.length)play(state.se+1,0)}
+function remember(){try{localStorage.setItem('voidtv:'+state.show.slug,JSON.stringify({se:state.se,e:state.e}))}catch(_){}}
+function resume(s){try{const r=JSON.parse(localStorage.getItem('voidtv:'+s.slug)||'');if(r&&s.seasons[r.se]&&s.seasons[r.se].episodes[r.e])return r}catch(_){}return{se:0,e:0}}
+function render(){if(state.show)showView(false);else browse()}
+document.addEventListener('keydown',(k)=>{if(k.target.tagName==='INPUT'||k.target.tagName==='SELECT')return;const v=$('v');if(k.key==='/'){k.preventDefault();$('q').focus();return}if(!v)return;if(k.key===' '||k.key==='k'){k.preventDefault();v.paused?v.play():v.pause()}if(k.key==='n')next();if(k.key==='f')v.requestFullscreen&&v.requestFullscreen();if(k.key==='ArrowRight')v.currentTime+=10;if(k.key==='ArrowLeft')v.currentTime-=10;if(k.key==='Escape')go('')});
+if(location.hash.length>1)go(location.hash.slice(1));else render();
 </script></body></html>`;
 fs.writeFileSync(OUT, html);
-console.log(`${shows.length} shows, ${shows.reduce((n, s) => n + s.seasons.reduce((a, se) => a + se.episodes.length, 0), 0)} episodes -> ${path.relative(ROOT, OUT)}`);
+console.log(`${shows.length} shows, ${shows.reduce((n, s) => n + s.eps, 0)} playable episodes -> ${path.relative(ROOT, OUT)}`);
