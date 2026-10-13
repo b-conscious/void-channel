@@ -3,7 +3,7 @@
   "slug": "drawn-together",
   "type": "Animated",
   "network": "Comedy Central",
-  "matchedAt": "2026-10-13T07:46:15.679Z",
+  "matchedAt": "2026-10-13T15:54:07.970Z",
   "tvmaze": {
     "id": 1518,
     "name": "Drawn Together",
@@ -1370,19 +1370,6 @@
               "format": "MPEG4",
               "playable": true,
               "sizeMB": 232
-            },
-            {
-              "conf": 0.75,
-              "why": "title ~ \"Freaks & Greeks\" (0.85)",
-              "item": "04.-unrestrainable-trainable",
-              "itemTitle": "Drawn Together Season 03",
-              "file": "01. Freaks & Geeks.mp4",
-              "name": "01. Freaks & Geeks",
-              "url": "https://archive.org/download/04.-unrestrainable-trainable/01.%20Freaks%20%26%20Geeks.mp4",
-              "seconds": 1285,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 127
             }
           ]
         },
@@ -1512,21 +1499,34 @@
           "airdate": "2006-10-25",
           "state": "LIVE",
           "file": {
-            "conf": 1,
-            "why": "S/E in filename + title match",
-            "item": "DrawnTogetherComplete",
-            "itemTitle": "Drawn Together the Complete Series",
-            "file": "s03/drawn.together.s03e04.unrestrainabletrainable.mp4",
-            "name": "s03/drawn.together.s03e04.unrestrainabletrainable",
-            "url": "https://archive.org/download/DrawnTogetherComplete/s03%2Fdrawn.together.s03e04.unrestrainabletrainable.mp4",
-            "seconds": 1340,
-            "format": "h.264",
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "drawn-together-s-03-e-02",
+            "itemTitle": "Drawn Together Season 3 German English",
+            "file": "Drawn Together S03E04.mp4",
+            "name": "Drawn Together S03E04",
+            "url": "https://archive.org/download/drawn-together-s-03-e-02/Drawn%20Together%20S03E04.mp4",
+            "seconds": 1312,
+            "format": "MPEG4",
             "playable": true,
-            "sizeMB": 133
+            "sizeMB": 234
           },
           "alternates": [
             {
-              "conf": 1,
+              "conf": 0.6,
+              "why": "S/E in filename + title match",
+              "item": "DrawnTogetherComplete",
+              "itemTitle": "Drawn Together the Complete Series",
+              "file": "s03/drawn.together.s03e04.unrestrainabletrainable.mp4",
+              "name": "s03/drawn.together.s03e04.unrestrainabletrainable",
+              "url": "https://archive.org/download/DrawnTogetherComplete/s03%2Fdrawn.together.s03e04.unrestrainabletrainable.mp4",
+              "seconds": 1340,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 133
+            },
+            {
+              "conf": 0.6,
               "why": "S/E in filename + title match",
               "item": "dirty-little-folder",
               "itemTitle": "The Drawn Together Collection.",
@@ -1537,32 +1537,6 @@
               "format": "MPEG4",
               "playable": true,
               "sizeMB": 84
-            },
-            {
-              "conf": 0.9,
-              "why": "S/E in filename",
-              "item": "drawn-together-s-03-e-02",
-              "itemTitle": "Drawn Together Season 3 German English",
-              "file": "Drawn Together S03E04.mp4",
-              "name": "Drawn Together S03E04",
-              "url": "https://archive.org/download/drawn-together-s-03-e-02/Drawn%20Together%20S03E04.mp4",
-              "seconds": 1312,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 234
-            },
-            {
-              "conf": 0.75,
-              "why": "title ~ \"Unrestrainable Trainable\" (0.95)",
-              "item": "04.-unrestrainable-trainable",
-              "itemTitle": "Drawn Together Season 03",
-              "file": "04. Unrestrainable Trainable.mp4",
-              "name": "04. Unrestrainable Trainable",
-              "url": "https://archive.org/download/04.-unrestrainable-trainable/04.%20Unrestrainable%20Trainable.mp4",
-              "seconds": 1340,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 141
             }
           ]
         },
@@ -1799,21 +1773,34 @@
           "airdate": "2007-10-11",
           "state": "LIVE",
           "file": {
-            "conf": 1,
-            "why": "S/E in filename + title match",
-            "item": "DrawnTogetherComplete",
-            "itemTitle": "Drawn Together the Complete Series",
-            "file": "s03/drawn.together.s03e09.charlotte'sweboflies.mp4",
-            "name": "s03/drawn.together.s03e09.charlotte'sweboflies",
-            "url": "https://archive.org/download/DrawnTogetherComplete/s03%2Fdrawn.together.s03e09.charlotte'sweboflies.mp4",
-            "seconds": 1268,
-            "format": "h.264",
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "drawn-together-s-03-e-02",
+            "itemTitle": "Drawn Together Season 3 German English",
+            "file": "Drawn Together S03E09.mp4",
+            "name": "Drawn Together S03E09",
+            "url": "https://archive.org/download/drawn-together-s-03-e-02/Drawn%20Together%20S03E09.mp4",
+            "seconds": 1271,
+            "format": "MPEG4",
             "playable": true,
-            "sizeMB": 125
+            "sizeMB": 225
           },
           "alternates": [
             {
-              "conf": 1,
+              "conf": 0.6,
+              "why": "S/E in filename + title match",
+              "item": "DrawnTogetherComplete",
+              "itemTitle": "Drawn Together the Complete Series",
+              "file": "s03/drawn.together.s03e09.charlotte'sweboflies.mp4",
+              "name": "s03/drawn.together.s03e09.charlotte'sweboflies",
+              "url": "https://archive.org/download/DrawnTogetherComplete/s03%2Fdrawn.together.s03e09.charlotte'sweboflies.mp4",
+              "seconds": 1268,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 125
+            },
+            {
+              "conf": 0.6,
               "why": "S/E in filename + title match",
               "item": "dirty-little-folder",
               "itemTitle": "The Drawn Together Collection.",
@@ -1824,32 +1811,6 @@
               "format": "MPEG4",
               "playable": true,
               "sizeMB": 70
-            },
-            {
-              "conf": 0.9,
-              "why": "S/E in filename",
-              "item": "drawn-together-s-03-e-02",
-              "itemTitle": "Drawn Together Season 3 German English",
-              "file": "Drawn Together S03E09.mp4",
-              "name": "Drawn Together S03E09",
-              "url": "https://archive.org/download/drawn-together-s-03-e-02/Drawn%20Together%20S03E09.mp4",
-              "seconds": 1271,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 225
-            },
-            {
-              "conf": 0.75,
-              "why": "title ~ \"Charlotte's Web of Lies\" (0.95)",
-              "item": "04.-unrestrainable-trainable",
-              "itemTitle": "Drawn Together Season 03",
-              "file": "09. Charlotte's Web of Lies.mp4",
-              "name": "09. Charlotte's Web of Lies",
-              "url": "https://archive.org/download/04.-unrestrainable-trainable/09.%20Charlotte's%20Web%20of%20Lies.mp4",
-              "seconds": 1299,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 117
             }
           ]
         },
@@ -2085,34 +2046,7 @@
             "playable": true,
             "sizeMB": 126
           },
-          "alternates": [
-            {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "dirty-little-folder",
-              "itemTitle": "The Drawn Together Collection.",
-              "file": "Drawn Together Season 03 Episode 14 – American Idol Parody Clip Show.mp4",
-              "name": "Drawn Together Season 03 Episode 14 – American Idol Parody Clip Show",
-              "url": "https://archive.org/download/dirty-little-folder/Drawn%20Together%20Season%2003%20Episode%2014%20%E2%80%93%20American%20Idol%20Parody%20Clip%20Show.mp4",
-              "seconds": 1267,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 80
-            },
-            {
-              "conf": 0.55,
-              "why": "title ~ \"American Idol Best of Show\" (0.71)",
-              "item": "04.-unrestrainable-trainable",
-              "itemTitle": "Drawn Together Season 03",
-              "file": "14. American Idol Parody Clip Show.mp4",
-              "name": "14. American Idol Parody Clip Show",
-              "url": "https://archive.org/download/04.-unrestrainable-trainable/14.%20American%20Idol%20Parody%20Clip%20Show.mp4",
-              "seconds": 1267,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 126
-            }
-          ]
+          "alternates": []
         }
       ]
     }

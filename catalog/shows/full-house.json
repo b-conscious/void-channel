@@ -3,7 +3,7 @@
   "slug": "full-house",
   "type": "90s Sitcoms",
   "network": "ABC",
-  "matchedAt": "2026-10-13T07:46:13.827Z",
+  "matchedAt": "2026-10-13T15:54:02.495Z",
   "tvmaze": {
     "id": 1251,
     "name": "Full House",
@@ -13,10 +13,10 @@
   },
   "coverage": {
     "total": 192,
-    "live": 0,
-    "review": 1,
-    "missing": 191,
-    "pct": 1
+    "live": 68,
+    "review": 2,
+    "missing": 122,
+    "pct": 36
   },
   "seasons": [
     {
@@ -26,189 +26,1183 @@
           "number": 1,
           "name": "Our Very First Show",
           "airdate": "1987-09-18",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-ita-st1",
+            "itemTitle": "Full House stagione 1 ita",
+            "file": "1x01 - Il primo episodio.mp4",
+            "name": "1x01 - Il primo episodio",
+            "url": "https://archive.org/download/full-house-ita-st1/1x01%20-%20Il%20primo%20episodio.mp4",
+            "seconds": 1472,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 229
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Open House S01E01 Fish Out Of Water.mp4",
+              "name": "Open House S01E01 Fish Out Of Water",
+              "url": "https://archive.org/download/duet-open-house/Open%20House%20S01E01%20Fish%20Out%20Of%20Water.mp4",
+              "seconds": 1404,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 204
+            },
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S01E01 - Prelude.mp4",
+              "name": "Duet S01E01 - Prelude",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S01E01%20-%20Prelude.mp4",
+              "seconds": 1351,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 134
+            },
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "so.-little.-time.-s-01.-dvdrip.-xvi-d-osi-tv",
+              "itemTitle": "So Little Time S01 2001-2002",
+              "file": "So.Little.Time.S01E01.iNTERNAL.DVDRip.XviD-OSiTV.mp4",
+              "name": "So.Little.Time.S01E01.iNTERNAL.DVDRip.XviD-OSiTV",
+              "url": "https://archive.org/download/so.-little.-time.-s-01.-dvdrip.-xvi-d-osi-tv/So.Little.Time.S01E01.iNTERNAL.DVDRip.XviD-OSiTV.mp4",
+              "seconds": 1378,
+              "format": "h.264",
+              "playable": false,
+              "codecRisk": "video (XviD)",
+              "sizeMB": 137
+            }
+          ]
         },
         {
           "number": 2,
           "name": "Our Very First Night",
           "airdate": "1987-09-25",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-ita-st1",
+            "itemTitle": "Full House stagione 1 ita",
+            "file": "1x02 - Quando il gatto non c'è....mp4",
+            "name": "1x02 - Quando il gatto non c'è...",
+            "url": "https://archive.org/download/full-house-ita-st1/1x02%20-%20Quando%20il%20gatto%20non%20c'%C3%A8....mp4",
+            "seconds": 1480,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 289
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S01E02 - Overture.mp4",
+              "name": "Duet S01E02 - Overture",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S01E02%20-%20Overture.mp4",
+              "seconds": 1394,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 138
+            },
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "so.-little.-time.-s-01.-dvdrip.-xvi-d-osi-tv",
+              "itemTitle": "So Little Time S01 2001-2002",
+              "file": "So.Little.Time.S01E02.DVDRip.XviD-OSiTV.mp4",
+              "name": "So.Little.Time.S01E02.DVDRip.XviD-OSiTV",
+              "url": "https://archive.org/download/so.-little.-time.-s-01.-dvdrip.-xvi-d-osi-tv/So.Little.Time.S01E02.DVDRip.XviD-OSiTV.mp4",
+              "seconds": 1367,
+              "format": "h.264",
+              "playable": false,
+              "codecRisk": "video (XviD)",
+              "sizeMB": 135
+            }
+          ]
         },
         {
           "number": 3,
           "name": "The First Day of School",
           "airdate": "1987-10-02",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-ita-st1",
+            "itemTitle": "Full House stagione 1 ita",
+            "file": "1x03 - Il primo giorno di scuola.mp4",
+            "name": "1x03 - Il primo giorno di scuola",
+            "url": "https://archive.org/download/full-house-ita-st1/1x03%20-%20Il%20primo%20giorno%20di%20scuola.mp4",
+            "seconds": 1480,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 302
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Open House S01E03 Going For Broker.mp4",
+              "name": "Open House S01E03 Going For Broker",
+              "url": "https://archive.org/download/duet-open-house/Open%20House%20S01E03%20Going%20For%20Broker.mp4",
+              "seconds": 1468,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 213
+            },
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S01E03 - Adagio (aka Not a Date).mp4",
+              "name": "Duet S01E03 - Adagio (aka Not a Date)",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S01E03%20-%20Adagio%20(aka%20Not%20a%20Date).mp4",
+              "seconds": 1423,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 140
+            },
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "so.-little.-time.-s-01.-dvdrip.-xvi-d-osi-tv",
+              "itemTitle": "So Little Time S01 2001-2002",
+              "file": "So.Little.Time.S01E03.iNTERNAL.DVDRip.XviD-OSiTV.mp4",
+              "name": "So.Little.Time.S01E03.iNTERNAL.DVDRip.XviD-OSiTV",
+              "url": "https://archive.org/download/so.-little.-time.-s-01.-dvdrip.-xvi-d-osi-tv/So.Little.Time.S01E03.iNTERNAL.DVDRip.XviD-OSiTV.mp4",
+              "seconds": 1380,
+              "format": "h.264",
+              "playable": false,
+              "codecRisk": "video (XviD)",
+              "sizeMB": 138
+            }
+          ]
         },
         {
           "number": 4,
           "name": "The Return of Grandma",
           "airdate": "1987-10-09",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-ita-st1",
+            "itemTitle": "Full House stagione 1 ita",
+            "file": "1x04 - Si salvi chi può.mp4",
+            "name": "1x04 - Si salvi chi può",
+            "url": "https://archive.org/download/full-house-ita-st1/1x04%20-%20Si%20salvi%20chi%20pu%C3%B2.mp4",
+            "seconds": 1482,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 253
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Open House S01E04 Whodunnit.mp4",
+              "name": "Open House S01E04 Whodunnit",
+              "url": "https://archive.org/download/duet-open-house/Open%20House%20S01E04%20Whodunnit.mp4",
+              "seconds": 1398,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 203
+            },
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S01E04 - Variations on a Theme.mp4",
+              "name": "Duet S01E04 - Variations on a Theme",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S01E04%20-%20Variations%20on%20a%20Theme.mp4",
+              "seconds": 1418,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 141
+            },
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "so.-little.-time.-s-01.-dvdrip.-xvi-d-osi-tv",
+              "itemTitle": "So Little Time S01 2001-2002",
+              "file": "So.Little.Time.S01E04.iNTERNAL.DVDRip.XviD-OSiTV.mp4",
+              "name": "So.Little.Time.S01E04.iNTERNAL.DVDRip.XviD-OSiTV",
+              "url": "https://archive.org/download/so.-little.-time.-s-01.-dvdrip.-xvi-d-osi-tv/So.Little.Time.S01E04.iNTERNAL.DVDRip.XviD-OSiTV.mp4",
+              "seconds": 1381,
+              "format": "h.264",
+              "playable": false,
+              "codecRisk": "video (XviD)",
+              "sizeMB": 138
+            }
+          ]
         },
         {
           "number": 5,
           "name": "Sea Cruise",
           "airdate": "1987-10-16",
-          "state": "REVIEW",
+          "state": "LIVE",
           "file": {
-            "conf": 0.75,
+            "conf": 0.85,
             "why": "S/E in filename",
-            "item": "CultClassicsReduxSCREENLANDS1E5",
-            "itemTitle": "Cult Classics Redux - SCREENLAND S1 E5",
-            "file": "Cult Classics Redux - SCREENLAND S1 E5 [AP-1MSW6H3A11W11]/Cult Classics Redux - SCREENLAND S1 E5 [AP-1MSW6H3A11W11].mp4",
-            "name": "Cult Classics Redux - SCREENLAND S1 E5 [AP-1MSW6H3A11W11]/Cult Classics Redux - SCREENLAND S1 E5 [AP-1MSW6H3A11W11]",
-            "url": "https://archive.org/download/CultClassicsReduxSCREENLANDS1E5/Cult%20Classics%20Redux%20-%20SCREENLAND%20S1%20E5%20%5BAP-1MSW6H3A11W11%5D%2FCult%20Classics%20Redux%20-%20SCREENLAND%20S1%20E5%20%5BAP-1MSW6H3A11W11%5D.mp4",
-            "seconds": 1475,
+            "item": "full-house-ita-st1",
+            "itemTitle": "Full House stagione 1 ita",
+            "file": "1x05 - La battuta di pesca.mp4",
+            "name": "1x05 - La battuta di pesca",
+            "url": "https://archive.org/download/full-house-ita-st1/1x05%20-%20La%20battuta%20di%20pesca.mp4",
+            "seconds": 1480,
             "format": "MPEG4",
             "playable": true,
-            "sizeMB": 1052
+            "sizeMB": 270
           },
-          "alternates": []
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "CultClassicsReduxSCREENLANDS1E5",
+              "itemTitle": "Cult Classics Redux - SCREENLAND S1 E5",
+              "file": "Cult Classics Redux - SCREENLAND S1 E5 [AP-1MSW6H3A11W11]/Cult Classics Redux - SCREENLAND S1 E5 [AP-1MSW6H3A11W11].mp4",
+              "name": "Cult Classics Redux - SCREENLAND S1 E5 [AP-1MSW6H3A11W11]/Cult Classics Redux - SCREENLAND S1 E5 [AP-1MSW6H3A11W11]",
+              "url": "https://archive.org/download/CultClassicsReduxSCREENLANDS1E5/Cult%20Classics%20Redux%20-%20SCREENLAND%20S1%20E5%20%5BAP-1MSW6H3A11W11%5D%2FCult%20Classics%20Redux%20-%20SCREENLAND%20S1%20E5%20%5BAP-1MSW6H3A11W11%5D.mp4",
+              "seconds": 1475,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 1052
+            },
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Open House S01E05 Second Honeymoon Anyone.mp4",
+              "name": "Open House S01E05 Second Honeymoon Anyone",
+              "url": "https://archive.org/download/duet-open-house/Open%20House%20S01E05%20Second%20Honeymoon%20Anyone.mp4",
+              "seconds": 1406,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 204
+            },
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S01E05 - Dissonance (aka Murdock Exposed).mp4",
+              "name": "Duet S01E05 - Dissonance (aka Murdock Exposed)",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S01E05%20-%20Dissonance%20(aka%20Murdock%20Exposed).mp4",
+              "seconds": 1425,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 144
+            }
+          ]
         },
         {
           "number": 6,
           "name": "Daddy's Home",
           "airdate": "1987-10-23",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-ita-st1",
+            "itemTitle": "Full House stagione 1 ita",
+            "file": "1x06 - Prime parole.mp4",
+            "name": "1x06 - Prime parole",
+            "url": "https://archive.org/download/full-house-ita-st1/1x06%20-%20Prime%20parole.mp4",
+            "seconds": 1480,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 242
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Open House S01E06 Dome Sweet Dome.mp4",
+              "name": "Open House S01E06 Dome Sweet Dome",
+              "url": "https://archive.org/download/duet-open-house/Open%20House%20S01E06%20Dome%20Sweet%20Dome.mp4",
+              "seconds": 1406,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 204
+            },
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S01E06 - Lullabye (aka Ensemble).mp4",
+              "name": "Duet S01E06 - Lullabye (aka Ensemble)",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S01E06%20-%20Lullabye%20(aka%20Ensemble).mp4",
+              "seconds": 1425,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 147
+            },
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "so.-little.-time.-s-01.-dvdrip.-xvi-d-osi-tv",
+              "itemTitle": "So Little Time S01 2001-2002",
+              "file": "So.Little.Time.S01E06.DVDRip.XviD-OSiTV.mp4",
+              "name": "So.Little.Time.S01E06.DVDRip.XviD-OSiTV",
+              "url": "https://archive.org/download/so.-little.-time.-s-01.-dvdrip.-xvi-d-osi-tv/So.Little.Time.S01E06.DVDRip.XviD-OSiTV.mp4",
+              "seconds": 1372,
+              "format": "h.264",
+              "playable": false,
+              "codecRisk": "video (XviD)",
+              "sizeMB": 136
+            }
+          ]
         },
         {
           "number": 7,
           "name": "Knock Yourself Out",
           "airdate": "1987-10-30",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-ita-st1",
+            "itemTitle": "Full House stagione 1 ita",
+            "file": "1x07 - Danny finisce KO.mp4",
+            "name": "1x07 - Danny finisce KO",
+            "url": "https://archive.org/download/full-house-ita-st1/1x07%20-%20Danny%20finisce%20KO.mp4",
+            "seconds": 1480,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 253
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Open House S01E07 Let's Get Physicals.mp4",
+              "name": "Open House S01E07 Let's Get Physicals",
+              "url": "https://archive.org/download/duet-open-house/Open%20House%20S01E07%20Let's%20Get%20Physicals.mp4",
+              "seconds": 1406,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 204
+            },
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "so.-little.-time.-s-01.-dvdrip.-xvi-d-osi-tv",
+              "itemTitle": "So Little Time S01 2001-2002",
+              "file": "So.Little.Time.S01E07.DVDRip.XviD-OSiTV.mp4",
+              "name": "So.Little.Time.S01E07.DVDRip.XviD-OSiTV",
+              "url": "https://archive.org/download/so.-little.-time.-s-01.-dvdrip.-xvi-d-osi-tv/So.Little.Time.S01E07.DVDRip.XviD-OSiTV.mp4",
+              "seconds": 1382,
+              "format": "h.264",
+              "playable": false,
+              "codecRisk": "video (XviD)",
+              "sizeMB": 138
+            }
+          ]
         },
         {
           "number": 8,
           "name": "Jesse's Girl",
           "airdate": "1987-11-06",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-ita-st1",
+            "itemTitle": "Full House stagione 1 ita",
+            "file": "1x08 - L'allieva innamorata.mp4",
+            "name": "1x08 - L'allieva innamorata",
+            "url": "https://archive.org/download/full-house-ita-st1/1x08%20-%20L'allieva%20innamorata.mp4",
+            "seconds": 1462,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 234
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Open House S01E08 Married Without Children.mp4",
+              "name": "Open House S01E08 Married Without Children",
+              "url": "https://archive.org/download/duet-open-house/Open%20House%20S01E08%20Married%20Without%20Children.mp4",
+              "seconds": 1404,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 204
+            },
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "so.-little.-time.-s-01.-dvdrip.-xvi-d-osi-tv",
+              "itemTitle": "So Little Time S01 2001-2002",
+              "file": "So.Little.Time.S01E08.DVDRip.XviD-OSiTV.mp4",
+              "name": "So.Little.Time.S01E08.DVDRip.XviD-OSiTV",
+              "url": "https://archive.org/download/so.-little.-time.-s-01.-dvdrip.-xvi-d-osi-tv/So.Little.Time.S01E08.DVDRip.XviD-OSiTV.mp4",
+              "seconds": 1366,
+              "format": "h.264",
+              "playable": false,
+              "codecRisk": "video (XviD)",
+              "sizeMB": 136
+            }
+          ]
         },
         {
           "number": 9,
           "name": "The Miracle of Thanksgiving",
           "airdate": "1987-11-20",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-ita-st1",
+            "itemTitle": "Full House stagione 1 ita",
+            "file": "1x09 - Il bello delle feste.mp4",
+            "name": "1x09 - Il bello delle feste",
+            "url": "https://archive.org/download/full-house-ita-st1/1x09%20-%20Il%20bello%20delle%20feste.mp4",
+            "seconds": 1480,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 253
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Open House S01E09 Torn Between Two Houses(a few shakes).mp4",
+              "name": "Open House S01E09 Torn Between Two Houses(a few shakes)",
+              "url": "https://archive.org/download/duet-open-house/Open%20House%20S01E09%20Torn%20Between%20Two%20Houses(a%20few%20shakes).mp4",
+              "seconds": 1393,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 202
+            },
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S01E09 - Liebestraum.mp4",
+              "name": "Duet S01E09 - Liebestraum",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S01E09%20-%20Liebestraum.mp4",
+              "seconds": 1375,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 139
+            },
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "so.-little.-time.-s-01.-dvdrip.-xvi-d-osi-tv",
+              "itemTitle": "So Little Time S01 2001-2002",
+              "file": "So.Little.Time.S01E09.iNTERNAL.DVDRip.XviD-OSiTV.mp4",
+              "name": "So.Little.Time.S01E09.iNTERNAL.DVDRip.XviD-OSiTV",
+              "url": "https://archive.org/download/so.-little.-time.-s-01.-dvdrip.-xvi-d-osi-tv/So.Little.Time.S01E09.iNTERNAL.DVDRip.XviD-OSiTV.mp4",
+              "seconds": 1385,
+              "format": "h.264",
+              "playable": false,
+              "codecRisk": "video (XviD)",
+              "sizeMB": 136
+            }
+          ]
         },
         {
           "number": 10,
           "name": "Joey's Place",
           "airdate": "1987-12-04",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-ita-st1",
+            "itemTitle": "Full House stagione 1 ita",
+            "file": "1x10 -  Una sorpresa per Joey.mp4",
+            "name": "1x10 -  Una sorpresa per Joey",
+            "url": "https://archive.org/download/full-house-ita-st1/1x10%20-%20%20Una%20sorpresa%20per%20Joey.mp4",
+            "seconds": 1480,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 295
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Open House S01E10 Murder, He Wrote.mp4",
+              "name": "Open House S01E10 Murder, He Wrote",
+              "url": "https://archive.org/download/duet-open-house/Open%20House%20S01E10%20Murder%2C%20He%20Wrote.mp4",
+              "seconds": 1405,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 204
+            },
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S01E10 - Work In Progress.mp4",
+              "name": "Duet S01E10 - Work In Progress",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S01E10%20-%20Work%20In%20Progress.mp4",
+              "seconds": 1422,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 140
+            },
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "so.-little.-time.-s-01.-dvdrip.-xvi-d-osi-tv",
+              "itemTitle": "So Little Time S01 2001-2002",
+              "file": "So.Little.Time.S01E10.DVDRip.XviD-OSiTV.mp4",
+              "name": "So.Little.Time.S01E10.DVDRip.XviD-OSiTV",
+              "url": "https://archive.org/download/so.-little.-time.-s-01.-dvdrip.-xvi-d-osi-tv/So.Little.Time.S01E10.DVDRip.XviD-OSiTV.mp4",
+              "seconds": 1388,
+              "format": "h.264",
+              "playable": false,
+              "codecRisk": "video (XviD)",
+              "sizeMB": 137
+            }
+          ]
         },
         {
           "number": 11,
           "name": "The Big Three-O",
           "airdate": "1987-12-11",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-ita-st1",
+            "itemTitle": "Full House stagione 1 ita",
+            "file": "1x11 - Crisi di mezza età.mp4",
+            "name": "1x11 - Crisi di mezza età",
+            "url": "https://archive.org/download/full-house-ita-st1/1x11%20-%20Crisi%20di%20mezza%20et%C3%A0.mp4",
+            "seconds": 1480,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 264
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Open House S01E11 In Vegas....with Showgirls! Part 1.ia.mp4",
+              "name": "Open House S01E11 In Vegas...",
+              "url": "https://archive.org/download/duet-open-house/Open%20House%20S01E11%20In%20Vegas....with%20Showgirls!%20Part%201.ia.mp4",
+              "seconds": 1405,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 204
+            },
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Open House S01E11 In Vegas....with Showgirls! Part 1.mp4",
+              "name": "Open House S01E11 In Vegas....with Showgirls! Part 1",
+              "url": "https://archive.org/download/duet-open-house/Open%20House%20S01E11%20In%20Vegas....with%20Showgirls!%20Part%201.mp4",
+              "seconds": 1405,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 204
+            },
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S01E11 - Elegy (aka The Long Goodbye).mp4",
+              "name": "Duet S01E11 - Elegy (aka The Long Goodbye)",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S01E11%20-%20Elegy%20(aka%20The%20Long%20Goodbye).mp4",
+              "seconds": 1414,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 140
+            }
+          ]
         },
         {
           "number": 12,
           "name": "Our Very First Promo",
           "airdate": "1987-12-18",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-ita-st1",
+            "itemTitle": "Full House stagione 1 ita",
+            "file": "1x12 - Ciak, si gira!.mp4",
+            "name": "1x12 - Ciak, si gira!",
+            "url": "https://archive.org/download/full-house-ita-st1/1x12%20-%20Ciak%2C%20si%20gira!.mp4",
+            "seconds": 1466,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 256
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Open House S01E12 In Vegas....with Showgirls! Part 2.ia.mp4",
+              "name": "Open House S01E12 In Vegas...",
+              "url": "https://archive.org/download/duet-open-house/Open%20House%20S01E12%20In%20Vegas....with%20Showgirls!%20Part%202.ia.mp4",
+              "seconds": 1407,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 204
+            },
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Open House S01E12 In Vegas....with Showgirls! Part 2.mp4",
+              "name": "Open House S01E12 In Vegas....with Showgirls! Part 2",
+              "url": "https://archive.org/download/duet-open-house/Open%20House%20S01E12%20In%20Vegas....with%20Showgirls!%20Part%202.mp4",
+              "seconds": 1407,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 204
+            },
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S01E12 - Trio.mp4",
+              "name": "Duet S01E12 - Trio",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S01E12%20-%20Trio.mp4",
+              "seconds": 1323,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 131
+            }
+          ]
         },
         {
           "number": 13,
           "name": "Sisterly Love",
           "airdate": "1988-01-08",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-ita-st1",
+            "itemTitle": "Full House stagione 1 ita",
+            "file": "1x13 - Rivalità tra sorelle.mp4",
+            "name": "1x13 - Rivalità tra sorelle",
+            "url": "https://archive.org/download/full-house-ita-st1/1x13%20-%20Rivalit%C3%A0%20tra%20sorelle.mp4",
+            "seconds": 1480,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 259
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Open House S01E13 Parade Of Homes.mp4",
+              "name": "Open House S01E13 Parade Of Homes",
+              "url": "https://archive.org/download/duet-open-house/Open%20House%20S01E13%20Parade%20Of%20Homes.mp4",
+              "seconds": 1406,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 204
+            },
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S01E13 - Passage.mp4",
+              "name": "Duet S01E13 - Passage",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S01E13%20-%20Passage.mp4",
+              "seconds": 1414,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 139
+            },
+            {
+              "conf": 0.6,
+              "why": "absolute episode number",
+              "item": "episode-13.-full-house-1987-1995-sitcom-my-face-a-situation-comedy-podcast",
+              "itemTitle": "Episode 13. Full House (1987-1995) - Sitcom My Face: A Situation Comedy Podcast",
+              "file": "Episode 13. Full House (1987-1995) - Sitcom My Face_ A Situation Comedy Podcast.mp4",
+              "name": "Episode 13. Full House (1987-1995) - Sitcom My Face_ A Situation Comedy Podcast",
+              "url": "https://archive.org/download/episode-13.-full-house-1987-1995-sitcom-my-face-a-situation-comedy-podcast/Episode%2013.%20Full%20House%20(1987-1995)%20-%20Sitcom%20My%20Face_%20A%20Situation%20Comedy%20Podcast.mp4",
+              "seconds": 4019,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 551
+            }
+          ]
         },
         {
           "number": 14,
           "name": "Half a Love Story",
           "airdate": "1988-01-15",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-ita-st1",
+            "itemTitle": "Full House stagione 1 ita",
+            "file": "1x14 - Un amore incompiuto.mp4",
+            "name": "1x14 - Un amore incompiuto",
+            "url": "https://archive.org/download/full-house-ita-st1/1x14%20-%20Un%20amore%20incompiuto.mp4",
+            "seconds": 1480,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 237
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Open House S01E14 Bye, Bye Boris.mp4",
+              "name": "Open House S01E14 Bye, Bye Boris",
+              "url": "https://archive.org/download/duet-open-house/Open%20House%20S01E14%20Bye%2C%20Bye%20Boris.mp4",
+              "seconds": 1405,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 204
+            },
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "so.-little.-time.-s-01.-dvdrip.-xvi-d-osi-tv",
+              "itemTitle": "So Little Time S01 2001-2002",
+              "file": "So.Little.Time.S01E14.iNTERNAL.DVDRip.XviD-OSiTV.mp4",
+              "name": "So.Little.Time.S01E14.iNTERNAL.DVDRip.XviD-OSiTV",
+              "url": "https://archive.org/download/so.-little.-time.-s-01.-dvdrip.-xvi-d-osi-tv/So.Little.Time.S01E14.iNTERNAL.DVDRip.XviD-OSiTV.mp4",
+              "seconds": 1344,
+              "format": "h.264",
+              "playable": false,
+              "codecRisk": "video (XviD)",
+              "sizeMB": 133
+            }
+          ]
         },
         {
           "number": 15,
           "name": "A Pox in Our House",
           "airdate": "1988-01-29",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-ita-st1",
+            "itemTitle": "Full House stagione 1 ita",
+            "file": "1x15 -  Contagio a casa Tanner.mp4",
+            "name": "1x15 -  Contagio a casa Tanner",
+            "url": "https://archive.org/download/full-house-ita-st1/1x15%20-%20%20Contagio%20a%20casa%20Tanner.mp4",
+            "seconds": 1480,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 275
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Open House S01E15 Who Framed Roger McSwain.mp4",
+              "name": "Open House S01E15 Who Framed Roger McSwain",
+              "url": "https://archive.org/download/duet-open-house/Open%20House%20S01E15%20Who%20Framed%20Roger%20McSwain.mp4",
+              "seconds": 1396,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 203
+            },
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "so.-little.-time.-s-01.-dvdrip.-xvi-d-osi-tv",
+              "itemTitle": "So Little Time S01 2001-2002",
+              "file": "So.Little.Time.S01E15.iNTERNAL.DVDRip.XviD-OSiTV.mp4",
+              "name": "So.Little.Time.S01E15.iNTERNAL.DVDRip.XviD-OSiTV",
+              "url": "https://archive.org/download/so.-little.-time.-s-01.-dvdrip.-xvi-d-osi-tv/So.Little.Time.S01E15.iNTERNAL.DVDRip.XviD-OSiTV.mp4",
+              "seconds": 1358,
+              "format": "h.264",
+              "playable": false,
+              "codecRisk": "video (XviD)",
+              "sizeMB": 136
+            }
+          ]
         },
         {
           "number": 16,
           "name": "But Seriously, Folks",
           "airdate": "1988-02-05",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-ita-st1",
+            "itemTitle": "Full House stagione 1 ita",
+            "file": "1x16 - Un cattivo esempio.mp4",
+            "name": "1x16 - Un cattivo esempio",
+            "url": "https://archive.org/download/full-house-ita-st1/1x16%20-%20Un%20cattivo%20esempio.mp4",
+            "seconds": 1480,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 259
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Open House S01E16 An Unmarried Woman.mp4",
+              "name": "Open House S01E16 An Unmarried Woman",
+              "url": "https://archive.org/download/duet-open-house/Open%20House%20S01E16%20An%20Unmarried%20Woman.mp4",
+              "seconds": 1406,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 204
+            },
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "so.-little.-time.-s-01.-dvdrip.-xvi-d-osi-tv",
+              "itemTitle": "So Little Time S01 2001-2002",
+              "file": "So.Little.Time.S01E16.DVDRip.XviD-OSiTV.mp4",
+              "name": "So.Little.Time.S01E16.DVDRip.XviD-OSiTV",
+              "url": "https://archive.org/download/so.-little.-time.-s-01.-dvdrip.-xvi-d-osi-tv/So.Little.Time.S01E16.DVDRip.XviD-OSiTV.mp4",
+              "seconds": 1375,
+              "format": "h.264",
+              "playable": false,
+              "codecRisk": "video (XviD)",
+              "sizeMB": 137
+            }
+          ]
         },
         {
           "number": 17,
           "name": "Danny's Very First Date",
           "airdate": "1988-02-12",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-ita-st1",
+            "itemTitle": "Full House stagione 1 ita",
+            "file": "1x17 -  Il primo appuntamento di Danny.mp4",
+            "name": "1x17 -  Il primo appuntamento di Danny",
+            "url": "https://archive.org/download/full-house-ita-st1/1x17%20-%20%20Il%20primo%20appuntamento%20di%20Danny.mp4",
+            "seconds": 1480,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 275
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Open House S01E17 The Bad Seed.mp4",
+              "name": "Open House S01E17 The Bad Seed",
+              "url": "https://archive.org/download/duet-open-house/Open%20House%20S01E17%20The%20Bad%20Seed.mp4",
+              "seconds": 1395,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 203
+            },
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "so.-little.-time.-s-01.-dvdrip.-xvi-d-osi-tv",
+              "itemTitle": "So Little Time S01 2001-2002",
+              "file": "So.Little.Time.S01E17.iNTERNAL.DVDRip.XviD-OSiTV.mp4",
+              "name": "So.Little.Time.S01E17.iNTERNAL.DVDRip.XviD-OSiTV",
+              "url": "https://archive.org/download/so.-little.-time.-s-01.-dvdrip.-xvi-d-osi-tv/So.Little.Time.S01E17.iNTERNAL.DVDRip.XviD-OSiTV.mp4",
+              "seconds": 1391,
+              "format": "h.264",
+              "playable": false,
+              "codecRisk": "video (XviD)",
+              "sizeMB": 138
+            }
+          ]
         },
         {
           "number": 18,
           "name": "Just One of the Guys",
           "airdate": "1988-03-04",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-ita-st1",
+            "itemTitle": "Full House stagione 1 ita",
+            "file": "1x18 - Roba da uomini.mp4",
+            "name": "1x18 - Roba da uomini",
+            "url": "https://archive.org/download/full-house-ita-st1/1x18%20-%20Roba%20da%20uomini.mp4",
+            "seconds": 1460,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 291
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Open House S01E18 Lost Weekend.mp4",
+              "name": "Open House S01E18 Lost Weekend",
+              "url": "https://archive.org/download/duet-open-house/Open%20House%20S01E18%20Lost%20Weekend.mp4",
+              "seconds": 1398,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 203
+            },
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "so.-little.-time.-s-01.-dvdrip.-xvi-d-osi-tv",
+              "itemTitle": "So Little Time S01 2001-2002",
+              "file": "So.Little.Time.S01E18.iNTERNAL.DVDRip.XviD-OSiTV.mp4",
+              "name": "So.Little.Time.S01E18.iNTERNAL.DVDRip.XviD-OSiTV",
+              "url": "https://archive.org/download/so.-little.-time.-s-01.-dvdrip.-xvi-d-osi-tv/So.Little.Time.S01E18.iNTERNAL.DVDRip.XviD-OSiTV.mp4",
+              "seconds": 1369,
+              "format": "h.264",
+              "playable": false,
+              "codecRisk": "video (XviD)",
+              "sizeMB": 135
+            }
+          ]
         },
         {
           "number": 19,
           "name": "The Seven-Month Itch (1)",
           "airdate": "1988-03-11",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-ita-st1",
+            "itemTitle": "Full House stagione 1 ita",
+            "file": "1x19 - La crisi del settimo mese - Parte 1.mp4",
+            "name": "1x19 - La crisi del settimo mese - Parte 1",
+            "url": "https://archive.org/download/full-house-ita-st1/1x19%20-%20La%20crisi%20del%20settimo%20mese%20-%20Parte%201.mp4",
+            "seconds": 1482,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 275
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Open House S01E19 Dumbstruck.mp4",
+              "name": "Open House S01E19 Dumbstruck",
+              "url": "https://archive.org/download/duet-open-house/Open%20House%20S01E19%20Dumbstruck.mp4",
+              "seconds": 1406,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 204
+            },
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "so.-little.-time.-s-01.-dvdrip.-xvi-d-osi-tv",
+              "itemTitle": "So Little Time S01 2001-2002",
+              "file": "So.Little.Time.S01E19.DVDRip.XviD-OSiTV.mp4",
+              "name": "So.Little.Time.S01E19.DVDRip.XviD-OSiTV",
+              "url": "https://archive.org/download/so.-little.-time.-s-01.-dvdrip.-xvi-d-osi-tv/So.Little.Time.S01E19.DVDRip.XviD-OSiTV.mp4",
+              "seconds": 1362,
+              "format": "h.264",
+              "playable": false,
+              "codecRisk": "video (XviD)",
+              "sizeMB": 135
+            }
+          ]
         },
         {
           "number": 20,
           "name": "The Seven-Month Itch (2)",
           "airdate": "1988-03-18",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-ita-st1",
+            "itemTitle": "Full House stagione 1 ita",
+            "file": "1x20 - La crisi del settimo mese - Parte 2.mp4",
+            "name": "1x20 - La crisi del settimo mese - Parte 2",
+            "url": "https://archive.org/download/full-house-ita-st1/1x20%20-%20La%20crisi%20del%20settimo%20mese%20-%20Parte%202.mp4",
+            "seconds": 1480,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 275
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Open House S01E20 Brother, Can You Spare A Grand.mp4",
+              "name": "Open House S01E20 Brother, Can You Spare A Grand",
+              "url": "https://archive.org/download/duet-open-house/Open%20House%20S01E20%20Brother%2C%20Can%20You%20Spare%20A%20Grand.mp4",
+              "seconds": 1406,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 204
+            },
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "so.-little.-time.-s-01.-dvdrip.-xvi-d-osi-tv",
+              "itemTitle": "So Little Time S01 2001-2002",
+              "file": "So.Little.Time.S01E20.DVDRip.XviD-OSiTV.mp4",
+              "name": "So.Little.Time.S01E20.DVDRip.XviD-OSiTV",
+              "url": "https://archive.org/download/so.-little.-time.-s-01.-dvdrip.-xvi-d-osi-tv/So.Little.Time.S01E20.DVDRip.XviD-OSiTV.mp4",
+              "seconds": 1362,
+              "format": "h.264",
+              "playable": false,
+              "codecRisk": "video (XviD)",
+              "sizeMB": 134
+            }
+          ]
         },
         {
           "number": 21,
           "name": "Mad Money",
           "airdate": "1988-04-29",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-ita-st1",
+            "itemTitle": "Full House stagione 1 ita",
+            "file": "1x21 - Spese pazze.mp4",
+            "name": "1x21 - Spese pazze",
+            "url": "https://archive.org/download/full-house-ita-st1/1x21%20-%20Spese%20pazze.mp4",
+            "seconds": 1448,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 275
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Open House S01E21 New Kid In Town.mp4",
+              "name": "Open House S01E21 New Kid In Town",
+              "url": "https://archive.org/download/duet-open-house/Open%20House%20S01E21%20New%20Kid%20In%20Town.mp4",
+              "seconds": 1406,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 204
+            },
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "so.-little.-time.-s-01.-dvdrip.-xvi-d-osi-tv",
+              "itemTitle": "So Little Time S01 2001-2002",
+              "file": "So.Little.Time.S01E21.DVDRip.XviD-OSiTV.mp4",
+              "name": "So.Little.Time.S01E21.DVDRip.XviD-OSiTV",
+              "url": "https://archive.org/download/so.-little.-time.-s-01.-dvdrip.-xvi-d-osi-tv/So.Little.Time.S01E21.DVDRip.XviD-OSiTV.mp4",
+              "seconds": 1351,
+              "format": "h.264",
+              "playable": false,
+              "codecRisk": "video (XviD)",
+              "sizeMB": 134
+            }
+          ]
         },
         {
           "number": 22,
           "name": "D.J. Tanners's Day Off",
           "airdate": "1988-05-06",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-ita-st1",
+            "itemTitle": "Full House stagione 1 ita",
+            "file": "1x22 - DJ si prende una vacanza.mp4",
+            "name": "1x22 - DJ si prende una vacanza",
+            "url": "https://archive.org/download/full-house-ita-st1/1x22%20-%20DJ%20si%20prende%20una%20vacanza.mp4",
+            "seconds": 1480,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 253
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Open House S01E22 The Real Estate Thing.mp4",
+              "name": "Open House S01E22 The Real Estate Thing",
+              "url": "https://archive.org/download/duet-open-house/Open%20House%20S01E22%20The%20Real%20Estate%20Thing.mp4",
+              "seconds": 1407,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 204
+            },
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "so.-little.-time.-s-01.-dvdrip.-xvi-d-osi-tv",
+              "itemTitle": "So Little Time S01 2001-2002",
+              "file": "So.Little.Time.S01E22.iNTERNAL.DVDRip.XviD-OSiTV.mp4",
+              "name": "So.Little.Time.S01E22.iNTERNAL.DVDRip.XviD-OSiTV",
+              "url": "https://archive.org/download/so.-little.-time.-s-01.-dvdrip.-xvi-d-osi-tv/So.Little.Time.S01E22.iNTERNAL.DVDRip.XviD-OSiTV.mp4",
+              "seconds": 1379,
+              "format": "h.264",
+              "playable": false,
+              "codecRisk": "video (XviD)",
+              "sizeMB": 136
+            }
+          ]
         }
       ]
     },
@@ -219,176 +1213,734 @@
           "number": 1,
           "name": "Cutting It Close",
           "airdate": "1988-10-14",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-ita-st2",
+            "itemTitle": "Full House stagione 2 ita",
+            "file": "2x01 - Corto è bello.mp4",
+            "name": "2x01 - Corto è bello",
+            "url": "https://archive.org/download/full-house-ita-st2/2x01%20-%20Corto%20%C3%A8%20bello.mp4",
+            "seconds": 1470,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 279
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S02E01 - Apart.mp4",
+              "name": "Duet S02E01 - Apart",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S02E01%20-%20Apart.mp4",
+              "seconds": 1424,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 144
+            }
+          ]
         },
         {
           "number": 2,
           "name": "Tanner vs. Gibbler",
           "airdate": "1988-10-21",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-ita-st2",
+            "itemTitle": "Full House stagione 2 ita",
+            "file": "2x02 - Nemiche amiche.mp4",
+            "name": "2x02 - Nemiche amiche",
+            "url": "https://archive.org/download/full-house-ita-st2/2x02%20-%20Nemiche%20amiche.mp4",
+            "seconds": 1470,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 262
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S02E02 - You're Nobody 'Til Somebody Leaves You.mp4",
+              "name": "Duet S02E02 - You're Nobody 'Til Somebody Leaves You",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S02E02%20-%20You're%20Nobody%20'Til%20Somebody%20Leaves%20You.mp4",
+              "seconds": 1386,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 139
+            }
+          ]
         },
         {
           "number": 3,
           "name": "It's Not My Job",
           "airdate": "1988-10-28",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-ita-st2",
+            "itemTitle": "Full House stagione 2 ita",
+            "file": "2x03 - Il lavoro perfetto.mp4",
+            "name": "2x03 - Il lavoro perfetto",
+            "url": "https://archive.org/download/full-house-ita-st2/2x03%20-%20Il%20lavoro%20perfetto.mp4",
+            "seconds": 1472,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 293
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S02E03 - The Cower of Love.mp4",
+              "name": "Duet S02E03 - The Cower of Love",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S02E03%20-%20The%20Cower%20of%20Love.mp4",
+              "seconds": 1398,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 142
+            }
+          ]
         },
         {
           "number": 4,
           "name": "D.J.'s Very First Horse",
           "airdate": "1988-11-04",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-ita-st2",
+            "itemTitle": "Full House stagione 2 ita",
+            "file": "2x04 - Un pony per amico.mp4",
+            "name": "2x04 - Un pony per amico",
+            "url": "https://archive.org/download/full-house-ita-st2/2x04%20-%20Un%20pony%20per%20amico.mp4",
+            "seconds": 1472,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 273
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S02E04 - Lots of Things Happen.mp4",
+              "name": "Duet S02E04 - Lots of Things Happen",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S02E04%20-%20Lots%20of%20Things%20Happen.mp4",
+              "seconds": 1408,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 142
+            }
+          ]
         },
         {
           "number": 5,
           "name": "Jingle Hell",
           "airdate": "1988-11-11",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-ita-st2",
+            "itemTitle": "Full House stagione 2 ita",
+            "file": "2x05 - Jingle a quattro mani.mp4",
+            "name": "2x05 - Jingle a quattro mani",
+            "url": "https://archive.org/download/full-house-ita-st2/2x05%20-%20Jingle%20a%20quattro%20mani.mp4",
+            "seconds": 1470,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 262
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S02E05 - Strange Bedfellows.mp4",
+              "name": "Duet S02E05 - Strange Bedfellows",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S02E05%20-%20Strange%20Bedfellows.mp4",
+              "seconds": 1422,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 144
+            }
+          ]
         },
         {
           "number": 6,
           "name": "Beach Boy Bingo",
           "airdate": "1988-11-18",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-ita-st2",
+            "itemTitle": "Full House stagione 2 ita",
+            "file": "2x06 - Pizza, birra & rock'n roll.mp4",
+            "name": "2x06 - Pizza, birra & rock'n roll",
+            "url": "https://archive.org/download/full-house-ita-st2/2x06%20-%20Pizza%2C%20birra%20%26%20rock'n%20roll.mp4",
+            "seconds": 1421,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 389
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S02E06 - Satin Doll.mp4",
+              "name": "Duet S02E06 - Satin Doll",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S02E06%20-%20Satin%20Doll.mp4",
+              "seconds": 1356,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 136
+            }
+          ]
         },
         {
           "number": 7,
           "name": "Joey Gets Tough",
           "airdate": "1988-11-25",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-ita-st2",
+            "itemTitle": "Full House stagione 2 ita",
+            "file": "2x07 -  Joey fa il duro.mp4",
+            "name": "2x07 -  Joey fa il duro",
+            "url": "https://archive.org/download/full-house-ita-st2/2x07%20-%20%20Joey%20fa%20il%20duro.mp4",
+            "seconds": 1474,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 279
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S02E07 - Jane's Getting Serious.mp4",
+              "name": "Duet S02E07 - Jane's Getting Serious",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S02E07%20-%20Jane's%20Getting%20Serious.mp4",
+              "seconds": 1391,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 140
+            }
+          ]
         },
         {
           "number": 8,
           "name": "Triple Date",
           "airdate": "1988-12-09",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-ita-st2",
+            "itemTitle": "Full House stagione 2 ita",
+            "file": "2x08 - Colpi di fulmine.mp4",
+            "name": "2x08 - Colpi di fulmine",
+            "url": "https://archive.org/download/full-house-ita-st2/2x08%20-%20Colpi%20di%20fulmine.mp4",
+            "seconds": 1472,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 257
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S02E08 - I've Never Played for My Father (Part I).mp4",
+              "name": "Duet S02E08 - I've Never Played for My Father (Part I)",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S02E08%20-%20I've%20Never%20Played%20for%20My%20Father%20(Part%20I).mp4",
+              "seconds": 1363,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 136
+            }
+          ]
         },
         {
           "number": 9,
           "name": "Our Very First Christmas Show",
           "airdate": "1988-12-16",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-ita-st2",
+            "itemTitle": "Full House stagione 2 ita",
+            "file": "2x09 - Il primo episodio di Natale.mp4",
+            "name": "2x09 - Il primo episodio di Natale",
+            "url": "https://archive.org/download/full-house-ita-st2/2x09%20-%20Il%20primo%20episodio%20di%20Natale.mp4",
+            "seconds": 1472,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 279
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S02E09 - I've Never Played for My Father (Part II).mp4",
+              "name": "Duet S02E09 - I've Never Played for My Father (Part II)",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S02E09%20-%20I've%20Never%20Played%20for%20My%20Father%20(Part%20II).mp4",
+              "seconds": 1383,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 139
+            }
+          ]
         },
         {
           "number": 10,
           "name": "Middle Age Crazy",
           "airdate": "1989-01-06",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-ita-st2",
+            "itemTitle": "Full House stagione 2 ita",
+            "file": "2x10 - Stephanie si sposa.mp4",
+            "name": "2x10 - Stephanie si sposa",
+            "url": "https://archive.org/download/full-house-ita-st2/2x10%20-%20Stephanie%20si%20sposa.mp4",
+            "seconds": 1472,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 301
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S02E10 - Born, Bred and Buttered in Brooklyn.mp4",
+              "name": "Duet S02E10 - Born, Bred and Buttered in Brooklyn",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S02E10%20-%20Born%2C%20Bred%20and%20Buttered%20in%20Brooklyn.mp4",
+              "seconds": 1392,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 142
+            }
+          ]
         },
         {
           "number": 11,
           "name": "A Little Romance",
           "airdate": "1989-01-13",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-ita-st2",
+            "itemTitle": "Full House stagione 2 ita",
+            "file": "2x11 - Primi amori.mp4",
+            "name": "2x11 - Primi amori",
+            "url": "https://archive.org/download/full-house-ita-st2/2x11%20-%20Primi%20amori.mp4",
+            "seconds": 1472,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 279
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S02E11 - Fatal Distraction.mp4",
+              "name": "Duet S02E11 - Fatal Distraction",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S02E11%20-%20Fatal%20Distraction.mp4",
+              "seconds": 1389,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 140
+            }
+          ]
         },
         {
           "number": 12,
           "name": "Fogged In",
           "airdate": "1989-01-20",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-ita-st2",
+            "itemTitle": "Full House stagione 2 ita",
+            "file": "2x12 - Nebbia.mp4",
+            "name": "2x12 - Nebbia",
+            "url": "https://archive.org/download/full-house-ita-st2/2x12%20-%20Nebbia.mp4",
+            "seconds": 1472,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 279
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S02E12 - A Hero Is Just a Sandwich.mp4",
+              "name": "Duet S02E12 - A Hero Is Just a Sandwich",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S02E12%20-%20A%20Hero%20Is%20Just%20a%20Sandwich.mp4",
+              "seconds": 1393,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 137
+            }
+          ]
         },
         {
           "number": 13,
           "name": "Working Mothers",
           "airdate": "1989-02-03",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-ita-st2",
+            "itemTitle": "Full House stagione 2 ita",
+            "file": "2x13 - Madri assenti.mp4",
+            "name": "2x13 - Madri assenti",
+            "url": "https://archive.org/download/full-house-ita-st2/2x13%20-%20Madri%20assenti.mp4",
+            "seconds": 1442,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 246
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S02E13 - The Package.mp4",
+              "name": "Duet S02E13 - The Package",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S02E13%20-%20The%20Package.mp4",
+              "seconds": 1271,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 125
+            }
+          ]
         },
         {
           "number": 14,
           "name": "Little Shop of Sweaters",
           "airdate": "1989-02-10",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-ita-st2",
+            "itemTitle": "Full House stagione 2 ita",
+            "file": "2x14 - La piccola bottega dei maglioni.mp4",
+            "name": "2x14 - La piccola bottega dei maglioni",
+            "url": "https://archive.org/download/full-house-ita-st2/2x14%20-%20La%20piccola%20bottega%20dei%20maglioni.mp4",
+            "seconds": 1442,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 273
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S02E14 - Baby Talk.mp4",
+              "name": "Duet S02E14 - Baby Talk",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S02E14%20-%20Baby%20Talk.mp4",
+              "seconds": 1391,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 136
+            }
+          ]
         },
         {
           "number": 15,
           "name": "Pal Joey",
           "airdate": "1989-02-17",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-ita-st2",
+            "itemTitle": "Full House stagione 2 ita",
+            "file": "2x15 - Il mio amico Joey.mp4",
+            "name": "2x15 - Il mio amico Joey",
+            "url": "https://archive.org/download/full-house-ita-st2/2x15%20-%20Il%20mio%20amico%20Joey.mp4",
+            "seconds": 1442,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 257
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S02E15 - Funny Valentine.mp4",
+              "name": "Duet S02E15 - Funny Valentine",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S02E15%20-%20Funny%20Valentine.mp4",
+              "seconds": 1608,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 161
+            }
+          ]
         },
         {
           "number": 16,
           "name": "Baby Love",
           "airdate": "1989-02-24",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-ita-st2",
+            "itemTitle": "Full House stagione 2 ita",
+            "file": "2x16 - Michelle s'innamora.mp4",
+            "name": "2x16 - Michelle s'innamora",
+            "url": "https://archive.org/download/full-house-ita-st2/2x16%20-%20Michelle%20s'innamora.mp4",
+            "seconds": 1442,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 252
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S02E16 - The Candidate.mp4",
+              "name": "Duet S02E16 - The Candidate",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S02E16%20-%20The%20Candidate.mp4",
+              "seconds": 1391,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 136
+            }
+          ]
         },
         {
           "number": 17,
           "name": "El Problema Grande de D.J.",
           "airdate": "1989-03-10",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "full-house-ita-st2",
+            "itemTitle": "Full House stagione 2 ita",
+            "file": "2x17 - Il problema grande di DJ.mp4",
+            "name": "2x17 - Il problema grande di DJ",
+            "url": "https://archive.org/download/full-house-ita-st2/2x17%20-%20Il%20problema%20grande%20di%20DJ.mp4",
+            "seconds": 1442,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 267
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S02E17 - Special Delivery.mp4",
+              "name": "Duet S02E17 - Special Delivery",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S02E17%20-%20Special%20Delivery.mp4",
+              "seconds": 1409,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 138
+            }
+          ]
         },
         {
           "number": 18,
           "name": "Goodbye, Mr. Bear",
           "airdate": "1989-03-24",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-ita-st2",
+            "itemTitle": "Full House stagione 2 ita",
+            "file": "2x18 - Chi l'ha visto.mp4",
+            "name": "2x18 - Chi l'ha visto",
+            "url": "https://archive.org/download/full-house-ita-st2/2x18%20-%20Chi%20l'ha%20visto.mp4",
+            "seconds": 1442,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 257
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S02E18 - Oh My God, I Left The Baby on the Bus.mp4",
+              "name": "Duet S02E18 - Oh My God, I Left The Baby on the Bus",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S02E18%20-%20Oh%20My%20God%2C%20I%20Left%20The%20Baby%20on%20the%20Bus.mp4",
+              "seconds": 1448,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 142
+            }
+          ]
         },
         {
           "number": 19,
           "name": "Blast from the Past",
           "airdate": "1989-04-07",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-ita-st2",
+            "itemTitle": "Full House stagione 2 ita",
+            "file": "2x19 - Ritorno di fulmine.mp4",
+            "name": "2x19 - Ritorno di fulmine",
+            "url": "https://archive.org/download/full-house-ita-st2/2x19%20-%20Ritorno%20di%20fulmine.mp4",
+            "seconds": 1442,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 235
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S02E19 - Mommy and Me.mp4",
+              "name": "Duet S02E19 - Mommy and Me",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S02E19%20-%20Mommy%20and%20Me.mp4",
+              "seconds": 1455,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 143
+            }
+          ]
         },
         {
           "number": 20,
           "name": "I'm There for You, Babe",
           "airdate": "1989-04-14",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-ita-st2",
+            "itemTitle": "Full House stagione 2 ita",
+            "file": "2x20 - Tanto c'è Jesse.mp4",
+            "name": "2x20 - Tanto c'è Jesse",
+            "url": "https://archive.org/download/full-house-ita-st2/2x20%20-%20Tanto%20c'%C3%A8%20Jesse.mp4",
+            "seconds": 1442,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 268
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S02E20 - Lady on a Grate.mp4",
+              "name": "Duet S02E20 - Lady on a Grate",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S02E20%20-%20Lady%20on%20a%20Grate.mp4",
+              "seconds": 1729,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 169
+            }
+          ]
         },
         {
           "number": 21,
           "name": "Luck Be a Lady (1)",
           "airdate": "1989-04-28",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-ita-st2",
+            "itemTitle": "Full House stagione 2 ita",
+            "file": "2x21 - La dea bendata - Parte 1.mp4",
+            "name": "2x21 - La dea bendata - Parte 1",
+            "url": "https://archive.org/download/full-house-ita-st2/2x21%20-%20La%20dea%20bendata%20-%20Parte%201.mp4",
+            "seconds": 1442,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 308
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S02E21 - Good Intentions.mp4",
+              "name": "Duet S02E21 - Good Intentions",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S02E21%20-%20Good%20Intentions.mp4",
+              "seconds": 1401,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 138
+            }
+          ]
         },
         {
           "number": 22,
           "name": "Luck Be a Lady (2)",
           "airdate": "1989-05-05",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-ita-st2",
+            "itemTitle": "Full House stagione 2 ita",
+            "file": "2x22 - La dea bendata - Parte 2.mp4",
+            "name": "2x22 - La dea bendata - Parte 2",
+            "url": "https://archive.org/download/full-house-ita-st2/2x22%20-%20La%20dea%20bendata%20-%20Parte%202.mp4",
+            "seconds": 1442,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 295
+          },
           "alternates": []
         }
       ]
@@ -400,192 +1952,732 @@
           "number": 1,
           "name": "Tanner's Island",
           "airdate": "1989-09-22",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-stagione-3-ita",
+            "itemTitle": "Full House stagione 3 ita",
+            "file": "3x01 - L'isola dei Tanner.mp4",
+            "name": "3x01 - L'isola dei Tanner",
+            "url": "https://archive.org/download/full-house-stagione-3-ita/3x01%20-%20L'isola%20dei%20Tanner.mp4",
+            "seconds": 1355,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 553
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S03E01 - Partners.mp4",
+              "name": "Duet S03E01 - Partners",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S03E01%20-%20Partners.mp4",
+              "seconds": 1729,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 170
+            }
+          ]
         },
         {
           "number": 2,
           "name": "Back to School Blues",
           "airdate": "1989-09-29",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-stagione-3-ita",
+            "itemTitle": "Full House stagione 3 ita",
+            "file": "3x02 - Le pene della scuola.mp4",
+            "name": "3x02 - Le pene della scuola",
+            "url": "https://archive.org/download/full-house-stagione-3-ita/3x02%20-%20Le%20pene%20della%20scuola.mp4",
+            "seconds": 1382,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 301
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S03E02 - Deja Two.mp4",
+              "name": "Duet S03E02 - Deja Two",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S03E02%20-%20Deja%20Two.mp4",
+              "seconds": 1700,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 167
+            }
+          ]
         },
         {
           "number": 3,
           "name": "Breaking Up is Hard to Do (in 22 Minutes)",
           "airdate": "1989-10-06",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-stagione-3-ita",
+            "itemTitle": "Full House stagione 3 ita",
+            "file": "3x03 - Com'è difficile lasciarsi.mp4",
+            "name": "3x03 - Com'è difficile lasciarsi",
+            "url": "https://archive.org/download/full-house-stagione-3-ita/3x03%20-%20Com'%C3%A8%20difficile%20lasciarsi.mp4",
+            "seconds": 1382,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 252
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S03E03 - It's My Party.mp4",
+              "name": "Duet S03E03 - It's My Party",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S03E03%20-%20It's%20My%20Party.mp4",
+              "seconds": 1700,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 168
+            }
+          ]
         },
         {
           "number": 4,
           "name": "Nerd for a Day",
           "airdate": "1989-10-13",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-stagione-3-ita",
+            "itemTitle": "Full House stagione 3 ita",
+            "file": "3x04 - Un giorno da oca.mp4",
+            "name": "3x04 - Un giorno da oca",
+            "url": "https://archive.org/download/full-house-stagione-3-ita/3x04%20-%20Un%20giorno%20da%20oca.mp4",
+            "seconds": 1380,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 246
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S03E04 - For Richard or Poorer.mp4",
+              "name": "Duet S03E04 - For Richard or Poorer",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S03E04%20-%20For%20Richard%20or%20Poorer.mp4",
+              "seconds": 1699,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 169
+            }
+          ]
         },
         {
           "number": 5,
           "name": "Granny Tanny",
           "airdate": "1989-10-20",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-stagione-3-ita",
+            "itemTitle": "Full House stagione 3 ita",
+            "file": "3x05 - Arriva la nonnina.mp4",
+            "name": "3x05 - Arriva la nonnina",
+            "url": "https://archive.org/download/full-house-stagione-3-ita/3x05%20-%20Arriva%20la%20nonnina.mp4",
+            "seconds": 1382,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 288
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S03E05 - Oh, Boy!.mp4",
+              "name": "Duet S03E05 - Oh, Boy!",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S03E05%20-%20Oh%2C%20Boy!.mp4",
+              "seconds": 1737,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 171
+            }
+          ]
         },
         {
           "number": 6,
           "name": "Star Search",
           "airdate": "1989-11-03",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-stagione-3-ita",
+            "itemTitle": "Full House stagione 3 ita",
+            "file": "3x06 - Cercasi stella.mp4",
+            "name": "3x06 - Cercasi stella",
+            "url": "https://archive.org/download/full-house-stagione-3-ita/3x06%20-%20Cercasi%20stella.mp4",
+            "seconds": 1380,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 241
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S03E06 - One Man Out.mp4",
+              "name": "Duet S03E06 - One Man Out",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S03E06%20-%20One%20Man%20Out.mp4",
+              "seconds": 1731,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 171
+            }
+          ]
         },
         {
           "number": 7,
           "name": "And They Call It Puppy Love",
           "airdate": "1989-11-10",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-stagione-3-ita",
+            "itemTitle": "Full House stagione 3 ita",
+            "file": "3x07 - Un amore di cane.mp4",
+            "name": "3x07 - Un amore di cane",
+            "url": "https://archive.org/download/full-house-stagione-3-ita/3x07%20-%20Un%20amore%20di%20cane.mp4",
+            "seconds": 1360,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 270
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S03E07 - His Mother, Myself.mp4",
+              "name": "Duet S03E07 - His Mother, Myself",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S03E07%20-%20His%20Mother%2C%20Myself.mp4",
+              "seconds": 1411,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 138
+            }
+          ]
         },
         {
           "number": 8,
           "name": "Divorce Court",
           "airdate": "1989-11-17",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-stagione-3-ita",
+            "itemTitle": "Full House stagione 3 ita",
+            "file": "3x08 - Causa di divorzio.mp4",
+            "name": "3x08 - Causa di divorzio",
+            "url": "https://archive.org/download/full-house-stagione-3-ita/3x08%20-%20Causa%20di%20divorzio.mp4",
+            "seconds": 1380,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 308
+          },
           "alternates": []
         },
         {
           "number": 9,
           "name": "Dr. Dare Rides Again",
           "airdate": "1989-11-24",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-stagione-3-ita",
+            "itemTitle": "Full House stagione 3 ita",
+            "file": "3x09 - Nostalgia del passato.mp4",
+            "name": "3x09 - Nostalgia del passato",
+            "url": "https://archive.org/download/full-house-stagione-3-ita/3x09%20-%20Nostalgia%20del%20passato.mp4",
+            "seconds": 1382,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 344
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S03E09 - Sister of the Year.mp4",
+              "name": "Duet S03E09 - Sister of the Year",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S03E09%20-%20Sister%20of%20the%20Year.mp4",
+              "seconds": 1561,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 161
+            }
+          ]
         },
         {
           "number": 10,
           "name": "The Greatest Birthday on Earth",
           "airdate": "1989-12-01",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-stagione-3-ita",
+            "itemTitle": "Full House stagione 3 ita",
+            "file": "3x10 - Un compleanno da ricordare.mp4",
+            "name": "3x10 - Un compleanno da ricordare",
+            "url": "https://archive.org/download/full-house-stagione-3-ita/3x10%20-%20Un%20compleanno%20da%20ricordare.mp4",
+            "seconds": 1382,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 378
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S03E10 - The New and Improved Linda.mp4",
+              "name": "Duet S03E10 - The New and Improved Linda",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S03E10%20-%20The%20New%20and%20Improved%20Linda.mp4",
+              "seconds": 1431,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 147
+            }
+          ]
         },
         {
           "number": 11,
           "name": "Aftershocks",
           "airdate": "1989-12-08",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-stagione-3-ita",
+            "itemTitle": "Full House stagione 3 ita",
+            "file": "3x11 - Scosse di assestamento.mp4",
+            "name": "3x11 - Scosse di assestamento",
+            "url": "https://archive.org/download/full-house-stagione-3-ita/3x11%20-%20Scosse%20di%20assestamento.mp4",
+            "seconds": 1382,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 262
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S03E11 - Too Many Cooks.mp4",
+              "name": "Duet S03E11 - Too Many Cooks",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S03E11%20-%20Too%20Many%20Cooks.mp4",
+              "seconds": 1431,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 148
+            }
+          ]
         },
         {
           "number": 12,
           "name": "Joey & Stacy and ... Oh, Yeah, Jesse",
           "airdate": "1989-12-15",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-stagione-3-ita",
+            "itemTitle": "Full House stagione 3 ita",
+            "file": "3x12 - Il terzo incomodo.mp4",
+            "name": "3x12 - Il terzo incomodo",
+            "url": "https://archive.org/download/full-house-stagione-3-ita/3x12%20-%20Il%20terzo%20incomodo.mp4",
+            "seconds": 1382,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 262
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S03E12 - Read Between the Lines.mp4",
+              "name": "Duet S03E12 - Read Between the Lines",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S03E12%20-%20Read%20Between%20the%20Lines.mp4",
+              "seconds": 1393,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 143
+            }
+          ]
         },
         {
           "number": 13,
           "name": "No More Mr. Dumb Guy",
           "airdate": "1990-01-05",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-stagione-3-ita",
+            "itemTitle": "Full House stagione 3 ita",
+            "file": "3x13 - Studenti per amore.mp4",
+            "name": "3x13 - Studenti per amore",
+            "url": "https://archive.org/download/full-house-stagione-3-ita/3x13%20-%20Studenti%20per%20amore.mp4",
+            "seconds": 1380,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 275
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S03E13 - Don't Quit Your Day Job.mp4",
+              "name": "Duet S03E13 - Don't Quit Your Day Job",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S03E13%20-%20Don't%20Quit%20Your%20Day%20Job.mp4",
+              "seconds": 1730,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 180
+            }
+          ]
         },
         {
           "number": 14,
           "name": "Misadventures in Baby-Sitting",
           "airdate": "1990-01-12",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-stagione-3-ita",
+            "itemTitle": "Full House stagione 3 ita",
+            "file": "3x14 - Babysitter per un giorno.mp4",
+            "name": "3x14 - Babysitter per un giorno",
+            "url": "https://archive.org/download/full-house-stagione-3-ita/3x14%20-%20Babysitter%20per%20un%20giorno.mp4",
+            "seconds": 1382,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 275
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S03E14 - True Stories.mp4",
+              "name": "Duet S03E14 - True Stories",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S03E14%20-%20True%20Stories.mp4",
+              "seconds": 1699,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 175
+            }
+          ]
         },
         {
           "number": 15,
           "name": "Lust in the Dust",
           "airdate": "1990-01-26",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-stagione-3-ita",
+            "itemTitle": "Full House stagione 3 ita",
+            "file": "3x15 - Una perfetta donna di casa.mp4",
+            "name": "3x15 - Una perfetta donna di casa",
+            "url": "https://archive.org/download/full-house-stagione-3-ita/3x15%20-%20Una%20perfetta%20donna%20di%20casa.mp4",
+            "seconds": 1382,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 288
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S03E15 - Role Call.mp4",
+              "name": "Duet S03E15 - Role Call",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S03E15%20-%20Role%20Call.mp4",
+              "seconds": 1699,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 171
+            }
+          ]
         },
         {
           "number": 16,
           "name": "Bye, Bye Birdie",
           "airdate": "1990-02-02",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-stagione-3-ita",
+            "itemTitle": "Full House stagione 3 ita",
+            "file": "3x16 - Il primo giorno di scuola.mp4",
+            "name": "3x16 - Il primo giorno di scuola",
+            "url": "https://archive.org/download/full-house-stagione-3-ita/3x16%20-%20Il%20primo%20giorno%20di%20scuola.mp4",
+            "seconds": 1371,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 273
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S03E16 - Kiss and Break Up.mp4",
+              "name": "Duet S03E16 - Kiss and Break Up",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S03E16%20-%20Kiss%20and%20Break%20Up.mp4",
+              "seconds": 1416,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 145
+            }
+          ]
         },
         {
           "number": 17,
           "name": "13 Candles",
           "airdate": "1990-02-09",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-stagione-3-ita",
+            "itemTitle": "Full House stagione 3 ita",
+            "file": "3x17 - Tredici candeline.mp4",
+            "name": "3x17 - Tredici candeline",
+            "url": "https://archive.org/download/full-house-stagione-3-ita/3x17%20-%20Tredici%20candeline.mp4",
+            "seconds": 1382,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 329
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S03E17 - On the Nose.mp4",
+              "name": "Duet S03E17 - On the Nose",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S03E17%20-%20On%20the%20Nose.mp4",
+              "seconds": 1700,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 172
+            }
+          ]
         },
         {
           "number": 18,
           "name": "Mr. Egghead",
           "airdate": "1990-02-16",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-stagione-3-ita",
+            "itemTitle": "Full House stagione 3 ita",
+            "file": "3x18 - Il maestro sapientone.mp4",
+            "name": "3x18 - Il maestro sapientone",
+            "url": "https://archive.org/download/full-house-stagione-3-ita/3x18%20-%20Il%20maestro%20sapientone.mp4",
+            "seconds": 1371,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 273
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S03E18 - Richie and the Vamp.mp4",
+              "name": "Duet S03E18 - Richie and the Vamp",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S03E18%20-%20Richie%20and%20the%20Vamp.mp4",
+              "seconds": 1730,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 177
+            }
+          ]
         },
         {
           "number": 19,
           "name": "Those Better Not Be the Days",
           "airdate": "1990-02-23",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-stagione-3-ita",
+            "itemTitle": "Full House stagione 3 ita",
+            "file": "3x19 - Grandi per gioco.mp4",
+            "name": "3x19 - Grandi per gioco",
+            "url": "https://archive.org/download/full-house-stagione-3-ita/3x19%20-%20Grandi%20per%20gioco.mp4",
+            "seconds": 1382,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 295
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "duet-open-house",
+              "itemTitle": "Duet / Open House (1987-1990)",
+              "file": "Duet S03E19 - The Birth of a Saleswoman.mp4",
+              "name": "Duet S03E19 - The Birth of a Saleswoman",
+              "url": "https://archive.org/download/duet-open-house/Duet%20S03E19%20-%20The%20Birth%20of%20a%20Saleswoman.mp4",
+              "seconds": 1698,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 168
+            }
+          ]
         },
         {
           "number": 20,
           "name": "Honey, I Broke the House",
           "airdate": "1990-03-09",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-stagione-3-ita",
+            "itemTitle": "Full House stagione 3 ita",
+            "file": "3x20 - Mamma ho distrutto la casa.mp4",
+            "name": "3x20 - Mamma ho distrutto la casa",
+            "url": "https://archive.org/download/full-house-stagione-3-ita/3x20%20-%20Mamma%20ho%20distrutto%20la%20casa.mp4",
+            "seconds": 1382,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 192
+          },
           "alternates": []
         },
         {
           "number": 21,
           "name": "Just Say No Way",
           "airdate": "1990-03-30",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-stagione-3-ita",
+            "itemTitle": "Full House stagione 3 ita",
+            "file": "3x21 -  Sospetto infondato.mp4",
+            "name": "3x21 -  Sospetto infondato",
+            "url": "https://archive.org/download/full-house-stagione-3-ita/3x21%20-%20%20Sospetto%20infondato.mp4",
+            "seconds": 1382,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 288
+          },
           "alternates": []
         },
         {
           "number": 22,
           "name": "Three Men and Another Baby",
           "airdate": "1990-04-13",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-stagione-3-ita",
+            "itemTitle": "Full House stagione 3 ita",
+            "file": "3x22 - La gelosia di Michelle.mp4",
+            "name": "3x22 - La gelosia di Michelle",
+            "url": "https://archive.org/download/full-house-stagione-3-ita/3x22%20-%20La%20gelosia%20di%20Michelle.mp4",
+            "seconds": 1382,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 269
+          },
           "alternates": []
         },
         {
           "number": 23,
           "name": "Fraternity Reunion",
           "airdate": "1990-04-27",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-stagione-3-ita",
+            "itemTitle": "Full House stagione 3 ita",
+            "file": "3x23 - Vendetta, tremenda vendetta.mp4",
+            "name": "3x23 - Vendetta, tremenda vendetta",
+            "url": "https://archive.org/download/full-house-stagione-3-ita/3x23%20-%20Vendetta%2C%20tremenda%20vendetta.mp4",
+            "seconds": 1380,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 308
+          },
           "alternates": []
         },
         {
           "number": 24,
           "name": "Our Very First Telethon",
           "airdate": "1990-05-04",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "full-house-stagione-3-ita",
+            "itemTitle": "Full House stagione 3 ita",
+            "file": "3x24 - Il nostro primo Telethon.mp4",
+            "name": "3x24 - Il nostro primo Telethon",
+            "url": "https://archive.org/download/full-house-stagione-3-ita/3x24%20-%20Il%20nostro%20primo%20Telethon.mp4",
+            "seconds": 1382,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 396
+          },
           "alternates": []
         }
       ]
@@ -1031,8 +3123,20 @@
           "number": 2,
           "name": "The Long Goodbye",
           "airdate": "1992-09-29",
-          "state": "MISSING",
-          "file": null,
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.65,
+            "why": "title ~ \"The Long Goodbye\" (0.95)",
+            "item": "duet-open-house",
+            "itemTitle": "Duet / Open House (1987-1990)",
+            "file": "Duet S01E11 - Elegy (aka The Long Goodbye).mp4",
+            "name": "Duet S01E11 - Elegy (aka The Long Goodbye)",
+            "url": "https://archive.org/download/duet-open-house/Duet%20S01E11%20-%20Elegy%20(aka%20The%20Long%20Goodbye).mp4",
+            "seconds": 1414,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 140
+          },
           "alternates": []
         },
         {
@@ -1372,8 +3476,20 @@
           "number": 20,
           "name": "Michelle a la Cart",
           "airdate": "1994-03-15",
-          "state": "MISSING",
-          "file": null,
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"Michelle a la Cart\" (0.63)",
+            "item": "full-house-stagione-3-ita",
+            "itemTitle": "Full House stagione 3 ita",
+            "file": "3x22 - La gelosia di Michelle.mp4",
+            "name": "3x22 - La gelosia di Michelle",
+            "url": "https://archive.org/download/full-house-stagione-3-ita/3x22%20-%20La%20gelosia%20di%20Michelle.mp4",
+            "seconds": 1382,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 269
+          },
           "alternates": []
         },
         {

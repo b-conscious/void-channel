@@ -3,7 +3,7 @@
   "slug": "china-il",
   "type": "Adult Swim",
   "network": "Adult Swim",
-  "matchedAt": "2026-10-13T07:46:16.061Z",
+  "matchedAt": "2026-10-13T15:54:08.613Z",
   "tvmaze": {
     "id": 1958,
     "name": "China, IL",
@@ -13,10 +13,10 @@
   },
   "coverage": {
     "total": 30,
-    "live": 27,
-    "review": 1,
-    "missing": 2,
-    "pct": 93
+    "live": 17,
+    "review": 2,
+    "missing": 11,
+    "pct": 63
   },
   "seasons": [
     {
@@ -26,60 +26,24 @@
           "number": 1,
           "name": "Rewind, Pause, Pay",
           "airdate": "2011-10-02",
-          "state": "LIVE",
-          "file": {
-            "conf": 0.85,
-            "why": "S/E in filename",
-            "item": "12-oz.-mouse-the-movie_202509",
-            "itemTitle": "[stoner swim] Personal archive 2",
-            "file": "R.a.S.2024.S01E01.Renhattan-Table.for.Human-Clear.Toilet.432p.LEAKED.WEB.x264.AAC2.0-4CHAN.mp4",
-            "name": "R.a.S.2024.S01E01.Renhattan-Table.for.Human-Clear.Toilet.432p.LEAKED.WEB.x264.AAC2.0-4CHAN",
-            "url": "https://archive.org/download/12-oz.-mouse-the-movie_202509/R.a.S.2024.S01E01.Renhattan-Table.for.Human-Clear.Toilet.432p.LEAKED.WEB.x264.AAC2.0-4CHAN.mp4",
-            "seconds": 1319,
-            "format": "MPEG4",
-            "playable": true,
-            "sizeMB": 272
-          },
+          "state": "MISSING",
+          "file": null,
           "alternates": []
         },
         {
           "number": 2,
           "name": "Dean vs. Mayor",
           "airdate": "2011-10-09",
-          "state": "LIVE",
-          "file": {
-            "conf": 0.85,
-            "why": "S/E in filename",
-            "item": "12-oz.-mouse-the-movie_202509",
-            "itemTitle": "[stoner swim] Personal archive 2",
-            "file": "R.a.S.2024.S01E02.Screentime-Milk.Pulp-All.About.Log.432p.LEAKED.WEB.x264.AAC2.0-4CHAN.mp4",
-            "name": "R.a.S.2024.S01E02.Screentime-Milk.Pulp-All.About.Log.432p.LEAKED.WEB.x264.AAC2.0-4CHAN",
-            "url": "https://archive.org/download/12-oz.-mouse-the-movie_202509/R.a.S.2024.S01E02.Screentime-Milk.Pulp-All.About.Log.432p.LEAKED.WEB.x264.AAC2.0-4CHAN.mp4",
-            "seconds": 1319,
-            "format": "MPEG4",
-            "playable": true,
-            "sizeMB": 263
-          },
+          "state": "MISSING",
+          "file": null,
           "alternates": []
         },
         {
           "number": 3,
           "name": "Baby Boom",
           "airdate": "2011-10-16",
-          "state": "LIVE",
-          "file": {
-            "conf": 0.85,
-            "why": "S/E in filename",
-            "item": "12-oz.-mouse-the-movie_202509",
-            "itemTitle": "[stoner swim] Personal archive 2",
-            "file": "R a S 2024 S01E03-Bad Stimpy The Mother of All Yakmases Yucky the Mudman 432p LEAKED WEB x264 AAC2 0 4CHAN mp4.mp4",
-            "name": "R a S 2024 S01E03-Bad Stimpy The Mother of All Yakmases Yucky the Mudman 432p LEAKED WEB x264 AAC2 0 4CHAN mp4",
-            "url": "https://archive.org/download/12-oz.-mouse-the-movie_202509/R%20a%20S%202024%20S01E03-Bad%20Stimpy%20The%20Mother%20of%20All%20Yakmases%20Yucky%20the%20Mudman%20432p%20LEAKED%20WEB%20x264%20AAC2%200%204CHAN%20mp4.mp4",
-            "seconds": 1319,
-            "format": "MPEG4",
-            "playable": true,
-            "sizeMB": 127
-          },
+          "state": "MISSING",
+          "file": null,
           "alternates": []
         },
         {
@@ -94,120 +58,48 @@
           "number": 5,
           "name": "Secret Society",
           "airdate": "2011-10-30",
-          "state": "LIVE",
-          "file": {
-            "conf": 0.85,
-            "why": "S/E in filename",
-            "item": "12-oz.-mouse-the-movie_202509",
-            "itemTitle": "[stoner swim] Personal archive 2",
-            "file": "R.a.S.2024.S01E05.Now.Sea.Here-A.Stimpy.is.Born-Ask.Dr.Stupid.Toxic.432p.LEAKED.WEB.x264.AAC2.0-4CHAN.mp4",
-            "name": "R.a.S.2024.S01E05.Now.Sea.Here-A.Stimpy.is.Born-Ask.Dr.Stupid.Toxic.432p.LEAKED.WEB.x264.AAC2.0-4CHAN",
-            "url": "https://archive.org/download/12-oz.-mouse-the-movie_202509/R.a.S.2024.S01E05.Now.Sea.Here-A.Stimpy.is.Born-Ask.Dr.Stupid.Toxic.432p.LEAKED.WEB.x264.AAC2.0-4CHAN.mp4",
-            "seconds": 1319,
-            "format": "MPEG4",
-            "playable": true,
-            "sizeMB": 263
-          },
+          "state": "MISSING",
+          "file": null,
           "alternates": []
         },
         {
           "number": 6,
           "name": "Prom Face/Off",
           "airdate": "2011-11-06",
-          "state": "LIVE",
-          "file": {
-            "conf": 0.85,
-            "why": "S/E in filename",
-            "item": "12-oz.-mouse-the-movie_202509",
-            "itemTitle": "[stoner swim] Personal archive 2",
-            "file": "R.a.S.2024.S01E06.Aw.Hell.No-Squatters.432p.LEAKED.WEB.x264.AAC2.0-4CHAN.mp4",
-            "name": "R.a.S.2024.S01E06.Aw.Hell.No-Squatters.432p.LEAKED.WEB.x264.AAC2.0-4CHAN",
-            "url": "https://archive.org/download/12-oz.-mouse-the-movie_202509/R.a.S.2024.S01E06.Aw.Hell.No-Squatters.432p.LEAKED.WEB.x264.AAC2.0-4CHAN.mp4",
-            "seconds": 1319,
-            "format": "MPEG4",
-            "playable": true,
-            "sizeMB": 257
-          },
+          "state": "MISSING",
+          "file": null,
           "alternates": []
         },
         {
           "number": 7,
           "name": "Frankensteve",
           "airdate": "2011-12-27",
-          "state": "LIVE",
-          "file": {
-            "conf": 0.85,
-            "why": "S/E in filename",
-            "item": "12-oz.-mouse-the-movie_202509",
-            "itemTitle": "[stoner swim] Personal archive 2",
-            "file": "R.a.S.2024.S01E07.Hair.Fairy-Powdered.Toast.Man.The.Movie-Everything.to.Me.432p.LEAKED.WEB.x264.AAC2.0-4CHAN.mp4",
-            "name": "R.a.S.2024.S01E07.Hair.Fairy-Powdered.Toast.Man.The.Movie-Everything.to.Me.432p.LEAKED.WEB.x264.AAC2.0-4CHAN",
-            "url": "https://archive.org/download/12-oz.-mouse-the-movie_202509/R.a.S.2024.S01E07.Hair.Fairy-Powdered.Toast.Man.The.Movie-Everything.to.Me.432p.LEAKED.WEB.x264.AAC2.0-4CHAN.mp4",
-            "seconds": 1319,
-            "format": "MPEG4",
-            "playable": true,
-            "sizeMB": 267
-          },
+          "state": "MISSING",
+          "file": null,
           "alternates": []
         },
         {
           "number": 8,
           "name": "Chinese New Year",
           "airdate": "2012-02-19",
-          "state": "LIVE",
-          "file": {
-            "conf": 0.85,
-            "why": "S/E in filename",
-            "item": "12-oz.-mouse-the-movie_202509",
-            "itemTitle": "[stoner swim] Personal archive 2",
-            "file": "R.a.S.2024.S01E08.Stupid.and.Afraid-I.Dream.of.Stimpy.432p.LEAKED.WEB.x264.AAC2.0-4CHAN.mp4",
-            "name": "R.a.S.2024.S01E08.Stupid.and.Afraid-I.Dream.of.Stimpy.432p.LEAKED.WEB.x264.AAC2.0-4CHAN",
-            "url": "https://archive.org/download/12-oz.-mouse-the-movie_202509/R.a.S.2024.S01E08.Stupid.and.Afraid-I.Dream.of.Stimpy.432p.LEAKED.WEB.x264.AAC2.0-4CHAN.mp4",
-            "seconds": 1319,
-            "format": "MPEG4",
-            "playable": true,
-            "sizeMB": 272
-          },
+          "state": "MISSING",
+          "file": null,
           "alternates": []
         },
         {
           "number": 9,
           "name": "Dream Reamer",
           "airdate": "2012-02-26",
-          "state": "LIVE",
-          "file": {
-            "conf": 0.85,
-            "why": "S/E in filename",
-            "item": "12-oz.-mouse-the-movie_202509",
-            "itemTitle": "[stoner swim] Personal archive 2",
-            "file": "R.a.S.2024.S01E09.Renunion-Plane.and.Simple-Ask.Dr.Stupid.Lemons.432p.LEAKED.WEB.x264.AAC2.0-4CHAN.mp4",
-            "name": "R.a.S.2024.S01E09.Renunion-Plane.and.Simple-Ask.Dr.Stupid.Lemons.432p.LEAKED.WEB.x264.AAC2.0-4CHAN",
-            "url": "https://archive.org/download/12-oz.-mouse-the-movie_202509/R.a.S.2024.S01E09.Renunion-Plane.and.Simple-Ask.Dr.Stupid.Lemons.432p.LEAKED.WEB.x264.AAC2.0-4CHAN.mp4",
-            "seconds": 1319,
-            "format": "MPEG4",
-            "playable": true,
-            "sizeMB": 274
-          },
+          "state": "MISSING",
+          "file": null,
           "alternates": []
         },
         {
           "number": 10,
           "name": "Dean's List",
           "airdate": "2012-03-04",
-          "state": "LIVE",
-          "file": {
-            "conf": 0.85,
-            "why": "S/E in filename",
-            "item": "12-oz.-mouse-the-movie_202509",
-            "itemTitle": "[stoner swim] Personal archive 2",
-            "file": "R.a.S.2024.S01E10.Journey.to.the.Center.of.the.Idiot-Zen.Ren.432p.LEAKED.WEB.x264.AAC2.0-4CHAN.mp4",
-            "name": "R.a.S.2024.S01E10.Journey.to.the.Center.of.the.Idiot-Zen.Ren.432p.LEAKED.WEB.x264.AAC2.0-4CHAN",
-            "url": "https://archive.org/download/12-oz.-mouse-the-movie_202509/R.a.S.2024.S01E10.Journey.to.the.Center.of.the.Idiot-Zen.Ren.432p.LEAKED.WEB.x264.AAC2.0-4CHAN.mp4",
-            "seconds": 1319,
-            "format": "MPEG4",
-            "playable": true,
-            "sizeMB": 283
-          },
+          "state": "MISSING",
+          "file": null,
           "alternates": []
         }
       ]
@@ -279,9 +171,9 @@
           "number": 4,
           "name": "The Diamond Castle",
           "airdate": "2013-10-13",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.55,
             "why": "S/E in filename + title match",
             "item": "s-03-e-10-magical-pet-china-il-the-musical",
             "itemTitle": "China, Il (2011-2015)",

@@ -3,7 +3,7 @@
   "slug": "the-venture-bros",
   "type": "Adult Swim",
   "network": "Adult Swim",
-  "matchedAt": "2026-10-13T07:46:15.980Z",
+  "matchedAt": "2026-10-13T15:54:08.432Z",
   "tvmaze": {
     "id": 304,
     "name": "The Venture Bros.",
@@ -13,8 +13,8 @@
   },
   "coverage": {
     "total": 81,
-    "live": 26,
-    "review": 0,
+    "live": 0,
+    "review": 26,
     "missing": 55,
     "pct": 32
   },
@@ -26,10 +26,10 @@
           "number": 1,
           "name": "Dia de los Dangerous",
           "airdate": "2004-08-07",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 0.9,
-            "why": "S/E in filename",
+            "why": "S/E in filename | not browser-playable: video (x265)",
             "item": "venture.bros.s01.s02.1080p.upscale",
             "itemTitle": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]",
             "file": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]/Season 1/The.Venture.Bros.S01E01.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
@@ -37,7 +37,8 @@
             "url": "https://archive.org/download/venture.bros.s01.s02.1080p.upscale/The%20Venture%20Bros%20%5BS1%20%26%20S2%201080p%20Waifu2x%20DVD%20Upscale%5D%2FSeason%201%2FThe.Venture.Bros.S01E01.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
             "seconds": 1331,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 131
           },
           "alternates": []
@@ -46,10 +47,10 @@
           "number": 2,
           "name": "Careers in Science",
           "airdate": "2004-08-14",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 0.9,
-            "why": "S/E in filename",
+            "why": "S/E in filename | not browser-playable: video (x265)",
             "item": "venture.bros.s01.s02.1080p.upscale",
             "itemTitle": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]",
             "file": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]/Season 1/The.Venture.Bros.S01E02.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
@@ -57,7 +58,8 @@
             "url": "https://archive.org/download/venture.bros.s01.s02.1080p.upscale/The%20Venture%20Bros%20%5BS1%20%26%20S2%201080p%20Waifu2x%20DVD%20Upscale%5D%2FSeason%201%2FThe.Venture.Bros.S01E02.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
             "seconds": 1296,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 127
           },
           "alternates": []
@@ -66,10 +68,10 @@
           "number": 3,
           "name": "Home Insecurity",
           "airdate": "2004-08-21",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 0.9,
-            "why": "S/E in filename",
+            "why": "S/E in filename | not browser-playable: video (x265)",
             "item": "venture.bros.s01.s02.1080p.upscale",
             "itemTitle": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]",
             "file": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]/Season 1/The.Venture.Bros.S01E03.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
@@ -77,7 +79,8 @@
             "url": "https://archive.org/download/venture.bros.s01.s02.1080p.upscale/The%20Venture%20Bros%20%5BS1%20%26%20S2%201080p%20Waifu2x%20DVD%20Upscale%5D%2FSeason%201%2FThe.Venture.Bros.S01E03.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
             "seconds": 1331,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 132
           },
           "alternates": []
@@ -86,10 +89,10 @@
           "number": 4,
           "name": "The Incredible Mr. Brisby",
           "airdate": "2004-08-28",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 0.9,
-            "why": "S/E in filename",
+            "why": "S/E in filename | not browser-playable: video (x265)",
             "item": "venture.bros.s01.s02.1080p.upscale",
             "itemTitle": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]",
             "file": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]/Season 1/The.Venture.Bros.S01E04.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
@@ -97,7 +100,8 @@
             "url": "https://archive.org/download/venture.bros.s01.s02.1080p.upscale/The%20Venture%20Bros%20%5BS1%20%26%20S2%201080p%20Waifu2x%20DVD%20Upscale%5D%2FSeason%201%2FThe.Venture.Bros.S01E04.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
             "seconds": 1357,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 133
           },
           "alternates": []
@@ -106,10 +110,10 @@
           "number": 5,
           "name": "Eeney, Meeney, Miney... Magic!",
           "airdate": "2004-09-04",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 0.9,
-            "why": "S/E in filename",
+            "why": "S/E in filename | not browser-playable: video (x265)",
             "item": "venture.bros.s01.s02.1080p.upscale",
             "itemTitle": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]",
             "file": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]/Season 1/The.Venture.Bros.S01E05.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
@@ -117,7 +121,8 @@
             "url": "https://archive.org/download/venture.bros.s01.s02.1080p.upscale/The%20Venture%20Bros%20%5BS1%20%26%20S2%201080p%20Waifu2x%20DVD%20Upscale%5D%2FSeason%201%2FThe.Venture.Bros.S01E05.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
             "seconds": 1349,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 133
           },
           "alternates": []
@@ -126,10 +131,10 @@
           "number": 6,
           "name": "Ghosts of the Sargasso",
           "airdate": "2004-09-11",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 0.9,
-            "why": "S/E in filename",
+            "why": "S/E in filename | not browser-playable: video (x265)",
             "item": "venture.bros.s01.s02.1080p.upscale",
             "itemTitle": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]",
             "file": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]/Season 1/The.Venture.Bros.S01E06.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
@@ -137,7 +142,8 @@
             "url": "https://archive.org/download/venture.bros.s01.s02.1080p.upscale/The%20Venture%20Bros%20%5BS1%20%26%20S2%201080p%20Waifu2x%20DVD%20Upscale%5D%2FSeason%201%2FThe.Venture.Bros.S01E06.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
             "seconds": 1351,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 133
           },
           "alternates": []
@@ -146,10 +152,10 @@
           "number": 7,
           "name": "Ice Station Impossible",
           "airdate": "2004-09-18",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 0.9,
-            "why": "S/E in filename",
+            "why": "S/E in filename | not browser-playable: video (x265)",
             "item": "venture.bros.s01.s02.1080p.upscale",
             "itemTitle": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]",
             "file": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]/Season 1/The.Venture.Bros.S01E07.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
@@ -157,7 +163,8 @@
             "url": "https://archive.org/download/venture.bros.s01.s02.1080p.upscale/The%20Venture%20Bros%20%5BS1%20%26%20S2%201080p%20Waifu2x%20DVD%20Upscale%5D%2FSeason%201%2FThe.Venture.Bros.S01E07.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
             "seconds": 1342,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 133
           },
           "alternates": []
@@ -166,10 +173,10 @@
           "number": 8,
           "name": "Mid-life Chrysalis",
           "airdate": "2004-09-25",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 0.9,
-            "why": "S/E in filename",
+            "why": "S/E in filename | not browser-playable: video (x265)",
             "item": "venture.bros.s01.s02.1080p.upscale",
             "itemTitle": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]",
             "file": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]/Season 1/The.Venture.Bros.S01E08.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
@@ -177,7 +184,8 @@
             "url": "https://archive.org/download/venture.bros.s01.s02.1080p.upscale/The%20Venture%20Bros%20%5BS1%20%26%20S2%201080p%20Waifu2x%20DVD%20Upscale%5D%2FSeason%201%2FThe.Venture.Bros.S01E08.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
             "seconds": 1382,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 137
           },
           "alternates": []
@@ -186,10 +194,10 @@
           "number": 9,
           "name": "Are You There God, It's Me, Dean",
           "airdate": "2004-10-02",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 0.9,
-            "why": "S/E in filename",
+            "why": "S/E in filename | not browser-playable: video (x265)",
             "item": "venture.bros.s01.s02.1080p.upscale",
             "itemTitle": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]",
             "file": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]/Season 1/The.Venture.Bros.S01E09.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
@@ -197,7 +205,8 @@
             "url": "https://archive.org/download/venture.bros.s01.s02.1080p.upscale/The%20Venture%20Bros%20%5BS1%20%26%20S2%201080p%20Waifu2x%20DVD%20Upscale%5D%2FSeason%201%2FThe.Venture.Bros.S01E09.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
             "seconds": 1358,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 133
           },
           "alternates": []
@@ -206,10 +215,10 @@
           "number": 10,
           "name": "Tag-Sale – You're It!",
           "airdate": "2004-10-09",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 0.9,
-            "why": "S/E in filename",
+            "why": "S/E in filename | not browser-playable: video (x265)",
             "item": "venture.bros.s01.s02.1080p.upscale",
             "itemTitle": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]",
             "file": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]/Season 1/The.Venture.Bros.S01E10.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
@@ -217,7 +226,8 @@
             "url": "https://archive.org/download/venture.bros.s01.s02.1080p.upscale/The%20Venture%20Bros%20%5BS1%20%26%20S2%201080p%20Waifu2x%20DVD%20Upscale%5D%2FSeason%201%2FThe.Venture.Bros.S01E10.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
             "seconds": 1354,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 133
           },
           "alternates": []
@@ -226,10 +236,10 @@
           "number": 11,
           "name": "Past Tense",
           "airdate": "2004-10-16",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 0.9,
-            "why": "S/E in filename",
+            "why": "S/E in filename | not browser-playable: video (x265)",
             "item": "venture.bros.s01.s02.1080p.upscale",
             "itemTitle": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]",
             "file": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]/Season 1/The.Venture.Bros.S01E11.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
@@ -237,7 +247,8 @@
             "url": "https://archive.org/download/venture.bros.s01.s02.1080p.upscale/The%20Venture%20Bros%20%5BS1%20%26%20S2%201080p%20Waifu2x%20DVD%20Upscale%5D%2FSeason%201%2FThe.Venture.Bros.S01E11.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
             "seconds": 1355,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 133
           },
           "alternates": []
@@ -246,10 +257,10 @@
           "number": 12,
           "name": "The Trial of the Monarch",
           "airdate": "2004-10-23",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 0.9,
-            "why": "S/E in filename",
+            "why": "S/E in filename | not browser-playable: video (x265)",
             "item": "venture.bros.s01.s02.1080p.upscale",
             "itemTitle": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]",
             "file": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]/Season 1/The.Venture.Bros.S01E12.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
@@ -257,7 +268,8 @@
             "url": "https://archive.org/download/venture.bros.s01.s02.1080p.upscale/The%20Venture%20Bros%20%5BS1%20%26%20S2%201080p%20Waifu2x%20DVD%20Upscale%5D%2FSeason%201%2FThe.Venture.Bros.S01E12.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
             "seconds": 1350,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 133
           },
           "alternates": []
@@ -266,10 +278,10 @@
           "number": 13,
           "name": "Return to Spider-Skull Island",
           "airdate": "2004-10-30",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 0.9,
-            "why": "S/E in filename",
+            "why": "S/E in filename | not browser-playable: video (x265)",
             "item": "venture.bros.s01.s02.1080p.upscale",
             "itemTitle": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]",
             "file": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]/Season 1/The.Venture.Bros.S01E13.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
@@ -277,7 +289,8 @@
             "url": "https://archive.org/download/venture.bros.s01.s02.1080p.upscale/The%20Venture%20Bros%20%5BS1%20%26%20S2%201080p%20Waifu2x%20DVD%20Upscale%5D%2FSeason%201%2FThe.Venture.Bros.S01E13.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
             "seconds": 1418,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 140
           },
           "alternates": []
@@ -291,10 +304,10 @@
           "number": 1,
           "name": "Powerless in the Face of Death",
           "airdate": "2006-06-25",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 0.9,
-            "why": "S/E in filename",
+            "why": "S/E in filename | not browser-playable: video (x265)",
             "item": "venture.bros.s01.s02.1080p.upscale",
             "itemTitle": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]",
             "file": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]/Season 2/The.Venture.Bros.S02E01.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
@@ -302,7 +315,8 @@
             "url": "https://archive.org/download/venture.bros.s01.s02.1080p.upscale/The%20Venture%20Bros%20%5BS1%20%26%20S2%201080p%20Waifu2x%20DVD%20Upscale%5D%2FSeason%202%2FThe.Venture.Bros.S02E01.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
             "seconds": 1375,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 134
           },
           "alternates": []
@@ -311,10 +325,10 @@
           "number": 2,
           "name": "Hate Floats",
           "airdate": "2006-07-02",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 0.9,
-            "why": "S/E in filename",
+            "why": "S/E in filename | not browser-playable: video (x265)",
             "item": "venture.bros.s01.s02.1080p.upscale",
             "itemTitle": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]",
             "file": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]/Season 2/The.Venture.Bros.S02E02.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
@@ -322,7 +336,8 @@
             "url": "https://archive.org/download/venture.bros.s01.s02.1080p.upscale/The%20Venture%20Bros%20%5BS1%20%26%20S2%201080p%20Waifu2x%20DVD%20Upscale%5D%2FSeason%202%2FThe.Venture.Bros.S02E02.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
             "seconds": 1366,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 133
           },
           "alternates": []
@@ -331,10 +346,10 @@
           "number": 3,
           "name": "Assassinanny 911",
           "airdate": "2006-07-09",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 0.9,
-            "why": "S/E in filename",
+            "why": "S/E in filename | not browser-playable: video (x265)",
             "item": "venture.bros.s01.s02.1080p.upscale",
             "itemTitle": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]",
             "file": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]/Season 2/The.Venture.Bros.S02E03.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
@@ -342,7 +357,8 @@
             "url": "https://archive.org/download/venture.bros.s01.s02.1080p.upscale/The%20Venture%20Bros%20%5BS1%20%26%20S2%201080p%20Waifu2x%20DVD%20Upscale%5D%2FSeason%202%2FThe.Venture.Bros.S02E03.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
             "seconds": 1360,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 132
           },
           "alternates": []
@@ -351,10 +367,10 @@
           "number": 4,
           "name": "Escape to the House of Mummies Part II",
           "airdate": "2006-07-16",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 0.9,
-            "why": "S/E in filename",
+            "why": "S/E in filename | not browser-playable: video (x265)",
             "item": "venture.bros.s01.s02.1080p.upscale",
             "itemTitle": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]",
             "file": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]/Season 2/The.Venture.Bros.S02E04.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
@@ -362,7 +378,8 @@
             "url": "https://archive.org/download/venture.bros.s01.s02.1080p.upscale/The%20Venture%20Bros%20%5BS1%20%26%20S2%201080p%20Waifu2x%20DVD%20Upscale%5D%2FSeason%202%2FThe.Venture.Bros.S02E04.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
             "seconds": 1361,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 132
           },
           "alternates": []
@@ -371,10 +388,10 @@
           "number": 5,
           "name": "Twenty Years to Midnight",
           "airdate": "2006-08-06",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 0.9,
-            "why": "S/E in filename",
+            "why": "S/E in filename | not browser-playable: video (x265)",
             "item": "venture.bros.s01.s02.1080p.upscale",
             "itemTitle": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]",
             "file": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]/Season 2/The.Venture.Bros.S02E05.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
@@ -382,7 +399,8 @@
             "url": "https://archive.org/download/venture.bros.s01.s02.1080p.upscale/The%20Venture%20Bros%20%5BS1%20%26%20S2%201080p%20Waifu2x%20DVD%20Upscale%5D%2FSeason%202%2FThe.Venture.Bros.S02E05.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
             "seconds": 1363,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 132
           },
           "alternates": []
@@ -391,10 +409,10 @@
           "number": 6,
           "name": "Victor. Echo. November.",
           "airdate": "2006-08-13",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 0.9,
-            "why": "S/E in filename",
+            "why": "S/E in filename | not browser-playable: video (x265)",
             "item": "venture.bros.s01.s02.1080p.upscale",
             "itemTitle": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]",
             "file": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]/Season 2/The.Venture.Bros.S02E06.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
@@ -402,7 +420,8 @@
             "url": "https://archive.org/download/venture.bros.s01.s02.1080p.upscale/The%20Venture%20Bros%20%5BS1%20%26%20S2%201080p%20Waifu2x%20DVD%20Upscale%5D%2FSeason%202%2FThe.Venture.Bros.S02E06.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
             "seconds": 1363,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 132
           },
           "alternates": []
@@ -411,10 +430,10 @@
           "number": 7,
           "name": "Love-Bheits",
           "airdate": "2006-08-20",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 0.9,
-            "why": "S/E in filename",
+            "why": "S/E in filename | not browser-playable: video (x265)",
             "item": "venture.bros.s01.s02.1080p.upscale",
             "itemTitle": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]",
             "file": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]/Season 2/The.Venture.Bros.S02E07.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
@@ -422,7 +441,8 @@
             "url": "https://archive.org/download/venture.bros.s01.s02.1080p.upscale/The%20Venture%20Bros%20%5BS1%20%26%20S2%201080p%20Waifu2x%20DVD%20Upscale%5D%2FSeason%202%2FThe.Venture.Bros.S02E07.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
             "seconds": 1360,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 132
           },
           "alternates": []
@@ -431,10 +451,10 @@
           "number": 8,
           "name": "Fallen Arches",
           "airdate": "2006-09-03",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 0.9,
-            "why": "S/E in filename",
+            "why": "S/E in filename | not browser-playable: video (x265)",
             "item": "venture.bros.s01.s02.1080p.upscale",
             "itemTitle": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]",
             "file": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]/Season 2/The.Venture.Bros.S02E08.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
@@ -442,7 +462,8 @@
             "url": "https://archive.org/download/venture.bros.s01.s02.1080p.upscale/The%20Venture%20Bros%20%5BS1%20%26%20S2%201080p%20Waifu2x%20DVD%20Upscale%5D%2FSeason%202%2FThe.Venture.Bros.S02E08.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
             "seconds": 1364,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 132
           },
           "alternates": []
@@ -451,10 +472,10 @@
           "number": 9,
           "name": "Guess Who's Coming to State Dinner?",
           "airdate": "2006-09-10",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 0.9,
-            "why": "S/E in filename",
+            "why": "S/E in filename | not browser-playable: video (x265)",
             "item": "venture.bros.s01.s02.1080p.upscale",
             "itemTitle": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]",
             "file": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]/Season 2/The.Venture.Bros.S02E09.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
@@ -462,7 +483,8 @@
             "url": "https://archive.org/download/venture.bros.s01.s02.1080p.upscale/The%20Venture%20Bros%20%5BS1%20%26%20S2%201080p%20Waifu2x%20DVD%20Upscale%5D%2FSeason%202%2FThe.Venture.Bros.S02E09.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
             "seconds": 1369,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 132
           },
           "alternates": []
@@ -471,10 +493,10 @@
           "number": 10,
           "name": "I Know Why the Caged Bird Kills",
           "airdate": "2006-09-24",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 0.9,
-            "why": "S/E in filename",
+            "why": "S/E in filename | not browser-playable: video (x265)",
             "item": "venture.bros.s01.s02.1080p.upscale",
             "itemTitle": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]",
             "file": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]/Season 2/The.Venture.Bros.S02E10.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
@@ -482,7 +504,8 @@
             "url": "https://archive.org/download/venture.bros.s01.s02.1080p.upscale/The%20Venture%20Bros%20%5BS1%20%26%20S2%201080p%20Waifu2x%20DVD%20Upscale%5D%2FSeason%202%2FThe.Venture.Bros.S02E10.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
             "seconds": 1361,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 133
           },
           "alternates": []
@@ -491,10 +514,10 @@
           "number": 11,
           "name": "¡Viva los Muertos!",
           "airdate": "2006-10-01",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 0.9,
-            "why": "S/E in filename",
+            "why": "S/E in filename | not browser-playable: video (x265)",
             "item": "venture.bros.s01.s02.1080p.upscale",
             "itemTitle": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]",
             "file": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]/Season 2/The.Venture.Bros.S02E11.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
@@ -502,7 +525,8 @@
             "url": "https://archive.org/download/venture.bros.s01.s02.1080p.upscale/The%20Venture%20Bros%20%5BS1%20%26%20S2%201080p%20Waifu2x%20DVD%20Upscale%5D%2FSeason%202%2FThe.Venture.Bros.S02E11.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
             "seconds": 1364,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 134
           },
           "alternates": []
@@ -511,10 +535,10 @@
           "number": 12,
           "name": "Showdown at Cremation Creek (1)",
           "airdate": "2006-10-08",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 0.9,
-            "why": "S/E in filename",
+            "why": "S/E in filename | not browser-playable: video (x265)",
             "item": "venture.bros.s01.s02.1080p.upscale",
             "itemTitle": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]",
             "file": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]/Season 2/The.Venture.Bros.S02E12.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
@@ -522,7 +546,8 @@
             "url": "https://archive.org/download/venture.bros.s01.s02.1080p.upscale/The%20Venture%20Bros%20%5BS1%20%26%20S2%201080p%20Waifu2x%20DVD%20Upscale%5D%2FSeason%202%2FThe.Venture.Bros.S02E12.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
             "seconds": 1363,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 132
           },
           "alternates": []
@@ -531,10 +556,10 @@
           "number": 13,
           "name": "Showdown at Cremation Creek (2)",
           "airdate": "2006-10-15",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 0.9,
-            "why": "S/E in filename",
+            "why": "S/E in filename | not browser-playable: video (x265)",
             "item": "venture.bros.s01.s02.1080p.upscale",
             "itemTitle": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]",
             "file": "The Venture Bros [S1 & S2 1080p Waifu2x DVD Upscale]/Season 2/The.Venture.Bros.S02E13.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
@@ -542,7 +567,8 @@
             "url": "https://archive.org/download/venture.bros.s01.s02.1080p.upscale/The%20Venture%20Bros%20%5BS1%20%26%20S2%201080p%20Waifu2x%20DVD%20Upscale%5D%2FSeason%202%2FThe.Venture.Bros.S02E13.1080p.DVDRip.Waifu2x.x265-SoF.mp4",
             "seconds": 1389,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 136
           },
           "alternates": []

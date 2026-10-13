@@ -3,7 +3,7 @@
   "slug": "xena-warrior-princess",
   "type": "Sci-Fi, Fantasy and Horror",
   "network": "Syndicated",
-  "matchedAt": "2026-10-13T07:46:16.897Z",
+  "matchedAt": "2026-10-13T15:54:09.756Z",
   "tvmaze": {
     "id": 437,
     "name": "Xena: Warrior Princess",
@@ -13,10 +13,10 @@
   },
   "coverage": {
     "total": 134,
-    "live": 35,
-    "review": 2,
-    "missing": 97,
-    "pct": 28
+    "live": 0,
+    "review": 36,
+    "missing": 98,
+    "pct": 27
   },
   "seasons": [
     {
@@ -26,10 +26,10 @@
           "number": 1,
           "name": "Sins of the Past",
           "airdate": "1995-09-04",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: container (Matroska)",
             "item": "xena-warrior-princess-1080p-latino-ingles",
             "itemTitle": "Xena Warrior Princess Latino - Inglés HD 1080p Reescalado con IA",
             "file": "Xena Warrior Princess S01E01 Sins of the Past.mkv",
@@ -38,6 +38,7 @@
             "seconds": 2662,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 1532
           },
           "alternates": []
@@ -46,10 +47,10 @@
           "number": 2,
           "name": "Chariots of War",
           "airdate": "1995-09-11",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: container (Matroska)",
             "item": "xena-warrior-princess-1080p-latino-ingles",
             "itemTitle": "Xena Warrior Princess Latino - Inglés HD 1080p Reescalado con IA",
             "file": "Xena Warrior Princess S01E02 Chariots of War.mkv",
@@ -58,6 +59,7 @@
             "seconds": 2653,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 1436
           },
           "alternates": []
@@ -66,10 +68,10 @@
           "number": 3,
           "name": "Dreamworker",
           "airdate": "1995-09-18",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: container (Matroska)",
             "item": "xena-warrior-princess-1080p-latino-ingles",
             "itemTitle": "Xena Warrior Princess Latino - Inglés HD 1080p Reescalado con IA",
             "file": "Xena Warrior Princess S01E03 Dreamworker.mkv",
@@ -78,6 +80,7 @@
             "seconds": 2659,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 1415
           },
           "alternates": []
@@ -86,10 +89,10 @@
           "number": 4,
           "name": "Cradle of Hope",
           "airdate": "1995-10-02",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: container (Matroska)",
             "item": "xena-warrior-princess-1080p-latino-ingles",
             "itemTitle": "Xena Warrior Princess Latino - Inglés HD 1080p Reescalado con IA",
             "file": "Xena Warrior Princess S01E04 Cradle of Hope.mkv",
@@ -98,6 +101,7 @@
             "seconds": 2658,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 1419
           },
           "alternates": []
@@ -106,10 +110,10 @@
           "number": 5,
           "name": "The Path Not Taken",
           "airdate": "1995-10-09",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: container (Matroska)",
             "item": "xena-warrior-princess-1080p-latino-ingles",
             "itemTitle": "Xena Warrior Princess Latino - Inglés HD 1080p Reescalado con IA",
             "file": "Xena Warrior Princess S01E05 The Path Not Taken.mkv",
@@ -118,6 +122,7 @@
             "seconds": 2648,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 1420
           },
           "alternates": []
@@ -126,10 +131,10 @@
           "number": 6,
           "name": "The Reckoning",
           "airdate": "1995-10-16",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: container (Matroska)",
             "item": "xena-warrior-princess-1080p-latino-ingles",
             "itemTitle": "Xena Warrior Princess Latino - Inglés HD 1080p Reescalado con IA",
             "file": "Xena Warrior Princess S01E06 The Reckoning.mkv",
@@ -138,6 +143,7 @@
             "seconds": 2660,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 1299
           },
           "alternates": []
@@ -146,10 +152,10 @@
           "number": 7,
           "name": "The Titans",
           "airdate": "1995-10-30",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: container (Matroska)",
             "item": "xena-warrior-princess-1080p-latino-ingles",
             "itemTitle": "Xena Warrior Princess Latino - Inglés HD 1080p Reescalado con IA",
             "file": "Xena Warrior Princess S01E07 The Titans.mkv",
@@ -158,6 +164,7 @@
             "seconds": 2655,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 1526
           },
           "alternates": []
@@ -166,10 +173,10 @@
           "number": 8,
           "name": "Prometheus",
           "airdate": "1995-11-06",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: container (Matroska)",
             "item": "xena-warrior-princess-1080p-latino-ingles",
             "itemTitle": "Xena Warrior Princess Latino - Inglés HD 1080p Reescalado con IA",
             "file": "Xena Warrior Princess S01E08 Prometheus.mkv",
@@ -178,6 +185,7 @@
             "seconds": 2656,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 1582
           },
           "alternates": []
@@ -186,10 +194,10 @@
           "number": 9,
           "name": "Death in Chains",
           "airdate": "1995-11-27",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: container (Matroska)",
             "item": "xena-warrior-princess-1080p-latino-ingles",
             "itemTitle": "Xena Warrior Princess Latino - Inglés HD 1080p Reescalado con IA",
             "file": "Xena Warrior Princess S01E09 Death in Chains.mkv",
@@ -198,6 +206,7 @@
             "seconds": 2660,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 1677
           },
           "alternates": []
@@ -206,10 +215,10 @@
           "number": 10,
           "name": "Hooves and Harlots",
           "airdate": "1995-12-04",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: container (Matroska)",
             "item": "xena-warrior-princess-1080p-latino-ingles",
             "itemTitle": "Xena Warrior Princess Latino - Inglés HD 1080p Reescalado con IA",
             "file": "Xena Warrior Princess S01E10 Hooves & Harlots.mkv",
@@ -218,6 +227,7 @@
             "seconds": 2661,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 1773
           },
           "alternates": []
@@ -226,10 +236,10 @@
           "number": 11,
           "name": "The Black Wolf",
           "airdate": "1996-01-08",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: container (Matroska)",
             "item": "xena-warrior-princess-1080p-latino-ingles",
             "itemTitle": "Xena Warrior Princess Latino - Inglés HD 1080p Reescalado con IA",
             "file": "Xena Warrior Princess S01E11 The Black Wolf.mkv",
@@ -238,6 +248,7 @@
             "seconds": 2659,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 1368
           },
           "alternates": []
@@ -246,10 +257,10 @@
           "number": 12,
           "name": "Beware Greeks Bearing Gifts",
           "airdate": "1996-01-15",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: container (Matroska)",
             "item": "xena-warrior-princess-1080p-latino-ingles",
             "itemTitle": "Xena Warrior Princess Latino - Inglés HD 1080p Reescalado con IA",
             "file": "Xena Warrior Princess S01E12 Beware Greeks Bearing Gifts.mkv",
@@ -258,6 +269,7 @@
             "seconds": 2661,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 1614
           },
           "alternates": []
@@ -266,10 +278,10 @@
           "number": 13,
           "name": "Athens City Academy of the Performing Bards",
           "airdate": "1996-01-22",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: container (Matroska)",
             "item": "xena-warrior-princess-1080p-latino-ingles",
             "itemTitle": "Xena Warrior Princess Latino - Inglés HD 1080p Reescalado con IA",
             "file": "Xena Warrior Princess S01E13 Athens City Academy of the Performing Bards.mkv",
@@ -278,6 +290,7 @@
             "seconds": 2640,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 1430
           },
           "alternates": []
@@ -286,10 +299,10 @@
           "number": 14,
           "name": "A Fistful of Dinars",
           "airdate": "1996-01-29",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: container (Matroska)",
             "item": "xena-warrior-princess-1080p-latino-ingles",
             "itemTitle": "Xena Warrior Princess Latino - Inglés HD 1080p Reescalado con IA",
             "file": "Xena Warrior Princess S01E14 A Fistful of Dinars.mkv",
@@ -298,6 +311,7 @@
             "seconds": 2662,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 1777
           },
           "alternates": []
@@ -309,7 +323,7 @@
           "state": "REVIEW",
           "file": {
             "conf": 0.8,
-            "why": "S/E in filename",
+            "why": "S/E in filename | not browser-playable: container (Matroska)",
             "item": "xena-warrior-princess-1080p-latino-ingles",
             "itemTitle": "Xena Warrior Princess Latino - Inglés HD 1080p Reescalado con IA",
             "file": "Xena Warrior Princess S01E15 Warrior Princess.mkv",
@@ -318,6 +332,7 @@
             "seconds": 2663,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 1857
           },
           "alternates": []
@@ -326,10 +341,10 @@
           "number": 16,
           "name": "Mortal Beloved",
           "airdate": "1996-02-12",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: container (Matroska)",
             "item": "xena-warrior-princess-1080p-latino-ingles",
             "itemTitle": "Xena Warrior Princess Latino - Inglés HD 1080p Reescalado con IA",
             "file": "Xena Warrior Princess S01E16 Mortal Beloved.mkv",
@@ -338,6 +353,7 @@
             "seconds": 2659,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 1567
           },
           "alternates": []
@@ -346,10 +362,10 @@
           "number": 17,
           "name": "The Royal Couple of Thieves",
           "airdate": "1996-02-19",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: container (Matroska)",
             "item": "xena-warrior-princess-1080p-latino-ingles",
             "itemTitle": "Xena Warrior Princess Latino - Inglés HD 1080p Reescalado con IA",
             "file": "Xena Warrior Princess S01E17 The Royal Couple of Thieves.mkv",
@@ -358,6 +374,7 @@
             "seconds": 2662,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 1391
           },
           "alternates": []
@@ -366,10 +383,10 @@
           "number": 18,
           "name": "The Prodigal",
           "airdate": "1996-03-04",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: container (Matroska)",
             "item": "xena-warrior-princess-1080p-latino-ingles",
             "itemTitle": "Xena Warrior Princess Latino - Inglés HD 1080p Reescalado con IA",
             "file": "Xena Warrior Princess S01E18 The Prodigal.mkv",
@@ -378,6 +395,7 @@
             "seconds": 2656,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 1921
           },
           "alternates": []
@@ -386,10 +404,10 @@
           "number": 19,
           "name": "Altared States",
           "airdate": "1996-04-22",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: container (Matroska)",
             "item": "xena-warrior-princess-1080p-latino-ingles",
             "itemTitle": "Xena Warrior Princess Latino - Inglés HD 1080p Reescalado con IA",
             "file": "Xena Warrior Princess S01E19 Altared States.mkv",
@@ -398,6 +416,7 @@
             "seconds": 2596,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 1776
           },
           "alternates": []
@@ -406,10 +425,10 @@
           "number": 20,
           "name": "Ties That Bind",
           "airdate": "1996-04-29",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: container (Matroska)",
             "item": "xena-warrior-princess-1080p-latino-ingles",
             "itemTitle": "Xena Warrior Princess Latino - Inglés HD 1080p Reescalado con IA",
             "file": "Xena Warrior Princess S01E20 Ties That Bind.mkv",
@@ -418,6 +437,7 @@
             "seconds": 2659,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 1879
           },
           "alternates": []
@@ -426,10 +446,10 @@
           "number": 21,
           "name": "The Greater Good",
           "airdate": "1996-05-06",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: container (Matroska)",
             "item": "xena-warrior-princess-1080p-latino-ingles",
             "itemTitle": "Xena Warrior Princess Latino - Inglés HD 1080p Reescalado con IA",
             "file": "Xena Warrior Princess S01E21 The Greater Good.mkv",
@@ -438,6 +458,7 @@
             "seconds": 2659,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 1683
           },
           "alternates": []
@@ -446,10 +467,10 @@
           "number": 22,
           "name": "Callisto",
           "airdate": "1996-05-13",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: container (Matroska)",
             "item": "xena-warrior-princess-1080p-latino-ingles",
             "itemTitle": "Xena Warrior Princess Latino - Inglés HD 1080p Reescalado con IA",
             "file": "Xena Warrior Princess S01E22 Callisto.mkv",
@@ -458,6 +479,7 @@
             "seconds": 2659,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 1559
           },
           "alternates": []
@@ -466,10 +488,10 @@
           "number": 23,
           "name": "Death Mask",
           "airdate": "1996-06-03",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: container (Matroska)",
             "item": "xena-warrior-princess-1080p-latino-ingles",
             "itemTitle": "Xena Warrior Princess Latino - Inglés HD 1080p Reescalado con IA",
             "file": "Xena Warrior Princess S01E23 Death Mask.mkv",
@@ -478,6 +500,7 @@
             "seconds": 2627,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 1711
           },
           "alternates": []
@@ -486,10 +509,10 @@
           "number": 24,
           "name": "Is There a Doctor in the House?",
           "airdate": "1996-07-29",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: container (Matroska)",
             "item": "xena-warrior-princess-1080p-latino-ingles",
             "itemTitle": "Xena Warrior Princess Latino - Inglés HD 1080p Reescalado con IA",
             "file": "Xena Warrior Princess S01E24 Is There a Doctor in the House.mkv",
@@ -498,6 +521,7 @@
             "seconds": 2602,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 1040
           },
           "alternates": []
@@ -511,10 +535,10 @@
           "number": 1,
           "name": "Orphan of War",
           "airdate": "1996-09-30",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: container (Matroska)",
             "item": "xena-warrior-princess-1080p-latino-ingles",
             "itemTitle": "Xena Warrior Princess Latino - Inglés HD 1080p Reescalado con IA",
             "file": "Xena Warrior Princess S02E01 Orphan Of War.mkv",
@@ -523,6 +547,7 @@
             "seconds": 2664,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 2339
           },
           "alternates": []
@@ -531,10 +556,10 @@
           "number": 2,
           "name": "Remember Nothing",
           "airdate": "1996-10-07",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: container (Matroska)",
             "item": "xena-warrior-princess-1080p-latino-ingles",
             "itemTitle": "Xena Warrior Princess Latino - Inglés HD 1080p Reescalado con IA",
             "file": "Xena Warrior Princess S02E02 Remember Nothing.mkv",
@@ -543,6 +568,7 @@
             "seconds": 2601,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 2112
           },
           "alternates": []
@@ -551,10 +577,10 @@
           "number": 3,
           "name": "The Giant Killer",
           "airdate": "1996-10-14",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: container (Matroska)",
             "item": "xena-warrior-princess-1080p-latino-ingles",
             "itemTitle": "Xena Warrior Princess Latino - Inglés HD 1080p Reescalado con IA",
             "file": "Xena Warrior Princess S02E03 The Giant Killer.mkv",
@@ -563,6 +589,7 @@
             "seconds": 2660,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 2380
           },
           "alternates": []
@@ -571,10 +598,10 @@
           "number": 4,
           "name": "Girls Just Wanna Have Fun",
           "airdate": "1996-10-28",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: container (Matroska)",
             "item": "xena-warrior-princess-1080p-latino-ingles",
             "itemTitle": "Xena Warrior Princess Latino - Inglés HD 1080p Reescalado con IA",
             "file": "Xena Warrior Princess S02E04 Girls Just Wanna Have Fun.mkv",
@@ -583,6 +610,7 @@
             "seconds": 2659,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 2203
           },
           "alternates": []
@@ -591,10 +619,10 @@
           "number": 5,
           "name": "Return of Callisto",
           "airdate": "1996-11-04",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: container (Matroska)",
             "item": "xena-warrior-princess-1080p-latino-ingles",
             "itemTitle": "Xena Warrior Princess Latino - Inglés HD 1080p Reescalado con IA",
             "file": "Xena Warrior Princess S02E05 Return Of Callisto.mkv",
@@ -603,6 +631,7 @@
             "seconds": 2664,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 2310
           },
           "alternates": []
@@ -614,7 +643,7 @@
           "state": "REVIEW",
           "file": {
             "conf": 0.8,
-            "why": "S/E in filename",
+            "why": "S/E in filename | not browser-playable: container (Matroska)",
             "item": "xena-warrior-princess-1080p-latino-ingles",
             "itemTitle": "Xena Warrior Princess Latino - Inglés HD 1080p Reescalado con IA",
             "file": "Xena Warrior Princess S02E06 Warrior Princess Tramp 1-016.mkv",
@@ -623,6 +652,7 @@
             "seconds": 2665,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 2235
           },
           "alternates": []
@@ -631,30 +661,18 @@
           "number": 7,
           "name": "Intimate Stranger",
           "airdate": "1996-11-18",
-          "state": "LIVE",
-          "file": {
-            "conf": 1,
-            "why": "S/E in filename + title match",
-            "item": "xena-warrior-princess-1080p-latino-ingles",
-            "itemTitle": "Xena Warrior Princess Latino - Inglés HD 1080p Reescalado con IA",
-            "file": "Xena Warrior Princess S02E07.Intimate.Stranger.mkv",
-            "name": "Xena Warrior Princess S02E07.Intimate.Stranger",
-            "url": "https://archive.org/download/xena-warrior-princess-1080p-latino-ingles/Xena%20Warrior%20Princess%20S02E07.Intimate.Stranger.mkv",
-            "seconds": 2658,
-            "format": "Matroska",
-            "playable": false,
-            "sizeMB": 2087
-          },
+          "state": "MISSING",
+          "file": null,
           "alternates": []
         },
         {
           "number": 8,
           "name": "Ten Little Warlords",
           "airdate": "1996-11-25",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: container (Matroska)",
             "item": "xena-warrior-princess-1080p-latino-ingles",
             "itemTitle": "Xena Warrior Princess Latino - Inglés HD 1080p Reescalado con IA",
             "file": "Xena Warrior Princess S02E08.Ten.Little.Warlords.1-018.mkv",
@@ -663,6 +681,7 @@
             "seconds": 2632,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 2305
           },
           "alternates": []
@@ -671,10 +690,10 @@
           "number": 9,
           "name": "A Solstice Carol",
           "airdate": "1996-12-09",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: container (Matroska)",
             "item": "xena-warrior-princess-1080p-latino-ingles",
             "itemTitle": "Xena Warrior Princess Latino - Inglés HD 1080p Reescalado con IA",
             "file": "Xena Warrior Princess S02E09.A.Solstice.Carol.mkv",
@@ -683,6 +702,7 @@
             "seconds": 2661,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 2088
           },
           "alternates": []
@@ -691,10 +711,10 @@
           "number": 10,
           "name": "The Xena Scrolls",
           "airdate": "1997-01-13",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 0.95,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: container (Matroska)",
             "item": "xena-warrior-princess-1080p-latino-ingles",
             "itemTitle": "Xena Warrior Princess Latino - Inglés HD 1080p Reescalado con IA",
             "file": "Xena Warrior Princess S02E10.The.Xena.Scrolls.mkv",
@@ -703,6 +723,7 @@
             "seconds": 2664,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 2131
           },
           "alternates": []
@@ -711,10 +732,10 @@
           "number": 11,
           "name": "Here She Comes... Miss Amphipolis",
           "airdate": "1997-01-20",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: container (Matroska)",
             "item": "xena-warrior-princess-1080p-latino-ingles",
             "itemTitle": "Xena Warrior Princess Latino - Inglés HD 1080p Reescalado con IA",
             "file": "Xena Warrior Princess S02E11 Here She Comes Miss Amphipolis.mkv",
@@ -723,6 +744,7 @@
             "seconds": 2603,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 1874
           },
           "alternates": []
@@ -731,10 +753,10 @@
           "number": 12,
           "name": "Destiny",
           "airdate": "1997-01-27",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: container (Matroska)",
             "item": "xena-warrior-princess-1080p-latino-ingles",
             "itemTitle": "Xena Warrior Princess Latino - Inglés HD 1080p Reescalado con IA",
             "file": "Xena Warrior Princess S02E12 Destiny.mkv",
@@ -743,6 +765,7 @@
             "seconds": 2632,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 1695
           },
           "alternates": []
@@ -751,10 +774,10 @@
           "number": 13,
           "name": "The Quest",
           "airdate": "1997-02-03",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: container (Matroska)",
             "item": "xena-warrior-princess-1080p-latino-ingles",
             "itemTitle": "Xena Warrior Princess Latino - Inglés HD 1080p Reescalado con IA",
             "file": "Xena Warrior Princess S02E13 The Quest.mkv",
@@ -763,6 +786,7 @@
             "seconds": 2661,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 1848
           },
           "alternates": []

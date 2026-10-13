@@ -3,7 +3,7 @@
   "slug": "warehouse-13",
   "type": "Sci-Fi, Fantasy and Horror",
   "network": "Sci-Fi Channel",
-  "matchedAt": "2026-10-13T07:46:17.470Z",
+  "matchedAt": "2026-10-13T15:54:10.415Z",
   "tvmaze": {
     "id": 434,
     "name": "Warehouse 13",
@@ -14,9 +14,9 @@
   "coverage": {
     "total": 64,
     "live": 0,
-    "review": 6,
-    "missing": 58,
-    "pct": 9
+    "review": 5,
+    "missing": 59,
+    "pct": 8
   },
   "seasons": [
     {
@@ -154,20 +154,8 @@
           "number": 6,
           "name": "Burnout",
           "airdate": "2009-08-11",
-          "state": "REVIEW",
-          "file": {
-            "conf": 0.55,
-            "why": "absolute episode number",
-            "item": "men-at-work_202503",
-            "itemTitle": "Movies and TV",
-            "file": "Moon Knight Episode 06 - Gods and Monsters.mp4",
-            "name": "Moon Knight Episode 06 - Gods and Monsters",
-            "url": "https://archive.org/download/men-at-work_202503/Moon%20Knight%20Episode%2006%20-%20Gods%20and%20Monsters.mp4",
-            "seconds": 2545,
-            "format": "MPEG4",
-            "playable": true,
-            "sizeMB": 354
-          },
+          "state": "MISSING",
+          "file": null,
           "alternates": []
         },
         {

@@ -3,7 +3,7 @@
   "slug": "the-larry-sanders-show",
   "type": "90s Sitcoms",
   "network": "HBO",
-  "matchedAt": "2026-10-13T07:46:14.574Z",
+  "matchedAt": "2026-10-13T15:54:05.281Z",
   "tvmaze": {
     "id": 4521,
     "name": "The Larry Sanders Show",
@@ -13,8 +13,8 @@
   },
   "coverage": {
     "total": 90,
-    "live": 80,
-    "review": 2,
+    "live": 76,
+    "review": 6,
     "missing": 8,
     "pct": 91
   },
@@ -981,9 +981,9 @@
           "number": 8,
           "name": "The Mr. Sharon Stone Show",
           "airdate": "1994-08-10",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "TheLarrySandersShow",
             "itemTitle": "The Larry Sanders Show",
@@ -1109,9 +1109,9 @@
           "number": 15,
           "name": "Next Stop Bottom",
           "airdate": "1994-09-28",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "TheLarrySandersShow",
             "itemTitle": "The Larry Sanders Show",
@@ -1302,9 +1302,9 @@
           "number": 8,
           "name": "Nothing Personal",
           "airdate": "1995-09-13",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "TheLarrySandersShow",
             "itemTitle": "The Larry Sanders Show",
@@ -1724,9 +1724,9 @@
           "number": 1,
           "name": "Another List",
           "airdate": "1998-03-15",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "TheLarrySandersShow",
             "itemTitle": "The Larry Sanders Show",

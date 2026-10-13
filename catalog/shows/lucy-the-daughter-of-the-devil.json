@@ -3,7 +3,7 @@
   "slug": "lucy-the-daughter-of-the-devil",
   "type": "Adult Swim",
   "network": "Adult Swim",
-  "matchedAt": "2026-10-13T07:46:15.864Z",
+  "matchedAt": "2026-10-13T15:54:08.276Z",
   "tvmaze": {
     "id": 6240,
     "name": "Lucy, The Daughter of the Devil",
@@ -13,8 +13,8 @@
   },
   "coverage": {
     "total": 11,
-    "live": 11,
-    "review": 0,
+    "live": 9,
+    "review": 2,
     "missing": 0,
     "pct": 100
   },
@@ -196,9 +196,9 @@
           "number": 6,
           "name": "Human Sacrifice",
           "airdate": "2007-10-07",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.55,
             "why": "S/E in filename + title match",
             "item": "s-1-e-01-hes-not-the-messiah-hes-a-dj-1-161029",
             "itemTitle": "S 1 E 01 He's Not The Messiah, He's A DJ 1 161029",
@@ -212,7 +212,7 @@
           },
           "alternates": [
             {
-              "conf": 1,
+              "conf": 0.55,
               "why": "S/E in filename + title match",
               "item": "s-1-e-10-satans-school-for-girls_202412",
               "itemTitle": "Lucy, the daughter of the devil (complete)",
@@ -379,9 +379,9 @@
           "number": 11,
           "name": "Monster",
           "airdate": "2007-11-11",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.55,
             "why": "S/E in filename + title match",
             "item": "s-1-e-01-hes-not-the-messiah-hes-a-dj-1-161029",
             "itemTitle": "S 1 E 01 He's Not The Messiah, He's A DJ 1 161029",
@@ -395,7 +395,7 @@
           },
           "alternates": [
             {
-              "conf": 1,
+              "conf": 0.55,
               "why": "S/E in filename + title match",
               "item": "s-1-e-10-satans-school-for-girls_202412",
               "itemTitle": "Lucy, the daughter of the devil (complete)",

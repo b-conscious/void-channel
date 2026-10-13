@@ -3,7 +3,7 @@
   "slug": "queer-as-folk",
   "type": "Drama",
   "network": "Showtime",
-  "matchedAt": "2026-10-13T07:46:16.719Z",
+  "matchedAt": "2026-10-13T15:54:09.540Z",
   "tvmaze": {
     "id": 908,
     "name": "Queer As Folk",
@@ -14,9 +14,9 @@
   "coverage": {
     "total": 83,
     "live": 2,
-    "review": 81,
-    "missing": 0,
-    "pct": 100
+    "review": 80,
+    "missing": 1,
+    "pct": 99
   },
   "seasons": [
     {
@@ -1883,35 +1883,9 @@
           "number": 3,
           "name": "Doctors of Dickology",
           "airdate": "2003-03-16",
-          "state": "REVIEW",
-          "file": {
-            "conf": 0.8,
-            "why": "title ~ \"Doctors of Dickology\" (1.00)",
-            "item": "queer-as-folk-us",
-            "itemTitle": "Queer As Folk ( US)",
-            "file": "Queer as Folk (US)/Season 03/[S03.E03] - Doctors of Dickology.mp4",
-            "name": "Queer as Folk (US)/Season 03/[S03.E03] - Doctors of Dickology",
-            "url": "https://archive.org/download/queer-as-folk-us/Queer%20as%20Folk%20(US)%2FSeason%2003%2F%5BS03.E03%5D%20-%20Doctors%20of%20Dickology.mp4",
-            "seconds": 2792,
-            "format": "h.264",
-            "playable": true,
-            "sizeMB": 273
-          },
-          "alternates": [
-            {
-              "conf": 0.8,
-              "why": "title ~ \"Doctors of Dickology\" (1.00)",
-              "item": "queer-as-folk-us5",
-              "itemTitle": "Queer As Folk ( US)",
-              "file": "Queer as Folk (US)/Season 03/[S03.E03] - Doctors of Dickology.mp4",
-              "name": "Queer as Folk (US)/Season 03/[S03.E03] - Doctors of Dickology",
-              "url": "https://archive.org/download/queer-as-folk-us5/Queer%20as%20Folk%20(US)%2FSeason%2003%2F%5BS03.E03%5D%20-%20Doctors%20of%20Dickology.mp4",
-              "seconds": 2792,
-              "format": "h.264",
-              "playable": true,
-              "sizeMB": 273
-            }
-          ]
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
         },
         {
           "number": 4,

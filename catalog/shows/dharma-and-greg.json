@@ -3,7 +3,7 @@
   "slug": "dharma-and-greg",
   "type": "90s Sitcoms",
   "network": "ABC",
-  "matchedAt": "2026-10-13T07:46:14.464Z",
+  "matchedAt": "2026-10-13T15:54:04.228Z",
   "tvmaze": {
     "id": 569,
     "name": "Dharma & Greg",
@@ -13,10 +13,10 @@
   },
   "coverage": {
     "total": 119,
-    "live": 45,
+    "live": 44,
     "review": 1,
-    "missing": 73,
-    "pct": 39
+    "missing": 74,
+    "pct": 38
   },
   "seasons": [
     {
@@ -334,20 +334,8 @@
           "number": 17,
           "name": "The Official Dharma & Greg Episode of the 1998 Winter Olympics",
           "airdate": "1998-02-25",
-          "state": "LIVE",
-          "file": {
-            "conf": 1,
-            "why": "S/E in filename + title match",
-            "item": "dharma-and-greg-season-1",
-            "itemTitle": "Dharma And Greg Season 1",
-            "file": "Dharma And Greg Season 1 Episode 17 The Official Dharma & Greg Episode Of The 1998 Winter Olympics.mp4",
-            "name": "Dharma And Greg Season 1 Episode 17 The Official Dharma & Greg Episode Of The 1998 Winter Olympics",
-            "url": "https://archive.org/download/dharma-and-greg-season-1/Dharma%20And%20Greg%20Season%201%20Episode%2017%20The%20Official%20Dharma%20%26%20Greg%20Episode%20Of%20The%201998%20Winter%20Olympics.mp4",
-            "seconds": 1330,
-            "format": "MPEG4",
-            "playable": true,
-            "sizeMB": 45
-          },
+          "state": "MISSING",
+          "file": null,
           "alternates": []
         },
         {

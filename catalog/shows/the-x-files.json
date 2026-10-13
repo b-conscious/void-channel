@@ -3,7 +3,7 @@
   "slug": "the-x-files",
   "type": "Sci-Fi, Fantasy and Horror",
   "network": "FOX",
-  "matchedAt": "2026-10-13T07:46:16.752Z",
+  "matchedAt": "2026-10-13T15:54:09.583Z",
   "tvmaze": {
     "id": 430,
     "name": "The X-Files",
@@ -13,8 +13,8 @@
   },
   "coverage": {
     "total": 218,
-    "live": 6,
-    "review": 15,
+    "live": 5,
+    "review": 16,
     "missing": 197,
     "pct": 10
   },
@@ -1935,9 +1935,9 @@
           "number": 3,
           "name": "Mulder and Scully Meet the Were-Monster",
           "airdate": "2016-02-01",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "the-x-files-1993-season-10-complete-720p-blu-ray-x-264-i-c",
             "itemTitle": "The X Files 1993 Season 10 Complete 720p Blu Ray X 264 [i C]",

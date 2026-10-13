@@ -3,7 +3,7 @@
   "slug": "sliders",
   "type": "Sci-Fi, Fantasy and Horror",
   "network": "Sci-Fi Channel",
-  "matchedAt": "2026-10-13T07:46:17.257Z",
+  "matchedAt": "2026-10-13T15:54:10.182Z",
   "tvmaze": {
     "id": 583,
     "name": "Sliders",
@@ -13,8 +13,8 @@
   },
   "coverage": {
     "total": 87,
-    "live": 83,
-    "review": 2,
+    "live": 80,
+    "review": 5,
     "missing": 2,
     "pct": 98
   },
@@ -862,9 +862,9 @@
           "number": 18,
           "name": "Sole Survivors",
           "airdate": "1997-03-07",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "sliders-s-03-e-20-the-last-of-eden",
             "itemTitle": "Sliders S 03 E 20 The Last Of Eden",
@@ -1485,9 +1485,9 @@
           "number": 19,
           "name": "My Brother's Keeper",
           "airdate": "1999-04-02",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "sliders-s-04-e-06-oh-brother-where-art-thou_202507",
             "itemTitle": "Sliders S 04 E 06 ( Oh Brother, Where Art Thou)",
@@ -1610,9 +1610,9 @@
           "number": 3,
           "name": "Strangers and Comrades",
           "airdate": "1999-06-25",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "sliders-s-05-e-10-easy-slider",
             "itemTitle": "Sliders S 05 E 10 ( Easy Slider)",

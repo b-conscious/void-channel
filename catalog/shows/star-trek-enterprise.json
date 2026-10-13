@@ -3,7 +3,7 @@
   "slug": "star-trek-enterprise",
   "type": "Sci-Fi, Fantasy and Horror",
   "network": "UPN",
-  "matchedAt": "2026-10-13T07:46:17.066Z",
+  "matchedAt": "2026-10-13T15:54:09.955Z",
   "tvmaze": {
     "id": 714,
     "name": "Star Trek: Enterprise",
@@ -13,10 +13,10 @@
   },
   "coverage": {
     "total": 98,
-    "live": 32,
+    "live": 31,
     "review": 1,
-    "missing": 65,
-    "pct": 34
+    "missing": 66,
+    "pct": 33
   },
   "seasons": [
     {
@@ -454,20 +454,8 @@
           "number": 23,
           "name": "Fallen Hero",
           "airdate": "2002-05-08",
-          "state": "LIVE",
-          "file": {
-            "conf": 0.9,
-            "why": "S/E in filename",
-            "item": "star-trek-enterprise-la-serie-v.f.-2001-2005",
-            "itemTitle": "Star Trek Enterprise ☆ La Série V.F. ☆ 2001-2005",
-            "file": "Star Trek Enterprise 1x23 Incident Diplomatique.mp4",
-            "name": "Star Trek Enterprise 1x23 Incident Diplomatique",
-            "url": "https://archive.org/download/star-trek-enterprise-la-serie-v.f.-2001-2005/Star%20Trek%20Enterprise%201x23%20Incident%20Diplomatique.mp4",
-            "seconds": 2552,
-            "format": "MPEG4",
-            "playable": true,
-            "sizeMB": 336
-          },
+          "state": "MISSING",
+          "file": null,
           "alternates": []
         },
         {

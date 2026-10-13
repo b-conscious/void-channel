@@ -3,7 +3,7 @@
   "slug": "king-of-the-hill",
   "type": "Animated",
   "network": "FOX",
-  "matchedAt": "2026-10-13T07:46:15.436Z",
+  "matchedAt": "2026-10-13T15:54:06.630Z",
   "tvmaze": {
     "id": 115,
     "name": "King of the Hill",
@@ -13,10 +13,10 @@
   },
   "coverage": {
     "total": 279,
-    "live": 22,
-    "review": 0,
-    "missing": 257,
-    "pct": 8
+    "live": 58,
+    "review": 2,
+    "missing": 219,
+    "pct": 22
   },
   "seasons": [
     {
@@ -26,96 +26,254 @@
           "number": 1,
           "name": "Pilot",
           "airdate": "1997-01-12",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+            "itemTitle": "king of the hill season 1-3",
+            "file": "King of the Hill S01E01 Pilot.mp4",
+            "name": "King of the Hill S01E01 Pilot",
+            "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S01E01%20Pilot.mp4",
+            "seconds": 1340,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 30
+          },
           "alternates": []
         },
         {
           "number": 2,
           "name": "Square Peg",
           "airdate": "1997-01-19",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+            "itemTitle": "king of the hill season 1-3",
+            "file": "King of the Hill S01E02 Square Peg.mp4",
+            "name": "King of the Hill S01E02 Square Peg",
+            "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S01E02%20Square%20Peg.mp4",
+            "seconds": 1336,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 32
+          },
           "alternates": []
         },
         {
           "number": 3,
           "name": "The Order of the Straight Arrow",
           "airdate": "1997-02-02",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+            "itemTitle": "king of the hill season 1-3",
+            "file": "King of the Hill S01E03 Order of the Straight Arrow.mp4",
+            "name": "King of the Hill S01E03 Order of the Straight Arrow",
+            "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S01E03%20Order%20of%20the%20Straight%20Arrow.mp4",
+            "seconds": 1340,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 33
+          },
           "alternates": []
         },
         {
           "number": 4,
           "name": "Hank's Got the Willies",
           "airdate": "1997-02-09",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+            "itemTitle": "king of the hill season 1-3",
+            "file": "King of the Hill S01E04 Hank's Got the Willies.mp4",
+            "name": "King of the Hill S01E04 Hank's Got the Willies",
+            "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S01E04%20Hank's%20Got%20the%20Willies.mp4",
+            "seconds": 1337,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 33
+          },
           "alternates": []
         },
         {
           "number": 5,
           "name": "Luanne's Saga",
           "airdate": "1997-02-16",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+            "itemTitle": "king of the hill season 1-3",
+            "file": "King of the Hill S01E05 Luanne's Saga.mp4",
+            "name": "King of the Hill S01E05 Luanne's Saga",
+            "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S01E05%20Luanne's%20Saga.mp4",
+            "seconds": 1336,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 35
+          },
           "alternates": []
         },
         {
           "number": 6,
           "name": "Hank's Unmentionable Problem",
           "airdate": "1997-02-23",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+            "itemTitle": "king of the hill season 1-3",
+            "file": "King of the Hill S01E06 Hank's Unmentionable Problem.mp4",
+            "name": "King of the Hill S01E06 Hank's Unmentionable Problem",
+            "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S01E06%20Hank's%20Unmentionable%20Problem.mp4",
+            "seconds": 1336,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 33
+          },
           "alternates": []
         },
         {
           "number": 7,
           "name": "Westie Side Story",
           "airdate": "1997-03-02",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+            "itemTitle": "king of the hill season 1-3",
+            "file": "King of the Hill S01E07 Westie Side Story.mp4",
+            "name": "King of the Hill S01E07 Westie Side Story",
+            "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S01E07%20Westie%20Side%20Story.mp4",
+            "seconds": 1337,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 40
+          },
           "alternates": []
         },
         {
           "number": 8,
           "name": "Shins of the Father",
           "airdate": "1997-03-23",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+            "itemTitle": "king of the hill season 1-3",
+            "file": "King of the Hill S01E08 Shins of the Father.mp4",
+            "name": "King of the Hill S01E08 Shins of the Father",
+            "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S01E08%20Shins%20of%20the%20Father.mp4",
+            "seconds": 1336,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 34
+          },
           "alternates": []
         },
         {
           "number": 9,
           "name": "Peggy the Boggle Champ",
           "airdate": "1997-04-13",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+            "itemTitle": "king of the hill season 1-3",
+            "file": "King of the Hill S01E09 Peggy the Boggle Champ.mp4",
+            "name": "King of the Hill S01E09 Peggy the Boggle Champ",
+            "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S01E09%20Peggy%20the%20Boggle%20Champ.mp4",
+            "seconds": 1337,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 34
+          },
           "alternates": []
         },
         {
           "number": 10,
           "name": "Keeping Up with Our Joneses",
           "airdate": "1997-04-27",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+            "itemTitle": "king of the hill season 1-3",
+            "file": "King of the Hill S01E10 Keeping Up with Our Joneses.mp4",
+            "name": "King of the Hill S01E10 Keeping Up with Our Joneses",
+            "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S01E10%20Keeping%20Up%20with%20Our%20Joneses.mp4",
+            "seconds": 1337,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 32
+          },
           "alternates": []
         },
         {
           "number": 11,
           "name": "King of the Ant Hill",
           "airdate": "1997-05-04",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+            "itemTitle": "king of the hill season 1-3",
+            "file": "King of the Hill S01E11 King of the Ant Hill.mp4",
+            "name": "King of the Hill S01E11 King of the Ant Hill",
+            "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S01E11%20King%20of%20the%20Ant%20Hill.mp4",
+            "seconds": 1335,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 37
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"King of the Ant Hill\" (0.62)",
+              "item": "the-making-of-king-of-the-hill",
+              "itemTitle": "The Making Of King Of The Hill",
+              "file": "The Making Of King Of The Hill.mp4",
+              "name": "The Making Of King Of The Hill",
+              "url": "https://archive.org/download/the-making-of-king-of-the-hill/The%20Making%20Of%20King%20Of%20The%20Hill.mp4",
+              "seconds": 1443,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 143
+            }
+          ]
         },
         {
           "number": 12,
           "name": "Plastic White Female",
           "airdate": "1997-05-11",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+            "itemTitle": "king of the hill season 1-3",
+            "file": "King of the Hill S01E12 Plastic White Female.mp4",
+            "name": "King of the Hill S01E12 Plastic White Female",
+            "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S01E12%20Plastic%20White%20Female.mp4",
+            "seconds": 1335,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 38
+          },
           "alternates": []
         }
       ]
@@ -141,7 +299,21 @@
             "playable": true,
             "sizeMB": 131
           },
-          "alternates": []
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+              "itemTitle": "king of the hill season 1-3",
+              "file": "King of the Hill S02E01 How to Fire a Rifle Without Really Trying.mp4",
+              "name": "King of the Hill S02E01 How to Fire a Rifle Without Really Trying",
+              "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S02E01%20How%20to%20Fire%20a%20Rifle%20Without%20Really%20Trying.mp4",
+              "seconds": 1337,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 39
+            }
+          ]
         },
         {
           "number": 2,
@@ -161,7 +333,21 @@
             "playable": true,
             "sizeMB": 130
           },
-          "alternates": []
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+              "itemTitle": "king of the hill season 1-3",
+              "file": "King of the Hill S02E02 Texas City Twister.mp4",
+              "name": "King of the Hill S02E02 Texas City Twister",
+              "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S02E02%20Texas%20City%20Twister.mp4",
+              "seconds": 1337,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 40
+            }
+          ]
         },
         {
           "number": 3,
@@ -181,7 +367,21 @@
             "playable": true,
             "sizeMB": 131
           },
-          "alternates": []
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+              "itemTitle": "king of the hill season 1-3",
+              "file": "King of the Hill S02E03 The Arrowhead.mp4",
+              "name": "King of the Hill S02E03 The Arrowhead",
+              "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S02E03%20The%20Arrowhead.mp4",
+              "seconds": 1337,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 37
+            }
+          ]
         },
         {
           "number": 4,
@@ -201,7 +401,21 @@
             "playable": true,
             "sizeMB": 131
           },
-          "alternates": []
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+              "itemTitle": "king of the hill season 1-3",
+              "file": "King of the Hill S02E04 Hilloween.mp4",
+              "name": "King of the Hill S02E04 Hilloween",
+              "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S02E04%20Hilloween.mp4",
+              "seconds": 1352,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 35
+            }
+          ]
         },
         {
           "number": 5,
@@ -221,7 +435,21 @@
             "playable": true,
             "sizeMB": 131
           },
-          "alternates": []
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+              "itemTitle": "king of the hill season 1-3",
+              "file": "King of the Hill S02E05 Jumpin' Crack Bass.mp4",
+              "name": "King of the Hill S02E05 Jumpin' Crack Bass",
+              "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S02E05%20Jumpin'%20Crack%20Bass.mp4",
+              "seconds": 1350,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 45
+            }
+          ]
         },
         {
           "number": 6,
@@ -241,7 +469,21 @@
             "playable": true,
             "sizeMB": 132
           },
-          "alternates": []
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+              "itemTitle": "king of the hill season 1-3",
+              "file": "King of the Hill S02E06 Husky Bobby.mp4",
+              "name": "King of the Hill S02E06 Husky Bobby",
+              "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S02E06%20Husky%20Bobby.mp4",
+              "seconds": 1350,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 47
+            }
+          ]
         },
         {
           "number": 7,
@@ -261,7 +503,21 @@
             "playable": true,
             "sizeMB": 132
           },
-          "alternates": []
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+              "itemTitle": "king of the hill season 1-3",
+              "file": "King of the Hill S02E07 The Man Who Shot Cane Skretteberg.mp4",
+              "name": "King of the Hill S02E07 The Man Who Shot Cane Skretteberg",
+              "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S02E07%20The%20Man%20Who%20Shot%20Cane%20Skretteberg.mp4",
+              "seconds": 1350,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 42
+            }
+          ]
         },
         {
           "number": 8,
@@ -281,7 +537,21 @@
             "playable": true,
             "sizeMB": 132
           },
-          "alternates": []
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+              "itemTitle": "king of the hill season 1-3",
+              "file": "King of the Hill S02E08 The Son That Got Away.mp4",
+              "name": "King of the Hill S02E08 The Son That Got Away",
+              "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S02E08%20The%20Son%20That%20Got%20Away.mp4",
+              "seconds": 1354,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 40
+            }
+          ]
         },
         {
           "number": 9,
@@ -301,7 +571,21 @@
             "playable": true,
             "sizeMB": 132
           },
-          "alternates": []
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+              "itemTitle": "king of the hill season 1-3",
+              "file": "King of the Hill S02E09 The Company Man.mp4",
+              "name": "King of the Hill S02E09 The Company Man",
+              "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S02E09%20The%20Company%20Man.mp4",
+              "seconds": 1335,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 34
+            }
+          ]
         },
         {
           "number": 10,
@@ -321,7 +605,21 @@
             "playable": true,
             "sizeMB": 131
           },
-          "alternates": []
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+              "itemTitle": "king of the hill season 1-3",
+              "file": "King of the Hill S02E10 Bobby Slam.mp4",
+              "name": "King of the Hill S02E10 Bobby Slam",
+              "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S02E10%20Bobby%20Slam.mp4",
+              "seconds": 1353,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 41
+            }
+          ]
         },
         {
           "number": 11,
@@ -341,7 +639,21 @@
             "playable": true,
             "sizeMB": 132
           },
-          "alternates": []
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+              "itemTitle": "king of the hill season 1-3",
+              "file": "King of the Hill S02E11 The Unbearable Blindness of Laying.mp4",
+              "name": "King of the Hill S02E11 The Unbearable Blindness of Laying",
+              "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S02E11%20The%20Unbearable%20Blindness%20of%20Laying.mp4",
+              "seconds": 1353,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 40
+            }
+          ]
         },
         {
           "number": 12,
@@ -361,7 +673,21 @@
             "playable": true,
             "sizeMB": 133
           },
-          "alternates": []
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+              "itemTitle": "king of the hill season 1-3",
+              "file": "King of the Hill S02E12 Meet the Manger Babies.mp4",
+              "name": "King of the Hill S02E12 Meet the Manger Babies",
+              "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S02E12%20Meet%20the%20Manger%20Babies.mp4",
+              "seconds": 1351,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 39
+            }
+          ]
         },
         {
           "number": 13,
@@ -381,7 +707,21 @@
             "playable": true,
             "sizeMB": 132
           },
-          "alternates": []
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+              "itemTitle": "king of the hill season 1-3",
+              "file": "King of the Hill S02E13 Snow Job.mp4",
+              "name": "King of the Hill S02E13 Snow Job",
+              "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S02E13%20Snow%20Job.mp4",
+              "seconds": 1355,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 46
+            }
+          ]
         },
         {
           "number": 14,
@@ -401,7 +741,21 @@
             "playable": true,
             "sizeMB": 132
           },
-          "alternates": []
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+              "itemTitle": "king of the hill season 1-3",
+              "file": "King of the Hill S02E14 I Remember Mono.mp4",
+              "name": "King of the Hill S02E14 I Remember Mono",
+              "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S02E14%20I%20Remember%20Mono.mp4",
+              "seconds": 1356,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 45
+            }
+          ]
         },
         {
           "number": 15,
@@ -421,7 +775,21 @@
             "playable": true,
             "sizeMB": 133
           },
-          "alternates": []
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+              "itemTitle": "king of the hill season 1-3",
+              "file": "King of the Hill S02E15 Three Days of the Kahndo.mp4",
+              "name": "King of the Hill S02E15 Three Days of the Kahndo",
+              "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S02E15%20Three%20Days%20of%20the%20Kahndo.mp4",
+              "seconds": 1352,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 44
+            }
+          ]
         },
         {
           "number": 16,
@@ -441,14 +809,40 @@
             "playable": true,
             "sizeMB": 134
           },
-          "alternates": []
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+              "itemTitle": "king of the hill season 1-3",
+              "file": "King of the Hill S02E16 Traffic Jam.mp4",
+              "name": "King of the Hill S02E16 Traffic Jam",
+              "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S02E16%20Traffic%20Jam.mp4",
+              "seconds": 1351,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 40
+            }
+          ]
         },
         {
           "number": 17,
           "name": "Hank's Dirty Laundry",
           "airdate": "1998-03-01",
-          "state": "MISSING",
-          "file": null,
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.6,
+            "why": "S/E in filename + title match",
+            "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+            "itemTitle": "king of the hill season 1-3",
+            "file": "King of the Hill S02E17 Hank's Dirty Laundry.mp4",
+            "name": "King of the Hill S02E17 Hank's Dirty Laundry",
+            "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S02E17%20Hank's%20Dirty%20Laundry.mp4",
+            "seconds": 1352,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 44
+          },
           "alternates": []
         },
         {
@@ -469,7 +863,21 @@
             "playable": true,
             "sizeMB": 133
           },
-          "alternates": []
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+              "itemTitle": "king of the hill season 1-3",
+              "file": "King of the Hill S02E18 The Final Shinsult.mp4",
+              "name": "King of the Hill S02E18 The Final Shinsult",
+              "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S02E18%20The%20Final%20Shinsult.mp4",
+              "seconds": 1354,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 38
+            }
+          ]
         },
         {
           "number": 19,
@@ -489,7 +897,21 @@
             "playable": true,
             "sizeMB": 133
           },
-          "alternates": []
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+              "itemTitle": "king of the hill season 1-3",
+              "file": "King of the Hill S02E19 Leanne's Saga.mp4",
+              "name": "King of the Hill S02E19 Leanne's Saga",
+              "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S02E19%20Leanne's%20Saga.mp4",
+              "seconds": 1354,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 43
+            }
+          ]
         },
         {
           "number": 20,
@@ -509,7 +931,21 @@
             "playable": true,
             "sizeMB": 133
           },
-          "alternates": []
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+              "itemTitle": "king of the hill season 1-3",
+              "file": "King of the Hill S02E20 Junkie Business.mp4",
+              "name": "King of the Hill S02E20 Junkie Business",
+              "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S02E20%20Junkie%20Business.mp4",
+              "seconds": 1354,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 33
+            }
+          ]
         },
         {
           "number": 21,
@@ -529,7 +965,21 @@
             "playable": true,
             "sizeMB": 133
           },
-          "alternates": []
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+              "itemTitle": "king of the hill season 1-3",
+              "file": "King of the Hill S02E21 Life In The Fast Lane, Bobby's Saga.mp4",
+              "name": "King of the Hill S02E21 Life In The Fast Lane, Bobby's Saga",
+              "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S02E21%20Life%20In%20The%20Fast%20Lane%2C%20Bobby's%20Saga.mp4",
+              "seconds": 1354,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 39
+            }
+          ]
         },
         {
           "number": 22,
@@ -549,7 +999,21 @@
             "playable": true,
             "sizeMB": 133
           },
-          "alternates": []
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+              "itemTitle": "king of the hill season 1-3",
+              "file": "King of the Hill S02E22 Peggy's Turtle Song.mp4",
+              "name": "King of the Hill S02E22 Peggy's Turtle Song",
+              "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S02E22%20Peggy's%20Turtle%20Song.mp4",
+              "seconds": 1351,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 31
+            }
+          ]
         },
         {
           "number": 23,
@@ -569,7 +1033,21 @@
             "playable": true,
             "sizeMB": 132
           },
-          "alternates": []
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+              "itemTitle": "king of the hill season 1-3",
+              "file": "King of the Hill S02E23 Propane Boom.mp4",
+              "name": "King of the Hill S02E23 Propane Boom",
+              "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S02E23%20Propane%20Boom.mp4",
+              "seconds": 1351,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 45
+            }
+          ]
         }
       ]
     },
@@ -580,200 +1058,500 @@
           "number": 1,
           "name": "Death of a Propane Salesman (2)",
           "airdate": "1998-09-15",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+            "itemTitle": "king of the hill season 1-3",
+            "file": "King of the Hill S03E01 Death of a Propane Salesman.mp4",
+            "name": "King of the Hill S03E01 Death of a Propane Salesman",
+            "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S03E01%20Death%20of%20a%20Propane%20Salesman.mp4",
+            "seconds": 1369,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 39
+          },
           "alternates": []
         },
         {
           "number": 2,
           "name": "And They Call It Bobby Love",
           "airdate": "1998-09-22",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+            "itemTitle": "king of the hill season 1-3",
+            "file": "King of the Hill S03E02 And They Call It Bobby Love.mp4",
+            "name": "King of the Hill S03E02 And They Call It Bobby Love",
+            "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S03E02%20And%20They%20Call%20It%20Bobby%20Love.mp4",
+            "seconds": 1352,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 35
+          },
           "alternates": []
         },
         {
           "number": 3,
           "name": "Peggy's Headache",
           "airdate": "1998-10-06",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+            "itemTitle": "king of the hill season 1-3",
+            "file": "King of the Hill S03E03 Peggy's Headche.mp4",
+            "name": "King of the Hill S03E03 Peggy's Headche",
+            "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S03E03%20Peggy's%20Headche.mp4",
+            "seconds": 1355,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 32
+          },
           "alternates": []
         },
         {
           "number": 4,
           "name": "Pregnant Paws",
           "airdate": "1998-10-13",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+            "itemTitle": "king of the hill season 1-3",
+            "file": "King of the Hill S03E04 Pregnant Paws.mp4",
+            "name": "King of the Hill S03E04 Pregnant Paws",
+            "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S03E04%20Pregnant%20Paws.mp4",
+            "seconds": 1355,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 36
+          },
           "alternates": []
         },
         {
           "number": 5,
           "name": "Next of Shin",
           "airdate": "1998-11-03",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+            "itemTitle": "king of the hill season 1-3",
+            "file": "King of the Hill S03E05 Next of Shin.mp4",
+            "name": "King of the Hill S03E05 Next of Shin",
+            "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S03E05%20Next%20of%20Shin.mp4",
+            "seconds": 1349,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 40
+          },
           "alternates": []
         },
         {
           "number": 6,
           "name": "Peggy's Pageant Fever",
           "airdate": "1998-11-10",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+            "itemTitle": "king of the hill season 1-3",
+            "file": "King of the Hill S03E06 Peggy Pageant Fever.mp4",
+            "name": "King of the Hill S03E06 Peggy Pageant Fever",
+            "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S03E06%20Peggy%20Pageant%20Fever.mp4",
+            "seconds": 1355,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 38
+          },
           "alternates": []
         },
         {
           "number": 7,
           "name": "Nine Pretty Darn Angry Men",
           "airdate": "1998-11-17",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+            "itemTitle": "king of the hill season 1-3",
+            "file": "King of the Hill S03E07 Nine Pretty Darn Angry Men.mp4",
+            "name": "King of the Hill S03E07 Nine Pretty Darn Angry Men",
+            "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S03E07%20Nine%20Pretty%20Darn%20Angry%20Men.mp4",
+            "seconds": 1353,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 34
+          },
           "alternates": []
         },
         {
           "number": 8,
           "name": "Good Hill Hunting",
           "airdate": "1998-12-01",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+            "itemTitle": "king of the hill season 1-3",
+            "file": "King of the Hill S03E08 Good Hill Hunting.mp4",
+            "name": "King of the Hill S03E08 Good Hill Hunting",
+            "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S03E08%20Good%20Hill%20Hunting.mp4",
+            "seconds": 1352,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 37
+          },
           "alternates": []
         },
         {
           "number": 9,
           "name": "Pretty, Pretty Dresses",
           "airdate": "1998-12-15",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+            "itemTitle": "king of the hill season 1-3",
+            "file": "King of the Hill S03E09 Pretty, Pretty Dresses.mp4",
+            "name": "King of the Hill S03E09 Pretty, Pretty Dresses",
+            "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S03E09%20Pretty%2C%20Pretty%20Dresses.mp4",
+            "seconds": 1355,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 35
+          },
           "alternates": []
         },
         {
           "number": 10,
           "name": "A Fire Fighting We Will Go",
           "airdate": "1999-01-12",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+            "itemTitle": "king of the hill season 1-3",
+            "file": "King of the Hill S03E10 A Fire-fighting We Will Go.mp4",
+            "name": "King of the Hill S03E10 A Fire-fighting We Will Go",
+            "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S03E10%20A%20Fire-fighting%20We%20Will%20Go.mp4",
+            "seconds": 1356,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 40
+          },
           "alternates": []
         },
         {
           "number": 11,
           "name": "To Spank with Love",
           "airdate": "1999-01-19",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+            "itemTitle": "king of the hill season 1-3",
+            "file": "King of the Hill S03E11 To Spank with Love.mp4",
+            "name": "King of the Hill S03E11 To Spank with Love",
+            "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S03E11%20To%20Spank%20with%20Love.mp4",
+            "seconds": 1346,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 38
+          },
           "alternates": []
         },
         {
           "number": 12,
           "name": "Three Coaches and a Bobby",
           "airdate": "1999-01-26",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+            "itemTitle": "king of the hill season 1-3",
+            "file": "King of the Hill S03E12 Three Coaches and a Bobby.mp4",
+            "name": "King of the Hill S03E12 Three Coaches and a Bobby",
+            "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S03E12%20Three%20Coaches%20and%20a%20Bobby.mp4",
+            "seconds": 1355,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 44
+          },
           "alternates": []
         },
         {
           "number": 13,
           "name": "De-Kahnstructing Henry",
           "airdate": "1999-02-02",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+            "itemTitle": "king of the hill season 1-3",
+            "file": "King of the Hill S03E13 De-Kahnstructing Henry.mp4",
+            "name": "King of the Hill S03E13 De-Kahnstructing Henry",
+            "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S03E13%20De-Kahnstructing%20Henry.mp4",
+            "seconds": 1355,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 36
+          },
           "alternates": []
         },
         {
           "number": 14,
           "name": "The Wedding of Bobby Hill",
           "airdate": "1999-02-09",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+            "itemTitle": "king of the hill season 1-3",
+            "file": "King of the Hill S03E14 The Wedding of Bobby Hill.mp4",
+            "name": "King of the Hill S03E14 The Wedding of Bobby Hill",
+            "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S03E14%20The%20Wedding%20of%20Bobby%20Hill.mp4",
+            "seconds": 1354,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 37
+          },
           "alternates": []
         },
         {
           "number": 15,
           "name": "Sleight of Hank",
           "airdate": "1999-02-16",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+            "itemTitle": "king of the hill season 1-3",
+            "file": "King of the Hill S03E15 Sleight of Hank.mp4",
+            "name": "King of the Hill S03E15 Sleight of Hank",
+            "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S03E15%20Sleight%20of%20Hank.mp4",
+            "seconds": 1351,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 36
+          },
           "alternates": []
         },
         {
           "number": 16,
           "name": "Jon Vitti Presents: Return to La Grunta",
           "airdate": "1999-02-23",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+            "itemTitle": "king of the hill season 1-3",
+            "file": "King of the Hill S03E16 Return to La Grunta.mp4",
+            "name": "King of the Hill S03E16 Return to La Grunta",
+            "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S03E16%20Return%20to%20La%20Grunta.mp4",
+            "seconds": 1355,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 39
+          },
           "alternates": []
         },
         {
           "number": 17,
           "name": "Escape from Party Island",
           "airdate": "1999-03-16",
-          "state": "MISSING",
-          "file": null,
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.6,
+            "why": "S/E in filename + title match",
+            "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+            "itemTitle": "king of the hill season 1-3",
+            "file": "King of the Hill S03E17 Escape from Party Island.mp4",
+            "name": "King of the Hill S03E17 Escape from Party Island",
+            "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S03E17%20Escape%20from%20Party%20Island.mp4",
+            "seconds": 1355,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 45
+          },
           "alternates": []
         },
         {
           "number": 18,
           "name": "Love Hurts and So Does Art",
           "airdate": "1999-03-23",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+            "itemTitle": "king of the hill season 1-3",
+            "file": "King of the Hill S03E18 Love Hurts and So Does Art.mp4",
+            "name": "King of the Hill S03E18 Love Hurts and So Does Art",
+            "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S03E18%20Love%20Hurts%20and%20So%20Does%20Art.mp4",
+            "seconds": 1354,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 36
+          },
           "alternates": []
         },
         {
           "number": 19,
           "name": "Hank's Cowboy Movie",
           "airdate": "1999-04-06",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+            "itemTitle": "king of the hill season 1-3",
+            "file": "King of the Hill S03E19 Hank's Cowboy Movie.mp4",
+            "name": "King of the Hill S03E19 Hank's Cowboy Movie",
+            "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S03E19%20Hank's%20Cowboy%20Movie.mp4",
+            "seconds": 1355,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 41
+          },
           "alternates": []
         },
         {
           "number": 20,
           "name": "Dog Dale Afternoon",
           "airdate": "1999-04-13",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+            "itemTitle": "king of the hill season 1-3",
+            "file": "King of the Hill S03E20 Dog Dale Afternoon.mp4",
+            "name": "King of the Hill S03E20 Dog Dale Afternoon",
+            "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S03E20%20Dog%20Dale%20Afternoon.mp4",
+            "seconds": 1355,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 39
+          },
           "alternates": []
         },
         {
           "number": 21,
           "name": "Revenge of the Lutefisk",
           "airdate": "1999-04-20",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+            "itemTitle": "king of the hill season 1-3",
+            "file": "King of the Hill S03E21 Revenge of the Lutefisk.mp4",
+            "name": "King of the Hill S03E21 Revenge of the Lutefisk",
+            "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S03E21%20Revenge%20of%20the%20Lutefisk.mp4",
+            "seconds": 1355,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 36
+          },
           "alternates": []
         },
         {
           "number": 22,
           "name": "Death and Texas",
           "airdate": "1999-04-27",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+            "itemTitle": "king of the hill season 1-3",
+            "file": "King of the Hill S03E22 Death and Texas.mp4",
+            "name": "King of the Hill S03E22 Death and Texas",
+            "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S03E22%20Death%20and%20Texas.mp4",
+            "seconds": 1355,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 38
+          },
           "alternates": []
         },
         {
           "number": 23,
           "name": "Wings of the Dope",
           "airdate": "1999-05-04",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+            "itemTitle": "king of the hill season 1-3",
+            "file": "King of the Hill S03E23 Wings of the Dope.mp4",
+            "name": "King of the Hill S03E23 Wings of the Dope",
+            "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S03E23%20Wings%20of%20the%20Dope.mp4",
+            "seconds": 1355,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 34
+          },
           "alternates": []
         },
         {
           "number": 24,
           "name": "Take Me Out of the Ball Game",
           "airdate": "1999-05-11",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+            "itemTitle": "king of the hill season 1-3",
+            "file": "King of the Hill S03E24 Take Me Out of the Ball Game.mp4",
+            "name": "King of the Hill S03E24 Take Me Out of the Ball Game",
+            "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S03E24%20Take%20Me%20Out%20of%20the%20Ball%20Game.mp4",
+            "seconds": 1356,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 48
+          },
           "alternates": []
         },
         {
           "number": 25,
           "name": "As Old as the Hills",
           "airdate": "1999-05-18",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "king-of-the-hill-s-01-e-07-westie-side-story_202607",
+            "itemTitle": "king of the hill season 1-3",
+            "file": "King of the Hill S03E25 As Old as the Hills.mp4",
+            "name": "King of the Hill S03E25 As Old as the Hills",
+            "url": "https://archive.org/download/king-of-the-hill-s-01-e-07-westie-side-story_202607/King%20of%20the%20Hill%20S03E25%20As%20Old%20as%20the%20Hills.mp4",
+            "seconds": 1358,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 41
+          },
           "alternates": []
         }
       ]

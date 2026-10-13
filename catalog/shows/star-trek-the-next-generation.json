@@ -3,7 +3,7 @@
   "slug": "star-trek-the-next-generation",
   "type": "Sci-Fi, Fantasy and Horror",
   "network": "Syndicated",
-  "matchedAt": "2026-10-13T07:46:16.911Z",
+  "matchedAt": "2026-10-13T15:54:09.773Z",
   "tvmaze": {
     "id": 491,
     "name": "Star Trek: The Next Generation",
@@ -45,7 +45,7 @@
           "state": "REVIEW",
           "file": {
             "conf": 0.65,
-            "why": "title ~ \"The Naked Now\" (0.95)",
+            "why": "title ~ \"The Naked Now\" (0.95) | not browser-playable: container (Matroska)",
             "item": "TNG01",
             "itemTitle": "Star Trek: The Next Generation",
             "file": "E03 - The Naked Now.mkv",
@@ -54,6 +54,7 @@
             "seconds": 2734,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 695
           },
           "alternates": []
@@ -65,7 +66,7 @@
           "state": "REVIEW",
           "file": {
             "conf": 0.65,
-            "why": "title ~ \"Code of Honor\" (0.95)",
+            "why": "title ~ \"Code of Honor\" (0.95) | not browser-playable: container (Matroska)",
             "item": "TNG01",
             "itemTitle": "Star Trek: The Next Generation",
             "file": "E04 - Code of Honor.mkv",
@@ -74,6 +75,7 @@
             "seconds": 2731,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 696
           },
           "alternates": []
@@ -85,7 +87,7 @@
           "state": "REVIEW",
           "file": {
             "conf": 0.65,
-            "why": "title ~ \"The Last Outpost\" (0.95)",
+            "why": "title ~ \"The Last Outpost\" (0.95) | not browser-playable: container (Matroska)",
             "item": "TNG01",
             "itemTitle": "Star Trek: The Next Generation",
             "file": "E05 - The Last Outpost.mkv",
@@ -94,6 +96,7 @@
             "seconds": 2736,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 700
           },
           "alternates": []
@@ -105,7 +108,7 @@
           "state": "REVIEW",
           "file": {
             "conf": 0.65,
-            "why": "title ~ \"Where No One Has Gone Before\" (0.95)",
+            "why": "title ~ \"Where No One Has Gone Before\" (0.95) | not browser-playable: container (Matroska)",
             "item": "TNG01",
             "itemTitle": "Star Trek: The Next Generation",
             "file": "E06 - Where No One Has Gone Before.mkv",
@@ -114,6 +117,7 @@
             "seconds": 2735,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 699
           },
           "alternates": []
@@ -125,7 +129,7 @@
           "state": "REVIEW",
           "file": {
             "conf": 0.65,
-            "why": "title ~ \"Lonely Among Us\" (0.95)",
+            "why": "title ~ \"Lonely Among Us\" (0.95) | not browser-playable: container (Matroska)",
             "item": "TNG01",
             "itemTitle": "Star Trek: The Next Generation",
             "file": "E07 - Lonely Among Us.mkv",
@@ -134,6 +138,7 @@
             "seconds": 2733,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 697
           },
           "alternates": []
@@ -145,7 +150,7 @@
           "state": "REVIEW",
           "file": {
             "conf": 0.65,
-            "why": "title ~ \"Justice\" (0.95)",
+            "why": "title ~ \"Justice\" (0.95) | not browser-playable: container (Matroska)",
             "item": "TNG01",
             "itemTitle": "Star Trek: The Next Generation",
             "file": "E08 - Justice.mkv",
@@ -154,6 +159,7 @@
             "seconds": 2734,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 698
           },
           "alternates": []
@@ -165,7 +171,7 @@
           "state": "REVIEW",
           "file": {
             "conf": 0.65,
-            "why": "title ~ \"The Battle\" (0.95)",
+            "why": "title ~ \"The Battle\" (0.95) | not browser-playable: container (Matroska)",
             "item": "TNG01",
             "itemTitle": "Star Trek: The Next Generation",
             "file": "E09 - The Battle.mkv",
@@ -174,6 +180,7 @@
             "seconds": 2732,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 696
           },
           "alternates": []
@@ -185,7 +192,7 @@
           "state": "REVIEW",
           "file": {
             "conf": 0.65,
-            "why": "title ~ \"Hide and Q\" (0.95)",
+            "why": "title ~ \"Hide and Q\" (0.95) | not browser-playable: container (Matroska)",
             "item": "TNG01",
             "itemTitle": "Star Trek: The Next Generation",
             "file": "E10 - Hide and Q.mkv",
@@ -194,6 +201,7 @@
             "seconds": 2732,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 701
           },
           "alternates": []
@@ -205,7 +213,7 @@
           "state": "REVIEW",
           "file": {
             "conf": 0.65,
-            "why": "title ~ \"Haven\" (0.95)",
+            "why": "title ~ \"Haven\" (0.95) | not browser-playable: container (Matroska)",
             "item": "TNG01",
             "itemTitle": "Star Trek: The Next Generation",
             "file": "E11 - Haven.mkv",
@@ -214,6 +222,7 @@
             "seconds": 2734,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 701
           },
           "alternates": []
@@ -225,7 +234,7 @@
           "state": "REVIEW",
           "file": {
             "conf": 0.65,
-            "why": "title ~ \"The Big Goodbye\" (0.95)",
+            "why": "title ~ \"The Big Goodbye\" (0.95) | not browser-playable: container (Matroska)",
             "item": "TNG01",
             "itemTitle": "Star Trek: The Next Generation",
             "file": "E12 - The Big Goodbye.mkv",
@@ -234,6 +243,7 @@
             "seconds": 2733,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 696
           },
           "alternates": []
@@ -245,7 +255,7 @@
           "state": "REVIEW",
           "file": {
             "conf": 0.65,
-            "why": "title ~ \"Datalore\" (0.95)",
+            "why": "title ~ \"Datalore\" (0.95) | not browser-playable: container (Matroska)",
             "item": "TNG01",
             "itemTitle": "Star Trek: The Next Generation",
             "file": "E13 - Datalore.mkv",
@@ -254,6 +264,7 @@
             "seconds": 2734,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 700
           },
           "alternates": []
@@ -265,7 +276,7 @@
           "state": "REVIEW",
           "file": {
             "conf": 0.65,
-            "why": "title ~ \"Angel One\" (0.95)",
+            "why": "title ~ \"Angel One\" (0.95) | not browser-playable: container (Matroska)",
             "item": "TNG01",
             "itemTitle": "Star Trek: The Next Generation",
             "file": "E14 - Angel One.mkv",
@@ -274,6 +285,7 @@
             "seconds": 2733,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 694
           },
           "alternates": []
@@ -285,7 +297,7 @@
           "state": "REVIEW",
           "file": {
             "conf": 0.65,
-            "why": "title ~ \"11001001\" (0.95)",
+            "why": "title ~ \"11001001\" (0.95) | not browser-playable: container (Matroska)",
             "item": "TNG01",
             "itemTitle": "Star Trek: The Next Generation",
             "file": "E15 - 11001001.mkv",
@@ -294,6 +306,7 @@
             "seconds": 2732,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 701
           },
           "alternates": []
@@ -313,7 +326,7 @@
           "state": "REVIEW",
           "file": {
             "conf": 0.65,
-            "why": "title ~ \"When the Bough Breaks\" (0.95)",
+            "why": "title ~ \"When the Bough Breaks\" (0.95) | not browser-playable: container (Matroska)",
             "item": "TNG01",
             "itemTitle": "Star Trek: The Next Generation",
             "file": "E17 - When the Bough Breaks.mkv",
@@ -322,6 +335,7 @@
             "seconds": 2736,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 700
           },
           "alternates": []
@@ -333,7 +347,7 @@
           "state": "REVIEW",
           "file": {
             "conf": 0.65,
-            "why": "title ~ \"Home Soil\" (0.95)",
+            "why": "title ~ \"Home Soil\" (0.95) | not browser-playable: container (Matroska)",
             "item": "TNG01",
             "itemTitle": "Star Trek: The Next Generation",
             "file": "E18 - Home Soil.mkv",
@@ -342,6 +356,7 @@
             "seconds": 2733,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 700
           },
           "alternates": []
@@ -353,7 +368,7 @@
           "state": "REVIEW",
           "file": {
             "conf": 0.65,
-            "why": "title ~ \"Coming of Age\" (0.95)",
+            "why": "title ~ \"Coming of Age\" (0.95) | not browser-playable: container (Matroska)",
             "item": "TNG01",
             "itemTitle": "Star Trek: The Next Generation",
             "file": "E19 - Coming of Age.mkv",
@@ -362,6 +377,7 @@
             "seconds": 2736,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 697
           },
           "alternates": []
@@ -373,7 +389,7 @@
           "state": "REVIEW",
           "file": {
             "conf": 0.65,
-            "why": "title ~ \"Heart of Glory\" (0.95)",
+            "why": "title ~ \"Heart of Glory\" (0.95) | not browser-playable: container (Matroska)",
             "item": "TNG01",
             "itemTitle": "Star Trek: The Next Generation",
             "file": "E20 - Heart of Glory.mkv",
@@ -382,6 +398,7 @@
             "seconds": 2733,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 698
           },
           "alternates": []
@@ -393,7 +410,7 @@
           "state": "REVIEW",
           "file": {
             "conf": 0.65,
-            "why": "title ~ \"The Arsenal of Freedom\" (0.95)",
+            "why": "title ~ \"The Arsenal of Freedom\" (0.95) | not browser-playable: container (Matroska)",
             "item": "TNG01",
             "itemTitle": "Star Trek: The Next Generation",
             "file": "E21 - The.Arsenal of Freedom.mkv",
@@ -402,6 +419,7 @@
             "seconds": 2733,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 695
           },
           "alternates": []
@@ -413,7 +431,7 @@
           "state": "REVIEW",
           "file": {
             "conf": 0.65,
-            "why": "title ~ \"Symbiosis\" (0.95)",
+            "why": "title ~ \"Symbiosis\" (0.95) | not browser-playable: container (Matroska)",
             "item": "TNG01",
             "itemTitle": "Star Trek: The Next Generation",
             "file": "E22 - Symbiosis.mkv",
@@ -422,6 +440,7 @@
             "seconds": 2732,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 692
           },
           "alternates": []
@@ -433,7 +452,7 @@
           "state": "REVIEW",
           "file": {
             "conf": 0.65,
-            "why": "title ~ \"Skin of Evil\" (0.95)",
+            "why": "title ~ \"Skin of Evil\" (0.95) | not browser-playable: container (Matroska)",
             "item": "TNG01",
             "itemTitle": "Star Trek: The Next Generation",
             "file": "E23 - Skin of Evil.mkv",
@@ -442,6 +461,7 @@
             "seconds": 2731,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 695
           },
           "alternates": []
@@ -453,7 +473,7 @@
           "state": "REVIEW",
           "file": {
             "conf": 0.65,
-            "why": "title ~ \"We'll Always Have Paris\" (0.83)",
+            "why": "title ~ \"We'll Always Have Paris\" (0.83) | not browser-playable: container (Matroska)",
             "item": "TNG01",
             "itemTitle": "Star Trek: The Next Generation",
             "file": "E24 - We Will Always Have Paris.mkv",
@@ -462,6 +482,7 @@
             "seconds": 2732,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 693
           },
           "alternates": []
@@ -473,7 +494,7 @@
           "state": "REVIEW",
           "file": {
             "conf": 0.65,
-            "why": "title ~ \"Conspiracy\" (0.95)",
+            "why": "title ~ \"Conspiracy\" (0.95) | not browser-playable: container (Matroska)",
             "item": "TNG01",
             "itemTitle": "Star Trek: The Next Generation",
             "file": "E25 - Conspiracy.mkv",
@@ -482,6 +503,7 @@
             "seconds": 2737,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 696
           },
           "alternates": []
@@ -493,7 +515,7 @@
           "state": "REVIEW",
           "file": {
             "conf": 0.65,
-            "why": "title ~ \"The Neutral Zone\" (0.95)",
+            "why": "title ~ \"The Neutral Zone\" (0.95) | not browser-playable: container (Matroska)",
             "item": "TNG01",
             "itemTitle": "Star Trek: The Next Generation",
             "file": "E26 - The Neutral Zone.mkv",
@@ -502,6 +524,7 @@
             "seconds": 2735,
             "format": "Matroska",
             "playable": false,
+            "codecRisk": "container (Matroska)",
             "sizeMB": 691
           },
           "alternates": []

@@ -3,7 +3,7 @@
   "slug": "the-drinky-crow-show",
   "type": "Adult Swim",
   "network": "Adult Swim",
-  "matchedAt": "2026-10-13T07:46:16.036Z",
+  "matchedAt": "2026-10-13T15:54:08.563Z",
   "tvmaze": {
     "id": 5022,
     "name": "The Drinky Crow Show",
@@ -13,8 +13,8 @@
   },
   "coverage": {
     "total": 10,
-    "live": 1,
-    "review": 8,
+    "live": 0,
+    "review": 9,
     "missing": 1,
     "pct": 90
   },
@@ -26,33 +26,34 @@
           "number": 1,
           "name": "Beer Goggles",
           "airdate": "2008-11-23",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
-            "why": "S/E in filename + title match",
-            "item": "the-drinky-crow-show-s-01-e-09-aspire-webdl-1080p",
-            "itemTitle": "The Drinky Crow Show Season 1 Aspire WEBDL 1080p",
-            "file": "The Drinky Crow Show - S01E01 - Beer Goggles WEBDL-1080p.mkv",
-            "name": "The Drinky Crow Show - S01E01 - Beer Goggles WEBDL-1080p",
-            "url": "https://archive.org/download/the-drinky-crow-show-s-01-e-09-aspire-webdl-1080p/The%20Drinky%20Crow%20Show%20-%20S01E01%20-%20Beer%20Goggles%20WEBDL-1080p.mkv",
-            "seconds": 676,
-            "format": "Matroska",
-            "playable": false,
-            "sizeMB": 727
+            "conf": 0.8,
+            "why": "title ~ \"Beer Goggles\" (0.95)",
+            "item": "the-drinky-crow-show",
+            "itemTitle": "The Drinky Crow - Full Series",
+            "file": "The Drinky Crow Show 01 Beer Goggles (ws) [DrinkyCrow].mp4",
+            "name": "The Drinky Crow Show 01 Beer Goggles (ws) [DrinkyCrow]",
+            "url": "https://archive.org/download/the-drinky-crow-show/The%20Drinky%20Crow%20Show%2001%20Beer%20Goggles%20(ws)%20%5BDrinkyCrow%5D.mp4",
+            "seconds": 691,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 69
           },
           "alternates": [
             {
-              "conf": 0.8,
-              "why": "title ~ \"Beer Goggles\" (0.95)",
-              "item": "the-drinky-crow-show",
-              "itemTitle": "The Drinky Crow - Full Series",
-              "file": "The Drinky Crow Show 01 Beer Goggles (ws) [DrinkyCrow].mp4",
-              "name": "The Drinky Crow Show 01 Beer Goggles (ws) [DrinkyCrow]",
-              "url": "https://archive.org/download/the-drinky-crow-show/The%20Drinky%20Crow%20Show%2001%20Beer%20Goggles%20(ws)%20%5BDrinkyCrow%5D.mp4",
-              "seconds": 691,
-              "format": "h.264",
-              "playable": true,
-              "sizeMB": 69
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "the-drinky-crow-show-s-01-e-09-aspire-webdl-1080p",
+              "itemTitle": "The Drinky Crow Show Season 1 Aspire WEBDL 1080p",
+              "file": "The Drinky Crow Show - S01E01 - Beer Goggles WEBDL-1080p.mkv",
+              "name": "The Drinky Crow Show - S01E01 - Beer Goggles WEBDL-1080p",
+              "url": "https://archive.org/download/the-drinky-crow-show-s-01-e-09-aspire-webdl-1080p/The%20Drinky%20Crow%20Show%20-%20S01E01%20-%20Beer%20Goggles%20WEBDL-1080p.mkv",
+              "seconds": 676,
+              "format": "Matroska",
+              "playable": false,
+              "codecRisk": "container (Matroska)",
+              "sizeMB": 727
             }
           ]
         },

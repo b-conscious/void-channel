@@ -3,7 +3,7 @@
   "slug": "reba",
   "type": "2000s and Later Sitcoms",
   "network": "The WB",
-  "matchedAt": "2026-10-13T07:46:15.077Z",
+  "matchedAt": "2026-10-13T15:54:05.980Z",
   "tvmaze": {
     "id": 944,
     "name": "Reba",
@@ -42,19 +42,6 @@
           },
           "alternates": [
             {
-              "conf": 0.7,
-              "why": "title ~ \"Pilot\" (0.95)",
-              "item": "reba-complete-series",
-              "itemTitle": "Reba Complete Series",
-              "file": "history/files/Reba_2001.10.05_S01E01_Pilot_BWDIF-1x_MPEG2-VBRq1.mkv.~1~",
-              "name": "history/files/Reba_2001.10.05_S01E01_Pilot_BWDIF-1x_MPEG2-VBRq1.mkv",
-              "url": "https://archive.org/download/reba-complete-series/history%2Ffiles%2FReba_2001.10.05_S01E01_Pilot_BWDIF-1x_MPEG2-VBRq1.mkv.~1~",
-              "seconds": 1320,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 1654
-            },
-            {
               "conf": 0.55,
               "why": "sequence guess: file 1 of 8 in \"Reba Complete Series\"",
               "item": "reba-complete-series",
@@ -66,6 +53,20 @@
               "format": "h.264",
               "playable": true,
               "sizeMB": 135
+            },
+            {
+              "conf": 0.7,
+              "why": "title ~ \"Pilot\" (0.95)",
+              "item": "reba-complete-series",
+              "itemTitle": "Reba Complete Series",
+              "file": "history/files/Reba_2001.10.05_S01E01_Pilot_BWDIF-1x_MPEG2-VBRq1.mkv.~1~",
+              "name": "history/files/Reba_2001.10.05_S01E01_Pilot_BWDIF-1x_MPEG2-VBRq1.mkv",
+              "url": "https://archive.org/download/reba-complete-series/history%2Ffiles%2FReba_2001.10.05_S01E01_Pilot_BWDIF-1x_MPEG2-VBRq1.mkv.~1~",
+              "seconds": 1320,
+              "format": "Matroska",
+              "playable": false,
+              "codecRisk": "container (Matroska)",
+              "sizeMB": 1654
             }
           ]
         },
@@ -381,31 +382,32 @@
           "airdate": "2002-02-01",
           "state": "REVIEW",
           "file": {
-            "conf": 0.7,
-            "why": "title ~ \"Brock's Swan Song\" (0.95)",
+            "conf": 0.6,
+            "why": "title ~ \"Brock's Swan Song\" (0.63)",
             "item": "reba-complete-series",
             "itemTitle": "Reba Complete Series",
-            "file": "Reba_2002.02.01_S01E13_Brocks-Swan-Song_BWDIF-1x_MPEG2-VBRq1.mkv",
-            "name": "Reba_2002.02.01_S01E13_Brocks-Swan-Song_BWDIF-1x_MPEG2-VBRq1",
-            "url": "https://archive.org/download/reba-complete-series/Reba_2002.02.01_S01E13_Brocks-Swan-Song_BWDIF-1x_MPEG2-VBRq1.mkv",
+            "file": "Reba_2002.02.01_S01E13_Brooks-Swan-Song_BWDIF-1x_MPEG2-VBRq1.mp4",
+            "name": "Reba_2002.02.01_S01E13_Brooks-Swan-Song_BWDIF-1x_MPEG2-VBRq1",
+            "url": "https://archive.org/download/reba-complete-series/Reba_2002.02.01_S01E13_Brooks-Swan-Song_BWDIF-1x_MPEG2-VBRq1.mp4",
             "seconds": 1320,
-            "format": "Matroska",
-            "playable": false,
-            "sizeMB": 1676
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 131
           },
           "alternates": [
             {
-              "conf": 0.6,
-              "why": "title ~ \"Brock's Swan Song\" (0.63)",
+              "conf": 0.7,
+              "why": "title ~ \"Brock's Swan Song\" (0.95)",
               "item": "reba-complete-series",
               "itemTitle": "Reba Complete Series",
-              "file": "Reba_2002.02.01_S01E13_Brooks-Swan-Song_BWDIF-1x_MPEG2-VBRq1.mp4",
-              "name": "Reba_2002.02.01_S01E13_Brooks-Swan-Song_BWDIF-1x_MPEG2-VBRq1",
-              "url": "https://archive.org/download/reba-complete-series/Reba_2002.02.01_S01E13_Brooks-Swan-Song_BWDIF-1x_MPEG2-VBRq1.mp4",
+              "file": "Reba_2002.02.01_S01E13_Brocks-Swan-Song_BWDIF-1x_MPEG2-VBRq1.mkv",
+              "name": "Reba_2002.02.01_S01E13_Brocks-Swan-Song_BWDIF-1x_MPEG2-VBRq1",
+              "url": "https://archive.org/download/reba-complete-series/Reba_2002.02.01_S01E13_Brocks-Swan-Song_BWDIF-1x_MPEG2-VBRq1.mkv",
               "seconds": 1320,
-              "format": "h.264",
-              "playable": true,
-              "sizeMB": 131
+              "format": "Matroska",
+              "playable": false,
+              "codecRisk": "container (Matroska)",
+              "sizeMB": 1676
             }
           ]
         },
@@ -780,6 +782,7 @@
               "seconds": 1321,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 1865
             },
             {
@@ -793,6 +796,7 @@
               "seconds": 1321,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 1865
             }
           ]

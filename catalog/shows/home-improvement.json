@@ -3,7 +3,7 @@
   "slug": "home-improvement",
   "type": "90s Sitcoms",
   "network": "ABC",
-  "matchedAt": "2026-10-13T07:46:13.818Z",
+  "matchedAt": "2026-10-13T15:54:02.364Z",
   "tvmaze": {
     "id": 544,
     "name": "Home Improvement",
@@ -13,9 +13,9 @@
   },
   "coverage": {
     "total": 203,
-    "live": 201,
-    "review": 0,
-    "missing": 2,
+    "live": 195,
+    "review": 5,
+    "missing": 3,
     "pct": 99
   },
   "seasons": [
@@ -42,19 +42,6 @@
           },
           "alternates": [
             {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E01 Pilot.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E01 Pilot",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E01%20Pilot.mkv",
-              "seconds": 1437,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 209
-            },
-            {
               "conf": 0.55,
               "why": "sequence guess: file 1 of 24 in \"Home Improvement: The Complete First Sea\"",
               "item": "home-improvement-the-complete-first-season_202505",
@@ -66,6 +53,20 @@
               "format": "h.264",
               "playable": true,
               "sizeMB": 144
+            },
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "home-improvement-complete-dvd-rip",
+              "itemTitle": "Home Improvement Complete DVD Rip",
+              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E01 Pilot.mkv",
+              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E01 Pilot",
+              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E01%20Pilot.mkv",
+              "seconds": 1437,
+              "format": "Matroska",
+              "playable": false,
+              "codecRisk": "container (Matroska)",
+              "sizeMB": 209
             }
           ]
         },
@@ -89,19 +90,6 @@
           },
           "alternates": [
             {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E02 Mow Better Blues.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E02 Mow Better Blues",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E02%20Mow%20Better%20Blues.mkv",
-              "seconds": 1425,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 226
-            },
-            {
               "conf": 0.55,
               "why": "sequence guess: file 2 of 24 in \"Home Improvement: The Complete First Sea\"",
               "item": "home-improvement-the-complete-first-season_202505",
@@ -113,6 +101,20 @@
               "format": "h.264",
               "playable": true,
               "sizeMB": 139
+            },
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "home-improvement-complete-dvd-rip",
+              "itemTitle": "Home Improvement Complete DVD Rip",
+              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E02 Mow Better Blues.mkv",
+              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E02 Mow Better Blues",
+              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E02%20Mow%20Better%20Blues.mkv",
+              "seconds": 1425,
+              "format": "Matroska",
+              "playable": false,
+              "codecRisk": "container (Matroska)",
+              "sizeMB": 226
             }
           ]
         },
@@ -136,19 +138,6 @@
           },
           "alternates": [
             {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E03 Off Sides.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E03 Off Sides",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E03%20Off%20Sides.mkv",
-              "seconds": 1425,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 203
-            },
-            {
               "conf": 0.55,
               "why": "sequence guess: file 3 of 24 in \"Home Improvement: The Complete First Sea\"",
               "item": "home-improvement-the-complete-first-season_202505",
@@ -160,6 +149,20 @@
               "format": "h.264",
               "playable": true,
               "sizeMB": 142
+            },
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "home-improvement-complete-dvd-rip",
+              "itemTitle": "Home Improvement Complete DVD Rip",
+              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E03 Off Sides.mkv",
+              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E03 Off Sides",
+              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E03%20Off%20Sides.mkv",
+              "seconds": 1425,
+              "format": "Matroska",
+              "playable": false,
+              "codecRisk": "container (Matroska)",
+              "sizeMB": 203
             }
           ]
         },
@@ -183,19 +186,6 @@
           },
           "alternates": [
             {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E04 Satellite on a Hot Tim's Roof.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E04 Satellite on a Hot Tim's Roof",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E04%20Satellite%20on%20a%20Hot%20Tim's%20Roof.mkv",
-              "seconds": 1421,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 231
-            },
-            {
               "conf": 0.55,
               "why": "sequence guess: file 4 of 24 in \"Home Improvement: The Complete First Sea\"",
               "item": "home-improvement-the-complete-first-season_202505",
@@ -207,6 +197,20 @@
               "format": "h.264",
               "playable": true,
               "sizeMB": 142
+            },
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "home-improvement-complete-dvd-rip",
+              "itemTitle": "Home Improvement Complete DVD Rip",
+              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E04 Satellite on a Hot Tim's Roof.mkv",
+              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E04 Satellite on a Hot Tim's Roof",
+              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E04%20Satellite%20on%20a%20Hot%20Tim's%20Roof.mkv",
+              "seconds": 1421,
+              "format": "Matroska",
+              "playable": false,
+              "codecRisk": "container (Matroska)",
+              "sizeMB": 231
             }
           ]
         },
@@ -214,9 +218,9 @@
           "number": 5,
           "name": "Wild Kingdom",
           "airdate": "1991-10-15",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "home-improvement-tv-series",
             "itemTitle": "Home Improvement (TV series)",
@@ -229,19 +233,6 @@
             "sizeMB": 181
           },
           "alternates": [
-            {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E05 Wild Kingdom.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E05 Wild Kingdom",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E05%20Wild%20Kingdom.mkv",
-              "seconds": 1427,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 208
-            },
             {
               "conf": 0.55,
               "why": "sequence guess: file 5 of 24 in \"Home Improvement: The Complete First Sea\"",
@@ -277,19 +268,6 @@
           },
           "alternates": [
             {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E06 Adventures in Fine Dining.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E06 Adventures in Fine Dining",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E06%20Adventures%20in%20Fine%20Dining.mkv",
-              "seconds": 1424,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 238
-            },
-            {
               "conf": 0.55,
               "why": "sequence guess: file 6 of 24 in \"Home Improvement: The Complete First Sea\"",
               "item": "home-improvement-the-complete-first-season_202505",
@@ -301,6 +279,20 @@
               "format": "h.264",
               "playable": true,
               "sizeMB": 142
+            },
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "home-improvement-complete-dvd-rip",
+              "itemTitle": "Home Improvement Complete DVD Rip",
+              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E06 Adventures in Fine Dining.mkv",
+              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E06 Adventures in Fine Dining",
+              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E06%20Adventures%20in%20Fine%20Dining.mkv",
+              "seconds": 1424,
+              "format": "Matroska",
+              "playable": false,
+              "codecRisk": "container (Matroska)",
+              "sizeMB": 238
             }
           ]
         },
@@ -324,19 +316,6 @@
           },
           "alternates": [
             {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E07 Nothing More Than Feelings.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E07 Nothing More Than Feelings",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E07%20Nothing%20More%20Than%20Feelings.mkv",
-              "seconds": 1421,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 228
-            },
-            {
               "conf": 0.55,
               "why": "sequence guess: file 7 of 24 in \"Home Improvement: The Complete First Sea\"",
               "item": "home-improvement-the-complete-first-season_202505",
@@ -348,6 +327,20 @@
               "format": "h.264",
               "playable": true,
               "sizeMB": 143
+            },
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "home-improvement-complete-dvd-rip",
+              "itemTitle": "Home Improvement Complete DVD Rip",
+              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E07 Nothing More Than Feelings.mkv",
+              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E07 Nothing More Than Feelings",
+              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E07%20Nothing%20More%20Than%20Feelings.mkv",
+              "seconds": 1421,
+              "format": "Matroska",
+              "playable": false,
+              "codecRisk": "container (Matroska)",
+              "sizeMB": 228
             }
           ]
         },
@@ -371,19 +364,6 @@
           },
           "alternates": [
             {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E08 Flying Sauces.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E08 Flying Sauces",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E08%20Flying%20Sauces.mkv",
-              "seconds": 1424,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 236
-            },
-            {
               "conf": 0.55,
               "why": "sequence guess: file 8 of 24 in \"Home Improvement: The Complete First Sea\"",
               "item": "home-improvement-the-complete-first-season_202505",
@@ -395,6 +375,20 @@
               "format": "h.264",
               "playable": true,
               "sizeMB": 143
+            },
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "home-improvement-complete-dvd-rip",
+              "itemTitle": "Home Improvement Complete DVD Rip",
+              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E08 Flying Sauces.mkv",
+              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E08 Flying Sauces",
+              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E08%20Flying%20Sauces.mkv",
+              "seconds": 1424,
+              "format": "Matroska",
+              "playable": false,
+              "codecRisk": "container (Matroska)",
+              "sizeMB": 236
             }
           ]
         },
@@ -418,19 +412,6 @@
           },
           "alternates": [
             {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E09 Bubble, Bubble, Toil and Trouble.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E09 Bubble, Bubble, Toil and Trouble",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E09%20Bubble%2C%20Bubble%2C%20Toil%20and%20Trouble.mkv",
-              "seconds": 1421,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 256
-            },
-            {
               "conf": 0.55,
               "why": "sequence guess: file 9 of 24 in \"Home Improvement: The Complete First Sea\"",
               "item": "home-improvement-the-complete-first-season_202505",
@@ -442,6 +423,20 @@
               "format": "h.264",
               "playable": true,
               "sizeMB": 142
+            },
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "home-improvement-complete-dvd-rip",
+              "itemTitle": "Home Improvement Complete DVD Rip",
+              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E09 Bubble, Bubble, Toil and Trouble.mkv",
+              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E09 Bubble, Bubble, Toil and Trouble",
+              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E09%20Bubble%2C%20Bubble%2C%20Toil%20and%20Trouble.mkv",
+              "seconds": 1421,
+              "format": "Matroska",
+              "playable": false,
+              "codecRisk": "container (Matroska)",
+              "sizeMB": 256
             }
           ]
         },
@@ -465,19 +460,6 @@
           },
           "alternates": [
             {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E10 Reach out and Teach Someone.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E10 Reach out and Teach Someone",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E10%20Reach%20out%20and%20Teach%20Someone.mkv",
-              "seconds": 1422,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 233
-            },
-            {
               "conf": 0.55,
               "why": "sequence guess: file 10 of 24 in \"Home Improvement: The Complete First Sea\"",
               "item": "home-improvement-the-complete-first-season_202505",
@@ -489,6 +471,20 @@
               "format": "h.264",
               "playable": true,
               "sizeMB": 142
+            },
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "home-improvement-complete-dvd-rip",
+              "itemTitle": "Home Improvement Complete DVD Rip",
+              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E10 Reach out and Teach Someone.mkv",
+              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E10 Reach out and Teach Someone",
+              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E10%20Reach%20out%20and%20Teach%20Someone.mkv",
+              "seconds": 1422,
+              "format": "Matroska",
+              "playable": false,
+              "codecRisk": "container (Matroska)",
+              "sizeMB": 233
             }
           ]
         },
@@ -512,19 +508,6 @@
           },
           "alternates": [
             {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E11 Look Who's Not Talking.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E11 Look Who's Not Talking",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E11%20Look%20Who's%20Not%20Talking.mkv",
-              "seconds": 1423,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 222
-            },
-            {
               "conf": 0.55,
               "why": "sequence guess: file 11 of 24 in \"Home Improvement: The Complete First Sea\"",
               "item": "home-improvement-the-complete-first-season_202505",
@@ -536,6 +519,20 @@
               "format": "h.264",
               "playable": true,
               "sizeMB": 141
+            },
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "home-improvement-complete-dvd-rip",
+              "itemTitle": "Home Improvement Complete DVD Rip",
+              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E11 Look Who's Not Talking.mkv",
+              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E11 Look Who's Not Talking",
+              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E11%20Look%20Who's%20Not%20Talking.mkv",
+              "seconds": 1423,
+              "format": "Matroska",
+              "playable": false,
+              "codecRisk": "container (Matroska)",
+              "sizeMB": 222
             }
           ]
         },
@@ -572,19 +569,6 @@
               "sizeMB": 149
             },
             {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E12 Yule Better Watch Out.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E12 Yule Better Watch Out",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E12%20Yule%20Better%20Watch%20Out.mkv",
-              "seconds": 1421,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 225
-            },
-            {
               "conf": 0.55,
               "why": "sequence guess: file 12 of 24 in \"Home Improvement: The Complete First Sea\"",
               "item": "home-improvement-the-complete-first-season_202505",
@@ -596,6 +580,20 @@
               "format": "h.264",
               "playable": true,
               "sizeMB": 142
+            },
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "home-improvement-complete-dvd-rip",
+              "itemTitle": "Home Improvement Complete DVD Rip",
+              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E12 Yule Better Watch Out.mkv",
+              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E12 Yule Better Watch Out",
+              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E12%20Yule%20Better%20Watch%20Out.mkv",
+              "seconds": 1421,
+              "format": "Matroska",
+              "playable": false,
+              "codecRisk": "container (Matroska)",
+              "sizeMB": 225
             }
           ]
         },
@@ -619,19 +617,6 @@
           },
           "alternates": [
             {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E13 Up Your Alley.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E13 Up Your Alley",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E13%20Up%20Your%20Alley.mkv",
-              "seconds": 1422,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 226
-            },
-            {
               "conf": 0.55,
               "why": "sequence guess: file 13 of 24 in \"Home Improvement: The Complete First Sea\"",
               "item": "home-improvement-the-complete-first-season_202505",
@@ -643,6 +628,20 @@
               "format": "h.264",
               "playable": true,
               "sizeMB": 141
+            },
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "home-improvement-complete-dvd-rip",
+              "itemTitle": "Home Improvement Complete DVD Rip",
+              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E13 Up Your Alley.mkv",
+              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E13 Up Your Alley",
+              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E13%20Up%20Your%20Alley.mkv",
+              "seconds": 1422,
+              "format": "Matroska",
+              "playable": false,
+              "codecRisk": "container (Matroska)",
+              "sizeMB": 226
             }
           ]
         },
@@ -666,19 +665,6 @@
           },
           "alternates": [
             {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E14 For Whom the Belch Tolls.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E14 For Whom the Belch Tolls",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E14%20For%20Whom%20the%20Belch%20Tolls.mkv",
-              "seconds": 1422,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 238
-            },
-            {
               "conf": 0.55,
               "why": "sequence guess: file 14 of 24 in \"Home Improvement: The Complete First Sea\"",
               "item": "home-improvement-the-complete-first-season_202505",
@@ -690,6 +676,20 @@
               "format": "h.264",
               "playable": true,
               "sizeMB": 142
+            },
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "home-improvement-complete-dvd-rip",
+              "itemTitle": "Home Improvement Complete DVD Rip",
+              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E14 For Whom the Belch Tolls.mkv",
+              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E14 For Whom the Belch Tolls",
+              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E14%20For%20Whom%20the%20Belch%20Tolls.mkv",
+              "seconds": 1422,
+              "format": "Matroska",
+              "playable": false,
+              "codecRisk": "container (Matroska)",
+              "sizeMB": 238
             }
           ]
         },
@@ -713,19 +713,6 @@
           },
           "alternates": [
             {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E15 Forever Jung.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E15 Forever Jung",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E15%20Forever%20Jung.mkv",
-              "seconds": 1421,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 207
-            },
-            {
               "conf": 0.55,
               "why": "sequence guess: file 15 of 24 in \"Home Improvement: The Complete First Sea\"",
               "item": "home-improvement-the-complete-first-season_202505",
@@ -737,6 +724,20 @@
               "format": "h.264",
               "playable": true,
               "sizeMB": 142
+            },
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "home-improvement-complete-dvd-rip",
+              "itemTitle": "Home Improvement Complete DVD Rip",
+              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E15 Forever Jung.mkv",
+              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E15 Forever Jung",
+              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E15%20Forever%20Jung.mkv",
+              "seconds": 1421,
+              "format": "Matroska",
+              "playable": false,
+              "codecRisk": "container (Matroska)",
+              "sizeMB": 207
             }
           ]
         },
@@ -760,19 +761,6 @@
           },
           "alternates": [
             {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E16 Jill's Birthday.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E16 Jill's Birthday",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E16%20Jill's%20Birthday.mkv",
-              "seconds": 1422,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 219
-            },
-            {
               "conf": 0.55,
               "why": "sequence guess: file 16 of 24 in \"Home Improvement: The Complete First Sea\"",
               "item": "home-improvement-the-complete-first-season_202505",
@@ -784,6 +772,20 @@
               "format": "h.264",
               "playable": true,
               "sizeMB": 143
+            },
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "home-improvement-complete-dvd-rip",
+              "itemTitle": "Home Improvement Complete DVD Rip",
+              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E16 Jill's Birthday.mkv",
+              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E16 Jill's Birthday",
+              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E16%20Jill's%20Birthday.mkv",
+              "seconds": 1422,
+              "format": "Matroska",
+              "playable": false,
+              "codecRisk": "container (Matroska)",
+              "sizeMB": 219
             }
           ]
         },
@@ -807,19 +809,6 @@
           },
           "alternates": [
             {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E17 What About Bob.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E17 What About Bob",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E17%20What%20About%20Bob.mkv",
-              "seconds": 1421,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 213
-            },
-            {
               "conf": 0.55,
               "why": "sequence guess: file 17 of 24 in \"Home Improvement: The Complete First Sea\"",
               "item": "home-improvement-the-complete-first-season_202505",
@@ -831,6 +820,20 @@
               "format": "h.264",
               "playable": true,
               "sizeMB": 142
+            },
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "home-improvement-complete-dvd-rip",
+              "itemTitle": "Home Improvement Complete DVD Rip",
+              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E17 What About Bob.mkv",
+              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E17 What About Bob",
+              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E17%20What%20About%20Bob.mkv",
+              "seconds": 1421,
+              "format": "Matroska",
+              "playable": false,
+              "codecRisk": "container (Matroska)",
+              "sizeMB": 213
             }
           ]
         },
@@ -854,19 +857,6 @@
           },
           "alternates": [
             {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E18 Baby, It's Cold Outside.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E18 Baby, It's Cold Outside",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E18%20Baby%2C%20It's%20Cold%20Outside.mkv",
-              "seconds": 1392,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 222
-            },
-            {
               "conf": 0.55,
               "why": "sequence guess: file 18 of 24 in \"Home Improvement: The Complete First Sea\"",
               "item": "home-improvement-the-complete-first-season_202505",
@@ -878,6 +868,20 @@
               "format": "h.264",
               "playable": true,
               "sizeMB": 139
+            },
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "home-improvement-complete-dvd-rip",
+              "itemTitle": "Home Improvement Complete DVD Rip",
+              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E18 Baby, It's Cold Outside.mkv",
+              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E18 Baby, It's Cold Outside",
+              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E18%20Baby%2C%20It's%20Cold%20Outside.mkv",
+              "seconds": 1392,
+              "format": "Matroska",
+              "playable": false,
+              "codecRisk": "container (Matroska)",
+              "sizeMB": 222
             }
           ]
         },
@@ -901,19 +905,6 @@
           },
           "alternates": [
             {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E19 Unchained Malady.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E19 Unchained Malady",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E19%20Unchained%20Malady.mkv",
-              "seconds": 1423,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 221
-            },
-            {
               "conf": 0.55,
               "why": "sequence guess: file 19 of 24 in \"Home Improvement: The Complete First Sea\"",
               "item": "home-improvement-the-complete-first-season_202505",
@@ -925,6 +916,20 @@
               "format": "h.264",
               "playable": true,
               "sizeMB": 143
+            },
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "home-improvement-complete-dvd-rip",
+              "itemTitle": "Home Improvement Complete DVD Rip",
+              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E19 Unchained Malady.mkv",
+              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E19 Unchained Malady",
+              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E19%20Unchained%20Malady.mkv",
+              "seconds": 1423,
+              "format": "Matroska",
+              "playable": false,
+              "codecRisk": "container (Matroska)",
+              "sizeMB": 221
             }
           ]
         },
@@ -948,19 +953,6 @@
           },
           "alternates": [
             {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E20 Birds of a Feather Flock to Taylor.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E20 Birds of a Feather Flock to Taylor",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E20%20Birds%20of%20a%20Feather%20Flock%20to%20Taylor.mkv",
-              "seconds": 1393,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 208
-            },
-            {
               "conf": 0.55,
               "why": "sequence guess: file 20 of 24 in \"Home Improvement: The Complete First Sea\"",
               "item": "home-improvement-the-complete-first-season_202505",
@@ -972,6 +964,20 @@
               "format": "h.264",
               "playable": true,
               "sizeMB": 139
+            },
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "home-improvement-complete-dvd-rip",
+              "itemTitle": "Home Improvement Complete DVD Rip",
+              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E20 Birds of a Feather Flock to Taylor.mkv",
+              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E20 Birds of a Feather Flock to Taylor",
+              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E20%20Birds%20of%20a%20Feather%20Flock%20to%20Taylor.mkv",
+              "seconds": 1393,
+              "format": "Matroska",
+              "playable": false,
+              "codecRisk": "container (Matroska)",
+              "sizeMB": 208
             }
           ]
         },
@@ -995,19 +1001,6 @@
           },
           "alternates": [
             {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E21 A Battle of Wheels.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E21 A Battle of Wheels",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E21%20A%20Battle%20of%20Wheels.mkv",
-              "seconds": 1412,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 213
-            },
-            {
               "conf": 0.55,
               "why": "sequence guess: file 21 of 24 in \"Home Improvement: The Complete First Sea\"",
               "item": "home-improvement-the-complete-first-season_202505",
@@ -1019,6 +1012,20 @@
               "format": "h.264",
               "playable": true,
               "sizeMB": 141
+            },
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "home-improvement-complete-dvd-rip",
+              "itemTitle": "Home Improvement Complete DVD Rip",
+              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E21 A Battle of Wheels.mkv",
+              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E21 A Battle of Wheels",
+              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E21%20A%20Battle%20of%20Wheels.mkv",
+              "seconds": 1412,
+              "format": "Matroska",
+              "playable": false,
+              "codecRisk": "container (Matroska)",
+              "sizeMB": 213
             }
           ]
         },
@@ -1042,19 +1049,6 @@
           },
           "alternates": [
             {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E22 Luck Be a Taylor Tonight.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E22 Luck Be a Taylor Tonight",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E22%20Luck%20Be%20a%20Taylor%20Tonight.mkv",
-              "seconds": 1422,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 194
-            },
-            {
               "conf": 0.55,
               "why": "sequence guess: file 22 of 24 in \"Home Improvement: The Complete First Sea\"",
               "item": "home-improvement-the-complete-first-season_202505",
@@ -1066,6 +1060,20 @@
               "format": "h.264",
               "playable": true,
               "sizeMB": 143
+            },
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "home-improvement-complete-dvd-rip",
+              "itemTitle": "Home Improvement Complete DVD Rip",
+              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E22 Luck Be a Taylor Tonight.mkv",
+              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E22 Luck Be a Taylor Tonight",
+              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E22%20Luck%20Be%20a%20Taylor%20Tonight.mkv",
+              "seconds": 1422,
+              "format": "Matroska",
+              "playable": false,
+              "codecRisk": "container (Matroska)",
+              "sizeMB": 194
             }
           ]
         },
@@ -1089,19 +1097,6 @@
           },
           "alternates": [
             {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E23 Al's Fair in Love and War.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E23 Al's Fair in Love and War",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E23%20Al's%20Fair%20in%20Love%20and%20War.mkv",
-              "seconds": 1422,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 191
-            },
-            {
               "conf": 0.55,
               "why": "sequence guess: file 23 of 24 in \"Home Improvement: The Complete First Sea\"",
               "item": "home-improvement-the-complete-first-season_202505",
@@ -1113,6 +1108,20 @@
               "format": "h.264",
               "playable": true,
               "sizeMB": 142
+            },
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "home-improvement-complete-dvd-rip",
+              "itemTitle": "Home Improvement Complete DVD Rip",
+              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E23 Al's Fair in Love and War.mkv",
+              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 1 Complete DVDRip x264 [i_c]/Home Improvement S01E23 Al's Fair in Love and War",
+              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%201%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S01E23%20Al's%20Fair%20in%20Love%20and%20War.mkv",
+              "seconds": 1422,
+              "format": "Matroska",
+              "playable": false,
+              "codecRisk": "container (Matroska)",
+              "sizeMB": 191
             }
           ]
         },
@@ -1198,6 +1207,7 @@
               "seconds": 1413,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 225
             }
           ]
@@ -1232,6 +1242,7 @@
               "seconds": 1412,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 211
             }
           ]
@@ -1266,6 +1277,7 @@
               "seconds": 1414,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 194
             }
           ]
@@ -1593,9 +1605,9 @@
           "number": 13,
           "name": "Bell Bottom Blues",
           "airdate": "1993-01-06",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "home-improvement-tv-series",
             "itemTitle": "Home Improvement (TV series)",
@@ -1609,7 +1621,7 @@
           },
           "alternates": [
             {
-              "conf": 1,
+              "conf": 0.6,
               "why": "S/E in filename + title match",
               "item": "home-improvement-complete-dvd-rip",
               "itemTitle": "Home Improvement Complete DVD Rip",
@@ -1993,6 +2005,7 @@
               "seconds": 1413,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 225
             }
           ]
@@ -2521,6 +2534,7 @@
               "seconds": 1415,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 212
             }
           ]
@@ -2555,6 +2569,7 @@
               "seconds": 1418,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 217
             }
           ]
@@ -2589,6 +2604,7 @@
               "seconds": 1416,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 211
             }
           ]
@@ -2623,6 +2639,7 @@
               "seconds": 1417,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 225
             }
           ]
@@ -2657,6 +2674,7 @@
               "seconds": 1414,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 247
             }
           ]
@@ -2691,6 +2709,7 @@
               "seconds": 1416,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 227
             }
           ]
@@ -2725,6 +2744,7 @@
               "seconds": 1386,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 218
             }
           ]
@@ -2793,6 +2813,7 @@
               "seconds": 1416,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 204
             }
           ]
@@ -2827,6 +2848,7 @@
               "seconds": 1417,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 220
             }
           ]
@@ -2861,6 +2883,7 @@
               "seconds": 1415,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 225
             }
           ]
@@ -2895,6 +2918,7 @@
               "seconds": 1400,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 224
             }
           ]
@@ -2934,6 +2958,7 @@
               "seconds": 1385,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 198
             }
           ]
@@ -2968,6 +2993,7 @@
               "seconds": 1385,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 210
             }
           ]
@@ -3002,6 +3028,7 @@
               "seconds": 1377,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 223
             }
           ]
@@ -3036,6 +3063,7 @@
               "seconds": 1382,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 215
             }
           ]
@@ -3070,6 +3098,7 @@
               "seconds": 1386,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 205
             }
           ]
@@ -3104,6 +3133,7 @@
               "seconds": 1385,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 221
             }
           ]
@@ -3172,6 +3202,7 @@
               "seconds": 1385,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 206
             }
           ]
@@ -3206,6 +3237,7 @@
               "seconds": 1405,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 182
             }
           ]
@@ -3651,9 +3683,9 @@
           "number": 24,
           "name": "Sisters and Brothers",
           "airdate": "1995-05-02",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "home-improvement-tv-series",
             "itemTitle": "Home Improvement (TV series)",
@@ -3665,21 +3697,7 @@
             "playable": true,
             "sizeMB": 178
           },
-          "alternates": [
-            {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 4 Complete DVDRip x264 [i_c]/Home Improvement S04E24 Sisters and Brothers.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 4 Complete DVDRip x264 [i_c]/Home Improvement S04E24 Sisters and Brothers",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%204%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S04E24%20Sisters%20and%20Brothers.mkv",
-              "seconds": 1384,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 235
-            }
-          ]
+          "alternates": []
         },
         {
           "number": 25,
@@ -4030,9 +4048,9 @@
           "number": 9,
           "name": "Chicago Hope",
           "airdate": "1995-11-21",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "home-improvement-tv-series",
             "itemTitle": "Home Improvement (TV series)",
@@ -4046,7 +4064,7 @@
           },
           "alternates": [
             {
-              "conf": 1,
+              "conf": 0.6,
               "why": "S/E in filename + title match",
               "item": "home-improvement-complete-dvd-rip",
               "itemTitle": "Home Improvement Complete DVD Rip",
@@ -4395,6 +4413,7 @@
               "seconds": 1384,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 211
             }
           ]
@@ -5580,6 +5599,7 @@
               "seconds": 1331,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 182
             }
           ]
@@ -5614,6 +5634,7 @@
               "seconds": 1330,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 194
             }
           ]
@@ -5648,6 +5669,7 @@
               "seconds": 1332,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 203
             }
           ]
@@ -5682,6 +5704,7 @@
               "seconds": 1342,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 182
             }
           ]
@@ -5716,6 +5739,7 @@
               "seconds": 1322,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 174
             }
           ]
@@ -5750,6 +5774,7 @@
               "seconds": 1330,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 187
             }
           ]
@@ -5818,6 +5843,7 @@
               "seconds": 1332,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 206
             }
           ]
@@ -5899,6 +5925,7 @@
               "seconds": 1329,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 206
             }
           ]
@@ -5933,6 +5960,7 @@
               "seconds": 1331,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 180
             }
           ]
@@ -5967,6 +5995,7 @@
               "seconds": 1347,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 205
             }
           ]
@@ -6035,6 +6064,7 @@
               "seconds": 1307,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 187
             }
           ]
@@ -6069,6 +6099,7 @@
               "seconds": 1331,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 193
             }
           ]
@@ -6103,6 +6134,7 @@
               "seconds": 1332,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 203
             }
           ]
@@ -6137,6 +6169,7 @@
               "seconds": 1326,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 216
             }
           ]
@@ -6171,6 +6204,7 @@
               "seconds": 1331,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 177
             }
           ]
@@ -6205,6 +6239,7 @@
               "seconds": 1345,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 218
             }
           ]
@@ -6239,6 +6274,7 @@
               "seconds": 1346,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 208
             }
           ]
@@ -6273,6 +6309,7 @@
               "seconds": 1346,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 183
             }
           ]
@@ -6307,6 +6344,7 @@
               "seconds": 1321,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 195
             }
           ]
@@ -6315,9 +6353,9 @@
           "number": 25,
           "name": "From Top To Bottom",
           "airdate": "1998-05-19",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "home-improvement-tv-series",
             "itemTitle": "Home Improvement (TV series)",
@@ -6329,21 +6367,7 @@
             "playable": true,
             "sizeMB": 174
           },
-          "alternates": [
-            {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 7 Complete DVDRip x264 [i_c]/Home Improvement S07E25 From Top to Bottom.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 7 Complete DVDRip x264 [i_c]/Home Improvement S07E25 From Top to Bottom",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%207%20Complete%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S07E25%20From%20Top%20to%20Bottom.mkv",
-              "seconds": 1348,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 196
-            }
-          ]
+          "alternates": []
         }
       ]
     },
@@ -6368,21 +6392,7 @@
             "playable": true,
             "sizeMB": 181
           },
-          "alternates": [
-            {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E01 Whitewater.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E01 Whitewater",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%208%20Complete%20%2B%20Extras%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S08E01%20Whitewater.mkv",
-              "seconds": 1333,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 288
-            }
-          ]
+          "alternates": []
         },
         {
           "number": 2,
@@ -6402,21 +6412,7 @@
             "playable": true,
             "sizeMB": 182
           },
-          "alternates": [
-            {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E02 Adios.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E02 Adios",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%208%20Complete%20%2B%20Extras%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S08E02%20Adios.mkv",
-              "seconds": 1328,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 193
-            }
-          ]
+          "alternates": []
         },
         {
           "number": 3,
@@ -6436,21 +6432,7 @@
             "playable": true,
             "sizeMB": 182
           },
-          "alternates": [
-            {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E03 All in the Family.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E03 All in the Family",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%208%20Complete%20%2B%20Extras%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S08E03%20All%20in%20the%20Family.mkv",
-              "seconds": 1345,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 212
-            }
-          ]
+          "alternates": []
         },
         {
           "number": 4,
@@ -6470,21 +6452,7 @@
             "playable": true,
             "sizeMB": 182
           },
-          "alternates": [
-            {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E04 Taylor Got Game.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E04 Taylor Got Game",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%208%20Complete%20%2B%20Extras%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S08E04%20Taylor%20Got%20Game.mkv",
-              "seconds": 1333,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 193
-            }
-          ]
+          "alternates": []
         },
         {
           "number": 5,
@@ -6504,21 +6472,7 @@
             "playable": true,
             "sizeMB": 181
           },
-          "alternates": [
-            {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E05 Al's Fair Lady.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E05 Al's Fair Lady",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%208%20Complete%20%2B%20Extras%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S08E05%20Al's%20Fair%20Lady.mkv",
-              "seconds": 1348,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 206
-            }
-          ]
+          "alternates": []
         },
         {
           "number": 6,
@@ -6538,21 +6492,7 @@
             "playable": true,
             "sizeMB": 182
           },
-          "alternates": [
-            {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E06 Bewitched.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E06 Bewitched",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%208%20Complete%20%2B%20Extras%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S08E06%20Bewitched.mkv",
-              "seconds": 1331,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 203
-            }
-          ]
+          "alternates": []
         },
         {
           "number": 7,
@@ -6572,21 +6512,7 @@
             "playable": true,
             "sizeMB": 182
           },
-          "alternates": [
-            {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E07 Not-So-Great Scott.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E07 Not-So-Great Scott",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%208%20Complete%20%2B%20Extras%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S08E07%20Not-So-Great%20Scott.mkv",
-              "seconds": 1328,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 195
-            }
-          ]
+          "alternates": []
         },
         {
           "number": 8,
@@ -6606,21 +6532,7 @@
             "playable": true,
             "sizeMB": 182
           },
-          "alternates": [
-            {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E08 Tim's First Car.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E08 Tim's First Car",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%208%20Complete%20%2B%20Extras%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S08E08%20Tim's%20First%20Car.mkv",
-              "seconds": 1347,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 201
-            }
-          ]
+          "alternates": []
         },
         {
           "number": 9,
@@ -6640,21 +6552,7 @@
             "playable": true,
             "sizeMB": 182
           },
-          "alternates": [
-            {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E09 Mr. Likeable.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E09 Mr. Likeable",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%208%20Complete%20%2B%20Extras%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S08E09%20Mr.%20Likeable.mkv",
-              "seconds": 1345,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 214
-            }
-          ]
+          "alternates": []
         },
         {
           "number": 10,
@@ -6674,21 +6572,7 @@
             "playable": true,
             "sizeMB": 182
           },
-          "alternates": [
-            {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E10 Thanks, but No Thanks.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E10 Thanks, but No Thanks",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%208%20Complete%20%2B%20Extras%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S08E10%20Thanks%2C%20but%20No%20Thanks.mkv",
-              "seconds": 1346,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 209
-            }
-          ]
+          "alternates": []
         },
         {
           "number": 11,
@@ -6721,19 +6605,6 @@
               "format": "h.264",
               "playable": true,
               "sizeMB": 141
-            },
-            {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E11 Home for the Holidays.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E11 Home for the Holidays",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%208%20Complete%20%2B%20Extras%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S08E11%20Home%20for%20the%20Holidays.mkv",
-              "seconds": 1347,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 240
             }
           ]
         },
@@ -6755,21 +6626,7 @@
             "playable": true,
             "sizeMB": 181
           },
-          "alternates": [
-            {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E12 Ploys for Tots.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E12 Ploys for Tots",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%208%20Complete%20%2B%20Extras%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S08E12%20Ploys%20for%20Tots.mkv",
-              "seconds": 1331,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 208
-            }
-          ]
+          "alternates": []
         },
         {
           "number": 13,
@@ -6789,55 +6646,15 @@
             "playable": true,
             "sizeMB": 182
           },
-          "alternates": [
-            {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E13 Chop Shop 'Til You Drop.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E13 Chop Shop 'Til You Drop",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%208%20Complete%20%2B%20Extras%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S08E13%20Chop%20Shop%20'Til%20You%20Drop.mkv",
-              "seconds": 1346,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 192
-            }
-          ]
+          "alternates": []
         },
         {
           "number": 14,
           "name": "Home Alone",
           "airdate": "1999-01-19",
-          "state": "LIVE",
-          "file": {
-            "conf": 1,
-            "why": "S/E in filename + title match",
-            "item": "home-improvement-tv-series",
-            "itemTitle": "Home Improvement (TV series)",
-            "file": "Home Improvement S08E14 Home Alone.mp4",
-            "name": "Home Improvement S08E14 Home Alone",
-            "url": "https://archive.org/download/home-improvement-tv-series/Home%20Improvement%20S08E14%20Home%20Alone.mp4",
-            "seconds": 1332,
-            "format": "MPEG4",
-            "playable": true,
-            "sizeMB": 182
-          },
-          "alternates": [
-            {
-              "conf": 0.95,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E14 Home Alone.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E14 Home Alone",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%208%20Complete%20%2B%20Extras%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S08E14%20Home%20Alone.mkv",
-              "seconds": 1330,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 207
-            }
-          ]
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
         },
         {
           "number": 15,
@@ -6857,21 +6674,7 @@
             "playable": true,
             "sizeMB": 182
           },
-          "alternates": [
-            {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E15 Knee Deep.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E15 Knee Deep",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%208%20Complete%20%2B%20Extras%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S08E15%20Knee%20Deep.mkv",
-              "seconds": 1324,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 190
-            }
-          ]
+          "alternates": []
         },
         {
           "number": 16,
@@ -6891,21 +6694,7 @@
             "playable": true,
             "sizeMB": 182
           },
-          "alternates": [
-            {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E16 Mark's Big Break.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E16 Mark's Big Break",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%208%20Complete%20%2B%20Extras%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S08E16%20Mark's%20Big%20Break.mkv",
-              "seconds": 1329,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 220
-            }
-          ]
+          "alternates": []
         },
         {
           "number": 17,
@@ -6925,21 +6714,7 @@
             "playable": true,
             "sizeMB": 182
           },
-          "alternates": [
-            {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E17 Young at Heart.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E17 Young at Heart",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%208%20Complete%20%2B%20Extras%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S08E17%20Young%20at%20Heart.mkv",
-              "seconds": 1345,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 195
-            }
-          ]
+          "alternates": []
         },
         {
           "number": 18,
@@ -6959,21 +6734,7 @@
             "playable": true,
             "sizeMB": 183
           },
-          "alternates": [
-            {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E18 Love's Labor Lost (1).mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E18 Love's Labor Lost (1)",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%208%20Complete%20%2B%20Extras%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S08E18%20Love's%20Labor%20Lost%20(1).mkv",
-              "seconds": 1322,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 179
-            }
-          ]
+          "alternates": []
         },
         {
           "number": 19,
@@ -6993,21 +6754,7 @@
             "playable": true,
             "sizeMB": 182
           },
-          "alternates": [
-            {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E19 Love's Labor Lost (2).mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E19 Love's Labor Lost (2)",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%208%20Complete%20%2B%20Extras%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S08E19%20Love's%20Labor%20Lost%20(2).mkv",
-              "seconds": 1335,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 198
-            }
-          ]
+          "alternates": []
         },
         {
           "number": 20,
@@ -7027,21 +6774,7 @@
             "playable": true,
             "sizeMB": 182
           },
-          "alternates": [
-            {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E20 Neighbors.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E20 Neighbors",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%208%20Complete%20%2B%20Extras%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S08E20%20Neighbors.mkv",
-              "seconds": 1347,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 212
-            }
-          ]
+          "alternates": []
         },
         {
           "number": 21,
@@ -7061,21 +6794,7 @@
             "playable": true,
             "sizeMB": 182
           },
-          "alternates": [
-            {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E21 A Hardware Habit to Break.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E21 A Hardware Habit to Break",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%208%20Complete%20%2B%20Extras%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S08E21%20A%20Hardware%20Habit%20to%20Break.mkv",
-              "seconds": 1347,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 220
-            }
-          ]
+          "alternates": []
         },
         {
           "number": 22,
@@ -7095,21 +6814,7 @@
             "playable": true,
             "sizeMB": 182
           },
-          "alternates": [
-            {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E22 Loose Lips and Freudian Slips.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E22 Loose Lips and Freudian Slips",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%208%20Complete%20%2B%20Extras%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S08E22%20Loose%20Lips%20and%20Freudian%20Slips.mkv",
-              "seconds": 1346,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 191
-            }
-          ]
+          "alternates": []
         },
         {
           "number": 23,
@@ -7129,21 +6834,7 @@
             "playable": true,
             "sizeMB": 181
           },
-          "alternates": [
-            {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E23 Trouble-A-Bruin.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E23 Trouble-A-Bruin",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%208%20Complete%20%2B%20Extras%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S08E23%20Trouble-A-Bruin.mkv",
-              "seconds": 1330,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 227
-            }
-          ]
+          "alternates": []
         },
         {
           "number": 24,
@@ -7163,21 +6854,7 @@
             "playable": true,
             "sizeMB": 182
           },
-          "alternates": [
-            {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E24 Dead Weight.mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E24 Dead Weight",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%208%20Complete%20%2B%20Extras%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S08E24%20Dead%20Weight.mkv",
-              "seconds": 1348,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 196
-            }
-          ]
+          "alternates": []
         },
         {
           "number": 25,
@@ -7197,21 +6874,7 @@
             "playable": true,
             "sizeMB": 181
           },
-          "alternates": [
-            {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E25 The Long and Winding Road (1).mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E25 The Long and Winding Road (1)",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%208%20Complete%20%2B%20Extras%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S08E25%20The%20Long%20and%20Winding%20Road%20(1).mkv",
-              "seconds": 1346,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 207
-            }
-          ]
+          "alternates": []
         },
         {
           "number": 26,
@@ -7231,21 +6894,7 @@
             "playable": true,
             "sizeMB": 182
           },
-          "alternates": [
-            {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E26 The Long and Winding Road (2).mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E26 The Long and Winding Road (2)",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%208%20Complete%20%2B%20Extras%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S08E26%20The%20Long%20and%20Winding%20Road%20(2).mkv",
-              "seconds": 1316,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 208
-            }
-          ]
+          "alternates": []
         },
         {
           "number": 27,
@@ -7265,21 +6914,7 @@
             "playable": true,
             "sizeMB": 182
           },
-          "alternates": [
-            {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "home-improvement-complete-dvd-rip",
-              "itemTitle": "Home Improvement Complete DVD Rip",
-              "file": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E27 The Long and Winding Road (3).mkv",
-              "name": "Home Improvement 1991 Complete DVDRIP x264/Home Improvement 1991 Season 8 Complete + Extras DVDRip x264 [i_c]/Home Improvement S08E27 The Long and Winding Road (3)",
-              "url": "https://archive.org/download/home-improvement-complete-dvd-rip/Home%20Improvement%201991%20Complete%20DVDRIP%20x264%2FHome%20Improvement%201991%20Season%208%20Complete%20%2B%20Extras%20DVDRip%20x264%20%5Bi_c%5D%2FHome%20Improvement%20S08E27%20The%20Long%20and%20Winding%20Road%20(3).mkv",
-              "seconds": 1345,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 228
-            }
-          ]
+          "alternates": []
         }
       ]
     }

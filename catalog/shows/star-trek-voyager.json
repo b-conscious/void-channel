@@ -3,7 +3,7 @@
   "slug": "star-trek-voyager",
   "type": "Sci-Fi, Fantasy and Horror",
   "network": "UPN",
-  "matchedAt": "2026-10-13T07:46:17.057Z",
+  "matchedAt": "2026-10-13T15:54:09.944Z",
   "tvmaze": {
     "id": 492,
     "name": "Star Trek: Voyager",
@@ -13,10 +13,10 @@
   },
   "coverage": {
     "total": 172,
-    "live": 164,
-    "review": 1,
-    "missing": 7,
-    "pct": 96
+    "live": 160,
+    "review": 2,
+    "missing": 10,
+    "pct": 94
   },
   "seasons": [
     {
@@ -459,19 +459,6 @@
           },
           "alternates": [
             {
-              "conf": 0.9,
-              "why": "S/E in filename",
-              "item": "star-trek-voyager-s-1-e-1-caretaker",
-              "itemTitle": "Star Trek: Voyager - The Complete First Season",
-              "file": "Star Trek Voyager S1 E11 - Heroes and Demons.mp4",
-              "name": "Star Trek Voyager S1 E11 - Heroes and Demons",
-              "url": "https://archive.org/download/star-trek-voyager-s-1-e-1-caretaker/Star%20Trek%20Voyager%20S1%20E11%20-%20Heroes%20and%20Demons.mp4",
-              "seconds": 2751,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 209
-            },
-            {
               "conf": 0.8,
               "why": "title ~ \"State of Flux\" (1.00)",
               "item": "star-trek-voyager-s-1-e-1-caretaker",
@@ -517,19 +504,6 @@
               "format": "MPEG4",
               "playable": true,
               "sizeMB": 172
-            },
-            {
-              "conf": 0.8,
-              "why": "title ~ \"Heroes and Demons\" (1.00)",
-              "item": "star-trek-voyager-s-1-e-1-caretaker",
-              "itemTitle": "Star Trek: Voyager - The Complete First Season",
-              "file": "Star Trek Voyager S1 E11 - Heroes and Demons.mp4",
-              "name": "Star Trek Voyager S1 E11 - Heroes and Demons",
-              "url": "https://archive.org/download/star-trek-voyager-s-1-e-1-caretaker/Star%20Trek%20Voyager%20S1%20E11%20-%20Heroes%20and%20Demons.mp4",
-              "seconds": 2751,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 209
             }
           ]
         },
@@ -1770,9 +1744,9 @@
           "number": 26,
           "name": "Scorpion, Part I",
           "airdate": "1997-05-21",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "star-trek-voyager-la-serie-v.f.-1995-2001",
             "itemTitle": "Star Trek ☆ Voyager ☆ La Série V.F. ☆ 1995-2001",
@@ -1784,21 +1758,7 @@
             "playable": true,
             "sizeMB": 554
           },
-          "alternates": [
-            {
-              "conf": 0.8,
-              "why": "title ~ \"Scorpion, Part I\" (0.92)",
-              "item": "star-trek-voyager-la-serie-v.f.-1995-2001",
-              "itemTitle": "Star Trek ☆ Voyager ☆ La Série V.F. ☆ 1995-2001",
-              "file": "Star Trek Voyager 4x01 Scorpion (Part 2).mp4",
-              "name": "Star Trek Voyager 4x01 Scorpion (Part 2)",
-              "url": "https://archive.org/download/star-trek-voyager-la-serie-v.f.-1995-2001/Star%20Trek%20Voyager%204x01%20Scorpion%20(Part%202).mp4",
-              "seconds": 2642,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 577
-            }
-          ]
+          "alternates": []
         }
       ]
     },
@@ -1809,20 +1769,8 @@
           "number": 1,
           "name": "Scorpion, Part II",
           "airdate": "1997-09-03",
-          "state": "LIVE",
-          "file": {
-            "conf": 0.9,
-            "why": "S/E in filename",
-            "item": "star-trek-voyager-la-serie-v.f.-1995-2001",
-            "itemTitle": "Star Trek ☆ Voyager ☆ La Série V.F. ☆ 1995-2001",
-            "file": "Star Trek Voyager 4x01 Scorpion (Part 2).mp4",
-            "name": "Star Trek Voyager 4x01 Scorpion (Part 2)",
-            "url": "https://archive.org/download/star-trek-voyager-la-serie-v.f.-1995-2001/Star%20Trek%20Voyager%204x01%20Scorpion%20(Part%202).mp4",
-            "seconds": 2642,
-            "format": "MPEG4",
-            "playable": true,
-            "sizeMB": 577
-          },
+          "state": "MISSING",
+          "file": null,
           "alternates": []
         },
         {
@@ -2263,20 +2211,8 @@
           "number": 23,
           "name": "Living Witness",
           "airdate": "1998-04-29",
-          "state": "LIVE",
-          "file": {
-            "conf": 0.9,
-            "why": "S/E in filename",
-            "item": "star-trek-voyager-la-serie-v.f.-1995-2001",
-            "itemTitle": "Star Trek ☆ Voyager ☆ La Série V.F. ☆ 1995-2001",
-            "file": "Star Trek Voyager 4x23 La Preuve Vivante.mp4",
-            "name": "Star Trek Voyager 4x23 La Preuve Vivante",
-            "url": "https://archive.org/download/star-trek-voyager-la-serie-v.f.-1995-2001/Star%20Trek%20Voyager%204x23%20La%20Preuve%20Vivante.mp4",
-            "seconds": 2643,
-            "format": "MPEG4",
-            "playable": true,
-            "sizeMB": 357
-          },
+          "state": "MISSING",
+          "file": null,
           "alternates": []
         },
         {
@@ -3692,20 +3628,8 @@
           "number": 14,
           "name": "Prophecy",
           "airdate": "2001-02-07",
-          "state": "LIVE",
-          "file": {
-            "conf": 0.9,
-            "why": "S/E in filename",
-            "item": "star-trek-voyager-la-serie-v.f.-1995-2001",
-            "itemTitle": "Star Trek ☆ Voyager ☆ La Série V.F. ☆ 1995-2001",
-            "file": "Star Trek Voyager 7x14 Les Rouleaux de La Prophetie.mp4",
-            "name": "Star Trek Voyager 7x14 Les Rouleaux de La Prophetie",
-            "url": "https://archive.org/download/star-trek-voyager-la-serie-v.f.-1995-2001/Star%20Trek%20Voyager%207x14%20Les%20Rouleaux%20de%20La%20Prophetie.mp4",
-            "seconds": 2525,
-            "format": "MPEG4",
-            "playable": true,
-            "sizeMB": 545
-          },
+          "state": "MISSING",
+          "file": null,
           "alternates": []
         },
         {

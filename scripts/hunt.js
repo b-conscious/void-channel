@@ -305,13 +305,18 @@ async function main() {
   const refresh = args.includes('--refresh');
   const fresh = args.includes('--fresh');
   const pass2 = args.includes('--pass2'); // re-hunt shows under 50% coverage with the narrow net + deeper opening
+  const unplayable = args.includes('--unplayable'); // re-hunt shows whose picks will not play in a browser (mkv / AC3 / x265)
   const valued = new Set(['--budget', '--open', '--pause', '--type']);
   const filter = (args.find((a, i) => !a.startsWith('--') && !valued.has(args[i - 1])) || '').toLowerCase();
   const notThere = new Set(CENSUS.filter((r) => r.verdict === 'NOT THERE').map((r) => r.show));
   const hunted = (s) => fs.existsSync(path.join(OUT_DIR, slug(s.name) + '.json'));
-  const coverage = (s) => { const f = path.join(ROOT, 'catalog', 'shows', slug(s.name) + '.json'); try { return JSON.parse(fs.readFileSync(f, 'utf8')).coverage.pct; } catch (e) { return 0; } };
+  const grid = (s) => { try { return JSON.parse(fs.readFileSync(path.join(ROOT, 'catalog', 'shows', slug(s.name) + '.json'), 'utf8')); } catch (e) { return null; } };
+  const coverage = (s) => { const g = grid(s); return g && g.coverage ? g.coverage.pct : 0; };
+  const unplayableCount = (s) => { const g = grid(s); return g && g.seasons ? g.seasons.reduce((n, se) => n + se.episodes.filter((e) => e.file && !e.file.playable).length, 0) : 0; };
   const jobs = LIST.shows.filter((s) => (filter ? s.name.toLowerCase().includes(filter) : true) && (type ? s.type === type : true)
-    && (missing ? notThere.has(s.name) : true) && (pass2 ? coverage(s) < 50 : (fresh || filter ? true : !hunted(s))));
+    && (missing ? notThere.has(s.name) : true)
+    && (unplayable ? unplayableCount(s) >= 3 : pass2 ? coverage(s) < 50 : (fresh || filter ? true : !hunted(s))))
+    .sort((a, b) => (unplayable ? unplayableCount(b) - unplayableCount(a) : 0));
   console.log(`${jobs.length} shows to hunt, budget ${budget} Archive calls, open ${MAX_ITEMS_TO_OPEN} items/show, ${PAUSE_MS}ms pause`);
   for (const j of jobs) {
     if (calls >= budget) { console.log('\nBudget spent; stopping. Re-run to continue (cached calls are free).'); break; }

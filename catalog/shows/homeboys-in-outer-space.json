@@ -3,7 +3,7 @@
   "slug": "homeboys-in-outer-space",
   "type": "90s Sitcoms",
   "network": "UPN",
-  "matchedAt": "2026-10-13T07:46:14.545Z",
+  "matchedAt": "2026-10-13T15:54:05.235Z",
   "tvmaze": {
     "id": 16678,
     "name": "Homeboys in Outer Space",
@@ -14,9 +14,9 @@
   "coverage": {
     "total": 21,
     "live": 0,
-    "review": 20,
-    "missing": 1,
-    "pct": 95
+    "review": 18,
+    "missing": 3,
+    "pct": 86
   },
   "seasons": [
     {
@@ -381,33 +381,19 @@
           "airdate": "1996-11-19",
           "state": "REVIEW",
           "file": {
-            "conf": 0.6,
-            "why": "title ~ \"Homeboys in Wonderland or, Hoopty Doopty\" (0.76)",
+            "conf": 0.55,
+            "why": "sequence guess: file 11 of 11 in \"Homeboys In Outer Space (1996) Sci-fi si\"",
             "item": "homeboys-in-outer-space-1996",
             "itemTitle": "Homeboys In Outer Space (1996) Sci-fi sitcom",
-            "file": "Homeboys in Outer Space 11 Homeboys in Wonderland, or Hoopty Doopty - youtuber 'rivarz'.mp4",
-            "name": "Homeboys in Outer Space 11 Homeboys in Wonderland, or Hoopty Doopty - youtuber 'rivarz'",
-            "url": "https://archive.org/download/homeboys-in-outer-space-1996/Homeboys%20in%20Outer%20Space%2011%20Homeboys%20in%20Wonderland%2C%20or%20Hoopty%20Doopty%20-%20youtuber%20'rivarz'.mp4",
-            "seconds": 1339,
+            "file": "z- other options/Homeboys in Outer Space 21- Ratman & Gerbil - RareGems newupload - bigger.mp4",
+            "name": "z- other options/Homeboys in Outer Space 21- Ratman & Gerbil - RareGems newupload - bigger",
+            "url": "https://archive.org/download/homeboys-in-outer-space-1996/z-%20other%20options%2FHomeboys%20in%20Outer%20Space%2021-%20Ratman%20%26%20Gerbil%20-%20RareGems%20newupload%20-%20bigger.mp4",
+            "seconds": 1334,
             "format": "MPEG4",
             "playable": true,
-            "sizeMB": 146
+            "sizeMB": 127
           },
-          "alternates": [
-            {
-              "conf": 0.55,
-              "why": "sequence guess: file 11 of 11 in \"Homeboys In Outer Space (1996) Sci-fi si\"",
-              "item": "homeboys-in-outer-space-1996",
-              "itemTitle": "Homeboys In Outer Space (1996) Sci-fi sitcom",
-              "file": "z- other options/Homeboys in Outer Space 21- Ratman & Gerbil - RareGems newupload - bigger.mp4",
-              "name": "z- other options/Homeboys in Outer Space 21- Ratman & Gerbil - RareGems newupload - bigger",
-              "url": "https://archive.org/download/homeboys-in-outer-space-1996/z-%20other%20options%2FHomeboys%20in%20Outer%20Space%2021-%20Ratman%20%26%20Gerbil%20-%20RareGems%20newupload%20-%20bigger.mp4",
-              "seconds": 1334,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 127
-            }
-          ]
+          "alternates": []
         },
         {
           "number": 12,
@@ -433,20 +419,8 @@
           "number": 13,
           "name": "Brother's Got No Soul or, I Love Lucifer",
           "airdate": "1997-01-07",
-          "state": "REVIEW",
-          "file": {
-            "conf": 0.8,
-            "why": "title ~ \"Brother's Got No Soul or, I Love Lucifer\" (0.95)",
-            "item": "homeboys-in-outer-space-1996",
-            "itemTitle": "Homeboys In Outer Space (1996) Sci-fi sitcom",
-            "file": "Homeboys in Outer Space 13 Brothers Got No Soul, or I Love Lucifer.mp4",
-            "name": "Homeboys in Outer Space 13 Brothers Got No Soul, or I Love Lucifer",
-            "url": "https://archive.org/download/homeboys-in-outer-space-1996/Homeboys%20in%20Outer%20Space%2013%20Brothers%20Got%20No%20Soul%2C%20or%20I%20Love%20Lucifer.mp4",
-            "seconds": 1336,
-            "format": "MPEG4",
-            "playable": true,
-            "sizeMB": 145
-          },
+          "state": "MISSING",
+          "file": null,
           "alternates": []
         },
         {
@@ -473,20 +447,8 @@
           "number": 15,
           "name": "The Longest Yard and a Half or, The Shawshank Redemption Center",
           "airdate": "1997-01-28",
-          "state": "REVIEW",
-          "file": {
-            "conf": 0.8,
-            "why": "title ~ \"The Longest Yard and a Half or, The Shawshank Redemption Center\" (0.95)",
-            "item": "homeboys-in-outer-space-1996",
-            "itemTitle": "Homeboys In Outer Space (1996) Sci-fi sitcom",
-            "file": "Homeboys in Outer Space 15 The Longest Yard and a Half, or The Shawshank Redemption Center.mp4",
-            "name": "Homeboys in Outer Space 15 The Longest Yard and a Half, or The Shawshank Redemption Center",
-            "url": "https://archive.org/download/homeboys-in-outer-space-1996/Homeboys%20in%20Outer%20Space%2015%20The%20Longest%20Yard%20and%20a%20Half%2C%20or%20The%20Shawshank%20Redemption%20Center.mp4",
-            "seconds": 1336,
-            "format": "MPEG4",
-            "playable": true,
-            "sizeMB": 150
-          },
+          "state": "MISSING",
+          "file": null,
           "alternates": []
         },
         {

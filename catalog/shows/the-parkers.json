@@ -3,7 +3,7 @@
   "slug": "the-parkers",
   "type": "90s Sitcoms",
   "network": "UPN",
-  "matchedAt": "2026-10-13T07:46:14.537Z",
+  "matchedAt": "2026-10-13T15:54:05.218Z",
   "tvmaze": {
     "id": 12342,
     "name": "The Parkers",
@@ -14,9 +14,9 @@
   "coverage": {
     "total": 110,
     "live": 0,
-    "review": 22,
-    "missing": 88,
-    "pct": 20
+    "review": 28,
+    "missing": 82,
+    "pct": 25
   },
   "seasons": [
     {
@@ -62,19 +62,59 @@
           "airdate": "1999-09-06",
           "state": "REVIEW",
           "file": {
-            "conf": 0.55,
-            "why": "sequence guess: file 2 of 28 in \"Parker’s Puzzle Episodes\"",
-            "item": "parkers-puzzle-28",
-            "itemTitle": "Parker’s Puzzle Episodes",
-            "file": "Parker’s Puzzle (2).mp4",
-            "name": "Parker’s Puzzle (2)",
-            "url": "https://archive.org/download/parkers-puzzle-28/Parker%E2%80%99s%20Puzzle%20(2).mp4",
-            "seconds": 1766,
+            "conf": 0.65,
+            "why": "absolute episode number",
+            "item": "parkers-puzzle-cooking-kids-27-and-exercise_202206",
+            "itemTitle": "All Kids Videos Collection #4",
+            "file": "The Camp Out Episode 2.mp4",
+            "name": "The Camp Out Episode 2",
+            "url": "https://archive.org/download/parkers-puzzle-cooking-kids-27-and-exercise_202206/The%20Camp%20Out%20Episode%202.mp4",
+            "seconds": 1267,
             "format": "MPEG4",
             "playable": true,
-            "sizeMB": 3108
+            "sizeMB": 1187
           },
-          "alternates": []
+          "alternates": [
+            {
+              "conf": 0.65,
+              "why": "absolute episode number",
+              "item": "parkers-puzzle-cooking-kids-27-and-exercise",
+              "itemTitle": "All Kids Videos Collection #3",
+              "file": "The Camp Out Episode 2.mp4",
+              "name": "The Camp Out Episode 2",
+              "url": "https://archive.org/download/parkers-puzzle-cooking-kids-27-and-exercise/The%20Camp%20Out%20Episode%202.mp4",
+              "seconds": 1267,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 1187
+            },
+            {
+              "conf": 0.65,
+              "why": "absolute episode number",
+              "item": "parkers-puzzle-cooking-kids-27-and-exercise_202206",
+              "itemTitle": "All Kids Videos Collection #4",
+              "file": "The Parables of Peter Rabbit Episode 2  Faith Over Fear  (Video).mp4",
+              "name": "The Parables of Peter Rabbit Episode 2  Faith Over Fear  (Video)",
+              "url": "https://archive.org/download/parkers-puzzle-cooking-kids-27-and-exercise_202206/The%20Parables%20of%20Peter%20Rabbit%20Episode%202%20%20Faith%20Over%20Fear%20%20(Video).mp4",
+              "seconds": 1782,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 200
+            },
+            {
+              "conf": 0.65,
+              "why": "absolute episode number",
+              "item": "parkers-puzzle-cooking-kids-27-and-exercise",
+              "itemTitle": "All Kids Videos Collection #3",
+              "file": "The Parables of Peter Rabbit Episode 2  Faith Over Fear  (Video).mp4",
+              "name": "The Parables of Peter Rabbit Episode 2  Faith Over Fear  (Video)",
+              "url": "https://archive.org/download/parkers-puzzle-cooking-kids-27-and-exercise/The%20Parables%20of%20Peter%20Rabbit%20Episode%202%20%20Faith%20Over%20Fear%20%20(Video).mp4",
+              "seconds": 1782,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 200
+            }
+          ]
         },
         {
           "number": 3,
@@ -142,19 +182,59 @@
           "airdate": "1999-10-04",
           "state": "REVIEW",
           "file": {
-            "conf": 0.55,
-            "why": "sequence guess: file 6 of 28 in \"Parker’s Puzzle Episodes\"",
-            "item": "parkers-puzzle-28",
-            "itemTitle": "Parker’s Puzzle Episodes",
-            "file": "Parker’s Puzzle (6).mp4",
-            "name": "Parker’s Puzzle (6)",
-            "url": "https://archive.org/download/parkers-puzzle-28/Parker%E2%80%99s%20Puzzle%20(6).mp4",
-            "seconds": 2021,
-            "format": "h.264",
+            "conf": 0.75,
+            "why": "S/E in filename",
+            "item": "parkers-puzzle-cooking-kids-27-and-exercise_202206",
+            "itemTitle": "All Kids Videos Collection #4",
+            "file": "Tiny Tots for Jesus 106 3ABN Kids Camp Creation Crafts Bible Treasures 2-28-23.mp4",
+            "name": "Tiny Tots for Jesus 106 3ABN Kids Camp Creation Crafts Bible Treasures 2-28-23",
+            "url": "https://archive.org/download/parkers-puzzle-cooking-kids-27-and-exercise_202206/Tiny%20Tots%20for%20Jesus%20106%203ABN%20Kids%20Camp%20Creation%20Crafts%20Bible%20Treasures%202-28-23.mp4",
+            "seconds": 3741,
+            "format": "MPEG4",
             "playable": true,
-            "sizeMB": 4513
+            "sizeMB": 1029
           },
-          "alternates": []
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 6 of 28 in \"Parker’s Puzzle Episodes\"",
+              "item": "parkers-puzzle-28",
+              "itemTitle": "Parker’s Puzzle Episodes",
+              "file": "Parker’s Puzzle (6).mp4",
+              "name": "Parker’s Puzzle (6)",
+              "url": "https://archive.org/download/parkers-puzzle-28/Parker%E2%80%99s%20Puzzle%20(6).mp4",
+              "seconds": 2021,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 4513
+            },
+            {
+              "conf": 0.55,
+              "why": "absolute episode number",
+              "item": "parkers-puzzle-cooking-kids-27-and-exercise_202206",
+              "itemTitle": "All Kids Videos Collection #4",
+              "file": "Ep 6 -  A Day with the King  - Amazing Adventure.mp4",
+              "name": "Ep 6 -  A Day with the King  - Amazing Adventure",
+              "url": "https://archive.org/download/parkers-puzzle-cooking-kids-27-and-exercise_202206/Ep%206%20-%20%20A%20Day%20with%20the%20King%20%20-%20Amazing%20Adventure.mp4",
+              "seconds": 3418,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 669
+            },
+            {
+              "conf": 0.55,
+              "why": "absolute episode number",
+              "item": "parkers-puzzle-cooking-kids-27-and-exercise",
+              "itemTitle": "All Kids Videos Collection #3",
+              "file": "Ep 6 -  A Day with the King  - Amazing Adventure.mp4",
+              "name": "Ep 6 -  A Day with the King  - Amazing Adventure",
+              "url": "https://archive.org/download/parkers-puzzle-cooking-kids-27-and-exercise/Ep%206%20-%20%20A%20Day%20with%20the%20King%20%20-%20Amazing%20Adventure.mp4",
+              "seconds": 3418,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 669
+            }
+          ]
         },
         {
           "number": 7,
@@ -174,7 +254,34 @@
             "playable": true,
             "sizeMB": 4054
           },
-          "alternates": []
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "absolute episode number",
+              "item": "parkers-puzzle-cooking-kids-27-and-exercise_202206",
+              "itemTitle": "All Kids Videos Collection #4",
+              "file": "Ep 7 -  God's Super Food  - Amazing Adventure.mp4",
+              "name": "Ep 7 -  God's Super Food  - Amazing Adventure",
+              "url": "https://archive.org/download/parkers-puzzle-cooking-kids-27-and-exercise_202206/Ep%207%20-%20%20God's%20Super%20Food%20%20-%20Amazing%20Adventure.mp4",
+              "seconds": 3273,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 660
+            },
+            {
+              "conf": 0.55,
+              "why": "absolute episode number",
+              "item": "parkers-puzzle-cooking-kids-27-and-exercise",
+              "itemTitle": "All Kids Videos Collection #3",
+              "file": "Ep 7 -  God's Super Food  - Amazing Adventure.mp4",
+              "name": "Ep 7 -  God's Super Food  - Amazing Adventure",
+              "url": "https://archive.org/download/parkers-puzzle-cooking-kids-27-and-exercise/Ep%207%20-%20%20God's%20Super%20Food%20%20-%20Amazing%20Adventure.mp4",
+              "seconds": 3273,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 660
+            }
+          ]
         },
         {
           "number": 8,
@@ -573,9 +680,35 @@
           "number": 12,
           "name": "Mama, I Want to Sing",
           "airdate": "2001-01-15",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"Mama, I Want to Sing\" (0.74)",
+            "item": "parkers-puzzle-cooking-kids-27-and-exercise",
+            "itemTitle": "All Kids Videos Collection #3",
+            "file": "What I Want to Sing .mp4",
+            "name": "What I Want to Sing ",
+            "url": "https://archive.org/download/parkers-puzzle-cooking-kids-27-and-exercise/What%20I%20Want%20to%20Sing%20.mp4",
+            "seconds": 1503,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 150
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "title ~ \"Mama, I Want to Sing\" (0.74)",
+              "item": "parkers-puzzle-cooking-kids-27-and-exercise",
+              "itemTitle": "All Kids Videos Collection #3",
+              "file": "What I Want to Sing.mp4",
+              "name": "What I Want to Sing",
+              "url": "https://archive.org/download/parkers-puzzle-cooking-kids-27-and-exercise/What%20I%20Want%20to%20Sing.mp4",
+              "seconds": 1503,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 150
+            }
+          ]
         },
         {
           "number": 13,
@@ -754,9 +887,35 @@
           "number": 12,
           "name": "The Revolution",
           "airdate": "2002-01-21",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "title ~ \"The Revolution\" (0.95)",
+            "item": "parkers-puzzle-cooking-kids-27-and-exercise_202206",
+            "itemTitle": "All Kids Videos Collection #4",
+            "file": "Crumpet Corners The American Revolution (1982).mp4",
+            "name": "Crumpet Corners The American Revolution (1982)",
+            "url": "https://archive.org/download/parkers-puzzle-cooking-kids-27-and-exercise_202206/Crumpet%20Corners%20The%20American%20Revolution%20(1982).mp4",
+            "seconds": 1456,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 1044
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "title ~ \"The Revolution\" (0.95)",
+              "item": "parkers-puzzle-cooking-kids-27-and-exercise",
+              "itemTitle": "All Kids Videos Collection #3",
+              "file": "Crumpet Corners The American Revolution (1982).mp4",
+              "name": "Crumpet Corners The American Revolution (1982)",
+              "url": "https://archive.org/download/parkers-puzzle-cooking-kids-27-and-exercise/Crumpet%20Corners%20The%20American%20Revolution%20(1982).mp4",
+              "seconds": 1456,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 1044
+            }
+          ]
         },
         {
           "number": 13,
@@ -786,9 +945,35 @@
           "number": 16,
           "name": "Make a Joyful Noise",
           "airdate": "2002-03-04",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "title ~ \"Make a Joyful Noise\" (0.95)",
+            "item": "parkers-puzzle-cooking-kids-27-and-exercise_202206",
+            "itemTitle": "All Kids Videos Collection #4",
+            "file": "Gerbert Make a Joyful Noise (1990, VHS).mp4",
+            "name": "Gerbert Make a Joyful Noise (1990, VHS)",
+            "url": "https://archive.org/download/parkers-puzzle-cooking-kids-27-and-exercise_202206/Gerbert%20Make%20a%20Joyful%20Noise%20(1990%2C%20VHS).mp4",
+            "seconds": 2277,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 826
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "title ~ \"Make a Joyful Noise\" (0.95)",
+              "item": "parkers-puzzle-cooking-kids-27-and-exercise",
+              "itemTitle": "All Kids Videos Collection #3",
+              "file": "Gerbert Make a Joyful Noise (1990, VHS).mp4",
+              "name": "Gerbert Make a Joyful Noise (1990, VHS)",
+              "url": "https://archive.org/download/parkers-puzzle-cooking-kids-27-and-exercise/Gerbert%20Make%20a%20Joyful%20Noise%20(1990%2C%20VHS).mp4",
+              "seconds": 2277,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 826
+            }
+          ]
         },
         {
           "number": 17,
@@ -818,8 +1003,20 @@
           "number": 20,
           "name": "Mother's Day Blues",
           "airdate": "2002-05-06",
-          "state": "MISSING",
-          "file": null,
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"Mother's Day Blues\" (0.63)",
+            "item": "parkers-puzzle-cooking-kids-27-and-exercise_202206",
+            "itemTitle": "All Kids Videos Collection #4",
+            "file": "Out of the Box - Its Mothers Day.mp4",
+            "name": "Out of the Box - Its Mothers Day",
+            "url": "https://archive.org/download/parkers-puzzle-cooking-kids-27-and-exercise_202206/Out%20of%20the%20Box%20-%20Its%20Mothers%20Day.mp4",
+            "seconds": 1440,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 150
+          },
           "alternates": []
         },
         {
@@ -1132,8 +1329,20 @@
           "number": 11,
           "name": "Out with the Old, In with the New",
           "airdate": "2003-12-15",
-          "state": "MISSING",
-          "file": null,
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"Out with the Old, In with the New\" (0.63)",
+            "item": "parkers-puzzle-cooking-kids-27-and-exercise_202206",
+            "itemTitle": "All Kids Videos Collection #4",
+            "file": "Out of the Box - Happy New Year.mp4",
+            "name": "Out of the Box - Happy New Year",
+            "url": "https://archive.org/download/parkers-puzzle-cooking-kids-27-and-exercise_202206/Out%20of%20the%20Box%20-%20Happy%20New%20Year.mp4",
+            "seconds": 1440,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 150
+          },
           "alternates": []
         },
         {
@@ -1196,8 +1405,20 @@
           "number": 19,
           "name": "At Last",
           "airdate": "2004-05-10",
-          "state": "MISSING",
-          "file": null,
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "title ~ \"At Last\" (0.95)",
+            "item": "parkers-puzzle-cooking-kids-27-and-exercise_202206",
+            "itemTitle": "All Kids Videos Collection #4",
+            "file": "Fozzie's Last Laugh (Nickelodeon Airing).mp4",
+            "name": "Fozzie's Last Laugh (Nickelodeon Airing)",
+            "url": "https://archive.org/download/parkers-puzzle-cooking-kids-27-and-exercise_202206/Fozzie's%20Last%20Laugh%20(Nickelodeon%20Airing).mp4",
+            "seconds": 1617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 1240
+          },
           "alternates": []
         }
       ]

@@ -3,7 +3,7 @@
   "slug": "tales-from-the-crypt",
   "type": "Sci-Fi, Fantasy and Horror",
   "network": "HBO",
-  "matchedAt": "2026-10-13T07:46:16.862Z",
+  "matchedAt": "2026-10-13T15:54:09.713Z",
   "tvmaze": {
     "id": 453,
     "name": "Tales from the Crypt",
@@ -13,10 +13,10 @@
   },
   "coverage": {
     "total": 93,
-    "live": 90,
+    "live": 89,
     "review": 1,
-    "missing": 2,
-    "pct": 98
+    "missing": 3,
+    "pct": 97
   },
   "seasons": [
     {
@@ -582,31 +582,31 @@
           "airdate": "1990-05-15",
           "state": "LIVE",
           "file": {
-            "conf": 1,
-            "why": "S/E in filename + title match",
-            "item": "les-contes-de-la-crypte-v.f.-tales-from-the-crypt-v.o.-1989-96-2019-21",
-            "itemTitle": "Les Contes de la Crypte V.F. ☆ Tales from the Crypt V.O. ☆ 1989-96",
-            "file": "Les Contes De La Crypte (s02e07) - Le Sacrifice.mp4",
-            "name": "Les Contes De La Crypte (s02e07) - Le Sacrifice",
-            "url": "https://archive.org/download/les-contes-de-la-crypte-v.f.-tales-from-the-crypt-v.o.-1989-96-2019-21/Les%20Contes%20De%20La%20Crypte%20(s02e07)%20-%20Le%20Sacrifice.mp4",
-            "seconds": 1573,
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "s-01-e-06-the-works...-in-wax",
+            "itemTitle": "Tales from the Cryptkeeper",
+            "file": "S02E07 - The Haunted Mine.mp4",
+            "name": "S02E07 - The Haunted Mine",
+            "url": "https://archive.org/download/s-01-e-06-the-works...-in-wax/S02E07%20-%20The%20Haunted%20Mine.mp4",
+            "seconds": 1374,
             "format": "MPEG4",
             "playable": true,
-            "sizeMB": 248
+            "sizeMB": 217
           },
           "alternates": [
             {
-              "conf": 0.85,
-              "why": "S/E in filename",
-              "item": "s-01-e-06-the-works...-in-wax",
-              "itemTitle": "Tales from the Cryptkeeper",
-              "file": "S02E07 - The Haunted Mine.mp4",
-              "name": "S02E07 - The Haunted Mine",
-              "url": "https://archive.org/download/s-01-e-06-the-works...-in-wax/S02E07%20-%20The%20Haunted%20Mine.mp4",
-              "seconds": 1374,
+              "conf": 0.55,
+              "why": "S/E in filename + title match",
+              "item": "les-contes-de-la-crypte-v.f.-tales-from-the-crypt-v.o.-1989-96-2019-21",
+              "itemTitle": "Les Contes de la Crypte V.F. ☆ Tales from the Crypt V.O. ☆ 1989-96",
+              "file": "Les Contes De La Crypte (s02e07) - Le Sacrifice.mp4",
+              "name": "Les Contes De La Crypte (s02e07) - Le Sacrifice",
+              "url": "https://archive.org/download/les-contes-de-la-crypte-v.f.-tales-from-the-crypt-v.o.-1989-96-2019-21/Les%20Contes%20De%20La%20Crypte%20(s02e07)%20-%20Le%20Sacrifice.mp4",
+              "seconds": 1573,
               "format": "MPEG4",
               "playable": true,
-              "sizeMB": 217
+              "sizeMB": 248
             }
           ]
         },
@@ -618,31 +618,17 @@
           "file": {
             "conf": 0.85,
             "why": "S/E in filename",
-            "item": "les-contes-de-la-crypte-v.f.-tales-from-the-crypt-v.o.-1989-96-2019-21",
-            "itemTitle": "Les Contes de la Crypte V.F. ☆ Tales from the Crypt V.O. ☆ 1989-96",
-            "file": "Les Contes De La Crypte (s02e08) - Hurlements Nocturne Vostfr.mp4",
-            "name": "Les Contes De La Crypte (s02e08) - Hurlements Nocturne Vostfr",
-            "url": "https://archive.org/download/les-contes-de-la-crypte-v.f.-tales-from-the-crypt-v.o.-1989-96-2019-21/Les%20Contes%20De%20La%20Crypte%20(s02e08)%20-%20Hurlements%20Nocturne%20Vostfr.mp4",
-            "seconds": 1668,
+            "item": "s-01-e-06-the-works...-in-wax",
+            "itemTitle": "Tales from the Cryptkeeper",
+            "file": "S02E08 - Growing Pains.mp4",
+            "name": "S02E08 - Growing Pains",
+            "url": "https://archive.org/download/s-01-e-06-the-works...-in-wax/S02E08%20-%20Growing%20Pains.mp4",
+            "seconds": 1374,
             "format": "MPEG4",
             "playable": true,
-            "sizeMB": 272
+            "sizeMB": 215
           },
-          "alternates": [
-            {
-              "conf": 0.85,
-              "why": "S/E in filename",
-              "item": "s-01-e-06-the-works...-in-wax",
-              "itemTitle": "Tales from the Cryptkeeper",
-              "file": "S02E08 - Growing Pains.mp4",
-              "name": "S02E08 - Growing Pains",
-              "url": "https://archive.org/download/s-01-e-06-the-works...-in-wax/S02E08%20-%20Growing%20Pains.mp4",
-              "seconds": 1374,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 215
-            }
-          ]
+          "alternates": []
         },
         {
           "number": 9,
@@ -652,31 +638,17 @@
           "file": {
             "conf": 0.85,
             "why": "S/E in filename",
-            "item": "s-01-e-06-the-works...-in-wax",
-            "itemTitle": "Tales from the Cryptkeeper",
-            "file": "S02E09 - The Brothers Gruff.mp4",
-            "name": "S02E09 - The Brothers Gruff",
-            "url": "https://archive.org/download/s-01-e-06-the-works...-in-wax/S02E09%20-%20The%20Brothers%20Gruff.mp4",
-            "seconds": 1374,
+            "item": "les-contes-de-la-crypte-v.f.-tales-from-the-crypt-v.o.-1989-96-2019-21",
+            "itemTitle": "Les Contes de la Crypte V.F. ☆ Tales from the Crypt V.O. ☆ 1989-96",
+            "file": "Les Contes De La Crypte (s02e09) - Le Triangle À Quatre Cotés.mp4",
+            "name": "Les Contes De La Crypte (s02e09) - Le Triangle À Quatre Cotés",
+            "url": "https://archive.org/download/les-contes-de-la-crypte-v.f.-tales-from-the-crypt-v.o.-1989-96-2019-21/Les%20Contes%20De%20La%20Crypte%20(s02e09)%20-%20Le%20Triangle%20%C3%80%20Quatre%20Cot%C3%A9s.mp4",
+            "seconds": 1676,
             "format": "MPEG4",
             "playable": true,
-            "sizeMB": 215
+            "sizeMB": 190
           },
-          "alternates": [
-            {
-              "conf": 0.85,
-              "why": "S/E in filename",
-              "item": "les-contes-de-la-crypte-v.f.-tales-from-the-crypt-v.o.-1989-96-2019-21",
-              "itemTitle": "Les Contes de la Crypte V.F. ☆ Tales from the Crypt V.O. ☆ 1989-96",
-              "file": "Les Contes De La Crypte (s02e09) - Le Triangle À Quatre Cotés.mp4",
-              "name": "Les Contes De La Crypte (s02e09) - Le Triangle À Quatre Cotés",
-              "url": "https://archive.org/download/les-contes-de-la-crypte-v.f.-tales-from-the-crypt-v.o.-1989-96-2019-21/Les%20Contes%20De%20La%20Crypte%20(s02e09)%20-%20Le%20Triangle%20%C3%80%20Quatre%20Cot%C3%A9s.mp4",
-              "seconds": 1676,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 190
-            }
-          ]
+          "alternates": []
         },
         {
           "number": 10,
@@ -818,20 +790,8 @@
           "number": 14,
           "name": "Lower Berth",
           "airdate": "1990-07-03",
-          "state": "LIVE",
-          "file": {
-            "conf": 0.85,
-            "why": "S/E in filename",
-            "item": "les-contes-de-la-crypte-v.f.-tales-from-the-crypt-v.o.-1989-96-2019-21",
-            "itemTitle": "Les Contes de la Crypte V.F. ☆ Tales from the Crypt V.O. ☆ 1989-96",
-            "file": "Les Contes De La Crypte (s02e14) - L'Enterrée Vivante.mp4",
-            "name": "Les Contes De La Crypte (s02e14) - L'Enterrée Vivante",
-            "url": "https://archive.org/download/les-contes-de-la-crypte-v.f.-tales-from-the-crypt-v.o.-1989-96-2019-21/Les%20Contes%20De%20La%20Crypte%20(s02e14)%20-%20L'Enterr%C3%A9e%20Vivante.mp4",
-            "seconds": 1460,
-            "format": "MPEG4",
-            "playable": true,
-            "sizeMB": 201
-          },
+          "state": "MISSING",
+          "file": null,
           "alternates": []
         },
         {
@@ -993,21 +953,7 @@
             "playable": true,
             "sizeMB": 215
           },
-          "alternates": [
-            {
-              "conf": 0.85,
-              "why": "S/E in filename",
-              "item": "s-01-e-06-the-works...-in-wax",
-              "itemTitle": "Tales from the Cryptkeeper",
-              "file": "S03E03 - Monster's Ate My Homework.mp4",
-              "name": "S03E03 - Monster's Ate My Homework",
-              "url": "https://archive.org/download/s-01-e-06-the-works...-in-wax/S03E03%20-%20Monster's%20Ate%20My%20Homework.mp4",
-              "seconds": 1331,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 209
-            }
-          ]
+          "alternates": []
         },
         {
           "number": 4,
@@ -2302,31 +2248,32 @@
           "airdate": "1994-12-14",
           "state": "LIVE",
           "file": {
-            "conf": 1,
-            "why": "S/E in filename + title match",
-            "item": "tales.-from.-the.-crypt.-s-06-e-09.-staired.-in.-horror.-dvdrip.-xvi-d-dimension",
-            "itemTitle": "Tales.From.The.Crypt.(S06 E09) Staired. In. Horror",
-            "file": "Tales.From.The.Crypt.S06E09.Staired.In.Horror.DVDRip.XviD-DIMENSION.mp4",
-            "name": "Tales.From.The.Crypt.S06E09.Staired.In.Horror.DVDRip.XviD-DIMENSION",
-            "url": "https://archive.org/download/tales.-from.-the.-crypt.-s-06-e-09.-staired.-in.-horror.-dvdrip.-xvi-d-dimension/Tales.From.The.Crypt.S06E09.Staired.In.Horror.DVDRip.XviD-DIMENSION.mp4",
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "les-contes-de-la-crypte-v.f.-tales-from-the-crypt-v.o.-1989-96-2019-21",
+            "itemTitle": "Les Contes de la Crypte V.F. ☆ Tales from the Crypt V.O. ☆ 1989-96",
+            "file": "Les Contes De La Crypte (s06e09) - L'Escalier Maudit Vo.mp4",
+            "name": "Les Contes De La Crypte (s06e09) - L'Escalier Maudit Vo",
+            "url": "https://archive.org/download/les-contes-de-la-crypte-v.f.-tales-from-the-crypt-v.o.-1989-96-2019-21/Les%20Contes%20De%20La%20Crypte%20(s06e09)%20-%20L'Escalier%20Maudit%20Vo.mp4",
             "seconds": 1458,
-            "format": "h.264",
+            "format": "MPEG4",
             "playable": true,
-            "sizeMB": 145
+            "sizeMB": 201
           },
           "alternates": [
             {
-              "conf": 0.85,
-              "why": "S/E in filename",
-              "item": "les-contes-de-la-crypte-v.f.-tales-from-the-crypt-v.o.-1989-96-2019-21",
-              "itemTitle": "Les Contes de la Crypte V.F. ☆ Tales from the Crypt V.O. ☆ 1989-96",
-              "file": "Les Contes De La Crypte (s06e09) - L'Escalier Maudit Vo.mp4",
-              "name": "Les Contes De La Crypte (s06e09) - L'Escalier Maudit Vo",
-              "url": "https://archive.org/download/les-contes-de-la-crypte-v.f.-tales-from-the-crypt-v.o.-1989-96-2019-21/Les%20Contes%20De%20La%20Crypte%20(s06e09)%20-%20L'Escalier%20Maudit%20Vo.mp4",
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "tales.-from.-the.-crypt.-s-06-e-09.-staired.-in.-horror.-dvdrip.-xvi-d-dimension",
+              "itemTitle": "Tales.From.The.Crypt.(S06 E09) Staired. In. Horror",
+              "file": "Tales.From.The.Crypt.S06E09.Staired.In.Horror.DVDRip.XviD-DIMENSION.mp4",
+              "name": "Tales.From.The.Crypt.S06E09.Staired.In.Horror.DVDRip.XviD-DIMENSION",
+              "url": "https://archive.org/download/tales.-from.-the.-crypt.-s-06-e-09.-staired.-in.-horror.-dvdrip.-xvi-d-dimension/Tales.From.The.Crypt.S06E09.Staired.In.Horror.DVDRip.XviD-DIMENSION.mp4",
               "seconds": 1458,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 201
+              "format": "h.264",
+              "playable": false,
+              "codecRisk": "video (XviD)",
+              "sizeMB": 145
             }
           ]
         },
@@ -2336,31 +2283,32 @@
           "airdate": "1994-12-21",
           "state": "LIVE",
           "file": {
-            "conf": 1,
-            "why": "S/E in filename + title match",
-            "item": "tales.-from.-the.-crypt.-s-06-e-10.-in.-the.-groove.-dvdrip.-xvi-d-dimension",
-            "itemTitle": "Tales.From.The.Crypt.(S06E10) In The Groove",
-            "file": "Tales.From.The.Crypt.S06E10.In.The.Groove.DVDRip.XviD-DIMENSION.mp4",
-            "name": "Tales.From.The.Crypt.S06E10.In.The.Groove.DVDRip.XviD-DIMENSION",
-            "url": "https://archive.org/download/tales.-from.-the.-crypt.-s-06-e-10.-in.-the.-groove.-dvdrip.-xvi-d-dimension/Tales.From.The.Crypt.S06E10.In.The.Groove.DVDRip.XviD-DIMENSION.mp4",
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "les-contes-de-la-crypte-v.f.-tales-from-the-crypt-v.o.-1989-96-2019-21",
+            "itemTitle": "Les Contes de la Crypte V.F. ☆ Tales from the Crypt V.O. ☆ 1989-96",
+            "file": "Les Contes De La Crypte (s06e10) - Dans Le Move Vo.mp4",
+            "name": "Les Contes De La Crypte (s06e10) - Dans Le Move Vo",
+            "url": "https://archive.org/download/les-contes-de-la-crypte-v.f.-tales-from-the-crypt-v.o.-1989-96-2019-21/Les%20Contes%20De%20La%20Crypte%20(s06e10)%20-%20Dans%20Le%20Move%20Vo.mp4",
             "seconds": 1562,
-            "format": "h.264",
+            "format": "MPEG4",
             "playable": true,
-            "sizeMB": 157
+            "sizeMB": 215
           },
           "alternates": [
             {
-              "conf": 0.85,
-              "why": "S/E in filename",
-              "item": "les-contes-de-la-crypte-v.f.-tales-from-the-crypt-v.o.-1989-96-2019-21",
-              "itemTitle": "Les Contes de la Crypte V.F. ☆ Tales from the Crypt V.O. ☆ 1989-96",
-              "file": "Les Contes De La Crypte (s06e10) - Dans Le Move Vo.mp4",
-              "name": "Les Contes De La Crypte (s06e10) - Dans Le Move Vo",
-              "url": "https://archive.org/download/les-contes-de-la-crypte-v.f.-tales-from-the-crypt-v.o.-1989-96-2019-21/Les%20Contes%20De%20La%20Crypte%20(s06e10)%20-%20Dans%20Le%20Move%20Vo.mp4",
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "tales.-from.-the.-crypt.-s-06-e-10.-in.-the.-groove.-dvdrip.-xvi-d-dimension",
+              "itemTitle": "Tales.From.The.Crypt.(S06E10) In The Groove",
+              "file": "Tales.From.The.Crypt.S06E10.In.The.Groove.DVDRip.XviD-DIMENSION.mp4",
+              "name": "Tales.From.The.Crypt.S06E10.In.The.Groove.DVDRip.XviD-DIMENSION",
+              "url": "https://archive.org/download/tales.-from.-the.-crypt.-s-06-e-10.-in.-the.-groove.-dvdrip.-xvi-d-dimension/Tales.From.The.Crypt.S06E10.In.The.Groove.DVDRip.XviD-DIMENSION.mp4",
               "seconds": 1562,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 215
+              "format": "h.264",
+              "playable": false,
+              "codecRisk": "video (XviD)",
+              "sizeMB": 157
             }
           ]
         },
@@ -2430,31 +2378,32 @@
           "airdate": "1995-01-18",
           "state": "LIVE",
           "file": {
-            "conf": 1,
-            "why": "S/E in filename + title match",
-            "item": "tales.-from.-the.-crypt.-s-06-e-14.99.-and.-44-100.-percent.-pure.-horror.-dvdrip.-xvi-d-dimension",
-            "itemTitle": "Tales.From.The.Crypt.(S06E14) 99 And 44 100 Percent Pure Horror",
-            "file": "Tales.From.The.Crypt.S06E14.99.And.44-100.Percent.Pure.Horror.DVDRip.XviD-DIMENSION.mp4",
-            "name": "Tales.From.The.Crypt.S06E14.99.And.44-100.Percent.Pure.Horror.DVDRip.XviD-DIMENSION",
-            "url": "https://archive.org/download/tales.-from.-the.-crypt.-s-06-e-14.99.-and.-44-100.-percent.-pure.-horror.-dvdrip.-xvi-d-dimension/Tales.From.The.Crypt.S06E14.99.And.44-100.Percent.Pure.Horror.DVDRip.XviD-DIMENSION.mp4",
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "les-contes-de-la-crypte-v.f.-tales-from-the-crypt-v.o.-1989-96-2019-21",
+            "itemTitle": "Les Contes de la Crypte V.F. ☆ Tales from the Crypt V.O. ☆ 1989-96",
+            "file": "Les Contes De La Crypte (s06e14) – Chair Peinture - Vo.mp4",
+            "name": "Les Contes De La Crypte (s06e14) – Chair Peinture - Vo",
+            "url": "https://archive.org/download/les-contes-de-la-crypte-v.f.-tales-from-the-crypt-v.o.-1989-96-2019-21/Les%20Contes%20De%20La%20Crypte%20(s06e14)%20%E2%80%93%20Chair%20Peinture%20-%20Vo.mp4",
             "seconds": 1357,
-            "format": "h.264",
+            "format": "MPEG4",
             "playable": true,
-            "sizeMB": 136
+            "sizeMB": 187
           },
           "alternates": [
             {
-              "conf": 0.85,
-              "why": "S/E in filename",
-              "item": "les-contes-de-la-crypte-v.f.-tales-from-the-crypt-v.o.-1989-96-2019-21",
-              "itemTitle": "Les Contes de la Crypte V.F. ☆ Tales from the Crypt V.O. ☆ 1989-96",
-              "file": "Les Contes De La Crypte (s06e14) – Chair Peinture - Vo.mp4",
-              "name": "Les Contes De La Crypte (s06e14) – Chair Peinture - Vo",
-              "url": "https://archive.org/download/les-contes-de-la-crypte-v.f.-tales-from-the-crypt-v.o.-1989-96-2019-21/Les%20Contes%20De%20La%20Crypte%20(s06e14)%20%E2%80%93%20Chair%20Peinture%20-%20Vo.mp4",
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "tales.-from.-the.-crypt.-s-06-e-14.99.-and.-44-100.-percent.-pure.-horror.-dvdrip.-xvi-d-dimension",
+              "itemTitle": "Tales.From.The.Crypt.(S06E14) 99 And 44 100 Percent Pure Horror",
+              "file": "Tales.From.The.Crypt.S06E14.99.And.44-100.Percent.Pure.Horror.DVDRip.XviD-DIMENSION.mp4",
+              "name": "Tales.From.The.Crypt.S06E14.99.And.44-100.Percent.Pure.Horror.DVDRip.XviD-DIMENSION",
+              "url": "https://archive.org/download/tales.-from.-the.-crypt.-s-06-e-14.99.-and.-44-100.-percent.-pure.-horror.-dvdrip.-xvi-d-dimension/Tales.From.The.Crypt.S06E14.99.And.44-100.Percent.Pure.Horror.DVDRip.XviD-DIMENSION.mp4",
               "seconds": 1357,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 187
+              "format": "h.264",
+              "playable": false,
+              "codecRisk": "video (XviD)",
+              "sizeMB": 136
             }
           ]
         },

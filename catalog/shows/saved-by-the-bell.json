@@ -3,7 +3,7 @@
   "slug": "saved-by-the-bell",
   "type": "90s Sitcoms",
   "network": "NBC",
-  "matchedAt": "2026-10-13T07:46:14.180Z",
+  "matchedAt": "2026-10-13T15:54:03.744Z",
   "tvmaze": {
     "id": 1252,
     "name": "Saved by the Bell",
@@ -13,8 +13,8 @@
   },
   "coverage": {
     "total": 86,
-    "live": 86,
-    "review": 0,
+    "live": 84,
+    "review": 2,
     "missing": 0,
     "pct": 100
   },
@@ -717,28 +717,28 @@
             {
               "conf": 0.9,
               "why": "S/E in filename",
-              "item": "saved-by-the-bell-the-college-years-season-1",
-              "itemTitle": "Saved by The Bell The College Years: The Complete 1st Season",
-              "file": "Saved by The Bell The College Years S01E12 - Teacher's Pet (Part 1).mp4",
-              "name": "Saved by The Bell The College Years S01E12 - Teacher's Pet (Part 1)",
-              "url": "https://archive.org/download/saved-by-the-bell-the-college-years-season-1/Saved%20by%20The%20Bell%20The%20College%20Years%20S01E12%20-%20Teacher's%20Pet%20(Part%201).mp4",
-              "seconds": 1360,
-              "format": "MPEG4",
+              "item": "savedbythebell_202507",
+              "itemTitle": "Saved By The Bell complete series",
+              "file": "Good Morning Miss Bliss/GMMB - Saved by the Bell - 01x12 - Clubs and Cliques.mp4",
+              "name": "Good Morning Miss Bliss/GMMB - Saved by the Bell - 01x12 - Clubs and Cliques",
+              "url": "https://archive.org/download/savedbythebell_202507/Good%20Morning%20Miss%20Bliss%2FGMMB%20-%20Saved%20by%20the%20Bell%20-%2001x12%20-%20Clubs%20and%20Cliques.mp4",
+              "seconds": 1325,
+              "format": "h.264",
               "playable": true,
-              "sizeMB": 314
+              "sizeMB": 130
             },
             {
               "conf": 0.9,
               "why": "S/E in filename",
               "item": "savedbythebell_202507",
               "itemTitle": "Saved By The Bell complete series",
-              "file": "The College Years/Saved by the Bell - The College Years - 01x12 - Teacher's Pet.mp4",
-              "name": "The College Years/Saved by the Bell - The College Years - 01x12 - Teacher's Pet",
-              "url": "https://archive.org/download/savedbythebell_202507/The%20College%20Years%2FSaved%20by%20the%20Bell%20-%20The%20College%20Years%20-%2001x12%20-%20Teacher's%20Pet.mp4",
-              "seconds": 1321,
+              "file": "The College Years/Saved by the Bell - The College Years - 01x12 - A Question of Ethics.mp4",
+              "name": "The College Years/Saved by the Bell - The College Years - 01x12 - A Question of Ethics",
+              "url": "https://archive.org/download/savedbythebell_202507/The%20College%20Years%2FSaved%20by%20the%20Bell%20-%20The%20College%20Years%20-%2001x12%20-%20A%20Question%20of%20Ethics.mp4",
+              "seconds": 1322,
               "format": "h.264",
               "playable": true,
-              "sizeMB": 131
+              "sizeMB": 121
             }
           ]
         },
@@ -908,17 +908,17 @@
               "sizeMB": 130
             },
             {
-              "conf": 0.85,
-              "why": "S/E in filename",
-              "item": "saved-by-the-bell-wedding-in-las-vegas_202509",
-              "itemTitle": "Saved By The Bell: The College Years + Wedding in Las Vegas",
-              "file": "115 The Rave.mp4",
-              "name": "115 The Rave",
-              "url": "https://archive.org/download/saved-by-the-bell-wedding-in-las-vegas_202509/115%20The%20Rave.mp4",
-              "seconds": 1361,
+              "conf": 0.6,
+              "why": "S/E in filename + title match",
+              "item": "saved-by-the-bell-complete-series_20251118",
+              "itemTitle": "Saved by The Bell: The Complete Series (1989-1993)",
+              "file": "Saved by The Bell S01E15 - King of The Hill.mp4",
+              "name": "Saved by The Bell S01E15 - King of The Hill",
+              "url": "https://archive.org/download/saved-by-the-bell-complete-series_20251118/Saved%20by%20The%20Bell%20S01E15%20-%20King%20of%20The%20Hill.mp4",
+              "seconds": 1337,
               "format": "MPEG4",
               "playable": true,
-              "sizeMB": 136
+              "sizeMB": 177
             }
           ]
         },
@@ -1961,21 +1961,34 @@
           "airdate": "1991-09-14",
           "state": "LIVE",
           "file": {
-            "conf": 1,
-            "why": "S/E in filename + title match",
-            "item": "saved-by-the-bell-complete-series_20251118",
-            "itemTitle": "Saved by The Bell: The Complete Series (1989-1993)",
-            "file": "Saved by The Bell S03E01 - The Last Dance.mp4",
-            "name": "Saved by The Bell S03E01 - The Last Dance",
-            "url": "https://archive.org/download/saved-by-the-bell-complete-series_20251118/Saved%20by%20The%20Bell%20S03E01%20-%20The%20Last%20Dance.mp4",
-            "seconds": 1336,
-            "format": "MPEG4",
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "savedbythebell_202507",
+            "itemTitle": "Saved By The Bell complete series",
+            "file": "Season 3/Saved by the Bell - 03x01 - Summer Vaction - Zacks Birthday Party.mp4",
+            "name": "Season 3/Saved by the Bell - 03x01 - Summer Vaction - Zacks Birthday Party",
+            "url": "https://archive.org/download/savedbythebell_202507/Season%203%2FSaved%20by%20the%20Bell%20-%2003x01%20-%20Summer%20Vaction%20-%20Zacks%20Birthday%20Party.mp4",
+            "seconds": 1410,
+            "format": "h.264",
             "playable": true,
-            "sizeMB": 233
+            "sizeMB": 139
           },
           "alternates": [
             {
-              "conf": 1,
+              "conf": 0.6,
+              "why": "S/E in filename + title match",
+              "item": "saved-by-the-bell-complete-series_20251118",
+              "itemTitle": "Saved by The Bell: The Complete Series (1989-1993)",
+              "file": "Saved by The Bell S03E01 - The Last Dance.mp4",
+              "name": "Saved by The Bell S03E01 - The Last Dance",
+              "url": "https://archive.org/download/saved-by-the-bell-complete-series_20251118/Saved%20by%20The%20Bell%20S03E01%20-%20The%20Last%20Dance.mp4",
+              "seconds": 1336,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 233
+            },
+            {
+              "conf": 0.55,
               "why": "S/E in filename + title match",
               "item": "saved-by-the-bell-hawaiian-style_202503",
               "itemTitle": "Saved by the Bell + Hawaiian Style",
@@ -1986,32 +1999,6 @@
               "format": "MPEG4",
               "playable": true,
               "sizeMB": 166
-            },
-            {
-              "conf": 0.9,
-              "why": "S/E in filename",
-              "item": "savedbythebell_202507",
-              "itemTitle": "Saved By The Bell complete series",
-              "file": "Season 3/Saved by the Bell - 03x01 - Summer Vaction - Zacks Birthday Party.mp4",
-              "name": "Season 3/Saved by the Bell - 03x01 - Summer Vaction - Zacks Birthday Party",
-              "url": "https://archive.org/download/savedbythebell_202507/Season%203%2FSaved%20by%20the%20Bell%20-%2003x01%20-%20Summer%20Vaction%20-%20Zacks%20Birthday%20Party.mp4",
-              "seconds": 1410,
-              "format": "h.264",
-              "playable": true,
-              "sizeMB": 139
-            },
-            {
-              "conf": 0.6,
-              "why": "title ~ \"The Last Dance (1)\" (0.63)",
-              "item": "savedbythebell_202507",
-              "itemTitle": "Saved By The Bell complete series",
-              "file": "Good Morning Miss Bliss/GMMB - Saved by the Bell - 01x07 - Save the Last Dance for Me.mp4",
-              "name": "Good Morning Miss Bliss/GMMB - Saved by the Bell - 01x07 - Save the Last Dance for Me",
-              "url": "https://archive.org/download/savedbythebell_202507/Good%20Morning%20Miss%20Bliss%2FGMMB%20-%20Saved%20by%20the%20Bell%20-%2001x07%20-%20Save%20the%20Last%20Dance%20for%20Me.mp4",
-              "seconds": 1337,
-              "format": "h.264",
-              "playable": true,
-              "sizeMB": 134
             }
           ]
         },
@@ -2346,19 +2333,6 @@
               "format": "MPEG4",
               "playable": true,
               "sizeMB": 195
-            },
-            {
-              "conf": 0.9,
-              "why": "S/E in filename",
-              "item": "savedbythebell_202507",
-              "itemTitle": "Saved By The Bell complete series",
-              "file": "Season 3/Saved by the Bell - 03x07 - The Last Dance (Part1).mp4",
-              "name": "Season 3/Saved by the Bell - 03x07 - The Last Dance (Part1)",
-              "url": "https://archive.org/download/savedbythebell_202507/Season%203%2FSaved%20by%20the%20Bell%20-%2003x07%20-%20The%20Last%20Dance%20(Part1).mp4",
-              "seconds": 1336,
-              "format": "h.264",
-              "playable": true,
-              "sizeMB": 133
             },
             {
               "conf": 0.8,
@@ -3470,9 +3444,9 @@
           "number": 4,
           "name": "The New Girl",
           "airdate": "1992-09-19",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "saved-by-the-bell-complete-series_20251118",
             "itemTitle": "Saved by The Bell: The Complete Series (1989-1993)",
@@ -3486,20 +3460,7 @@
           },
           "alternates": [
             {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "saved-by-the-bell-hawaiian-style_202503",
-              "itemTitle": "Saved by the Bell + Hawaiian Style",
-              "file": "404 The New Girl.mp4",
-              "name": "404 The New Girl",
-              "url": "https://archive.org/download/saved-by-the-bell-hawaiian-style_202503/404%20The%20New%20Girl.mp4",
-              "seconds": 1383,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 167
-            },
-            {
-              "conf": 1,
+              "conf": 0.6,
               "why": "S/E in filename + title match",
               "item": "savedbythebell_202507",
               "itemTitle": "Saved By The Bell complete series",
@@ -3510,6 +3471,19 @@
               "format": "h.264",
               "playable": true,
               "sizeMB": 136
+            },
+            {
+              "conf": 0.55,
+              "why": "S/E in filename + title match",
+              "item": "saved-by-the-bell-hawaiian-style_202503",
+              "itemTitle": "Saved by the Bell + Hawaiian Style",
+              "file": "404 The New Girl.mp4",
+              "name": "404 The New Girl",
+              "url": "https://archive.org/download/saved-by-the-bell-hawaiian-style_202503/404%20The%20New%20Girl.mp4",
+              "seconds": 1383,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 167
             }
           ]
         },
@@ -3987,9 +3961,9 @@
           "number": 15,
           "name": "The Teacher's Strike",
           "airdate": "1992-10-31",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "saved-by-the-bell-complete-series_20251118",
             "itemTitle": "Saved by The Bell: The Complete Series (1989-1993)",
@@ -4003,20 +3977,7 @@
           },
           "alternates": [
             {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "saved-by-the-bell-hawaiian-style_202503",
-              "itemTitle": "Saved by the Bell + Hawaiian Style",
-              "file": "415 The Teachers Strike.mp4",
-              "name": "415 The Teachers Strike",
-              "url": "https://archive.org/download/saved-by-the-bell-hawaiian-style_202503/415%20The%20Teachers%20Strike.mp4",
-              "seconds": 1402,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 169
-            },
-            {
-              "conf": 1,
+              "conf": 0.6,
               "why": "S/E in filename + title match",
               "item": "savedbythebell_202507",
               "itemTitle": "Saved By The Bell complete series",
@@ -4030,16 +3991,16 @@
             },
             {
               "conf": 0.55,
-              "why": "title ~ \"The Teacher's Strike\" (0.64)",
-              "item": "saved-by-the-bell-wedding-in-las-vegas_202509",
-              "itemTitle": "Saved By The Bell: The College Years + Wedding in Las Vegas",
-              "file": "112 Teacher's Pet.mp4",
-              "name": "112 Teacher's Pet",
-              "url": "https://archive.org/download/saved-by-the-bell-wedding-in-las-vegas_202509/112%20Teacher's%20Pet.mp4",
-              "seconds": 1375,
+              "why": "S/E in filename + title match",
+              "item": "saved-by-the-bell-hawaiian-style_202503",
+              "itemTitle": "Saved by the Bell + Hawaiian Style",
+              "file": "415 The Teachers Strike.mp4",
+              "name": "415 The Teachers Strike",
+              "url": "https://archive.org/download/saved-by-the-bell-hawaiian-style_202503/415%20The%20Teachers%20Strike.mp4",
+              "seconds": 1402,
               "format": "MPEG4",
               "playable": true,
-              "sizeMB": 86
+              "sizeMB": 169
             }
           ]
         },
@@ -4087,19 +4048,6 @@
               "format": "h.264",
               "playable": true,
               "sizeMB": 136
-            },
-            {
-              "conf": 0.55,
-              "why": "title ~ \"Slater's Sister\" (0.63)",
-              "item": "saved-by-the-bell-wedding-in-las-vegas_202509",
-              "itemTitle": "Saved By The Bell: The College Years + Wedding in Las Vegas",
-              "file": "105 Slater's War.mp4",
-              "name": "105 Slater's War",
-              "url": "https://archive.org/download/saved-by-the-bell-wedding-in-las-vegas_202509/105%20Slater's%20War.mp4",
-              "seconds": 1359,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 145
             }
           ]
         },

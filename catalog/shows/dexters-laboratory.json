@@ -3,7 +3,7 @@
   "slug": "dexters-laboratory",
   "type": "Animated",
   "network": "Cartoon Network",
-  "matchedAt": "2026-10-13T07:46:15.598Z",
+  "matchedAt": "2026-10-13T15:54:07.392Z",
   "tvmaze": {
     "id": 1953,
     "name": "Dexter's Laboratory",
@@ -13,8 +13,8 @@
   },
   "coverage": {
     "total": 78,
-    "live": 68,
-    "review": 10,
+    "live": 62,
+    "review": 16,
     "missing": 0,
     "pct": 100
   },
@@ -553,9 +553,9 @@
           "number": 5,
           "name": "Dee Dee Locks and the Ness Monster/Backfire/Book 'Em",
           "airdate": "1997-08-13",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "dexters-laboratory_202507",
             "itemTitle": "Dexter's Laboratory (1996) Animated Series",
@@ -573,9 +573,9 @@
           "number": 6,
           "name": "Sister's Got a Brand New Bag/Shoo, Shoe Gnomes/Lab of the Lost",
           "airdate": "1997-08-20",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "dexters-laboratory_202507",
             "itemTitle": "Dexter's Laboratory (1996) Animated Series",
@@ -953,9 +953,9 @@
           "number": 25,
           "name": "Critical Gas/Let's Save the World You Jerk!/Average Joe",
           "airdate": "1998-02-04",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "dexters-laboratory_202507",
             "itemTitle": "Dexter's Laboratory (1996) Animated Series",
@@ -1113,9 +1113,9 @@
           "number": 33,
           "name": "Sdrawkcab/The Continuum of Cartoon Fools/Sun, Surf, and Science",
           "airdate": "1998-04-01",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "dexters-laboratory_202507",
             "itemTitle": "Dexter's Laboratory (1996) Animated Series",
@@ -1502,35 +1502,21 @@
           "number": 9,
           "name": "Comic Relief/A Third Dad Cartoon/RoboDexo 3000",
           "airdate": "2002-06-21",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 0.9,
-            "why": "S/E in filename",
+            "conf": 0.8,
+            "why": "title ~ \"Comic Relief/A Third Dad Cartoon/RoboDexo 3000\" (0.96)",
             "item": "dexters-laboratory_202507",
             "itemTitle": "Dexter's Laboratory (1996) Animated Series",
-            "file": "Dexter's Laboratory S03E09 Oh, Brother, Another Dad Cartoon, Bar Exam.mp4",
-            "name": "Dexter's Laboratory S03E09 Oh, Brother, Another Dad Cartoon, Bar Exam",
-            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S03E09%20Oh%2C%20Brother%2C%20Another%20Dad%20Cartoon%2C%20Bar%20Exam.mp4",
-            "seconds": 1326,
+            "file": "Dexter's Laboratory S03E10 Comic Relief, A Third Dad Cartoon, Robo-Dexo 3000.mp4",
+            "name": "Dexter's Laboratory S03E10 Comic Relief, A Third Dad Cartoon, Robo-Dexo 3000",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S03E10%20Comic%20Relief%2C%20A%20Third%20Dad%20Cartoon%2C%20Robo-Dexo%203000.mp4",
+            "seconds": 1314,
             "format": "h.264",
             "playable": true,
-            "sizeMB": 129
+            "sizeMB": 125
           },
-          "alternates": [
-            {
-              "conf": 0.8,
-              "why": "title ~ \"Comic Relief/A Third Dad Cartoon/RoboDexo 3000\" (0.96)",
-              "item": "dexters-laboratory_202507",
-              "itemTitle": "Dexter's Laboratory (1996) Animated Series",
-              "file": "Dexter's Laboratory S03E10 Comic Relief, A Third Dad Cartoon, Robo-Dexo 3000.mp4",
-              "name": "Dexter's Laboratory S03E10 Comic Relief, A Third Dad Cartoon, Robo-Dexo 3000",
-              "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S03E10%20Comic%20Relief%2C%20A%20Third%20Dad%20Cartoon%2C%20Robo-Dexo%203000.mp4",
-              "seconds": 1314,
-              "format": "h.264",
-              "playable": true,
-              "sizeMB": 125
-            }
-          ]
+          "alternates": []
         },
         {
           "number": 10,
@@ -1584,21 +1570,7 @@
             "playable": true,
             "sizeMB": 62
           },
-          "alternates": [
-            {
-              "conf": 0.8,
-              "why": "title ~ \"Oh, Brother?/Another Dad Cartoon/Bar Exam\" (1.00)",
-              "item": "dexters-laboratory_202507",
-              "itemTitle": "Dexter's Laboratory (1996) Animated Series",
-              "file": "Dexter's Laboratory S03E09 Oh, Brother, Another Dad Cartoon, Bar Exam.mp4",
-              "name": "Dexter's Laboratory S03E09 Oh, Brother, Another Dad Cartoon, Bar Exam",
-              "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S03E09%20Oh%2C%20Brother%2C%20Another%20Dad%20Cartoon%2C%20Bar%20Exam.mp4",
-              "seconds": 1326,
-              "format": "h.264",
-              "playable": true,
-              "sizeMB": 129
-            }
-          ]
+          "alternates": []
         },
         {
           "number": 12,
@@ -1989,35 +1961,21 @@
           "number": 11,
           "name": "Tee Party/Dexter's Wacky Races",
           "airdate": "2003-09-26",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 0.9,
-            "why": "S/E in filename",
+            "conf": 0.6,
+            "why": "title ~ \"Tee Party/Dexter's Wacky Races\" (0.79)",
             "item": "dexters-laboratory_202507",
             "itemTitle": "Dexter's Laboratory (1996) Animated Series",
-            "file": "Dexter's Laboratory S04E11 The Lab of Tomorrow, Chicken Scratch, Garage Sale.mp4",
-            "name": "Dexter's Laboratory S04E11 The Lab of Tomorrow, Chicken Scratch, Garage Sale",
-            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S04E11%20The%20Lab%20of%20Tomorrow%2C%20Chicken%20Scratch%2C%20Garage%20Sale.mp4",
+            "file": "Dexter's Laboratory S04E10 Tee Party, Dexter's Wacky Races.mp4",
+            "name": "Dexter's Laboratory S04E10 Tee Party, Dexter's Wacky Races",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S04E10%20Tee%20Party%2C%20Dexter's%20Wacky%20Races.mp4",
             "seconds": 1347,
             "format": "h.264",
             "playable": true,
-            "sizeMB": 132
+            "sizeMB": 128
           },
-          "alternates": [
-            {
-              "conf": 0.6,
-              "why": "title ~ \"Tee Party/Dexter's Wacky Races\" (0.79)",
-              "item": "dexters-laboratory_202507",
-              "itemTitle": "Dexter's Laboratory (1996) Animated Series",
-              "file": "Dexter's Laboratory S04E10 Tee Party, Dexter's Wacky Races.mp4",
-              "name": "Dexter's Laboratory S04E10 Tee Party, Dexter's Wacky Races",
-              "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S04E10%20Tee%20Party%2C%20Dexter's%20Wacky%20Races.mp4",
-              "seconds": 1347,
-              "format": "h.264",
-              "playable": true,
-              "sizeMB": 128
-            }
-          ]
+          "alternates": []
         },
         {
           "number": 12,
@@ -2037,21 +1995,7 @@
             "playable": true,
             "sizeMB": 129
           },
-          "alternates": [
-            {
-              "conf": 0.8,
-              "why": "title ~ \"The Lab of Tomorrow/Garage Sale/Chicken Scratch\" (0.95)",
-              "item": "dexters-laboratory_202507",
-              "itemTitle": "Dexter's Laboratory (1996) Animated Series",
-              "file": "Dexter's Laboratory S04E11 The Lab of Tomorrow, Chicken Scratch, Garage Sale.mp4",
-              "name": "Dexter's Laboratory S04E11 The Lab of Tomorrow, Chicken Scratch, Garage Sale",
-              "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S04E11%20The%20Lab%20of%20Tomorrow%2C%20Chicken%20Scratch%2C%20Garage%20Sale.mp4",
-              "seconds": 1347,
-              "format": "h.264",
-              "playable": true,
-              "sizeMB": 132
-            }
-          ]
+          "alternates": []
         },
         {
           "number": 13,

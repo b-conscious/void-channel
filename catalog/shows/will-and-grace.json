@@ -3,7 +3,7 @@
   "slug": "will-and-grace",
   "type": "90s Sitcoms",
   "network": "NBC",
-  "matchedAt": "2026-10-13T07:46:14.442Z",
+  "matchedAt": "2026-10-13T15:54:04.196Z",
   "tvmaze": {
     "id": 549,
     "name": "Will & Grace",
@@ -14,9 +14,9 @@
   "coverage": {
     "total": 246,
     "live": 0,
-    "review": 0,
-    "missing": 246,
-    "pct": 0
+    "review": 3,
+    "missing": 243,
+    "pct": 1
   },
   "seasons": [
     {
@@ -785,8 +785,20 @@
           "number": 23,
           "name": "Fagel Attraction",
           "airdate": "2002-04-25",
-          "state": "MISSING",
-          "file": null,
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Fagel Attraction\" (0.95)",
+            "item": "BlankVHSTape6hr02min",
+            "itemTitle": "Blank VHS Tape: Movies & Imcomplete Material (2002/2000)",
+            "file": "Will & Grace - Fagel Attraction.mp4",
+            "name": "Will & Grace - Fagel Attraction",
+            "url": "https://archive.org/download/BlankVHSTape6hr02min/Will%20%26%20Grace%20-%20Fagel%20Attraction.mp4",
+            "seconds": 2161,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 715
+          },
           "alternates": []
         },
         {
@@ -1006,8 +1018,20 @@
           "number": 23,
           "name": "23",
           "airdate": "2003-05-08",
-          "state": "MISSING",
-          "file": null,
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.65,
+            "why": "title ~ \"23\" (0.95)",
+            "item": "nbckare2231998",
+            "itemTitle": "NBC (KARE) Commercials 2-23-1998",
+            "file": "NBC (KARE) Commercials 2-23-1998.mp4",
+            "name": "NBC (KARE) Commercials 2-23-1998",
+            "url": "https://archive.org/download/nbckare2231998/NBC%20(KARE)%20Commercials%202-23-1998.mp4",
+            "seconds": 1956,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 201
+          },
           "alternates": []
         },
         {
@@ -1690,8 +1714,20 @@
           "number": 10,
           "name": "The Wedding",
           "airdate": "2018-01-18",
-          "state": "MISSING",
-          "file": null,
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"The Wedding\" (0.95)",
+            "item": "BlankVHSTape6hr02min",
+            "itemTitle": "Blank VHS Tape: Movies & Imcomplete Material (2002/2000)",
+            "file": "The Waltons - The Wedding.mp4",
+            "name": "The Waltons - The Wedding",
+            "url": "https://archive.org/download/BlankVHSTape6hr02min/The%20Waltons%20-%20The%20Wedding.mp4",
+            "seconds": 3533,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 1487
+          },
           "alternates": []
         },
         {

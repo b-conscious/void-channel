@@ -3,7 +3,7 @@
   "slug": "seinfeld",
   "type": "90s Sitcoms",
   "network": "NBC",
-  "matchedAt": "2026-10-13T07:46:13.187Z",
+  "matchedAt": "2026-10-13T15:54:01.532Z",
   "tvmaze": {
     "id": 530,
     "name": "Seinfeld",
@@ -14,9 +14,9 @@
   "coverage": {
     "total": 180,
     "live": 0,
-    "review": 0,
-    "missing": 180,
-    "pct": 0
+    "review": 4,
+    "missing": 176,
+    "pct": 2
   },
   "seasons": [
     {
@@ -236,8 +236,20 @@
           "number": 9,
           "name": "The Nose Job",
           "airdate": "1991-11-20",
-          "state": "MISSING",
-          "file": null,
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "S/E in filename",
+            "item": "norm-macdonald-live-o-s-03-e-09-o-jerry-seinfeld-on-vimeo",
+            "itemTitle": "Norm Macdonald Live  (S03/E09) Jerry Seinfeld",
+            "file": "Norm Macdonald Live • S03E09 • Jerry Seinfeld on Vimeo.mp4",
+            "name": "Norm Macdonald Live • S03E09 • Jerry Seinfeld on Vimeo",
+            "url": "https://archive.org/download/norm-macdonald-live-o-s-03-e-09-o-jerry-seinfeld-on-vimeo/Norm%20Macdonald%20Live%20%E2%80%A2%20S03E09%20%E2%80%A2%20Jerry%20Seinfeld%20on%20Vimeo.mp4",
+            "seconds": 3638,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 623
+          },
           "alternates": []
         },
         {
@@ -441,8 +453,20 @@
           "number": 11,
           "name": "The Contest",
           "airdate": "1992-11-18",
-          "state": "MISSING",
-          "file": null,
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "title ~ \"The Contest\" (0.95)",
+            "item": "abbott_costello_the_vacation",
+            "itemTitle": "The Abbott and Costello Show  ★ (Complete TV Series)",
+            "file": "Abbott and Costello in Beauty Contest Story.mp4",
+            "name": "Abbott and Costello in Beauty Contest Story",
+            "url": "https://archive.org/download/abbott_costello_the_vacation/Abbott%20and%20Costello%20in%20Beauty%20Contest%20Story.mp4",
+            "seconds": 1396,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 134
+          },
           "alternates": []
         },
         {
@@ -614,8 +638,20 @@
           "number": 8,
           "name": "The Barber",
           "airdate": "1993-11-11",
-          "state": "MISSING",
-          "file": null,
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "title ~ \"The Barber\" (0.95)",
+            "item": "abbott_costello_the_vacation",
+            "itemTitle": "The Abbott and Costello Show  ★ (Complete TV Series)",
+            "file": "Abbott and Costello in Barber Lou.mp4",
+            "name": "Abbott and Costello in Barber Lou",
+            "url": "https://archive.org/download/abbott_costello_the_vacation/Abbott%20and%20Costello%20in%20Barber%20Lou.mp4",
+            "seconds": 1398,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 148
+          },
           "alternates": []
         },
         {
@@ -686,9 +722,35 @@
           "number": 17,
           "name": "The Wife",
           "airdate": "1994-03-17",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "title ~ \"The Wife\" (0.95)",
+            "item": "abbott_costello_the_vacation",
+            "itemTitle": "The Abbott and Costello Show  ★ (Complete TV Series)",
+            "file": "Abbott and Costello in Wife Wanted.mp4",
+            "name": "Abbott and Costello in Wife Wanted",
+            "url": "https://archive.org/download/abbott_costello_the_vacation/Abbott%20and%20Costello%20in%20Wife%20Wanted.mp4",
+            "seconds": 1397,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 176
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "title ~ \"The Wife\" (0.95)",
+              "item": "abbott_costello_the_vacation",
+              "itemTitle": "The Abbott and Costello Show  ★ (Complete TV Series)",
+              "file": "Abbott and Costello in Killers Wife.mp4",
+              "name": "Abbott and Costello in Killers Wife",
+              "url": "https://archive.org/download/abbott_costello_the_vacation/Abbott%20and%20Costello%20in%20Killers%20Wife.mp4",
+              "seconds": 1398,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 166
+            }
+          ]
         },
         {
           "number": 18,

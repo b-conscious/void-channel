@@ -3,7 +3,7 @@
   "slug": "everwood",
   "type": "Drama",
   "network": "The WB",
-  "matchedAt": "2026-10-13T07:46:16.581Z",
+  "matchedAt": "2026-10-13T15:54:09.316Z",
   "tvmaze": {
     "id": 440,
     "name": "Everwood",
@@ -13,10 +13,10 @@
   },
   "coverage": {
     "total": 89,
-    "live": 1,
-    "review": 78,
-    "missing": 10,
-    "pct": 89
+    "live": 0,
+    "review": 75,
+    "missing": 14,
+    "pct": 84
   },
   "seasons": [
     {
@@ -86,9 +86,9 @@
           "number": 4,
           "name": "The Kissing Bridge",
           "airdate": "2002-10-07",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "everwood-2002-06",
             "itemTitle": "Everwood (2002–06) WB drama -Emily VanCamp, Chris Pratt",
@@ -563,20 +563,8 @@
           "number": 3,
           "name": "My Brother's Keeper",
           "airdate": "2003-09-29",
-          "state": "REVIEW",
-          "file": {
-            "conf": 0.8,
-            "why": "title ~ \"My Brother's Keeper\" (0.95)",
-            "item": "everwood-2002-06",
-            "itemTitle": "Everwood (2002–06) WB drama -Emily VanCamp, Chris Pratt",
-            "file": "Everwood Season 2 - 22 eps/everwood-_season_02_-_episode_03__My Brother's Keeper.mp4",
-            "name": "Everwood Season 2 - 22 eps/everwood-_season_02_-_episode_03__My Brother's Keeper",
-            "url": "https://archive.org/download/everwood-2002-06/Everwood%20Season%202%20-%2022%20eps%2Feverwood-_season_02_-_episode_03__My%20Brother's%20Keeper.mp4",
-            "seconds": 2668,
-            "format": "MPEG4",
-            "playable": true,
-            "sizeMB": 172
-          },
+          "state": "MISSING",
+          "file": null,
           "alternates": []
         },
         {
@@ -1036,20 +1024,8 @@
           "number": 5,
           "name": "Sacrifice",
           "airdate": "2004-10-11",
-          "state": "REVIEW",
-          "file": {
-            "conf": 0.8,
-            "why": "title ~ \"Sacrifice\" (0.95)",
-            "item": "everwood-2002-06",
-            "itemTitle": "Everwood (2002–06) WB drama -Emily VanCamp, Chris Pratt",
-            "file": "Everwood Season 3 - 22 eps/everwood-_season_03_-_episode_05___Sacrifice_Treat Williams, Gregory Smith, Emily VanCamp.mp4",
-            "name": "Everwood Season 3 - 22 eps/everwood-_season_03_-_episode_05___Sacrifice_Treat Williams, Gregory Smith, Emily VanCamp",
-            "url": "https://archive.org/download/everwood-2002-06/Everwood%20Season%203%20-%2022%20eps%2Feverwood-_season_03_-_episode_05___Sacrifice_Treat%20Williams%2C%20Gregory%20Smith%2C%20Emily%20VanCamp.mp4",
-            "seconds": 2622,
-            "format": "MPEG4",
-            "playable": true,
-            "sizeMB": 182
-          },
+          "state": "MISSING",
+          "file": null,
           "alternates": []
         },
         {
@@ -1284,20 +1260,8 @@
           "number": 18,
           "name": "Fallout",
           "airdate": "2005-04-25",
-          "state": "REVIEW",
-          "file": {
-            "conf": 0.8,
-            "why": "title ~ \"Fallout\" (0.95)",
-            "item": "everwood-2002-06",
-            "itemTitle": "Everwood (2002–06) WB drama -Emily VanCamp, Chris Pratt",
-            "file": "Everwood Season 3 - 22 eps/everwood-_season_03_-_episode_18_Fallout_ Treat Williams, Gregory Smith, Emily VanCamp.mp4",
-            "name": "Everwood Season 3 - 22 eps/everwood-_season_03_-_episode_18_Fallout_ Treat Williams, Gregory Smith, Emily VanCamp",
-            "url": "https://archive.org/download/everwood-2002-06/Everwood%20Season%203%20-%2022%20eps%2Feverwood-_season_03_-_episode_18_Fallout_%20Treat%20Williams%2C%20Gregory%20Smith%2C%20Emily%20VanCamp.mp4",
-            "seconds": 2601,
-            "format": "MPEG4",
-            "playable": true,
-            "sizeMB": 165
-          },
+          "state": "MISSING",
+          "file": null,
           "alternates": []
         },
         {
@@ -1533,20 +1497,8 @@
           "number": 10,
           "name": "Ghosts",
           "airdate": "2006-03-27",
-          "state": "REVIEW",
-          "file": {
-            "conf": 0.8,
-            "why": "title ~ \"Ghosts\" (0.95)",
-            "item": "everwood-2002-06",
-            "itemTitle": "Everwood (2002–06) WB drama -Emily VanCamp, Chris Pratt",
-            "file": "Everwood Season 4 - 22 eps/everwood-_season_04_-_episode_10___Ghosts - Leslie Hope.mp4",
-            "name": "Everwood Season 4 - 22 eps/everwood-_season_04_-_episode_10___Ghosts - Leslie Hope",
-            "url": "https://archive.org/download/everwood-2002-06/Everwood%20Season%204%20-%2022%20eps%2Feverwood-_season_04_-_episode_10___Ghosts%20-%20Leslie%20Hope.mp4",
-            "seconds": 2603,
-            "format": "MPEG4",
-            "playable": true,
-            "sizeMB": 178
-          },
+          "state": "MISSING",
+          "file": null,
           "alternates": []
         },
         {

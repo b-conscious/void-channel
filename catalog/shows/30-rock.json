@@ -3,7 +3,7 @@
   "slug": "30-rock",
   "type": "2000s and Later Sitcoms",
   "network": "NBC",
-  "matchedAt": "2026-10-13T07:46:14.881Z",
+  "matchedAt": "2026-10-13T15:54:05.718Z",
   "tvmaze": {
     "id": 537,
     "name": "30 Rock",
@@ -13,8 +13,8 @@
   },
   "coverage": {
     "total": 138,
-    "live": 128,
-    "review": 3,
+    "live": 124,
+    "review": 7,
     "missing": 7,
     "pct": 95
   },
@@ -627,9 +627,9 @@
           "number": 11,
           "name": "MILF Island",
           "airdate": "2008-04-10",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "1964.jeffrey.archer.20220228",
             "itemTitle": "30 rock",
@@ -667,9 +667,9 @@
           "number": 13,
           "name": "Succession",
           "airdate": "2008-04-24",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "1964.jeffrey.archer.20220228",
             "itemTitle": "30 rock",
@@ -1365,9 +1365,9 @@
           "number": 11,
           "name": "Winter Madness",
           "airdate": "2010-01-21",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "1964.jeffrey.archer.20220228",
             "itemTitle": "30 rock",
@@ -2265,9 +2265,9 @@
           "number": 11,
           "name": "Standards and Practises",
           "airdate": "2012-03-08",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "1964.jeffrey.archer.20220228",
             "itemTitle": "30 rock",

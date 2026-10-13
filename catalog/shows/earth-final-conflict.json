@@ -3,7 +3,7 @@
   "slug": "earth-final-conflict",
   "type": "Sci-Fi, Fantasy and Horror",
   "network": "Syndicated",
-  "matchedAt": "2026-10-13T07:46:17.647Z",
+  "matchedAt": "2026-10-13T15:54:10.601Z",
   "tvmaze": {
     "id": 1469,
     "name": "Earth: Final Conflict",
@@ -13,8 +13,8 @@
   },
   "coverage": {
     "total": 110,
-    "live": 88,
-    "review": 0,
+    "live": 83,
+    "review": 5,
     "missing": 22,
     "pct": 80
   },
@@ -458,9 +458,9 @@
           "number": 8,
           "name": "Redemption",
           "airdate": "1998-11-23",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "on_20251105",
             "itemTitle": "Earth Final Conflict",
@@ -474,7 +474,7 @@
           },
           "alternates": [
             {
-              "conf": 1,
+              "conf": 0.6,
               "why": "S/E in filename + title match",
               "item": "earth-final-conflict-complete-series",
               "itemTitle": "Earth: Final Conflict - The Complete Series",
@@ -594,9 +594,9 @@
           "number": 12,
           "name": "One Man's Castle",
           "airdate": "1999-01-18",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "earth-final-conflict-complete-series",
             "itemTitle": "Earth: Final Conflict - The Complete Series",
@@ -610,7 +610,7 @@
           },
           "alternates": [
             {
-              "conf": 1,
+              "conf": 0.6,
               "why": "S/E in filename + title match",
               "item": "on_20251105",
               "itemTitle": "Earth Final Conflict",
@@ -866,9 +866,9 @@
           "number": 20,
           "name": "Heroes And Heartbreak",
           "airdate": "1999-05-03",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "on_20251105",
             "itemTitle": "Earth Final Conflict",
@@ -882,7 +882,7 @@
           },
           "alternates": [
             {
-              "conf": 1,
+              "conf": 0.6,
               "why": "S/E in filename + title match",
               "item": "earth-final-conflict-complete-series",
               "itemTitle": "Earth: Final Conflict - The Complete Series",
@@ -1505,21 +1505,34 @@
           "airdate": "2000-01-10",
           "state": "LIVE",
           "file": {
-            "conf": 1,
-            "why": "S/E in filename + title match",
-            "item": "earth-final-conflict-complete-series",
-            "itemTitle": "Earth: Final Conflict - The Complete Series",
-            "file": "Earth Final Conflict S03 (360p re-dvdrip)/Earth Final Conflict S03E12 Keep Your Enemies Closer.mp4",
-            "name": "Earth Final Conflict S03 (360p re-dvdrip)/Earth Final Conflict S03E12 Keep Your Enemies Closer",
-            "url": "https://archive.org/download/earth-final-conflict-complete-series/Earth%20Final%20Conflict%20S03%20(360p%20re-dvdrip)%2FEarth%20Final%20Conflict%20S03E12%20Keep%20Your%20Enemies%20Closer.mp4",
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "earth.-final.-conflict",
+            "itemTitle": "Earth Final Conflict / Invasion planète Terre - 1994 French/vostfr",
+            "file": "Earth.Final.Conflict.S03E12 - Menage tes ennemis.mp4",
+            "name": "Earth.Final.Conflict.S03E12 - Menage tes ennemis",
+            "url": "https://archive.org/download/earth.-final.-conflict/Earth.Final.Conflict.S03E12%20-%20Menage%20tes%20ennemis.mp4",
             "seconds": 2601,
-            "format": "MPEG4",
+            "format": "h.264",
             "playable": true,
-            "sizeMB": 160
+            "sizeMB": 258
           },
           "alternates": [
             {
-              "conf": 1,
+              "conf": 0.6,
+              "why": "S/E in filename + title match",
+              "item": "earth-final-conflict-complete-series",
+              "itemTitle": "Earth: Final Conflict - The Complete Series",
+              "file": "Earth Final Conflict S03 (360p re-dvdrip)/Earth Final Conflict S03E12 Keep Your Enemies Closer.mp4",
+              "name": "Earth Final Conflict S03 (360p re-dvdrip)/Earth Final Conflict S03E12 Keep Your Enemies Closer",
+              "url": "https://archive.org/download/earth-final-conflict-complete-series/Earth%20Final%20Conflict%20S03%20(360p%20re-dvdrip)%2FEarth%20Final%20Conflict%20S03E12%20Keep%20Your%20Enemies%20Closer.mp4",
+              "seconds": 2601,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 160
+            },
+            {
+              "conf": 0.6,
               "why": "S/E in filename + title match",
               "item": "on_20251105",
               "itemTitle": "Earth Final Conflict",
@@ -1530,19 +1543,6 @@
               "format": "MPEG4",
               "playable": true,
               "sizeMB": 141
-            },
-            {
-              "conf": 0.9,
-              "why": "S/E in filename",
-              "item": "earth.-final.-conflict",
-              "itemTitle": "Earth Final Conflict / Invasion planète Terre - 1994 French/vostfr",
-              "file": "Earth.Final.Conflict.S03E12 - Menage tes ennemis.mp4",
-              "name": "Earth.Final.Conflict.S03E12 - Menage tes ennemis",
-              "url": "https://archive.org/download/earth.-final.-conflict/Earth.Final.Conflict.S03E12%20-%20Menage%20tes%20ennemis.mp4",
-              "seconds": 2601,
-              "format": "h.264",
-              "playable": true,
-              "sizeMB": 258
             }
           ]
         },
@@ -2026,19 +2026,6 @@
               "format": "MPEG4",
               "playable": true,
               "sizeMB": 127
-            },
-            {
-              "conf": 0.9,
-              "why": "S/E in filename",
-              "item": "earth.-final.-conflict",
-              "itemTitle": "Earth Final Conflict / Invasion planète Terre - 1994 French/vostfr",
-              "file": "Earth.Final.Conflict.S03E22 - Le sacrifice.mp4",
-              "name": "Earth.Final.Conflict.S03E22 - Le sacrifice",
-              "url": "https://archive.org/download/earth.-final.-conflict/Earth.Final.Conflict.S03E22%20-%20Le%20sacrifice.mp4",
-              "seconds": 2600,
-              "format": "h.264",
-              "playable": true,
-              "sizeMB": 252
             }
           ]
         }
@@ -2524,41 +2511,15 @@
             "why": "S/E in filename + title match",
             "item": "earth.-final.-conflict",
             "itemTitle": "Earth Final Conflict / Invasion planète Terre - 1994 French/vostfr",
-            "file": "Earth.Final.Conflict.S04E09-DVD Phantom Companion.608x336.23.xvid.vostfr.fixed.ia.mp4",
-            "name": "Earth.Final.Conflict.S04E09-DVD Phantom Companion.608x336.23.xvid.vostfr",
-            "url": "https://archive.org/download/earth.-final.-conflict/Earth.Final.Conflict.S04E09-DVD%20Phantom%20Companion.608x336.23.xvid.vostfr.fixed.ia.mp4",
+            "file": "Earth.Final.Conflict.S04E09-DVD Phantom Companion.vostfr.xvid.ia.mp4",
+            "name": "Earth.Final.Conflict.S04E09-DVD Phantom Companion.vostfr",
+            "url": "https://archive.org/download/earth.-final.-conflict/Earth.Final.Conflict.S04E09-DVD%20Phantom%20Companion.vostfr.xvid.ia.mp4",
             "seconds": 2600,
             "format": "h.264 IA",
             "playable": true,
             "sizeMB": 197
           },
           "alternates": [
-            {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "earth.-final.-conflict",
-              "itemTitle": "Earth Final Conflict / Invasion planète Terre - 1994 French/vostfr",
-              "file": "Earth.Final.Conflict.S04E09-DVD Phantom Companion.608x336.23.xvid.vostfr.fixed.mp4",
-              "name": "Earth.Final.Conflict.S04E09-DVD Phantom Companion.608x336.23.xvid.vostfr.fixed",
-              "url": "https://archive.org/download/earth.-final.-conflict/Earth.Final.Conflict.S04E09-DVD%20Phantom%20Companion.608x336.23.xvid.vostfr.fixed.mp4",
-              "seconds": 2600,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 197
-            },
-            {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "earth.-final.-conflict",
-              "itemTitle": "Earth Final Conflict / Invasion planète Terre - 1994 French/vostfr",
-              "file": "Earth.Final.Conflict.S04E09-DVD Phantom Companion.vostfr.xvid.ia.mp4",
-              "name": "Earth.Final.Conflict.S04E09-DVD Phantom Companion.vostfr",
-              "url": "https://archive.org/download/earth.-final.-conflict/Earth.Final.Conflict.S04E09-DVD%20Phantom%20Companion.vostfr.xvid.ia.mp4",
-              "seconds": 2600,
-              "format": "h.264 IA",
-              "playable": true,
-              "sizeMB": 197
-            },
             {
               "conf": 1,
               "why": "S/E in filename + title match",
@@ -2571,6 +2532,33 @@
               "format": "MPEG4",
               "playable": true,
               "sizeMB": 128
+            },
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "earth-final-conflict-complete-series",
+              "itemTitle": "Earth: Final Conflict - The Complete Series",
+              "file": "Earth Final Conflict S04 (360p re-dvdrip)/Earth Final Conflict S04E09 Phantom Companion.mp4",
+              "name": "Earth Final Conflict S04 (360p re-dvdrip)/Earth Final Conflict S04E09 Phantom Companion",
+              "url": "https://archive.org/download/earth-final-conflict-complete-series/Earth%20Final%20Conflict%20S04%20(360p%20re-dvdrip)%2FEarth%20Final%20Conflict%20S04E09%20Phantom%20Companion.mp4",
+              "seconds": 2600,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 123
+            },
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "earth.-final.-conflict",
+              "itemTitle": "Earth Final Conflict / Invasion planète Terre - 1994 French/vostfr",
+              "file": "Earth.Final.Conflict.S04E09-DVD Phantom Companion.608x336.23.xvid.vostfr.fixed.ia.mp4",
+              "name": "Earth.Final.Conflict.S04E09-DVD Phantom Companion.608x336.23.xvid.vostfr",
+              "url": "https://archive.org/download/earth.-final.-conflict/Earth.Final.Conflict.S04E09-DVD%20Phantom%20Companion.608x336.23.xvid.vostfr.fixed.ia.mp4",
+              "seconds": 2600,
+              "format": "h.264 IA",
+              "playable": false,
+              "codecRisk": "video (xvid)",
+              "sizeMB": 197
             }
           ]
         },
@@ -2758,9 +2746,9 @@
           "number": 13,
           "name": "Dark Matter",
           "airdate": "2001-01-29",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "earth.-final.-conflict",
             "itemTitle": "Earth Final Conflict / Invasion planète Terre - 1994 French/vostfr",
@@ -2774,7 +2762,7 @@
           },
           "alternates": [
             {
-              "conf": 1,
+              "conf": 0.6,
               "why": "S/E in filename + title match",
               "item": "earth.-final.-conflict",
               "itemTitle": "Earth Final Conflict / Invasion planète Terre - 1994 French/vostfr",
@@ -2787,7 +2775,7 @@
               "sizeMB": 203
             },
             {
-              "conf": 1,
+              "conf": 0.6,
               "why": "S/E in filename + title match",
               "item": "earth.-final.-conflict",
               "itemTitle": "Earth Final Conflict / Invasion planète Terre - 1994 French/vostfr",
@@ -2800,7 +2788,7 @@
               "sizeMB": 203
             },
             {
-              "conf": 1,
+              "conf": 0.6,
               "why": "S/E in filename + title match",
               "item": "on_20251105",
               "itemTitle": "Earth Final Conflict",
@@ -2818,9 +2806,9 @@
           "number": 14,
           "name": "Keys To The Kingdom",
           "airdate": "2001-02-05",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "earth.-final.-conflict",
             "itemTitle": "Earth Final Conflict / Invasion planète Terre - 1994 French/vostfr",
@@ -2834,7 +2822,7 @@
           },
           "alternates": [
             {
-              "conf": 1,
+              "conf": 0.6,
               "why": "S/E in filename + title match",
               "item": "earth.-final.-conflict",
               "itemTitle": "Earth Final Conflict / Invasion planète Terre - 1994 French/vostfr",
@@ -2847,7 +2835,7 @@
               "sizeMB": 271
             },
             {
-              "conf": 1,
+              "conf": 0.6,
               "why": "S/E in filename + title match",
               "item": "earth.-final.-conflict",
               "itemTitle": "Earth Final Conflict / Invasion planète Terre - 1994 French/vostfr",
@@ -2860,7 +2848,7 @@
               "sizeMB": 271
             },
             {
-              "conf": 1,
+              "conf": 0.6,
               "why": "S/E in filename + title match",
               "item": "earth-final-conflict-complete-series",
               "itemTitle": "Earth: Final Conflict - The Complete Series",

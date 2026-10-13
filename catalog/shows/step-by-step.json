@@ -3,7 +3,7 @@
   "slug": "step-by-step",
   "type": "90s Sitcoms",
   "network": "ABC",
-  "matchedAt": "2026-10-13T07:46:14.183Z",
+  "matchedAt": "2026-10-13T15:54:03.774Z",
   "tvmaze": {
     "id": 2085,
     "name": "Step by Step",
@@ -13,10 +13,10 @@
   },
   "coverage": {
     "total": 160,
-    "live": 0,
-    "review": 6,
-    "missing": 154,
-    "pct": 4
+    "live": 1,
+    "review": 10,
+    "missing": 149,
+    "pct": 7
   },
   "seasons": [
     {
@@ -319,8 +319,20 @@
           "number": 6,
           "name": "The Boss",
           "airdate": "1992-10-23",
-          "state": "MISSING",
-          "file": null,
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.65,
+            "why": "title ~ \"The Boss\" (0.95)",
+            "item": "teen-angel-1997-1998",
+            "itemTitle": "Teen Angel (1997-98, TGIF)",
+            "file": "14 Who's The Boss.mp4",
+            "name": "14 Who's The Boss",
+            "url": "https://archive.org/download/teen-angel-1997-1998/14%20Who's%20The%20Boss.mp4",
+            "seconds": 1289,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 198
+          },
           "alternates": []
         },
         {
@@ -439,8 +451,20 @@
           "number": 21,
           "name": "The Un-Natural",
           "airdate": "1993-04-02",
-          "state": "MISSING",
-          "file": null,
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.65,
+            "why": "title ~ \"The Un-Natural\" (0.95)",
+            "item": "teen-angel-1997-1998",
+            "itemTitle": "Teen Angel (1997-98, TGIF)",
+            "file": "16 The Un-Natural.mp4",
+            "name": "16 The Un-Natural",
+            "url": "https://archive.org/download/teen-angel-1997-1998/16%20The%20Un-Natural.mp4",
+            "seconds": 1279,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 175
+          },
           "alternates": []
         },
         {
@@ -556,8 +580,20 @@
           "number": 11,
           "name": "Christmas Story",
           "airdate": "1993-12-10",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "step-by-step-s-03-e-11-christmas-story-woc-airing-dec-2006",
+            "itemTitle": "Step by Step S03E11 Christmas Story (ABC Family WOC Airing, Dec 2006)",
+            "file": "Step by Step S03E11 Christmas Story (WOC Airing, Dec 2006).mp4",
+            "name": "Step by Step S03E11 Christmas Story (WOC Airing, Dec 2006)",
+            "url": "https://archive.org/download/step-by-step-s-03-e-11-christmas-story-woc-airing-dec-2006/Step%20by%20Step%20S03E11%20Christmas%20Story%20(WOC%20Airing%2C%20Dec%202006).mp4",
+            "seconds": 1383,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 147
+          },
           "alternates": []
         },
         {
@@ -870,8 +906,20 @@
           "number": 2,
           "name": "Three Girls and a Baby",
           "airdate": "1995-09-29",
-          "state": "MISSING",
-          "file": null,
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.7,
+            "why": "absolute episode number",
+            "item": "bitbbh-ep-95-step-by-step",
+            "itemTitle": "BITBBH Ep 95 Step By Step",
+            "file": "BITBBH Ep 95 Step by Step.mp4",
+            "name": "BITBBH Ep 95 Step by Step",
+            "url": "https://archive.org/download/bitbbh-ep-95-step-by-step/BITBBH%20Ep%2095%20Step%20by%20Step.mp4",
+            "seconds": 1458,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 151
+          },
           "alternates": []
         },
         {
@@ -1163,8 +1211,20 @@
           "number": 14,
           "name": "Future Shock",
           "airdate": "1997-06-06",
-          "state": "MISSING",
-          "file": null,
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.65,
+            "why": "title ~ \"Future Shock\" (0.95)",
+            "item": "you-wish-1997-1998",
+            "itemTitle": "You Wish (1997-98, TGIF)",
+            "file": "09 Future Shock.mp4",
+            "name": "09 Future Shock",
+            "url": "https://archive.org/download/you-wish-1997-1998/09%20Future%20Shock.mp4",
+            "seconds": 1281,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 180
+          },
           "alternates": []
         },
         {

@@ -3,7 +3,7 @@
   "slug": "the-league",
   "type": "2000s and Later Sitcoms",
   "network": "FX",
-  "matchedAt": "2026-10-13T07:46:15.115Z",
+  "matchedAt": "2026-10-13T15:54:06.159Z",
   "tvmaze": {
     "id": 270,
     "name": "The League",
@@ -14,9 +14,9 @@
   "coverage": {
     "total": 84,
     "live": 0,
-    "review": 0,
-    "missing": 84,
-    "pct": 0
+    "review": 1,
+    "missing": 83,
+    "pct": 1
   },
   "seasons": [
     {
@@ -377,8 +377,20 @@
           "number": 11,
           "name": "12.12.12",
           "airdate": "2012-12-13",
-          "state": "MISSING",
-          "file": null,
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "title ~ \"12.12.12\" (0.95)",
+            "item": "1987.12.7-fujinami-kimura-vs-inoki-murdoch",
+            "itemTitle": "Tatsumi Fujinami & Kengo Kimura vs Antonio Inoki & Dick Murdoch Japan Cup Tag League Finals (12/7/87)",
+            "file": "1987.12.7 Fujinami & Kimura vs Inoki & Murdoch.mp4",
+            "name": "1987.12.7 Fujinami & Kimura vs Inoki & Murdoch",
+            "url": "https://archive.org/download/1987.12.7-fujinami-kimura-vs-inoki-murdoch/1987.12.7%20Fujinami%20%26%20Kimura%20vs%20Inoki%20%26%20Murdoch.mp4",
+            "seconds": 1538,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 985
+          },
           "alternates": []
         },
         {

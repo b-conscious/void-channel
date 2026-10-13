@@ -3,7 +3,7 @@
   "slug": "malcolm-in-the-middle",
   "type": "2000s and Later Sitcoms",
   "network": "FOX",
-  "matchedAt": "2026-10-13T07:46:14.646Z",
+  "matchedAt": "2026-10-13T15:54:05.384Z",
   "tvmaze": {
     "id": 568,
     "name": "Malcolm in the Middle",
@@ -13,8 +13,8 @@
   },
   "coverage": {
     "total": 151,
-    "live": 151,
-    "review": 0,
+    "live": 150,
+    "review": 1,
     "missing": 0,
     "pct": 100
   },
@@ -66,9 +66,9 @@
           "number": 3,
           "name": "Home Alone 4",
           "airdate": "2000-01-23",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "malcolm-in-the-middle-complete-series-2000-2006",
             "itemTitle": "Malcolm in the Middle (The Complete Series) [2000 - 2006]",
@@ -1242,6 +1242,7 @@
               "seconds": 1314,
               "format": "MPEG1",
               "playable": false,
+              "codecRisk": "container (MPEG1)",
               "sizeMB": 229
             }
           ]
@@ -1381,6 +1382,7 @@
               "seconds": 1317,
               "format": "MPEG1",
               "playable": false,
+              "codecRisk": "container (MPEG1)",
               "sizeMB": 230
             }
           ]
@@ -1415,6 +1417,7 @@
               "seconds": 1314,
               "format": "MPEG1",
               "playable": false,
+              "codecRisk": "container (MPEG1)",
               "sizeMB": 229
             }
           ]
@@ -1449,6 +1452,7 @@
               "seconds": 1314,
               "format": "MPEG1",
               "playable": false,
+              "codecRisk": "container (MPEG1)",
               "sizeMB": 229
             }
           ]
@@ -1483,6 +1487,7 @@
               "seconds": 1271,
               "format": "MPEG1",
               "playable": false,
+              "codecRisk": "container (MPEG1)",
               "sizeMB": 221
             }
           ]
@@ -1517,6 +1522,7 @@
               "seconds": 1314,
               "format": "MPEG1",
               "playable": false,
+              "codecRisk": "container (MPEG1)",
               "sizeMB": 229
             }
           ]
@@ -1551,6 +1557,7 @@
               "seconds": 1313,
               "format": "MPEG1",
               "playable": false,
+              "codecRisk": "container (MPEG1)",
               "sizeMB": 229
             }
           ]
@@ -1585,6 +1592,7 @@
               "seconds": 1288,
               "format": "MPEG1",
               "playable": false,
+              "codecRisk": "container (MPEG1)",
               "sizeMB": 224
             }
           ]
@@ -1619,6 +1627,7 @@
               "seconds": 1314,
               "format": "MPEG1",
               "playable": false,
+              "codecRisk": "container (MPEG1)",
               "sizeMB": 229
             }
           ]
@@ -1653,6 +1662,7 @@
               "seconds": 1318,
               "format": "MPEG1",
               "playable": false,
+              "codecRisk": "container (MPEG1)",
               "sizeMB": 229
             }
           ]
@@ -1687,6 +1697,7 @@
               "seconds": 1325,
               "format": "MPEG1",
               "playable": false,
+              "codecRisk": "container (MPEG1)",
               "sizeMB": 231
             }
           ]
@@ -1721,6 +1732,7 @@
               "seconds": 1314,
               "format": "MPEG1",
               "playable": false,
+              "codecRisk": "container (MPEG1)",
               "sizeMB": 229
             }
           ]
@@ -1775,6 +1787,7 @@
               "seconds": 1313,
               "format": "MPEG1",
               "playable": false,
+              "codecRisk": "container (MPEG1)",
               "sizeMB": 229
             }
           ]
@@ -1809,6 +1822,7 @@
               "seconds": 1314,
               "format": "MPEG1",
               "playable": false,
+              "codecRisk": "container (MPEG1)",
               "sizeMB": 229
             }
           ]
@@ -1843,6 +1857,7 @@
               "seconds": 1314,
               "format": "MPEG1",
               "playable": false,
+              "codecRisk": "container (MPEG1)",
               "sizeMB": 229
             }
           ]
@@ -1877,6 +1892,7 @@
               "seconds": 1314,
               "format": "MPEG1",
               "playable": false,
+              "codecRisk": "container (MPEG1)",
               "sizeMB": 229
             }
           ]
@@ -1911,6 +1927,7 @@
               "seconds": 1337,
               "format": "MPEG1",
               "playable": false,
+              "codecRisk": "container (MPEG1)",
               "sizeMB": 233
             }
           ]
@@ -1945,6 +1962,7 @@
               "seconds": 1349,
               "format": "MPEG1",
               "playable": false,
+              "codecRisk": "container (MPEG1)",
               "sizeMB": 235
             }
           ]
@@ -1979,6 +1997,7 @@
               "seconds": 1323,
               "format": "MPEG1",
               "playable": false,
+              "codecRisk": "container (MPEG1)",
               "sizeMB": 230
             }
           ]
@@ -2013,6 +2032,7 @@
               "seconds": 1280,
               "format": "MPEG1",
               "playable": false,
+              "codecRisk": "container (MPEG1)",
               "sizeMB": 223
             }
           ]
@@ -2052,6 +2072,7 @@
               "seconds": 1345,
               "format": "MPEG1",
               "playable": false,
+              "codecRisk": "container (MPEG1)",
               "sizeMB": 234
             }
           ]
@@ -2286,6 +2307,7 @@
               "seconds": 1274,
               "format": "MPEG1",
               "playable": false,
+              "codecRisk": "container (MPEG1)",
               "sizeMB": 222
             }
           ]

@@ -3,7 +3,7 @@
   "slug": "stargate-atlantis",
   "type": "Sci-Fi, Fantasy and Horror",
   "network": "Sci-Fi Channel",
-  "matchedAt": "2026-10-13T07:46:17.235Z",
+  "matchedAt": "2026-10-13T15:54:10.155Z",
   "tvmaze": {
     "id": 206,
     "name": "Stargate Atlantis",
@@ -14,9 +14,9 @@
   "coverage": {
     "total": 100,
     "live": 0,
-    "review": 82,
-    "missing": 18,
-    "pct": 82
+    "review": 81,
+    "missing": 19,
+    "pct": 81
   },
   "seasons": [
     {
@@ -250,21 +250,7 @@
             "playable": true,
             "sizeMB": 493
           },
-          "alternates": [
-            {
-              "conf": 0.55,
-              "why": "title ~ \"Underground\" (0.70)",
-              "item": "stargate-atlantis-season-1",
-              "itemTitle": "StarGate Atlantis",
-              "file": "SGA0108Underground.mp4",
-              "name": "SGA0108Underground",
-              "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0108Underground.mp4",
-              "seconds": 2613,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 480
-            }
-          ]
+          "alternates": []
         },
         {
           "number": 9,
@@ -1826,20 +1812,8 @@
           "number": 9,
           "name": "Tracker",
           "airdate": "2008-09-19",
-          "state": "REVIEW",
-          "file": {
-            "conf": 0.55,
-            "why": "title ~ \"Tracker\" (0.63)",
-            "item": "stargate-atlantis-season-1",
-            "itemTitle": "StarGate Atlantis",
-            "file": "SGA0509Tracker.mp4",
-            "name": "SGA0509Tracker",
-            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0509Tracker.mp4",
-            "seconds": 2614,
-            "format": "MPEG4",
-            "playable": true,
-            "sizeMB": 720
-          },
+          "state": "MISSING",
+          "file": null,
           "alternates": []
         },
         {

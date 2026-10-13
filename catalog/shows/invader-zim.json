@@ -3,7 +3,7 @@
   "slug": "invader-zim",
   "type": "Animated",
   "network": "Nickelodeon",
-  "matchedAt": "2026-10-13T07:46:15.651Z",
+  "matchedAt": "2026-10-13T15:54:07.471Z",
   "tvmaze": {
     "id": 409,
     "name": "Invader ZIM",
@@ -13,8 +13,8 @@
   },
   "coverage": {
     "total": 46,
-    "live": 30,
-    "review": 10,
+    "live": 26,
+    "review": 14,
     "missing": 6,
     "pct": 87
   },
@@ -69,16 +69,16 @@
             },
             {
               "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "invader-zim-s-01-e-27-battle-of-the-planets-1080p-x-265-q-22-joy",
-              "itemTitle": "Invader Zim Season 1 1080p Upscale",
-              "file": "Invader Zim S01E01 The Nightmare Begins  [1080p x265 q22 Joy].mp4",
-              "name": "Invader Zim S01E01 The Nightmare Begins  [1080p x265 q22 Joy]",
-              "url": "https://archive.org/download/invader-zim-s-01-e-27-battle-of-the-planets-1080p-x-265-q-22-joy/Invader%20Zim%20S01E01%20The%20Nightmare%20Begins%20%20%5B1080p%20x265%20q22%20Joy%5D.mp4",
-              "seconds": 1463,
-              "format": "h.264",
+              "why": "absolute episode number + title match",
+              "item": "202103230237-45",
+              "itemTitle": "*REDUX* Invader ZIM on Nicktoons Broadcast (February 2021)",
+              "file": "Invader ZIM - EP 01 The Nightmare Begins (Parts 1 and 2).mp4",
+              "name": "Invader ZIM - EP 01 The Nightmare Begins (Parts 1 and 2)",
+              "url": "https://archive.org/download/202103230237-45/Invader%20ZIM%20-%20EP%2001%20The%20Nightmare%20Begins%20(Parts%201%20and%202).mp4",
+              "seconds": 1780,
+              "format": "MPEG4",
               "playable": true,
-              "sizeMB": 146
+              "sizeMB": 90
             }
           ]
         },
@@ -760,61 +760,21 @@
           "number": 20,
           "name": "Bolognius Maximus",
           "airdate": "2001-09-21",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 0.9,
-            "why": "S/E in filename",
+            "conf": 0.8,
+            "why": "title ~ \"Bolognius Maximus\" (0.95)",
             "item": "invader-zim-seasons-1-2-full-series",
             "itemTitle": "Invader Zim Full Series Seasons 1-2",
-            "file": "Season 1/Invader Zim S01E20 Tak The Hideous New Girl.mp4",
-            "name": "Season 1/Invader Zim S01E20 Tak The Hideous New Girl",
-            "url": "https://archive.org/download/invader-zim-seasons-1-2-full-series/Season%201%2FInvader%20Zim%20S01E20%20Tak%20The%20Hideous%20New%20Girl.mp4",
-            "seconds": 1466,
+            "file": "Season 1/Invader Zim S01E12 Bolognius Maximus & Game Slave 2.mp4",
+            "name": "Season 1/Invader Zim S01E12 Bolognius Maximus & Game Slave 2",
+            "url": "https://archive.org/download/invader-zim-seasons-1-2-full-series/Season%201%2FInvader%20Zim%20S01E12%20Bolognius%20Maximus%20%26%20Game%20Slave%202.mp4",
+            "seconds": 1464,
             "format": "MPEG4",
             "playable": true,
-            "sizeMB": 206
+            "sizeMB": 190
           },
-          "alternates": [
-            {
-              "conf": 0.85,
-              "why": "S/E in filename",
-              "item": "hnbt_invaderzim",
-              "itemTitle": "Invader Zim complete series MKV + ISO",
-              "file": "36 - Tak： The Hideous New Girl [1x20].mp4",
-              "name": "36 - Tak： The Hideous New Girl [1x20]",
-              "url": "https://archive.org/download/hnbt_invaderzim/36%20-%20Tak%EF%BC%9A%20The%20Hideous%20New%20Girl%20%5B1x20%5D.mp4",
-              "seconds": 1466,
-              "format": "h.264",
-              "playable": true,
-              "sizeMB": 146
-            },
-            {
-              "conf": 0.8,
-              "why": "title ~ \"Bolognius Maximus\" (0.95)",
-              "item": "invader-zim-seasons-1-2-full-series",
-              "itemTitle": "Invader Zim Full Series Seasons 1-2",
-              "file": "Season 1/Invader Zim S01E12 Bolognius Maximus & Game Slave 2.mp4",
-              "name": "Season 1/Invader Zim S01E12 Bolognius Maximus & Game Slave 2",
-              "url": "https://archive.org/download/invader-zim-seasons-1-2-full-series/Season%201%2FInvader%20Zim%20S01E12%20Bolognius%20Maximus%20%26%20Game%20Slave%202.mp4",
-              "seconds": 1464,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 190
-            },
-            {
-              "conf": 0.7,
-              "why": "absolute episode number",
-              "item": "202103230237-45",
-              "itemTitle": "*REDUX* Invader ZIM on Nicktoons Broadcast (February 2021)",
-              "file": "Invader ZIM - EP 20 Tak The Hideous New Girl (Part 1).mp4",
-              "name": "Invader ZIM - EP 20 Tak The Hideous New Girl (Part 1)",
-              "url": "https://archive.org/download/202103230237-45/Invader%20ZIM%20-%20EP%2020%20Tak%20The%20Hideous%20New%20Girl%20(Part%201).mp4",
-              "seconds": 1404,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 237
-            }
-          ]
+          "alternates": []
         },
         {
           "number": 21,
@@ -840,34 +800,21 @@
           "number": 22,
           "name": "Halloween Spectacular of Spooky Doom",
           "airdate": "2001-10-26",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
-            "why": "S/E in filename + title match",
-            "item": "invader-zim-s-01-e-27-battle-of-the-planets-1080p-x-265-q-22-joy",
-            "itemTitle": "Invader Zim Season 1 1080p Upscale",
-            "file": "Invader Zim S01E22 Halloween Spectacular of Spooky Doom  [1080p x265 q22 Joy].mp4",
-            "name": "Invader Zim S01E22 Halloween Spectacular of Spooky Doom  [1080p x265 q22 Joy]",
-            "url": "https://archive.org/download/invader-zim-s-01-e-27-battle-of-the-planets-1080p-x-265-q-22-joy/Invader%20Zim%20S01E22%20Halloween%20Spectacular%20of%20Spooky%20Doom%20%20%5B1080p%20x265%20q22%20Joy%5D.mp4",
-            "seconds": 1425,
-            "format": "h.264",
+            "conf": 0.8,
+            "why": "title ~ \"Halloween Spectacular of Spooky Doom\" (1.00)",
+            "item": "invader-zim-seasons-1-2-full-series",
+            "itemTitle": "Invader Zim Full Series Seasons 1-2",
+            "file": "Season 1/Invader Zim S01E14 Halloween Spectacular of Spooky Doom.mp4",
+            "name": "Season 1/Invader Zim S01E14 Halloween Spectacular of Spooky Doom",
+            "url": "https://archive.org/download/invader-zim-seasons-1-2-full-series/Season%201%2FInvader%20Zim%20S01E14%20Halloween%20Spectacular%20of%20Spooky%20Doom.mp4",
+            "seconds": 1426,
+            "format": "MPEG4",
             "playable": true,
-            "sizeMB": 143
+            "sizeMB": 180
           },
           "alternates": [
-            {
-              "conf": 0.8,
-              "why": "title ~ \"Halloween Spectacular of Spooky Doom\" (1.00)",
-              "item": "invader-zim-seasons-1-2-full-series",
-              "itemTitle": "Invader Zim Full Series Seasons 1-2",
-              "file": "Season 1/Invader Zim S01E14 Halloween Spectacular of Spooky Doom.mp4",
-              "name": "Season 1/Invader Zim S01E14 Halloween Spectacular of Spooky Doom",
-              "url": "https://archive.org/download/invader-zim-seasons-1-2-full-series/Season%201%2FInvader%20Zim%20S01E14%20Halloween%20Spectacular%20of%20Spooky%20Doom.mp4",
-              "seconds": 1426,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 180
-            },
             {
               "conf": 0.75,
               "why": "title ~ \"Halloween Spectacular of Spooky Doom\" (0.97)",
@@ -893,6 +840,20 @@
               "format": "MPEG4",
               "playable": true,
               "sizeMB": 246
+            },
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "invader-zim-s-01-e-27-battle-of-the-planets-1080p-x-265-q-22-joy",
+              "itemTitle": "Invader Zim Season 1 1080p Upscale",
+              "file": "Invader Zim S01E22 Halloween Spectacular of Spooky Doom  [1080p x265 q22 Joy].mp4",
+              "name": "Invader Zim S01E22 Halloween Spectacular of Spooky Doom  [1080p x265 q22 Joy]",
+              "url": "https://archive.org/download/invader-zim-s-01-e-27-battle-of-the-planets-1080p-x-265-q-22-joy/Invader%20Zim%20S01E22%20Halloween%20Spectacular%20of%20Spooky%20Doom%20%20%5B1080p%20x265%20q22%20Joy%5D.mp4",
+              "seconds": 1425,
+              "format": "h.264",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 143
             }
           ]
         },
@@ -997,34 +958,21 @@
           "number": 27,
           "name": "Battle of the Planets",
           "airdate": "2002-04-05",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
-            "why": "S/E in filename + title match",
-            "item": "invader-zim-s-01-e-27-battle-of-the-planets-1080p-x-265-q-22-joy",
-            "itemTitle": "Invader Zim Season 1 1080p Upscale",
-            "file": "Invader Zim S01E27 Battle of the Planets  [1080p x265 q22 Joy].mp4",
-            "name": "Invader Zim S01E27 Battle of the Planets  [1080p x265 q22 Joy]",
-            "url": "https://archive.org/download/invader-zim-s-01-e-27-battle-of-the-planets-1080p-x-265-q-22-joy/Invader%20Zim%20S01E27%20Battle%20of%20the%20Planets%20%20%5B1080p%20x265%20q22%20Joy%5D.mp4",
-            "seconds": 1464,
-            "format": "h.264",
+            "conf": 0.8,
+            "why": "title ~ \"Battle of the Planets\" (1.00)",
+            "item": "invader-zim-seasons-1-2-full-series",
+            "itemTitle": "Invader Zim Full Series Seasons 1-2",
+            "file": "Season 1/Invader Zim S01E13 Battle of the Planets.mp4",
+            "name": "Season 1/Invader Zim S01E13 Battle of the Planets",
+            "url": "https://archive.org/download/invader-zim-seasons-1-2-full-series/Season%201%2FInvader%20Zim%20S01E13%20Battle%20of%20the%20Planets.mp4",
+            "seconds": 1466,
+            "format": "MPEG4",
             "playable": true,
-            "sizeMB": 146
+            "sizeMB": 217
           },
           "alternates": [
-            {
-              "conf": 0.8,
-              "why": "title ~ \"Battle of the Planets\" (1.00)",
-              "item": "invader-zim-seasons-1-2-full-series",
-              "itemTitle": "Invader Zim Full Series Seasons 1-2",
-              "file": "Season 1/Invader Zim S01E13 Battle of the Planets.mp4",
-              "name": "Season 1/Invader Zim S01E13 Battle of the Planets",
-              "url": "https://archive.org/download/invader-zim-seasons-1-2-full-series/Season%201%2FInvader%20Zim%20S01E13%20Battle%20of%20the%20Planets.mp4",
-              "seconds": 1466,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 217
-            },
             {
               "conf": 0.75,
               "why": "title ~ \"Battle of the Planets\" (0.95)",
@@ -1036,6 +984,20 @@
               "seconds": 1466,
               "format": "h.264",
               "playable": true,
+              "sizeMB": 146
+            },
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "invader-zim-s-01-e-27-battle-of-the-planets-1080p-x-265-q-22-joy",
+              "itemTitle": "Invader Zim Season 1 1080p Upscale",
+              "file": "Invader Zim S01E27 Battle of the Planets  [1080p x265 q22 Joy].mp4",
+              "name": "Invader Zim S01E27 Battle of the Planets  [1080p x265 q22 Joy]",
+              "url": "https://archive.org/download/invader-zim-s-01-e-27-battle-of-the-planets-1080p-x-265-q-22-joy/Invader%20Zim%20S01E27%20Battle%20of%20the%20Planets%20%20%5B1080p%20x265%20q22%20Joy%5D.mp4",
+              "seconds": 1464,
+              "format": "h.264",
+              "playable": false,
+              "codecRisk": "video (x265)",
               "sizeMB": 146
             }
           ]
@@ -1140,10 +1102,10 @@
           "number": 32,
           "name": "TAK: The Hideous New Girl",
           "airdate": "2002-05-10",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
-            "why": "S/E in filename + title match",
+            "conf": 0.6,
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
             "item": "invader-zim-s-01-e-27-battle-of-the-planets-1080p-x-265-q-22-joy",
             "itemTitle": "Invader Zim Season 1 1080p Upscale",
             "file": "Invader Zim S01E32 Tak The Hideous New Girl  [1080p x265 q22 Joy].mp4",
@@ -1151,50 +1113,11 @@
             "url": "https://archive.org/download/invader-zim-s-01-e-27-battle-of-the-planets-1080p-x-265-q-22-joy/Invader%20Zim%20S01E32%20Tak%20The%20Hideous%20New%20Girl%20%20%5B1080p%20x265%20q22%20Joy%5D.mp4",
             "seconds": 1466,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 146
           },
-          "alternates": [
-            {
-              "conf": 0.8,
-              "why": "title ~ \"TAK: The Hideous New Girl\" (0.95)",
-              "item": "202103230237-45",
-              "itemTitle": "*REDUX* Invader ZIM on Nicktoons Broadcast (February 2021)",
-              "file": "Invader ZIM - EP 20 Tak The Hideous New Girl (Part 1).mp4",
-              "name": "Invader ZIM - EP 20 Tak The Hideous New Girl (Part 1)",
-              "url": "https://archive.org/download/202103230237-45/Invader%20ZIM%20-%20EP%2020%20Tak%20The%20Hideous%20New%20Girl%20(Part%201).mp4",
-              "seconds": 1404,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 237
-            },
-            {
-              "conf": 0.8,
-              "why": "title ~ \"TAK: The Hideous New Girl\" (1.00)",
-              "item": "invader-zim-seasons-1-2-full-series",
-              "itemTitle": "Invader Zim Full Series Seasons 1-2",
-              "file": "Season 1/Invader Zim S01E20 Tak The Hideous New Girl.mp4",
-              "name": "Season 1/Invader Zim S01E20 Tak The Hideous New Girl",
-              "url": "https://archive.org/download/invader-zim-seasons-1-2-full-series/Season%201%2FInvader%20Zim%20S01E20%20Tak%20The%20Hideous%20New%20Girl.mp4",
-              "seconds": 1466,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 206
-            },
-            {
-              "conf": 0.8,
-              "why": "title ~ \"TAK: The Hideous New Girl\" (0.95)",
-              "item": "ytvinvaderzimvideos",
-              "itemTitle": "YTV Invader Zim Videos (YouTube)",
-              "file": "Invader Zim - Tak, the Hideous New Girl - Ep 20.mp4",
-              "name": "Invader Zim - Tak, the Hideous New Girl - Ep 20",
-              "url": "https://archive.org/download/ytvinvaderzimvideos/Invader%20Zim%20-%20Tak%2C%20the%20Hideous%20New%20Girl%20-%20Ep%2020.mp4",
-              "seconds": 1466,
-              "format": "h.264",
-              "playable": true,
-              "sizeMB": 152
-            }
-          ]
+          "alternates": []
         },
         {
           "number": 33,

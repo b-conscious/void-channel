@@ -3,7 +3,7 @@
   "slug": "my-wife-and-kids",
   "type": "2000s and Later Sitcoms",
   "network": "ABC",
-  "matchedAt": "2026-10-13T07:46:14.953Z",
+  "matchedAt": "2026-10-13T15:54:05.832Z",
   "tvmaze": {
     "id": 952,
     "name": "My Wife and Kids",
@@ -13,8 +13,8 @@
   },
   "coverage": {
     "total": 123,
-    "live": 108,
-    "review": 1,
+    "live": 106,
+    "review": 3,
     "missing": 14,
     "pct": 89
   },
@@ -240,9 +240,9 @@
           "number": 11,
           "name": "Hair Today, Gone Tomorrow",
           "airdate": "2001-05-09",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "my-wife-and-kids-complete-series_202511",
             "itemTitle": "My Wife & Kids: The Complete Series",
@@ -1625,9 +1625,9 @@
           "number": 14,
           "name": "Moving on Out",
           "airdate": "2004-01-07",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "my-wife-and-kids-complete-series_202511",
             "itemTitle": "My Wife & Kids: The Complete Series",

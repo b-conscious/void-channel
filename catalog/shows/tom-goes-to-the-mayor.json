@@ -3,7 +3,7 @@
   "slug": "tom-goes-to-the-mayor",
   "type": "Adult Swim",
   "network": "Adult Swim",
-  "matchedAt": "2026-10-13T07:46:15.817Z",
+  "matchedAt": "2026-10-13T15:54:08.198Z",
   "tvmaze": {
     "id": 6243,
     "name": "Tom Goes to the Mayor",
@@ -13,8 +13,8 @@
   },
   "coverage": {
     "total": 30,
-    "live": 30,
-    "review": 0,
+    "live": 28,
+    "review": 2,
     "missing": 0,
     "pct": 100
   },
@@ -120,9 +120,9 @@
           "number": 3,
           "name": "Pioneer Island",
           "airdate": "2004-12-05",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "203-jeffy-the-sea-serpent",
             "itemTitle": "Tom Goes to the Mayor",
@@ -136,7 +136,7 @@
           },
           "alternates": [
             {
-              "conf": 1,
+              "conf": 0.6,
               "why": "S/E in filename + title match",
               "item": "tomgoestothemayor",
               "itemTitle": "Tom Goes To The Mayor (2004) FULL SERIES",
@@ -744,9 +744,9 @@
           "number": 4,
           "name": "White Collarless",
           "airdate": "2006-06-25",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "203-jeffy-the-sea-serpent",
             "itemTitle": "Tom Goes to the Mayor",
@@ -760,7 +760,7 @@
           },
           "alternates": [
             {
-              "conf": 1,
+              "conf": 0.6,
               "why": "S/E in filename + title match",
               "item": "tomgoestothemayor",
               "itemTitle": "Tom Goes To The Mayor (2004) FULL SERIES",

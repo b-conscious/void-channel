@@ -3,7 +3,7 @@
   "slug": "moral-orel",
   "type": "Adult Swim",
   "network": "Adult Swim",
-  "matchedAt": "2026-10-13T07:46:15.862Z",
+  "matchedAt": "2026-10-13T15:54:08.272Z",
   "tvmaze": {
     "id": 1960,
     "name": "Moral Orel",
@@ -14,9 +14,9 @@
   "coverage": {
     "total": 43,
     "live": 2,
-    "review": 41,
-    "missing": 0,
-    "pct": 100
+    "review": 40,
+    "missing": 1,
+    "pct": 98
   },
   "seasons": [
     {
@@ -1406,35 +1406,9 @@
           "number": 11,
           "name": "Sacrifice",
           "airdate": "2008-11-17",
-          "state": "REVIEW",
-          "file": {
-            "conf": 0.75,
-            "why": "title ~ \"Sacrifice\" (0.95)",
-            "item": "moral-orel-complete-720p",
-            "itemTitle": "Moral Orel - Complete Series + Beforel Orel 720p HD",
-            "file": "3-11 - Sacrifice.mp4",
-            "name": "3-11 - Sacrifice",
-            "url": "https://archive.org/download/moral-orel-complete-720p/3-11%20-%20Sacrifice.mp4",
-            "seconds": 705,
-            "format": "MPEG4",
-            "playable": true,
-            "sizeMB": 96
-          },
-          "alternates": [
-            {
-              "conf": 0.75,
-              "why": "title ~ \"Sacrifice\" (0.95)",
-              "item": "moral-orel-season-3",
-              "itemTitle": "Moral Orel Season 3",
-              "file": "#11 Sacrifice.mp4",
-              "name": "#11 Sacrifice",
-              "url": "https://archive.org/download/moral-orel-season-3/%2311%20Sacrifice.mp4",
-              "seconds": 705,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 35
-            }
-          ]
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
         },
         {
           "number": 12,

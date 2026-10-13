@@ -1,9 +1,9 @@
 {
   "show": "The Inbetweeners",
   "slug": "the-inbetweeners",
-  "type": "2000s and Later Sitcoms",
+  "type": "British and Beyond",
   "network": "E4",
-  "matchedAt": "2026-10-13T07:46:15.367Z",
+  "matchedAt": "2026-10-13T15:54:10.932Z",
   "tvmaze": {
     "id": 953,
     "name": "The Inbetweeners",
@@ -30,30 +30,17 @@
           "file": {
             "conf": 1,
             "why": "S/E in filename + title match",
-            "item": "the-inbetweeners-2008-s-01-e-01-first-day-576p-dvd-x-265-panda",
-            "itemTitle": "The Inbetweeners ( 2008) S 01 E 01 First Day ( 576p DVD X 265 Panda)",
-            "file": "The Inbetweeners (2008) - S01E01 - First Day (576p DVD x265 Panda).mp4",
-            "name": "The Inbetweeners (2008) - S01E01 - First Day (576p DVD x265 Panda)",
-            "url": "https://archive.org/download/the-inbetweeners-2008-s-01-e-01-first-day-576p-dvd-x-265-panda/The%20Inbetweeners%20(2008)%20-%20S01E01%20-%20First%20Day%20(576p%20DVD%20x265%20Panda).mp4",
-            "seconds": 1314,
-            "format": "h.264",
+            "item": "the-inbetweeners-series1",
+            "itemTitle": "The Inbetweeners - Series 1 (2008)",
+            "file": "The Inbetweeners 1x01 First Day.mp4",
+            "name": "The Inbetweeners 1x01 First Day",
+            "url": "https://archive.org/download/the-inbetweeners-series1/The%20Inbetweeners%201x01%20First%20Day.mp4",
+            "seconds": 1307,
+            "format": "MPEG4",
             "playable": true,
-            "sizeMB": 129
+            "sizeMB": 124
           },
           "alternates": [
-            {
-              "conf": 1,
-              "why": "S/E in filename + title match",
-              "item": "the-inbetweeners-series1",
-              "itemTitle": "The Inbetweeners - Series 1 (2008)",
-              "file": "The Inbetweeners 1x01 First Day.mp4",
-              "name": "The Inbetweeners 1x01 First Day",
-              "url": "https://archive.org/download/the-inbetweeners-series1/The%20Inbetweeners%201x01%20First%20Day.mp4",
-              "seconds": 1307,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 124
-            },
             {
               "conf": 0.9,
               "why": "S/E in filename",
@@ -79,6 +66,19 @@
               "format": "MPEG4",
               "playable": true,
               "sizeMB": 194
+            },
+            {
+              "conf": 0.75,
+              "why": "title ~ \"First Day\" (0.95)",
+              "item": "episode-two-bunk-off",
+              "itemTitle": "The Inbetweeners - Season 1",
+              "file": "Episode One - First Day.mp4",
+              "name": "Episode One - First Day",
+              "url": "https://archive.org/download/episode-two-bunk-off/Episode%20One%20-%20First%20Day.mp4",
+              "seconds": 1307,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 132
             }
           ]
         },

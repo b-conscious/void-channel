@@ -3,7 +3,7 @@
   "slug": "aqua-teen-hunger-force",
   "type": "Adult Swim",
   "network": "Adult Swim",
-  "matchedAt": "2026-10-13T07:46:15.792Z",
+  "matchedAt": "2026-10-13T15:54:08.144Z",
   "tvmaze": {
     "id": 382,
     "name": "Aqua Teen Hunger Force",
@@ -13,9 +13,9 @@
   },
   "coverage": {
     "total": 143,
-    "live": 134,
-    "review": 1,
-    "missing": 8,
+    "live": 131,
+    "review": 3,
+    "missing": 9,
     "pct": 94
   },
   "seasons": [
@@ -618,9 +618,9 @@
           "number": 11,
           "name": "Universal Remonster",
           "airdate": "2003-09-28",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "aqua-teen-hunger-force-2000-s-01e-01-rabbot",
             "itemTitle": "Aqua Teen Hunger Force Complete sereis (2000) (1080p HMAX WEB-DL H265 SDR DD English)",
@@ -1766,9 +1766,9 @@
             "why": "S/E in filename + title match",
             "item": "aqua-teen-hunger-force-2000-s-01e-01-rabbot",
             "itemTitle": "Aqua Teen Hunger Force Complete sereis (2000) (1080p HMAX WEB-DL H265 SDR DD English)",
-            "file": "Aqua Teen Hunger Force (2000) - S06E02 - Shake Like Me (1080p WEB-DL x265 r00t).mp4",
-            "name": "Aqua Teen Hunger Force (2000) - S06E02 - Shake Like Me (1080p WEB-DL x265 r00t)",
-            "url": "https://archive.org/download/aqua-teen-hunger-force-2000-s-01e-01-rabbot/Aqua%20Teen%20Hunger%20Force%20(2000)%20-%20S06E02%20-%20Shake%20Like%20Me%20(1080p%20WEB-DL%20x265%20r00t).mp4",
+            "file": "Aqua Teen Hunger Force (2000) - S06e02 - Shake Like Me.mp4",
+            "name": "Aqua Teen Hunger Force (2000) - S06e02 - Shake Like Me",
+            "url": "https://archive.org/download/aqua-teen-hunger-force-2000-s-01e-01-rabbot/Aqua%20Teen%20Hunger%20Force%20(2000)%20-%20S06e02%20-%20Shake%20Like%20Me.mp4",
             "seconds": 684,
             "format": "h.264",
             "playable": true,
@@ -1780,9 +1780,9 @@
               "why": "S/E in filename + title match",
               "item": "aqua-teen-hunger-force-2000-s-01e-01-rabbot",
               "itemTitle": "Aqua Teen Hunger Force Complete sereis (2000) (1080p HMAX WEB-DL H265 SDR DD English)",
-              "file": "Aqua Teen Hunger Force (2000) - S06e02 - Shake Like Me.mp4",
-              "name": "Aqua Teen Hunger Force (2000) - S06e02 - Shake Like Me",
-              "url": "https://archive.org/download/aqua-teen-hunger-force-2000-s-01e-01-rabbot/Aqua%20Teen%20Hunger%20Force%20(2000)%20-%20S06e02%20-%20Shake%20Like%20Me.mp4",
+              "file": "Aqua Teen Hunger Force (2000) - s06e02 - Shake Like Me.mp4",
+              "name": "Aqua Teen Hunger Force (2000) - s06e02 - Shake Like Me",
+              "url": "https://archive.org/download/aqua-teen-hunger-force-2000-s-01e-01-rabbot/Aqua%20Teen%20Hunger%20Force%20(2000)%20-%20s06e02%20-%20Shake%20Like%20Me.mp4",
               "seconds": 684,
               "format": "h.264",
               "playable": true,
@@ -1793,12 +1793,13 @@
               "why": "S/E in filename + title match",
               "item": "aqua-teen-hunger-force-2000-s-01e-01-rabbot",
               "itemTitle": "Aqua Teen Hunger Force Complete sereis (2000) (1080p HMAX WEB-DL H265 SDR DD English)",
-              "file": "Aqua Teen Hunger Force (2000) - s06e02 - Shake Like Me.mp4",
-              "name": "Aqua Teen Hunger Force (2000) - s06e02 - Shake Like Me",
-              "url": "https://archive.org/download/aqua-teen-hunger-force-2000-s-01e-01-rabbot/Aqua%20Teen%20Hunger%20Force%20(2000)%20-%20s06e02%20-%20Shake%20Like%20Me.mp4",
+              "file": "Aqua Teen Hunger Force (2000) - S06E02 - Shake Like Me (1080p WEB-DL x265 r00t).mp4",
+              "name": "Aqua Teen Hunger Force (2000) - S06E02 - Shake Like Me (1080p WEB-DL x265 r00t)",
+              "url": "https://archive.org/download/aqua-teen-hunger-force-2000-s-01e-01-rabbot/Aqua%20Teen%20Hunger%20Force%20(2000)%20-%20S06E02%20-%20Shake%20Like%20Me%20(1080p%20WEB-DL%20x265%20r00t).mp4",
               "seconds": 684,
               "format": "h.264",
-              "playable": true,
+              "playable": false,
+              "codecRisk": "video (x265)",
               "sizeMB": 67
             }
           ]
@@ -2088,55 +2089,27 @@
             "playable": true,
             "sizeMB": 66
           },
-          "alternates": [
-            {
-              "conf": 0.8,
-              "why": "title ~ \"Monster\" (1.00)",
-              "item": "aqua-teen-hunger-force-2000-s-01e-01-rabbot",
-              "itemTitle": "Aqua Teen Hunger Force Complete sereis (2000) (1080p HMAX WEB-DL H265 SDR DD English)",
-              "file": "Aqua Teen Hunger Force (2000) - s07e05 - Monster.mp4",
-              "name": "Aqua Teen Hunger Force (2000) - s07e05 - Monster",
-              "url": "https://archive.org/download/aqua-teen-hunger-force-2000-s-01e-01-rabbot/Aqua%20Teen%20Hunger%20Force%20(2000)%20-%20s07e05%20-%20Monster.mp4",
-              "seconds": 694,
-              "format": "h.264",
-              "playable": true,
-              "sizeMB": 68
-            }
-          ]
+          "alternates": []
         },
         {
           "number": 5,
           "name": "Hands on a Hamburger",
           "airdate": "2010-03-21",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 0.9,
-            "why": "S/E in filename",
+            "conf": 0.8,
+            "why": "title ~ \"Hands on a Hamburger\" (1.00)",
             "item": "aqua-teen-hunger-force-2000-s-01e-01-rabbot",
             "itemTitle": "Aqua Teen Hunger Force Complete sereis (2000) (1080p HMAX WEB-DL H265 SDR DD English)",
-            "file": "Aqua Teen Hunger Force (2000) - s07e05 - Monster.mp4",
-            "name": "Aqua Teen Hunger Force (2000) - s07e05 - Monster",
-            "url": "https://archive.org/download/aqua-teen-hunger-force-2000-s-01e-01-rabbot/Aqua%20Teen%20Hunger%20Force%20(2000)%20-%20s07e05%20-%20Monster.mp4",
-            "seconds": 694,
+            "file": "Aqua Teen Hunger Force (2000) - s07e06 - Hands On a Hamburger.mp4",
+            "name": "Aqua Teen Hunger Force (2000) - s07e06 - Hands On a Hamburger",
+            "url": "https://archive.org/download/aqua-teen-hunger-force-2000-s-01e-01-rabbot/Aqua%20Teen%20Hunger%20Force%20(2000)%20-%20s07e06%20-%20Hands%20On%20a%20Hamburger.mp4",
+            "seconds": 692,
             "format": "h.264",
             "playable": true,
-            "sizeMB": 68
+            "sizeMB": 67
           },
-          "alternates": [
-            {
-              "conf": 0.8,
-              "why": "title ~ \"Hands on a Hamburger\" (1.00)",
-              "item": "aqua-teen-hunger-force-2000-s-01e-01-rabbot",
-              "itemTitle": "Aqua Teen Hunger Force Complete sereis (2000) (1080p HMAX WEB-DL H265 SDR DD English)",
-              "file": "Aqua Teen Hunger Force (2000) - s07e06 - Hands On a Hamburger.mp4",
-              "name": "Aqua Teen Hunger Force (2000) - s07e06 - Hands On a Hamburger",
-              "url": "https://archive.org/download/aqua-teen-hunger-force-2000-s-01e-01-rabbot/Aqua%20Teen%20Hunger%20Force%20(2000)%20-%20s07e06%20-%20Hands%20On%20a%20Hamburger.mp4",
-              "seconds": 692,
-              "format": "h.264",
-              "playable": true,
-              "sizeMB": 67
-            }
-          ]
+          "alternates": []
         },
         {
           "number": 6,
@@ -2531,20 +2504,8 @@
           "number": 10,
           "name": "Spy",
           "airdate": "2011-07-24",
-          "state": "LIVE",
-          "file": {
-            "conf": 0.9,
-            "why": "S/E in filename",
-            "item": "aqua-teen-hunger-force-2000-s-01e-01-rabbot",
-            "itemTitle": "Aqua Teen Hunger Force Complete sereis (2000) (1080p HMAX WEB-DL H265 SDR DD English)",
-            "file": "Aqua Teen Hunger Force (2000) - s08e10 - Last Dance for Napkin Lad.mp4",
-            "name": "Aqua Teen Hunger Force (2000) - s08e10 - Last Dance for Napkin Lad",
-            "url": "https://archive.org/download/aqua-teen-hunger-force-2000-s-01e-01-rabbot/Aqua%20Teen%20Hunger%20Force%20(2000)%20-%20s08e10%20-%20Last%20Dance%20for%20Napkin%20Lad.mp4",
-            "seconds": 681,
-            "format": "h.264",
-            "playable": true,
-            "sizeMB": 66
-          },
+          "state": "MISSING",
+          "file": null,
           "alternates": []
         }
       ]

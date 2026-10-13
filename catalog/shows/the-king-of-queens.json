@@ -3,7 +3,7 @@
   "slug": "the-king-of-queens",
   "type": "2000s and Later Sitcoms",
   "network": "CBS",
-  "matchedAt": "2026-10-13T07:46:14.832Z",
+  "matchedAt": "2026-10-13T15:54:05.642Z",
   "tvmaze": {
     "id": 552,
     "name": "The King of Queens",
@@ -13,8 +13,8 @@
   },
   "coverage": {
     "total": 207,
-    "live": 199,
-    "review": 0,
+    "live": 194,
+    "review": 5,
     "missing": 8,
     "pct": 96
   },
@@ -604,9 +604,9 @@
           "number": 18,
           "name": "White Collar",
           "airdate": "1999-02-22",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "the-king-of-queens-complete-series-dvd",
             "itemTitle": "[DVDrip] The King of Queens - Season 1-9 (Complete Series)",
@@ -620,7 +620,7 @@
           },
           "alternates": [
             {
-              "conf": 1,
+              "conf": 0.6,
               "why": "S/E in filename + title match",
               "item": "the-king-of-queens-tv-version",
               "itemTitle": "The King Of Queens TV Version",
@@ -1221,9 +1221,9 @@
           "number": 11,
           "name": "Sparing Carrie",
           "airdate": "1999-11-29",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "the-king-of-queens-complete-series-dvd",
             "itemTitle": "[DVDrip] The King of Queens - Season 1-9 (Complete Series)",
@@ -1237,7 +1237,7 @@
           },
           "alternates": [
             {
-              "conf": 1,
+              "conf": 0.6,
               "why": "S/E in filename + title match",
               "item": "the-king-of-queens-tv-version",
               "itemTitle": "The King Of Queens TV Version",
@@ -4066,9 +4066,9 @@
           "number": 22,
           "name": "Queens'bro Bridge",
           "airdate": "2003-04-28",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "the-king-of-queens-tv-version",
             "itemTitle": "The King Of Queens TV Version",
@@ -5477,9 +5477,9 @@
           "number": 15,
           "name": "Deconstructing Carrie",
           "airdate": "2005-03-02",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "the-king-of-queens-complete-series-dvd",
             "itemTitle": "[DVDrip] The King of Queens - Season 1-9 (Complete Series)",
@@ -5493,7 +5493,7 @@
           },
           "alternates": [
             {
-              "conf": 1,
+              "conf": 0.6,
               "why": "S/E in filename + title match",
               "item": "the-king-of-queens-tv-version",
               "itemTitle": "The King Of Queens TV Version",
@@ -6567,9 +6567,9 @@
           "number": 11,
           "name": "Single Spaced",
           "airdate": "2007-05-07",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "the-king-of-queens-tv-version",
             "itemTitle": "The King Of Queens TV Version",

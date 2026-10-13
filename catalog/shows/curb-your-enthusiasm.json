@@ -3,7 +3,7 @@
   "slug": "curb-your-enthusiasm",
   "type": "2000s and Later Sitcoms",
   "network": "HBO",
-  "matchedAt": "2026-10-13T07:46:14.914Z",
+  "matchedAt": "2026-10-13T15:54:05.777Z",
   "tvmaze": {
     "id": 551,
     "name": "Curb Your Enthusiasm",
@@ -14,9 +14,9 @@
   "coverage": {
     "total": 120,
     "live": 0,
-    "review": 32,
-    "missing": 88,
-    "pct": 27
+    "review": 31,
+    "missing": 89,
+    "pct": 26
   },
   "seasons": [
     {
@@ -645,20 +645,8 @@
           "number": 9,
           "name": "The Survivor",
           "airdate": "2004-03-07",
-          "state": "REVIEW",
-          "file": {
-            "conf": 0.7,
-            "why": "title ~ \"The Survivor\" (0.95)",
-            "item": "history-of-curb-your-enthusiasm-720p-24fps-vp-9-128kbit-aac",
-            "itemTitle": "Larry David - History of Curb Your Enthusiasm [Complete][Cancelled] (720p 24fps VP9 128kbit AAC)",
-            "file": "History of Curb (Podcast) cancelled 2025/S4 Ep. 9 - “The Survivor” ¦ The History of Curb Your Enthusiasm (720p_24fps_VP9-128kbit_AAC).mp4",
-            "name": "History of Curb (Podcast) cancelled 2025/S4 Ep. 9 - “The Survivor” ¦ The History of Curb Your Enthusiasm (720p_24fps_VP9-128kbit_AAC)",
-            "url": "https://archive.org/download/history-of-curb-your-enthusiasm-720p-24fps-vp-9-128kbit-aac/History%20of%20Curb%20(Podcast)%20cancelled%202025%2FS4%20Ep.%209%20-%20%E2%80%9CThe%20Survivor%E2%80%9D%20%C2%A6%20The%20History%20of%20Curb%20Your%20Enthusiasm%20(720p_24fps_VP9-128kbit_AAC).mp4",
-            "seconds": 3194,
-            "format": "h.264",
-            "playable": true,
-            "sizeMB": 309
-          },
+          "state": "MISSING",
+          "file": null,
           "alternates": []
         },
         {

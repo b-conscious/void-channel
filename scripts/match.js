@@ -53,6 +53,18 @@ function titleSim(filePart, epName) {
   return Math.max(d, overlap * 0.95);
 }
 
+// Browser playability from the filename: browsers decode H.264/AAC in mp4/webm; they do not
+// decode Dolby Digital / DTS audio (silent picture) and often not HEVC/x265 video. The Archive's
+// metadata rarely says the codec, but release names almost always do.
+const AUDIO_RISK = /\b(dd ?5[. ]?1|dd ?2[. ]?0|ddp?\d|dd\+|e-?ac-?3|ac-?3|dts(-hd)?(-ma)?|truehd|atmos|flac)\b/i;
+const VIDEO_RISK = /\b(x ?265|hevc|h[. ]?265|10 ?bit|av1|xvid|divx)\b/i;
+function codecRisk(name, format, playable) {
+  if (!playable) return 'container (' + format + ')';
+  if (AUDIO_RISK.test(name)) return 'audio (' + name.match(AUDIO_RISK)[0] + ')';
+  if (VIDEO_RISK.test(name)) return 'video (' + name.match(VIDEO_RISK)[0] + ')';
+  return null;
+}
+
 function loadTv(show) {
   const f = path.join(CACHE_DIR, 'tvmaze-' + slug(show) + '.json');
   return fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : null;
@@ -112,7 +124,8 @@ function matchShow(entry) {
         if (!f.playable) conf -= 0.1;
         conf = Math.max(0, Math.min(1, conf));
         if (conf < REVIEW) continue;
-        push(c.ep, { conf: +conf.toFixed(2), why: c.why, item: item.id, itemTitle: item.title, file: f.file, name: f.name, url: f.url, seconds: f.seconds, format: f.format, playable: f.playable, sizeMB: f.sizeMB });
+        const risk = codecRisk(f.name, f.format, f.playable);
+        push(c.ep, { conf: +conf.toFixed(2), why: c.why, item: item.id, itemTitle: item.title, file: f.file, name: f.name, url: f.url, seconds: f.seconds, format: f.format, playable: !risk, codecRisk: risk || undefined, sizeMB: f.sizeMB });
       }
     }
     // Sequence fallback: a DVD/season rip whose files carry no names ("Disc 1 10", "VTS_03_1").
@@ -128,7 +141,8 @@ function matchShow(entry) {
       const sorted = [...unmatched].sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true }));
       sorted.forEach((f, i) => {
         if (!eps[i]) return;
-        push(eps[i], { conf: 0.55, why: `sequence guess: file ${i + 1} of ${sorted.length} in "${String(item.title).slice(0, 40)}"`, item: item.id, itemTitle: item.title, file: f.file, name: f.name, url: f.url, seconds: f.seconds, format: f.format, playable: f.playable, sizeMB: f.sizeMB });
+        const risk = codecRisk(f.name, f.format, f.playable);
+        push(eps[i], { conf: 0.55, why: `sequence guess: file ${i + 1} of ${sorted.length} in "${String(item.title).slice(0, 40)}"`, item: item.id, itemTitle: item.title, file: f.file, name: f.name, url: f.url, seconds: f.seconds, format: f.format, playable: !risk, codecRisk: risk || undefined, sizeMB: f.sizeMB });
       });
     }
   }
@@ -137,9 +151,11 @@ function matchShow(entry) {
   let live = 0, review = 0;
   for (const s of [...new Set(tv.episodes.map((e) => e.season))].sort((a, b) => a - b)) {
     const eps = tv.episodes.filter((e) => e.season === s).sort((a, b) => a.number - b.number).map((e) => {
-      const opts = (assignments.get(`${e.season}x${e.number}`) || []).sort((a, b) => b.conf - a.conf || (b.playable - a.playable) || b.sizeMB - a.sizeMB);
+      // A file that plays in a browser beats a cleaner-named one that will not; then confidence.
+      const opts = (assignments.get(`${e.season}x${e.number}`) || []).sort((a, b) => (b.playable - a.playable) || b.conf - a.conf || b.sizeMB - a.sizeMB);
       const pick = opts[0] || null;
-      const state = !pick ? 'MISSING' : pick.conf >= LIVE ? 'LIVE' : 'REVIEW';
+      const state = !pick ? 'MISSING' : (pick.conf >= LIVE && pick.playable) ? 'LIVE' : 'REVIEW';
+      if (pick && !pick.playable) pick.why += ` | not browser-playable: ${pick.codecRisk}`;
       if (state === 'LIVE') live++; else if (state === 'REVIEW') review++;
       return { number: e.number, name: e.name, airdate: e.airdate, state, file: pick, alternates: opts.slice(1, 4) };
     });

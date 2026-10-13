@@ -3,7 +3,7 @@
   "slug": "parks-and-recreation",
   "type": "2000s and Later Sitcoms",
   "network": "NBC",
-  "matchedAt": "2026-10-13T07:46:14.883Z",
+  "matchedAt": "2026-10-13T15:54:05.730Z",
   "tvmaze": {
     "id": 174,
     "name": "Parks and Recreation",
@@ -13,10 +13,10 @@
   },
   "coverage": {
     "total": 125,
-    "live": 0,
+    "live": 1,
     "review": 0,
-    "missing": 125,
-    "pct": 0
+    "missing": 124,
+    "pct": 1
   },
   "seasons": [
     {
@@ -409,8 +409,20 @@
           "number": 1,
           "name": "I'm Leslie Knope",
           "airdate": "2011-09-22",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "fenix-tt1266020-s04-dual",
+            "itemTitle": "Parks And Recreation S 04 E 13",
+            "file": "Parks and Recreation - S04E01.mp4",
+            "name": "Parks and Recreation - S04E01",
+            "url": "https://archive.org/download/fenix-tt1266020-s04-dual/Parks%20and%20Recreation%20-%20S04E01.mp4",
+            "seconds": 1330,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 481
+          },
           "alternates": []
         },
         {

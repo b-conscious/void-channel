@@ -3,7 +3,7 @@
   "slug": "the-erotic-traveler",
   "type": "Late Night",
   "network": "Cinemax",
-  "matchedAt": "2026-10-13T07:46:17.830Z",
+  "matchedAt": "2026-10-13T15:54:10.977Z",
   "tvmaze": {
     "id": 25852,
     "name": "The Erotic Traveler",
@@ -13,8 +13,8 @@
   },
   "coverage": {
     "total": 13,
-    "live": 12,
-    "review": 0,
+    "live": 11,
+    "review": 1,
     "missing": 1,
     "pct": 92
   },
@@ -228,9 +228,9 @@
           "number": 11,
           "name": "Closer",
           "airdate": "2007-04-14",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "the_erotic_traveler",
             "itemTitle": "The Erotic Traveler (2007) [Complete Series]",

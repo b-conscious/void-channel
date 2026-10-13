@@ -3,7 +3,7 @@
   "slug": "george-lopez",
   "type": "2000s and Later Sitcoms",
   "network": "ABC",
-  "matchedAt": "2026-10-13T07:46:15.087Z",
+  "matchedAt": "2026-10-13T15:54:06.021Z",
   "tvmaze": {
     "id": 4129,
     "name": "George Lopez",
@@ -14,9 +14,9 @@
   "coverage": {
     "total": 120,
     "live": 0,
-    "review": 6,
-    "missing": 114,
-    "pct": 5
+    "review": 21,
+    "missing": 99,
+    "pct": 18
   },
   "seasons": [
     {
@@ -29,7 +29,7 @@
           "state": "REVIEW",
           "file": {
             "conf": 0.75,
-            "why": "S/E in filename",
+            "why": "S/E in filename | not browser-playable: video (x265)",
             "item": "greetingsfromtucson",
             "itemTitle": "\"Greetings from Tucson\" (Full 2002 WB series) [HEVC.x265]",
             "file": "01x01 Pilot.x265.mp4",
@@ -37,7 +37,8 @@
             "url": "https://archive.org/download/greetingsfromtucson/01x01%20Pilot.x265.mp4",
             "seconds": 1331,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 132
           },
           "alternates": []
@@ -49,7 +50,7 @@
           "state": "REVIEW",
           "file": {
             "conf": 0.75,
-            "why": "S/E in filename",
+            "why": "S/E in filename | not browser-playable: video (x265)",
             "item": "greetingsfromtucson",
             "itemTitle": "\"Greetings from Tucson\" (Full 2002 WB series) [HEVC.x265]",
             "file": "01x02 My Two Padres.x265.mp4",
@@ -57,7 +58,8 @@
             "url": "https://archive.org/download/greetingsfromtucson/01x02%20My%20Two%20Padres.x265.mp4",
             "seconds": 1347,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 132
           },
           "alternates": []
@@ -69,7 +71,7 @@
           "state": "REVIEW",
           "file": {
             "conf": 0.75,
-            "why": "S/E in filename",
+            "why": "S/E in filename | not browser-playable: video (x265)",
             "item": "greetingsfromtucson",
             "itemTitle": "\"Greetings from Tucson\" (Full 2002 WB series) [HEVC.x265]",
             "file": "01x03 Driving.x265.mp4",
@@ -77,7 +79,8 @@
             "url": "https://archive.org/download/greetingsfromtucson/01x03%20Driving.x265.mp4",
             "seconds": 1345,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 131
           },
           "alternates": []
@@ -89,7 +92,7 @@
           "state": "REVIEW",
           "file": {
             "conf": 0.75,
-            "why": "S/E in filename",
+            "why": "S/E in filename | not browser-playable: video (x265)",
             "item": "greetingsfromtucson",
             "itemTitle": "\"Greetings from Tucson\" (Full 2002 WB series) [HEVC.x265]",
             "file": "01x04 Work Ethic.x265.mp4",
@@ -97,7 +100,8 @@
             "url": "https://archive.org/download/greetingsfromtucson/01x04%20Work%20Ethic.x265.mp4",
             "seconds": 1329,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 130
           },
           "alternates": []
@@ -308,9 +312,37 @@
           "number": 1,
           "name": "Dubya, Dad and Dating (1)",
           "airdate": "2003-09-26",
-          "state": "MISSING",
-          "file": null,
-          "alternates": []
+          "state": "REVIEW",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
+            "item": "gl-fullseries",
+            "itemTitle": "George Lopez",
+            "file": "George Lopez - S03E01 - Dubya, Dad and Dating (1080p x265 EDGE2020).ia.mp4",
+            "name": "George Lopez - S03E01 - Dubya, Dad and Dating (1080p x265 EDGE2020)",
+            "url": "https://archive.org/download/gl-fullseries/George%20Lopez%20-%20S03E01%20-%20Dubya%2C%20Dad%20and%20Dating%20(1080p%20x265%20EDGE2020).ia.mp4",
+            "seconds": 1261,
+            "format": "h.264 IA",
+            "playable": false,
+            "codecRisk": "video (x265)",
+            "sizeMB": 147
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "gl-fullseries",
+              "itemTitle": "George Lopez",
+              "file": "George Lopez - S03E01 - Dubya, Dad and Dating (480p x265 EDGE2020).mp4",
+              "name": "George Lopez - S03E01 - Dubya, Dad and Dating (480p x265 EDGE2020)",
+              "url": "https://archive.org/download/gl-fullseries/George%20Lopez%20-%20S03E01%20-%20Dubya%2C%20Dad%20and%20Dating%20(480p%20x265%20EDGE2020).mp4",
+              "seconds": 1261,
+              "format": "MPEG4",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 147
+            }
+          ]
         },
         {
           "number": 2,
@@ -324,8 +356,21 @@
           "number": 3,
           "name": "The Cuban Missus Crisis",
           "airdate": "2003-10-03",
-          "state": "MISSING",
-          "file": null,
+          "state": "REVIEW",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
+            "item": "gl-fullseries",
+            "itemTitle": "George Lopez",
+            "file": "George Lopez - S03E03 - The Cuban Missus Crisis (1080p x265 EDGE2020).mp4",
+            "name": "George Lopez - S03E03 - The Cuban Missus Crisis (1080p x265 EDGE2020)",
+            "url": "https://archive.org/download/gl-fullseries/George%20Lopez%20-%20S03E03%20-%20The%20Cuban%20Missus%20Crisis%20(1080p%20x265%20EDGE2020).mp4",
+            "seconds": 1262,
+            "format": "MPEG4",
+            "playable": false,
+            "codecRisk": "video (x265)",
+            "sizeMB": 132
+          },
           "alternates": []
         },
         {
@@ -340,24 +385,63 @@
           "number": 5,
           "name": "Carmen's Dating",
           "airdate": "2003-10-17",
-          "state": "MISSING",
-          "file": null,
+          "state": "REVIEW",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
+            "item": "gl-fullseries",
+            "itemTitle": "George Lopez",
+            "file": "George Lopez - S03E05 - Carmen's Dating (1080p x265 EDGE2020).mp4",
+            "name": "George Lopez - S03E05 - Carmen's Dating (1080p x265 EDGE2020)",
+            "url": "https://archive.org/download/gl-fullseries/George%20Lopez%20-%20S03E05%20-%20Carmen's%20Dating%20(1080p%20x265%20EDGE2020).mp4",
+            "seconds": 1262,
+            "format": "MPEG4",
+            "playable": false,
+            "codecRisk": "video (x265)",
+            "sizeMB": 138
+          },
           "alternates": []
         },
         {
           "number": 6,
           "name": "Split Decision",
           "airdate": "2003-10-24",
-          "state": "MISSING",
-          "file": null,
+          "state": "REVIEW",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
+            "item": "gl-fullseries",
+            "itemTitle": "George Lopez",
+            "file": "George Lopez - S03E06 - Split Decision (1080p x265 EDGE2020).mp4",
+            "name": "George Lopez - S03E06 - Split Decision (1080p x265 EDGE2020)",
+            "url": "https://archive.org/download/gl-fullseries/George%20Lopez%20-%20S03E06%20-%20Split%20Decision%20(1080p%20x265%20EDGE2020).mp4",
+            "seconds": 1260,
+            "format": "MPEG4",
+            "playable": false,
+            "codecRisk": "video (x265)",
+            "sizeMB": 144
+          },
           "alternates": []
         },
         {
           "number": 7,
           "name": "No One Gets Out Alive",
           "airdate": "2003-10-31",
-          "state": "MISSING",
-          "file": null,
+          "state": "REVIEW",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
+            "item": "gl-fullseries",
+            "itemTitle": "George Lopez",
+            "file": "George Lopez - S03E07 - No One Gets Out Alive (1080p x265 EDGE2020).mp4",
+            "name": "George Lopez - S03E07 - No One Gets Out Alive (1080p x265 EDGE2020)",
+            "url": "https://archive.org/download/gl-fullseries/George%20Lopez%20-%20S03E07%20-%20No%20One%20Gets%20Out%20Alive%20(1080p%20x265%20EDGE2020).mp4",
+            "seconds": 1262,
+            "format": "MPEG4",
+            "playable": false,
+            "codecRisk": "video (x265)",
+            "sizeMB": 155
+          },
           "alternates": []
         },
         {
@@ -380,16 +464,42 @@
           "number": 10,
           "name": "Would You Like a Drumstick or a Kidney?",
           "airdate": "2003-11-21",
-          "state": "MISSING",
-          "file": null,
+          "state": "REVIEW",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
+            "item": "gl-fullseries",
+            "itemTitle": "George Lopez",
+            "file": "George Lopez - S03E10 - Would You Like a Drumstick or a Kidney (1080p x265 EDGE2020).mp4",
+            "name": "George Lopez - S03E10 - Would You Like a Drumstick or a Kidney (1080p x265 EDGE2020)",
+            "url": "https://archive.org/download/gl-fullseries/George%20Lopez%20-%20S03E10%20-%20Would%20You%20Like%20a%20Drumstick%20or%20a%20Kidney%20(1080p%20x265%20EDGE2020).mp4",
+            "seconds": 1261,
+            "format": "MPEG4",
+            "playable": false,
+            "codecRisk": "video (x265)",
+            "sizeMB": 140
+          },
           "alternates": []
         },
         {
           "number": 11,
           "name": "Mementos",
           "airdate": "2003-11-28",
-          "state": "MISSING",
-          "file": null,
+          "state": "REVIEW",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
+            "item": "gl-fullseries",
+            "itemTitle": "George Lopez",
+            "file": "George Lopez - S03E11 - Mementos (1080p x265 EDGE2020).mp4",
+            "name": "George Lopez - S03E11 - Mementos (1080p x265 EDGE2020)",
+            "url": "https://archive.org/download/gl-fullseries/George%20Lopez%20-%20S03E11%20-%20Mementos%20(1080p%20x265%20EDGE2020).mp4",
+            "seconds": 1261,
+            "format": "MPEG4",
+            "playable": false,
+            "codecRisk": "video (x265)",
+            "sizeMB": 136
+          },
           "alternates": []
         },
         {
@@ -398,26 +508,55 @@
           "airdate": "2003-12-12",
           "state": "REVIEW",
           "file": {
-            "conf": 0.65,
-            "why": "title ~ \"Christmas Punch\" (0.80)",
-            "item": "greetingsfromtucson",
-            "itemTitle": "\"Greetings from Tucson\" (Full 2002 WB series) [HEVC.x265]",
-            "file": "01x09 Christmas.x265.mp4",
-            "name": "01x09 Christmas.x265",
-            "url": "https://archive.org/download/greetingsfromtucson/01x09%20Christmas.x265.mp4",
-            "seconds": 1352,
-            "format": "h.264",
-            "playable": true,
-            "sizeMB": 132
+            "conf": 1,
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
+            "item": "gl-fullseries",
+            "itemTitle": "George Lopez",
+            "file": "George Lopez - S03E12 - Christmas Punch (1080p x265 EDGE2020).mp4",
+            "name": "George Lopez - S03E12 - Christmas Punch (1080p x265 EDGE2020)",
+            "url": "https://archive.org/download/gl-fullseries/George%20Lopez%20-%20S03E12%20-%20Christmas%20Punch%20(1080p%20x265%20EDGE2020).mp4",
+            "seconds": 1261,
+            "format": "MPEG4",
+            "playable": false,
+            "codecRisk": "video (x265)",
+            "sizeMB": 158
           },
-          "alternates": []
+          "alternates": [
+            {
+              "conf": 0.65,
+              "why": "title ~ \"Christmas Punch\" (0.80)",
+              "item": "greetingsfromtucson",
+              "itemTitle": "\"Greetings from Tucson\" (Full 2002 WB series) [HEVC.x265]",
+              "file": "01x09 Christmas.x265.mp4",
+              "name": "01x09 Christmas.x265",
+              "url": "https://archive.org/download/greetingsfromtucson/01x09%20Christmas.x265.mp4",
+              "seconds": 1352,
+              "format": "h.264",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 132
+            }
+          ]
         },
         {
           "number": 13,
           "name": "Why You Crying?",
           "airdate": "2004-01-09",
-          "state": "MISSING",
-          "file": null,
+          "state": "REVIEW",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
+            "item": "gl-fullseries",
+            "itemTitle": "George Lopez",
+            "file": "George Lopez - S03E13 - Why You Crying (1080p x265 EDGE2020).mp4",
+            "name": "George Lopez - S03E13 - Why You Crying (1080p x265 EDGE2020)",
+            "url": "https://archive.org/download/gl-fullseries/George%20Lopez%20-%20S03E13%20-%20Why%20You%20Crying%20(1080p%20x265%20EDGE2020).mp4",
+            "seconds": 1262,
+            "format": "MPEG4",
+            "playable": false,
+            "codecRisk": "video (x265)",
+            "sizeMB": 143
+          },
           "alternates": []
         },
         {
@@ -432,24 +571,63 @@
           "number": 15,
           "name": "God Needles George",
           "airdate": "2004-02-06",
-          "state": "MISSING",
-          "file": null,
+          "state": "REVIEW",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
+            "item": "gl-fullseries",
+            "itemTitle": "George Lopez",
+            "file": "George Lopez - S03E15 - God Needles George (1080p x265 EDGE2020).mp4",
+            "name": "George Lopez - S03E15 - God Needles George (1080p x265 EDGE2020)",
+            "url": "https://archive.org/download/gl-fullseries/George%20Lopez%20-%20S03E15%20-%20God%20Needles%20George%20(1080p%20x265%20EDGE2020).mp4",
+            "seconds": 1263,
+            "format": "MPEG4",
+            "playable": false,
+            "codecRisk": "video (x265)",
+            "sizeMB": 130
+          },
           "alternates": []
         },
         {
           "number": 16,
           "name": "Benny and Randy",
           "airdate": "2004-02-13",
-          "state": "MISSING",
-          "file": null,
+          "state": "REVIEW",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
+            "item": "gl-fullseries",
+            "itemTitle": "George Lopez",
+            "file": "George Lopez - S03E16 - Benny and Randy (1080p x265 EDGE2020).mp4",
+            "name": "George Lopez - S03E16 - Benny and Randy (1080p x265 EDGE2020)",
+            "url": "https://archive.org/download/gl-fullseries/George%20Lopez%20-%20S03E16%20-%20Benny%20and%20Randy%20(1080p%20x265%20EDGE2020).mp4",
+            "seconds": 1268,
+            "format": "MPEG4",
+            "playable": false,
+            "codecRisk": "video (x265)",
+            "sizeMB": 1062
+          },
           "alternates": []
         },
         {
           "number": 17,
           "name": "Weekend at Benny's",
           "airdate": "2004-02-20",
-          "state": "MISSING",
-          "file": null,
+          "state": "REVIEW",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
+            "item": "gl-fullseries",
+            "itemTitle": "George Lopez",
+            "file": "George Lopez - S03E17 - Weekend at Benny's (1080p x265 EDGE2020).mp4",
+            "name": "George Lopez - S03E17 - Weekend at Benny's (1080p x265 EDGE2020)",
+            "url": "https://archive.org/download/gl-fullseries/George%20Lopez%20-%20S03E17%20-%20Weekend%20at%20Benny's%20(1080p%20x265%20EDGE2020).mp4",
+            "seconds": 1262,
+            "format": "MPEG4",
+            "playable": false,
+            "codecRisk": "video (x265)",
+            "sizeMB": 137
+          },
           "alternates": []
         },
         {
@@ -464,24 +642,63 @@
           "number": 19,
           "name": "Angie Gets Tanked",
           "airdate": "2004-03-19",
-          "state": "MISSING",
-          "file": null,
+          "state": "REVIEW",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
+            "item": "gl-fullseries",
+            "itemTitle": "George Lopez",
+            "file": "George Lopez - S03E19 - Angie Gets Tanked (1080p x265 EDGE2020).mp4",
+            "name": "George Lopez - S03E19 - Angie Gets Tanked (1080p x265 EDGE2020)",
+            "url": "https://archive.org/download/gl-fullseries/George%20Lopez%20-%20S03E19%20-%20Angie%20Gets%20Tanked%20(1080p%20x265%20EDGE2020).mp4",
+            "seconds": 1262,
+            "format": "MPEG4",
+            "playable": false,
+            "codecRisk": "video (x265)",
+            "sizeMB": 180
+          },
           "alternates": []
         },
         {
           "number": 20,
           "name": "The Art of Boxing",
           "airdate": "2004-03-26",
-          "state": "MISSING",
-          "file": null,
+          "state": "REVIEW",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
+            "item": "gl-fullseries",
+            "itemTitle": "George Lopez",
+            "file": "George Lopez - S03E20 - The Art of Boxing (1080p x265 EDGE2020).mp4",
+            "name": "George Lopez - S03E20 - The Art of Boxing (1080p x265 EDGE2020)",
+            "url": "https://archive.org/download/gl-fullseries/George%20Lopez%20-%20S03E20%20-%20The%20Art%20of%20Boxing%20(1080p%20x265%20EDGE2020).mp4",
+            "seconds": 1261,
+            "format": "MPEG4",
+            "playable": false,
+            "codecRisk": "video (x265)",
+            "sizeMB": 155
+          },
           "alternates": []
         },
         {
           "number": 21,
           "name": "George's House of Cards",
           "airdate": "2004-04-02",
-          "state": "MISSING",
-          "file": null,
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.6,
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
+            "item": "gl-fullseries",
+            "itemTitle": "George Lopez",
+            "file": "George Lopez - S03E21 - George's House of Cards (1080p x265 EDGE2020).mp4",
+            "name": "George Lopez - S03E21 - George's House of Cards (1080p x265 EDGE2020)",
+            "url": "https://archive.org/download/gl-fullseries/George%20Lopez%20-%20S03E21%20-%20George's%20House%20of%20Cards%20(1080p%20x265%20EDGE2020).mp4",
+            "seconds": 1262,
+            "format": "MPEG4",
+            "playable": false,
+            "codecRisk": "video (x265)",
+            "sizeMB": 138
+          },
           "alternates": []
         },
         {
@@ -512,16 +729,42 @@
           "number": 25,
           "name": "Bachelor Party",
           "airdate": "2004-05-07",
-          "state": "MISSING",
-          "file": null,
+          "state": "REVIEW",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
+            "item": "gl-fullseries",
+            "itemTitle": "George Lopez",
+            "file": "George Lopez - S03E25 - Bachelor Party (1080p x265 EDGE2020).mp4",
+            "name": "George Lopez - S03E25 - Bachelor Party (1080p x265 EDGE2020)",
+            "url": "https://archive.org/download/gl-fullseries/George%20Lopez%20-%20S03E25%20-%20Bachelor%20Party%20(1080p%20x265%20EDGE2020).mp4",
+            "seconds": 1262,
+            "format": "MPEG4",
+            "playable": false,
+            "codecRisk": "video (x265)",
+            "sizeMB": 160
+          },
           "alternates": []
         },
         {
           "number": 26,
           "name": "Wrecking Ball",
           "airdate": "2004-05-14",
-          "state": "MISSING",
-          "file": null,
+          "state": "REVIEW",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
+            "item": "gl-fullseries",
+            "itemTitle": "George Lopez",
+            "file": "George Lopez - S03E26 - Wrecking Ball (1080p x265 EDGE2020).mp4",
+            "name": "George Lopez - S03E26 - Wrecking Ball (1080p x265 EDGE2020)",
+            "url": "https://archive.org/download/gl-fullseries/George%20Lopez%20-%20S03E26%20-%20Wrecking%20Ball%20(1080p%20x265%20EDGE2020).mp4",
+            "seconds": 1267,
+            "format": "MPEG4",
+            "playable": false,
+            "codecRisk": "video (x265)",
+            "sizeMB": 155
+          },
           "alternates": []
         },
         {
@@ -573,20 +816,8 @@
           "number": 4,
           "name": "Home Sweet Homeschool",
           "airdate": "2004-10-19",
-          "state": "REVIEW",
-          "file": {
-            "conf": 0.65,
-            "why": "title ~ \"Home Sweet Homeschool\" (0.82)",
-            "item": "greetingsfromtucson",
-            "itemTitle": "\"Greetings from Tucson\" (Full 2002 WB series) [HEVC.x265]",
-            "file": "01x18 Home Sweet Home.x265.mp4",
-            "name": "01x18 Home Sweet Home.x265",
-            "url": "https://archive.org/download/greetingsfromtucson/01x18%20Home%20Sweet%20Home.x265.mp4",
-            "seconds": 1338,
-            "format": "h.264",
-            "playable": true,
-            "sizeMB": 131
-          },
+          "state": "MISSING",
+          "file": null,
           "alternates": []
         },
         {

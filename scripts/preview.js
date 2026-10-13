@@ -20,7 +20,8 @@ const shows = fs.readdirSync(SHOWS_DIR).filter((f) => f.endsWith('.json'))
     overview: (ART[s.slug] || {}).overview || '', genres: (ART[s.slug] || {}).genres || [], rating: (ART[s.slug] || {}).rating || null,
     seasons: s.seasons.map((se) => ({
       season: se.season,
-      episodes: se.episodes.filter((e) => e.file).map((e) => ({ n: e.number, name: e.name, state: e.state, url: e.file.url, min: Math.round(e.file.seconds / 60), item: e.file.item })),
+      // Only files a browser can actually play; silent or black ones stay in the review queue.
+      episodes: se.episodes.filter((e) => e.file && e.file.playable).map((e) => ({ n: e.number, name: e.name, state: e.state, url: e.file.url, min: Math.round(e.file.seconds / 60), item: e.file.item })),
     })).filter((se) => se.episodes.length),
   }))
   .filter((s) => s.seasons.length)

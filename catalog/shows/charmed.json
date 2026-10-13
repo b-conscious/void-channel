@@ -3,7 +3,7 @@
   "slug": "charmed",
   "type": "Sci-Fi, Fantasy and Horror",
   "network": "The WB",
-  "matchedAt": "2026-10-13T07:46:17.735Z",
+  "matchedAt": "2026-10-13T15:54:10.675Z",
   "tvmaze": {
     "id": 506,
     "name": "Charmed",
@@ -13,8 +13,8 @@
   },
   "coverage": {
     "total": 178,
-    "live": 66,
-    "review": 1,
+    "live": 23,
+    "review": 44,
     "missing": 111,
     "pct": 38
   },
@@ -32,28 +32,15 @@
             "why": "S/E in filename",
             "item": "charmed-1998-season-1",
             "itemTitle": "Charmed (1998) – Season 1",
-            "file": "Charmed.S01E01.720p.BluRay.x265-PROTON.mp4",
-            "name": "Charmed.S01E01.720p.BluRay.x265-PROTON",
-            "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E01.720p.BluRay.x265-PROTON.mp4",
+            "file": "Charmed.S01E01.720p.BluRay.x265-PROTON.ia.mp4",
+            "name": "Charmed.S01E01.720p.BluRay",
+            "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E01.720p.BluRay.x265-PROTON.ia.mp4",
             "seconds": 2611,
-            "format": "MPEG4",
+            "format": "h.264 IA",
             "playable": true,
-            "sizeMB": 470
+            "sizeMB": 254
           },
           "alternates": [
-            {
-              "conf": 0.9,
-              "why": "S/E in filename",
-              "item": "charmed-1998-season-1",
-              "itemTitle": "Charmed (1998) – Season 1",
-              "file": "Charmed.S01E01.720p.BluRay.x265-PROTON.ia.mp4",
-              "name": "Charmed.S01E01.720p.BluRay",
-              "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E01.720p.BluRay.x265-PROTON.ia.mp4",
-              "seconds": 2611,
-              "format": "h.264 IA",
-              "playable": true,
-              "sizeMB": 254
-            },
             {
               "conf": 0.75,
               "why": "title ~ \"Something Wicca This Way Comes\" (0.98)",
@@ -66,6 +53,20 @@
               "format": "MPEG4",
               "playable": true,
               "sizeMB": 351
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "charmed-1998-season-1",
+              "itemTitle": "Charmed (1998) – Season 1",
+              "file": "Charmed.S01E01.720p.BluRay.x265-PROTON.mp4",
+              "name": "Charmed.S01E01.720p.BluRay.x265-PROTON",
+              "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E01.720p.BluRay.x265-PROTON.mp4",
+              "seconds": 2611,
+              "format": "MPEG4",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 470
             }
           ]
         },
@@ -79,28 +80,15 @@
             "why": "S/E in filename",
             "item": "charmed-1998-season-1",
             "itemTitle": "Charmed (1998) – Season 1",
-            "file": "Charmed.S01E02.720p.BluRay.x265-PROTON.mp4",
-            "name": "Charmed.S01E02.720p.BluRay.x265-PROTON",
-            "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E02.720p.BluRay.x265-PROTON.mp4",
+            "file": "Charmed.S01E02.720p.BluRay.x265-PROTON.ia.mp4",
+            "name": "Charmed.S01E02.720p.BluRay",
+            "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E02.720p.BluRay.x265-PROTON.ia.mp4",
             "seconds": 2637,
-            "format": "MPEG4",
+            "format": "h.264 IA",
             "playable": true,
-            "sizeMB": 473
+            "sizeMB": 257
           },
           "alternates": [
-            {
-              "conf": 0.9,
-              "why": "S/E in filename",
-              "item": "charmed-1998-season-1",
-              "itemTitle": "Charmed (1998) – Season 1",
-              "file": "Charmed.S01E02.720p.BluRay.x265-PROTON.ia.mp4",
-              "name": "Charmed.S01E02.720p.BluRay",
-              "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E02.720p.BluRay.x265-PROTON.ia.mp4",
-              "seconds": 2637,
-              "format": "h.264 IA",
-              "playable": true,
-              "sizeMB": 257
-            },
             {
               "conf": 0.75,
               "why": "title ~ \"I've Got You Under My Skin\" (0.97)",
@@ -113,6 +101,20 @@
               "format": "MPEG4",
               "playable": true,
               "sizeMB": 284
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "charmed-1998-season-1",
+              "itemTitle": "Charmed (1998) – Season 1",
+              "file": "Charmed.S01E02.720p.BluRay.x265-PROTON.mp4",
+              "name": "Charmed.S01E02.720p.BluRay.x265-PROTON",
+              "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E02.720p.BluRay.x265-PROTON.mp4",
+              "seconds": 2637,
+              "format": "MPEG4",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 473
             }
           ]
         },
@@ -126,28 +128,15 @@
             "why": "S/E in filename",
             "item": "charmed-1998-season-1",
             "itemTitle": "Charmed (1998) – Season 1",
-            "file": "Charmed.S01E03.720p.BluRay.x265-PROTON.mp4",
-            "name": "Charmed.S01E03.720p.BluRay.x265-PROTON",
-            "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E03.720p.BluRay.x265-PROTON.mp4",
+            "file": "Charmed.S01E03.720p.BluRay.x265-PROTON.ia.mp4",
+            "name": "Charmed.S01E03.720p.BluRay",
+            "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E03.720p.BluRay.x265-PROTON.ia.mp4",
             "seconds": 2686,
-            "format": "MPEG4",
+            "format": "h.264 IA",
             "playable": true,
-            "sizeMB": 485
+            "sizeMB": 261
           },
           "alternates": [
-            {
-              "conf": 0.9,
-              "why": "S/E in filename",
-              "item": "charmed-1998-season-1",
-              "itemTitle": "Charmed (1998) – Season 1",
-              "file": "Charmed.S01E03.720p.BluRay.x265-PROTON.ia.mp4",
-              "name": "Charmed.S01E03.720p.BluRay",
-              "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E03.720p.BluRay.x265-PROTON.ia.mp4",
-              "seconds": 2686,
-              "format": "h.264 IA",
-              "playable": true,
-              "sizeMB": 261
-            },
             {
               "conf": 0.75,
               "why": "title ~ \"Thank You for Not Morphing\" (0.98)",
@@ -160,6 +149,20 @@
               "format": "MPEG4",
               "playable": true,
               "sizeMB": 275
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "charmed-1998-season-1",
+              "itemTitle": "Charmed (1998) – Season 1",
+              "file": "Charmed.S01E03.720p.BluRay.x265-PROTON.mp4",
+              "name": "Charmed.S01E03.720p.BluRay.x265-PROTON",
+              "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E03.720p.BluRay.x265-PROTON.mp4",
+              "seconds": 2686,
+              "format": "MPEG4",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 485
             }
           ]
         },
@@ -173,28 +176,15 @@
             "why": "S/E in filename",
             "item": "charmed-1998-season-1",
             "itemTitle": "Charmed (1998) – Season 1",
-            "file": "Charmed.S01E04.720p.BluRay.x265-PROTON.mp4",
-            "name": "Charmed.S01E04.720p.BluRay.x265-PROTON",
-            "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E04.720p.BluRay.x265-PROTON.mp4",
+            "file": "Charmed.S01E04.720p.BluRay.x265-PROTON.ia.mp4",
+            "name": "Charmed.S01E04.720p.BluRay",
+            "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E04.720p.BluRay.x265-PROTON.ia.mp4",
             "seconds": 2696,
-            "format": "MPEG4",
+            "format": "h.264 IA",
             "playable": true,
-            "sizeMB": 482
+            "sizeMB": 262
           },
           "alternates": [
-            {
-              "conf": 0.9,
-              "why": "S/E in filename",
-              "item": "charmed-1998-season-1",
-              "itemTitle": "Charmed (1998) – Season 1",
-              "file": "Charmed.S01E04.720p.BluRay.x265-PROTON.ia.mp4",
-              "name": "Charmed.S01E04.720p.BluRay",
-              "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E04.720p.BluRay.x265-PROTON.ia.mp4",
-              "seconds": 2696,
-              "format": "h.264 IA",
-              "playable": true,
-              "sizeMB": 262
-            },
             {
               "conf": 0.75,
               "why": "title ~ \"Dead Man Dating\" (0.96)",
@@ -207,6 +197,20 @@
               "format": "MPEG4",
               "playable": true,
               "sizeMB": 287
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "charmed-1998-season-1",
+              "itemTitle": "Charmed (1998) – Season 1",
+              "file": "Charmed.S01E04.720p.BluRay.x265-PROTON.mp4",
+              "name": "Charmed.S01E04.720p.BluRay.x265-PROTON",
+              "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E04.720p.BluRay.x265-PROTON.mp4",
+              "seconds": 2696,
+              "format": "MPEG4",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 482
             }
           ]
         },
@@ -220,28 +224,15 @@
             "why": "S/E in filename",
             "item": "charmed-1998-season-1",
             "itemTitle": "Charmed (1998) – Season 1",
-            "file": "Charmed.S01E05.720p.BluRay.x265-PROTON.mp4",
-            "name": "Charmed.S01E05.720p.BluRay.x265-PROTON",
-            "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E05.720p.BluRay.x265-PROTON.mp4",
+            "file": "Charmed.S01E05.720p.BluRay.x265-PROTON.ia.mp4",
+            "name": "Charmed.S01E05.720p.BluRay",
+            "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E05.720p.BluRay.x265-PROTON.ia.mp4",
             "seconds": 2586,
-            "format": "MPEG4",
+            "format": "h.264 IA",
             "playable": true,
-            "sizeMB": 463
+            "sizeMB": 253
           },
           "alternates": [
-            {
-              "conf": 0.9,
-              "why": "S/E in filename",
-              "item": "charmed-1998-season-1",
-              "itemTitle": "Charmed (1998) – Season 1",
-              "file": "Charmed.S01E05.720p.BluRay.x265-PROTON.ia.mp4",
-              "name": "Charmed.S01E05.720p.BluRay",
-              "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E05.720p.BluRay.x265-PROTON.ia.mp4",
-              "seconds": 2586,
-              "format": "h.264 IA",
-              "playable": true,
-              "sizeMB": 253
-            },
             {
               "conf": 0.75,
               "why": "title ~ \"Dream Sorcerer\" (0.95)",
@@ -254,6 +245,20 @@
               "format": "MPEG4",
               "playable": true,
               "sizeMB": 285
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "charmed-1998-season-1",
+              "itemTitle": "Charmed (1998) – Season 1",
+              "file": "Charmed.S01E05.720p.BluRay.x265-PROTON.mp4",
+              "name": "Charmed.S01E05.720p.BluRay.x265-PROTON",
+              "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E05.720p.BluRay.x265-PROTON.mp4",
+              "seconds": 2586,
+              "format": "MPEG4",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 463
             }
           ]
         },
@@ -267,28 +272,15 @@
             "why": "S/E in filename",
             "item": "charmed-1998-season-1",
             "itemTitle": "Charmed (1998) – Season 1",
-            "file": "Charmed.S01E06.720p.BluRay.x265-PROTON.mp4",
-            "name": "Charmed.S01E06.720p.BluRay.x265-PROTON",
-            "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E06.720p.BluRay.x265-PROTON.mp4",
+            "file": "Charmed.S01E06.720p.BluRay.x265-PROTON.ia.mp4",
+            "name": "Charmed.S01E06.720p.BluRay",
+            "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E06.720p.BluRay.x265-PROTON.ia.mp4",
             "seconds": 2646,
-            "format": "MPEG4",
+            "format": "h.264 IA",
             "playable": true,
-            "sizeMB": 475
+            "sizeMB": 258
           },
           "alternates": [
-            {
-              "conf": 0.9,
-              "why": "S/E in filename",
-              "item": "charmed-1998-season-1",
-              "itemTitle": "Charmed (1998) – Season 1",
-              "file": "Charmed.S01E06.720p.BluRay.x265-PROTON.ia.mp4",
-              "name": "Charmed.S01E06.720p.BluRay",
-              "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E06.720p.BluRay.x265-PROTON.ia.mp4",
-              "seconds": 2646,
-              "format": "h.264 IA",
-              "playable": true,
-              "sizeMB": 258
-            },
             {
               "conf": 0.75,
               "why": "title ~ \"The Wedding from Hell\" (0.97)",
@@ -301,6 +293,20 @@
               "format": "MPEG4",
               "playable": true,
               "sizeMB": 310
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "charmed-1998-season-1",
+              "itemTitle": "Charmed (1998) – Season 1",
+              "file": "Charmed.S01E06.720p.BluRay.x265-PROTON.mp4",
+              "name": "Charmed.S01E06.720p.BluRay.x265-PROTON",
+              "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E06.720p.BluRay.x265-PROTON.mp4",
+              "seconds": 2646,
+              "format": "MPEG4",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 475
             }
           ]
         },
@@ -314,28 +320,15 @@
             "why": "S/E in filename",
             "item": "charmed-1998-season-1",
             "itemTitle": "Charmed (1998) – Season 1",
-            "file": "Charmed.S01E07.720p.BluRay.x265-PROTON.mp4",
-            "name": "Charmed.S01E07.720p.BluRay.x265-PROTON",
-            "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E07.720p.BluRay.x265-PROTON.mp4",
+            "file": "Charmed.S01E07.720p.BluRay.x265-PROTON.ia.mp4",
+            "name": "Charmed.S01E07.720p.BluRay",
+            "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E07.720p.BluRay.x265-PROTON.ia.mp4",
             "seconds": 2607,
-            "format": "MPEG4",
+            "format": "h.264 IA",
             "playable": true,
-            "sizeMB": 468
+            "sizeMB": 254
           },
           "alternates": [
-            {
-              "conf": 0.9,
-              "why": "S/E in filename",
-              "item": "charmed-1998-season-1",
-              "itemTitle": "Charmed (1998) – Season 1",
-              "file": "Charmed.S01E07.720p.BluRay.x265-PROTON.ia.mp4",
-              "name": "Charmed.S01E07.720p.BluRay",
-              "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E07.720p.BluRay.x265-PROTON.ia.mp4",
-              "seconds": 2607,
-              "format": "h.264 IA",
-              "playable": true,
-              "sizeMB": 254
-            },
             {
               "conf": 0.75,
               "why": "title ~ \"The Fourth Sister\" (0.96)",
@@ -348,6 +341,20 @@
               "format": "MPEG4",
               "playable": true,
               "sizeMB": 265
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "charmed-1998-season-1",
+              "itemTitle": "Charmed (1998) – Season 1",
+              "file": "Charmed.S01E07.720p.BluRay.x265-PROTON.mp4",
+              "name": "Charmed.S01E07.720p.BluRay.x265-PROTON",
+              "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E07.720p.BluRay.x265-PROTON.mp4",
+              "seconds": 2607,
+              "format": "MPEG4",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 468
             }
           ]
         },
@@ -361,28 +368,15 @@
             "why": "S/E in filename",
             "item": "charmed-1998-season-1",
             "itemTitle": "Charmed (1998) – Season 1",
-            "file": "Charmed.S01E08.720p.BluRay.x265-PROTON.mp4",
-            "name": "Charmed.S01E08.720p.BluRay.x265-PROTON",
-            "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E08.720p.BluRay.x265-PROTON.mp4",
+            "file": "Charmed.S01E08.720p.BluRay.x265-PROTON.ia.mp4",
+            "name": "Charmed.S01E08.720p.BluRay",
+            "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E08.720p.BluRay.x265-PROTON.ia.mp4",
             "seconds": 2679,
-            "format": "MPEG4",
+            "format": "h.264 IA",
             "playable": true,
-            "sizeMB": 480
+            "sizeMB": 261
           },
           "alternates": [
-            {
-              "conf": 0.9,
-              "why": "S/E in filename",
-              "item": "charmed-1998-season-1",
-              "itemTitle": "Charmed (1998) – Season 1",
-              "file": "Charmed.S01E08.720p.BluRay.x265-PROTON.ia.mp4",
-              "name": "Charmed.S01E08.720p.BluRay",
-              "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E08.720p.BluRay.x265-PROTON.ia.mp4",
-              "seconds": 2679,
-              "format": "h.264 IA",
-              "playable": true,
-              "sizeMB": 261
-            },
             {
               "conf": 0.75,
               "why": "title ~ \"The Truth Is Out There... and It Hurts\" (0.98)",
@@ -395,6 +389,20 @@
               "format": "MPEG4",
               "playable": true,
               "sizeMB": 280
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "charmed-1998-season-1",
+              "itemTitle": "Charmed (1998) – Season 1",
+              "file": "Charmed.S01E08.720p.BluRay.x265-PROTON.mp4",
+              "name": "Charmed.S01E08.720p.BluRay.x265-PROTON",
+              "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E08.720p.BluRay.x265-PROTON.mp4",
+              "seconds": 2679,
+              "format": "MPEG4",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 480
             }
           ]
         },
@@ -408,28 +416,15 @@
             "why": "S/E in filename",
             "item": "charmed-1998-season-1",
             "itemTitle": "Charmed (1998) – Season 1",
-            "file": "Charmed.S01E09.720p.BluRay.x265-PROTON.mp4",
-            "name": "Charmed.S01E09.720p.BluRay.x265-PROTON",
-            "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E09.720p.BluRay.x265-PROTON.mp4",
+            "file": "Charmed.S01E09.720p.BluRay.x265-PROTON.ia.mp4",
+            "name": "Charmed.S01E09.720p.BluRay",
+            "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E09.720p.BluRay.x265-PROTON.ia.mp4",
             "seconds": 2577,
-            "format": "MPEG4",
+            "format": "h.264 IA",
             "playable": true,
-            "sizeMB": 462
+            "sizeMB": 252
           },
           "alternates": [
-            {
-              "conf": 0.9,
-              "why": "S/E in filename",
-              "item": "charmed-1998-season-1",
-              "itemTitle": "Charmed (1998) – Season 1",
-              "file": "Charmed.S01E09.720p.BluRay.x265-PROTON.ia.mp4",
-              "name": "Charmed.S01E09.720p.BluRay",
-              "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E09.720p.BluRay.x265-PROTON.ia.mp4",
-              "seconds": 2577,
-              "format": "h.264 IA",
-              "playable": true,
-              "sizeMB": 252
-            },
             {
               "conf": 0.75,
               "why": "title ~ \"The Witch Is Back\" (0.96)",
@@ -442,6 +437,20 @@
               "format": "MPEG4",
               "playable": true,
               "sizeMB": 286
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "charmed-1998-season-1",
+              "itemTitle": "Charmed (1998) – Season 1",
+              "file": "Charmed.S01E09.720p.BluRay.x265-PROTON.mp4",
+              "name": "Charmed.S01E09.720p.BluRay.x265-PROTON",
+              "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E09.720p.BluRay.x265-PROTON.mp4",
+              "seconds": 2577,
+              "format": "MPEG4",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 462
             }
           ]
         },
@@ -455,28 +464,15 @@
             "why": "S/E in filename",
             "item": "charmed-1998-season-1",
             "itemTitle": "Charmed (1998) – Season 1",
-            "file": "Charmed.S01E10.720p.BluRay.x265-PROTON.mp4",
-            "name": "Charmed.S01E10.720p.BluRay.x265-PROTON",
-            "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E10.720p.BluRay.x265-PROTON.mp4",
+            "file": "Charmed.S01E10.720p.BluRay.x265-PROTON.ia.mp4",
+            "name": "Charmed.S01E10.720p.BluRay",
+            "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E10.720p.BluRay.x265-PROTON.ia.mp4",
             "seconds": 2695,
-            "format": "MPEG4",
+            "format": "h.264 IA",
             "playable": true,
-            "sizeMB": 483
+            "sizeMB": 263
           },
           "alternates": [
-            {
-              "conf": 0.9,
-              "why": "S/E in filename",
-              "item": "charmed-1998-season-1",
-              "itemTitle": "Charmed (1998) – Season 1",
-              "file": "Charmed.S01E10.720p.BluRay.x265-PROTON.ia.mp4",
-              "name": "Charmed.S01E10.720p.BluRay",
-              "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E10.720p.BluRay.x265-PROTON.ia.mp4",
-              "seconds": 2695,
-              "format": "h.264 IA",
-              "playable": true,
-              "sizeMB": 263
-            },
             {
               "conf": 0.75,
               "why": "title ~ \"Wicca Envy\" (0.95)",
@@ -489,6 +485,20 @@
               "format": "MPEG4",
               "playable": true,
               "sizeMB": 292
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "charmed-1998-season-1",
+              "itemTitle": "Charmed (1998) – Season 1",
+              "file": "Charmed.S01E10.720p.BluRay.x265-PROTON.mp4",
+              "name": "Charmed.S01E10.720p.BluRay.x265-PROTON",
+              "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E10.720p.BluRay.x265-PROTON.mp4",
+              "seconds": 2695,
+              "format": "MPEG4",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 483
             }
           ]
         },
@@ -502,28 +512,15 @@
             "why": "S/E in filename",
             "item": "charmed-1998-season-1",
             "itemTitle": "Charmed (1998) – Season 1",
-            "file": "Charmed.S01E11.720p.BluRay.x265-PROTON.mp4",
-            "name": "Charmed.S01E11.720p.BluRay.x265-PROTON",
-            "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E11.720p.BluRay.x265-PROTON.mp4",
+            "file": "Charmed.S01E11.720p.BluRay.x265-PROTON.ia.mp4",
+            "name": "Charmed.S01E11.720p.BluRay",
+            "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E11.720p.BluRay.x265-PROTON.ia.mp4",
             "seconds": 2696,
-            "format": "MPEG4",
+            "format": "h.264 IA",
             "playable": true,
-            "sizeMB": 484
+            "sizeMB": 263
           },
           "alternates": [
-            {
-              "conf": 0.9,
-              "why": "S/E in filename",
-              "item": "charmed-1998-season-1",
-              "itemTitle": "Charmed (1998) – Season 1",
-              "file": "Charmed.S01E11.720p.BluRay.x265-PROTON.ia.mp4",
-              "name": "Charmed.S01E11.720p.BluRay",
-              "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E11.720p.BluRay.x265-PROTON.ia.mp4",
-              "seconds": 2696,
-              "format": "h.264 IA",
-              "playable": true,
-              "sizeMB": 263
-            },
             {
               "conf": 0.75,
               "why": "title ~ \"Feats of Clay\" (0.95)",
@@ -536,6 +533,20 @@
               "format": "MPEG4",
               "playable": true,
               "sizeMB": 315
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "charmed-1998-season-1",
+              "itemTitle": "Charmed (1998) – Season 1",
+              "file": "Charmed.S01E11.720p.BluRay.x265-PROTON.mp4",
+              "name": "Charmed.S01E11.720p.BluRay.x265-PROTON",
+              "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E11.720p.BluRay.x265-PROTON.mp4",
+              "seconds": 2696,
+              "format": "MPEG4",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 484
             }
           ]
         },
@@ -549,28 +560,15 @@
             "why": "S/E in filename",
             "item": "charmed-1998-season-1",
             "itemTitle": "Charmed (1998) – Season 1",
-            "file": "Charmed.S01E12.720p.BluRay.x265-PROTON.mp4",
-            "name": "Charmed.S01E12.720p.BluRay.x265-PROTON",
-            "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E12.720p.BluRay.x265-PROTON.mp4",
+            "file": "Charmed.S01E12.720p.BluRay.x265-PROTON.ia.mp4",
+            "name": "Charmed.S01E12.720p.BluRay",
+            "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E12.720p.BluRay.x265-PROTON.ia.mp4",
             "seconds": 2696,
-            "format": "MPEG4",
+            "format": "h.264 IA",
             "playable": true,
-            "sizeMB": 485
+            "sizeMB": 262
           },
           "alternates": [
-            {
-              "conf": 0.9,
-              "why": "S/E in filename",
-              "item": "charmed-1998-season-1",
-              "itemTitle": "Charmed (1998) – Season 1",
-              "file": "Charmed.S01E12.720p.BluRay.x265-PROTON.ia.mp4",
-              "name": "Charmed.S01E12.720p.BluRay",
-              "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E12.720p.BluRay.x265-PROTON.ia.mp4",
-              "seconds": 2696,
-              "format": "h.264 IA",
-              "playable": true,
-              "sizeMB": 262
-            },
             {
               "conf": 0.75,
               "why": "title ~ \"The Wendigo\" (0.95)",
@@ -583,6 +581,20 @@
               "format": "MPEG4",
               "playable": true,
               "sizeMB": 341
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "charmed-1998-season-1",
+              "itemTitle": "Charmed (1998) – Season 1",
+              "file": "Charmed.S01E12.720p.BluRay.x265-PROTON.mp4",
+              "name": "Charmed.S01E12.720p.BluRay.x265-PROTON",
+              "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E12.720p.BluRay.x265-PROTON.mp4",
+              "seconds": 2696,
+              "format": "MPEG4",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 485
             }
           ]
         },
@@ -596,28 +608,15 @@
             "why": "S/E in filename",
             "item": "charmed-1998-season-1",
             "itemTitle": "Charmed (1998) – Season 1",
-            "file": "Charmed.S01E13.720p.BluRay.x265-PROTON.mp4",
-            "name": "Charmed.S01E13.720p.BluRay.x265-PROTON",
-            "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E13.720p.BluRay.x265-PROTON.mp4",
+            "file": "Charmed.S01E13.720p.BluRay.x265-PROTON.ia.mp4",
+            "name": "Charmed.S01E13.720p.BluRay",
+            "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E13.720p.BluRay.x265-PROTON.ia.mp4",
             "seconds": 2636,
-            "format": "MPEG4",
+            "format": "h.264 IA",
             "playable": true,
-            "sizeMB": 471
+            "sizeMB": 258
           },
           "alternates": [
-            {
-              "conf": 0.9,
-              "why": "S/E in filename",
-              "item": "charmed-1998-season-1",
-              "itemTitle": "Charmed (1998) – Season 1",
-              "file": "Charmed.S01E13.720p.BluRay.x265-PROTON.ia.mp4",
-              "name": "Charmed.S01E13.720p.BluRay",
-              "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E13.720p.BluRay.x265-PROTON.ia.mp4",
-              "seconds": 2636,
-              "format": "h.264 IA",
-              "playable": true,
-              "sizeMB": 258
-            },
             {
               "conf": 0.75,
               "why": "title ~ \"From Fear to Eternity\" (0.95)",
@@ -630,6 +629,20 @@
               "format": "MPEG4",
               "playable": true,
               "sizeMB": 309
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "charmed-1998-season-1",
+              "itemTitle": "Charmed (1998) – Season 1",
+              "file": "Charmed.S01E13.720p.BluRay.x265-PROTON.mp4",
+              "name": "Charmed.S01E13.720p.BluRay.x265-PROTON",
+              "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E13.720p.BluRay.x265-PROTON.mp4",
+              "seconds": 2636,
+              "format": "MPEG4",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 471
             }
           ]
         },
@@ -643,28 +656,15 @@
             "why": "S/E in filename",
             "item": "charmed-1998-season-1",
             "itemTitle": "Charmed (1998) – Season 1",
-            "file": "Charmed.S01E14.720p.BluRay.x265-PROTON.mp4",
-            "name": "Charmed.S01E14.720p.BluRay.x265-PROTON",
-            "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E14.720p.BluRay.x265-PROTON.mp4",
+            "file": "Charmed.S01E14.720p.BluRay.x265-PROTON.ia.mp4",
+            "name": "Charmed.S01E14.720p.BluRay",
+            "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E14.720p.BluRay.x265-PROTON.ia.mp4",
             "seconds": 2687,
-            "format": "MPEG4",
+            "format": "h.264 IA",
             "playable": true,
-            "sizeMB": 483
+            "sizeMB": 262
           },
           "alternates": [
-            {
-              "conf": 0.9,
-              "why": "S/E in filename",
-              "item": "charmed-1998-season-1",
-              "itemTitle": "Charmed (1998) – Season 1",
-              "file": "Charmed.S01E14.720p.BluRay.x265-PROTON.ia.mp4",
-              "name": "Charmed.S01E14.720p.BluRay",
-              "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E14.720p.BluRay.x265-PROTON.ia.mp4",
-              "seconds": 2687,
-              "format": "h.264 IA",
-              "playable": true,
-              "sizeMB": 262
-            },
             {
               "conf": 0.75,
               "why": "title ~ \"Secrets and Guys\" (0.95)",
@@ -677,6 +677,20 @@
               "format": "MPEG4",
               "playable": true,
               "sizeMB": 304
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "charmed-1998-season-1",
+              "itemTitle": "Charmed (1998) – Season 1",
+              "file": "Charmed.S01E14.720p.BluRay.x265-PROTON.mp4",
+              "name": "Charmed.S01E14.720p.BluRay.x265-PROTON",
+              "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E14.720p.BluRay.x265-PROTON.mp4",
+              "seconds": 2687,
+              "format": "MPEG4",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 483
             }
           ]
         },
@@ -690,28 +704,15 @@
             "why": "S/E in filename",
             "item": "charmed-1998-season-1",
             "itemTitle": "Charmed (1998) – Season 1",
-            "file": "Charmed.S01E15.720p.BluRay.x265-PROTON.mp4",
-            "name": "Charmed.S01E15.720p.BluRay.x265-PROTON",
-            "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E15.720p.BluRay.x265-PROTON.mp4",
+            "file": "Charmed.S01E15.720p.BluRay.x265-PROTON.ia.mp4",
+            "name": "Charmed.S01E15.720p.BluRay",
+            "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E15.720p.BluRay.x265-PROTON.ia.mp4",
             "seconds": 2631,
-            "format": "MPEG4",
+            "format": "h.264 IA",
             "playable": true,
-            "sizeMB": 469
+            "sizeMB": 256
           },
           "alternates": [
-            {
-              "conf": 0.9,
-              "why": "S/E in filename",
-              "item": "charmed-1998-season-1",
-              "itemTitle": "Charmed (1998) – Season 1",
-              "file": "Charmed.S01E15.720p.BluRay.x265-PROTON.ia.mp4",
-              "name": "Charmed.S01E15.720p.BluRay",
-              "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E15.720p.BluRay.x265-PROTON.ia.mp4",
-              "seconds": 2631,
-              "format": "h.264 IA",
-              "playable": true,
-              "sizeMB": 256
-            },
             {
               "conf": 0.75,
               "why": "title ~ \"Is There a Woogy in the House?\" (0.95)",
@@ -724,6 +725,20 @@
               "format": "MPEG4",
               "playable": true,
               "sizeMB": 335
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "charmed-1998-season-1",
+              "itemTitle": "Charmed (1998) – Season 1",
+              "file": "Charmed.S01E15.720p.BluRay.x265-PROTON.mp4",
+              "name": "Charmed.S01E15.720p.BluRay.x265-PROTON",
+              "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E15.720p.BluRay.x265-PROTON.mp4",
+              "seconds": 2631,
+              "format": "MPEG4",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 469
             }
           ]
         },
@@ -737,28 +752,15 @@
             "why": "S/E in filename",
             "item": "charmed-1998-season-1",
             "itemTitle": "Charmed (1998) – Season 1",
-            "file": "Charmed.S01E16.720p.BluRay.x265-PROTON.mp4",
-            "name": "Charmed.S01E16.720p.BluRay.x265-PROTON",
-            "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E16.720p.BluRay.x265-PROTON.mp4",
+            "file": "Charmed.S01E16.720p.BluRay.x265-PROTON.ia.mp4",
+            "name": "Charmed.S01E16.720p.BluRay",
+            "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E16.720p.BluRay.x265-PROTON.ia.mp4",
             "seconds": 2682,
-            "format": "MPEG4",
+            "format": "h.264 IA",
             "playable": true,
-            "sizeMB": 482
+            "sizeMB": 262
           },
           "alternates": [
-            {
-              "conf": 0.9,
-              "why": "S/E in filename",
-              "item": "charmed-1998-season-1",
-              "itemTitle": "Charmed (1998) – Season 1",
-              "file": "Charmed.S01E16.720p.BluRay.x265-PROTON.ia.mp4",
-              "name": "Charmed.S01E16.720p.BluRay",
-              "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E16.720p.BluRay.x265-PROTON.ia.mp4",
-              "seconds": 2682,
-              "format": "h.264 IA",
-              "playable": true,
-              "sizeMB": 262
-            },
             {
               "conf": 0.75,
               "why": "title ~ \"Which Prue Is It, Anyway?\" (0.95)",
@@ -771,6 +773,20 @@
               "format": "MPEG4",
               "playable": true,
               "sizeMB": 293
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "charmed-1998-season-1",
+              "itemTitle": "Charmed (1998) – Season 1",
+              "file": "Charmed.S01E16.720p.BluRay.x265-PROTON.mp4",
+              "name": "Charmed.S01E16.720p.BluRay.x265-PROTON",
+              "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E16.720p.BluRay.x265-PROTON.mp4",
+              "seconds": 2682,
+              "format": "MPEG4",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 482
             }
           ]
         },
@@ -784,28 +800,15 @@
             "why": "S/E in filename",
             "item": "charmed-1998-season-1",
             "itemTitle": "Charmed (1998) – Season 1",
-            "file": "Charmed.S01E17.720p.BluRay.x265-PROTON.mp4",
-            "name": "Charmed.S01E17.720p.BluRay.x265-PROTON",
-            "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E17.720p.BluRay.x265-PROTON.mp4",
+            "file": "Charmed.S01E17.720p.BluRay.x265-PROTON.ia.mp4",
+            "name": "Charmed.S01E17.720p.BluRay",
+            "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E17.720p.BluRay.x265-PROTON.ia.mp4",
             "seconds": 2687,
-            "format": "MPEG4",
+            "format": "h.264 IA",
             "playable": true,
-            "sizeMB": 480
+            "sizeMB": 262
           },
           "alternates": [
-            {
-              "conf": 0.9,
-              "why": "S/E in filename",
-              "item": "charmed-1998-season-1",
-              "itemTitle": "Charmed (1998) – Season 1",
-              "file": "Charmed.S01E17.720p.BluRay.x265-PROTON.ia.mp4",
-              "name": "Charmed.S01E17.720p.BluRay",
-              "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E17.720p.BluRay.x265-PROTON.ia.mp4",
-              "seconds": 2687,
-              "format": "h.264 IA",
-              "playable": true,
-              "sizeMB": 262
-            },
             {
               "conf": 0.55,
               "why": "title ~ \"That '70s Episode\" (0.63)",
@@ -818,6 +821,20 @@
               "format": "MPEG4",
               "playable": true,
               "sizeMB": 355
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "charmed-1998-season-1",
+              "itemTitle": "Charmed (1998) – Season 1",
+              "file": "Charmed.S01E17.720p.BluRay.x265-PROTON.mp4",
+              "name": "Charmed.S01E17.720p.BluRay.x265-PROTON",
+              "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E17.720p.BluRay.x265-PROTON.mp4",
+              "seconds": 2687,
+              "format": "MPEG4",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 480
             }
           ]
         },
@@ -831,28 +848,15 @@
             "why": "S/E in filename",
             "item": "charmed-1998-season-1",
             "itemTitle": "Charmed (1998) – Season 1",
-            "file": "Charmed.S01E18.720p.BluRay.x265-PROTON.mp4",
-            "name": "Charmed.S01E18.720p.BluRay.x265-PROTON",
-            "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E18.720p.BluRay.x265-PROTON.mp4",
+            "file": "Charmed.S01E18.720p.BluRay.x265-PROTON.ia.mp4",
+            "name": "Charmed.S01E18.720p.BluRay",
+            "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E18.720p.BluRay.x265-PROTON.ia.mp4",
             "seconds": 2666,
-            "format": "MPEG4",
+            "format": "h.264 IA",
             "playable": true,
-            "sizeMB": 478
+            "sizeMB": 260
           },
           "alternates": [
-            {
-              "conf": 0.9,
-              "why": "S/E in filename",
-              "item": "charmed-1998-season-1",
-              "itemTitle": "Charmed (1998) – Season 1",
-              "file": "Charmed.S01E18.720p.BluRay.x265-PROTON.ia.mp4",
-              "name": "Charmed.S01E18.720p.BluRay",
-              "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E18.720p.BluRay.x265-PROTON.ia.mp4",
-              "seconds": 2666,
-              "format": "h.264 IA",
-              "playable": true,
-              "sizeMB": 260
-            },
             {
               "conf": 0.55,
               "why": "title ~ \"When Bad Warlocks Go Good\" (0.79)",
@@ -865,6 +869,20 @@
               "format": "MPEG4",
               "playable": true,
               "sizeMB": 332
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "charmed-1998-season-1",
+              "itemTitle": "Charmed (1998) – Season 1",
+              "file": "Charmed.S01E18.720p.BluRay.x265-PROTON.mp4",
+              "name": "Charmed.S01E18.720p.BluRay.x265-PROTON",
+              "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E18.720p.BluRay.x265-PROTON.mp4",
+              "seconds": 2666,
+              "format": "MPEG4",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 478
             }
           ]
         },
@@ -878,28 +896,15 @@
             "why": "S/E in filename",
             "item": "charmed-1998-season-1",
             "itemTitle": "Charmed (1998) – Season 1",
-            "file": "Charmed.S01E19.720p.BluRay.x265-PROTON.mp4",
-            "name": "Charmed.S01E19.720p.BluRay.x265-PROTON",
-            "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E19.720p.BluRay.x265-PROTON.mp4",
+            "file": "Charmed.S01E19.720p.BluRay.x265-PROTON.ia.mp4",
+            "name": "Charmed.S01E19.720p.BluRay",
+            "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E19.720p.BluRay.x265-PROTON.ia.mp4",
             "seconds": 2661,
-            "format": "MPEG4",
+            "format": "h.264 IA",
             "playable": true,
-            "sizeMB": 477
+            "sizeMB": 258
           },
           "alternates": [
-            {
-              "conf": 0.9,
-              "why": "S/E in filename",
-              "item": "charmed-1998-season-1",
-              "itemTitle": "Charmed (1998) – Season 1",
-              "file": "Charmed.S01E19.720p.BluRay.x265-PROTON.ia.mp4",
-              "name": "Charmed.S01E19.720p.BluRay",
-              "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E19.720p.BluRay.x265-PROTON.ia.mp4",
-              "seconds": 2661,
-              "format": "h.264 IA",
-              "playable": true,
-              "sizeMB": 258
-            },
             {
               "conf": 0.75,
               "why": "title ~ \"Out of Sight\" (0.95)",
@@ -912,6 +917,20 @@
               "format": "MPEG4",
               "playable": true,
               "sizeMB": 345
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "charmed-1998-season-1",
+              "itemTitle": "Charmed (1998) – Season 1",
+              "file": "Charmed.S01E19.720p.BluRay.x265-PROTON.mp4",
+              "name": "Charmed.S01E19.720p.BluRay.x265-PROTON",
+              "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E19.720p.BluRay.x265-PROTON.mp4",
+              "seconds": 2661,
+              "format": "MPEG4",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 477
             }
           ]
         },
@@ -925,28 +944,15 @@
             "why": "S/E in filename",
             "item": "charmed-1998-season-1",
             "itemTitle": "Charmed (1998) – Season 1",
-            "file": "Charmed.S01E20.720p.BluRay.x265-PROTON.mp4",
-            "name": "Charmed.S01E20.720p.BluRay.x265-PROTON",
-            "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E20.720p.BluRay.x265-PROTON.mp4",
+            "file": "Charmed.S01E20.720p.BluRay.x265-PROTON.ia.mp4",
+            "name": "Charmed.S01E20.720p.BluRay",
+            "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E20.720p.BluRay.x265-PROTON.ia.mp4",
             "seconds": 2661,
-            "format": "MPEG4",
+            "format": "h.264 IA",
             "playable": true,
-            "sizeMB": 479
+            "sizeMB": 260
           },
           "alternates": [
-            {
-              "conf": 0.9,
-              "why": "S/E in filename",
-              "item": "charmed-1998-season-1",
-              "itemTitle": "Charmed (1998) – Season 1",
-              "file": "Charmed.S01E20.720p.BluRay.x265-PROTON.ia.mp4",
-              "name": "Charmed.S01E20.720p.BluRay",
-              "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E20.720p.BluRay.x265-PROTON.ia.mp4",
-              "seconds": 2661,
-              "format": "h.264 IA",
-              "playable": true,
-              "sizeMB": 260
-            },
             {
               "conf": 0.75,
               "why": "title ~ \"The Power of Two\" (0.95)",
@@ -959,6 +965,20 @@
               "format": "MPEG4",
               "playable": true,
               "sizeMB": 305
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "charmed-1998-season-1",
+              "itemTitle": "Charmed (1998) – Season 1",
+              "file": "Charmed.S01E20.720p.BluRay.x265-PROTON.mp4",
+              "name": "Charmed.S01E20.720p.BluRay.x265-PROTON",
+              "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E20.720p.BluRay.x265-PROTON.mp4",
+              "seconds": 2661,
+              "format": "MPEG4",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 479
             }
           ]
         },
@@ -972,28 +992,15 @@
             "why": "S/E in filename",
             "item": "charmed-1998-season-1",
             "itemTitle": "Charmed (1998) – Season 1",
-            "file": "Charmed.S01E21.720p.BluRay.x265-PROTON.mp4",
-            "name": "Charmed.S01E21.720p.BluRay.x265-PROTON",
-            "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E21.720p.BluRay.x265-PROTON.mp4",
+            "file": "Charmed.S01E21.720p.BluRay.x265-PROTON.ia.mp4",
+            "name": "Charmed.S01E21.720p.BluRay",
+            "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E21.720p.BluRay.x265-PROTON.ia.mp4",
             "seconds": 2681,
-            "format": "MPEG4",
+            "format": "h.264 IA",
             "playable": true,
-            "sizeMB": 481
+            "sizeMB": 260
           },
           "alternates": [
-            {
-              "conf": 0.9,
-              "why": "S/E in filename",
-              "item": "charmed-1998-season-1",
-              "itemTitle": "Charmed (1998) – Season 1",
-              "file": "Charmed.S01E21.720p.BluRay.x265-PROTON.ia.mp4",
-              "name": "Charmed.S01E21.720p.BluRay",
-              "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E21.720p.BluRay.x265-PROTON.ia.mp4",
-              "seconds": 2681,
-              "format": "h.264 IA",
-              "playable": true,
-              "sizeMB": 260
-            },
             {
               "conf": 0.75,
               "why": "title ~ \"Love Hurts\" (0.95)",
@@ -1006,6 +1013,20 @@
               "format": "MPEG4",
               "playable": true,
               "sizeMB": 314
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "charmed-1998-season-1",
+              "itemTitle": "Charmed (1998) – Season 1",
+              "file": "Charmed.S01E21.720p.BluRay.x265-PROTON.mp4",
+              "name": "Charmed.S01E21.720p.BluRay.x265-PROTON",
+              "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E21.720p.BluRay.x265-PROTON.mp4",
+              "seconds": 2681,
+              "format": "MPEG4",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 481
             }
           ]
         },
@@ -1019,28 +1040,15 @@
             "why": "S/E in filename",
             "item": "charmed-1998-season-1",
             "itemTitle": "Charmed (1998) – Season 1",
-            "file": "Charmed.S01E22.720p.BluRay.x265-PROTON.mp4",
-            "name": "Charmed.S01E22.720p.BluRay.x265-PROTON",
-            "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E22.720p.BluRay.x265-PROTON.mp4",
+            "file": "Charmed.S01E22.720p.BluRay.x265-PROTON.ia.mp4",
+            "name": "Charmed.S01E22.720p.BluRay",
+            "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E22.720p.BluRay.x265-PROTON.ia.mp4",
             "seconds": 2642,
-            "format": "MPEG4",
+            "format": "h.264 IA",
             "playable": true,
-            "sizeMB": 472
+            "sizeMB": 258
           },
           "alternates": [
-            {
-              "conf": 0.9,
-              "why": "S/E in filename",
-              "item": "charmed-1998-season-1",
-              "itemTitle": "Charmed (1998) – Season 1",
-              "file": "Charmed.S01E22.720p.BluRay.x265-PROTON.ia.mp4",
-              "name": "Charmed.S01E22.720p.BluRay",
-              "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E22.720p.BluRay.x265-PROTON.ia.mp4",
-              "seconds": 2642,
-              "format": "h.264 IA",
-              "playable": true,
-              "sizeMB": 258
-            },
             {
               "conf": 0.75,
               "why": "title ~ \"Déjà Vu All Over Again\" (0.95)",
@@ -1053,6 +1061,20 @@
               "format": "MPEG4",
               "playable": true,
               "sizeMB": 324
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "charmed-1998-season-1",
+              "itemTitle": "Charmed (1998) – Season 1",
+              "file": "Charmed.S01E22.720p.BluRay.x265-PROTON.mp4",
+              "name": "Charmed.S01E22.720p.BluRay.x265-PROTON",
+              "url": "https://archive.org/download/charmed-1998-season-1/Charmed.S01E22.720p.BluRay.x265-PROTON.mp4",
+              "seconds": 2642,
+              "format": "MPEG4",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 472
             }
           ]
         }
@@ -1065,33 +1087,34 @@
           "number": 1,
           "name": "Witch Trial",
           "airdate": "1999-09-30",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
-            "why": "S/E in filename + title match",
-            "item": "charmed-1998-season-2",
-            "itemTitle": "Charmed (1998) – Season 2",
-            "file": "Charmed (1998) - S02E01 - Witch Trial (1080p BluRay x265 Silence).mp4",
-            "name": "Charmed (1998) - S02E01 - Witch Trial (1080p BluRay x265 Silence)",
-            "url": "https://archive.org/download/charmed-1998-season-2/Charmed%20(1998)%20-%20S02E01%20-%20Witch%20Trial%20(1080p%20BluRay%20x265%20Silence).mp4",
+            "conf": 0.75,
+            "why": "title ~ \"Witch Trial\" (0.95)",
+            "item": "charmed_the_complete_series",
+            "itemTitle": "Charmed (1998) The Complete Series",
+            "file": "S02_E01_Episode 1 (Witch Trial).mp4",
+            "name": "S02_E01_Episode 1 (Witch Trial)",
+            "url": "https://archive.org/download/charmed_the_complete_series/S02_E01_Episode%201%20(Witch%20Trial).mp4",
             "seconds": 2588,
-            "format": "h.264",
+            "format": "MPEG4",
             "playable": true,
-            "sizeMB": 256
+            "sizeMB": 305
           },
           "alternates": [
             {
-              "conf": 0.75,
-              "why": "title ~ \"Witch Trial\" (0.95)",
-              "item": "charmed_the_complete_series",
-              "itemTitle": "Charmed (1998) The Complete Series",
-              "file": "S02_E01_Episode 1 (Witch Trial).mp4",
-              "name": "S02_E01_Episode 1 (Witch Trial)",
-              "url": "https://archive.org/download/charmed_the_complete_series/S02_E01_Episode%201%20(Witch%20Trial).mp4",
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "charmed-1998-season-2",
+              "itemTitle": "Charmed (1998) – Season 2",
+              "file": "Charmed (1998) - S02E01 - Witch Trial (1080p BluRay x265 Silence).mp4",
+              "name": "Charmed (1998) - S02E01 - Witch Trial (1080p BluRay x265 Silence)",
+              "url": "https://archive.org/download/charmed-1998-season-2/Charmed%20(1998)%20-%20S02E01%20-%20Witch%20Trial%20(1080p%20BluRay%20x265%20Silence).mp4",
               "seconds": 2588,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 305
+              "format": "h.264",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 256
             }
           ]
         },
@@ -1099,33 +1122,34 @@
           "number": 2,
           "name": "Morality Bites",
           "airdate": "1999-10-07",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
-            "why": "S/E in filename + title match",
-            "item": "charmed-1998-season-2",
-            "itemTitle": "Charmed (1998) – Season 2",
-            "file": "Charmed (1998) - S02E02 - Morality Bites (1080p BluRay x265 Silence).mp4",
-            "name": "Charmed (1998) - S02E02 - Morality Bites (1080p BluRay x265 Silence)",
-            "url": "https://archive.org/download/charmed-1998-season-2/Charmed%20(1998)%20-%20S02E02%20-%20Morality%20Bites%20(1080p%20BluRay%20x265%20Silence).mp4",
-            "seconds": 2663,
-            "format": "h.264",
+            "conf": 0.75,
+            "why": "title ~ \"Morality Bites\" (0.96)",
+            "item": "charmed_the_complete_series",
+            "itemTitle": "Charmed (1998) The Complete Series",
+            "file": "S02_E02_Episode 2 (Morality Bites).mp4",
+            "name": "S02_E02_Episode 2 (Morality Bites)",
+            "url": "https://archive.org/download/charmed_the_complete_series/S02_E02_Episode%202%20(Morality%20Bites).mp4",
+            "seconds": 2664,
+            "format": "MPEG4",
             "playable": true,
-            "sizeMB": 262
+            "sizeMB": 357
           },
           "alternates": [
             {
-              "conf": 0.75,
-              "why": "title ~ \"Morality Bites\" (0.96)",
-              "item": "charmed_the_complete_series",
-              "itemTitle": "Charmed (1998) The Complete Series",
-              "file": "S02_E02_Episode 2 (Morality Bites).mp4",
-              "name": "S02_E02_Episode 2 (Morality Bites)",
-              "url": "https://archive.org/download/charmed_the_complete_series/S02_E02_Episode%202%20(Morality%20Bites).mp4",
-              "seconds": 2664,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 357
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "charmed-1998-season-2",
+              "itemTitle": "Charmed (1998) – Season 2",
+              "file": "Charmed (1998) - S02E02 - Morality Bites (1080p BluRay x265 Silence).mp4",
+              "name": "Charmed (1998) - S02E02 - Morality Bites (1080p BluRay x265 Silence)",
+              "url": "https://archive.org/download/charmed-1998-season-2/Charmed%20(1998)%20-%20S02E02%20-%20Morality%20Bites%20(1080p%20BluRay%20x265%20Silence).mp4",
+              "seconds": 2663,
+              "format": "h.264",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 262
             }
           ]
         },
@@ -1133,33 +1157,34 @@
           "number": 3,
           "name": "The Painted World",
           "airdate": "1999-10-14",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
-            "why": "S/E in filename + title match",
-            "item": "charmed-1998-season-2",
-            "itemTitle": "Charmed (1998) – Season 2",
-            "file": "Charmed (1998) - S02E03 - The Painted World (1080p BluRay x265 Silence).mp4",
-            "name": "Charmed (1998) - S02E03 - The Painted World (1080p BluRay x265 Silence)",
-            "url": "https://archive.org/download/charmed-1998-season-2/Charmed%20(1998)%20-%20S02E03%20-%20The%20Painted%20World%20(1080p%20BluRay%20x265%20Silence).mp4",
+            "conf": 0.75,
+            "why": "title ~ \"The Painted World\" (0.97)",
+            "item": "charmed_the_complete_series",
+            "itemTitle": "Charmed (1998) The Complete Series",
+            "file": "S02_E03_Episode 3 (The Painted World).mp4",
+            "name": "S02_E03_Episode 3 (The Painted World)",
+            "url": "https://archive.org/download/charmed_the_complete_series/S02_E03_Episode%203%20(The%20Painted%20World).mp4",
             "seconds": 2598,
-            "format": "h.264",
+            "format": "MPEG4",
             "playable": true,
-            "sizeMB": 256
+            "sizeMB": 348
           },
           "alternates": [
             {
-              "conf": 0.75,
-              "why": "title ~ \"The Painted World\" (0.97)",
-              "item": "charmed_the_complete_series",
-              "itemTitle": "Charmed (1998) The Complete Series",
-              "file": "S02_E03_Episode 3 (The Painted World).mp4",
-              "name": "S02_E03_Episode 3 (The Painted World)",
-              "url": "https://archive.org/download/charmed_the_complete_series/S02_E03_Episode%203%20(The%20Painted%20World).mp4",
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "charmed-1998-season-2",
+              "itemTitle": "Charmed (1998) – Season 2",
+              "file": "Charmed (1998) - S02E03 - The Painted World (1080p BluRay x265 Silence).mp4",
+              "name": "Charmed (1998) - S02E03 - The Painted World (1080p BluRay x265 Silence)",
+              "url": "https://archive.org/download/charmed-1998-season-2/Charmed%20(1998)%20-%20S02E03%20-%20The%20Painted%20World%20(1080p%20BluRay%20x265%20Silence).mp4",
               "seconds": 2598,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 348
+              "format": "h.264",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 256
             }
           ]
         },
@@ -1167,33 +1192,34 @@
           "number": 4,
           "name": "The Devil's Music",
           "airdate": "1999-10-21",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
-            "why": "S/E in filename + title match",
-            "item": "charmed-1998-season-2",
-            "itemTitle": "Charmed (1998) – Season 2",
-            "file": "Charmed (1998) - S02E04 - The Devil's Music (1080p BluRay x265 Silence).mp4",
-            "name": "Charmed (1998) - S02E04 - The Devil's Music (1080p BluRay x265 Silence)",
-            "url": "https://archive.org/download/charmed-1998-season-2/Charmed%20(1998)%20-%20S02E04%20-%20The%20Devil's%20Music%20(1080p%20BluRay%20x265%20Silence).mp4",
-            "seconds": 2533,
-            "format": "h.264",
+            "conf": 0.75,
+            "why": "title ~ \"The Devil's Music\" (0.96)",
+            "item": "charmed_the_complete_series",
+            "itemTitle": "Charmed (1998) The Complete Series",
+            "file": "S02_E04_Episode 4 (The Devil's Music).mp4",
+            "name": "S02_E04_Episode 4 (The Devil's Music)",
+            "url": "https://archive.org/download/charmed_the_complete_series/S02_E04_Episode%204%20(The%20Devil's%20Music).mp4",
+            "seconds": 2536,
+            "format": "MPEG4",
             "playable": true,
-            "sizeMB": 249
+            "sizeMB": 299
           },
           "alternates": [
             {
-              "conf": 0.75,
-              "why": "title ~ \"The Devil's Music\" (0.96)",
-              "item": "charmed_the_complete_series",
-              "itemTitle": "Charmed (1998) The Complete Series",
-              "file": "S02_E04_Episode 4 (The Devil's Music).mp4",
-              "name": "S02_E04_Episode 4 (The Devil's Music)",
-              "url": "https://archive.org/download/charmed_the_complete_series/S02_E04_Episode%204%20(The%20Devil's%20Music).mp4",
-              "seconds": 2536,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 299
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "charmed-1998-season-2",
+              "itemTitle": "Charmed (1998) – Season 2",
+              "file": "Charmed (1998) - S02E04 - The Devil's Music (1080p BluRay x265 Silence).mp4",
+              "name": "Charmed (1998) - S02E04 - The Devil's Music (1080p BluRay x265 Silence)",
+              "url": "https://archive.org/download/charmed-1998-season-2/Charmed%20(1998)%20-%20S02E04%20-%20The%20Devil's%20Music%20(1080p%20BluRay%20x265%20Silence).mp4",
+              "seconds": 2533,
+              "format": "h.264",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 249
             }
           ]
         },
@@ -1201,33 +1227,34 @@
           "number": 5,
           "name": "She's a Man, Baby, a Man!",
           "airdate": "1999-11-04",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
-            "why": "S/E in filename + title match",
-            "item": "charmed-1998-season-2",
-            "itemTitle": "Charmed (1998) – Season 2",
-            "file": "Charmed (1998) - S02E05 - She's a Man, Baby, a Man! (1080p BluRay x265 Silence).mp4",
-            "name": "Charmed (1998) - S02E05 - She's a Man, Baby, a Man! (1080p BluRay x265 Silence)",
-            "url": "https://archive.org/download/charmed-1998-season-2/Charmed%20(1998)%20-%20S02E05%20-%20She's%20a%20Man%2C%20Baby%2C%20a%20Man!%20(1080p%20BluRay%20x265%20Silence).mp4",
-            "seconds": 2601,
-            "format": "h.264",
+            "conf": 0.75,
+            "why": "title ~ \"She's a Man, Baby, a Man!\" (0.96)",
+            "item": "charmed_the_complete_series",
+            "itemTitle": "Charmed (1998) The Complete Series",
+            "file": "S02_E05_Episode 5 (She's A Man, Baby, A Man).mp4",
+            "name": "S02_E05_Episode 5 (She's A Man, Baby, A Man)",
+            "url": "https://archive.org/download/charmed_the_complete_series/S02_E05_Episode%205%20(She's%20A%20Man%2C%20Baby%2C%20A%20Man).mp4",
+            "seconds": 2603,
+            "format": "MPEG4",
             "playable": true,
-            "sizeMB": 255
+            "sizeMB": 305
           },
           "alternates": [
             {
-              "conf": 0.75,
-              "why": "title ~ \"She's a Man, Baby, a Man!\" (0.96)",
-              "item": "charmed_the_complete_series",
-              "itemTitle": "Charmed (1998) The Complete Series",
-              "file": "S02_E05_Episode 5 (She's A Man, Baby, A Man).mp4",
-              "name": "S02_E05_Episode 5 (She's A Man, Baby, A Man)",
-              "url": "https://archive.org/download/charmed_the_complete_series/S02_E05_Episode%205%20(She's%20A%20Man%2C%20Baby%2C%20A%20Man).mp4",
-              "seconds": 2603,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 305
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "charmed-1998-season-2",
+              "itemTitle": "Charmed (1998) – Season 2",
+              "file": "Charmed (1998) - S02E05 - She's a Man, Baby, a Man! (1080p BluRay x265 Silence).mp4",
+              "name": "Charmed (1998) - S02E05 - She's a Man, Baby, a Man! (1080p BluRay x265 Silence)",
+              "url": "https://archive.org/download/charmed-1998-season-2/Charmed%20(1998)%20-%20S02E05%20-%20She's%20a%20Man%2C%20Baby%2C%20a%20Man!%20(1080p%20BluRay%20x265%20Silence).mp4",
+              "seconds": 2601,
+              "format": "h.264",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 255
             }
           ]
         },
@@ -1235,33 +1262,34 @@
           "number": 6,
           "name": "That Old Black Magic",
           "airdate": "1999-11-11",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
-            "why": "S/E in filename + title match",
-            "item": "charmed-1998-season-2",
-            "itemTitle": "Charmed (1998) – Season 2",
-            "file": "Charmed (1998) - S02E06 - That Old Black Magic (1080p BluRay x265 Silence).mp4",
-            "name": "Charmed (1998) - S02E06 - That Old Black Magic (1080p BluRay x265 Silence)",
-            "url": "https://archive.org/download/charmed-1998-season-2/Charmed%20(1998)%20-%20S02E06%20-%20That%20Old%20Black%20Magic%20(1080p%20BluRay%20x265%20Silence).mp4",
-            "seconds": 2628,
-            "format": "h.264",
+            "conf": 0.75,
+            "why": "title ~ \"That Old Black Magic\" (0.97)",
+            "item": "charmed_the_complete_series",
+            "itemTitle": "Charmed (1998) The Complete Series",
+            "file": "S02_E06_Episode 6 (That Old Black Magic).mp4",
+            "name": "S02_E06_Episode 6 (That Old Black Magic)",
+            "url": "https://archive.org/download/charmed_the_complete_series/S02_E06_Episode%206%20(That%20Old%20Black%20Magic).mp4",
+            "seconds": 2629,
+            "format": "MPEG4",
             "playable": true,
-            "sizeMB": 260
+            "sizeMB": 333
           },
           "alternates": [
             {
-              "conf": 0.75,
-              "why": "title ~ \"That Old Black Magic\" (0.97)",
-              "item": "charmed_the_complete_series",
-              "itemTitle": "Charmed (1998) The Complete Series",
-              "file": "S02_E06_Episode 6 (That Old Black Magic).mp4",
-              "name": "S02_E06_Episode 6 (That Old Black Magic)",
-              "url": "https://archive.org/download/charmed_the_complete_series/S02_E06_Episode%206%20(That%20Old%20Black%20Magic).mp4",
-              "seconds": 2629,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 333
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "charmed-1998-season-2",
+              "itemTitle": "Charmed (1998) – Season 2",
+              "file": "Charmed (1998) - S02E06 - That Old Black Magic (1080p BluRay x265 Silence).mp4",
+              "name": "Charmed (1998) - S02E06 - That Old Black Magic (1080p BluRay x265 Silence)",
+              "url": "https://archive.org/download/charmed-1998-season-2/Charmed%20(1998)%20-%20S02E06%20-%20That%20Old%20Black%20Magic%20(1080p%20BluRay%20x265%20Silence).mp4",
+              "seconds": 2628,
+              "format": "h.264",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 260
             }
           ]
         },
@@ -1269,33 +1297,34 @@
           "number": 7,
           "name": "They're Everywhere",
           "airdate": "1999-11-18",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
-            "why": "S/E in filename + title match",
-            "item": "charmed-1998-season-2",
-            "itemTitle": "Charmed (1998) – Season 2",
-            "file": "Charmed (1998) - S02E07 - They're Everywhere (1080p BluRay x265 Silence).mp4",
-            "name": "Charmed (1998) - S02E07 - They're Everywhere (1080p BluRay x265 Silence)",
-            "url": "https://archive.org/download/charmed-1998-season-2/Charmed%20(1998)%20-%20S02E07%20-%20They're%20Everywhere%20(1080p%20BluRay%20x265%20Silence).mp4",
-            "seconds": 2543,
-            "format": "h.264",
+            "conf": 0.75,
+            "why": "title ~ \"They're Everywhere\" (0.96)",
+            "item": "charmed_the_complete_series",
+            "itemTitle": "Charmed (1998) The Complete Series",
+            "file": "S02_E07_Episode 7 (They're Everywhere).mp4",
+            "name": "S02_E07_Episode 7 (They're Everywhere)",
+            "url": "https://archive.org/download/charmed_the_complete_series/S02_E07_Episode%207%20(They're%20Everywhere).mp4",
+            "seconds": 2544,
+            "format": "MPEG4",
             "playable": true,
-            "sizeMB": 251
+            "sizeMB": 343
           },
           "alternates": [
             {
-              "conf": 0.75,
-              "why": "title ~ \"They're Everywhere\" (0.96)",
-              "item": "charmed_the_complete_series",
-              "itemTitle": "Charmed (1998) The Complete Series",
-              "file": "S02_E07_Episode 7 (They're Everywhere).mp4",
-              "name": "S02_E07_Episode 7 (They're Everywhere)",
-              "url": "https://archive.org/download/charmed_the_complete_series/S02_E07_Episode%207%20(They're%20Everywhere).mp4",
-              "seconds": 2544,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 343
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "charmed-1998-season-2",
+              "itemTitle": "Charmed (1998) – Season 2",
+              "file": "Charmed (1998) - S02E07 - They're Everywhere (1080p BluRay x265 Silence).mp4",
+              "name": "Charmed (1998) - S02E07 - They're Everywhere (1080p BluRay x265 Silence)",
+              "url": "https://archive.org/download/charmed-1998-season-2/Charmed%20(1998)%20-%20S02E07%20-%20They're%20Everywhere%20(1080p%20BluRay%20x265%20Silence).mp4",
+              "seconds": 2543,
+              "format": "h.264",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 251
             }
           ]
         },
@@ -1303,33 +1332,34 @@
           "number": 8,
           "name": "P3 H2O",
           "airdate": "1999-12-09",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
-            "why": "S/E in filename + title match",
-            "item": "charmed-1998-season-2",
-            "itemTitle": "Charmed (1998) – Season 2",
-            "file": "Charmed (1998) - S02E08 - P3 H2O (1080p BluRay x265 Silence).mp4",
-            "name": "Charmed (1998) - S02E08 - P3 H2O (1080p BluRay x265 Silence)",
-            "url": "https://archive.org/download/charmed-1998-season-2/Charmed%20(1998)%20-%20S02E08%20-%20P3%20H2O%20(1080p%20BluRay%20x265%20Silence).mp4",
-            "seconds": 2647,
-            "format": "h.264",
+            "conf": 0.75,
+            "why": "title ~ \"P3 H2O\" (0.95)",
+            "item": "charmed_the_complete_series",
+            "itemTitle": "Charmed (1998) The Complete Series",
+            "file": "S02_E08_Episode 8 (P3 H2O).mp4",
+            "name": "S02_E08_Episode 8 (P3 H2O)",
+            "url": "https://archive.org/download/charmed_the_complete_series/S02_E08_Episode%208%20(P3%20H2O).mp4",
+            "seconds": 2650,
+            "format": "MPEG4",
             "playable": true,
-            "sizeMB": 263
+            "sizeMB": 393
           },
           "alternates": [
             {
-              "conf": 0.75,
-              "why": "title ~ \"P3 H2O\" (0.95)",
-              "item": "charmed_the_complete_series",
-              "itemTitle": "Charmed (1998) The Complete Series",
-              "file": "S02_E08_Episode 8 (P3 H2O).mp4",
-              "name": "S02_E08_Episode 8 (P3 H2O)",
-              "url": "https://archive.org/download/charmed_the_complete_series/S02_E08_Episode%208%20(P3%20H2O).mp4",
-              "seconds": 2650,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 393
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "charmed-1998-season-2",
+              "itemTitle": "Charmed (1998) – Season 2",
+              "file": "Charmed (1998) - S02E08 - P3 H2O (1080p BluRay x265 Silence).mp4",
+              "name": "Charmed (1998) - S02E08 - P3 H2O (1080p BluRay x265 Silence)",
+              "url": "https://archive.org/download/charmed-1998-season-2/Charmed%20(1998)%20-%20S02E08%20-%20P3%20H2O%20(1080p%20BluRay%20x265%20Silence).mp4",
+              "seconds": 2647,
+              "format": "h.264",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 263
             }
           ]
         },
@@ -1337,33 +1367,34 @@
           "number": 9,
           "name": "Ms. Hellfire",
           "airdate": "2000-01-13",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
-            "why": "S/E in filename + title match",
-            "item": "charmed-1998-season-2",
-            "itemTitle": "Charmed (1998) – Season 2",
-            "file": "Charmed (1998) - S02E09 - Ms. Hellfire (1080p BluRay x265 Silence).mp4",
-            "name": "Charmed (1998) - S02E09 - Ms. Hellfire (1080p BluRay x265 Silence)",
-            "url": "https://archive.org/download/charmed-1998-season-2/Charmed%20(1998)%20-%20S02E09%20-%20Ms.%20Hellfire%20(1080p%20BluRay%20x265%20Silence).mp4",
-            "seconds": 2634,
-            "format": "h.264",
+            "conf": 0.75,
+            "why": "title ~ \"Ms. Hellfire\" (0.95)",
+            "item": "charmed_the_complete_series",
+            "itemTitle": "Charmed (1998) The Complete Series",
+            "file": "S02_E09_Episode 9 (Ms. Hellfire).mp4",
+            "name": "S02_E09_Episode 9 (Ms. Hellfire)",
+            "url": "https://archive.org/download/charmed_the_complete_series/S02_E09_Episode%209%20(Ms.%20Hellfire).mp4",
+            "seconds": 2638,
+            "format": "MPEG4",
             "playable": true,
-            "sizeMB": 259
+            "sizeMB": 311
           },
           "alternates": [
             {
-              "conf": 0.75,
-              "why": "title ~ \"Ms. Hellfire\" (0.95)",
-              "item": "charmed_the_complete_series",
-              "itemTitle": "Charmed (1998) The Complete Series",
-              "file": "S02_E09_Episode 9 (Ms. Hellfire).mp4",
-              "name": "S02_E09_Episode 9 (Ms. Hellfire)",
-              "url": "https://archive.org/download/charmed_the_complete_series/S02_E09_Episode%209%20(Ms.%20Hellfire).mp4",
-              "seconds": 2638,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 311
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "charmed-1998-season-2",
+              "itemTitle": "Charmed (1998) – Season 2",
+              "file": "Charmed (1998) - S02E09 - Ms. Hellfire (1080p BluRay x265 Silence).mp4",
+              "name": "Charmed (1998) - S02E09 - Ms. Hellfire (1080p BluRay x265 Silence)",
+              "url": "https://archive.org/download/charmed-1998-season-2/Charmed%20(1998)%20-%20S02E09%20-%20Ms.%20Hellfire%20(1080p%20BluRay%20x265%20Silence).mp4",
+              "seconds": 2634,
+              "format": "h.264",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 259
             }
           ]
         },
@@ -1371,33 +1402,34 @@
           "number": 10,
           "name": "Heartbreak City",
           "airdate": "2000-01-20",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
-            "why": "S/E in filename + title match",
-            "item": "charmed-1998-season-2",
-            "itemTitle": "Charmed (1998) – Season 2",
-            "file": "Charmed (1998) - S02E10 - Heartbreak City (1080p BluRay x265 Silence).mp4",
-            "name": "Charmed (1998) - S02E10 - Heartbreak City (1080p BluRay x265 Silence)",
-            "url": "https://archive.org/download/charmed-1998-season-2/Charmed%20(1998)%20-%20S02E10%20-%20Heartbreak%20City%20(1080p%20BluRay%20x265%20Silence).mp4",
-            "seconds": 2551,
-            "format": "h.264",
+            "conf": 0.75,
+            "why": "title ~ \"Heartbreak City\" (0.95)",
+            "item": "charmed_the_complete_series",
+            "itemTitle": "Charmed (1998) The Complete Series",
+            "file": "S02_E10_Episode 10 (Heartbreak City).mp4",
+            "name": "S02_E10_Episode 10 (Heartbreak City)",
+            "url": "https://archive.org/download/charmed_the_complete_series/S02_E10_Episode%2010%20(Heartbreak%20City).mp4",
+            "seconds": 2552,
+            "format": "MPEG4",
             "playable": true,
-            "sizeMB": 252
+            "sizeMB": 300
           },
           "alternates": [
             {
-              "conf": 0.75,
-              "why": "title ~ \"Heartbreak City\" (0.95)",
-              "item": "charmed_the_complete_series",
-              "itemTitle": "Charmed (1998) The Complete Series",
-              "file": "S02_E10_Episode 10 (Heartbreak City).mp4",
-              "name": "S02_E10_Episode 10 (Heartbreak City)",
-              "url": "https://archive.org/download/charmed_the_complete_series/S02_E10_Episode%2010%20(Heartbreak%20City).mp4",
-              "seconds": 2552,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 300
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "charmed-1998-season-2",
+              "itemTitle": "Charmed (1998) – Season 2",
+              "file": "Charmed (1998) - S02E10 - Heartbreak City (1080p BluRay x265 Silence).mp4",
+              "name": "Charmed (1998) - S02E10 - Heartbreak City (1080p BluRay x265 Silence)",
+              "url": "https://archive.org/download/charmed-1998-season-2/Charmed%20(1998)%20-%20S02E10%20-%20Heartbreak%20City%20(1080p%20BluRay%20x265%20Silence).mp4",
+              "seconds": 2551,
+              "format": "h.264",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 252
             }
           ]
         },
@@ -1405,33 +1437,34 @@
           "number": 11,
           "name": "Reckless Abandon",
           "airdate": "2000-01-27",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
-            "why": "S/E in filename + title match",
-            "item": "charmed-1998-season-2",
-            "itemTitle": "Charmed (1998) – Season 2",
-            "file": "Charmed (1998) - S02E11 - Reckless Abandon (1080p BluRay x265 Silence).mp4",
-            "name": "Charmed (1998) - S02E11 - Reckless Abandon (1080p BluRay x265 Silence)",
-            "url": "https://archive.org/download/charmed-1998-season-2/Charmed%20(1998)%20-%20S02E11%20-%20Reckless%20Abandon%20(1080p%20BluRay%20x265%20Silence).mp4",
-            "seconds": 2638,
-            "format": "h.264",
+            "conf": 0.75,
+            "why": "title ~ \"Reckless Abandon\" (0.95)",
+            "item": "charmed_the_complete_series",
+            "itemTitle": "Charmed (1998) The Complete Series",
+            "file": "S02_E11_Episode 11 (Reckless Abandon).mp4",
+            "name": "S02_E11_Episode 11 (Reckless Abandon)",
+            "url": "https://archive.org/download/charmed_the_complete_series/S02_E11_Episode%2011%20(Reckless%20Abandon).mp4",
+            "seconds": 2639,
+            "format": "MPEG4",
             "playable": true,
-            "sizeMB": 260
+            "sizeMB": 310
           },
           "alternates": [
             {
-              "conf": 0.75,
-              "why": "title ~ \"Reckless Abandon\" (0.95)",
-              "item": "charmed_the_complete_series",
-              "itemTitle": "Charmed (1998) The Complete Series",
-              "file": "S02_E11_Episode 11 (Reckless Abandon).mp4",
-              "name": "S02_E11_Episode 11 (Reckless Abandon)",
-              "url": "https://archive.org/download/charmed_the_complete_series/S02_E11_Episode%2011%20(Reckless%20Abandon).mp4",
-              "seconds": 2639,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 310
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "charmed-1998-season-2",
+              "itemTitle": "Charmed (1998) – Season 2",
+              "file": "Charmed (1998) - S02E11 - Reckless Abandon (1080p BluRay x265 Silence).mp4",
+              "name": "Charmed (1998) - S02E11 - Reckless Abandon (1080p BluRay x265 Silence)",
+              "url": "https://archive.org/download/charmed-1998-season-2/Charmed%20(1998)%20-%20S02E11%20-%20Reckless%20Abandon%20(1080p%20BluRay%20x265%20Silence).mp4",
+              "seconds": 2638,
+              "format": "h.264",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 260
             }
           ]
         },
@@ -1439,33 +1472,34 @@
           "number": 12,
           "name": "Awakened",
           "airdate": "2000-02-03",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
-            "why": "S/E in filename + title match",
-            "item": "charmed-1998-season-2",
-            "itemTitle": "Charmed (1998) – Season 2",
-            "file": "Charmed (1998) - S02E12 - Awakened (1080p BluRay x265 Silence).mp4",
-            "name": "Charmed (1998) - S02E12 - Awakened (1080p BluRay x265 Silence)",
-            "url": "https://archive.org/download/charmed-1998-season-2/Charmed%20(1998)%20-%20S02E12%20-%20Awakened%20(1080p%20BluRay%20x265%20Silence).mp4",
-            "seconds": 2590,
-            "format": "h.264",
+            "conf": 0.75,
+            "why": "title ~ \"Awakened\" (0.95)",
+            "item": "charmed_the_complete_series",
+            "itemTitle": "Charmed (1998) The Complete Series",
+            "file": "S02_E12_Episode 12 (Awakened).mp4",
+            "name": "S02_E12_Episode 12 (Awakened)",
+            "url": "https://archive.org/download/charmed_the_complete_series/S02_E12_Episode%2012%20(Awakened).mp4",
+            "seconds": 2591,
+            "format": "MPEG4",
             "playable": true,
-            "sizeMB": 257
+            "sizeMB": 303
           },
           "alternates": [
             {
-              "conf": 0.75,
-              "why": "title ~ \"Awakened\" (0.95)",
-              "item": "charmed_the_complete_series",
-              "itemTitle": "Charmed (1998) The Complete Series",
-              "file": "S02_E12_Episode 12 (Awakened).mp4",
-              "name": "S02_E12_Episode 12 (Awakened)",
-              "url": "https://archive.org/download/charmed_the_complete_series/S02_E12_Episode%2012%20(Awakened).mp4",
-              "seconds": 2591,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 303
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "charmed-1998-season-2",
+              "itemTitle": "Charmed (1998) – Season 2",
+              "file": "Charmed (1998) - S02E12 - Awakened (1080p BluRay x265 Silence).mp4",
+              "name": "Charmed (1998) - S02E12 - Awakened (1080p BluRay x265 Silence)",
+              "url": "https://archive.org/download/charmed-1998-season-2/Charmed%20(1998)%20-%20S02E12%20-%20Awakened%20(1080p%20BluRay%20x265%20Silence).mp4",
+              "seconds": 2590,
+              "format": "h.264",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 257
             }
           ]
         },
@@ -1473,33 +1507,34 @@
           "number": 13,
           "name": "Animal Pragmatism",
           "airdate": "2000-02-10",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
-            "why": "S/E in filename + title match",
-            "item": "charmed-1998-season-2",
-            "itemTitle": "Charmed (1998) – Season 2",
-            "file": "Charmed (1998) - S02E13 - Animal Pragmatism (1080p BluRay x265 Silence).mp4",
-            "name": "Charmed (1998) - S02E13 - Animal Pragmatism (1080p BluRay x265 Silence)",
-            "url": "https://archive.org/download/charmed-1998-season-2/Charmed%20(1998)%20-%20S02E13%20-%20Animal%20Pragmatism%20(1080p%20BluRay%20x265%20Silence).mp4",
-            "seconds": 2633,
-            "format": "h.264",
+            "conf": 0.75,
+            "why": "title ~ \"Animal Pragmatism\" (0.95)",
+            "item": "charmed_the_complete_series",
+            "itemTitle": "Charmed (1998) The Complete Series",
+            "file": "S02_E13_Episode 13 (Animal Pragmatism).mp4",
+            "name": "S02_E13_Episode 13 (Animal Pragmatism)",
+            "url": "https://archive.org/download/charmed_the_complete_series/S02_E13_Episode%2013%20(Animal%20Pragmatism).mp4",
+            "seconds": 2634,
+            "format": "MPEG4",
             "playable": true,
-            "sizeMB": 259
+            "sizeMB": 337
           },
           "alternates": [
             {
-              "conf": 0.75,
-              "why": "title ~ \"Animal Pragmatism\" (0.95)",
-              "item": "charmed_the_complete_series",
-              "itemTitle": "Charmed (1998) The Complete Series",
-              "file": "S02_E13_Episode 13 (Animal Pragmatism).mp4",
-              "name": "S02_E13_Episode 13 (Animal Pragmatism)",
-              "url": "https://archive.org/download/charmed_the_complete_series/S02_E13_Episode%2013%20(Animal%20Pragmatism).mp4",
-              "seconds": 2634,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 337
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "charmed-1998-season-2",
+              "itemTitle": "Charmed (1998) – Season 2",
+              "file": "Charmed (1998) - S02E13 - Animal Pragmatism (1080p BluRay x265 Silence).mp4",
+              "name": "Charmed (1998) - S02E13 - Animal Pragmatism (1080p BluRay x265 Silence)",
+              "url": "https://archive.org/download/charmed-1998-season-2/Charmed%20(1998)%20-%20S02E13%20-%20Animal%20Pragmatism%20(1080p%20BluRay%20x265%20Silence).mp4",
+              "seconds": 2633,
+              "format": "h.264",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 259
             }
           ]
         },
@@ -1507,33 +1542,34 @@
           "number": 14,
           "name": "Pardon My Past",
           "airdate": "2000-02-17",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
-            "why": "S/E in filename + title match",
-            "item": "charmed-1998-season-2",
-            "itemTitle": "Charmed (1998) – Season 2",
-            "file": "Charmed (1998) - S02E14 - Pardon My Past (1080p BluRay x265 Silence).mp4",
-            "name": "Charmed (1998) - S02E14 - Pardon My Past (1080p BluRay x265 Silence)",
-            "url": "https://archive.org/download/charmed-1998-season-2/Charmed%20(1998)%20-%20S02E14%20-%20Pardon%20My%20Past%20(1080p%20BluRay%20x265%20Silence).mp4",
+            "conf": 0.75,
+            "why": "title ~ \"Pardon My Past\" (0.95)",
+            "item": "charmed_the_complete_series",
+            "itemTitle": "Charmed (1998) The Complete Series",
+            "file": "S02_E14_Episode 14 (Pardon My Past).mp4",
+            "name": "S02_E14_Episode 14 (Pardon My Past)",
+            "url": "https://archive.org/download/charmed_the_complete_series/S02_E14_Episode%2014%20(Pardon%20My%20Past).mp4",
             "seconds": 2649,
-            "format": "h.264",
+            "format": "MPEG4",
             "playable": true,
-            "sizeMB": 261
+            "sizeMB": 315
           },
           "alternates": [
             {
-              "conf": 0.75,
-              "why": "title ~ \"Pardon My Past\" (0.95)",
-              "item": "charmed_the_complete_series",
-              "itemTitle": "Charmed (1998) The Complete Series",
-              "file": "S02_E14_Episode 14 (Pardon My Past).mp4",
-              "name": "S02_E14_Episode 14 (Pardon My Past)",
-              "url": "https://archive.org/download/charmed_the_complete_series/S02_E14_Episode%2014%20(Pardon%20My%20Past).mp4",
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "charmed-1998-season-2",
+              "itemTitle": "Charmed (1998) – Season 2",
+              "file": "Charmed (1998) - S02E14 - Pardon My Past (1080p BluRay x265 Silence).mp4",
+              "name": "Charmed (1998) - S02E14 - Pardon My Past (1080p BluRay x265 Silence)",
+              "url": "https://archive.org/download/charmed-1998-season-2/Charmed%20(1998)%20-%20S02E14%20-%20Pardon%20My%20Past%20(1080p%20BluRay%20x265%20Silence).mp4",
               "seconds": 2649,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 315
+              "format": "h.264",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 261
             }
           ]
         },
@@ -1541,10 +1577,10 @@
           "number": 15,
           "name": "Give Me a Sign",
           "airdate": "2000-02-24",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
             "item": "charmed-1998-season-2",
             "itemTitle": "Charmed (1998) – Season 2",
             "file": "Charmed (1998) - S02E15 - Give Me a Sign (1080p BluRay x265 Silence).mp4",
@@ -1552,7 +1588,8 @@
             "url": "https://archive.org/download/charmed-1998-season-2/Charmed%20(1998)%20-%20S02E15%20-%20Give%20Me%20a%20Sign%20(1080p%20BluRay%20x265%20Silence).mp4",
             "seconds": 2598,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 256
           },
           "alternates": []
@@ -1561,10 +1598,10 @@
           "number": 16,
           "name": "Murphy's Luck",
           "airdate": "2000-03-30",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
             "item": "charmed-1998-season-2",
             "itemTitle": "Charmed (1998) – Season 2",
             "file": "Charmed (1998) - S02E16 - Murphy's Luck (1080p BluRay x265 Silence).mp4",
@@ -1572,7 +1609,8 @@
             "url": "https://archive.org/download/charmed-1998-season-2/Charmed%20(1998)%20-%20S02E16%20-%20Murphy's%20Luck%20(1080p%20BluRay%20x265%20Silence).mp4",
             "seconds": 2581,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 254
           },
           "alternates": []
@@ -1584,7 +1622,7 @@
           "state": "REVIEW",
           "file": {
             "conf": 0.6,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
             "item": "charmed-1998-season-2",
             "itemTitle": "Charmed (1998) – Season 2",
             "file": "Charmed (1998) - S02E17 - How to Make a Quilt Out of Americans (1080p BluRay x265 Silence).mp4",
@@ -1592,7 +1630,8 @@
             "url": "https://archive.org/download/charmed-1998-season-2/Charmed%20(1998)%20-%20S02E17%20-%20How%20to%20Make%20a%20Quilt%20Out%20of%20Americans%20(1080p%20BluRay%20x265%20Silence).mp4",
             "seconds": 2541,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 251
           },
           "alternates": []
@@ -1601,10 +1640,10 @@
           "number": 18,
           "name": "Chick Flick",
           "airdate": "2000-04-20",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
             "item": "charmed-1998-season-2",
             "itemTitle": "Charmed (1998) – Season 2",
             "file": "Charmed (1998) - S02E18 - Chick Flick (1080p BluRay x265 Silence).mp4",
@@ -1612,7 +1651,8 @@
             "url": "https://archive.org/download/charmed-1998-season-2/Charmed%20(1998)%20-%20S02E18%20-%20Chick%20Flick%20(1080p%20BluRay%20x265%20Silence).mp4",
             "seconds": 2633,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 260
           },
           "alternates": []
@@ -1621,10 +1661,10 @@
           "number": 19,
           "name": "Ex Libris",
           "airdate": "2000-04-27",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
             "item": "charmed-1998-season-2",
             "itemTitle": "Charmed (1998) – Season 2",
             "file": "Charmed (1998) - S02E19 - Ex Libris (1080p BluRay x265 Silence).mp4",
@@ -1632,7 +1672,8 @@
             "url": "https://archive.org/download/charmed-1998-season-2/Charmed%20(1998)%20-%20S02E19%20-%20Ex%20Libris%20(1080p%20BluRay%20x265%20Silence).mp4",
             "seconds": 2661,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 262
           },
           "alternates": []
@@ -1641,10 +1682,10 @@
           "number": 20,
           "name": "Astral Monkey",
           "airdate": "2000-05-04",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
             "item": "charmed-1998-season-2",
             "itemTitle": "Charmed (1998) – Season 2",
             "file": "Charmed (1998) - S02E20 - Astral Monkey (1080p BluRay x265 Silence).mp4",
@@ -1652,7 +1693,8 @@
             "url": "https://archive.org/download/charmed-1998-season-2/Charmed%20(1998)%20-%20S02E20%20-%20Astral%20Monkey%20(1080p%20BluRay%20x265%20Silence).mp4",
             "seconds": 2610,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 258
           },
           "alternates": []
@@ -1661,10 +1703,10 @@
           "number": 21,
           "name": "Apocalypse Not",
           "airdate": "2000-05-11",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
             "item": "charmed-1998-season-2",
             "itemTitle": "Charmed (1998) – Season 2",
             "file": "Charmed (1998) - S02E21 - Apocalypse Not (1080p BluRay x265 Silence).mp4",
@@ -1672,7 +1714,8 @@
             "url": "https://archive.org/download/charmed-1998-season-2/Charmed%20(1998)%20-%20S02E21%20-%20Apocalypse%20Not%20(1080p%20BluRay%20x265%20Silence).mp4",
             "seconds": 2553,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 252
           },
           "alternates": []
@@ -1681,10 +1724,10 @@
           "number": 22,
           "name": "Be Careful What You Witch For",
           "airdate": "2000-05-18",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
             "item": "charmed-1998-season-2",
             "itemTitle": "Charmed (1998) – Season 2",
             "file": "Charmed (1998) - S02E22 - Be Careful What You Witch For (1080p BluRay x265 Silence).mp4",
@@ -1692,7 +1735,8 @@
             "url": "https://archive.org/download/charmed-1998-season-2/Charmed%20(1998)%20-%20S02E22%20-%20Be%20Careful%20What%20You%20Witch%20For%20(1080p%20BluRay%20x265%20Silence).mp4",
             "seconds": 2647,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 261
           },
           "alternates": []
@@ -1706,10 +1750,10 @@
           "number": 1,
           "name": "The Honeymoon's Over",
           "airdate": "2000-10-05",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
             "item": "charmed-1998-season-3",
             "itemTitle": "Charmed (1998) – Season 3",
             "file": "Charmed (1998) - S03E01 - The Honeymoon's Over (1080p BluRay x265 Silence).mp4",
@@ -1717,7 +1761,8 @@
             "url": "https://archive.org/download/charmed-1998-season-3/Charmed%20(1998)%20-%20S03E01%20-%20The%20Honeymoon's%20Over%20(1080p%20BluRay%20x265%20Silence).mp4",
             "seconds": 2588,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 255
           },
           "alternates": []
@@ -1726,10 +1771,10 @@
           "number": 2,
           "name": "Magic Hour",
           "airdate": "2000-10-12",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
             "item": "charmed-1998-season-3",
             "itemTitle": "Charmed (1998) – Season 3",
             "file": "Charmed (1998) - S03E02 - Magic Hour (1080p BluRay x265 Silence).mp4",
@@ -1737,7 +1782,8 @@
             "url": "https://archive.org/download/charmed-1998-season-3/Charmed%20(1998)%20-%20S03E02%20-%20Magic%20Hour%20(1080p%20BluRay%20x265%20Silence).mp4",
             "seconds": 2663,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 263
           },
           "alternates": []
@@ -1746,10 +1792,10 @@
           "number": 3,
           "name": "Once Upon a Time",
           "airdate": "2000-10-19",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
-            "why": "S/E in filename + title match",
+            "conf": 0.6,
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
             "item": "charmed-1998-season-3",
             "itemTitle": "Charmed (1998) – Season 3",
             "file": "Charmed (1998) - S03E03 - Once Upon a Time (1080p BluRay x265 Silence).mp4",
@@ -1757,7 +1803,8 @@
             "url": "https://archive.org/download/charmed-1998-season-3/Charmed%20(1998)%20-%20S03E03%20-%20Once%20Upon%20a%20Time%20(1080p%20BluRay%20x265%20Silence).mp4",
             "seconds": 2648,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 262
           },
           "alternates": []
@@ -1766,10 +1813,10 @@
           "number": 4,
           "name": "All Halliwell's Eve",
           "airdate": "2000-10-26",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
             "item": "charmed-1998-season-3",
             "itemTitle": "Charmed (1998) – Season 3",
             "file": "Charmed (1998) - S03E04 - All Halliwell's Eve (1080p BluRay x265 Silence).mp4",
@@ -1777,7 +1824,8 @@
             "url": "https://archive.org/download/charmed-1998-season-3/Charmed%20(1998)%20-%20S03E04%20-%20All%20Halliwell's%20Eve%20(1080p%20BluRay%20x265%20Silence).mp4",
             "seconds": 2582,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 255
           },
           "alternates": []
@@ -1786,10 +1834,10 @@
           "number": 5,
           "name": "Sight Unseen",
           "airdate": "2000-11-02",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
             "item": "charmed-1998-season-3",
             "itemTitle": "Charmed (1998) – Season 3",
             "file": "Charmed (1998) - S03E05 - Sight Unseen (1080p BluRay x265 Silence).mp4",
@@ -1797,7 +1845,8 @@
             "url": "https://archive.org/download/charmed-1998-season-3/Charmed%20(1998)%20-%20S03E05%20-%20Sight%20Unseen%20(1080p%20BluRay%20x265%20Silence).mp4",
             "seconds": 2662,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 264
           },
           "alternates": []
@@ -1806,10 +1855,10 @@
           "number": 6,
           "name": "Primrose Empath",
           "airdate": "2000-11-09",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
             "item": "charmed-1998-season-3",
             "itemTitle": "Charmed (1998) – Season 3",
             "file": "Charmed (1998) - S03E06 - Primrose Empath (1080p BluRay x265 Silence).mp4",
@@ -1817,7 +1866,8 @@
             "url": "https://archive.org/download/charmed-1998-season-3/Charmed%20(1998)%20-%20S03E06%20-%20Primrose%20Empath%20(1080p%20BluRay%20x265%20Silence).mp4",
             "seconds": 2633,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 260
           },
           "alternates": []
@@ -1826,10 +1876,10 @@
           "number": 7,
           "name": "Power Outage",
           "airdate": "2000-11-16",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
             "item": "charmed-1998-season-3",
             "itemTitle": "Charmed (1998) – Season 3",
             "file": "Charmed (1998) - S03E07 - Power Outage (1080p BluRay x265 Silence).mp4",
@@ -1837,7 +1887,8 @@
             "url": "https://archive.org/download/charmed-1998-season-3/Charmed%20(1998)%20-%20S03E07%20-%20Power%20Outage%20(1080p%20BluRay%20x265%20Silence).mp4",
             "seconds": 2608,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 258
           },
           "alternates": []
@@ -1846,10 +1897,10 @@
           "number": 8,
           "name": "Sleuthing with the Enemy",
           "airdate": "2000-12-14",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
             "item": "charmed-1998-season-3",
             "itemTitle": "Charmed (1998) – Season 3",
             "file": "Charmed (1998) - S03E08 - Sleuthing with the Enemy (1080p BluRay x265 Silence).mp4",
@@ -1857,7 +1908,8 @@
             "url": "https://archive.org/download/charmed-1998-season-3/Charmed%20(1998)%20-%20S03E08%20-%20Sleuthing%20with%20the%20Enemy%20(1080p%20BluRay%20x265%20Silence).mp4",
             "seconds": 2649,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 262
           },
           "alternates": []
@@ -1866,10 +1918,10 @@
           "number": 9,
           "name": "Coyote Piper",
           "airdate": "2001-01-11",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
             "item": "charmed-1998-season-3",
             "itemTitle": "Charmed (1998) – Season 3",
             "file": "Charmed (1998) - S03E09 - Coyote Piper (1080p BluRay x265 Silence).mp4",
@@ -1877,7 +1929,8 @@
             "url": "https://archive.org/download/charmed-1998-season-3/Charmed%20(1998)%20-%20S03E09%20-%20Coyote%20Piper%20(1080p%20BluRay%20x265%20Silence).mp4",
             "seconds": 2564,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 254
           },
           "alternates": []
@@ -1886,10 +1939,10 @@
           "number": 10,
           "name": "We All Scream for Ice Cream",
           "airdate": "2001-01-18",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
             "item": "charmed-1998-season-3",
             "itemTitle": "Charmed (1998) – Season 3",
             "file": "Charmed (1998) - S03E10 - We All Scream for Ice Cream (1080p BluRay x265 Silence).mp4",
@@ -1897,7 +1950,8 @@
             "url": "https://archive.org/download/charmed-1998-season-3/Charmed%20(1998)%20-%20S03E10%20-%20We%20All%20Scream%20for%20Ice%20Cream%20(1080p%20BluRay%20x265%20Silence).mp4",
             "seconds": 2551,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 251
           },
           "alternates": []
@@ -1906,10 +1960,10 @@
           "number": 11,
           "name": "Blinded by the Whitelighter",
           "airdate": "2001-01-25",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
             "item": "charmed-1998-season-3",
             "itemTitle": "Charmed (1998) – Season 3",
             "file": "Charmed (1998) - S03E11 - Blinded by the Whitelighter (1080p BluRay x265 Silence).mp4",
@@ -1917,7 +1971,8 @@
             "url": "https://archive.org/download/charmed-1998-season-3/Charmed%20(1998)%20-%20S03E11%20-%20Blinded%20by%20the%20Whitelighter%20(1080p%20BluRay%20x265%20Silence).mp4",
             "seconds": 2599,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 255
           },
           "alternates": []
@@ -1926,10 +1981,10 @@
           "number": 12,
           "name": "Wrestling with Demons",
           "airdate": "2001-02-02",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
             "item": "charmed-1998-season-3",
             "itemTitle": "Charmed (1998) – Season 3",
             "file": "Charmed (1998) - S03E12 - Wrestling with Demons (1080p BluRay x265 Silence).mp4",
@@ -1937,7 +1992,8 @@
             "url": "https://archive.org/download/charmed-1998-season-3/Charmed%20(1998)%20-%20S03E12%20-%20Wrestling%20with%20Demons%20(1080p%20BluRay%20x265%20Silence).mp4",
             "seconds": 2614,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 258
           },
           "alternates": []
@@ -1946,10 +2002,10 @@
           "number": 13,
           "name": "Bride and Gloom",
           "airdate": "2001-02-08",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
             "item": "charmed-1998-season-3",
             "itemTitle": "Charmed (1998) – Season 3",
             "file": "Charmed (1998) - S03E13 - Bride and Gloom (1080p BluRay x265 Silence).mp4",
@@ -1957,7 +2013,8 @@
             "url": "https://archive.org/download/charmed-1998-season-3/Charmed%20(1998)%20-%20S03E13%20-%20Bride%20and%20Gloom%20(1080p%20BluRay%20x265%20Silence).mp4",
             "seconds": 2663,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 264
           },
           "alternates": []
@@ -1966,10 +2023,10 @@
           "number": 14,
           "name": "The Good, the Bad and the Cursed",
           "airdate": "2001-02-15",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
             "item": "charmed-1998-season-3",
             "itemTitle": "Charmed (1998) – Season 3",
             "file": "Charmed (1998) - S03E14 - The Good, the Bad and the Cursed (1080p BluRay x265 Silence).mp4",
@@ -1977,7 +2034,8 @@
             "url": "https://archive.org/download/charmed-1998-season-3/Charmed%20(1998)%20-%20S03E14%20-%20The%20Good%2C%20the%20Bad%20and%20the%20Cursed%20(1080p%20BluRay%20x265%20Silence).mp4",
             "seconds": 2554,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 252
           },
           "alternates": []
@@ -1986,10 +2044,10 @@
           "number": 15,
           "name": "Just Harried",
           "airdate": "2001-02-22",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
             "item": "charmed-1998-season-3",
             "itemTitle": "Charmed (1998) – Season 3",
             "file": "Charmed (1998) - S03E15 - Just Harried (1080p BluRay x265 Silence).mp4",
@@ -1997,7 +2055,8 @@
             "url": "https://archive.org/download/charmed-1998-season-3/Charmed%20(1998)%20-%20S03E15%20-%20Just%20Harried%20(1080p%20BluRay%20x265%20Silence).mp4",
             "seconds": 2544,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 251
           },
           "alternates": []
@@ -2006,10 +2065,10 @@
           "number": 16,
           "name": "Death Takes a Halliwell",
           "airdate": "2001-03-15",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
             "item": "charmed-1998-season-3",
             "itemTitle": "Charmed (1998) – Season 3",
             "file": "Charmed (1998) - S03E16 - Death Takes a Halliwell (1080p BluRay x265 Silence).mp4",
@@ -2017,7 +2076,8 @@
             "url": "https://archive.org/download/charmed-1998-season-3/Charmed%20(1998)%20-%20S03E16%20-%20Death%20Takes%20a%20Halliwell%20(1080p%20BluRay%20x265%20Silence).mp4",
             "seconds": 2584,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 255
           },
           "alternates": []
@@ -2026,10 +2086,10 @@
           "number": 17,
           "name": "Pre-Witched",
           "airdate": "2001-03-22",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
             "item": "charmed-1998-season-3",
             "itemTitle": "Charmed (1998) – Season 3",
             "file": "Charmed (1998) - S03E17 - Pre-Witched (1080p BluRay x265 Silence).mp4",
@@ -2037,7 +2097,8 @@
             "url": "https://archive.org/download/charmed-1998-season-3/Charmed%20(1998)%20-%20S03E17%20-%20Pre-Witched%20(1080p%20BluRay%20x265%20Silence).mp4",
             "seconds": 2643,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 261
           },
           "alternates": []
@@ -2046,10 +2107,10 @@
           "number": 18,
           "name": "Sin Francisco",
           "airdate": "2001-04-19",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
             "item": "charmed-1998-season-3",
             "itemTitle": "Charmed (1998) – Season 3",
             "file": "Charmed (1998) - S03E18 - Sin Francisco (1080p BluRay x265 Silence).mp4",
@@ -2057,7 +2118,8 @@
             "url": "https://archive.org/download/charmed-1998-season-3/Charmed%20(1998)%20-%20S03E18%20-%20Sin%20Francisco%20(1080p%20BluRay%20x265%20Silence).mp4",
             "seconds": 2566,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 253
           },
           "alternates": []
@@ -2066,10 +2128,10 @@
           "number": 19,
           "name": "The Demon Who Came in from the Cold",
           "airdate": "2001-04-26",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
             "item": "charmed-1998-season-3",
             "itemTitle": "Charmed (1998) – Season 3",
             "file": "Charmed (1998) - S03E19 - The Demon Who Came in from the Cold (1080p BluRay x265 Silence).mp4",
@@ -2077,7 +2139,8 @@
             "url": "https://archive.org/download/charmed-1998-season-3/Charmed%20(1998)%20-%20S03E19%20-%20The%20Demon%20Who%20Came%20in%20from%20the%20Cold%20(1080p%20BluRay%20x265%20Silence).mp4",
             "seconds": 2569,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 256
           },
           "alternates": []
@@ -2086,10 +2149,10 @@
           "number": 20,
           "name": "Exit Strategy",
           "airdate": "2001-05-03",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
             "item": "charmed-1998-season-3",
             "itemTitle": "Charmed (1998) – Season 3",
             "file": "Charmed (1998) - S03E20 - Exit Strategy (1080p BluRay x265 Silence).mp4",
@@ -2097,7 +2160,8 @@
             "url": "https://archive.org/download/charmed-1998-season-3/Charmed%20(1998)%20-%20S03E20%20-%20Exit%20Strategy%20(1080p%20BluRay%20x265%20Silence).mp4",
             "seconds": 2581,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 254
           },
           "alternates": []
@@ -2106,10 +2170,10 @@
           "number": 21,
           "name": "Look Who's Barking",
           "airdate": "2001-05-10",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
             "item": "charmed-1998-season-3",
             "itemTitle": "Charmed (1998) – Season 3",
             "file": "Charmed (1998) - S03E21 - Look Who's Barking (1080p BluRay x265 Silence).mp4",
@@ -2117,7 +2181,8 @@
             "url": "https://archive.org/download/charmed-1998-season-3/Charmed%20(1998)%20-%20S03E21%20-%20Look%20Who's%20Barking%20(1080p%20BluRay%20x265%20Silence).mp4",
             "seconds": 2566,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 253
           },
           "alternates": []
@@ -2126,10 +2191,10 @@
           "number": 22,
           "name": "All Hell Breaks Loose",
           "airdate": "2001-05-17",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 1,
-            "why": "S/E in filename + title match",
+            "why": "S/E in filename + title match | not browser-playable: video (x265)",
             "item": "charmed-1998-season-3",
             "itemTitle": "Charmed (1998) – Season 3",
             "file": "Charmed (1998) - S03E22 - All Hell Breaks Loose (1080p BluRay x265 Silence).mp4",
@@ -2137,7 +2202,8 @@
             "url": "https://archive.org/download/charmed-1998-season-3/Charmed%20(1998)%20-%20S03E22%20-%20All%20Hell%20Breaks%20Loose%20(1080p%20BluRay%20x265%20Silence).mp4",
             "seconds": 2555,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "video (x265)",
             "sizeMB": 252
           },
           "alternates": []

@@ -3,7 +3,7 @@
   "slug": "that-70s-show",
   "type": "90s Sitcoms",
   "network": "FOX",
-  "matchedAt": "2026-10-13T07:46:14.224Z",
+  "matchedAt": "2026-10-13T15:54:03.896Z",
   "tvmaze": {
     "id": 587,
     "name": "That '70s Show",
@@ -13,9 +13,9 @@
   },
   "coverage": {
     "total": 200,
-    "live": 51,
+    "live": 52,
     "review": 0,
-    "missing": 149,
+    "missing": 148,
     "pct": 26
   },
   "seasons": [
@@ -40,7 +40,34 @@
             "playable": true,
             "sizeMB": 127
           },
-          "alternates": []
+          "alternates": [
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "days-like-these",
+              "itemTitle": "Days Like These (Incomplete)",
+              "file": "Days Like These - S01E01 - Batteries Not Included (WOC).mp4",
+              "name": "Days Like These - S01E01 - Batteries Not Included (WOC)",
+              "url": "https://archive.org/download/days-like-these/Days%20Like%20These%20-%20S01E01%20-%20Batteries%20Not%20Included%20(WOC).mp4",
+              "seconds": 1683,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 169
+            },
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "days-like-these",
+              "itemTitle": "Days Like These (Incomplete)",
+              "file": "Days Like These - S01E01 - Batteries Not Included.mp4",
+              "name": "Days Like These - S01E01 - Batteries Not Included",
+              "url": "https://archive.org/download/days-like-these/Days%20Like%20These%20-%20S01E01%20-%20Batteries%20Not%20Included.mp4",
+              "seconds": 1447,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 133
+            }
+          ]
         },
         {
           "number": 2,
@@ -50,17 +77,44 @@
           "file": {
             "conf": 1,
             "why": "S/E in filename + title match",
-            "item": "that-70s-show-season-1",
-            "itemTitle": "That '70s Show Season 1 Fox",
-            "file": "That 70's Show -102- Eric's Birthday.mp4",
-            "name": "That 70's Show -102- Eric's Birthday",
-            "url": "https://archive.org/download/that-70s-show-season-1/That%2070's%20Show%20-102-%20Eric's%20Birthday.mp4",
-            "seconds": 1353,
+            "item": "days-like-these",
+            "itemTitle": "Days Like These (Incomplete)",
+            "file": "Days Like These - S01E02 - Eric's Birthday (WOC).mp4",
+            "name": "Days Like These - S01E02 - Eric's Birthday (WOC)",
+            "url": "https://archive.org/download/days-like-these/Days%20Like%20These%20-%20S01E02%20-%20Eric's%20Birthday%20(WOC).mp4",
+            "seconds": 1687,
             "format": "h.264",
             "playable": true,
-            "sizeMB": 130
+            "sizeMB": 170
           },
-          "alternates": []
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "days-like-these",
+              "itemTitle": "Days Like These (Incomplete)",
+              "file": "Days Like These - S01E02 - Eric's Birthday.mp4",
+              "name": "Days Like These - S01E02 - Eric's Birthday",
+              "url": "https://archive.org/download/days-like-these/Days%20Like%20These%20-%20S01E02%20-%20Eric's%20Birthday.mp4",
+              "seconds": 1451,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 158
+            },
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "that-70s-show-season-1",
+              "itemTitle": "That '70s Show Season 1 Fox",
+              "file": "That 70's Show -102- Eric's Birthday.mp4",
+              "name": "That 70's Show -102- Eric's Birthday",
+              "url": "https://archive.org/download/that-70s-show-season-1/That%2070's%20Show%20-102-%20Eric's%20Birthday.mp4",
+              "seconds": 1353,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 130
+            }
+          ]
         },
         {
           "number": 3,
@@ -80,7 +134,34 @@
             "playable": true,
             "sizeMB": 130
           },
-          "alternates": []
+          "alternates": [
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "days-like-these",
+              "itemTitle": "Days Like These (Incomplete)",
+              "file": "Days Like These - S01E03 - Crown Jewels.mp4",
+              "name": "Days Like These - S01E03 - Crown Jewels",
+              "url": "https://archive.org/download/days-like-these/Days%20Like%20These%20-%20S01E03%20-%20Crown%20Jewels.mp4",
+              "seconds": 1443,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 179
+            },
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "days-like-these",
+              "itemTitle": "Days Like These (Incomplete)",
+              "file": "Days Like These - S01E03 - Crown Jewels (WOC).mp4",
+              "name": "Days Like These - S01E03 - Crown Jewels (WOC)",
+              "url": "https://archive.org/download/days-like-these/Days%20Like%20These%20-%20S01E03%20-%20Crown%20Jewels%20(WOC).mp4",
+              "seconds": 1650,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 166
+            }
+          ]
         },
         {
           "number": 4,
@@ -100,7 +181,34 @@
             "playable": true,
             "sizeMB": 127
           },
-          "alternates": []
+          "alternates": [
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "days-like-these",
+              "itemTitle": "Days Like These (Incomplete)",
+              "file": "Days Like These - S01E04 - Disco Knights (WOC).mp4",
+              "name": "Days Like These - S01E04 - Disco Knights (WOC)",
+              "url": "https://archive.org/download/days-like-these/Days%20Like%20These%20-%20S01E04%20-%20Disco%20Knights%20(WOC).mp4",
+              "seconds": 1630,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 164
+            },
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "days-like-these",
+              "itemTitle": "Days Like These (Incomplete)",
+              "file": "Days Like These - S01E04 - Disco Knights.mp4",
+              "name": "Days Like These - S01E04 - Disco Knights",
+              "url": "https://archive.org/download/days-like-these/Days%20Like%20These%20-%20S01E04%20-%20Disco%20Knights.mp4",
+              "seconds": 1431,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 156
+            }
+          ]
         },
         {
           "number": 5,
@@ -140,7 +248,21 @@
             "playable": true,
             "sizeMB": 127
           },
-          "alternates": []
+          "alternates": [
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "days-like-these",
+              "itemTitle": "Days Like These (Incomplete)",
+              "file": "Days Like These - S01E06 - I Hate Sundays.mp4",
+              "name": "Days Like These - S01E06 - I Hate Sundays",
+              "url": "https://archive.org/download/days-like-these/Days%20Like%20These%20-%20S01E06%20-%20I%20Hate%20Sundays.mp4",
+              "seconds": 1450,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 119
+            }
+          ]
         },
         {
           "number": 7,
@@ -160,7 +282,21 @@
             "playable": true,
             "sizeMB": 131
           },
-          "alternates": []
+          "alternates": [
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "days-like-these",
+              "itemTitle": "Days Like These (Incomplete)",
+              "file": "Days Like These - S01E07 - Grandma's Dead.mp4",
+              "name": "Days Like These - S01E07 - Grandma's Dead",
+              "url": "https://archive.org/download/days-like-these/Days%20Like%20These%20-%20S01E07%20-%20Grandma's%20Dead.mp4",
+              "seconds": 1432,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 65
+            }
+          ]
         },
         {
           "number": 8,
@@ -220,7 +356,21 @@
             "playable": true,
             "sizeMB": 131
           },
-          "alternates": []
+          "alternates": [
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "days-like-these",
+              "itemTitle": "Days Like These (Incomplete)",
+              "file": "Days Like These - S01E10 - Equal Rites.mp4",
+              "name": "Days Like These - S01E10 - Equal Rites",
+              "url": "https://archive.org/download/days-like-these/Days%20Like%20These%20-%20S01E10%20-%20Equal%20Rites.mp4",
+              "seconds": 1426,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 109
+            }
+          ]
         },
         {
           "number": 11,
@@ -480,7 +630,21 @@
             "playable": true,
             "sizeMB": 127
           },
-          "alternates": []
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "title ~ \"Grandma's Dead\" (0.95)",
+              "item": "days-like-these",
+              "itemTitle": "Days Like These (Incomplete)",
+              "file": "Days Like These - S01E07 - Grandma's Dead.mp4",
+              "name": "Days Like These - S01E07 - Grandma's Dead",
+              "url": "https://archive.org/download/days-like-these/Days%20Like%20These%20-%20S01E07%20-%20Grandma's%20Dead.mp4",
+              "seconds": 1432,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 65
+            }
+          ]
         },
         {
           "number": 24,
@@ -1940,8 +2104,20 @@
           "number": 7,
           "name": "Mother's Little Helper",
           "airdate": "2004-11-10",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-s-07-e-07-mothers-little-helper.-woc-july-24-2007",
+            "itemTitle": "That 70's Show S07E07 (Mother's Little Helper. WOC July 24, 2007)",
+            "file": "That 70's Show S07E07 (Mother's Little Helper. WOC July 24, 2007).mp4",
+            "name": "That 70's Show S07E07 (Mother's Little Helper. WOC July 24, 2007)",
+            "url": "https://archive.org/download/that-70s-show-s-07-e-07-mothers-little-helper.-woc-july-24-2007/That%2070's%20Show%20S07E07%20(Mother's%20Little%20Helper.%20WOC%20July%2024%2C%202007).mp4",
+            "seconds": 1269,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 120
+          },
           "alternates": []
         },
         {

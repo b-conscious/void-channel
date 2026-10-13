@@ -3,7 +3,7 @@
   "slug": "the-brak-show",
   "type": "Adult Swim",
   "network": "Adult Swim",
-  "matchedAt": "2026-10-13T07:46:15.718Z",
+  "matchedAt": "2026-10-13T15:54:08.029Z",
   "tvmaze": {
     "id": 6234,
     "name": "The Brak Show",
@@ -467,31 +467,31 @@
           "airdate": "2002-05-26",
           "state": "LIVE",
           "file": {
-            "conf": 1,
-            "why": "S/E in filename + title match",
-            "item": "the-brak-show_202512",
-            "itemTitle": "The Brak Show (2000) Complete Series",
-            "file": "The Brak Show S2 E04 - President Dad.mp4",
-            "name": "The Brak Show S2 E04 - President Dad",
-            "url": "https://archive.org/download/the-brak-show_202512/The%20Brak%20Show%20S2%20E04%20-%20President%20Dad.mp4",
-            "seconds": 689,
-            "format": "MPEG4",
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "the.-brak.-show.-s-02-e-05.720p.-hmax.-webrip.x-264-galaxy-tv",
+            "itemTitle": "The Brak Show Season 2",
+            "file": "The.Brak.Show.S02E04.720p.HMAX.WEBRip.x264-GalaxyTV.mp4",
+            "name": "The.Brak.Show.S02E04.720p.HMAX.WEBRip.x264-GalaxyTV",
+            "url": "https://archive.org/download/the.-brak.-show.-s-02-e-05.720p.-hmax.-webrip.x-264-galaxy-tv/The.Brak.Show.S02E04.720p.HMAX.WEBRip.x264-GalaxyTV.mp4",
+            "seconds": 686,
+            "format": "h.264",
             "playable": true,
-            "sizeMB": 28
+            "sizeMB": 66
           },
           "alternates": [
             {
-              "conf": 0.9,
-              "why": "S/E in filename",
-              "item": "the.-brak.-show.-s-02-e-05.720p.-hmax.-webrip.x-264-galaxy-tv",
-              "itemTitle": "The Brak Show Season 2",
-              "file": "The.Brak.Show.S02E04.720p.HMAX.WEBRip.x264-GalaxyTV.mp4",
-              "name": "The.Brak.Show.S02E04.720p.HMAX.WEBRip.x264-GalaxyTV",
-              "url": "https://archive.org/download/the.-brak.-show.-s-02-e-05.720p.-hmax.-webrip.x-264-galaxy-tv/The.Brak.Show.S02E04.720p.HMAX.WEBRip.x264-GalaxyTV.mp4",
-              "seconds": 686,
-              "format": "h.264",
+              "conf": 0.6,
+              "why": "S/E in filename + title match",
+              "item": "the-brak-show_202512",
+              "itemTitle": "The Brak Show (2000) Complete Series",
+              "file": "The Brak Show S2 E04 - President Dad.mp4",
+              "name": "The Brak Show S2 E04 - President Dad",
+              "url": "https://archive.org/download/the-brak-show_202512/The%20Brak%20Show%20S2%20E04%20-%20President%20Dad.mp4",
+              "seconds": 689,
+              "format": "MPEG4",
               "playable": true,
-              "sizeMB": 66
+              "sizeMB": 28
             }
           ]
         },
@@ -827,19 +827,6 @@
               "why": "S/E in filename",
               "item": "TBSS3",
               "itemTitle": "The Brak Show Season 3",
-              "file": "The.Brak.Show.S03E01.1080p.WEBRip.x265-INFINITY.mp4",
-              "name": "The.Brak.Show.S03E01.1080p.WEBRip.x265-INFINITY",
-              "url": "https://archive.org/download/TBSS3/The.Brak.Show.S03E01.1080p.WEBRip.x265-INFINITY.mp4",
-              "seconds": 691,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 193
-            },
-            {
-              "conf": 0.9,
-              "why": "S/E in filename",
-              "item": "TBSS3",
-              "itemTitle": "The Brak Show Season 3",
               "file": "The.Brak.Show.S03E01.1080p.WEBRip.x265-INFINITY.ia.mp4",
               "name": "The.Brak.Show.S03E01.1080p.WEBRip",
               "url": "https://archive.org/download/TBSS3/The.Brak.Show.S03E01.1080p.WEBRip.x265-INFINITY.ia.mp4",
@@ -847,6 +834,20 @@
               "format": "h.264 IA",
               "playable": true,
               "sizeMB": 67
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "TBSS3",
+              "itemTitle": "The Brak Show Season 3",
+              "file": "The.Brak.Show.S03E01.1080p.WEBRip.x265-INFINITY.mp4",
+              "name": "The.Brak.Show.S03E01.1080p.WEBRip.x265-INFINITY",
+              "url": "https://archive.org/download/TBSS3/The.Brak.Show.S03E01.1080p.WEBRip.x265-INFINITY.mp4",
+              "seconds": 691,
+              "format": "MPEG4",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 193
             }
           ]
         },
@@ -874,19 +875,6 @@
               "why": "S/E in filename",
               "item": "TBSS3",
               "itemTitle": "The Brak Show Season 3",
-              "file": "The.Brak.Show.S03E02.1080p.WEBRip.x265-INFINITY.mp4",
-              "name": "The.Brak.Show.S03E02.1080p.WEBRip.x265-INFINITY",
-              "url": "https://archive.org/download/TBSS3/The.Brak.Show.S03E02.1080p.WEBRip.x265-INFINITY.mp4",
-              "seconds": 663,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 186
-            },
-            {
-              "conf": 0.9,
-              "why": "S/E in filename",
-              "item": "TBSS3",
-              "itemTitle": "The Brak Show Season 3",
               "file": "The.Brak.Show.S03E02.1080p.WEBRip.x265-INFINITY.ia.mp4",
               "name": "The.Brak.Show.S03E02.1080p.WEBRip",
               "url": "https://archive.org/download/TBSS3/The.Brak.Show.S03E02.1080p.WEBRip.x265-INFINITY.ia.mp4",
@@ -894,6 +882,20 @@
               "format": "h.264 IA",
               "playable": true,
               "sizeMB": 63
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "TBSS3",
+              "itemTitle": "The Brak Show Season 3",
+              "file": "The.Brak.Show.S03E02.1080p.WEBRip.x265-INFINITY.mp4",
+              "name": "The.Brak.Show.S03E02.1080p.WEBRip.x265-INFINITY",
+              "url": "https://archive.org/download/TBSS3/The.Brak.Show.S03E02.1080p.WEBRip.x265-INFINITY.mp4",
+              "seconds": 663,
+              "format": "MPEG4",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 186
             }
           ]
         },
@@ -921,19 +923,6 @@
               "why": "S/E in filename",
               "item": "TBSS3",
               "itemTitle": "The Brak Show Season 3",
-              "file": "The.Brak.Show.S03E03.1080p.WEBRip.x265-INFINITY.mp4",
-              "name": "The.Brak.Show.S03E03.1080p.WEBRip.x265-INFINITY",
-              "url": "https://archive.org/download/TBSS3/The.Brak.Show.S03E03.1080p.WEBRip.x265-INFINITY.mp4",
-              "seconds": 664,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 186
-            },
-            {
-              "conf": 0.9,
-              "why": "S/E in filename",
-              "item": "TBSS3",
-              "itemTitle": "The Brak Show Season 3",
               "file": "The.Brak.Show.S03E03.1080p.WEBRip.x265-INFINITY.ia.mp4",
               "name": "The.Brak.Show.S03E03.1080p.WEBRip",
               "url": "https://archive.org/download/TBSS3/The.Brak.Show.S03E03.1080p.WEBRip.x265-INFINITY.ia.mp4",
@@ -941,6 +930,20 @@
               "format": "h.264 IA",
               "playable": true,
               "sizeMB": 65
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "TBSS3",
+              "itemTitle": "The Brak Show Season 3",
+              "file": "The.Brak.Show.S03E03.1080p.WEBRip.x265-INFINITY.mp4",
+              "name": "The.Brak.Show.S03E03.1080p.WEBRip.x265-INFINITY",
+              "url": "https://archive.org/download/TBSS3/The.Brak.Show.S03E03.1080p.WEBRip.x265-INFINITY.mp4",
+              "seconds": 664,
+              "format": "MPEG4",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 186
             }
           ]
         },
@@ -968,19 +971,6 @@
               "why": "S/E in filename",
               "item": "TBSS3",
               "itemTitle": "The Brak Show Season 3",
-              "file": "The.Brak.Show.S03E04.1080p.WEBRip.x265-INFINITY.mp4",
-              "name": "The.Brak.Show.S03E04.1080p.WEBRip.x265-INFINITY",
-              "url": "https://archive.org/download/TBSS3/The.Brak.Show.S03E04.1080p.WEBRip.x265-INFINITY.mp4",
-              "seconds": 672,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 188
-            },
-            {
-              "conf": 0.9,
-              "why": "S/E in filename",
-              "item": "TBSS3",
-              "itemTitle": "The Brak Show Season 3",
               "file": "The.Brak.Show.S03E04.1080p.WEBRip.x265-INFINITY.ia.mp4",
               "name": "The.Brak.Show.S03E04.1080p.WEBRip",
               "url": "https://archive.org/download/TBSS3/The.Brak.Show.S03E04.1080p.WEBRip.x265-INFINITY.ia.mp4",
@@ -988,6 +978,20 @@
               "format": "h.264 IA",
               "playable": true,
               "sizeMB": 65
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "TBSS3",
+              "itemTitle": "The Brak Show Season 3",
+              "file": "The.Brak.Show.S03E04.1080p.WEBRip.x265-INFINITY.mp4",
+              "name": "The.Brak.Show.S03E04.1080p.WEBRip.x265-INFINITY",
+              "url": "https://archive.org/download/TBSS3/The.Brak.Show.S03E04.1080p.WEBRip.x265-INFINITY.mp4",
+              "seconds": 672,
+              "format": "MPEG4",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 188
             }
           ]
         },
@@ -1015,19 +1019,6 @@
               "why": "S/E in filename",
               "item": "TBSS3",
               "itemTitle": "The Brak Show Season 3",
-              "file": "The.Brak.Show.S03E05.1080p.WEBRip.x265-INFINITY.mp4",
-              "name": "The.Brak.Show.S03E05.1080p.WEBRip.x265-INFINITY",
-              "url": "https://archive.org/download/TBSS3/The.Brak.Show.S03E05.1080p.WEBRip.x265-INFINITY.mp4",
-              "seconds": 691,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 194
-            },
-            {
-              "conf": 0.9,
-              "why": "S/E in filename",
-              "item": "TBSS3",
-              "itemTitle": "The Brak Show Season 3",
               "file": "The.Brak.Show.S03E05.1080p.WEBRip.x265-INFINITY.ia.mp4",
               "name": "The.Brak.Show.S03E05.1080p.WEBRip",
               "url": "https://archive.org/download/TBSS3/The.Brak.Show.S03E05.1080p.WEBRip.x265-INFINITY.ia.mp4",
@@ -1035,6 +1026,20 @@
               "format": "h.264 IA",
               "playable": true,
               "sizeMB": 67
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "TBSS3",
+              "itemTitle": "The Brak Show Season 3",
+              "file": "The.Brak.Show.S03E05.1080p.WEBRip.x265-INFINITY.mp4",
+              "name": "The.Brak.Show.S03E05.1080p.WEBRip.x265-INFINITY",
+              "url": "https://archive.org/download/TBSS3/The.Brak.Show.S03E05.1080p.WEBRip.x265-INFINITY.mp4",
+              "seconds": 691,
+              "format": "MPEG4",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 194
             }
           ]
         },
@@ -1048,28 +1053,15 @@
             "why": "S/E in filename",
             "item": "TBSS3",
             "itemTitle": "The Brak Show Season 3",
-            "file": "The.Brak.Show.S03E06.1080p.WEBRip.x265-INFINITY.mp4",
-            "name": "The.Brak.Show.S03E06.1080p.WEBRip.x265-INFINITY",
-            "url": "https://archive.org/download/TBSS3/The.Brak.Show.S03E06.1080p.WEBRip.x265-INFINITY.mp4",
+            "file": "The.Brak.Show.S03E06.1080p.WEBRip.x265-INFINITY.ia.mp4",
+            "name": "The.Brak.Show.S03E06.1080p.WEBRip",
+            "url": "https://archive.org/download/TBSS3/The.Brak.Show.S03E06.1080p.WEBRip.x265-INFINITY.ia.mp4",
             "seconds": 681,
-            "format": "MPEG4",
+            "format": "h.264 IA",
             "playable": true,
-            "sizeMB": 191
+            "sizeMB": 64
           },
           "alternates": [
-            {
-              "conf": 0.9,
-              "why": "S/E in filename",
-              "item": "TBSS3",
-              "itemTitle": "The Brak Show Season 3",
-              "file": "The.Brak.Show.S03E06.1080p.WEBRip.x265-INFINITY.ia.mp4",
-              "name": "The.Brak.Show.S03E06.1080p.WEBRip",
-              "url": "https://archive.org/download/TBSS3/The.Brak.Show.S03E06.1080p.WEBRip.x265-INFINITY.ia.mp4",
-              "seconds": 681,
-              "format": "h.264 IA",
-              "playable": true,
-              "sizeMB": 64
-            },
             {
               "conf": 0.9,
               "why": "S/E in filename",
@@ -1082,6 +1074,20 @@
               "format": "MPEG4",
               "playable": true,
               "sizeMB": 38
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "TBSS3",
+              "itemTitle": "The Brak Show Season 3",
+              "file": "The.Brak.Show.S03E06.1080p.WEBRip.x265-INFINITY.mp4",
+              "name": "The.Brak.Show.S03E06.1080p.WEBRip.x265-INFINITY",
+              "url": "https://archive.org/download/TBSS3/The.Brak.Show.S03E06.1080p.WEBRip.x265-INFINITY.mp4",
+              "seconds": 681,
+              "format": "MPEG4",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 191
             }
           ]
         },
@@ -1109,19 +1115,6 @@
               "why": "S/E in filename",
               "item": "TBSS3",
               "itemTitle": "The Brak Show Season 3",
-              "file": "The.Brak.Show.S03E07.1080p.WEBRip.x265-INFINITY.mp4",
-              "name": "The.Brak.Show.S03E07.1080p.WEBRip.x265-INFINITY",
-              "url": "https://archive.org/download/TBSS3/The.Brak.Show.S03E07.1080p.WEBRip.x265-INFINITY.mp4",
-              "seconds": 678,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 190
-            },
-            {
-              "conf": 0.9,
-              "why": "S/E in filename",
-              "item": "TBSS3",
-              "itemTitle": "The Brak Show Season 3",
               "file": "The.Brak.Show.S03E07.1080p.WEBRip.x265-INFINITY.ia.mp4",
               "name": "The.Brak.Show.S03E07.1080p.WEBRip",
               "url": "https://archive.org/download/TBSS3/The.Brak.Show.S03E07.1080p.WEBRip.x265-INFINITY.ia.mp4",
@@ -1129,6 +1122,20 @@
               "format": "h.264 IA",
               "playable": true,
               "sizeMB": 65
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "TBSS3",
+              "itemTitle": "The Brak Show Season 3",
+              "file": "The.Brak.Show.S03E07.1080p.WEBRip.x265-INFINITY.mp4",
+              "name": "The.Brak.Show.S03E07.1080p.WEBRip.x265-INFINITY",
+              "url": "https://archive.org/download/TBSS3/The.Brak.Show.S03E07.1080p.WEBRip.x265-INFINITY.mp4",
+              "seconds": 678,
+              "format": "MPEG4",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 190
             }
           ]
         },
@@ -1156,19 +1163,6 @@
               "why": "S/E in filename",
               "item": "TBSS3",
               "itemTitle": "The Brak Show Season 3",
-              "file": "The.Brak.Show.S03E08.1080p.WEBRip.x265-INFINITY.mp4",
-              "name": "The.Brak.Show.S03E08.1080p.WEBRip.x265-INFINITY",
-              "url": "https://archive.org/download/TBSS3/The.Brak.Show.S03E08.1080p.WEBRip.x265-INFINITY.mp4",
-              "seconds": 674,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 188
-            },
-            {
-              "conf": 0.9,
-              "why": "S/E in filename",
-              "item": "TBSS3",
-              "itemTitle": "The Brak Show Season 3",
               "file": "The.Brak.Show.S03E08.1080p.WEBRip.x265-INFINITY.ia.mp4",
               "name": "The.Brak.Show.S03E08.1080p.WEBRip",
               "url": "https://archive.org/download/TBSS3/The.Brak.Show.S03E08.1080p.WEBRip.x265-INFINITY.ia.mp4",
@@ -1176,6 +1170,20 @@
               "format": "h.264 IA",
               "playable": true,
               "sizeMB": 65
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "TBSS3",
+              "itemTitle": "The Brak Show Season 3",
+              "file": "The.Brak.Show.S03E08.1080p.WEBRip.x265-INFINITY.mp4",
+              "name": "The.Brak.Show.S03E08.1080p.WEBRip.x265-INFINITY",
+              "url": "https://archive.org/download/TBSS3/The.Brak.Show.S03E08.1080p.WEBRip.x265-INFINITY.mp4",
+              "seconds": 674,
+              "format": "MPEG4",
+              "playable": false,
+              "codecRisk": "video (x265)",
+              "sizeMB": 188
             }
           ]
         }

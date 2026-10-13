@@ -3,7 +3,7 @@
   "slug": "nurse-jackie",
   "type": "2000s and Later Sitcoms",
   "network": "Showtime",
-  "matchedAt": "2026-10-13T07:46:15.165Z",
+  "matchedAt": "2026-10-13T15:54:06.267Z",
   "tvmaze": {
     "id": 147,
     "name": "Nurse Jackie",
@@ -13,8 +13,8 @@
   },
   "coverage": {
     "total": 80,
-    "live": 80,
-    "review": 0,
+    "live": 76,
+    "review": 4,
     "missing": 0,
     "pct": 100
   },
@@ -716,9 +716,9 @@
           "number": 11,
           "name": "Batting Practice",
           "airdate": "2011-06-13",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "nurse-jackie-2009-complete-series",
             "itemTitle": "Nurse Jackie 2009-2015 Complete Series",
@@ -821,9 +821,9 @@
           "number": 4,
           "name": "Slow Growing Monsters",
           "airdate": "2012-04-29",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "nurse-jackie-2009-complete-series",
             "itemTitle": "Nurse Jackie 2009-2015 Complete Series",
@@ -941,9 +941,9 @@
           "number": 10,
           "name": "Handle Your Scandal",
           "airdate": "2012-06-17",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "nurse-jackie-2009-complete-series",
             "itemTitle": "Nurse Jackie 2009-2015 Complete Series",
@@ -1026,9 +1026,9 @@
           "number": 4,
           "name": "Lost Girls",
           "airdate": "2013-05-05",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "nurse-jackie-2009-complete-series",
             "itemTitle": "Nurse Jackie 2009-2015 Complete Series",

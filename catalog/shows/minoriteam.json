@@ -3,7 +3,7 @@
   "slug": "minoriteam",
   "type": "Adult Swim",
   "network": "Adult Swim",
-  "matchedAt": "2026-10-13T07:46:15.852Z",
+  "matchedAt": "2026-10-13T15:54:08.256Z",
   "tvmaze": {
     "id": 33020,
     "name": "Minoriteam",
@@ -608,17 +608,17 @@
               "sizeMB": 78
             },
             {
-              "conf": 0.9,
-              "why": "absolute episode number + title match",
-              "item": "minoriteam_complete_series",
-              "itemTitle": "Minoriteam (2005) [Complete Series + Extras]",
-              "file": "Minoriteam.Ep10.Space.Driftin.WEB-DL.AAC2.0.H264-Atomsk.mkv",
-              "name": "Minoriteam.Ep10.Space.Driftin.WEB-DL.AAC2.0.H264-Atomsk",
-              "url": "https://archive.org/download/minoriteam_complete_series/Minoriteam.Ep10.Space.Driftin.WEB-DL.AAC2.0.H264-Atomsk.mkv",
+              "conf": 0.8,
+              "why": "title ~ \"Space Driftin'\" (1.00)",
+              "item": "minoriteam-s-01-e-12-the-internet",
+              "itemTitle": "Random [adult swim] recordings and lost media from here and myspleen , personal collection  Part 2",
+              "file": "Minoriteam - S01 E09 - Space Driftin'.mp4",
+              "name": "Minoriteam - S01 E09 - Space Driftin'",
+              "url": "https://archive.org/download/minoriteam-s-01-e-12-the-internet/Minoriteam%20-%20S01%20E09%20-%20Space%20Driftin'.mp4",
               "seconds": 680,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 144
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 74
             }
           ]
         },
@@ -668,17 +668,17 @@
               "sizeMB": 89
             },
             {
-              "conf": 0.9,
-              "why": "absolute episode number + title match",
-              "item": "minoriteam_complete_series",
-              "itemTitle": "Minoriteam (2005) [Complete Series + Extras]",
-              "file": "Minoriteam.Ep11.Universal.World.Games.WEB-DL.AAC2.0.H264-Atomsk.mkv",
-              "name": "Minoriteam.Ep11.Universal.World.Games.WEB-DL.AAC2.0.H264-Atomsk",
-              "url": "https://archive.org/download/minoriteam_complete_series/Minoriteam.Ep11.Universal.World.Games.WEB-DL.AAC2.0.H264-Atomsk.mkv",
+              "conf": 0.8,
+              "why": "title ~ \"Universal World Games\" (1.00)",
+              "item": "minoriteam-s-01-e-12-the-internet",
+              "itemTitle": "Random [adult swim] recordings and lost media from here and myspleen , personal collection  Part 2",
+              "file": "Minoriteam - S01 E10 - Universal World Games.mp4",
+              "name": "Minoriteam - S01 E10 - Universal World Games",
+              "url": "https://archive.org/download/minoriteam-s-01-e-12-the-internet/Minoriteam%20-%20S01%20E10%20-%20Universal%20World%20Games.mp4",
               "seconds": 706,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 145
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 78
             }
           ]
         },
@@ -728,17 +728,17 @@
               "sizeMB": 89
             },
             {
-              "conf": 0.9,
-              "why": "absolute episode number + title match",
-              "item": "minoriteam_complete_series",
-              "itemTitle": "Minoriteam (2005) [Complete Series + Extras]",
-              "file": "Minoriteam.Ep12.The.Fog.WEB-DL.AAC2.0.H264-Atomsk.mkv",
-              "name": "Minoriteam.Ep12.The.Fog.WEB-DL.AAC2.0.H264-Atomsk",
-              "url": "https://archive.org/download/minoriteam_complete_series/Minoriteam.Ep12.The.Fog.WEB-DL.AAC2.0.H264-Atomsk.mkv",
+              "conf": 0.8,
+              "why": "title ~ \"FOG\" (0.95)",
+              "item": "minoriteam-s-01-e-12-the-internet",
+              "itemTitle": "Random [adult swim] recordings and lost media from here and myspleen , personal collection  Part 2",
+              "file": "Minoriteam - S01 E11 - The Fog.mp4",
+              "name": "Minoriteam - S01 E11 - The Fog",
+              "url": "https://archive.org/download/minoriteam-s-01-e-12-the-internet/Minoriteam%20-%20S01%20E11%20-%20The%20Fog.mp4",
               "seconds": 704,
-              "format": "Matroska",
-              "playable": false,
-              "sizeMB": 149
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 89
             }
           ]
         },

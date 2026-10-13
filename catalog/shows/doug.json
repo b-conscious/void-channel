@@ -3,7 +3,7 @@
   "slug": "doug",
   "type": "Animated",
   "network": "Nickelodeon",
-  "matchedAt": "2026-10-13T07:46:15.468Z",
+  "matchedAt": "2026-10-13T15:54:07.114Z",
   "tvmaze": {
     "id": 6308,
     "name": "Doug",
@@ -14,9 +14,9 @@
   "coverage": {
     "total": 169,
     "live": 0,
-    "review": 9,
-    "missing": 160,
-    "pct": 5
+    "review": 10,
+    "missing": 159,
+    "pct": 6
   },
   "seasons": [
     {
@@ -1191,8 +1191,20 @@
           "number": 3,
           "name": "Doug's Chubby Buddy",
           "airdate": "1997-09-20",
-          "state": "MISSING",
-          "file": null,
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Doug's Chubby Buddy\" (0.95)",
+            "item": "dougs-chubby-buddy-original-broadcast-1997",
+            "itemTitle": "\"Doug's Chubby Buddy\" Original Broadcast (1997)",
+            "file": "'Doug's Chubby Buddy' Original Broadcast (1997).mp4",
+            "name": "'Doug's Chubby Buddy' Original Broadcast (1997)",
+            "url": "https://archive.org/download/dougs-chubby-buddy-original-broadcast-1997/'Doug's%20Chubby%20Buddy'%20Original%20Broadcast%20(1997).mp4",
+            "seconds": 1161,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 53
+          },
           "alternates": []
         },
         {

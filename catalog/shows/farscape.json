@@ -3,7 +3,7 @@
   "slug": "farscape",
   "type": "Sci-Fi, Fantasy and Horror",
   "network": "Sci-Fi Channel",
-  "matchedAt": "2026-10-13T07:46:17.127Z",
+  "matchedAt": "2026-10-13T15:54:10.029Z",
   "tvmaze": {
     "id": 429,
     "name": "Farscape",
@@ -13,8 +13,8 @@
   },
   "coverage": {
     "total": 88,
-    "live": 87,
-    "review": 1,
+    "live": 84,
+    "review": 4,
     "missing": 0,
     "pct": 100
   },
@@ -1219,9 +1219,9 @@
           "number": 4,
           "name": "Crackers Don't Matter",
           "airdate": "2000-04-07",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "farscape-s-02",
             "itemTitle": "Farscape Season 2",
@@ -1233,21 +1233,7 @@
             "playable": true,
             "sizeMB": 272
           },
-          "alternates": [
-            {
-              "conf": 0.6,
-              "why": "title ~ \"Crackers Don't Matter\" (0.74)",
-              "item": "far-scape-Season-1",
-              "itemTitle": "FarScape",
-              "file": "FarScape0204CrackersDon'tMatter.mp4",
-              "name": "FarScape0204CrackersDon'tMatter",
-              "url": "https://archive.org/download/far-scape-Season-1/FarScape0204CrackersDon'tMatter.mp4",
-              "seconds": 2760,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 255
-            }
-          ]
+          "alternates": []
         },
         {
           "number": 5,
@@ -2035,9 +2021,9 @@
           "number": 8,
           "name": "Green Eyed Monster",
           "airdate": "2001-06-22",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "farscape-s-03-",
             "itemTitle": "Farscape Season 3",
@@ -2049,21 +2035,7 @@
             "playable": true,
             "sizeMB": 272
           },
-          "alternates": [
-            {
-              "conf": 0.6,
-              "why": "title ~ \"Green Eyed Monster\" (0.71)",
-              "item": "far-scape-Season-1",
-              "itemTitle": "FarScape",
-              "file": "FarScape0308GreenEyedMonster.mp4",
-              "name": "FarScape0308GreenEyedMonster",
-              "url": "https://archive.org/download/far-scape-Season-1/FarScape0308GreenEyedMonster.mp4",
-              "seconds": 2760,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 247
-            }
-          ]
+          "alternates": []
         },
         {
           "number": 9,
@@ -2499,9 +2471,9 @@
           "number": 2,
           "name": "What Was Lost Part I: Sacrifice",
           "airdate": "2002-06-14",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "farscape-s-04",
             "itemTitle": "Farscape Season 4",

@@ -3,7 +3,7 @@
   "slug": "the-dresden-files",
   "type": "Sci-Fi, Fantasy and Horror",
   "network": "Sci-Fi Channel",
-  "matchedAt": "2026-10-13T07:46:17.654Z",
+  "matchedAt": "2026-10-13T15:54:10.613Z",
   "tvmaze": {
     "id": 957,
     "name": "The Dresden Files",
@@ -13,8 +13,8 @@
   },
   "coverage": {
     "total": 12,
-    "live": 12,
-    "review": 0,
+    "live": 9,
+    "review": 3,
     "missing": 0,
     "pct": 100
   },
@@ -42,19 +42,6 @@
           },
           "alternates": [
             {
-              "conf": 0.9,
-              "why": "S/E in filename",
-              "item": "the.-dresden.-files.-s-01.1080p.-amzn.-webrip.-ddp-5.1.x-264-vi-sum",
-              "itemTitle": "The Dresden Files (Complete)",
-              "file": "The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM[rartv]/The.Dresden.Files.S01E01.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM.mp4",
-              "name": "The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM[rartv]/The.Dresden.Files.S01E01.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM",
-              "url": "https://archive.org/download/the.-dresden.-files.-s-01.1080p.-amzn.-webrip.-ddp-5.1.x-264-vi-sum/The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM%5Brartv%5D%2FThe.Dresden.Files.S01E01.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM.mp4",
-              "seconds": 2618,
-              "format": "h.264",
-              "playable": true,
-              "sizeMB": 260
-            },
-            {
               "conf": 0.75,
               "why": "S/E in filename",
               "item": "big.shots.s01e02.720p.hdtv.x264-ctu",
@@ -66,6 +53,20 @@
               "format": "h.264",
               "playable": true,
               "sizeMB": 258
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "the.-dresden.-files.-s-01.1080p.-amzn.-webrip.-ddp-5.1.x-264-vi-sum",
+              "itemTitle": "The Dresden Files (Complete)",
+              "file": "The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM[rartv]/The.Dresden.Files.S01E01.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM.mp4",
+              "name": "The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM[rartv]/The.Dresden.Files.S01E01.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM",
+              "url": "https://archive.org/download/the.-dresden.-files.-s-01.1080p.-amzn.-webrip.-ddp-5.1.x-264-vi-sum/The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM%5Brartv%5D%2FThe.Dresden.Files.S01E01.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM.mp4",
+              "seconds": 2618,
+              "format": "h.264",
+              "playable": false,
+              "codecRisk": "audio (DDP5)",
+              "sizeMB": 260
             }
           ]
         },
@@ -73,10 +74,10 @@
           "number": 2,
           "name": "The Boone Identity",
           "airdate": "2007-01-28",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 0.9,
-            "why": "S/E in filename",
+            "why": "S/E in filename | not browser-playable: audio (DDP5)",
             "item": "the.-dresden.-files.-s-01.1080p.-amzn.-webrip.-ddp-5.1.x-264-vi-sum",
             "itemTitle": "The Dresden Files (Complete)",
             "file": "The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM[rartv]/The.Dresden.Files.S01E02.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM.mp4",
@@ -84,7 +85,8 @@
             "url": "https://archive.org/download/the.-dresden.-files.-s-01.1080p.-amzn.-webrip.-ddp-5.1.x-264-vi-sum/The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM%5Brartv%5D%2FThe.Dresden.Files.S01E02.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM.mp4",
             "seconds": 2557,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "audio (DDP5)",
             "sizeMB": 253
           },
           "alternates": []
@@ -93,10 +95,10 @@
           "number": 3,
           "name": "Hair of the Dog",
           "airdate": "2007-02-11",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 0.9,
-            "why": "S/E in filename",
+            "why": "S/E in filename | not browser-playable: audio (DDP5)",
             "item": "the.-dresden.-files.-s-01.1080p.-amzn.-webrip.-ddp-5.1.x-264-vi-sum",
             "itemTitle": "The Dresden Files (Complete)",
             "file": "The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM[rartv]/The.Dresden.Files.S01E03.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM.mp4",
@@ -104,7 +106,8 @@
             "url": "https://archive.org/download/the.-dresden.-files.-s-01.1080p.-amzn.-webrip.-ddp-5.1.x-264-vi-sum/The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM%5Brartv%5D%2FThe.Dresden.Files.S01E03.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM.mp4",
             "seconds": 2563,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "audio (DDP5)",
             "sizeMB": 255
           },
           "alternates": []
@@ -138,7 +141,8 @@
               "url": "https://archive.org/download/the.-dresden.-files.-s-01.1080p.-amzn.-webrip.-ddp-5.1.x-264-vi-sum/The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM%5Brartv%5D%2FThe.Dresden.Files.S01E04.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM.mp4",
               "seconds": 2618,
               "format": "h.264",
-              "playable": true,
+              "playable": false,
+              "codecRisk": "audio (DDP5)",
               "sizeMB": 262
             }
           ]
@@ -147,10 +151,10 @@
           "number": 5,
           "name": "Bad Blood",
           "airdate": "2007-02-25",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
             "conf": 0.9,
-            "why": "S/E in filename",
+            "why": "S/E in filename | not browser-playable: audio (DDP5)",
             "item": "the.-dresden.-files.-s-01.1080p.-amzn.-webrip.-ddp-5.1.x-264-vi-sum",
             "itemTitle": "The Dresden Files (Complete)",
             "file": "The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM[rartv]/The.Dresden.Files.S01E05.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM.mp4",
@@ -158,7 +162,8 @@
             "url": "https://archive.org/download/the.-dresden.-files.-s-01.1080p.-amzn.-webrip.-ddp-5.1.x-264-vi-sum/The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM%5Brartv%5D%2FThe.Dresden.Files.S01E05.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM.mp4",
             "seconds": 2580,
             "format": "h.264",
-            "playable": true,
+            "playable": false,
+            "codecRisk": "audio (DDP5)",
             "sizeMB": 257
           },
           "alternates": []
@@ -192,7 +197,8 @@
               "url": "https://archive.org/download/the.-dresden.-files.-s-01.1080p.-amzn.-webrip.-ddp-5.1.x-264-vi-sum/The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM%5Brartv%5D%2FThe.Dresden.Files.S01E06.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM.mp4",
               "seconds": 2618,
               "format": "h.264",
-              "playable": true,
+              "playable": false,
+              "codecRisk": "audio (DDP5)",
               "sizeMB": 261
             }
           ]
@@ -226,7 +232,8 @@
               "url": "https://archive.org/download/the.-dresden.-files.-s-01.1080p.-amzn.-webrip.-ddp-5.1.x-264-vi-sum/The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM%5Brartv%5D%2FThe.Dresden.Files.S01E07.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM.mp4",
               "seconds": 2613,
               "format": "h.264",
-              "playable": true,
+              "playable": false,
+              "codecRisk": "audio (DDP5)",
               "sizeMB": 261
             }
           ]
@@ -260,7 +267,8 @@
               "url": "https://archive.org/download/the.-dresden.-files.-s-01.1080p.-amzn.-webrip.-ddp-5.1.x-264-vi-sum/The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM%5Brartv%5D%2FThe.Dresden.Files.S01E08.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM.mp4",
               "seconds": 2623,
               "format": "h.264",
-              "playable": true,
+              "playable": false,
+              "codecRisk": "audio (DDP5)",
               "sizeMB": 259
             }
           ]
@@ -294,7 +302,8 @@
               "url": "https://archive.org/download/the.-dresden.-files.-s-01.1080p.-amzn.-webrip.-ddp-5.1.x-264-vi-sum/The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM%5Brartv%5D%2FThe.Dresden.Files.S01E09.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM.mp4",
               "seconds": 2608,
               "format": "h.264",
-              "playable": true,
+              "playable": false,
+              "codecRisk": "audio (DDP5)",
               "sizeMB": 259
             }
           ]
@@ -328,7 +337,8 @@
               "url": "https://archive.org/download/the.-dresden.-files.-s-01.1080p.-amzn.-webrip.-ddp-5.1.x-264-vi-sum/The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM%5Brartv%5D%2FThe.Dresden.Files.S01E10.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM.mp4",
               "seconds": 2629,
               "format": "h.264",
-              "playable": true,
+              "playable": false,
+              "codecRisk": "audio (DDP5)",
               "sizeMB": 261
             }
           ]
@@ -362,7 +372,8 @@
               "url": "https://archive.org/download/the.-dresden.-files.-s-01.1080p.-amzn.-webrip.-ddp-5.1.x-264-vi-sum/The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM%5Brartv%5D%2FThe.Dresden.Files.S01E11.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM.mp4",
               "seconds": 2623,
               "format": "h.264",
-              "playable": true,
+              "playable": false,
+              "codecRisk": "audio (DDP5)",
               "sizeMB": 261
             }
           ]
@@ -396,7 +407,8 @@
               "url": "https://archive.org/download/the.-dresden.-files.-s-01.1080p.-amzn.-webrip.-ddp-5.1.x-264-vi-sum/The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM%5Brartv%5D%2FThe.Dresden.Files.S01E12.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM.mp4",
               "seconds": 2623,
               "format": "h.264",
-              "playable": true,
+              "playable": false,
+              "codecRisk": "audio (DDP5)",
               "sizeMB": 261
             }
           ]

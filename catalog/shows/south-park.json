@@ -3,7 +3,7 @@
   "slug": "south-park",
   "type": "Animated",
   "network": "Comedy Central",
-  "matchedAt": "2026-10-13T07:46:15.442Z",
+  "matchedAt": "2026-10-13T15:54:06.651Z",
   "tvmaze": {
     "id": 112,
     "name": "South Park",
@@ -13,10 +13,10 @@
   },
   "coverage": {
     "total": 335,
-    "live": 0,
-    "review": 0,
-    "missing": 335,
-    "pct": 0
+    "live": 1,
+    "review": 1,
+    "missing": 333,
+    "pct": 1
   },
   "seasons": [
     {
@@ -1372,8 +1372,20 @@
           "number": 10,
           "name": "Imaginationland: Episode I",
           "airdate": "2007-10-17",
-          "state": "MISSING",
-          "file": null,
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.65,
+            "why": "title ~ \"Imaginationland: Episode I\" (0.80)",
+            "item": "southpark-movie-collection",
+            "itemTitle": "South Park Movie Collection",
+            "file": "Imaginationland.mp4",
+            "name": "Imaginationland",
+            "url": "https://archive.org/download/southpark-movie-collection/Imaginationland.mp4",
+            "seconds": 4061,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 403
+          },
           "alternates": []
         },
         {
@@ -1691,8 +1703,20 @@
           "number": 6,
           "name": "201",
           "airdate": "2010-04-21",
-          "state": "MISSING",
-          "file": null,
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "south-park-s-14-e-06-201-end-uncut",
+            "itemTitle": "SOUTH PARK S 14 E 06 201( END UNCUT)",
+            "file": "SOUTH PARK S14E06 201(END UNCUT).mp4",
+            "name": "SOUTH PARK S14E06 201(END UNCUT)",
+            "url": "https://archive.org/download/south-park-s-14-e-06-201-end-uncut/SOUTH%20PARK%20S14E06%20201(END%20UNCUT).mp4",
+            "seconds": 1294,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 600
+          },
           "alternates": []
         },
         {

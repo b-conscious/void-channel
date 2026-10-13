@@ -3,7 +3,7 @@
   "slug": "the-boondocks",
   "type": "Adult Swim",
   "network": "Adult Swim",
-  "matchedAt": "2026-10-13T07:46:16.011Z",
+  "matchedAt": "2026-10-13T15:54:08.501Z",
   "tvmaze": {
     "id": 912,
     "name": "The Boondocks",
@@ -13,8 +13,8 @@
   },
   "coverage": {
     "total": 55,
-    "live": 49,
-    "review": 0,
+    "live": 47,
+    "review": 2,
     "missing": 6,
     "pct": 89
   },
@@ -835,6 +835,7 @@
               "seconds": 1260,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 1340
             }
           ]
@@ -1059,6 +1060,7 @@
               "seconds": 1285,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 1419
             }
           ]
@@ -1067,9 +1069,9 @@
           "number": 10,
           "name": "Home Alone",
           "airdate": "2007-12-17",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "the-boondocks-uncensored-dvd",
             "itemTitle": "The Boondocks [Uncensored] (DVD)",
@@ -1093,6 +1095,7 @@
               "seconds": 1285,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 1419
             }
           ]
@@ -1153,6 +1156,7 @@
               "seconds": 1298,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 1481
             }
           ]
@@ -1200,6 +1204,7 @@
               "seconds": 1273,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 1743
             }
           ]
@@ -1260,6 +1265,7 @@
               "seconds": 1330,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 1302
             }
           ]
@@ -1294,6 +1300,7 @@
               "seconds": 1273,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 1743
             }
           ]
@@ -1354,6 +1361,7 @@
               "seconds": 1301,
               "format": "Matroska",
               "playable": false,
+              "codecRisk": "container (Matroska)",
               "sizeMB": 1303
             }
           ]
@@ -1367,9 +1375,9 @@
           "number": 1,
           "name": "It's a Black President, Huey Freeman",
           "airdate": "2010-05-02",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "the-boondocks_202410",
             "itemTitle": "The Boondocks The Complete series and Pilot",
@@ -1383,7 +1391,7 @@
           },
           "alternates": [
             {
-              "conf": 1,
+              "conf": 0.6,
               "why": "S/E in filename + title match",
               "item": "the-boondocks-complete",
               "itemTitle": "The Boondocks (Complete Series)",
@@ -1396,7 +1404,7 @@
               "sizeMB": 132
             },
             {
-              "conf": 1,
+              "conf": 0.6,
               "why": "S/E in filename + title match",
               "item": "the-boondocks-complete",
               "itemTitle": "The Boondocks (Complete Series)",
@@ -1409,7 +1417,7 @@
               "sizeMB": 132
             },
             {
-              "conf": 1,
+              "conf": 0.6,
               "why": "S/E in filename + title match",
               "item": "the-boondocks-uncensored-dvd",
               "itemTitle": "The Boondocks [Uncensored] (DVD)",

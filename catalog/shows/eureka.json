@@ -3,7 +3,7 @@
   "slug": "eureka",
   "type": "Sci-Fi, Fantasy and Horror",
   "network": "Sci-Fi Channel",
-  "matchedAt": "2026-10-13T07:46:17.463Z",
+  "matchedAt": "2026-10-13T15:54:10.406Z",
   "tvmaze": {
     "id": 542,
     "name": "Eureka",
@@ -13,8 +13,8 @@
   },
   "coverage": {
     "total": 76,
-    "live": 68,
-    "review": 1,
+    "live": 66,
+    "review": 3,
     "missing": 7,
     "pct": 91
   },
@@ -94,9 +94,9 @@
           "number": 5,
           "name": "Invincible",
           "airdate": "2006-08-15",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
             "itemTitle": "eureka",
@@ -1476,9 +1476,9 @@
           "number": 13,
           "name": "Just Another Day",
           "airdate": "2012-07-16",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
             "itemTitle": "eureka",

@@ -3,7 +3,7 @@
   "slug": "the-bernie-mac-show",
   "type": "2000s and Later Sitcoms",
   "network": "FOX",
-  "matchedAt": "2026-10-13T07:46:15.017Z",
+  "matchedAt": "2026-10-13T15:54:05.912Z",
   "tvmaze": {
     "id": 6836,
     "name": "The Bernie Mac Show",
@@ -13,8 +13,8 @@
   },
   "coverage": {
     "total": 104,
-    "live": 101,
-    "review": 0,
+    "live": 99,
+    "review": 2,
     "missing": 3,
     "pct": 97
   },
@@ -420,9 +420,9 @@
           "number": 20,
           "name": "Kelly's Heroes",
           "airdate": "2002-05-08",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "bernie-mac-season-1",
             "itemTitle": "The Bernie Mac Show: Season 1",
@@ -1908,21 +1908,7 @@
             "playable": true,
             "sizeMB": 130
           },
-          "alternates": [
-            {
-              "conf": 0.8,
-              "why": "title ~ \"Big Brother\" (0.95)",
-              "item": "the-bernie-mac-show-s04",
-              "itemTitle": "The Bernie Mac Show Season 4",
-              "file": "the-bernie-mac-show-s04-e01-big-brother-480p-nf-web-dl-y2bs.mp4",
-              "name": "the-bernie-mac-show-s04-e01-big-brother-480p-nf-web-dl-y2bs",
-              "url": "https://archive.org/download/the-bernie-mac-show-s04/the-bernie-mac-show-s04-e01-big-brother-480p-nf-web-dl-y2bs.mp4",
-              "seconds": 1317,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 62
-            }
-          ]
+          "alternates": []
         },
         {
           "number": 2,
@@ -2711,9 +2697,9 @@
           "number": 9,
           "name": "Prison Break",
           "airdate": "2005-11-18",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "bernie-mac-season-5",
             "itemTitle": "The Bernie Mac Show: Season 5",

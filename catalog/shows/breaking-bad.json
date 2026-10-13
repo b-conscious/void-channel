@@ -3,7 +3,7 @@
   "slug": "breaking-bad",
   "type": "Drama",
   "network": "AMC",
-  "matchedAt": "2026-10-13T07:46:16.136Z",
+  "matchedAt": "2026-10-13T15:54:08.745Z",
   "tvmaze": {
     "id": 169,
     "name": "Breaking Bad",
@@ -13,8 +13,8 @@
   },
   "coverage": {
     "total": 62,
-    "live": 62,
-    "review": 0,
+    "live": 61,
+    "review": 1,
     "missing": 0,
     "pct": 100
   },
@@ -793,9 +793,9 @@
           "number": 8,
           "name": "Better Call Saul",
           "airdate": "2009-04-26",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "breaking.-bad.-s-01-e-01.-pilot.-1080p.-h-264.-blu-ray",
             "itemTitle": "Breaking Bad: The Complete Series [Blu-ray] [1080p] [DTS]",
@@ -809,7 +809,7 @@
           },
           "alternates": [
             {
-              "conf": 1,
+              "conf": 0.6,
               "why": "S/E in filename + title match",
               "item": "breaking.-bad.-s-01-e-01.-pilot.-1080p.-h-264.-blu-ray",
               "itemTitle": "Breaking Bad: The Complete Series [Blu-ray] [1080p] [DTS]",
@@ -822,7 +822,7 @@
               "sizeMB": 283
             },
             {
-              "conf": 1,
+              "conf": 0.6,
               "why": "S/E in filename + title match",
               "item": "brkngbd-mmf",
               "itemTitle": "Breaking Bad",
@@ -1715,19 +1715,6 @@
               "format": "MPEG4",
               "playable": true,
               "sizeMB": 281
-            },
-            {
-              "conf": 0.7,
-              "why": "title ~ \"Half Measures\" (0.95)",
-              "item": "breaking.-bad.-s-01-e-01.-pilot.-1080p.-h-264.-blu-ray",
-              "itemTitle": "Breaking Bad: The Complete Series [Blu-ray] [1080p] [DTS]",
-              "file": "Breaking.Bad.Extras/No.Half.Measures.Creating.the.Final.Season.of.Breaking.Bad.1080p.H265.mp4",
-              "name": "Breaking.Bad.Extras/No.Half.Measures.Creating.the.Final.Season.of.Breaking.Bad.1080p.H265",
-              "url": "https://archive.org/download/breaking.-bad.-s-01-e-01.-pilot.-1080p.-h-264.-blu-ray/Breaking.Bad.Extras%2FNo.Half.Measures.Creating.the.Final.Season.of.Breaking.Bad.1080p.H265.mp4",
-              "seconds": 8130,
-              "format": "h.264",
-              "playable": true,
-              "sizeMB": 788
             }
           ]
         },

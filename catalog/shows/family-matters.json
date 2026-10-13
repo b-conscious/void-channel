@@ -3,7 +3,7 @@
   "slug": "family-matters",
   "type": "90s Sitcoms",
   "network": "ABC",
-  "matchedAt": "2026-10-13T07:46:13.941Z",
+  "matchedAt": "2026-10-13T15:54:02.625Z",
   "tvmaze": {
     "id": 1250,
     "name": "Family Matters",
@@ -13,8 +13,8 @@
   },
   "coverage": {
     "total": 215,
-    "live": 178,
-    "review": 9,
+    "live": 176,
+    "review": 11,
     "missing": 28,
     "pct": 87
   },
@@ -2011,9 +2011,9 @@
           "number": 20,
           "name": "Pulling Teeth",
           "airdate": "1993-03-19",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "familymatters_202507",
             "itemTitle": "Family Matters complete series",
@@ -3376,9 +3376,9 @@
           "number": 18,
           "name": "My Big Brother",
           "airdate": "1996-02-23",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "familymatters_202507",
             "itemTitle": "Family Matters complete series",

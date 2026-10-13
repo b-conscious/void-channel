@@ -3,7 +3,7 @@
   "slug": "courage-the-cowardly-dog",
   "type": "Animated",
   "network": "Cartoon Network",
-  "matchedAt": "2026-10-13T07:46:15.635Z",
+  "matchedAt": "2026-10-13T15:54:07.442Z",
   "tvmaze": {
     "id": 1956,
     "name": "Courage the Cowardly Dog",
@@ -276,21 +276,34 @@
           "airdate": "2000-01-14",
           "state": "LIVE",
           "file": {
-            "conf": 1,
-            "why": "S/E in filename + title match",
-            "item": "s-1-e-03-.-courage-meets-big-foot-hothead",
-            "itemTitle": "Courage the Cowardly Dog full series dvd rip",
-            "file": "season 1/S1 E06 · The Duck Brothers, Shirley the Medium.mp4",
-            "name": "season 1/S1 E06 · The Duck Brothers, Shirley the Medium",
-            "url": "https://archive.org/download/s-1-e-03-.-courage-meets-big-foot-hothead/season%201%2FS1%20E06%20%C2%B7%20The%20Duck%20Brothers%2C%20Shirley%20the%20Medium.mp4",
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "courage-the-cowardly-dog-s-01-e-03_202602",
+            "itemTitle": "Courage The Cowardly Dog: The Complete Series",
+            "file": "Courage The Cowardly Dog/Season 1/Courage the Cowardly Dog - S01E06.mp4",
+            "name": "Courage The Cowardly Dog/Season 1/Courage the Cowardly Dog - S01E06",
+            "url": "https://archive.org/download/courage-the-cowardly-dog-s-01-e-03_202602/Courage%20The%20Cowardly%20Dog%2FSeason%201%2FCourage%20the%20Cowardly%20Dog%20-%20S01E06.mp4",
             "seconds": 1357,
             "format": "MPEG4",
             "playable": true,
-            "sizeMB": 222
+            "sizeMB": 137
           },
           "alternates": [
             {
-              "conf": 1,
+              "conf": 0.55,
+              "why": "S/E in filename + title match",
+              "item": "s-1-e-03-.-courage-meets-big-foot-hothead",
+              "itemTitle": "Courage the Cowardly Dog full series dvd rip",
+              "file": "season 1/S1 E06 · The Duck Brothers, Shirley the Medium.mp4",
+              "name": "season 1/S1 E06 · The Duck Brothers, Shirley the Medium",
+              "url": "https://archive.org/download/s-1-e-03-.-courage-meets-big-foot-hothead/season%201%2FS1%20E06%20%C2%B7%20The%20Duck%20Brothers%2C%20Shirley%20the%20Medium.mp4",
+              "seconds": 1357,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 222
+            },
+            {
+              "conf": 0.55,
               "why": "S/E in filename + title match",
               "item": "courage-the-cowardly-dog-show",
               "itemTitle": "Courage The Cowardly Dog Show Complete",
@@ -301,19 +314,6 @@
               "format": "MPEG4",
               "playable": true,
               "sizeMB": 86
-            },
-            {
-              "conf": 0.9,
-              "why": "S/E in filename",
-              "item": "courage-the-cowardly-dog-s-01-e-03_202602",
-              "itemTitle": "Courage The Cowardly Dog: The Complete Series",
-              "file": "Courage The Cowardly Dog/Season 1/Courage the Cowardly Dog - S01E06.mp4",
-              "name": "Courage The Cowardly Dog/Season 1/Courage the Cowardly Dog - S01E06",
-              "url": "https://archive.org/download/courage-the-cowardly-dog-s-01-e-03_202602/Courage%20The%20Cowardly%20Dog%2FSeason%201%2FCourage%20the%20Cowardly%20Dog%20-%20S01E06.mp4",
-              "seconds": 1357,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 137
             }
           ]
         },
@@ -1935,21 +1935,34 @@
           "airdate": "2002-09-06",
           "state": "LIVE",
           "file": {
-            "conf": 1,
-            "why": "S/E in filename + title match",
-            "item": "s-1-e-03-.-courage-meets-big-foot-hothead",
-            "itemTitle": "Courage the Cowardly Dog full series dvd rip",
-            "file": "season 4/S4 E01 · A Beaver's Tale; The Nutcracker.mp4",
-            "name": "season 4/S4 E01 · A Beaver's Tale; The Nutcracker",
-            "url": "https://archive.org/download/s-1-e-03-.-courage-meets-big-foot-hothead/season%204%2FS4%20E01%20%C2%B7%20A%20Beaver's%20Tale%3B%20The%20Nutcracker.mp4",
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "courage-the-cowardly-dog-s-01-e-03_202602",
+            "itemTitle": "Courage The Cowardly Dog: The Complete Series",
+            "file": "Courage The Cowardly Dog/Season 4/Courage the Cowardly Dog - S04E01.mp4",
+            "name": "Courage The Cowardly Dog/Season 4/Courage the Cowardly Dog - S04E01",
+            "url": "https://archive.org/download/courage-the-cowardly-dog-s-01-e-03_202602/Courage%20The%20Cowardly%20Dog%2FSeason%204%2FCourage%20the%20Cowardly%20Dog%20-%20S04E01.mp4",
             "seconds": 1370,
             "format": "MPEG4",
             "playable": true,
-            "sizeMB": 148
+            "sizeMB": 136
           },
           "alternates": [
             {
-              "conf": 1,
+              "conf": 0.55,
+              "why": "S/E in filename + title match",
+              "item": "s-1-e-03-.-courage-meets-big-foot-hothead",
+              "itemTitle": "Courage the Cowardly Dog full series dvd rip",
+              "file": "season 4/S4 E01 · A Beaver's Tale; The Nutcracker.mp4",
+              "name": "season 4/S4 E01 · A Beaver's Tale; The Nutcracker",
+              "url": "https://archive.org/download/s-1-e-03-.-courage-meets-big-foot-hothead/season%204%2FS4%20E01%20%C2%B7%20A%20Beaver's%20Tale%3B%20The%20Nutcracker.mp4",
+              "seconds": 1370,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 148
+            },
+            {
+              "conf": 0.55,
               "why": "S/E in filename + title match",
               "item": "courage-the-cowardly-dog-show",
               "itemTitle": "Courage The Cowardly Dog Show Complete",
@@ -1960,19 +1973,6 @@
               "format": "MPEG4",
               "playable": true,
               "sizeMB": 101
-            },
-            {
-              "conf": 0.9,
-              "why": "S/E in filename",
-              "item": "courage-the-cowardly-dog-s-01-e-03_202602",
-              "itemTitle": "Courage The Cowardly Dog: The Complete Series",
-              "file": "Courage The Cowardly Dog/Season 4/Courage the Cowardly Dog - S04E01.mp4",
-              "name": "Courage The Cowardly Dog/Season 4/Courage the Cowardly Dog - S04E01",
-              "url": "https://archive.org/download/courage-the-cowardly-dog-s-01-e-03_202602/Courage%20The%20Cowardly%20Dog%2FSeason%204%2FCourage%20the%20Cowardly%20Dog%20-%20S04E01.mp4",
-              "seconds": 1370,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 136
             }
           ]
         },
@@ -2123,21 +2123,34 @@
           "airdate": "2002-10-04",
           "state": "LIVE",
           "file": {
-            "conf": 1,
-            "why": "S/E in filename + title match",
-            "item": "s-1-e-03-.-courage-meets-big-foot-hothead",
-            "itemTitle": "Courage the Cowardly Dog full series dvd rip",
-            "file": "season 4/S4 E05 · Bride of Swamp Monster  Goat Pain.mp4",
-            "name": "season 4/S4 E05 · Bride of Swamp Monster  Goat Pain",
-            "url": "https://archive.org/download/s-1-e-03-.-courage-meets-big-foot-hothead/season%204%2FS4%20E05%20%C2%B7%20Bride%20of%20Swamp%20Monster%20%20Goat%20Pain.mp4",
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "courage-the-cowardly-dog-s-01-e-03_202602",
+            "itemTitle": "Courage The Cowardly Dog: The Complete Series",
+            "file": "Courage The Cowardly Dog/Season 4/Courage the Cowardly Dog - S04E05.mp4",
+            "name": "Courage The Cowardly Dog/Season 4/Courage the Cowardly Dog - S04E05",
+            "url": "https://archive.org/download/courage-the-cowardly-dog-s-01-e-03_202602/Courage%20The%20Cowardly%20Dog%2FSeason%204%2FCourage%20the%20Cowardly%20Dog%20-%20S04E05.mp4",
             "seconds": 1368,
             "format": "MPEG4",
             "playable": true,
-            "sizeMB": 137
+            "sizeMB": 135
           },
           "alternates": [
             {
-              "conf": 1,
+              "conf": 0.55,
+              "why": "S/E in filename + title match",
+              "item": "s-1-e-03-.-courage-meets-big-foot-hothead",
+              "itemTitle": "Courage the Cowardly Dog full series dvd rip",
+              "file": "season 4/S4 E05 · Bride of Swamp Monster  Goat Pain.mp4",
+              "name": "season 4/S4 E05 · Bride of Swamp Monster  Goat Pain",
+              "url": "https://archive.org/download/s-1-e-03-.-courage-meets-big-foot-hothead/season%204%2FS4%20E05%20%C2%B7%20Bride%20of%20Swamp%20Monster%20%20Goat%20Pain.mp4",
+              "seconds": 1368,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 137
+            },
+            {
+              "conf": 0.55,
               "why": "S/E in filename + title match",
               "item": "courage-the-cowardly-dog-show",
               "itemTitle": "Courage The Cowardly Dog Show Complete",
@@ -2148,19 +2161,6 @@
               "format": "MPEG4",
               "playable": true,
               "sizeMB": 102
-            },
-            {
-              "conf": 0.9,
-              "why": "S/E in filename",
-              "item": "courage-the-cowardly-dog-s-01-e-03_202602",
-              "itemTitle": "Courage The Cowardly Dog: The Complete Series",
-              "file": "Courage The Cowardly Dog/Season 4/Courage the Cowardly Dog - S04E05.mp4",
-              "name": "Courage The Cowardly Dog/Season 4/Courage the Cowardly Dog - S04E05",
-              "url": "https://archive.org/download/courage-the-cowardly-dog-s-01-e-03_202602/Courage%20The%20Cowardly%20Dog%2FSeason%204%2FCourage%20the%20Cowardly%20Dog%20-%20S04E05.mp4",
-              "seconds": 1368,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 135
             }
           ]
         },

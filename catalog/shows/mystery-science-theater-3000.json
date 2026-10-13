@@ -3,7 +3,7 @@
   "slug": "mystery-science-theater-3000",
   "type": "Sci-Fi, Fantasy and Horror",
   "network": "Sci-Fi Channel",
-  "matchedAt": "2026-10-13T07:46:17.439Z",
+  "matchedAt": "2026-10-13T15:54:10.378Z",
   "tvmaze": {
     "id": 19499,
     "name": "Mystery Science Theater 3000",
@@ -13,8 +13,8 @@
   },
   "coverage": {
     "total": 213,
-    "live": 205,
-    "review": 0,
+    "live": 189,
+    "review": 16,
     "missing": 8,
     "pct": 96
   },
@@ -43,7 +43,7 @@
           "alternates": [
             {
               "conf": 0.55,
-              "why": "sequence guess: file 1 of 15 in \"The Ultimate Mystery Science Theater 300\"",
+              "why": "sequence guess: file 1 of 14 in \"The Ultimate Mystery Science Theater 300\"",
               "item": "the-ultimate-mst3k",
               "itemTitle": "The Ultimate Mystery Science Theater 3000",
               "file": "S00E01 - Invaders from the Deep.mp4",
@@ -77,7 +77,7 @@
           "alternates": [
             {
               "conf": 0.55,
-              "why": "sequence guess: file 2 of 15 in \"The Ultimate Mystery Science Theater 300\"",
+              "why": "sequence guess: file 2 of 14 in \"The Ultimate Mystery Science Theater 300\"",
               "item": "the-ultimate-mst3k",
               "itemTitle": "The Ultimate Mystery Science Theater 3000",
               "file": "S00E02 - Revenge of the Mysterons from Mars.mp4",
@@ -94,33 +94,33 @@
           "number": 3,
           "name": "The Mad Monster",
           "airdate": "1989-12-12",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
-            "why": "S/E in filename + title match",
+            "conf": 0.55,
+            "why": "sequence guess: file 3 of 14 in \"The Ultimate Mystery Science Theater 300\"",
             "item": "the-ultimate-mst3k",
             "itemTitle": "The Ultimate Mystery Science Theater 3000",
-            "file": "S01E03 - Mad Monster.mp4",
-            "name": "S01E03 - Mad Monster",
-            "url": "https://archive.org/download/the-ultimate-mst3k/S01E03%20-%20Mad%20Monster.mp4",
-            "seconds": 5723,
+            "file": "S00E09 - Phase IV.mp4",
+            "name": "S00E09 - Phase IV",
+            "url": "https://archive.org/download/the-ultimate-mst3k/S00E09%20-%20Phase%20IV.mp4",
+            "seconds": 5794,
             "format": "MPEG4",
             "playable": true,
-            "sizeMB": 244
+            "sizeMB": 476
           },
           "alternates": [
             {
               "conf": 0.55,
-              "why": "sequence guess: file 3 of 15 in \"The Ultimate Mystery Science Theater 300\"",
+              "why": "S/E in filename + title match",
               "item": "the-ultimate-mst3k",
               "itemTitle": "The Ultimate Mystery Science Theater 3000",
-              "file": "S00E09 - Phase IV.mp4",
-              "name": "S00E09 - Phase IV",
-              "url": "https://archive.org/download/the-ultimate-mst3k/S00E09%20-%20Phase%20IV.mp4",
-              "seconds": 5794,
+              "file": "S01E03 - Mad Monster.mp4",
+              "name": "S01E03 - Mad Monster",
+              "url": "https://archive.org/download/the-ultimate-mst3k/S01E03%20-%20Mad%20Monster.mp4",
+              "seconds": 5723,
               "format": "MPEG4",
               "playable": true,
-              "sizeMB": 476
+              "sizeMB": 244
             }
           ]
         },
@@ -128,33 +128,33 @@
           "number": 4,
           "name": "Women of the Prehistoric Planet",
           "airdate": "1990-02-20",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
-            "why": "S/E in filename + title match",
+            "conf": 0.55,
+            "why": "sequence guess: file 4 of 14 in \"The Ultimate Mystery Science Theater 300\"",
             "item": "the-ultimate-mst3k",
             "itemTitle": "The Ultimate Mystery Science Theater 3000",
-            "file": "S01E04 - Women of the Prehistoric Planet.mp4",
-            "name": "S01E04 - Women of the Prehistoric Planet",
-            "url": "https://archive.org/download/the-ultimate-mst3k/S01E04%20-%20Women%20of%20the%20Prehistoric%20Planet.mp4",
-            "seconds": 5856,
+            "file": "S00E10 - Cosmic Princess.mp4",
+            "name": "S00E10 - Cosmic Princess",
+            "url": "https://archive.org/download/the-ultimate-mst3k/S00E10%20-%20Cosmic%20Princess.mp4",
+            "seconds": 6166,
             "format": "MPEG4",
             "playable": true,
-            "sizeMB": 284
+            "sizeMB": 698
           },
           "alternates": [
             {
               "conf": 0.55,
-              "why": "sequence guess: file 4 of 15 in \"The Ultimate Mystery Science Theater 300\"",
+              "why": "S/E in filename + title match",
               "item": "the-ultimate-mst3k",
               "itemTitle": "The Ultimate Mystery Science Theater 3000",
-              "file": "S00E10 - Cosmic Princess.mp4",
-              "name": "S00E10 - Cosmic Princess",
-              "url": "https://archive.org/download/the-ultimate-mst3k/S00E10%20-%20Cosmic%20Princess.mp4",
-              "seconds": 6166,
+              "file": "S01E04 - Women of the Prehistoric Planet.mp4",
+              "name": "S01E04 - Women of the Prehistoric Planet",
+              "url": "https://archive.org/download/the-ultimate-mst3k/S01E04%20-%20Women%20of%20the%20Prehistoric%20Planet.mp4",
+              "seconds": 5856,
               "format": "MPEG4",
               "playable": true,
-              "sizeMB": 698
+              "sizeMB": 284
             }
           ]
         },
@@ -179,7 +179,7 @@
           "alternates": [
             {
               "conf": 0.55,
-              "why": "sequence guess: file 5 of 15 in \"The Ultimate Mystery Science Theater 300\"",
+              "why": "sequence guess: file 5 of 14 in \"The Ultimate Mystery Science Theater 300\"",
               "item": "the-ultimate-mst3k",
               "itemTitle": "The Ultimate Mystery Science Theater 3000",
               "file": "S00E11 - Humanoid Woman.mp4",
@@ -212,21 +212,8 @@
           },
           "alternates": [
             {
-              "conf": 0.9,
-              "why": "S/E in filename",
-              "item": "mst3k-robot-monster",
-              "itemTitle": "Mystery Science Theater 3000 - Robot Monster (S01E07)",
-              "file": "Mystery Science Theater 3000 106 - Robot Monster.mp4",
-              "name": "Mystery Science Theater 3000 106 - Robot Monster",
-              "url": "https://archive.org/download/mst3k-robot-monster/Mystery%20Science%20Theater%203000%20106%20-%20Robot%20Monster.mp4",
-              "seconds": 5858,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 339
-            },
-            {
               "conf": 0.55,
-              "why": "sequence guess: file 6 of 15 in \"The Ultimate Mystery Science Theater 300\"",
+              "why": "sequence guess: file 6 of 14 in \"The Ultimate Mystery Science Theater 300\"",
               "item": "the-ultimate-mst3k",
               "itemTitle": "The Ultimate Mystery Science Theater 3000",
               "file": "S00E13 - SST – Death Flight.mp4",
@@ -243,46 +230,33 @@
           "number": 7,
           "name": "Robot Monster",
           "airdate": "1990-01-02",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
-            "why": "S/E in filename + title match",
+            "conf": 0.55,
+            "why": "sequence guess: file 7 of 14 in \"The Ultimate Mystery Science Theater 300\"",
             "item": "the-ultimate-mst3k",
             "itemTitle": "The Ultimate Mystery Science Theater 3000",
-            "file": "S01E07 - Robot Monster.mp4",
-            "name": "S01E07 - Robot Monster",
-            "url": "https://archive.org/download/the-ultimate-mst3k/S01E07%20-%20Robot%20Monster.mp4",
-            "seconds": 5860,
+            "file": "S00E15 - Superdome.mp4",
+            "name": "S00E15 - Superdome",
+            "url": "https://archive.org/download/the-ultimate-mst3k/S00E15%20-%20Superdome.mp4",
+            "seconds": 6189,
             "format": "MPEG4",
             "playable": true,
-            "sizeMB": 274
+            "sizeMB": 864
           },
           "alternates": [
             {
-              "conf": 0.8,
-              "why": "title ~ \"Robot Monster\" (1.00)",
-              "item": "mst3k-robot-monster",
-              "itemTitle": "Mystery Science Theater 3000 - Robot Monster (S01E07)",
-              "file": "Mystery Science Theater 3000 106 - Robot Monster.mp4",
-              "name": "Mystery Science Theater 3000 106 - Robot Monster",
-              "url": "https://archive.org/download/mst3k-robot-monster/Mystery%20Science%20Theater%203000%20106%20-%20Robot%20Monster.mp4",
-              "seconds": 5858,
-              "format": "MPEG4",
-              "playable": true,
-              "sizeMB": 339
-            },
-            {
               "conf": 0.55,
-              "why": "sequence guess: file 7 of 15 in \"The Ultimate Mystery Science Theater 300\"",
+              "why": "S/E in filename + title match",
               "item": "the-ultimate-mst3k",
               "itemTitle": "The Ultimate Mystery Science Theater 3000",
-              "file": "S00E15 - Superdome.mp4",
-              "name": "S00E15 - Superdome",
-              "url": "https://archive.org/download/the-ultimate-mst3k/S00E15%20-%20Superdome.mp4",
-              "seconds": 6189,
+              "file": "S01E07 - Robot Monster.mp4",
+              "name": "S01E07 - Robot Monster",
+              "url": "https://archive.org/download/the-ultimate-mst3k/S01E07%20-%20Robot%20Monster.mp4",
+              "seconds": 5860,
               "format": "MPEG4",
               "playable": true,
-              "sizeMB": 864
+              "sizeMB": 274
             }
           ]
         },
@@ -307,7 +281,7 @@
           "alternates": [
             {
               "conf": 0.55,
-              "why": "sequence guess: file 8 of 15 in \"The Ultimate Mystery Science Theater 300\"",
+              "why": "sequence guess: file 8 of 14 in \"The Ultimate Mystery Science Theater 300\"",
               "item": "the-ultimate-mst3k",
               "itemTitle": "The Ultimate Mystery Science Theater 3000",
               "file": "S00E16 - City on Fire.mp4",
@@ -341,7 +315,7 @@
           "alternates": [
             {
               "conf": 0.55,
-              "why": "sequence guess: file 9 of 15 in \"The Ultimate Mystery Science Theater 300\"",
+              "why": "sequence guess: file 9 of 14 in \"The Ultimate Mystery Science Theater 300\"",
               "item": "the-ultimate-mst3k",
               "itemTitle": "The Ultimate Mystery Science Theater 3000",
               "file": "S00E19 - Hangar 18.mp4",
@@ -375,7 +349,7 @@
           "alternates": [
             {
               "conf": 0.55,
-              "why": "sequence guess: file 10 of 15 in \"The Ultimate Mystery Science Theater 300\"",
+              "why": "sequence guess: file 10 of 14 in \"The Ultimate Mystery Science Theater 300\"",
               "item": "the-ultimate-mst3k",
               "itemTitle": "The Ultimate Mystery Science Theater 3000",
               "file": "S00E20 - The Last Chase.mp4",
@@ -409,7 +383,7 @@
           "alternates": [
             {
               "conf": 0.55,
-              "why": "sequence guess: file 11 of 15 in \"The Ultimate Mystery Science Theater 300\"",
+              "why": "sequence guess: file 11 of 14 in \"The Ultimate Mystery Science Theater 300\"",
               "item": "the-ultimate-mst3k",
               "itemTitle": "The Ultimate Mystery Science Theater 3000",
               "file": "S00E21 - Legend of the Dinosaur.mp4",
@@ -443,41 +417,7 @@
           "alternates": [
             {
               "conf": 0.55,
-              "why": "sequence guess: file 12 of 15 in \"The Ultimate Mystery Science Theater 300\"",
-              "item": "the-ultimate-mst3k",
-              "itemTitle": "The Ultimate Mystery Science Theater 3000",
-              "file": "S07E07 - This Island Earth (Extended Fanedit).mp4",
-              "name": "S07E07 - This Island Earth (Extended Fanedit)",
-              "url": "https://archive.org/download/the-ultimate-mst3k/S07E07%20-%20This%20Island%20Earth%20(Extended%20Fanedit).mp4",
-              "seconds": 5212,
-              "format": "h.264",
-              "playable": true,
-              "sizeMB": 510
-            }
-          ]
-        },
-        {
-          "number": 13,
-          "name": "The Black Scorpion",
-          "airdate": "1990-02-13",
-          "state": "LIVE",
-          "file": {
-            "conf": 1,
-            "why": "S/E in filename + title match",
-            "item": "the-ultimate-mst3k",
-            "itemTitle": "The Ultimate Mystery Science Theater 3000",
-            "file": "S01E13 - The Black Scorpion.mp4",
-            "name": "S01E13 - The Black Scorpion",
-            "url": "https://archive.org/download/the-ultimate-mst3k/S01E13%20-%20The%20Black%20Scorpion.mp4",
-            "seconds": 5841,
-            "format": "MPEG4",
-            "playable": true,
-            "sizeMB": 197
-          },
-          "alternates": [
-            {
-              "conf": 0.55,
-              "why": "sequence guess: file 13 of 15 in \"The Ultimate Mystery Science Theater 300\"",
+              "why": "sequence guess: file 12 of 14 in \"The Ultimate Mystery Science Theater 300\"",
               "item": "the-ultimate-mst3k",
               "itemTitle": "The Ultimate Mystery Science Theater 3000",
               "file": "Shorts (Volume 1).mp4",
@@ -487,6 +427,40 @@
               "format": "MPEG4",
               "playable": true,
               "sizeMB": 680
+            }
+          ]
+        },
+        {
+          "number": 13,
+          "name": "The Black Scorpion",
+          "airdate": "1990-02-13",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 13 of 14 in \"The Ultimate Mystery Science Theater 300\"",
+            "item": "the-ultimate-mst3k",
+            "itemTitle": "The Ultimate Mystery Science Theater 3000",
+            "file": "Shorts (Volume 3).mp4",
+            "name": "Shorts (Volume 3)",
+            "url": "https://archive.org/download/the-ultimate-mst3k/Shorts%20(Volume%203).mp4",
+            "seconds": 5229,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 404
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "S/E in filename + title match",
+              "item": "the-ultimate-mst3k",
+              "itemTitle": "The Ultimate Mystery Science Theater 3000",
+              "file": "S01E13 - The Black Scorpion.mp4",
+              "name": "S01E13 - The Black Scorpion",
+              "url": "https://archive.org/download/the-ultimate-mst3k/S01E13%20-%20The%20Black%20Scorpion.mp4",
+              "seconds": 5841,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 197
             }
           ]
         }
@@ -739,9 +713,9 @@
           "number": 13,
           "name": "Godzilla vs. The Sea Monster",
           "airdate": "1991-02-02",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.55,
             "why": "S/E in filename + title match",
             "item": "213.GodzillaVsTheSeaMonster",
             "itemTitle": "Mystery Science Theater 3000 - Godzilla vs The Sea Monster",
@@ -755,7 +729,7 @@
           },
           "alternates": [
             {
-              "conf": 1,
+              "conf": 0.55,
               "why": "S/E in filename + title match",
               "item": "the-ultimate-mst3k",
               "itemTitle": "The Ultimate Mystery Science Theater 3000",
@@ -1357,9 +1331,9 @@
           "number": 23,
           "name": "The Castle of Fu Manchu",
           "airdate": "1992-01-18",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.55,
             "why": "S/E in filename + title match",
             "item": "the-ultimate-mst3k",
             "itemTitle": "The Ultimate Mystery Science Theater 3000",
@@ -1436,9 +1410,9 @@
           "number": 2,
           "name": "The Giant Gila Monster",
           "airdate": "1992-06-13",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.55,
             "why": "S/E in filename + title match",
             "item": "the-ultimate-mst3k",
             "itemTitle": "The Ultimate Mystery Science Theater 3000",
@@ -1496,9 +1470,9 @@
           "number": 5,
           "name": "Being from Another Planet",
           "airdate": "1992-07-03",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.55,
             "why": "S/E in filename + title match",
             "item": "the-ultimate-mst3k",
             "itemTitle": "The Ultimate Mystery Science Theater 3000",
@@ -1636,9 +1610,9 @@
           "number": 12,
           "name": "Hercules and the Captive Women",
           "airdate": "1992-09-12",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.55,
             "why": "S/E in filename + title match",
             "item": "the-ultimate-mst3k",
             "itemTitle": "The Ultimate Mystery Science Theater 3000",
@@ -1676,9 +1650,9 @@
           "number": 14,
           "name": "Tormented",
           "airdate": "1992-09-26",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.55,
             "why": "S/E in filename + title match",
             "item": "the-ultimate-mst3k",
             "itemTitle": "The Ultimate Mystery Science Theater 3000",
@@ -1816,9 +1790,9 @@
           "number": 21,
           "name": "Monster a Go-Go",
           "airdate": "1993-01-09",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.55,
             "why": "S/E in filename + title match",
             "item": "the-ultimate-mst3k",
             "itemTitle": "The Ultimate Mystery Science Theater 3000",
@@ -1856,9 +1830,9 @@
           "number": 23,
           "name": "Bride of the Monster",
           "airdate": "1993-01-23",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.55,
             "why": "S/E in filename + title match",
             "item": "the-ultimate-mst3k",
             "itemTitle": "The Ultimate Mystery Science Theater 3000",
@@ -3928,9 +3902,9 @@
           "number": 10,
           "name": "The Final Sacrifice",
           "airdate": "1998-07-25",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.55,
             "why": "S/E in filename + title match",
             "item": "the-ultimate-mst3k",
             "itemTitle": "The Ultimate Mystery Science Theater 3000",
@@ -4366,9 +4340,9 @@
           "number": 11,
           "name": "Horrors of Spider Island",
           "airdate": "1999-07-25",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.6,
             "why": "S/E in filename + title match",
             "item": "mst-3-k-s-10-e-05-blood-waters-of-dr-z",
             "itemTitle": "Mystery Science Theater 3000 Season 10",
@@ -4382,7 +4356,7 @@
           },
           "alternates": [
             {
-              "conf": 1,
+              "conf": 0.55,
               "why": "S/E in filename + title match",
               "item": "the-ultimate-mst3k",
               "itemTitle": "The Ultimate Mystery Science Theater 3000",
@@ -4805,9 +4779,9 @@
           "number": 10,
           "name": "Wizards of the Lost Kingdom",
           "airdate": "2017-04-14",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.55,
             "why": "S/E in filename + title match",
             "item": "mst3k-the-return",
             "itemTitle": "Mystery Science Theater 3000: The Return",
@@ -4821,7 +4795,7 @@
           },
           "alternates": [
             {
-              "conf": 1,
+              "conf": 0.55,
               "why": "S/E in filename + title match",
               "item": "the-ultimate-mst3k",
               "itemTitle": "The Ultimate Mystery Science Theater 3000",
@@ -4832,19 +4806,6 @@
               "format": "MPEG4",
               "playable": true,
               "sizeMB": 390
-            },
-            {
-              "conf": 0.75,
-              "why": "title ~ \"Wizards of the Lost Kingdom\" (0.95)",
-              "item": "mst3k-the-return",
-              "itemTitle": "Mystery Science Theater 3000: The Return",
-              "file": "MST3K - S11E11 - Wizards of the Lost Kingdom II.mp4",
-              "name": "MST3K - S11E11 - Wizards of the Lost Kingdom II",
-              "url": "https://archive.org/download/mst3k-the-return/MST3K%20-%20S11E11%20-%20Wizards%20of%20the%20Lost%20Kingdom%20II.mp4",
-              "seconds": 5361,
-              "format": "h.264",
-              "playable": true,
-              "sizeMB": 525
             }
           ]
         },
@@ -4852,9 +4813,9 @@
           "number": 11,
           "name": "Wizards of the Lost Kingdom II",
           "airdate": "2017-04-14",
-          "state": "LIVE",
+          "state": "REVIEW",
           "file": {
-            "conf": 1,
+            "conf": 0.55,
             "why": "S/E in filename + title match",
             "item": "the-ultimate-mst3k",
             "itemTitle": "The Ultimate Mystery Science Theater 3000",
@@ -4866,21 +4827,7 @@
             "playable": true,
             "sizeMB": 267
           },
-          "alternates": [
-            {
-              "conf": 0.85,
-              "why": "S/E in filename",
-              "item": "mst3k-the-return",
-              "itemTitle": "Mystery Science Theater 3000: The Return",
-              "file": "MST3K - S11E11 - Wizards of the Lost Kingdom II.mp4",
-              "name": "MST3K - S11E11 - Wizards of the Lost Kingdom II",
-              "url": "https://archive.org/download/mst3k-the-return/MST3K%20-%20S11E11%20-%20Wizards%20of%20the%20Lost%20Kingdom%20II.mp4",
-              "seconds": 5361,
-              "format": "h.264",
-              "playable": true,
-              "sizeMB": 525
-            }
-          ]
+          "alternates": []
         },
         {
           "number": 12,

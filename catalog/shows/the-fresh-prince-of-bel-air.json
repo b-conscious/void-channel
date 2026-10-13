@@ -3,7 +3,7 @@
   "slug": "the-fresh-prince-of-bel-air",
   "type": "90s Sitcoms",
   "network": "NBC",
-  "matchedAt": "2026-10-13T07:46:13.278Z",
+  "matchedAt": "2026-10-13T15:54:01.734Z",
   "tvmaze": {
     "id": 582,
     "name": "The Fresh Prince of Bel-Air",
@@ -14,9 +14,9 @@
   "coverage": {
     "total": 148,
     "live": 0,
-    "review": 45,
-    "missing": 103,
-    "pct": 30
+    "review": 43,
+    "missing": 105,
+    "pct": 29
   },
   "seasons": [
     {
@@ -985,20 +985,8 @@
           "number": 19,
           "name": "You'd Better Shop Around",
           "airdate": "1994-02-21",
-          "state": "REVIEW",
-          "file": {
-            "conf": 0.75,
-            "why": "S/E in filename",
-            "item": "amen-season-4",
-            "itemTitle": "Amen: Season 4",
-            "file": "Amen.S04E19.Moving.In.640p.TUBI.WEB-DL.AAC2.0.H.264.mp4",
-            "name": "Amen.S04E19.Moving.In.640p.TUBI.WEB-DL.AAC2.0.H.264",
-            "url": "https://archive.org/download/amen-season-4/Amen.S04E19.Moving.In.640p.TUBI.WEB-DL.AAC2.0.H.264.mp4",
-            "seconds": 1357,
-            "format": "h.264",
-            "playable": true,
-            "sizeMB": 139
-          },
+          "state": "MISSING",
+          "file": null,
           "alternates": []
         },
         {
@@ -1334,20 +1322,8 @@
           "number": 12,
           "name": "Same Game, Next Season",
           "airdate": "1994-12-12",
-          "state": "REVIEW",
-          "file": {
-            "conf": 0.75,
-            "why": "S/E in filename",
-            "item": "amen-season-5",
-            "itemTitle": "Amen: Season 5",
-            "file": "Amen.S05E12.Deacons.Slam.Dunk.640p.TUBI.WEB-DL.AAC2.0.H.264.mp4",
-            "name": "Amen.S05E12.Deacons.Slam.Dunk.640p.TUBI.WEB-DL.AAC2.0.H.264",
-            "url": "https://archive.org/download/amen-season-5/Amen.S05E12.Deacons.Slam.Dunk.640p.TUBI.WEB-DL.AAC2.0.H.264.mp4",
-            "seconds": 1432,
-            "format": "h.264",
-            "playable": true,
-            "sizeMB": 144
-          },
+          "state": "MISSING",
+          "file": null,
           "alternates": []
         },
         {
