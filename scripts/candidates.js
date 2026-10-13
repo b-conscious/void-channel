@@ -34,6 +34,7 @@ async function tmdb(p, params = {}) {
 async function main() {
   const args = process.argv.slice(2);
   const pi = args.indexOf('--pages'); const pages = pi >= 0 ? +args[pi + 1] : 40;
+  const all_ = args.includes('--all'); // keep every language and genre except kids (B: "i dont want things dropped")
   const have = new Set(LIST.shows.map((s) => norm(s.name)));
   const seen = new Map();
   const sources = [['top_rated', '/tv/top_rated', pages], ['popular', '/tv/popular', pages], ['trending', '/trending/tv/week', Math.min(pages, 20)]];
@@ -41,12 +42,14 @@ async function main() {
     for (let page = 1; page <= n; page++) {
       const j = await tmdb(p, { page: String(page), language: 'en-US' });
       for (const s of j.results || []) {
-        if (s.original_language !== 'en') continue;
+        if (!all_ && s.original_language !== 'en') continue;
         const year = parseInt((s.first_air_date || '').slice(0, 4), 10);
         if (!year || year < 1990 || year > new Date().getFullYear()) continue;
-        if ((s.genre_ids || []).some((g) => DROP_GENRES.has(g))) continue;
-        if ((s.genre_ids || []).includes(10751) && !(s.genre_ids || []).includes(16)) continue; // family live-action
-        const e = seen.get(s.id) || { tmdbId: s.id, name: s.name, year, genres: (s.genre_ids || []).map((g) => GENRE_NAMES[g] || g), rating: s.vote_average, votes: s.vote_count, country: (s.origin_country || [])[0], overview: (s.overview || '').slice(0, 160), poster: s.poster_path ? 'https://image.tmdb.org/t/p/w342' + s.poster_path : null, lists: [] };
+        const gids = s.genre_ids || [];
+        if (gids.includes(10762)) continue; // Kids: always out
+        if (gids.includes(10751) && !gids.includes(16)) continue; // family live-action: out
+        if (!all_ && gids.some((g) => DROP_GENRES.has(g))) continue;
+        const e = seen.get(s.id) || { tmdbId: s.id, name: s.name, year, language: s.original_language, genres: gids.map((g) => GENRE_NAMES[g] || g), rating: s.vote_average, votes: s.vote_count, country: (s.origin_country || [])[0], overview: (s.overview || '').slice(0, 160), poster: s.poster_path ? 'https://image.tmdb.org/t/p/w342' + s.poster_path : null, lists: [] };
         if (!e.lists.includes(name)) e.lists.push(name);
         seen.set(s.id, e);
       }
