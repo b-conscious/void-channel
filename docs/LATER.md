@@ -14,6 +14,11 @@ jumps the queue.
   Never a server. (2026-10-13, after SG-1 played silent)
 - **Explore by Genre grid** below the rows; Trending / Popular / Top Rated tabs ranked over OUR
   catalog so they mean "best that actually plays". (2026-10-13)
+- **X-Ray and trivia per show and episode.** Factual X-Ray from TVmaze/TMDB per-episode credits
+  (cast and guest stars with headshots, characters, writer, director, air date) shown in a player
+  tab; trivia distilled by Claude from Wikipedia episode/show articles with a source line under
+  each item, cached in the builder. No invented facts, no scene-level X-Ray until we can read the
+  video. (2026-10-13)
 - **One sourcing line** in the footer (Internet Archive + the TMDB credit), never per card. (2026-10-13)
 
 ## Pull after the site is live
