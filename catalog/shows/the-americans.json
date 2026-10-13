@@ -1,0 +1,725 @@
+{
+  "show": "The Americans",
+  "slug": "the-americans",
+  "type": "Drama",
+  "network": "FX",
+  "matchedAt": "2026-10-13T07:46:16.606Z",
+  "tvmaze": {
+    "id": 157,
+    "name": "The Americans",
+    "runtime": 60,
+    "premiered": "2013-01-30",
+    "network": "FX"
+  },
+  "coverage": {
+    "total": 75,
+    "live": 0,
+    "review": 6,
+    "missing": 69,
+    "pct": 8
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Pilot",
+          "airdate": "2013-01-30",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 1 of 6 in \"\"Young Americans\" (2000) (COMPLETE SERIE\"",
+            "item": "03_20211016",
+            "itemTitle": "\"Young Americans\" (2000) (COMPLETE SERIES)",
+            "file": "01.mp4",
+            "name": "01",
+            "url": "https://archive.org/download/03_20211016/01.mp4",
+            "seconds": 2637,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 154
+          },
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "The Clock",
+          "airdate": "2013-02-06",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 2 of 6 in \"\"Young Americans\" (2000) (COMPLETE SERIE\"",
+            "item": "03_20211016",
+            "itemTitle": "\"Young Americans\" (2000) (COMPLETE SERIES)",
+            "file": "02.mp4",
+            "name": "02",
+            "url": "https://archive.org/download/03_20211016/02.mp4",
+            "seconds": 2550,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 145
+          },
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Gregory",
+          "airdate": "2013-02-13",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 3 of 6 in \"\"Young Americans\" (2000) (COMPLETE SERIE\"",
+            "item": "03_20211016",
+            "itemTitle": "\"Young Americans\" (2000) (COMPLETE SERIES)",
+            "file": "04.mp4",
+            "name": "04",
+            "url": "https://archive.org/download/03_20211016/04.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 142
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "In Control",
+          "airdate": "2013-02-20",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 4 of 6 in \"\"Young Americans\" (2000) (COMPLETE SERIE\"",
+            "item": "03_20211016",
+            "itemTitle": "\"Young Americans\" (2000) (COMPLETE SERIES)",
+            "file": "05.mp4",
+            "name": "05",
+            "url": "https://archive.org/download/03_20211016/05.mp4",
+            "seconds": 2633,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 150
+          },
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "COMINT",
+          "airdate": "2013-02-27",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 5 of 6 in \"\"Young Americans\" (2000) (COMPLETE SERIE\"",
+            "item": "03_20211016",
+            "itemTitle": "\"Young Americans\" (2000) (COMPLETE SERIES)",
+            "file": "07.mp4",
+            "name": "07",
+            "url": "https://archive.org/download/03_20211016/07.mp4",
+            "seconds": 2632,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 140
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Trust Me",
+          "airdate": "2013-03-06",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 6 of 6 in \"\"Young Americans\" (2000) (COMPLETE SERIE\"",
+            "item": "03_20211016",
+            "itemTitle": "\"Young Americans\" (2000) (COMPLETE SERIES)",
+            "file": "08.mp4",
+            "name": "08",
+            "url": "https://archive.org/download/03_20211016/08.mp4",
+            "seconds": 2618,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 153
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Duty and Honor",
+          "airdate": "2013-03-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Mutually Assured Destruction",
+          "airdate": "2013-03-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Safe House",
+          "airdate": "2013-04-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Only You",
+          "airdate": "2013-04-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Covert War",
+          "airdate": "2013-04-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "The Oath",
+          "airdate": "2013-04-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "The Colonel",
+          "airdate": "2013-05-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Comrades",
+          "airdate": "2014-02-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Cardinal",
+          "airdate": "2014-03-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "The Walk In",
+          "airdate": "2014-03-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "A Little Night Music",
+          "airdate": "2014-03-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "The Deal",
+          "airdate": "2014-03-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Behind the Red Door",
+          "airdate": "2014-04-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "ARPANET",
+          "airdate": "2014-04-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "New Car",
+          "airdate": "2014-04-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Martial Eagle",
+          "airdate": "2014-04-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Yousaf",
+          "airdate": "2014-04-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Stealth",
+          "airdate": "2014-05-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Operation Chronicle",
+          "airdate": "2014-05-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Echo",
+          "airdate": "2014-05-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "EST Men",
+          "airdate": "2015-01-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Baggage",
+          "airdate": "2015-02-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Open House",
+          "airdate": "2015-02-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Dimebag",
+          "airdate": "2015-02-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Salang Pass",
+          "airdate": "2015-02-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Born Again",
+          "airdate": "2015-03-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Walter Taffet",
+          "airdate": "2015-03-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Divestment",
+          "airdate": "2015-03-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Do Mail Robots Dream of Electric Sheep?",
+          "airdate": "2015-03-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Stingers",
+          "airdate": "2015-04-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "One Day in the Life of Anton Baklanov",
+          "airdate": "2015-04-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "I Am Abassin Zadran",
+          "airdate": "2015-04-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "March 8, 1983",
+          "airdate": "2015-04-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 4,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Glanders",
+          "airdate": "2016-03-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Pastor Tim",
+          "airdate": "2016-03-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Experimental Prototype City of Tomorrow",
+          "airdate": "2016-03-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Chloramphenicol",
+          "airdate": "2016-04-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Clark's Place",
+          "airdate": "2016-04-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "The Rat",
+          "airdate": "2016-04-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Travel Agents",
+          "airdate": "2016-04-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "The Magic of David Copperfield V: The Statue of Liberty Disappears",
+          "airdate": "2016-05-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "The Day After",
+          "airdate": "2016-05-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Munchkins",
+          "airdate": "2016-05-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Dinner for Seven",
+          "airdate": "2016-05-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "A Roy Rogers in Franconia",
+          "airdate": "2016-06-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Persona Non Grata",
+          "airdate": "2016-06-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 5,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Amber Waves",
+          "airdate": "2017-03-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Pests",
+          "airdate": "2017-03-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "The Midges",
+          "airdate": "2017-03-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "What's the Matter with Kansas?",
+          "airdate": "2017-03-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Lotus 1-2-3",
+          "airdate": "2017-04-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Crossbreed",
+          "airdate": "2017-04-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "The Committee on Human Rights",
+          "airdate": "2017-04-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Immersion",
+          "airdate": "2017-04-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "IHOP",
+          "airdate": "2017-05-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Darkroom",
+          "airdate": "2017-05-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Dyatkovo",
+          "airdate": "2017-05-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "The World Council of Churches",
+          "airdate": "2017-05-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "The Soviet Division",
+          "airdate": "2017-05-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 6,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Dead Hand",
+          "airdate": "2018-03-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Tchaikovsky",
+          "airdate": "2018-04-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Urban Transport Planning",
+          "airdate": "2018-04-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Mr. and Mrs. Teacup",
+          "airdate": "2018-04-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "The Great Patriotic War",
+          "airdate": "2018-04-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Rififi",
+          "airdate": "2018-05-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Harvest",
+          "airdate": "2018-05-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "The Summit",
+          "airdate": "2018-05-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Jennings, Elizabeth",
+          "airdate": "2018-05-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "START",
+          "airdate": "2018-05-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    }
+  ]
+}

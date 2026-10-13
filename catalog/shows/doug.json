@@ -1,0 +1,1523 @@
+{
+  "show": "Doug",
+  "slug": "doug",
+  "type": "Animated",
+  "network": "Nickelodeon",
+  "matchedAt": "2026-10-13T07:46:15.468Z",
+  "tvmaze": {
+    "id": 6308,
+    "name": "Doug",
+    "runtime": 15,
+    "premiered": "1991-08-11",
+    "network": "Nickelodeon"
+  },
+  "coverage": {
+    "total": 169,
+    "live": 0,
+    "review": 9,
+    "missing": 160,
+    "pct": 5
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Doug Bags a Neematoad",
+          "airdate": "1991-08-11",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 1 of 9 in \"Manitoba Home Movie Archives - Donated b\"",
+            "item": "2020-024-04-doug-lang",
+            "itemTitle": "Manitoba Home Movie Archives - Donated by Doug Lang",
+            "file": "2020-024-01 - Doug Lang.MP4",
+            "name": "2020-024-01 - Doug Lang",
+            "url": "https://archive.org/download/2020-024-04-doug-lang/2020-024-01%20-%20Doug%20Lang.MP4",
+            "seconds": 878,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 1089
+          },
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Doug Can't Dance",
+          "airdate": "1991-08-18",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 2 of 9 in \"Manitoba Home Movie Archives - Donated b\"",
+            "item": "2020-024-04-doug-lang",
+            "itemTitle": "Manitoba Home Movie Archives - Donated by Doug Lang",
+            "file": "2020-024-02 - Doug Lang.MP4",
+            "name": "2020-024-02 - Doug Lang",
+            "url": "https://archive.org/download/2020-024-04-doug-lang/2020-024-02%20-%20Doug%20Lang.MP4",
+            "seconds": 710,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 880
+          },
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Doug Gets Busted",
+          "airdate": "1991-08-18",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 3 of 9 in \"Manitoba Home Movie Archives - Donated b\"",
+            "item": "2020-024-04-doug-lang",
+            "itemTitle": "Manitoba Home Movie Archives - Donated by Doug Lang",
+            "file": "2020-024-03 - Doug Lang.MP4",
+            "name": "2020-024-03 - Doug Lang",
+            "url": "https://archive.org/download/2020-024-04-doug-lang/2020-024-03%20-%20Doug%20Lang.MP4",
+            "seconds": 685,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 850
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Doug's Dog's Date",
+          "airdate": "1991-08-25",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 4 of 9 in \"Manitoba Home Movie Archives - Donated b\"",
+            "item": "2020-024-04-doug-lang",
+            "itemTitle": "Manitoba Home Movie Archives - Donated by Doug Lang",
+            "file": "2020-024-04 - Doug Lang.MP4",
+            "name": "2020-024-04 - Doug Lang",
+            "url": "https://archive.org/download/2020-024-04-doug-lang/2020-024-04%20-%20Doug%20Lang.MP4",
+            "seconds": 895,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 1111
+          },
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Doug's Big Nose",
+          "airdate": "1991-08-25",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 5 of 9 in \"Manitoba Home Movie Archives - Donated b\"",
+            "item": "2020-024-04-doug-lang",
+            "itemTitle": "Manitoba Home Movie Archives - Donated by Doug Lang",
+            "file": "2020-024-05 - Doug Lang.MP4",
+            "name": "2020-024-05 - Doug Lang",
+            "url": "https://archive.org/download/2020-024-04-doug-lang/2020-024-05%20-%20Doug%20Lang.MP4",
+            "seconds": 813,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 1008
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Doug Takes a Hike",
+          "airdate": "1991-09-01",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 6 of 9 in \"Manitoba Home Movie Archives - Donated b\"",
+            "item": "2020-024-04-doug-lang",
+            "itemTitle": "Manitoba Home Movie Archives - Donated by Doug Lang",
+            "file": "2020-024-06 - Doug Lang.MP4",
+            "name": "2020-024-06 - Doug Lang",
+            "url": "https://archive.org/download/2020-024-04-doug-lang/2020-024-06%20-%20Doug%20Lang.MP4",
+            "seconds": 724,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 898
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Doug Rocks",
+          "airdate": "1991-09-01",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 7 of 9 in \"Manitoba Home Movie Archives - Donated b\"",
+            "item": "2020-024-04-doug-lang",
+            "itemTitle": "Manitoba Home Movie Archives - Donated by Doug Lang",
+            "file": "2020-024-07 - Doug Lang.MP4",
+            "name": "2020-024-07 - Doug Lang",
+            "url": "https://archive.org/download/2020-024-04-doug-lang/2020-024-07%20-%20Doug%20Lang.MP4",
+            "seconds": 719,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 891
+          },
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Doug Can't Dig It",
+          "airdate": "1991-09-08",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 8 of 9 in \"Manitoba Home Movie Archives - Donated b\"",
+            "item": "2020-024-04-doug-lang",
+            "itemTitle": "Manitoba Home Movie Archives - Donated by Doug Lang",
+            "file": "2020-024-08 - Doug Lang.MP4",
+            "name": "2020-024-08 - Doug Lang",
+            "url": "https://archive.org/download/2020-024-04-doug-lang/2020-024-08%20-%20Doug%20Lang.MP4",
+            "seconds": 722,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 896
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Doug Didn't Do It",
+          "airdate": "1991-09-08",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 9 of 9 in \"Manitoba Home Movie Archives - Donated b\"",
+            "item": "2020-024-04-doug-lang",
+            "itemTitle": "Manitoba Home Movie Archives - Donated by Doug Lang",
+            "file": "2020-024-11 - Doug Lang.MP4",
+            "name": "2020-024-11 - Doug Lang",
+            "url": "https://archive.org/download/2020-024-04-doug-lang/2020-024-11%20-%20Doug%20Lang.MP4",
+            "seconds": 849,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 1052
+          },
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Doug, Mayor for a Day",
+          "airdate": "1991-09-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Doug's No Dummy",
+          "airdate": "1991-09-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Doug to the Rescue",
+          "airdate": "1991-09-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Doug's Cool Shoes",
+          "airdate": "1991-09-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Doug Gets His Ears Lowered",
+          "airdate": "1991-09-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Doug On The Wild Side",
+          "airdate": "1991-09-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Doug's Big Catch",
+          "airdate": "1991-10-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Doug Needs Money",
+          "airdate": "1991-10-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Doug's Doodle",
+          "airdate": "1991-10-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Doug's Runaway Journal",
+          "airdate": "1991-10-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Doug's Cookin'",
+          "airdate": "1991-10-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Doug Loses Dale",
+          "airdate": "1991-10-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Doug is Quailman",
+          "airdate": "1991-10-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "Doug Out in Left Field",
+          "airdate": "1991-10-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "Doug's Fair Lady",
+          "airdate": "1991-11-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 25,
+          "name": "Doug Says Goodbye",
+          "airdate": "1991-11-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Doug Takes the Case",
+          "airdate": "1992-04-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Doug's Secret Song",
+          "airdate": "1992-04-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Doug's Got No Gift",
+          "airdate": "1992-04-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Doug VS The Klotzoid Zombies",
+          "airdate": "1992-04-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Doug's Secret Admirer",
+          "airdate": "1992-04-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Doug's On TV",
+          "airdate": "1992-04-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Doug's Dinner Date",
+          "airdate": "1992-05-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Doug Meets Fentruck",
+          "airdate": "1992-05-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Doug's On Stage",
+          "airdate": "1992-05-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Doug's Worst Nightmare",
+          "airdate": "1992-05-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Doug's Derby Dilemma",
+          "airdate": "1992-05-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Doug's On His Own",
+          "airdate": "1992-05-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Doug Meets The Rulemeister",
+          "airdate": "1992-05-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Doug's a Genius",
+          "airdate": "1992-05-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Doug Saves Roger",
+          "airdate": "1992-05-31",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Doug's Big News",
+          "airdate": "1992-05-31",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Doug's a Big Fat Liar",
+          "airdate": "1992-06-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Doug Wears Tights",
+          "airdate": "1992-06-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Doug On The Trail",
+          "airdate": "1992-06-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Doug Meets RoboBone",
+          "airdate": "1992-06-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Doug Pumps Up",
+          "airdate": "1992-06-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Doug Goes Hollywood",
+          "airdate": "1992-06-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "Doug's Hot Ticket",
+          "airdate": "1992-06-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "Doug's Dental Disaster",
+          "airdate": "1992-06-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 25,
+          "name": "Doug's Lost Weekend",
+          "airdate": "1992-07-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 26,
+          "name": "Doug's Lucky Hat",
+          "airdate": "1992-07-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Doug's Fat Cat",
+          "airdate": "1993-04-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Doug and Patti P.I.",
+          "airdate": "1993-04-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Doug's Servitude",
+          "airdate": "1993-04-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Doug Rocks the House",
+          "airdate": "1993-04-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Doug's Comic Collaboration",
+          "airdate": "1993-04-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Doug's Pet Capades",
+          "airdate": "1993-04-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Doug's Career Anxiety",
+          "airdate": "1993-05-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Doug's Big Brawl",
+          "airdate": "1993-05-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Doug's Huge Zit",
+          "airdate": "1993-05-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Doug Flies A Kite",
+          "airdate": "1993-05-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Doug and the Weird Kids",
+          "airdate": "1993-05-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Doug's Behind The Wheel",
+          "airdate": "1993-05-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Doug's New Teacher",
+          "airdate": "1993-05-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Doug On First",
+          "airdate": "1993-05-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Doug's Cartoon",
+          "airdate": "1993-05-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Doug's Monster Movie",
+          "airdate": "1993-05-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Doug's Hot Property",
+          "airdate": "1993-06-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Doug & The Little Liar",
+          "airdate": "1993-06-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Doug Inc.",
+          "airdate": "1993-06-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Doug's Nightmare on Jumbo St.",
+          "airdate": "1993-06-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Doug's Shock Therapy",
+          "airdate": "1993-06-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Doug Is Hamburger Boy",
+          "airdate": "1993-06-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "Doug and the Yard of Doom",
+          "airdate": "1993-06-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "Doug's Garage Band",
+          "airdate": "1993-06-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 25,
+          "name": "Doug's Great Beet War",
+          "airdate": "1993-07-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 26,
+          "name": "Doug's Magic Act",
+          "airdate": "1993-07-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 4,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Doug's Math Problem",
+          "airdate": "1994-04-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Doug's Big Feat",
+          "airdate": "1994-04-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Doug's Bum Rap",
+          "airdate": "1994-04-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Doug & Patti Sittin' in a Tree",
+          "airdate": "1994-04-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Doug Door to Door",
+          "airdate": "1994-04-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Doug Tips The Scale",
+          "airdate": "1994-04-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Doug En Vogue",
+          "airdate": "1994-05-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Doug's Mail Order Mania",
+          "airdate": "1994-05-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Doug's Birthday Present",
+          "airdate": "1994-05-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Doug's Fan Club",
+          "airdate": "1994-05-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Doug Runs",
+          "airdate": "1994-05-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Doug Clobbers Patti",
+          "airdate": "1994-05-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Doug's Treasure Hunt",
+          "airdate": "1994-05-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Doug's Brainy Buddy",
+          "airdate": "1994-05-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Doug Ripped Off!",
+          "airdate": "1994-05-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Doug's Babysitter",
+          "airdate": "1994-05-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Doug's in the Money",
+          "airdate": "1994-06-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Doug's Sister Act",
+          "airdate": "1994-06-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Doug Throws a Party",
+          "airdate": "1994-06-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Doug Way Out West",
+          "airdate": "1994-06-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Doug Graduates",
+          "airdate": "1994-06-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Doug's Bad Trip",
+          "airdate": "1994-06-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "Doug's Halloween Adventure",
+          "airdate": "1994-10-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "Doug's Christmas Story",
+          "airdate": "1994-12-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 5,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Doug's Last Birthday",
+          "airdate": "1996-09-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Doug's New School",
+          "airdate": "1996-09-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Doug Grows Up",
+          "airdate": "1996-09-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Doug's Hoop Nightmare",
+          "airdate": "1996-09-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Doug's Patti Beef",
+          "airdate": "1996-11-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Doug: A Limited Corporation",
+          "airdate": "1996-10-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Doug's in Debt!",
+          "airdate": "1996-10-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Doug's Bloody Buddy",
+          "airdate": "1996-10-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Doug's Big Comeback",
+          "airdate": "1996-10-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Doug Directs",
+          "airdate": "1996-11-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Doug's Brain Drain",
+          "airdate": "1996-11-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Doug's Movie Madness",
+          "airdate": "1996-11-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Doug: The Big Switch",
+          "airdate": "1996-11-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Doug Gets His Wish",
+          "airdate": "1996-12-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Doug's Secret Christmas",
+          "airdate": "1996-12-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Doug's Hot Dog",
+          "airdate": "1996-12-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Doug's Great Opportoonity",
+          "airdate": "1997-01-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Doug Gets a Roomate",
+          "airdate": "1997-01-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Doug Gets Booked",
+          "airdate": "1997-01-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Doug's Minor Catastrophe",
+          "airdate": "1997-01-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Doug's Big Panic",
+          "airdate": "1997-02-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Doug's Hairy Situation",
+          "airdate": "1997-02-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "Doug: Oh, Baby",
+          "airdate": "1997-02-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "Doug's Disappearing Dog",
+          "airdate": "1997-02-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 25,
+          "name": "Doug's Mural Mania",
+          "airdate": "1997-03-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 26,
+          "name": "Doug On The Road",
+          "airdate": "1997-03-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 6,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Doug's Secret of Success",
+          "airdate": "1997-09-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Doug's Friend's Friend",
+          "airdate": "1997-09-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Doug's Chubby Buddy",
+          "airdate": "1997-09-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Doug: Quailman VI: The Dark Quail Saga",
+          "airdate": "1997-10-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Judy, Judy, Judy",
+          "airdate": "1997-10-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Doug's Dougapalooza",
+          "airdate": "1997-10-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Doug's Thanksgiving",
+          "airdate": "1997-10-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Doug Gets It All",
+          "airdate": "1997-11-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 7,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Doug's Midnight Kiss",
+          "airdate": "1998-09-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Doug's Older Woman",
+          "airdate": "1998-09-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Doug Gets Right Back On!",
+          "airdate": "1998-09-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Quailman VII: Quaildad",
+          "airdate": "1998-10-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Doug's In The Middle",
+          "airdate": "1998-10-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Doug: Night Of The Living Dougs",
+          "airdate": "1998-10-31",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Doug's Dream House",
+          "airdate": "1998-11-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Quailman Takes the Blame",
+          "airdate": "1998-11-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Doug and the Bluffington 5",
+          "airdate": "1998-11-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Quailman VS Supersport",
+          "airdate": "1998-11-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Doug's Concert Crisis",
+          "airdate": "1998-12-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Quailman VS the Annoying S.T.U.A.R.T.",
+          "airdate": "1998-12-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Quailman VS the Whackhammer",
+          "airdate": "1999-01-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Judy's Big Admission",
+          "airdate": "1999-01-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Quailman VS the Quizzler",
+          "airdate": "1999-01-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Doug's Sour Songbird",
+          "airdate": "1999-02-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Doug's Best Buddy",
+          "airdate": "1999-02-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Quailman and the Quintuple Quandary",
+          "airdate": "1999-03-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Quailman's Bad Hair Day",
+          "airdate": "1999-04-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Doug: Beebe Goes Broke",
+          "airdate": "1999-04-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Quailman and the L.U.B.",
+          "airdate": "1999-04-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Patti's Dad Dilemma",
+          "airdate": "1999-04-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "Quailman: The Un-Quail Saga",
+          "airdate": "1999-05-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "Doug Cuts School",
+          "airdate": "1999-05-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 25,
+          "name": "Quailman VS the Triad of Terror",
+          "airdate": "1999-05-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 26,
+          "name": "Doug Plays Cupid",
+          "airdate": "1999-05-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 27,
+          "name": "Doug: I, Rubbersuit",
+          "airdate": "1999-05-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 28,
+          "name": "Doug's Adventures On-Line",
+          "airdate": "1999-06-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 29,
+          "name": "Quailman VS the Little Rubber Army",
+          "airdate": "1999-06-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 30,
+          "name": "Doug's Grand Band Plan",
+          "airdate": "1999-06-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 31,
+          "name": "Doug's Marriage Madness",
+          "airdate": "1999-06-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 8,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Doug Live!",
+          "airdate": "1999-03-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Disney's One Too: Disney's Doug Shorts",
+          "airdate": "1999-09-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Doug's Big Game",
+          "airdate": "2000-09-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    }
+  ]
+}

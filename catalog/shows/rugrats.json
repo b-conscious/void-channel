@@ -1,0 +1,1396 @@
+{
+  "show": "Rugrats",
+  "slug": "rugrats",
+  "type": "Animated",
+  "network": "Nickelodeon",
+  "matchedAt": "2026-10-13T07:46:15.455Z",
+  "tvmaze": {
+    "id": 421,
+    "name": "Rugrats",
+    "runtime": 30,
+    "premiered": "1991-08-11",
+    "network": "Nickelodeon"
+  },
+  "coverage": {
+    "total": 166,
+    "live": 0,
+    "review": 0,
+    "missing": 166,
+    "pct": 0
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Tommy's First Birthday",
+          "airdate": "1991-08-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Barbecue Story / Waiter, There's a Baby in My Soup",
+          "airdate": "1991-08-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "At the Movies / Slumber Party",
+          "airdate": "1991-08-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Baby Commercial / Little Dude",
+          "airdate": "1991-09-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Little Miss Lovely / Tommy at Bat",
+          "airdate": "1991-09-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Ruthless Tommy / Moose Country",
+          "airdate": "1991-10-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Grandpa's Teeth / Momma Trauma",
+          "airdate": "1991-11-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Real or Robots / Special Delivery",
+          "airdate": "1991-12-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Candy Bar Creep Show / Monsters in the Garage",
+          "airdate": "1992-01-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Weaning Tommy / Incident in Aisle Seven",
+          "airdate": "1992-02-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Touchdown Tommy / The Trial",
+          "airdate": "1992-03-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Fluffy vs. Spike / Reptar's Revenge",
+          "airdate": "1992-04-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Graham Canyon / Stu-Makers' Elves",
+          "airdate": "1992-05-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Toy Palace / Sand Ho",
+          "airdate": "1992-09-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Chuckie vs. the Potty / Together at Last",
+          "airdate": "1992-09-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "The Big House / The Shot",
+          "airdate": "1992-09-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Showdown at Teeter-Totter Gulch / Mirrorland",
+          "airdate": "1992-09-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Angelica's in Love / Ice Cream Mountain",
+          "airdate": "1992-10-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Regarding Stuie / Garage Sale",
+          "airdate": "1992-10-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Let There Be Light / The Bank Trick",
+          "airdate": "1992-10-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Family Reunion / Grandpa's Date",
+          "airdate": "1992-10-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "No Bones About It / Beach Blanket Babies",
+          "airdate": "1992-11-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Reptar on Ice / Family Feud",
+          "airdate": "1992-11-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Superhero Chuckie / The Dog Broomer",
+          "airdate": "1992-11-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Aunt Miriam / The Inside Story",
+          "airdate": "1992-11-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "A Visit from Lipschitz / What the Big People Do",
+          "airdate": "1992-11-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "The Santa Experience",
+          "airdate": "1992-12-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Visitors from Outer Space / The Case of the Missing Rugrat",
+          "airdate": "1992-12-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Chuckie Loses His Glasses / Chuckie Gets Skunked",
+          "airdate": "1992-12-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Rebel Without a Teddy Bear / Angelica the Magnificent",
+          "airdate": "1993-01-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Meet the Carmichaels / The Box",
+          "airdate": "1993-01-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Down the Drain / Let Them Eat Cake",
+          "airdate": "1993-02-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "The Seven Voyages of Cynthia / My Friend Barney",
+          "airdate": "1993-03-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Feeding Hubert / Spike the Wonder Dog",
+          "airdate": "1993-03-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "The Slide / The Big Flush",
+          "airdate": "1993-03-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "King Ten Pin / Runaway Angelica",
+          "airdate": "1993-04-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "Game Show Didi / Toys in the Attic",
+          "airdate": "1993-04-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 25,
+          "name": "Driving Miss Angelica / Susie vs. Angelica",
+          "airdate": "1993-05-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 26,
+          "name": "Tooth or Dare / Party Animals",
+          "airdate": "1993-05-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Dummi Bear Dinner Disaster / Twins Pique",
+          "airdate": "1993-09-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Chuckie's First Haircut / Cool Hand Angelica",
+          "airdate": "1993-10-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Tricycle Thief / Rhinoceritis!",
+          "airdate": "1993-10-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Grandpa Moves Out / The Legend of Satchmo",
+          "airdate": "1993-10-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Circus Angelicus / The Stork",
+          "airdate": "1993-10-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "The Baby Vanishes / Farewell, My Friend",
+          "airdate": "1993-10-31",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "When Wishes Come True / Angelica Breaks a Leg",
+          "airdate": "1993-11-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "The Last Babysitter / Sour Pickles",
+          "airdate": "1993-11-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Reptar 2010 / Stu Gets a Job",
+          "airdate": "1993-11-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Give and Take / The Gold Rush",
+          "airdate": "1993-11-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Home Movies / The Mysterious Mr. Friend",
+          "airdate": "1993-12-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Cuffed / The Blizzard",
+          "airdate": "1993-12-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Destination: Moon / Angelica's Birthday",
+          "airdate": "1993-12-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Princess Angelica / The Odd Couple",
+          "airdate": "1993-12-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Naked Tommy / Tommy and the Secret Club",
+          "airdate": "1994-01-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Under Chuckie's Bed / Chuckie Is Rich",
+          "airdate": "1994-01-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Mommy's Little Assets / Chuckie's Wonderful Life",
+          "airdate": "1994-02-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "In the Dreamtime / The Unfair Pair",
+          "airdate": "1994-02-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Chuckie's Red Hair / Spike Runs Away",
+          "airdate": "1994-02-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "The Alien / Mr. Clean",
+          "airdate": "1994-03-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Angelica's Worst Nightmare / The Mega Diaper Babies",
+          "airdate": "1994-03-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "New Kid in Town / Pickles vs. Pickles",
+          "airdate": "1994-04-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "Kid TV / The Sky Is Falling",
+          "airdate": "1994-05-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "I Remember Melville / No More Cookies",
+          "airdate": "1994-05-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 25,
+          "name": "Cradle Attraction / Moving Away",
+          "airdate": "1994-05-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 26,
+          "name": "A Rugrats Passover",
+          "airdate": "1994-05-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 4,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Chanukah",
+          "airdate": "1996-12-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Mother's Day",
+          "airdate": "1997-05-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Vacation",
+          "airdate": "1997-05-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Spike's Babies / Chicken Pops",
+          "airdate": "1997-08-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Radio Daze / Psycho Angelica",
+          "airdate": "1997-08-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "America's Wackiest Home Movies / The 'Lympics",
+          "airdate": "1997-09-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "The Carwash / Heatwave",
+          "airdate": "1997-09-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Faire Play / The Smell of Sucess",
+          "airdate": "1997-09-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Dust Bunnies / Educating Angelica",
+          "airdate": "1997-09-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Angelica's Last Stand / Clan of the Duck",
+          "airdate": "1997-10-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Potty Training Spike / The Art Fair",
+          "airdate": "1997-10-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Send in the Clouds / In the Naval",
+          "airdate": "1997-10-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "The Turkey Who Came to Dinner",
+          "airdate": "1997-10-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "The Matress / Looking for Jack",
+          "airdate": "1997-11-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Ransom of Cynthia / Turtle Recall",
+          "airdate": "1997-11-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Angelica Orders Out / Let It Snow",
+          "airdate": "1997-11-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Angelica Nose Best / Pirate Light",
+          "airdate": "1997-11-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 5,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Grandpa's Bad Bug / Lady Luck",
+          "airdate": "1997-11-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Hiccups / Autumn Leaves",
+          "airdate": "1997-12-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Crime and Punishment / Baby Maybe",
+          "airdate": "1997-12-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Word of the Day / Johnathan Babysits",
+          "airdate": "1997-12-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "He Saw, She Saw / Piggy's Pizza Palace",
+          "airdate": "1997-12-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Babysitting Fluffy / Sleep Trouble",
+          "airdate": "1998-08-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Fugitive Tommy / Visiting Aunt Miriam",
+          "airdate": "1998-08-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "The First Cut / Chuckie Grows",
+          "airdate": "1998-08-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "The Wild Wild West / Angelica for a Day",
+          "airdate": "1998-08-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Uneasy Rider / Where's Grandpa?",
+          "airdate": "1998-08-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Journey to the Center of the Basement / A Very McNulty Birthday",
+          "airdate": "1998-09-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "The Family Tree",
+          "airdate": "1998-09-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 6,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Chuckie's Duckling / A Dog's Life",
+          "airdate": "1998-11-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Chuckerfly / Angelica's Twin",
+          "airdate": "1998-11-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Raising Dil / No Naps",
+          "airdate": "1998-12-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Man of the House / A Whole New Stu",
+          "airdate": "1998-12-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Submarine / Chuckie's a Lefty",
+          "airdate": "1998-12-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Baking Dil / Hair!",
+          "airdate": "1998-12-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Zoo Story / I Do",
+          "airdate": "1999-01-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "The Magic Baby / Dil We Meet Again",
+          "airdate": "1999-01-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Hand Me Downs / Angelica's Ballet",
+          "airdate": "1999-01-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Opposites Attract / The Art Museum",
+          "airdate": "1999-02-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Pedal Pusher / Music",
+          "airdate": "1999-03-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "The Jungle / The Old Country",
+          "airdate": "1999-03-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Ghost Story / Chuckie's Complaint",
+          "airdate": "1999-03-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Silent Angelica / Tie My Shoes",
+          "airdate": "1999-04-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Chuckie's Bachelor Pad / Junior Prom",
+          "airdate": "1999-04-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "All's Well That Pretends Well / Big Babies",
+          "airdate": "1999-04-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Whats Your Line? / Two by Two",
+          "airdate": "1999-04-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Wrestling Grandpa / Chuckie Collects",
+          "airdate": "1999-05-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Runaway Reptar",
+          "airdate": "1999-05-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 7,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "No Place Like Home",
+          "airdate": "1999-10-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Share and Share a Spike / Tommy for Mayor",
+          "airdate": "1999-10-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Brothers Are Monsters / Cooking with Susie",
+          "airdate": "1999-10-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Planting Dil / The Joke's on You",
+          "airdate": "1999-10-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Officer Chuckie / Auctioning Grandpa",
+          "airdate": "1999-10-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Partners in Crime / Thumb's Up",
+          "airdate": "1999-11-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "The Big Showdown / Doctor Susie",
+          "airdate": "1999-11-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Accidents Happen / Pee Wee Scouts",
+          "airdate": "1999-12-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "The Incredible Shrinking Babies / Miss Manners",
+          "airdate": "2000-01-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Chuckie's New Shirt / Cavebabies",
+          "airdate": "2000-03-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "A Dose of Dil / Famous Babies",
+          "airdate": "2000-05-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 8,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Be My Valentine",
+          "airdate": "2000-02-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Discover America",
+          "airdate": "2000-03-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Acorn Nuts and Diapey Butts",
+          "airdate": "2000-11-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Rugrats in Paris Mini-Documentary",
+          "airdate": "2000-11-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Angelicon / Dil's Binkie / Big Brother Chuckie",
+          "airdate": "2001-01-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Finsterella",
+          "airdate": "2001-01-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Sister Act / Spike's Nightscare / Cuddle Bunny",
+          "airdate": "2001-01-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Changes for Chuckie / The Magic Show / A Lulu of a Time",
+          "airdate": "2001-02-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Dayscare / The Great Unknown / Falling Stars",
+          "airdate": "2001-02-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Cat Got Your Tongue? / The War Room / Attention Please",
+          "airdate": "2001-02-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "And the Winner Is... / Dil's Bathtime / Bigger Than Life",
+          "airdate": "2001-03-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Day of the Potty / Tell-Tale Cell Phone / The Time of Their Lives",
+          "airdate": "2001-03-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "My Fair Babies / The Way Things Work / Home Sweet Home",
+          "airdate": "2001-03-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Dil Saver / Cooking with Phil & Lil / Piece of Cake",
+          "airdate": "2001-04-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Bad Shoes / The World According to Dil & Spike / Wash-Dry Story",
+          "airdate": "2001-04-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Adventure Squad / The Way More Things Work / Talk of the Town",
+          "airdate": "2001-04-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "All Growed Up",
+          "airdate": "2001-07-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "A Rugrats Kwanzaa",
+          "airdate": "2001-12-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "The Doctor Is In / The Big Sneeze",
+          "airdate": "2002-02-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "The Fun Way Day / The Age of Aquarium",
+          "airdate": "2002-02-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Daddy's Little Helpers / Hello Dilly",
+          "airdate": "2002-03-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "Bow Wow Wedding Vows",
+          "airdate": "2002-03-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "Cynthia Comes Alive / Trading Phil",
+          "airdate": "2002-04-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 25,
+          "name": "A Tale of Two Puppies / Okey-Dokey Jones and the Ring of the Sunbeams",
+          "airdate": "2002-06-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 26,
+          "name": "Curse of the Werewuff",
+          "airdate": "2002-10-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 27,
+          "name": "Quiet, Please / Early Retirement",
+          "airdate": "2002-02-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 9,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Happy Taffy/Imagine That",
+          "airdate": "2002-09-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Bug Off / The Crawl Space",
+          "airdate": "2002-09-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Starstruck / Who's Taffy?",
+          "airdate": "2002-09-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Diapies and Dragons / Baby Power",
+          "airdate": "2002-10-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "They Came from the Backyard / Lil's Phil of Trash",
+          "airdate": "2002-10-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Fountain of Youth / Kimi Takes the Cake",
+          "airdate": "2002-10-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Bestest of Show / Hold the Pickles",
+          "airdate": "2002-11-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Mutts in a Name / Hurricane Alice",
+          "airdate": "2002-11-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "The Perfect Twins",
+          "airdate": "2002-11-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Babies in Toyland",
+          "airdate": "2002-12-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "A Step at a Time / Angelica's Assistant",
+          "airdate": "2003-01-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Back to School / Sweet Dreams",
+          "airdate": "2003-01-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Clown Around / The Baby Rewards",
+          "airdate": "2003-01-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Baby Sale / Steve",
+          "airdate": "2003-02-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Club Fred",
+          "airdate": "2003-09-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "The Bravliest Baby / Gimme an \"A\"",
+          "airdate": "2004-06-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    }
+  ]
+}

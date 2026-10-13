@@ -1,0 +1,1498 @@
+{
+  "show": "Eureka",
+  "slug": "eureka",
+  "type": "Sci-Fi, Fantasy and Horror",
+  "network": "Sci-Fi Channel",
+  "matchedAt": "2026-10-13T07:46:17.463Z",
+  "tvmaze": {
+    "id": 542,
+    "name": "Eureka",
+    "runtime": 60,
+    "premiered": "2006-07-18",
+    "network": "Syfy"
+  },
+  "coverage": {
+    "total": 76,
+    "live": 68,
+    "review": 1,
+    "missing": 7,
+    "pct": 91
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Pilot",
+          "airdate": "2006-07-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Many Happy Returns",
+          "airdate": "2006-07-25",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S01E02 Many Happy Returns.mp4",
+            "name": "Eureka/S01E02 Many Happy Returns",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS01E02%20Many%20Happy%20Returns.mp4",
+            "seconds": 2563,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 255
+          },
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Before I Forget",
+          "airdate": "2006-08-01",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S01E03 Before I Forget.mp4",
+            "name": "Eureka/S01E03 Before I Forget",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS01E03%20Before%20I%20Forget.mp4",
+            "seconds": 2623,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 260
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Alienated",
+          "airdate": "2006-08-08",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S01E04 Alienated.mp4",
+            "name": "Eureka/S01E04 Alienated",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS01E04%20Alienated.mp4",
+            "seconds": 2619,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 261
+          },
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Invincible",
+          "airdate": "2006-08-15",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S01E05 Invincible.mp4",
+            "name": "Eureka/S01E05 Invincible",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS01E05%20Invincible.mp4",
+            "seconds": 2619,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 260
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Dr. Nobel",
+          "airdate": "2006-08-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Blink",
+          "airdate": "2006-08-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Right as Raynes",
+          "airdate": "2006-09-05",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S01E08 Right as Raynes.mp4",
+            "name": "Eureka/S01E08 Right as Raynes",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS01E08%20Right%20as%20Raynes.mp4",
+            "seconds": 2612,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 259
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Primal",
+          "airdate": "2006-09-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Purple Haze",
+          "airdate": "2006-09-19",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S01E10 Purple Haze.mp4",
+            "name": "Eureka/S01E10 Purple Haze",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS01E10%20Purple%20Haze.mp4",
+            "seconds": 2608,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 259
+          },
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "H.O.U.S.E. Rules",
+          "airdate": "2006-09-26",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S01E11 H.O.U.S.E. Rules.mp4",
+            "name": "Eureka/S01E11 H.O.U.S.E. Rules",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS01E11%20H.O.U.S.E.%20Rules.mp4",
+            "seconds": 2606,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 261
+          },
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Once in a Lifetime",
+          "airdate": "2006-10-03",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S01E12 Once in a Lifetime.mp4",
+            "name": "Eureka/S01E12 Once in a Lifetime",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS01E12%20Once%20in%20a%20Lifetime.mp4",
+            "seconds": 2624,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 259
+          },
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Phoenix Rising",
+          "airdate": "2007-07-10",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S02E01 Phoenix Rising.mp4",
+            "name": "Eureka/S02E01 Phoenix Rising",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS02E01%20Phoenix%20Rising.mp4",
+            "seconds": 2623,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 258
+          },
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Try Try Again",
+          "airdate": "2007-07-17",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S02E02 Try, Try Again.mp4",
+            "name": "Eureka/S02E02 Try, Try Again",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS02E02%20Try%2C%20Try%20Again.mp4",
+            "seconds": 2616,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 259
+          },
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Unpredictable",
+          "airdate": "2007-07-24",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S02E03 Unpredictable.mp4",
+            "name": "Eureka/S02E03 Unpredictable",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS02E03%20Unpredictable.mp4",
+            "seconds": 2621,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 257
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Games People Play",
+          "airdate": "2007-07-31",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S02E04 Games People Play.mp4",
+            "name": "Eureka/S02E04 Games People Play",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS02E04%20Games%20People%20Play.mp4",
+            "seconds": 2594,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 255
+          },
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Duck, Duck Goose",
+          "airdate": "2007-08-07",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S02E05 Duck, Duck Goose.mp4",
+            "name": "Eureka/S02E05 Duck, Duck Goose",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS02E05%20Duck%2C%20Duck%20Goose.mp4",
+            "seconds": 2542,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 249
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Noche de Suenos",
+          "airdate": "2007-08-14",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S02E06 Noche de suenos (Night of Dreams).mp4",
+            "name": "Eureka/S02E06 Noche de suenos (Night of Dreams)",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS02E06%20Noche%20de%20suenos%20(Night%20of%20Dreams).mp4",
+            "seconds": 2590,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 255
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Family Reunion",
+          "airdate": "2007-08-21",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S02E07 Family Reunion.mp4",
+            "name": "Eureka/S02E07 Family Reunion",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS02E07%20Family%20Reunion.mp4",
+            "seconds": 2616,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 257
+          },
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "E=MC...?",
+          "airdate": "2007-08-28",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S02E08 E=MC....mp4",
+            "name": "Eureka/S02E08 E=MC...",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS02E08%20E%3DMC....mp4",
+            "seconds": 2617,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 257
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Sight Unseen",
+          "airdate": "2007-09-04",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S02E09 Sight Unseen.mp4",
+            "name": "Eureka/S02E09 Sight Unseen",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS02E09%20Sight%20Unseen.mp4",
+            "seconds": 2618,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 257
+          },
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "God Is in the Details",
+          "airdate": "2007-09-11",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S02E10 God Is in the Details.mp4",
+            "name": "Eureka/S02E10 God Is in the Details",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS02E10%20God%20Is%20in%20the%20Details.mp4",
+            "seconds": 2618,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 255
+          },
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Maneater",
+          "airdate": "2007-09-18",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S02E11 Maneater.mp4",
+            "name": "Eureka/S02E11 Maneater",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS02E11%20Maneater.mp4",
+            "seconds": 2578,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 251
+          },
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "All That Glitters",
+          "airdate": "2007-09-25",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S02E12 All That Glitters.mp4",
+            "name": "Eureka/S02E12 All That Glitters",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS02E12%20All%20That%20Glitters.mp4",
+            "seconds": 2623,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 258
+          },
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "A Night at Global Dynamics",
+          "airdate": "2007-10-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Bad to the Drone",
+          "airdate": "2008-07-29",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S03E01 Bad to the Drone.mp4",
+            "name": "Eureka/S03E01 Bad to the Drone",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS03E01%20Bad%20to%20the%20Drone.mp4",
+            "seconds": 2577,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 257
+          },
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "What About Bob?",
+          "airdate": "2008-08-05",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S03E02 What About Bob.mp4",
+            "name": "Eureka/S03E02 What About Bob",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS03E02%20What%20About%20Bob.mp4",
+            "seconds": 2589,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 258
+          },
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Best in Faux",
+          "airdate": "2008-08-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "I Do Over",
+          "airdate": "2008-08-19",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S03E04 I Do Over.mp4",
+            "name": "Eureka/S03E04 I Do Over",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS03E04%20I%20Do%20Over.mp4",
+            "seconds": 2590,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 258
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"I Do Over\" (0.63)",
+              "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+              "itemTitle": "eureka",
+              "file": "Eureka/S04E21 Do You See What I See ( Christmas Special).mp4",
+              "name": "Eureka/S04E21 Do You See What I See ( Christmas Special)",
+              "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS04E21%20Do%20You%20See%20What%20I%20See%20(%20Christmas%20Special).mp4",
+              "seconds": 2578,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 254
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "name": "Show Me the Mummy",
+          "airdate": "2008-08-26",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S03E05 Show Me the Mummy.mp4",
+            "name": "Eureka/S03E05 Show Me the Mummy",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS03E05%20Show%20Me%20the%20Mummy.mp4",
+            "seconds": 2592,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 259
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Phased and Confused",
+          "airdate": "2008-09-09",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S03E06 Phased and Confused.mp4",
+            "name": "Eureka/S03E06 Phased and Confused",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS03E06%20Phased%20and%20Confused.mp4",
+            "seconds": 2579,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 258
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Here Come the Suns",
+          "airdate": "2008-09-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "From Fear to Eternity",
+          "airdate": "2008-09-23",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S03E08 From Fear to Eternity.mp4",
+            "name": "Eureka/S03E08 From Fear to Eternity",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS03E08%20From%20Fear%20to%20Eternity.mp4",
+            "seconds": 2589,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 255
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Welcome Back Carter",
+          "airdate": "2009-07-10",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S03E09 Welcome Back, Carter.mp4",
+            "name": "Eureka/S03E09 Welcome Back, Carter",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS03E09%20Welcome%20Back%2C%20Carter.mp4",
+            "seconds": 2595,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 258
+          },
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Your Face or Mine",
+          "airdate": "2009-07-17",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S03E10 Your Face or Mine.mp4",
+            "name": "Eureka/S03E10 Your Face or Mine",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS03E10%20Your%20Face%20or%20Mine.mp4",
+            "seconds": 2587,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 260
+          },
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Insane in the P-Brane",
+          "airdate": "2009-07-24",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S03E11 Insane in the P-Brane.mp4",
+            "name": "Eureka/S03E11 Insane in the P-Brane",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS03E11%20Insane%20in%20the%20P-Brane.mp4",
+            "seconds": 2595,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 262
+          },
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "It's Not Easy Being Green",
+          "airdate": "2009-07-31",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S03E12 It's Not Easy Being Green.mp4",
+            "name": "Eureka/S03E12 It's Not Easy Being Green",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS03E12%20It's%20Not%20Easy%20Being%20Green.mp4",
+            "seconds": 2593,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 262
+          },
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "If You Build It...",
+          "airdate": "2009-08-07",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S03E13 If You Build It....mp4",
+            "name": "Eureka/S03E13 If You Build It...",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS03E13%20If%20You%20Build%20It....mp4",
+            "seconds": 2588,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 261
+          },
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Ship Happens",
+          "airdate": "2009-08-14",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S03E14 Ship Happens.mp4",
+            "name": "Eureka/S03E14 Ship Happens",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS03E14%20Ship%20Happens.mp4",
+            "seconds": 2593,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 262
+          },
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Shower the People",
+          "airdate": "2009-08-21",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S03E15 Shower the People.mp4",
+            "name": "Eureka/S03E15 Shower the People",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS03E15%20Shower%20the%20People.mp4",
+            "seconds": 2594,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 261
+          },
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "You Don't Know Jack",
+          "airdate": "2009-08-28",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S03E16 You Don't Know Jack.mp4",
+            "name": "Eureka/S03E16 You Don't Know Jack",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS03E16%20You%20Don't%20Know%20Jack.mp4",
+            "seconds": 2542,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 256
+          },
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Have an Ice Day",
+          "airdate": "2009-09-11",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S03E17 Have an Ice Day.mp4",
+            "name": "Eureka/S03E17 Have an Ice Day",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS03E17%20Have%20an%20Ice%20Day.mp4",
+            "seconds": 2588,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 259
+          },
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "What Goes Around, Comes Around",
+          "airdate": "2009-09-18",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S03E18 What Goes Around Comes Around.mp4",
+            "name": "Eureka/S03E18 What Goes Around Comes Around",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS03E18%20What%20Goes%20Around%20Comes%20Around.mp4",
+            "seconds": 2594,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 262
+          },
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 4,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Founder's Day",
+          "airdate": "2010-07-09",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S04E01 Founders Day.mp4",
+            "name": "Eureka/S04E01 Founders Day",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS04E01%20Founders%20Day.mp4",
+            "seconds": 2593,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 261
+          },
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "A New World",
+          "airdate": "2010-07-16",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S04E02 A New World.mp4",
+            "name": "Eureka/S04E02 A New World",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS04E02%20A%20New%20World.mp4",
+            "seconds": 2593,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 261
+          },
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "All the Rage",
+          "airdate": "2010-07-23",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S04E03 All the Rage.mp4",
+            "name": "Eureka/S04E03 All the Rage",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS04E03%20All%20the%20Rage.mp4",
+            "seconds": 2592,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 261
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "The Story of O2",
+          "airdate": "2010-07-30",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S04E04 The Story of O2.mp4",
+            "name": "Eureka/S04E04 The Story of O2",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS04E04%20The%20Story%20of%20O2.mp4",
+            "seconds": 2594,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 261
+          },
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Crossing Over",
+          "airdate": "2010-08-06",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S04E05 Crossing Over.mp4",
+            "name": "Eureka/S04E05 Crossing Over",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS04E05%20Crossing%20Over.mp4",
+            "seconds": 2587,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 256
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Momstrosity",
+          "airdate": "2010-08-13",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S04E06 Momstrosity.mp4",
+            "name": "Eureka/S04E06 Momstrosity",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS04E06%20Momstrosity.mp4",
+            "seconds": 2589,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 262
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Stoned",
+          "airdate": "2010-08-20",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S04E07 Stoned.mp4",
+            "name": "Eureka/S04E07 Stoned",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS04E07%20Stoned.mp4",
+            "seconds": 2564,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 258
+          },
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "The Ex-files",
+          "airdate": "2010-08-27",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.6,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S04E08 The Ex-Files.mp4",
+            "name": "Eureka/S04E08 The Ex-Files",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS04E08%20The%20Ex-Files.mp4",
+            "seconds": 2594,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 259
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "I'll Be Seeing You",
+          "airdate": "2010-09-10",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S04E09 Ill Be Seeing You.mp4",
+            "name": "Eureka/S04E09 Ill Be Seeing You",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS04E09%20Ill%20Be%20Seeing%20You.mp4",
+            "seconds": 2593,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 261
+          },
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "O' Little Town...",
+          "airdate": "2010-12-07",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S04E10 Oh Little Town.mp4",
+            "name": "Eureka/S04E10 Oh Little Town",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS04E10%20Oh%20Little%20Town.mp4",
+            "seconds": 2594,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 257
+          },
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Liftoff",
+          "airdate": "2011-07-11",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S04E11 Liftoff.mp4",
+            "name": "Eureka/S04E11 Liftoff",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS04E11%20Liftoff.mp4",
+            "seconds": 2559,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 259
+          },
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Reprise",
+          "airdate": "2011-07-18",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S04E12 Reprise.mp4",
+            "name": "Eureka/S04E12 Reprise",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS04E12%20Reprise.mp4",
+            "seconds": 2578,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 256
+          },
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Glimpse",
+          "airdate": "2011-07-25",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S04E13 Glimpse.mp4",
+            "name": "Eureka/S04E13 Glimpse",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS04E13%20Glimpse.mp4",
+            "seconds": 2613,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 260
+          },
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Up in the Air",
+          "airdate": "2011-08-01",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S04E14 Up in the Air.mp4",
+            "name": "Eureka/S04E14 Up in the Air",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS04E14%20Up%20in%20the%20Air.mp4",
+            "seconds": 2579,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 256
+          },
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Omega Girls",
+          "airdate": "2011-08-08",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S04E15 Omega Girls.mp4",
+            "name": "Eureka/S04E15 Omega Girls",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS04E15%20Omega%20Girls.mp4",
+            "seconds": 2559,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 258
+          },
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Of Mites and Men",
+          "airdate": "2011-08-15",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S04E16 Of Mites and Men.mp4",
+            "name": "Eureka/S04E16 Of Mites and Men",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS04E16%20Of%20Mites%20and%20Men.mp4",
+            "seconds": 2559,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 259
+          },
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Clash of the Titans",
+          "airdate": "2011-08-22",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S04E17 Clash of the Titans.mp4",
+            "name": "Eureka/S04E17 Clash of the Titans",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS04E17%20Clash%20of%20the%20Titans.mp4",
+            "seconds": 2578,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 257
+          },
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "This One Time at Space Camp…",
+          "airdate": "2011-08-29",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S04E18 This One Time at Space Camp.mp4",
+            "name": "Eureka/S04E18 This One Time at Space Camp",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS04E18%20This%20One%20Time%20at%20Space%20Camp.mp4",
+            "seconds": 2580,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 256
+          },
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "One Small Step",
+          "airdate": "2011-09-12",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S04E19 One Small Step.mp4",
+            "name": "Eureka/S04E19 One Small Step",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS04E19%20One%20Small%20Step.mp4",
+            "seconds": 2557,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 254
+          },
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "One Giant Leap",
+          "airdate": "2011-09-19",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S04E20 One Giant Leap.mp4",
+            "name": "Eureka/S04E20 One Giant Leap",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS04E20%20One%20Giant%20Leap.mp4",
+            "seconds": 2558,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 254
+          },
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 5,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Lost",
+          "airdate": "2012-04-16",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S05E01 Lost.mp4",
+            "name": "Eureka/S05E01 Lost",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS05E01%20Lost.mp4",
+            "seconds": 2559,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 259
+          },
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "The Real Thing",
+          "airdate": "2012-04-23",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S05E02 The Real Thing.mp4",
+            "name": "Eureka/S05E02 The Real Thing",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS05E02%20The%20Real%20Thing.mp4",
+            "seconds": 2559,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 258
+          },
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Force Quit",
+          "airdate": "2012-04-30",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S05E03 Force Quit.mp4",
+            "name": "Eureka/S05E03 Force Quit",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS05E03%20Force%20Quit.mp4",
+            "seconds": 2577,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 252
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Friendly Fire",
+          "airdate": "2012-05-07",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S05E04 Friendly Fire.mp4",
+            "name": "Eureka/S05E04 Friendly Fire",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS05E04%20Friendly%20Fire.mp4",
+            "seconds": 2575,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 254
+          },
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Jack of All Trades",
+          "airdate": "2012-05-14",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S05E05 Jack of All Trades.mp4",
+            "name": "Eureka/S05E05 Jack of All Trades",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS05E05%20Jack%20of%20All%20Trades.mp4",
+            "seconds": 2554,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 252
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Worst Case Scenario",
+          "airdate": "2012-05-21",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S05E06 Worst Case Scenario.mp4",
+            "name": "Eureka/S05E06 Worst Case Scenario",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS05E06%20Worst%20Case%20Scenario.mp4",
+            "seconds": 2526,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 249
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Ex-Machina",
+          "airdate": "2012-06-04",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S05E07 Ex-Machina.mp4",
+            "name": "Eureka/S05E07 Ex-Machina",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS05E07%20Ex-Machina.mp4",
+            "seconds": 2558,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 252
+          },
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "In Too Deep",
+          "airdate": "2012-06-11",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S05E08 In Too Deep.mp4",
+            "name": "Eureka/S05E08 In Too Deep",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS05E08%20In%20Too%20Deep.mp4",
+            "seconds": 2555,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 252
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Smarter Carter",
+          "airdate": "2012-06-18",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S05E09 Smarter Carter.mp4",
+            "name": "Eureka/S05E09 Smarter Carter",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS05E09%20Smarter%20Carter.mp4",
+            "seconds": 2579,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 253
+          },
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "The Honeymooners",
+          "airdate": "2012-06-25",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S05E10 The Honeymooners.mp4",
+            "name": "Eureka/S05E10 The Honeymooners",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS05E10%20The%20Honeymooners.mp4",
+            "seconds": 2577,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 254
+          },
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Mirror, Mirror",
+          "airdate": "2012-07-02",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S05E11 Mirror, Mirror.mp4",
+            "name": "Eureka/S05E11 Mirror, Mirror",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS05E11%20Mirror%2C%20Mirror.mp4",
+            "seconds": 2559,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 252
+          },
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Double Take",
+          "airdate": "2012-07-09",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S05E12 Double Take.mp4",
+            "name": "Eureka/S05E12 Double Take",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS05E12%20Double%20Take.mp4",
+            "seconds": 2558,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 246
+          },
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Just Another Day",
+          "airdate": "2012-07-16",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "A9A47AC8E2A6491CAC3F2761E7EB743A",
+            "itemTitle": "eureka",
+            "file": "Eureka/S05E13 Just Another Day.mp4",
+            "name": "Eureka/S05E13 Just Another Day",
+            "url": "https://archive.org/download/A9A47AC8E2A6491CAC3F2761E7EB743A/Eureka%2FS05E13%20Just%20Another%20Day.mp4",
+            "seconds": 2557,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 252
+          },
+          "alternates": []
+        }
+      ]
+    }
+  ]
+}

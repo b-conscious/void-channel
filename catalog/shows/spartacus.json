@@ -1,0 +1,364 @@
+{
+  "show": "Spartacus",
+  "slug": "spartacus",
+  "type": "Drama",
+  "network": "Starz",
+  "matchedAt": "2026-10-13T07:46:16.737Z",
+  "tvmaze": {
+    "id": 716,
+    "name": "Spartacus",
+    "runtime": 60,
+    "premiered": "2010-01-22",
+    "network": "STARZ"
+  },
+  "coverage": {
+    "total": 33,
+    "live": 4,
+    "review": 0,
+    "missing": 29,
+    "pct": 12
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "The Red Serpent",
+          "airdate": "2010-01-22",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "spartacus.-house.of.-ashur.-s-01-e-01.-dominus.-720p.-amzn.-web-dl.x-264.-esub.-hollymoviehd",
+            "itemTitle": "Spartacus. House.of. Ashur. S 01 E 01. DOMINUS. 720p. AMZN. WEB DL.x 264. ESub. Hollymoviehd",
+            "file": "Spartacus.House.of.Ashur.S01E01.DOMINUS.720p.AMZN.WEB-DL.x264.ESub.Hollymoviehd.mp4",
+            "name": "Spartacus.House.of.Ashur.S01E01.DOMINUS.720p.AMZN.WEB-DL.x264.ESub.Hollymoviehd",
+            "url": "https://archive.org/download/spartacus.-house.of.-ashur.-s-01-e-01.-dominus.-720p.-amzn.-web-dl.x-264.-esub.-hollymoviehd/Spartacus.House.of.Ashur.S01E01.DOMINUS.720p.AMZN.WEB-DL.x264.ESub.Hollymoviehd.mp4",
+            "seconds": 3501,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 611
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "spartacus-blood-and-sand-motion-comic",
+              "itemTitle": "Spartacus Blood And Sand: The Motion Comic",
+              "file": "Spartacus Blood and Sand S1 E01 - Upon the Sands of Vengeance.mp4",
+              "name": "Spartacus Blood and Sand S1 E01 - Upon the Sands of Vengeance",
+              "url": "https://archive.org/download/spartacus-blood-and-sand-motion-comic/Spartacus%20Blood%20and%20Sand%20S1%20E01%20-%20Upon%20the%20Sands%20of%20Vengeance.mp4",
+              "seconds": 3296,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 329
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "Sacramentum Gladiatorum",
+          "airdate": "2010-01-29",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "spartacus-blood-and-sand-motion-comic",
+            "itemTitle": "Spartacus Blood And Sand: The Motion Comic",
+            "file": "Spartacus Blood and Sand S1 E02 - Shadows of the Jackal.mp4",
+            "name": "Spartacus Blood and Sand S1 E02 - Shadows of the Jackal",
+            "url": "https://archive.org/download/spartacus-blood-and-sand-motion-comic/Spartacus%20Blood%20and%20Sand%20S1%20E02%20-%20Shadows%20of%20the%20Jackal.mp4",
+            "seconds": 3168,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 316
+          },
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Legends",
+          "airdate": "2010-02-05",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "spartacus-blood-and-sand-motion-comic",
+            "itemTitle": "Spartacus Blood And Sand: The Motion Comic",
+            "file": "Spartacus Blood and Sand S1 E03 - The Beast of Carthage.mp4",
+            "name": "Spartacus Blood and Sand S1 E03 - The Beast of Carthage",
+            "url": "https://archive.org/download/spartacus-blood-and-sand-motion-comic/Spartacus%20Blood%20and%20Sand%20S1%20E03%20-%20The%20Beast%20of%20Carthage.mp4",
+            "seconds": 3310,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 330
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "The Thing In the Pit",
+          "airdate": "2010-02-12",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "spartacus-blood-and-sand-motion-comic",
+            "itemTitle": "Spartacus Blood And Sand: The Motion Comic",
+            "file": "Spartacus Blood and Sand S1 E04 - The Shadow of Death.mp4",
+            "name": "Spartacus Blood and Sand S1 E04 - The Shadow of Death",
+            "url": "https://archive.org/download/spartacus-blood-and-sand-motion-comic/Spartacus%20Blood%20and%20Sand%20S1%20E04%20-%20The%20Shadow%20of%20Death.mp4",
+            "seconds": 2950,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 295
+          },
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Shadow Games",
+          "airdate": "2010-02-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Delicate Things",
+          "airdate": "2010-02-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Great and Unfortunate Things",
+          "airdate": "2010-03-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Mark of the Brotherhood",
+          "airdate": "2010-03-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Whore",
+          "airdate": "2010-03-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Party Favors",
+          "airdate": "2010-03-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Old Wounds",
+          "airdate": "2010-04-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Revelations",
+          "airdate": "2010-04-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Kill Them All",
+          "airdate": "2010-04-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Fugitivus",
+          "airdate": "2012-01-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "A Place in This World",
+          "airdate": "2012-02-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "The Greater Good",
+          "airdate": "2012-02-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Empty Hands",
+          "airdate": "2012-02-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Libertus",
+          "airdate": "2012-02-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Chosen Path",
+          "airdate": "2012-03-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Sacramentum",
+          "airdate": "2012-03-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Balance",
+          "airdate": "2012-03-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Monsters",
+          "airdate": "2012-03-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Wrath of the Gods",
+          "airdate": "2012-03-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Enemies of Rome",
+          "airdate": "2013-01-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Wolves at the Gate",
+          "airdate": "2013-02-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Men of Honor",
+          "airdate": "2013-02-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Decimation",
+          "airdate": "2013-02-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Blood Brothers",
+          "airdate": "2013-03-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Spoils of War",
+          "airdate": "2013-03-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Mors Indecepta",
+          "airdate": "2013-03-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Separate Paths",
+          "airdate": "2013-03-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "The Dead and the Dying",
+          "airdate": "2013-04-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Victory",
+          "airdate": "2013-04-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    }
+  ]
+}

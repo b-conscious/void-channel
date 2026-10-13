@@ -1,0 +1,1228 @@
+{
+  "show": "Minoriteam",
+  "slug": "minoriteam",
+  "type": "Adult Swim",
+  "network": "Adult Swim",
+  "matchedAt": "2026-10-13T07:46:15.852Z",
+  "tvmaze": {
+    "id": 33020,
+    "name": "Minoriteam",
+    "runtime": 15,
+    "premiered": "2005-11-06",
+    "network": "Adult Swim"
+  },
+  "coverage": {
+    "total": 20,
+    "live": 20,
+    "review": 0,
+    "missing": 0,
+    "pct": 100
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Operation Blackout",
+          "airdate": "2005-11-06",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "Minoriteam",
+            "itemTitle": "Minoriteam Season 1",
+            "file": "Minoriteam - S01E01 - Operation Blackout.mp4",
+            "name": "Minoriteam - S01E01 - Operation Blackout",
+            "url": "https://archive.org/download/Minoriteam/Minoriteam%20-%20S01E01%20-%20Operation%20Blackout.mp4",
+            "seconds": 698,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 67
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "minoriteam-s-01e-01-operation-blackout-rtv",
+              "itemTitle": "Minoriteam - Operation Blackout (2005 Pilot)",
+              "file": "Minoriteam - s01e01 - Operation Blackout [RTV!].mp4",
+              "name": "Minoriteam - s01e01 - Operation Blackout [RTV!]",
+              "url": "https://archive.org/download/minoriteam-s-01e-01-operation-blackout-rtv/Minoriteam%20-%20s01e01%20-%20Operation%20Blackout%20%5BRTV!%5D.mp4",
+              "seconds": 698,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 67
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "minoriteam.s01e01.tribe..prejudice.4k.upgrayedd",
+              "itemTitle": "minoriteam.s01e01.Tribe.&.Prejudice.4K.UPGRAYEDD",
+              "file": "Minoriteam.S01e01.Tribe.&.Prejudice.4K.Upgrayedd.mp4",
+              "name": "Minoriteam.S01e01.Tribe.&.Prejudice.4K.Upgrayedd",
+              "url": "https://archive.org/download/minoriteam.s01e01.tribe..prejudice.4k.upgrayedd/Minoriteam.S01e01.Tribe.%26.Prejudice.4K.Upgrayedd.mp4",
+              "seconds": 683,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 2750
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "minoriteam-s-01-e-12-the-internet",
+              "itemTitle": "Random [adult swim] recordings and lost media from here and myspleen , personal collection  Part 2",
+              "file": "Minoriteam - S01 E01 - Tribe and Prejudice.mp4",
+              "name": "Minoriteam - S01 E01 - Tribe and Prejudice",
+              "url": "https://archive.org/download/minoriteam-s-01-e-12-the-internet/Minoriteam%20-%20S01%20E01%20-%20Tribe%20and%20Prejudice.mp4",
+              "seconds": 682,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 70
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "Tribe and Prejudice",
+          "airdate": "2006-03-19",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "Minoriteam",
+            "itemTitle": "Minoriteam Season 1",
+            "file": "Minoriteam - S01E02 - Tribe and Prejudice.mp4",
+            "name": "Minoriteam - S01E02 - Tribe and Prejudice",
+            "url": "https://archive.org/download/Minoriteam/Minoriteam%20-%20S01E02%20-%20Tribe%20and%20Prejudice.mp4",
+            "seconds": 682,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 66
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "minoriteam-s-01-e-12-the-internet",
+              "itemTitle": "Random [adult swim] recordings and lost media from here and myspleen , personal collection  Part 2",
+              "file": "Minoriteam - S01 E02 - El Dia Gigante.MP4",
+              "name": "Minoriteam - S01 E02 - El Dia Gigante",
+              "url": "https://archive.org/download/minoriteam-s-01-e-12-the-internet/Minoriteam%20-%20S01%20E02%20-%20El%20Dia%20Gigante.MP4",
+              "seconds": 665,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 83
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "minoriteamcomplete-series-19episodes",
+              "itemTitle": "Minoriteam(all 19 episodes complete)",
+              "file": "Minoriteam - S01 E02 - El Dia Gigante.MP4",
+              "name": "Minoriteam - S01 E02 - El Dia Gigante",
+              "url": "https://archive.org/download/minoriteamcomplete-series-19episodes/Minoriteam%20-%20S01%20E02%20-%20El%20Dia%20Gigante.MP4",
+              "seconds": 665,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 83
+            },
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Tribe and Prejudice\" (0.95)",
+              "item": "minoriteam.s01e01.tribe..prejudice.4k.upgrayedd",
+              "itemTitle": "minoriteam.s01e01.Tribe.&.Prejudice.4K.UPGRAYEDD",
+              "file": "Minoriteam.S01e01.Tribe.&.Prejudice.4K.Upgrayedd.mp4",
+              "name": "Minoriteam.S01e01.Tribe.&.Prejudice.4K.Upgrayedd",
+              "url": "https://archive.org/download/minoriteam.s01e01.tribe..prejudice.4k.upgrayedd/Minoriteam.S01e01.Tribe.%26.Prejudice.4K.Upgrayedd.mp4",
+              "seconds": 683,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 2750
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "name": "El Dia Gigante",
+          "airdate": "2006-03-26",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "Minoriteam",
+            "itemTitle": "Minoriteam Season 1",
+            "file": "Minoriteam - S01E03 - El Dia Gigante.mp4",
+            "name": "Minoriteam - S01E03 - El Dia Gigante",
+            "url": "https://archive.org/download/Minoriteam/Minoriteam%20-%20S01E03%20-%20El%20Dia%20Gigante.mp4",
+            "seconds": 664,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 64
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "minoriteam.-s-01e-03.-heaven.-can.-wait.-4-k.-upgrayedd",
+              "itemTitle": "Minoriteam. S 01e 03. Heaven. Can. Wait. 4 K. Upgrayedd",
+              "file": "Minoriteam.S01e03.Heaven.Can.Wait.4K.Upgrayedd.mp4",
+              "name": "Minoriteam.S01e03.Heaven.Can.Wait.4K.Upgrayedd",
+              "url": "https://archive.org/download/minoriteam.-s-01e-03.-heaven.-can.-wait.-4-k.-upgrayedd/Minoriteam.S01e03.Heaven.Can.Wait.4K.Upgrayedd.mp4",
+              "seconds": 669,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 2676
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "minoriteam-s-01-e-12-the-internet",
+              "itemTitle": "Random [adult swim] recordings and lost media from here and myspleen , personal collection  Part 2",
+              "file": "Minoriteam - S01 E03 - Heaven Can Wait.mp4",
+              "name": "Minoriteam - S01 E03 - Heaven Can Wait",
+              "url": "https://archive.org/download/minoriteam-s-01-e-12-the-internet/Minoriteam%20-%20S01%20E03%20-%20Heaven%20Can%20Wait.mp4",
+              "seconds": 668,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 80
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "minoriteamcomplete-series-19episodes",
+              "itemTitle": "Minoriteam(all 19 episodes complete)",
+              "file": "Minoriteam - S01 E03 - Heaven Can Wait.mp4",
+              "name": "Minoriteam - S01 E03 - Heaven Can Wait",
+              "url": "https://archive.org/download/minoriteamcomplete-series-19episodes/Minoriteam%20-%20S01%20E03%20-%20Heaven%20Can%20Wait.mp4",
+              "seconds": 668,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 80
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "name": "Heaven Can Wait",
+          "airdate": "2006-04-02",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "Minoriteam",
+            "itemTitle": "Minoriteam Season 1",
+            "file": "Minoriteam - S01E04 - Heaven Can Wait.mp4",
+            "name": "Minoriteam - S01E04 - Heaven Can Wait",
+            "url": "https://archive.org/download/Minoriteam/Minoriteam%20-%20S01E04%20-%20Heaven%20Can%20Wait.mp4",
+            "seconds": 667,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 65
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "minoriteam-s-01-e-12-the-internet",
+              "itemTitle": "Random [adult swim] recordings and lost media from here and myspleen , personal collection  Part 2",
+              "file": "Minoriteam - S01 E04 - His Story.mp4",
+              "name": "Minoriteam - S01 E04 - His Story",
+              "url": "https://archive.org/download/minoriteam-s-01-e-12-the-internet/Minoriteam%20-%20S01%20E04%20-%20His%20Story.mp4",
+              "seconds": 698,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 80
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "minoriteamcomplete-series-19episodes",
+              "itemTitle": "Minoriteam(all 19 episodes complete)",
+              "file": "Minoriteam - S01 E04 - His Story.mp4",
+              "name": "Minoriteam - S01 E04 - His Story",
+              "url": "https://archive.org/download/minoriteamcomplete-series-19episodes/Minoriteam%20-%20S01%20E04%20-%20His%20Story.mp4",
+              "seconds": 698,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 80
+            },
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Heaven Can Wait\" (0.95)",
+              "item": "minoriteam.-s-01e-03.-heaven.-can.-wait.-4-k.-upgrayedd",
+              "itemTitle": "Minoriteam. S 01e 03. Heaven. Can. Wait. 4 K. Upgrayedd",
+              "file": "Minoriteam.S01e03.Heaven.Can.Wait.4K.Upgrayedd.mp4",
+              "name": "Minoriteam.S01e03.Heaven.Can.Wait.4K.Upgrayedd",
+              "url": "https://archive.org/download/minoriteam.-s-01e-03.-heaven.-can.-wait.-4-k.-upgrayedd/Minoriteam.S01e03.Heaven.Can.Wait.4K.Upgrayedd.mp4",
+              "seconds": 669,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 2676
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "name": "His Story",
+          "airdate": "2006-04-09",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "Minoriteam",
+            "itemTitle": "Minoriteam Season 1",
+            "file": "Minoriteam - S01E05 - His Story.mp4",
+            "name": "Minoriteam - S01E05 - His Story",
+            "url": "https://archive.org/download/Minoriteam/Minoriteam%20-%20S01E05%20-%20His%20Story.mp4",
+            "seconds": 698,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 67
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "minoriteam-s-01-e-12-the-internet",
+              "itemTitle": "Random [adult swim] recordings and lost media from here and myspleen , personal collection  Part 2",
+              "file": "Minoriteam - S01 E05 - Tax Day.mp4",
+              "name": "Minoriteam - S01 E05 - Tax Day",
+              "url": "https://archive.org/download/minoriteam-s-01-e-12-the-internet/Minoriteam%20-%20S01%20E05%20-%20Tax%20Day.mp4",
+              "seconds": 670,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 66
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "minoriteamcomplete-series-19episodes",
+              "itemTitle": "Minoriteam(all 19 episodes complete)",
+              "file": "Minoriteam - S01 E05 - Tax Day.mp4",
+              "name": "Minoriteam - S01 E05 - Tax Day",
+              "url": "https://archive.org/download/minoriteamcomplete-series-19episodes/Minoriteam%20-%20S01%20E05%20-%20Tax%20Day.mp4",
+              "seconds": 670,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 66
+            },
+            {
+              "conf": 0.8,
+              "why": "title ~ \"His Story\" (1.00)",
+              "item": "minoriteam-s-01-e-12-the-internet",
+              "itemTitle": "Random [adult swim] recordings and lost media from here and myspleen , personal collection  Part 2",
+              "file": "Minoriteam - S01 E04 - His Story.mp4",
+              "name": "Minoriteam - S01 E04 - His Story",
+              "url": "https://archive.org/download/minoriteam-s-01-e-12-the-internet/Minoriteam%20-%20S01%20E04%20-%20His%20Story.mp4",
+              "seconds": 698,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 80
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "name": "Tax Day",
+          "airdate": "2006-04-16",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "Minoriteam",
+            "itemTitle": "Minoriteam Season 1",
+            "file": "Minoriteam - S01E06 - Tax Day.mp4",
+            "name": "Minoriteam - S01E06 - Tax Day",
+            "url": "https://archive.org/download/Minoriteam/Minoriteam%20-%20S01E06%20-%20Tax%20Day.mp4",
+            "seconds": 668,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 64
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "minoriteam.-s-01e-06.-illegal.-aliens.-4-k.-upgrayedd",
+              "itemTitle": "Minoriteam. S 01e 06. Illegal. Aliens. 4 K. Upgrayedd",
+              "file": "Minoriteam.S01e06.Illegal.Aliens.4K.Upgrayeddu.mp4",
+              "name": "Minoriteam.S01e06.Illegal.Aliens.4K.Upgrayeddu",
+              "url": "https://archive.org/download/minoriteam.-s-01e-06.-illegal.-aliens.-4-k.-upgrayedd/Minoriteam.S01e06.Illegal.Aliens.4K.Upgrayeddu.mp4",
+              "seconds": 693,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 2783
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "minoriteam.-s-01e-06.-illegal.-aliens.-4-k.-upgrayedd",
+              "itemTitle": "Minoriteam. S 01e 06. Illegal. Aliens. 4 K. Upgrayedd",
+              "file": "Minoriteam.S01e06.Illegal.Aliens.4K.Upgrayeddu.ia.mp4",
+              "name": "Minoriteam.S01e06.Illegal.Aliens.4K",
+              "url": "https://archive.org/download/minoriteam.-s-01e-06.-illegal.-aliens.-4-k.-upgrayedd/Minoriteam.S01e06.Illegal.Aliens.4K.Upgrayeddu.ia.mp4",
+              "seconds": 693,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 67
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "minoriteam-s-01-e-12-the-internet",
+              "itemTitle": "Random [adult swim] recordings and lost media from here and myspleen , personal collection  Part 2",
+              "file": "Minoriteam - S01 E06 - Illegal Aliens.mp4",
+              "name": "Minoriteam - S01 E06 - Illegal Aliens",
+              "url": "https://archive.org/download/minoriteam-s-01-e-12-the-internet/Minoriteam%20-%20S01%20E06%20-%20Illegal%20Aliens.mp4",
+              "seconds": 692,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 65
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "name": "Illegal Aliens",
+          "airdate": "2006-04-23",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "Minoriteam",
+            "itemTitle": "Minoriteam Season 1",
+            "file": "Minoriteam - S01E07 - Illegal Aliens.mp4",
+            "name": "Minoriteam - S01E07 - Illegal Aliens",
+            "url": "https://archive.org/download/Minoriteam/Minoriteam%20-%20S01E07%20-%20Illegal%20Aliens.mp4",
+            "seconds": 691,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 67
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "minoriteam-s-01-e-12-the-internet",
+              "itemTitle": "Random [adult swim] recordings and lost media from here and myspleen , personal collection  Part 2",
+              "file": "Minoriteam - S01 E07 - And Justice For Some.mp4",
+              "name": "Minoriteam - S01 E07 - And Justice For Some",
+              "url": "https://archive.org/download/minoriteam-s-01-e-12-the-internet/Minoriteam%20-%20S01%20E07%20-%20And%20Justice%20For%20Some.mp4",
+              "seconds": 684,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 60
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "minoriteamcomplete-series-19episodes",
+              "itemTitle": "Minoriteam(all 19 episodes complete)",
+              "file": "Minoriteam - S01 E07 - And Justice For Some.mp4",
+              "name": "Minoriteam - S01 E07 - And Justice For Some",
+              "url": "https://archive.org/download/minoriteamcomplete-series-19episodes/Minoriteam%20-%20S01%20E07%20-%20And%20Justice%20For%20Some.mp4",
+              "seconds": 684,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 60
+            },
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Illegal Aliens\" (0.95)",
+              "item": "minoriteam.-s-01e-06.-illegal.-aliens.-4-k.-upgrayedd",
+              "itemTitle": "Minoriteam. S 01e 06. Illegal. Aliens. 4 K. Upgrayedd",
+              "file": "Minoriteam.S01e06.Illegal.Aliens.4K.Upgrayeddu.mp4",
+              "name": "Minoriteam.S01e06.Illegal.Aliens.4K.Upgrayeddu",
+              "url": "https://archive.org/download/minoriteam.-s-01e-06.-illegal.-aliens.-4-k.-upgrayedd/Minoriteam.S01e06.Illegal.Aliens.4K.Upgrayeddu.mp4",
+              "seconds": 693,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 2783
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "name": "And Justice For Some",
+          "airdate": "2006-04-30",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "Minoriteam",
+            "itemTitle": "Minoriteam Season 1",
+            "file": "Minoriteam - S01E08 - And Justice For Some.mp4",
+            "name": "Minoriteam - S01E08 - And Justice For Some",
+            "url": "https://archive.org/download/Minoriteam/Minoriteam%20-%20S01E08%20-%20And%20Justice%20For%20Some.mp4",
+            "seconds": 683,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 65
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "minoriteam-s-01-e-12-the-internet",
+              "itemTitle": "Random [adult swim] recordings and lost media from here and myspleen , personal collection  Part 2",
+              "file": "Minoriteam - S01 E08 - Women's Sufferage.mp4",
+              "name": "Minoriteam - S01 E08 - Women's Sufferage",
+              "url": "https://archive.org/download/minoriteam-s-01-e-12-the-internet/Minoriteam%20-%20S01%20E08%20-%20Women's%20Sufferage.mp4",
+              "seconds": 684,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 67
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "minoriteamcomplete-series-19episodes",
+              "itemTitle": "Minoriteam(all 19 episodes complete)",
+              "file": "Minoriteam - S01 E08 - Women's Sufferage.mp4",
+              "name": "Minoriteam - S01 E08 - Women's Sufferage",
+              "url": "https://archive.org/download/minoriteamcomplete-series-19episodes/Minoriteam%20-%20S01%20E08%20-%20Women's%20Sufferage.mp4",
+              "seconds": 684,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 67
+            },
+            {
+              "conf": 0.8,
+              "why": "title ~ \"And Justice For Some\" (1.00)",
+              "item": "minoriteam-s-01-e-12-the-internet",
+              "itemTitle": "Random [adult swim] recordings and lost media from here and myspleen , personal collection  Part 2",
+              "file": "Minoriteam - S01 E07 - And Justice For Some.mp4",
+              "name": "Minoriteam - S01 E07 - And Justice For Some",
+              "url": "https://archive.org/download/minoriteam-s-01-e-12-the-internet/Minoriteam%20-%20S01%20E07%20-%20And%20Justice%20For%20Some.mp4",
+              "seconds": 684,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 60
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "name": "Women's Sufferage",
+          "airdate": "2006-05-07",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "Minoriteam",
+            "itemTitle": "Minoriteam Season 1",
+            "file": "Minoriteam - S01E09 - Women's Sufferage.mp4",
+            "name": "Minoriteam - S01E09 - Women's Sufferage",
+            "url": "https://archive.org/download/Minoriteam/Minoriteam%20-%20S01E09%20-%20Women's%20Sufferage.mp4",
+            "seconds": 683,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 66
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "minoriteam-s-01-e-12-the-internet",
+              "itemTitle": "Random [adult swim] recordings and lost media from here and myspleen , personal collection  Part 2",
+              "file": "Minoriteam - S01 E09 - Space Driftin'.mp4",
+              "name": "Minoriteam - S01 E09 - Space Driftin'",
+              "url": "https://archive.org/download/minoriteam-s-01-e-12-the-internet/Minoriteam%20-%20S01%20E09%20-%20Space%20Driftin'.mp4",
+              "seconds": 680,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 74
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "minoriteamcomplete-series-19episodes",
+              "itemTitle": "Minoriteam(all 19 episodes complete)",
+              "file": "Minoriteam - S01 E09 - Space Driftin'.mp4",
+              "name": "Minoriteam - S01 E09 - Space Driftin'",
+              "url": "https://archive.org/download/minoriteamcomplete-series-19episodes/Minoriteam%20-%20S01%20E09%20-%20Space%20Driftin'.mp4",
+              "seconds": 680,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 74
+            },
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Women's Sufferage\" (1.00)",
+              "item": "minoriteam-s-01-e-12-the-internet",
+              "itemTitle": "Random [adult swim] recordings and lost media from here and myspleen , personal collection  Part 2",
+              "file": "Minoriteam - S01 E08 - Women's Sufferage.mp4",
+              "name": "Minoriteam - S01 E08 - Women's Sufferage",
+              "url": "https://archive.org/download/minoriteam-s-01-e-12-the-internet/Minoriteam%20-%20S01%20E08%20-%20Women's%20Sufferage.mp4",
+              "seconds": 684,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 67
+            }
+          ]
+        },
+        {
+          "number": 10,
+          "name": "Space Driftin'",
+          "airdate": "2006-05-14",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "Minoriteam",
+            "itemTitle": "Minoriteam Season 1",
+            "file": "Minoriteam - S01E10 - Space Driftin'.mp4",
+            "name": "Minoriteam - S01E10 - Space Driftin'",
+            "url": "https://archive.org/download/Minoriteam/Minoriteam%20-%20S01E10%20-%20Space%20Driftin'.mp4",
+            "seconds": 678,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 67
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "minoriteam-s-01-e-12-the-internet",
+              "itemTitle": "Random [adult swim] recordings and lost media from here and myspleen , personal collection  Part 2",
+              "file": "Minoriteam - S01 E10 - Universal World Games.mp4",
+              "name": "Minoriteam - S01 E10 - Universal World Games",
+              "url": "https://archive.org/download/minoriteam-s-01-e-12-the-internet/Minoriteam%20-%20S01%20E10%20-%20Universal%20World%20Games.mp4",
+              "seconds": 706,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 78
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "minoriteamcomplete-series-19episodes",
+              "itemTitle": "Minoriteam(all 19 episodes complete)",
+              "file": "Minoriteam - S01 E10 - Universal World Games.mp4",
+              "name": "Minoriteam - S01 E10 - Universal World Games",
+              "url": "https://archive.org/download/minoriteamcomplete-series-19episodes/Minoriteam%20-%20S01%20E10%20-%20Universal%20World%20Games.mp4",
+              "seconds": 706,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 78
+            },
+            {
+              "conf": 0.9,
+              "why": "absolute episode number + title match",
+              "item": "minoriteam_complete_series",
+              "itemTitle": "Minoriteam (2005) [Complete Series + Extras]",
+              "file": "Minoriteam.Ep10.Space.Driftin.WEB-DL.AAC2.0.H264-Atomsk.mkv",
+              "name": "Minoriteam.Ep10.Space.Driftin.WEB-DL.AAC2.0.H264-Atomsk",
+              "url": "https://archive.org/download/minoriteam_complete_series/Minoriteam.Ep10.Space.Driftin.WEB-DL.AAC2.0.H264-Atomsk.mkv",
+              "seconds": 680,
+              "format": "Matroska",
+              "playable": false,
+              "sizeMB": 144
+            }
+          ]
+        },
+        {
+          "number": 11,
+          "name": "Universal World Games",
+          "airdate": "2006-05-21",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "Minoriteam",
+            "itemTitle": "Minoriteam Season 1",
+            "file": "Minoriteam - S01E11 - Universal World Games.mp4",
+            "name": "Minoriteam - S01E11 - Universal World Games",
+            "url": "https://archive.org/download/Minoriteam/Minoriteam%20-%20S01E11%20-%20Universal%20World%20Games.mp4",
+            "seconds": 704,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 68
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "minoriteam-s-01-e-12-the-internet",
+              "itemTitle": "Random [adult swim] recordings and lost media from here and myspleen , personal collection  Part 2",
+              "file": "Minoriteam - S01 E11 - The Fog.mp4",
+              "name": "Minoriteam - S01 E11 - The Fog",
+              "url": "https://archive.org/download/minoriteam-s-01-e-12-the-internet/Minoriteam%20-%20S01%20E11%20-%20The%20Fog.mp4",
+              "seconds": 704,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 89
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "minoriteamcomplete-series-19episodes",
+              "itemTitle": "Minoriteam(all 19 episodes complete)",
+              "file": "Minoriteam - S01 E11 - The Fog.mp4",
+              "name": "Minoriteam - S01 E11 - The Fog",
+              "url": "https://archive.org/download/minoriteamcomplete-series-19episodes/Minoriteam%20-%20S01%20E11%20-%20The%20Fog.mp4",
+              "seconds": 704,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 89
+            },
+            {
+              "conf": 0.9,
+              "why": "absolute episode number + title match",
+              "item": "minoriteam_complete_series",
+              "itemTitle": "Minoriteam (2005) [Complete Series + Extras]",
+              "file": "Minoriteam.Ep11.Universal.World.Games.WEB-DL.AAC2.0.H264-Atomsk.mkv",
+              "name": "Minoriteam.Ep11.Universal.World.Games.WEB-DL.AAC2.0.H264-Atomsk",
+              "url": "https://archive.org/download/minoriteam_complete_series/Minoriteam.Ep11.Universal.World.Games.WEB-DL.AAC2.0.H264-Atomsk.mkv",
+              "seconds": 706,
+              "format": "Matroska",
+              "playable": false,
+              "sizeMB": 145
+            }
+          ]
+        },
+        {
+          "number": 12,
+          "name": "FOG",
+          "airdate": "2006-05-28",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "Minoriteam",
+            "itemTitle": "Minoriteam Season 1",
+            "file": "Minoriteam - S01E12 - FOG.mp4",
+            "name": "Minoriteam - S01E12 - FOG",
+            "url": "https://archive.org/download/Minoriteam/Minoriteam%20-%20S01E12%20-%20FOG.mp4",
+            "seconds": 702,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 68
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "minoriteam-s-01-e-12-the-internet",
+              "itemTitle": "Random [adult swim] recordings and lost media from here and myspleen , personal collection  Part 2",
+              "file": "Minoriteam - S01 E12 - The Internet.mp4",
+              "name": "Minoriteam - S01 E12 - The Internet",
+              "url": "https://archive.org/download/minoriteam-s-01-e-12-the-internet/Minoriteam%20-%20S01%20E12%20-%20The%20Internet.mp4",
+              "seconds": 706,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 89
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "minoriteamcomplete-series-19episodes",
+              "itemTitle": "Minoriteam(all 19 episodes complete)",
+              "file": "Minoriteam - S01 E12 - The Internet.mp4",
+              "name": "Minoriteam - S01 E12 - The Internet",
+              "url": "https://archive.org/download/minoriteamcomplete-series-19episodes/Minoriteam%20-%20S01%20E12%20-%20The%20Internet.mp4",
+              "seconds": 706,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 89
+            },
+            {
+              "conf": 0.9,
+              "why": "absolute episode number + title match",
+              "item": "minoriteam_complete_series",
+              "itemTitle": "Minoriteam (2005) [Complete Series + Extras]",
+              "file": "Minoriteam.Ep12.The.Fog.WEB-DL.AAC2.0.H264-Atomsk.mkv",
+              "name": "Minoriteam.Ep12.The.Fog.WEB-DL.AAC2.0.H264-Atomsk",
+              "url": "https://archive.org/download/minoriteam_complete_series/Minoriteam.Ep12.The.Fog.WEB-DL.AAC2.0.H264-Atomsk.mkv",
+              "seconds": 704,
+              "format": "Matroska",
+              "playable": false,
+              "sizeMB": 149
+            }
+          ]
+        },
+        {
+          "number": 13,
+          "name": "The Internet",
+          "airdate": "2006-06-04",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "Minoriteam",
+            "itemTitle": "Minoriteam Season 1",
+            "file": "Minoriteam - S01E13 - The Internet.mp4",
+            "name": "Minoriteam - S01E13 - The Internet",
+            "url": "https://archive.org/download/Minoriteam/Minoriteam%20-%20S01E13%20-%20The%20Internet.mp4",
+            "seconds": 705,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 68
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "minoriteam-s-01-e-12-the-internet",
+              "itemTitle": "Random [adult swim] recordings and lost media from here and myspleen , personal collection  Part 2",
+              "file": "Minoriteam - S01 E13 - Evilfellas.mp4",
+              "name": "Minoriteam - S01 E13 - Evilfellas",
+              "url": "https://archive.org/download/minoriteam-s-01-e-12-the-internet/Minoriteam%20-%20S01%20E13%20-%20Evilfellas.mp4",
+              "seconds": 702,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 63
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "minoriteamcomplete-series-19episodes",
+              "itemTitle": "Minoriteam(all 19 episodes complete)",
+              "file": "Minoriteam - S01 E13 - Evilfellas.mp4",
+              "name": "Minoriteam - S01 E13 - Evilfellas",
+              "url": "https://archive.org/download/minoriteamcomplete-series-19episodes/Minoriteam%20-%20S01%20E13%20-%20Evilfellas.mp4",
+              "seconds": 702,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 63
+            },
+            {
+              "conf": 0.8,
+              "why": "title ~ \"The Internet\" (1.00)",
+              "item": "minoriteam-s-01-e-12-the-internet",
+              "itemTitle": "Random [adult swim] recordings and lost media from here and myspleen , personal collection  Part 2",
+              "file": "Minoriteam - S01 E12 - The Internet.mp4",
+              "name": "Minoriteam - S01 E12 - The Internet",
+              "url": "https://archive.org/download/minoriteam-s-01-e-12-the-internet/Minoriteam%20-%20S01%20E12%20-%20The%20Internet.mp4",
+              "seconds": 706,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 89
+            }
+          ]
+        },
+        {
+          "number": 14,
+          "name": "Evilfellas",
+          "airdate": "2006-06-11",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "Minoriteam",
+            "itemTitle": "Minoriteam Season 1",
+            "file": "Minoriteam - S01E14 - Evilfellas.mp4",
+            "name": "Minoriteam - S01E14 - Evilfellas",
+            "url": "https://archive.org/download/Minoriteam/Minoriteam%20-%20S01E14%20-%20Evilfellas.mp4",
+            "seconds": 700,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 67
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "minoriteam-s-01-e-12-the-internet",
+              "itemTitle": "Random [adult swim] recordings and lost media from here and myspleen , personal collection  Part 2",
+              "file": "Minoriteam - S01 E14 - Landon In Love.mp4",
+              "name": "Minoriteam - S01 E14 - Landon In Love",
+              "url": "https://archive.org/download/minoriteam-s-01-e-12-the-internet/Minoriteam%20-%20S01%20E14%20-%20Landon%20In%20Love.mp4",
+              "seconds": 703,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 67
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "minoriteamcomplete-series-19episodes",
+              "itemTitle": "Minoriteam(all 19 episodes complete)",
+              "file": "Minoriteam - S01 E14 - Landon In Love.mp4",
+              "name": "Minoriteam - S01 E14 - Landon In Love",
+              "url": "https://archive.org/download/minoriteamcomplete-series-19episodes/Minoriteam%20-%20S01%20E14%20-%20Landon%20In%20Love.mp4",
+              "seconds": 703,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 67
+            },
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Evilfellas\" (1.00)",
+              "item": "minoriteam-s-01-e-12-the-internet",
+              "itemTitle": "Random [adult swim] recordings and lost media from here and myspleen , personal collection  Part 2",
+              "file": "Minoriteam - S01 E13 - Evilfellas.mp4",
+              "name": "Minoriteam - S01 E13 - Evilfellas",
+              "url": "https://archive.org/download/minoriteam-s-01-e-12-the-internet/Minoriteam%20-%20S01%20E13%20-%20Evilfellas.mp4",
+              "seconds": 702,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 63
+            }
+          ]
+        },
+        {
+          "number": 15,
+          "name": "Landon In Love",
+          "airdate": "2006-06-18",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "Minoriteam",
+            "itemTitle": "Minoriteam Season 1",
+            "file": "Minoriteam - S01E15 - Landon In Love.mp4",
+            "name": "Minoriteam - S01E15 - Landon In Love",
+            "url": "https://archive.org/download/Minoriteam/Minoriteam%20-%20S01E15%20-%20Landon%20In%20Love.mp4",
+            "seconds": 700,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 68
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "minoriteam-s-01-e-12-the-internet",
+              "itemTitle": "Random [adult swim] recordings and lost media from here and myspleen , personal collection  Part 2",
+              "file": "Minoriteam - S01 E15 - Le Black Coq.mp4",
+              "name": "Minoriteam - S01 E15 - Le Black Coq",
+              "url": "https://archive.org/download/minoriteam-s-01-e-12-the-internet/Minoriteam%20-%20S01%20E15%20-%20Le%20Black%20Coq.mp4",
+              "seconds": 706,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 74
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "minoriteamcomplete-series-19episodes",
+              "itemTitle": "Minoriteam(all 19 episodes complete)",
+              "file": "Minoriteam - S01 E15 - Le Black Coq.mp4",
+              "name": "Minoriteam - S01 E15 - Le Black Coq",
+              "url": "https://archive.org/download/minoriteamcomplete-series-19episodes/Minoriteam%20-%20S01%20E15%20-%20Le%20Black%20Coq.mp4",
+              "seconds": 706,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 74
+            },
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Landon In Love\" (1.00)",
+              "item": "minoriteam-s-01-e-12-the-internet",
+              "itemTitle": "Random [adult swim] recordings and lost media from here and myspleen , personal collection  Part 2",
+              "file": "Minoriteam - S01 E14 - Landon In Love.mp4",
+              "name": "Minoriteam - S01 E14 - Landon In Love",
+              "url": "https://archive.org/download/minoriteam-s-01-e-12-the-internet/Minoriteam%20-%20S01%20E14%20-%20Landon%20In%20Love.mp4",
+              "seconds": 703,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 67
+            }
+          ]
+        },
+        {
+          "number": 16,
+          "name": "Le Black Coq",
+          "airdate": "2006-06-25",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "Minoriteam",
+            "itemTitle": "Minoriteam Season 1",
+            "file": "Minoriteam - S01E16 - Le Black Coq.mp4",
+            "name": "Minoriteam - S01E16 - Le Black Coq",
+            "url": "https://archive.org/download/Minoriteam/Minoriteam%20-%20S01E16%20-%20Le%20Black%20Coq.mp4",
+            "seconds": 704,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 68
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "minoriteam-s-01-e-12-the-internet",
+              "itemTitle": "Random [adult swim] recordings and lost media from here and myspleen , personal collection  Part 2",
+              "file": "Minoriteam - S01 E16 - Tremendous Class.mp4",
+              "name": "Minoriteam - S01 E16 - Tremendous Class",
+              "url": "https://archive.org/download/minoriteam-s-01-e-12-the-internet/Minoriteam%20-%20S01%20E16%20-%20Tremendous%20Class.mp4",
+              "seconds": 701,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 75
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "minoriteamcomplete-series-19episodes",
+              "itemTitle": "Minoriteam(all 19 episodes complete)",
+              "file": "Minoriteam - S01 E16 - Tremendous Class.mp4",
+              "name": "Minoriteam - S01 E16 - Tremendous Class",
+              "url": "https://archive.org/download/minoriteamcomplete-series-19episodes/Minoriteam%20-%20S01%20E16%20-%20Tremendous%20Class.mp4",
+              "seconds": 701,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 75
+            },
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Le Black Coq\" (1.00)",
+              "item": "minoriteam-s-01-e-12-the-internet",
+              "itemTitle": "Random [adult swim] recordings and lost media from here and myspleen , personal collection  Part 2",
+              "file": "Minoriteam - S01 E15 - Le Black Coq.mp4",
+              "name": "Minoriteam - S01 E15 - Le Black Coq",
+              "url": "https://archive.org/download/minoriteam-s-01-e-12-the-internet/Minoriteam%20-%20S01%20E15%20-%20Le%20Black%20Coq.mp4",
+              "seconds": 706,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 74
+            }
+          ]
+        },
+        {
+          "number": 17,
+          "name": "Tremendous Class",
+          "airdate": "2006-07-02",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "Minoriteam",
+            "itemTitle": "Minoriteam Season 1",
+            "file": "Minoriteam - S01E17 - Tremendous Class.mp4",
+            "name": "Minoriteam - S01E17 - Tremendous Class",
+            "url": "https://archive.org/download/Minoriteam/Minoriteam%20-%20S01E17%20-%20Tremendous%20Class.mp4",
+            "seconds": 699,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 68
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "minoriteam-s-01-e-12-the-internet",
+              "itemTitle": "Random [adult swim] recordings and lost media from here and myspleen , personal collection  Part 2",
+              "file": "Minoriteam - S01 E17 - The Assimulater.mp4",
+              "name": "Minoriteam - S01 E17 - The Assimulater",
+              "url": "https://archive.org/download/minoriteam-s-01-e-12-the-internet/Minoriteam%20-%20S01%20E17%20-%20The%20Assimulater.mp4",
+              "seconds": 686,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 71
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "minoriteamcomplete-series-19episodes",
+              "itemTitle": "Minoriteam(all 19 episodes complete)",
+              "file": "Minoriteam - S01 E17 - The Assimulater.mp4",
+              "name": "Minoriteam - S01 E17 - The Assimulater",
+              "url": "https://archive.org/download/minoriteamcomplete-series-19episodes/Minoriteam%20-%20S01%20E17%20-%20The%20Assimulater.mp4",
+              "seconds": 686,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 71
+            },
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Tremendous Class\" (1.00)",
+              "item": "minoriteam-s-01-e-12-the-internet",
+              "itemTitle": "Random [adult swim] recordings and lost media from here and myspleen , personal collection  Part 2",
+              "file": "Minoriteam - S01 E16 - Tremendous Class.mp4",
+              "name": "Minoriteam - S01 E16 - Tremendous Class",
+              "url": "https://archive.org/download/minoriteam-s-01-e-12-the-internet/Minoriteam%20-%20S01%20E16%20-%20Tremendous%20Class.mp4",
+              "seconds": 701,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 75
+            }
+          ]
+        },
+        {
+          "number": 18,
+          "name": "The Assimilator",
+          "airdate": "2006-07-09",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "Minoriteam",
+            "itemTitle": "Minoriteam Season 1",
+            "file": "Minoriteam - S01E18 - The Assimilator.mp4",
+            "name": "Minoriteam - S01E18 - The Assimilator",
+            "url": "https://archive.org/download/Minoriteam/Minoriteam%20-%20S01E18%20-%20The%20Assimilator.mp4",
+            "seconds": 684,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 67
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "minoriteam-s-01-e-12-the-internet",
+              "itemTitle": "Random [adult swim] recordings and lost media from here and myspleen , personal collection  Part 2",
+              "file": "Minoriteam - S01 E18 - Behold Balactus.mp4",
+              "name": "Minoriteam - S01 E18 - Behold Balactus",
+              "url": "https://archive.org/download/minoriteam-s-01-e-12-the-internet/Minoriteam%20-%20S01%20E18%20-%20Behold%20Balactus.mp4",
+              "seconds": 681,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 69
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "minoriteamcomplete-series-19episodes",
+              "itemTitle": "Minoriteam(all 19 episodes complete)",
+              "file": "Minoriteam - S01 E18 - Behold Balactus.mp4",
+              "name": "Minoriteam - S01 E18 - Behold Balactus",
+              "url": "https://archive.org/download/minoriteamcomplete-series-19episodes/Minoriteam%20-%20S01%20E18%20-%20Behold%20Balactus.mp4",
+              "seconds": 681,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 69
+            },
+            {
+              "conf": 0.6,
+              "why": "title ~ \"The Assimilator\" (0.69)",
+              "item": "minoriteam-s-01-e-12-the-internet",
+              "itemTitle": "Random [adult swim] recordings and lost media from here and myspleen , personal collection  Part 2",
+              "file": "Minoriteam - S01 E17 - The Assimulater.mp4",
+              "name": "Minoriteam - S01 E17 - The Assimulater",
+              "url": "https://archive.org/download/minoriteam-s-01-e-12-the-internet/Minoriteam%20-%20S01%20E17%20-%20The%20Assimulater.mp4",
+              "seconds": 686,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 71
+            }
+          ]
+        },
+        {
+          "number": 19,
+          "name": "Behold Balactus (1)",
+          "airdate": "2006-07-16",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "Minoriteam",
+            "itemTitle": "Minoriteam Season 1",
+            "file": "Minoriteam - S01E19 - Behold Balactus (1).mp4",
+            "name": "Minoriteam - S01E19 - Behold Balactus (1)",
+            "url": "https://archive.org/download/Minoriteam/Minoriteam%20-%20S01E19%20-%20Behold%20Balactus%20(1).mp4",
+            "seconds": 679,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 65
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "minoriteam.-s-01e-19.-behold.-balactus.-part.-2.-the.-blackening.-4-k.-upgrayedd",
+              "itemTitle": "Minoriteam. S 01e 19. Behold. Balactus. Part. 2. The. Blackening. 4 K. Upgrayedd",
+              "file": "Minoriteam.S01e19.Behold.Balactus.Part.2.The.Blackening.4K.Upgrayedd.mp4",
+              "name": "Minoriteam.S01e19.Behold.Balactus.Part.2.The.Blackening.4K.Upgrayedd",
+              "url": "https://archive.org/download/minoriteam.-s-01e-19.-behold.-balactus.-part.-2.-the.-blackening.-4-k.-upgrayedd/Minoriteam.S01e19.Behold.Balactus.Part.2.The.Blackening.4K.Upgrayedd.mp4",
+              "seconds": 705,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 2824
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "minoriteam-s-01-e-12-the-internet",
+              "itemTitle": "Random [adult swim] recordings and lost media from here and myspleen , personal collection  Part 2",
+              "file": "Minoriteam - S01 E19 - Behold Balactus Part 2.mp4",
+              "name": "Minoriteam - S01 E19 - Behold Balactus Part 2",
+              "url": "https://archive.org/download/minoriteam-s-01-e-12-the-internet/Minoriteam%20-%20S01%20E19%20-%20Behold%20Balactus%20Part%202.mp4",
+              "seconds": 703,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 81
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "minoriteamcomplete-series-19episodes",
+              "itemTitle": "Minoriteam(all 19 episodes complete)",
+              "file": "Minoriteam - S01 E19 - Behold Balactus Part 2.mp4",
+              "name": "Minoriteam - S01 E19 - Behold Balactus Part 2",
+              "url": "https://archive.org/download/minoriteamcomplete-series-19episodes/Minoriteam%20-%20S01%20E19%20-%20Behold%20Balactus%20Part%202.mp4",
+              "seconds": 703,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 81
+            }
+          ]
+        },
+        {
+          "number": 20,
+          "name": "Behold Balactus (2)",
+          "airdate": "2006-07-23",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "Minoriteam",
+            "itemTitle": "Minoriteam Season 1",
+            "file": "Minoriteam - S01E20 - Behold Balactus (2).mp4",
+            "name": "Minoriteam - S01E20 - Behold Balactus (2)",
+            "url": "https://archive.org/download/Minoriteam/Minoriteam%20-%20S01E20%20-%20Behold%20Balactus%20(2).mp4",
+            "seconds": 701,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 68
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Behold Balactus (2)\" (0.95)",
+              "item": "minoriteam.-s-01e-19.-behold.-balactus.-part.-2.-the.-blackening.-4-k.-upgrayedd",
+              "itemTitle": "Minoriteam. S 01e 19. Behold. Balactus. Part. 2. The. Blackening. 4 K. Upgrayedd",
+              "file": "Minoriteam.S01e19.Behold.Balactus.Part.2.The.Blackening.4K.Upgrayedd.mp4",
+              "name": "Minoriteam.S01e19.Behold.Balactus.Part.2.The.Blackening.4K.Upgrayedd",
+              "url": "https://archive.org/download/minoriteam.-s-01e-19.-behold.-balactus.-part.-2.-the.-blackening.-4-k.-upgrayedd/Minoriteam.S01e19.Behold.Balactus.Part.2.The.Blackening.4K.Upgrayedd.mp4",
+              "seconds": 705,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 2824
+            },
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Behold Balactus (2)\" (0.95)",
+              "item": "minoriteam-s-01-e-12-the-internet",
+              "itemTitle": "Random [adult swim] recordings and lost media from here and myspleen , personal collection  Part 2",
+              "file": "Minoriteam - S01 E19 - Behold Balactus Part 2.mp4",
+              "name": "Minoriteam - S01 E19 - Behold Balactus Part 2",
+              "url": "https://archive.org/download/minoriteam-s-01-e-12-the-internet/Minoriteam%20-%20S01%20E19%20-%20Behold%20Balactus%20Part%202.mp4",
+              "seconds": 703,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 81
+            },
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Behold Balactus (2)\" (0.95)",
+              "item": "minoriteamcomplete-series-19episodes",
+              "itemTitle": "Minoriteam(all 19 episodes complete)",
+              "file": "Minoriteam - S01 E19 - Behold Balactus Part 2.mp4",
+              "name": "Minoriteam - S01 E19 - Behold Balactus Part 2",
+              "url": "https://archive.org/download/minoriteamcomplete-series-19episodes/Minoriteam%20-%20S01%20E19%20-%20Behold%20Balactus%20Part%202.mp4",
+              "seconds": 703,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 81
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

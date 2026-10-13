@@ -1,0 +1,3075 @@
+{
+  "show": "Farscape",
+  "slug": "farscape",
+  "type": "Sci-Fi, Fantasy and Horror",
+  "network": "Sci-Fi Channel",
+  "matchedAt": "2026-10-13T07:46:17.127Z",
+  "tvmaze": {
+    "id": 429,
+    "name": "Farscape",
+    "runtime": 60,
+    "premiered": "1999-03-19",
+    "network": "Syfy"
+  },
+  "coverage": {
+    "total": 88,
+    "live": 87,
+    "review": 1,
+    "missing": 0,
+    "pct": 100
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Premiere",
+          "airdate": "1999-03-19",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-01-e-01-premiere-march-19-1999-australia-and-united-states-premiere-episode",
+            "itemTitle": "Farscape S01E01 Premiere",
+            "file": "Farscape S01E01 Premiere (March 19, 1999, Australia and United States, Premiere Episode).mp4",
+            "name": "Farscape S01E01 Premiere (March 19, 1999, Australia and United States, Premiere Episode)",
+            "url": "https://archive.org/download/farscape-s-01-e-01-premiere-march-19-1999-australia-and-united-states-premiere-episode/Farscape%20S01E01%20Premiere%20(March%2019%2C%201999%2C%20Australia%20and%20United%20States%2C%20Premiere%20Episode).mp4",
+            "seconds": 2886,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 452
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "Farscape1x01Premiere",
+              "itemTitle": " Farscape 1x 01 Premiere (CAPITULO 1)",
+              "file": "Farscape 1x01 Premiere.mp4",
+              "name": "Farscape 1x01 Premiere",
+              "url": "https://archive.org/download/Farscape1x01Premiere/Farscape%201x01%20Premiere.mp4",
+              "seconds": 2897,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 301
+            },
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "farscape-s-01",
+              "itemTitle": "Farscape The Complete Season 1",
+              "file": "Farscape S01E01 Premiere.mp4",
+              "name": "Farscape S01E01 Premiere",
+              "url": "https://archive.org/download/farscape-s-01/Farscape%20S01E01%20Premiere.mp4",
+              "seconds": 3011,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 297
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 1 of 25 in \"FarScape\"",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0101ThroughTheEyeOfTheNeedle.mp4",
+              "name": "FarScape0101ThroughTheEyeOfTheNeedle",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0101ThroughTheEyeOfTheNeedle.mp4",
+              "seconds": 3600,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 388
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "Back and Back and Back to the Future",
+          "airdate": "1999-03-26",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "farscape-s-01-e-02-i-e.-t.-april-30-1999-australia-and-united-states_202602",
+            "itemTitle": "Farscape S01E02 I, E.T.",
+            "file": "Farscape S01E02 I, E.T. (April 30, 1999, Australia and United States).mp4",
+            "name": "Farscape S01E02 I, E.T. (April 30, 1999, Australia and United States)",
+            "url": "https://archive.org/download/farscape-s-01-e-02-i-e.-t.-april-30-1999-australia-and-united-states_202602/Farscape%20S01E02%20I%2C%20E.T.%20(April%2030%2C%201999%2C%20Australia%20and%20United%20States).mp4",
+            "seconds": 2886,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 379
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "farscape-s-01",
+              "itemTitle": "Farscape The Complete Season 1",
+              "file": "Farscape S01E02 Exodus from Genesis.mp4",
+              "name": "Farscape S01E02 Exodus from Genesis",
+              "url": "https://archive.org/download/farscape-s-01/Farscape%20S01E02%20Exodus%20from%20Genesis.mp4",
+              "seconds": 3011,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 297
+            },
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Back and Back and Back to the Future\" (1.00)",
+              "item": "farscape-s-01",
+              "itemTitle": "Farscape The Complete Season 1",
+              "file": "Farscape S01E03 Back and Back and Back to the Future.mp4",
+              "name": "Farscape S01E03 Back and Back and Back to the Future",
+              "url": "https://archive.org/download/farscape-s-01/Farscape%20S01E03%20Back%20and%20Back%20and%20Back%20to%20the%20Future.mp4",
+              "seconds": 3094,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 306
+            },
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Back and Back and Back to the Future\" (0.75)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0103BackAndBackAndBackToTheFuture.mp4",
+              "name": "FarScape0103BackAndBackAndBackToTheFuture",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0103BackAndBackAndBackToTheFuture.mp4",
+              "seconds": 3094,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 302
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "name": "Throne for a Loss",
+          "airdate": "1999-04-09",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "farscape-s-01-e-03-exodus-from-genesis-may-14-1999-australia-and-united-states_202602",
+            "itemTitle": "Farscape S01E03 Exodus from Genesis",
+            "file": "Farscape S01E03 Exodus from Genesis (May 14, 1999, Australia and United States).mp4",
+            "name": "Farscape S01E03 Exodus from Genesis (May 14, 1999, Australia and United States)",
+            "url": "https://archive.org/download/farscape-s-01-e-03-exodus-from-genesis-may-14-1999-australia-and-united-states_202602/Farscape%20S01E03%20Exodus%20from%20Genesis%20(May%2014%2C%201999%2C%20Australia%20and%20United%20States).mp4",
+            "seconds": 2966,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 467
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "farscape-s-01",
+              "itemTitle": "Farscape The Complete Season 1",
+              "file": "Farscape S01E03 Back and Back and Back to the Future.mp4",
+              "name": "Farscape S01E03 Back and Back and Back to the Future",
+              "url": "https://archive.org/download/farscape-s-01/Farscape%20S01E03%20Back%20and%20Back%20and%20Back%20to%20the%20Future.mp4",
+              "seconds": 3094,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 306
+            },
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Throne for a Loss\" (0.95)",
+              "item": "farscape-s-01-e-04-throne-for-a-loss-april-9-1999-australia-and-united-states_202602",
+              "itemTitle": "Farscape S01E04 Throne for a Loss",
+              "file": "Farscape S01E04 Throne for a Loss (April 9, 1999, Australia and United States).mp4",
+              "name": "Farscape S01E04 Throne for a Loss (April 9, 1999, Australia and United States)",
+              "url": "https://archive.org/download/farscape-s-01-e-04-throne-for-a-loss-april-9-1999-australia-and-united-states_202602/Farscape%20S01E04%20Throne%20for%20a%20Loss%20(April%209%2C%201999%2C%20Australia%20and%20United%20States).mp4",
+              "seconds": 2887,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 453
+            },
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Throne for a Loss\" (1.00)",
+              "item": "farscape-s-01",
+              "itemTitle": "Farscape The Complete Season 1",
+              "file": "Farscape S01E04 Throne for a Loss.mp4",
+              "name": "Farscape S01E04 Throne for a Loss",
+              "url": "https://archive.org/download/farscape-s-01/Farscape%20S01E04%20Throne%20for%20a%20Loss.mp4",
+              "seconds": 3011,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 296
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "name": "PK Tech Girl",
+          "airdate": "1999-04-16",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "farscape-s-01-e-04-throne-for-a-loss-april-9-1999-australia-and-united-states_202602",
+            "itemTitle": "Farscape S01E04 Throne for a Loss",
+            "file": "Farscape S01E04 Throne for a Loss (April 9, 1999, Australia and United States).mp4",
+            "name": "Farscape S01E04 Throne for a Loss (April 9, 1999, Australia and United States)",
+            "url": "https://archive.org/download/farscape-s-01-e-04-throne-for-a-loss-april-9-1999-australia-and-united-states_202602/Farscape%20S01E04%20Throne%20for%20a%20Loss%20(April%209%2C%201999%2C%20Australia%20and%20United%20States).mp4",
+            "seconds": 2887,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 453
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "farscape-s-01",
+              "itemTitle": "Farscape The Complete Season 1",
+              "file": "Farscape S01E04 Throne for a Loss.mp4",
+              "name": "Farscape S01E04 Throne for a Loss",
+              "url": "https://archive.org/download/farscape-s-01/Farscape%20S01E04%20Throne%20for%20a%20Loss.mp4",
+              "seconds": 3011,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 296
+            },
+            {
+              "conf": 0.8,
+              "why": "title ~ \"PK Tech Girl\" (1.00)",
+              "item": "farscape-s-01",
+              "itemTitle": "Farscape The Complete Season 1",
+              "file": "Farscape S01E05 PK Tech Girl.mp4",
+              "name": "Farscape S01E05 PK Tech Girl",
+              "url": "https://archive.org/download/farscape-s-01/Farscape%20S01E05%20PK%20Tech%20Girl.mp4",
+              "seconds": 3011,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 296
+            },
+            {
+              "conf": 0.6,
+              "why": "title ~ \"PK Tech Girl\" (0.60)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0105PKTechGirl.mp4",
+              "name": "FarScape0105PKTechGirl",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0105PKTechGirl.mp4",
+              "seconds": 3011,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 254
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "name": "Thank God It's Friday... Again",
+          "airdate": "1999-04-23",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "farscape-s-01",
+            "itemTitle": "Farscape The Complete Season 1",
+            "file": "Farscape S01E05 PK Tech Girl.mp4",
+            "name": "Farscape S01E05 PK Tech Girl",
+            "url": "https://archive.org/download/farscape-s-01/Farscape%20S01E05%20PK%20Tech%20Girl.mp4",
+            "seconds": 3011,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 296
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Thank God It's Friday... Again\" (1.00)",
+              "item": "farscape-s-01",
+              "itemTitle": "Farscape The Complete Season 1",
+              "file": "Farscape S01E06 Thank God it's Friday, Again..mp4",
+              "name": "Farscape S01E06 Thank God it's Friday, Again.",
+              "url": "https://archive.org/download/farscape-s-01/Farscape%20S01E06%20Thank%20God%20it's%20Friday%2C%20Again..mp4",
+              "seconds": 3011,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 298
+            },
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Thank God It's Friday... Again\" (0.78)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0106ThankGodIt'sFridayAgain.mp4",
+              "name": "FarScape0106ThankGodIt'sFridayAgain",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0106ThankGodIt'sFridayAgain.mp4",
+              "seconds": 3011,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 273
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 5 of 25 in \"FarScape\"",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0211LookAtThePrincess1.mp4",
+              "name": "FarScape0211LookAtThePrincess1",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0211LookAtThePrincess1.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 263
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "name": "I, E.T.",
+          "airdate": "1999-04-30",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "farscape-s-01",
+            "itemTitle": "Farscape The Complete Season 1",
+            "file": "Farscape S01E06 Thank God it's Friday, Again..mp4",
+            "name": "Farscape S01E06 Thank God it's Friday, Again.",
+            "url": "https://archive.org/download/farscape-s-01/Farscape%20S01E06%20Thank%20God%20it's%20Friday%2C%20Again..mp4",
+            "seconds": 3011,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 298
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"I, E.T.\" (0.95)",
+              "item": "farscape-s-01-e-02-i-e.-t.-april-30-1999-australia-and-united-states_202602",
+              "itemTitle": "Farscape S01E02 I, E.T.",
+              "file": "Farscape S01E02 I, E.T. (April 30, 1999, Australia and United States).mp4",
+              "name": "Farscape S01E02 I, E.T. (April 30, 1999, Australia and United States)",
+              "url": "https://archive.org/download/farscape-s-01-e-02-i-e.-t.-april-30-1999-australia-and-united-states_202602/Farscape%20S01E02%20I%2C%20E.T.%20(April%2030%2C%201999%2C%20Australia%20and%20United%20States).mp4",
+              "seconds": 2886,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 379
+            },
+            {
+              "conf": 0.8,
+              "why": "title ~ \"I, E.T.\" (1.00)",
+              "item": "farscape-s-01",
+              "itemTitle": "Farscape The Complete Season 1",
+              "file": "Farscape S01E07 I, E.T..mp4",
+              "name": "Farscape S01E07 I, E.T.",
+              "url": "https://archive.org/download/farscape-s-01/Farscape%20S01E07%20I%2C%20E.T..mp4",
+              "seconds": 3010,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 299
+            },
+            {
+              "conf": 0.6,
+              "why": "title ~ \"I, E.T.\" (0.63)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0107I-E.T.mp4",
+              "name": "FarScape0107I-E.T",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0107I-E.T.mp4",
+              "seconds": 3010,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 260
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "name": "Exodus from Genesis",
+          "airdate": "1999-05-14",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "farscape-s-01",
+            "itemTitle": "Farscape The Complete Season 1",
+            "file": "Farscape S01E07 I, E.T..mp4",
+            "name": "Farscape S01E07 I, E.T.",
+            "url": "https://archive.org/download/farscape-s-01/Farscape%20S01E07%20I%2C%20E.T..mp4",
+            "seconds": 3010,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 299
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Exodus from Genesis\" (0.95)",
+              "item": "farscape-s-01-e-03-exodus-from-genesis-may-14-1999-australia-and-united-states_202602",
+              "itemTitle": "Farscape S01E03 Exodus from Genesis",
+              "file": "Farscape S01E03 Exodus from Genesis (May 14, 1999, Australia and United States).mp4",
+              "name": "Farscape S01E03 Exodus from Genesis (May 14, 1999, Australia and United States)",
+              "url": "https://archive.org/download/farscape-s-01-e-03-exodus-from-genesis-may-14-1999-australia-and-united-states_202602/Farscape%20S01E03%20Exodus%20from%20Genesis%20(May%2014%2C%201999%2C%20Australia%20and%20United%20States).mp4",
+              "seconds": 2966,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 467
+            },
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Exodus from Genesis\" (1.00)",
+              "item": "farscape-s-01",
+              "itemTitle": "Farscape The Complete Season 1",
+              "file": "Farscape S01E02 Exodus from Genesis.mp4",
+              "name": "Farscape S01E02 Exodus from Genesis",
+              "url": "https://archive.org/download/farscape-s-01/Farscape%20S01E02%20Exodus%20from%20Genesis.mp4",
+              "seconds": 3011,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 297
+            },
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Exodus from Genesis\" (0.73)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0102ExodusFromGenesis.mp4",
+              "name": "FarScape0102ExodusFromGenesis",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0102ExodusFromGenesis.mp4",
+              "seconds": 3011,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 285
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "name": "That Old Black Magic",
+          "airdate": "1999-06-11",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-01",
+            "itemTitle": "Farscape The Complete Season 1",
+            "file": "Farscape S01E08 That Old Black Magic.mp4",
+            "name": "Farscape S01E08 That Old Black Magic",
+            "url": "https://archive.org/download/farscape-s-01/Farscape%20S01E08%20That%20Old%20Black%20Magic.mp4",
+            "seconds": 3011,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 298
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"That Old Black Magic\" (0.73)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0108ThatOldBlackMagic.mp4",
+              "name": "FarScape0108ThatOldBlackMagic",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0108ThatOldBlackMagic.mp4",
+              "seconds": 3011,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 279
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 8 of 25 in \"FarScape\"",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0216TheLocket.mp4",
+              "name": "FarScape0216TheLocket",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0216TheLocket.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 275
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "name": "DNA Mad Scientist",
+          "airdate": "1999-06-18",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-01",
+            "itemTitle": "Farscape The Complete Season 1",
+            "file": "Farscape S01E09 DNA Mad Scientist.mp4",
+            "name": "Farscape S01E09 DNA Mad Scientist",
+            "url": "https://archive.org/download/farscape-s-01/Farscape%20S01E09%20DNA%20Mad%20Scientist.mp4",
+            "seconds": 3011,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 296
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"DNA Mad Scientist\" (0.72)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0109DNAMadScientist.mp4",
+              "name": "FarScape0109DNAMadScientist",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0109DNAMadScientist.mp4",
+              "seconds": 3011,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 258
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 9 of 25 in \"FarScape\"",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0306EatMe.mp4",
+              "name": "FarScape0306EatMe",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0306EatMe.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 295
+            }
+          ]
+        },
+        {
+          "number": 10,
+          "name": "They've Got a Secret",
+          "airdate": "1999-06-25",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-01",
+            "itemTitle": "Farscape The Complete Season 1",
+            "file": "Farscape S01E10 They've Got a Secret.mp4",
+            "name": "Farscape S01E10 They've Got a Secret",
+            "url": "https://archive.org/download/farscape-s-01/Farscape%20S01E10%20They've%20Got%20a%20Secret.mp4",
+            "seconds": 3011,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 297
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"They've Got a Secret\" (0.71)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0110They'veGotASecret.mp4",
+              "name": "FarScape0110They'veGotASecret",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0110They'veGotASecret.mp4",
+              "seconds": 3011,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 254
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 10 of 25 in \"FarScape\"",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0311Incubator.mp4",
+              "name": "FarScape0311Incubator",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0311Incubator.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 254
+            }
+          ]
+        },
+        {
+          "number": 11,
+          "name": "Till the Blood Runs Clear",
+          "airdate": "1999-07-09",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-01",
+            "itemTitle": "Farscape The Complete Season 1",
+            "file": "Farscape S01E11 Till the Blood Runs Clear.mp4",
+            "name": "Farscape S01E11 Till the Blood Runs Clear",
+            "url": "https://archive.org/download/farscape-s-01/Farscape%20S01E11%20Till%20the%20Blood%20Runs%20Clear.mp4",
+            "seconds": 3011,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 297
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Till the Blood Runs Clear\" (0.82)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0111TillTheBloodRunsClear.mp4",
+              "name": "FarScape0111TillTheBloodRunsClear",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0111TillTheBloodRunsClear.mp4",
+              "seconds": 3011,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 314
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 11 of 25 in \"FarScape\"",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0312Meltdown.mp4",
+              "name": "FarScape0312Meltdown",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0312Meltdown.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 298
+            }
+          ]
+        },
+        {
+          "number": 12,
+          "name": "The Flax",
+          "airdate": "1999-07-16",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-01",
+            "itemTitle": "Farscape The Complete Season 1",
+            "file": "Farscape S01E12 The Flax.mp4",
+            "name": "Farscape S01E12 The Flax",
+            "url": "https://archive.org/download/farscape-s-01/Farscape%20S01E12%20The%20Flax.mp4",
+            "seconds": 3011,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 298
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 12 of 25 in \"FarScape\"",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0317TheChoice.mp4",
+              "name": "FarScape0317TheChoice",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0317TheChoice.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 246
+            }
+          ]
+        },
+        {
+          "number": 13,
+          "name": "Rhapsody in Blue",
+          "airdate": "1999-07-23",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-01",
+            "itemTitle": "Farscape The Complete Season 1",
+            "file": "Farscape S01E13 Rhapsody in Blue.mp4",
+            "name": "Farscape S01E13 Rhapsody in Blue",
+            "url": "https://archive.org/download/farscape-s-01/Farscape%20S01E13%20Rhapsody%20in%20Blue.mp4",
+            "seconds": 2979,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 293
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Rhapsody in Blue\" (0.70)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0113RhapsodyInBlue.mp4",
+              "name": "FarScape0113RhapsodyInBlue",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0113RhapsodyInBlue.mp4",
+              "seconds": 2979,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 287
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 13 of 25 in \"FarScape\"",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0318Fractures.mp4",
+              "name": "FarScape0318Fractures",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0318Fractures.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 267
+            }
+          ]
+        },
+        {
+          "number": 14,
+          "name": "Jeremiah Crichton",
+          "airdate": "1999-07-30",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-01",
+            "itemTitle": "Farscape The Complete Season 1",
+            "file": "Farscape S01E14 Jeremiah Crichton.mp4",
+            "name": "Farscape S01E14 Jeremiah Crichton",
+            "url": "https://archive.org/download/farscape-s-01/Farscape%20S01E14%20Jeremiah%20Crichton.mp4",
+            "seconds": 3011,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 295
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Jeremiah Crichton\" (0.71)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0114JeremiahCrichton.mp4",
+              "name": "FarScape0114JeremiahCrichton",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0114JeremiahCrichton.mp4",
+              "seconds": 3011,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 356
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 14 of 25 in \"FarScape\"",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0320IntoTheLion'sDen1.mp4",
+              "name": "FarScape0320IntoTheLion'sDen1",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0320IntoTheLion'sDen1.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 253
+            }
+          ]
+        },
+        {
+          "number": 15,
+          "name": "Durka Returns",
+          "airdate": "1999-08-13",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-01",
+            "itemTitle": "Farscape The Complete Season 1",
+            "file": "Farscape S01E15 Durka Returns.mp4",
+            "name": "Farscape S01E15 Durka Returns",
+            "url": "https://archive.org/download/farscape-s-01/Farscape%20S01E15%20Durka%20Returns.mp4",
+            "seconds": 3011,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 297
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Durka Returns\" (0.65)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0115DurkaReturns.mp4",
+              "name": "FarScape0115DurkaReturns",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0115DurkaReturns.mp4",
+              "seconds": 3011,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 251
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 15 of 25 in \"FarScape\"",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0321IntoTheLion'sDen2.mp4",
+              "name": "FarScape0321IntoTheLion'sDen2",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0321IntoTheLion'sDen2.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 276
+            }
+          ]
+        },
+        {
+          "number": 16,
+          "name": "A Human Reaction",
+          "airdate": "1999-08-20",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-01",
+            "itemTitle": "Farscape The Complete Season 1",
+            "file": "Farscape S01E16 A Human Reaction.mp4",
+            "name": "Farscape S01E16 A Human Reaction",
+            "url": "https://archive.org/download/farscape-s-01/Farscape%20S01E16%20A%20Human%20Reaction.mp4",
+            "seconds": 3011,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 299
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"A Human Reaction\" (0.68)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0116AHumanReaction.mp4",
+              "name": "FarScape0116AHumanReaction",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0116AHumanReaction.mp4",
+              "seconds": 3011,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 240
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 16 of 25 in \"FarScape\"",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0402WhatWasLost1.mp4",
+              "name": "FarScape0402WhatWasLost1",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0402WhatWasLost1.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 352
+            }
+          ]
+        },
+        {
+          "number": 17,
+          "name": "Through the Looking Glass",
+          "airdate": "1999-09-10",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-01",
+            "itemTitle": "Farscape The Complete Season 1",
+            "file": "Farscape S01E17 Through the Looking Glass.mp4",
+            "name": "Farscape S01E17 Through the Looking Glass",
+            "url": "https://archive.org/download/farscape-s-01/Farscape%20S01E17%20Through%20the%20Looking%20Glass.mp4",
+            "seconds": 2979,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 294
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Through the Looking Glass\" (0.77)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0117ThroughTheLookingGlass.mp4",
+              "name": "FarScape0117ThroughTheLookingGlass",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0117ThroughTheLookingGlass.mp4",
+              "seconds": 2979,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 310
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 17 of 25 in \"FarScape\"",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0403WhatWasLost2.mp4",
+              "name": "FarScape0403WhatWasLost2",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0403WhatWasLost2.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 411
+            }
+          ]
+        },
+        {
+          "number": 18,
+          "name": "A Bug's Life",
+          "airdate": "1999-09-17",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-01",
+            "itemTitle": "Farscape The Complete Season 1",
+            "file": "Farscape S01E18 A Bug's Life.mp4",
+            "name": "Farscape S01E18 A Bug's Life",
+            "url": "https://archive.org/download/farscape-s-01/Farscape%20S01E18%20A%20Bug's%20Life.mp4",
+            "seconds": 3011,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 298
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 18 of 25 in \"FarScape\"",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0405Promises.mp4",
+              "name": "FarScape0405Promises",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0405Promises.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 280
+            }
+          ]
+        },
+        {
+          "number": 19,
+          "name": "Nerve",
+          "airdate": "2000-01-07",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-01",
+            "itemTitle": "Farscape The Complete Season 1",
+            "file": "Farscape S01E19 Nerve (1).mp4",
+            "name": "Farscape S01E19 Nerve (1)",
+            "url": "https://archive.org/download/farscape-s-01/Farscape%20S01E19%20Nerve%20(1).mp4",
+            "seconds": 3011,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 298
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 19 of 25 in \"FarScape\"",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0412Kansas.mp4",
+              "name": "FarScape0412Kansas",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0412Kansas.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 339
+            }
+          ]
+        },
+        {
+          "number": 20,
+          "name": "The Hidden Memory",
+          "airdate": "2000-01-14",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-01",
+            "itemTitle": "Farscape The Complete Season 1",
+            "file": "Farscape S01E20 The Hidden Memory (2).mp4",
+            "name": "Farscape S01E20 The Hidden Memory (2)",
+            "url": "https://archive.org/download/farscape-s-01/Farscape%20S01E20%20The%20Hidden%20Memory%20(2).mp4",
+            "seconds": 3011,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 297
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"The Hidden Memory\" (0.70)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0120TheHiddenMemory.mp4",
+              "name": "FarScape0120TheHiddenMemory",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0120TheHiddenMemory.mp4",
+              "seconds": 3011,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 269
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 20 of 25 in \"FarScape\"",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0414TwiceShy.mp4",
+              "name": "FarScape0414TwiceShy",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0414TwiceShy.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 286
+            }
+          ]
+        },
+        {
+          "number": 21,
+          "name": "Bone to Be Wild",
+          "airdate": "2000-01-21",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-01",
+            "itemTitle": "Farscape The Complete Season 1",
+            "file": "Farscape S01E21 Bone to be Wild.mp4",
+            "name": "Farscape S01E21 Bone to be Wild",
+            "url": "https://archive.org/download/farscape-s-01/Farscape%20S01E21%20Bone%20to%20be%20Wild.mp4",
+            "seconds": 3011,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 296
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Bone to Be Wild\" (0.65)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0121BoneToBeWild.mp4",
+              "name": "FarScape0121BoneToBeWild",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0121BoneToBeWild.mp4",
+              "seconds": 3011,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 257
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 21 of 25 in \"FarScape\"",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0418Prayer.mp4",
+              "name": "FarScape0418Prayer",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0418Prayer.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 266
+            }
+          ]
+        },
+        {
+          "number": 22,
+          "name": "Family Ties",
+          "airdate": "2000-01-28",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-01",
+            "itemTitle": "Farscape The Complete Season 1",
+            "file": "Farscape S01E22 Family Ties.mp4",
+            "name": "Farscape S01E22 Family Ties",
+            "url": "https://archive.org/download/farscape-s-01/Farscape%20S01E22%20Family%20Ties.mp4",
+            "seconds": 3011,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 298
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Family Ties\" (0.62)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0122FamilyTies.mp4",
+              "name": "FarScape0122FamilyTies",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0122FamilyTies.mp4",
+              "seconds": 3011,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 231
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 22 of 25 in \"FarScape\"",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0419We'reSoScrewed1.mp4",
+              "name": "FarScape0419We'reSoScrewed1",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0419We'reSoScrewed1.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 299
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Mind the Baby",
+          "airdate": "2000-03-17",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-02",
+            "itemTitle": "Farscape Season 2",
+            "file": "Farscape S02E01 Mind the Baby.mp4",
+            "name": "Farscape S02E01 Mind the Baby",
+            "url": "https://archive.org/download/farscape-s-02/Farscape%20S02E01%20Mind%20the%20Baby.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 273
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Mind the Baby\" (0.63)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0201MindTheBaby.mp4",
+              "name": "FarScape0201MindTheBaby",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0201MindTheBaby.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 233
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "Vitas Mortis",
+          "airdate": "2000-03-24",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-02",
+            "itemTitle": "Farscape Season 2",
+            "file": "Farscape S02E02 Vitas Mortis.mp4",
+            "name": "Farscape S02E02 Vitas Mortis",
+            "url": "https://archive.org/download/farscape-s-02/Farscape%20S02E02%20Vitas%20Mortis.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 273
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Vitas Mortis\" (0.65)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0202VitasMortis.mp4",
+              "name": "FarScape0202VitasMortis",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0202VitasMortis.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 248
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "name": "Taking the Stone",
+          "airdate": "2000-03-31",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-02",
+            "itemTitle": "Farscape Season 2",
+            "file": "Farscape S02E03 Taking the Stone.mp4",
+            "name": "Farscape S02E03 Taking the Stone",
+            "url": "https://archive.org/download/farscape-s-02/Farscape%20S02E03%20Taking%20the%20Stone.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 273
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Taking the Stone\" (0.68)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0203TakingTheStone.mp4",
+              "name": "FarScape0203TakingTheStone",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0203TakingTheStone.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 230
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "name": "Crackers Don't Matter",
+          "airdate": "2000-04-07",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-02",
+            "itemTitle": "Farscape Season 2",
+            "file": "Farscape S02E04 Crackers Don't Matter.mp4",
+            "name": "Farscape S02E04 Crackers Don't Matter",
+            "url": "https://archive.org/download/farscape-s-02/Farscape%20S02E04%20Crackers%20Don't%20Matter.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 272
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Crackers Don't Matter\" (0.74)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0204CrackersDon'tMatter.mp4",
+              "name": "FarScape0204CrackersDon'tMatter",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0204CrackersDon'tMatter.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 255
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "name": "The Way We Weren't",
+          "airdate": "2000-04-14",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-02",
+            "itemTitle": "Farscape Season 2",
+            "file": "Farscape S02E05 The Way We Weren't.mp4",
+            "name": "Farscape S02E05 The Way We Weren't",
+            "url": "https://archive.org/download/farscape-s-02/Farscape%20S02E05%20The%20Way%20We%20Weren't.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 273
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"The Way We Weren't\" (0.65)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0205TheWayWeWeren't.mp4",
+              "name": "FarScape0205TheWayWeWeren't",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0205TheWayWeWeren't.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 243
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "name": "Picture If You Will",
+          "airdate": "2000-04-21",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-02",
+            "itemTitle": "Farscape Season 2",
+            "file": "Farscape S02E06 Picture if You Will.mp4",
+            "name": "Farscape S02E06 Picture if You Will",
+            "url": "https://archive.org/download/farscape-s-02/Farscape%20S02E06%20Picture%20if%20You%20Will.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 273
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Picture If You Will\" (0.71)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0206PictureIfYouWill.mp4",
+              "name": "FarScape0206PictureIfYouWill",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0206PictureIfYouWill.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 245
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "name": "Home on the Remains",
+          "airdate": "2000-06-16",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-02",
+            "itemTitle": "Farscape Season 2",
+            "file": "Farscape S02E07 Home on the Remains.mp4",
+            "name": "Farscape S02E07 Home on the Remains",
+            "url": "https://archive.org/download/farscape-s-02/Farscape%20S02E07%20Home%20on%20the%20Remains.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 274
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Home on the Remains\" (0.71)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0207HomeOnTheRemains.mp4",
+              "name": "FarScape0207HomeOnTheRemains",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0207HomeOnTheRemains.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 247
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "name": "Dream a Little Dream",
+          "airdate": "2000-06-23",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-02",
+            "itemTitle": "Farscape Season 2",
+            "file": "Farscape S02E08 Dream a Little Dream.mp4",
+            "name": "Farscape S02E08 Dream a Little Dream",
+            "url": "https://archive.org/download/farscape-s-02/Farscape%20S02E08%20Dream%20a%20Little%20Dream.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 272
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Dream a Little Dream\" (0.67)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0208DreamALittleDream.mp4",
+              "name": "FarScape0208DreamALittleDream",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0208DreamALittleDream.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 233
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "name": "Out of Their Minds",
+          "airdate": "2000-07-07",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-02",
+            "itemTitle": "Farscape Season 2",
+            "file": "Farscape S02E09 Out of Their Minds.mp4",
+            "name": "Farscape S02E09 Out of Their Minds",
+            "url": "https://archive.org/download/farscape-s-02/Farscape%20S02E09%20Out%20of%20Their%20Minds.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 273
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Out of Their Minds\" (0.70)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0209OutOfTheirMinds.mp4",
+              "name": "FarScape0209OutOfTheirMinds",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0209OutOfTheirMinds.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 267
+            }
+          ]
+        },
+        {
+          "number": 10,
+          "name": "My Three Crichtons",
+          "airdate": "2000-07-14",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-02",
+            "itemTitle": "Farscape Season 2",
+            "file": "Farscape S02E10 My Three Crichtons.mp4",
+            "name": "Farscape S02E10 My Three Crichtons",
+            "url": "https://archive.org/download/farscape-s-02/Farscape%20S02E10%20My%20Three%20Crichtons.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 273
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"My Three Crichtons\" (0.71)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0210MyThreeCrichtons.mp4",
+              "name": "FarScape0210MyThreeCrichtons",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0210MyThreeCrichtons.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 274
+            }
+          ]
+        },
+        {
+          "number": 11,
+          "name": "Look at the Princess Part I: A Kiss Is But a Kiss",
+          "airdate": "2000-07-21",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-02",
+            "itemTitle": "Farscape Season 2",
+            "file": "Farscape S02E11 Look at the Princess (1) A Kiss Is But a Kiss.mp4",
+            "name": "Farscape S02E11 Look at the Princess (1) A Kiss Is But a Kiss",
+            "url": "https://archive.org/download/farscape-s-02/Farscape%20S02E11%20Look%20at%20the%20Princess%20(1)%20A%20Kiss%20Is%20But%20a%20Kiss.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 271
+          },
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Look at the Princess Part II: I Do, I Think",
+          "airdate": "2000-07-28",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-02",
+            "itemTitle": "Farscape Season 2",
+            "file": "Farscape S02E12 Look at the Princess (2) I Do, I Think.mp4",
+            "name": "Farscape S02E12 Look at the Princess (2) I Do, I Think",
+            "url": "https://archive.org/download/farscape-s-02/Farscape%20S02E12%20Look%20at%20the%20Princess%20(2)%20I%20Do%2C%20I%20Think.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 272
+          },
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Look at the Princess Part III: The Maltese Crichton",
+          "airdate": "2000-08-04",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-02",
+            "itemTitle": "Farscape Season 2",
+            "file": "Farscape S02E13 Look at the Princess (3) The Maltese Crichton.mp4",
+            "name": "Farscape S02E13 Look at the Princess (3) The Maltese Crichton",
+            "url": "https://archive.org/download/farscape-s-02/Farscape%20S02E13%20Look%20at%20the%20Princess%20(3)%20The%20Maltese%20Crichton.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 273
+          },
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Beware of Dog",
+          "airdate": "2000-08-11",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-02",
+            "itemTitle": "Farscape Season 2",
+            "file": "Farscape S02E14 Beware of Dog.mp4",
+            "name": "Farscape S02E14 Beware of Dog",
+            "url": "https://archive.org/download/farscape-s-02/Farscape%20S02E14%20Beware%20of%20Dog.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 272
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Beware of Dog\" (0.65)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0214BewareOfDog.mp4",
+              "name": "FarScape0214BewareOfDog",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0214BewareOfDog.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 247
+            }
+          ]
+        },
+        {
+          "number": 15,
+          "name": "Won't Get Fooled Again",
+          "airdate": "2000-08-18",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-02",
+            "itemTitle": "Farscape Season 2",
+            "file": "Farscape S02E15 Won't Get Fooled Again.mp4",
+            "name": "Farscape S02E15 Won't Get Fooled Again",
+            "url": "https://archive.org/download/farscape-s-02/Farscape%20S02E15%20Won't%20Get%20Fooled%20Again.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 272
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Won't Get Fooled Again\" (0.74)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0215Won'tGetFooledAgain.mp4",
+              "name": "FarScape0215Won'tGetFooledAgain",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0215Won'tGetFooledAgain.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 257
+            }
+          ]
+        },
+        {
+          "number": 16,
+          "name": "The Locket",
+          "airdate": "2000-08-25",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-02",
+            "itemTitle": "Farscape Season 2",
+            "file": "Farscape S02E16 The Locket.mp4",
+            "name": "Farscape S02E16 The Locket",
+            "url": "https://archive.org/download/farscape-s-02/Farscape%20S02E16%20The%20Locket.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 273
+          },
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "The Ugly Truth",
+          "airdate": "2000-09-08",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-02",
+            "itemTitle": "Farscape Season 2",
+            "file": "Farscape S02E17 The Ugly Truth.mp4",
+            "name": "Farscape S02E17 The Ugly Truth",
+            "url": "https://archive.org/download/farscape-s-02/Farscape%20S02E17%20The%20Ugly%20Truth.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 272
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"The Ugly Truth\" (0.63)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0217TheUglyTruth.mp4",
+              "name": "FarScape0217TheUglyTruth",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0217TheUglyTruth.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 242
+            }
+          ]
+        },
+        {
+          "number": 18,
+          "name": "A Clockwork Nebari",
+          "airdate": "2000-09-15",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-02",
+            "itemTitle": "Farscape Season 2",
+            "file": "Farscape S02E18 A Clockwork Nebari.mp4",
+            "name": "Farscape S02E18 A Clockwork Nebari",
+            "url": "https://archive.org/download/farscape-s-02/Farscape%20S02E18%20A%20Clockwork%20Nebari.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 271
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"A Clockwork Nebari\" (0.73)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0218AClockworkNebari.mp4",
+              "name": "FarScape0218AClockworkNebari",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0218AClockworkNebari.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 251
+            }
+          ]
+        },
+        {
+          "number": 19,
+          "name": "Liars, Guns and Money Part I: A Not So Simple Plan",
+          "airdate": "2001-01-05",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-02",
+            "itemTitle": "Farscape Season 2",
+            "file": "Farscape S02E19 Liars, Guns and Money (1) A Not So Simple Plan.mp4",
+            "name": "Farscape S02E19 Liars, Guns and Money (1) A Not So Simple Plan",
+            "url": "https://archive.org/download/farscape-s-02/Farscape%20S02E19%20Liars%2C%20Guns%20and%20Money%20(1)%20A%20Not%20So%20Simple%20Plan.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 272
+          },
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Liars, Guns and Money Part II: With Friends Like These...",
+          "airdate": "2001-01-12",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.6,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-02",
+            "itemTitle": "Farscape Season 2",
+            "file": "Farscape S02E20 Liars, Guns and Money (2) With Friends Like These....mp4",
+            "name": "Farscape S02E20 Liars, Guns and Money (2) With Friends Like These...",
+            "url": "https://archive.org/download/farscape-s-02/Farscape%20S02E20%20Liars%2C%20Guns%20and%20Money%20(2)%20With%20Friends%20Like%20These....mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 272
+          },
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Liars, Guns and Money Part III: Plan B",
+          "airdate": "2001-01-19",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-02",
+            "itemTitle": "Farscape Season 2",
+            "file": "Farscape S02E21 Liars, Guns and Money (3) Plan B.mp4",
+            "name": "Farscape S02E21 Liars, Guns and Money (3) Plan B",
+            "url": "https://archive.org/download/farscape-s-02/Farscape%20S02E21%20Liars%2C%20Guns%20and%20Money%20(3)%20Plan%20B.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 271
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Liars, Guns and Money Part III: Plan B\" (0.62)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0221Liars,GunsAndMoney3.mp4",
+              "name": "FarScape0221Liars,GunsAndMoney3",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0221Liars%2CGunsAndMoney3.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 279
+            },
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Liars, Guns and Money Part III: Plan B\" (0.62)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0220Liars,GunsAndMoney2.mp4",
+              "name": "FarScape0220Liars,GunsAndMoney2",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0220Liars%2CGunsAndMoney2.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 265
+            },
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Liars, Guns and Money Part III: Plan B\" (0.62)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0219Liars,GunsAndMoney1.mp4",
+              "name": "FarScape0219Liars,GunsAndMoney1",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0219Liars%2CGunsAndMoney1.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 262
+            }
+          ]
+        },
+        {
+          "number": 22,
+          "name": "Die Me, Dichotomy",
+          "airdate": "2001-01-26",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-02",
+            "itemTitle": "Farscape Season 2",
+            "file": "Farscape S02E22 Die Me, Dichotomy.mp4",
+            "name": "Farscape S02E22 Die Me, Dichotomy",
+            "url": "https://archive.org/download/farscape-s-02/Farscape%20S02E22%20Die%20Me%2C%20Dichotomy.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 272
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Die Me, Dichotomy\" (0.69)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0222DieMe,Dichotomy.mp4",
+              "name": "FarScape0222DieMe,Dichotomy",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0222DieMe%2CDichotomy.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 249
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Season of Death",
+          "airdate": "2001-03-16",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-03-",
+            "itemTitle": "Farscape Season 3",
+            "file": "Farscape S03E01 Season of Death.mp4",
+            "name": "Farscape S03E01 Season of Death",
+            "url": "https://archive.org/download/farscape-s-03-/Farscape%20S03E01%20Season%20of%20Death.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 271
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Season of Death\" (0.65)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0301SeasonOfDeath.mp4",
+              "name": "FarScape0301SeasonOfDeath",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0301SeasonOfDeath.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 285
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "Suns and Lovers",
+          "airdate": "2001-03-23",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-03-",
+            "itemTitle": "Farscape Season 3",
+            "file": "Farscape S03E02 Suns and Lovers.mp4",
+            "name": "Farscape S03E02 Suns and Lovers",
+            "url": "https://archive.org/download/farscape-s-03-/Farscape%20S03E02%20Suns%20and%20Lovers.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 271
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Suns and Lovers\" (0.69)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0302SunsAndLovers.mp4",
+              "name": "FarScape0302SunsAndLovers",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0302SunsAndLovers.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 269
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "name": "Self Inflicted Wounds Part I: Could'a, Would'a, Should'a",
+          "airdate": "2001-03-30",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-03-",
+            "itemTitle": "Farscape Season 3",
+            "file": "Farscape S03E03 Self Inflicted Wounds (1) Could'a, Would'a, Should'a.mp4",
+            "name": "Farscape S03E03 Self Inflicted Wounds (1) Could'a, Would'a, Should'a",
+            "url": "https://archive.org/download/farscape-s-03-/Farscape%20S03E03%20Self%20Inflicted%20Wounds%20(1)%20Could'a%2C%20Would'a%2C%20Should'a.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 272
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Self Inflicted Wounds Part I: Could'a, Would'a, Should'a\" (0.61)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0304SelfInflictedWounds2.mp4",
+              "name": "FarScape0304SelfInflictedWounds2",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0304SelfInflictedWounds2.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 301
+            },
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Self Inflicted Wounds Part I: Could'a, Would'a, Should'a\" (0.62)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0303SelfInflictedWounds1.mp4",
+              "name": "FarScape0303SelfInflictedWounds1",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0303SelfInflictedWounds1.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 285
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "name": "Self Inflicted Wounds Part II: Wait for the Wheel",
+          "airdate": "2001-04-06",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-03-",
+            "itemTitle": "Farscape Season 3",
+            "file": "Farscape S03E04 Self Inflicted Wounds (2) Wait for the Wheel.mp4",
+            "name": "Farscape S03E04 Self Inflicted Wounds (2) Wait for the Wheel",
+            "url": "https://archive.org/download/farscape-s-03-/Farscape%20S03E04%20Self%20Inflicted%20Wounds%20(2)%20Wait%20for%20the%20Wheel.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 271
+          },
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "...Different Destinations",
+          "airdate": "2001-04-13",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-03-",
+            "itemTitle": "Farscape Season 3",
+            "file": "Farscape S03E05 ...Different Destinations.mp4",
+            "name": "Farscape S03E05 ...Different Destinations",
+            "url": "https://archive.org/download/farscape-s-03-/Farscape%20S03E05%20...Different%20Destinations.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 270
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"...Different Destinations\" (0.76)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0305DifferentDestinations.mp4",
+              "name": "FarScape0305DifferentDestinations",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0305DifferentDestinations.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 296
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "name": "Eat Me",
+          "airdate": "2001-04-20",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-03-",
+            "itemTitle": "Farscape Season 3",
+            "file": "Farscape S03E06 Eat Me.mp4",
+            "name": "Farscape S03E06 Eat Me",
+            "url": "https://archive.org/download/farscape-s-03-/Farscape%20S03E06%20Eat%20Me.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 272
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Thanks for Sharing",
+          "airdate": "2001-06-15",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-03-",
+            "itemTitle": "Farscape Season 3",
+            "file": "Farscape S03E07 Thanks for Sharing.mp4",
+            "name": "Farscape S03E07 Thanks for Sharing",
+            "url": "https://archive.org/download/farscape-s-03-/Farscape%20S03E07%20Thanks%20for%20Sharing.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 271
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Thanks for Sharing\" (0.74)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0307ThanksForSharing.mp4",
+              "name": "FarScape0307ThanksForSharing",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0307ThanksForSharing.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 278
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "name": "Green Eyed Monster",
+          "airdate": "2001-06-22",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-03-",
+            "itemTitle": "Farscape Season 3",
+            "file": "Farscape S03E08 Green Eyed Monster.mp4",
+            "name": "Farscape S03E08 Green Eyed Monster",
+            "url": "https://archive.org/download/farscape-s-03-/Farscape%20S03E08%20Green%20Eyed%20Monster.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 272
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Green Eyed Monster\" (0.71)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0308GreenEyedMonster.mp4",
+              "name": "FarScape0308GreenEyedMonster",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0308GreenEyedMonster.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 247
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "name": "Losing Time",
+          "airdate": "2001-06-29",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-03-",
+            "itemTitle": "Farscape Season 3",
+            "file": "Farscape S03E09 Losing Time.mp4",
+            "name": "Farscape S03E09 Losing Time",
+            "url": "https://archive.org/download/farscape-s-03-/Farscape%20S03E09%20Losing%20Time.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 270
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Losing Time\" (0.60)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0309LosingTime.mp4",
+              "name": "FarScape0309LosingTime",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0309LosingTime.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 291
+            }
+          ]
+        },
+        {
+          "number": 10,
+          "name": "Relativity",
+          "airdate": "2001-07-06",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-03-",
+            "itemTitle": "Farscape Season 3",
+            "file": "Farscape S03E10 Relativity.mp4",
+            "name": "Farscape S03E10 Relativity",
+            "url": "https://archive.org/download/farscape-s-03-/Farscape%20S03E10%20Relativity.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 272
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Relativity\" (0.60)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0310Relativity.mp4",
+              "name": "FarScape0310Relativity",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0310Relativity.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 269
+            }
+          ]
+        },
+        {
+          "number": 11,
+          "name": "Incubator",
+          "airdate": "2001-07-13",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-03-",
+            "itemTitle": "Farscape Season 3",
+            "file": "Farscape S03E11 Incubator.mp4",
+            "name": "Farscape S03E11 Incubator",
+            "url": "https://archive.org/download/farscape-s-03-/Farscape%20S03E11%20Incubator.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 272
+          },
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Meltdown",
+          "airdate": "2001-07-14",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-03-",
+            "itemTitle": "Farscape Season 3",
+            "file": "Farscape S03E12 Meltdown.mp4",
+            "name": "Farscape S03E12 Meltdown",
+            "url": "https://archive.org/download/farscape-s-03-/Farscape%20S03E12%20Meltdown.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 271
+          },
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Scratch 'n' Sniff",
+          "airdate": "2001-07-20",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-03-",
+            "itemTitle": "Farscape Season 3",
+            "file": "Farscape S03E13 Scratch 'n Sniff.mp4",
+            "name": "Farscape S03E13 Scratch 'n Sniff",
+            "url": "https://archive.org/download/farscape-s-03-/Farscape%20S03E13%20Scratch%20'n%20Sniff.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 270
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Scratch 'n' Sniff\" (0.69)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0313Scratch'nSniff.mp4",
+              "name": "FarScape0313Scratch'nSniff",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0313Scratch'nSniff.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 288
+            }
+          ]
+        },
+        {
+          "number": 14,
+          "name": "Infinite Possibilities Part I: Daedalus Demands",
+          "airdate": "2001-07-27",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-03-",
+            "itemTitle": "Farscape Season 3",
+            "file": "Farscape S03E14 Infinite Possibilities (1) Daedalus Demands.mp4",
+            "name": "Farscape S03E14 Infinite Possibilities (1) Daedalus Demands",
+            "url": "https://archive.org/download/farscape-s-03-/Farscape%20S03E14%20Infinite%20Possibilities%20(1)%20Daedalus%20Demands.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 270
+          },
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Infinite Possibilities Part II: Icarus Abides",
+          "airdate": "2001-08-03",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-03-",
+            "itemTitle": "Farscape Season 3",
+            "file": "Farscape S03E15 Infinite Possibilities (2) Icarus Abides.mp4",
+            "name": "Farscape S03E15 Infinite Possibilities (2) Icarus Abides",
+            "url": "https://archive.org/download/farscape-s-03-/Farscape%20S03E15%20Infinite%20Possibilities%20(2)%20Icarus%20Abides.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 272
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Infinite Possibilities Part II: Icarus Abides\" (0.65)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0314InfinitePossibilities1.mp4",
+              "name": "FarScape0314InfinitePossibilities1",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0314InfinitePossibilities1.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 279
+            },
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Infinite Possibilities Part II: Icarus Abides\" (0.65)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0315InfinitePossibilities2.mp4",
+              "name": "FarScape0315InfinitePossibilities2",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0315InfinitePossibilities2.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 271
+            }
+          ]
+        },
+        {
+          "number": 16,
+          "name": "Revenging Angel",
+          "airdate": "2001-08-10",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-03-",
+            "itemTitle": "Farscape Season 3",
+            "file": "Farscape S03E16 Revenging Angel.mp4",
+            "name": "Farscape S03E16 Revenging Angel",
+            "url": "https://archive.org/download/farscape-s-03-/Farscape%20S03E16%20Revenging%20Angel.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 270
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Revenging Angel\" (0.65)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0316RevengingAngel.mp4",
+              "name": "FarScape0316RevengingAngel",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0316RevengingAngel.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 272
+            }
+          ]
+        },
+        {
+          "number": 17,
+          "name": "The Choice",
+          "airdate": "2001-08-17",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-03-",
+            "itemTitle": "Farscape Season 3",
+            "file": "Farscape S03E17 The Choice.mp4",
+            "name": "Farscape S03E17 The Choice",
+            "url": "https://archive.org/download/farscape-s-03-/Farscape%20S03E17%20The%20Choice.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 272
+          },
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Fractures",
+          "airdate": "2001-08-24",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-03-",
+            "itemTitle": "Farscape Season 3",
+            "file": "Farscape S03E18 Fractures.mp4",
+            "name": "Farscape S03E18 Fractures",
+            "url": "https://archive.org/download/farscape-s-03-/Farscape%20S03E18%20Fractures.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 272
+          },
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "I-Yensch, You-Yensch",
+          "airdate": "2002-04-05",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-03-",
+            "itemTitle": "Farscape Season 3",
+            "file": "Farscape S03E19 I-Yensch, You-Yensch.mp4",
+            "name": "Farscape S03E19 I-Yensch, You-Yensch",
+            "url": "https://archive.org/download/farscape-s-03-/Farscape%20S03E19%20I-Yensch%2C%20You-Yensch.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 270
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"I-Yensch, You-Yensch\" (0.71)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0319I-Yensch,You-Yensch.mp4",
+              "name": "FarScape0319I-Yensch,You-Yensch",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0319I-Yensch%2CYou-Yensch.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 264
+            }
+          ]
+        },
+        {
+          "number": 20,
+          "name": "Into the Lion's Den Part I: Lambs to the Slaughter",
+          "airdate": "2002-04-12",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-03-",
+            "itemTitle": "Farscape Season 3",
+            "file": "Farscape S03E20 Into the Lion's Den (1) Lambs to the Slaughter.mp4",
+            "name": "Farscape S03E20 Into the Lion's Den (1) Lambs to the Slaughter",
+            "url": "https://archive.org/download/farscape-s-03-/Farscape%20S03E20%20Into%20the%20Lion's%20Den%20(1)%20Lambs%20to%20the%20Slaughter.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 271
+          },
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Into the Lion's Den Part II: Wolf in Sheep's Clothing",
+          "airdate": "2002-04-19",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-03-",
+            "itemTitle": "Farscape Season 3",
+            "file": "Farscape S03E21 Into the Lion's Den (2) Wolf in Sheep's Clothing.mp4",
+            "name": "Farscape S03E21 Into the Lion's Den (2) Wolf in Sheep's Clothing",
+            "url": "https://archive.org/download/farscape-s-03-/Farscape%20S03E21%20Into%20the%20Lion's%20Den%20(2)%20Wolf%20in%20Sheep's%20Clothing.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 272
+          },
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Dog with Two Bones",
+          "airdate": "2002-04-26",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-03-",
+            "itemTitle": "Farscape Season 3",
+            "file": "Farscape S03E22 Dog with Two Bones.mp4",
+            "name": "Farscape S03E22 Dog with Two Bones",
+            "url": "https://archive.org/download/farscape-s-03-/Farscape%20S03E22%20Dog%20with%20Two%20Bones.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 272
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Dog with Two Bones\" (0.70)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0322DogWithTwoBones.mp4",
+              "name": "FarScape0322DogWithTwoBones",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0322DogWithTwoBones.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 247
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "season": 4,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Crichton Kicks",
+          "airdate": "2002-06-07",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-04",
+            "itemTitle": "Farscape Season 4",
+            "file": "Farscape S04E01 Crichton Kicks.mp4",
+            "name": "Farscape S04E01 Crichton Kicks",
+            "url": "https://archive.org/download/farscape-s-04/Farscape%20S04E01%20Crichton%20Kicks.mp4",
+            "seconds": 2770,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 272
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Crichton Kicks\" (0.65)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0401CrichtonKicks.mp4",
+              "name": "FarScape0401CrichtonKicks",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0401CrichtonKicks.mp4",
+              "seconds": 2770,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 576
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "What Was Lost Part I: Sacrifice",
+          "airdate": "2002-06-14",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-04",
+            "itemTitle": "Farscape Season 4",
+            "file": "Farscape S04E02 What Was Lost (1) Sacrifice.mp4",
+            "name": "Farscape S04E02 What Was Lost (1) Sacrifice",
+            "url": "https://archive.org/download/farscape-s-04/Farscape%20S04E02%20What%20Was%20Lost%20(1)%20Sacrifice.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 271
+          },
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "What Was Lost Part II: Resurrection",
+          "airdate": "2002-06-21",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-04",
+            "itemTitle": "Farscape Season 4",
+            "file": "Farscape S04E03 What Was Lost (2) Resurrection.mp4",
+            "name": "Farscape S04E03 What Was Lost (2) Resurrection",
+            "url": "https://archive.org/download/farscape-s-04/Farscape%20S04E03%20What%20Was%20Lost%20(2)%20Resurrection.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 271
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Lava's a Many Splendored Thing",
+          "airdate": "2002-06-28",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-04",
+            "itemTitle": "Farscape Season 4",
+            "file": "Farscape S04E04 Lava's a Many Splendored Thing.mp4",
+            "name": "Farscape S04E04 Lava's a Many Splendored Thing",
+            "url": "https://archive.org/download/farscape-s-04/Farscape%20S04E04%20Lava's%20a%20Many%20Splendored%20Thing.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 272
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Lava's a Many Splendored Thing\" (0.81)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0404Lava'sAManySplendoredThing.mp4",
+              "name": "FarScape0404Lava'sAManySplendoredThing",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0404Lava'sAManySplendoredThing.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 328
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "name": "Promises",
+          "airdate": "2002-07-12",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-04",
+            "itemTitle": "Farscape Season 4",
+            "file": "Farscape S04E05 Promises.mp4",
+            "name": "Farscape S04E05 Promises",
+            "url": "https://archive.org/download/farscape-s-04/Farscape%20S04E05%20Promises.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 272
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Natural Election",
+          "airdate": "2002-07-19",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-04",
+            "itemTitle": "Farscape Season 4",
+            "file": "Farscape S04E06 Natural Election.mp4",
+            "name": "Farscape S04E06 Natural Election",
+            "url": "https://archive.org/download/farscape-s-04/Farscape%20S04E06%20Natural%20Election.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 273
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Natural Election\" (0.68)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0406NaturalElection.mp4",
+              "name": "FarScape0406NaturalElection",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0406NaturalElection.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 260
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "name": "John Quixote",
+          "airdate": "2002-07-26",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-04",
+            "itemTitle": "Farscape Season 4",
+            "file": "Farscape S04E07 John Quixote.mp4",
+            "name": "Farscape S04E07 John Quixote",
+            "url": "https://archive.org/download/farscape-s-04/Farscape%20S04E07%20John%20Quixote.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 271
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"John Quixote\" (0.63)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0407JohnQuixote.mp4",
+              "name": "FarScape0407JohnQuixote",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0407JohnQuixote.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 349
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "name": "I Shrink Therefore I Am",
+          "airdate": "2002-08-02",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-04",
+            "itemTitle": "Farscape Season 4",
+            "file": "Farscape S04E08 I Shrink Therefore I Am.mp4",
+            "name": "Farscape S04E08 I Shrink Therefore I Am",
+            "url": "https://archive.org/download/farscape-s-04/Farscape%20S04E08%20I%20Shrink%20Therefore%20I%20Am.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 271
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"I Shrink Therefore I Am\" (0.74)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0408IShrinkThereforeIAm.mp4",
+              "name": "FarScape0408IShrinkThereforeIAm",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0408IShrinkThereforeIAm.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 287
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "name": "A Prefect Murder",
+          "airdate": "2002-08-09",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-04",
+            "itemTitle": "Farscape Season 4",
+            "file": "Farscape S04E09 A Prefect Murder.mp4",
+            "name": "Farscape S04E09 A Prefect Murder",
+            "url": "https://archive.org/download/farscape-s-04/Farscape%20S04E09%20A%20Prefect%20Murder.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 272
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"A Prefect Murder\" (0.70)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0409APrefectMurder.mp4",
+              "name": "FarScape0409APrefectMurder",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0409APrefectMurder.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 335
+            }
+          ]
+        },
+        {
+          "number": 10,
+          "name": "Coup by Clam",
+          "airdate": "2002-08-16",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-04",
+            "itemTitle": "Farscape Season 4",
+            "file": "Farscape S04E10 Coup by Clam.mp4",
+            "name": "Farscape S04E10 Coup by Clam",
+            "url": "https://archive.org/download/farscape-s-04/Farscape%20S04E10%20Coup%20by%20Clam.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 271
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Coup by Clam\" (0.60)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0410CoupByClam.mp4",
+              "name": "FarScape0410CoupByClam",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0410CoupByClam.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 337
+            }
+          ]
+        },
+        {
+          "number": 11,
+          "name": "Unrealized Reality",
+          "airdate": "2002-08-23",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-04",
+            "itemTitle": "Farscape Season 4",
+            "file": "Farscape S04E11 Unrealized Reality (1).mp4",
+            "name": "Farscape S04E11 Unrealized Reality (1)",
+            "url": "https://archive.org/download/farscape-s-04/Farscape%20S04E11%20Unrealized%20Reality%20(1).mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 272
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Unrealized Reality\" (0.67)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0411UnrealizedReality.mp4",
+              "name": "FarScape0411UnrealizedReality",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0411UnrealizedReality.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 296
+            }
+          ]
+        },
+        {
+          "number": 12,
+          "name": "Kansas",
+          "airdate": "2003-01-10",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-04",
+            "itemTitle": "Farscape Season 4",
+            "file": "Farscape S04E12 Kansas (2).mp4",
+            "name": "Farscape S04E12 Kansas (2)",
+            "url": "https://archive.org/download/farscape-s-04/Farscape%20S04E12%20Kansas%20(2).mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 271
+          },
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Terra Firma",
+          "airdate": "2003-01-17",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-04",
+            "itemTitle": "Farscape Season 4",
+            "file": "Farscape S04E13 Terra Firma (3).mp4",
+            "name": "Farscape S04E13 Terra Firma (3)",
+            "url": "https://archive.org/download/farscape-s-04/Farscape%20S04E13%20Terra%20Firma%20(3).mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 271
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Terra Firma\" (0.60)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0413TerraFirma.mp4",
+              "name": "FarScape0413TerraFirma",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0413TerraFirma.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 300
+            }
+          ]
+        },
+        {
+          "number": 14,
+          "name": "Twice Shy",
+          "airdate": "2003-01-24",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-04",
+            "itemTitle": "Farscape Season 4",
+            "file": "Farscape S04E14 Twice Shy.mp4",
+            "name": "Farscape S04E14 Twice Shy",
+            "url": "https://archive.org/download/farscape-s-04/Farscape%20S04E14%20Twice%20Shy.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 272
+          },
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Mental as Anything",
+          "airdate": "2003-01-31",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-04",
+            "itemTitle": "Farscape Season 4",
+            "file": "Farscape S04E15 Mental as Anything.mp4",
+            "name": "Farscape S04E15 Mental as Anything",
+            "url": "https://archive.org/download/farscape-s-04/Farscape%20S04E15%20Mental%20as%20Anything.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 273
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Mental as Anything\" (0.71)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0415MentalAsAnything.mp4",
+              "name": "FarScape0415MentalAsAnything",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0415MentalAsAnything.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 286
+            }
+          ]
+        },
+        {
+          "number": 16,
+          "name": "Bringing Home the Beacon",
+          "airdate": "2003-02-07",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-04",
+            "itemTitle": "Farscape Season 4",
+            "file": "Farscape S04E16 Bringing Home the Beacon.mp4",
+            "name": "Farscape S04E16 Bringing Home the Beacon",
+            "url": "https://archive.org/download/farscape-s-04/Farscape%20S04E16%20Bringing%20Home%20the%20Beacon.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 272
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Bringing Home the Beacon\" (0.75)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0416BringingHomeTheBeacon.mp4",
+              "name": "FarScape0416BringingHomeTheBeacon",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0416BringingHomeTheBeacon.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 280
+            }
+          ]
+        },
+        {
+          "number": 17,
+          "name": "A Constellation of Doubt",
+          "airdate": "2003-02-14",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-04",
+            "itemTitle": "Farscape Season 4",
+            "file": "Farscape S04E17 A Constellation of Doubt.mp4",
+            "name": "Farscape S04E17 A Constellation of Doubt",
+            "url": "https://archive.org/download/farscape-s-04/Farscape%20S04E17%20A%20Constellation%20of%20Doubt.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 270
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"A Constellation of Doubt\" (0.76)",
+              "item": "far-scape-Season-1",
+              "itemTitle": "FarScape",
+              "file": "FarScape0417AConstellationOfDoubt.mp4",
+              "name": "FarScape0417AConstellationOfDoubt",
+              "url": "https://archive.org/download/far-scape-Season-1/FarScape0417AConstellationOfDoubt.mp4",
+              "seconds": 2760,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 280
+            }
+          ]
+        },
+        {
+          "number": 18,
+          "name": "Prayer",
+          "airdate": "2003-02-21",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-04",
+            "itemTitle": "Farscape Season 4",
+            "file": "Farscape S04E18 Prayer.mp4",
+            "name": "Farscape S04E18 Prayer",
+            "url": "https://archive.org/download/farscape-s-04/Farscape%20S04E18%20Prayer.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 273
+          },
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "We're So Screwed Part I: Fetal Attraction",
+          "airdate": "2003-02-28",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-04",
+            "itemTitle": "Farscape Season 4",
+            "file": "Farscape S04E19 We're So Screwed (1) Fetal Attraction.mp4",
+            "name": "Farscape S04E19 We're So Screwed (1) Fetal Attraction",
+            "url": "https://archive.org/download/farscape-s-04/Farscape%20S04E19%20We're%20So%20Screwed%20(1)%20Fetal%20Attraction.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 272
+          },
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "We're So Screwed Part II: Hot to Katratzi",
+          "airdate": "2003-03-07",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-04",
+            "itemTitle": "Farscape Season 4",
+            "file": "Farscape S04E20 We're So Screwed (2) Hot to Katratzi.mp4",
+            "name": "Farscape S04E20 We're So Screwed (2) Hot to Katratzi",
+            "url": "https://archive.org/download/farscape-s-04/Farscape%20S04E20%20We're%20So%20Screwed%20(2)%20Hot%20to%20Katratzi.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 271
+          },
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "We're So Screwed Part III: La Bomba",
+          "airdate": "2003-03-14",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-04",
+            "itemTitle": "Farscape Season 4",
+            "file": "Farscape S04E21 We're So Screwed (3) La Bomba.mp4",
+            "name": "Farscape S04E21 We're So Screwed (3) La Bomba",
+            "url": "https://archive.org/download/farscape-s-04/Farscape%20S04E21%20We're%20So%20Screwed%20(3)%20La%20Bomba.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 272
+          },
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Bad Timing",
+          "airdate": "2003-03-21",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "farscape-s-04",
+            "itemTitle": "Farscape Season 4",
+            "file": "Farscape S04E22 Bad Timing.mp4",
+            "name": "Farscape S04E22 Bad Timing",
+            "url": "https://archive.org/download/farscape-s-04/Farscape%20S04E22%20Bad%20Timing.mp4",
+            "seconds": 2760,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 272
+          },
+          "alternates": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,438 @@
+{
+  "show": "Titan Maximum",
+  "slug": "titan-maximum",
+  "type": "Adult Swim",
+  "network": "Adult Swim",
+  "matchedAt": "2026-10-13T07:46:16.040Z",
+  "tvmaze": {
+    "id": 26933,
+    "name": "Titan Maximum",
+    "runtime": 15,
+    "premiered": "2009-09-27",
+    "network": "Adult Swim"
+  },
+  "coverage": {
+    "total": 9,
+    "live": 8,
+    "review": 0,
+    "missing": 1,
+    "pct": 89
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Pilot",
+          "airdate": "2009-09-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Busted",
+          "airdate": "2009-10-04",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "titan-maximum-s-01-e-01",
+            "itemTitle": "Titan Maximum S01 2009",
+            "file": "Titan Maximum S01E02.mp4",
+            "name": "Titan Maximum S01E02",
+            "url": "https://archive.org/download/titan-maximum-s-01-e-01/Titan%20Maximum%20S01E02.mp4",
+            "seconds": 707,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 69
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Busted\" (0.95)",
+              "item": "titan-maximum-se-01-e-01-the-beginning",
+              "itemTitle": "Titan Maximum (2009)",
+              "file": "Titan Maximum - SE01E02 - Busted.mp4",
+              "name": "Titan Maximum - SE01E02 - Busted",
+              "url": "https://archive.org/download/titan-maximum-se-01-e-01-the-beginning/Titan%20Maximum%20-%20SE01E02%20-%20Busted.mp4",
+              "seconds": 707,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 69
+            },
+            {
+              "conf": 0.65,
+              "why": "absolute episode number",
+              "item": "x-treme-riderz-full-episodes",
+              "itemTitle": "X Treme Riderz - Full Episodes",
+              "file": "X-Treme Riderz - Episode 2.mp4",
+              "name": "X-Treme Riderz - Episode 2",
+              "url": "https://archive.org/download/x-treme-riderz-full-episodes/X-Treme%20Riderz%20-%20Episode%202.mp4",
+              "seconds": 867,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 136
+            },
+            {
+              "conf": 0.65,
+              "why": "absolute episode number",
+              "item": "x-treme-riderz-episode-1",
+              "itemTitle": "X-Treme Riderz - Full Episodes",
+              "file": "X-Treme Riderz - Episode 2.mp4",
+              "name": "X-Treme Riderz - Episode 2",
+              "url": "https://archive.org/download/x-treme-riderz-episode-1/X-Treme%20Riderz%20-%20Episode%202.mp4",
+              "seconds": 867,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 136
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "name": "Tip of the Iceberg",
+          "airdate": "2009-10-11",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "titan-maximum-s-01-e-01",
+            "itemTitle": "Titan Maximum S01 2009",
+            "file": "Titan Maximum S01E03.mp4",
+            "name": "Titan Maximum S01E03",
+            "url": "https://archive.org/download/titan-maximum-s-01-e-01/Titan%20Maximum%20S01E03.mp4",
+            "seconds": 707,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 69
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Tip of the Iceberg\" (0.95)",
+              "item": "titan-maximum-se-01-e-01-the-beginning",
+              "itemTitle": "Titan Maximum (2009)",
+              "file": "Titan Maximum - SE01E03 - Tip of the Iceberg.mp4",
+              "name": "Titan Maximum - SE01E03 - Tip of the Iceberg",
+              "url": "https://archive.org/download/titan-maximum-se-01-e-01-the-beginning/Titan%20Maximum%20-%20SE01E03%20-%20Tip%20of%20the%20Iceberg.mp4",
+              "seconds": 707,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 69
+            },
+            {
+              "conf": 0.65,
+              "why": "absolute episode number",
+              "item": "x-treme-riderz-full-episodes",
+              "itemTitle": "X Treme Riderz - Full Episodes",
+              "file": "X-Treme Riderz - Episode 3.mp4",
+              "name": "X-Treme Riderz - Episode 3",
+              "url": "https://archive.org/download/x-treme-riderz-full-episodes/X-Treme%20Riderz%20-%20Episode%203.mp4",
+              "seconds": 926,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 203
+            },
+            {
+              "conf": 0.65,
+              "why": "absolute episode number",
+              "item": "x-treme-riderz-episode-1",
+              "itemTitle": "X-Treme Riderz - Full Episodes",
+              "file": "X-Treme Riderz - Episode 3.mp4",
+              "name": "X-Treme Riderz - Episode 3",
+              "url": "https://archive.org/download/x-treme-riderz-episode-1/X-Treme%20Riderz%20-%20Episode%203.mp4",
+              "seconds": 926,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 203
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "name": "Went to Party, Got Crabs",
+          "airdate": "2009-10-18",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "titan-maximum-s-01-e-01",
+            "itemTitle": "Titan Maximum S01 2009",
+            "file": "Titan Maximum S01E04.mp4",
+            "name": "Titan Maximum S01E04",
+            "url": "https://archive.org/download/titan-maximum-s-01-e-01/Titan%20Maximum%20S01E04.mp4",
+            "seconds": 680,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 66
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Went to Party, Got Crabs\" (0.95)",
+              "item": "titan-maximum-se-01-e-01-the-beginning",
+              "itemTitle": "Titan Maximum (2009)",
+              "file": "Titan Maximum - SE01E04 - Went to Party, Got Crabs.mp4",
+              "name": "Titan Maximum - SE01E04 - Went to Party, Got Crabs",
+              "url": "https://archive.org/download/titan-maximum-se-01-e-01-the-beginning/Titan%20Maximum%20-%20SE01E04%20-%20Went%20to%20Party%2C%20Got%20Crabs.mp4",
+              "seconds": 680,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 66
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "name": "To Eris, Human!",
+          "airdate": "2009-10-25",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "titan-maximum-s-01-e-01",
+            "itemTitle": "Titan Maximum S01 2009",
+            "file": "Titan Maximum S01E05.mp4",
+            "name": "Titan Maximum S01E05",
+            "url": "https://archive.org/download/titan-maximum-s-01-e-01/Titan%20Maximum%20S01E05.mp4",
+            "seconds": 688,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 68
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"To Eris, Human!\" (0.95)",
+              "item": "titan-maximum-se-01-e-01-the-beginning",
+              "itemTitle": "Titan Maximum (2009)",
+              "file": "Titan Maximum - SE01E05 - To Eris, Human.mp4",
+              "name": "Titan Maximum - SE01E05 - To Eris, Human",
+              "url": "https://archive.org/download/titan-maximum-se-01-e-01-the-beginning/Titan%20Maximum%20-%20SE01E05%20-%20To%20Eris%2C%20Human.mp4",
+              "seconds": 688,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 68
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "name": "Dirty Lansbury",
+          "airdate": "2009-11-01",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "titan-maximum-s-01-e-01",
+            "itemTitle": "Titan Maximum S01 2009",
+            "file": "Titan Maximum S01E06.mp4",
+            "name": "Titan Maximum S01E06",
+            "url": "https://archive.org/download/titan-maximum-s-01-e-01/Titan%20Maximum%20S01E06.mp4",
+            "seconds": 655,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 64
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Dirty Lansbury\" (0.95)",
+              "item": "titan-maximum-se-01-e-01-the-beginning",
+              "itemTitle": "Titan Maximum (2009)",
+              "file": "Titan Maximum - SE01E06 - Dirty Lansbury.mp4",
+              "name": "Titan Maximum - SE01E06 - Dirty Lansbury",
+              "url": "https://archive.org/download/titan-maximum-se-01-e-01-the-beginning/Titan%20Maximum%20-%20SE01E06%20-%20Dirty%20Lansbury.mp4",
+              "seconds": 655,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 64
+            },
+            {
+              "conf": 0.65,
+              "why": "absolute episode number",
+              "item": "x-treme-riderz-full-episodes",
+              "itemTitle": "X Treme Riderz - Full Episodes",
+              "file": "X-Treme Riderz - Episode 6.mp4",
+              "name": "X-Treme Riderz - Episode 6",
+              "url": "https://archive.org/download/x-treme-riderz-full-episodes/X-Treme%20Riderz%20-%20Episode%206.mp4",
+              "seconds": 797,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 171
+            },
+            {
+              "conf": 0.65,
+              "why": "absolute episode number",
+              "item": "x-treme-riderz-episode-1",
+              "itemTitle": "X-Treme Riderz - Full Episodes",
+              "file": "X-Treme Riderz - Episode 6.mp4",
+              "name": "X-Treme Riderz - Episode 6",
+              "url": "https://archive.org/download/x-treme-riderz-episode-1/X-Treme%20Riderz%20-%20Episode%206.mp4",
+              "seconds": 797,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 171
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "name": "Megamum Overdrive",
+          "airdate": "2009-11-08",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "titan-maximum-s-01-e-01",
+            "itemTitle": "Titan Maximum S01 2009",
+            "file": "Titan Maximum S01E07.mp4",
+            "name": "Titan Maximum S01E07",
+            "url": "https://archive.org/download/titan-maximum-s-01-e-01/Titan%20Maximum%20S01E07.mp4",
+            "seconds": 671,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 66
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Megamum Overdrive\" (0.95)",
+              "item": "titan-maximum-se-01-e-01-the-beginning",
+              "itemTitle": "Titan Maximum (2009)",
+              "file": "Titan Maximum - SE01E07 - Megamum Overdrive.mp4",
+              "name": "Titan Maximum - SE01E07 - Megamum Overdrive",
+              "url": "https://archive.org/download/titan-maximum-se-01-e-01-the-beginning/Titan%20Maximum%20-%20SE01E07%20-%20Megamum%20Overdrive.mp4",
+              "seconds": 671,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 66
+            },
+            {
+              "conf": 0.65,
+              "why": "absolute episode number",
+              "item": "x-treme-riderz-full-episodes",
+              "itemTitle": "X Treme Riderz - Full Episodes",
+              "file": "X-Treme Riderz - Episode 7.mp4",
+              "name": "X-Treme Riderz - Episode 7",
+              "url": "https://archive.org/download/x-treme-riderz-full-episodes/X-Treme%20Riderz%20-%20Episode%207.mp4",
+              "seconds": 1205,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 207
+            },
+            {
+              "conf": 0.65,
+              "why": "absolute episode number",
+              "item": "x-treme-riderz-episode-1",
+              "itemTitle": "X-Treme Riderz - Full Episodes",
+              "file": "X-Treme Riderz - Episode 7.mp4",
+              "name": "X-Treme Riderz - Episode 7",
+              "url": "https://archive.org/download/x-treme-riderz-episode-1/X-Treme%20Riderz%20-%20Episode%207.mp4",
+              "seconds": 1205,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 207
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "name": "Mercury Falling",
+          "airdate": "2009-11-15",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "titan-maximum-s-01-e-01",
+            "itemTitle": "Titan Maximum S01 2009",
+            "file": "Titan Maximum S01E08.mp4",
+            "name": "Titan Maximum S01E08",
+            "url": "https://archive.org/download/titan-maximum-s-01-e-01/Titan%20Maximum%20S01E08.mp4",
+            "seconds": 674,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 66
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Mercury Falling\" (0.95)",
+              "item": "titan-maximum-se-01-e-01-the-beginning",
+              "itemTitle": "Titan Maximum (2009)",
+              "file": "Titan Maximum - SE01E08 - Mercury Falling.mp4",
+              "name": "Titan Maximum - SE01E08 - Mercury Falling",
+              "url": "https://archive.org/download/titan-maximum-se-01-e-01-the-beginning/Titan%20Maximum%20-%20SE01E08%20-%20Mercury%20Falling.mp4",
+              "seconds": 674,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 66
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "name": "One Billion Dead Grandparents",
+          "airdate": "2009-11-22",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "titan-maximum-s-01-e-01",
+            "itemTitle": "Titan Maximum S01 2009",
+            "file": "Titan Maximum S01E09.mp4",
+            "name": "Titan Maximum S01E09",
+            "url": "https://archive.org/download/titan-maximum-s-01-e-01/Titan%20Maximum%20S01E09.mp4",
+            "seconds": 691,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 67
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"One Billion Dead Grandparents\" (0.95)",
+              "item": "titan-maximum-se-01-e-01-the-beginning",
+              "itemTitle": "Titan Maximum (2009)",
+              "file": "Titan Maximum - SE01E09 - One Billion Dead Grandparents.mp4",
+              "name": "Titan Maximum - SE01E09 - One Billion Dead Grandparents",
+              "url": "https://archive.org/download/titan-maximum-se-01-e-01-the-beginning/Titan%20Maximum%20-%20SE01E09%20-%20One%20Billion%20Dead%20Grandparents.mp4",
+              "seconds": 691,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 67
+            },
+            {
+              "conf": 0.55,
+              "why": "absolute episode number",
+              "item": "x-treme-riderz-full-episodes",
+              "itemTitle": "X Treme Riderz - Full Episodes",
+              "file": "X-Treme Riderz - Episode 9.mp4",
+              "name": "X-Treme Riderz - Episode 9",
+              "url": "https://archive.org/download/x-treme-riderz-full-episodes/X-Treme%20Riderz%20-%20Episode%209.mp4",
+              "seconds": 1711,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 250
+            },
+            {
+              "conf": 0.55,
+              "why": "absolute episode number",
+              "item": "x-treme-riderz-episode-1",
+              "itemTitle": "X-Treme Riderz - Full Episodes",
+              "file": "X-Treme Riderz - Episode 9.mp4",
+              "name": "X-Treme Riderz - Episode 9",
+              "url": "https://archive.org/download/x-treme-riderz-episode-1/X-Treme%20Riderz%20-%20Episode%209.mp4",
+              "seconds": 1711,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 250
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

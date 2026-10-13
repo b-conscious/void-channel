@@ -1,0 +1,407 @@
+{
+  "show": "The Dresden Files",
+  "slug": "the-dresden-files",
+  "type": "Sci-Fi, Fantasy and Horror",
+  "network": "Sci-Fi Channel",
+  "matchedAt": "2026-10-13T07:46:17.654Z",
+  "tvmaze": {
+    "id": 957,
+    "name": "The Dresden Files",
+    "runtime": 60,
+    "premiered": "2007-01-21",
+    "network": "Syfy"
+  },
+  "coverage": {
+    "total": 12,
+    "live": 12,
+    "review": 0,
+    "missing": 0,
+    "pct": 100
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Birds of a Feather",
+          "airdate": "2007-01-21",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "The.Dresden.Files.S01E10.WhatAboutBob9",
+            "itemTitle": "The. Dresden. Files. S 01 E 10. What About Bob( 9",
+            "file": "The.Dresden.Files.S01E01.Birds of a Feather(3).mp4",
+            "name": "The.Dresden.Files.S01E01.Birds of a Feather(3)",
+            "url": "https://archive.org/download/The.Dresden.Files.S01E10.WhatAboutBob9/The.Dresden.Files.S01E01.Birds%20of%20a%20Feather(3).mp4",
+            "seconds": 2555,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 266
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "the.-dresden.-files.-s-01.1080p.-amzn.-webrip.-ddp-5.1.x-264-vi-sum",
+              "itemTitle": "The Dresden Files (Complete)",
+              "file": "The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM[rartv]/The.Dresden.Files.S01E01.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM.mp4",
+              "name": "The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM[rartv]/The.Dresden.Files.S01E01.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM",
+              "url": "https://archive.org/download/the.-dresden.-files.-s-01.1080p.-amzn.-webrip.-ddp-5.1.x-264-vi-sum/The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM%5Brartv%5D%2FThe.Dresden.Files.S01E01.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM.mp4",
+              "seconds": 2618,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 260
+            },
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "big.shots.s01e02.720p.hdtv.x264-ctu",
+              "itemTitle": "Big Shots (2007) TV series - Paige Turco - Paul Blackthorne - Dylan McDermott",
+              "file": "Big Shots (2007)/big.shots.s01e01.720p.hdtv.x264-ctu.mp4",
+              "name": "Big Shots (2007)/big.shots.s01e01.720p.hdtv.x264-ctu",
+              "url": "https://archive.org/download/big.shots.s01e02.720p.hdtv.x264-ctu/Big%20Shots%20(2007)%2Fbig.shots.s01e01.720p.hdtv.x264-ctu.mp4",
+              "seconds": 2540,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 258
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "The Boone Identity",
+          "airdate": "2007-01-28",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "the.-dresden.-files.-s-01.1080p.-amzn.-webrip.-ddp-5.1.x-264-vi-sum",
+            "itemTitle": "The Dresden Files (Complete)",
+            "file": "The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM[rartv]/The.Dresden.Files.S01E02.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM.mp4",
+            "name": "The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM[rartv]/The.Dresden.Files.S01E02.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM",
+            "url": "https://archive.org/download/the.-dresden.-files.-s-01.1080p.-amzn.-webrip.-ddp-5.1.x-264-vi-sum/The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM%5Brartv%5D%2FThe.Dresden.Files.S01E02.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM.mp4",
+            "seconds": 2557,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 253
+          },
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Hair of the Dog",
+          "airdate": "2007-02-11",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "the.-dresden.-files.-s-01.1080p.-amzn.-webrip.-ddp-5.1.x-264-vi-sum",
+            "itemTitle": "The Dresden Files (Complete)",
+            "file": "The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM[rartv]/The.Dresden.Files.S01E03.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM.mp4",
+            "name": "The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM[rartv]/The.Dresden.Files.S01E03.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM",
+            "url": "https://archive.org/download/the.-dresden.-files.-s-01.1080p.-amzn.-webrip.-ddp-5.1.x-264-vi-sum/The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM%5Brartv%5D%2FThe.Dresden.Files.S01E03.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM.mp4",
+            "seconds": 2563,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 255
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Rules of Engagement",
+          "airdate": "2007-02-18",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "The.Dresden.Files.S01E10.WhatAboutBob9",
+            "itemTitle": "The. Dresden. Files. S 01 E 10. What About Bob( 9",
+            "file": "The.Dresden.Files.S01E04.Rules of Engagement(2).mp4",
+            "name": "The.Dresden.Files.S01E04.Rules of Engagement(2)",
+            "url": "https://archive.org/download/The.Dresden.Files.S01E10.WhatAboutBob9/The.Dresden.Files.S01E04.Rules%20of%20Engagement(2).mp4",
+            "seconds": 2602,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 270
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "the.-dresden.-files.-s-01.1080p.-amzn.-webrip.-ddp-5.1.x-264-vi-sum",
+              "itemTitle": "The Dresden Files (Complete)",
+              "file": "The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM[rartv]/The.Dresden.Files.S01E04.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM.mp4",
+              "name": "The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM[rartv]/The.Dresden.Files.S01E04.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM",
+              "url": "https://archive.org/download/the.-dresden.-files.-s-01.1080p.-amzn.-webrip.-ddp-5.1.x-264-vi-sum/The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM%5Brartv%5D%2FThe.Dresden.Files.S01E04.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM.mp4",
+              "seconds": 2618,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 262
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "name": "Bad Blood",
+          "airdate": "2007-02-25",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "the.-dresden.-files.-s-01.1080p.-amzn.-webrip.-ddp-5.1.x-264-vi-sum",
+            "itemTitle": "The Dresden Files (Complete)",
+            "file": "The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM[rartv]/The.Dresden.Files.S01E05.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM.mp4",
+            "name": "The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM[rartv]/The.Dresden.Files.S01E05.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM",
+            "url": "https://archive.org/download/the.-dresden.-files.-s-01.1080p.-amzn.-webrip.-ddp-5.1.x-264-vi-sum/The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM%5Brartv%5D%2FThe.Dresden.Files.S01E05.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM.mp4",
+            "seconds": 2580,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 257
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Soul Beneficiary",
+          "airdate": "2007-03-04",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "The.Dresden.Files.S01E10.WhatAboutBob9",
+            "itemTitle": "The. Dresden. Files. S 01 E 10. What About Bob( 9",
+            "file": "The.Dresden.Files.S01E06.Soul Beneficiary(8).mp4",
+            "name": "The.Dresden.Files.S01E06.Soul Beneficiary(8)",
+            "url": "https://archive.org/download/The.Dresden.Files.S01E10.WhatAboutBob9/The.Dresden.Files.S01E06.Soul%20Beneficiary(8).mp4",
+            "seconds": 2600,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 271
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "the.-dresden.-files.-s-01.1080p.-amzn.-webrip.-ddp-5.1.x-264-vi-sum",
+              "itemTitle": "The Dresden Files (Complete)",
+              "file": "The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM[rartv]/The.Dresden.Files.S01E06.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM.mp4",
+              "name": "The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM[rartv]/The.Dresden.Files.S01E06.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM",
+              "url": "https://archive.org/download/the.-dresden.-files.-s-01.1080p.-amzn.-webrip.-ddp-5.1.x-264-vi-sum/The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM%5Brartv%5D%2FThe.Dresden.Files.S01E06.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM.mp4",
+              "seconds": 2618,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 261
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "name": "Walls",
+          "airdate": "2007-03-11",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "The.Dresden.Files.S01E10.WhatAboutBob9",
+            "itemTitle": "The. Dresden. Files. S 01 E 10. What About Bob( 9",
+            "file": "The.Dresden.Files.S01E07.Walls(6).mp4",
+            "name": "The.Dresden.Files.S01E07.Walls(6)",
+            "url": "https://archive.org/download/The.Dresden.Files.S01E10.WhatAboutBob9/The.Dresden.Files.S01E07.Walls(6).mp4",
+            "seconds": 2551,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 266
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "the.-dresden.-files.-s-01.1080p.-amzn.-webrip.-ddp-5.1.x-264-vi-sum",
+              "itemTitle": "The Dresden Files (Complete)",
+              "file": "The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM[rartv]/The.Dresden.Files.S01E07.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM.mp4",
+              "name": "The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM[rartv]/The.Dresden.Files.S01E07.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM",
+              "url": "https://archive.org/download/the.-dresden.-files.-s-01.1080p.-amzn.-webrip.-ddp-5.1.x-264-vi-sum/The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM%5Brartv%5D%2FThe.Dresden.Files.S01E07.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM.mp4",
+              "seconds": 2613,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 261
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "name": "Storm Front",
+          "airdate": "2007-03-18",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "The.Dresden.Files.S01E10.WhatAboutBob9",
+            "itemTitle": "The. Dresden. Files. S 01 E 10. What About Bob( 9",
+            "file": "The.Dresden.Files.S01E08.Storm Front(1).mp4",
+            "name": "The.Dresden.Files.S01E08.Storm Front(1)",
+            "url": "https://archive.org/download/The.Dresden.Files.S01E10.WhatAboutBob9/The.Dresden.Files.S01E08.Storm%20Front(1).mp4",
+            "seconds": 2560,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 266
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "the.-dresden.-files.-s-01.1080p.-amzn.-webrip.-ddp-5.1.x-264-vi-sum",
+              "itemTitle": "The Dresden Files (Complete)",
+              "file": "The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM[rartv]/The.Dresden.Files.S01E08.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM.mp4",
+              "name": "The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM[rartv]/The.Dresden.Files.S01E08.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM",
+              "url": "https://archive.org/download/the.-dresden.-files.-s-01.1080p.-amzn.-webrip.-ddp-5.1.x-264-vi-sum/The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM%5Brartv%5D%2FThe.Dresden.Files.S01E08.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM.mp4",
+              "seconds": 2623,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 259
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "name": "The Other Dick",
+          "airdate": "2007-03-25",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "The.Dresden.Files.S01E10.WhatAboutBob9",
+            "itemTitle": "The. Dresden. Files. S 01 E 10. What About Bob( 9",
+            "file": "The.Dresden.Files.S01E09.The Other Dick(10).mp4",
+            "name": "The.Dresden.Files.S01E09.The Other Dick(10)",
+            "url": "https://archive.org/download/The.Dresden.Files.S01E10.WhatAboutBob9/The.Dresden.Files.S01E09.The%20Other%20Dick(10).mp4",
+            "seconds": 2545,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 265
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "the.-dresden.-files.-s-01.1080p.-amzn.-webrip.-ddp-5.1.x-264-vi-sum",
+              "itemTitle": "The Dresden Files (Complete)",
+              "file": "The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM[rartv]/The.Dresden.Files.S01E09.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM.mp4",
+              "name": "The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM[rartv]/The.Dresden.Files.S01E09.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM",
+              "url": "https://archive.org/download/the.-dresden.-files.-s-01.1080p.-amzn.-webrip.-ddp-5.1.x-264-vi-sum/The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM%5Brartv%5D%2FThe.Dresden.Files.S01E09.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM.mp4",
+              "seconds": 2608,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 259
+            }
+          ]
+        },
+        {
+          "number": 10,
+          "name": "What About Bob?",
+          "airdate": "2007-04-01",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "The.Dresden.Files.S01E10.WhatAboutBob9",
+            "itemTitle": "The. Dresden. Files. S 01 E 10. What About Bob( 9",
+            "file": "The.Dresden.Files.S01E10.What About Bob(9).mp4",
+            "name": "The.Dresden.Files.S01E10.What About Bob(9)",
+            "url": "https://archive.org/download/The.Dresden.Files.S01E10.WhatAboutBob9/The.Dresden.Files.S01E10.What%20About%20Bob(9).mp4",
+            "seconds": 2562,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 267
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "the.-dresden.-files.-s-01.1080p.-amzn.-webrip.-ddp-5.1.x-264-vi-sum",
+              "itemTitle": "The Dresden Files (Complete)",
+              "file": "The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM[rartv]/The.Dresden.Files.S01E10.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM.mp4",
+              "name": "The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM[rartv]/The.Dresden.Files.S01E10.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM",
+              "url": "https://archive.org/download/the.-dresden.-files.-s-01.1080p.-amzn.-webrip.-ddp-5.1.x-264-vi-sum/The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM%5Brartv%5D%2FThe.Dresden.Files.S01E10.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM.mp4",
+              "seconds": 2629,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 261
+            }
+          ]
+        },
+        {
+          "number": 11,
+          "name": "Things That Go Bump",
+          "airdate": "2007-04-08",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "The.Dresden.Files.S01E10.WhatAboutBob9",
+            "itemTitle": "The. Dresden. Files. S 01 E 10. What About Bob( 9",
+            "file": "The.Dresden.Files.S01E11.Things That Go Bump(11).mp4",
+            "name": "The.Dresden.Files.S01E11.Things That Go Bump(11)",
+            "url": "https://archive.org/download/The.Dresden.Files.S01E10.WhatAboutBob9/The.Dresden.Files.S01E11.Things%20That%20Go%20Bump(11).mp4",
+            "seconds": 2566,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 267
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "the.-dresden.-files.-s-01.1080p.-amzn.-webrip.-ddp-5.1.x-264-vi-sum",
+              "itemTitle": "The Dresden Files (Complete)",
+              "file": "The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM[rartv]/The.Dresden.Files.S01E11.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM.mp4",
+              "name": "The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM[rartv]/The.Dresden.Files.S01E11.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM",
+              "url": "https://archive.org/download/the.-dresden.-files.-s-01.1080p.-amzn.-webrip.-ddp-5.1.x-264-vi-sum/The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM%5Brartv%5D%2FThe.Dresden.Files.S01E11.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM.mp4",
+              "seconds": 2623,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 261
+            }
+          ]
+        },
+        {
+          "number": 12,
+          "name": "Second City",
+          "airdate": "2007-04-15",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "The.Dresden.Files.S01E10.WhatAboutBob9",
+            "itemTitle": "The. Dresden. Files. S 01 E 10. What About Bob( 9",
+            "file": "The.Dresden.Files.S01E12.Second City(12).mp4",
+            "name": "The.Dresden.Files.S01E12.Second City(12)",
+            "url": "https://archive.org/download/The.Dresden.Files.S01E10.WhatAboutBob9/The.Dresden.Files.S01E12.Second%20City(12).mp4",
+            "seconds": 2562,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 266
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "the.-dresden.-files.-s-01.1080p.-amzn.-webrip.-ddp-5.1.x-264-vi-sum",
+              "itemTitle": "The Dresden Files (Complete)",
+              "file": "The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM[rartv]/The.Dresden.Files.S01E12.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM.mp4",
+              "name": "The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM[rartv]/The.Dresden.Files.S01E12.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM",
+              "url": "https://archive.org/download/the.-dresden.-files.-s-01.1080p.-amzn.-webrip.-ddp-5.1.x-264-vi-sum/The.Dresden.Files.S01.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM%5Brartv%5D%2FThe.Dresden.Files.S01E12.REPACK.1080p.AMZN.WEBRip.DDP5.1.x264-ViSUM.mp4",
+              "seconds": 2623,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 261
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

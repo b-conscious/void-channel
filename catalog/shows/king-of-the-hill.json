@@ -1,0 +1,2594 @@
+{
+  "show": "King of the Hill",
+  "slug": "king-of-the-hill",
+  "type": "Animated",
+  "network": "FOX",
+  "matchedAt": "2026-10-13T07:46:15.436Z",
+  "tvmaze": {
+    "id": 115,
+    "name": "King of the Hill",
+    "runtime": 30,
+    "premiered": "1997-01-12",
+    "network": "Hulu"
+  },
+  "coverage": {
+    "total": 279,
+    "live": 22,
+    "review": 0,
+    "missing": 257,
+    "pct": 8
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Pilot",
+          "airdate": "1997-01-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Square Peg",
+          "airdate": "1997-01-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "The Order of the Straight Arrow",
+          "airdate": "1997-02-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Hank's Got the Willies",
+          "airdate": "1997-02-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Luanne's Saga",
+          "airdate": "1997-02-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Hank's Unmentionable Problem",
+          "airdate": "1997-02-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Westie Side Story",
+          "airdate": "1997-03-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Shins of the Father",
+          "airdate": "1997-03-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Peggy the Boggle Champ",
+          "airdate": "1997-04-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Keeping Up with Our Joneses",
+          "airdate": "1997-04-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "King of the Ant Hill",
+          "airdate": "1997-05-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Plastic White Female",
+          "airdate": "1997-05-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "How to Fire a Rifle Without Really Trying",
+          "airdate": "1997-09-21",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "King0fTheHillSeason2720p10bitupscaled",
+            "itemTitle": "King of The Hill Season 2 720Upscale",
+            "file": "S02e01 How To Fire A Rifle Without Really Trying.mp4",
+            "name": "S02e01 How To Fire A Rifle Without Really Trying",
+            "url": "https://archive.org/download/King0fTheHillSeason2720p10bitupscaled/S02e01%20How%20To%20Fire%20A%20Rifle%20Without%20Really%20Trying.mp4",
+            "seconds": 1337,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 131
+          },
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Texas City Twister",
+          "airdate": "1997-09-26",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "King0fTheHillSeason2720p10bitupscaled",
+            "itemTitle": "King of The Hill Season 2 720Upscale",
+            "file": "S02e02 Texas City Twister.mp4",
+            "name": "S02e02 Texas City Twister",
+            "url": "https://archive.org/download/King0fTheHillSeason2720p10bitupscaled/S02e02%20Texas%20City%20Twister.mp4",
+            "seconds": 1337,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 130
+          },
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "The Arrowhead",
+          "airdate": "1997-10-19",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "King0fTheHillSeason2720p10bitupscaled",
+            "itemTitle": "King of The Hill Season 2 720Upscale",
+            "file": "S02e03 Arrow Head.mp4",
+            "name": "S02e03 Arrow Head",
+            "url": "https://archive.org/download/King0fTheHillSeason2720p10bitupscaled/S02e03%20Arrow%20Head.mp4",
+            "seconds": 1337,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 131
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Hilloween",
+          "airdate": "1997-10-26",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "King0fTheHillSeason2720p10bitupscaled",
+            "itemTitle": "King of The Hill Season 2 720Upscale",
+            "file": "S02e04 Hilloween.mp4",
+            "name": "S02e04 Hilloween",
+            "url": "https://archive.org/download/King0fTheHillSeason2720p10bitupscaled/S02e04%20Hilloween.mp4",
+            "seconds": 1352,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 131
+          },
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Jumpin' Crack Bass (It's a Gas, Gas, Gas)",
+          "airdate": "1997-11-02",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "King0fTheHillSeason2720p10bitupscaled",
+            "itemTitle": "King of The Hill Season 2 720Upscale",
+            "file": "S02e05 Jumpin' Crack Bass (It's A Gas, Gas, Gas).mp4",
+            "name": "S02e05 Jumpin' Crack Bass (It's A Gas, Gas, Gas)",
+            "url": "https://archive.org/download/King0fTheHillSeason2720p10bitupscaled/S02e05%20Jumpin'%20Crack%20Bass%20(It's%20A%20Gas%2C%20Gas%2C%20Gas).mp4",
+            "seconds": 1350,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 131
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Husky Bobby",
+          "airdate": "1997-11-09",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "King0fTheHillSeason2720p10bitupscaled",
+            "itemTitle": "King of The Hill Season 2 720Upscale",
+            "file": "S02e06 Husky Bobby.mp4",
+            "name": "S02e06 Husky Bobby",
+            "url": "https://archive.org/download/King0fTheHillSeason2720p10bitupscaled/S02e06%20Husky%20Bobby.mp4",
+            "seconds": 1350,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 132
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "The Man Who Shot Cane Skretteburg",
+          "airdate": "1997-11-16",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "King0fTheHillSeason2720p10bitupscaled",
+            "itemTitle": "King of The Hill Season 2 720Upscale",
+            "file": "S02e07 The Man Who Shot Cane Skretteburg.mp4",
+            "name": "S02e07 The Man Who Shot Cane Skretteburg",
+            "url": "https://archive.org/download/King0fTheHillSeason2720p10bitupscaled/S02e07%20The%20Man%20Who%20Shot%20Cane%20Skretteburg.mp4",
+            "seconds": 1350,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 132
+          },
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "The Son That Got Away",
+          "airdate": "1997-11-23",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "King0fTheHillSeason2720p10bitupscaled",
+            "itemTitle": "King of The Hill Season 2 720Upscale",
+            "file": "S02e08 The Son That Got Away.mp4",
+            "name": "S02e08 The Son That Got Away",
+            "url": "https://archive.org/download/King0fTheHillSeason2720p10bitupscaled/S02e08%20The%20Son%20That%20Got%20Away.mp4",
+            "seconds": 1354,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 132
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "The Company Man",
+          "airdate": "1997-12-07",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "King0fTheHillSeason2720p10bitupscaled",
+            "itemTitle": "King of The Hill Season 2 720Upscale",
+            "file": "S02e09 The Company Man.mp4",
+            "name": "S02e09 The Company Man",
+            "url": "https://archive.org/download/King0fTheHillSeason2720p10bitupscaled/S02e09%20The%20Company%20Man.mp4",
+            "seconds": 1354,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 132
+          },
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Bobby Slam",
+          "airdate": "1997-12-14",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "King0fTheHillSeason2720p10bitupscaled",
+            "itemTitle": "King of The Hill Season 2 720Upscale",
+            "file": "S02e10 Bobby Slam.mp4",
+            "name": "S02e10 Bobby Slam",
+            "url": "https://archive.org/download/King0fTheHillSeason2720p10bitupscaled/S02e10%20Bobby%20Slam.mp4",
+            "seconds": 1351,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 131
+          },
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "The Unbearable Blindness of Laying",
+          "airdate": "1997-12-21",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "King0fTheHillSeason2720p10bitupscaled",
+            "itemTitle": "King of The Hill Season 2 720Upscale",
+            "file": "S02e11 The Unbearable Blindness Of Laying.mp4",
+            "name": "S02e11 The Unbearable Blindness Of Laying",
+            "url": "https://archive.org/download/King0fTheHillSeason2720p10bitupscaled/S02e11%20The%20Unbearable%20Blindness%20Of%20Laying.mp4",
+            "seconds": 1353,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 132
+          },
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Meet the Manger Babies",
+          "airdate": "1998-01-11",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "King0fTheHillSeason2720p10bitupscaled",
+            "itemTitle": "King of The Hill Season 2 720Upscale",
+            "file": "S02e12 Meet The Manger Babies.mp4",
+            "name": "S02e12 Meet The Manger Babies",
+            "url": "https://archive.org/download/King0fTheHillSeason2720p10bitupscaled/S02e12%20Meet%20The%20Manger%20Babies.mp4",
+            "seconds": 1356,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 133
+          },
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Snow Job",
+          "airdate": "1998-02-01",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "King0fTheHillSeason2720p10bitupscaled",
+            "itemTitle": "King of The Hill Season 2 720Upscale",
+            "file": "S02e13 Snow Job.mp4",
+            "name": "S02e13 Snow Job",
+            "url": "https://archive.org/download/King0fTheHillSeason2720p10bitupscaled/S02e13%20Snow%20Job.mp4",
+            "seconds": 1355,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 132
+          },
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "I Remember Mono",
+          "airdate": "1998-02-08",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "King0fTheHillSeason2720p10bitupscaled",
+            "itemTitle": "King of The Hill Season 2 720Upscale",
+            "file": "S02e14 I Remember Mono.mp4",
+            "name": "S02e14 I Remember Mono",
+            "url": "https://archive.org/download/King0fTheHillSeason2720p10bitupscaled/S02e14%20I%20Remember%20Mono.mp4",
+            "seconds": 1352,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 132
+          },
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Three Days of the Kahndo",
+          "airdate": "1998-02-15",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "King0fTheHillSeason2720p10bitupscaled",
+            "itemTitle": "King of The Hill Season 2 720Upscale",
+            "file": "S02e15 Three Days Of The Kahndo.mp4",
+            "name": "S02e15 Three Days Of The Kahndo",
+            "url": "https://archive.org/download/King0fTheHillSeason2720p10bitupscaled/S02e15%20Three%20Days%20Of%20The%20Kahndo.mp4",
+            "seconds": 1351,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 133
+          },
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Traffic Jam",
+          "airdate": "1998-02-22",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "King0fTheHillSeason2720p10bitupscaled",
+            "itemTitle": "King of The Hill Season 2 720Upscale",
+            "file": "S02e16 Traffic Jam.mp4",
+            "name": "S02e16 Traffic Jam",
+            "url": "https://archive.org/download/King0fTheHillSeason2720p10bitupscaled/S02e16%20Traffic%20Jam.mp4",
+            "seconds": 1352,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 134
+          },
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Hank's Dirty Laundry",
+          "airdate": "1998-03-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "The Final Shinsult",
+          "airdate": "1998-03-15",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "King0fTheHillSeason2720p10bitupscaled",
+            "itemTitle": "King of The Hill Season 2 720Upscale",
+            "file": "S02e18 The Final Shinsult.mp4",
+            "name": "S02e18 The Final Shinsult",
+            "url": "https://archive.org/download/King0fTheHillSeason2720p10bitupscaled/S02e18%20The%20Final%20Shinsult.mp4",
+            "seconds": 1354,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 133
+          },
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Leanne's Saga",
+          "airdate": "1998-04-19",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "King0fTheHillSeason2720p10bitupscaled",
+            "itemTitle": "King of The Hill Season 2 720Upscale",
+            "file": "S02e19 Leanne's Saga.mp4",
+            "name": "S02e19 Leanne's Saga",
+            "url": "https://archive.org/download/King0fTheHillSeason2720p10bitupscaled/S02e19%20Leanne's%20Saga.mp4",
+            "seconds": 1354,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 133
+          },
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Junkie Business",
+          "airdate": "1998-04-26",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "King0fTheHillSeason2720p10bitupscaled",
+            "itemTitle": "King of The Hill Season 2 720Upscale",
+            "file": "S02e20 Junkie Business.mp4",
+            "name": "S02e20 Junkie Business",
+            "url": "https://archive.org/download/King0fTheHillSeason2720p10bitupscaled/S02e20%20Junkie%20Business.mp4",
+            "seconds": 1354,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 133
+          },
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Life in the Fast Lane, Bobby's Saga",
+          "airdate": "1998-05-03",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "King0fTheHillSeason2720p10bitupscaled",
+            "itemTitle": "King of The Hill Season 2 720Upscale",
+            "file": "S02e21 Life In The Fast Lane, Bobby's Saga.mp4",
+            "name": "S02e21 Life In The Fast Lane, Bobby's Saga",
+            "url": "https://archive.org/download/King0fTheHillSeason2720p10bitupscaled/S02e21%20Life%20In%20The%20Fast%20Lane%2C%20Bobby's%20Saga.mp4",
+            "seconds": 1354,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 133
+          },
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Peggy's Turtle Song",
+          "airdate": "1998-05-10",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "King0fTheHillSeason2720p10bitupscaled",
+            "itemTitle": "King of The Hill Season 2 720Upscale",
+            "file": "S02e22 Peggy's Turtle Song.mp4",
+            "name": "S02e22 Peggy's Turtle Song",
+            "url": "https://archive.org/download/King0fTheHillSeason2720p10bitupscaled/S02e22%20Peggy's%20Turtle%20Song.mp4",
+            "seconds": 1351,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 133
+          },
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "Propane Boom (1)",
+          "airdate": "1998-05-17",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "King0fTheHillSeason2720p10bitupscaled",
+            "itemTitle": "King of The Hill Season 2 720Upscale",
+            "file": "S02e23 Propane Boom.mp4",
+            "name": "S02e23 Propane Boom",
+            "url": "https://archive.org/download/King0fTheHillSeason2720p10bitupscaled/S02e23%20Propane%20Boom.mp4",
+            "seconds": 1351,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 132
+          },
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Death of a Propane Salesman (2)",
+          "airdate": "1998-09-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "And They Call It Bobby Love",
+          "airdate": "1998-09-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Peggy's Headache",
+          "airdate": "1998-10-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Pregnant Paws",
+          "airdate": "1998-10-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Next of Shin",
+          "airdate": "1998-11-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Peggy's Pageant Fever",
+          "airdate": "1998-11-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Nine Pretty Darn Angry Men",
+          "airdate": "1998-11-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Good Hill Hunting",
+          "airdate": "1998-12-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Pretty, Pretty Dresses",
+          "airdate": "1998-12-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "A Fire Fighting We Will Go",
+          "airdate": "1999-01-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "To Spank with Love",
+          "airdate": "1999-01-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Three Coaches and a Bobby",
+          "airdate": "1999-01-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "De-Kahnstructing Henry",
+          "airdate": "1999-02-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "The Wedding of Bobby Hill",
+          "airdate": "1999-02-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Sleight of Hank",
+          "airdate": "1999-02-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Jon Vitti Presents: Return to La Grunta",
+          "airdate": "1999-02-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Escape from Party Island",
+          "airdate": "1999-03-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Love Hurts and So Does Art",
+          "airdate": "1999-03-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Hank's Cowboy Movie",
+          "airdate": "1999-04-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Dog Dale Afternoon",
+          "airdate": "1999-04-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Revenge of the Lutefisk",
+          "airdate": "1999-04-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Death and Texas",
+          "airdate": "1999-04-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "Wings of the Dope",
+          "airdate": "1999-05-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "Take Me Out of the Ball Game",
+          "airdate": "1999-05-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 25,
+          "name": "As Old as the Hills",
+          "airdate": "1999-05-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 4,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Peggy Hill: The Decline and Fall",
+          "airdate": "1999-09-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Cotton's Plot",
+          "airdate": "1999-10-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Bills Are Made to Be Broken",
+          "airdate": "1999-10-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Little Horrors of Shop",
+          "airdate": "1999-10-31",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Aisle 8A",
+          "airdate": "1999-11-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "A Beer Can Named Desire",
+          "airdate": "1999-11-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "The Hank's Giving Episode",
+          "airdate": "1999-11-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Not in My Back Hoe",
+          "airdate": "1999-11-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "To Kill a Ladybird",
+          "airdate": "1999-12-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Hillennium",
+          "airdate": "1999-12-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Old Glory",
+          "airdate": "2000-01-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Rodeo Days",
+          "airdate": "2000-01-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Hanky Panky (1)",
+          "airdate": "2000-02-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "High Anxiety (2)",
+          "airdate": "2000-02-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Naked Ambition",
+          "airdate": "2000-02-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Movin' on Up",
+          "airdate": "2000-02-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Bill of Sales",
+          "airdate": "2000-03-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Won't You Pimai Neighbor?",
+          "airdate": "2000-03-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Hank's Bad Hair Day",
+          "airdate": "2000-04-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Meet the Propaniacs",
+          "airdate": "2000-04-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Nancy Boys",
+          "airdate": "2000-04-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Flush with Power",
+          "airdate": "2000-05-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "Transnational Amusements Presents: Peggy's Magic Sex Feet",
+          "airdate": "2000-05-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "Peggy's Fan Fair",
+          "airdate": "2000-05-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 5,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "The Perils of Polling",
+          "airdate": "2000-10-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "The Buck Stops Here",
+          "airdate": "2000-11-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "I Don't Want to Wait for Our Lives to Be Over, I Want to Know Right Now, Will It Be... Sorry. Do Do Doo Do Do, Do Do Doo Do Do, Do Do Doo Do Do, Doo...Don't Want to Wait",
+          "airdate": "2000-11-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Spin the Choice",
+          "airdate": "2000-11-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Peggy Makes the Big Leagues",
+          "airdate": "2000-11-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "When Cotton Comes Marching Home Again",
+          "airdate": "2000-12-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "What Makes Bobby Run?",
+          "airdate": "2000-12-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "'Twas the Nut Before Christmas",
+          "airdate": "2000-12-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Chasing Bobby",
+          "airdate": "2001-01-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Yankee Hankie",
+          "airdate": "2001-02-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Hank and the Great Glass Elevator",
+          "airdate": "2001-02-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Now Who's the Dummy?",
+          "airdate": "2001-02-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Ho Yeah!",
+          "airdate": "2001-02-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "The Exterminator",
+          "airdate": "2001-03-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Luanne Virgin 2.0",
+          "airdate": "2001-03-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Hank's Choice",
+          "airdate": "2001-04-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "It's Not Easy Being Green",
+          "airdate": "2001-04-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "The Trouble with Gribbles",
+          "airdate": "2001-04-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Hank's Back Story",
+          "airdate": "2001-05-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Kidney Boy and Hamster Girl: A Love Story",
+          "airdate": "2001-05-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 6,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Bobby Goes Nuts",
+          "airdate": "2001-11-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Soldier of Misfortune",
+          "airdate": "2001-12-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Lupe's Revenge",
+          "airdate": "2001-12-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "The Father, the Son and J.C.",
+          "airdate": "2001-12-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Father of the Bribe",
+          "airdate": "2002-01-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "I'm with Cupid",
+          "airdate": "2002-02-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Torch Song Hillogy",
+          "airdate": "2002-02-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Joust Like a Woman",
+          "airdate": "2002-02-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "The Bluegrass is Always Greener",
+          "airdate": "2002-02-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "The Substitute Spanish Prisoner",
+          "airdate": "2002-03-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Unfortunate Son",
+          "airdate": "2002-03-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Are You There, God? It's Me, Margaret Hill",
+          "airdate": "2002-03-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Tankin' It to the Streets",
+          "airdate": "2002-03-31",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Of Mice and Little Green Men",
+          "airdate": "2002-04-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "A Man Without a Country Club",
+          "airdate": "2002-04-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Beer and Loathing",
+          "airdate": "2002-04-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Fun with Jane and Jane",
+          "airdate": "2002-04-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "My Own Private Rodeo",
+          "airdate": "2002-04-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Sug Night",
+          "airdate": "2002-05-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Dang Ol' Love",
+          "airdate": "2002-05-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Returning Japanese (1)",
+          "airdate": "2002-05-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Returning Japanese (2)",
+          "airdate": "2002-05-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 7,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Get Your Freak Off",
+          "airdate": "2002-11-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "The Fat and the Furious",
+          "airdate": "2002-11-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Bad Girls, Bad Girls, Whatcha Gonna Do",
+          "airdate": "2002-11-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Goodbye Normal Jeans",
+          "airdate": "2002-11-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Dances with Dogs",
+          "airdate": "2002-12-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "The Son Also Roses",
+          "airdate": "2002-12-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "The Texas Skilsaw Massacre",
+          "airdate": "2002-12-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Full Metal Dust Jacket",
+          "airdate": "2003-01-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Pigmalion",
+          "airdate": "2003-01-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Megalo Dale",
+          "airdate": "2003-01-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Boxing Luanne",
+          "airdate": "2003-02-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Vision Quest",
+          "airdate": "2003-02-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Queasy Rider",
+          "airdate": "2003-02-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Board Games",
+          "airdate": "2003-03-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "An Officer and a Gentle Boy",
+          "airdate": "2003-03-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "The Miseducation of Bobby Hill",
+          "airdate": "2003-03-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "The Good Buck",
+          "airdate": "2003-03-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "I Never Promised You an Organic Garden",
+          "airdate": "2003-04-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Be True to Your Fool",
+          "airdate": "2003-04-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Racist Dawg",
+          "airdate": "2003-05-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Night and Deity",
+          "airdate": "2003-05-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Maid in Arlen",
+          "airdate": "2003-05-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "The Witches of East Arlen",
+          "airdate": "2003-05-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 8,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Patch Boomhauer",
+          "airdate": "2003-11-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Reborn to Be Wild",
+          "airdate": "2003-11-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "New Cowboy on the Block",
+          "airdate": "2003-11-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "The Incredible Hank",
+          "airdate": "2003-11-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Flirting with the Master",
+          "airdate": "2003-11-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "After the Mold Rush",
+          "airdate": "2003-12-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Livin' on Reds, Vitamin C and Propane",
+          "airdate": "2003-12-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Rich Hank, Poor Hank",
+          "airdate": "2004-01-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Ceci N'est Pas Une King of the Hill",
+          "airdate": "2004-01-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "That's What She Said",
+          "airdate": "2004-02-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "My Hair Lady",
+          "airdate": "2004-02-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Phish and Wildlife",
+          "airdate": "2004-02-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Cheer Factor",
+          "airdate": "2004-03-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Dale Be Not Proud",
+          "airdate": "2004-03-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Après Hank, le Deluge",
+          "airdate": "2004-03-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Daletech",
+          "airdate": "2004-03-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "How I Learned to Stop Worrying and Love the Alamo",
+          "airdate": "2004-04-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Girl, You'll Be a Giant Soon",
+          "airdate": "2004-04-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Stressed for Success",
+          "airdate": "2004-05-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Hank's Back",
+          "airdate": "2004-05-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "The Redneck on Rainey Street",
+          "airdate": "2004-05-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Talking Shop!",
+          "airdate": "2004-05-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 9,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "A Rover Runs Through It",
+          "airdate": "2004-11-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Ms. Wakefield",
+          "airdate": "2004-12-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Death Buys a Timeshare",
+          "airdate": "2005-01-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Yard, She Blows!",
+          "airdate": "2005-01-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Dale to the Chief",
+          "airdate": "2005-01-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "The Petriot Act",
+          "airdate": "2005-02-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Enrique-cilable Differences",
+          "airdate": "2005-02-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Mutual of OmAbwah",
+          "airdate": "2005-03-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Care-Takin' Care of Business",
+          "airdate": "2005-03-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Arlen City Bomber",
+          "airdate": "2005-03-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Redcorn Gambles with His Future",
+          "airdate": "2005-04-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Smoking and the Bandit",
+          "airdate": "2005-04-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Gone with the Windstorm",
+          "airdate": "2005-05-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Bobby on Track",
+          "airdate": "2005-05-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "It Ain't Over Till the Fat Neighbor Sings",
+          "airdate": "2005-05-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 10,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Hank's on Board",
+          "airdate": "2005-09-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Bystand Me",
+          "airdate": "2005-09-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Bill's House",
+          "airdate": "2005-11-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Harlottown",
+          "airdate": "2005-11-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "A Portrait of the Artist as a Young Clown",
+          "airdate": "2005-12-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Orange You Sad I Did Say Banana",
+          "airdate": "2005-12-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "You Gotta Believe (In Moderation)",
+          "airdate": "2006-01-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Business is Picking Up",
+          "airdate": "2006-03-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "The Year of Washing Dangerously",
+          "airdate": "2006-03-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Hank Fixes Everything",
+          "airdate": "2006-04-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Church Hopping",
+          "airdate": "2006-04-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "24 Hour Propane People",
+          "airdate": "2006-04-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "The Texas Panhandler",
+          "airdate": "2006-04-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Hank's Bully",
+          "airdate": "2006-05-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Edu-macating Lucky",
+          "airdate": "2006-05-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 11,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "The Peggy Horror Picture Show",
+          "airdate": "2007-01-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "SerPUNt",
+          "airdate": "2007-02-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Blood and Sauce",
+          "airdate": "2007-02-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Luanne Gets Lucky",
+          "airdate": "2007-03-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Hank Gets Dusted",
+          "airdate": "2007-04-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Glen Peggy Glen Ross",
+          "airdate": "2007-04-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "The Passion of the Dauterive",
+          "airdate": "2007-04-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Grand Theft Arlen",
+          "airdate": "2007-04-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Peggy's Gone to Pots",
+          "airdate": "2007-05-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Hair Today, Gone Today",
+          "airdate": "2007-05-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Bill, Bulk, and the Body Buddies",
+          "airdate": "2007-05-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Lucky's Wedding Suit",
+          "airdate": "2007-05-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 12,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Suite Smells of Excess",
+          "airdate": "2007-09-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Bobby Rae",
+          "airdate": "2007-09-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "The Powder Puff Boys",
+          "airdate": "2007-10-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Four Wave Intersection",
+          "airdate": "2007-10-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Death Picks Cotton",
+          "airdate": "2007-11-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Raise the Steaks",
+          "airdate": "2007-11-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Tears of an Inflatable Clown",
+          "airdate": "2007-11-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "The Minh Who Knew Too Much",
+          "airdate": "2007-12-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Dream Weaver",
+          "airdate": "2007-12-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Doggone Crazy",
+          "airdate": "2008-01-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Trans-Fascism",
+          "airdate": "2008-02-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Three Men and a Bastard (A.K.A. The Untitled Blake McCormick Project)",
+          "airdate": "2008-02-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "The Accidental Terrorist",
+          "airdate": "2008-03-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Lady and Gentrification",
+          "airdate": "2008-03-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Behind Closed Doors",
+          "airdate": "2008-03-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Pour Some Sugar on Kahn",
+          "airdate": "2008-03-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Six Characters in Search of a House",
+          "airdate": "2008-04-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "The Courtship of Joseph's Father",
+          "airdate": "2008-04-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Strangeness on a Train",
+          "airdate": "2008-04-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Cops and Robert",
+          "airdate": "2008-05-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "It Came from the Garage",
+          "airdate": "2008-05-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Life: A Loser's Manual",
+          "airdate": "2008-05-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 13,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Dia-bill-ic Shock",
+          "airdate": "2008-09-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Earthy Girls Are Easy",
+          "airdate": "2008-10-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Square-Footed Monster",
+          "airdate": "2008-10-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Lost in Myspace",
+          "airdate": "2008-11-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "No Bobby Left Behind",
+          "airdate": "2008-11-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "A Bill Full of Dollars",
+          "airdate": "2008-11-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Straight as an Arrow",
+          "airdate": "2008-11-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Lucky See, Monkey Do",
+          "airdate": "2009-02-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "What Happens at the National Propane Gas Convention in Memphis Stays at the National Propane Convention in Memphis",
+          "airdate": "2009-02-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Master of Puppets",
+          "airdate": "2009-03-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Bwah My Nose",
+          "airdate": "2009-03-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Uncool Customer",
+          "airdate": "2009-03-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Nancy Does Dallas",
+          "airdate": "2009-03-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Born Again on the Fourth of July",
+          "airdate": "2009-04-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Serves Me Right for Giving General George S. Patton the Bathroom Key",
+          "airdate": "2009-04-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Bad News Bill",
+          "airdate": "2009-05-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Manger Baby Einstein",
+          "airdate": "2009-05-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Uh-Oh Canada",
+          "airdate": "2009-05-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "The Boy Can't Help It",
+          "airdate": "2009-09-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "To Sirloin with Love",
+          "airdate": "2009-09-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "The Honeymooners",
+          "airdate": "2010-02-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Bill Gathers Moss",
+          "airdate": "2010-05-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "When Joseph Met Lori, and Made Out with Her in the Janitor's Closet",
+          "airdate": "2010-05-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "Just Another Manic Kahn-Day",
+          "airdate": "2010-05-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 14,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Return of the King",
+          "airdate": "2025-08-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "The Beer Story",
+          "airdate": "2025-08-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Bobby Gets Grilled",
+          "airdate": "2025-08-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Chore Money, Chore Problems",
+          "airdate": "2025-08-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "New Ref in Town",
+          "airdate": "2025-08-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Peggy's Fadeout",
+          "airdate": "2025-08-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Any Given Hill-Day",
+          "airdate": "2025-08-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Kahn-scious Uncoupling",
+          "airdate": "2025-08-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "No Hank Left Behind",
+          "airdate": "2025-08-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "A Sounder Investment",
+          "airdate": "2025-08-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 15,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Failure to Hard Launch",
+          "airdate": "2026-07-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Care of the Dog",
+          "airdate": "2026-07-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Searching for Bobby Phisher",
+          "airdate": "2026-07-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Hank Encounters of the Nerd Kind",
+          "airdate": "2026-07-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "The Best Little Marriage in Texas",
+          "airdate": "2026-07-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Ch-Ch-Ch-Changes",
+          "airdate": "2026-07-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Hank Ruffles Some Feathers",
+          "airdate": "2026-07-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "No-Cuddle Offense",
+          "airdate": "2026-07-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Reality Bites",
+          "airdate": "2026-07-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Propane Recall",
+          "airdate": "2026-07-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    }
+  ]
+}

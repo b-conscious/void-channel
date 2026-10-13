@@ -1,0 +1,2056 @@
+{
+  "show": "Stargate Atlantis",
+  "slug": "stargate-atlantis",
+  "type": "Sci-Fi, Fantasy and Horror",
+  "network": "Sci-Fi Channel",
+  "matchedAt": "2026-10-13T07:46:17.235Z",
+  "tvmaze": {
+    "id": 206,
+    "name": "Stargate Atlantis",
+    "runtime": 60,
+    "premiered": "2004-07-16",
+    "network": "Syfy"
+  },
+  "coverage": {
+    "total": 100,
+    "live": 0,
+    "review": 82,
+    "missing": 18,
+    "pct": 82
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Rising, Part 1",
+          "airdate": "2004-07-16",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 1 of 18 in \"StarGate Atlantis\"",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0109Home.mp4",
+            "name": "SGA0109Home",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0109Home.mp4",
+            "seconds": 2620,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 419
+          },
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Rising, Part 2",
+          "airdate": "2004-07-16",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 2 of 18 in \"StarGate Atlantis\"",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0119TheSiege1.mp4",
+            "name": "SGA0119TheSiege1",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0119TheSiege1.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 437
+          },
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Hide and Seek",
+          "airdate": "2004-07-23",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 3 of 18 in \"StarGate Atlantis\"",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0120TheSiege2.mp4",
+            "name": "SGA0120TheSiege2",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0120TheSiege2.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 471
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "title ~ \"Hide and Seek\" (0.74)",
+              "item": "stargate-atlantis-season-1",
+              "itemTitle": "StarGate Atlantis",
+              "file": "SGA0103HideAndSeek.mp4",
+              "name": "SGA0103HideAndSeek",
+              "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0103HideAndSeek.mp4",
+              "seconds": 2622,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 431
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "name": "Thirty-Eight Minutes",
+          "airdate": "2004-07-30",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "title ~ \"Thirty-Eight Minutes\" (0.83)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0104ThirtyEightMinutes.mp4",
+            "name": "SGA0104ThirtyEightMinutes",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0104ThirtyEightMinutes.mp4",
+            "seconds": 2618,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 485
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 4 of 18 in \"StarGate Atlantis\"",
+              "item": "stargate-atlantis-season-1",
+              "itemTitle": "StarGate Atlantis",
+              "file": "SGA0201TheSiege3.mp4",
+              "name": "SGA0201TheSiege3",
+              "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0201TheSiege3.mp4",
+              "seconds": 2615,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 512
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "name": "Suspicion",
+          "airdate": "2004-08-06",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 5 of 18 in \"StarGate Atlantis\"",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0203Runner.mp4",
+            "name": "SGA0203Runner",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0203Runner.mp4",
+            "seconds": 2623,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 682
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "title ~ \"Suspicion\" (0.70)",
+              "item": "stargate-atlantis-season-1",
+              "itemTitle": "StarGate Atlantis",
+              "file": "SGA0105Suspicion.mp4",
+              "name": "SGA0105Suspicion",
+              "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0105Suspicion.mp4",
+              "seconds": 2619,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 503
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "name": "Childhood's End",
+          "airdate": "2004-08-13",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"Childhood's End\" (0.77)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0106Childhood'sEnd.mp4",
+            "name": "SGA0106Childhood'sEnd",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0106Childhood'sEnd.mp4",
+            "seconds": 2620,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 577
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 6 of 18 in \"StarGate Atlantis\"",
+              "item": "stargate-atlantis-season-1",
+              "itemTitle": "StarGate Atlantis",
+              "file": "SGA0204Duet.mp4",
+              "name": "SGA0204Duet",
+              "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0204Duet.mp4",
+              "seconds": 2622,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 520
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "name": "Poisoning the Well",
+          "airdate": "2004-08-20",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "title ~ \"Poisoning the Well\" (0.81)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0107PoisoningTheWell.mp4",
+            "name": "SGA0107PoisoningTheWell",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0107PoisoningTheWell.mp4",
+            "seconds": 2620,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 439
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 7 of 18 in \"StarGate Atlantis\"",
+              "item": "stargate-atlantis-season-1",
+              "itemTitle": "StarGate Atlantis",
+              "file": "SGA0209Aurora.mp4",
+              "name": "SGA0209Aurora",
+              "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0209Aurora.mp4",
+              "seconds": 2628,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 476
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "name": "Underground",
+          "airdate": "2004-08-27",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 8 of 18 in \"StarGate Atlantis\"",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0220Allies.mp4",
+            "name": "SGA0220Allies",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0220Allies.mp4",
+            "seconds": 2615,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 493
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "title ~ \"Underground\" (0.70)",
+              "item": "stargate-atlantis-season-1",
+              "itemTitle": "StarGate Atlantis",
+              "file": "SGA0108Underground.mp4",
+              "name": "SGA0108Underground",
+              "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0108Underground.mp4",
+              "seconds": 2613,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 480
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "name": "Home",
+          "airdate": "2004-09-10",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 9 of 18 in \"StarGate Atlantis\"",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0304Sateda.mp4",
+            "name": "SGA0304Sateda",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0304Sateda.mp4",
+            "seconds": 2615,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 571
+          },
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "The Storm",
+          "airdate": "2004-09-17",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 10 of 18 in \"StarGate Atlantis\"",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0310TheReturn.mp4",
+            "name": "SGA0310TheReturn",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0310TheReturn.mp4",
+            "seconds": 2612,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 467
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "title ~ \"The Storm\" (0.67)",
+              "item": "stargate-atlantis-season-1",
+              "itemTitle": "StarGate Atlantis",
+              "file": "SGA0110TheStorm.mp4",
+              "name": "SGA0110TheStorm",
+              "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0110TheStorm.mp4",
+              "seconds": 2619,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 455
+            }
+          ]
+        },
+        {
+          "number": 11,
+          "name": "The Eye",
+          "airdate": "2005-01-21",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"The Eye\" (0.63)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0111TheEye.mp4",
+            "name": "SGA0111TheEye",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0111TheEye.mp4",
+            "seconds": 2596,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 486
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 11 of 18 in \"StarGate Atlantis\"",
+              "item": "stargate-atlantis-season-1",
+              "itemTitle": "StarGate Atlantis",
+              "file": "SGA0311TheReturn.mp4",
+              "name": "SGA0311TheReturn",
+              "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0311TheReturn.mp4",
+              "seconds": 2614,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 461
+            }
+          ]
+        },
+        {
+          "number": 12,
+          "name": "The Defiant One",
+          "airdate": "2005-01-28",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 12 of 18 in \"StarGate Atlantis\"",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0312Echoes.mp4",
+            "name": "SGA0312Echoes",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0312Echoes.mp4",
+            "seconds": 2614,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 490
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "title ~ \"The Defiant One\" (0.77)",
+              "item": "stargate-atlantis-season-1",
+              "itemTitle": "StarGate Atlantis",
+              "file": "SGA0112TheDefiantOne.mp4",
+              "name": "SGA0112TheDefiantOne",
+              "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0112TheDefiantOne.mp4",
+              "seconds": 2618,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 488
+            }
+          ]
+        },
+        {
+          "number": 13,
+          "name": "Hot Zone",
+          "airdate": "2005-02-04",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 13 of 18 in \"StarGate Atlantis\"",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0316TheArk.mp4",
+            "name": "SGA0316TheArk",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0316TheArk.mp4",
+            "seconds": 2615,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 477
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "title ~ \"Hot Zone\" (0.63)",
+              "item": "stargate-atlantis-season-1",
+              "itemTitle": "StarGate Atlantis",
+              "file": "SGA0113HotZone.mp4",
+              "name": "SGA0113HotZone",
+              "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0113HotZone.mp4",
+              "seconds": 2618,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 451
+            }
+          ]
+        },
+        {
+          "number": 14,
+          "name": "Sanctuary",
+          "airdate": "2005-02-11",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 14 of 18 in \"StarGate Atlantis\"",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0317Sunday.mp4",
+            "name": "SGA0317Sunday",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0317Sunday.mp4",
+            "seconds": 2614,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 530
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "title ~ \"Sanctuary\" (0.70)",
+              "item": "stargate-atlantis-season-1",
+              "itemTitle": "StarGate Atlantis",
+              "file": "SGA0114Sanctuary.mp4",
+              "name": "SGA0114Sanctuary",
+              "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0114Sanctuary.mp4",
+              "seconds": 2618,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 524
+            }
+          ]
+        },
+        {
+          "number": 15,
+          "name": "Before I Sleep",
+          "airdate": "2005-02-18",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 15 of 18 in \"StarGate Atlantis\"",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0401Adrift.mp4",
+            "name": "SGA0401Adrift",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0401Adrift.mp4",
+            "seconds": 2613,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 489
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "title ~ \"Before I Sleep\" (0.76)",
+              "item": "stargate-atlantis-season-1",
+              "itemTitle": "StarGate Atlantis",
+              "file": "SGA0115BeforeISleep.mp4",
+              "name": "SGA0115BeforeISleep",
+              "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0115BeforeISleep.mp4",
+              "seconds": 2618,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 431
+            }
+          ]
+        },
+        {
+          "number": 16,
+          "name": "The Brotherhood",
+          "airdate": "2005-02-25",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"The Brotherhood\" (0.76)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0116TheBrotherhood.mp4",
+            "name": "SGA0116TheBrotherhood",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0116TheBrotherhood.mp4",
+            "seconds": 2615,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 534
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 16 of 18 in \"StarGate Atlantis\"",
+              "item": "stargate-atlantis-season-1",
+              "itemTitle": "StarGate Atlantis",
+              "file": "SGA0416Trio.mp4",
+              "name": "SGA0416Trio",
+              "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0416Trio.mp4",
+              "seconds": 2616,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 420
+            }
+          ]
+        },
+        {
+          "number": 17,
+          "name": "Letters from Pegasus",
+          "airdate": "2005-03-04",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "title ~ \"Letters from Pegasus\" (0.85)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0117LettersFromPegasus.mp4",
+            "name": "SGA0117LettersFromPegasus",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0117LettersFromPegasus.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 453
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 17 of 18 in \"StarGate Atlantis\"",
+              "item": "stargate-atlantis-season-1",
+              "itemTitle": "StarGate Atlantis",
+              "file": "SGA0417Midway.mp4",
+              "name": "SGA0417Midway",
+              "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0417Midway.mp4",
+              "seconds": 2616,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 556
+            }
+          ]
+        },
+        {
+          "number": 18,
+          "name": "The Gift",
+          "airdate": "2005-03-11",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 18 of 18 in \"StarGate Atlantis\"",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0519Vegas.mp4",
+            "name": "SGA0519Vegas",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0519Vegas.mp4",
+            "seconds": 2782,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 571
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "title ~ \"The Gift\" (0.63)",
+              "item": "stargate-atlantis-season-1",
+              "itemTitle": "StarGate Atlantis",
+              "file": "SGA0118TheGift.mp4",
+              "name": "SGA0118TheGift",
+              "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0118TheGift.mp4",
+              "seconds": 2619,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 456
+            }
+          ]
+        },
+        {
+          "number": 19,
+          "name": "The Siege, Part 1",
+          "airdate": "2005-03-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "The Siege, Part 2",
+          "airdate": "2005-03-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "The Siege, Part 3",
+          "airdate": "2005-07-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "The Intruder",
+          "airdate": "2005-07-22",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"The Intruder\" (0.77)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0202TheIntruder.mp4",
+            "name": "SGA0202TheIntruder",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0202TheIntruder.mp4",
+            "seconds": 2623,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 476
+          },
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Runner",
+          "airdate": "2005-07-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Duet",
+          "airdate": "2005-08-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Condemned",
+          "airdate": "2005-08-12",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"Condemned\" (0.70)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0205Condemned.mp4",
+            "name": "SGA0205Condemned",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0205Condemned.mp4",
+            "seconds": 2625,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 579
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Trinity",
+          "airdate": "2005-08-19",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"Trinity\" (0.63)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0206Trinity.mp4",
+            "name": "SGA0206Trinity",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0206Trinity.mp4",
+            "seconds": 2624,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 489
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Instinct",
+          "airdate": "2005-08-26",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"Instinct\" (0.63)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0207Instinct.mp4",
+            "name": "SGA0207Instinct",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0207Instinct.mp4",
+            "seconds": 2624,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 543
+          },
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Conversion",
+          "airdate": "2005-09-09",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"Conversion\" (0.70)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0208Conversion.mp4",
+            "name": "SGA0208Conversion",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0208Conversion.mp4",
+            "seconds": 2627,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 453
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Aurora",
+          "airdate": "2005-09-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "The Lost Boys",
+          "airdate": "2005-09-23",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"The Lost Boys\" (0.74)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0210TheLostBoys.mp4",
+            "name": "SGA0210TheLostBoys",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0210TheLostBoys.mp4",
+            "seconds": 2626,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 511
+          },
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "The Hive",
+          "airdate": "2006-01-06",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"The Hive\" (0.63)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0211TheHive.mp4",
+            "name": "SGA0211TheHive",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0211TheHive.mp4",
+            "seconds": 2614,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 532
+          },
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Epiphany",
+          "airdate": "2006-01-13",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"Epiphany\" (0.67)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0212Epiphany.mp4",
+            "name": "SGA0212Epiphany",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0212Epiphany.mp4",
+            "seconds": 2615,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 596
+          },
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Critical Mass",
+          "airdate": "2006-01-20",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"Critical Mass\" (0.76)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0213CriticalMass.mp4",
+            "name": "SGA0213CriticalMass",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0213CriticalMass.mp4",
+            "seconds": 2615,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 458
+          },
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Grace Under Pressure",
+          "airdate": "2006-01-27",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "title ~ \"Grace Under Pressure\" (0.82)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0214GraceUnderPressure.mp4",
+            "name": "SGA0214GraceUnderPressure",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0214GraceUnderPressure.mp4",
+            "seconds": 2615,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 425
+          },
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "The Tower",
+          "airdate": "2006-02-03",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"The Tower\" (0.67)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0215TheTower.mp4",
+            "name": "SGA0215TheTower",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0215TheTower.mp4",
+            "seconds": 2612,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 551
+          },
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "The Long Goodbye",
+          "airdate": "2006-02-10",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"The Long Goodbye\" (0.79)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0216TheLongGoodbye.mp4",
+            "name": "SGA0216TheLongGoodbye",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0216TheLongGoodbye.mp4",
+            "seconds": 2615,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 430
+          },
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Coup d'Etat",
+          "airdate": "2006-02-17",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"Coup d'Etat\" (0.70)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0217Coupd'Etat.mp4",
+            "name": "SGA0217Coupd'Etat",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0217Coupd'Etat.mp4",
+            "seconds": 2615,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 500
+          },
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Michael",
+          "airdate": "2006-02-24",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"Michael\" (0.63)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0218Michael.mp4",
+            "name": "SGA0218Michael",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0218Michael.mp4",
+            "seconds": 2615,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 450
+          },
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Inferno",
+          "airdate": "2006-03-03",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"Inferno\" (0.63)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0219Inferno.mp4",
+            "name": "SGA0219Inferno",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0219Inferno.mp4",
+            "seconds": 2615,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 480
+          },
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Allies",
+          "airdate": "2006-03-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "No Man's Land",
+          "airdate": "2006-07-14",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"No Man's Land\" (0.70)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0301NoMan'sLand.mp4",
+            "name": "SGA0301NoMan'sLand",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0301NoMan'sLand.mp4",
+            "seconds": 2609,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 488
+          },
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Misbegotten",
+          "airdate": "2006-07-21",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"Misbegotten\" (0.74)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0302Misbegotten.mp4",
+            "name": "SGA0302Misbegotten",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0302Misbegotten.mp4",
+            "seconds": 2615,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 459
+          },
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Irresistible",
+          "airdate": "2006-07-28",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"Irresistible\" (0.79)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0303Irresistible.mp4",
+            "name": "SGA0303Irresistible",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0303Irresistible.mp4",
+            "seconds": 2615,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 542
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Sateda",
+          "airdate": "2006-08-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Progeny",
+          "airdate": "2006-08-11",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"Progeny\" (0.63)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0305Progeny.mp4",
+            "name": "SGA0305Progeny",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0305Progeny.mp4",
+            "seconds": 2615,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 495
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "The Real World",
+          "airdate": "2006-08-18",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"The Real World\" (0.76)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0306TheRealWorld.mp4",
+            "name": "SGA0306TheRealWorld",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0306TheRealWorld.mp4",
+            "seconds": 2615,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 469
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Common Ground",
+          "airdate": "2006-08-25",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"Common Ground\" (0.76)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0307CommonGround.mp4",
+            "name": "SGA0307CommonGround",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0307CommonGround.mp4",
+            "seconds": 2615,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 498
+          },
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "McKay and Mrs. Miller",
+          "airdate": "2006-09-08",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "title ~ \"McKay and Mrs. Miller\" (0.82)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0308McKayAndMrs.Miller.mp4",
+            "name": "SGA0308McKayAndMrs.Miller",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0308McKayAndMrs.Miller.mp4",
+            "seconds": 2615,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 492
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Phantoms",
+          "airdate": "2006-09-15",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"Phantoms\" (0.67)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0309Phantoms.mp4",
+            "name": "SGA0309Phantoms",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0309Phantoms.mp4",
+            "seconds": 2615,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 592
+          },
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "The Return, Part 1",
+          "airdate": "2006-09-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "The Return, Part 2",
+          "airdate": "2007-04-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Echoes",
+          "airdate": "2007-04-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Irresponsible",
+          "airdate": "2007-04-27",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"Irresponsible\" (0.77)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0313Irresponsible.mp4",
+            "name": "SGA0313Irresponsible",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0313Irresponsible.mp4",
+            "seconds": 2614,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 595
+          },
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Tao of Rodney",
+          "airdate": "2007-05-04",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"Tao of Rodney\" (0.74)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0314TaoOfRodney.mp4",
+            "name": "SGA0314TaoOfRodney",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0314TaoOfRodney.mp4",
+            "seconds": 2614,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 468
+          },
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "The Game",
+          "airdate": "2007-05-11",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"The Game\" (0.67)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0315TheGame.mp4",
+            "name": "SGA0315TheGame",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0315TheGame.mp4",
+            "seconds": 2615,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 509
+          },
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "The Ark",
+          "airdate": "2007-05-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Sunday",
+          "airdate": "2007-06-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Submersion",
+          "airdate": "2007-06-08",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"Submersion\" (0.72)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0318Submersion.mp4",
+            "name": "SGA0318Submersion",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0318Submersion.mp4",
+            "seconds": 2615,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 396
+          },
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Vengeance",
+          "airdate": "2007-06-15",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"Vengeance\" (0.70)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0319Vengeance.mp4",
+            "name": "SGA0319Vengeance",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0319Vengeance.mp4",
+            "seconds": 2615,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 472
+          },
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "First Strike",
+          "airdate": "2007-06-22",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"First Strike\" (0.72)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0320FirstStrike.mp4",
+            "name": "SGA0320FirstStrike",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0320FirstStrike.mp4",
+            "seconds": 2616,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 471
+          },
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 4,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Adrift",
+          "airdate": "2007-09-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Lifeline",
+          "airdate": "2007-10-05",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"Lifeline\" (0.63)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0402Lifeline.mp4",
+            "name": "SGA0402Lifeline",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0402Lifeline.mp4",
+            "seconds": 2611,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 453
+          },
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Reunion",
+          "airdate": "2007-10-12",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"Reunion\" (0.63)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0403Reunion.mp4",
+            "name": "SGA0403Reunion",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0403Reunion.mp4",
+            "seconds": 2615,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 523
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Doppelganger",
+          "airdate": "2007-10-19",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "title ~ \"Doppelganger\" (0.81)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0404Doppelganger.mp4",
+            "name": "SGA0404Doppelganger",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0404Doppelganger.mp4",
+            "seconds": 2610,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 520
+          },
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Travelers",
+          "airdate": "2007-10-26",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"Travelers\" (0.70)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0405Travelers.mp4",
+            "name": "SGA0405Travelers",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0405Travelers.mp4",
+            "seconds": 2611,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 451
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Tabula Rasa",
+          "airdate": "2007-11-02",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"Tabula Rasa\" (0.72)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0406TabulaRasa.mp4",
+            "name": "SGA0406TabulaRasa",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0406TabulaRasa.mp4",
+            "seconds": 2613,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 539
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Missing",
+          "airdate": "2007-11-09",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"Missing\" (0.63)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0407Missing.mp4",
+            "name": "SGA0407Missing",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0407Missing.mp4",
+            "seconds": 2614,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 655
+          },
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "The Seer",
+          "airdate": "2007-11-16",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"The Seer\" (0.63)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0408TheSeer.mp4",
+            "name": "SGA0408TheSeer",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0408TheSeer.mp4",
+            "seconds": 2614,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 497
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Miller's Crossing",
+          "airdate": "2007-11-30",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "title ~ \"Miller's Crossing\" (0.80)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0409Miller'sCrossing.mp4",
+            "name": "SGA0409Miller'sCrossing",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0409Miller'sCrossing.mp4",
+            "seconds": 2615,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 456
+          },
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "This Mortal Coil",
+          "airdate": "2007-12-07",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"This Mortal Coil\" (0.79)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0410ThisMortalCoil.mp4",
+            "name": "SGA0410ThisMortalCoil",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0410ThisMortalCoil.mp4",
+            "seconds": 2611,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 528
+          },
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Be All My Sins Remember'd",
+          "airdate": "2008-01-04",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "title ~ \"Be All My Sins Remember'd\" (0.83)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0411BeAllMySinsRemember'd.mp4",
+            "name": "SGA0411BeAllMySinsRemember'd",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0411BeAllMySinsRemember'd.mp4",
+            "seconds": 2614,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 493
+          },
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Spoils of War",
+          "airdate": "2008-01-11",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"Spoils of War\" (0.74)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0412SpoilsOfWar.mp4",
+            "name": "SGA0412SpoilsOfWar",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0412SpoilsOfWar.mp4",
+            "seconds": 2614,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 505
+          },
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Quarantine",
+          "airdate": "2008-01-18",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"Quarantine\" (0.72)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0413Quarantine.mp4",
+            "name": "SGA0413Quarantine",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0413Quarantine.mp4",
+            "seconds": 2613,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 521
+          },
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Harmony",
+          "airdate": "2008-01-25",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"Harmony\" (0.63)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0414Harmony.mp4",
+            "name": "SGA0414Harmony",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0414Harmony.mp4",
+            "seconds": 2613,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 616
+          },
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Outcast",
+          "airdate": "2008-02-01",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"Outcast\" (0.63)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0415Outcast.mp4",
+            "name": "SGA0415Outcast",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0415Outcast.mp4",
+            "seconds": 2611,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 536
+          },
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Trio",
+          "airdate": "2008-02-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Midway",
+          "airdate": "2008-02-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "The Kindred, Part 1",
+          "airdate": "2008-02-22",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"The Kindred, Part 1\" (0.60)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0418TheKindred.mp4",
+            "name": "SGA0418TheKindred",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0418TheKindred.mp4",
+            "seconds": 2616,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 517
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "title ~ \"The Kindred, Part 1\" (0.60)",
+              "item": "stargate-atlantis-season-1",
+              "itemTitle": "StarGate Atlantis",
+              "file": "SGA0419TheKindred.mp4",
+              "name": "SGA0419TheKindred",
+              "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0419TheKindred.mp4",
+              "seconds": 2616,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 488
+            }
+          ]
+        },
+        {
+          "number": 19,
+          "name": "The Kindred, Part 2",
+          "airdate": "2008-02-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "The Last Man",
+          "airdate": "2008-03-07",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"The Last Man\" (0.72)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0420TheLastMan.mp4",
+            "name": "SGA0420TheLastMan",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0420TheLastMan.mp4",
+            "seconds": 2615,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 479
+          },
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 5,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Search and Rescue",
+          "airdate": "2008-07-11",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "title ~ \"Search and Rescue\" (0.80)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0501SearchAndRescue.mp4",
+            "name": "SGA0501SearchAndRescue",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0501SearchAndRescue.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 486
+          },
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "The Seed",
+          "airdate": "2008-07-18",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"The Seed\" (0.63)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0502TheSeed.mp4",
+            "name": "SGA0502TheSeed",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0502TheSeed.mp4",
+            "seconds": 2611,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 474
+          },
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Broken Ties",
+          "airdate": "2008-07-25",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"Broken Ties\" (0.72)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0503BrokenTies.mp4",
+            "name": "SGA0503BrokenTies",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0503BrokenTies.mp4",
+            "seconds": 2611,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 465
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "The Daedalus Variations",
+          "airdate": "2008-08-01",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "title ~ \"The Daedalus Variations\" (0.84)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0504TheDaedalusVariations.mp4",
+            "name": "SGA0504TheDaedalusVariations",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0504TheDaedalusVariations.mp4",
+            "seconds": 2615,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 474
+          },
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Ghost in the Machine",
+          "airdate": "2008-08-15",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "title ~ \"Ghost in the Machine\" (0.83)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0505GhostInTheMachine.mp4",
+            "name": "SGA0505GhostInTheMachine",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0505GhostInTheMachine.mp4",
+            "seconds": 2619,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 493
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "The Shrine",
+          "airdate": "2008-08-22",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"The Shrine\" (0.70)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0506TheShrine.mp4",
+            "name": "SGA0506TheShrine",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0506TheShrine.mp4",
+            "seconds": 2615,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 446
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Whispers",
+          "airdate": "2008-09-05",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"Whispers\" (0.67)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0507Whispers.mp4",
+            "name": "SGA0507Whispers",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0507Whispers.mp4",
+            "seconds": 2615,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 424
+          },
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "The Queen",
+          "airdate": "2008-09-12",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"The Queen\" (0.67)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0508TheQueen.mp4",
+            "name": "SGA0508TheQueen",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0508TheQueen.mp4",
+            "seconds": 2613,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 480
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Tracker",
+          "airdate": "2008-09-19",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"Tracker\" (0.63)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0509Tracker.mp4",
+            "name": "SGA0509Tracker",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0509Tracker.mp4",
+            "seconds": 2614,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 720
+          },
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "First Contact",
+          "airdate": "2008-09-26",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"First Contact\" (0.76)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0510FirstContact.mp4",
+            "name": "SGA0510FirstContact",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0510FirstContact.mp4",
+            "seconds": 2613,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 524
+          },
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "The Lost Tribe",
+          "airdate": "2008-10-10",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"The Lost Tribe\" (0.76)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0511TheLostTribe.mp4",
+            "name": "SGA0511TheLostTribe",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0511TheLostTribe.mp4",
+            "seconds": 2615,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 493
+          },
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Outsiders",
+          "airdate": "2008-10-17",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"Outsiders\" (0.70)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0512Outsiders.mp4",
+            "name": "SGA0512Outsiders",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0512Outsiders.mp4",
+            "seconds": 2614,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 477
+          },
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Inquisition",
+          "airdate": "2008-10-24",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"Inquisition\" (0.74)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0513Inquisition.mp4",
+            "name": "SGA0513Inquisition",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0513Inquisition.mp4",
+            "seconds": 2611,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 464
+          },
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "The Prodigal",
+          "airdate": "2008-11-07",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"The Prodigal\" (0.77)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0514TheProdigal.mp4",
+            "name": "SGA0514TheProdigal",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0514TheProdigal.mp4",
+            "seconds": 2611,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 521
+          },
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Remnants",
+          "airdate": "2008-11-14",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"Remnants\" (0.67)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0515Remnants.mp4",
+            "name": "SGA0515Remnants",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0515Remnants.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 582
+          },
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Brain Storm",
+          "airdate": "2008-11-21",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"Brain Storm\" (0.72)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0516BrainStorm.mp4",
+            "name": "SGA0516BrainStorm",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0516BrainStorm.mp4",
+            "seconds": 2613,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 487
+          },
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Infection",
+          "airdate": "2008-12-05",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"Infection\" (0.70)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0517Infection.mp4",
+            "name": "SGA0517Infection",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0517Infection.mp4",
+            "seconds": 2614,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 508
+          },
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Identity",
+          "airdate": "2008-12-12",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"Identity\" (0.67)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0518Identity.mp4",
+            "name": "SGA0518Identity",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0518Identity.mp4",
+            "seconds": 2613,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 567
+          },
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Vegas",
+          "airdate": "2009-01-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Enemy at the Gate",
+          "airdate": "2009-01-09",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "title ~ \"Enemy at the Gate\" (0.80)",
+            "item": "stargate-atlantis-season-1",
+            "itemTitle": "StarGate Atlantis",
+            "file": "SGA0520EnemyAtTheGate.mp4",
+            "name": "SGA0520EnemyAtTheGate",
+            "url": "https://archive.org/download/stargate-atlantis-season-1/SGA0520EnemyAtTheGate.mp4",
+            "seconds": 2746,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 556
+          },
+          "alternates": []
+        }
+      ]
+    }
+  ]
+}

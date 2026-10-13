@@ -1,0 +1,3556 @@
+{
+  "show": "Kenny vs. Spenny",
+  "slug": "kenny-vs-spenny",
+  "type": "2000s and Later Sitcoms",
+  "network": "Showcase",
+  "matchedAt": "2026-10-13T07:46:15.355Z",
+  "tvmaze": {
+    "id": 4011,
+    "name": "Kenny vs. Spenny",
+    "runtime": 30,
+    "premiered": "2003-08-26",
+    "network": "Showcase"
+  },
+  "coverage": {
+    "total": 85,
+    "live": 85,
+    "review": 0,
+    "missing": 0,
+    "pct": 100
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Who is the Best Fashion Designer?",
+          "airdate": "2003-08-26",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-one",
+            "itemTitle": "Kenny vs Spenny (Season One)",
+            "file": "S01E01 Who Is The Best Fashion Designer.mp4",
+            "name": "S01E01 Who Is The Best Fashion Designer",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-one/S01E01%20Who%20Is%20The%20Best%20Fashion%20Designer.mp4",
+            "seconds": 1328,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 198
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+              "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+              "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E01 - Who Can Lose The Most Weight.mp4",
+              "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E01 - Who Can Lose The Most Weight",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%201%2FS01E01%20-%20Who%20Can%20Lose%20The%20Most%20Weight.mp4",
+              "seconds": 1327,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 2101
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 1 of 55 in \"Kenny Vs Spenny: Season One\"",
+              "item": "kenny-vs-spenny-s1",
+              "itemTitle": "Kenny Vs Spenny: Season One",
+              "file": "KVSD14.mp4",
+              "name": "KVSD14",
+              "url": "https://archive.org/download/kenny-vs-spenny-s1/KVSD14.mp4",
+              "seconds": 1330,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 131
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 1 of 153 in \"Kenny Vs Spenny DVD ISO [FIXED SEPT 2024\"",
+              "item": "kenny-vs-spenny-season-1-disc-1",
+              "itemTitle": "Kenny Vs Spenny DVD ISO [FIXED SEPT 2024]",
+              "file": "Kenny vs Spenny - Comedy Central Disc 12.mp4",
+              "name": "Kenny vs Spenny - Comedy Central Disc 12",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-disc-1/Kenny%20vs%20Spenny%20-%20Comedy%20Central%20Disc%2012.mp4",
+              "seconds": 1295,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 129
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "Who Can Stay Awake the Longest?",
+          "airdate": "2003-09-02",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E02 - Who Can Stay Awake The Longest.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E02 - Who Can Stay Awake The Longest",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%201%2FS01E02%20-%20Who%20Can%20Stay%20Awake%20The%20Longest.mp4",
+            "seconds": 1327,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 2187
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "kenny-vs-spenny-season-one",
+              "itemTitle": "Kenny vs Spenny (Season One)",
+              "file": "S01E02 Who Can Stay Awake The Longest.mp4",
+              "name": "S01E02 Who Can Stay Awake The Longest",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-one/S01E02%20Who%20Can%20Stay%20Awake%20The%20Longest.mp4",
+              "seconds": 1328,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 176
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 2 of 55 in \"Kenny Vs Spenny: Season One\"",
+              "item": "kenny-vs-spenny-s1",
+              "itemTitle": "Kenny Vs Spenny: Season One",
+              "file": "KVSD15.mp4",
+              "name": "KVSD15",
+              "url": "https://archive.org/download/kenny-vs-spenny-s1/KVSD15.mp4",
+              "seconds": 1330,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 131
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 2 of 153 in \"Kenny Vs Spenny DVD ISO [FIXED SEPT 2024\"",
+              "item": "kenny-vs-spenny-season-1-disc-1",
+              "itemTitle": "Kenny Vs Spenny DVD ISO [FIXED SEPT 2024]",
+              "file": "Kenny vs Spenny - Comedy Central Disc 13.mp4",
+              "name": "Kenny vs Spenny - Comedy Central Disc 13",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-disc-1/Kenny%20vs%20Spenny%20-%20Comedy%20Central%20Disc%2013.mp4",
+              "seconds": 1295,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 129
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "name": "Who is the Better Chef?",
+          "airdate": "2003-09-09",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E03 - Who Is the Better Chef.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E03 - Who Is the Better Chef",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%201%2FS01E03%20-%20Who%20Is%20the%20Better%20Chef.mp4",
+            "seconds": 1328,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 2273
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "kenny-vs-spenny-season-one",
+              "itemTitle": "Kenny vs Spenny (Season One)",
+              "file": "S01E03 Who Is The Better Chef.mp4",
+              "name": "S01E03 Who Is The Better Chef",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-one/S01E03%20Who%20Is%20The%20Better%20Chef.mp4",
+              "seconds": 1328,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 196
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 3 of 153 in \"Kenny Vs Spenny DVD ISO [FIXED SEPT 2024\"",
+              "item": "kenny-vs-spenny-season-1-disc-1",
+              "itemTitle": "Kenny Vs Spenny DVD ISO [FIXED SEPT 2024]",
+              "file": "Kenny vs Spenny - Comedy Central Disc 14.mp4",
+              "name": "Kenny vs Spenny - Comedy Central Disc 14",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-disc-1/Kenny%20vs%20Spenny%20-%20Comedy%20Central%20Disc%2014.mp4",
+              "seconds": 1295,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 129
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 3 of 55 in \"Kenny Vs Spenny: Season One\"",
+              "item": "kenny-vs-spenny-s1",
+              "itemTitle": "Kenny Vs Spenny: Season One",
+              "file": "KVSD17.mp4",
+              "name": "KVSD17",
+              "url": "https://archive.org/download/kenny-vs-spenny-s1/KVSD17.mp4",
+              "seconds": 1329,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 129
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "name": "Who Can Stand Up the Longest?",
+          "airdate": "2003-09-16",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E04 - Who Can Stand Up The Longest.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E04 - Who Can Stand Up The Longest",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%201%2FS01E04%20-%20Who%20Can%20Stand%20Up%20The%20Longest.mp4",
+            "seconds": 1327,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 2147
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "kenny-vs-spenny-season-one",
+              "itemTitle": "Kenny vs Spenny (Season One)",
+              "file": "S01E04 Who Can Stand Up The Longest.mp4",
+              "name": "S01E04 Who Can Stand Up The Longest",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-one/S01E04%20Who%20Can%20Stand%20Up%20The%20Longest.mp4",
+              "seconds": 1327,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 170
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 4 of 153 in \"Kenny Vs Spenny DVD ISO [FIXED SEPT 2024\"",
+              "item": "kenny-vs-spenny-season-1-disc-1",
+              "itemTitle": "Kenny Vs Spenny DVD ISO [FIXED SEPT 2024]",
+              "file": "Kenny vs Spenny - Comedy Central Disc 15.mp4",
+              "name": "Kenny vs Spenny - Comedy Central Disc 15",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-disc-1/Kenny%20vs%20Spenny%20-%20Comedy%20Central%20Disc%2015.mp4",
+              "seconds": 1295,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 130
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 4 of 55 in \"Kenny Vs Spenny: Season One\"",
+              "item": "kenny-vs-spenny-s1",
+              "itemTitle": "Kenny Vs Spenny: Season One",
+              "file": "KVSD18.mp4",
+              "name": "KVSD18",
+              "url": "https://archive.org/download/kenny-vs-spenny-s1/KVSD18.mp4",
+              "seconds": 1329,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 129
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "name": "Who Can Sit on a Cow the Longest?",
+          "airdate": "2003-09-23",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E05 - Who Can Sit on a Cow the Longest.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E05 - Who Can Sit on a Cow the Longest",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%201%2FS01E05%20-%20Who%20Can%20Sit%20on%20a%20Cow%20the%20Longest.mp4",
+            "seconds": 1328,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 2893
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "kenny-vs-spenny-season-one",
+              "itemTitle": "Kenny vs Spenny (Season One)",
+              "file": "S01E05 Who Can Sit On A Cow The Longest.mp4",
+              "name": "S01E05 Who Can Sit On A Cow The Longest",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-one/S01E05%20Who%20Can%20Sit%20On%20A%20Cow%20The%20Longest.mp4",
+              "seconds": 1327,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 229
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 5 of 55 in \"Kenny Vs Spenny: Season One\"",
+              "item": "kenny-vs-spenny-s1",
+              "itemTitle": "Kenny Vs Spenny: Season One",
+              "file": "KVSD24.mp4",
+              "name": "KVSD24",
+              "url": "https://archive.org/download/kenny-vs-spenny-s1/KVSD24.mp4",
+              "seconds": 1329,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 132
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 5 of 153 in \"Kenny Vs Spenny DVD ISO [FIXED SEPT 2024\"",
+              "item": "kenny-vs-spenny-season-1-disc-1",
+              "itemTitle": "Kenny Vs Spenny DVD ISO [FIXED SEPT 2024]",
+              "file": "Kenny vs Spenny - Comedy Central Disc 16.mp4",
+              "name": "Kenny vs Spenny - Comedy Central Disc 16",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-disc-1/Kenny%20vs%20Spenny%20-%20Comedy%20Central%20Disc%2016.mp4",
+              "seconds": 1295,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 128
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "name": "Who is the Sanest?",
+          "airdate": "2003-09-30",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E06 - Who Is the Sanest.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E06 - Who Is the Sanest",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%201%2FS01E06%20-%20Who%20Is%20the%20Sanest.mp4",
+            "seconds": 1327,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 2131
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "kenny-vs-spenny-season-one",
+              "itemTitle": "Kenny vs Spenny (Season One)",
+              "file": "S01E06 Who Is The Sanest.mp4",
+              "name": "S01E06 Who Is The Sanest",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-one/S01E06%20Who%20Is%20The%20Sanest.mp4",
+              "seconds": 1328,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 166
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 6 of 55 in \"Kenny Vs Spenny: Season One\"",
+              "item": "kenny-vs-spenny-s1",
+              "itemTitle": "Kenny Vs Spenny: Season One",
+              "file": "KVSD25.mp4",
+              "name": "KVSD25",
+              "url": "https://archive.org/download/kenny-vs-spenny-s1/KVSD25.mp4",
+              "seconds": 1329,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 132
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 6 of 153 in \"Kenny Vs Spenny DVD ISO [FIXED SEPT 2024\"",
+              "item": "kenny-vs-spenny-season-1-disc-1",
+              "itemTitle": "Kenny Vs Spenny DVD ISO [FIXED SEPT 2024]",
+              "file": "Kenny vs Spenny - Comedy Central Disc 22.mp4",
+              "name": "Kenny vs Spenny - Comedy Central Disc 22",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-disc-1/Kenny%20vs%20Spenny%20-%20Comedy%20Central%20Disc%2022.mp4",
+              "seconds": 1295,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 129
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "name": "Who Can Earn the Most Money in Three Days?",
+          "airdate": "2003-10-07",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E07 - Who Can Earn the Most Money in Three Days.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E07 - Who Can Earn the Most Money in Three Days",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%201%2FS01E07%20-%20Who%20Can%20Earn%20the%20Most%20Money%20in%20Three%20Days.mp4",
+            "seconds": 1327,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 2424
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "kenny-vs-spenny-season-one",
+              "itemTitle": "Kenny vs Spenny (Season One)",
+              "file": "S01E07 Who Can Earn The Most Money In Three Days.mp4",
+              "name": "S01E07 Who Can Earn The Most Money In Three Days",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-one/S01E07%20Who%20Can%20Earn%20The%20Most%20Money%20In%20Three%20Days.mp4",
+              "seconds": 1328,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 218
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 7 of 55 in \"Kenny Vs Spenny: Season One\"",
+              "item": "kenny-vs-spenny-s1",
+              "itemTitle": "Kenny Vs Spenny: Season One",
+              "file": "KVSD27.mp4",
+              "name": "KVSD27",
+              "url": "https://archive.org/download/kenny-vs-spenny-s1/KVSD27.mp4",
+              "seconds": 1329,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 131
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 7 of 153 in \"Kenny Vs Spenny DVD ISO [FIXED SEPT 2024\"",
+              "item": "kenny-vs-spenny-season-1-disc-1",
+              "itemTitle": "Kenny Vs Spenny DVD ISO [FIXED SEPT 2024]",
+              "file": "Kenny vs Spenny - Comedy Central Disc 23.mp4",
+              "name": "Kenny vs Spenny - Comedy Central Disc 23",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-disc-1/Kenny%20vs%20Spenny%20-%20Comedy%20Central%20Disc%2023.mp4",
+              "seconds": 1296,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 129
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "name": "Who Does She Like Better?",
+          "airdate": "2003-10-14",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E08 - Who Does She Like Better.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E08 - Who Does She Like Better",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%201%2FS01E08%20-%20Who%20Does%20She%20Like%20Better.mp4",
+            "seconds": 1327,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 2435
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "kenny-vs-spenny-season-one",
+              "itemTitle": "Kenny vs Spenny (Season One)",
+              "file": "S01E08 Who Does She Like Better.mp4",
+              "name": "S01E08 Who Does She Like Better",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-one/S01E08%20Who%20Does%20She%20Like%20Better.mp4",
+              "seconds": 1328,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 195
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 8 of 55 in \"Kenny Vs Spenny: Season One\"",
+              "item": "kenny-vs-spenny-s1",
+              "itemTitle": "Kenny Vs Spenny: Season One",
+              "file": "KVSD28.mp4",
+              "name": "KVSD28",
+              "url": "https://archive.org/download/kenny-vs-spenny-s1/KVSD28.mp4",
+              "seconds": 1329,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 131
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 8 of 153 in \"Kenny Vs Spenny DVD ISO [FIXED SEPT 2024\"",
+              "item": "kenny-vs-spenny-season-1-disc-1",
+              "itemTitle": "Kenny Vs Spenny DVD ISO [FIXED SEPT 2024]",
+              "file": "Kenny vs Spenny - Comedy Central Disc 24.mp4",
+              "name": "Kenny vs Spenny - Comedy Central Disc 24",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-disc-1/Kenny%20vs%20Spenny%20-%20Comedy%20Central%20Disc%2024.mp4",
+              "seconds": 1296,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 127
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "name": "Who Can Stay Blindfolded the Longest?",
+          "airdate": "2003-10-21",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E09 - Who Can Stay Blindfolded the Longest.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E09 - Who Can Stay Blindfolded the Longest",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%201%2FS01E09%20-%20Who%20Can%20Stay%20Blindfolded%20the%20Longest.mp4",
+            "seconds": 1327,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 2106
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "kenny-vs-spenny-season-one",
+              "itemTitle": "Kenny vs Spenny (Season One)",
+              "file": "S01E09 Who Can Stay Blindfolded The Longest.mp4",
+              "name": "S01E09 Who Can Stay Blindfolded The Longest",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-one/S01E09%20Who%20Can%20Stay%20Blindfolded%20The%20Longest.mp4",
+              "seconds": 1328,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 178
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 9 of 55 in \"Kenny Vs Spenny: Season One\"",
+              "item": "kenny-vs-spenny-s1",
+              "itemTitle": "Kenny Vs Spenny: Season One",
+              "file": "KVSD34.mp4",
+              "name": "KVSD34",
+              "url": "https://archive.org/download/kenny-vs-spenny-s1/KVSD34.mp4",
+              "seconds": 1330,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 131
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 9 of 153 in \"Kenny Vs Spenny DVD ISO [FIXED SEPT 2024\"",
+              "item": "kenny-vs-spenny-season-1-disc-1",
+              "itemTitle": "Kenny Vs Spenny DVD ISO [FIXED SEPT 2024]",
+              "file": "Kenny vs Spenny - Comedy Central Disc 25.mp4",
+              "name": "Kenny vs Spenny - Comedy Central Disc 25",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-disc-1/Kenny%20vs%20Spenny%20-%20Comedy%20Central%20Disc%2025.mp4",
+              "seconds": 1296,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 129
+            }
+          ]
+        },
+        {
+          "number": 10,
+          "name": "Who Can Win a Beauty Pageant?",
+          "airdate": "2003-10-28",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E10 - Who Can Win a Beauty Pageant.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E10 - Who Can Win a Beauty Pageant",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%201%2FS01E10%20-%20Who%20Can%20Win%20a%20Beauty%20Pageant.mp4",
+            "seconds": 1328,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 2125
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "kenny-vs-spenny-season-one",
+              "itemTitle": "Kenny vs Spenny (Season One)",
+              "file": "S01E10 Who Can Win A Beauty Pageant.mp4",
+              "name": "S01E10 Who Can Win A Beauty Pageant",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-one/S01E10%20Who%20Can%20Win%20A%20Beauty%20Pageant.mp4",
+              "seconds": 1328,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 183
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 10 of 55 in \"Kenny Vs Spenny: Season One\"",
+              "item": "kenny-vs-spenny-s1",
+              "itemTitle": "Kenny Vs Spenny: Season One",
+              "file": "KVSD35.mp4",
+              "name": "KVSD35",
+              "url": "https://archive.org/download/kenny-vs-spenny-s1/KVSD35.mp4",
+              "seconds": 1330,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 131
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 10 of 153 in \"Kenny Vs Spenny DVD ISO [FIXED SEPT 2024\"",
+              "item": "kenny-vs-spenny-season-1-disc-1",
+              "itemTitle": "Kenny Vs Spenny DVD ISO [FIXED SEPT 2024]",
+              "file": "Kenny vs Spenny - Comedy Central Disc 26.mp4",
+              "name": "Kenny vs Spenny - Comedy Central Disc 26",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-disc-1/Kenny%20vs%20Spenny%20-%20Comedy%20Central%20Disc%2026.mp4",
+              "seconds": 1295,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 130
+            }
+          ]
+        },
+        {
+          "number": 11,
+          "name": "Who Can Win a Series of Mini-Competitions?",
+          "airdate": "2003-11-04",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E11 - Who Can Win a Series of Mini-Competitions.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E11 - Who Can Win a Series of Mini-Competitions",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%201%2FS01E11%20-%20Who%20Can%20Win%20a%20Series%20of%20Mini-Competitions.mp4",
+            "seconds": 1327,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 2282
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "kenny-vs-spenny-season-one",
+              "itemTitle": "Kenny vs Spenny (Season One)",
+              "file": "S01E11 Who Can Win A Series Of Mini-Competitions.mp4",
+              "name": "S01E11 Who Can Win A Series Of Mini-Competitions",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-one/S01E11%20Who%20Can%20Win%20A%20Series%20Of%20Mini-Competitions.mp4",
+              "seconds": 1328,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 190
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 11 of 55 in \"Kenny Vs Spenny: Season One\"",
+              "item": "kenny-vs-spenny-s1",
+              "itemTitle": "Kenny Vs Spenny: Season One",
+              "file": "KVSD37.mp4",
+              "name": "KVSD37",
+              "url": "https://archive.org/download/kenny-vs-spenny-s1/KVSD37.mp4",
+              "seconds": 1328,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 133
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 11 of 153 in \"Kenny Vs Spenny DVD ISO [FIXED SEPT 2024\"",
+              "item": "kenny-vs-spenny-season-1-disc-1",
+              "itemTitle": "Kenny Vs Spenny DVD ISO [FIXED SEPT 2024]",
+              "file": "Kenny vs Spenny - Season 1 Disc 1.mp4",
+              "name": "Kenny vs Spenny - Season 1 Disc 1",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-disc-1/Kenny%20vs%20Spenny%20-%20Season%201%20Disc%201.mp4",
+              "seconds": 1328,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 132
+            }
+          ]
+        },
+        {
+          "number": 12,
+          "name": "Who Can Lose the Most Weight?",
+          "airdate": "2003-11-11",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-one",
+            "itemTitle": "Kenny vs Spenny (Season One)",
+            "file": "S01E12 Who Can Lose The Most Weight.mp4",
+            "name": "S01E12 Who Can Lose The Most Weight",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-one/S01E12%20Who%20Can%20Lose%20The%20Most%20Weight.mp4",
+            "seconds": 1328,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 177
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+              "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+              "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E12 - Who Can Put On A Better Fashion Show.mp4",
+              "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E12 - Who Can Put On A Better Fashion Show",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%201%2FS01E12%20-%20Who%20Can%20Put%20On%20A%20Better%20Fashion%20Show.mp4",
+              "seconds": 1328,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 2277
+            },
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Who Can Lose the Most Weight?\" (1.00)",
+              "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+              "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+              "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E01 - Who Can Lose The Most Weight.mp4",
+              "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E01 - Who Can Lose The Most Weight",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%201%2FS01E01%20-%20Who%20Can%20Lose%20The%20Most%20Weight.mp4",
+              "seconds": 1327,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 2101
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 12 of 153 in \"Kenny Vs Spenny DVD ISO [FIXED SEPT 2024\"",
+              "item": "kenny-vs-spenny-season-1-disc-1",
+              "itemTitle": "Kenny Vs Spenny DVD ISO [FIXED SEPT 2024]",
+              "file": "Kenny vs Spenny - Season 1 Disc 2.mp4",
+              "name": "Kenny vs Spenny - Season 1 Disc 2",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-disc-1/Kenny%20vs%20Spenny%20-%20Season%201%20Disc%202.mp4",
+              "seconds": 1328,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 133
+            }
+          ]
+        },
+        {
+          "number": 13,
+          "name": "Who Can Stay Handcuffed the Longest?",
+          "airdate": "2003-11-18",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E13 - Who Can Stay Handcuffed the Longest.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E13 - Who Can Stay Handcuffed the Longest",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%201%2FS01E13%20-%20Who%20Can%20Stay%20Handcuffed%20the%20Longest.mp4",
+            "seconds": 1326,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 2094
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "kenny-vs-spenny-season-one",
+              "itemTitle": "Kenny vs Spenny (Season One)",
+              "file": "S01E13 Who Can Stay Handcuffed The Longest.mp4",
+              "name": "S01E13 Who Can Stay Handcuffed The Longest",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-one/S01E13%20Who%20Can%20Stay%20Handcuffed%20The%20Longest.mp4",
+              "seconds": 1328,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 168
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 13 of 153 in \"Kenny Vs Spenny DVD ISO [FIXED SEPT 2024\"",
+              "item": "kenny-vs-spenny-season-1-disc-1",
+              "itemTitle": "Kenny Vs Spenny DVD ISO [FIXED SEPT 2024]",
+              "file": "Kenny vs Spenny - Season 1 Disc 14.mp4",
+              "name": "Kenny vs Spenny - Season 1 Disc 14",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-disc-1/Kenny%20vs%20Spenny%20-%20Season%201%20Disc%2014.mp4",
+              "seconds": 1327,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 132
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 13 of 55 in \"Kenny Vs Spenny: Season One\"",
+              "item": "kenny-vs-spenny-s1",
+              "itemTitle": "Kenny Vs Spenny: Season One",
+              "file": "KVSD110.mp4",
+              "name": "KVSD110",
+              "url": "https://archive.org/download/kenny-vs-spenny-s1/KVSD110.mp4",
+              "seconds": 1330,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 131
+            }
+          ]
+        },
+        {
+          "number": 14,
+          "name": "Who Can Put on the Best Concert?",
+          "airdate": "2003-11-25",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E14 - Who Can Put On the Best Concert.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E14 - Who Can Put On the Best Concert",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%201%2FS01E14%20-%20Who%20Can%20Put%20On%20the%20Best%20Concert.mp4",
+            "seconds": 1327,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 2307
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "kenny-vs-spenny-season-one",
+              "itemTitle": "Kenny vs Spenny (Season One)",
+              "file": "S01E14 Who Can Put On The Best Concert.mp4",
+              "name": "S01E14 Who Can Put On The Best Concert",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-one/S01E14%20Who%20Can%20Put%20On%20The%20Best%20Concert.mp4",
+              "seconds": 1328,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 204
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 14 of 153 in \"Kenny Vs Spenny DVD ISO [FIXED SEPT 2024\"",
+              "item": "kenny-vs-spenny-season-1-disc-1",
+              "itemTitle": "Kenny Vs Spenny DVD ISO [FIXED SEPT 2024]",
+              "file": "Kenny vs Spenny - Season 1 Disc 15.mp4",
+              "name": "Kenny vs Spenny - Season 1 Disc 15",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-disc-1/Kenny%20vs%20Spenny%20-%20Season%201%20Disc%2015.mp4",
+              "seconds": 1327,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 132
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 14 of 55 in \"Kenny Vs Spenny: Season One\"",
+              "item": "kenny-vs-spenny-s1",
+              "itemTitle": "Kenny Vs Spenny: Season One",
+              "file": "KVSD111.mp4",
+              "name": "KVSD111",
+              "url": "https://archive.org/download/kenny-vs-spenny-s1/KVSD111.mp4",
+              "seconds": 1330,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 131
+            }
+          ]
+        },
+        {
+          "number": 15,
+          "name": "Who is a Better Parent?",
+          "airdate": "2004-01-07",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E15 - Who Is the Better Parent.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E15 - Who Is the Better Parent",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%201%2FS01E15%20-%20Who%20Is%20the%20Better%20Parent.mp4",
+            "seconds": 1360,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 693
+          },
+          "alternates": [
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "kenny-vs-spenny-season-one",
+              "itemTitle": "Kenny vs Spenny (Season One)",
+              "file": "S01E15 Who Is The Best Parent.mp4",
+              "name": "S01E15 Who Is The Best Parent",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-one/S01E15%20Who%20Is%20The%20Best%20Parent.mp4",
+              "seconds": 1333,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 66
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 15 of 153 in \"Kenny Vs Spenny DVD ISO [FIXED SEPT 2024\"",
+              "item": "kenny-vs-spenny-season-1-disc-1",
+              "itemTitle": "Kenny Vs Spenny DVD ISO [FIXED SEPT 2024]",
+              "file": "Kenny vs Spenny - Season 1 Disc 19.mp4",
+              "name": "Kenny vs Spenny - Season 1 Disc 19",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-disc-1/Kenny%20vs%20Spenny%20-%20Season%201%20Disc%2019.mp4",
+              "seconds": 1328,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 132
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 15 of 55 in \"Kenny Vs Spenny: Season One\"",
+              "item": "kenny-vs-spenny-s1",
+              "itemTitle": "Kenny Vs Spenny: Season One",
+              "file": "KVSD113.mp4",
+              "name": "KVSD113",
+              "url": "https://archive.org/download/kenny-vs-spenny-s1/KVSD113.mp4",
+              "seconds": 1329,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 130
+            }
+          ]
+        },
+        {
+          "number": 16,
+          "name": "Who Do Kids Like Most?",
+          "airdate": "2004-01-14",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E16 - Who Do Kids Like Most.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E16 - Who Do Kids Like Most",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%201%2FS01E16%20-%20Who%20Do%20Kids%20Like%20Most.mp4",
+            "seconds": 1327,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 2700
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "kenny-vs-spenny-season-one",
+              "itemTitle": "Kenny vs Spenny (Season One)",
+              "file": "S01E16 Who Do Kids Like Most.mp4",
+              "name": "S01E16 Who Do Kids Like Most",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-one/S01E16%20Who%20Do%20Kids%20Like%20Most.mp4",
+              "seconds": 1328,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 240
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 16 of 153 in \"Kenny Vs Spenny DVD ISO [FIXED SEPT 2024\"",
+              "item": "kenny-vs-spenny-season-1-disc-1",
+              "itemTitle": "Kenny Vs Spenny DVD ISO [FIXED SEPT 2024]",
+              "file": "Kenny vs Spenny - Season 1 Disc 24.mp4",
+              "name": "Kenny vs Spenny - Season 1 Disc 24",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-disc-1/Kenny%20vs%20Spenny%20-%20Season%201%20Disc%2024.mp4",
+              "seconds": 1327,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 133
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 16 of 55 in \"Kenny Vs Spenny: Season One\"",
+              "item": "kenny-vs-spenny-s1",
+              "itemTitle": "Kenny Vs Spenny: Season One",
+              "file": "KVSD114.mp4",
+              "name": "KVSD114",
+              "url": "https://archive.org/download/kenny-vs-spenny-s1/KVSD114.mp4",
+              "seconds": 1329,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 130
+            }
+          ]
+        },
+        {
+          "number": 17,
+          "name": "Who is the Strongest?",
+          "airdate": "2004-01-21",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E17 - Who Is the Strongest.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E17 - Who Is the Strongest",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%201%2FS01E17%20-%20Who%20Is%20the%20Strongest.mp4",
+            "seconds": 1326,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 2184
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "kenny-vs-spenny-season-one",
+              "itemTitle": "Kenny vs Spenny (Season One)",
+              "file": "S01E17 Who Is The Strongest.mp4",
+              "name": "S01E17 Who Is The Strongest",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-one/S01E17%20Who%20Is%20The%20Strongest.mp4",
+              "seconds": 1328,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 179
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 17 of 153 in \"Kenny Vs Spenny DVD ISO [FIXED SEPT 2024\"",
+              "item": "kenny-vs-spenny-season-1-disc-1",
+              "itemTitle": "Kenny Vs Spenny DVD ISO [FIXED SEPT 2024]",
+              "file": "Kenny vs Spenny - Season 1 Disc 25.mp4",
+              "name": "Kenny vs Spenny - Season 1 Disc 25",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-disc-1/Kenny%20vs%20Spenny%20-%20Season%201%20Disc%2025.mp4",
+              "seconds": 1327,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 133
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 17 of 55 in \"Kenny Vs Spenny: Season One\"",
+              "item": "kenny-vs-spenny-s1",
+              "itemTitle": "Kenny Vs Spenny: Season One",
+              "file": "KVSD115.mp4",
+              "name": "KVSD115",
+              "url": "https://archive.org/download/kenny-vs-spenny-s1/KVSD115.mp4",
+              "seconds": 1329,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 130
+            }
+          ]
+        },
+        {
+          "number": 18,
+          "name": "Who Makes the Most Convincing Woman?",
+          "airdate": "2004-01-28",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E18 - Who Makes the Most Convincing Woman.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E18 - Who Makes the Most Convincing Woman",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%201%2FS01E18%20-%20Who%20Makes%20the%20Most%20Convincing%20Woman.mp4",
+            "seconds": 1327,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 2549
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "kenny-vs-spenny-season-one",
+              "itemTitle": "Kenny vs Spenny (Season One)",
+              "file": "S01E18 Who Makes The Most Convincing Woman.mp4",
+              "name": "S01E18 Who Makes The Most Convincing Woman",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-one/S01E18%20Who%20Makes%20The%20Most%20Convincing%20Woman.mp4",
+              "seconds": 1329,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 216
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 18 of 153 in \"Kenny Vs Spenny DVD ISO [FIXED SEPT 2024\"",
+              "item": "kenny-vs-spenny-season-1-disc-1",
+              "itemTitle": "Kenny Vs Spenny DVD ISO [FIXED SEPT 2024]",
+              "file": "Kenny vs Spenny - Season 1 Disc 26.mp4",
+              "name": "Kenny vs Spenny - Season 1 Disc 26",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-disc-1/Kenny%20vs%20Spenny%20-%20Season%201%20Disc%2026.mp4",
+              "seconds": 1328,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 132
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 18 of 55 in \"Kenny Vs Spenny: Season One\"",
+              "item": "kenny-vs-spenny-s1",
+              "itemTitle": "Kenny Vs Spenny: Season One",
+              "file": "KVSD116.mp4",
+              "name": "KVSD116",
+              "url": "https://archive.org/download/kenny-vs-spenny-s1/KVSD116.mp4",
+              "seconds": 1329,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 130
+            }
+          ]
+        },
+        {
+          "number": 19,
+          "name": "Who is the Best Actor?",
+          "airdate": "2004-02-03",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E19 - Who Is the Better Actor.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E19 - Who Is the Better Actor",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%201%2FS01E19%20-%20Who%20Is%20the%20Better%20Actor.mp4",
+            "seconds": 1327,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 2285
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "kenny-vs-spenny-season-one",
+              "itemTitle": "Kenny vs Spenny (Season One)",
+              "file": "S01E19 Who Is The Best Actor.mp4",
+              "name": "S01E19 Who Is The Best Actor",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-one/S01E19%20Who%20Is%20The%20Best%20Actor.mp4",
+              "seconds": 1327,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 180
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 19 of 153 in \"Kenny Vs Spenny DVD ISO [FIXED SEPT 2024\"",
+              "item": "kenny-vs-spenny-season-1-disc-1",
+              "itemTitle": "Kenny Vs Spenny DVD ISO [FIXED SEPT 2024]",
+              "file": "Kenny vs Spenny - Season 1 Disc 27.mp4",
+              "name": "Kenny vs Spenny - Season 1 Disc 27",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-disc-1/Kenny%20vs%20Spenny%20-%20Season%201%20Disc%2027.mp4",
+              "seconds": 1327,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 132
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 19 of 55 in \"Kenny Vs Spenny: Season One\"",
+              "item": "kenny-vs-spenny-s1",
+              "itemTitle": "Kenny Vs Spenny: Season One",
+              "file": "KVSD118.mp4",
+              "name": "KVSD118",
+              "url": "https://archive.org/download/kenny-vs-spenny-s1/KVSD118.mp4",
+              "seconds": 1329,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 131
+            }
+          ]
+        },
+        {
+          "number": 20,
+          "name": "Who is the Best Male Stripper?",
+          "airdate": "2004-02-10",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E20 - Who Is the Best Male Stripper.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E20 - Who Is the Best Male Stripper",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%201%2FS01E20%20-%20Who%20Is%20the%20Best%20Male%20Stripper.mp4",
+            "seconds": 1370,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 626
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "kenny-vs-spenny-season-one",
+              "itemTitle": "Kenny vs Spenny (Season One)",
+              "file": "S01E20 Who Is The Best Male Stripper.mp4",
+              "name": "S01E20 Who Is The Best Male Stripper",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-one/S01E20%20Who%20Is%20The%20Best%20Male%20Stripper.mp4",
+              "seconds": 1361,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 66
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 20 of 153 in \"Kenny Vs Spenny DVD ISO [FIXED SEPT 2024\"",
+              "item": "kenny-vs-spenny-season-1-disc-1",
+              "itemTitle": "Kenny Vs Spenny DVD ISO [FIXED SEPT 2024]",
+              "file": "Kenny vs Spenny - Season 1 Disc 28.mp4",
+              "name": "Kenny vs Spenny - Season 1 Disc 28",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-disc-1/Kenny%20vs%20Spenny%20-%20Season%201%20Disc%2028.mp4",
+              "seconds": 1327,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 132
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 20 of 55 in \"Kenny Vs Spenny: Season One\"",
+              "item": "kenny-vs-spenny-s1",
+              "itemTitle": "Kenny Vs Spenny: Season One",
+              "file": "KVSD119.mp4",
+              "name": "KVSD119",
+              "url": "https://archive.org/download/kenny-vs-spenny-s1/KVSD119.mp4",
+              "seconds": 1329,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 131
+            }
+          ]
+        },
+        {
+          "number": 21,
+          "name": "Who is the Best Figure Skater?",
+          "airdate": "2004-02-17",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E21 - Who Is the Best Figure Skater.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E21 - Who Is the Best Figure Skater",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%201%2FS01E21%20-%20Who%20Is%20the%20Best%20Figure%20Skater.mp4",
+            "seconds": 1326,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 2298
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "kenny-vs-spenny-season-one",
+              "itemTitle": "Kenny vs Spenny (Season One)",
+              "file": "S01E21 Who Is The Best Figure Skater.mp4",
+              "name": "S01E21 Who Is The Best Figure Skater",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-one/S01E21%20Who%20Is%20The%20Best%20Figure%20Skater.mp4",
+              "seconds": 1331,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 198
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 21 of 153 in \"Kenny Vs Spenny DVD ISO [FIXED SEPT 2024\"",
+              "item": "kenny-vs-spenny-season-1-disc-1",
+              "itemTitle": "Kenny Vs Spenny DVD ISO [FIXED SEPT 2024]",
+              "file": "Kenny vs Spenny - Season 1 Disc 29.mp4",
+              "name": "Kenny vs Spenny - Season 1 Disc 29",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-disc-1/Kenny%20vs%20Spenny%20-%20Season%201%20Disc%2029.mp4",
+              "seconds": 1328,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 132
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 21 of 55 in \"Kenny Vs Spenny: Season One\"",
+              "item": "kenny-vs-spenny-s1",
+              "itemTitle": "Kenny Vs Spenny: Season One",
+              "file": "KVSD120.mp4",
+              "name": "KVSD120",
+              "url": "https://archive.org/download/kenny-vs-spenny-s1/KVSD120.mp4",
+              "seconds": 1329,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 131
+            }
+          ]
+        },
+        {
+          "number": 22,
+          "name": "Who Can Survive in the Woods the Longest?",
+          "airdate": "2004-02-23",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E22 - Who Can Survive in the Woods the Longest.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E22 - Who Can Survive in the Woods the Longest",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%201%2FS01E22%20-%20Who%20Can%20Survive%20in%20the%20Woods%20the%20Longest.mp4",
+            "seconds": 1327,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 3886
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "kenny-vs-spenny-season-one",
+              "itemTitle": "Kenny vs Spenny (Season One)",
+              "file": "S01E22 Who Can Survive In The Woods The Longest.mp4",
+              "name": "S01E22 Who Can Survive In The Woods The Longest",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-one/S01E22%20Who%20Can%20Survive%20In%20The%20Woods%20The%20Longest.mp4",
+              "seconds": 1328,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 184
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 22 of 153 in \"Kenny Vs Spenny DVD ISO [FIXED SEPT 2024\"",
+              "item": "kenny-vs-spenny-season-1-disc-1",
+              "itemTitle": "Kenny Vs Spenny DVD ISO [FIXED SEPT 2024]",
+              "file": "Kenny vs Spenny - Season 1 Disc 33.mp4",
+              "name": "Kenny vs Spenny - Season 1 Disc 33",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-disc-1/Kenny%20vs%20Spenny%20-%20Season%201%20Disc%2033.mp4",
+              "seconds": 1328,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 132
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 22 of 55 in \"Kenny Vs Spenny: Season One\"",
+              "item": "kenny-vs-spenny-s1",
+              "itemTitle": "Kenny Vs Spenny: Season One",
+              "file": "KVSD121.mp4",
+              "name": "KVSD121",
+              "url": "https://archive.org/download/kenny-vs-spenny-s1/KVSD121.mp4",
+              "seconds": 1329,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 131
+            }
+          ]
+        },
+        {
+          "number": 23,
+          "name": "Who Will Use Their Arms First?",
+          "airdate": "2004-03-02",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-one",
+            "itemTitle": "Kenny vs Spenny (Season One)",
+            "file": "S01E23 Who Will Use Their Arms First.mp4",
+            "name": "S01E23 Who Will Use Their Arms First",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-one/S01E23%20Who%20Will%20Use%20Their%20Arms%20First.mp4",
+            "seconds": 1328,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 348
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+              "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+              "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E23 - First One to Use Their Arms Loses.mp4",
+              "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E23 - First One to Use Their Arms Loses",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%201%2FS01E23%20-%20First%20One%20to%20Use%20Their%20Arms%20Loses.mp4",
+              "seconds": 1327,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 2141
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 23 of 153 in \"Kenny Vs Spenny DVD ISO [FIXED SEPT 2024\"",
+              "item": "kenny-vs-spenny-season-1-disc-1",
+              "itemTitle": "Kenny Vs Spenny DVD ISO [FIXED SEPT 2024]",
+              "file": "Kenny vs Spenny - Season 1 Disc 34.mp4",
+              "name": "Kenny vs Spenny - Season 1 Disc 34",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-disc-1/Kenny%20vs%20Spenny%20-%20Season%201%20Disc%2034.mp4",
+              "seconds": 1327,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 132
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 23 of 55 in \"Kenny Vs Spenny: Season One\"",
+              "item": "kenny-vs-spenny-s1",
+              "itemTitle": "Kenny Vs Spenny: Season One",
+              "file": "KVSD123.mp4",
+              "name": "KVSD123",
+              "url": "https://archive.org/download/kenny-vs-spenny-s1/KVSD123.mp4",
+              "seconds": 1329,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 130
+            }
+          ]
+        },
+        {
+          "number": 24,
+          "name": "Who Can Win a Court Case?",
+          "airdate": "2004-03-09",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E24 - Who Can Win a Court Case.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E24 - Who Can Win a Court Case",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%201%2FS01E24%20-%20Who%20Can%20Win%20a%20Court%20Case.mp4",
+            "seconds": 1327,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 2164
+          },
+          "alternates": [
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "kenny-vs-spenny-season-one",
+              "itemTitle": "Kenny vs Spenny (Season One)",
+              "file": "S01E24 Kenny Takes Spenny To Court For Money Owed.mp4",
+              "name": "S01E24 Kenny Takes Spenny To Court For Money Owed",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-one/S01E24%20Kenny%20Takes%20Spenny%20To%20Court%20For%20Money%20Owed.mp4",
+              "seconds": 1328,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 173
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 24 of 153 in \"Kenny Vs Spenny DVD ISO [FIXED SEPT 2024\"",
+              "item": "kenny-vs-spenny-season-1-disc-1",
+              "itemTitle": "Kenny Vs Spenny DVD ISO [FIXED SEPT 2024]",
+              "file": "Kenny vs Spenny - Season 1 Disc 35.mp4",
+              "name": "Kenny vs Spenny - Season 1 Disc 35",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-disc-1/Kenny%20vs%20Spenny%20-%20Season%201%20Disc%2035.mp4",
+              "seconds": 1327,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 132
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 24 of 55 in \"Kenny Vs Spenny: Season One\"",
+              "item": "kenny-vs-spenny-s1",
+              "itemTitle": "Kenny Vs Spenny: Season One",
+              "file": "KVSD124.mp4",
+              "name": "KVSD124",
+              "url": "https://archive.org/download/kenny-vs-spenny-s1/KVSD124.mp4",
+              "seconds": 1329,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 130
+            }
+          ]
+        },
+        {
+          "number": 25,
+          "name": "Who Can Live in a Van the Longest?",
+          "airdate": "2004-03-16",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E25 - Who Can Live in a Van the Longest.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E25 - Who Can Live in a Van the Longest",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%201%2FS01E25%20-%20Who%20Can%20Live%20in%20a%20Van%20the%20Longest.mp4",
+            "seconds": 1327,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 2229
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "kenny-vs-spenny-season-one",
+              "itemTitle": "Kenny vs Spenny (Season One)",
+              "file": "S01E25 Who Can Live In A Van The Longest.mp4",
+              "name": "S01E25 Who Can Live In A Van The Longest",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-one/S01E25%20Who%20Can%20Live%20In%20A%20Van%20The%20Longest.mp4",
+              "seconds": 1328,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 202
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 25 of 153 in \"Kenny Vs Spenny DVD ISO [FIXED SEPT 2024\"",
+              "item": "kenny-vs-spenny-season-1-disc-1",
+              "itemTitle": "Kenny Vs Spenny DVD ISO [FIXED SEPT 2024]",
+              "file": "Kenny vs Spenny - Season 1 Disc 36.mp4",
+              "name": "Kenny vs Spenny - Season 1 Disc 36",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-disc-1/Kenny%20vs%20Spenny%20-%20Season%201%20Disc%2036.mp4",
+              "seconds": 1328,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 134
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 25 of 55 in \"Kenny Vs Spenny: Season One\"",
+              "item": "kenny-vs-spenny-s1",
+              "itemTitle": "Kenny Vs Spenny: Season One",
+              "file": "KVSD126.mp4",
+              "name": "KVSD126",
+              "url": "https://archive.org/download/kenny-vs-spenny-s1/KVSD126.mp4",
+              "seconds": 1330,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 131
+            }
+          ]
+        },
+        {
+          "number": 26,
+          "name": "Who is the Better Boxer?",
+          "airdate": "2004-03-23",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E26 - Who Is the Better Boxer.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E26 - Who Is the Better Boxer",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%201%2FS01E26%20-%20Who%20Is%20the%20Better%20Boxer.mp4",
+            "seconds": 1326,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 2042
+          },
+          "alternates": [
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "kenny-vs-spenny-season-one",
+              "itemTitle": "Kenny vs Spenny (Season One)",
+              "file": "S01E26 Boxing.mp4",
+              "name": "S01E26 Boxing",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-one/S01E26%20Boxing.mp4",
+              "seconds": 1328,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 179
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 26 of 153 in \"Kenny Vs Spenny DVD ISO [FIXED SEPT 2024\"",
+              "item": "kenny-vs-spenny-season-1-disc-1",
+              "itemTitle": "Kenny Vs Spenny DVD ISO [FIXED SEPT 2024]",
+              "file": "Kenny vs Spenny - Season 1 Disc 37.mp4",
+              "name": "Kenny vs Spenny - Season 1 Disc 37",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-disc-1/Kenny%20vs%20Spenny%20-%20Season%201%20Disc%2037.mp4",
+              "seconds": 1327,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 134
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 26 of 55 in \"Kenny Vs Spenny: Season One\"",
+              "item": "kenny-vs-spenny-s1",
+              "itemTitle": "Kenny Vs Spenny: Season One",
+              "file": "KVSD127.mp4",
+              "name": "KVSD127",
+              "url": "https://archive.org/download/kenny-vs-spenny-s1/KVSD127.mp4",
+              "seconds": 1330,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 131
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Who Can Drink More Beer?",
+          "airdate": "2005-10-16",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 2/S02E01 - Who Can Drink More Beer.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 2/S02E01 - Who Can Drink More Beer",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%202%2FS02E01%20-%20Who%20Can%20Drink%20More%20Beer.mp4",
+            "seconds": 1387,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 1988
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 1 of 19 in \"Kenny vs Spenny: Season Two\"",
+              "item": "kenny-vs-spenny-s2",
+              "itemTitle": "Kenny vs Spenny: Season Two",
+              "file": "KVSS2D14.mp4",
+              "name": "KVSS2D14",
+              "url": "https://archive.org/download/kenny-vs-spenny-s2/KVSS2D14.mp4",
+              "seconds": 1387,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 137
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "Who Can Stay Naked the Longest?",
+          "airdate": "2005-10-23",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 2/S02E02 - Who Can Stay Naked the Longest.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 2/S02E02 - Who Can Stay Naked the Longest",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%202%2FS02E02%20-%20Who%20Can%20Stay%20Naked%20the%20Longest.mp4",
+            "seconds": 1370,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 514
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 2 of 19 in \"Kenny vs Spenny: Season Two\"",
+              "item": "kenny-vs-spenny-s2",
+              "itemTitle": "Kenny vs Spenny: Season Two",
+              "file": "KVSS2D15.mp4",
+              "name": "KVSS2D15",
+              "url": "https://archive.org/download/kenny-vs-spenny-s2/KVSS2D15.mp4",
+              "seconds": 1387,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 137
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "name": "Who Has the Biggest Balls?",
+          "airdate": "2005-10-31",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 2/S02E03 - Who Has the Biggest Balls.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 2/S02E03 - Who Has the Biggest Balls",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%202%2FS02E03%20-%20Who%20Has%20the%20Biggest%20Balls.mp4",
+            "seconds": 1370,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 694
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 3 of 19 in \"Kenny vs Spenny: Season Two\"",
+              "item": "kenny-vs-spenny-s2",
+              "itemTitle": "Kenny vs Spenny: Season Two",
+              "file": "KVSS2D17.mp4",
+              "name": "KVSS2D17",
+              "url": "https://archive.org/download/kenny-vs-spenny-s2/KVSS2D17.mp4",
+              "seconds": 1387,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 137
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "name": "Who Do Old People Like More?",
+          "airdate": "2005-11-07",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 2/S02E04 - Who do Old People Like More.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 2/S02E04 - Who do Old People Like More",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%202%2FS02E04%20-%20Who%20do%20Old%20People%20Like%20More.mp4",
+            "seconds": 1370,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 574
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 4 of 19 in \"Kenny vs Spenny: Season Two\"",
+              "item": "kenny-vs-spenny-s2",
+              "itemTitle": "Kenny vs Spenny: Season Two",
+              "file": "KVSS2D18.mp4",
+              "name": "KVSS2D18",
+              "url": "https://archive.org/download/kenny-vs-spenny-s2/KVSS2D18.mp4",
+              "seconds": 1387,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 137
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "name": "Who Can Dance the Longest?",
+          "airdate": "2005-11-14",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 2/S02E05 - Who Can Dance the Longest.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 2/S02E05 - Who Can Dance the Longest",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%202%2FS02E05%20-%20Who%20Can%20Dance%20the%20Longest.mp4",
+            "seconds": 1370,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 616
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 5 of 19 in \"Kenny vs Spenny: Season Two\"",
+              "item": "kenny-vs-spenny-s2",
+              "itemTitle": "Kenny vs Spenny: Season Two",
+              "file": "KVSS2D24.mp4",
+              "name": "KVSS2D24",
+              "url": "https://archive.org/download/kenny-vs-spenny-s2/KVSS2D24.mp4",
+              "seconds": 1386,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 140
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "name": "First One to Talk Loses",
+          "airdate": "2005-11-21",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 2/S02E06 - First One to Talk Loses.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 2/S02E06 - First One to Talk Loses",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%202%2FS02E06%20-%20First%20One%20to%20Talk%20Loses.mp4",
+            "seconds": 1370,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 508
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"First One to Talk Loses\" (0.71)",
+              "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+              "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+              "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E23 - First One to Use Their Arms Loses.mp4",
+              "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E23 - First One to Use Their Arms Loses",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%201%2FS01E23%20-%20First%20One%20to%20Use%20Their%20Arms%20Loses.mp4",
+              "seconds": 1327,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 2141
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 6 of 19 in \"Kenny vs Spenny: Season Two\"",
+              "item": "kenny-vs-spenny-s2",
+              "itemTitle": "Kenny vs Spenny: Season Two",
+              "file": "KVSS2D26.mp4",
+              "name": "KVSS2D26",
+              "url": "https://archive.org/download/kenny-vs-spenny-s2/KVSS2D26.mp4",
+              "seconds": 1387,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 141
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "name": "Who is Funnier?",
+          "airdate": "2005-11-28",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 2/S02E07 - Who Is Funnier.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 2/S02E07 - Who Is Funnier",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%202%2FS02E07%20-%20Who%20Is%20Funnier.mp4",
+            "seconds": 1369,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 468
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 7 of 19 in \"Kenny vs Spenny: Season Two\"",
+              "item": "kenny-vs-spenny-s2",
+              "itemTitle": "Kenny vs Spenny: Season Two",
+              "file": "KVSS2D28.mp4",
+              "name": "KVSS2D28",
+              "url": "https://archive.org/download/kenny-vs-spenny-s2/KVSS2D28.mp4",
+              "seconds": 1387,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 140
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "name": "Who Can Kiss More Women?",
+          "airdate": "2005-12-05",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 2/S02E08 - Who Can Kiss More Women.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 2/S02E08 - Who Can Kiss More Women",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%202%2FS02E08%20-%20Who%20Can%20Kiss%20More%20Women.mp4",
+            "seconds": 1369,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 694
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 8 of 19 in \"Kenny vs Spenny: Season Two\"",
+              "item": "kenny-vs-spenny-s2",
+              "itemTitle": "Kenny vs Spenny: Season Two",
+              "file": "KVSS2D110.mp4",
+              "name": "KVSS2D110",
+              "url": "https://archive.org/download/kenny-vs-spenny-s2/KVSS2D110.mp4",
+              "seconds": 1387,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 140
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "name": "Who Can Sell More Bibles?",
+          "airdate": "2005-12-12",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 2/S02E09 - Who Can Sell More Bibles.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 2/S02E09 - Who Can Sell More Bibles",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%202%2FS02E09%20-%20Who%20Can%20Sell%20More%20Bibles.mp4",
+            "seconds": 1370,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 493
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 9 of 19 in \"Kenny vs Spenny: Season Two\"",
+              "item": "kenny-vs-spenny-s2",
+              "itemTitle": "Kenny vs Spenny: Season Two",
+              "file": "KVSS2D112.mp4",
+              "name": "KVSS2D112",
+              "url": "https://archive.org/download/kenny-vs-spenny-s2/KVSS2D112.mp4",
+              "seconds": 1387,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 140
+            }
+          ]
+        },
+        {
+          "number": 10,
+          "name": "Who Can Win a Rat Race?",
+          "airdate": "2005-12-19",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 2/S02E10 - Who Can Win a Rat Race.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 2/S02E10 - Who Can Win a Rat Race",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%202%2FS02E10%20-%20Who%20Can%20Win%20a%20Rat%20Race.mp4",
+            "seconds": 1369,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 641
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 10 of 19 in \"Kenny vs Spenny: Season Two\"",
+              "item": "kenny-vs-spenny-s2",
+              "itemTitle": "Kenny vs Spenny: Season Two",
+              "file": "KVSS2D114.mp4",
+              "name": "KVSS2D114",
+              "url": "https://archive.org/download/kenny-vs-spenny-s2/KVSS2D114.mp4",
+              "seconds": 1387,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 139
+            }
+          ]
+        },
+        {
+          "number": 11,
+          "name": "First One to Be Mean Loses",
+          "airdate": "2005-12-26",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 2/S02E11 - First One to be Mean Loses.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 2/S02E11 - First One to be Mean Loses",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%202%2FS02E11%20-%20First%20One%20to%20be%20Mean%20Loses.mp4",
+            "seconds": 1370,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 529
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 11 of 19 in \"Kenny vs Spenny: Season Two\"",
+              "item": "kenny-vs-spenny-s2",
+              "itemTitle": "Kenny vs Spenny: Season Two",
+              "file": "KVSS2D116.mp4",
+              "name": "KVSS2D116",
+              "url": "https://archive.org/download/kenny-vs-spenny-s2/KVSS2D116.mp4",
+              "seconds": 1387,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 141
+            }
+          ]
+        },
+        {
+          "number": 12,
+          "name": "Who is the Better Journalist?",
+          "airdate": "2006-01-01",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 2/S02E12 - Who Is the Better Journalist.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 2/S02E12 - Who Is the Better Journalist",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%202%2FS02E12%20-%20Who%20Is%20the%20Better%20Journalist.mp4",
+            "seconds": 1369,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 588
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 12 of 19 in \"Kenny vs Spenny: Season Two\"",
+              "item": "kenny-vs-spenny-s2",
+              "itemTitle": "Kenny vs Spenny: Season Two",
+              "file": "KVSS2D118.mp4",
+              "name": "KVSS2D118",
+              "url": "https://archive.org/download/kenny-vs-spenny-s2/KVSS2D118.mp4",
+              "seconds": 1386,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 141
+            }
+          ]
+        },
+        {
+          "number": 13,
+          "name": "Who is the Better Rapper?",
+          "airdate": "2006-01-09",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 2/S02E13 - Who Is the Better Rapper.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 2/S02E13 - Who Is the Better Rapper",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%202%2FS02E13%20-%20Who%20Is%20the%20Better%20Rapper.mp4",
+            "seconds": 1370,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 637
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 13 of 19 in \"Kenny vs Spenny: Season Two\"",
+              "item": "kenny-vs-spenny-s2",
+              "itemTitle": "Kenny vs Spenny: Season Two",
+              "file": "KVSS2D120.mp4",
+              "name": "KVSS2D120",
+              "url": "https://archive.org/download/kenny-vs-spenny-s2/KVSS2D120.mp4",
+              "seconds": 1386,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 138
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "First One to Laugh Loses",
+          "airdate": "2006-10-17",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 3/S03E01 - First One to Laugh Loses.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 3/S03E01 - First One to Laugh Loses",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%203%2FS03E01%20-%20First%20One%20to%20Laugh%20Loses.mp4",
+            "seconds": 1350,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 554
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 1 of 14 in \"Kenny vs Spenny: Season Three\"",
+              "item": "kenny-vs-spenny-s3",
+              "itemTitle": "Kenny vs Spenny: Season Three",
+              "file": "KENNY_VS_SPENNY_SEASON3_DISC11.mp4",
+              "name": "KENNY_VS_SPENNY_SEASON3_DISC11",
+              "url": "https://archive.org/download/kenny-vs-spenny-s3/KENNY_VS_SPENNY_SEASON3_DISC11.mp4",
+              "seconds": 1413,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 143
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "Who Do Gay Guys Like More?",
+          "airdate": "2006-10-23",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 3/S03E02 - Who Do Gay Guys Like More.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 3/S03E02 - Who Do Gay Guys Like More",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%203%2FS03E02%20-%20Who%20Do%20Gay%20Guys%20Like%20More.mp4",
+            "seconds": 1351,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 555
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 2 of 14 in \"Kenny vs Spenny: Season Three\"",
+              "item": "kenny-vs-spenny-s3",
+              "itemTitle": "Kenny vs Spenny: Season Three",
+              "file": "KENNY_VS_SPENNY_SEASON3_DISC12.mp4",
+              "name": "KENNY_VS_SPENNY_SEASON3_DISC12",
+              "url": "https://archive.org/download/kenny-vs-spenny-s3/KENNY_VS_SPENNY_SEASON3_DISC12.mp4",
+              "seconds": 1501,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 153
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "name": "Who Can Wear a Dead Octopus on Their Head the Longest?",
+          "airdate": "2006-10-30",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 3/S03E03 - Who Can Wear A Dead Octopus On Their Head The Longest.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 3/S03E03 - Who Can Wear A Dead Octopus On Their Head The Longest",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%203%2FS03E03%20-%20Who%20Can%20Wear%20A%20Dead%20Octopus%20On%20Their%20Head%20The%20Longest.mp4",
+            "seconds": 1353,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 658
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 3 of 14 in \"Kenny vs Spenny: Season Three\"",
+              "item": "kenny-vs-spenny-s3",
+              "itemTitle": "Kenny vs Spenny: Season Three",
+              "file": "KENNY_VS_SPENNY_SEASON3_DISC13.mp4",
+              "name": "KENNY_VS_SPENNY_SEASON3_DISC13",
+              "url": "https://archive.org/download/kenny-vs-spenny-s3/KENNY_VS_SPENNY_SEASON3_DISC13.mp4",
+              "seconds": 1503,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 152
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "name": "Who Can Win a Ten Mile Race?",
+          "airdate": "2006-11-06",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 3/S03E04 - Who Can Win a Ten Mile Race.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 3/S03E04 - Who Can Win a Ten Mile Race",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%203%2FS03E04%20-%20Who%20Can%20Win%20a%20Ten%20Mile%20Race.mp4",
+            "seconds": 1351,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 610
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 4 of 14 in \"Kenny vs Spenny: Season Three\"",
+              "item": "kenny-vs-spenny-s3",
+              "itemTitle": "Kenny vs Spenny: Season Three",
+              "file": "KENNY_VS_SPENNY_SEASON3_DISC14.mp4",
+              "name": "KENNY_VS_SPENNY_SEASON3_DISC14",
+              "url": "https://archive.org/download/kenny-vs-spenny-s3/KENNY_VS_SPENNY_SEASON3_DISC14.mp4",
+              "seconds": 1413,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 143
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "name": "Who Can Make a Better Porno?",
+          "airdate": "2006-11-13",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 3/S03E05 - Who Can Make a Better Porno.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 3/S03E05 - Who Can Make a Better Porno",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%203%2FS03E05%20-%20Who%20Can%20Make%20a%20Better%20Porno.mp4",
+            "seconds": 1362,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 2093
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 5 of 14 in \"Kenny vs Spenny: Season Three\"",
+              "item": "kenny-vs-spenny-s3",
+              "itemTitle": "Kenny vs Spenny: Season Three",
+              "file": "KENNY_VS_SPENNY_SEASON3_DISC15.mp4",
+              "name": "KENNY_VS_SPENNY_SEASON3_DISC15",
+              "url": "https://archive.org/download/kenny-vs-spenny-s3/KENNY_VS_SPENNY_SEASON3_DISC15.mp4",
+              "seconds": 1417,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 144
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "name": "Who Can Lift More Weight with Their Genitals?",
+          "airdate": "2006-11-20",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 3/S03E06 - Who Can Lift More Weight With Their Genitals.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 3/S03E06 - Who Can Lift More Weight With Their Genitals",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%203%2FS03E06%20-%20Who%20Can%20Lift%20More%20Weight%20With%20Their%20Genitals.mp4",
+            "seconds": 1351,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 586
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 6 of 14 in \"Kenny vs Spenny: Season Three\"",
+              "item": "kenny-vs-spenny-s3",
+              "itemTitle": "Kenny vs Spenny: Season Three",
+              "file": "KENNY_VS_SPENNY_SEASON3_DISC17.mp4",
+              "name": "KENNY_VS_SPENNY_SEASON3_DISC17",
+              "url": "https://archive.org/download/kenny-vs-spenny-s3/KENNY_VS_SPENNY_SEASON3_DISC17.mp4",
+              "seconds": 1525,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 151
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "name": "Who is Cooler?",
+          "airdate": "2006-11-27",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 3/S03E07 - Who Is Cooler.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 3/S03E07 - Who Is Cooler",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%203%2FS03E07%20-%20Who%20Is%20Cooler.mp4",
+            "seconds": 1351,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 608
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 7 of 14 in \"Kenny vs Spenny: Season Three\"",
+              "item": "kenny-vs-spenny-s3",
+              "itemTitle": "Kenny vs Spenny: Season Three",
+              "file": "KENNY_VS_SPENNY_SEASON3_DISC18.mp4",
+              "name": "KENNY_VS_SPENNY_SEASON3_DISC18",
+              "url": "https://archive.org/download/kenny-vs-spenny-s3/KENNY_VS_SPENNY_SEASON3_DISC18.mp4",
+              "seconds": 1525,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 156
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "name": "Who Can Produce More Semen?",
+          "airdate": "2006-12-04",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 3/S03E08 - Who Can Produce More Semen.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 3/S03E08 - Who Can Produce More Semen",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%203%2FS03E08%20-%20Who%20Can%20Produce%20More%20Semen.mp4",
+            "seconds": 1351,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 536
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 8 of 14 in \"Kenny vs Spenny: Season Three\"",
+              "item": "kenny-vs-spenny-s3",
+              "itemTitle": "Kenny vs Spenny: Season Three",
+              "file": "KENNY_VS_SPENNY_SEASON3_DISC21.mp4",
+              "name": "KENNY_VS_SPENNY_SEASON3_DISC21",
+              "url": "https://archive.org/download/kenny-vs-spenny-s3/KENNY_VS_SPENNY_SEASON3_DISC21.mp4",
+              "seconds": 1542,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 153
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "name": "Who Can Stay in a Haunted House the Longest?",
+          "airdate": "2006-12-11",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 3/S03E09 - Who Can Stay In A Haunted House the Longest.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 3/S03E09 - Who Can Stay In A Haunted House the Longest",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%203%2FS03E09%20-%20Who%20Can%20Stay%20In%20A%20Haunted%20House%20the%20Longest.mp4",
+            "seconds": 1351,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 533
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 9 of 14 in \"Kenny vs Spenny: Season Three\"",
+              "item": "kenny-vs-spenny-s3",
+              "itemTitle": "Kenny vs Spenny: Season Three",
+              "file": "KENNY_VS_SPENNY_SEASON3_DISC22.mp4",
+              "name": "KENNY_VS_SPENNY_SEASON3_DISC22",
+              "url": "https://archive.org/download/kenny-vs-spenny-s3/KENNY_VS_SPENNY_SEASON3_DISC22.mp4",
+              "seconds": 1542,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 153
+            }
+          ]
+        },
+        {
+          "number": 10,
+          "name": "Who Can Catch a Bigger Fish?",
+          "airdate": "2006-12-18",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 3/S03E10 - Who Can Catch a Bigger Fish.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 3/S03E10 - Who Can Catch a Bigger Fish",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%203%2FS03E10%20-%20Who%20Can%20Catch%20a%20Bigger%20Fish.mp4",
+            "seconds": 1351,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 701
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 10 of 14 in \"Kenny vs Spenny: Season Three\"",
+              "item": "kenny-vs-spenny-s3",
+              "itemTitle": "Kenny vs Spenny: Season Three",
+              "file": "KENNY_VS_SPENNY_SEASON3_DISC23.mp4",
+              "name": "KENNY_VS_SPENNY_SEASON3_DISC23",
+              "url": "https://archive.org/download/kenny-vs-spenny-s3/KENNY_VS_SPENNY_SEASON3_DISC23.mp4",
+              "seconds": 1426,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 140
+            }
+          ]
+        },
+        {
+          "number": 11,
+          "name": "Who Can Imitate the Other Guy Better?",
+          "airdate": "2006-12-25",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 3/S03E11 - Who Can Imitate the Other Guy Better.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 3/S03E11 - Who Can Imitate the Other Guy Better",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%203%2FS03E11%20-%20Who%20Can%20Imitate%20the%20Other%20Guy%20Better.mp4",
+            "seconds": 1351,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 603
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 11 of 14 in \"Kenny vs Spenny: Season Three\"",
+              "item": "kenny-vs-spenny-s3",
+              "itemTitle": "Kenny vs Spenny: Season Three",
+              "file": "KENNY_VS_SPENNY_SEASON3_DISC24.mp4",
+              "name": "KENNY_VS_SPENNY_SEASON3_DISC24",
+              "url": "https://archive.org/download/kenny-vs-spenny-s3/KENNY_VS_SPENNY_SEASON3_DISC24.mp4",
+              "seconds": 1542,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 152
+            }
+          ]
+        },
+        {
+          "number": 12,
+          "name": "Who Can Stay Homeless the Longest?",
+          "airdate": "2007-01-07",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 3/S03E12 - Who Can Stay Homeless the Longest.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 3/S03E12 - Who Can Stay Homeless the Longest",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%203%2FS03E12%20-%20Who%20Can%20Stay%20Homeless%20the%20Longest.mp4",
+            "seconds": 1349,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 693
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 12 of 14 in \"Kenny vs Spenny: Season Three\"",
+              "item": "kenny-vs-spenny-s3",
+              "itemTitle": "Kenny vs Spenny: Season Three",
+              "file": "KENNY_VS_SPENNY_SEASON3_DISC25.mp4",
+              "name": "KENNY_VS_SPENNY_SEASON3_DISC25",
+              "url": "https://archive.org/download/kenny-vs-spenny-s3/KENNY_VS_SPENNY_SEASON3_DISC25.mp4",
+              "seconds": 1426,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 140
+            }
+          ]
+        },
+        {
+          "number": 13,
+          "name": "Arm Wrestling Competition",
+          "airdate": "2007-01-14",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 3/S03E13 - Arm Wrestling Competition.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 3/S03E13 - Arm Wrestling Competition",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%203%2FS03E13%20-%20Arm%20Wrestling%20Competition.mp4",
+            "seconds": 1351,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 665
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 13 of 14 in \"Kenny vs Spenny: Season Three\"",
+              "item": "kenny-vs-spenny-s3",
+              "itemTitle": "Kenny vs Spenny: Season Three",
+              "file": "KENNY_VS_SPENNY_SEASON3_DISC28.mp4",
+              "name": "KENNY_VS_SPENNY_SEASON3_DISC28",
+              "url": "https://archive.org/download/kenny-vs-spenny-s3/KENNY_VS_SPENNY_SEASON3_DISC28.mp4",
+              "seconds": 1550,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 154
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "season": 4,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "First Guy to Get a Boner Loses",
+          "airdate": "2007-11-06",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 4/S04E01 - First Guy to Get a Boner Loses.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 4/S04E01 - First Guy to Get a Boner Loses",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%204%2FS04E01%20-%20First%20Guy%20to%20Get%20a%20Boner%20Loses.mp4",
+            "seconds": 1332,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 2175
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 1 of 13 in \"Kenny vs Spenny: Season Four\"",
+              "item": "kenny-vs-spenny-s4",
+              "itemTitle": "Kenny vs Spenny: Season Four",
+              "file": "KENNY_VS_SPENNY_SEASON_4_DISC_11.mp4",
+              "name": "KENNY_VS_SPENNY_SEASON_4_DISC_11",
+              "url": "https://archive.org/download/kenny-vs-spenny-s4/KENNY_VS_SPENNY_SEASON_4_DISC_11.mp4",
+              "seconds": 1429,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 141
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "Who Can Blow the Biggest Fart?",
+          "airdate": "2007-11-13",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 4/S04E02 - Who Can Blow the Biggest Far.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 4/S04E02 - Who Can Blow the Biggest Far",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%204%2FS04E02%20-%20Who%20Can%20Blow%20the%20Biggest%20Far.mp4",
+            "seconds": 1327,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 2292
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 2 of 13 in \"Kenny vs Spenny: Season Four\"",
+              "item": "kenny-vs-spenny-s4",
+              "itemTitle": "Kenny vs Spenny: Season Four",
+              "file": "KENNY_VS_SPENNY_SEASON_4_DISC_12.mp4",
+              "name": "KENNY_VS_SPENNY_SEASON_4_DISC_12",
+              "url": "https://archive.org/download/kenny-vs-spenny-s4/KENNY_VS_SPENNY_SEASON_4_DISC_12.mp4",
+              "seconds": 1424,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 141
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "name": "Who Can Make the Best Viral Video?",
+          "airdate": "2007-11-20",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 4/S04E03 - Who Can Make the Best Viral Video.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 4/S04E03 - Who Can Make the Best Viral Video",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%204%2FS04E03%20-%20Who%20Can%20Make%20the%20Best%20Viral%20Video.mp4",
+            "seconds": 1327,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 2180
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 3 of 13 in \"Kenny vs Spenny: Season Four\"",
+              "item": "kenny-vs-spenny-s4",
+              "itemTitle": "Kenny vs Spenny: Season Four",
+              "file": "KENNY_VS_SPENNY_SEASON_4_DISC_13.mp4",
+              "name": "KENNY_VS_SPENNY_SEASON_4_DISC_13",
+              "url": "https://archive.org/download/kenny-vs-spenny-s4/KENNY_VS_SPENNY_SEASON_4_DISC_13.mp4",
+              "seconds": 1361,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 134
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "name": "Who Can Eat More Meat?",
+          "airdate": "2007-11-27",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 4/S04E04 - Who Can Eat More Meat.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 4/S04E04 - Who Can Eat More Meat",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%204%2FS04E04%20-%20Who%20Can%20Eat%20More%20Meat.mp4",
+            "seconds": 1327,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 2453
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 4 of 13 in \"Kenny vs Spenny: Season Four\"",
+              "item": "kenny-vs-spenny-s4",
+              "itemTitle": "Kenny vs Spenny: Season Four",
+              "file": "KENNY_VS_SPENNY_SEASON_4_DISC_14.mp4",
+              "name": "KENNY_VS_SPENNY_SEASON_4_DISC_14",
+              "url": "https://archive.org/download/kenny-vs-spenny-s4/KENNY_VS_SPENNY_SEASON_4_DISC_14.mp4",
+              "seconds": 1362,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 135
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "name": "First Guy to Get a Stain Loses",
+          "airdate": "2007-12-04",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 4/S04E05 - First Guy to Get A Stain Loses.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 4/S04E05 - First Guy to Get A Stain Loses",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%204%2FS04E05%20-%20First%20Guy%20to%20Get%20A%20Stain%20Loses.mp4",
+            "seconds": 1332,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 2385
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 5 of 13 in \"Kenny vs Spenny: Season Four\"",
+              "item": "kenny-vs-spenny-s4",
+              "itemTitle": "Kenny vs Spenny: Season Four",
+              "file": "KENNY_VS_SPENNY_SEASON_4_DISC_15.mp4",
+              "name": "KENNY_VS_SPENNY_SEASON_4_DISC_15",
+              "url": "https://archive.org/download/kenny-vs-spenny-s4/KENNY_VS_SPENNY_SEASON_4_DISC_15.mp4",
+              "seconds": 1438,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 142
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "name": "Who Can Be Tied to a Goat the Longest?",
+          "airdate": "2007-12-11",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 4/S04E06 - Who Can Be Tied to a Goat the Longest.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 4/S04E06 - Who Can Be Tied to a Goat the Longest",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%204%2FS04E06%20-%20Who%20Can%20Be%20Tied%20to%20a%20Goat%20the%20Longest.mp4",
+            "seconds": 1327,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 2352
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 6 of 13 in \"Kenny vs Spenny: Season Four\"",
+              "item": "kenny-vs-spenny-s4",
+              "itemTitle": "Kenny vs Spenny: Season Four",
+              "file": "KENNY_VS_SPENNY_SEASON_4_DISC_17.mp4",
+              "name": "KENNY_VS_SPENNY_SEASON_4_DISC_17",
+              "url": "https://archive.org/download/kenny-vs-spenny-s4/KENNY_VS_SPENNY_SEASON_4_DISC_17.mp4",
+              "seconds": 1433,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 140
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "name": "Who Can Handle More Torture?",
+          "airdate": "2007-12-18",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 4/S04E07 - Who Can Handle More Torture.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 4/S04E07 - Who Can Handle More Torture",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%204%2FS04E07%20-%20Who%20Can%20Handle%20More%20Torture.mp4",
+            "seconds": 1327,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 2197
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 7 of 13 in \"Kenny vs Spenny: Season Four\"",
+              "item": "kenny-vs-spenny-s4",
+              "itemTitle": "Kenny vs Spenny: Season Four",
+              "file": "KENNY_VS_SPENNY_SEASON_4_DISC_18.mp4",
+              "name": "KENNY_VS_SPENNY_SEASON_4_DISC_18",
+              "url": "https://archive.org/download/kenny-vs-spenny-s4/KENNY_VS_SPENNY_SEASON_4_DISC_18.mp4",
+              "seconds": 1363,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 135
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "name": "First Guy to Stop Singing Loses",
+          "airdate": "2007-12-25",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 4/S04E08 - First Guy to Stop Singing Loses.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 4/S04E08 - First Guy to Stop Singing Loses",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%204%2FS04E08%20-%20First%20Guy%20to%20Stop%20Singing%20Loses.mp4",
+            "seconds": 1327,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 2454
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 8 of 13 in \"Kenny vs Spenny: Season Four\"",
+              "item": "kenny-vs-spenny-s4",
+              "itemTitle": "Kenny vs Spenny: Season Four",
+              "file": "KENNY_VS_SPENNY_SEASON_4_DISC_110.mp4",
+              "name": "KENNY_VS_SPENNY_SEASON_4_DISC_110",
+              "url": "https://archive.org/download/kenny-vs-spenny-s4/KENNY_VS_SPENNY_SEASON_4_DISC_110.mp4",
+              "seconds": 1433,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 140
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "name": "Who Can Be Obese the Longest?",
+          "airdate": "2008-01-01",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 4/S04E09 - Who Can Be Obese the Longest.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 4/S04E09 - Who Can Be Obese the Longest",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%204%2FS04E09%20-%20Who%20Can%20Be%20Obese%20the%20Longest.mp4",
+            "seconds": 1327,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 2439
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 9 of 13 in \"Kenny vs Spenny: Season Four\"",
+              "item": "kenny-vs-spenny-s4",
+              "itemTitle": "Kenny vs Spenny: Season Four",
+              "file": "KENNY_VS_SPENNY_SEASON4_DISC21.mp4",
+              "name": "KENNY_VS_SPENNY_SEASON4_DISC21",
+              "url": "https://archive.org/download/kenny-vs-spenny-s4/KENNY_VS_SPENNY_SEASON4_DISC21.mp4",
+              "seconds": 1433,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 142
+            }
+          ]
+        },
+        {
+          "number": 10,
+          "name": "Who Can Commit the Most Crime?",
+          "airdate": "2008-01-08",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 4/S04E10 - Who Can Commit the Most Crimes.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 4/S04E10 - Who Can Commit the Most Crimes",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%204%2FS04E10%20-%20Who%20Can%20Commit%20the%20Most%20Crimes.mp4",
+            "seconds": 1327,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 2856
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 10 of 13 in \"Kenny vs Spenny: Season Four\"",
+              "item": "kenny-vs-spenny-s4",
+              "itemTitle": "Kenny vs Spenny: Season Four",
+              "file": "KENNY_VS_SPENNY_SEASON4_DISC22.mp4",
+              "name": "KENNY_VS_SPENNY_SEASON4_DISC22",
+              "url": "https://archive.org/download/kenny-vs-spenny-s4/KENNY_VS_SPENNY_SEASON4_DISC22.mp4",
+              "seconds": 1433,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 143
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "season": 5,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Who Can Keep a Dump in their Pants the Longest?",
+          "airdate": "2008-10-20",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 5/S05E01 - Who Can Keep a Dump in Their Pants the Longest.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 5/S05E01 - Who Can Keep a Dump in Their Pants the Longest",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%205%2FS05E01%20-%20Who%20Can%20Keep%20a%20Dump%20in%20Their%20Pants%20the%20Longest.mp4",
+            "seconds": 1324,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 694
+          },
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Who Can Bone More Women?",
+          "airdate": "2008-10-27",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 5/S05E02 - Who Can Bone More Women.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 5/S05E02 - Who Can Bone More Women",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%205%2FS05E02%20-%20Who%20Can%20Bone%20More%20Women.mp4",
+            "seconds": 1329,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 645
+          },
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Who Can Wear a Gorilla Suit the Longest?",
+          "airdate": "2008-11-03",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 5/S05E03 - Who Can Wear a Gorilla Suit The Longest.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 5/S05E03 - Who Can Wear a Gorilla Suit The Longest",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%205%2FS05E03%20-%20Who%20Can%20Wear%20a%20Gorilla%20Suit%20The%20Longest.mp4",
+            "seconds": 1327,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 732
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Who Can Piss Off More People?",
+          "airdate": "2008-11-10",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 5/S05E04 - Who Can Piss Off More People.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 5/S05E04 - Who Can Piss Off More People",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%205%2FS05E04%20-%20Who%20Can%20Piss%20Off%20More%20People.mp4",
+            "seconds": 1329,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 739
+          },
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "First Guy to Touch the Ground Loses",
+          "airdate": "2008-11-17",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 5/S05E05 - First Guy to Touch the Ground Loses.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 5/S05E05 - First Guy to Touch the Ground Loses",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%205%2FS05E05%20-%20First%20Guy%20to%20Touch%20the%20Ground%20Loses.mp4",
+            "seconds": 1329,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 716
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Who's the Best Pro Wrestler?",
+          "airdate": "2008-11-24",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 5/S05E06 - Who's the Best Pro Wrestler.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 5/S05E06 - Who's the Best Pro Wrestler",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%205%2FS05E06%20-%20Who's%20the%20Best%20Pro%20Wrestler.mp4",
+            "seconds": 1330,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 710
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Who's the Best Soldier?",
+          "airdate": "2008-12-01",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 5/S05E07 - Who's The Best Soldier.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 5/S05E07 - Who's The Best Soldier",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%205%2FS05E07%20-%20Who's%20The%20Best%20Soldier.mp4",
+            "seconds": 1329,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 665
+          },
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Who's the Better Jew?",
+          "airdate": "2008-12-08",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 5/S05E08 - Who's The Better Jew.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 5/S05E08 - Who's The Better Jew",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%205%2FS05E08%20-%20Who's%20The%20Better%20Jew.mp4",
+            "seconds": 1329,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 661
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Who Do Disabled People Like More?",
+          "airdate": "2008-12-15",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 5/S05E09 - Who Do Disabled People Like More.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 5/S05E09 - Who Do Disabled People Like More",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%205%2FS05E09%20-%20Who%20Do%20Disabled%20People%20Like%20More.mp4",
+            "seconds": 1327,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 719
+          },
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Who Can Smoke More Weed?",
+          "airdate": "2008-12-22",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 5/S05E10 - Who Can Smoke More Weed.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 5/S05E10 - Who Can Smoke More Weed",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%205%2FS05E10%20-%20Who%20Can%20Smoke%20More%20Weed.mp4",
+            "seconds": 1329,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 626
+          },
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 6,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Who Can 69 the Longest?",
+          "airdate": "2009-11-20",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E01 - Who's The Bigger Idiot.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E01 - Who's The Bigger Idiot",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%206%2FS06E01%20-%20Who's%20The%20Bigger%20Idiot.mp4",
+            "seconds": 1327,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 1982
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Who Can 69 the Longest?\" (1.00)",
+              "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+              "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+              "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E02 - Who Can 69 The Longest.mp4",
+              "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E02 - Who Can 69 The Longest",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%206%2FS06E02%20-%20Who%20Can%2069%20The%20Longest.mp4",
+              "seconds": 1327,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 2277
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "Who Can Squeeze More Boobs?",
+          "airdate": "2009-11-20",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E02 - Who Can 69 The Longest.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E02 - Who Can 69 The Longest",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%206%2FS06E02%20-%20Who%20Can%2069%20The%20Longest.mp4",
+            "seconds": 1327,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 2277
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Who Can Squeeze More Boobs?\" (1.00)",
+              "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+              "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+              "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E03 - Who Can Squeeze More Boobs.mp4",
+              "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E03 - Who Can Squeeze More Boobs",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%206%2FS06E03%20-%20Who%20Can%20Squeeze%20More%20Boobs.mp4",
+              "seconds": 1328,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 692
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "name": "Who Can Keep Their Head in a Chicken Coop the Longest?",
+          "airdate": "2009-11-27",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E03 - Who Can Squeeze More Boobs.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E03 - Who Can Squeeze More Boobs",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%206%2FS06E03%20-%20Who%20Can%20Squeeze%20More%20Boobs.mp4",
+            "seconds": 1328,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 692
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Who Can Get Further with the Other Guy's Mom?",
+          "airdate": "2009-12-04",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E04 - Who Can Keep His Head In A Chicken Coop The Longest.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E04 - Who Can Keep His Head In A Chicken Coop The Longest",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%206%2FS06E04%20-%20Who%20Can%20Keep%20His%20Head%20In%20A%20Chicken%20Coop%20The%20Longest.mp4",
+            "seconds": 1327,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 4816
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Who Can Get Further with the Other Guy's Mom?\" (1.00)",
+              "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+              "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+              "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E05 - Who Can Get Further With The Other Guy's Mom.mp4",
+              "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E05 - Who Can Get Further With The Other Guy's Mom",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%206%2FS06E05%20-%20Who%20Can%20Get%20Further%20With%20The%20Other%20Guy's%20Mom.mp4",
+              "seconds": 1327,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 4281
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "name": "Who Can Win a Cockfight?",
+          "airdate": "2009-12-11",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E05 - Who Can Get Further With The Other Guy's Mom.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E05 - Who Can Get Further With The Other Guy's Mom",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%206%2FS06E05%20-%20Who%20Can%20Get%20Further%20With%20The%20Other%20Guy's%20Mom.mp4",
+            "seconds": 1327,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 4281
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Who Can Win a Cockfight?\" (1.00)",
+              "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+              "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+              "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E06 - Who Can Win a Cockfight.mp4",
+              "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E06 - Who Can Win a Cockfight",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%206%2FS06E06%20-%20Who%20Can%20Win%20a%20Cockfight.mp4",
+              "seconds": 1327,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 697
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "name": "Who's a Better Basketball Coach?",
+          "airdate": "2009-12-18",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E06 - Who Can Win a Cockfight.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E06 - Who Can Win a Cockfight",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%206%2FS06E06%20-%20Who%20Can%20Win%20a%20Cockfight.mp4",
+            "seconds": 1327,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 697
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Who's a Better Basketball Coach?\" (1.00)",
+              "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+              "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+              "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E07 - Who's A Better Basketball Coach.mp4",
+              "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E07 - Who's A Better Basketball Coach",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%206%2FS06E07%20-%20Who's%20A%20Better%20Basketball%20Coach.mp4",
+              "seconds": 1327,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 2458
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "name": "Who Do Black Guys Like More? (1)",
+          "airdate": "2010-01-08",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E07 - Who's A Better Basketball Coach.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E07 - Who's A Better Basketball Coach",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%206%2FS06E07%20-%20Who's%20A%20Better%20Basketball%20Coach.mp4",
+            "seconds": 1327,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 2458
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Who Do Black Guys Like More? (1)\" (0.95)",
+              "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+              "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+              "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E08 - Who Do Black Guys Like More Pt. 1.mp4",
+              "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E08 - Who Do Black Guys Like More Pt. 1",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%206%2FS06E08%20-%20Who%20Do%20Black%20Guys%20Like%20More%20Pt.%201.mp4",
+              "seconds": 1326,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 2428
+            },
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Who Do Black Guys Like More? (1)\" (0.93)",
+              "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+              "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+              "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E08 - Who Do Black Guys Like More Pt. 1.ia.mp4",
+              "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E08 - Who Do Black Guys Like More Pt",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%206%2FS06E08%20-%20Who%20Do%20Black%20Guys%20Like%20More%20Pt.%201.ia.mp4",
+              "seconds": 1326,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 129
+            },
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Who Do Black Guys Like More? (1)\" (0.93)",
+              "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+              "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+              "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E09 - Who Do Black Guys Like More Pt. 2.ia.mp4",
+              "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E09 - Who Do Black Guys Like More Pt",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%206%2FS06E09%20-%20Who%20Do%20Black%20Guys%20Like%20More%20Pt.%202.ia.mp4",
+              "seconds": 1327,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 129
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "name": "Who Do Black Guys Like More? (2)",
+          "airdate": "2010-01-15",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E08 - Who Do Black Guys Like More Pt. 1.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E08 - Who Do Black Guys Like More Pt. 1",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%206%2FS06E08%20-%20Who%20Do%20Black%20Guys%20Like%20More%20Pt.%201.mp4",
+            "seconds": 1326,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 2428
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+              "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+              "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E08 - Who Do Black Guys Like More Pt. 1.ia.mp4",
+              "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E08 - Who Do Black Guys Like More Pt",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%206%2FS06E08%20-%20Who%20Do%20Black%20Guys%20Like%20More%20Pt.%201.ia.mp4",
+              "seconds": 1326,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 129
+            },
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Who Do Black Guys Like More? (2)\" (0.95)",
+              "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+              "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+              "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E09 - Who Do Black Guys Like More Pt. 2.mp4",
+              "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E09 - Who Do Black Guys Like More Pt. 2",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%206%2FS06E09%20-%20Who%20Do%20Black%20Guys%20Like%20More%20Pt.%202.mp4",
+              "seconds": 1327,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 2658
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "name": "Who Can Have More Fun?",
+          "airdate": "2010-01-22",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E09 - Who Do Black Guys Like More Pt. 2.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E09 - Who Do Black Guys Like More Pt. 2",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%206%2FS06E09%20-%20Who%20Do%20Black%20Guys%20Like%20More%20Pt.%202.mp4",
+            "seconds": 1327,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 2658
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+              "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+              "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E09 - Who Do Black Guys Like More Pt. 2.ia.mp4",
+              "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E09 - Who Do Black Guys Like More Pt",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%206%2FS06E09%20-%20Who%20Do%20Black%20Guys%20Like%20More%20Pt.%202.ia.mp4",
+              "seconds": 1327,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 129
+            },
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Who Can Have More Fun?\" (1.00)",
+              "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+              "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+              "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E10 - Who Can Have More Fun.mp4",
+              "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E10 - Who Can Have More Fun",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%206%2FS06E10%20-%20Who%20Can%20Have%20More%20Fun.mp4",
+              "seconds": 1327,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 2489
+            }
+          ]
+        },
+        {
+          "number": 10,
+          "name": "Who Can?",
+          "airdate": "2010-01-29",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E10 - Who Can Have More Fun.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E10 - Who Can Have More Fun",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%206%2FS06E10%20-%20Who%20Can%20Have%20More%20Fun.mp4",
+            "seconds": 1327,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 2489
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Who Can?\" (0.95)",
+              "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+              "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+              "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E04 - Who Can Keep His Head In A Chicken Coop The Longest.mp4",
+              "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E04 - Who Can Keep His Head In A Chicken Coop The Longest",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%206%2FS06E04%20-%20Who%20Can%20Keep%20His%20Head%20In%20A%20Chicken%20Coop%20The%20Longest.mp4",
+              "seconds": 1327,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 4816
+            },
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Who Can?\" (1.00)",
+              "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+              "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+              "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E11 - Who Can ....mp4",
+              "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E11 - Who Can ...",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%206%2FS06E11%20-%20Who%20Can%20....mp4",
+              "seconds": 1327,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 2428
+            },
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Who Can?\" (0.95)",
+              "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+              "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+              "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E12 - Who Can Put On A Better Fashion Show.mp4",
+              "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 1/S01E12 - Who Can Put On A Better Fashion Show",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%201%2FS01E12%20-%20Who%20Can%20Put%20On%20A%20Better%20Fashion%20Show.mp4",
+              "seconds": 1328,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 2277
+            }
+          ]
+        },
+        {
+          "number": 11,
+          "name": "Who Can Produce the Best Commercial?",
+          "airdate": "2010-02-05",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E11 - Who Can ....mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E11 - Who Can ...",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%206%2FS06E11%20-%20Who%20Can%20....mp4",
+            "seconds": 1327,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 2428
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Who Can Produce the Best Commercial?\" (1.00)",
+              "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+              "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+              "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E12 - Who Can Produce The Best Commercial.mp4",
+              "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E12 - Who Can Produce The Best Commercial",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%206%2FS06E12%20-%20Who%20Can%20Produce%20The%20Best%20Commercial.mp4",
+              "seconds": 1327,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 2323
+            }
+          ]
+        },
+        {
+          "number": 12,
+          "name": "Who Can Put on the Best Play?",
+          "airdate": "2010-02-12",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E12 - Who Can Produce The Best Commercial.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E12 - Who Can Produce The Best Commercial",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%206%2FS06E12%20-%20Who%20Can%20Produce%20The%20Best%20Commercial.mp4",
+            "seconds": 1327,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 2323
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Who Can Put on the Best Play?\" (1.00)",
+              "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+              "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+              "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E13 - Who Can Put On The Best Play.mp4",
+              "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E13 - Who Can Put On The Best Play",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%206%2FS06E13%20-%20Who%20Can%20Put%20On%20The%20Best%20Play.mp4",
+              "seconds": 1327,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 2166
+            }
+          ]
+        },
+        {
+          "number": 13,
+          "name": "Who Can Stay on an Island the Longest?",
+          "airdate": "2010-02-19",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+            "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+            "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E13 - Who Can Put On The Best Play.mp4",
+            "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E13 - Who Can Put On The Best Play",
+            "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%206%2FS06E13%20-%20Who%20Can%20Put%20On%20The%20Best%20Play.mp4",
+            "seconds": 1327,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 2166
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Who Can Stay on an Island the Longest?\" (1.00)",
+              "item": "kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots",
+              "itemTitle": "Kenny Vs Spenny S1 - S6 (4K Upscaled)",
+              "file": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E14 - Who Can Stay On An Island The Longest.mp4",
+              "name": "Kenny vs Spenny Season 1-6 (Upscaled x265 HEVC 10bit AAC 2.0 JackPots)/season 6/S06E14 - Who Can Stay On An Island The Longest",
+              "url": "https://archive.org/download/kenny-vs-spenny-season-1-6-upscaled-x-265-hevc-10bit-aac-2.0-jack-pots/Kenny%20vs%20Spenny%20Season%201-6%20(Upscaled%20x265%20HEVC%2010bit%20AAC%202.0%20JackPots)%2Fseason%206%2FS06E14%20-%20Who%20Can%20Stay%20On%20An%20Island%20The%20Longest.mp4",
+              "seconds": 1328,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 3408
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

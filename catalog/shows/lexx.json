@@ -1,0 +1,1015 @@
+{
+  "show": "Lexx",
+  "slug": "lexx",
+  "type": "Sci-Fi, Fantasy and Horror",
+  "network": "Sci-Fi Channel",
+  "matchedAt": "2026-10-13T07:46:17.479Z",
+  "tvmaze": {
+    "id": 1656,
+    "name": "Lexx",
+    "runtime": 60,
+    "premiered": "1997-04-18",
+    "network": "CTV Sci-Fi Channel"
+  },
+  "coverage": {
+    "total": 61,
+    "live": 0,
+    "review": 38,
+    "missing": 23,
+    "pct": 62
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "I Worship His Shadow",
+          "airdate": "1997-04-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Super Nova",
+          "airdate": "1997-04-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Eating Pattern",
+          "airdate": "1997-09-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Giga Shadow",
+          "airdate": "1997-09-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Mantrid",
+          "airdate": "1998-12-11",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Mantrid\" (0.95)",
+            "item": "lexx-season2",
+            "itemTitle": "Lexx - Season 2 [1998-99]",
+            "file": "Lexx-S02xE01-Mantrid.mp4",
+            "name": "Lexx-S02xE01-Mantrid",
+            "url": "https://archive.org/download/lexx-season2/Lexx-S02xE01-Mantrid.mp4",
+            "seconds": 2750,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 286
+          },
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Terminal",
+          "airdate": "1998-12-18",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Terminal\" (0.95)",
+            "item": "lexx-season2",
+            "itemTitle": "Lexx - Season 2 [1998-99]",
+            "file": "Lexx-S02xE02-Terminal.mp4",
+            "name": "Lexx-S02xE02-Terminal",
+            "url": "https://archive.org/download/lexx-season2/Lexx-S02xE02-Terminal.mp4",
+            "seconds": 2720,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 283
+          },
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Lyekka",
+          "airdate": "1998-12-25",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Lyekka\" (0.95)",
+            "item": "lexx-season2",
+            "itemTitle": "Lexx - Season 2 [1998-99]",
+            "file": "Lexx-S02xE03-Lyekka.mp4",
+            "name": "Lexx-S02xE03-Lyekka",
+            "url": "https://archive.org/download/lexx-season2/Lexx-S02xE03-Lyekka.mp4",
+            "seconds": 2751,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 287
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Lyekka\" (0.95)",
+              "item": "lexx-season4",
+              "itemTitle": "Lexx - Season 4 [2001-02]",
+              "file": "Lexx-S04xE23-Lyekka_Vs_Japan.mp4",
+              "name": "Lexx-S04xE23-Lyekka_Vs_Japan",
+              "url": "https://archive.org/download/lexx-season4/Lexx-S04xE23-Lyekka_Vs_Japan.mp4",
+              "seconds": 2710,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 282
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "name": "Luvliner",
+          "airdate": "1999-01-01",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Luvliner\" (0.95)",
+            "item": "lexx-season2",
+            "itemTitle": "Lexx - Season 2 [1998-99]",
+            "file": "Lexx-S02xE04-Luvliner.mp4",
+            "name": "Lexx-S02xE04-Luvliner",
+            "url": "https://archive.org/download/lexx-season2/Lexx-S02xE04-Luvliner.mp4",
+            "seconds": 2750,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 287
+          },
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Lafftrak",
+          "airdate": "1999-01-08",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Lafftrak\" (0.95)",
+            "item": "lexx-season2",
+            "itemTitle": "Lexx - Season 2 [1998-99]",
+            "file": "Lexx-S02xE05-Lafftrak.mp4",
+            "name": "Lexx-S02xE05-Lafftrak",
+            "url": "https://archive.org/download/lexx-season2/Lexx-S02xE05-Lafftrak.mp4",
+            "seconds": 2720,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 284
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Stan's Trial",
+          "airdate": "1999-01-15",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.6,
+            "why": "title ~ \"Stan's Trial\" (0.70)",
+            "item": "lexx-season2",
+            "itemTitle": "Lexx - Season 2 [1998-99]",
+            "file": "Lexx-S02xE06-Stan_s_Trial.mp4",
+            "name": "Lexx-S02xE06-Stan_s_Trial",
+            "url": "https://archive.org/download/lexx-season2/Lexx-S02xE06-Stan_s_Trial.mp4",
+            "seconds": 2780,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 290
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Love Grows",
+          "airdate": "1999-01-22",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Love Grows\" (0.95)",
+            "item": "lexx-season2",
+            "itemTitle": "Lexx - Season 2 [1998-99]",
+            "file": "Lexx-S02xE07-Love_Grows.mp4",
+            "name": "Lexx-S02xE07-Love_Grows",
+            "url": "https://archive.org/download/lexx-season2/Lexx-S02xE07-Love_Grows.mp4",
+            "seconds": 2780,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 290
+          },
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "White Trash",
+          "airdate": "1999-01-29",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"White Trash\" (0.95)",
+            "item": "lexx-season2",
+            "itemTitle": "Lexx - Season 2 [1998-99]",
+            "file": "Lexx-S02xE08-White_Trash.mp4",
+            "name": "Lexx-S02xE08-White_Trash",
+            "url": "https://archive.org/download/lexx-season2/Lexx-S02xE08-White_Trash.mp4",
+            "seconds": 2750,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 287
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "791",
+          "airdate": "1999-02-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Wake The Dead",
+          "airdate": "1999-02-12",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Wake The Dead\" (0.95)",
+            "item": "lexx-season2",
+            "itemTitle": "Lexx - Season 2 [1998-99]",
+            "file": "Lexx-S02xE10-Wake_The_Dead.mp4",
+            "name": "Lexx-S02xE10-Wake_The_Dead",
+            "url": "https://archive.org/download/lexx-season2/Lexx-S02xE10-Wake_The_Dead.mp4",
+            "seconds": 2752,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 287
+          },
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Nook",
+          "airdate": "1999-02-19",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Nook\" (0.95)",
+            "item": "lexx-season2",
+            "itemTitle": "Lexx - Season 2 [1998-99]",
+            "file": "Lexx-S02xE11-Nook.mp4",
+            "name": "Lexx-S02xE11-Nook",
+            "url": "https://archive.org/download/lexx-season2/Lexx-S02xE11-Nook.mp4",
+            "seconds": 2750,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 287
+          },
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Norb",
+          "airdate": "1999-02-26",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Norb\" (0.95)",
+            "item": "lexx-season2",
+            "itemTitle": "Lexx - Season 2 [1998-99]",
+            "file": "Lexx-S02xE12-Norb.mp4",
+            "name": "Lexx-S02xE12-Norb",
+            "url": "https://archive.org/download/lexx-season2/Lexx-S02xE12-Norb.mp4",
+            "seconds": 2750,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 286
+          },
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Twilight",
+          "airdate": "1999-03-05",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Twilight\" (0.95)",
+            "item": "lexx-season2",
+            "itemTitle": "Lexx - Season 2 [1998-99]",
+            "file": "Lexx-S02xE13-Twilight.mp4",
+            "name": "Lexx-S02xE13-Twilight",
+            "url": "https://archive.org/download/lexx-season2/Lexx-S02xE13-Twilight.mp4",
+            "seconds": 2750,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 286
+          },
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Patches In The Sky",
+          "airdate": "1999-03-12",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Patches In The Sky\" (0.95)",
+            "item": "lexx-season2",
+            "itemTitle": "Lexx - Season 2 [1998-99]",
+            "file": "Lexx-S02xE14-Patches_In_The_Sky.mp4",
+            "name": "Lexx-S02xE14-Patches_In_The_Sky",
+            "url": "https://archive.org/download/lexx-season2/Lexx-S02xE14-Patches_In_The_Sky.mp4",
+            "seconds": 2750,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 287
+          },
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Woz",
+          "airdate": "1999-03-19",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Woz\" (0.95)",
+            "item": "lexx-season2",
+            "itemTitle": "Lexx - Season 2 [1998-99]",
+            "file": "Lexx-S02xE15-Woz.mp4",
+            "name": "Lexx-S02xE15-Woz",
+            "url": "https://archive.org/download/lexx-season2/Lexx-S02xE15-Woz.mp4",
+            "seconds": 2749,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 286
+          },
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "The Web (1)",
+          "airdate": "1999-03-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "The Net (2)",
+          "airdate": "1999-04-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Brigadoom",
+          "airdate": "1999-04-09",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Brigadoom\" (0.95)",
+            "item": "lexx-season2",
+            "itemTitle": "Lexx - Season 2 [1998-99]",
+            "file": "Lexx-S02xE18-Brigadoom.mp4",
+            "name": "Lexx-S02xE18-Brigadoom",
+            "url": "https://archive.org/download/lexx-season2/Lexx-S02xE18-Brigadoom.mp4",
+            "seconds": 2873,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 300
+          },
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Brizon",
+          "airdate": "1999-04-16",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Brizon\" (0.95)",
+            "item": "lexx-season2",
+            "itemTitle": "Lexx - Season 2 [1998-99]",
+            "file": "Lexx-S02xE19-Brizon.mp4",
+            "name": "Lexx-S02xE19-Brizon",
+            "url": "https://archive.org/download/lexx-season2/Lexx-S02xE19-Brizon.mp4",
+            "seconds": 2750,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 286
+          },
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "End Of The Universe",
+          "airdate": "1999-04-23",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"End Of The Universe\" (0.95)",
+            "item": "lexx-season2",
+            "itemTitle": "Lexx - Season 2 [1998-99]",
+            "file": "Lexx-S02xE20-End_Of_The_Universe.mp4",
+            "name": "Lexx-S02xE20-End_Of_The_Universe",
+            "url": "https://archive.org/download/lexx-season2/Lexx-S02xE20-End_Of_The_Universe.mp4",
+            "seconds": 2750,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 287
+          },
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Fire And Water",
+          "airdate": "2000-02-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "May",
+          "airdate": "2000-02-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Gametown",
+          "airdate": "2000-02-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Boomtown",
+          "airdate": "2000-02-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Gondola",
+          "airdate": "2000-03-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "K-Town",
+          "airdate": "2000-03-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Tunnels",
+          "airdate": "2000-03-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "The Key",
+          "airdate": "2000-03-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Garden",
+          "airdate": "2000-04-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Battle",
+          "airdate": "2000-04-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Girltown",
+          "airdate": "2000-04-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "The Beach",
+          "airdate": "2000-04-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Heaven And Hell",
+          "airdate": "2000-04-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 4,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Little Blue Planet",
+          "airdate": "2001-07-13",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Little Blue Planet\" (0.95)",
+            "item": "lexx-season4",
+            "itemTitle": "Lexx - Season 4 [2001-02]",
+            "file": "Lexx-S04xE01-Little_Blue_Planet.mp4",
+            "name": "Lexx-S04xE01-Little_Blue_Planet",
+            "url": "https://archive.org/download/lexx-season4/Lexx-S04xE01-Little_Blue_Planet.mp4",
+            "seconds": 2712,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 284
+          },
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Texx Lexx",
+          "airdate": "2001-07-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "P4X",
+          "airdate": "2001-07-27",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"P4X\" (0.95)",
+            "item": "lexx-season-4-ep-3-p-4-x",
+            "itemTitle": "LEXX SEASON 4 Ep 3 - P4X",
+            "file": "LEXX_SEASON4_Ep-3 P4X.mp4",
+            "name": "LEXX_SEASON4_Ep-3 P4X",
+            "url": "https://archive.org/download/lexx-season-4-ep-3-p-4-x/LEXX_SEASON4_Ep-3%20P4X.mp4",
+            "seconds": 2698,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 921
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"P4X\" (0.95)",
+              "item": "lexx-season4",
+              "itemTitle": "Lexx - Season 4 [2001-02]",
+              "file": "Lexx-S04xE03-P4X.mp4",
+              "name": "Lexx-S04xE03-P4X",
+              "url": "https://archive.org/download/lexx-season4/Lexx-S04xE03-P4X.mp4",
+              "seconds": 2696,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 282
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "name": "Stan Down",
+          "airdate": "2001-08-03",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Stan Down\" (0.95)",
+            "item": "lexx-season4",
+            "itemTitle": "Lexx - Season 4 [2001-02]",
+            "file": "Lexx-S04xE04-Stan_Down.mp4",
+            "name": "Lexx-S04xE04-Stan_Down",
+            "url": "https://archive.org/download/lexx-season4/Lexx-S04xE04-Stan_Down.mp4",
+            "seconds": 2696,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 282
+          },
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Xevivor",
+          "airdate": "2001-08-10",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Xevivor\" (0.95)",
+            "item": "lexx-season4",
+            "itemTitle": "Lexx - Season 4 [2001-02]",
+            "file": "Lexx-S04xE05-Xevivor.mp4",
+            "name": "Lexx-S04xE05-Xevivor",
+            "url": "https://archive.org/download/lexx-season4/Lexx-S04xE05-Xevivor.mp4",
+            "seconds": 2712,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 283
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "The Rock",
+          "airdate": "2001-08-17",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"The Rock\" (0.95)",
+            "item": "lexx-season4",
+            "itemTitle": "Lexx - Season 4 [2001-02]",
+            "file": "Lexx-S04xE06-The_Rock.mp4",
+            "name": "Lexx-S04xE06-The_Rock",
+            "url": "https://archive.org/download/lexx-season4/Lexx-S04xE06-The_Rock.mp4",
+            "seconds": 2712,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 284
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Walpurgis Night",
+          "airdate": "2001-08-24",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Walpurgis Night\" (0.95)",
+            "item": "lexx-season4",
+            "itemTitle": "Lexx - Season 4 [2001-02]",
+            "file": "Lexx-S04xE07-Walpurgis_Night.mp4",
+            "name": "Lexx-S04xE07-Walpurgis_Night",
+            "url": "https://archive.org/download/lexx-season4/Lexx-S04xE07-Walpurgis_Night.mp4",
+            "seconds": 2712,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 284
+          },
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Vlad",
+          "airdate": "2001-09-07",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Vlad\" (0.95)",
+            "item": "lexx-season4",
+            "itemTitle": "Lexx - Season 4 [2001-02]",
+            "file": "Lexx-S04xE08-Vlad.mp4",
+            "name": "Lexx-S04xE08-Vlad",
+            "url": "https://archive.org/download/lexx-season4/Lexx-S04xE08-Vlad.mp4",
+            "seconds": 2715,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 284
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Fluff Daddy",
+          "airdate": "2001-09-14",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Fluff Daddy\" (0.95)",
+            "item": "lexx-season4",
+            "itemTitle": "Lexx - Season 4 [2001-02]",
+            "file": "Lexx-S04xE09-Fluff_Daddy.mp4",
+            "name": "Lexx-S04xE09-Fluff_Daddy",
+            "url": "https://archive.org/download/lexx-season4/Lexx-S04xE09-Fluff_Daddy.mp4",
+            "seconds": 2781,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 291
+          },
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Magic Baby",
+          "airdate": "2001-09-28",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Magic Baby\" (0.95)",
+            "item": "lexx-season4",
+            "itemTitle": "Lexx - Season 4 [2001-02]",
+            "file": "Lexx-S04xE10-Magic_Baby.mp4",
+            "name": "Lexx-S04xE10-Magic_Baby",
+            "url": "https://archive.org/download/lexx-season4/Lexx-S04xE10-Magic_Baby.mp4",
+            "seconds": 2576,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 269
+          },
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "A Midsummer's Nightmare",
+          "airdate": "2002-01-25",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"A Midsummer's Nightmare\" (0.84)",
+            "item": "lexx-season4",
+            "itemTitle": "Lexx - Season 4 [2001-02]",
+            "file": "Lexx-S04xE11-A_Midsummer_s_Nightmare.mp4",
+            "name": "Lexx-S04xE11-A_Midsummer_s_Nightmare",
+            "url": "https://archive.org/download/lexx-season4/Lexx-S04xE11-A_Midsummer_s_Nightmare.mp4",
+            "seconds": 2661,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 279
+          },
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Bad Carrot",
+          "airdate": "2002-02-01",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Bad Carrot\" (0.95)",
+            "item": "lexx-season4",
+            "itemTitle": "Lexx - Season 4 [2001-02]",
+            "file": "Lexx-S04xE12-Bad_Carrot.mp4",
+            "name": "Lexx-S04xE12-Bad_Carrot",
+            "url": "https://archive.org/download/lexx-season4/Lexx-S04xE12-Bad_Carrot.mp4",
+            "seconds": 2721,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 285
+          },
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "769",
+          "airdate": "2002-02-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Prime Ridge",
+          "airdate": "2002-02-15",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Prime Ridge\" (0.95)",
+            "item": "lexx-season4",
+            "itemTitle": "Lexx - Season 4 [2001-02]",
+            "file": "Lexx-S04xE14-Prime_Ridge.mp4",
+            "name": "Lexx-S04xE14-Prime_Ridge",
+            "url": "https://archive.org/download/lexx-season4/Lexx-S04xE14-Prime_Ridge.mp4",
+            "seconds": 2716,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 283
+          },
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Mort",
+          "airdate": "2002-02-22",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Mort\" (0.95)",
+            "item": "lexx-season4",
+            "itemTitle": "Lexx - Season 4 [2001-02]",
+            "file": "Lexx-S04xE15-Mort.mp4",
+            "name": "Lexx-S04xE15-Mort",
+            "url": "https://archive.org/download/lexx-season4/Lexx-S04xE15-Mort.mp4",
+            "seconds": 2714,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 283
+          },
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Moss",
+          "airdate": "2002-03-01",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Moss\" (0.95)",
+            "item": "lexx-season4",
+            "itemTitle": "Lexx - Season 4 [2001-02]",
+            "file": "Lexx-S04xE16-Moss.mp4",
+            "name": "Lexx-S04xE16-Moss",
+            "url": "https://archive.org/download/lexx-season4/Lexx-S04xE16-Moss.mp4",
+            "seconds": 2721,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 283
+          },
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Dutch Treat",
+          "airdate": "2002-03-08",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Dutch Treat\" (0.95)",
+            "item": "lexx-season4",
+            "itemTitle": "Lexx - Season 4 [2001-02]",
+            "file": "Lexx-S04xE17-Dutch_Treat.mp4",
+            "name": "Lexx-S04xE17-Dutch_Treat",
+            "url": "https://archive.org/download/lexx-season4/Lexx-S04xE17-Dutch_Treat.mp4",
+            "seconds": 2686,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 281
+          },
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "The Game",
+          "airdate": "2002-03-15",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"The Game\" (0.95)",
+            "item": "lexx-season4",
+            "itemTitle": "Lexx - Season 4 [2001-02]",
+            "file": "Lexx-S04xE18-The_Game.mp4",
+            "name": "Lexx-S04xE18-The_Game",
+            "url": "https://archive.org/download/lexx-season4/Lexx-S04xE18-The_Game.mp4",
+            "seconds": 2716,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 284
+          },
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Haley's Comet",
+          "airdate": "2002-03-22",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Haley's Comet\" (0.95)",
+            "item": "lexx-season4",
+            "itemTitle": "Lexx - Season 4 [2001-02]",
+            "file": "Lexx-S04xE19-Haleys_Comet.mp4",
+            "name": "Lexx-S04xE19-Haleys_Comet",
+            "url": "https://archive.org/download/lexx-season4/Lexx-S04xE19-Haleys_Comet.mp4",
+            "seconds": 2533,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 264
+          },
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "ApocaLexx Now",
+          "airdate": "2002-03-29",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"ApocaLexx Now\" (0.95)",
+            "item": "lexx-season4",
+            "itemTitle": "Lexx - Season 4 [2001-02]",
+            "file": "Lexx-S04xE20-Apocalexx_Now.mp4",
+            "name": "Lexx-S04xE20-Apocalexx_Now",
+            "url": "https://archive.org/download/lexx-season4/Lexx-S04xE20-Apocalexx_Now.mp4",
+            "seconds": 2691,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 281
+          },
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Viva Lexx Vegas",
+          "airdate": "2002-04-05",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.6,
+            "why": "title ~ \"Viva Lexx Vegas\" (0.63)",
+            "item": "lexx-season4",
+            "itemTitle": "Lexx - Season 4 [2001-02]",
+            "file": "Lexx-S04xE21-Viva_Lexx_Vegas.mp4",
+            "name": "Lexx-S04xE21-Viva_Lexx_Vegas",
+            "url": "https://archive.org/download/lexx-season4/Lexx-S04xE21-Viva_Lexx_Vegas.mp4",
+            "seconds": 2712,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 282
+          },
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Trip",
+          "airdate": "2002-04-12",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Trip\" (0.95)",
+            "item": "lexx-season4",
+            "itemTitle": "Lexx - Season 4 [2001-02]",
+            "file": "Lexx-S04xE22-Trip.mp4",
+            "name": "Lexx-S04xE22-Trip",
+            "url": "https://archive.org/download/lexx-season4/Lexx-S04xE22-Trip.mp4",
+            "seconds": 2710,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 283
+          },
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "Lyekka Vs. Japan",
+          "airdate": "2002-04-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "Yo Way Yo",
+          "airdate": "2002-04-26",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Yo Way Yo\" (0.95)",
+            "item": "lexx-season4",
+            "itemTitle": "Lexx - Season 4 [2001-02]",
+            "file": "Lexx-S04xE24-Yo_Way_Yo.mp4",
+            "name": "Lexx-S04xE24-Yo_Way_Yo",
+            "url": "https://archive.org/download/lexx-season4/Lexx-S04xE24-Yo_Way_Yo.mp4",
+            "seconds": 2710,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 282
+          },
+          "alternates": []
+        }
+      ]
+    }
+  ]
+}

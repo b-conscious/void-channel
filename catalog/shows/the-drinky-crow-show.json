@@ -1,0 +1,230 @@
+{
+  "show": "The Drinky Crow Show",
+  "slug": "the-drinky-crow-show",
+  "type": "Adult Swim",
+  "network": "Adult Swim",
+  "matchedAt": "2026-10-13T07:46:16.036Z",
+  "tvmaze": {
+    "id": 5022,
+    "name": "The Drinky Crow Show",
+    "runtime": 11,
+    "premiered": "2008-11-23",
+    "network": "Adult Swim"
+  },
+  "coverage": {
+    "total": 10,
+    "live": 1,
+    "review": 8,
+    "missing": 1,
+    "pct": 90
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Beer Goggles",
+          "airdate": "2008-11-23",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "the-drinky-crow-show-s-01-e-09-aspire-webdl-1080p",
+            "itemTitle": "The Drinky Crow Show Season 1 Aspire WEBDL 1080p",
+            "file": "The Drinky Crow Show - S01E01 - Beer Goggles WEBDL-1080p.mkv",
+            "name": "The Drinky Crow Show - S01E01 - Beer Goggles WEBDL-1080p",
+            "url": "https://archive.org/download/the-drinky-crow-show-s-01-e-09-aspire-webdl-1080p/The%20Drinky%20Crow%20Show%20-%20S01E01%20-%20Beer%20Goggles%20WEBDL-1080p.mkv",
+            "seconds": 676,
+            "format": "Matroska",
+            "playable": false,
+            "sizeMB": 727
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Beer Goggles\" (0.95)",
+              "item": "the-drinky-crow-show",
+              "itemTitle": "The Drinky Crow - Full Series",
+              "file": "The Drinky Crow Show 01 Beer Goggles (ws) [DrinkyCrow].mp4",
+              "name": "The Drinky Crow Show 01 Beer Goggles (ws) [DrinkyCrow]",
+              "url": "https://archive.org/download/the-drinky-crow-show/The%20Drinky%20Crow%20Show%2001%20Beer%20Goggles%20(ws)%20%5BDrinkyCrow%5D.mp4",
+              "seconds": 691,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 69
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "Whale Show",
+          "airdate": "2008-11-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "God of Monkeys",
+          "airdate": "2008-12-07",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"God of Monkeys\" (0.95)",
+            "item": "the-drinky-crow-show",
+            "itemTitle": "The Drinky Crow - Full Series",
+            "file": "The Drinky Crow Show 03 God of Monkeys (ws) [DrinkyCrow].mp4",
+            "name": "The Drinky Crow Show 03 God of Monkeys (ws) [DrinkyCrow]",
+            "url": "https://archive.org/download/the-drinky-crow-show/The%20Drinky%20Crow%20Show%2003%20God%20of%20Monkeys%20(ws)%20%5BDrinkyCrow%5D.mp4",
+            "seconds": 712,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 70
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Organs",
+          "airdate": "2008-12-14",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Organs\" (0.95)",
+            "item": "the-drinky-crow-show",
+            "itemTitle": "The Drinky Crow - Full Series",
+            "file": "The Drinky Crow Show 04 Organs (ws) [DrinkyCrow].mp4",
+            "name": "The Drinky Crow Show 04 Organs (ws) [DrinkyCrow]",
+            "url": "https://archive.org/download/the-drinky-crow-show/The%20Drinky%20Crow%20Show%2004%20Organs%20(ws)%20%5BDrinkyCrow%5D.mp4",
+            "seconds": 704,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 69
+          },
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Old Girlfriend",
+          "airdate": "2008-12-21",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Old Girlfriend\" (0.95)",
+            "item": "the-drinky-crow-show",
+            "itemTitle": "The Drinky Crow - Full Series",
+            "file": "The Drinky Crow Show 05 Old Girlfriend (ws) [DrinkyCrow].mp4",
+            "name": "The Drinky Crow Show 05 Old Girlfriend (ws) [DrinkyCrow]",
+            "url": "https://archive.org/download/the-drinky-crow-show/The%20Drinky%20Crow%20Show%2005%20Old%20Girlfriend%20(ws)%20%5BDrinkyCrow%5D.mp4",
+            "seconds": 707,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 70
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Tunnel Girls",
+          "airdate": "2008-12-28",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Tunnel Girls\" (0.95)",
+            "item": "the-drinky-crow-show",
+            "itemTitle": "The Drinky Crow - Full Series",
+            "file": "The Drinky Crow Show 06 Tunnel Girls (ws) [DrinkyCrow].mp4",
+            "name": "The Drinky Crow Show 06 Tunnel Girls (ws) [DrinkyCrow]",
+            "url": "https://archive.org/download/the-drinky-crow-show/The%20Drinky%20Crow%20Show%2006%20Tunnel%20Girls%20(ws)%20%5BDrinkyCrow%5D.mp4",
+            "seconds": 726,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 72
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Elephant Man",
+          "airdate": "2009-01-04",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Elephant Man\" (0.95)",
+            "item": "the-drinky-crow-show",
+            "itemTitle": "The Drinky Crow - Full Series",
+            "file": "The Drinky Crow Show 07 Elephant Man (ws) [DrinkyCrow].mp4",
+            "name": "The Drinky Crow Show 07 Elephant Man (ws) [DrinkyCrow]",
+            "url": "https://archive.org/download/the-drinky-crow-show/The%20Drinky%20Crow%20Show%2007%20Elephant%20Man%20(ws)%20%5BDrinkyCrow%5D.mp4",
+            "seconds": 722,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 72
+          },
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Bar",
+          "airdate": "2009-01-11",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Bar\" (0.95)",
+            "item": "the-drinky-crow-show",
+            "itemTitle": "The Drinky Crow - Full Series",
+            "file": "The Drinky Crow Show 08 Bar Show (ws) [DrinkyCrow].mp4",
+            "name": "The Drinky Crow Show 08 Bar Show (ws) [DrinkyCrow]",
+            "url": "https://archive.org/download/the-drinky-crow-show/The%20Drinky%20Crow%20Show%2008%20Bar%20Show%20(ws)%20%5BDrinkyCrow%5D.mp4",
+            "seconds": 710,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 70
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Aspire",
+          "airdate": "2009-01-18",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Aspire\" (0.95)",
+            "item": "the-drinky-crow-show",
+            "itemTitle": "The Drinky Crow - Full Series",
+            "file": "The Drinky Crow Show 09 Aspire (ws) [DrinkyCrow].mp4",
+            "name": "The Drinky Crow Show 09 Aspire (ws) [DrinkyCrow]",
+            "url": "https://archive.org/download/the-drinky-crow-show/The%20Drinky%20Crow%20Show%2009%20Aspire%20(ws)%20%5BDrinkyCrow%5D.mp4",
+            "seconds": 735,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 73
+          },
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Peace",
+          "airdate": "2009-01-25",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Peace\" (0.95)",
+            "item": "the-drinky-crow-show",
+            "itemTitle": "The Drinky Crow - Full Series",
+            "file": "The Drinky Crow Show 10 Peace (ws) [DrinkyCrow].mp4",
+            "name": "The Drinky Crow Show 10 Peace (ws) [DrinkyCrow]",
+            "url": "https://archive.org/download/the-drinky-crow-show/The%20Drinky%20Crow%20Show%2010%20Peace%20(ws)%20%5BDrinkyCrow%5D.mp4",
+            "seconds": 747,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 74
+          },
+          "alternates": []
+        }
+      ]
+    }
+  ]
+}

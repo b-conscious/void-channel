@@ -11,8 +11,13 @@
 //        node scripts/hunt.js --missing              every show the census marked NOT THERE
 //        node scripts/hunt.js --type "Adult Swim"    one row
 //        node scripts/hunt.js --budget 150           cap Archive calls this run (default 300)
+//        node scripts/hunt.js --open 12              metadata reads per show (default 40)
+//        node scripts/hunt.js --pause 3000           ms between Archive calls (default 4000)
+//        node scripts/hunt.js --refresh              re-run match + preview after every show
+//        node scripts/hunt.js --fresh                re-hunt shows that already have candidates
 const fs = require('fs');
 const path = require('path');
+const { execFileSync } = require('child_process');
 
 const ROOT = path.join(__dirname, '..');
 const LIST = JSON.parse(fs.readFileSync(path.join(__dirname, 'show-list.json'), 'utf8'));
@@ -22,10 +27,10 @@ const OUT_DIR = path.join(ROOT, 'catalog', 'candidates');
 const OUT_MD = path.join(ROOT, 'docs', 'HUNT.md');
 const CACHE_DIR = path.join(ROOT, 'catalog', 'cache');
 
-const PAUSE_MS = 4000;          // between Archive calls
+let PAUSE_MS = 4000;            // between Archive calls
 const BACKOFF_MS = [60000, 180000, 600000];
 const SCRAPE_COUNT = 500;       // items per scrape page
-const MAX_ITEMS_TO_OPEN = 40;   // metadata reads per show, best-scored first
+let MAX_ITEMS_TO_OPEN = 40;     // metadata reads per show, best-scored first
 const VIDEO_FORMATS = new Set(['MPEG4', 'h.264', 'h.264 IA', 'Matroska', 'Ogg Video', 'WebM', 'Windows Media', 'AVI', 'QuickTime', 'MPEG2', 'MPEG1', 'RealMedia', 'Flash Video', 'DivX', 'XviD', '512Kb MPEG4', 'HiRes MPEG4', 'MPEG4 (h.264)']);
 const PLAYABLE_FORMATS = new Set(['MPEG4', 'h.264', 'h.264 IA', 'WebM', 'Ogg Video', '512Kb MPEG4', 'HiRes MPEG4', 'MPEG4 (h.264)']);
 
@@ -240,16 +245,28 @@ function writeSummary() {
 
 async function main() {
   const args = process.argv.slice(2);
-  const bi = args.indexOf('--budget'); if (bi >= 0) budget = +args[bi + 1] || budget;
-  const ti = args.indexOf('--type'); const type = ti >= 0 ? args[ti + 1] : null;
+  const opt = (name) => { const i = args.indexOf(name); return i >= 0 ? args[i + 1] : null; };
+  if (opt('--budget')) budget = +opt('--budget') || budget;
+  if (opt('--open')) MAX_ITEMS_TO_OPEN = +opt('--open') || MAX_ITEMS_TO_OPEN;
+  if (opt('--pause')) PAUSE_MS = +opt('--pause') || PAUSE_MS;
+  const type = opt('--type');
   const missing = args.includes('--missing');
-  const filter = (args.find((a, i) => !a.startsWith('--') && args[i - 1] !== '--budget' && args[i - 1] !== '--type') || '').toLowerCase();
+  const refresh = args.includes('--refresh');
+  const fresh = args.includes('--fresh');
+  const valued = new Set(['--budget', '--open', '--pause', '--type']);
+  const filter = (args.find((a, i) => !a.startsWith('--') && !valued.has(args[i - 1])) || '').toLowerCase();
   const notThere = new Set(CENSUS.filter((r) => r.verdict === 'NOT THERE').map((r) => r.show));
-  const jobs = LIST.shows.filter((s) => (filter ? s.name.toLowerCase().includes(filter) : true) && (type ? s.type === type : true) && (missing ? notThere.has(s.name) : true));
-  console.log(`${jobs.length} shows to hunt, budget ${budget} Archive calls`);
+  const hunted = (s) => fs.existsSync(path.join(OUT_DIR, slug(s.name) + '.json'));
+  const jobs = LIST.shows.filter((s) => (filter ? s.name.toLowerCase().includes(filter) : true) && (type ? s.type === type : true)
+    && (missing ? notThere.has(s.name) : true) && (fresh || filter ? true : !hunted(s)));
+  console.log(`${jobs.length} shows to hunt, budget ${budget} Archive calls, open ${MAX_ITEMS_TO_OPEN} items/show, ${PAUSE_MS}ms pause`);
   for (const j of jobs) {
     if (calls >= budget) { console.log('\nBudget spent; stopping. Re-run to continue (cached calls are free).'); break; }
     try { await huntShow(j); } catch (e) { console.log(`   !! ${j.name}: ${e.message}`); }
+    if (refresh) {
+      try { execFileSync(process.execPath, [path.join(__dirname, 'match.js')], { stdio: 'ignore' }); execFileSync(process.execPath, [path.join(__dirname, 'preview.js')], { stdio: 'ignore' }); }
+      catch (e) { console.log('   (refresh failed: ' + e.message.slice(0, 80) + ')'); }
+    }
   }
   writeSummary();
   console.log(`\nDone. ${calls} Archive calls. Summary in docs/HUNT.md, details in catalog/candidates/.`);

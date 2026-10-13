@@ -1,0 +1,1582 @@
+{
+  "show": "Just Shoot Me",
+  "slug": "just-shoot-me",
+  "type": "90s Sitcoms",
+  "network": "NBC",
+  "matchedAt": "2026-10-13T07:46:14.436Z",
+  "tvmaze": {
+    "id": 2039,
+    "name": "Just Shoot Me!",
+    "runtime": 30,
+    "premiered": "1997-03-04",
+    "network": "NBC"
+  },
+  "coverage": {
+    "total": 148,
+    "live": 3,
+    "review": 14,
+    "missing": 131,
+    "pct": 11
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Back Issues",
+          "airdate": "1997-03-04",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "just-shoot-me-s-01-e-01-720p-hdtv-gld",
+            "itemTitle": "Just Shoot Me S 01 E 01 720p HDTV [ Gld]",
+            "file": "Just Shoot Me-S01E01-720p-HDTV-[Gld].mp4",
+            "name": "Just Shoot Me-S01E01-720p-HDTV-[Gld]",
+            "url": "https://archive.org/download/just-shoot-me-s-01-e-01-720p-hdtv-gld/Just%20Shoot%20Me-S01E01-720p-HDTV-%5BGld%5D.mp4",
+            "seconds": 1365,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 110
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "title ~ \"Back Issues\" (0.95)",
+              "item": "3-e-21",
+              "itemTitle": "Just shoot me TV series season 1 to 7 Full episodes",
+              "file": "1E01 - Back Issues.mp4",
+              "name": "1E01 - Back Issues",
+              "url": "https://archive.org/download/3-e-21/1E01%20-%20Back%20Issues.mp4",
+              "seconds": 1353,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 131
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 1 of 33 in \"Just shoot me TV series season 1 to 7 Fu\"",
+              "item": "3-e-21",
+              "itemTitle": "Just shoot me TV series season 1 to 7 Full episodes",
+              "file": "2E13.mp4",
+              "name": "2E13",
+              "url": "https://archive.org/download/3-e-21/2E13.mp4",
+              "seconds": 1337,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 130
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "The Devil and Maya Gallo",
+          "airdate": "1997-03-05",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "just-shoot-me-s-01-e-02-hdtv-gld",
+            "itemTitle": "Just Shoot Me S 01 E 02 HDTV [ Gld]",
+            "file": "Just Shoot Me-S01E02-HDTV-[Gld].mp4",
+            "name": "Just Shoot Me-S01E02-HDTV-[Gld]",
+            "url": "https://archive.org/download/just-shoot-me-s-01-e-02-hdtv-gld/Just%20Shoot%20Me-S01E02-HDTV-%5BGld%5D.mp4",
+            "seconds": 1354,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 68
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "title ~ \"The Devil and Maya Gallo\" (0.95)",
+              "item": "3-e-21",
+              "itemTitle": "Just shoot me TV series season 1 to 7 Full episodes",
+              "file": "1E02 - The Devil and Maya Gallo.mp4",
+              "name": "1E02 - The Devil and Maya Gallo",
+              "url": "https://archive.org/download/3-e-21/1E02%20-%20The%20Devil%20and%20Maya%20Gallo.mp4",
+              "seconds": 1354,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 131
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 2 of 33 in \"Just shoot me TV series season 1 to 7 Fu\"",
+              "item": "3-e-21",
+              "itemTitle": "Just shoot me TV series season 1 to 7 Full episodes",
+              "file": "2E14.mp4",
+              "name": "2E14",
+              "url": "https://archive.org/download/3-e-21/2E14.mp4",
+              "seconds": 1337,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 130
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "name": "Secretary's Day",
+          "airdate": "1997-03-12",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "just-shoot-me-s-01-e-03-hdtv-gld",
+            "itemTitle": "Just Shoot Me S 01 E 03 HDTV [ Gld]",
+            "file": "Just Shoot Me-S01E03-HDTV-[Gld].mp4",
+            "name": "Just Shoot Me-S01E03-HDTV-[Gld]",
+            "url": "https://archive.org/download/just-shoot-me-s-01-e-03-hdtv-gld/Just%20Shoot%20Me-S01E03-HDTV-%5BGld%5D.mp4",
+            "seconds": 1356,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 101
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "the-sketch-show-s1-e3",
+              "itemTitle": "The Sketch Show - Series 1 - Episode 3 (2001)",
+              "file": "02 - The Sketch Show - S1E3.mp4",
+              "name": "02 - The Sketch Show - S1E3",
+              "url": "https://archive.org/download/the-sketch-show-s1-e3/02%20-%20The%20Sketch%20Show%20-%20S1E3.mp4",
+              "seconds": 1918,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 195
+            },
+            {
+              "conf": 0.75,
+              "why": "title ~ \"Secretary's Day\" (0.95)",
+              "item": "3-e-21",
+              "itemTitle": "Just shoot me TV series season 1 to 7 Full episodes",
+              "file": "1E03 - Secretary's Day.mp4",
+              "name": "1E03 - Secretary's Day",
+              "url": "https://archive.org/download/3-e-21/1E03%20-%20Secretary's%20Day.mp4",
+              "seconds": 1356,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 131
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 3 of 33 in \"Just shoot me TV series season 1 to 7 Fu\"",
+              "item": "3-e-21",
+              "itemTitle": "Just shoot me TV series season 1 to 7 Full episodes",
+              "file": "2E15.mp4",
+              "name": "2E15",
+              "url": "https://archive.org/download/3-e-21/2E15.mp4",
+              "seconds": 1337,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 130
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "name": "Nina's Birthday",
+          "airdate": "1997-03-19",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "title ~ \"Nina's Birthday\" (0.95)",
+            "item": "3-e-21",
+            "itemTitle": "Just shoot me TV series season 1 to 7 Full episodes",
+            "file": "1E04 - Nina's Birthday.mp4",
+            "name": "1E04 - Nina's Birthday",
+            "url": "https://archive.org/download/3-e-21/1E04%20-%20Nina's%20Birthday.mp4",
+            "seconds": 1355,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 131
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 4 of 33 in \"Just shoot me TV series season 1 to 7 Fu\"",
+              "item": "3-e-21",
+              "itemTitle": "Just shoot me TV series season 1 to 7 Full episodes",
+              "file": "2E16.mp4",
+              "name": "2E16",
+              "url": "https://archive.org/download/3-e-21/2E16.mp4",
+              "seconds": 1316,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 127
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "name": "In Your Dreams",
+          "airdate": "1997-03-25",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "title ~ \"In Your Dreams\" (0.95)",
+            "item": "3-e-21",
+            "itemTitle": "Just shoot me TV series season 1 to 7 Full episodes",
+            "file": "1E05 - In Your Dreams.mp4",
+            "name": "1E05 - In Your Dreams",
+            "url": "https://archive.org/download/3-e-21/1E05%20-%20In%20Your%20Dreams.mp4",
+            "seconds": 1356,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 131
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 5 of 33 in \"Just shoot me TV series season 1 to 7 Fu\"",
+              "item": "3-e-21",
+              "itemTitle": "Just shoot me TV series season 1 to 7 Full episodes",
+              "file": "2E17.mp4",
+              "name": "2E17",
+              "url": "https://archive.org/download/3-e-21/2E17.mp4",
+              "seconds": 1337,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 129
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "name": "Lemon Wacky Hello",
+          "airdate": "1997-03-26",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "title ~ \"Lemon Wacky Hello\" (0.95)",
+            "item": "3-e-21",
+            "itemTitle": "Just shoot me TV series season 1 to 7 Full episodes",
+            "file": "1E06 - Lemon Wacky Hello.mp4",
+            "name": "1E06 - Lemon Wacky Hello",
+            "url": "https://archive.org/download/3-e-21/1E06%20-%20Lemon%20Wacky%20Hello.mp4",
+            "seconds": 1355,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 131
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 6 of 33 in \"Just shoot me TV series season 1 to 7 Fu\"",
+              "item": "3-e-21",
+              "itemTitle": "Just shoot me TV series season 1 to 7 Full episodes",
+              "file": "2E18.mp4",
+              "name": "2E18",
+              "url": "https://archive.org/download/3-e-21/2E18.mp4",
+              "seconds": 1319,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 128
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "The Experiment",
+          "airdate": "1997-09-23",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "title ~ \"The Experiment\" (0.95)",
+            "item": "3-e-21",
+            "itemTitle": "Just shoot me TV series season 1 to 7 Full episodes",
+            "file": "2E01 - The Experiment.mp4",
+            "name": "2E01 - The Experiment",
+            "url": "https://archive.org/download/3-e-21/2E01%20-%20The%20Experiment.mp4",
+            "seconds": 1334,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 130
+          },
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "The Assistant",
+          "airdate": "1997-09-30",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "title ~ \"The Assistant\" (0.95)",
+            "item": "3-e-21",
+            "itemTitle": "Just shoot me TV series season 1 to 7 Full episodes",
+            "file": "2E02 - The Assistant.mp4",
+            "name": "2E02 - The Assistant",
+            "url": "https://archive.org/download/3-e-21/2E02%20-%20The%20Assistant.mp4",
+            "seconds": 1336,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 130
+          },
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Old Boyfriends",
+          "airdate": "1997-10-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "La Cage",
+          "airdate": "1997-11-04",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "title ~ \"La Cage\" (0.95)",
+            "item": "3-e-21",
+            "itemTitle": "Just shoot me TV series season 1 to 7 Full episodes",
+            "file": "2E04 - La Cage.mp4",
+            "name": "2E04 - La Cage",
+            "url": "https://archive.org/download/3-e-21/2E04%20-%20La%20Cage.mp4",
+            "seconds": 1336,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 129
+          },
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "King Lear Jet",
+          "airdate": "1997-11-11",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "title ~ \"King Lear Jet\" (0.95)",
+            "item": "3-e-21",
+            "itemTitle": "Just shoot me TV series season 1 to 7 Full episodes",
+            "file": "2E05 - King Lear Jet.mp4",
+            "name": "2E05 - King Lear Jet",
+            "url": "https://archive.org/download/3-e-21/2E05%20-%20King%20Lear%20Jet.mp4",
+            "seconds": 1319,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 128
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "My Dinner with Woody",
+          "airdate": "1997-11-18",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "title ~ \"My Dinner with Woody\" (0.95)",
+            "item": "3-e-21",
+            "itemTitle": "Just shoot me TV series season 1 to 7 Full episodes",
+            "file": "2E06 - My Dinner with Woody.mp4",
+            "name": "2E06 - My Dinner with Woody",
+            "url": "https://archive.org/download/3-e-21/2E06%20-%20My%20Dinner%20with%20Woody.mp4",
+            "seconds": 1333,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 130
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Twice Burned",
+          "airdate": "1997-11-25",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "title ~ \"Twice Burned\" (0.95)",
+            "item": "3-e-21",
+            "itemTitle": "Just shoot me TV series season 1 to 7 Full episodes",
+            "file": "2E07 - Twice Burned.mp4",
+            "name": "2E07 - Twice Burned",
+            "url": "https://archive.org/download/3-e-21/2E07%20-%20Twice%20Burned.mp4",
+            "seconds": 1336,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 130
+          },
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Sweet Charity",
+          "airdate": "1997-12-09",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "title ~ \"Sweet Charity\" (0.95)",
+            "item": "3-e-21",
+            "itemTitle": "Just shoot me TV series season 1 to 7 Full episodes",
+            "file": "2E08 - Sweet Charity.mp4",
+            "name": "2E08 - Sweet Charity",
+            "url": "https://archive.org/download/3-e-21/2E08%20-%20Sweet%20Charity.mp4",
+            "seconds": 1334,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 130
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Jesus, It's Christmas",
+          "airdate": "1997-12-16",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "title ~ \"Jesus, It's Christmas\" (0.95)",
+            "item": "3-e-21",
+            "itemTitle": "Just shoot me TV series season 1 to 7 Full episodes",
+            "file": "2E09 - Jesus, It's Christmas.mp4",
+            "name": "2E09 - Jesus, It's Christmas",
+            "url": "https://archive.org/download/3-e-21/2E09%20-%20Jesus%2C%20It's%20Christmas.mp4",
+            "seconds": 1336,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 129
+          },
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Elliott the Geek",
+          "airdate": "1998-01-06",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "title ~ \"Elliott the Geek\" (0.95)",
+            "item": "3-e-21",
+            "itemTitle": "Just shoot me TV series season 1 to 7 Full episodes",
+            "file": "2E10 - Elliott the Geek.mp4",
+            "name": "2E10 - Elliott the Geek",
+            "url": "https://archive.org/download/3-e-21/2E10%20-%20Elliott%20the%20Geek.mp4",
+            "seconds": 1336,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 130
+          },
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Sewer!",
+          "airdate": "1998-01-13",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "title ~ \"Sewer!\" (0.95)",
+            "item": "3-e-21",
+            "itemTitle": "Just shoot me TV series season 1 to 7 Full episodes",
+            "file": "2E11 - Sewer!.mp4",
+            "name": "2E11 - Sewer!",
+            "url": "https://archive.org/download/3-e-21/2E11%20-%20Sewer!.mp4",
+            "seconds": 1336,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 130
+          },
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "In the Company of Maya",
+          "airdate": "1998-01-20",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "title ~ \"In the Company of Maya\" (0.95)",
+            "item": "3-e-21",
+            "itemTitle": "Just shoot me TV series season 1 to 7 Full episodes",
+            "file": "2E12 - In the Company of Maya.mp4",
+            "name": "2E12 - In the Company of Maya",
+            "url": "https://archive.org/download/3-e-21/2E12%20-%20In%20the%20Company%20of%20Maya.mp4",
+            "seconds": 1338,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 130
+          },
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Pass the Salt",
+          "airdate": "1998-01-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "The Walk",
+          "airdate": "1998-02-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Nina in the Cantina",
+          "airdate": "1998-02-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "College or Collagen",
+          "airdate": "1998-02-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Nina's Bikini",
+          "airdate": "1998-03-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "The Kiss",
+          "airdate": "1998-03-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Bravefinch",
+          "airdate": "1998-03-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Jack's Old Partner",
+          "airdate": "1998-04-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Amblushed",
+          "airdate": "1998-04-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "The Emperor",
+          "airdate": "1998-04-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "Rescue Me",
+          "airdate": "1998-04-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "Eve of Destruction",
+          "airdate": "1998-05-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 25,
+          "name": "War and Sleaze",
+          "airdate": "1998-05-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "What the Teddy Bear Saw",
+          "airdate": "1998-09-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Steamed",
+          "airdate": "1998-09-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "The Mask",
+          "airdate": "1998-10-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Funny Girl",
+          "airdate": "1998-11-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Two Girls for Every Boy",
+          "airdate": "1998-11-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "The Withholder",
+          "airdate": "1998-11-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Puppetmaster",
+          "airdate": "1998-11-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "The List",
+          "airdate": "1998-11-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "How Nina Got Her Groove Back",
+          "airdate": "1998-12-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "How the Finch Stole Christmas",
+          "airdate": "1998-12-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Slow Donnie",
+          "airdate": "1999-01-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "A Spy in the House of Me",
+          "airdate": "1999-01-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Lies & Dolls",
+          "airdate": "1999-02-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Nina Sees Red (1)",
+          "airdate": "1999-02-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Nina Sees Red (2)",
+          "airdate": "1999-02-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Hostess to Murder",
+          "airdate": "1999-02-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Toy Story",
+          "airdate": "1999-03-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Miss Pretty",
+          "airdate": "1999-03-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Maya's Nude Photos",
+          "airdate": "1999-04-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "And the Femmy Goes To...",
+          "airdate": "1999-05-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Softball",
+          "airdate": "1999-05-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Shaking Private Trainer",
+          "airdate": "1999-05-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "Nina's Choice",
+          "airdate": "1999-05-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "The Odd Couple (1)",
+          "airdate": "1999-05-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 25,
+          "name": "The Odd Couple (2)",
+          "airdate": "1999-05-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 4,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "A Divorce to Remember",
+          "airdate": "1999-09-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "When Nina Met Elliott",
+          "airdate": "1999-09-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Blackmail Photographer",
+          "airdate": "1999-11-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Finch Gets Dick",
+          "airdate": "1999-11-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Jack Vents",
+          "airdate": "1999-11-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Hello Goodbye",
+          "airdate": "1999-11-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "An Axe to Grind",
+          "airdate": "1999-11-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "First Date",
+          "airdate": "1999-11-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Love is in the Air",
+          "airdate": "1999-11-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Jack Gets Tough",
+          "airdate": "1999-12-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Prescription for Love",
+          "airdate": "2000-01-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "When Nina Met Elliott's Mother",
+          "airdate": "2000-01-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Dial 'N' for Murder",
+          "airdate": "2000-02-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Paradise by the Dashboard Light (1)",
+          "airdate": "2000-02-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Tea & Secrecy (2)",
+          "airdate": "2000-02-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "The Pirate of Love",
+          "airdate": "2000-02-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "With Thee I Swing",
+          "airdate": "2000-02-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Blackjack",
+          "airdate": "2000-03-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Blinded by the Right",
+          "airdate": "2000-04-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Hot Nights in Paris",
+          "airdate": "2000-04-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "When Nina Met Her Parents",
+          "airdate": "2000-04-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Finch on Ice",
+          "airdate": "2000-05-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "A&E Biography: Nina Van Horn",
+          "airdate": "2000-05-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "Fast Times at Finchmont High",
+          "airdate": "2000-05-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 5,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Hit the Road, Jack",
+          "airdate": "2000-10-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "A Night at the Plaza",
+          "airdate": "2000-10-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Mum's the Word",
+          "airdate": "2000-10-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Donnie Returns",
+          "airdate": "2000-11-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Choosing to Be Super",
+          "airdate": "2000-11-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Brandi, You're a Fine Girl",
+          "airdate": "2000-11-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "The First Thanksgiving",
+          "airdate": "2000-11-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Slamming Jack",
+          "airdate": "2000-12-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Dog Day Afternoon",
+          "airdate": "2000-12-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Finch and the Fighter",
+          "airdate": "2001-01-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "The Gift Piggy",
+          "airdate": "2001-01-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "The Proposal (1)",
+          "airdate": "2001-01-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "The Proposal (2)",
+          "airdate": "2001-02-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "The Auction",
+          "airdate": "2001-02-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Mayas and Tigers and Deans, Oh My",
+          "airdate": "2001-02-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Sid & Nina",
+          "airdate": "2001-02-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Where's Poppa?",
+          "airdate": "2001-03-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Erlene and Boo",
+          "airdate": "2001-03-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Fanny Finch",
+          "airdate": "2001-04-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Sugar Momma",
+          "airdate": "2001-04-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Maya Stops Thinking",
+          "airdate": "2001-05-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "At Long Last Allie (1)",
+          "airdate": "2001-05-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 6,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Finch in the Dogg House (2)",
+          "airdate": "2001-09-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "The Two Faces of Finch (1)",
+          "airdate": "2001-10-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "The Two Faces of Finch (2)",
+          "airdate": "2001-10-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Bye Bye Binnie",
+          "airdate": "2001-10-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Maya Judging Amy",
+          "airdate": "2001-11-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Finch Chasing Amy",
+          "airdate": "2001-11-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "The Impossible Dream",
+          "airdate": "2001-11-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "The Haves and the Have-Mores",
+          "airdate": "2001-12-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Christmas? Christmas!",
+          "airdate": "2001-12-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Nina Van Mom",
+          "airdate": "2002-01-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Nina Van Grandma",
+          "airdate": "2002-01-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Liotta? Liotta!",
+          "airdate": "2002-01-31",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "About a Boy",
+          "airdate": "2002-02-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Friends and Neighbors",
+          "airdate": "2002-02-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Blind Ambition",
+          "airdate": "2002-03-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "A Beautiful Mind",
+          "airdate": "2002-03-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Educating Finch",
+          "airdate": "2002-03-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "The Book of Jack",
+          "airdate": "2002-04-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Blush Gets Some Therapy",
+          "airdate": "2002-04-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "The Burning House",
+          "airdate": "2002-04-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "The Bad Grandma",
+          "airdate": "2002-04-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "The Boys in the Band",
+          "airdate": "2002-05-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 7,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Guess Who's Coming to Blush",
+          "airdate": "2002-10-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Mr. Jealousy",
+          "airdate": "2002-10-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Nina and the Rocker",
+          "airdate": "2002-10-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Halloween? Halloween!",
+          "airdate": "2002-10-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Da Sister Who Loved DiMauro",
+          "airdate": "2002-11-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "That Burning Passion",
+          "airdate": "2002-11-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "The Write Stuff",
+          "airdate": "2002-12-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "It's Raining Babies",
+          "airdate": "2003-01-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Watch Your Backdraft",
+          "airdate": "2003-01-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Pictures of Lily",
+          "airdate": "2003-04-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "The Comedy Stylings of Rivers & Red",
+          "airdate": "2003-04-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "The Talented Mr. Finch",
+          "airdate": "2003-07-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "There's Something About Allison",
+          "airdate": "2003-07-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Rivals in Romance",
+          "airdate": "2003-07-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "A Simple Kiss of Fate",
+          "airdate": "2003-07-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Donnie Redeemed",
+          "airdate": "2003-08-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "My Fair Finchy",
+          "airdate": "2003-08-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Son of a Preacher Man",
+          "airdate": "2003-08-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "The Last Temptation of Elliott",
+          "airdate": "2003-08-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "For the Last Time, I Do",
+          "airdate": "2003-08-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Future Issues",
+          "airdate": "2003-08-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Evaluate This!",
+          "airdate": "2003-11-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "The Goodbye Girl",
+          "airdate": "2003-11-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "Strange Bedfellows",
+          "airdate": "2003-11-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    }
+  ]
+}

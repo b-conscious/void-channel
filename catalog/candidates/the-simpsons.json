@@ -1,0 +1,521 @@
+{
+  "show": "The Simpsons",
+  "type": "Animated",
+  "network": "FOX",
+  "huntedAt": "2026-10-13T04:27:38.069Z",
+  "tvmaze": {
+    "id": 83,
+    "runtime": 30,
+    "premiered": "1989-12-17",
+    "episodes": 806
+  },
+  "archiveMentions": 2000,
+  "itemsOpened": 12,
+  "episodeShapedFiles": 14,
+  "namedEpisodeFiles": 10,
+  "verdict": "FOUND",
+  "items": [
+    {
+      "id": "TheSimpsonsPartialTVStuffMid90s",
+      "title": "Blank VHS Tape: The Simpsons, Partial TV Episodes & Local 10pm News (1995-1997)",
+      "uploader": "csimmons903@gmail.com",
+      "date": "1997-06-14",
+      "collection": [
+        "vhsnews_1990s",
+        "whisper_test",
+        "vhsnews",
+        "vhsvault"
+      ],
+      "description": "<div>Running Time: 04:36:45</div><div>Recording Mode: EP</div><div>Tape Sound: Mono</div><div><br /></div><div>Contents of This Videocassette:</div><div><br /></div><div>1. <span class=\"file\">The Simpsons - \"Treehouse of Horror VI\" (WPMT [FOX], 10/29/1995)<br /></span></div><div><span class=\"file\">2",
+      "totalVideo": 10,
+      "episodeShaped": 7,
+      "nameHits": 4,
+      "files": [
+        {
+          "name": "4 Minutes of USA Network- 10-31-1995",
+          "file": "4 Minutes of USA Network- 10-31-1995.mp4",
+          "format": "MPEG4",
+          "playable": true,
+          "seconds": 232,
+          "band": "clip",
+          "sizeMB": 162,
+          "nameHit": false,
+          "ep": null,
+          "url": "https://archive.org/download/TheSimpsonsPartialTVStuffMid90s/4%20Minutes%20of%20USA%20Network-%2010-31-1995.mp4"
+        },
+        {
+          "name": "Fox 43 News at Ten- February 23, 1997",
+          "file": "Fox 43 News at Ten- February 23, 1997.mp4",
+          "format": "MPEG4",
+          "playable": true,
+          "seconds": 2048,
+          "band": "episode",
+          "sizeMB": 1270,
+          "nameHit": false,
+          "ep": null,
+          "url": "https://archive.org/download/TheSimpsonsPartialTVStuffMid90s/Fox%2043%20News%20at%20Ten-%20February%2023%2C%201997.mp4"
+        },
+        {
+          "name": "Millersburg TV Company Footage- June 14, 1997",
+          "file": "Millersburg TV Company Footage- June 14, 1997.mp4",
+          "format": "MPEG4",
+          "playable": true,
+          "seconds": 3503,
+          "band": "double",
+          "sizeMB": 4009,
+          "nameHit": false,
+          "ep": null,
+          "url": "https://archive.org/download/TheSimpsonsPartialTVStuffMid90s/Millersburg%20TV%20Company%20Footage-%20June%2014%2C%201997.mp4"
+        },
+        {
+          "name": "Star Trek- Deep Space Nine (By Inferno's Light)- Incomplete",
+          "file": "Star Trek- Deep Space Nine (By Inferno's Light)- Incomplete.mp4",
+          "format": "MPEG4",
+          "playable": true,
+          "seconds": 1001,
+          "band": "odd",
+          "sizeMB": 515,
+          "nameHit": false,
+          "ep": null,
+          "url": "https://archive.org/download/TheSimpsonsPartialTVStuffMid90s/Star%20Trek-%20Deep%20Space%20Nine%20(By%20Inferno's%20Light)-%20Incomplete.mp4"
+        },
+        {
+          "name": "The Simpsons- Colonel Homer (most)",
+          "file": "The Simpsons- Colonel Homer (most).mp4",
+          "format": "MPEG4",
+          "playable": true,
+          "seconds": 1406,
+          "band": "episode",
+          "sizeMB": 1191,
+          "nameHit": true,
+          "ep": null,
+          "url": "https://archive.org/download/TheSimpsonsPartialTVStuffMid90s/The%20Simpsons-%20Colonel%20Homer%20(most).mp4"
+        },
+        {
+          "name": "The Simpsons- Halloween Special I (incomplete)",
+          "file": "The Simpsons- Halloween Special I (incomplete).mp4",
+          "format": "MPEG4",
+          "playable": true,
+          "seconds": 1088,
+          "band": "odd",
+          "sizeMB": 505,
+          "nameHit": true,
+          "ep": null,
+          "url": "https://archive.org/download/TheSimpsonsPartialTVStuffMid90s/The%20Simpsons-%20Halloween%20Special%20I%20(incomplete).mp4"
+        },
+        {
+          "name": "The Simpsons- Halloween Special V",
+          "file": "The Simpsons- Halloween Special V.mp4",
+          "format": "MPEG4",
+          "playable": true,
+          "seconds": 1902,
+          "band": "episode",
+          "sizeMB": 1050,
+          "nameHit": true,
+          "ep": null,
+          "url": "https://archive.org/download/TheSimpsonsPartialTVStuffMid90s/The%20Simpsons-%20Halloween%20Special%20V.mp4"
+        },
+        {
+          "name": "The Simpsons- Halloween Special VI",
+          "file": "The Simpsons- Halloween Special VI.mp4",
+          "format": "MPEG4",
+          "playable": true,
+          "seconds": 1810,
+          "band": "episode",
+          "sizeMB": 929,
+          "nameHit": true,
+          "ep": null,
+          "url": "https://archive.org/download/TheSimpsonsPartialTVStuffMid90s/The%20Simpsons-%20Halloween%20Special%20VI.mp4"
+        },
+        {
+          "name": "The Simpsons- Selma's Choice (most)",
+          "file": "The Simpsons- Selma's Choice (most).mp4",
+          "format": "MPEG4",
+          "playable": true,
+          "seconds": 1465,
+          "band": "episode",
+          "sizeMB": 723,
+          "nameHit": true,
+          "ep": null,
+          "url": "https://archive.org/download/TheSimpsonsPartialTVStuffMid90s/The%20Simpsons-%20Selma's%20Choice%20(most).mp4"
+        },
+        {
+          "name": "The X-Files- Unrequited (Incomplete)",
+          "file": "The X-Files- Unrequited (Incomplete).mp4",
+          "format": "MPEG4",
+          "playable": true,
+          "seconds": 2232,
+          "band": "episode",
+          "sizeMB": 1437,
+          "nameHit": false,
+          "ep": null,
+          "url": "https://archive.org/download/TheSimpsonsPartialTVStuffMid90s/The%20X-Files-%20Unrequited%20(Incomplete).mp4"
+        }
+      ],
+      "searchScore": 0.75,
+      "year": 1997,
+      "downloads": 9848
+    },
+    {
+      "id": "WTTG_20010910_220000_The_Simpsons",
+      "title": "The Simpsons : WTTG : September 10, 2001 6:00pm-6:30pm EDT",
+      "uploader": "tv@archive.org",
+      "date": "2001-09-10",
+      "collection": [
+        "TV-WTTG",
+        "tvarchive",
+        "tvnews",
+        "911",
+        "television"
+      ],
+      "description": "The City of New York vs. Homer Simpson  Series/Special. Voice of: Dan Castellaneta, Voice of: Julie Kavner, Voice of: Nancy Cartwright.  (1997) The family visits New York City after Barney disappears with the family car. (CC) (Stereo)",
+      "totalVideo": 1,
+      "episodeShaped": 1,
+      "nameHits": 1,
+      "files": [
+        {
+          "name": "WTTG_20010910_220000_The_Simpsons",
+          "file": "WTTG_20010910_220000_The_Simpsons.mp4",
+          "format": "h.264",
+          "playable": true,
+          "seconds": 1802,
+          "band": "episode",
+          "sizeMB": 184,
+          "nameHit": true,
+          "ep": null,
+          "url": "https://archive.org/download/WTTG_20010910_220000_The_Simpsons/WTTG_20010910_220000_The_Simpsons.mp4"
+        }
+      ],
+      "searchScore": 0.75,
+      "year": 2001,
+      "downloads": 1488
+    },
+    {
+      "id": "WTTG_20010910_223000_The_Simpsons",
+      "title": "The Simpsons : WTTG : September 10, 2001 6:30pm-7:00pm EDT",
+      "uploader": "tv@archive.org",
+      "date": "2001-09-10",
+      "collection": [
+        "TV-WTTG",
+        "tvarchive",
+        "tvnews",
+        "911",
+        "television"
+      ],
+      "description": "Marge on the Lam  Series/Special. Voice of: Dan Castellaneta, Voice of: Julie Kavner, Voice of: Nancy Cartwright.  (1993) Marge and a divorced neighbor take a wild car ride. (CC) (Stereo)",
+      "totalVideo": 1,
+      "episodeShaped": 1,
+      "nameHits": 1,
+      "files": [
+        {
+          "name": "WTTG_20010910_223000_The_Simpsons",
+          "file": "WTTG_20010910_223000_The_Simpsons.mp4",
+          "format": "h.264",
+          "playable": true,
+          "seconds": 1801,
+          "band": "episode",
+          "sizeMB": 183,
+          "nameHit": true,
+          "ep": null,
+          "url": "https://archive.org/download/WTTG_20010910_223000_The_Simpsons/WTTG_20010910_223000_The_Simpsons.mp4"
+        }
+      ],
+      "searchScore": 0.75,
+      "year": 2001,
+      "downloads": 1167
+    },
+    {
+      "id": "WTTG_20010911_220000_The_Simpsons",
+      "title": "The Simpsons : WTTG : September 11, 2001 6:00pm-6:30pm EDT",
+      "uploader": "tv@archive.org",
+      "date": "2001-09-11",
+      "collection": [
+        "TV-WTTG",
+        "911",
+        "tvarchive",
+        "television",
+        "tvnews"
+      ],
+      "description": "The Principal and the Pauper  Series/Special. Voice of: Dan Castellaneta, Voice of: Julie Kavner, Voice of: Nancy Cartwright.  (1997) When the principal celebrates 20 years, a stranger claims to be the real Seymour Skinner. (CC) (Stereo)",
+      "totalVideo": 1,
+      "episodeShaped": 1,
+      "nameHits": 1,
+      "files": [
+        {
+          "name": "WTTG_20010911_220000_The_Simpsons",
+          "file": "WTTG_20010911_220000_The_Simpsons.mp4",
+          "format": "h.264",
+          "playable": true,
+          "seconds": 1805,
+          "band": "episode",
+          "sizeMB": 181,
+          "nameHit": true,
+          "ep": null,
+          "url": "https://archive.org/download/WTTG_20010911_220000_The_Simpsons/WTTG_20010911_220000_The_Simpsons.mp4"
+        }
+      ],
+      "searchScore": 0.75,
+      "year": 2001,
+      "downloads": 967
+    },
+    {
+      "id": "WTTG_20010918_220000_The_Simpsons",
+      "title": "The Simpsons : WTTG : September 18, 2001 6:00pm-6:29pm EDT",
+      "uploader": "tv@archive.org",
+      "date": "2001-09-18",
+      "collection": [
+        "TV-WTTG",
+        "tvarchive",
+        "tvnews",
+        "911",
+        "television"
+      ],
+      "description": "Bart Star  Series/Special. Voice of: Dan Castellaneta, Voice of: Julie Kavner, Voice of: Nancy Cartwright.  (1997) Homer coaches pee-wee football, making Bart quarterback; Joe Namath helps. (CC) (Stereo)",
+      "totalVideo": 1,
+      "episodeShaped": 1,
+      "nameHits": 1,
+      "files": [
+        {
+          "name": "WTTG_20010918_220000_The_Simpsons",
+          "file": "WTTG_20010918_220000_The_Simpsons.mp4",
+          "format": "h.264",
+          "playable": true,
+          "seconds": 1796,
+          "band": "episode",
+          "sizeMB": 176,
+          "nameHit": true,
+          "ep": null,
+          "url": "https://archive.org/download/WTTG_20010918_220000_The_Simpsons/WTTG_20010918_220000_The_Simpsons.mp4"
+        }
+      ],
+      "searchScore": 0.75,
+      "year": 2001,
+      "downloads": 814
+    },
+    {
+      "id": "WTTG_20010911_223000_The_Simpsons",
+      "title": "The Simpsons : WTTG : September 11, 2001 6:30pm-6:59pm EDT",
+      "uploader": "tv@archive.org",
+      "date": "2001-09-11",
+      "collection": [
+        "TV-WTTG",
+        "911",
+        "tvarchive",
+        "television",
+        "tvnews"
+      ],
+      "description": "Bart's Inner Child  Series/Special. Voice of: Dan Castellaneta, Voice of: Julie Kavner, Voice of: Nancy Cartwright.  (1993) Homer and Marge take recalcitrant Bart to a therapist. (CC) (Stereo)",
+      "totalVideo": 1,
+      "episodeShaped": 1,
+      "nameHits": 1,
+      "files": [
+        {
+          "name": "WTTG_20010911_223000_The_Simpsons",
+          "file": "WTTG_20010911_223000_The_Simpsons.mp4",
+          "format": "h.264",
+          "playable": true,
+          "seconds": 1798,
+          "band": "episode",
+          "sizeMB": 180,
+          "nameHit": true,
+          "ep": null,
+          "url": "https://archive.org/download/WTTG_20010911_223000_The_Simpsons/WTTG_20010911_223000_The_Simpsons.mp4"
+        }
+      ],
+      "searchScore": 0.75,
+      "year": 2001,
+      "downloads": 682
+    },
+    {
+      "id": "eternal-moonshine-of-the-simpson-mind",
+      "title": "The Simpsons: Eternal Moonshine Of The Simpson Mind Animatic (S19E9)",
+      "uploader": "lemurboy14@gmail.com",
+      "date": "2007-06-20",
+      "collection": [
+        "opensource_movies",
+        "community",
+        "animation-artwork"
+      ],
+      "description": "The Simpsons: Eternal Moonshine Of The Simpson Mind Animatic (S19E9)",
+      "totalVideo": 1,
+      "episodeShaped": 1,
+      "nameHits": 0,
+      "files": [
+        {
+          "name": "Eternal Moonshine of the Simpson Mind",
+          "file": "Eternal Moonshine of the Simpson Mind.mp4",
+          "format": "h.264",
+          "playable": true,
+          "seconds": 1642,
+          "band": "episode",
+          "sizeMB": 171,
+          "nameHit": false,
+          "ep": null,
+          "url": "https://archive.org/download/eternal-moonshine-of-the-simpson-mind/Eternal%20Moonshine%20of%20the%20Simpson%20Mind.mp4"
+        }
+      ],
+      "searchScore": 0.75,
+      "year": 2007,
+      "downloads": 650
+    },
+    {
+      "id": "WTTG_20010914_010000_The_Simpsons",
+      "title": "The Simpsons : WTTG : September 13, 2001 9:00pm-9:30pm EDT",
+      "uploader": "tv@archive.org",
+      "date": "2001-09-14",
+      "collection": [
+        "TV-WTTG",
+        "911",
+        "tvarchive",
+        "television",
+        "tvnews"
+      ],
+      "description": "Simpsons Tall Tales  Series/Special. Voice of: Dan Castellaneta, Voice of: Julie Kavner, Voice of: Nancy Cartwright.  (2001) The Simpsons play folk legends like Paul Bunyan and Tom Sawyer. (CC) (Stereo)",
+      "totalVideo": 1,
+      "episodeShaped": 1,
+      "nameHits": 1,
+      "files": [
+        {
+          "name": "WTTG_20010914_010000_The_Simpsons",
+          "file": "WTTG_20010914_010000_The_Simpsons.mp4",
+          "format": "h.264",
+          "playable": true,
+          "seconds": 1804,
+          "band": "episode",
+          "sizeMB": 181,
+          "nameHit": true,
+          "ep": null,
+          "url": "https://archive.org/download/WTTG_20010914_010000_The_Simpsons/WTTG_20010914_010000_The_Simpsons.mp4"
+        }
+      ],
+      "searchScore": 0.75,
+      "year": 2001,
+      "downloads": 568
+    },
+    {
+      "id": "20th-century-fox-2007-the-simpsons-movie-with-1994-fanfare-ntsc",
+      "title": "20th Century Fox (2007, The Simpsons Movie, with 1994 fanfare, NTSC)",
+      "uploader": "jeconomou1234@gmail.com",
+      "date": "2012-10-25",
+      "collection": [
+        "vhsopenings",
+        "vhsvault"
+      ],
+      "description": "bluetennant1998 got his account back but i'll keep this archive up just in case this video goes down",
+      "totalVideo": 1,
+      "episodeShaped": 0,
+      "nameHits": 0,
+      "files": [
+        {
+          "name": "20th Century Fox (2007, The Simpsons Movie, with 1994 fanfare, NTSC)",
+          "file": "20th Century Fox (2007, The Simpsons Movie, with 1994 fanfare, NTSC).webm",
+          "format": "WebM",
+          "playable": true,
+          "seconds": 21,
+          "band": "clip",
+          "sizeMB": 1,
+          "nameHit": true,
+          "ep": null,
+          "url": "https://archive.org/download/20th-century-fox-2007-the-simpsons-movie-with-1994-fanfare-ntsc/20th%20Century%20Fox%20(2007%2C%20The%20Simpsons%20Movie%2C%20with%201994%20fanfare%2C%20NTSC).webm"
+        }
+      ],
+      "searchScore": 0.75,
+      "year": 2012,
+      "downloads": 5262
+    },
+    {
+      "id": "WTTG_20010919_010000_The_Simpsons",
+      "title": "The Simpsons : WTTG : September 18, 2001 9:00pm-9:18pm EDT",
+      "uploader": "tv@archive.org",
+      "date": "2001-09-19",
+      "collection": [
+        "TV-WTTG",
+        "tvarchive",
+        "tvnews",
+        "911",
+        "television"
+      ],
+      "description": "Simpsons Tall Tales  Series/Special. Voice of: Dan Castellaneta, Voice of: Julie Kavner, Voice of: Nancy Cartwright.  (2001) The Simpsons play folk legends like Paul Bunyan and Tom Sawyer. (CC) (Stereo)",
+      "totalVideo": 1,
+      "episodeShaped": 0,
+      "nameHits": 0,
+      "files": [
+        {
+          "name": "WTTG_20010919_010000_The_Simpsons",
+          "file": "WTTG_20010919_010000_The_Simpsons.mp4",
+          "format": "h.264",
+          "playable": true,
+          "seconds": 1087,
+          "band": "odd",
+          "sizeMB": 109,
+          "nameHit": true,
+          "ep": null,
+          "url": "https://archive.org/download/WTTG_20010919_010000_The_Simpsons/WTTG_20010919_010000_The_Simpsons.mp4"
+        }
+      ],
+      "searchScore": 0.75,
+      "year": 2001,
+      "downloads": 1902
+    },
+    {
+      "id": "episode-of-24-and-simpsons-treehouse-of-terror-iv-vhs-home-recording",
+      "title": "Episode Of 24 And Simpsons Treehouse Of Terror IV VHS Home Recording",
+      "uploader": "ogcidman911@gmail.com",
+      "collection": [
+        "vhstvshows",
+        "vhsvault"
+      ],
+      "description": "Episode of 24<div>Simpsons Treehouse of Horror IV</div><div><br /></div><div>WOC</div>",
+      "totalVideo": 1,
+      "episodeShaped": 0,
+      "nameHits": 0,
+      "files": [
+        {
+          "name": "Episode of 24 and Simpsons Treehouse of Terror  IV VHS Home Recording",
+          "file": "Episode of 24 and Simpsons Treehouse of Terror  IV VHS Home Recording.mp4",
+          "format": "h.264",
+          "playable": true,
+          "seconds": 6331,
+          "band": "odd",
+          "sizeMB": 689,
+          "nameHit": true,
+          "ep": null,
+          "url": "https://archive.org/download/episode-of-24-and-simpsons-treehouse-of-terror-iv-vhs-home-recording/Episode%20of%2024%20and%20Simpsons%20Treehouse%20of%20Terror%20%20IV%20VHS%20Home%20Recording.mp4"
+        }
+      ],
+      "searchScore": 0.75,
+      "downloads": 1718
+    },
+    {
+      "id": "Cheez_TV_Hosts_host_Simpsons_marathon_TVQ-10_2003",
+      "title": "Cheez TV Hosts host Simpsons marathon (TVQ-10, 2003)",
+      "uploader": "foe@manxo.me",
+      "date": "2003-01-01",
+      "collection": [
+        "flemishdog",
+        "vhsvault"
+      ],
+      "description": "just 2 segments, sadly, found on VHS\n\nOriginally uploaded by FLEMISHDOG on April 08, 2012 at https://www.youtube.com/watch?v=VCz8F1dpB08.",
+      "totalVideo": 1,
+      "episodeShaped": 0,
+      "nameHits": 0,
+      "files": [
+        {
+          "name": "Cheez TV Hosts host Simpsons marathon (TVQ-10, 2003)-VCz8F1dpB08",
+          "file": "Cheez TV Hosts host Simpsons marathon (TVQ-10, 2003)-VCz8F1dpB08.mp4",
+          "format": "h.264",
+          "playable": true,
+          "seconds": 412,
+          "band": "odd",
+          "sizeMB": 43,
+          "nameHit": true,
+          "ep": null,
+          "url": "https://archive.org/download/Cheez_TV_Hosts_host_Simpsons_marathon_TVQ-10_2003/Cheez%20TV%20Hosts%20host%20Simpsons%20marathon%20(TVQ-10%2C%202003)-VCz8F1dpB08.mp4"
+        }
+      ],
+      "searchScore": 0.75,
+      "year": 2003,
+      "downloads": 746
+    }
+  ]
+}

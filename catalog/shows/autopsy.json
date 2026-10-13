@@ -1,0 +1,60 @@
+{
+  "show": "Autopsy",
+  "slug": "autopsy",
+  "type": "Late Night",
+  "network": "HBO",
+  "matchedAt": "2026-10-13T07:46:17.819Z",
+  "tvmaze": {
+    "id": 87257,
+    "name": "Ancient Autopsy",
+    "runtime": 60,
+    "premiered": "2025-09-22",
+    "network": "More4"
+  },
+  "coverage": {
+    "total": 4,
+    "live": 0,
+    "review": 0,
+    "missing": 4,
+    "pct": 0
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Cleopatra",
+          "airdate": "2025-09-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Alexander the Great",
+          "airdate": "2025-09-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Genghis Khan",
+          "airdate": "2025-10-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Tutankhamun",
+          "airdate": "2025-10-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,675 @@
+{
+  "show": "Star Trek: The Next Generation",
+  "type": "Sci-Fi, Fantasy and Horror",
+  "network": "Syndicated",
+  "huntedAt": "2026-10-13T06:31:38.529Z",
+  "tvmaze": {
+    "id": 491,
+    "runtime": 60,
+    "premiered": "1987-09-28",
+    "episodes": 178
+  },
+  "archiveMentions": 488,
+  "itemsOpened": 12,
+  "episodeShapedFiles": 30,
+  "namedEpisodeFiles": 0,
+  "verdict": "FOUND",
+  "items": [
+    {
+      "id": "TNG01",
+      "title": "Star Trek: The Next Generation",
+      "uploader": "kace.gaell@doodrops.org",
+      "date": "1987-09-28",
+      "collection": "opensource_movies",
+      "description": "<div>Star Trek: The Next Generation</div><div>Season 1<br /></div>",
+      "totalVideo": 25,
+      "episodeShaped": 24,
+      "nameHits": 0,
+      "files": [
+        {
+          "name": "E01&02 - Encounter at Farpoint",
+          "file": "E01&02 - Encounter at Farpoint.mkv",
+          "format": "Matroska",
+          "playable": false,
+          "seconds": 5483,
+          "band": "odd",
+          "sizeMB": 1408,
+          "nameHit": false,
+          "ep": null,
+          "url": "https://archive.org/download/TNG01/E01%2602%20-%20Encounter%20at%20Farpoint.mkv"
+        },
+        {
+          "name": "E03 - The Naked Now",
+          "file": "E03 - The Naked Now.mkv",
+          "format": "Matroska",
+          "playable": false,
+          "seconds": 2734,
+          "band": "episode",
+          "sizeMB": 695,
+          "nameHit": false,
+          "ep": null,
+          "url": "https://archive.org/download/TNG01/E03%20-%20The%20Naked%20Now.mkv"
+        },
+        {
+          "name": "E04 - Code of Honor",
+          "file": "E04 - Code of Honor.mkv",
+          "format": "Matroska",
+          "playable": false,
+          "seconds": 2731,
+          "band": "episode",
+          "sizeMB": 696,
+          "nameHit": false,
+          "ep": null,
+          "url": "https://archive.org/download/TNG01/E04%20-%20Code%20of%20Honor.mkv"
+        },
+        {
+          "name": "E05 - The Last Outpost",
+          "file": "E05 - The Last Outpost.mkv",
+          "format": "Matroska",
+          "playable": false,
+          "seconds": 2736,
+          "band": "episode",
+          "sizeMB": 700,
+          "nameHit": false,
+          "ep": null,
+          "url": "https://archive.org/download/TNG01/E05%20-%20The%20Last%20Outpost.mkv"
+        },
+        {
+          "name": "E06 - Where No One Has Gone Before",
+          "file": "E06 - Where No One Has Gone Before.mkv",
+          "format": "Matroska",
+          "playable": false,
+          "seconds": 2735,
+          "band": "episode",
+          "sizeMB": 699,
+          "nameHit": false,
+          "ep": null,
+          "url": "https://archive.org/download/TNG01/E06%20-%20Where%20No%20One%20Has%20Gone%20Before.mkv"
+        },
+        {
+          "name": "E07 - Lonely Among Us",
+          "file": "E07 - Lonely Among Us.mkv",
+          "format": "Matroska",
+          "playable": false,
+          "seconds": 2733,
+          "band": "episode",
+          "sizeMB": 697,
+          "nameHit": false,
+          "ep": null,
+          "url": "https://archive.org/download/TNG01/E07%20-%20Lonely%20Among%20Us.mkv"
+        },
+        {
+          "name": "E08 - Justice",
+          "file": "E08 - Justice.mkv",
+          "format": "Matroska",
+          "playable": false,
+          "seconds": 2734,
+          "band": "episode",
+          "sizeMB": 698,
+          "nameHit": false,
+          "ep": null,
+          "url": "https://archive.org/download/TNG01/E08%20-%20Justice.mkv"
+        },
+        {
+          "name": "E09 - The Battle",
+          "file": "E09 - The Battle.mkv",
+          "format": "Matroska",
+          "playable": false,
+          "seconds": 2732,
+          "band": "episode",
+          "sizeMB": 696,
+          "nameHit": false,
+          "ep": null,
+          "url": "https://archive.org/download/TNG01/E09%20-%20The%20Battle.mkv"
+        },
+        {
+          "name": "E10 - Hide and Q",
+          "file": "E10 - Hide and Q.mkv",
+          "format": "Matroska",
+          "playable": false,
+          "seconds": 2732,
+          "band": "episode",
+          "sizeMB": 701,
+          "nameHit": false,
+          "ep": null,
+          "url": "https://archive.org/download/TNG01/E10%20-%20Hide%20and%20Q.mkv"
+        },
+        {
+          "name": "E11 - Haven",
+          "file": "E11 - Haven.mkv",
+          "format": "Matroska",
+          "playable": false,
+          "seconds": 2734,
+          "band": "episode",
+          "sizeMB": 701,
+          "nameHit": false,
+          "ep": null,
+          "url": "https://archive.org/download/TNG01/E11%20-%20Haven.mkv"
+        },
+        {
+          "name": "E12 - The Big Goodbye",
+          "file": "E12 - The Big Goodbye.mkv",
+          "format": "Matroska",
+          "playable": false,
+          "seconds": 2733,
+          "band": "episode",
+          "sizeMB": 696,
+          "nameHit": false,
+          "ep": null,
+          "url": "https://archive.org/download/TNG01/E12%20-%20The%20Big%20Goodbye.mkv"
+        },
+        {
+          "name": "E13 - Datalore",
+          "file": "E13 - Datalore.mkv",
+          "format": "Matroska",
+          "playable": false,
+          "seconds": 2734,
+          "band": "episode",
+          "sizeMB": 700,
+          "nameHit": false,
+          "ep": null,
+          "url": "https://archive.org/download/TNG01/E13%20-%20Datalore.mkv"
+        },
+        {
+          "name": "E14 - Angel One",
+          "file": "E14 - Angel One.mkv",
+          "format": "Matroska",
+          "playable": false,
+          "seconds": 2733,
+          "band": "episode",
+          "sizeMB": 694,
+          "nameHit": false,
+          "ep": null,
+          "url": "https://archive.org/download/TNG01/E14%20-%20Angel%20One.mkv"
+        },
+        {
+          "name": "E15 - 11001001",
+          "file": "E15 - 11001001.mkv",
+          "format": "Matroska",
+          "playable": false,
+          "seconds": 2732,
+          "band": "episode",
+          "sizeMB": 701,
+          "nameHit": false,
+          "ep": null,
+          "url": "https://archive.org/download/TNG01/E15%20-%2011001001.mkv"
+        },
+        {
+          "name": "E16 - Too Short a Season",
+          "file": "E16 - Too Short a Season.mkv",
+          "format": "Matroska",
+          "playable": false,
+          "seconds": 2732,
+          "band": "episode",
+          "sizeMB": 699,
+          "nameHit": false,
+          "ep": null,
+          "url": "https://archive.org/download/TNG01/E16%20-%20Too%20Short%20a%20Season.mkv"
+        },
+        {
+          "name": "E17 - When the Bough Breaks",
+          "file": "E17 - When the Bough Breaks.mkv",
+          "format": "Matroska",
+          "playable": false,
+          "seconds": 2736,
+          "band": "episode",
+          "sizeMB": 700,
+          "nameHit": false,
+          "ep": null,
+          "url": "https://archive.org/download/TNG01/E17%20-%20When%20the%20Bough%20Breaks.mkv"
+        },
+        {
+          "name": "E18 - Home Soil",
+          "file": "E18 - Home Soil.mkv",
+          "format": "Matroska",
+          "playable": false,
+          "seconds": 2733,
+          "band": "episode",
+          "sizeMB": 700,
+          "nameHit": false,
+          "ep": null,
+          "url": "https://archive.org/download/TNG01/E18%20-%20Home%20Soil.mkv"
+        },
+        {
+          "name": "E19 - Coming of Age",
+          "file": "E19 - Coming of Age.mkv",
+          "format": "Matroska",
+          "playable": false,
+          "seconds": 2736,
+          "band": "episode",
+          "sizeMB": 697,
+          "nameHit": false,
+          "ep": null,
+          "url": "https://archive.org/download/TNG01/E19%20-%20Coming%20of%20Age.mkv"
+        },
+        {
+          "name": "E20 - Heart of Glory",
+          "file": "E20 - Heart of Glory.mkv",
+          "format": "Matroska",
+          "playable": false,
+          "seconds": 2733,
+          "band": "episode",
+          "sizeMB": 698,
+          "nameHit": false,
+          "ep": null,
+          "url": "https://archive.org/download/TNG01/E20%20-%20Heart%20of%20Glory.mkv"
+        },
+        {
+          "name": "E21 - The.Arsenal of Freedom",
+          "file": "E21 - The.Arsenal of Freedom.mkv",
+          "format": "Matroska",
+          "playable": false,
+          "seconds": 2733,
+          "band": "episode",
+          "sizeMB": 695,
+          "nameHit": false,
+          "ep": null,
+          "url": "https://archive.org/download/TNG01/E21%20-%20The.Arsenal%20of%20Freedom.mkv"
+        },
+        {
+          "name": "E22 - Symbiosis",
+          "file": "E22 - Symbiosis.mkv",
+          "format": "Matroska",
+          "playable": false,
+          "seconds": 2732,
+          "band": "episode",
+          "sizeMB": 692,
+          "nameHit": false,
+          "ep": null,
+          "url": "https://archive.org/download/TNG01/E22%20-%20Symbiosis.mkv"
+        },
+        {
+          "name": "E23 - Skin of Evil",
+          "file": "E23 - Skin of Evil.mkv",
+          "format": "Matroska",
+          "playable": false,
+          "seconds": 2731,
+          "band": "episode",
+          "sizeMB": 695,
+          "nameHit": false,
+          "ep": null,
+          "url": "https://archive.org/download/TNG01/E23%20-%20Skin%20of%20Evil.mkv"
+        },
+        {
+          "name": "E24 - We Will Always Have Paris",
+          "file": "E24 - We Will Always Have Paris.mkv",
+          "format": "Matroska",
+          "playable": false,
+          "seconds": 2732,
+          "band": "episode",
+          "sizeMB": 693,
+          "nameHit": false,
+          "ep": null,
+          "url": "https://archive.org/download/TNG01/E24%20-%20We%20Will%20Always%20Have%20Paris.mkv"
+        },
+        {
+          "name": "E25 - Conspiracy",
+          "file": "E25 - Conspiracy.mkv",
+          "format": "Matroska",
+          "playable": false,
+          "seconds": 2737,
+          "band": "episode",
+          "sizeMB": 696,
+          "nameHit": false,
+          "ep": null,
+          "url": "https://archive.org/download/TNG01/E25%20-%20Conspiracy.mkv"
+        },
+        {
+          "name": "E26 - The Neutral Zone",
+          "file": "E26 - The Neutral Zone.mkv",
+          "format": "Matroska",
+          "playable": false,
+          "seconds": 2735,
+          "band": "episode",
+          "sizeMB": 691,
+          "nameHit": false,
+          "ep": null,
+          "url": "https://archive.org/download/TNG01/E26%20-%20The%20Neutral%20Zone.mkv"
+        }
+      ],
+      "searchScore": 0.7,
+      "year": 1987,
+      "downloads": 731
+    },
+    {
+      "id": "star-trek-tngs-2-e-3",
+      "title": "Star Trek: The Next Generation - S2E3 [VHS]",
+      "uploader": "mparker1600@gmail.com",
+      "date": "1990-07-12",
+      "collection": [
+        "vhstvshows",
+        "vhsvault"
+      ],
+      "description": "A VHS home recording of the third episode of season 2 of Star Trek: The Next Generation as broadcast on KPTV Channel 12 Portland on July 12, 1990. This episode is titled \"Elementary, Dear Data\"<div><br /></div><div>Includes commercial breaks from the original broadcast</div>",
+      "totalVideo": 1,
+      "episodeShaped": 1,
+      "nameHits": 0,
+      "files": [
+        {
+          "name": "StarTrekTNGS2E3",
+          "file": "StarTrekTNGS2E3.mp4",
+          "format": "MPEG4",
+          "playable": true,
+          "seconds": 3567,
+          "band": "episode",
+          "sizeMB": 940,
+          "nameHit": false,
+          "ep": null,
+          "url": "https://archive.org/download/star-trek-tngs-2-e-3/StarTrekTNGS2E3.mp4"
+        }
+      ],
+      "searchScore": 0.75,
+      "year": 1990,
+      "downloads": 5403
+    },
+    {
+      "id": "star-trek-tngs-2-e-5",
+      "title": "Star Trek: The Next Generation - S2E5 [VHS]",
+      "uploader": "mparker1600@gmail.com",
+      "date": "1990",
+      "collection": [
+        "vhstvshows",
+        "vhsvault"
+      ],
+      "description": "<span style=\"color:rgb(44,44,44);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;background-color:rgb(255,255,255);\">A VHS home recording of the fifth episode of season 2 of Star Trek: The Next Generation as broadcast on KPTV Channel 12 Portland in 1990. This episode is tit",
+      "totalVideo": 1,
+      "episodeShaped": 1,
+      "nameHits": 0,
+      "files": [
+        {
+          "name": "StarTrekTNGS2E5",
+          "file": "StarTrekTNGS2E5.mp4",
+          "format": "MPEG4",
+          "playable": true,
+          "seconds": 3569,
+          "band": "episode",
+          "sizeMB": 898,
+          "nameHit": false,
+          "ep": null,
+          "url": "https://archive.org/download/star-trek-tngs-2-e-5/StarTrekTNGS2E5.mp4"
+        }
+      ],
+      "searchScore": 0.75,
+      "year": 1990,
+      "downloads": 4550
+    },
+    {
+      "id": "star-trek-tngs-2-e-7",
+      "title": "Star Trek: The Next Generation - S2E7 [VHS]",
+      "uploader": "mparker1600@gmail.com",
+      "date": "1990",
+      "collection": [
+        "vhstvshows",
+        "vhsvault"
+      ],
+      "description": "<span style=\"color:rgb(44,44,44);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;background-color:rgb(255,255,255);\">A VHS home recording of the seventh episode of season 2 of Star Trek: The Next Generation as broadcast on KPTV Channel 12 Portland in 1990. This episode is t",
+      "totalVideo": 1,
+      "episodeShaped": 1,
+      "nameHits": 0,
+      "files": [
+        {
+          "name": "StarTrekTNGS2E7",
+          "file": "StarTrekTNGS2E7.mp4",
+          "format": "MPEG4",
+          "playable": true,
+          "seconds": 3407,
+          "band": "episode",
+          "sizeMB": 890,
+          "nameHit": false,
+          "ep": null,
+          "url": "https://archive.org/download/star-trek-tngs-2-e-7/StarTrekTNGS2E7.mp4"
+        }
+      ],
+      "searchScore": 0.75,
+      "year": 1990,
+      "downloads": 3563
+    },
+    {
+      "id": "star-trek-tngs-3-e-17",
+      "title": "Star Trek: The Next Generation - S3E17 [VHS]",
+      "uploader": "mparker1600@gmail.com",
+      "date": "1990-07-14",
+      "collection": [
+        "vhstvshows",
+        "vhsvault"
+      ],
+      "description": "<span style=\"color:rgb(44,44,44);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;background-color:rgb(255,255,255);\">A VHS home recording of the seventeenth episode of season 3 of Star Trek: The Next Generation as broadcast on KPTV Channel 12 Portland on July 14, 1990. This",
+      "totalVideo": 1,
+      "episodeShaped": 1,
+      "nameHits": 0,
+      "files": [
+        {
+          "name": "StarTrekTNGS3E17",
+          "file": "StarTrekTNGS3E17.mp4",
+          "format": "MPEG4",
+          "playable": true,
+          "seconds": 3578,
+          "band": "episode",
+          "sizeMB": 1004,
+          "nameHit": false,
+          "ep": null,
+          "url": "https://archive.org/download/star-trek-tngs-3-e-17/StarTrekTNGS3E17.mp4"
+        }
+      ],
+      "searchScore": 0.75,
+      "year": 1990,
+      "downloads": 3167
+    },
+    {
+      "id": "star-trek-tngs-2-e-4",
+      "title": "Star Trek: The Next Generation - S2E4 [VHS]",
+      "uploader": "mparker1600@gmail.com",
+      "date": "1990",
+      "collection": [
+        "vhstvshows",
+        "vhsvault"
+      ],
+      "description": "<span style=\"color:rgb(44,44,44);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;background-color:rgb(255,255,255);\">A VHS home recording of the fourth episode of season 2 of Star Trek: The Next Generation as broadcast on KPTV Channel 12 Portland in 1990. This episode is ti",
+      "totalVideo": 1,
+      "episodeShaped": 1,
+      "nameHits": 0,
+      "files": [
+        {
+          "name": "StarTrekTNGS2E4",
+          "file": "StarTrekTNGS2E4.mp4",
+          "format": "MPEG4",
+          "playable": true,
+          "seconds": 3767,
+          "band": "episode",
+          "sizeMB": 972,
+          "nameHit": false,
+          "ep": null,
+          "url": "https://archive.org/download/star-trek-tngs-2-e-4/StarTrekTNGS2E4.mp4"
+        }
+      ],
+      "searchScore": 0.75,
+      "year": 1990,
+      "downloads": 2274
+    },
+    {
+      "id": "journeys-end-the-saga-of-star-trek-the-next-generation",
+      "title": "Journey's End - The Saga of Star Trek: The Next Generation",
+      "uploader": "bjhopkins16@gmail.com",
+      "date": "1994-05-15",
+      "collection": [
+        "opensource_movies",
+        "community"
+      ],
+      "description": "<span style=\"color:rgb(13,13,13);font-family:Roboto, Noto, sans-serif;font-size:15px;white-space:pre-wrap;background-color:rgb(255,255,255);\">This is a TV special that aired around the time of TNG's finale. I couldn't find any upload of this online, officially or otherwise, and wound up buying a sea",
+      "totalVideo": 1,
+      "episodeShaped": 1,
+      "nameHits": 0,
+      "files": [
+        {
+          "name": "st journeyend",
+          "file": "st journeyend.mp4",
+          "format": "MPEG4",
+          "playable": true,
+          "seconds": 2933,
+          "band": "episode",
+          "sizeMB": 985,
+          "nameHit": false,
+          "ep": null,
+          "url": "https://archive.org/download/journeys-end-the-saga-of-star-trek-the-next-generation/st%20journeyend.mp4"
+        }
+      ],
+      "searchScore": 0.7,
+      "year": 1994,
+      "downloads": 4126
+    },
+    {
+      "id": "star-trek-marathon",
+      "title": "Star Trek: The Next Generation Viewer's Choice Marathon [VHS]",
+      "uploader": "mparker1600@gmail.com",
+      "date": "1994-05",
+      "collection": [
+        "vhstvshows",
+        "vhsvault"
+      ],
+      "description": "A VHS home recording of a Viewer's Choice Marathon of Star Trek: The Next Generation as broadcast on KWGN Channel 2 in Denver in May of 1994<div><br /></div><div>The five episodes chosen by viewers are:</div><div>5. S6E4 'Relics'</div><div>4. S5E25 'The Inner Light'</div><div>3. S3E15 'Yesterday's E",
+      "totalVideo": 1,
+      "episodeShaped": 0,
+      "nameHits": 0,
+      "files": [
+        {
+          "name": "StarTrekMarathon",
+          "file": "StarTrekMarathon.mp4",
+          "format": "MPEG4",
+          "playable": true,
+          "seconds": 17980,
+          "band": "block",
+          "sizeMB": 4836,
+          "nameHit": false,
+          "ep": null,
+          "url": "https://archive.org/download/star-trek-marathon/StarTrekMarathon.mp4"
+        }
+      ],
+      "searchScore": 0.75,
+      "year": 1994,
+      "downloads": 10880
+    },
+    {
+      "id": "star-trek_20221011",
+      "title": "Star Trek: The Next Generation Viewers Choice Marathon woc",
+      "uploader": "tokyohomesystem@protonmail.com",
+      "date": "1994-05",
+      "collection": [
+        "vhstvshows",
+        "vhsvault"
+      ],
+      "description": "<div><span style=\"color:rgb(13,13,13);font-family:Roboto, Noto, sans-serif;font-size:15px;white-space:pre-wrap;background-color:rgb(255,255,255);\">May 1994 KXXV 25 Waco, TX broadcast of the Star Trek episode \"All Good Things...\".  Followed by </span><span style=\"color:rgb(13,13,13);font-family:Robot",
+      "totalVideo": 1,
+      "episodeShaped": 0,
+      "nameHits": 0,
+      "files": [
+        {
+          "name": "StarTrek",
+          "file": "StarTrek.mp4",
+          "format": "MPEG4",
+          "playable": true,
+          "seconds": 21551,
+          "band": "block",
+          "sizeMB": 6948,
+          "nameHit": false,
+          "ep": null,
+          "url": "https://archive.org/download/star-trek_20221011/StarTrek.mp4"
+        }
+      ],
+      "searchScore": 0.75,
+      "year": 1994,
+      "downloads": 2184
+    },
+    {
+      "id": "10000000-291738034686202-440893506924314624-n",
+      "title": "Episode 7: Star Trek: The Next Generation",
+      "uploader": "drewshi2000@gmail.com",
+      "date": "1990-09-23",
+      "collection": [
+        "classic_tv_1990s",
+        "classic_tv",
+        "television"
+      ],
+      "description": "<span style=\"color:rgb(255,255,255);font-family:Roboto, Arial, sans-serif;font-size:14px;letter-spacing:0.2px;white-space:pre-wrap;background-color:rgb(24,24,24);\">Judy and Keith discuss the popular syndicated television series as it entered its fourth season with then Pocket editor Dave Stern, then",
+      "totalVideo": 1,
+      "episodeShaped": 0,
+      "nameHits": 0,
+      "files": [
+        {
+          "name": "10000000_291738034686202_440893506924314624_n",
+          "file": "10000000_291738034686202_440893506924314624_n.mp4",
+          "format": "MPEG4",
+          "playable": true,
+          "seconds": 1776,
+          "band": "odd",
+          "sizeMB": 89,
+          "nameHit": false,
+          "ep": null,
+          "url": "https://archive.org/download/10000000-291738034686202-440893506924314624-n/10000000_291738034686202_440893506924314624_n.mp4"
+        }
+      ],
+      "searchScore": 0.75,
+      "year": 1990,
+      "downloads": 538
+    },
+    {
+      "id": "youtube-Jyz2pVqrEkI",
+      "title": "Star Trek: The Next Generation: The Animated Series",
+      "uploader": "archivist.goals2@gmail.com",
+      "date": "2022-04-12",
+      "collection": [
+        "mirrortube",
+        "social-media-video",
+        "deemphasize"
+      ],
+      "description": "What if Filmation had made episodes of The Next Generation? <br /><br />Source: <a href=\"https://www.youtube.com/watch?v=Jyz2pVqrEkI\" rel=\"ugc nofollow\">https://www.youtube.com/watch?v=Jyz2pVqrEkI</a><br />Uploader: <a href=\"http://www.youtube.com/channel/UC8mKuU4ls8NOC4IEJ0NAsgQ\" rel=\"ugc nofollow\"",
+      "totalVideo": 1,
+      "episodeShaped": 0,
+      "nameHits": 0,
+      "files": [
+        {
+          "name": "Jyz2pVqrEkI",
+          "file": "Jyz2pVqrEkI.mp4",
+          "format": "MPEG4",
+          "playable": true,
+          "seconds": 133,
+          "band": "clip",
+          "sizeMB": 5,
+          "nameHit": false,
+          "ep": null,
+          "url": "https://archive.org/download/youtube-Jyz2pVqrEkI/Jyz2pVqrEkI.mp4"
+        }
+      ],
+      "searchScore": 0.7,
+      "year": 2022,
+      "downloads": 1792
+    },
+    {
+      "id": "star-trek-the-next-generation-the-animated-series",
+      "title": "Star Trek The Next Generation The Animated Series",
+      "uploader": "dragonstarplanet@gmail.com",
+      "date": "2022-04-12",
+      "collection": "opensource_movies",
+      "description": "What if Filmation had made episodes of The Next Generation?",
+      "totalVideo": 1,
+      "episodeShaped": 0,
+      "nameHits": 0,
+      "files": [
+        {
+          "name": "Star Trek_ The Next Generation_ The Animated Series",
+          "file": "Star Trek_ The Next Generation_ The Animated Series.mp4",
+          "format": "MPEG4",
+          "playable": true,
+          "seconds": 133,
+          "band": "clip",
+          "sizeMB": 13,
+          "nameHit": true,
+          "ep": null,
+          "url": "https://archive.org/download/star-trek-the-next-generation-the-animated-series/Star%20Trek_%20The%20Next%20Generation_%20The%20Animated%20Series.mp4"
+        }
+      ],
+      "searchScore": 0.7,
+      "year": 2022,
+      "downloads": 1222
+    }
+  ]
+}

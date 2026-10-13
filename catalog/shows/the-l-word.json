@@ -1,0 +1,695 @@
+{
+  "show": "The L Word",
+  "slug": "the-l-word",
+  "type": "Drama",
+  "network": "Showtime",
+  "matchedAt": "2026-10-13T07:46:16.667Z",
+  "tvmaze": {
+    "id": 823,
+    "name": "The L Word",
+    "runtime": 60,
+    "premiered": "2004-01-15",
+    "network": "Paramount+ with Showtime"
+  },
+  "coverage": {
+    "total": 71,
+    "live": 0,
+    "review": 5,
+    "missing": 66,
+    "pct": 7
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Pilot (Part 1)",
+          "airdate": "2004-01-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Pilot (Part 2)",
+          "airdate": "2004-01-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Let's Do It",
+          "airdate": "2004-01-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Longing",
+          "airdate": "2004-02-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Lies, Lies, Lies",
+          "airdate": "2004-02-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Lawfully",
+          "airdate": "2004-02-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Losing It",
+          "airdate": "2004-02-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "L'Ennui",
+          "airdate": "2004-02-29",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "S/E in filename",
+            "item": "CompleteYouTubeChannelPart11of11",
+            "itemTitle": "Pastor Anderson's Complete YouTube Channel From Old To New Part 11 of 11",
+            "file": "Pastor Anderson's Complete Channel Part 11 of 11/108  Corbin Ressl 'Don't Become A Byword'-D6yvn8-mr5Q.mp4",
+            "name": "Pastor Anderson's Complete Channel Part 11 of 11/108  Corbin Ressl 'Don't Become A Byword'-D6yvn8-mr5Q",
+            "url": "https://archive.org/download/CompleteYouTubeChannelPart11of11/Pastor%20Anderson's%20Complete%20Channel%20Part%2011%20of%2011%2F108%20%20Corbin%20Ressl%20'Don't%20Become%20A%20Byword'-D6yvn8-mr5Q.mp4",
+            "seconds": 2734,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 388
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Listen Up",
+          "airdate": "2004-03-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Luck, Next Time",
+          "airdate": "2004-03-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Liberally",
+          "airdate": "2004-03-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Looking Back",
+          "airdate": "2004-03-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Locked Up",
+          "airdate": "2004-04-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Limb from Limb",
+          "airdate": "2004-04-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Life, Loss, Leaving",
+          "airdate": "2005-02-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Lap Dance",
+          "airdate": "2005-02-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Loneliest Number",
+          "airdate": "2005-03-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Lynch Pin",
+          "airdate": "2005-03-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Labyrinth",
+          "airdate": "2005-03-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Lagrimas de Oro",
+          "airdate": "2005-03-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Luminous",
+          "airdate": "2005-04-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Loyal",
+          "airdate": "2005-04-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Late, Later, Latent",
+          "airdate": "2005-04-17",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "S/E in filename",
+            "item": "CompleteYouTubeChannelPart11of11",
+            "itemTitle": "Pastor Anderson's Complete YouTube Channel From Old To New Part 11 of 11",
+            "file": "Pastor Anderson's Complete Channel Part 11 of 11/209  “The Timing Of The Rapture” Preached By Pastor Steven L. Anderson-P1ftRFBYTSQ.mp4",
+            "name": "Pastor Anderson's Complete Channel Part 11 of 11/209  “The Timing Of The Rapture” Preached By Pastor Steven L. Anderson-P1ftRFBYTSQ",
+            "url": "https://archive.org/download/CompleteYouTubeChannelPart11of11/Pastor%20Anderson's%20Complete%20Channel%20Part%2011%20of%2011%2F209%20%20%E2%80%9CThe%20Timing%20Of%20The%20Rapture%E2%80%9D%20Preached%20By%20Pastor%20Steven%20L.%20Anderson-P1ftRFBYTSQ.mp4",
+            "seconds": 3863,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 435
+          },
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Land Ahoy",
+          "airdate": "2005-04-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Loud and Proud",
+          "airdate": "2005-05-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "L'Chaim",
+          "airdate": "2005-05-08",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "S/E in filename",
+            "item": "CompleteYouTubeChannelPart10of11",
+            "itemTitle": "Pastor Anderson's Complete YouTube Channel From Old To New Part 10 of 11",
+            "file": "Pastor Anderson's Complete Channel Part 10 of 11/212  Sermon - 'Iceland - Nation of Bastards' (better audio)-O9kUWgQZX8w.mp4",
+            "name": "Pastor Anderson's Complete Channel Part 10 of 11/212  Sermon - 'Iceland - Nation of Bastards' (better audio)-O9kUWgQZX8w",
+            "url": "https://archive.org/download/CompleteYouTubeChannelPart10of11/Pastor%20Anderson's%20Complete%20Channel%20Part%2010%20of%2011%2F212%20%20Sermon%20-%20'Iceland%20-%20Nation%20of%20Bastards'%20(better%20audio)-O9kUWgQZX8w.mp4",
+            "seconds": 3292,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 343
+          },
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Lacuna",
+          "airdate": "2005-05-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Labia Majora",
+          "airdate": "2006-01-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Lost Weekend",
+          "airdate": "2006-01-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Lobsters",
+          "airdate": "2006-01-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Light My Fire",
+          "airdate": "2006-01-29",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "S/E in filename",
+            "item": "CompleteYouTubeChannelPart11of11",
+            "itemTitle": "Pastor Anderson's Complete YouTube Channel From Old To New Part 11 of 11",
+            "file": "Pastor Anderson's Complete Channel Part 11 of 11/304  'The Trinity In Scripture' Preached By Pastor Steven L. Anderson-yg6NyuZl50g.mp4",
+            "name": "Pastor Anderson's Complete Channel Part 11 of 11/304  'The Trinity In Scripture' Preached By Pastor Steven L. Anderson-yg6NyuZl50g",
+            "url": "https://archive.org/download/CompleteYouTubeChannelPart11of11/Pastor%20Anderson's%20Complete%20Channel%20Part%2011%20of%2011%2F304%20%20'The%20Trinity%20In%20Scripture'%20Preached%20By%20Pastor%20Steven%20L.%20Anderson-yg6NyuZl50g.mp4",
+            "seconds": 4650,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 452
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "CompleteYouTubeChannelPart10of11",
+              "itemTitle": "Pastor Anderson's Complete YouTube Channel From Old To New Part 10 of 11",
+              "file": "Pastor Anderson's Complete Channel Part 10 of 11/304  'The Exception Proves The Rule' (Independent, Fundamental, Baptist)-2vQTwjaPau0.mp4",
+              "name": "Pastor Anderson's Complete Channel Part 10 of 11/304  'The Exception Proves The Rule' (Independent, Fundamental, Baptist)-2vQTwjaPau0",
+              "url": "https://archive.org/download/CompleteYouTubeChannelPart10of11/Pastor%20Anderson's%20Complete%20Channel%20Part%2010%20of%2011%2F304%20%20'The%20Exception%20Proves%20The%20Rule'%20(Independent%2C%20Fundamental%2C%20Baptist)-2vQTwjaPau0.mp4",
+              "seconds": 2824,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 398
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "name": "Lifeline",
+          "airdate": "2006-02-05",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "S/E in filename",
+            "item": "CompleteYouTubeChannelPart10of11",
+            "itemTitle": "Pastor Anderson's Complete YouTube Channel From Old To New Part 10 of 11",
+            "file": "Pastor Anderson's Complete Channel Part 10 of 11/305  'Improving Your Soulwinning' (Independent, Fundamental, Baptist)-3rtz3nzMVm8.mp4",
+            "name": "Pastor Anderson's Complete Channel Part 10 of 11/305  'Improving Your Soulwinning' (Independent, Fundamental, Baptist)-3rtz3nzMVm8",
+            "url": "https://archive.org/download/CompleteYouTubeChannelPart10of11/Pastor%20Anderson's%20Complete%20Channel%20Part%2010%20of%2011%2F305%20%20'Improving%20Your%20Soulwinning'%20(Independent%2C%20Fundamental%2C%20Baptist)-3rtz3nzMVm8.mp4",
+            "seconds": 3947,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 546
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Lifesize",
+          "airdate": "2006-02-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Lone Star",
+          "airdate": "2006-02-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Latecomer",
+          "airdate": "2006-02-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Lead, Follow, or Get Out of the Way",
+          "airdate": "2006-03-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Losing the Light",
+          "airdate": "2006-03-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Last Dance",
+          "airdate": "2006-03-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Left Hand of the Goddess",
+          "airdate": "2006-03-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 4,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Legend in the Making",
+          "airdate": "2007-01-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Livin' La Vida Loca",
+          "airdate": "2007-01-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Lassoed",
+          "airdate": "2007-01-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Layup",
+          "airdate": "2007-01-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Lez Girls",
+          "airdate": "2007-02-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Luck Be a Lady",
+          "airdate": "2007-02-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Lesson Number One",
+          "airdate": "2007-02-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Lexington and Concord",
+          "airdate": "2007-02-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Lacy Lilting Lyrics",
+          "airdate": "2007-03-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Little Boy Blue",
+          "airdate": "2007-03-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Literary License to Kill",
+          "airdate": "2007-03-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Long Time Coming",
+          "airdate": "2007-03-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 5,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "LGB Tease",
+          "airdate": "2008-01-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Look Out, Here They Come!",
+          "airdate": "2008-01-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Lady of the Lake",
+          "airdate": "2008-01-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Let's Get This Party Started",
+          "airdate": "2008-01-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Lookin' at You, Kid",
+          "airdate": "2008-02-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Lights! Camera! Action!",
+          "airdate": "2008-02-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Lesbians Gone Wild",
+          "airdate": "2008-02-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Lay Down the Law",
+          "airdate": "2008-02-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Liquid Heat",
+          "airdate": "2008-03-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Lifecycle",
+          "airdate": "2008-03-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Lunar Cycle",
+          "airdate": "2008-03-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Loyal and True",
+          "airdate": "2008-03-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 6,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Long Night's Journey Into Day",
+          "airdate": "2009-01-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Least Likely",
+          "airdate": "2009-01-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "LMFAO",
+          "airdate": "2009-02-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Leaving Los Angeles",
+          "airdate": "2009-02-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Litmus Test",
+          "airdate": "2009-02-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Lactose Intolerant",
+          "airdate": "2009-02-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Last Couple Standing",
+          "airdate": "2009-03-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Last Word",
+          "airdate": "2009-03-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    }
+  ]
+}

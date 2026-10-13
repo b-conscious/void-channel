@@ -1,0 +1,48 @@
+{
+  "show": "Co-Ed Confidential",
+  "type": "Late Night",
+  "network": "Cinemax",
+  "huntedAt": "2026-10-13T07:27:05.700Z",
+  "tvmaze": {
+    "id": 4629,
+    "runtime": 30,
+    "premiered": "2007-11-02",
+    "episodes": 52
+  },
+  "archiveMentions": 6,
+  "itemsOpened": 1,
+  "episodeShapedFiles": 1,
+  "namedEpisodeFiles": 1,
+  "verdict": "TRACES",
+  "items": [
+    {
+      "id": "co-ed-confidential-s-01-e-01-the-first-time",
+      "title": "Co-Ed Confidential S01 E01 The First Time",
+      "uploader": "krazix.leonheat@yahoo.com.my",
+      "collection": [
+        "television_inbox",
+        "television"
+      ],
+      "description": "Co-Ed Confidential S01<div>TV Series 18+</div>",
+      "totalVideo": 1,
+      "episodeShaped": 1,
+      "nameHits": 1,
+      "files": [
+        {
+          "name": "Co_ed_Confidential_S01E01_The First Time",
+          "file": "Co_ed_Confidential_S01E01_The First Time.mp4",
+          "format": "h.264",
+          "playable": true,
+          "seconds": 1922,
+          "band": "episode",
+          "sizeMB": 192,
+          "nameHit": true,
+          "ep": null,
+          "url": "https://archive.org/download/co-ed-confidential-s-01-e-01-the-first-time/Co_ed_Confidential_S01E01_The%20First%20Time.mp4"
+        }
+      ],
+      "searchScore": 0.75,
+      "downloads": 18705
+    }
+  ]
+}

@@ -1,0 +1,2275 @@
+{
+  "show": "That '70s Show",
+  "slug": "that-70s-show",
+  "type": "90s Sitcoms",
+  "network": "FOX",
+  "matchedAt": "2026-10-13T07:46:14.224Z",
+  "tvmaze": {
+    "id": 587,
+    "name": "That '70s Show",
+    "runtime": 30,
+    "premiered": "1998-08-23",
+    "network": "FOX"
+  },
+  "coverage": {
+    "total": 200,
+    "live": 51,
+    "review": 0,
+    "missing": 149,
+    "pct": 26
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "That '70s Pilot",
+          "airdate": "1998-08-23",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "that-70s-show-season-1",
+            "itemTitle": "That '70s Show Season 1 Fox",
+            "file": "That 70's Show -101- That 70's Pilot.mp4",
+            "name": "That 70's Show -101- That 70's Pilot",
+            "url": "https://archive.org/download/that-70s-show-season-1/That%2070's%20Show%20-101-%20That%2070's%20Pilot.mp4",
+            "seconds": 1318,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 127
+          },
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Eric's Birthday",
+          "airdate": "1998-08-30",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-1",
+            "itemTitle": "That '70s Show Season 1 Fox",
+            "file": "That 70's Show -102- Eric's Birthday.mp4",
+            "name": "That 70's Show -102- Eric's Birthday",
+            "url": "https://archive.org/download/that-70s-show-season-1/That%2070's%20Show%20-102-%20Eric's%20Birthday.mp4",
+            "seconds": 1353,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 130
+          },
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Streaking",
+          "airdate": "1998-09-06",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-1",
+            "itemTitle": "That '70s Show Season 1 Fox",
+            "file": "That 70's Show -103- Streaking.mp4",
+            "name": "That 70's Show -103- Streaking",
+            "url": "https://archive.org/download/that-70s-show-season-1/That%2070's%20Show%20-103-%20Streaking.mp4",
+            "seconds": 1356,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 130
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Battle of the Sexists",
+          "airdate": "1998-09-20",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-1",
+            "itemTitle": "That '70s Show Season 1 Fox",
+            "file": "That 70's Show -104- Battle Of The Sexists.mp4",
+            "name": "That 70's Show -104- Battle Of The Sexists",
+            "url": "https://archive.org/download/that-70s-show-season-1/That%2070's%20Show%20-104-%20Battle%20Of%20The%20Sexists.mp4",
+            "seconds": 1320,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 127
+          },
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Eric's Burger Job",
+          "airdate": "1998-09-27",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-1",
+            "itemTitle": "That '70s Show Season 1 Fox",
+            "file": "That 70's Show -105- Eric's Burger Job.mp4",
+            "name": "That 70's Show -105- Eric's Burger Job",
+            "url": "https://archive.org/download/that-70s-show-season-1/That%2070's%20Show%20-105-%20Eric's%20Burger%20Job.mp4",
+            "seconds": 1320,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 127
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "The Keg",
+          "airdate": "1998-10-25",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-1",
+            "itemTitle": "That '70s Show Season 1 Fox",
+            "file": "That 70's Show -106- The Keg.mp4",
+            "name": "That 70's Show -106- The Keg",
+            "url": "https://archive.org/download/that-70s-show-season-1/That%2070's%20Show%20-106-%20The%20Keg.mp4",
+            "seconds": 1320,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 127
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "That Disco Episode",
+          "airdate": "1998-11-08",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "that-70s-show-season-1",
+            "itemTitle": "That '70s Show Season 1 Fox",
+            "file": "That 70's Show -107- That Disco Episode.mp4",
+            "name": "That 70's Show -107- That Disco Episode",
+            "url": "https://archive.org/download/that-70s-show-season-1/That%2070's%20Show%20-107-%20That%20Disco%20Episode.mp4",
+            "seconds": 1357,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 131
+          },
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Drive-In",
+          "airdate": "1998-11-15",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-1",
+            "itemTitle": "That '70s Show Season 1 Fox",
+            "file": "That 70's Show -108- Drive In.mp4",
+            "name": "That 70's Show -108- Drive In",
+            "url": "https://archive.org/download/that-70s-show-season-1/That%2070's%20Show%20-108-%20Drive%20In.mp4",
+            "seconds": 1357,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 130
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Thanksgiving",
+          "airdate": "1998-11-22",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-1",
+            "itemTitle": "That '70s Show Season 1 Fox",
+            "file": "That 70's Show -109- Thanksgiving.mp4",
+            "name": "That 70's Show -109- Thanksgiving",
+            "url": "https://archive.org/download/that-70s-show-season-1/That%2070's%20Show%20-109-%20Thanksgiving.mp4",
+            "seconds": 1319,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 127
+          },
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Sunday, Bloody Sunday",
+          "airdate": "1998-11-29",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-1",
+            "itemTitle": "That '70s Show Season 1 Fox",
+            "file": "That 70's Show -110- Sunday, Bloody Sunday.mp4",
+            "name": "That 70's Show -110- Sunday, Bloody Sunday",
+            "url": "https://archive.org/download/that-70s-show-season-1/That%2070's%20Show%20-110-%20Sunday%2C%20Bloody%20Sunday.mp4",
+            "seconds": 1352,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 131
+          },
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Eric's Buddy",
+          "airdate": "1998-12-06",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-1",
+            "itemTitle": "That '70s Show Season 1 Fox",
+            "file": "That 70's Show -111- Eric's Buddy.mp4",
+            "name": "That 70's Show -111- Eric's Buddy",
+            "url": "https://archive.org/download/that-70s-show-season-1/That%2070's%20Show%20-111-%20Eric's%20Buddy.mp4",
+            "seconds": 1349,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 130
+          },
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "The Best Christmas Ever",
+          "airdate": "1998-12-13",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-1",
+            "itemTitle": "That '70s Show Season 1 Fox",
+            "file": "That 70's Show -112- Best Christmas Ever.mp4",
+            "name": "That 70's Show -112- Best Christmas Ever",
+            "url": "https://archive.org/download/that-70s-show-season-1/That%2070's%20Show%20-112-%20Best%20Christmas%20Ever.mp4",
+            "seconds": 1347,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 130
+          },
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Ski Trip",
+          "airdate": "1999-01-17",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-1",
+            "itemTitle": "That '70s Show Season 1 Fox",
+            "file": "That 70's Show -113- Ski Trip.mp4",
+            "name": "That 70's Show -113- Ski Trip",
+            "url": "https://archive.org/download/that-70s-show-season-1/That%2070's%20Show%20-113-%20Ski%20Trip.mp4",
+            "seconds": 1321,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 127
+          },
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Stolen Car",
+          "airdate": "1999-01-24",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-1",
+            "itemTitle": "That '70s Show Season 1 Fox",
+            "file": "That 70's Show -114- Stolen Car.mp4",
+            "name": "That 70's Show -114- Stolen Car",
+            "url": "https://archive.org/download/that-70s-show-season-1/That%2070's%20Show%20-114-%20Stolen%20Car.mp4",
+            "seconds": 1352,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 130
+          },
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "That Wrestling Show",
+          "airdate": "1999-02-07",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-1",
+            "itemTitle": "That '70s Show Season 1 Fox",
+            "file": "That 70's Show -115- That Wrestling Show.mp4",
+            "name": "That 70's Show -115- That Wrestling Show",
+            "url": "https://archive.org/download/that-70s-show-season-1/That%2070's%20Show%20-115-%20That%20Wrestling%20Show.mp4",
+            "seconds": 1358,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 130
+          },
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "The First Date",
+          "airdate": "1999-02-14",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-1",
+            "itemTitle": "That '70s Show Season 1 Fox",
+            "file": "That 70's Show -116- The First Date.mp4",
+            "name": "That 70's Show -116- The First Date",
+            "url": "https://archive.org/download/that-70s-show-season-1/That%2070's%20Show%20-116-%20The%20First%20Date.mp4",
+            "seconds": 1325,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 127
+          },
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "The Pill",
+          "airdate": "1999-02-21",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-1",
+            "itemTitle": "That '70s Show Season 1 Fox",
+            "file": "That 70's Show -117- The Pill.mp4",
+            "name": "That 70's Show -117- The Pill",
+            "url": "https://archive.org/download/that-70s-show-season-1/That%2070's%20Show%20-117-%20The%20Pill.mp4",
+            "seconds": 1319,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 127
+          },
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "The Career Day",
+          "airdate": "1999-02-28",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-1",
+            "itemTitle": "That '70s Show Season 1 Fox",
+            "file": "That 70's Show -118- The Career Day.mp4",
+            "name": "That 70's Show -118- The Career Day",
+            "url": "https://archive.org/download/that-70s-show-season-1/That%2070's%20Show%20-118-%20The%20Career%20Day.mp4",
+            "seconds": 1320,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 127
+          },
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Prom Night",
+          "airdate": "1999-03-07",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-1",
+            "itemTitle": "That '70s Show Season 1 Fox",
+            "file": "That 70's Show -119- Prom Night.mp4",
+            "name": "That 70's Show -119- Prom Night",
+            "url": "https://archive.org/download/that-70s-show-season-1/That%2070's%20Show%20-119-%20Prom%20Night.mp4",
+            "seconds": 1355,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 130
+          },
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "A New Hope",
+          "airdate": "1999-03-14",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-1",
+            "itemTitle": "That '70s Show Season 1 Fox",
+            "file": "That 70's Show -120- A New Hope.mp4",
+            "name": "That 70's Show -120- A New Hope",
+            "url": "https://archive.org/download/that-70s-show-season-1/That%2070's%20Show%20-120-%20A%20New%20Hope.mp4",
+            "seconds": 1377,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 132
+          },
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Water Tower",
+          "airdate": "1999-06-14",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-1",
+            "itemTitle": "That '70s Show Season 1 Fox",
+            "file": "That 70's Show -121- Water Tower.mp4",
+            "name": "That 70's Show -121- Water Tower",
+            "url": "https://archive.org/download/that-70s-show-season-1/That%2070's%20Show%20-121-%20Water%20Tower.mp4",
+            "seconds": 1320,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 127
+          },
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Punk Chick",
+          "airdate": "1999-06-21",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-1",
+            "itemTitle": "That '70s Show Season 1 Fox",
+            "file": "That 70's Show -122- Punk Chick.mp4",
+            "name": "That 70's Show -122- Punk Chick",
+            "url": "https://archive.org/download/that-70s-show-season-1/That%2070's%20Show%20-122-%20Punk%20Chick.mp4",
+            "seconds": 1320,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 127
+          },
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "Grandma's Dead",
+          "airdate": "1999-07-12",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-1",
+            "itemTitle": "That '70s Show Season 1 Fox",
+            "file": "That 70's Show -123- Grandma’s Dead.mp4",
+            "name": "That 70's Show -123- Grandma’s Dead",
+            "url": "https://archive.org/download/that-70s-show-season-1/That%2070's%20Show%20-123-%20Grandma%E2%80%99s%20Dead.mp4",
+            "seconds": 1320,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 127
+          },
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "Hyde Moves In",
+          "airdate": "1999-07-19",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-1",
+            "itemTitle": "That '70s Show Season 1 Fox",
+            "file": "That 70's Show -124- Hyde Moves In.mp4",
+            "name": "That 70's Show -124- Hyde Moves In",
+            "url": "https://archive.org/download/that-70s-show-season-1/That%2070's%20Show%20-124-%20Hyde%20Moves%20In.mp4",
+            "seconds": 1320,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 127
+          },
+          "alternates": []
+        },
+        {
+          "number": 25,
+          "name": "The Good Son",
+          "airdate": "1999-07-26",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-1",
+            "itemTitle": "That '70s Show Season 1 Fox",
+            "file": "That 70's Show -125- The Good Son.mp4",
+            "name": "That 70's Show -125- The Good Son",
+            "url": "https://archive.org/download/that-70s-show-season-1/That%2070's%20Show%20-125-%20The%20Good%20Son.mp4",
+            "seconds": 1319,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 127
+          },
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Garage Sale",
+          "airdate": "1999-09-28",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-2",
+            "itemTitle": "That '70s Show Season 2 Fox",
+            "file": "That 70's Show - 201 - Garage Sale.mp4",
+            "name": "That 70's Show - 201 - Garage Sale",
+            "url": "https://archive.org/download/that-70s-show-season-2/That%2070's%20Show%20-%20201%20-%20Garage%20Sale.mp4",
+            "seconds": 1301,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 125
+          },
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Red's Last Day",
+          "airdate": "1999-10-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "The Velvet Rope",
+          "airdate": "1999-10-12",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-2",
+            "itemTitle": "That '70s Show Season 2 Fox",
+            "file": "That 70's Show - 203 - The Velvet Rope.mp4",
+            "name": "That 70's Show - 203 - The Velvet Rope",
+            "url": "https://archive.org/download/that-70s-show-season-2/That%2070's%20Show%20-%20203%20-%20The%20Velvet%20Rope.mp4",
+            "seconds": 1303,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 125
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Laurie and the Professor",
+          "airdate": "1999-10-19",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-2",
+            "itemTitle": "That '70s Show Season 2 Fox",
+            "file": "That 70's Show - 204 - Laurie and the Professor.mp4",
+            "name": "That 70's Show - 204 - Laurie and the Professor",
+            "url": "https://archive.org/download/that-70s-show-season-2/That%2070's%20Show%20-%20204%20-%20Laurie%20and%20the%20Professor.mp4",
+            "seconds": 1304,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 126
+          },
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Halloween",
+          "airdate": "1999-10-26",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-2",
+            "itemTitle": "That '70s Show Season 2 Fox",
+            "file": "That 70's Show - 205 - Halloween.mp4",
+            "name": "That 70's Show - 205 - Halloween",
+            "url": "https://archive.org/download/that-70s-show-season-2/That%2070's%20Show%20-%20205%20-%20Halloween.mp4",
+            "seconds": 1325,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 128
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Vanstock",
+          "airdate": "1999-11-02",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-2",
+            "itemTitle": "That '70s Show Season 2 Fox",
+            "file": "That 70's Show - 206 - Vanstock.mp4",
+            "name": "That 70's Show - 206 - Vanstock",
+            "url": "https://archive.org/download/that-70s-show-season-2/That%2070's%20Show%20-%20206%20-%20Vanstock.mp4",
+            "seconds": 1305,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 126
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "I Love Cake",
+          "airdate": "1999-11-09",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-2",
+            "itemTitle": "That '70s Show Season 2 Fox",
+            "file": "That 70's Show - 207 - I Love Cake.mp4",
+            "name": "That 70's Show - 207 - I Love Cake",
+            "url": "https://archive.org/download/that-70s-show-season-2/That%2070's%20Show%20-%20207%20-%20I%20Love%20Cake.mp4",
+            "seconds": 1303,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 125
+          },
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Sleepover",
+          "airdate": "1999-11-16",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-2",
+            "itemTitle": "That '70s Show Season 2 Fox",
+            "file": "That 70's Show - 208 - Sleepover.mp4",
+            "name": "That 70's Show - 208 - Sleepover",
+            "url": "https://archive.org/download/that-70s-show-season-2/That%2070's%20Show%20-%20208%20-%20Sleepover.mp4",
+            "seconds": 1301,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 125
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Eric Gets Suspended",
+          "airdate": "1999-11-30",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-2",
+            "itemTitle": "That '70s Show Season 2 Fox",
+            "file": "That 70's Show - 209 - Eric Gets Suspended.mp4",
+            "name": "That 70's Show - 209 - Eric Gets Suspended",
+            "url": "https://archive.org/download/that-70s-show-season-2/That%2070's%20Show%20-%20209%20-%20Eric%20Gets%20Suspended.mp4",
+            "seconds": 1300,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 125
+          },
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Red's Birthday",
+          "airdate": "1999-12-07",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-2",
+            "itemTitle": "That '70s Show Season 2 Fox",
+            "file": "That 70's Show - 210 - Red's Birthday.mp4",
+            "name": "That 70's Show - 210 - Red's Birthday",
+            "url": "https://archive.org/download/that-70s-show-season-2/That%2070's%20Show%20-%20210%20-%20Red's%20Birthday.mp4",
+            "seconds": 1298,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 125
+          },
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Laurie Moves Out",
+          "airdate": "1999-12-14",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-2",
+            "itemTitle": "That '70s Show Season 2 Fox",
+            "file": "That 70's Show - 211 - Laurie Moves Out.mp4",
+            "name": "That 70's Show - 211 - Laurie Moves Out",
+            "url": "https://archive.org/download/that-70s-show-season-2/That%2070's%20Show%20-%20211%20-%20Laurie%20Moves%20Out.mp4",
+            "seconds": 1301,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 126
+          },
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Eric's Stash",
+          "airdate": "2000-01-11",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-2",
+            "itemTitle": "That '70s Show Season 2 Fox",
+            "file": "That 70's Show - 212 - Eric s Stash.mp4",
+            "name": "That 70's Show - 212 - Eric s Stash",
+            "url": "https://archive.org/download/that-70s-show-season-2/That%2070's%20Show%20-%20212%20-%20Eric%20s%20Stash.mp4",
+            "seconds": 1302,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 126
+          },
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Hunting",
+          "airdate": "2000-01-18",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-2",
+            "itemTitle": "That '70s Show Season 2 Fox",
+            "file": "That 70's Show - 213 - Hunting.mp4",
+            "name": "That 70's Show - 213 - Hunting",
+            "url": "https://archive.org/download/that-70s-show-season-2/That%2070's%20Show%20-%20213%20-%20Hunting.mp4",
+            "seconds": 1328,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 128
+          },
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Red's New Job",
+          "airdate": "2000-02-01",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-2",
+            "itemTitle": "That '70s Show Season 2 Fox",
+            "file": "That 70's Show - 214 - Red's New Job.mp4",
+            "name": "That 70's Show - 214 - Red's New Job",
+            "url": "https://archive.org/download/that-70s-show-season-2/That%2070's%20Show%20-%20214%20-%20Red's%20New%20Job.mp4",
+            "seconds": 1296,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 125
+          },
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Burning Down the House",
+          "airdate": "2000-02-07",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-2",
+            "itemTitle": "That '70s Show Season 2 Fox",
+            "file": "That 70's Show - 215 - Burning Down The House.mp4",
+            "name": "That 70's Show - 215 - Burning Down The House",
+            "url": "https://archive.org/download/that-70s-show-season-2/That%2070's%20Show%20-%20215%20-%20Burning%20Down%20The%20House.mp4",
+            "seconds": 1331,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 128
+          },
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "The First Time",
+          "airdate": "2000-02-14",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-2",
+            "itemTitle": "That '70s Show Season 2 Fox",
+            "file": "That 70's Show - 216 - The First Time.mp4",
+            "name": "That 70's Show - 216 - The First Time",
+            "url": "https://archive.org/download/that-70s-show-season-2/That%2070's%20Show%20-%20216%20-%20The%20First%20Time.mp4",
+            "seconds": 1301,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 125
+          },
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Afterglow",
+          "airdate": "2000-02-14",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-2",
+            "itemTitle": "That '70s Show Season 2 Fox",
+            "file": "That 70's Show - 217 - Afterglow.mp4",
+            "name": "That 70's Show - 217 - Afterglow",
+            "url": "https://archive.org/download/that-70s-show-season-2/That%2070's%20Show%20-%20217%20-%20Afterglow.mp4",
+            "seconds": 1301,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 125
+          },
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Kitty and Eric's Night Out",
+          "airdate": "2000-02-28",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-2",
+            "itemTitle": "That '70s Show Season 2 Fox",
+            "file": "That 70's Show - 218 - Kitty and Eric's Night Out.mp4",
+            "name": "That 70's Show - 218 - Kitty and Eric's Night Out",
+            "url": "https://archive.org/download/that-70s-show-season-2/That%2070's%20Show%20-%20218%20-%20Kitty%20and%20Eric's%20Night%20Out.mp4",
+            "seconds": 1301,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 125
+          },
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Parents Find Out",
+          "airdate": "2000-03-07",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-2",
+            "itemTitle": "That '70s Show Season 2 Fox",
+            "file": "That 70's Show - 219 - Parents Find Out.mp4",
+            "name": "That 70's Show - 219 - Parents Find Out",
+            "url": "https://archive.org/download/that-70s-show-season-2/That%2070's%20Show%20-%20219%20-%20Parents%20Find%20Out.mp4",
+            "seconds": 1329,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 128
+          },
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Kiss of Death",
+          "airdate": "2000-03-20",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-2",
+            "itemTitle": "That '70s Show Season 2 Fox",
+            "file": "That 70's Show - 220 - Kiss Of Death.mp4",
+            "name": "That 70's Show - 220 - Kiss Of Death",
+            "url": "https://archive.org/download/that-70s-show-season-2/That%2070's%20Show%20-%20220%20-%20Kiss%20Of%20Death.mp4",
+            "seconds": 1330,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 128
+          },
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Kelso's Serenade",
+          "airdate": "2000-03-27",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-2",
+            "itemTitle": "That '70s Show Season 2 Fox",
+            "file": "That 70's Show - 221 - Kelso's Serenade.mp4",
+            "name": "That 70's Show - 221 - Kelso's Serenade",
+            "url": "https://archive.org/download/that-70s-show-season-2/That%2070's%20Show%20-%20221%20-%20Kelso's%20Serenade.mp4",
+            "seconds": 1330,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 128
+          },
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Jackie Moves On",
+          "airdate": "2000-04-03",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-2",
+            "itemTitle": "That '70s Show Season 2 Fox",
+            "file": "That 70's Show - 222 - Jackie Moves On.mp4",
+            "name": "That 70's Show - 222 - Jackie Moves On",
+            "url": "https://archive.org/download/that-70s-show-season-2/That%2070's%20Show%20-%20222%20-%20Jackie%20Moves%20On.mp4",
+            "seconds": 1329,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 128
+          },
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "Holy Crap!",
+          "airdate": "2000-05-01",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-2",
+            "itemTitle": "That '70s Show Season 2 Fox",
+            "file": "That 70's Show - 223 - Holy Crap.mp4",
+            "name": "That 70's Show - 223 - Holy Crap",
+            "url": "https://archive.org/download/that-70s-show-season-2/That%2070's%20Show%20-%20223%20-%20Holy%20Crap.mp4",
+            "seconds": 1327,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 128
+          },
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "Red Fired Up",
+          "airdate": "2000-05-08",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-2",
+            "itemTitle": "That '70s Show Season 2 Fox",
+            "file": "That 70's Show - 224 - Red Fired Up.mp4",
+            "name": "That 70's Show - 224 - Red Fired Up",
+            "url": "https://archive.org/download/that-70s-show-season-2/That%2070's%20Show%20-%20224%20-%20Red%20Fired%20Up.mp4",
+            "seconds": 1327,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 128
+          },
+          "alternates": []
+        },
+        {
+          "number": 25,
+          "name": "Cat Fight Club",
+          "airdate": "2000-05-15",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-2",
+            "itemTitle": "That '70s Show Season 2 Fox",
+            "file": "That 70's Show - 225 - Cat Fight Club.mp4",
+            "name": "That 70's Show - 225 - Cat Fight Club",
+            "url": "https://archive.org/download/that-70s-show-season-2/That%2070's%20Show%20-%20225%20-%20Cat%20Fight%20Club.mp4",
+            "seconds": 1327,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 130
+          },
+          "alternates": []
+        },
+        {
+          "number": 26,
+          "name": "Moon Over Point Place",
+          "airdate": "2000-05-22",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-season-2",
+            "itemTitle": "That '70s Show Season 2 Fox",
+            "file": "That 70's Show - 226 - Moon Over Point Place.mp4",
+            "name": "That 70's Show - 226 - Moon Over Point Place",
+            "url": "https://archive.org/download/that-70s-show-season-2/That%2070's%20Show%20-%20226%20-%20Moon%20Over%20Point%20Place.mp4",
+            "seconds": 1328,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 128
+          },
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Reefer Madness",
+          "airdate": "2000-10-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Red Sees Red",
+          "airdate": "2000-10-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Hyde's Father",
+          "airdate": "2000-10-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Too Old to Trick or Treat, Too Young to Die",
+          "airdate": "2000-10-31",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Roller Disco",
+          "airdate": "2000-11-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Eric's Panties",
+          "airdate": "2000-11-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Baby Fever",
+          "airdate": "2000-11-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Jackie Bags Hyde",
+          "airdate": "2000-12-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Hyde's Christmas Rager",
+          "airdate": "2000-12-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Ice Shack",
+          "airdate": "2001-01-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Who Wants It More?",
+          "airdate": "2001-01-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Fez Gets the Girl",
+          "airdate": "2001-01-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Dine and Dash",
+          "airdate": "2001-01-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Radio Daze",
+          "airdate": "2001-02-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Donna's Panties",
+          "airdate": "2001-02-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Romantic Weekend",
+          "airdate": "2001-02-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Kitty's Birthday (Is That Today?!)",
+          "airdate": "2001-02-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "The Trials of Michael Kelso",
+          "airdate": "2001-03-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Eric's Naughty No-No",
+          "airdate": "2001-03-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Holy Craps!",
+          "airdate": "2001-04-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Fez Dates Donna",
+          "airdate": "2001-05-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Eric's Drunken Tattoo",
+          "airdate": "2001-05-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "Canadian Road Trip",
+          "airdate": "2001-05-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "Backstage Pass",
+          "airdate": "2001-05-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 25,
+          "name": "The Promise Ring",
+          "airdate": "2001-05-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 4,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "It's a Wonderful Life",
+          "airdate": "2001-09-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Eric's Depression",
+          "airdate": "2001-09-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Pinciotti vs. Forman",
+          "airdate": "2001-10-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Hyde Gets the Girl",
+          "airdate": "2001-10-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Bye-Bye Basement",
+          "airdate": "2001-10-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "The Relapse",
+          "airdate": "2001-11-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Uncomfortable Ball Stuff",
+          "airdate": "2001-11-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Donna's Story",
+          "airdate": "2001-11-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Forgotten Son",
+          "airdate": "2001-11-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Red and Stacey",
+          "airdate": "2001-11-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "The Third Wheel",
+          "airdate": "2001-12-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "An Eric Forman Christmas",
+          "airdate": "2001-12-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Jackie Says Cheese",
+          "airdate": "2002-01-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Eric's Hot Cousin",
+          "airdate": "2002-01-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Tornado Prom",
+          "airdate": "2002-02-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Donna Dates a Kelso",
+          "airdate": "2002-02-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Kelso's Career",
+          "airdate": "2002-02-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Leo Loves Kitty",
+          "airdate": "2002-02-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Jackie's Cheese Squeeze",
+          "airdate": "2002-02-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Class Picture",
+          "airdate": "2002-03-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Prank Day",
+          "airdate": "2002-03-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Eric's Corvette Caper",
+          "airdate": "2002-04-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "Hyde's Birthday",
+          "airdate": "2002-04-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "That '70s Musical",
+          "airdate": "2002-04-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 25,
+          "name": "Eric's False Alarm",
+          "airdate": "2002-05-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 26,
+          "name": "Everybody Loves Casey",
+          "airdate": "2002-05-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 27,
+          "name": "Love, Wisconsin Style",
+          "airdate": "2002-05-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 5,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Going to California",
+          "airdate": "2002-09-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "I Can't Quit You Baby",
+          "airdate": "2002-09-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "What Is and What Should Never Be",
+          "airdate": "2002-10-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Heartbreaker",
+          "airdate": "2002-10-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Ramble On",
+          "airdate": "2002-11-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Over the Hills and Far Away",
+          "airdate": "2002-11-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Hot Dog",
+          "airdate": "2002-11-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Thank You",
+          "airdate": "2002-12-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Black Dog",
+          "airdate": "2002-12-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "The Crunge",
+          "airdate": "2002-12-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "The Girl I Love",
+          "airdate": "2003-01-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Misty Mountain Hop",
+          "airdate": "2003-01-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Your Time Is Gonna Come",
+          "airdate": "2003-01-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Babe I'm Gonna Leave You",
+          "airdate": "2003-02-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "When the Levee Breaks",
+          "airdate": "2003-02-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Whole Lotta Love",
+          "airdate": "2003-02-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "The Battle of Evermore",
+          "airdate": "2003-02-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Hey Hey What Can I Do",
+          "airdate": "2003-03-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Bring It on Home",
+          "airdate": "2003-03-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "No Quarter",
+          "airdate": "2003-04-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Trampled Under Foot",
+          "airdate": "2003-04-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "You Shook Me",
+          "airdate": "2003-04-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "Nobody's Fault But Mine",
+          "airdate": "2003-04-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "The Immigrant Song",
+          "airdate": "2003-05-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 25,
+          "name": "Celebration Day",
+          "airdate": "2003-05-14",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "that-70s-show-5-x-25-celebration-day",
+            "itemTitle": "That 70s Show 5x25 Celebration Day (super-sized) May 14 2003",
+            "file": "That 70s Show -5X25- Celebration Day.m4v",
+            "name": "That 70s Show -5X25- Celebration Day",
+            "url": "https://archive.org/download/that-70s-show-5-x-25-celebration-day/That%2070s%20Show%20-5X25-%20Celebration%20Day.m4v",
+            "seconds": 1610,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 72
+          },
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 6,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "The Kids Are Alright",
+          "airdate": "2003-10-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Join Together",
+          "airdate": "2003-11-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Magic Bus",
+          "airdate": "2003-11-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "The Acid Queen",
+          "airdate": "2003-11-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "I'm Free",
+          "airdate": "2003-11-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "We're Not Gonna Take It",
+          "airdate": "2003-12-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Christmas",
+          "airdate": "2003-12-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "I'm a Boy",
+          "airdate": "2004-01-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Young Man Blues",
+          "airdate": "2004-01-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "A Legal Matter",
+          "airdate": "2004-02-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "I Can See for Miles",
+          "airdate": "2004-02-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Sally Simpson",
+          "airdate": "2004-02-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Won't Get Fooled Again",
+          "airdate": "2004-02-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Baby Don't You Do It",
+          "airdate": "2004-03-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Who Are You",
+          "airdate": "2004-03-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Man with Money",
+          "airdate": "2004-03-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Happy Jack",
+          "airdate": "2004-03-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Do You Think It's Alright?",
+          "airdate": "2004-03-31",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Substitute",
+          "airdate": "2004-04-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Squeeze Box",
+          "airdate": "2004-04-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "5:15",
+          "airdate": "2004-05-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Sparks",
+          "airdate": "2004-05-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "My Wife",
+          "airdate": "2004-05-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "Going Mobile",
+          "airdate": "2004-05-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 25,
+          "name": "The Seeker",
+          "airdate": "2004-05-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 7,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Time Is on My Side",
+          "airdate": "2004-09-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Let's Spend the Night Together",
+          "airdate": "2004-09-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "(I Can't Get No) Satisfaction",
+          "airdate": "2004-09-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Beast of Burden",
+          "airdate": "2004-09-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "It's Only Rock and Roll",
+          "airdate": "2004-10-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Rip This Joint",
+          "airdate": "2004-11-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Mother's Little Helper",
+          "airdate": "2004-11-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Angie",
+          "airdate": "2004-11-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "You Can't Always Get What You Want",
+          "airdate": "2004-11-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Surprise, Surprise",
+          "airdate": "2004-12-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Winter",
+          "airdate": "2004-12-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Don't Lie to Me",
+          "airdate": "2005-01-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Can't You Hear Me Knocking",
+          "airdate": "2005-01-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Street Fighting Man",
+          "airdate": "2005-02-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "It's All Over Now",
+          "airdate": "2005-02-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "On with the Show",
+          "airdate": "2005-02-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Down the Road Apiece",
+          "airdate": "2005-03-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Oh, Baby (We Got a Good Thing Goin')",
+          "airdate": "2005-03-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Who's Been Sleeping Here?",
+          "airdate": "2005-03-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Gimme Shelter",
+          "airdate": "2005-03-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "2120 So. Michigan Ave",
+          "airdate": "2005-04-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "2000 Light Years from Home",
+          "airdate": "2005-05-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "Take It or Leave It",
+          "airdate": "2005-05-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "Short and Curlies",
+          "airdate": "2005-05-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 25,
+          "name": "Til the Next Goodbye",
+          "airdate": "2005-05-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 8,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Bohemian Rhapsody",
+          "airdate": "2005-11-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Somebody to Love",
+          "airdate": "2005-11-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "You're My Best Friend",
+          "airdate": "2005-11-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Misfire",
+          "airdate": "2005-11-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Stone Cold Crazy",
+          "airdate": "2005-11-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Long Away",
+          "airdate": "2005-12-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Fun It",
+          "airdate": "2005-12-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Good Company",
+          "airdate": "2006-01-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Who Needs You",
+          "airdate": "2006-01-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Sweet Lady",
+          "airdate": "2006-01-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Good Old Fashioned Lover Boy",
+          "airdate": "2006-02-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Killer Queen",
+          "airdate": "2006-02-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Spread Your Wings",
+          "airdate": "2006-03-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Son and Daughter",
+          "airdate": "2006-03-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Keep Yourself Alive",
+          "airdate": "2006-04-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "My Fairy King",
+          "airdate": "2006-04-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Crazy Little Thing Called Love",
+          "airdate": "2006-04-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "We Will Rock You",
+          "airdate": "2006-05-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Sheer Heart Attack",
+          "airdate": "2006-05-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Leaving Home Ain't Easy",
+          "airdate": "2006-05-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Love of My Life",
+          "airdate": "2006-05-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "That '70s Finale",
+          "airdate": "2006-05-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    }
+  ]
+}

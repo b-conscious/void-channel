@@ -1,0 +1,1308 @@
+{
+  "show": "Six Feet Under",
+  "slug": "six-feet-under",
+  "type": "Drama",
+  "network": "HBO",
+  "matchedAt": "2026-10-13T07:46:16.621Z",
+  "tvmaze": {
+    "id": 367,
+    "name": "Six Feet Under",
+    "runtime": 60,
+    "premiered": "2001-06-03",
+    "network": "HBO"
+  },
+  "coverage": {
+    "total": 63,
+    "live": 63,
+    "review": 0,
+    "missing": 0,
+    "pct": 100
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Pilot",
+          "airdate": "2001-06-03",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S01E01 - Pilot (June 3, 2001).mp4",
+            "name": "Six Feet Under - S01E01 - Pilot (June 3, 2001)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S01E01%20-%20Pilot%20(June%203%2C%202001).mp4",
+            "seconds": 3763,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 365
+          },
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "The Will",
+          "airdate": "2001-06-10",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S01E02 - The Will (June 10, 2001).mp4",
+            "name": "Six Feet Under - S01E02 - The Will (June 10, 2001)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S01E02%20-%20The%20Will%20(June%2010%2C%202001).mp4",
+            "seconds": 3112,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 301
+          },
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "The Foot",
+          "airdate": "2001-06-17",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S01E03 - The Foot (June 17, 2001).mp4",
+            "name": "Six Feet Under - S01E03 - The Foot (June 17, 2001)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S01E03%20-%20The%20Foot%20(June%2017%2C%202001).mp4",
+            "seconds": 3162,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 306
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Familia",
+          "airdate": "2001-06-24",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S01E04 - Familia (June 24, 2001).mp4",
+            "name": "Six Feet Under - S01E04 - Familia (June 24, 2001)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S01E04%20-%20Familia%20(June%2024%2C%202001).mp4",
+            "seconds": 3078,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 299
+          },
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "An Open Book",
+          "airdate": "2001-07-01",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S01E05 - An Open Book (July 1, 2001).mp4",
+            "name": "Six Feet Under - S01E05 - An Open Book (July 1, 2001)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S01E05%20-%20An%20Open%20Book%20(July%201%2C%202001).mp4",
+            "seconds": 3241,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 315
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "The Room",
+          "airdate": "2001-07-08",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S01E06 - The Room (July 8, 2001).mp4",
+            "name": "Six Feet Under - S01E06 - The Room (July 8, 2001)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S01E06%20-%20The%20Room%20(July%208%2C%202001).mp4",
+            "seconds": 3417,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 332
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Brotherhood",
+          "airdate": "2001-07-15",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S01E07 - Brotherhood (July 15, 2001).mp4",
+            "name": "Six Feet Under - S01E07 - Brotherhood (July 15, 2001)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S01E07%20-%20Brotherhood%20(July%2015%2C%202001).mp4",
+            "seconds": 3044,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 295
+          },
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Crossroads",
+          "airdate": "2001-07-22",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S01E08 - Crossroads (July 22, 2001).mp4",
+            "name": "Six Feet Under - S01E08 - Crossroads (July 22, 2001)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S01E08%20-%20Crossroads%20(July%2022%2C%202001).mp4",
+            "seconds": 3370,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 328
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Life's Too Short",
+          "airdate": "2001-07-29",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S01E09 - Life's Too Short (July 29, 2001).mp4",
+            "name": "Six Feet Under - S01E09 - Life's Too Short (July 29, 2001)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S01E09%20-%20Life's%20Too%20Short%20(July%2029%2C%202001).mp4",
+            "seconds": 3297,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 321
+          },
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "The New Person",
+          "airdate": "2001-08-05",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S01E10 - The New Person (August 5, 2001).mp4",
+            "name": "Six Feet Under - S01E10 - The New Person (August 5, 2001)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S01E10%20-%20The%20New%20Person%20(August%205%2C%202001).mp4",
+            "seconds": 3526,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 343
+          },
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "The Trip",
+          "airdate": "2001-08-12",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S01E11 - The Trip (August 12, 2001).mp4",
+            "name": "Six Feet Under - S01E11 - The Trip (August 12, 2001)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S01E11%20-%20The%20Trip%20(August%2012%2C%202001).mp4",
+            "seconds": 3291,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 320
+          },
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "A Private Life",
+          "airdate": "2001-08-19",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S01E12 - A Private Life (August 19, 2001).mp4",
+            "name": "Six Feet Under - S01E12 - A Private Life (August 19, 2001)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S01E12%20-%20A%20Private%20Life%20(August%2019%2C%202001).mp4",
+            "seconds": 3409,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 333
+          },
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Knock, Knock",
+          "airdate": "2001-08-19",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S01E13 - Knock, Knock (August 19, 2001).mp4",
+            "name": "Six Feet Under - S01E13 - Knock, Knock (August 19, 2001)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S01E13%20-%20Knock%2C%20Knock%20(August%2019%2C%202001).mp4",
+            "seconds": 3553,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 345
+          },
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "In the Game",
+          "airdate": "2002-03-03",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S02E01 - In the Game (March 3, 2002).mp4",
+            "name": "Six Feet Under - S02E01 - In the Game (March 3, 2002)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S02E01%20-%20In%20the%20Game%20(March%203%2C%202002).mp4",
+            "seconds": 3440,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 334
+          },
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Out, Out, Brief Candle",
+          "airdate": "2002-03-10",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S02E02 - Out, Out Brief Candle (March 10, 2002).mp4",
+            "name": "Six Feet Under - S02E02 - Out, Out Brief Candle (March 10, 2002)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S02E02%20-%20Out%2C%20Out%20Brief%20Candle%20(March%2010%2C%202002).mp4",
+            "seconds": 3410,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 331
+          },
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "The Plan",
+          "airdate": "2002-03-17",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S02E03 - The Plan (March 17, 2002).mp4",
+            "name": "Six Feet Under - S02E03 - The Plan (March 17, 2002)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S02E03%20-%20The%20Plan%20(March%2017%2C%202002).mp4",
+            "seconds": 3388,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 330
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Driving Mr. Mossback",
+          "airdate": "2002-03-24",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S02E04 - Driving Mr. Mossback (March 24, 2002).mp4",
+            "name": "Six Feet Under - S02E04 - Driving Mr. Mossback (March 24, 2002)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S02E04%20-%20Driving%20Mr.%20Mossback%20(March%2024%2C%202002).mp4",
+            "seconds": 3452,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 336
+          },
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "The Invisible Woman",
+          "airdate": "2002-03-31",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S02E05 - The Invisible Woman (March 31, 2002).mp4",
+            "name": "Six Feet Under - S02E05 - The Invisible Woman (March 31, 2002)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S02E05%20-%20The%20Invisible%20Woman%20(March%2031%2C%202002).mp4",
+            "seconds": 3323,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 323
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "In Place of Anger",
+          "airdate": "2002-04-07",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S02E06 - In Place of Anger (April 7, 2002).mp4",
+            "name": "Six Feet Under - S02E06 - In Place of Anger (April 7, 2002)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S02E06%20-%20In%20Place%20of%20Anger%20(April%207%2C%202002).mp4",
+            "seconds": 3311,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 322
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Back to the Garden",
+          "airdate": "2002-04-14",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S02E07 - Back to the Garden (April 14, 2002).mp4",
+            "name": "Six Feet Under - S02E07 - Back to the Garden (April 14, 2002)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S02E07%20-%20Back%20to%20the%20Garden%20(April%2014%2C%202002).mp4",
+            "seconds": 3368,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 327
+          },
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "It's the Most Wonderful Time of the Year",
+          "airdate": "2002-04-21",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S02E08 - It's the Most Wonderful Time of the Year (April 21, 2002).mp4",
+            "name": "Six Feet Under - S02E08 - It's the Most Wonderful Time of the Year (April 21, 2002)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S02E08%20-%20It's%20the%20Most%20Wonderful%20Time%20of%20the%20Year%20(April%2021%2C%202002).mp4",
+            "seconds": 3243,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 314
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Someone Else's Eyes",
+          "airdate": "2002-04-28",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S02E09 - Someone Else's Eyes (April 28, 2002).mp4",
+            "name": "Six Feet Under - S02E09 - Someone Else's Eyes (April 28, 2002)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S02E09%20-%20Someone%20Else's%20Eyes%20(April%2028%2C%202002).mp4",
+            "seconds": 3365,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 327
+          },
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "The Secret",
+          "airdate": "2002-05-05",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S02E10 - The Secret (May 5, 2002).mp4",
+            "name": "Six Feet Under - S02E10 - The Secret (May 5, 2002)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S02E10%20-%20The%20Secret%20(May%205%2C%202002).mp4",
+            "seconds": 3395,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 331
+          },
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "The Liar and the Whore",
+          "airdate": "2002-05-12",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S02E11 - The Liar and the Whore (May 12, 2002).mp4",
+            "name": "Six Feet Under - S02E11 - The Liar and the Whore (May 12, 2002)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S02E11%20-%20The%20Liar%20and%20the%20Whore%20(May%2012%2C%202002).mp4",
+            "seconds": 2957,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 287
+          },
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "I'll Take You",
+          "airdate": "2002-05-19",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S02E12 - I'll Take You (May 19, 2002).mp4",
+            "name": "Six Feet Under - S02E12 - I'll Take You (May 19, 2002)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S02E12%20-%20I'll%20Take%20You%20(May%2019%2C%202002).mp4",
+            "seconds": 3333,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 325
+          },
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "The Last Time",
+          "airdate": "2002-06-02",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S02E13 - The Last Time (June 2, 2002).mp4",
+            "name": "Six Feet Under - S02E13 - The Last Time (June 2, 2002)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S02E13%20-%20The%20Last%20Time%20(June%202%2C%202002).mp4",
+            "seconds": 3538,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 345
+          },
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Perfect Circles",
+          "airdate": "2003-03-02",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S03E01 - Perfect Circles (March 2, 2003).mp4",
+            "name": "Six Feet Under - S03E01 - Perfect Circles (March 2, 2003)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S03E01%20-%20Perfect%20Circles%20(March%202%2C%202003).mp4",
+            "seconds": 2887,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 283
+          },
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "You Never Know",
+          "airdate": "2003-03-09",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S03E02 - You Never Know (March 9, 2003).mp4",
+            "name": "Six Feet Under - S03E02 - You Never Know (March 9, 2003)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S03E02%20-%20You%20Never%20Know%20(March%209%2C%202003).mp4",
+            "seconds": 3026,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 296
+          },
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "The Eye Inside",
+          "airdate": "2003-03-16",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S03E03 - The Eye Inside (March 16, 2003).mp4",
+            "name": "Six Feet Under - S03E03 - The Eye Inside (March 16, 2003)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S03E03%20-%20The%20Eye%20Inside%20(March%2016%2C%202003).mp4",
+            "seconds": 3070,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 299
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Nobody Sleeps",
+          "airdate": "2003-03-23",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S03E04 - Nobody Sleeps (March 23, 2003).mp4",
+            "name": "Six Feet Under - S03E04 - Nobody Sleeps (March 23, 2003)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S03E04%20-%20Nobody%20Sleeps%20(March%2023%2C%202003).mp4",
+            "seconds": 3074,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 299
+          },
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "The Trap",
+          "airdate": "2003-03-30",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S03E05 - The Trap (March 30, 2003).mp4",
+            "name": "Six Feet Under - S03E05 - The Trap (March 30, 2003)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S03E05%20-%20The%20Trap%20(March%2030%2C%202003).mp4",
+            "seconds": 3301,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 324
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Making Love Work",
+          "airdate": "2003-04-06",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S03E06 - Making Love Work (April 6, 2003).mp4",
+            "name": "Six Feet Under - S03E06 - Making Love Work (April 6, 2003)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S03E06%20-%20Making%20Love%20Work%20(April%206%2C%202003).mp4",
+            "seconds": 2981,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 293
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Timing and Space",
+          "airdate": "2003-04-13",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S03E07 - Timing & Space (April 13, 2003).mp4",
+            "name": "Six Feet Under - S03E07 - Timing & Space (April 13, 2003)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S03E07%20-%20Timing%20%26%20Space%20(April%2013%2C%202003).mp4",
+            "seconds": 2874,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 281
+          },
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Tears, Bones and Desire",
+          "airdate": "2003-04-20",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S03E08 - Tears, Bones and Desire (April 20, 2003).mp4",
+            "name": "Six Feet Under - S03E08 - Tears, Bones and Desire (April 20, 2003)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S03E08%20-%20Tears%2C%20Bones%20and%20Desire%20(April%2020%2C%202003).mp4",
+            "seconds": 3289,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 324
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "The Opening",
+          "airdate": "2003-04-27",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S03E09 - The Opening (April 27, 2003).mp4",
+            "name": "Six Feet Under - S03E09 - The Opening (April 27, 2003)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S03E09%20-%20The%20Opening%20(April%2027%2C%202003).mp4",
+            "seconds": 3186,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 313
+          },
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Everyone Leaves",
+          "airdate": "2003-05-04",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S03E10 - Everyone Leaves (May 4, 2003).mp4",
+            "name": "Six Feet Under - S03E10 - Everyone Leaves (May 4, 2003)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S03E10%20-%20Everyone%20Leaves%20(May%204%2C%202003).mp4",
+            "seconds": 3026,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 296
+          },
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Death Works Overtime",
+          "airdate": "2003-05-11",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S03E11 - Death Works Overtime (May 11, 2003).mp4",
+            "name": "Six Feet Under - S03E11 - Death Works Overtime (May 11, 2003)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S03E11%20-%20Death%20Works%20Overtime%20(May%2011%2C%202003).mp4",
+            "seconds": 2939,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 289
+          },
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Twilight",
+          "airdate": "2003-05-18",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S03E12 - Twilight (May 18, 2003).mp4",
+            "name": "Six Feet Under - S03E12 - Twilight (May 18, 2003)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S03E12%20-%20Twilight%20(May%2018%2C%202003).mp4",
+            "seconds": 3145,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 309
+          },
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "I'm Sorry, I'm Lost",
+          "airdate": "2003-06-01",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S03E13 - I'm Sorry, I'm Lost (June 1, 2003).mp4",
+            "name": "Six Feet Under - S03E13 - I'm Sorry, I'm Lost (June 1, 2003)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S03E13%20-%20I'm%20Sorry%2C%20I'm%20Lost%20(June%201%2C%202003).mp4",
+            "seconds": 3564,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 350
+          },
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 4,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Falling into Place",
+          "airdate": "2004-06-13",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S04E01 - Falling into Place (June 13, 2004).mp4",
+            "name": "Six Feet Under - S04E01 - Falling into Place (June 13, 2004)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S04E01%20-%20Falling%20into%20Place%20(June%2013%2C%202004).mp4",
+            "seconds": 3378,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 334
+          },
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "In Case of Rapture",
+          "airdate": "2004-06-20",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S04E02 - In Case of Rapture (June 20, 2004).mp4",
+            "name": "Six Feet Under - S04E02 - In Case of Rapture (June 20, 2004)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S04E02%20-%20In%20Case%20of%20Rapture%20(June%2020%2C%202004).mp4",
+            "seconds": 2952,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 290
+          },
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Parallel Play",
+          "airdate": "2004-06-27",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S04E03 - Parallel Play (June 27, 2004).mp4",
+            "name": "Six Feet Under - S04E03 - Parallel Play (June 27, 2004)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S04E03%20-%20Parallel%20Play%20(June%2027%2C%202004).mp4",
+            "seconds": 3261,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 323
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Can I Come Up Now?",
+          "airdate": "2004-07-11",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S04E04 - Can I Come Up Now (July 11, 2004).mp4",
+            "name": "Six Feet Under - S04E04 - Can I Come Up Now (July 11, 2004)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S04E04%20-%20Can%20I%20Come%20Up%20Now%20(July%2011%2C%202004).mp4",
+            "seconds": 3331,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 330
+          },
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "That's My Dog",
+          "airdate": "2004-07-18",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S04E05 - That's My Dog (July 18, 2004).mp4",
+            "name": "Six Feet Under - S04E05 - That's My Dog (July 18, 2004)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S04E05%20-%20That's%20My%20Dog%20(July%2018%2C%202004).mp4",
+            "seconds": 3327,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 329
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Terror Starts at Home",
+          "airdate": "2004-07-25",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S04E06 - Terror Starts at Home (July 25, 2004).mp4",
+            "name": "Six Feet Under - S04E06 - Terror Starts at Home (July 25, 2004)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S04E06%20-%20Terror%20Starts%20at%20Home%20(July%2025%2C%202004).mp4",
+            "seconds": 3162,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 312
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "The Dare",
+          "airdate": "2004-08-01",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S04E07 - The Dare (August 1, 2004).mp4",
+            "name": "Six Feet Under - S04E07 - The Dare (August 1, 2004)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S04E07%20-%20The%20Dare%20(August%201%2C%202004).mp4",
+            "seconds": 3327,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 328
+          },
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Coming and Going",
+          "airdate": "2004-08-08",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S04E08 - Coming and Going (August 8, 2004).mp4",
+            "name": "Six Feet Under - S04E08 - Coming and Going (August 8, 2004)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S04E08%20-%20Coming%20and%20Going%20(August%208%2C%202004).mp4",
+            "seconds": 3156,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 309
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Grinding the Corn",
+          "airdate": "2004-08-15",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S04E09 - Grinding the Corn (August 15, 2004).mp4",
+            "name": "Six Feet Under - S04E09 - Grinding the Corn (August 15, 2004)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S04E09%20-%20Grinding%20the%20Corn%20(August%2015%2C%202004).mp4",
+            "seconds": 3224,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 317
+          },
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "The Black Forest",
+          "airdate": "2004-08-22",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S04E10 - The Black Forest (August 22, 2004).mp4",
+            "name": "Six Feet Under - S04E10 - The Black Forest (August 22, 2004)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S04E10%20-%20The%20Black%20Forest%20(August%2022%2C%202004).mp4",
+            "seconds": 2821,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 277
+          },
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Bomb Shelter",
+          "airdate": "2004-08-29",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S04E11 - Bomb Shelter (August 29, 2004).mp4",
+            "name": "Six Feet Under - S04E11 - Bomb Shelter (August 29, 2004)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S04E11%20-%20Bomb%20Shelter%20(August%2029%2C%202004).mp4",
+            "seconds": 2872,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 282
+          },
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Untitled",
+          "airdate": "2004-09-12",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S04E12 - Untitled (September 12, 2004).mp4",
+            "name": "Six Feet Under - S04E12 - Untitled (September 12, 2004)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S04E12%20-%20Untitled%20(September%2012%2C%202004).mp4",
+            "seconds": 3525,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 348
+          },
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 5,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "A Coat of White Primer",
+          "airdate": "2005-06-06",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S05E01 - A Coat of White Primer (June 6, 2005).mp4",
+            "name": "Six Feet Under - S05E01 - A Coat of White Primer (June 6, 2005)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S05E01%20-%20A%20Coat%20of%20White%20Primer%20(June%206%2C%202005).mp4",
+            "seconds": 3208,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 320
+          },
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Dancing for Me",
+          "airdate": "2005-06-13",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S05E02 - Dancing for Me (June 13, 2005).mp4",
+            "name": "Six Feet Under - S05E02 - Dancing for Me (June 13, 2005)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S05E02%20-%20Dancing%20for%20Me%20(June%2013%2C%202005).mp4",
+            "seconds": 3103,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 307
+          },
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Hold My Hand",
+          "airdate": "2005-06-20",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S05E03 - Hold My Hand (June 20, 2005).mp4",
+            "name": "Six Feet Under - S05E03 - Hold My Hand (June 20, 2005)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S05E03%20-%20Hold%20My%20Hand%20(June%2020%2C%202005).mp4",
+            "seconds": 2936,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 290
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Time Flies",
+          "airdate": "2005-06-27",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S05E04 - Time Flies (June 27, 2005).mp4",
+            "name": "Six Feet Under - S05E04 - Time Flies (June 27, 2005)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S05E04%20-%20Time%20Flies%20(June%2027%2C%202005).mp4",
+            "seconds": 3017,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 298
+          },
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Eat a Peach",
+          "airdate": "2005-07-04",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S05E05 - Eat a Peach (July 4, 2005).mp4",
+            "name": "Six Feet Under - S05E05 - Eat a Peach (July 4, 2005)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S05E05%20-%20Eat%20a%20Peach%20(July%204%2C%202005).mp4",
+            "seconds": 2899,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 286
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "The Rainbow of Her Reasons",
+          "airdate": "2005-07-10",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S05E06 - The Rainbow of Her Reasons (July 10, 2005).mp4",
+            "name": "Six Feet Under - S05E06 - The Rainbow of Her Reasons (July 10, 2005)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S05E06%20-%20The%20Rainbow%20of%20Her%20Reasons%20(July%2010%2C%202005).mp4",
+            "seconds": 3228,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 319
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "The Silence",
+          "airdate": "2005-07-17",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S05E07 - The Silence (July 18, 2005).mp4",
+            "name": "Six Feet Under - S05E07 - The Silence (July 18, 2005)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S05E07%20-%20The%20Silence%20(July%2018%2C%202005).mp4",
+            "seconds": 3339,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 334
+          },
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Singing for Our Lives",
+          "airdate": "2005-07-24",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S05E08 - Singing for Our Lives (July 25, 2005).mp4",
+            "name": "Six Feet Under - S05E08 - Singing for Our Lives (July 25, 2005)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S05E08%20-%20Singing%20for%20Our%20Lives%20(July%2025%2C%202005).mp4",
+            "seconds": 3267,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 320
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Ecotone",
+          "airdate": "2005-07-31",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S05E09 - Ecotone (July 31, 2005).mp4",
+            "name": "Six Feet Under - S05E09 - Ecotone (July 31, 2005)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S05E09%20-%20Ecotone%20(July%2031%2C%202005).mp4",
+            "seconds": 2863,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 283
+          },
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "All Alone",
+          "airdate": "2005-08-07",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S05E10 - All Alone (August 7, 2005).mp4",
+            "name": "Six Feet Under - S05E10 - All Alone (August 7, 2005)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S05E10%20-%20All%20Alone%20(August%207%2C%202005).mp4",
+            "seconds": 3356,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 330
+          },
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Static",
+          "airdate": "2005-08-14",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S05E11 - Static (August 14, 2005).mp4",
+            "name": "Six Feet Under - S05E11 - Static (August 14, 2005)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S05E11%20-%20Static%20(August%2014%2C%202005).mp4",
+            "seconds": 3189,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 312
+          },
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Everyone's Waiting",
+          "airdate": "2005-08-21",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "six-feet-under_202209",
+            "itemTitle": "Six Feet Under",
+            "file": "Six Feet Under - S05E12 - Everyone's Waiting (August 21, 2005).mp4",
+            "name": "Six Feet Under - S05E12 - Everyone's Waiting (August 21, 2005)",
+            "url": "https://archive.org/download/six-feet-under_202209/Six%20Feet%20Under%20-%20S05E12%20-%20Everyone's%20Waiting%20(August%2021%2C%202005).mp4",
+            "seconds": 4126,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 405
+          },
+          "alternates": []
+        }
+      ]
+    }
+  ]
+}

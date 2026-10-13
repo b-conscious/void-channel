@@ -1,0 +1,618 @@
+{
+  "show": "The Oblongs",
+  "slug": "the-oblongs",
+  "type": "Adult Swim",
+  "network": "Adult Swim",
+  "matchedAt": "2026-10-13T07:46:15.808Z",
+  "tvmaze": {
+    "id": 6327,
+    "name": "The Oblongs",
+    "runtime": 30,
+    "premiered": "2001-04-01",
+    "network": "The WB"
+  },
+  "coverage": {
+    "total": 13,
+    "live": 12,
+    "review": 0,
+    "missing": 1,
+    "pct": 92
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Misfit Love",
+          "airdate": "2001-04-01",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "season-1_202503",
+            "itemTitle": "The Oblongs Season 1",
+            "file": "The Oblongs S01E01 Misfit Love (Pilot).mp4",
+            "name": "The Oblongs S01E01 Misfit Love (Pilot)",
+            "url": "https://archive.org/download/season-1_202503/The%20Oblongs%20S01E01%20Misfit%20Love%20(Pilot).mp4",
+            "seconds": 1321,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 130
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "oblongs-higher-quality",
+              "itemTitle": "The Oblongs - Complete Series & Extras",
+              "file": "Oblongs S01E01 – Misfit Love.mp4",
+              "name": "Oblongs S01E01 – Misfit Love",
+              "url": "https://archive.org/download/oblongs-higher-quality/Oblongs%20S01E01%20%E2%80%93%20Misfit%20Love.mp4",
+              "seconds": 1322,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 94
+            },
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "oblongs",
+              "itemTitle": "The Oblongs (2001)",
+              "file": "Oblongs S01E01 – Misfit Love.mp4",
+              "name": "Oblongs S01E01 – Misfit Love",
+              "url": "https://archive.org/download/oblongs/Oblongs%20S01E01%20%E2%80%93%20Misfit%20Love.mp4",
+              "seconds": 1322,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 94
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "the-oblongs-s-complete",
+              "itemTitle": "The Oblongs - Complete Series",
+              "file": "The Oblongs - S01 E01.mp4",
+              "name": "The Oblongs - S01 E01",
+              "url": "https://archive.org/download/the-oblongs-s-complete/The%20Oblongs%20-%20S01%20E01.mp4",
+              "seconds": 1321,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 74
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "Narcoleptic Scottie",
+          "airdate": "2001-04-08",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "season-1_202503",
+            "itemTitle": "The Oblongs Season 1",
+            "file": "The Oblongs S01E02 Narcoleptic Scottie.mp4",
+            "name": "The Oblongs S01E02 Narcoleptic Scottie",
+            "url": "https://archive.org/download/season-1_202503/The%20Oblongs%20S01E02%20Narcoleptic%20Scottie.mp4",
+            "seconds": 1262,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 124
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "oblongs-higher-quality",
+              "itemTitle": "The Oblongs - Complete Series & Extras",
+              "file": "Oblongs S01E02 – Narcoleptic Scottie.mp4",
+              "name": "Oblongs S01E02 – Narcoleptic Scottie",
+              "url": "https://archive.org/download/oblongs-higher-quality/Oblongs%20S01E02%20%E2%80%93%20Narcoleptic%20Scottie.mp4",
+              "seconds": 1263,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 81
+            },
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "oblongs",
+              "itemTitle": "The Oblongs (2001)",
+              "file": "Oblongs S01E02 – Narcoleptic Scottie.mp4",
+              "name": "Oblongs S01E02 – Narcoleptic Scottie",
+              "url": "https://archive.org/download/oblongs/Oblongs%20S01E02%20%E2%80%93%20Narcoleptic%20Scottie.mp4",
+              "seconds": 1263,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 81
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "the-oblongs-s-complete",
+              "itemTitle": "The Oblongs - Complete Series",
+              "file": "The Oblongs - S01 E02.mp4",
+              "name": "The Oblongs - S01 E02",
+              "url": "https://archive.org/download/the-oblongs-s-complete/The%20Oblongs%20-%20S01%20E02.mp4",
+              "seconds": 1264,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 110
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "name": "Milo Interrupted",
+          "airdate": "2001-04-15",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "season-1_202503",
+            "itemTitle": "The Oblongs Season 1",
+            "file": "The Oblongs S01E03 Milo Interrupted.mp4",
+            "name": "The Oblongs S01E03 Milo Interrupted",
+            "url": "https://archive.org/download/season-1_202503/The%20Oblongs%20S01E03%20Milo%20Interrupted.mp4",
+            "seconds": 1305,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 129
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "oblongs-higher-quality",
+              "itemTitle": "The Oblongs - Complete Series & Extras",
+              "file": "Oblongs S01E03 - Milo Interrupted.mp4",
+              "name": "Oblongs S01E03 - Milo Interrupted",
+              "url": "https://archive.org/download/oblongs-higher-quality/Oblongs%20S01E03%20-%20Milo%20Interrupted.mp4",
+              "seconds": 1307,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 74
+            },
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "oblongs",
+              "itemTitle": "The Oblongs (2001)",
+              "file": "Oblongs S01E03 - Milo Interrupted.mp4",
+              "name": "Oblongs S01E03 - Milo Interrupted",
+              "url": "https://archive.org/download/oblongs/Oblongs%20S01E03%20-%20Milo%20Interrupted.mp4",
+              "seconds": 1307,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 74
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "the-oblongs-s-complete",
+              "itemTitle": "The Oblongs - Complete Series",
+              "file": "The Oblongs - S01 E03.mp4",
+              "name": "The Oblongs - S01 E03",
+              "url": "https://archive.org/download/the-oblongs-s-complete/The%20Oblongs%20-%20S01%20E03.mp4",
+              "seconds": 1307,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 112
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "name": "Bucketheads",
+          "airdate": "2001-04-22",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "season-1_202503",
+            "itemTitle": "The Oblongs Season 1",
+            "file": "The Oblongs S01E04 Bucketheads.mp4",
+            "name": "The Oblongs S01E04 Bucketheads",
+            "url": "https://archive.org/download/season-1_202503/The%20Oblongs%20S01E04%20Bucketheads.mp4",
+            "seconds": 1286,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 128
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "oblongs-higher-quality",
+              "itemTitle": "The Oblongs - Complete Series & Extras",
+              "file": "Oblongs S01E04 - Bucketheads.mp4",
+              "name": "Oblongs S01E04 - Bucketheads",
+              "url": "https://archive.org/download/oblongs-higher-quality/Oblongs%20S01E04%20-%20Bucketheads.mp4",
+              "seconds": 1287,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 79
+            },
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "oblongs",
+              "itemTitle": "The Oblongs (2001)",
+              "file": "Oblongs S01E04 - Bucketheads.mp4",
+              "name": "Oblongs S01E04 - Bucketheads",
+              "url": "https://archive.org/download/oblongs/Oblongs%20S01E04%20-%20Bucketheads.mp4",
+              "seconds": 1287,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 79
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "the-oblongs-s-complete",
+              "itemTitle": "The Oblongs - Complete Series",
+              "file": "The Oblongs - S01 E04.mp4",
+              "name": "The Oblongs - S01 E04",
+              "url": "https://archive.org/download/the-oblongs-s-complete/The%20Oblongs%20-%20S01%20E04.mp4",
+              "seconds": 1286,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 72
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "name": "Heroine Addict",
+          "airdate": "2001-04-29",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "oblongs-higher-quality",
+            "itemTitle": "The Oblongs - Complete Series & Extras",
+            "file": "Oblongs S01E05 - Heroine Addict.mp4",
+            "name": "Oblongs S01E05 - Heroine Addict",
+            "url": "https://archive.org/download/oblongs-higher-quality/Oblongs%20S01E05%20-%20Heroine%20Addict.mp4",
+            "seconds": 1282,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 84
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "oblongs",
+              "itemTitle": "The Oblongs (2001)",
+              "file": "Oblongs S01E05 - Heroine Addict.mp4",
+              "name": "Oblongs S01E05 - Heroine Addict",
+              "url": "https://archive.org/download/oblongs/Oblongs%20S01E05%20-%20Heroine%20Addict.mp4",
+              "seconds": 1282,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 84
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "the-oblongs-s-complete",
+              "itemTitle": "The Oblongs - Complete Series",
+              "file": "The Oblongs - S01 E05.mp4",
+              "name": "The Oblongs - S01 E05",
+              "url": "https://archive.org/download/the-oblongs-s-complete/The%20Oblongs%20-%20S01%20E05.mp4",
+              "seconds": 1282,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 113
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "name": "The Golden Child",
+          "airdate": "2001-05-06",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "oblongs-higher-quality",
+            "itemTitle": "The Oblongs - Complete Series & Extras",
+            "file": "Oblongs S01E06 - The Golden Child.mp4",
+            "name": "Oblongs S01E06 - The Golden Child",
+            "url": "https://archive.org/download/oblongs-higher-quality/Oblongs%20S01E06%20-%20The%20Golden%20Child.mp4",
+            "seconds": 1297,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 68
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "oblongs",
+              "itemTitle": "The Oblongs (2001)",
+              "file": "Oblongs S01E06 - The Golden Child.mp4",
+              "name": "Oblongs S01E06 - The Golden Child",
+              "url": "https://archive.org/download/oblongs/Oblongs%20S01E06%20-%20The%20Golden%20Child.mp4",
+              "seconds": 1297,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 68
+            },
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "the-oblongs-season-1-episode-6-the-golden-child-watch-cart",
+              "itemTitle": "The Oblongs Season 1 Episode 6 The Golden Child",
+              "file": "The Oblongs Season 1 Episode 6 - The Golden Child Watch cart.mp4",
+              "name": "The Oblongs Season 1 Episode 6 - The Golden Child Watch cart",
+              "url": "https://archive.org/download/the-oblongs-season-1-episode-6-the-golden-child-watch-cart/The%20Oblongs%20Season%201%20Episode%206%20-%20The%20Golden%20Child%20Watch%20cart.mp4",
+              "seconds": 1297,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 68
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "the-oblongs-s-complete",
+              "itemTitle": "The Oblongs - Complete Series",
+              "file": "The Oblongs - S01 E06.mp4",
+              "name": "The Oblongs - S01 E06",
+              "url": "https://archive.org/download/the-oblongs-s-complete/The%20Oblongs%20-%20S01%20E06.mp4",
+              "seconds": 1295,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 72
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "name": "Flush, Flush, Sweet Helga",
+          "airdate": "2001-05-13",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "oblongs-higher-quality",
+            "itemTitle": "The Oblongs - Complete Series & Extras",
+            "file": "Oblongs S01E07 - Flush, Flush, Sweet Helga.mp4",
+            "name": "Oblongs S01E07 - Flush, Flush, Sweet Helga",
+            "url": "https://archive.org/download/oblongs-higher-quality/Oblongs%20S01E07%20-%20Flush%2C%20Flush%2C%20Sweet%20Helga.mp4",
+            "seconds": 1312,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 98
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "oblongs",
+              "itemTitle": "The Oblongs (2001)",
+              "file": "Oblongs S01E07 - Flush, Flush, Sweet Helga.mp4",
+              "name": "Oblongs S01E07 - Flush, Flush, Sweet Helga",
+              "url": "https://archive.org/download/oblongs/Oblongs%20S01E07%20-%20Flush%2C%20Flush%2C%20Sweet%20Helga.mp4",
+              "seconds": 1312,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 98
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "the-oblongs-s-complete",
+              "itemTitle": "The Oblongs - Complete Series",
+              "file": "The Oblongs - S01 E07.mp4",
+              "name": "The Oblongs - S01 E07",
+              "url": "https://archive.org/download/the-oblongs-s-complete/The%20Oblongs%20-%20S01%20E07.mp4",
+              "seconds": 1312,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 74
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "name": "Disfigured Debbie",
+          "airdate": "2001-05-20",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "oblongs-higher-quality",
+            "itemTitle": "The Oblongs - Complete Series & Extras",
+            "file": "Oblongs S01E08 - Disfigured Debbie.mp4",
+            "name": "Oblongs S01E08 - Disfigured Debbie",
+            "url": "https://archive.org/download/oblongs-higher-quality/Oblongs%20S01E08%20-%20Disfigured%20Debbie.mp4",
+            "seconds": 1267,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 71
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "oblongs",
+              "itemTitle": "The Oblongs (2001)",
+              "file": "Oblongs S01E08 - Disfigured Debbie.mp4",
+              "name": "Oblongs S01E08 - Disfigured Debbie",
+              "url": "https://archive.org/download/oblongs/Oblongs%20S01E08%20-%20Disfigured%20Debbie.mp4",
+              "seconds": 1267,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 71
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "the-oblongs-s-complete",
+              "itemTitle": "The Oblongs - Complete Series",
+              "file": "The Oblongs - S01 E08.mp4",
+              "name": "The Oblongs - S01 E08",
+              "url": "https://archive.org/download/the-oblongs-s-complete/The%20Oblongs%20-%20S01%20E08.mp4",
+              "seconds": 1265,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 71
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Pickles' Little Amazons",
+          "airdate": "2002-08-25",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "oblongs-higher-quality",
+            "itemTitle": "The Oblongs - Complete Series & Extras",
+            "file": "Oblongs S02E01 - Pickles Little Amazons.mp4",
+            "name": "Oblongs S02E01 - Pickles Little Amazons",
+            "url": "https://archive.org/download/oblongs-higher-quality/Oblongs%20S02E01%20-%20Pickles%20Little%20Amazons.mp4",
+            "seconds": 1267,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 85
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "oblongs",
+              "itemTitle": "The Oblongs (2001)",
+              "file": "Oblongs S02E01 - Pickles Little Amazons.mp4",
+              "name": "Oblongs S02E01 - Pickles Little Amazons",
+              "url": "https://archive.org/download/oblongs/Oblongs%20S02E01%20-%20Pickles%20Little%20Amazons.mp4",
+              "seconds": 1267,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 85
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "Get Off My Back",
+          "airdate": "2002-09-08",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "oblongs-higher-quality",
+            "itemTitle": "The Oblongs - Complete Series & Extras",
+            "file": "Oblongs S02E02 - Get Off My Back.mp4",
+            "name": "Oblongs S02E02 - Get Off My Back",
+            "url": "https://archive.org/download/oblongs-higher-quality/Oblongs%20S02E02%20-%20Get%20Off%20My%20Back.mp4",
+            "seconds": 1321,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 83
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "oblongs",
+              "itemTitle": "The Oblongs (2001)",
+              "file": "Oblongs S02E02 - Get Off My Back.mp4",
+              "name": "Oblongs S02E02 - Get Off My Back",
+              "url": "https://archive.org/download/oblongs/Oblongs%20S02E02%20-%20Get%20Off%20My%20Back.mp4",
+              "seconds": 1321,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 83
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "name": "Please Be Genital",
+          "airdate": "2002-09-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "My Name is Robbie",
+          "airdate": "2002-10-06",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "oblongs-higher-quality",
+            "itemTitle": "The Oblongs - Complete Series & Extras",
+            "file": "Oblongs S02E04 - My Name is Robbie.mp4",
+            "name": "Oblongs S02E04 - My Name is Robbie",
+            "url": "https://archive.org/download/oblongs-higher-quality/Oblongs%20S02E04%20-%20My%20Name%20is%20Robbie.mp4",
+            "seconds": 1322,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 82
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "oblongs",
+              "itemTitle": "The Oblongs (2001)",
+              "file": "Oblongs S02E04 - My Name is Robbie.mp4",
+              "name": "Oblongs S02E04 - My Name is Robbie",
+              "url": "https://archive.org/download/oblongs/Oblongs%20S02E04%20-%20My%20Name%20is%20Robbie.mp4",
+              "seconds": 1322,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 82
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "name": "Father of the Bribe",
+          "airdate": "2002-10-20",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "oblongs-higher-quality",
+            "itemTitle": "The Oblongs - Complete Series & Extras",
+            "file": "Oblongs S02E05 - Father of the Bribe.mp4",
+            "name": "Oblongs S02E05 - Father of the Bribe",
+            "url": "https://archive.org/download/oblongs-higher-quality/Oblongs%20S02E05%20-%20Father%20of%20the%20Bribe.mp4",
+            "seconds": 1276,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 71
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "oblongs",
+              "itemTitle": "The Oblongs (2001)",
+              "file": "Oblongs S02E05 - Father of the Bribe.mp4",
+              "name": "Oblongs S02E05 - Father of the Bribe",
+              "url": "https://archive.org/download/oblongs/Oblongs%20S02E05%20-%20Father%20of%20the%20Bribe.mp4",
+              "seconds": 1276,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 71
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

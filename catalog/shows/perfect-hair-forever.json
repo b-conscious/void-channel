@@ -1,0 +1,539 @@
+{
+  "show": "Perfect Hair Forever",
+  "slug": "perfect-hair-forever",
+  "type": "Adult Swim",
+  "network": "Adult Swim",
+  "matchedAt": "2026-10-13T07:46:15.832Z",
+  "tvmaze": {
+    "id": 27720,
+    "name": "Perfect Hair Forever",
+    "runtime": 15,
+    "premiered": "2005-11-06",
+    "network": "Adult Swim"
+  },
+  "coverage": {
+    "total": 9,
+    "live": 9,
+    "review": 0,
+    "missing": 0,
+    "pct": 100
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Pilot",
+          "airdate": "2005-11-06",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "perfect-hair-forever-s-2-e-01-return-to-balding-victory",
+            "itemTitle": "Perfect Hair Forever Complete Series + EXTRAS and April Fools Day Subs",
+            "file": "Perfect Hair Forever - S1E01 - Pilot [Moonsong].mp4",
+            "name": "Perfect Hair Forever - S1E01 - Pilot [Moonsong]",
+            "url": "https://archive.org/download/perfect-hair-forever-s-2-e-01-return-to-balding-victory/Perfect%20Hair%20Forever%20-%20S1E01%20-%20Pilot%20%5BMoonsong%5D.mp4",
+            "seconds": 717,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 72
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "perfect-hair-forever-s-01-e-06-tusk",
+              "itemTitle": "Perfect Hair Forever (2004-2007;2014)",
+              "file": "Perfect Hair Forever - S01E01 - Pilot.mp4",
+              "name": "Perfect Hair Forever - S01E01 - Pilot",
+              "url": "https://archive.org/download/perfect-hair-forever-s-01-e-06-tusk/Perfect%20Hair%20Forever%20-%20S01E01%20-%20Pilot.mp4",
+              "seconds": 712,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 70
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "perfect-hair-forever-HQ",
+              "itemTitle": "(HQ) Perfect Hair Forever",
+              "file": "S1E1 - Perfect Hair Forever - Perfect Hair Forever.mp4",
+              "name": "S1E1 - Perfect Hair Forever - Perfect Hair Forever",
+              "url": "https://archive.org/download/perfect-hair-forever-HQ/S1E1%20-%20Perfect%20Hair%20Forever%20-%20Perfect%20Hair%20Forever.mp4",
+              "seconds": 716,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 449
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "perfect-hair-forever-s-2-e-01-return-to-balding-victory",
+              "itemTitle": "Perfect Hair Forever Complete Series + EXTRAS and April Fools Day Subs",
+              "file": "Perfect Hair Forever - April Fool's FanSub - S1E01 - Perfect Hair Forever.mp4",
+              "name": "Perfect Hair Forever - April Fool's FanSub - S1E01 - Perfect Hair Forever",
+              "url": "https://archive.org/download/perfect-hair-forever-s-2-e-01-return-to-balding-victory/Perfect%20Hair%20Forever%20-%20April%20Fool's%20FanSub%20-%20S1E01%20-%20Perfect%20Hair%20Forever.mp4",
+              "seconds": 717,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 70
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "TiVo Your eBay",
+          "airdate": "2005-11-26",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "perfect-hair-forever-HQ",
+            "itemTitle": "(HQ) Perfect Hair Forever",
+            "file": "S1E2 - Perfect Hair Forever - TiVO Your Ebay.mp4",
+            "name": "S1E2 - Perfect Hair Forever - TiVO Your Ebay",
+            "url": "https://archive.org/download/perfect-hair-forever-HQ/S1E2%20-%20Perfect%20Hair%20Forever%20-%20TiVO%20Your%20Ebay.mp4",
+            "seconds": 705,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 443
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "perfect-hair-forever-s-2-e-01-return-to-balding-victory",
+              "itemTitle": "Perfect Hair Forever Complete Series + EXTRAS and April Fools Day Subs",
+              "file": "Perfect Hair Forever - S1E02 - Tivo Your Ebay [Moonsong].mp4",
+              "name": "Perfect Hair Forever - S1E02 - Tivo Your Ebay [Moonsong]",
+              "url": "https://archive.org/download/perfect-hair-forever-s-2-e-01-return-to-balding-victory/Perfect%20Hair%20Forever%20-%20S1E02%20-%20Tivo%20Your%20Ebay%20%5BMoonsong%5D.mp4",
+              "seconds": 705,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 70
+            },
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "perfect-hair-forever-s-2-e-01-return-to-balding-victory",
+              "itemTitle": "Perfect Hair Forever Complete Series + EXTRAS and April Fools Day Subs",
+              "file": "Perfect Hair Forever - April Fool's FanSub - S1E02 - TiVo Your eBay.mp4",
+              "name": "Perfect Hair Forever - April Fool's FanSub - S1E02 - TiVo Your eBay",
+              "url": "https://archive.org/download/perfect-hair-forever-s-2-e-01-return-to-balding-victory/Perfect%20Hair%20Forever%20-%20April%20Fool's%20FanSub%20-%20S1E02%20-%20TiVo%20Your%20eBay.mp4",
+              "seconds": 706,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 69
+            },
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "perfect-hair-forever-s-01-e-06-tusk",
+              "itemTitle": "Perfect Hair Forever (2004-2007;2014)",
+              "file": "Perfect Hair Forever - S01E02 - TiVo Your eBay.mp4",
+              "name": "Perfect Hair Forever - S01E02 - TiVo Your eBay",
+              "url": "https://archive.org/download/perfect-hair-forever-s-01-e-06-tusk/Perfect%20Hair%20Forever%20-%20S01E02%20-%20TiVo%20Your%20eBay.mp4",
+              "seconds": 701,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 68
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "name": "Cat Snatch Fever",
+          "airdate": "2005-12-03",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "perfect-hair-forever-HQ",
+            "itemTitle": "(HQ) Perfect Hair Forever",
+            "file": "S1E3 - Perfect Hair Forever - Cat Snatch Fever.mp4",
+            "name": "S1E3 - Perfect Hair Forever - Cat Snatch Fever",
+            "url": "https://archive.org/download/perfect-hair-forever-HQ/S1E3%20-%20Perfect%20Hair%20Forever%20-%20Cat%20Snatch%20Fever.mp4",
+            "seconds": 681,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 419
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "perfect-hair-forever-s-2-e-01-return-to-balding-victory",
+              "itemTitle": "Perfect Hair Forever Complete Series + EXTRAS and April Fools Day Subs",
+              "file": "Perfect Hair Forever - April Fool's FanSub - S1E03 - Cat Snatch Fever.mp4",
+              "name": "Perfect Hair Forever - April Fool's FanSub - S1E03 - Cat Snatch Fever",
+              "url": "https://archive.org/download/perfect-hair-forever-s-2-e-01-return-to-balding-victory/Perfect%20Hair%20Forever%20-%20April%20Fool's%20FanSub%20-%20S1E03%20-%20Cat%20Snatch%20Fever.mp4",
+              "seconds": 681,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 66
+            },
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "perfect-hair-forever-s-2-e-01-return-to-balding-victory",
+              "itemTitle": "Perfect Hair Forever Complete Series + EXTRAS and April Fools Day Subs",
+              "file": "Perfect Hair Forever - S1E03 - Cat Snatch Fever [Moonsong].mp4",
+              "name": "Perfect Hair Forever - S1E03 - Cat Snatch Fever [Moonsong]",
+              "url": "https://archive.org/download/perfect-hair-forever-s-2-e-01-return-to-balding-victory/Perfect%20Hair%20Forever%20-%20S1E03%20-%20Cat%20Snatch%20Fever%20%5BMoonsong%5D.mp4",
+              "seconds": 681,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 66
+            },
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "perfect-hair-forever-s-01-e-06-tusk",
+              "itemTitle": "Perfect Hair Forever (2004-2007;2014)",
+              "file": "Perfect Hair Forever - S01E03 - Cat Snatch Fever.mp4",
+              "name": "Perfect Hair Forever - S01E03 - Cat Snatch Fever",
+              "url": "https://archive.org/download/perfect-hair-forever-s-01-e-06-tusk/Perfect%20Hair%20Forever%20-%20S01E03%20-%20Cat%20Snatch%20Fever.mp4",
+              "seconds": 675,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 64
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "name": "Happy Suck Day",
+          "airdate": "2005-12-10",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "perfect-hair-forever-HQ",
+            "itemTitle": "(HQ) Perfect Hair Forever",
+            "file": "S1E4 - Perfect Hair Forever - Happy Suck Day to Me.mp4",
+            "name": "S1E4 - Perfect Hair Forever - Happy Suck Day to Me",
+            "url": "https://archive.org/download/perfect-hair-forever-HQ/S1E4%20-%20Perfect%20Hair%20Forever%20-%20Happy%20Suck%20Day%20to%20Me.mp4",
+            "seconds": 645,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 404
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "perfect-hair-forever-s-2-e-01-return-to-balding-victory",
+              "itemTitle": "Perfect Hair Forever Complete Series + EXTRAS and April Fools Day Subs",
+              "file": "Perfect Hair Forever - April Fool's FanSub - S1E04 - Happy Suck Day.mp4",
+              "name": "Perfect Hair Forever - April Fool's FanSub - S1E04 - Happy Suck Day",
+              "url": "https://archive.org/download/perfect-hair-forever-s-2-e-01-return-to-balding-victory/Perfect%20Hair%20Forever%20-%20April%20Fool's%20FanSub%20-%20S1E04%20-%20Happy%20Suck%20Day.mp4",
+              "seconds": 645,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 63
+            },
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "perfect-hair-forever-s-2-e-01-return-to-balding-victory",
+              "itemTitle": "Perfect Hair Forever Complete Series + EXTRAS and April Fools Day Subs",
+              "file": "Perfect Hair Forever - S1E04 - Happy Suck Day [Moonsong].mp4",
+              "name": "Perfect Hair Forever - S1E04 - Happy Suck Day [Moonsong]",
+              "url": "https://archive.org/download/perfect-hair-forever-s-2-e-01-return-to-balding-victory/Perfect%20Hair%20Forever%20-%20S1E04%20-%20Happy%20Suck%20Day%20%5BMoonsong%5D.mp4",
+              "seconds": 646,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 63
+            },
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "perfect-hair-forever-s-01-e-06-tusk",
+              "itemTitle": "Perfect Hair Forever (2004-2007;2014)",
+              "file": "Perfect Hair Forever - S01E04 - Happy Suck Day.mp4",
+              "name": "Perfect Hair Forever - S01E04 - Happy Suck Day",
+              "url": "https://archive.org/download/perfect-hair-forever-s-01-e-06-tusk/Perfect%20Hair%20Forever%20-%20S01E04%20-%20Happy%20Suck%20Day.mp4",
+              "seconds": 639,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 62
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "name": "Tusk",
+          "airdate": "2005-12-17",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "perfect-hair-forever-s-2-e-01-return-to-balding-victory",
+            "itemTitle": "Perfect Hair Forever Complete Series + EXTRAS and April Fools Day Subs",
+            "file": "Perfect Hair Forever - S1E05 - Tusk [Moonsong].mp4",
+            "name": "Perfect Hair Forever - S1E05 - Tusk [Moonsong]",
+            "url": "https://archive.org/download/perfect-hair-forever-s-2-e-01-return-to-balding-victory/Perfect%20Hair%20Forever%20-%20S1E05%20-%20Tusk%20%5BMoonsong%5D.mp4",
+            "seconds": 681,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 67
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "perfect-hair-forever-HQ",
+              "itemTitle": "(HQ) Perfect Hair Forever",
+              "file": "S1E5 - Perfect Hair Forever - Woke Up Drunk.mp4",
+              "name": "S1E5 - Perfect Hair Forever - Woke Up Drunk",
+              "url": "https://archive.org/download/perfect-hair-forever-HQ/S1E5%20-%20Perfect%20Hair%20Forever%20-%20Woke%20Up%20Drunk.mp4",
+              "seconds": 688,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 431
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "perfect-hair-forever-s-2-e-01-return-to-balding-victory",
+              "itemTitle": "Perfect Hair Forever Complete Series + EXTRAS and April Fools Day Subs",
+              "file": "Perfect Hair Forever - April Fool's FanSub - S1E05 - Woke Up Drunk.mp4",
+              "name": "Perfect Hair Forever - April Fool's FanSub - S1E05 - Woke Up Drunk",
+              "url": "https://archive.org/download/perfect-hair-forever-s-2-e-01-return-to-balding-victory/Perfect%20Hair%20Forever%20-%20April%20Fool's%20FanSub%20-%20S1E05%20-%20Woke%20Up%20Drunk.mp4",
+              "seconds": 689,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 67
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "perfect-hair-forever-s-01-e-06-tusk",
+              "itemTitle": "Perfect Hair Forever (2004-2007;2014)",
+              "file": "Perfect Hair Forever - S01E05 - Woke Up Drunk.mp4",
+              "name": "Perfect Hair Forever - S01E05 - Woke Up Drunk",
+              "url": "https://archive.org/download/perfect-hair-forever-s-01-e-06-tusk/Perfect%20Hair%20Forever%20-%20S01E05%20-%20Woke%20Up%20Drunk.mp4",
+              "seconds": 682,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 65
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "name": "Woke Up Drunk",
+          "airdate": "2005-12-24",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "perfect-hair-forever-s-2-e-01-return-to-balding-victory",
+            "itemTitle": "Perfect Hair Forever Complete Series + EXTRAS and April Fools Day Subs",
+            "file": "Perfect Hair Forever - S1E06 - Woke Up Drunk [Moonsong].mp4",
+            "name": "Perfect Hair Forever - S1E06 - Woke Up Drunk [Moonsong]",
+            "url": "https://archive.org/download/perfect-hair-forever-s-2-e-01-return-to-balding-victory/Perfect%20Hair%20Forever%20-%20S1E06%20-%20Woke%20Up%20Drunk%20%5BMoonsong%5D.mp4",
+            "seconds": 689,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 67
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "perfect-hair-forever-HQ",
+              "itemTitle": "(HQ) Perfect Hair Forever",
+              "file": "S1E6 - Perfect Hair Forever - Tusk.mp4",
+              "name": "S1E6 - Perfect Hair Forever - Tusk",
+              "url": "https://archive.org/download/perfect-hair-forever-HQ/S1E6%20-%20Perfect%20Hair%20Forever%20-%20Tusk.mp4",
+              "seconds": 680,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 424
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "perfect-hair-forever-s-2-e-01-return-to-balding-victory",
+              "itemTitle": "Perfect Hair Forever Complete Series + EXTRAS and April Fools Day Subs",
+              "file": "Perfect Hair Forever - April Fool's FanSub - S1E06 - Tusk.mp4",
+              "name": "Perfect Hair Forever - April Fool's FanSub - S1E06 - Tusk",
+              "url": "https://archive.org/download/perfect-hair-forever-s-2-e-01-return-to-balding-victory/Perfect%20Hair%20Forever%20-%20April%20Fool's%20FanSub%20-%20S1E06%20-%20Tusk.mp4",
+              "seconds": 681,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 66
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "perfect-hair-forever-s-01-e-06-tusk",
+              "itemTitle": "Perfect Hair Forever (2004-2007;2014)",
+              "file": "Perfect Hair Forever - S01E06 - Tusk.mp4",
+              "name": "Perfect Hair Forever - S01E06 - Tusk",
+              "url": "https://archive.org/download/perfect-hair-forever-s-01-e-06-tusk/Perfect%20Hair%20Forever%20-%20S01E06%20-%20Tusk.mp4",
+              "seconds": 675,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 65
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Return to Balding Victory",
+          "airdate": "2007-04-01",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "perfect-hair-forever-HQ",
+            "itemTitle": "(HQ) Perfect Hair Forever",
+            "file": "S2E1 - Perfect Hair Forever - Return to Balding Victory.mp4",
+            "name": "S2E1 - Perfect Hair Forever - Return to Balding Victory",
+            "url": "https://archive.org/download/perfect-hair-forever-HQ/S2E1%20-%20Perfect%20Hair%20Forever%20-%20Return%20to%20Balding%20Victory.mp4",
+            "seconds": 693,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 435
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "perfect-hair-forever-s-2-e-01-return-to-balding-victory",
+              "itemTitle": "Perfect Hair Forever Complete Series + EXTRAS and April Fools Day Subs",
+              "file": "Perfect Hair Forever - S2E01 - Return to Balding Victory.mp4",
+              "name": "Perfect Hair Forever - S2E01 - Return to Balding Victory",
+              "url": "https://archive.org/download/perfect-hair-forever-s-2-e-01-return-to-balding-victory/Perfect%20Hair%20Forever%20-%20S2E01%20-%20Return%20to%20Balding%20Victory.mp4",
+              "seconds": 695,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 68
+            },
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "perfect-hair-forever-s-01-e-06-tusk",
+              "itemTitle": "Perfect Hair Forever (2004-2007;2014)",
+              "file": "Perfect Hair Forever - S02E01 - Return to Balding Victory.mp4",
+              "name": "Perfect Hair Forever - S02E01 - Return to Balding Victory",
+              "url": "https://archive.org/download/perfect-hair-forever-s-01-e-06-tusk/Perfect%20Hair%20Forever%20-%20S02E01%20-%20Return%20to%20Balding%20Victory.mp4",
+              "seconds": 695,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 68
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Muscular Distraction - A",
+          "airdate": "2014-04-01",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "perfect-hair-forever-HQ",
+            "itemTitle": "(HQ) Perfect Hair Forever",
+            "file": "S3E1 - Perfect Hair Forever - Muscular Distraction - A.mp4",
+            "name": "S3E1 - Perfect Hair Forever - Muscular Distraction - A",
+            "url": "https://archive.org/download/perfect-hair-forever-HQ/S3E1%20-%20Perfect%20Hair%20Forever%20-%20Muscular%20Distraction%20-%20A.mp4",
+            "seconds": 674,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 418
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "perfect-hair-forever-s-01-e-06-tusk",
+              "itemTitle": "Perfect Hair Forever (2004-2007;2014)",
+              "file": "Perfect Hair Forever - S03E01 - Muscular Distraction - A.mp4",
+              "name": "Perfect Hair Forever - S03E01 - Muscular Distraction - A",
+              "url": "https://archive.org/download/perfect-hair-forever-s-01-e-06-tusk/Perfect%20Hair%20Forever%20-%20S03E01%20-%20Muscular%20Distraction%20-%20A.mp4",
+              "seconds": 676,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 65
+            },
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "perfect-hair-forever-s-2-e-01-return-to-balding-victory",
+              "itemTitle": "Perfect Hair Forever Complete Series + EXTRAS and April Fools Day Subs",
+              "file": "Perfect Hair Forever - S3E01 -  Muscular Distraction (Version 1).mp4",
+              "name": "Perfect Hair Forever - S3E01 -  Muscular Distraction (Version 1)",
+              "url": "https://archive.org/download/perfect-hair-forever-s-2-e-01-return-to-balding-victory/Perfect%20Hair%20Forever%20-%20S3E01%20-%20%20Muscular%20Distraction%20(Version%201).mp4",
+              "seconds": 675,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 40
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "perfect-hair-forever-HQ",
+              "itemTitle": "(HQ) Perfect Hair Forever",
+              "file": "S3E1 - Perfect Hair Forever - Muscular Distraction - B.mp4",
+              "name": "S3E1 - Perfect Hair Forever - Muscular Distraction - B",
+              "url": "https://archive.org/download/perfect-hair-forever-HQ/S3E1%20-%20Perfect%20Hair%20Forever%20-%20Muscular%20Distraction%20-%20B.mp4",
+              "seconds": 674,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 727
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "Muscular Distraction - B",
+          "airdate": "2014-04-01",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "perfect-hair-forever-s-01-e-06-tusk",
+            "itemTitle": "Perfect Hair Forever (2004-2007;2014)",
+            "file": "Perfect Hair Forever - S03E02 - Muscular Distraction - B.mp4",
+            "name": "Perfect Hair Forever - S03E02 - Muscular Distraction - B",
+            "url": "https://archive.org/download/perfect-hair-forever-s-01-e-06-tusk/Perfect%20Hair%20Forever%20-%20S03E02%20-%20Muscular%20Distraction%20-%20B.mp4",
+            "seconds": 674,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 65
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Muscular Distraction - B\" (1.00)",
+              "item": "perfect-hair-forever-HQ",
+              "itemTitle": "(HQ) Perfect Hair Forever",
+              "file": "S3E1 - Perfect Hair Forever - Muscular Distraction - B.mp4",
+              "name": "S3E1 - Perfect Hair Forever - Muscular Distraction - B",
+              "url": "https://archive.org/download/perfect-hair-forever-HQ/S3E1%20-%20Perfect%20Hair%20Forever%20-%20Muscular%20Distraction%20-%20B.mp4",
+              "seconds": 674,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 727
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

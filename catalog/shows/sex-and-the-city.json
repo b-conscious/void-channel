@@ -1,0 +1,913 @@
+{
+  "show": "Sex and the City",
+  "slug": "sex-and-the-city",
+  "type": "90s Sitcoms",
+  "network": "HBO",
+  "matchedAt": "2026-10-13T07:46:14.549Z",
+  "tvmaze": {
+    "id": 676,
+    "name": "Sex and the City",
+    "runtime": 30,
+    "premiered": "1998-06-06",
+    "network": "HBO"
+  },
+  "coverage": {
+    "total": 94,
+    "live": 9,
+    "review": 0,
+    "missing": 85,
+    "pct": 10
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Sex and the City",
+          "airdate": "1998-06-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Models and Mortals",
+          "airdate": "1998-06-06",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "hot-properties",
+            "itemTitle": "Hot Properties - Complete Series",
+            "file": "s01e02 - Chick Stuff.mp4",
+            "name": "s01e02 - Chick Stuff",
+            "url": "https://archive.org/download/hot-properties/s01e02%20-%20Chick%20Stuff.mp4",
+            "seconds": 1290,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 128
+          },
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Bay of Married Pigs",
+          "airdate": "1998-06-21",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "hot-properties",
+            "itemTitle": "Hot Properties - Complete Series",
+            "file": "s01e03 - Online Dating.mp4",
+            "name": "s01e03 - Online Dating",
+            "url": "https://archive.org/download/hot-properties/s01e03%20-%20Online%20Dating.mp4",
+            "seconds": 1283,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 127
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Valley of the Twenty-Something Guys",
+          "airdate": "1998-06-28",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "hot-properties",
+            "itemTitle": "Hot Properties - Complete Series",
+            "file": "s01e04 - Sex, Lies & Chubby Chasers.mp4",
+            "name": "s01e04 - Sex, Lies & Chubby Chasers",
+            "url": "https://archive.org/download/hot-properties/s01e04%20-%20Sex%2C%20Lies%20%26%20Chubby%20Chasers.mp4",
+            "seconds": 1283,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 126
+          },
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "The Power of Female Sex",
+          "airdate": "1998-07-05",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "hot-properties",
+            "itemTitle": "Hot Properties - Complete Series",
+            "file": "s01e05 - Dating Up, Dating Down.mp4",
+            "name": "s01e05 - Dating Up, Dating Down",
+            "url": "https://archive.org/download/hot-properties/s01e05%20-%20Dating%20Up%2C%20Dating%20Down.mp4",
+            "seconds": 1285,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 127
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Secret Sex",
+          "airdate": "1998-07-12",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "hot-properties",
+            "itemTitle": "Hot Properties - Complete Series",
+            "file": "s01e06 - Waiting For Oprah.mp4",
+            "name": "s01e06 - Waiting For Oprah",
+            "url": "https://archive.org/download/hot-properties/s01e06%20-%20Waiting%20For%20Oprah.mp4",
+            "seconds": 1281,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 127
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "The Monogamists",
+          "airdate": "1998-07-19",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "hot-properties",
+            "itemTitle": "Hot Properties - Complete Series",
+            "file": "s01e07 - Return of the Ring.mp4",
+            "name": "s01e07 - Return of the Ring",
+            "url": "https://archive.org/download/hot-properties/s01e07%20-%20Return%20of%20the%20Ring.mp4",
+            "seconds": 1281,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 127
+          },
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Three's a Crowd",
+          "airdate": "1998-07-26",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "hot-properties",
+            "itemTitle": "Hot Properties - Complete Series",
+            "file": "s01e08 - When Chloe Met Marco.mp4",
+            "name": "s01e08 - When Chloe Met Marco",
+            "url": "https://archive.org/download/hot-properties/s01e08%20-%20When%20Chloe%20Met%20Marco.mp4",
+            "seconds": 1263,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 124
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "The Turtle and the Hare",
+          "airdate": "1998-08-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "The Baby Shower",
+          "airdate": "1998-08-09",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "hot-properties",
+            "itemTitle": "Hot Properties - Complete Series",
+            "file": "s01e10 - It`s a Wonderful Christmas Carol on 34th Street.mp4",
+            "name": "s01e10 - It`s a Wonderful Christmas Carol on 34th Street",
+            "url": "https://archive.org/download/hot-properties/s01e10%20-%20It%60s%20a%20Wonderful%20Christmas%20Carol%20on%2034th%20Street.mp4",
+            "seconds": 1287,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 128
+          },
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "The Drought",
+          "airdate": "1998-08-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Oh Come All Ye Faithful",
+          "airdate": "1998-08-23",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "hot-properties",
+            "itemTitle": "Hot Properties - Complete Series",
+            "file": "s01e12 - Grrr....mp4",
+            "name": "s01e12 - Grrr...",
+            "url": "https://archive.org/download/hot-properties/s01e12%20-%20Grrr....mp4",
+            "seconds": 1292,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 127
+          },
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Take Me Out to the Ballgame",
+          "airdate": "1999-06-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "The Awful Truth",
+          "airdate": "1999-06-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "The Freak Show",
+          "airdate": "1999-06-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "They Shoot Single People, Don't They?",
+          "airdate": "1999-06-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Four Women and a Funeral",
+          "airdate": "1999-07-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "The Cheating Curve",
+          "airdate": "1999-07-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "The Chicken Dance",
+          "airdate": "1999-07-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "The Man, The Myth, The Viagra",
+          "airdate": "1999-07-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Old Dogs, New Dicks",
+          "airdate": "1999-08-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "The Caste System",
+          "airdate": "1999-08-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Evolution",
+          "airdate": "1999-08-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "La Douleur Exquise!",
+          "airdate": "1999-08-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Games People Play",
+          "airdate": "1999-08-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "The Fuck Buddy",
+          "airdate": "1999-09-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Shortcomings",
+          "airdate": "1999-09-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Was It Good for You?",
+          "airdate": "1999-09-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Twenty-Something Girls vs. Thirty-Something Women",
+          "airdate": "1999-09-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Ex and the City",
+          "airdate": "1999-10-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Where's There's Smoke...",
+          "airdate": "2000-06-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Politically Erect",
+          "airdate": "2000-06-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Attack of the Five Foot Ten Woman",
+          "airdate": "2000-06-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Boy, Girl, Boy, Girl...",
+          "airdate": "2000-06-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "No Ifs, Ands, or Butts",
+          "airdate": "2000-07-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Are We Sluts?",
+          "airdate": "2000-07-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Drama Queens",
+          "airdate": "2000-07-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "The Big Time",
+          "airdate": "2000-07-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Easy Come, Easy Go",
+          "airdate": "2000-08-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "All or Nothing",
+          "airdate": "2000-08-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Running with Scissors",
+          "airdate": "2000-08-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Don't Ask, Don't Tell",
+          "airdate": "2000-08-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Escape from New York",
+          "airdate": "2000-09-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Sex and Another City",
+          "airdate": "2000-09-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Hot Child in the City",
+          "airdate": "2000-09-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Frenemies",
+          "airdate": "2000-10-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "What Goes Around Comes Around",
+          "airdate": "2000-10-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Cock a Doodle Do!",
+          "airdate": "2000-10-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 4,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "The Agony and the 'Ex'-tacy",
+          "airdate": "2001-06-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "The Real Me",
+          "airdate": "2001-06-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Defining Moments",
+          "airdate": "2001-06-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "What's Sex Got to Do with It?",
+          "airdate": "2001-06-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Ghost Town",
+          "airdate": "2001-06-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Baby, Talk is Cheap",
+          "airdate": "2001-07-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Time and Punishment",
+          "airdate": "2001-07-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "My Motherboard, My Self",
+          "airdate": "2001-07-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Sex and the Country",
+          "airdate": "2001-07-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Belles of the Balls",
+          "airdate": "2001-07-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Coulda, Woulda, Shoulda",
+          "airdate": "2001-08-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Just Say Yes",
+          "airdate": "2001-08-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "The Good Fight",
+          "airdate": "2002-01-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "All That Glitters...",
+          "airdate": "2002-01-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Change of a Dress",
+          "airdate": "2002-01-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Ring a Ding Ding",
+          "airdate": "2002-01-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "A 'Vogue' Idea",
+          "airdate": "2002-02-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "I Heart NY",
+          "airdate": "2002-02-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 5,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Anchors Away",
+          "airdate": "2002-07-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Unoriginal Sin",
+          "airdate": "2002-07-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Luck Be an Old Lady",
+          "airdate": "2002-08-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Cover Girl",
+          "airdate": "2002-08-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Plus One is the Loneliest Number",
+          "airdate": "2002-08-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Critical Condition",
+          "airdate": "2002-08-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "The Big Journey",
+          "airdate": "2002-09-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "I Love a Charade",
+          "airdate": "2002-09-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 6,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "To Market, To Market",
+          "airdate": "2003-06-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Great Sexpectations",
+          "airdate": "2003-06-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "The Perfect Present",
+          "airdate": "2003-07-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Pick-a-Little, Talk-a-Little",
+          "airdate": "2003-07-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Lights, Camera, Relationship",
+          "airdate": "2003-07-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Hop, Skip and a Week",
+          "airdate": "2003-07-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "The Post-It Always Sticks Twice",
+          "airdate": "2003-08-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "The Catch",
+          "airdate": "2003-08-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "A Woman's Right to Shoes",
+          "airdate": "2003-08-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Boy, Interrupted",
+          "airdate": "2003-08-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "The Domino Effect",
+          "airdate": "2003-09-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "One",
+          "airdate": "2003-09-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Let There Be Light",
+          "airdate": "2004-01-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "The Ick Factor",
+          "airdate": "2004-01-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Catch-38",
+          "airdate": "2004-01-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Out of the Frying Pan",
+          "airdate": "2004-01-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "The Cold War",
+          "airdate": "2004-02-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Splat!",
+          "airdate": "2004-02-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "An American Girl in Paris (Part Une)",
+          "airdate": "2004-02-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "An American Girl in Paris (Part Deux)",
+          "airdate": "2004-02-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    }
+  ]
+}

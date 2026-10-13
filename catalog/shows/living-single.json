@@ -1,0 +1,1418 @@
+{
+  "show": "Living Single",
+  "slug": "living-single",
+  "type": "90s Sitcoms",
+  "network": "FOX",
+  "matchedAt": "2026-10-13T07:46:14.008Z",
+  "tvmaze": {
+    "id": 12294,
+    "name": "Living Single",
+    "runtime": 30,
+    "premiered": "1993-08-22",
+    "network": "FOX"
+  },
+  "coverage": {
+    "total": 118,
+    "live": 15,
+    "review": 3,
+    "missing": 100,
+    "pct": 15
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Judging by the Cover",
+          "airdate": "1993-08-22",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "living-single-1993",
+            "itemTitle": "Living Single (1993)",
+            "file": "Living Single eps 01-10/Living Single - Season 1 - Episode 1 - Judging by the Cover.mp4",
+            "name": "Living Single eps 01-10/Living Single - Season 1 - Episode 1 - Judging by the Cover",
+            "url": "https://archive.org/download/living-single-1993/Living%20Single%20eps%2001-10%2FLiving%20Single%20-%20Season%201%20-%20Episode%201%20-%20Judging%20by%20the%20Cover.mp4",
+            "seconds": 1373,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 111
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "living-single-1993",
+              "itemTitle": "Living Single (1993)",
+              "file": "Living Single eps 01-10/Living Single - S01 E01 - Judging by the Cove - facebook.mp4",
+              "name": "Living Single eps 01-10/Living Single - S01 E01 - Judging by the Cove - facebook",
+              "url": "https://archive.org/download/living-single-1993/Living%20Single%20eps%2001-10%2FLiving%20Single%20-%20S01%20E01%20-%20Judging%20by%20the%20Cove%20-%20facebook.mp4",
+              "seconds": 1373,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 67
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "I'll Take Your Man",
+          "airdate": "1993-08-29",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "living-single-1993",
+            "itemTitle": "Living Single (1993)",
+            "file": "Living Single eps 01-10/Living Single - S01 E02 - I'll Take Your Man - facebook.mp4",
+            "name": "Living Single eps 01-10/Living Single - S01 E02 - I'll Take Your Man - facebook",
+            "url": "https://archive.org/download/living-single-1993/Living%20Single%20eps%2001-10%2FLiving%20Single%20-%20S01%20E02%20-%20I'll%20Take%20Your%20Man%20-%20facebook.mp4",
+            "seconds": 1376,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 60
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "living-single-1993",
+              "itemTitle": "Living Single (1993)",
+              "file": "Living Single eps 01-10/Living Single - Season 1 - Episode 2.mp4",
+              "name": "Living Single eps 01-10/Living Single - Season 1 - Episode 2",
+              "url": "https://archive.org/download/living-single-1993/Living%20Single%20eps%2001-10%2FLiving%20Single%20-%20Season%201%20-%20Episode%202.mp4",
+              "seconds": 1376,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 108
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "name": "Whose Date Is It Anyway?",
+          "airdate": "1993-09-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "A Kiss Before Lying",
+          "airdate": "1993-09-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "In the Black Is Beautiful",
+          "airdate": "1993-09-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Great Expectations",
+          "airdate": "1993-09-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Full Court Press",
+          "airdate": "1993-10-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Living Single... with Children",
+          "airdate": "1993-10-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Just Friends?",
+          "airdate": "1993-10-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Quittin' Time",
+          "airdate": "1993-10-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "The Naked Truth",
+          "airdate": "1993-11-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Crappy Birthday",
+          "airdate": "1993-11-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Love Takes a Holiday",
+          "airdate": "1993-11-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Burglar in the House",
+          "airdate": "1993-11-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Living Kringle",
+          "airdate": "1993-12-19",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.7,
+            "why": "absolute episode number",
+            "item": "living-single-1993",
+            "itemTitle": "Living Single (1993)",
+            "file": "Living Single_ Back in the Day S4 Ep15.mp4",
+            "name": "Living Single_ Back in the Day S4 Ep15",
+            "url": "https://archive.org/download/living-single-1993/Living%20Single_%20Back%20in%20the%20Day%20S4%20Ep15.mp4",
+            "seconds": 1383,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 184
+          },
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Fatal Distraction",
+          "airdate": "1994-01-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "The Hand That Robs the Cradle",
+          "airdate": "1994-01-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Love Thy Neighbor (1)",
+          "airdate": "1994-02-06",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.6,
+            "why": "absolute episode number",
+            "item": "episode-18.-living-single-1993-1998-sitcom-my-face-a-situation-comedy-podcast",
+            "itemTitle": "Episode 18. Living Single (1993-1998) - Sitcom My Face: A Situation Comedy Podcast",
+            "file": "Episode 18. Living Single (1993-1998) - Sitcom My Face A Situation Comedy Podcast.mp4",
+            "name": "Episode 18. Living Single (1993-1998) - Sitcom My Face A Situation Comedy Podcast",
+            "url": "https://archive.org/download/episode-18.-living-single-1993-1998-sitcom-my-face-a-situation-comedy-podcast/Episode%2018.%20Living%20Single%20(1993-1998)%20-%20Sitcom%20My%20Face%20A%20Situation%20Comedy%20Podcast.mp4",
+            "seconds": 3258,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 441
+          },
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Mystery Date (2)",
+          "airdate": "1994-02-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Hot Fun in the Wintertime",
+          "airdate": "1994-02-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Friends Like These",
+          "airdate": "1994-02-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Who's the Boss?",
+          "airdate": "1994-03-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "U.N.I.T.Y. (a.k.a. Five Card Stud)",
+          "airdate": "1994-03-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "Love Is a Many Splintered Thing",
+          "airdate": "1994-04-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 25,
+          "name": "A Tale of Two Tattles",
+          "airdate": "1994-05-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 26,
+          "name": "She Ain't Heavy, She's My Mother",
+          "airdate": "1994-05-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 27,
+          "name": "What's Next?",
+          "airdate": "1994-05-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "There's Got to Be a Morning After",
+          "airdate": "1994-09-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "I Love This Game",
+          "airdate": "1994-09-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "They've Gotta Have It",
+          "airdate": "1994-09-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Working Nine to Nine-Fifteen",
+          "airdate": "1994-09-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Bristle While You Work",
+          "airdate": "1994-09-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "School Daze",
+          "airdate": "1994-10-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Am I My Sister's Keeper?",
+          "airdate": "1994-10-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Trick or Trust",
+          "airdate": "1994-10-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Abstinence Makes the Heart Grow Fonder",
+          "airdate": "1994-11-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Double Indignity",
+          "airdate": "1994-11-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "My Cups Runneth Over",
+          "airdate": "1994-11-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Thanks for Giving",
+          "airdate": "1994-11-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "A Hair-Razing Experience",
+          "airdate": "1994-12-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "There's No Ship Like Kinship",
+          "airdate": "1994-12-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Singing the Blues",
+          "airdate": "1995-01-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Play Ball",
+          "airdate": "1995-01-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Stormy Weather",
+          "airdate": "1995-02-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "The Last Temptation",
+          "airdate": "1995-02-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Legal Briefs",
+          "airdate": "1995-02-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "If the Crew Fits",
+          "airdate": "1995-02-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Space Invaders",
+          "airdate": "1995-03-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Another Saturday Night",
+          "airdate": "1995-03-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "Who's Scooping Who?",
+          "airdate": "1995-04-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "Raw Talent",
+          "airdate": "1995-04-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 25,
+          "name": "To Grandmother's House We Go",
+          "airdate": "1995-05-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 26,
+          "name": "Talk Showdown",
+          "airdate": "1995-05-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 27,
+          "name": "The Shake-Up",
+          "airdate": "1995-05-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Come Back Little Diva",
+          "airdate": "1995-08-31",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "The Ex-File",
+          "airdate": "1995-09-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "On the Rebound",
+          "airdate": "1995-09-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Grumpy Old Man",
+          "airdate": "1995-09-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Rags to Riches",
+          "airdate": "1995-09-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "The James Bond",
+          "airdate": "1995-10-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "The Handyman Can",
+          "airdate": "1995-10-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "He Works Hard for the Money",
+          "airdate": "1995-10-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Baby I'm Back... Again",
+          "airdate": "1995-11-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Mr. Big Shot",
+          "airdate": "1995-11-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Mommy Not Dearest",
+          "airdate": "1995-11-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "The Following Is a Sponsored Program",
+          "airdate": "1995-11-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Let It Snow, Let It Snow, Let It Snow... Dammit",
+          "airdate": "1995-12-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "I'm Ready for My Close-Up",
+          "airdate": "1996-01-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Scoop Dreams",
+          "airdate": "1996-01-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Likes Father, Likes Son",
+          "airdate": "1996-02-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Wake Up to the Break-Up",
+          "airdate": "1996-02-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Tibby or Not Tibby",
+          "airdate": "1996-02-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Shrink to Fit",
+          "airdate": "1996-02-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Dear John",
+          "airdate": "1996-02-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "A Raze in Harlem",
+          "airdate": "1996-03-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Woman to Woman",
+          "airdate": "1996-03-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "Glass Ceiling",
+          "airdate": "1996-04-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "Kiss of the Spider Man",
+          "airdate": "1996-04-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 25,
+          "name": "Whatever Happened to Baby Sister?",
+          "airdate": "1996-04-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 26,
+          "name": "Compromising Positions",
+          "airdate": "1996-05-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 27,
+          "name": "The Engagement (1)",
+          "airdate": "1996-05-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 4,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "The Engagement (2)",
+          "airdate": "1996-08-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Ride the Maverick",
+          "airdate": "1996-08-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Not Quite Mr. Right",
+          "airdate": "1996-09-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Not So Silent Partner",
+          "airdate": "1996-09-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Moi the Jury",
+          "airdate": "1996-09-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Multiple Choice",
+          "airdate": "1996-09-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "I've Got You Under My Skin",
+          "airdate": "1996-10-31",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "School's Out Forever",
+          "airdate": "1996-11-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Do You Take This Man's Wallet?",
+          "airdate": "1996-11-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Virgin Territory",
+          "airdate": "1996-11-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Riot on the Set",
+          "airdate": "1996-12-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Doctor in the House",
+          "airdate": "1996-12-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Mother Inferior",
+          "airdate": "1997-01-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "The Clown That Roared",
+          "airdate": "1997-01-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Back in the Day",
+          "airdate": "1997-01-30",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Back in the Day\" (0.95)",
+            "item": "living-single-1993",
+            "itemTitle": "Living Single (1993)",
+            "file": "Living Single_ Back in the Day S4 Ep15.mp4",
+            "name": "Living Single_ Back in the Day S4 Ep15",
+            "url": "https://archive.org/download/living-single-1993/Living%20Single_%20Back%20in%20the%20Day%20S4%20Ep15.mp4",
+            "seconds": 1383,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 184
+          },
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Oh, Solo Mio",
+          "airdate": "1997-02-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Playing House",
+          "airdate": "1997-03-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Swing Out Sisters",
+          "airdate": "1997-03-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Moonlight Savings Time",
+          "airdate": "1997-04-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Living Single Undercover",
+          "airdate": "1997-04-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "One Degree of Separation",
+          "airdate": "1997-04-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Too Good to Screw",
+          "airdate": "1997-04-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "Papa Was a Rolling Stone",
+          "airdate": "1997-05-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "Never Can Say Goodbye",
+          "airdate": "1997-05-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 5,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Love Don't Live Here Anymore (1)",
+          "airdate": "1997-09-11",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "livingsingle-season5episodes",
+            "itemTitle": "Living Single Season 5 FULL EPISODES",
+            "file": "Living Single – 1997-09-11 – Ep 501 – Love Don't Live Here Anymore (Part 1).mp4",
+            "name": "Living Single – 1997-09-11 – Ep 501 – Love Don't Live Here Anymore (Part 1)",
+            "url": "https://archive.org/download/livingsingle-season5episodes/Living%20Single%20%E2%80%93%201997-09-11%20%E2%80%93%20Ep%20501%20%E2%80%93%20Love%20Don't%20Live%20Here%20Anymore%20(Part%201).mp4",
+            "seconds": 1339,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 179
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "livingsingle-season5",
+              "itemTitle": "Living Single Season 5 FULL EPISODES",
+              "file": "Living Single – 1997-09-11 – Ep 501 – Love Don't Live Here Anymore (Part 1).mp4",
+              "name": "Living Single – 1997-09-11 – Ep 501 – Love Don't Live Here Anymore (Part 1)",
+              "url": "https://archive.org/download/livingsingle-season5/Living%20Single%20%E2%80%93%201997-09-11%20%E2%80%93%20Ep%20501%20%E2%80%93%20Love%20Don't%20Live%20Here%20Anymore%20(Part%201).mp4",
+              "seconds": 1339,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 179
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "Love Don't Live Here Anymore (2)",
+          "airdate": "1997-09-18",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "livingsingle-season5episodes",
+            "itemTitle": "Living Single Season 5 FULL EPISODES",
+            "file": "Living Single – 1997-09-18 – Ep 502 – Love Don't Live Here Anymore (Part 2).mp4",
+            "name": "Living Single – 1997-09-18 – Ep 502 – Love Don't Live Here Anymore (Part 2)",
+            "url": "https://archive.org/download/livingsingle-season5episodes/Living%20Single%20%E2%80%93%201997-09-18%20%E2%80%93%20Ep%20502%20%E2%80%93%20Love%20Don't%20Live%20Here%20Anymore%20(Part%202).mp4",
+            "seconds": 1339,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 179
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "livingsingle-season5",
+              "itemTitle": "Living Single Season 5 FULL EPISODES",
+              "file": "Living Single – 1997-09-18 – Ep 502 – Love Don't Live Here Anymore (Part 2).mp4",
+              "name": "Living Single – 1997-09-18 – Ep 502 – Love Don't Live Here Anymore (Part 2)",
+              "url": "https://archive.org/download/livingsingle-season5/Living%20Single%20%E2%80%93%201997-09-18%20%E2%80%93%20Ep%20502%20%E2%80%93%20Love%20Don't%20Live%20Here%20Anymore%20(Part%202).mp4",
+              "seconds": 1339,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 179
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "name": "High Anxiety",
+          "airdate": "1997-09-25",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "livingsingle-season5episodes",
+            "itemTitle": "Living Single Season 5 FULL EPISODES",
+            "file": "Living Single – 1997-09-25 – Ep 503 – High Anxiety.mp4",
+            "name": "Living Single – 1997-09-25 – Ep 503 – High Anxiety",
+            "url": "https://archive.org/download/livingsingle-season5episodes/Living%20Single%20%E2%80%93%201997-09-25%20%E2%80%93%20Ep%20503%20%E2%80%93%20High%20Anxiety.mp4",
+            "seconds": 1339,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 179
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "livingsingle-season5",
+              "itemTitle": "Living Single Season 5 FULL EPISODES",
+              "file": "Living Single – 1997-09-25 – Ep 503 – High Anxiety.mp4",
+              "name": "Living Single – 1997-09-25 – Ep 503 – High Anxiety",
+              "url": "https://archive.org/download/livingsingle-season5/Living%20Single%20%E2%80%93%201997-09-25%20%E2%80%93%20Ep%20503%20%E2%80%93%20High%20Anxiety.mp4",
+              "seconds": 1339,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 179
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "name": "Reconcilable Differences",
+          "airdate": "1997-10-16",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "livingsingle-season5episodes",
+            "itemTitle": "Living Single Season 5 FULL EPISODES",
+            "file": "Living Single – 1997-10-16 – Ep 504 – Reconcilable Differences.mp4",
+            "name": "Living Single – 1997-10-16 – Ep 504 – Reconcilable Differences",
+            "url": "https://archive.org/download/livingsingle-season5episodes/Living%20Single%20%E2%80%93%201997-10-16%20%E2%80%93%20Ep%20504%20%E2%80%93%20Reconcilable%20Differences.mp4",
+            "seconds": 1340,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 180
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "livingsingle-season5",
+              "itemTitle": "Living Single Season 5 FULL EPISODES",
+              "file": "Living Single – 1997–10–16 – Ep 504 – Reconcilable Differences.mp4",
+              "name": "Living Single – 1997–10–16 – Ep 504 – Reconcilable Differences",
+              "url": "https://archive.org/download/livingsingle-season5/Living%20Single%20%E2%80%93%201997%E2%80%9310%E2%80%9316%20%E2%80%93%20Ep%20504%20%E2%80%93%20Reconcilable%20Differences.mp4",
+              "seconds": 1340,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 180
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "name": "The Best Laid Plans",
+          "airdate": "1997-10-23",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "livingsingle-season5episodes",
+            "itemTitle": "Living Single Season 5 FULL EPISODES",
+            "file": "Living Single – 1997-10-23 – Ep 505 - The Best Laid Plans.mp4",
+            "name": "Living Single – 1997-10-23 – Ep 505 - The Best Laid Plans",
+            "url": "https://archive.org/download/livingsingle-season5episodes/Living%20Single%20%E2%80%93%201997-10-23%20%E2%80%93%20Ep%20505%20-%20The%20Best%20Laid%20Plans.mp4",
+            "seconds": 1339,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 177
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "livingsingle-season5",
+              "itemTitle": "Living Single Season 5 FULL EPISODES",
+              "file": "Living Single – 1997–10–23 – Ep 505 - The Best Laid Plans.mp4",
+              "name": "Living Single – 1997–10–23 – Ep 505 - The Best Laid Plans",
+              "url": "https://archive.org/download/livingsingle-season5/Living%20Single%20%E2%80%93%201997%E2%80%9310%E2%80%9323%20%E2%80%93%20Ep%20505%20-%20The%20Best%20Laid%20Plans.mp4",
+              "seconds": 1339,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 177
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "name": "Up the Ladder Through the Roof",
+          "airdate": "1997-10-30",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "livingsingle-season5episodes",
+            "itemTitle": "Living Single Season 5 FULL EPISODES",
+            "file": "Living Single – 1997-10-30 – Ep 506 – Up The Ladder Through The Roof.mp4",
+            "name": "Living Single – 1997-10-30 – Ep 506 – Up The Ladder Through The Roof",
+            "url": "https://archive.org/download/livingsingle-season5episodes/Living%20Single%20%E2%80%93%201997-10-30%20%E2%80%93%20Ep%20506%20%E2%80%93%20Up%20The%20Ladder%20Through%20The%20Roof.mp4",
+            "seconds": 1354,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 182
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "livingsingle-season5",
+              "itemTitle": "Living Single Season 5 FULL EPISODES",
+              "file": "Living Single – 1997-10-30 – Ep 506 – Up The Ladder Through The Roof.mp4",
+              "name": "Living Single – 1997-10-30 – Ep 506 – Up The Ladder Through The Roof",
+              "url": "https://archive.org/download/livingsingle-season5/Living%20Single%20%E2%80%93%201997-10-30%20%E2%80%93%20Ep%20506%20%E2%80%93%20Up%20The%20Ladder%20Through%20The%20Roof.mp4",
+              "seconds": 1354,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 182
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "name": "He's the One",
+          "airdate": "1997-11-06",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "livingsingle-season5episodes",
+            "itemTitle": "Living Single Season 5 FULL EPISODES",
+            "file": "Living Single – 1997-11-06 – Ep 507 – He's The One.mp4",
+            "name": "Living Single – 1997-11-06 – Ep 507 – He's The One",
+            "url": "https://archive.org/download/livingsingle-season5episodes/Living%20Single%20%E2%80%93%201997-11-06%20%E2%80%93%20Ep%20507%20%E2%80%93%20He's%20The%20One.mp4",
+            "seconds": 1339,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 177
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "livingsingle-season5",
+              "itemTitle": "Living Single Season 5 FULL EPISODES",
+              "file": "Living Single – 1997-11-06 – Ep 507 – He's The One.mp4",
+              "name": "Living Single – 1997-11-06 – Ep 507 – He's The One",
+              "url": "https://archive.org/download/livingsingle-season5/Living%20Single%20%E2%80%93%201997-11-06%20%E2%80%93%20Ep%20507%20%E2%80%93%20He's%20The%20One.mp4",
+              "seconds": 1339,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 177
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "name": "Three Men and a Buckeye",
+          "airdate": "1997-11-13",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "livingsingle-season5episodes",
+            "itemTitle": "Living Single Season 5 FULL EPISODES",
+            "file": "Living Single – 1997-11-13 – Ep 508 – Three Men And A Buckeye.mp4",
+            "name": "Living Single – 1997-11-13 – Ep 508 – Three Men And A Buckeye",
+            "url": "https://archive.org/download/livingsingle-season5episodes/Living%20Single%20%E2%80%93%201997-11-13%20%E2%80%93%20Ep%20508%20%E2%80%93%20Three%20Men%20And%20A%20Buckeye.mp4",
+            "seconds": 1354,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 179
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "livingsingle-season5",
+              "itemTitle": "Living Single Season 5 FULL EPISODES",
+              "file": "Living Single – 1997-11-13 – Ep 508 – Three Men And A Buckeye.mp4",
+              "name": "Living Single – 1997-11-13 – Ep 508 – Three Men And A Buckeye",
+              "url": "https://archive.org/download/livingsingle-season5/Living%20Single%20%E2%80%93%201997-11-13%20%E2%80%93%20Ep%20508%20%E2%80%93%20Three%20Men%20And%20A%20Buckeye.mp4",
+              "seconds": 1354,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 179
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "name": "Forgive Us Our Trespasses",
+          "airdate": "1997-12-04",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "livingsingle-season5episodes",
+            "itemTitle": "Living Single Season 5 FULL EPISODES",
+            "file": "Living Single – 1997-12-04 – Ep 509 – Forgive Us Our Trespasses.mp4",
+            "name": "Living Single – 1997-12-04 – Ep 509 – Forgive Us Our Trespasses",
+            "url": "https://archive.org/download/livingsingle-season5episodes/Living%20Single%20%E2%80%93%201997-12-04%20%E2%80%93%20Ep%20509%20%E2%80%93%20Forgive%20Us%20Our%20Trespasses.mp4",
+            "seconds": 1339,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 177
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "livingsingle-season5",
+              "itemTitle": "Living Single Season 5 FULL EPISODES",
+              "file": "Living Single – 1997-12-04 – Ep 509 – Forgive Us Our Trespasses.mp4",
+              "name": "Living Single – 1997-12-04 – Ep 509 – Forgive Us Our Trespasses",
+              "url": "https://archive.org/download/livingsingle-season5/Living%20Single%20%E2%80%93%201997-12-04%20%E2%80%93%20Ep%20509%20%E2%80%93%20Forgive%20Us%20Our%20Trespasses.mp4",
+              "seconds": 1339,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 177
+            }
+          ]
+        },
+        {
+          "number": 10,
+          "name": "Misleading Lady",
+          "airdate": "1997-12-11",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "livingsingle-season5episodes",
+            "itemTitle": "Living Single Season 5 FULL EPISODES",
+            "file": "Living Single – 1997‐12-11 – Ep 510 – Misleading Lady.mp4",
+            "name": "Living Single – 1997‐12-11 – Ep 510 – Misleading Lady",
+            "url": "https://archive.org/download/livingsingle-season5episodes/Living%20Single%20%E2%80%93%201997%E2%80%9012-11%20%E2%80%93%20Ep%20510%20%E2%80%93%20Misleading%20Lady.mp4",
+            "seconds": 1339,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 176
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "livingsingle-season5",
+              "itemTitle": "Living Single Season 5 FULL EPISODES",
+              "file": "Living Single – 1997‐12-11 – Ep 510 – Misleading Lady.mp4",
+              "name": "Living Single – 1997‐12-11 – Ep 510 – Misleading Lady",
+              "url": "https://archive.org/download/livingsingle-season5/Living%20Single%20%E2%80%93%201997%E2%80%9012-11%20%E2%80%93%20Ep%20510%20%E2%80%93%20Misleading%20Lady.mp4",
+              "seconds": 1339,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 176
+            }
+          ]
+        },
+        {
+          "number": 11,
+          "name": "In Your Dreams",
+          "airdate": "1997-12-18",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "livingsingle-season5episodes",
+            "itemTitle": "Living Single Season 5 FULL EPISODES",
+            "file": "Living Single – 1997-12-18 – Ep 511 – In Your Dreams.mp4",
+            "name": "Living Single – 1997-12-18 – Ep 511 – In Your Dreams",
+            "url": "https://archive.org/download/livingsingle-season5episodes/Living%20Single%20%E2%80%93%201997-12-18%20%E2%80%93%20Ep%20511%20%E2%80%93%20In%20Your%20Dreams.mp4",
+            "seconds": 1354,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 177
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "livingsingle-season5",
+              "itemTitle": "Living Single Season 5 FULL EPISODES",
+              "file": "Living Single – 1997-12-18 – Ep 511 – In Your Dreams.mp4",
+              "name": "Living Single – 1997-12-18 – Ep 511 – In Your Dreams",
+              "url": "https://archive.org/download/livingsingle-season5/Living%20Single%20%E2%80%93%201997-12-18%20%E2%80%93%20Ep%20511%20%E2%80%93%20In%20Your%20Dreams.mp4",
+              "seconds": 1354,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 177
+            }
+          ]
+        },
+        {
+          "number": 12,
+          "name": "To Catch a Thief",
+          "airdate": "1998-01-01",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "livingsingle-season5episodes",
+            "itemTitle": "Living Single Season 5 FULL EPISODES",
+            "file": "Living Single – 1998-01-01 – Ep 512 – To Catch A Thief.mp4",
+            "name": "Living Single – 1998-01-01 – Ep 512 – To Catch A Thief",
+            "url": "https://archive.org/download/livingsingle-season5episodes/Living%20Single%20%E2%80%93%201998-01-01%20%E2%80%93%20Ep%20512%20%E2%80%93%20To%20Catch%20A%20Thief.mp4",
+            "seconds": 1354,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 179
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "livingsingle-season5",
+              "itemTitle": "Living Single Season 5 FULL EPISODES",
+              "file": "Living Single – 1998-01-01 – Ep 512 – To Catch A Thief.mp4",
+              "name": "Living Single – 1998-01-01 – Ep 512 – To Catch A Thief",
+              "url": "https://archive.org/download/livingsingle-season5/Living%20Single%20%E2%80%93%201998-01-01%20%E2%80%93%20Ep%20512%20%E2%80%93%20To%20Catch%20A%20Thief.mp4",
+              "seconds": 1354,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 179
+            }
+          ]
+        },
+        {
+          "number": 13,
+          "name": "Let's Stay Together",
+          "airdate": "1998-01-01",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "livingsingle-season5episodes",
+            "itemTitle": "Living Single Season 5 FULL EPISODES",
+            "file": "Living Single – 1998-01-01 – Ep 513 – Let's Stay Together.mp4",
+            "name": "Living Single – 1998-01-01 – Ep 513 – Let's Stay Together",
+            "url": "https://archive.org/download/livingsingle-season5episodes/Living%20Single%20%E2%80%93%201998-01-01%20%E2%80%93%20Ep%20513%20%E2%80%93%20Let's%20Stay%20Together.mp4",
+            "seconds": 1354,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 178
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "livingsingle-season5",
+              "itemTitle": "Living Single Season 5 FULL EPISODES",
+              "file": "Living Single – 1998-01‐01 – Ep 513 – Let's Stay Together.mp4",
+              "name": "Living Single – 1998-01‐01 – Ep 513 – Let's Stay Together",
+              "url": "https://archive.org/download/livingsingle-season5/Living%20Single%20%E2%80%93%201998-01%E2%80%9001%20%E2%80%93%20Ep%20513%20%E2%80%93%20Let's%20Stay%20Together.mp4",
+              "seconds": 1354,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 178
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

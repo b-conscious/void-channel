@@ -1,0 +1,1770 @@
+{
+  "show": "Star Trek: The Next Generation",
+  "slug": "star-trek-the-next-generation",
+  "type": "Sci-Fi, Fantasy and Horror",
+  "network": "Syndicated",
+  "matchedAt": "2026-10-13T07:46:16.911Z",
+  "tvmaze": {
+    "id": 491,
+    "name": "Star Trek: The Next Generation",
+    "runtime": 60,
+    "premiered": "1987-09-28",
+    "network": "Syndication"
+  },
+  "coverage": {
+    "total": 178,
+    "live": 0,
+    "review": 24,
+    "missing": 154,
+    "pct": 13
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Encounter at Farpoint",
+          "airdate": "1987-09-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Encounter at Farpoint",
+          "airdate": "1987-09-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "The Naked Now",
+          "airdate": "1987-10-05",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.65,
+            "why": "title ~ \"The Naked Now\" (0.95)",
+            "item": "TNG01",
+            "itemTitle": "Star Trek: The Next Generation",
+            "file": "E03 - The Naked Now.mkv",
+            "name": "E03 - The Naked Now",
+            "url": "https://archive.org/download/TNG01/E03%20-%20The%20Naked%20Now.mkv",
+            "seconds": 2734,
+            "format": "Matroska",
+            "playable": false,
+            "sizeMB": 695
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Code of Honor",
+          "airdate": "1987-10-12",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.65,
+            "why": "title ~ \"Code of Honor\" (0.95)",
+            "item": "TNG01",
+            "itemTitle": "Star Trek: The Next Generation",
+            "file": "E04 - Code of Honor.mkv",
+            "name": "E04 - Code of Honor",
+            "url": "https://archive.org/download/TNG01/E04%20-%20Code%20of%20Honor.mkv",
+            "seconds": 2731,
+            "format": "Matroska",
+            "playable": false,
+            "sizeMB": 696
+          },
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "The Last Outpost",
+          "airdate": "1987-10-19",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.65,
+            "why": "title ~ \"The Last Outpost\" (0.95)",
+            "item": "TNG01",
+            "itemTitle": "Star Trek: The Next Generation",
+            "file": "E05 - The Last Outpost.mkv",
+            "name": "E05 - The Last Outpost",
+            "url": "https://archive.org/download/TNG01/E05%20-%20The%20Last%20Outpost.mkv",
+            "seconds": 2736,
+            "format": "Matroska",
+            "playable": false,
+            "sizeMB": 700
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Where No One Has Gone Before",
+          "airdate": "1987-10-26",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.65,
+            "why": "title ~ \"Where No One Has Gone Before\" (0.95)",
+            "item": "TNG01",
+            "itemTitle": "Star Trek: The Next Generation",
+            "file": "E06 - Where No One Has Gone Before.mkv",
+            "name": "E06 - Where No One Has Gone Before",
+            "url": "https://archive.org/download/TNG01/E06%20-%20Where%20No%20One%20Has%20Gone%20Before.mkv",
+            "seconds": 2735,
+            "format": "Matroska",
+            "playable": false,
+            "sizeMB": 699
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Lonely Among Us",
+          "airdate": "1987-11-02",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.65,
+            "why": "title ~ \"Lonely Among Us\" (0.95)",
+            "item": "TNG01",
+            "itemTitle": "Star Trek: The Next Generation",
+            "file": "E07 - Lonely Among Us.mkv",
+            "name": "E07 - Lonely Among Us",
+            "url": "https://archive.org/download/TNG01/E07%20-%20Lonely%20Among%20Us.mkv",
+            "seconds": 2733,
+            "format": "Matroska",
+            "playable": false,
+            "sizeMB": 697
+          },
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Justice",
+          "airdate": "1987-11-09",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.65,
+            "why": "title ~ \"Justice\" (0.95)",
+            "item": "TNG01",
+            "itemTitle": "Star Trek: The Next Generation",
+            "file": "E08 - Justice.mkv",
+            "name": "E08 - Justice",
+            "url": "https://archive.org/download/TNG01/E08%20-%20Justice.mkv",
+            "seconds": 2734,
+            "format": "Matroska",
+            "playable": false,
+            "sizeMB": 698
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "The Battle",
+          "airdate": "1987-11-16",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.65,
+            "why": "title ~ \"The Battle\" (0.95)",
+            "item": "TNG01",
+            "itemTitle": "Star Trek: The Next Generation",
+            "file": "E09 - The Battle.mkv",
+            "name": "E09 - The Battle",
+            "url": "https://archive.org/download/TNG01/E09%20-%20The%20Battle.mkv",
+            "seconds": 2732,
+            "format": "Matroska",
+            "playable": false,
+            "sizeMB": 696
+          },
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Hide and Q",
+          "airdate": "1987-11-23",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.65,
+            "why": "title ~ \"Hide and Q\" (0.95)",
+            "item": "TNG01",
+            "itemTitle": "Star Trek: The Next Generation",
+            "file": "E10 - Hide and Q.mkv",
+            "name": "E10 - Hide and Q",
+            "url": "https://archive.org/download/TNG01/E10%20-%20Hide%20and%20Q.mkv",
+            "seconds": 2732,
+            "format": "Matroska",
+            "playable": false,
+            "sizeMB": 701
+          },
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Haven",
+          "airdate": "1987-11-30",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.65,
+            "why": "title ~ \"Haven\" (0.95)",
+            "item": "TNG01",
+            "itemTitle": "Star Trek: The Next Generation",
+            "file": "E11 - Haven.mkv",
+            "name": "E11 - Haven",
+            "url": "https://archive.org/download/TNG01/E11%20-%20Haven.mkv",
+            "seconds": 2734,
+            "format": "Matroska",
+            "playable": false,
+            "sizeMB": 701
+          },
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "The Big Goodbye",
+          "airdate": "1988-01-11",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.65,
+            "why": "title ~ \"The Big Goodbye\" (0.95)",
+            "item": "TNG01",
+            "itemTitle": "Star Trek: The Next Generation",
+            "file": "E12 - The Big Goodbye.mkv",
+            "name": "E12 - The Big Goodbye",
+            "url": "https://archive.org/download/TNG01/E12%20-%20The%20Big%20Goodbye.mkv",
+            "seconds": 2733,
+            "format": "Matroska",
+            "playable": false,
+            "sizeMB": 696
+          },
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Datalore",
+          "airdate": "1988-01-18",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.65,
+            "why": "title ~ \"Datalore\" (0.95)",
+            "item": "TNG01",
+            "itemTitle": "Star Trek: The Next Generation",
+            "file": "E13 - Datalore.mkv",
+            "name": "E13 - Datalore",
+            "url": "https://archive.org/download/TNG01/E13%20-%20Datalore.mkv",
+            "seconds": 2734,
+            "format": "Matroska",
+            "playable": false,
+            "sizeMB": 700
+          },
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Angel One",
+          "airdate": "1988-01-25",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.65,
+            "why": "title ~ \"Angel One\" (0.95)",
+            "item": "TNG01",
+            "itemTitle": "Star Trek: The Next Generation",
+            "file": "E14 - Angel One.mkv",
+            "name": "E14 - Angel One",
+            "url": "https://archive.org/download/TNG01/E14%20-%20Angel%20One.mkv",
+            "seconds": 2733,
+            "format": "Matroska",
+            "playable": false,
+            "sizeMB": 694
+          },
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "11001001",
+          "airdate": "1988-02-01",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.65,
+            "why": "title ~ \"11001001\" (0.95)",
+            "item": "TNG01",
+            "itemTitle": "Star Trek: The Next Generation",
+            "file": "E15 - 11001001.mkv",
+            "name": "E15 - 11001001",
+            "url": "https://archive.org/download/TNG01/E15%20-%2011001001.mkv",
+            "seconds": 2732,
+            "format": "Matroska",
+            "playable": false,
+            "sizeMB": 701
+          },
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Too Short a Season",
+          "airdate": "1988-02-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "When the Bough Breaks",
+          "airdate": "1988-02-15",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.65,
+            "why": "title ~ \"When the Bough Breaks\" (0.95)",
+            "item": "TNG01",
+            "itemTitle": "Star Trek: The Next Generation",
+            "file": "E17 - When the Bough Breaks.mkv",
+            "name": "E17 - When the Bough Breaks",
+            "url": "https://archive.org/download/TNG01/E17%20-%20When%20the%20Bough%20Breaks.mkv",
+            "seconds": 2736,
+            "format": "Matroska",
+            "playable": false,
+            "sizeMB": 700
+          },
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Home Soil",
+          "airdate": "1988-02-22",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.65,
+            "why": "title ~ \"Home Soil\" (0.95)",
+            "item": "TNG01",
+            "itemTitle": "Star Trek: The Next Generation",
+            "file": "E18 - Home Soil.mkv",
+            "name": "E18 - Home Soil",
+            "url": "https://archive.org/download/TNG01/E18%20-%20Home%20Soil.mkv",
+            "seconds": 2733,
+            "format": "Matroska",
+            "playable": false,
+            "sizeMB": 700
+          },
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Coming of Age",
+          "airdate": "1988-03-14",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.65,
+            "why": "title ~ \"Coming of Age\" (0.95)",
+            "item": "TNG01",
+            "itemTitle": "Star Trek: The Next Generation",
+            "file": "E19 - Coming of Age.mkv",
+            "name": "E19 - Coming of Age",
+            "url": "https://archive.org/download/TNG01/E19%20-%20Coming%20of%20Age.mkv",
+            "seconds": 2736,
+            "format": "Matroska",
+            "playable": false,
+            "sizeMB": 697
+          },
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Heart of Glory",
+          "airdate": "1988-03-21",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.65,
+            "why": "title ~ \"Heart of Glory\" (0.95)",
+            "item": "TNG01",
+            "itemTitle": "Star Trek: The Next Generation",
+            "file": "E20 - Heart of Glory.mkv",
+            "name": "E20 - Heart of Glory",
+            "url": "https://archive.org/download/TNG01/E20%20-%20Heart%20of%20Glory.mkv",
+            "seconds": 2733,
+            "format": "Matroska",
+            "playable": false,
+            "sizeMB": 698
+          },
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "The Arsenal of Freedom",
+          "airdate": "1988-04-11",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.65,
+            "why": "title ~ \"The Arsenal of Freedom\" (0.95)",
+            "item": "TNG01",
+            "itemTitle": "Star Trek: The Next Generation",
+            "file": "E21 - The.Arsenal of Freedom.mkv",
+            "name": "E21 - The.Arsenal of Freedom",
+            "url": "https://archive.org/download/TNG01/E21%20-%20The.Arsenal%20of%20Freedom.mkv",
+            "seconds": 2733,
+            "format": "Matroska",
+            "playable": false,
+            "sizeMB": 695
+          },
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Symbiosis",
+          "airdate": "1988-04-18",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.65,
+            "why": "title ~ \"Symbiosis\" (0.95)",
+            "item": "TNG01",
+            "itemTitle": "Star Trek: The Next Generation",
+            "file": "E22 - Symbiosis.mkv",
+            "name": "E22 - Symbiosis",
+            "url": "https://archive.org/download/TNG01/E22%20-%20Symbiosis.mkv",
+            "seconds": 2732,
+            "format": "Matroska",
+            "playable": false,
+            "sizeMB": 692
+          },
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "Skin of Evil",
+          "airdate": "1988-04-25",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.65,
+            "why": "title ~ \"Skin of Evil\" (0.95)",
+            "item": "TNG01",
+            "itemTitle": "Star Trek: The Next Generation",
+            "file": "E23 - Skin of Evil.mkv",
+            "name": "E23 - Skin of Evil",
+            "url": "https://archive.org/download/TNG01/E23%20-%20Skin%20of%20Evil.mkv",
+            "seconds": 2731,
+            "format": "Matroska",
+            "playable": false,
+            "sizeMB": 695
+          },
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "We'll Always Have Paris",
+          "airdate": "1988-05-02",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.65,
+            "why": "title ~ \"We'll Always Have Paris\" (0.83)",
+            "item": "TNG01",
+            "itemTitle": "Star Trek: The Next Generation",
+            "file": "E24 - We Will Always Have Paris.mkv",
+            "name": "E24 - We Will Always Have Paris",
+            "url": "https://archive.org/download/TNG01/E24%20-%20We%20Will%20Always%20Have%20Paris.mkv",
+            "seconds": 2732,
+            "format": "Matroska",
+            "playable": false,
+            "sizeMB": 693
+          },
+          "alternates": []
+        },
+        {
+          "number": 25,
+          "name": "Conspiracy",
+          "airdate": "1988-05-09",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.65,
+            "why": "title ~ \"Conspiracy\" (0.95)",
+            "item": "TNG01",
+            "itemTitle": "Star Trek: The Next Generation",
+            "file": "E25 - Conspiracy.mkv",
+            "name": "E25 - Conspiracy",
+            "url": "https://archive.org/download/TNG01/E25%20-%20Conspiracy.mkv",
+            "seconds": 2737,
+            "format": "Matroska",
+            "playable": false,
+            "sizeMB": 696
+          },
+          "alternates": []
+        },
+        {
+          "number": 26,
+          "name": "The Neutral Zone",
+          "airdate": "1988-05-16",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.65,
+            "why": "title ~ \"The Neutral Zone\" (0.95)",
+            "item": "TNG01",
+            "itemTitle": "Star Trek: The Next Generation",
+            "file": "E26 - The Neutral Zone.mkv",
+            "name": "E26 - The Neutral Zone",
+            "url": "https://archive.org/download/TNG01/E26%20-%20The%20Neutral%20Zone.mkv",
+            "seconds": 2735,
+            "format": "Matroska",
+            "playable": false,
+            "sizeMB": 691
+          },
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "The Child",
+          "airdate": "1988-11-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Where Silence Has Lease",
+          "airdate": "1988-11-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Elementary, Dear Data",
+          "airdate": "1988-12-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "The Outrageous Okona",
+          "airdate": "1988-12-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Loud as a Whisper",
+          "airdate": "1989-01-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "The Schizoid Man",
+          "airdate": "1989-01-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Unnatural Selection",
+          "airdate": "1989-01-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "A Matter of Honor",
+          "airdate": "1989-02-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "The Measure of a Man",
+          "airdate": "1989-02-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "The Dauphin",
+          "airdate": "1989-02-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Contagion",
+          "airdate": "1989-03-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "The Royale",
+          "airdate": "1989-03-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Time Squared",
+          "airdate": "1989-04-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "The Icarus Factor",
+          "airdate": "1989-04-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Pen Pals",
+          "airdate": "1989-05-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Q Who?",
+          "airdate": "1989-05-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Samaritan Snare",
+          "airdate": "1989-05-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Up the Long Ladder",
+          "airdate": "1989-05-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Manhunt",
+          "airdate": "1989-06-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "The Emissary",
+          "airdate": "1989-06-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Peak Performance",
+          "airdate": "1989-07-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Shades of Gray",
+          "airdate": "1989-07-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Evolution",
+          "airdate": "1989-09-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "The Ensigns of Command",
+          "airdate": "1989-10-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "The Survivors",
+          "airdate": "1989-10-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Who Watches the Watchers",
+          "airdate": "1989-10-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "The Bonding",
+          "airdate": "1989-10-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Booby Trap",
+          "airdate": "1989-10-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "The Enemy",
+          "airdate": "1989-11-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "The Price",
+          "airdate": "1989-11-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "The Vengeance Factor",
+          "airdate": "1989-11-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "The Defector",
+          "airdate": "1990-01-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "The Hunted",
+          "airdate": "1990-01-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "The High Ground",
+          "airdate": "1990-01-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Déjà Q",
+          "airdate": "1990-02-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "A Matter of Perspective",
+          "airdate": "1990-02-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Yesterday's Enterprise",
+          "airdate": "1990-02-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "The Offspring",
+          "airdate": "1990-03-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Sins of the Father",
+          "airdate": "1990-03-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Allegiance",
+          "airdate": "1990-03-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Captain's Holiday",
+          "airdate": "1990-04-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Tin Man",
+          "airdate": "1990-04-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Hollow Pursuits",
+          "airdate": "1990-04-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "The Most Toys",
+          "airdate": "1990-05-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "Sarek",
+          "airdate": "1990-05-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "Ménage à Troi",
+          "airdate": "1990-05-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 25,
+          "name": "Transfigurations",
+          "airdate": "1990-06-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 26,
+          "name": "The Best of Both Worlds",
+          "airdate": "1990-06-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 4,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "The Best of Both Worlds Part II",
+          "airdate": "1990-09-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Family",
+          "airdate": "1990-10-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Brothers",
+          "airdate": "1990-10-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Suddenly Human",
+          "airdate": "1990-10-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Remember Me",
+          "airdate": "1990-10-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Legacy",
+          "airdate": "1990-10-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Reunion",
+          "airdate": "1990-11-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Future Imperfect",
+          "airdate": "1990-11-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Final Mission",
+          "airdate": "1990-11-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "The Loss",
+          "airdate": "1990-12-31",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Data's Day",
+          "airdate": "1991-01-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "The Wounded",
+          "airdate": "1991-01-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Devil's Due",
+          "airdate": "1991-02-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Clues",
+          "airdate": "1991-02-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "First Contact",
+          "airdate": "1991-02-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Galaxy's Child",
+          "airdate": "1991-03-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Night Terrors",
+          "airdate": "1991-03-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Identity Crisis",
+          "airdate": "1991-03-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "The Nth Degree",
+          "airdate": "1991-04-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Qpid",
+          "airdate": "1991-04-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "The Drumhead",
+          "airdate": "1991-04-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Half a Life",
+          "airdate": "1991-05-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "The Host",
+          "airdate": "1991-05-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "The Mind's Eye",
+          "airdate": "1991-05-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 25,
+          "name": "In Theory",
+          "airdate": "1991-06-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 26,
+          "name": "Redemption",
+          "airdate": "1991-06-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 5,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Redemption II",
+          "airdate": "1991-09-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Darmok",
+          "airdate": "1991-09-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Ensign Ro",
+          "airdate": "1991-10-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Silicon Avatar",
+          "airdate": "1991-10-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Disaster",
+          "airdate": "1991-10-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "The Game",
+          "airdate": "1991-10-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Unification I",
+          "airdate": "1991-11-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Unification II",
+          "airdate": "1991-11-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "A Matter of Time",
+          "airdate": "1991-11-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "New Ground",
+          "airdate": "1992-01-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Hero Worship",
+          "airdate": "1992-01-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Violations",
+          "airdate": "1992-02-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "The Masterpiece Society",
+          "airdate": "1992-02-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Conundrum",
+          "airdate": "1992-02-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Power Play",
+          "airdate": "1992-02-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Ethics",
+          "airdate": "1992-03-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "The Outcast",
+          "airdate": "1992-03-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Cause and Effect",
+          "airdate": "1992-03-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "The First Duty",
+          "airdate": "1992-03-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Cost of Living",
+          "airdate": "1992-04-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "The Perfect Mate",
+          "airdate": "1992-04-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Imaginary Friend",
+          "airdate": "1992-05-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "I, Borg",
+          "airdate": "1992-05-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "The Next Phase",
+          "airdate": "1992-05-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 25,
+          "name": "The Inner Light",
+          "airdate": "1992-06-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 26,
+          "name": "Time's Arrow",
+          "airdate": "1992-06-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 6,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Time's Arrow, Part II",
+          "airdate": "1992-09-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Realm of Fear",
+          "airdate": "1992-09-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Man of the People",
+          "airdate": "1992-10-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Relics",
+          "airdate": "1992-10-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Schisms",
+          "airdate": "1992-10-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "True Q",
+          "airdate": "1992-10-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Rascals",
+          "airdate": "1992-11-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "A Fistful of Datas",
+          "airdate": "1992-11-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "The Quality of Life",
+          "airdate": "1992-11-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Chain of Command, Part I",
+          "airdate": "1992-12-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Chain of Command, Part II",
+          "airdate": "1992-12-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Ship in a Bottle",
+          "airdate": "1993-01-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Aquiel",
+          "airdate": "1993-02-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Face of the Enemy",
+          "airdate": "1993-02-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Tapestry",
+          "airdate": "1993-02-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Birthright, Part I",
+          "airdate": "1993-02-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Birthright, Part II",
+          "airdate": "1993-03-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Starship Mine",
+          "airdate": "1993-03-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Lessons",
+          "airdate": "1993-04-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "The Chase",
+          "airdate": "1993-04-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Frame of Mind",
+          "airdate": "1993-05-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Suspicions",
+          "airdate": "1993-05-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "Rightful Heir",
+          "airdate": "1993-05-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "Second Chances",
+          "airdate": "1993-05-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 25,
+          "name": "Timescape",
+          "airdate": "1993-06-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 26,
+          "name": "Descent, Part I",
+          "airdate": "1993-06-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 7,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Descent, Part II",
+          "airdate": "1993-09-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Liaisons",
+          "airdate": "1993-09-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Interface",
+          "airdate": "1993-10-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Gambit, Part I",
+          "airdate": "1993-10-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Gambit, Part II",
+          "airdate": "1993-10-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Phantasms",
+          "airdate": "1993-10-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Dark Page",
+          "airdate": "1993-11-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Attached",
+          "airdate": "1993-11-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Force of Nature",
+          "airdate": "1993-11-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Inheritance",
+          "airdate": "1993-11-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Parallels",
+          "airdate": "1993-11-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "The Pegasus",
+          "airdate": "1994-01-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Homeward",
+          "airdate": "1994-01-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Sub Rosa",
+          "airdate": "1994-01-31",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Lower Decks",
+          "airdate": "1994-02-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Thine Own Self",
+          "airdate": "1994-02-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Masks",
+          "airdate": "1994-02-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Eye of the Beholder",
+          "airdate": "1994-02-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Genesis",
+          "airdate": "1994-03-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Journey's End",
+          "airdate": "1994-03-28",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "title ~ \"Journey's End\" (0.76)",
+            "item": "journeys-end-the-saga-of-star-trek-the-next-generation",
+            "itemTitle": "Journey's End - The Saga of Star Trek: The Next Generation",
+            "file": "st journeyend.mp4",
+            "name": "st journeyend",
+            "url": "https://archive.org/download/journeys-end-the-saga-of-star-trek-the-next-generation/st%20journeyend.mp4",
+            "seconds": 2933,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 985
+          },
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Firstborn",
+          "airdate": "1994-04-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Bloodlines",
+          "airdate": "1994-05-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "Emergence",
+          "airdate": "1994-05-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "Preemptive Strike",
+          "airdate": "1994-05-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 25,
+          "name": "All Good Things... (1)",
+          "airdate": "1994-05-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 26,
+          "name": "All Good Things... (2)",
+          "airdate": "1994-05-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    }
+  ]
+}

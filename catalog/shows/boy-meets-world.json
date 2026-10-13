@@ -1,0 +1,1908 @@
+{
+  "show": "Boy Meets World",
+  "slug": "boy-meets-world",
+  "type": "90s Sitcoms",
+  "network": "ABC",
+  "matchedAt": "2026-10-13T07:46:13.980Z",
+  "tvmaze": {
+    "id": 683,
+    "name": "Boy Meets World",
+    "runtime": 30,
+    "premiered": "1993-09-24",
+    "network": "ABC"
+  },
+  "coverage": {
+    "total": 158,
+    "live": 1,
+    "review": 35,
+    "missing": 122,
+    "pct": 23
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Pilot",
+          "airdate": "1993-09-24",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "zoe-duncan-jack-and-jane-complete-series",
+            "itemTitle": "Zoe, Duncan, Jack And Jane - The Complete Series",
+            "file": "Zoe, Duncan, Jack and Jane - 1x01 - Pilot.mp4",
+            "name": "Zoe, Duncan, Jack and Jane - 1x01 - Pilot",
+            "url": "https://archive.org/download/zoe-duncan-jack-and-jane-complete-series/Zoe%2C%20Duncan%2C%20Jack%20and%20Jane%20-%201x01%20-%20Pilot.mp4",
+            "seconds": 1416,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 461
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "Brothers_Keeper_ABC_Rarities",
+              "itemTitle": "Brother's Keeper (1998-1999, TGIF)",
+              "file": "101 Pilot.mp4",
+              "name": "101 Pilot",
+              "url": "https://archive.org/download/Brothers_Keeper_ABC_Rarities/101%20Pilot.mp4",
+              "seconds": 1291,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 121
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "On the Fence",
+          "airdate": "1993-10-01",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "S/E in filename",
+            "item": "zoe-duncan-jack-and-jane-complete-series",
+            "itemTitle": "Zoe, Duncan, Jack And Jane - The Complete Series",
+            "file": "Zoe, Duncan, Jack and Jane - 1x02 - Everything You Wanted to Know About Zoe.mp4",
+            "name": "Zoe, Duncan, Jack and Jane - 1x02 - Everything You Wanted to Know About Zoe",
+            "url": "https://archive.org/download/zoe-duncan-jack-and-jane-complete-series/Zoe%2C%20Duncan%2C%20Jack%20and%20Jane%20-%201x02%20-%20Everything%20You%20Wanted%20to%20Know%20About%20Zoe.mp4",
+            "seconds": 1293,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 461
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "Brothers_Keeper_ABC_Rarities",
+              "itemTitle": "Brother's Keeper (1998-1999, TGIF)",
+              "file": "102 Who's Your Daddy.mp4",
+              "name": "102 Who's Your Daddy",
+              "url": "https://archive.org/download/Brothers_Keeper_ABC_Rarities/102%20Who's%20Your%20Daddy.mp4",
+              "seconds": 1290,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 121
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "name": "Father Knows Less",
+          "airdate": "1993-10-08",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "S/E in filename",
+            "item": "zoe-duncan-jack-and-jane-complete-series",
+            "itemTitle": "Zoe, Duncan, Jack And Jane - The Complete Series",
+            "file": "Zoe, Duncan, Jack and Jane - 1x03 - When Zoe Met Johnny.mp4",
+            "name": "Zoe, Duncan, Jack and Jane - 1x03 - When Zoe Met Johnny",
+            "url": "https://archive.org/download/zoe-duncan-jack-and-jane-complete-series/Zoe%2C%20Duncan%2C%20Jack%20and%20Jane%20-%201x03%20-%20When%20Zoe%20Met%20Johnny.mp4",
+            "seconds": 1361,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 462
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "Brothers_Keeper_ABC_Rarities",
+              "itemTitle": "Brother's Keeper (1998-1999, TGIF)",
+              "file": "103 Since You Came Here.mp4",
+              "name": "103 Since You Came Here",
+              "url": "https://archive.org/download/Brothers_Keeper_ABC_Rarities/103%20Since%20You%20Came%20Here.mp4",
+              "seconds": 1292,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 129
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "name": "Cory's Alternative Friends",
+          "airdate": "1993-10-15",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "S/E in filename",
+            "item": "zoe-duncan-jack-and-jane-complete-series",
+            "itemTitle": "Zoe, Duncan, Jack And Jane - The Complete Series",
+            "file": "Zoe, Duncan, Jack and Jane - 1x04 -To Jack, from Zoe.mp4",
+            "name": "Zoe, Duncan, Jack and Jane - 1x04 -To Jack, from Zoe",
+            "url": "https://archive.org/download/zoe-duncan-jack-and-jane-complete-series/Zoe%2C%20Duncan%2C%20Jack%20and%20Jane%20-%201x04%20-To%20Jack%2C%20from%20Zoe.mp4",
+            "seconds": 1267,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 461
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "Brothers_Keeper_ABC_Rarities",
+              "itemTitle": "Brother's Keeper (1998-1999, TGIF)",
+              "file": "104 Sneaking Into The Movies.mp4",
+              "name": "104 Sneaking Into The Movies",
+              "url": "https://archive.org/download/Brothers_Keeper_ABC_Rarities/104%20Sneaking%20Into%20The%20Movies.mp4",
+              "seconds": 1292,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 113
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "name": "Killer Bees",
+          "airdate": "1993-10-22",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "S/E in filename",
+            "item": "zoe-duncan-jack-and-jane-complete-series",
+            "itemTitle": "Zoe, Duncan, Jack And Jane - The Complete Series",
+            "file": "Zoe, Duncan, Jack and Jane - 1x05 - Sympathy for Jack.mp4",
+            "name": "Zoe, Duncan, Jack and Jane - 1x05 - Sympathy for Jack",
+            "url": "https://archive.org/download/zoe-duncan-jack-and-jane-complete-series/Zoe%2C%20Duncan%2C%20Jack%20and%20Jane%20-%201x05%20-%20Sympathy%20for%20Jack.mp4",
+            "seconds": 1279,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 462
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "Brothers_Keeper_ABC_Rarities",
+              "itemTitle": "Brother's Keeper (1998-1999, TGIF)",
+              "file": "105 Cleaning Lessons.mp4",
+              "name": "105 Cleaning Lessons",
+              "url": "https://archive.org/download/Brothers_Keeper_ABC_Rarities/105%20Cleaning%20Lessons.mp4",
+              "seconds": 1279,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 122
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "name": "Boys II Mensa",
+          "airdate": "1993-10-29",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "S/E in filename",
+            "item": "zoe-duncan-jack-and-jane-complete-series",
+            "itemTitle": "Zoe, Duncan, Jack And Jane - The Complete Series",
+            "file": "Zoe, Duncan, Jack and Jane - 1x06 - Hard Cheese on Zoe.mp4",
+            "name": "Zoe, Duncan, Jack and Jane - 1x06 - Hard Cheese on Zoe",
+            "url": "https://archive.org/download/zoe-duncan-jack-and-jane-complete-series/Zoe%2C%20Duncan%2C%20Jack%20and%20Jane%20-%201x06%20-%20Hard%20Cheese%20on%20Zoe.mp4",
+            "seconds": 1308,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 462
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Grandma Was a Rolling Stone",
+          "airdate": "1993-11-12",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "S/E in filename",
+            "item": "Brothers_Keeper_ABC_Rarities",
+            "itemTitle": "Brother's Keeper (1998-1999, TGIF)",
+            "file": "107 Kick Ball, Get Check.mp4",
+            "name": "107 Kick Ball, Get Check",
+            "url": "https://archive.org/download/Brothers_Keeper_ABC_Rarities/107%20Kick%20Ball%2C%20Get%20Check.mp4",
+            "seconds": 1288,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 128
+          },
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Teacher's Bet",
+          "airdate": "1993-11-19",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "S/E in filename",
+            "item": "zoe-duncan-jack-and-jane-complete-series",
+            "itemTitle": "Zoe, Duncan, Jack And Jane - The Complete Series",
+            "file": "Zoe, Duncan, Jack and Jane - 1x08 - A Good Man is Hard to Find.mp4",
+            "name": "Zoe, Duncan, Jack and Jane - 1x08 - A Good Man is Hard to Find",
+            "url": "https://archive.org/download/zoe-duncan-jack-and-jane-complete-series/Zoe%2C%20Duncan%2C%20Jack%20and%20Jane%20-%201x08%20-%20A%20Good%20Man%20is%20Hard%20to%20Find.mp4",
+            "seconds": 1317,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 461
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "Brothers_Keeper_ABC_Rarities",
+              "itemTitle": "Brother's Keeper (1998-1999, TGIF)",
+              "file": "108 You're In Trouble.mp4",
+              "name": "108 You're In Trouble",
+              "url": "https://archive.org/download/Brothers_Keeper_ABC_Rarities/108%20You're%20In%20Trouble.mp4",
+              "seconds": 1291,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 109
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "name": "Class Pre-Union",
+          "airdate": "1993-11-26",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "S/E in filename",
+            "item": "zoe-duncan-jack-and-jane-complete-series",
+            "itemTitle": "Zoe, Duncan, Jack And Jane - The Complete Series",
+            "file": "Zoe, Duncan, Jack and Jane - 1x09 - The Advice.mp4",
+            "name": "Zoe, Duncan, Jack and Jane - 1x09 - The Advice",
+            "url": "https://archive.org/download/zoe-duncan-jack-and-jane-complete-series/Zoe%2C%20Duncan%2C%20Jack%20and%20Jane%20-%201x09%20-%20The%20Advice.mp4",
+            "seconds": 1307,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 462
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "Brothers_Keeper_ABC_Rarities",
+              "itemTitle": "Brother's Keeper (1998-1999, TGIF)",
+              "file": "109 The Boss Of Me.mp4",
+              "name": "109 The Boss Of Me",
+              "url": "https://archive.org/download/Brothers_Keeper_ABC_Rarities/109%20The%20Boss%20Of%20Me.mp4",
+              "seconds": 1329,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 172
+            }
+          ]
+        },
+        {
+          "number": 10,
+          "name": "Santa's Little Helper",
+          "airdate": "1993-12-10",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "S/E in filename",
+            "item": "zoe-duncan-jack-and-jane-complete-series",
+            "itemTitle": "Zoe, Duncan, Jack And Jane - The Complete Series",
+            "file": "Zoe, Duncan, Jack and Jane - 1x10 - Under Mom's Thumb.mp4",
+            "name": "Zoe, Duncan, Jack and Jane - 1x10 - Under Mom's Thumb",
+            "url": "https://archive.org/download/zoe-duncan-jack-and-jane-complete-series/Zoe%2C%20Duncan%2C%20Jack%20and%20Jane%20-%201x10%20-%20Under%20Mom's%20Thumb.mp4",
+            "seconds": 1353,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 462
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "Brothers_Keeper_ABC_Rarities",
+              "itemTitle": "Brother's Keeper (1998-1999, TGIF)",
+              "file": "110 Note.mp4",
+              "name": "110 Note",
+              "url": "https://archive.org/download/Brothers_Keeper_ABC_Rarities/110%20Note.mp4",
+              "seconds": 1288,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 120
+            }
+          ]
+        },
+        {
+          "number": 11,
+          "name": "The Father/Son Game",
+          "airdate": "1993-12-17",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "S/E in filename",
+            "item": "zoe-duncan-jack-and-jane-complete-series",
+            "itemTitle": "Zoe, Duncan, Jack And Jane - The Complete Series",
+            "file": "Zoe, Duncan, Jack and Jane - 1x11 - Down and Out at Bleecker and Houston.mp4",
+            "name": "Zoe, Duncan, Jack and Jane - 1x11 - Down and Out at Bleecker and Houston",
+            "url": "https://archive.org/download/zoe-duncan-jack-and-jane-complete-series/Zoe%2C%20Duncan%2C%20Jack%20and%20Jane%20-%201x11%20-%20Down%20and%20Out%20at%20Bleecker%20and%20Houston.mp4",
+            "seconds": 1335,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 461
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "Brothers_Keeper_ABC_Rarities",
+              "itemTitle": "Brother's Keeper (1998-1999, TGIF)",
+              "file": "111 Pillow Talk.mp4",
+              "name": "111 Pillow Talk",
+              "url": "https://archive.org/download/Brothers_Keeper_ABC_Rarities/111%20Pillow%20Talk.mp4",
+              "seconds": 1294,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 118
+            }
+          ]
+        },
+        {
+          "number": 12,
+          "name": "Once in Love with Amy",
+          "airdate": "1994-01-07",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "S/E in filename",
+            "item": "zoe-duncan-jack-and-jane-complete-series",
+            "itemTitle": "Zoe, Duncan, Jack And Jane - The Complete Series",
+            "file": "Zoe, Duncan, Jack and Jane - 1x12 - Zoe Under the Influence.mp4",
+            "name": "Zoe, Duncan, Jack and Jane - 1x12 - Zoe Under the Influence",
+            "url": "https://archive.org/download/zoe-duncan-jack-and-jane-complete-series/Zoe%2C%20Duncan%2C%20Jack%20and%20Jane%20-%201x12%20-%20Zoe%20Under%20the%20Influence.mp4",
+            "seconds": 1327,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 462
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "Brothers_Keeper_ABC_Rarities",
+              "itemTitle": "Brother's Keeper (1998-1999, TGIF)",
+              "file": "112 The Date.mp4",
+              "name": "112 The Date",
+              "url": "https://archive.org/download/Brothers_Keeper_ABC_Rarities/112%20The%20Date.mp4",
+              "seconds": 1271,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 123
+            }
+          ]
+        },
+        {
+          "number": 13,
+          "name": "She Loves Me, She Loves Me Not",
+          "airdate": "1994-01-14",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "S/E in filename",
+            "item": "zoe-duncan-jack-and-jane-complete-series",
+            "itemTitle": "Zoe, Duncan, Jack And Jane - The Complete Series",
+            "file": "Zoe, Duncan, Jack and Jane - 1x13 - Run, Man Ray, Run.mp4",
+            "name": "Zoe, Duncan, Jack and Jane - 1x13 - Run, Man Ray, Run",
+            "url": "https://archive.org/download/zoe-duncan-jack-and-jane-complete-series/Zoe%2C%20Duncan%2C%20Jack%20and%20Jane%20-%201x13%20-%20Run%2C%20Man%20Ray%2C%20Run.mp4",
+            "seconds": 1313,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 462
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "S/E in filename",
+              "item": "Brothers_Keeper_ABC_Rarities",
+              "itemTitle": "Brother's Keeper (1998-1999, TGIF)",
+              "file": "113 You Are Me.mp4",
+              "name": "113 You Are Me",
+              "url": "https://archive.org/download/Brothers_Keeper_ABC_Rarities/113%20You%20Are%20Me.mp4",
+              "seconds": 1281,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 127
+            }
+          ]
+        },
+        {
+          "number": 14,
+          "name": "The B-Team of Life",
+          "airdate": "1994-01-28",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "S/E in filename",
+            "item": "Brothers_Keeper_ABC_Rarities",
+            "itemTitle": "Brother's Keeper (1998-1999, TGIF)",
+            "file": "114 Box Of Stuff.mp4",
+            "name": "114 Box Of Stuff",
+            "url": "https://archive.org/download/Brothers_Keeper_ABC_Rarities/114%20Box%20Of%20Stuff.mp4",
+            "seconds": 1289,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 131
+          },
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Model Family",
+          "airdate": "1994-02-04",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "S/E in filename",
+            "item": "Brothers_Keeper_ABC_Rarities",
+            "itemTitle": "Brother's Keeper (1998-1999, TGIF)",
+            "file": "115 Game Ball.mp4",
+            "name": "115 Game Ball",
+            "url": "https://archive.org/download/Brothers_Keeper_ABC_Rarities/115%20Game%20Ball.mp4",
+            "seconds": 1287,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 126
+          },
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Risky Business",
+          "airdate": "1994-02-11",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "S/E in filename",
+            "item": "Brothers_Keeper_ABC_Rarities",
+            "itemTitle": "Brother's Keeper (1998-1999, TGIF)",
+            "file": "116 Dating The Teacher.mp4",
+            "name": "116 Dating The Teacher",
+            "url": "https://archive.org/download/Brothers_Keeper_ABC_Rarities/116%20Dating%20The%20Teacher.mp4",
+            "seconds": 1291,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 126
+          },
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "The Fugitive",
+          "airdate": "1994-02-25",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "S/E in filename",
+            "item": "Brothers_Keeper_ABC_Rarities",
+            "itemTitle": "Brother's Keeper (1998-1999, TGIF)",
+            "file": "117 An Odd Couple Of Days.mp4",
+            "name": "117 An Odd Couple Of Days",
+            "url": "https://archive.org/download/Brothers_Keeper_ABC_Rarities/117%20An%20Odd%20Couple%20Of%20Days.mp4",
+            "seconds": 1292,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 110
+          },
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "It's a Wonderful Night",
+          "airdate": "1994-03-11",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "S/E in filename",
+            "item": "Brothers_Keeper_ABC_Rarities",
+            "itemTitle": "Brother's Keeper (1998-1999, TGIF)",
+            "file": "118 Everybody Says I Love You.mp4",
+            "name": "118 Everybody Says I Love You",
+            "url": "https://archive.org/download/Brothers_Keeper_ABC_Rarities/118%20Everybody%20Says%20I%20Love%20You.mp4",
+            "seconds": 1291,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 103
+          },
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Kid Gloves",
+          "airdate": "1994-03-25",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "S/E in filename",
+            "item": "Brothers_Keeper_ABC_Rarities",
+            "itemTitle": "Brother's Keeper (1998-1999, TGIF)",
+            "file": "119 Security Farce.mp4",
+            "name": "119 Security Farce",
+            "url": "https://archive.org/download/Brothers_Keeper_ABC_Rarities/119%20Security%20Farce.mp4",
+            "seconds": 1280,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 119
+          },
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "The Play's the Thing",
+          "airdate": "1994-04-29",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.65,
+            "why": "title ~ \"The Play's the Thing\" (0.95)",
+            "item": "teen-angel-1997-1998",
+            "itemTitle": "Teen Angel (1997-98, TGIF)",
+            "file": "10 The Play's The Thing.mp4",
+            "name": "10 The Play's The Thing",
+            "url": "https://archive.org/download/teen-angel-1997-1998/10%20The%20Play's%20The%20Thing.mp4",
+            "seconds": 1280,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 173
+          },
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Boy Meets Girl",
+          "airdate": "1994-05-06",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "S/E in filename",
+            "item": "Brothers_Keeper_ABC_Rarities",
+            "itemTitle": "Brother's Keeper (1998-1999, TGIF)",
+            "file": "121 Politically Impolite.mp4",
+            "name": "121 Politically Impolite",
+            "url": "https://archive.org/download/Brothers_Keeper_ABC_Rarities/121%20Politically%20Impolite.mp4",
+            "seconds": 1265,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 105
+          },
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "I Dream of Feeny",
+          "airdate": "1994-05-13",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "S/E in filename",
+            "item": "Brothers_Keeper_ABC_Rarities",
+            "itemTitle": "Brother's Keeper (1998-1999, TGIF)",
+            "file": "122 The New Client.mp4",
+            "name": "122 The New Client",
+            "url": "https://archive.org/download/Brothers_Keeper_ABC_Rarities/122%20The%20New%20Client.mp4",
+            "seconds": 1283,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 111
+          },
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Back 2 School",
+          "airdate": "1994-09-23",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "S/E in filename",
+            "item": "zoe-duncan-jack-and-jane-complete-series",
+            "itemTitle": "Zoe, Duncan, Jack And Jane - The Complete Series",
+            "file": "Zoe, Duncan, Jack and Jane - 2x01 - No Good Deed.mp4",
+            "name": "Zoe, Duncan, Jack and Jane - 2x01 - No Good Deed",
+            "url": "https://archive.org/download/zoe-duncan-jack-and-jane-complete-series/Zoe%2C%20Duncan%2C%20Jack%20and%20Jane%20-%202x01%20-%20No%20Good%20Deed.mp4",
+            "seconds": 1376,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 462
+          },
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Pairing Off",
+          "airdate": "1994-09-30",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "S/E in filename",
+            "item": "zoe-duncan-jack-and-jane-complete-series",
+            "itemTitle": "Zoe, Duncan, Jack And Jane - The Complete Series",
+            "file": "Zoe, Duncan, Jack and Jane - 2x02 - The Customer Is Always Vic.mp4",
+            "name": "Zoe, Duncan, Jack and Jane - 2x02 - The Customer Is Always Vic",
+            "url": "https://archive.org/download/zoe-duncan-jack-and-jane-complete-series/Zoe%2C%20Duncan%2C%20Jack%20and%20Jane%20-%202x02%20-%20The%20Customer%20Is%20Always%20Vic.mp4",
+            "seconds": 1314,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 462
+          },
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Notorious",
+          "airdate": "1994-10-07",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "S/E in filename",
+            "item": "zoe-duncan-jack-and-jane-complete-series",
+            "itemTitle": "Zoe, Duncan, Jack And Jane - The Complete Series",
+            "file": "Zoe, Duncan, Jack and Jane - 2x03 - I Don't Feel So Good.mp4",
+            "name": "Zoe, Duncan, Jack and Jane - 2x03 - I Don't Feel So Good",
+            "url": "https://archive.org/download/zoe-duncan-jack-and-jane-complete-series/Zoe%2C%20Duncan%2C%20Jack%20and%20Jane%20-%202x03%20-%20I%20Don't%20Feel%20So%20Good.mp4",
+            "seconds": 1263,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 462
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Me and Mr. Joad",
+          "airdate": "1994-10-14",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "S/E in filename",
+            "item": "zoe-duncan-jack-and-jane-complete-series",
+            "itemTitle": "Zoe, Duncan, Jack And Jane - The Complete Series",
+            "file": "Zoe, Duncan, Jack and Jane - 2x04 - Kiss of Death.mp4",
+            "name": "Zoe, Duncan, Jack and Jane - 2x04 - Kiss of Death",
+            "url": "https://archive.org/download/zoe-duncan-jack-and-jane-complete-series/Zoe%2C%20Duncan%2C%20Jack%20and%20Jane%20-%202x04%20-%20Kiss%20of%20Death.mp4",
+            "seconds": 1265,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 462
+          },
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "The Uninvited",
+          "airdate": "1994-10-21",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "S/E in filename",
+            "item": "zoe-duncan-jack-and-jane-complete-series",
+            "itemTitle": "Zoe, Duncan, Jack And Jane - The Complete Series",
+            "file": "Zoe, Duncan, Jack and Jane - 2x05 - The Feud.mp4",
+            "name": "Zoe, Duncan, Jack and Jane - 2x05 - The Feud",
+            "url": "https://archive.org/download/zoe-duncan-jack-and-jane-complete-series/Zoe%2C%20Duncan%2C%20Jack%20and%20Jane%20-%202x05%20-%20The%20Feud.mp4",
+            "seconds": 1325,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 462
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Who's Afraid of Cory Wolf?",
+          "airdate": "1994-10-28",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "S/E in filename",
+            "item": "zoe-duncan-jack-and-jane-complete-series",
+            "itemTitle": "Zoe, Duncan, Jack And Jane - The Complete Series",
+            "file": "Zoe, Duncan, Jack and Jane - 2x06 - A Midsummer Night's Nightmare.mp4",
+            "name": "Zoe, Duncan, Jack and Jane - 2x06 - A Midsummer Night's Nightmare",
+            "url": "https://archive.org/download/zoe-duncan-jack-and-jane-complete-series/Zoe%2C%20Duncan%2C%20Jack%20and%20Jane%20-%202x06%20-%20A%20Midsummer%20Night's%20Nightmare.mp4",
+            "seconds": 1326,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 462
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Wake Up, Little Cory",
+          "airdate": "1994-11-04",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "S/E in filename",
+            "item": "zoe-duncan-jack-and-jane-complete-series",
+            "itemTitle": "Zoe, Duncan, Jack And Jane - The Complete Series",
+            "file": "Zoe, Duncan, Jack and Jane - 2x07 - Crossing the Line.mp4",
+            "name": "Zoe, Duncan, Jack and Jane - 2x07 - Crossing the Line",
+            "url": "https://archive.org/download/zoe-duncan-jack-and-jane-complete-series/Zoe%2C%20Duncan%2C%20Jack%20and%20Jane%20-%202x07%20-%20Crossing%20the%20Line.mp4",
+            "seconds": 1319,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 462
+          },
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Band on the Run",
+          "airdate": "1994-11-11",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "S/E in filename",
+            "item": "zoe-duncan-jack-and-jane-complete-series",
+            "itemTitle": "Zoe, Duncan, Jack And Jane - The Complete Series",
+            "file": "Zoe, Duncan, Jack and Jane - 2x08 - Desperately Seeking Zoe.mp4",
+            "name": "Zoe, Duncan, Jack and Jane - 2x08 - Desperately Seeking Zoe",
+            "url": "https://archive.org/download/zoe-duncan-jack-and-jane-complete-series/Zoe%2C%20Duncan%2C%20Jack%20and%20Jane%20-%202x08%20-%20Desperately%20Seeking%20Zoe.mp4",
+            "seconds": 1338,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 462
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Fear Strikes Out",
+          "airdate": "1994-11-18",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "S/E in filename",
+            "item": "zoe-duncan-jack-and-jane-complete-series",
+            "itemTitle": "Zoe, Duncan, Jack And Jane - The Complete Series",
+            "file": "Zoe, Duncan, Jack and Jane - 2x09 - Tall, Dark and Ducan's Boss.mp4",
+            "name": "Zoe, Duncan, Jack and Jane - 2x09 - Tall, Dark and Ducan's Boss",
+            "url": "https://archive.org/download/zoe-duncan-jack-and-jane-complete-series/Zoe%2C%20Duncan%2C%20Jack%20and%20Jane%20-%202x09%20-%20Tall%2C%20Dark%20and%20Ducan's%20Boss.mp4",
+            "seconds": 1320,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 462
+          },
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Sister Theresa",
+          "airdate": "1994-11-25",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "S/E in filename",
+            "item": "zoe-duncan-jack-and-jane-complete-series",
+            "itemTitle": "Zoe, Duncan, Jack And Jane - The Complete Series",
+            "file": "Zoe, Duncan, Jack and Jane - 2x10 - My Dinner with Andy.mp4",
+            "name": "Zoe, Duncan, Jack and Jane - 2x10 - My Dinner with Andy",
+            "url": "https://archive.org/download/zoe-duncan-jack-and-jane-complete-series/Zoe%2C%20Duncan%2C%20Jack%20and%20Jane%20-%202x10%20-%20My%20Dinner%20with%20Andy.mp4",
+            "seconds": 1318,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 462
+          },
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "The Beard",
+          "airdate": "1994-12-09",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "S/E in filename",
+            "item": "zoe-duncan-jack-and-jane-complete-series",
+            "itemTitle": "Zoe, Duncan, Jack And Jane - The Complete Series",
+            "file": "Zoe, Duncan, Jack and Jane - 2x11 - Too Much Pressure.mp4",
+            "name": "Zoe, Duncan, Jack and Jane - 2x11 - Too Much Pressure",
+            "url": "https://archive.org/download/zoe-duncan-jack-and-jane-complete-series/Zoe%2C%20Duncan%2C%20Jack%20and%20Jane%20-%202x11%20-%20Too%20Much%20Pressure.mp4",
+            "seconds": 1321,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 462
+          },
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Turnaround",
+          "airdate": "1994-12-16",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "S/E in filename",
+            "item": "zoe-duncan-jack-and-jane-complete-series",
+            "itemTitle": "Zoe, Duncan, Jack And Jane - The Complete Series",
+            "file": "Zoe, Duncan, Jack and Jane - 2x12 - Party Girls.mp4",
+            "name": "Zoe, Duncan, Jack and Jane - 2x12 - Party Girls",
+            "url": "https://archive.org/download/zoe-duncan-jack-and-jane-complete-series/Zoe%2C%20Duncan%2C%20Jack%20and%20Jane%20-%202x12%20-%20Party%20Girls.mp4",
+            "seconds": 1296,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 462
+          },
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Cyrano",
+          "airdate": "1995-01-06",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.75,
+            "why": "S/E in filename",
+            "item": "zoe-duncan-jack-and-jane-complete-series",
+            "itemTitle": "Zoe, Duncan, Jack And Jane - The Complete Series",
+            "file": "Zoe, Duncan, Jack and Jane - 2x13 - Three Years Later.mp4",
+            "name": "Zoe, Duncan, Jack and Jane - 2x13 - Three Years Later",
+            "url": "https://archive.org/download/zoe-duncan-jack-and-jane-complete-series/Zoe%2C%20Duncan%2C%20Jack%20and%20Jane%20-%202x13%20-%20Three%20Years%20Later.mp4",
+            "seconds": 1320,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 461
+          },
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "I Am Not a Crook",
+          "airdate": "1995-01-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Breaking Up is Really, Really Hard to Do",
+          "airdate": "1995-01-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Danger Boy",
+          "airdate": "1995-02-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "On the Air",
+          "airdate": "1995-02-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "By Hook or By Crook",
+          "airdate": "1995-02-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Wrong Side of the Tracks",
+          "airdate": "1995-02-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Pop Quiz",
+          "airdate": "1995-03-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "The Thrilla' in Phila'",
+          "airdate": "1995-05-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Career Day",
+          "airdate": "1995-05-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "Home",
+          "airdate": "1995-05-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "My Best Friend's Girl",
+          "airdate": "1995-09-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "The Double Lie",
+          "airdate": "1995-09-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "What I Meant to Say",
+          "airdate": "1995-10-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "He Said, She Said",
+          "airdate": "1995-10-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Hometown Hero",
+          "airdate": "1995-10-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "This Little Piggy",
+          "airdate": "1995-11-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Truth and Consequences",
+          "airdate": "1995-11-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Rave On",
+          "airdate": "1995-11-17",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Rave On\" (0.95)",
+            "item": "boy-meets-world-1993-rave-on-micky-davy-peter",
+            "itemTitle": "Boy Meets World ( 1993) Rave On ( Micky, Davy, Peter)",
+            "file": "Boy Meets World (1993) Rave On (Micky, Davy, Peter).mp4",
+            "name": "Boy Meets World (1993) Rave On (Micky, Davy, Peter)",
+            "url": "https://archive.org/download/boy-meets-world-1993-rave-on-micky-davy-peter/Boy%20Meets%20World%20(1993)%20Rave%20On%20(Micky%2C%20Davy%2C%20Peter).mp4",
+            "seconds": 1345,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 130
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "The Last Temptation of Cory",
+          "airdate": "1995-12-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Train of Fools",
+          "airdate": "1995-12-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "City Slackers",
+          "airdate": "1996-01-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "The Grass is Always Greener",
+          "airdate": "1996-01-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "New Friends and Old",
+          "airdate": "1996-01-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "A Kiss is More Than a Kiss",
+          "airdate": "1996-01-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "The Heart is a Lonely Hunter",
+          "airdate": "1996-02-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Stormy Weather",
+          "airdate": "1996-02-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "The Pink Flamingo Kid",
+          "airdate": "1996-02-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Life Lessons",
+          "airdate": "1996-02-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "I Was a Teenage Spy",
+          "airdate": "1996-04-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "I Never Sang for My Legal Guardian",
+          "airdate": "1996-05-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "The Happiest Show on Earth",
+          "airdate": "1996-05-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Brother Brother",
+          "airdate": "1996-05-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 4,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "You Can Go Home Again",
+          "airdate": "1996-09-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Hair Today, Goon Tomorrow",
+          "airdate": "1996-09-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "I Ain't Gonna Spray Lettuce No More",
+          "airdate": "1996-10-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Fishing for Virna",
+          "airdate": "1996-10-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Shallow Boy",
+          "airdate": "1996-10-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Janitor Dad",
+          "airdate": "1996-10-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Singled Out",
+          "airdate": "1996-11-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Dangerous Secret",
+          "airdate": "1996-11-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Sixteen Candles and Four-Hundred-Pound Men",
+          "airdate": "1996-11-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Turkey Day",
+          "airdate": "1996-11-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "An Affair to Forget",
+          "airdate": "1996-11-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Easy Street",
+          "airdate": "1996-12-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "B & B's B'n B",
+          "airdate": "1997-01-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Wheels",
+          "airdate": "1997-01-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Chick Like Me",
+          "airdate": "1997-01-31",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "A Long Walk to Pittsburgh (1)",
+          "airdate": "1997-02-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "A Long Walk to Pittsburgh (2)",
+          "airdate": "1997-02-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Uncle Daddy",
+          "airdate": "1997-02-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Quiz Show",
+          "airdate": "1997-03-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Security Guy",
+          "airdate": "1997-04-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Cult Fiction",
+          "airdate": "1997-04-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Learning to Fly",
+          "airdate": "1997-05-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 5,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Brothers",
+          "airdate": "1997-10-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Boy Meets Real World",
+          "airdate": "1997-10-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "It's Not You ... It's Me",
+          "airdate": "1997-10-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Fraternity Row",
+          "airdate": "1997-10-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "The Witches of Pennbrook",
+          "airdate": "1997-10-31",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "No Guts, No Cory",
+          "airdate": "1997-11-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "I Love You, Donna Karan (1)",
+          "airdate": "1997-11-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Chasing Angela (2)",
+          "airdate": "1997-11-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "How to Succeed in Business",
+          "airdate": "1997-11-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Last Tango in Philly",
+          "airdate": "1997-12-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "A Very Topanga Christmas",
+          "airdate": "1997-12-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Raging Cory",
+          "airdate": "1998-01-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "The Eskimo",
+          "airdate": "1998-01-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Heartbreak Cory",
+          "airdate": "1998-02-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "First Girlfriends' Club",
+          "airdate": "1998-02-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Torn Between Two Lovers (Feeling Like a Fool)",
+          "airdate": "1998-02-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "And Then There Was Shawn",
+          "airdate": "1998-02-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "If You Can't Be with the One You Love...",
+          "airdate": "1998-03-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Eric Hollywood",
+          "airdate": "1998-03-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Starry Night",
+          "airdate": "1998-04-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Honesty Night",
+          "airdate": "1998-04-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Prom-ises, Prom-ises",
+          "airdate": "1998-05-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "Things Change",
+          "airdate": "1998-05-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "Graduation",
+          "airdate": "1998-05-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 6,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "His Answer (1)",
+          "airdate": "1998-09-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Her Answer (2)",
+          "airdate": "1998-10-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Ain't College Great?",
+          "airdate": "1998-10-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Friendly Persuasion",
+          "airdate": "1998-10-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Better Than the Average Cory",
+          "airdate": "1998-10-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Hogs and Kisses",
+          "airdate": "1998-10-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Everybody Loves Stuart",
+          "airdate": "1998-11-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "You're Married You're Dead",
+          "airdate": "1998-11-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Poetic License: An Ode to Holden Caulfield",
+          "airdate": "1998-11-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "And in Case I Don't See Ya",
+          "airdate": "1998-12-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Santa's Little Helpers",
+          "airdate": "1998-12-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Cutting the Cord",
+          "airdate": "1999-01-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "We'll Have a Good Time Then",
+          "airdate": "1999-01-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Getting Hitched",
+          "airdate": "1999-01-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Road Trip",
+          "airdate": "1999-02-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "My Baby Valentine",
+          "airdate": "1999-02-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Resurrection",
+          "airdate": "1999-02-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Can I Help to Cheer You?",
+          "airdate": "1999-03-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Bee True",
+          "airdate": "1999-04-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "The Truth About Honesty",
+          "airdate": "1999-04-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "The Psychotic Episode",
+          "airdate": "1999-05-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "State of the Unions",
+          "airdate": "1999-05-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 7,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Show Me the Love",
+          "airdate": "1999-09-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "For Love and Apartments",
+          "airdate": "1999-10-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Angela's Men",
+          "airdate": "1999-10-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "No Such Thing as a Sure Thing",
+          "airdate": "1999-10-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "You Light Up My Union",
+          "airdate": "1999-10-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "They're Killing Us",
+          "airdate": "1999-10-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "It's About Time",
+          "airdate": "1999-11-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "The Honeymooners",
+          "airdate": "1999-11-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "The Honeymoon is Over",
+          "airdate": "1999-11-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Picket Fences",
+          "airdate": "1999-11-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "What a Drag!",
+          "airdate": "1999-12-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Family Trees",
+          "airdate": "1999-12-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "The Provider",
+          "airdate": "2000-01-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "I'm Gonna Be Like You, Dad",
+          "airdate": "2000-01-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "The War (1)",
+          "airdate": "2000-02-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Seven the Hard Way (2)",
+          "airdate": "2000-02-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "She's Having My Baby Back Ribs",
+          "airdate": "2000-03-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "How Cory and Topanga Got Their Groove Back",
+          "airdate": "2000-03-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Brotherly Shove",
+          "airdate": "2000-03-31",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "As Time Goes By",
+          "airdate": "2000-04-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Angela's Ashes",
+          "airdate": "2000-04-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Brave New World (1)",
+          "airdate": "2000-05-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "Brave New World (2)",
+          "airdate": "2000-05-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    }
+  ]
+}

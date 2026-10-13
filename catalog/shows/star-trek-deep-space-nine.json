@@ -1,0 +1,3824 @@
+{
+  "show": "Star Trek: Deep Space Nine",
+  "slug": "star-trek-deep-space-nine",
+  "type": "Sci-Fi, Fantasy and Horror",
+  "network": "Syndicated",
+  "matchedAt": "2026-10-13T07:46:16.991Z",
+  "tvmaze": {
+    "id": 493,
+    "name": "Star Trek: Deep Space Nine",
+    "runtime": 60,
+    "premiered": "1993-01-03",
+    "network": "Syndication"
+  },
+  "coverage": {
+    "total": 176,
+    "live": 169,
+    "review": 2,
+    "missing": 5,
+    "pct": 97
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Emissary, Part I",
+          "airdate": "1993-01-03",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 1 of 6 in \"Star Trek: Deep Space Nine - Best Buy Bo\"",
+            "item": "StarTrek-DS9-BonusDVDs",
+            "itemTitle": "Star Trek: Deep Space Nine - Best Buy Bonus DVDs",
+            "file": "DS9_BONUSSAMPLER_SEASON4.mp4",
+            "name": "DS9_BONUSSAMPLER_SEASON4",
+            "url": "https://archive.org/download/StarTrek-DS9-BonusDVDs/DS9_BONUSSAMPLER_SEASON4.mp4",
+            "seconds": 2742,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 244
+          },
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Emissary, Part II",
+          "airdate": "1993-01-03",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 2 of 6 in \"Star Trek: Deep Space Nine - Best Buy Bo\"",
+            "item": "StarTrek-DS9-BonusDVDs",
+            "itemTitle": "Star Trek: Deep Space Nine - Best Buy Bonus DVDs",
+            "file": "DS9_BONUSSAMPLER_SEASON420.mp4",
+            "name": "DS9_BONUSSAMPLER_SEASON420",
+            "url": "https://archive.org/download/StarTrek-DS9-BonusDVDs/DS9_BONUSSAMPLER_SEASON420.mp4",
+            "seconds": 2742,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 244
+          },
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Past Prologue",
+          "airdate": "1993-01-10",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 1x03 Prologue.mp4",
+            "name": "Star Trek Deep Space Nine 1x03 Prologue",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%201x03%20Prologue.mp4",
+            "seconds": 2611,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 359
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 3 of 6 in \"Star Trek: Deep Space Nine - Best Buy Bo\"",
+              "item": "StarTrek-DS9-BonusDVDs",
+              "itemTitle": "Star Trek: Deep Space Nine - Best Buy Bonus DVDs",
+              "file": "DS9_BONUSSAMPLER_SEASON421.mp4",
+              "name": "DS9_BONUSSAMPLER_SEASON421",
+              "url": "https://archive.org/download/StarTrek-DS9-BonusDVDs/DS9_BONUSSAMPLER_SEASON421.mp4",
+              "seconds": 2742,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 244
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "name": "A Man Alone",
+          "airdate": "1993-01-17",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 1x04 Un Homme Seul.mp4",
+            "name": "Star Trek Deep Space Nine 1x04 Un Homme Seul",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%201x04%20Un%20Homme%20Seul.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 4 of 6 in \"Star Trek: Deep Space Nine - Best Buy Bo\"",
+              "item": "StarTrek-DS9-BonusDVDs",
+              "itemTitle": "Star Trek: Deep Space Nine - Best Buy Bonus DVDs",
+              "file": "DS9_BONUSSAMPLER_SEASON433.mp4",
+              "name": "DS9_BONUSSAMPLER_SEASON433",
+              "url": "https://archive.org/download/StarTrek-DS9-BonusDVDs/DS9_BONUSSAMPLER_SEASON433.mp4",
+              "seconds": 2742,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 244
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "name": "Babel",
+          "airdate": "1993-01-24",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 1x05 Babel.mp4",
+            "name": "Star Trek Deep Space Nine 1x05 Babel",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%201x05%20Babel.mp4",
+            "seconds": 2614,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 361
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 5 of 6 in \"Star Trek: Deep Space Nine - Best Buy Bo\"",
+              "item": "StarTrek-DS9-BonusDVDs",
+              "itemTitle": "Star Trek: Deep Space Nine - Best Buy Bonus DVDs",
+              "file": "DS9_BONUSSAMPLER_SEASON434.mp4",
+              "name": "DS9_BONUSSAMPLER_SEASON434",
+              "url": "https://archive.org/download/StarTrek-DS9-BonusDVDs/DS9_BONUSSAMPLER_SEASON434.mp4",
+              "seconds": 2742,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 244
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "name": "Captive Pursuit",
+          "airdate": "1993-01-31",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 1x06 La Poursuite.mp4",
+            "name": "Star Trek Deep Space Nine 1x06 La Poursuite",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%201x06%20La%20Poursuite.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+              "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+              "file": "Star Trek Deep Space Nine 1X06 La Poursuite.ia.mp4",
+              "name": "Star Trek Deep Space Nine 1X06 La Poursuite",
+              "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%201X06%20La%20Poursuite.ia.mp4",
+              "seconds": 2617,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 264
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 6 of 6 in \"Star Trek: Deep Space Nine - Best Buy Bo\"",
+              "item": "StarTrek-DS9-BonusDVDs",
+              "itemTitle": "Star Trek: Deep Space Nine - Best Buy Bonus DVDs",
+              "file": "DS9_BONUSSAMPLER_SEASON442.mp4",
+              "name": "DS9_BONUSSAMPLER_SEASON442",
+              "url": "https://archive.org/download/StarTrek-DS9-BonusDVDs/DS9_BONUSSAMPLER_SEASON442.mp4",
+              "seconds": 2742,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 244
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "name": "Q-Less",
+          "airdate": "1993-02-07",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 1x07 Moins Q.mp4",
+            "name": "Star Trek Deep Space Nine 1x07 Moins Q",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%201x07%20Moins%20Q.mp4",
+            "seconds": 2611,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 365
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+              "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+              "file": "Star Trek Deep Space Nine 1X07 Moins Q.ia.mp4",
+              "name": "Star Trek Deep Space Nine 1X07 Moins Q",
+              "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%201X07%20Moins%20Q.ia.mp4",
+              "seconds": 2611,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 262
+            },
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Q-Less\" (0.67)",
+              "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+              "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+              "file": "Star Trek Deep Space Nine 4x07 Les.Karemmas.ia.mp4",
+              "name": "Star Trek Deep Space Nine 4x07 Les",
+              "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%204x07%20Les.Karemmas.ia.mp4",
+              "seconds": 2617,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 262
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "name": "Dax",
+          "airdate": "1993-02-14",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 1x08 Dax.mp4",
+            "name": "Star Trek Deep Space Nine 1x08 Dax",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%201x08%20Dax.mp4",
+            "seconds": 2609,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "The Passenger",
+          "airdate": "1993-02-21",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 1x09 Le Passager.mp4",
+            "name": "Star Trek Deep Space Nine 1x09 Le Passager",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%201x09%20Le%20Passager.mp4",
+            "seconds": 2618,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 395
+          },
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Move Along Home",
+          "airdate": "1993-03-14",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 1x10 Qui Perd Gagne.mp4",
+            "name": "Star Trek Deep Space Nine 1x10 Qui Perd Gagne",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%201x10%20Qui%20Perd%20Gagne.mp4",
+            "seconds": 2610,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "The Nagus",
+          "airdate": "1993-03-21",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 1x11 Le Grand Nagus.mp4",
+            "name": "Star Trek Deep Space Nine 1x11 Le Grand Nagus",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%201x11%20Le%20Grand%20Nagus.mp4",
+            "seconds": 2610,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Vortex",
+          "airdate": "1993-04-18",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 1x12 Tourbillon.mp4",
+            "name": "Star Trek Deep Space Nine 1x12 Tourbillon",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%201x12%20Tourbillon.mp4",
+            "seconds": 2610,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 372
+          },
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Battle Lines",
+          "airdate": "1993-04-25",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 1x13 Derrière les Lignes Ennemies.mp4",
+            "name": "Star Trek Deep Space Nine 1x13 Derrière les Lignes Ennemies",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%201x13%20Derri%C3%A8re%20les%20Lignes%20Ennemies.mp4",
+            "seconds": 2610,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "The Storyteller",
+          "airdate": "1993-05-02",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 1x14 Le Conteur.mp4",
+            "name": "Star Trek Deep Space Nine 1x14 Le Conteur",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%201x14%20Le%20Conteur.mp4",
+            "seconds": 2610,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Progress",
+          "airdate": "1993-05-09",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 1x15 Progrès.mp4",
+            "name": "Star Trek Deep Space Nine 1x15 Progrès",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%201x15%20Progr%C3%A8s.mp4",
+            "seconds": 2616,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "If Wishes Were Horses",
+          "airdate": "1993-05-16",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 1x16 Avec des Si.mp4",
+            "name": "Star Trek Deep Space Nine 1x16 Avec des Si",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%201x16%20Avec%20des%20Si.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 361
+          },
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "The Forsaken",
+          "airdate": "1993-05-23",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 1x17 Abandon.mp4",
+            "name": "Star Trek Deep Space Nine 1x17 Abandon",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%201x17%20Abandon.mp4",
+            "seconds": 2616,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Dramatis Personae",
+          "airdate": "1993-05-30",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 1x18 Dramatis Personae.mp4",
+            "name": "Star Trek Deep Space Nine 1x18 Dramatis Personae",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%201x18%20Dramatis%20Personae.mp4",
+            "seconds": 2616,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 395
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+              "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+              "file": "Star Trek Deep Space Nine 1x18 Dramatis Personae..ia.mp4",
+              "name": "Star Trek Deep Space Nine 1x18 Dramatis Personae.",
+              "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%201x18%20Dramatis%20Personae..ia.mp4",
+              "seconds": 2616,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 256
+            }
+          ]
+        },
+        {
+          "number": 19,
+          "name": "Duet",
+          "airdate": "1993-06-13",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 1x19 Duet.mp4",
+            "name": "Star Trek Deep Space Nine 1x19 Duet",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%201x19%20Duet.mp4",
+            "seconds": 2618,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 395
+          },
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "In the Hands of the Prophets",
+          "airdate": "1993-06-20",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 1x20 Entre les Mains des Prophètes.mp4",
+            "name": "Star Trek Deep Space Nine 1x20 Entre les Mains des Prophètes",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%201x20%20Entre%20les%20Mains%20des%20Proph%C3%A8tes.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "The Homecoming",
+          "airdate": "1993-09-26",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 2x01 Le Retour.mp4",
+            "name": "Star Trek Deep Space Nine 2x01 Le Retour",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%202x01%20Le%20Retour.mp4",
+            "seconds": 2616,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "The Circle",
+          "airdate": "1993-10-03",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 2x02 Le Cercle.mp4",
+            "name": "Star Trek Deep Space Nine 2x02 Le Cercle",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%202x02%20Le%20Cercle.mp4",
+            "seconds": 2616,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "The Siege",
+          "airdate": "1993-10-10",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 2x03 Le Siège.mp4",
+            "name": "Star Trek Deep Space Nine 2x03 Le Siège",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%202x03%20Le%20Si%C3%A8ge.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Invasive Procedures",
+          "airdate": "1993-10-17",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 2x04 Intrusion.mp4",
+            "name": "Star Trek Deep Space Nine 2x04 Intrusion",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%202x04%20Intrusion.mp4",
+            "seconds": 2619,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Cardassians",
+          "airdate": "1993-10-24",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 2x05 Les Cardassiens.mp4",
+            "name": "Star Trek Deep Space Nine 2x05 Les Cardassiens",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%202x05%20Les%20Cardassiens.mp4",
+            "seconds": 2618,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 359
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+              "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+              "file": "Star Trek Deep Space Nine 2x05 Les Cardassiens..ia.mp4",
+              "name": "Star Trek Deep Space Nine 2x05 Les Cardassiens.",
+              "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%202x05%20Les%20Cardassiens..ia.mp4",
+              "seconds": 2618,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 263
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "name": "Melora",
+          "airdate": "1993-10-31",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 2x06 Melora.mp4",
+            "name": "Star Trek Deep Space Nine 2x06 Melora",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%202x06%20Melora.mp4",
+            "seconds": 2741,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 866
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Rules of Acquisition",
+          "airdate": "1993-11-07",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 2x07 Les Devises de L'Acquisition.mp4",
+            "name": "Star Trek Deep Space Nine 2x07 Les Devises de L'Acquisition",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%202x07%20Les%20Devises%20de%20L'Acquisition.mp4",
+            "seconds": 2614,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 364
+          },
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Necessary Evil",
+          "airdate": "1993-11-14",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 2x08 Démons Intérieurs.mp4",
+            "name": "Star Trek Deep Space Nine 2x08 Démons Intérieurs",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%202x08%20D%C3%A9mons%20Int%C3%A9rieurs.mp4",
+            "seconds": 2613,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Second Sight",
+          "airdate": "1993-11-21",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 2x09 Double Vue.mp4",
+            "name": "Star Trek Deep Space Nine 2x09 Double Vue",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%202x09%20Double%20Vue.mp4",
+            "seconds": 2609,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 359
+          },
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Sanctuary",
+          "airdate": "1993-11-28",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 2x10 Le Sanctuaire.mp4",
+            "name": "Star Trek Deep Space Nine 2x10 Le Sanctuaire",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%202x10%20Le%20Sanctuaire.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 359
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+              "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+              "file": "Star Trek Deep Space Nine 2x10.Le.Sanctuaire.ia.mp4",
+              "name": "Star Trek Deep Space Nine 2x10.Le",
+              "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%202x10.Le.Sanctuaire.ia.mp4",
+              "seconds": 2617,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 263
+            }
+          ]
+        },
+        {
+          "number": 11,
+          "name": "Rivals",
+          "airdate": "1994-01-02",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 2x11 Les Rivaux.mp4",
+            "name": "Star Trek Deep Space Nine 2x11 Les Rivaux",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%202x11%20Les%20Rivaux.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 370
+          },
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "The Alternate",
+          "airdate": "1994-01-09",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 2x12 L'Autre.mp4",
+            "name": "Star Trek Deep Space Nine 2x12 L'Autre",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%202x12%20L'Autre.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Armageddon Game",
+          "airdate": "1994-01-30",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 2x13 Annihilation.mp4",
+            "name": "Star Trek Deep Space Nine 2x13 Annihilation",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%202x13%20Annihilation.mp4",
+            "seconds": 2618,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Whispers",
+          "airdate": "1994-02-06",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 2x14 Murmures.mp4",
+            "name": "Star Trek Deep Space Nine 2x14 Murmures",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%202x14%20Murmures.mp4",
+            "seconds": 2618,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 359
+          },
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Paradise",
+          "airdate": "1994-02-13",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 2x15 Paradis.mp4",
+            "name": "Star Trek Deep Space Nine 2x15 Paradis",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%202x15%20Paradis.mp4",
+            "seconds": 2618,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Paradise\" (0.67)",
+              "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+              "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+              "file": "Star Trek Deep Space Nine 4x12 Paradis Perdu.mp4",
+              "name": "Star Trek Deep Space Nine 4x12 Paradis Perdu",
+              "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%204x12%20Paradis%20Perdu.mp4",
+              "seconds": 2617,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 357
+            }
+          ]
+        },
+        {
+          "number": 16,
+          "name": "Shadowplay",
+          "airdate": "1994-02-20",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 2x16 Mirages.mp4",
+            "name": "Star Trek Deep Space Nine 2x16 Mirages",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%202x16%20Mirages.mp4",
+            "seconds": 2619,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+              "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+              "file": "Star Trek Deep Space Nine 2x16 Mirages..ia.mp4",
+              "name": "Star Trek Deep Space Nine 2x16 Mirages.",
+              "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%202x16%20Mirages..ia.mp4",
+              "seconds": 2619,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 261
+            }
+          ]
+        },
+        {
+          "number": 17,
+          "name": "Playing God",
+          "airdate": "1994-02-27",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 2x17 Démiurge.mp4",
+            "name": "Star Trek Deep Space Nine 2x17 Démiurge",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%202x17%20D%C3%A9miurge.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Profit and Loss",
+          "airdate": "1994-03-20",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 2x18 Pertes et Profits.mp4",
+            "name": "Star Trek Deep Space Nine 2x18 Pertes et Profits",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%202x18%20Pertes%20et%20Profits.mp4",
+            "seconds": 2616,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Blood Oath",
+          "airdate": "1994-03-27",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 2x19 Le Pacte De Sang.mp4",
+            "name": "Star Trek Deep Space Nine 2x19 Le Pacte De Sang",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%202x19%20Le%20Pacte%20De%20Sang.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "The Maquis, Part I",
+          "airdate": "1994-04-24",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 2x20 Le Maquis (Part 1).mp4",
+            "name": "Star Trek Deep Space Nine 2x20 Le Maquis (Part 1)",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%202x20%20Le%20Maquis%20(Part%201).mp4",
+            "seconds": 2616,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 359
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"The Maquis, Part I\" (0.80)",
+              "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+              "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+              "file": "Star Trek Deep Space Nine 2x21 Le Maquis (Part 2).mp4",
+              "name": "Star Trek Deep Space Nine 2x21 Le Maquis (Part 2)",
+              "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%202x21%20Le%20Maquis%20(Part%202).mp4",
+              "seconds": 2616,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 359
+            }
+          ]
+        },
+        {
+          "number": 21,
+          "name": "The Maquis, Part II",
+          "airdate": "1994-05-01",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 2x21 Le Maquis (Part 2).mp4",
+            "name": "Star Trek Deep Space Nine 2x21 Le Maquis (Part 2)",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%202x21%20Le%20Maquis%20(Part%202).mp4",
+            "seconds": 2616,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 359
+          },
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "The Wire",
+          "airdate": "1994-05-08",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 2x22 L'Implant.mp4",
+            "name": "Star Trek Deep Space Nine 2x22 L'Implant",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%202x22%20L'Implant.mp4",
+            "seconds": 2618,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "Crossover",
+          "airdate": "1994-05-15",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 2x23 Entrelacs.mp4",
+            "name": "Star Trek Deep Space Nine 2x23 Entrelacs",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%202x23%20Entrelacs.mp4",
+            "seconds": 2616,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "The Collaborator",
+          "airdate": "1994-05-22",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 2x24 Le Collaborateur.mp4",
+            "name": "Star Trek Deep Space Nine 2x24 Le Collaborateur",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%202x24%20Le%20Collaborateur.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": []
+        },
+        {
+          "number": 25,
+          "name": "Tribunal",
+          "airdate": "1994-06-05",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 2x25 Tribunal.mp4",
+            "name": "Star Trek Deep Space Nine 2x25 Tribunal",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%202x25%20Tribunal.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": []
+        },
+        {
+          "number": 26,
+          "name": "The Jem'Hadar",
+          "airdate": "1994-06-12",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 2x26 Les Jem'Hadar [part #I].mp4",
+            "name": "Star Trek Deep Space Nine 2x26 Les Jem'Hadar [part #I]",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%202x26%20Les%20Jem'Hadar%20%5Bpart%20%23I%5D.mp4",
+            "seconds": 2616,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "The Search, Part I",
+          "airdate": "1994-09-26",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 3x01 La Quête (Part 1) [part #II].mp4",
+            "name": "Star Trek Deep Space Nine 3x01 La Quête (Part 1) [part #II]",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%203x01%20La%20Qu%C3%AAte%20(Part%201)%20%5Bpart%20%23II%5D.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "The Search, Part II",
+          "airdate": "1994-10-03",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 3x02 La Quête (Part 2) [part #III].mp4",
+            "name": "Star Trek Deep Space Nine 3x02 La Quête (Part 2) [part #III]",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%203x02%20La%20Qu%C3%AAte%20(Part%202)%20%5Bpart%20%23III%5D.mp4",
+            "seconds": 2613,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "The House of Quark",
+          "airdate": "1994-10-16",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 3x03 La Maison de Quark.mp4",
+            "name": "Star Trek Deep Space Nine 3x03 La Maison de Quark",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%203x03%20La%20Maison%20de%20Quark.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 364
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Equilibrium",
+          "airdate": "1994-10-23",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 3x04 Equilibrium.mp4",
+            "name": "Star Trek Deep Space Nine 3x04 Equilibrium",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%203x04%20Equilibrium.mp4",
+            "seconds": 2615,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Second Skin",
+          "airdate": "1994-10-30",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 3x05 Seconde Peau.mp4",
+            "name": "Star Trek Deep Space Nine 3x05 Seconde Peau",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%203x05%20Seconde%20Peau.mp4",
+            "seconds": 2618,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 364
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "The Abandoned",
+          "airdate": "1994-11-06",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 3x06 L'Orphelin.mp4",
+            "name": "Star Trek Deep Space Nine 3x06 L'Orphelin",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%203x06%20L'Orphelin.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"The Abandoned\" (0.71)",
+              "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+              "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+              "file": "Star Trek Deep Space Nine 1x17 Abandon.mp4",
+              "name": "Star Trek Deep Space Nine 1x17 Abandon",
+              "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%201x17%20Abandon.mp4",
+              "seconds": 2616,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 358
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "name": "Civil Defense",
+          "airdate": "1994-11-13",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 3x07 Destruction Imminente.mp4",
+            "name": "Star Trek Deep Space Nine 3x07 Destruction Imminente",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%203x07%20Destruction%20Imminente.mp4",
+            "seconds": 2618,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 395
+          },
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Meridian",
+          "airdate": "1994-11-20",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 3x08 Meridian.mp4",
+            "name": "Star Trek Deep Space Nine 3x08 Meridian",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%203x08%20Meridian.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 359
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Defiant",
+          "airdate": "1994-11-27",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 3x09 Le Défiant.mp4",
+            "name": "Star Trek Deep Space Nine 3x09 Le Défiant",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%203x09%20Le%20D%C3%A9fiant.mp4",
+            "seconds": 2616,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 360
+          },
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Fascination",
+          "airdate": "1994-12-04",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 3x10 Fascination.mp4",
+            "name": "Star Trek Deep Space Nine 3x10 Fascination",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%203x10%20Fascination.mp4",
+            "seconds": 2728,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 267
+          },
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Past Tense, Part I",
+          "airdate": "1995-01-08",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 3x11 Passé Décomposé (Part 1).mp4",
+            "name": "Star Trek Deep Space Nine 3x11 Passé Décomposé (Part 1)",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%203x11%20Pass%C3%A9%20D%C3%A9compos%C3%A9%20(Part%201).mp4",
+            "seconds": 2619,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+              "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+              "file": "Star Trek Deep Space Nine 3x11 Passé Décompos .(Part 1).ia.mp4",
+              "name": "Star Trek Deep Space Nine 3x11 Passé Décompos ",
+              "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%203x11%20Pass%C3%A9%20D%C3%A9compos%20.(Part%201).ia.mp4",
+              "seconds": 2619,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 258
+            }
+          ]
+        },
+        {
+          "number": 12,
+          "name": "Past Tense, Part II",
+          "airdate": "1995-01-15",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 3x12 Passé Décomposé (Part 2).mp4",
+            "name": "Star Trek Deep Space Nine 3x12 Passé Décomposé (Part 2)",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%203x12%20Pass%C3%A9%20D%C3%A9compos%C3%A9%20(Part%202).mp4",
+            "seconds": 2603,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 371
+          },
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Life Support",
+          "airdate": "1995-02-05",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 3x13 Survivre à Tout Prix.mp4",
+            "name": "Star Trek Deep Space Nine 3x13 Survivre à Tout Prix",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%203x13%20Survivre%20%C3%A0%20Tout%20Prix.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+              "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+              "file": "Star Trek Deep Space Nine 3x13 Survivre à Tout Prix].ia.mp4",
+              "name": "Star Trek Deep Space Nine 3x13 Survivre à Tout Prix]",
+              "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%203x13%20Survivre%20%C3%A0%20Tout%20Prix%5D.ia.mp4",
+              "seconds": 2617,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 260
+            }
+          ]
+        },
+        {
+          "number": 14,
+          "name": "Heart of Stone",
+          "airdate": "1995-02-12",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 3x14 Cœur de Pierre.mp4",
+            "name": "Star Trek Deep Space Nine 3x14 Cœur de Pierre",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%203x14%20C%C5%93ur%20de%20Pierre.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Destiny",
+          "airdate": "1995-02-19",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 3x15 Destinée.mp4",
+            "name": "Star Trek Deep Space Nine 3x15 Destinée",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%203x15%20Destin%C3%A9e.mp4",
+            "seconds": 2616,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Prophet Motive",
+          "airdate": "1995-02-26",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 3x16 Le Plan Des Prophètes.mp4",
+            "name": "Star Trek Deep Space Nine 3x16 Le Plan Des Prophètes",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%203x16%20Le%20Plan%20Des%20Proph%C3%A8tes.mp4",
+            "seconds": 2616,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Visionary",
+          "airdate": "1995-03-05",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 3x17 Visionnaire.mp4",
+            "name": "Star Trek Deep Space Nine 3x17 Visionnaire",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%203x17%20Visionnaire.mp4",
+            "seconds": 2615,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 365
+          },
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Distant Voices",
+          "airdate": "1995-04-16",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 3x18 Echos Distants.mp4",
+            "name": "Star Trek Deep Space Nine 3x18 Echos Distants",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%203x18%20Echos%20Distants.mp4",
+            "seconds": 2618,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Through the Looking Glass",
+          "airdate": "1995-04-23",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 3x19 De L'Autre Côté Du Miroir.mp4",
+            "name": "Star Trek Deep Space Nine 3x19 De L'Autre Côté Du Miroir",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%203x19%20De%20L'Autre%20C%C3%B4t%C3%A9%20Du%20Miroir.mp4",
+            "seconds": 2613,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Improbable Cause",
+          "airdate": "1995-05-07",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 3x20 Improbable Cause.mp4",
+            "name": "Star Trek Deep Space Nine 3x20 Improbable Cause",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%203x20%20Improbable%20Cause.mp4",
+            "seconds": 2613,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 394
+          },
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "The Die is Cast",
+          "airdate": "1995-05-07",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 3x21 Les Dés Sont Jetés.mp4",
+            "name": "Star Trek Deep Space Nine 3x21 Les Dés Sont Jetés",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%203x21%20Les%20D%C3%A9s%20Sont%20Jet%C3%A9s.mp4",
+            "seconds": 2618,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 362
+          },
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Explorers",
+          "airdate": "1995-05-14",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 3x22 Les Explorateurs.mp4",
+            "name": "Star Trek Deep Space Nine 3x22 Les Explorateurs",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%203x22%20Les%20Explorateurs.mp4",
+            "seconds": 2619,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "Family Business",
+          "airdate": "1995-05-21",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 3x23 Affaires de Famille.mp4",
+            "name": "Star Trek Deep Space Nine 3x23 Affaires de Famille",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%203x23%20Affaires%20de%20Famille.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "Shakaar",
+          "airdate": "1995-05-28",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 3x24 Shakaar.mp4",
+            "name": "Star Trek Deep Space Nine 3x24 Shakaar",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%203x24%20Shakaar.mp4",
+            "seconds": 2616,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 25,
+          "name": "Facets",
+          "airdate": "1995-06-18",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 3x25 Facettes.mp4",
+            "name": "Star Trek Deep Space Nine 3x25 Facettes",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%203x25%20Facettes.mp4",
+            "seconds": 2618,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 365
+          },
+          "alternates": []
+        },
+        {
+          "number": 26,
+          "name": "The Adversary",
+          "airdate": "1995-06-25",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 3x26 L'Adversaire.mp4",
+            "name": "Star Trek Deep Space Nine 3x26 L'Adversaire",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%203x26%20L'Adversaire.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 359
+          },
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 4,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "The Way of the Warrior, Part I",
+          "airdate": "1995-10-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "The Way of the Warrior, Part II",
+          "airdate": "1995-10-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "The Visitor",
+          "airdate": "1995-10-09",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 4x03 Le Visiteur.mp4",
+            "name": "Star Trek Deep Space Nine 4x03 Le Visiteur",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%204x03%20Le%20Visiteur.mp4",
+            "seconds": 2618,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Hippocratic Oath",
+          "airdate": "1995-10-16",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 4x04 Le Serment D'Hippocrate.mp4",
+            "name": "Star Trek Deep Space Nine 4x04 Le Serment D'Hippocrate",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%204x04%20Le%20Serment%20D'Hippocrate.mp4",
+            "seconds": 2618,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Indiscretion",
+          "airdate": "1995-10-23",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 4x05 Indiscretion.mp4",
+            "name": "Star Trek Deep Space Nine 4x05 Indiscretion",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%204x05%20Indiscretion.mp4",
+            "seconds": 2729,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 348
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Rejoined",
+          "airdate": "1995-10-30",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 4x06 L'Interdit.mp4",
+            "name": "Star Trek Deep Space Nine 4x06 L'Interdit",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%204x06%20L'Interdit.mp4",
+            "seconds": 2616,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Starship Down",
+          "airdate": "1995-11-06",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 4x07 Les.Karemmas.mp4",
+            "name": "Star Trek Deep Space Nine 4x07 Les.Karemmas",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%204x07%20Les.Karemmas.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 360
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+              "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+              "file": "Star Trek Deep Space Nine 4x07 Les.Karemmas.ia.mp4",
+              "name": "Star Trek Deep Space Nine 4x07 Les",
+              "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%204x07%20Les.Karemmas.ia.mp4",
+              "seconds": 2617,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 262
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "name": "Little Green Men",
+          "airdate": "1995-11-13",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 4x08 Les Petits Hommes Verts.mp4",
+            "name": "Star Trek Deep Space Nine 4x08 Les Petits Hommes Verts",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%204x08%20Les%20Petits%20Hommes%20Verts.mp4",
+            "seconds": 2616,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "The Sword of Kahless",
+          "airdate": "1995-11-20",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 4x09 L'Épée de Kahless.mp4",
+            "name": "Star Trek Deep Space Nine 4x09 L'Épée de Kahless",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%204x09%20L'%C3%89p%C3%A9e%20de%20Kahless.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Our Man Bashir",
+          "airdate": "1995-11-27",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 4x10 Notre Homme Bashir.mp4",
+            "name": "Star Trek Deep Space Nine 4x10 Notre Homme Bashir",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%204x10%20Notre%20Homme%20Bashir.mp4",
+            "seconds": 2616,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Homefront",
+          "airdate": "1996-01-01",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 4x11 L'Enfer Sur Terre.mp4",
+            "name": "Star Trek Deep Space Nine 4x11 L'Enfer Sur Terre",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%204x11%20L'Enfer%20Sur%20Terre.mp4",
+            "seconds": 2616,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Paradise Lost",
+          "airdate": "1996-01-08",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 4x12 Paradis Perdu.mp4",
+            "name": "Star Trek Deep Space Nine 4x12 Paradis Perdu",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%204x12%20Paradis%20Perdu.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Crossfire",
+          "airdate": "1996-01-29",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 4x13 Feux Croisés.mp4",
+            "name": "Star Trek Deep Space Nine 4x13 Feux Croisés",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%204x13%20Feux%20Crois%C3%A9s.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Return to Grace",
+          "airdate": "1996-02-05",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 4x14 Touché par La Grâce.mp4",
+            "name": "Star Trek Deep Space Nine 4x14 Touché par La Grâce",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%204x14%20Touch%C3%A9%20par%20La%20Gr%C3%A2ce.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 394
+          },
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Sons of Mogh",
+          "airdate": "1996-02-12",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 4x15 Les Fils de Mogh.mp4",
+            "name": "Star Trek Deep Space Nine 4x15 Les Fils de Mogh",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%204x15%20Les%20Fils%20de%20Mogh.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 394
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+              "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+              "file": "Star Trek Deep Space Nine 4x15.Les Fils de Mogh.ia.mp4",
+              "name": "Star Trek Deep Space Nine 4x15",
+              "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%204x15.Les%20Fils%20de%20Mogh.ia.mp4",
+              "seconds": 2617,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 257
+            }
+          ]
+        },
+        {
+          "number": 16,
+          "name": "Bar Association",
+          "airdate": "1996-02-19",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 4x16 Le Syndicat.mp4",
+            "name": "Star Trek Deep Space Nine 4x16 Le Syndicat",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%204x16%20Le%20Syndicat.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Accession",
+          "airdate": "1996-02-26",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 4x17 Accession.mp4",
+            "name": "Star Trek Deep Space Nine 4x17 Accession",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%204x17%20Accession.mp4",
+            "seconds": 2613,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Rules of Engagement",
+          "airdate": "1996-04-08",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 4x18 Les Règles du Combat.mp4",
+            "name": "Star Trek Deep Space Nine 4x18 Les Règles du Combat",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%204x18%20Les%20R%C3%A8gles%20du%20Combat.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 393
+          },
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Hard Time",
+          "airdate": "1996-04-15",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 4x19 La Mémoire Emprisonnée.mp4",
+            "name": "Star Trek Deep Space Nine 4x19 La Mémoire Emprisonnée",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%204x19%20La%20M%C3%A9moire%20Emprisonn%C3%A9e.mp4",
+            "seconds": 2618,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Shattered Mirror",
+          "airdate": "1996-04-22",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 4x20 Et Le Miroir Se Brisa.mp4",
+            "name": "Star Trek Deep Space Nine 4x20 Et Le Miroir Se Brisa",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%204x20%20Et%20Le%20Miroir%20Se%20Brisa.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "The Muse",
+          "airdate": "1996-04-29",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 4x21 La Muse.mp4",
+            "name": "Star Trek Deep Space Nine 4x21 La Muse",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%204x21%20La%20Muse.mp4",
+            "seconds": 2618,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "For the Cause",
+          "airdate": "1996-05-06",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 4x22 Pour la Cause.mp4",
+            "name": "Star Trek Deep Space Nine 4x22 Pour la Cause",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%204x22%20Pour%20la%20Cause.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 393
+          },
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "To the Death",
+          "airdate": "1996-05-13",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 4x23 Combat Pour La Mort .mp4",
+            "name": "Star Trek Deep Space Nine 4x23 Combat Pour La Mort ",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%204x23%20Combat%20Pour%20La%20Mort%20.mp4",
+            "seconds": 2590,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 390
+          },
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "The Quickening",
+          "airdate": "1996-05-20",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 4x24 La Peste.mp4",
+            "name": "Star Trek Deep Space Nine 4x24 La Peste",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%204x24%20La%20Peste.mp4",
+            "seconds": 2618,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": []
+        },
+        {
+          "number": 25,
+          "name": "Body Parts",
+          "airdate": "1996-06-10",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 4x25 Un Contrat Est Un Contrat.mp4",
+            "name": "Star Trek Deep Space Nine 4x25 Un Contrat Est Un Contrat",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%204x25%20Un%20Contrat%20Est%20Un%20Contrat.mp4",
+            "seconds": 2618,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 26,
+          "name": "Broken Link",
+          "airdate": "1996-06-17",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 4x26 Flux Brisé.mp4",
+            "name": "Star Trek Deep Space Nine 4x26 Flux Brisé",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%204x26%20Flux%20Bris%C3%A9.mp4",
+            "seconds": 2613,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 5,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Apocalypse Rising",
+          "airdate": "1996-09-30",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 5x01 L'Apocalypse.mp4",
+            "name": "Star Trek Deep Space Nine 5x01 L'Apocalypse",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%205x01%20L'Apocalypse.mp4",
+            "seconds": 2618,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "The Ship",
+          "airdate": "1996-10-07",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 5x02 Le Vaisseau.mp4",
+            "name": "Star Trek Deep Space Nine 5x02 Le Vaisseau",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%205x02%20Le%20Vaisseau.mp4",
+            "seconds": 2616,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Looking for par'Mach in All the Wrong Places",
+          "airdate": "1996-10-14",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 5x03 Mauvais Par'Mach.mp4",
+            "name": "Star Trek Deep Space Nine 5x03 Mauvais Par'Mach",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%205x03%20Mauvais%20Par'Mach.mp4",
+            "seconds": 2618,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "...Nor the Battle to the Strong",
+          "airdate": "1996-10-21",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 5x04 Le Vrai Courage.mp4",
+            "name": "Star Trek Deep Space Nine 5x04 Le Vrai Courage",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%205x04%20Le%20Vrai%20Courage.mp4",
+            "seconds": 2619,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "The Assignment",
+          "airdate": "1996-10-28",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 5x05 La Mission.mp4",
+            "name": "Star Trek Deep Space Nine 5x05 La Mission",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%205x05%20La%20Mission.mp4",
+            "seconds": 2618,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Trials and Tribble-ations",
+          "airdate": "1996-11-04",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 5x06 Épreuves Et Tribulations.mp4",
+            "name": "Star Trek Deep Space Nine 5x06 Épreuves Et Tribulations",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%205x06%20%C3%89preuves%20Et%20Tribulations.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Let He Who is Without Sin...",
+          "airdate": "1996-11-11",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 5x07 Que Celui Qui n'a Jamais Péché.mp4",
+            "name": "Star Trek Deep Space Nine 5x07 Que Celui Qui n'a Jamais Péché",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%205x07%20Que%20Celui%20Qui%20n'a%20Jamais%20P%C3%A9ch%C3%A9.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+              "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+              "file": "Star Trek Deep Space Nine 5x07 Que Celui Qui N'A Jamais Péché.ia.mp4",
+              "name": "Star Trek Deep Space Nine 5x07 Que Celui Qui N'A Jamais Péché",
+              "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%205x07%20Que%20Celui%20Qui%20N'A%20Jamais%20P%C3%A9ch%C3%A9.ia.mp4",
+              "seconds": 2617,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 261
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "name": "Things Past",
+          "airdate": "1996-11-18",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 5x08 Les Condamnés.mp4",
+            "name": "Star Trek Deep Space Nine 5x08 Les Condamnés",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%205x08%20Les%20Condamn%C3%A9s.mp4",
+            "seconds": 2618,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "The Ascent",
+          "airdate": "1996-11-25",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 5x09 L'Ascension.mp4",
+            "name": "Star Trek Deep Space Nine 5x09 L'Ascension",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%205x09%20L'Ascension.mp4",
+            "seconds": 2616,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Rapture",
+          "airdate": "1996-12-30",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 5x10 Extase.mp4",
+            "name": "Star Trek Deep Space Nine 5x10 Extase",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%205x10%20Extase.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "The Darkness and the Light",
+          "airdate": "1997-01-06",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 5x11 Les Ténèbres Et La Lumière.mp4",
+            "name": "Star Trek Deep Space Nine 5x11 Les Ténèbres Et La Lumière",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%205x11%20Les%20T%C3%A9n%C3%A8bres%20Et%20La%20Lumi%C3%A8re.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "The Begotten",
+          "airdate": "1997-01-27",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 5x12 Naissances.mp4",
+            "name": "Star Trek Deep Space Nine 5x12 Naissances",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%205x12%20Naissances.mp4",
+            "seconds": 2616,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "For the Uniform",
+          "airdate": "1997-02-03",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 5x13 Pour L'Uniforme.mp4",
+            "name": "Star Trek Deep Space Nine 5x13 Pour L'Uniforme",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%205x13%20Pour%20L'Uniforme.mp4",
+            "seconds": 2618,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "In Purgatory's Shadow",
+          "airdate": "1997-02-10",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 5x14 À L'Ombre Du Purgatoire.mp4",
+            "name": "Star Trek Deep Space Nine 5x14 À L'Ombre Du Purgatoire",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%205x14%20%C3%80%20L'Ombre%20Du%20Purgatoire.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "By Inferno's Light",
+          "airdate": "1997-02-17",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 5x15 À La Lumière De L'Enfer.mp4",
+            "name": "Star Trek Deep Space Nine 5x15 À La Lumière De L'Enfer",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%205x15%20%C3%80%20La%20Lumi%C3%A8re%20De%20L'Enfer.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Doctor Bashir, I Presume",
+          "airdate": "1997-02-24",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 5x16 Dr. Bashir, Je Présume.mp4",
+            "name": "Star Trek Deep Space Nine 5x16 Dr. Bashir, Je Présume",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%205x16%20Dr.%20Bashir%2C%20Je%20Pr%C3%A9sume.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+              "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+              "file": "Star Trek Deep Space Nine 5x16 Dr. Bashir, Je Présume.ia.mp4",
+              "name": "Star Trek Deep Space Nine 5x16 Dr",
+              "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%205x16%20Dr.%20Bashir%2C%20Je%20Pr%C3%A9sume.ia.mp4",
+              "seconds": 2617,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 262
+            }
+          ]
+        },
+        {
+          "number": 17,
+          "name": "A Simple Investigation",
+          "airdate": "1997-03-31",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 5x17 Une Simple Enquête.mp4",
+            "name": "Star Trek Deep Space Nine 5x17 Une Simple Enquête",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%205x17%20Une%20Simple%20Enqu%C3%AAte.mp4",
+            "seconds": 2615,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Business as Usual",
+          "airdate": "1997-04-07",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 5x18 Les Affaires Sont Les Affaires.mp4",
+            "name": "Star Trek Deep Space Nine 5x18 Les Affaires Sont Les Affaires",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%205x18%20Les%20Affaires%20Sont%20Les%20Affaires.mp4",
+            "seconds": 2616,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Ties of Blood and Water",
+          "airdate": "1997-04-14",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 5x19 Les Liens Du Sang Et L'Eau.mp4",
+            "name": "Star Trek Deep Space Nine 5x19 Les Liens Du Sang Et L'Eau",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%205x19%20Les%20Liens%20Du%20Sang%20Et%20L'Eau.mp4",
+            "seconds": 2615,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 359
+          },
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Ferengi Love Songs",
+          "airdate": "1997-04-21",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 5x20 Chants D'Amour Ferengis.mp4",
+            "name": "Star Trek Deep Space Nine 5x20 Chants D'Amour Ferengis",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%205x20%20Chants%20D'Amour%20Ferengis.mp4",
+            "seconds": 2616,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Soldiers of the Empire",
+          "airdate": "1997-04-28",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 5x21 Les Soldats De L'Empire.mp4",
+            "name": "Star Trek Deep Space Nine 5x21 Les Soldats De L'Empire",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%205x21%20Les%20Soldats%20De%20L'Empire.mp4",
+            "seconds": 2616,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Children of Time",
+          "airdate": "1997-05-05",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 5x22 Les Enfants Du Passé.mp4",
+            "name": "Star Trek Deep Space Nine 5x22 Les Enfants Du Passé",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%205x22%20Les%20Enfants%20Du%20Pass%C3%A9.mp4",
+            "seconds": 2616,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "Blaze of Glory",
+          "airdate": "1997-05-12",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 5x23 Explosion De Gloire.mp4",
+            "name": "Star Trek Deep Space Nine 5x23 Explosion De Gloire",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%205x23%20Explosion%20De%20Gloire.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "Empok Nor",
+          "airdate": "1997-05-19",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 5x24 Empok Nor.mp4",
+            "name": "Star Trek Deep Space Nine 5x24 Empok Nor",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%205x24%20Empok%20Nor.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": []
+        },
+        {
+          "number": 25,
+          "name": "In the Cards",
+          "airdate": "1997-06-09",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 5x25 Tout Est Dans Les Cartes.mp4",
+            "name": "Star Trek Deep Space Nine 5x25 Tout Est Dans Les Cartes",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%205x25%20Tout%20Est%20Dans%20Les%20Cartes.mp4",
+            "seconds": 2616,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 26,
+          "name": "Call to Arms",
+          "airdate": "1997-06-16",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 5x26 L'Appel Aux Armes.mp4",
+            "name": "Star Trek Deep Space Nine 5x26 L'Appel Aux Armes",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%205x26%20L'Appel%20Aux%20Armes.mp4",
+            "seconds": 2617,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 6,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "A Time to Stand",
+          "airdate": "1997-09-29",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 6x01 Volte-Face.mp4",
+            "name": "Star Trek Deep Space Nine 6x01 Volte-Face",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%206x01%20Volte-Face.mp4",
+            "seconds": 2605,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Rocks and Shoals",
+          "airdate": "1997-10-06",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 6x02 Les Naufragés.mp4",
+            "name": "Star Trek Deep Space Nine 6x02 Les Naufragés",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%206x02%20Les%20Naufrag%C3%A9s.mp4",
+            "seconds": 2603,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Sons and Daughters",
+          "airdate": "1997-10-13",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 6x03 Fils Et Filles.mp4",
+            "name": "Star Trek Deep Space Nine 6x03 Fils Et Filles",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%206x03%20Fils%20Et%20Filles.mp4",
+            "seconds": 2581,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Behind the Lines",
+          "airdate": "1997-10-20",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 6x04 Derrière Les Lignes.mp4",
+            "name": "Star Trek Deep Space Nine 6x04 Derrière Les Lignes",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%206x04%20Derri%C3%A8re%20Les%20Lignes.mp4",
+            "seconds": 2604,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Favor the Bold",
+          "airdate": "1997-10-27",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 6x05 Gloire Aux Braves.mp4",
+            "name": "Star Trek Deep Space Nine 6x05 Gloire Aux Braves",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%206x05%20Gloire%20Aux%20Braves.mp4",
+            "seconds": 2605,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Sacrifice of Angels",
+          "airdate": "1997-11-03",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 6x06 Le Sacrifice Des Anges.mp4",
+            "name": "Star Trek Deep Space Nine 6x06 Le Sacrifice Des Anges",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%206x06%20Le%20Sacrifice%20Des%20Anges.mp4",
+            "seconds": 2605,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "You Are Cordially Invited",
+          "airdate": "1997-11-10",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 6x07 Vous Etes Cordialement Invites.mp4",
+            "name": "Star Trek Deep Space Nine 6x07 Vous Etes Cordialement Invites",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%206x07%20Vous%20Etes%20Cordialement%20Invites.mp4",
+            "seconds": 2606,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Resurrection",
+          "airdate": "1997-11-17",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 6x08 Résurrection.mp4",
+            "name": "Star Trek Deep Space Nine 6x08 Résurrection",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%206x08%20R%C3%A9surrection.mp4",
+            "seconds": 2606,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Statistical Probabilities",
+          "airdate": "1997-11-24",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 6x09 Probabilités Et Statistiques.mp4",
+            "name": "Star Trek Deep Space Nine 6x09 Probabilités Et Statistiques",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%206x09%20Probabilit%C3%A9s%20Et%20Statistiques.mp4",
+            "seconds": 2604,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "The Magnificent Ferengi",
+          "airdate": "1998-01-01",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 6x10 Les Sept Magnifiques Ferengis.mp4",
+            "name": "Star Trek Deep Space Nine 6x10 Les Sept Magnifiques Ferengis",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%206x10%20Les%20Sept%20Magnifiques%20Ferengis.mp4",
+            "seconds": 2604,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Waltz",
+          "airdate": "1998-01-08",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 6x11 La Danse de La Folie.mp4",
+            "name": "Star Trek Deep Space Nine 6x11 La Danse de La Folie",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%206x11%20La%20Danse%20de%20La%20Folie.mp4",
+            "seconds": 2605,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Who Mourns for Morn?",
+          "airdate": "1998-02-04",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 6x12 Qui Va Pleurer Morn.mp4",
+            "name": "Star Trek Deep Space Nine 6x12 Qui Va Pleurer Morn",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%206x12%20Qui%20Va%20Pleurer%20Morn.mp4",
+            "seconds": 2603,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Far Beyond the Stars",
+          "airdate": "1998-02-11",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 6x13 Au Delà Des Étoiles.mp4",
+            "name": "Star Trek Deep Space Nine 6x13 Au Delà Des Étoiles",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%206x13%20Au%20Del%C3%A0%20Des%20%C3%89toiles.mp4",
+            "seconds": 2602,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "One Little Ship",
+          "airdate": "1998-02-18",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 6x14 Il Était Un Petit Navire.mp4",
+            "name": "Star Trek Deep Space Nine 6x14 Il Était Un Petit Navire",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%206x14%20Il%20%C3%89tait%20Un%20Petit%20Navire.mp4",
+            "seconds": 2605,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Honor Among Thieves",
+          "airdate": "1998-02-25",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 6x15 L'Honneur Des Voleurs.mp4",
+            "name": "Star Trek Deep Space Nine 6x15 L'Honneur Des Voleurs",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%206x15%20L'Honneur%20Des%20Voleurs.mp4",
+            "seconds": 2604,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Change of Heart",
+          "airdate": "1998-03-04",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 6x16 La Loi Du Coeur.mp4",
+            "name": "Star Trek Deep Space Nine 6x16 La Loi Du Coeur",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%206x16%20La%20Loi%20Du%20Coeur.mp4",
+            "seconds": 2605,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 360
+          },
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Wrongs Darker Than Death or Night",
+          "airdate": "1998-04-01",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 6x17 Les Péchés Du Passé.mp4",
+            "name": "Star Trek Deep Space Nine 6x17 Les Péchés Du Passé",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%206x17%20Les%20P%C3%A9ch%C3%A9s%20Du%20Pass%C3%A9.mp4",
+            "seconds": 2605,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Inquisition",
+          "airdate": "1998-04-08",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 6x18 Inquisition.mp4",
+            "name": "Star Trek Deep Space Nine 6x18 Inquisition",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%206x18%20Inquisition.mp4",
+            "seconds": 2605,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "In the Pale Moonlight",
+          "airdate": "1998-04-15",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 6x19 Sous La Lune Pale.mp4",
+            "name": "Star Trek Deep Space Nine 6x19 Sous La Lune Pale",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%206x19%20Sous%20La%20Lune%20Pale.mp4",
+            "seconds": 2604,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "His Way",
+          "airdate": "1998-04-22",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 6x20 Chacun Sa Manière.mp4",
+            "name": "Star Trek Deep Space Nine 6x20 Chacun Sa Manière",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%206x20%20Chacun%20Sa%20Mani%C3%A8re.mp4",
+            "seconds": 2604,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "The Reckoning",
+          "airdate": "1998-04-29",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 6x21 Le Jour Du Jugement.mp4",
+            "name": "Star Trek Deep Space Nine 6x21 Le Jour Du Jugement",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%206x21%20Le%20Jour%20Du%20Jugement.mp4",
+            "seconds": 2607,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Valiant",
+          "airdate": "1998-05-06",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 6x22 Valiant.mp4",
+            "name": "Star Trek Deep Space Nine 6x22 Valiant",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%206x22%20Valiant.mp4",
+            "seconds": 2606,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "Profit and Lace",
+          "airdate": "1998-05-13",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 6x23 Profits Dans La Dentelle.mp4",
+            "name": "Star Trek Deep Space Nine 6x23 Profits Dans La Dentelle",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%206x23%20Profits%20Dans%20La%20Dentelle.mp4",
+            "seconds": 2603,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "Time's Orphan",
+          "airdate": "1998-05-20",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 6x24 Orpheline du Temps.mp4",
+            "name": "Star Trek Deep Space Nine 6x24 Orpheline du Temps",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%206x24%20Orpheline%20du%20Temps.mp4",
+            "seconds": 2603,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 25,
+          "name": "The Sound of Her Voice",
+          "airdate": "1998-06-10",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 6x25 Le Son de Sa Voix.mp4",
+            "name": "Star Trek Deep Space Nine 6x25 Le Son de Sa Voix",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%206x25%20Le%20Son%20de%20Sa%20Voix.mp4",
+            "seconds": 2604,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 26,
+          "name": "Tears of the Prophets",
+          "airdate": "1998-06-17",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 6x26 Les Larmes Des Prophètes.mp4",
+            "name": "Star Trek Deep Space Nine 6x26 Les Larmes Des Prophètes",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%206x26%20Les%20Larmes%20Des%20Proph%C3%A8tes.mp4",
+            "seconds": 2604,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 7,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Image in the Sand",
+          "airdate": "1998-09-30",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 7x01 Une Image Dans Le Sable.mp4",
+            "name": "Star Trek Deep Space Nine 7x01 Une Image Dans Le Sable",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%207x01%20Une%20Image%20Dans%20Le%20Sable.mp4",
+            "seconds": 2721,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 858
+          },
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Shadows and Symbols",
+          "airdate": "1998-10-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Afterimage",
+          "airdate": "1998-10-14",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 7x03 Image Différée - Reflet.mp4",
+            "name": "Star Trek Deep Space Nine 7x03 Image Différée - Reflet",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%207x03%20Image%20Diff%C3%A9r%C3%A9e%20-%20Reflet.mp4",
+            "seconds": 2596,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 361
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Take Me Out to the Holosuite",
+          "airdate": "1998-10-21",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 7x04 Faisons Un Tour Dans La Holosuite.mp4",
+            "name": "Star Trek Deep Space Nine 7x04 Faisons Un Tour Dans La Holosuite",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%207x04%20Faisons%20Un%20Tour%20Dans%20La%20Holosuite.mp4",
+            "seconds": 2596,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Chrysalis",
+          "airdate": "1998-10-28",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 7x05 Chrysalide.mp4",
+            "name": "Star Trek Deep Space Nine 7x05 Chrysalide",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%207x05%20Chrysalide.mp4",
+            "seconds": 2595,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Treachery, Faith and the Great River",
+          "airdate": "1998-11-04",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 7x06 Foi Et Traîtrise.mp4",
+            "name": "Star Trek Deep Space Nine 7x06 Foi Et Traîtrise",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%207x06%20Foi%20Et%20Tra%C3%AEtrise.mp4",
+            "seconds": 2599,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Once More Unto the Breach",
+          "airdate": "1998-11-11",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 7x07 De Retour Au Combat.mp4",
+            "name": "Star Trek Deep Space Nine 7x07 De Retour Au Combat",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%207x07%20De%20Retour%20Au%20Combat.mp4",
+            "seconds": 2599,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "The Siege of AR-558",
+          "airdate": "1998-11-18",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 7x08 Le Siège De AR-558.mp4",
+            "name": "Star Trek Deep Space Nine 7x08 Le Siège De AR-558",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%207x08%20Le%20Si%C3%A8ge%20De%20AR-558.mp4",
+            "seconds": 2598,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Covenant",
+          "airdate": "1998-11-25",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 7x09 Le Culte.mp4",
+            "name": "Star Trek Deep Space Nine 7x09 Le Culte",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%207x09%20Le%20Culte.mp4",
+            "seconds": 2596,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "It's Only a Paper Moon",
+          "airdate": "1998-12-30",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 7x10 Ce N'Est Qu'Une Illusion.mp4",
+            "name": "Star Trek Deep Space Nine 7x10 Ce N'Est Qu'Une Illusion",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%207x10%20Ce%20N'Est%20Qu'Une%20Illusion.mp4",
+            "seconds": 2598,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Prodigal Daughter",
+          "airdate": "1999-01-06",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 7x11 Le Retour de La Fille Prodigue.mp4",
+            "name": "Star Trek Deep Space Nine 7x11 Le Retour de La Fille Prodigue",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%207x11%20Le%20Retour%20de%20La%20Fille%20Prodigue.mp4",
+            "seconds": 2595,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "The Emperor's New Cloak",
+          "airdate": "1999-02-03",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 7x12 La Nouvelle Cape De L'Empereur.mp4",
+            "name": "Star Trek Deep Space Nine 7x12 La Nouvelle Cape De L'Empereur",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%207x12%20La%20Nouvelle%20Cape%20De%20L'Empereur.mp4",
+            "seconds": 2599,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 359
+          },
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Field of Fire",
+          "airdate": "1999-02-10",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 7x13 Champ de Feu.mp4",
+            "name": "Star Trek Deep Space Nine 7x13 Champ de Feu",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%207x13%20Champ%20de%20Feu.mp4",
+            "seconds": 2599,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 366
+          },
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Chimera",
+          "airdate": "1999-02-17",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 7x14 Chimère.mp4",
+            "name": "Star Trek Deep Space Nine 7x14 Chimère",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%207x14%20Chim%C3%A8re.mp4",
+            "seconds": 2596,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Badda-Bing, Badda-Bang",
+          "airdate": "1999-02-24",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 7x15 Badda-Bing Badda-Bang.mp4",
+            "name": "Star Trek Deep Space Nine 7x15 Badda-Bing Badda-Bang",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%207x15%20Badda-Bing%20Badda-Bang.mp4",
+            "seconds": 2597,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Inter Arma Enim Silent Leges",
+          "airdate": "1999-03-03",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 7x16 Inter Arma Enim Silent Leges.mp4",
+            "name": "Star Trek Deep Space Nine 7x16 Inter Arma Enim Silent Leges",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%207x16%20Inter%20Arma%20Enim%20Silent%20Leges.mp4",
+            "seconds": 2597,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Penumbra",
+          "airdate": "1999-04-07",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 7x17 Nous Serons Unis... - Penumbra.mp4",
+            "name": "Star Trek Deep Space Nine 7x17 Nous Serons Unis... - Penumbra",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%207x17%20Nous%20Serons%20Unis...%20-%20Penumbra.mp4",
+            "seconds": 2594,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+              "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+              "file": "Star Trek Deep Space Nine 7x17 Nous Serons Unis... - Penumbra.ia.mp4",
+              "name": "Star Trek Deep Space Nine 7x17 Nous Serons Unis..",
+              "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%207x17%20Nous%20Serons%20Unis...%20-%20Penumbra.ia.mp4",
+              "seconds": 2594,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 259
+            }
+          ]
+        },
+        {
+          "number": 18,
+          "name": "'Til Death Do Us Part",
+          "airdate": "1999-04-14",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 7x18 Jusqu'à Ce Que la Mort Nous Sépare.mp4",
+            "name": "Star Trek Deep Space Nine 7x18 Jusqu'à Ce Que la Mort Nous Sépare",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%207x18%20Jusqu'%C3%A0%20Ce%20Que%20la%20Mort%20Nous%20S%C3%A9pare.mp4",
+            "seconds": 2594,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 362
+          },
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Strange Bedfellows",
+          "airdate": "1999-04-21",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 7x19 Étranges Partenaires.mp4",
+            "name": "Star Trek Deep Space Nine 7x19 Étranges Partenaires",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%207x19%20%C3%89tranges%20Partenaires.mp4",
+            "seconds": 2595,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "The Changing Face of Evil",
+          "airdate": "1999-04-28",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 7x20 Le Visage Changeant Du Mal.mp4",
+            "name": "Star Trek Deep Space Nine 7x20 Le Visage Changeant Du Mal",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%207x20%20Le%20Visage%20Changeant%20Du%20Mal.mp4",
+            "seconds": 2600,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "When It Rains...",
+          "airdate": "1999-05-05",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 7x21 La Pluie De Sang.mp4",
+            "name": "Star Trek Deep Space Nine 7x21 La Pluie De Sang",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%207x21%20La%20Pluie%20De%20Sang.mp4",
+            "seconds": 2595,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 369
+          },
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Tacking Into the Wind",
+          "airdate": "1999-05-12",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 7x22 Le Souffle de La Guerre.mp4",
+            "name": "Star Trek Deep Space Nine 7x22 Le Souffle de La Guerre",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%207x22%20Le%20Souffle%20de%20La%20Guerre.mp4",
+            "seconds": 2599,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "Extreme Measures",
+          "airdate": "1999-05-19",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 7x23 Décisions Extrêmes.mp4",
+            "name": "Star Trek Deep Space Nine 7x23 Décisions Extrêmes",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%207x23%20D%C3%A9cisions%20Extr%C3%AAmes.mp4",
+            "seconds": 2596,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "The Dogs of War",
+          "airdate": "1999-05-26",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+            "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+            "file": "Star Trek Deep Space Nine 7x24 Les Chiens de Guerre.mp4",
+            "name": "Star Trek Deep Space Nine 7x24 Les Chiens de Guerre",
+            "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%207x24%20Les%20Chiens%20de%20Guerre.mp4",
+            "seconds": 2598,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 357
+          },
+          "alternates": [
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "star-trek-deep-space-nine-la-serie-v.f.-1993-1997",
+              "itemTitle": "Star Trek ☆ Deep Space Nine ☆ La Série V.F. ☆ 1993-1997",
+              "file": "Star Trek Deep Space Nine 7x24 Les Chiens De Guerre.ia.mp4",
+              "name": "Star Trek Deep Space Nine 7x24 Les Chiens De Guerre",
+              "url": "https://archive.org/download/star-trek-deep-space-nine-la-serie-v.f.-1993-1997/Star%20Trek%20Deep%20Space%20Nine%207x24%20Les%20Chiens%20De%20Guerre.ia.mp4",
+              "seconds": 2598,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 257
+            }
+          ]
+        },
+        {
+          "number": 25,
+          "name": "What You Leave Behind, Part I",
+          "airdate": "1999-06-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 26,
+          "name": "What You Leave Behind, Part II",
+          "airdate": "1999-06-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    }
+  ]
+}

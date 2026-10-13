@@ -1,0 +1,2093 @@
+{
+  "show": "Dexter's Laboratory",
+  "slug": "dexters-laboratory",
+  "type": "Animated",
+  "network": "Cartoon Network",
+  "matchedAt": "2026-10-13T07:46:15.598Z",
+  "tvmaze": {
+    "id": 1953,
+    "name": "Dexter's Laboratory",
+    "runtime": 30,
+    "premiered": "1996-04-28",
+    "network": "Cartoon Network"
+  },
+  "coverage": {
+    "total": 78,
+    "live": 68,
+    "review": 10,
+    "missing": 0,
+    "pct": 100
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Dee Deemensional - Dial M For Monkey: Magmanamus - Maternal Combat",
+          "airdate": "1996-04-28",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S01E01 DeeDeemensional, Dial M for Monkey (Magmanamus), Maternal Combat.mp4",
+            "name": "Dexter's Laboratory S01E01 DeeDeemensional, Dial M for Monkey (Magmanamus), Maternal Combat",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S01E01%20DeeDeemensional%2C%20Dial%20M%20for%20Monkey%20(Magmanamus)%2C%20Maternal%20Combat.mp4",
+            "seconds": 1326,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 127
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 1 of 78 in \"Dexter's Laboratory The Complete Series\"",
+              "item": "dexters-laboratory-the-complete-series",
+              "itemTitle": "Dexter's Laboratory The Complete Series",
+              "file": "Dexter_s_Laboratory_S01E01.mp4",
+              "name": "Dexter_s_Laboratory_S01E01",
+              "url": "https://archive.org/download/dexters-laboratory-the-complete-series/Dexter_s_Laboratory_S01E01.mp4",
+              "seconds": 1326,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 94
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "Dexter Dodgeball - Dial M For Monkey: Rasslor - Dexter's Assistant",
+          "airdate": "1996-05-05",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S01E02 Dexter Dodgeball, Dial M for Monkey (Rasslor), Dexter's Assistant.mp4",
+            "name": "Dexter's Laboratory S01E02 Dexter Dodgeball, Dial M for Monkey (Rasslor), Dexter's Assistant",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S01E02%20Dexter%20Dodgeball%2C%20Dial%20M%20for%20Monkey%20(Rasslor)%2C%20Dexter's%20Assistant.mp4",
+            "seconds": 1323,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 127
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 2 of 78 in \"Dexter's Laboratory The Complete Series\"",
+              "item": "dexters-laboratory-the-complete-series",
+              "itemTitle": "Dexter's Laboratory The Complete Series",
+              "file": "Dexter_s_Laboratory_S01E02.mp4",
+              "name": "Dexter_s_Laboratory_S01E02",
+              "url": "https://archive.org/download/dexters-laboratory-the-complete-series/Dexter_s_Laboratory_S01E02.mp4",
+              "seconds": 1323,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 100
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "name": "Dexter's Rival - Dial M For Monkey: Simion - Old Man Dexter",
+          "airdate": "1996-05-12",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S01E03 Dexter's Rival, Dial M for Monkey (Simion), Old Man Dexter.mp4",
+            "name": "Dexter's Laboratory S01E03 Dexter's Rival, Dial M for Monkey (Simion), Old Man Dexter",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S01E03%20Dexter's%20Rival%2C%20Dial%20M%20for%20Monkey%20(Simion)%2C%20Old%20Man%20Dexter.mp4",
+            "seconds": 1329,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 128
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 3 of 78 in \"Dexter's Laboratory The Complete Series\"",
+              "item": "dexters-laboratory-the-complete-series",
+              "itemTitle": "Dexter's Laboratory The Complete Series",
+              "file": "Dexter_s_Laboratory_S01E03.mp4",
+              "name": "Dexter_s_Laboratory_S01E03",
+              "url": "https://archive.org/download/dexters-laboratory-the-complete-series/Dexter_s_Laboratory_S01E03.mp4",
+              "seconds": 1329,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 92
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "name": "Double Trouble - Dial M For Monkey: Barbequor - Dexter's Laboratory(Changes)",
+          "airdate": "1996-05-19",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S01E04 Double Trouble, Dexter's Lab A Story, Dexter's Laboratory (Changes).mp4",
+            "name": "Dexter's Laboratory S01E04 Double Trouble, Dexter's Lab A Story, Dexter's Laboratory (Changes)",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S01E04%20Double%20Trouble%2C%20Dexter's%20Lab%20A%20Story%2C%20Dexter's%20Laboratory%20(Changes).mp4",
+            "seconds": 1349,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 133
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 4 of 78 in \"Dexter's Laboratory The Complete Series\"",
+              "item": "dexters-laboratory-the-complete-series",
+              "itemTitle": "Dexter's Laboratory The Complete Series",
+              "file": "Dexter_s_Laboratory_S01E04.mp4",
+              "name": "Dexter_s_Laboratory_S01E04",
+              "url": "https://archive.org/download/dexters-laboratory-the-complete-series/Dexter_s_Laboratory_S01E04.mp4",
+              "seconds": 1349,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 98
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "name": "Jurassic Pooch - Dial M For Monkey: Orgon Grindor - Dimwit Dexter",
+          "airdate": "1996-05-26",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S01E05 Jurassic Pooch, Dial M for Monkey (Orgon Grindor), Dimwit Dexter.mp4",
+            "name": "Dexter's Laboratory S01E05 Jurassic Pooch, Dial M for Monkey (Orgon Grindor), Dimwit Dexter",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S01E05%20Jurassic%20Pooch%2C%20Dial%20M%20for%20Monkey%20(Orgon%20Grindor)%2C%20Dimwit%20Dexter.mp4",
+            "seconds": 1316,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 130
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 5 of 78 in \"Dexter's Laboratory The Complete Series\"",
+              "item": "dexters-laboratory-the-complete-series",
+              "itemTitle": "Dexter's Laboratory The Complete Series",
+              "file": "Dexter_s_Laboratory_S01E05.mp4",
+              "name": "Dexter_s_Laboratory_S01E05",
+              "url": "https://archive.org/download/dexters-laboratory-the-complete-series/Dexter_s_Laboratory_S01E05.mp4",
+              "seconds": 1316,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 98
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "name": "Dee Dee's Room - Dial M For Monkey: Huntor - The Big Sister",
+          "airdate": "1996-06-02",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S01E06 Dee Dee's Room, Dial M for Monkey (Huntor), The Big Sister.mp4",
+            "name": "Dexter's Laboratory S01E06 Dee Dee's Room, Dial M for Monkey (Huntor), The Big Sister",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S01E06%20Dee%20Dee's%20Room%2C%20Dial%20M%20for%20Monkey%20(Huntor)%2C%20The%20Big%20Sister.mp4",
+            "seconds": 1314,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 126
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 6 of 78 in \"Dexter's Laboratory The Complete Series\"",
+              "item": "dexters-laboratory-the-complete-series",
+              "itemTitle": "Dexter's Laboratory The Complete Series",
+              "file": "Dexter_s_Laboratory_S01E06.mp4",
+              "name": "Dexter_s_Laboratory_S01E06",
+              "url": "https://archive.org/download/dexters-laboratory-the-complete-series/Dexter_s_Laboratory_S01E06.mp4",
+              "seconds": 1314,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 106
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "name": "Star Spangled Sidekicks - The Justice Friends: TV Super Pals - Game Over",
+          "airdate": "1996-11-20",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.6,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S01E07 Star Spangled Sidekicks, The Justice Friends (TV Super Pals), Game Over.mp4",
+            "name": "Dexter's Laboratory S01E07 Star Spangled Sidekicks, The Justice Friends (TV Super Pals), Game Over",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S01E07%20Star%20Spangled%20Sidekicks%2C%20The%20Justice%20Friends%20(TV%20Super%20Pals)%2C%20Game%20Over.mp4",
+            "seconds": 1337,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 133
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 7 of 78 in \"Dexter's Laboratory The Complete Series\"",
+              "item": "dexters-laboratory-the-complete-series",
+              "itemTitle": "Dexter's Laboratory The Complete Series",
+              "file": "Dexter_s_Laboratory_S01E07.mp4",
+              "name": "Dexter_s_Laboratory_S01E07",
+              "url": "https://archive.org/download/dexters-laboratory-the-complete-series/Dexter_s_Laboratory_S01E07.mp4",
+              "seconds": 1337,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 102
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "name": "Babysitter Blues - The Justice Friends: Valhallen's Room - Dream Machine",
+          "airdate": "1996-11-27",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.6,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S01E08 Babysitter Blues, The Justice Friends (Valhallen's Room), Dream Machine.mp4",
+            "name": "Dexter's Laboratory S01E08 Babysitter Blues, The Justice Friends (Valhallen's Room), Dream Machine",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S01E08%20Babysitter%20Blues%2C%20The%20Justice%20Friends%20(Valhallen's%20Room)%2C%20Dream%20Machine.mp4",
+            "seconds": 1335,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 132
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 8 of 78 in \"Dexter's Laboratory The Complete Series\"",
+              "item": "dexters-laboratory-the-complete-series",
+              "itemTitle": "Dexter's Laboratory The Complete Series",
+              "file": "Dexter_s_Laboratory_S01E08.mp4",
+              "name": "Dexter_s_Laboratory_S01E08",
+              "url": "https://archive.org/download/dexters-laboratory-the-complete-series/Dexter_s_Laboratory_S01E08.mp4",
+              "seconds": 1335,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 111
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "name": "Dollhouse Drama - The Justice Friends: Krunk's Date - The Big Cheese",
+          "airdate": "1996-12-04",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.6,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S01E09 Dollhouse Drama, The Justice Friends (Krunk's Date), The Big Cheese.mp4",
+            "name": "Dexter's Laboratory S01E09 Dollhouse Drama, The Justice Friends (Krunk's Date), The Big Cheese",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S01E09%20Dollhouse%20Drama%2C%20The%20Justice%20Friends%20(Krunk's%20Date)%2C%20The%20Big%20Cheese.mp4",
+            "seconds": 1337,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 132
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 9 of 78 in \"Dexter's Laboratory The Complete Series\"",
+              "item": "dexters-laboratory-the-complete-series",
+              "itemTitle": "Dexter's Laboratory The Complete Series",
+              "file": "Dexter_s_Laboratory_S01E09.mp4",
+              "name": "Dexter_s_Laboratory_S01E09",
+              "url": "https://archive.org/download/dexters-laboratory-the-complete-series/Dexter_s_Laboratory_S01E09.mp4",
+              "seconds": 1337,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 110
+            }
+          ]
+        },
+        {
+          "number": 10,
+          "name": "Way of the Dee Dee - The Justice Friends: Say Uncle Sam - Tribe Called Girl",
+          "airdate": "1996-12-11",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.6,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S01E10 Way of the Dee Dee, The Justice Friends (Say Uncle Sam), Tribe Called Girl.mp4",
+            "name": "Dexter's Laboratory S01E10 Way of the Dee Dee, The Justice Friends (Say Uncle Sam), Tribe Called Girl",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S01E10%20Way%20of%20the%20Dee%20Dee%2C%20The%20Justice%20Friends%20(Say%20Uncle%20Sam)%2C%20Tribe%20Called%20Girl.mp4",
+            "seconds": 1331,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 132
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 10 of 78 in \"Dexter's Laboratory The Complete Series\"",
+              "item": "dexters-laboratory-the-complete-series",
+              "itemTitle": "Dexter's Laboratory The Complete Series",
+              "file": "Dexter_s_Laboratory_S01E10.mp4",
+              "name": "Dexter_s_Laboratory_S01E10",
+              "url": "https://archive.org/download/dexters-laboratory-the-complete-series/Dexter_s_Laboratory_S01E10.mp4",
+              "seconds": 1331,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 122
+            }
+          ]
+        },
+        {
+          "number": 11,
+          "name": "Spacecase - The Justice Friends: Ratman - Dexter's Debt",
+          "airdate": "1996-12-18",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.6,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S01E11 Spacecase, The Justice Friends (Ratman), Dexter's Debt.mp4",
+            "name": "Dexter's Laboratory S01E11 Spacecase, The Justice Friends (Ratman), Dexter's Debt",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S01E11%20Spacecase%2C%20The%20Justice%20Friends%20(Ratman)%2C%20Dexter's%20Debt.mp4",
+            "seconds": 1333,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 132
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 11 of 78 in \"Dexter's Laboratory The Complete Series\"",
+              "item": "dexters-laboratory-the-complete-series",
+              "itemTitle": "Dexter's Laboratory The Complete Series",
+              "file": "Dexter_s_Laboratory_S01E11.mp4",
+              "name": "Dexter_s_Laboratory_S01E11",
+              "url": "https://archive.org/download/dexters-laboratory-the-complete-series/Dexter_s_Laboratory_S01E11.mp4",
+              "seconds": 1333,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 104
+            }
+          ]
+        },
+        {
+          "number": 12,
+          "name": "Dexter's Rival - The Justice Friends: Bee Where - Mandarker",
+          "airdate": "1996-12-25",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.6,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S01E12 Dexter's Rival, The Justice Friends (Bee Where), Mandarker.mp4",
+            "name": "Dexter's Laboratory S01E12 Dexter's Rival, The Justice Friends (Bee Where), Mandarker",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S01E12%20Dexter's%20Rival%2C%20The%20Justice%20Friends%20(Bee%20Where)%2C%20Mandarker.mp4",
+            "seconds": 1333,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 132
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 12 of 78 in \"Dexter's Laboratory The Complete Series\"",
+              "item": "dexters-laboratory-the-complete-series",
+              "itemTitle": "Dexter's Laboratory The Complete Series",
+              "file": "Dexter_s_Laboratory_S01E12.mp4",
+              "name": "Dexter_s_Laboratory_S01E12",
+              "url": "https://archive.org/download/dexters-laboratory-the-complete-series/Dexter_s_Laboratory_S01E12.mp4",
+              "seconds": 1333,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 101
+            }
+          ]
+        },
+        {
+          "number": 13,
+          "name": "Inflata Dee Dee - The Justice Friends: Can't Nap - Monstory",
+          "airdate": "1997-01-01",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.6,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S01E13 Inflata Dee Dee, The Justice Friends (Can't Nap), Monstory.mp4",
+            "name": "Dexter's Laboratory S01E13 Inflata Dee Dee, The Justice Friends (Can't Nap), Monstory",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S01E13%20Inflata%20Dee%20Dee%2C%20The%20Justice%20Friends%20(Can't%20Nap)%2C%20Monstory.mp4",
+            "seconds": 1338,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 132
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 13 of 78 in \"Dexter's Laboratory The Complete Series\"",
+              "item": "dexters-laboratory-the-complete-series",
+              "itemTitle": "Dexter's Laboratory The Complete Series",
+              "file": "Dexter_s_Laboratory_S01E13.mp4",
+              "name": "Dexter_s_Laboratory_S01E13",
+              "url": "https://archive.org/download/dexters-laboratory-the-complete-series/Dexter_s_Laboratory_S01E13.mp4",
+              "seconds": 1338,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 117
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Beard to Be Feared/Quackor the Fowl/Ant Pants",
+          "airdate": "1997-07-16",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S02E01 Beard to Be Feared, Quackor the Fowl, Ant Pants.mp4",
+            "name": "Dexter's Laboratory S02E01 Beard to Be Feared, Quackor the Fowl, Ant Pants",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S02E01%20Beard%20to%20Be%20Feared%2C%20Quackor%20the%20Fowl%2C%20Ant%20Pants.mp4",
+            "seconds": 1334,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 132
+          },
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Mom and Jerry/Chubby Cheese/That Crazy Robot",
+          "airdate": "1997-07-23",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S02E02 Mom and Jerry, Chubby Cheese, That Crazy Robot.mp4",
+            "name": "Dexter's Laboratory S02E02 Mom and Jerry, Chubby Cheese, That Crazy Robot",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S02E02%20Mom%20and%20Jerry%2C%20Chubby%20Cheese%2C%20That%20Crazy%20Robot.mp4",
+            "seconds": 1340,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 132
+          },
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "D & DD/Hamhocks and Armlocks",
+          "airdate": "1997-07-30",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S02E03 - D & DD, Hamhocks and Armlocks.mp4",
+            "name": "Dexter's Laboratory S02E03 - D & DD, Hamhocks and Armlocks",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S02E03%20-%20D%20%26%20DD%2C%20Hamhocks%20and%20Armlocks.mp4",
+            "seconds": 1359,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 134
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Hunger Strikes/The Koos is Loose/Morning Stretch",
+          "airdate": "1997-08-06",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S02E04 Hunger Strikes, The Koos Is Loose, Morning Stretch.mp4",
+            "name": "Dexter's Laboratory S02E04 Hunger Strikes, The Koos Is Loose, Morning Stretch",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S02E04%20Hunger%20Strikes%2C%20The%20Koos%20Is%20Loose%2C%20Morning%20Stretch.mp4",
+            "seconds": 1330,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 128
+          },
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Dee Dee Locks and the Ness Monster/Backfire/Book 'Em",
+          "airdate": "1997-08-13",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S02E05 Dee Dee Locks and the Ness Monster, Backfire, Book 'Em.mp4",
+            "name": "Dexter's Laboratory S02E05 Dee Dee Locks and the Ness Monster, Backfire, Book 'Em",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S02E05%20Dee%20Dee%20Locks%20and%20the%20Ness%20Monster%2C%20Backfire%2C%20Book%20'Em.mp4",
+            "seconds": 1334,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 129
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Sister's Got a Brand New Bag/Shoo, Shoe Gnomes/Lab of the Lost",
+          "airdate": "1997-08-20",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S02E06 Sister's Got a Brand New Bag, Shoo Shoe Gnomes, Lab of the Lost.mp4",
+            "name": "Dexter's Laboratory S02E06 Sister's Got a Brand New Bag, Shoo Shoe Gnomes, Lab of the Lost",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S02E06%20Sister's%20Got%20a%20Brand%20New%20Bag%2C%20Shoo%20Shoe%20Gnomes%2C%20Lab%20of%20the%20Lost.mp4",
+            "seconds": 1335,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 132
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Labels/Game Show/Fantastic Boyage",
+          "airdate": "1997-08-27",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S02E07 Labels, Game Show, Fantastic Boyage.mp4",
+            "name": "Dexter's Laboratory S02E07 Labels, Game Show, Fantastic Boyage",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S02E07%20Labels%2C%20Game%20Show%2C%20Fantastic%20Boyage.mp4",
+            "seconds": 1340,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 132
+          },
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Filet of Soul/Golden Diskette",
+          "airdate": "1997-09-03",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S02E08 Filet of Soul, Golden Diskette.mp4",
+            "name": "Dexter's Laboratory S02E08 Filet of Soul, Golden Diskette",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S02E08%20Filet%20of%20Soul%2C%20Golden%20Diskette.mp4",
+            "seconds": 1403,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 135
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Snowdown/ *figure not included/Mock 5",
+          "airdate": "1997-09-10",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S02E09 Snowdown, Figure Not Included, Mock 5.mp4",
+            "name": "Dexter's Laboratory S02E09 Snowdown, Figure Not Included, Mock 5",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S02E09%20Snowdown%2C%20Figure%20Not%20Included%2C%20Mock%205.mp4",
+            "seconds": 1336,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 128
+          },
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Ewww That's Growth/Nuclear Confusion/Germ Warfare",
+          "airdate": "1997-09-17",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S02E10 Ewww That's Growth, Nuclear Confusion, Germ Warfare.mp4",
+            "name": "Dexter's Laboratory S02E10 Ewww That's Growth, Nuclear Confusion, Germ Warfare",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S02E10%20Ewww%20That's%20Growth%2C%20Nuclear%20Confusion%2C%20Germ%20Warfare.mp4",
+            "seconds": 1330,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 127
+          },
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "A Hard Day's Day/Road Rash/Ocean Commotion",
+          "airdate": "1997-09-24",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S02E11 A Hard Day's Day, Road Rash, Ocean Commotion.mp4",
+            "name": "Dexter's Laboratory S02E11 A Hard Day's Day, Road Rash, Ocean Commotion",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S02E11%20A%20Hard%20Day's%20Day%2C%20Road%20Rash%2C%20Ocean%20Commotion.mp4",
+            "seconds": 1338,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 132
+          },
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "The Bus Boy/The Justice Friends: Things That Go Bonk in the Night/Ol' McDexter",
+          "airdate": "1997-10-01",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.6,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S02E12 The Bus Boy, The Justice Friends (Things That Go Bonk in the Night), Ol' McDexter.mp4",
+            "name": "Dexter's Laboratory S02E12 The Bus Boy, The Justice Friends (Things That Go Bonk in the Night), Ol' McDexter",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S02E12%20The%20Bus%20Boy%2C%20The%20Justice%20Friends%20(Things%20That%20Go%20Bonk%20in%20the%20Night)%2C%20Ol'%20McDexter.mp4",
+            "seconds": 1342,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 129
+          },
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Sassy Come Home/Photo Finish",
+          "airdate": "1997-10-08",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S02E13 Sassy Come Home, Photo Finish.mp4",
+            "name": "Dexter's Laboratory S02E13 Sassy Come Home, Photo Finish",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S02E13%20Sassy%20Come%20Home%2C%20Photo%20Finish.mp4",
+            "seconds": 1338,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 129
+          },
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Star Check Unconventional/Dexter is Dirty/Ice Cream Scream",
+          "airdate": "1997-10-15",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S02E14 Star Check Unconventional, Dexter Is Dirty, Ice Cream Scream.mp4",
+            "name": "Dexter's Laboratory S02E14 Star Check Unconventional, Dexter Is Dirty, Ice Cream Scream",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S02E14%20Star%20Check%20Unconventional%2C%20Dexter%20Is%20Dirty%2C%20Ice%20Cream%20Scream.mp4",
+            "seconds": 1339,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 133
+          },
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Decode of Honor/World's Greatest Mom/Ultrajerk 2000",
+          "airdate": "1997-10-22",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S02E15 Decode of Honor, World's Greatest Mom, Ultrajerk 2000.mp4",
+            "name": "Dexter's Laboratory S02E15 Decode of Honor, World's Greatest Mom, Ultrajerk 2000",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S02E15%20Decode%20of%20Honor%2C%20World's%20Greatest%20Mom%2C%20Ultrajerk%202000.mp4",
+            "seconds": 1335,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 132
+          },
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Techno Turtle/Surprise!/Got Your Goat",
+          "airdate": "1997-10-29",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S02E16 Techno Turtle, Surprise!, Got Your Goat.mp4",
+            "name": "Dexter's Laboratory S02E16 Techno Turtle, Surprise!, Got Your Goat",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S02E16%20Techno%20Turtle%2C%20Surprise!%2C%20Got%20Your%20Goat.mp4",
+            "seconds": 1337,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 129
+          },
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Dee Dee Be Deep/911/Down in the Dumps",
+          "airdate": "1997-11-05",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S02E17 Dee Dee Be Deep, 911, Down in the Dumps.mp4",
+            "name": "Dexter's Laboratory S02E17 Dee Dee Be Deep, 911, Down in the Dumps",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S02E17%20Dee%20Dee%20Be%20Deep%2C%20911%2C%20Down%20in%20the%20Dumps.mp4",
+            "seconds": 1338,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 132
+          },
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Unfortunate Cookie/The Muffin King",
+          "airdate": "1997-11-12",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S02E18 Unfortunate Cookie, The Muffin King.mp4",
+            "name": "Dexter's Laboratory S02E18 Unfortunate Cookie, The Muffin King",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S02E18%20Unfortunate%20Cookie%2C%20The%20Muffin%20King.mp4",
+            "seconds": 1337,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 132
+          },
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Picture Day/Now That's a Stretch/Dexter Detention",
+          "airdate": "1997-11-19",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S02E19 Picture Day, Now That's a Stretch, Dexter Detention.mp4",
+            "name": "Dexter's Laboratory S02E19 Picture Day, Now That's a Stretch, Dexter Detention",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S02E19%20Picture%20Day%2C%20Now%20That's%20a%20Stretch%2C%20Dexter%20Detention.mp4",
+            "seconds": 1339,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 132
+          },
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Don't Be a Baby/Dial M for Monkey: Peltra/G.I.R.L. Squad",
+          "airdate": "1997-11-26",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S02E20 Don't Be a Baby, Dial M for Monkey (Peltra), G.I.R.L. Squad.mp4",
+            "name": "Dexter's Laboratory S02E20 Don't Be a Baby, Dial M for Monkey (Peltra), G.I.R.L. Squad",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S02E20%20Don't%20Be%20a%20Baby%2C%20Dial%20M%20for%20Monkey%20(Peltra)%2C%20G.I.R.L.%20Squad.mp4",
+            "seconds": 1337,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 132
+          },
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Sports-a-Poppin'/Koos a la Goop a Goop/Project Dee Dee",
+          "airdate": "1997-12-03",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S02E21 Sports a Poppin, Koosalagoopagoop, Project Dee Dee.mp4",
+            "name": "Dexter's Laboratory S02E21 Sports a Poppin, Koosalagoopagoop, Project Dee Dee",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S02E21%20Sports%20a%20Poppin%2C%20Koosalagoopagoop%2C%20Project%20Dee%20Dee.mp4",
+            "seconds": 1339,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 132
+          },
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Topped Off/Dee Dee's Tail/No Power Trip",
+          "airdate": "1998-01-14",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S02E22 Topped Off, Dee Dee's Tail, No Power Trip.mp4",
+            "name": "Dexter's Laboratory S02E22 Topped Off, Dee Dee's Tail, No Power Trip",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S02E22%20Topped%20Off%2C%20Dee%20Dee's%20Tail%2C%20No%20Power%20Trip.mp4",
+            "seconds": 1334,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 131
+          },
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "Sister Mom/The Laughing",
+          "airdate": "1998-01-21",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S02E23 Sister Mom, The Laughing.mp4",
+            "name": "Dexter's Laboratory S02E23 Sister Mom, The Laughing",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S02E23%20Sister%20Mom%2C%20The%20Laughing.mp4",
+            "seconds": 1360,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 135
+          },
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "Dexter's Lab: A Story/Coupon for Craziness/Better Off Wet",
+          "airdate": "1998-01-28",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S02E24 Dexter's Lab A Story, Coupon for Craziness, Better Off Wet.mp4",
+            "name": "Dexter's Laboratory S02E24 Dexter's Lab A Story, Coupon for Craziness, Better Off Wet",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S02E24%20Dexter's%20Lab%20A%20Story%2C%20Coupon%20for%20Craziness%2C%20Better%20Off%20Wet.mp4",
+            "seconds": 1364,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 135
+          },
+          "alternates": []
+        },
+        {
+          "number": 25,
+          "name": "Critical Gas/Let's Save the World You Jerk!/Average Joe",
+          "airdate": "1998-02-04",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S02E25 Critical Gas, Let's Save the World You Jerk!, Average Joe.mp4",
+            "name": "Dexter's Laboratory S02E25 Critical Gas, Let's Save the World You Jerk!, Average Joe",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S02E25%20Critical%20Gas%2C%20Let's%20Save%20the%20World%20You%20Jerk!%2C%20Average%20Joe.mp4",
+            "seconds": 1338,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 130
+          },
+          "alternates": []
+        },
+        {
+          "number": 26,
+          "name": "Rushmore Rumble/A Boy and His Bug/You Vegetabelieve It!",
+          "airdate": "1998-02-11",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S02E26 Rushmore Rumble, A Boy and His Bug, You Vegetabelieve It!.mp4",
+            "name": "Dexter's Laboratory S02E26 Rushmore Rumble, A Boy and His Bug, You Vegetabelieve It!",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S02E26%20Rushmore%20Rumble%2C%20A%20Boy%20and%20His%20Bug%2C%20You%20Vegetabelieve%20It!.mp4",
+            "seconds": 1335,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 131
+          },
+          "alternates": []
+        },
+        {
+          "number": 27,
+          "name": "Aye Aye Eyes/Dee Dee and the Man",
+          "airdate": "1998-02-18",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S02E27 Aye Aye Eyes, Dee Dee and the Man.mp4",
+            "name": "Dexter's Laboratory S02E27 Aye Aye Eyes, Dee Dee and the Man",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S02E27%20Aye%20Aye%20Eyes%2C%20Dee%20Dee%20and%20the%20Man.mp4",
+            "seconds": 1334,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 132
+          },
+          "alternates": []
+        },
+        {
+          "number": 28,
+          "name": "Old Flame/Don't Be a Hero/My Favorite Martian",
+          "airdate": "1998-02-25",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S02E28 Old Flame, Don't Be a Hero, My Favorite Martian.mp4",
+            "name": "Dexter's Laboratory S02E28 Old Flame, Don't Be a Hero, My Favorite Martian",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S02E28%20Old%20Flame%2C%20Don't%20Be%20a%20Hero%2C%20My%20Favorite%20Martian.mp4",
+            "seconds": 1345,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 92
+          },
+          "alternates": []
+        },
+        {
+          "number": 29,
+          "name": "Paper Route Bout/The Old Switcharooms/Trick or Treehouse",
+          "airdate": "1998-03-04",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S02E29 Paper Route Bout, The Old Switcharooms, Trick or Treehouse.mp4",
+            "name": "Dexter's Laboratory S02E29 Paper Route Bout, The Old Switcharooms, Trick or Treehouse",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S02E29%20Paper%20Route%20Bout%2C%20The%20Old%20Switcharooms%2C%20Trick%20or%20Treehouse.mp4",
+            "seconds": 1341,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 133
+          },
+          "alternates": []
+        },
+        {
+          "number": 30,
+          "name": "Quiet Riot/Accent You Hate/Catch of the Day",
+          "airdate": "1998-03-11",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S02E30 Quiet Riot, Accent You Hate, Catch of the Day.mp4",
+            "name": "Dexter's Laboratory S02E30 Quiet Riot, Accent You Hate, Catch of the Day",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S02E30%20Quiet%20Riot%2C%20Accent%20You%20Hate%2C%20Catch%20of%20the%20Day.mp4",
+            "seconds": 1344,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 133
+          },
+          "alternates": []
+        },
+        {
+          "number": 31,
+          "name": "Dad is Disturbed/Framed/That's Using Your Head",
+          "airdate": "1998-03-18",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S02E31 Dad Is Disturbed, Framed, That's Using Your Head.mp4",
+            "name": "Dexter's Laboratory S02E31 Dad Is Disturbed, Framed, That's Using Your Head",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S02E31%20Dad%20Is%20Disturbed%2C%20Framed%2C%20That's%20Using%20Your%20Head.mp4",
+            "seconds": 1338,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 132
+          },
+          "alternates": []
+        },
+        {
+          "number": 32,
+          "name": "DiM/Just an Old Fashioned Lab Song.../Repairanoid",
+          "airdate": "1998-03-25",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S02E32 DiM, Just an Old-Fashioned Lab Song..., Repairanoid.mp4",
+            "name": "Dexter's Laboratory S02E32 DiM, Just an Old-Fashioned Lab Song..., Repairanoid",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S02E32%20DiM%2C%20Just%20an%20Old-Fashioned%20Lab%20Song...%2C%20Repairanoid.mp4",
+            "seconds": 1335,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 131
+          },
+          "alternates": []
+        },
+        {
+          "number": 33,
+          "name": "Sdrawkcab/The Continuum of Cartoon Fools/Sun, Surf, and Science",
+          "airdate": "1998-04-01",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S02E33 Sdrawkcab, The Continuum of Cartoon Fools, Sun Surf and Science.mp4",
+            "name": "Dexter's Laboratory S02E33 Sdrawkcab, The Continuum of Cartoon Fools, Sun Surf and Science",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S02E33%20Sdrawkcab%2C%20The%20Continuum%20of%20Cartoon%20Fools%2C%20Sun%20Surf%20and%20Science.mp4",
+            "seconds": 1350,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 133
+          },
+          "alternates": []
+        },
+        {
+          "number": 34,
+          "name": "Big Bots/Gooey Aliens That Control Your Mind/Misplaced in Space",
+          "airdate": "1998-04-08",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S02E34 Big Bots, Gooey Aliens That Control Your Mind, Misplaced in Space.mp4",
+            "name": "Dexter's Laboratory S02E34 Big Bots, Gooey Aliens That Control Your Mind, Misplaced in Space",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S02E34%20Big%20Bots%2C%20Gooey%20Aliens%20That%20Control%20Your%20Mind%2C%20Misplaced%20in%20Space.mp4",
+            "seconds": 1336,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 129
+          },
+          "alternates": []
+        },
+        {
+          "number": 35,
+          "name": "Dee Dee's Rival/Pslightly Psycho/Game for a Game",
+          "airdate": "1998-04-15",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S02E35 Dee Dee's Rival, Pslyghtly Psycho, Game for a Game.mp4",
+            "name": "Dexter's Laboratory S02E35 Dee Dee's Rival, Pslyghtly Psycho, Game for a Game",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S02E35%20Dee%20Dee's%20Rival%2C%20Pslyghtly%20Psycho%2C%20Game%20for%20a%20Game.mp4",
+            "seconds": 1353,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 134
+          },
+          "alternates": []
+        },
+        {
+          "number": 36,
+          "name": "Blackfoot and Slim/Trapped with a Vengeance/The Parrot Trap",
+          "airdate": "1998-04-22",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S02E36 Blackfoot and Slim, Trapped with a Vengeance, The Parrot Trap.mp4",
+            "name": "Dexter's Laboratory S02E36 Blackfoot and Slim, Trapped with a Vengeance, The Parrot Trap",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S02E36%20Blackfoot%20and%20Slim%2C%20Trapped%20with%20a%20Vengeance%2C%20The%20Parrot%20Trap.mp4",
+            "seconds": 1340,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 132
+          },
+          "alternates": []
+        },
+        {
+          "number": 37,
+          "name": "Dexter and Computress Get Mandark!/The Justice Friends: Pain in the Mouth/Dexter Vs. Santa's Claws",
+          "airdate": "1998-04-29",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.6,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S02E37 Dexter and Computress Get Mandark, The Justice Friends (Pain in the Mouth), Dexter vs. Santa's Claws.mp4",
+            "name": "Dexter's Laboratory S02E37 Dexter and Computress Get Mandark, The Justice Friends (Pain in the Mouth), Dexter vs. Santa's Claws",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S02E37%20Dexter%20and%20Computress%20Get%20Mandark%2C%20The%20Justice%20Friends%20(Pain%20in%20the%20Mouth)%2C%20Dexter%20vs.%20Santa's%20Claws.mp4",
+            "seconds": 1337,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 132
+          },
+          "alternates": []
+        },
+        {
+          "number": 38,
+          "name": "Dyno-Might/LABretto",
+          "airdate": "1998-05-06",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S02E38 Dyno-Might, LABretto.mp4",
+            "name": "Dexter's Laboratory S02E38 Dyno-Might, LABretto",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S02E38%20Dyno-Might%2C%20LABretto.mp4",
+            "seconds": 1347,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 134
+          },
+          "alternates": []
+        },
+        {
+          "number": 39,
+          "name": "Last But Not Beast",
+          "airdate": "1998-06-15",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S02E39 Last But Not Beast.mp4",
+            "name": "Dexter's Laboratory S02E39 Last But Not Beast",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S02E39%20Last%20But%20Not%20Beast.mp4",
+            "seconds": 1481,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 142
+          },
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Streaky Clean/A Dad Cartoon/Sole Brother",
+          "airdate": "2001-11-16",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S03E01 Mind Over Chatter, A Quackor Cartoon, Momdark.mp4",
+            "name": "Dexter's Laboratory S03E01 Mind Over Chatter, A Quackor Cartoon, Momdark",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S03E01%20Mind%20Over%20Chatter%2C%20A%20Quackor%20Cartoon%2C%20Momdark.mp4",
+            "seconds": 1337,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 131
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Streaky Clean/A Dad Cartoon/Sole Brother\" (1.00)",
+              "item": "dexters-laboratory_202507",
+              "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+              "file": "Dexter's Laboratory S03E02 Streaky Clean, A Dad Cartoon, Sole Brother.mp4",
+              "name": "Dexter's Laboratory S03E02 Streaky Clean, A Dad Cartoon, Sole Brother",
+              "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S03E02%20Streaky%20Clean%2C%20A%20Dad%20Cartoon%2C%20Sole%20Brother.mp4",
+              "seconds": 1340,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 130
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "Mind Over Chatter/A Quakor Cartoon/Momdark",
+          "airdate": "2001-11-16",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S03E02 Streaky Clean, A Dad Cartoon, Sole Brother.mp4",
+            "name": "Dexter's Laboratory S03E02 Streaky Clean, A Dad Cartoon, Sole Brother",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S03E02%20Streaky%20Clean%2C%20A%20Dad%20Cartoon%2C%20Sole%20Brother.mp4",
+            "seconds": 1340,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 130
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Mind Over Chatter/A Quakor Cartoon/Momdark\" (0.95)",
+              "item": "dexters-laboratory_202507",
+              "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+              "file": "Dexter's Laboratory S03E01 Mind Over Chatter, A Quackor Cartoon, Momdark.mp4",
+              "name": "Dexter's Laboratory S03E01 Mind Over Chatter, A Quackor Cartoon, Momdark",
+              "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S03E01%20Mind%20Over%20Chatter%2C%20A%20Quackor%20Cartoon%2C%20Momdark.mp4",
+              "seconds": 1337,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 131
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "name": "Copping an Aptitude/A Failed Lab Experiment/The Grand-Daddy of All Inventions",
+          "airdate": "2001-11-30",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S03E03 Poppa Wheely, A Mom Cartoon, The Mock Side of the Moon.mp4",
+            "name": "Dexter's Laboratory S03E03 Poppa Wheely, A Mom Cartoon, The Mock Side of the Moon",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S03E03%20Poppa%20Wheely%2C%20A%20Mom%20Cartoon%2C%20The%20Mock%20Side%20of%20the%20Moon.mp4",
+            "seconds": 1333,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 130
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Copping an Aptitude/A Failed Lab Experiment/The Grand-Daddy of All Inventions\" (1.00)",
+              "item": "dexters-laboratory_202507",
+              "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+              "file": "Dexter's Laboratory S03E04 Copping an Aptitude, A Failed Lab Experiment, The Grand-Daddy of All Inventions.mp4",
+              "name": "Dexter's Laboratory S03E04 Copping an Aptitude, A Failed Lab Experiment, The Grand-Daddy of All Inventions",
+              "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S03E04%20Copping%20an%20Aptitude%2C%20A%20Failed%20Lab%20Experiment%2C%20The%20Grand-Daddy%20of%20All%20Inventions.mp4",
+              "seconds": 1332,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 130
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "name": "Poppa Wheely/A Mom Cartoon/The Mock Side of the Moon",
+          "airdate": "2002-01-18",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S03E04 Copping an Aptitude, A Failed Lab Experiment, The Grand-Daddy of All Inventions.mp4",
+            "name": "Dexter's Laboratory S03E04 Copping an Aptitude, A Failed Lab Experiment, The Grand-Daddy of All Inventions",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S03E04%20Copping%20an%20Aptitude%2C%20A%20Failed%20Lab%20Experiment%2C%20The%20Grand-Daddy%20of%20All%20Inventions.mp4",
+            "seconds": 1332,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 130
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Poppa Wheely/A Mom Cartoon/The Mock Side of the Moon\" (1.00)",
+              "item": "dexters-laboratory_202507",
+              "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+              "file": "Dexter's Laboratory S03E03 Poppa Wheely, A Mom Cartoon, The Mock Side of the Moon.mp4",
+              "name": "Dexter's Laboratory S03E03 Poppa Wheely, A Mom Cartoon, The Mock Side of the Moon",
+              "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S03E03%20Poppa%20Wheely%2C%20A%20Mom%20Cartoon%2C%20The%20Mock%20Side%20of%20the%20Moon.mp4",
+              "seconds": 1333,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 130
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "name": "If Memory Serves/A Mandark Cartoon/Tele Trauma",
+          "airdate": "2002-02-22",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S03E05 A Boy Named Sue, Lab on the Run.mp4",
+            "name": "Dexter's Laboratory S03E05 A Boy Named Sue, Lab on the Run",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S03E05%20A%20Boy%20Named%20Sue%2C%20Lab%20on%20the%20Run.mp4",
+            "seconds": 1340,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 130
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"If Memory Serves/A Mandark Cartoon/Tele Trauma\" (1.00)",
+              "item": "dexters-laboratory_202507",
+              "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+              "file": "Dexter's Laboratory S03E06 If Memory Serves, A Mandark Cartoon, Tele Trauma.mp4",
+              "name": "Dexter's Laboratory S03E06 If Memory Serves, A Mandark Cartoon, Tele Trauma",
+              "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S03E06%20If%20Memory%20Serves%2C%20A%20Mandark%20Cartoon%2C%20Tele%20Trauma.mp4",
+              "seconds": 1337,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 126
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "name": "A Boy Named Sue/Lab on the Run",
+          "airdate": "2002-03-29",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S03E06 If Memory Serves, A Mandark Cartoon, Tele Trauma.mp4",
+            "name": "Dexter's Laboratory S03E06 If Memory Serves, A Mandark Cartoon, Tele Trauma",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S03E06%20If%20Memory%20Serves%2C%20A%20Mandark%20Cartoon%2C%20Tele%20Trauma.mp4",
+            "seconds": 1337,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 126
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"A Boy Named Sue/Lab on the Run\" (1.00)",
+              "item": "dexters-laboratory_202507",
+              "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+              "file": "Dexter's Laboratory S03E05 A Boy Named Sue, Lab on the Run.mp4",
+              "name": "Dexter's Laboratory S03E05 A Boy Named Sue, Lab on the Run",
+              "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S03E05%20A%20Boy%20Named%20Sue%2C%20Lab%20on%20the%20Run.mp4",
+              "seconds": 1340,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 130
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "name": "Dos Boot/A Dee Dee Cartoon/Would You Like That In The Can",
+          "airdate": "2002-06-07",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S03E07 Dos Boot, A Dee Dee Cartoon, Would You Like That in the Can.mp4",
+            "name": "Dexter's Laboratory S03E07 Dos Boot, A Dee Dee Cartoon, Would You Like That in the Can",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S03E07%20Dos%20Boot%2C%20A%20Dee%20Dee%20Cartoon%2C%20Would%20You%20Like%20That%20in%20the%20Can.mp4",
+            "seconds": 1325,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 124
+          },
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "That Magic Moment/A Silent Cartoon/Opposites Attract",
+          "airdate": "2002-06-14",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S03E08 That Magic Moment, A Silent Cartoon, Opposites Attract.mp4",
+            "name": "Dexter's Laboratory S03E08 That Magic Moment, A Silent Cartoon, Opposites Attract",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S03E08%20That%20Magic%20Moment%2C%20A%20Silent%20Cartoon%2C%20Opposites%20Attract.mp4",
+            "seconds": 1339,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 130
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Comic Relief/A Third Dad Cartoon/RoboDexo 3000",
+          "airdate": "2002-06-21",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S03E09 Oh, Brother, Another Dad Cartoon, Bar Exam.mp4",
+            "name": "Dexter's Laboratory S03E09 Oh, Brother, Another Dad Cartoon, Bar Exam",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S03E09%20Oh%2C%20Brother%2C%20Another%20Dad%20Cartoon%2C%20Bar%20Exam.mp4",
+            "seconds": 1326,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 129
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Comic Relief/A Third Dad Cartoon/RoboDexo 3000\" (0.96)",
+              "item": "dexters-laboratory_202507",
+              "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+              "file": "Dexter's Laboratory S03E10 Comic Relief, A Third Dad Cartoon, Robo-Dexo 3000.mp4",
+              "name": "Dexter's Laboratory S03E10 Comic Relief, A Third Dad Cartoon, Robo-Dexo 3000",
+              "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S03E10%20Comic%20Relief%2C%20A%20Third%20Dad%20Cartoon%2C%20Robo-Dexo%203000.mp4",
+              "seconds": 1314,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 125
+            }
+          ]
+        },
+        {
+          "number": 10,
+          "name": "Glove at First Sight/A Mom & Dad Cartoon/Smells Like Victory",
+          "airdate": "2002-06-28",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S03E10 Comic Relief, A Third Dad Cartoon, Robo-Dexo 3000.mp4",
+            "name": "Dexter's Laboratory S03E10 Comic Relief, A Third Dad Cartoon, Robo-Dexo 3000",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S03E10%20Comic%20Relief%2C%20A%20Third%20Dad%20Cartoon%2C%20Robo-Dexo%203000.mp4",
+            "seconds": 1314,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 125
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Glove at First Sight/A Mom & Dad Cartoon/Smells Like Victory\" (1.00)",
+              "item": "dexters-laboratory_202507",
+              "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+              "file": "Dexter's Laboratory S03E11 Glove at First Sight, A Mom & Dad Cartoon, Smells Like Victory.mp4",
+              "name": "Dexter's Laboratory S03E11 Glove at First Sight, A Mom & Dad Cartoon, Smells Like Victory",
+              "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S03E11%20Glove%20at%20First%20Sight%2C%20A%20Mom%20%26%20Dad%20Cartoon%2C%20Smells%20Like%20Victory.mp4",
+              "seconds": 1341,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 62
+            }
+          ]
+        },
+        {
+          "number": 11,
+          "name": "Oh, Brother?/Another Dad Cartoon/Bar Exam",
+          "airdate": "2002-07-05",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S03E11 Glove at First Sight, A Mom & Dad Cartoon, Smells Like Victory.mp4",
+            "name": "Dexter's Laboratory S03E11 Glove at First Sight, A Mom & Dad Cartoon, Smells Like Victory",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S03E11%20Glove%20at%20First%20Sight%2C%20A%20Mom%20%26%20Dad%20Cartoon%2C%20Smells%20Like%20Victory.mp4",
+            "seconds": 1341,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 62
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Oh, Brother?/Another Dad Cartoon/Bar Exam\" (1.00)",
+              "item": "dexters-laboratory_202507",
+              "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+              "file": "Dexter's Laboratory S03E09 Oh, Brother, Another Dad Cartoon, Bar Exam.mp4",
+              "name": "Dexter's Laboratory S03E09 Oh, Brother, Another Dad Cartoon, Bar Exam",
+              "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S03E09%20Oh%2C%20Brother%2C%20Another%20Dad%20Cartoon%2C%20Bar%20Exam.mp4",
+              "seconds": 1326,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 129
+            }
+          ]
+        },
+        {
+          "number": 12,
+          "name": "Jeepers, Creepers, Where is Peepers?/Go, Dexter Family, Go!",
+          "airdate": "2002-07-12",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Jeepers, Creepers, Where is Peepers?/Go, Dexter Family, Go!\" (1.00)",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S03E13 Jeepers, Creepers, Where Is Peepers, Go, Dexter Family! Go!.mp4",
+            "name": "Dexter's Laboratory S03E13 Jeepers, Creepers, Where Is Peepers, Go, Dexter Family! Go!",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S03E13%20Jeepers%2C%20Creepers%2C%20Where%20Is%20Peepers%2C%20Go%2C%20Dexter%20Family!%20Go!.mp4",
+            "seconds": 1328,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 125
+          },
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Scare Tactics/A Mom Cartoon/My Dad vs. Your Dad",
+          "airdate": "2002-09-20",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S03E13 Jeepers, Creepers, Where Is Peepers, Go, Dexter Family! Go!.mp4",
+            "name": "Dexter's Laboratory S03E13 Jeepers, Creepers, Where Is Peepers, Go, Dexter Family! Go!",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S03E13%20Jeepers%2C%20Creepers%2C%20Where%20Is%20Peepers%2C%20Go%2C%20Dexter%20Family!%20Go!.mp4",
+            "seconds": 1328,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 125
+          },
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 4,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Beau Tie/Remember Me/Overlabbing",
+          "airdate": "2002-11-22",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S04E01 Sis-Tem Error, Bad Cable Manners, Dexter's Library.mp4",
+            "name": "Dexter's Laboratory S04E01 Sis-Tem Error, Bad Cable Manners, Dexter's Library",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S04E01%20Sis-Tem%20Error%2C%20Bad%20Cable%20Manners%2C%20Dexter's%20Library.mp4",
+            "seconds": 1315,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 129
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Beau Tie/Remember Me/Overlabbing\" (1.00)",
+              "item": "dexters-laboratory_202507",
+              "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+              "file": "Dexter's Laboratory S04E02 Beau Tie, Remember Me, Over-Labbing.mp4",
+              "name": "Dexter's Laboratory S04E02 Beau Tie, Remember Me, Over-Labbing",
+              "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S04E02%20Beau%20Tie%2C%20Remember%20Me%2C%20Over-Labbing.mp4",
+              "seconds": 1335,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 130
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "Sis-Tem Error/Bad Cable Manners/Dexter's Library",
+          "airdate": "2003-04-25",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S04E02 Beau Tie, Remember Me, Over-Labbing.mp4",
+            "name": "Dexter's Laboratory S04E02 Beau Tie, Remember Me, Over-Labbing",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S04E02%20Beau%20Tie%2C%20Remember%20Me%2C%20Over-Labbing.mp4",
+            "seconds": 1335,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 130
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Sis-Tem Error/Bad Cable Manners/Dexter's Library\" (0.94)",
+              "item": "dexters-laboratory_202507",
+              "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+              "file": "Dexter's Laboratory S04E01 Sis-Tem Error, Bad Cable Manners, Dexter's Library.mp4",
+              "name": "Dexter's Laboratory S04E01 Sis-Tem Error, Bad Cable Manners, Dexter's Library",
+              "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S04E01%20Sis-Tem%20Error%2C%20Bad%20Cable%20Manners%2C%20Dexter's%20Library.mp4",
+              "seconds": 1315,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 129
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "name": "The Scrying Game/Monstrosi-Dee Dee/Dad Man Walking",
+          "airdate": "2003-05-02",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S04E03 Dexter's Little Dilemma, Faux Chapeau, D2.mp4",
+            "name": "Dexter's Laboratory S04E03 Dexter's Little Dilemma, Faux Chapeau, D2",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S04E03%20Dexter's%20Little%20Dilemma%2C%20Faux%20Chapeau%2C%20D2.mp4",
+            "seconds": 1341,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 131
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"The Scrying Game/Monstrosi-Dee Dee/Dad Man Walking\" (1.00)",
+              "item": "dexters-laboratory_202507",
+              "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+              "file": "Dexter's Laboratory S04E05 The Scrying Game, Monstrosi-Dee Dee, Dad Man Walking.mp4",
+              "name": "Dexter's Laboratory S04E05 The Scrying Game, Monstrosi-Dee Dee, Dad Man Walking",
+              "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S04E05%20The%20Scrying%20Game%2C%20Monstrosi-Dee%20Dee%2C%20Dad%20Man%20Walking.mp4",
+              "seconds": 1304,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 129
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "name": "Dexter's Little Dilemma/Faux Chapeau/D2",
+          "airdate": "2003-05-09",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S04E04 Head Band, Stuffed Animal House, Used Ink.mp4",
+            "name": "Dexter's Laboratory S04E04 Head Band, Stuffed Animal House, Used Ink",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S04E04%20Head%20Band%2C%20Stuffed%20Animal%20House%2C%20Used%20Ink.mp4",
+            "seconds": 1327,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 129
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Dexter's Little Dilemma/Faux Chapeau/D2\" (0.87)",
+              "item": "dexters-laboratory_202507",
+              "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+              "file": "Dexter's Laboratory S04E03 Dexter's Little Dilemma, Faux Chapeau, D2.mp4",
+              "name": "Dexter's Laboratory S04E03 Dexter's Little Dilemma, Faux Chapeau, D2",
+              "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S04E03%20Dexter's%20Little%20Dilemma%2C%20Faux%20Chapeau%2C%20D2.mp4",
+              "seconds": 1341,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 131
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "name": "Head Band/Stuffed Animal House/Used Ink",
+          "airdate": "2003-05-16",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S04E05 The Scrying Game, Monstrosi-Dee Dee, Dad Man Walking.mp4",
+            "name": "Dexter's Laboratory S04E05 The Scrying Game, Monstrosi-Dee Dee, Dad Man Walking",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S04E05%20The%20Scrying%20Game%2C%20Monstrosi-Dee%20Dee%2C%20Dad%20Man%20Walking.mp4",
+            "seconds": 1304,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 129
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Head Band/Stuffed Animal House/Used Ink\" (1.00)",
+              "item": "dexters-laboratory_202507",
+              "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+              "file": "Dexter's Laboratory S04E04 Head Band, Stuffed Animal House, Used Ink.mp4",
+              "name": "Dexter's Laboratory S04E04 Head Band, Stuffed Animal House, Used Ink",
+              "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S04E04%20Head%20Band%2C%20Stuffed%20Animal%20House%2C%20Used%20Ink.mp4",
+              "seconds": 1327,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 129
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "name": "School Girl Crushed/Chess Mom/Father Knows Least",
+          "airdate": "2003-05-23",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S04E06 Dexter the Barbarian, Tuber Time, Sore Eyes.mp4",
+            "name": "Dexter's Laboratory S04E06 Dexter the Barbarian, Tuber Time, Sore Eyes",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S04E06%20Dexter%20the%20Barbarian%2C%20Tuber%20Time%2C%20Sore%20Eyes.mp4",
+            "seconds": 1325,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 130
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"School Girl Crushed/Chess Mom/Father Knows Least\" (1.00)",
+              "item": "dexters-laboratory_202507",
+              "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+              "file": "Dexter's Laboratory S04E07 School Girl Crushed, Chess Mom, Father Knows Least.mp4",
+              "name": "Dexter's Laboratory S04E07 School Girl Crushed, Chess Mom, Father Knows Least",
+              "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S04E07%20School%20Girl%20Crushed%2C%20Chess%20Mom%2C%20Father%20Knows%20Least.mp4",
+              "seconds": 1347,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 129
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "name": "Dexter the Barbarian/Tuber Time/Sore Eyes",
+          "airdate": "2003-05-30",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S04E07 School Girl Crushed, Chess Mom, Father Knows Least.mp4",
+            "name": "Dexter's Laboratory S04E07 School Girl Crushed, Chess Mom, Father Knows Least",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S04E07%20School%20Girl%20Crushed%2C%20Chess%20Mom%2C%20Father%20Knows%20Least.mp4",
+            "seconds": 1347,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 129
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Dexter the Barbarian/Tuber Time/Sore Eyes\" (1.00)",
+              "item": "dexters-laboratory_202507",
+              "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+              "file": "Dexter's Laboratory S04E06 Dexter the Barbarian, Tuber Time, Sore Eyes.mp4",
+              "name": "Dexter's Laboratory S04E06 Dexter the Barbarian, Tuber Time, Sore Eyes",
+              "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S04E06%20Dexter%20the%20Barbarian%2C%20Tuber%20Time%2C%20Sore%20Eyes.mp4",
+              "seconds": 1325,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 130
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "name": "Babe Sitter/Mountain Mandark/2Geniuses 2Gether 4Ever",
+          "airdate": "2003-09-05",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S04E08 Height Unseen, Bygone Errors, Folly Calls.mp4",
+            "name": "Dexter's Laboratory S04E08 Height Unseen, Bygone Errors, Folly Calls",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S04E08%20Height%20Unseen%2C%20Bygone%20Errors%2C%20Folly%20Calls.mp4",
+            "seconds": 1308,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 128
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Babe Sitter/Mountain Mandark/2Geniuses 2Gether 4Ever\" (1.00)",
+              "item": "dexters-laboratory_202507",
+              "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+              "file": "Dexter's Laboratory S04E13 Babe Sitter, Mountain Mandark, 2Geniuses 2Gether 4Ever.mp4",
+              "name": "Dexter's Laboratory S04E13 Babe Sitter, Mountain Mandark, 2Geniuses 2Gether 4Ever",
+              "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S04E13%20Babe%20Sitter%2C%20Mountain%20Mandark%2C%202Geniuses%202Gether%204Ever.mp4",
+              "seconds": 1318,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 130
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "name": "Height Unseen/Bygone Errors/Folly Calls",
+          "airdate": "2003-09-12",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S04E09 Voice Over, The Blonde Leading the Blonde, Comic Stripper.mp4",
+            "name": "Dexter's Laboratory S04E09 Voice Over, The Blonde Leading the Blonde, Comic Stripper",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S04E09%20Voice%20Over%2C%20The%20Blonde%20Leading%20the%20Blonde%2C%20Comic%20Stripper.mp4",
+            "seconds": 1345,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 129
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Height Unseen/Bygone Errors/Folly Calls\" (1.00)",
+              "item": "dexters-laboratory_202507",
+              "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+              "file": "Dexter's Laboratory S04E08 Height Unseen, Bygone Errors, Folly Calls.mp4",
+              "name": "Dexter's Laboratory S04E08 Height Unseen, Bygone Errors, Folly Calls",
+              "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S04E08%20Height%20Unseen%2C%20Bygone%20Errors%2C%20Folly%20Calls.mp4",
+              "seconds": 1308,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 128
+            }
+          ]
+        },
+        {
+          "number": 10,
+          "name": "Voice Over/Blonde Leading the Blonde/Comic Stripper",
+          "airdate": "2003-09-19",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S04E10 Tee Party, Dexter's Wacky Races.mp4",
+            "name": "Dexter's Laboratory S04E10 Tee Party, Dexter's Wacky Races",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S04E10%20Tee%20Party%2C%20Dexter's%20Wacky%20Races.mp4",
+            "seconds": 1347,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 128
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Voice Over/Blonde Leading the Blonde/Comic Stripper\" (0.97)",
+              "item": "dexters-laboratory_202507",
+              "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+              "file": "Dexter's Laboratory S04E09 Voice Over, The Blonde Leading the Blonde, Comic Stripper.mp4",
+              "name": "Dexter's Laboratory S04E09 Voice Over, The Blonde Leading the Blonde, Comic Stripper",
+              "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S04E09%20Voice%20Over%2C%20The%20Blonde%20Leading%20the%20Blonde%2C%20Comic%20Stripper.mp4",
+              "seconds": 1345,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 129
+            }
+          ]
+        },
+        {
+          "number": 11,
+          "name": "Tee Party/Dexter's Wacky Races",
+          "airdate": "2003-09-26",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S04E11 The Lab of Tomorrow, Chicken Scratch, Garage Sale.mp4",
+            "name": "Dexter's Laboratory S04E11 The Lab of Tomorrow, Chicken Scratch, Garage Sale",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S04E11%20The%20Lab%20of%20Tomorrow%2C%20Chicken%20Scratch%2C%20Garage%20Sale.mp4",
+            "seconds": 1347,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 132
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Tee Party/Dexter's Wacky Races\" (0.79)",
+              "item": "dexters-laboratory_202507",
+              "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+              "file": "Dexter's Laboratory S04E10 Tee Party, Dexter's Wacky Races.mp4",
+              "name": "Dexter's Laboratory S04E10 Tee Party, Dexter's Wacky Races",
+              "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S04E10%20Tee%20Party%2C%20Dexter's%20Wacky%20Races.mp4",
+              "seconds": 1347,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 128
+            }
+          ]
+        },
+        {
+          "number": 12,
+          "name": "The Lab of Tomorrow/Garage Sale/Chicken Scratch",
+          "airdate": "2003-11-04",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S04E12 They Got Chops, Poetic Injustice, Comedy of Feathers.mp4",
+            "name": "Dexter's Laboratory S04E12 They Got Chops, Poetic Injustice, Comedy of Feathers",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S04E12%20They%20Got%20Chops%2C%20Poetic%20Injustice%2C%20Comedy%20of%20Feathers.mp4",
+            "seconds": 1312,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 129
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"The Lab of Tomorrow/Garage Sale/Chicken Scratch\" (0.95)",
+              "item": "dexters-laboratory_202507",
+              "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+              "file": "Dexter's Laboratory S04E11 The Lab of Tomorrow, Chicken Scratch, Garage Sale.mp4",
+              "name": "Dexter's Laboratory S04E11 The Lab of Tomorrow, Chicken Scratch, Garage Sale",
+              "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S04E11%20The%20Lab%20of%20Tomorrow%2C%20Chicken%20Scratch%2C%20Garage%20Sale.mp4",
+              "seconds": 1347,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 132
+            }
+          ]
+        },
+        {
+          "number": 13,
+          "name": "They Got Chops/Poetic Injustice/Comedy of Feathers",
+          "airdate": "2003-11-20",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "dexters-laboratory_202507",
+            "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+            "file": "Dexter's Laboratory S04E13 Babe Sitter, Mountain Mandark, 2Geniuses 2Gether 4Ever.mp4",
+            "name": "Dexter's Laboratory S04E13 Babe Sitter, Mountain Mandark, 2Geniuses 2Gether 4Ever",
+            "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S04E13%20Babe%20Sitter%2C%20Mountain%20Mandark%2C%202Geniuses%202Gether%204Ever.mp4",
+            "seconds": 1318,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 130
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"They Got Chops/Poetic Injustice/Comedy of Feathers\" (1.00)",
+              "item": "dexters-laboratory_202507",
+              "itemTitle": "Dexter's Laboratory (1996) Animated Series",
+              "file": "Dexter's Laboratory S04E12 They Got Chops, Poetic Injustice, Comedy of Feathers.mp4",
+              "name": "Dexter's Laboratory S04E12 They Got Chops, Poetic Injustice, Comedy of Feathers",
+              "url": "https://archive.org/download/dexters-laboratory_202507/Dexter's%20Laboratory%20S04E12%20They%20Got%20Chops%2C%20Poetic%20Injustice%2C%20Comedy%20of%20Feathers.mp4",
+              "seconds": 1312,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 129
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

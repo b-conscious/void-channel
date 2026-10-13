@@ -1,0 +1,660 @@
+{
+  "show": "Warehouse 13",
+  "slug": "warehouse-13",
+  "type": "Sci-Fi, Fantasy and Horror",
+  "network": "Sci-Fi Channel",
+  "matchedAt": "2026-10-13T07:46:17.470Z",
+  "tvmaze": {
+    "id": 434,
+    "name": "Warehouse 13",
+    "runtime": 60,
+    "premiered": "2009-07-07",
+    "network": "Syfy"
+  },
+  "coverage": {
+    "total": 64,
+    "live": 0,
+    "review": 6,
+    "missing": 58,
+    "pct": 9
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Pilot",
+          "airdate": "2009-07-07",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "absolute episode number",
+            "item": "men-at-work_202503",
+            "itemTitle": "Movies and TV",
+            "file": "Moon Knight Episode 01 - The Goldfish Problem.mp4",
+            "name": "Moon Knight Episode 01 - The Goldfish Problem",
+            "url": "https://archive.org/download/men-at-work_202503/Moon%20Knight%20Episode%2001%20-%20The%20Goldfish%20Problem.mp4",
+            "seconds": 2732,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 249
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "absolute episode number",
+              "item": "men-at-work_202503",
+              "itemTitle": "Movies and TV",
+              "file": "Episode 01 - This Could Be a Real Adventure.mp4",
+              "name": "Episode 01 - This Could Be a Real Adventure",
+              "url": "https://archive.org/download/men-at-work_202503/Episode%2001%20-%20This%20Could%20Be%20a%20Real%20Adventure.mp4",
+              "seconds": 2785,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 198
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "Resonance",
+          "airdate": "2009-07-14",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "absolute episode number",
+            "item": "men-at-work_202503",
+            "itemTitle": "Movies and TV",
+            "file": "Moon Knight Episode 02 - Summon the Suit.mp4",
+            "name": "Moon Knight Episode 02 - Summon the Suit",
+            "url": "https://archive.org/download/men-at-work_202503/Moon%20Knight%20Episode%2002%20-%20Summon%20the%20Suit.mp4",
+            "seconds": 3039,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 228
+          },
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Magnetism",
+          "airdate": "2009-07-21",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "absolute episode number",
+            "item": "men-at-work_202503",
+            "itemTitle": "Movies and TV",
+            "file": "Moon Knight Episode 03 - The Friendly Type.mp4",
+            "name": "Moon Knight Episode 03 - The Friendly Type",
+            "url": "https://archive.org/download/men-at-work_202503/Moon%20Knight%20Episode%2003%20-%20The%20Friendly%20Type.mp4",
+            "seconds": 3025,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 277
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Claudia",
+          "airdate": "2009-07-28",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "absolute episode number",
+            "item": "men-at-work_202503",
+            "itemTitle": "Movies and TV",
+            "file": "Moon Knight Episode 04 - The Tomb.mp4",
+            "name": "Moon Knight Episode 04 - The Tomb",
+            "url": "https://archive.org/download/men-at-work_202503/Moon%20Knight%20Episode%2004%20-%20The%20Tomb.mp4",
+            "seconds": 3064,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 199
+          },
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Elements",
+          "airdate": "2009-08-04",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "absolute episode number",
+            "item": "men-at-work_202503",
+            "itemTitle": "Movies and TV",
+            "file": "Moon Knight Episode 05 - Asylum.mp4",
+            "name": "Moon Knight Episode 05 - Asylum",
+            "url": "https://archive.org/download/men-at-work_202503/Moon%20Knight%20Episode%2005%20-%20Asylum.mp4",
+            "seconds": 2835,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 191
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "absolute episode number",
+              "item": "men-at-work_202503",
+              "itemTitle": "Movies and TV",
+              "file": "Episode 05 - You Have a Lot to Learn About Pirates.mp4",
+              "name": "Episode 05 - You Have a Lot to Learn About Pirates",
+              "url": "https://archive.org/download/men-at-work_202503/Episode%2005%20-%20You%20Have%20a%20Lot%20to%20Learn%20About%20Pirates.mp4",
+              "seconds": 2591,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 152
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "name": "Burnout",
+          "airdate": "2009-08-11",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "absolute episode number",
+            "item": "men-at-work_202503",
+            "itemTitle": "Movies and TV",
+            "file": "Moon Knight Episode 06 - Gods and Monsters.mp4",
+            "name": "Moon Knight Episode 06 - Gods and Monsters",
+            "url": "https://archive.org/download/men-at-work_202503/Moon%20Knight%20Episode%2006%20-%20Gods%20and%20Monsters.mp4",
+            "seconds": 2545,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 354
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Implosion",
+          "airdate": "2009-08-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Duped",
+          "airdate": "2009-08-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Regrets",
+          "airdate": "2009-09-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Breakdown",
+          "airdate": "2009-09-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Nevermore",
+          "airdate": "2009-09-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "MacPherson",
+          "airdate": "2009-09-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Time Will Tell",
+          "airdate": "2010-07-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Mild Mannered",
+          "airdate": "2010-07-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Beyond Our Control",
+          "airdate": "2010-07-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Age Before Beauty",
+          "airdate": "2010-07-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "13.1",
+          "airdate": "2010-08-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Around the Bend",
+          "airdate": "2010-08-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "For the Team",
+          "airdate": "2010-08-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Merge with Caution",
+          "airdate": "2010-08-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Vendetta",
+          "airdate": "2010-08-31",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Where and When",
+          "airdate": "2010-09-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Buried",
+          "airdate": "2010-09-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Reset",
+          "airdate": "2010-09-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Secret Santa",
+          "airdate": "2010-12-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "The New Guy",
+          "airdate": "2011-07-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Trials",
+          "airdate": "2011-07-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Love Sick",
+          "airdate": "2011-07-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Queen for a Day",
+          "airdate": "2011-08-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "3... 2... 1...",
+          "airdate": "2011-08-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Don't Hate the Player",
+          "airdate": "2011-08-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Past Imperfect",
+          "airdate": "2011-08-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "The 40th Floor",
+          "airdate": "2011-08-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Shadows",
+          "airdate": "2011-09-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Insatiable",
+          "airdate": "2011-09-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Emily Lake (1)",
+          "airdate": "2011-10-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Stand (2)",
+          "airdate": "2011-10-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "The Greatest Gift",
+          "airdate": "2011-12-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 4,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "A New Hope",
+          "airdate": "2012-07-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "An Evil Within",
+          "airdate": "2012-07-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Personal Effects",
+          "airdate": "2012-08-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "There's Always a Downside",
+          "airdate": "2012-08-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "No Pain, No Gain",
+          "airdate": "2012-08-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Fractures",
+          "airdate": "2012-08-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Endless Wonder",
+          "airdate": "2012-09-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Second Chance",
+          "airdate": "2012-09-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "The Ones You Love",
+          "airdate": "2012-09-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "We All Fall Down",
+          "airdate": "2012-10-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "The Living and the Dead",
+          "airdate": "2013-04-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Parks and Rehabilitation",
+          "airdate": "2013-05-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "The Big Snag",
+          "airdate": "2013-05-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "The Sky's the Limit",
+          "airdate": "2013-05-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Instinct",
+          "airdate": "2013-06-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Runaway",
+          "airdate": "2013-06-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "What Matters Most",
+          "airdate": "2013-06-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Lost & Found",
+          "airdate": "2013-06-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "All the Time in the World",
+          "airdate": "2013-07-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "The Truth Hurts",
+          "airdate": "2013-07-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 5,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Endless Terror",
+          "airdate": "2014-04-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Secret Services",
+          "airdate": "2014-04-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "A Faire to Remember",
+          "airdate": "2014-04-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Savage Seduction",
+          "airdate": "2014-05-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Cangku Shisi",
+          "airdate": "2014-05-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Endless",
+          "airdate": "2014-05-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    }
+  ]
+}

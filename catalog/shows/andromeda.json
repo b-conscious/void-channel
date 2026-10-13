@@ -1,0 +1,2345 @@
+{
+  "show": "Andromeda",
+  "slug": "andromeda",
+  "type": "Sci-Fi, Fantasy and Horror",
+  "network": "Syndicated",
+  "matchedAt": "2026-10-13T07:46:17.526Z",
+  "tvmaze": {
+    "id": 486,
+    "name": "Gene Roddenberry's Andromeda",
+    "runtime": 60,
+    "premiered": "2000-10-02",
+    "network": "Syfy"
+  },
+  "coverage": {
+    "total": 110,
+    "live": 110,
+    "review": 0,
+    "missing": 0,
+    "pct": 100
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Under the Night",
+          "airdate": "2000-10-02",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S01 (360p re-dvdrip)/Andromeda S01E01 Under the Night.mp4",
+            "name": "Andromeda S01 (360p re-dvdrip)/Andromeda S01E01 Under the Night",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S01%20(360p%20re-dvdrip)%2FAndromeda%20S01E01%20Under%20the%20Night.mp4",
+            "seconds": 2577,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 179
+          },
+          "alternates": [
+            {
+              "conf": 0.7,
+              "why": "absolute episode number",
+              "item": "andromeda-breakthrough-bbc-sci-fi-episode-1-720p-hd",
+              "itemTitle": "Andromeda Breakthrough - complete season 1 (colorized) (1962, BBC sci-fi, imdb score: 6.9)",
+              "file": "andromeda breakthrough-BBC sci-fi-episode 1-720p-hd.mp4",
+              "name": "andromeda breakthrough-BBC sci-fi-episode 1-720p-hd",
+              "url": "https://archive.org/download/andromeda-breakthrough-bbc-sci-fi-episode-1-720p-hd/andromeda%20breakthrough-BBC%20sci-fi-episode%201-720p-hd.mp4",
+              "seconds": 2711,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 262
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "An Affirming Flame",
+          "airdate": "2000-10-09",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S01 (360p re-dvdrip)/Andromeda S01E02 An Affirming Flame.mp4",
+            "name": "Andromeda S01 (360p re-dvdrip)/Andromeda S01E02 An Affirming Flame",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S01%20(360p%20re-dvdrip)%2FAndromeda%20S01E02%20An%20Affirming%20Flame.mp4",
+            "seconds": 2577,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 175
+          },
+          "alternates": [
+            {
+              "conf": 0.7,
+              "why": "absolute episode number",
+              "item": "andromeda-breakthrough-bbc-sci-fi-episode-1-720p-hd",
+              "itemTitle": "Andromeda Breakthrough - complete season 1 (colorized) (1962, BBC sci-fi, imdb score: 6.9)",
+              "file": "andromeda breakthrough-BBC sci-fi-episode 2-576p-sd.mp4",
+              "name": "andromeda breakthrough-BBC sci-fi-episode 2-576p-sd",
+              "url": "https://archive.org/download/andromeda-breakthrough-bbc-sci-fi-episode-1-720p-hd/andromeda%20breakthrough-BBC%20sci-fi-episode%202-576p-sd.mp4",
+              "seconds": 2561,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 247
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "name": "To Loose the Fateful Lightning",
+          "airdate": "2000-10-16",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S01 (360p re-dvdrip)/Andromeda S01E03 To Loose the Fateful Lightning.mp4",
+            "name": "Andromeda S01 (360p re-dvdrip)/Andromeda S01E03 To Loose the Fateful Lightning",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S01%20(360p%20re-dvdrip)%2FAndromeda%20S01E03%20To%20Loose%20the%20Fateful%20Lightning.mp4",
+            "seconds": 2577,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 139
+          },
+          "alternates": [
+            {
+              "conf": 0.7,
+              "why": "absolute episode number",
+              "item": "andromeda-breakthrough-bbc-sci-fi-episode-1-720p-hd",
+              "itemTitle": "Andromeda Breakthrough - complete season 1 (colorized) (1962, BBC sci-fi, imdb score: 6.9)",
+              "file": "andromeda breakthrough-BBC sci-fi-episode 3-576p-sd.mp4",
+              "name": "andromeda breakthrough-BBC sci-fi-episode 3-576p-sd",
+              "url": "https://archive.org/download/andromeda-breakthrough-bbc-sci-fi-episode-1-720p-hd/andromeda%20breakthrough-BBC%20sci-fi-episode%203-576p-sd.mp4",
+              "seconds": 2753,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 266
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "name": "D Minus Zero",
+          "airdate": "2000-10-23",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S01 (360p re-dvdrip)/Andromeda S01E04 D Minus Zero.mp4",
+            "name": "Andromeda S01 (360p re-dvdrip)/Andromeda S01E04 D Minus Zero",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S01%20(360p%20re-dvdrip)%2FAndromeda%20S01E04%20D%20Minus%20Zero.mp4",
+            "seconds": 2577,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 138
+          },
+          "alternates": [
+            {
+              "conf": 0.7,
+              "why": "absolute episode number",
+              "item": "andromeda-breakthrough-bbc-sci-fi-episode-1-720p-hd",
+              "itemTitle": "Andromeda Breakthrough - complete season 1 (colorized) (1962, BBC sci-fi, imdb score: 6.9)",
+              "file": "andromeda breakthrough-BBC sci-fi-episode 4-576p-sd.mp4",
+              "name": "andromeda breakthrough-BBC sci-fi-episode 4-576p-sd",
+              "url": "https://archive.org/download/andromeda-breakthrough-bbc-sci-fi-episode-1-720p-hd/andromeda%20breakthrough-BBC%20sci-fi-episode%204-576p-sd.mp4",
+              "seconds": 2616,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 253
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "name": "Double Helix",
+          "airdate": "2000-10-30",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S01 (360p re-dvdrip)/Andromeda S01E05 Double Helix.mp4",
+            "name": "Andromeda S01 (360p re-dvdrip)/Andromeda S01E05 Double Helix",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S01%20(360p%20re-dvdrip)%2FAndromeda%20S01E05%20Double%20Helix.mp4",
+            "seconds": 2577,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 129
+          },
+          "alternates": [
+            {
+              "conf": 0.7,
+              "why": "absolute episode number",
+              "item": "andromeda-breakthrough-bbc-sci-fi-episode-1-720p-hd",
+              "itemTitle": "Andromeda Breakthrough - complete season 1 (colorized) (1962, BBC sci-fi, imdb score: 6.9)",
+              "file": "andromeda breakthrough-BBC sci-fi-episode 5-576p-sd.mp4",
+              "name": "andromeda breakthrough-BBC sci-fi-episode 5-576p-sd",
+              "url": "https://archive.org/download/andromeda-breakthrough-bbc-sci-fi-episode-1-720p-hd/andromeda%20breakthrough-BBC%20sci-fi-episode%205-576p-sd.mp4",
+              "seconds": 2551,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 246
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "name": "Angel Dark, Demon Bright",
+          "airdate": "2000-11-06",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S01 (360p re-dvdrip)/Andromeda S01E06 Angel Dark, Demon Bright.mp4",
+            "name": "Andromeda S01 (360p re-dvdrip)/Andromeda S01E06 Angel Dark, Demon Bright",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S01%20(360p%20re-dvdrip)%2FAndromeda%20S01E06%20Angel%20Dark%2C%20Demon%20Bright.mp4",
+            "seconds": 2577,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 159
+          },
+          "alternates": [
+            {
+              "conf": 0.7,
+              "why": "absolute episode number",
+              "item": "a-for-andromeda-ep-1to-5-colorized-576p-sd",
+              "itemTitle": "A for Andromeda (colorized, season 1 compilation - 7 episodes) (1961, BBC sci-fi)",
+              "file": "a for andromeda-ep6 and 7-colorized-576p-sd.mp4",
+              "name": "a for andromeda-ep6 and 7-colorized-576p-sd",
+              "url": "https://archive.org/download/a-for-andromeda-ep-1to-5-colorized-576p-sd/a%20for%20andromeda-ep6%20and%207-colorized-576p-sd.mp4",
+              "seconds": 4148,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 399
+            },
+            {
+              "conf": 0.7,
+              "why": "absolute episode number",
+              "item": "andromeda-breakthrough-bbc-sci-fi-episode-1-720p-hd",
+              "itemTitle": "Andromeda Breakthrough - complete season 1 (colorized) (1962, BBC sci-fi, imdb score: 6.9)",
+              "file": "andromeda breakthrough-BBC sci-fi-episode 6-576p-sd.mp4",
+              "name": "andromeda breakthrough-BBC sci-fi-episode 6-576p-sd",
+              "url": "https://archive.org/download/andromeda-breakthrough-bbc-sci-fi-episode-1-720p-hd/andromeda%20breakthrough-BBC%20sci-fi-episode%206-576p-sd.mp4",
+              "seconds": 2910,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 282
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "name": "The Ties That Blind",
+          "airdate": "2000-11-13",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S01 (360p re-dvdrip)/Andromeda S01E07 The Ties That Blind.mp4",
+            "name": "Andromeda S01 (360p re-dvdrip)/Andromeda S01E07 The Ties That Blind",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S01%20(360p%20re-dvdrip)%2FAndromeda%20S01E07%20The%20Ties%20That%20Blind.mp4",
+            "seconds": 2579,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 150
+          },
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "The Banks of the Lethe",
+          "airdate": "2000-11-20",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S01 (360p re-dvdrip)/Andromeda S01E08 The Banks of the Lethe.mp4",
+            "name": "Andromeda S01 (360p re-dvdrip)/Andromeda S01E08 The Banks of the Lethe",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S01%20(360p%20re-dvdrip)%2FAndromeda%20S01E08%20The%20Banks%20of%20the%20Lethe.mp4",
+            "seconds": 2577,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 168
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "A Rose in the Ashes",
+          "airdate": "2000-11-27",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S01 (360p re-dvdrip)/Andromeda S01E09 A Rose in the Ashes.mp4",
+            "name": "Andromeda S01 (360p re-dvdrip)/Andromeda S01E09 A Rose in the Ashes",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S01%20(360p%20re-dvdrip)%2FAndromeda%20S01E09%20A%20Rose%20in%20the%20Ashes.mp4",
+            "seconds": 2578,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 170
+          },
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "All Great Neptune's Ocean",
+          "airdate": "2001-01-15",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S01 (360p re-dvdrip)/Andromeda S01E10 All Great Neptune's Ocean.mp4",
+            "name": "Andromeda S01 (360p re-dvdrip)/Andromeda S01E10 All Great Neptune's Ocean",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S01%20(360p%20re-dvdrip)%2FAndromeda%20S01E10%20All%20Great%20Neptune's%20Ocean.mp4",
+            "seconds": 2577,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 134
+          },
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "The Pearls That Were His Eyes",
+          "airdate": "2001-01-22",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S01 (360p re-dvdrip)/Andromeda S01E11 The Pearls That Were His Eyes.mp4",
+            "name": "Andromeda S01 (360p re-dvdrip)/Andromeda S01E11 The Pearls That Were His Eyes",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S01%20(360p%20re-dvdrip)%2FAndromeda%20S01E11%20The%20Pearls%20That%20Were%20His%20Eyes.mp4",
+            "seconds": 2577,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 159
+          },
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "The Mathematics of Tears",
+          "airdate": "2001-01-29",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S01 (360p re-dvdrip)/Andromeda S01E12 The Mathematics of Tears.mp4",
+            "name": "Andromeda S01 (360p re-dvdrip)/Andromeda S01E12 The Mathematics of Tears",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S01%20(360p%20re-dvdrip)%2FAndromeda%20S01E12%20The%20Mathematics%20of%20Tears.mp4",
+            "seconds": 2577,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 164
+          },
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Music of a Distant Drum",
+          "airdate": "2001-02-05",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S01 (360p re-dvdrip)/Andromeda S01E13 Music of a Distant Drum.mp4",
+            "name": "Andromeda S01 (360p re-dvdrip)/Andromeda S01E13 Music of a Distant Drum",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S01%20(360p%20re-dvdrip)%2FAndromeda%20S01E13%20Music%20of%20a%20Distant%20Drum.mp4",
+            "seconds": 2577,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 149
+          },
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Harper 2.0",
+          "airdate": "2001-02-12",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S01 (360p re-dvdrip)/Andromeda S01E14 Harper 2.0.mp4",
+            "name": "Andromeda S01 (360p re-dvdrip)/Andromeda S01E14 Harper 2.0",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S01%20(360p%20re-dvdrip)%2FAndromeda%20S01E14%20Harper%202.0.mp4",
+            "seconds": 2577,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 156
+          },
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Forced Perspective",
+          "airdate": "2001-02-19",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S01 (360p re-dvdrip)/Andromeda S01E15 Forced Perspective.mp4",
+            "name": "Andromeda S01 (360p re-dvdrip)/Andromeda S01E15 Forced Perspective",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S01%20(360p%20re-dvdrip)%2FAndromeda%20S01E15%20Forced%20Perspective.mp4",
+            "seconds": 2577,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 130
+          },
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "The Sum of Its Parts",
+          "airdate": "2001-02-26",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S01 (360p re-dvdrip)/Andromeda S01E16 The Sum of Its Parts.mp4",
+            "name": "Andromeda S01 (360p re-dvdrip)/Andromeda S01E16 The Sum of Its Parts",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S01%20(360p%20re-dvdrip)%2FAndromeda%20S01E16%20The%20Sum%20of%20Its%20Parts.mp4",
+            "seconds": 2577,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 152
+          },
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Fear and Loathing in the Milky Way",
+          "airdate": "2001-04-09",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S01 (360p re-dvdrip)/Andromeda S01E17 Fear and Loathing in the Milky Way.mp4",
+            "name": "Andromeda S01 (360p re-dvdrip)/Andromeda S01E17 Fear and Loathing in the Milky Way",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S01%20(360p%20re-dvdrip)%2FAndromeda%20S01E17%20Fear%20and%20Loathing%20in%20the%20Milky%20Way.mp4",
+            "seconds": 2577,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 154
+          },
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "The Devil Take the Hindmost",
+          "airdate": "2001-04-16",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S01 (360p re-dvdrip)/Andromeda S01E18 The Devil Take the Hindmost.mp4",
+            "name": "Andromeda S01 (360p re-dvdrip)/Andromeda S01E18 The Devil Take the Hindmost",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S01%20(360p%20re-dvdrip)%2FAndromeda%20S01E18%20The%20Devil%20Take%20the%20Hindmost.mp4",
+            "seconds": 2577,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 156
+          },
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "The Honey Offering",
+          "airdate": "2001-04-23",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S01 (360p re-dvdrip)/Andromeda S01E19 The Honey Offering.mp4",
+            "name": "Andromeda S01 (360p re-dvdrip)/Andromeda S01E19 The Honey Offering",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S01%20(360p%20re-dvdrip)%2FAndromeda%20S01E19%20The%20Honey%20Offering.mp4",
+            "seconds": 2577,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 151
+          },
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Star-Crossed",
+          "airdate": "2001-04-30",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S01 (360p re-dvdrip)/Andromeda S01E20 Star-Crossed.mp4",
+            "name": "Andromeda S01 (360p re-dvdrip)/Andromeda S01E20 Star-Crossed",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S01%20(360p%20re-dvdrip)%2FAndromeda%20S01E20%20Star-Crossed.mp4",
+            "seconds": 2577,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 134
+          },
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "It Makes a Lovely Light",
+          "airdate": "2001-05-07",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S01 (360p re-dvdrip)/Andromeda S01E21 It Makes a Lovely Light.mp4",
+            "name": "Andromeda S01 (360p re-dvdrip)/Andromeda S01E21 It Makes a Lovely Light",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S01%20(360p%20re-dvdrip)%2FAndromeda%20S01E21%20It%20Makes%20a%20Lovely%20Light.mp4",
+            "seconds": 2577,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 152
+          },
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "... Its Hour Come Round at Last",
+          "airdate": "2001-05-14",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S01 (360p re-dvdrip)/Andromeda S01E22 Its Hour Come 'Round at Last.mp4",
+            "name": "Andromeda S01 (360p re-dvdrip)/Andromeda S01E22 Its Hour Come 'Round at Last",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S01%20(360p%20re-dvdrip)%2FAndromeda%20S01E22%20Its%20Hour%20Come%20'Round%20at%20Last.mp4",
+            "seconds": 2577,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 244
+          },
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "The Widening Gyre",
+          "airdate": "2001-10-01",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S02 (360p re-dvdrip)/Andromeda S02E01 The Widening Gyre.mp4",
+            "name": "Andromeda S02 (360p re-dvdrip)/Andromeda S02E01 The Widening Gyre",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S02%20(360p%20re-dvdrip)%2FAndromeda%20S02E01%20The%20Widening%20Gyre.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 181
+          },
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Exit Strategies",
+          "airdate": "2001-10-08",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S02 (360p re-dvdrip)/Andromeda S02E02 Exit Strategies.mp4",
+            "name": "Andromeda S02 (360p re-dvdrip)/Andromeda S02E02 Exit Strategies",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S02%20(360p%20re-dvdrip)%2FAndromeda%20S02E02%20Exit%20Strategies.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 157
+          },
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "A Heart for Falsehood Framed",
+          "airdate": "2001-10-15",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S02 (360p re-dvdrip)/Andromeda S02E03 A Heart for Falsehood Framed.mp4",
+            "name": "Andromeda S02 (360p re-dvdrip)/Andromeda S02E03 A Heart for Falsehood Framed",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S02%20(360p%20re-dvdrip)%2FAndromeda%20S02E03%20A%20Heart%20for%20Falsehood%20Framed.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 150
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Pitiless as the Sun",
+          "airdate": "2001-10-22",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S02 (360p re-dvdrip)/Andromeda S02E04 Pitiless as the Sun.mp4",
+            "name": "Andromeda S02 (360p re-dvdrip)/Andromeda S02E04 Pitiless as the Sun",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S02%20(360p%20re-dvdrip)%2FAndromeda%20S02E04%20Pitiless%20as%20the%20Sun.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 128
+          },
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Last Call at the Broken Hammer",
+          "airdate": "2001-10-29",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S02 (360p re-dvdrip)/Andromeda S02E05 Last Call at the Broken Hammer.mp4",
+            "name": "Andromeda S02 (360p re-dvdrip)/Andromeda S02E05 Last Call at the Broken Hammer",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S02%20(360p%20re-dvdrip)%2FAndromeda%20S02E05%20Last%20Call%20at%20the%20Broken%20Hammer.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 137
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "All Too Human",
+          "airdate": "2001-11-05",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S02 (360p re-dvdrip)/Andromeda S02E06 All Too Human.mp4",
+            "name": "Andromeda S02 (360p re-dvdrip)/Andromeda S02E06 All Too Human",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S02%20(360p%20re-dvdrip)%2FAndromeda%20S02E06%20All%20Too%20Human.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 141
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Una Salus Victus",
+          "airdate": "2001-11-12",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S02 (360p re-dvdrip)/Andromeda S02E07 Una Salus Victus.mp4",
+            "name": "Andromeda S02 (360p re-dvdrip)/Andromeda S02E07 Una Salus Victus",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S02%20(360p%20re-dvdrip)%2FAndromeda%20S02E07%20Una%20Salus%20Victus.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 159
+          },
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Home Fires",
+          "airdate": "2001-11-19",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S02 (360p re-dvdrip)/Andromeda S02E08 Home Fires.mp4",
+            "name": "Andromeda S02 (360p re-dvdrip)/Andromeda S02E08 Home Fires",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S02%20(360p%20re-dvdrip)%2FAndromeda%20S02E08%20Home%20Fires.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 141
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Into the Labyrinth",
+          "airdate": "2001-11-26",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S02 (360p re-dvdrip)/Andromeda S02E09 Into the Labyrinth.mp4",
+            "name": "Andromeda S02 (360p re-dvdrip)/Andromeda S02E09 Into the Labyrinth",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S02%20(360p%20re-dvdrip)%2FAndromeda%20S02E09%20Into%20the%20Labyrinth.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 163
+          },
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "The Prince",
+          "airdate": "2002-01-19",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S02 (360p re-dvdrip)/Andromeda S02E10 The Prince.mp4",
+            "name": "Andromeda S02 (360p re-dvdrip)/Andromeda S02E10 The Prince",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S02%20(360p%20re-dvdrip)%2FAndromeda%20S02E10%20The%20Prince.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 151
+          },
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Bunker Hill",
+          "airdate": "2002-01-26",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S02 (360p re-dvdrip)/Andromeda S02E11 Bunker Hill.mp4",
+            "name": "Andromeda S02 (360p re-dvdrip)/Andromeda S02E11 Bunker Hill",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S02%20(360p%20re-dvdrip)%2FAndromeda%20S02E11%20Bunker%20Hill.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 149
+          },
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Ouroboros",
+          "airdate": "2002-02-02",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S02 (360p re-dvdrip)/Andromeda S02E12 Ouroboros.mp4",
+            "name": "Andromeda S02 (360p re-dvdrip)/Andromeda S02E12 Ouroboros",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S02%20(360p%20re-dvdrip)%2FAndromeda%20S02E12%20Ouroboros.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 167
+          },
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Lava and Rockets",
+          "airdate": "2002-02-09",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S02 (360p re-dvdrip)/Andromeda S02E13 Lava and Rockets.mp4",
+            "name": "Andromeda S02 (360p re-dvdrip)/Andromeda S02E13 Lava and Rockets",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S02%20(360p%20re-dvdrip)%2FAndromeda%20S02E13%20Lava%20and%20Rockets.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 154
+          },
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Be All My Sins Remembered",
+          "airdate": "2002-02-16",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S02 (360p re-dvdrip)/Andromeda S02E14 Be All My Sins Remembered.mp4",
+            "name": "Andromeda S02 (360p re-dvdrip)/Andromeda S02E14 Be All My Sins Remembered",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S02%20(360p%20re-dvdrip)%2FAndromeda%20S02E14%20Be%20All%20My%20Sins%20Remembered.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 159
+          },
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Dance of the Mayflies",
+          "airdate": "2002-02-23",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S02 (360p re-dvdrip)/Andromeda S02E15 Dance of the Mayflies.mp4",
+            "name": "Andromeda S02 (360p re-dvdrip)/Andromeda S02E15 Dance of the Mayflies",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S02%20(360p%20re-dvdrip)%2FAndromeda%20S02E15%20Dance%20of%20the%20Mayflies.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 159
+          },
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "In Heaven Now are Three",
+          "airdate": "2002-03-02",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S02 (360p re-dvdrip)/Andromeda S02E16 In Heaven Now Are Three.mp4",
+            "name": "Andromeda S02 (360p re-dvdrip)/Andromeda S02E16 In Heaven Now Are Three",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S02%20(360p%20re-dvdrip)%2FAndromeda%20S02E16%20In%20Heaven%20Now%20Are%20Three.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 147
+          },
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "The Things We Cannot Change",
+          "airdate": "2002-04-13",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S02 (360p re-dvdrip)/Andromeda S02E17 The Things We Cannot Change.mp4",
+            "name": "Andromeda S02 (360p re-dvdrip)/Andromeda S02E17 The Things We Cannot Change",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S02%20(360p%20re-dvdrip)%2FAndromeda%20S02E17%20The%20Things%20We%20Cannot%20Change.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 146
+          },
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "The Fair Unknown",
+          "airdate": "2002-04-20",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S02 (360p re-dvdrip)/Andromeda S02E18 The Fair Unknown.mp4",
+            "name": "Andromeda S02 (360p re-dvdrip)/Andromeda S02E18 The Fair Unknown",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S02%20(360p%20re-dvdrip)%2FAndromeda%20S02E18%20The%20Fair%20Unknown.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 164
+          },
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Belly of the Beast",
+          "airdate": "2002-04-27",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S02 (360p re-dvdrip)/Andromeda S02E19 Belly of the Beast.mp4",
+            "name": "Andromeda S02 (360p re-dvdrip)/Andromeda S02E19 Belly of the Beast",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S02%20(360p%20re-dvdrip)%2FAndromeda%20S02E19%20Belly%20of%20the%20Beast.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 160
+          },
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "The Knight, Death, and the Devil",
+          "airdate": "2002-05-04",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S02 (360p re-dvdrip)/Andromeda S02E20 The Knight, Death, and the Devil.mp4",
+            "name": "Andromeda S02 (360p re-dvdrip)/Andromeda S02E20 The Knight, Death, and the Devil",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S02%20(360p%20re-dvdrip)%2FAndromeda%20S02E20%20The%20Knight%2C%20Death%2C%20and%20the%20Devil.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 161
+          },
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Immaculate Perception",
+          "airdate": "2002-05-11",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S02 (360p re-dvdrip)/Andromeda S02E21 Immaculate Perception.mp4",
+            "name": "Andromeda S02 (360p re-dvdrip)/Andromeda S02E21 Immaculate Perception",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S02%20(360p%20re-dvdrip)%2FAndromeda%20S02E21%20Immaculate%20Perception.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 128
+          },
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Tunnel at the End of the Light",
+          "airdate": "2002-05-18",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S02 (360p re-dvdrip)/Andromeda S02E22 Tunnel at the End of the Light.mp4",
+            "name": "Andromeda S02 (360p re-dvdrip)/Andromeda S02E22 Tunnel at the End of the Light",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S02%20(360p%20re-dvdrip)%2FAndromeda%20S02E22%20Tunnel%20at%20the%20End%20of%20the%20Light.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 174
+          },
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "If the Wheel Is Fixed",
+          "airdate": "2002-09-21",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S03 (360p re-dvdrip)/Andromeda S03E01 If the Wheel is Fixed.mp4",
+            "name": "Andromeda S03 (360p re-dvdrip)/Andromeda S03E01 If the Wheel is Fixed",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S03%20(360p%20re-dvdrip)%2FAndromeda%20S03E01%20If%20the%20Wheel%20is%20Fixed.mp4",
+            "seconds": 2575,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 176
+          },
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "The Shards of Rimni",
+          "airdate": "2002-09-28",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S03 (360p re-dvdrip)/Andromeda S03E02 The Shards of Rimni.mp4",
+            "name": "Andromeda S03 (360p re-dvdrip)/Andromeda S03E02 The Shards of Rimni",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S03%20(360p%20re-dvdrip)%2FAndromeda%20S03E02%20The%20Shards%20of%20Rimni.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 146
+          },
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Mad to Be Saved",
+          "airdate": "2002-10-05",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S03 (360p re-dvdrip)/Andromeda S03E03 Mad to be Saved.mp4",
+            "name": "Andromeda S03 (360p re-dvdrip)/Andromeda S03E03 Mad to be Saved",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S03%20(360p%20re-dvdrip)%2FAndromeda%20S03E03%20Mad%20to%20be%20Saved.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 151
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Cui Bono",
+          "airdate": "2002-10-11",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S03 (360p re-dvdrip)/Andromeda S03E04 Cui Bono.mp4",
+            "name": "Andromeda S03 (360p re-dvdrip)/Andromeda S03E04 Cui Bono",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S03%20(360p%20re-dvdrip)%2FAndromeda%20S03E04%20Cui%20Bono.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 146
+          },
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "The Lone and Level Sands",
+          "airdate": "2002-10-21",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S03 (360p re-dvdrip)/Andromeda S03E05 The Lone and Level Sands.mp4",
+            "name": "Andromeda S03 (360p re-dvdrip)/Andromeda S03E05 The Lone and Level Sands",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S03%20(360p%20re-dvdrip)%2FAndromeda%20S03E05%20The%20Lone%20and%20Level%20Sands.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 148
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Slipfighter the Dogs of War",
+          "airdate": "2002-10-28",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S03 (360p re-dvdrip)/Andromeda S03E06 Slipfighter the Dogs of War.mp4",
+            "name": "Andromeda S03 (360p re-dvdrip)/Andromeda S03E06 Slipfighter the Dogs of War",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S03%20(360p%20re-dvdrip)%2FAndromeda%20S03E06%20Slipfighter%20the%20Dogs%20of%20War.mp4",
+            "seconds": 2575,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 155
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "The Leper's Kiss",
+          "airdate": "2002-11-11",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S03 (360p re-dvdrip)/Andromeda S03E07 The Leper's Kiss.mp4",
+            "name": "Andromeda S03 (360p re-dvdrip)/Andromeda S03E07 The Leper's Kiss",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S03%20(360p%20re-dvdrip)%2FAndromeda%20S03E07%20The%20Leper's%20Kiss.mp4",
+            "seconds": 2575,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 140
+          },
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "For Whom the Bell Tolls",
+          "airdate": "2002-11-18",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S03 (360p re-dvdrip)/Andromeda S03E08 For Whom the Bell Tolls.mp4",
+            "name": "Andromeda S03 (360p re-dvdrip)/Andromeda S03E08 For Whom the Bell Tolls",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S03%20(360p%20re-dvdrip)%2FAndromeda%20S03E08%20For%20Whom%20the%20Bell%20Tolls.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 150
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "And Your Heart Will Fly Away...",
+          "airdate": "2002-11-25",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S03 (360p re-dvdrip)/Andromeda S03E09 And Your Heart Will Fly Away.mp4",
+            "name": "Andromeda S03 (360p re-dvdrip)/Andromeda S03E09 And Your Heart Will Fly Away",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S03%20(360p%20re-dvdrip)%2FAndromeda%20S03E09%20And%20Your%20Heart%20Will%20Fly%20Away.mp4",
+            "seconds": 2575,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 155
+          },
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "The Unconquerable Man",
+          "airdate": "2003-01-20",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S03 (360p re-dvdrip)/Andromeda S03E10 The Unconquerable Man.mp4",
+            "name": "Andromeda S03 (360p re-dvdrip)/Andromeda S03E10 The Unconquerable Man",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S03%20(360p%20re-dvdrip)%2FAndromeda%20S03E10%20The%20Unconquerable%20Man.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 131
+          },
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Delenda Est",
+          "airdate": "2003-01-27",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S03 (360p re-dvdrip)/Andromeda S03E11 Delenda Est.mp4",
+            "name": "Andromeda S03 (360p re-dvdrip)/Andromeda S03E11 Delenda Est",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S03%20(360p%20re-dvdrip)%2FAndromeda%20S03E11%20Delenda%20Est.mp4",
+            "seconds": 2575,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 181
+          },
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "The Dark Backward",
+          "airdate": "2003-02-03",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S03 (360p re-dvdrip)/Andromeda S03E12 The Dark Backward.mp4",
+            "name": "Andromeda S03 (360p re-dvdrip)/Andromeda S03E12 The Dark Backward",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S03%20(360p%20re-dvdrip)%2FAndromeda%20S03E12%20The%20Dark%20Backward.mp4",
+            "seconds": 2575,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 166
+          },
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "The Risk All Point",
+          "airdate": "2003-02-10",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S03 (360p re-dvdrip)/Andromeda S03E13 The Risk-All Point.mp4",
+            "name": "Andromeda S03 (360p re-dvdrip)/Andromeda S03E13 The Risk-All Point",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S03%20(360p%20re-dvdrip)%2FAndromeda%20S03E13%20The%20Risk-All%20Point.mp4",
+            "seconds": 2575,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 161
+          },
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "The Right Horse",
+          "airdate": "2003-02-17",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S03 (360p re-dvdrip)/Andromeda S03E14 The Right Horse.mp4",
+            "name": "Andromeda S03 (360p re-dvdrip)/Andromeda S03E14 The Right Horse",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S03%20(360p%20re-dvdrip)%2FAndromeda%20S03E14%20The%20Right%20Horse.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 154
+          },
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "What Happens to a Rev Deferred?",
+          "airdate": "2003-02-24",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S03 (360p re-dvdrip)/Andromeda S03E15 What Happens to a Rev Deferred.mp4",
+            "name": "Andromeda S03 (360p re-dvdrip)/Andromeda S03E15 What Happens to a Rev Deferred",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S03%20(360p%20re-dvdrip)%2FAndromeda%20S03E15%20What%20Happens%20to%20a%20Rev%20Deferred.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 178
+          },
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Point of the Spear",
+          "airdate": "2003-03-31",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S03 (360p re-dvdrip)/Andromeda S03E16 Point of the Spear.mp4",
+            "name": "Andromeda S03 (360p re-dvdrip)/Andromeda S03E16 Point of the Spear",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S03%20(360p%20re-dvdrip)%2FAndromeda%20S03E16%20Point%20of%20the%20Spear.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 148
+          },
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Vault of the Heavens",
+          "airdate": "2003-04-07",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S03 (360p re-dvdrip)/Andromeda S03E17 Vault of the Heavens.mp4",
+            "name": "Andromeda S03 (360p re-dvdrip)/Andromeda S03E17 Vault of the Heavens",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S03%20(360p%20re-dvdrip)%2FAndromeda%20S03E17%20Vault%20of%20the%20Heavens.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 138
+          },
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Deep Midnight's Voice",
+          "airdate": "2003-04-14",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S03 (360p re-dvdrip)/Andromeda S03E18 Deep Midnight's Voice.mp4",
+            "name": "Andromeda S03 (360p re-dvdrip)/Andromeda S03E18 Deep Midnight's Voice",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S03%20(360p%20re-dvdrip)%2FAndromeda%20S03E18%20Deep%20Midnight's%20Voice.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 142
+          },
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "The Illusion of Majesty",
+          "airdate": "2003-04-21",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S03 (360p re-dvdrip)/Andromeda S03E19 The Illusion of Majesty.mp4",
+            "name": "Andromeda S03 (360p re-dvdrip)/Andromeda S03E19 The Illusion of Majesty",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S03%20(360p%20re-dvdrip)%2FAndromeda%20S03E19%20The%20Illusion%20of%20Majesty.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 161
+          },
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Twilight of the Idols",
+          "airdate": "2003-04-28",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S03 (360p re-dvdrip)/Andromeda S03E20 Twilight of the Idols.mp4",
+            "name": "Andromeda S03 (360p re-dvdrip)/Andromeda S03E20 Twilight of the Idols",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S03%20(360p%20re-dvdrip)%2FAndromeda%20S03E20%20Twilight%20of%20the%20Idols.mp4",
+            "seconds": 2575,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 153
+          },
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Day of Judgement, Day of Wrath",
+          "airdate": "2003-05-05",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S03 (360p re-dvdrip)/Andromeda S03E21 Day of Judgement, Day of Wrath.mp4",
+            "name": "Andromeda S03 (360p re-dvdrip)/Andromeda S03E21 Day of Judgement, Day of Wrath",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S03%20(360p%20re-dvdrip)%2FAndromeda%20S03E21%20Day%20of%20Judgement%2C%20Day%20of%20Wrath.mp4",
+            "seconds": 2575,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 176
+          },
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Shadows Cast by a Final Salute",
+          "airdate": "2003-05-12",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S03 (360p re-dvdrip)/Andromeda S03E22 Shadows Cast by a Final Salute.mp4",
+            "name": "Andromeda S03 (360p re-dvdrip)/Andromeda S03E22 Shadows Cast by a Final Salute",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S03%20(360p%20re-dvdrip)%2FAndromeda%20S03E22%20Shadows%20Cast%20by%20a%20Final%20Salute.mp4",
+            "seconds": 2575,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 155
+          },
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 4,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Answers Given to Questions Never Asked",
+          "airdate": "2003-09-29",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S04 (360p re-dvdrip)/Andromeda S04E01 Answers Given to Questions Never Asked.mp4",
+            "name": "Andromeda S04 (360p re-dvdrip)/Andromeda S04E01 Answers Given to Questions Never Asked",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S04%20(360p%20re-dvdrip)%2FAndromeda%20S04E01%20Answers%20Given%20to%20Questions%20Never%20Asked.mp4",
+            "seconds": 2575,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 137
+          },
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Pieces of Eight",
+          "airdate": "2003-10-06",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S04 (360p re-dvdrip)/Andromeda S04E02 Pieces of Eight.mp4",
+            "name": "Andromeda S04 (360p re-dvdrip)/Andromeda S04E02 Pieces of Eight",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S04%20(360p%20re-dvdrip)%2FAndromeda%20S04E02%20Pieces%20of%20Eight.mp4",
+            "seconds": 2575,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 138
+          },
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Waking the Tyrant's Device",
+          "airdate": "2003-10-13",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S04 (360p re-dvdrip)/Andromeda S04E03 Waking the Tyrant's Device.mp4",
+            "name": "Andromeda S04 (360p re-dvdrip)/Andromeda S04E03 Waking the Tyrant's Device",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S04%20(360p%20re-dvdrip)%2FAndromeda%20S04E03%20Waking%20the%20Tyrant's%20Device.mp4",
+            "seconds": 2575,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 157
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Double or Nothingness",
+          "airdate": "2003-10-20",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S04 (360p re-dvdrip)/Andromeda S04E04 Double or Nothingness.mp4",
+            "name": "Andromeda S04 (360p re-dvdrip)/Andromeda S04E04 Double or Nothingness",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S04%20(360p%20re-dvdrip)%2FAndromeda%20S04E04%20Double%20or%20Nothingness.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 145
+          },
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Harper/Delete",
+          "airdate": "2003-10-27",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S04 (360p re-dvdrip)/Andromeda S04E05 HarperDelete.mp4",
+            "name": "Andromeda S04 (360p re-dvdrip)/Andromeda S04E05 HarperDelete",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S04%20(360p%20re-dvdrip)%2FAndromeda%20S04E05%20HarperDelete.mp4",
+            "seconds": 2575,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 169
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Soon the Nearing Vortex",
+          "airdate": "2003-11-03",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S04 (360p re-dvdrip)/Andromeda S04E06 Soon the Nearing Vortex.mp4",
+            "name": "Andromeda S04 (360p re-dvdrip)/Andromeda S04E06 Soon the Nearing Vortex",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S04%20(360p%20re-dvdrip)%2FAndromeda%20S04E06%20Soon%20the%20Nearing%20Vortex.mp4",
+            "seconds": 2575,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 137
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "The World Turns All Around Her",
+          "airdate": "2003-11-10",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S04 (360p re-dvdrip)/Andromeda S04E07 The World Turns All Around Her.mp4",
+            "name": "Andromeda S04 (360p re-dvdrip)/Andromeda S04E07 The World Turns All Around Her",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S04%20(360p%20re-dvdrip)%2FAndromeda%20S04E07%20The%20World%20Turns%20All%20Around%20Her.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 168
+          },
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Conduit to Destiny",
+          "airdate": "2003-11-17",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S04 (360p re-dvdrip)/Andromeda S04E08 Conduit to Destiny.mp4",
+            "name": "Andromeda S04 (360p re-dvdrip)/Andromeda S04E08 Conduit to Destiny",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S04%20(360p%20re-dvdrip)%2FAndromeda%20S04E08%20Conduit%20to%20Destiny.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 144
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Machinery of the Mind",
+          "airdate": "2004-01-12",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S04 (360p re-dvdrip)/Andromeda S04E09 Machinery of the Mind.mp4",
+            "name": "Andromeda S04 (360p re-dvdrip)/Andromeda S04E09 Machinery of the Mind",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S04%20(360p%20re-dvdrip)%2FAndromeda%20S04E09%20Machinery%20of%20the%20Mind.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 136
+          },
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Exalted Reason, Resplendent Daughter",
+          "airdate": "2004-01-19",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S04 (360p re-dvdrip)/Andromeda S04E10 Exalted Reason, Resplendent Daughter.mp4",
+            "name": "Andromeda S04 (360p re-dvdrip)/Andromeda S04E10 Exalted Reason, Resplendent Daughter",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S04%20(360p%20re-dvdrip)%2FAndromeda%20S04E10%20Exalted%20Reason%2C%20Resplendent%20Daughter.mp4",
+            "seconds": 2575,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 136
+          },
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "The Torment, the Release",
+          "airdate": "2004-01-26",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S04 (360p re-dvdrip)/Andromeda S04E11 The Torment, the Release.mp4",
+            "name": "Andromeda S04 (360p re-dvdrip)/Andromeda S04E11 The Torment, the Release",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S04%20(360p%20re-dvdrip)%2FAndromeda%20S04E11%20The%20Torment%2C%20the%20Release.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 124
+          },
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "The Spider's Stratagem",
+          "airdate": "2004-02-02",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S04 (360p re-dvdrip)/Andromeda S04E12 The Spider's Stratagem.mp4",
+            "name": "Andromeda S04 (360p re-dvdrip)/Andromeda S04E12 The Spider's Stratagem",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S04%20(360p%20re-dvdrip)%2FAndromeda%20S04E12%20The%20Spider's%20Stratagem.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 152
+          },
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "The Warmth of an Invisible Light",
+          "airdate": "2004-02-09",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S04 (360p re-dvdrip)/Andromeda S04E13 The Warmth of an Invisible Light.mp4",
+            "name": "Andromeda S04 (360p re-dvdrip)/Andromeda S04E13 The Warmth of an Invisible Light",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S04%20(360p%20re-dvdrip)%2FAndromeda%20S04E13%20The%20Warmth%20of%20an%20Invisible%20Light.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 135
+          },
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "The Others",
+          "airdate": "2004-02-16",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S04 (360p re-dvdrip)/Andromeda S04E14 The Others.mp4",
+            "name": "Andromeda S04 (360p re-dvdrip)/Andromeda S04E14 The Others",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S04%20(360p%20re-dvdrip)%2FAndromeda%20S04E14%20The%20Others.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 130
+          },
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Fear Burns Down to Ashes",
+          "airdate": "2004-02-23",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S04 (360p re-dvdrip)/Andromeda S04E15 Fear Burns Down to Ashes.mp4",
+            "name": "Andromeda S04 (360p re-dvdrip)/Andromeda S04E15 Fear Burns Down to Ashes",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S04%20(360p%20re-dvdrip)%2FAndromeda%20S04E15%20Fear%20Burns%20Down%20to%20Ashes.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 152
+          },
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Lost in a Space That Isn't There",
+          "airdate": "2004-04-05",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S04 (360p re-dvdrip)/Andromeda S04E16 Lost in a Space that isn't There.mp4",
+            "name": "Andromeda S04 (360p re-dvdrip)/Andromeda S04E16 Lost in a Space that isn't There",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S04%20(360p%20re-dvdrip)%2FAndromeda%20S04E16%20Lost%20in%20a%20Space%20that%20isn't%20There.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 150
+          },
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Abridging the Devil's Divide",
+          "airdate": "2004-04-12",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S04 (360p re-dvdrip)/Andromeda S04E17 Abridging the Devil's Divide.mp4",
+            "name": "Andromeda S04 (360p re-dvdrip)/Andromeda S04E17 Abridging the Devil's Divide",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S04%20(360p%20re-dvdrip)%2FAndromeda%20S04E17%20Abridging%20the%20Devil's%20Divide.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 161
+          },
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Trusting the Gordian Maze",
+          "airdate": "2004-04-19",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S04 (360p re-dvdrip)/Andromeda S04E18 Trusting the Gordian Maze.mp4",
+            "name": "Andromeda S04 (360p re-dvdrip)/Andromeda S04E18 Trusting the Gordian Maze",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S04%20(360p%20re-dvdrip)%2FAndromeda%20S04E18%20Trusting%20the%20Gordian%20Maze.mp4",
+            "seconds": 2575,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 137
+          },
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "A Symmetry of Imperfection",
+          "airdate": "2004-04-26",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S04 (360p re-dvdrip)/Andromeda S04E19 A Symmetry of Imperfection.mp4",
+            "name": "Andromeda S04 (360p re-dvdrip)/Andromeda S04E19 A Symmetry of Imperfection",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S04%20(360p%20re-dvdrip)%2FAndromeda%20S04E19%20A%20Symmetry%20of%20Imperfection.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 149
+          },
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Time Out of Mind",
+          "airdate": "2004-05-03",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S04 (360p re-dvdrip)/Andromeda S04E20 Time Out of Mind.mp4",
+            "name": "Andromeda S04 (360p re-dvdrip)/Andromeda S04E20 Time Out of Mind",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S04%20(360p%20re-dvdrip)%2FAndromeda%20S04E20%20Time%20Out%20of%20Mind.mp4",
+            "seconds": 2575,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 149
+          },
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "The Dissonant Interval: Part 1",
+          "airdate": "2004-05-10",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S04 (360p re-dvdrip)/Andromeda S04E21 The Dissonant Interval Pt 1.mp4",
+            "name": "Andromeda S04 (360p re-dvdrip)/Andromeda S04E21 The Dissonant Interval Pt 1",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S04%20(360p%20re-dvdrip)%2FAndromeda%20S04E21%20The%20Dissonant%20Interval%20Pt%201.mp4",
+            "seconds": 2574,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 149
+          },
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "The Dissonant Interval: Part 2",
+          "airdate": "2004-05-17",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S04 (360p re-dvdrip)/Andromeda S04E22 The Dissonant Interval Pt 2.mp4",
+            "name": "Andromeda S04 (360p re-dvdrip)/Andromeda S04E22 The Dissonant Interval Pt 2",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S04%20(360p%20re-dvdrip)%2FAndromeda%20S04E22%20The%20Dissonant%20Interval%20Pt%202.mp4",
+            "seconds": 2575,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 181
+          },
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 5,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "The Weight: Part 1",
+          "airdate": "2004-09-24",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S05 (360p re-dvdrip)/Andromeda S05E01 The Weight Pt 1.mp4",
+            "name": "Andromeda S05 (360p re-dvdrip)/Andromeda S05E01 The Weight Pt 1",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S05%20(360p%20re-dvdrip)%2FAndromeda%20S05E01%20The%20Weight%20Pt%201.mp4",
+            "seconds": 2575,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 121
+          },
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "The Weight: Part 2",
+          "airdate": "2004-10-01",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S05 (360p re-dvdrip)/Andromeda S05E02 The Weight Pt 2.mp4",
+            "name": "Andromeda S05 (360p re-dvdrip)/Andromeda S05E02 The Weight Pt 2",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S05%20(360p%20re-dvdrip)%2FAndromeda%20S05E02%20The%20Weight%20Pt%202.mp4",
+            "seconds": 2575,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 118
+          },
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Phear Phactor Phenom",
+          "airdate": "2004-10-08",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S05 (360p re-dvdrip)/Andromeda S05E03 Phear Phactor Phenom.mp4",
+            "name": "Andromeda S05 (360p re-dvdrip)/Andromeda S05E03 Phear Phactor Phenom",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S05%20(360p%20re-dvdrip)%2FAndromeda%20S05E03%20Phear%20Phactor%20Phenom.mp4",
+            "seconds": 2575,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 129
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Decay of the Angel",
+          "airdate": "2004-10-15",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S05 (360p re-dvdrip)/Andromeda S05E04 Decay of the Angel.mp4",
+            "name": "Andromeda S05 (360p re-dvdrip)/Andromeda S05E04 Decay of the Angel",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S05%20(360p%20re-dvdrip)%2FAndromeda%20S05E04%20Decay%20of%20the%20Angel.mp4",
+            "seconds": 2575,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 119
+          },
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "The Eschatology of Our Present",
+          "airdate": "2004-10-22",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S05 (360p re-dvdrip)/Andromeda S05E05 The Eschatology of Our Present.mp4",
+            "name": "Andromeda S05 (360p re-dvdrip)/Andromeda S05E05 The Eschatology of Our Present",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S05%20(360p%20re-dvdrip)%2FAndromeda%20S05E05%20The%20Eschatology%20of%20Our%20Present.mp4",
+            "seconds": 2575,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 120
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "When Goes Around...",
+          "airdate": "2004-10-29",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S05 (360p re-dvdrip)/Andromeda S05E06 When Goes Around....mp4",
+            "name": "Andromeda S05 (360p re-dvdrip)/Andromeda S05E06 When Goes Around...",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S05%20(360p%20re-dvdrip)%2FAndromeda%20S05E06%20When%20Goes%20Around....mp4",
+            "seconds": 2575,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 125
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Attempting Screed",
+          "airdate": "2004-11-05",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S05 (360p re-dvdrip)/Andromeda S05E07 Attempting Screed.mp4",
+            "name": "Andromeda S05 (360p re-dvdrip)/Andromeda S05E07 Attempting Screed",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S05%20(360p%20re-dvdrip)%2FAndromeda%20S05E07%20Attempting%20Screed.mp4",
+            "seconds": 2575,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 140
+          },
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "So Burn the Untamed Lands",
+          "airdate": "2004-11-12",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S05 (360p re-dvdrip)/Andromeda S05E08 So Burn the Untamed Lands.mp4",
+            "name": "Andromeda S05 (360p re-dvdrip)/Andromeda S05E08 So Burn the Untamed Lands",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S05%20(360p%20re-dvdrip)%2FAndromeda%20S05E08%20So%20Burn%20the%20Untamed%20Lands.mp4",
+            "seconds": 2575,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 131
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "What Will Be Was Not",
+          "airdate": "2004-11-19",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S05 (360p re-dvdrip)/Andromeda S05E09 What Will be Was Not.mp4",
+            "name": "Andromeda S05 (360p re-dvdrip)/Andromeda S05E09 What Will be Was Not",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S05%20(360p%20re-dvdrip)%2FAndromeda%20S05E09%20What%20Will%20be%20Was%20Not.mp4",
+            "seconds": 2575,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 122
+          },
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "The Test",
+          "airdate": "2005-01-07",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S05 (360p re-dvdrip)/Andromeda S05E10 The Test.mp4",
+            "name": "Andromeda S05 (360p re-dvdrip)/Andromeda S05E10 The Test",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S05%20(360p%20re-dvdrip)%2FAndromeda%20S05E10%20The%20Test.mp4",
+            "seconds": 2575,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 101
+          },
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Through a Glass Darkly",
+          "airdate": "2005-01-14",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S05 (360p re-dvdrip)/Andromeda S05E11 Through a Glass Darkly.mp4",
+            "name": "Andromeda S05 (360p re-dvdrip)/Andromeda S05E11 Through a Glass Darkly",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S05%20(360p%20re-dvdrip)%2FAndromeda%20S05E11%20Through%20a%20Glass%20Darkly.mp4",
+            "seconds": 2575,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 119
+          },
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Pride Before the Fall",
+          "airdate": "2005-01-21",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S05 (360p re-dvdrip)/Andromeda S05E12 Pride Before the Fall.mp4",
+            "name": "Andromeda S05 (360p re-dvdrip)/Andromeda S05E12 Pride Before the Fall",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S05%20(360p%20re-dvdrip)%2FAndromeda%20S05E12%20Pride%20Before%20the%20Fall.mp4",
+            "seconds": 2575,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 122
+          },
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Moonlight Becomes You",
+          "airdate": "2005-01-28",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S05 (360p re-dvdrip)/Andromeda S05E13 Moonlight Becomes You.mp4",
+            "name": "Andromeda S05 (360p re-dvdrip)/Andromeda S05E13 Moonlight Becomes You",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S05%20(360p%20re-dvdrip)%2FAndromeda%20S05E13%20Moonlight%20Becomes%20You.mp4",
+            "seconds": 2575,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 120
+          },
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Past Is Prolix",
+          "airdate": "2005-02-04",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S05 (360p re-dvdrip)/Andromeda S05E14 Past is Prolix.mp4",
+            "name": "Andromeda S05 (360p re-dvdrip)/Andromeda S05E14 Past is Prolix",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S05%20(360p%20re-dvdrip)%2FAndromeda%20S05E14%20Past%20is%20Prolix.mp4",
+            "seconds": 2575,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 129
+          },
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "The Opposites of Attraction",
+          "airdate": "2005-02-11",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S05 (360p re-dvdrip)/Andromeda S05E15 The Opposites of Attraction.mp4",
+            "name": "Andromeda S05 (360p re-dvdrip)/Andromeda S05E15 The Opposites of Attraction",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S05%20(360p%20re-dvdrip)%2FAndromeda%20S05E15%20The%20Opposites%20of%20Attraction.mp4",
+            "seconds": 2575,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 123
+          },
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Saving Light from a Black Sun",
+          "airdate": "2005-02-18",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S05 (360p re-dvdrip)/Andromeda S05E16 Saving Light from a Black Sun.mp4",
+            "name": "Andromeda S05 (360p re-dvdrip)/Andromeda S05E16 Saving Light from a Black Sun",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S05%20(360p%20re-dvdrip)%2FAndromeda%20S05E16%20Saving%20Light%20from%20a%20Black%20Sun.mp4",
+            "seconds": 2575,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 121
+          },
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Totaled Recall",
+          "airdate": "2005-04-08",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S05 (360p re-dvdrip)/Andromeda S05E17 Totaled Recall.mp4",
+            "name": "Andromeda S05 (360p re-dvdrip)/Andromeda S05E17 Totaled Recall",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S05%20(360p%20re-dvdrip)%2FAndromeda%20S05E17%20Totaled%20Recall.mp4",
+            "seconds": 2575,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 114
+          },
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Quantum Tractate Delirium",
+          "airdate": "2005-04-15",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S05 (360p re-dvdrip)/Andromeda S05E18 Quantum Tractate Delirium.mp4",
+            "name": "Andromeda S05 (360p re-dvdrip)/Andromeda S05E18 Quantum Tractate Delirium",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S05%20(360p%20re-dvdrip)%2FAndromeda%20S05E18%20Quantum%20Tractate%20Delirium.mp4",
+            "seconds": 2575,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 117
+          },
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "One More Day's Light",
+          "airdate": "2005-04-22",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S05 (360p re-dvdrip)/Andromeda S05E19 One More Day's Light.mp4",
+            "name": "Andromeda S05 (360p re-dvdrip)/Andromeda S05E19 One More Day's Light",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S05%20(360p%20re-dvdrip)%2FAndromeda%20S05E19%20One%20More%20Day's%20Light.mp4",
+            "seconds": 2575,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 116
+          },
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Chaos and the Stillness of It",
+          "airdate": "2005-04-29",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S05 (360p re-dvdrip)/Andromeda S05E20 Chaos and the Stillness of It.mp4",
+            "name": "Andromeda S05 (360p re-dvdrip)/Andromeda S05E20 Chaos and the Stillness of It",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S05%20(360p%20re-dvdrip)%2FAndromeda%20S05E20%20Chaos%20and%20the%20Stillness%20of%20It.mp4",
+            "seconds": 2575,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 132
+          },
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "The Heart of the Journey: Part 1",
+          "airdate": "2005-05-06",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S05 (360p re-dvdrip)/Andromeda S05E21 The Heart of the Journey Pt 1.mp4",
+            "name": "Andromeda S05 (360p re-dvdrip)/Andromeda S05E21 The Heart of the Journey Pt 1",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S05%20(360p%20re-dvdrip)%2FAndromeda%20S05E21%20The%20Heart%20of%20the%20Journey%20Pt%201.mp4",
+            "seconds": 2575,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 117
+          },
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "The Heart of the Journey: Part 2",
+          "airdate": "2005-05-13",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "andromeda-complete-series",
+            "itemTitle": "Gene Roddenberry's Andromeda - The Complete Series",
+            "file": "Andromeda S05 (360p re-dvdrip)/Andromeda S05E22 The Heart of the Journey Pt 2.mp4",
+            "name": "Andromeda S05 (360p re-dvdrip)/Andromeda S05E22 The Heart of the Journey Pt 2",
+            "url": "https://archive.org/download/andromeda-complete-series/Andromeda%20S05%20(360p%20re-dvdrip)%2FAndromeda%20S05E22%20The%20Heart%20of%20the%20Journey%20Pt%202.mp4",
+            "seconds": 2575,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 126
+          },
+          "alternates": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1418 @@
+{
+  "show": "Brickleberry",
+  "slug": "brickleberry",
+  "type": "Animated",
+  "network": "Comedy Central",
+  "matchedAt": "2026-10-13T07:46:15.690Z",
+  "tvmaze": {
+    "id": 277,
+    "name": "Brickleberry",
+    "runtime": 30,
+    "premiered": "2012-09-25",
+    "network": "Comedy Central"
+  },
+  "coverage": {
+    "total": 36,
+    "live": 13,
+    "review": 11,
+    "missing": 12,
+    "pct": 67
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Welcome to Brickleberry",
+          "airdate": "2012-09-25",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 1 of 13 in \"Brickleberry [Algunos Episodios Completo\"",
+            "item": "brickleberry-inundacion-capitulo-completo-720p",
+            "itemTitle": "Brickleberry [Algunos Episodios Completos en Español Latino]",
+            "file": "brickelberry nuevo amigo.mp4",
+            "name": "brickelberry nuevo amigo",
+            "url": "https://archive.org/download/brickleberry-inundacion-capitulo-completo-720p/brickelberry%20nuevo%20amigo.mp4",
+            "seconds": 1310,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 103
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 1 of 13 in \"Brickleberry - 2012-2014 dublado\"",
+              "item": "Brickleberrydublado",
+              "itemTitle": "Brickleberry - 2012-2014 dublado",
+              "file": "1 temporada - 2012/T01_01- Welcome to Brickleberry.mp4",
+              "name": "1 temporada - 2012/T01_01- Welcome to Brickleberry",
+              "url": "https://archive.org/download/Brickleberrydublado/1%20temporada%20-%202012%2FT01_01-%20Welcome%20to%20Brickleberry.mp4",
+              "seconds": 1262,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 61
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 1 of 13 in \"Brickleberry - 2012 - dublado\"",
+              "item": "brickleberrydublado_202607",
+              "itemTitle": "Brickleberry - 2012 - dublado",
+              "file": "1 temporada - 2012/T01_01- Welcome to Brickleberry.mp4",
+              "name": "1 temporada - 2012/T01_01- Welcome to Brickleberry",
+              "url": "https://archive.org/download/brickleberrydublado_202607/1%20temporada%20-%202012%2FT01_01-%20Welcome%20to%20Brickleberry.mp4",
+              "seconds": 1262,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 61
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "2 Weeks Notice",
+          "airdate": "2012-10-02",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 2 of 13 in \"Brickleberry - 2012-2014 dublado\"",
+            "item": "Brickleberrydublado",
+            "itemTitle": "Brickleberry - 2012-2014 dublado",
+            "file": "3 Temporada  - 2014/Brickleberry 3×1 – Obamafobia.mp4",
+            "name": "3 Temporada  - 2014/Brickleberry 3×1 – Obamafobia",
+            "url": "https://archive.org/download/Brickleberrydublado/3%20Temporada%20%20-%202014%2FBrickleberry%203%C3%971%20%E2%80%93%20Obamafobia.mp4",
+            "seconds": 1298,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 280
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 2 of 13 in \"Brickleberry - 2012 - dublado\"",
+              "item": "brickleberrydublado_202607",
+              "itemTitle": "Brickleberry - 2012 - dublado",
+              "file": "3 Temporada  - 2014/Brickleberry 3×1 – Obamafobia.mp4",
+              "name": "3 Temporada  - 2014/Brickleberry 3×1 – Obamafobia",
+              "url": "https://archive.org/download/brickleberrydublado_202607/3%20Temporada%20%20-%202014%2FBrickleberry%203%C3%971%20%E2%80%93%20Obamafobia.mp4",
+              "seconds": 1298,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 280
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 2 of 13 in \"Brickleberry [Algunos Episodios Completo\"",
+              "item": "brickleberry-inundacion-capitulo-completo-720p",
+              "itemTitle": "Brickleberry [Algunos Episodios Completos en Español Latino]",
+              "file": "Brickleberry - Juegos de guardabosques (capítulo completo)_480p.mp4",
+              "name": "Brickleberry - Juegos de guardabosques (capítulo completo)_480p",
+              "url": "https://archive.org/download/brickleberry-inundacion-capitulo-completo-720p/Brickleberry%20-%20Juegos%20de%20guardabosques%20(cap%C3%ADtulo%20completo)_480p.mp4",
+              "seconds": 1298,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 92
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "name": "Saved by the Balls",
+          "airdate": "2012-10-09",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 3 of 13 in \"Brickleberry - 2012-2014 dublado\"",
+            "item": "Brickleberrydublado",
+            "itemTitle": "Brickleberry - 2012-2014 dublado",
+            "file": "3 Temporada  - 2014/Brickleberry 3×2 – O Clube.mp4",
+            "name": "3 Temporada  - 2014/Brickleberry 3×2 – O Clube",
+            "url": "https://archive.org/download/Brickleberrydublado/3%20Temporada%20%20-%202014%2FBrickleberry%203%C3%972%20%E2%80%93%20O%20Clube.mp4",
+            "seconds": 1298,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 285
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 3 of 13 in \"Brickleberry - 2012 - dublado\"",
+              "item": "brickleberrydublado_202607",
+              "itemTitle": "Brickleberry - 2012 - dublado",
+              "file": "3 Temporada  - 2014/Brickleberry 3×2 – O Clube.mp4",
+              "name": "3 Temporada  - 2014/Brickleberry 3×2 – O Clube",
+              "url": "https://archive.org/download/brickleberrydublado_202607/3%20Temporada%20%20-%202014%2FBrickleberry%203%C3%972%20%E2%80%93%20O%20Clube.mp4",
+              "seconds": 1298,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 285
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 3 of 13 in \"Brickleberry [Algunos Episodios Completo\"",
+              "item": "brickleberry-inundacion-capitulo-completo-720p",
+              "itemTitle": "Brickleberry [Algunos Episodios Completos en Español Latino]",
+              "file": "Brickleberry - Lago milagroso (español latino)_480p.mp4",
+              "name": "Brickleberry - Lago milagroso (español latino)_480p",
+              "url": "https://archive.org/download/brickleberry-inundacion-capitulo-completo-720p/Brickleberry%20-%20Lago%20milagroso%20(espa%C3%B1ol%20latino)_480p.mp4",
+              "seconds": 1298,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 93
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "name": "Squabbits",
+          "airdate": "2012-10-16",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 4 of 13 in \"Brickleberry - 2012-2014 dublado\"",
+            "item": "Brickleberrydublado",
+            "itemTitle": "Brickleberry - 2012-2014 dublado",
+            "file": "3 Temporada  - 2014/Brickleberry 3×3 – Miss Parque Nacional.mp4",
+            "name": "3 Temporada  - 2014/Brickleberry 3×3 – Miss Parque Nacional",
+            "url": "https://archive.org/download/Brickleberrydublado/3%20Temporada%20%20-%202014%2FBrickleberry%203%C3%973%20%E2%80%93%20Miss%20Parque%20Nacional.mp4",
+            "seconds": 1298,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 282
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 4 of 13 in \"Brickleberry - 2012 - dublado\"",
+              "item": "brickleberrydublado_202607",
+              "itemTitle": "Brickleberry - 2012 - dublado",
+              "file": "3 Temporada  - 2014/Brickleberry 3×3 – Miss Parque Nacional.mp4",
+              "name": "3 Temporada  - 2014/Brickleberry 3×3 – Miss Parque Nacional",
+              "url": "https://archive.org/download/brickleberrydublado_202607/3%20Temporada%20%20-%202014%2FBrickleberry%203%C3%973%20%E2%80%93%20Miss%20Parque%20Nacional.mp4",
+              "seconds": 1298,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 282
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 4 of 13 in \"Brickleberry [Algunos Episodios Completo\"",
+              "item": "brickleberry-inundacion-capitulo-completo-720p",
+              "itemTitle": "Brickleberry [Algunos Episodios Completos en Español Latino]",
+              "file": "Brickleberry - Niño Malloy (capitulo completo)_480p.mp4",
+              "name": "Brickleberry - Niño Malloy (capitulo completo)_480p",
+              "url": "https://archive.org/download/brickleberry-inundacion-capitulo-completo-720p/Brickleberry%20-%20Ni%C3%B1o%20Malloy%20(capitulo%20completo)_480p.mp4",
+              "seconds": 1268,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 87
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "name": "Race Off",
+          "airdate": "2012-10-23",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 5 of 13 in \"Brickleberry - 2012-2014 dublado\"",
+            "item": "Brickleberrydublado",
+            "itemTitle": "Brickleberry - 2012-2014 dublado",
+            "file": "3 Temporada  - 2014/Brickleberry 3×4 – Meu parceiro, meu Pa.mp4",
+            "name": "3 Temporada  - 2014/Brickleberry 3×4 – Meu parceiro, meu Pa",
+            "url": "https://archive.org/download/Brickleberrydublado/3%20Temporada%20%20-%202014%2FBrickleberry%203%C3%974%20%E2%80%93%20Meu%20parceiro%2C%20meu%20Pa.mp4",
+            "seconds": 1298,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 282
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 5 of 13 in \"Brickleberry - 2012 - dublado\"",
+              "item": "brickleberrydublado_202607",
+              "itemTitle": "Brickleberry - 2012 - dublado",
+              "file": "3 Temporada  - 2014/Brickleberry 3×4 – Meu parceiro, meu Pa.mp4",
+              "name": "3 Temporada  - 2014/Brickleberry 3×4 – Meu parceiro, meu Pa",
+              "url": "https://archive.org/download/brickleberrydublado_202607/3%20Temporada%20%20-%202014%2FBrickleberry%203%C3%974%20%E2%80%93%20Meu%20parceiro%2C%20meu%20Pa.mp4",
+              "seconds": 1298,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 282
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 5 of 13 in \"Brickleberry [Algunos Episodios Completo\"",
+              "item": "brickleberry-inundacion-capitulo-completo-720p",
+              "itemTitle": "Brickleberry [Algunos Episodios Completos en Español Latino]",
+              "file": "Brickleberry blanco y negro.mp4",
+              "name": "Brickleberry blanco y negro",
+              "url": "https://archive.org/download/brickleberry-inundacion-capitulo-completo-720p/Brickleberry%20blanco%20y%20negro.mp4",
+              "seconds": 1314,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 94
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "name": "Gay Bomb",
+          "airdate": "2012-10-30",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 6 of 13 in \"Brickleberry - 2012-2014 dublado\"",
+            "item": "Brickleberrydublado",
+            "itemTitle": "Brickleberry - 2012-2014 dublado",
+            "file": "3 Temporada  - 2014/Brickleberry 3×5 – Compositor Cowboy.mp4",
+            "name": "3 Temporada  - 2014/Brickleberry 3×5 – Compositor Cowboy",
+            "url": "https://archive.org/download/Brickleberrydublado/3%20Temporada%20%20-%202014%2FBrickleberry%203%C3%975%20%E2%80%93%20Compositor%20Cowboy.mp4",
+            "seconds": 1298,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 294
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 6 of 13 in \"Brickleberry - 2012 - dublado\"",
+              "item": "brickleberrydublado_202607",
+              "itemTitle": "Brickleberry - 2012 - dublado",
+              "file": "3 Temporada  - 2014/Brickleberry 3×5 – Compositor Cowboy.mp4",
+              "name": "3 Temporada  - 2014/Brickleberry 3×5 – Compositor Cowboy",
+              "url": "https://archive.org/download/brickleberrydublado_202607/3%20Temporada%20%20-%202014%2FBrickleberry%203%C3%975%20%E2%80%93%20Compositor%20Cowboy.mp4",
+              "seconds": 1298,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 294
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 6 of 13 in \"Brickleberry [Algunos Episodios Completo\"",
+              "item": "brickleberry-inundacion-capitulo-completo-720p",
+              "itemTitle": "Brickleberry [Algunos Episodios Completos en Español Latino]",
+              "file": "YTDown.com_YouTube_Brickleberry-La-chica-de-Woody-completo_Media_O0zj9tEaSyk_001_360p.ia.mp4",
+              "name": "YTDown",
+              "url": "https://archive.org/download/brickleberry-inundacion-capitulo-completo-720p/YTDown.com_YouTube_Brickleberry-La-chica-de-Woody-completo_Media_O0zj9tEaSyk_001_360p.ia.mp4",
+              "seconds": 1308,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 61
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "name": "Hello Dottie",
+          "airdate": "2012-11-13",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 7 of 13 in \"Brickleberry - 2012-2014 dublado\"",
+            "item": "Brickleberrydublado",
+            "itemTitle": "Brickleberry - 2012-2014 dublado",
+            "file": "3 Temporada  - 2014/Brickleberry 3×6 – Ferida aberta.mp4",
+            "name": "3 Temporada  - 2014/Brickleberry 3×6 – Ferida aberta",
+            "url": "https://archive.org/download/Brickleberrydublado/3%20Temporada%20%20-%202014%2FBrickleberry%203%C3%976%20%E2%80%93%20Ferida%20aberta.mp4",
+            "seconds": 1298,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 277
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 7 of 13 in \"Brickleberry - 2012 - dublado\"",
+              "item": "brickleberrydublado_202607",
+              "itemTitle": "Brickleberry - 2012 - dublado",
+              "file": "3 Temporada  - 2014/Brickleberry 3×6 – Ferida aberta.mp4",
+              "name": "3 Temporada  - 2014/Brickleberry 3×6 – Ferida aberta",
+              "url": "https://archive.org/download/brickleberrydublado_202607/3%20Temporada%20%20-%202014%2FBrickleberry%203%C3%976%20%E2%80%93%20Ferida%20aberta.mp4",
+              "seconds": 1298,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 277
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 7 of 13 in \"Brickleberry [Algunos Episodios Completo\"",
+              "item": "brickleberry-inundacion-capitulo-completo-720p",
+              "itemTitle": "Brickleberry [Algunos Episodios Completos en Español Latino]",
+              "file": "YTDown_YouTube_Brickleberry-bomba-gay_Media_yAmFKIZksM8_001_480p.mp4",
+              "name": "YTDown_YouTube_Brickleberry-bomba-gay_Media_yAmFKIZksM8_001_480p",
+              "url": "https://archive.org/download/brickleberry-inundacion-capitulo-completo-720p/YTDown_YouTube_Brickleberry-bomba-gay_Media_yAmFKIZksM8_001_480p.mp4",
+              "seconds": 1314,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 107
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "name": "Steve's Bald",
+          "airdate": "2012-11-20",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 8 of 13 in \"Brickleberry - 2012-2014 dublado\"",
+            "item": "Brickleberrydublado",
+            "itemTitle": "Brickleberry - 2012-2014 dublado",
+            "file": "3 Temporada  - 2014/Brickleberry 3×7 – Pai de familia.mp4",
+            "name": "3 Temporada  - 2014/Brickleberry 3×7 – Pai de familia",
+            "url": "https://archive.org/download/Brickleberrydublado/3%20Temporada%20%20-%202014%2FBrickleberry%203%C3%977%20%E2%80%93%20Pai%20de%20familia.mp4",
+            "seconds": 1298,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 270
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 8 of 13 in \"Brickleberry - 2012 - dublado\"",
+              "item": "brickleberrydublado_202607",
+              "itemTitle": "Brickleberry - 2012 - dublado",
+              "file": "3 Temporada  - 2014/Brickleberry 3×7 – Pai de familia.mp4",
+              "name": "3 Temporada  - 2014/Brickleberry 3×7 – Pai de familia",
+              "url": "https://archive.org/download/brickleberrydublado_202607/3%20Temporada%20%20-%202014%2FBrickleberry%203%C3%977%20%E2%80%93%20Pai%20de%20familia.mp4",
+              "seconds": 1298,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 270
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 8 of 13 in \"Brickleberry [Algunos Episodios Completo\"",
+              "item": "brickleberry-inundacion-capitulo-completo-720p",
+              "itemTitle": "Brickleberry [Algunos Episodios Completos en Español Latino]",
+              "file": "YTDown_YouTube_Brickleberry-Carcel-completo_Media_XNzrG2pnZZY_001_480p.mp4",
+              "name": "YTDown_YouTube_Brickleberry-Carcel-completo_Media_XNzrG2pnZZY_001_480p",
+              "url": "https://archive.org/download/brickleberry-inundacion-capitulo-completo-720p/YTDown_YouTube_Brickleberry-Carcel-completo_Media_XNzrG2pnZZY_001_480p.mp4",
+              "seconds": 1298,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 88
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "name": "Daddy Issues",
+          "airdate": "2012-11-27",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 9 of 13 in \"Brickleberry - 2012-2014 dublado\"",
+            "item": "Brickleberrydublado",
+            "itemTitle": "Brickleberry - 2012-2014 dublado",
+            "file": "3 Temporada  - 2014/Brickleberry 3×8 – Capitão Steve Destemido.mp4",
+            "name": "3 Temporada  - 2014/Brickleberry 3×8 – Capitão Steve Destemido",
+            "url": "https://archive.org/download/Brickleberrydublado/3%20Temporada%20%20-%202014%2FBrickleberry%203%C3%978%20%E2%80%93%20Capit%C3%A3o%20Steve%20Destemido.mp4",
+            "seconds": 1298,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 304
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 9 of 13 in \"Brickleberry - 2012 - dublado\"",
+              "item": "brickleberrydublado_202607",
+              "itemTitle": "Brickleberry - 2012 - dublado",
+              "file": "3 Temporada  - 2014/Brickleberry 3×8 – Capitão Steve Destemido.mp4",
+              "name": "3 Temporada  - 2014/Brickleberry 3×8 – Capitão Steve Destemido",
+              "url": "https://archive.org/download/brickleberrydublado_202607/3%20Temporada%20%20-%202014%2FBrickleberry%203%C3%978%20%E2%80%93%20Capit%C3%A3o%20Steve%20Destemido.mp4",
+              "seconds": 1298,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 304
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 9 of 13 in \"Brickleberry [Algunos Episodios Completo\"",
+              "item": "brickleberry-inundacion-capitulo-completo-720p",
+              "itemTitle": "Brickleberry [Algunos Episodios Completos en Español Latino]",
+              "file": "YTDown_YouTube_Brickleberry-para-todos_Media_4ILv62Ji3z0_001_360p.mp4",
+              "name": "YTDown_YouTube_Brickleberry-para-todos_Media_4ILv62Ji3z0_001_360p",
+              "url": "https://archive.org/download/brickleberry-inundacion-capitulo-completo-720p/YTDown_YouTube_Brickleberry-para-todos_Media_4ILv62Ji3z0_001_360p.mp4",
+              "seconds": 1298,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 55
+            }
+          ]
+        },
+        {
+          "number": 10,
+          "name": "The Dam Show",
+          "airdate": "2012-12-04",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 10 of 13 in \"Brickleberry - 2012-2014 dublado\"",
+            "item": "Brickleberrydublado",
+            "itemTitle": "Brickleberry - 2012-2014 dublado",
+            "file": "3 Temporada  - 2014/Brickleberry 3×9 – Apostas Altas.mp4",
+            "name": "3 Temporada  - 2014/Brickleberry 3×9 – Apostas Altas",
+            "url": "https://archive.org/download/Brickleberrydublado/3%20Temporada%20%20-%202014%2FBrickleberry%203%C3%979%20%E2%80%93%20Apostas%20Altas.mp4",
+            "seconds": 1298,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 271
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 10 of 13 in \"Brickleberry - 2012 - dublado\"",
+              "item": "brickleberrydublado_202607",
+              "itemTitle": "Brickleberry - 2012 - dublado",
+              "file": "3 Temporada  - 2014/Brickleberry 3×9 – Apostas Altas.mp4",
+              "name": "3 Temporada  - 2014/Brickleberry 3×9 – Apostas Altas",
+              "url": "https://archive.org/download/brickleberrydublado_202607/3%20Temporada%20%20-%202014%2FBrickleberry%203%C3%979%20%E2%80%93%20Apostas%20Altas.mp4",
+              "seconds": 1298,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 271
+            },
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 10 of 13 in \"Brickleberry [Algunos Episodios Completo\"",
+              "item": "brickleberry-inundacion-capitulo-completo-720p",
+              "itemTitle": "Brickleberry [Algunos Episodios Completos en Español Latino]",
+              "file": "YTDown_YouTube_Brickleberry-para-todos_Media_NA3NzcvHoe4_001_360p.mp4",
+              "name": "YTDown_YouTube_Brickleberry-para-todos_Media_NA3NzcvHoe4_001_360p",
+              "url": "https://archive.org/download/brickleberry-inundacion-capitulo-completo-720p/YTDown_YouTube_Brickleberry-para-todos_Media_NA3NzcvHoe4_001_360p.mp4",
+              "seconds": 1298,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 56
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Miracle Lake",
+          "airdate": "2013-09-03",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "Brickleberrydublado",
+            "itemTitle": "Brickleberry - 2012-2014 dublado",
+            "file": "2 Temporada - 2013/BB.S02E01.1080p.Lago Milagroso.mp4",
+            "name": "2 Temporada - 2013/BB.S02E01.1080p.Lago Milagroso",
+            "url": "https://archive.org/download/Brickleberrydublado/2%20Temporada%20-%202013%2FBB.S02E01.1080p.Lago%20Milagroso.mp4",
+            "seconds": 1304,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 311
+          },
+          "alternates": [
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "brickleberrydublado_202607",
+              "itemTitle": "Brickleberry - 2012 - dublado",
+              "file": "2 Temporada - 2013/BB.S02E01.1080p.Lago Milagroso.mp4",
+              "name": "2 Temporada - 2013/BB.S02E01.1080p.Lago Milagroso",
+              "url": "https://archive.org/download/brickleberrydublado_202607/2%20Temporada%20-%202013%2FBB.S02E01.1080p.Lago%20Milagroso.mp4",
+              "seconds": 1304,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 311
+            },
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "Brickleberrydublado",
+              "itemTitle": "Brickleberry - 2012-2014 dublado",
+              "file": "2 Temporada - 2013/BB.S02E01.1080p.Lago Milagroso.ia.mp4",
+              "name": "2 Temporada - 2013/BB.S02E01.1080p",
+              "url": "https://archive.org/download/Brickleberrydublado/2%20Temporada%20-%202013%2FBB.S02E01.1080p.Lago%20Milagroso.ia.mp4",
+              "seconds": 1304,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 283
+            },
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "brickleberrydublado_202607",
+              "itemTitle": "Brickleberry - 2012 - dublado",
+              "file": "2 Temporada - 2013/BB.S02E01.1080p.Lago Milagroso.ia.mp4",
+              "name": "2 Temporada - 2013/BB.S02E01.1080p",
+              "url": "https://archive.org/download/brickleberrydublado_202607/2%20Temporada%20-%202013%2FBB.S02E01.1080p.Lago%20Milagroso.ia.mp4",
+              "seconds": 1304,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 282
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "The Comeback",
+          "airdate": "2013-09-10",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "Brickleberrydublado",
+            "itemTitle": "Brickleberry - 2012-2014 dublado",
+            "file": "2 Temporada - 2013/BB.S02E02.1080p.O Retorno.mp4",
+            "name": "2 Temporada - 2013/BB.S02E02.1080p.O Retorno",
+            "url": "https://archive.org/download/Brickleberrydublado/2%20Temporada%20-%202013%2FBB.S02E02.1080p.O%20Retorno.mp4",
+            "seconds": 1304,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 313
+          },
+          "alternates": [
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "brickleberrydublado_202607",
+              "itemTitle": "Brickleberry - 2012 - dublado",
+              "file": "2 Temporada - 2013/BB.S02E02.1080p.O Retorno.mp4",
+              "name": "2 Temporada - 2013/BB.S02E02.1080p.O Retorno",
+              "url": "https://archive.org/download/brickleberrydublado_202607/2%20Temporada%20-%202013%2FBB.S02E02.1080p.O%20Retorno.mp4",
+              "seconds": 1304,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 313
+            },
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "Brickleberrydublado",
+              "itemTitle": "Brickleberry - 2012-2014 dublado",
+              "file": "2 Temporada - 2013/BB.S02E02.1080p.O Retorno.ia.mp4",
+              "name": "2 Temporada - 2013/BB.S02E02.1080p",
+              "url": "https://archive.org/download/Brickleberrydublado/2%20Temporada%20-%202013%2FBB.S02E02.1080p.O%20Retorno.ia.mp4",
+              "seconds": 1304,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 285
+            },
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "brickleberrydublado_202607",
+              "itemTitle": "Brickleberry - 2012 - dublado",
+              "file": "2 Temporada - 2013/BB.S02E02.1080p.O Retorno.ia.mp4",
+              "name": "2 Temporada - 2013/BB.S02E02.1080p",
+              "url": "https://archive.org/download/brickleberrydublado_202607/2%20Temporada%20-%202013%2FBB.S02E02.1080p.O%20Retorno.ia.mp4",
+              "seconds": 1304,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 284
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "name": "Woody's Girl",
+          "airdate": "2013-09-17",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "Brickleberrydublado",
+            "itemTitle": "Brickleberry - 2012-2014 dublado",
+            "file": "2 Temporada - 2013/BB.S02E03.1080p.A Garota do Wood.mp4",
+            "name": "2 Temporada - 2013/BB.S02E03.1080p.A Garota do Wood",
+            "url": "https://archive.org/download/Brickleberrydublado/2%20Temporada%20-%202013%2FBB.S02E03.1080p.A%20Garota%20do%20Wood.mp4",
+            "seconds": 1304,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 313
+          },
+          "alternates": [
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "brickleberrydublado_202607",
+              "itemTitle": "Brickleberry - 2012 - dublado",
+              "file": "2 Temporada - 2013/BB.S02E03.1080p.A Garota do Wood.mp4",
+              "name": "2 Temporada - 2013/BB.S02E03.1080p.A Garota do Wood",
+              "url": "https://archive.org/download/brickleberrydublado_202607/2%20Temporada%20-%202013%2FBB.S02E03.1080p.A%20Garota%20do%20Wood.mp4",
+              "seconds": 1304,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 313
+            },
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "Brickleberrydublado",
+              "itemTitle": "Brickleberry - 2012-2014 dublado",
+              "file": "2 Temporada - 2013/BB.S02E03.1080p.A Garota do Wood.ia.mp4",
+              "name": "2 Temporada - 2013/BB.S02E03.1080p",
+              "url": "https://archive.org/download/Brickleberrydublado/2%20Temporada%20-%202013%2FBB.S02E03.1080p.A%20Garota%20do%20Wood.ia.mp4",
+              "seconds": 1304,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 285
+            },
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "brickleberrydublado_202607",
+              "itemTitle": "Brickleberry - 2012 - dublado",
+              "file": "2 Temporada - 2013/BB.S02E03.1080p.A Garota do Wood.ia.mp4",
+              "name": "2 Temporada - 2013/BB.S02E03.1080p",
+              "url": "https://archive.org/download/brickleberrydublado_202607/2%20Temporada%20-%202013%2FBB.S02E03.1080p.A%20Garota%20do%20Wood.ia.mp4",
+              "seconds": 1304,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 284
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "name": "Trailer Park",
+          "airdate": "2013-09-24",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "Brickleberrydublado",
+            "itemTitle": "Brickleberry - 2012-2014 dublado",
+            "file": "2 Temporada - 2013/BB.S02E04.1080p.Parque de Traillers.mp4",
+            "name": "2 Temporada - 2013/BB.S02E04.1080p.Parque de Traillers",
+            "url": "https://archive.org/download/Brickleberrydublado/2%20Temporada%20-%202013%2FBB.S02E04.1080p.Parque%20de%20Traillers.mp4",
+            "seconds": 1303,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 312
+          },
+          "alternates": [
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "brickleberrydublado_202607",
+              "itemTitle": "Brickleberry - 2012 - dublado",
+              "file": "2 Temporada - 2013/BB.S02E04.1080p.Parque de Traillers.mp4",
+              "name": "2 Temporada - 2013/BB.S02E04.1080p.Parque de Traillers",
+              "url": "https://archive.org/download/brickleberrydublado_202607/2%20Temporada%20-%202013%2FBB.S02E04.1080p.Parque%20de%20Traillers.mp4",
+              "seconds": 1303,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 312
+            },
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "Brickleberrydublado",
+              "itemTitle": "Brickleberry - 2012-2014 dublado",
+              "file": "2 Temporada - 2013/BB.S02E04.1080p.Parque de Traillers.ia.mp4",
+              "name": "2 Temporada - 2013/BB.S02E04.1080p",
+              "url": "https://archive.org/download/Brickleberrydublado/2%20Temporada%20-%202013%2FBB.S02E04.1080p.Parque%20de%20Traillers.ia.mp4",
+              "seconds": 1303,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 284
+            },
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "brickleberrydublado_202607",
+              "itemTitle": "Brickleberry - 2012 - dublado",
+              "file": "2 Temporada - 2013/BB.S02E04.1080p.Parque de Traillers.ia.mp4",
+              "name": "2 Temporada - 2013/BB.S02E04.1080p",
+              "url": "https://archive.org/download/brickleberrydublado_202607/2%20Temporada%20-%202013%2FBB.S02E04.1080p.Parque%20de%20Traillers.ia.mp4",
+              "seconds": 1303,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 283
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "name": "Crippleberry",
+          "airdate": "2013-10-01",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "Brickleberrydublado",
+            "itemTitle": "Brickleberry - 2012-2014 dublado",
+            "file": "2 Temporada - 2013/BB.S02E05.1080p.Aleijado.mp4",
+            "name": "2 Temporada - 2013/BB.S02E05.1080p.Aleijado",
+            "url": "https://archive.org/download/Brickleberrydublado/2%20Temporada%20-%202013%2FBB.S02E05.1080p.Aleijado.mp4",
+            "seconds": 1304,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 312
+          },
+          "alternates": [
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "brickleberrydublado_202607",
+              "itemTitle": "Brickleberry - 2012 - dublado",
+              "file": "2 Temporada - 2013/BB.S02E05.1080p.Aleijado.mp4",
+              "name": "2 Temporada - 2013/BB.S02E05.1080p.Aleijado",
+              "url": "https://archive.org/download/brickleberrydublado_202607/2%20Temporada%20-%202013%2FBB.S02E05.1080p.Aleijado.mp4",
+              "seconds": 1304,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 312
+            },
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "Brickleberrydublado",
+              "itemTitle": "Brickleberry - 2012-2014 dublado",
+              "file": "2 Temporada - 2013/BB.S02E05.1080p.Aleijado.ia.mp4",
+              "name": "2 Temporada - 2013/BB.S02E05.1080p",
+              "url": "https://archive.org/download/Brickleberrydublado/2%20Temporada%20-%202013%2FBB.S02E05.1080p.Aleijado.ia.mp4",
+              "seconds": 1304,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 284
+            },
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "brickleberrydublado_202607",
+              "itemTitle": "Brickleberry - 2012 - dublado",
+              "file": "2 Temporada - 2013/BB.S02E05.1080p.Aleijado.ia.mp4",
+              "name": "2 Temporada - 2013/BB.S02E05.1080p",
+              "url": "https://archive.org/download/brickleberrydublado_202607/2%20Temporada%20-%202013%2FBB.S02E05.1080p.Aleijado.ia.mp4",
+              "seconds": 1304,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 283
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "name": "Ranger Games",
+          "airdate": "2013-10-08",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "Brickleberrydublado",
+            "itemTitle": "Brickleberry - 2012-2014 dublado",
+            "file": "2 Temporada - 2013/BB.S02E06.1080p.Jogos Florestais.mp4",
+            "name": "2 Temporada - 2013/BB.S02E06.1080p.Jogos Florestais",
+            "url": "https://archive.org/download/Brickleberrydublado/2%20Temporada%20-%202013%2FBB.S02E06.1080p.Jogos%20Florestais.mp4",
+            "seconds": 1303,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 312
+          },
+          "alternates": [
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "brickleberrydublado_202607",
+              "itemTitle": "Brickleberry - 2012 - dublado",
+              "file": "2 Temporada - 2013/BB.S02E06.1080p.Jogos Florestais.mp4",
+              "name": "2 Temporada - 2013/BB.S02E06.1080p.Jogos Florestais",
+              "url": "https://archive.org/download/brickleberrydublado_202607/2%20Temporada%20-%202013%2FBB.S02E06.1080p.Jogos%20Florestais.mp4",
+              "seconds": 1303,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 312
+            },
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "Brickleberrydublado",
+              "itemTitle": "Brickleberry - 2012-2014 dublado",
+              "file": "2 Temporada - 2013/BB.S02E06.1080p.Jogos Florestais.ia.mp4",
+              "name": "2 Temporada - 2013/BB.S02E06.1080p",
+              "url": "https://archive.org/download/Brickleberrydublado/2%20Temporada%20-%202013%2FBB.S02E06.1080p.Jogos%20Florestais.ia.mp4",
+              "seconds": 1304,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 284
+            },
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "brickleberrydublado_202607",
+              "itemTitle": "Brickleberry - 2012 - dublado",
+              "file": "2 Temporada - 2013/BB.S02E06.1080p.Jogos Florestais.ia.mp4",
+              "name": "2 Temporada - 2013/BB.S02E06.1080p",
+              "url": "https://archive.org/download/brickleberrydublado_202607/2%20Temporada%20-%202013%2FBB.S02E06.1080p.Jogos%20Florestais.ia.mp4",
+              "seconds": 1303,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 283
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "name": "My Way or the Highway",
+          "airdate": "2013-10-15",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "Brickleberrydublado",
+            "itemTitle": "Brickleberry - 2012-2014 dublado",
+            "file": "2 Temporada - 2013/BB.S02E07.1080p.Meu geito ou nenhum geito.mp4",
+            "name": "2 Temporada - 2013/BB.S02E07.1080p.Meu geito ou nenhum geito",
+            "url": "https://archive.org/download/Brickleberrydublado/2%20Temporada%20-%202013%2FBB.S02E07.1080p.Meu%20geito%20ou%20nenhum%20geito.mp4",
+            "seconds": 1300,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 312
+          },
+          "alternates": [
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "brickleberrydublado_202607",
+              "itemTitle": "Brickleberry - 2012 - dublado",
+              "file": "2 Temporada - 2013/BB.S02E07.1080p.Meu geito ou nenhum geito.mp4",
+              "name": "2 Temporada - 2013/BB.S02E07.1080p.Meu geito ou nenhum geito",
+              "url": "https://archive.org/download/brickleberrydublado_202607/2%20Temporada%20-%202013%2FBB.S02E07.1080p.Meu%20geito%20ou%20nenhum%20geito.mp4",
+              "seconds": 1300,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 312
+            },
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "Brickleberrydublado",
+              "itemTitle": "Brickleberry - 2012-2014 dublado",
+              "file": "2 Temporada - 2013/BB.S02E07.1080p.Meu geito ou nenhum geito.ia.mp4",
+              "name": "2 Temporada - 2013/BB.S02E07.1080p",
+              "url": "https://archive.org/download/Brickleberrydublado/2%20Temporada%20-%202013%2FBB.S02E07.1080p.Meu%20geito%20ou%20nenhum%20geito.ia.mp4",
+              "seconds": 1300,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 284
+            },
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "brickleberrydublado_202607",
+              "itemTitle": "Brickleberry - 2012 - dublado",
+              "file": "2 Temporada - 2013/BB.S02E07.1080p.Meu geito ou nenhum geito.ia.mp4",
+              "name": "2 Temporada - 2013/BB.S02E07.1080p",
+              "url": "https://archive.org/download/brickleberrydublado_202607/2%20Temporada%20-%202013%2FBB.S02E07.1080p.Meu%20geito%20ou%20nenhum%20geito.ia.mp4",
+              "seconds": 1300,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 284
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "name": "Little Boy Malloy",
+          "airdate": "2013-10-22",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "Brickleberrydublado",
+            "itemTitle": "Brickleberry - 2012-2014 dublado",
+            "file": "2 Temporada - 2013/BB.S02E08.1080p.Pequeno Maloy.mp4",
+            "name": "2 Temporada - 2013/BB.S02E08.1080p.Pequeno Maloy",
+            "url": "https://archive.org/download/Brickleberrydublado/2%20Temporada%20-%202013%2FBB.S02E08.1080p.Pequeno%20Maloy.mp4",
+            "seconds": 1268,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 305
+          },
+          "alternates": [
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "brickleberrydublado_202607",
+              "itemTitle": "Brickleberry - 2012 - dublado",
+              "file": "2 Temporada - 2013/BB.S02E08.1080p.Pequeno Maloy.mp4",
+              "name": "2 Temporada - 2013/BB.S02E08.1080p.Pequeno Maloy",
+              "url": "https://archive.org/download/brickleberrydublado_202607/2%20Temporada%20-%202013%2FBB.S02E08.1080p.Pequeno%20Maloy.mp4",
+              "seconds": 1268,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 305
+            },
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "Brickleberrydublado",
+              "itemTitle": "Brickleberry - 2012-2014 dublado",
+              "file": "2 Temporada - 2013/BB.S02E08.1080p.Pequeno Maloy.ia.mp4",
+              "name": "2 Temporada - 2013/BB.S02E08.1080p",
+              "url": "https://archive.org/download/Brickleberrydublado/2%20Temporada%20-%202013%2FBB.S02E08.1080p.Pequeno%20Maloy.ia.mp4",
+              "seconds": 1268,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 277
+            },
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "brickleberrydublado_202607",
+              "itemTitle": "Brickleberry - 2012 - dublado",
+              "file": "2 Temporada - 2013/BB.S02E08.1080p.Pequeno Maloy.ia.mp4",
+              "name": "2 Temporada - 2013/BB.S02E08.1080p",
+              "url": "https://archive.org/download/brickleberrydublado_202607/2%20Temporada%20-%202013%2FBB.S02E08.1080p.Pequeno%20Maloy.ia.mp4",
+              "seconds": 1268,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 276
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "name": "The Animals Strike Back",
+          "airdate": "2013-10-29",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "Brickleberrydublado",
+            "itemTitle": "Brickleberry - 2012-2014 dublado",
+            "file": "2 Temporada - 2013/BB.S02E09.1080p.A Greve dos Animais.mp4",
+            "name": "2 Temporada - 2013/BB.S02E09.1080p.A Greve dos Animais",
+            "url": "https://archive.org/download/Brickleberrydublado/2%20Temporada%20-%202013%2FBB.S02E09.1080p.A%20Greve%20dos%20Animais.mp4",
+            "seconds": 1304,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 313
+          },
+          "alternates": [
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "brickleberrydublado_202607",
+              "itemTitle": "Brickleberry - 2012 - dublado",
+              "file": "2 Temporada - 2013/BB.S02E09.1080p.A Greve dos Animais.mp4",
+              "name": "2 Temporada - 2013/BB.S02E09.1080p.A Greve dos Animais",
+              "url": "https://archive.org/download/brickleberrydublado_202607/2%20Temporada%20-%202013%2FBB.S02E09.1080p.A%20Greve%20dos%20Animais.mp4",
+              "seconds": 1304,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 313
+            },
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "Brickleberrydublado",
+              "itemTitle": "Brickleberry - 2012-2014 dublado",
+              "file": "2 Temporada - 2013/BB.S02E09.1080p.A Greve dos Animais.ia.mp4",
+              "name": "2 Temporada - 2013/BB.S02E09.1080p",
+              "url": "https://archive.org/download/Brickleberrydublado/2%20Temporada%20-%202013%2FBB.S02E09.1080p.A%20Greve%20dos%20Animais.ia.mp4",
+              "seconds": 1304,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 285
+            },
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "brickleberrydublado_202607",
+              "itemTitle": "Brickleberry - 2012 - dublado",
+              "file": "2 Temporada - 2013/BB.S02E09.1080p.A Greve dos Animais.ia.mp4",
+              "name": "2 Temporada - 2013/BB.S02E09.1080p",
+              "url": "https://archive.org/download/brickleberrydublado_202607/2%20Temporada%20-%202013%2FBB.S02E09.1080p.A%20Greve%20dos%20Animais.ia.mp4",
+              "seconds": 1304,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 285
+            }
+          ]
+        },
+        {
+          "number": 10,
+          "name": "Scared Straight",
+          "airdate": "2013-11-05",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "Brickleberrydublado",
+            "itemTitle": "Brickleberry - 2012-2014 dublado",
+            "file": "2 Temporada - 2013/BB.S02E10.1080p.O Assustado.mp4",
+            "name": "2 Temporada - 2013/BB.S02E10.1080p.O Assustado",
+            "url": "https://archive.org/download/Brickleberrydublado/2%20Temporada%20-%202013%2FBB.S02E10.1080p.O%20Assustado.mp4",
+            "seconds": 1304,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 313
+          },
+          "alternates": [
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "brickleberrydublado_202607",
+              "itemTitle": "Brickleberry - 2012 - dublado",
+              "file": "2 Temporada - 2013/BB.S02E10.1080p.O Assustado.mp4",
+              "name": "2 Temporada - 2013/BB.S02E10.1080p.O Assustado",
+              "url": "https://archive.org/download/brickleberrydublado_202607/2%20Temporada%20-%202013%2FBB.S02E10.1080p.O%20Assustado.mp4",
+              "seconds": 1304,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 313
+            },
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "Brickleberrydublado",
+              "itemTitle": "Brickleberry - 2012-2014 dublado",
+              "file": "2 Temporada - 2013/BB.S02E10.1080p.O Assustado.ia.mp4",
+              "name": "2 Temporada - 2013/BB.S02E10.1080p",
+              "url": "https://archive.org/download/Brickleberrydublado/2%20Temporada%20-%202013%2FBB.S02E10.1080p.O%20Assustado.ia.mp4",
+              "seconds": 1304,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 285
+            },
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "brickleberrydublado_202607",
+              "itemTitle": "Brickleberry - 2012 - dublado",
+              "file": "2 Temporada - 2013/BB.S02E10.1080p.O Assustado.ia.mp4",
+              "name": "2 Temporada - 2013/BB.S02E10.1080p",
+              "url": "https://archive.org/download/brickleberrydublado_202607/2%20Temporada%20-%202013%2FBB.S02E10.1080p.O%20Assustado.ia.mp4",
+              "seconds": 1304,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 284
+            }
+          ]
+        },
+        {
+          "number": 11,
+          "name": "Trip to Mars",
+          "airdate": "2013-11-12",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "Brickleberrydublado",
+            "itemTitle": "Brickleberry - 2012-2014 dublado",
+            "file": "2 Temporada - 2013/BB.S02E11.1080p.Viagem a Marte.mp4",
+            "name": "2 Temporada - 2013/BB.S02E11.1080p.Viagem a Marte",
+            "url": "https://archive.org/download/Brickleberrydublado/2%20Temporada%20-%202013%2FBB.S02E11.1080p.Viagem%20a%20Marte.mp4",
+            "seconds": 1268,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 307
+          },
+          "alternates": [
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "brickleberrydublado_202607",
+              "itemTitle": "Brickleberry - 2012 - dublado",
+              "file": "2 Temporada - 2013/BB.S02E11.1080p.Viagem a Marte.mp4",
+              "name": "2 Temporada - 2013/BB.S02E11.1080p.Viagem a Marte",
+              "url": "https://archive.org/download/brickleberrydublado_202607/2%20Temporada%20-%202013%2FBB.S02E11.1080p.Viagem%20a%20Marte.mp4",
+              "seconds": 1268,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 307
+            },
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "Brickleberrydublado",
+              "itemTitle": "Brickleberry - 2012-2014 dublado",
+              "file": "2 Temporada - 2013/BB.S02E11.1080p.Viagem a Marte.ia.mp4",
+              "name": "2 Temporada - 2013/BB.S02E11.1080p",
+              "url": "https://archive.org/download/Brickleberrydublado/2%20Temporada%20-%202013%2FBB.S02E11.1080p.Viagem%20a%20Marte.ia.mp4",
+              "seconds": 1268,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 280
+            },
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "brickleberrydublado_202607",
+              "itemTitle": "Brickleberry - 2012 - dublado",
+              "file": "2 Temporada - 2013/BB.S02E11.1080p.Viagem a Marte.ia.mp4",
+              "name": "2 Temporada - 2013/BB.S02E11.1080p",
+              "url": "https://archive.org/download/brickleberrydublado_202607/2%20Temporada%20-%202013%2FBB.S02E11.1080p.Viagem%20a%20Marte.ia.mp4",
+              "seconds": 1268,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 279
+            }
+          ]
+        },
+        {
+          "number": 12,
+          "name": "My Favorite Bear",
+          "airdate": "2013-11-19",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "Brickleberrydublado",
+            "itemTitle": "Brickleberry - 2012-2014 dublado",
+            "file": "2 Temporada - 2013/BB.S02E12.1080p.Meu Urso Favorito.mp4",
+            "name": "2 Temporada - 2013/BB.S02E12.1080p.Meu Urso Favorito",
+            "url": "https://archive.org/download/Brickleberrydublado/2%20Temporada%20-%202013%2FBB.S02E12.1080p.Meu%20Urso%20Favorito.mp4",
+            "seconds": 1298,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 316
+          },
+          "alternates": [
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "brickleberrydublado_202607",
+              "itemTitle": "Brickleberry - 2012 - dublado",
+              "file": "2 Temporada - 2013/BB.S02E12.1080p.Meu Urso Favorito.mp4",
+              "name": "2 Temporada - 2013/BB.S02E12.1080p.Meu Urso Favorito",
+              "url": "https://archive.org/download/brickleberrydublado_202607/2%20Temporada%20-%202013%2FBB.S02E12.1080p.Meu%20Urso%20Favorito.mp4",
+              "seconds": 1298,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 316
+            },
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "Brickleberrydublado",
+              "itemTitle": "Brickleberry - 2012-2014 dublado",
+              "file": "2 Temporada - 2013/BB.S02E12.1080p.Meu Urso Favorito.ia.mp4",
+              "name": "2 Temporada - 2013/BB.S02E12.1080p",
+              "url": "https://archive.org/download/Brickleberrydublado/2%20Temporada%20-%202013%2FBB.S02E12.1080p.Meu%20Urso%20Favorito.ia.mp4",
+              "seconds": 1298,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 287
+            },
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "brickleberrydublado_202607",
+              "itemTitle": "Brickleberry - 2012 - dublado",
+              "file": "2 Temporada - 2013/BB.S02E12.1080p.Meu Urso Favorito.ia.mp4",
+              "name": "2 Temporada - 2013/BB.S02E12.1080p",
+              "url": "https://archive.org/download/brickleberrydublado_202607/2%20Temporada%20-%202013%2FBB.S02E12.1080p.Meu%20Urso%20Favorito.ia.mp4",
+              "seconds": 1298,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 286
+            }
+          ]
+        },
+        {
+          "number": 13,
+          "name": "A-Park-a-Lypse",
+          "airdate": "2013-11-26",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.85,
+            "why": "S/E in filename",
+            "item": "Brickleberrydublado",
+            "itemTitle": "Brickleberry - 2012-2014 dublado",
+            "file": "2 Temporada - 2013/BB.S02E13.1080p.AparCalipse.mp4",
+            "name": "2 Temporada - 2013/BB.S02E13.1080p.AparCalipse",
+            "url": "https://archive.org/download/Brickleberrydublado/2%20Temporada%20-%202013%2FBB.S02E13.1080p.AparCalipse.mp4",
+            "seconds": 1304,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 314
+          },
+          "alternates": [
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "brickleberrydublado_202607",
+              "itemTitle": "Brickleberry - 2012 - dublado",
+              "file": "2 Temporada - 2013/BB.S02E13.1080p.AparCalipse.mp4",
+              "name": "2 Temporada - 2013/BB.S02E13.1080p.AparCalipse",
+              "url": "https://archive.org/download/brickleberrydublado_202607/2%20Temporada%20-%202013%2FBB.S02E13.1080p.AparCalipse.mp4",
+              "seconds": 1304,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 314
+            },
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "Brickleberrydublado",
+              "itemTitle": "Brickleberry - 2012-2014 dublado",
+              "file": "2 Temporada - 2013/BB.S02E13.1080p.AparCalipse.ia.mp4",
+              "name": "2 Temporada - 2013/BB.S02E13.1080p",
+              "url": "https://archive.org/download/Brickleberrydublado/2%20Temporada%20-%202013%2FBB.S02E13.1080p.AparCalipse.ia.mp4",
+              "seconds": 1304,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 286
+            },
+            {
+              "conf": 0.85,
+              "why": "S/E in filename",
+              "item": "brickleberrydublado_202607",
+              "itemTitle": "Brickleberry - 2012 - dublado",
+              "file": "2 Temporada - 2013/BB.S02E13.1080p.AparCalipse.ia.mp4",
+              "name": "2 Temporada - 2013/BB.S02E13.1080p",
+              "url": "https://archive.org/download/brickleberrydublado_202607/2%20Temporada%20-%202013%2FBB.S02E13.1080p.AparCalipse.ia.mp4",
+              "seconds": 1304,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 285
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "ObamaScare",
+          "airdate": "2014-09-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "In Da Club",
+          "airdate": "2014-09-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Miss National Park",
+          "airdate": "2014-09-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "That Brother's My Father",
+          "airdate": "2014-10-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Write 'Em Cowboy",
+          "airdate": "2014-10-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Old Wounds",
+          "airdate": "2014-10-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Baby Daddy",
+          "airdate": "2014-10-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Steve the Fearless Pilot",
+          "airdate": "2014-11-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "High Stakes",
+          "airdate": "2014-11-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Amber Alert",
+          "airdate": "2014-11-18",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.6,
+            "why": "title ~ \"Amber Alert\" (0.64)",
+            "item": "Brickleberrydublado",
+            "itemTitle": "Brickleberry - 2012-2014 dublado",
+            "file": "3 Temporada  - 2014/Brickleberry 3×10 – Alerta de Amber.mp4",
+            "name": "3 Temporada  - 2014/Brickleberry 3×10 – Alerta de Amber",
+            "url": "https://archive.org/download/Brickleberrydublado/3%20Temporada%20%20-%202014%2FBrickleberry%203%C3%9710%20%E2%80%93%20Alerta%20de%20Amber.mp4",
+            "seconds": 1298,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 282
+          },
+          "alternates": [
+            {
+              "conf": 0.6,
+              "why": "title ~ \"Amber Alert\" (0.64)",
+              "item": "brickleberrydublado_202607",
+              "itemTitle": "Brickleberry - 2012 - dublado",
+              "file": "3 Temporada  - 2014/Brickleberry 3×10 – Alerta de Amber.mp4",
+              "name": "3 Temporada  - 2014/Brickleberry 3×10 – Alerta de Amber",
+              "url": "https://archive.org/download/brickleberrydublado_202607/3%20Temporada%20%20-%202014%2FBrickleberry%203%C3%9710%20%E2%80%93%20Alerta%20de%20Amber.mp4",
+              "seconds": 1298,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 282
+            }
+          ]
+        },
+        {
+          "number": 11,
+          "name": "Cops and Bottoms",
+          "airdate": "2015-03-31",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Campin' Ain't Easy",
+          "airdate": "2015-04-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Global Warning",
+          "airdate": "2015-04-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    }
+  ]
+}

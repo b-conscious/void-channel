@@ -1,0 +1,550 @@
+{
+  "show": "Roswell",
+  "slug": "roswell",
+  "type": "Sci-Fi, Fantasy and Horror",
+  "network": "The WB",
+  "matchedAt": "2026-10-13T07:46:17.742Z",
+  "tvmaze": {
+    "id": 673,
+    "name": "Roswell",
+    "runtime": 60,
+    "premiered": "1999-10-06",
+    "network": "UPN"
+  },
+  "coverage": {
+    "total": 61,
+    "live": 1,
+    "review": 1,
+    "missing": 59,
+    "pct": 3
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Pilot",
+          "airdate": "1999-10-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "The Morning After",
+          "airdate": "1999-10-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Monsters",
+          "airdate": "1999-10-20",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "UFO.Crash.at.Roswell.2000",
+            "itemTitle": "Encounters with the Unexplained - s1e03 - UFO Crash at Roswell",
+            "file": "Encounters with the Unexplained - s1e03 - UFO Crash at Roswell [2000; 2005 DVD].ia.mp4",
+            "name": "Encounters with the Unexplained - s1e03 - UFO Crash at Roswell [2000; 2005 DVD]",
+            "url": "https://archive.org/download/UFO.Crash.at.Roswell.2000/Encounters%20with%20the%20Unexplained%20-%20s1e03%20-%20UFO%20Crash%20at%20Roswell%20%5B2000%3B%202005%20DVD%5D.ia.mp4",
+            "seconds": 2977,
+            "format": "h.264 IA",
+            "playable": true,
+            "sizeMB": 783
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Leaving Normal",
+          "airdate": "1999-10-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Missing",
+          "airdate": "1999-11-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "285 South",
+          "airdate": "1999-11-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "River Dog",
+          "airdate": "1999-11-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Blood Brother",
+          "airdate": "1999-11-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Heat Wave",
+          "airdate": "1999-12-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "The Balance",
+          "airdate": "1999-12-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Toy House",
+          "airdate": "2000-01-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Into the Woods",
+          "airdate": "2000-01-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "The Convention",
+          "airdate": "2000-02-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Blind Date",
+          "airdate": "2000-02-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Independence Day",
+          "airdate": "2000-02-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Sexual Healing",
+          "airdate": "2000-03-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Crazy",
+          "airdate": "2000-04-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Tess, Lies and Videotape",
+          "airdate": "2000-04-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Four Square",
+          "airdate": "2000-04-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Max to the Max",
+          "airdate": "2000-05-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "The White Room",
+          "airdate": "2000-05-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Destiny",
+          "airdate": "2000-05-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Skin and Bones",
+          "airdate": "2000-10-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Ask Not",
+          "airdate": "2000-10-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Surprise",
+          "airdate": "2000-10-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Summer of '47",
+          "airdate": "2000-10-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "The End of the World",
+          "airdate": "2000-10-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Harvest",
+          "airdate": "2000-11-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Wipeout!",
+          "airdate": "2000-11-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Meet the Dupes",
+          "airdate": "2000-11-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Max in the City",
+          "airdate": "2000-11-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "A Roswell Christmas Carol",
+          "airdate": "2000-12-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "To Serve and Protect",
+          "airdate": "2001-01-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "We Are Family",
+          "airdate": "2001-01-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Disturbing Behavior",
+          "airdate": "2001-02-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "How the Other Half Lives",
+          "airdate": "2001-02-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Viva Las Vegas",
+          "airdate": "2001-02-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Heart of Mine",
+          "airdate": "2001-04-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Cry Your Name",
+          "airdate": "2001-04-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "It's Too Late and It's Too Bad",
+          "airdate": "2001-04-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Baby, It's You",
+          "airdate": "2001-05-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Off the Menu",
+          "airdate": "2001-05-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "The Departure",
+          "airdate": "2001-05-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Busted",
+          "airdate": "2001-10-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Michael, The Guys and The Great Snapple Caper",
+          "airdate": "2001-10-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Significant Others",
+          "airdate": "2001-10-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Secrets and Lies",
+          "airdate": "2001-10-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Control",
+          "airdate": "2001-11-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "To Have and To Hold",
+          "airdate": "2001-11-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Interruptus",
+          "airdate": "2001-11-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Behind the Music",
+          "airdate": "2001-11-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Samuel Rising",
+          "airdate": "2001-12-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "A Tale of Two Parties",
+          "airdate": "2002-01-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "I Married an Alien",
+          "airdate": "2002-01-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Ch-Ch-Changes",
+          "airdate": "2002-02-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Panacea",
+          "airdate": "2002-02-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Chant Down Babylon",
+          "airdate": "2002-02-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Who Died and Made You King?",
+          "airdate": "2002-04-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Crash",
+          "airdate": "2002-04-30",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Crash\" (0.95)",
+            "item": "UFO.Crash.at.Roswell.2000",
+            "itemTitle": "Encounters with the Unexplained - s1e03 - UFO Crash at Roswell",
+            "file": "Encounters with the Unexplained - s1e03 - UFO Crash at Roswell [2000; 2005 DVD].ia.mp4",
+            "name": "Encounters with the Unexplained - s1e03 - UFO Crash at Roswell [2000; 2005 DVD]",
+            "url": "https://archive.org/download/UFO.Crash.at.Roswell.2000/Encounters%20with%20the%20Unexplained%20-%20s1e03%20-%20UFO%20Crash%20at%20Roswell%20%5B2000%3B%202005%20DVD%5D.ia.mp4",
+            "seconds": 2977,
+            "format": "h.264 IA",
+            "playable": true,
+            "sizeMB": 783
+          },
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Four Aliens and a Baby",
+          "airdate": "2002-05-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Graduation",
+          "airdate": "2002-05-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    }
+  ]
+}

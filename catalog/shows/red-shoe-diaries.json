@@ -1,0 +1,600 @@
+{
+  "show": "Red Shoe Diaries",
+  "slug": "red-shoe-diaries",
+  "type": "Late Night",
+  "network": "Showtime",
+  "matchedAt": "2026-10-13T07:46:17.837Z",
+  "tvmaze": {
+    "id": 15243,
+    "name": "Zalman King's Red Shoe Diaries",
+    "runtime": 30,
+    "premiered": "1992-06-20",
+    "network": "Paramount+ with Showtime"
+  },
+  "coverage": {
+    "total": 66,
+    "live": 1,
+    "review": 1,
+    "missing": 64,
+    "pct": 3
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Safe Sex",
+          "airdate": "1992-06-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Double Dare",
+          "airdate": "1992-07-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "You Have the Right to Remain Silent",
+          "airdate": "1992-08-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Talk to Me Baby",
+          "airdate": "1992-08-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Just Like That",
+          "airdate": "1993-04-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Another Woman's Lipstick",
+          "airdate": "1993-05-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Accidents Happen",
+          "airdate": "1993-05-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Auto Erotica",
+          "airdate": "1993-05-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Emily's Dance",
+          "airdate": "1993-06-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Bounty Hunter",
+          "airdate": "1993-06-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Jake's Story",
+          "airdate": "1993-07-10",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Jake's Story\" (0.95)",
+            "item": "red-shoe-diaries-jakes-story",
+            "itemTitle": "Red Shoe Diaries, S01E08 - Jake's Story (1992)",
+            "file": "Red.Shoe.Diaries.S01E12.Jakes.Story.HULU.WEBRip.AAC2.0.H.264-BTW.mp4",
+            "name": "Red.Shoe.Diaries.S01E12.Jakes.Story.HULU.WEBRip.AAC2.0.H.264-BTW",
+            "url": "https://archive.org/download/red-shoe-diaries-jakes-story/Red.Shoe.Diaries.S01E12.Jakes.Story.HULU.WEBRip.AAC2.0.H.264-BTW.mp4",
+            "seconds": 1853,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 183
+          },
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Weekend Pass",
+          "airdate": "1993-07-24",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "red-shoe-diaries-jakes-story",
+            "itemTitle": "Red Shoe Diaries, S01E08 - Jake's Story (1992)",
+            "file": "Red.Shoe.Diaries.S01E12.Jakes.Story.HULU.WEBRip.AAC2.0.H.264-BTW.mp4",
+            "name": "Red.Shoe.Diaries.S01E12.Jakes.Story.HULU.WEBRip.AAC2.0.H.264-BTW",
+            "url": "https://archive.org/download/red-shoe-diaries-jakes-story/Red.Shoe.Diaries.S01E12.Jakes.Story.HULU.WEBRip.AAC2.0.H.264-BTW.mp4",
+            "seconds": 1853,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 183
+          },
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Double or Nothing",
+          "airdate": "1993-11-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "How I Met My Husband",
+          "airdate": "1993-12-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Midnight Bells",
+          "airdate": "1993-12-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Night of Abandon",
+          "airdate": "1994-04-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Naked in the Moonlight",
+          "airdate": "1994-04-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Hotline",
+          "airdate": "1994-05-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Runway",
+          "airdate": "1994-05-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Kidnap",
+          "airdate": "1994-06-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Burning Up",
+          "airdate": "1994-07-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Borders of Salt",
+          "airdate": "1994-07-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "The Game",
+          "airdate": "1994-08-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Liar's Tale",
+          "airdate": "1995-01-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "In the Blink of an Eye",
+          "airdate": "1995-02-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Some Things Never Change",
+          "airdate": "1995-02-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "You Make Me Want to Wear Dresses",
+          "airdate": "1995-02-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Gina",
+          "airdate": "1995-02-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Alphabet Girl",
+          "airdate": "1995-03-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "The Psychiatrist",
+          "airdate": "1995-03-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Written Word",
+          "airdate": "1995-03-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Like Father Like Son",
+          "airdate": "1995-04-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Love at First Sight",
+          "airdate": "1995-04-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Girl on a Bike",
+          "airdate": "1995-04-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "The Cake",
+          "airdate": "1995-04-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Four on the Floor",
+          "airdate": "1995-05-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 4,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Mercy",
+          "airdate": "1996-02-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "The Art of Loneliness",
+          "airdate": "1996-02-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Divorce, Divorce",
+          "airdate": "1996-02-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Hard Labor",
+          "airdate": "1996-02-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Luscious Lola",
+          "airdate": "1996-03-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Slow Train",
+          "airdate": "1996-03-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Tears",
+          "airdate": "1996-03-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "The Last Motel",
+          "airdate": "1996-03-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Jump",
+          "airdate": "1996-04-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "The Forbidden Zone",
+          "airdate": "1996-04-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Billy Bar",
+          "airdate": "1996-06-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Juarez",
+          "airdate": "1996-06-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 5,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Caged Bird",
+          "airdate": "1997-03-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Cowboy, Cowboy",
+          "airdate": "1997-03-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "The Picnic",
+          "airdate": "1997-03-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "The Ex",
+          "airdate": "1997-03-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "The Boxer",
+          "airdate": "1997-03-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Swimming Naked",
+          "airdate": "1997-04-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Dime a Dance",
+          "airdate": "1997-04-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Temple of Flesh",
+          "airdate": "1997-04-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Laundrymat",
+          "airdate": "1997-04-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Banished",
+          "airdate": "1997-12-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "As She Wishes",
+          "airdate": "1998-01-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Weightless",
+          "airdate": "1998-01-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Farmer's Daughter",
+          "airdate": "1998-01-31",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Details",
+          "airdate": "1998-02-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Carried Away",
+          "airdate": "1998-02-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Jealousy",
+          "airdate": "1998-02-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Strip Poker",
+          "airdate": "1998-04-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "The Teacher",
+          "airdate": "1998-04-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    }
+  ]
+}

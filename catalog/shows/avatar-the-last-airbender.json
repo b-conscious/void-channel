@@ -1,0 +1,263 @@
+{
+  "show": "Avatar: The Last Airbender",
+  "slug": "avatar-the-last-airbender",
+  "type": "Animated",
+  "network": "Nickelodeon",
+  "matchedAt": "2026-10-13T07:46:15.655Z",
+  "tvmaze": {
+    "id": 38753,
+    "name": "Avatar: The Last Airbender",
+    "runtime": 59,
+    "premiered": "2024-02-22",
+    "network": "Netflix"
+  },
+  "coverage": {
+    "total": 15,
+    "live": 1,
+    "review": 7,
+    "missing": 7,
+    "pct": 53
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Aang",
+          "airdate": "2024-02-22",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "absolute episode number + title match",
+            "item": "avatar-the-last-airbender-tagalog-dubbed-s-01-ep-1-aang",
+            "itemTitle": "Avatar, The Last Airbender (2024) Tagalog Dubbed Episode 01",
+            "file": "Avatar- The Last Airbender -Tagalog Dubbed- S01 EP1 - Aang.mp4",
+            "name": "Avatar- The Last Airbender -Tagalog Dubbed- S01 EP1 - Aang",
+            "url": "https://archive.org/download/avatar-the-last-airbender-tagalog-dubbed-s-01-ep-1-aang/Avatar-%20The%20Last%20Airbender%20-Tagalog%20Dubbed-%20S01%20EP1%20-%20Aang.mp4",
+            "seconds": 3831,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 212
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 1 of 15 in \"Avatar:The Last Airbender\"",
+              "item": "avatar-the-last-airbender-netflix",
+              "itemTitle": "Avatar:The Last Airbender",
+              "file": "Avatar_The_Last_Airbender_1080P_S01_E01.mp4",
+              "name": "Avatar_The_Last_Airbender_1080P_S01_E01",
+              "url": "https://archive.org/download/avatar-the-last-airbender-netflix/Avatar_The_Last_Airbender_1080P_S01_E01.mp4",
+              "seconds": 3831,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 649
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "Warriors",
+          "airdate": "2024-02-22",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 2 of 15 in \"Avatar:The Last Airbender\"",
+            "item": "avatar-the-last-airbender-netflix",
+            "itemTitle": "Avatar:The Last Airbender",
+            "file": "Avatar_The_Last_Airbender_1080P_S01_E02.mp4",
+            "name": "Avatar_The_Last_Airbender_1080P_S01_E02",
+            "url": "https://archive.org/download/avatar-the-last-airbender-netflix/Avatar_The_Last_Airbender_1080P_S01_E02.mp4",
+            "seconds": 2925,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 496
+          },
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Omashu",
+          "airdate": "2024-02-22",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 3 of 15 in \"Avatar:The Last Airbender\"",
+            "item": "avatar-the-last-airbender-netflix",
+            "itemTitle": "Avatar:The Last Airbender",
+            "file": "Avatar_The_Last_Airbender_1080P_S01_E03.mp4",
+            "name": "Avatar_The_Last_Airbender_1080P_S01_E03",
+            "url": "https://archive.org/download/avatar-the-last-airbender-netflix/Avatar_The_Last_Airbender_1080P_S01_E03.mp4",
+            "seconds": 3159,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 557
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Into the Dark",
+          "airdate": "2024-02-22",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 4 of 15 in \"Avatar:The Last Airbender\"",
+            "item": "avatar-the-last-airbender-netflix",
+            "itemTitle": "Avatar:The Last Airbender",
+            "file": "Avatar_The_Last_Airbender_1080P_S01_E04.mp4",
+            "name": "Avatar_The_Last_Airbender_1080P_S01_E04",
+            "url": "https://archive.org/download/avatar-the-last-airbender-netflix/Avatar_The_Last_Airbender_1080P_S01_E04.mp4",
+            "seconds": 3339,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 411
+          },
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Spirited Away",
+          "airdate": "2024-02-22",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 5 of 15 in \"Avatar:The Last Airbender\"",
+            "item": "avatar-the-last-airbender-netflix",
+            "itemTitle": "Avatar:The Last Airbender",
+            "file": "Avatar_The_Last_Airbender_1080P_S01_E05.mp4",
+            "name": "Avatar_The_Last_Airbender_1080P_S01_E05",
+            "url": "https://archive.org/download/avatar-the-last-airbender-netflix/Avatar_The_Last_Airbender_1080P_S01_E05.mp4",
+            "seconds": 3101,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 463
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Masks",
+          "airdate": "2024-02-22",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 6 of 15 in \"Avatar:The Last Airbender\"",
+            "item": "avatar-the-last-airbender-netflix",
+            "itemTitle": "Avatar:The Last Airbender",
+            "file": "Avatar_The_Last_Airbender_1080P_S01_E06.mp4",
+            "name": "Avatar_The_Last_Airbender_1080P_S01_E06",
+            "url": "https://archive.org/download/avatar-the-last-airbender-netflix/Avatar_The_Last_Airbender_1080P_S01_E06.mp4",
+            "seconds": 3384,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 346
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "The North",
+          "airdate": "2024-02-22",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 7 of 15 in \"Avatar:The Last Airbender\"",
+            "item": "avatar-the-last-airbender-netflix",
+            "itemTitle": "Avatar:The Last Airbender",
+            "file": "Avatar_The_Last_Airbender_1080P_S01_E07.mp4",
+            "name": "Avatar_The_Last_Airbender_1080P_S01_E07",
+            "url": "https://archive.org/download/avatar-the-last-airbender-netflix/Avatar_The_Last_Airbender_1080P_S01_E07.mp4",
+            "seconds": 2828,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 281
+          },
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Legends",
+          "airdate": "2024-02-22",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 8 of 15 in \"Avatar:The Last Airbender\"",
+            "item": "avatar-the-last-airbender-netflix",
+            "itemTitle": "Avatar:The Last Airbender",
+            "file": "Avatar_The_Last_Airbender_1080P_S01_E08.mp4",
+            "name": "Avatar_The_Last_Airbender_1080P_S01_E08",
+            "url": "https://archive.org/download/avatar-the-last-airbender-netflix/Avatar_The_Last_Airbender_1080P_S01_E08.mp4",
+            "seconds": 3468,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 606
+          },
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Somewhere Safe",
+          "airdate": "2026-06-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "A Fight, Once Begun",
+          "airdate": "2026-06-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "City of Walls and Secrets",
+          "airdate": "2026-06-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "The Water Falls, the Stones Emerge",
+          "airdate": "2026-06-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Ten Thousand Things",
+          "airdate": "2026-06-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "The Parable of the Two Dragons",
+          "airdate": "2026-06-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Something Broken",
+          "airdate": "2026-06-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    }
+  ]
+}

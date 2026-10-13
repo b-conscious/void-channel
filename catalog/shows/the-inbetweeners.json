@@ -1,0 +1,364 @@
+{
+  "show": "The Inbetweeners",
+  "slug": "the-inbetweeners",
+  "type": "2000s and Later Sitcoms",
+  "network": "E4",
+  "matchedAt": "2026-10-13T07:46:15.367Z",
+  "tvmaze": {
+    "id": 953,
+    "name": "The Inbetweeners",
+    "runtime": 30,
+    "premiered": "2008-05-01",
+    "network": "E4"
+  },
+  "coverage": {
+    "total": 18,
+    "live": 6,
+    "review": 0,
+    "missing": 12,
+    "pct": 33
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "First Day",
+          "airdate": "2008-05-01",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "the-inbetweeners-2008-s-01-e-01-first-day-576p-dvd-x-265-panda",
+            "itemTitle": "The Inbetweeners ( 2008) S 01 E 01 First Day ( 576p DVD X 265 Panda)",
+            "file": "The Inbetweeners (2008) - S01E01 - First Day (576p DVD x265 Panda).mp4",
+            "name": "The Inbetweeners (2008) - S01E01 - First Day (576p DVD x265 Panda)",
+            "url": "https://archive.org/download/the-inbetweeners-2008-s-01-e-01-first-day-576p-dvd-x-265-panda/The%20Inbetweeners%20(2008)%20-%20S01E01%20-%20First%20Day%20(576p%20DVD%20x265%20Panda).mp4",
+            "seconds": 1314,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 129
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "the-inbetweeners-series1",
+              "itemTitle": "The Inbetweeners - Series 1 (2008)",
+              "file": "The Inbetweeners 1x01 First Day.mp4",
+              "name": "The Inbetweeners 1x01 First Day",
+              "url": "https://archive.org/download/the-inbetweeners-series1/The%20Inbetweeners%201x01%20First%20Day.mp4",
+              "seconds": 1307,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 124
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "the-inbetweeners-us-incomplete",
+              "itemTitle": "The Inbetweeners US (Incomplete)",
+              "file": "The.Inbetweeners.US.S01E01.HDTV.x264-COMPULSiON.ia.mp4",
+              "name": "The.Inbetweeners.US.S01E01.HDTV",
+              "url": "https://archive.org/download/the-inbetweeners-us-incomplete/The.Inbetweeners.US.S01E01.HDTV.x264-COMPULSiON.ia.mp4",
+              "seconds": 1341,
+              "format": "h.264 IA",
+              "playable": true,
+              "sizeMB": 194
+            },
+            {
+              "conf": 0.9,
+              "why": "S/E in filename",
+              "item": "the-inbetweeners-us-incomplete",
+              "itemTitle": "The Inbetweeners US (Incomplete)",
+              "file": "The.Inbetweeners.US.S01E01.HDTV.x264-COMPULSiON.mp4",
+              "name": "The.Inbetweeners.US.S01E01.HDTV.x264-COMPULSiON",
+              "url": "https://archive.org/download/the-inbetweeners-us-incomplete/The.Inbetweeners.US.S01E01.HDTV.x264-COMPULSiON.mp4",
+              "seconds": 1341,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 194
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "Bunk Off",
+          "airdate": "2008-05-01",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "the-inbetweeners-series1",
+            "itemTitle": "The Inbetweeners - Series 1 (2008)",
+            "file": "The Inbetweeners 1x02 Bunk Off.mp4",
+            "name": "The Inbetweeners 1x02 Bunk Off",
+            "url": "https://archive.org/download/the-inbetweeners-series1/The%20Inbetweeners%201x02%20Bunk%20Off.mp4",
+            "seconds": 1438,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 143
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "title ~ \"Bunk Off\" (0.95)",
+              "item": "episode-two-bunk-off",
+              "itemTitle": "The Inbetweeners - Season 1",
+              "file": "Episode Two - Bunk Off.mp4",
+              "name": "Episode Two - Bunk Off",
+              "url": "https://archive.org/download/episode-two-bunk-off/Episode%20Two%20-%20Bunk%20Off.mp4",
+              "seconds": 1438,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 145
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "name": "Thorpe Park",
+          "airdate": "2008-05-08",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "the-inbetweeners-series1",
+            "itemTitle": "The Inbetweeners - Series 1 (2008)",
+            "file": "The Inbetweeners 1x03 Thorpe Park.mp4",
+            "name": "The Inbetweeners 1x03 Thorpe Park",
+            "url": "https://archive.org/download/the-inbetweeners-series1/The%20Inbetweeners%201x03%20Thorpe%20Park.mp4",
+            "seconds": 1344,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 131
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "title ~ \"Thorpe Park\" (0.95)",
+              "item": "episode-two-bunk-off",
+              "itemTitle": "The Inbetweeners - Season 1",
+              "file": "Episode Three - Thorpe Park.mp4",
+              "name": "Episode Three - Thorpe Park",
+              "url": "https://archive.org/download/episode-two-bunk-off/Episode%20Three%20-%20Thorpe%20Park.mp4",
+              "seconds": 1344,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 135
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "name": "Girlfriend",
+          "airdate": "2008-05-15",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "the-inbetweeners-series1",
+            "itemTitle": "The Inbetweeners - Series 1 (2008)",
+            "file": "The Inbetweeners 1x04 Will Gets A Girlfriend.mp4",
+            "name": "The Inbetweeners 1x04 Will Gets A Girlfriend",
+            "url": "https://archive.org/download/the-inbetweeners-series1/The%20Inbetweeners%201x04%20Will%20Gets%20A%20Girlfriend.mp4",
+            "seconds": 1420,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 143
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "title ~ \"Girlfriend\" (0.95)",
+              "item": "episode-two-bunk-off",
+              "itemTitle": "The Inbetweeners - Season 1",
+              "file": "Episode Four - Girlfriend.mp4",
+              "name": "Episode Four - Girlfriend",
+              "url": "https://archive.org/download/episode-two-bunk-off/Episode%20Four%20-%20Girlfriend.mp4",
+              "seconds": 1420,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 141
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "name": "Caravan Club",
+          "airdate": "2008-05-22",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "the-inbetweeners-series1",
+            "itemTitle": "The Inbetweeners - Series 1 (2008)",
+            "file": "The Inbetweeners 1x05 Caravan Club.mp4",
+            "name": "The Inbetweeners 1x05 Caravan Club",
+            "url": "https://archive.org/download/the-inbetweeners-series1/The%20Inbetweeners%201x05%20Caravan%20Club.mp4",
+            "seconds": 1352,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 138
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "title ~ \"Caravan Club\" (0.95)",
+              "item": "episode-two-bunk-off",
+              "itemTitle": "The Inbetweeners - Season 1",
+              "file": "Episode Five - Caravan Club.mp4",
+              "name": "Episode Five - Caravan Club",
+              "url": "https://archive.org/download/episode-two-bunk-off/Episode%20Five%20-%20Caravan%20Club.mp4",
+              "seconds": 1352,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 137
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "name": "Xmas Party",
+          "airdate": "2008-05-29",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "the-inbetweeners-series1",
+            "itemTitle": "The Inbetweeners - Series 1 (2008)",
+            "file": "The Inbetweeners 1x06 Xmas Party.mp4",
+            "name": "The Inbetweeners 1x06 Xmas Party",
+            "url": "https://archive.org/download/the-inbetweeners-series1/The%20Inbetweeners%201x06%20Xmas%20Party.mp4",
+            "seconds": 1421,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 145
+          },
+          "alternates": [
+            {
+              "conf": 0.75,
+              "why": "title ~ \"Xmas Party\" (0.95)",
+              "item": "episode-two-bunk-off",
+              "itemTitle": "The Inbetweeners - Season 1",
+              "file": "Episode Six - Xmas Party.mp4",
+              "name": "Episode Six - Xmas Party",
+              "url": "https://archive.org/download/episode-two-bunk-off/Episode%20Six%20-%20Xmas%20Party.mp4",
+              "seconds": 1421,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 140
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "The Field Trip",
+          "airdate": "2009-04-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Work Experience",
+          "airdate": "2009-04-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Will's Birthday",
+          "airdate": "2009-04-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "A Night Out in London",
+          "airdate": "2009-04-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "The Duke of Edinburgh Awards",
+          "airdate": "2009-04-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Exam Time",
+          "airdate": "2009-05-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "The Fashion Show",
+          "airdate": "2010-09-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "The Gig and the Girlfriend",
+          "airdate": "2010-09-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Will's Dilemma",
+          "airdate": "2010-09-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "The Trip to Warwick",
+          "airdate": "2010-10-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Home Alone",
+          "airdate": "2010-10-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "The Camping Trip",
+          "airdate": "2010-10-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    }
+  ]
+}

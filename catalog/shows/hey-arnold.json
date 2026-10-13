@@ -1,0 +1,1200 @@
+{
+  "show": "Hey Arnold!",
+  "slug": "hey-arnold",
+  "type": "Animated",
+  "network": "Nickelodeon",
+  "matchedAt": "2026-10-13T07:46:15.463Z",
+  "tvmaze": {
+    "id": 6482,
+    "name": "Hey Arnold!",
+    "runtime": 30,
+    "premiered": "1996-10-07",
+    "network": "Nickelodeon"
+  },
+  "coverage": {
+    "total": 100,
+    "live": 19,
+    "review": 1,
+    "missing": 80,
+    "pct": 20
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Downtown as Fruits / Eugene's Bike",
+          "airdate": "1996-10-07",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "hey-arnold-1996",
+            "itemTitle": "Hey Arnold! Complete Series 1080p",
+            "file": "Season 1/Hey Arnold! S01E01 - Downtown As Fruits - Eugene's Bike.mp4",
+            "name": "Season 1/Hey Arnold! S01E01 - Downtown As Fruits - Eugene's Bike",
+            "url": "https://archive.org/download/hey-arnold-1996/Season%201%2FHey%20Arnold!%20S01E01%20-%20Downtown%20As%20Fruits%20-%20Eugene's%20Bike.mp4",
+            "seconds": 1432,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 138
+          },
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "The Little Pink Book / Field Trip",
+          "airdate": "1996-10-09",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "hey-arnold-1996",
+            "itemTitle": "Hey Arnold! Complete Series 1080p",
+            "file": "Season 1/Hey Arnold! S01E02 - The Little Pink Book - Field Trip.mp4",
+            "name": "Season 1/Hey Arnold! S01E02 - The Little Pink Book - Field Trip",
+            "url": "https://archive.org/download/hey-arnold-1996/Season%201%2FHey%20Arnold!%20S01E02%20-%20The%20Little%20Pink%20Book%20-%20Field%20Trip.mp4",
+            "seconds": 1405,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 136
+          },
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Arnold's Hat / Stoop Kid",
+          "airdate": "1996-10-14",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "hey-arnold-1996",
+            "itemTitle": "Hey Arnold! Complete Series 1080p",
+            "file": "Season 1/Hey Arnold! S01E03 - Arnold's Hat - The Stoop Kid.mp4",
+            "name": "Season 1/Hey Arnold! S01E03 - Arnold's Hat - The Stoop Kid",
+            "url": "https://archive.org/download/hey-arnold-1996/Season%201%2FHey%20Arnold!%20S01E03%20-%20Arnold's%20Hat%20-%20The%20Stoop%20Kid.mp4",
+            "seconds": 1415,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 137
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Helga's Makeover / The Old Building",
+          "airdate": "1996-10-16",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "hey-arnold-1996",
+            "itemTitle": "Hey Arnold! Complete Series 1080p",
+            "file": "Season 1/Hey Arnold! S01E04 - Helga's Makeover - The Old Building.mp4",
+            "name": "Season 1/Hey Arnold! S01E04 - Helga's Makeover - The Old Building",
+            "url": "https://archive.org/download/hey-arnold-1996/Season%201%2FHey%20Arnold!%20S01E04%20-%20Helga's%20Makeover%20-%20The%20Old%20Building.mp4",
+            "seconds": 1449,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 140
+          },
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "6th Grade Girls / The Baseball",
+          "airdate": "1996-11-04",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "hey-arnold-1996",
+            "itemTitle": "Hey Arnold! Complete Series 1080p",
+            "file": "Season 1/Hey Arnold! S01E05 - Sixth Grade Girls - The Baseball.mp4",
+            "name": "Season 1/Hey Arnold! S01E05 - Sixth Grade Girls - The Baseball",
+            "url": "https://archive.org/download/hey-arnold-1996/Season%201%2FHey%20Arnold!%20S01E05%20-%20Sixth%20Grade%20Girls%20-%20The%20Baseball.mp4",
+            "seconds": 1415,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 136
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Heat / Snow",
+          "airdate": "1996-11-11",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "hey-arnold-1996",
+            "itemTitle": "Hey Arnold! Complete Series 1080p",
+            "file": "Season 1/Hey Arnold! S01E06 - Heat - Snow.mp4",
+            "name": "Season 1/Hey Arnold! S01E06 - Heat - Snow",
+            "url": "https://archive.org/download/hey-arnold-1996/Season%201%2FHey%20Arnold!%20S01E06%20-%20Heat%20-%20Snow.mp4",
+            "seconds": 1415,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 136
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Operation Ruthless / The Vacant Lot",
+          "airdate": "1996-11-18",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "hey-arnold-1996",
+            "itemTitle": "Hey Arnold! Complete Series 1080p",
+            "file": "Season 1/Hey Arnold! S01E07 - Operation Ruthless - The Vacant Lot.mp4",
+            "name": "Season 1/Hey Arnold! S01E07 - Operation Ruthless - The Vacant Lot",
+            "url": "https://archive.org/download/hey-arnold-1996/Season%201%2FHey%20Arnold!%20S01E07%20-%20Operation%20Ruthless%20-%20The%20Vacant%20Lot.mp4",
+            "seconds": 1415,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 136
+          },
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "The List / Haunted Train",
+          "airdate": "1996-11-25",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "hey-arnold-1996",
+            "itemTitle": "Hey Arnold! Complete Series 1080p",
+            "file": "Season 1/Hey Arnold! S01E08 - The List - The Haunted Train.mp4",
+            "name": "Season 1/Hey Arnold! S01E08 - The List - The Haunted Train",
+            "url": "https://archive.org/download/hey-arnold-1996/Season%201%2FHey%20Arnold!%20S01E08%20-%20The%20List%20-%20The%20Haunted%20Train.mp4",
+            "seconds": 1417,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 137
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Mugged / Roughin' It",
+          "airdate": "1996-12-02",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "hey-arnold-1996",
+            "itemTitle": "Hey Arnold! Complete Series 1080p",
+            "file": "Season 1/Hey Arnold! S01E09 - Mugged - Roughin' It.mp4",
+            "name": "Season 1/Hey Arnold! S01E09 - Mugged - Roughin' It",
+            "url": "https://archive.org/download/hey-arnold-1996/Season%201%2FHey%20Arnold!%20S01E09%20-%20Mugged%20-%20Roughin'%20It.mp4",
+            "seconds": 1416,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 137
+          },
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Door #16 / Arnold as Cupid",
+          "airdate": "1996-12-09",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "hey-arnold-1996",
+            "itemTitle": "Hey Arnold! Complete Series 1080p",
+            "file": "Season 1/Hey Arnold! S01E10 - Door 16 - Arnold As Cupid.mp4",
+            "name": "Season 1/Hey Arnold! S01E10 - Door 16 - Arnold As Cupid",
+            "url": "https://archive.org/download/hey-arnold-1996/Season%201%2FHey%20Arnold!%20S01E10%20-%20Door%2016%20-%20Arnold%20As%20Cupid.mp4",
+            "seconds": 1416,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 137
+          },
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Arnold's Christmas",
+          "airdate": "1996-12-14",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "hey-arnold-1996",
+            "itemTitle": "Hey Arnold! Complete Series 1080p",
+            "file": "Season 1/Hey Arnold! S01E11 - Bench Warmer - Cool Jerk.mp4",
+            "name": "Season 1/Hey Arnold! S01E11 - Bench Warmer - Cool Jerk",
+            "url": "https://archive.org/download/hey-arnold-1996/Season%201%2FHey%20Arnold!%20S01E11%20-%20Bench%20Warmer%20-%20Cool%20Jerk.mp4",
+            "seconds": 1416,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 136
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Arnold's Christmas\" (1.00)",
+              "item": "hey-arnold-1996",
+              "itemTitle": "Hey Arnold! Complete Series 1080p",
+              "file": "Season 1/Hey Arnold! S01E20 - Arnold's Christmas.mp4",
+              "name": "Season 1/Hey Arnold! S01E20 - Arnold's Christmas",
+              "url": "https://archive.org/download/hey-arnold-1996/Season%201%2FHey%20Arnold!%20S01E20%20-%20Arnold's%20Christmas.mp4",
+              "seconds": 1445,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 140
+            }
+          ]
+        },
+        {
+          "number": 12,
+          "name": "Benchwarmer / Cool Jerk",
+          "airdate": "1996-12-16",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "hey-arnold-1996",
+            "itemTitle": "Hey Arnold! Complete Series 1080p",
+            "file": "Season 1/Hey Arnold! S01E12 - Das Subway - Wheezin' Ed.mp4",
+            "name": "Season 1/Hey Arnold! S01E12 - Das Subway - Wheezin' Ed",
+            "url": "https://archive.org/download/hey-arnold-1996/Season%201%2FHey%20Arnold!%20S01E12%20-%20Das%20Subway%20-%20Wheezin'%20Ed.mp4",
+            "seconds": 1416,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 136
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Benchwarmer / Cool Jerk\" (1.00)",
+              "item": "hey-arnold-1996",
+              "itemTitle": "Hey Arnold! Complete Series 1080p",
+              "file": "Season 1/Hey Arnold! S01E11 - Bench Warmer - Cool Jerk.mp4",
+              "name": "Season 1/Hey Arnold! S01E11 - Bench Warmer - Cool Jerk",
+              "url": "https://archive.org/download/hey-arnold-1996/Season%201%2FHey%20Arnold!%20S01E11%20-%20Bench%20Warmer%20-%20Cool%20Jerk.mp4",
+              "seconds": 1416,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 136
+            }
+          ]
+        },
+        {
+          "number": 13,
+          "name": "Das Subway / Wheezin' Ed",
+          "airdate": "1996-12-23",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "hey-arnold-1996",
+            "itemTitle": "Hey Arnold! Complete Series 1080p",
+            "file": "Season 1/Hey Arnold! S01E13 - Tutoring Torvald - Gerald Comes Over.mp4",
+            "name": "Season 1/Hey Arnold! S01E13 - Tutoring Torvald - Gerald Comes Over",
+            "url": "https://archive.org/download/hey-arnold-1996/Season%201%2FHey%20Arnold!%20S01E13%20-%20Tutoring%20Torvald%20-%20Gerald%20Comes%20Over.mp4",
+            "seconds": 1416,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 136
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Das Subway / Wheezin' Ed\" (1.00)",
+              "item": "hey-arnold-1996",
+              "itemTitle": "Hey Arnold! Complete Series 1080p",
+              "file": "Season 1/Hey Arnold! S01E12 - Das Subway - Wheezin' Ed.mp4",
+              "name": "Season 1/Hey Arnold! S01E12 - Das Subway - Wheezin' Ed",
+              "url": "https://archive.org/download/hey-arnold-1996/Season%201%2FHey%20Arnold!%20S01E12%20-%20Das%20Subway%20-%20Wheezin'%20Ed.mp4",
+              "seconds": 1416,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 136
+            }
+          ]
+        },
+        {
+          "number": 14,
+          "name": "Tutoring Torvald / Gerald Comes Over",
+          "airdate": "1996-12-30",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "hey-arnold-1996",
+            "itemTitle": "Hey Arnold! Complete Series 1080p",
+            "file": "Season 1/Hey Arnold! S01E14 - The Spelling Bee - Pigeon Man.mp4",
+            "name": "Season 1/Hey Arnold! S01E14 - The Spelling Bee - Pigeon Man",
+            "url": "https://archive.org/download/hey-arnold-1996/Season%201%2FHey%20Arnold!%20S01E14%20-%20The%20Spelling%20Bee%20-%20Pigeon%20Man.mp4",
+            "seconds": 1415,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 136
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Tutoring Torvald / Gerald Comes Over\" (1.00)",
+              "item": "hey-arnold-1996",
+              "itemTitle": "Hey Arnold! Complete Series 1080p",
+              "file": "Season 1/Hey Arnold! S01E13 - Tutoring Torvald - Gerald Comes Over.mp4",
+              "name": "Season 1/Hey Arnold! S01E13 - Tutoring Torvald - Gerald Comes Over",
+              "url": "https://archive.org/download/hey-arnold-1996/Season%201%2FHey%20Arnold!%20S01E13%20-%20Tutoring%20Torvald%20-%20Gerald%20Comes%20Over.mp4",
+              "seconds": 1416,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 136
+            }
+          ]
+        },
+        {
+          "number": 15,
+          "name": "Spelling Bee / Pigeon Man",
+          "airdate": "1997-01-06",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "hey-arnold-1996",
+            "itemTitle": "Hey Arnold! Complete Series 1080p",
+            "file": "Season 1/Hey Arnold! S01E15 - Olga Comes Home - Salley's Comet.mp4",
+            "name": "Season 1/Hey Arnold! S01E15 - Olga Comes Home - Salley's Comet",
+            "url": "https://archive.org/download/hey-arnold-1996/Season%201%2FHey%20Arnold!%20S01E15%20-%20Olga%20Comes%20Home%20-%20Salley's%20Comet.mp4",
+            "seconds": 1416,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 137
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Spelling Bee / Pigeon Man\" (0.95)",
+              "item": "hey-arnold-1996",
+              "itemTitle": "Hey Arnold! Complete Series 1080p",
+              "file": "Season 1/Hey Arnold! S01E14 - The Spelling Bee - Pigeon Man.mp4",
+              "name": "Season 1/Hey Arnold! S01E14 - The Spelling Bee - Pigeon Man",
+              "url": "https://archive.org/download/hey-arnold-1996/Season%201%2FHey%20Arnold!%20S01E14%20-%20The%20Spelling%20Bee%20-%20Pigeon%20Man.mp4",
+              "seconds": 1415,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 136
+            }
+          ]
+        },
+        {
+          "number": 16,
+          "name": "Olga Comes Home / Sally's Comet",
+          "airdate": "1997-01-13",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "hey-arnold-1996",
+            "itemTitle": "Hey Arnold! Complete Series 1080p",
+            "file": "Season 1/Hey Arnold! S01E16 - Abner Comes Home - The Sewer King.mp4",
+            "name": "Season 1/Hey Arnold! S01E16 - Abner Comes Home - The Sewer King",
+            "url": "https://archive.org/download/hey-arnold-1996/Season%201%2FHey%20Arnold!%20S01E16%20-%20Abner%20Comes%20Home%20-%20The%20Sewer%20King.mp4",
+            "seconds": 1415,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 136
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Olga Comes Home / Sally's Comet\" (0.91)",
+              "item": "hey-arnold-1996",
+              "itemTitle": "Hey Arnold! Complete Series 1080p",
+              "file": "Season 1/Hey Arnold! S01E15 - Olga Comes Home - Salley's Comet.mp4",
+              "name": "Season 1/Hey Arnold! S01E15 - Olga Comes Home - Salley's Comet",
+              "url": "https://archive.org/download/hey-arnold-1996/Season%201%2FHey%20Arnold!%20S01E15%20-%20Olga%20Comes%20Home%20-%20Salley's%20Comet.mp4",
+              "seconds": 1416,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 137
+            }
+          ]
+        },
+        {
+          "number": 17,
+          "name": "Abner Come Home / The Sewer King",
+          "airdate": "1997-01-20",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "hey-arnold-1996",
+            "itemTitle": "Hey Arnold! Complete Series 1080p",
+            "file": "Season 1/Hey Arnold! S01E17 - False Alarm - World Records.mp4",
+            "name": "Season 1/Hey Arnold! S01E17 - False Alarm - World Records",
+            "url": "https://archive.org/download/hey-arnold-1996/Season%201%2FHey%20Arnold!%20S01E17%20-%20False%20Alarm%20-%20World%20Records.mp4",
+            "seconds": 1415,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 137
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Abner Come Home / The Sewer King\" (0.95)",
+              "item": "hey-arnold-1996",
+              "itemTitle": "Hey Arnold! Complete Series 1080p",
+              "file": "Season 1/Hey Arnold! S01E16 - Abner Comes Home - The Sewer King.mp4",
+              "name": "Season 1/Hey Arnold! S01E16 - Abner Comes Home - The Sewer King",
+              "url": "https://archive.org/download/hey-arnold-1996/Season%201%2FHey%20Arnold!%20S01E16%20-%20Abner%20Comes%20Home%20-%20The%20Sewer%20King.mp4",
+              "seconds": 1415,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 136
+            }
+          ]
+        },
+        {
+          "number": 18,
+          "name": "False Alarm / World Records",
+          "airdate": "1997-01-27",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "hey-arnold-1996",
+            "itemTitle": "Hey Arnold! Complete Series 1080p",
+            "file": "Season 1/Hey Arnold! S01E18 - Magic Show - Twenty Four Hours To Live.mp4",
+            "name": "Season 1/Hey Arnold! S01E18 - Magic Show - Twenty Four Hours To Live",
+            "url": "https://archive.org/download/hey-arnold-1996/Season%201%2FHey%20Arnold!%20S01E18%20-%20Magic%20Show%20-%20Twenty%20Four%20Hours%20To%20Live.mp4",
+            "seconds": 1416,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 136
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"False Alarm / World Records\" (1.00)",
+              "item": "hey-arnold-1996",
+              "itemTitle": "Hey Arnold! Complete Series 1080p",
+              "file": "Season 1/Hey Arnold! S01E17 - False Alarm - World Records.mp4",
+              "name": "Season 1/Hey Arnold! S01E17 - False Alarm - World Records",
+              "url": "https://archive.org/download/hey-arnold-1996/Season%201%2FHey%20Arnold!%20S01E17%20-%20False%20Alarm%20-%20World%20Records.mp4",
+              "seconds": 1415,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 137
+            }
+          ]
+        },
+        {
+          "number": 19,
+          "name": "Magic Show / 24 Hours to Live",
+          "airdate": "1997-02-03",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.6,
+            "why": "title ~ \"Magic Show / 24 Hours to Live\" (0.76)",
+            "item": "hey-arnold-1996",
+            "itemTitle": "Hey Arnold! Complete Series 1080p",
+            "file": "Season 1/Hey Arnold! S01E18 - Magic Show - Twenty Four Hours To Live.mp4",
+            "name": "Season 1/Hey Arnold! S01E18 - Magic Show - Twenty Four Hours To Live",
+            "url": "https://archive.org/download/hey-arnold-1996/Season%201%2FHey%20Arnold!%20S01E18%20-%20Magic%20Show%20-%20Twenty%20Four%20Hours%20To%20Live.mp4",
+            "seconds": 1416,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 136
+          },
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Arnold's Valentine",
+          "airdate": "1997-02-10",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "hey-arnold-1996",
+            "itemTitle": "Hey Arnold! Complete Series 1080p",
+            "file": "Season 1/Hey Arnold! S01E20 - Arnold's Christmas.mp4",
+            "name": "Season 1/Hey Arnold! S01E20 - Arnold's Christmas",
+            "url": "https://archive.org/download/hey-arnold-1996/Season%201%2FHey%20Arnold!%20S01E20%20-%20Arnold's%20Christmas.mp4",
+            "seconds": 1445,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 140
+          },
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Save The Tree / New Teacher",
+          "airdate": "1997-09-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Helga's Love Potion / Gerald's Secret",
+          "airdate": "1997-09-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "The Big Scoop / Harold's Kitty",
+          "airdate": "1997-10-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Longest Monday / Eugene's Pet",
+          "airdate": "1996-10-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Monkey Business / Big Caesar",
+          "airdate": "1997-10-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Ransom / Ms. Perfect",
+          "airdate": "1997-10-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Arnold Saves Sid / Hookey",
+          "airdate": "1997-11-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Freeze Frame / Phoebe Cheats",
+          "airdate": "1997-11-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Mud Bowl / Gerald Moves Out",
+          "airdate": "1997-11-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "The High Life / Best Friends",
+          "airdate": "1997-11-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Arnold's Halloween",
+          "airdate": "1997-10-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Steely Phil / Quantity Time",
+          "airdate": "1997-11-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Eating Contest / Rhonda's Glasses",
+          "airdate": "1997-12-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Helga's Boyfriend / Crush on Teacher",
+          "airdate": "1997-12-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Hall Monitor / Harold's Bar Mitzvah",
+          "airdate": "1997-12-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Coach Wittenberg / Four-Eyed Jack",
+          "airdate": "1997-12-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Eugene Goes Bad / What's Opera, Arnold?",
+          "airdate": "1998-01-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Tour de Pond / Teacher's Strike",
+          "airdate": "1998-01-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Runaway Float / Partners",
+          "airdate": "1998-01-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Helga Blabs It All / Harold the Butcher",
+          "airdate": "1998-08-31",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Dangerous Lumber / Mr. Hyunh Goes Country",
+          "airdate": "1998-09-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Casa Paradiso / Gerald's Tonsils",
+          "airdate": "1998-09-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Arnold's Room / Helga vs. Big Patty",
+          "airdate": "1998-09-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Stinky Goes Hollywood / Olga Gets Engaged",
+          "airdate": "1998-09-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Curly Snaps / Pre-Teen Scream",
+          "airdate": "1998-09-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Grandpa's Birthday / Road Trip",
+          "airdate": "1998-09-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Sid's Revenge / Roller Coaster",
+          "airdate": "1998-10-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "The Aptitude Test / Oskar Gets a Job",
+          "airdate": "1998-10-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Arnold Betrays Iggy / Helga and the Nanny",
+          "airdate": "1998-10-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Career Day / Hey Harold!",
+          "airdate": "1998-10-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Best Man / Cool Party",
+          "airdate": "1998-11-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Arnold & Lila / Grand Prix",
+          "airdate": "1998-11-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Arnold's Thanksgiving",
+          "airdate": "1998-11-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Helga's Show / The Flood",
+          "airdate": "1998-11-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Phoebe Takes the Fall / The Pig War",
+          "airdate": "1998-12-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Part-Time Friends / Bio Square",
+          "airdate": "1998-12-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Crabby Author / Rich Kid",
+          "airdate": "1998-12-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Girl Trouble / School Dance",
+          "airdate": "1999-01-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "School Play",
+          "airdate": "1999-03-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 4,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Full Moon / Student Teacher",
+          "airdate": "1999-03-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Big Gino / Jamie O. In Love",
+          "airdate": "1999-03-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Eugene's Birthday / Stinky's Pumpkin",
+          "airdate": "1999-03-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "The Beeper Queen / Oskar Can't Read?",
+          "airdate": "1999-03-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Dinner for Four / Phoebe Skips",
+          "airdate": "1999-03-31",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Helga's Parrot / Chocolate Turtles",
+          "airdate": "1999-04-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Love and Cheese / Weighing Harold",
+          "airdate": "1999-04-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Back to School / Egg Story",
+          "airdate": "1999-09-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "It Girl / Deconstructing Arnold",
+          "airdate": "1999-09-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Grudge Match / Polishing Rhonda",
+          "airdate": "1999-09-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Weird Cousin / Baby Oskar",
+          "airdate": "1999-10-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Grandpa's Sister / Synchronized Swimming",
+          "airdate": "1999-10-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Helga Sleepwalks / Fighting Families",
+          "airdate": "1999-10-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Headless Cabbie / Friday the 13th",
+          "airdate": "1999-10-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Veteran's Day",
+          "airdate": "1999-11-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Helga on the Couch",
+          "airdate": "1999-12-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Dino Checks Out",
+          "airdate": "1999-12-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 5,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Monkeyman! / Buses, Bikes and Subways",
+          "airdate": "2000-03-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Helga's Masquerade / Mr. Green Runs",
+          "airdate": "2000-03-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Sid the Vampire Slayer / Big Sis",
+          "airdate": "2000-03-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Bag of Money / Principal Simmons",
+          "airdate": "2000-04-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "New Bully on the Block / Phoebe Breaks a Leg",
+          "airdate": "2000-04-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Parents Day",
+          "airdate": "2000-04-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Helga's Locket / Sid and Germs",
+          "airdate": "2000-04-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Suspended / Ernie in Love",
+          "airdate": "2000-04-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Summer Love (a.k.a. Beach Story)",
+          "airdate": "2000-05-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Stuck in a Tree / Rhonda Goes Broke",
+          "airdate": "2001-01-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Beaned / Old Iron Man",
+          "airdate": "2001-01-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Arnold Visits Arnie / Chocolate Boy",
+          "airdate": "2001-01-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Harold vs. Patty / Rich Guy",
+          "airdate": "2002-02-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "April Fool's Day",
+          "airdate": "2002-04-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Gerald's Game / Fishing Trip",
+          "airdate": "2002-04-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Married",
+          "airdate": "2002-05-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "On The Lam / Family Man",
+          "airdate": "2002-06-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "The Racing Mule / Curly's Girl",
+          "airdate": "2002-10-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "The Journal (1)",
+          "airdate": "2002-11-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "The Journal (2)",
+          "airdate": "2002-11-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Timberly Loves Arnold / Eugene, Eugene!",
+          "airdate": "2003-01-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Ghost Bride / Gerald v.s. Jamie O.",
+          "airdate": "2003-11-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "A Day in the Life of a Classroom / Big Bob's Crisis",
+          "airdate": "2003-11-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "Phoebe's Little Problem / Grandpa's Packard",
+          "airdate": "2004-06-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    }
+  ]
+}

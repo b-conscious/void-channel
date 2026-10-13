@@ -1,0 +1,1206 @@
+{
+  "show": "The Parkers",
+  "slug": "the-parkers",
+  "type": "90s Sitcoms",
+  "network": "UPN",
+  "matchedAt": "2026-10-13T07:46:14.537Z",
+  "tvmaze": {
+    "id": 12342,
+    "name": "The Parkers",
+    "runtime": 30,
+    "premiered": "1999-08-30",
+    "network": "UPN"
+  },
+  "coverage": {
+    "total": 110,
+    "live": 0,
+    "review": 22,
+    "missing": 88,
+    "pct": 20
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Grape Nuts",
+          "airdate": "1999-08-30",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.7,
+            "why": "absolute episode number",
+            "item": "parkers-puzzle-28",
+            "itemTitle": "Parker’s Puzzle Episodes",
+            "file": "Parker’s Puzzle Episode 1.mp4",
+            "name": "Parker’s Puzzle Episode 1",
+            "url": "https://archive.org/download/parkers-puzzle-28/Parker%E2%80%99s%20Puzzle%20Episode%201.mp4",
+            "seconds": 1814,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 177
+          },
+          "alternates": [
+            {
+              "conf": 0.55,
+              "why": "sequence guess: file 1 of 28 in \"Parker’s Puzzle Episodes\"",
+              "item": "parkers-puzzle-28",
+              "itemTitle": "Parker’s Puzzle Episodes",
+              "file": "Parker’s Puzzle (1).mp4",
+              "name": "Parker’s Puzzle (1)",
+              "url": "https://archive.org/download/parkers-puzzle-28/Parker%E2%80%99s%20Puzzle%20(1).mp4",
+              "seconds": 1917,
+              "format": "h.264",
+              "playable": true,
+              "sizeMB": 4333
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "Scammed Straight",
+          "airdate": "1999-09-06",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 2 of 28 in \"Parker’s Puzzle Episodes\"",
+            "item": "parkers-puzzle-28",
+            "itemTitle": "Parker’s Puzzle Episodes",
+            "file": "Parker’s Puzzle (2).mp4",
+            "name": "Parker’s Puzzle (2)",
+            "url": "https://archive.org/download/parkers-puzzle-28/Parker%E2%80%99s%20Puzzle%20(2).mp4",
+            "seconds": 1766,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 3108
+          },
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Daddy's Girl",
+          "airdate": "1999-09-13",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 3 of 28 in \"Parker’s Puzzle Episodes\"",
+            "item": "parkers-puzzle-28",
+            "itemTitle": "Parker’s Puzzle Episodes",
+            "file": "Parker’s Puzzle (3).MP4",
+            "name": "Parker’s Puzzle (3)",
+            "url": "https://archive.org/download/parkers-puzzle-28/Parker%E2%80%99s%20Puzzle%20(3).MP4",
+            "seconds": 2149,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 4294
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Taking Tae-Bo with My Beau",
+          "airdate": "1999-09-20",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 4 of 28 in \"Parker’s Puzzle Episodes\"",
+            "item": "parkers-puzzle-28",
+            "itemTitle": "Parker’s Puzzle Episodes",
+            "file": "Parker’s Puzzle (4).mp4",
+            "name": "Parker’s Puzzle (4)",
+            "url": "https://archive.org/download/parkers-puzzle-28/Parker%E2%80%99s%20Puzzle%20(4).mp4",
+            "seconds": 1859,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 3537
+          },
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "The Boomerang Effect",
+          "airdate": "1999-09-27",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 5 of 28 in \"Parker’s Puzzle Episodes\"",
+            "item": "parkers-puzzle-28",
+            "itemTitle": "Parker’s Puzzle Episodes",
+            "file": "Parker’s Puzzle (5).MP4",
+            "name": "Parker’s Puzzle (5)",
+            "url": "https://archive.org/download/parkers-puzzle-28/Parker%E2%80%99s%20Puzzle%20(5).MP4",
+            "seconds": 1955,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 4441
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "There's a Shag",
+          "airdate": "1999-10-04",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 6 of 28 in \"Parker’s Puzzle Episodes\"",
+            "item": "parkers-puzzle-28",
+            "itemTitle": "Parker’s Puzzle Episodes",
+            "file": "Parker’s Puzzle (6).mp4",
+            "name": "Parker’s Puzzle (6)",
+            "url": "https://archive.org/download/parkers-puzzle-28/Parker%E2%80%99s%20Puzzle%20(6).mp4",
+            "seconds": 2021,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 4513
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Kimberlale",
+          "airdate": "1999-10-18",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 7 of 28 in \"Parker’s Puzzle Episodes\"",
+            "item": "parkers-puzzle-28",
+            "itemTitle": "Parker’s Puzzle Episodes",
+            "file": "Parker’s Puzzle (7).MP4",
+            "name": "Parker’s Puzzle (7)",
+            "url": "https://archive.org/download/parkers-puzzle-28/Parker%E2%80%99s%20Puzzle%20(7).MP4",
+            "seconds": 1975,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 4054
+          },
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Quarantine",
+          "airdate": "1999-11-01",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 8 of 28 in \"Parker’s Puzzle Episodes\"",
+            "item": "parkers-puzzle-28",
+            "itemTitle": "Parker’s Puzzle Episodes",
+            "file": "Parker’s Puzzle (8).mp4",
+            "name": "Parker’s Puzzle (8)",
+            "url": "https://archive.org/download/parkers-puzzle-28/Parker%E2%80%99s%20Puzzle%20(8).mp4",
+            "seconds": 1812,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 3771
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "And the Band Plays On",
+          "airdate": "1999-11-08",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 9 of 28 in \"Parker’s Puzzle Episodes\"",
+            "item": "parkers-puzzle-28",
+            "itemTitle": "Parker’s Puzzle Episodes",
+            "file": "Parker’s Puzzle (9).mp4",
+            "name": "Parker’s Puzzle (9)",
+            "url": "https://archive.org/download/parkers-puzzle-28/Parker%E2%80%99s%20Puzzle%20(9).mp4",
+            "seconds": 1829,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 3670
+          },
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Betting on Love",
+          "airdate": "1999-11-15",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 10 of 28 in \"Parker’s Puzzle Episodes\"",
+            "item": "parkers-puzzle-28",
+            "itemTitle": "Parker’s Puzzle Episodes",
+            "file": "Parker’s Puzzle (10).mp4",
+            "name": "Parker’s Puzzle (10)",
+            "url": "https://archive.org/download/parkers-puzzle-28/Parker%E2%80%99s%20Puzzle%20(10).mp4",
+            "seconds": 1828,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 3965
+          },
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "It's a Family Affair",
+          "airdate": "1999-11-22",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 11 of 28 in \"Parker’s Puzzle Episodes\"",
+            "item": "parkers-puzzle-28",
+            "itemTitle": "Parker’s Puzzle Episodes",
+            "file": "Parker’s Puzzle (11).mp4",
+            "name": "Parker’s Puzzle (11)",
+            "url": "https://archive.org/download/parkers-puzzle-28/Parker%E2%80%99s%20Puzzle%20(11).mp4",
+            "seconds": 1816,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 4106
+          },
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Bad to the Bone",
+          "airdate": "2000-01-03",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 12 of 28 in \"Parker’s Puzzle Episodes\"",
+            "item": "parkers-puzzle-28",
+            "itemTitle": "Parker’s Puzzle Episodes",
+            "file": "Parker’s Puzzle (12).MP4",
+            "name": "Parker’s Puzzle (12)",
+            "url": "https://archive.org/download/parkers-puzzle-28/Parker%E2%80%99s%20Puzzle%20(12).MP4",
+            "seconds": 2063,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 4702
+          },
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Big Is Beautiful",
+          "airdate": "2000-01-24",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 13 of 28 in \"Parker’s Puzzle Episodes\"",
+            "item": "parkers-puzzle-28",
+            "itemTitle": "Parker’s Puzzle Episodes",
+            "file": "Parker’s Puzzle (13).mp4",
+            "name": "Parker’s Puzzle (13)",
+            "url": "https://archive.org/download/parkers-puzzle-28/Parker%E2%80%99s%20Puzzle%20(13).mp4",
+            "seconds": 1810,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 3884
+          },
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Love Is a Royal Pain",
+          "airdate": "2000-02-07",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 14 of 28 in \"Parker’s Puzzle Episodes\"",
+            "item": "parkers-puzzle-28",
+            "itemTitle": "Parker’s Puzzle Episodes",
+            "file": "Parker’s Puzzle (15).mp4",
+            "name": "Parker’s Puzzle (15)",
+            "url": "https://archive.org/download/parkers-puzzle-28/Parker%E2%80%99s%20Puzzle%20(15).mp4",
+            "seconds": 1939,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 3755
+          },
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Funny, Funny Valentine",
+          "airdate": "2000-02-14",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 15 of 28 in \"Parker’s Puzzle Episodes\"",
+            "item": "parkers-puzzle-28",
+            "itemTitle": "Parker’s Puzzle Episodes",
+            "file": "Parker’s Puzzle (16).mp4",
+            "name": "Parker’s Puzzle (16)",
+            "url": "https://archive.org/download/parkers-puzzle-28/Parker%E2%80%99s%20Puzzle%20(16).mp4",
+            "seconds": 2027,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 4001
+          },
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Trading Places",
+          "airdate": "2000-02-21",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 16 of 28 in \"Parker’s Puzzle Episodes\"",
+            "item": "parkers-puzzle-28",
+            "itemTitle": "Parker’s Puzzle Episodes",
+            "file": "Parker’s Puzzle (17).MP4",
+            "name": "Parker’s Puzzle (17)",
+            "url": "https://archive.org/download/parkers-puzzle-28/Parker%E2%80%99s%20Puzzle%20(17).MP4",
+            "seconds": 2055,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 4370
+          },
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "A Simple Plan",
+          "airdate": "2000-03-20",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 17 of 28 in \"Parker’s Puzzle Episodes\"",
+            "item": "parkers-puzzle-28",
+            "itemTitle": "Parker’s Puzzle Episodes",
+            "file": "Parker’s Puzzle (18).mp4",
+            "name": "Parker’s Puzzle (18)",
+            "url": "https://archive.org/download/parkers-puzzle-28/Parker%E2%80%99s%20Puzzle%20(18).mp4",
+            "seconds": 1940,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 4374
+          },
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "It's a Spring Bling Thing",
+          "airdate": "2000-04-10",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 18 of 28 in \"Parker’s Puzzle Episodes\"",
+            "item": "parkers-puzzle-28",
+            "itemTitle": "Parker’s Puzzle Episodes",
+            "file": "Parker’s Puzzle (20).mp4",
+            "name": "Parker’s Puzzle (20)",
+            "url": "https://archive.org/download/parkers-puzzle-28/Parker%E2%80%99s%20Puzzle%20(20).mp4",
+            "seconds": 2097,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 4286
+          },
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Moving on Out",
+          "airdate": "2000-05-01",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 19 of 28 in \"Parker’s Puzzle Episodes\"",
+            "item": "parkers-puzzle-28",
+            "itemTitle": "Parker’s Puzzle Episodes",
+            "file": "Parker’s Puzzle (21).mp4",
+            "name": "Parker’s Puzzle (21)",
+            "url": "https://archive.org/download/parkers-puzzle-28/Parker%E2%80%99s%20Puzzle%20(21).mp4",
+            "seconds": 1818,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 3677
+          },
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Unforgiven",
+          "airdate": "2000-05-08",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 20 of 28 in \"Parker’s Puzzle Episodes\"",
+            "item": "parkers-puzzle-28",
+            "itemTitle": "Parker’s Puzzle Episodes",
+            "file": "Parker’s Puzzle (22).mp4",
+            "name": "Parker’s Puzzle (22)",
+            "url": "https://archive.org/download/parkers-puzzle-28/Parker%E2%80%99s%20Puzzle%20(22).mp4",
+            "seconds": 1912,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 3854
+          },
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Since I Lost My Baby",
+          "airdate": "2000-05-15",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 21 of 28 in \"Parker’s Puzzle Episodes\"",
+            "item": "parkers-puzzle-28",
+            "itemTitle": "Parker’s Puzzle Episodes",
+            "file": "Parker’s Puzzle (23).mp4",
+            "name": "Parker’s Puzzle (23)",
+            "url": "https://archive.org/download/parkers-puzzle-28/Parker%E2%80%99s%20Puzzle%20(23).mp4",
+            "seconds": 1862,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 3410
+          },
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Get Me to the Church on Time",
+          "airdate": "2000-05-22",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.55,
+            "why": "sequence guess: file 22 of 28 in \"Parker’s Puzzle Episodes\"",
+            "item": "parkers-puzzle-28",
+            "itemTitle": "Parker’s Puzzle Episodes",
+            "file": "Parker’s Puzzle (24).mp4",
+            "name": "Parker’s Puzzle (24)",
+            "url": "https://archive.org/download/parkers-puzzle-28/Parker%E2%80%99s%20Puzzle%20(24).mp4",
+            "seconds": 1873,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 3175
+          },
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Wedding Bell Blues",
+          "airdate": "2000-09-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Breaking Up Is Hard to Do",
+          "airdate": "2000-09-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "The Oddest Couple",
+          "airdate": "2000-09-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Reunited",
+          "airdate": "2000-09-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "J.C. Bowl",
+          "airdate": "2000-10-02",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Whassup with Heyyy?",
+          "airdate": "2000-10-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Scary Kim",
+          "airdate": "2000-10-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Election 2000",
+          "airdate": "2000-11-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Heir Today, Gone Tomorrow",
+          "airdate": "2000-11-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Turkey Day Blues",
+          "airdate": "2000-11-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Cheers",
+          "airdate": "2000-12-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Mama, I Want to Sing",
+          "airdate": "2001-01-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Field of Dreams",
+          "airdate": "2001-02-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Blind Date Mistake",
+          "airdate": "2001-02-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Who's Your Mamma?",
+          "airdate": "2001-02-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Hands Off, Grandma",
+          "airdate": "2001-02-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Single Black Female",
+          "airdate": "2001-03-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Kim Who?",
+          "airdate": "2001-03-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "In Sickness and In Health",
+          "airdate": "2001-03-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Et Tu Andell?",
+          "airdate": "2001-04-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Love and Hisses",
+          "airdate": "2001-05-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Love the One You're With",
+          "airdate": "2001-05-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Baby Girl",
+          "airdate": "2001-09-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Crazy Love",
+          "airdate": "2001-09-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Not So Super, Supers",
+          "airdate": "2001-09-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Nobody's Fool",
+          "airdate": "2001-10-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "A Knockout Times Two",
+          "airdate": "2001-10-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Baby, You've Got to Go",
+          "airdate": "2001-10-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Mummy's the Word",
+          "airdate": "2001-10-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Take the Cookies and Run",
+          "airdate": "2001-11-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "The Altos",
+          "airdate": "2001-11-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Family Ties and Lies",
+          "airdate": "2001-11-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Secret Santa",
+          "airdate": "2001-12-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "The Revolution",
+          "airdate": "2002-01-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "My Two Dads",
+          "airdate": "2002-02-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "To Love or Not to Love",
+          "airdate": "2002-02-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Don't Believe the Hype",
+          "airdate": "2002-02-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Make a Joyful Noise",
+          "airdate": "2002-03-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "A Beautiful Lie",
+          "airdate": "2002-03-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "The Crush",
+          "airdate": "2002-03-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "The Dates from Hell",
+          "airdate": "2002-04-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Mother's Day Blues",
+          "airdate": "2002-05-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "It's Showtime",
+          "airdate": "2002-05-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Teach Me Tonight",
+          "airdate": "2002-05-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 4,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "The Mourning After",
+          "airdate": "2002-09-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "She's Hysterical",
+          "airdate": "2002-09-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "High Heels and Videotapes",
+          "airdate": "2002-10-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Meter Maids Need Love, Too",
+          "airdate": "2002-10-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Food Fiasco",
+          "airdate": "2002-10-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "And the Winner Is...",
+          "airdate": "2002-10-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Kim's 21st Birthday",
+          "airdate": "2002-11-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "It's Gary Coleman",
+          "airdate": "2002-11-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Road Trip",
+          "airdate": "2002-11-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Sign of the Shaq",
+          "airdate": "2002-11-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Lights, Camera, Action",
+          "airdate": "2002-12-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "The Parent Trap",
+          "airdate": "2003-01-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Dead Clown Walking",
+          "airdate": "2003-01-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "The Hold Up",
+          "airdate": "2003-02-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Love Potion No. 83",
+          "airdate": "2003-02-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Somebody's Watching You",
+          "airdate": "2003-02-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "A Sterling Relationship",
+          "airdate": "2003-02-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "That's What Friends Are For",
+          "airdate": "2003-03-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "Amazing Grace",
+          "airdate": "2003-04-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "Join the Club",
+          "airdate": "2003-04-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Internship",
+          "airdate": "2003-04-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "She's a Bad Mamma Jamma",
+          "airdate": "2003-04-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "The Good, the Bad and the Funny",
+          "airdate": "2003-05-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "Jury Duty",
+          "airdate": "2003-05-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 25,
+          "name": "An Ivy League of Her Own",
+          "airdate": "2003-05-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 5,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Til Death Do Us Part---And Make It Soon",
+          "airdate": "2003-09-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Squatter's Rights",
+          "airdate": "2003-09-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "A Plot with a View",
+          "airdate": "2003-09-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Mama, I'm Baaack!",
+          "airdate": "2003-10-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "The Accidental Therapist",
+          "airdate": "2003-10-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "The Mack Is Like Wo!",
+          "airdate": "2003-10-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Kimmie Has Two Moms",
+          "airdate": "2003-11-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "I Never Rapped for My Father",
+          "airdate": "2003-11-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Foul Ball",
+          "airdate": "2003-11-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Cheaters Never Prosper",
+          "airdate": "2003-11-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Out with the Old, In with the New",
+          "airdate": "2003-12-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "School of Hard Knocks",
+          "airdate": "2004-01-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Can Two Wrongs Make a Right?",
+          "airdate": "2004-02-09",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "She's Positive",
+          "airdate": "2004-02-16",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Judge Not a Book...",
+          "airdate": "2004-02-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Practice What You Preach",
+          "airdate": "2004-03-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Could It Be You?",
+          "airdate": "2004-04-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "A Little Change Never Hurt Anybody",
+          "airdate": "2004-05-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "At Last",
+          "airdate": "2004-05-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    }
+  ]
+}

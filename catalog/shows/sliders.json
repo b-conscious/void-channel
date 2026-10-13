@@ -1,0 +1,1932 @@
+{
+  "show": "Sliders",
+  "slug": "sliders",
+  "type": "Sci-Fi, Fantasy and Horror",
+  "network": "Sci-Fi Channel",
+  "matchedAt": "2026-10-13T07:46:17.257Z",
+  "tvmaze": {
+    "id": 583,
+    "name": "Sliders",
+    "runtime": 60,
+    "premiered": "1995-03-22",
+    "network": "Syfy"
+  },
+  "coverage": {
+    "total": 87,
+    "live": 83,
+    "review": 2,
+    "missing": 2,
+    "pct": 98
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Pilot",
+          "airdate": "1995-03-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Fever",
+          "airdate": "1995-03-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Last Days",
+          "airdate": "1995-04-05",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Last Days\" (1.00)",
+            "item": "sliders-s-01-e-07-eggheads",
+            "itemTitle": "Sliders S 01 E 07 ( Eggheads)",
+            "file": "Sliders - S01E04 (Last Days).mp4",
+            "name": "Sliders - S01E04 (Last Days)",
+            "url": "https://archive.org/download/sliders-s-01-e-07-eggheads/Sliders%20-%20S01E04%20(Last%20Days).mp4",
+            "seconds": 2647,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 368
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Prince of Wails",
+          "airdate": "1995-04-12",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "sliders-s-01-e-07-eggheads",
+            "itemTitle": "Sliders S 01 E 07 ( Eggheads)",
+            "file": "Sliders - S01E04 (Last Days).mp4",
+            "name": "Sliders - S01E04 (Last Days)",
+            "url": "https://archive.org/download/sliders-s-01-e-07-eggheads/Sliders%20-%20S01E04%20(Last%20Days).mp4",
+            "seconds": 2647,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 368
+          },
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Summer of Love",
+          "airdate": "1995-04-19",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.8,
+            "why": "title ~ \"Summer of Love\" (1.00)",
+            "item": "sliders-s-01-e-07-eggheads",
+            "itemTitle": "Sliders S 01 E 07 ( Eggheads)",
+            "file": "Sliders - S01E06 (Summer of Love).mp4",
+            "name": "Sliders - S01E06 (Summer of Love)",
+            "url": "https://archive.org/download/sliders-s-01-e-07-eggheads/Sliders%20-%20S01E06%20(Summer%20of%20Love).mp4",
+            "seconds": 2599,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Eggheads",
+          "airdate": "1995-04-26",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "sliders-s-01-e-07-eggheads",
+            "itemTitle": "Sliders S 01 E 07 ( Eggheads)",
+            "file": "Sliders - S01E06 (Summer of Love).mp4",
+            "name": "Sliders - S01E06 (Summer of Love)",
+            "url": "https://archive.org/download/sliders-s-01-e-07-eggheads/Sliders%20-%20S01E06%20(Summer%20of%20Love).mp4",
+            "seconds": 2599,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Eggheads\" (1.00)",
+              "item": "sliders-s-01-e-07-eggheads",
+              "itemTitle": "Sliders S 01 E 07 ( Eggheads)",
+              "file": "Sliders - S01E07 (Eggheads).mp4",
+              "name": "Sliders - S01E07 (Eggheads)",
+              "url": "https://archive.org/download/sliders-s-01-e-07-eggheads/Sliders%20-%20S01E07%20(Eggheads).mp4",
+              "seconds": 2709,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 402
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "name": "The Weaker Sex",
+          "airdate": "1995-05-03",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "sliders-s-01-e-07-eggheads",
+            "itemTitle": "Sliders S 01 E 07 ( Eggheads)",
+            "file": "Sliders - S01E07 (Eggheads).mp4",
+            "name": "Sliders - S01E07 (Eggheads)",
+            "url": "https://archive.org/download/sliders-s-01-e-07-eggheads/Sliders%20-%20S01E07%20(Eggheads).mp4",
+            "seconds": 2709,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 402
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"The Weaker Sex\" (1.00)",
+              "item": "sliders-s-01-e-07-eggheads",
+              "itemTitle": "Sliders S 01 E 07 ( Eggheads)",
+              "file": "Sliders - S01E08 (The Weaker Sex).mp4",
+              "name": "Sliders - S01E08 (The Weaker Sex)",
+              "url": "https://archive.org/download/sliders-s-01-e-07-eggheads/Sliders%20-%20S01E08%20(The%20Weaker%20Sex).mp4",
+              "seconds": 2696,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 379
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "name": "The King Is Back",
+          "airdate": "1995-05-10",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "sliders-s-01-e-07-eggheads",
+            "itemTitle": "Sliders S 01 E 07 ( Eggheads)",
+            "file": "Sliders - S01E08 (The Weaker Sex).mp4",
+            "name": "Sliders - S01E08 (The Weaker Sex)",
+            "url": "https://archive.org/download/sliders-s-01-e-07-eggheads/Sliders%20-%20S01E08%20(The%20Weaker%20Sex).mp4",
+            "seconds": 2696,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 379
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"The King Is Back\" (1.00)",
+              "item": "sliders-s-01-e-07-eggheads",
+              "itemTitle": "Sliders S 01 E 07 ( Eggheads)",
+              "file": "Sliders - S01E09 (The King is Back).mp4",
+              "name": "Sliders - S01E09 (The King is Back)",
+              "url": "https://archive.org/download/sliders-s-01-e-07-eggheads/Sliders%20-%20S01E09%20(The%20King%20is%20Back).mp4",
+              "seconds": 2701,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 377
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "name": "Luck of the Draw",
+          "airdate": "1995-05-17",
+          "state": "LIVE",
+          "file": {
+            "conf": 0.9,
+            "why": "S/E in filename",
+            "item": "sliders-s-01-e-07-eggheads",
+            "itemTitle": "Sliders S 01 E 07 ( Eggheads)",
+            "file": "Sliders - S01E09 (The King is Back).mp4",
+            "name": "Sliders - S01E09 (The King is Back)",
+            "url": "https://archive.org/download/sliders-s-01-e-07-eggheads/Sliders%20-%20S01E09%20(The%20King%20is%20Back).mp4",
+            "seconds": 2701,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 377
+          },
+          "alternates": [
+            {
+              "conf": 0.8,
+              "why": "title ~ \"Luck of the Draw\" (1.00)",
+              "item": "sliders-s-01-e-07-eggheads",
+              "itemTitle": "Sliders S 01 E 07 ( Eggheads)",
+              "file": "Sliders - S01E10 (Luck of the Draw).mp4",
+              "name": "Sliders - S01E10 (Luck of the Draw)",
+              "url": "https://archive.org/download/sliders-s-01-e-07-eggheads/Sliders%20-%20S01E10%20(Luck%20of%20the%20Draw).mp4",
+              "seconds": 2689,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 362
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Into the Mystic",
+          "airdate": "1996-03-01",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-02-e-01-into-the-mystic",
+            "itemTitle": "Sliders Season 2",
+            "file": "Sliders - S02E01 (Into the Mystic).mp4",
+            "name": "Sliders - S02E01 (Into the Mystic)",
+            "url": "https://archive.org/download/sliders-s-02-e-01-into-the-mystic/Sliders%20-%20S02E01%20(Into%20the%20Mystic).mp4",
+            "seconds": 2552,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 393
+          },
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Love Gods",
+          "airdate": "1996-03-08",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-02-e-01-into-the-mystic",
+            "itemTitle": "Sliders Season 2",
+            "file": "Sliders - S02E02 (Love Gods).mp4",
+            "name": "Sliders - S02E02 (Love Gods)",
+            "url": "https://archive.org/download/sliders-s-02-e-01-into-the-mystic/Sliders%20-%20S02E02%20(Love%20Gods).mp4",
+            "seconds": 2572,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 327
+          },
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Gillian of the Spirits",
+          "airdate": "1996-03-15",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-02-e-01-into-the-mystic",
+            "itemTitle": "Sliders Season 2",
+            "file": "Sliders - S02E03 (Gillian of the Spirits).mp4",
+            "name": "Sliders - S02E03 (Gillian of the Spirits)",
+            "url": "https://archive.org/download/sliders-s-02-e-01-into-the-mystic/Sliders%20-%20S02E03%20(Gillian%20of%20the%20Spirits).mp4",
+            "seconds": 2680,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 341
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "The Good, the Bad and the Wealthy",
+          "airdate": "1996-03-22",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-02-e-01-into-the-mystic",
+            "itemTitle": "Sliders Season 2",
+            "file": "Sliders - S02E04 (The Good, the Bad, and the Wealthy).mp4",
+            "name": "Sliders - S02E04 (The Good, the Bad, and the Wealthy)",
+            "url": "https://archive.org/download/sliders-s-02-e-01-into-the-mystic/Sliders%20-%20S02E04%20(The%20Good%2C%20the%20Bad%2C%20and%20the%20Wealthy).mp4",
+            "seconds": 2683,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 338
+          },
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "El Sid",
+          "airdate": "1996-03-29",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-02-e-01-into-the-mystic",
+            "itemTitle": "Sliders Season 2",
+            "file": "Sliders - S02E05 (El Sid).mp4",
+            "name": "Sliders - S02E05 (El Sid)",
+            "url": "https://archive.org/download/sliders-s-02-e-01-into-the-mystic/Sliders%20-%20S02E05%20(El%20Sid).mp4",
+            "seconds": 2635,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 361
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Time Again and World",
+          "airdate": "1996-04-05",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-02-e-01-into-the-mystic",
+            "itemTitle": "Sliders Season 2",
+            "file": "Sliders - S02E06 (Time Again and World).mp4",
+            "name": "Sliders - S02E06 (Time Again and World)",
+            "url": "https://archive.org/download/sliders-s-02-e-01-into-the-mystic/Sliders%20-%20S02E06%20(Time%20Again%20and%20World).mp4",
+            "seconds": 2580,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 356
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "In Dino Veritas",
+          "airdate": "1996-04-26",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-02-e-01-into-the-mystic",
+            "itemTitle": "Sliders Season 2",
+            "file": "Sliders - S02E07 (In Dino Veritas).mp4",
+            "name": "Sliders - S02E07 (In Dino Veritas)",
+            "url": "https://archive.org/download/sliders-s-02-e-01-into-the-mystic/Sliders%20-%20S02E07%20(In%20Dino%20Veritas).mp4",
+            "seconds": 2686,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 374
+          },
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Post Traumatic Slide Syndrome",
+          "airdate": "1996-05-03",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-02-e-01-into-the-mystic",
+            "itemTitle": "Sliders Season 2",
+            "file": "Sliders - S02E08 (Post-Traumatic Slide Syndrome).mp4",
+            "name": "Sliders - S02E08 (Post-Traumatic Slide Syndrome)",
+            "url": "https://archive.org/download/sliders-s-02-e-01-into-the-mystic/Sliders%20-%20S02E08%20(Post-Traumatic%20Slide%20Syndrome).mp4",
+            "seconds": 2683,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 331
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Obsession",
+          "airdate": "1996-05-24",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-02-e-01-into-the-mystic",
+            "itemTitle": "Sliders Season 2",
+            "file": "Sliders - S02E09 (Obsession).mp4",
+            "name": "Sliders - S02E09 (Obsession)",
+            "url": "https://archive.org/download/sliders-s-02-e-01-into-the-mystic/Sliders%20-%20S02E09%20(Obsession).mp4",
+            "seconds": 2669,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 329
+          },
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Greatfellas",
+          "airdate": "1996-05-31",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-02-e-01-into-the-mystic",
+            "itemTitle": "Sliders Season 2",
+            "file": "Sliders - S02E10 (Greatfellas).mp4",
+            "name": "Sliders - S02E10 (Greatfellas)",
+            "url": "https://archive.org/download/sliders-s-02-e-01-into-the-mystic/Sliders%20-%20S02E10%20(Greatfellas).mp4",
+            "seconds": 2541,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 361
+          },
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "The Young and the Relentless",
+          "airdate": "1996-06-07",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-02-e-01-into-the-mystic",
+            "itemTitle": "Sliders Season 2",
+            "file": "Sliders - S02E11 (The Young and the Relentless).mp4",
+            "name": "Sliders - S02E11 (The Young and the Relentless)",
+            "url": "https://archive.org/download/sliders-s-02-e-01-into-the-mystic/Sliders%20-%20S02E11%20(The%20Young%20and%20the%20Relentless).mp4",
+            "seconds": 2572,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 328
+          },
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Invasion",
+          "airdate": "1996-06-28",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-02-e-01-into-the-mystic",
+            "itemTitle": "Sliders Season 2",
+            "file": "Sliders - S02E12 (Invasion).mp4",
+            "name": "Sliders - S02E12 (Invasion)",
+            "url": "https://archive.org/download/sliders-s-02-e-01-into-the-mystic/Sliders%20-%20S02E12%20(Invasion).mp4",
+            "seconds": 2685,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 332
+          },
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "As Time Goes By",
+          "airdate": "1996-07-12",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-02-e-01-into-the-mystic",
+            "itemTitle": "Sliders Season 2",
+            "file": "Sliders - S02E13 (As Time Goes By).mp4",
+            "name": "Sliders - S02E13 (As Time Goes By)",
+            "url": "https://archive.org/download/sliders-s-02-e-01-into-the-mystic/Sliders%20-%20S02E13%20(As%20Time%20Goes%20By).mp4",
+            "seconds": 2691,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 386
+          },
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Rules of the Game",
+          "airdate": "1996-09-20",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-03-e-20-the-last-of-eden",
+            "itemTitle": "Sliders S 03 E 20 The Last Of Eden",
+            "file": "Sliders - S03E01 (Rules of the Game).mp4",
+            "name": "Sliders - S03E01 (Rules of the Game)",
+            "url": "https://archive.org/download/sliders-s-03-e-20-the-last-of-eden/Sliders%20-%20S03E01%20(Rules%20of%20the%20Game).mp4",
+            "seconds": 2643,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 410
+          },
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Double Cross",
+          "airdate": "1996-09-27",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-03-e-20-the-last-of-eden",
+            "itemTitle": "Sliders S 03 E 20 The Last Of Eden",
+            "file": "Sliders - S03E02 (Double Cross).mp4",
+            "name": "Sliders - S03E02 (Double Cross)",
+            "url": "https://archive.org/download/sliders-s-03-e-20-the-last-of-eden/Sliders%20-%20S03E02%20(Double%20Cross).mp4",
+            "seconds": 2725,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 394
+          },
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Electric Twister Acid Test",
+          "airdate": "1996-10-04",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-03-e-20-the-last-of-eden",
+            "itemTitle": "Sliders S 03 E 20 The Last Of Eden",
+            "file": "Sliders - S03E03 (Electric Twister Acid Test).mp4",
+            "name": "Sliders - S03E03 (Electric Twister Acid Test)",
+            "url": "https://archive.org/download/sliders-s-03-e-20-the-last-of-eden/Sliders%20-%20S03E03%20(Electric%20Twister%20Acid%20Test).mp4",
+            "seconds": 2680,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 392
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "The Guardian",
+          "airdate": "1996-10-11",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-03-e-20-the-last-of-eden",
+            "itemTitle": "Sliders S 03 E 20 The Last Of Eden",
+            "file": "Sliders - S03E04 (The Guardian).mp4",
+            "name": "Sliders - S03E04 (The Guardian)",
+            "url": "https://archive.org/download/sliders-s-03-e-20-the-last-of-eden/Sliders%20-%20S03E04%20(The%20Guardian).mp4",
+            "seconds": 2704,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 353
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "sliders3x04theguardian",
+              "itemTitle": "Sliders 3x 04 The Guardian",
+              "file": "Sliders 3x04 The Guardian.mp4",
+              "name": "Sliders 3x04 The Guardian",
+              "url": "https://archive.org/download/sliders3x04theguardian/Sliders%203x04%20The%20Guardian.mp4",
+              "seconds": 3187,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 241
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "name": "The Dream Masters",
+          "airdate": "1996-10-18",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-03-e-20-the-last-of-eden",
+            "itemTitle": "Sliders S 03 E 20 The Last Of Eden",
+            "file": "Sliders - S03E05 (The Dream Masters).mp4",
+            "name": "Sliders - S03E05 (The Dream Masters)",
+            "url": "https://archive.org/download/sliders-s-03-e-20-the-last-of-eden/Sliders%20-%20S03E05%20(The%20Dream%20Masters).mp4",
+            "seconds": 2709,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 348
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Desert Storm",
+          "airdate": "1996-11-01",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-03-e-20-the-last-of-eden",
+            "itemTitle": "Sliders S 03 E 20 The Last Of Eden",
+            "file": "Sliders - S03E06 (Desert Storm).mp4",
+            "name": "Sliders - S03E06 (Desert Storm)",
+            "url": "https://archive.org/download/sliders-s-03-e-20-the-last-of-eden/Sliders%20-%20S03E06%20(Desert%20Storm).mp4",
+            "seconds": 2699,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 434
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Dragonslide",
+          "airdate": "1996-11-08",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-03-e-20-the-last-of-eden",
+            "itemTitle": "Sliders S 03 E 20 The Last Of Eden",
+            "file": "Sliders - S03E07 (Dragon Slide).mp4",
+            "name": "Sliders - S03E07 (Dragon Slide)",
+            "url": "https://archive.org/download/sliders-s-03-e-20-the-last-of-eden/Sliders%20-%20S03E07%20(Dragon%20Slide).mp4",
+            "seconds": 2701,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 347
+          },
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "The Fire Within",
+          "airdate": "1996-11-15",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-03-e-20-the-last-of-eden",
+            "itemTitle": "Sliders S 03 E 20 The Last Of Eden",
+            "file": "Sliders - S03E08 (The Fire Within).mp4",
+            "name": "Sliders - S03E08 (The Fire Within)",
+            "url": "https://archive.org/download/sliders-s-03-e-20-the-last-of-eden/Sliders%20-%20S03E08%20(The%20Fire%20Within).mp4",
+            "seconds": 2700,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 376
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "The Prince of Slides",
+          "airdate": "1996-11-22",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-03-e-20-the-last-of-eden",
+            "itemTitle": "Sliders S 03 E 20 The Last Of Eden",
+            "file": "Sliders - S03E09 (The Prince of Slides).mp4",
+            "name": "Sliders - S03E09 (The Prince of Slides)",
+            "url": "https://archive.org/download/sliders-s-03-e-20-the-last-of-eden/Sliders%20-%20S03E09%20(The%20Prince%20of%20Slides).mp4",
+            "seconds": 2667,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 330
+          },
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Dead Man Sliding",
+          "airdate": "1996-11-29",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-03-e-20-the-last-of-eden",
+            "itemTitle": "Sliders S 03 E 20 The Last Of Eden",
+            "file": "Sliders - S03E10 (Dead Man Sliding).mp4",
+            "name": "Sliders - S03E10 (Dead Man Sliding)",
+            "url": "https://archive.org/download/sliders-s-03-e-20-the-last-of-eden/Sliders%20-%20S03E10%20(Dead%20Man%20Sliding).mp4",
+            "seconds": 2687,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 397
+          },
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "State of the Art",
+          "airdate": "1996-12-06",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-03-e-20-the-last-of-eden",
+            "itemTitle": "Sliders S 03 E 20 The Last Of Eden",
+            "file": "Sliders - S03E11 (State of the A.R.T).mp4",
+            "name": "Sliders - S03E11 (State of the A.R.T)",
+            "url": "https://archive.org/download/sliders-s-03-e-20-the-last-of-eden/Sliders%20-%20S03E11%20(State%20of%20the%20A.R.T).mp4",
+            "seconds": 2701,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 324
+          },
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Season's Greedings",
+          "airdate": "1996-12-20",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-03-e-20-the-last-of-eden",
+            "itemTitle": "Sliders S 03 E 20 The Last Of Eden",
+            "file": "Sliders - S03E12 (Season's Greedings).mp4",
+            "name": "Sliders - S03E12 (Season's Greedings)",
+            "url": "https://archive.org/download/sliders-s-03-e-20-the-last-of-eden/Sliders%20-%20S03E12%20(Season's%20Greedings).mp4",
+            "seconds": 2702,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 355
+          },
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Murder Most Foul",
+          "airdate": "1997-01-03",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-03-e-20-the-last-of-eden",
+            "itemTitle": "Sliders S 03 E 20 The Last Of Eden",
+            "file": "Sliders - S03E13 (Murder Most Foul).mp4",
+            "name": "Sliders - S03E13 (Murder Most Foul)",
+            "url": "https://archive.org/download/sliders-s-03-e-20-the-last-of-eden/Sliders%20-%20S03E13%20(Murder%20Most%20Foul).mp4",
+            "seconds": 2699,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 322
+          },
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Slide Like an Egyptian",
+          "airdate": "1997-01-17",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-03-e-20-the-last-of-eden",
+            "itemTitle": "Sliders S 03 E 20 The Last Of Eden",
+            "file": "Sliders - S03E14 (Slide Like an Egyptian).mp4",
+            "name": "Sliders - S03E14 (Slide Like an Egyptian)",
+            "url": "https://archive.org/download/sliders-s-03-e-20-the-last-of-eden/Sliders%20-%20S03E14%20(Slide%20Like%20an%20Egyptian).mp4",
+            "seconds": 2639,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 360
+          },
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Paradise Lost",
+          "airdate": "1997-01-31",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-03-e-20-the-last-of-eden",
+            "itemTitle": "Sliders S 03 E 20 The Last Of Eden",
+            "file": "Sliders - S03E15 (Paradise Lost).mp4",
+            "name": "Sliders - S03E15 (Paradise Lost)",
+            "url": "https://archive.org/download/sliders-s-03-e-20-the-last-of-eden/Sliders%20-%20S03E15%20(Paradise%20Lost).mp4",
+            "seconds": 2701,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 356
+          },
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "The Exodus (1)",
+          "airdate": "1997-02-21",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-03-e-20-the-last-of-eden",
+            "itemTitle": "Sliders S 03 E 20 The Last Of Eden",
+            "file": "Sliders - S03E16 The Exodus Part 1.mp4",
+            "name": "Sliders - S03E16 The Exodus Part 1",
+            "url": "https://archive.org/download/sliders-s-03-e-20-the-last-of-eden/Sliders%20-%20S03E16%20The%20Exodus%20Part%201.mp4",
+            "seconds": 2721,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 341
+          },
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "The Exodus (2)",
+          "airdate": "1997-02-28",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-03-e-20-the-last-of-eden",
+            "itemTitle": "Sliders S 03 E 20 The Last Of Eden",
+            "file": "Sliders - S03E17 The Exodus Part 2.mp4",
+            "name": "Sliders - S03E17 The Exodus Part 2",
+            "url": "https://archive.org/download/sliders-s-03-e-20-the-last-of-eden/Sliders%20-%20S03E17%20The%20Exodus%20Part%202.mp4",
+            "seconds": 2703,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 326
+          },
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Sole Survivors",
+          "airdate": "1997-03-07",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-03-e-20-the-last-of-eden",
+            "itemTitle": "Sliders S 03 E 20 The Last Of Eden",
+            "file": "Sliders - S03E18 Sole Survivors.mp4",
+            "name": "Sliders - S03E18 Sole Survivors",
+            "url": "https://archive.org/download/sliders-s-03-e-20-the-last-of-eden/Sliders%20-%20S03E18%20Sole%20Survivors.mp4",
+            "seconds": 2695,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 312
+          },
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "The Breeder",
+          "airdate": "1997-03-14",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-03-e-20-the-last-of-eden",
+            "itemTitle": "Sliders S 03 E 20 The Last Of Eden",
+            "file": "Sliders - S03E19 The Breeder.mp4",
+            "name": "Sliders - S03E19 The Breeder",
+            "url": "https://archive.org/download/sliders-s-03-e-20-the-last-of-eden/Sliders%20-%20S03E19%20The%20Breeder.mp4",
+            "seconds": 2698,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 345
+          },
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "The Last of Eden",
+          "airdate": "1997-03-28",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-03-e-20-the-last-of-eden",
+            "itemTitle": "Sliders S 03 E 20 The Last Of Eden",
+            "file": "Sliders - S03E20 The Last of Eden.mp4",
+            "name": "Sliders - S03E20 The Last of Eden",
+            "url": "https://archive.org/download/sliders-s-03-e-20-the-last-of-eden/Sliders%20-%20S03E20%20The%20Last%20of%20Eden.mp4",
+            "seconds": 2766,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 439
+          },
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "The Other Slide of Darkness",
+          "airdate": "1997-04-11",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-03-e-20-the-last-of-eden",
+            "itemTitle": "Sliders S 03 E 20 The Last Of Eden",
+            "file": "Sliders - S03E21 The Other Slide of Darkness.mp4",
+            "name": "Sliders - S03E21 The Other Slide of Darkness",
+            "url": "https://archive.org/download/sliders-s-03-e-20-the-last-of-eden/Sliders%20-%20S03E21%20The%20Other%20Slide%20of%20Darkness.mp4",
+            "seconds": 2709,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 325
+          },
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Slither",
+          "airdate": "1997-04-25",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-03-e-20-the-last-of-eden",
+            "itemTitle": "Sliders S 03 E 20 The Last Of Eden",
+            "file": "Sliders - S03E22 Slither.mp4",
+            "name": "Sliders - S03E22 Slither",
+            "url": "https://archive.org/download/sliders-s-03-e-20-the-last-of-eden/Sliders%20-%20S03E22%20Slither.mp4",
+            "seconds": 2696,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 387
+          },
+          "alternates": []
+        },
+        {
+          "number": 23,
+          "name": "Dinoslide",
+          "airdate": "1997-05-02",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-03-e-20-the-last-of-eden",
+            "itemTitle": "Sliders S 03 E 20 The Last Of Eden",
+            "file": "Sliders - S03E23 Dinoslide.mp4",
+            "name": "Sliders - S03E23 Dinoslide",
+            "url": "https://archive.org/download/sliders-s-03-e-20-the-last-of-eden/Sliders%20-%20S03E23%20Dinoslide.mp4",
+            "seconds": 2701,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 405
+          },
+          "alternates": []
+        },
+        {
+          "number": 24,
+          "name": "Stoker",
+          "airdate": "1997-05-09",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-03-e-20-the-last-of-eden",
+            "itemTitle": "Sliders S 03 E 20 The Last Of Eden",
+            "file": "Sliders - S03E24 Stoker.mp4",
+            "name": "Sliders - S03E24 Stoker",
+            "url": "https://archive.org/download/sliders-s-03-e-20-the-last-of-eden/Sliders%20-%20S03E24%20Stoker.mp4",
+            "seconds": 2701,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 343
+          },
+          "alternates": []
+        },
+        {
+          "number": 25,
+          "name": "This Slide of Paradise",
+          "airdate": "1997-05-16",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-03-e-20-the-last-of-eden",
+            "itemTitle": "Sliders S 03 E 20 The Last Of Eden",
+            "file": "Sliders - S03E25 This Slide of Paradise.mp4",
+            "name": "Sliders - S03E25 This Slide of Paradise",
+            "url": "https://archive.org/download/sliders-s-03-e-20-the-last-of-eden/Sliders%20-%20S03E25%20This%20Slide%20of%20Paradise.mp4",
+            "seconds": 2714,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 416
+          },
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 4,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Genesis",
+          "airdate": "1998-06-08",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-04-e-06-oh-brother-where-art-thou_202507",
+            "itemTitle": "Sliders S 04 E 06 ( Oh Brother, Where Art Thou)",
+            "file": "Sliders - S04E01 (Genesis).mp4",
+            "name": "Sliders - S04E01 (Genesis)",
+            "url": "https://archive.org/download/sliders-s-04-e-06-oh-brother-where-art-thou_202507/Sliders%20-%20S04E01%20(Genesis).mp4",
+            "seconds": 2757,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 323
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "sliders-s-04-e-06-oh-brother-where-art-thou",
+              "itemTitle": "Sliders Season 4",
+              "file": "Sliders - S04E01 (Genesis).mp4",
+              "name": "Sliders - S04E01 (Genesis)",
+              "url": "https://archive.org/download/sliders-s-04-e-06-oh-brother-where-art-thou/Sliders%20-%20S04E01%20(Genesis).mp4",
+              "seconds": 2757,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 323
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "Prophets and Loss",
+          "airdate": "1998-06-08",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-04-e-06-oh-brother-where-art-thou_202507",
+            "itemTitle": "Sliders S 04 E 06 ( Oh Brother, Where Art Thou)",
+            "file": "Sliders - S04E02 (Prophets and Loss).mp4",
+            "name": "Sliders - S04E02 (Prophets and Loss)",
+            "url": "https://archive.org/download/sliders-s-04-e-06-oh-brother-where-art-thou_202507/Sliders%20-%20S04E02%20(Prophets%20and%20Loss).mp4",
+            "seconds": 2749,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 349
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "sliders-s-04-e-06-oh-brother-where-art-thou",
+              "itemTitle": "Sliders Season 4",
+              "file": "Sliders - S04E02 (Prophets and Loss).mp4",
+              "name": "Sliders - S04E02 (Prophets and Loss)",
+              "url": "https://archive.org/download/sliders-s-04-e-06-oh-brother-where-art-thou/Sliders%20-%20S04E02%20(Prophets%20and%20Loss).mp4",
+              "seconds": 2749,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 349
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "name": "Common Ground",
+          "airdate": "1998-06-15",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-04-e-06-oh-brother-where-art-thou_202507",
+            "itemTitle": "Sliders S 04 E 06 ( Oh Brother, Where Art Thou)",
+            "file": "Sliders - S04E03 (Common Ground).mp4",
+            "name": "Sliders - S04E03 (Common Ground)",
+            "url": "https://archive.org/download/sliders-s-04-e-06-oh-brother-where-art-thou_202507/Sliders%20-%20S04E03%20(Common%20Ground).mp4",
+            "seconds": 2748,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 379
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "sliders-s-04-e-06-oh-brother-where-art-thou",
+              "itemTitle": "Sliders Season 4",
+              "file": "Sliders - S04E03 (Common Ground).mp4",
+              "name": "Sliders - S04E03 (Common Ground)",
+              "url": "https://archive.org/download/sliders-s-04-e-06-oh-brother-where-art-thou/Sliders%20-%20S04E03%20(Common%20Ground).mp4",
+              "seconds": 2748,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 379
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "name": "Virtual Slide",
+          "airdate": "1998-06-22",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-04-e-06-oh-brother-where-art-thou_202507",
+            "itemTitle": "Sliders S 04 E 06 ( Oh Brother, Where Art Thou)",
+            "file": "Sliders - S04E04 (Virtual Slide).mp4",
+            "name": "Sliders - S04E04 (Virtual Slide)",
+            "url": "https://archive.org/download/sliders-s-04-e-06-oh-brother-where-art-thou_202507/Sliders%20-%20S04E04%20(Virtual%20Slide).mp4",
+            "seconds": 2706,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 394
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "sliders-s-04-e-06-oh-brother-where-art-thou",
+              "itemTitle": "Sliders Season 4",
+              "file": "Sliders - S04E04 (Virtual Slide).mp4",
+              "name": "Sliders - S04E04 (Virtual Slide)",
+              "url": "https://archive.org/download/sliders-s-04-e-06-oh-brother-where-art-thou/Sliders%20-%20S04E04%20(Virtual%20Slide).mp4",
+              "seconds": 2706,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 394
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "name": "World Killer",
+          "airdate": "1998-06-29",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-04-e-06-oh-brother-where-art-thou_202507",
+            "itemTitle": "Sliders S 04 E 06 ( Oh Brother, Where Art Thou)",
+            "file": "Sliders - S04E05 (World Killer).mp4",
+            "name": "Sliders - S04E05 (World Killer)",
+            "url": "https://archive.org/download/sliders-s-04-e-06-oh-brother-where-art-thou_202507/Sliders%20-%20S04E05%20(World%20Killer).mp4",
+            "seconds": 2747,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 370
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "sliders-s-04-e-06-oh-brother-where-art-thou",
+              "itemTitle": "Sliders Season 4",
+              "file": "Sliders - S04E05 (World Killer).mp4",
+              "name": "Sliders - S04E05 (World Killer)",
+              "url": "https://archive.org/download/sliders-s-04-e-06-oh-brother-where-art-thou/Sliders%20-%20S04E05%20(World%20Killer).mp4",
+              "seconds": 2747,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 370
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "name": "Oh Brother, Where Art Thou?",
+          "airdate": "1998-07-06",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-04-e-06-oh-brother-where-art-thou_202507",
+            "itemTitle": "Sliders S 04 E 06 ( Oh Brother, Where Art Thou)",
+            "file": "Sliders - S04E06 (Oh Brother, Where Art Thou).mp4",
+            "name": "Sliders - S04E06 (Oh Brother, Where Art Thou)",
+            "url": "https://archive.org/download/sliders-s-04-e-06-oh-brother-where-art-thou_202507/Sliders%20-%20S04E06%20(Oh%20Brother%2C%20Where%20Art%20Thou).mp4",
+            "seconds": 2749,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 419
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "sliders-s-04-e-06-oh-brother-where-art-thou",
+              "itemTitle": "Sliders Season 4",
+              "file": "Sliders - S04E06 (Oh Brother, Where Art Thou).mp4",
+              "name": "Sliders - S04E06 (Oh Brother, Where Art Thou)",
+              "url": "https://archive.org/download/sliders-s-04-e-06-oh-brother-where-art-thou/Sliders%20-%20S04E06%20(Oh%20Brother%2C%20Where%20Art%20Thou).mp4",
+              "seconds": 2749,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 419
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "name": "Just Say Yes",
+          "airdate": "1998-07-13",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-04-e-06-oh-brother-where-art-thou_202507",
+            "itemTitle": "Sliders S 04 E 06 ( Oh Brother, Where Art Thou)",
+            "file": "Sliders - S04E07 (Just Say Yes).mp4",
+            "name": "Sliders - S04E07 (Just Say Yes)",
+            "url": "https://archive.org/download/sliders-s-04-e-06-oh-brother-where-art-thou_202507/Sliders%20-%20S04E07%20(Just%20Say%20Yes).mp4",
+            "seconds": 2758,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 395
+          },
+          "alternates": [
+            {
+              "conf": 1,
+              "why": "S/E in filename + title match",
+              "item": "sliders-s-04-e-06-oh-brother-where-art-thou",
+              "itemTitle": "Sliders Season 4",
+              "file": "Sliders - S04E07 (Just Say Yes).mp4",
+              "name": "Sliders - S04E07 (Just Say Yes)",
+              "url": "https://archive.org/download/sliders-s-04-e-06-oh-brother-where-art-thou/Sliders%20-%20S04E07%20(Just%20Say%20Yes).mp4",
+              "seconds": 2758,
+              "format": "MPEG4",
+              "playable": true,
+              "sizeMB": 395
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "name": "The Alternateville Horror",
+          "airdate": "1998-07-20",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-04-e-06-oh-brother-where-art-thou_202507",
+            "itemTitle": "Sliders S 04 E 06 ( Oh Brother, Where Art Thou)",
+            "file": "Sliders - S04E08 (The Alternateville Horror).mp4",
+            "name": "Sliders - S04E08 (The Alternateville Horror)",
+            "url": "https://archive.org/download/sliders-s-04-e-06-oh-brother-where-art-thou_202507/Sliders%20-%20S04E08%20(The%20Alternateville%20Horror).mp4",
+            "seconds": 2696,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 409
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Slidecage",
+          "airdate": "1998-07-27",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-04-e-06-oh-brother-where-art-thou_202507",
+            "itemTitle": "Sliders S 04 E 06 ( Oh Brother, Where Art Thou)",
+            "file": "Sliders - S04E09 (Slidecage).mp4",
+            "name": "Sliders - S04E09 (Slidecage)",
+            "url": "https://archive.org/download/sliders-s-04-e-06-oh-brother-where-art-thou_202507/Sliders%20-%20S04E09%20(Slidecage).mp4",
+            "seconds": 2750,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 391
+          },
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Asylum",
+          "airdate": "1998-08-17",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-04-e-06-oh-brother-where-art-thou_202507",
+            "itemTitle": "Sliders S 04 E 06 ( Oh Brother, Where Art Thou)",
+            "file": "Sliders - S04E10 (Asylum).mp4",
+            "name": "Sliders - S04E10 (Asylum)",
+            "url": "https://archive.org/download/sliders-s-04-e-06-oh-brother-where-art-thou_202507/Sliders%20-%20S04E10%20(Asylum).mp4",
+            "seconds": 2726,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 368
+          },
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "California Reich",
+          "airdate": "1998-08-24",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-04-e-06-oh-brother-where-art-thou_202507",
+            "itemTitle": "Sliders S 04 E 06 ( Oh Brother, Where Art Thou)",
+            "file": "Sliders - S04E11 (California Reich).mp4",
+            "name": "Sliders - S04E11 (California Reich)",
+            "url": "https://archive.org/download/sliders-s-04-e-06-oh-brother-where-art-thou_202507/Sliders%20-%20S04E11%20(California%20Reich).mp4",
+            "seconds": 2735,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 401
+          },
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "The Dying Fields",
+          "airdate": "1998-08-31",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-04-e-06-oh-brother-where-art-thou_202507",
+            "itemTitle": "Sliders S 04 E 06 ( Oh Brother, Where Art Thou)",
+            "file": "Sliders - S04E12 (The Dying Fields).mp4",
+            "name": "Sliders - S04E12 (The Dying Fields)",
+            "url": "https://archive.org/download/sliders-s-04-e-06-oh-brother-where-art-thou_202507/Sliders%20-%20S04E12%20(The%20Dying%20Fields).mp4",
+            "seconds": 2730,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 371
+          },
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "Lipschitz Live!",
+          "airdate": "1998-11-30",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-04-e-06-oh-brother-where-art-thou_202507",
+            "itemTitle": "Sliders S 04 E 06 ( Oh Brother, Where Art Thou)",
+            "file": "Sliders - S04E13 (Lipschitz Live).mp4",
+            "name": "Sliders - S04E13 (Lipschitz Live)",
+            "url": "https://archive.org/download/sliders-s-04-e-06-oh-brother-where-art-thou_202507/Sliders%20-%20S04E13%20(Lipschitz%20Live).mp4",
+            "seconds": 2688,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 405
+          },
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Mother and Child",
+          "airdate": "1998-12-07",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-04-e-06-oh-brother-where-art-thou_202507",
+            "itemTitle": "Sliders S 04 E 06 ( Oh Brother, Where Art Thou)",
+            "file": "Sliders - S04E14 (Mother and Child).mp4",
+            "name": "Sliders - S04E14 (Mother and Child)",
+            "url": "https://archive.org/download/sliders-s-04-e-06-oh-brother-where-art-thou_202507/Sliders%20-%20S04E14%20(Mother%20and%20Child).mp4",
+            "seconds": 2689,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 371
+          },
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "Net Worth",
+          "airdate": "1999-01-11",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-04-e-06-oh-brother-where-art-thou_202507",
+            "itemTitle": "Sliders S 04 E 06 ( Oh Brother, Where Art Thou)",
+            "file": "Sliders - S04E15 (Net Worth).mp4",
+            "name": "Sliders - S04E15 (Net Worth)",
+            "url": "https://archive.org/download/sliders-s-04-e-06-oh-brother-where-art-thou_202507/Sliders%20-%20S04E15%20(Net%20Worth).mp4",
+            "seconds": 2687,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 349
+          },
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Slide by Wire",
+          "airdate": "1999-01-18",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-04-e-06-oh-brother-where-art-thou_202507",
+            "itemTitle": "Sliders S 04 E 06 ( Oh Brother, Where Art Thou)",
+            "file": "Sliders - S04E16 (Slide by Wire).mp4",
+            "name": "Sliders - S04E16 (Slide by Wire)",
+            "url": "https://archive.org/download/sliders-s-04-e-06-oh-brother-where-art-thou_202507/Sliders%20-%20S04E16%20(Slide%20by%20Wire).mp4",
+            "seconds": 2687,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 330
+          },
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Data World",
+          "airdate": "1999-03-19",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-04-e-06-oh-brother-where-art-thou_202507",
+            "itemTitle": "Sliders S 04 E 06 ( Oh Brother, Where Art Thou)",
+            "file": "Sliders - S04E17 (Data World).mp4",
+            "name": "Sliders - S04E17 (Data World)",
+            "url": "https://archive.org/download/sliders-s-04-e-06-oh-brother-where-art-thou_202507/Sliders%20-%20S04E17%20(Data%20World).mp4",
+            "seconds": 2687,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 308
+          },
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "Way Out West",
+          "airdate": "1999-03-26",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-04-e-06-oh-brother-where-art-thou_202507",
+            "itemTitle": "Sliders S 04 E 06 ( Oh Brother, Where Art Thou)",
+            "file": "Sliders - S04E18 (Way Out West).mp4",
+            "name": "Sliders - S04E18 (Way Out West)",
+            "url": "https://archive.org/download/sliders-s-04-e-06-oh-brother-where-art-thou_202507/Sliders%20-%20S04E18%20(Way%20Out%20West).mp4",
+            "seconds": 2688,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 385
+          },
+          "alternates": []
+        },
+        {
+          "number": 19,
+          "name": "My Brother's Keeper",
+          "airdate": "1999-04-02",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-04-e-06-oh-brother-where-art-thou_202507",
+            "itemTitle": "Sliders S 04 E 06 ( Oh Brother, Where Art Thou)",
+            "file": "Sliders - S04E19 (My Brother's Keeper).mp4",
+            "name": "Sliders - S04E19 (My Brother's Keeper)",
+            "url": "https://archive.org/download/sliders-s-04-e-06-oh-brother-where-art-thou_202507/Sliders%20-%20S04E19%20(My%20Brother's%20Keeper).mp4",
+            "seconds": 2686,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 325
+          },
+          "alternates": []
+        },
+        {
+          "number": 20,
+          "name": "The Chasm",
+          "airdate": "1999-04-09",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-04-e-06-oh-brother-where-art-thou_202507",
+            "itemTitle": "Sliders S 04 E 06 ( Oh Brother, Where Art Thou)",
+            "file": "Sliders - S04E20 (The Chasm).mp4",
+            "name": "Sliders - S04E20 (The Chasm)",
+            "url": "https://archive.org/download/sliders-s-04-e-06-oh-brother-where-art-thou_202507/Sliders%20-%20S04E20%20(The%20Chasm).mp4",
+            "seconds": 2627,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 386
+          },
+          "alternates": []
+        },
+        {
+          "number": 21,
+          "name": "Roads Taken",
+          "airdate": "1999-04-16",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-04-e-06-oh-brother-where-art-thou_202507",
+            "itemTitle": "Sliders S 04 E 06 ( Oh Brother, Where Art Thou)",
+            "file": "Sliders - S04E21 (Roads Taken).mp4",
+            "name": "Sliders - S04E21 (Roads Taken)",
+            "url": "https://archive.org/download/sliders-s-04-e-06-oh-brother-where-art-thou_202507/Sliders%20-%20S04E21%20(Roads%20Taken).mp4",
+            "seconds": 2686,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 358
+          },
+          "alternates": []
+        },
+        {
+          "number": 22,
+          "name": "Revelations",
+          "airdate": "1999-04-23",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-04-e-06-oh-brother-where-art-thou_202507",
+            "itemTitle": "Sliders S 04 E 06 ( Oh Brother, Where Art Thou)",
+            "file": "Sliders - S04E22 (Revelations).mp4",
+            "name": "Sliders - S04E22 (Revelations)",
+            "url": "https://archive.org/download/sliders-s-04-e-06-oh-brother-where-art-thou_202507/Sliders%20-%20S04E22%20(Revelations).mp4",
+            "seconds": 2689,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 386
+          },
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 5,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "The Unstuck Man",
+          "airdate": "1999-06-11",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-05-e-10-easy-slider",
+            "itemTitle": "Sliders S 05 E 10 ( Easy Slider)",
+            "file": "Sliders - S05E01 (The Unstuck Man).mp4",
+            "name": "Sliders - S05E01 (The Unstuck Man)",
+            "url": "https://archive.org/download/sliders-s-05-e-10-easy-slider/Sliders%20-%20S05E01%20(The%20Unstuck%20Man).mp4",
+            "seconds": 2688,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 275
+          },
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Applied Physics",
+          "airdate": "1999-06-18",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-05-e-10-easy-slider",
+            "itemTitle": "Sliders S 05 E 10 ( Easy Slider)",
+            "file": "Sliders - S05E02 (Applied Physics).mp4",
+            "name": "Sliders - S05E02 (Applied Physics)",
+            "url": "https://archive.org/download/sliders-s-05-e-10-easy-slider/Sliders%20-%20S05E02%20(Applied%20Physics).mp4",
+            "seconds": 2688,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 309
+          },
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Strangers and Comrades",
+          "airdate": "1999-06-25",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-05-e-10-easy-slider",
+            "itemTitle": "Sliders S 05 E 10 ( Easy Slider)",
+            "file": "Sliders - S05E03 (Strangers and Comrades).mp4",
+            "name": "Sliders - S05E03 (Strangers and Comrades)",
+            "url": "https://archive.org/download/sliders-s-05-e-10-easy-slider/Sliders%20-%20S05E03%20(Strangers%20and%20Comrades).mp4",
+            "seconds": 2688,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 371
+          },
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "The Great Work",
+          "airdate": "1999-07-09",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-05-e-10-easy-slider",
+            "itemTitle": "Sliders S 05 E 10 ( Easy Slider)",
+            "file": "Sliders - S05E04 (The Great Work).mp4",
+            "name": "Sliders - S05E04 (The Great Work)",
+            "url": "https://archive.org/download/sliders-s-05-e-10-easy-slider/Sliders%20-%20S05E04%20(The%20Great%20Work).mp4",
+            "seconds": 2685,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 292
+          },
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "New Gods for Old",
+          "airdate": "1999-07-16",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-05-e-10-easy-slider",
+            "itemTitle": "Sliders S 05 E 10 ( Easy Slider)",
+            "file": "Sliders - S05E05 (New Gods for Old).mp4",
+            "name": "Sliders - S05E05 (New Gods for Old)",
+            "url": "https://archive.org/download/sliders-s-05-e-10-easy-slider/Sliders%20-%20S05E05%20(New%20Gods%20for%20Old).mp4",
+            "seconds": 2688,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 326
+          },
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Please Press One",
+          "airdate": "1999-07-23",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-05-e-10-easy-slider",
+            "itemTitle": "Sliders S 05 E 10 ( Easy Slider)",
+            "file": "Sliders - S05E06 (Please Press One).mp4",
+            "name": "Sliders - S05E06 (Please Press One)",
+            "url": "https://archive.org/download/sliders-s-05-e-10-easy-slider/Sliders%20-%20S05E06%20(Please%20Press%20One).mp4",
+            "seconds": 2687,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 325
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "A Current Affair",
+          "airdate": "1999-07-30",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-05-e-10-easy-slider",
+            "itemTitle": "Sliders S 05 E 10 ( Easy Slider)",
+            "file": "Sliders - S05E07 (A Current Affair).mp4",
+            "name": "Sliders - S05E07 (A Current Affair)",
+            "url": "https://archive.org/download/sliders-s-05-e-10-easy-slider/Sliders%20-%20S05E07%20(A%20Current%20Affair).mp4",
+            "seconds": 2689,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 312
+          },
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "The Java Jive",
+          "airdate": "1999-08-06",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-05-e-10-easy-slider",
+            "itemTitle": "Sliders S 05 E 10 ( Easy Slider)",
+            "file": "Sliders - S05E08 (Java Jive).mp4",
+            "name": "Sliders - S05E08 (Java Jive)",
+            "url": "https://archive.org/download/sliders-s-05-e-10-easy-slider/Sliders%20-%20S05E08%20(Java%20Jive).mp4",
+            "seconds": 2688,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 296
+          },
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "The Return of Maggie Beckett",
+          "airdate": "1999-08-13",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-05-e-10-easy-slider",
+            "itemTitle": "Sliders S 05 E 10 ( Easy Slider)",
+            "file": "Sliders - S05E09 (The Return of Maggie Beckett).mp4",
+            "name": "Sliders - S05E09 (The Return of Maggie Beckett)",
+            "url": "https://archive.org/download/sliders-s-05-e-10-easy-slider/Sliders%20-%20S05E09%20(The%20Return%20of%20Maggie%20Beckett).mp4",
+            "seconds": 2690,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 340
+          },
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Easy Slider",
+          "airdate": "1999-08-20",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-05-e-10-easy-slider",
+            "itemTitle": "Sliders S 05 E 10 ( Easy Slider)",
+            "file": "Sliders - S05E10 (Easy Slider).mp4",
+            "name": "Sliders - S05E10 (Easy Slider)",
+            "url": "https://archive.org/download/sliders-s-05-e-10-easy-slider/Sliders%20-%20S05E10%20(Easy%20Slider).mp4",
+            "seconds": 2690,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 424
+          },
+          "alternates": []
+        },
+        {
+          "number": 11,
+          "name": "Requiem",
+          "airdate": "1999-09-10",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-05-e-10-easy-slider",
+            "itemTitle": "Sliders S 05 E 10 ( Easy Slider)",
+            "file": "Sliders - S05E11 (Requiem).mp4",
+            "name": "Sliders - S05E11 (Requiem)",
+            "url": "https://archive.org/download/sliders-s-05-e-10-easy-slider/Sliders%20-%20S05E11%20(Requiem).mp4",
+            "seconds": 2689,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 340
+          },
+          "alternates": []
+        },
+        {
+          "number": 12,
+          "name": "Map of the Mind",
+          "airdate": "1999-09-17",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-05-e-10-easy-slider",
+            "itemTitle": "Sliders S 05 E 10 ( Easy Slider)",
+            "file": "Sliders - S05E12 (Map of the Mind).mp4",
+            "name": "Sliders - S05E12 (Map of the Mind)",
+            "url": "https://archive.org/download/sliders-s-05-e-10-easy-slider/Sliders%20-%20S05E12%20(Map%20of%20the%20Mind).mp4",
+            "seconds": 2689,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 327
+          },
+          "alternates": []
+        },
+        {
+          "number": 13,
+          "name": "A Thousand Deaths",
+          "airdate": "1999-09-24",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-05-e-10-easy-slider",
+            "itemTitle": "Sliders S 05 E 10 ( Easy Slider)",
+            "file": "Sliders - S05E13 (A Thousand Deaths).mp4",
+            "name": "Sliders - S05E13 (A Thousand Deaths)",
+            "url": "https://archive.org/download/sliders-s-05-e-10-easy-slider/Sliders%20-%20S05E13%20(A%20Thousand%20Deaths).mp4",
+            "seconds": 2689,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 376
+          },
+          "alternates": []
+        },
+        {
+          "number": 14,
+          "name": "Heavy Metal",
+          "airdate": "1999-10-01",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-05-e-10-easy-slider",
+            "itemTitle": "Sliders S 05 E 10 ( Easy Slider)",
+            "file": "Sliders - S05E14 (Heavy Metal).mp4",
+            "name": "Sliders - S05E14 (Heavy Metal)",
+            "url": "https://archive.org/download/sliders-s-05-e-10-easy-slider/Sliders%20-%20S05E14%20(Heavy%20Metal).mp4",
+            "seconds": 2689,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 344
+          },
+          "alternates": []
+        },
+        {
+          "number": 15,
+          "name": "To Catch a Slider",
+          "airdate": "2000-01-14",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-05-e-10-easy-slider",
+            "itemTitle": "Sliders S 05 E 10 ( Easy Slider)",
+            "file": "Sliders - S05E15 (To Catch a Slider).mp4",
+            "name": "Sliders - S05E15 (To Catch a Slider)",
+            "url": "https://archive.org/download/sliders-s-05-e-10-easy-slider/Sliders%20-%20S05E15%20(To%20Catch%20a%20Slider).mp4",
+            "seconds": 2689,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 310
+          },
+          "alternates": []
+        },
+        {
+          "number": 16,
+          "name": "Dust",
+          "airdate": "2000-01-21",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-05-e-10-easy-slider",
+            "itemTitle": "Sliders S 05 E 10 ( Easy Slider)",
+            "file": "Sliders - S05E16 (Dust).mp4",
+            "name": "Sliders - S05E16 (Dust)",
+            "url": "https://archive.org/download/sliders-s-05-e-10-easy-slider/Sliders%20-%20S05E16%20(Dust).mp4",
+            "seconds": 2690,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 356
+          },
+          "alternates": []
+        },
+        {
+          "number": 17,
+          "name": "Eye of the Storm",
+          "airdate": "2000-01-28",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-05-e-10-easy-slider",
+            "itemTitle": "Sliders S 05 E 10 ( Easy Slider)",
+            "file": "Sliders - S05E17 (Eye of the Storm).mp4",
+            "name": "Sliders - S05E17 (Eye of the Storm)",
+            "url": "https://archive.org/download/sliders-s-05-e-10-easy-slider/Sliders%20-%20S05E17%20(Eye%20of%20the%20Storm).mp4",
+            "seconds": 2687,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 373
+          },
+          "alternates": []
+        },
+        {
+          "number": 18,
+          "name": "The Seer",
+          "airdate": "2000-02-04",
+          "state": "LIVE",
+          "file": {
+            "conf": 1,
+            "why": "S/E in filename + title match",
+            "item": "sliders-s-05-e-10-easy-slider",
+            "itemTitle": "Sliders S 05 E 10 ( Easy Slider)",
+            "file": "Sliders - S05E18 (The Seer).mp4",
+            "name": "Sliders - S05E18 (The Seer)",
+            "url": "https://archive.org/download/sliders-s-05-e-10-easy-slider/Sliders%20-%20S05E18%20(The%20Seer).mp4",
+            "seconds": 2689,
+            "format": "MPEG4",
+            "playable": true,
+            "sizeMB": 352
+          },
+          "alternates": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "show": "Silicon Valley",
+  "slug": "silicon-valley",
+  "type": "2000s and Later Sitcoms",
+  "network": "HBO",
+  "matchedAt": "2026-10-13T07:46:15.147Z",
+  "tvmaze": {
+    "id": 143,
+    "name": "Silicon Valley",
+    "runtime": 30,
+    "premiered": "2014-04-06",
+    "network": "HBO"
+  },
+  "coverage": {
+    "total": 53,
+    "live": 0,
+    "review": 3,
+    "missing": 50,
+    "pct": 6
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Minimum Viable Product",
+          "airdate": "2014-04-06",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.65,
+            "why": "S/E in filename",
+            "item": "202510_20251028",
+            "itemTitle": "Devs    Best Sci-fi Mini...Ever",
+            "file": "Devs s01E01 Episode #1.1.mp4",
+            "name": "Devs s01E01 Episode #1.1",
+            "url": "https://archive.org/download/202510_20251028/Devs%20s01E01%20Episode%20%231.1.mp4",
+            "seconds": 3393,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 343
+          },
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "The Cap Table",
+          "airdate": "2014-04-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Articles of Incorporation",
+          "airdate": "2014-04-20",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Fiduciary Duties",
+          "airdate": "2014-04-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Signaling Risk",
+          "airdate": "2014-05-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Third Party Insourcing",
+          "airdate": "2014-05-11",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.65,
+            "why": "S/E in filename",
+            "item": "202510_20251028",
+            "itemTitle": "Devs    Best Sci-fi Mini...Ever",
+            "file": "Devs s01E06 Episode #1.6.mp4",
+            "name": "Devs s01E06 Episode #1.6",
+            "url": "https://archive.org/download/202510_20251028/Devs%20s01E06%20Episode%20%231.6.mp4",
+            "seconds": 3088,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 315
+          },
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Proof of Concept",
+          "airdate": "2014-05-18",
+          "state": "REVIEW",
+          "file": {
+            "conf": 0.65,
+            "why": "S/E in filename",
+            "item": "202510_20251028",
+            "itemTitle": "Devs    Best Sci-fi Mini...Ever",
+            "file": "Devs s01E07  Episode #1.7.mp4",
+            "name": "Devs s01E07  Episode #1.7",
+            "url": "https://archive.org/download/202510_20251028/Devs%20s01E07%20%20Episode%20%231.7.mp4",
+            "seconds": 3112,
+            "format": "h.264",
+            "playable": true,
+            "sizeMB": 318
+          },
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Optimal Tip-to-Tip Efficiency",
+          "airdate": "2014-06-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Sand Hill Shuffle",
+          "airdate": "2015-04-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Runaway Devaluation",
+          "airdate": "2015-04-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Bad Money",
+          "airdate": "2015-04-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "The Lady",
+          "airdate": "2015-05-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Server Space",
+          "airdate": "2015-05-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Homicide",
+          "airdate": "2015-05-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Adult Content",
+          "airdate": "2015-05-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "White Hat/Black Hat",
+          "airdate": "2015-05-31",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Binding Arbitration",
+          "airdate": "2015-06-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Two Days of the Condor",
+          "airdate": "2015-06-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Founder Friendly",
+          "airdate": "2016-04-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Two in the Box",
+          "airdate": "2016-05-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Meinertzhagen's Haversack",
+          "airdate": "2016-05-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Maleant Data Systems Solutions",
+          "airdate": "2016-05-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "The Empty Chair",
+          "airdate": "2016-05-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Bachmanity Insanity",
+          "airdate": "2016-05-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "To Build a Better Beta",
+          "airdate": "2016-06-05",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Bachman's Earning's Over-ride",
+          "airdate": "2016-06-12",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Daily Active Users",
+          "airdate": "2016-06-19",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "The Uptick",
+          "airdate": "2016-06-26",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 4,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Success Failure",
+          "airdate": "2017-04-23",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Terms of Service",
+          "airdate": "2017-04-30",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Intellectual Property",
+          "airdate": "2017-05-07",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Teambuilding Exercise",
+          "airdate": "2017-05-14",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "The Blood Boy",
+          "airdate": "2017-05-21",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Customer Service",
+          "airdate": "2017-05-28",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "The Patent Troll",
+          "airdate": "2017-06-04",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "The Keenan Vortex",
+          "airdate": "2017-06-11",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 9,
+          "name": "Hooli-Con",
+          "airdate": "2017-06-18",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 10,
+          "name": "Server Error",
+          "airdate": "2017-06-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 5,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Grow Fast or Die Slow",
+          "airdate": "2018-03-25",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Reorientation",
+          "airdate": "2018-04-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Chief Operating Officer",
+          "airdate": "2018-04-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Tech Evangelist",
+          "airdate": "2018-04-15",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Facial Recognition",
+          "airdate": "2018-04-22",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "Artificial Emotional Intelligence",
+          "airdate": "2018-04-29",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Initial Coin Offering",
+          "airdate": "2018-05-06",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 8,
+          "name": "Fifty-One Percent",
+          "airdate": "2018-05-13",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "season": 6,
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Artificial Lack of Intelligence",
+          "airdate": "2019-10-27",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 2,
+          "name": "Blood Money",
+          "airdate": "2019-11-03",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 3,
+          "name": "Hooli Smokes!",
+          "airdate": "2019-11-10",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 4,
+          "name": "Maximizing Alphaness",
+          "airdate": "2019-11-17",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 5,
+          "name": "Tethics",
+          "airdate": "2019-11-24",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 6,
+          "name": "RussFest",
+          "airdate": "2019-12-01",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        },
+        {
+          "number": 7,
+          "name": "Exit Event",
+          "airdate": "2019-12-08",
+          "state": "MISSING",
+          "file": null,
+          "alternates": []
+        }
+      ]
+    }
+  ]
+}
