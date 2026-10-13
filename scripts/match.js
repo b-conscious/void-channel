@@ -59,11 +59,15 @@ function titleSim(filePart, epName) {
 const AUDIO_RISK = /\b(dd ?5[. ]?1|dd ?2[. ]?0|ddp?\d|dd\+|e-?ac-?3|ac-?3|dts(-hd)?(-ma)?|truehd|atmos|flac)\b/i;
 const VIDEO_RISK = /\b(x ?265|hevc|h[. ]?265|10 ?bit|av1|xvid|divx)\b/i;
 // Dual-audio and foreign-dub rips: the browser plays whichever track comes first, often not English.
-const LANG_RISK = /\b(dual[ .-]?audio|multi[ .-]?audio|hindi|tamil|telugu|urdu|vegamovies|filmyzilla|filmywap|moviesflix|dubbed|dublado|latino|castellano|vff|vostfr|ita[ .-]eng|rus[ .-]eng)\b/i;
+const LANG_RISK = /\b(dual[ .-]?audio|multi[ .-]?audio|multi|hindi|tamil|telugu|urdu|vegamovies|filmyzilla|filmywap|moviesflix|dubbed|dublado|latino|castellano|vf|vff|vfq|truefrench|french|vostfr|ita[ .-]eng|rus[ .-]eng|deutsch|german|espa[nñ]ol|italiano|portugu[eê]s)\b/i;
+// Release names use . _ - as separators; underscores are word characters, so normalize before testing.
+const tagText = (s) => String(s || '').replace(/[._\-\[\]()]+/g, ' ');
+const langRisk = (s) => LANG_RISK.test(tagText(s));
 function codecRisk(name, format, playable) {
+  const t = tagText(name);
   if (!playable) return 'container (' + format + ')';
-  if (AUDIO_RISK.test(name)) return 'audio (' + name.match(AUDIO_RISK)[0] + ')';
-  if (VIDEO_RISK.test(name)) return 'video (' + name.match(VIDEO_RISK)[0] + ')';
+  if (AUDIO_RISK.test(t)) return 'audio (' + t.match(AUDIO_RISK)[0] + ')';
+  if (VIDEO_RISK.test(t)) return 'video (' + t.match(VIDEO_RISK)[0] + ')';
   return null;
 }
 
@@ -123,7 +127,7 @@ function matchShow(entry) {
         if (f.nameHit) conf += 0.15; else if (itemNamesMe) conf += 0.1;
         conf += f.band === 'episode' ? 0.15 : 0.05;
         if (fileNamesOther) conf -= 0.6; else if (itemNamesOther && !f.nameHit) conf -= 0.4;
-        if (LANG_RISK.test(f.name) || LANG_RISK.test(item.title || '')) conf -= 0.35; // REVIEW, never LIVE
+        if (langRisk(f.name) || langRisk(item.title)) conf -= 0.35; // REVIEW, never LIVE
         if (!f.playable) conf -= 0.1;
         conf = Math.max(0, Math.min(1, conf));
         if (conf < REVIEW) continue;
