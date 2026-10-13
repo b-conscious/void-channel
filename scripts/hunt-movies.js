@@ -27,6 +27,8 @@ const JUNK_RE = /\btrailer\b|\bteaser\b|\bpromo\b|\breview\b|reaction|\brecap\b|
 // Browser playability from release tags (see match.js): no AC3/DTS audio, usually no HEVC video.
 const AUDIO_RISK = /\b(dd ?5[. ]?1|dd ?2[. ]?0|ddp?\d|dd\+|e-?ac-?3|ac-?3|dts(-hd)?(-ma)?|truehd|atmos|flac)\b/i;
 const VIDEO_RISK = /\b(x ?265|hevc|h[. ]?265|10 ?bit|av1|xvid|divx)\b/i;
+// Dual-audio and foreign-dub rips: the browser plays whichever track comes first, often not English.
+const LANG_RISK = /\b(dual[ .-]?audio|multi[ .-]?audio|hindi|tamil|telugu|urdu|vegamovies|filmyzilla|filmywap|moviesflix|dubbed|dublado|latino|castellano|vff|vostfr|ita[ .-]eng|rus[ .-]eng)\b/i;
 const codecRisk = (name, format, playable) => !playable ? 'container (' + format + ')' : AUDIO_RISK.test(name) ? 'audio (' + name.match(AUDIO_RISK)[0] + ')' : VIDEO_RISK.test(name) ? 'video (' + name.match(VIDEO_RISK)[0] + ')' : null;
 const VIDEO_FORMATS = new Set(['MPEG4', 'h.264', 'h.264 IA', 'Matroska', 'Ogg Video', 'WebM', 'Windows Media', 'AVI', 'QuickTime', 'MPEG2', 'MPEG1', 'RealMedia', 'Flash Video', 'DivX', 'XviD', '512Kb MPEG4', 'HiRes MPEG4', 'MPEG4 (h.264)']);
 const PLAYABLE = new Set(['MPEG4', 'h.264', 'h.264 IA', 'WebM', 'Ogg Video', '512Kb MPEG4', 'HiRes MPEG4', 'MPEG4 (h.264)']);
@@ -138,6 +140,7 @@ function judge(f, it, m) {
   const text = norm(`${it.title} ${f.stem}`);
   if (m.year && new RegExp(`\\b${m.year}\\b`).test(text)) conf += 0.1;
   if (JUNK_RE.test(f.stem) || JUNK_RE.test(it.title || '')) conf -= 0.5;
+  if (LANG_RISK.test(f.stem) || LANG_RISK.test(it.title || '')) conf -= 0.35; // lands in REVIEW, never LIVE
   if (!f.playable) conf -= 0.1;
   return Math.max(0, Math.min(1, conf));
 }

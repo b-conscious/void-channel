@@ -58,6 +58,8 @@ function titleSim(filePart, epName) {
 // metadata rarely says the codec, but release names almost always do.
 const AUDIO_RISK = /\b(dd ?5[. ]?1|dd ?2[. ]?0|ddp?\d|dd\+|e-?ac-?3|ac-?3|dts(-hd)?(-ma)?|truehd|atmos|flac)\b/i;
 const VIDEO_RISK = /\b(x ?265|hevc|h[. ]?265|10 ?bit|av1|xvid|divx)\b/i;
+// Dual-audio and foreign-dub rips: the browser plays whichever track comes first, often not English.
+const LANG_RISK = /\b(dual[ .-]?audio|multi[ .-]?audio|hindi|tamil|telugu|urdu|vegamovies|filmyzilla|filmywap|moviesflix|dubbed|dublado|latino|castellano|vff|vostfr|ita[ .-]eng|rus[ .-]eng)\b/i;
 function codecRisk(name, format, playable) {
   if (!playable) return 'container (' + format + ')';
   if (AUDIO_RISK.test(name)) return 'audio (' + name.match(AUDIO_RISK)[0] + ')';
@@ -121,6 +123,7 @@ function matchShow(entry) {
         if (f.nameHit) conf += 0.15; else if (itemNamesMe) conf += 0.1;
         conf += f.band === 'episode' ? 0.15 : 0.05;
         if (fileNamesOther) conf -= 0.6; else if (itemNamesOther && !f.nameHit) conf -= 0.4;
+        if (LANG_RISK.test(f.name) || LANG_RISK.test(item.title || '')) conf -= 0.35; // REVIEW, never LIVE
         if (!f.playable) conf -= 0.1;
         conf = Math.max(0, Math.min(1, conf));
         if (conf < REVIEW) continue;
