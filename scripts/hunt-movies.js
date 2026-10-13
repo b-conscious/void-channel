@@ -24,6 +24,10 @@ const LIVE = 0.85, REVIEW = 0.5;
 const KIDS_GENRES = new Set([10751, 16]); // Family, Animation: off the adult shelf by B's rule
 const KIDS_RE = /disney|nickelodeon|barbie|\blego\b|scooby|pok[eé]mon|my little pony|high school musical|camp rock|descendants|wizards of waverly|hannah montana|z-?o-?m-?b-?i-?e-?s|teen beach|jonas|muppet|sesame|care bears|strawberry shortcake|bratz|monster high|power rangers|veggietales|thomas (and|&) friends|paw patrol|peppa|dora|bluey|cocomelon|kidz? bop|starstruck|lemonade mouth|cheetah girls|princess protection|phineas|kim possible|good luck charlie|suite life|cloud 9|invisible sister|how to build a better boy|adventures in babysitting|freaky friday|halloweentown|twitches|cadet kelly|zenon|smart house|johnny tsunami|brink!|motocrossed|luck of the irish|the thirteenth year|under wraps|don't look under the bed|phantom of the megaplex|get a clue|pixel perfect|stuck in the suburbs|go figure|read it and weep|jump in|minutemen|dadnapped|den brother|avalon high|geek charming|frenemies|radio rebel|girl vs\. monster|bad hair day|zapped|descendants|how to build|spongebob|rugrats|hey arnold|jimmy neutron|fairly odd|drake (and|&) josh|zoey 101|icarly|victorious|big time rush|bunk'd|liv and maddie|jessie|austin (and|&) ally|dog with a blog|lab rats|mighty med|kickin' it/i;
 const JUNK_RE = /\btrailer\b|\bteaser\b|\bpromo\b|\breview\b|reaction|\brecap\b|\bclip\b|\bscene\b|behind the scenes|making of|interview|commentary|\bost\b|soundtrack|theme song|\bamv\b|\bytp\b|parody|fan ?made|\bfull movie in (hindi|tamil|telugu)\b|dubbed in|\bhindi dubbed\b|audiobook|\bcommercial\b|\bad\b/i;
+// Browser playability from release tags (see match.js): no AC3/DTS audio, usually no HEVC video.
+const AUDIO_RISK = /\b(dd ?5[. ]?1|dd ?2[. ]?0|ddp?\d|dd\+|e-?ac-?3|ac-?3|dts(-hd)?(-ma)?|truehd|atmos|flac)\b/i;
+const VIDEO_RISK = /\b(x ?265|hevc|h[. ]?265|10 ?bit|av1|xvid|divx)\b/i;
+const codecRisk = (name, format, playable) => !playable ? 'container (' + format + ')' : AUDIO_RISK.test(name) ? 'audio (' + name.match(AUDIO_RISK)[0] + ')' : VIDEO_RISK.test(name) ? 'video (' + name.match(VIDEO_RISK)[0] + ')' : null;
 const VIDEO_FORMATS = new Set(['MPEG4', 'h.264', 'h.264 IA', 'Matroska', 'Ogg Video', 'WebM', 'Windows Media', 'AVI', 'QuickTime', 'MPEG2', 'MPEG1', 'RealMedia', 'Flash Video', 'DivX', 'XviD', '512Kb MPEG4', 'HiRes MPEG4', 'MPEG4 (h.264)']);
 const PLAYABLE = new Set(['MPEG4', 'h.264', 'h.264 IA', 'WebM', 'Ogg Video', '512Kb MPEG4', 'HiRes MPEG4', 'MPEG4 (h.264)']);
 
@@ -119,7 +123,8 @@ async function openItem(id, m) {
   for (const [stem, group] of byStem) {
     const best = group.find((f) => PLAYABLE.has(f.format) && f.source === 'original') || group.find((f) => PLAYABLE.has(f.format)) || group[0];
     const secs = parseFloat(best.length) || 0;
-    out.push({ item: id, itemTitle: meta.title, stem, file: best.name, format: best.format, playable: PLAYABLE.has(best.format), seconds: Math.round(secs), sizeMB: Math.round((+best.size || 0) / 1e6),
+    const risk = codecRisk(best.name, best.format, PLAYABLE.has(best.format));
+    out.push({ item: id, itemTitle: meta.title, stem, file: best.name, format: best.format, playable: !risk, codecRisk: risk || undefined, seconds: Math.round(secs), sizeMB: Math.round((+best.size || 0) / 1e6),
       band: runtimeBand(secs, m.runtime), fileSim: titleSim(stem.split('/').pop(), m.title), url: `https://archive.org/download/${id}/${encodeURIComponent(best.name)}` });
   }
   return { id, title: meta.title, uploader: meta.uploader, date: meta.date, files: out };
@@ -148,9 +153,10 @@ async function huntMovie(m) {
       for (const f of o.files) { const conf = judge(f, it, m); if (conf >= REVIEW) picks.push({ conf: +conf.toFixed(2), ...f, itemTitle: o.title, uploader: o.uploader }); }
     } catch (e) { if (/budget/.test(e.message)) throw e; }
   }
-  picks.sort((a, b) => b.conf - a.conf || (b.playable - a.playable) || b.sizeMB - a.sizeMB);
+  // A file that plays in a browser beats a cleaner one that will not; unplayable picks are never LIVE.
+  picks.sort((a, b) => (b.playable - a.playable) || b.conf - a.conf || b.sizeMB - a.sizeMB);
   const best = picks[0] || null;
-  const state = !best ? 'MISSING' : best.conf >= LIVE ? 'LIVE' : 'REVIEW';
+  const state = !best ? 'MISSING' : (best.conf >= LIVE && best.playable) ? 'LIVE' : 'REVIEW';
   const out = { tmdbId: m.tmdbId, kind: m.kind, title: m.title, year: m.year, runtime: m.runtime, rating: m.rating, votes: m.votes, poster: m.poster, backdrop: m.backdrop, overview: m.overview, genres: m.genres,
     huntedAt: new Date().toISOString(), archiveMentions: items.length, itemsOpened: opened, state, file: best, alternates: picks.slice(1, 4) };
   fs.mkdirSync(OUT_DIR, { recursive: true });

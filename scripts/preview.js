@@ -71,7 +71,19 @@ header input:focus{border-color:var(--acc)}
 .card img{width:100%;height:100%;object-fit:cover;display:block}
 .card .t{padding:8px 10px 10px}.card b{display:block;font-size:14px;line-height:1.25}.card small{color:var(--dim);display:block;margin-top:3px}
 .card .r{color:var(--rev);font-size:12px}
-h2{margin:18px 20px 8px;font-size:18px}h2 small{color:var(--dim);font-weight:400;font-size:13px;margin-left:8px}
+h2{margin:18px 20px 8px;font-size:18px;display:flex;align-items:baseline;gap:10px}h2 small{color:var(--dim);font-weight:400;font-size:13px}h2 .all{margin-left:auto;color:var(--acc);font-size:13px;font-weight:400;cursor:pointer}
+.rowwrap{position:relative;padding:0 20px}
+.track{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;padding:4px 2px 10px;scrollbar-width:none}.track::-webkit-scrollbar{display:none}
+.track .card{flex:0 0 156px;scroll-snap-align:start}
+.arrow{position:absolute;top:0;bottom:10px;width:40px;border:0;background:linear-gradient(90deg,var(--bg),transparent);color:var(--fg);font-size:28px;cursor:pointer;z-index:2;opacity:.85}
+.arrow.l{left:0}.arrow.r{right:0;background:linear-gradient(270deg,var(--bg),transparent)}.arrow:hover{opacity:1;color:var(--acc)}
+.card{position:relative}.card .more{position:absolute;top:6px;right:6px;width:26px;height:26px;border-radius:50%;border:1px solid var(--line);background:rgba(7,8,12,.75);color:var(--fg);cursor:pointer;font-size:13px;line-height:24px;text-align:center}
+.card .more:hover,.card.open .more{border-color:var(--acc);color:var(--acc)}
+.detail{margin:0 20px 16px;background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:grid;grid-template-columns:90px 1fr;gap:14px;animation:drop .18s ease-out}
+@keyframes drop{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}
+.detail img{width:90px;border-radius:6px;display:block}.detail b{font-size:17px}.detail p{margin:6px 0;font-size:14px;max-width:820px}.detail .g{color:var(--dim);font-size:12px}
+.detail .acts{margin-top:10px;display:flex;gap:8px;flex-wrap:wrap}
+.grid .card.open .indetail{display:block}.indetail{display:none;padding:0 10px 10px;font-size:13px;color:var(--fg)}.indetail p{margin:4px 0}
 .genres{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px;padding:0 20px 24px}
 .genres button{background:var(--panel);border:1px solid var(--line);color:var(--fg);padding:16px 10px;border-radius:10px;cursor:pointer}
 .genres button:hover{border-color:var(--acc)}.genres small{display:block;color:var(--dim);margin-top:3px}
@@ -98,7 +110,7 @@ footer{color:var(--dim);font-size:12px;padding:20px;border-top:1px solid var(--l
 <script>
 const SHOWS=${JSON.stringify(shows)};
 const TYPES=${JSON.stringify([...LIST.types, 'TV Movies', 'Specials'])};
-const state={q:'',type:'',genre:'',network:'',decade:'',sort:'eps',show:null,se:0,e:0};
+const state={q:'',type:'',genre:'',network:'',decade:'',sort:'eps',show:null,se:0,e:0,open:null,openCtx:null};
 const $=(id)=>document.getElementById(id);
 const esc=(s)=>String(s).replace(/[&<>"]/g,(c)=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const decade=(y)=>y?Math.floor(+y/10)*10+'s':'';
@@ -106,13 +118,31 @@ function counts(key){const m={};for(const s of SHOWS){const v=key==='genres'?s.g
 function filtered(){const q=state.q.trim().toLowerCase();let r=SHOWS.filter(s=>(!state.type||s.type===state.type)&&(!state.genre||s.genres.includes(state.genre))&&(!state.network||s.network===state.network)&&(!state.decade||decade(s.year)===state.decade)&&(!q||s.show.toLowerCase().includes(q)||s.genres.join(' ').toLowerCase().includes(q)||(s.network||'').toLowerCase().includes(q)));
  const by={eps:(a,b)=>b.eps-a.eps,rating:(a,b)=>(b.rating||0)-(a.rating||0)||b.eps-a.eps,year:(a,b)=>(+b.year||0)-(+a.year||0),old:(a,b)=>(+a.year||9999)-(+b.year||9999),az:(a,b)=>a.show.localeCompare(b.show),added:(a,b)=>(b.matchedAt||'').localeCompare(a.matchedAt||'')};return r.sort(by[state.sort]||by.eps)}
 function sel(key,label,opts){return '<select onchange="state.'+key+'=this.value;render()"><option value="">'+label+'</option>'+opts.map(([v,n])=>'<option value="'+esc(v)+'"'+(state[key]===v?' selected':'')+'>'+esc(v)+(n?' ('+n+')':'')+'</option>').join('')+'</select>'}
-function card(s){const total=s.eps;return '<div class="card" tabindex="0" onclick="go(\\''+s.slug+'\\')" onkeydown="if(event.key===\\'Enter\\')go(\\''+s.slug+'\\')">'+(s.poster?'<div class="p"><img loading="lazy" src="'+s.poster+'" alt=""></div>':'<div class="p">'+esc(s.show)+'</div>')+'<div class="t"><b>'+esc(s.show)+'</b><small>'+esc(s.network||'')+(s.year?' · '+s.year:'')+' · '+total+' ep'+(total===1?'':'s')+(s.rating?' · ★ '+s.rating:'')+'</small></div></div>'}
+function meta(s){return [s.network,s.year,s.genres.join(' · '),s.rating?'★ '+s.rating:'',s.eps+' episode'+(s.eps===1?'':'s'),s.runtime?s.runtime+' min':''].filter(Boolean).join('  ·  ')}
+function card(s,ctx){const total=s.eps;const open=state.open===s.slug;return '<div class="card'+(open?' open':'')+'" data-slug="'+s.slug+'" tabindex="0" onclick="go(\\''+s.slug+'\\')" onkeydown="if(event.key===\\'Enter\\')go(\\''+s.slug+'\\')">'
+ +'<button class="more" title="Details" onclick="event.stopPropagation();toggle(\\''+s.slug+'\\',\\''+ctx+'\\')">'+(open?'▴':'▾')+'</button>'
+ +(s.poster?'<div class="p"><img loading="lazy" src="'+s.poster+'" alt=""></div>':'<div class="p">'+esc(s.show)+'</div>')+'<div class="t"><b>'+esc(s.show)+'</b><small>'+esc(s.network||'')+(s.year?' · '+s.year:'')+' · '+total+' ep'+(total===1?'':'s')+(s.rating?' · ★ '+s.rating:'')+'</small></div>'
+ +(ctx==='grid'?'<div class="indetail"><p>'+esc(s.overview||'No description yet.')+'</p><p class="g">'+esc(meta(s))+'</p></div>':'')+'</div>'}
+function detail(s){return '<div class="detail">'+(s.poster?'<img src="'+s.poster+'" alt="">':'<div></div>')+'<div><b>'+esc(s.show)+'</b><p>'+esc(s.overview||'No description yet.')+'</p><div class="g">'+esc(meta(s))+'</div><div class="acts"><button class="btn" onclick="go(\\''+s.slug+'\\')">▶ Play</button><button class="btn" onclick="state.open=null;render()">Close</button></div></div></div>'}
+function toggle(slug,ctx){state.open=state.open===slug?null:slug;state.openCtx=ctx;render();if(state.open&&ctx!=='grid'){const d=document.querySelector('.detail');if(d)d.scrollIntoView({block:'nearest',behavior:'smooth'})}}
+function shelf(title,list,key){const id='t'+Math.random().toString(36).slice(2,8);const openHere=state.open&&state.openCtx===key&&list.some(s=>s.slug===state.open);
+ return '<h2>'+esc(title)+'<small>'+list.length+' shows</small>'+(key.startsWith('type:')?'<span class="all" onclick="state.type=\\''+esc(title)+'\\';render();window.scrollTo(0,0)">See all ›</span>':'')+'</h2>'
+ +'<div class="rowwrap"><button class="arrow l" onclick="slide(\\''+id+'\\',-1)">‹</button><div class="track" id="'+id+'">'+list.map(s=>card(s,key)).join('')+'</div><button class="arrow r" onclick="slide(\\''+id+'\\',1)">›</button></div>'
+ +(openHere?detail(list.find(s=>s.slug===state.open)):'')}
+function slide(id,dir){const t=$(id);if(t)t.scrollBy({left:dir*(t.clientWidth-120),behavior:'smooth'})}
 function browse(){const list=filtered();const any=state.type||state.genre||state.network||state.decade||state.q;
  let h='<div class="bar">'+sel('type','All rows',TYPES.map(t=>[t,SHOWS.filter(s=>s.type===t).length]).filter(x=>x[1]))+sel('genre','All genres',counts('genres'))+sel('network','All networks',counts('network').slice(0,60))+sel('decade','All decades',[['1990s'],['2000s'],['2010s'],['2020s']].map(([d])=>[d,SHOWS.filter(s=>decade(s.year)===d).length]))
  +'<select onchange="state.sort=this.value;render()">'+[['eps','Most episodes'],['rating','Top rated'],['year','Newest'],['old','Oldest'],['added','Recently added'],['az','A to Z']].map(([v,n])=>'<option value="'+v+'"'+(state.sort===v?' selected':'')+'>'+n+'</option>').join('')+'</select>'
  +'<span class="count">'+list.length+' shows · '+list.reduce((n,s)=>n+s.eps,0)+' episodes</span></div>';
  if(any)h+='<div class="chips">'+[['type',state.type],['genre',state.genre],['network',state.network],['decade',state.decade]].filter(x=>x[1]).map(([k,v])=>'<span class="chip on" onclick="state.'+k+'=\\'\\';render()">'+esc(v)+' ✕</span>').join('')+(state.q?'<span class="chip on" onclick="state.q=\\'\\';$(\\'q\\').value=\\'\\';render()">“'+esc(state.q)+'” ✕</span>':'')+'</div>';
- h+='<div class="grid">'+list.map(card).join('')+'</div>';
+ if(any){h+='<div class="grid">'+list.map(s=>card(s,'grid')).join('')+'</div>';}
+ else{
+  const recent=[...SHOWS].sort((a,b)=>(b.matchedAt||'').localeCompare(a.matchedAt||'')).slice(0,30);
+  h+=shelf('Recently added',recent,'recent');
+  const top=[...SHOWS].filter(s=>s.rating).sort((a,b)=>b.rating-a.rating||b.eps-a.eps).slice(0,30);
+  h+=shelf('Top rated',top,'top');
+  for(const t of TYPES){const rows=list.filter(s=>s.type===t);if(rows.length)h+=shelf(t,rows,'type:'+t)}
+ }
  if(!any){h+='<h2>Explore by Genre</h2><div class="genres">'+counts('genres').map(([g,n])=>'<button onclick="state.genre=\\''+esc(g)+'\\';render();window.scrollTo(0,0)">'+esc(g)+'<small>'+n+' shows</small></button>').join('')+'</div>';
   h+='<h2>By Network</h2><div class="genres">'+counts('network').slice(0,24).map(([g,n])=>'<button onclick="state.network=\\''+esc(g)+'\\';render();window.scrollTo(0,0)">'+esc(g)+'<small>'+n+' shows</small></button>').join('')+'</div>'}
  $('main').innerHTML=h}
