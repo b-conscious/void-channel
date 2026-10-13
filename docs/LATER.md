@@ -1,0 +1,37 @@
+# Later
+
+B's divergences, parked on purpose. The build order stays: hunt -> site -> control room -> nightly -> swap.
+When a step lands, pull the next idea from here. Nothing in this file is forgotten; nothing in it
+jumps the queue.
+
+## Pull when the site (step 2) starts
+- **The TV world.** Channels = the networks shows aired on, always playing on a computed schedule,
+  surf with channel up/down and a guide, static between stations, change the episode when a show
+  is on and the channel remembers your pick and position per channel per show. Proposed as the
+  home page, with the library one click behind it. (2026-10-13)
+- **Smart video player.** In-browser remux of .mkv, AC3/DTS audio decoded on the viewer's machine,
+  HEVC via device hardware. For the classics that exist only in formats browsers will not play.
+  Never a server. (2026-10-13, after SG-1 played silent)
+- **Explore by Genre grid** below the rows; Trending / Popular / Top Rated tabs ranked over OUR
+  catalog so they mean "best that actually plays". (2026-10-13)
+- **One sourcing line** in the footer (Internet Archive + the TMDB credit), never per card. (2026-10-13)
+
+## Pull after the site is live
+- **Interactive episodes.** Choose-your-own-adventure stories generated in the builder from each
+  show's metadata (premise, episode synopses, characters, stills), shipped as small story files,
+  played inline on a channel, choices remembered. Presented as fan fiction. Prove on one show B
+  picks. (2026-10-13)
+- **READ mode.** B has prior work on a smart reader for books and comics. Reuse the player shell;
+  ask to see his work before building. (2026-10-13)
+- **PLAY mode.** Rework the Archive's games with current tech: emulator cores in WebAssembly,
+  gamepad and touch, save states, upscaling, couch mode. (2026-10-13)
+- **Godot "TV room".** An optional immersive mode (a den with a set, a wall of TVs) drawn over the
+  same HTML video. Godot for this and the games, never for the site itself. (2026-10-13)
+- **Second TV-movie pass** with hand-made episode lists where TVmaze has none (NTSF, Eltingville)
+  and search hints for generic names (Martin, ER, Lost, Oz, Review, Legit, Autopsy).
+- **Name collisions** needing per-show search/TVmaze overrides: The Office (UK), Shameless (UK),
+  CBC's The Newsroom, AU Wilfred and Review.
+
+## Not VoidTV, but B wants them kept
+- **Godot / Althalus game.** Godot 4.7.2 is installed; first project not yet created (needs a folder).
+- **Jaynes and CASH doctrine.** B's reading of consciousness; read the doctrine files when he points at them.
