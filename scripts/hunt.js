@@ -46,8 +46,9 @@ function slug(s) { return norm(s).replace(/ /g, '-'); }
 function searchWords(show) {
   return show.toLowerCase().replace(/&/g, ' and ').replace(/’/g, "'")
     .split(/[^a-z0-9']+/).map((w) => w.replace(/^'+|'+$/g, '')).filter(Boolean)
-    .map((w) => (w.includes("'") ? w.split("'")[0] + '*' : w))
-    .filter((w) => w !== '*' && !['the', 'and', 'a', 'of', 'with'].includes(w));
+    // "rocko's" -> rocko*; "it's" -> dropped (a 2-letter wildcard matches everything and breaks AND)
+    .map((w) => (w.includes("'") ? (w.split("'")[0].length >= 4 ? w.split("'")[0] + '*' : '') : w))
+    .filter((w) => w && !['the', 'and', 'a', 'of', 'with'].includes(w));
 }
 
 // ---- polite fetch with cache -------------------------------------------------------------
@@ -91,16 +92,33 @@ async function tvmaze(show) {
       id: s.id, name: s.name, runtime: s.runtime || s.averageRuntime || null, premiered: s.premiered || null,
       network: ((s.network || s.webChannel || {}).name) || null,
       episodes: eps.map((e) => ({ season: e.season, number: e.number, name: e.name, airdate: e.airdate, runtime: e.runtime })),
+      cast: await tvmazeCast(s.id),
     };
     fs.mkdirSync(CACHE_DIR, { recursive: true }); fs.writeFileSync(cf, JSON.stringify(out));
     return out;
   } catch (e) { return null; }
 }
+// Lead actors and characters: the discriminators that rescue a common-word title ("Oz", "Rome").
+async function tvmazeCast(id) {
+  try {
+    const r = await fetch(`https://api.tvmaze.com/shows/${id}/cast`, { signal: AbortSignal.timeout(20000) });
+    if (!r.ok) return [];
+    const cast = await r.json();
+    const names = [];
+    for (const c of cast.slice(0, 4)) { if (c.person && c.person.name) names.push(c.person.name); if (c.character && c.character.name) names.push(c.character.name); }
+    return [...new Set(names)].filter((n) => n.split(' ').length >= 2 && !/^(self|himself|herself|various|narrator|host)$/i.test(n));
+  } catch (e) { return []; }
+}
+// Older cache entries predate the cast field; fill it in once.
+async function ensureCast(tv, show) {
+  if (!tv || tv.cast) return tv;
+  tv.cast = await tvmazeCast(tv.id);
+  fs.writeFileSync(path.join(CACHE_DIR, 'tvmaze-' + slug(show) + '.json'), JSON.stringify(tv));
+  return tv;
+}
 
 // ---- Archive: wide search -----------------------------------------------------------------
-async function scrape(show) {
-  const words = searchWords(show);
-  const q = `(${words.join(' AND ')}) AND mediatype:movies`;
+async function scrapeQuery(q, key) {
   const items = [];
   let cursor = null;
   for (let page = 0; page < 4; page++) {
@@ -108,22 +126,50 @@ async function scrape(show) {
       q, fields: 'identifier,title,description,subject,year,downloads,collection,creator', count: String(SCRAPE_COUNT),
       ...(cursor ? { cursor } : {}),
     });
-    const j = await getJson(url, `scrape-${slug(show)}-${page}`);
+    const j = await getJson(url, `${key}-${page}`);
     items.push(...(j.items || []));
     cursor = j.cursor;
     if (!cursor || items.length >= 2000) break;
   }
   return items;
 }
+// Wide net: the show's words anywhere. Narrow net (for common-word titles that flood the wide
+// net): the words in the TITLE, plus the words anywhere alongside a lead actor, character or
+// the network. Both nets are cast when narrow is on; results merge by identifier.
+async function scrape(show, tv, narrow) {
+  const words = searchWords(show);
+  const wide = `(${words.join(' AND ')}) AND mediatype:movies`;
+  const wideItems = await scrapeQuery(wide, `scrape-${slug(show)}`);
+  if (!narrow) return wideItems;
+  const core = norm(show).replace(/^the /, '');
+  const disc = [...(tv && tv.cast ? tv.cast : []), ...(tv && tv.network ? [tv.network] : [])].slice(0, 9).map((d) => `"${d.replace(/"/g, '')}"`);
+  const items = [];
+  const seen = new Set();
+  const add = (list) => { for (const it of list) if (!seen.has(it.identifier)) { seen.add(it.identifier); items.push(it); } };
+  add(await scrapeQuery(`title:(${words.join(' AND ')}) AND mediatype:movies`, `scrape-title-${slug(show)}`));
+  if (disc.length) add(await scrapeQuery(`(${words.join(' AND ')}) AND (${disc.join(' OR ')}) AND mediatype:movies`, `scrape-cast-${slug(show)}`));
+  // Flooded wide results carry little signal; keep only the ones whose title or id has the name.
+  add(wideItems.filter((it) => norm(it.title).includes(core) || norm(it.identifier).includes(core.replace(/ /g, ''))));
+  return items;
+}
 
 // Score an item from search fields alone (0..1): does it look like it holds this show?
-function itemScore(it, show, tv) {
+function itemScore(it, show, tv, narrow) {
   const core = norm(show).replace(/^the /, '');
   const title = norm(it.title), desc = norm(Array.isArray(it.description) ? it.description.join(' ') : it.description), id = norm(it.identifier);
   const subj = norm(Array.isArray(it.subject) ? it.subject.join(' ') : it.subject);
+  const all = `${title} ${desc} ${subj}`;
   let s = 0;
   if (title.includes(core)) s += 0.5; else if (id.includes(core.replace(/ /g, ''))) s += 0.4; else if (desc.includes(core) || subj.includes(core)) s += 0.3;
-  if (/\bs\d{1,2}\s?e\d{1,3}\b|\bseason\b|\bcomplete\b|\bepisodes?\b|\bseries\b|\barchive\b|\bcollection\b|\bmarathon\b|\bbumps?\b/.test(title + ' ' + desc)) s += 0.2;
+  const epMark = /\bs\d{1,2}\s?e\d{1,3}\b|\bseason\b|\bcomplete\b|\bepisodes?\b|\bseries\b|\barchive\b|\bcollection\b|\bmarathon\b|\bbumps?\b/.test(title + ' ' + desc);
+  if (epMark) s += 0.2;
+  // Lead actor / character / network present: strong evidence it is THIS show and not a namesake.
+  const disc = [...((tv && tv.cast) || []), ...((tv && tv.network) ? [tv.network] : [])].map(norm).filter((d) => d.length >= 4);
+  const discHit = disc.some((d) => all.includes(d));
+  if (discHit) s += 0.3;
+  // Narrow mode (common-word title): without a cast / character / network hit, do not open it.
+  // Episode-marker words ("collection", "archive", "series") are too common to count here.
+  if (narrow && !discHit) s = Math.min(s, 0.25);
   if (/\bytp\b|youtube poop|\bamv\b|remix|reaction|review|gameplay|soundtrack|\bost\b|theme song|trailer|\bpromo\b/.test(title)) s -= 0.4;
   if (tv && tv.premiered && it.year && +it.year < +tv.premiered.slice(0, 4) - 1) s -= 0.3;
   const colls = (Array.isArray(it.collection) ? it.collection : [it.collection]).filter((c) => c && !String(c).startsWith('fav-'));
@@ -195,14 +241,19 @@ async function openItem(id, show, tv) {
 async function huntShow(entry) {
   const show = entry.name;
   console.log(`\n== ${show} (${entry.type} / ${entry.network})`);
-  const tv = await tvmaze(show);
+  const tv = await ensureCast(await tvmaze(show), show);
   console.log(tv ? `   TVmaze: ${tv.name}, ${tv.runtime} min, ${tv.episodes.length} episodes, from ${tv.premiered}` : '   TVmaze: no match');
-  const items = await scrape(show);
-  const scored = items.map((it) => ({ ...it, score: itemScore(it, show, tv) })).filter((it) => it.score >= 0.3)
+  // Prior candidates (if any) are kept and merged; their mention count decides the narrow net.
+  const outFile = path.join(OUT_DIR, slug(show) + '.json');
+  const prior = fs.existsSync(outFile) ? JSON.parse(fs.readFileSync(outFile, 'utf8')) : null;
+  const narrow = searchWords(show).length <= 1 || (prior && prior.archiveMentions >= 1500);
+  const items = await scrape(show, tv, narrow);
+  const scored = items.map((it) => ({ ...it, score: itemScore(it, show, tv, narrow) })).filter((it) => it.score >= 0.3)
     .sort((a, b) => b.score - a.score || (+b.downloads || 0) - (+a.downloads || 0));
-  console.log(`   Archive mentions: ${items.length}; worth opening: ${scored.length}; opening up to ${MAX_ITEMS_TO_OPEN}`);
-  const opened = [];
-  for (const it of scored.slice(0, MAX_ITEMS_TO_OPEN)) {
+  console.log(`   Archive mentions: ${items.length}${narrow ? ' (narrow net)' : ''}; worth opening: ${scored.length}; opening up to ${MAX_ITEMS_TO_OPEN}`);
+  const opened = prior ? prior.items.map((o) => ({ ...o })) : [];
+  const already = new Set(opened.map((o) => o.id));
+  for (const it of scored.filter((it) => !already.has(it.identifier)).slice(0, MAX_ITEMS_TO_OPEN)) {
     try {
       const o = await openItem(it.identifier, show, tv);
       o.searchScore = it.score; o.year = it.year; o.downloads = it.downloads;
@@ -253,18 +304,20 @@ async function main() {
   const missing = args.includes('--missing');
   const refresh = args.includes('--refresh');
   const fresh = args.includes('--fresh');
+  const pass2 = args.includes('--pass2'); // re-hunt shows under 50% coverage with the narrow net + deeper opening
   const valued = new Set(['--budget', '--open', '--pause', '--type']);
   const filter = (args.find((a, i) => !a.startsWith('--') && !valued.has(args[i - 1])) || '').toLowerCase();
   const notThere = new Set(CENSUS.filter((r) => r.verdict === 'NOT THERE').map((r) => r.show));
   const hunted = (s) => fs.existsSync(path.join(OUT_DIR, slug(s.name) + '.json'));
+  const coverage = (s) => { const f = path.join(ROOT, 'catalog', 'shows', slug(s.name) + '.json'); try { return JSON.parse(fs.readFileSync(f, 'utf8')).coverage.pct; } catch (e) { return 0; } };
   const jobs = LIST.shows.filter((s) => (filter ? s.name.toLowerCase().includes(filter) : true) && (type ? s.type === type : true)
-    && (missing ? notThere.has(s.name) : true) && (fresh || filter ? true : !hunted(s)));
+    && (missing ? notThere.has(s.name) : true) && (pass2 ? coverage(s) < 50 : (fresh || filter ? true : !hunted(s))));
   console.log(`${jobs.length} shows to hunt, budget ${budget} Archive calls, open ${MAX_ITEMS_TO_OPEN} items/show, ${PAUSE_MS}ms pause`);
   for (const j of jobs) {
     if (calls >= budget) { console.log('\nBudget spent; stopping. Re-run to continue (cached calls are free).'); break; }
     try { await huntShow(j); } catch (e) { console.log(`   !! ${j.name}: ${e.message}`); }
     if (refresh) {
-      try { execFileSync(process.execPath, [path.join(__dirname, 'match.js')], { stdio: 'ignore' }); execFileSync(process.execPath, [path.join(__dirname, 'preview.js')], { stdio: 'ignore' }); }
+      try { for (const s of ['match.js', 'db.js', 'preview.js']) execFileSync(process.execPath, [path.join(__dirname, s)], { stdio: 'ignore' }); }
       catch (e) { console.log('   (refresh failed: ' + e.message.slice(0, 80) + ')'); }
     }
   }

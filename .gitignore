@@ -25,3 +25,5 @@ _livetest.js
 
 # builder: raw Archive/TVmaze responses stay local (regenerable)
 catalog/cache/
+catalog/voidtv.db*
+catalog/preview.html
