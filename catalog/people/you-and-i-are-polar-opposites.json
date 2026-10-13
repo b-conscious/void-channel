@@ -1,0 +1,322 @@
+{
+ "show": "You and I Are Polar Opposites",
+ "slug": "you-and-i-are-polar-opposites",
+ "tmdbId": 278043,
+ "cast": [
+  {
+   "id": 2206133,
+   "name": "Sayumi Suzushiro",
+   "photo": "https://image.tmdb.org/t/p/w185/7wEX0bXCs2djnp0dKsCqmMKZpZV.jpg",
+   "character": "Miyu Suzuki (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 2812912,
+   "name": "Shogo Sakata",
+   "photo": "https://image.tmdb.org/t/p/w185/fRRPNBz3OCNRdmLdUTdpq7dGqxM.jpg",
+   "character": "Yuusuke Tani (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 2018188,
+   "name": "Yuna Taniguchi",
+   "photo": "https://image.tmdb.org/t/p/w185/zAiaPjmCilD3AhcTdDoGf2z1mUA.jpg",
+   "character": "Manami Watanabe (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 5641479,
+   "name": "Konatsu Hirabayashi",
+   "photo": "https://image.tmdb.org/t/p/w185/vTaOJ2cMUUcw2l6VarzLSbKACcQ.jpg",
+   "character": "Aoi Sato (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 5364498,
+   "name": "Anji Iwata",
+   "photo": "https://image.tmdb.org/t/p/w185/8YdsLlhXiVL1Qyn59HzbGubS2Fq.jpg",
+   "character": "Kentaro Yamada (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 2256610,
+   "name": "Miyuri Shimabukuro",
+   "photo": "https://image.tmdb.org/t/p/w185/rjhyRM2hn1deQG1V6cwC8AEEKNT.jpg",
+   "character": "Shino Azuma (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 4917247,
+   "name": "Cocoro Omori",
+   "photo": "https://image.tmdb.org/t/p/w185/kWFIBZA39oPW9J2SM4OuZqw8u28.jpg",
+   "character": "Natsumi Nishi (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 2004086,
+   "name": "Tomori Kusunoki",
+   "photo": "https://image.tmdb.org/t/p/w185/iiGJPsLAnOoqmkNjLWCvbbDJw50.jpg",
+   "character": "Rikako Honda (voice) / Yeti (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 2410194,
+   "name": "Wataru Katoh",
+   "photo": "https://image.tmdb.org/t/p/w185/7PUe94Ju0klZfEutSSbdOJyaV0y.jpg",
+   "character": "Shuuji Taira (voice) / Tenpura (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 3537866,
+   "name": "Miyuki Sahaku",
+   "photo": "https://image.tmdb.org/t/p/w185/oo7cEelalKg7Lxx63hrtgFQLveT.jpg",
+   "character": "Suzuki's Mother (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 3702222,
+   "name": "Daichi Fujiwara",
+   "photo": "https://image.tmdb.org/t/p/w185/fk3ImXh6LGtTYfBuxTKHEOwvOhl.jpg",
+   "character": "Morimo (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 2710093,
+   "name": "Yuki Urushiyama",
+   "photo": "https://image.tmdb.org/t/p/w185/xwAp5GY3NY5naguaPYS5NCwfh3b.jpg",
+   "character": "Mini (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 2784795,
+   "name": "Genta Nakamura",
+   "photo": "https://image.tmdb.org/t/p/w185/bl3pu2fsaNfHqnZQSDugY4V1CE0.jpg",
+   "character": "Suzuki's Brother (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 2493827,
+   "name": "Nobuyuki Sakuma",
+   "photo": "https://image.tmdb.org/t/p/w185/acXznpBY0OTCRuF7j9ygia0rspO.jpg",
+   "character": "Former Homeroom Teacher (voice) / Homeroom Teacher (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 3083755,
+   "name": "Satoshi Niwa",
+   "photo": "https://image.tmdb.org/t/p/w185/fvOmH6f0J6i2oUt5gLRzdwPRPMk.jpg",
+   "character": "Saotome (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 3290539,
+   "name": "Yudai Mino",
+   "photo": "https://image.tmdb.org/t/p/w185/ndM2zeVSLsb80JUBRCMF1BOUgai.jpg",
+   "character": "Hasegawa (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 4055482,
+   "name": "Momoko Noji",
+   "photo": "https://image.tmdb.org/t/p/w185/ecd6YX3IBOzGwIXagaAHuKogsy4.jpg",
+   "character": "Tani's Grandmother (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 2381706,
+   "name": "Shunichi Maki",
+   "photo": "https://image.tmdb.org/t/p/w185/ivESgftEqDgcHQlsbKdW9DYwuH7.jpg",
+   "character": "Gomapon (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 2103076,
+   "name": "Hitomi Shogawa",
+   "photo": "https://image.tmdb.org/t/p/w185/i8DwdeHiCfPFYwTowVd3pKXdaZJ.jpg",
+   "character": "Tani's Mother (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 2787672,
+   "name": "Yuki Tamai",
+   "photo": "https://image.tmdb.org/t/p/w185/jpkR0WMXEveDJq7TYBvOLKrNXSl.jpg",
+   "character": "Suzuki's Father (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 2644897,
+   "name": "Serika Hiromatsu",
+   "photo": "https://image.tmdb.org/t/p/w185/tZdFouOrpbrWiE42HMFDOrA4YJn.jpg",
+   "character": "Midori Kawasaki (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 2603963,
+   "name": "Kosuke Echigoya",
+   "photo": "https://image.tmdb.org/t/p/w185/ehEQGlr5ORQ5DPWWNvqqnMYvppZ.jpg",
+   "character": "Principal (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 3921101,
+   "name": "Saki Takahashi",
+   "photo": "https://image.tmdb.org/t/p/w185/yNGz49k5FaPQQb1LGci79c9iU0r.jpg",
+   "character": "Taira's ex-Girlfriend (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 5130886,
+   "name": "Nana Hasumi",
+   "photo": "https://image.tmdb.org/t/p/w185/l9bE67CFaTkXNvuHhWredcQeTCr.jpg",
+   "character": "Light Music Club Member B (voice) / Neighborhood Girl (voice)",
+   "episodes": 3
+  }
+ ],
+ "crew": [
+  {
+   "id": 1817525,
+   "name": "Teruko Utsumi",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 2929448,
+   "name": "Takayoshi Nagatomo",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 27
+  },
+  {
+   "id": 1748307,
+   "name": "Toshihiro Takahashi",
+   "photo": "https://image.tmdb.org/t/p/w185/ibCfPV606ibzCrQpLza5XMkPdxm.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 4539931,
+   "name": "Yusuke Nii",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 2801613,
+   "name": "Yoshihisa Heishi",
+   "photo": "https://image.tmdb.org/t/p/w185/1nKceWUfKlTmRsQ4QzPCmqx4ceX.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 3286707,
+   "name": "Tatsuro Hayashi",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 4985808,
+   "name": "Mihoko Shibata",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 1816778,
+   "name": "Toshihiro Maeda",
+   "photo": "https://image.tmdb.org/t/p/w185/uEKRPogU0Z1Lbgy3NWoxeTqX41T.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 3103118,
+   "name": "Hayato Saga",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 1831941,
+   "name": "Toshio Iizuka",
+   "photo": "https://image.tmdb.org/t/p/w185/2rjEiOkAV4OFnZFYSJGiVP3uCP1.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 6118132,
+   "name": "Yuta Furukawa",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 2047033,
+   "name": "tofubeats",
+   "photo": "https://image.tmdb.org/t/p/w185/e470SX6dvxt1RnV9gJB7E6ZCFsA.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 5997331,
+   "name": "Yoshiko Yoshida",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 2414889,
+   "name": "Minoru Yamaoka",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 5377614,
+   "name": "Moe Nakahara",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 2935749,
+   "name": "Yayoi Takano",
+   "photo": "https://image.tmdb.org/t/p/w185/2jtp1AMrYdjGne9jtetiHsp7JKo.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:40:30.738Z"
+}

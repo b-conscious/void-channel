@@ -1,0 +1,325 @@
+{
+ "show": "Orange Is the New Black",
+ "slug": "orange-is-the-new-black",
+ "tmdbId": 1424,
+ "cast": [
+  {
+   "id": 221809,
+   "name": "Taylor Schilling",
+   "photo": "https://image.tmdb.org/t/p/w185/icdvnrgzoxHWpqpNAyGktkqrfc2.jpg",
+   "character": "Piper Chapman",
+   "episodes": 91
+  },
+  {
+   "id": 18974,
+   "name": "Laura Prepon",
+   "photo": "https://image.tmdb.org/t/p/w185/9NiIfFnm2bHfCuYOjkqj3ZQfWpd.jpg",
+   "character": "Alex Vause",
+   "episodes": 91
+  },
+  {
+   "id": 35317,
+   "name": "Kate Mulgrew",
+   "photo": "https://image.tmdb.org/t/p/w185/cikUr2PEluEamVsLgrnWWLx9ZsI.jpg",
+   "character": "Galina 'Red' Reznikov",
+   "episodes": 91
+  },
+  {
+   "id": 95519,
+   "name": "Nick Sandow",
+   "photo": "https://image.tmdb.org/t/p/w185/LEcXWkqH94UJ0V3E5KlGDONJ3D.jpg",
+   "character": "Joe Caputo",
+   "episodes": 91
+  },
+  {
+   "id": 1332680,
+   "name": "Uzo Aduba",
+   "photo": "https://image.tmdb.org/t/p/w185/VXzHXOKBTAcNmhAHHYPiNmhxwF.jpg",
+   "character": "Suzanne 'Crazy Eyes' Warren",
+   "episodes": 90
+  },
+  {
+   "id": 1026947,
+   "name": "Dascha Polanco",
+   "photo": "https://image.tmdb.org/t/p/w185/bIIjxz1EKZEtHeGjju82FkObyl2.jpg",
+   "character": "Dayanara Diaz",
+   "episodes": 89
+  },
+  {
+   "id": 1075037,
+   "name": "Danielle Brooks",
+   "photo": "https://image.tmdb.org/t/p/w185/hwrMFbcALcqrV7S2pRP9C5BXrU0.jpg",
+   "character": "Tasha 'Taystee' Jefferson",
+   "episodes": 89
+  },
+  {
+   "id": 162503,
+   "name": "Selenis Leyva",
+   "photo": "https://image.tmdb.org/t/p/w185/nTiw98CjQt1wKToT1K1jGBcui95.jpg",
+   "character": "Gloria Mendoza",
+   "episodes": 88
+  },
+  {
+   "id": 1028560,
+   "name": "Yael Stone",
+   "photo": "https://image.tmdb.org/t/p/w185/fTKw7YSDZSaLsZKZLODtlIkNoIN.jpg",
+   "character": "Lorna Morello",
+   "episodes": 88
+  },
+  {
+   "id": 343,
+   "name": "Taryn Manning",
+   "photo": "https://image.tmdb.org/t/p/w185/obE0w8SVx7Hq773KY2DCxK1j2GF.jpg",
+   "character": "Tiffany 'Pennsatucky' Doggett",
+   "episodes": 87
+  },
+  {
+   "id": 1443625,
+   "name": "Jackie Cruz",
+   "photo": "https://image.tmdb.org/t/p/w185/10Ec2R2UKeBhqPqRyLwjF1ez96m.jpg",
+   "character": "Marisol 'Flaca' Gonzales",
+   "episodes": 82
+  },
+  {
+   "id": 1443478,
+   "name": "Adrienne C. Moore",
+   "photo": "https://image.tmdb.org/t/p/w185/sn8I8wdcXkD01SJR5yksM9RROm5.jpg",
+   "character": "Cindy Hayes",
+   "episodes": 82
+  },
+  {
+   "id": 10871,
+   "name": "Natasha Lyonne",
+   "photo": "https://image.tmdb.org/t/p/w185/2QJoTBEIeYyjGSDot9qxv2ayPH3.jpg",
+   "character": "Nicky Nichols",
+   "episodes": 81
+  },
+  {
+   "id": 171940,
+   "name": "Jessica Pimentel",
+   "photo": "https://image.tmdb.org/t/p/w185/3ZE6ZlyOOfq8zHzRyOotC5l6989.jpg",
+   "character": "Maria Ruiz",
+   "episodes": 81
+  },
+  {
+   "id": 1443612,
+   "name": "Laura Gómez",
+   "photo": "https://image.tmdb.org/t/p/w185/xdZFWQmttxlpG2aKCYdM7PanDZ2.jpg",
+   "character": "Blanca Flores",
+   "episodes": 74
+  },
+  {
+   "id": 65421,
+   "name": "Elizabeth Rodriguez",
+   "photo": "https://image.tmdb.org/t/p/w185/9f851DP7NHAOKvvlZdXxYigDYbl.jpg",
+   "character": "Aleida Diaz",
+   "episodes": 71
+  },
+  {
+   "id": 1214447,
+   "name": "Michael Harney",
+   "photo": "https://image.tmdb.org/t/p/w185/j64sglNnGc5fAHPEkJ1TmKOITQP.jpg",
+   "character": "Sam Healy",
+   "episodes": 67
+  },
+  {
+   "id": 40063,
+   "name": "Lea DeLaria",
+   "photo": "https://image.tmdb.org/t/p/w185/PNq2MS2Wc9SgQT82L6q2vIOgl4.jpg",
+   "character": "Big Boo",
+   "episodes": 63
+  },
+  {
+   "id": 1448945,
+   "name": "Matt Peters",
+   "photo": "https://image.tmdb.org/t/p/w185/1DUfcjOxjAYOvcOXQ2Ey8fuDYpB.jpg",
+   "character": "Joel Luschek",
+   "episodes": 63
+  },
+  {
+   "id": 1102500,
+   "name": "Dale Soules",
+   "photo": "https://image.tmdb.org/t/p/w185/d7tNFF8AnYexraYWmpSRFkQNE6n.jpg",
+   "character": "Frieda Berlin",
+   "episodes": 63
+  },
+  {
+   "id": 1010157,
+   "name": "Diane Guerrero",
+   "photo": "https://image.tmdb.org/t/p/w185/suyRRuMIjBdAzTxdFM7U9zHMPTv.jpg",
+   "character": "Maritza Ramos",
+   "episodes": 57
+  },
+  {
+   "id": 1443647,
+   "name": "Vicky Jeudy",
+   "photo": "https://image.tmdb.org/t/p/w185/x5QKC750JO6enAZHE0yjY778dgi.jpg",
+   "character": "Janae Watson",
+   "episodes": 56
+  },
+  {
+   "id": 1333708,
+   "name": "Emma Myles",
+   "photo": "https://image.tmdb.org/t/p/w185/iJrpdZamMCwHLcSViv7YWt1cdGX.jpg",
+   "character": "Leanne Taylor",
+   "episodes": 54
+  },
+  {
+   "id": 1034197,
+   "name": "Samira Wiley",
+   "photo": "https://image.tmdb.org/t/p/w185/m45A0hYcpnGckwxqs7j0I6Sp2Dj.jpg",
+   "character": "Poussey Washington",
+   "episodes": 52
+  }
+ ],
+ "crew": [
+  {
+   "id": 1214409,
+   "name": "Jenji Kohan",
+   "photo": "https://image.tmdb.org/t/p/w185/f3ypLKqGYrbJbh9b0mdIqyGeOqx.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 91
+  },
+  {
+   "id": 1783226,
+   "name": "Neri Kyle Tannenbaum",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 117
+  },
+  {
+   "id": 2609135,
+   "name": "Mark A. Burley",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 91
+  },
+  {
+   "id": 1791259,
+   "name": "Tara Herrmann",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 91
+  },
+  {
+   "id": 2280037,
+   "name": "Lisa Vinnecour",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 91
+  },
+  {
+   "id": 1223926,
+   "name": "Sara Hess",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 52
+  },
+  {
+   "id": 206828,
+   "name": "Carolina Paiz",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 1825602,
+   "name": "Jordan Harrison",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 37041,
+   "name": "Andrew McCarthy",
+   "photo": "https://image.tmdb.org/t/p/w185/swlewiX5zUjF5za9JOFXIVrL3kH.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 1214406,
+   "name": "Michael Trim",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1214445,
+   "name": "Phil Abraham",
+   "photo": "https://image.tmdb.org/t/p/w185/kSFThx7LRAFjFPEMERR4O0kuGzf.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1218039,
+   "name": "Constantine Makris",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 95519,
+   "name": "Nick Sandow",
+   "photo": "https://image.tmdb.org/t/p/w185/LEcXWkqH94UJ0V3E5KlGDONJ3D.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 51853,
+   "name": "Uta Briesewitz",
+   "photo": "https://image.tmdb.org/t/p/w185/4sIx2ojAeGjGB4FzxhbAL15DeFy.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1399096,
+   "name": "Erin Feeley",
+   "photo": "https://image.tmdb.org/t/p/w185/f7u3hdPayuhxv07IaVc3ZNEaMfI.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 18974,
+   "name": "Laura Prepon",
+   "photo": "https://image.tmdb.org/t/p/w185/9NiIfFnm2bHfCuYOjkqj3ZQfWpd.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:23.284Z"
+}

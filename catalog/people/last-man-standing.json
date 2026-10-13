@@ -1,0 +1,324 @@
+{
+ "show": "Last Man Standing",
+ "slug": "last-man-standing",
+ "tmdbId": 39297,
+ "cast": [
+  {
+   "id": 12898,
+   "name": "Tim Allen",
+   "photo": "https://image.tmdb.org/t/p/w185/k8XPNHBO459FaqkqqM4tfX5GMKk.jpg",
+   "character": "Mike Baxter",
+   "episodes": 194
+  },
+  {
+   "id": 18331,
+   "name": "Nancy Travis",
+   "photo": "https://image.tmdb.org/t/p/w185/8NVTIgCYB6H0GrAwNPLwdU92pdt.jpg",
+   "character": "Vanessa Baxter",
+   "episodes": 194
+  },
+  {
+   "id": 1210,
+   "name": "Héctor Elizondo",
+   "photo": "https://image.tmdb.org/t/p/w185/7Mfx9xeOFKXtzVpAc1488LiHs0b.jpg",
+   "character": "Ed Alzate",
+   "episodes": 194
+  },
+  {
+   "id": 77521,
+   "name": "Christoph Sanders",
+   "photo": "https://image.tmdb.org/t/p/w185/3XJjZ3Yvkqj0YucwSsOTQUnqT8l.jpg",
+   "character": "Kyle Anderson",
+   "episodes": 194
+  },
+  {
+   "id": 133401,
+   "name": "Amanda Fuller",
+   "photo": "https://image.tmdb.org/t/p/w185/yRZk0c8NMcAiOg9KQqbss96Sbn9.jpg",
+   "character": "Kristin Baxter",
+   "episodes": 170
+  },
+  {
+   "id": 1254592,
+   "name": "Jordan Masterson",
+   "photo": "https://image.tmdb.org/t/p/w185/iTaXeaPZykdQLJtIfgiVTomNVtT.jpg",
+   "character": "Ryan Vogelson",
+   "episodes": 155
+  },
+  {
+   "id": 481337,
+   "name": "Kaitlyn Dever",
+   "photo": "https://image.tmdb.org/t/p/w185/np5rBCFRdeS1sXePL8uY09ktoC4.jpg",
+   "character": "Eve Baxter",
+   "episodes": 134
+  },
+  {
+   "id": 141374,
+   "name": "Molly Ephraim",
+   "photo": "https://image.tmdb.org/t/p/w185/hiYUdTuZHbInzqLYGCPb1P7TO9m.jpg",
+   "character": "Mandy Baxter",
+   "episodes": 130
+  },
+  {
+   "id": 13477,
+   "name": "Jonathan Adams",
+   "photo": "https://image.tmdb.org/t/p/w185/mkgyl2MciZ14wsYi6zedyj6hnR8.jpg",
+   "character": "Chuck Larabee",
+   "episodes": 119
+  },
+  {
+   "id": 1254591,
+   "name": "Flynn Morrison",
+   "photo": null,
+   "character": "Boyd Baxter",
+   "episodes": 106
+  },
+  {
+   "id": 1202361,
+   "name": "Molly McCook",
+   "photo": "https://image.tmdb.org/t/p/w185/xdMzNHEjluk5nVloi7cegnDczRw.jpg",
+   "character": "Mandy Baxter",
+   "episodes": 64
+  },
+  {
+   "id": 38704,
+   "name": "Alexandra Krosney",
+   "photo": "https://image.tmdb.org/t/p/w185/9TAw5TquiDiBqaCoC8i1pqZ4Bsw.jpg",
+   "character": "Kristin Baxter",
+   "episodes": 24
+  },
+  {
+   "id": 1470474,
+   "name": "Krista Marie Yu",
+   "photo": "https://image.tmdb.org/t/p/w185/sRjvHuGxl71BOpmt7qs2u2Y784r.jpg",
+   "character": "Jen",
+   "episodes": 23
+  },
+  {
+   "id": 1116802,
+   "name": "Jet Jurgensmeyer",
+   "photo": "https://image.tmdb.org/t/p/w185/xWoeGeGcpH6A6Q8YnJc9dpcuCpW.jpg",
+   "character": "Boyd Baxter",
+   "episodes": 22
+  },
+  {
+   "id": 33655,
+   "name": "Erika Alexander",
+   "photo": "https://image.tmdb.org/t/p/w185/8o9KbXYoRi9v1u94nbjrslOzE0n.jpg",
+   "character": "Carol",
+   "episodes": 10
+  },
+  {
+   "id": 5694,
+   "name": "Robert Forster",
+   "photo": "https://image.tmdb.org/t/p/w185/vGDifxN2PnO69rnpg6FoWkocFCD.jpg",
+   "character": "Bud Baxter",
+   "episodes": 10
+  },
+  {
+   "id": 14991,
+   "name": "Jay Leno",
+   "photo": "https://image.tmdb.org/t/p/w185/cplpY6q2VFtR7c1gMHM50wPzdU3.jpg",
+   "character": "Joe",
+   "episodes": 10
+  },
+  {
+   "id": 1254593,
+   "name": "Luke Andrew Kruntchev",
+   "photo": "https://image.tmdb.org/t/p/w185/kNiCVZX8w59pAyt9LxOYqx4em8m.jpg",
+   "character": "Boyd (uncredited)",
+   "episodes": 8
+  },
+  {
+   "id": 1449395,
+   "name": "Sarah Gilman",
+   "photo": "https://image.tmdb.org/t/p/w185/t3c7HSIv1R4OZypf51ZgFPx4HBu.jpg",
+   "character": "Cammy / Cammy Harris",
+   "episodes": 8
+  },
+  {
+   "id": 1215979,
+   "name": "Carla Jimenez",
+   "photo": "https://image.tmdb.org/t/p/w185/oqFrZJ2keQS66BZ5Wt2yB2QVxaG.jpg",
+   "character": "Blanca",
+   "episodes": 8
+  },
+  {
+   "id": 1254594,
+   "name": "Evan George Kruntchev",
+   "photo": null,
+   "character": "Boyd (uncredited)",
+   "episodes": 7
+  },
+  {
+   "id": 4758,
+   "name": "Joely Fisher",
+   "photo": "https://image.tmdb.org/t/p/w185/aHJxw4cbpoxvi7LNbnuA1c6jPPO.jpg",
+   "character": "Wendi",
+   "episodes": 6
+  },
+  {
+   "id": 76997,
+   "name": "Bill Engvall",
+   "photo": "https://image.tmdb.org/t/p/w185/bUn1oGOLqhQB2KDJBMXR54MuXJB.jpg",
+   "character": "Rev. Paul / Reverend Paul",
+   "episodes": 5
+  },
+  {
+   "id": 53283,
+   "name": "Jonathan Taylor Thomas",
+   "photo": "https://image.tmdb.org/t/p/w185/lv1ZNrdFGMa8lYjwQyJqePONaDY.jpg",
+   "character": "John Baker",
+   "episodes": 4
+  }
+ ],
+ "crew": [
+  {
+   "id": 1213739,
+   "name": "Jack Burditt",
+   "photo": "https://image.tmdb.org/t/p/w185/2g9EPFt6LbhazHQZNdIJE1TXwac.jpg",
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 12898,
+   "name": "Tim Allen",
+   "photo": "https://image.tmdb.org/t/p/w185/k8XPNHBO459FaqkqqM4tfX5GMKk.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 194
+  },
+  {
+   "id": 17825,
+   "name": "Shawn Levy",
+   "photo": "https://image.tmdb.org/t/p/w185/rpAvyeds9OztUQUUMmgg7eivfLY.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 194
+  },
+  {
+   "id": 58072,
+   "name": "John Pasquin",
+   "photo": "https://image.tmdb.org/t/p/w185/xWFzQthcWx0PoBa7VLKu02GvN1d.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 70
+  },
+  {
+   "id": 191889,
+   "name": "Victor Gonzalez",
+   "photo": "https://image.tmdb.org/t/p/w185/qht0ZxZhLgkYzjSh9rEsBoF8lIG.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 76248,
+   "name": "Kevin Hench",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1306301,
+   "name": "Vince Calandra",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 66508,
+   "name": "Ed Yeager",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 273734,
+   "name": "Mike Teverbaugh",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1296452,
+   "name": "Mike Haukom",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1224459,
+   "name": "Michael Shipley",
+   "photo": "https://image.tmdb.org/t/p/w185/2pBzJFbN6wfUuYeZCCTad5Paytv.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 151192,
+   "name": "Ted Wass",
+   "photo": "https://image.tmdb.org/t/p/w185/tkDX868sa0bX6Noq2ENEdJRHuXh.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1947333,
+   "name": "Robbie Countryman",
+   "photo": "https://image.tmdb.org/t/p/w185/bojjJmbyP5KrT1qpWYG0R9lM3XO.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 2218665,
+   "name": "Matt Berry",
+   "photo": "https://image.tmdb.org/t/p/w185/qwsjxS2hWz8RQnynJCwHs50uswS.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 2218659,
+   "name": "Jon Haller",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1521295,
+   "name": "Marsh McCall",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:34:56.677Z"
+}

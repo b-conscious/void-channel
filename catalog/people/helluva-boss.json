@@ -1,0 +1,262 @@
+{
+ "show": "Helluva Boss",
+ "slug": "helluva-boss",
+ "tmdbId": 289892,
+ "cast": [
+  {
+   "id": 1926345,
+   "name": "Brandon Rogers",
+   "photo": "https://image.tmdb.org/t/p/w185/16lL7KHq4YTY2OK6hx1QZQZM0YX.jpg",
+   "character": "Blitzø (voice)",
+   "episodes": 27
+  },
+  {
+   "id": 81662,
+   "name": "Richard Steven Horvitz",
+   "photo": "https://image.tmdb.org/t/p/w185/pyL1MykCkuKTAp23PmmD6T8HVbn.jpg",
+   "character": "Moxxie / Crimson (voice)",
+   "episodes": 27
+  },
+  {
+   "id": 1224099,
+   "name": "Vivian Nixon",
+   "photo": "https://image.tmdb.org/t/p/w185/2iUtyM6m5f8gHCeJEpUu7uHY5IQ.jpg",
+   "character": "Millie (voice)",
+   "episodes": 27
+  },
+  {
+   "id": 1599422,
+   "name": "Erica Lindbeck",
+   "photo": "https://image.tmdb.org/t/p/w185/l5ISBt8S8Upct0fDgaEPuELp4zE.jpg",
+   "character": "Loona (voice)",
+   "episodes": 27
+  },
+  {
+   "id": 1787739,
+   "name": "Bryce Pinkham",
+   "photo": "https://image.tmdb.org/t/p/w185/zj2MWswSxhl5fIoFgrzh6osVnZn.jpg",
+   "character": "Stolas (voice)",
+   "episodes": 27
+  },
+  {
+   "id": 1697431,
+   "name": "Edward Bosco",
+   "photo": "https://image.tmdb.org/t/p/w185/bdeYwiVuyStWiKRztvq0zixMbcU.jpg",
+   "character": "Bouncer (voice) / Pa (Joe) / Additional Voices (voice) / Dennis / Additional Voices (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 2444628,
+   "name": "Don Darryl Rivera",
+   "photo": "https://image.tmdb.org/t/p/w185/8wiAvt9V5lWuVUAH4cPF3C9oFiF.jpg",
+   "character": "Cletus / Wally Wackford (voice) / Wally Wackford / Additional Voices (voice) / Wally Wackford (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 2136214,
+   "name": "Georgina Leahy",
+   "photo": "https://image.tmdb.org/t/p/w185/ny5u0myA8oYKCl2sjhnOFzhd3Oa.jpg",
+   "character": "Stella (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 1754390,
+   "name": "Vivienne Medrano",
+   "photo": "https://image.tmdb.org/t/p/w185/cco4rKedqE5n9jvOHanINDcyBJy.jpg",
+   "character": "Keenie / Deerie (voice) / Keenie (voice) / Additional Voices (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 1352419,
+   "name": "Jinkx Monsoon",
+   "photo": "https://image.tmdb.org/t/p/w185/idHAbERujrotyMtzWYtLujioymO.jpg",
+   "character": "Martha / Additional Voices (voice) / Additional Voices (voice) / Party Girl / Additional Voices (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 1473281,
+   "name": "James Monroe Iglehart",
+   "photo": "https://image.tmdb.org/t/p/w185/5fJlA41PdcZ9MOAhdywVTSwOyDA.jpg",
+   "character": "Asmodeus 'Ozzie' / Additional Voices (voice) / Vortex (voice) / Vortex / Additional Voices (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 3748393,
+   "name": "Lyle Rath",
+   "photo": "https://image.tmdb.org/t/p/w185/nVHhbdtuWtvJxHo3IhZgIhtxdv.jpg",
+   "character": "The Producer / Additional Voices (voice) / Lifeguard Dude/ Additional Voices (voice) / Additional Voices (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 2007198,
+   "name": "Alex Brightman",
+   "photo": "https://image.tmdb.org/t/p/w185/3QotS4a8RAI1jR6mjWAG4C8HIoq.jpg",
+   "character": "Fizzarolli / Additional Voices (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 3854669,
+   "name": "Jayden Libran",
+   "photo": "https://image.tmdb.org/t/p/w185/diK71kCGe4eBcXUpXfVrQfDSMGE.jpg",
+   "character": "Collin (voice) / Collin / Additional Voices (voice) / Additional Voices (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 2443143,
+   "name": "Monica Franco",
+   "photo": "https://image.tmdb.org/t/p/w185/opDvaQDJtBMtLifdWEfDvlhhosV.jpg",
+   "character": "Saggy Hellhound Lady / Additional Voices (voice) / Yelling Old Delores (voice) / Additional Voices (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 2000333,
+   "name": "Juliana Sada",
+   "photo": "https://image.tmdb.org/t/p/w185/zTV2zbI2Rc9zi1azAndjZwgcDAM.jpg",
+   "character": "Baby Octavia /Additional Voices (voice) / Additional Voices (voice) / Children (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 3003243,
+   "name": "Jason LaShea",
+   "photo": null,
+   "character": "Andrealphus (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 2588284,
+   "name": "Barrett Wilbert Weed",
+   "photo": "https://image.tmdb.org/t/p/w185/pxuoEy7ahM1zeCWlYNx2zuwK862.jpg",
+   "character": "Octavia (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 81597,
+   "name": "Maxwell Atoms",
+   "photo": "https://image.tmdb.org/t/p/w185/aqyhhgwaEfVU166lWvR8Cxj7tmN.jpg",
+   "character": "Additional Voices (voice) / Ralphie / Jarold / Additional Voices (voice) / Loo Loo / Additional Voices (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 1192968,
+   "name": "Cristina Valenzuela",
+   "photo": "https://image.tmdb.org/t/p/w185/7XlfLFY3zKqzqUfgksWicg5mzGY.jpg",
+   "character": "Verosika Mayday (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 11717,
+   "name": "Mara Wilson",
+   "photo": "https://image.tmdb.org/t/p/w185/305mjPnTI7ep8rDJ4i7H6XyvLqP.jpg",
+   "character": "Additional Voices (voice) / Mrs. Mayberry (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 2023218,
+   "name": "Dashiell McGaha-Schletter",
+   "photo": "https://image.tmdb.org/t/p/w185/e7tcQuZ9NYX18xOSfaovyLyw95e.jpg",
+   "character": "Children (voice) / Additional Voices (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 1519820,
+   "name": "Morgana Ignis",
+   "photo": "https://image.tmdb.org/t/p/w185/o3SUaQj9fUpFQPkOAZs4dKYkUo3.jpg",
+   "character": "Sallie May (voice) / Additional Voices (voice) / Sallie May / Additional Voices (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 2133833,
+   "name": "Abe Goldfarb",
+   "photo": "https://image.tmdb.org/t/p/w185/rKEuNBqcHGvp8H7hp8vBYsoLjco.jpg",
+   "character": "Elder Jaws the Priest / Additional Voices (voice) / Better Than Blitzo Guy / Additional Voices (voice) / Lawyer / Additional Voices (voice)",
+   "episodes": 3
+  }
+ ],
+ "crew": [
+  {
+   "id": 1754390,
+   "name": "Vivienne Medrano",
+   "photo": "https://image.tmdb.org/t/p/w185/cco4rKedqE5n9jvOHanINDcyBJy.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 54
+  },
+  {
+   "id": 2105420,
+   "name": "Timothy Cubbison",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 54
+  },
+  {
+   "id": 1759124,
+   "name": "Jefferson Friedman",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1192172,
+   "name": "Matt Novack",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1926345,
+   "name": "Brandon Rogers",
+   "photo": "https://image.tmdb.org/t/p/w185/16lL7KHq4YTY2OK6hx1QZQZM0YX.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 2992131,
+   "name": "Christopher French",
+   "photo": "https://image.tmdb.org/t/p/w185/9bDyBox7MlcDeUYgB56dG7QCoop.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 4490661,
+   "name": "Adam Neylan",
+   "photo": "https://image.tmdb.org/t/p/w185/3PmZ09TNKOCUvqgHth0Pq0Yq3zL.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 2206144,
+   "name": "Brian Sadler",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 2205750,
+   "name": "Christopher French",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:37:58.804Z"
+}

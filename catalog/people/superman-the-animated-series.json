@@ -1,0 +1,324 @@
+{
+ "show": "Superman: The Animated Series",
+ "slug": "superman-the-animated-series",
+ "tmdbId": 4303,
+ "cast": [
+  {
+   "id": 68122,
+   "name": "Tim Daly",
+   "photo": "https://image.tmdb.org/t/p/w185/mIknLXlBQ3lLPxdBK2rgdkgkjyv.jpg",
+   "character": "Superman / Clark Kent (voice)",
+   "episodes": 54
+  },
+  {
+   "id": 65002,
+   "name": "Dana Delany",
+   "photo": "https://image.tmdb.org/t/p/w185/sUzs7I87K4wSvLD7TjoYH6avRrL.jpg",
+   "character": "Lois Lane (voice)",
+   "episodes": 54
+  },
+  {
+   "id": 157536,
+   "name": "David Kaufman",
+   "photo": "https://image.tmdb.org/t/p/w185/gaNu7BzTgn768Yb7XAXzN3rSwgE.jpg",
+   "character": "Jimmy Olsen (voice)",
+   "episodes": 26
+  },
+  {
+   "id": 6574,
+   "name": "Clancy Brown",
+   "photo": "https://image.tmdb.org/t/p/w185/1JeBRNG7VS7r64V9lOvej9bZXW5.jpg",
+   "character": "Lex Luthor (voice)",
+   "episodes": 20
+  },
+  {
+   "id": 15100,
+   "name": "Lauren Tom",
+   "photo": "https://image.tmdb.org/t/p/w185/fTKFspRRQ275AkzvtPERLZnXe0n.jpg",
+   "character": "Angela Chen (voice)",
+   "episodes": 15
+  },
+  {
+   "id": 153606,
+   "name": "Victor Brandt",
+   "photo": "https://image.tmdb.org/t/p/w185/F1wHASA8PfHmYj759TBENb7vSy.jpg",
+   "character": "Professor Hamilton (voice)",
+   "episodes": 14
+  },
+  {
+   "id": 46946,
+   "name": "Joseph Bologna",
+   "photo": "https://image.tmdb.org/t/p/w185/zAyV5p4prwRXtL00xkJCHLBBUJ8.jpg",
+   "character": "Dan Turpin (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 35219,
+   "name": "Corey Burton",
+   "photo": "https://image.tmdb.org/t/p/w185/wcpFwdL7m01cZoBJiUSMQVakK2G.jpg",
+   "character": "Stand Owner (voice) / Brainiac / Councilman / Cop (voice) / Binko (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 10477,
+   "name": "George Dzundza",
+   "photo": "https://image.tmdb.org/t/p/w185/wmnQQn0dFygl90M2N8tlWlpGHzV.jpg",
+   "character": "Perry White (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 18,
+   "name": "Brad Garrett",
+   "photo": "https://image.tmdb.org/t/p/w185/813ffbpoaoaJRdoe1yrbivboWKp.jpg",
+   "character": "Bibbo / 'Neato' Coralli (voice) / Lobo (voice) / Bibbo (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 593,
+   "name": "Joanna Cassidy",
+   "photo": "https://image.tmdb.org/t/p/w185/cgyR6QLZdC6apR8eHnhgqDQmqyr.jpg",
+   "character": "Maggie Sawyer (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 41420,
+   "name": "Lisa Edelstein",
+   "photo": "https://image.tmdb.org/t/p/w185/wWNU2koV7qksXLtXDtbuGcbnfa1.jpg",
+   "character": "Mercy Graves (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 83433,
+   "name": "Shelley Fabares",
+   "photo": "https://image.tmdb.org/t/p/w185/xXlKD3E8KPQhdJSEPMhGsoSKZle.jpg",
+   "character": "Martha Kent (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 64811,
+   "name": "Mike Farrell",
+   "photo": "https://image.tmdb.org/t/p/w185/qfbWM9PEAEAeSXvJwm399ucjgxU.jpg",
+   "character": "Jonathan Kent (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 15831,
+   "name": "Frank Welker",
+   "photo": "https://image.tmdb.org/t/p/w185/aC37aQtsfZZDZN5y3paDTLJJHCi.jpg",
+   "character": "Krypto (voice) / Camorite (voice) / Serpent (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 11086,
+   "name": "Michael Ironside",
+   "photo": "https://image.tmdb.org/t/p/w185/mzHmxtKcMJjDqWxKd67mKQJFW1B.jpg",
+   "character": "Darkseid (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 34983,
+   "name": "Tress MacNeille",
+   "photo": "https://image.tmdb.org/t/p/w185/gI2LsgByvSffQY34vabVnPmrHzw.jpg",
+   "character": "Curator (voice) / Tour Guide / Old Woman / Waitress (voice) / Pilot (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 56890,
+   "name": "Malcolm McDowell",
+   "photo": "https://image.tmdb.org/t/p/w185/hL8ep4Hqj6izX7IlzE7Bbcfq62w.jpg",
+   "character": "Metallo (voice) / John Corben / Metallo (voice) / John Corben (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 35035,
+   "name": "Townsend Coleman",
+   "photo": "https://image.tmdb.org/t/p/w185/aMVAo35uihg08G8uc4Q4FiAS5ku.jpg",
+   "character": "Death Fist Ninja (voice) / Co-Pilot (voice) / Captain (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 35095,
+   "name": "John Rubano",
+   "photo": null,
+   "character": "Soldier (voice) / Guard (voice) / Lexie #1 (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 2391,
+   "name": "Michael Dorn",
+   "photo": "https://image.tmdb.org/t/p/w185/6mVjb0YsidC0gW9P8mXMkQirfcK.jpg",
+   "character": "Steel / John Henry Irons (voice) / John Henry Irons (voice) / Kalibak (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 34947,
+   "name": "Kevin Conroy",
+   "photo": "https://image.tmdb.org/t/p/w185/zvWhAwO2l8Kb5IJTwTbKzURypg7.jpg",
+   "character": "Batman / Bruce Wayne (voice) / Batman (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 35241,
+   "name": "Nicholle Tom",
+   "photo": "https://image.tmdb.org/t/p/w185/wt0yMc6HE4BluslbJ7aHbAoAr3Y.jpg",
+   "character": "Supergirl / Kara (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 36058,
+   "name": "Bruce Weitz",
+   "photo": "https://image.tmdb.org/t/p/w185/gUERDPFoWOD0GmnjJyQe1tA7hau.jpg",
+   "character": "Bruno Mannheim (voice)",
+   "episodes": 4
+  }
+ ],
+ "crew": [
+  {
+   "id": 34936,
+   "name": "Alan Burnett",
+   "photo": "https://image.tmdb.org/t/p/w185/3gNmuxxdQbZ6nX2F63SMQNVbmqz.jpg",
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 34934,
+   "name": "Bruce Timm",
+   "photo": "https://image.tmdb.org/t/p/w185/4G64qCUGFQ1Sfwa6MK7CzwAaHyL.jpg",
+   "jobs": [
+    "Creator",
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 34920,
+   "name": "Curt Geda",
+   "photo": "https://image.tmdb.org/t/p/w185/jRcadH8KfIBe4JZzifNC7Zmxrv6.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 34921,
+   "name": "Dan Riba",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 1214727,
+   "name": "Hilary Bader",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 182257,
+   "name": "Rich Fogel",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1211813,
+   "name": "Paul Dini",
+   "photo": "https://image.tmdb.org/t/p/w185/yPRds0jAYIU1OETfZuwka5ro7lE.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 212618,
+   "name": "Bob Goodman",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 34931,
+   "name": "Stan Berkowitz",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 34928,
+   "name": "Toshihiko Masuda",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1217660,
+   "name": "Evan Dorkin",
+   "photo": "https://image.tmdb.org/t/p/w185/62iuk2Cg1nTslAclznEd1RHhyJX.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1217664,
+   "name": "Sarah Dyer",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 62318,
+   "name": "Shin-ichiro Miki",
+   "photo": "https://image.tmdb.org/t/p/w185/yL9Tx2HZgK7t5AssYl6oGE9bjdj.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 34922,
+   "name": "Butch Lukic",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1236311,
+   "name": "Kenji Hachizaki",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1236314,
+   "name": "Hiroyuki Aoyama",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:29:36.430Z"
+}

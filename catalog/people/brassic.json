@@ -1,0 +1,323 @@
+{
+ "show": "Brassic",
+ "slug": "brassic",
+ "tmdbId": 92621,
+ "cast": [
+  {
+   "id": 225610,
+   "name": "Joseph Gilgun",
+   "photo": "https://image.tmdb.org/t/p/w185/A8wFwzX8ejdfgeNG7OPbz87ZCrs.jpg",
+   "character": "Vincent \"Vinnie\" O'Neill",
+   "episodes": 49
+  },
+  {
+   "id": 1215210,
+   "name": "Michelle Keegan",
+   "photo": "https://image.tmdb.org/t/p/w185/cuAQsPAfbUpBiRSDizr3cDn7Qsj.jpg",
+   "character": "Erin Croft",
+   "episodes": 49
+  },
+  {
+   "id": 83814,
+   "name": "Steve Evets",
+   "photo": "https://image.tmdb.org/t/p/w185/g1HZ9CnpiClgGcbPLcP48ICWqja.jpg",
+   "character": "Jim",
+   "episodes": 49
+  },
+  {
+   "id": 238303,
+   "name": "Tom Hanson",
+   "photo": "https://image.tmdb.org/t/p/w185/ue4Bofut1dMH8eoEDE2MWa0DQx3.jpg",
+   "character": "Leslie \"Cardi\" Titt",
+   "episodes": 49
+  },
+  {
+   "id": 1624770,
+   "name": "Aaron Heffernan",
+   "photo": "https://image.tmdb.org/t/p/w185/KkE3C4DQM9GTRZoJT7VQPHlwi7.jpg",
+   "character": "Ashley \"Ash\" Dennings",
+   "episodes": 49
+  },
+  {
+   "id": 1455682,
+   "name": "Parth Thakerar",
+   "photo": "https://image.tmdb.org/t/p/w185/zdfQ7ypmtxVZChGCIGpoMx0pugF.jpg",
+   "character": "Jehan \"JJ\" Jovani",
+   "episodes": 49
+  },
+  {
+   "id": 208323,
+   "name": "Ryan Sampson",
+   "photo": "https://image.tmdb.org/t/p/w185/1FfIn5bS8vUurvX7POg0Xlb02xy.jpg",
+   "character": "Thomas \"Tommo\" Schaffner",
+   "episodes": 49
+  },
+  {
+   "id": 17287,
+   "name": "Dominic West",
+   "photo": "https://image.tmdb.org/t/p/w185/6y2M3EWslBPwPlugEFg8XDHfSJ0.jpg",
+   "character": "Dr. Chris Coxley",
+   "episodes": 49
+  },
+  {
+   "id": 33399,
+   "name": "Bronagh Gallagher",
+   "photo": "https://image.tmdb.org/t/p/w185/4GQfAVOeQxkxvvByUxfoCdf4xLY.jpg",
+   "character": "Carol Dennings",
+   "episodes": 38
+  },
+  {
+   "id": 2058106,
+   "name": "Joanna Higson",
+   "photo": "https://image.tmdb.org/t/p/w185/ekTHsJplPEk5HMMg19UMWdlB1H9.jpg",
+   "character": "Mary \"Sugar\" Jones",
+   "episodes": 37
+  },
+  {
+   "id": 1240398,
+   "name": "Damien Molony",
+   "photo": "https://image.tmdb.org/t/p/w185/foOwuCmNAzlumiVGLj6S1McmdJj.jpg",
+   "character": "Dylan Golding",
+   "episodes": 29
+  },
+  {
+   "id": 3375521,
+   "name": "Jude Riordan",
+   "photo": "https://image.tmdb.org/t/p/w185/agZNPGtrUxjzWqePu7asFP7crVQ.jpg",
+   "character": "Tyler Croft",
+   "episodes": 24
+  },
+  {
+   "id": 178622,
+   "name": "Ramon Tikaram",
+   "photo": "https://image.tmdb.org/t/p/w185/wtBLiI8tzeqPLMB9uswkyFhChva.jpg",
+   "character": "Terence McCann",
+   "episodes": 21
+  },
+  {
+   "id": 1256162,
+   "name": "Tadhg Murphy",
+   "photo": "https://image.tmdb.org/t/p/w185/5YQzdACbDvDwcfITmcwxMUEPJLK.jpg",
+   "character": "Gary Cullen",
+   "episodes": 21
+  },
+  {
+   "id": 1561567,
+   "name": "Neil Ashton",
+   "photo": "https://image.tmdb.org/t/p/w185/n4FFPfnksyhBMdxG8d78LGlnsge.jpg",
+   "character": "David \"Davey\" MacDonagh",
+   "episodes": 20
+  },
+  {
+   "id": 2006849,
+   "name": "Archie Kelly",
+   "photo": "https://image.tmdb.org/t/p/w185/nVkFptFYAIUe7NJCGPyCjDtJ1Ma.jpg",
+   "character": "Shirley 'Goldilocks' Paslowski",
+   "episodes": 17
+  },
+  {
+   "id": 1396198,
+   "name": "Bhavna Limbachia",
+   "photo": "https://image.tmdb.org/t/p/w185/9CokGUUgcP79zvxL95ADVUN7pW7.jpg",
+   "character": "Meena / Bridezilla",
+   "episodes": 16
+  },
+  {
+   "id": 1829248,
+   "name": "Darren Cahill",
+   "photo": "https://image.tmdb.org/t/p/w185/8H3lAn6ZTqhJZs9bNhnfqPMSyBv.jpg",
+   "character": "Mick Dennings",
+   "episodes": 13
+  },
+  {
+   "id": 1208296,
+   "name": "John Weaver",
+   "photo": "https://image.tmdb.org/t/p/w185/hj5LHOzeTUK5airMpLj78WPwb3U.jpg",
+   "character": "Carl Slater",
+   "episodes": 13
+  },
+  {
+   "id": 1108724,
+   "name": "Anthony Welsh",
+   "photo": "https://image.tmdb.org/t/p/w185/uIqZvNHN2jw3rIkttRc179X1VjC.jpg",
+   "character": "Jake",
+   "episodes": 12
+  },
+  {
+   "id": 1238442,
+   "name": "Samantha Power",
+   "photo": "https://image.tmdb.org/t/p/w185/wuSlyD3uyZ7ZVW6biM0I48Joj2S.jpg",
+   "character": "Donna MacDonagh",
+   "episodes": 11
+  },
+  {
+   "id": 1261084,
+   "name": "Rachid Sabitri",
+   "photo": "https://image.tmdb.org/t/p/w185/sFOa5iqJcVM2sqCap6shjlxxm4U.jpg",
+   "character": "Manolito",
+   "episodes": 10
+  },
+  {
+   "id": 1213838,
+   "name": "Juliet Cowan",
+   "photo": "https://image.tmdb.org/t/p/w185/8zBYU2fqciM8kV6NAg1R6y6JHoh.jpg",
+   "character": "Liz Jones",
+   "episodes": 10
+  },
+  {
+   "id": 3700365,
+   "name": "Greg Wood",
+   "photo": "https://image.tmdb.org/t/p/w185/cmHLRDXaaDLuqmRpI0hN5sI70UM.jpg",
+   "character": "Barry MacDonagh",
+   "episodes": 9
+  }
+ ],
+ "crew": [
+  {
+   "id": 1219470,
+   "name": "Daniel Brocklehurst",
+   "photo": "https://image.tmdb.org/t/p/w185/5m1D5UywXzcgBFUQUXOPpT42S8v.jpg",
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 49
+  },
+  {
+   "id": 225610,
+   "name": "Joseph Gilgun",
+   "photo": "https://image.tmdb.org/t/p/w185/A8wFwzX8ejdfgeNG7OPbz87ZCrs.jpg",
+   "jobs": [
+    "Creator"
+   ],
+   "episodes": 49
+  },
+  {
+   "id": 1423296,
+   "name": "Richard Stoddard",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1048458,
+   "name": "Saul Metzstein",
+   "photo": "https://image.tmdb.org/t/p/w185/yRxUe6rAQnfHuKXGfUSv1YN1uRL.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 89824,
+   "name": "Jon Wright",
+   "photo": "https://image.tmdb.org/t/p/w185/tVQDp9hsGO1XUR4y5Gr4ZJZOMoJ.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 3070207,
+   "name": "Alex Ganley",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1562388,
+   "name": "George Kane",
+   "photo": "https://image.tmdb.org/t/p/w185/oEUJ9CqZPP9hYp6AYLMzB6JGWyD.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1184378,
+   "name": "John Hardwick",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 3219220,
+   "name": "Ruth Carney",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 195539,
+   "name": "Richard Signy",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1994759,
+   "name": "Danielle Ward",
+   "photo": "https://image.tmdb.org/t/p/w185/zojkUegMI2ulQGQ6WQQe2XHoy9o.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1090671,
+   "name": "Daniel O'Hara",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1172495,
+   "name": "Ben Gregor",
+   "photo": "https://image.tmdb.org/t/p/w185/v5VJP6pKwGSo5neW2cl8ZiWVL0v.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1220169,
+   "name": "Leon Lopez",
+   "photo": "https://image.tmdb.org/t/p/w185/wErrFqZKGgAIPwYcdZBlmRbtIxZ.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 4849285,
+   "name": "Jordan Hogg",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 4296033,
+   "name": "Ava Pickett",
+   "photo": "https://image.tmdb.org/t/p/w185/6I15GS7lqBVaIS90GRPX2CzKxCZ.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:35:16.291Z"
+}

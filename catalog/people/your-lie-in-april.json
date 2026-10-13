@@ -1,0 +1,322 @@
+{
+ "show": "Your Lie in April",
+ "slug": "your-lie-in-april",
+ "tmdbId": 61663,
+ "cast": [
+  {
+   "id": 1256603,
+   "name": "Natsuki Hanae",
+   "photo": "https://image.tmdb.org/t/p/w185/alTb0DlcPIbcwM08WSmxFai58sd.jpg",
+   "character": "Kousei Arima (voice)",
+   "episodes": 22
+  },
+  {
+   "id": 1324469,
+   "name": "Risa Taneda",
+   "photo": "https://image.tmdb.org/t/p/w185/cuUqpOqZyzfJLzRa6syhOLUCvNW.jpg",
+   "character": "Kaori Miyazono (voice)",
+   "episodes": 22
+  },
+  {
+   "id": 992869,
+   "name": "Ayane Sakura",
+   "photo": "https://image.tmdb.org/t/p/w185/yPbTmntASE9psPIMhNGU5oo6vIH.jpg",
+   "character": "Tsubaki Sawabe (voice)",
+   "episodes": 22
+  },
+  {
+   "id": 1324468,
+   "name": "Ryota Osaka",
+   "photo": "https://image.tmdb.org/t/p/w185/d2TGy8Qkxe90tGDr9MCXFGkhbPl.jpg",
+   "character": "Ryouta Watari (voice)",
+   "episodes": 22
+  },
+  {
+   "id": 1324650,
+   "name": "Shizuka Ishigami",
+   "photo": "https://image.tmdb.org/t/p/w185/kXTYBI7skkVSjQ4eg49iEGblt3f.jpg",
+   "character": "Female Student (voice) / Audience Member (voice) / Softball Club Member (voice)",
+   "episodes": 16
+  },
+  {
+   "id": 149894,
+   "name": "Yuki Kaji",
+   "photo": "https://image.tmdb.org/t/p/w185/8wKdPV11IwowfwoqGqMMNt9hmp6.jpg",
+   "character": "Takeshi Aiza (voice)",
+   "episodes": 14
+  },
+  {
+   "id": 210350,
+   "name": "Mie Sonozaki",
+   "photo": "https://image.tmdb.org/t/p/w185/iYnpn1e7Ba1oMK8ZdgAvqzxng9e.jpg",
+   "character": "Hiroko Seto (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 221773,
+   "name": "Saori Hayami",
+   "photo": "https://image.tmdb.org/t/p/w185/gLv9lO7dlUbIsmyJUvgegqAAXki.jpg",
+   "character": "Emi Igawa (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 89903,
+   "name": "Mamiko Noto",
+   "photo": "https://image.tmdb.org/t/p/w185/wCSD7Umgzc66p8VGXrrMZtSLSuS.jpg",
+   "character": "Saki Arima (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 1884071,
+   "name": "Rina Dendou",
+   "photo": "https://image.tmdb.org/t/p/w185/wK7uhT3gfy2ZZnTGFOr12xh0fQe.jpg",
+   "character": "Satsuki (voice) / Softball Club Member (voice) / Female Student (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 1325949,
+   "name": "Inori Minase",
+   "photo": "https://image.tmdb.org/t/p/w185/cqOrQDUbbQLKpujzcK47YqjFdNp.jpg",
+   "character": "Koharu Seto (voice) / Megu (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 34923,
+   "name": "Atsuko Tanaka",
+   "photo": "https://image.tmdb.org/t/p/w185/pacuup8TMK9SFsSJOY8jlbyzkFt.jpg",
+   "character": "Yuriko Ochiai (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 1254671,
+   "name": "Ai Kayano",
+   "photo": "https://image.tmdb.org/t/p/w185/l8ywp387rfdAS7mOExe3cEZnsk0.jpg",
+   "character": "Nagi Aiza (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 1250611,
+   "name": "Takanori Ooyama",
+   "photo": "https://image.tmdb.org/t/p/w185/iGeDBAD86pVUP0WXBZgUL9NDtGY.jpg",
+   "character": "Akira Takayanagi (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 2376045,
+   "name": "Hiromichi Tezuka",
+   "photo": "https://image.tmdb.org/t/p/w185/6fhWdRzlDtzOrxhffLyaoUun8Gy.jpg",
+   "character": "Audience Member (voice) / Music Competition Committee Member (voice) / Teacher (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 227616,
+   "name": "Ben Hiura",
+   "photo": "https://image.tmdb.org/t/p/w185/mSJZsPtZvKcek4vnejdhdnEmFPx.jpg",
+   "character": "Junzou Ibata (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 1991243,
+   "name": "Ikuji Nose",
+   "photo": "https://image.tmdb.org/t/p/w185/1ZGvJE9eMBA2TgpSQ54xp9YTGnG.jpg",
+   "character": "Judging Panel Member (voice) / Judge (voice) / Audience Member (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 1454214,
+   "name": "Ari Ozawa",
+   "photo": "https://image.tmdb.org/t/p/w185/jrj6cIjnkk1FwJiSLIpGtUf8hWd.jpg",
+   "character": "Nashida (voice) / Komugi (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 1254831,
+   "name": "Marie Miyake",
+   "photo": "https://image.tmdb.org/t/p/w185/t71iIw3FT88XXuKTZyzJo5ATGig.jpg",
+   "character": "Nurse (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 1315198,
+   "name": "Kanehira Yamamoto",
+   "photo": "https://image.tmdb.org/t/p/w185/8cDkO8oCkqsPliIqwFdnmJqHzDT.jpg",
+   "character": "Staff Member (voice) / Teacher (voice) / Homeroom Teacher (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 1324588,
+   "name": "Genki Muro",
+   "photo": "https://image.tmdb.org/t/p/w185/6YF881kJuP2HaSb5PXRO4hWTZA.jpg",
+   "character": "Audience Member (voice) / Contestant (voice) / Music Competition Committee Member (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 1250764,
+   "name": "Harumi Sakurai",
+   "photo": "https://image.tmdb.org/t/p/w185/ekqKChF19cjjrSB1LYpP6QDJoVR.jpg",
+   "character": "Shopping Mall PA Announcement (voice) / Master of Ceremonies (voice) / Announcement (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 1221143,
+   "name": "Nobuo Tobita",
+   "photo": "https://image.tmdb.org/t/p/w185/8p47dHvcEvr7CPYIHpxlQcpZmtm.jpg",
+   "character": "Mr. Kazama (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 1254260,
+   "name": "Kazuyuki Okitsu",
+   "photo": "https://image.tmdb.org/t/p/w185/vgyaK5dAxhvzAi6LJM3ZyaJd4mJ.jpg",
+   "character": "Saitou (voice)",
+   "episodes": 4
+  }
+ ],
+ "crew": [
+  {
+   "id": 931451,
+   "name": "Takawo Yoshioka",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 44
+  },
+  {
+   "id": 1685889,
+   "name": "Kyohei Ishiguro",
+   "photo": "https://image.tmdb.org/t/p/w185/pIWvOX01ZorZSAWHxI7dqxo8bUI.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 2044784,
+   "name": "Yoko Matsuzaki",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 1366255,
+   "name": "Takuya Matsushita",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 1880438,
+   "name": "Ken Sakamoto",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 80940,
+   "name": "Kenji Shimizu",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 68923,
+   "name": "Masuo Ueda",
+   "photo": "https://image.tmdb.org/t/p/w185/kxNanOQ7XqZjJhULnZsfGD0TsrJ.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 1880451,
+   "name": "Yuichi Nakao",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 1880449,
+   "name": "Nobuyasu Suzuki",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 1257407,
+   "name": "Atsuhiro Iwakami",
+   "photo": "https://image.tmdb.org/t/p/w185/mVFTz3USct24emwthM0xkJvB0LA.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 1777192,
+   "name": "Yoshio Yokozawa",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 1820191,
+   "name": "Yutaka Ishikawa",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 1493765,
+   "name": "Masaru Yokoyama",
+   "photo": "https://image.tmdb.org/t/p/w185/isDF4Cm7oqNDw9UgOI7DvFFJf7y.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 1598662,
+   "name": "Miyuki Kuroki",
+   "photo": "https://image.tmdb.org/t/p/w185/kysxB7B5Jau8RhLgHgzyFCkHrjm.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1607110,
+   "name": "Tomotaka Shibayama",
+   "photo": "https://image.tmdb.org/t/p/w185/rFfGuLYtSSqOLxUEXZBWYqNuyey.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1498113,
+   "name": "Ayako Kono",
+   "photo": "https://image.tmdb.org/t/p/w185/6WFOZlfnN0F4X9FcGJ5tOy6wU4X.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:38:33.021Z"
+}

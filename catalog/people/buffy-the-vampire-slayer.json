@@ -1,0 +1,335 @@
+{
+ "show": "Buffy the Vampire Slayer",
+ "slug": "buffy-the-vampire-slayer",
+ "tmdbId": 95,
+ "cast": [
+  {
+   "id": 11863,
+   "name": "Sarah Michelle Gellar",
+   "photo": "https://image.tmdb.org/t/p/w185/grlhyolOpwZAnpeFvuTC3SQAUij.jpg",
+   "character": "Buffy Summers",
+   "episodes": 144
+  },
+  {
+   "id": 71675,
+   "name": "Nicholas Brendon",
+   "photo": "https://image.tmdb.org/t/p/w185/6O5sg97Fv07EzdWjpoq3lb8KnTM.jpg",
+   "character": "Xander Harris",
+   "episodes": 144
+  },
+  {
+   "id": 21595,
+   "name": "Alyson Hannigan",
+   "photo": "https://image.tmdb.org/t/p/w185/bO16z8rAzZWdjCga8dcbJ2AFAh2.jpg",
+   "character": "Willow Rosenberg",
+   "episodes": 144
+  },
+  {
+   "id": 34257,
+   "name": "Anthony Stewart Head",
+   "photo": "https://image.tmdb.org/t/p/w185/eRfRWnoipu1Tx84fcuOEdfR87qb.jpg",
+   "character": "Rupert Giles",
+   "episodes": 122
+  },
+  {
+   "id": 47297,
+   "name": "James Marsters",
+   "photo": "https://image.tmdb.org/t/p/w185/oJnBB3g2IINnsLSr8B79bJ9ykkx.jpg",
+   "character": "Spike",
+   "episodes": 101
+  },
+  {
+   "id": 66745,
+   "name": "Emma Caulfield",
+   "photo": "https://image.tmdb.org/t/p/w185/tYQURD5pl4iGHjyA2yVwmmhaoPt.jpg",
+   "character": "Anya",
+   "episodes": 85
+  },
+  {
+   "id": 49961,
+   "name": "Michelle Trachtenberg",
+   "photo": "https://image.tmdb.org/t/p/w185/8eb8ts6E7gM5SgEFn8VcXfGc39r.jpg",
+   "character": "Dawn Summers",
+   "episodes": 66
+  },
+  {
+   "id": 126502,
+   "name": "Charisma Carpenter",
+   "photo": "https://image.tmdb.org/t/p/w185/aCvU5Wb10EeWJRofeXNiM4yE6nL.jpg",
+   "character": "Cordelia Chase",
+   "episodes": 57
+  },
+  {
+   "id": 57419,
+   "name": "Kristine Sutherland",
+   "photo": "https://image.tmdb.org/t/p/w185/tYlPr78jZePpa3NDelqiAx2Ymt0.jpg",
+   "character": "Joyce Summers",
+   "episodes": 57
+  },
+  {
+   "id": 25934,
+   "name": "David Boreanaz",
+   "photo": "https://image.tmdb.org/t/p/w185/rxbKFajA7zIv4sUJUpGNBWXS7jM.jpg",
+   "character": "Angel",
+   "episodes": 57
+  },
+  {
+   "id": 35468,
+   "name": "Amber Benson",
+   "photo": "https://image.tmdb.org/t/p/w185/vEBdN1BhSOG2pCZPpCb6dgj6Wer.jpg",
+   "character": "Tara Maclay",
+   "episodes": 47
+  },
+  {
+   "id": 13922,
+   "name": "Seth Green",
+   "photo": "https://image.tmdb.org/t/p/w185/l4No5Eu6j0U80hCIkaSn17AOWrj.jpg",
+   "character": "Oz",
+   "episodes": 39
+  },
+  {
+   "id": 46772,
+   "name": "Marc Blucas",
+   "photo": "https://image.tmdb.org/t/p/w185/zQrZosMrd5pDWTaoOIHcbfeFOQS.jpg",
+   "character": "Riley Finn",
+   "episodes": 33
+  },
+  {
+   "id": 35550,
+   "name": "Danny Strong",
+   "photo": "https://image.tmdb.org/t/p/w185/82C6hgzdpHUHizMfedNAP7DSGOj.jpg",
+   "character": "Jonathan Levinson",
+   "episodes": 29
+  },
+  {
+   "id": 62849,
+   "name": "Tom Lenk",
+   "photo": "https://image.tmdb.org/t/p/w185/59lM9QlilTu6Rq8pnh8IWsZjYlg.jpg",
+   "character": "Andrew Wells / Cyrus",
+   "episodes": 27
+  },
+  {
+   "id": 13446,
+   "name": "Eliza Dushku",
+   "photo": "https://image.tmdb.org/t/p/w185/lvu4Vo9GL7uOjtU59MDiy3QDPAZ.jpg",
+   "character": "Faith",
+   "episodes": 20
+  },
+  {
+   "id": 29446,
+   "name": "Armin Shimerman",
+   "photo": "https://image.tmdb.org/t/p/w185/ntubNSuRnJ7icAEGj6JYEeguzTn.jpg",
+   "character": "Principal Snyder",
+   "episodes": 19
+  },
+  {
+   "id": 7137,
+   "name": "Juliet Landau",
+   "photo": "https://image.tmdb.org/t/p/w185/fxLW9OteJEO2MGVaNc3oDL0EjR0.jpg",
+   "character": "Drusilla",
+   "episodes": 17
+  },
+  {
+   "id": 136183,
+   "name": "Adam Busch",
+   "photo": null,
+   "character": "Warren Mears",
+   "episodes": 16
+  },
+  {
+   "id": 149448,
+   "name": "Robia LaMorte",
+   "photo": "https://image.tmdb.org/t/p/w185/lfWKoSqP0VoAnhnuVH1sbJhEdbe.jpg",
+   "character": "Jenny Calendar",
+   "episodes": 15
+  },
+  {
+   "id": 123149,
+   "name": "Mercedes McNab",
+   "photo": "https://image.tmdb.org/t/p/w185/hBlBN43bI0QvxIqS7aBavVOxdxi.jpg",
+   "character": "Harmony Kendall",
+   "episodes": 15
+  },
+  {
+   "id": 35518,
+   "name": "Harry Groener",
+   "photo": "https://image.tmdb.org/t/p/w185/3MAsDC1JtNqef1O4MwqakGjJkkI.jpg",
+   "character": "Mayor Wilkins",
+   "episodes": 14
+  },
+  {
+   "id": 147404,
+   "name": "Charlie Weber",
+   "photo": "https://image.tmdb.org/t/p/w185/eL97dIonrg3Iq7ENBBmYolp9kGl.jpg",
+   "character": "Ben",
+   "episodes": 14
+  },
+  {
+   "id": 21356,
+   "name": "D. B. Woodside",
+   "photo": "https://image.tmdb.org/t/p/w185/xdyGewr108rQWojpYlKw2QjrxCz.jpg",
+   "character": "Principal Robin Wood",
+   "episodes": 14
+  }
+ ],
+ "crew": [
+  {
+   "id": 12891,
+   "name": "Joss Whedon",
+   "photo": "https://image.tmdb.org/t/p/w185/tAcIXWQWgGzoSsw2BUBuDbCGgii.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 144
+  },
+  {
+   "id": 69998,
+   "name": "Kaz Kuzui",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 144
+  },
+  {
+   "id": 67274,
+   "name": "Dolly Parton",
+   "photo": "https://image.tmdb.org/t/p/w185/4fnvjhfjqJl2Qx8Rcl1NUd76NIn.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 144
+  },
+  {
+   "id": 64170,
+   "name": "Fran Rubel Kuzui",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 144
+  },
+  {
+   "id": 70458,
+   "name": "Sandy Gallin",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 144
+  },
+  {
+   "id": 1033779,
+   "name": "Gail Berman",
+   "photo": "https://image.tmdb.org/t/p/w185/guvxCt4OjwQLyLuzsiNdH48stuc.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 144
+  },
+  {
+   "id": 87590,
+   "name": "David Greenwalt",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 122
+  },
+  {
+   "id": 149495,
+   "name": "Marti Noxon",
+   "photo": "https://image.tmdb.org/t/p/w185/rrt5WkIi31DKr30vJWEPlRpkgHL.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 110
+  },
+  {
+   "id": 1231186,
+   "name": "Rebecca Rand Kirshner",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 74
+  },
+  {
+   "id": 1213071,
+   "name": "Doug Petrie",
+   "photo": "https://image.tmdb.org/t/p/w185/jt79Llnx8MdrgfBV7Tjoy27t3Gj.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 61
+  },
+  {
+   "id": 1379807,
+   "name": "Drew Z. Greenberg",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 50
+  },
+  {
+   "id": 1213074,
+   "name": "Steven S. DeKnight",
+   "photo": "https://image.tmdb.org/t/p/w185/4xI7zn54omKDrKa0lshPsJZ53tK.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 49
+  },
+  {
+   "id": 77213,
+   "name": "Jane Espenson",
+   "photo": "https://image.tmdb.org/t/p/w185/lOLMAy3Ur9pSzF59J9Gsx05zJzK.jpg",
+   "jobs": [
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 47
+  },
+  {
+   "id": 1212428,
+   "name": "Dean Batali",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 1212431,
+   "name": "Rob DesHotel",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 47506,
+   "name": "Drew Goddard",
+   "photo": "https://image.tmdb.org/t/p/w185/2ff2wbCu0kc61JDHgBiPSqtb3e3.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 27
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:20.463Z"
+}

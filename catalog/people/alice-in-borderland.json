@@ -1,0 +1,224 @@
+{
+ "show": "Alice in Borderland",
+ "slug": "alice-in-borderland",
+ "tmdbId": 110316,
+ "cast": [
+  {
+   "id": 1177942,
+   "name": "Kento Yamazaki",
+   "photo": "https://image.tmdb.org/t/p/w185/nUWXgjDfRxFJ3P20lyMJr8qDIJ0.jpg",
+   "character": "Arisu Ryohei / Alice",
+   "episodes": 22
+  },
+  {
+   "id": 1076363,
+   "name": "Tao Tsuchiya",
+   "photo": "https://image.tmdb.org/t/p/w185/n2665l3bguzDTm5CnyP99ipU9Z0.jpg",
+   "character": "Usagi Yuzuha / “Rabbit”",
+   "episodes": 22
+  },
+  {
+   "id": 1310719,
+   "name": "Nijiro Murakami",
+   "photo": "https://image.tmdb.org/t/p/w185/cl0PnyIo5X1hN0eDpnYbT6qWNo0.jpg",
+   "character": "Chishiya Shuntaro",
+   "episodes": 13
+  },
+  {
+   "id": 2359226,
+   "name": "Aya Asahina",
+   "photo": "https://image.tmdb.org/t/p/w185/zF3la0KvayUV3uACYPiBgCRIQcI.jpg",
+   "character": "Kuina Hikari",
+   "episodes": 13
+  },
+  {
+   "id": 506447,
+   "name": "Nobuaki Kaneko",
+   "photo": "https://image.tmdb.org/t/p/w185/et1creCXulwYMBB4Wv9upbUyXn3.jpg",
+   "character": "Takeru / Bossia / The Hatter / Takeru Danma",
+   "episodes": 13
+  },
+  {
+   "id": 122468,
+   "name": "Riisa Naka",
+   "photo": "https://image.tmdb.org/t/p/w185/tqFHQiJUycuob3ytvilaAWDlbQ8.jpg",
+   "character": "Mira Kano / Kano Mira",
+   "episodes": 12
+  },
+  {
+   "id": 1480297,
+   "name": "Keita Machida",
+   "photo": "https://image.tmdb.org/t/p/w185/fbc42SNQgPSbx3jtv2Z5Vsrt6MO.jpg",
+   "character": "Karube Daikichi / Daikichi Karube",
+   "episodes": 12
+  },
+  {
+   "id": 1195939,
+   "name": "Ayaka Miyoshi",
+   "photo": "https://image.tmdb.org/t/p/w185/62oahK2mc58X5sNrxyhCVXKryIx.jpg",
+   "character": "Ann Rizuna",
+   "episodes": 11
+  },
+  {
+   "id": 936282,
+   "name": "Dori Sakurada",
+   "photo": "https://image.tmdb.org/t/p/w185/pQHayu4kmoJ8T7ebKsGBc7egHCa.jpg",
+   "character": "Niragi Suguru",
+   "episodes": 11
+  },
+  {
+   "id": 1448851,
+   "name": "Yutaro Watanabe",
+   "photo": "https://image.tmdb.org/t/p/w185/vAigHgkc3r4SmFCk7rmwHb0y2n.jpg",
+   "character": "Tatta Kodai",
+   "episodes": 11
+  },
+  {
+   "id": 1367226,
+   "name": "Sho Aoyagi",
+   "photo": "https://image.tmdb.org/t/p/w185/pN2JQVg5OyNSdxSLAHE8ncSAnpT.jpg",
+   "character": "Aguni Morizono / Agni",
+   "episodes": 11
+  },
+  {
+   "id": 1343688,
+   "name": "Yuki Morinaga",
+   "photo": "https://image.tmdb.org/t/p/w185/20WRU4HX4Nl3HPLARPuDSvx5SdN.jpg",
+   "character": "Segawa Chota",
+   "episodes": 10
+  },
+  {
+   "id": 92487,
+   "name": "Tsuyoshi Abe",
+   "photo": "https://image.tmdb.org/t/p/w185/3lJVGiYOHWfvfE1bA7bma62iWt.jpg",
+   "character": "Keiichi Kuzuryu / Kuzuryu Keiichi",
+   "episodes": 10
+  },
+  {
+   "id": 1704346,
+   "name": "Jun Matsuo",
+   "photo": "https://image.tmdb.org/t/p/w185/7j0SY1Z6bDyHH9T0gxMyfULI0Hx.jpg",
+   "character": "Yuzuru",
+   "episodes": 8
+  },
+  {
+   "id": 2909208,
+   "name": "Kina Yazaki",
+   "photo": null,
+   "character": "Inoue Momoka",
+   "episodes": 8
+  },
+  {
+   "id": 1069544,
+   "name": "Kenji Takagi",
+   "photo": null,
+   "character": "",
+   "episodes": 6
+  },
+  {
+   "id": 1015824,
+   "name": "Ayame Misaki",
+   "photo": "https://image.tmdb.org/t/p/w185/7ViHWgrPifqwjMTGrzS7XI32VZs.jpg",
+   "character": "Saori Shibuki",
+   "episodes": 6
+  },
+  {
+   "id": 1412420,
+   "name": "Yuri Tsunematsu",
+   "photo": "https://image.tmdb.org/t/p/w185/qccqlyfX7Ki17vGUY0RdsLwVc7g.jpg",
+   "character": "Akane Heiya",
+   "episodes": 5
+  },
+  {
+   "id": 18059,
+   "name": "Shigemitsu Ogi",
+   "photo": "https://image.tmdb.org/t/p/w185/6p9qTH1TVCbiix1yn22l0T8kS5c.jpg",
+   "character": "Kenji Arisu",
+   "episodes": 5
+  },
+  {
+   "id": 2894248,
+   "name": "Kyotaro Tamura",
+   "photo": "https://image.tmdb.org/t/p/w185/kGjuDiChNujzETYGajwmLx7bmdG.jpg",
+   "character": "Hajime Arisu",
+   "episodes": 5
+  },
+  {
+   "id": 1574954,
+   "name": "Shuntaro Yanagi",
+   "photo": "https://image.tmdb.org/t/p/w185/z9sPHsSAxpKFt0s4QyTdLepT3qB.jpg",
+   "character": "Samura Takatora",
+   "episodes": 4
+  },
+  {
+   "id": 2762775,
+   "name": "Mizuki Yoshida",
+   "photo": "https://image.tmdb.org/t/p/w185/7bMv0ajEYjp70AKHxH63Xfng2ga.jpg",
+   "character": "Kujo Asahi",
+   "episodes": 4
+  },
+  {
+   "id": 1502230,
+   "name": "Hayato Isomura",
+   "photo": "https://image.tmdb.org/t/p/w185/iK0x2LJDgz07ebDf2fwFaw4D7qz.jpg",
+   "character": "Sunato Banda",
+   "episodes": 4
+  },
+  {
+   "id": 2098766,
+   "name": "Kento Shibuya",
+   "photo": "https://image.tmdb.org/t/p/w185/tpV4WCXV2i4K0vKhayS09DKaMP1.jpg",
+   "character": "",
+   "episodes": 4
+  }
+ ],
+ "crew": [
+  {
+   "id": 144536,
+   "name": "Shinsuke Sato",
+   "photo": "https://image.tmdb.org/t/p/w185/CiNIGPbDLT7sQreqXfkIbxBzPv.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 2026855,
+   "name": "Kaata Sakamoto",
+   "photo": "https://image.tmdb.org/t/p/w185/zck9r8jCyKqcr5vCcqbhU78i8e4.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 1919620,
+   "name": "Yutaka Yamada",
+   "photo": "https://image.tmdb.org/t/p/w185/yFzOAzF9UeToYaD78ODkosdfP9u.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 2165138,
+   "name": "Yasuko Kuramitsu",
+   "photo": "https://image.tmdb.org/t/p/w185/8ypFkQRHaAW37A0Eo0GRD3qBoqb.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 1991073,
+   "name": "Yoshiki Watanabe",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 8
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:41:19.683Z"
+}

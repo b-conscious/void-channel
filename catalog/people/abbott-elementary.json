@@ -1,0 +1,330 @@
+{
+ "show": "Abbott Elementary",
+ "slug": "abbott-elementary",
+ "tmdbId": 125935,
+ "cast": [
+  {
+   "id": 1745988,
+   "name": "Quinta Brunson",
+   "photo": "https://image.tmdb.org/t/p/w185/1oEdBc88XAN3Z9n2pdNvH1XIT71.jpg",
+   "character": "Janine Teagues",
+   "episodes": 96
+  },
+  {
+   "id": 1214870,
+   "name": "Tyler James Williams",
+   "photo": "https://image.tmdb.org/t/p/w185/iuPSybfJYExEgUfSmIdN540gdHp.jpg",
+   "character": "Gregory Eddie",
+   "episodes": 96
+  },
+  {
+   "id": 33613,
+   "name": "Sheryl Lee Ralph",
+   "photo": "https://image.tmdb.org/t/p/w185/eq7FeNDJFUVtdHAtvzNkOIapzX.jpg",
+   "character": "Barbara Howard",
+   "episodes": 96
+  },
+  {
+   "id": 4494,
+   "name": "Lisa Ann Walter",
+   "photo": "https://image.tmdb.org/t/p/w185/3xeMzT5zOC0UM9DgHne3oGZmf1R.jpg",
+   "character": "Melissa Schemmenti",
+   "episodes": 96
+  },
+  {
+   "id": 1344739,
+   "name": "Chris Perfetti",
+   "photo": "https://image.tmdb.org/t/p/w185/qBTVPc07f3lxqCnM9ou4SOHt9js.jpg",
+   "character": "Jacob Hill",
+   "episodes": 96
+  },
+  {
+   "id": 2692283,
+   "name": "Janelle James",
+   "photo": "https://image.tmdb.org/t/p/w185/vLiXGdCRCfWhamrPdUGYiBRZk6y.jpg",
+   "character": "Ava Coleman",
+   "episodes": 96
+  },
+  {
+   "id": 1227552,
+   "name": "William Stanford Davis",
+   "photo": "https://image.tmdb.org/t/p/w185/rCQ0Q7dvG21EhwcrxNPjTFmqfPv.jpg",
+   "character": "Mr. Johnson",
+   "episodes": 96
+  },
+  {
+   "id": 2220282,
+   "name": "Zack Fox",
+   "photo": "https://image.tmdb.org/t/p/w185/dYAAoPXh2WSndYAFDd9kxtFZkHe.jpg",
+   "character": "Tariq",
+   "episodes": 18
+  },
+  {
+   "id": 59405,
+   "name": "Jerry Minor",
+   "photo": "https://image.tmdb.org/t/p/w185/bUql01yhsXYj9PCQWbehru08Ek5.jpg",
+   "character": "Mr. Morton",
+   "episodes": 18
+  },
+  {
+   "id": 1450825,
+   "name": "Pam Trotter",
+   "photo": "https://image.tmdb.org/t/p/w185/6YY75w7cdkJxdHr4ABUhAvAs87.jpg",
+   "character": "Dia",
+   "episodes": 15
+  },
+  {
+   "id": 3589825,
+   "name": "Lela Hoffmeister",
+   "photo": "https://image.tmdb.org/t/p/w185/e8IQ9Z73eIkpfOB9xJKsoMFj3er.jpg",
+   "character": "Courtney Pierce",
+   "episodes": 13
+  },
+  {
+   "id": 2513799,
+   "name": "Matthew Law",
+   "photo": "https://image.tmdb.org/t/p/w185/bGCYMu3GErcLgmAd3nIEP468vFs.jpg",
+   "character": "O'Shon",
+   "episodes": 13
+  },
+  {
+   "id": 3361914,
+   "name": "Courtney Taylor",
+   "photo": "https://image.tmdb.org/t/p/w185/pGYlyS9SR29xa3oC1Xk3GvKrdFC.jpg",
+   "character": "Erika",
+   "episodes": 12
+  },
+  {
+   "id": 4663760,
+   "name": "Abraham Jason",
+   "photo": null,
+   "character": "Andrew",
+   "episodes": 12
+  },
+  {
+   "id": 426216,
+   "name": "Josh Segarra",
+   "photo": "https://image.tmdb.org/t/p/w185/vXhukEBgpI8jmCUCSGcpJCNzXHV.jpg",
+   "character": "Manny",
+   "episodes": 11
+  },
+  {
+   "id": 4663725,
+   "name": "Dillion Blake Allen",
+   "photo": "https://image.tmdb.org/t/p/w185/6MMMYfDsfo5oc2dSAelvRa3rNVq.jpg",
+   "character": "Tiniest Kid",
+   "episodes": 11
+  },
+  {
+   "id": 4527714,
+   "name": "Mason Renfro",
+   "photo": "https://image.tmdb.org/t/p/w185/eCmipvtLwLwbH11xqBW3xkbURrc.jpg",
+   "character": "Alex",
+   "episodes": 9
+  },
+  {
+   "id": 2672175,
+   "name": "Taylor Garron",
+   "photo": "https://image.tmdb.org/t/p/w185/yntrsLF5ukvzzYOXNVUqprU0M0u.jpg",
+   "character": "Tasha Hoffman",
+   "episodes": 9
+  },
+  {
+   "id": 1546674,
+   "name": "Nikea Gamby-Turner",
+   "photo": "https://image.tmdb.org/t/p/w185/zhJoJvrmlublvpnuxhaWIB8jOqY.jpg",
+   "character": "Shanae",
+   "episodes": 8
+  },
+  {
+   "id": 1854900,
+   "name": "Benjamin Norris",
+   "photo": "https://image.tmdb.org/t/p/w185/jmFHEtOWjAXjMBTunhucKWAfVeJ.jpg",
+   "character": "Simon",
+   "episodes": 8
+  },
+  {
+   "id": 34985,
+   "name": "Cree Summer",
+   "photo": "https://image.tmdb.org/t/p/w185/7DRq0zPUUWu55pUbnc2roVnzOJ9.jpg",
+   "character": "Ms. Inez",
+   "episodes": 8
+  },
+  {
+   "id": 2462879,
+   "name": "Larry Owens",
+   "photo": "https://image.tmdb.org/t/p/w185/zlnIlYroeLXR8xwOqXxAlRWqK5z.jpg",
+   "character": "Zach",
+   "episodes": 7
+  },
+  {
+   "id": 3589821,
+   "name": "Naté Jones",
+   "photo": "https://image.tmdb.org/t/p/w185/2Zpujd9kkZpxUI8SqjTSFLC7aks.jpg",
+   "character": "Amber",
+   "episodes": 7
+  },
+  {
+   "id": 157058,
+   "name": "George Sharperson",
+   "photo": "https://image.tmdb.org/t/p/w185/wjW8OwzhRntE8a1ad7FO66B57z5.jpg",
+   "character": "Wendall",
+   "episodes": 7
+  }
+ ],
+ "crew": [
+  {
+   "id": 1745988,
+   "name": "Quinta Brunson",
+   "photo": "https://image.tmdb.org/t/p/w185/1oEdBc88XAN3Z9n2pdNvH1XIT71.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 92
+  },
+  {
+   "id": 1215572,
+   "name": "Randall Einhorn",
+   "photo": "https://image.tmdb.org/t/p/w185/oY6fG94AZHBr6PnQ2lroNVOd5uX.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 92
+  },
+  {
+   "id": 1252066,
+   "name": "Patrick Schumacker",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 92
+  },
+  {
+   "id": 1252067,
+   "name": "Justin Halpern",
+   "photo": "https://image.tmdb.org/t/p/w185/hKtnoiiWS0n15CZ360aAyMyaf0E.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 92
+  },
+  {
+   "id": 1296523,
+   "name": "Brian Rubenstein",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 91
+  },
+  {
+   "id": 2505407,
+   "name": "Garrett Werner",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 82
+  },
+  {
+   "id": 1648680,
+   "name": "Brittani Nichols",
+   "photo": "https://image.tmdb.org/t/p/w185/1zyimRSlUV7HTtBCGqWh4GBPvc6.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 79
+  },
+  {
+   "id": 3713096,
+   "name": "Riley Dufurrena",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 60
+  },
+  {
+   "id": 3507682,
+   "name": "Justin Tan",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 55
+  },
+  {
+   "id": 3507686,
+   "name": "Joya McCrory",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 55
+  },
+  {
+   "id": 1745994,
+   "name": "Kate Peterman",
+   "photo": "https://image.tmdb.org/t/p/w185/xfiBpCg08D15wyI2jJpMJDBUS8d.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 55
+  },
+  {
+   "id": 3576052,
+   "name": "Ava Coleman",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 4027550,
+   "name": "Chad Morton",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 3729128,
+   "name": "Rebekka Pesqueira",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 3713095,
+   "name": "Jeff Gonzalez",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 23
+  },
+  {
+   "id": 2504620,
+   "name": "Jordan Temple",
+   "photo": "https://image.tmdb.org/t/p/w185/zntLtd0gzrM3R2wmeVYywi945Sq.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 8
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:35:03.041Z"
+}

@@ -1,0 +1,329 @@
+{
+ "show": "FROM",
+ "slug": "from",
+ "tmdbId": 124364,
+ "cast": [
+  {
+   "id": 6195,
+   "name": "Harold Perrineau",
+   "photo": "https://image.tmdb.org/t/p/w185/bVSLpGUaislREbujmknOqadrxYM.jpg",
+   "character": "Boyd Stevens",
+   "episodes": 40
+  },
+  {
+   "id": 5887,
+   "name": "Catalina Sandino Moreno",
+   "photo": "https://image.tmdb.org/t/p/w185/4nLPgs0v1rFZz3c0p9e5Euk0VkU.jpg",
+   "character": "Tabitha Matthews",
+   "episodes": 40
+  },
+  {
+   "id": 1927025,
+   "name": "Ricky He",
+   "photo": "https://image.tmdb.org/t/p/w185/ib7G6gYrJqSWMk2kX93ygVlrSPX.jpg",
+   "character": "Kenny Liu",
+   "episodes": 40
+  },
+  {
+   "id": 60089,
+   "name": "David Alpay",
+   "photo": "https://image.tmdb.org/t/p/w185/ezGCb3pOtEDZy3QNZxX6bQtKWiY.jpg",
+   "character": "Jade Herrera",
+   "episodes": 40
+  },
+  {
+   "id": 2520942,
+   "name": "Chloe Van Landschoot",
+   "photo": "https://image.tmdb.org/t/p/w185/9sQDQxKcp0UAl5nKfeoHwcn3eGs.jpg",
+   "character": "Kristi Miller",
+   "episodes": 40
+  },
+  {
+   "id": 1562430,
+   "name": "Hannah Cheramy",
+   "photo": "https://image.tmdb.org/t/p/w185/bVNJpvLKWwzxvLPFFmhsoMsR5qu.jpg",
+   "character": "Julie Matthews",
+   "episodes": 40
+  },
+  {
+   "id": 3437121,
+   "name": "Pegah Ghafoori",
+   "photo": "https://image.tmdb.org/t/p/w185/iLl3NYHTmp2n4CqlukO3bUTNhCf.jpg",
+   "character": "Fatima",
+   "episodes": 40
+  },
+  {
+   "id": 3118207,
+   "name": "Simon Webster",
+   "photo": "https://image.tmdb.org/t/p/w185/8K8D5ZQIb4fDSGxTKL2FVjFloWW.jpg",
+   "character": "Ethan Matthews",
+   "episodes": 40
+  },
+  {
+   "id": 108895,
+   "name": "Elizabeth Saunders",
+   "photo": "https://image.tmdb.org/t/p/w185/j3gPh9XkEJb789p7U0JgA1CFnpC.jpg",
+   "character": "Donna",
+   "episodes": 40
+  },
+  {
+   "id": 2578201,
+   "name": "Avery Konrad",
+   "photo": "https://image.tmdb.org/t/p/w185/hiyJ1IUgy3C7rcp5D5hoqTz4JCZ.jpg",
+   "character": "Sara Myers",
+   "episodes": 40
+  },
+  {
+   "id": 124315,
+   "name": "Scott McCord",
+   "photo": "https://image.tmdb.org/t/p/w185/dvuRt2P2tWemEZpSWKvl60TGa2l.jpg",
+   "character": "Victor Kavanaugh",
+   "episodes": 40
+  },
+  {
+   "id": 2710310,
+   "name": "Corteon Moore",
+   "photo": "https://image.tmdb.org/t/p/w185/6jHlhaUdAOKEMmODVyQOQB4YMwY.jpg",
+   "character": "Ellis Stevens",
+   "episodes": 40
+  },
+  {
+   "id": 7498,
+   "name": "Eion Bailey",
+   "photo": "https://image.tmdb.org/t/p/w185/3DW13W47cKk4LQZwS4EvRaNBoVu.jpg",
+   "character": "Jim Matthews",
+   "episodes": 32
+  },
+  {
+   "id": 3437125,
+   "name": "Elizabeth Moy",
+   "photo": "https://image.tmdb.org/t/p/w185/qanDyzwpag6V0NJWgIA3TcOaSJO.jpg",
+   "character": "Tian-Chen Liu",
+   "episodes": 30
+  },
+  {
+   "id": 2194626,
+   "name": "A.J. Simmons",
+   "photo": "https://image.tmdb.org/t/p/w185/AhUqWdIOaVLXIVIpPGczacGRTEl.jpg",
+   "character": "Randall Kirkland",
+   "episodes": 30
+  },
+  {
+   "id": 3705079,
+   "name": "Nathan D. Simmons",
+   "photo": "https://image.tmdb.org/t/p/w185/eqkFqZ8giFQPeMjrOiSQcT2QA6z.jpg",
+   "character": "Elgin Williams",
+   "episodes": 30
+  },
+  {
+   "id": 1503397,
+   "name": "Kaelen Ohm",
+   "photo": "https://image.tmdb.org/t/p/w185/fTP7wslxx24MGEfsBK76HmlUcPp.jpg",
+   "character": "Marielle Sinclair",
+   "episodes": 30
+  },
+  {
+   "id": 1449399,
+   "name": "Angela Moore",
+   "photo": "https://image.tmdb.org/t/p/w185/cPlZik5dw5M5dpNNweSh48UQlEi.jpg",
+   "character": "Bakta",
+   "episodes": 26
+  },
+  {
+   "id": 1785654,
+   "name": "Samantha Brown",
+   "photo": "https://image.tmdb.org/t/p/w185/s8shUKGCNBCxnKeGHwV3wP0HpIS.jpg",
+   "character": "Dani Acosta",
+   "episodes": 20
+  },
+  {
+   "id": 58803,
+   "name": "Deborah Grover",
+   "photo": "https://image.tmdb.org/t/p/w185/pujVIRIuWJ8VHeamg63uTGpGHWo.jpg",
+   "character": "Tillie",
+   "episodes": 20
+  },
+  {
+   "id": 19976,
+   "name": "Robert Joy",
+   "photo": "https://image.tmdb.org/t/p/w185/kPY9ggs4qCi3oeEvkYP17Yvfm5r.jpg",
+   "character": "Henry Kavanaugh",
+   "episodes": 20
+  },
+  {
+   "id": 113244,
+   "name": "Shaun Majumder",
+   "photo": "https://image.tmdb.org/t/p/w185/gN8CiUKDxsm9WlR8UYKmvXuQLqC.jpg",
+   "character": "Father Khatri",
+   "episodes": 19
+  },
+  {
+   "id": 3437139,
+   "name": "Katerina Bakolias",
+   "photo": "https://image.tmdb.org/t/p/w185/kH5VcmBycvxedTzInjQJppe3w9g.jpg",
+   "character": "Colony House Resident / Clara",
+   "episodes": 17
+  },
+  {
+   "id": 2396175,
+   "name": "Vox Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/ekGPZ5g2PBTsWuA9aCrHPKpQoD9.jpg",
+   "character": "Boy in White",
+   "episodes": 12
+  }
+ ],
+ "crew": [
+  {
+   "id": 2347147,
+   "name": "John Griffin",
+   "photo": "https://image.tmdb.org/t/p/w185/lAIA3ECbx2ZtMUiOyqTbWNvKTdO.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 51
+  },
+  {
+   "id": 28976,
+   "name": "Jack Bender",
+   "photo": "https://image.tmdb.org/t/p/w185/k0WxQFE0ecGSSJ3H9tt2Eqcn0FX.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 3228,
+   "name": "Scott Rosenberg",
+   "photo": "https://image.tmdb.org/t/p/w185/ihudUGp6RV0KAjCCFwsal2xq8GV.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 168309,
+   "name": "Jeff Pinkner",
+   "photo": "https://image.tmdb.org/t/p/w185/kNGnNjc4r5pPLuReF4BFQ4TpxJ3.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Story",
+    "Writer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 4218677,
+   "name": "Nancy Cotton",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 19272,
+   "name": "Joe Russo",
+   "photo": "https://image.tmdb.org/t/p/w185/o0OXjFzL10jCy89iAs7UzzSbyoK.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 1018751,
+   "name": "André Nemec",
+   "photo": "https://image.tmdb.org/t/p/w185/kuuEycNLQDeAhaH9QNd3lpnLM62.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 1405917,
+   "name": "Mike Larocca",
+   "photo": "https://image.tmdb.org/t/p/w185/rGM3x60aOk0jtl9XaTAbQaIGg4V.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 120015,
+   "name": "Josh Appelbaum",
+   "photo": "https://image.tmdb.org/t/p/w185/edCP3fGS25qdednDxSQkGiCimwK.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 19271,
+   "name": "Anthony Russo",
+   "photo": "https://image.tmdb.org/t/p/w185/xbINBnWn28YygYWUJ1aSAw0xPRv.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 2005078,
+   "name": "Chris Tilton",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 4038700,
+   "name": "Lindsay Dunn",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 1224830,
+   "name": "Alexandra La Roche",
+   "photo": "https://image.tmdb.org/t/p/w185/9SnJJfoTy2SyfPAU52nkL3usSXz.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 25882,
+   "name": "Brad Turner",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 229002,
+   "name": "Jeff Renfroe",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1587611,
+   "name": "Brigitte Hales",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:03.279Z"
+}

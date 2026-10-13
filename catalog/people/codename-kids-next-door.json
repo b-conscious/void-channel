@@ -1,0 +1,324 @@
+{
+ "show": "Codename: Kids Next Door",
+ "slug": "codename-kids-next-door",
+ "tmdbId": 2660,
+ "cast": [
+  {
+   "id": 1178795,
+   "name": "Ben Diskin",
+   "photo": "https://image.tmdb.org/t/p/w185/4RWjcrPgfTG1yp19kFKRZYimv2B.jpg",
+   "character": "Numbuh 1 / Numbuh 2 (voice)",
+   "episodes": 139
+  },
+  {
+   "id": 15100,
+   "name": "Lauren Tom",
+   "photo": "https://image.tmdb.org/t/p/w185/fTKFspRRQ275AkzvtPERLZnXe0n.jpg",
+   "character": "Numbuh 3 (voice)",
+   "episodes": 139
+  },
+  {
+   "id": 23680,
+   "name": "Dee Bradley Baker",
+   "photo": "https://image.tmdb.org/t/p/w185/9oFnToDZWp0I484s7Ua1EzNQQ2m.jpg",
+   "character": "Numbuh 4 (voice)",
+   "episodes": 139
+  },
+  {
+   "id": 34985,
+   "name": "Cree Summer",
+   "photo": "https://image.tmdb.org/t/p/w185/7DRq0zPUUWu55pUbnc2roVnzOJ9.jpg",
+   "character": "Numbuh 5 (voice)",
+   "episodes": 139
+  },
+  {
+   "id": 78798,
+   "name": "Tom Kenny",
+   "photo": "https://image.tmdb.org/t/p/w185/kftXtExrcoTTjyeYmSXJ0Ogr3R7.jpg",
+   "character": "Counselor / Campers (voice) / Chester (voice) / Fake Delightful Child from Down the Lane (voice)",
+   "episodes": 26
+  },
+  {
+   "id": 81667,
+   "name": "Jennifer Hale",
+   "photo": "https://image.tmdb.org/t/p/w185/oNQCrdiSm0mABCcE5YaHwuZQK8X.jpg",
+   "character": "Numbuh 202 (voice) / Computer / Nerd (voice) / Mrs. Uno (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 31162,
+   "name": "Daran Norris",
+   "photo": "https://image.tmdb.org/t/p/w185/oLaegqPwuEdNNJVqrvcgI6guYsi.jpg",
+   "character": "Guards / DJ (voice) / Joe Balooka (voice) / Count Spankulot / Joe Balooka / Spankenstine Monster (voice)",
+   "episodes": 20
+  },
+  {
+   "id": 34982,
+   "name": "Jeff Bennett",
+   "photo": "https://image.tmdb.org/t/p/w185/6Fq3Q1e0Oz0j2J2fnFSl7fKCHd9.jpg",
+   "character": "Destructo Dad (voice) / Sydney Beetles / Mr. Boss / Technicians (voice) / Hoagie Gilligan Sr. (voice)",
+   "episodes": 16
+  },
+  {
+   "id": 95257,
+   "name": "Candi Milo",
+   "photo": "https://image.tmdb.org/t/p/w185/tUjXMG2118Oagj7IjWJDEdmtCRW.jpg",
+   "character": "Betty Gilligan / Grandma Lydia (voice) / Leaky Leona / Mrs. Goodwall (voice) / Madame Margaret (voice)",
+   "episodes": 14
+  },
+  {
+   "id": 1178792,
+   "name": "Jason Harris",
+   "photo": "https://image.tmdb.org/t/p/w185/8SipZnnnQCm0PIdnyZpsB6gNRY0.jpg",
+   "character": "(voice) / Marty / Jock (voice) / Chad Dickson (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 15831,
+   "name": "Frank Welker",
+   "photo": "https://image.tmdb.org/t/p/w185/aC37aQtsfZZDZN5y3paDTLJJHCi.jpg",
+   "character": "Professor XXXL / Defense Array (voice) / Bus Driver (voice) / Rainbow Monkey Kong (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 15762,
+   "name": "Tara Strong",
+   "photo": "https://image.tmdb.org/t/p/w185/Cm3X7CCSuYbjW1ZKJ8vxCj4SI7.jpg",
+   "character": "Mushi Sanban (voice) / Rainbow Monkey Tribesgirl #3 (voice) / Mushi Sanban / Stewie (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 15761,
+   "name": "Grey DeLisle",
+   "photo": "https://image.tmdb.org/t/p/w185/vrUHaXe1pG56yZkgH7Hs3LGRLTT.jpg",
+   "character": "Mega Mom / Numbuh 69 (voice) / Gramma Stuffum (voice) / Julie / Cheerleader (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 34521,
+   "name": "Maurice LaMarche",
+   "photo": "https://image.tmdb.org/t/p/w185/qCiL3EYAhLcNo0rNj5pczWo9MwG.jpg",
+   "character": "Father (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 2,
+   "name": "Mark Hamill",
+   "photo": "https://image.tmdb.org/t/p/w185/zMQ93JTLW8KxusKhOlHFZhih3YQ.jpg",
+   "character": "Stickybeard (voice) / Stickybeard / Sumo Wrestler / Pirate (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 24362,
+   "name": "Kevin Michael Richardson",
+   "photo": "https://image.tmdb.org/t/p/w185/xXt9Nh7RAT5bOen66TaXreNYmCl.jpg",
+   "character": "Dr. Lincoln (voice) / Ice Cream Man / Ice Cream Beast (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 19506,
+   "name": "James Arnold Taylor",
+   "photo": "https://image.tmdb.org/t/p/w185/A6J14W5kxsuEKXaRkiOXBIROO9t.jpg",
+   "character": "King Sandy / Knight #2 / Guard #1 (voice) / Eggbert Eggleston (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 81668,
+   "name": "Rachael MacFarlane",
+   "photo": "https://image.tmdb.org/t/p/w185/AnLEvMh9pl94uJOO2MnZFQB44b4.jpg",
+   "character": "(voice) / Numbuh 362 (voice) / Girls (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 571300,
+   "name": "Dave Wittenberg",
+   "photo": "https://image.tmdb.org/t/p/w185/jqKxWh9Kyd0WmKiLRrtThDZHSYZ.jpg",
+   "character": "Numbuh 74.239 (voice) / Ernest \"Ernie\" / Nick (voice) / Wintergreen (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 43125,
+   "name": "Rob Paulsen",
+   "photo": "https://image.tmdb.org/t/p/w185/7buvKWIjPlspqruaO3b28V5owJr.jpg",
+   "character": "Mr. Mogul / Monkey (voice) / Rupert Puttkin / The Great Puttinski (voice) / (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 91387,
+   "name": "Keone Young",
+   "photo": "https://image.tmdb.org/t/p/w185/hHtr7OzP2I2U7FfA2hj8rPtAt8z.jpg",
+   "character": "Kani Sanban (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 59784,
+   "name": "Carlos Alazraqui",
+   "photo": "https://image.tmdb.org/t/p/w185/rv3ZYwFvMCz6rQNJR4p0wRMbK9U.jpg",
+   "character": "The Kid / Pedestrian (voice) / Numbuh 2x4 (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 84495,
+   "name": "Jess Harnell",
+   "photo": "https://image.tmdb.org/t/p/w185/zQ2zg7PL3ut4JhfXMKSRV4FMnxR.jpg",
+   "character": "Tony Clownarelli (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 61983,
+   "name": "Jason Marsden",
+   "photo": "https://image.tmdb.org/t/p/w185/53aVh2ka0b4ZyR8dO8hBTQxQ9hc.jpg",
+   "character": "Numbuh 80 (voice)",
+   "episodes": 2
+  }
+ ],
+ "crew": [
+  {
+   "id": 1224842,
+   "name": "Tom Warburton",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Director",
+    "Writer"
+   ],
+   "episodes": 139
+  },
+  {
+   "id": 1224841,
+   "name": "Mo Willems",
+   "photo": "https://image.tmdb.org/t/p/w185/f6Nbn3S09ecJ5SYJSnUXvVkP9xR.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 95
+  },
+  {
+   "id": 2112123,
+   "name": "Andy Rheingold",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 42
+  },
+  {
+   "id": 1909173,
+   "name": "Kim Arndt",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 38
+  },
+  {
+   "id": 3609707,
+   "name": "Quack Leard",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 2790377,
+   "name": "Guy Moore",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 1633180,
+   "name": "Alison Wilgus",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 3609662,
+   "name": "Robert Leighton",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 3609669,
+   "name": "Tom Eaton",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1947808,
+   "name": "Blake Lemons",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 3609974,
+   "name": "Erin Finnegan",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 219193,
+   "name": "Brian Muehl",
+   "photo": "https://image.tmdb.org/t/p/w185/zlcXApm5JMVDhhuHBQ1m6rsU2Iq.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 3609918,
+   "name": "Grace Lu",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 101564,
+   "name": "Anne D. Bernstein",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 3609876,
+   "name": "Robert Kopecky",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 219688,
+   "name": "Billy Aronson",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:29:58.382Z"
+}

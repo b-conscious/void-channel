@@ -1,0 +1,329 @@
+{
+ "show": "Scrubs",
+ "slug": "scrubs",
+ "tmdbId": 295778,
+ "cast": [
+  {
+   "id": 5367,
+   "name": "Zach Braff",
+   "photo": "https://image.tmdb.org/t/p/w185/koIHwqE6hWIXuOIDHNADwSuGq6N.jpg",
+   "character": "John 'J.D.' Dorian",
+   "episodes": 19
+  },
+  {
+   "id": 49002,
+   "name": "Donald Faison",
+   "photo": "https://image.tmdb.org/t/p/w185/gNwWP1CHob9Y8fjY69w7EwGxMoz.jpg",
+   "character": "Christopher Turk",
+   "episodes": 19
+  },
+  {
+   "id": 49001,
+   "name": "Sarah Chalke",
+   "photo": "https://image.tmdb.org/t/p/w185/ycwiu89cpjqCtSNC5FjbJggjj5R.jpg",
+   "character": "Elliot Reid",
+   "episodes": 19
+  },
+  {
+   "id": 5828171,
+   "name": "Ava Bunn",
+   "photo": "https://image.tmdb.org/t/p/w185/rbneqd2SykvHQ48Tun21wWTxaHf.jpg",
+   "character": "Dr. Sam Tosh",
+   "episodes": 19
+  },
+  {
+   "id": 2403826,
+   "name": "Jacob Dudman",
+   "photo": "https://image.tmdb.org/t/p/w185/xBdCp4g2lsMHB9FgEV8Iopoqu0B.jpg",
+   "character": "Dr. Asher Green",
+   "episodes": 11
+  },
+  {
+   "id": 1736812,
+   "name": "David Gridley",
+   "photo": "https://image.tmdb.org/t/p/w185/ntRWEqBsPPqxs33ur5AV1Bbgouw.jpg",
+   "character": "Dr. Blake Lewis",
+   "episodes": 11
+  },
+  {
+   "id": 2951465,
+   "name": "Amanda Morrow",
+   "photo": "https://image.tmdb.org/t/p/w185/pcY7xQej4JoY6UJpgYA9sUte4Im.jpg",
+   "character": "Dr. Dashana Trainor",
+   "episodes": 11
+  },
+  {
+   "id": 2065264,
+   "name": "Michael James Scott",
+   "photo": "https://image.tmdb.org/t/p/w185/zPX4VU6dX40gayERorTdo3LByAu.jpg",
+   "character": "Nurse Dubois",
+   "episodes": 11
+  },
+  {
+   "id": 3161254,
+   "name": "Layla Mohammadi",
+   "photo": "https://image.tmdb.org/t/p/w185/pjKw06MAlEwaF5lIAMh7XpoEFqk.jpg",
+   "character": "Dr. Amara Hadi",
+   "episodes": 10
+  },
+  {
+   "id": 503103,
+   "name": "Vanessa Bayer",
+   "photo": "https://image.tmdb.org/t/p/w185/8IUjlVY8l7S7BEVhfHzKNgVGpUX.jpg",
+   "character": "Sibby Wilson",
+   "episodes": 8
+  },
+  {
+   "id": 1216705,
+   "name": "Robert Maschio",
+   "photo": "https://image.tmdb.org/t/p/w185/dJveBsGlMfmjxXysVUSzDTynde1.jpg",
+   "character": "The Todd",
+   "episodes": 7
+  },
+  {
+   "id": 159657,
+   "name": "Judy Reyes",
+   "photo": "https://image.tmdb.org/t/p/w185/DQ8kIRHru9Zzy6CftVryHmIOJs.jpg",
+   "character": "Carla Espinosa",
+   "episodes": 6
+  },
+  {
+   "id": 2371545,
+   "name": "Joel Kim Booster",
+   "photo": "https://image.tmdb.org/t/p/w185/gKJHnWnnEoN85aC9UzAlg7XFnSG.jpg",
+   "character": "Dr. Kevin Park",
+   "episodes": 6
+  },
+  {
+   "id": 2267887,
+   "name": "X Mayo",
+   "photo": "https://image.tmdb.org/t/p/w185/7rmo3N6EOzsKxvlk78NJLjEboys.jpg",
+   "character": "Nurse Raymond",
+   "episodes": 6
+  },
+  {
+   "id": 11885,
+   "name": "John C. McGinley",
+   "photo": "https://image.tmdb.org/t/p/w185/a9Oc7STg83syQh3X22u2TroAifk.jpg",
+   "character": "Dr. Perry Cox",
+   "episodes": 5
+  },
+  {
+   "id": 2137584,
+   "name": "Eddie Leavy",
+   "photo": "https://image.tmdb.org/t/p/w185/9JrGan2aZsMFG9iVic474bSo3S8.jpg",
+   "character": "Raffi",
+   "episodes": 3
+  },
+  {
+   "id": 1457257,
+   "name": "Darcy Michael",
+   "photo": "https://image.tmdb.org/t/p/w185/3S57SboOpGkaY8MZGlMfWnGla9M.jpg",
+   "character": "Maintenance Guy",
+   "episodes": 3
+  },
+  {
+   "id": 1656179,
+   "name": "Andy Ridings",
+   "photo": "https://image.tmdb.org/t/p/w185/5TiVxx4isclYnnQJ1EwXD9oeDlf.jpg",
+   "character": "Wes",
+   "episodes": 3
+  },
+  {
+   "id": 52783,
+   "name": "Rachel Bilson",
+   "photo": "https://image.tmdb.org/t/p/w185/jlacH60rFke82EfuvFqgjcxPIx0.jpg",
+   "character": "Charlie",
+   "episodes": 3
+  },
+  {
+   "id": 33490,
+   "name": "Phill Lewis",
+   "photo": "https://image.tmdb.org/t/p/w185/8RIWwUZrIoDabtQjMJ5qx3ZOHjE.jpg",
+   "character": "Hooch",
+   "episodes": 2
+  },
+  {
+   "id": 2655972,
+   "name": "Lisa Gilroy",
+   "photo": "https://image.tmdb.org/t/p/w185/zEv5PRAKeQo7a3yCGhm2DJwf20B.jpg",
+   "character": "Lily",
+   "episodes": 2
+  },
+  {
+   "id": 212821,
+   "name": "Christa Miller",
+   "photo": "https://image.tmdb.org/t/p/w185/gfLL2dM209v3WfVrovwGszjgtB3.jpg",
+   "character": "Jordan",
+   "episodes": 2
+  },
+  {
+   "id": 41729,
+   "name": "K Callan",
+   "photo": "https://image.tmdb.org/t/p/w185/iaoZ23x9IBHA7xBsC28F1SW2PPm.jpg",
+   "character": "Lillian Blue",
+   "episodes": 2
+  },
+  {
+   "id": 3631835,
+   "name": "John Higgins",
+   "photo": "https://image.tmdb.org/t/p/w185/nr8XrAlXP9yaQyFJaZ7E8VdnFE5.jpg",
+   "character": "Grant Summers",
+   "episodes": 2
+  }
+ ],
+ "crew": [
+  {
+   "id": 1216859,
+   "name": "Bill Lawrence",
+   "photo": "https://image.tmdb.org/t/p/w185/75mV8qLqPA9oMy23lTxmcoEGWAe.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 1237149,
+   "name": "Randall Keenan Winston",
+   "photo": "https://image.tmdb.org/t/p/w185/zoogk5ypiFH9ruxiudRONqg4VD7.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 5367,
+   "name": "Zach Braff",
+   "photo": "https://image.tmdb.org/t/p/w185/koIHwqE6hWIXuOIDHNADwSuGq6N.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 1321773,
+   "name": "Jeff Ingold",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 1237156,
+   "name": "Aseem Batra",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 2505140,
+   "name": "Liza Katzer",
+   "photo": "https://image.tmdb.org/t/p/w185/m6MZXfzqN4tC1I9YqKEG6xPnMY7.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 49001,
+   "name": "Sarah Chalke",
+   "photo": "https://image.tmdb.org/t/p/w185/ycwiu89cpjqCtSNC5FjbJggjj5R.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 1336499,
+   "name": "Mathew Harawitz",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 49002,
+   "name": "Donald Faison",
+   "photo": "https://image.tmdb.org/t/p/w185/gNwWP1CHob9Y8fjY69w7EwGxMoz.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 2364196,
+   "name": "WAZ",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 2905793,
+   "name": "Jamie Jackson",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 65506,
+   "name": "Michael Spiller",
+   "photo": "https://image.tmdb.org/t/p/w185/qpK5EijOHIjGpFMSdHsEXOV8v53.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1229494,
+   "name": "Mike Royce",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 4660838,
+   "name": "Christopher Eddins",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 6520458,
+   "name": "Brianna Porter",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1224239,
+   "name": "Tim Hobert",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 5
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:28:35.582Z"
+}

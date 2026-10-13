@@ -1,0 +1,333 @@
+{
+ "show": "Love, Victor",
+ "slug": "love-victor",
+ "tmdbId": 97186,
+ "cast": [
+  {
+   "id": 2342988,
+   "name": "Michael Cimino",
+   "photo": "https://image.tmdb.org/t/p/w185/hixktl0ssobutw3csX3yQaEbRbA.jpg",
+   "character": "Victor Salazar",
+   "episodes": 28
+  },
+  {
+   "id": 1838981,
+   "name": "George Sear",
+   "photo": "https://image.tmdb.org/t/p/w185/UVO6Hcfe3FgP2HbwDbQyI214Dm.jpg",
+   "character": "Benjamin 'Benji' Campbell",
+   "episodes": 28
+  },
+  {
+   "id": 970769,
+   "name": "Rachel Hilson",
+   "photo": "https://image.tmdb.org/t/p/w185/nweHoDB305tViP7998kI14QjCK3.jpg",
+   "character": "Mia Brooks",
+   "episodes": 28
+  },
+  {
+   "id": 2600646,
+   "name": "Anthony Turpel",
+   "photo": "https://image.tmdb.org/t/p/w185/iUpCLoRgQpeizfagLpswe5qXOq5.jpg",
+   "character": "Felix Weston",
+   "episodes": 28
+  },
+  {
+   "id": 1256118,
+   "name": "Bebe Wood",
+   "photo": "https://image.tmdb.org/t/p/w185/AmWu9Aeq915Gw1jK2AIAcia8556.jpg",
+   "character": "Lake Meriwether",
+   "episodes": 28
+  },
+  {
+   "id": 2174509,
+   "name": "Mason Gooding",
+   "photo": "https://image.tmdb.org/t/p/w185/bmlry1xqBzNgv8Chm783ss93Cvg.jpg",
+   "character": "Andrew  Spencer",
+   "episodes": 28
+  },
+  {
+   "id": 2551677,
+   "name": "Isabella Ferreira",
+   "photo": "https://image.tmdb.org/t/p/w185/8r87nJRJGPt8GLbRxJRuj9nCiyp.jpg",
+   "character": "Pilar Salazar",
+   "episodes": 28
+  },
+  {
+   "id": 2667400,
+   "name": "Mateo Fernandez",
+   "photo": "https://image.tmdb.org/t/p/w185/5QDyM38PsqLeVBUBvLe6CbogsT4.jpg",
+   "character": "Adrian Salazar",
+   "episodes": 28
+  },
+  {
+   "id": 104482,
+   "name": "James Martinez",
+   "photo": "https://image.tmdb.org/t/p/w185/xWGHtcBUmNO9MBqoDHPtetQZ3k7.jpg",
+   "character": "Armando Salazar",
+   "episodes": 28
+  },
+  {
+   "id": 38333,
+   "name": "Ana Ortiz",
+   "photo": "https://image.tmdb.org/t/p/w185/rdOn32CUJNTd2ZavBs48eS41Rra.jpg",
+   "character": "Isabel Salazar",
+   "episodes": 28
+  },
+  {
+   "id": 931792,
+   "name": "Anthony Keyvan",
+   "photo": "https://image.tmdb.org/t/p/w185/wX9rE9MUbnIRwoTeTqKGB7FMfO7.jpg",
+   "character": "Rahim",
+   "episodes": 14
+  },
+  {
+   "id": 2050728,
+   "name": "Ava Capri",
+   "photo": "https://image.tmdb.org/t/p/w185/lcZ0CFQm18l5G5mTsaL57Jrt3rJ.jpg",
+   "character": "Lucy",
+   "episodes": 14
+  },
+  {
+   "id": 327,
+   "name": "Mekhi Phifer",
+   "photo": "https://image.tmdb.org/t/p/w185/jCvF0bpi9emIWBnu20MCMU0bwrf.jpg",
+   "character": "Harold Brooks",
+   "episodes": 9
+  },
+  {
+   "id": 2452847,
+   "name": "Charlie Hall",
+   "photo": "https://image.tmdb.org/t/p/w185/ekdtnSKDXJRqwI0Uwi0N9mot3dB.jpg",
+   "character": "Kieran",
+   "episodes": 8
+  },
+  {
+   "id": 2752202,
+   "name": "AJ Carr",
+   "photo": "https://image.tmdb.org/t/p/w185/tuu9unKUmIKySNfiT9XKEtmmJwr.jpg",
+   "character": "Teddy",
+   "episodes": 7
+  },
+  {
+   "id": 54830,
+   "name": "Sophia Bush",
+   "photo": "https://image.tmdb.org/t/p/w185/dm4s2L4bChDZFIpjV01ELeNl05W.jpg",
+   "character": "Veronica",
+   "episodes": 7
+  },
+  {
+   "id": 1371509,
+   "name": "Lukas Gage",
+   "photo": "https://image.tmdb.org/t/p/w185/xXknCnXtRBmqg38TkMuPFtugt5s.jpg",
+   "character": "Derek",
+   "episodes": 5
+  },
+  {
+   "id": 1720948,
+   "name": "Nico Greetham",
+   "photo": "https://image.tmdb.org/t/p/w185/xiF00qwPVP7FaKWZOAKckQbuSwx.jpg",
+   "character": "Nick",
+   "episodes": 5
+  },
+  {
+   "id": 1212123,
+   "name": "Leslie Grossman",
+   "photo": "https://image.tmdb.org/t/p/w185/zvFXKr0U6hFrOEkV7ZFVNhJ9m9X.jpg",
+   "character": "Georgina Cunningham",
+   "episodes": 4
+  },
+  {
+   "id": 28637,
+   "name": "Andy Richter",
+   "photo": "https://image.tmdb.org/t/p/w185/5Qr7N6TzC8cI0ULxDm6EC5GpZ4C.jpg",
+   "character": "Coach Ford",
+   "episodes": 4
+  },
+  {
+   "id": 79024,
+   "name": "Beth Littleford",
+   "photo": "https://image.tmdb.org/t/p/w185/oFvUrZNH76UAEji9E0IhHPLIPdy.jpg",
+   "character": "Sarah",
+   "episodes": 4
+  },
+  {
+   "id": 1217934,
+   "name": "Betsy Brandt",
+   "photo": "https://image.tmdb.org/t/p/w185/xAnuzyjdMbQq9L1c4JNwXL52Wm4.jpg",
+   "character": "Dawn",
+   "episodes": 4
+  },
+  {
+   "id": 35551,
+   "name": "Julie Benz",
+   "photo": "https://image.tmdb.org/t/p/w185/avcCYkQjRM7qgE0MZ5VXcK3XcKz.jpg",
+   "character": "Shelby",
+   "episodes": 4
+  },
+  {
+   "id": 2111838,
+   "name": "Kayla DiVenere",
+   "photo": "https://image.tmdb.org/t/p/w185/4UhBsG7m0g8PfhH0sJToZXZjBKt.jpg",
+   "character": "Jenny",
+   "episodes": 3
+  }
+ ],
+ "crew": [
+  {
+   "id": 1300295,
+   "name": "Elizabeth Berger",
+   "photo": "https://image.tmdb.org/t/p/w185/oU5Lt8tTF3Aj8pGYayfOmwoY5uh.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 28
+  },
+  {
+   "id": 1300294,
+   "name": "Isaac Aptaker",
+   "photo": "https://image.tmdb.org/t/p/w185/icCdKsFa8ze7nuoi9BMzooNamhj.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 28
+  },
+  {
+   "id": 63513,
+   "name": "Jason Ensler",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 28
+  },
+  {
+   "id": 25046,
+   "name": "Marty Bowen",
+   "photo": "https://image.tmdb.org/t/p/w185/dviYV5G5Gj53G5UBl3DcFl77KBD.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 28
+  },
+  {
+   "id": 1538209,
+   "name": "Isaac Klausner",
+   "photo": "https://image.tmdb.org/t/p/w185/pjDFZlY2NdoqrnoiMiCB05bMz9y.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 28
+  },
+  {
+   "id": 1572612,
+   "name": "Adam Londy",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 28
+  },
+  {
+   "id": 1345249,
+   "name": "Pouya Shahbazian",
+   "photo": "https://image.tmdb.org/t/p/w185/c4puHizttP4LfqusyAwLhgQkfnB.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 28
+  },
+  {
+   "id": 6040,
+   "name": "Wyck Godfrey",
+   "photo": "https://image.tmdb.org/t/p/w185/tKoS0O3m1UROqeM9ZLLfbvgY6Vf.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 28
+  },
+  {
+   "id": 1878983,
+   "name": "Brian Tanen",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 28
+  },
+  {
+   "id": 3150420,
+   "name": "Adam Fishbach",
+   "photo": "https://image.tmdb.org/t/p/w185/4DzQxiwapmwPIDyDNnCe7Nifvz1.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 28
+  },
+  {
+   "id": 2599760,
+   "name": "Kotomi",
+   "photo": "https://image.tmdb.org/t/p/w185/sKExQQlHVUGjBGMCMKyBYYoZSvH.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 28
+  },
+  {
+   "id": 1783973,
+   "name": "Siddhartha Khosla",
+   "photo": "https://image.tmdb.org/t/p/w185/mLNa78qVRAUAUNNDcC2UvAVgRHk.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 28
+  },
+  {
+   "id": 2686031,
+   "name": "Jeremy Roth",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 2686034,
+   "name": "Jillian Moreno",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 21
+  },
+  {
+   "id": 3124369,
+   "name": "Alex Freund",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 3036261,
+   "name": "Sarah LaBrie",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 11
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:50.367Z"
+}

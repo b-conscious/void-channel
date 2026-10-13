@@ -1,0 +1,328 @@
+{
+ "show": "Animaniacs",
+ "slug": "animaniacs",
+ "tmdbId": 82,
+ "cast": [
+  {
+   "id": 43125,
+   "name": "Rob Paulsen",
+   "photo": "https://image.tmdb.org/t/p/w185/7buvKWIjPlspqruaO3b28V5owJr.jpg",
+   "character": "Yakko / Pinky (voice)",
+   "episodes": 275
+  },
+  {
+   "id": 84495,
+   "name": "Jess Harnell",
+   "photo": "https://image.tmdb.org/t/p/w185/zQ2zg7PL3ut4JhfXMKSRV4FMnxR.jpg",
+   "character": "Wakko (voice)",
+   "episodes": 275
+  },
+  {
+   "id": 34983,
+   "name": "Tress MacNeille",
+   "photo": "https://image.tmdb.org/t/p/w185/gI2LsgByvSffQY34vabVnPmrHzw.jpg",
+   "character": "Dot (voice)",
+   "episodes": 275
+  },
+  {
+   "id": 34521,
+   "name": "Maurice LaMarche",
+   "photo": "https://image.tmdb.org/t/p/w185/qCiL3EYAhLcNo0rNj5pczWo9MwG.jpg",
+   "character": "The Brain / Squit (voice)",
+   "episodes": 275
+  },
+  {
+   "id": 56054,
+   "name": "Sherri Stoner",
+   "photo": "https://image.tmdb.org/t/p/w185/8ayLtCDHqjk0YaieMBElSr5MPj1.jpg",
+   "character": "Slappy Squirrel (voice)",
+   "episodes": 275
+  },
+  {
+   "id": 99815,
+   "name": "Chick Vennera",
+   "photo": "https://image.tmdb.org/t/p/w185/fTuY5IhTGVEYES6LFZhbuRgZwVW.jpg",
+   "character": "Pesto (voice)",
+   "episodes": 275
+  },
+  {
+   "id": 35158,
+   "name": "John Mariano",
+   "photo": "https://image.tmdb.org/t/p/w185/WJbEhM4040D2XBb1ko7OHR7t2q.jpg",
+   "character": "Bobby (voice)",
+   "episodes": 275
+  },
+  {
+   "id": 2007656,
+   "name": "Nathan Ruegger",
+   "photo": "https://image.tmdb.org/t/p/w185/jYnHNWeqRi7L7Lim1dJv1YufXMW.jpg",
+   "character": "Skippy Squirrel (voice)",
+   "episodes": 275
+  },
+  {
+   "id": 200,
+   "name": "Nancy Cartwright",
+   "photo": "https://image.tmdb.org/t/p/w185/kJQEz3NAwHGdb2sQzAnBf1RmMV4.jpg",
+   "character": "Mindy (voice)",
+   "episodes": 275
+  },
+  {
+   "id": 15831,
+   "name": "Frank Welker",
+   "photo": "https://image.tmdb.org/t/p/w185/aC37aQtsfZZDZN5y3paDTLJJHCi.jpg",
+   "character": "Runt / Buttons (voice)",
+   "episodes": 172
+  },
+  {
+   "id": 40389,
+   "name": "Bernadette Peters",
+   "photo": "https://image.tmdb.org/t/p/w185/x2hZ6AsIAfb5t512Q72SYtdNdZf.jpg",
+   "character": "Rita (voice)",
+   "episodes": 172
+  },
+  {
+   "id": 34982,
+   "name": "Jeff Bennett",
+   "photo": "https://image.tmdb.org/t/p/w185/6Fq3Q1e0Oz0j2J2fnFSl7fKCHd9.jpg",
+   "character": "The Colonel (voice) / Snake (voice) / The Butler / The Commissioner (voice)",
+   "episodes": 27
+  },
+  {
+   "id": 12077,
+   "name": "Jim Cummings",
+   "photo": "https://image.tmdb.org/t/p/w185/c0sQPRCM5Ri3F4gVyxPr4AcPmIq.jpg",
+   "character": "Buddy / Announcer / Theodore Roosevelt / Vern Turtletaub (voice) / Prof. Otto von Schnitzelpusskrankengescheitmeyer (voice) / Camenbert (voice)",
+   "episodes": 14
+  },
+  {
+   "id": 1212836,
+   "name": "Paul Rugg",
+   "photo": "https://image.tmdb.org/t/p/w185/rr5KUJtzAAa39gqF22DzBrpGW6a.jpg",
+   "character": "Lon Borax / Mr. Director (voice) / Mr. Clown (voice) / Mr. Director (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 1219626,
+   "name": "Gail Matthius",
+   "photo": "https://image.tmdb.org/t/p/w185/kGpZuDcUJ0gszaW1BKXK2IBay7P.jpg",
+   "character": "Snow White (voice) / Singer (voice) / Phoebe Buffay / Rachel Green (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 27862,
+   "name": "Mary Gross",
+   "photo": "https://image.tmdb.org/t/p/w185/9s20j6Hg9WTnKH8dbjqgLUgwR9W.jpg",
+   "character": "Katie's Mom (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 40680,
+   "name": "Julie Brown",
+   "photo": "https://image.tmdb.org/t/p/w185/hdTnxS4ry9eDaCZVcItiZ9MEJKk.jpg",
+   "character": "Minerva Mink (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 21731,
+   "name": "Michael McKean",
+   "photo": "https://image.tmdb.org/t/p/w185/xuEZeuylzznJcf0nDs1RlvuzaPr.jpg",
+   "character": "Spink (voice) / Neivel Nosenest (voice) / Jake (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 1911415,
+   "name": "Elizabeth Lamers",
+   "photo": null,
+   "character": "Singer #2 (voice) / Singer / Sparrow (voice) / Chorus Member #1 (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 83975,
+   "name": "Arte Johnson",
+   "photo": "https://image.tmdb.org/t/p/w185/iw1A7WCdoOJ6L7m4w3usWMfWPoc.jpg",
+   "character": "Newt (voice) / Delivery Guy / German Dog (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 937270,
+   "name": "Julie Bernstein",
+   "photo": "https://image.tmdb.org/t/p/w185/q6vB4wjp7ZI2tsQIGnh8PRtxfva.jpg",
+   "character": "Singer #1 (voice) / Zombie (voice) / Chorus Member #2 (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 87920,
+   "name": "Laura Mooney",
+   "photo": null,
+   "character": "Katie Ka-Boom (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 68458,
+   "name": "Jack Burns",
+   "photo": "https://image.tmdb.org/t/p/w185/tcqXc78TkNVnMe1dGXL1R41bwEq.jpg",
+   "character": "Sid the Squid (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 100624,
+   "name": "Avery Schreiber",
+   "photo": "https://image.tmdb.org/t/p/w185/kNRVYuvDhYinmCGOKIL4bIE6lHB.jpg",
+   "character": "Beanie the Bison (voice)",
+   "episodes": 3
+  }
+ ],
+ "crew": [
+  {
+   "id": 488,
+   "name": "Steven Spielberg",
+   "photo": "https://image.tmdb.org/t/p/w185/tZxcg19YQ3e8fJ0pOs7hjlnmmr6.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 275
+  },
+  {
+   "id": 1212836,
+   "name": "Paul Rugg",
+   "photo": "https://image.tmdb.org/t/p/w185/rr5KUJtzAAa39gqF22DzBrpGW6a.jpg",
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 175450,
+   "name": "Alfred Gimeno",
+   "photo": "https://image.tmdb.org/t/p/w185/tkQEjSwaom1OWQzuA29pmIwUqsH.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 84977,
+   "name": "Dave Marshall",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 1212834,
+   "name": "Tom Ruegger",
+   "photo": "https://image.tmdb.org/t/p/w185/kncofUBXuuyZMYuxcNO4PfY1krO.jpg",
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 64149,
+   "name": "Peter Hastings",
+   "photo": "https://image.tmdb.org/t/p/w185/o5BXNCGeMiYS6AlRGigQCGVbr7K.jpg",
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 56055,
+   "name": "Deanna Oliver",
+   "photo": "https://image.tmdb.org/t/p/w185/gLj6xYWIYu7QiHA4ZcjULuSsJ7H.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 1227383,
+   "name": "Michael Gerard",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 1227381,
+   "name": "Nicholas Hollander",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 1212835,
+   "name": "John P. McCann",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 1365667,
+   "name": "Greg Reyna",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 1212841,
+   "name": "Rusty Mills",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 105799,
+   "name": "Audu Paden",
+   "photo": "https://image.tmdb.org/t/p/w185/v1B5Cc91AdwPQgMCQKebD8iPhH0.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 56054,
+   "name": "Sherri Stoner",
+   "photo": "https://image.tmdb.org/t/p/w185/8ayLtCDHqjk0YaieMBElSr5MPj1.jpg",
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 35271,
+   "name": "Randy Rogel",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 2440574,
+   "name": "Jon McClenahan",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 9
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:29:14.492Z"
+}

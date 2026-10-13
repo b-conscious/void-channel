@@ -1,0 +1,332 @@
+{
+ "show": "Brooklyn Nine-Nine",
+ "slug": "brooklyn-nine-nine",
+ "tmdbId": 48891,
+ "cast": [
+  {
+   "id": 62861,
+   "name": "Andy Samberg",
+   "photo": "https://image.tmdb.org/t/p/w185/jMXU5oG3i93SH1yhkpbBGskFiJl.jpg",
+   "character": "Jake Peralta",
+   "episodes": 152
+  },
+  {
+   "id": 1220767,
+   "name": "Melissa Fumero",
+   "photo": "https://image.tmdb.org/t/p/w185/mKwnGOzHr0lSIs8BzPGoJhT3F7I.jpg",
+   "character": "Amy Santiago",
+   "episodes": 152
+  },
+  {
+   "id": 53256,
+   "name": "Terry Crews",
+   "photo": "https://image.tmdb.org/t/p/w185/pxTY4SglLo5hFcMH00MxPeC5u55.jpg",
+   "character": "Terry Jeffords",
+   "episodes": 152
+  },
+  {
+   "id": 21131,
+   "name": "Joe Lo Truglio",
+   "photo": "https://image.tmdb.org/t/p/w185/lHqOK2LJWGtHACUOqhApFrs38eV.jpg",
+   "character": "Charles Boyle",
+   "episodes": 152
+  },
+  {
+   "id": 968367,
+   "name": "Stephanie Beatriz",
+   "photo": "https://image.tmdb.org/t/p/w185/7gNPOlsVIdg7QQOv1gRfHjv1Sdb.jpg",
+   "character": "Rosa Diaz",
+   "episodes": 152
+  },
+  {
+   "id": 6861,
+   "name": "Andre Braugher",
+   "photo": "https://image.tmdb.org/t/p/w185/zdemT9c1U4Muxf7hi0iFq2zHNLd.jpg",
+   "character": "Raymond Holt",
+   "episodes": 152
+  },
+  {
+   "id": 123016,
+   "name": "Dirk Blocker",
+   "photo": "https://image.tmdb.org/t/p/w185/tTArHJwlyInfkjOinp4f0S1X0Dw.jpg",
+   "character": "Michael Hitchcock",
+   "episodes": 152
+  },
+  {
+   "id": 88950,
+   "name": "Joel McKinnon Miller",
+   "photo": "https://image.tmdb.org/t/p/w185/tssymtsgGV3zd8X6tm7p6ZbIUv.jpg",
+   "character": "Norman Scully",
+   "episodes": 152
+  },
+  {
+   "id": 1240868,
+   "name": "Chelsea Peretti",
+   "photo": "https://image.tmdb.org/t/p/w185/2VeMzM8ANvqjAogBaatK0NdYGqB.jpg",
+   "character": "Gina Linetti",
+   "episodes": 118
+  },
+  {
+   "id": 141956,
+   "name": "Marc Evan Jackson",
+   "photo": "https://image.tmdb.org/t/p/w185/4TWP0nlhkxkZ5XzzZuz3RCoZjFX.jpg",
+   "character": "Kevin Cozner",
+   "episodes": 18
+  },
+  {
+   "id": 26467,
+   "name": "Kyra Sedgwick",
+   "photo": "https://image.tmdb.org/t/p/w185/cfpLVZWChElvkKegZopC0xDjEWk.jpg",
+   "character": "Madeline Wuntch",
+   "episodes": 12
+  },
+  {
+   "id": 111683,
+   "name": "Jason Mantzoukas",
+   "photo": "https://image.tmdb.org/t/p/w185/sCG3UAdoxCy39gMd9ILlAFJbApS.jpg",
+   "character": "Adrian Pimento",
+   "episodes": 11
+  },
+  {
+   "id": 68763,
+   "name": "Dean Winters",
+   "photo": "https://image.tmdb.org/t/p/w185/zxgOZAYGxa2qmiZkJKGRIhwbGhG.jpg",
+   "character": "Keith 'The Vulture' Pembroke",
+   "episodes": 9
+  },
+  {
+   "id": 64342,
+   "name": "Craig Robinson",
+   "photo": "https://image.tmdb.org/t/p/w185/mTyTrOWUSOBJMOlDpnd4OYx7FlJ.jpg",
+   "character": "Doug Judy",
+   "episodes": 9
+  },
+  {
+   "id": 1215836,
+   "name": "Kyle Bornheimer",
+   "photo": "https://image.tmdb.org/t/p/w185/79KUwXqB2FdKqxsAMppkJ8Aa78e.jpg",
+   "character": "Teddy Wells",
+   "episodes": 7
+  },
+  {
+   "id": 36811,
+   "name": "Nick Cannon",
+   "photo": "https://image.tmdb.org/t/p/w185/u8b5uinYCwdlCu6P3qcKZqeCgQe.jpg",
+   "character": "Marcus",
+   "episodes": 6
+  },
+  {
+   "id": 1237238,
+   "name": "Kevin Dorff",
+   "photo": "https://image.tmdb.org/t/p/w185/yrI78HuKy1KzJ2zTnP6ujMtyHrQ.jpg",
+   "character": "Bartender / Hank",
+   "episodes": 6
+  },
+  {
+   "id": 1236019,
+   "name": "Winston Story",
+   "photo": "https://image.tmdb.org/t/p/w185/AcDyszvGrfSaWSvegOerSuRWjAz.jpg",
+   "character": "Bill Hummertrout",
+   "episodes": 6
+  },
+  {
+   "id": 1710790,
+   "name": "Antonio Raul Garcia",
+   "photo": "https://image.tmdb.org/t/p/w185/d7yta58jDKJS1HIYhRIrFBzVIoA.jpg",
+   "character": "Nikolaj Boyle",
+   "episodes": 6
+  },
+  {
+   "id": 21619,
+   "name": "Marilu Henner",
+   "photo": "https://image.tmdb.org/t/p/w185/fuuVDigwqg5D2pioextPJJ4tLWg.jpg",
+   "character": "Vivian Ludley",
+   "episodes": 5
+  },
+  {
+   "id": 1214164,
+   "name": "Merrin Dungey",
+   "photo": "https://image.tmdb.org/t/p/w185/uzN9h2Q3fE92D3CB7V5pCNj2BBP.jpg",
+   "character": "Sharon Jeffords",
+   "episodes": 5
+  },
+  {
+   "id": 25884,
+   "name": "Mary Lynn Rajskub",
+   "photo": "https://image.tmdb.org/t/p/w185/oi94VPrp5Ur0nkIqyk6jRu8Eayz.jpg",
+   "character": "Genevieve Mirren-Carter",
+   "episodes": 5
+  },
+  {
+   "id": 77089,
+   "name": "Ken Marino",
+   "photo": "https://image.tmdb.org/t/p/w185/7MeXvFGhzBwDm6c7lvdalA3GJYM.jpg",
+   "character": "Jason Stentley",
+   "episodes": 5
+  },
+  {
+   "id": 1143952,
+   "name": "Paul Mabon",
+   "photo": "https://image.tmdb.org/t/p/w185/f1vrCMrJaka9s44Ib8dYuHIp9wp.jpg",
+   "character": "Officer Lou",
+   "episodes": 5
+  }
+ ],
+ "crew": [
+  {
+   "id": 1230199,
+   "name": "Daniel J. Goor",
+   "photo": "https://image.tmdb.org/t/p/w185/rYqZGv2eoUUCCNvQt04RXKV4OlR.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 152
+  },
+  {
+   "id": 1226308,
+   "name": "Michael Schur",
+   "photo": "https://image.tmdb.org/t/p/w185/uFqjvTHNCfThf9ahEIYWFkszm9c.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 152
+  },
+  {
+   "id": 1461191,
+   "name": "Dan Marocco",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 304
+  },
+  {
+   "id": 95459,
+   "name": "David Miner",
+   "photo": "https://image.tmdb.org/t/p/w185/jjqOZQMbi5Jho7CysYKTyXbuwXq.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 152
+  },
+  {
+   "id": 1237540,
+   "name": "Luke Del Tredici",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 139
+  },
+  {
+   "id": 164565,
+   "name": "David Phillips",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 62
+  },
+  {
+   "id": 2299451,
+   "name": "Justin Noble",
+   "photo": "https://image.tmdb.org/t/p/w185/6rX5F4HTVavu6ScqcKd3lm8DuOM.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 53
+  },
+  {
+   "id": 2431449,
+   "name": "Lakshmi Sundaram",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 52
+  },
+  {
+   "id": 1697003,
+   "name": "Phil Augusta Jackson",
+   "photo": "https://image.tmdb.org/t/p/w185/oFOK3hokORd6kA4CsvbQA9en6Wv.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 45
+  },
+  {
+   "id": 1718778,
+   "name": "Tricia McAlpin",
+   "photo": "https://image.tmdb.org/t/p/w185/eBoQ88rl4n6ewKzEhUJ4RZChea6.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 44
+  },
+  {
+   "id": 2305384,
+   "name": "Carly Hallam Tosh",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 1217071,
+   "name": "Matt O'Brien",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 37
+  },
+  {
+   "id": 1625230,
+   "name": "Marcy Jarreau",
+   "photo": "https://image.tmdb.org/t/p/w185/r6nduz2TD4VqwE0ogEuARSsZOkb.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 33
+  },
+  {
+   "id": 1304330,
+   "name": "Gabe Liedman",
+   "photo": "https://image.tmdb.org/t/p/w185/g6Gy1mjXsAZx2YmyWCRuVGBCpbV.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 32
+  },
+  {
+   "id": 2305385,
+   "name": "Jessica Polonsky",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 1893099,
+   "name": "Gil Ozeri",
+   "photo": "https://image.tmdb.org/t/p/w185/nCQ26myxkz5cq3RLTnBR1fRhJZm.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 24
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:28:46.388Z"
+}

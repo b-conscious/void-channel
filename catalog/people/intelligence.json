@@ -1,0 +1,324 @@
+{
+ "show": "Intelligence",
+ "slug": "intelligence",
+ "tmdbId": 50628,
+ "cast": [
+  {
+   "id": 142636,
+   "name": "Josh Holloway",
+   "photo": "https://image.tmdb.org/t/p/w185/biuhUJn5BDhXpfKvVW4dVUxvB44.jpg",
+   "character": "Gabriel Black",
+   "episodes": 13
+  },
+  {
+   "id": 43928,
+   "name": "Meghan Ory",
+   "photo": "https://image.tmdb.org/t/p/w185/tO94Q2cAwcNCKhV7POeR0nqtE4r.jpg",
+   "character": "Riley O'Neil",
+   "episodes": 13
+  },
+  {
+   "id": 21722,
+   "name": "John Billingsley",
+   "photo": "https://image.tmdb.org/t/p/w185/uQzAvv4LUt57GBrYzDj5Ao1vhUT.jpg",
+   "character": "Dr. William Crispin",
+   "episodes": 13
+  },
+  {
+   "id": 1211946,
+   "name": "P.J. Byrne",
+   "photo": "https://image.tmdb.org/t/p/w185/1JVBaxRy3OxkHymD3nwBd5kVWWL.jpg",
+   "character": "Nelson",
+   "episodes": 13
+  },
+  {
+   "id": 59177,
+   "name": "Michael Rady",
+   "photo": "https://image.tmdb.org/t/p/w185/a702olRCFvJNVdrQkBKbeNkaAey.jpg",
+   "character": "Chris Jameson",
+   "episodes": 13
+  },
+  {
+   "id": 19838,
+   "name": "Marg Helgenberger",
+   "photo": "https://image.tmdb.org/t/p/w185/wPfXSAsk1l9Ry2sqN1Ei8GwjI9E.jpg",
+   "character": "Lillian Strand",
+   "episodes": 13
+  },
+  {
+   "id": 941,
+   "name": "Tomas Arana",
+   "photo": "https://image.tmdb.org/t/p/w185/qMuQWxUQ2sXDiN2d9EDVT5VXHo2.jpg",
+   "character": "DNI Adam Weatherly",
+   "episodes": 10
+  },
+  {
+   "id": 129101,
+   "name": "Lance Reddick",
+   "photo": "https://image.tmdb.org/t/p/w185/22mVtEXZbpt0J7S0LhIhdkfRrZV.jpg",
+   "character": "DCI Jeffrey Tetazoo",
+   "episodes": 5
+  },
+  {
+   "id": 9979,
+   "name": "Peter Coyote",
+   "photo": "https://image.tmdb.org/t/p/w185/AglpxXP9wBM567UMGL9DAMbid1V.jpg",
+   "character": "Leland Strand",
+   "episodes": 3
+  },
+  {
+   "id": 1304467,
+   "name": "Faye Kingslee",
+   "photo": "https://image.tmdb.org/t/p/w185/gxyobdY1wF9HshzvqGwnfewrjm6.jpg",
+   "character": "Mei Chen / Mei Chin",
+   "episodes": 3
+  },
+  {
+   "id": 20220,
+   "name": "Elden Henson",
+   "photo": "https://image.tmdb.org/t/p/w185/8U5g30U76UJe0erbJdWjGLVz7NF.jpg",
+   "character": "Amos Pembroke",
+   "episodes": 2
+  },
+  {
+   "id": 10884,
+   "name": "Will Yun Lee",
+   "photo": "https://image.tmdb.org/t/p/w185/zR29E2BHrp6PF7bxD6bVq0nDZXm.jpg",
+   "character": "Jin Cong",
+   "episodes": 2
+  },
+  {
+   "id": 20803,
+   "name": "Zuleikha Robinson",
+   "photo": "https://image.tmdb.org/t/p/w185/838l1DBT6LqxI9Lw5qXrDpIqEzW.jpg",
+   "character": "Amelia Vaughn",
+   "episodes": 2
+  },
+  {
+   "id": 74073,
+   "name": "Rosalind Chao",
+   "photo": "https://image.tmdb.org/t/p/w185/ejUMD59T6txpKmNqIBroXBjyDHx.jpg",
+   "character": "Sheng-Li Wang",
+   "episodes": 1
+  },
+  {
+   "id": 931264,
+   "name": "Grace Huang",
+   "photo": "https://image.tmdb.org/t/p/w185/6qDId3YY68TveyyiEDTz74wn71z.jpg",
+   "character": "Mei Chen",
+   "episodes": 1
+  },
+  {
+   "id": 59214,
+   "name": "Cas Anvar",
+   "photo": "https://image.tmdb.org/t/p/w185/ohEulMvF1Ji2osI3aSBVGb5FFUb.jpg",
+   "character": "Ibrahim Al-Munin",
+   "episodes": 1
+  },
+  {
+   "id": 191270,
+   "name": "Nicholas Massouh",
+   "photo": "https://image.tmdb.org/t/p/w185/5qI77BqIP33iJcLajamAZMMwQoz.jpg",
+   "character": "Malik",
+   "episodes": 1
+  },
+  {
+   "id": 21051,
+   "name": "Yorgo Constantine",
+   "photo": "https://image.tmdb.org/t/p/w185/tEs4rST3zhVrPV0g5Px2ExHSsw4.jpg",
+   "character": "Marius Cottier",
+   "episodes": 1
+  },
+  {
+   "id": 159431,
+   "name": "Annie Wersching",
+   "photo": "https://image.tmdb.org/t/p/w185/xOTYKQp0pn7Q1XBgtbzo2yj6uWd.jpg",
+   "character": "Kate Anderson",
+   "episodes": 1
+  },
+  {
+   "id": 1304469,
+   "name": "Russ Bain",
+   "photo": "https://image.tmdb.org/t/p/w185/i2YpH2oxKIKqzT73DUcETbxjJXt.jpg",
+   "character": "Tristan Bissette",
+   "episodes": 1
+  },
+  {
+   "id": 1190814,
+   "name": "Emily C. Chang",
+   "photo": "https://image.tmdb.org/t/p/w185/siAzdQEPBhGaIHyVrGyhhgEsNOn.jpg",
+   "character": "Jenni Wu",
+   "episodes": 1
+  },
+  {
+   "id": 83456,
+   "name": "Michael Trucco",
+   "photo": "https://image.tmdb.org/t/p/w185/qOA3cT2Gsmm9M6URoU4Ykynx2Oc.jpg",
+   "character": "Agent Griffin",
+   "episodes": 1
+  },
+  {
+   "id": 38666,
+   "name": "Tania Raymonde",
+   "photo": "https://image.tmdb.org/t/p/w185/rqzi5xaXbgfxZXNbsJVCDsSXPKx.jpg",
+   "character": "Emily Tyner",
+   "episodes": 1
+  },
+  {
+   "id": 17200,
+   "name": "Bill Smitrovich",
+   "photo": "https://image.tmdb.org/t/p/w185/dtLvDK5Z4PHzRj8ngtGake8YDsU.jpg",
+   "character": "Stanwick Finnegan",
+   "episodes": 1
+  }
+ ],
+ "crew": [
+  {
+   "id": 58644,
+   "name": "Michael Seitzman",
+   "photo": "https://image.tmdb.org/t/p/w185/wNp0UHgksdUQ0IHiTckQWMtpPP1.jpg",
+   "jobs": [
+    "Creator",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 33624,
+   "name": "Tripp Vinson",
+   "photo": "https://image.tmdb.org/t/p/w185/8mtbrKRNinqy1T3oClISPgkoZDC.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 166461,
+   "name": "Stephen Williams",
+   "photo": "https://image.tmdb.org/t/p/w185/cXQOyjxLEaUct5AiXYOiDWjl7F1.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 134696,
+   "name": "Alrick Riley",
+   "photo": "https://image.tmdb.org/t/p/w185/kD6hgDBHyd2f3XGdXDXh9aoMn2f.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 997900,
+   "name": "Matthew Lau",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1218289,
+   "name": "Barry Schindel",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 432629,
+   "name": "Shintaro Shimosawa",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 582617,
+   "name": "Wade McIntyre",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 582616,
+   "name": "Aaron Ginsburg",
+   "photo": "https://image.tmdb.org/t/p/w185/hlctZ8PY5GGN4wia5w1Vgf8gJYb.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1226247,
+   "name": "Kenneth Biller",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 68219,
+   "name": "Russell Lee Fine",
+   "photo": "https://image.tmdb.org/t/p/w185/gRH3jXZEbk6rFZdbvoPt6G27xON.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1224334,
+   "name": "Rob Bailey",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 77458,
+   "name": "David Von Ancken",
+   "photo": "https://image.tmdb.org/t/p/w185/uKGriSHT7PvC0uSVWzks7LUl3g3.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 78992,
+   "name": "Bill Eagles",
+   "photo": "https://image.tmdb.org/t/p/w185/1eAPv6q7XZ9aecR0K0AQEjoEkqO.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 17272,
+   "name": "David Semel",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 160177,
+   "name": "Adam Davidson",
+   "photo": "https://image.tmdb.org/t/p/w185/3tpuepUlvPxuAQB8HpNPhBiPgoh.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:37:03.511Z"
+}

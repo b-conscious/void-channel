@@ -1,0 +1,322 @@
+{
+ "show": "The Seven Deadly Sins",
+ "slug": "the-seven-deadly-sins",
+ "tmdbId": 62104,
+ "cast": [
+  {
+   "id": 149894,
+   "name": "Yuki Kaji",
+   "photo": "https://image.tmdb.org/t/p/w185/8wKdPV11IwowfwoqGqMMNt9hmp6.jpg",
+   "character": "Meliodas (voice)",
+   "episodes": 96
+  },
+  {
+   "id": 1325034,
+   "name": "Sora Amamiya",
+   "photo": "https://image.tmdb.org/t/p/w185/AouA1SfwEazdSSj8rUS9K1WIF4H.jpg",
+   "character": "Elizabeth (voice)",
+   "episodes": 96
+  },
+  {
+   "id": 1154452,
+   "name": "Tatsuhisa Suzuki",
+   "photo": "https://image.tmdb.org/t/p/w185/foytL2OreKzQcTNftz2qMgClKKg.jpg",
+   "character": "Ban (voice)",
+   "episodes": 96
+  },
+  {
+   "id": 151182,
+   "name": "Misaki Kuno",
+   "photo": "https://image.tmdb.org/t/p/w185/hVtE4gdKaqofYZmXXtlJs4Q9XTL.jpg",
+   "character": "Hawk (voice)",
+   "episodes": 96
+  },
+  {
+   "id": 936275,
+   "name": "Aoi Yuuki",
+   "photo": "https://image.tmdb.org/t/p/w185/a5Mkd66GV1l3c9bZZtnvjUf33T2.jpg",
+   "character": "Diane (voice)",
+   "episodes": 96
+  },
+  {
+   "id": 131563,
+   "name": "Jun Fukuyama",
+   "photo": "https://image.tmdb.org/t/p/w185/eT9eloyIaIkTvTqMmpcsAleP2hM.jpg",
+   "character": "King (voice)",
+   "episodes": 96
+  },
+  {
+   "id": 222392,
+   "name": "Rintaro Nishi",
+   "photo": "https://image.tmdb.org/t/p/w185/eXHTtaf6AfuPtqTVfZsTGpVmE2a.jpg",
+   "character": "Narrator (voice)",
+   "episodes": 96
+  },
+  {
+   "id": 114299,
+   "name": "Ryohei Kimura",
+   "photo": "https://image.tmdb.org/t/p/w185/m4GktFKhjrVTewsZtqTusInHZqT.jpg",
+   "character": "Hauser (voice) / Howzer (voice)",
+   "episodes": 19
+  },
+  {
+   "id": 93803,
+   "name": "Mamoru Miyano",
+   "photo": "https://image.tmdb.org/t/p/w185/nuok8ueG7k9hPZ09Tpr8e7Qn0ah.jpg",
+   "character": "Gilthunder (voice)",
+   "episodes": 19
+  },
+  {
+   "id": 1252998,
+   "name": "Yuuya Uchida",
+   "photo": "https://image.tmdb.org/t/p/w185/4xLLQGEDWtmLWUapo0UnfvCdsXp.jpg",
+   "character": "Hendrickson (voice)",
+   "episodes": 19
+  },
+  {
+   "id": 90135,
+   "name": "Marina Inoue",
+   "photo": "https://image.tmdb.org/t/p/w185/f7PuEx1h2g4FLgMzk9wCrWuS9Eu.jpg",
+   "character": "Jericho (voice)",
+   "episodes": 18
+  },
+  {
+   "id": 1250465,
+   "name": "Mariya Ise",
+   "photo": "https://image.tmdb.org/t/p/w185/uMHWTKGolzzjXCiv20F0n8h2Pqu.jpg",
+   "character": "Giula (voice)",
+   "episodes": 17
+  },
+  {
+   "id": 2271837,
+   "name": "Yuuhei Takagi",
+   "photo": "https://image.tmdb.org/t/p/w185/66r3pyuYuJxoJaity0hczqOnf3v.jpg",
+   "character": "Gowther (voice)",
+   "episodes": 15
+  },
+  {
+   "id": 89878,
+   "name": "Ryotaro Okiayu",
+   "photo": "https://image.tmdb.org/t/p/w185/qbj3cFQqWwZ6x7S1jEpOJa57sEZ.jpg",
+   "character": "Love Helm (voice) / Helbram (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 9705,
+   "name": "Takahiro Sakurai",
+   "photo": "https://image.tmdb.org/t/p/w185/8s8owcKmpRAuhzEGjSdRpztthUg.jpg",
+   "character": "Griamore (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 9711,
+   "name": "Maaya Sakamoto",
+   "photo": "https://image.tmdb.org/t/p/w185/jcjTJbxN3rYOtjSJihvbygvEFFZ.jpg",
+   "character": "Merlin (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 24647,
+   "name": "Katsuyuki Konishi",
+   "photo": "https://image.tmdb.org/t/p/w185/nYM5cH6U7cp4x9dIzW0enmEKmeV.jpg",
+   "character": "Dreyfus (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 62318,
+   "name": "Shin-ichiro Miki",
+   "photo": "https://image.tmdb.org/t/p/w185/yL9Tx2HZgK7t5AssYl6oGE9bjdj.jpg",
+   "character": "Slader (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 24651,
+   "name": "Nana Mizuki",
+   "photo": "https://image.tmdb.org/t/p/w185/rQBo7HyjTIqeB7hIofb7uJFhiVs.jpg",
+   "character": "Margaret (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 129510,
+   "name": "Takashi Inagaki",
+   "photo": "https://image.tmdb.org/t/p/w185/szAyXq7cRxFM1K7ajs3VMM1g1ff.jpg",
+   "character": "Cain (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 1249310,
+   "name": "Minako Kotobuki",
+   "photo": "https://image.tmdb.org/t/p/w185/puocmMfvql6X1AvhFTolaV6Vh2r.jpg",
+   "character": "Vivian (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 1116333,
+   "name": "Hisako Kanemoto",
+   "photo": "https://image.tmdb.org/t/p/w185/yosLId8iiPcvDZpeoLuGkDKlorU.jpg",
+   "character": "Veronica (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 93801,
+   "name": "Hiroshi Kamiya",
+   "photo": "https://image.tmdb.org/t/p/w185/5aAAOlQ2hW5EqEQOzk4UeroxcTN.jpg",
+   "character": "Helbram Fairy (voice) / Helbram (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 1260555,
+   "name": "Sachi Kokuryu",
+   "photo": "https://image.tmdb.org/t/p/w185/3Y39HVk4kgrh2aYZpU3ylLAnRFR.jpg",
+   "character": "Arthur (voice)",
+   "episodes": 6
+  }
+ ],
+ "crew": [
+  {
+   "id": 2393555,
+   "name": "Tetsuya Endo",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 96
+  },
+  {
+   "id": 2386302,
+   "name": "Takafumi Wada",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 96
+  },
+  {
+   "id": 1208426,
+   "name": "Hiroyuki Sawano",
+   "photo": "https://image.tmdb.org/t/p/w185/gV1lO7MjMso31nQ9NiLGtsdSYgZ.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 96
+  },
+  {
+   "id": 1315180,
+   "name": "Kozue Kananiwa",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 72
+  },
+  {
+   "id": 2659300,
+   "name": "Kohta Yamamoto",
+   "photo": "https://image.tmdb.org/t/p/w185/83Iu3Ey3ym9ZwewSmUjOvimpTMd.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 72
+  },
+  {
+   "id": 2358885,
+   "name": "Rintaro Ikeda",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 71
+  },
+  {
+   "id": 1292311,
+   "name": "Hiroyuki Shimizu",
+   "photo": "https://image.tmdb.org/t/p/w185/9Lv0ZsJKE4FZVNhY56em3DGm7MG.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 1366255,
+   "name": "Takuya Matsushita",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 1831138,
+   "name": "Masaru Horikoshi",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 1315181,
+   "name": "Hiroo Maruyama",
+   "photo": "https://image.tmdb.org/t/p/w185/uI0WlFnSK1YjERWtphtal8OWJ4q.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 992648,
+   "name": "Tomonori Ochikoshi",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 931451,
+   "name": "Takawo Yoshioka",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 70215,
+   "name": "Shoutarou Suga",
+   "photo": "https://image.tmdb.org/t/p/w185/2zg75e5foowuR9g6tGRDFR2gio5.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 1852478,
+   "name": "Tomonari Tanaka",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 3103122,
+   "name": "Akihiro Sotokawa",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 3396038,
+   "name": "Yoshio Kaneko",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:38:06.372Z"
+}

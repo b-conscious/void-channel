@@ -1,0 +1,329 @@
+{
+ "show": "Freaks and Geeks",
+ "slug": "freaks-and-geeks",
+ "tmdbId": 2382,
+ "cast": [
+  {
+   "id": 52935,
+   "name": "John Francis Daley",
+   "photo": "https://image.tmdb.org/t/p/w185/rKZL3e8gI2tQD6Kv0QojXK5sG4u.jpg",
+   "character": "Sam Weir",
+   "episodes": 18
+  },
+  {
+   "id": 1817,
+   "name": "Linda Cardellini",
+   "photo": "https://image.tmdb.org/t/p/w185/bcycvynDprC1rrhBNrnBjn5uOUd.jpg",
+   "character": "Lindsay Weir",
+   "episodes": 18
+  },
+  {
+   "id": 17051,
+   "name": "James Franco",
+   "photo": "https://image.tmdb.org/t/p/w185/bjmAntHGiibLZixH8nTNVBzaFQn.jpg",
+   "character": "Daniel Desario",
+   "episodes": 18
+  },
+  {
+   "id": 58507,
+   "name": "Samm Levine",
+   "photo": "https://image.tmdb.org/t/p/w185/9w1FEtxjXkfafAmJ2B8yoDOISP2.jpg",
+   "character": "Neal Schweiber",
+   "episodes": 18
+  },
+  {
+   "id": 41089,
+   "name": "Martin Starr",
+   "photo": "https://image.tmdb.org/t/p/w185/cxGxr0S1jnvOpOHyZDYXrg2GHju.jpg",
+   "character": "Bill Haverchuck",
+   "episodes": 18
+  },
+  {
+   "id": 41088,
+   "name": "Jason Segel",
+   "photo": "https://image.tmdb.org/t/p/w185/aG6tVNSbl1YEjN65G3luFYnWbUM.jpg",
+   "character": "Nick Andopolis",
+   "episodes": 18
+  },
+  {
+   "id": 19274,
+   "name": "Seth Rogen",
+   "photo": "https://image.tmdb.org/t/p/w185/nYl9bvQzaPQLzlf0wf75clLN6Hi.jpg",
+   "character": "Ken Miller",
+   "episodes": 18
+  },
+  {
+   "id": 60928,
+   "name": "Busy Philipps",
+   "photo": "https://image.tmdb.org/t/p/w185/7yvrZFL9gM4mqRITD5rrVU0mcmM.jpg",
+   "character": "Kim Kelly",
+   "episodes": 18
+  },
+  {
+   "id": 59196,
+   "name": "Joe Flaherty",
+   "photo": "https://image.tmdb.org/t/p/w185/bIDIkEBUrSZb4UBhqOpJBf3xbBb.jpg",
+   "character": "Harold Weir",
+   "episodes": 18
+  },
+  {
+   "id": 59206,
+   "name": "Becky Ann Baker",
+   "photo": "https://image.tmdb.org/t/p/w185/84fEZMqVMlcl9EaBeCLbrYhHn0x.jpg",
+   "character": "Jean Weir",
+   "episodes": 18
+  },
+  {
+   "id": 54720,
+   "name": "Steve Bannos",
+   "photo": "https://image.tmdb.org/t/p/w185/a5Dxy6MnpeYL5JRWI888tO9VvXL.jpg",
+   "character": "Frank Kowchevski",
+   "episodes": 12
+  },
+  {
+   "id": 168339,
+   "name": "Sarah Hagan",
+   "photo": "https://image.tmdb.org/t/p/w185/3IAuREpHleMX6PcJQmQtVQtsAfd.jpg",
+   "character": "Millie Kentner",
+   "episodes": 11
+  },
+  {
+   "id": 167213,
+   "name": "Natasha Melnick",
+   "photo": "https://image.tmdb.org/t/p/w185/a9e3exdZeegUysZmZ6a1gOZQKMU.jpg",
+   "character": "Cindy Sanders",
+   "episodes": 10
+  },
+  {
+   "id": 1545799,
+   "name": "Stephen Lea Sheppard",
+   "photo": null,
+   "character": "Harris Trinsky",
+   "episodes": 10
+  },
+  {
+   "id": 88599,
+   "name": "Chauncey Leopardi",
+   "photo": "https://image.tmdb.org/t/p/w185/RgVx7mU1Kl8xl5TttQRC9E9Oui.jpg",
+   "character": "Alan White",
+   "episodes": 9
+  },
+  {
+   "id": 88971,
+   "name": "Dave Allen",
+   "photo": "https://image.tmdb.org/t/p/w185/voFl4dudgMmfBKsF0HJAOJGXXEx.jpg",
+   "character": "Jeff Rosso",
+   "episodes": 9
+  },
+  {
+   "id": 2417555,
+   "name": "Cynthia Windham",
+   "photo": null,
+   "character": "Audio Visual Teacher",
+   "episodes": 7
+  },
+  {
+   "id": 30019,
+   "name": "Trace Beaulieu",
+   "photo": "https://image.tmdb.org/t/p/w185/2AB4g7ZSEU3Q5C5Bt6xthvOYK87.jpg",
+   "character": "Hector Lacovara",
+   "episodes": 6
+  },
+  {
+   "id": 1065,
+   "name": "Thomas F. Wilson",
+   "photo": "https://image.tmdb.org/t/p/w185/mVhm65ZVBIRIptWGiMIvoUy0Khi.jpg",
+   "character": "Coach Ben Fredricks",
+   "episodes": 6
+  },
+  {
+   "id": 67850,
+   "name": "Riley Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/cBLhhvqOQY8g95RaymVbd2Bd6py.jpg",
+   "character": "Todd Schellinger",
+   "episodes": 5
+  },
+  {
+   "id": 99206,
+   "name": "JoAnna Garcia Swisher",
+   "photo": "https://image.tmdb.org/t/p/w185/rlaDa8MgZbuLCn1So6H7Ff8Pa0c.jpg",
+   "character": "Vicki Appleby",
+   "episodes": 5
+  },
+  {
+   "id": 51988,
+   "name": "Lizzy Caplan",
+   "photo": "https://image.tmdb.org/t/p/w185/cHs9pPpjcEMpWrGmrAYAn0QOE78.jpg",
+   "character": "Sara",
+   "episodes": 4
+  },
+  {
+   "id": 5176,
+   "name": "Sam McMurray",
+   "photo": "https://image.tmdb.org/t/p/w185/pbZSG0hprUcRkUF3q4NUUzvQX3E.jpg",
+   "character": "Dr. Vic Schweiber",
+   "episodes": 3
+  },
+  {
+   "id": 54715,
+   "name": "Matthew McKane",
+   "photo": "https://image.tmdb.org/t/p/w185/qInKz2MLuv4ValWB1LAeCWTYvoT.jpg",
+   "character": "Mike Stevens",
+   "episodes": 3
+  }
+ ],
+ "crew": [
+  {
+   "id": 116805,
+   "name": "Paul Feig",
+   "photo": "https://image.tmdb.org/t/p/w185/mE3eFY3gq1UQ7Rj2He2YbZ7PFya.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1218856,
+   "name": "Patty Lin",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 41039,
+   "name": "Judd Apatow",
+   "photo": "https://image.tmdb.org/t/p/w185/7iD2D263nT0ZOF6vuUojQYQ5cbf.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 1589,
+   "name": "Michael Andrews",
+   "photo": "https://image.tmdb.org/t/p/w185/A0JFQgfOVPJiQNXDUSGd6sj8wed.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 51851,
+   "name": "Jake Kasdan",
+   "photo": "https://image.tmdb.org/t/p/w185/6nRHjTSi2ZP0P1xZr5HA3GlzXmn.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 17735,
+   "name": "Mike White",
+   "photo": "https://image.tmdb.org/t/p/w185/eJpW9GKmWh0W7enmjjZQ8MIEzoI.jpg",
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 29009,
+   "name": "Ken Kwapis",
+   "photo": "https://image.tmdb.org/t/p/w185/u9VNf7dSQkDN9Ejh3yAUTvknTOW.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 122583,
+   "name": "Bryan Gordon",
+   "photo": "https://image.tmdb.org/t/p/w185/3xHTnnwfK2Ro1tcA4SEBRzItTwA.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 15798,
+   "name": "Lesli Linka Glatter",
+   "photo": "https://image.tmdb.org/t/p/w185/8F13UPsRnXWTDcp8iA3ZXMtfJa3.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 30368,
+   "name": "Jon Kasdan",
+   "photo": "https://image.tmdb.org/t/p/w185/nfQVySjVuLdqqL8jLSdfqzRG6Z2.jpg",
+   "jobs": [
+    "Teleplay",
+    "Story"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 117651,
+   "name": "J. Elvis Weinstein",
+   "photo": "https://image.tmdb.org/t/p/w185/iGz6v6jDNcCESVEjJ3Qa0nurIzV.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1213107,
+   "name": "Bob Nickman",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 178426,
+   "name": "Gabe Sachs",
+   "photo": "https://image.tmdb.org/t/p/w185/yYz21qhdyzyfNalnbpAOKqRpzkV.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1231184,
+   "name": "Jeff Judah",
+   "photo": "https://image.tmdb.org/t/p/w185/7jlbTbMZQWuyHSesr763vhkemNP.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 61069,
+   "name": "Miguel Arteta",
+   "photo": "https://image.tmdb.org/t/p/w185/8i30SMAGvi8Bc0qyLeazdX71BvU.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 129723,
+   "name": "Ken Olin",
+   "photo": "https://image.tmdb.org/t/p/w185/7H4y3RIHaKQfxheKm20ChDBldDa.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:03.485Z"
+}

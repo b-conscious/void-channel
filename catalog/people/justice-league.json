@@ -1,0 +1,324 @@
+{
+ "show": "Justice League",
+ "slug": "justice-league",
+ "tmdbId": 1618,
+ "cast": [
+  {
+   "id": 34947,
+   "name": "Kevin Conroy",
+   "photo": "https://image.tmdb.org/t/p/w185/zvWhAwO2l8Kb5IJTwTbKzURypg7.jpg",
+   "character": "Batman (voice)",
+   "episodes": 50
+  },
+  {
+   "id": 59222,
+   "name": "George Newbern",
+   "photo": "https://image.tmdb.org/t/p/w185/1Xx0K3KGqxyIpL6o2eVQKui86jS.jpg",
+   "character": "Superman (voice)",
+   "episodes": 50
+  },
+  {
+   "id": 112043,
+   "name": "Susan Eisenberg",
+   "photo": "https://image.tmdb.org/t/p/w185/Ak63eUqvD7PvehBkpd00pcHaGFE.jpg",
+   "character": "Wonder Woman (voice)",
+   "episodes": 50
+  },
+  {
+   "id": 31549,
+   "name": "Phil LaMarr",
+   "photo": "https://image.tmdb.org/t/p/w185/xP2kNlsmXtzXq0geutflO4K9mSE.jpg",
+   "character": "Green Lantern (voice)",
+   "episodes": 50
+  },
+  {
+   "id": 29382,
+   "name": "Carl Lumbly",
+   "photo": "https://image.tmdb.org/t/p/w185/ew1URcenWNl1Uclsz9ADiRb0uBD.jpg",
+   "character": "J'onn J'onzz (voice)",
+   "episodes": 50
+  },
+  {
+   "id": 19975,
+   "name": "Michael Rosenbaum",
+   "photo": "https://image.tmdb.org/t/p/w185/ymiZjRwcS3gcCtsfv4w3GjRc2yc.jpg",
+   "character": "The Flash (voice)",
+   "episodes": 50
+  },
+  {
+   "id": 85759,
+   "name": "Maria Canals-Barrera",
+   "photo": "https://image.tmdb.org/t/p/w185/bqlwEfG1oczOW0f8tsJ31lbIfPo.jpg",
+   "character": "Hawkgirl (voice)",
+   "episodes": 50
+  },
+  {
+   "id": 61983,
+   "name": "Jason Marsden",
+   "photo": "https://image.tmdb.org/t/p/w185/53aVh2ka0b4ZyR8dO8hBTQxQ9hc.jpg",
+   "character": "Snapper Carr / Thanagarian Soldier (voice) / Snapper Carr / Kid (voice) / Snapper Carr / Bystander (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 2,
+   "name": "Mark Hamill",
+   "photo": "https://image.tmdb.org/t/p/w185/zMQ93JTLW8KxusKhOlHFZhih3YQ.jpg",
+   "character": "The Joker / Solomon Grundy (voice) / The Joker / Customer (voice) / Solomon Grundy (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 81667,
+   "name": "Jennifer Hale",
+   "photo": "https://image.tmdb.org/t/p/w185/oNQCrdiSm0mABCcE5YaHwuZQK8X.jpg",
+   "character": "Giganta / Killer Frost (voice) / Black Siren (voice) / Black Siren / Woman (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 6574,
+   "name": "Clancy Brown",
+   "photo": "https://image.tmdb.org/t/p/w185/1JeBRNG7VS7r64V9lOvej9bZXW5.jpg",
+   "character": "Lex Luthor (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 35219,
+   "name": "Corey Burton",
+   "photo": "https://image.tmdb.org/t/p/w185/wcpFwdL7m01cZoBJiUSMQVakK2G.jpg",
+   "character": "Page (voice) / Brainiac / Forager (voice) / Dr. Blizzard / Mayor (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 56853,
+   "name": "Phil Morris",
+   "photo": "https://image.tmdb.org/t/p/w185/iZADKc1QdCFpTvu0KnU3BZBwtrE.jpg",
+   "character": "Vandal Savage (voice) / General / Soldier (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 46423,
+   "name": "Olivia D'Abo",
+   "photo": "https://image.tmdb.org/t/p/w185/sQTqkjNyUSl25cIDr8xhjmO4DhA.jpg",
+   "character": "Morgaine le Fey (voice) / Star Sapphire (voice) / Morgaine le Fey / Model (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 543204,
+   "name": "Susan Sullivan",
+   "photo": "https://image.tmdb.org/t/p/w185/cafgP4eWAKCwPP76qO7xSkbrSUz.jpg",
+   "character": "Queen Hippolyta (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 58511,
+   "name": "Brian George",
+   "photo": "https://image.tmdb.org/t/p/w185/mHjc58pfKkxtghhliPOnNz0SlcT.jpg",
+   "character": "Forian (voice) / Parasite / Thug (voice) / Parasite / Morgan Edge / Reporter (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 29443,
+   "name": "Richard Doyle",
+   "photo": "https://image.tmdb.org/t/p/w185/9cW5lWRqSF6kGsVj0S3PqCGaAwT.jpg",
+   "character": "Big Brother Hawk / Thanagarian Soldier (voice) / Doctor (voice) / Dr. Louis / Detective #2 / Bum (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 230,
+   "name": "Stephen McHattie",
+   "photo": "https://image.tmdb.org/t/p/w185/zqOwiEDXYM9AKQgHGJGeIp7QkPh.jpg",
+   "character": "The Shade (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 9807,
+   "name": "René Auberjonois",
+   "photo": "https://image.tmdb.org/t/p/w185/1EZ6FnJGzwRl7XndkX8fBo8Tej3.jpg",
+   "character": "Kanjar-Ro / Galius Zed / Guardian of Oa (voice) / Galius Zed / Kalanorian (voice) / Desaad / General Steppenwolf / Minion (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 61961,
+   "name": "Dave Thomas",
+   "photo": "https://image.tmdb.org/t/p/w185/rr7Oqu4mlUOKBevTuHHMKdvAtlu.jpg",
+   "character": "Ernst (voice) / Harv Hickman (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 35132,
+   "name": "Peter Renaday",
+   "photo": "https://image.tmdb.org/t/p/w185/dzigC811W3TRz6RJDKH4fXXrQs.jpg",
+   "character": "Diplomat / Restaurateur (voice) / Graz (voice) / Councillor / Soldier (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 90658,
+   "name": "Kristin Bauer",
+   "photo": "https://image.tmdb.org/t/p/w185/nin3d2l1ExYVftXise7JLq6RFsq.jpg",
+   "character": "Mera / Reporter / Nurse (voice) / Mera (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 16180,
+   "name": "Robert Picardo",
+   "photo": "https://image.tmdb.org/t/p/w185/9TOY0mhWRMlU5Ur8QHMoDecWs2n.jpg",
+   "character": "Amazo (voice) / Blackhawk / Nazi Soldier (voice) / Blackhawk (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 15854,
+   "name": "Ted Levine",
+   "photo": "https://image.tmdb.org/t/p/w185/451KSkowLW6M2Au0wBKZZcidgGm.jpg",
+   "character": "Bulldozer / Nazi Lieutenant (voice) / Sinestro (voice) / Bulldozer (voice)",
+   "episodes": 4
+  }
+ ],
+ "crew": [
+  {
+   "id": 34921,
+   "name": "Dan Riba",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 51
+  },
+  {
+   "id": 34922,
+   "name": "Butch Lukic",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 51
+  },
+  {
+   "id": 555773,
+   "name": "Sander Schwartz",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1217666,
+   "name": "Jean MacCurdy",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1521139,
+   "name": "Michael McCuistion",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 34931,
+   "name": "Stan Berkowitz",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 21
+  },
+  {
+   "id": 105644,
+   "name": "Dwayne McDuffie",
+   "photo": "https://image.tmdb.org/t/p/w185/g72XJpetIstOArmmDKq5pHjfPTy.jpg",
+   "jobs": [
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 182257,
+   "name": "Rich Fogel",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1225816,
+   "name": "Keith Damron",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1215849,
+   "name": "Joseph Kuhr",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1211813,
+   "name": "Paul Dini",
+   "photo": "https://image.tmdb.org/t/p/w185/yPRds0jAYIU1OETfZuwka5ro7lE.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 74282,
+   "name": "Kevin Hopps",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1216615,
+   "name": "Andrew Kreisberg",
+   "photo": "https://image.tmdb.org/t/p/w185/dm1kNRSLuPKYW4X1CPdO50cqyYJ.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 34934,
+   "name": "Bruce Timm",
+   "photo": "https://image.tmdb.org/t/p/w185/4G64qCUGFQ1Sfwa6MK7CzwAaHyL.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 51679,
+   "name": "John Ridley",
+   "photo": "https://image.tmdb.org/t/p/w185/fsnCVrL0psPfg5WkvglZdFuHglw.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 160097,
+   "name": "Len Uhley",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:29:30.042Z"
+}

@@ -1,0 +1,291 @@
+{
+ "show": "Animal Control",
+ "slug": "animal-control",
+ "tmdbId": 214162,
+ "cast": [
+  {
+   "id": 74949,
+   "name": "Joel McHale",
+   "photo": "https://image.tmdb.org/t/p/w185/7iwIiaYhIPaiAyiaZOc2Gl1ZAY4.jpg",
+   "character": "Frank Shaw",
+   "episodes": 47
+  },
+  {
+   "id": 1579806,
+   "name": "Vella Lovell",
+   "photo": "https://image.tmdb.org/t/p/w185/parPBtWN9ooQ8E2s31rm7XiYda4.jpg",
+   "character": "Emily Price",
+   "episodes": 47
+  },
+  {
+   "id": 3777740,
+   "name": "Michael Rowland",
+   "photo": "https://image.tmdb.org/t/p/w185/zdb3GhmJ9GsY1MueEq4HQfYCF6R.jpg",
+   "character": "Fred 'Shred' Taylor",
+   "episodes": 47
+  },
+  {
+   "id": 206485,
+   "name": "Ravi Patel",
+   "photo": "https://image.tmdb.org/t/p/w185/94GutLAPx72fqxe6XUQ3HWxANxz.jpg",
+   "character": "Amit Patel",
+   "episodes": 47
+  },
+  {
+   "id": 1970052,
+   "name": "Grace Palmer",
+   "photo": "https://image.tmdb.org/t/p/w185/7QwYYB3NvUn5vO02tT0UEQNuJHl.jpg",
+   "character": "Victoria Sands",
+   "episodes": 47
+  },
+  {
+   "id": 429275,
+   "name": "Gerry Dee",
+   "photo": "https://image.tmdb.org/t/p/w185/9QzrxI6lsAbtqGxykcZ6XYSmzym.jpg",
+   "character": "Templeton Dudge",
+   "episodes": 26
+  },
+  {
+   "id": 2129178,
+   "name": "Amy Goodmurphy",
+   "photo": "https://image.tmdb.org/t/p/w185/cPgUm9aVaPj18MRwNx8UGXSsNUX.jpg",
+   "character": "AM Dispatch (voice)",
+   "episodes": 22
+  },
+  {
+   "id": 3381596,
+   "name": "Krystal Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/wSTiCnYeq7vT7EOU6L15Xtwa9GL.jpg",
+   "character": "Bettany",
+   "episodes": 18
+  },
+  {
+   "id": 1032886,
+   "name": "Kevin Bigley",
+   "photo": "https://image.tmdb.org/t/p/w185/AwG0kWnJ4rbPapAEq2OLqnBGVr3.jpg",
+   "character": "Rick Doyle",
+   "episodes": 12
+  },
+  {
+   "id": 31031,
+   "name": "Kyla Pratt",
+   "photo": "https://image.tmdb.org/t/p/w185/y02hmYVndLlJbOYkNDu3Ksdsiib.jpg",
+   "character": "Daisy Cannon",
+   "episodes": 9
+  },
+  {
+   "id": 1883388,
+   "name": "Kelli Ogmundson",
+   "photo": "https://image.tmdb.org/t/p/w185/uwRhkf1QycRKkExPDa4sCzp3EQ9.jpg",
+   "character": "Dolores Stubb",
+   "episodes": 8
+  },
+  {
+   "id": 1370819,
+   "name": "John Procaccino",
+   "photo": "https://image.tmdb.org/t/p/w185/iZKExdorzG9IJnIzu410Zz6Nd42.jpg",
+   "character": "Jimmy Shaw",
+   "episodes": 7
+  },
+  {
+   "id": 426216,
+   "name": "Josh Segarra",
+   "photo": "https://image.tmdb.org/t/p/w185/vXhukEBgpI8jmCUCSGcpJCNzXHV.jpg",
+   "character": "Parker",
+   "episodes": 7
+  },
+  {
+   "id": 1608402,
+   "name": "Alvina August",
+   "photo": "https://image.tmdb.org/t/p/w185/zWeeZSqqhc7vnLKE7bGj5A3HQ0F.jpg",
+   "character": "Dr. Summers",
+   "episodes": 6
+  },
+  {
+   "id": 1943081,
+   "name": "Dayah Brar",
+   "photo": "https://image.tmdb.org/t/p/w185/83XPNKxaxtwXtxHDKx0PYy6JQOm.jpg",
+   "character": "Addy Patel",
+   "episodes": 6
+  },
+  {
+   "id": 539,
+   "name": "Thomas Lennon",
+   "photo": "https://image.tmdb.org/t/p/w185/s8pw7BfuMxN7P0p5XJ9POfod7zW.jpg",
+   "character": "Patrick Shaw",
+   "episodes": 6
+  },
+  {
+   "id": 2092967,
+   "name": "Chelsea Frei",
+   "photo": "https://image.tmdb.org/t/p/w185/pjZlTBba5osblt12xWoMj3YzNrv.jpg",
+   "character": "Isabelle",
+   "episodes": 6
+  },
+  {
+   "id": 83586,
+   "name": "Ken Jeong",
+   "photo": "https://image.tmdb.org/t/p/w185/dfuDZ2m2A8nBb0TdyeqmlPOobJA.jpg",
+   "character": "Roman Park",
+   "episodes": 5
+  },
+  {
+   "id": 1015568,
+   "name": "Tristan D. Lalla",
+   "photo": "https://image.tmdb.org/t/p/w185/yyrn7MeftoEpTVidzCbaazoCvNp.jpg",
+   "character": "Jack",
+   "episodes": 4
+  },
+  {
+   "id": 118590,
+   "name": "Larry Joe Campbell",
+   "photo": "https://image.tmdb.org/t/p/w185/lOP81xAI3yNWJAxl9vmkzKADUsI.jpg",
+   "character": "Carl",
+   "episodes": 4
+  },
+  {
+   "id": 66446,
+   "name": "Lucy Punch",
+   "photo": "https://image.tmdb.org/t/p/w185/aCQb4lCw4LZV9e41CZch3QeiaXO.jpg",
+   "character": "Fiona Holcomb",
+   "episodes": 4
+  },
+  {
+   "id": 1601451,
+   "name": "María Gabriela de Faría",
+   "photo": "https://image.tmdb.org/t/p/w185/8c4MeoTHpVaGbkQYQ2gXj0mFgfX.jpg",
+   "character": "Camila",
+   "episodes": 3
+  },
+  {
+   "id": 49001,
+   "name": "Sarah Chalke",
+   "photo": "https://image.tmdb.org/t/p/w185/ycwiu89cpjqCtSNC5FjbJggjj5R.jpg",
+   "character": "Yazmin",
+   "episodes": 3
+  },
+  {
+   "id": 2853784,
+   "name": "Reggie Conquest",
+   "photo": "https://image.tmdb.org/t/p/w185/yudAyvwLhTZG21dstMYg0YecKtT.jpg",
+   "character": "Terry",
+   "episodes": 3
+  }
+ ],
+ "crew": [
+  {
+   "id": 57821,
+   "name": "Bob Fisher",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 197803,
+   "name": "Rob Greenberg",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1221087,
+   "name": "Dan Sterling",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 74949,
+   "name": "Joel McHale",
+   "photo": "https://image.tmdb.org/t/p/w185/7iwIiaYhIPaiAyiaZOc2Gl1ZAY4.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 43
+  },
+  {
+   "id": 1609688,
+   "name": "Jake Fuller",
+   "photo": "https://image.tmdb.org/t/p/w185/qf0UuqhIqfp1DYdVYh1QIxdzi99.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 2355163,
+   "name": "Brooke Posch",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1252207,
+   "name": "Tony Hernandez",
+   "photo": "https://image.tmdb.org/t/p/w185/t27d9MElkdjLnrGoEDXknUPoejj.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1231150,
+   "name": "Tad Quill",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1031656,
+   "name": "Nick Urata",
+   "photo": "https://image.tmdb.org/t/p/w185/6vXBoYd3vXxbpRrpUiq2g1bkayF.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 52049,
+   "name": "Jay Chandrasekhar",
+   "photo": "https://image.tmdb.org/t/p/w185/kPBrBwm6BzUZhYPzdYcRwMPkgPf.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 3987111,
+   "name": "Natasha Williams",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 5293477,
+   "name": "Annie C. Wright",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:35:37.597Z"
+}

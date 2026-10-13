@@ -1,0 +1,277 @@
+{
+ "show": "Sailor Moon",
+ "slug": "sailor-moon",
+ "tmdbId": 3570,
+ "cast": [
+  {
+   "id": 77931,
+   "name": "Kotono Mitsuishi",
+   "photo": "https://image.tmdb.org/t/p/w185/dRqbE5D3uqfKnAPsHp9etsvO1Gg.jpg",
+   "character": "Usagi Tsukino / Sailor Moon (voice)",
+   "episodes": 200
+  },
+  {
+   "id": 124478,
+   "name": "Aya Hisakawa",
+   "photo": "https://image.tmdb.org/t/p/w185/5asVy8H7VSDQKVdURubT0QHjsld.jpg",
+   "character": "Ami Mizuno / Sailor Mercury (voice)",
+   "episodes": 200
+  },
+  {
+   "id": 57734,
+   "name": "Michie Tomizawa",
+   "photo": "https://image.tmdb.org/t/p/w185/42Au1FT7mGOghHcrlX8g44v6dTG.jpg",
+   "character": "Rei Hino / Sailor Mars (voice)",
+   "episodes": 200
+  },
+  {
+   "id": 81851,
+   "name": "Emi Shinohara",
+   "photo": "https://image.tmdb.org/t/p/w185/ryGauSE9aoEh5DFMrlFw3H8sATC.jpg",
+   "character": "Makoto Kino / Sailor Jupiter (voice)",
+   "episodes": 200
+  },
+  {
+   "id": 111372,
+   "name": "Rica Fukami",
+   "photo": "https://image.tmdb.org/t/p/w185/sVFWxaM89O540z0N1QOkXqCbqJo.jpg",
+   "character": "Minako Aino / Sailor Venus (voice)",
+   "episodes": 200
+  },
+  {
+   "id": 40327,
+   "name": "Toru Furuya",
+   "photo": "https://image.tmdb.org/t/p/w185/2et31Lo8I0gRbyYFaOu3TBRby7U.jpg",
+   "character": "Mamoru Chiba / Tuxedo Mask (voice)",
+   "episodes": 200
+  },
+  {
+   "id": 124484,
+   "name": "Keiko Han",
+   "photo": "https://image.tmdb.org/t/p/w185/7fi4oxXVJJJnyZMwcud1Yzq8Re0.jpg",
+   "character": "Queen Beryl / Luna (voice) / Luna (voice)",
+   "episodes": 200
+  },
+  {
+   "id": 1221439,
+   "name": "Yasuhiro Takato",
+   "photo": "https://image.tmdb.org/t/p/w185/njJHBtfhUYfhNpJeCh7wEsHaAiT.jpg",
+   "character": "Artemis (voice)",
+   "episodes": 200
+  },
+  {
+   "id": 1254029,
+   "name": "Shino Kakinuma",
+   "photo": "https://image.tmdb.org/t/p/w185/z6qn2CUx87vpdY1hIULlUfUIKNB.jpg",
+   "character": "Naru Osaka (voice)",
+   "episodes": 166
+  },
+  {
+   "id": 553284,
+   "name": "Yuhki Sato",
+   "photo": "https://image.tmdb.org/t/p/w185/taz3SqjTJkOPmipVfjkrDa1J4hI.jpg",
+   "character": "Motoki Furuhata (voice)",
+   "episodes": 166
+  },
+  {
+   "id": 1184454,
+   "name": "Chiyoko Kawashima",
+   "photo": "https://image.tmdb.org/t/p/w185/uCL7tlnrLjx0Fx1jC0su5WckMoX.jpg",
+   "character": "Shingo Tsukino (voice) / Haruna Sakurada / Shingo Tsukino (voice)",
+   "episodes": 166
+  },
+  {
+   "id": 237075,
+   "name": "Keiichi Nanba",
+   "photo": "https://image.tmdb.org/t/p/w185/qazcRBlCE0XJMeXIiSUvPcZNsd8.jpg",
+   "character": "Gurio Umino (voice)",
+   "episodes": 166
+  },
+  {
+   "id": 933722,
+   "name": "Kae Araki",
+   "photo": "https://image.tmdb.org/t/p/w185/cxTyiRskkgUpQfZrCw7zpkocV5I.jpg",
+   "character": "Chibiusa/Sailor Chibi Moon (voice)",
+   "episodes": 154
+  },
+  {
+   "id": 125617,
+   "name": "Masaya Onosaka",
+   "photo": "https://image.tmdb.org/t/p/w185/zaqlNEMaVBdwXHfdI4VSUgc3h0K.jpg",
+   "character": "Jadeite (voice)",
+   "episodes": 46
+  },
+  {
+   "id": 547989,
+   "name": "Katsuji Mori",
+   "photo": "https://image.tmdb.org/t/p/w185/7HMCnhwbBPNEut2s2VziMVBWXuL.jpg",
+   "character": "Nephrite (voice)",
+   "episodes": 46
+  },
+  {
+   "id": 549563,
+   "name": "Sanae Takagi",
+   "photo": "https://image.tmdb.org/t/p/w185/64adMkVDrzFQUjS1mxO2pdDEWvG.jpg",
+   "character": "Ikuko Tsukino (voice)",
+   "episodes": 46
+  },
+  {
+   "id": 122653,
+   "name": "Kazuyuki Sogabe",
+   "photo": "https://image.tmdb.org/t/p/w185/mRKCnfm8S6NiBkf93QT9vdIpFKJ.jpg",
+   "character": "Kunzite (voice)",
+   "episodes": 46
+  },
+  {
+   "id": 1560853,
+   "name": "Yûji Machi",
+   "photo": "https://image.tmdb.org/t/p/w185/dE3SXb1amcxKe9LCOZ6Hg8ZvgDj.jpg",
+   "character": "Kenji Tsukino (voice)",
+   "episodes": 46
+  },
+  {
+   "id": 2525142,
+   "name": "Pınar Aydın",
+   "photo": null,
+   "character": "Sailor Venus (voice)",
+   "episodes": 46
+  },
+  {
+   "id": 3153697,
+   "name": "Vedi İzzi",
+   "photo": null,
+   "character": "Magic Box (voice)",
+   "episodes": 46
+  },
+  {
+   "id": 1258274,
+   "name": "Ercan Demirel",
+   "photo": "https://image.tmdb.org/t/p/w185/rWuaR8vggRfMrnlA2nOC6hAugzM.jpg",
+   "character": "Male (voice)",
+   "episodes": 46
+  },
+  {
+   "id": 3467602,
+   "name": "Meriç Özkaya",
+   "photo": "https://image.tmdb.org/t/p/w185/s6aOSPxmXKCxCt6jVqSdQLsNxNJ.jpg",
+   "character": "Angel (voice)",
+   "episodes": 46
+  },
+  {
+   "id": 2202325,
+   "name": "Kebire Tokur",
+   "photo": null,
+   "character": "Girl (voice)",
+   "episodes": 46
+  },
+  {
+   "id": 1300135,
+   "name": "Deniz Celiloğlu",
+   "photo": "https://image.tmdb.org/t/p/w185/dZ7HWUapsnEO6ucbjb4i3rB3Xad.jpg",
+   "character": "Magic (voice)",
+   "episodes": 46
+  }
+ ],
+ "crew": [
+  {
+   "id": 148097,
+   "name": "Kunihiko Ikuhara",
+   "photo": "https://image.tmdb.org/t/p/w185/1H5U0nbZZ7n32OjUoippRjEMWtS.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 157
+  },
+  {
+   "id": 106577,
+   "name": "Junichi Sato",
+   "photo": "https://image.tmdb.org/t/p/w185/ckKxvO5rmHG9nh4ZarKffR3iYUv.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 91
+  },
+  {
+   "id": 1221889,
+   "name": "Takuya Igarashi",
+   "photo": "https://image.tmdb.org/t/p/w185/cHQB4yoWqVQWwUsH5aCeAInz6d5.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 37
+  },
+  {
+   "id": 76410,
+   "name": "Sukehiro Tomita",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 89965,
+   "name": "Katsuyuki Sumisawa",
+   "photo": "https://image.tmdb.org/t/p/w185/saFcgKYhwwVMNcrqtqlZnmGiPHe.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1234294,
+   "name": "Shigeru Yanagawa",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 2095778,
+   "name": "Harume Kosaka",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1914859,
+   "name": "Yûji Endô",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 67925,
+   "name": "Kazuhisa Takenouchi",
+   "photo": "https://image.tmdb.org/t/p/w185/hg97xohe59M8tOlAbwxg2VH0Ron.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1600129,
+   "name": "Takao Yoshizawa",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 554611,
+   "name": "Ryota Yamaguchi",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:30:13.811Z"
+}

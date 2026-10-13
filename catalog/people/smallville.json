@@ -1,0 +1,354 @@
+{
+ "show": "Smallville",
+ "slug": "smallville",
+ "tmdbId": 4604,
+ "cast": [
+  {
+   "id": 11824,
+   "name": "Tom Welling",
+   "photo": "https://image.tmdb.org/t/p/w185/k4hAPoEUMjp6FWkBmLFnCjXWhoq.jpg",
+   "character": "Clark Kent",
+   "episodes": 216
+  },
+  {
+   "id": 60253,
+   "name": "Allison Mack",
+   "photo": "https://image.tmdb.org/t/p/w185/roawhm5chQexp1nP69rslFsp8ns.jpg",
+   "character": "Chloe Sullivan",
+   "episodes": 201
+  },
+  {
+   "id": 55751,
+   "name": "Kristin Kreuk",
+   "photo": "https://image.tmdb.org/t/p/w185/jQVGylAfotE7osIGwGivh6LpCdl.jpg",
+   "character": "Lana Lang",
+   "episodes": 157
+  },
+  {
+   "id": 19975,
+   "name": "Michael Rosenbaum",
+   "photo": "https://image.tmdb.org/t/p/w185/ymiZjRwcS3gcCtsfv4w3GjRc2yc.jpg",
+   "character": "Lex Luthor",
+   "episodes": 153
+  },
+  {
+   "id": 5589,
+   "name": "John Glover",
+   "photo": "https://image.tmdb.org/t/p/w185/aPmq20MXqFALrUxaaJoC2Xonumo.jpg",
+   "character": "Lionel Luthor",
+   "episodes": 143
+  },
+  {
+   "id": 46897,
+   "name": "Erica Durance",
+   "photo": "https://image.tmdb.org/t/p/w185/kshDl70fwwTHOvog60VFqMjCFUL.jpg",
+   "character": "Lois Lane",
+   "episodes": 141
+  },
+  {
+   "id": 1734,
+   "name": "Annette O'Toole",
+   "photo": "https://image.tmdb.org/t/p/w185/mCTEEzuNXlCdyl9uM4ot688IfVz.jpg",
+   "character": "Martha Kent",
+   "episodes": 135
+  },
+  {
+   "id": 55779,
+   "name": "John Schneider",
+   "photo": "https://image.tmdb.org/t/p/w185/c3cM4MuGSfDFQScZsYyWzVkD0pp.jpg",
+   "character": "Jonathan Kent",
+   "episodes": 113
+  },
+  {
+   "id": 1222596,
+   "name": "Justin Hartley",
+   "photo": "https://image.tmdb.org/t/p/w185/oo7vqWz30pA1tY6quUOnS6O0AgB.jpg",
+   "character": "Oliver Queen",
+   "episodes": 72
+  },
+  {
+   "id": 1003386,
+   "name": "Sam Jones",
+   "photo": "https://image.tmdb.org/t/p/w185/wfSSQU2ESZi8YV661iaeCOTYk8q.jpg",
+   "character": "Pete Ross",
+   "episodes": 67
+  },
+  {
+   "id": 138770,
+   "name": "Cassidy Freeman",
+   "photo": "https://image.tmdb.org/t/p/w185/6QooKF97oaUoIrW2lbx36aYYGZH.jpg",
+   "character": "Tess Mercer",
+   "episodes": 64
+  },
+  {
+   "id": 43286,
+   "name": "Laura Vandervoort",
+   "photo": "https://image.tmdb.org/t/p/w185/y3geQGnFG8Sbr7smthUTa84fv9v.jpg",
+   "character": "Kara Kent",
+   "episodes": 63
+  },
+  {
+   "id": 90130,
+   "name": "Aaron Ashmore",
+   "photo": "https://image.tmdb.org/t/p/w185/kkGwF2nhgnYLUfXuH2CDvrHeUay.jpg",
+   "character": "Jimmy Olsen",
+   "episodes": 53
+  },
+  {
+   "id": 33337,
+   "name": "Eric Johnson",
+   "photo": "https://image.tmdb.org/t/p/w185/oSwKvCo9duqcOfUAYPLdNHyXnna.jpg",
+   "character": "Whitney Fordman",
+   "episodes": 23
+  },
+  {
+   "id": 68287,
+   "name": "Callum Blue",
+   "photo": "https://image.tmdb.org/t/p/w185/1r9i4N6gC8MYWettiFAVH0f6Toa.jpg",
+   "character": "Zod",
+   "episodes": 22
+  },
+  {
+   "id": 49624,
+   "name": "Jensen Ackles",
+   "photo": "https://image.tmdb.org/t/p/w185/xgOAHqDiqdZCF1BhfHaeLrd47ki.jpg",
+   "character": "Jason Teague",
+   "episodes": 22
+  },
+  {
+   "id": 46362,
+   "name": "Sam Witwer",
+   "photo": "https://image.tmdb.org/t/p/w185/8flOyMoh9hBQPqi6ISD7W1mDjnY.jpg",
+   "character": "Davis Bloome",
+   "episodes": 22
+  },
+  {
+   "id": 1180003,
+   "name": "Camille Mitchell",
+   "photo": "https://image.tmdb.org/t/p/w185/9DrBkwsqaqkhF8jiZdCsi5UPFZo.jpg",
+   "character": "Nancy Adams",
+   "episodes": 22
+  },
+  {
+   "id": 28641,
+   "name": "Terence Stamp",
+   "photo": "https://image.tmdb.org/t/p/w185/ept9urkuhPbGndVXkERw39R9oid.jpg",
+   "character": "Jor-El (voice)",
+   "episodes": 21
+  },
+  {
+   "id": 1182649,
+   "name": "Mitchell Kosterman",
+   "photo": "https://image.tmdb.org/t/p/w185/p51PutuetrahDVYaQRmdVyPVgQ2.jpg",
+   "character": "Ethan Miller",
+   "episodes": 14
+  },
+  {
+   "id": 59312,
+   "name": "Alessandro Juliani",
+   "photo": "https://image.tmdb.org/t/p/w185/f8pVEpYsRU30EsMoWcBsTkUN9e0.jpg",
+   "character": "Emil Hamilton",
+   "episodes": 14
+  },
+  {
+   "id": 47297,
+   "name": "James Marsters",
+   "photo": "https://image.tmdb.org/t/p/w185/oJnBB3g2IINnsLSr8B79bJ9ykkx.jpg",
+   "character": "Milton Fine",
+   "episodes": 13
+  },
+  {
+   "id": 59183,
+   "name": "Sarah-Jane Redmond",
+   "photo": "https://image.tmdb.org/t/p/w185/qhJ0QsKnZslUOCGLur4NS91BXgM.jpg",
+   "character": "Nell Potter",
+   "episodes": 11
+  },
+  {
+   "id": 2684,
+   "name": "Emmanuelle Vaugier",
+   "photo": "https://image.tmdb.org/t/p/w185/jtQ4p9iQoD2uCgqbYRgccvGEG6X.jpg",
+   "character": "Helen Bryce",
+   "episodes": 10
+  }
+ ],
+ "crew": [
+  {
+   "id": 18923,
+   "name": "Miles Millar",
+   "photo": "https://image.tmdb.org/t/p/w185/4phggQUKYg2WMMEy4JW8y6pKEVS.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 174
+  },
+  {
+   "id": 18924,
+   "name": "Alfred Gough",
+   "photo": "https://image.tmdb.org/t/p/w185/wZV1hProzjw9oR9HtjILDMn2K6A.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 152
+  },
+  {
+   "id": 17309,
+   "name": "Greg Beeman",
+   "photo": "https://image.tmdb.org/t/p/w185/eMZIGB6jbIldPK4YyZ44uf7ZIGg.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 216
+  },
+  {
+   "id": 53178,
+   "name": "Michael Tollin",
+   "photo": "https://image.tmdb.org/t/p/w185/zZEUZh2Oh20wFBXaEfGvwqCBWmv.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 216
+  },
+  {
+   "id": 1212141,
+   "name": "Joe Davola",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 216
+  },
+  {
+   "id": 53177,
+   "name": "Brian Robbins",
+   "photo": "https://image.tmdb.org/t/p/w185/sBHXouMBM9bon05a1Fy4QvBd11n.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 216
+  },
+  {
+   "id": 1228529,
+   "name": "James Marshall",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 150
+  },
+  {
+   "id": 1237421,
+   "name": "Brian Peterson",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 150
+  },
+  {
+   "id": 12633,
+   "name": "Mark Snow",
+   "photo": "https://image.tmdb.org/t/p/w185/4UG3jHkAAoYhaVXVKJjR4gB3VqL.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 133
+  },
+  {
+   "id": 1236076,
+   "name": "Ken Horton",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 131
+  },
+  {
+   "id": 58238,
+   "name": "Todd Slavkin",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 130
+  },
+  {
+   "id": 58239,
+   "name": "Darren Swimmer",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Story",
+    "Writer"
+   ],
+   "episodes": 130
+  },
+  {
+   "id": 1237420,
+   "name": "Kelly Souders",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 128
+  },
+  {
+   "id": 11824,
+   "name": "Tom Welling",
+   "photo": "https://image.tmdb.org/t/p/w185/k4hAPoEUMjp6FWkBmLFnCjXWhoq.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 42
+  },
+  {
+   "id": 72445,
+   "name": "Turi Meyer",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Story",
+    "Writer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 72446,
+   "name": "Alfredo Septién",
+   "photo": "https://image.tmdb.org/t/p/w185/rOJbDVsNp1QtXvjQR4HFqYxLcjg.jpg",
+   "jobs": [
+    "Director",
+    "Story",
+    "Writer"
+   ],
+   "episodes": 18
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:36.072Z"
+}

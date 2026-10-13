@@ -1,0 +1,324 @@
+{
+ "show": "SEAL Team",
+ "slug": "seal-team",
+ "tmdbId": 71789,
+ "cast": [
+  {
+   "id": 25934,
+   "name": "David Boreanaz",
+   "photo": "https://image.tmdb.org/t/p/w185/rxbKFajA7zIv4sUJUpGNBWXS7jM.jpg",
+   "character": "Jason Hayes",
+   "episodes": 112
+  },
+  {
+   "id": 55091,
+   "name": "Neil Brown Jr.",
+   "photo": "https://image.tmdb.org/t/p/w185/5FrAdtqBbV7jgNiDwsR4ATKgv3I.jpg",
+   "character": "Ray Perry",
+   "episodes": 112
+  },
+  {
+   "id": 60460,
+   "name": "A.J. Buckley",
+   "photo": "https://image.tmdb.org/t/p/w185/arGsJN4HuiNpFsRsNX81fDX1KJj.jpg",
+   "character": "Sonny Quinn",
+   "episodes": 112
+  },
+  {
+   "id": 105831,
+   "name": "Toni Trucks",
+   "photo": "https://image.tmdb.org/t/p/w185/s2qfaRUh8oEt78HqkXTagbeVNE7.jpg",
+   "character": "Lisa Davis",
+   "episodes": 112
+  },
+  {
+   "id": 1727023,
+   "name": "Tyler Grey",
+   "photo": "https://image.tmdb.org/t/p/w185/3yuB34p1EXx8273HnMrng7kgolA.jpg",
+   "character": "Trent Sawyer",
+   "episodes": 112
+  },
+  {
+   "id": 2846013,
+   "name": "Justin Melnick",
+   "photo": "https://image.tmdb.org/t/p/w185/sE5W8tononGWHKH2Z6GLeUHXeyP.jpg",
+   "character": "Brock Reynolds / Brock",
+   "episodes": 112
+  },
+  {
+   "id": 41883,
+   "name": "Max Thieriot",
+   "photo": "https://image.tmdb.org/t/p/w185/aBiTMI3qB6FPOVhXw7b15pjJkmL.jpg",
+   "character": "Clay Spenser",
+   "episodes": 100
+  },
+  {
+   "id": 990136,
+   "name": "Judd Lormand",
+   "photo": "https://image.tmdb.org/t/p/w185/jeZBWgcjiTaXZM6FwcHm9QW1F6w.jpg",
+   "character": "Eric Blackburn",
+   "episodes": 90
+  },
+  {
+   "id": 82096,
+   "name": "Jessica Paré",
+   "photo": "https://image.tmdb.org/t/p/w185/udvHIbFPW646vDkbnipb82wPUxs.jpg",
+   "character": "Mandy Ellis",
+   "episodes": 79
+  },
+  {
+   "id": 1739673,
+   "name": "Scott Foxx",
+   "photo": "https://image.tmdb.org/t/p/w185/oM1q9jlUyYFu9qWkDvUihbPvkJQ.jpg",
+   "character": "Full Metal",
+   "episodes": 50
+  },
+  {
+   "id": 203096,
+   "name": "Alona Tal",
+   "photo": "https://image.tmdb.org/t/p/w185/kYRu965Jt11NWWbJ9XtSUOhTkUx.jpg",
+   "character": "Stella Baxter / Stella",
+   "episodes": 43
+  },
+  {
+   "id": 989219,
+   "name": "Parisa Fakhri",
+   "photo": "https://image.tmdb.org/t/p/w185/e5r0goEK65gD85Tk7yTcslIJHlI.jpg",
+   "character": "Naima Perry",
+   "episodes": 39
+  },
+  {
+   "id": 1617121,
+   "name": "Kerri Medders",
+   "photo": "https://image.tmdb.org/t/p/w185/7vu4gS1z2XzQMIEfU8SfMtRG8HJ.jpg",
+   "character": "Emma Hayes / Emma Hayes (voice)",
+   "episodes": 22
+  },
+  {
+   "id": 2283764,
+   "name": "Raffi Barsoumian",
+   "photo": "https://image.tmdb.org/t/p/w185/b8VJ9HVJVmjZfgELG0ILLn9GCux.jpg",
+   "character": "Omar Hamza",
+   "episodes": 18
+  },
+  {
+   "id": 79079,
+   "name": "Jamie McShane",
+   "photo": "https://image.tmdb.org/t/p/w185/wojvRZMpAwytyoFTMFOpvZ26qJq.jpg",
+   "character": "Captain Lindell",
+   "episodes": 17
+  },
+  {
+   "id": 2049180,
+   "name": "Mike Wade",
+   "photo": "https://image.tmdb.org/t/p/w185/tplb4d0Y47y5cTPLE93bDay45jA.jpg",
+   "character": "Lt. Wes Soto",
+   "episodes": 15
+  },
+  {
+   "id": 1256020,
+   "name": "Emily Swallow",
+   "photo": "https://image.tmdb.org/t/p/w185/8wS86vFMoDnfAJzOL9yNqvXcCpA.jpg",
+   "character": "Natalie Pierce",
+   "episodes": 15
+  },
+  {
+   "id": 2878,
+   "name": "C. Thomas Howell",
+   "photo": "https://image.tmdb.org/t/p/w185/739YbFWpAYyo9neHvBGThgmT4YH.jpg",
+   "character": "Ash Spenser",
+   "episodes": 12
+  },
+  {
+   "id": 210126,
+   "name": "Michaela McManus",
+   "photo": "https://image.tmdb.org/t/p/w185/oiqM61rXwH40aRDr25akNRduU0T.jpg",
+   "character": "Alana Hayes",
+   "episodes": 11
+  },
+  {
+   "id": 96624,
+   "name": "Rachel Boston",
+   "photo": "https://image.tmdb.org/t/p/w185/lXsexhIX8oMhPnO85M0ocL0GhC2.jpg",
+   "character": "Hannah Oliver",
+   "episodes": 11
+  },
+  {
+   "id": 1078613,
+   "name": "Beau Knapp",
+   "photo": "https://image.tmdb.org/t/p/w185/6OWe75RIFETlY3iqvTjswcXRc33.jpg",
+   "character": "Drew Franklin",
+   "episodes": 10
+  },
+  {
+   "id": 91531,
+   "name": "Tim Chiou",
+   "photo": "https://image.tmdb.org/t/p/w185/whofc4pCEv3sb6n81Hge83qLqxO.jpg",
+   "character": "Thirty Mike",
+   "episodes": 10
+  },
+  {
+   "id": 131781,
+   "name": "Adelaide Kane",
+   "photo": "https://image.tmdb.org/t/p/w185/kkdHJejW6doFHa32mKeB07TSywu.jpg",
+   "character": "Rebecca Bowen",
+   "episodes": 10
+  },
+  {
+   "id": 1790366,
+   "name": "Lucca De Oliveira",
+   "photo": "https://image.tmdb.org/t/p/w185/e75G7ucbDPCOUbi7je8fHCz1QAJ.jpg",
+   "character": "Vic Lopez",
+   "episodes": 9
+  }
+ ],
+ "crew": [
+  {
+   "id": 1291030,
+   "name": "Benjamin Cavell",
+   "photo": "https://image.tmdb.org/t/p/w185/rumaFod7gzuOZbkQh9oYbtShPZc.jpg",
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 6421279,
+   "name": "A. Patrick Rose",
+   "photo": "https://image.tmdb.org/t/p/w185/xxCQL200LI7gVl6nAkqsyjkwc5J.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 112
+  },
+  {
+   "id": 5812946,
+   "name": "Matt Bissonnette",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 90
+  },
+  {
+   "id": 198990,
+   "name": "W.G. Snuffy Walden",
+   "photo": "https://image.tmdb.org/t/p/w185/2DOuLS04OeI1t9i75oY7wz6gSyK.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 78
+  },
+  {
+   "id": 1408429,
+   "name": "Spencer Hudnut",
+   "photo": "https://image.tmdb.org/t/p/w185/wAefSW7B4jLA4ocW0TvqypP6NdN.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 21
+  },
+  {
+   "id": 1211942,
+   "name": "Christopher Chulack",
+   "photo": "https://image.tmdb.org/t/p/w185/oXibKEW4hKZa4PlUHJASohZViCj.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 1224396,
+   "name": "Tom Mularz",
+   "photo": "https://image.tmdb.org/t/p/w185/usAzhw4h0vluZ3QObdKttXRwtWw.jpg",
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 1297599,
+   "name": "Dana Greenblatt",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 2196994,
+   "name": "Ruben Garcia",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 1463689,
+   "name": "Mark Semos",
+   "photo": "https://image.tmdb.org/t/p/w185/eemEhfgnDoq04i1V0CMilKoYzL9.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 75823,
+   "name": "John Glenn",
+   "photo": "https://image.tmdb.org/t/p/w185/xDrtvEY2bpdFnRNqW0YNeiCfdv4.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 21118,
+   "name": "J. Michael Muro",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1911628,
+   "name": "Josef Sawyer",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1237444,
+   "name": "Holly Harold",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 25934,
+   "name": "David Boreanaz",
+   "photo": "https://image.tmdb.org/t/p/w185/rxbKFajA7zIv4sUJUpGNBWXS7jM.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1493726,
+   "name": "Kenny Sheard",
+   "photo": "https://image.tmdb.org/t/p/w185/mhVwM7CK1hsalfR8WPff4Kl7QQE.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:49.061Z"
+}

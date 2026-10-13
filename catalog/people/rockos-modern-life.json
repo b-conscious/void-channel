@@ -1,0 +1,330 @@
+{
+ "show": "Rocko's Modern Life",
+ "slug": "rockos-modern-life",
+ "tmdbId": 657,
+ "cast": [
+  {
+   "id": 59784,
+   "name": "Carlos Alazraqui",
+   "photo": "https://image.tmdb.org/t/p/w185/rv3ZYwFvMCz6rQNJR4p0wRMbK9U.jpg",
+   "character": "Rocko (voice)",
+   "episodes": 100
+  },
+  {
+   "id": 78798,
+   "name": "Tom Kenny",
+   "photo": "https://image.tmdb.org/t/p/w185/kftXtExrcoTTjyeYmSXJ0Ogr3R7.jpg",
+   "character": "Heffer (voice)",
+   "episodes": 100
+  },
+  {
+   "id": 188229,
+   "name": "Mr. Lawrence",
+   "photo": "https://image.tmdb.org/t/p/w185/gWFgxlREzbaPPdWsQZSCdjrFozy.jpg",
+   "character": "Filburt (voice)",
+   "episodes": 100
+  },
+  {
+   "id": 81178,
+   "name": "Charlie Adler",
+   "photo": "https://image.tmdb.org/t/p/w185/hVENHdlEqsX6vhBW4MTpfYEFFQ3.jpg",
+   "character": "Ed Bighead / Bev Bighead (voice)",
+   "episodes": 100
+  },
+  {
+   "id": 1212453,
+   "name": "Linda Wallem",
+   "photo": "https://image.tmdb.org/t/p/w185/qYlKcPnvmexE3ZvkVjsC2KjMKH5.jpg",
+   "character": "",
+   "episodes": 10
+  },
+  {
+   "id": 2758525,
+   "name": "Jennifer L. Hughes",
+   "photo": null,
+   "character": "Singer (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 74358,
+   "name": "Kelly Sheridan",
+   "photo": "https://image.tmdb.org/t/p/w185/sxg2oRxwAEWd2Y8baJarjwC1XPA.jpg",
+   "character": "",
+   "episodes": 2
+  },
+  {
+   "id": 1218543,
+   "name": "Joe Murray",
+   "photo": "https://image.tmdb.org/t/p/w185/kOye7NsaV3afsNaIqTjEl4dw6fA.jpg",
+   "character": "Ralph Bighead",
+   "episodes": 2
+  },
+  {
+   "id": 15832,
+   "name": "Gilbert Gottfried",
+   "photo": "https://image.tmdb.org/t/p/w185/hkkAgJD0HKcuyd8EuvhyN5vHcDQ.jpg",
+   "character": "",
+   "episodes": 2
+  },
+  {
+   "id": 85431,
+   "name": "Chantal Strand",
+   "photo": "https://image.tmdb.org/t/p/w185/4YAzGdCDiLPS7Imz2D0MF1AGnI5.jpg",
+   "character": "",
+   "episodes": 2
+  },
+  {
+   "id": 1213092,
+   "name": "Charlotte Booker",
+   "photo": "https://image.tmdb.org/t/p/w185/wnGMomKXhYgLvCNqxEAHIQjwFPj.jpg",
+   "character": "Announcer (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 60275,
+   "name": "Dom Irrera",
+   "photo": "https://image.tmdb.org/t/p/w185/tw70IknVeOnbhelfh1J599DkzbS.jpg",
+   "character": "Slippy (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 4334240,
+   "name": "Quinn Kitmitto",
+   "photo": null,
+   "character": "Judge (voice) / Laverne (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 1234618,
+   "name": "Kevin Meaney",
+   "photo": "https://image.tmdb.org/t/p/w185/jJAimIWfNK8EvdcUEDksq5j7ZnA.jpg",
+   "character": "Widow Hutchison (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 40009,
+   "name": "Matt Frewer",
+   "photo": "https://image.tmdb.org/t/p/w185/gh91nUlR6C7rYhDhjab7cAZQlIt.jpg",
+   "character": "",
+   "episodes": 1
+  },
+  {
+   "id": 89599,
+   "name": "Eric Bauza",
+   "photo": "https://image.tmdb.org/t/p/w185/afOlsVPQxbtkom604MeCemjlwEV.jpg",
+   "character": "",
+   "episodes": 1
+  },
+  {
+   "id": 1219436,
+   "name": "Mike MacRae",
+   "photo": null,
+   "character": "",
+   "episodes": 1
+  },
+  {
+   "id": 1219437,
+   "name": "Stephanie Sheh",
+   "photo": "https://image.tmdb.org/t/p/w185/id00Jc4uwGnffNT1bp2SQWEoSH3.jpg",
+   "character": "",
+   "episodes": 1
+  },
+  {
+   "id": 31365,
+   "name": "John Kassir",
+   "photo": "https://image.tmdb.org/t/p/w185/byj6Px0tLcqRFWIJYUxstg25Qd2.jpg",
+   "character": "",
+   "episodes": 1
+  },
+  {
+   "id": 23679,
+   "name": "Billy West",
+   "photo": "https://image.tmdb.org/t/p/w185/iNQtBsgV4wr3z5CEEFhR5U4Yedk.jpg",
+   "character": "",
+   "episodes": 1
+  },
+  {
+   "id": 34521,
+   "name": "Maurice LaMarche",
+   "photo": "https://image.tmdb.org/t/p/w185/qCiL3EYAhLcNo0rNj5pczWo9MwG.jpg",
+   "character": "",
+   "episodes": 1
+  },
+  {
+   "id": 1065,
+   "name": "Thomas F. Wilson",
+   "photo": "https://image.tmdb.org/t/p/w185/mVhm65ZVBIRIptWGiMIvoUy0Khi.jpg",
+   "character": "",
+   "episodes": 1
+  },
+  {
+   "id": 260229,
+   "name": "Richard Simmons",
+   "photo": "https://image.tmdb.org/t/p/w185/4an1vRh5iMXGwvj3tqF1AXFhiOn.jpg",
+   "character": "Aerobics Instructor",
+   "episodes": 1
+  },
+  {
+   "id": 17414,
+   "name": "Jill Talley",
+   "photo": "https://image.tmdb.org/t/p/w185/x0r43qyI9KNEyb5RsF0MckqxgfM.jpg",
+   "character": "Nosey (voice)",
+   "episodes": 1
+  }
+ ],
+ "crew": [
+  {
+   "id": 1218543,
+   "name": "Joe Murray",
+   "photo": "https://image.tmdb.org/t/p/w185/kOye7NsaV3afsNaIqTjEl4dw6fA.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Writer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 49903,
+   "name": "Tim Hill",
+   "photo": "https://image.tmdb.org/t/p/w185/jJ4UQBlQ71aJzU75ZxnO5gdTbnj.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 36
+  },
+  {
+   "id": 4333733,
+   "name": "George Maestri",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 32
+  },
+  {
+   "id": 127525,
+   "name": "Martin Olson",
+   "photo": "https://image.tmdb.org/t/p/w185/dbS6cSTldxscYFeszOqQklDe3u8.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 70651,
+   "name": "Stephen Hillenburg",
+   "photo": "https://image.tmdb.org/t/p/w185/c4850yRqFMC1GZpCvDx4q2PRY1E.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 567615,
+   "name": "Jeff 'Swampy' Marsh",
+   "photo": "https://image.tmdb.org/t/p/w185/bbJufeLLpO3bs8V4cslz6ttNqEY.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 188229,
+   "name": "Mr. Lawrence",
+   "photo": "https://image.tmdb.org/t/p/w185/gWFgxlREzbaPPdWsQZSCdjrFozy.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 1082114,
+   "name": "Timothy Bjorklund",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 1306301,
+   "name": "Vince Calandra",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1218549,
+   "name": "Mark O'Hare",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1227597,
+   "name": "Robert Scull",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1219428,
+   "name": "Jeff Myers",
+   "photo": "https://image.tmdb.org/t/p/w185/21ftcyJySRnl9V7ILYMoGwQJhdM.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1219429,
+   "name": "Roger Chiasson",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1219427,
+   "name": "Nick Jennings",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1216657,
+   "name": "Ron Hauge",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 104644,
+   "name": "Dan Povenmire",
+   "photo": "https://image.tmdb.org/t/p/w185/jl42I66vZgly7vTfi660VEipuDn.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:29:13.230Z"
+}

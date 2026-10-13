@@ -1,0 +1,324 @@
+{
+ "show": "Midsomer Murders",
+ "slug": "midsomer-murders",
+ "tmdbId": 764,
+ "cast": [
+  {
+   "id": 100922,
+   "name": "John Nettles",
+   "photo": "https://image.tmdb.org/t/p/w185/4ZRhABlWoYkybPuUPi33QZRxQ0T.jpg",
+   "character": "DCI Tom Barnaby",
+   "episodes": 81
+  },
+  {
+   "id": 183211,
+   "name": "Jane Wymark",
+   "photo": "https://image.tmdb.org/t/p/w185/tBJSyVMol8invbX7uQJtbHArf7l.jpg",
+   "character": "Joyce Barnaby",
+   "episodes": 81
+  },
+  {
+   "id": 150864,
+   "name": "Barry Jackson",
+   "photo": "https://image.tmdb.org/t/p/w185/mlJgycuaiffRpTSeNZiiZiPZ9l8.jpg",
+   "character": "Dr. George Bullard",
+   "episodes": 75
+  },
+  {
+   "id": 156363,
+   "name": "Laura Howard",
+   "photo": "https://image.tmdb.org/t/p/w185/b69jGKtI7MiiHmfJafByLzrmaHJ.jpg",
+   "character": "Cully Barnaby",
+   "episodes": 73
+  },
+  {
+   "id": 87097,
+   "name": "Neil Dudgeon",
+   "photo": "https://image.tmdb.org/t/p/w185/bQ7KNoG80k91MZzVoQ1jMhxNX6s.jpg",
+   "character": "DCI John Barnaby / Daniel Bolt",
+   "episodes": 66
+  },
+  {
+   "id": 1190276,
+   "name": "Fiona Dolman",
+   "photo": "https://image.tmdb.org/t/p/w185/uXOHx6wU4epLp7xOaax2PyB1zBR.jpg",
+   "character": "Sarah Barnaby",
+   "episodes": 63
+  },
+  {
+   "id": 185831,
+   "name": "Jason Hughes",
+   "photo": "https://image.tmdb.org/t/p/w185/s22a4k057Zj9Q37RVd5B0MykNdv.jpg",
+   "character": "DS Ben Jones / DI Ben Jones",
+   "episodes": 53
+  },
+  {
+   "id": 1332982,
+   "name": "Nick Hendrix",
+   "photo": "https://image.tmdb.org/t/p/w185/eHheRwz9nnfgP9JiHJxCvift91T.jpg",
+   "character": "DSt Jamie Winter / DS Jamie Winter",
+   "episodes": 34
+  },
+  {
+   "id": 1194117,
+   "name": "Kirsty Dillon",
+   "photo": "https://image.tmdb.org/t/p/w185/umxReUMox2Z1qyW3l0Z49a6ff0V.jpg",
+   "character": "WPC/DC Gail Stephens",
+   "episodes": 30
+  },
+  {
+   "id": 182068,
+   "name": "Daniel Casey",
+   "photo": "https://image.tmdb.org/t/p/w185/jPUCAtHZw1Hz5RG1Rfk1DSGTrRH.jpg",
+   "character": "Sgt Gavin Troy / Gavin Troy",
+   "episodes": 29
+  },
+  {
+   "id": 30320,
+   "name": "Annette Badland",
+   "photo": "https://image.tmdb.org/t/p/w185/6ZoUX6K4WI2MZrhXb21vU5Mtc6P.jpg",
+   "character": "Dr. Fleur Perkins / Fleur Perkins",
+   "episodes": 28
+  },
+  {
+   "id": 1220124,
+   "name": "Tamzin Malleson",
+   "photo": "https://image.tmdb.org/t/p/w185/mUqVqkgKOoV4vrU0iditUvvCtL3.jpg",
+   "character": "Doctor Kate Wilding",
+   "episodes": 23
+  },
+  {
+   "id": 3933440,
+   "name": "Sykes",
+   "photo": "https://image.tmdb.org/t/p/w185/qEanTSLl3wRiq1yroQIO9aFRhEj.jpg",
+   "character": "Sykes the Jack Russell Terrier",
+   "episodes": 18
+  },
+  {
+   "id": 1220123,
+   "name": "Gwilym Lee",
+   "photo": "https://image.tmdb.org/t/p/w185/bHSmjJLJyrg5Q0tC0W2FFreuOnO.jpg",
+   "character": "DS Charlie Nelson",
+   "episodes": 15
+  },
+  {
+   "id": 1220121,
+   "name": "John Hopkins",
+   "photo": "https://image.tmdb.org/t/p/w185/uHlU7Noyk784MXMwwPRa0Gl02aZ.jpg",
+   "character": "Sgt Daniel Scott",
+   "episodes": 15
+  },
+  {
+   "id": 1092559,
+   "name": "Manjinder Virk",
+   "photo": "https://image.tmdb.org/t/p/w185/cTP1k6D0ByRmErgZkARsZDjEgLf.jpg",
+   "character": "Kam Karimore / Dr. Kam Karimore",
+   "episodes": 12
+  },
+  {
+   "id": 1211867,
+   "name": "Neil Conrich",
+   "photo": "https://image.tmdb.org/t/p/w185/d09KWU0BlR6c9NnO5UzM1oIg8OR.jpg",
+   "character": "PC Angel / Constable Angel / Police Constable Angel",
+   "episodes": 8
+  },
+  {
+   "id": 1663439,
+   "name": "Raj Awasti",
+   "photo": "https://image.tmdb.org/t/p/w185/uB1QGI3dcN2I9Tf2zPl6buFQ1Nh.jpg",
+   "character": "Postman / CID Officer / Raj Awasti",
+   "episodes": 8
+  },
+  {
+   "id": 2201080,
+   "name": "Isabel Shaw",
+   "photo": null,
+   "character": "Betty Barnaby",
+   "episodes": 7
+  },
+  {
+   "id": 49968,
+   "name": "Neville Phillips",
+   "photo": "https://image.tmdb.org/t/p/w185/t3vIAKqdcMkt8MN0UdYxnD95H04.jpg",
+   "character": "Richard / Admirer / Priest",
+   "episodes": 6
+  },
+  {
+   "id": 1956505,
+   "name": "Lee Byford",
+   "photo": null,
+   "character": "Police Officer",
+   "episodes": 6
+  },
+  {
+   "id": 1220039,
+   "name": "Alwyne Taylor",
+   "photo": "https://image.tmdb.org/t/p/w185/dhvArxHQcLfWmDHAznyUclgpuO8.jpg",
+   "character": "Kath Bullard / Dr. Catherine Bullard",
+   "episodes": 5
+  },
+  {
+   "id": 127005,
+   "name": "Chris Wilson",
+   "photo": "https://image.tmdb.org/t/p/w185/AbN1FqJYx6R14B8jHmBBFFZ75oY.jpg",
+   "character": "Police Officer (uncredited) / Police Officer",
+   "episodes": 5
+  },
+  {
+   "id": 2219124,
+   "name": "Ruth Clarson",
+   "photo": "https://image.tmdb.org/t/p/w185/7N859OuilHpKYjb96GS97GNsy98.jpg",
+   "character": "Pub Customer / CID / Yoga Client",
+   "episodes": 5
+  }
+ ],
+ "crew": [
+  {
+   "id": 1428479,
+   "name": "Caroline Graham",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 151
+  },
+  {
+   "id": 61354,
+   "name": "Anthony Horowitz",
+   "photo": "https://image.tmdb.org/t/p/w185/vaMCduuCGEz1ws3LyM6XTgrZdAM.jpg",
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1470768,
+   "name": "Jim Parker",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 157
+  },
+  {
+   "id": 1213442,
+   "name": "Jo Wright",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 27
+  },
+  {
+   "id": 231647,
+   "name": "Michele Buck",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 175921,
+   "name": "Renny Rye",
+   "photo": "https://image.tmdb.org/t/p/w185/xHe6JdChheAi4s91jBZKnTtmhYj.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 23
+  },
+  {
+   "id": 1195056,
+   "name": "Peter Smith",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 151963,
+   "name": "Richard Holthouse",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 1213658,
+   "name": "Sarah Hellings",
+   "photo": "https://image.tmdb.org/t/p/w185/jNMqgfhj6hB83KlM6NPZmUm2fCC.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 1231287,
+   "name": "Andrew Payne",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1220024,
+   "name": "Jeremy Silberston",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 150545,
+   "name": "Nicholas Laughland",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1227576,
+   "name": "Jeff Povey",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 2179516,
+   "name": "Peter J. Hammond",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 174733,
+   "name": "Michael Aitkens",
+   "photo": "https://image.tmdb.org/t/p/w185/bQzIalGGYQE2xMrabvpV7eTszO3.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 2179515,
+   "name": "David Hoskins",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:37:23.621Z"
+}

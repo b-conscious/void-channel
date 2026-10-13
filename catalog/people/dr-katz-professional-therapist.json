@@ -1,0 +1,323 @@
+{
+ "show": "Dr. Katz, Professional Therapist",
+ "slug": "dr-katz-professional-therapist",
+ "tmdbId": 2513,
+ "cast": [
+  {
+   "id": 96072,
+   "name": "Jonathan Katz",
+   "photo": "https://image.tmdb.org/t/p/w185/4jtl2ZQhfGiKmSVpKkvXYVVgxi.jpg",
+   "character": "Dr. Katz (voice)",
+   "episodes": 81
+  },
+  {
+   "id": 185773,
+   "name": "H. Jon Benjamin",
+   "photo": "https://image.tmdb.org/t/p/w185/yZgBHrH8D9Jjo15fuQKnWV3U2OC.jpg",
+   "character": "Ben Katz (voice)",
+   "episodes": 81
+  },
+  {
+   "id": 99007,
+   "name": "Laura Silverman",
+   "photo": "https://image.tmdb.org/t/p/w185/exkzWCT64UnKYf7adAZ5ixWlBgE.jpg",
+   "character": "Laura the Receptionist (voice)",
+   "episodes": 81
+  },
+  {
+   "id": 3752098,
+   "name": "Julianne Bond",
+   "photo": null,
+   "character": "Julie the Bartender (voice)",
+   "episodes": 81
+  },
+  {
+   "id": 2450389,
+   "name": "Will LeBow",
+   "photo": null,
+   "character": "Stanley (voice)",
+   "episodes": 81
+  },
+  {
+   "id": 176031,
+   "name": "Todd Barry",
+   "photo": "https://image.tmdb.org/t/p/w185/ijou8PynLr4z8uKK5vdJQwFU6AN.jpg",
+   "character": "Todd (voice)",
+   "episodes": 18
+  },
+  {
+   "id": 60275,
+   "name": "Dom Irrera",
+   "photo": "https://image.tmdb.org/t/p/w185/tw70IknVeOnbhelfh1J599DkzbS.jpg",
+   "character": "Dom (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 15757,
+   "name": "Ray Romano",
+   "photo": "https://image.tmdb.org/t/p/w185/zWT03QvuVYySlrjmHCojKrNYjoC.jpg",
+   "character": "Ray (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 162610,
+   "name": "Fred Stoller",
+   "photo": "https://image.tmdb.org/t/p/w185/zKdycmQYPQe7OoYWaz0KU5yCqXx.jpg",
+   "character": "Fred (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 52849,
+   "name": "Louis C.K.",
+   "photo": "https://image.tmdb.org/t/p/w185/1ii770zdeX62UFGawTmNr2vddYb.jpg",
+   "character": "Louis (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 1224458,
+   "name": "Ron Lynch",
+   "photo": "https://image.tmdb.org/t/p/w185/yw7IaBIfKdek6TQux2lB72F5HWv.jpg",
+   "character": "Ron (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 1229488,
+   "name": "Lew Schneider",
+   "photo": "https://image.tmdb.org/t/p/w185/bFEaiZQRBpKByi9wuYAnQPCIes4.jpg",
+   "character": "Lew (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 65923,
+   "name": "Dave Attell",
+   "photo": "https://image.tmdb.org/t/p/w185/3x9OmPSyPtLuvq6Efvqfu5H85D3.jpg",
+   "character": "Dave (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 1219308,
+   "name": "Bill Braudis",
+   "photo": null,
+   "character": "Bill (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 176022,
+   "name": "Andy Kindler",
+   "photo": "https://image.tmdb.org/t/p/w185/5vTuS8ZneKGIUxeY9PdsJ4ozBct.jpg",
+   "character": "Andy (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 1234618,
+   "name": "Kevin Meaney",
+   "photo": "https://image.tmdb.org/t/p/w185/jJAimIWfNK8EvdcUEDksq5j7ZnA.jpg",
+   "character": "Kevin (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 5322816,
+   "name": "Sam Brown",
+   "photo": null,
+   "character": "Sam (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 59255,
+   "name": "Mitch Hedberg",
+   "photo": "https://image.tmdb.org/t/p/w185/1Urrrx1TOCF8Q2mu5lcQcQoyDRt.jpg",
+   "character": "Mitch (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 3138,
+   "name": "Kathy Griffin",
+   "photo": "https://image.tmdb.org/t/p/w185/khhZT54SfcKIZuPwTH55CB1I0Gf.jpg",
+   "character": "Kathy (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 3214,
+   "name": "Steven Wright",
+   "photo": "https://image.tmdb.org/t/p/w185/9Q9buDjfm6uq0VE86MZ01o96lyG.jpg",
+   "character": "Steven (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 216716,
+   "name": "Wendy Liebman",
+   "photo": "https://image.tmdb.org/t/p/w185/qp2ge7oCRORqbIZAFR692D1HRRr.jpg",
+   "character": "Wendy (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 78798,
+   "name": "Tom Kenny",
+   "photo": "https://image.tmdb.org/t/p/w185/kftXtExrcoTTjyeYmSXJ0Ogr3R7.jpg",
+   "character": "Tom (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 1219029,
+   "name": "Paul F. Tompkins",
+   "photo": "https://image.tmdb.org/t/p/w185/pL9v2aubEAOSW0lgrWyP0vvGr34.jpg",
+   "character": "Paul (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 15832,
+   "name": "Gilbert Gottfried",
+   "photo": "https://image.tmdb.org/t/p/w185/hkkAgJD0HKcuyd8EuvhyN5vHcDQ.jpg",
+   "character": "Gilbert (voice)",
+   "episodes": 2
+  }
+ ],
+ "crew": [
+  {
+   "id": 96072,
+   "name": "Jonathan Katz",
+   "photo": "https://image.tmdb.org/t/p/w185/4jtl2ZQhfGiKmSVpKkvXYVVgxi.jpg",
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 81
+  },
+  {
+   "id": 5355582,
+   "name": "Tom Snyder",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 81
+  },
+  {
+   "id": 185773,
+   "name": "H. Jon Benjamin",
+   "photo": "https://image.tmdb.org/t/p/w185/yZgBHrH8D9Jjo15fuQKnWV3U2OC.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 2450389,
+   "name": "Will LeBow",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 1230593,
+   "name": "Loren Bouchard",
+   "photo": "https://image.tmdb.org/t/p/w185/cyKk7RJsTuUPWLlPZZwRqMZvGt5.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 3752098,
+   "name": "Julianne Bond",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 99007,
+   "name": "Laura Silverman",
+   "photo": "https://image.tmdb.org/t/p/w185/exkzWCT64UnKYf7adAZ5ixWlBgE.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 38
+  },
+  {
+   "id": 1219308,
+   "name": "Bill Braudis",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 34
+  },
+  {
+   "id": 4282491,
+   "name": "Carl W. Adams",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 33
+  },
+  {
+   "id": 5355827,
+   "name": "Lisa Gillim",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 32
+  },
+  {
+   "id": 176031,
+   "name": "Todd Barry",
+   "photo": "https://image.tmdb.org/t/p/w185/ijou8PynLr4z8uKK5vdJQwFU6AN.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 5355890,
+   "name": "Adam Simha",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 2396203,
+   "name": "Paulo Santucci",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 5355569,
+   "name": "Richard Luongo",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 77440,
+   "name": "Karen LeBlanc",
+   "photo": "https://image.tmdb.org/t/p/w185/dV2UjuWh8fu9ZARfd5uJRExVA8V.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 5355584,
+   "name": "Mark Usher",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:29:45.676Z"
+}

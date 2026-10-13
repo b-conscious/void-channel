@@ -1,0 +1,322 @@
+{
+ "show": "One-Punch Man",
+ "slug": "one-punch-man",
+ "tmdbId": 63926,
+ "cast": [
+  {
+   "id": 1319218,
+   "name": "Makoto Furukawa",
+   "photo": "https://image.tmdb.org/t/p/w185/inLmBZhrqXeE9wlViyK28ocKJSw.jpg",
+   "character": "Saitama (voice)",
+   "episodes": 36
+  },
+  {
+   "id": 1324666,
+   "name": "Kaito Ishikawa",
+   "photo": "https://image.tmdb.org/t/p/w185/fzjIkotjUHHs3wgftM9tqdsG8ph.jpg",
+   "character": "Genos (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 216448,
+   "name": "Hiroki Yasumoto",
+   "photo": "https://image.tmdb.org/t/p/w185/vNIGLl0wFmdhdnulMssQ1qyNeBs.jpg",
+   "character": "King (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 552339,
+   "name": "Kazuhiro Yamaji",
+   "photo": "https://image.tmdb.org/t/p/w185/fgGTdhTiWViGmjl2kABHWzLIpZ0.jpg",
+   "character": "Silverfang (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1221114,
+   "name": "Yuichi Nakamura",
+   "photo": "https://image.tmdb.org/t/p/w185/wb8behVKjBHX9XXrEydvNINCYwH.jpg",
+   "character": "License-less Rider (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 135524,
+   "name": "Kenjiro Tsuda",
+   "photo": "https://image.tmdb.org/t/p/w185/yFpSPNHqYN4rdRiVpVaYmqXMkmi.jpg",
+   "character": "Atomic Samurai (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 936275,
+   "name": "Aoi Yuuki",
+   "photo": "https://image.tmdb.org/t/p/w185/a5Mkd66GV1l3c9bZZtnvjUf33T2.jpg",
+   "character": "Terrible Tornado (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 221773,
+   "name": "Saori Hayami",
+   "photo": "https://image.tmdb.org/t/p/w185/gLv9lO7dlUbIsmyJUvgegqAAXki.jpg",
+   "character": "Hellish Blizzard (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 68470,
+   "name": "Minami Takayama",
+   "photo": "https://image.tmdb.org/t/p/w185/4Gunxt2UWnAX74ZoXKtqK2rI0e.jpg",
+   "character": "Child Emperor (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 9705,
+   "name": "Takahiro Sakurai",
+   "photo": "https://image.tmdb.org/t/p/w185/8s8owcKmpRAuhzEGjSdRpztthUg.jpg",
+   "character": "Zombieman (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 122726,
+   "name": "Hikaru Midorikawa",
+   "photo": "https://image.tmdb.org/t/p/w185/pvzfUDE9UruEhRBrONVFk83o6Zh.jpg",
+   "character": "Garou (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 224413,
+   "name": "Satoshi Hino",
+   "photo": "https://image.tmdb.org/t/p/w185/8ZJIiwIVF2zDyyFr7oXewj0eEuu.jpg",
+   "character": "Superalloy Blackluster (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 65427,
+   "name": "Yuji Ueda",
+   "photo": "https://image.tmdb.org/t/p/w185/nwJBK4WwsUCcBcX425GD2BroJDr.jpg",
+   "character": "Watchdog Man (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 122647,
+   "name": "Kohsuke Toriumi",
+   "photo": "https://image.tmdb.org/t/p/w185/vlRQ77taCCKh7itCZn3IWJUiYQr.jpg",
+   "character": "Flashy Flash (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 24647,
+   "name": "Katsuyuki Konishi",
+   "photo": "https://image.tmdb.org/t/p/w185/nYM5cH6U7cp4x9dIzW0enmEKmeV.jpg",
+   "character": "Tank-Top Master (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 221772,
+   "name": "Wataru Hatano",
+   "photo": "https://image.tmdb.org/t/p/w185/i1meHlOXLP2ubJZkmyGJONrxikQ.jpg",
+   "character": "Metal Bat (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 125617,
+   "name": "Masaya Onosaka",
+   "photo": "https://image.tmdb.org/t/p/w185/zaqlNEMaVBdwXHfdI4VSUgc3h0K.jpg",
+   "character": "Pri-Pri-Prisoner (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 93803,
+   "name": "Mamoru Miyano",
+   "photo": "https://image.tmdb.org/t/p/w185/nuok8ueG7k9hPZ09Tpr8e7Qn0ah.jpg",
+   "character": "Handsome Sweet Mask (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 149894,
+   "name": "Yuki Kaji",
+   "photo": "https://image.tmdb.org/t/p/w185/8wKdPV11IwowfwoqGqMMNt9hmp6.jpg",
+   "character": "Speed of Sound Sonic (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 1681,
+   "name": "Tessyo Genda",
+   "photo": "https://image.tmdb.org/t/p/w185/7eJeYv2OCHKAadeFVdabVkpWldo.jpg",
+   "character": "Metal Knight (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 1264228,
+   "name": "Yoji Ueda",
+   "photo": "https://image.tmdb.org/t/p/w185/fHvIfE0Q7ab0DFlkNVFcXvTKX9y.jpg",
+   "character": "Subterranean King (voice) / Drive Knight (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 110665,
+   "name": "Daisuke Namikawa",
+   "photo": "https://image.tmdb.org/t/p/w185/iw0X8oDutxaBAri3Ifga8nhdUJK.jpg",
+   "character": "Dr. Genus (voice) / Pig God (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 1257137,
+   "name": "Shinya Hamazoe",
+   "photo": "https://image.tmdb.org/t/p/w185/cO0iNO9YfiO91rzabUmu05AaJGf.jpg",
+   "character": "Ground Dragon (voice) / Marugori (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 2018181,
+   "name": "Shota Yamamoto",
+   "photo": "https://image.tmdb.org/t/p/w185/x5FYe3wqtutfAJ1EEkClilsFkF6.jpg",
+   "character": "Armored Gorilla (voice) / Subterranean (voice)",
+   "episodes": 2
+  }
+ ],
+ "crew": [
+  {
+   "id": 1458361,
+   "name": "Tomohiro Suzuki",
+   "photo": "https://image.tmdb.org/t/p/w185/szG3tQCshCgpHns0JnpNQk8MOQQ.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 64
+  },
+  {
+   "id": 1509980,
+   "name": "Makoto Miyazaki",
+   "photo": "https://image.tmdb.org/t/p/w185/hm4UXxGMWEdXA75fLiya4SFQdjZ.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 36
+  },
+  {
+   "id": 1509979,
+   "name": "Shingo Natsume",
+   "photo": "https://image.tmdb.org/t/p/w185/jkrKdmxG7H7DFh9LchDhZFAmYOD.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 1938744,
+   "name": "Shinichiro Ushijima",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 2154754,
+   "name": "Chikara Sakurai",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 1376328,
+   "name": "Shinpei Nagai",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 2784992,
+   "name": "Kenji Hamada",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 3129637,
+   "name": "Satoshi Adachi",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 3199805,
+   "name": "Yuichi Oshida",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 3199811,
+   "name": "Satoki Toyoda",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1963373,
+   "name": "Yuki Yoshida",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 3070595,
+   "name": "Tatsuro Inamoto",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1450179,
+   "name": "Miyuki Ishida",
+   "photo": "https://image.tmdb.org/t/p/w185/uXcQdh2p2F6WBCMSdqw6VNqz7ZY.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 3010331,
+   "name": "Shuuji Miyazaki",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1961855,
+   "name": "Yousuke Hatta",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 3056066,
+   "name": "Nana Fujiwara",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:38:08.350Z"
+}

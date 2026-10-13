@@ -1,0 +1,328 @@
+{
+ "show": "Looney Tunes Cartoons",
+ "slug": "looney-tunes-cartoons",
+ "tmdbId": 102321,
+ "cast": [
+  {
+   "id": 89599,
+   "name": "Eric Bauza",
+   "photo": "https://image.tmdb.org/t/p/w185/afOlsVPQxbtkom604MeCemjlwEV.jpg",
+   "character": "Horse (voice) / Daffy Duck / Bob (voice) / Marvin the Martian / K-9 (voice)",
+   "episodes": 180
+  },
+  {
+   "id": 179896,
+   "name": "Jeff Bergman",
+   "photo": "https://image.tmdb.org/t/p/w185/qeCpFCrmocsMvI7pZ1vqCCo6cPZ.jpg",
+   "character": "Wile E. Coyote (voice) / Elmer Fudd / Mr. Judgy McTopcritic  (voice) / Sylvester / Hector the Bulldog (voice)",
+   "episodes": 96
+  },
+  {
+   "id": 78317,
+   "name": "Bob Bergen",
+   "photo": "https://image.tmdb.org/t/p/w185/soDD1xiV3zVQWOJzVdJwfgIqzfe.jpg",
+   "character": "Porky Pig / Lil Dino (voice) / Announcer (voice) / Porky Pig / Cicero / Baby (voice)",
+   "episodes": 78
+  },
+  {
+   "id": 60279,
+   "name": "Fred Tatasciore",
+   "photo": "https://image.tmdb.org/t/p/w185/8YCIAGSWcxeTmPfOWMtVjLSwGOH.jpg",
+   "character": "Sam Sheepdog (voice) / Devil / Santa (voice) / Mummy (voice)",
+   "episodes": 55
+  },
+  {
+   "id": 95257,
+   "name": "Candi Milo",
+   "photo": "https://image.tmdb.org/t/p/w185/tUjXMG2118Oagj7IjWJDEdmtCRW.jpg",
+   "character": "Pig 1 / Pig 2 (voice) / Chicken (voice) / Delivery Lady (voice)",
+   "episodes": 28
+  },
+  {
+   "id": 116315,
+   "name": "Kari Wahlgren",
+   "photo": "https://image.tmdb.org/t/p/w185/kc0BOnSdzCfq8w9qoNVEm5K12x1.jpg",
+   "character": "Bear (voice) / Lady / Baby Doll (voice) / Lady / Cow (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 1585261,
+   "name": "Michael Ruocco",
+   "photo": null,
+   "character": "Beaky Buzzard (voice) (as Mike Ruocco) / Beaky Buzzard (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 1213640,
+   "name": "Stephen Stanton",
+   "photo": "https://image.tmdb.org/t/p/w185/kAz8Ja6SdB2gzabQEgMG2Hb1H5w.jpg",
+   "character": "Jonathan (voice) / Pete Puma (voice) / Baby Bear (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 174462,
+   "name": "Lara Jill Miller",
+   "photo": "https://image.tmdb.org/t/p/w185/4C6W6w9uxA1WEe62zodDfHj3hZ8.jpg",
+   "character": "Petunia Pig (voice) (as Laura Jean Miller) / Petunia Pig (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 78798,
+   "name": "Tom Kenny",
+   "photo": "https://image.tmdb.org/t/p/w185/kftXtExrcoTTjyeYmSXJ0Ogr3R7.jpg",
+   "character": "Cat (voice) / Scientist (voice) / Killer (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 59784,
+   "name": "Carlos Alazraqui",
+   "photo": "https://image.tmdb.org/t/p/w185/rv3ZYwFvMCz6rQNJR4p0wRMbK9U.jpg",
+   "character": "Leprechaun (voice) / Clancy Cop (voice) / Cop / Bus Driver (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 1573215,
+   "name": "Rachel Butera",
+   "photo": "https://image.tmdb.org/t/p/w185/j9PbEcUdFkInCdFjQAMNvctfF7j.jpg",
+   "character": "Mama Buzzard (voice) / Stewardess (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 35219,
+   "name": "Corey Burton",
+   "photo": "https://image.tmdb.org/t/p/w185/wcpFwdL7m01cZoBJiUSMQVakK2G.jpg",
+   "character": "Ghost / Monster (voice) / Announcer (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 143346,
+   "name": "Keith Ferguson",
+   "photo": "https://image.tmdb.org/t/p/w185/8EvTlmOhP34EZFEGsznqjbr4o4q.jpg",
+   "character": "Cecil Turtle (voice) / Champ (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 571562,
+   "name": "Steve Blum",
+   "photo": "https://image.tmdb.org/t/p/w185/cpO0muunoigq1WHegeOEI1AIQAo.jpg",
+   "character": "Goon (voice) / Proctor (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 81667,
+   "name": "Jennifer Hale",
+   "photo": "https://image.tmdb.org/t/p/w185/oNQCrdiSm0mABCcE5YaHwuZQK8X.jpg",
+   "character": "Woman (voice) / Agent / Boy (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 75038,
+   "name": "Roger Craig Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/6oE356GbRHAf91Llw7LDpvsAf5L.jpg",
+   "character": "Longboy / Machine (voice) / Dunk Ellington (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 441567,
+   "name": "James Adomian",
+   "photo": "https://image.tmdb.org/t/p/w185/auQ2a6mGhPiujtlSqDNSk6l7i1G.jpg",
+   "character": "Rocky (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 1585414,
+   "name": "Andrew Dickman",
+   "photo": null,
+   "character": "Papa Bear (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 1486487,
+   "name": "Peter Browngardt",
+   "photo": "https://image.tmdb.org/t/p/w185/xNZvPU9kh8tE4AftW0G5l98eylQ.jpg",
+   "character": "Ox (voice) / Dumb Cat (voice) (as Pete Browngardt)",
+   "episodes": 2
+  },
+  {
+   "id": 24362,
+   "name": "Kevin Michael Richardson",
+   "photo": "https://image.tmdb.org/t/p/w185/xXt9Nh7RAT5bOen66TaXreNYmCl.jpg",
+   "character": "Butch / Maddog Baseball (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 573544,
+   "name": "Paul Julian",
+   "photo": "https://image.tmdb.org/t/p/w185/twa68PDAF7DcBYM8Vo6QRzC4Cg8.jpg",
+   "character": "Road Runner (voice) (archive sound) (uncredited)",
+   "episodes": 1
+  },
+  {
+   "id": 19506,
+   "name": "James Arnold Taylor",
+   "photo": "https://image.tmdb.org/t/p/w185/A6J14W5kxsuEKXaRkiOXBIROO9t.jpg",
+   "character": "Dog (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 15831,
+   "name": "Frank Welker",
+   "photo": "https://image.tmdb.org/t/p/w185/aC37aQtsfZZDZN5y3paDTLJJHCi.jpg",
+   "character": "Announcer (voice)",
+   "episodes": 1
+  }
+ ],
+ "crew": [
+  {
+   "id": 1486487,
+   "name": "Peter Browngardt",
+   "photo": "https://image.tmdb.org/t/p/w185/xNZvPU9kh8tE4AftW0G5l98eylQ.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 231
+  },
+  {
+   "id": 141043,
+   "name": "Sam Register",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 231
+  },
+  {
+   "id": 2336869,
+   "name": "Johnny Ryan",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 174
+  },
+  {
+   "id": 1494658,
+   "name": "Jacob Fleisher",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 138
+  },
+  {
+   "id": 1853094,
+   "name": "David Gemmill",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 83
+  },
+  {
+   "id": 2610379,
+   "name": "Ryan Kramer",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 81
+  },
+  {
+   "id": 2057875,
+   "name": "Joshua Moshier",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 59
+  },
+  {
+   "id": 1371981,
+   "name": "Kenny Pittenger",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 56
+  },
+  {
+   "id": 1585261,
+   "name": "Michael Ruocco",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 52
+  },
+  {
+   "id": 1585414,
+   "name": "Andrew Dickman",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 68701,
+   "name": "Carl Johnson",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 47
+  },
+  {
+   "id": 2501584,
+   "name": "Caroline Director",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 38
+  },
+  {
+   "id": 2352122,
+   "name": "Andy Gonsalves",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 35
+  },
+  {
+   "id": 2656289,
+   "name": "Ryan Khatam",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 2885287,
+   "name": "Chris Allison",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 29
+  },
+  {
+   "id": 2657062,
+   "name": "Mike Pelensky",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 27
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:35:13.226Z"
+}

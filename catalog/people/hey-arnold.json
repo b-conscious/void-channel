@@ -1,0 +1,330 @@
+{
+ "show": "Hey Arnold!",
+ "slug": "hey-arnold",
+ "tmdbId": 537,
+ "cast": [
+  {
+   "id": 35093,
+   "name": "Francesca Marie Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/hdD9meZg1rBqbc1WpYBSROQnQik.jpg",
+   "character": "Helga Pataki (voice)",
+   "episodes": 186
+  },
+  {
+   "id": 82529,
+   "name": "Jamil Walker Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/6JFyY8IUHxdndhHbnUgpItNvdvS.jpg",
+   "character": "Gerald Johanssen (voice)",
+   "episodes": 186
+  },
+  {
+   "id": 198,
+   "name": "Dan Castellaneta",
+   "photo": "https://image.tmdb.org/t/p/w185/AmeqWhP4A46AWkM4kVphg6jOTQX.jpg",
+   "character": "Big Arnold (voice) / Animal Control Officer (voice) / Grandpa Phil / Judge (voice)",
+   "episodes": 152
+  },
+  {
+   "id": 167638,
+   "name": "Justin Shenkarow",
+   "photo": "https://image.tmdb.org/t/p/w185/uxy54aFyWM1Bow5P9EAY4iCyMbu.jpg",
+   "character": "Joey (voice) / Harold Berman / Boy on Bicycle (voice) / Harold Berman / Iggy (voice)",
+   "episodes": 144
+  },
+  {
+   "id": 35224,
+   "name": "Anndi McAfee",
+   "photo": "https://image.tmdb.org/t/p/w185/31BmotCrcdSR6gFnJqqCUHvy6Dh.jpg",
+   "character": "Phoebe Heyerdahl / Italian Girl / French Girl (voice) / Phoebe Heyerdahl / Worker #2 (voice) / Patrice (voice)",
+   "episodes": 102
+  },
+  {
+   "id": 112087,
+   "name": "Christopher Walberg",
+   "photo": null,
+   "character": "Stinky Peterson / Kyle (voice) / Stinky (voice) / Stinky Peterson (voice; uncredited)",
+   "episodes": 85
+  },
+  {
+   "id": 29077,
+   "name": "Phillip Van Dyke",
+   "photo": "https://image.tmdb.org/t/p/w185/aUDWyVD08tFyoGWI01xdjMgQnfo.jpg",
+   "character": "Ludwig (voice) / Arnold (voice)",
+   "episodes": 76
+  },
+  {
+   "id": 82528,
+   "name": "Spencer Klein",
+   "photo": "https://image.tmdb.org/t/p/w185/8O7GhNehn7C4f71gznpF4ZMgfgt.jpg",
+   "character": "Arnold (voice)",
+   "episodes": 73
+  },
+  {
+   "id": 116437,
+   "name": "Olivia Hack",
+   "photo": "https://image.tmdb.org/t/p/w185/vHiz3YSzQfnPAvqVt0W3f3eERWK.jpg",
+   "character": "Rhonda Wellington Lloyd (voice) / Rhonda Wellington Lloyd / Mary (voice)",
+   "episodes": 65
+  },
+  {
+   "id": 181139,
+   "name": "Lane Toran",
+   "photo": null,
+   "character": "Wolfgang / French Boy (voice) / Arnold (voice) / Wolfgang (voice)",
+   "episodes": 50
+  },
+  {
+   "id": 165453,
+   "name": "Sam Gifaldi",
+   "photo": null,
+   "character": "Sid / Robert (voice) / Billy (voice) / Sid (voice)",
+   "episodes": 48
+  },
+  {
+   "id": 67385,
+   "name": "Blake McIver Ewing",
+   "photo": "https://image.tmdb.org/t/p/w185/8TFz5gIYNNttwVQZgllHbygYKv6.jpg",
+   "character": "Eugene Horowitz (voice)",
+   "episodes": 42
+  },
+  {
+   "id": 1217426,
+   "name": "Craig Bartlett",
+   "photo": "https://image.tmdb.org/t/p/w185/druuzzORnUfQ5yrUCMtiTLetNls.jpg",
+   "character": "Mop Guy (voice) / Big Man (voice) / Brainy (voice; uncredited)",
+   "episodes": 42
+  },
+  {
+   "id": 34983,
+   "name": "Tress MacNeille",
+   "photo": "https://image.tmdb.org/t/p/w185/gI2LsgByvSffQY34vabVnPmrHzw.jpg",
+   "character": "Grandma Gertie / Miss Slovak (voice) / Grandma Gertie / Mayor Dixie (voice) / Movie Woman (voice)",
+   "episodes": 33
+  },
+  {
+   "id": 60739,
+   "name": "Kath Soucie",
+   "photo": "https://image.tmdb.org/t/p/w185/dSE1JtsdA1aSgIIw415bsXtmkPg.jpg",
+   "character": "Mrs. Berman (voice) / Mariam Pataki (voice) / Cecile (voice)",
+   "episodes": 28
+  },
+  {
+   "id": 1816918,
+   "name": "Steve Viksten",
+   "photo": null,
+   "character": "Caesar (voice; uncredited) / Oskar Kokoshka / Cop #2 (voice) / Italian Boy (voice)",
+   "episodes": 27
+  },
+  {
+   "id": 34521,
+   "name": "Maurice LaMarche",
+   "photo": "https://image.tmdb.org/t/p/w185/qCiL3EYAhLcNo0rNj5pczWo9MwG.jpg",
+   "character": "Big Bob Pataki / Clerk (voice) / Cecile's Dad / Jacques (voice) / Revis (voice)",
+   "episodes": 27
+  },
+  {
+   "id": 60275,
+   "name": "Dom Irrera",
+   "photo": "https://image.tmdb.org/t/p/w185/tw70IknVeOnbhelfh1J599DkzbS.jpg",
+   "character": "Ernie Potts / Paper Man (voice) / Stinky's Father (voice) / Ernie Potts / Old Man (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 76470,
+   "name": "Dan Butler",
+   "photo": "https://image.tmdb.org/t/p/w185/6RcrSFeqZooY4YZouS2HX5iMUay.jpg",
+   "character": "Mr. Simmons (voice; uncredited) / Mr. Simmons / Publisher (voice) / Mr. Simmons (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 92811,
+   "name": "David Wohl",
+   "photo": "https://image.tmdb.org/t/p/w185/iPHxMD2eimYJysHYIzLZUbPFhnp.jpg",
+   "character": "Principal Wartz / Bad Guy (voice) / Mr. Berman / Bus Driver (voice) / Principal Wartz / Announcer (voice)",
+   "episodes": 21
+  },
+  {
+   "id": 1178795,
+   "name": "Ben Diskin",
+   "photo": "https://image.tmdb.org/t/p/w185/4RWjcrPgfTG1yp19kFKRZYimv2B.jpg",
+   "character": "Eugene Horowitz (voice) / Eugene Horowitz / Kid (voice)",
+   "episodes": 19
+  },
+  {
+   "id": 16585,
+   "name": "Baoan Coleman",
+   "photo": "https://image.tmdb.org/t/p/w185/bSS0T4aNIwhrmxSNRmmJU2ZAbII.jpg",
+   "character": "Mr. Hyunh (voice) / Oskar Kokoshka (voice)",
+   "episodes": 18
+  },
+  {
+   "id": 1739,
+   "name": "James Keane",
+   "photo": "https://image.tmdb.org/t/p/w185/qGOuDCsYQ6IVfUr2P5K2pV6v9Ij.jpg",
+   "character": "Mr. Green / EBN Announcer (voice) / Hospital Orderly (voice) / Mr. Green (voice; uncredited)",
+   "episodes": 14
+  },
+  {
+   "id": 21402,
+   "name": "Adam Wylie",
+   "photo": "https://image.tmdb.org/t/p/w185/g59pfDt3xNnPmvYkOoYFXykXW5O.jpg",
+   "character": "Curly Gammelthorpe (voice)",
+   "episodes": 14
+  }
+ ],
+ "crew": [
+  {
+   "id": 1217426,
+   "name": "Craig Bartlett",
+   "photo": "https://image.tmdb.org/t/p/w185/druuzzORnUfQ5yrUCMtiTLetNls.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 35
+  },
+  {
+   "id": 1816918,
+   "name": "Steve Viksten",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 51
+  },
+  {
+   "id": 1212856,
+   "name": "Joe Purdy",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 33
+  },
+  {
+   "id": 1574738,
+   "name": "Steve Socki",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 124563,
+   "name": "Larry Leichliter",
+   "photo": "https://image.tmdb.org/t/p/w185/ynXUAeUASvr7tV0k6Vlg2gap46A.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 23
+  },
+  {
+   "id": 104644,
+   "name": "Dan Povenmire",
+   "photo": "https://image.tmdb.org/t/p/w185/jl42I66vZgly7vTfi660VEipuDn.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 21
+  },
+  {
+   "id": 4302689,
+   "name": "Frank Weiss",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 1409418,
+   "name": "Tuck Tucker",
+   "photo": "https://image.tmdb.org/t/p/w185/icQuYrMHn81FHDb94wp2JJEJWN6.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 3244585,
+   "name": "Stark Howell",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 81592,
+   "name": "Christine Kolosov",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 1816958,
+   "name": "Kelly James",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 1225519,
+   "name": "Joe Ansolabehere",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 1229561,
+   "name": "Jonathan Greenberg",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 222147,
+   "name": "Michelle Lamoreaux",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 1233213,
+   "name": "Rachel Lipman",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 1816959,
+   "name": "Juli Murphy",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 12
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:29:11.979Z"
+}

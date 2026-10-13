@@ -1,0 +1,213 @@
+{
+ "show": "Taxi Driver",
+ "slug": "taxi-driver",
+ "tmdbId": 119769,
+ "cast": [
+  {
+   "id": 531736,
+   "name": "Lee Je-hoon",
+   "photo": "https://image.tmdb.org/t/p/w185/tcG6IT9WMG21hQ1S6ngW583ROpy.jpg",
+   "character": "Kim Do-ki",
+   "episodes": 48
+  },
+  {
+   "id": 1347175,
+   "name": "Kim Eui-sung",
+   "photo": "https://image.tmdb.org/t/p/w185/y7T2LJyorTK2NDk10yeTINWKrWR.jpg",
+   "character": "Jang Sung-cheol",
+   "episodes": 48
+  },
+  {
+   "id": 1818072,
+   "name": "Pyo Ye-jin",
+   "photo": "https://image.tmdb.org/t/p/w185/kgJP15cNNslxFT0kaI8MCra5lr8.jpg",
+   "character": "Ahn Go-eun",
+   "episodes": 48
+  },
+  {
+   "id": 1530559,
+   "name": "Jang Hyuk-jin",
+   "photo": "https://image.tmdb.org/t/p/w185/gBI4xgvtCBLTLz25jA6JgB0xccd.jpg",
+   "character": "Choi Kyung-goo",
+   "episodes": 48
+  },
+  {
+   "id": 1988490,
+   "name": "Bae Yu-ram",
+   "photo": "https://image.tmdb.org/t/p/w185/3FGkoOzQLnyzFKAgp7IS2lXzy65.jpg",
+   "character": "Park Jin-eon",
+   "episodes": 48
+  },
+  {
+   "id": 1128004,
+   "name": "Yoo Seung-mok",
+   "photo": "https://image.tmdb.org/t/p/w185/jbHLHMMSuWYR27znM8ZSA6m2kJw.jpg",
+   "character": "Jo Jin-woo",
+   "episodes": 19
+  },
+  {
+   "id": 3351068,
+   "name": "Jo In",
+   "photo": "https://image.tmdb.org/t/p/w185/5LBbUBUhMIQbNzmqvzanMWmrGQo.jpg",
+   "character": "Gang Maria",
+   "episodes": 18
+  },
+  {
+   "id": 929122,
+   "name": "Esom",
+   "photo": "https://image.tmdb.org/t/p/w185/jFz4smLt7SwC4wdA8gdiKpXU7Kh.jpg",
+   "character": "Kang Ha-na",
+   "episodes": 16
+  },
+  {
+   "id": 1588284,
+   "name": "Shin Jae-ha",
+   "photo": "https://image.tmdb.org/t/p/w185/dPCaPnaL0GrqRvHnwITQqDmoNQc.jpg",
+   "character": "On Ha-joon",
+   "episodes": 16
+  },
+  {
+   "id": 3675304,
+   "name": "Lee Min-jae",
+   "photo": "https://image.tmdb.org/t/p/w185/o1mZIKQuXIj8nGUWxUp4c2z7VoG.jpg",
+   "character": "Oh Hak-soo",
+   "episodes": 16
+  },
+  {
+   "id": 1711062,
+   "name": "Cha Ji-yeon",
+   "photo": "https://image.tmdb.org/t/p/w185/6ntm2nrIvIcb8ifMpyalDNaUVoF.jpg",
+   "character": "Baek Sung-mi (Godmother)",
+   "episodes": 16
+  },
+  {
+   "id": 3151564,
+   "name": "Hong Sang-pyo",
+   "photo": "https://image.tmdb.org/t/p/w185/3lCu3KKCyEJzLweBlfnsxgGY1Ow.jpg",
+   "character": "Cho Jin-cheol",
+   "episodes": 16
+  },
+  {
+   "id": 1336802,
+   "name": "Lee Yoo-jun",
+   "photo": "https://image.tmdb.org/t/p/w185/4YrTjkLBDvnPxueiXEYiENEPu1R.jpg",
+   "character": "Wang Min-ho",
+   "episodes": 16
+  },
+  {
+   "id": 2252328,
+   "name": "Lee Ho-cheol",
+   "photo": "https://image.tmdb.org/t/p/w185/2PGPILdi22UagXQVEhzEZWTwqze.jpg",
+   "character": "Goo Seok-tae",
+   "episodes": 16
+  },
+  {
+   "id": 3371553,
+   "name": "Yu Yeon-su",
+   "photo": "https://image.tmdb.org/t/p/w185/qIIGkCyqtxHwGPMRt8kgDOnV9EL.jpg",
+   "character": "Lee So-eun",
+   "episodes": 16
+  },
+  {
+   "id": 3371611,
+   "name": "Seo Eun-seo",
+   "photo": "https://image.tmdb.org/t/p/w185/x4UWLJgTVYe7qDpgNqUqql6ze2Q.jpg",
+   "character": "Prosecutor",
+   "episodes": 16
+  },
+  {
+   "id": 1552971,
+   "name": "Lee Seung-yeon",
+   "photo": "https://image.tmdb.org/t/p/w185/QW6r6j5rTfzFDIgVFbFtRu95Y8.jpg",
+   "character": "Choi Eun-joo (Kim Do-ki's Mother)",
+   "episodes": 16
+  },
+  {
+   "id": 1074064,
+   "name": "Cho Hyen-woo",
+   "photo": "https://image.tmdb.org/t/p/w185/jmPIPMGF6E0YeCZMS0EMIVfc8UH.jpg",
+   "character": "Jo Do-cheol",
+   "episodes": 16
+  },
+  {
+   "id": 6072823,
+   "name": "Seol Ji-won",
+   "photo": "https://image.tmdb.org/t/p/w185/1XHPW660y0z6gAe3AVglV6QZYkH.jpg",
+   "character": "Episode In-mul Y",
+   "episodes": 16
+  },
+  {
+   "id": 6516033,
+   "name": "이찬양",
+   "photo": "https://image.tmdb.org/t/p/w185/myYb08yxlgMC2H032XfSAGB1BeO.jpg",
+   "character": "Gym Staff",
+   "episodes": 16
+  },
+  {
+   "id": 25001,
+   "name": "Lee Young-ae",
+   "photo": "https://image.tmdb.org/t/p/w185/3YRo3MwheRf7lR0ZNa4FG12RVRn.jpg",
+   "character": "Rainbow Taxi Narrator (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 1419852,
+   "name": "Park Jong-hwan",
+   "photo": "https://image.tmdb.org/t/p/w185/uENBbZbwMH7ftvSy704n2owWV9g.jpg",
+   "character": "Park Hyun-jo",
+   "episodes": 9
+  },
+  {
+   "id": 1671441,
+   "name": "Heo Jeong-do",
+   "photo": "https://image.tmdb.org/t/p/w185/bydtqmIPSPPrQwsIjiPtNrJd8Lr.jpg",
+   "character": "Park Dong-pil",
+   "episodes": 6
+  },
+  {
+   "id": 1444366,
+   "name": "Kim Ki-cheon",
+   "photo": "https://image.tmdb.org/t/p/w185/34MkMMCXwN3GxQGBjmqmYUuXBpo.jpg",
+   "character": "Park Dong-su",
+   "episodes": 6
+  }
+ ],
+ "crew": [
+  {
+   "id": 4441568,
+   "name": "Lee Ok-gyu",
+   "photo": null,
+   "jobs": [
+    "Creator"
+   ]
+  },
+  {
+   "id": 2338438,
+   "name": "Park Joon-woo",
+   "photo": "https://image.tmdb.org/t/p/w185/aKLkxV5tDiJLIhbr0LQrIxD6zXb.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 3915868,
+   "name": "Lee Dan",
+   "photo": "https://image.tmdb.org/t/p/w185/dN0m91cMcqJPEXuCFj4ykqhnMMw.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 5558023,
+   "name": "Kang Bo-seung",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 16
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:42:42.573Z"
+}

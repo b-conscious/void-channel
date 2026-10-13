@@ -1,0 +1,202 @@
+{
+ "show": "Dororo",
+ "slug": "dororo",
+ "tmdbId": 83100,
+ "cast": [
+  {
+   "id": 1801991,
+   "name": "Rio Suzuki",
+   "photo": "https://image.tmdb.org/t/p/w185/sDY9AowcBmP1CKZB5NAaehiowc0.jpg",
+   "character": "Dororo (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 96048,
+   "name": "Hiroki Suzuki",
+   "photo": "https://image.tmdb.org/t/p/w185/hmY8z9eNtE0it8nNmYaFjlGjR1a.jpg",
+   "character": "Hyakkimaru (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 224462,
+   "name": "Naoya Uchida",
+   "photo": "https://image.tmdb.org/t/p/w185/i1Vl4QbiEsyATmX2HSH2rIEyzeS.jpg",
+   "character": "Daigo Kagemitsu (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 40451,
+   "name": "Akio Otsuka",
+   "photo": "https://image.tmdb.org/t/p/w185/uH9oiqOOgrsz2zNnouVZ1qPzDyb.jpg",
+   "character": "Jukai (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1429141,
+   "name": "Shoya Chiba",
+   "photo": "https://image.tmdb.org/t/p/w185/pF2urY77wuCYd9Fxh7dTirFYKSF.jpg",
+   "character": "Tahoumaru (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1898086,
+   "name": "Mutsumi Sasaki",
+   "photo": "https://image.tmdb.org/t/p/w185/vfWeOCWPMONdhcm4B35B0vVhgbj.jpg",
+   "character": "Biwamaru (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 82057,
+   "name": "Chie Nakamura",
+   "photo": "https://image.tmdb.org/t/p/w185/evB6vKUbm0CKgBcgikPeFXdwd29.jpg",
+   "character": "Nuinokata",
+   "episodes": 1
+  }
+ ],
+ "crew": [
+  {
+   "id": 58160,
+   "name": "Osamu Tezuka",
+   "photo": "https://image.tmdb.org/t/p/w185/4xOgZySBani7h7xkFwK4Rf0MqNg.jpg",
+   "jobs": [
+    "Creator"
+   ]
+  },
+  {
+   "id": 506610,
+   "name": "Yasuko Kobayashi",
+   "photo": "https://image.tmdb.org/t/p/w185/watatoeziTz0xoyWeppAeFow8KC.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 116371,
+   "name": "Kazuhiro Furuhashi",
+   "photo": "https://image.tmdb.org/t/p/w185/waRxB57Lcnhvt139gqpoxnXYCis.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 27
+  },
+  {
+   "id": 2797830,
+   "name": "Manabu Otsuka",
+   "photo": "https://image.tmdb.org/t/p/w185/4JGI2EvcOn0NxMKU58dUFovJRwn.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1497016,
+   "name": "Koji Yamamoto",
+   "photo": "https://image.tmdb.org/t/p/w185/6x1JDK5QsG6yNiiVaiaBKbIcovI.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 16140,
+   "name": "Yoshihiro Ike",
+   "photo": "https://image.tmdb.org/t/p/w185/7Jx36LizCSXgpIzXjr0J6T4yRt8.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1491864,
+   "name": "Kiyoko Yoshimura",
+   "photo": "https://image.tmdb.org/t/p/w185/ve2ZV88S8ykJhp1PeAKiHYKQ5TS.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1491862,
+   "name": "Shigeru Murakoshi",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 2249632,
+   "name": "Teruyuki Omine",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 548006,
+   "name": "Fumihiro Yoshimura",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 2718220,
+   "name": "Akira Kindaichi",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1854702,
+   "name": "Hisatoshi Shimizu",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1424868,
+   "name": "Koichi Hatsumi",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1670703,
+   "name": "Takuo Suzuki",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 2588210,
+   "name": "Nobuyoshi Arai",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1112119,
+   "name": "Osamu Kobayashi",
+   "photo": "https://image.tmdb.org/t/p/w185/G5larUPqO2AUa8r9m1j233EK9j.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:38:27.360Z"
+}

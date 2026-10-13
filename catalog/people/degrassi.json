@@ -1,0 +1,327 @@
+{
+ "show": "Degrassi",
+ "slug": "degrassi",
+ "tmdbId": 1948,
+ "cast": [
+  {
+   "id": 1040208,
+   "name": "Stefan Brogren",
+   "photo": "https://image.tmdb.org/t/p/w185/f2fQZarkLMgJ6QLkFu1H0Qv5d1.jpg",
+   "character": "Archie Simpson",
+   "episodes": 297
+  },
+  {
+   "id": 142114,
+   "name": "Aislinn Paul",
+   "photo": "https://image.tmdb.org/t/p/w185/ohbhM3eAu9rTeaGS3bMLAYjqfEY.jpg",
+   "character": "Clare Edwards",
+   "episodes": 233
+  },
+  {
+   "id": 1228338,
+   "name": "A.J. Saudin",
+   "photo": "https://image.tmdb.org/t/p/w185/TloVydqGNLGp7bnuqbIfqqV3vs.jpg",
+   "character": "Connor DeLaurier",
+   "episodes": 230
+  },
+  {
+   "id": 454364,
+   "name": "Melinda Shankar",
+   "photo": "https://image.tmdb.org/t/p/w185/8FrftIhneOyeoW2iLNmiAvSUCjy.jpg",
+   "character": "Alli Bhandari",
+   "episodes": 230
+  },
+  {
+   "id": 1228352,
+   "name": "Luke Bilyk",
+   "photo": "https://image.tmdb.org/t/p/w185/eszaEk1NwGkv1HCtGTkjTycfvrX.jpg",
+   "character": "Drew Torres",
+   "episodes": 193
+  },
+  {
+   "id": 1228341,
+   "name": "Munro Chambers",
+   "photo": "https://image.tmdb.org/t/p/w185/oxlRO2MATRp9cMKUgmelbZ07yKv.jpg",
+   "character": "Eli Goldsworthy",
+   "episodes": 193
+  },
+  {
+   "id": 216409,
+   "name": "Cory Lee",
+   "photo": "https://image.tmdb.org/t/p/w185/fghcWFgEJJOn82tNGUr8vvFQBFi.jpg",
+   "character": "Ms. Oh",
+   "episodes": 193
+  },
+  {
+   "id": 1228349,
+   "name": "Jahmil French",
+   "photo": "https://image.tmdb.org/t/p/w185/sdj3MOvx74JWnNqrsVwD1PAxcHd.jpg",
+   "character": "Dave Turner",
+   "episodes": 188
+  },
+  {
+   "id": 133917,
+   "name": "Shane Kippel",
+   "photo": "https://image.tmdb.org/t/p/w185/k6vQ69hMKlHtenhRVNtPUff7sFV.jpg",
+   "character": "Spinner Mason",
+   "episodes": 181
+  },
+  {
+   "id": 82794,
+   "name": "Miriam McDonald",
+   "photo": "https://image.tmdb.org/t/p/w185/neTIayzqqKSFp2yVxMdRUyaTfkx.jpg",
+   "character": "Emma Nelson",
+   "episodes": 180
+  },
+  {
+   "id": 180986,
+   "name": "Cassie Steele",
+   "photo": "https://image.tmdb.org/t/p/w185/2QEVPBwgpKr2Iu7SXR6ywjNqn0x.jpg",
+   "character": "Manny Santos",
+   "episodes": 180
+  },
+  {
+   "id": 1228350,
+   "name": "Jessica Tyler",
+   "photo": "https://image.tmdb.org/t/p/w185/wsMnOMD4a0sW1sinuC6gUwksTMX.jpg",
+   "character": "Jenna Middleton",
+   "episodes": 180
+  },
+  {
+   "id": 1228342,
+   "name": "Alicia Dea Josipovic",
+   "photo": "https://image.tmdb.org/t/p/w185/yfUlxwynk2Z2djsdrUf4C6l5kfD.jpg",
+   "character": "Bianca DeSousa",
+   "episodes": 169
+  },
+  {
+   "id": 1228367,
+   "name": "Sam Earle",
+   "photo": "https://image.tmdb.org/t/p/w185/sp9aD3ozOHkyYgmDXpww9qyU80.jpg",
+   "character": "K.C. Guthrie",
+   "episodes": 166
+  },
+  {
+   "id": 1228329,
+   "name": "Sarah Barrable-Tishauer",
+   "photo": "https://image.tmdb.org/t/p/w185/ApPsHVvuduoCf579qBVVqPqPld9.jpg",
+   "character": "Liberty Van Zandt",
+   "episodes": 161
+  },
+  {
+   "id": 265904,
+   "name": "Charlotte Arnold",
+   "photo": "https://image.tmdb.org/t/p/w185/3nmxOt2BqULjVer8OpL1FYTleHR.jpg",
+   "character": "Holly Sinclair",
+   "episodes": 150
+  },
+  {
+   "id": 1228378,
+   "name": "Cristine Prosperi",
+   "photo": "https://image.tmdb.org/t/p/w185/4lur8lSztTHuLNVZrhWu4jNgKfe.jpg",
+   "character": "Imogen Moreno",
+   "episodes": 149
+  },
+  {
+   "id": 444749,
+   "name": "Annie Clark",
+   "photo": "https://image.tmdb.org/t/p/w185/uWHf2YLFYaZ9CvYxlxsTVqLS9hN.jpg",
+   "character": "Fiona Coyne",
+   "episodes": 148
+  },
+  {
+   "id": 197315,
+   "name": "Drake",
+   "photo": "https://image.tmdb.org/t/p/w185/tE0ZkWBP2rLj8u0NJqmMi1h1kb1.jpg",
+   "character": "Jimmy Brooks",
+   "episodes": 143
+  },
+  {
+   "id": 88620,
+   "name": "Lauren Collins",
+   "photo": "https://image.tmdb.org/t/p/w185/qQD7iQZObGSw1zherrXQEAfLlKe.jpg",
+   "character": "Paige Michalchuk",
+   "episodes": 143
+  },
+  {
+   "id": 84627,
+   "name": "Jamie Johnston",
+   "photo": "https://image.tmdb.org/t/p/w185/qJkCfVbTnsQ8UmLbtKqwooyARS4.jpg",
+   "character": "Peter Stone",
+   "episodes": 143
+  },
+  {
+   "id": 1228361,
+   "name": "Jordan Todosey",
+   "photo": "https://image.tmdb.org/t/p/w185/xQxCq7ULoLFZCEauGTJrRyx7YrG.jpg",
+   "character": "Adam Torres",
+   "episodes": 130
+  },
+  {
+   "id": 1228365,
+   "name": "Daniel Kelly",
+   "photo": "https://image.tmdb.org/t/p/w185/96MNjnKCQ6pIFEVCS1MUqUoI6ra.jpg",
+   "character": "Owen Milligan",
+   "episodes": 129
+  },
+  {
+   "id": 197336,
+   "name": "Stacey Farber",
+   "photo": "https://image.tmdb.org/t/p/w185/gmPEy5hBmKqm8n8edMCbJjG9GyL.jpg",
+   "character": "Ellie Nash",
+   "episodes": 128
+  }
+ ],
+ "crew": [
+  {
+   "id": 1214332,
+   "name": "Linda Schuyler",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 373
+  },
+  {
+   "id": 1214312,
+   "name": "Yan Moore",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1228383,
+   "name": "Stephen Stohn",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 373
+  },
+  {
+   "id": 1228381,
+   "name": "Brendon Yorke",
+   "photo": "https://image.tmdb.org/t/p/w185/k0cThf1j9hwieWCkyi3Ru0Dn8Zg.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 350
+  },
+  {
+   "id": 1228386,
+   "name": "James Hurst",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 349
+  },
+  {
+   "id": 1228379,
+   "name": "Michael Grassi",
+   "photo": "https://image.tmdb.org/t/p/w185/e4qdx59zmqz1KzFg2nSwrsYWLzn.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 349
+  },
+  {
+   "id": 1211830,
+   "name": "Stefan Scaini",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 1485730,
+   "name": "Sarah Glinski",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1485733,
+   "name": "Tim Welch",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1376619,
+   "name": "Jim McGrath",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 55189,
+   "name": "Bruce McDonald",
+   "photo": "https://image.tmdb.org/t/p/w185/eMYYaExetcCHcDV4zNOIgkyLFIu.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 1228302,
+   "name": "Tassie Cameron",
+   "photo": "https://image.tmdb.org/t/p/w185/9NSy2Nh7TKkAya5qgL51bixTrnZ.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1226929,
+   "name": "Sean Reycraft",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 80523,
+   "name": "Ron Oliver",
+   "photo": "https://image.tmdb.org/t/p/w185/s6UJkj8g1GmD6M66gbQlIyjafY8.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 44134,
+   "name": "Allan Eastman",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 145211,
+   "name": "Ramona Barckert",
+   "photo": "https://image.tmdb.org/t/p/w185/pNCJwUHgkeHdg7ufESwInzLCQ7O.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:44:37.389Z"
+}

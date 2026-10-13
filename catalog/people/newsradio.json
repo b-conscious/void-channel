@@ -1,0 +1,324 @@
+{
+ "show": "NewsRadio",
+ "slug": "newsradio",
+ "tmdbId": 3968,
+ "cast": [
+  {
+   "id": 21290,
+   "name": "Dave Foley",
+   "photo": "https://image.tmdb.org/t/p/w185/muHRRGDTE7ZWk3guqDAk9L4DqVX.jpg",
+   "character": "Dave Nelson",
+   "episodes": 97
+  },
+  {
+   "id": 16307,
+   "name": "Maura Tierney",
+   "photo": "https://image.tmdb.org/t/p/w185/4BCrwdHdC4iRSDimvkoYaXg2qki.jpg",
+   "character": "Lisa Miller",
+   "episodes": 97
+  },
+  {
+   "id": 17401,
+   "name": "Stephen Root",
+   "photo": "https://image.tmdb.org/t/p/w185/2Zwi6AydqQQ9InVdhjYcfJXNzkp.jpg",
+   "character": "Jimmy James",
+   "episodes": 97
+  },
+  {
+   "id": 43120,
+   "name": "Andy Dick",
+   "photo": "https://image.tmdb.org/t/p/w185/n4WT4oYoYrzSGAanlWPsneCzBPk.jpg",
+   "character": "Matthew Brock",
+   "episodes": 97
+  },
+  {
+   "id": 14723,
+   "name": "Vicki Lewis",
+   "photo": "https://image.tmdb.org/t/p/w185/dwTjtleLh1uu8n9AvUCv0n3mi2R.jpg",
+   "character": "Beth",
+   "episodes": 97
+  },
+  {
+   "id": 91609,
+   "name": "Joe Rogan",
+   "photo": "https://image.tmdb.org/t/p/w185/mWb6QIsGGHMdhN9yVGZXCHQIRzS.jpg",
+   "character": "Joe Garrelli",
+   "episodes": 97
+  },
+  {
+   "id": 14104,
+   "name": "Phil Hartman",
+   "photo": "https://image.tmdb.org/t/p/w185/m3QyeaVLzIo2fZJZaGbJalfD56t.jpg",
+   "character": "Bill McNeal",
+   "episodes": 75
+  },
+  {
+   "id": 19265,
+   "name": "Khandi Alexander",
+   "photo": "https://image.tmdb.org/t/p/w185/53IjZhkaywgsM0ZkDt3GJQtY5ls.jpg",
+   "character": "Catherine Duke",
+   "episodes": 59
+  },
+  {
+   "id": 16165,
+   "name": "Jon Lovitz",
+   "photo": "https://image.tmdb.org/t/p/w185/jBXSLoDEVwYkNqSVWHV9yDo8whA.jpg",
+   "character": "Mike / Fred / Max Louis",
+   "episodes": 24
+  },
+  {
+   "id": 9657,
+   "name": "Patrick Warburton",
+   "photo": "https://image.tmdb.org/t/p/w185/nDoOii5HaGwPxYa28xFC2sDkF8y.jpg",
+   "character": "Johnny Johnson",
+   "episodes": 5
+  },
+  {
+   "id": 16858,
+   "name": "Lauren Graham",
+   "photo": "https://image.tmdb.org/t/p/w185/3leQVZnthAZwngH7HAD6T7qfsVu.jpg",
+   "character": "Andrea",
+   "episodes": 4
+  },
+  {
+   "id": 65475,
+   "name": "Brad Rowe",
+   "photo": "https://image.tmdb.org/t/p/w185/1hyudVzHFS3zoq3B38e66XTwJNr.jpg",
+   "character": "Walt",
+   "episodes": 4
+  },
+  {
+   "id": 7909,
+   "name": "Steve Susskind",
+   "photo": "https://image.tmdb.org/t/p/w185/hQpXHaW5OnzFma8I3OkIvTbxpiS.jpg",
+   "character": "Milos",
+   "episodes": 3
+  },
+  {
+   "id": 18271,
+   "name": "Toby Huss",
+   "photo": "https://image.tmdb.org/t/p/w185/dUqygHlDDnOBZLnE51MPJHkHWvQ.jpg",
+   "character": "Junior / Jack Frost",
+   "episodes": 3
+  },
+  {
+   "id": 31004,
+   "name": "Tone Loc",
+   "photo": "https://image.tmdb.org/t/p/w185/bcrTNs5lAKkZ0LH7DQPbMoYEuVY.jpg",
+   "character": "Lorenzo",
+   "episodes": 2
+  },
+  {
+   "id": 170734,
+   "name": "Bobbie Brown",
+   "photo": "https://image.tmdb.org/t/p/w185/1TiuUrphIZpccMinhaBWDfV09Ec.jpg",
+   "character": "Irene",
+   "episodes": 2
+  },
+  {
+   "id": 17421,
+   "name": "Wallace Langham",
+   "photo": "https://image.tmdb.org/t/p/w185/pjc9iFeNMAAHI3zOsiP1anZ0wis.jpg",
+   "character": "Stewart / Jeff",
+   "episodes": 2
+  },
+  {
+   "id": 212,
+   "name": "David Cross",
+   "photo": "https://image.tmdb.org/t/p/w185/aYsbAtUu5oWk1p8RY31k3w5Emul.jpg",
+   "character": "Theo / David",
+   "episodes": 2
+  },
+  {
+   "id": 20405,
+   "name": "Brian Posehn",
+   "photo": "https://image.tmdb.org/t/p/w185/kg93LNpDQaRoosR4gVt7SsA3oL1.jpg",
+   "character": "Fan / Brian",
+   "episodes": 2
+  },
+  {
+   "id": 59410,
+   "name": "Bob Odenkirk",
+   "photo": "https://image.tmdb.org/t/p/w185/rF0Lb6SBhGSTvjRffmlKRSeI3jE.jpg",
+   "character": "Bob / Dr. Smith",
+   "episodes": 2
+  },
+  {
+   "id": 122805,
+   "name": "Mark Fite",
+   "photo": "https://image.tmdb.org/t/p/w185/qUbqKE14GAUdRhYqNcGzDkt1yi9.jpg",
+   "character": "Counterman / Waiter",
+   "episodes": 2
+  },
+  {
+   "id": 149525,
+   "name": "Susan Leslie",
+   "photo": "https://image.tmdb.org/t/p/w185/3PIfTKcUBmyDWspJMZ9A6cGuOpB.jpg",
+   "character": "Assistant / Hair Stylist",
+   "episodes": 2
+  },
+  {
+   "id": 1226126,
+   "name": "Cory Buck",
+   "photo": null,
+   "character": "Adam - Matthew's Kid / Boy #2",
+   "episodes": 2
+  },
+  {
+   "id": 78102,
+   "name": "David Anthony Higgins",
+   "photo": "https://image.tmdb.org/t/p/w185/8reuW2YS3Zd1EGKeyTV6xPmpBtK.jpg",
+   "character": "Manager / Santa",
+   "episodes": 2
+  }
+ ],
+ "crew": [
+  {
+   "id": 1225837,
+   "name": "Paul Simms",
+   "photo": "https://image.tmdb.org/t/p/w185/roAbbFMrjYObxnEf8MlLkp45GRP.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Writer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 1215063,
+   "name": "Tom Cherones",
+   "photo": "https://image.tmdb.org/t/p/w185/oZ4mCJU7TN3OKxxRSrymuiHpHTn.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 63
+  },
+  {
+   "id": 1216671,
+   "name": "Josh Lieb",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 1217068,
+   "name": "Joe Furey",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 1216620,
+   "name": "Brian Kelley",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 1215946,
+   "name": "Alan J. Higgins",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 51852,
+   "name": "Lew Morton",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1222191,
+   "name": "Chris Marcil",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1223686,
+   "name": "Sam Johnson",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 157437,
+   "name": "James Burrows",
+   "photo": "https://image.tmdb.org/t/p/w185/b2hSq8OclJZdglNFM1Txaz5uBgs.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 57603,
+   "name": "Drake Sather",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 14995,
+   "name": "Alan Myerson",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 15045,
+   "name": "Michael Lembeck",
+   "photo": "https://image.tmdb.org/t/p/w185/f1Bf2p9YvPIaTZMUhYxhCx5yxLP.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1216561,
+   "name": "Ron Weiner",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 53523,
+   "name": "Leslie Caveny",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 14987,
+   "name": "Peter Bonerz",
+   "photo": "https://image.tmdb.org/t/p/w185/8qWxMGvASfbwbW9AbV2Fb4pP3t7.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:28:23.763Z"
+}

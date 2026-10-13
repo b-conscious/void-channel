@@ -1,0 +1,333 @@
+{
+ "show": "Quantum Leap",
+ "slug": "quantum-leap",
+ "tmdbId": 202102,
+ "cast": [
+  {
+   "id": 1321411,
+   "name": "Raymond Lee",
+   "photo": "https://image.tmdb.org/t/p/w185/zWKFz32NcUwlUL2axy8nbfnoqHc.jpg",
+   "character": "Dr. Ben Song",
+   "episodes": 31
+  },
+  {
+   "id": 3673719,
+   "name": "Caitlin Bassett",
+   "photo": "https://image.tmdb.org/t/p/w185/4gbSMM7mpFbIB3wreEcUvePXOHy.jpg",
+   "character": "Addison Augustine",
+   "episodes": 31
+  },
+  {
+   "id": 2873529,
+   "name": "Mason Alexander Park",
+   "photo": "https://image.tmdb.org/t/p/w185/a7URD8lfnOLUdO2axTCtXva7Rxi.jpg",
+   "character": "Ian Wright",
+   "episodes": 31
+  },
+  {
+   "id": 997262,
+   "name": "Nanrisa Lee",
+   "photo": "https://image.tmdb.org/t/p/w185/zCzJQ9glXNFHzxof5AowzXzuWqf.jpg",
+   "character": "Jenn Chou",
+   "episodes": 31
+  },
+  {
+   "id": 8874,
+   "name": "Ernie Hudson",
+   "photo": "https://image.tmdb.org/t/p/w185/kgAdQA2ItCDVvKXufeDHc6Omiso.jpg",
+   "character": "Herbert 'Magic' Williams",
+   "episodes": 31
+  },
+  {
+   "id": 90683,
+   "name": "Georgina Reilly",
+   "photo": "https://image.tmdb.org/t/p/w185/bNLXDfDNV4AOmAuktORHiRqgpYt.jpg",
+   "character": "Janis Calavicci",
+   "episodes": 12
+  },
+  {
+   "id": 1035905,
+   "name": "Peter Gadiot",
+   "photo": "https://image.tmdb.org/t/p/w185/462ODB50nmhpuXdpHz2otQ2rfOy.jpg",
+   "character": "Tom Westfall",
+   "episodes": 7
+  },
+  {
+   "id": 1213278,
+   "name": "Eliza Taylor",
+   "photo": "https://image.tmdb.org/t/p/w185/si6ySpGi2Pv1wuOyVdfkNRbOGu1.jpg",
+   "character": "Hannah Carson",
+   "episodes": 7
+  },
+  {
+   "id": 101522,
+   "name": "Walter Perez",
+   "photo": "https://image.tmdb.org/t/p/w185/57w97q9MQNv0Zxkaf8blO1xRjKQ.jpg",
+   "character": "Richard Martinez",
+   "episodes": 6
+  },
+  {
+   "id": 157630,
+   "name": "Susan Diol",
+   "photo": "https://image.tmdb.org/t/p/w185/g0Hvr2eoulxrDjbDbVklxFqHOJV.jpg",
+   "character": "Beth Calavicci",
+   "episodes": 5
+  },
+  {
+   "id": 1357037,
+   "name": "Alice Kremelberg",
+   "photo": "https://image.tmdb.org/t/p/w185/l82uQGCwzJ5AaotsoH7tRxIFsTR.jpg",
+   "character": "Rachel",
+   "episodes": 5
+  },
+  {
+   "id": 22063,
+   "name": "James Frain",
+   "photo": "https://image.tmdb.org/t/p/w185/1KnxsxRbVZkh5bdY3gA8v4YKhKR.jpg",
+   "character": "Gideon Rydge",
+   "episodes": 4
+  },
+  {
+   "id": 1830360,
+   "name": "Jon Chaffin",
+   "photo": "https://image.tmdb.org/t/p/w185/tzIrDkyqFEylQqRlZGzE6h37daU.jpg",
+   "character": "Daryl 'The Hammer' Hill",
+   "episodes": 2
+  },
+  {
+   "id": 3060673,
+   "name": "Anastasia Antonia",
+   "photo": "https://image.tmdb.org/t/p/w185/lZhxnYiFIqKb6yacDPYoWCO41Af.jpg",
+   "character": "Eva Sandoval",
+   "episodes": 2
+  },
+  {
+   "id": 1495432,
+   "name": "Tyson Turrou",
+   "photo": "https://image.tmdb.org/t/p/w185/aRKxspc73ZMmOvpHYqRfDCkhMhK.jpg",
+   "character": "Stuart Watkins / Sleazy Guy",
+   "episodes": 2
+  },
+  {
+   "id": 1771818,
+   "name": "Mark Sipka",
+   "photo": "https://image.tmdb.org/t/p/w185/w4TUpwkWKl7KRl9sHMl58MRxgF3.jpg",
+   "character": "Bartender",
+   "episodes": 2
+  },
+  {
+   "id": 1218131,
+   "name": "Yaani King Mondschein",
+   "photo": "https://image.tmdb.org/t/p/w185/jpdu5ko9yVcVdXyzJc2hmis0IIo.jpg",
+   "character": "Frankie Cahill",
+   "episodes": 2
+  },
+  {
+   "id": 52566,
+   "name": "Colleen Foy",
+   "photo": "https://image.tmdb.org/t/p/w185/A1TBRUWcicNpbyJWUIof5b9JoYB.jpg",
+   "character": "Magda Prado",
+   "episodes": 2
+  },
+  {
+   "id": 199486,
+   "name": "Elyse Levesque",
+   "photo": "https://image.tmdb.org/t/p/w185/eVn30OMvrfUtlldpcAgFA9Ohozq.jpg",
+   "character": "Lola",
+   "episodes": 2
+  },
+  {
+   "id": 172181,
+   "name": "Guerrin Gardner",
+   "photo": "https://image.tmdb.org/t/p/w185/vKcx8ZDPXZWOGe9U3yeXmGvWCrT.jpg",
+   "character": "Pregnant Woman",
+   "episodes": 2
+  },
+  {
+   "id": 104911,
+   "name": "Wes Armstrong",
+   "photo": "https://image.tmdb.org/t/p/w185/dR4VsFin9Nnnk3kutDZd1EWb5XL.jpg",
+   "character": "Husband",
+   "episodes": 2
+  },
+  {
+   "id": 3631799,
+   "name": "Jessica Ramirez",
+   "photo": "https://image.tmdb.org/t/p/w185/6OcejjHsRVtBtBY9noxyEllDyR2.jpg",
+   "character": "Orderly",
+   "episodes": 2
+  },
+  {
+   "id": 204459,
+   "name": "Josh Dean",
+   "photo": "https://image.tmdb.org/t/p/w185/t8caeC1NzyZ20BXIbjnIP493hGv.jpg",
+   "character": "Josh Nally",
+   "episodes": 2
+  },
+  {
+   "id": 2761895,
+   "name": "Connor Esterson",
+   "photo": "https://image.tmdb.org/t/p/w185/jwcfncolsSmWh1tZSk7i7c9JYqU.jpg",
+   "character": "Jeffrey Nally",
+   "episodes": 2
+  }
+ ],
+ "crew": [
+  {
+   "id": 160145,
+   "name": "Donald P. Bellisario",
+   "photo": "https://image.tmdb.org/t/p/w185/8xjZRZvWfn0aaZVHlYxRUtlqJIR.jpg",
+   "jobs": [
+    "Creator"
+   ]
+  },
+  {
+   "id": 1214618,
+   "name": "Steven Lilien",
+   "photo": "https://image.tmdb.org/t/p/w185/9AJwkuI6FhnnuBAMiMVyJzzCdiT.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 1214619,
+   "name": "Bryan Wynbrandt",
+   "photo": "https://image.tmdb.org/t/p/w185/zfT8JzFIy4Iy4T9MNXTym9o3VQa.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 4076273,
+   "name": "Emily Kim",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 72101,
+   "name": "Martin Gero",
+   "photo": "https://image.tmdb.org/t/p/w185/83cTNfJtBcc1CGZCH1jQaNcDFDN.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 1212583,
+   "name": "Chris Grismer",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 3694852,
+   "name": "Margarita Matthews",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1387274,
+   "name": "Drew Lindo",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1188199,
+   "name": "Benjamin Raab",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1480950,
+   "name": "Deric A. Hughes",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1179828,
+   "name": "Pamela Romanowsky",
+   "photo": "https://image.tmdb.org/t/p/w185/jlwWUQ4rNFwFXIFjJgXy87H1jz5.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 20516,
+   "name": "Dean Georgaris",
+   "photo": "https://image.tmdb.org/t/p/w185/z5fxTbK7ekUO1ibwKUKlsxq0kaE.jpg",
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1711826,
+   "name": "Jude Weng",
+   "photo": "https://image.tmdb.org/t/p/w185/5z3euqstdxG10KzbrUNMCqKeUoS.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 169979,
+   "name": "Deborah Pratt",
+   "photo": "https://image.tmdb.org/t/p/w185/os2KNsDygdEiMlQxac6SZOOqVcm.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 971003,
+   "name": "Avi Youabian",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1760416,
+   "name": "Kristin Windell",
+   "photo": "https://image.tmdb.org/t/p/w185/cdNrKEXt4BRJVE956JeEec6qAFP.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:26.707Z"
+}

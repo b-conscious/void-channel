@@ -1,0 +1,324 @@
+{
+ "show": "Endeavour",
+ "slug": "endeavour",
+ "tmdbId": 44264,
+ "cast": [
+  {
+   "id": 63311,
+   "name": "Shaun Evans",
+   "photo": "https://image.tmdb.org/t/p/w185/fqEw8H5VRN2SyV8QMT9toHEYDpl.jpg",
+   "character": "DC Endeavour Morse",
+   "episodes": 35
+  },
+  {
+   "id": 11279,
+   "name": "Roger Allam",
+   "photo": "https://image.tmdb.org/t/p/w185/hrtVjATnltwatFCOjhtCZTnN2hW.jpg",
+   "character": "DI Fred Thursday",
+   "episodes": 35
+  },
+  {
+   "id": 35922,
+   "name": "James Bradshaw",
+   "photo": "https://image.tmdb.org/t/p/w185/eCsPJ7kzWJR01urk3amlRrqbvUQ.jpg",
+   "character": "Dr. Max DeBryn",
+   "episodes": 35
+  },
+  {
+   "id": 1417891,
+   "name": "Sean Rigby",
+   "photo": "https://image.tmdb.org/t/p/w185/lt6z8lngWraPzPcKm5JpZ6QUoeD.jpg",
+   "character": "DS Jim Strange",
+   "episodes": 35
+  },
+  {
+   "id": 1436899,
+   "name": "Caroline O'Neill",
+   "photo": "https://image.tmdb.org/t/p/w185/vOp5gReockJOSU4XDO3F05TF7JP.jpg",
+   "character": "Winifred 'Win' Thursday",
+   "episodes": 35
+  },
+  {
+   "id": 1240393,
+   "name": "Abigail Thaw",
+   "photo": "https://image.tmdb.org/t/p/w185/jHnv6maxgzin8HLTdeDWZocQAD2.jpg",
+   "character": "Dorothea Frazil",
+   "episodes": 35
+  },
+  {
+   "id": 27397,
+   "name": "Anton Lesser",
+   "photo": "https://image.tmdb.org/t/p/w185/x0lmqgkmphvOCSTHk2oxsaxA9Ra.jpg",
+   "character": "CS Reginald Bright",
+   "episodes": 35
+  },
+  {
+   "id": 1447224,
+   "name": "Sara Vickers",
+   "photo": "https://image.tmdb.org/t/p/w185/4p4OAdzxZ7jyo2lwMEoXu6Fk1zx.jpg",
+   "character": "Joan Thursday",
+   "episodes": 26
+  },
+  {
+   "id": 45589,
+   "name": "Dakota Blue Richards",
+   "photo": "https://image.tmdb.org/t/p/w185/1sonpTIY8JoxHSDzV40QMRkQSEw.jpg",
+   "character": "WPC Shirley Trewlove",
+   "episodes": 14
+  },
+  {
+   "id": 1053673,
+   "name": "Jack Laskey",
+   "photo": "https://image.tmdb.org/t/p/w185/748zcrxtFR8bsdOMwcRfsm6Wybk.jpg",
+   "character": "DS Peter Jakes / Peter Jakes",
+   "episodes": 14
+  },
+  {
+   "id": 1226746,
+   "name": "Carol Royle",
+   "photo": "https://image.tmdb.org/t/p/w185/9kwioufmQY9Mb6nyseiQgpisnQz.jpg",
+   "character": "Mrs. Carrie Bright",
+   "episodes": 7
+  },
+  {
+   "id": 1754653,
+   "name": "Shvorne Marks",
+   "photo": "https://image.tmdb.org/t/p/w185/avpN7YwcqL7o1Z9Y1jvRrz30iAa.jpg",
+   "character": "Monica Hicks",
+   "episodes": 7
+  },
+  {
+   "id": 2262405,
+   "name": "Lewis Peek",
+   "photo": "https://image.tmdb.org/t/p/w185/bVSIurVhHMRYDnWwJEf0hUP1mhi.jpg",
+   "character": "DC George Fancy",
+   "episodes": 6
+  },
+  {
+   "id": 1514183,
+   "name": "Simon Harrison",
+   "photo": "https://image.tmdb.org/t/p/w185/pegBdxCOgcX6axEzgCffOa99oWR.jpg",
+   "character": "Ronnie Box / DCI Ronnie Box",
+   "episodes": 6
+  },
+  {
+   "id": 103352,
+   "name": "Richard Riddell",
+   "photo": "https://image.tmdb.org/t/p/w185/zNrCbRDlWtVOTpqpoUCjhvWKPCJ.jpg",
+   "character": "DS Alan Jago",
+   "episodes": 4
+  },
+  {
+   "id": 1449329,
+   "name": "Jack Bannon",
+   "photo": "https://image.tmdb.org/t/p/w185/eGX4dFdQz8bTYQXLasZkILvch8G.jpg",
+   "character": "Sam Thursday",
+   "episodes": 4
+  },
+  {
+   "id": 23587,
+   "name": "Stephanie Leonidas",
+   "photo": "https://image.tmdb.org/t/p/w185/b1Cs2UI6FoPM64OZL2XgshIF241.jpg",
+   "character": "Violetta Talenti",
+   "episodes": 3
+  },
+  {
+   "id": 60349,
+   "name": "Ryan Gage",
+   "photo": "https://image.tmdb.org/t/p/w185/3JzASJOUKSyRyvsr8aBM0PcECq4.jpg",
+   "character": "Ludo Talenti",
+   "episodes": 3
+  },
+  {
+   "id": 2754128,
+   "name": "Sam Ferriday",
+   "photo": null,
+   "character": "Carl Sturgis",
+   "episodes": 3
+  },
+  {
+   "id": 10701,
+   "name": "Simon Kunz",
+   "photo": "https://image.tmdb.org/t/p/w185/7Kh3IbRU4bmeiH210CgHu9lofo7.jpg",
+   "character": "DI Bart Church",
+   "episodes": 2
+  },
+  {
+   "id": 65301,
+   "name": "Phil Daniels",
+   "photo": "https://image.tmdb.org/t/p/w185/6yNFNjo3cWEcuAUrl0CNQnAnQ5M.jpg",
+   "character": "Charlie Thursday",
+   "episodes": 2
+  },
+  {
+   "id": 1475015,
+   "name": "Holli Dempsey",
+   "photo": "https://image.tmdb.org/t/p/w185/b9oJ12D6F6BqpFMmMXLWNXGfXAn.jpg",
+   "character": "Jenny Tate",
+   "episodes": 2
+  },
+  {
+   "id": 2761308,
+   "name": "David Jonsson",
+   "photo": "https://image.tmdb.org/t/p/w185/2ZZNGZw57KKMrVIr27g7W16G0jV.jpg",
+   "character": "Cromwell Ames",
+   "episodes": 2
+  },
+  {
+   "id": 1974208,
+   "name": "David Reed",
+   "photo": "https://image.tmdb.org/t/p/w185/7NgdiYShOphpZlLmyrXRkUpkdfu.jpg",
+   "character": "Julian Calendar",
+   "episodes": 2
+  }
+ ],
+ "crew": [
+  {
+   "id": 96374,
+   "name": "Russell Lewis",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 35
+  },
+  {
+   "id": 1230991,
+   "name": "Colin Dexter",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 37
+  },
+  {
+   "id": 544383,
+   "name": "Rebecca Eaton",
+   "photo": "https://image.tmdb.org/t/p/w185/ppXZzObx9sg5ReZkTkMM2CfdN5Z.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 63311,
+   "name": "Shaun Evans",
+   "photo": "https://image.tmdb.org/t/p/w185/fqEw8H5VRN2SyV8QMT9toHEYDpl.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1710082,
+   "name": "Kate Saxon",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 231647,
+   "name": "Michele Buck",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1230992,
+   "name": "Damien Timmer",
+   "photo": "https://image.tmdb.org/t/p/w185/1AVJlPyRYvN7BNQl9t1Xxtrlsp.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 131844,
+   "name": "Lawrence Gough",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1476536,
+   "name": "Börkur Sigthorsson",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 28487,
+   "name": "Andy Wilson",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1232732,
+   "name": "Gordon Anderson",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 213107,
+   "name": "Edward Bazalgette",
+   "photo": "https://image.tmdb.org/t/p/w185/1gfOa6od3pMYvfH8GRhY2QU0nLp.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 549338,
+   "name": "Robert Quinn",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 209373,
+   "name": "Bryn Higgins",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 61357,
+   "name": "Geoffrey Sax",
+   "photo": "https://image.tmdb.org/t/p/w185/iieUqEVYTF4Zmnj1g6GjSjMgvqe.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1531787,
+   "name": "Jamie Donoughue",
+   "photo": "https://image.tmdb.org/t/p/w185/cmOSvCjERRfAUS4zJAKoGpt6EQn.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:35:09.996Z"
+}

@@ -1,0 +1,325 @@
+{
+ "show": "Father Brown",
+ "slug": "father-brown",
+ "tmdbId": 61511,
+ "cast": [
+  {
+   "id": 20999,
+   "name": "Mark Williams",
+   "photo": "https://image.tmdb.org/t/p/w185/gdlEDhxSmPv3hWHbpTuwCI5Jrtk.jpg",
+   "character": "Father Brown",
+   "episodes": 140
+  },
+  {
+   "id": 1219956,
+   "name": "John Burton",
+   "photo": "https://image.tmdb.org/t/p/w185/k86tWKaqDho6d2sE2f9AqC2JKmT.jpg",
+   "character": "Sergeant Goodfellow",
+   "episodes": 122
+  },
+  {
+   "id": 1221763,
+   "name": "Sorcha Cusack",
+   "photo": "https://image.tmdb.org/t/p/w185/fx1pP6u555MJ5qCOt80OHmHROVY.jpg",
+   "character": "Mrs Bridgette McCarthy",
+   "episodes": 101
+  },
+  {
+   "id": 132348,
+   "name": "Tom Chambers",
+   "photo": "https://image.tmdb.org/t/p/w185/vWe7gC56qh2He9OHNJ3jwPnZfNY.jpg",
+   "character": "Inspector Sullivan / Chief Inspector Sullivan",
+   "episodes": 67
+  },
+  {
+   "id": 81029,
+   "name": "Jack Deam",
+   "photo": "https://image.tmdb.org/t/p/w185/4EYUpMI6V3iZ91z3pHuw6KqisXF.jpg",
+   "character": "Inspector Mallory",
+   "episodes": 65
+  },
+  {
+   "id": 120933,
+   "name": "Alex Price",
+   "photo": "https://image.tmdb.org/t/p/w185/fUOXbuccbbB4O9ht0fDUaA4ea2g.jpg",
+   "character": "Sid Carter",
+   "episodes": 51
+  },
+  {
+   "id": 983749,
+   "name": "Nancy Carroll",
+   "photo": "https://image.tmdb.org/t/p/w185/lXTNopDRBsDLTlXTREvuBT3KMIt.jpg",
+   "character": "Lady Felicia Montague (voice) / Lady Felicia Montague",
+   "episodes": 48
+  },
+  {
+   "id": 141536,
+   "name": "Emer Kenny",
+   "photo": "https://image.tmdb.org/t/p/w185/nJs1lenchFwZTB6VTIF3SPmYfgW.jpg",
+   "character": "Penelope \"Bunty\" Windermere",
+   "episodes": 47
+  },
+  {
+   "id": 2914892,
+   "name": "Ruby-May Martinwood",
+   "photo": "https://image.tmdb.org/t/p/w185/m5F561SEFmgJb32hYfOPCmgsQ3j.jpg",
+   "character": "Brenda Palmer",
+   "episodes": 41
+  },
+  {
+   "id": 36663,
+   "name": "Claudie Blakley",
+   "photo": "https://image.tmdb.org/t/p/w185/bUy1X1ili9Goj3AQNrBD1kd7A8q.jpg",
+   "character": "Mrs. Devine",
+   "episodes": 40
+  },
+  {
+   "id": 2251,
+   "name": "Hugo Speer",
+   "photo": "https://image.tmdb.org/t/p/w185/qN7t7UVF0B80GXZv6IsdJPKcJFl.jpg",
+   "character": "Chief Inspector Valentine / Inspector Valentine",
+   "episodes": 21
+  },
+  {
+   "id": 65642,
+   "name": "John Light",
+   "photo": "https://image.tmdb.org/t/p/w185/9ilMEZ2l40gd2fyU2CvLmNVTjY.jpg",
+   "character": "Hercule Flambeau / Captain Flynn / Hercule Flambeau",
+   "episodes": 14
+  },
+  {
+   "id": 3141791,
+   "name": "Richard Price",
+   "photo": "https://image.tmdb.org/t/p/w185/wSGAu5n1WTXIh3C63xS2Oq7hLwY.jpg",
+   "character": "Villager at Theatre (uncredited) / Villager (uncredited) / The Mummy (uncredited)",
+   "episodes": 13
+  },
+  {
+   "id": 92543,
+   "name": "Keith Osborn",
+   "photo": null,
+   "character": "Sergeant Albright",
+   "episodes": 10
+  },
+  {
+   "id": 1014373,
+   "name": "Roger May",
+   "photo": null,
+   "character": "Canon Damian Fox / Canon Fox",
+   "episodes": 8
+  },
+  {
+   "id": 1137970,
+   "name": "Kasia Kołeczek",
+   "photo": "https://image.tmdb.org/t/p/w185/iidWM55RKVuk51fNYgA3JF3go0y.jpg",
+   "character": "Susie Jasinski",
+   "episodes": 7
+  },
+  {
+   "id": 122589,
+   "name": "Alan Williams",
+   "photo": "https://image.tmdb.org/t/p/w185/hvfjcPUtKkbBewvJdJ6uGutwS51.jpg",
+   "character": "Blind 'Arry",
+   "episodes": 6
+  },
+  {
+   "id": 1380295,
+   "name": "Jonathan Rigby",
+   "photo": "https://image.tmdb.org/t/p/w185/zSuMbbYus8pUh7PZt1Qi0FM8g0y.jpg",
+   "character": "Commentator / Radio Newsreader (voice) / Radio Announcer (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 129346,
+   "name": "Malcolm Storry",
+   "photo": "https://image.tmdb.org/t/p/w185/kKsHG62k9Lzu7qGLl9glCmHI5qo.jpg",
+   "character": "Bishop Talbot",
+   "episodes": 3
+  },
+  {
+   "id": 3250883,
+   "name": "Colin Deaney",
+   "photo": null,
+   "character": "Hornby",
+   "episodes": 3
+  },
+  {
+   "id": 1374785,
+   "name": "Lorna Watson",
+   "photo": "https://image.tmdb.org/t/p/w185/80IeJb9Wd4neHxG1PvmXdOGp7xD.jpg",
+   "character": "Sister Boniface",
+   "episodes": 2
+  },
+  {
+   "id": 2050419,
+   "name": "Nick Fletcher",
+   "photo": "https://image.tmdb.org/t/p/w185/o9P9Hr0cIQT8vHWOJr3cx4poXyQ.jpg",
+   "character": "Roger Sharpe QC",
+   "episodes": 2
+  },
+  {
+   "id": 17483,
+   "name": "Michael Maloney",
+   "photo": "https://image.tmdb.org/t/p/w185/si6FZSfm1KNDqG1o6Db6Xeha1LB.jpg",
+   "character": "Gerald Firth / Kalon / Kalon",
+   "episodes": 2
+  },
+  {
+   "id": 990278,
+   "name": "Gina Bramhill",
+   "photo": "https://image.tmdb.org/t/p/w185/4szCYnbyuKoYedL6hU4YBKbfBIX.jpg",
+   "character": "Marianne Delacroix",
+   "episodes": 2
+  }
+ ],
+ "crew": [
+  {
+   "id": 1374773,
+   "name": "Rachel Flowerday",
+   "photo": "https://image.tmdb.org/t/p/w185/5zsrwMxslErfyQ2vCJPKvW6aayt.jpg",
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1374772,
+   "name": "Tahsin Guner",
+   "photo": "https://image.tmdb.org/t/p/w185/tfl2YxHkTsYV5YYtZ4aMUq1mfnZ.jpg",
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 548628,
+   "name": "Gilbert Keith Chesterton",
+   "photo": "https://image.tmdb.org/t/p/w185/nr947rNN4H1TZzBFN8NfxbApScb.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 141
+  },
+  {
+   "id": 51064,
+   "name": "Debbie Wiseman",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 45
+  },
+  {
+   "id": 1238470,
+   "name": "Will Trotter",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 1638861,
+   "name": "Neil Irvine",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 2192320,
+   "name": "Paul Gibson",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 2792230,
+   "name": "Ian Barber",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1227839,
+   "name": "John Yorke",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 3051512,
+   "name": "Matt Carter",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1319943,
+   "name": "Miranda Howard-Williams",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1374783,
+   "name": "Dominic Keavey",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1370627,
+   "name": "Dan Muirden",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1374798,
+   "name": "Lol Fletcher",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1374799,
+   "name": "David Semple",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 5202323,
+   "name": "Rebecca Ramsden",
+   "photo": "https://image.tmdb.org/t/p/w185/f3cgR5SweifdwXw5JpqjHtHLZZX.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:35:31.251Z"
+}

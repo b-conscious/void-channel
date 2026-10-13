@@ -1,0 +1,295 @@
+{
+ "show": "InuYasha",
+ "slug": "inuyasha",
+ "tmdbId": 35610,
+ "cast": [
+  {
+   "id": 68472,
+   "name": "Kappei Yamaguchi",
+   "photo": "https://image.tmdb.org/t/p/w185/mJyxKRZxLv9D7LH5KcNSkjSKYOB.jpg",
+   "character": "InuYasha (voice)",
+   "episodes": 193
+  },
+  {
+   "id": 112205,
+   "name": "Satsuki Yukino",
+   "photo": "https://image.tmdb.org/t/p/w185/fb9LqdOZPNjlXq3uHriBOmIe2WP.jpg",
+   "character": "Kagome Higurashi (voice)",
+   "episodes": 193
+  },
+  {
+   "id": 121711,
+   "name": "Koji Tsujitani",
+   "photo": "https://image.tmdb.org/t/p/w185/7NTqy1dhJUNYjMAFqB5j1lNaar.jpg",
+   "character": "Miroku (voice)",
+   "episodes": 193
+  },
+  {
+   "id": 220710,
+   "name": "Houko Kuwashima",
+   "photo": "https://image.tmdb.org/t/p/w185/uZSmoh5jSdLwmkLaCnC3Xju6TTN.jpg",
+   "character": "Sango (voice)",
+   "episodes": 193
+  },
+  {
+   "id": 90565,
+   "name": "Ken Narita",
+   "photo": "https://image.tmdb.org/t/p/w185/7fuRQk5eUp0MWQxxkw15RM1KxQM.jpg",
+   "character": "Sesshomaru (voice)",
+   "episodes": 193
+  },
+  {
+   "id": 89903,
+   "name": "Mamiko Noto",
+   "photo": "https://image.tmdb.org/t/p/w185/wCSD7Umgzc66p8VGXrrMZtSLSuS.jpg",
+   "character": "Rin (voice)",
+   "episodes": 193
+  },
+  {
+   "id": 55662,
+   "name": "Noriko Hidaka",
+   "photo": "https://image.tmdb.org/t/p/w185/43OuwsjqGf7JxpFpUvB75OdDDXQ.jpg",
+   "character": "Kikyo (voice)",
+   "episodes": 193
+  },
+  {
+   "id": 9706,
+   "name": "Toshiyuki Morikawa",
+   "photo": "https://image.tmdb.org/t/p/w185/hrzGBe4nokgkBNFekNo5hlXB2Bv.jpg",
+   "character": "Naraku (voice)",
+   "episodes": 193
+  },
+  {
+   "id": 1253542,
+   "name": "Izumi Ōgami",
+   "photo": "https://image.tmdb.org/t/p/w185/gMu0qmq7OdzqC5qL4vrVkA9OOBl.jpg",
+   "character": "Kagura (voice)",
+   "episodes": 193
+  },
+  {
+   "id": 934840,
+   "name": "Kumiko Watanabe",
+   "photo": "https://image.tmdb.org/t/p/w185/4Os8XPmWoF65Y6tUrIyffpQJyqL.jpg",
+   "character": "Shippo (voice)",
+   "episodes": 167
+  },
+  {
+   "id": 100127,
+   "name": "TARAKO",
+   "photo": "https://image.tmdb.org/t/p/w185/dIju4JSkZem6Yaep5RYLWfTmp1P.jpg",
+   "character": "Kirara (voice)",
+   "episodes": 167
+  },
+  {
+   "id": 1222055,
+   "name": "Taiki Matsuno",
+   "photo": "https://image.tmdb.org/t/p/w185/pgoNHpHWcnEA9k6qriLsZJCcMMf.jpg",
+   "character": "Koga (voice)",
+   "episodes": 167
+  },
+  {
+   "id": 90499,
+   "name": "Akiko Yajima",
+   "photo": "https://image.tmdb.org/t/p/w185/7b9jO2IYcSpBQRcmhXnlOIgwmRI.jpg",
+   "character": "Kohaku (voice)",
+   "episodes": 167
+  },
+  {
+   "id": 142704,
+   "name": "Kenichi Ogata",
+   "photo": "https://image.tmdb.org/t/p/w185/iQLEawIP2593yrGy22GzLSpnfgl.jpg",
+   "character": "Myōga (voice)",
+   "episodes": 167
+  },
+  {
+   "id": 560354,
+   "name": "Cho",
+   "photo": "https://image.tmdb.org/t/p/w185/70OZtKOHEGvbuMQAbQ01cGxrUDO.jpg",
+   "character": "Jaken (voice)",
+   "episodes": 167
+  },
+  {
+   "id": 90572,
+   "name": "Yukana",
+   "photo": "https://image.tmdb.org/t/p/w185/AeRUkifrHsx0ZYfRRf64gChACyg.jpg",
+   "character": "Kanna (voice)",
+   "episodes": 167
+  },
+  {
+   "id": 619,
+   "name": "Joji Yanami",
+   "photo": "https://image.tmdb.org/t/p/w185/khkGvegnYvx50pAEF1lms7ZKBqy.jpg",
+   "character": "Tōtōsai (voice)",
+   "episodes": 167
+  },
+  {
+   "id": 68918,
+   "name": "Ai Kobayashi",
+   "photo": "https://image.tmdb.org/t/p/w185/2Vjve1Dh6wynhJP5bPfXvL2WV6s.jpg",
+   "character": "Hakudōshi / Akago (voice)",
+   "episodes": 167
+  },
+  {
+   "id": 615,
+   "name": "Hisako Kyoda",
+   "photo": "https://image.tmdb.org/t/p/w185/7p7kVXNp1ZhJp2KejBPQwD8j9nE.jpg",
+   "character": "Kaede (voice)",
+   "episodes": 167
+  },
+  {
+   "id": 1686,
+   "name": "Takeshi Kusao",
+   "photo": "https://image.tmdb.org/t/p/w185/gDiYLUdl9zXXJmhE0bAuB1Jm3FJ.jpg",
+   "character": "曲灵（配音）",
+   "episodes": 26
+  }
+ ],
+ "crew": [
+  {
+   "id": 89965,
+   "name": "Katsuyuki Sumisawa",
+   "photo": "https://image.tmdb.org/t/p/w185/saFcgKYhwwVMNcrqtqlZnmGiPHe.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 168
+  },
+  {
+   "id": 104715,
+   "name": "Kaoru Wada",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 167
+  },
+  {
+   "id": 933723,
+   "name": "Masashi Ikeda",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 45
+  },
+  {
+   "id": 2940246,
+   "name": "Akira Toba",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 34
+  },
+  {
+   "id": 2867510,
+   "name": "Megumi Yamamoto",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 23
+  },
+  {
+   "id": 1693691,
+   "name": "Hirofumi Ogura",
+   "photo": "https://image.tmdb.org/t/p/w185/4VYMHCBu1mnZss6UeGjzrRBJIzo.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1128355,
+   "name": "Akira Nishimori",
+   "photo": "https://image.tmdb.org/t/p/w185/vPRboAZrIKoErMPquZ6Mdt9RRQv.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1665801,
+   "name": "Takashi Ikehata",
+   "photo": "https://image.tmdb.org/t/p/w185/4oU0knOTn7UGTeYcmqoRHj52zjm.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1247708,
+   "name": "Tatsuya Ishihara",
+   "photo": "https://image.tmdb.org/t/p/w185/oWunh6I30A3qcRsM06SvMH3Cwoq.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1253060,
+   "name": "Akatsuki Yamatoya",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 117604,
+   "name": "Katsuhiko Chiba",
+   "photo": "https://image.tmdb.org/t/p/w185/RjY9OmpedqIlBnhsY9w4ZxaUgR.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 2169969,
+   "name": "Tomoe Aratani",
+   "photo": "https://image.tmdb.org/t/p/w185/3UZU2GldBINpVkQpYSEhHYDElIP.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 2376289,
+   "name": "Naoki Hishikawa",
+   "photo": "https://image.tmdb.org/t/p/w185/8V6d7qhJFffvd3CwDiFMl8R7saD.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1795403,
+   "name": "Noriaki Saito",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1735200,
+   "name": "Shinya Watada",
+   "photo": "https://image.tmdb.org/t/p/w185/uhehRIeu5DGjx66AEyOUPH8GHkN.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 2076881,
+   "name": "Kunihiro Mori",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:38:15.315Z"
+}

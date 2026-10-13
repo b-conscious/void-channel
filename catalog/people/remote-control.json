@@ -1,0 +1,49 @@
+{
+ "show": "Remote Control",
+ "slug": "remote-control",
+ "tmdbId": 1079,
+ "cast": [
+  {
+   "id": 2257686,
+   "name": "Marisol Massey",
+   "photo": null,
+   "character": "Herself",
+   "episodes": 6
+  },
+  {
+   "id": 1222081,
+   "name": "Ken Ober",
+   "photo": "https://image.tmdb.org/t/p/w185/bktycXuvSoYYPbX9KQCJRMLamPp.jpg",
+   "character": "Host",
+   "episodes": 6
+  },
+  {
+   "id": 1219901,
+   "name": "Colin Quinn",
+   "photo": "https://image.tmdb.org/t/p/w185/yj0M3D1bQDxmIyIuUfFBVHucEtP.jpg",
+   "character": "himself",
+   "episodes": 6
+  }
+ ],
+ "crew": [
+  {
+   "id": 1493355,
+   "name": "Michael Dugan",
+   "photo": null,
+   "jobs": [
+    "Creator"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1212141,
+   "name": "Joe Davola",
+   "photo": null,
+   "jobs": [
+    "Creator"
+   ],
+   "episodes": 6
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:31:10.487Z"
+}

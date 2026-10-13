@@ -1,0 +1,324 @@
+{
+ "show": "WWE Friday Night SmackDown",
+ "slug": "wwe-friday-night-smackdown",
+ "tmdbId": 1549,
+ "cast": [
+  {
+   "id": 1104687,
+   "name": "Michael Coulthard",
+   "photo": "https://image.tmdb.org/t/p/w185/6KpBQUTKIhMxY1w4ZAOfP6HMFQs.jpg",
+   "character": "Michael Cole",
+   "episodes": 747
+  },
+  {
+   "id": 568555,
+   "name": "Óscar Gutiérrez Rubio",
+   "photo": "https://image.tmdb.org/t/p/w185/5lJnPWC5I5ZNtYHgf4yaQP3ixUE.jpg",
+   "character": "Rey Mysterio",
+   "episodes": 414
+  },
+  {
+   "id": 237740,
+   "name": "Mike Mizanin",
+   "photo": "https://image.tmdb.org/t/p/w185/vVLiIo2De2GKpn7wSzTNdhPK1Rc.jpg",
+   "character": "The Miz",
+   "episodes": 414
+  },
+  {
+   "id": 1170013,
+   "name": "John Layfield",
+   "photo": "https://image.tmdb.org/t/p/w185/qFWPIv07g6qdnHJRhGOALijgD8x.jpg",
+   "character": "John 'Bradshaw' Layfield / Bradshaw / JBL",
+   "episodes": 389
+  },
+  {
+   "id": 137050,
+   "name": "Kofi Sarkodie-Mensah",
+   "photo": "https://image.tmdb.org/t/p/w185/jtnfK8G8LwtU4BDJNGMQJ4hLhk5.jpg",
+   "character": "Kofi Kingston",
+   "episodes": 388
+  },
+  {
+   "id": 1202674,
+   "name": "Jonathan Solofa Fatu",
+   "photo": "https://image.tmdb.org/t/p/w185/uU9uM2TiKPvZrDOJomOnXTuJtf7.jpg",
+   "character": "Jimmy Uso",
+   "episodes": 352
+  },
+  {
+   "id": 61903,
+   "name": "Glenn Jacobs",
+   "photo": "https://image.tmdb.org/t/p/w185/fFPmScGeJTZtQ7F5IEbBjuqkjJy.jpg",
+   "character": "Kane",
+   "episodes": 350
+  },
+  {
+   "id": 238330,
+   "name": "Bryan Danielson",
+   "photo": "https://image.tmdb.org/t/p/w185/2JXVDZNDeyPRnxFaPaJ4DykVMHY.jpg",
+   "character": "Daniel Bryan",
+   "episodes": 342
+  },
+  {
+   "id": 238345,
+   "name": "Joshua Fatu",
+   "photo": "https://image.tmdb.org/t/p/w185/dUERzr8TokJxETe2NpVxXkWjY4O.jpg",
+   "character": "Jey Uso",
+   "episodes": 334
+  },
+  {
+   "id": 237746,
+   "name": "Stephen Farrelly",
+   "photo": "https://image.tmdb.org/t/p/w185/uU1Mqrve4rkF5abBu7tXvoG9yUB.jpg",
+   "character": "Sheamus",
+   "episodes": 330
+  },
+  {
+   "id": 543518,
+   "name": "Theodore R. Long",
+   "photo": "https://image.tmdb.org/t/p/w185/nufBhcT7mfthL7cuNu1iB4l3U6u.jpg",
+   "character": "Theodre Long / Teddy Long / Theodore Long",
+   "episodes": 329
+  },
+  {
+   "id": 222912,
+   "name": "Cody Rhodes",
+   "photo": "https://image.tmdb.org/t/p/w185/m9hfLcsQuESprcb7dJUj5lQLWCv.jpg",
+   "character": "Cody Rhodes / Stardust",
+   "episodes": 326
+  },
+  {
+   "id": 151043,
+   "name": "Randy Orton",
+   "photo": "https://image.tmdb.org/t/p/w185/oyXaGjrKorRz2bsLNdK6CSD0JZa.jpg",
+   "character": "Randy Orton / Himself",
+   "episodes": 322
+  },
+  {
+   "id": 567257,
+   "name": "Paul Heyman",
+   "photo": "https://image.tmdb.org/t/p/w185/vGP6uOnwxOG6zMntaouqyOY3PHt.jpg",
+   "character": "Paul Heyman / Himself",
+   "episodes": 316
+  },
+  {
+   "id": 238335,
+   "name": "Natalie Neidhart-Wilson",
+   "photo": "https://image.tmdb.org/t/p/w185/eUzjGJ76rBVAFq8mpxX8KNqjqlP.jpg",
+   "character": "Natalya / Natayla / Nattie",
+   "episodes": 313
+  },
+  {
+   "id": 151042,
+   "name": "Paul Wight",
+   "photo": "https://image.tmdb.org/t/p/w185/yIAgFD1jNJeSbarAEisGvRVaE5E.jpg",
+   "character": "Big Show / The Big Show",
+   "episodes": 312
+  },
+  {
+   "id": 543599,
+   "name": "Booker Huffman, Jr.",
+   "photo": "https://image.tmdb.org/t/p/w185/5s5s4IWBPs7MjUVPLGpG4HCRUea.jpg",
+   "character": "Booker T / King Booker",
+   "episodes": 308
+  },
+  {
+   "id": 237737,
+   "name": "Nick Nemeth",
+   "photo": "https://image.tmdb.org/t/p/w185/5v1A968JdfKaiViW2ib3eqVdLcB.jpg",
+   "character": "Dolph Ziggler",
+   "episodes": 292
+  },
+  {
+   "id": 1170012,
+   "name": "Ettore Ewen",
+   "photo": "https://image.tmdb.org/t/p/w185/7NAWUhr7FCwvBpJKVBnqtY32oRu.jpg",
+   "character": "Big E Langston / Big E. / Big E",
+   "episodes": 289
+  },
+  {
+   "id": 1275417,
+   "name": "Rami Sebei",
+   "photo": "https://image.tmdb.org/t/p/w185/2Hafi5zWeNvz0j1t4Dr2umHnmG6.jpg",
+   "character": "Sami zayn / Sami Zayn",
+   "episodes": 289
+  },
+  {
+   "id": 89888,
+   "name": "Adam Copeland",
+   "photo": "https://image.tmdb.org/t/p/w185/rIhGY2Qk3BX7O34j6h7VarvfaA8.jpg",
+   "character": "Edge",
+   "episodes": 281
+  },
+  {
+   "id": 569184,
+   "name": "Peter Senerchia",
+   "photo": "https://image.tmdb.org/t/p/w185/v3ThZdodrh0erX9JothjWAztcTf.jpg",
+   "character": "Tazz / Taz",
+   "episodes": 276
+  },
+  {
+   "id": 1419126,
+   "name": "Ashley Fliehr",
+   "photo": "https://image.tmdb.org/t/p/w185/xDASgcL52cbeKcytm2HRIbLdBLo.jpg",
+   "character": "Charlotte Flair / Charlottle Flair / Charlotte",
+   "episodes": 275
+  },
+  {
+   "id": 90031,
+   "name": "Kurt Angle",
+   "photo": "https://image.tmdb.org/t/p/w185/afI7I7NZCuzAORc4q4G8o2yoGyc.jpg",
+   "character": "Kurt Angle",
+   "episodes": 274
+  }
+ ],
+ "crew": [
+  {
+   "id": 57342,
+   "name": "Vince McMahon",
+   "photo": "https://image.tmdb.org/t/p/w185/3m4Z7YwnTqgLlQWP7A7TgYOJrj7.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer"
+   ],
+   "episodes": 630
+  },
+  {
+   "id": 6422165,
+   "name": "Ryan Callahan",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 261
+  },
+  {
+   "id": 1195489,
+   "name": "Brian James",
+   "photo": "https://image.tmdb.org/t/p/w185/h2Mulrpm7hkhXUAVs6cTgkV0GuS.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 252
+  },
+  {
+   "id": 6420982,
+   "name": "John Swikata",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 252
+  },
+  {
+   "id": 567321,
+   "name": "David J. Lagana",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 210
+  },
+  {
+   "id": 1076816,
+   "name": "Brian Gewirtz",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 210
+  },
+  {
+   "id": 1940975,
+   "name": "Ryan Ward",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 208
+  },
+  {
+   "id": 1076822,
+   "name": "Bruce Prichard",
+   "photo": "https://image.tmdb.org/t/p/w185/3Dio5e1hXcK6t3GHIaO1UYv0Hp.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 104
+  },
+  {
+   "id": 965697,
+   "name": "Alex Greenfield",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 104
+  },
+  {
+   "id": 567257,
+   "name": "Paul Heyman",
+   "photo": "https://image.tmdb.org/t/p/w185/vGP6uOnwxOG6zMntaouqyOY3PHt.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 104
+  },
+  {
+   "id": 2602641,
+   "name": "Michael Conforti",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 104
+  },
+  {
+   "id": 115788,
+   "name": "Paul Levesque",
+   "photo": "https://image.tmdb.org/t/p/w185/gOeQvjY8B9E81f3hDjOTmxx9ig4.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 96
+  },
+  {
+   "id": 4601027,
+   "name": "Lee Fitting",
+   "photo": "https://image.tmdb.org/t/p/w185/yrbMchC5yuCk5uhmo6KBH5rSuBx.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 96
+  },
+  {
+   "id": 4797920,
+   "name": "Chris Kreski",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 72
+  },
+  {
+   "id": 1076817,
+   "name": "Michael Seitz",
+   "photo": "https://image.tmdb.org/t/p/w185/82dSkdwQ1YyQJchAY4LtSM8C3SK.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 52
+  },
+  {
+   "id": 160039,
+   "name": "Eric Bischoff",
+   "photo": "https://image.tmdb.org/t/p/w185/imRqsvwwSdAS7gDwWYufwVcDK7V.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 52
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:44:28.546Z"
+}

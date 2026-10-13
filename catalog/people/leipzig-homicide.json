@@ -1,0 +1,250 @@
+{
+ "show": "Leipzig Homicide",
+ "slug": "leipzig-homicide",
+ "tmdbId": 19758,
+ "cast": [
+  {
+   "id": 1247453,
+   "name": "Melanie Marschke",
+   "photo": "https://image.tmdb.org/t/p/w185/AoJLkP8ngqQPJzIRSUPsWcTvlKa.jpg",
+   "character": "Ina Zimmermann",
+   "episodes": 527
+  },
+  {
+   "id": 28112,
+   "name": "Marco Girnth",
+   "photo": "https://image.tmdb.org/t/p/w185/fsrDhOEE2IxyHf6bNPVMWCumbdp.jpg",
+   "character": "Jan Maybach",
+   "episodes": 527
+  },
+  {
+   "id": 1064525,
+   "name": "Daniel Steiner",
+   "photo": "https://image.tmdb.org/t/p/w185/lHGDQVXUCzmY1zwzwM9Pw5ahfpn.jpg",
+   "character": "Lorenz Rettig",
+   "episodes": 527
+  },
+  {
+   "id": 207811,
+   "name": "Anna Stieblich",
+   "photo": "https://image.tmdb.org/t/p/w185/hrRbEJ3oN79nVuTD5GVzkHWVgtX.jpg",
+   "character": "Sabine Rossi",
+   "episodes": 527
+  },
+  {
+   "id": 1244903,
+   "name": "Andreas Schmidt-Schaller",
+   "photo": "https://image.tmdb.org/t/p/w185/mphugrfHAIgEbnwPYJ6O6ut8wlG.jpg",
+   "character": "Hajo Trautzschke",
+   "episodes": 368
+  },
+  {
+   "id": 1149825,
+   "name": "Caroline Scholze",
+   "photo": "https://image.tmdb.org/t/p/w185/7RvaSuVBxDM7EEdr9kfA5cTbylo.jpg",
+   "character": "Leni Maybach / Leni Trautzschke",
+   "episodes": 344
+  },
+  {
+   "id": 1658380,
+   "name": "Maximilian Klas",
+   "photo": "https://image.tmdb.org/t/p/w185/2HiqrgXVyW1hqq32YpUHdkliGyv.jpg",
+   "character": "Benni Maybach",
+   "episodes": 319
+  },
+  {
+   "id": 1221647,
+   "name": "Michael Rotschopf",
+   "photo": "https://image.tmdb.org/t/p/w185/2hDYo2hlzrecWg33DXL7BGq0IV9.jpg",
+   "character": "Alexander Binz",
+   "episodes": 147
+  },
+  {
+   "id": 1805261,
+   "name": "Judith Sehrbrock",
+   "photo": "https://image.tmdb.org/t/p/w185/wSaRquJhi4oTI8v5hALSvlx05jT.jpg",
+   "character": "Pathologin Stein / Mara Stein",
+   "episodes": 147
+  },
+  {
+   "id": 1290508,
+   "name": "Johannes Hendrik Langer",
+   "photo": null,
+   "character": "Möritz Brenner / Moritz Brenner / Malte",
+   "episodes": 147
+  },
+  {
+   "id": 49851,
+   "name": "Steffen Schroeder",
+   "photo": "https://image.tmdb.org/t/p/w185/m2QzUlXyoHBZ9Mq4VU6aXdKFjoO.jpg",
+   "character": "Sven Lienecke / Marco Loos / Tom Kowalski",
+   "episodes": 131
+  },
+  {
+   "id": 233761,
+   "name": "Petra Kleinert",
+   "photo": "https://image.tmdb.org/t/p/w185/tPqGIETrV3FzUzeuRvWgZoR5SO8.jpg",
+   "character": "Dagmar Schnee",
+   "episodes": 106
+  },
+  {
+   "id": 1469678,
+   "name": "Nilam Farooq",
+   "photo": "https://image.tmdb.org/t/p/w185/2M8DHtgA2lQS8QIKlfx2TJTrwbF.jpg",
+   "character": "Olivia Fareedi",
+   "episodes": 106
+  },
+  {
+   "id": 48512,
+   "name": "Tyron Ricketts",
+   "photo": "https://image.tmdb.org/t/p/w185/rPw0hjmjASLhel1el4aAqWoZxOU.jpg",
+   "character": "Patrick Diego Grimm",
+   "episodes": 83
+  },
+  {
+   "id": 1104730,
+   "name": "Simon Böer",
+   "photo": "https://image.tmdb.org/t/p/w185/dADYkRn94WmAIZrU7dbXdOlDwE2.jpg",
+   "character": "Werner Kruse",
+   "episodes": 80
+  },
+  {
+   "id": 1378940,
+   "name": "Pablo Sprungala",
+   "photo": "https://image.tmdb.org/t/p/w185/nspItWKJuXBaN23vOAhcEMmfZc3.jpg",
+   "character": "Vincent Becker",
+   "episodes": 72
+  },
+  {
+   "id": 1247454,
+   "name": "Gabriel Merz",
+   "photo": "https://image.tmdb.org/t/p/w185/oNMlKquu9aXreGWrkFSKRg7Q5BE.jpg",
+   "character": "Kriminalkommissar Miguel Alvarez / Marco Haager",
+   "episodes": 61
+  },
+  {
+   "id": 44430,
+   "name": "Rudolf Kowalski",
+   "photo": "https://image.tmdb.org/t/p/w185/gm0NFSrhhF0Qyz3mRuh7n5u95Yj.jpg",
+   "character": "Dr. Breugel",
+   "episodes": 41
+  },
+  {
+   "id": 585718,
+   "name": "Tom Mikulla",
+   "photo": null,
+   "character": "Wolf Künast",
+   "episodes": 9
+  },
+  {
+   "id": 1821426,
+   "name": "Anne Arzenbacher",
+   "photo": null,
+   "character": "Polizeimeisterin Meike Schwarz",
+   "episodes": 8
+  },
+  {
+   "id": 18051,
+   "name": "Manfred Zapatka",
+   "photo": "https://image.tmdb.org/t/p/w185/m3dj5Em4MBKATuEqVzOjbzvYk7d.jpg",
+   "character": "Ewald Kutz / Dr. Schäfer",
+   "episodes": 7
+  },
+  {
+   "id": 1843693,
+   "name": "Robert Carlo Ceder",
+   "photo": null,
+   "character": "SEK-Beamter / Polizist",
+   "episodes": 7
+  },
+  {
+   "id": 1169515,
+   "name": "Peter W. Bachmann",
+   "photo": null,
+   "character": "Prof. Kiesling / Bernd Krug / Weber",
+   "episodes": 6
+  },
+  {
+   "id": 1822397,
+   "name": "Jana Bauke",
+   "photo": "https://image.tmdb.org/t/p/w185/d1RQXKox5TWGvLdMcRowWzySC8s.jpg",
+   "character": "Dr. Sawatzki / Ärztin",
+   "episodes": 6
+  }
+ ],
+ "crew": [
+  {
+   "id": 233980,
+   "name": "Oren Schmuckler",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 525
+  },
+  {
+   "id": 1177455,
+   "name": "Robert Del Maestro",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 63416,
+   "name": "Roland Heep",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 63417,
+   "name": "Frank Koopmann",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 3489401,
+   "name": "Jeanet Pfitzer",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 109974,
+   "name": "Andreas Morell",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1247452,
+   "name": "Patrick Winczewski",
+   "photo": "https://image.tmdb.org/t/p/w185/xXnY5oU0R8nxxuUcyZAhBYTiDLY.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 585490,
+   "name": "Jan Braren",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:43:11.181Z"
+}

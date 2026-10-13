@@ -1,0 +1,324 @@
+{
+ "show": "Real Time with Bill Maher",
+ "slug": "real-time-with-bill-maher",
+ "tmdbId": 4419,
+ "cast": [
+  {
+   "id": 74086,
+   "name": "Bill Maher",
+   "photo": "https://image.tmdb.org/t/p/w185/n6eOp9jGQpjO0taYMfznMhjpZxR.jpg",
+   "character": "Self - Host",
+   "episodes": 750
+  },
+  {
+   "id": 1236584,
+   "name": "Andrew Sullivan",
+   "photo": "https://image.tmdb.org/t/p/w185/neAFwccIrjl8cZkTGNChJLaUcc6.jpg",
+   "character": "Self",
+   "episodes": 30
+  },
+  {
+   "id": 17087,
+   "name": "Michael Moore",
+   "photo": "https://image.tmdb.org/t/p/w185/m5YViuBUXfKAHNEUObGpzhzQPgE.jpg",
+   "character": "Self",
+   "episodes": 23
+  },
+  {
+   "id": 175194,
+   "name": "Paul Begala",
+   "photo": "https://image.tmdb.org/t/p/w185/wVBvYJvcJcjARpArthnoCeWPCqv.jpg",
+   "character": "Self",
+   "episodes": 19
+  },
+  {
+   "id": 163555,
+   "name": "Arianna Huffington",
+   "photo": "https://image.tmdb.org/t/p/w185/KR8nX8nnFJrudDh4iFp2QOSsZK.jpg",
+   "character": "Self",
+   "episodes": 18
+  },
+  {
+   "id": 1230037,
+   "name": "David Frum",
+   "photo": "https://image.tmdb.org/t/p/w185/xobWXOUBqr6UnQvTwHJkLfWA5BM.jpg",
+   "character": "Self",
+   "episodes": 18
+  },
+  {
+   "id": 1230168,
+   "name": "Michael Steele",
+   "photo": "https://image.tmdb.org/t/p/w185/dwhjUdaIUadZC16cezmsi8DLDVZ.jpg",
+   "character": "Self",
+   "episodes": 18
+  },
+  {
+   "id": 219794,
+   "name": "Michael Eric Dyson",
+   "photo": "https://image.tmdb.org/t/p/w185/2ANZHJYPu4GbYgcavIOB5pl3Tgk.jpg",
+   "character": "Self",
+   "episodes": 18
+  },
+  {
+   "id": 2567352,
+   "name": "Matt Welch",
+   "photo": "https://image.tmdb.org/t/p/w185/7KnarKZcm139fjeFgyRQ0cs32Y5.jpg",
+   "character": "Self",
+   "episodes": 18
+  },
+  {
+   "id": 1229136,
+   "name": "Barney Frank",
+   "photo": "https://image.tmdb.org/t/p/w185/u5r3vdh4AnjLx5VB1COFUJOrf9a.jpg",
+   "character": "Self",
+   "episodes": 17
+  },
+  {
+   "id": 85931,
+   "name": "D.L. Hughley",
+   "photo": "https://image.tmdb.org/t/p/w185/xhOo0FVdzYt5mnIrZlITKCEtbW9.jpg",
+   "character": "Self",
+   "episodes": 16
+  },
+  {
+   "id": 9147,
+   "name": "Salman Rushdie",
+   "photo": "https://image.tmdb.org/t/p/w185/6LuR8XwMMOCU4K773MJgYaFa3cV.jpg",
+   "character": "Self",
+   "episodes": 16
+  },
+  {
+   "id": 2908628,
+   "name": "Bernie Sanders",
+   "photo": "https://image.tmdb.org/t/p/w185/bkoF9qXfZbmF5aHUKV0k2HtOrNi.jpg",
+   "character": "Self",
+   "episodes": 16
+  },
+  {
+   "id": 307695,
+   "name": "Dan Savage",
+   "photo": "https://image.tmdb.org/t/p/w185/bbaL3tNO4LOPnkZhVJRoObXb6iU.jpg",
+   "character": "Self",
+   "episodes": 16
+  },
+  {
+   "id": 1227871,
+   "name": "Fareed Zakaria",
+   "photo": "https://image.tmdb.org/t/p/w185/mCUNZaL07a0XC4QhxMom7rh3Kol.jpg",
+   "character": "Self",
+   "episodes": 16
+  },
+  {
+   "id": 537506,
+   "name": "Cornel West",
+   "photo": "https://image.tmdb.org/t/p/w185/eyLtTHcC3InxVPTyRus1pNfa0pK.jpg",
+   "character": "Self",
+   "episodes": 16
+  },
+  {
+   "id": 60092,
+   "name": "Chris Matthews",
+   "photo": "https://image.tmdb.org/t/p/w185/ytdZ352Hcvvg7WduRCJKQ8jyZQT.jpg",
+   "character": "Self / Self - Panellist",
+   "episodes": 15
+  },
+  {
+   "id": 219813,
+   "name": "Jon Meacham",
+   "photo": "https://image.tmdb.org/t/p/w185/6Rwf1iUigouQPIgBWOsk23ml2rE.jpg",
+   "character": "Self",
+   "episodes": 15
+  },
+  {
+   "id": 1230103,
+   "name": "Ian Bremmer",
+   "photo": "https://image.tmdb.org/t/p/w185/dBTToxm5dqEOxW6HdrPiiYVbxCE.jpg",
+   "character": "Self",
+   "episodes": 15
+  },
+  {
+   "id": 204492,
+   "name": "Matt Taibbi",
+   "photo": "https://image.tmdb.org/t/p/w185/wLq49eqCKNH9e6kYhEupn5ZjA28.jpg",
+   "character": "Self",
+   "episodes": 15
+  },
+  {
+   "id": 1834657,
+   "name": "S.E. Cupp",
+   "photo": "https://image.tmdb.org/t/p/w185/5sYIn144iOXNHyNkqDMvJerhmIW.jpg",
+   "character": "Self",
+   "episodes": 14
+  },
+  {
+   "id": 550307,
+   "name": "Neil deGrasse Tyson",
+   "photo": "https://image.tmdb.org/t/p/w185/ioIlzowM483KNbacWgKjNimiIOM.jpg",
+   "character": "Self",
+   "episodes": 14
+  },
+  {
+   "id": 2539148,
+   "name": "Bret Stephens",
+   "photo": "https://image.tmdb.org/t/p/w185/vlv3KMmZg6mUuJvD0lHJm1WKZwh.jpg",
+   "character": "Self",
+   "episodes": 14
+  },
+  {
+   "id": 112044,
+   "name": "Max Brooks",
+   "photo": "https://image.tmdb.org/t/p/w185/cnAHhYkbzmi4w8ufv82ZnFc8o2D.jpg",
+   "character": "Self / Self - Guest",
+   "episodes": 14
+  }
+ ],
+ "crew": [
+  {
+   "id": 1232906,
+   "name": "Dean E. Johnsen",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 337
+  },
+  {
+   "id": 74086,
+   "name": "Bill Maher",
+   "photo": "https://image.tmdb.org/t/p/w185/n6eOp9jGQpjO0taYMfznMhjpZxR.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 337
+  },
+  {
+   "id": 1232886,
+   "name": "Scott Carter",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 337
+  },
+  {
+   "id": 1232903,
+   "name": "Sheila Griffiths",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 337
+  },
+  {
+   "id": 60083,
+   "name": "Marc Gurvitz",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 302
+  },
+  {
+   "id": 1298,
+   "name": "Brad Grey",
+   "photo": "https://image.tmdb.org/t/p/w185/mTYr0jWho1H3upPvhYiaPsyGap0.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 302
+  },
+  {
+   "id": 1212752,
+   "name": "Mike Larsen",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 302
+  },
+  {
+   "id": 1232898,
+   "name": "Danny Vermont",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 302
+  },
+  {
+   "id": 1225496,
+   "name": "Ross Abrash",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 302
+  },
+  {
+   "id": 1236730,
+   "name": "David Feldman",
+   "photo": "https://image.tmdb.org/t/p/w185/zECbJb5dJDztcUBK2sIyfIchtOc.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 302
+  },
+  {
+   "id": 151229,
+   "name": "Jonathan Schmock",
+   "photo": "https://image.tmdb.org/t/p/w185/izI0DanF9DAXCgclDC8AslLhUbe.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 302
+  },
+  {
+   "id": 1232896,
+   "name": "Ned Rice",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 302
+  },
+  {
+   "id": 2411554,
+   "name": "T. Rafael Cimino",
+   "photo": "https://image.tmdb.org/t/p/w185/8dbbl5pwKEXG3Xq75THJNDmRuRq.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 70
+  },
+  {
+   "id": 1219942,
+   "name": "Hal Grant",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 28
+  },
+  {
+   "id": 1232891,
+   "name": "Chris Kelly",
+   "photo": "https://image.tmdb.org/t/p/w185/nnP9OvgBW1p8KwuFCKaeBl1p7rb.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1236729,
+   "name": "Jay Jaroch",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:44:22.945Z"
+}

@@ -1,0 +1,329 @@
+{
+ "show": "Eureka",
+ "slug": "eureka",
+ "tmdbId": 4620,
+ "cast": [
+  {
+   "id": 25146,
+   "name": "Colin Ferguson",
+   "photo": "https://image.tmdb.org/t/p/w185/7SGIkq4AsacsqkrsRo95PJ9TiYI.jpg",
+   "character": "Jack Carter",
+   "episodes": 77
+  },
+  {
+   "id": 53918,
+   "name": "Salli Richardson-Whitfield",
+   "photo": "https://image.tmdb.org/t/p/w185/wMQaIzY5kyRQd8UwF1lphKK6oQm.jpg",
+   "character": "Allison Blake",
+   "episodes": 77
+  },
+  {
+   "id": 3977,
+   "name": "Joe Morton",
+   "photo": "https://image.tmdb.org/t/p/w185/w7rGWWSGKWWukojLbZOQJ5yh9jv.jpg",
+   "character": "Henry Deacon",
+   "episodes": 77
+  },
+  {
+   "id": 1218928,
+   "name": "Erica Cerra",
+   "photo": "https://image.tmdb.org/t/p/w185/c2Eou9gh70jU5MvWAzTA0vO8Xm9.jpg",
+   "character": "Jo Lupo",
+   "episodes": 77
+  },
+  {
+   "id": 168501,
+   "name": "Neil Grayston",
+   "photo": "https://image.tmdb.org/t/p/w185/9YqhNcaU2VaijPAimGYXIkeIXDn.jpg",
+   "character": "Douglas Fargo",
+   "episodes": 77
+  },
+  {
+   "id": 53119,
+   "name": "Chris Gauthier",
+   "photo": "https://image.tmdb.org/t/p/w185/nu3JQRFlIrPlAUERVFCdks14cwA.jpg",
+   "character": "Vincent",
+   "episodes": 67
+  },
+  {
+   "id": 1226028,
+   "name": "Jordan Hinson",
+   "photo": "https://image.tmdb.org/t/p/w185/mmdjSJPtlZy70LFJxMoOI3yOLNa.jpg",
+   "character": "Zoe Carter",
+   "episodes": 51
+  },
+  {
+   "id": 1230713,
+   "name": "Niall Matter",
+   "photo": "https://image.tmdb.org/t/p/w185/9hlmypLILRkaEVOazFdg11nfsJm.jpg",
+   "character": "Zane Donovan",
+   "episodes": 50
+  },
+  {
+   "id": 53922,
+   "name": "Ed Quinn",
+   "photo": "https://image.tmdb.org/t/p/w185/bG2FYOHVsDyNChBJk7goITz7w8T.jpg",
+   "character": "Nathan Stark",
+   "episodes": 32
+  },
+  {
+   "id": 23214,
+   "name": "Debrah Farentino",
+   "photo": "https://image.tmdb.org/t/p/w185/6cc84IvLQTSj3vwXWP8CiGT81Hi.jpg",
+   "character": "Beverly Barlowe",
+   "episodes": 27
+  },
+  {
+   "id": 51699,
+   "name": "Tembi Locke",
+   "photo": "https://image.tmdb.org/t/p/w185/oe9bXpFmv9udogSzy6Lk6HlwplJ.jpg",
+   "character": "Grace Monroe",
+   "episodes": 24
+  },
+  {
+   "id": 62522,
+   "name": "Christopher Jacot",
+   "photo": "https://image.tmdb.org/t/p/w185/988yC8uMpunCzIVCNUv8AyzbWIA.jpg",
+   "character": "Larry Haberman",
+   "episodes": 23
+  },
+  {
+   "id": 21213,
+   "name": "Kavan Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/zVJTMSlouAL345ApPZO7V2XCXW2.jpg",
+   "character": "Deputy Andy",
+   "episodes": 21
+  },
+  {
+   "id": 40009,
+   "name": "Matt Frewer",
+   "photo": "https://image.tmdb.org/t/p/w185/gh91nUlR6C7rYhDhjab7cAZQlIt.jpg",
+   "character": "Jim Taggart",
+   "episodes": 18
+  },
+  {
+   "id": 76527,
+   "name": "Felicia Day",
+   "photo": "https://image.tmdb.org/t/p/w185/wnggOc7HCXvjOGMbqxTftQbX6t5.jpg",
+   "character": "Holly Marten",
+   "episodes": 18
+  },
+  {
+   "id": 984055,
+   "name": "Trevor Jackson",
+   "photo": "https://image.tmdb.org/t/p/w185/dMHjMtC69wHlztu3vP8y6RPuCXT.jpg",
+   "character": "Kevin Blake",
+   "episodes": 16
+  },
+  {
+   "id": 1237640,
+   "name": "Shayn Solberg",
+   "photo": "https://image.tmdb.org/t/p/w185/v0e7cRNKWAS5iWJbq4D4F5wOU72.jpg",
+   "character": "Spencer Martin",
+   "episodes": 12
+  },
+  {
+   "id": 1364134,
+   "name": "Vanya Asher",
+   "photo": "https://image.tmdb.org/t/p/w185/qij9n1PqipDfmGkIomdZLkMgLxq.jpg",
+   "character": "Lucas",
+   "episodes": 12
+  },
+  {
+   "id": 109151,
+   "name": "Jaime Ray Newman",
+   "photo": "https://image.tmdb.org/t/p/w185/2NZqIILL9BW8fSveWDGBDLoMYN8.jpg",
+   "character": "Tess Fontana",
+   "episodes": 12
+  },
+  {
+   "id": 3033,
+   "name": "Wil Wheaton",
+   "photo": "https://image.tmdb.org/t/p/w185/3Jn3uSa79TwsK4D5fFyFzKag6ST.jpg",
+   "character": "Isaac Parrish",
+   "episodes": 12
+  },
+  {
+   "id": 9145,
+   "name": "James Callis",
+   "photo": "https://image.tmdb.org/t/p/w185/dLmmQU5hA0J6Jxi20aS8kdN6k3o.jpg",
+   "character": "Dr. Trevor Grant",
+   "episodes": 10
+  },
+  {
+   "id": 202065,
+   "name": "Meshach Peters",
+   "photo": "https://image.tmdb.org/t/p/w185/zYBwgVSF9IwvwfyQpJkLbZXCS9r.jpg",
+   "character": "Kevin Blake",
+   "episodes": 10
+  },
+  {
+   "id": 3713,
+   "name": "Frances Fisher",
+   "photo": "https://image.tmdb.org/t/p/w185/3iNDgd54IIj8g8hGqhhUjM6TeWd.jpg",
+   "character": "Eva Thorne",
+   "episodes": 8
+  },
+  {
+   "id": 43431,
+   "name": "Barclay Hope",
+   "photo": "https://image.tmdb.org/t/p/w185/64DyRr2dUcrd0gPjgEBHIcDMSDo.jpg",
+   "character": "Gen. Mansfield",
+   "episodes": 8
+  }
+ ],
+ "crew": [
+  {
+   "id": 1237645,
+   "name": "Jaime Paglia",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 43
+  },
+  {
+   "id": 1237644,
+   "name": "Andrew Cosby",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1218959,
+   "name": "Charles Grant Craig",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 1246967,
+   "name": "Thania St. John",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 1197474,
+   "name": "Michael Robison",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 157125,
+   "name": "Bruce Miller",
+   "photo": "https://image.tmdb.org/t/p/w185/h66XSPXnWfkJVMGJRXHc4RoJXLH.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 182892,
+   "name": "Mike Rohl",
+   "photo": "https://image.tmdb.org/t/p/w185/6MFWkS5rVa8NSh9gW9kYMLlkxmV.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 58912,
+   "name": "Matthew Hastings",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1383186,
+   "name": "Eric Wallace",
+   "photo": "https://image.tmdb.org/t/p/w185/jAC9Qmm8qMlJMERSujeA1ErhNEH.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 149501,
+   "name": "Michael Lange",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1557823,
+   "name": "Johanna Stokes",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 198084,
+   "name": "Andrew Cosby",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 3977,
+   "name": "Joe Morton",
+   "photo": "https://image.tmdb.org/t/p/w185/w7rGWWSGKWWukojLbZOQJ5yh9jv.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 25146,
+   "name": "Colin Ferguson",
+   "photo": "https://image.tmdb.org/t/p/w185/7SGIkq4AsacsqkrsRo95PJ9TiYI.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1219518,
+   "name": "Paula Yoo",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 43222,
+   "name": "Michael Grossman",
+   "photo": "https://image.tmdb.org/t/p/w185/fjH2OGTim2LseLtxBanDq4Sp24G.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:31.018Z"
+}

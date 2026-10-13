@@ -1,0 +1,326 @@
+{
+ "show": "Sherlock",
+ "slug": "sherlock",
+ "tmdbId": 19885,
+ "cast": [
+  {
+   "id": 71580,
+   "name": "Benedict Cumberbatch",
+   "photo": "https://image.tmdb.org/t/p/w185/wz3MRiMmoz6b5X3oSzMRC9nLxY1.jpg",
+   "character": "Sherlock Holmes",
+   "episodes": 12
+  },
+  {
+   "id": 7060,
+   "name": "Martin Freeman",
+   "photo": "https://image.tmdb.org/t/p/w185/nrO54AzrxiNgCjBUOSz6ebyxDZY.jpg",
+   "character": "John Watson",
+   "episodes": 12
+  },
+  {
+   "id": 1218303,
+   "name": "Una Stubbs",
+   "photo": "https://image.tmdb.org/t/p/w185/bz23ewpBlZNgSwCLqKPaa8ulKfQ.jpg",
+   "character": "Mrs. Hudson",
+   "episodes": 12
+  },
+  {
+   "id": 11278,
+   "name": "Rupert Graves",
+   "photo": "https://image.tmdb.org/t/p/w185/6tS8XMuTS04xXTfeWFjJED6SFBF.jpg",
+   "character": "DI Greg Lestrade",
+   "episodes": 11
+  },
+  {
+   "id": 1244469,
+   "name": "Louise Brealey",
+   "photo": "https://image.tmdb.org/t/p/w185/c7K2WWGZVA4tKWT0gBcPoLwmz3C.jpg",
+   "character": "Molly Hooper",
+   "episodes": 11
+  },
+  {
+   "id": 34546,
+   "name": "Mark Gatiss",
+   "photo": "https://image.tmdb.org/t/p/w185/rkZKKDRbnGqqg2fjd5iPYDS4syy.jpg",
+   "character": "Mycroft Holmes",
+   "episodes": 11
+  },
+  {
+   "id": 125660,
+   "name": "Andrew Scott",
+   "photo": "https://image.tmdb.org/t/p/w185/4F8XpjyQCvtuu21WFm5d8RF5Rl.jpg",
+   "character": "Jim Moriarty",
+   "episodes": 8
+  },
+  {
+   "id": 199522,
+   "name": "Amanda Abbington",
+   "photo": "https://image.tmdb.org/t/p/w185/aANxORdYZkGTUvhWOBAXk4iM92t.jpg",
+   "character": "Mary Morstan",
+   "episodes": 6
+  },
+  {
+   "id": 28477,
+   "name": "Jonathan Aris",
+   "photo": "https://image.tmdb.org/t/p/w185/e3mdBI4oCXwf4locFbPKwHsAjaI.jpg",
+   "character": "Dr Anderson",
+   "episodes": 4
+  },
+  {
+   "id": 21679,
+   "name": "Vinette Robinson",
+   "photo": "https://image.tmdb.org/t/p/w185/8hhfJbSfsD4T8o82bHuR1kIElpJ.jpg",
+   "character": "Sgt Sally Donovan",
+   "episodes": 4
+  },
+  {
+   "id": 31427,
+   "name": "Tanya Moodie",
+   "photo": "https://image.tmdb.org/t/p/w185/2q8dUtZuZZzb6pgD4ptKvRu5Dew.jpg",
+   "character": "Ella",
+   "episodes": 3
+  },
+  {
+   "id": 71158,
+   "name": "Lars Mikkelsen",
+   "photo": "https://image.tmdb.org/t/p/w185/xw3bJxjf8yT8TS8zigEGWQYSaXH.jpg",
+   "character": "Charles Magnussen",
+   "episodes": 3
+  },
+  {
+   "id": 30083,
+   "name": "Lindsay Duncan",
+   "photo": "https://image.tmdb.org/t/p/w185/sgyf4vOUs5KlRmp4Uuw7UXKjU2b.jpg",
+   "character": "Lady Smallwood",
+   "episodes": 3
+  },
+  {
+   "id": 10701,
+   "name": "Simon Kunz",
+   "photo": "https://image.tmdb.org/t/p/w185/7Kh3IbRU4bmeiH210CgHu9lofo7.jpg",
+   "character": "Sir Edwin",
+   "episodes": 3
+  },
+  {
+   "id": 96182,
+   "name": "Timothy Carlton",
+   "photo": "https://image.tmdb.org/t/p/w185/oJb6HEzjR1XvglqdMwEqFFZhfbi.jpg",
+   "character": "Mr. Holmes",
+   "episodes": 3
+  },
+  {
+   "id": 100099,
+   "name": "Wanda Ventham",
+   "photo": "https://image.tmdb.org/t/p/w185/yTFk2UIqwHhvs3Gt9ieE1hPdVEB.jpg",
+   "character": "Mrs. Holmes",
+   "episodes": 3
+  },
+  {
+   "id": 139946,
+   "name": "Lisa McAllister",
+   "photo": "https://image.tmdb.org/t/p/w185/65TfDaiIFnntHilAJVaYTgah4B1.jpg",
+   "character": "Anthea",
+   "episodes": 3
+  },
+  {
+   "id": 1237956,
+   "name": "Sian Brooke",
+   "photo": "https://image.tmdb.org/t/p/w185/99mPsHpcFoUqhXNHsPVL5qD8nN2.jpg",
+   "character": "Eurus Holmes / Elizabeth",
+   "episodes": 3
+  },
+  {
+   "id": 213083,
+   "name": "Lara Pulver",
+   "photo": "https://image.tmdb.org/t/p/w185/uacMDTL4YnuJD6frGF35CHLFh43.jpg",
+   "character": "Irene Adler",
+   "episodes": 2
+  },
+  {
+   "id": 25655,
+   "name": "Zoe Telford",
+   "photo": "https://image.tmdb.org/t/p/w185/3oFNtRDlyUURPukWLSgkyc5rFk6.jpg",
+   "character": "Sarah",
+   "episodes": 2
+  },
+  {
+   "id": 1349801,
+   "name": "Ed Birch",
+   "photo": "https://image.tmdb.org/t/p/w185/k3CBVC3PVrcih7Q9xlySlqE8pMh.jpg",
+   "character": "Tom",
+   "episodes": 2
+  },
+  {
+   "id": 1484835,
+   "name": "Yasmine Akram",
+   "photo": "https://image.tmdb.org/t/p/w185/z1E8VrBHVzf3LnUaDmLiyToQIj7.jpg",
+   "character": "Janine",
+   "episodes": 2
+  },
+  {
+   "id": 1214973,
+   "name": "Paul Chequer",
+   "photo": "https://image.tmdb.org/t/p/w185/wqc2RNzEjNWiTkTQdf5x3fV0wLc.jpg",
+   "character": "DI Dimmock",
+   "episodes": 2
+  },
+  {
+   "id": 75066,
+   "name": "Tom Brooke",
+   "photo": "https://image.tmdb.org/t/p/w185/pUQ3KyfTLPLkBP8KvCcwEyHUMB7.jpg",
+   "character": "Bill Wiggins",
+   "episodes": 2
+  }
+ ],
+ "crew": [
+  {
+   "id": 34546,
+   "name": "Mark Gatiss",
+   "photo": "https://image.tmdb.org/t/p/w185/rkZKKDRbnGqqg2fjd5iPYDS4syy.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 146459,
+   "name": "Steven Moffat",
+   "photo": "https://image.tmdb.org/t/p/w185/fjW3laJlDnHxQbuj9LLc6EYEDy.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 6489,
+   "name": "David Arnold",
+   "photo": "https://image.tmdb.org/t/p/w185/uMpcUexKclVxIex8aXXXOfmzVbO.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 199526,
+   "name": "Michael Price",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 1247499,
+   "name": "Bethan Jones",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 69007,
+   "name": "Beryl Vertue",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 544383,
+   "name": "Rebecca Eaton",
+   "photo": "https://image.tmdb.org/t/p/w185/ppXZzObx9sg5ReZkTkMM2CfdN5Z.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 2291,
+   "name": "Paul McGuigan",
+   "photo": "https://image.tmdb.org/t/p/w185/8mvSSW9LWnORFvClg4sdHfM1zZJ.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1247498,
+   "name": "Steve Thompson",
+   "photo": "https://image.tmdb.org/t/p/w185/5doamJdufdux6qSjNC48ITsUlHb.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 42274,
+   "name": "Nick Hurran",
+   "photo": "https://image.tmdb.org/t/p/w185/eE7RYTPnICZlGLIX02GRj5CfMk6.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 113273,
+   "name": "Jeremy Lovering",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 56891,
+   "name": "Rachel Talalay",
+   "photo": "https://image.tmdb.org/t/p/w185/zPK5SDFQO9BFOp5I9knh1pCQlEs.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1231927,
+   "name": "Colm McCarthy",
+   "photo": "https://image.tmdb.org/t/p/w185/iTVWq0wCVoKf6pfrJvdTlVWyems.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 136505,
+   "name": "Benjamin Caron",
+   "photo": "https://image.tmdb.org/t/p/w185/87MIhTWrhTCX66u1GBcTcGRwhru.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1230430,
+   "name": "Toby Haynes",
+   "photo": "https://image.tmdb.org/t/p/w185/dGYjPeDbn6hlUhzxlWSdCSpZnw4.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1216417,
+   "name": "Euros Lyn",
+   "photo": "https://image.tmdb.org/t/p/w185/fJBgfdk5SlcZkrFulGvwovjw9tH.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:36:52.086Z"
+}

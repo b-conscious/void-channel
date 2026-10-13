@@ -1,0 +1,322 @@
+{
+ "show": "Vampirina: Teenage Vampire",
+ "slug": "vampirina-teenage-vampire",
+ "tmdbId": 275722,
+ "cast": [
+  {
+   "id": 2775764,
+   "name": "Kenzi Richardson",
+   "photo": "https://image.tmdb.org/t/p/w185/jlZWoPz2iXTI1GS7YUOQd2PdFNe.jpg",
+   "character": "Vee",
+   "episodes": 22
+  },
+  {
+   "id": 5610791,
+   "name": "Jiwon Lee",
+   "photo": "https://image.tmdb.org/t/p/w185/4yEHqiKtx97c67klgVfnJuliM5h.jpg",
+   "character": "Sophie",
+   "episodes": 22
+  },
+  {
+   "id": 5035608,
+   "name": "Faith Hedley",
+   "photo": "https://image.tmdb.org/t/p/w185/cwTJqvXv99lGtzr5jIz16Sx2zH8.jpg",
+   "character": "Britney",
+   "episodes": 22
+  },
+  {
+   "id": 3227332,
+   "name": "Shaun Dixon",
+   "photo": "https://image.tmdb.org/t/p/w185/ltYinkTJlBli4oHfzhE5orK2zvl.jpg",
+   "character": "Elijah",
+   "episodes": 22
+  },
+  {
+   "id": 5035607,
+   "name": "Milo Maharlika",
+   "photo": "https://image.tmdb.org/t/p/w185/aCaitDn8XqSz7eCwwFe2tEI3gg0.jpg",
+   "character": "Demi",
+   "episodes": 22
+  },
+  {
+   "id": 1214135,
+   "name": "Kim Coles",
+   "photo": "https://image.tmdb.org/t/p/w185/pWhOZlXDT05Tltd9IKfZIu7jm8K.jpg",
+   "character": "Dean Merriweather",
+   "episodes": 14
+  },
+  {
+   "id": 5392948,
+   "name": "Ava Jean",
+   "photo": "https://image.tmdb.org/t/p/w185/cqn311bJW7bqFpELolaIMDS2JWQ.jpg",
+   "character": "Hazel",
+   "episodes": 6
+  },
+  {
+   "id": 2043430,
+   "name": "Jenna Davis",
+   "photo": "https://image.tmdb.org/t/p/w185/4l5Ac5heS8pVNOtHwyjaYkgp6uF.jpg",
+   "character": "Megan",
+   "episodes": 5
+  },
+  {
+   "id": 1234708,
+   "name": "Jodie Sweetin",
+   "photo": "https://image.tmdb.org/t/p/w185/tzeuWuShOHnDWVaZ0gN02QQvUU5.jpg",
+   "character": "Sorcerer Queen",
+   "episodes": 4
+  },
+  {
+   "id": 1224218,
+   "name": "Kate Reinders",
+   "photo": "https://image.tmdb.org/t/p/w185/turhndWj4dm2gscod8NgwXtqQq6.jpg",
+   "character": "Oxana Hauntley",
+   "episodes": 3
+  },
+  {
+   "id": 1407517,
+   "name": "Jeff Meacham",
+   "photo": "https://image.tmdb.org/t/p/w185/w0qfK8b4Tl4sTeKc5CTUauXZrDj.jpg",
+   "character": "Boris Hauntley",
+   "episodes": 3
+  },
+  {
+   "id": 5798558,
+   "name": "Hannah Whitley",
+   "photo": "https://image.tmdb.org/t/p/w185/8iufQJokHKYmNt6PjXN91l2leN0.jpg",
+   "character": "Moriah",
+   "episodes": 3
+  },
+  {
+   "id": 1947330,
+   "name": "Ariel Martin",
+   "photo": "https://image.tmdb.org/t/p/w185/1Noook0POiPLOS6ydMFOEOteJkH.jpg",
+   "character": "Millie Eyelash",
+   "episodes": 2
+  },
+  {
+   "id": 3896265,
+   "name": "Jon Martens",
+   "photo": "https://image.tmdb.org/t/p/w185/b4elctaKo9QzUmo60F5a2gXKCCT.jpg",
+   "character": "Lucien",
+   "episodes": 2
+  },
+  {
+   "id": 5687292,
+   "name": "Malia Richardson",
+   "photo": null,
+   "character": "Dancer",
+   "episodes": 1
+  },
+  {
+   "id": 5687293,
+   "name": "Grace Schnitzius",
+   "photo": "https://image.tmdb.org/t/p/w185/izOWaLz5bbnrrbniIv5cUQYZV6v.jpg",
+   "character": "Crowd Member #2",
+   "episodes": 1
+  },
+  {
+   "id": 3345637,
+   "name": "Rhied De Castro",
+   "photo": null,
+   "character": "Crowd Member #1",
+   "episodes": 1
+  },
+  {
+   "id": 3008596,
+   "name": "Romyn Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/w1AAFgY75bCxFHEiSgVDz0vNxNt.jpg",
+   "character": "Choir Member #1",
+   "episodes": 1
+  },
+  {
+   "id": 3030447,
+   "name": "Leila Geyfman",
+   "photo": "https://image.tmdb.org/t/p/w185/hFODvZA1nq0peE2PXKNlbG150LY.jpg",
+   "character": "Choir Member #2",
+   "episodes": 1
+  },
+  {
+   "id": 5687300,
+   "name": "Georgianne Snow Conti",
+   "photo": null,
+   "character": "Choir Member #3",
+   "episodes": 1
+  },
+  {
+   "id": 3387856,
+   "name": "Janice LeAnn Brown",
+   "photo": "https://image.tmdb.org/t/p/w185/7lTiuUJ5XoMMVQaSuuHf0mWeEy5.jpg",
+   "character": "Billie",
+   "episodes": 1
+  },
+  {
+   "id": 1881140,
+   "name": "Mykal-Michelle Harris",
+   "photo": "https://image.tmdb.org/t/p/w185/4TvVJYo8gEks8cegfNoZogXJgp2.jpg",
+   "character": "Ruby",
+   "episodes": 1
+  },
+  {
+   "id": 3494816,
+   "name": "Aariq Manji",
+   "photo": "https://image.tmdb.org/t/p/w185/h4kJrBxmnmMJJOBgIDEiBG8yTOM.jpg",
+   "character": "Cody",
+   "episodes": 1
+  },
+  {
+   "id": 5708120,
+   "name": "Audrey Kate Winter",
+   "photo": "https://image.tmdb.org/t/p/w185/nEdCImkZ3Oo2OLhjHxoKGNpgD1E.jpg",
+   "character": "Flower Girl",
+   "episodes": 1
+  }
+ ],
+ "crew": [
+  {
+   "id": 1214818,
+   "name": "Randi Barnes",
+   "photo": null,
+   "jobs": [
+    "Creator"
+   ]
+  },
+  {
+   "id": 1982215,
+   "name": "Tim Federle",
+   "photo": "https://image.tmdb.org/t/p/w185/1GHlDYkoLDk5EaHFG7jxXWBpKXB.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 1216482,
+   "name": "David Hoge",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 5621601,
+   "name": "Bronwyn North-Reist",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 1216481,
+   "name": "Dan Cross",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 1557673,
+   "name": "Meg DeLoatch",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 1365115,
+   "name": "Rebecca Kneubuhl",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 228732,
+   "name": "Jonathan Judge",
+   "photo": "https://image.tmdb.org/t/p/w185/wp92hrQc213wfnXvqZmbqHG4R3u.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 63467,
+   "name": "Danielle Fishel",
+   "photo": "https://image.tmdb.org/t/p/w185/q842t0KZtSie5eWfaXcuHoDgEK1.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 2074493,
+   "name": "Jody Margolin Hahn",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1947333,
+   "name": "Robbie Countryman",
+   "photo": "https://image.tmdb.org/t/p/w185/bojjJmbyP5KrT1qpWYG0R9lM3XO.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 38692,
+   "name": "Paul Hoen",
+   "photo": "https://image.tmdb.org/t/p/w185/1Lz4tViISXAH41Fv4jSiMyQXOqy.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 2970859,
+   "name": "Morenike Joela Evans",
+   "photo": "https://image.tmdb.org/t/p/w185/k0mhu97c2eBXXHTYEM1uJTjHEBH.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 33490,
+   "name": "Phill Lewis",
+   "photo": "https://image.tmdb.org/t/p/w185/8RIWwUZrIoDabtQjMJ5qx3ZOHjE.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 157047,
+   "name": "Kimberly McCullough",
+   "photo": "https://image.tmdb.org/t/p/w185/bhLjAkYh931tg1VC8nHGFzAgCfb.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 2937040,
+   "name": "Farhan Arshad",
+   "photo": "https://image.tmdb.org/t/p/w185/9QFPOoEaikqWAgs622uEbzy6bRj.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:35:50.888Z"
+}

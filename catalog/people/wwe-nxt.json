@@ -1,0 +1,271 @@
+{
+ "show": "WWE NXT",
+ "slug": "wwe-nxt",
+ "tmdbId": 31991,
+ "cast": [
+  {
+   "id": 543600,
+   "name": "Darren Matthews",
+   "photo": "https://image.tmdb.org/t/p/w185/4VKUT5JL83SqbaN6O14uamzCMAi.jpg",
+   "character": "William Regal",
+   "episodes": 311
+  },
+  {
+   "id": 2131240,
+   "name": "Victor Travagliante",
+   "photo": "https://image.tmdb.org/t/p/w185/vACrT7chzRwbI4csy4PEhH7Gmlu.jpg",
+   "character": "Vic Joseph",
+   "episodes": 288
+  },
+  {
+   "id": 1425119,
+   "name": "John Gargano",
+   "photo": "https://image.tmdb.org/t/p/w185/9UhjRh87SfQUUIRIUuQEvKoqrNM.jpg",
+   "character": "Johnny Gargano",
+   "episodes": 176
+  },
+  {
+   "id": 3317606,
+   "name": "Taylor Grado",
+   "photo": "https://image.tmdb.org/t/p/w185/bov2nNCX8kReSy5bRARakuwb9jh.jpg",
+   "character": "Jacy Jayne",
+   "episodes": 171
+  },
+  {
+   "id": 543599,
+   "name": "Booker Huffman, Jr.",
+   "photo": "https://image.tmdb.org/t/p/w185/5s5s4IWBPs7MjUVPLGpG4HCRUea.jpg",
+   "character": "Booker T",
+   "episodes": 158
+  },
+  {
+   "id": 3322922,
+   "name": "Joe Ariola",
+   "photo": "https://image.tmdb.org/t/p/w185/8u0nIFDmALE3Q4B0ZsxFcyCbg5h.jpg",
+   "character": "Tony D'Angelo",
+   "episodes": 157
+  },
+  {
+   "id": 3572594,
+   "name": "Mitchell Lavalley",
+   "photo": "https://image.tmdb.org/t/p/w185/vdbm4Hri88kJwwQREqIuJi0XWKY.jpg",
+   "character": "Channing Lorenzo / Channing \"Stacks\" Lorenzo",
+   "episodes": 144
+  },
+  {
+   "id": 3322935,
+   "name": "Matrick Belton",
+   "photo": "https://image.tmdb.org/t/p/w185/57EGguG5f6KXY8MlMEklgHZSsyw.jpg",
+   "character": "Trick  Williams / Trick Williams",
+   "episodes": 143
+  },
+  {
+   "id": 565426,
+   "name": "Stuart Bennett",
+   "photo": "https://image.tmdb.org/t/p/w185/hUzqgSJKfYY4bzduJQvGsbJFOpa.jpg",
+   "character": "Wade Barrett",
+   "episodes": 137
+  },
+  {
+   "id": 2310927,
+   "name": "Theresa Lee Schuessler",
+   "photo": "https://image.tmdb.org/t/p/w185/gQnOanvZC78uD35ZFdxCnaD2hTL.jpg",
+   "character": "Tenilla Price / Fallon Henley",
+   "episodes": 131
+  },
+  {
+   "id": 568541,
+   "name": "Elizabeth Copeland",
+   "photo": "https://image.tmdb.org/t/p/w185/i5N195CnGdvPjfitZyqWj7KyttV.jpg",
+   "character": "",
+   "episodes": 126
+  },
+  {
+   "id": 1425158,
+   "name": "Tommaso Whitney",
+   "photo": "https://image.tmdb.org/t/p/w185/fgLAcA8d9y5NgwA4LM5Xn4ThG5i.jpg",
+   "character": "Tommaso Ciampa / Ciampa",
+   "episodes": 118
+  },
+  {
+   "id": 1275398,
+   "name": "Christopher Lindsey",
+   "photo": "https://image.tmdb.org/t/p/w185/8uCwxy4nZzlRhUrDnVjJMBSa2hk.jpg",
+   "character": "Roderick Strong",
+   "episodes": 117
+  },
+  {
+   "id": 1275408,
+   "name": "Kyle Greenwood",
+   "photo": "https://image.tmdb.org/t/p/w185/vSdE4zRcoDbURjYLXkPMFppP92d.jpg",
+   "character": "Kyle O'Reilly",
+   "episodes": 116
+  },
+  {
+   "id": 1498078,
+   "name": "Ronnie Arneill",
+   "photo": "https://image.tmdb.org/t/p/w185/c8hLXucTC1JCeD4tUino4nOJuLd.jpg",
+   "character": "Sean Spears / Dillinger / TYE DILLINGER",
+   "episodes": 113
+  },
+  {
+   "id": 3975566,
+   "name": "Maddie Knisley",
+   "photo": "https://image.tmdb.org/t/p/w185/p4WgAW9siBhUSKazz8UZd4uv4xX.jpg",
+   "character": "Thea Hail",
+   "episodes": 112
+  },
+  {
+   "id": 4398654,
+   "name": "Lea Mitchell",
+   "photo": "https://image.tmdb.org/t/p/w185/fSxHbdDJUGlNBFYUMZIL2yaxZhR.jpg",
+   "character": "Kelani Jordan / Kelani  Jordan",
+   "episodes": 107
+  },
+  {
+   "id": 2027375,
+   "name": "Brian Pillman Jr.",
+   "photo": "https://image.tmdb.org/t/p/w185/nWuTRdbTydcvmpsOH5Ridkpsz9C.jpg",
+   "character": "Lexis King",
+   "episodes": 107
+  },
+  {
+   "id": 1415407,
+   "name": "Ryan Parmeter",
+   "photo": "https://image.tmdb.org/t/p/w185/4m8OTWEMrJlkkQLJ9t9Ha80VC9.jpg",
+   "character": "Conor O'Brian / Konnor",
+   "episodes": 106
+  },
+  {
+   "id": 2276990,
+   "name": "Carla Gonzalez",
+   "photo": "https://image.tmdb.org/t/p/w185/zNTuthS6e0iAlpxHoAtlJet4LBK.jpg",
+   "character": "Roxanne Perez",
+   "episodes": 106
+  },
+  {
+   "id": 1275410,
+   "name": "Austin Jenkins",
+   "photo": "https://image.tmdb.org/t/p/w185/kYbcizAtcCPKlgJ5MBJN3yAOx0Q.jpg",
+   "character": "Adam Cole",
+   "episodes": 104
+  },
+  {
+   "id": 4673690,
+   "name": "Natalie Holland",
+   "photo": "https://image.tmdb.org/t/p/w185/eJUddSAFR7vcLYRqoiPbIOqBomb.jpg",
+   "character": "Tatum Paxley",
+   "episodes": 104
+  },
+  {
+   "id": 1566516,
+   "name": "Peter England",
+   "photo": "https://image.tmdb.org/t/p/w185/8iGu0aBCI9UCE0zH9UvI8sX3qyY.jpg",
+   "character": "Pete Dunne / Rayo Americano",
+   "episodes": 103
+  },
+  {
+   "id": 4673667,
+   "name": "Valerie Loureda",
+   "photo": "https://image.tmdb.org/t/p/w185/vEsNtlFqPT9hN7aayQcSRxpnYLv.jpg",
+   "character": "Lola Vice",
+   "episodes": 100
+  }
+ ],
+ "crew": [
+  {
+   "id": 115788,
+   "name": "Paul Levesque",
+   "photo": "https://image.tmdb.org/t/p/w185/gOeQvjY8B9E81f3hDjOTmxx9ig4.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 512
+  },
+  {
+   "id": 57342,
+   "name": "Vince McMahon",
+   "photo": "https://image.tmdb.org/t/p/w185/3m4Z7YwnTqgLlQWP7A7TgYOJrj7.jpg",
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 6242985,
+   "name": "Johnny Russo",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 382
+  },
+  {
+   "id": 6427074,
+   "name": "Joe Belcastro",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 270
+  },
+  {
+   "id": 1940975,
+   "name": "Ryan Ward",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 156
+  },
+  {
+   "id": 1155264,
+   "name": "Virgil Runnels",
+   "photo": "https://image.tmdb.org/t/p/w185/ot44NVdr2KjiLbrEJqeC37jibzB.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 156
+  },
+  {
+   "id": 4601027,
+   "name": "Lee Fitting",
+   "photo": "https://image.tmdb.org/t/p/w185/yrbMchC5yuCk5uhmo6KBH5rSuBx.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 111
+  },
+  {
+   "id": 112219,
+   "name": "Michael Hickenbottom",
+   "photo": "https://image.tmdb.org/t/p/w185/tWe1xKyZwzc366WXLOr7xTVckBB.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 111
+  },
+  {
+   "id": 1076828,
+   "name": "Jenifer Bloodsworth",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1076819,
+   "name": "Christopher DeJoseph",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:44:34.870Z"
+}

@@ -1,0 +1,326 @@
+{
+ "show": "Godfather of Harlem",
+ "slug": "godfather-of-harlem",
+ "tmdbId": 79086,
+ "cast": [
+  {
+   "id": 2178,
+   "name": "Forest Whitaker",
+   "photo": "https://image.tmdb.org/t/p/w185/4w7l5JUwnwFNBy7J93ZwYN1nihm.jpg",
+   "character": "Ellsworth 'Bumpy' Johnson",
+   "episodes": 40
+  },
+  {
+   "id": 1181354,
+   "name": "Ilfenesh Hadera",
+   "photo": "https://image.tmdb.org/t/p/w185/esa2Y2tE3TsoGZtN449IsGK3ZeG.jpg",
+   "character": "Mayme Johnson",
+   "episodes": 40
+  },
+  {
+   "id": 2252709,
+   "name": "Antoinette Crowe-Legacy",
+   "photo": "https://image.tmdb.org/t/p/w185/3NLDeJ3bnUjPqvZAG7Wnq5HUpTV.jpg",
+   "character": "Elise Johnson",
+   "episodes": 40
+  },
+  {
+   "id": 1192759,
+   "name": "Lucy Fry",
+   "photo": "https://image.tmdb.org/t/p/w185/lCVsNdEhjmzRij5T2tRkjgktKOW.jpg",
+   "character": "Stella Gigante",
+   "episodes": 40
+  },
+  {
+   "id": 1333665,
+   "name": "Elvis Nolasco",
+   "photo": "https://image.tmdb.org/t/p/w185/oOTqaaWCq2oIU7EbuX3hU6pzFch.jpg",
+   "character": "Nat Pettigrew",
+   "episodes": 32
+  },
+  {
+   "id": 1392775,
+   "name": "Erik LaRay Harvey",
+   "photo": "https://image.tmdb.org/t/p/w185/kd1Vxi8hHuh35dXtq2fC4SP5aOU.jpg",
+   "character": "Delbert C. 'Del' Chance",
+   "episodes": 30
+  },
+  {
+   "id": 2030032,
+   "name": "Markuann Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/2PSafu0Ny2E18JlVSqsClu9UcHj.jpg",
+   "character": "Junie Byrd",
+   "episodes": 28
+  },
+  {
+   "id": 7132,
+   "name": "Vincent D'Onofrio",
+   "photo": "https://image.tmdb.org/t/p/w185/qkyiLolEqYMGH25xD4sFIXAjZQB.jpg",
+   "character": "Vincent 'Chin' Gigante",
+   "episodes": 24
+  },
+  {
+   "id": 2214765,
+   "name": "Demi Singleton",
+   "photo": "https://image.tmdb.org/t/p/w185/A11knIgd0doXeZYdiwIpNkskRoy.jpg",
+   "character": "Margaret Johnson",
+   "episodes": 21
+  },
+  {
+   "id": 1411599,
+   "name": "Nigel Thatch",
+   "photo": "https://image.tmdb.org/t/p/w185/7Cbo7RevgwemhqaP96K70iQlwUM.jpg",
+   "character": "Malcolm X",
+   "episodes": 20
+  },
+  {
+   "id": 21660,
+   "name": "Rafi Gavron",
+   "photo": "https://image.tmdb.org/t/p/w185/avCWoO9fLwEhbT6cvu0TJcSj49g.jpg",
+   "character": "Ernie Nuzi",
+   "episodes": 20
+  },
+  {
+   "id": 53259,
+   "name": "Michael Raymond-James",
+   "photo": "https://image.tmdb.org/t/p/w185/1rSn1xKAwkJ19uFLyLovW9sN7Jo.jpg",
+   "character": "Joe Colombo",
+   "episodes": 20
+  },
+  {
+   "id": 17920,
+   "name": "Kathrine Narducci",
+   "photo": "https://image.tmdb.org/t/p/w185/bOxhHtEtmhdfVmnL0KyG4SPDlwJ.jpg",
+   "character": "Olympia Gigante",
+   "episodes": 15
+  },
+  {
+   "id": 4808,
+   "name": "Giancarlo Esposito",
+   "photo": "https://image.tmdb.org/t/p/w185/MJOo4QZgMAb3y8QzOUDVFQusQZ.jpg",
+   "character": "Adam Clayton Powell Jr.",
+   "episodes": 14
+  },
+  {
+   "id": 7004,
+   "name": "Paul Sorvino",
+   "photo": "https://image.tmdb.org/t/p/w185/1gF0UskusEdDcNaBDJ2CMsz5Agi.jpg",
+   "character": "Frank Costello",
+   "episodes": 13
+  },
+  {
+   "id": 2605256,
+   "name": "Grace Porter",
+   "photo": "https://image.tmdb.org/t/p/w185/yHzx4P96FFpMrcLRUfWtbVNPr90.jpg",
+   "character": "Betty Shabazz",
+   "episodes": 11
+  },
+  {
+   "id": 75614,
+   "name": "Afi Bijou",
+   "photo": "https://image.tmdb.org/t/p/w185/9p9g6pHX8lBBsDDyPaxkKNHaUPT.jpg",
+   "character": "Sister Marny",
+   "episodes": 11
+  },
+  {
+   "id": 1344361,
+   "name": "Kelvin Harrison Jr.",
+   "photo": "https://image.tmdb.org/t/p/w185/uRViX11fZQGmO9p91ZH7QVh2l5y.jpg",
+   "character": "Teddy Greene",
+   "episodes": 10
+  },
+  {
+   "id": 1165240,
+   "name": "Jason Alan Carvell",
+   "photo": "https://image.tmdb.org/t/p/w185/7QI8OcXOgVSsaQWlJ4FC3PbbRsn.jpg",
+   "character": "Malcolm X",
+   "episodes": 10
+  },
+  {
+   "id": 1466175,
+   "name": "Korey Jackson",
+   "photo": "https://image.tmdb.org/t/p/w185/soFSe3Drja4AFwVvrdEps2c98bR.jpg",
+   "character": "Livingston Wingate",
+   "episodes": 9
+  },
+  {
+   "id": 1698872,
+   "name": "Maurice Jones",
+   "photo": "https://image.tmdb.org/t/p/w185/rwLwUOYdxHSidMyWZrbnhOfdlX.jpg",
+   "character": "Captain Omar",
+   "episodes": 9
+  },
+  {
+   "id": 28033,
+   "name": "Arthur J. Nascarella",
+   "photo": "https://image.tmdb.org/t/p/w185/76LAigu7y50aPIhkAJbJZIC8p70.jpg",
+   "character": "Carlo Gambino",
+   "episodes": 9
+  },
+  {
+   "id": 75604,
+   "name": "Yul Vazquez",
+   "photo": "https://image.tmdb.org/t/p/w185/chAxqgeJVoRoQukw7zRYgtlo4KI.jpg",
+   "character": "José Miguel Battle",
+   "episodes": 9
+  },
+  {
+   "id": 131119,
+   "name": "Bo Dietl",
+   "photo": "https://image.tmdb.org/t/p/w185/6mG0MPKlyccmmbunnVBw4qr5VB6.jpg",
+   "character": "Thomas Lucchese",
+   "episodes": 8
+  }
+ ],
+ "crew": [
+  {
+   "id": 64506,
+   "name": "Chris Brancato",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 1492029,
+   "name": "Paul Eckstein",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 69671,
+   "name": "James Acheson",
+   "photo": "https://image.tmdb.org/t/p/w185/ngNfOYl6UwzpVkApG0rMe4Cdhkr.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 1280963,
+   "name": "Nina Yang Bongiovi",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 2178,
+   "name": "Forest Whitaker",
+   "photo": "https://image.tmdb.org/t/p/w185/4w7l5JUwnwFNBy7J93ZwYN1nihm.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 2030032,
+   "name": "Markuann Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/2PSafu0Ny2E18JlVSqsClu9UcHj.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 4140,
+   "name": "Mark Isham",
+   "photo": "https://image.tmdb.org/t/p/w185/ayQ1j1T3wFk44kliy1u4atTT8um.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 3113,
+   "name": "Guillermo Navarro",
+   "photo": "https://image.tmdb.org/t/p/w185/snJxTbayKfmmCjM2WDJ8lHHRgYm.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 58461,
+   "name": "Michael Panes",
+   "photo": "https://image.tmdb.org/t/p/w185/gw3rt6rMitHeQZght3IW2Aexs9q.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 55116,
+   "name": "Joe Chappelle",
+   "photo": "https://image.tmdb.org/t/p/w185/tzKaHCZPh1u28yjIteXsW9pQQGf.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 2042121,
+   "name": "Dean Imperial",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 66637,
+   "name": "Lily Mariye",
+   "photo": "https://image.tmdb.org/t/p/w185/wxDElV4SK5AOIEfgSYQexNV5uth.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1509382,
+   "name": "Jack Donnelly",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 945045,
+   "name": "Carl Seaton",
+   "photo": "https://image.tmdb.org/t/p/w185/1s1HaSrxnpsD7CcRMF60FgYPWDP.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1261680,
+   "name": "Rob J. Greenlea",
+   "photo": "https://image.tmdb.org/t/p/w185/erc1KAuv2s6S1OAZ3POtZxbU9lt.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 2008197,
+   "name": "Tanya Barfield",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:34:28.252Z"
+}

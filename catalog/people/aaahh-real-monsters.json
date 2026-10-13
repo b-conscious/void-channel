@@ -1,0 +1,331 @@
+{
+ "show": "Aaahh!!! Real Monsters",
+ "slug": "aaahh-real-monsters",
+ "tmdbId": 2429,
+ "cast": [
+  {
+   "id": 81178,
+   "name": "Charlie Adler",
+   "photo": "https://image.tmdb.org/t/p/w185/hVENHdlEqsX6vhBW4MTpfYEFFQ3.jpg",
+   "character": "Ickis (voice)",
+   "episodes": 102
+  },
+  {
+   "id": 58136,
+   "name": "Christine Cavanaugh",
+   "photo": "https://image.tmdb.org/t/p/w185/8fDGffuBfbMTRTALHpSQQvuzSuO.jpg",
+   "character": "Oblina (voice)",
+   "episodes": 102
+  },
+  {
+   "id": 1231401,
+   "name": "David Eccles",
+   "photo": null,
+   "character": "Krumm / Snorch (voice)",
+   "episodes": 102
+  },
+  {
+   "id": 19547,
+   "name": "Gregg Berger",
+   "photo": "https://image.tmdb.org/t/p/w185/bMlJUmhblX50gQrnA8XWG7UuaLk.jpg",
+   "character": "The Gromble (voice)",
+   "episodes": 102
+  },
+  {
+   "id": 26485,
+   "name": "Jim Belushi",
+   "photo": "https://image.tmdb.org/t/p/w185/wIvFYH110ER7ukwR0qryQJJDQYH.jpg",
+   "character": "Simon the Monster Hunter (voice)",
+   "episodes": 102
+  },
+  {
+   "id": 60739,
+   "name": "Kath Soucie",
+   "photo": "https://image.tmdb.org/t/p/w185/dSE1JtsdA1aSgIIw415bsXtmkPg.jpg",
+   "character": "Blorp 2+4 / Woman (voice)",
+   "episodes": 102
+  },
+  {
+   "id": 22082,
+   "name": "Lacey Chabert",
+   "photo": "https://image.tmdb.org/t/p/w185/1q9Xe7QVi5oayhPMEiRPgd6FFKG.jpg",
+   "character": "Girl (voice)",
+   "episodes": 102
+  },
+  {
+   "id": 2391,
+   "name": "Michael Dorn",
+   "photo": "https://image.tmdb.org/t/p/w185/6mVjb0YsidC0gW9P8mXMkQirfcK.jpg",
+   "character": "Borl / Chauffer (voice)",
+   "episodes": 102
+  },
+  {
+   "id": 4689,
+   "name": "Bronson Pinchot",
+   "photo": "https://image.tmdb.org/t/p/w185/wjroQcpf1wCYGz5f59xBY56e10y.jpg",
+   "character": "Deitrich Dunlap (voice)",
+   "episodes": 102
+  },
+  {
+   "id": 13472,
+   "name": "Tim Curry",
+   "photo": "https://image.tmdb.org/t/p/w185/8ZsGg3N3OZgxshqLOtA2kl5ckOP.jpg",
+   "character": "Zimbo (voice)",
+   "episodes": 102
+  },
+  {
+   "id": 10409,
+   "name": "Shelley Duvall",
+   "photo": "https://image.tmdb.org/t/p/w185/zwscEWl7QLiOsfsvzGXFjAQCVp3.jpg",
+   "character": "Ocka (voice)",
+   "episodes": 102
+  },
+  {
+   "id": 153896,
+   "name": "Beverly Archer",
+   "photo": "https://image.tmdb.org/t/p/w185/bDV8qVttHZQDoSlTQvLSc8cX4Cn.jpg",
+   "character": "The Library Monster (voice)",
+   "episodes": 102
+  },
+  {
+   "id": 157661,
+   "name": "Edward Winter",
+   "photo": "https://image.tmdb.org/t/p/w185/5i5G10prRVSV5ZFRwsY1cseEPgK.jpg",
+   "character": "Dr. Buzz Kutt (voice)",
+   "episodes": 102
+  },
+  {
+   "id": 1217124,
+   "name": "Billy Vera",
+   "photo": "https://image.tmdb.org/t/p/w185/vyrlTcrtwmIytkrjFnkDOiPvmz7.jpg",
+   "character": "Slickis (voice)",
+   "episodes": 102
+  },
+  {
+   "id": 57418,
+   "name": "Marcia Strassman",
+   "photo": "https://image.tmdb.org/t/p/w185/7pihpMY2GlwpAvpGLRYMbOj2T3Y.jpg",
+   "character": "Harryette (voice)",
+   "episodes": 102
+  },
+  {
+   "id": 34398,
+   "name": "Bill Fagerbakke",
+   "photo": "https://image.tmdb.org/t/p/w185/zntKKc1uT53BnIihmzbq601eWKZ.jpg",
+   "character": "Carl (voice)",
+   "episodes": 102
+  },
+  {
+   "id": 2112,
+   "name": "Brock Peters",
+   "photo": "https://image.tmdb.org/t/p/w185/8KpQAlUFlJuHhgUmGAR6LnzHOhb.jpg",
+   "character": "Snorch's Voicebox (voice) / The Pool (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 19548,
+   "name": "Susan Blu",
+   "photo": "https://image.tmdb.org/t/p/w185/xDtrH8YqqVc11kAUThxG80AaaHP.jpg",
+   "character": "Mom / Hair / Kid 4 (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 1227075,
+   "name": "Aaron Michael Metchik",
+   "photo": "https://image.tmdb.org/t/p/w185/cE3zEW2klqG4DXshcdzxBpeCSCV.jpg",
+   "character": "Kid 3 / Kid 6 (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 12901,
+   "name": "Erik von Detten",
+   "photo": "https://image.tmdb.org/t/p/w185/v0ruIqUUZqXRWTsuui5irfsHMJe.jpg",
+   "character": "Vic / Tough Kid (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 10438,
+   "name": "Jarrett Lennon",
+   "photo": "https://image.tmdb.org/t/p/w185/ny6Pcwtu6nLMszq57lL27ypm5Dv.jpg",
+   "character": "Kid 1 (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 18364,
+   "name": "George Segal",
+   "photo": "https://image.tmdb.org/t/p/w185/nkAMWhWNdCaRp1wPOOsaXuWnwoB.jpg",
+   "character": "J.B. (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 8263,
+   "name": "Andrea Martin",
+   "photo": "https://image.tmdb.org/t/p/w185/lOP6nvTOvqpdHtEMfLCvNqUaRnp.jpg",
+   "character": "Gromble's Mom (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 19146,
+   "name": "Ian Ziering",
+   "photo": "https://image.tmdb.org/t/p/w185/keJ4aYXWzUD1MOTDNrKDAXUstW0.jpg",
+   "character": "Gludge (voice)",
+   "episodes": 1
+  }
+ ],
+ "crew": [
+  {
+   "id": 1212851,
+   "name": "Peter Gaffney",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 36697,
+   "name": "Gábor Csupó",
+   "photo": "https://image.tmdb.org/t/p/w185/h78onamy0s7rDWtlbarRVGZqWF.jpg",
+   "jobs": [
+    "Creator"
+   ]
+  },
+  {
+   "id": 1226917,
+   "name": "Jim Duffy",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 41
+  },
+  {
+   "id": 110873,
+   "name": "Igor Kovalyov",
+   "photo": "https://image.tmdb.org/t/p/w185/bD5ZO27mcCsxNN73M0Rx8RBY2sW.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 1212949,
+   "name": "Mark Palmer",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 1655045,
+   "name": "Andrei Svislotski",
+   "photo": "https://image.tmdb.org/t/p/w185/vvAX2SLhGTtVqLD5EAhNzifX1l6.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 2728203,
+   "name": "Spencer Green",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 4300929,
+   "name": "Mary Williams-Villano",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 377080,
+   "name": "Michael Price",
+   "photo": "https://image.tmdb.org/t/p/w185/2ebO298SRvxI5dj50QO2lmElb0f.jpg",
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 1187397,
+   "name": "Steve Skrovan",
+   "photo": "https://image.tmdb.org/t/p/w185/vuoTuA6WqiT5aQn77PxT5HRwSvo.jpg",
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 4300320,
+   "name": "Rick Bugental",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1731698,
+   "name": "Mark Steen",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 2974338,
+   "name": "Marcy Gray Rubin",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1212954,
+   "name": "Kat Likkel",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 3497277,
+   "name": "David Adam Silverman",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1236113,
+   "name": "David Litt",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:29:53.281Z"
+}

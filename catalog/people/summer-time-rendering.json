@@ -1,0 +1,322 @@
+{
+ "show": "Summer Time Rendering",
+ "slug": "summer-time-rendering",
+ "tmdbId": 117933,
+ "cast": [
+  {
+   "id": 1256603,
+   "name": "Natsuki Hanae",
+   "photo": "https://image.tmdb.org/t/p/w185/alTb0DlcPIbcwM08WSmxFai58sd.jpg",
+   "character": "Shinpei Ajiro (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 2889712,
+   "name": "Anna Nagase",
+   "photo": "https://image.tmdb.org/t/p/w185/gFKRUlUlqTD7jGdysg5IWIvgoCH.jpg",
+   "character": "Ushio Kofune (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 2944458,
+   "name": "Saho Shirasu",
+   "photo": "https://image.tmdb.org/t/p/w185/2iNYxiui27dvP30WiYtVquO1HCN.jpg",
+   "character": "Mio Kofune (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 1072774,
+   "name": "Yoko Hikasa",
+   "photo": "https://image.tmdb.org/t/p/w185/mP3bj0s1gqJ6tCKFLhu4b1CkJj7.jpg",
+   "character": "Hizuru Minakata (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 1253730,
+   "name": "Jin Urayama",
+   "photo": "https://image.tmdb.org/t/p/w185/5D6QFwS5aOk6agnOjLEwpbJoW9Z.jpg",
+   "character": "Ginjiro Nezu (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 1065297,
+   "name": "Kensho Ono",
+   "photo": "https://image.tmdb.org/t/p/w185/wUYJ3HIeygHfh4rAqupE4RPoG3W.jpg",
+   "character": "Sou Hishigata (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 2102121,
+   "name": "Maki Kawase",
+   "photo": "https://image.tmdb.org/t/p/w185/3LgHKyXM33oOtBzmYTDesftIzY0.jpg",
+   "character": "Tokiko Hishigata (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 40451,
+   "name": "Akio Otsuka",
+   "photo": "https://image.tmdb.org/t/p/w185/uH9oiqOOgrsz2zNnouVZ1qPzDyb.jpg",
+   "character": "Seido Hishigata (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 1681,
+   "name": "Tessyo Genda",
+   "photo": "https://image.tmdb.org/t/p/w185/7eJeYv2OCHKAadeFVdabVkpWldo.jpg",
+   "character": "Alain Kofune (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 1264228,
+   "name": "Yoji Ueda",
+   "photo": "https://image.tmdb.org/t/p/w185/fHvIfE0Q7ab0DFlkNVFcXvTKX9y.jpg",
+   "character": "Tetsu Totsumura (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 24647,
+   "name": "Katsuyuki Konishi",
+   "photo": "https://image.tmdb.org/t/p/w185/nYM5cH6U7cp4x9dIzW0enmEKmeV.jpg",
+   "character": "Masahito Karikiri (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 151182,
+   "name": "Misaki Kuno",
+   "photo": "https://image.tmdb.org/t/p/w185/hVtE4gdKaqofYZmXXtlJs4Q9XTL.jpg",
+   "character": "Heine (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 83928,
+   "name": "Rie Kugimiya",
+   "photo": "https://image.tmdb.org/t/p/w185/xHonhNFpTpz9zCVXLAF7D4OuHLv.jpg",
+   "character": "Shiori Kobayakawa (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 1201637,
+   "name": "Yuko Sanpei",
+   "photo": "https://image.tmdb.org/t/p/w185/gms4G7ZRIQYXI9zsorkQr8aHnOU.jpg",
+   "character": "Ryunosuke Minakata (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 3563964,
+   "name": "Mana Nakatomi",
+   "photo": "https://image.tmdb.org/t/p/w185/gN8czkAO88ZJwJGvv3XNqcF0M2o.jpg",
+   "character": "Hamaji (voice) / Festival visitor (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 3535194,
+   "name": "Sakiko Kawai",
+   "photo": "https://image.tmdb.org/t/p/w185/rDdlUIP50QulsZL4MvArsdckPv9.jpg",
+   "character": "Shadow (voice) / Negoro (voice) / Islander (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 3579984,
+   "name": "Ai Yamamoto",
+   "photo": "https://image.tmdb.org/t/p/w185/irBfDlhfWJJn0sBetTjc5ZtvQ1w.jpg",
+   "character": "Asako Kobayakawa (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 3604999,
+   "name": "Rika Hayashi",
+   "photo": "https://image.tmdb.org/t/p/w185/dUJmMX0rt1JUwgFhoyLCVQjsM8t.jpg",
+   "character": "Akemi Ajiro (voice) / Akari (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 3563931,
+   "name": "Ellen Taira",
+   "photo": "https://image.tmdb.org/t/p/w185/8oJ3kUP9eIfevvC76rQwzM2K1A6.jpg",
+   "character": "Festival visitor (voice) / Kogaito (voice) / Telephone announcement (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 3157973,
+   "name": "Hideki Kojima",
+   "photo": "https://image.tmdb.org/t/p/w185/aSvjOhOa4G0ZjZlANXvz7BgSzTj.jpg",
+   "character": "Festival visitor (voice) / Mourner (voice) / Islander (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 1829367,
+   "name": "Yoshihisa Hosokawa",
+   "photo": "https://image.tmdb.org/t/p/w185/fZPVMGzu23D3H1qtxde0gmFAbWh.jpg",
+   "character": "Tatsuo Kobayakawa (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 3535213,
+   "name": "Syota Kaihori",
+   "photo": "https://image.tmdb.org/t/p/w185/b2O0yRutGW35s3Arm4RCL0O3oLb.jpg",
+   "character": "On-board announcement (voice) / Islander (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 1243889,
+   "name": "Takehiro Hasu",
+   "photo": "https://image.tmdb.org/t/p/w185/wGYjmYeRs7EYKIQzOKCFE7P2QLn.jpg",
+   "character": "Nakamura (voice) / Yamato Karikiri (voice) / Radio voice (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 2644897,
+   "name": "Serika Hiromatsu",
+   "photo": "https://image.tmdb.org/t/p/w185/tZdFouOrpbrWiE42HMFDOrA4YJn.jpg",
+   "character": "Teru Toudai (voice)",
+   "episodes": 4
+  }
+ ],
+ "crew": [
+  {
+   "id": 1491863,
+   "name": "Hiroshi Seko",
+   "photo": "https://image.tmdb.org/t/p/w185/zdTUsjMPFEZhygVdKs5rABtHJyk.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 50
+  },
+  {
+   "id": 2201512,
+   "name": "Keigo Hoashi",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 1807005,
+   "name": "Keiichi Okabe",
+   "photo": "https://image.tmdb.org/t/p/w185/o31yytTUabBSvPPs3VBLHPPFq65.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 1504813,
+   "name": "Ryuichi Takada",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 3570336,
+   "name": "Yuu Harima",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1853322,
+   "name": "Tohru Ishida",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1223431,
+   "name": "Junichi Yamamoto",
+   "photo": "https://image.tmdb.org/t/p/w185/wvBXbblwX8tfiCSXAd3e3ggDlNb.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 2750634,
+   "name": "Yoshitsugu Kimura",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 3231991,
+   "name": "Shinji Matsuda",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 3350700,
+   "name": "Jun Shinohara",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1822264,
+   "name": "Oyunam",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 2810268,
+   "name": "Katsuya Oshima",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 3632900,
+   "name": "Chika Nenbe",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 3496826,
+   "name": "Hanako Ueda",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 3059587,
+   "name": "Hayato Sakai",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 2816319,
+   "name": "Ryuta Yamamoto",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:40:18.752Z"
+}

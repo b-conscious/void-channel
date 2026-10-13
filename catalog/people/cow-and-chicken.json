@@ -1,0 +1,328 @@
+{
+ "show": "Cow and Chicken",
+ "slug": "cow-and-chicken",
+ "tmdbId": 3611,
+ "cast": [
+  {
+   "id": 81178,
+   "name": "Charlie Adler",
+   "photo": "https://image.tmdb.org/t/p/w185/hVENHdlEqsX6vhBW4MTpfYEFFQ3.jpg",
+   "character": "Cow / Chicken / The Red Guy / I.R. Baboon (voice)",
+   "episodes": 156
+  },
+  {
+   "id": 95257,
+   "name": "Candi Milo",
+   "photo": "https://image.tmdb.org/t/p/w185/tUjXMG2118Oagj7IjWJDEdmtCRW.jpg",
+   "character": "Mom / Teacher (voice)",
+   "episodes": 156
+  },
+  {
+   "id": 23680,
+   "name": "Dee Bradley Baker",
+   "photo": "https://image.tmdb.org/t/p/w185/9oFnToDZWp0I484s7Ua1EzNQQ2m.jpg",
+   "character": "Dad (voice)",
+   "episodes": 156
+  },
+  {
+   "id": 2391,
+   "name": "Michael Dorn",
+   "photo": "https://image.tmdb.org/t/p/w185/6mVjb0YsidC0gW9P8mXMkQirfcK.jpg",
+   "character": "I.M. Weasel (voice)",
+   "episodes": 156
+  },
+  {
+   "id": 27517,
+   "name": "Howard Morris",
+   "photo": "https://image.tmdb.org/t/p/w185/rwoGFiGtC5oZV9W2cPKtTUt5h0N.jpg",
+   "character": "Flem / Intercom Voice / Pig (voice) / Flem / P.A. Voice (voice) / Flem (voice)",
+   "episodes": 39
+  },
+  {
+   "id": 198,
+   "name": "Dan Castellaneta",
+   "photo": "https://image.tmdb.org/t/p/w185/AmeqWhP4A46AWkM4kVphg6jOTQX.jpg",
+   "character": "Earl / Man #3 (voice) / Earl / Judge (voice) / Earl (voice)",
+   "episodes": 37
+  },
+  {
+   "id": 78798,
+   "name": "Tom Kenny",
+   "photo": "https://image.tmdb.org/t/p/w185/kftXtExrcoTTjyeYmSXJ0Ogr3R7.jpg",
+   "character": "Lawyer / Man (voice) / Patient (voice) / Ghost Boss / Detective / Actress (voice)",
+   "episodes": 37
+  },
+  {
+   "id": 89042,
+   "name": "Susanne Blakeslee",
+   "photo": "https://image.tmdb.org/t/p/w185/5s4vquKADCS90iOiEwgCTZkaQjX.jpg",
+   "character": "Loulabelle / Cat (voice) / Loulabelle / Polar Bear (voice) / Loulabelle / Lady Gunslinger #2 (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 59784,
+   "name": "Carlos Alazraqui",
+   "photo": "https://image.tmdb.org/t/p/w185/rv3ZYwFvMCz6rQNJR4p0wRMbK9U.jpg",
+   "character": "Sumo Guy / Ted (voice) / Bully Twin #1 (voice) / Production Assistant / Jimmy (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 1213976,
+   "name": "Michael Gough",
+   "photo": "https://image.tmdb.org/t/p/w185/a1dGHmgxR6xvnHY1CSw9GN7Yy9Z.jpg",
+   "character": "Admiral Bullets / Farmer / Kid #4 (voice) / Carl (voice) / General Moon Landing / Attendant (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 71535,
+   "name": "Tom Kane",
+   "photo": "https://image.tmdb.org/t/p/w185/sq49aVP56G50Nr5kCL7Ove6Z9jE.jpg",
+   "character": "Voice on TV / Super Hero #1 (voice) / Announcer / Roman Soldier (voice) / Anchor Man (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 1999048,
+   "name": "Marabina Jaimes",
+   "photo": "https://image.tmdb.org/t/p/w185/xhp7Hmz2kGjfLD7UUi2nLLypAjt.jpg",
+   "character": "Girl #1 / Caribou #2 (voice) / Baboon's Sister (voice) / Conchita (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 1346505,
+   "name": "Michael Stanton",
+   "photo": null,
+   "character": "Bug (voice) / Flem's Dad / Trucker (voice) / Jock / Flem's Dad (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 190254,
+   "name": "Kevin Schon",
+   "photo": "https://image.tmdb.org/t/p/w185/cqMh5iClrOHgEOjiJHJJ5PyFPqZ.jpg",
+   "character": "Hyena / Organist (voice) / Waiter / Reporter (voice) / Velociraptor / Peasant (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 154106,
+   "name": "Greg Eagles",
+   "photo": "https://image.tmdb.org/t/p/w185/gHFu8h2l0OPyfozNMjoLhanLzi1.jpg",
+   "character": "Blind Mud Puddle Johnson (voice) / Sergeant Weenie Arms (voice) / Tongue / Wattle (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 15831,
+   "name": "Frank Welker",
+   "photo": "https://image.tmdb.org/t/p/w185/aC37aQtsfZZDZN5y3paDTLJJHCi.jpg",
+   "character": "Horse (voice) / Whale / Squid (voice) / Coyote / Old Man / Man #2 (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 6844,
+   "name": "Dom DeLuise",
+   "photo": "https://image.tmdb.org/t/p/w185/73OOTJaLVq54bEeR1pASfPQLbVH.jpg",
+   "character": "Mayor / Frenchman #3 / Neighbor #2 (voice) / Jean-Paul Beaver / Governor #2 / Owl #2 (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 1054484,
+   "name": "Lauri Fraser",
+   "photo": "https://image.tmdb.org/t/p/w185/g1bNvk5LLnD31bKQwEAVL4w1bSr.jpg",
+   "character": "Lady Fan #2 / Girl (voice) / Mom #2 / Receptionist (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 35349,
+   "name": "Pat Musick",
+   "photo": "https://image.tmdb.org/t/p/w185/rGny7ACgjXXKWZc6Sajyuhe40Xj.jpg",
+   "character": "Woman #1 / Woman #2 / Air Traffic Controller (voice) / Jean Starlet / Caribou #1 (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 976171,
+   "name": "Philip Maurice Hayes",
+   "photo": "https://image.tmdb.org/t/p/w185/gK7Vs6W6acXXWJZCNpWjXLmeHEa.jpg",
+   "character": "Gym Coach (voice) / Buttwipe Walla / Joe (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 24358,
+   "name": "Lori Alan",
+   "photo": "https://image.tmdb.org/t/p/w185/cavATg4fX0zAl2MHwlt1IZei7EI.jpg",
+   "character": "Woman Judge / Woman #2 (voice) / Loreece / Winney (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 81846,
+   "name": "Richard Gautier",
+   "photo": "https://image.tmdb.org/t/p/w185/dEbmkkUJ22d4hD1rtwmLqVNxcsA.jpg",
+   "character": "Red's Dad (voice) / Butts / Rhode Island Red (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 81667,
+   "name": "Jennifer Hale",
+   "photo": "https://image.tmdb.org/t/p/w185/oNQCrdiSm0mABCcE5YaHwuZQK8X.jpg",
+   "character": "Gertrude / Hildegarde / Nora (voice) / Worm / Patient #2 (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 2,
+   "name": "Mark Hamill",
+   "photo": "https://image.tmdb.org/t/p/w185/zMQ93JTLW8KxusKhOlHFZhih3YQ.jpg",
+   "character": "Mayor of Hole (voice) / Vet (voice)",
+   "episodes": 2
+  }
+ ],
+ "crew": [
+  {
+   "id": 1214352,
+   "name": "David Feiss",
+   "photo": "https://image.tmdb.org/t/p/w185/zJyAKAFPph89OnJjrA18ubwxrDt.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Writer"
+   ],
+   "episodes": 156
+  },
+  {
+   "id": 1234393,
+   "name": "Buzz Potamkin",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 156
+  },
+  {
+   "id": 171254,
+   "name": "Michael Ryan",
+   "photo": "https://image.tmdb.org/t/p/w185/vsGhI7EWjNO0tSzu5uBxDQHu3QH.jpg",
+   "jobs": [
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 61
+  },
+  {
+   "id": 81597,
+   "name": "Maxwell Atoms",
+   "photo": "https://image.tmdb.org/t/p/w185/aqyhhgwaEfVU166lWvR8Cxj7tmN.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 29
+  },
+  {
+   "id": 77048,
+   "name": "Steve Marmel",
+   "photo": "https://image.tmdb.org/t/p/w185/sj5nljLMyBfBlmTHZsQALethGTY.jpg",
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 29
+  },
+  {
+   "id": 1234383,
+   "name": "Bill Burnett",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 1214353,
+   "name": "Richard Pursel",
+   "photo": "https://image.tmdb.org/t/p/w185/7TTrLQhN8atck03qZca5KdFeaCe.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 4484306,
+   "name": "Nora Johnson",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 81586,
+   "name": "Robert Alvarez",
+   "photo": "https://image.tmdb.org/t/p/w185/xptJnNsxOGz6tE3eJp1hyAVgOvD.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 92695,
+   "name": "Robin Steele",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 181429,
+   "name": "Monte Young",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 4484361,
+   "name": "Greg Emison",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 2200032,
+   "name": "Victor Ortado",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1947339,
+   "name": "Gary Wilson",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 52139,
+   "name": "Seth MacFarlane",
+   "photo": "https://image.tmdb.org/t/p/w185/8oQJqM51Z0Qtdb7sE6ZfX1peNCB.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1234386,
+   "name": "Pilar Menendez",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:29:38.945Z"
+}

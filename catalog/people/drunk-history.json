@@ -1,0 +1,224 @@
+{
+ "show": "Drunk History",
+ "slug": "drunk-history",
+ "tmdbId": 56219,
+ "cast": [
+  {
+   "id": 62836,
+   "name": "Derek Waters",
+   "photo": "https://image.tmdb.org/t/p/w185/wprfXZe5O2qgtICcHJ27Y2NVz5J.jpg",
+   "character": "Self - Host / Various Characters / C.S. Forester",
+   "episodes": 70
+  },
+  {
+   "id": 2499018,
+   "name": "Bennie Arthur",
+   "photo": null,
+   "character": "Various",
+   "episodes": 13
+  },
+  {
+   "id": 1302218,
+   "name": "Maria Blasucci",
+   "photo": "https://image.tmdb.org/t/p/w185/kej9ut8v6bGmIKBtZQURbC2Oqmq.jpg",
+   "character": "Various",
+   "episodes": 12
+  },
+  {
+   "id": 948762,
+   "name": "Craig Cackowski",
+   "photo": "https://image.tmdb.org/t/p/w185/pomSoRjZJvWyWz4wKvC0sKiErYV.jpg",
+   "character": "Various",
+   "episodes": 12
+  },
+  {
+   "id": 2499019,
+   "name": "Jeremy J. Tutson",
+   "photo": null,
+   "character": "Various",
+   "episodes": 10
+  },
+  {
+   "id": 1349941,
+   "name": "Tymberlee Hill",
+   "photo": "https://image.tmdb.org/t/p/w185/hHfCJyFW1ySGy0Z0JBfAmSmOXFW.jpg",
+   "character": "Various",
+   "episodes": 9
+  },
+  {
+   "id": 80592,
+   "name": "Sarah Burns",
+   "photo": "https://image.tmdb.org/t/p/w185/jiugINKLg7JHTHknwpXTVapZaQD.jpg",
+   "character": "Various",
+   "episodes": 8
+  },
+  {
+   "id": 118599,
+   "name": "Michael Daniel Cassady",
+   "photo": "https://image.tmdb.org/t/p/w185/eTEWzYoIKwQ9KnoZKjvh64pU4Mg.jpg",
+   "character": "Various",
+   "episodes": 7
+  },
+  {
+   "id": 174313,
+   "name": "Adam Nee",
+   "photo": "https://image.tmdb.org/t/p/w185/6mmn1gcZCJR9fO2Wanwjydcp2XF.jpg",
+   "character": "Various",
+   "episodes": 7
+  },
+  {
+   "id": 58737,
+   "name": "Jack McBrayer",
+   "photo": "https://image.tmdb.org/t/p/w185/cbr26xDPEiOuYQxggtCPbu5xhDU.jpg",
+   "character": "Alan Freed / H.R. Haldeman / Clarence Darrow",
+   "episodes": 6
+  },
+  {
+   "id": 61112,
+   "name": "Mike Coleman",
+   "photo": "https://image.tmdb.org/t/p/w185/dNDIR0csB9turkB712DUxeoeoK7.jpg",
+   "character": "Various / Fireman",
+   "episodes": 6
+  },
+  {
+   "id": 562652,
+   "name": "Mort Burke",
+   "photo": "https://image.tmdb.org/t/p/w185/knOZFtrdCq1Zq0KsSM5lV4fABNa.jpg",
+   "character": "Various",
+   "episodes": 5
+  },
+  {
+   "id": 1733308,
+   "name": "Daryl J. Johnson",
+   "photo": "https://image.tmdb.org/t/p/w185/c11G1p3JIEA34UUxvvBwzUfTlBv.jpg",
+   "character": "Robert S. Abbott / Narrator",
+   "episodes": 5
+  },
+  {
+   "id": 50095,
+   "name": "Jason Ritter",
+   "photo": "https://image.tmdb.org/t/p/w185/9i4YvUpSlQDzH0U8y5FWXQkaAGf.jpg",
+   "character": "Stetson Kennedy / Art Heist Investigator / Elisha Gray",
+   "episodes": 4
+  },
+  {
+   "id": 25147,
+   "name": "Tony Hale",
+   "photo": "https://image.tmdb.org/t/p/w185/3dEyZgTye0Ec17VGKp0mJ3aU6ty.jpg",
+   "character": "Meriwether Lewis / Edward Cope / James Monroe",
+   "episodes": 4
+  },
+  {
+   "id": 51382,
+   "name": "Chris Parnell",
+   "photo": "https://image.tmdb.org/t/p/w185/9Ga03Y9TVIqTZJ4I9rfL740ibgJ.jpg",
+   "character": "Carl Sagan / Jim Bowie / King Charles II",
+   "episodes": 4
+  },
+  {
+   "id": 1213573,
+   "name": "Taran Killam",
+   "photo": "https://image.tmdb.org/t/p/w185/aFHLtL5Ni57uIS0fN30HZBWbla6.jpg",
+   "character": "Frédéric Auguste Bartholdi / D.B. Cooper / William Clark",
+   "episodes": 4
+  },
+  {
+   "id": 3492,
+   "name": "Colin Hanks",
+   "photo": "https://image.tmdb.org/t/p/w185/iljyDSiJRcwJL8QXQZ2WTyU1wh5.jpg",
+   "character": "Gordon Cooper / Ernest Thompson Seton / Fred Rogers",
+   "episodes": 3
+  },
+  {
+   "id": 70851,
+   "name": "Jack Black",
+   "photo": "https://image.tmdb.org/t/p/w185/59IhgCtiWI5yTfzPhsjzg7GjCjm.jpg",
+   "character": "Elvis Presley / Vincenzo Peruggia / William Mulholland",
+   "episodes": 3
+  },
+  {
+   "id": 9656,
+   "name": "Johnny Knoxville",
+   "photo": "https://image.tmdb.org/t/p/w185/7XDKsHsLC4uNYaGsuWG1tQXWRnu.jpg",
+   "character": "Ponce De Leon / Johnny Cash / Marshall Ratliff",
+   "episodes": 3
+  },
+  {
+   "id": 98106,
+   "name": "Rich Fulcher",
+   "photo": "https://image.tmdb.org/t/p/w185/kL4mcqgTrysG9VzzaAZO7UFdrdd.jpg",
+   "character": "Porter Wagoner / Self - Narrator",
+   "episodes": 3
+  },
+  {
+   "id": 88124,
+   "name": "Jesse Plemons",
+   "photo": "https://image.tmdb.org/t/p/w185/og4I51GsuwohdPgoELOHVMMqMre.jpg",
+   "character": "William Kenward / Charles Ponzi / Edgar Allan Poe",
+   "episodes": 3
+  },
+  {
+   "id": 1185949,
+   "name": "Kyle David Crosby",
+   "photo": null,
+   "character": "Scientist / Bootlegger / Rough Rider",
+   "episodes": 3
+  },
+  {
+   "id": 59297,
+   "name": "Eric Edelstein",
+   "photo": "https://image.tmdb.org/t/p/w185/d1ng4kzNijFQ8DSQWeU5P6XDgmA.jpg",
+   "character": "Himself - Narrator / Museum Guard",
+   "episodes": 3
+  }
+ ],
+ "crew": [
+  {
+   "id": 62836,
+   "name": "Derek Waters",
+   "photo": "https://image.tmdb.org/t/p/w185/wprfXZe5O2qgtICcHJ27Y2NVz5J.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer"
+   ],
+   "episodes": 70
+  },
+  {
+   "id": 55710,
+   "name": "Adam McKay",
+   "photo": "https://image.tmdb.org/t/p/w185/vOyZXNJq7Oo01LPtSD5AZHjctgH.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 70
+  },
+  {
+   "id": 23659,
+   "name": "Will Ferrell",
+   "photo": "https://image.tmdb.org/t/p/w185/yjGbyQzVjpQl8xFkFGa7JxKZWQb.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 70
+  },
+  {
+   "id": 1131475,
+   "name": "Jeremy Konner",
+   "photo": "https://image.tmdb.org/t/p/w185/n41l9HW85QveI29tje7w34ltKp.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 70
+  },
+  {
+   "id": 1237525,
+   "name": "Owen Burke",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 70
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:37:42.133Z"
+}

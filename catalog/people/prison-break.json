@@ -1,0 +1,332 @@
+{
+ "show": "Prison Break",
+ "slug": "prison-break",
+ "tmdbId": 2288,
+ "cast": [
+  {
+   "id": 3972,
+   "name": "Wentworth Miller",
+   "photo": "https://image.tmdb.org/t/p/w185/js09M98qo6rEyyIlTbRMI6XiZJH.jpg",
+   "character": "Michael Scofield",
+   "episodes": 88
+  },
+  {
+   "id": 10862,
+   "name": "Dominic Purcell",
+   "photo": "https://image.tmdb.org/t/p/w185/5GtHSYdnH7o2x5UIm09XqqLoJKO.jpg",
+   "character": "Lincoln Burrows",
+   "episodes": 88
+  },
+  {
+   "id": 17343,
+   "name": "Robert Knepper",
+   "photo": "https://image.tmdb.org/t/p/w185/lRncjvgCIm1muIkK94zJSH2i3d6.jpg",
+   "character": "Theodore 'T-Bag' Bagwell",
+   "episodes": 88
+  },
+  {
+   "id": 17341,
+   "name": "Amaury Nolasco",
+   "photo": "https://image.tmdb.org/t/p/w185/lziIeEQUtVSotC0qzIiYLWnjELn.jpg",
+   "character": "Fernando Sucre",
+   "episodes": 82
+  },
+  {
+   "id": 51930,
+   "name": "Wade Williams",
+   "photo": "https://image.tmdb.org/t/p/w185/s9WjsTpC8a5KfxuoJnb5I35S2SM.jpg",
+   "character": "Brad Bellick",
+   "episodes": 79
+  },
+  {
+   "id": 86468,
+   "name": "Sarah Wayne Callies",
+   "photo": "https://image.tmdb.org/t/p/w185/uBtFalxNR1O0eARg0lsyLXkoJNG.jpg",
+   "character": "Sara Tancredi",
+   "episodes": 75
+  },
+  {
+   "id": 886,
+   "name": "William Fichtner",
+   "photo": "https://image.tmdb.org/t/p/w185/wWtJOoaNAwPparpzMNuRBjvxwEf.jpg",
+   "character": "Alexander Mahone",
+   "episodes": 57
+  },
+  {
+   "id": 17345,
+   "name": "Rockmond Dunbar",
+   "photo": "https://image.tmdb.org/t/p/w185/gim7zIrYkbKWsp2Kod7fp74fWyI.jpg",
+   "character": "Benjamin 'C-Note' Franklin / Benjamin Miles 'C-Note' Franklin",
+   "episodes": 53
+  },
+  {
+   "id": 17342,
+   "name": "Paul Adelstein",
+   "photo": "https://image.tmdb.org/t/p/w185/9qkGnEWPzGayZg9gaB4xbP8UL4g.jpg",
+   "character": "Paul Kellerman",
+   "episodes": 47
+  },
+  {
+   "id": 17347,
+   "name": "Marshall Allman",
+   "photo": "https://image.tmdb.org/t/p/w185/2frJJdV7p1z7WspoPmUw3ehqdjI.jpg",
+   "character": "LJ Burrows",
+   "episodes": 44
+  },
+  {
+   "id": 58006,
+   "name": "Jodi Lyn O'Keefe",
+   "photo": "https://image.tmdb.org/t/p/w185/5F9ESeRIlPrUbUcSYRvmNv6uPFU.jpg",
+   "character": "Gretchen Morgan",
+   "episodes": 35
+  },
+  {
+   "id": 53,
+   "name": "Peter Stormare",
+   "photo": "https://image.tmdb.org/t/p/w185/1rtpuUqBV29jDc1huUhtjGDbEwn.jpg",
+   "character": "John Abruzzi",
+   "episodes": 23
+  },
+  {
+   "id": 825,
+   "name": "Stacy Keach",
+   "photo": "https://image.tmdb.org/t/p/w185/gtYepb7Vu9bXcdZ62PXm56KalNl.jpg",
+   "character": "Warden Henry Pope",
+   "episodes": 23
+  },
+  {
+   "id": 17346,
+   "name": "Robin Tunney",
+   "photo": "https://image.tmdb.org/t/p/w185/vOmWyYNoVEaPPvoto4IW8dSXn7I.jpg",
+   "character": "Veronica Donovan",
+   "episodes": 22
+  },
+  {
+   "id": 4688,
+   "name": "Michael Rapaport",
+   "photo": "https://image.tmdb.org/t/p/w185/lrJnD5hT6kFlvlfSQa3CKctWvku.jpg",
+   "character": "Donald Self",
+   "episodes": 22
+  },
+  {
+   "id": 17348,
+   "name": "Muse Watson",
+   "photo": "https://image.tmdb.org/t/p/w185/rq7pu8sh0borueON6MK5wkqc2ej.jpg",
+   "character": "Charles Westmoreland",
+   "episodes": 22
+  },
+  {
+   "id": 59145,
+   "name": "Danny McCarthy",
+   "photo": "https://image.tmdb.org/t/p/w185/jTYHl6SGo6hrHrezVCNHvEr4a5g.jpg",
+   "character": "Danny Hale",
+   "episodes": 18
+  },
+  {
+   "id": 81685,
+   "name": "Frank Grillo",
+   "photo": "https://image.tmdb.org/t/p/w185/kuEco4vo1xrsM8DyrNSZUEi593P.jpg",
+   "character": "Nick Savrinn",
+   "episodes": 16
+  },
+  {
+   "id": 1225996,
+   "name": "Danay García",
+   "photo": "https://image.tmdb.org/t/p/w185/iS4vwXHoPhOdwUQS7J9kplitvlh.jpg",
+   "character": "Sofia Lugo",
+   "episodes": 13
+  },
+  {
+   "id": 75183,
+   "name": "Chris Vance",
+   "photo": "https://image.tmdb.org/t/p/w185/idgvBGVfmXgWjwCOhRuafImcdoy.jpg",
+   "character": "James Whistler",
+   "episodes": 13
+  },
+  {
+   "id": 21505,
+   "name": "Robert Wisdom",
+   "photo": "https://image.tmdb.org/t/p/w185/5fd8CwnL2YpWyq2G9WooejgnKiX.jpg",
+   "character": "Norman \"Lechero\" St. John",
+   "episodes": 13
+  },
+  {
+   "id": 36634,
+   "name": "Julio Cesar Cedillo",
+   "photo": "https://image.tmdb.org/t/p/w185/aKyBRL6rbRJiKOyltw7IMwBBXQq.jpg",
+   "character": "Général Mestas",
+   "episodes": 13
+  },
+  {
+   "id": 1226695,
+   "name": "Phillip Edward Van Lear",
+   "photo": "https://image.tmdb.org/t/p/w185/h0sZVUB2H8ih4aXiA2Nq1JvNDGg.jpg",
+   "character": "Louis Patterson",
+   "episodes": 13
+  },
+  {
+   "id": 22075,
+   "name": "Reggie Lee",
+   "photo": "https://image.tmdb.org/t/p/w185/93my9HnsFT5DFq9oY1nCJ8Ttv22.jpg",
+   "character": "Bill Kim",
+   "episodes": 13
+  }
+ ],
+ "crew": [
+  {
+   "id": 54869,
+   "name": "Paul T. Scheuring",
+   "photo": "https://image.tmdb.org/t/p/w185/2hNYumD0sMCDezKvTtDwginHP4L.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Story",
+    "Writer"
+   ],
+   "episodes": 88
+  },
+  {
+   "id": 11091,
+   "name": "Brett Ratner",
+   "photo": "https://image.tmdb.org/t/p/w185/y40YzrI2ooWiWxfisx6zCZGueEu.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 88
+  },
+  {
+   "id": 1215767,
+   "name": "Marty Adelstein",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 88
+  },
+  {
+   "id": 11874,
+   "name": "Neal H. Moritz",
+   "photo": "https://image.tmdb.org/t/p/w185/xgCTFHhbQh3QyIT7ZvJGbEohzG8.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 88
+  },
+  {
+   "id": 1215768,
+   "name": "Dawn Olmstead",
+   "photo": "https://image.tmdb.org/t/p/w185/yacKhcwoQ8GyBRdD87nbqXu0qEC.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 88
+  },
+  {
+   "id": 1214477,
+   "name": "Matt Olmstead",
+   "photo": "https://image.tmdb.org/t/p/w185/3tK3c9pZlGFBJaOxwH00svHtu8U.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 78
+  },
+  {
+   "id": 40230,
+   "name": "Kevin Hooks",
+   "photo": "https://image.tmdb.org/t/p/w185/zQIkzw1QsQvnjgLb5TMO4jyoqFY.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 66
+  },
+  {
+   "id": 204847,
+   "name": "Seth Hoffman",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 66
+  },
+  {
+   "id": 1230678,
+   "name": "Kalinda Vazquez",
+   "photo": "https://image.tmdb.org/t/p/w185/jANSGnqviAxNvUykQscqejc0YA.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 134175,
+   "name": "Monica Macer",
+   "photo": "https://image.tmdb.org/t/p/w185/qiTnZZiNAAgaGCNMZ1RmF7Qjf8h.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 60048,
+   "name": "Zack Estrin",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 111944,
+   "name": "Bobby Roth",
+   "photo": "https://image.tmdb.org/t/p/w185/6m8DxKyVFUvDQUC6krFrvV8dW0n.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 78417,
+   "name": "Nick Santora",
+   "photo": "https://image.tmdb.org/t/p/w185/iipP9fTQhRuPJHFMhbpMCceBiiu.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 1215004,
+   "name": "Karyn Usher",
+   "photo": "https://image.tmdb.org/t/p/w185/wL7fQvmFCCUJn0IqWgxE160syOr.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 45627,
+   "name": "Nelson McCormick",
+   "photo": "https://image.tmdb.org/t/p/w185/kP4UNE4NKEWmWgc6VmUkTCC5bz3.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1312316,
+   "name": "Vaun Wilmott",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 9
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:31:53.403Z"
+}

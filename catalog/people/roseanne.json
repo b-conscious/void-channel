@@ -1,0 +1,323 @@
+{
+ "show": "Roseanne",
+ "slug": "roseanne",
+ "tmdbId": 2706,
+ "cast": [
+  {
+   "id": 46393,
+   "name": "Roseanne Barr",
+   "photo": "https://image.tmdb.org/t/p/w185/oyY5lWTFzhymLB4sJ1OODseI3jR.jpg",
+   "character": "Roseanne Conner",
+   "episodes": 231
+  },
+  {
+   "id": 1230,
+   "name": "John Goodman",
+   "photo": "https://image.tmdb.org/t/p/w185/yyYqoyKHO7hE1zpgEV2XlqYWcNV.jpg",
+   "character": "Dan Conner",
+   "episodes": 231
+  },
+  {
+   "id": 3282,
+   "name": "Sara Gilbert",
+   "photo": "https://image.tmdb.org/t/p/w185/8D0ahnddH6EOS8zE5DAV7mAcGzy.jpg",
+   "character": "Darlene Conner",
+   "episodes": 231
+  },
+  {
+   "id": 167651,
+   "name": "Michael Fishman",
+   "photo": "https://image.tmdb.org/t/p/w185/8zPCl7uFbRu4TJTYOKZqGWSzfzJ.jpg",
+   "character": "D.J. Conner",
+   "episodes": 231
+  },
+  {
+   "id": 12133,
+   "name": "Laurie Metcalf",
+   "photo": "https://image.tmdb.org/t/p/w185/ypAppMZ1Q99cBjtX4BAnZmWjVXe.jpg",
+   "character": "Jackie Harris",
+   "episodes": 231
+  },
+  {
+   "id": 78788,
+   "name": "Alicia Goranson",
+   "photo": "https://image.tmdb.org/t/p/w185/f1beYNBxFlinWqXcYF1kdgu4c43.jpg",
+   "character": "Becky Conner",
+   "episodes": 156
+  },
+  {
+   "id": 16478,
+   "name": "Johnny Galecki",
+   "photo": "https://image.tmdb.org/t/p/w185/5zTHvvKpR9VUkzHxGnbrdB51Kyc.jpg",
+   "character": "David Healy",
+   "episodes": 92
+  },
+  {
+   "id": 49001,
+   "name": "Sarah Chalke",
+   "photo": "https://image.tmdb.org/t/p/w185/ycwiu89cpjqCtSNC5FjbJggjj5R.jpg",
+   "character": "Becky Conner",
+   "episodes": 77
+  },
+  {
+   "id": 80292,
+   "name": "Glenn Quinn",
+   "photo": "https://image.tmdb.org/t/p/w185/qOYQjmKtmNDkh7xL1YlzH4Tp0Kp.jpg",
+   "character": "Mark Healy",
+   "episodes": 66
+  },
+  {
+   "id": 6461,
+   "name": "Estelle Parsons",
+   "photo": "https://image.tmdb.org/t/p/w185/e2MNDJy2GqrUiden7DcqZUrCvq.jpg",
+   "character": "Beverly Harris",
+   "episodes": 33
+  },
+  {
+   "id": 193870,
+   "name": "Natalie West",
+   "photo": "https://image.tmdb.org/t/p/w185/91I7HDLERwhQsbg84bjLYtHZ3Wm.jpg",
+   "character": "Crystal Anderson",
+   "episodes": 31
+  },
+  {
+   "id": 80742,
+   "name": "Martin Mull",
+   "photo": "https://image.tmdb.org/t/p/w185/wthyliVHLrgvKUIRI1WXfEw9pjL.jpg",
+   "character": "Leon Carp",
+   "episodes": 27
+  },
+  {
+   "id": 38085,
+   "name": "Michael O'Keefe",
+   "photo": "https://image.tmdb.org/t/p/w185/wQsTL887RWvAJljzLhiPP52kjec.jpg",
+   "character": "Fred",
+   "episodes": 23
+  },
+  {
+   "id": 3664,
+   "name": "Sandra Bernhard",
+   "photo": "https://image.tmdb.org/t/p/w185/3S93MgFQtXH4eO3oCxx1BA13nBj.jpg",
+   "character": "Nancy",
+   "episodes": 22
+  },
+  {
+   "id": 74036,
+   "name": "Tom Arnold",
+   "photo": "https://image.tmdb.org/t/p/w185/z2ajL1ozVCS4Ug04zOGCNH06OPP.jpg",
+   "character": "Arnie Thomas",
+   "episodes": 19
+  },
+  {
+   "id": 1227253,
+   "name": "Bonnie Bramlett",
+   "photo": null,
+   "character": "",
+   "episodes": 16
+  },
+  {
+   "id": 25544,
+   "name": "James Pickens Jr.",
+   "photo": "https://image.tmdb.org/t/p/w185/iddDcaysDQ6IVMUjJ97Bv3lTBCu.jpg",
+   "character": "Chuck Mitchell",
+   "episodes": 14
+  },
+  {
+   "id": 1461,
+   "name": "George Clooney",
+   "photo": "https://image.tmdb.org/t/p/w185/dt0a7DT0SQeHb7NpURD6ifyEzsN.jpg",
+   "character": "",
+   "episodes": 11
+  },
+  {
+   "id": 7632,
+   "name": "Shelley Winters",
+   "photo": "https://image.tmdb.org/t/p/w185/sY7LVp0M8yJgFD0o2uAIJgfLGm9.jpg",
+   "character": "Nana Mary",
+   "episodes": 10
+  },
+  {
+   "id": 2008644,
+   "name": "Ames McNamara",
+   "photo": "https://image.tmdb.org/t/p/w185/xSx2hKHsa8R2mUEAAShxIdafHgs.jpg",
+   "character": "Mark Conner-Healy",
+   "episodes": 9
+  },
+  {
+   "id": 2008642,
+   "name": "Jayden Rey",
+   "photo": "https://image.tmdb.org/t/p/w185/8TOrOGR5l5WAsxouvtlMDuKJWOQ.jpg",
+   "character": "Mary Conner",
+   "episodes": 9
+  },
+  {
+   "id": 1252801,
+   "name": "Emma Kenney",
+   "photo": "https://image.tmdb.org/t/p/w185/AvcM57XKunQCFGsu5cZZHkNre4z.jpg",
+   "character": "Harris Conner-Healy",
+   "episodes": 9
+  },
+  {
+   "id": 13726,
+   "name": "Ned Beatty",
+   "photo": "https://image.tmdb.org/t/p/w185/rUNNq9CYLkyOwnyGd8QA0LzhmJf.jpg",
+   "character": "Ed Conner",
+   "episodes": 6
+  },
+  {
+   "id": 94852,
+   "name": "Matt Roth",
+   "photo": "https://image.tmdb.org/t/p/w185/2CCFXtYV5VZrvEbF3SvWHR2487P.jpg",
+   "character": "",
+   "episodes": 5
+  }
+ ],
+ "crew": [
+  {
+   "id": 34481,
+   "name": "Matt Williams",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1215073,
+   "name": "Andrew D. Weyman",
+   "photo": "https://image.tmdb.org/t/p/w185/qBZxoPCswH8GjwPTpBP24re3p17.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 45
+  },
+  {
+   "id": 1212755,
+   "name": "Gail Mancuso",
+   "photo": "https://image.tmdb.org/t/p/w185/yacqdjB95BaD28ZW1zhy3yeBujm.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 42
+  },
+  {
+   "id": 61175,
+   "name": "John Whitesell",
+   "photo": "https://image.tmdb.org/t/p/w185/nChx29Nt5nXabJU0zYHsSwRL7XK.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 23
+  },
+  {
+   "id": 1212061,
+   "name": "Philip Charles MacKenzie",
+   "photo": "https://image.tmdb.org/t/p/w185/vpY21OnV0Sakzfw2wY3Lc1vgMY5.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 58072,
+   "name": "John Pasquin",
+   "photo": "https://image.tmdb.org/t/p/w185/xWFzQthcWx0PoBa7VLKu02GvN1d.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 1222946,
+   "name": "Amy Sherman-Palladino",
+   "photo": "https://image.tmdb.org/t/p/w185/v8OGBnKfmnfvlPhkluiRo5fkpQM.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 160172,
+   "name": "Chuck Lorre",
+   "photo": "https://image.tmdb.org/t/p/w185/8OTRD3d6N0GKy1Z0LJaWZ3MVxXr.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1212750,
+   "name": "Danny Jacobson",
+   "photo": "https://image.tmdb.org/t/p/w185/7fW5gwzbH0iJpnhHAF8EE4YwAmr.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1212488,
+   "name": "Eric Gilliland",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1212681,
+   "name": "Joel Madison",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1215060,
+   "name": "Maxine Lapiduss",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1212011,
+   "name": "Norma Safford Vela",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1232362,
+   "name": "Don Foster",
+   "photo": "https://image.tmdb.org/t/p/w185/kQsFdK0k9WfIlF6spKRJQz3yaPQ.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 12891,
+   "name": "Joss Whedon",
+   "photo": "https://image.tmdb.org/t/p/w185/tAcIXWQWgGzoSsw2BUBuDbCGgii.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 83750,
+   "name": "Jennifer Heath",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:28:19.345Z"
+}

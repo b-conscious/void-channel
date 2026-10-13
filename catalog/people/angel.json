@@ -1,0 +1,335 @@
+{
+ "show": "Angel",
+ "slug": "angel",
+ "tmdbId": 2426,
+ "cast": [
+  {
+   "id": 25934,
+   "name": "David Boreanaz",
+   "photo": "https://image.tmdb.org/t/p/w185/rxbKFajA7zIv4sUJUpGNBWXS7jM.jpg",
+   "character": "Angel",
+   "episodes": 110
+  },
+  {
+   "id": 1214673,
+   "name": "Alexis Denisof",
+   "photo": "https://image.tmdb.org/t/p/w185/luTHwbaLutoKYWJSpk2WyuPasvk.jpg",
+   "character": "Wesley Wyndam-Pryce",
+   "episodes": 101
+  },
+  {
+   "id": 153939,
+   "name": "J. August Richards",
+   "photo": "https://image.tmdb.org/t/p/w185/6UdvucJpYJipyoTPlKLJU6u90CJ.jpg",
+   "character": "Charles Gunn",
+   "episodes": 91
+  },
+  {
+   "id": 126502,
+   "name": "Charisma Carpenter",
+   "photo": "https://image.tmdb.org/t/p/w185/aCvU5Wb10EeWJRofeXNiM4yE6nL.jpg",
+   "character": "Cordelia Chase",
+   "episodes": 89
+  },
+  {
+   "id": 159320,
+   "name": "Andy Hallett",
+   "photo": "https://image.tmdb.org/t/p/w185/uAMKdyQhpVqLKbkUdw1HN6YwWkZ.jpg",
+   "character": "Lorne",
+   "episodes": 76
+  },
+  {
+   "id": 81133,
+   "name": "Amy Acker",
+   "photo": "https://image.tmdb.org/t/p/w185/9lpLwfscOoG4jyYIH761SRnm09U.jpg",
+   "character": "Fred Burkle / Fred Burkle / Illyria",
+   "episodes": 70
+  },
+  {
+   "id": 159485,
+   "name": "Stephanie Romanov",
+   "photo": "https://image.tmdb.org/t/p/w185/v2HDZQrEkxmYdz6ntaAIainnbzY.jpg",
+   "character": "Lilah Morgan",
+   "episodes": 35
+  },
+  {
+   "id": 52646,
+   "name": "Vincent Kartheiser",
+   "photo": "https://image.tmdb.org/t/p/w185/h6rT6R3Zys2acrOunX7Hep1XQIZ.jpg",
+   "character": "Connor",
+   "episodes": 28
+  },
+  {
+   "id": 47297,
+   "name": "James Marsters",
+   "photo": "https://image.tmdb.org/t/p/w185/oJnBB3g2IINnsLSr8B79bJ9ykkx.jpg",
+   "character": "Spike",
+   "episodes": 24
+  },
+  {
+   "id": 71198,
+   "name": "Christian Kane",
+   "photo": "https://image.tmdb.org/t/p/w185/jPUk9WXrdv1t30dZgcNxa8OxSu3.jpg",
+   "character": "Lindsey McDonald",
+   "episodes": 21
+  },
+  {
+   "id": 35551,
+   "name": "Julie Benz",
+   "photo": "https://image.tmdb.org/t/p/w185/avcCYkQjRM7qgE0MZ5VXcK3XcKz.jpg",
+   "character": "Darla",
+   "episodes": 20
+  },
+  {
+   "id": 123149,
+   "name": "Mercedes McNab",
+   "photo": "https://image.tmdb.org/t/p/w185/hBlBN43bI0QvxIqS7aBavVOxdxi.jpg",
+   "character": "Harmony Kendall",
+   "episodes": 16
+  },
+  {
+   "id": 126932,
+   "name": "Elisabeth Röhm",
+   "photo": "https://image.tmdb.org/t/p/w185/hIlBBZD2Rou4to1OauI799jV1UH.jpg",
+   "character": "Kate Lockley",
+   "episodes": 15
+  },
+  {
+   "id": 18307,
+   "name": "Daniel Dae Kim",
+   "photo": "https://image.tmdb.org/t/p/w185/AtKRWsC4UhEjzorWlL2eguzZ9XM.jpg",
+   "character": "Gavin Park",
+   "episodes": 12
+  },
+  {
+   "id": 87957,
+   "name": "Keith Szarabajka",
+   "photo": "https://image.tmdb.org/t/p/w185/z45Goe7lfBvs3cBP5igsCE8ISWG.jpg",
+   "character": "Daniel Holtz",
+   "episodes": 11
+  },
+  {
+   "id": 43427,
+   "name": "Sarah Thompson",
+   "photo": "https://image.tmdb.org/t/p/w185/bZh1Cg7aFIt99CZNRSQQIOOK1PK.jpg",
+   "character": "Eve",
+   "episodes": 10
+  },
+  {
+   "id": 80292,
+   "name": "Glenn Quinn",
+   "photo": "https://image.tmdb.org/t/p/w185/qOYQjmKtmNDkh7xL1YlzH4Tp0Kp.jpg",
+   "character": "Doyle",
+   "episodes": 9
+  },
+  {
+   "id": 55568,
+   "name": "Mark Lutz",
+   "photo": "https://image.tmdb.org/t/p/w185/2Cng4sijH0HyFfWdUkvrjOdPgxO.jpg",
+   "character": "The Groosalugg",
+   "episodes": 9
+  },
+  {
+   "id": 18657,
+   "name": "Laurel Holloman",
+   "photo": "https://image.tmdb.org/t/p/w185/c9cMysLLh0nWEAqNj3pp9nqq3MC.jpg",
+   "character": "Justine Cooper",
+   "episodes": 8
+  },
+  {
+   "id": 19898,
+   "name": "Vladimir Kulich",
+   "photo": "https://image.tmdb.org/t/p/w185/z6pfLx4kJvqWj501SIxExu6rYFi.jpg",
+   "character": "The Beast",
+   "episodes": 8
+  },
+  {
+   "id": 21675,
+   "name": "Jack Conley",
+   "photo": "https://image.tmdb.org/t/p/w185/78bceHx2BdTJLhhomIbpQKm15TR.jpg",
+   "character": "Sahjhan",
+   "episodes": 8
+  },
+  {
+   "id": 36221,
+   "name": "Sam Anderson",
+   "photo": "https://image.tmdb.org/t/p/w185/AnSyGuhjALUwUzMfQFhYMSJp4ra.jpg",
+   "character": "Holland Manners",
+   "episodes": 8
+  },
+  {
+   "id": 141955,
+   "name": "Jonathan M. Woodward",
+   "photo": "https://image.tmdb.org/t/p/w185/mWJe3IuwgvUj5eN4b3hZet4vLOr.jpg",
+   "character": "Knox",
+   "episodes": 7
+  },
+  {
+   "id": 7137,
+   "name": "Juliet Landau",
+   "photo": "https://image.tmdb.org/t/p/w185/fxLW9OteJEO2MGVaNc3oDL0EjR0.jpg",
+   "character": "Drusilla",
+   "episodes": 7
+  }
+ ],
+ "crew": [
+  {
+   "id": 87590,
+   "name": "David Greenwalt",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 110
+  },
+  {
+   "id": 12891,
+   "name": "Joss Whedon",
+   "photo": "https://image.tmdb.org/t/p/w185/tAcIXWQWgGzoSsw2BUBuDbCGgii.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Story",
+    "Writer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 69998,
+   "name": "Kaz Kuzui",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 110
+  },
+  {
+   "id": 70458,
+   "name": "Sandy Gallin",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 110
+  },
+  {
+   "id": 64170,
+   "name": "Fran Rubel Kuzui",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 110
+  },
+  {
+   "id": 1322323,
+   "name": "Robert J. Kral",
+   "photo": "https://image.tmdb.org/t/p/w185/oZHQ9lp3h6QfOISMZyrwdliebNh.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 110
+  },
+  {
+   "id": 149520,
+   "name": "David Fury",
+   "photo": "https://image.tmdb.org/t/p/w185/4V371yAWCJ1s2cVCamX5eYjMNVc.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 44
+  },
+  {
+   "id": 23486,
+   "name": "Christophe Beck",
+   "photo": "https://image.tmdb.org/t/p/w185/n3U0OPETTZGTx4mgsrryARKphR4.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 202100,
+   "name": "Tim Minear",
+   "photo": "https://image.tmdb.org/t/p/w185/zOnOJmM0sShVbLgW2jB0j0r6D6U.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 104876,
+   "name": "James A. Contner",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 1236075,
+   "name": "Jeffrey Bell",
+   "photo": "https://image.tmdb.org/t/p/w185/ot5sgjbiOIZLm7O0lqiMV5HKGPV.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 1213074,
+   "name": "Steven S. DeKnight",
+   "photo": "https://image.tmdb.org/t/p/w185/4xI7zn54omKDrKa0lshPsJZ53tK.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1227656,
+   "name": "Mere Smith",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1246853,
+   "name": "Elizabeth Craft",
+   "photo": "https://image.tmdb.org/t/p/w185/gMopAqasMytqu6nniu1eJgAnMS1.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1224044,
+   "name": "Sarah Fain",
+   "photo": "https://image.tmdb.org/t/p/w185/uR99lyoApWWFxwLUbb1onPnlhBo.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 58075,
+   "name": "Bill L. Norton",
+   "photo": "https://image.tmdb.org/t/p/w185/aGB8BQCNJs2TrzCMtwdtqKYgJVK.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:36.701Z"
+}

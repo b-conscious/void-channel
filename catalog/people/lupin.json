@@ -1,0 +1,312 @@
+{
+ "show": "Lupin",
+ "slug": "lupin",
+ "tmdbId": 96677,
+ "cast": [
+  {
+   "id": 78423,
+   "name": "Omar Sy",
+   "photo": "https://image.tmdb.org/t/p/w185/Uuy6WuizieB4fOIGFp0gY90Yq2.jpg",
+   "character": "Assane Diop",
+   "episodes": 25
+  },
+  {
+   "id": 4390,
+   "name": "Ludivine Sagnier",
+   "photo": "https://image.tmdb.org/t/p/w185/hd4fLjgtgNEidJOjuLNGfK1sOhm.jpg",
+   "character": "Claire",
+   "episodes": 17
+  },
+  {
+   "id": 1372661,
+   "name": "Soufiane Guerrab",
+   "photo": "https://image.tmdb.org/t/p/w185/3KPutm0tNtt1CtFm6gyLPSqtOK2.jpg",
+   "character": "Youssef Guedira",
+   "episodes": 17
+  },
+  {
+   "id": 2280476,
+   "name": "Shirine Boutella",
+   "photo": "https://image.tmdb.org/t/p/w185/4qBT877sIjMLycDBmahEpL1nwEk.jpg",
+   "character": "Sofia Belkacem",
+   "episodes": 16
+  },
+  {
+   "id": 3050132,
+   "name": "Etan Simon",
+   "photo": "https://image.tmdb.org/t/p/w185/uXF3yPXMQhIMkv2VA3dkIQPN813.jpg",
+   "character": "Raoul Diop",
+   "episodes": 16
+  },
+  {
+   "id": 586916,
+   "name": "Antoine Gouy",
+   "photo": "https://image.tmdb.org/t/p/w185/g0KnDyYzYHNY3TQgcX3B26ILnTu.jpg",
+   "character": "Benjamin Ferel",
+   "episodes": 14
+  },
+  {
+   "id": 3050131,
+   "name": "Mamadou Haïdara",
+   "photo": "https://image.tmdb.org/t/p/w185/pEcfv4SuxqJ0GDjwW5IInb1ct8w.jpg",
+   "character": "Young Assane Diop",
+   "episodes": 14
+  },
+  {
+   "id": 146720,
+   "name": "Hervé Pierre",
+   "photo": "https://image.tmdb.org/t/p/w185/dFjFLiRdyLGkMFlHed7aNRPiJrK.jpg",
+   "character": "Hubert Pellegrini / Mr. Hubert Pellegrini",
+   "episodes": 11
+  },
+  {
+   "id": 53429,
+   "name": "Clotilde Hesme",
+   "photo": "https://image.tmdb.org/t/p/w185/hPWDBjjk0OJaMdiVRaUBL7jeAcZ.jpg",
+   "character": "Juliette Pellegrini",
+   "episodes": 9
+  },
+  {
+   "id": 1173028,
+   "name": "Vincent Londez",
+   "photo": "https://image.tmdb.org/t/p/w185/sVVveDFGIU9Llk5scvrHr9UQgPY.jpg",
+   "character": "Captain Romain Laugier",
+   "episodes": 8
+  },
+  {
+   "id": 3051569,
+   "name": "Ludmilla Makowski",
+   "photo": "https://image.tmdb.org/t/p/w185/e3NKoEfGsV59uvzmhyapwHRUdSj.jpg",
+   "character": "Young Claire",
+   "episodes": 7
+  },
+  {
+   "id": 586731,
+   "name": "Adama Niane",
+   "photo": "https://image.tmdb.org/t/p/w185/r1mvrT2AXJwUFPBEzGPs1O1UdB7.jpg",
+   "character": "Léonard Koné",
+   "episodes": 7
+  },
+  {
+   "id": 2332546,
+   "name": "Noé Wodecki",
+   "photo": "https://image.tmdb.org/t/p/w185/kcEWCtVSGgmI4MdAJCXGxGnaoJd.jpg",
+   "character": "Young Bruno",
+   "episodes": 7
+  },
+  {
+   "id": 3050229,
+   "name": "Adrian Valli Capitant de Villebonne",
+   "photo": "https://image.tmdb.org/t/p/w185/ozyD5UO9BgUqXN3w916VDht2to2.jpg",
+   "character": "Young Benjamin Ferel",
+   "episodes": 6
+  },
+  {
+   "id": 1826574,
+   "name": "Vincent Garanger",
+   "photo": null,
+   "character": "Gabriel Dumont",
+   "episodes": 6
+  },
+  {
+   "id": 1501443,
+   "name": "Martha Canga Antonio",
+   "photo": "https://image.tmdb.org/t/p/w185/bXOAg9ozIyqQMy6JKxwzDravJe8.jpg",
+   "character": "Fleur Belanger",
+   "episodes": 6
+  },
+  {
+   "id": 2541773,
+   "name": "Salif Cissé",
+   "photo": "https://image.tmdb.org/t/p/w185/h0EzP4ZCdNK6ouMjQBSYDsSLPb7.jpg",
+   "character": "Jean-Luc Keller 1998",
+   "episodes": 6
+  },
+  {
+   "id": 2128717,
+   "name": "Fargass Assandé",
+   "photo": "https://image.tmdb.org/t/p/w185/ox0jDG4i0dgZTMMkP6PXDUFY4cP.jpg",
+   "character": "Babakar Diop / Assane's Father",
+   "episodes": 5
+  },
+  {
+   "id": 2166824,
+   "name": "Sandra Parfait",
+   "photo": "https://image.tmdb.org/t/p/w185/cTAAbJmFMKFOTxf9XG1n6ryP48H.jpg",
+   "character": "Manon 2021",
+   "episodes": 5
+  },
+  {
+   "id": 931185,
+   "name": "Naky Sy Savane",
+   "photo": "https://image.tmdb.org/t/p/w185/nx3ynVUaaOikAAPAoUYJpFOxxre.jpg",
+   "character": "Mariama 2021",
+   "episodes": 5
+  },
+  {
+   "id": 1122960,
+   "name": "Nicolas Wanczycki",
+   "photo": "https://image.tmdb.org/t/p/w185/xksvgEBrpOB26BCga8JDqHZRRqZ.jpg",
+   "character": "Pascal Oblet",
+   "episodes": 4
+  },
+  {
+   "id": 3128371,
+   "name": "Aloysia Delahaut",
+   "photo": null,
+   "character": "Pellegrini Press Officer",
+   "episodes": 4
+  },
+  {
+   "id": 2601088,
+   "name": "Stefan Crepon",
+   "photo": "https://image.tmdb.org/t/p/w185/pEhRxeFhLR1iVyYBMkHijkLZ3xN.jpg",
+   "character": "Philippe Courbet",
+   "episodes": 4
+  },
+  {
+   "id": 1308777,
+   "name": "Nicolas Berno",
+   "photo": "https://image.tmdb.org/t/p/w185/YAxdvjzRgdxNtUPvBzvQi8PuIZ.jpg",
+   "character": "Ferdinand 2021",
+   "episodes": 4
+  }
+ ],
+ "crew": [
+  {
+   "id": 1618156,
+   "name": "François Uzan",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Story"
+   ],
+   "episodes": 44
+  },
+  {
+   "id": 1287248,
+   "name": "George Kay",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Story"
+   ],
+   "episodes": 41
+  },
+  {
+   "id": 1409018,
+   "name": "Marie Roussin",
+   "photo": null,
+   "jobs": [
+    "Creator"
+   ]
+  },
+  {
+   "id": 1449284,
+   "name": "Florent Meyer",
+   "photo": null,
+   "jobs": [
+    "Creator"
+   ]
+  },
+  {
+   "id": 3051535,
+   "name": "Tigran Rosine",
+   "photo": null,
+   "jobs": [
+    "Creator"
+   ]
+  },
+  {
+   "id": 1300880,
+   "name": "Mathieu Lamboley",
+   "photo": "https://image.tmdb.org/t/p/w185/xqPzm3gUZw7g3ALK1tc0lW1fbvs.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 932612,
+   "name": "Tony Saint",
+   "photo": null,
+   "jobs": [
+    "Story"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 2185863,
+   "name": "Eliane Montane",
+   "photo": null,
+   "jobs": [
+    "Story"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 2557040,
+   "name": "Anne Cissé",
+   "photo": null,
+   "jobs": [
+    "Story"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1695015,
+   "name": "Ludovic Bernard",
+   "photo": "https://image.tmdb.org/t/p/w185/iGcvZVswdFUZ4ZSRjD6K4Iu5K5H.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 18184,
+   "name": "Xavier Gens",
+   "photo": "https://image.tmdb.org/t/p/w185/zZ2ZtJeBq0yXB1Z5hSztarGt1yN.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1119418,
+   "name": "Hugo Gélin",
+   "photo": "https://image.tmdb.org/t/p/w185/50pjdx9FGGu3ixdZkurgiMZ7pQ6.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 18865,
+   "name": "Louis Leterrier",
+   "photo": "https://image.tmdb.org/t/p/w185/bpqqRRyCLeoAup2OAv1Dtm5C8Tn.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 123186,
+   "name": "Daniel Grou",
+   "photo": "https://image.tmdb.org/t/p/w185/2RhWnJb3phrzZ2kondASFdk2GrW.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1172230,
+   "name": "Marcela Said",
+   "photo": "https://image.tmdb.org/t/p/w185/eEanNvPYVpDVdmyzhkhIPiJ8AP1.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:41:20.980Z"
+}

@@ -1,0 +1,322 @@
+{
+ "show": "The Ancient Magus' Bride",
+ "slug": "the-ancient-magus-bride",
+ "tmdbId": 73833,
+ "cast": [
+  {
+   "id": 1468251,
+   "name": "Ryota Takeuchi",
+   "photo": "https://image.tmdb.org/t/p/w185/1PZIIKxOAgn6YexksH6weYnzzhh.jpg",
+   "character": "Elias Ainsworth (voice)",
+   "episodes": 48
+  },
+  {
+   "id": 1588597,
+   "name": "Atsumi Tanezaki",
+   "photo": "https://image.tmdb.org/t/p/w185/6tM8GU7QvrdUCvR4kxqVUZivtvO.jpg",
+   "character": "Chise Hatori (voice) / Isabel (voice)",
+   "episodes": 48
+  },
+  {
+   "id": 1254052,
+   "name": "Koki Uchiyama",
+   "photo": "https://image.tmdb.org/t/p/w185/sllSm3iZZWVLTBrDZQRtWrZUfEj.jpg",
+   "character": "Ruth (voice)",
+   "episodes": 42
+  },
+  {
+   "id": 223687,
+   "name": "Aya Endo",
+   "photo": "https://image.tmdb.org/t/p/w185/s59Lip4dPC7rI3cz1pHs9vSmuvf.jpg",
+   "character": "Silky (voice) / Alexandra Heath (voice) / Wooly Bug (voice)",
+   "episodes": 36
+  },
+  {
+   "id": 224413,
+   "name": "Satoshi Hino",
+   "photo": "https://image.tmdb.org/t/p/w185/8ZJIiwIVF2zDyyFr7oXewj0eEuu.jpg",
+   "character": "Mikhail Renfred (voice)",
+   "episodes": 35
+  },
+  {
+   "id": 1253972,
+   "name": "Mutsumi Tamura",
+   "photo": "https://image.tmdb.org/t/p/w185/uvbBIRiBK6GDLEESiYSFWOVlaE4.jpg",
+   "character": "Alice Swayne (voice)",
+   "episodes": 35
+  },
+  {
+   "id": 1307031,
+   "name": "Minami Tsuda",
+   "photo": "https://image.tmdb.org/t/p/w185/bgPI0vCsH43aZVfBuUcQ91cDBxe.jpg",
+   "character": "Lucy Webster (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 2102121,
+   "name": "Maki Kawase",
+   "photo": "https://image.tmdb.org/t/p/w185/3LgHKyXM33oOtBzmYTDesftIzY0.jpg",
+   "character": "Philomela Sergeant (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1732278,
+   "name": "Seiichiro Yamashita",
+   "photo": "https://image.tmdb.org/t/p/w185/zym6WY3rxL4FdbHoLzG2CnqnR7.jpg",
+   "character": "Rían Scrimgeour (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1695524,
+   "name": "Daiki Kobayashi",
+   "photo": "https://image.tmdb.org/t/p/w185/ntdMVGhBAnVdanQjJMoj50lAS1X.jpg",
+   "character": "Zoe Ivy (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1452028,
+   "name": "Reina Ueda",
+   "photo": "https://image.tmdb.org/t/p/w185/2WV61uVU7y6XGYqNHLMpP0sApdu.jpg",
+   "character": "Veronica Rickenbacker (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1870205,
+   "name": "Koutaro Nishiyama",
+   "photo": "https://image.tmdb.org/t/p/w185/6qKGsoetRrvOvlROdYx40CVlHtw.jpg",
+   "character": "Isaac Farrar (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1717126,
+   "name": "Hana Sato",
+   "photo": "https://image.tmdb.org/t/p/w185/4npLYfxrVK5EwuipOvFKCXA0XmA.jpg",
+   "character": "Dragon Chick (voice) / Fire Sprite (voice) / Fae (voice)",
+   "episodes": 22
+  },
+  {
+   "id": 1325230,
+   "name": "Ayumu Murase",
+   "photo": "https://image.tmdb.org/t/p/w185/3aGM6KpcCIEKOXP9510tzaKc8uw.jpg",
+   "character": "Joseph / Cartaphilus (voice)",
+   "episodes": 19
+  },
+  {
+   "id": 1253013,
+   "name": "Sayaka Kinoshita",
+   "photo": "https://image.tmdb.org/t/p/w185/jPxsqsENdWYdn2427M06CXJFuPw.jpg",
+   "character": "Alcyone (voice) / Elias Ainsworth (female form) (voice)",
+   "episodes": 16
+  },
+  {
+   "id": 1717123,
+   "name": "Ami Naito",
+   "photo": "https://image.tmdb.org/t/p/w185/tP1fi8INS43ZqWz0yjCKLnEqB4S.jpg",
+   "character": "Beana Dragon Chick (voice) / Vampire (voice) / Dragon Chick (voice)",
+   "episodes": 15
+  },
+  {
+   "id": 2103082,
+   "name": "Kousuke Oonishi",
+   "photo": "https://image.tmdb.org/t/p/w185/sqDyv7jyHxXyg1JClVK89JCNVyU.jpg",
+   "character": "Person from Joseph's Village (voice) / Gatekeeper (voice) / Martin Chandler (voice)",
+   "episodes": 14
+  },
+  {
+   "id": 1253138,
+   "name": "Sayuri Sadaoka",
+   "photo": "https://image.tmdb.org/t/p/w185/a0GG5lHBCwTdAQJDEUvw2hDbOFH.jpg",
+   "character": "Lizbeth Sergeant (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 1717125,
+   "name": "Yoshiaki Hasegawa",
+   "photo": "https://image.tmdb.org/t/p/w185/keP18EZCxYwtXguoMdZyjhI7S2f.jpg",
+   "character": "Person from Joseph's Village (voice) / Restaurant Guest (voice) / Assistant (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 2923370,
+   "name": "Seiyu Fujiwara",
+   "photo": "https://image.tmdb.org/t/p/w185/fIM22LFxjzGbN1ZlmULeRHEKU9v.jpg",
+   "character": "Gatekeeper (voice) / Roy Truman (voice) / Transfigured Sorcerer (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 110665,
+   "name": "Daisuke Namikawa",
+   "photo": "https://image.tmdb.org/t/p/w185/iw0X8oDutxaBAri3Ifga8nhdUJK.jpg",
+   "character": "Lindel (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 9721,
+   "name": "Junichi Suwabe",
+   "photo": "https://image.tmdb.org/t/p/w185/4S7c3n3r07A83HvkLrnWZGVhiHg.jpg",
+   "character": "Seth Noel (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 1717121,
+   "name": "Natsumi Fujiwara",
+   "photo": "https://image.tmdb.org/t/p/w185/9B9NICRp2li1SA3VF7vyIAxQ0x9.jpg",
+   "character": "Gwee Dragon Chick (voice) / Fae (voice) / Village Girl (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 24647,
+   "name": "Katsuyuki Konishi",
+   "photo": "https://image.tmdb.org/t/p/w185/nYM5cH6U7cp4x9dIzW0enmEKmeV.jpg",
+   "character": "Tory Innis (voice)",
+   "episodes": 9
+  }
+ ],
+ "crew": [
+  {
+   "id": 3144622,
+   "name": "Yoshihiro Hosaka",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 1333053,
+   "name": "Junichi Matsumoto",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 1608555,
+   "name": "Aya Takaha",
+   "photo": "https://image.tmdb.org/t/p/w185/4TDkfdSXmCn7P260JB51FDZITXv.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 33
+  },
+  {
+   "id": 1591601,
+   "name": "Norihiro Naganuma",
+   "photo": "https://image.tmdb.org/t/p/w185/4WqUiE3yvKelQD2cWyhRtG5WJFk.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 27
+  },
+  {
+   "id": 2384021,
+   "name": "Kazuaki Terasawa",
+   "photo": "https://image.tmdb.org/t/p/w185/528FmZ8FD8Jl0bNPnymbR5G7ubb.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 27
+  },
+  {
+   "id": 12183,
+   "name": "Mitsuhisa Ishikawa",
+   "photo": "https://image.tmdb.org/t/p/w185/lXN5l6C5qRHGX9t8AZOgiB0jGxg.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 3997534,
+   "name": "Kosuke Hosogai",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 3317750,
+   "name": "Yoshihiro Iida",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1497016,
+   "name": "Koji Yamamoto",
+   "photo": "https://image.tmdb.org/t/p/w185/6x1JDK5QsG6yNiiVaiaBKbIcovI.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 3235917,
+   "name": "Yangfan Gao",
+   "photo": "https://image.tmdb.org/t/p/w185/gNKKYRR5IztV15yfX1TSnrSdYXB.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 3489565,
+   "name": "Zhang Shengyan",
+   "photo": "https://image.tmdb.org/t/p/w185/8F3EmUDpmuXuZxwz7MKeczELEkX.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 2562955,
+   "name": "Yoko Yonaiyama",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 2323737,
+   "name": "Yoko Kanamori",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1969266,
+   "name": "Tomoaki Koshida",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 3120370,
+   "name": "Aro Morita",
+   "photo": "https://image.tmdb.org/t/p/w185/r94j73aS9SQMrEeVJoP5vaYK2Q8.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 3689333,
+   "name": "Chiaki Nishinaka",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:39:27.387Z"
+}

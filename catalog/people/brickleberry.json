@@ -1,0 +1,211 @@
+{
+ "show": "Brickleberry",
+ "slug": "brickleberry",
+ "tmdbId": 44169,
+ "cast": [
+  {
+   "id": 52794,
+   "name": "David Herman",
+   "photo": "https://image.tmdb.org/t/p/w185/wexIWmxk2uigMRLJ1WXYHroODuU.jpg",
+   "character": "Steve Williams (voice)",
+   "episodes": 36
+  },
+  {
+   "id": 78798,
+   "name": "Tom Kenny",
+   "photo": "https://image.tmdb.org/t/p/w185/kftXtExrcoTTjyeYmSXJ0Ogr3R7.jpg",
+   "character": "Woodrow 'Woody' Johnson (voice)",
+   "episodes": 36
+  },
+  {
+   "id": 1221694,
+   "name": "Daniel Tosh",
+   "photo": "https://image.tmdb.org/t/p/w185/uohZmMlRpGQlRSVemgGWtzBtZ3W.jpg",
+   "character": "Malloy (voice)",
+   "episodes": 36
+  },
+  {
+   "id": 59405,
+   "name": "Jerry Minor",
+   "photo": "https://image.tmdb.org/t/p/w185/bUql01yhsXYj9PCQWbehru08Ek5.jpg",
+   "character": "Denzel Jackson (voice)",
+   "episodes": 36
+  },
+  {
+   "id": 948351,
+   "name": "Roger Black",
+   "photo": "https://image.tmdb.org/t/p/w185/zdULjOQbsCLmKVelMWmo6CnCyza.jpg",
+   "character": "Connie Cunaman (voice)",
+   "episodes": 36
+  },
+  {
+   "id": 1214835,
+   "name": "Natasha Leggero",
+   "photo": "https://image.tmdb.org/t/p/w185/v8aWI7x8rCHm5BqidbLtMXfz55C.jpg",
+   "character": "Ethel Anderson (voice)",
+   "episodes": 26
+  },
+  {
+   "id": 95102,
+   "name": "Kaitlin Olson",
+   "photo": "https://image.tmdb.org/t/p/w185/z84SKRCVl9zPhP9AINVS8Bx8dRO.jpg",
+   "character": "Ethel Anderson (voice)",
+   "episodes": 10
+  }
+ ],
+ "crew": [
+  {
+   "id": 948351,
+   "name": "Roger Black",
+   "photo": "https://image.tmdb.org/t/p/w185/zdULjOQbsCLmKVelMWmo6CnCyza.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 36
+  },
+  {
+   "id": 1094963,
+   "name": "Waco O'Guin",
+   "photo": "https://image.tmdb.org/t/p/w185/ESG0RlHquljELD97oymCth4u1C.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 36
+  },
+  {
+   "id": 1221694,
+   "name": "Daniel Tosh",
+   "photo": "https://image.tmdb.org/t/p/w185/uohZmMlRpGQlRSVemgGWtzBtZ3W.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 36
+  },
+  {
+   "id": 1219053,
+   "name": "Michael Rowe",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 1222076,
+   "name": "Christopher Vane",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 1229405,
+   "name": "Michael Jamin",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1229395,
+   "name": "Sivert Glarum",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1367714,
+   "name": "Brian LoSchiavo",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 205158,
+   "name": "Rocky Russo",
+   "photo": "https://image.tmdb.org/t/p/w185/eFScrov82hqJbmCDTnP3CQvxZfv.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 935467,
+   "name": "Jeremy Sosenko",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1219056,
+   "name": "Ira Sherak",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1367717,
+   "name": "Zac Moncrief",
+   "photo": "https://image.tmdb.org/t/p/w185/Aszz1tbkaXP4JcoZgfV24BN6KG5.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1367779,
+   "name": "Sueng Cha",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1367712,
+   "name": "Mike Hollingsworth",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1367713,
+   "name": "Carl Faruolo",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1367715,
+   "name": "Chris Song",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:29:22.652Z"
+}

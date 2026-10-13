@@ -1,0 +1,331 @@
+{
+ "show": "Medium",
+ "slug": "medium",
+ "tmdbId": 36,
+ "cast": [
+  {
+   "id": 4687,
+   "name": "Patricia Arquette",
+   "photo": "https://image.tmdb.org/t/p/w185/jeThSouMatiuRiLkjDvSBLHpmq0.jpg",
+   "character": "Allison Dubois",
+   "episodes": 128
+  },
+  {
+   "id": 4177,
+   "name": "Jake Weber",
+   "photo": "https://image.tmdb.org/t/p/w185/z1RTh4qvyMFha8nKd5Uw1dKwkZz.jpg",
+   "character": "Joe Dubois",
+   "episodes": 128
+  },
+  {
+   "id": 30488,
+   "name": "Miguel Sandoval",
+   "photo": "https://image.tmdb.org/t/p/w185/v5tHxTkgOqcdWgjoEhUj0a50NIK.jpg",
+   "character": "Manuel Devalos",
+   "episodes": 128
+  },
+  {
+   "id": 95039,
+   "name": "Sofia Vassilieva",
+   "photo": "https://image.tmdb.org/t/p/w185/ryZqVhzjKfUBYuPMKXvZ1KF4tmU.jpg",
+   "character": "Ariel Dubois",
+   "episodes": 128
+  },
+  {
+   "id": 87058,
+   "name": "Feodor Lark",
+   "photo": null,
+   "character": "Bridgette Dubois",
+   "episodes": 128
+  },
+  {
+   "id": 155282,
+   "name": "David Cubitt",
+   "photo": "https://image.tmdb.org/t/p/w185/2zR5HQnOFLB6tvgmKofuk5J0E4D.jpg",
+   "character": "Lee Scanlon",
+   "episodes": 119
+  },
+  {
+   "id": 1212288,
+   "name": "Tina DiJoseph",
+   "photo": null,
+   "character": "Liaison / Lynn DiNovi / Texas Ranger",
+   "episodes": 36
+  },
+  {
+   "id": 1212289,
+   "name": "Miranda Carabello",
+   "photo": null,
+   "character": "Marie Dubois",
+   "episodes": 18
+  },
+  {
+   "id": 5945,
+   "name": "Bruce Gray",
+   "photo": "https://image.tmdb.org/t/p/w185/u2MDhVpGtLoWhr7HoX927xhLsaj.jpg",
+   "character": "Joe's Dad",
+   "episodes": 11
+  },
+  {
+   "id": 42724,
+   "name": "John Prosky",
+   "photo": "https://image.tmdb.org/t/p/w185/zinfZ6InYtlnXnwl4UwKEITP1xf.jpg",
+   "character": "Tom Van Dyke",
+   "episodes": 10
+  },
+  {
+   "id": 65362,
+   "name": "Holliston Coleman",
+   "photo": "https://image.tmdb.org/t/p/w185/iXDt1vDoAmIQbox6kmN0z21P05q.jpg",
+   "character": "Hannah",
+   "episodes": 9
+  },
+  {
+   "id": 5657,
+   "name": "Anjelica Huston",
+   "photo": "https://image.tmdb.org/t/p/w185/6hnYeHa7Rc1w1MmQ3JsLSIb7yCX.jpg",
+   "character": "Cynthia Keener",
+   "episodes": 8
+  },
+  {
+   "id": 79074,
+   "name": "Ted Garcia",
+   "photo": "https://image.tmdb.org/t/p/w185/eClwg7pZyIRzGKah0X8M1d0PrbM.jpg",
+   "character": "Reporter #3 / On-the-Scene Newsman / Newscaster",
+   "episodes": 8
+  },
+  {
+   "id": 2523945,
+   "name": "Kendahl King",
+   "photo": null,
+   "character": "Devalos' Assistant / Sondra / Devalos's Assistant",
+   "episodes": 8
+  },
+  {
+   "id": 119521,
+   "name": "Conor O'Farrell",
+   "photo": "https://image.tmdb.org/t/p/w185/ieA8GBJTx0vGmZ0bcDvTOxYAIa0.jpg",
+   "character": "Larry Watt",
+   "episodes": 8
+  },
+  {
+   "id": 1212274,
+   "name": "Annamarie Kenoyer",
+   "photo": "https://image.tmdb.org/t/p/w185/evnivwjMBPmYjvicYrPmCqnsMwK.jpg",
+   "character": "Ashley Whitaker",
+   "episodes": 7
+  },
+  {
+   "id": 1212290,
+   "name": "Madison Carabello",
+   "photo": null,
+   "character": "Marie Dubois",
+   "episodes": 7
+  },
+  {
+   "id": 173739,
+   "name": "Ned Schmidtke",
+   "photo": "https://image.tmdb.org/t/p/w185/vded4qdawSnbheJFAjzmy5iwtCp.jpg",
+   "character": "Terry Cavanaugh",
+   "episodes": 6
+  },
+  {
+   "id": 29021,
+   "name": "Roxanne Hart",
+   "photo": "https://image.tmdb.org/t/p/w185/sNDRhIcW51b7ruS8yt0Xpwa12Mz.jpg",
+   "character": "Lily Devalos",
+   "episodes": 6
+  },
+  {
+   "id": 206611,
+   "name": "Brian Avers",
+   "photo": "https://image.tmdb.org/t/p/w185/kkyISztri26UG9Z4WlZM0ASwt4R.jpg",
+   "character": "Brian Fondran",
+   "episodes": 5
+  },
+  {
+   "id": 84880,
+   "name": "Gina St. John",
+   "photo": "https://image.tmdb.org/t/p/w185/xu3uzqknoTtksVmikjdVN5ID0Ji.jpg",
+   "character": "Reporter #2 / Newscaster",
+   "episodes": 5
+  },
+  {
+   "id": 1907,
+   "name": "Kathy Baker",
+   "photo": "https://image.tmdb.org/t/p/w185/34zuI0qWTD5jdqmJRtPwaW70JcQ.jpg",
+   "character": "Marjorie Dubois",
+   "episodes": 5
+  },
+  {
+   "id": 3229,
+   "name": "Arliss Howard",
+   "photo": "https://image.tmdb.org/t/p/w185/28bQJ5fqLem4Ml7x9LZ7QEnwaTa.jpg",
+   "character": "Captain Kenneth Push",
+   "episodes": 4
+  },
+  {
+   "id": 19468,
+   "name": "Gerry Becker",
+   "photo": "https://image.tmdb.org/t/p/w185/il1r1Iym5WFJyo8SQon60aqu4nC.jpg",
+   "character": "Marcus Canty",
+   "episodes": 4
+  }
+ ],
+ "crew": [
+  {
+   "id": 58463,
+   "name": "Glenn Gordon Caron",
+   "photo": "https://image.tmdb.org/t/p/w185/dmC4tmFKKR5NviYnwuPBtS9CGf6.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 97847,
+   "name": "Aaron Lipstadt",
+   "photo": "https://image.tmdb.org/t/p/w185/u2YZCqtmwd4DJ1E3L3oCaib41Bv.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 29
+  },
+  {
+   "id": 1212196,
+   "name": "Robert Doherty",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 28
+  },
+  {
+   "id": 1212201,
+   "name": "Craig Sweeny",
+   "photo": "https://image.tmdb.org/t/p/w185/6udgZNScvTq4eASUNsxEL1mW3YI.jpg",
+   "jobs": [
+    "Director",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 30477,
+   "name": "Peter Werner",
+   "photo": "https://image.tmdb.org/t/p/w185/dTxEOaLPDKwxINxcG8Rtm9PRk1w.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 1212200,
+   "name": "Vincent Misiano",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1212199,
+   "name": "Moira Kirland",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1212207,
+   "name": "Diane Ademu-John",
+   "photo": "https://image.tmdb.org/t/p/w185/jAPp1NwOxsDkfKgPUnV0gVYXqvO.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1212198,
+   "name": "Travis Donnelly",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1212197,
+   "name": "Corey Reed",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 15042,
+   "name": "Arlene Sanford",
+   "photo": "https://image.tmdb.org/t/p/w185/hsnlVO1L51oeL85e1GTuxmI4Kqn.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1212216,
+   "name": "René Echevarria",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1212204,
+   "name": "Javier Grillo-Marxuach",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1246855,
+   "name": "Michael Narducci",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 212394,
+   "name": "Larry Teng",
+   "photo": "https://image.tmdb.org/t/p/w185/jFZJi0lwTB9h02qt2kLXzEktbWs.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 4184,
+   "name": "Ronald L. Schwary",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:07.885Z"
+}

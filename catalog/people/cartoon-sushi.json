@@ -1,0 +1,34 @@
+{
+ "show": "Cartoon Sushi",
+ "slug": "cartoon-sushi",
+ "tmdbId": 10922,
+ "cast": [
+  {
+   "id": 80987,
+   "name": "Karyn Parsons",
+   "photo": "https://image.tmdb.org/t/p/w185/pZ7YnfeNZqgrIjFEm4u7qxaRiPa.jpg",
+   "character": "",
+   "episodes": 9
+  }
+ ],
+ "crew": [
+  {
+   "id": 588877,
+   "name": "Danny Antonucci",
+   "photo": null,
+   "jobs": [
+    "Creator"
+   ]
+  },
+  {
+   "id": 126125,
+   "name": "Bill Plympton",
+   "photo": "https://image.tmdb.org/t/p/w185/AvlfzNmtMxPktUP4DOIrfBIMZXW.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:30:58.436Z"
+}

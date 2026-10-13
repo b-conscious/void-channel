@@ -1,0 +1,222 @@
+{
+ "show": "The Magnificent Century",
+ "slug": "the-magnificent-century",
+ "tmdbId": 34899,
+ "cast": [
+  {
+   "id": 59764,
+   "name": "Halit Ergenç",
+   "photo": "https://image.tmdb.org/t/p/w185/7L5ivMz1S7ArHTvUaslVVV3ML42.jpg",
+   "character": "I. Süleyman",
+   "episodes": 139
+  },
+  {
+   "id": 1246604,
+   "name": "Nur Fettahoğlu",
+   "photo": "https://image.tmdb.org/t/p/w185/yMxCbHQebr1ZVjOphUw3V1U5anC.jpg",
+   "character": "Mahidevran Sultan",
+   "episodes": 139
+  },
+  {
+   "id": 1243837,
+   "name": "Meryem Uzerli",
+   "photo": "https://image.tmdb.org/t/p/w185/xWb9GuPDFmrLCpuocFs45O3rG0W.jpg",
+   "character": "Hürrem Sultan",
+   "episodes": 139
+  },
+  {
+   "id": 1246603,
+   "name": "Nebahat Çehre",
+   "photo": "https://image.tmdb.org/t/p/w185/sWqAQdUAM5RJS0xdksHJQbnB5tb.jpg",
+   "character": "Valide Ayşe Hafsa Sultan",
+   "episodes": 139
+  },
+  {
+   "id": 121426,
+   "name": "Okan Yalabık",
+   "photo": "https://image.tmdb.org/t/p/w185/xWbbpbln5lL2nlaPKDzGrxWe10E.jpg",
+   "character": "Pargalı İbrahim Paşa",
+   "episodes": 139
+  },
+  {
+   "id": 46067,
+   "name": "Selma Ergeç",
+   "photo": "https://image.tmdb.org/t/p/w185/8pNvPKs1WeUbPW4UbOr3XMCjobj.jpg",
+   "character": "Hatice Sultan",
+   "episodes": 139
+  },
+  {
+   "id": 1514727,
+   "name": "Selen Öztürk",
+   "photo": "https://image.tmdb.org/t/p/w185/xgiTYVwDQA7jYDmnFdJWJS87PmD.jpg",
+   "character": "Gülfem Hatun",
+   "episodes": 139
+  },
+  {
+   "id": 96977,
+   "name": "Mehmet Günsür",
+   "photo": "https://image.tmdb.org/t/p/w185/wwIYzgt3lBDrqinpzdvcUGmlK6A.jpg",
+   "character": "Şehzade Mustafa",
+   "episodes": 139
+  },
+  {
+   "id": 1253158,
+   "name": "Selim Bayraktar",
+   "photo": "https://image.tmdb.org/t/p/w185/2c5JSkUqHpClGIH6UjvFjrYsnne.jpg",
+   "character": "Sümbül Ağa",
+   "episodes": 139
+  },
+  {
+   "id": 1424928,
+   "name": "Burak Özçivit",
+   "photo": "https://image.tmdb.org/t/p/w185/pF8EHDM2ETDT2X2Pwg3Ak0ZCPAY.jpg",
+   "character": "Yahyapaşazade Malkoçoğlu Bali Bey",
+   "episodes": 139
+  },
+  {
+   "id": 1253157,
+   "name": "Filiz Ahmet",
+   "photo": "https://image.tmdb.org/t/p/w185/ttLcLHSBs0Wn8fgpa4vnLs2sIk6.jpg",
+   "character": "Nigar Kalfa",
+   "episodes": 139
+  },
+  {
+   "id": 2004921,
+   "name": "İrem Helvacıoğlu",
+   "photo": "https://image.tmdb.org/t/p/w185/eqX21ISGm0R4JVIcsAmUfkh1Ys0.jpg",
+   "character": "Nurbahar Hatun (Clara)",
+   "episodes": 139
+  },
+  {
+   "id": 1464766,
+   "name": "Pınar Çağlar Gençtürk",
+   "photo": "https://image.tmdb.org/t/p/w185/iMSnVDGstCuVjwfvEv1EzinbejB.jpg",
+   "character": "Beyhan",
+   "episodes": 139
+  },
+  {
+   "id": 1760542,
+   "name": "Yüksel Ünal",
+   "photo": "https://image.tmdb.org/t/p/w185/8iZFM5YdwenKVw3NbB5OMZqJM6H.jpg",
+   "character": "Şeker Ağa",
+   "episodes": 103
+  },
+  {
+   "id": 20728,
+   "name": "Tuncel Kurtiz",
+   "photo": "https://image.tmdb.org/t/p/w185/ggJzGwO7JmKzlaVTUMw73DuIcF6.jpg",
+   "character": "Ebu Suud Efendi",
+   "episodes": 79
+  },
+  {
+   "id": 1483880,
+   "name": "Serkan Altunorak",
+   "photo": "https://image.tmdb.org/t/p/w185/6mZ4mH9GgfMtCeaBJzUt8GfuVir.jpg",
+   "character": "Taşlıcalı Yahya",
+   "episodes": 79
+  },
+  {
+   "id": 1953278,
+   "name": "Gürbey İleri",
+   "photo": "https://image.tmdb.org/t/p/w185/8c7TpUi3OzNwqoUZ8DAU9t2TFc8.jpg",
+   "character": "Şehzade Mehmet",
+   "episodes": 79
+  },
+  {
+   "id": 1247729,
+   "name": "Pelin Karahan",
+   "photo": "https://image.tmdb.org/t/p/w185/9NlfpTSrv0ORKX6hJ57JaYLN6Yr.jpg",
+   "character": "Mihrimah Sultan",
+   "episodes": 79
+  },
+  {
+   "id": 1575446,
+   "name": "Aybars Kartal Özson",
+   "photo": "https://image.tmdb.org/t/p/w185/9KX22bmq2nvQeO4JdmRHIT22wOy.jpg",
+   "character": "Şehzade Cihangir",
+   "episodes": 79
+  },
+  {
+   "id": 1256374,
+   "name": "Engin Öztürk",
+   "photo": "https://image.tmdb.org/t/p/w185/nY0PvgJMtLXDlgrix4xwayqHu5C.jpg",
+   "character": "Şehzade Selim",
+   "episodes": 76
+  },
+  {
+   "id": 1251887,
+   "name": "Sarp Akkaya",
+   "photo": "https://image.tmdb.org/t/p/w185/hCsdUZWtoGXdgRJD40klqDWrY7U.jpg",
+   "character": "Atmaca",
+   "episodes": 76
+  },
+  {
+   "id": 1522695,
+   "name": "Tolga Sarıtaş",
+   "photo": "https://image.tmdb.org/t/p/w185/aeGGpqODAVxFA7mJFseA8jpNeWm.jpg",
+   "character": "Şehzade Cihangir",
+   "episodes": 76
+  },
+  {
+   "id": 1522700,
+   "name": "Burcu Özberk",
+   "photo": "https://image.tmdb.org/t/p/w185/wDhKUUR7pRzgVolACed0YnSozbL.jpg",
+   "character": "Huricihan Sultan",
+   "episodes": 76
+  },
+  {
+   "id": 2194846,
+   "name": "Gökhan Atalay",
+   "photo": "https://image.tmdb.org/t/p/w185/nS39RZ7gVbyTip0AxLyZrdC5hpl.jpg",
+   "character": "Ulama Paşa",
+   "episodes": 76
+  }
+ ],
+ "crew": [
+  {
+   "id": 1254607,
+   "name": "Timur Savcı",
+   "photo": "https://image.tmdb.org/t/p/w185/npGefxm0wJlJMRM6n0sPys5imCN.jpg",
+   "jobs": [
+    "Creator"
+   ]
+  },
+  {
+   "id": 115010,
+   "name": "Yağmur Taylan",
+   "photo": "https://image.tmdb.org/t/p/w185/z6EqjtVcpF0G9NMPpbTSCnX4eIL.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 103
+  },
+  {
+   "id": 115009,
+   "name": "Durul Taylan",
+   "photo": "https://image.tmdb.org/t/p/w185/q2RAboLaw8uIYZb91yRtYxqUQo2.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 103
+  },
+  {
+   "id": 1133959,
+   "name": "Meral Okay",
+   "photo": "https://image.tmdb.org/t/p/w185/rAc0FwU4WcMzXn0ocQMHj2L1Jt5.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 63
+  },
+  {
+   "id": 1598243,
+   "name": "Yılmaz Sahin",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 47
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:41:39.620Z"
+}

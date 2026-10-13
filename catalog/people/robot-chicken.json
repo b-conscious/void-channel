@@ -1,0 +1,331 @@
+{
+ "show": "Robot Chicken",
+ "slug": "robot-chicken",
+ "tmdbId": 709,
+ "cast": [
+  {
+   "id": 13922,
+   "name": "Seth Green",
+   "photo": "https://image.tmdb.org/t/p/w185/l4No5Eu6j0U80hCIkaSn17AOWrj.jpg",
+   "character": "Various (voice)",
+   "episodes": 218
+  },
+  {
+   "id": 188238,
+   "name": "Matthew Senreich",
+   "photo": "https://image.tmdb.org/t/p/w185/xRNJ0SS5Ot3HoxEbZEXeheIb4Fl.jpg",
+   "character": "Various (voice)",
+   "episodes": 218
+  },
+  {
+   "id": 33654,
+   "name": "Breckin Meyer",
+   "photo": "https://image.tmdb.org/t/p/w185/lKzhwW7qqQF4ZMGtRqakqrKrxzm.jpg",
+   "character": "Various (voice)",
+   "episodes": 218
+  },
+  {
+   "id": 11863,
+   "name": "Sarah Michelle Gellar",
+   "photo": "https://image.tmdb.org/t/p/w185/grlhyolOpwZAnpeFvuTC3SQAUij.jpg",
+   "character": "Buffy Summers (voice) / Blair Warner (voice) / Daphne Blake / Samara Morgan / Soccer Player (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 22108,
+   "name": "Skeet Ulrich",
+   "photo": "https://image.tmdb.org/t/p/w185/moyTBJUTl82PaAhm8aHGwlvKr7r.jpg",
+   "character": "Dean / Union Worker / Duke (voice) / Duke (voice) / Man / Dino Science Scientist / Duke (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 11510,
+   "name": "Macaulay Culkin",
+   "photo": "https://image.tmdb.org/t/p/w185/hVagDqi5o8lZ21b1kXAl45Sj9wt.jpg",
+   "character": "Vampire #2 / Bastian / Co-anchor / Wiseass / Luke Duke / Pikachu (voice) / Little Boy / Bullied Kid / Macaulay Culkin (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 52139,
+   "name": "Seth MacFarlane",
+   "photo": "https://image.tmdb.org/t/p/w185/8oQJqM51Z0Qtdb7sE6ZfX1peNCB.jpg",
+   "character": "Billy Ray Cyrus / Santa Claus / Evil Scientist (voice) / Emperor Palpatine (voice) / Santa Claus (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 15831,
+   "name": "Frank Welker",
+   "photo": "https://image.tmdb.org/t/p/w185/aC37aQtsfZZDZN5y3paDTLJJHCi.jpg",
+   "character": "Megatron / Soundwave / The Phantom (voice) / Dr. Claw / Brain / Billy's Dad (voice) / Dr. Claw / Cybernetics Doctor / Robert Baratheon (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 1219664,
+   "name": "Tom Root",
+   "photo": null,
+   "character": "Roley / Man / Jefferson Winslow (voice) / Mark / Miles Shortman (voice) / Colonel / Hammond (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 88995,
+   "name": "Adrianne Palicki",
+   "photo": "https://image.tmdb.org/t/p/w185/sh9s2GpNuaNdg7oNz9QN3L2jqs6.jpg",
+   "character": "(voice)",
+   "episodes": 5
+  },
+  {
+   "id": 1219662,
+   "name": "Dan Milano",
+   "photo": null,
+   "character": "Prowl / 'So Hungry' Man (voice) / Oliver Oken / Lil' Thomas Magnum (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 52404,
+   "name": "Mae Whitman",
+   "photo": "https://image.tmdb.org/t/p/w185/y7fg9R5zvqDCZCUt3uwcyOoCOFp.jpg",
+   "character": "Lady Gaga, Wilma Flinstone, Bella's Friend (voice) / Tanya Mousekewitz / Bloody Mary Summoner (voice) / Talyn, Jane Lane, Flight Attendant (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 1245,
+   "name": "Scarlett Johansson",
+   "photo": "https://image.tmdb.org/t/p/w185/tgxYh3jMs5bY2Ub4d2dcp9iaz1R.jpg",
+   "character": "Veronica Lodge, Dolores (voice) / Amy, Darlene, Cheerleader Stick (voice) / Sailor Moon / Scarlett Johansson / Della Bea Robinson (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 78317,
+   "name": "Bob Bergen",
+   "photo": "https://image.tmdb.org/t/p/w185/soDD1xiV3zVQWOJzVdJwfgIqzfe.jpg",
+   "character": "T.J. Detweiler / Mikey Blumberg / Galileo (voice) / Porky Pig / Thug Paper Bag (voice) / Luke Skywalker / Sylvanian Hedgehog (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 16620,
+   "name": "Hulk Hogan",
+   "photo": "https://image.tmdb.org/t/p/w185/i27iSeP7hhtlFOeVnthRQ9Ox2m4.jpg",
+   "character": "Hulk Hogan / Bartender (voice) / Bigfoot Truck / Bank Robber / Squad Leader Lt. J.T. Marsh (voice) / Hulk Hogan / Abraham Lincoln (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 84213,
+   "name": "Bill Farmer",
+   "photo": "https://image.tmdb.org/t/p/w185/lhezx68R12s5Bsv7d77BrQb7tWA.jpg",
+   "character": "Bugs Bunny / Retired Navy Ship Commander (voice) / Bugs Bunny / Daffy Duck (voice) / Pubertis / Coach (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 51798,
+   "name": "Katee Sackhoff",
+   "photo": "https://image.tmdb.org/t/p/w185/kzcwfDDrgXnVgyTfcpG0obOn7Qk.jpg",
+   "character": "Hilda Spellman / Bitch Pudding (voice) / Shana 'Scarlett' O'Hara / Bitch Puddin' / 'Your Mom' (voice) / Kara Thrace / Sharon 'Number Eight' / Diane / Ellen Tigh (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 1191977,
+   "name": "Sam Kwasman",
+   "photo": "https://image.tmdb.org/t/p/w185/o52Hcn5FY64NgM9Ox4xp2zCU03l.jpg",
+   "character": "Donald Duck / B.A.G. Pipes Customer (voice) / Donald Duck (voice) / Donald Duck / Narrator (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 111383,
+   "name": "Danny Goldman",
+   "photo": "https://image.tmdb.org/t/p/w185/lmWTlSAxjFxEnsDOU2sQ5IjgqDS.jpg",
+   "character": "Brainy Smurf / Bald Eagle / Mummy (voice) / Brainy Smurf / Policeman Smurf (voice) / Brainy Smurf / Priest (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 1218736,
+   "name": "Dave Coulier",
+   "photo": "https://image.tmdb.org/t/p/w185/mpWFTLJqVh3Wa42CG6X4tAND2bB.jpg",
+   "character": "Tiny Harper / Popeye (voice) / Popeye / Bluto (voice) / Scooby-Doo (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 74337,
+   "name": "Dana Snyder",
+   "photo": "https://image.tmdb.org/t/p/w185/3s6O93oeY4QaAVUjrjSiBUKlMFu.jpg",
+   "character": "Lego Pharaoh (voice) / Master Shake (voice) / Gopher #1 / Doctor (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 19961,
+   "name": "Nina Dobrev",
+   "photo": "https://image.tmdb.org/t/p/w185/euHNgS3z3M3OTzLhQQAezViQddq.jpg",
+   "character": "Jenny Curran (voice) / Cortana (voice) / Abby Stevenson (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 29222,
+   "name": "Zac Efron",
+   "photo": "https://image.tmdb.org/t/p/w185/pdWXP7XG6qqOoxoLid1DWYwmaMY.jpg",
+   "character": "Billy Joel, Mechanic (voice) / Anakin Skywalker, Red Power Ranger, God (voice) / Harry Potter, Horrg, Bowling Pin (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 38581,
+   "name": "Rachael Leigh Cook",
+   "photo": "https://image.tmdb.org/t/p/w185/3ylMsV6dqo5ojKjuMz9xvkEreAA.jpg",
+   "character": "Self (voice) / Josie McCoy (voice)",
+   "episodes": 3
+  }
+ ],
+ "crew": [
+  {
+   "id": 13922,
+   "name": "Seth Green",
+   "photo": "https://image.tmdb.org/t/p/w185/l4No5Eu6j0U80hCIkaSn17AOWrj.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 188238,
+   "name": "Matthew Senreich",
+   "photo": "https://image.tmdb.org/t/p/w185/xRNJ0SS5Ot3HoxEbZEXeheIb4Fl.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 1432957,
+   "name": "Ross Shuman",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 1219664,
+   "name": "Tom Root",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 1219663,
+   "name": "Doug Goldstein",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 33654,
+   "name": "Breckin Meyer",
+   "photo": "https://image.tmdb.org/t/p/w185/lKzhwW7qqQF4ZMGtRqakqrKrxzm.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 89001,
+   "name": "Hugh Davidson",
+   "photo": "https://image.tmdb.org/t/p/w185/sFYTqQaUx77cpL7T8YZuB3nIjMC.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 21
+  },
+  {
+   "id": 1215655,
+   "name": "Mike Lazzo",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 1496697,
+   "name": "Eric Towner",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 1457564,
+   "name": "John Harvatine IV",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 1215656,
+   "name": "Keith Crofford",
+   "photo": "https://image.tmdb.org/t/p/w185/vyNDOCtfryXLFDSvAv5iMXiQuTD.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 1219670,
+   "name": "Matthew Ireland Beans",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 129174,
+   "name": "Jordan Allen-Dutton",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 1219675,
+   "name": "Hugh Sterbakov",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 1219669,
+   "name": "Zeb Wells",
+   "photo": "https://image.tmdb.org/t/p/w185/cfc4Y9MjnAMSr0Fs68M4nubvSIQ.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 211962,
+   "name": "Geoff Johns",
+   "photo": "https://image.tmdb.org/t/p/w185/1hiQjkIkeFoiwvD4yIk2Dq6tnOa.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 20
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:30:32.465Z"
+}

@@ -1,0 +1,324 @@
+{
+ "show": "Oz",
+ "slug": "oz",
+ "tmdbId": 3322,
+ "cast": [
+  {
+   "id": 6906,
+   "name": "Lee Tergesen",
+   "photo": "https://image.tmdb.org/t/p/w185/qAldK2CeBVzeRZ9sqTd3zU9SiU1.jpg",
+   "character": "Tobias Beecher",
+   "episodes": 56
+  },
+  {
+   "id": 6195,
+   "name": "Harold Perrineau",
+   "photo": "https://image.tmdb.org/t/p/w185/bVSLpGUaislREbujmknOqadrxYM.jpg",
+   "character": "Augustus Hill",
+   "episodes": 56
+  },
+  {
+   "id": 68763,
+   "name": "Dean Winters",
+   "photo": "https://image.tmdb.org/t/p/w185/zxgOZAYGxa2qmiZkJKGRIhwbGhG.jpg",
+   "character": "Ryan O'Reily",
+   "episodes": 56
+  },
+  {
+   "id": 19299,
+   "name": "Eamonn Walker",
+   "photo": "https://image.tmdb.org/t/p/w185/mJ2pENrcO4uRy2TNVUzg5cEI9b3.jpg",
+   "character": "Kareem Saïd",
+   "episodes": 56
+  },
+  {
+   "id": 8874,
+   "name": "Ernie Hudson",
+   "photo": "https://image.tmdb.org/t/p/w185/kgAdQA2ItCDVvKXufeDHc6Omiso.jpg",
+   "character": "Leo Glynn",
+   "episodes": 56
+  },
+  {
+   "id": 11067,
+   "name": "Terry Kinney",
+   "photo": "https://image.tmdb.org/t/p/w185/2Y6AeUUj1xUd5p7mRM9tFqUCN87.jpg",
+   "character": "Tim McManus",
+   "episodes": 56
+  },
+  {
+   "id": 13299,
+   "name": "Rita Moreno",
+   "photo": "https://image.tmdb.org/t/p/w185/zB0M77jr7tmsmWHEr2bWO2Xq66L.jpg",
+   "character": "Sister Peter Marie Reimondo",
+   "episodes": 56
+  },
+  {
+   "id": 18999,
+   "name": "J.K. Simmons",
+   "photo": "https://image.tmdb.org/t/p/w185/ScmKoJ9eiSUOthAt1PDNLi8Fkw.jpg",
+   "character": "Vernon Schillinger",
+   "episodes": 56
+  },
+  {
+   "id": 55861,
+   "name": "Kirk Acevedo",
+   "photo": "https://image.tmdb.org/t/p/w185/jFUHECwo7L3KOZ0HxCQytl90qed.jpg",
+   "character": "Miguel Alvarez",
+   "episodes": 56
+  },
+  {
+   "id": 1196493,
+   "name": "Craig muMs Grant",
+   "photo": "https://image.tmdb.org/t/p/w185/6bzAww7GzUFa4nrO2yThTaevEph.jpg",
+   "character": "Poet",
+   "episodes": 56
+  },
+  {
+   "id": 14592,
+   "name": "BD Wong",
+   "photo": "https://image.tmdb.org/t/p/w185/w7Hs9m6ocS2qlibvrLOvmyCKbAN.jpg",
+   "character": "Father Ray Mukada",
+   "episodes": 56
+  },
+  {
+   "id": 39017,
+   "name": "George Morfogen",
+   "photo": "https://image.tmdb.org/t/p/w185/lCxlStkrbL4q8irt3c1vc6I76o8.jpg",
+   "character": "Bob Rebadow",
+   "episodes": 56
+  },
+  {
+   "id": 141610,
+   "name": "Luna Lauren Vélez",
+   "photo": "https://image.tmdb.org/t/p/w185/98BvmTJCZHx0jPv0oNcv04Jkmfb.jpg",
+   "character": "Dr. Gloria Nathan",
+   "episodes": 52
+  },
+  {
+   "id": 2790508,
+   "name": "Ra Hanna",
+   "photo": "https://image.tmdb.org/t/p/w185/linVwuRZEAFWr61OyNSsz892NR6.jpg",
+   "character": "Nacim Bismilla",
+   "episodes": 49
+  },
+  {
+   "id": 118754,
+   "name": "Tom Mardirosian",
+   "photo": "https://image.tmdb.org/t/p/w185/d7HTdYQ4GtRoeFKzpVtP0sjx7xx.jpg",
+   "character": "Agamemnon Busmalis",
+   "episodes": 48
+  },
+  {
+   "id": 229744,
+   "name": "Granville Adams",
+   "photo": null,
+   "character": "Zahir Arif",
+   "episodes": 48
+  },
+  {
+   "id": 71521,
+   "name": "Chuck Zito",
+   "photo": "https://image.tmdb.org/t/p/w185/rB29MLnNm3edynrGVVMTGcwcMxA.jpg",
+   "character": "Chucky Pancamo",
+   "episodes": 46
+  },
+  {
+   "id": 144578,
+   "name": "Scott William Winters",
+   "photo": "https://image.tmdb.org/t/p/w185/tilKPFFzMgfv1HsoTCbQcZfSjf1.jpg",
+   "character": "Cyril O'Reily",
+   "episodes": 45
+  },
+  {
+   "id": 22227,
+   "name": "Christopher Meloni",
+   "photo": "https://image.tmdb.org/t/p/w185/nHlFFbRTh85vkohBBtRQjYnWEtb.jpg",
+   "character": "Chris Keller",
+   "episodes": 43
+  },
+  {
+   "id": 31164,
+   "name": "Adewale Akinnuoye-Agbaje",
+   "photo": "https://image.tmdb.org/t/p/w185/zdtwVtVmmm7VzYfu8xH7mbuTvrH.jpg",
+   "character": "Simon Adebisi",
+   "episodes": 40
+  },
+  {
+   "id": 59739,
+   "name": "Otto Sanchez",
+   "photo": "https://image.tmdb.org/t/p/w185/jnW64yR3TUQk9o3EBLeIR6bZ01r.jpg",
+   "character": "Chico Guerra",
+   "episodes": 38
+  },
+  {
+   "id": 1233789,
+   "name": "Carl DiMaggio",
+   "photo": null,
+   "character": "Officer Len Lopresti",
+   "episodes": 33
+  },
+  {
+   "id": 22821,
+   "name": "David Zayas",
+   "photo": "https://image.tmdb.org/t/p/w185/w1E8n9gl2HcZEhfBOXdVzMvIlzg.jpg",
+   "character": "Enrique Morales",
+   "episodes": 32
+  },
+  {
+   "id": 6752,
+   "name": "Željko Ivanek",
+   "photo": "https://image.tmdb.org/t/p/w185/xLv19n8UvGJLxI7Z6RIv9eNXGmf.jpg",
+   "character": "Governor James Devlin",
+   "episodes": 32
+  }
+ ],
+ "crew": [
+  {
+   "id": 116516,
+   "name": "Tom Fontana",
+   "photo": "https://image.tmdb.org/t/p/w185/xrgcRu8zvcLPtzQ7IoKqGFgZwYl.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 56
+  },
+  {
+   "id": 8246,
+   "name": "Barry Levinson",
+   "photo": "https://image.tmdb.org/t/p/w185/auf7SnoOE9FULo8KhSSL8c2Yrlb.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 56
+  },
+  {
+   "id": 297230,
+   "name": "Jim Finnerty",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 111338,
+   "name": "Adam Bernstein",
+   "photo": "https://image.tmdb.org/t/p/w185/mnob89jXPcPfW85PPw7tTPCKSig.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1225830,
+   "name": "Sunil Nayar",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1213612,
+   "name": "Sean Whitesell",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1218785,
+   "name": "Alex Zakrzewski",
+   "photo": "https://image.tmdb.org/t/p/w185/10GE6tUYXEY3oE2j9uBRiSYkJ1U.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 17278,
+   "name": "Nick Gomez",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 36185,
+   "name": "Jean de Segonzac",
+   "photo": "https://image.tmdb.org/t/p/w185/hh8hRu4aj2vJn2qX0x0pAvNj5BX.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 75631,
+   "name": "J. Miller Tobin",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 81727,
+   "name": "Darnell Martin",
+   "photo": "https://image.tmdb.org/t/p/w185/ckJYoBeDRT6DgqfyEA1LWdIQjr1.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 65115,
+   "name": "Keith Samples",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 884,
+   "name": "Steve Buscemi",
+   "photo": "https://image.tmdb.org/t/p/w185/n0pZumkrcZrAPMoPq684RhYnjPV.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 11067,
+   "name": "Terry Kinney",
+   "photo": "https://image.tmdb.org/t/p/w185/2Y6AeUUj1xUd5p7mRM9tFqUCN87.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 155586,
+   "name": "Goran Gajić",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 47005,
+   "name": "Alan Taylor",
+   "photo": "https://image.tmdb.org/t/p/w185/sXC2wNRo7lshghNnNaPdWQ9sqKe.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:31:42.902Z"
+}

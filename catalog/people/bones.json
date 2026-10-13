@@ -1,0 +1,337 @@
+{
+ "show": "Bones",
+ "slug": "bones",
+ "tmdbId": 1911,
+ "cast": [
+  {
+   "id": 25933,
+   "name": "Emily Deschanel",
+   "photo": "https://image.tmdb.org/t/p/w185/3JSmerjbbC4VtCC6wsAPy10tg1U.jpg",
+   "character": "Temperance 'Bones' Brennan",
+   "episodes": 246
+  },
+  {
+   "id": 25934,
+   "name": "David Boreanaz",
+   "photo": "https://image.tmdb.org/t/p/w185/rxbKFajA7zIv4sUJUpGNBWXS7jM.jpg",
+   "character": "Seeley Booth",
+   "episodes": 246
+  },
+  {
+   "id": 122237,
+   "name": "Michaela Conlin",
+   "photo": "https://image.tmdb.org/t/p/w185/5Qv7KNTMDbdO7m5p1wIic5kVKr8.jpg",
+   "character": "Angela Montenegro",
+   "episodes": 246
+  },
+  {
+   "id": 151263,
+   "name": "T.J. Thyne",
+   "photo": "https://image.tmdb.org/t/p/w185/wzPGaDjzimfGjIpRg6NjN9eqJxL.jpg",
+   "character": "Jack Hodgins",
+   "episodes": 246
+  },
+  {
+   "id": 39464,
+   "name": "Tamara Taylor",
+   "photo": "https://image.tmdb.org/t/p/w185/4hvMoHSki7mZUPxcJXysLEw5Z5I.jpg",
+   "character": "Camille Saroyan",
+   "episodes": 224
+  },
+  {
+   "id": 52935,
+   "name": "John Francis Daley",
+   "photo": "https://image.tmdb.org/t/p/w185/rKZL3e8gI2tQD6Kv0QojXK5sG4u.jpg",
+   "character": "Lance Sweets",
+   "episodes": 141
+  },
+  {
+   "id": 162513,
+   "name": "Eric Millegan",
+   "photo": "https://image.tmdb.org/t/p/w185/co1yTVXF9PNPNTBjOlu2Lk3BVvu.jpg",
+   "character": "Zack Addy",
+   "episodes": 64
+  },
+  {
+   "id": 58621,
+   "name": "John Boyd",
+   "photo": "https://image.tmdb.org/t/p/w185/oHgkm4VtuG1kFNqRCqPd5pKKMd0.jpg",
+   "character": "James Aubrey",
+   "episodes": 56
+  },
+  {
+   "id": 56358,
+   "name": "Patricia Belcher",
+   "photo": "https://image.tmdb.org/t/p/w185/q7n5henTgVmioJSQOXMyC4fN0rV.jpg",
+   "character": "Caroline Julian",
+   "episodes": 55
+  },
+  {
+   "id": 205984,
+   "name": "Michael Grant Terry",
+   "photo": "https://image.tmdb.org/t/p/w185/4Js2H62d0dmvUv6Bz8VX42w0LVu.jpg",
+   "character": "Wendell Bray",
+   "episodes": 42
+  },
+  {
+   "id": 342,
+   "name": "Eugene Byrd",
+   "photo": "https://image.tmdb.org/t/p/w185/4Vs64bmZC4MgOnwIhGEeZWUw7q1.jpg",
+   "character": "Clark Edison",
+   "episodes": 36
+  },
+  {
+   "id": 54708,
+   "name": "Carla Gallo",
+   "photo": "https://image.tmdb.org/t/p/w185/yf9F5OL0S97coL8bnGxDGxguZ2I.jpg",
+   "character": "Daisy Wick",
+   "episodes": 33
+  },
+  {
+   "id": 64297,
+   "name": "Pej Vahdat",
+   "photo": "https://image.tmdb.org/t/p/w185/aFxI4rU0m2XuLHp9ZqAzuYMLIRQ.jpg",
+   "character": "Arastoo Vaziri",
+   "episodes": 31
+  },
+  {
+   "id": 31070,
+   "name": "Ryan O'Neal",
+   "photo": "https://image.tmdb.org/t/p/w185/fVOj551i42ZlmBr3BvRKvfj7Mdj.jpg",
+   "character": "Max Keenan",
+   "episodes": 27
+  },
+  {
+   "id": 1607673,
+   "name": "Sunnie Pelant",
+   "photo": "https://image.tmdb.org/t/p/w185/aFWd6j0ifHkt9PmY41eMSfU7Hes.jpg",
+   "character": "Christine Booth",
+   "episodes": 27
+  },
+  {
+   "id": 13477,
+   "name": "Jonathan Adams",
+   "photo": "https://image.tmdb.org/t/p/w185/mkgyl2MciZ14wsYi6zedyj6hnR8.jpg",
+   "character": "Daniel Goodman",
+   "episodes": 22
+  },
+  {
+   "id": 59231,
+   "name": "Joel David Moore",
+   "photo": "https://image.tmdb.org/t/p/w185/mMVhVglj6BZFuvqAXnEibce08k7.jpg",
+   "character": "Colin Fisher",
+   "episodes": 16
+  },
+  {
+   "id": 1439572,
+   "name": "Susanne Allan Hartman",
+   "photo": "https://image.tmdb.org/t/p/w185/3Z0b03PQAq6JCI4CpMvkLCwKXDw.jpg",
+   "character": "Christine Angela Booth",
+   "episodes": 15
+  },
+  {
+   "id": 1439573,
+   "name": "Ali Louise Hartman",
+   "photo": "https://image.tmdb.org/t/p/w185/qg7BhtyM4zeQQHKbr5fJ0czAZCv.jpg",
+   "character": "Christine Booth",
+   "episodes": 14
+  },
+  {
+   "id": 25144,
+   "name": "Ty Panitz",
+   "photo": "https://image.tmdb.org/t/p/w185/ePzXfm1M8EeaxdQ0lsyXl0wGA5n.jpg",
+   "character": "Parker Booth",
+   "episodes": 13
+  },
+  {
+   "id": 591519,
+   "name": "Laura Spencer",
+   "photo": "https://image.tmdb.org/t/p/w185/gaAIgczfFhGl1SSHijO6ZytEGjX.jpg",
+   "character": "Jessica Warren",
+   "episodes": 11
+  },
+  {
+   "id": 1214444,
+   "name": "David Greenman",
+   "photo": "https://image.tmdb.org/t/p/w185/alNHn3mkUTzli14lhJabBbL5t7g.jpg",
+   "character": "Marcus Geier",
+   "episodes": 11
+  },
+  {
+   "id": 76916,
+   "name": "Ryan Cartwright",
+   "photo": "https://image.tmdb.org/t/p/w185/pVPFNU5YehwqFGNFnfaWi60iPPf.jpg",
+   "character": "Vincent Nigel-Murray",
+   "episodes": 11
+  },
+  {
+   "id": 1224085,
+   "name": "Tiffany Hines",
+   "photo": "https://image.tmdb.org/t/p/w185/2Yu7NwixM7Uv7PRxhcqRr9G8geS.jpg",
+   "character": "Michelle Welton",
+   "episodes": 10
+  }
+ ],
+ "crew": [
+  {
+   "id": 1212569,
+   "name": "Hart Hanson",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 246
+  },
+  {
+   "id": 1213742,
+   "name": "Stephen Nathan",
+   "photo": "https://image.tmdb.org/t/p/w185/5voAAkxLonNI42GkYzNLJhNTDw5.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Story",
+    "Writer"
+   ],
+   "episodes": 246
+  },
+  {
+   "id": 42906,
+   "name": "Barry Josephson",
+   "photo": "https://image.tmdb.org/t/p/w185/anyjEIHN9LlAWWGLEEtgh9GgjWS.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 246
+  },
+  {
+   "id": 1090864,
+   "name": "Sean Callery",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 184
+  },
+  {
+   "id": 33056,
+   "name": "Ian Toynton",
+   "photo": "https://image.tmdb.org/t/p/w185/nmXxOtDRUHf0suuGVKApR3Os2h9.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 170
+  },
+  {
+   "id": 1865840,
+   "name": "Jamie Forsyth",
+   "photo": "https://image.tmdb.org/t/p/w185/81PCFcAuJQuKFp3CPjpAHGrlrOn.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 117
+  },
+  {
+   "id": 167321,
+   "name": "Carla Kettner",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 88
+  },
+  {
+   "id": 4233083,
+   "name": "Julia Marie Newmann",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 71
+  },
+  {
+   "id": 1365581,
+   "name": "Keith Foglesong",
+   "photo": "https://image.tmdb.org/t/p/w185/qDywzzYzCkpfXQH7r7NIQjSdowR.jpg",
+   "jobs": [
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 66
+  },
+  {
+   "id": 1360395,
+   "name": "Michael Peterson",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 65
+  },
+  {
+   "id": 1095038,
+   "name": "Peter Himmelman",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 62
+  },
+  {
+   "id": 1216641,
+   "name": "Jonathan Collier",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 61
+  },
+  {
+   "id": 151305,
+   "name": "Dean Lopata",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 57
+  },
+  {
+   "id": 1367537,
+   "name": "Janet Lin",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 51
+  },
+  {
+   "id": 1369342,
+   "name": "Nkechi Okoro Carroll",
+   "photo": "https://image.tmdb.org/t/p/w185/zjxLudChheZ1pqIJ6WNxk1yC7fe.jpg",
+   "jobs": [
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 45
+  },
+  {
+   "id": 1367610,
+   "name": "Pat Charles",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 41
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:31:56.557Z"
+}

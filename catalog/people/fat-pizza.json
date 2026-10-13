@@ -1,0 +1,32 @@
+{
+ "show": "Fat Pizza",
+ "slug": "fat-pizza",
+ "tmdbId": 204166,
+ "cast": [
+  {
+   "id": 3597824,
+   "name": "John Boxer",
+   "photo": null,
+   "character": "Bobo Gigliotti",
+   "episodes": 8
+  },
+  {
+   "id": 92712,
+   "name": "Paul Fenech",
+   "photo": "https://image.tmdb.org/t/p/w185/diGhPYpnTSWbXEggMmR5GoFYExi.jpg",
+   "character": "Pauly Falzoni",
+   "episodes": 8
+  }
+ ],
+ "crew": [
+  {
+   "id": 92712,
+   "name": "Paul Fenech",
+   "photo": "https://image.tmdb.org/t/p/w185/diGhPYpnTSWbXEggMmR5GoFYExi.jpg",
+   "jobs": [
+    "Creator"
+   ]
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:37:15.493Z"
+}

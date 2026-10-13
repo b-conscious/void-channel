@@ -1,0 +1,324 @@
+{
+ "show": "Ghost Whisperer",
+ "slug": "ghost-whisperer",
+ "tmdbId": 1606,
+ "cast": [
+  {
+   "id": 33259,
+   "name": "Jennifer Love Hewitt",
+   "photo": "https://image.tmdb.org/t/p/w185/kRySMLtckE7tl6136y0yzFYpUfE.jpg",
+   "character": "Melinda Gordon",
+   "episodes": 107
+  },
+  {
+   "id": 43479,
+   "name": "David Conrad",
+   "photo": "https://image.tmdb.org/t/p/w185/3A8ZF3G6LfeHbYhGiwLjShueYyK.jpg",
+   "character": "Sam \"Jim\" Lucas / Jim Clancy / Jim Clancy / Sam Lucas",
+   "episodes": 107
+  },
+  {
+   "id": 20187,
+   "name": "Camryn Manheim",
+   "photo": "https://image.tmdb.org/t/p/w185/jBriBpXLkgJW7ONUIMuK1k99Ywp.jpg",
+   "character": "Delia Banks",
+   "episodes": 85
+  },
+  {
+   "id": 6213,
+   "name": "Jamie Kennedy",
+   "photo": "https://image.tmdb.org/t/p/w185/ipfv0IU3VYGOz5OBmi9WJi5autF.jpg",
+   "character": "Eli James",
+   "episodes": 45
+  },
+  {
+   "id": 12217,
+   "name": "Jay Mohr",
+   "photo": "https://image.tmdb.org/t/p/w185/nk9q6JdcFQMLhaElN4lpUkxuqbd.jpg",
+   "character": "Rick Payne",
+   "episodes": 32
+  },
+  {
+   "id": 77521,
+   "name": "Christoph Sanders",
+   "photo": "https://image.tmdb.org/t/p/w185/3XJjZ3Yvkqj0YucwSsOTQUnqT8l.jpg",
+   "character": "Ned Banks",
+   "episodes": 26
+  },
+  {
+   "id": 38674,
+   "name": "Aisha Tyler",
+   "photo": "https://image.tmdb.org/t/p/w185/gVvqznx4udJMgO86IbufADinfE9.jpg",
+   "character": "Andrea Marino",
+   "episodes": 23
+  },
+  {
+   "id": 1225873,
+   "name": "Connor Gibbs",
+   "photo": "https://image.tmdb.org/t/p/w185/yR74Zov6X9Q6tR0srR7LRENZVl3.jpg",
+   "character": "Aiden Lucas",
+   "episodes": 22
+  },
+  {
+   "id": 28868,
+   "name": "Kenneth Mitchell",
+   "photo": "https://image.tmdb.org/t/p/w185/8LSKQ4pWxSs0aZUVfMFsL8lsJFZ.jpg",
+   "character": "Sam Lucas",
+   "episodes": 15
+  },
+  {
+   "id": 62821,
+   "name": "Tyler Patrick Jones",
+   "photo": "https://image.tmdb.org/t/p/w185/rxImwJ1GnxNXllJ8VswNHJzh695.jpg",
+   "character": "Ned Banks",
+   "episodes": 10
+  },
+  {
+   "id": 84208,
+   "name": "Ion Overman",
+   "photo": "https://image.tmdb.org/t/p/w185/5biy566sSd2F7TD1GTZnmcw6IiE.jpg",
+   "character": "Det. Sam Blair",
+   "episodes": 9
+  },
+  {
+   "id": 15412,
+   "name": "David Clennon",
+   "photo": "https://image.tmdb.org/t/p/w185/jLOf8nYolcb4P8LUDOW7QK5Y9pH.jpg",
+   "character": "Carl Sessick",
+   "episodes": 8
+  },
+  {
+   "id": 163855,
+   "name": "Dariush Kashani",
+   "photo": null,
+   "character": "Bobby Tooch",
+   "episodes": 8
+  },
+  {
+   "id": 35515,
+   "name": "June Squibb",
+   "photo": "https://image.tmdb.org/t/p/w185/a7vkoLhc8JGkdvDbHvpgKKHUPHH.jpg",
+   "character": "Melinda's Grandma",
+   "episodes": 6
+  },
+  {
+   "id": 139868,
+   "name": "Ignacio Serricchio",
+   "photo": "https://image.tmdb.org/t/p/w185/12De80bakY7dgxrGxw9fuu7b4eR.jpg",
+   "character": "Gabriel Hastings",
+   "episodes": 6
+  },
+  {
+   "id": 1065,
+   "name": "Thomas F. Wilson",
+   "photo": "https://image.tmdb.org/t/p/w185/mVhm65ZVBIRIptWGiMIvoUy0Khi.jpg",
+   "character": "Tim Flaherty",
+   "episodes": 6
+  },
+  {
+   "id": 52374,
+   "name": "Bruce Davison",
+   "photo": "https://image.tmdb.org/t/p/w185/41JtouCUhnnBwWmdsemPydtk3FB.jpg",
+   "character": "Josh Bedford",
+   "episodes": 5
+  },
+  {
+   "id": 54633,
+   "name": "Grace Caroline Currey",
+   "photo": "https://image.tmdb.org/t/p/w185/6chZcnjWEiFfpmB6D5BR9YUeIs9.jpg",
+   "character": "Young Melinda",
+   "episodes": 5
+  },
+  {
+   "id": 42993,
+   "name": "Martin Donovan",
+   "photo": "https://image.tmdb.org/t/p/w185/wTCmpcmd8mcAbsX6Yc7zFs2J98Q.jpg",
+   "character": "Tom Gordon",
+   "episodes": 4
+  },
+  {
+   "id": 149589,
+   "name": "Scott Rinker",
+   "photo": "https://image.tmdb.org/t/p/w185/tK11Kyyk0N2DX9Y9OGWLmDq9Yfe.jpg",
+   "character": "Reggie",
+   "episodes": 4
+  },
+  {
+   "id": 59889,
+   "name": "Kurt Caceres",
+   "photo": null,
+   "character": "Det. Carl Neely",
+   "episodes": 4
+  },
+  {
+   "id": 37825,
+   "name": "Afemo Omilami",
+   "photo": "https://image.tmdb.org/t/p/w185/usW1GHq20ZEX3rpei1HpeXfSpiP.jpg",
+   "character": "Archivist",
+   "episodes": 4
+  },
+  {
+   "id": 94904,
+   "name": "Wendy Worthington",
+   "photo": "https://image.tmdb.org/t/p/w185/lpS6TxNU5eSaInLbLzbOxwaDEF0.jpg",
+   "character": "Desk Nurse",
+   "episodes": 4
+  },
+  {
+   "id": 10427,
+   "name": "Anne Archer",
+   "photo": "https://image.tmdb.org/t/p/w185/y1uFANprVvJ9cCqVKSl0umIpIXw.jpg",
+   "character": "Beth Gordon",
+   "episodes": 4
+  }
+ ],
+ "crew": [
+  {
+   "id": 35155,
+   "name": "John Gray",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Director",
+    "Writer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 1225918,
+   "name": "P.K. Simonds",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 58
+  },
+  {
+   "id": 1181350,
+   "name": "Laurie McCarthy",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 58863,
+   "name": "Ian Sander",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 47020,
+   "name": "Eric Laneuville",
+   "photo": "https://image.tmdb.org/t/p/w185/hrVy4Ws5sL7rOI7TbTlKrUVosMF.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 1213616,
+   "name": "Mark B. Perry",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 1212542,
+   "name": "Jeannine Renshaw",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 30477,
+   "name": "Peter Werner",
+   "photo": "https://image.tmdb.org/t/p/w185/dTxEOaLPDKwxINxcG8Rtm9PRk1w.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1211947,
+   "name": "Gloria Muzio",
+   "photo": "https://image.tmdb.org/t/p/w185/5KELZxUlQ5oUFM3dwVO7Aw4fqwr.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1216730,
+   "name": "Jed Seidel",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1225788,
+   "name": "Catherine Butterfield",
+   "photo": "https://image.tmdb.org/t/p/w185/bVGA8lxuiNxMBDD5DQKj0IMlNCD.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 41472,
+   "name": "Peter O'Fallon",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1225810,
+   "name": "Kim Moses",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1215672,
+   "name": "Frederick E. O. Toye",
+   "photo": "https://image.tmdb.org/t/p/w185/nQKzsOdbVZGv16MezxCt4xJSTMa.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 68457,
+   "name": "James Frawley",
+   "photo": "https://image.tmdb.org/t/p/w185/qMG0tZVWuS2mkLbMSM97JrEJTTm.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 59969,
+   "name": "James Chressanthis",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:45.352Z"
+}

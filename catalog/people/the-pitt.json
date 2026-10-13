@@ -1,0 +1,329 @@
+{
+ "show": "The Pitt",
+ "slug": "the-pitt",
+ "tmdbId": 250307,
+ "cast": [
+  {
+   "id": 13526,
+   "name": "Noah Wyle",
+   "photo": "https://image.tmdb.org/t/p/w185/nwyLCQepwg8FX7OXJ4AT4ej8c7i.jpg",
+   "character": "Dr. Michael 'Robby' Robinavitch",
+   "episodes": 30
+  },
+  {
+   "id": 2126992,
+   "name": "Patrick Ball",
+   "photo": "https://image.tmdb.org/t/p/w185/288Y2VT4f5UUvt8DZ877KWzPCnY.jpg",
+   "character": "Dr. Frank Langdon",
+   "episodes": 30
+  },
+  {
+   "id": 169337,
+   "name": "Katherine LaNasa",
+   "photo": "https://image.tmdb.org/t/p/w185/7X3f4MG24XLG2fNPJt5H38d8YCV.jpg",
+   "character": "Charge Nurse Dana Evans",
+   "episodes": 30
+  },
+  {
+   "id": 2288895,
+   "name": "Supriya Ganesh",
+   "photo": "https://image.tmdb.org/t/p/w185/575OVjibWikBVA3kOqQ6Jdxn5qi.jpg",
+   "character": "Dr. Samira Mohan",
+   "episodes": 30
+  },
+  {
+   "id": 204468,
+   "name": "Fiona Dourif",
+   "photo": "https://image.tmdb.org/t/p/w185/gs0aMwWWJ2FRY4sSvvAefIT5sAC.jpg",
+   "character": "Dr. Cassie McKay",
+   "episodes": 30
+  },
+  {
+   "id": 1731714,
+   "name": "Taylor Dearden",
+   "photo": "https://image.tmdb.org/t/p/w185/9FQlLsWxiheH8QJvOaISsHg6KvZ.jpg",
+   "character": "Dr. Melissa King",
+   "episodes": 30
+  },
+  {
+   "id": 2290706,
+   "name": "Isa Briones",
+   "photo": "https://image.tmdb.org/t/p/w185/5x93Cg0Ac29PPLwiDzCxkaUonrR.jpg",
+   "character": "Dr. Trinity Santos",
+   "episodes": 30
+  },
+  {
+   "id": 1234583,
+   "name": "Gerran Howell",
+   "photo": "https://image.tmdb.org/t/p/w185/tl0qUpzS4mVhQmjRklrtNiJwuHY.jpg",
+   "character": "Student Doctor Dennis Whitaker",
+   "episodes": 30
+  },
+  {
+   "id": 2716907,
+   "name": "Shabana Azeez",
+   "photo": "https://image.tmdb.org/t/p/w185/r5MWHqX1cxibytL7KGXNaT2NlD1.jpg",
+   "character": "Student Doctor Victoria Javadi",
+   "episodes": 30
+  },
+  {
+   "id": 2255830,
+   "name": "Amielynn Abellera",
+   "photo": "https://image.tmdb.org/t/p/w185/65epo4rlzK95b8oTFyhCQszMppp.jpg",
+   "character": "Nurse Perlah Alawi",
+   "episodes": 30
+  },
+  {
+   "id": 3168613,
+   "name": "Brandon Mendez Homer",
+   "photo": "https://image.tmdb.org/t/p/w185/1zOJxn5Vs4vPAvTmYsa5z7VMsm6.jpg",
+   "character": "Nurse Donald 'Donnie' Donahue",
+   "episodes": 29
+  },
+  {
+   "id": 1967017,
+   "name": "Kristin Villanueva",
+   "photo": "https://image.tmdb.org/t/p/w185/eWBC6D2NuqJobskGH3QkZBsoGZ.jpg",
+   "character": "Nurse Princess",
+   "episodes": 26
+  },
+  {
+   "id": 80224,
+   "name": "Ned Brower",
+   "photo": "https://image.tmdb.org/t/p/w185/hO8CzIBdC3QU4HJbH6pVgsbvY2.jpg",
+   "character": "Nurse Jesse",
+   "episodes": 25
+  },
+  {
+   "id": 1010959,
+   "name": "Alexandra Metz",
+   "photo": "https://image.tmdb.org/t/p/w185/q6U7AigI9FzlfCxFwzxR6TPNGrS.jpg",
+   "character": "Dr. Yolanda Garcia",
+   "episodes": 24
+  },
+  {
+   "id": 2444677,
+   "name": "Jalen Thomas Brooks",
+   "photo": "https://image.tmdb.org/t/p/w185/987XKn86U2OED1ooCjxuHmx6Eut.jpg",
+   "character": "Nurse Mateo Diaz",
+   "episodes": 19
+  },
+  {
+   "id": 1988,
+   "name": "Tracy Vilar",
+   "photo": "https://image.tmdb.org/t/p/w185/9R68ib49Lsmn8yHrN6U6Rix2LHr.jpg",
+   "character": "Lupe Perez",
+   "episodes": 18
+  },
+  {
+   "id": 3750570,
+   "name": "Johnath Davis",
+   "photo": "https://image.tmdb.org/t/p/w185/6vWkGc5MUpEORdelXjsW7u3LDC1.jpg",
+   "character": "Ahmad",
+   "episodes": 18
+  },
+  {
+   "id": 513385,
+   "name": "Tracy Ifeachor",
+   "photo": "https://image.tmdb.org/t/p/w185/q29NohhVk5YnslKXXUxbwebkAnf.jpg",
+   "character": "Dr. Heather Collins",
+   "episodes": 15
+  },
+  {
+   "id": 1344374,
+   "name": "Sepideh Moafi",
+   "photo": "https://image.tmdb.org/t/p/w185/b5rwbpV8K5g5jP5ZVVtOXyweigF.jpg",
+   "character": "Dr. Baran Al-Hashimi",
+   "episodes": 15
+  },
+  {
+   "id": 3499146,
+   "name": "Laetitia Hollard",
+   "photo": "https://image.tmdb.org/t/p/w185/wrA4orN6L2EORbV0ptq9JIyE3oF.jpg",
+   "character": "Nurse Emma Nolan",
+   "episodes": 12
+  },
+  {
+   "id": 2665852,
+   "name": "Lucas Iverson",
+   "photo": "https://image.tmdb.org/t/p/w185/62zV4zVLOM2FtsB725XazyDmgc4.jpg",
+   "character": "Med Student James Ogilvie",
+   "episodes": 12
+  },
+  {
+   "id": 1079850,
+   "name": "Irene Choi",
+   "photo": "https://image.tmdb.org/t/p/w185/qR14WRAlwp63z6gLGCNBSG5bf8Q.jpg",
+   "character": "Med Student Joy Kwon",
+   "episodes": 12
+  },
+  {
+   "id": 82945,
+   "name": "Charles Baker",
+   "photo": "https://image.tmdb.org/t/p/w185/l2plWtvYRcLX4CXf8azXIyANq.jpg",
+   "character": "Troy Digby / John Digby",
+   "episodes": 12
+  },
+  {
+   "id": 52647,
+   "name": "Shawn Hatosy",
+   "photo": "https://image.tmdb.org/t/p/w185/hm3KRxmotbJ93fJQJvE0G0EGONw.jpg",
+   "character": "Dr. Jack Abbot",
+   "episodes": 11
+  }
+ ],
+ "crew": [
+  {
+   "id": 1227308,
+   "name": "R. Scott Gemmill",
+   "photo": "https://image.tmdb.org/t/p/w185/yhZV8Yl3ToOlNxsNCIQ20BiVN4K.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 3519816,
+   "name": "Valerie Chu",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 33
+  },
+  {
+   "id": 47333,
+   "name": "John Wells",
+   "photo": "https://image.tmdb.org/t/p/w185/j1cEQmFdSkew87UjO354qeppo1G.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 13526,
+   "name": "Noah Wyle",
+   "photo": "https://image.tmdb.org/t/p/w185/nwyLCQepwg8FX7OXJ4AT4ej8c7i.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 3071441,
+   "name": "Erin Jontow",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 1731745,
+   "name": "Simran Baidwan",
+   "photo": "https://image.tmdb.org/t/p/w185/pGjZtnibUHO9RP80FEmg0xZQY0C.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 1237289,
+   "name": "Joe Sachs",
+   "photo": "https://image.tmdb.org/t/p/w185/wyYlAW2aeWtIN1n8IOmIG0uzYJP.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 3672700,
+   "name": "Michael Hissrich",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 1915627,
+   "name": "Gavin Brivik",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 2890586,
+   "name": "Elyssa Gershman",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 1393205,
+   "name": "Damian Marcano",
+   "photo": "https://image.tmdb.org/t/p/w185/fwmw4kkrnve5daQ3HUufeG0tE97.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1325241,
+   "name": "Amanda Marsalis",
+   "photo": "https://image.tmdb.org/t/p/w185/cAP90tLtGZ7pDho4FiIa4vqCrc2.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 51853,
+   "name": "Uta Briesewitz",
+   "photo": "https://image.tmdb.org/t/p/w185/4sIx2ojAeGjGB4FzxhbAL15DeFy.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1482,
+   "name": "John Cameron",
+   "photo": "https://image.tmdb.org/t/p/w185/uv1fsKsOxRGC8n1YL7fBGn4mkRP.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 2482479,
+   "name": "Cynthia Adarkwa",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 501226,
+   "name": "Quyen Tran",
+   "photo": "https://image.tmdb.org/t/p/w185/a8jmsx8t6fvONa2rIhZNTbYR2fQ.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:34:16.262Z"
+}

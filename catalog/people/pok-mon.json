@@ -1,0 +1,322 @@
+{
+ "show": "Pokémon",
+ "slug": "pok-mon",
+ "tmdbId": 60572,
+ "cast": [
+  {
+   "id": 65424,
+   "name": "Rica Matsumoto",
+   "photo": "https://image.tmdb.org/t/p/w185/8kGjV2Ke6MVaR2UGtO9YpFkvuTu.jpg",
+   "character": "Satoshi (voice)",
+   "episodes": 1235
+  },
+  {
+   "id": 73044,
+   "name": "Ikue Otani",
+   "photo": "https://image.tmdb.org/t/p/w185/my8LBLQ4MsK4hRz1PAATIqtieaI.jpg",
+   "character": "Pikachu (voice)",
+   "episodes": 1235
+  },
+  {
+   "id": 40325,
+   "name": "Megumi Hayashibara",
+   "photo": "https://image.tmdb.org/t/p/w185/3Alm4pmBIxpeeh0Sdippxdbkpne.jpg",
+   "character": "Rabifutto (voice) / Musashi / Rabifutto (voice) / Musashi (voice)",
+   "episodes": 1094
+  },
+  {
+   "id": 62318,
+   "name": "Shin-ichiro Miki",
+   "photo": "https://image.tmdb.org/t/p/w185/yL9Tx2HZgK7t5AssYl6oGE9bjdj.jpg",
+   "character": "Kojirou (voice) / Strike (voice) / Galar Kamonegi (voice)",
+   "episodes": 1091
+  },
+  {
+   "id": 936287,
+   "name": "Inuko Inuyama",
+   "photo": "https://image.tmdb.org/t/p/w185/bA6BQgafhEyRFMh4EbZQJqvIVWY.jpg",
+   "character": "Wanpachi (voice) / Nyarth (voice)",
+   "episodes": 1010
+  },
+  {
+   "id": 68916,
+   "name": "Unsho Ishizuka",
+   "photo": "https://image.tmdb.org/t/p/w185/nmj1vTrJc0zvuUYqxSyWXmIGBlP.jpg",
+   "character": "Narrator / Professor Oak (voice) / Narrator (voice)",
+   "episodes": 957
+  },
+  {
+   "id": 65427,
+   "name": "Yuji Ueda",
+   "photo": "https://image.tmdb.org/t/p/w185/nwJBK4WwsUCcBcX425GD2BroJDr.jpg",
+   "character": "Barrierd (voice) / Sonansu (voice) / Takeshi (voice)",
+   "episodes": 636
+  },
+  {
+   "id": 65426,
+   "name": "Mayumi Izuka",
+   "photo": "https://image.tmdb.org/t/p/w185/zPWlERRLAe8TFzhOcfk8lwL0Glh.jpg",
+   "character": "Kasumi (voice)",
+   "episodes": 330
+  },
+  {
+   "id": 552600,
+   "name": "Yuko Kobayashi",
+   "photo": "https://image.tmdb.org/t/p/w185/3Dq7JUi9x1kVwCf6l056Ji26nPN.jpg",
+   "character": "Shigeru Oak (voice)",
+   "episodes": 222
+  },
+  {
+   "id": 1222060,
+   "name": "Kenyu Horiuchi",
+   "photo": "https://image.tmdb.org/t/p/w185/qIsrjSbtdhmmUdd3xvpDHNWRuJp.jpg",
+   "character": "Narrator (voice)",
+   "episodes": 201
+  },
+  {
+   "id": 1253293,
+   "name": "KAORI",
+   "photo": "https://image.tmdb.org/t/p/w185/dC2BZG5c3GoACZmXFV2qo6YtVNk.jpg",
+   "character": "Haruka (voice)",
+   "episodes": 191
+  },
+  {
+   "id": 1133615,
+   "name": "Kei Shindo",
+   "photo": "https://image.tmdb.org/t/p/w185/5TSWS4YW9eeaVZm0E3LLKJnACUG.jpg",
+   "character": "Lillie (voice) / Joy (voice) / Riolu (voice)",
+   "episodes": 151
+  },
+  {
+   "id": 1325962,
+   "name": "Daiki Yamashita",
+   "photo": "https://image.tmdb.org/t/p/w185/rQNdJdZewk7VGP16ZNbpfJ9ZeMd.jpg",
+   "character": "Gou (voice)",
+   "episodes": 147
+  },
+  {
+   "id": 2494654,
+   "name": "Fumiko Takekuma",
+   "photo": "https://image.tmdb.org/t/p/w185/1DReC31qW1kIWcZVepirmUD7sLY.jpg",
+   "character": "Maamame (voice)",
+   "episodes": 146
+  },
+  {
+   "id": 1452028,
+   "name": "Reina Ueda",
+   "photo": "https://image.tmdb.org/t/p/w185/2WV61uVU7y6XGYqNHLMpP0sApdu.jpg",
+   "character": "Mao (voice)",
+   "episodes": 146
+  },
+  {
+   "id": 2429000,
+   "name": "Hitomi Kikuchi",
+   "photo": "https://image.tmdb.org/t/p/w185/AuHPoLt6Bd0IX9GdXb6mPmcsWWG.jpg",
+   "character": "Suiren (voice)",
+   "episodes": 146
+  },
+  {
+   "id": 1324666,
+   "name": "Kaito Ishikawa",
+   "photo": "https://image.tmdb.org/t/p/w185/fzjIkotjUHHs3wgftM9tqdsG8ph.jpg",
+   "character": "Kaki (voice)",
+   "episodes": 146
+  },
+  {
+   "id": 1254054,
+   "name": "Mayuki Makiguchi",
+   "photo": "https://image.tmdb.org/t/p/w185/u9ankcyRGXNRqBxijqp5CbXyUOu.jpg",
+   "character": "Serena (voice)",
+   "episodes": 143
+  },
+  {
+   "id": 93803,
+   "name": "Mamoru Miyano",
+   "photo": "https://image.tmdb.org/t/p/w185/nuok8ueG7k9hPZ09Tpr8e7Qn0ah.jpg",
+   "character": "Dent (voice)",
+   "episodes": 142
+  },
+  {
+   "id": 149894,
+   "name": "Yuki Kaji",
+   "photo": "https://image.tmdb.org/t/p/w185/8wKdPV11IwowfwoqGqMMNt9hmp6.jpg",
+   "character": "Citron (voice)",
+   "episodes": 97
+  },
+  {
+   "id": 129815,
+   "name": "Mika Kanai",
+   "photo": "https://image.tmdb.org/t/p/w185/xgzMllu0fNQua9iBJBJnILX9eFK.jpg",
+   "character": "Eureka (voice)",
+   "episodes": 97
+  },
+  {
+   "id": 9710,
+   "name": "Megumi Toyoguchi",
+   "photo": "https://image.tmdb.org/t/p/w185/qrnzkvoaODEplqhtkcyDgUa3Qtp.jpg",
+   "character": "Hikari (voice)",
+   "episodes": 97
+  },
+  {
+   "id": 936275,
+   "name": "Aoi Yuuki",
+   "photo": "https://image.tmdb.org/t/p/w185/a5Mkd66GV1l3c9bZZtnvjUf33T2.jpg",
+   "character": "Iris (voice)",
+   "episodes": 94
+  },
+  {
+   "id": 217924,
+   "name": "Satomi Korogi",
+   "photo": "https://image.tmdb.org/t/p/w185/zNJyGVOJQULuyO0isN8sTVwPaX0.jpg",
+   "character": "Togepi (voice)",
+   "episodes": 82
+  }
+ ],
+ "crew": [
+  {
+   "id": 73052,
+   "name": "Shinji Miyazaki",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 161
+  },
+  {
+   "id": 65430,
+   "name": "Takeshi Shudo",
+   "photo": "https://image.tmdb.org/t/p/w185/xND2eBYNJMK0vmGNJVEMyAuBgC9.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 126
+  },
+  {
+   "id": 1074547,
+   "name": "Masamitsu Hidaka",
+   "photo": "https://image.tmdb.org/t/p/w185/jV7sKGxOkCzcJwPZbNOj05n2mlw.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 119
+  },
+  {
+   "id": 1505059,
+   "name": "Yuki Hayashi",
+   "photo": "https://image.tmdb.org/t/p/w185/iCg4vtRXcuGAprflzCgG541hqfa.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 1123397,
+   "name": "Aya Matsui",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 45
+  },
+  {
+   "id": 201835,
+   "name": "Junki Takegami",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 139093,
+   "name": "Atsuhiro Tomioka",
+   "photo": "https://image.tmdb.org/t/p/w185/iCW5WUE6Aus5Ed9oMZIOJH2w4jU.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 25761,
+   "name": "Hideki Sonoda",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 552037,
+   "name": "Yuji Asada",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 123622,
+   "name": "Yukiyoshi Ôhashi",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 3547011,
+   "name": "Kiyotaka Isako",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 2140111,
+   "name": "Osamu Inoue",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 4318155,
+   "name": "Toshiaki Suzuki",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 2166703,
+   "name": "Shigeru Omachi",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 1067802,
+   "name": "Yuka Miyata",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 567064,
+   "name": "Shouji Yonemura",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 8
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:38:12.123Z"
+}

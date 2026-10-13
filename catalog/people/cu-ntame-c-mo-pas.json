@@ -1,0 +1,326 @@
+{
+ "show": "Cuéntame cómo pasó",
+ "slug": "cu-ntame-c-mo-pas",
+ "tmdbId": 7897,
+ "cast": [
+  {
+   "id": 36281,
+   "name": "Imanol Arias",
+   "photo": "https://image.tmdb.org/t/p/w185/lbBiRaDzDzojfs6VbMfgzsf6QnI.jpg",
+   "character": "Antonio Alcántara Barbadillo",
+   "episodes": 418
+  },
+  {
+   "id": 125217,
+   "name": "Ana Duato",
+   "photo": "https://image.tmdb.org/t/p/w185/6vmi2yCR9MiFjFmvxNE0LaprVWe.jpg",
+   "character": "Mercedes Fernández López",
+   "episodes": 418
+  },
+  {
+   "id": 132441,
+   "name": "María Galiana",
+   "photo": "https://image.tmdb.org/t/p/w185/A2uYbs3J0pLOExhyo4GDrAt2Ck4.jpg",
+   "character": "Herminia López Vidal",
+   "episodes": 418
+  },
+  {
+   "id": 1015576,
+   "name": "Pablo Rivero",
+   "photo": "https://image.tmdb.org/t/p/w185/f5VXctctkBewnWGaqecP3f4BinV.jpg",
+   "character": "Toni Alcántara Fernández",
+   "episodes": 418
+  },
+  {
+   "id": 585725,
+   "name": "Carlos Hipólito",
+   "photo": "https://image.tmdb.org/t/p/w185/9DgrnvitGxgfVhpBIByxiXBDJ7M.jpg",
+   "character": "Carlos Alcántara Fernández",
+   "episodes": 418
+  },
+  {
+   "id": 1240966,
+   "name": "Ricardo Gómez",
+   "photo": "https://image.tmdb.org/t/p/w185/v1wrShJLsBnOypbXdxksvjy4cKG.jpg",
+   "character": "Carlos Alcántara Fernández",
+   "episodes": 351
+  },
+  {
+   "id": 1115304,
+   "name": "Manolo Cal",
+   "photo": "https://image.tmdb.org/t/p/w185/j2dWmaemo669W9zXqmP9JHYuMNb.jpg",
+   "character": "Ramón Pascual",
+   "episodes": 327
+  },
+  {
+   "id": 1240975,
+   "name": "Santiago Crespo",
+   "photo": "https://image.tmdb.org/t/p/w185/3YV7dQAHqIoTrnV3ghjqEclU9rb.jpg",
+   "character": "Josete Quijo Jiménez",
+   "episodes": 311
+  },
+  {
+   "id": 1240974,
+   "name": "Lluvia Rojo",
+   "photo": "https://image.tmdb.org/t/p/w185/56IqNqhNAZSksgclzLJ14VD6VH5.jpg",
+   "character": "Pili Villuendas",
+   "episodes": 285
+  },
+  {
+   "id": 1458149,
+   "name": "Ana Arias",
+   "photo": "https://image.tmdb.org/t/p/w185/p6gK886IIk1VdOnN70br7a8p2ps.jpg",
+   "character": "Paquita Ramos",
+   "episodes": 275
+  },
+  {
+   "id": 1142880,
+   "name": "Silvia Espigado",
+   "photo": "https://image.tmdb.org/t/p/w185/yTifWieAqNYFvGbVH67IxeecqIC.jpg",
+   "character": "Clara Jiménez",
+   "episodes": 273
+  },
+  {
+   "id": 17097,
+   "name": "Irene Visedo",
+   "photo": "https://image.tmdb.org/t/p/w185/obR1RzKgdtmw57TXjNBfQRiDevd.jpg",
+   "character": "Inés Alcántara Fernández",
+   "episodes": 256
+  },
+  {
+   "id": 1240973,
+   "name": "Roberto Cairo",
+   "photo": "https://image.tmdb.org/t/p/w185/78K2HOkONva6YH0yJ9OvMdsYjvx.jpg",
+   "character": "Desi Quijo",
+   "episodes": 247
+  },
+  {
+   "id": 36277,
+   "name": "Juan Echanove",
+   "photo": "https://image.tmdb.org/t/p/w185/vxmDaQTD6mRFRwXMEtXqovoaPXj.jpg",
+   "character": "Miguel Alcántara Barbadillo",
+   "episodes": 211
+  },
+  {
+   "id": 2586505,
+   "name": "Manuel Dios",
+   "photo": "https://image.tmdb.org/t/p/w185/fvDrhEfwL6eFnLx9GmhtpVonAKV.jpg",
+   "character": "Luis Gómez",
+   "episodes": 209
+  },
+  {
+   "id": 262849,
+   "name": "Alicia Hermida",
+   "photo": "https://image.tmdb.org/t/p/w185/gz2E7u0RAAEa5PdrrE5iY8g7u5u.jpg",
+   "character": "Valentina Rojas",
+   "episodes": 199
+  },
+  {
+   "id": 3811,
+   "name": "José Sancho",
+   "photo": "https://image.tmdb.org/t/p/w185/tN3yTjahuAQuo51EbSV9ERT4mbG.jpg",
+   "character": "Pablo Ramírez Sañudo",
+   "episodes": 180
+  },
+  {
+   "id": 12089,
+   "name": "Tony Leblanc",
+   "photo": "https://image.tmdb.org/t/p/w185/jOhUQZ8vCZ5pFpUXCFNTOf4qZbG.jpg",
+   "character": "Cervan Contreras",
+   "episodes": 180
+  },
+  {
+   "id": 1380389,
+   "name": "Elena Rivera",
+   "photo": "https://image.tmdb.org/t/p/w185/qZeIDCOThIKvJutGBP62sCs8fqN.jpg",
+   "character": "Karina Saavedra Martín",
+   "episodes": 168
+  },
+  {
+   "id": 1269244,
+   "name": "Pepa Sarsa",
+   "photo": "https://image.tmdb.org/t/p/w185/p2UgzwqzXDvoTCi0zoAb2LO7RIV.jpg",
+   "character": "Josefina García",
+   "episodes": 163
+  },
+  {
+   "id": 115483,
+   "name": "Enrique San Francisco",
+   "photo": "https://image.tmdb.org/t/p/w185/qqCGyo5yFIGr3KC8WLDzP7dhSZQ.jpg",
+   "character": "Tinín Álvarez",
+   "episodes": 161
+  },
+  {
+   "id": 132447,
+   "name": "Rosario Pardo",
+   "photo": "https://image.tmdb.org/t/p/w185/8bcWsjGHG7jwlgJ84O8d3XhmqAJ.jpg",
+   "character": "Nieves Carranza",
+   "episodes": 158
+  },
+  {
+   "id": 1117119,
+   "name": "Antonio Canal",
+   "photo": "https://image.tmdb.org/t/p/w185/ty5Qr9q4WcbQlow2wVyRwMkie2X.jpg",
+   "character": "Froilán Cardeñosa",
+   "episodes": 151
+  },
+  {
+   "id": 1076591,
+   "name": "Pere Ponce",
+   "photo": "https://image.tmdb.org/t/p/w185/hofmauvfJIn1aYjp8L2sgUUqnrP.jpg",
+   "character": "Eugenio Domingo",
+   "episodes": 137
+  }
+ ],
+ "crew": [
+  {
+   "id": 1561071,
+   "name": "Miguel Ángel Bernardeau",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer"
+   ],
+   "episodes": 419
+  },
+  {
+   "id": 1158241,
+   "name": "Agustín Crespi",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 1383258,
+   "name": "Eduardo Ladrón de Guevara",
+   "photo": "https://image.tmdb.org/t/p/w185/8znKdLKaHuPIrzH3JdEQhkqCVEf.jpg",
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 43317,
+   "name": "Joaquín Oristrell",
+   "photo": "https://image.tmdb.org/t/p/w185/wWafkx5cdolo0ssslWCvoQcJUQF.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1574205,
+   "name": "Jacobo Delgado",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1569539,
+   "name": "Antonio Cano",
+   "photo": "https://image.tmdb.org/t/p/w185/luxIxHn8oS2HxcJXZmvcLnhc8VJ.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1565036,
+   "name": "Moisés Ramos",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1359396,
+   "name": "Sonia Sánchez",
+   "photo": "https://image.tmdb.org/t/p/w185/cwUj2Q5K74R5gIWhwKk1JY28QzR.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1574213,
+   "name": "Patrick Buckley",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 185675,
+   "name": "Ramón Fernández",
+   "photo": "https://image.tmdb.org/t/p/w185/dBmZ50zLVNv4wkkPSn6WeX2EOTw.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1450498,
+   "name": "Curro Royo",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 994574,
+   "name": "Ignacio del Moral",
+   "photo": "https://image.tmdb.org/t/p/w185/d2UvVQmDbJjUMQTOjqXWlrlMDcU.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 585035,
+   "name": "Óscar Aibar",
+   "photo": "https://image.tmdb.org/t/p/w185/wr0Xds5hVypFsTyx9LUlpEHfEmI.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1459452,
+   "name": "Alberto Macías",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1050783,
+   "name": "Azucena Rodríguez",
+   "photo": "https://image.tmdb.org/t/p/w185/ed6f61M3qLMCvwOYZ0SmhfUkY8f.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 2586505,
+   "name": "Manuel Dios",
+   "photo": "https://image.tmdb.org/t/p/w185/fvDrhEfwL6eFnLx9GmhtpVonAKV.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:42:56.738Z"
+}

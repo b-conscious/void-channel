@@ -1,0 +1,327 @@
+{
+ "show": "Marvel's Daredevil",
+ "slug": "marvels-daredevil",
+ "tmdbId": 61889,
+ "cast": [
+  {
+   "id": 23458,
+   "name": "Charlie Cox",
+   "photo": "https://image.tmdb.org/t/p/w185/91fFBazOvuNjwjcES2b199Ukspn.jpg",
+   "character": "Matt Murdock / Daredevil",
+   "episodes": 39
+  },
+  {
+   "id": 212154,
+   "name": "Deborah Ann Woll",
+   "photo": "https://image.tmdb.org/t/p/w185/btTnyvRLXOH0pz2SLBwyKbmnFhX.jpg",
+   "character": "Karen Page",
+   "episodes": 39
+  },
+  {
+   "id": 20220,
+   "name": "Elden Henson",
+   "photo": "https://image.tmdb.org/t/p/w185/8U5g30U76UJe0erbJdWjGLVz7NF.jpg",
+   "character": "Foggy Nelson",
+   "episodes": 39
+  },
+  {
+   "id": 7132,
+   "name": "Vincent D'Onofrio",
+   "photo": "https://image.tmdb.org/t/p/w185/qkyiLolEqYMGH25xD4sFIXAjZQB.jpg",
+   "character": "Wilson Fisk / Kingpin",
+   "episodes": 29
+  },
+  {
+   "id": 1580404,
+   "name": "Royce Johnson",
+   "photo": "https://image.tmdb.org/t/p/w185/4okawO40v1qfTMJCUm9adg150MQ.jpg",
+   "character": "Sgt. Brett Mahoney",
+   "episodes": 18
+  },
+  {
+   "id": 944717,
+   "name": "Geoffrey Cantor",
+   "photo": "https://image.tmdb.org/t/p/w185/z9yI8sMuqx0vM2BYFadPKue3GsV.jpg",
+   "character": "Mitchell Ellison",
+   "episodes": 16
+  },
+  {
+   "id": 19498,
+   "name": "Jon Bernthal",
+   "photo": "https://image.tmdb.org/t/p/w185/bjcglF1IpDcZNs1HwFxakGpzBo6.jpg",
+   "character": "Frank Castle / Punisher",
+   "episodes": 13
+  },
+  {
+   "id": 1435955,
+   "name": "Jay Ali",
+   "photo": "https://image.tmdb.org/t/p/w185/1g4OYoBZxIsIYBvZQ1W2wn21LJJ.jpg",
+   "character": "Rahul 'Ray' Nadeem",
+   "episodes": 13
+  },
+  {
+   "id": 85779,
+   "name": "Wilson Bethel",
+   "photo": "https://image.tmdb.org/t/p/w185/xHLjGi9onJXwHoZALZ9pLBVnH5x.jpg",
+   "character": "Benjamin 'Dex' Poindexter",
+   "episodes": 13
+  },
+  {
+   "id": 936403,
+   "name": "Stephen Rider",
+   "photo": "https://image.tmdb.org/t/p/w185/hiBXBuspgPCsvX5jHJbxQUBZu8D.jpg",
+   "character": "Blake Tower",
+   "episodes": 12
+  },
+  {
+   "id": 8786,
+   "name": "Ayelet Zurer",
+   "photo": "https://image.tmdb.org/t/p/w185/wSDtipN1Ew19x7duWaNEP8kPMCx.jpg",
+   "character": "Vanessa Marianna",
+   "episodes": 11
+  },
+  {
+   "id": 1369333,
+   "name": "Amy Rutberg",
+   "photo": "https://image.tmdb.org/t/p/w185/yiqFU05UIEtPwk92TXVYClFzU5K.jpg",
+   "character": "Marci Stahl",
+   "episodes": 11
+  },
+  {
+   "id": 19489,
+   "name": "Peter McRobbie",
+   "photo": "https://image.tmdb.org/t/p/w185/dzqI3wITKVTrnFBxYGFswDxALjf.jpg",
+   "character": "Father Lantom",
+   "episodes": 11
+  },
+  {
+   "id": 78147,
+   "name": "Élodie Yung",
+   "photo": "https://image.tmdb.org/t/p/w185/oRs65jexRkX8D4GRsHj5sb7E9Mx.jpg",
+   "character": "Elektra Natchios",
+   "episodes": 10
+  },
+  {
+   "id": 1218231,
+   "name": "Susan Varon",
+   "photo": "https://image.tmdb.org/t/p/w185/vZksgxU5BMSYif3G1PPBg3gC6S0.jpg",
+   "character": "Josie",
+   "episodes": 9
+  },
+  {
+   "id": 12656,
+   "name": "Joanne Whalley",
+   "photo": "https://image.tmdb.org/t/p/w185/ItU1ROQkWkzabwdFG3H4VndgBb.jpg",
+   "character": "Sister Maggie",
+   "episodes": 9
+  },
+  {
+   "id": 4029,
+   "name": "Bob Gunton",
+   "photo": "https://image.tmdb.org/t/p/w185/ulbVvuBToBN3aCGcV028hwO0MOP.jpg",
+   "character": "Leland Owlsley",
+   "episodes": 9
+  },
+  {
+   "id": 6198,
+   "name": "Vondie Curtis-Hall",
+   "photo": "https://image.tmdb.org/t/p/w185/eJbwjnUB3VGGioAtQTmiYI4k7lH.jpg",
+   "character": "Ben Urich",
+   "episodes": 9
+  },
+  {
+   "id": 187857,
+   "name": "Toby Leonard Moore",
+   "photo": "https://image.tmdb.org/t/p/w185/7GiM5k3T7QfvOOuXvrjNqduhIK4.jpg",
+   "character": "James Wesley",
+   "episodes": 9
+  },
+  {
+   "id": 172994,
+   "name": "Peter Shinkoda",
+   "photo": "https://image.tmdb.org/t/p/w185/lCQl28poQr4bLwqZjhryGkV73jO.jpg",
+   "character": "Nobu",
+   "episodes": 9
+  },
+  {
+   "id": 1359110,
+   "name": "Kate Udall",
+   "photo": "https://image.tmdb.org/t/p/w185/ksA3OkyXsSIzopphbLDZshySNq3.jpg",
+   "character": "SAC Tammy Hattley",
+   "episodes": 9
+  },
+  {
+   "id": 5916,
+   "name": "Rosario Dawson",
+   "photo": "https://image.tmdb.org/t/p/w185/siTzOI810a0K46wv1TORXMw5N7J.jpg",
+   "character": "Claire Temple",
+   "episodes": 8
+  },
+  {
+   "id": 1845012,
+   "name": "David Anthony Buglione",
+   "photo": "https://image.tmdb.org/t/p/w185/4YdmlEZEeOsdGOpTFWxMuWHEbG6.jpg",
+   "character": "Agent Johnson / Assault #1",
+   "episodes": 8
+  },
+  {
+   "id": 3169511,
+   "name": "Sunita Deshpande",
+   "photo": "https://image.tmdb.org/t/p/w185/a92O4nhkqgjYFExuhSnpEF8Cfmh.jpg",
+   "character": "Seema Nadeem",
+   "episodes": 8
+  }
+ ],
+ "crew": [
+  {
+   "id": 47506,
+   "name": "Drew Goddard",
+   "photo": "https://image.tmdb.org/t/p/w185/2ff2wbCu0kc61JDHgBiPSqtb3e3.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 1187909,
+   "name": "Joe Quesada",
+   "photo": "https://image.tmdb.org/t/p/w185/lXvr9yj4OpPDLojusbKYowp9zZX.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 25939,
+   "name": "Jim Chory",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 113672,
+   "name": "Alan Fine",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 7624,
+   "name": "Stan Lee",
+   "photo": "https://image.tmdb.org/t/p/w185/kKeyWoFtTqOPsbmwylNHmuB3En9.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 17310,
+   "name": "Jeph Loeb",
+   "photo": "https://image.tmdb.org/t/p/w185/zbU9aOrxMtXVSUAHlY5d6cQW2EE.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 77949,
+   "name": "John Paesano",
+   "photo": "https://image.tmdb.org/t/p/w185/pHQM6fGdewxwoqzTEMmHonX4KFz.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 1993440,
+   "name": "Karim Zreik",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 1458689,
+   "name": "Marco Ramirez",
+   "photo": "https://image.tmdb.org/t/p/w185/4BUR6d8744yqhnqY53UmW5iEpFJ.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 1458685,
+   "name": "Allie Goss",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 1011028,
+   "name": "Dan Buckley",
+   "photo": "https://image.tmdb.org/t/p/w185/gM2unQVw1jxWFmMd438rNoJHgr0.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 1458686,
+   "name": "Kris Henigman",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 1458687,
+   "name": "Cindy Holland",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 1213074,
+   "name": "Steven S. DeKnight",
+   "photo": "https://image.tmdb.org/t/p/w185/4xI7zn54omKDrKa0lshPsJZ53tK.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 1236645,
+   "name": "Peter Friedlander",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 1213071,
+   "name": "Doug Petrie",
+   "photo": "https://image.tmdb.org/t/p/w185/jt79Llnx8MdrgfBV7Tjoy27t3Gj.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:01.386Z"
+}

@@ -1,0 +1,322 @@
+{
+ "show": "Die Rosenheim-Cops",
+ "slug": "die-rosenheim-cops",
+ "tmdbId": 41149,
+ "cast": [
+  {
+   "id": 55526,
+   "name": "Max Müller",
+   "photo": "https://image.tmdb.org/t/p/w185/9qnL4oIQ4zpXbc7q3Xd2yI1YXLc.jpg",
+   "character": "Michael 'Michi' Mohr",
+   "episodes": 605
+  },
+  {
+   "id": 36501,
+   "name": "Karin Thaler",
+   "photo": "https://image.tmdb.org/t/p/w185/fOObh9ZzIVDBgOPrqqjoBeOWFDO.jpg",
+   "character": "Marie Hofer",
+   "episodes": 605
+  },
+  {
+   "id": 224465,
+   "name": "Marisa Burger",
+   "photo": "https://image.tmdb.org/t/p/w185/5hmspoOm9WpA34FWTCBVQXOih46.jpg",
+   "character": "Miriam Stockl",
+   "episodes": 603
+  },
+  {
+   "id": 37481,
+   "name": "Alexander Duda",
+   "photo": "https://image.tmdb.org/t/p/w185/sZW4tprl6D6VuRf1HhCxw6r91PO.jpg",
+   "character": "Wolfgang Hartl / Gert Achtziger",
+   "episodes": 528
+  },
+  {
+   "id": 1327319,
+   "name": "Christian Schaeffer",
+   "photo": "https://image.tmdb.org/t/p/w185/tbtDvjnt68eM1q9XTx15PYePlxG.jpg",
+   "character": "Jo Caspar",
+   "episodes": 527
+  },
+  {
+   "id": 36750,
+   "name": "Joseph Hannesschläger",
+   "photo": "https://image.tmdb.org/t/p/w185/mf3E4AtrXb9BLEe6Q7bVnAgAcrp.jpg",
+   "character": "Korbinian Hofer",
+   "episodes": 456
+  },
+  {
+   "id": 1336501,
+   "name": "Dieter Fischer",
+   "photo": "https://image.tmdb.org/t/p/w185/ceMTSu6oGogaToOTlL7TLfRrTt.jpg",
+   "character": "Werner Kembügler / Ernst Golling / Anton Stadler",
+   "episodes": 362
+  },
+  {
+   "id": 1327321,
+   "name": "Igor Jeftic",
+   "photo": "https://image.tmdb.org/t/p/w185/o1Vuax0KhACBv48sSlPdlNaB5cF.jpg",
+   "character": "Miguel Schneider / Sven Hansen",
+   "episodes": 349
+  },
+  {
+   "id": 1829875,
+   "name": "Ursula Maria Burkhart",
+   "photo": "https://image.tmdb.org/t/p/w185/koomZ8F9ZHTB3wG99NCAjmCmuCh.jpg",
+   "character": "Edith Kranzberg / Marianne Grasegger",
+   "episodes": 335
+  },
+  {
+   "id": 3093710,
+   "name": "Sarah Thonig",
+   "photo": "https://image.tmdb.org/t/p/w185/2KwCuu0DAQUZXzUImp8PEPidXDX.jpg",
+   "character": "Christin Lange",
+   "episodes": 308
+  },
+  {
+   "id": 112240,
+   "name": "Diana Staehly",
+   "photo": "https://image.tmdb.org/t/p/w185/q3LQusUQucHKM4ZnQb2f5ppFQqA.jpg",
+   "character": "Patrizia Ortmann",
+   "episodes": 254
+  },
+  {
+   "id": 585718,
+   "name": "Tom Mikulla",
+   "photo": null,
+   "character": "Christian Lind",
+   "episodes": 212
+  },
+  {
+   "id": 25435,
+   "name": "Michael Grimm",
+   "photo": "https://image.tmdb.org/t/p/w185/q1CurSa0eSmXtWKqN9IaLZGw62n.jpg",
+   "character": "Walter Reitmann / Tobias Hartl",
+   "episodes": 197
+  },
+  {
+   "id": 1745535,
+   "name": "Sina Wilke",
+   "photo": "https://image.tmdb.org/t/p/w185/vRknurSqFO6G8JIth9Zdh6nask8.jpg",
+   "character": "Karin Brandl / Sina Mai / Sandra Mai",
+   "episodes": 141
+  },
+  {
+   "id": 23179,
+   "name": "Andreas Giebel",
+   "photo": "https://image.tmdb.org/t/p/w185/hmsEixIiTNSjNdGr80Zle9FlVaP.jpg",
+   "character": "Florian Prantl",
+   "episodes": 136
+  },
+  {
+   "id": 3116967,
+   "name": "Paul Brusa",
+   "photo": "https://image.tmdb.org/t/p/w185/jc4aewBqjJpx9oT4q7WNeLqxQca.jpg",
+   "character": "Daniel Donato",
+   "episodes": 116
+  },
+  {
+   "id": 1327322,
+   "name": "Petra Einhoff",
+   "photo": "https://image.tmdb.org/t/p/w185/gT2o5CXJEU5fNwzeBBNbHnU0gCk.jpg",
+   "character": "Sabine Eckstein / Sonja Herburger",
+   "episodes": 113
+  },
+  {
+   "id": 1491518,
+   "name": "Thomas Stielner",
+   "photo": "https://image.tmdb.org/t/p/w185/rybHo9VaTvpCUpxwxwzJgIEuRwX.jpg",
+   "character": "Vincent Hofer",
+   "episodes": 84
+  },
+  {
+   "id": 1491591,
+   "name": "Gábor Biedermann",
+   "photo": null,
+   "character": "Felix Seitz / Seitz",
+   "episodes": 64
+  },
+  {
+   "id": 2211576,
+   "name": "Anastasia Papadopoulou",
+   "photo": null,
+   "character": "Jessika Safranski / Dr. Elena Dimos",
+   "episodes": 60
+  },
+  {
+   "id": 94251,
+   "name": "Markus Böker",
+   "photo": "https://image.tmdb.org/t/p/w185/emAYGwL8qVTfxpSxx5QOQvB0qh.jpg",
+   "character": "Ulrich Satori",
+   "episodes": 54
+  },
+  {
+   "id": 1321211,
+   "name": "Benedikt Blašković",
+   "photo": "https://image.tmdb.org/t/p/w185/jLDll6QZWwqzloMGvgfh6CDgDDf.jpg",
+   "character": "Alexander Lorenz / Andreas Lorenz / Xaver Kömmerling",
+   "episodes": 50
+  },
+  {
+   "id": 3118061,
+   "name": "Steffen Wolf",
+   "photo": "https://image.tmdb.org/t/p/w185/vGtAiGYJB6Z0exhLuH7A1ufMGIF.jpg",
+   "character": "Hannes Winkler / Peter Wenninger / Max Weber",
+   "episodes": 47
+  },
+  {
+   "id": 2991686,
+   "name": "Baran Hêvî",
+   "photo": null,
+   "character": "Kilian Kaya",
+   "episodes": 43
+  }
+ ],
+ "crew": [
+  {
+   "id": 3458018,
+   "name": "Nikolaus Schmidt",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 44
+  },
+  {
+   "id": 1358880,
+   "name": "Gunter Krää",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 41
+  },
+  {
+   "id": 1585949,
+   "name": "Werner Siebert",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 35
+  },
+  {
+   "id": 3457759,
+   "name": "Gerhard Ammelburger",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 29
+  },
+  {
+   "id": 3458424,
+   "name": "Rigobert Mayer",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 3457781,
+   "name": "Joachim Braner",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 3457780,
+   "name": "Ariane Homayounfar",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 1482193,
+   "name": "Daniel Drechsel-Grau",
+   "photo": "https://image.tmdb.org/t/p/w185/i4XoyRdGmq2bsWPIQSCyEuotnkV.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 3457572,
+   "name": "Irene Graef",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 4556899,
+   "name": "Manuel Grabmann",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 1376694,
+   "name": "Julie Fellmann",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 1974022,
+   "name": "Dagmar Rehbinder",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 3165188,
+   "name": "Claudia Leins",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1471449,
+   "name": "Kerstin Oesterlin",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 2987990,
+   "name": "Hans Henner Hess",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1329220,
+   "name": "Stefan Klisch",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 10
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:43:06.163Z"
+}

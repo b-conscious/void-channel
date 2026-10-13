@@ -1,0 +1,323 @@
+{
+ "show": "X-Men: The Animated Series",
+ "slug": "x-men-the-animated-series",
+ "tmdbId": 4574,
+ "cast": [
+  {
+   "id": 110498,
+   "name": "Cedric Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/wW6TtXWBChAD4ANSxVV8r6g8aw5.jpg",
+   "character": "Professor X (voice)",
+   "episodes": 76
+  },
+  {
+   "id": 1220928,
+   "name": "Norm Spencer",
+   "photo": "https://image.tmdb.org/t/p/w185/2UgkhRFpZtGhEdbCkkeBfuwujTk.jpg",
+   "character": "Cyclops (voice)",
+   "episodes": 76
+  },
+  {
+   "id": 31187,
+   "name": "Catherine Disher",
+   "photo": "https://image.tmdb.org/t/p/w185/4KQR1ke8UdW4y0HMUCARIAG4Dwk.jpg",
+   "character": "Jean Grey (voice)",
+   "episodes": 76
+  },
+  {
+   "id": 158360,
+   "name": "Lenore Zann",
+   "photo": "https://image.tmdb.org/t/p/w185/qOuxxt2zybggVDl1NiQloVIVFNU.jpg",
+   "character": "Rogue (voice)",
+   "episodes": 76
+  },
+  {
+   "id": 1234162,
+   "name": "Cal Dodd",
+   "photo": "https://image.tmdb.org/t/p/w185/lnBlxGfIGnXxKkULmQ2bJYYbFNf.jpg",
+   "character": "Wolverine (voice)",
+   "episodes": 76
+  },
+  {
+   "id": 74951,
+   "name": "Alyson Court",
+   "photo": "https://image.tmdb.org/t/p/w185/kPeTYEV6vyyAJEsUlomVpiLcd6v.jpg",
+   "character": "Jubilee (voice)",
+   "episodes": 76
+  },
+  {
+   "id": 128176,
+   "name": "George Buza",
+   "photo": "https://image.tmdb.org/t/p/w185/dQ3auD3785T0o5kJK67HmocMQR2.jpg",
+   "character": "Beast (voice)",
+   "episodes": 76
+  },
+  {
+   "id": 60042,
+   "name": "Alison Sealy-Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/w4TSJBggA4c1YnXenKIOHYwuLla.jpg",
+   "character": "Storm (voice)",
+   "episodes": 63
+  },
+  {
+   "id": 72997,
+   "name": "Chris Potter",
+   "photo": "https://image.tmdb.org/t/p/w185/buOqRGFZH26b3E9UnxFBphRg9ON.jpg",
+   "character": "Gambit (voice)",
+   "episodes": 62
+  },
+  {
+   "id": 186529,
+   "name": "Tony Daniels",
+   "photo": "https://image.tmdb.org/t/p/w185/4gfMyePGYM1D4AuoMPPd7zbKbhE.jpg",
+   "character": "Gambit (voice)",
+   "episodes": 14
+  },
+  {
+   "id": 144107,
+   "name": "Iona Morris",
+   "photo": "https://image.tmdb.org/t/p/w185/4Ij1bKHykl7w61Vqnygz17djyPp.jpg",
+   "character": "Storm (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 133921,
+   "name": "Lawrence Bayne",
+   "photo": "https://image.tmdb.org/t/p/w185/mfb2WumVLTAHFE0FVvKWvEjgmV5.jpg",
+   "character": "Erik the Red (voice) / Fabian Cortez (voice) / Captain America (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 1222649,
+   "name": "Stephen Ouimette",
+   "photo": "https://image.tmdb.org/t/p/w185/kk7rbjYnNNgLN1f853vRepd3GcA.jpg",
+   "character": "Angel (voice) / Cameron Hodge (voice) / Archangel (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 15765,
+   "name": "John Colicos",
+   "photo": "https://image.tmdb.org/t/p/w185/ln0FRANagWyBK6Itx727hCwR8hM.jpg",
+   "character": "Apocalypse (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 5946,
+   "name": "Philip Akin",
+   "photo": "https://image.tmdb.org/t/p/w185/6YLxKUiyCM4bckISIfCcHHSBEGc.jpg",
+   "character": "Bishop (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 1215858,
+   "name": "Ron Rubin",
+   "photo": "https://image.tmdb.org/t/p/w185/f7C52auBxmr2VSt2zQkIqcplypC.jpg",
+   "character": "Morph (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 87461,
+   "name": "Don Francks",
+   "photo": "https://image.tmdb.org/t/p/w185/q1bvy838NZCLDxWLpwhJYC5FsDA.jpg",
+   "character": "Sabretooth (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 137162,
+   "name": "John Stocker",
+   "photo": "https://image.tmdb.org/t/p/w185/Aqz4LEZmrpnRCd1ru4y0A3jaoo7.jpg",
+   "character": "Graydon Creed (voice) / Leech (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 58805,
+   "name": "David Hemblen",
+   "photo": "https://image.tmdb.org/t/p/w185/J4P6glhqi6wAVODKkuhiZm2dzM.jpg",
+   "character": "Magneto (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 87462,
+   "name": "Susan Roman",
+   "photo": "https://image.tmdb.org/t/p/w185/vyWyOdnKcoNf40ytZSy6qlIIr9p.jpg",
+   "character": "Amelia Voght (voice) / Callisto (voice) / Scarlet Witch (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 990621,
+   "name": "Paul Haddad",
+   "photo": null,
+   "character": "Kiyoek (voice) / Quicksilver (voice) / Arkon (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 105299,
+   "name": "Jennifer Dale",
+   "photo": "https://image.tmdb.org/t/p/w185/adl9ZaLienQe8c9jMuYgPuNpOR3.jpg",
+   "character": "Mystique (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 43429,
+   "name": "Barry Flatman",
+   "photo": "https://image.tmdb.org/t/p/w185/jFilSZK7Th9qTQFQ3ZToU53ieAY.jpg",
+   "character": "Henry Gyrich (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 44205,
+   "name": "Jeremy Ratchford",
+   "photo": "https://image.tmdb.org/t/p/w185/lpqoU3SIc2QB3JwfA2D8U85hHg5.jpg",
+   "character": "Banshee (voice)",
+   "episodes": 4
+  }
+ ],
+ "crew": [
+  {
+   "id": 1225802,
+   "name": "Eric Lewald",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 77
+  },
+  {
+   "id": 7624,
+   "name": "Stan Lee",
+   "photo": "https://image.tmdb.org/t/p/w185/kKeyWoFtTqOPsbmwylNHmuB3En9.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 76
+  },
+  {
+   "id": 994637,
+   "name": "Joseph Calamari",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 76
+  },
+  {
+   "id": 50099,
+   "name": "Shuki Levy",
+   "photo": "https://image.tmdb.org/t/p/w185/4fzlZFMAFiWzjAuUt583uZmqTTZ.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 76
+  },
+  {
+   "id": 7626,
+   "name": "Avi Arad",
+   "photo": "https://image.tmdb.org/t/p/w185/cxmqw0anGfxC7RwUNQj3EwhX9pP.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 63
+  },
+  {
+   "id": 567183,
+   "name": "Larry Houston",
+   "photo": "https://image.tmdb.org/t/p/w185/vQikWM26SXpEyy9q3Vmcgnx7Hhi.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 62
+  },
+  {
+   "id": 56899,
+   "name": "Haim Saban",
+   "photo": "https://image.tmdb.org/t/p/w185/7y8hDpuw5A7TfEx3kehjoLzJT9E.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 50
+  },
+  {
+   "id": 1842057,
+   "name": "Fred Miller",
+   "photo": "https://image.tmdb.org/t/p/w185/d3nMHlSfxvGmjohqxTZssRO7AqD.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 1152756,
+   "name": "Winston Richard",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 1213969,
+   "name": "Michael Edens",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 186409,
+   "name": "Mark Edward Edens",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1237256,
+   "name": "David McDermott",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 71540,
+   "name": "Steven Melching",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1220922,
+   "name": "Brooks Wachtel",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 175473,
+   "name": "Marty Isenberg",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 160097,
+   "name": "Len Uhley",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:29:15.773Z"
+}

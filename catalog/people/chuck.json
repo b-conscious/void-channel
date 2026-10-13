@@ -1,0 +1,327 @@
+{
+ "show": "Chuck",
+ "slug": "chuck",
+ "tmdbId": 1404,
+ "cast": [
+  {
+   "id": 69899,
+   "name": "Zachary Levi",
+   "photo": "https://image.tmdb.org/t/p/w185/1W8L3kEMMPF9umT3ZGaNIiCYKfZ.jpg",
+   "character": "Chuck Bartowski",
+   "episodes": 91
+  },
+  {
+   "id": 63312,
+   "name": "Yvonne Strahovski",
+   "photo": "https://image.tmdb.org/t/p/w185/2IQEjn5T8urx6ikXM87QGs5MrWg.jpg",
+   "character": "Sarah Walker",
+   "episodes": 91
+  },
+  {
+   "id": 2059,
+   "name": "Adam Baldwin",
+   "photo": "https://image.tmdb.org/t/p/w185/lfbyJWNWGbiYfU0Yr1tjn6Trd2V.jpg",
+   "character": "John Casey",
+   "episodes": 91
+  },
+  {
+   "id": 171827,
+   "name": "Joshua Gomez",
+   "photo": "https://image.tmdb.org/t/p/w185/5dJQgb32xHN8KH0Pxolw5bxGjGW.jpg",
+   "character": "Morgan Grimes",
+   "episodes": 91
+  },
+  {
+   "id": 81217,
+   "name": "Sarah Lancaster",
+   "photo": "https://image.tmdb.org/t/p/w185/hHSlXjohcTtjT8rjEhYMZQplZ08.jpg",
+   "character": "Ellie Woodcomb",
+   "episodes": 91
+  },
+  {
+   "id": 93031,
+   "name": "Ryan McPartlin",
+   "photo": "https://image.tmdb.org/t/p/w185/v0vKYfoSVLBEGBZ2ldjm3cHJwf3.jpg",
+   "character": "Devon Woodcomb",
+   "episodes": 88
+  },
+  {
+   "id": 33501,
+   "name": "Mark Christopher Lawrence",
+   "photo": "https://image.tmdb.org/t/p/w185/uQgXQbaDS0hoPyqUhs5Z97KIZPA.jpg",
+   "character": "Big Mike",
+   "episodes": 87
+  },
+  {
+   "id": 6623,
+   "name": "Vik Sahay",
+   "photo": "https://image.tmdb.org/t/p/w185/690bPfmzaXsrZ1eDcUOCDT5TPpq.jpg",
+   "character": "Lester Patel",
+   "episodes": 78
+  },
+  {
+   "id": 206334,
+   "name": "Scott Krinsky",
+   "photo": "https://image.tmdb.org/t/p/w185/tpmq8VSDTMpJuZdn2KDbNWdz594.jpg",
+   "character": "Jeff Barnes",
+   "episodes": 78
+  },
+  {
+   "id": 25946,
+   "name": "Bonita Friedericy",
+   "photo": "https://image.tmdb.org/t/p/w185/bc4dwlczIvsUkhItV0zJCUNjgP.jpg",
+   "character": "Diane Beckman",
+   "episodes": 76
+  },
+  {
+   "id": 1223891,
+   "name": "Julia Ling",
+   "photo": "https://image.tmdb.org/t/p/w185/aXBiJb2mQhjpxIF2zEFcsBttx43.jpg",
+   "character": "Anna Wu",
+   "episodes": 31
+  },
+  {
+   "id": 168872,
+   "name": "Jesse Heiman",
+   "photo": "https://image.tmdb.org/t/p/w185/kzpEjCcrXpwFozTEBC8xPcYkU7l.jpg",
+   "character": "Fernando",
+   "episodes": 31
+  },
+  {
+   "id": 212324,
+   "name": "Mekenna Melvin",
+   "photo": "https://image.tmdb.org/t/p/w185/dezBzXN9XVbMHPJz6r5dHaA3Mnz.jpg",
+   "character": "Alex McHugh",
+   "episodes": 24
+  },
+  {
+   "id": 1450802,
+   "name": "Michael Kawczynski",
+   "photo": "https://image.tmdb.org/t/p/w185/cwqaiRaUy9aqVpzZNufK3f3OgdG.jpg",
+   "character": "Skip",
+   "episodes": 21
+  },
+  {
+   "id": 25147,
+   "name": "Tony Hale",
+   "photo": "https://image.tmdb.org/t/p/w185/3dEyZgTye0Ec17VGKp0mJ3aU6ty.jpg",
+   "character": "Emmett Milbarge",
+   "episodes": 13
+  },
+  {
+   "id": 1450776,
+   "name": "Julie McKinnon",
+   "photo": null,
+   "character": "Buy More Customer",
+   "episodes": 13
+  },
+  {
+   "id": 17271,
+   "name": "Brandon Routh",
+   "photo": "https://image.tmdb.org/t/p/w185/iPonANuyk3eOHjADqd4h9sBwvX1.jpg",
+   "character": "Daniel Shaw",
+   "episodes": 12
+  },
+  {
+   "id": 2713,
+   "name": "Linda Hamilton",
+   "photo": "https://image.tmdb.org/t/p/w185/7FNn9Z5xkRS9EFbGL2tpmpph9xV.jpg",
+   "character": "Mary Elizabeth Bartowski",
+   "episodes": 12
+  },
+  {
+   "id": 19384,
+   "name": "Tony Todd",
+   "photo": "https://image.tmdb.org/t/p/w185/cNUIRoewwiLi8JxyA1J2zb1z5SN.jpg",
+   "character": "CIA Director Graham",
+   "episodes": 10
+  },
+  {
+   "id": 66743,
+   "name": "Matt Bomer",
+   "photo": "https://image.tmdb.org/t/p/w185/oxL27Z3XtjoABaOynKazZeg7qKM.jpg",
+   "character": "Bryce Larkin",
+   "episodes": 7
+  },
+  {
+   "id": 2154,
+   "name": "Scott Bakula",
+   "photo": "https://image.tmdb.org/t/p/w185/meZvcpXmcFlrJUeme4UpH4GZeNV.jpg",
+   "character": "Steve Bartowski",
+   "episodes": 7
+  },
+  {
+   "id": 164380,
+   "name": "C.S. Lee",
+   "photo": "https://image.tmdb.org/t/p/w185/cjqzZKv7iCDk2o5Wp2TlhxuQi52.jpg",
+   "character": "Harry Tang",
+   "episodes": 6
+  },
+  {
+   "id": 10669,
+   "name": "Timothy Dalton",
+   "photo": "https://image.tmdb.org/t/p/w185/rKYQd6ihqWiOaCHEDrvgV2VPtAo.jpg",
+   "character": "Alexei Volkoff",
+   "episodes": 6
+  },
+  {
+   "id": 62220,
+   "name": "Lauren Cohan",
+   "photo": "https://image.tmdb.org/t/p/w185/8WPbj506873QzrKwUFbjjniLuvD.jpg",
+   "character": "Vivian McArthur / Vivian Volkoff",
+   "episodes": 5
+  }
+ ],
+ "crew": [
+  {
+   "id": 168798,
+   "name": "Josh Schwartz",
+   "photo": "https://image.tmdb.org/t/p/w185/lIe4rE89dzhYbc3dZJcdXpjwoSR.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 91
+  },
+  {
+   "id": 36425,
+   "name": "McG",
+   "photo": "https://image.tmdb.org/t/p/w185/sEcoHVCqc2IrJkxgixGHrDytsyd.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 91
+  },
+  {
+   "id": 1223887,
+   "name": "Chris Fedak",
+   "photo": "https://image.tmdb.org/t/p/w185/hXpF1sWzhoFXPEnM7TvL8XMFwlC.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 91
+  },
+  {
+   "id": 52379,
+   "name": "Tim Jones",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 91
+  },
+  {
+   "id": 74065,
+   "name": "Robert Duncan McNeill",
+   "photo": "https://image.tmdb.org/t/p/w185/3z4QJjOvUp2eO3fIjKngPdtWGfQ.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 21
+  },
+  {
+   "id": 1181359,
+   "name": "Phil Klemmer",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 1223896,
+   "name": "Lauren LeFranc",
+   "photo": "https://image.tmdb.org/t/p/w185/8OTJuIucLbUjIurI2yzgvMSneQg.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1223895,
+   "name": "Rafe Judkins",
+   "photo": "https://image.tmdb.org/t/p/w185/HeImj6jOp4wGfcfG4o0Rj51kq3.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1216181,
+   "name": "Ali Adler",
+   "photo": "https://image.tmdb.org/t/p/w185/chwz2xe9gKDXzFTBIeVQmby5xLe.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1223890,
+   "name": "Scott Rosenbaum",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1215364,
+   "name": "Allan Kroeker",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1213575,
+   "name": "Patrick R. Norris",
+   "photo": "https://image.tmdb.org/t/p/w185/8octObpcXCpRLzRcFwWVXot9cKu.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 168442,
+   "name": "Peter Lauer",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1212418,
+   "name": "Kristin Newman",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1214469,
+   "name": "Nicholas Wootton",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1223899,
+   "name": "Craig DiGregorio",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:02.162Z"
+}

@@ -1,0 +1,333 @@
+{
+ "show": "The Head",
+ "slug": "the-head",
+ "tmdbId": 102434,
+ "cast": [
+  {
+   "id": 2250342,
+   "name": "Katharine O'Donnelly",
+   "photo": "https://image.tmdb.org/t/p/w185/zAsYoqBUOgXTMsTgaQSLRIoLKXN.jpg",
+   "character": "Maggie Mitchell",
+   "episodes": 18
+  },
+  {
+   "id": 28743,
+   "name": "John Lynch",
+   "photo": "https://image.tmdb.org/t/p/w185/4TG8HYZ5SEFh1Yk5CCG4fXD55j9.jpg",
+   "character": "Arthur Wilde",
+   "episodes": 18
+  },
+  {
+   "id": 2462673,
+   "name": "Olivia Morris",
+   "photo": "https://image.tmdb.org/t/p/w185/iAzUTXzFWwEkRx6Ygudqnx4DmtW.jpg",
+   "character": "Rachel Russo",
+   "episodes": 12
+  },
+  {
+   "id": 135944,
+   "name": "Alexandre Willaume",
+   "photo": "https://image.tmdb.org/t/p/w185/zi3AIGnIYDZCd1DrGr5VCzOA2HM.jpg",
+   "character": "Johan Berg",
+   "episodes": 6
+  },
+  {
+   "id": 49487,
+   "name": "Richard Sammel",
+   "photo": "https://image.tmdb.org/t/p/w185/91IPxy0IuHhIqcrJdI0hYBpJmOg.jpg",
+   "character": "Erik Osterland",
+   "episodes": 6
+  },
+  {
+   "id": 1379523,
+   "name": "Laura Bach",
+   "photo": "https://image.tmdb.org/t/p/w185/rkb8BSERUBQ7IJLG2U5E1m77Ms6.jpg",
+   "character": "Annika Lundqvist",
+   "episodes": 6
+  },
+  {
+   "id": 1340020,
+   "name": "Álvaro Morte",
+   "photo": "https://image.tmdb.org/t/p/w185/2TGPhdpRC5wjdFEJqnLYiN5kbwg.jpg",
+   "character": "Ramón Lazaro",
+   "episodes": 6
+  },
+  {
+   "id": 1229895,
+   "name": "Tomohisa Yamashita",
+   "photo": "https://image.tmdb.org/t/p/w185/oWjRPp17jVrLJLt55Wrzad3s4vb.jpg",
+   "character": "Aki Kobayashi",
+   "episodes": 6
+  },
+  {
+   "id": 833900,
+   "name": "Sandra Andreis",
+   "photo": "https://image.tmdb.org/t/p/w185/hHabQadiQUrSsvEFqQOBZNIauTF.jpg",
+   "character": "Ebba Ullman",
+   "episodes": 6
+  },
+  {
+   "id": 2615194,
+   "name": "Chris Reilley",
+   "photo": "https://image.tmdb.org/t/p/w185/ahKHr2dKRSMmb83G6MpytsEXnxY.jpg",
+   "character": "Nils Hedlund",
+   "episodes": 6
+  },
+  {
+   "id": 1742368,
+   "name": "Hannes Fohlin",
+   "photo": "https://image.tmdb.org/t/p/w185/qdlAiGGpEW74bee0Vl6l5AhMrIj.jpg",
+   "character": "Gus",
+   "episodes": 6
+  },
+  {
+   "id": 89558,
+   "name": "Andreas Rothlin-Svensson",
+   "photo": "https://image.tmdb.org/t/p/w185/iQSxWJ0r4QU0njdaeKYAS4iGURq.jpg",
+   "character": "Micke Karlsson",
+   "episodes": 6
+  },
+  {
+   "id": 1288730,
+   "name": "Moe Dunford",
+   "photo": "https://image.tmdb.org/t/p/w185/tJ64S9CzXXuVQQo6jpxLool6okw.jpg",
+   "character": "Alec Kurtz",
+   "episodes": 6
+  },
+  {
+   "id": 142681,
+   "name": "Josefin Neldén",
+   "photo": "https://image.tmdb.org/t/p/w185/ffhPU6gnSRxYrLQVQgfkA9j9I8X.jpg",
+   "character": "Amy",
+   "episodes": 6
+  },
+  {
+   "id": 1131415,
+   "name": "Hovik Keuchkerian",
+   "photo": "https://image.tmdb.org/t/p/w185/o5cGKWHlZl4RFROYlT2hD95j0lN.jpg",
+   "character": "Charlie",
+   "episodes": 6
+  },
+  {
+   "id": 1149334,
+   "name": "Sota Fukushi",
+   "photo": "https://image.tmdb.org/t/p/w185/htkmq6HD2PckU8HagGVkL9Qyw1C.jpg",
+   "character": "Yuto",
+   "episodes": 6
+  },
+  {
+   "id": 1030255,
+   "name": "Ben Cura",
+   "photo": "https://image.tmdb.org/t/p/w185/zQu260CHVj1Ai507FZ3cLL4DUox.jpg",
+   "character": "Liam Ruddock",
+   "episodes": 6
+  },
+  {
+   "id": 578081,
+   "name": "Stanley Weber",
+   "photo": "https://image.tmdb.org/t/p/w185/seRPDc8ifxicZUi6cF4G4NaXKm.jpg",
+   "character": "Pierre",
+   "episodes": 6
+  },
+  {
+   "id": 3247402,
+   "name": "Clara Galle",
+   "photo": "https://image.tmdb.org/t/p/w185/ipZQNX8KECqeCHoD4dmbb883lzP.jpg",
+   "character": "Alba",
+   "episodes": 6
+  },
+  {
+   "id": 5171541,
+   "name": "Riko Nakazono",
+   "photo": null,
+   "character": "Keiko",
+   "episodes": 6
+  },
+  {
+   "id": 928468,
+   "name": "Godehard Giese",
+   "photo": "https://image.tmdb.org/t/p/w185/2vz3pSqdPUEtJ5xcNTWh7eZVdkj.jpg",
+   "character": "Horst",
+   "episodes": 6
+  },
+  {
+   "id": 4500519,
+   "name": "Jonny Grogan",
+   "photo": null,
+   "character": "Joe",
+   "episodes": 6
+  },
+  {
+   "id": 1467585,
+   "name": "Lochlann Ó Mearáin",
+   "photo": "https://image.tmdb.org/t/p/w185/g4ZaAlhmjuB3ix3URKkSDB4OhdP.jpg",
+   "character": "Sean",
+   "episodes": 6
+  },
+  {
+   "id": 228196,
+   "name": "Thierry Godard",
+   "photo": "https://image.tmdb.org/t/p/w185/iIW7YCzXr1VR9TWOKhUon7ghO8V.jpg",
+   "character": "Captain Jacques Renaud",
+   "episodes": 6
+  }
+ ],
+ "crew": [
+  {
+   "id": 94220,
+   "name": "Àlex Pastor",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 94222,
+   "name": "David Pastor",
+   "photo": "https://image.tmdb.org/t/p/w185/bswaVitByWWca3ewtoZGSXUF1qT.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1263877,
+   "name": "Jorge Dorado",
+   "photo": "https://image.tmdb.org/t/p/w185/2KpYzsxzjSnjQZprx1gpvp3iKLC.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Story"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 2284533,
+   "name": "Kazufumi Nagasawa",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 46852,
+   "name": "Dominic Harari",
+   "photo": "https://image.tmdb.org/t/p/w185/l4rsPK97EMIrxBiJhHE4L31vwee.jpg",
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 46851,
+   "name": "Teresa De Pelegrí",
+   "photo": "https://image.tmdb.org/t/p/w185/oEhM2u98EOqMii2UZhVoXV4gmS.jpg",
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1456399,
+   "name": "Mariano Baselga",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 69102,
+   "name": "Jordi Galceran",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 19814,
+   "name": "Bernat Elias",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1223962,
+   "name": "Ran Tellem",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 2229106,
+   "name": "Patrick Nebout",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1462270,
+   "name": "Javier Méndez",
+   "photo": "https://image.tmdb.org/t/p/w185/vmhta0wJfVb5oLUFRQ1ijmojNgv.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 3170465,
+   "name": "Laura Fernández Espeso",
+   "photo": "https://image.tmdb.org/t/p/w185/jA1azpD4daZpcROqkH09RMa2lOW.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 5196408,
+   "name": "Ran Tellem",
+   "photo": null,
+   "jobs": [
+    "Story"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 2726610,
+   "name": "Isaac Sastre",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 2356060,
+   "name": "Cauê Laratta",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:30:52.250Z"
+}

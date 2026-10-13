@@ -1,0 +1,323 @@
+{
+ "show": "Lost Girl",
+ "slug": "lost-girl",
+ "tmdbId": 33852,
+ "cast": [
+  {
+   "id": 78862,
+   "name": "Anna Silk",
+   "photo": "https://image.tmdb.org/t/p/w185/3mrhM0mZeGBPBagm2keDCtUEjda.jpg",
+   "character": "Bo",
+   "episodes": 77
+  },
+  {
+   "id": 133252,
+   "name": "Zoie Palmer",
+   "photo": "https://image.tmdb.org/t/p/w185/wDIoib7TwbLdypMWc1JOL5vtIF7.jpg",
+   "character": "Lauren",
+   "episodes": 77
+  },
+  {
+   "id": 557840,
+   "name": "Kristen Holden-Ried",
+   "photo": "https://image.tmdb.org/t/p/w185/lphlznej10kVTFkPcSFYCigaZV9.jpg",
+   "character": "Dyson",
+   "episodes": 77
+  },
+  {
+   "id": 220788,
+   "name": "Richard Howland",
+   "photo": "https://image.tmdb.org/t/p/w185/291AG7B0C5q39A4DfGCEt0jVNMY.jpg",
+   "character": "Trick",
+   "episodes": 77
+  },
+  {
+   "id": 140407,
+   "name": "Ksenia Solo",
+   "photo": "https://image.tmdb.org/t/p/w185/wILJwOPBqvxxYkWX0k8XmehMD8k.jpg",
+   "character": "Kenzi",
+   "episodes": 65
+  },
+  {
+   "id": 74278,
+   "name": "K.C. Collins",
+   "photo": "https://image.tmdb.org/t/p/w185/gzCsWz2xf3cMvGxR0VByW8hAr3c.jpg",
+   "character": "Hale",
+   "episodes": 45
+  },
+  {
+   "id": 80018,
+   "name": "Rachel Skarsten",
+   "photo": "https://image.tmdb.org/t/p/w185/baBNWNO0IiIVC3w9QqZPH0U9CJM.jpg",
+   "character": "Tamsin",
+   "episodes": 36
+  },
+  {
+   "id": 1252454,
+   "name": "Paul Amos",
+   "photo": "https://image.tmdb.org/t/p/w185/c2BqXDm9P00At1yE2OsnbOGFq0I.jpg",
+   "character": "Vex / Vex / The Morrigan / Prince Filipe III",
+   "episodes": 21
+  },
+  {
+   "id": 2684,
+   "name": "Emmanuelle Vaugier",
+   "photo": "https://image.tmdb.org/t/p/w185/jtQ4p9iQoD2uCgqbYRgccvGEG6X.jpg",
+   "character": "Evony Fleurette Marquise / The Morrigan / Evony Fleurette Marquise",
+   "episodes": 18
+  },
+  {
+   "id": 190908,
+   "name": "Vincent Walsh",
+   "photo": "https://image.tmdb.org/t/p/w185/eIyoJGq9YybiNkYHnVOOJGEekXD.jpg",
+   "character": "Lachlan / The Ash",
+   "episodes": 14
+  },
+  {
+   "id": 1228352,
+   "name": "Luke Bilyk",
+   "photo": "https://image.tmdb.org/t/p/w185/eszaEk1NwGkv1HCtGTkjTycfvrX.jpg",
+   "character": "Mark",
+   "episodes": 10
+  },
+  {
+   "id": 588382,
+   "name": "Lina Roessler",
+   "photo": "https://image.tmdb.org/t/p/w185/pbzPDsGGXvQJjTBPVoK2pVWHnNX.jpg",
+   "character": "Ciara O'Breen / Ciara",
+   "episodes": 9
+  },
+  {
+   "id": 21315,
+   "name": "Eric Roberts",
+   "photo": "https://image.tmdb.org/t/p/w185/NiWg1TaUcal7xn1ZQeyA2dLd5F.jpg",
+   "character": "Hades / Hades / Jack",
+   "episodes": 9
+  },
+  {
+   "id": 76416,
+   "name": "Amanda Walsh",
+   "photo": "https://image.tmdb.org/t/p/w185/7UtpYscsKdVIOf38Mos0iVPXkgZ.jpg",
+   "character": "Zee / Elizabeth Helm",
+   "episodes": 9
+  },
+  {
+   "id": 180924,
+   "name": "Inga Cadranel",
+   "photo": "https://image.tmdb.org/t/p/w185/hUkbZpavTooaFZDcwrvRN7KIcct.jpg",
+   "character": "Saskia / Aife",
+   "episodes": 8
+  },
+  {
+   "id": 73610,
+   "name": "Tim Rozon",
+   "photo": "https://image.tmdb.org/t/p/w185/c7r0ahbhIimXSgJkqUTUjVuKM2m.jpg",
+   "character": "Massimo / The Druid",
+   "episodes": 8
+  },
+  {
+   "id": 51037,
+   "name": "Athena Karkanis",
+   "photo": "https://image.tmdb.org/t/p/w185/bxKJJWXfnTfWVpsD5Y5H8g4vFUq.jpg",
+   "character": "Nadia",
+   "episodes": 7
+  },
+  {
+   "id": 1024492,
+   "name": "Rob Archer",
+   "photo": "https://image.tmdb.org/t/p/w185/7z9egtEbLEwh7cxfJ39l6OOPlzh.jpg",
+   "character": "Large Man / Bruce",
+   "episodes": 7
+  },
+  {
+   "id": 33668,
+   "name": "Noam Jenkins",
+   "photo": "https://image.tmdb.org/t/p/w185/6cGnnTzHgvl4aEpD98gtcQ9DDU7.jpg",
+   "character": "Heratio / Kevin Brown / Kevin Welles",
+   "episodes": 7
+  },
+  {
+   "id": 43310,
+   "name": "Christine Horne",
+   "photo": "https://image.tmdb.org/t/p/w185/lMkvMd3Z1RzTzkqbaJYcrrQVuNE.jpg",
+   "character": "Arabella / The Keeper",
+   "episodes": 6
+  },
+  {
+   "id": 957076,
+   "name": "Clé Bennett",
+   "photo": "https://image.tmdb.org/t/p/w185/1q3tnlfS56wuzjBDf9ahhG169aP.jpg",
+   "character": "The Ash",
+   "episodes": 5
+  },
+  {
+   "id": 44098,
+   "name": "Anthony Lemke",
+   "photo": "https://image.tmdb.org/t/p/w185/yR9mpiDDczUt6RlXntWwq49yacm.jpg",
+   "character": "Ryan Lambert",
+   "episodes": 5
+  },
+  {
+   "id": 90130,
+   "name": "Aaron Ashmore",
+   "photo": "https://image.tmdb.org/t/p/w185/kkGwF2nhgnYLUfXuH2CDvrHeUay.jpg",
+   "character": "Nate",
+   "episodes": 5
+  },
+  {
+   "id": 59794,
+   "name": "Kate Trotter",
+   "photo": "https://image.tmdb.org/t/p/w185/tcuNBjYCeodtHKZT747ffL3lVNV.jpg",
+   "character": "The Norn",
+   "episodes": 5
+  }
+ ],
+ "crew": [
+  {
+   "id": 238634,
+   "name": "M. A. Lovretta",
+   "photo": "https://image.tmdb.org/t/p/w185/6GW69pqzLTlfYy1Ukj5xhLWfHC6.jpg",
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 1844065,
+   "name": "Benjamin Pinkerton",
+   "photo": "https://image.tmdb.org/t/p/w185/hX3MdNlER9sawvkB2Z6vwykuDln.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 77
+  },
+  {
+   "id": 1234321,
+   "name": "Emily Andras",
+   "photo": "https://image.tmdb.org/t/p/w185/53yU4AJKLyiwokcq4UjBubvsfh0.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 77
+  },
+  {
+   "id": 63799,
+   "name": "Jeremy Boxen",
+   "photo": "https://image.tmdb.org/t/p/w185/2481tVjQbOkJscq3JIwDRbLWB9L.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 61
+  },
+  {
+   "id": 137894,
+   "name": "Steve DiMarco",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 113889,
+   "name": "Paolo Barzman",
+   "photo": "https://image.tmdb.org/t/p/w185/cxw9DqXOqIZIikw68qlrPPlAJC7.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 209712,
+   "name": "Steve Cochrane",
+   "photo": "https://image.tmdb.org/t/p/w185/mSQfE7EAmz6ChyjvJyfvJ88IihQ.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1218954,
+   "name": "Ron Murphy",
+   "photo": "https://image.tmdb.org/t/p/w185/lEBpfZiBe4hv8kto4F7zT1NFjIR.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 197340,
+   "name": "Alexandra Zarowny",
+   "photo": "https://image.tmdb.org/t/p/w185/v4ZKyDK1XA4ZAEWaPHNwUOXP8Nc.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1228379,
+   "name": "Michael Grassi",
+   "photo": "https://image.tmdb.org/t/p/w185/e4qdx59zmqz1KzFg2nSwrsYWLzn.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 43,
+   "name": "John Fawcett",
+   "photo": "https://image.tmdb.org/t/p/w185/ArR5IXmo5yqjH4I6kcO9W5u9rDC.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 202122,
+   "name": "Lee Rose",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 207749,
+   "name": "Gail Harvey",
+   "photo": "https://image.tmdb.org/t/p/w185/jr7cDCzi4iWkhBdKY1QVwDXTjVV.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1252460,
+   "name": "Sandra Chwialkowska",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 154819,
+   "name": "David Greene",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 27146,
+   "name": "Rob Lieberman",
+   "photo": "https://image.tmdb.org/t/p/w185/lPaofAC7evfyLsS1lgbW2DlVwmD.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:37:06.081Z"
+}

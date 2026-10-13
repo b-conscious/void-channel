@@ -1,0 +1,333 @@
+{
+ "show": "The Diplomat",
+ "slug": "the-diplomat",
+ "tmdbId": 203857,
+ "cast": [
+  {
+   "id": 41292,
+   "name": "Keri Russell",
+   "photo": "https://image.tmdb.org/t/p/w185/4bLtisDjmCOemk3uC65NAlmdIjz.jpg",
+   "character": "Ambassador Kate Wyler",
+   "episodes": 30
+  },
+  {
+   "id": 17328,
+   "name": "Rufus Sewell",
+   "photo": "https://image.tmdb.org/t/p/w185/yc2EWyg45GO03YqDttaEhjvegiE.jpg",
+   "character": "Hal Wyler",
+   "episodes": 30
+  },
+  {
+   "id": 55411,
+   "name": "David Gyasi",
+   "photo": "https://image.tmdb.org/t/p/w185/1382u2e4jiGhuDKgeK9UZtXXqfh.jpg",
+   "character": "Foreign Secretary Austin Dennison",
+   "episodes": 30
+  },
+  {
+   "id": 1323810,
+   "name": "Ali Ahn",
+   "photo": "https://image.tmdb.org/t/p/w185/tK2JL02YuCInio9czdxT77R6i52.jpg",
+   "character": "Eidra Park",
+   "episodes": 30
+  },
+  {
+   "id": 139549,
+   "name": "Rory Kinnear",
+   "photo": "https://image.tmdb.org/t/p/w185/8aEABMeHXOozwE5DrMxUlCM9mpG.jpg",
+   "character": "Prime Minister Nicol Trowbridge",
+   "episodes": 30
+  },
+  {
+   "id": 5377,
+   "name": "Ato Essandoh",
+   "photo": "https://image.tmdb.org/t/p/w185/bXwpCbl2grM5UYv5l5DXMrqrlxp.jpg",
+   "character": "Stuart Hayford",
+   "episodes": 30
+  },
+  {
+   "id": 1695395,
+   "name": "Nana Mensah",
+   "photo": "https://image.tmdb.org/t/p/w185/wDuortBWTy3mSGwR2Ce2oPwmcUS.jpg",
+   "character": "Billie Appiah",
+   "episodes": 15
+  },
+  {
+   "id": 1256622,
+   "name": "Tim Delap",
+   "photo": "https://image.tmdb.org/t/p/w185/qC2DxUkIRdKWQQKF77vEnOjRZgY.jpg",
+   "character": "Byron",
+   "episodes": 15
+  },
+  {
+   "id": 19,
+   "name": "Allison Janney",
+   "photo": "https://image.tmdb.org/t/p/w185/kSaSnQ9xU8eVNL0mTppab95dZA8.jpg",
+   "character": "Vice President Grace Penn / President Grace Penn",
+   "episodes": 14
+  },
+  {
+   "id": 108579,
+   "name": "Penny Downie",
+   "photo": "https://image.tmdb.org/t/p/w185/8zpun3JUlElJ8VEHZlnzq5Kxxuh.jpg",
+   "character": "Frances Munning",
+   "episodes": 13
+  },
+  {
+   "id": 1542283,
+   "name": "Adam Silver",
+   "photo": "https://image.tmdb.org/t/p/w185/jE3zEMEYflS3adHtF11YqLAwlVI.jpg",
+   "character": "Howard",
+   "episodes": 13
+  },
+  {
+   "id": 4021876,
+   "name": "Kenichiro Thomson",
+   "photo": "https://image.tmdb.org/t/p/w185/muUlQyJ4MpoYIci8NRgF3MyyDZ6.jpg",
+   "character": "Martin",
+   "episodes": 13
+  },
+  {
+   "id": 1609794,
+   "name": "Pearl Mackie",
+   "photo": "https://image.tmdb.org/t/p/w185/z8rk4OtQm2bebO4CHZuJwVLe5VP.jpg",
+   "character": "Alysse",
+   "episodes": 12
+  },
+  {
+   "id": 11367,
+   "name": "Bradley Whitford",
+   "photo": "https://image.tmdb.org/t/p/w185/oeDv2qZWTxELLaNtOIoeG72leNY.jpg",
+   "character": "Todd Penn",
+   "episodes": 11
+  },
+  {
+   "id": 9139,
+   "name": "Celia Imrie",
+   "photo": "https://image.tmdb.org/t/p/w185/eEtVfESOVnkkdPLYkyQpalEwAwj.jpg",
+   "character": "Meg Roylin",
+   "episodes": 11
+  },
+  {
+   "id": 5526,
+   "name": "Georgie Henley",
+   "photo": "https://image.tmdb.org/t/p/w185/dW7ZQfrm2A4rVtZrIPbWOUXNvsJ.jpg",
+   "character": "Pensy",
+   "episodes": 11
+  },
+  {
+   "id": 210520,
+   "name": "Graham Miller",
+   "photo": null,
+   "character": "Neil Barrow",
+   "episodes": 11
+  },
+  {
+   "id": 1982141,
+   "name": "Jess Chanliau",
+   "photo": "https://image.tmdb.org/t/p/w185/wx0GIkCqrqt1Vg4SIM63ipbuyZT.jpg",
+   "character": "Ronnie",
+   "episodes": 9
+  },
+  {
+   "id": 30488,
+   "name": "Miguel Sandoval",
+   "photo": "https://image.tmdb.org/t/p/w185/v5tHxTkgOqcdWgjoEhUj0a50NIK.jpg",
+   "character": "Miguel Ganon",
+   "episodes": 8
+  },
+  {
+   "id": 3031407,
+   "name": "Rosaline Elbay",
+   "photo": "https://image.tmdb.org/t/p/w185/pnWeiy0SG2IEkehiYXJHz9OYMge.jpg",
+   "character": "Nora Koriem",
+   "episodes": 8
+  },
+  {
+   "id": 176227,
+   "name": "Richard Dillane",
+   "photo": "https://image.tmdb.org/t/p/w185/4DVdlTFkhPlERFyFoeH6UoXb2un.jpg",
+   "character": "Tom Libby",
+   "episodes": 7
+  },
+  {
+   "id": 5032939,
+   "name": "Sandy Amon-Schwartz",
+   "photo": null,
+   "character": "Sandy",
+   "episodes": 7
+  },
+  {
+   "id": 3260549,
+   "name": "Bhav Joshi",
+   "photo": "https://image.tmdb.org/t/p/w185/d3nmlX334qytTPU58jRn5yO1jjp.jpg",
+   "character": "Anu Kapoor",
+   "episodes": 6
+  },
+  {
+   "id": 21731,
+   "name": "Michael McKean",
+   "photo": "https://image.tmdb.org/t/p/w185/xuEZeuylzznJcf0nDs1RlvuzaPr.jpg",
+   "character": "President William Rayburn (archive footage) / President William Rayburn",
+   "episodes": 6
+  }
+ ],
+ "crew": [
+  {
+   "id": 1219520,
+   "name": "Debora Cahn",
+   "photo": "https://image.tmdb.org/t/p/w185/h2kLzLBFQh5LugBl9kf3ucmD9u2.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 41292,
+   "name": "Keri Russell",
+   "photo": "https://image.tmdb.org/t/p/w185/4bLtisDjmCOemk3uC65NAlmdIjz.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 957566,
+   "name": "Janice Williams",
+   "photo": "https://image.tmdb.org/t/p/w185/tlURHSkYfETMyY2WxmS44QHSZsQ.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 1217138,
+   "name": "Peter Noah",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 1219508,
+   "name": "Eli Attie",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1177777,
+   "name": "Alex Graves",
+   "photo": "https://image.tmdb.org/t/p/w185/c9KWBdhgtsoUFGdWbInk3WUnUbU.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 55177,
+   "name": "Marcelo Zarvos",
+   "photo": "https://image.tmdb.org/t/p/w185/g8M0KcslP4LHOaDw213O2U3SLZL.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 4025845,
+   "name": "Anna Hagen",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 3273043,
+   "name": "Mia Chung",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Story"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 4593936,
+   "name": "Julianna Dudley Meagher",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 19659,
+   "name": "Nathan Barr",
+   "photo": "https://image.tmdb.org/t/p/w185/tffHPRmHgpmfe4LraLHXgpsazR.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 3447406,
+   "name": "Dimitri Smith",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1212609,
+   "name": "Tucker Gates",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 916958,
+   "name": "Liza Johnson",
+   "photo": "https://image.tmdb.org/t/p/w185/y7as9fauoSzDo3J8xN9h4RZ6h7M.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 144798,
+   "name": "Simon Cellan Jones",
+   "photo": "https://image.tmdb.org/t/p/w185/qehGPEQGGGmSYMHPIiQI2zvDrGM.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1215659,
+   "name": "Andrew Bernstein",
+   "photo": "https://image.tmdb.org/t/p/w185/5Q4t7rtpHtp0vfstpQzug1KGZgS.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:34:46.475Z"
+}

@@ -1,0 +1,325 @@
+{
+ "show": "CIA",
+ "slug": "cia",
+ "tmdbId": 289560,
+ "cast": [
+  {
+   "id": 192944,
+   "name": "Tom Ellis",
+   "photo": "https://image.tmdb.org/t/p/w185/zhjIyqpk5bsYgxsh5bSeS6VZtHm.jpg",
+   "character": "Colin Glass",
+   "episodes": 16
+  },
+  {
+   "id": 979639,
+   "name": "Nick Gehlfuss",
+   "photo": "https://image.tmdb.org/t/p/w185/4mjZAocnsGGWz9bYTu5STYAgzUb.jpg",
+   "character": "Bill Goodman",
+   "episodes": 16
+  },
+  {
+   "id": 2536411,
+   "name": "Natalee Linez",
+   "photo": "https://image.tmdb.org/t/p/w185/5Lw6AR9zglwbbkMMPeJtayxWM5H.jpg",
+   "character": "Gina Gosian",
+   "episodes": 16
+  },
+  {
+   "id": 119834,
+   "name": "Necar Zadegan",
+   "photo": "https://image.tmdb.org/t/p/w185/tKmbHsYfFlxi69mADlQkXN9Kw2j.jpg",
+   "character": "DCOS Nikki Reynard",
+   "episodes": 16
+  },
+  {
+   "id": 1286242,
+   "name": "Jonathan Randell Silver",
+   "photo": "https://image.tmdb.org/t/p/w185/8vZw2qi1J1hsEcjAhTi4olW4Ahz.jpg",
+   "character": "Zeeb Ornstein",
+   "episodes": 8
+  },
+  {
+   "id": 23958,
+   "name": "Jeremy Sisto",
+   "photo": "https://image.tmdb.org/t/p/w185/1XfuASLjBhGOhJ4os7juRJot2we.jpg",
+   "character": "Jubal Valentine",
+   "episodes": 6
+  },
+  {
+   "id": 1695023,
+   "name": "Jake Matthews",
+   "photo": "https://image.tmdb.org/t/p/w185/s0GjqSy7akQBxa0y9vWsqsqdznW.jpg",
+   "character": "Kevin Turner",
+   "episodes": 6
+  },
+  {
+   "id": 3631502,
+   "name": "Sarah Diamond",
+   "photo": null,
+   "character": "Wife / Sarah Lloyd",
+   "episodes": 6
+  },
+  {
+   "id": 932116,
+   "name": "James Chen",
+   "photo": "https://image.tmdb.org/t/p/w185/pdig815ZeMSEnxPnKKv91O3XhVB.jpg",
+   "character": "Ian Lim",
+   "episodes": 3
+  },
+  {
+   "id": 2243685,
+   "name": "Manny Ureña",
+   "photo": "https://image.tmdb.org/t/p/w185/wPaMxvrD8YdFgLNquyCf26fNiEz.jpg",
+   "character": "Miguel Halim / Miguel",
+   "episodes": 3
+  },
+  {
+   "id": 59206,
+   "name": "Becky Ann Baker",
+   "photo": "https://image.tmdb.org/t/p/w185/84fEZMqVMlcl9EaBeCLbrYhHn0x.jpg",
+   "character": "Mrs. Goodman",
+   "episodes": 2
+  },
+  {
+   "id": 149334,
+   "name": "Kathleen Rose Perkins",
+   "photo": "https://image.tmdb.org/t/p/w185/A6bG3mffBZ7xsr6aszSF2RJ0zIC.jpg",
+   "character": "Kimberly Graham",
+   "episodes": 2
+  },
+  {
+   "id": 1358087,
+   "name": "Brett Azar",
+   "photo": "https://image.tmdb.org/t/p/w185/unGYT2dTlGVdVJx5twmN06DKLNT.jpg",
+   "character": "Ground Branch Operator",
+   "episodes": 2
+  },
+  {
+   "id": 2115713,
+   "name": "Gabe Bowling",
+   "photo": "https://image.tmdb.org/t/p/w185/uAQsM4CUJGYhkpCem0mLVGaXB0x.jpg",
+   "character": "NYPD Rep Walsh",
+   "episodes": 2
+  },
+  {
+   "id": 2045798,
+   "name": "Caroline Pluta",
+   "photo": "https://image.tmdb.org/t/p/w185/3i3LW00TDyuKOq55ynUjV3YXoom.jpg",
+   "character": "Katie",
+   "episodes": 2
+  },
+  {
+   "id": 1183546,
+   "name": "Dan Bakkedahl",
+   "photo": "https://image.tmdb.org/t/p/w185/zHDMTZe3Xjvut57oTZixURBNDHi.jpg",
+   "character": "Larry Kriegman",
+   "episodes": 2
+  },
+  {
+   "id": 85143,
+   "name": "Angela Sarafyan",
+   "photo": "https://image.tmdb.org/t/p/w185/n23SKRSGUZL5sJz4MFkjnPxLgPl.jpg",
+   "character": "Toni / Toni Napier",
+   "episodes": 2
+  },
+  {
+   "id": 115858,
+   "name": "Cotter Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/dmz3uYC2XLMulmvQYzqGVaqLmRw.jpg",
+   "character": "Peter Cooper",
+   "episodes": 2
+  },
+  {
+   "id": 1261375,
+   "name": "Kyra Zagorsky",
+   "photo": "https://image.tmdb.org/t/p/w185/o5rrqfRe3CpNHYvilhJT1p82F0z.jpg",
+   "character": "Sonya Pesyakova",
+   "episodes": 1
+  },
+  {
+   "id": 4515863,
+   "name": "Orlando Cintron Jr.",
+   "photo": "https://image.tmdb.org/t/p/w185/dVUi4Whaxz0YZhe57mGph3hEKYZ.jpg",
+   "character": "Roberto 'Bobby' Pereira",
+   "episodes": 1
+  },
+  {
+   "id": 2318544,
+   "name": "George Deihl Jr.",
+   "photo": "https://image.tmdb.org/t/p/w185/tjQT4vKv8A7qJ5lKUOhO4mFtvVh.jpg",
+   "character": "Senator",
+   "episodes": 1
+  },
+  {
+   "id": 2596174,
+   "name": "Christian Gnecco Quintero",
+   "photo": "https://image.tmdb.org/t/p/w185/hFyAYVSo4imO5a5ZyCGfHzHgvm8.jpg",
+   "character": "Adrian Torres",
+   "episodes": 1
+  },
+  {
+   "id": 1990624,
+   "name": "Aaron Joshua",
+   "photo": "https://image.tmdb.org/t/p/w185/xIVKnIzFKoDys6HSSdBeseYlWRr.jpg",
+   "character": "Driver",
+   "episodes": 1
+  },
+  {
+   "id": 3839689,
+   "name": "Michael Dean Morgan",
+   "photo": "https://image.tmdb.org/t/p/w185/cZTr4g2QuSjy8mbgvAhEZZGTMtq.jpg",
+   "character": "Development Lead",
+   "episodes": 1
+  }
+ ],
+ "crew": [
+  {
+   "id": 117443,
+   "name": "Dick Wolf",
+   "photo": "https://image.tmdb.org/t/p/w185/tRMEuYNVFjXYJ7gh1sGJSxq9Vwq.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1171123,
+   "name": "Nicole Perlman",
+   "photo": "https://image.tmdb.org/t/p/w185/tOZzieyFkzBjQkfGXTEnK2qSCfS.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 2715377,
+   "name": "David Chasteen",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1228311,
+   "name": "David Hudgins",
+   "photo": null,
+   "jobs": [
+    "Creator"
+   ]
+  },
+  {
+   "id": 1182532,
+   "name": "Warren Leight",
+   "photo": null,
+   "jobs": [
+    "Creator"
+   ]
+  },
+  {
+   "id": 166437,
+   "name": "Ken Girotti",
+   "photo": "https://image.tmdb.org/t/p/w185/gzTr9lnkR5FLzM6ezQYlwoSG0Wv.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 3043095,
+   "name": "Paul Cabbad",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1218298,
+   "name": "Peter Jankowski",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1331656,
+   "name": "Mike Weiss",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 2579200,
+   "name": "Anastasia Puglisi",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 72268,
+   "name": "Atli Örvarsson",
+   "photo": "https://image.tmdb.org/t/p/w185/fmg2HsSMUWAR2QYhOTFtPdqumIw.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 25873,
+   "name": "Jon Cassar",
+   "photo": "https://image.tmdb.org/t/p/w185/1oB53V3PDrAlB5j0bQDLQi0OMsb.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1472874,
+   "name": "Céline C. Robinson",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1193073,
+   "name": "Ben Dubash",
+   "photo": "https://image.tmdb.org/t/p/w185/2dto6869q5TVRkx5ur2aHJJ8nbG.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1486893,
+   "name": "Alex Berger",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1722200,
+   "name": "Ludovic Littee",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:35:32.508Z"
+}

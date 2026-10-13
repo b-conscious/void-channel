@@ -1,0 +1,39 @@
+{
+ "show": "Hardy Bucks",
+ "slug": "hardy-bucks",
+ "tmdbId": 21493,
+ "cast": [
+  {
+   "id": 1190283,
+   "name": "Owen Colgan",
+   "photo": "https://image.tmdb.org/t/p/w185/tDqPOwlBZ3Fv84VqPBPu0thAyqT.jpg",
+   "character": "Buzz O’Donnell/Buzz McDonnell",
+   "episodes": 20
+  },
+  {
+   "id": 2708557,
+   "name": "Paul-Butler Lennox",
+   "photo": "https://image.tmdb.org/t/p/w185/lVOcPRCXL4q0okVJUzP3g2aZoX3.jpg",
+   "character": "Viper 2 (as Paul Lennox)",
+   "episodes": 2
+  },
+  {
+   "id": 6222847,
+   "name": "Tony Walsh",
+   "photo": null,
+   "character": "Bookie",
+   "episodes": 1
+  }
+ ],
+ "crew": [
+  {
+   "id": 1190281,
+   "name": "Chris Tordoff",
+   "photo": null,
+   "jobs": [
+    "Creator"
+   ]
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:36:57.142Z"
+}

@@ -1,0 +1,333 @@
+{
+ "show": "Criminal Minds",
+ "slug": "criminal-minds",
+ "tmdbId": 4057,
+ "cast": [
+  {
+   "id": 123727,
+   "name": "Kirsten Vangsness",
+   "photo": "https://image.tmdb.org/t/p/w185/davwWkIDqUoVF28YmSAqpvUUFuS.jpg",
+   "character": "Penelope Garcia",
+   "episodes": 364
+  },
+  {
+   "id": 17236,
+   "name": "A.J. Cook",
+   "photo": "https://image.tmdb.org/t/p/w185/tvEjGDQVuu7jiOvWXwEU6tEE7NW.jpg",
+   "character": "Jennifer Jareau",
+   "episodes": 344
+  },
+  {
+   "id": 5661,
+   "name": "Matthew Gray Gubler",
+   "photo": "https://image.tmdb.org/t/p/w185/whjyRyKogwP18w8meMdJD5UFfX8.jpg",
+   "character": "Dr. Spencer Reid",
+   "episodes": 325
+  },
+  {
+   "id": 3266,
+   "name": "Joe Mantegna",
+   "photo": "https://image.tmdb.org/t/p/w185/4jzvAE6B1eoiZDUnDUuMazirCPP.jpg",
+   "character": "David Rossi",
+   "episodes": 319
+  },
+  {
+   "id": 13638,
+   "name": "Thomas Gibson",
+   "photo": "https://image.tmdb.org/t/p/w185/cnTJvFNtQW3HqlBSwkXAgvjXDi2.jpg",
+   "character": "Aaron Hotchner",
+   "episodes": 257
+  },
+  {
+   "id": 50266,
+   "name": "Shemar Moore",
+   "photo": "https://image.tmdb.org/t/p/w185/epkv0UiwrPfCK3c0sHemSMi2jeh.jpg",
+   "character": "Derek Morgan",
+   "episodes": 257
+  },
+  {
+   "id": 15423,
+   "name": "Paget Brewster",
+   "photo": "https://image.tmdb.org/t/p/w185/nq9ZuGPvzyfS8dOuPWTQUw7Igxg.jpg",
+   "character": "Emily Prentiss",
+   "episodes": 251
+  },
+  {
+   "id": 38674,
+   "name": "Aisha Tyler",
+   "photo": "https://image.tmdb.org/t/p/w185/gVvqznx4udJMgO86IbufADinfE9.jpg",
+   "character": "Dr. Tara Lewis",
+   "episodes": 127
+  },
+  {
+   "id": 49706,
+   "name": "Adam Rodriguez",
+   "photo": "https://image.tmdb.org/t/p/w185/qFSbLvyNPZK40hY9gZXJDvq0qVK.jpg",
+   "character": "Luke Alvez",
+   "episodes": 109
+  },
+  {
+   "id": 82093,
+   "name": "Daniel Henney",
+   "photo": "https://image.tmdb.org/t/p/w185/elAolohpUG5nS99EZxHZjd44DsS.jpg",
+   "character": "Matt Simmons",
+   "episodes": 49
+  },
+  {
+   "id": 10478,
+   "name": "Jeanne Tripplehorn",
+   "photo": "https://image.tmdb.org/t/p/w185/q7D9MDnMVc5PAm99853gszHwJy7.jpg",
+   "character": "Alex Blake",
+   "episodes": 48
+  },
+  {
+   "id": 25503,
+   "name": "Mandy Patinkin",
+   "photo": "https://image.tmdb.org/t/p/w185/1PeZ6roZvkcoyZZbvoSIWTgGe3a.jpg",
+   "character": "Jason Gideon",
+   "episodes": 47
+  },
+  {
+   "id": 70303,
+   "name": "Zach Gilford",
+   "photo": "https://image.tmdb.org/t/p/w185/z7PA2poYtjl9KSy4S0IgW6d5Y9.jpg",
+   "character": "Elias Voit",
+   "episodes": 40
+  },
+  {
+   "id": 1437574,
+   "name": "Ryan-James Hatanaka",
+   "photo": "https://image.tmdb.org/t/p/w185/7yBbtb5zCJyWq7gWPDCZR3kmWMh.jpg",
+   "character": "Tyler Green",
+   "episodes": 37
+  },
+  {
+   "id": 34845,
+   "name": "Lola Glaudini",
+   "photo": "https://image.tmdb.org/t/p/w185/hBZNPbzNgyYfcUUBHUlEKAodzSU.jpg",
+   "character": "Elle Greenaway",
+   "episodes": 28
+  },
+  {
+   "id": 40039,
+   "name": "Josh Stewart",
+   "photo": "https://image.tmdb.org/t/p/w185/prgoT9fq5Z2ZCGmC1rrSZkq4wH9.jpg",
+   "character": "William LaMontagne Jr.",
+   "episodes": 28
+  },
+  {
+   "id": 50347,
+   "name": "Rachel Nichols",
+   "photo": "https://image.tmdb.org/t/p/w185/bMv117SLOJoseim6qvuHFc1gntZ.jpg",
+   "character": "Ashley Seaver",
+   "episodes": 24
+  },
+  {
+   "id": 18261,
+   "name": "Jayne Atkinson",
+   "photo": "https://image.tmdb.org/t/p/w185/9IOlElVs5FxWLdW6mnfToHaOxY7.jpg",
+   "character": "Erin Strauss",
+   "episodes": 24
+  },
+  {
+   "id": 1251492,
+   "name": "Nicole Pacent",
+   "photo": "https://image.tmdb.org/t/p/w185/qeey5o1UIg44De5BUCVzQG1z7MM.jpg",
+   "character": "Rebecca Wilson",
+   "episodes": 24
+  },
+  {
+   "id": 33259,
+   "name": "Jennifer Love Hewitt",
+   "photo": "https://image.tmdb.org/t/p/w185/kRySMLtckE7tl6136y0yzFYpUfE.jpg",
+   "character": "Kate Callahan",
+   "episodes": 23
+  },
+  {
+   "id": 53454,
+   "name": "Damon Gupton",
+   "photo": "https://image.tmdb.org/t/p/w185/cGLo2i8ghhq5wVkKDlAw3o4Pa36.jpg",
+   "character": "Stephen Walker",
+   "episodes": 22
+  },
+  {
+   "id": 1945643,
+   "name": "Cade Owens",
+   "photo": null,
+   "character": "Jack Hotchner",
+   "episodes": 22
+  },
+  {
+   "id": 1377027,
+   "name": "Mekhai Andersen",
+   "photo": "https://image.tmdb.org/t/p/w185/ozKbAB6GoVm4JeZXydJUjRZua1C.jpg",
+   "character": "Henry LaMontagne",
+   "episodes": 21
+  },
+  {
+   "id": 71675,
+   "name": "Nicholas Brendon",
+   "photo": "https://image.tmdb.org/t/p/w185/6O5sg97Fv07EzdWjpoq3lb8KnTM.jpg",
+   "character": "Kevin Lynch",
+   "episodes": 21
+  }
+ ],
+ "crew": [
+  {
+   "id": 1235310,
+   "name": "Jeff Davis",
+   "photo": "https://image.tmdb.org/t/p/w185/c3M3mdKxFM2uTKHSVapRhWs93kY.jpg",
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 6048,
+   "name": "Mark Gordon",
+   "photo": "https://image.tmdb.org/t/p/w185/lATsud5NyaXaKE5p8H1kEkUsbWN.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 364
+  },
+  {
+   "id": 1228592,
+   "name": "Erica Messer",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 363
+  },
+  {
+   "id": 1316300,
+   "name": "Glenn Kershaw",
+   "photo": "https://image.tmdb.org/t/p/w185/ojhyUXd1Z9ItQGdV0hOjqqftB26.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 341
+  },
+  {
+   "id": 1217555,
+   "name": "Edward Allen Bernero",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Story",
+    "Writer"
+   ],
+   "episodes": 186
+  },
+  {
+   "id": 1235322,
+   "name": "Rick Dunkle",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 66
+  },
+  {
+   "id": 1381990,
+   "name": "Kimberly A. Harrison",
+   "photo": "https://image.tmdb.org/t/p/w185/w3zngvnPQdoh4rZvwx9riNl5jnN.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 61
+  },
+  {
+   "id": 206820,
+   "name": "Oanh Ly",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 57
+  },
+  {
+   "id": 1225920,
+   "name": "Breen Frazier",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 43
+  },
+  {
+   "id": 1215978,
+   "name": "Bruce Zimmerman",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 77211,
+   "name": "Félix Alcalá",
+   "photo": "https://image.tmdb.org/t/p/w185/rlnSbY7tueXmlyjI8St7ee1PniI.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 1228470,
+   "name": "Virgil Williams",
+   "photo": "https://image.tmdb.org/t/p/w185/4Qo7BJiH0ORwNYdGSbLPXLniDIo.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 1768900,
+   "name": "Erik Stiller",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 1258079,
+   "name": "Chris Mundy",
+   "photo": "https://image.tmdb.org/t/p/w185/aEWK5Qo1U896iMsUMd2oY8yso1I.jpg",
+   "jobs": [
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 1217558,
+   "name": "Janine Sherman Barrois",
+   "photo": "https://image.tmdb.org/t/p/w185/jfpUs55GMBbOzVHfLeO58p2zCVZ.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 1296177,
+   "name": "Sharon Lee Watson",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 15
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:31:55.933Z"
+}

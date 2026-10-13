@@ -1,0 +1,323 @@
+{
+ "show": "Farscape",
+ "slug": "farscape",
+ "tmdbId": 4271,
+ "cast": [
+  {
+   "id": 26048,
+   "name": "Ben Browder",
+   "photo": "https://image.tmdb.org/t/p/w185/28gdcjphnh7zjpWxgWWVvv9XMA7.jpg",
+   "character": "John Crichton",
+   "episodes": 88
+  },
+  {
+   "id": 26054,
+   "name": "Claudia Black",
+   "photo": "https://image.tmdb.org/t/p/w185/eIYn2naiftYwPnclwcYgyWkEtuA.jpg",
+   "character": "Aeryn Sun",
+   "episodes": 88
+  },
+  {
+   "id": 26056,
+   "name": "Anthony Simcoe",
+   "photo": "https://image.tmdb.org/t/p/w185/pyG8RZe1QUPelzWr7v4Ka5nmrg7.jpg",
+   "character": "Ka D'Argo",
+   "episodes": 88
+  },
+  {
+   "id": 29480,
+   "name": "Lani John Tupu",
+   "photo": "https://image.tmdb.org/t/p/w185/qeYfpXFFTqbHTPiykB5UPpPmobj.jpg",
+   "character": "Captain Bialar Crais  / Pilot",
+   "episodes": 88
+  },
+  {
+   "id": 75428,
+   "name": "Jonathan Hardy",
+   "photo": "https://image.tmdb.org/t/p/w185/dX7MfaOB07DmQ7CE1bRRPb0nJOl.jpg",
+   "character": "Kahaynu / Dominar Rygel XVI (voice)",
+   "episodes": 88
+  },
+  {
+   "id": 26057,
+   "name": "Gigi Edgley",
+   "photo": "https://image.tmdb.org/t/p/w185/e6QLAnWyB1fYf8vtXTUQFET44iP.jpg",
+   "character": "Chiana",
+   "episodes": 74
+  },
+  {
+   "id": 82434,
+   "name": "Wayne Pygram",
+   "photo": "https://image.tmdb.org/t/p/w185/RwUJl5PyR5k7YavpXFI6Y2Tajs.jpg",
+   "character": "Scorpius",
+   "episodes": 61
+  },
+  {
+   "id": 26055,
+   "name": "Virginia Hey",
+   "photo": "https://image.tmdb.org/t/p/w185/ba2gJgPdzkFJJzJSHFh3IOTSPp5.jpg",
+   "character": "Pa'u Zotoh Zhaan",
+   "episodes": 50
+  },
+  {
+   "id": 9380,
+   "name": "Paul Goddard",
+   "photo": "https://image.tmdb.org/t/p/w185/z6XP6Xhkh5ZE88gBOz2FnVQaKuf.jpg",
+   "character": "Stark",
+   "episodes": 26
+  },
+  {
+   "id": 82437,
+   "name": "Melissa Jaffer",
+   "photo": "https://image.tmdb.org/t/p/w185/zgMt2nvvAZJqvckT49DSTcTqcQ9.jpg",
+   "character": "Nilaam / Female Pilot / Noranti",
+   "episodes": 25
+  },
+  {
+   "id": 123881,
+   "name": "Raelee Hill",
+   "photo": "https://image.tmdb.org/t/p/w185/f39HoiFQYMR4mep7BmM6XHeiBIa.jpg",
+   "character": "Sikozu",
+   "episodes": 22
+  },
+  {
+   "id": 26059,
+   "name": "David Franklin",
+   "photo": "https://image.tmdb.org/t/p/w185/4aVGstVBhHJMsfDkWEPsgdeqp9G.jpg",
+   "character": "Capt. Meeklo Braca / Lt. Meeklo Braca",
+   "episodes": 21
+  },
+  {
+   "id": 223903,
+   "name": "Tammy Macintosh",
+   "photo": "https://image.tmdb.org/t/p/w185/dKU6IZpKZMMMLQ8tAKF1PPLFmTd.jpg",
+   "character": "Joolushko Tunai Fenta Hovalis",
+   "episodes": 18
+  },
+  {
+   "id": 2176681,
+   "name": "Thomas Holesgrove",
+   "photo": null,
+   "character": "Moordil / Teurac / Wolesh",
+   "episodes": 14
+  },
+  {
+   "id": 1236198,
+   "name": "Rebecca Riggs",
+   "photo": "https://image.tmdb.org/t/p/w185/5gwYpv9YudqJOBSfaetSE9KAFjX.jpg",
+   "character": "Commandant Mele-On Grayza",
+   "episodes": 10
+  },
+  {
+   "id": 2062,
+   "name": "Kent McCord",
+   "photo": "https://image.tmdb.org/t/p/w185/12izGGcKLSWvsFenB3FVHJjwwP.jpg",
+   "character": "Jack Crichton",
+   "episodes": 10
+  },
+  {
+   "id": 82436,
+   "name": "Francesca Buller",
+   "photo": "https://image.tmdb.org/t/p/w185/4AJJLr158ZLrW26gj1F0UjV2Cwj.jpg",
+   "character": "Raxil / Minister Akhna / ro-NA",
+   "episodes": 8
+  },
+  {
+   "id": 26061,
+   "name": "Matthew Newton",
+   "photo": "https://image.tmdb.org/t/p/w185/pcQVfV1amj8lc6XBVZGUCzsNqQC.jpg",
+   "character": "Ka Jothee",
+   "episodes": 6
+  },
+  {
+   "id": 61635,
+   "name": "Linda Cropper",
+   "photo": "https://image.tmdb.org/t/p/w185/aFhmEmdVcOkXbUFhgntpgO3K7nC.jpg",
+   "character": "Fento / Xhalax Sun",
+   "episodes": 5
+  },
+  {
+   "id": 1236201,
+   "name": "John Adam",
+   "photo": "https://image.tmdb.org/t/p/w185/lirF8pvSetOppHet5b5tLBzU2c1.jpg",
+   "character": "Bekhesh / Raa'Keel / Alien",
+   "episodes": 5
+  },
+  {
+   "id": 81172,
+   "name": "Nicholas Hope",
+   "photo": "https://image.tmdb.org/t/p/w185/jwl6mahxUgnLvaCfmKiQLN9M2f6.jpg",
+   "character": "Akkor / Kreetago",
+   "episodes": 5
+  },
+  {
+   "id": 1222793,
+   "name": "Danny Adcock",
+   "photo": "https://image.tmdb.org/t/p/w185/1ktYdUvAWKhg1JN6kMwAj56rDjD.jpg",
+   "character": "Co-Kura Strappa / T'raltixx",
+   "episodes": 5
+  },
+  {
+   "id": 152483,
+   "name": "Nicholas McKay",
+   "photo": null,
+   "character": "Tak (voice) / Cargn (voice) / Naj Gil (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 1741694,
+   "name": "Aaron James Cash",
+   "photo": "https://image.tmdb.org/t/p/w185/gsLtvmDMXtPFDwJHZsCuvyTGLmT.jpg",
+   "character": "Dregon Carzenova / Pa'u Bitaal",
+   "episodes": 4
+  }
+ ],
+ "crew": [
+  {
+   "id": 63904,
+   "name": "Rockne S. O'Bannon",
+   "photo": "https://image.tmdb.org/t/p/w185/tDekvZ1VFranf4IleRO3h6odPBb.jpg",
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 69986,
+   "name": "Robert Halmi Jr.",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 88
+  },
+  {
+   "id": 152448,
+   "name": "Tony Tilse",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 61346,
+   "name": "Rowan Woods",
+   "photo": "https://image.tmdb.org/t/p/w185/vYuKgBUt0c8YfFk7M8WTmD7lZnh.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 79387,
+   "name": "Andrew Prowse",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 141689,
+   "name": "Ian Watson",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 152470,
+   "name": "David Kemper",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 152463,
+   "name": "Justin Monjo",
+   "photo": "https://image.tmdb.org/t/p/w185/1SSGGNkoh3yOoERZeUFqV5pEOyQ.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 26049,
+   "name": "Richard Manning",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 94878,
+   "name": "Peter Andrikidis",
+   "photo": "https://image.tmdb.org/t/p/w185/T79NW2uUhetAuhwLCblKsLth4j.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 35706,
+   "name": "Geoff Bennett",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1236194,
+   "name": "Grant McAloon",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1216937,
+   "name": "Carleton Eastlake",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1221012,
+   "name": "Catherine Millar",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1219620,
+   "name": "Pino Amenta",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1212902,
+   "name": "Sally Lapiduss",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:27.302Z"
+}

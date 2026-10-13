@@ -1,0 +1,325 @@
+{
+ "show": "Without a Trace",
+ "slug": "without-a-trace",
+ "tmdbId": 2593,
+ "cast": [
+  {
+   "id": 57829,
+   "name": "Anthony LaPaglia",
+   "photo": "https://image.tmdb.org/t/p/w185/31fRY01Dq2ebkx09FjuG5g3QW9G.jpg",
+   "character": "Jack Malone",
+   "episodes": 160
+  },
+  {
+   "id": 77028,
+   "name": "Poppy Montgomery",
+   "photo": "https://image.tmdb.org/t/p/w185/aLixKI9LRqYuyTuyAzpM0i869yv.jpg",
+   "character": "Samantha Spade",
+   "episodes": 160
+  },
+  {
+   "id": 17352,
+   "name": "Marianne Jean-Baptiste",
+   "photo": "https://image.tmdb.org/t/p/w185/bJ6p32cswcp0xvqiZC7S5tiwa2K.jpg",
+   "character": "Vivian Johnson",
+   "episodes": 160
+  },
+  {
+   "id": 12798,
+   "name": "Enrique Murciano",
+   "photo": "https://image.tmdb.org/t/p/w185/ih1JTD1kNb1ryGBaPrYO6oo1fgp.jpg",
+   "character": "Danny Taylor",
+   "episodes": 160
+  },
+  {
+   "id": 119520,
+   "name": "Eric Close",
+   "photo": "https://image.tmdb.org/t/p/w185/njJYXuTlmCgI3VVHBFqkqrhiey3.jpg",
+   "character": "Martin Fitzgerald",
+   "episodes": 160
+  },
+  {
+   "id": 41901,
+   "name": "Roselyn Sánchez",
+   "photo": "https://image.tmdb.org/t/p/w185/srU7Oi0P5F3IuEEk14gKZwzzMWu.jpg",
+   "character": "Elena Delgado",
+   "episodes": 90
+  },
+  {
+   "id": 96791,
+   "name": "Adriana DeMeo",
+   "photo": "https://image.tmdb.org/t/p/w185/o5FJyRQXffP536w2ecEVee14qYs.jpg",
+   "character": "Lucy",
+   "episodes": 31
+  },
+  {
+   "id": 120366,
+   "name": "Ty Miller",
+   "photo": "https://image.tmdb.org/t/p/w185/hwJ5ypuBGUIvtLGs5pe9giJC6vb.jpg",
+   "character": "Tech Agent",
+   "episodes": 21
+  },
+  {
+   "id": 171827,
+   "name": "Joshua Gomez",
+   "photo": "https://image.tmdb.org/t/p/w185/5dJQgb32xHN8KH0Pxolw5bxGjGW.jpg",
+   "character": "James Mackeroy",
+   "episodes": 18
+  },
+  {
+   "id": 2552261,
+   "name": "Eric Scott Gould",
+   "photo": "https://image.tmdb.org/t/p/w185/iAU9iBBGh8MKQpZ06UDfeHeGbhG.jpg",
+   "character": "Agent",
+   "episodes": 15
+  },
+  {
+   "id": 95746,
+   "name": "Adam Kaufman",
+   "photo": "https://image.tmdb.org/t/p/w185/bGHbKjIwKU2913irZbbZkT91EoL.jpg",
+   "character": "Brian Donovan",
+   "episodes": 13
+  },
+  {
+   "id": 120617,
+   "name": "Vanessa Marano",
+   "photo": "https://image.tmdb.org/t/p/w185/6GI7iGv5l5YcKFrv7CWiUIXeY5D.jpg",
+   "character": "Hanna Malone",
+   "episodes": 12
+  },
+  {
+   "id": 1161,
+   "name": "Mary Elizabeth Mastrantonio",
+   "photo": "https://image.tmdb.org/t/p/w185/vbZ1E557K5oj34xLHR5ErO8wPCi.jpg",
+   "character": "Anne Cassidy",
+   "episodes": 9
+  },
+  {
+   "id": 54722,
+   "name": "Laura Marano",
+   "photo": "https://image.tmdb.org/t/p/w185/fpW1Swq6BfAoAw88ZhKf1pssu30.jpg",
+   "character": "Kate Malone",
+   "episodes": 8
+  },
+  {
+   "id": 17200,
+   "name": "Bill Smitrovich",
+   "photo": "https://image.tmdb.org/t/p/w185/dtLvDK5Z4PHzRj8ngtGake8YDsU.jpg",
+   "character": "Alexander Olczyk",
+   "episodes": 8
+  },
+  {
+   "id": 2584809,
+   "name": "Isaiah Cazares",
+   "photo": null,
+   "character": "ERT Tech / Tech Agent / ERT",
+   "episodes": 8
+  },
+  {
+   "id": 198830,
+   "name": "John L. Curtis",
+   "photo": "https://image.tmdb.org/t/p/w185/uES82UwUexUkYpusqALTMvkkFXW.jpg",
+   "character": "ND Agent / Evidence Tech / ERT",
+   "episodes": 8
+  },
+  {
+   "id": 1174794,
+   "name": "Stephanie Venditto",
+   "photo": "https://image.tmdb.org/t/p/w185/ogFRMQdnsSV3qV50YasnDCGU6ha.jpg",
+   "character": "Lisa Harris",
+   "episodes": 7
+  },
+  {
+   "id": 140253,
+   "name": "Talia Balsam",
+   "photo": "https://image.tmdb.org/t/p/w185/qaElqZwNktWxhOxeF8Up0ibdBjc.jpg",
+   "character": "Maria Malone",
+   "episodes": 7
+  },
+  {
+   "id": 16217,
+   "name": "Lynn Whitfield",
+   "photo": "https://image.tmdb.org/t/p/w185/wXSwJplyOgANJKTRvOAsvqURbP0.jpg",
+   "character": "Paula Van Doren",
+   "episodes": 6
+  },
+  {
+   "id": 61555,
+   "name": "Haley Ramm",
+   "photo": "https://image.tmdb.org/t/p/w185/lDE684pJqM7LESfactPMfQPgc5J.jpg",
+   "character": "Jennifer Long",
+   "episodes": 6
+  },
+  {
+   "id": 2641,
+   "name": "Martin Landau",
+   "photo": "https://image.tmdb.org/t/p/w185/dznOAZPpAyXu7PfCz5obbJ2YzsJ.jpg",
+   "character": "Frank Malone",
+   "episodes": 5
+  },
+  {
+   "id": 2584812,
+   "name": "Stacy Kesten",
+   "photo": null,
+   "character": "ND Agent",
+   "episodes": 5
+  },
+  {
+   "id": 13657,
+   "name": "Jsu Garcia",
+   "photo": "https://image.tmdb.org/t/p/w185/fXbhpqgxV5a2mnZykuwxc6ecGyF.jpg",
+   "character": "Carlos Aguilar",
+   "episodes": 4
+  }
+ ],
+ "crew": [
+  {
+   "id": 198764,
+   "name": "Hank Steinberg",
+   "photo": "https://image.tmdb.org/t/p/w185/9ma2ZAcOD2q20VnapaTTRQJBV5v.jpg",
+   "jobs": [
+    "Creator",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 72635,
+   "name": "Peter Manning Robinson",
+   "photo": "https://image.tmdb.org/t/p/w185/7dSuVCxxu1oT6p4LQUNHoURDo1d.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 136
+  },
+  {
+   "id": 1237449,
+   "name": "Greg Walker",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 1216149,
+   "name": "Paul Holahan",
+   "photo": "https://image.tmdb.org/t/p/w185/m4mTVVxJWT4y0QEJjxzCtXrKSa9.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 1224179,
+   "name": "David Amann",
+   "photo": "https://image.tmdb.org/t/p/w185/AqSyYNJrEV4SaQhrIRelT3BAPi8.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 16187,
+   "name": "Jeannot Szwarc",
+   "photo": "https://image.tmdb.org/t/p/w185/cMRLZXHEDmeiUGsci5beLTUiSUs.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1214045,
+   "name": "Martha Mitchell",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 42171,
+   "name": "Jonathan Kaplan",
+   "photo": "https://image.tmdb.org/t/p/w185/zpaZ3UpWRt3HrnR1Mv8u9Mg54Pa.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1215764,
+   "name": "Diego Gutierrez",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 119520,
+   "name": "Eric Close",
+   "photo": "https://image.tmdb.org/t/p/w185/njJYXuTlmCgI3VVHBFqkqrhiey3.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 23881,
+   "name": "Timothy Busfield",
+   "photo": "https://image.tmdb.org/t/p/w185/r2VQ4Ar1WCISJoTqOOcO3HEgN4p.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 15337,
+   "name": "John Polson",
+   "photo": "https://image.tmdb.org/t/p/w185/rsjpQFAvQSo05HflPSCODCCbYFl.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1214368,
+   "name": "Randall Zisk",
+   "photo": "https://image.tmdb.org/t/p/w185/70VovaU7buN3vGFqdqzloCdUkBs.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 67632,
+   "name": "Peter Markle",
+   "photo": "https://image.tmdb.org/t/p/w185/66qMUgwB04vBiludG0Hi8yF35We.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 17352,
+   "name": "Marianne Jean-Baptiste",
+   "photo": "https://image.tmdb.org/t/p/w185/bJ6p32cswcp0xvqiZC7S5tiwa2K.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1219499,
+   "name": "Allison Abner",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:12.999Z"
+}

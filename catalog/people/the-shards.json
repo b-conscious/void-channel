@@ -1,0 +1,328 @@
+{
+ "show": "The Shards",
+ "slug": "the-shards",
+ "tmdbId": 298168,
+ "cast": [
+  {
+   "id": 2982416,
+   "name": "Igby Rigney",
+   "photo": "https://image.tmdb.org/t/p/w185/iWrTtze4lRQ3t6LQL7UzneguPTo.jpg",
+   "character": "Bret Easton Ellis",
+   "episodes": 9
+  },
+  {
+   "id": 1957145,
+   "name": "Kaia Gerber",
+   "photo": "https://image.tmdb.org/t/p/w185/mUM9LGM3mtf6TEJXDpPou3KJhNR.jpg",
+   "character": "Susan Reynolds",
+   "episodes": 9
+  },
+  {
+   "id": 4704845,
+   "name": "Homer Gere",
+   "photo": "https://image.tmdb.org/t/p/w185/gdJospJLrqaTtt9M8WuMSc8XnNp.jpg",
+   "character": "Robert Mallory",
+   "episodes": 9
+  },
+  {
+   "id": 5642946,
+   "name": "Hayes Warner",
+   "photo": "https://image.tmdb.org/t/p/w185/eXmaXyWCHe7ESdMHRNBilntvdxp.jpg",
+   "character": "Debbie Schaffer",
+   "episodes": 9
+  },
+  {
+   "id": 5622327,
+   "name": "Graham Campbell",
+   "photo": "https://image.tmdb.org/t/p/w185/km4WcqbKnh6kPZATLQ2D88uvMbx.jpg",
+   "character": "Thom Wright",
+   "episodes": 9
+  },
+  {
+   "id": 38940,
+   "name": "Evan Rachel Wood",
+   "photo": "https://image.tmdb.org/t/p/w185/oVp8ctWKjskREG5bPoMGL1NOGdt.jpg",
+   "character": "Liz Schaffer",
+   "episodes": 9
+  },
+  {
+   "id": 8210,
+   "name": "Wes Bentley",
+   "photo": "https://image.tmdb.org/t/p/w185/voD93lzFZrr9xfAggwFcPRBi84i.jpg",
+   "character": "Terry Schaffer",
+   "episodes": 9
+  },
+  {
+   "id": 1703848,
+   "name": "Jordan Roth",
+   "photo": "https://image.tmdb.org/t/p/w185/l1LlYgTtARNhYpqb5aC69iCqLmb.jpg",
+   "character": "Steven Reinhardt",
+   "episodes": 7
+  },
+  {
+   "id": 4532463,
+   "name": "Daniel Dale",
+   "photo": "https://image.tmdb.org/t/p/w185/tgPbv8FIV95IcgRGTc1m8uCSB1f.jpg",
+   "character": "Ryan Vaughn",
+   "episodes": 7
+  },
+  {
+   "id": 2113285,
+   "name": "Cortes Alexander",
+   "photo": "https://image.tmdb.org/t/p/w185/gPps4QmcDsxEBQNSDDsEdZEW05K.jpg",
+   "character": "Principal Croft",
+   "episodes": 5
+  },
+  {
+   "id": 2724514,
+   "name": "Owen Painter",
+   "photo": "https://image.tmdb.org/t/p/w185/7x7WhM8eNOK7SRmDuiO2Ld47jZn.jpg",
+   "character": "Matt Kellner",
+   "episodes": 5
+  },
+  {
+   "id": 3195084,
+   "name": "Ivy Wolk",
+   "photo": "https://image.tmdb.org/t/p/w185/33zDv0hoCj1BIcV8kXSNim7LX1r.jpg",
+   "character": "Rhonda",
+   "episodes": 5
+  },
+  {
+   "id": 1560344,
+   "name": "Gus Halper",
+   "photo": "https://image.tmdb.org/t/p/w185/50KfZII4TVqgYngoAjPgdxhwESP.jpg",
+   "character": "Bruce",
+   "episodes": 3
+  },
+  {
+   "id": 3625228,
+   "name": "Sam Evans",
+   "photo": "https://image.tmdb.org/t/p/w185/lTMfJx0htwB0Vb6LmQoEBswOjEH.jpg",
+   "character": "The Trawler #1",
+   "episodes": 3
+  },
+  {
+   "id": 1580200,
+   "name": "Fawn Irish",
+   "photo": null,
+   "character": "Hostess",
+   "episodes": 3
+  },
+  {
+   "id": 5831758,
+   "name": "Bella Valdes",
+   "photo": "https://image.tmdb.org/t/p/w185/tAyhOQFLEMJRkTYZdXeUZdjtQub.jpg",
+   "character": "Corazón 'Cha Cha' Rodriguez / Cha Cha Rodriguez",
+   "episodes": 3
+  },
+  {
+   "id": 1597992,
+   "name": "Chris Conner",
+   "photo": "https://image.tmdb.org/t/p/w185/avHYuRdOFL7WvyycIVXXtELw2L6.jpg",
+   "character": "Detective Fregosi",
+   "episodes": 3
+  },
+  {
+   "id": 1754194,
+   "name": "Constantine Malahias",
+   "photo": null,
+   "character": "Detective Donaldson",
+   "episodes": 3
+  },
+  {
+   "id": 6394361,
+   "name": "Ell C. Dellorso",
+   "photo": "https://image.tmdb.org/t/p/w185/yvSmtc6e3Vcm0ruOaoJ4poYiUHI.jpg",
+   "character": "The Trawler #2",
+   "episodes": 2
+  },
+  {
+   "id": 1607118,
+   "name": "Allen Rueckert",
+   "photo": "https://image.tmdb.org/t/p/w185/xxyvWChulQ14yASzZuik8jBGbRu.jpg",
+   "character": "Mr. Flanigan",
+   "episodes": 2
+  },
+  {
+   "id": 2172134,
+   "name": "Krystin Goodwin",
+   "photo": "https://image.tmdb.org/t/p/w185/tOgst4BvSOtinyHsTXOBm9ZTJCY.jpg",
+   "character": "Nightly News Anchor #2 / News Reporter",
+   "episodes": 2
+  },
+  {
+   "id": 159479,
+   "name": "Bradley Snedeker",
+   "photo": "https://image.tmdb.org/t/p/w185/pmwfj6HmBwZ2G7Vbql5PXOGvTJ9.jpg",
+   "character": "Ben Fox",
+   "episodes": 2
+  },
+  {
+   "id": 565500,
+   "name": "Alex Lombard",
+   "photo": "https://image.tmdb.org/t/p/w185/7rRd2byURAqE2QObL3wJyHYQbpL.jpg",
+   "character": "Claire Fox",
+   "episodes": 2
+  },
+  {
+   "id": 3236142,
+   "name": "Brigid Marshall",
+   "photo": null,
+   "character": "Lydia Pileggi",
+   "episodes": 2
+  }
+ ],
+ "crew": [
+  {
+   "id": 16379,
+   "name": "Bret Easton Ellis",
+   "photo": "https://image.tmdb.org/t/p/w185/aDN2rzD9ezgD2wSOK7l6oHXWeAq.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 52779,
+   "name": "Ryan Murphy",
+   "photo": "https://image.tmdb.org/t/p/w185/uPojf0hEIpud1huRC9NY7R55OSy.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1070156,
+   "name": "David Klotz",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 1223187,
+   "name": "Michael Uppendahl",
+   "photo": "https://image.tmdb.org/t/p/w185/eUPgJlBiib0JbNwXQ9OCwJcP3Y7.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 213614,
+   "name": "Max Winkler",
+   "photo": "https://image.tmdb.org/t/p/w185/m2muv3nWCJEGTFLGSiQKF22vG6a.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1988036,
+   "name": "Brian Young",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 5622323,
+   "name": "Kathleen McCaffrey",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 5622308,
+   "name": "Nick Hall",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1155667,
+   "name": "Scott Robertson",
+   "photo": "https://image.tmdb.org/t/p/w185/y1XxRpnphVRdRxmyRSOsla1l3Rc.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 2624774,
+   "name": "Tanase Popa",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 2320684,
+   "name": "Eric Kovtun",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 32608,
+   "name": "Brad Simpson",
+   "photo": "https://image.tmdb.org/t/p/w185/bk5NzfcqAKFRatLqBA9H57UPAlO.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 935634,
+   "name": "Nina Jacobson",
+   "photo": "https://image.tmdb.org/t/p/w185/sfgag0cl150pHNjnqCUoq81NnRs.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 4605446,
+   "name": "Nissa Diederich",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 167129,
+   "name": "Morgan Kibby",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 2455522,
+   "name": "Juli Weiner",
+   "photo": "https://image.tmdb.org/t/p/w185/wIlYuVgiXIqVdvYmuXRavU8j0QD.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:35:40.775Z"
+}

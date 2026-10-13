@@ -1,0 +1,234 @@
+{
+ "show": "Green Wing",
+ "slug": "green-wing",
+ "tmdbId": 1456,
+ "cast": [
+  {
+   "id": 60339,
+   "name": "Sally Bretton",
+   "photo": "https://image.tmdb.org/t/p/w185/kAj4gQSY6HycjDt0qMUbPvZBY3b.jpg",
+   "character": "Kim Alabaster",
+   "episodes": 18
+  },
+  {
+   "id": 31739,
+   "name": "Oliver Chris",
+   "photo": "https://image.tmdb.org/t/p/w185/xTnUMtP5MREaHD86XfJ5mYibawq.jpg",
+   "character": "Boyce",
+   "episodes": 18
+  },
+  {
+   "id": 39187,
+   "name": "Olivia Colman",
+   "photo": "https://image.tmdb.org/t/p/w185/lawJUdbLb1YW0niaYjiVGR9IBG8.jpg",
+   "character": "Harriet Schulenburg",
+   "episodes": 18
+  },
+  {
+   "id": 144250,
+   "name": "Michelle Gomez",
+   "photo": "https://image.tmdb.org/t/p/w185/jEkZsW1hviRjgGcWLwgdit7vONJ.jpg",
+   "character": "Sue White",
+   "episodes": 18
+  },
+  {
+   "id": 120931,
+   "name": "Tamsin Greig",
+   "photo": "https://image.tmdb.org/t/p/w185/qU1ccKUdy9Qlc9OJ0y1spPMQWx7.jpg",
+   "character": "Caroline Todd",
+   "episodes": 18
+  },
+  {
+   "id": 195274,
+   "name": "Pippa Haywood",
+   "photo": "https://image.tmdb.org/t/p/w185/7mWc8C0kJylpBWK2P31XjbuwsGp.jpg",
+   "character": "Joanna Clore",
+   "episodes": 18
+  },
+  {
+   "id": 47712,
+   "name": "Mark Heap",
+   "photo": "https://image.tmdb.org/t/p/w185/kHqwlCSxN0MQY3BxayIL1U55uxS.jpg",
+   "character": "Alan Statham",
+   "episodes": 18
+  },
+  {
+   "id": 77266,
+   "name": "Katie Lyons",
+   "photo": "https://image.tmdb.org/t/p/w185/vK8JWWUFUHfc6OzUx6vDxec7nUo.jpg",
+   "character": "Naughty Rachel",
+   "episodes": 18
+  },
+  {
+   "id": 21345,
+   "name": "Stephen Mangan",
+   "photo": "https://image.tmdb.org/t/p/w185/3UAv9LX4ueIsVHWEWEXjMQ3fpPC.jpg",
+   "character": "Guy Secretan",
+   "episodes": 18
+  },
+  {
+   "id": 1337754,
+   "name": "Lucinda Raikes",
+   "photo": "https://image.tmdb.org/t/p/w185/5YgcWUFoIH2c3MoAFHDRCPbzvax.jpg",
+   "character": "Karen Ball",
+   "episodes": 18
+  },
+  {
+   "id": 7031,
+   "name": "Julian Rhind-Tutt",
+   "photo": "https://image.tmdb.org/t/p/w185/jvwtFc8XFpTb7NX1XRJX8TOfH5.jpg",
+   "character": "Mac",
+   "episodes": 18
+  },
+  {
+   "id": 1224723,
+   "name": "Karl Theobald",
+   "photo": "https://image.tmdb.org/t/p/w185/wOOSjkgOnV2T7mfFVNgxMfa5XD3.jpg",
+   "character": "Martin Dear",
+   "episodes": 18
+  },
+  {
+   "id": 1284323,
+   "name": "Kevin Hudson",
+   "photo": null,
+   "character": "Doctor",
+   "episodes": 14
+  },
+  {
+   "id": 84035,
+   "name": "Sarah Alexander",
+   "photo": "https://image.tmdb.org/t/p/w185/rI8gecsrrcXjHWELn6miC0twB7k.jpg",
+   "character": "Angela Hunter",
+   "episodes": 12
+  },
+  {
+   "id": 19868,
+   "name": "Paterson Joseph",
+   "photo": "https://image.tmdb.org/t/p/w185/7CIVAl4HiuWrmp4r8Jk09sqxTBy.jpg",
+   "character": "Lyndon",
+   "episodes": 9
+  },
+  {
+   "id": 1487960,
+   "name": "Keir Charles",
+   "photo": "https://image.tmdb.org/t/p/w185/d7sPAbIJz1gBXwm6mUQ8hiuEFFy.jpg",
+   "character": "Oliver",
+   "episodes": 8
+  },
+  {
+   "id": 17123,
+   "name": "Darren Boyd",
+   "photo": "https://image.tmdb.org/t/p/w185/cHDIKSsqCvu7PTBcfdxAKN99dQz.jpg",
+   "character": "Jake",
+   "episodes": 5
+  },
+  {
+   "id": 9144,
+   "name": "Sally Phillips",
+   "photo": "https://image.tmdb.org/t/p/w185/xLEMZhksdCEO8HUhQLNetkETLdr.jpg",
+   "character": "Holly Hawkes",
+   "episodes": 4
+  },
+  {
+   "id": 95023,
+   "name": "Oliver Milburn",
+   "photo": "https://image.tmdb.org/t/p/w185/6XPgOpxZHvWTBZzhjAXETom7ycJ.jpg",
+   "character": "Liam",
+   "episodes": 4
+  },
+  {
+   "id": 209458,
+   "name": "Daisy Haggard",
+   "photo": "https://image.tmdb.org/t/p/w185/10T4bAeX8AkjNFchad2mOPtAyuV.jpg",
+   "character": "Emmy",
+   "episodes": 4
+  },
+  {
+   "id": 1224721,
+   "name": "Robert Harley",
+   "photo": null,
+   "character": "C.E.O.",
+   "episodes": 4
+  },
+  {
+   "id": 1648860,
+   "name": "Fay Rusling",
+   "photo": null,
+   "character": "Nurse",
+   "episodes": 3
+  },
+  {
+   "id": 4930244,
+   "name": "Robin Savage",
+   "photo": null,
+   "character": "Student",
+   "episodes": 3
+  },
+  {
+   "id": 1223152,
+   "name": "Oriane Messina",
+   "photo": null,
+   "character": "Prostitute / Nurse / Lodger",
+   "episodes": 3
+  }
+ ],
+ "crew": [
+  {
+   "id": 1224720,
+   "name": "Victoria Pile",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Director",
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 57202,
+   "name": "Peter Fincham",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 1220517,
+   "name": "Tristram Shapeero",
+   "photo": "https://image.tmdb.org/t/p/w185/huxFruiIXWaIx4s6R7dduGIWO28.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 78176,
+   "name": "Dominic Brigstocke",
+   "photo": "https://image.tmdb.org/t/p/w185/15PVtHTavIAvAibjNdYc8g6kcwR.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 1224719,
+   "name": "Gary Howe",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1224721,
+   "name": "Robert Harley",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:36:40.719Z"
+}

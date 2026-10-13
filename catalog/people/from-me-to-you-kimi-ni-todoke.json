@@ -1,0 +1,323 @@
+{
+ "show": "From Me to You: Kimi ni Todoke",
+ "slug": "from-me-to-you-kimi-ni-todoke",
+ "tmdbId": 68854,
+ "cast": [
+  {
+   "id": 89903,
+   "name": "Mamiko Noto",
+   "photo": "https://image.tmdb.org/t/p/w185/wCSD7Umgzc66p8VGXrrMZtSLSuS.jpg",
+   "character": "Sawako Kuronuma (voice)",
+   "episodes": 42
+  },
+  {
+   "id": 110665,
+   "name": "Daisuke Namikawa",
+   "photo": "https://image.tmdb.org/t/p/w185/iw0X8oDutxaBAri3Ifga8nhdUJK.jpg",
+   "character": "Shota Kazehaya (voice)",
+   "episodes": 42
+  },
+  {
+   "id": 186341,
+   "name": "Miyuki Sawashiro",
+   "photo": "https://image.tmdb.org/t/p/w185/11mGqwpmu8CoEy1YJgabj2g7MIv.jpg",
+   "character": "Ayane Yano (voice)",
+   "episodes": 42
+  },
+  {
+   "id": 1201637,
+   "name": "Yuko Sanpei",
+   "photo": "https://image.tmdb.org/t/p/w185/gms4G7ZRIQYXI9zsorkQr8aHnOU.jpg",
+   "character": "Chizuru 'Chizu' Yoshida (voice)",
+   "episodes": 42
+  },
+  {
+   "id": 1154451,
+   "name": "Miho Miyagawa",
+   "photo": "https://image.tmdb.org/t/p/w185/leC9TNfgmz5qn5mdNlkLvg4hyPs.jpg",
+   "character": "Toru Sanada as a Child (voice) / Minako Kojima (voice) / Yui (voice)",
+   "episodes": 37
+  },
+  {
+   "id": 1253563,
+   "name": "Masahiro Yamanaka",
+   "photo": "https://image.tmdb.org/t/p/w185/zTZ9dQS3SlTuHvYFzCbsLLMZPvC.jpg",
+   "character": "Soichi 'Joe' Jonouchi (voice)",
+   "episodes": 36
+  },
+  {
+   "id": 1221114,
+   "name": "Yuichi Nakamura",
+   "photo": "https://image.tmdb.org/t/p/w185/wb8behVKjBHX9XXrEydvNINCYwH.jpg",
+   "character": "Ryu Sanada (voice)",
+   "episodes": 35
+  },
+  {
+   "id": 1206317,
+   "name": "Yuki Ono",
+   "photo": "https://image.tmdb.org/t/p/w185/oEx13CbNLsHzURdYafkFJYXDjfm.jpg",
+   "character": "Kazuichi 'Pin' Arai (voice)",
+   "episodes": 33
+  },
+  {
+   "id": 2237357,
+   "name": "Takahiko Sakaguma",
+   "photo": "https://image.tmdb.org/t/p/w185/if8fX3OUfVfBqdvugv4QnCeRC4u.jpg",
+   "character": "Tomoki Oikawa (voice) / Toshio Nakanishi (voice) / Keiichi Yoshino (voice)",
+   "episodes": 26
+  },
+  {
+   "id": 1252728,
+   "name": "Nobuaki Kanemitsu",
+   "photo": "https://image.tmdb.org/t/p/w185/wf7IW1avxFoY1zecsN5dvI1EdZX.jpg",
+   "character": "Keisuke 'Andy' Ando (voice) / Takayuki Tanaka (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1254054,
+   "name": "Mayuki Makiguchi",
+   "photo": "https://image.tmdb.org/t/p/w185/u9ankcyRGXNRqBxijqp5CbXyUOu.jpg",
+   "character": "Megumi (voice) / Ai (voice) / Eriko 'Ekko' Hirano (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 144650,
+   "name": "Aya Hirano",
+   "photo": "https://image.tmdb.org/t/p/w185/AvbCkdSXoKgrQAyG08b4WdGKoX5.jpg",
+   "character": "Ume 'Kurumi' Kurumizawa (voice)",
+   "episodes": 22
+  },
+  {
+   "id": 1247848,
+   "name": "Chiaki Yurin",
+   "photo": "https://image.tmdb.org/t/p/w185/7oQWxjzRUURO27PUtC4JUg9Blr9.jpg",
+   "character": "Chigusa Takahashi (voice) / Hitomi (voice)",
+   "episodes": 18
+  },
+  {
+   "id": 1256302,
+   "name": "Sakurako Kishiro",
+   "photo": "https://image.tmdb.org/t/p/w185/qfNmkjkQgBj87pjR51hbSsz9kdN.jpg",
+   "character": "Yoko Kuronuma (voice)",
+   "episodes": 17
+  },
+  {
+   "id": 216330,
+   "name": "Takashi Matsuyama",
+   "photo": "https://image.tmdb.org/t/p/w185/fBufEEFKgnEirPWJoGOpnJsZUjn.jpg",
+   "character": "Drunk Guy (voice) / Kitao Kuronuma (voice)",
+   "episodes": 16
+  },
+  {
+   "id": 93803,
+   "name": "Mamoru Miyano",
+   "photo": "https://image.tmdb.org/t/p/w185/nuok8ueG7k9hPZ09Tpr8e7Qn0ah.jpg",
+   "character": "Kento Miura (voice)",
+   "episodes": 15
+  },
+  {
+   "id": 1525704,
+   "name": "Yukitoshi Tokumoto",
+   "photo": "https://image.tmdb.org/t/p/w185/bkJFggd0wZgdCbidu3Zso3na1b8.jpg",
+   "character": "Masanori Hamasaki (voice)",
+   "episodes": 15
+  },
+  {
+   "id": 1242017,
+   "name": "Takuma Suzuki",
+   "photo": "https://image.tmdb.org/t/p/w185/dLan4nX3jX8pAWiOgfhyJNjFKnr.jpg",
+   "character": "Kenta Hasegawa (voice) / Yoshiyuki 'Zen' Arai (voice) / Queer Guy (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 2155048,
+   "name": "Haruka Nagashima",
+   "photo": "https://image.tmdb.org/t/p/w185/afk5zlglSRy1rFwNbiCtazpuHGe.jpg",
+   "character": "Yuko (voice) / Yume (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 1250474,
+   "name": "Fumi Morisawa",
+   "photo": "https://image.tmdb.org/t/p/w185/cL4ZALhDvvy2qw7sPxpu9cKSoAZ.jpg",
+   "character": "Yoko Chiba (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 2413553,
+   "name": "Nozomi Sasaki",
+   "photo": "https://image.tmdb.org/t/p/w185/2j7G3fQC9WkYRUi8q4y22Im4uii.jpg",
+   "character": "Ayako Nonohara (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 1339168,
+   "name": "Yasuaki Takumi",
+   "photo": "https://image.tmdb.org/t/p/w185/u78lWnNzyUYboLw4bvEDh9CqyJO.jpg",
+   "character": "Tomokazu Tsuruoka (voice) / Shin Mikami (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 224462,
+   "name": "Naoya Uchida",
+   "photo": "https://image.tmdb.org/t/p/w185/i1Vl4QbiEsyATmX2HSH2rIEyzeS.jpg",
+   "character": "Genji Sanada (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 221772,
+   "name": "Wataru Hatano",
+   "photo": "https://image.tmdb.org/t/p/w185/i1meHlOXLP2ubJZkmyGJONrxikQ.jpg",
+   "character": "Aono (voice) / Toru Sanada (voice)",
+   "episodes": 6
+  }
+ ],
+ "crew": [
+  {
+   "id": 117616,
+   "name": "Tomoko Konparu",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 77
+  },
+  {
+   "id": 1789720,
+   "name": "Hiro Kaburagi",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 42
+  },
+  {
+   "id": 1591601,
+   "name": "Norihiro Naganuma",
+   "photo": "https://image.tmdb.org/t/p/w185/4WqUiE3yvKelQD2cWyhRtG5WJFk.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 42
+  },
+  {
+   "id": 2508173,
+   "name": "Yukari Katsuki",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 42
+  },
+  {
+   "id": 1746349,
+   "name": "Akihiko Fukaura",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 42
+  },
+  {
+   "id": 1572956,
+   "name": "Kenichi Matsuzawa",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1711389,
+   "name": "Shinpei Ezaki",
+   "photo": "https://image.tmdb.org/t/p/w185/3O8GZGBNayhCL0j9XMm68NZIJol.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 2524155,
+   "name": "Gorō Itō",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1579837,
+   "name": "Mamiko Ikeda",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1236312,
+   "name": "Yuichiro Yano",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 2237333,
+   "name": "Taku Yonebayashi",
+   "photo": "https://image.tmdb.org/t/p/w185/5STpnGNAN6EGGP8z2tHARYWwAgX.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1842750,
+   "name": "Kotomi Deai",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 2933194,
+   "name": "Kazuma Ogasawara",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1684663,
+   "name": "Yoshiyuki Fujiwara",
+   "photo": "https://image.tmdb.org/t/p/w185/bN49Act3FHihc5rRsSTXck1l2kc.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1778882,
+   "name": "Minoru Ueta",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 2237291,
+   "name": "Kouichirou Sohtome",
+   "photo": "https://image.tmdb.org/t/p/w185/zphLrIRKO0Rpd7c1h6jiXdKqweG.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:39:37.493Z"
+}

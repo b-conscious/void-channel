@@ -1,0 +1,328 @@
+{
+ "show": "Euphoria",
+ "slug": "euphoria",
+ "tmdbId": 85552,
+ "cast": [
+  {
+   "id": 505710,
+   "name": "Zendaya",
+   "photo": "https://image.tmdb.org/t/p/w185/qGkBlyn1AwQpuFnRARMRwj0iHZp.jpg",
+   "character": "Rue Bennett",
+   "episodes": 24
+  },
+  {
+   "id": 2340180,
+   "name": "Hunter Schafer",
+   "photo": "https://image.tmdb.org/t/p/w185/bYLRZOkrOvFBu2G6OTNNWRU4rfF.jpg",
+   "character": "Jules Vaughn",
+   "episodes": 24
+  },
+  {
+   "id": 115440,
+   "name": "Sydney Sweeney",
+   "photo": "https://image.tmdb.org/t/p/w185/qYiaSl0Eb7G3VaxOg8PxExCFwon.jpg",
+   "character": "Cassie Howard",
+   "episodes": 24
+  },
+  {
+   "id": 2034418,
+   "name": "Jacob Elordi",
+   "photo": "https://image.tmdb.org/t/p/w185/qZNRPWCP2c5d0YaYLTzHXU9Rdoe.jpg",
+   "character": "Nate Jacobs",
+   "episodes": 24
+  },
+  {
+   "id": 1497557,
+   "name": "Alexa Demie",
+   "photo": "https://image.tmdb.org/t/p/w185/onU85U3QTP00gHZL9bA8aTclra7.jpg",
+   "character": "Maddy Perez",
+   "episodes": 24
+  },
+  {
+   "id": 41090,
+   "name": "Maude Apatow",
+   "photo": "https://image.tmdb.org/t/p/w185/kqedF6onNdcphyo1UBRmm5G3m1C.jpg",
+   "character": "Lexi Howard",
+   "episodes": 24
+  },
+  {
+   "id": 2352372,
+   "name": "Angus Cloud",
+   "photo": "https://image.tmdb.org/t/p/w185/cN3n9UBBtRASNLSibS8WUZD1d1A.jpg",
+   "character": "Fezco O'Neill",
+   "episodes": 16
+  },
+  {
+   "id": 2340185,
+   "name": "Barbie Ferreira",
+   "photo": "https://image.tmdb.org/t/p/w185/kl59GoAbazPffmmZtSLZmUQCK6S.jpg",
+   "character": "Kat Hernandez",
+   "episodes": 16
+  },
+  {
+   "id": 98415,
+   "name": "Nika King",
+   "photo": "https://image.tmdb.org/t/p/w185/fB3Z5aQoD3IqahalFS1v5oP2tvA.jpg",
+   "character": "Leslie Bennett",
+   "episodes": 16
+  },
+  {
+   "id": 2532098,
+   "name": "Javon Walton",
+   "photo": "https://image.tmdb.org/t/p/w185/zvyX5X4Krtd8oSci6gNGJLrxWu5.jpg",
+   "character": "Ashtray",
+   "episodes": 15
+  },
+  {
+   "id": 58115,
+   "name": "Eric Dane",
+   "photo": "https://image.tmdb.org/t/p/w185/4PsLKBKN4e0zRT2oS4BjE8Xu1un.jpg",
+   "character": "Cal Jacobs",
+   "episodes": 15
+  },
+  {
+   "id": 1585678,
+   "name": "Chloe Cherry",
+   "photo": "https://image.tmdb.org/t/p/w185/czDZr2NO24E6aGGeb7PnLhJRiQR.jpg",
+   "character": "Faye Valentine",
+   "episodes": 15
+  },
+  {
+   "id": 148992,
+   "name": "Austin Abrams",
+   "photo": "https://image.tmdb.org/t/p/w185/nvbJNwyhIICUFcS4lhxj9mGvL5z.jpg",
+   "character": "Ethan Lewis",
+   "episodes": 14
+  },
+  {
+   "id": 1344344,
+   "name": "Storm Reid",
+   "photo": "https://image.tmdb.org/t/p/w185/c5ld0nVHZ2dv25Jhn5DpXwTlXyH.jpg",
+   "character": "Gia Bennett",
+   "episodes": 13
+  },
+  {
+   "id": 10402,
+   "name": "Alanna Ubach",
+   "photo": "https://image.tmdb.org/t/p/w185/ffyBAEoW3bDgVJQV3GaHsZ9x29W.jpg",
+   "character": "Suze Howard",
+   "episodes": 13
+  },
+  {
+   "id": 1572541,
+   "name": "Martha Kelly",
+   "photo": "https://image.tmdb.org/t/p/w185/ac7HoARDIHdYNqpzgJBzpmKHXHR.jpg",
+   "character": "Laurie",
+   "episodes": 11
+  },
+  {
+   "id": 3386005,
+   "name": "Sophia Rose Wilson",
+   "photo": "https://image.tmdb.org/t/p/w185/4ykcCZDOhFPnExDGsqCRwRCoOSv.jpg",
+   "character": "BB",
+   "episodes": 10
+  },
+  {
+   "id": 91671,
+   "name": "Colman Domingo",
+   "photo": "https://image.tmdb.org/t/p/w185/t0cgfvtA7Thxnrtj5baRi656zlc.jpg",
+   "character": "Ali",
+   "episodes": 10
+  },
+  {
+   "id": 1377458,
+   "name": "Algee Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/8lSjFECJflwHJJGt5e7CqyItXW2.jpg",
+   "character": "Christopher McKay",
+   "episodes": 9
+  },
+  {
+   "id": 59449,
+   "name": "Paula Marshall",
+   "photo": "https://image.tmdb.org/t/p/w185/7jujYCDltWVQAGv4L6eHDs5wfxq.jpg",
+   "character": "Marsha Jacobs",
+   "episodes": 9
+  },
+  {
+   "id": 2711299,
+   "name": "Dominic Fike",
+   "photo": "https://image.tmdb.org/t/p/w185/vtuRZff8c3QNKiShMo25z5M5guD.jpg",
+   "character": "Elliot",
+   "episodes": 8
+  },
+  {
+   "id": 31164,
+   "name": "Adewale Akinnuoye-Agbaje",
+   "photo": "https://image.tmdb.org/t/p/w185/zdtwVtVmmm7VzYfu8xH7mbuTvrH.jpg",
+   "character": "Alamo Brown",
+   "episodes": 8
+  },
+  {
+   "id": 110419,
+   "name": "Toby Wallace",
+   "photo": "https://image.tmdb.org/t/p/w185/asGIAIa5T7pH4KEgwEXYF52MsWf.jpg",
+   "character": "Wayne",
+   "episodes": 8
+  },
+  {
+   "id": 64343,
+   "name": "John Ales",
+   "photo": "https://image.tmdb.org/t/p/w185/rASQsyvYk1VD8hvo2Pi1Tq3Wwlm.jpg",
+   "character": "David Vaughn",
+   "episodes": 8
+  }
+ ],
+ "crew": [
+  {
+   "id": 96172,
+   "name": "Sam Levinson",
+   "photo": "https://image.tmdb.org/t/p/w185/A6g7dJPNc4yOVQdt3piOFD0Ys54.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1159281,
+   "name": "Ron Leshem",
+   "photo": "https://image.tmdb.org/t/p/w185/cL0CQtePOtoZ0GvoA2NtbLeThEY.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 1809843,
+   "name": "Daphna Levin",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 1241902,
+   "name": "Tmira Yardeni",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 2058384,
+   "name": "Hadas Mozes Lichtenstein",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 197315,
+   "name": "Drake",
+   "photo": "https://image.tmdb.org/t/p/w185/tE0ZkWBP2rLj8u0NJqmMi1h1kb1.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 2881731,
+   "name": "Yoram Mokady",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 2438759,
+   "name": "Adel 'Future' Nur",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 74534,
+   "name": "Kevin Turen",
+   "photo": "https://image.tmdb.org/t/p/w185/fiueO9T2ftAmQCWwEhrIVS7Vyvr.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1590721,
+   "name": "Ravi Nandan",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1961251,
+   "name": "Mirit Toovi",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 83021,
+   "name": "Gary Lennon",
+   "photo": "https://image.tmdb.org/t/p/w185/4MbMlL5ZhBSKK6el0F0QmopKb2R.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1619915,
+   "name": "Will Greenfield",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 2484106,
+   "name": "Ashley Levinson",
+   "photo": "https://image.tmdb.org/t/p/w185/cjzXDRd6Rw1jsLlP61ls2BlChZc.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 2474721,
+   "name": "Labrinth",
+   "photo": "https://image.tmdb.org/t/p/w185/3Plw22e1gmquYq3ssEzCCrJX85Z.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 1085294,
+   "name": "Sara E. White",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 10
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:51.525Z"
+}

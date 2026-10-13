@@ -1,0 +1,198 @@
+{
+ "show": "SKAM",
+ "slug": "skam",
+ "tmdbId": 65320,
+ "cast": [
+  {
+   "id": 1565238,
+   "name": "Josefine Frida Pettersen",
+   "photo": "https://image.tmdb.org/t/p/w185/nOmMeYHtXU348cGqc12RmqPfXPH.jpg",
+   "character": "Noora Amalie Sætre",
+   "episodes": 41
+  },
+  {
+   "id": 1565239,
+   "name": "Iman Meskini",
+   "photo": "https://image.tmdb.org/t/p/w185/jKDg3gb5Hfs0GHOfQRBgZ6uZg5G.jpg",
+   "character": "Sana Bakkoush",
+   "episodes": 41
+  },
+  {
+   "id": 1565236,
+   "name": "Ulrikke Falch",
+   "photo": "https://image.tmdb.org/t/p/w185/up7Xf8Qc7boKpRxiyYF6neqjCY5.jpg",
+   "character": "Vilde Hellerud Lien",
+   "episodes": 38
+  },
+  {
+   "id": 1565231,
+   "name": "Lisa Teige",
+   "photo": "https://image.tmdb.org/t/p/w185/86DxGXOB96icYRL0rSzDEUG2e8m.jpg",
+   "character": "Eva Kviig Mohn",
+   "episodes": 37
+  },
+  {
+   "id": 1565237,
+   "name": "Ina Svenningdal",
+   "photo": "https://image.tmdb.org/t/p/w185/dk9Y94KH91Qt4uaryRmcoELMbL9.jpg",
+   "character": "Christina \"Chris\" Berg",
+   "episodes": 37
+  },
+  {
+   "id": 1565234,
+   "name": "Tarjei Sandvik Moe",
+   "photo": "https://image.tmdb.org/t/p/w185/AlpWAN3SILBBBU2XobE9vhMN6K.jpg",
+   "character": "Isak Valtersen",
+   "episodes": 36
+  },
+  {
+   "id": 1565233,
+   "name": "Marlon Langeland",
+   "photo": "https://image.tmdb.org/t/p/w185/8fpD6EgWb7SMW7ETupaK2JilZyb.jpg",
+   "character": "Jonas Noah Vasquez",
+   "episodes": 32
+  },
+  {
+   "id": 1728578,
+   "name": "David Alexander Sjøholt",
+   "photo": "https://image.tmdb.org/t/p/w185/fRXYuDrmFT4x792MeoebK3E9A3A.jpg",
+   "character": "Magnus Fossbaken",
+   "episodes": 23
+  },
+  {
+   "id": 1565240,
+   "name": "Herman Tømmeraas",
+   "photo": "https://image.tmdb.org/t/p/w185/aeDmHIqcSbhErPaC676X1VY9Kwk.jpg",
+   "character": "Christoffer Schistad",
+   "episodes": 23
+  },
+  {
+   "id": 1565241,
+   "name": "Thomas Hayes",
+   "photo": "https://image.tmdb.org/t/p/w185/uenbCuYIBmaGtGoTOUhBMk5WEal.jpg",
+   "character": "William Magnusson",
+   "episodes": 22
+  },
+  {
+   "id": 1593915,
+   "name": "Carl Martin Eggesbø",
+   "photo": "https://image.tmdb.org/t/p/w185/frluTDDHvFfXFdGed5hYjSjmvUJ.jpg",
+   "character": "Eskild Tryggvason",
+   "episodes": 22
+  },
+  {
+   "id": 1444597,
+   "name": "Henrik Holm",
+   "photo": "https://image.tmdb.org/t/p/w185/8YLsiugksip21pAvvxJzCtqdury.jpg",
+   "character": "Even Bech Næsheim",
+   "episodes": 20
+  },
+  {
+   "id": 1565244,
+   "name": "Cecilie Martinsen",
+   "photo": "https://image.tmdb.org/t/p/w185/4kP77uPcDotgHMjm99qyIcIFLce.jpg",
+   "character": "Ingrid Theis Gaupseth",
+   "episodes": 20
+  },
+  {
+   "id": 1565242,
+   "name": "Kristina Ødegaard",
+   "photo": "https://image.tmdb.org/t/p/w185/t5UDLzzqM1DYkOirls8wWHsTlk6.jpg",
+   "character": "Sara Nørrstelien",
+   "episodes": 19
+  },
+  {
+   "id": 1728577,
+   "name": "Sacha Kléber Nyiligira",
+   "photo": "https://image.tmdb.org/t/p/w185/r4fiQCqi7RmgwZK2n5wW7NiUuoI.jpg",
+   "character": "Mahdi Disi",
+   "episodes": 15
+  },
+  {
+   "id": 3617073,
+   "name": "Rakel Øfsti Nesjie",
+   "photo": null,
+   "character": "Linn Larsen Hansen",
+   "episodes": 14
+  },
+  {
+   "id": 1806236,
+   "name": "Cengiz Al",
+   "photo": "https://image.tmdb.org/t/p/w185/tIBJBpjNjL9RVmtqEAprcTBWaCR.jpg",
+   "character": "Yousef Acar",
+   "episodes": 10
+  },
+  {
+   "id": 1806237,
+   "name": "Simo Mohamed Elhbabi",
+   "photo": "https://image.tmdb.org/t/p/w185/4bgBuGAZGKIquf7SZRCA88FYOuK.jpg",
+   "character": "Elias Bakkoush",
+   "episodes": 10
+  },
+  {
+   "id": 5648257,
+   "name": "El Hadj Kamera",
+   "photo": null,
+   "character": "Figurant",
+   "episodes": 10
+  },
+  {
+   "id": 3686407,
+   "name": "Yousef Hjelde El Mofty",
+   "photo": null,
+   "character": "Mikael Øverlie Boukhal",
+   "episodes": 10
+  },
+  {
+   "id": 1674959,
+   "name": "Ruby Dagnall",
+   "photo": "https://image.tmdb.org/t/p/w185/AbXowCj9VYpPhdDujhadds0vSsX.jpg",
+   "character": "Emma Larzen",
+   "episodes": 8
+  },
+  {
+   "id": 3617029,
+   "name": "Elias Selhi",
+   "photo": null,
+   "character": "Elias",
+   "episodes": 6
+  },
+  {
+   "id": 1565243,
+   "name": "Celine Nordheim",
+   "photo": null,
+   "character": "Iben Sandberg",
+   "episodes": 6
+  },
+  {
+   "id": 2463295,
+   "name": "Theresa Frostad Eggesbø",
+   "photo": "https://image.tmdb.org/t/p/w185/6PFAFhiztXZLZyTAFOzaLaltlnk.jpg",
+   "character": "Sonja",
+   "episodes": 6
+  }
+ ],
+ "crew": [
+  {
+   "id": 1612459,
+   "name": "Julie Andem",
+   "photo": "https://image.tmdb.org/t/p/w185/iWUIUVGHKQcXolRtEYhJKmBVQCJ.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Writer"
+   ],
+   "episodes": 43
+  },
+  {
+   "id": 3631811,
+   "name": "Håkon Moslet",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 43
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:41:41.469Z"
+}

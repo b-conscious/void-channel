@@ -1,0 +1,254 @@
+{
+ "show": "Control Z",
+ "slug": "control-z",
+ "tmdbId": 102903,
+ "cast": [
+  {
+   "id": 2626035,
+   "name": "Ana Valeria Becerril",
+   "photo": "https://image.tmdb.org/t/p/w185/6bkzReqPO2medWaeWd8Ihn5n6ei.jpg",
+   "character": "Sofía Herrera",
+   "episodes": 24
+  },
+  {
+   "id": 936249,
+   "name": "Michael Ronda",
+   "photo": "https://image.tmdb.org/t/p/w185/5r5x8mTcashIIkkw72quSYcCQNu.jpg",
+   "character": "Javier Williams",
+   "episodes": 24
+  },
+  {
+   "id": 2626036,
+   "name": "Yankel Stevan",
+   "photo": "https://image.tmdb.org/t/p/w185/a2D0aRbMQP0Xc5T092KFnRvflLW.jpg",
+   "character": "Raúl León",
+   "episodes": 24
+  },
+  {
+   "id": 2139802,
+   "name": "Luis Curiel",
+   "photo": "https://image.tmdb.org/t/p/w185/5FMxoburwNLvKlYIFPEoSLDDogu.jpg",
+   "character": "Luis Navarro",
+   "episodes": 24
+  },
+  {
+   "id": 3166179,
+   "name": "Samantha Acuña",
+   "photo": "https://image.tmdb.org/t/p/w185/5PCV3ZPHMXLLvba436lVRqfU2Rn.jpg",
+   "character": "Alex",
+   "episodes": 24
+  },
+  {
+   "id": 2126331,
+   "name": "Macarena García",
+   "photo": "https://image.tmdb.org/t/p/w185/esZlCW2iuERs8DeKneKBq8O545X.jpg",
+   "character": "Natalia Alexander",
+   "episodes": 24
+  },
+  {
+   "id": 2638304,
+   "name": "Fiona Palomo",
+   "photo": "https://image.tmdb.org/t/p/w185/fWA3iIpU1MH43J0ke2ui6vGbJ5R.jpg",
+   "character": "María Alexander",
+   "episodes": 24
+  },
+  {
+   "id": 2128313,
+   "name": "Andres Baida",
+   "photo": "https://image.tmdb.org/t/p/w185/a3eJJ9Vfw4KqDhN8bAIdFMuej7g.jpg",
+   "character": "Pablo García",
+   "episodes": 24
+  },
+  {
+   "id": 2017737,
+   "name": "Patricio Gallardo",
+   "photo": "https://image.tmdb.org/t/p/w185/5W5ZMambtkzpr1REPxu7yBeaqMY.jpg",
+   "character": "Gerry Granda",
+   "episodes": 24
+  },
+  {
+   "id": 2835903,
+   "name": "Iván Aragón",
+   "photo": "https://image.tmdb.org/t/p/w185/z5xQmiDzMyRds8gEGOY864rxzGb.jpg",
+   "character": "Dario",
+   "episodes": 24
+  },
+  {
+   "id": 1295165,
+   "name": "Xabiani Ponce de León",
+   "photo": "https://image.tmdb.org/t/p/w185/oCDFi7skff33gICGnHA1tcw494b.jpg",
+   "character": "Ernesto",
+   "episodes": 24
+  },
+  {
+   "id": 3166177,
+   "name": "Patricia Maqueo",
+   "photo": "https://image.tmdb.org/t/p/w185/okSAB3dDXw1EUzI9UvLekGOImna.jpg",
+   "character": "Rosita Restrepo",
+   "episodes": 24
+  },
+  {
+   "id": 1193969,
+   "name": "Rodrigo Cachero",
+   "photo": "https://image.tmdb.org/t/p/w185/cb1aax5xhZmdngaZojzaUZrkxD0.jpg",
+   "character": "Miguel Quintanilla",
+   "episodes": 24
+  },
+  {
+   "id": 1099283,
+   "name": "Rocío Verdejo",
+   "photo": "https://image.tmdb.org/t/p/w185/nx6g9yIuqLn9nLZB6OrXoyeLpYf.jpg",
+   "character": "Nora",
+   "episodes": 24
+  },
+  {
+   "id": 2472701,
+   "name": "Thanya López",
+   "photo": "https://image.tmdb.org/t/p/w185/nVo682Jple5DThJ7m5FE3Lo9xzF.jpg",
+   "character": "Susana",
+   "episodes": 24
+  },
+  {
+   "id": 1032525,
+   "name": "Lidia San José",
+   "photo": "https://image.tmdb.org/t/p/w185/34PhqDf3GXflOZUZV9Dtt1Mr1QU.jpg",
+   "character": "Gabriela",
+   "episodes": 24
+  },
+  {
+   "id": 992409,
+   "name": "Kariam Castro",
+   "photo": null,
+   "character": "Valeria",
+   "episodes": 24
+  },
+  {
+   "id": 3166183,
+   "name": "Renata del Castillo",
+   "photo": null,
+   "character": "Lúlu / Lulú",
+   "episodes": 24
+  },
+  {
+   "id": 2626034,
+   "name": "Ariana Saavedra",
+   "photo": "https://image.tmdb.org/t/p/w185/zndXlOXBGHhwUqPAJhwSsba5Ci.jpg",
+   "character": "Regina",
+   "episodes": 24
+  },
+  {
+   "id": 3198666,
+   "name": "Cristian Santín",
+   "photo": null,
+   "character": "Güero",
+   "episodes": 17
+  },
+  {
+   "id": 1368567,
+   "name": "Sandra Burgos",
+   "photo": "https://image.tmdb.org/t/p/w185/aRA9xzi8OwzQqsKdurj9xRVdECw.jpg",
+   "character": "Martha / Marta",
+   "episodes": 17
+  },
+  {
+   "id": 2843947,
+   "name": "Ana Sofía Gatica",
+   "photo": "https://image.tmdb.org/t/p/w185/oLzuB0YJ0n23WAm7pCXNPJZpvBG.jpg",
+   "character": "Claudia",
+   "episodes": 16
+  },
+  {
+   "id": 964038,
+   "name": "Arturo Barba",
+   "photo": "https://image.tmdb.org/t/p/w185/oH6I58ap02zkWhxic5tm6LcOltz.jpg",
+   "character": "Fernando",
+   "episodes": 16
+  },
+  {
+   "id": 2364971,
+   "name": "Zión Moreno",
+   "photo": "https://image.tmdb.org/t/p/w185/hh1MYhL2BV1rJsh7x9s2Y3I1cVI.jpg",
+   "character": "Isabela de La Fuente",
+   "episodes": 8
+  }
+ ],
+ "crew": [
+  {
+   "id": 1319021,
+   "name": "Adriana Pelusi",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 2626031,
+   "name": "Miguel García Moreno",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1831851,
+   "name": "Carlos Quintanilla Sakar",
+   "photo": "https://image.tmdb.org/t/p/w185/ri3rFTITGGdlXA5esXO5F04026i.jpg",
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1852688,
+   "name": "Erica Sánchez Su",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 76817,
+   "name": "Alejandro Lozano",
+   "photo": "https://image.tmdb.org/t/p/w185/ogfkhAIyVzcBBruNCruzDEPXt6Q.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1076025,
+   "name": "Fernando Rovzar",
+   "photo": "https://image.tmdb.org/t/p/w185/xR41kYHHQ2AVLrcFYoNAueopmt3.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 970779,
+   "name": "Billy Rovzar",
+   "photo": "https://image.tmdb.org/t/p/w185/t8nLLhfHRtrVNt1WOUUK2DCAaAI.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1852686,
+   "name": "Bernardo De La Rosa",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:41:21.644Z"
+}

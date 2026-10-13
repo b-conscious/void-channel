@@ -1,0 +1,44 @@
+{
+ "show": "The Blue Planet",
+ "slug": "the-blue-planet",
+ "tmdbId": 13579,
+ "cast": [
+  {
+   "id": 86543,
+   "name": "David Attenborough",
+   "photo": "https://image.tmdb.org/t/p/w185/xE6aLZ2Ma1VSoZGhOUW8TcbBMN6.jpg",
+   "character": "Self - Narrator (voice)",
+   "episodes": 8
+  }
+ ],
+ "crew": [
+  {
+   "id": 67589,
+   "name": "Alastair Fothergill",
+   "photo": "https://image.tmdb.org/t/p/w185/l2fqoPIjMxVLRgb8BU9AwCrDJJA.jpg",
+   "jobs": [
+    "Creator",
+    "Director"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 67818,
+   "name": "Andy Byatt",
+   "photo": null,
+   "jobs": [
+    "Creator"
+   ]
+  },
+  {
+   "id": 1528,
+   "name": "George Fenton",
+   "photo": "https://image.tmdb.org/t/p/w185/gWfVsfSG4WMpbfk0OKUIEj0Gke6.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 8
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:37:22.994Z"
+}

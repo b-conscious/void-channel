@@ -1,0 +1,325 @@
+{
+ "show": "Duckman",
+ "slug": "duckman",
+ "tmdbId": 1260,
+ "cast": [
+  {
+   "id": 1206,
+   "name": "Jason Alexander",
+   "photo": "https://image.tmdb.org/t/p/w185/qRezZ2yhM2bmBERt7jVcxo8RVSA.jpg",
+   "character": "Duckman (voice)",
+   "episodes": 70
+  },
+  {
+   "id": 19547,
+   "name": "Gregg Berger",
+   "photo": "https://image.tmdb.org/t/p/w185/bMlJUmhblX50gQrnA8XWG7UuaLk.jpg",
+   "character": "Cornfed (voice)",
+   "episodes": 70
+  },
+  {
+   "id": 18331,
+   "name": "Nancy Travis",
+   "photo": "https://image.tmdb.org/t/p/w185/8NVTIgCYB6H0GrAwNPLwdU92pdt.jpg",
+   "character": "Bernice (voice)",
+   "episodes": 70
+  },
+  {
+   "id": 120952,
+   "name": "Dweezil Zappa",
+   "photo": "https://image.tmdb.org/t/p/w185/j41YTvFAtl5fYPTdfJA1wv3UcEf.jpg",
+   "character": "Ajax (voice)",
+   "episodes": 70
+  },
+  {
+   "id": 69344,
+   "name": "Dana Hill",
+   "photo": "https://image.tmdb.org/t/p/w185/kLFYJSiPfBmXTla2MKInPi4YAqX.jpg",
+   "character": "Charles (voice)",
+   "episodes": 70
+  },
+  {
+   "id": 15274,
+   "name": "E. G. Daily",
+   "photo": "https://image.tmdb.org/t/p/w185/sWLXj0yvpMEsZTIsS1ReVQzGnwO.jpg",
+   "character": "Mambo (voice)",
+   "episodes": 70
+  },
+  {
+   "id": 35349,
+   "name": "Pat Musick",
+   "photo": "https://image.tmdb.org/t/p/w185/rGny7ACgjXXKWZc6Sajyuhe40Xj.jpg",
+   "character": "Fluffy / Uranus (voice) / Charles / Fluffy / Uranus (voice)",
+   "episodes": 70
+  },
+  {
+   "id": 13472,
+   "name": "Tim Curry",
+   "photo": "https://image.tmdb.org/t/p/w185/8ZsGg3N3OZgxshqLOtA2kl5ckOP.jpg",
+   "character": "King Chicken (voice) / King Chicken / Regine Poulet (voice) / Simon Desmond (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 131667,
+   "name": "Ben Stein",
+   "photo": "https://image.tmdb.org/t/p/w185/1xxodQEQKkioq38oaWRJV0mzQ9y.jpg",
+   "character": "Dr. Ben Stein / Lionel Stein (voice) / Dr. Ben Stein (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 34521,
+   "name": "Maurice LaMarche",
+   "photo": "https://image.tmdb.org/t/p/w185/qCiL3EYAhLcNo0rNj5pczWo9MwG.jpg",
+   "character": "Tony Randall (voice) / Bob Hope (voice) / Meinhard Braunbuste  (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 41230,
+   "name": "John Astin",
+   "photo": "https://image.tmdb.org/t/p/w185/jHKGkaYWJSq2Ie3wjMbKpvWKtMT.jpg",
+   "character": "Terry Duke Tetzloff (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 15832,
+   "name": "Gilbert Gottfried",
+   "photo": "https://image.tmdb.org/t/p/w185/hkkAgJD0HKcuyd8EuvhyN5vHcDQ.jpg",
+   "character": "Art De Salvo (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 12077,
+   "name": "Jim Cummings",
+   "photo": "https://image.tmdb.org/t/p/w185/c0sQPRCM5Ri3F4gVyxPr4AcPmIq.jpg",
+   "character": "Dr. Levine (voice) / Dr. Conrad Milo (voice) / (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 35243,
+   "name": "Ed Gilbert",
+   "photo": "https://image.tmdb.org/t/p/w185/uuyoM4Bo3zzmsDoOPzr5JeJaMdE.jpg",
+   "character": "",
+   "episodes": 3
+  },
+  {
+   "id": 42362,
+   "name": "Eddie Deezen",
+   "photo": "https://image.tmdb.org/t/p/w185/AqjxoV14Jd3p5uvPsSPoAHmzQHI.jpg",
+   "character": "Iggy Catalpa (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 81178,
+   "name": "Charlie Adler",
+   "photo": "https://image.tmdb.org/t/p/w185/hVENHdlEqsX6vhBW4MTpfYEFFQ3.jpg",
+   "character": "Waiter (voice) / Sgt. Red Herring / Juan Jesus Maria Alsalas (voice) / Doctor (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 5542829,
+   "name": "Walt Reno Jr.",
+   "photo": null,
+   "character": "(voice) / News Anchor",
+   "episodes": 3
+  },
+  {
+   "id": 31365,
+   "name": "John Kassir",
+   "photo": "https://image.tmdb.org/t/p/w185/byj6Px0tLcqRFWIJYUxstg25Qd2.jpg",
+   "character": "",
+   "episodes": 2
+  },
+  {
+   "id": 84495,
+   "name": "Jess Harnell",
+   "photo": "https://image.tmdb.org/t/p/w185/zQ2zg7PL3ut4JhfXMKSRV4FMnxR.jpg",
+   "character": "(voice)",
+   "episodes": 2
+  },
+  {
+   "id": 26715,
+   "name": "Robert Klein",
+   "photo": "https://image.tmdb.org/t/p/w185/eZNiVyIMZSuyDmjIf7UaccpCJph.jpg",
+   "character": "Uncle Mo Dorkin (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 1535,
+   "name": "Brian Doyle-Murray",
+   "photo": "https://image.tmdb.org/t/p/w185/3RFH00449ppcwA0tkD1uqDvP865.jpg",
+   "character": "Agnes Delrooney (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 60258,
+   "name": "Mark DeCarlo",
+   "photo": "https://image.tmdb.org/t/p/w185/yVStCsncvhol6XK4FVuxkpfx2Ap.jpg",
+   "character": "",
+   "episodes": 2
+  },
+  {
+   "id": 80414,
+   "name": "Maureen McGovern",
+   "photo": "https://image.tmdb.org/t/p/w185/uHjt5bMdBoDy9UHputxlzrYggJ0.jpg",
+   "character": "",
+   "episodes": 2
+  },
+  {
+   "id": 95024,
+   "name": "Bobcat Goldthwait",
+   "photo": "https://image.tmdb.org/t/p/w185/7Q6MWUQ5YheFm6xxUxigqIFAB95.jpg",
+   "character": "Cinque (voice) / Indian (voice)",
+   "episodes": 2
+  }
+ ],
+ "crew": [
+  {
+   "id": 1214981,
+   "name": "Everett Peck",
+   "photo": null,
+   "jobs": [
+    "Creator"
+   ]
+  },
+  {
+   "id": 4179,
+   "name": "Jeff Reno",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 70
+  },
+  {
+   "id": 946417,
+   "name": "Arlene Klasky",
+   "photo": "https://image.tmdb.org/t/p/w185/ao1l6vGslT9FVDcPaFMFTw1rYsi.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 70
+  },
+  {
+   "id": 4178,
+   "name": "Ron Osborn",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 70
+  },
+  {
+   "id": 36697,
+   "name": "Gábor Csupó",
+   "photo": "https://image.tmdb.org/t/p/w185/h78onamy0s7rDWtlbarRVGZqWF.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 70
+  },
+  {
+   "id": 1222776,
+   "name": "Michael Markowitz",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 1222780,
+   "name": "Gene Laufenberg",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 1216662,
+   "name": "Bill Canterbury",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1766941,
+   "name": "Raymie Muzquiz",
+   "photo": "https://image.tmdb.org/t/p/w185/rhKPHkcAcXxvYdpsFF5wcSBbUtX.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 78485,
+   "name": "Jeff McGrath",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1222790,
+   "name": "David Misch",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 74052,
+   "name": "Peter Avanzino",
+   "photo": "https://image.tmdb.org/t/p/w185/mYuUspfecwtAnANHdouRb7nzyUI.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 86437,
+   "name": "John Eng",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 86439,
+   "name": "Norton Virgien",
+   "photo": "https://image.tmdb.org/t/p/w185/yUedCvCzLIFyhI33Pb4Jzuy9WMJ.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1236672,
+   "name": "Jeff Astrof",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 155411,
+   "name": "Mike Sikowitz",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 6
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:29:44.439Z"
+}

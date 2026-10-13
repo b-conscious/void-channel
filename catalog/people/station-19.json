@@ -1,0 +1,326 @@
+{
+ "show": "Station 19",
+ "slug": "station-19",
+ "tmdbId": 76773,
+ "cast": [
+  {
+   "id": 1338902,
+   "name": "Jaina Lee Ortiz",
+   "photo": "https://image.tmdb.org/t/p/w185/ikGhIZ1vXkkr2ocZO2xWjWEex5D.jpg",
+   "character": "Andy Herrera",
+   "episodes": 105
+  },
+  {
+   "id": 95475,
+   "name": "Jason George",
+   "photo": "https://image.tmdb.org/t/p/w185/eTiyxcbtEsdANo1NGFsfk3mZPW3.jpg",
+   "character": "Ben Warren",
+   "episodes": 105
+  },
+  {
+   "id": 1702827,
+   "name": "Barrett Doss",
+   "photo": "https://image.tmdb.org/t/p/w185/kmllxoRWq92gSVG4Tt1CTdL7dJT.jpg",
+   "character": "Victoria Hughes",
+   "episodes": 105
+  },
+  {
+   "id": 1105796,
+   "name": "Jay Hayden",
+   "photo": "https://image.tmdb.org/t/p/w185/o5HdiOeKTrtHiPcd96McJp08lJ7.jpg",
+   "character": "Travis Montgomery",
+   "episodes": 105
+  },
+  {
+   "id": 154955,
+   "name": "Danielle Savre",
+   "photo": "https://image.tmdb.org/t/p/w185/6N7FtcVfNqsx7PEj3JdNN4sOzX4.jpg",
+   "character": "Maya Bishop",
+   "episodes": 105
+  },
+  {
+   "id": 130769,
+   "name": "Grey Damon",
+   "photo": "https://image.tmdb.org/t/p/w185/11VZxFWr64Wj2AlKsV60UutntGx.jpg",
+   "character": "Jack Gibson",
+   "episodes": 100
+  },
+  {
+   "id": 80758,
+   "name": "Boris Kodjoe",
+   "photo": "https://image.tmdb.org/t/p/w185/fo6bMq96LUDEatiXlQlMctOMGI3.jpg",
+   "character": "Robert Sullivan",
+   "episodes": 95
+  },
+  {
+   "id": 1581103,
+   "name": "Stefania Spampinato",
+   "photo": "https://image.tmdb.org/t/p/w185/7W9SHn3VtwlZLJ67akzxiIBfg7q.jpg",
+   "character": "Dr. Carina DeLuca",
+   "episodes": 72
+  },
+  {
+   "id": 1419065,
+   "name": "Okieriete Onaodowan",
+   "photo": "https://image.tmdb.org/t/p/w185/kxPzTxYuPInFY08o0H3KZahf7lX.jpg",
+   "character": "Dean Miller",
+   "episodes": 65
+  },
+  {
+   "id": 39007,
+   "name": "Carlos Miranda",
+   "photo": "https://image.tmdb.org/t/p/w185/psSkpxrspzeayJ3dR6TnsPfNBWU.jpg",
+   "character": "Theo Ruiz",
+   "episodes": 55
+  },
+  {
+   "id": 56162,
+   "name": "Josh Randall",
+   "photo": "https://image.tmdb.org/t/p/w185/2Ff16QWWbCF4Crs8oTBFM3S9Mar.jpg",
+   "character": "Sean Beckett",
+   "episodes": 46
+  },
+  {
+   "id": 30488,
+   "name": "Miguel Sandoval",
+   "photo": "https://image.tmdb.org/t/p/w185/v5tHxTkgOqcdWgjoEhUj0a50NIK.jpg",
+   "character": "Pruitt Herrera",
+   "episodes": 44
+  },
+  {
+   "id": 1253388,
+   "name": "Merle Dandridge",
+   "photo": "https://image.tmdb.org/t/p/w185/qoPX7VpSPl4GVuwnBPdfJ39Jt46.jpg",
+   "character": "Natasha Ross",
+   "episodes": 37
+  },
+  {
+   "id": 60846,
+   "name": "Pat Healy",
+   "photo": "https://image.tmdb.org/t/p/w185/gWW97trwxTAi1nkY4CY1jNFMP5z.jpg",
+   "character": "Michael Dixon",
+   "episodes": 33
+  },
+  {
+   "id": 1070193,
+   "name": "Alberto Frezza",
+   "photo": "https://image.tmdb.org/t/p/w185/lu7XKWmXhTFVzpR8psQco5OxhoC.jpg",
+   "character": "Ryan Tanner",
+   "episodes": 30
+  },
+  {
+   "id": 1213288,
+   "name": "Lachlan Buchanan",
+   "photo": "https://image.tmdb.org/t/p/w185/imIdochc8peA5Xn2j2o8vTPOjbR.jpg",
+   "character": "Emmett Dixon",
+   "episodes": 30
+  },
+  {
+   "id": 171075,
+   "name": "Chandra Wilson",
+   "photo": "https://image.tmdb.org/t/p/w185/83Ynxlv3jV4ahkOiAEfunM7Rez2.jpg",
+   "character": "Dr. Miranda Bailey",
+   "episodes": 25
+  },
+  {
+   "id": 1224188,
+   "name": "Brett Tucker",
+   "photo": "https://image.tmdb.org/t/p/w185/6IUQyy2pA8PRXX1MEx088JH6pcu.jpg",
+   "character": "Lucas Ripley",
+   "episodes": 16
+  },
+  {
+   "id": 2477774,
+   "name": "Noah Alexander Gerry",
+   "photo": "https://image.tmdb.org/t/p/w185/sCFGsdzQwOFngnu0ecu7WhwYDPC.jpg",
+   "character": "Joey Phillips",
+   "episodes": 16
+  },
+  {
+   "id": 1695658,
+   "name": "Jayne Taini",
+   "photo": "https://image.tmdb.org/t/p/w185/h5LSieXoaaqafx5nNQWz1GAX0GP.jpg",
+   "character": "Marsha Smith",
+   "episodes": 15
+  },
+  {
+   "id": 52566,
+   "name": "Colleen Foy",
+   "photo": "https://image.tmdb.org/t/p/w185/A1TBRUWcicNpbyJWUIof5b9JoYB.jpg",
+   "character": "Inara",
+   "episodes": 14
+  },
+  {
+   "id": 1721680,
+   "name": "Rob Heaps",
+   "photo": "https://image.tmdb.org/t/p/w185/4HXa07zJTnf6MFHm5lxTDr0z9cm.jpg",
+   "character": "Eli Stern",
+   "episodes": 14
+  },
+  {
+   "id": 3566556,
+   "name": "Janai Kaylani",
+   "photo": null,
+   "character": "Pru",
+   "episodes": 13
+  },
+  {
+   "id": 1064158,
+   "name": "Shane Hartline",
+   "photo": "https://image.tmdb.org/t/p/w185/v7sCli6DDyi32iXt3utrDQ470a2.jpg",
+   "character": "John Maddox",
+   "episodes": 12
+  }
+ ],
+ "crew": [
+  {
+   "id": 1224069,
+   "name": "Stacy McKee",
+   "photo": "https://image.tmdb.org/t/p/w185/9PJOW0ij3S3lI7fHiEAtNxsTLqs.jpg",
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 105
+  },
+  {
+   "id": 45649,
+   "name": "Paris Barclay",
+   "photo": "https://image.tmdb.org/t/p/w185/ovu2mHjElDUfVbXyWoXsowbumDd.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 105
+  },
+  {
+   "id": 25539,
+   "name": "Shonda Rhimes",
+   "photo": "https://image.tmdb.org/t/p/w185/pIQbVxfjNwZ0DaAjo3q107nng1b.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 105
+  },
+  {
+   "id": 60189,
+   "name": "Betsy Beers",
+   "photo": "https://image.tmdb.org/t/p/w185/cTbDGjBHo6TGNTmCIdFDaeCJJa2.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 105
+  },
+  {
+   "id": 1218117,
+   "name": "Krista Vernoff",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 105
+  },
+  {
+   "id": 1307540,
+   "name": "Stacey K. Black",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 2510416,
+   "name": "Kiley Donovan",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 56324,
+   "name": "Daryn Okada",
+   "photo": "https://image.tmdb.org/t/p/w185/mMi7Uid7CqrkClO9h9WgbTAIIoq.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 3247549,
+   "name": "Rochelle Zimmerman",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 2872994,
+   "name": "Zaiver Sinnett",
+   "photo": "https://image.tmdb.org/t/p/w185/i8mTpxnWZF76J0WbDuIIB3HvSUJ.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 2523829,
+   "name": "Meghann Plunkett",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 166679,
+   "name": "Michael Medico",
+   "photo": "https://image.tmdb.org/t/p/w185/oh7N2NzY7zRiq2y3cfww16pCvdj.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 151380,
+   "name": "Peter Paige",
+   "photo": "https://image.tmdb.org/t/p/w185/9qLFoMRyGjYx0yjdNvJLyR5m3OR.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 3247550,
+   "name": "Emily Culver",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1260113,
+   "name": "Anupam Nigam",
+   "photo": "https://image.tmdb.org/t/p/w185/qPNIXIxo3hmwhuRRFtUPbqZ67oA.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 205644,
+   "name": "David Greenspan",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:54.120Z"
+}

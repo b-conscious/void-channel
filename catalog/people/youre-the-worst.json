@@ -1,0 +1,325 @@
+{
+ "show": "You're the Worst",
+ "slug": "youre-the-worst",
+ "tmdbId": 61118,
+ "cast": [
+  {
+   "id": 62879,
+   "name": "Chris Geere",
+   "photo": "https://image.tmdb.org/t/p/w185/y5Ti23z47KY0XG7lzSLxffB0QKn.jpg",
+   "character": "Jimmy Shive-Overly",
+   "episodes": 62
+  },
+  {
+   "id": 133451,
+   "name": "Aya Cash",
+   "photo": "https://image.tmdb.org/t/p/w185/xUqelq0tht436iAahA4oLupSbK0.jpg",
+   "character": "Gretchen Cutler",
+   "episodes": 62
+  },
+  {
+   "id": 972079,
+   "name": "Desmin Borges",
+   "photo": "https://image.tmdb.org/t/p/w185/9tF2giXqRiSJc2lkZG9R3G8FPjv.jpg",
+   "character": "Edgar Quintero",
+   "episodes": 62
+  },
+  {
+   "id": 588972,
+   "name": "Kether Donohue",
+   "photo": "https://image.tmdb.org/t/p/w185/f1JMAIitNYTOYQCRgNtBGZYgaY1.jpg",
+   "character": "Lindsay Jillian",
+   "episodes": 62
+  },
+  {
+   "id": 86624,
+   "name": "Collette Wolfe",
+   "photo": "https://image.tmdb.org/t/p/w185/cyX7HFrY1YYgXXrveGlaFGAAmKn.jpg",
+   "character": "Dorothy Durwood",
+   "episodes": 14
+  },
+  {
+   "id": 80220,
+   "name": "Todd Robert Anderson",
+   "photo": "https://image.tmdb.org/t/p/w185/wS3WOVCu8h0Q4gf7mLpRKGHRc1o.jpg",
+   "character": "Vernon Barbara",
+   "episodes": 8
+  },
+  {
+   "id": 204462,
+   "name": "Janet Varney",
+   "photo": "https://image.tmdb.org/t/p/w185/3oMQf9mtVXXXKF2FhUH7kCIOOIf.jpg",
+   "character": "Becca Barbara",
+   "episodes": 7
+  },
+  {
+   "id": 1356010,
+   "name": "Allan McLeod",
+   "photo": "https://image.tmdb.org/t/p/w185/dGjDARKYBYlRIBSL6VvV2Jnu9gl.jpg",
+   "character": "Paul Jillian",
+   "episodes": 6
+  },
+  {
+   "id": 1512842,
+   "name": "Shane Francis Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/37ONw53jdRUJwAkCdOC1cEW7UfE.jpg",
+   "character": "Killian Mounce / Killian",
+   "episodes": 6
+  },
+  {
+   "id": 427978,
+   "name": "Brandon Mychal Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/5nKqpvHatEEjyQWXWIH3fABDDSe.jpg",
+   "character": "Sam Dresden",
+   "episodes": 5
+  },
+  {
+   "id": 1307543,
+   "name": "Darrell Britt-Gibson",
+   "photo": "https://image.tmdb.org/t/p/w185/cCfTL6qkctE088J3qr8qtgGrZa1.jpg",
+   "character": "Shitstain",
+   "episodes": 5
+  },
+  {
+   "id": 141432,
+   "name": "Allen Maldonado",
+   "photo": "https://image.tmdb.org/t/p/w185/rl8YFsk4XsFZqCZO5jHNwP0Qoog.jpg",
+   "character": "Honeynutz / Honey Nutz",
+   "episodes": 4
+  },
+  {
+   "id": 1184280,
+   "name": "Stephen Schneider",
+   "photo": "https://image.tmdb.org/t/p/w185/lX1w5kzuKJQnplbdcwNSwDjrLE6.jpg",
+   "character": "Ty Wyland",
+   "episodes": 3
+  },
+  {
+   "id": 1008750,
+   "name": "Niko Nicotera",
+   "photo": "https://image.tmdb.org/t/p/w185/ffSAiwXMmvQP1vJuPguLznNpPOI.jpg",
+   "character": "Jeff",
+   "episodes": 3
+  },
+  {
+   "id": 1490716,
+   "name": "Stephen Ellis",
+   "photo": "https://image.tmdb.org/t/p/w185/kggdTedkux6agXLVmChehXLkS5r.jpg",
+   "character": "Carl",
+   "episodes": 3
+  },
+  {
+   "id": 82731,
+   "name": "Ben Folds",
+   "photo": "https://image.tmdb.org/t/p/w185/6KBaOTkTdTpmtySDszxaxUBvfHK.jpg",
+   "character": "Ben Folds",
+   "episodes": 3
+  },
+  {
+   "id": 1219029,
+   "name": "Paul F. Tompkins",
+   "photo": "https://image.tmdb.org/t/p/w185/pL9v2aubEAOSW0lgrWyP0vvGr34.jpg",
+   "character": "Paul F. Tompkins",
+   "episodes": 3
+  },
+  {
+   "id": 1236019,
+   "name": "Winston Story",
+   "photo": "https://image.tmdb.org/t/p/w185/AcDyszvGrfSaWSvegOerSuRWjAz.jpg",
+   "character": "Wallace",
+   "episodes": 2
+  },
+  {
+   "id": 35235,
+   "name": "Giovonnie Samuels",
+   "photo": "https://image.tmdb.org/t/p/w185/gtO9TzBVArIExO7cH8mC9qhxhE7.jpg",
+   "character": "Brianna",
+   "episodes": 2
+  },
+  {
+   "id": 1512973,
+   "name": "Colin Campbell",
+   "photo": "https://image.tmdb.org/t/p/w185/j9kFSHumvbTHCO9BTemkovksQYb.jpg",
+   "character": "Barfly",
+   "episodes": 2
+  },
+  {
+   "id": 111678,
+   "name": "Thomas Middleditch",
+   "photo": "https://image.tmdb.org/t/p/w185/2c15BQ6DWSiDSBTRjvdsp8X4AAe.jpg",
+   "character": "Ringleader / Hipster Ringleader",
+   "episodes": 2
+  },
+  {
+   "id": 55463,
+   "name": "Jessica Stroup",
+   "photo": "https://image.tmdb.org/t/p/w185/wZcYo2LWjSvrlMncHCAkIRCV2oY.jpg",
+   "character": "Young Faye",
+   "episodes": 2
+  },
+  {
+   "id": 69503,
+   "name": "Rebecca Tilney",
+   "photo": "https://image.tmdb.org/t/p/w185/zBffmph3coo5VFXrh0VFKE8lIrH.jpg",
+   "character": "Vanessa Cutler",
+   "episodes": 2
+  },
+  {
+   "id": 2543676,
+   "name": "Enslee Moore",
+   "photo": null,
+   "character": "Felicity",
+   "episodes": 2
+  }
+ ],
+ "crew": [
+  {
+   "id": 1347018,
+   "name": "Stephen Falk",
+   "photo": "https://image.tmdb.org/t/p/w185/oLMm2C3hnW8ihNCkMY8bqU55oAH.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 62
+  },
+  {
+   "id": 1512854,
+   "name": "Adam Blau",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 62
+  },
+  {
+   "id": 1219584,
+   "name": "Wendey Stanzler",
+   "photo": "https://image.tmdb.org/t/p/w185/fOQ8W880wtGbR8wNier8JKfWKIR.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 1223146,
+   "name": "Alex Hardcastle",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1212522,
+   "name": "Matt Shakman",
+   "photo": "https://image.tmdb.org/t/p/w185/kraLXlC9egJh4pTNTpKUYhkkNiu.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 236539,
+   "name": "Jordan Vogt-Roberts",
+   "photo": "https://image.tmdb.org/t/p/w185/wHySqvxNrI0WEdH3bFPU1nHdY7x.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1716903,
+   "name": "Eva Anderson",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1521301,
+   "name": "Ryan Case",
+   "photo": "https://image.tmdb.org/t/p/w185/u4uKFVTQc9WmrokyPHnsuJyxrtH.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 2197886,
+   "name": "Philippe Iujvidin",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 191236,
+   "name": "Evan Mann",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1512865,
+   "name": "Franklin Hardy",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1498990,
+   "name": "Gareth Reynolds",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1512868,
+   "name": "Shane Kosakowski",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1869308,
+   "name": "Erica Rosbe",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 2221756,
+   "name": "April Shih",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 2161273,
+   "name": "Marquita Robinson",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:29:01.989Z"
+}

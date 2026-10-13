@@ -1,0 +1,323 @@
+{
+ "show": "Mushi-Shi",
+ "slug": "mushi-shi",
+ "tmdbId": 26867,
+ "cast": [
+  {
+   "id": 1249718,
+   "name": "Yuto Nakano",
+   "photo": "https://image.tmdb.org/t/p/w185/7izuu0F4uf2Ab7Yf4fsjNPdsG9u.jpg",
+   "character": "Ginko (voice)",
+   "episodes": 46
+  },
+  {
+   "id": 68918,
+   "name": "Ai Kobayashi",
+   "photo": "https://image.tmdb.org/t/p/w185/2Vjve1Dh6wynhJP5bPfXvL2WV6s.jpg",
+   "character": "Tanyuu Karibusa (voice)",
+   "episodes": 46
+  },
+  {
+   "id": 65427,
+   "name": "Yuji Ueda",
+   "photo": "https://image.tmdb.org/t/p/w185/nwJBK4WwsUCcBcX425GD2BroJDr.jpg",
+   "character": "Adashino (voice)",
+   "episodes": 46
+  },
+  {
+   "id": 76396,
+   "name": "Mika Doi",
+   "photo": "https://image.tmdb.org/t/p/w185/h5ereBl1UqJC7qH0sLxHJqnJ6Ai.jpg",
+   "character": "Narrator / Nui (voice)",
+   "episodes": 46
+  },
+  {
+   "id": 9724,
+   "name": "Miyu Tsuzurahara",
+   "photo": "https://image.tmdb.org/t/p/w185/a6hNSt7b5fJkYO7kKsN8zO5ro18.jpg",
+   "character": "Young Tanyuu Karibusa (voice)",
+   "episodes": 21
+  },
+  {
+   "id": 216330,
+   "name": "Takashi Matsuyama",
+   "photo": "https://image.tmdb.org/t/p/w185/fBufEEFKgnEirPWJoGOpnJsZUjn.jpg",
+   "character": "",
+   "episodes": 2
+  },
+  {
+   "id": 186341,
+   "name": "Miyuki Sawashiro",
+   "photo": "https://image.tmdb.org/t/p/w185/11mGqwpmu8CoEy1YJgabj2g7MIv.jpg",
+   "character": "",
+   "episodes": 2
+  },
+  {
+   "id": 1221108,
+   "name": "Haruhi Nanao",
+   "photo": "https://image.tmdb.org/t/p/w185/1zdcXGwU3WRaiE281hjRuqfqeXg.jpg",
+   "character": "Insect (voice) / Woman (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 550087,
+   "name": "Masami Suzuki",
+   "photo": "https://image.tmdb.org/t/p/w185/mhkQ9DCjUvfR7U9v2229O5W5pWq.jpg",
+   "character": "Village woman (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 1248793,
+   "name": "Masahito Yabe",
+   "photo": "https://image.tmdb.org/t/p/w185/gIe6al7n9Ru6tWsjU05sBK12Inw.jpg",
+   "character": "Insect (voice) / Man (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 1772522,
+   "name": "Yume Miyamoto",
+   "photo": "https://image.tmdb.org/t/p/w185/8PzHX7owawEZKq7Eg9WwcmWYx9s.jpg",
+   "character": "Insect (voice) / Mayu (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 558672,
+   "name": "Ryou Naitou",
+   "photo": "https://image.tmdb.org/t/p/w185/bWdGQuWNQO7zeF2UKlTQi0DzhUf.jpg",
+   "character": "Man (voice) / Fisherman (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 85976,
+   "name": "Satomi Hanamura",
+   "photo": "https://image.tmdb.org/t/p/w185/eNjOcDMyzzdJwrA0uiCPmpbeC8q.jpg",
+   "character": "",
+   "episodes": 1
+  },
+  {
+   "id": 1239257,
+   "name": "Chiemi Chiba",
+   "photo": "https://image.tmdb.org/t/p/w185/7Wqdy981YwhJ4RHBKY2P1Wb9lA5.jpg",
+   "character": "",
+   "episodes": 1
+  },
+  {
+   "id": 1244721,
+   "name": "Shinji Kawada",
+   "photo": "https://image.tmdb.org/t/p/w185/bynL2ngE9ieW8tSDRUuQM8NmRAE.jpg",
+   "character": "",
+   "episodes": 1
+  },
+  {
+   "id": 553097,
+   "name": "Akio Nojima",
+   "photo": "https://image.tmdb.org/t/p/w185/wnn1WSwcZARCKlM54FLwbhkSs8W.jpg",
+   "character": "",
+   "episodes": 1
+  },
+  {
+   "id": 1222100,
+   "name": "Kaori Shimizu",
+   "photo": "https://image.tmdb.org/t/p/w185/p5A7efRBlhmhtdyfbpmjJgeUkhq.jpg",
+   "character": "",
+   "episodes": 1
+  },
+  {
+   "id": 90133,
+   "name": "Akemi Okamura",
+   "photo": "https://image.tmdb.org/t/p/w185/qEwVfsrA23SCzRZMSlghw2sHctQ.jpg",
+   "character": "",
+   "episodes": 1
+  },
+  {
+   "id": 1201637,
+   "name": "Yuko Sanpei",
+   "photo": "https://image.tmdb.org/t/p/w185/gms4G7ZRIQYXI9zsorkQr8aHnOU.jpg",
+   "character": "Shinra (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 122660,
+   "name": "Miki Ito",
+   "photo": "https://image.tmdb.org/t/p/w185/6osSzjWq1MZ0XznG3UZHpB81lJF.jpg",
+   "character": "",
+   "episodes": 1
+  },
+  {
+   "id": 12200,
+   "name": "Yoshisada Sakaguchi",
+   "photo": "https://image.tmdb.org/t/p/w185/gty03w5l34MP4OvmCh0HeliTt83.jpg",
+   "character": "",
+   "episodes": 1
+  },
+  {
+   "id": 65437,
+   "name": "Junko Iwao",
+   "photo": "https://image.tmdb.org/t/p/w185/bKyMLT1MgDTnXafsq2ur32VMwY5.jpg",
+   "character": "",
+   "episodes": 1
+  },
+  {
+   "id": 203473,
+   "name": "Kaori Nazuka",
+   "photo": "https://image.tmdb.org/t/p/w185/cIMS99s6jpgGBbMnih8gx9hLPFi.jpg",
+   "character": "",
+   "episodes": 1
+  },
+  {
+   "id": 1221875,
+   "name": "Ayaka Saito",
+   "photo": "https://image.tmdb.org/t/p/w185/1LstTOhPErX9g6LrUuAKZKtmYby.jpg",
+   "character": "",
+   "episodes": 1
+  }
+ ],
+ "crew": [
+  {
+   "id": 1336147,
+   "name": "Hiroshi Nagahama",
+   "photo": "https://image.tmdb.org/t/p/w185/bRELDwCF2O1p0U3zOq0OPy4wLM1.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 66
+  },
+  {
+   "id": 1123380,
+   "name": "Toshio Masuda",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 46
+  },
+  {
+   "id": 2237291,
+   "name": "Kouichirou Sohtome",
+   "photo": "https://image.tmdb.org/t/p/w185/zphLrIRKO0Rpd7c1h6jiXdKqweG.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 2075640,
+   "name": "Kinuko Kuwahata",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 553062,
+   "name": "Aki Itami",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1201163,
+   "name": "Yuka Yamada",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 2234472,
+   "name": "Ryo Miyata",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1324467,
+   "name": "Kenichi Imaizumi",
+   "photo": "https://image.tmdb.org/t/p/w185/4idr5fcMWAUmoaCGHGBmuC4QwFB.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1147760,
+   "name": "Toshinori Narita",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1935859,
+   "name": "Kazu Yokota",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 239763,
+   "name": "Osamu Yamasaki",
+   "photo": "https://image.tmdb.org/t/p/w185/3TlLHqjqkFVJBIY4RbH4fhQVrqe.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 2381348,
+   "name": "Yasuyuki Fuse",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1793502,
+   "name": "Akira Mano",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1842763,
+   "name": "Tomihiko Ohkubo",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1243962,
+   "name": "Tatsuyuki Nagai",
+   "photo": "https://image.tmdb.org/t/p/w185/xbeq2qxwjjuJVs2FVvDoP91wjup.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1144111,
+   "name": "Shinpei Miyashita",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:40:06.656Z"
+}

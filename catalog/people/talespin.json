@@ -1,0 +1,322 @@
+{
+ "show": "TaleSpin",
+ "slug": "talespin",
+ "tmdbId": 2720,
+ "cast": [
+  {
+   "id": 35243,
+   "name": "Ed Gilbert",
+   "photo": "https://image.tmdb.org/t/p/w185/uuyoM4Bo3zzmsDoOPzr5JeJaMdE.jpg",
+   "character": "Baloo (voice)",
+   "episodes": 65
+  },
+  {
+   "id": 49352,
+   "name": "Sally Struthers",
+   "photo": "https://image.tmdb.org/t/p/w185/9EeuFTEUG1mfPiZwNw38U3ovUa.jpg",
+   "character": "Rebecca Cunningham (voice)",
+   "episodes": 65
+  },
+  {
+   "id": 12077,
+   "name": "Jim Cummings",
+   "photo": "https://image.tmdb.org/t/p/w185/c0sQPRCM5Ri3F4gVyxPr4AcPmIq.jpg",
+   "character": "Louie / Nanuk / Bob (voice) / Tiny / Officer Malarkey (voice) / Don Karnage / Dock Manager (voice)",
+   "episodes": 45
+  },
+  {
+   "id": 154307,
+   "name": "R.J. Williams",
+   "photo": "https://image.tmdb.org/t/p/w185/aOcv2Q7QeJJtgGbH2etX4kGGzkU.jpg",
+   "character": "Kit Cloudkicker (voice)",
+   "episodes": 38
+  },
+  {
+   "id": 34737,
+   "name": "Pat Fraley",
+   "photo": "https://image.tmdb.org/t/p/w185/snkbfNQ9JNUCEzG7SdRIR083P0u.jpg",
+   "character": "Wildcat (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 81178,
+   "name": "Charlie Adler",
+   "photo": "https://image.tmdb.org/t/p/w185/hVENHdlEqsX6vhBW4MTpfYEFFQ3.jpg",
+   "character": "Mad Dog / Freelance Pilot (voice) / Additional Voices (voice) / Mad Dog / Bank Representative (voice)",
+   "episodes": 22
+  },
+  {
+   "id": 88450,
+   "name": "Chuck McCann",
+   "photo": "https://image.tmdb.org/t/p/w185/s3qNTQbRHRfbLd2rdtEl0Lmh2va.jpg",
+   "character": "Additional Voices (voice) / Ray (voice) / Dumptruck / Gibber (voice)",
+   "episodes": 22
+  },
+  {
+   "id": 15831,
+   "name": "Frank Welker",
+   "photo": "https://image.tmdb.org/t/p/w185/aC37aQtsfZZDZN5y3paDTLJJHCi.jpg",
+   "character": "Buffy Vanderschmere (voice) / Sparky / Maswich Village Mayor (voice) / Dimple (voice)",
+   "episodes": 16
+  },
+  {
+   "id": 65598,
+   "name": "Tony Jay",
+   "photo": "https://image.tmdb.org/t/p/w185/rlL918sjBA5m6qVEjYDCKmxU7QO.jpg",
+   "character": "Shere Khan (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 1232439,
+   "name": "Janna Michaels",
+   "photo": null,
+   "character": "Molly Cunningham (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 19545,
+   "name": "Jack Angel",
+   "photo": "https://image.tmdb.org/t/p/w185/5MsVwIULYJotUSbDs61uSJff7ei.jpg",
+   "character": "Usher (voice) / Pig Salesman (voice) / High Marshal (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 3441400,
+   "name": "Alan Roberts",
+   "photo": null,
+   "character": "Kit Cloudkicker (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 1213976,
+   "name": "Michael Gough",
+   "photo": "https://image.tmdb.org/t/p/w185/a1dGHmgxR6xvnHY1CSw9GN7Yy9Z.jpg",
+   "character": "Colonel Ivanod Spigot (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 78616,
+   "name": "Lorenzo Music",
+   "photo": null,
+   "character": "Sgt. Dunder (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 52699,
+   "name": "Danny Mann",
+   "photo": "https://image.tmdb.org/t/p/w185/980QYqXIZCMn5Knx0vjROkw9vKo.jpg",
+   "character": "Gertalin (voice) / Sergeant Grumpy (voice) / Thembrian Pilot (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 19546,
+   "name": "Michael Bell",
+   "photo": "https://image.tmdb.org/t/p/w185/qZrtEHcKOFCbxtSedcdTU8f2uyW.jpg",
+   "character": "Rob (voice) / Mr. Perry (voice) / Colonel Grogg (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 60257,
+   "name": "S. Scott Bullock",
+   "photo": "https://image.tmdb.org/t/p/w185/qJ54EQKCR9mmUgZGzRIw0XL1pXb.jpg",
+   "character": "Robert Service (voice) / Ignatius (Ignatz) (voice) / Additional Voices (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 1213975,
+   "name": "Hal Rayle",
+   "photo": "https://image.tmdb.org/t/p/w185/5p2g1Y2zkdfFsqbph7OmD3T6dMV.jpg",
+   "character": "Pilot #1 (voice) / Additional Voices (voice) / Radio Host / Ice Cream Man / Otter Firstmate (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 101606,
+   "name": "Hamilton Camp",
+   "photo": "https://image.tmdb.org/t/p/w185/1ftUhoIOkYzzPW9lmkMYrskxgXT.jpg",
+   "character": "Seymore (voice) / Babyface Half Nelson / Police Officer / Whistlestop Jackson (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 586496,
+   "name": "Linda Gary",
+   "photo": "https://image.tmdb.org/t/p/w185/6HVYuYlTJ5KsAV5ivXgjxcEocMp.jpg",
+   "character": "Woman at Laundromat (voice) / Muffy Vanderschmere (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 40003,
+   "name": "Ron Feinberg",
+   "photo": "https://image.tmdb.org/t/p/w185/6u4CuN2Um9lxsi9JnV7pwMpAZDS.jpg",
+   "character": "Coolhands Luke (voice) / Cool Hands Luke (voice) / Arnold (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 1212737,
+   "name": "Susan Silo",
+   "photo": null,
+   "character": "Airplane Jane (Plane Jane) (voice) / Mary Lamb (voice) / Shapely Harem Girl (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 9601,
+   "name": "Kenneth Mars",
+   "photo": "https://image.tmdb.org/t/p/w185/dhvJ6DlH5n85Q1fN16rJsRJ0KiH.jpg",
+   "character": "Buzz (voice) / Buzz / Heimlich Menudo (voice) / Heimlich Menudo (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 35219,
+   "name": "Corey Burton",
+   "photo": "https://image.tmdb.org/t/p/w185/wcpFwdL7m01cZoBJiUSMQVakK2G.jpg",
+   "character": "Stork Husband / Elephant Thief / Paperboy (voice) / Mr. Sultan (voice)",
+   "episodes": 2
+  }
+ ],
+ "crew": [
+  {
+   "id": 21161,
+   "name": "Jamie Mitchell",
+   "photo": "https://image.tmdb.org/t/p/w185/bvpgrbRMGfZxTidYzjhgdBtl4TO.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 1180949,
+   "name": "Robert Taylor",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 108097,
+   "name": "Larry Latham",
+   "photo": "https://image.tmdb.org/t/p/w185/7Ejy1kBlYns1XCMrmPkliqJla9A.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 2215421,
+   "name": "Ed Ghertner",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 90865,
+   "name": "Libby Hinson",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 77294,
+   "name": "James T. Walker",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 160097,
+   "name": "Len Uhley",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 90637,
+   "name": "Chuck Tately",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1219479,
+   "name": "Mark Zaslove",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 3554981,
+   "name": "Jeremy Cushner",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1222319,
+   "name": "Steve Roberts",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 3177663,
+   "name": "David Weimers",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1212635,
+   "name": "Stephen Sustarsic",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1225806,
+   "name": "Julia Lewald",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1219091,
+   "name": "Ken Koonce",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1213969,
+   "name": "Michael Edens",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:29:33.155Z"
+}

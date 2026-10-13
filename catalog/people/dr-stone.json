@@ -1,0 +1,322 @@
+{
+ "show": "Dr. STONE",
+ "slug": "dr-stone",
+ "tmdbId": 86031,
+ "cast": [
+  {
+   "id": 1350418,
+   "name": "Yusuke Kobayashi",
+   "photo": "https://image.tmdb.org/t/p/w185/y4ukKDSobZJNuB4H3k89hkrKCDC.jpg",
+   "character": "Senku Ishigami (voice)",
+   "episodes": 94
+  },
+  {
+   "id": 1319218,
+   "name": "Makoto Furukawa",
+   "photo": "https://image.tmdb.org/t/p/w185/inLmBZhrqXeE9wlViyK28ocKJSw.jpg",
+   "character": "Taiju Oki (voice)",
+   "episodes": 94
+  },
+  {
+   "id": 1972402,
+   "name": "Kana Ichinose",
+   "photo": "https://image.tmdb.org/t/p/w185/hBJx5tpLA2vkXqfkPZosGjW4e8C.jpg",
+   "character": "Yuzuriha Ogawa (voice)",
+   "episodes": 94
+  },
+  {
+   "id": 1255653,
+   "name": "Manami Numakura",
+   "photo": "https://image.tmdb.org/t/p/w185/eDbMXgeTCA2D6i7894Ag43RADrk.jpg",
+   "character": "Kohaku (voice)",
+   "episodes": 94
+  },
+  {
+   "id": 2410694,
+   "name": "Gen Sato",
+   "photo": "https://image.tmdb.org/t/p/w185/gdKxR84xGgU19eqWlPKEGZsiID6.jpg",
+   "character": "Chrome (voice)",
+   "episodes": 94
+  },
+  {
+   "id": 1783522,
+   "name": "Karin Takahashi",
+   "photo": "https://image.tmdb.org/t/p/w185/40eynav2SoYcfd0McfiF46Hu16o.jpg",
+   "character": "Suika (Voice)",
+   "episodes": 94
+  },
+  {
+   "id": 1324472,
+   "name": "Kengo Kawanishi",
+   "photo": "https://image.tmdb.org/t/p/w185/s0CxrO6LixJBgqiHEUjKelAh8ei.jpg",
+   "character": "Asagiri Gen (voice)",
+   "episodes": 82
+  },
+  {
+   "id": 2138291,
+   "name": "Ryota Suzuki",
+   "photo": "https://image.tmdb.org/t/p/w185/4Xq18mQttuW2yfRCflnWoU7UqQ5.jpg",
+   "character": "Nanami Ryuusui (voice)",
+   "episodes": 59
+  },
+  {
+   "id": 1221114,
+   "name": "Yuichi Nakamura",
+   "photo": "https://image.tmdb.org/t/p/w185/wb8behVKjBHX9XXrEydvNINCYwH.jpg",
+   "character": "Tsukasa (voice)",
+   "episodes": 35
+  },
+  {
+   "id": 1325230,
+   "name": "Ayumu Murase",
+   "photo": "https://image.tmdb.org/t/p/w185/3aGM6KpcCIEKOXP9510tzaKc8uw.jpg",
+   "character": "Ginro (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 9708,
+   "name": "Keiji Fujiwara",
+   "photo": "https://image.tmdb.org/t/p/w185/hbfBiFiEvD8u3vikl6hUNLKF7Lv.jpg",
+   "character": "Byakuya Ishigami (voice) / Narrator (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 1647556,
+   "name": "Yuya Hirose",
+   "photo": "https://image.tmdb.org/t/p/w185/jRe7ICqrCsaEWVD8jAmJdc7XwnQ.jpg",
+   "character": "Science Club Member (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 1922613,
+   "name": "Aoi Ichikawa",
+   "photo": "https://image.tmdb.org/t/p/w185/tM1PwSZlOT23ia4PDKkGHJVBd0T.jpg",
+   "character": "Science Club Member (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 1966967,
+   "name": "Haruki Ishiya",
+   "photo": "https://image.tmdb.org/t/p/w185/5bugNo9kjEpzotXLkvMZ2pJ212h.jpg",
+   "character": "Science Club Member (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 2019896,
+   "name": "Kouichi Souma",
+   "photo": "https://image.tmdb.org/t/p/w185/95jnjzfmKmZF0jsEBJCCymg5EQ5.jpg",
+   "character": "Teacher (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 2408822,
+   "name": "Yu Sasahara",
+   "photo": "https://image.tmdb.org/t/p/w185/bU7scbNpGV7iW24wTSy5MzYyc31.jpg",
+   "character": "Student (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 2962470,
+   "name": "Jun Inoue",
+   "photo": "https://image.tmdb.org/t/p/w185/rMkgLHAUin4X7ewvnsXGxdsLFxc.jpg",
+   "character": "Student (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 1923834,
+   "name": "Anzu Haruno",
+   "photo": "https://image.tmdb.org/t/p/w185/bNm7W2AQbLRZs3lwsDbArSIjQMX.jpg",
+   "character": "Student (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 1922616,
+   "name": "Yuka Nukui",
+   "photo": "https://image.tmdb.org/t/p/w185/bTFcrrgj9B8QAXa1NKqlsrdwWka.jpg",
+   "character": "Student (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 1951289,
+   "name": "Marika Kouno",
+   "photo": "https://image.tmdb.org/t/p/w185/tGtrlF6iBDHoBEmRfPdOyVt7X18.jpg",
+   "character": "Student (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 1256106,
+   "name": "Nozomi Nakazato",
+   "photo": "https://image.tmdb.org/t/p/w185/8wVv9NdJNSYksmVMAphLjvMcn0k.jpg",
+   "character": "People of the World (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 2019938,
+   "name": "Volcano Ota",
+   "photo": "https://image.tmdb.org/t/p/w185/tEWM3bGUgbLU4MQbmO9KqBJW7j.jpg",
+   "character": "People of the World (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 1919881,
+   "name": "Gakuto Kajiwara",
+   "photo": "https://image.tmdb.org/t/p/w185/kUer38jXf7vTD2TGGxJMZVYL5Te.jpg",
+   "character": "People of the World (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 3074410,
+   "name": "Momoe Matsumura",
+   "photo": "https://image.tmdb.org/t/p/w185/nlZyZ7ro6xRNPRTmbnPUpS2fRy.jpg",
+   "character": "People of the World (voice)",
+   "episodes": 1
+  }
+ ],
+ "crew": [
+  {
+   "id": 1842749,
+   "name": "Yuichiro Kido",
+   "photo": "https://image.tmdb.org/t/p/w185/cYUd0inbJrBFmfczaL59MwB90G9.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 65
+  },
+  {
+   "id": 2807903,
+   "name": "Yuki Kanesaka",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 57
+  },
+  {
+   "id": 1493763,
+   "name": "Hiroaki Tsutsumi",
+   "photo": "https://image.tmdb.org/t/p/w185/gjZTF2jtGqvGY4F6XywHCweVkMb.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 57
+  },
+  {
+   "id": 1316011,
+   "name": "Tatsuya Kato",
+   "photo": "https://image.tmdb.org/t/p/w185/7tbWGtNW3ThuuXE5Gdehp77Twj1.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 57
+  },
+  {
+   "id": 1819861,
+   "name": "Shinya Iino",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 2458967,
+   "name": "Shuhei Matsushita",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1743617,
+   "name": "Kurasumi Sunayama",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 2718220,
+   "name": "Akira Kindaichi",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 1573075,
+   "name": "Nana Harada",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 2948595,
+   "name": "Kentaro Kawajiri",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 3066113,
+   "name": "Tomomi Ikeda",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 1836520,
+   "name": "Hiroyasu Shinohara",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 3103109,
+   "name": "Takayuki Oshima",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 2863405,
+   "name": "Makoto Oyoshi",
+   "photo": "https://image.tmdb.org/t/p/w185/hGUxlf5vec8xdbvA603dmsDStFe.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1255664,
+   "name": "Osamu Nabeshima",
+   "photo": "https://image.tmdb.org/t/p/w185/tsDs4e5feWWU21n9jppEf26MDzn.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1658072,
+   "name": "Tomochi Kosaka",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:38:19.717Z"
+}

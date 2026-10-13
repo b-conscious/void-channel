@@ -1,0 +1,325 @@
+{
+ "show": "Peaky Blinders",
+ "slug": "peaky-blinders",
+ "tmdbId": 60574,
+ "cast": [
+  {
+   "id": 2037,
+   "name": "Cillian Murphy",
+   "photo": "https://image.tmdb.org/t/p/w185/2lKs67r7FI4bPu0AXxMUJZxmUXn.jpg",
+   "character": "Thomas Shelby",
+   "episodes": 36
+  },
+  {
+   "id": 220448,
+   "name": "Paul Anderson",
+   "photo": "https://image.tmdb.org/t/p/w185/nds5rTBZvJ4rEsP4N6OaoEgQDkW.jpg",
+   "character": "Arthur Shelby",
+   "episodes": 36
+  },
+  {
+   "id": 1088620,
+   "name": "Sophie Rundle",
+   "photo": "https://image.tmdb.org/t/p/w185/8kZTjHZcvmGo1W53DXM2mjXex2A.jpg",
+   "character": "Ada Shelby",
+   "episodes": 36
+  },
+  {
+   "id": 15737,
+   "name": "Helen McCrory",
+   "photo": "https://image.tmdb.org/t/p/w185/dVtwKuGce3BhUcqfdpxFvpCT8YT.jpg",
+   "character": "Polly Gray",
+   "episodes": 30
+  },
+  {
+   "id": 1508313,
+   "name": "Finn Cole",
+   "photo": "https://image.tmdb.org/t/p/w185/yVWop3BSHbjIecYGqI1ToZIPR3T.jpg",
+   "character": "Michael Gray",
+   "episodes": 28
+  },
+  {
+   "id": 208467,
+   "name": "Ian Peck",
+   "photo": "https://image.tmdb.org/t/p/w185/efEJsO8xhDdpOkWR0ArLl34B47f.jpg",
+   "character": "Curly",
+   "episodes": 27
+  },
+  {
+   "id": 63362,
+   "name": "Ned Dennehy",
+   "photo": "https://image.tmdb.org/t/p/w185/gSEtkD9YwYnIPbnagDc797kMVJ2.jpg",
+   "character": "Charlie Strong",
+   "episodes": 26
+  },
+  {
+   "id": 1167897,
+   "name": "Natasha O'Keeffe",
+   "photo": "https://image.tmdb.org/t/p/w185/tOX10C02tSFnOSra8a8rGuA6QZ5.jpg",
+   "character": "Lizzie Stark",
+   "episodes": 24
+  },
+  {
+   "id": 1839855,
+   "name": "Harry Kirton",
+   "photo": "https://image.tmdb.org/t/p/w185/thWIiFWuW98DdIf7TfcbKEoyS4D.jpg",
+   "character": "Finn  Shelby / Finn Shelby",
+   "episodes": 24
+  },
+  {
+   "id": 1081875,
+   "name": "Joe Cole",
+   "photo": "https://image.tmdb.org/t/p/w185/tJ4g1Zit0IqAhKiImTwAQrHHKuA.jpg",
+   "character": "John Shelby",
+   "episodes": 20
+  },
+  {
+   "id": 211610,
+   "name": "Packy Lee",
+   "photo": "https://image.tmdb.org/t/p/w185/e3E734NTL7OMCkSDTTixLZr8H4E.jpg",
+   "character": "Johnny Dogs",
+   "episodes": 20
+  },
+  {
+   "id": 1392625,
+   "name": "Kate Phillips",
+   "photo": "https://image.tmdb.org/t/p/w185/b8u5SAMAg0p1x7D4wXbr8F1JWJT.jpg",
+   "character": "Linda Shelby / Linda  Shelby",
+   "episodes": 18
+  },
+  {
+   "id": 82809,
+   "name": "Annabelle Wallis",
+   "photo": "https://image.tmdb.org/t/p/w185/2ZmO2Zz9TcR0rmSJHOkivcu0heR.jpg",
+   "character": "Grace Burgess / Grace Shelby",
+   "episodes": 17
+  },
+  {
+   "id": 1224269,
+   "name": "Aimee-Ffion Edwards",
+   "photo": "https://image.tmdb.org/t/p/w185/mpsq3UnNiFgmd3MY2Q6a3ZBMGQ8.jpg",
+   "character": "Esme Shelby",
+   "episodes": 16
+  },
+  {
+   "id": 2524,
+   "name": "Tom Hardy",
+   "photo": "https://image.tmdb.org/t/p/w185/d81K0RH8UX7tZj49tZaQhZ9ewH.jpg",
+   "character": "Alfie Solomons",
+   "episodes": 14
+  },
+  {
+   "id": 1674734,
+   "name": "Jordan Bolger",
+   "photo": "https://image.tmdb.org/t/p/w185/zGSxXrllgm3MNVT0jjvnAQFacPS.jpg",
+   "character": "Isiah Jesus / Isaiah Jesus",
+   "episodes": 14
+  },
+  {
+   "id": 1229255,
+   "name": "Tony Pitts",
+   "photo": "https://image.tmdb.org/t/p/w185/yKxag5eLZJ2Oex5bj8RXWIR3LnC.jpg",
+   "character": "Sergeant Moss / Inspector Moss",
+   "episodes": 13
+  },
+  {
+   "id": 1468453,
+   "name": "Benjamin Zephaniah",
+   "photo": "https://image.tmdb.org/t/p/w185/9Ea2PSL6Y3eZHLtMLaHSdxR7GpN.jpg",
+   "character": "Jeremiah Jesus",
+   "episodes": 13
+  },
+  {
+   "id": 4783,
+   "name": "Sam Neill",
+   "photo": "https://image.tmdb.org/t/p/w185/iIfuxalf37xUayuGyK0zG7z6WEZ.jpg",
+   "character": "C.I. Chester Campbell / Major Chester Campbell",
+   "episodes": 12
+  },
+  {
+   "id": 1397778,
+   "name": "Anya Taylor-Joy",
+   "photo": "https://image.tmdb.org/t/p/w185/yZpghhtKM2VZHDx6JGAZqAVU4PL.jpg",
+   "character": "Gina Gray",
+   "episodes": 11
+  },
+  {
+   "id": 237455,
+   "name": "Sam Claflin",
+   "photo": "https://image.tmdb.org/t/p/w185/e5CU4tjCNZFfm7ITmZfzjZse2Bb.jpg",
+   "character": "Oswald Mosley",
+   "episodes": 11
+  },
+  {
+   "id": 49735,
+   "name": "Aidan Gillen",
+   "photo": "https://image.tmdb.org/t/p/w185/fWWRgyJEGjOPcx43CaFiUCWMBLo.jpg",
+   "character": "Aberama Gold",
+   "episodes": 9
+  },
+  {
+   "id": 1356630,
+   "name": "Charlie Murphy",
+   "photo": "https://image.tmdb.org/t/p/w185/AaugO5Qq1Opp3Dv6JuH5ESJYmo9.jpg",
+   "character": "Jessie Eden",
+   "episodes": 7
+  },
+  {
+   "id": 1417352,
+   "name": "Kingsley Ben-Adir",
+   "photo": "https://image.tmdb.org/t/p/w185/yCJNGOQKavWqOZSIEPKvQVlyAwA.jpg",
+   "character": "Col Ben Younger",
+   "episodes": 7
+  }
+ ],
+ "crew": [
+  {
+   "id": 23227,
+   "name": "Steven Knight",
+   "photo": "https://image.tmdb.org/t/p/w185/vmM9j2yXI8A3AccX3YgOEZHQWcO.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 36
+  },
+  {
+   "id": 59420,
+   "name": "Caryn Mandabach",
+   "photo": "https://image.tmdb.org/t/p/w185/9JMAeNmjFFc4d1RnPz4XHEFysLq.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 36
+  },
+  {
+   "id": 1231663,
+   "name": "Jamie Glazebrook",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 36
+  },
+  {
+   "id": 1243778,
+   "name": "Frith Tiplady",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 2037,
+   "name": "Cillian Murphy",
+   "photo": "https://image.tmdb.org/t/p/w185/2lKs67r7FI4bPu0AXxMUJZxmUXn.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1257853,
+   "name": "Will Gould",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 2022713,
+   "name": "Tommy Bulfin",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 233263,
+   "name": "Anthony Byrne",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1170386,
+   "name": "Matthew Read",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1351364,
+   "name": "David Mason",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1231927,
+   "name": "Colm McCarthy",
+   "photo": "https://image.tmdb.org/t/p/w185/iTVWq0wCVoKf6pfrJvdTlVWyems.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 108497,
+   "name": "David Caffrey",
+   "photo": "https://image.tmdb.org/t/p/w185/3xT9mu5NsnuFYBT41xJNXOXxfcB.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1461490,
+   "name": "Tim Mielants",
+   "photo": "https://image.tmdb.org/t/p/w185/xCJc9SIcRRumlSQ8AEgWVI4Snpa.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 462,
+   "name": "Greg Brenman",
+   "photo": "https://image.tmdb.org/t/p/w185/eezZOgliJkXE7bqynh3dVPsOqLc.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 4016292,
+   "name": "Lucy Bedford",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1238126,
+   "name": "Patrick Spence",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 6
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:50.255Z"
+}

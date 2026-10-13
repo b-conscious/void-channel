@@ -1,0 +1,324 @@
+{
+ "show": "Aria",
+ "slug": "aria",
+ "tmdbId": 53787,
+ "cast": [
+  {
+   "id": 1251443,
+   "name": "Erino Hazuki",
+   "photo": "https://image.tmdb.org/t/p/w185/19Yq9TVah027TVZTA96DbgncQE3.jpg",
+   "character": "Akari Mizunashi (voice)",
+   "episodes": 52
+  },
+  {
+   "id": 148447,
+   "name": "Sayaka Ohara",
+   "photo": "https://image.tmdb.org/t/p/w185/4lAqrOmkOP3U9Owwijtvc8PaCDx.jpg",
+   "character": "Alicia Florence (voice)",
+   "episodes": 52
+  },
+  {
+   "id": 124480,
+   "name": "Chinami Nishimura",
+   "photo": "https://image.tmdb.org/t/p/w185/tZMRhHwuSBoHqzB3ci3oEA3GNL.jpg",
+   "character": "Aria Pokoteng (voice)",
+   "episodes": 52
+  },
+  {
+   "id": 1239110,
+   "name": "Kaori Mizuhashi",
+   "photo": "https://image.tmdb.org/t/p/w185/eDhVZ9en7T4lvsQ99OkRizroSQd.jpg",
+   "character": "Ai Aino / Hime M. Granzchesta (voice)",
+   "episodes": 52
+  },
+  {
+   "id": 81245,
+   "name": "Chiwa Saito",
+   "photo": "https://image.tmdb.org/t/p/w185/jxWuA4K0ZPkOQMeIgLlzaHSkgiV.jpg",
+   "character": "Aika S. Granzchesta (voice) / Akina (voice)",
+   "episodes": 52
+  },
+  {
+   "id": 230747,
+   "name": "Ryo Hirohashi",
+   "photo": "https://image.tmdb.org/t/p/w185/6CIsUKnB9DLjjMdbcPch3kmuf85.jpg",
+   "character": "Anita (voice) / Glass Shop Customer (voice) / Alice Carroll (voice)",
+   "episodes": 52
+  },
+  {
+   "id": 587350,
+   "name": "Akeno Watanabe",
+   "photo": "https://image.tmdb.org/t/p/w185/4E05IJxvTGNHb2GSaiyxbCZ5nd8.jpg",
+   "character": "Maa (voice) / Aleph (voice) / Albert 'Al' Pitt (voice)",
+   "episodes": 26
+  },
+  {
+   "id": 124476,
+   "name": "Tomoko Kawakami",
+   "photo": "https://image.tmdb.org/t/p/w185/4xvVKpywBleftdZdAcDeU9tmEmu.jpg",
+   "character": "Angie (voice) / Athena Glory (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 228234,
+   "name": "Junko Minagawa",
+   "photo": "https://image.tmdb.org/t/p/w185/vylNOlXVmYFW8TJgq3Dvgoq1dy5.jpg",
+   "character": "Akira E. Ferrari (voice) / Aki (voice)",
+   "episodes": 23
+  },
+  {
+   "id": 1221026,
+   "name": "Hirofumi Nojima",
+   "photo": "https://image.tmdb.org/t/p/w185/sKj8nGVxv4hci3xuZgiFYPZvaX5.jpg",
+   "character": "Akatsuki Izumo (voice)",
+   "episodes": 14
+  },
+  {
+   "id": 65427,
+   "name": "Yuji Ueda",
+   "photo": "https://image.tmdb.org/t/p/w185/nwJBK4WwsUCcBcX425GD2BroJDr.jpg",
+   "character": "Udo 'Woody' Ayanokohji the 51st (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 1241581,
+   "name": "Yoshiko Matsuo",
+   "photo": "https://image.tmdb.org/t/p/w185/7dcEHT9awxXC6mjyLaDRkLXdpSO.jpg",
+   "character": "Akino 'Grandma' Ametsuchi (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 1220942,
+   "name": "Eriko Kigawa",
+   "photo": "https://image.tmdb.org/t/p/w185/h0tJbvIh01Vai5wYHuDd9YAriOi.jpg",
+   "character": "Ai's Mother (voice) / Girl A (voice) / Orange Planet Senior 2 (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 215919,
+   "name": "Motomu Kiyokawa",
+   "photo": "https://image.tmdb.org/t/p/w185/ohqgdiyBnZjXMtwi0Z3RQxXfVhF.jpg",
+   "character": "Namihei 'Mr. Mailman' Anno (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 122654,
+   "name": "Hisao Egawa",
+   "photo": "https://image.tmdb.org/t/p/w185/7uZ43mElJTJqLsQwTkntFN4REGT.jpg",
+   "character": "Akatsuki's Brother (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 1252960,
+   "name": "Akira Tomisaka",
+   "photo": null,
+   "character": "Akio (voice) / Orange Planet Undine 1 (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 1991235,
+   "name": "Tomomi Watanabe",
+   "photo": "https://image.tmdb.org/t/p/w185/kBdt2O7PbYm5ejkMX3aWbPel8vw.jpg",
+   "character": "Undine C (voice) / Wife (voice) / Boy A (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 1147713,
+   "name": "Masayo Kurata",
+   "photo": "https://image.tmdb.org/t/p/w185/kWzkJFNve1hQabKFOUBQ6IvM7jP.jpg",
+   "character": "Ami (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 126483,
+   "name": "Yoko Asada",
+   "photo": "https://image.tmdb.org/t/p/w185/mAyuP7DVw9Nri1qWHltwzB3xHXT.jpg",
+   "character": "Akiko Hoshino (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 68916,
+   "name": "Unsho Ishizuka",
+   "photo": "https://image.tmdb.org/t/p/w185/nmj1vTrJc0zvuUYqxSyWXmIGBlP.jpg",
+   "character": "Café Owner (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 1201637,
+   "name": "Yuko Sanpei",
+   "photo": "https://image.tmdb.org/t/p/w185/gms4G7ZRIQYXI9zsorkQr8aHnOU.jpg",
+   "character": "Akatsuki Izumo as a Child (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 1252996,
+   "name": "Ai Matayoshi",
+   "photo": "https://image.tmdb.org/t/p/w185/795mQ1IlrvkoFp9QvuYap0X4Udj.jpg",
+   "character": "Girl B (voice) / Orange Planet Undine 2 (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 1241603,
+   "name": "Kimiko Saito",
+   "photo": "https://image.tmdb.org/t/p/w185/rPP0jCjtLuEEroY3e2aRT8zonYK.jpg",
+   "character": "Udo 'Woody' Ayanokohji the 51st as a Child (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 1243965,
+   "name": "Tomohisa Aso",
+   "photo": "https://image.tmdb.org/t/p/w185/4tC6CfvQnQpIMclDyGncKbz46w3.jpg",
+   "character": "Ai's Father (voice) / Baked Potato Seller (voice)",
+   "episodes": 2
+  }
+ ],
+ "crew": [
+  {
+   "id": 1556196,
+   "name": "Takeshi Senoo",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 104
+  },
+  {
+   "id": 1556194,
+   "name": "Choro Club",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 104
+  },
+  {
+   "id": 106577,
+   "name": "Junichi Sato",
+   "photo": "https://image.tmdb.org/t/p/w185/ckKxvO5rmHG9nh4ZarKffR3iYUv.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 54
+  },
+  {
+   "id": 1062401,
+   "name": "Kenichi Takeshita",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 43
+  },
+  {
+   "id": 1535389,
+   "name": "Takahiro Natori",
+   "photo": "https://image.tmdb.org/t/p/w185/aF16e0RoSgKSzha9IJzFSiXp3C8.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 36
+  },
+  {
+   "id": 1649345,
+   "name": "Kazunobu Fuseki",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 78373,
+   "name": "Reiko Yoshida",
+   "photo": "https://image.tmdb.org/t/p/w185/5LUxL8rdUtMdqxx8pnWp6PM0wKp.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 2171388,
+   "name": "Ayuna Fujisaki",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 2177827,
+   "name": "Daisuke Tsukushi",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 221758,
+   "name": "Tatsuhiko Urahata",
+   "photo": "https://image.tmdb.org/t/p/w185/vi5FmymB2muVuvyyq0LWYsrg05a.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 2170079,
+   "name": "Shintaro Itoga",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 2018863,
+   "name": "Mitsuhiro Karato",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 934636,
+   "name": "Ken Ando",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1257117,
+   "name": "Mari Okada",
+   "photo": "https://image.tmdb.org/t/p/w185/mfq0VCH3tWJGOUGk1ivtyBH1wz3.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1558199,
+   "name": "Naomichi Yamato",
+   "photo": "https://image.tmdb.org/t/p/w185/tCL0EjB4qSDwZId9t4FnuPbLTEh.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1293878,
+   "name": "Masato Tamagawa",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:40:40.693Z"
+}

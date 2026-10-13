@@ -1,0 +1,331 @@
+{
+ "show": "Hannibal",
+ "slug": "hannibal",
+ "tmdbId": 40008,
+ "cast": [
+  {
+   "id": 1019,
+   "name": "Mads Mikkelsen",
+   "photo": "https://image.tmdb.org/t/p/w185/AsX4bdvZ8UCayWTmAf9lAqOA8V7.jpg",
+   "character": "Dr. Hannibal Lecter",
+   "episodes": 39
+  },
+  {
+   "id": 12791,
+   "name": "Hugh Dancy",
+   "photo": "https://image.tmdb.org/t/p/w185/6UIiS3nxdNTbIo0G2kFNXpcDKhE.jpg",
+   "character": "Will Graham",
+   "episodes": 39
+  },
+  {
+   "id": 2975,
+   "name": "Laurence Fishburne",
+   "photo": "https://image.tmdb.org/t/p/w185/2GbXERENPpl5MmlqOLlPVaVtifD.jpg",
+   "character": "Jack Crawford",
+   "episodes": 39
+  },
+  {
+   "id": 31383,
+   "name": "Caroline Dhavernas",
+   "photo": "https://image.tmdb.org/t/p/w185/p3yP2JVSqcZGXUeLnuiJMBXERjF.jpg",
+   "character": "Dr. Alana Bloom",
+   "episodes": 39
+  },
+  {
+   "id": 56262,
+   "name": "Aaron Abrams",
+   "photo": "https://image.tmdb.org/t/p/w185/uCtc7ouysFZ5dMwcTXiKw1ezuL.jpg",
+   "character": "Brian Zeller",
+   "episodes": 27
+  },
+  {
+   "id": 78576,
+   "name": "Scott Thompson",
+   "photo": "https://image.tmdb.org/t/p/w185/lBvadhxdANl9JQo6HkK7ou4jWkS.jpg",
+   "character": "Jimmy Price",
+   "episodes": 27
+  },
+  {
+   "id": 12214,
+   "name": "Gillian Anderson",
+   "photo": "https://image.tmdb.org/t/p/w185/3Ny8ZYahb33vpqNEPNCE2IOXPew.jpg",
+   "character": "Dr. Bedelia Du Maurier",
+   "episodes": 21
+  },
+  {
+   "id": 1038625,
+   "name": "Kacey Rohl",
+   "photo": "https://image.tmdb.org/t/p/w185/q8GJEM0Efuz2LLeEIdXQFOAHNRL.jpg",
+   "character": "Abigail Hobbs",
+   "episodes": 13
+  },
+  {
+   "id": 1102260,
+   "name": "Lara Jean Chorostecki",
+   "photo": "https://image.tmdb.org/t/p/w185/aPVcNoxHWHz96tixtxH20zLJvJH.jpg",
+   "character": "Freddie Lounds",
+   "episodes": 13
+  },
+  {
+   "id": 107515,
+   "name": "Raúl Esparza",
+   "photo": "https://image.tmdb.org/t/p/w185/m0qln1HWU0u29x4kAww719bndAw.jpg",
+   "character": "Dr. Frederick Chilton",
+   "episodes": 12
+  },
+  {
+   "id": 1254971,
+   "name": "Vladimir Jon Cubrt",
+   "photo": "https://image.tmdb.org/t/p/w185/sBHvl13n1b2prCOXh677sCj1mNe.jpg",
+   "character": "Garret Jacob Hobbs",
+   "episodes": 10
+  },
+  {
+   "id": 27136,
+   "name": "Katharine Isabelle",
+   "photo": "https://image.tmdb.org/t/p/w185/hX6i25ieoEJEZ1jV81qob2Na0su.jpg",
+   "character": "Margot Verger",
+   "episodes": 9
+  },
+  {
+   "id": 30315,
+   "name": "Richard Armitage",
+   "photo": "https://image.tmdb.org/t/p/w185/oNoKjTOUNUiJ01UNQSCQDkt5EHi.jpg",
+   "character": "Francis Dolarhyde",
+   "episodes": 6
+  },
+  {
+   "id": 1218184,
+   "name": "Hettienne Park",
+   "photo": "https://image.tmdb.org/t/p/w185/c5fZeiKZ6magmPWbLJkSjKm5oUX.jpg",
+   "character": "Beverly Katz",
+   "episodes": 5
+  },
+  {
+   "id": 210773,
+   "name": "Rutina Wesley",
+   "photo": "https://image.tmdb.org/t/p/w185/ujpdNAKxlv6TRI2mm0k3eSSZJkB.jpg",
+   "character": "Reba McClane",
+   "episodes": 5
+  },
+  {
+   "id": 9576,
+   "name": "Gina Torres",
+   "photo": "https://image.tmdb.org/t/p/w185/ukDNHgvEgdU95eaw6pngiAPucv4.jpg",
+   "character": "Bella Crawford",
+   "episodes": 5
+  },
+  {
+   "id": 1156024,
+   "name": "Tao Okamoto",
+   "photo": "https://image.tmdb.org/t/p/w185/ztnb6OVslOSaTILOvGVpUOCY88W.jpg",
+   "character": "Chiyo",
+   "episodes": 4
+  },
+  {
+   "id": 2710169,
+   "name": "Krista Patton",
+   "photo": null,
+   "character": "Louise Hobbs",
+   "episodes": 4
+  },
+  {
+   "id": 29234,
+   "name": "Joe Anderson",
+   "photo": "https://image.tmdb.org/t/p/w185/x0Fz2mIMU4Prk7I43pn87Fyno40.jpg",
+   "character": "Mason Verger",
+   "episodes": 4
+  },
+  {
+   "id": 34612,
+   "name": "Anna Chlumsky",
+   "photo": "https://image.tmdb.org/t/p/w185/y5FMFdsORlQVhUWiR8yC35COlpO.jpg",
+   "character": "Miriam Lass",
+   "episodes": 4
+  },
+  {
+   "id": 1343864,
+   "name": "Fortunato Cerlino",
+   "photo": "https://image.tmdb.org/t/p/w185/4tibFPR632uYcm0ewrbn11POpLf.jpg",
+   "character": "Insp. Rinaldo Pazzi",
+   "episodes": 4
+  },
+  {
+   "id": 38024,
+   "name": "Cynthia Nixon",
+   "photo": "https://image.tmdb.org/t/p/w185/sSl5zvn1R56nkbcL52JGO1BY7z0.jpg",
+   "character": "Kade Prurnell",
+   "episodes": 4
+  },
+  {
+   "id": 971329,
+   "name": "Nina Arianda",
+   "photo": "https://image.tmdb.org/t/p/w185/5vGdet2Gg7XPRgs0OvCrSwAk8QX.jpg",
+   "character": "Molly Graham",
+   "episodes": 4
+  },
+  {
+   "id": 10692,
+   "name": "Michael Pitt",
+   "photo": "https://image.tmdb.org/t/p/w185/mKSjyfqcXTVjFhIFw6Esjlz1Tps.jpg",
+   "character": "Mason Verger",
+   "episodes": 3
+  }
+ ],
+ "crew": [
+  {
+   "id": 17311,
+   "name": "Bryan Fuller",
+   "photo": "https://image.tmdb.org/t/p/w185/yeGxbuZ1Wzv8qhTDkdrIQfxKGkW.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 43
+  },
+  {
+   "id": 19051,
+   "name": "Martha De Laurentiis",
+   "photo": "https://image.tmdb.org/t/p/w185/3woFIjy1piFw21nLG8Uwx0P7Xyy.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 40839,
+   "name": "Brian Reitzell",
+   "photo": "https://image.tmdb.org/t/p/w185/3EwYYwBxzBuCqA0S4Qi2IIASmkM.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 64506,
+   "name": "Chris Brancato",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 1240816,
+   "name": "Steve Lightfoot",
+   "photo": "https://image.tmdb.org/t/p/w185/2CPBXSicKlQO0xnhmYgEhWUGL42.jpg",
+   "jobs": [
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 23
+  },
+  {
+   "id": 28741,
+   "name": "Michael Rymer",
+   "photo": "https://image.tmdb.org/t/p/w185/bIBJifvtbH8sosRoii9gKNZ10VA.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1215611,
+   "name": "Scott Nimerfro",
+   "photo": "https://image.tmdb.org/t/p/w185/t2xkgTCUa6VqHHARC57ptwwxZh0.jpg",
+   "jobs": [
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 3113,
+   "name": "Guillermo Navarro",
+   "photo": "https://image.tmdb.org/t/p/w185/snJxTbayKfmmCjM2WDJ8lHHRgYm.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 5877,
+   "name": "Vincenzo Natali",
+   "photo": "https://image.tmdb.org/t/p/w185/rvYH9Ns2rTZ4X8OlMkfSCh7FPET.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1218781,
+   "name": "Jeff Vlaming",
+   "photo": "https://image.tmdb.org/t/p/w185/eTJcwP4M97kfdzSReZCU1HvQ3gj.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 27571,
+   "name": "David Slade",
+   "photo": "https://image.tmdb.org/t/p/w185/9jL9OasecqvhQFvGYQtB4K6omGf.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 15858,
+   "name": "Tim Hunter",
+   "photo": "https://image.tmdb.org/t/p/w185/n03G1gCKqxpi6udwINygNiLoGdn.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 82623,
+   "name": "Andrew Black",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 21377,
+   "name": "Peter Medak",
+   "photo": "https://image.tmdb.org/t/p/w185/oUPjJXMOSomwrqFx4eobxROVZOV.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1114792,
+   "name": "Nick Antosca",
+   "photo": "https://image.tmdb.org/t/p/w185/vDG608gWyZX8PPhJyDW5FCFls2U.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1367587,
+   "name": "Kai Yu Wu",
+   "photo": "https://image.tmdb.org/t/p/w185/eshO0OO94KD7pbpcbG7nmlus0rv.jpg",
+   "jobs": [
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 3
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:18.281Z"
+}

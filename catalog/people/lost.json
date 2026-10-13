@@ -1,0 +1,338 @@
+{
+ "show": "Lost",
+ "slug": "lost",
+ "tmdbId": 4607,
+ "cast": [
+  {
+   "id": 28657,
+   "name": "Matthew Fox",
+   "photo": "https://image.tmdb.org/t/p/w185/6VIfueb4j3GCsIhxnstsXlY5C3Y.jpg",
+   "character": "Jack Shephard",
+   "episodes": 118
+  },
+  {
+   "id": 19034,
+   "name": "Evangeline Lilly",
+   "photo": "https://image.tmdb.org/t/p/w185/pJHX2jd7ytre3NQbF9nlyWUqxH3.jpg",
+   "character": "Kate Austen",
+   "episodes": 118
+  },
+  {
+   "id": 12646,
+   "name": "Terry O'Quinn",
+   "photo": "https://image.tmdb.org/t/p/w185/kSweOGPprLe1vDvu38wJQaWIih7.jpg",
+   "character": "John Locke",
+   "episodes": 118
+  },
+  {
+   "id": 142636,
+   "name": "Josh Holloway",
+   "photo": "https://image.tmdb.org/t/p/w185/biuhUJn5BDhXpfKvVW4dVUxvB44.jpg",
+   "character": "James Sawyer",
+   "episodes": 118
+  },
+  {
+   "id": 1215525,
+   "name": "Jorge Garcia",
+   "photo": "https://image.tmdb.org/t/p/w185/hIt31bI76cvwijImRZke3WCoEI4.jpg",
+   "character": "Hurley Reyes",
+   "episodes": 118
+  },
+  {
+   "id": 5471,
+   "name": "Naveen Andrews",
+   "photo": "https://image.tmdb.org/t/p/w185/9b1hxbOZnfofDKSo2tcD1FMPGmx.jpg",
+   "character": "Sayid Jarrah",
+   "episodes": 118
+  },
+  {
+   "id": 1330,
+   "name": "Dominic Monaghan",
+   "photo": "https://image.tmdb.org/t/p/w185/h3VEhi6cMaEdmmvoH3keWTv4vEb.jpg",
+   "character": "Charlie Pace",
+   "episodes": 118
+  },
+  {
+   "id": 6195,
+   "name": "Harold Perrineau",
+   "photo": "https://image.tmdb.org/t/p/w185/bVSLpGUaislREbujmknOqadrxYM.jpg",
+   "character": "Michael Dawson",
+   "episodes": 118
+  },
+  {
+   "id": 28662,
+   "name": "Yunjin Kim",
+   "photo": "https://image.tmdb.org/t/p/w185/xS7eco56mUiZGJGWDZ0pwzrUAei.jpg",
+   "character": "Sun-Hwa Kwon",
+   "episodes": 118
+  },
+  {
+   "id": 18307,
+   "name": "Daniel Dae Kim",
+   "photo": "https://image.tmdb.org/t/p/w185/AtKRWsC4UhEjzorWlL2eguzZ9XM.jpg",
+   "character": "Jin-Soo Kwon",
+   "episodes": 118
+  },
+  {
+   "id": 28660,
+   "name": "Emilie de Ravin",
+   "photo": "https://image.tmdb.org/t/p/w185/T4pyhFEPC8zSgUz9p3uQT2J5zX.jpg",
+   "character": "Claire Littleton",
+   "episodes": 101
+  },
+  {
+   "id": 2136,
+   "name": "Michael Emerson",
+   "photo": "https://image.tmdb.org/t/p/w185/xOpr90SF1RCtjFNTu32nZQ90buY.jpg",
+   "character": "Henry Gale / Benjamin Linus",
+   "episodes": 79
+  },
+  {
+   "id": 31166,
+   "name": "Henry Ian Cusick",
+   "photo": "https://image.tmdb.org/t/p/w185/kgPbmYVVP0q0I5bSPdyNyjBOJik.jpg",
+   "character": "Desmond Hume",
+   "episodes": 75
+  },
+  {
+   "id": 31167,
+   "name": "Elizabeth Mitchell",
+   "photo": "https://image.tmdb.org/t/p/w185/tpagVmiCbOQ8CPiRxF5MuZGfZGV.jpg",
+   "character": "Juliet Burke",
+   "episodes": 55
+  },
+  {
+   "id": 2131,
+   "name": "Ken Leung",
+   "photo": "https://image.tmdb.org/t/p/w185/hpatUP6u74gkpDRmn9voNY9V43O.jpg",
+   "character": "Miles Straume",
+   "episodes": 47
+  },
+  {
+   "id": 21316,
+   "name": "Nestor Carbonell",
+   "photo": "https://image.tmdb.org/t/p/w185/4Xn03t2qDEMR2ecM7BtLwpvs3J0.jpg",
+   "character": "Richard Alpert",
+   "episodes": 37
+  },
+  {
+   "id": 77078,
+   "name": "Malcolm David Kelley",
+   "photo": "https://image.tmdb.org/t/p/w185/8RZ00Ei4u37zXlusUgvlQoR3xvF.jpg",
+   "character": "Walt Lloyd",
+   "episodes": 35
+  },
+  {
+   "id": 4654,
+   "name": "Jeremy Davies",
+   "photo": "https://image.tmdb.org/t/p/w185/tNtcpQnMxzl0OqVDsyA63oAgPbI.jpg",
+   "character": "Daniel Faraday",
+   "episodes": 32
+  },
+  {
+   "id": 20495,
+   "name": "Jeff Fahey",
+   "photo": "https://image.tmdb.org/t/p/w185/zRu1ZmM7ekKwKbmXn3U0VjD8Wyd.jpg",
+   "character": "Frank Lapidus",
+   "episodes": 32
+  },
+  {
+   "id": 11825,
+   "name": "Maggie Grace",
+   "photo": "https://image.tmdb.org/t/p/w185/fEZSGno4ooPgFjuGzE7ogsWEHsh.jpg",
+   "character": "Shannon Rutherford",
+   "episodes": 31
+  },
+  {
+   "id": 19211,
+   "name": "Ian Somerhalder",
+   "photo": "https://image.tmdb.org/t/p/w185/tSrMGbxGYhda5f2870mfTtn9CG7.jpg",
+   "character": "Boone Carlyle",
+   "episodes": 30
+  },
+  {
+   "id": 17647,
+   "name": "Michelle Rodriguez",
+   "photo": "https://image.tmdb.org/t/p/w185/wVcbrae4eRqGMFZz8Eh52Dl1biP.jpg",
+   "character": "Ana Lucia Cortez",
+   "episodes": 27
+  },
+  {
+   "id": 36216,
+   "name": "Cynthia Watros",
+   "photo": "https://image.tmdb.org/t/p/w185/iVWPrP0j4SQlfSjnB03P6Ud5OrS.jpg",
+   "character": "Libby Smith",
+   "episodes": 27
+  },
+  {
+   "id": 31164,
+   "name": "Adewale Akinnuoye-Agbaje",
+   "photo": "https://image.tmdb.org/t/p/w185/zdtwVtVmmm7VzYfu8xH7mbuTvrH.jpg",
+   "character": "Eko Tunde",
+   "episodes": 27
+  }
+ ],
+ "crew": [
+  {
+   "id": 15344,
+   "name": "J.J. Abrams",
+   "photo": "https://image.tmdb.org/t/p/w185/k4IWd2RV5kY1kAL2VgKQwFvnCLP.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 118
+  },
+  {
+   "id": 28974,
+   "name": "Damon Lindelof",
+   "photo": "https://image.tmdb.org/t/p/w185/9V75oRAKiI0chdg1wGh1wPqaXsG.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 118
+  },
+  {
+   "id": 1237491,
+   "name": "Jeffrey Lieber",
+   "photo": "https://image.tmdb.org/t/p/w185/rxu3tvB8h4T4H8kvpPJQ5ECDlp4.jpg",
+   "jobs": [
+    "Creator",
+    "Story"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 28977,
+   "name": "Bryan Burk",
+   "photo": "https://image.tmdb.org/t/p/w185/j3EyXbR7gRYzcp5iDxFvHlPc09S.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 118
+  },
+  {
+   "id": 1237509,
+   "name": "Jean Higgins",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 118
+  },
+  {
+   "id": 161839,
+   "name": "Carlton Cuse",
+   "photo": "https://image.tmdb.org/t/p/w185/40GhFizBF2jwU3tUi5FsxJPzDjt.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 118
+  },
+  {
+   "id": 28976,
+   "name": "Jack Bender",
+   "photo": "https://image.tmdb.org/t/p/w185/k0WxQFE0ecGSSJ3H9tt2Eqcn0FX.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 116
+  },
+  {
+   "id": 1214367,
+   "name": "Adam Horowitz",
+   "photo": "https://image.tmdb.org/t/p/w185/rw5D1tDe3CO9Wfuu5BD6eaMnkEA.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 101
+  },
+  {
+   "id": 1214366,
+   "name": "Edward Kitsis",
+   "photo": "https://image.tmdb.org/t/p/w185/5Re9mReATq4ZMRuxkona0YzQ1Dt.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 101
+  },
+  {
+   "id": 167784,
+   "name": "Elizabeth Sarnoff",
+   "photo": "https://image.tmdb.org/t/p/w185/3lZYyjfJfnVTNf78sPnACZzD3pq.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 94
+  },
+  {
+   "id": 15347,
+   "name": "Michael Giacchino",
+   "photo": "https://image.tmdb.org/t/p/w185/xgurVFMLVgtgz9f5bgrrCppm4xq.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 166461,
+   "name": "Stephen Williams",
+   "photo": "https://image.tmdb.org/t/p/w185/cXQOyjxLEaUct5AiXYOiDWjl7F1.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 168309,
+   "name": "Jeff Pinkner",
+   "photo": "https://image.tmdb.org/t/p/w185/kNGnNjc4r5pPLuReF4BFQ4TpxJ3.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 23
+  },
+  {
+   "id": 209343,
+   "name": "Brian K. Vaughan",
+   "photo": "https://image.tmdb.org/t/p/w185/9w2ATQ4YW4Kpp9zA90jMEWzstow.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 1402095,
+   "name": "Paul A. Edwards",
+   "photo": "https://image.tmdb.org/t/p/w185/px41H7ZyuJK2I6rKRFjU400C0TJ.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 47506,
+   "name": "Drew Goddard",
+   "photo": "https://image.tmdb.org/t/p/w185/2ff2wbCu0kc61JDHgBiPSqtb3e3.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:31:27.848Z"
+}

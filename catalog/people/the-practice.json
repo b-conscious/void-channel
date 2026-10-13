@@ -1,0 +1,336 @@
+{
+ "show": "The Practice",
+ "slug": "the-practice",
+ "tmdbId": 3050,
+ "cast": [
+  {
+   "id": 2202,
+   "name": "Steve Harris",
+   "photo": "https://image.tmdb.org/t/p/w185/6qD0I3RPe2ivV5GdXgW3tJHSu1e.jpg",
+   "character": "Eugene Young",
+   "episodes": 168
+  },
+  {
+   "id": 20187,
+   "name": "Camryn Manheim",
+   "photo": "https://image.tmdb.org/t/p/w185/jBriBpXLkgJW7ONUIMuK1k99Ywp.jpg",
+   "character": "Ellenor Frutt",
+   "episodes": 168
+  },
+  {
+   "id": 1010,
+   "name": "Michael Badalucco",
+   "photo": "https://image.tmdb.org/t/p/w185/ntqAjxrBsyXbRzAaln4ynSBTE1r.jpg",
+   "character": "Jimmy Berluti",
+   "episodes": 168
+  },
+  {
+   "id": 32597,
+   "name": "Dylan McDermott",
+   "photo": "https://image.tmdb.org/t/p/w185/3i69RNLuL7KOD9pCmHQYruhcOdn.jpg",
+   "character": "Bobby Donnell",
+   "episodes": 148
+  },
+  {
+   "id": 64908,
+   "name": "LisaGay Hamilton",
+   "photo": "https://image.tmdb.org/t/p/w185/bqfowff4gF0cGaQ1c7F89HAL3DH.jpg",
+   "character": "Rebecca Washington",
+   "episodes": 146
+  },
+  {
+   "id": 95468,
+   "name": "Kelli Williams",
+   "photo": "https://image.tmdb.org/t/p/w185/6P8MzCm2rgBJFVciaka2r6E6TIt.jpg",
+   "character": "Lindsay Dole",
+   "episodes": 146
+  },
+  {
+   "id": 6684,
+   "name": "Lara Flynn Boyle",
+   "photo": "https://image.tmdb.org/t/p/w185/1VL97IlddM29sypHuI36XY2h5Z2.jpg",
+   "character": "Helen Gamble",
+   "episodes": 132
+  },
+  {
+   "id": 80109,
+   "name": "Marla Sokoloff",
+   "photo": "https://image.tmdb.org/t/p/w185/9al9Fhb4cNRIx3YSp2DlzWpWfi3.jpg",
+   "character": "Lucy Hatcher",
+   "episodes": 115
+  },
+  {
+   "id": 1213027,
+   "name": "Ray Abruzzo",
+   "photo": "https://image.tmdb.org/t/p/w185/x0Qf3LP7q6CAvfQk2TRH6dILrKb.jpg",
+   "character": "Michael McGuire",
+   "episodes": 45
+  },
+  {
+   "id": 2205,
+   "name": "Jessica Capshaw",
+   "photo": "https://image.tmdb.org/t/p/w185/ePpM2GPe5OXjtyesq06J3S1WCB.jpg",
+   "character": "Jamie Stringer",
+   "episodes": 44
+  },
+  {
+   "id": 11318,
+   "name": "Holland Taylor",
+   "photo": "https://image.tmdb.org/t/p/w185/jt9yFB3nLfZQ0c1DcnvvcfA11gB.jpg",
+   "character": "Roberta Kittleson",
+   "episodes": 29
+  },
+  {
+   "id": 19978,
+   "name": "Jason Kravits",
+   "photo": "https://image.tmdb.org/t/p/w185/kTaZGtOP3SR6kosdRLyeQayfjcF.jpg",
+   "character": "Richard Bay",
+   "episodes": 25
+  },
+  {
+   "id": 17200,
+   "name": "Bill Smitrovich",
+   "photo": "https://image.tmdb.org/t/p/w185/dtLvDK5Z4PHzRj8ngtGake8YDsU.jpg",
+   "character": "Kenneth Walsh",
+   "episodes": 23
+  },
+  {
+   "id": 12516,
+   "name": "Linda Hunt",
+   "photo": "https://image.tmdb.org/t/p/w185/leiVNArKBQTmE5ROovNJWiW9kfk.jpg",
+   "character": "Zoey Hiller",
+   "episodes": 23
+  },
+  {
+   "id": 13548,
+   "name": "James Spader",
+   "photo": "https://image.tmdb.org/t/p/w185/3gurW3OgDOD4hcqDfgcqUnoNg34.jpg",
+   "character": "Alan Shore",
+   "episodes": 22
+  },
+  {
+   "id": 25702,
+   "name": "Rhona Mitra",
+   "photo": "https://image.tmdb.org/t/p/w185/1YThpok3Wk3BBy0pcUTcpuZyOBB.jpg",
+   "character": "Tara Wilson",
+   "episodes": 22
+  },
+  {
+   "id": 80416,
+   "name": "Richard McGonagle",
+   "photo": "https://image.tmdb.org/t/p/w185/eso1WgiZiqwOb1vp2sOF6uJyJn1.jpg",
+   "character": "Patrick Wilcox",
+   "episodes": 16
+  },
+  {
+   "id": 25544,
+   "name": "James Pickens Jr.",
+   "photo": "https://image.tmdb.org/t/p/w185/iddDcaysDQ6IVMUjJ97Bv3lTBCu.jpg",
+   "character": "Mike McKrew",
+   "episodes": 15
+  },
+  {
+   "id": 104060,
+   "name": "Frank Birney",
+   "photo": "https://image.tmdb.org/t/p/w185/17yb0UBTM4Ls1EHmYHRlSobCLpk.jpg",
+   "character": "Warren West",
+   "episodes": 14
+  },
+  {
+   "id": 81903,
+   "name": "Herb Mitchell",
+   "photo": "https://image.tmdb.org/t/p/w185/sGb5gk3Hm6nxkDvS04NJyO2P3yC.jpg",
+   "character": "Rodney White",
+   "episodes": 13
+  },
+  {
+   "id": 53249,
+   "name": "Michael Monks",
+   "photo": "https://image.tmdb.org/t/p/w185/jlSNQND26pDrxFih2ImhgqGOirn.jpg",
+   "character": "George Vogelman",
+   "episodes": 11
+  },
+  {
+   "id": 134531,
+   "name": "Anna Gunn",
+   "photo": "https://image.tmdb.org/t/p/w185/adppyeu1a4REN3khtgmXusrapFi.jpg",
+   "character": "Jean Ward",
+   "episodes": 10
+  },
+  {
+   "id": 52995,
+   "name": "Edward Herrmann",
+   "photo": "https://image.tmdb.org/t/p/w185/ov33sPPuTzw21KYwAkkAB8AmjIV.jpg",
+   "character": "Anderson Pearson",
+   "episodes": 10
+  },
+  {
+   "id": 20879,
+   "name": "Kate Burton",
+   "photo": "https://image.tmdb.org/t/p/w185/rHnt0gTvarr492I1ZIYg8VNBdPn.jpg",
+   "character": "A.D.A. Susan Alexander",
+   "episodes": 9
+  }
+ ],
+ "crew": [
+  {
+   "id": 59650,
+   "name": "David E. Kelley",
+   "photo": "https://image.tmdb.org/t/p/w185/rn8r38XqBV4yNhm9AJY93i9Jf6m.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 168
+  },
+  {
+   "id": 1214543,
+   "name": "Robert Breech",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 168
+  },
+  {
+   "id": 7229,
+   "name": "Marco Beltrami",
+   "photo": "https://image.tmdb.org/t/p/w185/fb3TfFITlOC0BN3kNpUXj1FL0LN.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 67
+  },
+  {
+   "id": 156899,
+   "name": "Stewart Levin",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 57
+  },
+  {
+   "id": 1223964,
+   "name": "Peter Blake",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 57
+  },
+  {
+   "id": 1367008,
+   "name": "Alfonso H. Moreno",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 55
+  },
+  {
+   "id": 1318194,
+   "name": "Jill Goldsmith",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 52
+  },
+  {
+   "id": 202694,
+   "name": "Jonathan Shapiro",
+   "photo": "https://image.tmdb.org/t/p/w185/aMObIKvqEAjA2gQcJDRPho3BiU6.jpg",
+   "jobs": [
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 43
+  },
+  {
+   "id": 1254577,
+   "name": "Lukas Reiter",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 169061,
+   "name": "David Shore",
+   "photo": "https://image.tmdb.org/t/p/w185/5xVWN3KCGtGjGkEIrHqHrx8UikG.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 35
+  },
+  {
+   "id": 1218102,
+   "name": "Lynne E. Litt",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 29
+  },
+  {
+   "id": 1233284,
+   "name": "Christopher Mack",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 23
+  },
+  {
+   "id": 1353752,
+   "name": "Bill Chais",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 23
+  },
+  {
+   "id": 23486,
+   "name": "Christophe Beck",
+   "photo": "https://image.tmdb.org/t/p/w185/n3U0OPETTZGTx4mgsrryARKphR4.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 230882,
+   "name": "James D. Solomon",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 1218791,
+   "name": "Dennis Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/cxsDfWfVvHQK81u04124mDJVMkJ.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 21
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:17.950Z"
+}

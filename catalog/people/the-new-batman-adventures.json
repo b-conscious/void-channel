@@ -1,0 +1,328 @@
+{
+ "show": "The New Batman Adventures",
+ "slug": "the-new-batman-adventures",
+ "tmdbId": 4625,
+ "cast": [
+  {
+   "id": 34947,
+   "name": "Kevin Conroy",
+   "photo": "https://image.tmdb.org/t/p/w185/zvWhAwO2l8Kb5IJTwTbKzURypg7.jpg",
+   "character": "Batman / Bruce Wayne (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 15762,
+   "name": "Tara Strong",
+   "photo": "https://image.tmdb.org/t/p/w185/Cm3X7CCSuYbjW1ZKJ8vxCj4SI7.jpg",
+   "character": "Batgirl / Barbara Gordon (voice)",
+   "episodes": 15
+  },
+  {
+   "id": 34981,
+   "name": "Efrem Zimbalist Jr.",
+   "photo": "https://image.tmdb.org/t/p/w185/d1xwCJUtKxddiO3r1WAZQehd0is.jpg",
+   "character": "Alfred (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 1221555,
+   "name": "Mathew Valencia",
+   "photo": null,
+   "character": "Robin (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 34979,
+   "name": "Loren Lester",
+   "photo": "https://image.tmdb.org/t/p/w185/AmdxCKx7ehFXtOglUH02iewTHqI.jpg",
+   "character": "Mo (voice) / Dick Grayson (voice) / Nightwing / Dick Grayson (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 33492,
+   "name": "Robert Costanzo",
+   "photo": "https://image.tmdb.org/t/p/w185/vyUeNk56Yv7xyHztgVa8UBEIasu.jpg",
+   "character": "Detective Harvey Bullock (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 34973,
+   "name": "Bob Hastings",
+   "photo": "https://image.tmdb.org/t/p/w185/j8Bcul6PCSDOwY4tl2wLkcelgYf.jpg",
+   "character": "Commissioner Gordon (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 34978,
+   "name": "Arleen Sorkin",
+   "photo": "https://image.tmdb.org/t/p/w185/eZzTKXTBM7EXlcgUjWMiIJEs1tA.jpg",
+   "character": "Harley Quinn (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 34982,
+   "name": "Jeff Bennett",
+   "photo": "https://image.tmdb.org/t/p/w185/6Fq3Q1e0Oz0j2J2fnFSl7fKCHd9.jpg",
+   "character": "Jack Ryder (voice) / The Creeper / Jack Ryder (voice) / Dad (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 2,
+   "name": "Mark Hamill",
+   "photo": "https://image.tmdb.org/t/p/w185/zMQ93JTLW8KxusKhOlHFZhih3YQ.jpg",
+   "character": "The Joker (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 35038,
+   "name": "Mel Winkler",
+   "photo": "https://image.tmdb.org/t/p/w185/ctkcmCVzcUJWaGpEtHxwNPpEHw7.jpg",
+   "character": "Lucius Fox (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 35040,
+   "name": "Paul Williams",
+   "photo": "https://image.tmdb.org/t/p/w185/hfBFenLU5reDGVi4wiP5P1VcP3G.jpg",
+   "character": "The Penguin (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 33481,
+   "name": "Diane Pershing",
+   "photo": "https://image.tmdb.org/t/p/w185/iEujdBpw4CuHLMNhDQxE7qs22Ww.jpg",
+   "character": "Poison Ivy (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 7867,
+   "name": "Charles Rocket",
+   "photo": "https://image.tmdb.org/t/p/w185/g2HeXDVqtGhYKBqeV4cFaZ7RbVV.jpg",
+   "character": "Guru (voice) / Security Guard (voice) / Frederick Fournier / Henchman (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 21619,
+   "name": "Marilu Henner",
+   "photo": "https://image.tmdb.org/t/p/w185/fuuVDigwqg5D2pioextPJJ4tLWg.jpg",
+   "character": "Veronica Vreeland (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 7505,
+   "name": "Roddy McDowall",
+   "photo": "https://image.tmdb.org/t/p/w185/mGO0pDPi5p91k2Og09HTf270rxL.jpg",
+   "character": "Mad Hatter (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 35157,
+   "name": "Jane Wiedlin",
+   "photo": "https://image.tmdb.org/t/p/w185/qLyqdzATuW3AuusloCrRGc6KfTt.jpg",
+   "character": "Shannon (voice) / Miranda Kane (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 66499,
+   "name": "Lauri Johnson",
+   "photo": "https://image.tmdb.org/t/p/w185/189zxN0ATAZwzwLEbUsrDeuGEeC.jpg",
+   "character": "Knife-Thrower's Wife (voice) / Mom (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 6576,
+   "name": "Mark Rolston",
+   "photo": "https://image.tmdb.org/t/p/w185/hcrNRIptYMRXgkJ9k76BlQu6DQp.jpg",
+   "character": "Firefly / Garfield Lynns (voice) / Firefly / Don (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 167656,
+   "name": "John Garry",
+   "photo": null,
+   "character": "Joker's Lawyer (voice) / Lawyer (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 13399,
+   "name": "Lloyd Bochner",
+   "photo": "https://image.tmdb.org/t/p/w185/khch0Jh2N4XcyrmvczD6Eo61vAm.jpg",
+   "character": "Mayor Hamilton Hill (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 35035,
+   "name": "Townsend Coleman",
+   "photo": "https://image.tmdb.org/t/p/w185/aMVAo35uihg08G8uc4Q4FiAS5ku.jpg",
+   "character": "Mugsy (voice) / Rocco (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 34983,
+   "name": "Tress MacNeille",
+   "photo": "https://image.tmdb.org/t/p/w185/gI2LsgByvSffQY34vabVnPmrHzw.jpg",
+   "character": "Dr. Margaret Madsen (voice) / Little Boy (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 11782,
+   "name": "Adrienne Barbeau",
+   "photo": "https://image.tmdb.org/t/p/w185/8uQqjG63SFCkmgdFB4SG8wRQmfp.jpg",
+   "character": "Catwoman / Selina Kyle (voice)",
+   "episodes": 2
+  }
+ ],
+ "crew": [
+  {
+   "id": 1211813,
+   "name": "Paul Dini",
+   "photo": "https://image.tmdb.org/t/p/w185/yPRds0jAYIU1OETfZuwka5ro7lE.jpg",
+   "jobs": [
+    "Creator",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 182257,
+   "name": "Rich Fogel",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 34934,
+   "name": "Bruce Timm",
+   "photo": "https://image.tmdb.org/t/p/w185/4G64qCUGFQ1Sfwa6MK7CzwAaHyL.jpg",
+   "jobs": [
+    "Creator",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 26981,
+   "name": "Shirley Walker",
+   "photo": "https://image.tmdb.org/t/p/w185/xvjsJLILyUn2Rqr8nsLccPDoLv6.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 27
+  },
+  {
+   "id": 1217666,
+   "name": "Jean MacCurdy",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 34921,
+   "name": "Dan Riba",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 34920,
+   "name": "Curt Geda",
+   "photo": "https://image.tmdb.org/t/p/w185/jRcadH8KfIBe4JZzifNC7Zmxrv6.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1214727,
+   "name": "Hilary Bader",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 34922,
+   "name": "Butch Lukic",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 34931,
+   "name": "Stan Berkowitz",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 212618,
+   "name": "Bob Goodman",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1456633,
+   "name": "Atsuko Tanaka",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 34933,
+   "name": "Steve Gerber",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1236314,
+   "name": "Hiroyuki Aoyama",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1236311,
+   "name": "Kenji Hachizaki",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1236312,
+   "name": "Yuichiro Yano",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:29:31.251Z"
+}

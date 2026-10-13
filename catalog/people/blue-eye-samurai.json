@@ -1,0 +1,283 @@
+{
+ "show": "BLUE EYE SAMURAI",
+ "slug": "blue-eye-samurai",
+ "tmdbId": 225180,
+ "cast": [
+  {
+   "id": 1413361,
+   "name": "Maya Erskine",
+   "photo": "https://image.tmdb.org/t/p/w185/ewWPWtwf3em6Fs094d0X54rzide.jpg",
+   "character": "Mizu (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 1752,
+   "name": "George Takei",
+   "photo": "https://image.tmdb.org/t/p/w185/kfpkgfcuxcOrw2OCoAyQpPamQVv.jpg",
+   "character": "Seki (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 17273,
+   "name": "Masi Oka",
+   "photo": "https://image.tmdb.org/t/p/w185/hNBA8J45AY2djhPbLXP3sbXgygI.jpg",
+   "character": "Ringo (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 11398,
+   "name": "Cary-Hiroyuki Tagawa",
+   "photo": "https://image.tmdb.org/t/p/w185/5F8MQ4J4qIqUwGIfcWN4osrTUtP.jpg",
+   "character": "The Swordmaker (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 88123,
+   "name": "Brenda Song",
+   "photo": "https://image.tmdb.org/t/p/w185/eyYiNWXquotE53lfjsgcwxgfvu.jpg",
+   "character": "Akemi (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 2000335,
+   "name": "Darren Barnet",
+   "photo": "https://image.tmdb.org/t/p/w185/z3hQP19QgHsKZ4j0sXNzrhScDMO.jpg",
+   "character": "Taigen (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 79082,
+   "name": "Randall Park",
+   "photo": "https://image.tmdb.org/t/p/w185/GpERQxWcT3TXLHpH8b6hIyUazK.jpg",
+   "character": "Heiji Shindo (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 11181,
+   "name": "Kenneth Branagh",
+   "photo": "https://image.tmdb.org/t/p/w185/AbCqqFxNi5w3nDUFdQt0DGMFh5H.jpg",
+   "character": "Abijah Fowler (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 16183,
+   "name": "Gedde Watanabe",
+   "photo": "https://image.tmdb.org/t/p/w185/qeoHQdHkXr2DP0xPt786tNLQxok.jpg",
+   "character": "Kenzou / Chiba (voice) / Nightjar Manager / Running Man / Kenzou (voice) / Kenzou / Sentry (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 17837,
+   "name": "Patrick Gallagher",
+   "photo": "https://image.tmdb.org/t/p/w185/vdw2xswPj6jbmwiedvpCSmj3d2.jpg",
+   "character": "Daichi / Bridge Guard / Tower Guard (voice) / Daichi / Frantic Man (voice) / Daichi (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 89599,
+   "name": "Eric Bauza",
+   "photo": "https://image.tmdb.org/t/p/w185/afOlsVPQxbtkom604MeCemjlwEV.jpg",
+   "character": "Goro / Stocky Samurai / Kinuyo's Bodyguard (voice) / Inspector / Brawny Samurai / Naked Man (voice) / Assassin Samurai / Ruffian / Head Tokunobu Guard (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 2249,
+   "name": "Clyde Kusatsu",
+   "photo": "https://image.tmdb.org/t/p/w185/5dTSe1F9cnReZGHYzbCbVy7vbcf.jpg",
+   "character": "Elder Domo (voice) / Watari (voice) / Watari / Boss Hamata (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 91387,
+   "name": "Keone Young",
+   "photo": "https://image.tmdb.org/t/p/w185/hHtr7OzP2I2U7FfA2hj8rPtAt8z.jpg",
+   "character": "Shogun Itoh (voice) / Dojo Master (voice) / Shogun Itoh / Bald Clawman / 2nd Tokunobu Guard (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 21702,
+   "name": "Ming-Na Wen",
+   "photo": "https://image.tmdb.org/t/p/w185/eqCzFF83It56cUdjpskzvg8jgq.jpg",
+   "character": "Madame Kaji (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 4352616,
+   "name": "Judah Green",
+   "photo": null,
+   "character": "Bloodthirsty Kid (voice) / Young Taigen (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 4352618,
+   "name": "Orli Mariko Green",
+   "photo": null,
+   "character": "Young Mizu (voice) / Young Mizu / Bully Kid (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 1046872,
+   "name": "Marcus Choi",
+   "photo": "https://image.tmdb.org/t/p/w185/b6bg93yGmgWr8uarLwQjk0Y7dhu.jpg",
+   "character": "Kohei (voice) / Shindo Samurai 1 / Townsperson / Even Brawnier Samurai (voice) / Kohei / Drunk Boat Captain / Checkpoint Guard (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 196181,
+   "name": "Ann Harada",
+   "photo": "https://image.tmdb.org/t/p/w185/AlBue8hWw5MnygmGvEbE4v14GOQ.jpg",
+   "character": "Mama (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 4026438,
+   "name": "Amber Noizumi",
+   "photo": null,
+   "character": "Rin / Terrified Attendant (voice) / Woman in Red / Skinny Clawman (voice) / Female Brigand (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 232499,
+   "name": "Harry Shum Jr.",
+   "photo": "https://image.tmdb.org/t/p/w185/xFQsThmdyuOk9jt3zgZL08ixf2b.jpg",
+   "character": "Takayoshi (voice) / Man's Voice (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 1190808,
+   "name": "West Liang",
+   "photo": "https://image.tmdb.org/t/p/w185/9iHTuF1CTVyHXO8hPSnKlvCthU1.jpg",
+   "character": "Hachi (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 18702,
+   "name": "Mark Dacascos",
+   "photo": "https://image.tmdb.org/t/p/w185/trOACuJz1KzhB51qe6asaxRuxrh.jpg",
+   "character": "Shindo Samurai 2 / Angry Cook (voice) / Chiaki / Referee (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 1069661,
+   "name": "Yoshi Ando",
+   "photo": null,
+   "character": "Additional Voices (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 198845,
+   "name": "Joe Cappelletti",
+   "photo": "https://image.tmdb.org/t/p/w185/wRCVC9vmeJpmzwMce0HF65nazVQ.jpg",
+   "character": "Additional Voices (voice)",
+   "episodes": 2
+  }
+ ],
+ "crew": [
+  {
+   "id": 4026438,
+   "name": "Amber Noizumi",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 191937,
+   "name": "Michael Green",
+   "photo": "https://image.tmdb.org/t/p/w185/A7zyzx1U5Fc5Cq979WkbEVpSepy.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 3348886,
+   "name": "Jane Wu",
+   "photo": "https://image.tmdb.org/t/p/w185/uAgw7WsBkTCTniJiW4xYN92fBeW.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 10950,
+   "name": "Erwin Stoff",
+   "photo": "https://image.tmdb.org/t/p/w185/yxhrJcKq6CMeRiyHm0JT4T1TDro.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1589504,
+   "name": "Amie Doherty",
+   "photo": "https://image.tmdb.org/t/p/w185/uO9Uic5Ai6d12NWOZYsNzlCJUEy.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1455563,
+   "name": "Ryan O'Loughlin",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1451676,
+   "name": "Earl A. Hibbert",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 2773912,
+   "name": "Sunny Sun",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 3298545,
+   "name": "Alan Wan",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 47005,
+   "name": "Alan Taylor",
+   "photo": "https://image.tmdb.org/t/p/w185/sXC2wNRo7lshghNnNaPdWQ9sqKe.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 4354789,
+   "name": "Yana Bille-Chung",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:34:23.766Z"
+}

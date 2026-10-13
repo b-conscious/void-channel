@@ -1,0 +1,319 @@
+{
+ "show": "The League",
+ "slug": "the-league",
+ "tmdbId": 31497,
+ "cast": [
+  {
+   "id": 45407,
+   "name": "Mark Duplass",
+   "photo": "https://image.tmdb.org/t/p/w185/lRDf99rAfcdqt8Cqk4LsIT7XSD2.jpg",
+   "character": "Pete Eckhart",
+   "episodes": 84
+  },
+  {
+   "id": 78437,
+   "name": "Stephen Rannazzisi",
+   "photo": "https://image.tmdb.org/t/p/w185/wKMI8bINTvNBC2hPG9Kvfgmm6k5.jpg",
+   "character": "Kevin",
+   "episodes": 84
+  },
+  {
+   "id": 208519,
+   "name": "Nick Kroll",
+   "photo": "https://image.tmdb.org/t/p/w185/fNiOuEKeBtELGdhKn4lxXq4O7YP.jpg",
+   "character": "Ruxin",
+   "episodes": 84
+  },
+  {
+   "id": 59843,
+   "name": "Paul Scheer",
+   "photo": "https://image.tmdb.org/t/p/w185/76c6ieidSECRslxVX4ZA5WBdz40.jpg",
+   "character": "Andre",
+   "episodes": 84
+  },
+  {
+   "id": 1251286,
+   "name": "Jon Lajoie",
+   "photo": "https://image.tmdb.org/t/p/w185/i3IGi8EzjMXkreivnKWObdY6hgJ.jpg",
+   "character": "Taco",
+   "episodes": 84
+  },
+  {
+   "id": 221944,
+   "name": "Katie Aselton",
+   "photo": "https://image.tmdb.org/t/p/w185/84sto9pOvYMOMPYmHsYhIzM1qT5.jpg",
+   "character": "Jenny",
+   "episodes": 84
+  },
+  {
+   "id": 1251285,
+   "name": "Alina Foley",
+   "photo": "https://image.tmdb.org/t/p/w185/6fwTCOYHwUtBNr6Ni3dyZvcnCmw.jpg",
+   "character": "Ellie",
+   "episodes": 39
+  },
+  {
+   "id": 111683,
+   "name": "Jason Mantzoukas",
+   "photo": "https://image.tmdb.org/t/p/w185/sCG3UAdoxCy39gMd9ILlAFJbApS.jpg",
+   "character": "Rafi",
+   "episodes": 37
+  },
+  {
+   "id": 65196,
+   "name": "Nadine Velazquez",
+   "photo": "https://image.tmdb.org/t/p/w185/eXbXVBQWmhgp54ZisTNqjfkxREX.jpg",
+   "character": "Sofia",
+   "episodes": 34
+  },
+  {
+   "id": 210665,
+   "name": "Janina Gavankar",
+   "photo": "https://image.tmdb.org/t/p/w185/pvywjGmHdJFuR0DLmrGbrii6MKm.jpg",
+   "character": "Shiva",
+   "episodes": 21
+  },
+  {
+   "id": 80595,
+   "name": "Rob Huebel",
+   "photo": "https://image.tmdb.org/t/p/w185/uHz2fiBMRz2E6GmAH5sRJNvKHWI.jpg",
+   "character": "Dr. Deramo / Russell",
+   "episodes": 9
+  },
+  {
+   "id": 57451,
+   "name": "Leslie Bibb",
+   "photo": "https://image.tmdb.org/t/p/w185/g3a1O9lOTZvrwQupUtg4Fc3CdTd.jpg",
+   "character": "Meegan",
+   "episodes": 7
+  },
+  {
+   "id": 19274,
+   "name": "Seth Rogen",
+   "photo": "https://image.tmdb.org/t/p/w185/nYl9bvQzaPQLzlf0wf75clLN6Hi.jpg",
+   "character": "Dirty Randy (voice) / Dirty Randy",
+   "episodes": 6
+  },
+  {
+   "id": 34195,
+   "name": "Jayma Mays",
+   "photo": "https://image.tmdb.org/t/p/w185/n8tY5eVXje0vXTws66YAdEeHMy5.jpg",
+   "character": "Trixie Von Stein",
+   "episodes": 6
+  },
+  {
+   "id": 212290,
+   "name": "Seth Morris",
+   "photo": "https://image.tmdb.org/t/p/w185/A66wu5p48sSDEKf0uqWXQROcroW.jpg",
+   "character": "Bill Haddock / Bill",
+   "episodes": 6
+  },
+  {
+   "id": 1695078,
+   "name": "Adam Karchmer",
+   "photo": null,
+   "character": "Baby Geoffrey",
+   "episodes": 6
+  },
+  {
+   "id": 71403,
+   "name": "Rob Riggle",
+   "photo": "https://image.tmdb.org/t/p/w185/hQgOp8vWxl6KPZbqzKSSL4k6G1j.jpg",
+   "character": "Bethesda",
+   "episodes": 5
+  },
+  {
+   "id": 2158461,
+   "name": "Jason David",
+   "photo": "https://image.tmdb.org/t/p/w185/mKhkzsMsDO8KTeWe5NNnjUKsNbG.jpg",
+   "character": "Chalupa Batman",
+   "episodes": 4
+  },
+  {
+   "id": 198150,
+   "name": "Ike Barinholtz",
+   "photo": "https://image.tmdb.org/t/p/w185/pxK1HXsQFfh3zT1KA3t6lEKMiZK.jpg",
+   "character": "Frank 'The Body' Gibiatti",
+   "episodes": 4
+  },
+  {
+   "id": 11702,
+   "name": "Adam Brody",
+   "photo": "https://image.tmdb.org/t/p/w185/qKBWrohBYegm6AAaLrtxEqqouIK.jpg",
+   "character": "Ted",
+   "episodes": 4
+  },
+  {
+   "id": 1237246,
+   "name": "Andrew Secunda",
+   "photo": "https://image.tmdb.org/t/p/w185/coQ0JvOEBb1gBhqfJWJDkU9kon.jpg",
+   "character": "Dr. Ewing",
+   "episodes": 4
+  },
+  {
+   "id": 464993,
+   "name": "Zach Woods",
+   "photo": "https://image.tmdb.org/t/p/w185/jolb1uMzDZGTKOKyhgeG3RIsL2W.jpg",
+   "character": "Lane",
+   "episodes": 3
+  },
+  {
+   "id": 966542,
+   "name": "Robbie Tucker",
+   "photo": "https://image.tmdb.org/t/p/w185/uXjOAmCFM2Hfm3muxRQMtABZ4J3.jpg",
+   "character": "Library Boy / Tiny Tim",
+   "episodes": 3
+  },
+  {
+   "id": 20373,
+   "name": "Arielle Kebbel",
+   "photo": "https://image.tmdb.org/t/p/w185/c98cwlydVsihduXnq6VLW4fQFC.jpg",
+   "character": "Libby",
+   "episodes": 3
+  }
+ ],
+ "crew": [
+  {
+   "id": 57405,
+   "name": "Jeff Schaffer",
+   "photo": "https://image.tmdb.org/t/p/w185/zjGUb5c4k6UiM3lyOwNk7GS04ED.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 84
+  },
+  {
+   "id": 54249,
+   "name": "Jackie Marcus Schaffer",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 84
+  },
+  {
+   "id": 54599,
+   "name": "Jeff Cardoni",
+   "photo": "https://image.tmdb.org/t/p/w185/6YWD0gufzug7sgWJD3rYJM28Cbx.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 84
+  },
+  {
+   "id": 1223846,
+   "name": "Dan O'Keefe",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1419631,
+   "name": "Justin Hurwitz",
+   "photo": "https://image.tmdb.org/t/p/w185/4a03MPhWE8u0NGJF9wt0wbBcFWn.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 59843,
+   "name": "Paul Scheer",
+   "photo": "https://image.tmdb.org/t/p/w185/76c6ieidSECRslxVX4ZA5WBdz40.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 208519,
+   "name": "Nick Kroll",
+   "photo": "https://image.tmdb.org/t/p/w185/fNiOuEKeBtELGdhKn4lxXq4O7YP.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1223899,
+   "name": "Craig DiGregorio",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1298804,
+   "name": "Dave King",
+   "photo": "https://image.tmdb.org/t/p/w185/sLwmPWUtt3w30YiPCX51khw7A9s.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 19274,
+   "name": "Seth Rogen",
+   "photo": "https://image.tmdb.org/t/p/w185/nYl9bvQzaPQLzlf0wf75clLN6Hi.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 2158462,
+   "name": "David Parker",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 2158484,
+   "name": "Nathaniel Stein",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 111683,
+   "name": "Jason Mantzoukas",
+   "photo": "https://image.tmdb.org/t/p/w185/sCG3UAdoxCy39gMd9ILlAFJbApS.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 2158475,
+   "name": "Markham O'Keefe",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 78437,
+   "name": "Stephen Rannazzisi",
+   "photo": "https://image.tmdb.org/t/p/w185/wKMI8bINTvNBC2hPG9Kvfgmm6k5.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:28:48.852Z"
+}

@@ -1,0 +1,335 @@
+{
+ "show": "Xena: Warrior Princess",
+ "slug": "xena-warrior-princess",
+ "tmdbId": 4616,
+ "cast": [
+  {
+   "id": 20584,
+   "name": "Lucy Lawless",
+   "photo": "https://image.tmdb.org/t/p/w185/7fYfVk6jtdCWuJEo9pEqc6O2JkD.jpg",
+   "character": "Xena",
+   "episodes": 134
+  },
+  {
+   "id": 77624,
+   "name": "Renée O'Connor",
+   "photo": "https://image.tmdb.org/t/p/w185/yO888Hl7ZjUpPzrJp5U47DAOziu.jpg",
+   "character": "Gabrielle",
+   "episodes": 134
+  },
+  {
+   "id": 11769,
+   "name": "Ted Raimi",
+   "photo": "https://image.tmdb.org/t/p/w185/juhz6ajCjjHlLPzYBxPtDxwX6em.jpg",
+   "character": "Joxer",
+   "episodes": 42
+  },
+  {
+   "id": 80406,
+   "name": "Kevin Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/ofD6H52wDnkuGHNwT9T41IOxq9s.jpg",
+   "character": "Ares",
+   "episodes": 30
+  },
+  {
+   "id": 87282,
+   "name": "Hudson Leick",
+   "photo": "https://image.tmdb.org/t/p/w185/jrT3RxFBouFjPG9xlPhRPhv9iri.jpg",
+   "character": "Callisto",
+   "episodes": 13
+  },
+  {
+   "id": 1372,
+   "name": "Karl Urban",
+   "photo": "https://image.tmdb.org/t/p/w185/7Y96dAfg0HcFrcLjlD5eD9N0uj4.jpg",
+   "character": "Cupid / Kor / Mael",
+   "episodes": 12
+  },
+  {
+   "id": 42703,
+   "name": "Alexandra Tydings",
+   "photo": "https://image.tmdb.org/t/p/w185/AsXg9FB1pI9JzzQCTvd9qOXFSeP.jpg",
+   "character": "Aphrodite",
+   "episodes": 11
+  },
+  {
+   "id": 154963,
+   "name": "Adrienne Wilkinson",
+   "photo": "https://image.tmdb.org/t/p/w185/tp55UpZebeQFFMSNo8PMtEk9ANG.jpg",
+   "character": "Eve",
+   "episodes": 10
+  },
+  {
+   "id": 20982,
+   "name": "Marton Csokas",
+   "photo": "https://image.tmdb.org/t/p/w185/gmeUY7FR0bFLdu7Ma5kvpH3Gt6B.jpg",
+   "character": "Borias / Borias / Belach / Khrafstar",
+   "episodes": 9
+  },
+  {
+   "id": 66577,
+   "name": "Danielle Cormack",
+   "photo": "https://image.tmdb.org/t/p/w185/xp4Ar2mm5dGzIYftHLtkTYN9N80.jpg",
+   "character": "Ephiny / Samsara",
+   "episodes": 9
+  },
+  {
+   "id": 11357,
+   "name": "Bruce Campbell",
+   "photo": "https://image.tmdb.org/t/p/w185/p9335ljr7luOWsfwZSOlsIzFJKE.jpg",
+   "character": "Autolycus",
+   "episodes": 8
+  },
+  {
+   "id": 180359,
+   "name": "Charles Mesure",
+   "photo": "https://image.tmdb.org/t/p/w185/W8bCZfLDHaI3ptn75WeVLYVtdk.jpg",
+   "character": "Darnelle / Michael / Mercer",
+   "episodes": 7
+  },
+  {
+   "id": 1085972,
+   "name": "Darien Takle",
+   "photo": "https://image.tmdb.org/t/p/w185/394T6ts076a3WOIrJXOS9AWXHoz.jpg",
+   "character": "Cyrene",
+   "episodes": 7
+  },
+  {
+   "id": 75950,
+   "name": "Stephen Hall",
+   "photo": "https://image.tmdb.org/t/p/w185/nMlEt909102ml0Jn34nrIStmsRJ.jpg",
+   "character": "Auctioneer / Thelonius / Damon",
+   "episodes": 7
+  },
+  {
+   "id": 1237638,
+   "name": "Elizabeth Pendergrast",
+   "photo": "https://image.tmdb.org/t/p/w185/5ZGw16dChLEitD3v7CUbH5KKpKQ.jpg",
+   "character": "Atropos",
+   "episodes": 7
+  },
+  {
+   "id": 42524,
+   "name": "Claire Stansfield",
+   "photo": "https://image.tmdb.org/t/p/w185/c33uDl3FuOyP4YLwA7UcCrwUNVa.jpg",
+   "character": "Alti",
+   "episodes": 6
+  },
+  {
+   "id": 134423,
+   "name": "Timothy Omundson",
+   "photo": "https://image.tmdb.org/t/p/w185/fPhLMiodU7mVegOYvJ8aoj84ZHJ.jpg",
+   "character": "Eli",
+   "episodes": 6
+  },
+  {
+   "id": 87777,
+   "name": "William Gregory Lee",
+   "photo": "https://image.tmdb.org/t/p/w185/gjoSZus8Mg568nRbsbXwWxfafQD.jpg",
+   "character": "Virgil",
+   "episodes": 6
+  },
+  {
+   "id": 20981,
+   "name": "Jennifer Sky",
+   "photo": "https://image.tmdb.org/t/p/w185/khbFzvKVcaNcLmPcNzTU00U8XQZ.jpg",
+   "character": "Amarice",
+   "episodes": 6
+  },
+  {
+   "id": 2270313,
+   "name": "Jason Tahu",
+   "photo": "https://image.tmdb.org/t/p/w185/cCOFpkZhmEftibJfEBo907jZRSJ.jpg",
+   "character": "Fat Guard Kicked in the Balls / Thug #1 / Fat Soldier Thrown Down the Well",
+   "episodes": 6
+  },
+  {
+   "id": 87728,
+   "name": "Willa O'Neill",
+   "photo": "https://image.tmdb.org/t/p/w185/q3GaMDt1Fp2mKZxYeoJvT97d8n7.jpg",
+   "character": "Lila",
+   "episodes": 6
+  },
+  {
+   "id": 186605,
+   "name": "Terri Douglas",
+   "photo": "https://image.tmdb.org/t/p/w185/6yRCc5oKalchZuRvVJJbEDNmLEd.jpg",
+   "character": "(voice)",
+   "episodes": 6
+  },
+  {
+   "id": 1237636,
+   "name": "Alison Wall",
+   "photo": null,
+   "character": "Minya / Clea",
+   "episodes": 5
+  },
+  {
+   "id": 2530866,
+   "name": "David Rare",
+   "photo": null,
+   "character": "Theodorus / Marat / Darcon",
+   "episodes": 5
+  }
+ ],
+ "crew": [
+  {
+   "id": 11359,
+   "name": "Robert Tapert",
+   "photo": "https://image.tmdb.org/t/p/w185/tAtStnFgeJaTm9QmhajADZGiQi9.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Story"
+   ],
+   "episodes": 134
+  },
+  {
+   "id": 1219783,
+   "name": "John Schulian",
+   "photo": "https://image.tmdb.org/t/p/w185/gYRF2bFwOIkvMSCvc7A5EveHMsA.jpg",
+   "jobs": [
+    "Creator"
+   ]
+  },
+  {
+   "id": 11468,
+   "name": "Joseph LoDuca",
+   "photo": "https://image.tmdb.org/t/p/w185/wtSopiCJFjs30sITI6fuvjEsKnL.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 134
+  },
+  {
+   "id": 20993,
+   "name": "R.J. Stewart",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 42
+  },
+  {
+   "id": 1222813,
+   "name": "Steven L. Sears",
+   "photo": "https://image.tmdb.org/t/p/w185/9FzhCtGkHI11UuQr6RaCMYCLCjn.jpg",
+   "jobs": [
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 27
+  },
+  {
+   "id": 1216968,
+   "name": "Chris Manheim",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 23
+  },
+  {
+   "id": 34197,
+   "name": "Adam Armus",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 34397,
+   "name": "Nora Kay Foster",
+   "photo": "https://image.tmdb.org/t/p/w185/i5RJ0aIx17rF5LbqVMGssrBhyjc.jpg",
+   "jobs": [
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 173365,
+   "name": "Garth Maxwell",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 102402,
+   "name": "Rick Jacobson",
+   "photo": "https://image.tmdb.org/t/p/w185/aazCWUhZTGV2m4jDGPQoTsBnGVO.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 173587,
+   "name": "Mark Beesley",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 77625,
+   "name": "Josh Becker",
+   "photo": "https://image.tmdb.org/t/p/w185/2oLce1KhaZeEd17SDnHCxT8KAZI.jpg",
+   "jobs": [
+    "Director",
+    "Story"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 104058,
+   "name": "Charles Siebert",
+   "photo": "https://image.tmdb.org/t/p/w185/aXSuzalSx3MaAp2svy8kzpqV3qe.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 20976,
+   "name": "T.J. Scott",
+   "photo": "https://image.tmdb.org/t/p/w185/2sDOBP18EL5qeGTRt1SUHAIfdWa.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 167024,
+   "name": "Andrew Merrifield",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 62573,
+   "name": "Michael Hurst",
+   "photo": "https://image.tmdb.org/t/p/w185/tBYX46fSi8jtp196U8L7Vd37KZW.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:22.357Z"
+}

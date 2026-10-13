@@ -1,0 +1,215 @@
+{
+ "show": "Red vs. Blue",
+ "slug": "red-vs-blue",
+ "tmdbId": 39373,
+ "cast": [
+  {
+   "id": 133368,
+   "name": "Matt Hullum",
+   "photo": "https://image.tmdb.org/t/p/w185/x729T6lTmPLMZ19fxpC7vo8sTiY.jpg",
+   "character": "Sarge (voice)",
+   "episodes": 351
+  },
+  {
+   "id": 133359,
+   "name": "Burnie Burns",
+   "photo": "https://image.tmdb.org/t/p/w185/pdVoErkg3m3fDLWit8surDTBZeZ.jpg",
+   "character": "Lopez / Pvt. Leonard Church / Lopez the Heavy / Epsilon",
+   "episodes": 351
+  },
+  {
+   "id": 938435,
+   "name": "Gustavo Sorola",
+   "photo": null,
+   "character": "Pvt. Dick Simmons",
+   "episodes": 351
+  },
+  {
+   "id": 133357,
+   "name": "Joel Heyman",
+   "photo": "https://image.tmdb.org/t/p/w185/w3VTjet4AbhYDxyj8FE4ckdVQeb.jpg",
+   "character": "Pvt. Michael J. Caboose",
+   "episodes": 351
+  },
+  {
+   "id": 133365,
+   "name": "Geoff Ramsey",
+   "photo": "https://image.tmdb.org/t/p/w185/7BIR6s9yvs7bIW2WSKVA3yyxWbX.jpg",
+   "character": "Pvt. Dexter Grif",
+   "episodes": 351
+  },
+  {
+   "id": 1254656,
+   "name": "Jason Saldaña",
+   "photo": null,
+   "character": "Pvt. Lavernius Tucker (voice)",
+   "episodes": 333
+  },
+  {
+   "id": 2744768,
+   "name": "Dan Godwin",
+   "photo": null,
+   "character": "Pvt. Franklin Delano Donut",
+   "episodes": 312
+  },
+  {
+   "id": 227948,
+   "name": "Kathleen Zuelch",
+   "photo": "https://image.tmdb.org/t/p/w185/3VuLfI0KyOuq3GIVCBailKoBd47.jpg",
+   "character": "Freelancer Agent Texas",
+   "episodes": 164
+  },
+  {
+   "id": 227950,
+   "name": "Shannon McCormick",
+   "photo": "https://image.tmdb.org/t/p/w185/4N9QRqzD4J6RsxDAD6KBfXK06Oy.jpg",
+   "character": "Agent Washington / Lopez dos.0 / Agent Iowa",
+   "episodes": 119
+  },
+  {
+   "id": 1293395,
+   "name": "Jen Brown",
+   "photo": "https://image.tmdb.org/t/p/w185/qXHWCA3AM9vjwPNsIJZy1JGk45m.jpg",
+   "character": "Carolina",
+   "episodes": 61
+  },
+  {
+   "id": 109,
+   "name": "Elijah Wood",
+   "photo": "https://image.tmdb.org/t/p/w185/7UKRbJBNG7mxBl2QQc5XsAh6F8B.jpg",
+   "character": "Sigma",
+   "episodes": 41
+  },
+  {
+   "id": 1942233,
+   "name": "SungWon Cho",
+   "photo": "https://image.tmdb.org/t/p/w185/jh5Au9smnPwfLoPNrcJ2VsJnbhU.jpg",
+   "character": "Atlus Arcadium Rex (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 1193400,
+   "name": "Lydia Mackay",
+   "photo": null,
+   "character": "Kalirama (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 1332494,
+   "name": "Anthony Padilla",
+   "photo": "https://image.tmdb.org/t/p/w185/ptLTXJDc8iIybufGufPHbc1rjHc.jpg",
+   "character": "Gun Guy #2 (voice) / Sentry #1 (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 1332495,
+   "name": "Ian Hecox",
+   "photo": "https://image.tmdb.org/t/p/w185/q22fgd8aLoE62W5N7WEcFvztFUl.jpg",
+   "character": "Sentry #2 (voice) / Gun Guy #1 (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 230567,
+   "name": "Arin Hanson",
+   "photo": "https://image.tmdb.org/t/p/w185/ffFSd162CTUKhs4xryOGYxHvAMD.jpg",
+   "character": "Soldier (voice) / Cobb (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 1492245,
+   "name": "Dan Avidan",
+   "photo": "https://image.tmdb.org/t/p/w185/v7HlypUKqaeUO9Ihy78o9jjJ9My.jpg",
+   "character": "Soldier (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 1164020,
+   "name": "Ross O'Donovan",
+   "photo": "https://image.tmdb.org/t/p/w185/iLudhDsU2hHDyTKpUCuwjH7okKu.jpg",
+   "character": "Soldier (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 2721307,
+   "name": "Suzy Berhow",
+   "photo": null,
+   "character": "Soldier (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 2721309,
+   "name": "Barry Kramer",
+   "photo": null,
+   "character": "Soldier (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 1416505,
+   "name": "Rahul Kohli",
+   "photo": "https://image.tmdb.org/t/p/w185/9wTBpyPhyDRUfgR1MGSmsILuZ8d.jpg",
+   "character": "Male Tex (voice)",
+   "episodes": 1
+  }
+ ],
+ "crew": [
+  {
+   "id": 133359,
+   "name": "Burnie Burns",
+   "photo": "https://image.tmdb.org/t/p/w185/pdVoErkg3m3fDLWit8surDTBZeZ.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Writer"
+   ],
+   "episodes": 202
+  },
+  {
+   "id": 133368,
+   "name": "Matt Hullum",
+   "photo": "https://image.tmdb.org/t/p/w185/x729T6lTmPLMZ19fxpC7vo8sTiY.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 61
+  },
+  {
+   "id": 1293392,
+   "name": "Miles Luna",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 41
+  },
+  {
+   "id": 1394366,
+   "name": "Eddy Rivas",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 133357,
+   "name": "Joel Heyman",
+   "photo": "https://image.tmdb.org/t/p/w185/w3VTjet4AbhYDxyj8FE4ckdVQeb.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 1262848,
+   "name": "Gavin Free",
+   "photo": "https://image.tmdb.org/t/p/w185/rPeB2xMHHu38sd2TKPju8eIY23S.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 19
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:37:31.853Z"
+}

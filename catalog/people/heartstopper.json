@@ -1,0 +1,243 @@
+{
+ "show": "Heartstopper",
+ "slug": "heartstopper",
+ "tmdbId": 124834,
+ "cast": [
+  {
+   "id": 3467732,
+   "name": "Joe Locke",
+   "photo": "https://image.tmdb.org/t/p/w185/snlCoxXK1gLlyE7oncVEtQe7OcO.jpg",
+   "character": "Charlie Spring",
+   "episodes": 24
+  },
+  {
+   "id": 1538851,
+   "name": "Kit Connor",
+   "photo": "https://image.tmdb.org/t/p/w185/1zx8xbJd8cUmNBertjzSuajCIGx.jpg",
+   "character": "Nick Nelson",
+   "episodes": 24
+  },
+  {
+   "id": 3350493,
+   "name": "William Gao",
+   "photo": "https://image.tmdb.org/t/p/w185/rXwHPQehstYwDmI4ipTwGQmOb9J.jpg",
+   "character": "Tao Xu",
+   "episodes": 24
+  },
+  {
+   "id": 3073079,
+   "name": "Yasmin Finney",
+   "photo": "https://image.tmdb.org/t/p/w185/uohDEeGQGSFrV5yvxUF2G8tPQwu.jpg",
+   "character": "Elle Argent",
+   "episodes": 24
+  },
+  {
+   "id": 3350495,
+   "name": "Tobie Donovan",
+   "photo": "https://image.tmdb.org/t/p/w185/uevbIFTKXtvpTF4xxnG9ViKJd6n.jpg",
+   "character": "Isaac Henderson",
+   "episodes": 24
+  },
+  {
+   "id": 3350494,
+   "name": "Rhea Norwood",
+   "photo": "https://image.tmdb.org/t/p/w185/fUk1l9dIpdjkx31YSc34yqIXh1N.jpg",
+   "character": "Imogen Heaney",
+   "episodes": 22
+  },
+  {
+   "id": 1931580,
+   "name": "Corinna Brown",
+   "photo": "https://image.tmdb.org/t/p/w185/uKz6fyLvBpOHfrrcjBE2MDzuAiQ.jpg",
+   "character": "Tara Jones",
+   "episodes": 21
+  },
+  {
+   "id": 3350492,
+   "name": "Kizzy Edgell",
+   "photo": "https://image.tmdb.org/t/p/w185/tsy7F3XitpfqGcagUdxKgdHINcF.jpg",
+   "character": "Darcy Olsson",
+   "episodes": 21
+  },
+  {
+   "id": 3350496,
+   "name": "Jenny Walser",
+   "photo": "https://image.tmdb.org/t/p/w185/hVK2VuYD0NSEGlrTKmwooo8g9zU.jpg",
+   "character": "Tori Spring",
+   "episodes": 17
+  },
+  {
+   "id": 3350497,
+   "name": "Cormac Hyde-Corrin",
+   "photo": "https://image.tmdb.org/t/p/w185/EDUoj3aQEEVq2x2EYnHpcekVkq.jpg",
+   "character": "Harry Greene",
+   "episodes": 16
+  },
+  {
+   "id": 4142627,
+   "name": "Leila Khan",
+   "photo": "https://image.tmdb.org/t/p/w185/seA5UflCk288Kwsk0SLQVSMHuEq.jpg",
+   "character": "Sahar Zahid",
+   "episodes": 15
+  },
+  {
+   "id": 3518242,
+   "name": "Ashwin Vishwanath",
+   "photo": "https://image.tmdb.org/t/p/w185/lFYdjfKPZKbkBErD9EudaY9jtSi.jpg",
+   "character": "Sai Verma",
+   "episodes": 15
+  },
+  {
+   "id": 3518243,
+   "name": "Evan Ovenell",
+   "photo": "https://image.tmdb.org/t/p/w185/vMvFVYDuKxIf9dLtuSyV7HO7XPx.jpg",
+   "character": "Christian McBride",
+   "episodes": 15
+  },
+  {
+   "id": 3478936,
+   "name": "Araloyin Oshunremi",
+   "photo": "https://image.tmdb.org/t/p/w185/6d5FlGMH2IKUl51VhTEhG7FtcmY.jpg",
+   "character": "Otis Smith",
+   "episodes": 14
+  },
+  {
+   "id": 1611987,
+   "name": "Fisayo Akinade",
+   "photo": "https://image.tmdb.org/t/p/w185/oO3cyfiPcKSrBrk1kXanPhxSKPK.jpg",
+   "character": "Mr Ajayi",
+   "episodes": 14
+  },
+  {
+   "id": 1614317,
+   "name": "Sebastian Croft",
+   "photo": "https://image.tmdb.org/t/p/w185/uv2foDEA3rgrzQsoyyV77Nb65ga.jpg",
+   "character": "Benjamin Hope",
+   "episodes": 13
+  },
+  {
+   "id": 1266584,
+   "name": "Georgina Rich",
+   "photo": "https://image.tmdb.org/t/p/w185/jtBgpLbkUDCW6IS4lQKnrqWTAmr.jpg",
+   "character": "Jane Spring",
+   "episodes": 12
+  },
+  {
+   "id": 2320930,
+   "name": "Nima Taleghani",
+   "photo": "https://image.tmdb.org/t/p/w185/sFFRkpFPgzMUhSlUdLXwHgmbUu9.jpg",
+   "character": "Mr Farouk",
+   "episodes": 12
+  },
+  {
+   "id": 1619295,
+   "name": "Chetna Pandya",
+   "photo": "https://image.tmdb.org/t/p/w185/aRdik5RhXjuwUjDhgVh5VWf39C7.jpg",
+   "character": "Coach Singh",
+   "episodes": 11
+  },
+  {
+   "id": 1477143,
+   "name": "Joseph Balderrama",
+   "photo": "https://image.tmdb.org/t/p/w185/8BwRFsXzWD25dPih6IePcRD3EjT.jpg",
+   "character": "Julio Spring",
+   "episodes": 11
+  },
+  {
+   "id": 39187,
+   "name": "Olivia Colman",
+   "photo": "https://image.tmdb.org/t/p/w185/lawJUdbLb1YW0niaYjiVGR9IBG8.jpg",
+   "character": "Sarah Nelson",
+   "episodes": 10
+  },
+  {
+   "id": 3518347,
+   "name": "Bradley Riches",
+   "photo": "https://image.tmdb.org/t/p/w185/dedh1DDnlnKkWdENwJpNAfzMtbr.jpg",
+   "character": "James McEwan / Student 3",
+   "episodes": 9
+  },
+  {
+   "id": 1530153,
+   "name": "Alan Turkington",
+   "photo": "https://image.tmdb.org/t/p/w185/hmQ61DceUl3PSU2bFwfjLHApSRB.jpg",
+   "character": "Mr Lange",
+   "episodes": 7
+  },
+  {
+   "id": 4142622,
+   "name": "Bel Priestley",
+   "photo": "https://image.tmdb.org/t/p/w185/3KY4Dlha5afTBl9aONWKpHQi226.jpg",
+   "character": "Naomi Russell",
+   "episodes": 7
+  }
+ ],
+ "crew": [
+  {
+   "id": 3350499,
+   "name": "Alice Oseman",
+   "photo": "https://image.tmdb.org/t/p/w185/frHxKvydZJ4k2qBZsrE6wVy9TaN.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 3350501,
+   "name": "Adiescar Chase",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1216417,
+   "name": "Euros Lyn",
+   "photo": "https://image.tmdb.org/t/p/w185/fJBgfdk5SlcZkrFulGvwovjw9tH.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 1937977,
+   "name": "Andy Newbery",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1024839,
+   "name": "Hakan Kousetta",
+   "photo": "https://image.tmdb.org/t/p/w185/1fljAUUiWqhvC8kNenjpbnUDf5O.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 55360,
+   "name": "Jamie Laurenson",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 2754210,
+   "name": "Patrick Walters",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:45.187Z"
+}

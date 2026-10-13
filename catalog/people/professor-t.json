@@ -1,0 +1,280 @@
+{
+ "show": "Professor T",
+ "slug": "professor-t",
+ "tmdbId": 126660,
+ "cast": [
+  {
+   "id": 18025,
+   "name": "Ben Miller",
+   "photo": "https://image.tmdb.org/t/p/w185/ij5nhtBWhCaOl4IEn8XhOYAGqB1.jpg",
+   "character": "Professor Tempest",
+   "episodes": 30
+  },
+  {
+   "id": 1683124,
+   "name": "Barney White",
+   "photo": "https://image.tmdb.org/t/p/w185/a43kmXK330UTPGRDEBjTglRsr3B.jpg",
+   "character": "Dan Winters",
+   "episodes": 30
+  },
+  {
+   "id": 1229033,
+   "name": "Sarah Woodward",
+   "photo": "https://image.tmdb.org/t/p/w185/fgT8sn3NnXbs33eQCBm6VIuPSGh.jpg",
+   "character": "Ingrid Snares",
+   "episodes": 30
+  },
+  {
+   "id": 994133,
+   "name": "Douglas Reith",
+   "photo": "https://image.tmdb.org/t/p/w185/48dfosYTTfngOeX00ngo0uF2tgt.jpg",
+   "character": "Wilfred Hamilton / The Dean / Dean",
+   "episodes": 30
+  },
+  {
+   "id": 47468,
+   "name": "Frances de la Tour",
+   "photo": "https://image.tmdb.org/t/p/w185/aDSge7DWhUyMyA0rEXEZpGiZzGO.jpg",
+   "character": "Adelaide Tempest",
+   "episodes": 30
+  },
+  {
+   "id": 3109130,
+   "name": "Emma Naomi",
+   "photo": "https://image.tmdb.org/t/p/w185/AmZSHLD0ylTMrbrD2njPFrGTErj.jpg",
+   "character": "Lisa Donckers",
+   "episodes": 19
+  },
+  {
+   "id": 1058078,
+   "name": "Andy Gathergood",
+   "photo": "https://image.tmdb.org/t/p/w185/9xOsv2aSQfrmo6Jfe7Q1u6cE5d1.jpg",
+   "character": "Paul Rabbit",
+   "episodes": 19
+  },
+  {
+   "id": 6238,
+   "name": "Juliet Stevenson",
+   "photo": "https://image.tmdb.org/t/p/w185/qiS6E7t5EbqRpWToggQwC3xIdDF.jpg",
+   "character": "Helena Goldberg / Dr Helena Goldberg",
+   "episodes": 18
+  },
+  {
+   "id": 18066,
+   "name": "Juliet Aubrey",
+   "photo": "https://image.tmdb.org/t/p/w185/puwE4ofyI8OWXXjpoJNyGASdFiR.jpg",
+   "character": "Christina Brand",
+   "episodes": 16
+  },
+  {
+   "id": 1221985,
+   "name": "Sunetra Sarker",
+   "photo": "https://image.tmdb.org/t/p/w185/lF0LL4aPoaqzKKt6UJn34dk3f3Z.jpg",
+   "character": "Maiya Goswami",
+   "episodes": 15
+  },
+  {
+   "id": 20240,
+   "name": "Zoë Wanamaker",
+   "photo": "https://image.tmdb.org/t/p/w185/keFC6KG1ewLW0ZaP7YkmLVECRrQ.jpg",
+   "character": "Zelda Radclyffe",
+   "episodes": 12
+  },
+  {
+   "id": 3217403,
+   "name": "Rhian Blundell",
+   "photo": "https://image.tmdb.org/t/p/w185/boxvoLu2m1sw5xlIM1wpuBpNncs.jpg",
+   "character": "DC Chloe Highsmith / Chloe Highsmith",
+   "episodes": 12
+  },
+  {
+   "id": 1541266,
+   "name": "Poppy Drayton",
+   "photo": "https://image.tmdb.org/t/p/w185/mx81cyurTIGDtoWcNPcK4fDKxAu.jpg",
+   "character": "Leonie Vass",
+   "episodes": 6
+  },
+  {
+   "id": 1487961,
+   "name": "Michael Lumsden",
+   "photo": "https://image.tmdb.org/t/p/w185/svFVz2D2Fib7ZkP8LhOmMsdK3pc.jpg",
+   "character": "Bob Winters",
+   "episodes": 6
+  },
+  {
+   "id": 102517,
+   "name": "Martin Swabey",
+   "photo": "https://image.tmdb.org/t/p/w185/gBV5ElUGdHEIt1LZBdiAHaaIhR9.jpg",
+   "character": "Martin Bentley",
+   "episodes": 4
+  },
+  {
+   "id": 2179338,
+   "name": "Rupert Turnbull",
+   "photo": "https://image.tmdb.org/t/p/w185/ugBI99ISNXQRVUJybMXniSWmYUk.jpg",
+   "character": "Young Jasper / Young Jasper Tempest",
+   "episodes": 4
+  },
+  {
+   "id": 1227672,
+   "name": "Marc Bannerman",
+   "photo": "https://image.tmdb.org/t/p/w185/6jQdocDt86gCMMbmldsuXb2BgjG.jpg",
+   "character": "Chester Vass",
+   "episodes": 4
+  },
+  {
+   "id": 5262949,
+   "name": "Sharon Verdegem",
+   "photo": null,
+   "character": "Crime Officer / Soco",
+   "episodes": 4
+  },
+  {
+   "id": 177594,
+   "name": "Kathryn Pogson",
+   "photo": "https://image.tmdb.org/t/p/w185/iMeHR5VhloOJVmqwgk8NfRI34Th.jpg",
+   "character": "Imelda",
+   "episodes": 4
+  },
+  {
+   "id": 3559326,
+   "name": "Lizzie Back",
+   "photo": null,
+   "character": "Diana Tyson",
+   "episodes": 3
+  },
+  {
+   "id": 1087600,
+   "name": "Ben Onwukwe",
+   "photo": "https://image.tmdb.org/t/p/w185/2R65pmPdEKP81WAAvbYdI3kUFse.jpg",
+   "character": "Herman Donckers",
+   "episodes": 3
+  },
+  {
+   "id": 2622627,
+   "name": "Freddie Wise",
+   "photo": "https://image.tmdb.org/t/p/w185/eOkdT4f8qBMCHqcup3T5mObp7zC.jpg",
+   "character": "Isaac Leeman",
+   "episodes": 3
+  },
+  {
+   "id": 1769659,
+   "name": "Kerry Bennett",
+   "photo": "https://image.tmdb.org/t/p/w185/o6SWNLCjpAwJAtBohRY39mKK4Vz.jpg",
+   "character": "Lydia Birdsong",
+   "episodes": 3
+  },
+  {
+   "id": 20806,
+   "name": "Silas Carson",
+   "photo": "https://image.tmdb.org/t/p/w185/kCAq5Ma1usCYLtJAFd2iwx6eQn1.jpg",
+   "character": "Lyndon Collins",
+   "episodes": 3
+  }
+ ],
+ "crew": [
+  {
+   "id": 1556295,
+   "name": "Malin-Sarah Gozin",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 88159,
+   "name": "Paul Piedfort",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 568633,
+   "name": "Kaat Beels",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1721255,
+   "name": "Dries Vos",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1531207,
+   "name": "Hannes de Maeyer",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1244449,
+   "name": "Stephen Brady",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1129763,
+   "name": "Joël Vanhoebrouck",
+   "photo": "https://image.tmdb.org/t/p/w185/3d7m8VO08JlAIS4b2CB4FMrTWfY.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 3358016,
+   "name": "Jo McGrath",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 3984952,
+   "name": "Walter Iuzzolino",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 3106925,
+   "name": "Matt Baker",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 4768401,
+   "name": "Jake Harvey",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:35:42.746Z"
+}

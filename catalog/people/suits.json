@@ -1,0 +1,326 @@
+{
+ "show": "Suits",
+ "slug": "suits",
+ "tmdbId": 37680,
+ "cast": [
+  {
+   "id": 16856,
+   "name": "Gabriel Macht",
+   "photo": "https://image.tmdb.org/t/p/w185/lacMH4Ju1x9AsKXm7mDkklSsPyV.jpg",
+   "character": "Harvey Specter",
+   "episodes": 134
+  },
+  {
+   "id": 1216133,
+   "name": "Rick Hoffman",
+   "photo": "https://image.tmdb.org/t/p/w185/c9CKBkLtGtW1T8GRNUid0tQHaJY.jpg",
+   "character": "Louis Litt",
+   "episodes": 134
+  },
+  {
+   "id": 154856,
+   "name": "Sarah Rafferty",
+   "photo": "https://image.tmdb.org/t/p/w185/Am3yPjKVbGWWn2Q1SB5wPz3yzgV.jpg",
+   "character": "Donna Paulsen",
+   "episodes": 134
+  },
+  {
+   "id": 51935,
+   "name": "Patrick J. Adams",
+   "photo": "https://image.tmdb.org/t/p/w185/uJiuAHTsZAbfMi9bKRksWn4oHLf.jpg",
+   "character": "Mike Ross",
+   "episodes": 111
+  },
+  {
+   "id": 1216701,
+   "name": "Meghan, Duchess of Sussex",
+   "photo": "https://image.tmdb.org/t/p/w185/c4l6MFR3Qrz3421hREII3S7cRHk.jpg",
+   "character": "Rachel Zane",
+   "episodes": 108
+  },
+  {
+   "id": 9576,
+   "name": "Gina Torres",
+   "photo": "https://image.tmdb.org/t/p/w185/ukDNHgvEgdU95eaw6pngiAPucv4.jpg",
+   "character": "Jessica Pearson",
+   "episodes": 99
+  },
+  {
+   "id": 65871,
+   "name": "Amanda Schull",
+   "photo": "https://image.tmdb.org/t/p/w185/1u0zGqSDaWOQVYmnpUCmEZ50oJP.jpg",
+   "character": "Katrina Bennett",
+   "episodes": 49
+  },
+  {
+   "id": 17859,
+   "name": "Wendell Pierce",
+   "photo": "https://image.tmdb.org/t/p/w185/r6yKahL6Z8l9aUX5qvWxTmWl8Nm.jpg",
+   "character": "Robert Zane",
+   "episodes": 36
+  },
+  {
+   "id": 122756,
+   "name": "Dulé Hill",
+   "photo": "https://image.tmdb.org/t/p/w185/fPJ8lIx6WwBgO2AhnHQSeiZiAUy.jpg",
+   "character": "Alex Williams",
+   "episodes": 35
+  },
+  {
+   "id": 49551,
+   "name": "Aloma Wright",
+   "photo": "https://image.tmdb.org/t/p/w185/18zBXoQRTpgLyHHKXSzlxgYlaSB.jpg",
+   "character": "Gretchen",
+   "episodes": 34
+  },
+  {
+   "id": 46074,
+   "name": "Rachael Harris",
+   "photo": "https://image.tmdb.org/t/p/w185/1O0zLB0gMcNIuttpG3omWb4ZAvF.jpg",
+   "character": "Sheila Sazs",
+   "episodes": 28
+  },
+  {
+   "id": 25541,
+   "name": "Katherine Heigl",
+   "photo": "https://image.tmdb.org/t/p/w185/1yYJI5qtkeJMZo9JU4KMVuO2Hy9.jpg",
+   "character": "Samantha Wheeler",
+   "episodes": 26
+  },
+  {
+   "id": 47625,
+   "name": "Christina Cole",
+   "photo": "https://image.tmdb.org/t/p/w185/lOcjHQgXg5rgM6zOr4k7SsMoABV.jpg",
+   "character": "Dr. Paula Agard",
+   "episodes": 17
+  },
+  {
+   "id": 1066079,
+   "name": "Max Topplin",
+   "photo": "https://image.tmdb.org/t/p/w185/659kj49u0Tf7sjlXPzoMvJY1V0P.jpg",
+   "character": "Harold Gunderson",
+   "episodes": 17
+  },
+  {
+   "id": 2203,
+   "name": "Neal McDonough",
+   "photo": "https://image.tmdb.org/t/p/w185/3mI3i1CpjATSCta1Tb2qsyl1KCh.jpg",
+   "character": "Sean Cahill",
+   "episodes": 17
+  },
+  {
+   "id": 21356,
+   "name": "D. B. Woodside",
+   "photo": "https://image.tmdb.org/t/p/w185/xdyGewr108rQWojpYlKw2QjrxCz.jpg",
+   "character": "Jeff Malone",
+   "episodes": 16
+  },
+  {
+   "id": 78151,
+   "name": "Ray Proscia",
+   "photo": "https://image.tmdb.org/t/p/w185/esfUcPgYFHrb59vYqTglUbdljkc.jpg",
+   "character": "Dr. Lipschitz",
+   "episodes": 16
+  },
+  {
+   "id": 82167,
+   "name": "David Costabile",
+   "photo": "https://image.tmdb.org/t/p/w185/jTouM1QK24TXy5Q3T40t4AhR8GH.jpg",
+   "character": "Daniel Hardman",
+   "episodes": 16
+  },
+  {
+   "id": 123725,
+   "name": "Abigail Spencer",
+   "photo": "https://image.tmdb.org/t/p/w185/uf96FDHVoFMwoiP5He4SPLCmwri.jpg",
+   "character": "Dana Scott",
+   "episodes": 15
+  },
+  {
+   "id": 1812409,
+   "name": "Jordan Johnson-Hinds",
+   "photo": "https://image.tmdb.org/t/p/w185/4ryzEB2TElkWSDyt1MwZjZWjJo3.jpg",
+   "character": "Oliver Grady",
+   "episodes": 14
+  },
+  {
+   "id": 95638,
+   "name": "John Pyper-Ferguson",
+   "photo": "https://image.tmdb.org/t/p/w185/2IYFYfH67yG1UGedH49BYjigMe.jpg",
+   "character": "Jack Soloff",
+   "episodes": 13
+  },
+  {
+   "id": 168750,
+   "name": "Jake Epstein",
+   "photo": "https://image.tmdb.org/t/p/w185/4pDBysfItmkA3exxdaupQjkEkCv.jpg",
+   "character": "Brian Altman / Brian Altman (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 141217,
+   "name": "David Reale",
+   "photo": "https://image.tmdb.org/t/p/w185/6Mo33Tpd9Ou7nRjKjZ1iMBc2jq0.jpg",
+   "character": "Benjamin",
+   "episodes": 12
+  },
+  {
+   "id": 60096,
+   "name": "Brandon Firla",
+   "photo": "https://image.tmdb.org/t/p/w185/5GdvNqFcDb6qgKwqhWrnp4NFht7.jpg",
+   "character": "Jonathan Sidwell",
+   "episodes": 12
+  }
+ ],
+ "crew": [
+  {
+   "id": 1254209,
+   "name": "Aaron Korsh",
+   "photo": "https://image.tmdb.org/t/p/w185/vP9N4uomVcL2s2YXasILA6REWek.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 146
+  },
+  {
+   "id": 1228639,
+   "name": "Rick Muirragui",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 96
+  },
+  {
+   "id": 2000841,
+   "name": "Kyle Long",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 38
+  },
+  {
+   "id": 2382565,
+   "name": "Sharyn Rothstein",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 38
+  },
+  {
+   "id": 3553752,
+   "name": "Justin Peacock",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 36
+  },
+  {
+   "id": 2090997,
+   "name": "Marshall Knight",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 2090996,
+   "name": "Rob LaMorgese",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 1237446,
+   "name": "Genevieve Sparling",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 4424270,
+   "name": "Sandra Silverstein",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 1637631,
+   "name": "Ethan Drogin",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 1214867,
+   "name": "Anton Cropper",
+   "photo": "https://image.tmdb.org/t/p/w185/b9Fl0GK8Hc7NfmwzvD0H27baxQz.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 1232639,
+   "name": "Michael Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/qrSXbXu6axP24J9yNPv1HZObgNs.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 1214632,
+   "name": "Daniel Arkin",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 1214433,
+   "name": "Christopher Misiano",
+   "photo": "https://image.tmdb.org/t/p/w185/3zRIhdlc6JTIOuszJD5hknvFEeg.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 2237104,
+   "name": "Garrett Schabb",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 34453,
+   "name": "Kevin Bray",
+   "photo": "https://image.tmdb.org/t/p/w185/aQcedywDVuXZhjWoC8ymkjkGauE.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 12
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:59.553Z"
+}

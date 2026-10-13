@@ -1,0 +1,325 @@
+{
+ "show": "Spider-Noir",
+ "slug": "spider-noir",
+ "tmdbId": 220102,
+ "cast": [
+  {
+   "id": 2963,
+   "name": "Nicolas Cage",
+   "photo": "https://image.tmdb.org/t/p/w185/y1RtezurZYveYkVNRht7CwEgSYY.jpg",
+   "character": "Ben Reilly / The Spider",
+   "episodes": 8
+  },
+  {
+   "id": 1181327,
+   "name": "Lamorne Morris",
+   "photo": "https://image.tmdb.org/t/p/w185/9qPDnMsF7JbYSSn1K9yryFBmmXl.jpg",
+   "character": "Joe 'Robbie' Robertson",
+   "episodes": 8
+  },
+  {
+   "id": 1321015,
+   "name": "Li Jun Li",
+   "photo": "https://image.tmdb.org/t/p/w185/9glGNxymt1vHxyMPesTreJTpD7n.jpg",
+   "character": "Cat Hardy",
+   "episodes": 8
+  },
+  {
+   "id": 3966106,
+   "name": "Karen Rodriguez",
+   "photo": "https://image.tmdb.org/t/p/w185/3CxunqumXE9ZYofJ0rhF7nSSMqX.jpg",
+   "character": "Janet Ruiz",
+   "episodes": 8
+  },
+  {
+   "id": 1432064,
+   "name": "Abraham Popoola",
+   "photo": "https://image.tmdb.org/t/p/w185/r5mojn6TjWgHefdMCJNiohvY82f.jpg",
+   "character": "Lonnie Lincoln / Tombstone",
+   "episodes": 8
+  },
+  {
+   "id": 54738,
+   "name": "Jack Huston",
+   "photo": "https://image.tmdb.org/t/p/w185/qWGoZaUbeuaOLbDvyP5txYr9Hct.jpg",
+   "character": "Flint Marko",
+   "episodes": 8
+  },
+  {
+   "id": 2039,
+   "name": "Brendan Gleeson",
+   "photo": "https://image.tmdb.org/t/p/w185/ctPPJu5ZYDZr1IPmzoNpezczrm0.jpg",
+   "character": "Finn 'Silvermane' Byrne",
+   "episodes": 8
+  },
+  {
+   "id": 935497,
+   "name": "Joe Massingill",
+   "photo": "https://image.tmdb.org/t/p/w185/vokyCO9SR3ZFBHKYID6k7zVNnTp.jpg",
+   "character": "Pudge",
+   "episodes": 8
+  },
+  {
+   "id": 209087,
+   "name": "Scott MacArthur",
+   "photo": "https://image.tmdb.org/t/p/w185/rGTPhDMQYR7mmtcOwPMK7R4SDgV.jpg",
+   "character": "Perry",
+   "episodes": 8
+  },
+  {
+   "id": 170737,
+   "name": "Michael Kostroff",
+   "photo": "https://image.tmdb.org/t/p/w185/w5kfGOzgGfVGTGB2CB0X8eIplES.jpg",
+   "character": "Mayor Morris",
+   "episodes": 6
+  },
+  {
+   "id": 77912,
+   "name": "Andrew Lewis Caldwell",
+   "photo": "https://image.tmdb.org/t/p/w185/re79YZi81oxsk1D2yfaa35kfU1T.jpg",
+   "character": "Dirk Leyden",
+   "episodes": 5
+  },
+  {
+   "id": 526,
+   "name": "Lukas Haas",
+   "photo": "https://image.tmdb.org/t/p/w185/vabZQXlAhyW2GxQfDM1PhKURA8.jpg",
+   "character": "Winston",
+   "episodes": 4
+  },
+  {
+   "id": 2407997,
+   "name": "Cary Christopher",
+   "photo": "https://image.tmdb.org/t/p/w185/3ATVXSp6iPM9SaKUvQhI9tfGA5M.jpg",
+   "character": "Frankie",
+   "episodes": 4
+  },
+  {
+   "id": 65871,
+   "name": "Amanda Schull",
+   "photo": "https://image.tmdb.org/t/p/w185/1u0zGqSDaWOQVYmnpUCmEZ50oJP.jpg",
+   "character": "Ruby",
+   "episodes": 3
+  },
+  {
+   "id": 102567,
+   "name": "Randy Oglesby",
+   "photo": "https://image.tmdb.org/t/p/w185/95ktQ5pD8CuDmRYi4MszTmYCr0U.jpg",
+   "character": "Chief McNamara",
+   "episodes": 3
+  },
+  {
+   "id": 1414554,
+   "name": "Craig Frosty Silva",
+   "photo": null,
+   "character": "Gio (Henchman)",
+   "episodes": 3
+  },
+  {
+   "id": 3665155,
+   "name": "David De La Barcena",
+   "photo": "https://image.tmdb.org/t/p/w185/38hto9379CamebuJVe20IfWORNX.jpg",
+   "character": "Newsie #2 / Diner Newsie #2",
+   "episodes": 3
+  },
+  {
+   "id": 33457,
+   "name": "Amy Aquino",
+   "photo": "https://image.tmdb.org/t/p/w185/59E061EJyEl2CLcBd12p9Vi7q0B.jpg",
+   "character": "Dr. Faber",
+   "episodes": 2
+  },
+  {
+   "id": 14782,
+   "name": "Andrew Robinson",
+   "photo": "https://image.tmdb.org/t/p/w185/zHlqGUhVgvs4Cx16YALEqX799Oq.jpg",
+   "character": "Ogden",
+   "episodes": 2
+  },
+  {
+   "id": 79498,
+   "name": "Kai Caster",
+   "photo": "https://image.tmdb.org/t/p/w185/nxsuGKOCMt76OetH6J0txStYGjY.jpg",
+   "character": "Young Ogden",
+   "episodes": 2
+  },
+  {
+   "id": 1444854,
+   "name": "Jack Mikesell",
+   "photo": "https://image.tmdb.org/t/p/w185/9zXmUnMjHIUpJl6Ve1r7ZFNB9F2.jpg",
+   "character": "Addison",
+   "episodes": 2
+  },
+  {
+   "id": 1990,
+   "name": "Brian Howe",
+   "photo": "https://image.tmdb.org/t/p/w185/6JpzCLWbKG6Hp44r09ro0ZkJDSH.jpg",
+   "character": "Carmedy",
+   "episodes": 2
+  },
+  {
+   "id": 1695649,
+   "name": "Whitney Rice",
+   "photo": "https://image.tmdb.org/t/p/w185/aY9U97KsqK518QKEp08R6cMIPd6.jpg",
+   "character": "Vera",
+   "episodes": 2
+  },
+  {
+   "id": 6244220,
+   "name": "Sofia Melián",
+   "photo": null,
+   "character": "Sylvia",
+   "episodes": 2
+  }
+ ],
+ "crew": [
+  {
+   "id": 1090787,
+   "name": "Oren Uziel",
+   "photo": "https://image.tmdb.org/t/p/w185/3BILGAN8QXLaVYeAx9JGc2l0qgO.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 930976,
+   "name": "Pavlina Hatoupis",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 6244203,
+   "name": "Megan Liao",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 2578051,
+   "name": "Jennifer Frazin",
+   "photo": "https://image.tmdb.org/t/p/w185/4N8SdJt1SpLQUwMNoaIvv4TpB5x.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 5697972,
+   "name": "Jack Henderson",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1240816,
+   "name": "Steve Lightfoot",
+   "photo": "https://image.tmdb.org/t/p/w185/2CPBXSicKlQO0xnhmYgEhWUGL42.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 155267,
+   "name": "Christopher Miller",
+   "photo": "https://image.tmdb.org/t/p/w185/dr2yCgYtmNmO5vzjk9KNbjTpbzO.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 6244224,
+   "name": "Dan Shear",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 2963,
+   "name": "Nicolas Cage",
+   "photo": "https://image.tmdb.org/t/p/w185/y1RtezurZYveYkVNRht7CwEgSYY.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 107446,
+   "name": "Phil Lord",
+   "photo": "https://image.tmdb.org/t/p/w185/2MagibFHZxky3FmMubyABUnf4lw.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1425616,
+   "name": "Amy Pascal",
+   "photo": "https://image.tmdb.org/t/p/w185/cZ526e4oPN1i44Q0BxYW8nOtrzR.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1320090,
+   "name": "Aditya Sood",
+   "photo": "https://image.tmdb.org/t/p/w185/kPumbiCdRWWkmLG5yROqd2plfBK.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1803762,
+   "name": "Michael Dean Parsons",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1802871,
+   "name": "Kris Bowers",
+   "photo": "https://image.tmdb.org/t/p/w185/qL0TnImRmCRIcoQy1d3GjTPKCLn.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1744211,
+   "name": "Nzingha Stewart",
+   "photo": "https://image.tmdb.org/t/p/w185/th8WxtcLcSMqByxwGXzCMnUClpq.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1449583,
+   "name": "Alethea Jones",
+   "photo": "https://image.tmdb.org/t/p/w185/6QGlUkgxnpgG4l4puiWikneKKNJ.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:34:21.910Z"
+}

@@ -1,0 +1,334 @@
+{
+ "show": "Narcos",
+ "slug": "narcos",
+ "tmdbId": 63351,
+ "cast": [
+  {
+   "id": 1253360,
+   "name": "Pedro Pascal",
+   "photo": "https://image.tmdb.org/t/p/w185/oKcMbVn0NJTNzQt0ClKKvVXkm60.jpg",
+   "character": "Javier Peña",
+   "episodes": 30
+  },
+  {
+   "id": 110424,
+   "name": "Alberto Ammann",
+   "photo": "https://image.tmdb.org/t/p/w185/aAKmbGgoE8YLds2sLvpezczeiMY.jpg",
+   "character": "Pacho Herrera",
+   "episodes": 21
+  },
+  {
+   "id": 52583,
+   "name": "Wagner Moura",
+   "photo": "https://image.tmdb.org/t/p/w185/53IbAed4t1dOWxY3iygbRYZBBnm.jpg",
+   "character": "Pablo Escobar",
+   "episodes": 20
+  },
+  {
+   "id": 467645,
+   "name": "Boyd Holbrook",
+   "photo": "https://image.tmdb.org/t/p/w185/xmkpedcct3ey1d1HGDNsUMQPHcB.jpg",
+   "character": "Steve Murphy",
+   "episodes": 20
+  },
+  {
+   "id": 1230988,
+   "name": "Joanna Christie",
+   "photo": "https://image.tmdb.org/t/p/w185/jyOnQE1jhVikWmHFmI7n6LWv1Oj.jpg",
+   "character": "Connie Murphy",
+   "episodes": 20
+  },
+  {
+   "id": 36586,
+   "name": "Paulina Gaitán",
+   "photo": "https://image.tmdb.org/t/p/w185/7A5ehPIhsbPGucp4Gr6zjnVSebt.jpg",
+   "character": "Tata Escobar",
+   "episodes": 20
+  },
+  {
+   "id": 1532436,
+   "name": "Paulina García",
+   "photo": "https://image.tmdb.org/t/p/w185/tNlCDdvzkGyvdv2SbWzkQdpV5xA.jpg",
+   "character": "Hermilda Gaviria",
+   "episodes": 15
+  },
+  {
+   "id": 125739,
+   "name": "Matias Varela",
+   "photo": "https://image.tmdb.org/t/p/w185/byw4O8SiN14FDuPocQa4WDNzt3N.jpg",
+   "character": "Jorge Salcedo",
+   "episodes": 10
+  },
+  {
+   "id": 7370,
+   "name": "Damián Alcázar",
+   "photo": "https://image.tmdb.org/t/p/w185/6IAlrZ2yXubmmVaRsF7fdaP3N7C.jpg",
+   "character": "Gilberto Rodríguez Orejuela",
+   "episodes": 10
+  },
+  {
+   "id": 1004053,
+   "name": "Francisco Denis",
+   "photo": "https://image.tmdb.org/t/p/w185/kidgm7ryeUhtgBEfnXeBOVabfvy.jpg",
+   "character": "Miguel Rodríguez Orejuela",
+   "episodes": 10
+  },
+  {
+   "id": 48530,
+   "name": "Maurice Compte",
+   "photo": "https://image.tmdb.org/t/p/w185/9PFInf2I0kqjAU0CmZhdDWmHfwT.jpg",
+   "character": "Horacio Carrillo",
+   "episodes": 10
+  },
+  {
+   "id": 929937,
+   "name": "Stephanie Sigman",
+   "photo": "https://image.tmdb.org/t/p/w185/7jSt9h30UV0S2GDZpzt8xNq2GVQ.jpg",
+   "character": "Valeria Velez",
+   "episodes": 10
+  },
+  {
+   "id": 1150468,
+   "name": "Pêpê Rapazote",
+   "photo": "https://image.tmdb.org/t/p/w185/rJfKE5zEJbMvlWM74fgCNTz75nu.jpg",
+   "character": "Chepe Santacruz Londoño",
+   "episodes": 10
+  },
+  {
+   "id": 1457999,
+   "name": "Arturo Castro",
+   "photo": "https://image.tmdb.org/t/p/w185/pbLoDCfjm3fLtGHVqQcnbM2d0cu.jpg",
+   "character": "David Rodriguez",
+   "episodes": 10
+  },
+  {
+   "id": 51991,
+   "name": "Michael Stahl-David",
+   "photo": "https://image.tmdb.org/t/p/w185/97a0cwKFuAHXh8X0NlxSGDvBvxn.jpg",
+   "character": "Chris Feistl",
+   "episodes": 10
+  },
+  {
+   "id": 1046893,
+   "name": "Matt Whelan",
+   "photo": "https://image.tmdb.org/t/p/w185/qTIe7SblKwxR9DF6iNuVX0pEWIZ.jpg",
+   "character": "Daniel Van Ness",
+   "episodes": 10
+  },
+  {
+   "id": 112129,
+   "name": "Diego Cataño",
+   "photo": "https://image.tmdb.org/t/p/w185/teGxmAxjCBI0UyDkSNenNBwoWT3.jpg",
+   "character": "La Quica",
+   "episodes": 10
+  },
+  {
+   "id": 99508,
+   "name": "Jorge A. Jimenez",
+   "photo": "https://image.tmdb.org/t/p/w185/jWAzvFOMCfoWrE404gwpM0PxJfx.jpg",
+   "character": "Poison",
+   "episodes": 10
+  },
+  {
+   "id": 937009,
+   "name": "Juan Pablo Raba",
+   "photo": "https://image.tmdb.org/t/p/w185/xXgB3pOpYWs8NlePS0QrRiYV5FD.jpg",
+   "character": "Gustavo Gaviria",
+   "episodes": 10
+  },
+  {
+   "id": 18463,
+   "name": "Raúl Méndez",
+   "photo": "https://image.tmdb.org/t/p/w185/8bzja1ttlGNQ3DrkjDlJShid23O.jpg",
+   "character": "Cesar Gaviria",
+   "episodes": 10
+  },
+  {
+   "id": 52745,
+   "name": "Bruno Bichir",
+   "photo": "https://image.tmdb.org/t/p/w185/af6MbUchuOv9bPh080cF7Awqxi7.jpg",
+   "character": "Fernando Duque",
+   "episodes": 10
+  },
+  {
+   "id": 40481,
+   "name": "Luis Guzmán",
+   "photo": "https://image.tmdb.org/t/p/w185/kSdxUckOJj9R5VKrLUnRy14YhNV.jpg",
+   "character": "José Rodríguez Gacha",
+   "episodes": 10
+  },
+  {
+   "id": 233278,
+   "name": "Martina García",
+   "photo": "https://image.tmdb.org/t/p/w185/v85VENjDf3njrnybbdyoXYpltj0.jpg",
+   "character": "Maritza",
+   "episodes": 10
+  },
+  {
+   "id": 16841,
+   "name": "Brett Cullen",
+   "photo": "https://image.tmdb.org/t/p/w185/4P6TsRcnr9MRbXlCdHitulGM5LT.jpg",
+   "character": "Arthur Crosby",
+   "episodes": 10
+  }
+ ],
+ "crew": [
+  {
+   "id": 64506,
+   "name": "Chris Brancato",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 81203,
+   "name": "Doug Miro",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 121479,
+   "name": "Carlo Bernard",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 15220,
+   "name": "Eric Newman",
+   "photo": "https://image.tmdb.org/t/p/w185/igKWW23mx3EYZVaqy9Yv7zo4bzR.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 52581,
+   "name": "Pedro Bromfman",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 444720,
+   "name": "Andrés Baiz",
+   "photo": "https://image.tmdb.org/t/p/w185/nu8X6Byb4stuYBY1nBvYc3NzEnK.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 3150420,
+   "name": "Adam Fishbach",
+   "photo": "https://image.tmdb.org/t/p/w185/4DzQxiwapmwPIDyDNnCe7Nifvz1.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1304310,
+   "name": "Josef Kubota Wladyka",
+   "photo": "https://image.tmdb.org/t/p/w185/jDwJssEia8lVh5MLvuAI3vDm3jv.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1198774,
+   "name": "Fernando Coimbra",
+   "photo": "https://image.tmdb.org/t/p/w185/2GzuUqU82ihQxn3jzLw4oJkJ3UI.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 238137,
+   "name": "Gerardo Naranjo",
+   "photo": "https://image.tmdb.org/t/p/w185/fooyffeUYCTxdt7p9GfJuXsiW5k.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1519508,
+   "name": "T.J. Brady",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Teleplay"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 82623,
+   "name": "Andrew Black",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1841112,
+   "name": "Zachary Reiter",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1519509,
+   "name": "Rasheed Newson",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Teleplay"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 3113,
+   "name": "Guillermo Navarro",
+   "photo": "https://image.tmdb.org/t/p/w185/snJxTbayKfmmCjM2WDJ8lHHRgYm.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1223306,
+   "name": "Gabriel Ripstein",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:11.459Z"
+}

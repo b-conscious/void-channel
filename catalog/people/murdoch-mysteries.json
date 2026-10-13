@@ -1,0 +1,326 @@
+{
+ "show": "Murdoch Mysteries",
+ "slug": "murdoch-mysteries",
+ "tmdbId": 12786,
+ "cast": [
+  {
+   "id": 43311,
+   "name": "Yannick Bisson",
+   "photo": "https://image.tmdb.org/t/p/w185/pUxydAXsxH7NwVuB2AFIjMrUxP7.jpg",
+   "character": "Detective William Murdoch",
+   "episodes": 334
+  },
+  {
+   "id": 175756,
+   "name": "Helene Joy",
+   "photo": "https://image.tmdb.org/t/p/w185/23Qzyov88pRq8BRGTOcIVc7BeQa.jpg",
+   "character": "Dr. Julia Ogden",
+   "episodes": 334
+  },
+  {
+   "id": 198133,
+   "name": "Thomas Craig",
+   "photo": "https://image.tmdb.org/t/p/w185/dfhAe68dMV4NK38gOfKnBg07kgM.jpg",
+   "character": "Chief Constable Thomas Brackenreid",
+   "episodes": 334
+  },
+  {
+   "id": 1244130,
+   "name": "Jonny Harris",
+   "photo": "https://image.tmdb.org/t/p/w185/bpW9XBxarq85KUiQIjoV2efngip.jpg",
+   "character": "Constable George Crabtree",
+   "episodes": 334
+  },
+  {
+   "id": 27137,
+   "name": "Lachlan Murdoch",
+   "photo": "https://image.tmdb.org/t/p/w185/uFHp92C3VdOc8MQ5m6khkFPmiD1.jpg",
+   "character": "Constable Henry Higgins",
+   "episodes": 334
+  },
+  {
+   "id": 1228356,
+   "name": "Shanice Banton",
+   "photo": "https://image.tmdb.org/t/p/w185/a6dEl02HXIJzUfszwQtphzxNTYa.jpg",
+   "character": "Violet Hart",
+   "episodes": 180
+  },
+  {
+   "id": 1652517,
+   "name": "Daniel Maslany",
+   "photo": "https://image.tmdb.org/t/p/w185/lVYENt6wUbB1ZtgyIqw1nXagx6e.jpg",
+   "character": "Detective Llewellyn Watts",
+   "episodes": 177
+  },
+  {
+   "id": 90683,
+   "name": "Georgina Reilly",
+   "photo": "https://image.tmdb.org/t/p/w185/bNLXDfDNV4AOmAuktORHiRqgpYt.jpg",
+   "character": "Dr. Emily Grace",
+   "episodes": 98
+  },
+  {
+   "id": 115664,
+   "name": "Siobhan Murphy",
+   "photo": "https://image.tmdb.org/t/p/w185/3piDsfuzqMGcUm3G1dIIvaW6N0X.jpg",
+   "character": "Ruth Newsome",
+   "episodes": 43
+  },
+  {
+   "id": 130365,
+   "name": "Jonathan Watton",
+   "photo": "https://image.tmdb.org/t/p/w185/vs8Uq0e9ij3JQwcFApeXWSLdThy.jpg",
+   "character": "Dr. Darcy Garland",
+   "episodes": 39
+  },
+  {
+   "id": 1590228,
+   "name": "Mouna Traoré",
+   "photo": "https://image.tmdb.org/t/p/w185/8X6oFWuLVNHQ5NbMPjrvglPWl8t.jpg",
+   "character": "Rebecca James",
+   "episodes": 36
+  },
+  {
+   "id": 3291288,
+   "name": "Kenzie Delo",
+   "photo": "https://image.tmdb.org/t/p/w185/ama6meIfwoOVJqMYP2rcaayUzhM.jpg",
+   "character": "Constable Tucker",
+   "episodes": 24
+  },
+  {
+   "id": 178068,
+   "name": "Paul Sun-Hyung Lee",
+   "photo": "https://image.tmdb.org/t/p/w185/qyJG3qC1TImpJYN0zCgnFSQzzOF.jpg",
+   "character": "Inspector Albert Choi",
+   "episodes": 22
+  },
+  {
+   "id": 80365,
+   "name": "Paul Rhys",
+   "photo": "https://image.tmdb.org/t/p/w185/l7uc38oZGMQbbq7WqE8rKn9xZJr.jpg",
+   "character": "Dr. Llewllyn Francis",
+   "episodes": 13
+  },
+  {
+   "id": 1850219,
+   "name": "Charles Vandervaart",
+   "photo": "https://image.tmdb.org/t/p/w185/wo18r0IXjPhrybDFXHH6l68BeNW.jpg",
+   "character": "John Brackenreid",
+   "episodes": 12
+  },
+  {
+   "id": 1300649,
+   "name": "Sara Mitich",
+   "photo": "https://image.tmdb.org/t/p/w185/kwFIjhQYGTh9iqmCe0vhPhxlbOe.jpg",
+   "character": "Lillian Moss",
+   "episodes": 10
+  },
+  {
+   "id": 2431619,
+   "name": "Kataem O'Connor",
+   "photo": "https://image.tmdb.org/t/p/w185/9OGFa2tehdHPUyACwYcCxJtvNXm.jpg",
+   "character": "Constable Teddy Roberts",
+   "episodes": 10
+  },
+  {
+   "id": 55587,
+   "name": "Peter Stebbings",
+   "photo": "https://image.tmdb.org/t/p/w185/jzCHs7st9EKGnwHq2aZ52ItSfiP.jpg",
+   "character": "James Pendrick",
+   "episodes": 8
+  },
+  {
+   "id": 1477961,
+   "name": "Percy Hynes White",
+   "photo": "https://image.tmdb.org/t/p/w185/de84y3MlgDBnEtZZ3f7RDkYQPYs.jpg",
+   "character": "Simon Brooks",
+   "episodes": 8
+  },
+  {
+   "id": 1912084,
+   "name": "Arwen Humphreys",
+   "photo": "https://image.tmdb.org/t/p/w185/q9ocfQMwfnwQfrFdJwXGaGpPCQ2.jpg",
+   "character": "Margaret Brackenreid",
+   "episodes": 7
+  },
+  {
+   "id": 78412,
+   "name": "Peter Keleghan",
+   "photo": "https://image.tmdb.org/t/p/w185/qIxXvgr1GtwRLfyrmieVdbgXwt5.jpg",
+   "character": "Terrence Meyers",
+   "episodes": 6
+  },
+  {
+   "id": 237041,
+   "name": "Sarah Allen",
+   "photo": "https://image.tmdb.org/t/p/w185/mhwhjPS7EPV7OcJSYsKPWPSKM0C.jpg",
+   "character": "Enid Jones",
+   "episodes": 5
+  },
+  {
+   "id": 27143,
+   "name": "John Tench",
+   "photo": "https://image.tmdb.org/t/p/w185/xF4Ylt8cD5HBkP8ERDmSTtSPnSN.jpg",
+   "character": "Alexander Graham Bell",
+   "episodes": 5
+  },
+  {
+   "id": 190895,
+   "name": "Sarah Gadon",
+   "photo": "https://image.tmdb.org/t/p/w185/sWBMkqjRiszNrvaLE2SSedG9szT.jpg",
+   "character": "Ruby Ogden",
+   "episodes": 4
+  }
+ ],
+ "crew": [
+  {
+   "id": 1244131,
+   "name": "Maureen Jennings",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 85
+  },
+  {
+   "id": 1244134,
+   "name": "Lori Spring",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 114
+  },
+  {
+   "id": 1244135,
+   "name": "Cal Coons",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 96
+  },
+  {
+   "id": 1218953,
+   "name": "Christina Jennings",
+   "photo": "https://image.tmdb.org/t/p/w185/lPZbCNhmjcKfHvCAI7T8dvAeGD8.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 96
+  },
+  {
+   "id": 950590,
+   "name": "Scott Garvie",
+   "photo": "https://image.tmdb.org/t/p/w185/ifmAkZFYn3ytKBUYI9AlShBiGpZ.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 96
+  },
+  {
+   "id": 1244136,
+   "name": "Noel Hedges",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 96
+  },
+  {
+   "id": 55151,
+   "name": "Larry Lalonde",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 96
+  },
+  {
+   "id": 1244133,
+   "name": "Philip Bedard",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 96
+  },
+  {
+   "id": 168782,
+   "name": "Don McBrearty",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 159767,
+   "name": "John L'Ecuyer",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 106482,
+   "name": "Shawn Thompson",
+   "photo": "https://image.tmdb.org/t/p/w185/x5bzvOlZfCMmI2iYtXkAaTBaTqo.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1230368,
+   "name": "Laurie Lynd",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 69721,
+   "name": "Farhad Mann",
+   "photo": "https://image.tmdb.org/t/p/w185/uFKMT5MHDEMuFLnv2dXPYIpgDIa.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1543509,
+   "name": "Paul Aitken",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 3313507,
+   "name": "Steve Wright",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 2165105,
+   "name": "Peter Mitchell",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 3
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:37:24.259Z"
+}

@@ -1,0 +1,287 @@
+{
+ "show": "Daria",
+ "slug": "daria",
+ "tmdbId": 2131,
+ "cast": [
+  {
+   "id": 1229455,
+   "name": "Tracy Grandstaff",
+   "photo": "https://image.tmdb.org/t/p/w185/yoaD1cMZWZ7GewglkUm8MfL2Y05.jpg",
+   "character": "Daria Morgendorffer (voice)",
+   "episodes": 65
+  },
+  {
+   "id": 164040,
+   "name": "Wendy Hoopes",
+   "photo": "https://image.tmdb.org/t/p/w185/rOjSFSVVifud4qr7Kl3VA60LNtm.jpg",
+   "character": "Jane Lane / Quinn Morgendorffer / Helen Morgendorffer (voice)",
+   "episodes": 65
+  },
+  {
+   "id": 1229458,
+   "name": "Julián Rebolledo",
+   "photo": "https://image.tmdb.org/t/p/w185/7LyIJuaLvSLGHJsAqIOaZvUKIdZ.jpg",
+   "character": "Jake Morgendorffer (voice)",
+   "episodes": 65
+  },
+  {
+   "id": 96119,
+   "name": "Marc Thompson",
+   "photo": "https://image.tmdb.org/t/p/w185/sjVpXc2SNbQ5JLspYT3VCnVrV9m.jpg",
+   "character": "Kevin Thompson (voice)",
+   "episodes": 65
+  },
+  {
+   "id": 1229456,
+   "name": "Alvaro J. Gonzalez",
+   "photo": "https://image.tmdb.org/t/p/w185/cE4VO1JLHxPSrJNyNKP4B3urggG.jpg",
+   "character": "Trent Lane (voice)",
+   "episodes": 65
+  },
+  {
+   "id": 1229457,
+   "name": "Jessica Cydnee Jackson",
+   "photo": "https://image.tmdb.org/t/p/w185/m9SSXKWV5gu9316BmSInvxxXydq.jpg",
+   "character": "Jodie Landon (voice)",
+   "episodes": 65
+  },
+  {
+   "id": 1212947,
+   "name": "Janie Mertz",
+   "photo": "https://image.tmdb.org/t/p/w185/kwIT1pXjWAlhZwIOCAYNuI4tW0V.jpg",
+   "character": "Brittany Taylor / Sandi Griffin (voice)",
+   "episodes": 65
+  },
+  {
+   "id": 198927,
+   "name": "Sarah Drew",
+   "photo": "https://image.tmdb.org/t/p/w185/65hUM3Egh5roemP3Cgn0bA38rDj.jpg",
+   "character": "Stacy Rowe (voice)",
+   "episodes": 65
+  },
+  {
+   "id": 1229459,
+   "name": "John Worth Lynn, Jr.",
+   "photo": null,
+   "character": "Sick, Sad World's Announcer (voice)",
+   "episodes": 65
+  },
+  {
+   "id": 1171631,
+   "name": "Ashley Albert",
+   "photo": "https://image.tmdb.org/t/p/w185/1tyk2qHvFaecyTyd7iiUF759Ksy.jpg",
+   "character": "Tiffany Blum-Deckler (voice)",
+   "episodes": 65
+  },
+  {
+   "id": 5375,
+   "name": "Geoffrey Arend",
+   "photo": "https://image.tmdb.org/t/p/w185/bpqF3V5lK5GxuIU4VuTaVaztIvw.jpg",
+   "character": "Charles \"Upchuck\" Ruttheimer III (voice)",
+   "episodes": 52
+  },
+  {
+   "id": 1222269,
+   "name": "Wes Spencer",
+   "photo": null,
+   "character": "Dog (voice)",
+   "episodes": 27
+  },
+  {
+   "id": 180084,
+   "name": "Evan Farmer",
+   "photo": null,
+   "character": "Eric Schrecter (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 1229448,
+   "name": "Eric Fogel",
+   "photo": "https://image.tmdb.org/t/p/w185/bLMOM2SekH76QUJWDkF4OP6tXq2.jpg",
+   "character": "",
+   "episodes": 1
+  },
+  {
+   "id": 87055,
+   "name": "Karen Disher",
+   "photo": "https://image.tmdb.org/t/p/w185/p60sCN6m5aKO8OLCrmWfPFurt6y.jpg",
+   "character": "",
+   "episodes": 1
+  },
+  {
+   "id": 104785,
+   "name": "Kevin Daniels",
+   "photo": "https://image.tmdb.org/t/p/w185/poBtBxOZ4VxNox0I3Fd5nysviNg.jpg",
+   "character": "Michael Jordan 'Mack' Mackenzie (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 2241159,
+   "name": "Nora Laudani",
+   "photo": null,
+   "character": "Ms. Angela Li (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 3833938,
+   "name": "Katie Kingston",
+   "photo": null,
+   "character": "Marianne (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 2241143,
+   "name": "Lemon Krasny",
+   "photo": null,
+   "character": "Theresa (voice)",
+   "episodes": 1
+  }
+ ],
+ "crew": [
+  {
+   "id": 1229450,
+   "name": "Glenn Eichler",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1493002,
+   "name": "Susie Lewis",
+   "photo": null,
+   "jobs": [
+    "Creator"
+   ]
+  },
+  {
+   "id": 1229314,
+   "name": "Peter Elwell",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 1229452,
+   "name": "Ted Stearn",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 158645,
+   "name": "Peggy Nicoll",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 1213081,
+   "name": "Dan Vebber",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 1231294,
+   "name": "Abby Terkuhle",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 1222191,
+   "name": "Chris Marcil",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 1229454,
+   "name": "A.J. Poulin",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 1212851,
+   "name": "Peter Gaffney",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 1223686,
+   "name": "Sam Johnson",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 1229453,
+   "name": "Ron Corcillo",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 4813689,
+   "name": "Gloria DePonte",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 4813686,
+   "name": "Margaret E. Rutherford",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 4448451,
+   "name": "Machi Tantillo",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 121801,
+   "name": "Karen Hyden",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 13
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:29:10.717Z"
+}

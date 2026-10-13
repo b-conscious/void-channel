@@ -1,0 +1,338 @@
+{
+ "show": "NCIS: Origins",
+ "slug": "ncis-origins",
+ "tmdbId": 243006,
+ "cast": [
+  {
+   "id": 970216,
+   "name": "Austin Stowell",
+   "photo": "https://image.tmdb.org/t/p/w185/At09XQpVXnChgedNsxu4ceR5W9i.jpg",
+   "character": "Leroy Jethro Gibbs",
+   "episodes": 41
+  },
+  {
+   "id": 232,
+   "name": "Kyle Schmid",
+   "photo": "https://image.tmdb.org/t/p/w185/bqT7iz2jzG32axBoQzMrAvLtppQ.jpg",
+   "character": "Mike Franks",
+   "episodes": 41
+  },
+  {
+   "id": 3009420,
+   "name": "Mariel Molino",
+   "photo": "https://image.tmdb.org/t/p/w185/sgx4XfRpS2YkkG6g3gMXz928iNA.jpg",
+   "character": "Lala Dominguez",
+   "episodes": 41
+  },
+  {
+   "id": 1720628,
+   "name": "Tyla Abercrumbie",
+   "photo": "https://image.tmdb.org/t/p/w185/rjzAwPYh0TPVDivBnBy09nJRmSw.jpg",
+   "character": "Mary Jo Hayes",
+   "episodes": 41
+  },
+  {
+   "id": 2472584,
+   "name": "Diany Rodriguez",
+   "photo": "https://image.tmdb.org/t/p/w185/dGl8pV25xyKaJ1HzQrResfha5jf.jpg",
+   "character": "Vera Strickland",
+   "episodes": 41
+  },
+  {
+   "id": 2116085,
+   "name": "Caleb Foote",
+   "photo": "https://image.tmdb.org/t/p/w185/uXKWovHFYySwp26zXYAk18bIZ0T.jpg",
+   "character": "Bernard 'Randy' Randolf",
+   "episodes": 41
+  },
+  {
+   "id": 19728,
+   "name": "Mark Harmon",
+   "photo": "https://image.tmdb.org/t/p/w185/jDRXlmBItH9IyXk9UhafpOSBIq7.jpg",
+   "character": "Older Leroy Jethro Gibbs (uncredited) / Older Leroy Jethro Gibbs (voice) (uncredited) / Older Leroy Jethro Gibbs",
+   "episodes": 22
+  },
+  {
+   "id": 52801,
+   "name": "Patrick Fischler",
+   "photo": "https://image.tmdb.org/t/p/w185/vVj7GjHL9hOilbKwViXZpnUlbcQ.jpg",
+   "character": "SAC Cliff Wheeler",
+   "episodes": 13
+  },
+  {
+   "id": 452205,
+   "name": "Bobby Moynihan",
+   "photo": "https://image.tmdb.org/t/p/w185/gOvwNz5joi5yWJ7dAhuF8WA2aas.jpg",
+   "character": "Woodrow 'Woody' Browne",
+   "episodes": 12
+  },
+  {
+   "id": 82381,
+   "name": "Tonantzin Carmelo",
+   "photo": "https://image.tmdb.org/t/p/w185/uzVSgpcNxIJh68MAO7At6MJ5C6T.jpg",
+   "character": "Tishmal 'Tish' Kwá'la",
+   "episodes": 10
+  },
+  {
+   "id": 1519724,
+   "name": "Marisa Baram",
+   "photo": "https://image.tmdb.org/t/p/w185/lDulFQcxjCcd0bNRzyfJSbLOfLV.jpg",
+   "character": "Gail Price",
+   "episodes": 9
+  },
+  {
+   "id": 1214447,
+   "name": "Michael Harney",
+   "photo": "https://image.tmdb.org/t/p/w185/j64sglNnGc5fAHPEkJ1TmKOITQP.jpg",
+   "character": "Richard Kowalski",
+   "episodes": 7
+  },
+  {
+   "id": 2420739,
+   "name": "Daniel Bellomy",
+   "photo": "https://image.tmdb.org/t/p/w185/oB27pZGCu6HTpv75wueVBE3DZ3S.jpg",
+   "character": "Special Agent Granville Dawson",
+   "episodes": 7
+  },
+  {
+   "id": 15309,
+   "name": "Lori Petty",
+   "photo": "https://image.tmdb.org/t/p/w185/bmJFh4VxRii7h7jpo4YVC6BFeVd.jpg",
+   "character": "Dr. Lenora Friedman",
+   "episodes": 6
+  },
+  {
+   "id": 39545,
+   "name": "Robert Taylor",
+   "photo": "https://image.tmdb.org/t/p/w185/wjeEGFarZNyvrqLL4W52eXnAnXe.jpg",
+   "character": "Jackson Gibbs",
+   "episodes": 6
+  },
+  {
+   "id": 984378,
+   "name": "Aaron Wilton",
+   "photo": null,
+   "character": "JJ",
+   "episodes": 6
+  },
+  {
+   "id": 1767435,
+   "name": "Eric Normington",
+   "photo": "https://image.tmdb.org/t/p/w185/bPNZMPd7IwnSTHvYl32bACpmNIF.jpg",
+   "character": "Roger",
+   "episodes": 6
+  },
+  {
+   "id": 1060762,
+   "name": "Matthew Henerson",
+   "photo": "https://image.tmdb.org/t/p/w185/hqiEirDo6LybTV8BbrXDPsjXJp4.jpg",
+   "character": "Carl Loughlin",
+   "episodes": 6
+  },
+  {
+   "id": 1061054,
+   "name": "Julian Black Antelope",
+   "photo": "https://image.tmdb.org/t/p/w185/tULt7BBKT7lRQNBbTz7z8zyZAwQ.jpg",
+   "character": "Dr. Tengalkat / Dr. Témet Téngalkat",
+   "episodes": 6
+  },
+  {
+   "id": 1668606,
+   "name": "Jared Bankens",
+   "photo": "https://image.tmdb.org/t/p/w185/6Wr4uihYoP6H7MBXY3EsAjOPthR.jpg",
+   "character": "Jamison 'Bugs' Boyd",
+   "episodes": 5
+  },
+  {
+   "id": 1520085,
+   "name": "Adam Huber",
+   "photo": "https://image.tmdb.org/t/p/w185/zuMPx25vJYOdVBGecDK2lymB9du.jpg",
+   "character": "Luke Fletcher",
+   "episodes": 5
+  },
+  {
+   "id": 148173,
+   "name": "Michael Shepperd",
+   "photo": "https://image.tmdb.org/t/p/w185/eO7C3kLhdcvQPkiuGS6Bo5IEkGa.jpg",
+   "character": "Smitty",
+   "episodes": 4
+  },
+  {
+   "id": 43943,
+   "name": "Eddie Alfano",
+   "photo": "https://image.tmdb.org/t/p/w185/vmtPKBbaVwuSVxys5WfhUnoGty5.jpg",
+   "character": "Bouncer Todd",
+   "episodes": 4
+  },
+  {
+   "id": 1656032,
+   "name": "Ely Henry",
+   "photo": "https://image.tmdb.org/t/p/w185/zgWDf3nr0ydwiRRGOuGxENFLYXv.jpg",
+   "character": "NIS Junior Chemist Philip Elertson",
+   "episodes": 4
+  }
+ ],
+ "crew": [
+  {
+   "id": 1237620,
+   "name": "Gina Lucita Monreal",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 36
+  },
+  {
+   "id": 1237598,
+   "name": "David J. North",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 36
+  },
+  {
+   "id": 5002313,
+   "name": "Rafael Samano",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Story"
+   ],
+   "episodes": 41
+  },
+  {
+   "id": 2000613,
+   "name": "Daniel J. Egbert",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 37
+  },
+  {
+   "id": 19728,
+   "name": "Mark Harmon",
+   "photo": "https://image.tmdb.org/t/p/w185/jDRXlmBItH9IyXk9UhafpOSBIq7.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 36
+  },
+  {
+   "id": 1818786,
+   "name": "Sean Harmon",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 36
+  },
+  {
+   "id": 51588,
+   "name": "Kevin Kiner",
+   "photo": "https://image.tmdb.org/t/p/w185/FtGnTCUaMTNDESIuwhEmzCNIpp.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 36
+  },
+  {
+   "id": 2171212,
+   "name": "Sean Kiner",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 36
+  },
+  {
+   "id": 1972437,
+   "name": "Deana Kiner",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 36
+  },
+  {
+   "id": 3886381,
+   "name": "Ryan Lee",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 21
+  },
+  {
+   "id": 5002314,
+   "name": "Stephen Day",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 3694852,
+   "name": "Margarita Matthews",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 19346,
+   "name": "Niels Arden Oplev",
+   "photo": "https://image.tmdb.org/t/p/w185/yGdxpPjMhIaeGaJL8TsVSpDuEbh.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 2229251,
+   "name": "Jessica Lowrey",
+   "photo": "https://image.tmdb.org/t/p/w185/qYFL5wIRRYQ6MBgp7fDb6LdaWbt.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1555642,
+   "name": "Brendan Fehily",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 139247,
+   "name": "Hanelle M. Culpepper",
+   "photo": "https://image.tmdb.org/t/p/w185/nbQizyInGxdth6577sbnsDeVzti.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:35:41.480Z"
+}

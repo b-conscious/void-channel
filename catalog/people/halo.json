@@ -1,0 +1,328 @@
+{
+ "show": "Halo",
+ "slug": "halo",
+ "tmdbId": 52814,
+ "cast": [
+  {
+   "id": 59254,
+   "name": "Pablo Schreiber",
+   "photo": "https://image.tmdb.org/t/p/w185/trKW3kwhwx4UeCNZg43A1x1h4Uv.jpg",
+   "character": "Master Chief, Spartan-117 / John-117",
+   "episodes": 17
+  },
+  {
+   "id": 11317,
+   "name": "Natascha McElhone",
+   "photo": "https://image.tmdb.org/t/p/w185/9pxaoasotR1pdCXYSfN1pkm0geO.jpg",
+   "character": "Dr. Catherine Halsey",
+   "episodes": 17
+  },
+  {
+   "id": 85672,
+   "name": "Shabana Azmi",
+   "photo": "https://image.tmdb.org/t/p/w185/gy7DpFaZnpU4XOwBc8jhhE8rYYj.jpg",
+   "character": "Margaret Parangosky",
+   "episodes": 17
+  },
+  {
+   "id": 2256046,
+   "name": "Natasha Culzac",
+   "photo": "https://image.tmdb.org/t/p/w185/bZ7Pd4A5IO3uc6ILvwHm04jEbe8.jpg",
+   "character": "Riz-028",
+   "episodes": 17
+  },
+  {
+   "id": 2041889,
+   "name": "Olive Gray",
+   "photo": "https://image.tmdb.org/t/p/w185/iPq2rKuwO5mSPdAXgLvyhVvUGJ.jpg",
+   "character": "Dr. Miranda Keyes",
+   "episodes": 17
+  },
+  {
+   "id": 2611199,
+   "name": "Yerin Ha",
+   "photo": "https://image.tmdb.org/t/p/w185/AkEtAVGm0aNSoEYGYFH8KjFZaI7.jpg",
+   "character": "Kwan Ha",
+   "episodes": 17
+  },
+  {
+   "id": 1504934,
+   "name": "Bentley Kalu",
+   "photo": "https://image.tmdb.org/t/p/w185/nTl6fkv3qxcBecGshPbDx6KP4gy.jpg",
+   "character": "Vannak-134",
+   "episodes": 17
+  },
+  {
+   "id": 2486590,
+   "name": "Kate Kennedy",
+   "photo": "https://image.tmdb.org/t/p/w185/xrPSWHnBVeLxK8i1dLVcOzphx0T.jpg",
+   "character": "Kai-125",
+   "episodes": 17
+  },
+  {
+   "id": 1356630,
+   "name": "Charlie Murphy",
+   "photo": "https://image.tmdb.org/t/p/w185/AaugO5Qq1Opp3Dv6JuH5ESJYmo9.jpg",
+   "character": "Makee",
+   "episodes": 17
+  },
+  {
+   "id": 165424,
+   "name": "Danny Sapani",
+   "photo": "https://image.tmdb.org/t/p/w185/h6goTpKA74Z6ePB2BAEEyQnGtCF.jpg",
+   "character": "Jacob Keyes",
+   "episodes": 17
+  },
+  {
+   "id": 937568,
+   "name": "Jen Taylor",
+   "photo": "https://image.tmdb.org/t/p/w185/386F6voesqDXsfGOMULPv0HAzrH.jpg",
+   "character": "Cortana (voice)",
+   "episodes": 17
+  },
+  {
+   "id": 71913,
+   "name": "Bokeem Woodbine",
+   "photo": "https://image.tmdb.org/t/p/w185/pnPyA5pJn94zUzuLWTNkGBNZxza.jpg",
+   "character": "Soren-066",
+   "episodes": 17
+  },
+  {
+   "id": 20279,
+   "name": "Fiona O'Shaughnessy",
+   "photo": "https://image.tmdb.org/t/p/w185/zUqAqtbNOJnKPTLHv4706P37b4d.jpg",
+   "character": "Laera",
+   "episodes": 11
+  },
+  {
+   "id": 3487645,
+   "name": "Tylan Bailey",
+   "photo": "https://image.tmdb.org/t/p/w185/66GPpAJlupjpAfP2v29estaJ2Ir.jpg",
+   "character": "Kessler",
+   "episodes": 11
+  },
+  {
+   "id": 79505,
+   "name": "Joseph Morgan",
+   "photo": "https://image.tmdb.org/t/p/w185/iNNHzvT3glx11njLD3RL4yOYPbJ.jpg",
+   "character": "James Ackerson",
+   "episodes": 8
+  },
+  {
+   "id": 3260554,
+   "name": "Christina Bennington",
+   "photo": "https://image.tmdb.org/t/p/w185/xco2FnsnCUWcA13T4qrf6l5w27B.jpg",
+   "character": "Cortana",
+   "episodes": 8
+  },
+  {
+   "id": 1154835,
+   "name": "Cristina Rodlo",
+   "photo": "https://image.tmdb.org/t/p/w185/7AhjmC2bLjgVoW1gJqAlglbayzK.jpg",
+   "character": "Corporal Talia Perez",
+   "episodes": 8
+  },
+  {
+   "id": 105465,
+   "name": "Viktor Åkerblom",
+   "photo": "https://image.tmdb.org/t/p/w185/qeAD9O929WUzBPFNKc7IU9fbXva.jpg",
+   "character": "Arbiter Var 'Gatanai",
+   "episodes": 8
+  },
+  {
+   "id": 1291970,
+   "name": "Ryan McParland",
+   "photo": "https://image.tmdb.org/t/p/w185/pqy5sAfBIDnD6X8sP3zprbUIyKA.jpg",
+   "character": "Dr. Adun Saly",
+   "episodes": 8
+  },
+  {
+   "id": 39659,
+   "name": "Burn Gorman",
+   "photo": "https://image.tmdb.org/t/p/w185/udgACYWqCSuu6nvtrSjmyU28B0V.jpg",
+   "character": "Vinsher Grath",
+   "episodes": 5
+  },
+  {
+   "id": 3479581,
+   "name": "Casper Knopf",
+   "photo": "https://image.tmdb.org/t/p/w185/qvOiahoYyjxRflZaCT6Jf6vpsbr.jpg",
+   "character": "Young John",
+   "episodes": 4
+  },
+  {
+   "id": 30086,
+   "name": "Julian Bleach",
+   "photo": "https://image.tmdb.org/t/p/w185/4Tuwk7GXbIANI5Mkfz9M0Fg6Ux3.jpg",
+   "character": "Hierarch Mercy (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 933272,
+   "name": "Olwen Fouéré",
+   "photo": "https://image.tmdb.org/t/p/w185/jvBLYkqqEdZGGcg4YVUZhBl6or4.jpg",
+   "character": "The Mother",
+   "episodes": 4
+  },
+  {
+   "id": 203575,
+   "name": "Jamie Beamish",
+   "photo": "https://image.tmdb.org/t/p/w185/g6F7s8J1oP2AvkHUN4TWkcgAKY1.jpg",
+   "character": "Kaidon",
+   "episodes": 3
+  }
+ ],
+ "crew": [
+  {
+   "id": 566273,
+   "name": "Kyle Killen",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1324451,
+   "name": "Steven Kane",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 128276,
+   "name": "Otto Bathurst",
+   "photo": "https://image.tmdb.org/t/p/w185/vojDKrTe52mnPrYSKUTOLWotEIN.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 1549549,
+   "name": "Kiki Wolfkill",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 1225545,
+   "name": "Justin Falvey",
+   "photo": "https://image.tmdb.org/t/p/w185/7mTutJBCklSITNGj3eM7G8FZc60.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 3085530,
+   "name": "Bonnie Ross",
+   "photo": "https://image.tmdb.org/t/p/w185/hz2SuFldDPaJ02mZRlinmQSW1Md.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 488,
+   "name": "Steven Spielberg",
+   "photo": "https://image.tmdb.org/t/p/w185/tZxcg19YQ3e8fJ0pOs7hjlnmmr6.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 62213,
+   "name": "Gian Paolo Varani",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 2248101,
+   "name": "Toby Leslie",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 1231425,
+   "name": "Darryl Frank",
+   "photo": "https://image.tmdb.org/t/p/w185/8LchWLyEbBRPimCEB8vSOZtzxRM.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 2077197,
+   "name": "Scott Pennington",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1238297,
+   "name": "Frank O'Connor",
+   "photo": "https://image.tmdb.org/t/p/w185/pXljCutQdynHzcQijgskMxB3WE9.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1090864,
+   "name": "Sean Callery",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1107908,
+   "name": "David Wiener",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 66739,
+   "name": "Jonathan Liebesman",
+   "photo": "https://image.tmdb.org/t/p/w185/bF6RT5FvdzCRxRc6Ud6FC9JgcIh.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 154521,
+   "name": "Craig Zisk",
+   "photo": "https://image.tmdb.org/t/p/w185/1WTt2jjxDwT0ngzrpO02VZYZDYV.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:15.839Z"
+}

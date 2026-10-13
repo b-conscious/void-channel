@@ -1,0 +1,322 @@
+{
+ "show": "Project Runway",
+ "slug": "project-runway",
+ "tmdbId": 1685,
+ "cast": [
+  {
+   "id": 1226438,
+   "name": "Nina Garcia",
+   "photo": "https://image.tmdb.org/t/p/w185/rVsbEDre05uFLfeseX2zPRAnv6S.jpg",
+   "character": "Self - Judge",
+   "episodes": 297
+  },
+  {
+   "id": 10584,
+   "name": "Heidi Klum",
+   "photo": "https://image.tmdb.org/t/p/w185/dJFWrj9jK4Z6MSdTP2s8D4Rn5ZO.jpg",
+   "character": "Self - Host / Judge / Self - Host",
+   "episodes": 231
+  },
+  {
+   "id": 1218645,
+   "name": "Tim Gunn",
+   "photo": "https://image.tmdb.org/t/p/w185/dnBt0B29w7M0YvzzM0advaAnY81.jpg",
+   "character": "Self - Co-Host / Mentor",
+   "episodes": 221
+  },
+  {
+   "id": 1223167,
+   "name": "Michael Kors",
+   "photo": "https://image.tmdb.org/t/p/w185/isG3ZbHjL9pWAHOKZE1ozrIC2YN.jpg",
+   "character": "Self - Judge / Self - Guest Judge",
+   "episodes": 141
+  },
+  {
+   "id": 1251123,
+   "name": "Zac Posen",
+   "photo": "https://image.tmdb.org/t/p/w185/k716nVSENElRpi2nWiOMI2FBXzh.jpg",
+   "character": "Self - Guest Judge / Self - Judge",
+   "episodes": 87
+  },
+  {
+   "id": 1231856,
+   "name": "Christian Siriano",
+   "photo": "https://image.tmdb.org/t/p/w185/iDveY2E50vQuLUayjUvbCcaJTYC.jpg",
+   "character": "Self - Mentor / Self / Self - Guest Judge",
+   "episodes": 71
+  },
+  {
+   "id": 2260087,
+   "name": "Brandon Maxwell",
+   "photo": "https://image.tmdb.org/t/p/w185/zK1gsuNT7cadUfaw6gDSMl0qWme.jpg",
+   "character": "Self - Judge",
+   "episodes": 56
+  },
+  {
+   "id": 2034712,
+   "name": "Elaine Welteroth",
+   "photo": "https://image.tmdb.org/t/p/w185/aNNNZLJ4hqSKqWTwSoPgueQVonO.jpg",
+   "character": "Self - Judge",
+   "episodes": 56
+  },
+  {
+   "id": 1397086,
+   "name": "Karlie Kloss",
+   "photo": "https://image.tmdb.org/t/p/w185/ykyhAtG9oIEa4MhvrS98WoCbfvp.jpg",
+   "character": "Self - Host / Judge / Self - Guest Judge",
+   "episodes": 29
+  },
+  {
+   "id": 3400476,
+   "name": "Korto Momolu",
+   "photo": "https://image.tmdb.org/t/p/w185/twjV940gJdEjbzFPdcVyJ4ZUQqV.jpg",
+   "character": "Self - Designer",
+   "episodes": 25
+  },
+  {
+   "id": 3423875,
+   "name": "Michael Costello",
+   "photo": "https://image.tmdb.org/t/p/w185/m2IgdRSHPtAabrRSKhslbfjFE8E.jpg",
+   "character": "Self - Season 8 Designer / Self - Designer / Self",
+   "episodes": 17
+  },
+  {
+   "id": 1221711,
+   "name": "Jay McCarroll",
+   "photo": "https://image.tmdb.org/t/p/w185/oN6e5uO5oOp1lhbSIZpbLFz06V6.jpg",
+   "character": "Self - Audition Judge / Self - Guest Judge / Self - Season 1 Winner",
+   "episodes": 12
+  },
+  {
+   "id": 2271390,
+   "name": "Zanna Roberts Rassi",
+   "photo": "https://image.tmdb.org/t/p/w185/ahV3eyHjNDNOeNtqsElxmYWZjf.jpg",
+   "character": "Self - Senior Fashion Editor, Marie Claire / Self - Audition Judge / Self - Guest Judge",
+   "episodes": 11
+  },
+  {
+   "id": 1748841,
+   "name": "Law Roach",
+   "photo": "https://image.tmdb.org/t/p/w185/31bycCJ4yamJyKZYHzkPAYxxOpx.jpg",
+   "character": "Self - Judge",
+   "episodes": 10
+  },
+  {
+   "id": 2992576,
+   "name": "Utica Queen",
+   "photo": "https://image.tmdb.org/t/p/w185/8Ttv11cn4KjXo8mkLpJ3pLn0M5t.jpg",
+   "character": "Self - Contestant",
+   "episodes": 10
+  },
+  {
+   "id": 6093025,
+   "name": "Veejay Floresca",
+   "photo": null,
+   "character": "Self - Contestant",
+   "episodes": 10
+  },
+  {
+   "id": 2004090,
+   "name": "Anne Fulenwider",
+   "photo": "https://image.tmdb.org/t/p/w185/5Jbzypa2rXTwe9rO62zMIglZs8J.jpg",
+   "character": "Self / Self - Guest Judge",
+   "episodes": 9
+  },
+  {
+   "id": 3385835,
+   "name": "Nick Verreos",
+   "photo": "https://image.tmdb.org/t/p/w185/48jDxeqD5B1BnHcUxw3TwQ3FMnT.jpg",
+   "character": "Self / Self - Guest Judge / Self - Season 2 Designer",
+   "episodes": 9
+  },
+  {
+   "id": 1829691,
+   "name": "Joanna Coles",
+   "photo": "https://image.tmdb.org/t/p/w185/imt35ZduoOW2URMjzAkZ4lHdEOW.jpg",
+   "character": "Self - Guest Judge / Self - Editor-in-Chief, Cosmopolitan / Self - Editor-in-Chief, Marie Claire",
+   "episodes": 8
+  },
+  {
+   "id": 2412960,
+   "name": "Rachel Roy",
+   "photo": "https://image.tmdb.org/t/p/w185/9oyQALyacTJH9XEzgS9h5JG9m5T.jpg",
+   "character": "Self - Guest Judge",
+   "episodes": 6
+  },
+  {
+   "id": 2413070,
+   "name": "Mondo Guerra",
+   "photo": "https://image.tmdb.org/t/p/w185/ly1kb3tbJmXukxZ6cWiTRed33vj.jpg",
+   "character": "Self - Guest Judge / Self",
+   "episodes": 6
+  },
+  {
+   "id": 1226428,
+   "name": "Fern Mallis",
+   "photo": "https://image.tmdb.org/t/p/w185/c5kKIWLRDLMwCExtrrbd17SzxfD.jpg",
+   "character": "Self / Self - Guest Judge",
+   "episodes": 5
+  },
+  {
+   "id": 1233520,
+   "name": "Cynthia Rowley",
+   "photo": null,
+   "character": "Self - Guest Judge",
+   "episodes": 5
+  },
+  {
+   "id": 2084212,
+   "name": "Betsey Johnson",
+   "photo": null,
+   "character": "Self - Guest Judge / Self - Fashion Designer",
+   "episodes": 5
+  }
+ ],
+ "crew": [
+  {
+   "id": 1219943,
+   "name": "Eli Holzman",
+   "photo": "https://image.tmdb.org/t/p/w185/ulvDBRx75W8z0bV1c2TumrghsjE.jpg",
+   "jobs": [
+    "Creator"
+   ]
+  },
+  {
+   "id": 1226445,
+   "name": "Barbara Schneeweiss",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 235
+  },
+  {
+   "id": 1226459,
+   "name": "Desiree Gruber",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 221
+  },
+  {
+   "id": 10584,
+   "name": "Heidi Klum",
+   "photo": "https://image.tmdb.org/t/p/w185/dJFWrj9jK4Z6MSdTP2s8D4Rn5ZO.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 221
+  },
+  {
+   "id": 1226466,
+   "name": "Jane Cha Cutler",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 221
+  },
+  {
+   "id": 1307,
+   "name": "Bob Weinstein",
+   "photo": "https://image.tmdb.org/t/p/w185/lCLIlmY3oZN9n0YgrH3i0oZygPU.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 216
+  },
+  {
+   "id": 59839,
+   "name": "Harvey Weinstein",
+   "photo": "https://image.tmdb.org/t/p/w185/yUeo7hPc6fdHB2vy2zkGqg3bJyv.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 215
+  },
+  {
+   "id": 3382159,
+   "name": "Harold Barefoot Sanders III",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 165
+  },
+  {
+   "id": 1226468,
+   "name": "Sara Rea",
+   "photo": "https://image.tmdb.org/t/p/w185/6xJdYjNAGCjHBav3Lf7q0lsywTC.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 154
+  },
+  {
+   "id": 587827,
+   "name": "Jonathan Murray",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 154
+  },
+  {
+   "id": 1226470,
+   "name": "David Hillman",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 126
+  },
+  {
+   "id": 1027018,
+   "name": "Jane Lipsitz",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 109
+  },
+  {
+   "id": 1027017,
+   "name": "Dan Cutforth",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 109
+  },
+  {
+   "id": 1226469,
+   "name": "Colleen Sands",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 98
+  },
+  {
+   "id": 20225,
+   "name": "Michael Suby",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 98
+  },
+  {
+   "id": 3401966,
+   "name": "Craig Spirko",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 84
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:44:38.034Z"
+}

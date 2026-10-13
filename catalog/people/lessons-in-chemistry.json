@@ -1,0 +1,325 @@
+{
+ "show": "Lessons in Chemistry",
+ "slug": "lessons-in-chemistry",
+ "tmdbId": 117303,
+ "cast": [
+  {
+   "id": 60073,
+   "name": "Brie Larson",
+   "photo": "https://image.tmdb.org/t/p/w185/iqZ5uKJWbwSITCK4CqdlUHZTnXD.jpg",
+   "character": "Elizabeth Zott",
+   "episodes": 8
+  },
+  {
+   "id": 1700685,
+   "name": "Lewis Pullman",
+   "photo": "https://image.tmdb.org/t/p/w185/i2wJQ2eaVuTPaA84jzxNtxs54mO.jpg",
+   "character": "Calvin Evans",
+   "episodes": 8
+  },
+  {
+   "id": 1120699,
+   "name": "Aja Naomi King",
+   "photo": "https://image.tmdb.org/t/p/w185/hpLueshF0wqjxL2kCiBxxSBt5l8.jpg",
+   "character": "Harriet Sloane",
+   "episodes": 8
+  },
+  {
+   "id": 1395056,
+   "name": "Stephanie Koenig",
+   "photo": "https://image.tmdb.org/t/p/w185/8NI5Xhgzxr4SSpN4frWDH2yMWod.jpg",
+   "character": "Fran Frask",
+   "episodes": 8
+  },
+  {
+   "id": 1635137,
+   "name": "Patrick Walker",
+   "photo": "https://image.tmdb.org/t/p/w185/y1LK2wczhWC0S8lfWoSLfmezhp5.jpg",
+   "character": "Curtis Wakely",
+   "episodes": 8
+  },
+  {
+   "id": 141956,
+   "name": "Marc Evan Jackson",
+   "photo": "https://image.tmdb.org/t/p/w185/4TWP0nlhkxkZ5XzzZuz3RCoZjFX.jpg",
+   "character": "Dr. Leland Mason",
+   "episodes": 6
+  },
+  {
+   "id": 60117,
+   "name": "Derek Cecil",
+   "photo": "https://image.tmdb.org/t/p/w185/5tfWfeb3391oBfuEo3xst8563ij.jpg",
+   "character": "Dr. Robert Donatti",
+   "episodes": 5
+  },
+  {
+   "id": 60633,
+   "name": "Kevin Sussman",
+   "photo": "https://image.tmdb.org/t/p/w185/tLqrE9uz6GKoeoDC7LU7cE6oF2Q.jpg",
+   "character": "Walter Pine",
+   "episodes": 5
+  },
+  {
+   "id": 1142720,
+   "name": "Thomas Mann",
+   "photo": "https://image.tmdb.org/t/p/w185/cJO10vU19SL82pgMB6LdAijDSJv.jpg",
+   "character": "Alfred Boryweitz",
+   "episodes": 5
+  },
+  {
+   "id": 63277,
+   "name": "Paul James",
+   "photo": "https://image.tmdb.org/t/p/w185/7kmJOh3ohF2ADtxjG92UDU3JRqk.jpg",
+   "character": "Charlie Sloane",
+   "episodes": 5
+  },
+  {
+   "id": 4342311,
+   "name": "Alice Halsey",
+   "photo": "https://image.tmdb.org/t/p/w185/3HLnsGJvhqQkGftOyn6ZpywGVzp.jpg",
+   "character": "Madeline 'Mad' Zott",
+   "episodes": 5
+  },
+  {
+   "id": 11678,
+   "name": "Rainn Wilson",
+   "photo": "https://image.tmdb.org/t/p/w185/yRTElSeC3q9nBqBuleI6OODlDMS.jpg",
+   "character": "Phil Lebensmal",
+   "episodes": 4
+  },
+  {
+   "id": 95875,
+   "name": "Andy Daly",
+   "photo": "https://image.tmdb.org/t/p/w185/mBbtTnfcxkFXH3RPomSO4VCyxYS.jpg",
+   "character": "Dr. Richard Price",
+   "episodes": 4
+  },
+  {
+   "id": 1647136,
+   "name": "Joshua Hoover",
+   "photo": "https://image.tmdb.org/t/p/w185/y37rSYGolOdE3pEHenViWqLyX0r.jpg",
+   "character": "Anthony Powers",
+   "episodes": 4
+  },
+  {
+   "id": 4318659,
+   "name": "Yasir Lafond",
+   "photo": null,
+   "character": "James 'Junior' Sloane",
+   "episodes": 4
+  },
+  {
+   "id": 3679481,
+   "name": "Amentii Sledge",
+   "photo": "https://image.tmdb.org/t/p/w185/o3zQqRGLmNltI34CabP1ykmSkRy.jpg",
+   "character": "Linda Sloane",
+   "episodes": 4
+  },
+  {
+   "id": 1256070,
+   "name": "Adam Bartley",
+   "photo": "https://image.tmdb.org/t/p/w185/kD5V9cpQuheADeHXPaO9kHsYuvc.jpg",
+   "character": "Scientist",
+   "episodes": 3
+  },
+  {
+   "id": 225642,
+   "name": "Brandon Gibson",
+   "photo": "https://image.tmdb.org/t/p/w185/6umvHyH27rcjkRdVUkzJiULNZT5.jpg",
+   "character": "Tom Clemens",
+   "episodes": 3
+  },
+  {
+   "id": 86475,
+   "name": "Robert Alan Beuth",
+   "photo": "https://image.tmdb.org/t/p/w185/jewxIcZhDjTrBqeSdqj7jSACKfV.jpg",
+   "character": "Frank Marsten",
+   "episodes": 3
+  },
+  {
+   "id": 1518619,
+   "name": "Sigi Ravet",
+   "photo": "https://image.tmdb.org/t/p/w185/acimPFw35hhnvybDjMmA9CHk739.jpg",
+   "character": "Laurel Moore",
+   "episodes": 3
+  },
+  {
+   "id": 1717646,
+   "name": "Debbie Pollack",
+   "photo": "https://image.tmdb.org/t/p/w185/ziXO8DypyciEa6XkkCk2EOVMmrk.jpg",
+   "character": "Louise",
+   "episodes": 3
+  },
+  {
+   "id": 1449143,
+   "name": "Laura Siegel",
+   "photo": null,
+   "character": "Bertha Clifton",
+   "episodes": 3
+  },
+  {
+   "id": 4318658,
+   "name": "Gregg Brown",
+   "photo": null,
+   "character": "Director",
+   "episodes": 3
+  },
+  {
+   "id": 1511298,
+   "name": "John Alton",
+   "photo": null,
+   "character": "Stage Manager",
+   "episodes": 3
+  }
+ ],
+ "crew": [
+  {
+   "id": 84417,
+   "name": "Lee Eisenberg",
+   "photo": "https://image.tmdb.org/t/p/w185/qxA2eLl3AmBKfXqeCQy7RDlZSkE.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Teleplay"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 6340,
+   "name": "Susannah Grant",
+   "photo": "https://image.tmdb.org/t/p/w185/5GudDnfV741sqCd9fDJ7uZA47LO.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 60073,
+   "name": "Brie Larson",
+   "photo": "https://image.tmdb.org/t/p/w185/iqZ5uKJWbwSITCK4CqdlUHZTnXD.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 23532,
+   "name": "Jason Bateman",
+   "photo": "https://image.tmdb.org/t/p/w185/8e6mt0vGjPo6eW52gqRuXy5YnfN.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 2838877,
+   "name": "Rosa Handelman",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 40374,
+   "name": "Michael Costigan",
+   "photo": "https://image.tmdb.org/t/p/w185/3yUHDqJ067xrzLvSJHMMLQN6egP.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1140238,
+   "name": "Hannah Fidell",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 2094561,
+   "name": "Louise Shore",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 2957601,
+   "name": "Natalie Sandy",
+   "photo": "https://image.tmdb.org/t/p/w185/sS0WCryj9caZRebGsYZ9rqCx8jT.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1392836,
+   "name": "Carlos Rafael Rivera",
+   "photo": "https://image.tmdb.org/t/p/w185/2bwgsXwu9qq6KEODForThksPvBz.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 3119329,
+   "name": "Elissa Karasik",
+   "photo": "https://image.tmdb.org/t/p/w185/8f0ujbKMM9zKjutEIaYQJ2yWgh7.jpg",
+   "jobs": [
+    "Teleplay"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1376980,
+   "name": "Bert",
+   "photo": "https://image.tmdb.org/t/p/w185/voqGE0lT9mU9bz6L4HX7TUHi0R.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1182669,
+   "name": "Sarah Adina Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/2yT7c3FRYxcKlY6DqX32w0g62Gd.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1670558,
+   "name": "Bertie",
+   "photo": "https://image.tmdb.org/t/p/w185/u5rQk2rdsMAPQAL4sXiSjipjsv6.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1214641,
+   "name": "Millicent Shelton",
+   "photo": "https://image.tmdb.org/t/p/w185/8UVVp9iJNDRhPAegBKVwTnKMrJA.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1059033,
+   "name": "Tara Miele",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:34:50.871Z"
+}

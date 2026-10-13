@@ -1,0 +1,328 @@
+{
+ "show": "Chicago Hope",
+ "slug": "chicago-hope",
+ "tmdbId": 6467,
+ "cast": [
+  {
+   "id": 55257,
+   "name": "Adam Arkin",
+   "photo": "https://image.tmdb.org/t/p/w185/66CugPTyelfdtYe0IV0U0LQP1sA.jpg",
+   "character": "Aaron Shutt",
+   "episodes": 141
+  },
+  {
+   "id": 1210,
+   "name": "Héctor Elizondo",
+   "photo": "https://image.tmdb.org/t/p/w185/7Mfx9xeOFKXtzVpAc1488LiHs0b.jpg",
+   "character": "Phillip Watters",
+   "episodes": 141
+  },
+  {
+   "id": 36602,
+   "name": "Peter Berg",
+   "photo": "https://image.tmdb.org/t/p/w185/1pR16H0zqRG49ns8cYykYpodgGF.jpg",
+   "character": "Billy Kronk",
+   "episodes": 106
+  },
+  {
+   "id": 11627,
+   "name": "Jayne Brook",
+   "photo": "https://image.tmdb.org/t/p/w185/wb0qGQoXwraTTnnsi1Lv4TcYFrT.jpg",
+   "character": "Diane Grad",
+   "episodes": 103
+  },
+  {
+   "id": 6198,
+   "name": "Vondie Curtis-Hall",
+   "photo": "https://image.tmdb.org/t/p/w185/eJbwjnUB3VGGioAtQTmiYI4k7lH.jpg",
+   "character": "Dennis Hancock",
+   "episodes": 103
+  },
+  {
+   "id": 77133,
+   "name": "Christine Lahti",
+   "photo": "https://image.tmdb.org/t/p/w185/qD52Z8GfBqm08QjvJnYESzYFPzf.jpg",
+   "character": "Kathryn Austin",
+   "episodes": 97
+  },
+  {
+   "id": 19728,
+   "name": "Mark Harmon",
+   "photo": "https://image.tmdb.org/t/p/w185/jDRXlmBItH9IyXk9UhafpOSBIq7.jpg",
+   "character": "Jack McNeil",
+   "episodes": 96
+  },
+  {
+   "id": 27448,
+   "name": "Rocky Carroll",
+   "photo": "https://image.tmdb.org/t/p/w185/pqjqmRChGqhDXXY7Etka3bmOatN.jpg",
+   "character": "Keith Wilkes",
+   "episodes": 96
+  },
+  {
+   "id": 13638,
+   "name": "Thomas Gibson",
+   "photo": "https://image.tmdb.org/t/p/w185/cnTJvFNtQW3HqlBSwkXAgvjXDi2.jpg",
+   "character": "Danny Nyland",
+   "episodes": 72
+  },
+  {
+   "id": 25503,
+   "name": "Mandy Patinkin",
+   "photo": "https://image.tmdb.org/t/p/w185/1PeZ6roZvkcoyZZbvoSIWTgGe3a.jpg",
+   "character": "Jeffrey Geiger",
+   "episodes": 60
+  },
+  {
+   "id": 43372,
+   "name": "Stacy Edwards",
+   "photo": "https://image.tmdb.org/t/p/w185/vTvcn83poPsGhdUVGNCARBmqgzU.jpg",
+   "character": "Lisa Catera",
+   "episodes": 48
+  },
+  {
+   "id": 29021,
+   "name": "Roxanne Hart",
+   "photo": "https://image.tmdb.org/t/p/w185/sNDRhIcW51b7ruS8yt0Xpwa12Mz.jpg",
+   "character": "Camille Shutt",
+   "episodes": 46
+  },
+  {
+   "id": 12688,
+   "name": "Peter MacNicol",
+   "photo": "https://image.tmdb.org/t/p/w185/8gizugTP8hykdfBkOY0Qg0aqpiP.jpg",
+   "character": "Alan Birch",
+   "episodes": 30
+  },
+  {
+   "id": 112959,
+   "name": "Bob Bancroft",
+   "photo": "https://image.tmdb.org/t/p/w185/3Hu0IdgbcJswc5er8yoy3SpoeDA.jpg",
+   "character": "Joseph Cacaci",
+   "episodes": 30
+  },
+  {
+   "id": 7036,
+   "name": "Eric Stoltz",
+   "photo": "https://image.tmdb.org/t/p/w185/idFuM00MeVmwGAiqvDaJcBiLAmD.jpg",
+   "character": "Robert Yeats",
+   "episodes": 24
+  },
+  {
+   "id": 2977,
+   "name": "Jamey Sheridan",
+   "photo": "https://image.tmdb.org/t/p/w185/qLyAVsxSWgLwvVRDtvTednO6a75.jpg",
+   "character": "John Sutton",
+   "episodes": 23
+  },
+  {
+   "id": 17832,
+   "name": "Carla Gugino",
+   "photo": "https://image.tmdb.org/t/p/w185/dAqGOsHSzlP6RhaUURX2NrwITaq.jpg",
+   "character": "Gina Simon",
+   "episodes": 23
+  },
+  {
+   "id": 34485,
+   "name": "Lauren Holly",
+   "photo": "https://image.tmdb.org/t/p/w185/uJoOKPd6resnq9qA0ChbiNIk7ob.jpg",
+   "character": "Jeremy Hanlon",
+   "episodes": 22
+  },
+  {
+   "id": 21366,
+   "name": "Roma Maffia",
+   "photo": "https://image.tmdb.org/t/p/w185/oEfa2NUJJNo4zg74eB5oY86tyip.jpg",
+   "character": "Angela Giandamenicio",
+   "episodes": 22
+  },
+  {
+   "id": 5249,
+   "name": "E.G. Marshall",
+   "photo": "https://image.tmdb.org/t/p/w185/psimeVoRk64DV7UNm4cLQylRFy2.jpg",
+   "character": "Arthur Thurmond",
+   "episodes": 22
+  },
+  {
+   "id": 10767,
+   "name": "Barbara Hershey",
+   "photo": "https://image.tmdb.org/t/p/w185/6swwfge3HlvyBVRSNwroFtMcgNB.jpg",
+   "character": "Francesca Alberghetti",
+   "episodes": 22
+  },
+  {
+   "id": 52404,
+   "name": "Mae Whitman",
+   "photo": "https://image.tmdb.org/t/p/w185/y7fg9R5zvqDCZCUt3uwcyOoCOFp.jpg",
+   "character": "Sara Wilmette",
+   "episodes": 17
+  },
+  {
+   "id": 156339,
+   "name": "Monique Edwards",
+   "photo": "https://image.tmdb.org/t/p/w185/chEmMXbXoWxD2DEmqKlvMyBR3Ht.jpg",
+   "character": "O.R. Nurse / Neo-Natal Nurse (uncredited) / Laurel Canyon",
+   "episodes": 16
+  },
+  {
+   "id": 2387684,
+   "name": "Helena Apothaker",
+   "photo": null,
+   "character": "Paramedic / Paramedic #2 / EMT",
+   "episodes": 15
+  }
+ ],
+ "crew": [
+  {
+   "id": 59650,
+   "name": "David E. Kelley",
+   "photo": "https://image.tmdb.org/t/p/w185/rn8r38XqBV4yNhm9AJY93i9Jf6m.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 141
+  },
+  {
+   "id": 155007,
+   "name": "Bill D'Elia",
+   "photo": "https://image.tmdb.org/t/p/w185/7f7wWAkx0Ob59vPFXOAGDOh5UkQ.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 141
+  },
+  {
+   "id": 1211998,
+   "name": "John Tinker",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 141
+  },
+  {
+   "id": 13871,
+   "name": "Lou Antonio",
+   "photo": "https://image.tmdb.org/t/p/w185/haFl4RA0SBghwq7uf9qpF3jbqRj.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1214390,
+   "name": "Dawn Prestwich",
+   "photo": "https://image.tmdb.org/t/p/w185/mLNci09O5CfuZjiKvljhkjr2BzB.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1214391,
+   "name": "Nicole Yorkin",
+   "photo": "https://image.tmdb.org/t/p/w185/theteveqzRxps5uyzfe61iJF7Po.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1222910,
+   "name": "Sara B. Cooper",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 77300,
+   "name": "Michael Schultz",
+   "photo": "https://image.tmdb.org/t/p/w185/yVnpiGffnafhUTiVmZdGqiAlyNf.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 84165,
+   "name": "Michael Dinner",
+   "photo": "https://image.tmdb.org/t/p/w185/edJOaqx62rvwB7riCygEAPlxgRM.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 108250,
+   "name": "Stephen Cragg",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 17263,
+   "name": "Tim Kring",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1224179,
+   "name": "David Amann",
+   "photo": "https://image.tmdb.org/t/p/w185/AqSyYNJrEV4SaQhrIRelT3BAPi8.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1217193,
+   "name": "Barbara Hall",
+   "photo": "https://image.tmdb.org/t/p/w185/xHW0mp1inHXZK6EbKze4rk1wiv.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 59649,
+   "name": "Michael Pressman",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1224074,
+   "name": "Rob Corn",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 109095,
+   "name": "Oz Scott",
+   "photo": "https://image.tmdb.org/t/p/w185/sRNIQwZoq9GWmWHAnvDXFG6dv8K.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:44:41.232Z"
+}

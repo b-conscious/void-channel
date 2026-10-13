@@ -1,0 +1,329 @@
+{
+ "show": "Wings",
+ "slug": "wings",
+ "tmdbId": 2506,
+ "cast": [
+  {
+   "id": 68122,
+   "name": "Tim Daly",
+   "photo": "https://image.tmdb.org/t/p/w185/mIknLXlBQ3lLPxdBK2rgdkgkjyv.jpg",
+   "character": "Joe Hackett",
+   "episodes": 172
+  },
+  {
+   "id": 6106,
+   "name": "Steven Weber",
+   "photo": "https://image.tmdb.org/t/p/w185/8FtkapenCOpe39eE1sQus5WLWAq.jpg",
+   "character": "Brian Hackett",
+   "episodes": 172
+  },
+  {
+   "id": 1226789,
+   "name": "Crystal Bernard",
+   "photo": "https://image.tmdb.org/t/p/w185/bsuipk2YLkS09Fjkw0zlvkznhg1.jpg",
+   "character": "Helen Chapel",
+   "episodes": 172
+  },
+  {
+   "id": 6915,
+   "name": "David Schramm",
+   "photo": "https://image.tmdb.org/t/p/w185/551GOq7Z8hU5gL60Gw9BebAvirM.jpg",
+   "character": "Roy Biggins",
+   "episodes": 172
+  },
+  {
+   "id": 164221,
+   "name": "Rebecca Schull",
+   "photo": "https://image.tmdb.org/t/p/w185/z3yWEcHuuy4pA0lcMiA6LUEMDiH.jpg",
+   "character": "Fay Cochran",
+   "episodes": 172
+  },
+  {
+   "id": 4252,
+   "name": "Tony Shalhoub",
+   "photo": "https://image.tmdb.org/t/p/w185/1zfBSuAmOr1xXjNg4WzFWPm5B0Z.jpg",
+   "character": "Antonio Scarpacci",
+   "episodes": 145
+  },
+  {
+   "id": 19159,
+   "name": "Thomas Haden Church",
+   "photo": "https://image.tmdb.org/t/p/w185/74NK9HCYvNafMggSp1PAK5Nwkpe.jpg",
+   "character": "Lowell Mather",
+   "episodes": 123
+  },
+  {
+   "id": 1219,
+   "name": "Amy Yasbeck",
+   "photo": "https://image.tmdb.org/t/p/w185/5BbyiBjp5T8pKUcauVTweRcvLJJ.jpg",
+   "character": "Casey Davenport",
+   "episodes": 76
+  },
+  {
+   "id": 167501,
+   "name": "Farrah Forke",
+   "photo": "https://image.tmdb.org/t/p/w185/4DGZJEuVVXg19mrv9wzLFPEWaLh.jpg",
+   "character": "Alex Lambert",
+   "episodes": 35
+  },
+  {
+   "id": 10138,
+   "name": "Brian Haley",
+   "photo": "https://image.tmdb.org/t/p/w185/KoD3GS7jOHRpJjCVJt4XM9Dh30.jpg",
+   "character": "Budd Bronski",
+   "episodes": 8
+  },
+  {
+   "id": 79492,
+   "name": "Michael Manasseri",
+   "photo": "https://image.tmdb.org/t/p/w185/leQRpYv6QLTFdFXxGq9YFiusogT.jpg",
+   "character": "Kenny McElvey",
+   "episodes": 5
+  },
+  {
+   "id": 88949,
+   "name": "Mark Harelik",
+   "photo": "https://image.tmdb.org/t/p/w185/tzLd27s8dduLh3c22gSt2QfI6wY.jpg",
+   "character": "Davis Lynch",
+   "episodes": 5
+  },
+  {
+   "id": 454973,
+   "name": "Laura Innes",
+   "photo": "https://image.tmdb.org/t/p/w185/eO6hk2e7rowODSAgAq61mnv62Cv.jpg",
+   "character": "Bunny Mather",
+   "episodes": 4
+  },
+  {
+   "id": 157164,
+   "name": "Kevin Brief",
+   "photo": "https://image.tmdb.org/t/p/w185/10YkayUxVLG04yuoYlB2qRjVsTH.jpg",
+   "character": "Businessman",
+   "episodes": 4
+  },
+  {
+   "id": 112939,
+   "name": "Christopher Michael Moore",
+   "photo": null,
+   "character": "Buzz Crandall / Customer",
+   "episodes": 4
+  },
+  {
+   "id": 1219827,
+   "name": "Charles Dugan",
+   "photo": null,
+   "character": "Mr. Stubbs",
+   "episodes": 4
+  },
+  {
+   "id": 216040,
+   "name": "Mark Watson",
+   "photo": null,
+   "character": "Airport Passenger (uncredited) / Busboy / Airport Passenger (uncredited)",
+   "episodes": 4
+  },
+  {
+   "id": 1180875,
+   "name": "Gretchen German",
+   "photo": "https://image.tmdb.org/t/p/w185/g2DgrWTXx2Cuzt185qIRjHD9E7j.jpg",
+   "character": "Gail",
+   "episodes": 3
+  },
+  {
+   "id": 21282,
+   "name": "William Hickey",
+   "photo": "https://image.tmdb.org/t/p/w185/sqqmvSkDK6vDNrmEgUAjzWztg9c.jpg",
+   "character": "Carlton Blanchard",
+   "episodes": 3
+  },
+  {
+   "id": 99351,
+   "name": "Valerie Mahaffey",
+   "photo": "https://image.tmdb.org/t/p/w185/d4Oc12PuuhTevEGjKEhs95XrVIl.jpg",
+   "character": "Sandy Cooper",
+   "episodes": 3
+  },
+  {
+   "id": 14312,
+   "name": "Mitchell Ryan",
+   "photo": "https://image.tmdb.org/t/p/w185/9XrbQfOjDeqjXJUHeSIA6OxJAJa.jpg",
+   "character": "Jonathan Clayton",
+   "episodes": 3
+  },
+  {
+   "id": 112049,
+   "name": "Jonathan Slavin",
+   "photo": "https://image.tmdb.org/t/p/w185/lAhQotSyyXMfZQ87KTZr2dtLTzi.jpg",
+   "character": "Cord Clayton",
+   "episodes": 3
+  },
+  {
+   "id": 154727,
+   "name": "Tom McCleister",
+   "photo": "https://image.tmdb.org/t/p/w185/vAb4rXnw941LN7o7ODTqVVzXy1j.jpg",
+   "character": "Fisherman",
+   "episodes": 3
+  },
+  {
+   "id": 15832,
+   "name": "Gilbert Gottfried",
+   "photo": "https://image.tmdb.org/t/p/w185/hkkAgJD0HKcuyd8EuvhyN5vHcDQ.jpg",
+   "character": "Lewis",
+   "episodes": 3
+  }
+ ],
+ "crew": [
+  {
+   "id": 1213757,
+   "name": "David Angell",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 172
+  },
+  {
+   "id": 1213753,
+   "name": "Peter Casey",
+   "photo": "https://image.tmdb.org/t/p/w185/c4Xy8jLSRJJXBBbzLcKhWOyh1yH.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 172
+  },
+  {
+   "id": 1212926,
+   "name": "David Clark Lee",
+   "photo": "https://image.tmdb.org/t/p/w185/bjFfwIJFpnns3PeA3DR6ykRgnLv.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 172
+  },
+  {
+   "id": 167459,
+   "name": "Dave Hackel",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 52
+  },
+  {
+   "id": 1213790,
+   "name": "Andy Ackerman",
+   "photo": "https://image.tmdb.org/t/p/w185/xwYjLYKSZJtOjFkrqEXBtRJNX1g.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 46
+  },
+  {
+   "id": 1212911,
+   "name": "Jeff Melman",
+   "photo": "https://image.tmdb.org/t/p/w185/jGGU0EBFOWGUrlOLqO827yjWWqu.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 38
+  },
+  {
+   "id": 1212748,
+   "name": "Leonard R. Garner, Jr.",
+   "photo": "https://image.tmdb.org/t/p/w185/1qp8t0mSDhb2t7Bw1eEMyqZu133.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 33
+  },
+  {
+   "id": 1213215,
+   "name": "Noam Pitlik",
+   "photo": "https://image.tmdb.org/t/p/w185/7ds91Ds6dE8HhWcaQAqe9u58cOj.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 1215785,
+   "name": "Steven Levitan",
+   "photo": "https://image.tmdb.org/t/p/w185/xPT11b4ABpd9idTMBpoaaCH801J.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 1184146,
+   "name": "Mark Reisman",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 14987,
+   "name": "Peter Bonerz",
+   "photo": "https://image.tmdb.org/t/p/w185/8qWxMGvASfbwbW9AbV2Fb4pP3t7.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1213755,
+   "name": "David Lloyd",
+   "photo": "https://image.tmdb.org/t/p/w185/sgT836gXPF1WPo6mfSD8JWnqk7u.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1215780,
+   "name": "Jeffrey Richman",
+   "photo": "https://image.tmdb.org/t/p/w185/gUJpSfoxvXlF8VRpUlTardxBA0J.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1216633,
+   "name": "Howard Gewirtz",
+   "photo": "https://image.tmdb.org/t/p/w185/eigo20MoijQ9MkHHdsFxmpP79Hd.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1222076,
+   "name": "Christopher Vane",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 37078,
+   "name": "Philip LaZebnik",
+   "photo": "https://image.tmdb.org/t/p/w185/7eiWrFkdOsS69cuWC334G0LbC66.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:16.700Z"
+}

@@ -1,0 +1,324 @@
+{
+ "show": "Marshals",
+ "slug": "marshals",
+ "tmdbId": 290856,
+ "cast": [
+  {
+   "id": 56680,
+   "name": "Luke Grimes",
+   "photo": "https://image.tmdb.org/t/p/w185/c547Xiwf9feeDbGfQchfJCkC111.jpg",
+   "character": "Kayce Dutton",
+   "episodes": 18
+  },
+  {
+   "id": 130253,
+   "name": "Logan Marshall-Green",
+   "photo": "https://image.tmdb.org/t/p/w185/vOV76X3Dd8LsBxrTLdHybFLU8w8.jpg",
+   "character": "Pete Calvin",
+   "episodes": 18
+  },
+  {
+   "id": 20373,
+   "name": "Arielle Kebbel",
+   "photo": "https://image.tmdb.org/t/p/w185/c98cwlydVsihduXnq6VLW4fQFC.jpg",
+   "character": "Belle Skinner",
+   "episodes": 18
+  },
+  {
+   "id": 1521895,
+   "name": "Ash Santos",
+   "photo": "https://image.tmdb.org/t/p/w185/uT0GGLGN2mAZcc0dlVrtP7cpy6t.jpg",
+   "character": "Andrea Cruz",
+   "episodes": 18
+  },
+  {
+   "id": 1112417,
+   "name": "Tatanka Means",
+   "photo": "https://image.tmdb.org/t/p/w185/Aq7VrwQeUeDNn0y74m7bxDBOAGj.jpg",
+   "character": "Miles Kittle",
+   "episodes": 18
+  },
+  {
+   "id": 2038314,
+   "name": "Brecken Merrill",
+   "photo": "https://image.tmdb.org/t/p/w185/j2cJIrlfMSVWCq491ZMnguhGjXP.jpg",
+   "character": "Tate Dutton",
+   "episodes": 18
+  },
+  {
+   "id": 1367234,
+   "name": "Mo Brings Plenty",
+   "photo": "https://image.tmdb.org/t/p/w185/2CxofuWPRZf3G0kYJytblYiHXIy.jpg",
+   "character": "Mo",
+   "episodes": 18
+  },
+  {
+   "id": 84225,
+   "name": "Gil Birmingham",
+   "photo": "https://image.tmdb.org/t/p/w185/bWYOwtq0zUgpbEhTyiJHo2TmVju.jpg",
+   "character": "Thomas Rainwater",
+   "episodes": 18
+  },
+  {
+   "id": 1719587,
+   "name": "Morgan Lindholm",
+   "photo": "https://image.tmdb.org/t/p/w185/kWcJ679vawdP7tZGz8fmE5y90xA.jpg",
+   "character": "Maddie Calvin / Maddie",
+   "episodes": 10
+  },
+  {
+   "id": 2138161,
+   "name": "Whitney Palmer",
+   "photo": "https://image.tmdb.org/t/p/w185/iyDlLNv8C9oJ633o2YuEpCBCa4Y.jpg",
+   "character": "Eve",
+   "episodes": 8
+  },
+  {
+   "id": 16841,
+   "name": "Brett Cullen",
+   "photo": "https://image.tmdb.org/t/p/w185/4P6TsRcnr9MRbXlCdHitulGM5LT.jpg",
+   "character": "Harry Gifford",
+   "episodes": 7
+  },
+  {
+   "id": 1118078,
+   "name": "Ellyn Jameson",
+   "photo": "https://image.tmdb.org/t/p/w185/yFqpEIrksO401nPXSKmt5nGBZyz.jpg",
+   "character": "Dolly Weaver",
+   "episodes": 6
+  },
+  {
+   "id": 1686891,
+   "name": "Eddie Aguirre",
+   "photo": "https://image.tmdb.org/t/p/w185/1MDKzqERxF9g00K1eH5dV87QNzr.jpg",
+   "character": "Jared",
+   "episodes": 5
+  },
+  {
+   "id": 15824,
+   "name": "Chris Mulkey",
+   "photo": "https://image.tmdb.org/t/p/w185/kpJid21QcIBGvwP0Bddvw0p8wEl.jpg",
+   "character": "Tom Weaver",
+   "episodes": 5
+  },
+  {
+   "id": 6060553,
+   "name": "Koah Williams",
+   "photo": null,
+   "character": "Braxton",
+   "episodes": 3
+  },
+  {
+   "id": 52415,
+   "name": "Michael Cudlitz",
+   "photo": "https://image.tmdb.org/t/p/w185/1snLOta9L2DAhmOTvNIn7OSxzQC.jpg",
+   "character": "Randall Clegg",
+   "episodes": 3
+  },
+  {
+   "id": 3249860,
+   "name": "Channing Wilson",
+   "photo": "https://image.tmdb.org/t/p/w185/7N15Dws0WlzACjm56rcCltGrX1w.jpg",
+   "character": "Musician",
+   "episodes": 3
+  },
+  {
+   "id": 4021371,
+   "name": "Riley Green",
+   "photo": "https://image.tmdb.org/t/p/w185/pcNKk1FMyEsdHFipfLfEmhXQhZy.jpg",
+   "character": "Garrett",
+   "episodes": 3
+  },
+  {
+   "id": 4976622,
+   "name": "Kassie Thornton",
+   "photo": "https://image.tmdb.org/t/p/w185/6Pix1yKLD4Z4fCYeO4DQIMuAJw.jpg",
+   "character": "Analyst / Christy",
+   "episodes": 3
+  },
+  {
+   "id": 3135313,
+   "name": "Tyler Courtad",
+   "photo": "https://image.tmdb.org/t/p/w185/o8Kcp99bw5lvdByRoZv5BmgLbMZ.jpg",
+   "character": "Ty",
+   "episodes": 2
+  },
+  {
+   "id": 1880220,
+   "name": "Chelsea Gray",
+   "photo": "https://image.tmdb.org/t/p/w185/cTSAMga6CEwuKL93zRjoOJd79Sn.jpg",
+   "character": "Sabrina",
+   "episodes": 2
+  },
+  {
+   "id": 3820201,
+   "name": "Isabel DeRoy-Olson",
+   "photo": "https://image.tmdb.org/t/p/w185/5Q00DYyruBqaJQuHqnu6qxVnpXT.jpg",
+   "character": "Hayley Charlo",
+   "episodes": 2
+  },
+  {
+   "id": 2912379,
+   "name": "Otgadahe Whitman-Fox",
+   "photo": "https://image.tmdb.org/t/p/w185/qV0DmB4le0MccGK7DSXhRa87wJf.jpg",
+   "character": "Chrystal",
+   "episodes": 2
+  },
+  {
+   "id": 1789513,
+   "name": "William Dixon",
+   "photo": "https://image.tmdb.org/t/p/w185/ype6LMSRbrc8g3hCMPSbzKgltiF.jpg",
+   "character": "Dr. Ginsburg",
+   "episodes": 2
+  }
+ ],
+ "crew": [
+  {
+   "id": 1408429,
+   "name": "Spencer Hudnut",
+   "photo": "https://image.tmdb.org/t/p/w185/wAefSW7B4jLA4ocW0TvqypP6NdN.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 6047091,
+   "name": "Maggie Schroeder",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 1890532,
+   "name": "David Hutkin",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 56680,
+   "name": "Luke Grimes",
+   "photo": "https://image.tmdb.org/t/p/w185/c547Xiwf9feeDbGfQchfJCkC111.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 3176244,
+   "name": "Michael Friedman",
+   "photo": "https://image.tmdb.org/t/p/w185/h6qBemrwTBKJcuc5gL2ZDs8qLb1.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 21390,
+   "name": "David C. Glasser",
+   "photo": "https://image.tmdb.org/t/p/w185/t26MlYwJl4TBLFkHz9pjixA8yo7.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 1254,
+   "name": "Art Linson",
+   "photo": "https://image.tmdb.org/t/p/w185/p9JPMQt4RRHYdQgvnrmFNiZ4eW6.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 69414,
+   "name": "John Linson",
+   "photo": "https://image.tmdb.org/t/p/w185/1rL4s8P5TS0KwbMbkwU7TvttIDy.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 1215399,
+   "name": "Taylor Sheridan",
+   "photo": "https://image.tmdb.org/t/p/w185/enrOQII7bCIf7U0WbdxiuXGfzrs.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 4232,
+   "name": "Bob Yari",
+   "photo": "https://image.tmdb.org/t/p/w185/8PecTVSJk5uJmndCGTLwgsLPEhP.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 228247,
+   "name": "Ron Burkle",
+   "photo": "https://image.tmdb.org/t/p/w185/hf69HPpxXieEPqSblJGqX5Hq31V.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 6041,
+   "name": "Brian Tyler",
+   "photo": "https://image.tmdb.org/t/p/w185/wLPLAOcEgA9vfNuXSX1QI1ajguU.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 2354280,
+   "name": "Breton Vivian",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 1909384,
+   "name": "Lyle Mitchell Corbine Jr.",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 1211942,
+   "name": "Christopher Chulack",
+   "photo": "https://image.tmdb.org/t/p/w185/oXibKEW4hKZa4PlUHJASohZViCj.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1297599,
+   "name": "Dana Greenblatt",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:34:54.661Z"
+}

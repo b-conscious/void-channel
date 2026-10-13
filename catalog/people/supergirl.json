@@ -1,0 +1,351 @@
+{
+ "show": "Supergirl",
+ "slug": "supergirl",
+ "tmdbId": 62688,
+ "cast": [
+  {
+   "id": 129104,
+   "name": "Melissa Benoist",
+   "photo": "https://image.tmdb.org/t/p/w185/1F0fCPNhb5W0WyFe8Tszfbx1DEp.jpg",
+   "character": "Kara Danvers / Supergirl / Kara Zor-El",
+   "episodes": 126
+  },
+  {
+   "id": 69210,
+   "name": "Chyler Leigh",
+   "photo": "https://image.tmdb.org/t/p/w185/yoL8HbWhnoTVugTV5qLJP8gVpIq.jpg",
+   "character": "Alex Danvers / Sentinel",
+   "episodes": 126
+  },
+  {
+   "id": 16752,
+   "name": "David Harewood",
+   "photo": "https://image.tmdb.org/t/p/w185/kjWRYwRGQco0C4p2iIh2RV86fi7.jpg",
+   "character": "J'onn J'onzz / Martian Manhunter",
+   "episodes": 126
+  },
+  {
+   "id": 150587,
+   "name": "Katie McGrath",
+   "photo": "https://image.tmdb.org/t/p/w185/eDTYdYE6gV2oUhvRFGHaK5PpnXr.jpg",
+   "character": "Lena Luthor",
+   "episodes": 96
+  },
+  {
+   "id": 51684,
+   "name": "Mehcad Brooks",
+   "photo": "https://image.tmdb.org/t/p/w185/s7Cu6Si9n5qsH64eLBVGXaf55bE.jpg",
+   "character": "Jimmy Olsen / Guardian",
+   "episodes": 92
+  },
+  {
+   "id": 96593,
+   "name": "Jesse Rath",
+   "photo": "https://image.tmdb.org/t/p/w185/AphsaApS4dINg5y3oO9Y2qDDbeV.jpg",
+   "character": "Querl 'Brainy' Dox / Brainiac-5",
+   "episodes": 67
+  },
+  {
+   "id": 1188558,
+   "name": "Jeremy Jordan",
+   "photo": "https://image.tmdb.org/t/p/w185/ev2bFhk810TlMtRsZIQhKylJPpK.jpg",
+   "character": "Winn Schott / Toyman / Winn Schott / Computer Lad / Toyman / Winn Schott",
+   "episodes": 67
+  },
+  {
+   "id": 1718957,
+   "name": "Nicole Maines",
+   "photo": "https://image.tmdb.org/t/p/w185/g0Wv8JJBsHrGbF0ZlDBVIGUifwT.jpg",
+   "character": "Nia Nal / Dreamer",
+   "episodes": 61
+  },
+  {
+   "id": 1475647,
+   "name": "Chris Wood",
+   "photo": "https://image.tmdb.org/t/p/w185/z5A9PzvMSqOxsvSF2techq4buYb.jpg",
+   "character": "Mon-El",
+   "episodes": 47
+  },
+  {
+   "id": 134238,
+   "name": "Azie Tesfai",
+   "photo": "https://image.tmdb.org/t/p/w185/fWQtyjPDHArabFap9w4GuDhv7Qf.jpg",
+   "character": "Kelly Olsen / Guardian",
+   "episodes": 46
+  },
+  {
+   "id": 204975,
+   "name": "Andrea Brooks",
+   "photo": "https://image.tmdb.org/t/p/w185/piGVo6lKrlM3UvTMNOEljmsxzM8.jpg",
+   "character": "Eve Tessmacher / Eve Tessmacher / Hope",
+   "episodes": 46
+  },
+  {
+   "id": 1377977,
+   "name": "Floriana Lima",
+   "photo": "https://image.tmdb.org/t/p/w185/hiHqJwjzz6fT9QeTz0rG7MgdnOX.jpg",
+   "character": "Maggie Sawyer",
+   "episodes": 45
+  },
+  {
+   "id": 68769,
+   "name": "Julie Gonzalo",
+   "photo": "https://image.tmdb.org/t/p/w185/6clO3lFK6dn3lBXe8zZoRNPbERr.jpg",
+   "character": "Andrea Rojas / Acrata",
+   "episodes": 39
+  },
+  {
+   "id": 1564557,
+   "name": "Staz Nair",
+   "photo": "https://image.tmdb.org/t/p/w185/jCZEQ4ZsZRFA7a8dWj92YAa9TTQ.jpg",
+   "character": "William Dey",
+   "episodes": 39
+  },
+  {
+   "id": 49148,
+   "name": "Calista Flockhart",
+   "photo": "https://image.tmdb.org/t/p/w185/s0YPPAaIO5fnWI9baxp4TIkUXmn.jpg",
+   "character": "Cat Grant",
+   "episodes": 26
+  },
+  {
+   "id": 51992,
+   "name": "Odette Annable",
+   "photo": "https://image.tmdb.org/t/p/w185/zbEaTdg8a7USjfH5LxaU2U3W6Zb.jpg",
+   "character": "Samantha Arias / Reign",
+   "episodes": 24
+  },
+  {
+   "id": 101396,
+   "name": "Brenda Strong",
+   "photo": "https://image.tmdb.org/t/p/w185/jMfkFmQT2zgTojkcmn67Fju3HU.jpg",
+   "character": "Lillian Luthor",
+   "episodes": 24
+  },
+  {
+   "id": 46362,
+   "name": "Sam Witwer",
+   "photo": "https://image.tmdb.org/t/p/w185/8flOyMoh9hBQPqi6ISD7W1mDjnY.jpg",
+   "character": "Ben Lockwood / Agent Liberty",
+   "episodes": 23
+  },
+  {
+   "id": 220914,
+   "name": "Peta Sergeant",
+   "photo": "https://image.tmdb.org/t/p/w185/owkSN29t7P6hpazZKsUMt7FybrP.jpg",
+   "character": "Nyxlygsptlnz / 'Nyxly'",
+   "episodes": 20
+  },
+  {
+   "id": 69718,
+   "name": "Jon Cryer",
+   "photo": "https://image.tmdb.org/t/p/w185/7PB7dDNHP9l5LlCCw6GP8GjaCAE.jpg",
+   "character": "Lex Luthor",
+   "episodes": 20
+  },
+  {
+   "id": 15566,
+   "name": "Sharon Leal",
+   "photo": "https://image.tmdb.org/t/p/w185/3dJCnAZDG2ZN7Hxct8UAdPePpuz.jpg",
+   "character": "M'gann M'orzz",
+   "episodes": 16
+  },
+  {
+   "id": 20381,
+   "name": "Jenna Dewan",
+   "photo": "https://image.tmdb.org/t/p/w185/8zZkN1ewGxN8MHiqB8lRmBle8yf.jpg",
+   "character": "Lucy Lane",
+   "episodes": 15
+  },
+  {
+   "id": 1272862,
+   "name": "Emma Tremblay",
+   "photo": "https://image.tmdb.org/t/p/w185/bZxNL9cLr8IttSHiS1rF3hTULY6.jpg",
+   "character": "Ruby Arias",
+   "episodes": 15
+  },
+  {
+   "id": 29382,
+   "name": "Carl Lumbly",
+   "photo": "https://image.tmdb.org/t/p/w185/ew1URcenWNl1Uclsz9ADiRb0uBD.jpg",
+   "character": "Myr'nn J'onzz",
+   "episodes": 15
+  }
+ ],
+ "crew": [
+  {
+   "id": 88967,
+   "name": "Greg Berlanti",
+   "photo": "https://image.tmdb.org/t/p/w185/1T24SiIIDMa9gAmq7QaYwZywq4y.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 126
+  },
+  {
+   "id": 1216615,
+   "name": "Andrew Kreisberg",
+   "photo": "https://image.tmdb.org/t/p/w185/dm1kNRSLuPKYW4X1CPdO50cqyYJ.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 126
+  },
+  {
+   "id": 1216181,
+   "name": "Ali Adler",
+   "photo": "https://image.tmdb.org/t/p/w185/chwz2xe9gKDXzFTBIeVQmby5xLe.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Story",
+    "Teleplay"
+   ],
+   "episodes": 87
+  },
+  {
+   "id": 1395152,
+   "name": "Sarah Schechter",
+   "photo": "https://image.tmdb.org/t/p/w185/8UgL2O24cC8SniiryeYmZuafU4G.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 126
+  },
+  {
+   "id": 53017,
+   "name": "Blake Neely",
+   "photo": "https://image.tmdb.org/t/p/w185/ip0bUF22rBJNqLu5hTPEtzZa6hp.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 126
+  },
+  {
+   "id": 1212582,
+   "name": "Jessica Queller",
+   "photo": "https://image.tmdb.org/t/p/w185/sFm8en1OZrdMYJ2w5bcHLMeaUSo.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 106
+  },
+  {
+   "id": 1254228,
+   "name": "Robert Rovner",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 106
+  },
+  {
+   "id": 1266304,
+   "name": "Daniel James Chan",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 84
+  },
+  {
+   "id": 2296151,
+   "name": "Jess Kardos",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 75
+  },
+  {
+   "id": 1218135,
+   "name": "Rob Wright",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 61
+  },
+  {
+   "id": 2026852,
+   "name": "Nicki Holcomb",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 50
+  },
+  {
+   "id": 1488029,
+   "name": "Derek Simon",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 134088,
+   "name": "Jesse Warn",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 1349032,
+   "name": "Caitlin Parrish",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 1379193,
+   "name": "Gabriel Llanas",
+   "photo": "https://image.tmdb.org/t/p/w185/zyoO4ha6SoMLboPAur222XEYD2O.jpg",
+   "jobs": [
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 1915761,
+   "name": "Katie Rose Rogers",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 13
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:02.674Z"
+}

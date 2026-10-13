@@ -1,0 +1,345 @@
+{
+ "show": "Chicago Med",
+ "slug": "chicago-med",
+ "tmdbId": 62650,
+ "cast": [
+  {
+   "id": 3978,
+   "name": "S. Epatha Merkerson",
+   "photo": "https://image.tmdb.org/t/p/w185/pXCmHxrWzlv1kPZSxJXFM45QgOP.jpg",
+   "character": "Sharon Goodwin",
+   "episodes": 223
+  },
+  {
+   "id": 17485,
+   "name": "Oliver Platt",
+   "photo": "https://image.tmdb.org/t/p/w185/ipBzOzgWRdxxYoM5xNN1cfenFaC.jpg",
+   "character": "Dr. Daniel Charles",
+   "episodes": 223
+  },
+  {
+   "id": 1232555,
+   "name": "Marlyne Barrett",
+   "photo": "https://image.tmdb.org/t/p/w185/36eZc9EKXWjJcYhdYWjIXQ3Stwb.jpg",
+   "character": "Maggie Lockwood",
+   "episodes": 198
+  },
+  {
+   "id": 979639,
+   "name": "Nick Gehlfuss",
+   "photo": "https://image.tmdb.org/t/p/w185/4mjZAocnsGGWz9bYTu5STYAgzUb.jpg",
+   "character": "Dr. Will Halstead",
+   "episodes": 165
+  },
+  {
+   "id": 1719941,
+   "name": "Lorena Diaz",
+   "photo": "https://image.tmdb.org/t/p/w185/e88n2odiAJ5dj8RaN9Zia0PP994.jpg",
+   "character": "Nurse Doris",
+   "episodes": 142
+  },
+  {
+   "id": 116278,
+   "name": "Brian Tee",
+   "photo": "https://image.tmdb.org/t/p/w185/ieqbktfBwcHkeikMfNDW94Yffzp.jpg",
+   "character": "Dr. Ethan Choi",
+   "episodes": 131
+  },
+  {
+   "id": 33296,
+   "name": "Torrey DeVitto",
+   "photo": "https://image.tmdb.org/t/p/w185/mLRBWh6j0Jmgles7PLdEW3N63Ne.jpg",
+   "character": "Dr. Natalie Manning",
+   "episodes": 123
+  },
+  {
+   "id": 60033,
+   "name": "Yaya DaCosta",
+   "photo": "https://image.tmdb.org/t/p/w185/nbkbw9fjaAxFPscnY8xcqAi5TCs.jpg",
+   "character": "April Sexton",
+   "episodes": 122
+  },
+  {
+   "id": 6106,
+   "name": "Steven Weber",
+   "photo": "https://image.tmdb.org/t/p/w185/8FtkapenCOpe39eE1sQus5WLWAq.jpg",
+   "character": "Dr. Dean Archer",
+   "episodes": 109
+  },
+  {
+   "id": 26974,
+   "name": "Jessy Schram",
+   "photo": "https://image.tmdb.org/t/p/w185/971zERWs0pz6CeCmQAG6SQuBrkR.jpg",
+   "character": "Dr. Hannah Asher",
+   "episodes": 99
+  },
+  {
+   "id": 146411,
+   "name": "Dominic Rains",
+   "photo": "https://image.tmdb.org/t/p/w185/fOTgkYQWryERySm6nX4wkfjRx1H.jpg",
+   "character": "Dr. Crockett Marcel",
+   "episodes": 93
+  },
+  {
+   "id": 1724937,
+   "name": "Courtney Rioux",
+   "photo": "https://image.tmdb.org/t/p/w185/uxPhHTi4MsXlpPBvxNwuQLCy6QX.jpg",
+   "character": "Paramedic #1 / Paramedic Courtney / Courtney",
+   "episodes": 88
+  },
+  {
+   "id": 1093632,
+   "name": "Colin Donnell",
+   "photo": "https://image.tmdb.org/t/p/w185/inhi4fQaP0wYvmBrOGR1eIZuV1m.jpg",
+   "character": "Dr. Connor Rhodes",
+   "episodes": 83
+  },
+  {
+   "id": 2854421,
+   "name": "Marie Tredway",
+   "photo": "https://image.tmdb.org/t/p/w185/joj7I2StGEML36ip2ESC0s9BELC.jpg",
+   "character": "Nurse Trini",
+   "episodes": 77
+  },
+  {
+   "id": 3018177,
+   "name": "Lynnette Li",
+   "photo": "https://image.tmdb.org/t/p/w185/bbhGAHzjzq7u57EOFvhFNIyf8JL.jpg",
+   "character": "Nurse Nancy",
+   "episodes": 69
+  },
+  {
+   "id": 1094635,
+   "name": "Rachel DiPillo",
+   "photo": "https://image.tmdb.org/t/p/w185/4NVqdgWcNaz85HD2Gj1yjatv5bO.jpg",
+   "character": "Dr. Sarah Reese",
+   "episodes": 65
+  },
+  {
+   "id": 1701851,
+   "name": "Norma Kuhling",
+   "photo": "https://image.tmdb.org/t/p/w185/iYDlDCZO1D2MeZm5RPLBPyrPJVO.jpg",
+   "character": "Dr. Ava Bekker",
+   "episodes": 65
+  },
+  {
+   "id": 1181361,
+   "name": "Luke Mitchell",
+   "photo": "https://image.tmdb.org/t/p/w185/gwG06fukGZ5BT7YoRQc0GT0CJeM.jpg",
+   "character": "Dr. Mitchell 'Mitch' Ripley",
+   "episodes": 60
+  },
+  {
+   "id": 1863994,
+   "name": "Jeremy Shouldis",
+   "photo": "https://image.tmdb.org/t/p/w185/nCMrweeJHDCXbeuYxaVa2E1Tcom.jpg",
+   "character": "Dr. Marty Peterson",
+   "episodes": 57
+  },
+  {
+   "id": 1860878,
+   "name": "Cesar Jaime",
+   "photo": "https://image.tmdb.org/t/p/w185/21M82U2rN3dr3tGfkTRhARNdb8Z.jpg",
+   "character": "Paramedic #3 / Paramedic #4 / Paramedic Cesar",
+   "episodes": 49
+  },
+  {
+   "id": 155422,
+   "name": "Sarah Ramos",
+   "photo": "https://image.tmdb.org/t/p/w185/sx58FcjU6JZtU2fUt1GpjrwtxwM.jpg",
+   "character": "Dr. Caitlin Lenox",
+   "episodes": 47
+  },
+  {
+   "id": 2000335,
+   "name": "Darren Barnet",
+   "photo": "https://image.tmdb.org/t/p/w185/z3hQP19QgHsKZ4j0sXNzrhScDMO.jpg",
+   "character": "Dr. John Frost",
+   "episodes": 47
+  },
+  {
+   "id": 1174795,
+   "name": "Marc Grapey",
+   "photo": "https://image.tmdb.org/t/p/w185/kR6geNBZefgMpdOU6zsNeLmc8JR.jpg",
+   "character": "Peter Kalmick",
+   "episodes": 47
+  },
+  {
+   "id": 1218149,
+   "name": "Brennan Brown",
+   "photo": "https://image.tmdb.org/t/p/w185/fvAxFTEApSBVoe5xDbjAGEJOVOF.jpg",
+   "character": "Dr. Sam Abrams",
+   "episodes": 46
+  }
+ ],
+ "crew": [
+  {
+   "id": 117443,
+   "name": "Dick Wolf",
+   "photo": "https://image.tmdb.org/t/p/w185/tRMEuYNVFjXYJ7gh1sGJSxq9Vwq.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Story"
+   ],
+   "episodes": 219
+  },
+  {
+   "id": 1214477,
+   "name": "Matt Olmstead",
+   "photo": "https://image.tmdb.org/t/p/w185/3tK3c9pZlGFBJaOxwH00svHtu8U.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer"
+   ],
+   "episodes": 219
+  },
+  {
+   "id": 212137,
+   "name": "Michael Waxman",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 219
+  },
+  {
+   "id": 7865,
+   "name": "Michael Brandt",
+   "photo": "https://image.tmdb.org/t/p/w185/13p3xvGWhCbSNgv9S2DiBcPnoWQ.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 219
+  },
+  {
+   "id": 1218298,
+   "name": "Peter Jankowski",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 219
+  },
+  {
+   "id": 8161,
+   "name": "Derek Haas",
+   "photo": "https://image.tmdb.org/t/p/w185/a2kkIGmfxO45TrFgvARHi8rCqlQ.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Story",
+    "Writer"
+   ],
+   "episodes": 219
+  },
+  {
+   "id": 72268,
+   "name": "Atli Örvarsson",
+   "photo": "https://image.tmdb.org/t/p/w185/fmg2HsSMUWAR2QYhOTFtPdqumIw.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 219
+  },
+  {
+   "id": 1872897,
+   "name": "Stephen Hootstein",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 199
+  },
+  {
+   "id": 1218026,
+   "name": "Arthur W. Forney",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 176
+  },
+  {
+   "id": 163000,
+   "name": "Andrew Schneider",
+   "photo": "https://image.tmdb.org/t/p/w185/bIIpurzC9lyaCCGnJ1I8E0z4E6k.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 176
+  },
+  {
+   "id": 163001,
+   "name": "Diane Frolov",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 93
+  },
+  {
+   "id": 1940580,
+   "name": "Nicole Cummins-Rubio",
+   "photo": "https://image.tmdb.org/t/p/w185/nVOmvc30Nkhhl28jrUve5aUxqZP.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 44
+  },
+  {
+   "id": 59649,
+   "name": "Michael Pressman",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 36
+  },
+  {
+   "id": 1873715,
+   "name": "Gabriel L. Feinberg",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 35
+  },
+  {
+   "id": 2275579,
+   "name": "Ryan Michael Johnson",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 34
+  },
+  {
+   "id": 2219330,
+   "name": "Meridith Friedman",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 32
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:34:01.064Z"
+}

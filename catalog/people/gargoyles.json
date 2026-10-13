@@ -1,0 +1,327 @@
+{
+ "show": "Gargoyles",
+ "slug": "gargoyles",
+ "tmdbId": 1719,
+ "cast": [
+  {
+   "id": 65827,
+   "name": "Keith David",
+   "photo": "https://image.tmdb.org/t/p/w185/1x0QXavmIy3QmhyrOsV7gMnJaEx.jpg",
+   "character": "Goliath (voice)",
+   "episodes": 78
+  },
+  {
+   "id": 53918,
+   "name": "Salli Richardson-Whitfield",
+   "photo": "https://image.tmdb.org/t/p/w185/wMQaIzY5kyRQd8UwF1lphKK6oQm.jpg",
+   "character": "Elisa Maza (voice)",
+   "episodes": 78
+  },
+  {
+   "id": 68812,
+   "name": "Ed Asner",
+   "photo": "https://image.tmdb.org/t/p/w185/AeVizz1AfAB2TbsfyzgBvqeSR3G.jpg",
+   "character": "Hudson (voice)",
+   "episodes": 78
+  },
+  {
+   "id": 34982,
+   "name": "Jeff Bennett",
+   "photo": "https://image.tmdb.org/t/p/w185/6Fq3Q1e0Oz0j2J2fnFSl7fKCHd9.jpg",
+   "character": "Brooklyn (voice)",
+   "episodes": 78
+  },
+  {
+   "id": 93843,
+   "name": "Thom Adcox-Hernandez",
+   "photo": "https://image.tmdb.org/t/p/w185/3AfOZ9SULB8ZewM5Lrs5q8Bcmrq.jpg",
+   "character": "Lexington (voice)",
+   "episodes": 78
+  },
+  {
+   "id": 34398,
+   "name": "Bill Fagerbakke",
+   "photo": "https://image.tmdb.org/t/p/w185/zntKKc1uT53BnIihmzbq601eWKZ.jpg",
+   "character": "Broadway (voice)",
+   "episodes": 78
+  },
+  {
+   "id": 15831,
+   "name": "Frank Welker",
+   "photo": "https://image.tmdb.org/t/p/w185/aC37aQtsfZZDZN5y3paDTLJJHCi.jpg",
+   "character": "Bronx (voice)",
+   "episodes": 78
+  },
+  {
+   "id": 2388,
+   "name": "Jonathan Frakes",
+   "photo": "https://image.tmdb.org/t/p/w185/b1C2FQzQPp4GsY0mGMxfvZCsKam.jpg",
+   "character": "David Xanatos (voice)",
+   "episodes": 78
+  },
+  {
+   "id": 2393,
+   "name": "Marina Sirtis",
+   "photo": "https://image.tmdb.org/t/p/w185/pSUhuPgmIqitiUazxyWAbS6mix6.jpg",
+   "character": "Demona (voice)",
+   "episodes": 78
+  },
+  {
+   "id": 14607,
+   "name": "Brigitte Bako",
+   "photo": "https://image.tmdb.org/t/p/w185/i7Jb30gO8bQi65tJSuH428jDjTO.jpg",
+   "character": "Angela (voice)",
+   "episodes": 65
+  },
+  {
+   "id": 1065,
+   "name": "Thomas F. Wilson",
+   "photo": "https://image.tmdb.org/t/p/w185/mVhm65ZVBIRIptWGiMIvoUy0Khi.jpg",
+   "character": "Matt Bluestone (voice) / Matt Bluestone/Thug 2 (voice) / Matt Bluestone/Gangbanger 3 (voice)",
+   "episodes": 19
+  },
+  {
+   "id": 60739,
+   "name": "Kath Soucie",
+   "photo": "https://image.tmdb.org/t/p/w185/dSE1JtsdA1aSgIIw415bsXtmkPg.jpg",
+   "character": "Princess Katharine / Weird Sisters / Ophelia (voice) / Weird Sisters / Princess Katharine (voice) / Princess Katharine / Mary (voice)",
+   "episodes": 17
+  },
+  {
+   "id": 655,
+   "name": "John Rhys-Davies",
+   "photo": "https://image.tmdb.org/t/p/w185/qpXl1YnqQsUKYEDm3BB2zK5wbhe.jpg",
+   "character": "Arthur Morwood-Smyth (voice) / Findlaech (voice) / Macbeth/Demona's Second (voice)",
+   "episodes": 14
+  },
+  {
+   "id": 1212,
+   "name": "Laura San Giacomo",
+   "photo": "https://image.tmdb.org/t/p/w185/xOPY9e0HN6zYmI5HrmRSbwygEzy.jpg",
+   "character": "Laura San Giacomo Fox (voice) / Fox/Janine Renard (voice) / Fox (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 10768,
+   "name": "Rachel Ticotin",
+   "photo": "https://image.tmdb.org/t/p/w185/ihLzHGkgQcpUX26K5AtfG8VuYGB.jpg",
+   "character": "Maria Chavez/Police Dispatcher (voice) / Maria Chavez (voice) / Tony Dracon (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 6574,
+   "name": "Clancy Brown",
+   "photo": "https://image.tmdb.org/t/p/w185/1JeBRNG7VS7r64V9lOvej9bZXW5.jpg",
+   "character": "Tomas Brod (voice) / Wolf/Hakon (voice) / Bully (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 12077,
+   "name": "Jim Cummings",
+   "photo": "https://image.tmdb.org/t/p/w185/c0sQPRCM5Ri3F4gVyxPr4AcPmIq.jpg",
+   "character": "Dingo (voice) / Hugo (voice) / Business Man/Male Commuter 1/Cop 1 (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 15414,
+   "name": "Charles Hallahan",
+   "photo": "https://image.tmdb.org/t/p/w185/zQr2ytNB23Dy3uzbGkxfIsANw3y.jpg",
+   "character": "Travis Marshall/Quarryman (voice) / Mr. Jaffe/Travis Marshall (voice) / Travis Marshall/Macduff (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 27448,
+   "name": "Rocky Carroll",
+   "photo": "https://image.tmdb.org/t/p/w185/pqjqmRChGqhDXXY7Etka3bmOatN.jpg",
+   "character": "Derek Maza (voice) / Derek Maza (voice) / Glasses (voice) / Talon (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 13472,
+   "name": "Tim Curry",
+   "photo": "https://image.tmdb.org/t/p/w185/8ZsGg3N3OZgxshqLOtA2kl5ckOP.jpg",
+   "character": "Dr. Anton Sevarius (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 40009,
+   "name": "Matt Frewer",
+   "photo": "https://image.tmdb.org/t/p/w185/gh91nUlR6C7rYhDhjab7cAZQlIt.jpg",
+   "character": "Jackal (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 34985,
+   "name": "Cree Summer",
+   "photo": "https://image.tmdb.org/t/p/w185/7DRq0zPUUWu55pUbnc2roVnzOJ9.jpg",
+   "character": "Hyena (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 35243,
+   "name": "Ed Gilbert",
+   "photo": "https://image.tmdb.org/t/p/w185/uuyoM4Bo3zzmsDoOPzr5JeJaMdE.jpg",
+   "character": "Captain of the Guard (voice) / Bodhe (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 18906,
+   "name": "Neil Dickson",
+   "photo": "https://image.tmdb.org/t/p/w185/rcNReyDrQ8izRg3qVOaTthb1Rpx.jpg",
+   "character": "King Duncan (voice) / Griff (voice) / Canmore (voice)",
+   "episodes": 7
+  }
+ ],
+ "crew": [
+  {
+   "id": 1216480,
+   "name": "Michael Hirsh",
+   "photo": "https://image.tmdb.org/t/p/w185/voyqsXS49CXnh8BSMl6SxH2NAic.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 52
+  },
+  {
+   "id": 34938,
+   "name": "Michael Reaves",
+   "photo": "https://image.tmdb.org/t/p/w185/3eqjfbododiWXEnHBy8ZYkJJnFe.jpg",
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 571917,
+   "name": "Dennis Woodyard",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 21
+  },
+  {
+   "id": 35268,
+   "name": "Frank Paur",
+   "photo": "https://image.tmdb.org/t/p/w185/rhmImTEXG4LZa5kKkWvgpmuo2bE.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 3517196,
+   "name": "Lydia Marano",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 1409476,
+   "name": "Kazuo Terada",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 4514502,
+   "name": "Saburo Hashimoto",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 175475,
+   "name": "Cary Bates",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1226715,
+   "name": "Charles E. Bastien",
+   "photo": "https://image.tmdb.org/t/p/w185/jlCigphSFfFK4irGfhZOx2Ga1Hr.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1220932,
+   "name": "Brynne Chandler Reaves",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 5474374,
+   "name": "Bob Kline",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1225802,
+   "name": "Eric Lewald",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1226716,
+   "name": "Gary Sperling",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 59943,
+   "name": "Eric Luke",
+   "photo": "https://image.tmdb.org/t/p/w185/yQCcIvXtdd0N4HRcji4CxIf5Szj.jpg",
+   "jobs": [
+    "Story"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 175473,
+   "name": "Marty Isenberg",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 175476,
+   "name": "Adam Gilad",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:29:30.653Z"
+}

@@ -1,0 +1,331 @@
+{
+ "show": "Ozark",
+ "slug": "ozark",
+ "tmdbId": 69740,
+ "cast": [
+  {
+   "id": 23532,
+   "name": "Jason Bateman",
+   "photo": "https://image.tmdb.org/t/p/w185/8e6mt0vGjPo6eW52gqRuXy5YnfN.jpg",
+   "character": "Marty Byrde",
+   "episodes": 44
+  },
+  {
+   "id": 350,
+   "name": "Laura Linney",
+   "photo": "https://image.tmdb.org/t/p/w185/6I31xZxo9Hq6T0OhSwCUjHd8jkB.jpg",
+   "character": "Wendy Byrde",
+   "episodes": 44
+  },
+  {
+   "id": 1600083,
+   "name": "Sofia Hublitz",
+   "photo": "https://image.tmdb.org/t/p/w185/A1nSqZXtKJwuQXDGrhmYa0CP0cZ.jpg",
+   "character": "Charlotte Byrde",
+   "episodes": 44
+  },
+  {
+   "id": 972883,
+   "name": "Skylar Gaertner",
+   "photo": "https://image.tmdb.org/t/p/w185/zDZ2gt7AO8YZwAtlKU0SsirJ5Kk.jpg",
+   "character": "Jonah Byrde",
+   "episodes": 44
+  },
+  {
+   "id": 936970,
+   "name": "Julia Garner",
+   "photo": "https://image.tmdb.org/t/p/w185/gpLpOBoHz5VF1IZhfWQNqJvDTWp.jpg",
+   "character": "Ruth Langmore",
+   "episodes": 44
+  },
+  {
+   "id": 49918,
+   "name": "Charlie Tahan",
+   "photo": "https://image.tmdb.org/t/p/w185/isCdDBAxrSOjugK3HjgESi6rXcn.jpg",
+   "character": "Wyatt Langmore",
+   "episodes": 41
+  },
+  {
+   "id": 59201,
+   "name": "Lisa Emery",
+   "photo": "https://image.tmdb.org/t/p/w185/n1BUX990xFUXtvY8fDkbUox6sHh.jpg",
+   "character": "Darlene Snell",
+   "episodes": 37
+  },
+  {
+   "id": 39481,
+   "name": "Jordana Spiro",
+   "photo": "https://image.tmdb.org/t/p/w185/lYWTKhlMG9B2gEoCOCABqeRMbx3.jpg",
+   "character": "Rachel Garrison",
+   "episodes": 24
+  },
+  {
+   "id": 2578372,
+   "name": "Jessica Frances Dukes",
+   "photo": "https://image.tmdb.org/t/p/w185/k6HYprQZhTDw8pEkRN0KA9IywUw.jpg",
+   "character": "Maya Miller",
+   "episodes": 24
+  },
+  {
+   "id": 1856992,
+   "name": "Carson Holmes",
+   "photo": "https://image.tmdb.org/t/p/w185/hcYNgPKMV1Lud3a8aoFlj2xAqaL.jpg",
+   "character": "Three Langmore",
+   "episodes": 24
+  },
+  {
+   "id": 1098577,
+   "name": "Kevin L. Johnson",
+   "photo": "https://image.tmdb.org/t/p/w185/8YnbMp7uvZipkTIhVypp6RPj5Rn.jpg",
+   "character": "Sam Dermody",
+   "episodes": 23
+  },
+  {
+   "id": 1215617,
+   "name": "Felix Solis",
+   "photo": "https://image.tmdb.org/t/p/w185/hEiRxsPybmlmoynqw3UeA9AiSEY.jpg",
+   "character": "Omar Navarro",
+   "episodes": 22
+  },
+  {
+   "id": 109144,
+   "name": "Damian Young",
+   "photo": "https://image.tmdb.org/t/p/w185/bvUhCL4CGNw0StkG8XaU07VueH5.jpg",
+   "character": "Jim Rettelsdorf",
+   "episodes": 22
+  },
+  {
+   "id": 232749,
+   "name": "Nelson Bonilla",
+   "photo": "https://image.tmdb.org/t/p/w185/cLD3PPFRxqOx2r5PqFk3I4Dpj5q.jpg",
+   "character": "Nelson",
+   "episodes": 21
+  },
+  {
+   "id": 142294,
+   "name": "Jason Butler Harner",
+   "photo": "https://image.tmdb.org/t/p/w185/wPvcdfh4RCjplX0zPLvxXdwgwQf.jpg",
+   "character": "Roy Petty",
+   "episodes": 20
+  },
+  {
+   "id": 3064,
+   "name": "Peter Mullan",
+   "photo": "https://image.tmdb.org/t/p/w185/dvu5PWJK6Vv4xnYyMzdMvH73Laj.jpg",
+   "character": "Jacob Snell",
+   "episodes": 20
+  },
+  {
+   "id": 47627,
+   "name": "Janet McTeer",
+   "photo": "https://image.tmdb.org/t/p/w185/qOKAI6aunD4J5MXiwwomAhI3jI2.jpg",
+   "character": "Helen Pierce",
+   "episodes": 17
+  },
+  {
+   "id": 1493226,
+   "name": "McKinley Belcher III",
+   "photo": "https://image.tmdb.org/t/p/w185/yoglJWyhgA1tnqQS9T3MQPPEsRc.jpg",
+   "character": "Trevor Evans",
+   "episodes": 16
+  },
+  {
+   "id": 1163266,
+   "name": "Trevor Long",
+   "photo": "https://image.tmdb.org/t/p/w185/iugkWX9BewGXr869MTCpSlVIXjY.jpg",
+   "character": "Cade Langmore (voice) / Cade Langmore",
+   "episodes": 15
+  },
+  {
+   "id": 52490,
+   "name": "Robert C. Treveiler",
+   "photo": "https://image.tmdb.org/t/p/w185/4tsULMnZG7WnqiKTZB8jvC4Dpmp.jpg",
+   "character": "Sheriff John Nix",
+   "episodes": 15
+  },
+  {
+   "id": 129099,
+   "name": "Adam Rothenberg",
+   "photo": "https://image.tmdb.org/t/p/w185/7XuZx1jzApCv1I6csoaVgJy8Xzb.jpg",
+   "character": "Mel Sattem",
+   "episodes": 14
+  },
+  {
+   "id": 1166,
+   "name": "Harris Yulin",
+   "photo": "https://image.tmdb.org/t/p/w185/3W758yxhdphzblpgDz4wKgLCriB.jpg",
+   "character": "Buddy Dieker",
+   "episodes": 13
+  },
+  {
+   "id": 82631,
+   "name": "Joseph Sikora",
+   "photo": "https://image.tmdb.org/t/p/w185/lCsWDvqKYz1UFGRYN5chg5izZAu.jpg",
+   "character": "Frank Cosgrove Jr.",
+   "episodes": 12
+  },
+  {
+   "id": 207442,
+   "name": "Tom Pelphrey",
+   "photo": "https://image.tmdb.org/t/p/w185/eRmK7HvM5FK1Czx9oQspRERbf0o.jpg",
+   "character": "Ben Davis",
+   "episodes": 11
+  }
+ ],
+ "crew": [
+  {
+   "id": 1281388,
+   "name": "Bill Dubuque",
+   "photo": "https://image.tmdb.org/t/p/w185/fOasIvmeoPExyNTfKEGa4XqhmW.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Teleplay",
+    "Story"
+   ],
+   "episodes": 44
+  },
+  {
+   "id": 206574,
+   "name": "Mark Williams",
+   "photo": "https://image.tmdb.org/t/p/w185/dmOeFb4qxG5TmDy1RW8CBzCCEOT.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Story"
+   ],
+   "episodes": 44
+  },
+  {
+   "id": 23532,
+   "name": "Jason Bateman",
+   "photo": "https://image.tmdb.org/t/p/w185/8e6mt0vGjPo6eW52gqRuXy5YnfN.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 44
+  },
+  {
+   "id": 4146,
+   "name": "Patrick Markey",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 44
+  },
+  {
+   "id": 1258079,
+   "name": "Chris Mundy",
+   "photo": "https://image.tmdb.org/t/p/w185/aEWK5Qo1U896iMsUMd2oY8yso1I.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 44
+  },
+  {
+   "id": 1208226,
+   "name": "Danny Bensi",
+   "photo": "https://image.tmdb.org/t/p/w185/qyyiInZcq9uKI7BAUON6XKxOBim.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 44
+  },
+  {
+   "id": 984513,
+   "name": "Saunder Jurriaans",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 44
+  },
+  {
+   "id": 1868654,
+   "name": "Martin Zimmerman",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 2232350,
+   "name": "Ning Zhou",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 29924,
+   "name": "John Shiban",
+   "photo": "https://image.tmdb.org/t/p/w185/rdmBnBQnxAab2FE2CP6A6hGnUXT.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 68901,
+   "name": "David Manson",
+   "photo": "https://image.tmdb.org/t/p/w185/4EYuvfQ9Z5tAyQ7lT6xfKzUietR.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1318704,
+   "name": "Alik Sakharov",
+   "photo": "https://image.tmdb.org/t/p/w185/nsawlXcvphwnzz66ULKwMl9sKUx.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1215659,
+   "name": "Andrew Bernstein",
+   "photo": "https://image.tmdb.org/t/p/w185/5Q4t7rtpHtp0vfstpQzug1KGZgS.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1325241,
+   "name": "Amanda Marsalis",
+   "photo": "https://image.tmdb.org/t/p/w185/cAP90tLtGZ7pDho4FiIa4vqCrc2.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 137550,
+   "name": "Paul Kolsby",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1650608,
+   "name": "Miki Johnson",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:22.035Z"
+}

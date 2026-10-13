@@ -1,0 +1,331 @@
+{
+ "show": "The Strain",
+ "slug": "the-strain",
+ "tmdbId": 47640,
+ "cast": [
+  {
+   "id": 74541,
+   "name": "Corey Stoll",
+   "photo": "https://image.tmdb.org/t/p/w185/2eMxKecTZBiS60gPUVWcimYgGDp.jpg",
+   "character": "Ephraim Goodweather",
+   "episodes": 46
+  },
+  {
+   "id": 79072,
+   "name": "Kevin Durand",
+   "photo": "https://image.tmdb.org/t/p/w185/hINvryvce5tpod6kTnUg9ZTH8wg.jpg",
+   "character": "Vasiliy Fet",
+   "episodes": 46
+  },
+  {
+   "id": 1561575,
+   "name": "Miguel Gómez",
+   "photo": "https://image.tmdb.org/t/p/w185/hQYAe8Bamt73hGu3ofkC0X5OSLE.jpg",
+   "character": "Gus Elizalde",
+   "episodes": 46
+  },
+  {
+   "id": 11180,
+   "name": "David Bradley",
+   "photo": "https://image.tmdb.org/t/p/w185/znpkwHitb3pcaJbUmgDqG0YenYp.jpg",
+   "character": "Abraham Setrakian",
+   "episodes": 46
+  },
+  {
+   "id": 8537,
+   "name": "Jonathan Hyde",
+   "photo": "https://image.tmdb.org/t/p/w185/1uhT5uzPkBRCb57RtR6C9MvgteC.jpg",
+   "character": "Eldritch Palmer",
+   "episodes": 46
+  },
+  {
+   "id": 49487,
+   "name": "Richard Sammel",
+   "photo": "https://image.tmdb.org/t/p/w185/91IPxy0IuHhIqcrJdI0hYBpJmOg.jpg",
+   "character": "Thomas Eichorst",
+   "episodes": 46
+  },
+  {
+   "id": 558928,
+   "name": "Max Charles",
+   "photo": "https://image.tmdb.org/t/p/w185/wVnQgfJ1M7gfJhRSFrAfKZwxNip.jpg",
+   "character": "Zach Goodweather",
+   "episodes": 46
+  },
+  {
+   "id": 141892,
+   "name": "Ruta Gedmintas",
+   "photo": "https://image.tmdb.org/t/p/w185/ArRuSKwJJwr3venBPjwoukApa8j.jpg",
+   "character": "Dutch Velders",
+   "episodes": 46
+  },
+  {
+   "id": 104635,
+   "name": "Natalie Brown",
+   "photo": "https://image.tmdb.org/t/p/w185/eaiq73q3foAnQRgMrYEMVMvgUVK.jpg",
+   "character": "Kelly Goodweather",
+   "episodes": 46
+  },
+  {
+   "id": 6859,
+   "name": "Mía Maestro",
+   "photo": "https://image.tmdb.org/t/p/w185/qRbV2yIrviokWENK7yhzNGGiWrr.jpg",
+   "character": "Nora Martinez",
+   "episodes": 26
+  },
+  {
+   "id": 130081,
+   "name": "Robin Atkin Downes",
+   "photo": "https://image.tmdb.org/t/p/w185/qb4xPIJGiKyiQ2MhSDQzFWxN0jS.jpg",
+   "character": "The Master (voice)",
+   "episodes": 26
+  },
+  {
+   "id": 42276,
+   "name": "Rupert Penry-Jones",
+   "photo": "https://image.tmdb.org/t/p/w185/50mfkdU5TY8nHuz7vXCz60ywg2c.jpg",
+   "character": "Mr. Quinlan",
+   "episodes": 25
+  },
+  {
+   "id": 1292258,
+   "name": "Jack Kesy",
+   "photo": "https://image.tmdb.org/t/p/w185/lQ8nUYK6InbCFk2TWNnXjjvG9IY.jpg",
+   "character": "Gabriel Bolivar / Master",
+   "episodes": 20
+  },
+  {
+   "id": 1328,
+   "name": "Sean Astin",
+   "photo": "https://image.tmdb.org/t/p/w185/As3ctGUtBYmG4zj4Ifyrcqd71HP.jpg",
+   "character": "Jim Kent",
+   "episodes": 14
+  },
+  {
+   "id": 20767,
+   "name": "Samantha Mathis",
+   "photo": "https://image.tmdb.org/t/p/w185/7J7gvH1uRqfPAPlg7b35rrxSbLB.jpg",
+   "character": "Justine Feraldo",
+   "episodes": 13
+  },
+  {
+   "id": 112692,
+   "name": "Robert Maillet",
+   "photo": "https://image.tmdb.org/t/p/w185/2P5kMGJm4iIJvocwuwM9IbJqoah.jpg",
+   "character": "The Master / The Master / Jusef Sardu",
+   "episodes": 13
+  },
+  {
+   "id": 1886909,
+   "name": "Anthony Grant Lake",
+   "photo": "https://image.tmdb.org/t/p/w185/5gKu3jOIXC1tDAl8EQlf1Hlp5vn.jpg",
+   "character": "Strigoi (uncredited) / Strigoi",
+   "episodes": 13
+  },
+  {
+   "id": 25877,
+   "name": "Roger Cross",
+   "photo": "https://image.tmdb.org/t/p/w185/p3B3Ex5PqNaTXIcdiYe8Ww5vIXi.jpg",
+   "character": "Reggie Fitzwilliam",
+   "episodes": 12
+  },
+  {
+   "id": 76857,
+   "name": "Joaquín Cosío",
+   "photo": "https://image.tmdb.org/t/p/w185/ijMo3fMyY4VL1xyIj6ytiJrzaw9.jpg",
+   "character": "Angel Guzman Hurtado",
+   "episodes": 11
+  },
+  {
+   "id": 74123,
+   "name": "Jamie Hector",
+   "photo": "https://image.tmdb.org/t/p/w185/7vCzdjSRkYU3fIRJsnKdATh2nQF.jpg",
+   "character": "Alonso Creem / Alonso Creem (uncredited)",
+   "episodes": 10
+  },
+  {
+   "id": 59214,
+   "name": "Cas Anvar",
+   "photo": "https://image.tmdb.org/t/p/w185/ohEulMvF1Ji2osI3aSBVGb5FFUb.jpg",
+   "character": "Sanjay Desai",
+   "episodes": 10
+  },
+  {
+   "id": 979105,
+   "name": "Ben Hyland",
+   "photo": "https://image.tmdb.org/t/p/w185/vh0cVQ6T5JNQGK61IxItqmaEmeW.jpg",
+   "character": "Zach Goodweather",
+   "episodes": 9
+  },
+  {
+   "id": 84432,
+   "name": "Lizzie Brocheré",
+   "photo": "https://image.tmdb.org/t/p/w185/whUxOD9HPpoDau9fjtvML5FUw3D.jpg",
+   "character": "Coco Marchand",
+   "episodes": 9
+  },
+  {
+   "id": 1233146,
+   "name": "Paulino Nunes",
+   "photo": "https://image.tmdb.org/t/p/w185/kLL1Q84BRmvRKYBUMFCNR36M7Qo.jpg",
+   "character": "Frank Kowalski",
+   "episodes": 9
+  }
+ ],
+ "crew": [
+  {
+   "id": 10828,
+   "name": "Guillermo del Toro",
+   "photo": "https://image.tmdb.org/t/p/w185/cWvt8FdPAH0j3QtLzAN1j7ZJJrr.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Writer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 161839,
+   "name": "Carlton Cuse",
+   "photo": "https://image.tmdb.org/t/p/w185/40GhFizBF2jwU3tUi5FsxJPzDjt.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 10851,
+   "name": "Ramin Djawadi",
+   "photo": "https://image.tmdb.org/t/p/w185/wgUxW19nyPnrzj4ViVOpAfmhCdr.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 46
+  },
+  {
+   "id": 1465193,
+   "name": "Chuck Hogan",
+   "photo": "https://image.tmdb.org/t/p/w185/6urMUSYlA14piPqxR0ffkD95wO9.jpg",
+   "jobs": [
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 44138,
+   "name": "J. Miles Dale",
+   "photo": "https://image.tmdb.org/t/p/w185/xLKh0iLXHHusu9AbxMM9hdWXtVM.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1224368,
+   "name": "Bradley Thompson",
+   "photo": "https://image.tmdb.org/t/p/w185/fPmUc6wo6Ap9HT2yZ9EQf0E42Jf.jpg",
+   "jobs": [
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1224367,
+   "name": "David Weddle",
+   "photo": "https://image.tmdb.org/t/p/w185/wO7UTlOcaTIK6OCMTgk9ZjNjFO2.jpg",
+   "jobs": [
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1223925,
+   "name": "Regina Corrado",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 91499,
+   "name": "Kevin Dowling",
+   "photo": "https://image.tmdb.org/t/p/w185/ovzRMc6bIv9LtREJaC0Z564lrPd.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1214445,
+   "name": "Phil Abraham",
+   "photo": "https://image.tmdb.org/t/p/w185/kSFThx7LRAFjFPEMERR4O0kuGzf.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 5877,
+   "name": "Vincenzo Natali",
+   "photo": "https://image.tmdb.org/t/p/w185/rvYH9Ns2rTZ4X8OlMkfSCh7FPET.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 20976,
+   "name": "T.J. Scott",
+   "photo": "https://image.tmdb.org/t/p/w185/2sDOBP18EL5qeGTRt1SUHAIfdWa.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 27811,
+   "name": "Peter Weller",
+   "photo": "https://image.tmdb.org/t/p/w185/mVRJX38zabRadVPJe0XOTObVzhp.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 45645,
+   "name": "Deran Sarafian",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1452717,
+   "name": "Justin Britt-Gibson",
+   "photo": null,
+   "jobs": [
+    "Teleplay"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 26502,
+   "name": "Howard Deutch",
+   "photo": "https://image.tmdb.org/t/p/w185/9MOjJAkLZHET0IrKsV6ysUryfs7.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:34.569Z"
+}

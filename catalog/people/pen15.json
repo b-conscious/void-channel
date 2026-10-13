@@ -1,0 +1,334 @@
+{
+ "show": "PEN15",
+ "slug": "pen15",
+ "tmdbId": 85702,
+ "cast": [
+  {
+   "id": 1413361,
+   "name": "Maya Erskine",
+   "photo": "https://image.tmdb.org/t/p/w185/ewWPWtwf3em6Fs094d0X54rzide.jpg",
+   "character": "Maya Ishii-Peters",
+   "episodes": 25
+  },
+  {
+   "id": 1489288,
+   "name": "Anna Konkle",
+   "photo": "https://image.tmdb.org/t/p/w185/5eXyNxWOESSAdDjVJyrW5SJEDzu.jpg",
+   "character": "Anna Kone",
+   "episodes": 25
+  },
+  {
+   "id": 2992664,
+   "name": "Mutsuko Erskine",
+   "photo": "https://image.tmdb.org/t/p/w185/7bxG1aF6cATNtKeduBDMleWskLF.jpg",
+   "character": "Yuki Ishii-Peters",
+   "episodes": 25
+  },
+  {
+   "id": 4944,
+   "name": "Taylor Nichols",
+   "photo": "https://image.tmdb.org/t/p/w185/2VnYWsBXx19tNvBX1diwfjdLkjU.jpg",
+   "character": "Curtis Kone",
+   "episodes": 25
+  },
+  {
+   "id": 4766,
+   "name": "Melora Walters",
+   "photo": "https://image.tmdb.org/t/p/w185/FSxiDBekrKgmzow1j3UhmNHOhI.jpg",
+   "character": "Kathy Kone",
+   "episodes": 25
+  },
+  {
+   "id": 2938269,
+   "name": "Taj Cross",
+   "photo": "https://image.tmdb.org/t/p/w185/kHas3vjqJS9NPdJB7lRqodD8ZOy.jpg",
+   "character": "Sam Zablowski",
+   "episodes": 25
+  },
+  {
+   "id": 1792920,
+   "name": "Dallas Liu",
+   "photo": "https://image.tmdb.org/t/p/w185/aismdzGeONTJHiPfofNaKGZSKZu.jpg",
+   "character": "Shuji Ishii-Peters",
+   "episodes": 25
+  },
+  {
+   "id": 1108121,
+   "name": "Jonah Beres",
+   "photo": "https://image.tmdb.org/t/p/w185/tn7aX0wg01yAIao1OGTmNgkc8CI.jpg",
+   "character": "Brandt",
+   "episodes": 10
+  },
+  {
+   "id": 2562865,
+   "name": "Lincoln Jolly",
+   "photo": "https://image.tmdb.org/t/p/w185/6YrSMXxLi4P2qkjGGFjQ5EH4Jae.jpg",
+   "character": "Alex",
+   "episodes": 9
+  },
+  {
+   "id": 53286,
+   "name": "Richard Karn",
+   "photo": "https://image.tmdb.org/t/p/w185/z5n104kweeSaSfryLvsCY16XI96.jpg",
+   "character": "Fred Peters",
+   "episodes": 5
+  },
+  {
+   "id": 2227356,
+   "name": "Wyatt Walter",
+   "photo": "https://image.tmdb.org/t/p/w185/xmlQlQWKaUXiorKNQfyIRzSUIdS.jpg",
+   "character": "Kyle Field",
+   "episodes": 1
+  },
+  {
+   "id": 177838,
+   "name": "Jill Basey",
+   "photo": "https://image.tmdb.org/t/p/w185/vgUJKzIS8DJE1S5z0B1yFtOO5Wz.jpg",
+   "character": "Mrs Bell",
+   "episodes": 1
+  },
+  {
+   "id": 3028929,
+   "name": "Björgvin Arnarson",
+   "photo": "https://image.tmdb.org/t/p/w185/2btF410qAqcAzhAOrf3VhlxzdJ5.jpg",
+   "character": "Ralph (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 3219932,
+   "name": "Ahmad Nicholas Ferguson",
+   "photo": "https://image.tmdb.org/t/p/w185/ohLvgXpYGrp0Sp16JjTPLeME1om.jpg",
+   "character": "Ben (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 1347001,
+   "name": "Taneka Johnson",
+   "photo": "https://image.tmdb.org/t/p/w185/rDa7oqbP8tFHI73FKZVwZvQU6uC.jpg",
+   "character": "Aline (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 1957903,
+   "name": "Marcelle LeBlanc",
+   "photo": "https://image.tmdb.org/t/p/w185/4nJsmehmC491BKG8Nylc9ciAGuC.jpg",
+   "character": "Venice (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 9186,
+   "name": "Chad Lindberg",
+   "photo": "https://image.tmdb.org/t/p/w185/sUaxwqrwYjZGtLcRH3rsyBd1L9d.jpg",
+   "character": "",
+   "episodes": 1
+  },
+  {
+   "id": 1935100,
+   "name": "Linda Lodge",
+   "photo": null,
+   "character": "Beverly (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 2265733,
+   "name": "Alex Robles",
+   "photo": null,
+   "character": "Freddy (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 2030076,
+   "name": "Sadie Stanley",
+   "photo": "https://image.tmdb.org/t/p/w185/zfjr9nkUTWJ2EekyiWmYdxscrSJ.jpg",
+   "character": "Jenny (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 1367122,
+   "name": "Biff Wiff",
+   "photo": "https://image.tmdb.org/t/p/w185/hfXXxpwugRUHX4sxEP7njAnYXTy.jpg",
+   "character": "Artist (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 1642740,
+   "name": "John Lyke",
+   "photo": "https://image.tmdb.org/t/p/w185/7JXcDIWGaRKb95ZRiZ8XJg9FEZu.jpg",
+   "character": "Devin (uncredited)",
+   "episodes": 1
+  },
+  {
+   "id": 4896782,
+   "name": "Brayden Fenderson",
+   "photo": null,
+   "character": "Brett",
+   "episodes": 1
+  },
+  {
+   "id": 1287802,
+   "name": "Lance Lim",
+   "photo": "https://image.tmdb.org/t/p/w185/zA9VW3GN0aX3OOEFIAs5FbnKeIc.jpg",
+   "character": "Eugene",
+   "episodes": 1
+  }
+ ],
+ "crew": [
+  {
+   "id": 1489288,
+   "name": "Anna Konkle",
+   "photo": "https://image.tmdb.org/t/p/w185/5eXyNxWOESSAdDjVJyrW5SJEDzu.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 1519327,
+   "name": "Sam Zvibleman",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 1413361,
+   "name": "Maya Erskine",
+   "photo": "https://image.tmdb.org/t/p/w185/ewWPWtwf3em6Fs094d0X54rzide.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 1450713,
+   "name": "Deborah Liebling",
+   "photo": "https://image.tmdb.org/t/p/w185/rOcqmzh0TW9AhaFVZCIFxc1wKPr.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 2646721,
+   "name": "Brooke Pobjoy",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 62861,
+   "name": "Andy Samberg",
+   "photo": "https://image.tmdb.org/t/p/w185/jMXU5oG3i93SH1yhkpbBGskFiJl.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 1757536,
+   "name": "Marc Provissiero",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 62863,
+   "name": "Jorma Taccone",
+   "photo": "https://image.tmdb.org/t/p/w185/x7x4NvDauuQ7HA6psLZYZ6m3zTd.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 2059370,
+   "name": "Jordan Levin",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 62854,
+   "name": "Akiva Schaffer",
+   "photo": "https://image.tmdb.org/t/p/w185/1Om7CQXHoUr4rrVrsmyutDwWfck.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 2537001,
+   "name": "Shelley Zimmerman",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 1351296,
+   "name": "Becky Sloviter",
+   "photo": "https://image.tmdb.org/t/p/w185/yUYGkAIC66BUbaTONybgFPazLEu.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 1561936,
+   "name": "Brin Lukens",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 1272997,
+   "name": "Leo Birenberg",
+   "photo": "https://image.tmdb.org/t/p/w185/dQ9tGEuLaDDoIxijfiUmdXfogiD.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 3219941,
+   "name": "Josh Levine",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 1251186,
+   "name": "Vera Santamaria",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 15
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:35:04.324Z"
+}

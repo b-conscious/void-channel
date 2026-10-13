@@ -1,0 +1,311 @@
+{
+ "show": "Lanterns",
+ "slug": "lanterns",
+ "tmdbId": 95350,
+ "cast": [
+  {
+   "id": 3497,
+   "name": "Kyle Chandler",
+   "photo": "https://image.tmdb.org/t/p/w185/66n7XNj1dyYkzCBWR3Lq8Vz4PJ1.jpg",
+   "character": "Hal Jordan / Halogram",
+   "episodes": 8
+  },
+  {
+   "id": 1763709,
+   "name": "Aaron Pierre",
+   "photo": "https://image.tmdb.org/t/p/w185/hNwZWdT2KxKj1YLbipvtUhNjfAp.jpg",
+   "character": "John Stewart",
+   "episodes": 8
+  },
+  {
+   "id": 9015,
+   "name": "Kelly Macdonald",
+   "photo": "https://image.tmdb.org/t/p/w185/k0yVocTnTMWlNdaeOO7YRViCdhO.jpg",
+   "character": "Sheriff Kerry Kane",
+   "episodes": 8
+  },
+  {
+   "id": 1507385,
+   "name": "J. Alphonse Nicholson",
+   "photo": "https://image.tmdb.org/t/p/w185/3Z0rqaMX65Lh4SFtEZz2cdHUHW5.jpg",
+   "character": "John Stewart Sr. (voice) / John Stewart Sr.",
+   "episodes": 7
+  },
+  {
+   "id": 50095,
+   "name": "Jason Ritter",
+   "photo": "https://image.tmdb.org/t/p/w185/9i4YvUpSlQDzH0U8y5FWXQkaAGf.jpg",
+   "character": "William 'Billy' Macon",
+   "episodes": 6
+  },
+  {
+   "id": 1291890,
+   "name": "Jasmine Cephas Jones",
+   "photo": "https://image.tmdb.org/t/p/w185/qV8SqN2K2zx7A9urjNGo9O7SEuc.jpg",
+   "character": "Bernadette Stewart / Bernadette Stewart (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 2101950,
+   "name": "Michael Ocampo",
+   "photo": "https://image.tmdb.org/t/p/w185/uf55svMbTaiJcQzTabBqpUyW41v.jpg",
+   "character": "Deputy Lopez",
+   "episodes": 4
+  },
+  {
+   "id": 4455,
+   "name": "Ulrich Thomsen",
+   "photo": "https://image.tmdb.org/t/p/w185/qjXAPbuO8CicunlQs07c1fbFG67.jpg",
+   "character": "Thaal Sinestro",
+   "episodes": 4
+  },
+  {
+   "id": 39520,
+   "name": "Garret Dillahunt",
+   "photo": "https://image.tmdb.org/t/p/w185/7wHWTkIhre0j9L9CY2t5VVwg630.jpg",
+   "character": "William 'Will' Macon",
+   "episodes": 4
+  },
+  {
+   "id": 428440,
+   "name": "Poorna Jagannathan",
+   "photo": "https://image.tmdb.org/t/p/w185/o2BQX1tAgo47GGvpBy1k4LQLRs6.jpg",
+   "character": "Zoe Macon",
+   "episodes": 4
+  },
+  {
+   "id": 2407997,
+   "name": "Cary Christopher",
+   "photo": "https://image.tmdb.org/t/p/w185/3ATVXSp6iPM9SaKUvQhI9tfGA5M.jpg",
+   "character": "Young Noah Macon",
+   "episodes": 3
+  },
+  {
+   "id": 6416804,
+   "name": "Cairo Cash Lee",
+   "photo": "https://image.tmdb.org/t/p/w185/7zUYY8CwUAauGlaivzUabPHM5Zq.jpg",
+   "character": "Adolescent John",
+   "episodes": 3
+  },
+  {
+   "id": 350,
+   "name": "Laura Linney",
+   "photo": "https://image.tmdb.org/t/p/w185/6I31xZxo9Hq6T0OhSwCUjHd8jkB.jpg",
+   "character": "Lianna",
+   "episodes": 3
+  },
+  {
+   "id": 85142,
+   "name": "Paul Ben-Victor",
+   "photo": "https://image.tmdb.org/t/p/w185/l7aHF2lKW6VLLFOvMIsVfkCDl1z.jpg",
+   "character": "Antaan (voice) / Antaan",
+   "episodes": 3
+  },
+  {
+   "id": 2254643,
+   "name": "Jim Charmatz",
+   "photo": "https://image.tmdb.org/t/p/w185/jaYOWjOWxleds2bJqzyW50rnhJE.jpg",
+   "character": "Earl Puppeteer",
+   "episodes": 3
+  },
+  {
+   "id": 5989451,
+   "name": "Victor Broadley",
+   "photo": "https://image.tmdb.org/t/p/w185/txUr9XVoaZsy2NKP4QZg2lKg8bw.jpg",
+   "character": "Earl Puppeteer",
+   "episodes": 3
+  },
+  {
+   "id": 3912105,
+   "name": "Shea Pritchard",
+   "photo": "https://image.tmdb.org/t/p/w185/d7yRCVYXRt2cd9hf4bGNNNeVKvM.jpg",
+   "character": "Adolescent Noah Macon",
+   "episodes": 3
+  },
+  {
+   "id": 3886253,
+   "name": "Hannah Christine Shetler",
+   "photo": "https://image.tmdb.org/t/p/w185/gbRIcvJWtqGqaGwQReCzPqTYAKq.jpg",
+   "character": "Maggie",
+   "episodes": 3
+  },
+  {
+   "id": 2153428,
+   "name": "Jared Grimes",
+   "photo": "https://image.tmdb.org/t/p/w185/tZ6iTKdkx1mLZRNgMlrBQOEOq5n.jpg",
+   "character": "Adult Marcus (voice) / Adult Marcus",
+   "episodes": 3
+  },
+  {
+   "id": 155486,
+   "name": "Romeo Brown",
+   "photo": "https://image.tmdb.org/t/p/w185/a9onKWccWQh4xfhbFOj3CkutbDF.jpg",
+   "character": "Adult Aaron / Adult Aaron (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 3558026,
+   "name": "Noah Gibson Slates",
+   "photo": "https://image.tmdb.org/t/p/w185/nYqSyrWJnSydY7hBmAJ0aoOsiQ.jpg",
+   "character": "Adolescent Marcus",
+   "episodes": 2
+  },
+  {
+   "id": 6416805,
+   "name": "Jaylen Lyndon Hunter",
+   "photo": "https://image.tmdb.org/t/p/w185/eXNxhsVOTqWPwoURdju6iPIjca4.jpg",
+   "character": "Adolescent Aaron",
+   "episodes": 2
+  },
+  {
+   "id": 2935238,
+   "name": "John Venable",
+   "photo": "https://image.tmdb.org/t/p/w185/4Ckodxfp026LAhDThhcQSL5gZzt.jpg",
+   "character": "Coach",
+   "episodes": 2
+  },
+  {
+   "id": 51797,
+   "name": "Nathan Fillion",
+   "photo": "https://image.tmdb.org/t/p/w185/aW6vCxkUZtwb6iH2Wf88Uq0XNVv.jpg",
+   "character": "Guy Gardner",
+   "episodes": 2
+  }
+ ],
+ "crew": [
+  {
+   "id": 28974,
+   "name": "Damon Lindelof",
+   "photo": "https://image.tmdb.org/t/p/w185/9V75oRAKiI0chdg1wGh1wPqaXsG.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1258079,
+   "name": "Chris Mundy",
+   "photo": "https://image.tmdb.org/t/p/w185/aEWK5Qo1U896iMsUMd2oY8yso1I.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 2325172,
+   "name": "Tom King",
+   "photo": "https://image.tmdb.org/t/p/w185/no73FbFgWdBB5wU6xEc7WKT8EIs.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 63291,
+   "name": "Ron Schmidt",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 30310,
+   "name": "James Hawes",
+   "photo": "https://image.tmdb.org/t/p/w185/9MmTr9DHvPPcAkRK0ddNxZs0gzS.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 15218,
+   "name": "James Gunn",
+   "photo": "https://image.tmdb.org/t/p/w185/pnKqZub3IlKYbyH9RRTMDOoqEn0.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 52259,
+   "name": "Peter Safran",
+   "photo": "https://image.tmdb.org/t/p/w185/p9gR2taQgpt9FI8lMzZJXfOGrPy.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 2584071,
+   "name": "Stephanie Economou",
+   "photo": "https://image.tmdb.org/t/p/w185/4Zc2XadAVeAfOPuRKG9Q7X1omdV.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 166461,
+   "name": "Stephen Williams",
+   "photo": "https://image.tmdb.org/t/p/w185/cXQOyjxLEaUct5AiXYOiDWjl7F1.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1313885,
+   "name": "Geeta Patel",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1318704,
+   "name": "Alik Sakharov",
+   "photo": "https://image.tmdb.org/t/p/w185/nsawlXcvphwnzz66ULKwMl9sKUx.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1452717,
+   "name": "Justin Britt-Gibson",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1227391,
+   "name": "Vanessa Baden Kelly",
+   "photo": "https://image.tmdb.org/t/p/w185/qywwmAIhNPKJnmwM4qVDjFnmCca.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1852275,
+   "name": "Breannah Gibson",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:34:30.144Z"
+}

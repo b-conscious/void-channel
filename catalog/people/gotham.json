@@ -1,0 +1,325 @@
+{
+ "show": "Gotham",
+ "slug": "gotham",
+ "tmdbId": 60708,
+ "cast": [
+  {
+   "id": 17245,
+   "name": "Ben McKenzie",
+   "photo": "https://image.tmdb.org/t/p/w185/2jlwhOXKakL6gk365u4gPkTtHHi.jpg",
+   "character": "James 'Jim' Gordon",
+   "episodes": 100
+  },
+  {
+   "id": 10825,
+   "name": "Donal Logue",
+   "photo": "https://image.tmdb.org/t/p/w185/5Rj850yVkIqsgCihtZLbkNSHbFb.jpg",
+   "character": "Harvey Bullock",
+   "episodes": 100
+  },
+  {
+   "id": 934173,
+   "name": "David Mazouz",
+   "photo": "https://image.tmdb.org/t/p/w185/jc9RQJQTRWi5lrob8DCSt1sW5N0.jpg",
+   "character": "Bruce Wayne",
+   "episodes": 100
+  },
+  {
+   "id": 28848,
+   "name": "Sean Pertwee",
+   "photo": "https://image.tmdb.org/t/p/w185/j4pAEMhKL5vA61ADrkxxLFtcI4c.jpg",
+   "character": "Alfred Pennyworth",
+   "episodes": 100
+  },
+  {
+   "id": 59262,
+   "name": "Robin Lord Taylor",
+   "photo": "https://image.tmdb.org/t/p/w185/2LgeNkwtyKikKT5vhuXjazdqgzn.jpg",
+   "character": "Oswald Cobblepot",
+   "episodes": 100
+  },
+  {
+   "id": 990300,
+   "name": "Erin Richards",
+   "photo": "https://image.tmdb.org/t/p/w185/uVCvOipf16ifApCqrM5jdL427wu.jpg",
+   "character": "Barbara Kean",
+   "episodes": 100
+  },
+  {
+   "id": 1031380,
+   "name": "Camren Bicondova",
+   "photo": "https://image.tmdb.org/t/p/w185/nOtiXBtuelNf1WdqCBwZ1JSO7gj.jpg",
+   "character": "Selina Kyle",
+   "episodes": 100
+  },
+  {
+   "id": 1367617,
+   "name": "Cory Michael Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/g9mXErE0CiFN8TTWaTCnurpcAeS.jpg",
+   "character": "Edward Nygma",
+   "episodes": 100
+  },
+  {
+   "id": 54882,
+   "name": "Morena Baccarin",
+   "photo": "https://image.tmdb.org/t/p/w185/4gyHyg6FJ1oFczOm5pmMkdEEo2J.jpg",
+   "character": "Leslie Thompkins / Dr. Leslie \"Lee\" Thompkins",
+   "episodes": 67
+  },
+  {
+   "id": 173995,
+   "name": "Drew Powell",
+   "photo": "https://image.tmdb.org/t/p/w185/v3iLHQYKDdd7AI8GOqMwqxhzeMH.jpg",
+   "character": "Solomon Grundy / Butch Gilzean",
+   "episodes": 61
+  },
+  {
+   "id": 51989,
+   "name": "Jessica Lucas",
+   "photo": "https://image.tmdb.org/t/p/w185/nYS2J93VapM1GW5UdqMFqCxVMUv.jpg",
+   "character": "Tabitha Galavan",
+   "episodes": 60
+  },
+  {
+   "id": 172096,
+   "name": "Chris Chalk",
+   "photo": "https://image.tmdb.org/t/p/w185/j8IpJkLTAhalh5Q356VNojcIAtx.jpg",
+   "character": "Lucius Fox",
+   "episodes": 36
+  },
+  {
+   "id": 1463961,
+   "name": "J.W. Cortes",
+   "photo": "https://image.tmdb.org/t/p/w185/qFsvyKuyTEP8yQjk0gckF0c98qd.jpg",
+   "character": "Detective Alvarez / Alvarez",
+   "episodes": 30
+  },
+  {
+   "id": 9575,
+   "name": "Jada Pinkett Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/3RyvVVSlgRbZANDFkYiAsRMaHW.jpg",
+   "character": "Fish Mooney",
+   "episodes": 28
+  },
+  {
+   "id": 19654,
+   "name": "Michael Chiklis",
+   "photo": "https://image.tmdb.org/t/p/w185/pAkKjbzxP6Z6Y5zAGpwmWQo1iji.jpg",
+   "character": "Nathaniel Barnes",
+   "episodes": 27
+  },
+  {
+   "id": 171955,
+   "name": "Zabryna Guevara",
+   "photo": "https://image.tmdb.org/t/p/w185/7NlCmTZoauvyqjNdzTZv2auwOXg.jpg",
+   "character": "Sarah Essen",
+   "episodes": 24
+  },
+  {
+   "id": 37089,
+   "name": "Cameron Monaghan",
+   "photo": "https://image.tmdb.org/t/p/w185/u2nxAlWiFcc8qIjpTppFazl13CR.jpg",
+   "character": "Joker / Jerome Valeska / Jeremiah Valeska",
+   "episodes": 23
+  },
+  {
+   "id": 22063,
+   "name": "James Frain",
+   "photo": "https://image.tmdb.org/t/p/w185/1KnxsxRbVZkh5bdY3gA8v4YKhKR.jpg",
+   "character": "Theo Galavan / Azrael / Theo Galavan",
+   "episodes": 22
+  },
+  {
+   "id": 1675025,
+   "name": "Jerry Dixon",
+   "photo": null,
+   "character": "Mr. Thatch / Mr Thatch",
+   "episodes": 22
+  },
+  {
+   "id": 1949168,
+   "name": "Kelcy Griffin",
+   "photo": "https://image.tmdb.org/t/p/w185/qA7PUW3qwFVmW7gAvhE1UgdqaWC.jpg",
+   "character": "Harper",
+   "episodes": 20
+  },
+  {
+   "id": 4735,
+   "name": "John Doman",
+   "photo": "https://image.tmdb.org/t/p/w185/2HQRXWb6QrUFHJtJrgY8zpLP8u8.jpg",
+   "character": "Carmine Falcone",
+   "episodes": 19
+  },
+  {
+   "id": 1505108,
+   "name": "Chelsea Spack",
+   "photo": "https://image.tmdb.org/t/p/w185/pFrIi04iBIWUVIrpZaFCXJQgj4y.jpg",
+   "character": "Kristen Kringle / Isabella",
+   "episodes": 17
+  },
+  {
+   "id": 1180346,
+   "name": "Anthony Carrigan",
+   "photo": "https://image.tmdb.org/t/p/w185/emyCDFrdEygDB5ySZLwUqk2wkLa.jpg",
+   "character": "Victor Zsasz",
+   "episodes": 17
+  },
+  {
+   "id": 1489818,
+   "name": "Krista Braun",
+   "photo": "https://image.tmdb.org/t/p/w185/6cVv8pd1RQzEgO7Zo9rO1YdeW23.jpg",
+   "character": "Studio Reporter / TV News Reporter / Journalist",
+   "episodes": 17
+  }
+ ],
+ "crew": [
+  {
+   "id": 1211883,
+   "name": "Bruno Heller",
+   "photo": "https://image.tmdb.org/t/p/w185/k33JqtocSqI13tf8QKTLbGQKrL4.jpg",
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1223165,
+   "name": "John Stephens",
+   "photo": "https://image.tmdb.org/t/p/w185/x4147lITTnVMZkTeo2kgY8iJ7xI.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 33279,
+   "name": "Danny Cannon",
+   "photo": "https://image.tmdb.org/t/p/w185/2jPyhdEnrA32MWsWDdQ9FJdz6vR.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1224334,
+   "name": "Rob Bailey",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1216134,
+   "name": "Ken Woodruff",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 209879,
+   "name": "Tze Chun",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 20976,
+   "name": "T.J. Scott",
+   "photo": "https://image.tmdb.org/t/p/w185/2sDOBP18EL5qeGTRt1SUHAIfdWa.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 205641,
+   "name": "Eagle Egilsson",
+   "photo": "https://image.tmdb.org/t/p/w185/dpJLCSX7UECP4UY06lpMAF8GWe.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1214619,
+   "name": "Bryan Wynbrandt",
+   "photo": "https://image.tmdb.org/t/p/w185/zfT8JzFIy4Iy4T9MNXTym9o3VQa.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1232167,
+   "name": "Robert Hull",
+   "photo": "https://image.tmdb.org/t/p/w185/cW2TkGiYbcz4JdTc9o3z4VAgfp3.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1214618,
+   "name": "Steven Lilien",
+   "photo": "https://image.tmdb.org/t/p/w185/9AJwkuI6FhnnuBAMiMVyJzzCdiT.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 11817,
+   "name": "Nathan Hope",
+   "photo": "https://image.tmdb.org/t/p/w185/p6nd6ZgGkdwxqKWao9AlksvFPis.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1224408,
+   "name": "Louis Shaw Milito",
+   "photo": "https://image.tmdb.org/t/p/w185/br0wV5EuB07p6XifA8ENWCmlDtQ.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1437872,
+   "name": "Seth Boston",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1505107,
+   "name": "Megan Mostyn-Brown",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 139651,
+   "name": "Nick Copus",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:07.103Z"
+}

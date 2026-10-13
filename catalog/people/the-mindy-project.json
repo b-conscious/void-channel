@@ -1,0 +1,333 @@
+{
+ "show": "The Mindy Project",
+ "slug": "the-mindy-project",
+ "tmdbId": 44857,
+ "cast": [
+  {
+   "id": 125167,
+   "name": "Mindy Kaling",
+   "photo": "https://image.tmdb.org/t/p/w185/m4veWEp9TEDallTZRobb7MLkd9K.jpg",
+   "character": "Dr. Mindy Lahiri",
+   "episodes": 117
+  },
+  {
+   "id": 1256415,
+   "name": "Ed Weeks",
+   "photo": "https://image.tmdb.org/t/p/w185/axfAQF3mzQyzqKK5bAppfao312o.jpg",
+   "character": "Dr. Jeremy Reed",
+   "episodes": 117
+  },
+  {
+   "id": 198150,
+   "name": "Ike Barinholtz",
+   "photo": "https://image.tmdb.org/t/p/w185/pxK1HXsQFfh3zT1KA3t6lEKMiZK.jpg",
+   "character": "Morgan Tookers",
+   "episodes": 117
+  },
+  {
+   "id": 5151,
+   "name": "Beth Grant",
+   "photo": "https://image.tmdb.org/t/p/w185/6THLoPYhIu422TqUmQDgnQRfYxA.jpg",
+   "character": "Beverly",
+   "episodes": 104
+  },
+  {
+   "id": 61659,
+   "name": "Chris Messina",
+   "photo": "https://image.tmdb.org/t/p/w185/l9DbQTK5pI6SOGpmfbADGLhdOYS.jpg",
+   "character": "Dr. Danny Castellano",
+   "episodes": 98
+  },
+  {
+   "id": 109565,
+   "name": "Xosha Roquemore",
+   "photo": "https://image.tmdb.org/t/p/w185/k596seeX26xKN8bZ3Uir9zFJ2gS.jpg",
+   "character": "Tamra Webb",
+   "episodes": 96
+  },
+  {
+   "id": 1183672,
+   "name": "Fortune Feimster",
+   "photo": "https://image.tmdb.org/t/p/w185/9f2p2T61K4pIvKQMLRlow8znkXU.jpg",
+   "character": "Colette Kimball-Kinney",
+   "episodes": 50
+  },
+  {
+   "id": 39520,
+   "name": "Garret Dillahunt",
+   "photo": "https://image.tmdb.org/t/p/w185/7wHWTkIhre0j9L9CY2t5VVwg630.jpg",
+   "character": "Dr. Jody Kimball-Kinney",
+   "episodes": 50
+  },
+  {
+   "id": 115974,
+   "name": "Adam Pally",
+   "photo": "https://image.tmdb.org/t/p/w185/yY13PEaVbPoXT5MkitVxTfdAZnU.jpg",
+   "character": "Dr. Peter Prentice",
+   "episodes": 49
+  },
+  {
+   "id": 1256416,
+   "name": "Zoë Jarman",
+   "photo": "https://image.tmdb.org/t/p/w185/A1MVZS3qiEBCaIbXuRmwZCUDQFg.jpg",
+   "character": "Betsy Putch",
+   "episodes": 40
+  },
+  {
+   "id": 1256414,
+   "name": "Amanda Setton",
+   "photo": "https://image.tmdb.org/t/p/w185/yDEe610GC9DXSlT7jAm8UO2M6j6.jpg",
+   "character": "Shauna Dicanio",
+   "episodes": 24
+  },
+  {
+   "id": 1369367,
+   "name": "Rebecca Rittenhouse",
+   "photo": "https://image.tmdb.org/t/p/w185/jQMrD7E4FCEBOD8tqQsi6q5FwH.jpg",
+   "character": "Dr. Anna Ziev",
+   "episodes": 24
+  },
+  {
+   "id": 45407,
+   "name": "Mark Duplass",
+   "photo": "https://image.tmdb.org/t/p/w185/lRDf99rAfcdqt8Cqk4LsIT7XSD2.jpg",
+   "character": "Brendan Deslaurier",
+   "episodes": 22
+  },
+  {
+   "id": 24203,
+   "name": "Rhea Perlman",
+   "photo": "https://image.tmdb.org/t/p/w185/4S4PdeHea2pePiWHy8MlDODZRLP.jpg",
+   "character": "Annette Castellano",
+   "episodes": 17
+  },
+  {
+   "id": 4734,
+   "name": "Jenny O'Hara",
+   "photo": "https://image.tmdb.org/t/p/w185/cNEu7MMpO2dAtZazIbxjo45oH3j.jpg",
+   "character": "Dot",
+   "episodes": 17
+  },
+  {
+   "id": 23821,
+   "name": "Bryan Greenberg",
+   "photo": "https://image.tmdb.org/t/p/w185/qRv8XPsqxCmR70oAmNbU5iUIkUo.jpg",
+   "character": "Ben",
+   "episodes": 14
+  },
+  {
+   "id": 521563,
+   "name": "Anders Holm",
+   "photo": "https://image.tmdb.org/t/p/w185/fgH6wEjj5tzEUcncUifBRVuidug.jpg",
+   "character": "Casey Peerson",
+   "episodes": 14
+  },
+  {
+   "id": 45405,
+   "name": "Jay Duplass",
+   "photo": "https://image.tmdb.org/t/p/w185/eUY0JDlqzf5pE9pmdvv4IPU3NYn.jpg",
+   "character": "Duncan Deslaurier",
+   "episodes": 13
+  },
+  {
+   "id": 221098,
+   "name": "Anna Camp",
+   "photo": "https://image.tmdb.org/t/p/w185/32H0SJbTK3tvLVgf3X1aiaUdcxe.jpg",
+   "character": "Gwen Grandy",
+   "episodes": 13
+  },
+  {
+   "id": 77870,
+   "name": "Glenn Howerton",
+   "photo": "https://image.tmdb.org/t/p/w185/r3KJd0Ea7lyrAHWl2Ww8lMh29hx.jpg",
+   "character": "Cliff Gilbert",
+   "episodes": 13
+  },
+  {
+   "id": 1237538,
+   "name": "Tracey Wigfield",
+   "photo": "https://image.tmdb.org/t/p/w185/fy99MUs2jiy5gXQpRnlu8Q5NJZ2.jpg",
+   "character": "Dr. Lauren Neustadter / Tracey",
+   "episodes": 13
+  },
+  {
+   "id": 180789,
+   "name": "Tommy Dewey",
+   "photo": "https://image.tmdb.org/t/p/w185/piIRDfyUEpgBL651qZmmrGx4Vhg.jpg",
+   "character": "Josh Daniels",
+   "episodes": 11
+  },
+  {
+   "id": 929511,
+   "name": "Utkarsh Ambudkar",
+   "photo": "https://image.tmdb.org/t/p/w185/vUW5bFrkjWikNFzh5B6F11r5C3X.jpg",
+   "character": "Rishi Lahiri",
+   "episodes": 10
+  },
+  {
+   "id": 45422,
+   "name": "Tipper Newton",
+   "photo": "https://image.tmdb.org/t/p/w185/eTe3mMQuGkwdEeS6aW4M8dm6NuT.jpg",
+   "character": "Karen Simmons",
+   "episodes": 10
+  }
+ ],
+ "crew": [
+  {
+   "id": 125167,
+   "name": "Mindy Kaling",
+   "photo": "https://image.tmdb.org/t/p/w185/m4veWEp9TEDallTZRobb7MLkd9K.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 77
+  },
+  {
+   "id": 157771,
+   "name": "Charles McDougall",
+   "photo": "https://image.tmdb.org/t/p/w185/ty4SFTBrT7g2j9ywxuwCbpmKdND.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 117
+  },
+  {
+   "id": 107770,
+   "name": "B.J. Novak",
+   "photo": "https://image.tmdb.org/t/p/w185/o8Xf1khxhKGTz3QAplXD35opRA8.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 117
+  },
+  {
+   "id": 1213739,
+   "name": "Jack Burditt",
+   "photo": "https://image.tmdb.org/t/p/w185/2g9EPFt6LbhazHQZNdIJE1TXwac.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 117
+  },
+  {
+   "id": 1889145,
+   "name": "Jesse Novak",
+   "photo": "https://image.tmdb.org/t/p/w185/g3XorntMcr7QWfnsbW22Da8KYBp.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 117
+  },
+  {
+   "id": 65506,
+   "name": "Michael Spiller",
+   "photo": "https://image.tmdb.org/t/p/w185/qpK5EijOHIjGpFMSdHsEXOV8v53.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 77
+  },
+  {
+   "id": 1216648,
+   "name": "Matt Warburton",
+   "photo": "https://image.tmdb.org/t/p/w185/m5AIelUSChBM4pMIyUBVn4jv6PF.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 77
+  },
+  {
+   "id": 58274,
+   "name": "Howard Klein",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 77
+  },
+  {
+   "id": 1237538,
+   "name": "Tracey Wigfield",
+   "photo": "https://image.tmdb.org/t/p/w185/fy99MUs2jiy5gXQpRnlu8Q5NJZ2.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 1226276,
+   "name": "Charlie Grandy",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 1282191,
+   "name": "Michael Weaver",
+   "photo": "https://image.tmdb.org/t/p/w185/31LSGMcDwV2mPmMcnUs1QjpAfeA.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1532801,
+   "name": "Lang Fisher",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1532800,
+   "name": "David Rogers",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1532806,
+   "name": "Chris Schleicher",
+   "photo": "https://image.tmdb.org/t/p/w185/l8myQZdY7iE85juI4RrLITiBW2X.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1241327,
+   "name": "Jeremy Bronson",
+   "photo": "https://image.tmdb.org/t/p/w185/flKAKoElIl0pEElZzkL8wDVWW13.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1394059,
+   "name": "Marco Fargnoli",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:35:26.849Z"
+}

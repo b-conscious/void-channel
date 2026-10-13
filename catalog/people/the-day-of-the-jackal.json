@@ -1,0 +1,307 @@
+{
+ "show": "The Day of the Jackal",
+ "slug": "the-day-of-the-jackal",
+ "tmdbId": 222766,
+ "cast": [
+  {
+   "id": 37632,
+   "name": "Eddie Redmayne",
+   "photo": "https://image.tmdb.org/t/p/w185/fSvG7qzoBBnJUmgtIuMgrK3EQPN.jpg",
+   "character": "The Jackal",
+   "episodes": 10
+  },
+  {
+   "id": 1360281,
+   "name": "Lashana Lynch",
+   "photo": "https://image.tmdb.org/t/p/w185/ypNxRag9uJ5nzPAN2um3amQK340.jpg",
+   "character": "Bianca Pullman",
+   "episodes": 10
+  },
+  {
+   "id": 62976,
+   "name": "Eleanor Matsuura",
+   "photo": "https://image.tmdb.org/t/p/w185/8PTKH2LHXVxoxPm4kULlQ0OdwTg.jpg",
+   "character": "Zina Jansone",
+   "episodes": 10
+  },
+  {
+   "id": 105238,
+   "name": "Chukwudi Iwuji",
+   "photo": "https://image.tmdb.org/t/p/w185/5JILtFNmAmA8T4gRQrO5sn8krDv.jpg",
+   "character": "Osita Halcrow",
+   "episodes": 10
+  },
+  {
+   "id": 1042728,
+   "name": "Úrsula Corberó",
+   "photo": "https://image.tmdb.org/t/p/w185/cmH8Z459tw9YkR61QfxlCSlZw9P.jpg",
+   "character": "Nuria",
+   "episodes": 10
+  },
+  {
+   "id": 5246643,
+   "name": "Adoney Díaz Barajas",
+   "photo": null,
+   "character": "Carlitos",
+   "episodes": 10
+  },
+  {
+   "id": 5556319,
+   "name": "David Gojković",
+   "photo": null,
+   "character": "Bodyguard",
+   "episodes": 10
+  },
+  {
+   "id": 2230625,
+   "name": "Ben Hall",
+   "photo": "https://image.tmdb.org/t/p/w185/35CKsIynlnaC6OgrbI2usQ6ASnZ.jpg",
+   "character": "Damian Richardson",
+   "episodes": 9
+  },
+  {
+   "id": 1380713,
+   "name": "Jon Arias",
+   "photo": "https://image.tmdb.org/t/p/w185/pdFte8b2cgGNimWlXKeCDaYufzS.jpg",
+   "character": "Álvaro",
+   "episodes": 8
+  },
+  {
+   "id": 65890,
+   "name": "Lia Williams",
+   "photo": "https://image.tmdb.org/t/p/w185/d7BIswSeHeAdIobNjsWEFG2uj1H.jpg",
+   "character": "Isabel Kirby",
+   "episodes": 8
+  },
+  {
+   "id": 2671413,
+   "name": "Florisa Kamara",
+   "photo": "https://image.tmdb.org/t/p/w185/w4CayNiu6azOaPwilgpoQrQJuUO.jpg",
+   "character": "Jasmine Pullman",
+   "episodes": 7
+  },
+  {
+   "id": 53480,
+   "name": "Khalid Abdalla",
+   "photo": "https://image.tmdb.org/t/p/w185/iYRhheaol1T19Qy8a8pTIPk9COK.jpg",
+   "character": "Ulle Dag Charles",
+   "episodes": 7
+  },
+  {
+   "id": 1211217,
+   "name": "Sule Rimi",
+   "photo": "https://image.tmdb.org/t/p/w185/wrcTxNLEkSB8EsboxFYbHv3mYuc.jpg",
+   "character": "Paul Pullman",
+   "episodes": 7
+  },
+  {
+   "id": 17199,
+   "name": "Corey Johnson",
+   "photo": "https://image.tmdb.org/t/p/w185/mhNbf4vGzixPL5mTIOBUPguqvpB.jpg",
+   "character": "Doug Wojack",
+   "episodes": 6
+  },
+  {
+   "id": 1612721,
+   "name": "Christy Meyer",
+   "photo": "https://image.tmdb.org/t/p/w185/abJUb0FtGxhNi6VZuBZosirfDbx.jpg",
+   "character": "Leonora Boggs",
+   "episodes": 6
+  },
+  {
+   "id": 14432,
+   "name": "Patrick Kennedy",
+   "photo": "https://image.tmdb.org/t/p/w185/Aj7lwhi4rYfzP5OZJiem5w72re8.jpg",
+   "character": "Teddy",
+   "episodes": 6
+  },
+  {
+   "id": 222052,
+   "name": "Nick Blood",
+   "photo": "https://image.tmdb.org/t/p/w185/fHUqQMIXvsiibL2X0cuwONw0OZl.jpg",
+   "character": "Vince Pyne",
+   "episodes": 6
+  },
+  {
+   "id": 4391,
+   "name": "Charles Dance",
+   "photo": "https://image.tmdb.org/t/p/w185/pKiXMCLf0uHQNwQPCjSNrjsUiJO.jpg",
+   "character": "Timothy Winthrop",
+   "episodes": 6
+  },
+  {
+   "id": 215460,
+   "name": "Jonjo O'Neill",
+   "photo": "https://image.tmdb.org/t/p/w185/obFPEAqPXCUkfroc2kcxxpfzmUG.jpg",
+   "character": "Edward Carver",
+   "episodes": 5
+  },
+  {
+   "id": 5046985,
+   "name": "Adonay Barajas",
+   "photo": null,
+   "character": "Carlito",
+   "episodes": 5
+  },
+  {
+   "id": 5046986,
+   "name": "Saul Barajas",
+   "photo": null,
+   "character": "Carlito",
+   "episodes": 5
+  },
+  {
+   "id": 82854,
+   "name": "Patrick O'Kane",
+   "photo": "https://image.tmdb.org/t/p/w185/hCUhC8z61JhYOGRz7AfQTnQrXry.jpg",
+   "character": "Larry Stoke",
+   "episodes": 5
+  },
+  {
+   "id": 36901,
+   "name": "Martin McDougall",
+   "photo": "https://image.tmdb.org/t/p/w185/sqosciocBl1OgQmnBXjSOafDvpt.jpg",
+   "character": "Keith Canvey",
+   "episodes": 5
+  },
+  {
+   "id": 1456033,
+   "name": "Puchi Lagarde",
+   "photo": "https://image.tmdb.org/t/p/w185/sExdWDjiE1QdUSnRmQfhgkSHBDf.jpg",
+   "character": "Marisa",
+   "episodes": 5
+  }
+ ],
+ "crew": [
+  {
+   "id": 84665,
+   "name": "Ronan Bennett",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 93223,
+   "name": "Brian Kirk",
+   "photo": "https://image.tmdb.org/t/p/w185/6GDT6T9E3vvJTsBDHe2XgGwcG6y.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1866852,
+   "name": "Sue Naegle",
+   "photo": "https://image.tmdb.org/t/p/w185/u2uQjqdZYOBqsDttDiQTB2VWZqa.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 943340,
+   "name": "Gareth Neame",
+   "photo": "https://image.tmdb.org/t/p/w185/jx1VSzBzrOoLJjepcVlN02IJaxl.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 2631702,
+   "name": "Sam Hoyle",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 37632,
+   "name": "Eddie Redmayne",
+   "photo": "https://image.tmdb.org/t/p/w185/fSvG7qzoBBnJUmgtIuMgrK3EQPN.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1252497,
+   "name": "Nigel Marchant",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1023809,
+   "name": "Volker Bertelmann",
+   "photo": "https://image.tmdb.org/t/p/w185/6iZPE8RAh3twac8yHYPWRpWWPZ9.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 236376,
+   "name": "Paul Wilmshurst",
+   "photo": "https://image.tmdb.org/t/p/w185/iV8F0GJPIAz5pPqf5kDtBNS1ndY.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1252909,
+   "name": "Anthony Philipson",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1646407,
+   "name": "Anu Menon",
+   "photo": "https://image.tmdb.org/t/p/w185/sORiYChAjDmIu2mAoA0dncecyMB.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 2806478,
+   "name": "Shyam Popat",
+   "photo": "https://image.tmdb.org/t/p/w185/vWn0NK5EG8zVOm2RaohqwwxB48W.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 2452930,
+   "name": "Charles Cumming",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 2293899,
+   "name": "Jessica Sinyard",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:58.512Z"
+}

@@ -1,0 +1,323 @@
+{
+ "show": "Monogatari",
+ "slug": "monogatari",
+ "tmdbId": 46195,
+ "cast": [
+  {
+   "id": 93801,
+   "name": "Hiroshi Kamiya",
+   "photo": "https://image.tmdb.org/t/p/w185/5aAAOlQ2hW5EqEQOzk4UeroxcTN.jpg",
+   "character": "Koyomi Araragi (voice)",
+   "episodes": 73
+  },
+  {
+   "id": 81245,
+   "name": "Chiwa Saito",
+   "photo": "https://image.tmdb.org/t/p/w185/jxWuA4K0ZPkOQMeIgLlzaHSkgiV.jpg",
+   "character": "Hitagi Senjougahara (voice)",
+   "episodes": 73
+  },
+  {
+   "id": 9711,
+   "name": "Maaya Sakamoto",
+   "photo": "https://image.tmdb.org/t/p/w185/jcjTJbxN3rYOtjSJihvbygvEFFZ.jpg",
+   "character": "Shinobu Oshino / Kiss-shot Acerola-orion Heart-under-blade (voice)",
+   "episodes": 73
+  },
+  {
+   "id": 112205,
+   "name": "Satsuki Yukino",
+   "photo": "https://image.tmdb.org/t/p/w185/fb9LqdOZPNjlXq3uHriBOmIe2WP.jpg",
+   "character": "Izuko Gaen (voice)",
+   "episodes": 73
+  },
+  {
+   "id": 186341,
+   "name": "Miyuki Sawashiro",
+   "photo": "https://image.tmdb.org/t/p/w185/11mGqwpmu8CoEy1YJgabj2g7MIv.jpg",
+   "character": "Suruga Kanbaru (voice)",
+   "episodes": 73
+  },
+  {
+   "id": 202806,
+   "name": "Yui Horie",
+   "photo": "https://image.tmdb.org/t/p/w185/73yQlMWaiOMrhvPCNyOCbbCkILZ.jpg",
+   "character": "Tsubasa Hanekawa / Black Hanekawa (voice) / Tsubasa Hanekawa (voice)",
+   "episodes": 73
+  },
+  {
+   "id": 119143,
+   "name": "Kana Hanazawa",
+   "photo": "https://image.tmdb.org/t/p/w185/9UTBlNRopSOKyoWnCm74tyHOfR1.jpg",
+   "character": "Nadeko Sengoku (voice)",
+   "episodes": 49
+  },
+  {
+   "id": 221773,
+   "name": "Saori Hayami",
+   "photo": "https://image.tmdb.org/t/p/w185/gLv9lO7dlUbIsmyJUvgegqAAXki.jpg",
+   "character": "Yotsugi Ononoki (voice)",
+   "episodes": 46
+  },
+  {
+   "id": 225999,
+   "name": "Eri Kitamura",
+   "photo": "https://image.tmdb.org/t/p/w185/oZuKOoiqUsZZcgO5wqlUoZQUPfw.jpg",
+   "character": "Karen Araragi (voice)",
+   "episodes": 45
+  },
+  {
+   "id": 1242005,
+   "name": "Yuka Iguchi",
+   "photo": "https://image.tmdb.org/t/p/w185/38ZjRGBLD4lvfU3mSMyIBCIq85D.jpg",
+   "character": "Tsukihi Araragi (voice)",
+   "episodes": 45
+  },
+  {
+   "id": 1157126,
+   "name": "Emiri Kato",
+   "photo": "https://image.tmdb.org/t/p/w185/m0zqjeg65sEe5TTy4mKqgwXVipI.jpg",
+   "character": "Mayoi Hachikuji (voice)",
+   "episodes": 38
+  },
+  {
+   "id": 62318,
+   "name": "Shin-ichiro Miki",
+   "photo": "https://image.tmdb.org/t/p/w185/yL9Tx2HZgK7t5AssYl6oGE9bjdj.jpg",
+   "character": "Deishuu Kaiki (voice)",
+   "episodes": 34
+  },
+  {
+   "id": 230472,
+   "name": "Ryoko Shiraishi",
+   "photo": "https://image.tmdb.org/t/p/w185/9HiasuMo5zn0nOGLcFJGQ5VvjWy.jpg",
+   "character": "Yozuru Kagenui (voice)",
+   "episodes": 34
+  },
+  {
+   "id": 9705,
+   "name": "Takahiro Sakurai",
+   "photo": "https://image.tmdb.org/t/p/w185/8s8owcKmpRAuhzEGjSdRpztthUg.jpg",
+   "character": "Meme Oshino (voice)",
+   "episodes": 30
+  },
+  {
+   "id": 77934,
+   "name": "Fumihiko Tachiki",
+   "photo": "https://image.tmdb.org/t/p/w185/9nHFGrvdT5c4klZOiFQElybNy7h.jpg",
+   "character": "Senjougahara's Father (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 553282,
+   "name": "Yasunori Matsumoto",
+   "photo": "https://image.tmdb.org/t/p/w185/12vPpqoppN12i3Zk313dwQsUQYi.jpg",
+   "character": "Mayoi's Father (voice)",
+   "episodes": 23
+  },
+  {
+   "id": 81860,
+   "name": "Ai Orikasa",
+   "photo": "https://image.tmdb.org/t/p/w185/6ztt20jMc4oprKbixp2sNrR2ykK.jpg",
+   "character": "Araragi's Mother (voice)",
+   "episodes": 23
+  },
+  {
+   "id": 1244459,
+   "name": "Kaoru Morota",
+   "photo": "https://image.tmdb.org/t/p/w185/uT8Nevdu3w3lhH9mghlfdjZ34Dm.jpg",
+   "character": "Mayoi's Mother (voice)",
+   "episodes": 23
+  },
+  {
+   "id": 126286,
+   "name": "Mitsuki Saiga",
+   "photo": "https://image.tmdb.org/t/p/w185/qjRHodCBpKY8nEa4p8dZriDoil4.jpg",
+   "character": "Kako (voice)",
+   "episodes": 23
+  },
+  {
+   "id": 90565,
+   "name": "Ken Narita",
+   "photo": "https://image.tmdb.org/t/p/w185/7fuRQk5eUp0MWQxxkw15RM1KxQM.jpg",
+   "character": "Sasayubu-sensei (voice)",
+   "episodes": 23
+  },
+  {
+   "id": 1264228,
+   "name": "Yoji Ueda",
+   "photo": "https://image.tmdb.org/t/p/w185/fHvIfE0Q7ab0DFlkNVFcXvTKX9y.jpg",
+   "character": "Kuchinawa (voice)",
+   "episodes": 23
+  },
+  {
+   "id": 1154451,
+   "name": "Miho Miyagawa",
+   "photo": "https://image.tmdb.org/t/p/w185/leC9TNfgmz5qn5mdNlkLvg4hyPs.jpg",
+   "character": "Nadeko's Mother (voice)",
+   "episodes": 23
+  },
+  {
+   "id": 90135,
+   "name": "Marina Inoue",
+   "photo": "https://image.tmdb.org/t/p/w185/f7PuEx1h2g4FLgMzk9wCrWuS9Eu.jpg",
+   "character": "Sodachi Oikura (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 1239110,
+   "name": "Kaori Mizuhashi",
+   "photo": "https://image.tmdb.org/t/p/w185/eDhVZ9en7T4lvsQ99OkRizroSQd.jpg",
+   "character": "Ougi Oshino (voice)",
+   "episodes": 12
+  }
+ ],
+ "crew": [
+  {
+   "id": 555094,
+   "name": "Akiyuki Shinbo",
+   "photo": "https://image.tmdb.org/t/p/w185/qnxNxYp4aSUuzLCxjsQ3JUiQ5Cs.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 81
+  },
+  {
+   "id": 1481571,
+   "name": "Fuyashi Tou",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 57
+  },
+  {
+   "id": 144660,
+   "name": "Satoru Kosaki",
+   "photo": "https://image.tmdb.org/t/p/w185/ljFbkqKhwq7QoK0Ir0W4F74Plrp.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 47
+  },
+  {
+   "id": 1366249,
+   "name": "Tomoyuki Itamura",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 42
+  },
+  {
+   "id": 2039515,
+   "name": "Yukito Kizawa",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 27
+  },
+  {
+   "id": 1518676,
+   "name": "Tatsuya Oishi",
+   "photo": "https://image.tmdb.org/t/p/w185/hZAid2eaUpaPs87nMvqvSqY2Mtd.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 1307315,
+   "name": "Kei Haneoka",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1481687,
+   "name": "Kenjirou Okada",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1481756,
+   "name": "Naoyuki Tatsuwa",
+   "photo": "https://image.tmdb.org/t/p/w185/hnvyLfMP4BEWJi7k2iKw9juYirA.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 2162070,
+   "name": "Toshimasa Suzuki",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1252958,
+   "name": "Yukihiro Miyamoto",
+   "photo": "https://image.tmdb.org/t/p/w185/dhhgqt2K7MyBwaSAfCg4JRDfkTl.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1481799,
+   "name": "Yuki Yase",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1481734,
+   "name": "Sumito Sasaki",
+   "photo": "https://image.tmdb.org/t/p/w185/yUGyAR0TEqU1Yn1FxSTozocIZ5A.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1627364,
+   "name": "Yoshito Mikamo",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1885025,
+   "name": "Shunsuke Ishikawa",
+   "photo": "https://image.tmdb.org/t/p/w185/wLhbaY4oEljkV1mcpXDrkFh5bs9.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1481805,
+   "name": "Eiichi Kuboyama",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:39:17.941Z"
+}

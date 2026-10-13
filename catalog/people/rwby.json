@@ -1,0 +1,262 @@
+{
+ "show": "RWBY",
+ "slug": "rwby",
+ "tmdbId": 50137,
+ "cast": [
+  {
+   "id": 1293390,
+   "name": "Lindsay Jones",
+   "photo": "https://image.tmdb.org/t/p/w185/yZ1IZIHrgSNKEtDVAAynwYW5aTh.jpg",
+   "character": "Ruby Rose (voice)",
+   "episodes": 116
+  },
+  {
+   "id": 1293393,
+   "name": "Kara Eberle",
+   "photo": "https://image.tmdb.org/t/p/w185/1yAZuOLwBvKAVPcRtKuEMtzqxbd.jpg",
+   "character": "Weiss Schnee (voice)",
+   "episodes": 116
+  },
+  {
+   "id": 1293394,
+   "name": "Arryn Zech",
+   "photo": "https://image.tmdb.org/t/p/w185/6k68J5wBTDcgaApPZ180rpHm0I1.jpg",
+   "character": "Blake Belladonna (voice)",
+   "episodes": 116
+  },
+  {
+   "id": 1293391,
+   "name": "Barbara Dunkelman",
+   "photo": "https://image.tmdb.org/t/p/w185/zTh9JZXqZ9W7UoWoCUmGfaFbVT3.jpg",
+   "character": "Yang Xiao Long (voice)",
+   "episodes": 116
+  },
+  {
+   "id": 1335252,
+   "name": "Samantha Ireland",
+   "photo": "https://image.tmdb.org/t/p/w185/9GkFhJh20byH7TdiKdlCZrnEEzS.jpg",
+   "character": "Nora Valkyrie (voice)",
+   "episodes": 106
+  },
+  {
+   "id": 1293392,
+   "name": "Miles Luna",
+   "photo": null,
+   "character": "Jaune Arc (voice) / White Fang Goon #1 (voice)",
+   "episodes": 106
+  },
+  {
+   "id": 1591796,
+   "name": "Neath Oum",
+   "photo": "https://image.tmdb.org/t/p/w185/mubAcWvg49QyzB1IqeUjzP941kz.jpg",
+   "character": "Lie Ren (voice)",
+   "episodes": 78
+  },
+  {
+   "id": 2747639,
+   "name": "Aaron Dismuke",
+   "photo": "https://image.tmdb.org/t/p/w185/5b4BLHSB8DbsSXfBB7eVTcHCfRf.jpg",
+   "character": "Oscar Pine (voice)",
+   "episodes": 51
+  },
+  {
+   "id": 1293395,
+   "name": "Jen Brown",
+   "photo": "https://image.tmdb.org/t/p/w185/qXHWCA3AM9vjwPNsIJZy1JGk45m.jpg",
+   "character": "Red-Haired Woman (voice) / Lisa Lavender (voice) / Pyrrha Nikos (voice)",
+   "episodes": 43
+  },
+  {
+   "id": 1615336,
+   "name": "Jessica Nigri",
+   "photo": "https://image.tmdb.org/t/p/w185/i7RuvA0oLOZkScjRCJidPDGNrHB.jpg",
+   "character": "Cinder Fall (voice)",
+   "episodes": 43
+  },
+  {
+   "id": 963940,
+   "name": "Vic Mignogna",
+   "photo": "https://image.tmdb.org/t/p/w185/hBdAgz6a2maaVT7raDRox7rnnB8.jpg",
+   "character": "Qrow Branwen (voice)",
+   "episodes": 37
+  },
+  {
+   "id": 227950,
+   "name": "Shannon McCormick",
+   "photo": "https://image.tmdb.org/t/p/w185/4N9QRqzD4J6RsxDAD6KBfXK06Oy.jpg",
+   "character": "Ozma (voice) / Professor Ozpin (voice)",
+   "episodes": 36
+  },
+  {
+   "id": 1386699,
+   "name": "Jason Rose",
+   "photo": "https://image.tmdb.org/t/p/w185/un1limrlP1Gwwae6KmRpNmpQ9ji.jpg",
+   "character": "James Ironwood (voice)",
+   "episodes": 35
+  },
+  {
+   "id": 1427728,
+   "name": "Katie Newville",
+   "photo": "https://image.tmdb.org/t/p/w185/i8bGcPmV3b89X6N9QpD75i9jJfa.jpg",
+   "character": "Emerald Sustrai (voice)",
+   "episodes": 33
+  },
+  {
+   "id": 1262854,
+   "name": "Michael Jones",
+   "photo": "https://image.tmdb.org/t/p/w185/o7QtykT3XCbxrQc5cqfyjdbwEov.jpg",
+   "character": "Sun Wukong (voice)",
+   "episodes": 30
+  },
+  {
+   "id": 1259093,
+   "name": "Monty Oum",
+   "photo": "https://image.tmdb.org/t/p/w185/eQpcvJK8s1lC24P80FVDG6gUdHl.jpg",
+   "character": "Lie Ren (voice)",
+   "episodes": 28
+  },
+  {
+   "id": 1752654,
+   "name": "Taylor McNee",
+   "photo": "https://image.tmdb.org/t/p/w185/3SQkk87AoW67kZWXU3EMmaJIOsw.jpg",
+   "character": "Penny Polendina (voice)",
+   "episodes": 28
+  },
+  {
+   "id": 1387233,
+   "name": "William Orendorff",
+   "photo": "https://image.tmdb.org/t/p/w185/u8NvZR9EWgCWYbMLtftu9nRDGa0.jpg",
+   "character": "Hazel Rainart (voice) / Grimm (voice)",
+   "episodes": 26
+  },
+  {
+   "id": 1615335,
+   "name": "Elizabeth Maxwell",
+   "photo": "https://image.tmdb.org/t/p/w185/w2kfeEoYIOhyZE6js7G0Y4MoxqZ.jpg",
+   "character": "Winter Schnee (voice)",
+   "episodes": 22
+  },
+  {
+   "id": 127387,
+   "name": "Yuri Lowenthal",
+   "photo": "https://image.tmdb.org/t/p/w185/aLgXm0kbbIC8I5OBmnsK8TgVKwy.jpg",
+   "character": "Mercury Black (voice)",
+   "episodes": 21
+  },
+  {
+   "id": 2039684,
+   "name": "Anairis Quinones",
+   "photo": "https://image.tmdb.org/t/p/w185/iVpt3snYDQ8BkBcn4eZKsesCHQr.jpg",
+   "character": "Harriet Bree / Councilwoman Camilla (voice) / Councilwoman Camilla (voice) / Harriet Bree (voice)",
+   "episodes": 21
+  },
+  {
+   "id": 1863341,
+   "name": "Christopher Sabat",
+   "photo": "https://image.tmdb.org/t/p/w185/zRvkaz4evJpsb9XDBNFjyeSpHx7.jpg",
+   "character": "Dr. Arthur Watts (voice)",
+   "episodes": 20
+  },
+  {
+   "id": 1298793,
+   "name": "Mick Lauer",
+   "photo": "https://image.tmdb.org/t/p/w185/gE18SWyqRjbfuAfNi5Al2M122pL.jpg",
+   "character": "Marrow Amin (voice)",
+   "episodes": 19
+  },
+  {
+   "id": 4470492,
+   "name": "Melissa Sternenberg",
+   "photo": null,
+   "character": "Maria Calavera (voice)",
+   "episodes": 18
+  }
+ ],
+ "crew": [
+  {
+   "id": 1259093,
+   "name": "Monty Oum",
+   "photo": "https://image.tmdb.org/t/p/w185/eQpcvJK8s1lC24P80FVDG6gUdHl.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Writer"
+   ],
+   "episodes": 116
+  },
+  {
+   "id": 1262836,
+   "name": "Kerry Shawcross",
+   "photo": "https://image.tmdb.org/t/p/w185/m9VslXOCwLVYPQpnedlZqA21zuN.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 116
+  },
+  {
+   "id": 1293392,
+   "name": "Miles Luna",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 116
+  },
+  {
+   "id": 4041683,
+   "name": "Kiersi Burkhart",
+   "photo": "https://image.tmdb.org/t/p/w185/8uvQXXVIijdfly3iXIQ72jfu7GG.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1788455,
+   "name": "Dustin Matthews",
+   "photo": "https://image.tmdb.org/t/p/w185/g09FjB01551eVZPkyapp6yy60ff.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1394366,
+   "name": "Eddy Rivas",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1749994,
+   "name": "Yssa Badiola",
+   "photo": "https://image.tmdb.org/t/p/w185/a9j7T48vb6Relfr7WgKh41C2cw7.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 2834034,
+   "name": "Paola Decanini",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 2977988,
+   "name": "Connor Pickens",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:37:32.478Z"
+}

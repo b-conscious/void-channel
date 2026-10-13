@@ -1,0 +1,328 @@
+{
+ "show": "Tracker",
+ "slug": "tracker",
+ "tmdbId": 211288,
+ "cast": [
+  {
+   "id": 1222596,
+   "name": "Justin Hartley",
+   "photo": "https://image.tmdb.org/t/p/w185/oo7vqWz30pA1tY6quUOnS6O0AgB.jpg",
+   "character": "Colter Shaw",
+   "episodes": 60
+  },
+  {
+   "id": 1485985,
+   "name": "Fiona Rene",
+   "photo": "https://image.tmdb.org/t/p/w185/vfi2WLLy6BeNnO2n3zXc5hllRjf.jpg",
+   "character": "Reenie Greene",
+   "episodes": 60
+  },
+  {
+   "id": 2359792,
+   "name": "Chris Lee",
+   "photo": "https://image.tmdb.org/t/p/w185/hLDlD80YmHohhHGrNryrRtyhsJt.jpg",
+   "character": "Randy Davis",
+   "episodes": 37
+  },
+  {
+   "id": 2377336,
+   "name": "Abby McEnany",
+   "photo": "https://image.tmdb.org/t/p/w185/zSZDl4GosHGirz5csCNVmaZAgOj.jpg",
+   "character": "Velma Bruin",
+   "episodes": 33
+  },
+  {
+   "id": 1930907,
+   "name": "Eric Graise",
+   "photo": "https://image.tmdb.org/t/p/w185/c9nLpo7WLjIzP04rT02WEwsmvVZ.jpg",
+   "character": "Bob Exley",
+   "episodes": 33
+  },
+  {
+   "id": 1792414,
+   "name": "Cassady McClincy-Zhang",
+   "photo": "https://image.tmdb.org/t/p/w185/cQA7uFuldVXOav7LfvdDJ2RxcZd.jpg",
+   "character": "Melanie 'Mel' Day",
+   "episodes": 24
+  },
+  {
+   "id": 79087,
+   "name": "Robin Weigert",
+   "photo": "https://image.tmdb.org/t/p/w185/ifGimfhXs7WIyDJMIX8kJtUte88.jpg",
+   "character": "Teddi Bruin",
+   "episodes": 13
+  },
+  {
+   "id": 33676,
+   "name": "Kathleen Robertson",
+   "photo": "https://image.tmdb.org/t/p/w185/nGaey63oyvcZWXFEwaihGP2YryY.jpg",
+   "character": "Maxine",
+   "episodes": 7
+  },
+  {
+   "id": 49624,
+   "name": "Jensen Ackles",
+   "photo": "https://image.tmdb.org/t/p/w185/xgOAHqDiqdZCF1BhfHaeLrd47ki.jpg",
+   "character": "Russell Shaw",
+   "episodes": 6
+  },
+  {
+   "id": 159261,
+   "name": "Brent Sexton",
+   "photo": "https://image.tmdb.org/t/p/w185/wjxWvYZZIWIKb7rQnJXRoXPRqwh.jpg",
+   "character": "John Keaton",
+   "episodes": 6
+  },
+  {
+   "id": 115625,
+   "name": "Sofia Pernas",
+   "photo": "https://image.tmdb.org/t/p/w185/cE7yE1VSv8tUhvTz2kNG17gI9wL.jpg",
+   "character": "Billie Matalon",
+   "episodes": 5
+  },
+  {
+   "id": 19957,
+   "name": "Wendy Crewson",
+   "photo": "https://image.tmdb.org/t/p/w185/6hplkzK8KV5Cw8Z8SVKwlt3nU5I.jpg",
+   "character": "Mary Dove Shaw",
+   "episodes": 4
+  },
+  {
+   "id": 1377977,
+   "name": "Floriana Lima",
+   "photo": "https://image.tmdb.org/t/p/w185/hiHqJwjzz6fT9QeTz0rG7MgdnOX.jpg",
+   "character": "Camille Picket",
+   "episodes": 3
+  },
+  {
+   "id": 59177,
+   "name": "Michael Rady",
+   "photo": "https://image.tmdb.org/t/p/w185/a702olRCFvJNVdrQkBKbeNkaAey.jpg",
+   "character": "Elliott Rusch",
+   "episodes": 3
+  },
+  {
+   "id": 64297,
+   "name": "Pej Vahdat",
+   "photo": "https://image.tmdb.org/t/p/w185/aFxI4rU0m2XuLHp9ZqAzuYMLIRQ.jpg",
+   "character": "Leo Sharf",
+   "episodes": 3
+  },
+  {
+   "id": 34488,
+   "name": "Diana Maria Riva",
+   "photo": "https://image.tmdb.org/t/p/w185/fe6KB60w93zaHFzvI2sprIVOBVE.jpg",
+   "character": "Detective Helen Brock",
+   "episodes": 2
+  },
+  {
+   "id": 1006731,
+   "name": "Melissa Roxburgh",
+   "photo": "https://image.tmdb.org/t/p/w185/8RE7Wtgi8tiNU7oJLlLadKmMkwq.jpg",
+   "character": "Dory Shaw",
+   "episodes": 2
+  },
+  {
+   "id": 1451578,
+   "name": "Ryan Dorsey",
+   "photo": "https://image.tmdb.org/t/p/w185/yomA0PIhGFD5dNG5mQkp8Fw2pYh.jpg",
+   "character": "Frank",
+   "episodes": 2
+  },
+  {
+   "id": 51754,
+   "name": "Freda Foh Shen",
+   "photo": "https://image.tmdb.org/t/p/w185/zxEbCZDN1XFaPU2gs5XKPy9dauJ.jpg",
+   "character": "Barbie Lee",
+   "episodes": 2
+  },
+  {
+   "id": 2251466,
+   "name": "Kaylah Zander",
+   "photo": "https://image.tmdb.org/t/p/w185/tmSDXtHbIiaFycwpA7YfpUo3to4.jpg",
+   "character": "Francie Butler",
+   "episodes": 2
+  },
+  {
+   "id": 1927073,
+   "name": "Nevis Unipan",
+   "photo": "https://image.tmdb.org/t/p/w185/9pYgHEOpW4uvDo42VzHSr8oRK3d.jpg",
+   "character": "Hailey Rodgers",
+   "episodes": 2
+  },
+  {
+   "id": 21633,
+   "name": "Kai Lennox",
+   "photo": "https://image.tmdb.org/t/p/w185/bpwqiHG7FXsUmHyyFlQopQSpJIg.jpg",
+   "character": "Raymond Ockman",
+   "episodes": 2
+  },
+  {
+   "id": 1261381,
+   "name": "Jules Willcox",
+   "photo": "https://image.tmdb.org/t/p/w185/aorUetKVJ77kDC6PZHMMMPyNCxY.jpg",
+   "character": "Lisa Rodgers",
+   "episodes": 2
+  },
+  {
+   "id": 5780905,
+   "name": "Andy Magee",
+   "photo": null,
+   "character": "Kurt Foster",
+   "episodes": 2
+  }
+ ],
+ "crew": [
+  {
+   "id": 2347594,
+   "name": "Ben H. Winters",
+   "photo": "https://image.tmdb.org/t/p/w185/7pBijhGrFjrZev1LesqKQ4a9TcK.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 57649,
+   "name": "Jeffery Deaver",
+   "photo": "https://image.tmdb.org/t/p/w185/d64yyADxryjpujaBllnfvJS42Ba.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 62
+  },
+  {
+   "id": 1227150,
+   "name": "Amanda Mortlock",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 61
+  },
+  {
+   "id": 129723,
+   "name": "Ken Olin",
+   "photo": "https://image.tmdb.org/t/p/w185/7H4y3RIHaKQfxheKm20ChDBldDa.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 55
+  },
+  {
+   "id": 1222596,
+   "name": "Justin Hartley",
+   "photo": "https://image.tmdb.org/t/p/w185/oo7vqWz30pA1tY6quUOnS6O0AgB.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 55
+  },
+  {
+   "id": 15221,
+   "name": "Tyler Bates",
+   "photo": "https://image.tmdb.org/t/p/w185/vZiif8NFGpzCw5TWbagXIWygQM1.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 55
+  },
+  {
+   "id": 1296177,
+   "name": "Sharon Lee Watson",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 54
+  },
+  {
+   "id": 1260684,
+   "name": "Elwood Reid",
+   "photo": "https://image.tmdb.org/t/p/w185/z4xnmN5wdRLtWVLq3zbgIzB8yOs.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 54
+  },
+  {
+   "id": 1317319,
+   "name": "Connie Dolphin",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 54
+  },
+  {
+   "id": 3803105,
+   "name": "Jai Franklin Sarki",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 47
+  },
+  {
+   "id": 5241644,
+   "name": "Jordan Goodman",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 44
+  },
+  {
+   "id": 1382168,
+   "name": "Alex Katsnelson",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 42
+  },
+  {
+   "id": 1547678,
+   "name": "Joanne Higginbottom",
+   "photo": "https://image.tmdb.org/t/p/w185/c8rs0ZiKa1dORNF61j5GfjbekPH.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 42
+  },
+  {
+   "id": 3549219,
+   "name": "Dominique A. Holmes",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 29
+  },
+  {
+   "id": 3547557,
+   "name": "Brian McCauley Johnson",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 4794183,
+   "name": "Neda Davarpanah",
+   "photo": "https://image.tmdb.org/t/p/w185/bv3tR1Wa6xz9572AWO0PRQNPwCT.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 23
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:35:03.680Z"
+}

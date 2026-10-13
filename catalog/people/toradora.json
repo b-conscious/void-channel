@@ -1,0 +1,322 @@
+{
+ "show": "Toradora!",
+ "slug": "toradora",
+ "tmdbId": 42916,
+ "cast": [
+  {
+   "id": 83928,
+   "name": "Rie Kugimiya",
+   "photo": "https://image.tmdb.org/t/p/w185/xHonhNFpTpz9zCVXLAF7D4OuHLv.jpg",
+   "character": "Taiga Aisaka (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 1241464,
+   "name": "Junji Majima",
+   "photo": "https://image.tmdb.org/t/p/w185/xhxXPHHoqOp7Yimu9UJJcR1z58r.jpg",
+   "character": "Ryuuji Takasu (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 202806,
+   "name": "Yui Horie",
+   "photo": "https://image.tmdb.org/t/p/w185/73yQlMWaiOMrhvPCNyOCbbCkILZ.jpg",
+   "character": "Minori Kushieda (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 225999,
+   "name": "Eri Kitamura",
+   "photo": "https://image.tmdb.org/t/p/w185/oZuKOoiqUsZZcgO5wqlUoZQUPfw.jpg",
+   "character": "Ami Kawashima (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 1221026,
+   "name": "Hirofumi Nojima",
+   "photo": "https://image.tmdb.org/t/p/w185/sKj8nGVxv4hci3xuZgiFYPZvaX5.jpg",
+   "character": "Yuusaku Kitamura (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 1356986,
+   "name": "Momoko Ishikawa",
+   "photo": "https://image.tmdb.org/t/p/w185/aSpaxD8GJw3uHzuouVVR9tKNpzV.jpg",
+   "character": "Nanako Kashii (voice) / Pedestrian A (voice)",
+   "episodes": 23
+  },
+  {
+   "id": 220714,
+   "name": "Ai Nonaka",
+   "photo": "https://image.tmdb.org/t/p/w185/gEZVaoDeVK04HCmv0dJr6MGO9Se.jpg",
+   "character": "Maya Kihara (voice)",
+   "episodes": 22
+  },
+  {
+   "id": 225996,
+   "name": "Hiroyuki Yoshino",
+   "photo": "https://image.tmdb.org/t/p/w185/nZQbjjvAjPpjGYenY7kLDtW9e7N.jpg",
+   "character": "Koji Haruta (voice)",
+   "episodes": 21
+  },
+  {
+   "id": 1254260,
+   "name": "Kazuyuki Okitsu",
+   "photo": "https://image.tmdb.org/t/p/w185/vgyaK5dAxhvzAi6LJM3ZyaJd4mJ.jpg",
+   "character": "Pedestrian B (voice) / Hisamitsu Noto (voice)",
+   "episodes": 21
+  },
+  {
+   "id": 1247748,
+   "name": "Saori Goto",
+   "photo": "https://image.tmdb.org/t/p/w185/qgBV4N6InQTXtGus4tqxenSAjJi.jpg",
+   "character": "Inko (voice) / Female Student B (voice) / Female Student A (voice)",
+   "episodes": 21
+  },
+  {
+   "id": 148447,
+   "name": "Sayaka Ohara",
+   "photo": "https://image.tmdb.org/t/p/w185/4lAqrOmkOP3U9Owwijtvc8PaCDx.jpg",
+   "character": "Yasuko Takasu (voice)",
+   "episodes": 19
+  },
+  {
+   "id": 89883,
+   "name": "Rie Tanaka",
+   "photo": "https://image.tmdb.org/t/p/w185/wBWsjzwpFovyHDv027zU0oZyWHd.jpg",
+   "character": "Yuri Koigakubo (voice)",
+   "episodes": 16
+  },
+  {
+   "id": 1245094,
+   "name": "Nobuhiko Okamoto",
+   "photo": "https://image.tmdb.org/t/p/w185/7s1K2yQVF5iIWILaOfG7QrMZkXA.jpg",
+   "character": "Male Student A (voice) / Kota Tomiie (voice) / Pedestrian B (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 2421661,
+   "name": "Jun Miruno",
+   "photo": "https://image.tmdb.org/t/p/w185/vjpjQBWag8oaf6Y0L22ikE2RAnT.jpg",
+   "character": "Female Pedestrian (voice) / Female Student (voice) / Female MC (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 222340,
+   "name": "Yuhko Kaida",
+   "photo": "https://image.tmdb.org/t/p/w185/wttsRGyYySLPfNcDtAbNLVizHLx.jpg",
+   "character": "Sumire Kano (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 1257208,
+   "name": "Tsuyoshi Aoki",
+   "photo": "https://image.tmdb.org/t/p/w185/jY32MzKfDQGOuMl1jvnJKOIcJ8S.jpg",
+   "character": "Mathematics Teacher (voice) / Male MC (voice) / Cake Shop Manager (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 1255649,
+   "name": "Hideki Nakanishi",
+   "photo": "https://image.tmdb.org/t/p/w185/y7UsBW7b7UWHvDm1wTaAUINhnFI.jpg",
+   "character": "Male Student A (voice) / Male Student B (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 1241467,
+   "name": "Takashi Oohara",
+   "photo": "https://image.tmdb.org/t/p/w185/fO73WizpZWmg9QO3RpQD6CXs7F0.jpg",
+   "character": "Male Student B (voice) / Student Council Member (voice) / Murase (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 1252728,
+   "name": "Nobuaki Kanemitsu",
+   "photo": "https://image.tmdb.org/t/p/w185/wf7IW1avxFoY1zecsN5dvI1EdZX.jpg",
+   "character": "Head Teacher (voice) / Ramen Restaurant Manager (voice) / Kuroma (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 1253431,
+   "name": "Takuya Sato",
+   "photo": "https://image.tmdb.org/t/p/w185/xZgoTs6DOSneHkoOWL751pQzLru.jpg",
+   "character": "Student B (voice) / Male Student B (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 90566,
+   "name": "Toru Furusawa",
+   "photo": "https://image.tmdb.org/t/p/w185/2XeXCdOFW1oDyniPIYozxsH3oM9.jpg",
+   "character": "Rikurou Aisaka (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 1778204,
+   "name": "Daisuke Matsubara",
+   "photo": "https://image.tmdb.org/t/p/w185/elitSQM6b1C2qOMBM25oP2Ai4YC.jpg",
+   "character": "Student A (voice) / Male Student A (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 2263617,
+   "name": "Chikara Ousaka",
+   "photo": "https://image.tmdb.org/t/p/w185/ymCj4fYBa3FK2NkAl2b77WEEP9v.jpg",
+   "character": "Male Student C (voice) / Male Student B (voice) / Track and Field Member B (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 1154449,
+   "name": "Atsushi Abe",
+   "photo": "https://image.tmdb.org/t/p/w185/b59PickRsrhT6kaUKN2dD8c7ip.jpg",
+   "character": "Male Student C (voice) / Male Student A (voice)",
+   "episodes": 3
+  }
+ ],
+ "crew": [
+  {
+   "id": 1257117,
+   "name": "Mari Okada",
+   "photo": "https://image.tmdb.org/t/p/w185/mfq0VCH3tWJGOUGk1ivtyBH1wz3.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 38
+  },
+  {
+   "id": 1243962,
+   "name": "Tatsuyuki Nagai",
+   "photo": "https://image.tmdb.org/t/p/w185/xbeq2qxwjjuJVs2FVvDoP91wjup.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 27
+  },
+  {
+   "id": 1691548,
+   "name": "Yukari Hashimoto",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 1593669,
+   "name": "Tatsuto Higuchi",
+   "photo": "https://image.tmdb.org/t/p/w185/7aceIe8s1U7f6pmFMMccEB5s9ar.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 550581,
+   "name": "Masahiro Yokotani",
+   "photo": "https://image.tmdb.org/t/p/w185/vFFo7ODIFfKuoKlRqGpGweIDFTE.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1244720,
+   "name": "Katsushi Sakurabi",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1250472,
+   "name": "Kenichi Kasai",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1853322,
+   "name": "Tohru Ishida",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1509822,
+   "name": "Daisuke Takashima",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1847390,
+   "name": "Sayo Aoi",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1489099,
+   "name": "Youhei Suzuki",
+   "photo": "https://image.tmdb.org/t/p/w185/qjyMf1uhYzURlbT1VELp0uYfUpW.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 4354521,
+   "name": "Junko Okazaki",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 2992564,
+   "name": "Toshiaki Miki",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1786885,
+   "name": "Katsuya Asano",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1553521,
+   "name": "Shigeru Yamazaki",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1481805,
+   "name": "Eiichi Kuboyama",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:39:01.988Z"
+}

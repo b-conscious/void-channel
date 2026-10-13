@@ -1,0 +1,267 @@
+{
+ "show": "Big Brother",
+ "slug": "big-brother",
+ "tmdbId": 10160,
+ "cast": [
+  {
+   "id": 1224445,
+   "name": "Julie Chen",
+   "photo": "https://image.tmdb.org/t/p/w185/rY6zCYb8VhFnZ7wuxq6OQrQTJMk.jpg",
+   "character": "Self - Host",
+   "episodes": 1014
+  },
+  {
+   "id": 59748,
+   "name": "Clayton Halsey",
+   "photo": "https://image.tmdb.org/t/p/w185/tS0y9ITEWLsfSabXHTCWkVLUq2Q.jpg",
+   "character": "Announcer (voice)",
+   "episodes": 818
+  },
+  {
+   "id": 61969,
+   "name": "Phil Proctor",
+   "photo": "https://image.tmdb.org/t/p/w185/wAfx3qAEvcsLpEEIP0zwdhuDIcW.jpg",
+   "character": "Announcer (voice)",
+   "episodes": 196
+  },
+  {
+   "id": 3338720,
+   "name": "Nicole Franzel",
+   "photo": "https://image.tmdb.org/t/p/w185/7xFihxbQt3QIy1EKTHH44U2wjHp.jpg",
+   "character": "Self - Houseguest / Self - Guest",
+   "episodes": 117
+  },
+  {
+   "id": 3338708,
+   "name": "Daniele Briones",
+   "photo": "https://image.tmdb.org/t/p/w185/1jVDvEG88nhSpogMwDxA72ahTkX.jpg",
+   "character": "Self - Houseguest / Self - Guest",
+   "episodes": 90
+  },
+  {
+   "id": 1682243,
+   "name": "Rachel Reilly",
+   "photo": "https://image.tmdb.org/t/p/w185/a2lyahG0lreRASkdnlWzrpP9LGv.jpg",
+   "character": "Self - Guest / Self - Houseguest",
+   "episodes": 89
+  },
+  {
+   "id": 3339633,
+   "name": "George Boswell",
+   "photo": "https://image.tmdb.org/t/p/w185/bWpz5DTJK9GvV7l382oTnx7zFvc.jpg",
+   "character": "Self - Guest / Self - Houseguest",
+   "episodes": 89
+  },
+  {
+   "id": 2067140,
+   "name": "Paul Abrahamian",
+   "photo": "https://image.tmdb.org/t/p/w185/sYtujrulAk68yOSOwm6YnotKbg.jpg",
+   "character": "Self - Guest / Self - Houseguest",
+   "episodes": 84
+  },
+  {
+   "id": 1699799,
+   "name": "Cody Calafiore",
+   "photo": "https://image.tmdb.org/t/p/w185/nckUgRtH4bnz1DFT2EpYrS0vvp2.jpg",
+   "character": "Self - Guest / Self - Houseguest",
+   "episodes": 84
+  },
+  {
+   "id": 4374662,
+   "name": "James Huling",
+   "photo": "https://image.tmdb.org/t/p/w185/9ltBGbJJ2MoBG5ANwoG9LnU7m5x.jpg",
+   "character": "Self - Houseguest",
+   "episodes": 77
+  },
+  {
+   "id": 3338726,
+   "name": "Tyler Crispen",
+   "photo": "https://image.tmdb.org/t/p/w185/pXsQCe9OyfHVUpRhFAeCJ7sDMpm.jpg",
+   "character": "Self - Guest / Self - Houseguest",
+   "episodes": 76
+  },
+  {
+   "id": 2067082,
+   "name": "Christmas Abbott",
+   "photo": "https://image.tmdb.org/t/p/w185/mSs6S87TFmFZh9K1c1nZcfqkQSd.jpg",
+   "character": "Self - Houseguest",
+   "episodes": 75
+  },
+  {
+   "id": 4835538,
+   "name": "Angela Murray",
+   "photo": "https://image.tmdb.org/t/p/w185/nn3wQZ3RvcgxRq8Mwx19yjXDEHu.jpg",
+   "character": "Self - Houseguest / Self - Guest",
+   "episodes": 74
+  },
+  {
+   "id": 1233834,
+   "name": "Will Kirby",
+   "photo": "https://image.tmdb.org/t/p/w185/fxox3IfSUPiQF45mZEJQmgx4tAa.jpg",
+   "character": "Self - Framed \"Mastermind\" / Self - Guest / Self - Houseguest",
+   "episodes": 71
+  },
+  {
+   "id": 1290371,
+   "name": "David Walsh",
+   "photo": null,
+   "character": "Narrator (voice)",
+   "episodes": 70
+  },
+  {
+   "id": 3338747,
+   "name": "Curtis Kin",
+   "photo": "https://image.tmdb.org/t/p/w185/jVHrR0Mv20jpc014vLZPHtNfOKN.jpg",
+   "character": "Self - Houseguest",
+   "episodes": 70
+  },
+  {
+   "id": 3338699,
+   "name": "Josh Souza",
+   "photo": "https://image.tmdb.org/t/p/w185/fweBkYZM2EPcVkC0c23rHS6hTmq.jpg",
+   "character": "Self - Houseguest",
+   "episodes": 70
+  },
+  {
+   "id": 205745,
+   "name": "Eddie McGee",
+   "photo": "https://image.tmdb.org/t/p/w185/cUJyE4RW0FeuwN9whFZGwIPtpta.jpg",
+   "character": "Self - Houseguest",
+   "episodes": 70
+  },
+  {
+   "id": 1761907,
+   "name": "Jamie Kern Lima",
+   "photo": "https://image.tmdb.org/t/p/w185/2RcX3UhkiZxHwQ5cLdQQRLABfgL.jpg",
+   "character": "Self - Houseguest",
+   "episodes": 69
+  },
+  {
+   "id": 3338729,
+   "name": "Enzo Palumbo",
+   "photo": "https://image.tmdb.org/t/p/w185/8vogI66qZid8ZGXzjvx6a6rDzlP.jpg",
+   "character": "Self - Guest / Self - Houseguest",
+   "episodes": 68
+  },
+  {
+   "id": 1222090,
+   "name": "Mike 'Boogie' Malin",
+   "photo": "https://image.tmdb.org/t/p/w185/8JI8cidqxOIahu17OohUDir4ZLe.jpg",
+   "character": "Self - Guest / Self - Houseguest / Self - Coach",
+   "episodes": 65
+  },
+  {
+   "id": 3339691,
+   "name": "Da'Vonne Rogers",
+   "photo": "https://image.tmdb.org/t/p/w185/e6UOK7PzSCLJyyM6xtTtJdFvrsJ.jpg",
+   "character": "Self - Houseguest",
+   "episodes": 64
+  },
+  {
+   "id": 3338712,
+   "name": "Memphis Garrett",
+   "photo": "https://image.tmdb.org/t/p/w185/mjsAqSvtWCqOn7Xr2QMhVWf5taQ.jpg",
+   "character": "Self - Houseguest",
+   "episodes": 63
+  },
+  {
+   "id": 3338713,
+   "name": "Jordan Lloyd",
+   "photo": "https://image.tmdb.org/t/p/w185/ndpvOkzqllTGEPMUjgfaN05fuRh.jpg",
+   "character": "Self - Houseguest / Self - Guest",
+   "episodes": 63
+  }
+ ],
+ "crew": [
+  {
+   "id": 1215602,
+   "name": "John de Mol",
+   "photo": "https://image.tmdb.org/t/p/w185/6bfVzvwF0EALA7f6Kya50eLXVzD.jpg",
+   "jobs": [
+    "Creator"
+   ]
+  },
+  {
+   "id": 1240164,
+   "name": "Allison Grodner",
+   "photo": "https://image.tmdb.org/t/p/w185/mWvRoXZgGajGfXfTvg2GVqfL1o6.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 1014
+  },
+  {
+   "id": 1240173,
+   "name": "Arnold Shapiro",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 184
+  },
+  {
+   "id": 1240165,
+   "name": "Rich Meehan",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 100
+  },
+  {
+   "id": 5558359,
+   "name": "Chris Roach",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 1250980,
+   "name": "Jon Kroll",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 33
+  },
+  {
+   "id": 3265333,
+   "name": "Mark W. Roden",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 29
+  },
+  {
+   "id": 5482607,
+   "name": "Tony McCuin",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 2685474,
+   "name": "Terry Donohue",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1289611,
+   "name": "Quinn Saunders",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:44:21.649Z"
+}

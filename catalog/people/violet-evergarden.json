@@ -1,0 +1,322 @@
+{
+ "show": "Violet Evergarden",
+ "slug": "violet-evergarden",
+ "tmdbId": 75214,
+ "cast": [
+  {
+   "id": 1224288,
+   "name": "Yui Ishikawa",
+   "photo": "https://image.tmdb.org/t/p/w185/zptGIN1iklKJL1xrfHKOpxR2qJ9.jpg",
+   "character": "Violet Evergarden (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 110665,
+   "name": "Daisuke Namikawa",
+   "photo": "https://image.tmdb.org/t/p/w185/iw0X8oDutxaBAri3Ifga8nhdUJK.jpg",
+   "character": "Gilbert Bougainvillea (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 84508,
+   "name": "Takehito Koyasu",
+   "photo": "https://image.tmdb.org/t/p/w185/8uBkNDKPNmp9JWgMUI02NVyfhi1.jpg",
+   "character": "Claudia Hodgins (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 223687,
+   "name": "Aya Endo",
+   "photo": "https://image.tmdb.org/t/p/w185/s59Lip4dPC7rI3cz1pHs9vSmuvf.jpg",
+   "character": "Cattleya Baudelaire (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 1248340,
+   "name": "Haruka Tomatsu",
+   "photo": "https://image.tmdb.org/t/p/w185/geVvuA2zMGE5xzfc20aDelJSelu.jpg",
+   "character": "Iris Cannary (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 1254052,
+   "name": "Koki Uchiyama",
+   "photo": "https://image.tmdb.org/t/p/w185/sllSm3iZZWVLTBrDZQRtWrZUfEj.jpg",
+   "character": "Benedict Blue (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 144648,
+   "name": "Minori Chihara",
+   "photo": "https://image.tmdb.org/t/p/w185/qSqXpdLUq4prPtL7mkp0go6SbrF.jpg",
+   "character": "Erica Brown (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 2013666,
+   "name": "Takuya Inagaki",
+   "photo": "https://image.tmdb.org/t/p/w185/4qGnpLmKHSzyPCEvmnExNYDx1GJ.jpg",
+   "character": "Mikhail Lucent (voice) / Engineer (voice) / Male Client (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 1935828,
+   "name": "Aya Saito",
+   "photo": "https://image.tmdb.org/t/p/w185/7IL0IgXuK4SK2Ly3eaSYeYWVmfJ.jpg",
+   "character": "Nerine (voice) / Child (voice) / Boy (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 1979684,
+   "name": "Riki Kagami",
+   "photo": "https://image.tmdb.org/t/p/w185/sxqOjlbuVZ5TOqY7GFf2g30MkEl.jpg",
+   "character": "Eckhart Munter (voice) / Roland (voice) / Army Major General (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 1491907,
+   "name": "Mari Doi",
+   "photo": "https://image.tmdb.org/t/p/w185/ivsNprU695g6CcUNPta96P0mSt0.jpg",
+   "character": "Iris's Aunt (voice) / Landlady (voice) / Iberis Conway (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 2019928,
+   "name": "Rie Hikisaka",
+   "photo": "https://image.tmdb.org/t/p/w185/A2qoMAgTD0uG49HhQLkHmWquSiP.jpg",
+   "character": "Iris's Niece (voice) / Woman (voice) / Lilian (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 225655,
+   "name": "Hidenobu Kiuchi",
+   "photo": "https://image.tmdb.org/t/p/w185/d7MW4HQjMsZnX3cy2dF8QJETCbf.jpg",
+   "character": "Dietfried Bougainvillea (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 2020140,
+   "name": "Takayuki Miyamoto",
+   "photo": "https://image.tmdb.org/t/p/w185/7qC1bHHaU2sjEFAgyzztg9ZcTnR.jpg",
+   "character": "Navy Soldier (voice) / Iris's Uncle (voice) / Stage Actor (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 150128,
+   "name": "Toshiko Sawada",
+   "photo": "https://image.tmdb.org/t/p/w185/5a1eqRq6mddvH1quxtuzd1n0NBi.jpg",
+   "character": "Tiffany Evergarden (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 2020136,
+   "name": "Naoya Nosaka",
+   "photo": "https://image.tmdb.org/t/p/w185/cPy24yNlvQj1WMcjC0ZYsGgXhtz.jpg",
+   "character": "Staff Member (voice) / Oliver (voice) / Subordinate (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 2019886,
+   "name": "Kengo Tsujii",
+   "photo": "https://image.tmdb.org/t/p/w185/u93U2jbV81bQXQuZ2s5tK9TQNsw.jpg",
+   "character": "Army Soldier (voice) / Russell Bailey (voice) / Flügel Messenger Soldier (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 1476590,
+   "name": "Satoshi Mikami",
+   "photo": "https://image.tmdb.org/t/p/w185/cyQNPYuOe5dUM57DbMlp0TLJBfl.jpg",
+   "character": "Isidor (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 1324470,
+   "name": "Azusa Tadokoro",
+   "photo": "https://image.tmdb.org/t/p/w185/kYQX26kSAUdPn5tDgMzdbjDSZdO.jpg",
+   "character": "Luculia Marlborough (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 1142780,
+   "name": "Subaru Kimura",
+   "photo": "https://image.tmdb.org/t/p/w185/8o24ix4Lk9WduRXFDI6Nmip5Deq.jpg",
+   "character": "Spencer Marlborough (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 2020137,
+   "name": "Daisuke Yokota",
+   "photo": "https://image.tmdb.org/t/p/w185/rS5zNAnKEjdZXkCNvY4Zi2aU07V.jpg",
+   "character": "Kyle Zoenig (voice) / Soldier (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 1991243,
+   "name": "Ikuji Nose",
+   "photo": "https://image.tmdb.org/t/p/w185/1ZGvJE9eMBA2TgpSQ54xp9YTGnG.jpg",
+   "character": "Father (voice) / Jonas Graham (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 1563847,
+   "name": "Takuma Sasaki",
+   "photo": "https://image.tmdb.org/t/p/w185/k7a5FFWDcisESZFdLsePZVAHJWh.jpg",
+   "character": "Navy Officer Cadet (voice) / Yale Coster (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 1222051,
+   "name": "Shunsuke Sakuya",
+   "photo": "https://image.tmdb.org/t/p/w185/tbIQ3CFxZM9wl5S4YMwqhrs5VNS.jpg",
+   "character": "Illias Vandal (voice)",
+   "episodes": 2
+  }
+ ],
+ "crew": [
+  {
+   "id": 78373,
+   "name": "Reiko Yoshida",
+   "photo": "https://image.tmdb.org/t/p/w185/5LUxL8rdUtMdqxx8pnWp6PM0wKp.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 21
+  },
+  {
+   "id": 1661032,
+   "name": "Haruka Fujita",
+   "photo": "https://image.tmdb.org/t/p/w185/d17kGnlHzGKXA1zOp5PJCaDY0r.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 1484773,
+   "name": "Taichi Ishidate",
+   "photo": "https://image.tmdb.org/t/p/w185/nBPuRvo9oWFWqzZiS8U4P9j0qtg.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 1959241,
+   "name": "Takaaki Suzuki",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 2020130,
+   "name": "Evan Call",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 237224,
+   "name": "Yoko Hatta",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 3059684,
+   "name": "Yoko Kogawa",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 1301231,
+   "name": "Shunji Inoue",
+   "photo": "https://image.tmdb.org/t/p/w185/qMqGbJ89A8Nem3SE6bE7p64aC9k.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 1647493,
+   "name": "Masayuki Nishide",
+   "photo": "https://image.tmdb.org/t/p/w185/7JkLIvLcWIWp2nNYqALSfDnty6o.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 24003,
+   "name": "Yota Tsuruoka",
+   "photo": "https://image.tmdb.org/t/p/w185/vdRDTEuplZlYMd115rzFcqTtG4Y.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 2532817,
+   "name": "Shinpei Sawa",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 221758,
+   "name": "Tatsuhiko Urahata",
+   "photo": "https://image.tmdb.org/t/p/w185/vi5FmymB2muVuvyyq0LWYsrg05a.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1661040,
+   "name": "Takuya Yamamura",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1661036,
+   "name": "Noriyuki Kitanohara",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 219647,
+   "name": "Yasuhiro Takemoto",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1661035,
+   "name": "Taichi Ogawa",
+   "photo": "https://image.tmdb.org/t/p/w185/AnjExAzhocjwSWxQpwrmwn40H5k.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:38:39.412Z"
+}

@@ -1,0 +1,335 @@
+{
+ "show": "Tulsa King",
+ "slug": "tulsa-king",
+ "tmdbId": 153312,
+ "cast": [
+  {
+   "id": 16483,
+   "name": "Sylvester Stallone",
+   "photo": "https://image.tmdb.org/t/p/w185/gn3pDWthJqR0VDYGViGD3048og7.jpg",
+   "character": "Dwight 'The General' Manfredi",
+   "episodes": 39
+  },
+  {
+   "id": 41089,
+   "name": "Martin Starr",
+   "photo": "https://image.tmdb.org/t/p/w185/cxGxr0S1jnvOpOHyZDYXrg2GHju.jpg",
+   "character": "Lawrence 'Bodhi' Geigerman",
+   "episodes": 39
+  },
+  {
+   "id": 3479133,
+   "name": "Jay Will",
+   "photo": "https://image.tmdb.org/t/p/w185/6ABA1136deiDOBMOHAtJIMsOnSM.jpg",
+   "character": "Tyson Mitchell",
+   "episodes": 39
+  },
+  {
+   "id": 9828,
+   "name": "Garrett Hedlund",
+   "photo": "https://image.tmdb.org/t/p/w185/9zec61HuFJgiUEzPSt0NfPIj0Xv.jpg",
+   "character": "Mitch Keller",
+   "episodes": 39
+  },
+  {
+   "id": 65002,
+   "name": "Dana Delany",
+   "photo": "https://image.tmdb.org/t/p/w185/sUzs7I87K4wSvLD7TjoYH6avRrL.jpg",
+   "character": "Margaret Devereaux",
+   "episodes": 39
+  },
+  {
+   "id": 1184094,
+   "name": "Chris Caldovino",
+   "photo": "https://image.tmdb.org/t/p/w185/m1c4zItCH0LQccJZ3oTjCww4xJ.jpg",
+   "character": "Goodie Carangi",
+   "episodes": 38
+  },
+  {
+   "id": 3783745,
+   "name": "McKenna Quigley Harrington",
+   "photo": "https://image.tmdb.org/t/p/w185/zCucjO9kk169oOMn4jeoB1vAgBf.jpg",
+   "character": "Grace",
+   "episodes": 35
+  },
+  {
+   "id": 18750,
+   "name": "Annabella Sciorra",
+   "photo": "https://image.tmdb.org/t/p/w185/p2dnBSjLzKxldrHCQZYmVq0LcFw.jpg",
+   "character": "Joanne",
+   "episodes": 33
+  },
+  {
+   "id": 85924,
+   "name": "Vincent Piazza",
+   "photo": "https://image.tmdb.org/t/p/w185/cybUCnpnrvtfmJcF2vC2nBWzmKU.jpg",
+   "character": "Vince Antonacci",
+   "episodes": 31
+  },
+  {
+   "id": 2521055,
+   "name": "Michael Walden",
+   "photo": "https://image.tmdb.org/t/p/w185/bFPr7XLkk9QL7Lb3NQAIeZL6ey5.jpg",
+   "character": "Bigfoot",
+   "episodes": 30
+  },
+  {
+   "id": 2203,
+   "name": "Neal McDonough",
+   "photo": "https://image.tmdb.org/t/p/w185/3mI3i1CpjATSCta1Tb2qsyl1KCh.jpg",
+   "character": "Cal Thresher",
+   "episodes": 30
+  },
+  {
+   "id": 81685,
+   "name": "Frank Grillo",
+   "photo": "https://image.tmdb.org/t/p/w185/kuEco4vo1xrsM8DyrNSZUEi593P.jpg",
+   "character": "Bill Bevilaqua",
+   "episodes": 25
+  },
+  {
+   "id": 2977599,
+   "name": "Dashiell Connery",
+   "photo": "https://image.tmdb.org/t/p/w185/5AgKXYVuPx83zBJpngodboY6LQS.jpg",
+   "character": "Clint",
+   "episodes": 21
+  },
+  {
+   "id": 3783747,
+   "name": "Justin Garcia-Pruneda",
+   "photo": "https://image.tmdb.org/t/p/w185/2gczCb2OwHnNKVUQlPi1mFaXXcl.jpg",
+   "character": "Fred / Security Guard Fred",
+   "episodes": 21
+  },
+  {
+   "id": 7166,
+   "name": "Kevin Pollak",
+   "photo": "https://image.tmdb.org/t/p/w185/ss4vL5itVF1I2AEC64k1vb79GEq.jpg",
+   "character": "Special Agent Musso",
+   "episodes": 20
+  },
+  {
+   "id": 3258734,
+   "name": "Scarlet Rose Stallone",
+   "photo": "https://image.tmdb.org/t/p/w185/13f6FANe7TdbvjtZCbArygnDv1S.jpg",
+   "character": "Spencer / Spencer the Barista",
+   "episodes": 20
+  },
+  {
+   "id": 7133,
+   "name": "Max Casella",
+   "photo": "https://image.tmdb.org/t/p/w185/5CNTDSCBhWPclTLTyTBy8oHUkzb.jpg",
+   "character": "Armand Truisi",
+   "episodes": 19
+  },
+  {
+   "id": 17941,
+   "name": "Domenick Lombardozzi",
+   "photo": "https://image.tmdb.org/t/p/w185/kLUR7XZRrINEqTFi8gUrzKpW74R.jpg",
+   "character": "Charles 'Chickie' Invernizzi",
+   "episodes": 19
+  },
+  {
+   "id": 2919993,
+   "name": "Tatiana Zappardino",
+   "photo": "https://image.tmdb.org/t/p/w185/c75NG1HeLv55vk5max3YvGrs90L.jpg",
+   "character": "Tina",
+   "episodes": 16
+  },
+  {
+   "id": 785,
+   "name": "James Russo",
+   "photo": "https://image.tmdb.org/t/p/w185/nubhNb5OUkzsrndD1BNqzp7MGyo.jpg",
+   "character": "Quiet Ray Renzetti",
+   "episodes": 15
+  },
+  {
+   "id": 87118,
+   "name": "Michael Beach",
+   "photo": "https://image.tmdb.org/t/p/w185/7gCBCpK2OSzuUWk5iTZds9NjqkF.jpg",
+   "character": "Mark Mitchell / Mark",
+   "episodes": 12
+  },
+  {
+   "id": 71402,
+   "name": "Andrea Savage",
+   "photo": "https://image.tmdb.org/t/p/w185/dh2prcwPU9U1PBdCNu5SSd4Of9j.jpg",
+   "character": "Stacy Beale",
+   "episodes": 11
+  },
+  {
+   "id": 418,
+   "name": "Robert Patrick",
+   "photo": "https://image.tmdb.org/t/p/w185/qRv2Es9rZoloullTbzss3I5j1Mp.jpg",
+   "character": "Jeremiah Dunmire",
+   "episodes": 10
+  },
+  {
+   "id": 1078613,
+   "name": "Beau Knapp",
+   "photo": "https://image.tmdb.org/t/p/w185/6OWe75RIFETlY3iqvTjswcXRc33.jpg",
+   "character": "Cole Dunmire",
+   "episodes": 10
+  }
+ ],
+ "crew": [
+  {
+   "id": 1215399,
+   "name": "Taylor Sheridan",
+   "photo": "https://image.tmdb.org/t/p/w185/enrOQII7bCIf7U0WbdxiuXGfzrs.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Story",
+    "Teleplay"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 16483,
+   "name": "Sylvester Stallone",
+   "photo": "https://image.tmdb.org/t/p/w185/gn3pDWthJqR0VDYGViGD3048og7.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 21390,
+   "name": "David C. Glasser",
+   "photo": "https://image.tmdb.org/t/p/w185/t26MlYwJl4TBLFkHz9pjixA8yo7.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 228247,
+   "name": "Ron Burkle",
+   "photo": "https://image.tmdb.org/t/p/w185/hf69HPpxXieEPqSblJGqX5Hq31V.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 1890532,
+   "name": "David Hutkin",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 4232,
+   "name": "Bob Yari",
+   "photo": "https://image.tmdb.org/t/p/w185/8PecTVSJk5uJmndCGTLwgsLPEhP.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 62635,
+   "name": "Terence Winter",
+   "photo": "https://image.tmdb.org/t/p/w185/6zXJtYwjH9njuAcyCIeZXngVOgR.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 29
+  },
+  {
+   "id": 1654005,
+   "name": "Braden Aftergood",
+   "photo": "https://image.tmdb.org/t/p/w185/857BhJFFN2dtPX78hD6DvkmIPTK.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 1208226,
+   "name": "Danny Bensi",
+   "photo": "https://image.tmdb.org/t/p/w185/qyyiInZcq9uKI7BAUON6XKxOBim.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 984513,
+   "name": "Saunder Jurriaans",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 1939442,
+   "name": "Joseph Riccobene",
+   "photo": "https://image.tmdb.org/t/p/w185/fWKFMNkFXkuQSx7Z7y02EAPfPnN.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 154521,
+   "name": "Craig Zisk",
+   "photo": "https://image.tmdb.org/t/p/w185/1WTt2jjxDwT0ngzrpO02VZYZDYV.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 205639,
+   "name": "Jim McKay",
+   "photo": "https://image.tmdb.org/t/p/w185/hrrBk9T8Ds0UH9NKds1gkbJioTo.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1355495,
+   "name": "Thomas Kelly",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 63554,
+   "name": "Dave Erickson",
+   "photo": "https://image.tmdb.org/t/p/w185/3xI9ngMIgBKoxXPvPsjmPny49bb.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Story",
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1222590,
+   "name": "Ildy Modrovich",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 10
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:25.193Z"
+}

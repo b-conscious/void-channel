@@ -1,0 +1,238 @@
+{
+ "show": "MASHLE: MAGIC AND MUSCLES",
+ "slug": "mashle-magic-and-muscles",
+ "tmdbId": 204832,
+ "cast": [
+  {
+   "id": 2279389,
+   "name": "Chiaki Kobayashi",
+   "photo": "https://image.tmdb.org/t/p/w185/o0XZFXc50z28ICUpvfZ1QcTL2Yt.jpg",
+   "character": "Mash Burnedead (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 2710568,
+   "name": "Reiji Kawashima",
+   "photo": "https://image.tmdb.org/t/p/w185/tJriYA3tctzKP3ZnAwsxkey9iyU.jpg",
+   "character": "Finn Ames (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1324666,
+   "name": "Kaito Ishikawa",
+   "photo": "https://image.tmdb.org/t/p/w185/fzjIkotjUHHs3wgftM9tqdsG8ph.jpg",
+   "character": "Lance Crown (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1248374,
+   "name": "Takuya Eguchi",
+   "photo": "https://image.tmdb.org/t/p/w185/hPPhUp0mM65Lc87Q8WXUEmGQAXx.jpg",
+   "character": "Dot Barrett (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1452028,
+   "name": "Reina Ueda",
+   "photo": "https://image.tmdb.org/t/p/w185/2WV61uVU7y6XGYqNHLMpP0sApdu.jpg",
+   "character": "Lemon Irvine (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 84505,
+   "name": "Hiroaki Hirata",
+   "photo": "https://image.tmdb.org/t/p/w185/mMWEdlssJm3TVuXW4Wb7pQeX20Z.jpg",
+   "character": "Narration (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 2920591,
+   "name": "Hiroshi Watanabe",
+   "photo": "https://image.tmdb.org/t/p/w185/4DdXrVRosioqQklJDLy39eGsq9B.jpg",
+   "character": "Chichi Lance (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1483496,
+   "name": "Yuuichirou Umehara",
+   "photo": "https://image.tmdb.org/t/p/w185/lScrvZi4tKKpk3PbnIjLVjHVNJn.jpg",
+   "character": "Abel Walker (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 2409447,
+   "name": "Hiroki Nanami",
+   "photo": "https://image.tmdb.org/t/p/w185/sbFtrQgkAvTMsHfQ2lrVMUJpP94.jpg",
+   "character": "Abyss Razor (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 149894,
+   "name": "Yuki Kaji",
+   "photo": "https://image.tmdb.org/t/p/w185/8wKdPV11IwowfwoqGqMMNt9hmp6.jpg",
+   "character": "Rayne Ames (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 84508,
+   "name": "Takehito Koyasu",
+   "photo": "https://image.tmdb.org/t/p/w185/8uBkNDKPNmp9JWgMUI02NVyfhi1.jpg",
+   "character": "Margarette Macaron (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 62318,
+   "name": "Shin-ichiro Miki",
+   "photo": "https://image.tmdb.org/t/p/w185/yL9Tx2HZgK7t5AssYl6oGE9bjdj.jpg",
+   "character": "Innocent Zero (voice)",
+   "episodes": 1
+  }
+ ],
+ "crew": [
+  {
+   "id": 116681,
+   "name": "Yosuke Kuroda",
+   "photo": "https://image.tmdb.org/t/p/w185/svtvrGyKehb5wV0kPJEM7iMz9Zw.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 43
+  },
+  {
+   "id": 1852478,
+   "name": "Tomonari Tanaka",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 1817520,
+   "name": "Masanori Miyake",
+   "photo": "https://image.tmdb.org/t/p/w185/kr6vrmfERGuQTb9X8KKzSvlEsYh.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 2652974,
+   "name": "Akifumi Fujio",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1493765,
+   "name": "Masaru Yokoyama",
+   "photo": "https://image.tmdb.org/t/p/w185/isDF4Cm7oqNDw9UgOI7DvFFJf7y.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 2208431,
+   "name": "Tsuyoshi Tobita",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 3557556,
+   "name": "Yuki Watanabe",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 2704698,
+   "name": "Aya Ikeda",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 4523702,
+   "name": "Keisuke Shiraishi",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1598881,
+   "name": "Naoaki Shibuta",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 3058306,
+   "name": "Atsushi Usui",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 2234425,
+   "name": "Jun Takahashi",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 2095778,
+   "name": "Harume Kosaka",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1243957,
+   "name": "Masakazu Obara",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 4542883,
+   "name": "Haname Kosaka",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 4610488,
+   "name": "Hotaru Yasushi",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:39:02.626Z"
+}

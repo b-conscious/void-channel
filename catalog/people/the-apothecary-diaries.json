@@ -1,0 +1,322 @@
+{
+ "show": "The Apothecary Diaries",
+ "slug": "the-apothecary-diaries",
+ "tmdbId": 220542,
+ "cast": [
+  {
+   "id": 936275,
+   "name": "Aoi Yuuki",
+   "photo": "https://image.tmdb.org/t/p/w185/a5Mkd66GV1l3c9bZZtnvjUf33T2.jpg",
+   "character": "Maomao (voice)",
+   "episodes": 60
+  },
+  {
+   "id": 1279666,
+   "name": "Takeo Otsuka",
+   "photo": "https://image.tmdb.org/t/p/w185/wqeAMR0HOGUPBXz0TCNxDR51cQy.jpg",
+   "character": "Jinshi (voice)",
+   "episodes": 60
+  },
+  {
+   "id": 24647,
+   "name": "Katsuyuki Konishi",
+   "photo": "https://image.tmdb.org/t/p/w185/nYM5cH6U7cp4x9dIzW0enmEKmeV.jpg",
+   "character": "Gaoshun (voice)",
+   "episodes": 60
+  },
+  {
+   "id": 1588597,
+   "name": "Atsumi Tanezaki",
+   "photo": "https://image.tmdb.org/t/p/w185/6tM8GU7QvrdUCvR4kxqVUZivtvO.jpg",
+   "character": "Gyokuyou (voice)",
+   "episodes": 29
+  },
+  {
+   "id": 2019928,
+   "name": "Rie Hikisaka",
+   "photo": "https://image.tmdb.org/t/p/w185/A2qoMAgTD0uG49HhQLkHmWquSiP.jpg",
+   "character": "Yinghua (voice) / Maomao, the Cat (voice) / Lishu's Lady-in-Waiting (voice)",
+   "episodes": 28
+  },
+  {
+   "id": 9710,
+   "name": "Megumi Toyoguchi",
+   "photo": "https://image.tmdb.org/t/p/w185/qrnzkvoaODEplqhtkcyDgUa3Qtp.jpg",
+   "character": "Hongniang (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 2401820,
+   "name": "Takako Tanaka",
+   "photo": "https://image.tmdb.org/t/p/w185/n4vcp8dA6aAUfeawQDEsGdSIAPP.jpg",
+   "character": "Guiyuan (voice) / Female (voice) / Low-Rank Concubine (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 2968000,
+   "name": "Misa Ishii",
+   "photo": "https://image.tmdb.org/t/p/w185/ht2WC37mCpbpRIfCrcBzODGP4Fs.jpg",
+   "character": "Low-Rank Concubine (voice) / Ailan (voice)",
+   "episodes": 21
+  },
+  {
+   "id": 1222145,
+   "name": "Hiroshi Yanaka",
+   "photo": "https://image.tmdb.org/t/p/w185/eoqG5eX6TmTzaQLgl2MUkek6Jl.jpg",
+   "character": "Luomen (voice)",
+   "episodes": 20
+  },
+  {
+   "id": 151182,
+   "name": "Misaki Kuno",
+   "photo": "https://image.tmdb.org/t/p/w185/hVtE4gdKaqofYZmXXtlJs4Q9XTL.jpg",
+   "character": "Xiaolan (voice)",
+   "episodes": 18
+  },
+  {
+   "id": 1276791,
+   "name": "Mitsuaki Kanuka",
+   "photo": "https://image.tmdb.org/t/p/w185/mz730X1jKAnf5WCrIX2pGxYpqHw.jpg",
+   "character": "Guen / Quack Doctor (voice)",
+   "episodes": 17
+  },
+  {
+   "id": 1254672,
+   "name": "Asami Seto",
+   "photo": "https://image.tmdb.org/t/p/w185/iKKCPgKrNd4pJ0iBOC1SBZy2Y4Y.jpg",
+   "character": "Shisui / Loulan / Tamamo (voice) / Shisui (voice) / Loulan (voice)",
+   "episodes": 17
+  },
+  {
+   "id": 1037692,
+   "name": "Takuya Kirimoto",
+   "photo": "https://image.tmdb.org/t/p/w185/tDtATZ0RzxPiEzs4X2wJU7rSlkq.jpg",
+   "character": "Lakan (voice)",
+   "episodes": 16
+  },
+  {
+   "id": 2359648,
+   "name": "Tatsumaru Tachibana",
+   "photo": "https://image.tmdb.org/t/p/w185/eShhW1W22SQuUwRaONnpzEZ5w6E.jpg",
+   "character": "Basen (voice)",
+   "episodes": 15
+  },
+  {
+   "id": 1241603,
+   "name": "Kimiko Saito",
+   "photo": "https://image.tmdb.org/t/p/w185/rPP0jCjtLuEEroY3e2aRT8zonYK.jpg",
+   "character": "Old Madam (voice)",
+   "episodes": 14
+  },
+  {
+   "id": 1164931,
+   "name": "Megumi Han",
+   "photo": "https://image.tmdb.org/t/p/w185/cwnwrPg1YvB19TbfouC4ShGPmbQ.jpg",
+   "character": "Young Jinshi (voice) / Meimei (voice)",
+   "episodes": 14
+  },
+  {
+   "id": 613,
+   "name": "Sumi Shimamoto",
+   "photo": "https://image.tmdb.org/t/p/w185/iKIDv2VFpAgzJ0uMQi7pzcMHB9i.jpg",
+   "character": "Narration (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 203473,
+   "name": "Kaori Nazuka",
+   "photo": "https://image.tmdb.org/t/p/w185/cIMS99s6jpgGBbMnih8gx9hLPFi.jpg",
+   "character": "Suirei (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 1071545,
+   "name": "Kenji Akabane",
+   "photo": "https://image.tmdb.org/t/p/w185/sBduxft8NwdbASvtL14bMx86cPq.jpg",
+   "character": "Lihaku (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 76396,
+   "name": "Mika Doi",
+   "photo": "https://image.tmdb.org/t/p/w185/h5ereBl1UqJC7qH0sLxHJqnJ6Ai.jpg",
+   "character": "Suiren (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 1220947,
+   "name": "Ami Koshimizu",
+   "photo": "https://image.tmdb.org/t/p/w185/e5sU0stGjTMtFoj0jjHH7OFUqYC.jpg",
+   "character": "Pairin (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 1505549,
+   "name": "Daichi Endo",
+   "photo": "https://image.tmdb.org/t/p/w185/4vE6Naj5OHFYoRQXyMtucGnhOAP.jpg",
+   "character": "Emperor (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 2446055,
+   "name": "Takaaki Torashima",
+   "photo": "https://image.tmdb.org/t/p/w185/5aeG0SZ46XukmNJDOSTp2MfKvIc.jpg",
+   "character": "Eunuch (voice) / Military Officer (voice) / High-Ranking Official (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 1597103,
+   "name": "Hina Kino",
+   "photo": "https://image.tmdb.org/t/p/w185/iwq0VvY3q4MPfn5ZTjsthhNcuyd.jpg",
+   "character": "Lishu (voice)",
+   "episodes": 9
+  }
+ ],
+ "crew": [
+  {
+   "id": 3145420,
+   "name": "Ryuji Abe",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 60
+  },
+  {
+   "id": 3917574,
+   "name": "Mitsuharu Moriya",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 60
+  },
+  {
+   "id": 2800859,
+   "name": "Kazutaka Yamanaka",
+   "photo": "https://image.tmdb.org/t/p/w185/gxhxxNEoUDUeYA7LxM0rypdjbWX.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 60
+  },
+  {
+   "id": 1776936,
+   "name": "Takahiro Sato",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 60
+  },
+  {
+   "id": 2044642,
+   "name": "Keiji Ota",
+   "photo": "https://image.tmdb.org/t/p/w185/15NZaRqZHSguv6wF2SvuFoYlkiO.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 60
+  },
+  {
+   "id": 3429095,
+   "name": "Nobumasa Sawabe",
+   "photo": "https://image.tmdb.org/t/p/w185/8QpPWu2pu6cDr7i1p3scNYWyXD2.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 60
+  },
+  {
+   "id": 3803492,
+   "name": "Tatsuya Maeda",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 60
+  },
+  {
+   "id": 1735187,
+   "name": "Katsuhiro Takei",
+   "photo": "https://image.tmdb.org/t/p/w185/8x2aVss0atoUlH0ID3Oboro6Mhd.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 60
+  },
+  {
+   "id": 3460043,
+   "name": "Hideki Kama",
+   "photo": "https://image.tmdb.org/t/p/w185/m9B6bqQpHu8uNYQMJFvup2MsXDQ.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 60
+  },
+  {
+   "id": 2814144,
+   "name": "Atsushi Takahashi",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 60
+  },
+  {
+   "id": 1361675,
+   "name": "Kevin Penkin",
+   "photo": "https://image.tmdb.org/t/p/w185/ijrOjpyxj1yyTs1CEpFxA62xSpK.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 60
+  },
+  {
+   "id": 144660,
+   "name": "Satoru Kosaki",
+   "photo": "https://image.tmdb.org/t/p/w185/ljFbkqKhwq7QoK0Ir0W4F74Plrp.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 60
+  },
+  {
+   "id": 2617399,
+   "name": "Alisa Okehazama",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 60
+  },
+  {
+   "id": 1853320,
+   "name": "Akinori Fudesaka",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 52
+  },
+  {
+   "id": 1254074,
+   "name": "Yuko Kakihara",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 2028664,
+   "name": "Misuzu Chiba",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 16
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:39:07.777Z"
+}

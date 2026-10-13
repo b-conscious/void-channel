@@ -1,0 +1,72 @@
+{
+ "show": "Frozen Planet",
+ "slug": "frozen-planet",
+ "tmdbId": 8724,
+ "cast": [
+  {
+   "id": 86543,
+   "name": "David Attenborough",
+   "photo": "https://image.tmdb.org/t/p/w185/xE6aLZ2Ma1VSoZGhOUW8TcbBMN6.jpg",
+   "character": "Self - Narrator",
+   "episodes": 7
+  }
+ ],
+ "crew": [
+  {
+   "id": 929268,
+   "name": "Paul Spillenger",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1241414,
+   "name": "Susan Winslow",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 67589,
+   "name": "Alastair Fothergill",
+   "photo": "https://image.tmdb.org/t/p/w185/l2fqoPIjMxVLRgb8BU9AwCrDJJA.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1528,
+   "name": "George Fenton",
+   "photo": "https://image.tmdb.org/t/p/w185/gWfVsfSG4WMpbfk0OKUIEj0Gke6.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 86543,
+   "name": "David Attenborough",
+   "photo": "https://image.tmdb.org/t/p/w185/xE6aLZ2Ma1VSoZGhOUW8TcbBMN6.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 67592,
+   "name": "Mark Linfield",
+   "photo": "https://image.tmdb.org/t/p/w185/4wuHDGcaAidxA66xEaGBQdHaQId.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:35:06.849Z"
+}

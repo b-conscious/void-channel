@@ -1,0 +1,322 @@
+{
+ "show": "My Teen Romantic Comedy SNAFU",
+ "slug": "my-teen-romantic-comedy-snafu",
+ "tmdbId": 65676,
+ "cast": [
+  {
+   "id": 1248374,
+   "name": "Takuya Eguchi",
+   "photo": "https://image.tmdb.org/t/p/w185/hPPhUp0mM65Lc87Q8WXUEmGQAXx.jpg",
+   "character": "Hachiman Hikigaya (voice)",
+   "episodes": 38
+  },
+  {
+   "id": 221773,
+   "name": "Saori Hayami",
+   "photo": "https://image.tmdb.org/t/p/w185/gLv9lO7dlUbIsmyJUvgegqAAXki.jpg",
+   "character": "Yukino Yukinoshita (voice)",
+   "episodes": 38
+  },
+  {
+   "id": 1168909,
+   "name": "Nao Toyama",
+   "photo": "https://image.tmdb.org/t/p/w185/6WJDd1z946yFfZBgpC7dWi0FyQw.jpg",
+   "character": "Yui Yuigahama (voice)",
+   "episodes": 38
+  },
+  {
+   "id": 1281498,
+   "name": "Mikako Komatsu",
+   "photo": "https://image.tmdb.org/t/p/w185/13tQEZ1tLdOmi7oGoRJ4xep1ODQ.jpg",
+   "character": "Saika Totsuka (voice)",
+   "episodes": 38
+  },
+  {
+   "id": 222389,
+   "name": "Takashi Kondo",
+   "photo": "https://image.tmdb.org/t/p/w185/9KRXSp1m4fofxJKtoEzsYFnai46.jpg",
+   "character": "Hayato Hayama (voice)",
+   "episodes": 38
+  },
+  {
+   "id": 90137,
+   "name": "Nobuyuki Hiyama",
+   "photo": "https://image.tmdb.org/t/p/w185/yxAzBPZGSzec9rtulmORY84ijzT.jpg",
+   "character": "Yoshiteru Zaimokuza (voice)",
+   "episodes": 38
+  },
+  {
+   "id": 114906,
+   "name": "Ryoka Yuzuki",
+   "photo": "https://image.tmdb.org/t/p/w185/kRiagleTO13MWYXl77xGDBDerxM.jpg",
+   "character": "Shizuka Hiratsuka (voice)",
+   "episodes": 38
+  },
+  {
+   "id": 220709,
+   "name": "Mai Nakahara",
+   "photo": "https://image.tmdb.org/t/p/w185/s8DBmM540SRlRzUplaapMaDo8vV.jpg",
+   "character": "Haruno Yukinoshita (voice)",
+   "episodes": 38
+  },
+  {
+   "id": 90135,
+   "name": "Marina Inoue",
+   "photo": "https://image.tmdb.org/t/p/w185/f7PuEx1h2g4FLgMzk9wCrWuS9Eu.jpg",
+   "character": "Yumiko Miura (voice)",
+   "episodes": 38
+  },
+  {
+   "id": 2413553,
+   "name": "Nozomi Sasaki",
+   "photo": "https://image.tmdb.org/t/p/w185/2j7G3fQC9WkYRUi8q4y22Im4uii.jpg",
+   "character": "Hina Ebina (voice)",
+   "episodes": 38
+  },
+  {
+   "id": 1220947,
+   "name": "Ami Koshimizu",
+   "photo": "https://image.tmdb.org/t/p/w185/e5sU0stGjTMtFoj0jjHH7OFUqYC.jpg",
+   "character": "Saki Kawasaki (voice)",
+   "episodes": 38
+  },
+  {
+   "id": 2596121,
+   "name": "Chado Horii",
+   "photo": "https://image.tmdb.org/t/p/w185/yogIsJV5LK5XPzxF07uS9t7G6T4.jpg",
+   "character": "Kakeru Tobe (voice)",
+   "episodes": 38
+  },
+  {
+   "id": 936275,
+   "name": "Aoi Yuuki",
+   "photo": "https://image.tmdb.org/t/p/w185/a5Mkd66GV1l3c9bZZtnvjUf33T2.jpg",
+   "character": "Sable (voice) / Komachi Hikigaya (voice)",
+   "episodes": 38
+  },
+  {
+   "id": 992869,
+   "name": "Ayane Sakura",
+   "photo": "https://image.tmdb.org/t/p/w185/yPbTmntASE9psPIMhNGU5oo6vIH.jpg",
+   "character": "Iroha Isshiki (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 1498130,
+   "name": "Megu Sakuragawa",
+   "photo": "https://image.tmdb.org/t/p/w185/wlaa363byiXdLWAs1br2rvodRVF.jpg",
+   "character": "Kamakura (voice) / Public relations girl (voice) / Yukko (voice)",
+   "episodes": 22
+  },
+  {
+   "id": 1319218,
+   "name": "Makoto Furukawa",
+   "photo": "https://image.tmdb.org/t/p/w185/inLmBZhrqXeE9wlViyK28ocKJSw.jpg",
+   "character": "Red team boy (voice) / Kaihin High School student (voice) / Room leader (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 3342029,
+   "name": "Miki Inoue",
+   "photo": "https://image.tmdb.org/t/p/w185/sGRd9ndXvSjHBTg7Clu9eudfNq0.jpg",
+   "character": "Haruka (voice) / Female student (voice) / Elementary school student (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 144654,
+   "name": "Minoru Shiraishi",
+   "photo": "https://image.tmdb.org/t/p/w185/tPMBlW0jvO4kPpz2WgpSIk3eZOY.jpg",
+   "character": "Ooka (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 1325958,
+   "name": "Azumi Asakura",
+   "photo": "https://image.tmdb.org/t/p/w185/wlajvPUtfHY5UAREHdd5uG5jyM3.jpg",
+   "character": "Keika Kawasaki (voice) / Meguri Shiromeguri (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 1221102,
+   "name": "Yoshihisa Kawahara",
+   "photo": "https://image.tmdb.org/t/p/w185/p7mhXGetLcnIT7zSd1kiJrbC1t8.jpg",
+   "character": "Atsugi (voice) / Yamato (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 1248340,
+   "name": "Haruka Tomatsu",
+   "photo": "https://image.tmdb.org/t/p/w185/geVvuA2zMGE5xzfc20aDelJSelu.jpg",
+   "character": "Kaori Orimoto (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 101913,
+   "name": "Kikuko Inoue",
+   "photo": "https://image.tmdb.org/t/p/w185/pPxGWy53FgYSC79zmxblmHe0gI3.jpg",
+   "character": "Yukino's mother (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 224413,
+   "name": "Satoshi Hino",
+   "photo": "https://image.tmdb.org/t/p/w185/8ZJIiwIVF2zDyyFr7oXewj0eEuu.jpg",
+   "character": "Tamanawa (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 1249310,
+   "name": "Minako Kotobuki",
+   "photo": "https://image.tmdb.org/t/p/w185/puocmMfvql6X1AvhFTolaV6Vh2r.jpg",
+   "character": "Minami Sagami (voice)",
+   "episodes": 4
+  }
+ ],
+ "crew": [
+  {
+   "id": 1788428,
+   "name": "Wataru Watari",
+   "photo": "https://image.tmdb.org/t/p/w185/riyN7dxQSawzm1RQ6J8xNxEdmOh.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 2295855,
+   "name": "Kakeru Ishihama",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 38
+  },
+  {
+   "id": 70215,
+   "name": "Shoutarou Suga",
+   "photo": "https://image.tmdb.org/t/p/w185/2zg75e5foowuR9g6tGRDFR2gio5.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 36
+  },
+  {
+   "id": 1845135,
+   "name": "Keiichiro Ochi",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 32
+  },
+  {
+   "id": 1996780,
+   "name": "Kei Oikawa",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 27
+  },
+  {
+   "id": 2295854,
+   "name": "Kuniyuki Takahashi",
+   "photo": "https://image.tmdb.org/t/p/w185/nVZUbwCYK6xK9daWoBqzgsOGe9f.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 1506802,
+   "name": "Ai Yoshimura",
+   "photo": "https://image.tmdb.org/t/p/w185/fYv4k10R7wyqQ4PkMENDvBvHc4e.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 3153129,
+   "name": "Shouta Imai",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 1665801,
+   "name": "Takashi Ikehata",
+   "photo": "https://image.tmdb.org/t/p/w185/4oU0knOTn7UGTeYcmqoRHj52zjm.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 1503517,
+   "name": "Touko Machida",
+   "photo": "https://image.tmdb.org/t/p/w185/5vGNMAmWxyEoQfiGZZJNmjaPYHf.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 2915633,
+   "name": "Ryutaro Suzuki",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1691367,
+   "name": "Hideya Takahashi",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1695439,
+   "name": "Takashi Naoya",
+   "photo": "https://image.tmdb.org/t/p/w185/aGdvcXzS75KdkJmuTjaEPVYfW7B.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1255756,
+   "name": "Katsuhiko Takayama",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 3153539,
+   "name": "Tatsuya Sasaki",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 2458967,
+   "name": "Shuhei Matsushita",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:39:14.802Z"
+}

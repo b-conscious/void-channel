@@ -1,0 +1,335 @@
+{
+ "show": "Rick and Morty",
+ "slug": "rick-and-morty",
+ "tmdbId": 60625,
+ "cast": [
+  {
+   "id": 51382,
+   "name": "Chris Parnell",
+   "photo": "https://image.tmdb.org/t/p/w185/9Ga03Y9TVIqTZJ4I9rfL740ibgJ.jpg",
+   "character": "Jerry Smith (voice)",
+   "episodes": 91
+  },
+  {
+   "id": 176823,
+   "name": "Spencer Grammer",
+   "photo": "https://image.tmdb.org/t/p/w185/1L8Y45RJo2YxUXl6ldIowQay1V7.jpg",
+   "character": "Summer Smith (voice)",
+   "episodes": 91
+  },
+  {
+   "id": 49001,
+   "name": "Sarah Chalke",
+   "photo": "https://image.tmdb.org/t/p/w185/ycwiu89cpjqCtSNC5FjbJggjj5R.jpg",
+   "character": "Beth Smith (voice)",
+   "episodes": 91
+  },
+  {
+   "id": 1245733,
+   "name": "Justin Roiland",
+   "photo": "https://image.tmdb.org/t/p/w185/wYApP38aXe6ZcEtlBAfNRxJTQQi.jpg",
+   "character": "Rick Sanchez / Morty Smith (voice)",
+   "episodes": 61
+  },
+  {
+   "id": 116315,
+   "name": "Kari Wahlgren",
+   "photo": "https://image.tmdb.org/t/p/w185/kc0BOnSdzCfq8w9qoNVEm5K12x1.jpg",
+   "character": "Connie TinuityError / Katie (voice) / Additional Voices (voice) / Samantha / Hostage Woman (voice)",
+   "episodes": 44
+  },
+  {
+   "id": 78798,
+   "name": "Tom Kenny",
+   "photo": "https://image.tmdb.org/t/p/w185/kftXtExrcoTTjyeYmSXJ0Ogr3R7.jpg",
+   "character": "Squanchy / Gene Gilligan (voice) / Conroy / Federation Admiral / Additional Voices (voice) / Squanchy / Bartender / Customs Gromflomite (voice)",
+   "episodes": 33
+  },
+  {
+   "id": 1365425,
+   "name": "Ryan Ridley",
+   "photo": "https://image.tmdb.org/t/p/w185/mSFssRpQl6ax2QrYTxBBfluVgy2.jpg",
+   "character": "(voice) / Roy's Doctor (voice) / Frank Palicky / Tom (voice)",
+   "episodes": 33
+  },
+  {
+   "id": 57194,
+   "name": "Dan Harmon",
+   "photo": "https://image.tmdb.org/t/p/w185/gDwFosoyPTd0pmnKParzGj3kaMg.jpg",
+   "character": "Water-T / Ice-T / Magma-T (voice) / Phoenixperson / McDoncalds Employee (voice) / Phoenixperson (voice)",
+   "episodes": 32
+  },
+  {
+   "id": 34521,
+   "name": "Maurice LaMarche",
+   "photo": "https://image.tmdb.org/t/p/w185/qCiL3EYAhLcNo0rNj5pczWo9MwG.jpg",
+   "character": "Alien 2 / Paramedic (voice) / S.W.A.T. Officer / Johnny Carson (voice) / Abradolph Lincler (voice)",
+   "episodes": 31
+  },
+  {
+   "id": 4322756,
+   "name": "Ian Cardoni",
+   "photo": "https://image.tmdb.org/t/p/w185/iEC17Hj50xsH99GTRai14yWP0wp.jpg",
+   "character": "Rick Sanchez (voice)",
+   "episodes": 30
+  },
+  {
+   "id": 4129855,
+   "name": "Harry Belden",
+   "photo": "https://image.tmdb.org/t/p/w185/lkEyIjVsOKOzJgMZE2o8DCrOkbF.jpg",
+   "character": "Morty Smith (voice)",
+   "episodes": 30
+  },
+  {
+   "id": 19508,
+   "name": "Nolan North",
+   "photo": "https://image.tmdb.org/t/p/w185/gb499KZIoBTZnKCGKE4zwzlcfSe.jpg",
+   "character": "Doug Jamerson / Alien Police Officer (voice) / Vice President Dwayne (voice) / Tony Hawk / Marvin the Cowardly Security Guard (voice)",
+   "episodes": 26
+  },
+  {
+   "id": 167411,
+   "name": "Brandon Johnson",
+   "photo": "https://image.tmdb.org/t/p/w185/4hPvsVP7uDBHDgj7JikIY3Wop18.jpg",
+   "character": "Mr. Goldenfold / Black Mailman (voice) / Mr.Goldenfold (voice) / Mr. Goldenfold (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 57195,
+   "name": "Rob Schrab",
+   "photo": "https://image.tmdb.org/t/p/w185/nlx2yrPj7ltMPcQobYjOkmbZala.jpg",
+   "character": "Alexander / Tom Randolph (voice) / Tom Randolph (voice) / (voice)",
+   "episodes": 20
+  },
+  {
+   "id": 1815792,
+   "name": "Nick Reczynski",
+   "photo": "https://image.tmdb.org/t/p/w185/cA7E8ztHyzaoAqDzxrEKpqwmv4b.jpg",
+   "character": "(voice) / Gromflomite Spokesman / Timothy / Gromflomite Guard #2 (voice) / Additional Voices (voice)",
+   "episodes": 18
+  },
+  {
+   "id": 180986,
+   "name": "Cassie Steele",
+   "photo": "https://image.tmdb.org/t/p/w185/2QEVPBwgpKr2Iu7SXR6ywjNqn0x.jpg",
+   "character": "Tricia Lange (voice) / (voice) / Miss Lead (voice)",
+   "episodes": 15
+  },
+  {
+   "id": 1255907,
+   "name": "Echo Kellum",
+   "photo": "https://image.tmdb.org/t/p/w185/dI8sugd93NwhdlRWWL7HidG49xO.jpg",
+   "character": "Additional Voices (voice) / (voice) / Brad / First Mate (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 89599,
+   "name": "Eric Bauza",
+   "photo": "https://image.tmdb.org/t/p/w185/afOlsVPQxbtkom604MeCemjlwEV.jpg",
+   "character": "Additional Voices (voice) / Shane (voice) / Customs Gromflomite / Glen the Gromflomite (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 181234,
+   "name": "Phil Hendrie",
+   "photo": "https://image.tmdb.org/t/p/w185/qKqWLCGboTHTFuLIlFsGstnY59f.jpg",
+   "character": "Principal Gene Vagina (voice) / Principal Gene Vagina / Newscaster / Davin (voice) / Scary Glenn (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 65827,
+   "name": "Keith David",
+   "photo": "https://image.tmdb.org/t/p/w185/1x0QXavmIy3QmhyrOsV7gMnJaEx.jpg",
+   "character": "Reverse Giraffe (voice) / President/Governor Andre Curtis (voice) / President Curtis / Turkey President Curtis (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 54043,
+   "name": "Gary Anthony Williams",
+   "photo": "https://image.tmdb.org/t/p/w185/96BbiV8rQOeGyoDxgrepRd6lUjm.jpg",
+   "character": "(voice) / Fortune 500 Bodyguard (voice) / Quick Mystery Host / Last Will and Testimeow: Weekend at Dead Cat Lady's House II Announcer / Newscaster (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 2643127,
+   "name": "Albro Lundy",
+   "photo": "https://image.tmdb.org/t/p/w185/y0EPxHV3KlhyPP1a1P68AlaR1f9.jpg",
+   "character": "(voice)",
+   "episodes": 9
+  },
+  {
+   "id": 963818,
+   "name": "Troy Baker",
+   "photo": "https://image.tmdb.org/t/p/w185/mppX8pDkwNvx3dJzclwcGkngEb3.jpg",
+   "character": "Observer Offering Money (voice) / Timmy Timtim (voice) / General Carl / Tom (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 15100,
+   "name": "Lauren Tom",
+   "photo": "https://image.tmdb.org/t/p/w185/fTKFspRRQ275AkzvtPERLZnXe0n.jpg",
+   "character": "Additional Voices (voice) / Kendra (voice) / Birddaughter (voice)",
+   "episodes": 8
+  }
+ ],
+ "crew": [
+  {
+   "id": 57194,
+   "name": "Dan Harmon",
+   "photo": "https://image.tmdb.org/t/p/w185/gDwFosoyPTd0pmnKParzGj3kaMg.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 91
+  },
+  {
+   "id": 1245733,
+   "name": "Justin Roiland",
+   "photo": "https://image.tmdb.org/t/p/w185/wYApP38aXe6ZcEtlBAfNRxJTQQi.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 91
+  },
+  {
+   "id": 1651036,
+   "name": "Ryan Elder",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 131
+  },
+  {
+   "id": 1309021,
+   "name": "James A. Fino",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 61
+  },
+  {
+   "id": 1278671,
+   "name": "Joe Russo",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 61
+  },
+  {
+   "id": 1588012,
+   "name": "Steve Levy",
+   "photo": "https://image.tmdb.org/t/p/w185/fXWLd5bk35p8QC64k4Ygy34yWn4.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 60
+  },
+  {
+   "id": 1215656,
+   "name": "Keith Crofford",
+   "photo": "https://image.tmdb.org/t/p/w185/vyNDOCtfryXLFDSvAv5iMXiQuTD.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 51
+  },
+  {
+   "id": 2643127,
+   "name": "Albro Lundy",
+   "photo": "https://image.tmdb.org/t/p/w185/y0EPxHV3KlhyPP1a1P68AlaR1f9.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 50
+  },
+  {
+   "id": 2484730,
+   "name": "James Siciliano",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 50
+  },
+  {
+   "id": 57195,
+   "name": "Rob Schrab",
+   "photo": "https://image.tmdb.org/t/p/w185/nlx2yrPj7ltMPcQobYjOkmbZala.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 50
+  },
+  {
+   "id": 209177,
+   "name": "Scott Marder",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 50
+  },
+  {
+   "id": 1180701,
+   "name": "Nick Rutherford",
+   "photo": "https://image.tmdb.org/t/p/w185/zkZWfrqUSgmk7fNG38AK61s1azD.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Story",
+    "Writer"
+   ],
+   "episodes": 50
+  },
+  {
+   "id": 1215655,
+   "name": "Mike Lazzo",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 41
+  },
+  {
+   "id": 1267190,
+   "name": "Heather Anne Campbell",
+   "photo": "https://image.tmdb.org/t/p/w185/t6kM3FUszf9hUJSNLn0DvHeXr71.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 1853062,
+   "name": "Monica Mitchell",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 3688771,
+   "name": "Richard Grieve",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 37
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:30:45.523Z"
+}

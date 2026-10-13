@@ -1,0 +1,326 @@
+{
+ "show": "The Amazing World of Gumball",
+ "slug": "the-amazing-world-of-gumball",
+ "tmdbId": 37606,
+ "cast": [
+  {
+   "id": 1254162,
+   "name": "Kyla Kowalewski",
+   "photo": "https://image.tmdb.org/t/p/w185/7MOdiZv7gv1tkI6Aac08rxZGLOQ.jpg",
+   "character": "Anais Watterson (voice)",
+   "episodes": 240
+  },
+  {
+   "id": 340927,
+   "name": "Teresa Gallagher",
+   "photo": "https://image.tmdb.org/t/p/w185/2oHiEkrPfgbfKllBFDAhZK4v1Of.jpg",
+   "character": "Nicole Watterson / Penny Fitzgerald / Teri / Mrs. Robinson (voice)",
+   "episodes": 240
+  },
+  {
+   "id": 1254161,
+   "name": "Dan Russell",
+   "photo": "https://image.tmdb.org/t/p/w185/mPh8i23ot7WQbQMu0R9ggay5Z95.jpg",
+   "character": "Richard Watterson / Patrick Fitzgerald (voice)",
+   "episodes": 240
+  },
+  {
+   "id": 101034,
+   "name": "Kerry Shale",
+   "photo": "https://image.tmdb.org/t/p/w185/7IrOqC44j27MtUGjn3UwB2FRFWK.jpg",
+   "character": "Larry Needlemeyer / Leslie / Bobert / Hector / Additional Voices (voice)",
+   "episodes": 240
+  },
+  {
+   "id": 969332,
+   "name": "Jacob Hopkins",
+   "photo": "https://image.tmdb.org/t/p/w185/5oafwxyGuyn16KusxNxdNf6ackQ.jpg",
+   "character": "Gumball Watterson (voice)",
+   "episodes": 120
+  },
+  {
+   "id": 1066609,
+   "name": "Terrell Ransom Jr.",
+   "photo": "https://image.tmdb.org/t/p/w185/zTh0j9NccQBv6x7tK4CvmvcI7ax.jpg",
+   "character": "Darwin Watterson (voice)",
+   "episodes": 120
+  },
+  {
+   "id": 117161,
+   "name": "Logan Grove",
+   "photo": "https://image.tmdb.org/t/p/w185/aHXuQEf3AmVuUgZ9q2A37dB0DyA.jpg",
+   "character": "Gumball Watterson (voice)",
+   "episodes": 116
+  },
+  {
+   "id": 205486,
+   "name": "Kwesi Boakye",
+   "photo": "https://image.tmdb.org/t/p/w185/duHGtwbi8XvCV04kizajcnFh5a1.jpg",
+   "character": "Darwin Watterson (voice)",
+   "episodes": 116
+  },
+  {
+   "id": 1696351,
+   "name": "Nicolas Cantu",
+   "photo": "https://image.tmdb.org/t/p/w185/ySFxLOQ9ejiZddviRVf9bhZvDsf.jpg",
+   "character": "Gumball Watterson (voice)",
+   "episodes": 84
+  },
+  {
+   "id": 1722640,
+   "name": "Donielle T. Hansley Jr.",
+   "photo": "https://image.tmdb.org/t/p/w185/yZVAuQjltznepyoLAGGxW89BLhF.jpg",
+   "character": "Darwin Watterson (voice)",
+   "episodes": 84
+  },
+  {
+   "id": 1983013,
+   "name": "Christian J. Simon",
+   "photo": "https://image.tmdb.org/t/p/w185/e9lHgP8xbCP9VOZPC5nonnypIpa.jpg",
+   "character": "Darwin Watterson (voice)",
+   "episodes": 44
+  },
+  {
+   "id": 211412,
+   "name": "Rupert Degas",
+   "photo": "https://image.tmdb.org/t/p/w185/fVZ6CWYunUC4oWjYCtyDUfHKr4i.jpg",
+   "character": "Mr. Robinson / Tobias Wilson / Larry Needlemeyer / Clayton / Gary Hedges (voice)",
+   "episodes": 36
+  },
+  {
+   "id": 2279899,
+   "name": "Mic Graves",
+   "photo": "https://image.tmdb.org/t/p/w185/6labj7ByABk2lTzUoKhnHklhffo.jpg",
+   "character": "Banana Joe (voice)",
+   "episodes": 36
+  },
+  {
+   "id": 1254164,
+   "name": "Jessica McDonald",
+   "photo": "https://image.tmdb.org/t/p/w185/hmGjpt3ffa6NNQif2uTKjakMuUs.jpg",
+   "character": "Sarah (voice) / Carrie Kreuger (voice) / Masami (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 176254,
+   "name": "Sandra Dickinson",
+   "photo": "https://image.tmdb.org/t/p/w185/fZYuygLSA8HMEbDHgH2txtaEeWa.jpg",
+   "character": "Martha Miller (voice) / Karen / Alison Gator (voice) / Granny Jojo (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 2076,
+   "name": "David Warner",
+   "photo": "https://image.tmdb.org/t/p/w185/AlsZcAY2c4chfOxMW69gHQzH1B2.jpg",
+   "character": "Dr. Wrecker (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 17356,
+   "name": "Garrick Hagon",
+   "photo": "https://image.tmdb.org/t/p/w185/fGz7qzJQdVclj75vDGJDisGmqCH.jpg",
+   "character": "Mayor (voice) / Bernie (voice) / Superintendent Evil",
+   "episodes": 5
+  },
+  {
+   "id": 1074722,
+   "name": "Lewis Macleod",
+   "photo": "https://image.tmdb.org/t/p/w185/lA0k86c40Ob8m7bI87FW8SHLMqj.jpg",
+   "character": "Rocky Robinson (voice) / Mr. Small (voice) / Ms. Lucy Simian (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 98106,
+   "name": "Rich Fulcher",
+   "photo": "https://image.tmdb.org/t/p/w185/kL4mcqgTrysG9VzzaAZO7UFdrdd.jpg",
+   "character": "Frankie Watterson (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 1521319,
+   "name": "Simon Lipkin",
+   "photo": "https://image.tmdb.org/t/p/w185/2NjngJLPELccDl51KBXM7VMsM8I.jpg",
+   "character": "Mr. Corneille (voice) / Rocky Robinson (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 1738564,
+   "name": "Liza Ross",
+   "photo": "https://image.tmdb.org/t/p/w185/w7IhuTPY5PabFQguLHkX3F2zFpI.jpg",
+   "character": "Mary Senicourt (voice) / Violet (voice) / Ehtel (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 1944784,
+   "name": "Alex Jordan",
+   "photo": "https://image.tmdb.org/t/p/w185/6gbX9o8BvLP0BsHEk3HiBwSI3pJ.jpg",
+   "character": "Hot Dog Guy (voice) / Wilson Bilson (voice) / Evil Alan (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 3000555,
+   "name": "Tony Hull",
+   "photo": null,
+   "character": "Anton (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 4271601,
+   "name": "Charles Philipp",
+   "photo": null,
+   "character": "Rob (voice)",
+   "episodes": 3
+  }
+ ],
+ "crew": [
+  {
+   "id": 1254165,
+   "name": "Ben Bocquelet",
+   "photo": "https://image.tmdb.org/t/p/w185/hdIZNgPkg50PhhHVvsefQa4lEI.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 240
+  },
+  {
+   "id": 2279899,
+   "name": "Mic Graves",
+   "photo": "https://image.tmdb.org/t/p/w185/6labj7ByABk2lTzUoKhnHklhffo.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 240
+  },
+  {
+   "id": 3055789,
+   "name": "Tobi Wilson",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 156
+  },
+  {
+   "id": 1300311,
+   "name": "Joe Parham",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 105
+  },
+  {
+   "id": 1222275,
+   "name": "Michael Carrington",
+   "photo": "https://image.tmdb.org/t/p/w185/3HL8tb0e2RaxgcdzrLcOtq83pt9.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 76
+  },
+  {
+   "id": 1254166,
+   "name": "Daniel Lennard",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 76
+  },
+  {
+   "id": 2789306,
+   "name": "Joe Markham",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 75
+  },
+  {
+   "id": 1666900,
+   "name": "Jon Foster",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 73
+  },
+  {
+   "id": 1265622,
+   "name": "James Lamont",
+   "photo": "https://image.tmdb.org/t/p/w185/8xiqbKsVpSkxlW2sfd1D58dUJf2.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 72
+  },
+  {
+   "id": 1367378,
+   "name": "Antoine Perez",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 57
+  },
+  {
+   "id": 3036346,
+   "name": "James Hamilton",
+   "photo": "https://image.tmdb.org/t/p/w185/dFNL60Wmk366GiYrlfEQr8Grnmr.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 55
+  },
+  {
+   "id": 3033556,
+   "name": "Jess Ransom",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 3000547,
+   "name": "Guillaume Cassuto",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 4339550,
+   "name": "Nathan Auerbach",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 35
+  },
+  {
+   "id": 4339551,
+   "name": "Daniel Berg",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 34
+  },
+  {
+   "id": 2175746,
+   "name": "Louise Coats",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 28
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:43.338Z"
+}

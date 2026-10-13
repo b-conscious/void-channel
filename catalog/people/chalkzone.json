@@ -1,0 +1,304 @@
+{
+ "show": "ChalkZone",
+ "slug": "chalkzone",
+ "tmdbId": 4413,
+ "cast": [
+  {
+   "id": 15274,
+   "name": "E. G. Daily",
+   "photo": "https://image.tmdb.org/t/p/w185/sWLXj0yvpMEsZTIsS1ReVQzGnwO.jpg",
+   "character": "Rudy Tabootie (voice)",
+   "episodes": 76
+  },
+  {
+   "id": 95257,
+   "name": "Candi Milo",
+   "photo": "https://image.tmdb.org/t/p/w185/tUjXMG2118Oagj7IjWJDEdmtCRW.jpg",
+   "character": "Snap (voice)",
+   "episodes": 76
+  },
+  {
+   "id": 113919,
+   "name": "Hynden Walch",
+   "photo": "https://image.tmdb.org/t/p/w185/oFfZaFF1o724BuZ3cLK6tl9L03.jpg",
+   "character": "Penny Sanchez (voice)",
+   "episodes": 76
+  },
+  {
+   "id": 84495,
+   "name": "Jess Harnell",
+   "photo": "https://image.tmdb.org/t/p/w185/zQ2zg7PL3ut4JhfXMKSRV4FMnxR.jpg",
+   "character": "Joe Tabootie (voice)",
+   "episodes": 76
+  },
+  {
+   "id": 35109,
+   "name": "Miriam Flynn",
+   "photo": "https://image.tmdb.org/t/p/w185/8o4nFOpCPrgJRhrUMHoouT1E9X3.jpg",
+   "character": "Millie Tabootie (voice)",
+   "episodes": 76
+  },
+  {
+   "id": 214516,
+   "name": "Robert Cait",
+   "photo": "https://image.tmdb.org/t/p/w185/jOAF5DUhynQyaYeywSINwjuPPM9.jpg",
+   "character": "Horace Wilter (voice)",
+   "episodes": 76
+  },
+  {
+   "id": 70615,
+   "name": "Rodger Bumpass",
+   "photo": "https://image.tmdb.org/t/p/w185/lGQkw6adxqB6Hcm7VK8nVHbKupe.jpg",
+   "character": "Biclops (voice)",
+   "episodes": 76
+  },
+  {
+   "id": 56890,
+   "name": "Malcolm McDowell",
+   "photo": "https://image.tmdb.org/t/p/w185/hL8ep4Hqj6izX7IlzE7Bbcfq62w.jpg",
+   "character": "Barney the Encyclocentipedia (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 43125,
+   "name": "Rob Paulsen",
+   "photo": "https://image.tmdb.org/t/p/w185/7buvKWIjPlspqruaO3b28V5owJr.jpg",
+   "character": "Crainiac 3 / Chef (voice) / Craniac / Walrus / Clown (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 9657,
+   "name": "Patrick Warburton",
+   "photo": "https://image.tmdb.org/t/p/w185/nDoOii5HaGwPxYa28xFC2sDkF8y.jpg",
+   "character": "",
+   "episodes": 1
+  },
+  {
+   "id": 1235039,
+   "name": "Buck Owens",
+   "photo": "https://image.tmdb.org/t/p/w185/yIksul1HSuxkGlw2p0irKVlgyGu.jpg",
+   "character": "",
+   "episodes": 1
+  },
+  {
+   "id": 1214359,
+   "name": "Quinton Flynn",
+   "photo": "https://image.tmdb.org/t/p/w185/utjvtCcIfqsxr3QdtVx3wF94mY4.jpg",
+   "character": "",
+   "episodes": 1
+  },
+  {
+   "id": 58769,
+   "name": "Stephen Colbert",
+   "photo": "https://image.tmdb.org/t/p/w185/zQ6pvfqIqYiV4TB7lDoaJL52H93.jpg",
+   "character": "",
+   "episodes": 1
+  },
+  {
+   "id": 185773,
+   "name": "H. Jon Benjamin",
+   "photo": "https://image.tmdb.org/t/p/w185/yZgBHrH8D9Jjo15fuQKnWV3U2OC.jpg",
+   "character": "",
+   "episodes": 1
+  },
+  {
+   "id": 2115,
+   "name": "Kurtwood Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/7dqsk4NYbNZNnmppv2zPuf1hKBn.jpg",
+   "character": "",
+   "episodes": 1
+  },
+  {
+   "id": 15832,
+   "name": "Gilbert Gottfried",
+   "photo": "https://image.tmdb.org/t/p/w185/hkkAgJD0HKcuyd8EuvhyN5vHcDQ.jpg",
+   "character": "",
+   "episodes": 1
+  },
+  {
+   "id": 34521,
+   "name": "Maurice LaMarche",
+   "photo": "https://image.tmdb.org/t/p/w185/qCiL3EYAhLcNo0rNj5pczWo9MwG.jpg",
+   "character": "",
+   "episodes": 1
+  },
+  {
+   "id": 35219,
+   "name": "Corey Burton",
+   "photo": "https://image.tmdb.org/t/p/w185/wcpFwdL7m01cZoBJiUSMQVakK2G.jpg",
+   "character": "",
+   "episodes": 1
+  },
+  {
+   "id": 378,
+   "name": "Jonathan Pryce",
+   "photo": "https://image.tmdb.org/t/p/w185/3nQ01F9WPNPzzLblY7XyaihT9JT.jpg",
+   "character": "The Quicksand Man (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 3010238,
+   "name": "Rosslynn Taylor Jordan",
+   "photo": "https://image.tmdb.org/t/p/w185/f0jDDklMkpwdZJ0yWetDG31s1NW.jpg",
+   "character": "Rapsheeba (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 31162,
+   "name": "Daran Norris",
+   "photo": "https://image.tmdb.org/t/p/w185/oLaegqPwuEdNNJVqrvcgI6guYsi.jpg",
+   "character": "Speaker / Bear / Stick Figure (voice)",
+   "episodes": 1
+  }
+ ],
+ "crew": [
+  {
+   "id": 1234383,
+   "name": "Bill Burnett",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 38
+  },
+  {
+   "id": 1214465,
+   "name": "Larry Huber",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 4502280,
+   "name": "Jenny Nissenson",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 36
+  },
+  {
+   "id": 181429,
+   "name": "Monte Young",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 28
+  },
+  {
+   "id": 1556807,
+   "name": "John Kimball",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 27
+  },
+  {
+   "id": 2061885,
+   "name": "Jaime Diaz",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 27
+  },
+  {
+   "id": 1218307,
+   "name": "Ford Riley",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 2060855,
+   "name": "George Chialtas",
+   "photo": "https://image.tmdb.org/t/p/w185/mOUVJHHge5COY9HVXt8DrJJrtKg.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 4002906,
+   "name": "Richard Bowman",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1698219,
+   "name": "Bob Nesler",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 124563,
+   "name": "Larry Leichliter",
+   "photo": "https://image.tmdb.org/t/p/w185/ynXUAeUASvr7tV0k6Vlg2gap46A.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 4509517,
+   "name": "Peggy Sarlin",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 2017052,
+   "name": "Aydrea Walden",
+   "photo": "https://image.tmdb.org/t/p/w185/kOVApwJxys8bCZUshVOCew8lFLV.jpg",
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 3186815,
+   "name": "Russ Mooney",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 77048,
+   "name": "Steve Marmel",
+   "photo": "https://image.tmdb.org/t/p/w185/sj5nljLMyBfBlmTHZsQALethGTY.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1719750,
+   "name": "Rick Leon",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:29:56.539Z"
+}

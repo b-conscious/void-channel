@@ -1,0 +1,304 @@
+{
+ "show": "Hyouka",
+ "slug": "hyouka",
+ "tmdbId": 65329,
+ "cast": [
+  {
+   "id": 1221114,
+   "name": "Yuichi Nakamura",
+   "photo": "https://image.tmdb.org/t/p/w185/wb8behVKjBHX9XXrEydvNINCYwH.jpg",
+   "character": "Hōtarō Oreki (voice)",
+   "episodes": 22
+  },
+  {
+   "id": 1241611,
+   "name": "Satomi Sato",
+   "photo": "https://image.tmdb.org/t/p/w185/ke0ROEfZo7kbu7icfO6ClWEtXIW.jpg",
+   "character": "Eru Chitanda (voice)",
+   "episodes": 22
+  },
+  {
+   "id": 40331,
+   "name": "Daisuke Sakaguchi",
+   "photo": "https://image.tmdb.org/t/p/w185/cP9lnoYSCyIpSlUkZN4k6RoD7fF.jpg",
+   "character": "Satoshi Fukube (voice)",
+   "episodes": 22
+  },
+  {
+   "id": 1254671,
+   "name": "Ai Kayano",
+   "photo": "https://image.tmdb.org/t/p/w185/l8ywp387rfdAS7mOExe3cEZnsk0.jpg",
+   "character": "Mayaka Ibara (voice)",
+   "episodes": 22
+  },
+  {
+   "id": 3438245,
+   "name": "Asuka Konno",
+   "photo": "https://image.tmdb.org/t/p/w185/yt3hZVLCcWx11GdApj4Pjden6nc.jpg",
+   "character": "Woman (voice) / Female Student (voice) / Social Dance Club Member (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 2356181,
+   "name": "Ichitaro Ai",
+   "photo": "https://image.tmdb.org/t/p/w185/bkKlrjDYzHJgbeuDleU0L7NOO6p.jpg",
+   "character": "Kendo Club Captain (voice) / Greengrocer (voice) / Baseball Club Captain (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 1221102,
+   "name": "Yoshihisa Kawahara",
+   "photo": "https://image.tmdb.org/t/p/w185/p7mhXGetLcnIT7zSd1kiJrbC1t8.jpg",
+   "character": "Koreyuki Tani (voice) / School Affairs (voice) / Handicraft Club Member (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 1253731,
+   "name": "Shiori Mikami",
+   "photo": "https://image.tmdb.org/t/p/w185/vA4xHsvHIC1Kpll63hMsUANjDA3.jpg",
+   "character": "Īzuka (Manga club member) (voice) / Child (voice) / Sayama (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 1249207,
+   "name": "Eiji Miyashita",
+   "photo": "https://image.tmdb.org/t/p/w185/iyg0D0ILd40zqzAHa8ggpP4980T.jpg",
+   "character": "Naoki Gotou (voice) / Shrine Parishioner (voice) / Staff (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 936275,
+   "name": "Aoi Yuuki",
+   "photo": "https://image.tmdb.org/t/p/w185/a5Mkd66GV1l3c9bZZtnvjUf33T2.jpg",
+   "character": "Kurako Eba (voice) / Nakayama (voice) / Female Student (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 90572,
+   "name": "Yukana",
+   "photo": "https://image.tmdb.org/t/p/w185/AeRUkifrHsx0ZYfRRf64gChACyg.jpg",
+   "character": "Fuyumi Irisu (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 112205,
+   "name": "Satsuki Yukino",
+   "photo": "https://image.tmdb.org/t/p/w185/fb9LqdOZPNjlXq3uHriBOmIe2WP.jpg",
+   "character": "Tomoe Oreki (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 219562,
+   "name": "Masumi Asano",
+   "photo": "https://image.tmdb.org/t/p/w185/tE4Ae39zepo1Lmn0pmWhTWKaPvr.jpg",
+   "character": "Ayako Kawachi (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 131563,
+   "name": "Jun Fukuyama",
+   "photo": "https://image.tmdb.org/t/p/w185/eT9eloyIaIkTvTqMmpcsAleP2hM.jpg",
+   "character": "Jiro Tanabe (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 1243967,
+   "name": "Naomi Shindo",
+   "photo": "https://image.tmdb.org/t/p/w185/xP3prr4gWYXq6r2eXaPBbbwUri1.jpg",
+   "character": "Naoko Yuasa (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 1250465,
+   "name": "Mariya Ise",
+   "photo": "https://image.tmdb.org/t/p/w185/uMHWTKGolzzjXCiv20F0n8h2Pqu.jpg",
+   "character": "Misaki Sawakiguchi (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 9706,
+   "name": "Toshiyuki Morikawa",
+   "photo": "https://image.tmdb.org/t/p/w185/hrzGBe4nokgkBNFekNo5hlXB2Bv.jpg",
+   "character": "Muneyoshi Kugayama (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 1072776,
+   "name": "Ayana Taketatsu",
+   "photo": "https://image.tmdb.org/t/p/w185/7p9BhK5EZtHvXWhFa1WejhoNst3.jpg",
+   "character": "Kimura (Manga club member) (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 1321070,
+   "name": "Yumi Uchiyama",
+   "photo": "https://image.tmdb.org/t/p/w185/JvavoF3YOLCf4LHfl4XvYobANE.jpg",
+   "character": "Noriko Shimizu (voice) / Sawai (Manga club member) (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 1256914,
+   "name": "Natsuki Kitakata",
+   "photo": "https://image.tmdb.org/t/p/w185/lqEwfGYmdch2gGficF6yZjrClPn.jpg",
+   "character": "Ariyoshi (Manga club member) (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 1680,
+   "name": "Mami Koyama",
+   "photo": "https://image.tmdb.org/t/p/w185/4KjDxYsa7mMh8gbqSKCV2DixDAx.jpg",
+   "character": "Youko Itoigawa (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 89878,
+   "name": "Ryotaro Okiayu",
+   "photo": "https://image.tmdb.org/t/p/w185/qbj3cFQqWwZ6x7S1jEpOJa57sEZ.jpg",
+   "character": "Masashi Tougaito (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 24647,
+   "name": "Katsuyuki Konishi",
+   "photo": "https://image.tmdb.org/t/p/w185/nYM5cH6U7cp4x9dIzW0enmEKmeV.jpg",
+   "character": "Takeo Kaitou (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 19588,
+   "name": "Miyu Irino",
+   "photo": "https://image.tmdb.org/t/p/w185/8qEEhHUObNvGQr4e6eqLu5z4qTz.jpg",
+   "character": "Jiro Sugimura (voice)",
+   "episodes": 2
+  }
+ ],
+ "crew": [
+  {
+   "id": 1363357,
+   "name": "Shouji Gatou",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 219647,
+   "name": "Yasuhiro Takemoto",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 590925,
+   "name": "Kohei Tanaka",
+   "photo": "https://image.tmdb.org/t/p/w185/rURx4yCLkrGzJDQMsussOJlIH2D.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 1503523,
+   "name": "Maiko Nishioka",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1371965,
+   "name": "Hiroko Utsumi",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1484773,
+   "name": "Taichi Ishidate",
+   "photo": "https://image.tmdb.org/t/p/w185/nBPuRvo9oWFWqzZiS8U4P9j0qtg.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1661036,
+   "name": "Noriyuki Kitanohara",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1642774,
+   "name": "Kazuya Sakamoto",
+   "photo": "https://image.tmdb.org/t/p/w185/i2bKhPJrGBB3YZIG0lpre6DbQ1C.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 2169968,
+   "name": "Katsuhiko Muramoto",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1661046,
+   "name": "Eisaku Kawanami",
+   "photo": "https://image.tmdb.org/t/p/w185/rE2JBPhkfymcVgGvA2kRFqPz7C9.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1072778,
+   "name": "Naoko Yamada",
+   "photo": "https://image.tmdb.org/t/p/w185/28CWDjOjjZmbfXD2m7VuOF0w7F0.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1661035,
+   "name": "Taichi Ogawa",
+   "photo": "https://image.tmdb.org/t/p/w185/AnjExAzhocjwSWxQpwrmwn40H5k.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 2374683,
+   "name": "Rika Ota",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 237219,
+   "name": "Yoshiji Kigami",
+   "photo": "https://image.tmdb.org/t/p/w185/xBhjreC3CenyAvN4AgyLLe7NWtZ.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:39:36.821Z"
+}

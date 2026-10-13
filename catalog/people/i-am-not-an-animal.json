@@ -1,0 +1,79 @@
+{
+ "show": "I Am Not an Animal",
+ "slug": "i-am-not-an-animal",
+ "tmdbId": 100,
+ "cast": [
+  {
+   "id": 4581,
+   "name": "Steve Coogan",
+   "photo": "https://image.tmdb.org/t/p/w185/tT7OXc2qA6hlREHXdwGLp0XihzA.jpg",
+   "character": "Mark the Bird (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 1836,
+   "name": "Julia Davis",
+   "photo": "https://image.tmdb.org/t/p/w185/wsUNCSKoNQTgSdlr9FIeIR6hRAd.jpg",
+   "character": "Claire the Rat (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 11108,
+   "name": "Simon Pegg",
+   "photo": "https://image.tmdb.org/t/p/w185/jw8bEEoTOithyNf0qxu4Zt1yaKp.jpg",
+   "character": "Kieron the Cat (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 39185,
+   "name": "Kevin Eldon",
+   "photo": "https://image.tmdb.org/t/p/w185/1S3ft0f71Hho9QlHUnuyJVHrfKH.jpg",
+   "character": "Hugh the Monkey (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 93713,
+   "name": "Amelia Bullmore",
+   "photo": "https://image.tmdb.org/t/p/w185/qsvkxSBAxj1O1pEXUFIyh85YMk9.jpg",
+   "character": "Winona the Dog (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 1213132,
+   "name": "Arthur Mathews",
+   "photo": null,
+   "character": "Niall the Rabbit (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 940,
+   "name": "John Shrapnel",
+   "photo": "https://image.tmdb.org/t/p/w185/A4Wmltbkz3sz79GcBkLeTqwfkvE.jpg",
+   "character": "Narrator (voice)",
+   "episodes": 6
+  }
+ ],
+ "crew": [
+  {
+   "id": 6732,
+   "name": "Peter Baynham",
+   "photo": "https://image.tmdb.org/t/p/w185/9PPjG6v2E3fnBxHyd2stvaeDldF.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1213131,
+   "name": "Sarah Smith",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:37:21.719Z"
+}

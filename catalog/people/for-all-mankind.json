@@ -1,0 +1,337 @@
+{
+ "show": "For All Mankind",
+ "slug": "for-all-mankind",
+ "tmdbId": 87917,
+ "cast": [
+  {
+   "id": 92404,
+   "name": "Joel Kinnaman",
+   "photo": "https://image.tmdb.org/t/p/w185/cVfYzTyQdJ4xtxKPZe7IcW3BJN4.jpg",
+   "character": "Ed Baldwin",
+   "episodes": 43
+  },
+  {
+   "id": 205772,
+   "name": "Wrenn Schmidt",
+   "photo": "https://image.tmdb.org/t/p/w185/4zi3u7pbYWk1HapRlw0Db5t1Lb9.jpg",
+   "character": "Margo Madison",
+   "episodes": 43
+  },
+  {
+   "id": 1550779,
+   "name": "Cynthy Wu",
+   "photo": "https://image.tmdb.org/t/p/w185/g6mrybJgL2bUIrljDhcxHoS9anO.jpg",
+   "character": "Kelly Baldwin",
+   "episodes": 40
+  },
+  {
+   "id": 1636811,
+   "name": "Coral Peña",
+   "photo": "https://image.tmdb.org/t/p/w185/A2EPFe4fW3QQ2TY44JlFwB83jix.jpg",
+   "character": "Aleida Rosales",
+   "episodes": 40
+  },
+  {
+   "id": 1555306,
+   "name": "Krys Marshall",
+   "photo": "https://image.tmdb.org/t/p/w185/cJtnJMuRNjqgzC7CmIH74mWyBWX.jpg",
+   "character": "Danielle Poole",
+   "episodes": 39
+  },
+  {
+   "id": 94423,
+   "name": "Shantel VanSanten",
+   "photo": "https://image.tmdb.org/t/p/w185/pjTcORzZ8TUKtJwYBuzgmT9aLsO.jpg",
+   "character": "Karen Baldwin (uncredited) / Karen Baldwin",
+   "episodes": 32
+  },
+  {
+   "id": 139901,
+   "name": "Jodi Balfour",
+   "photo": "https://image.tmdb.org/t/p/w185/6MbFmoFtHdxcy6CPTJJhTu2FBGp.jpg",
+   "character": "Ellen Wilson",
+   "episodes": 31
+  },
+  {
+   "id": 39391,
+   "name": "Edi Gathegi",
+   "photo": "https://image.tmdb.org/t/p/w185/dt8yMyycDlzxkjhmuuJJ4tXDbp4.jpg",
+   "character": "Dev Ayesa",
+   "episodes": 30
+  },
+  {
+   "id": 206410,
+   "name": "Noah Harpster",
+   "photo": "https://image.tmdb.org/t/p/w185/roJhr3RWlLcn4SZ3IJ43VsqSOX3.jpg",
+   "character": "Bill Strausser",
+   "episodes": 24
+  },
+  {
+   "id": 76068,
+   "name": "Michael Dorman",
+   "photo": "https://image.tmdb.org/t/p/w185/7Ut9ofZ7fJAvLZ95LVLO1Lepbuc.jpg",
+   "character": "Gordon 'Gordo' Stevens",
+   "episodes": 21
+  },
+  {
+   "id": 2045794,
+   "name": "Casey W. Johnson",
+   "photo": "https://image.tmdb.org/t/p/w185/avhhoQTdWvjIw2WoH7HYILd680I.jpg",
+   "character": "Danny Stevens",
+   "episodes": 21
+  },
+  {
+   "id": 20286,
+   "name": "Toby Kebbell",
+   "photo": "https://image.tmdb.org/t/p/w185/mlYytYJvoEHmhDH2enLtES1098Q.jpg",
+   "character": "Miles Dale",
+   "episodes": 20
+  },
+  {
+   "id": 102952,
+   "name": "Sarah Jones",
+   "photo": "https://image.tmdb.org/t/p/w185/1YFh9NStF75XWTLT9CPGG2395HN.jpg",
+   "character": "Tracy Stevens",
+   "episodes": 20
+  },
+  {
+   "id": 1320843,
+   "name": "Goran Ivanovski",
+   "photo": null,
+   "character": "Dr. Dimitri Mayakovsky",
+   "episodes": 19
+  },
+  {
+   "id": 2405353,
+   "name": "Salvador Chacon",
+   "photo": null,
+   "character": "Gerardo Ortiz-Niño",
+   "episodes": 19
+  },
+  {
+   "id": 127048,
+   "name": "Nate Corddry",
+   "photo": "https://image.tmdb.org/t/p/w185/uQXtMimmxvhdqQusgpQQnc0CnBz.jpg",
+   "character": "Larry Wilson",
+   "episodes": 17
+  },
+  {
+   "id": 2803677,
+   "name": "Meghan Leathers",
+   "photo": "https://image.tmdb.org/t/p/w185/g35VXs8OeebL0Yu3f5Wph0Ho6Jv.jpg",
+   "character": "Pam Horton",
+   "episodes": 17
+  },
+  {
+   "id": 47953,
+   "name": "Sonya Walger",
+   "photo": "https://image.tmdb.org/t/p/w185/bHGtm29qlx6OYsgwOq84xd6MRpF.jpg",
+   "character": "Molly Cobb",
+   "episodes": 16
+  },
+  {
+   "id": 84955,
+   "name": "Myk Watford",
+   "photo": "https://image.tmdb.org/t/p/w185/atyeOUzaR5f6Ew3gA2qE9N0Tvcr.jpg",
+   "character": "Palmer James",
+   "episodes": 16
+  },
+  {
+   "id": 63679,
+   "name": "Svetlana Efremova",
+   "photo": "https://image.tmdb.org/t/p/w185/zwvCFjONXf8ym66v6G33iViKMq4.jpg",
+   "character": "Irina Morozova",
+   "episodes": 15
+  },
+  {
+   "id": 164380,
+   "name": "C.S. Lee",
+   "photo": "https://image.tmdb.org/t/p/w185/cjqzZKv7iCDk2o5Wp2TlhxuQi52.jpg",
+   "character": "Lee Jung-Gil",
+   "episodes": 15
+  },
+  {
+   "id": 156689,
+   "name": "Jessica Tuck",
+   "photo": "https://image.tmdb.org/t/p/w185/lXpxXSuLtOxSTOLZ6KKqdE8XnK1.jpg",
+   "character": "Christine Francis",
+   "episodes": 14
+  },
+  {
+   "id": 55426,
+   "name": "Robert Bailey Jr.",
+   "photo": "https://image.tmdb.org/t/p/w185/2CVKz4PSWBXv2IIIX54DW8MVza2.jpg",
+   "character": "Will Tyler",
+   "episodes": 14
+  },
+  {
+   "id": 1613744,
+   "name": "Dimiter D. Marinov",
+   "photo": "https://image.tmdb.org/t/p/w185/lZwHZ27xqsPsuswcxyx6uWSh5VP.jpg",
+   "character": "Ilya Breshov",
+   "episodes": 13
+  }
+ ],
+ "crew": [
+  {
+   "id": 1228256,
+   "name": "Matt Wolpert",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 50
+  },
+  {
+   "id": 2385,
+   "name": "Ronald D. Moore",
+   "photo": "https://image.tmdb.org/t/p/w185/6A086Blwpv0nuckrzPgvETlkfo1.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 50
+  },
+  {
+   "id": 67231,
+   "name": "Ben Nedivi",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 50
+  },
+  {
+   "id": 545842,
+   "name": "Seth Edelstein",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 90
+  },
+  {
+   "id": 1115253,
+   "name": "Maril Davis",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 50
+  },
+  {
+   "id": 1224368,
+   "name": "Bradley Thompson",
+   "photo": "https://image.tmdb.org/t/p/w185/fPmUc6wo6Ap9HT2yZ9EQf0E42Jf.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 50
+  },
+  {
+   "id": 1224367,
+   "name": "David Weddle",
+   "photo": "https://image.tmdb.org/t/p/w185/wO7UTlOcaTIK6OCMTgk9ZjNjFO2.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 50
+  },
+  {
+   "id": 1219207,
+   "name": "Jeff Russo",
+   "photo": "https://image.tmdb.org/t/p/w185/xmH1qDuU8KC2evd7GXd0hCWWny1.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 50
+  },
+  {
+   "id": 1367304,
+   "name": "Nichole Beattie",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 2702455,
+   "name": "Eric W. Phillips",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 32
+  },
+  {
+   "id": 77849,
+   "name": "Paul Doucette",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 1926055,
+   "name": "Sabrina Almeida",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 1266291,
+   "name": "Colby Day",
+   "photo": "https://image.tmdb.org/t/p/w185/mQrsVK2Lai4wQ0oFOPr8zbAH1ZX.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1582519,
+   "name": "Kira Snyder",
+   "photo": "https://image.tmdb.org/t/p/w185/wQeoheJhWJzoPLnCmBkr48afTN6.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1219378,
+   "name": "Naren Shankar",
+   "photo": "https://image.tmdb.org/t/p/w185/z0wldNQR4EooAtpg5UrWUpwHruA.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 9264,
+   "name": "Sergio Mimica-Gezzan",
+   "photo": "https://image.tmdb.org/t/p/w185/5JSARSBOHvxkelxw8X6j4sRivoe.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 8
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:34:11.780Z"
+}

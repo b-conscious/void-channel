@@ -1,0 +1,316 @@
+{
+ "show": "WandaVision",
+ "slug": "wandavision",
+ "tmdbId": 85271,
+ "cast": [
+  {
+   "id": 550843,
+   "name": "Elizabeth Olsen",
+   "photo": "https://image.tmdb.org/t/p/w185/vXz0E5lQKZS1RnlmcHSGbdR0CzG.jpg",
+   "character": "Wanda Maximoff / Scarlet Witch",
+   "episodes": 9
+  },
+  {
+   "id": 6162,
+   "name": "Paul Bettany",
+   "photo": "https://image.tmdb.org/t/p/w185/oNrDowF5cRtK5lJJuCAh0KeFizy.jpg",
+   "character": "Vision / The Vision",
+   "episodes": 9
+  },
+  {
+   "id": 17696,
+   "name": "Kathryn Hahn",
+   "photo": "https://image.tmdb.org/t/p/w185/9sVllAKfEls3SJD3GoPm2JEZoa5.jpg",
+   "character": "Agnes / Agatha Harkness",
+   "episodes": 9
+  },
+  {
+   "id": 970219,
+   "name": "Teyonah Parris",
+   "photo": "https://image.tmdb.org/t/p/w185/iGvBTOi0y2fbBVwgnBRXgY0IXDY.jpg",
+   "character": "Monica Rambeau / Geraldine",
+   "episodes": 9
+  },
+  {
+   "id": 79082,
+   "name": "Randall Park",
+   "photo": "https://image.tmdb.org/t/p/w185/GpERQxWcT3TXLHpH8b6hIyUazK.jpg",
+   "character": "Jimmy Woo",
+   "episodes": 9
+  },
+  {
+   "id": 52852,
+   "name": "Kat Dennings",
+   "photo": "https://image.tmdb.org/t/p/w185/nJHGtedRCIeAdysg18oJngUZmL3.jpg",
+   "character": "Darcy Lewis / The Escape Artist",
+   "episodes": 9
+  },
+  {
+   "id": 2815800,
+   "name": "Amos Glick",
+   "photo": "https://image.tmdb.org/t/p/w185/t15BfK1o0yHKYILihju5vKv1wNz.jpg",
+   "character": "The Delivery Man (a.k.a. Dennis)",
+   "episodes": 6
+  },
+  {
+   "id": 2937190,
+   "name": "David Payton",
+   "photo": "https://image.tmdb.org/t/p/w185/x9CIWGa0VBRPFiidHQwveGa6AOS.jpg",
+   "character": "John Collins (a.k.a. Herb)",
+   "episodes": 6
+  },
+  {
+   "id": 118236,
+   "name": "David Lengel",
+   "photo": "https://image.tmdb.org/t/p/w185/paRZPvkTXF3oc1UbHTFB2syEe9M.jpg",
+   "character": "Harold Proctor (a.k.a. Phil Jones)",
+   "episodes": 6
+  },
+  {
+   "id": 1853396,
+   "name": "Selena Anduze",
+   "photo": "https://image.tmdb.org/t/p/w185/15m6yIUm9NxFIwkVLR92Thri7nf.jpg",
+   "character": "Agent Rodriguez",
+   "episodes": 6
+  },
+  {
+   "id": 21882,
+   "name": "Josh Stamberg",
+   "photo": "https://image.tmdb.org/t/p/w185/h3WKQr0771BfvrDWpqxOVUlZCOm.jpg",
+   "character": "Director Tyler Hayward",
+   "episodes": 6
+  },
+  {
+   "id": 1039796,
+   "name": "Ithamar Enriquez",
+   "photo": "https://image.tmdb.org/t/p/w185/eWNfRWi4ltFZYCS26XqDMBXcueq.jpg",
+   "character": "Commercial Man",
+   "episodes": 5
+  },
+  {
+   "id": 2437732,
+   "name": "Victoria Blade",
+   "photo": "https://image.tmdb.org/t/p/w185/m0r3iCd2ClWDjYMzAZDaUJe1Oop.jpg",
+   "character": "Commercial Woman",
+   "episodes": 5
+  },
+  {
+   "id": 1822025,
+   "name": "Asif Ali",
+   "photo": "https://image.tmdb.org/t/p/w185/akQ83JhkZ1IW6kg3x85FQsijn1a.jpg",
+   "character": "Abilash Tandon (a.k.a. Norm)",
+   "episodes": 5
+  },
+  {
+   "id": 15453,
+   "name": "Debra Jo Rupp",
+   "photo": "https://image.tmdb.org/t/p/w185/fUhZOSPckMspk03Lh1XgoYGqd5k.jpg",
+   "character": "Sharon Davis (a.k.a. Mrs. Hart)",
+   "episodes": 5
+  },
+  {
+   "id": 1538879,
+   "name": "Jett Klyne",
+   "photo": "https://image.tmdb.org/t/p/w185/6F7fGR6iQFzKNFfHCCYZbg82Alk.jpg",
+   "character": "Tommy Maximoff",
+   "episodes": 5
+  },
+  {
+   "id": 2047847,
+   "name": "Julian Hilliard",
+   "photo": "https://image.tmdb.org/t/p/w185/lp1IJliBZb9OFP5KK09HjSGOsau.jpg",
+   "character": "Billy Maximoff",
+   "episodes": 5
+  },
+  {
+   "id": 1649803,
+   "name": "Jackson Robert Scott",
+   "photo": "https://image.tmdb.org/t/p/w185/lIKAFo9w4ejU1I7LfkU81LWQ0gr.jpg",
+   "character": "Billy Reference",
+   "episodes": 4
+  },
+  {
+   "id": 66745,
+   "name": "Emma Caulfield",
+   "photo": "https://image.tmdb.org/t/p/w185/tYQURD5pl4iGHjyA2yVwmmhaoPt.jpg",
+   "character": "Sarah Proctor (a.k.a. Dottie Jones)",
+   "episodes": 4
+  },
+  {
+   "id": 55089,
+   "name": "Evan Peters",
+   "photo": "https://image.tmdb.org/t/p/w185/m9okq20ca2Md38i2ekJeKs3vTwa.jpg",
+   "character": "Ralph Bohner (a.k.a. Pietro Maximoff)",
+   "episodes": 4
+  },
+  {
+   "id": 2243645,
+   "name": "Alan Heckner",
+   "photo": "https://image.tmdb.org/t/p/w185/qCJrv2gRqXZZmTVfztZXeinxKK8.jpg",
+   "character": "Agent Monti (a.k.a. The Strongman)",
+   "episodes": 4
+  },
+  {
+   "id": 2947012,
+   "name": "Wesley Kimmel",
+   "photo": "https://image.tmdb.org/t/p/w185/lN3VfrQiYmU9ldZRHie8PQtnOe2.jpg",
+   "character": "Commercial Boy",
+   "episodes": 3
+  },
+  {
+   "id": 2408005,
+   "name": "Sydney Thomas",
+   "photo": "https://image.tmdb.org/t/p/w185/lpR75ff26r4OD6IZdHKaHJfiojj.jpg",
+   "character": "Commercial Girl",
+   "episodes": 3
+  },
+  {
+   "id": 2445699,
+   "name": "Christine Renaud",
+   "photo": "https://image.tmdb.org/t/p/w185/1a9qv70kYxGh9UmeHz5zfyXEhRk.jpg",
+   "character": "Darcy Double",
+   "episodes": 3
+  }
+ ],
+ "crew": [
+  {
+   "id": 123132,
+   "name": "Jac Schaeffer",
+   "photo": "https://image.tmdb.org/t/p/w185/uYtwvLURoRVaZkRGaJs9QUX2mDx.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 2937135,
+   "name": "Peter Cameron",
+   "photo": "https://image.tmdb.org/t/p/w185/cmiMMiN6zC489Re2JQ3RcKsT3A2.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1457981,
+   "name": "Bobak Esfarjani",
+   "photo": "https://image.tmdb.org/t/p/w185/nbedZ3RyioQ3XHh4Tmwfl5Yb81M.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 2983557,
+   "name": "Cameron Squires",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 2542594,
+   "name": "Mackenzie Dohr",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1212522,
+   "name": "Matt Shakman",
+   "photo": "https://image.tmdb.org/t/p/w185/kraLXlC9egJh4pTNTpKUYhkkNiu.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 113674,
+   "name": "Victoria Alonso",
+   "photo": "https://image.tmdb.org/t/p/w185/xF7Qe1tqgk9KtY8kThKHBWhMqxc.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 57027,
+   "name": "Louis D'Esposito",
+   "photo": "https://image.tmdb.org/t/p/w185/ewtzT2ZMIX2DNyGUUkHLn36fjgF.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 10850,
+   "name": "Kevin Feige",
+   "photo": "https://image.tmdb.org/t/p/w185/kCBqXZ5PT5udYGEj2wfTSFbLMvT.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 23486,
+   "name": "Christophe Beck",
+   "photo": "https://image.tmdb.org/t/p/w185/n3U0OPETTZGTx4mgsrryARKphR4.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1557045,
+   "name": "Alex Kovacs",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 2056482,
+   "name": "Megan McDonnell",
+   "photo": "https://image.tmdb.org/t/p/w185/ceVysIbdgmxDGV3vj63Ji4MYbPv.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 2464558,
+   "name": "Laura Donney",
+   "photo": "https://image.tmdb.org/t/p/w185/fVnAtyTR7ia66NdXBZjsyFwogMq.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 2199558,
+   "name": "Chuck Hayward",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 2937114,
+   "name": "Gretchen Enders",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:48.481Z"
+}

@@ -1,0 +1,60 @@
+{
+ "show": "Computerman",
+ "slug": "computerman",
+ "tmdbId": 1178,
+ "cast": [
+  {
+   "id": 70851,
+   "name": "Jack Black",
+   "photo": "https://image.tmdb.org/t/p/w185/59IhgCtiWI5yTfzPhsjzg7GjCjm.jpg",
+   "character": "Computerman",
+   "episodes": 6
+  },
+  {
+   "id": 559457,
+   "name": "Steve Agee",
+   "photo": "https://image.tmdb.org/t/p/w185/sbMpatWydjTl2cTcDXFMTgCkEBO.jpg",
+   "character": "Himself",
+   "episodes": 6
+  },
+  {
+   "id": 57194,
+   "name": "Dan Harmon",
+   "photo": "https://image.tmdb.org/t/p/w185/gDwFosoyPTd0pmnKParzGj3kaMg.jpg",
+   "character": "Eugene Murzowski",
+   "episodes": 6
+  },
+  {
+   "id": 1229688,
+   "name": "Dawn Cody",
+   "photo": "https://image.tmdb.org/t/p/w185/xqU8P1zjuEbHmM5Zbie4IDDDivQ.jpg",
+   "character": "A.M.I.",
+   "episodes": 6
+  },
+  {
+   "id": 1755063,
+   "name": "Haysha Deitsch",
+   "photo": null,
+   "character": "Michael",
+   "episodes": 6
+  },
+  {
+   "id": 162811,
+   "name": "Jeff Bryan Davis",
+   "photo": "https://image.tmdb.org/t/p/w185/qWN0KzVRUbgiAuGx1I7FQAmHnMr.jpg",
+   "character": "Agent Chapman",
+   "episodes": 6
+  }
+ ],
+ "crew": [
+  {
+   "id": 57194,
+   "name": "Dan Harmon",
+   "photo": "https://image.tmdb.org/t/p/w185/gDwFosoyPTd0pmnKParzGj3kaMg.jpg",
+   "jobs": [
+    "Creator"
+   ]
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:37:30.579Z"
+}

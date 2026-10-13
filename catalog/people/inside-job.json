@@ -1,0 +1,329 @@
+{
+ "show": "Inside Job",
+ "slug": "inside-job",
+ "tmdbId": 97727,
+ "cast": [
+  {
+   "id": 51988,
+   "name": "Lizzy Caplan",
+   "photo": "https://image.tmdb.org/t/p/w185/cHs9pPpjcEMpWrGmrAYAn0QOE78.jpg",
+   "character": "Reagan Ridley (voice)",
+   "episodes": 18
+  },
+  {
+   "id": 54729,
+   "name": "Clark Duke",
+   "photo": "https://image.tmdb.org/t/p/w185/qL7x57avA9IupsjtwnpIuJ8p8BD.jpg",
+   "character": "Brett Hand (voice)",
+   "episodes": 18
+  },
+  {
+   "id": 2224,
+   "name": "Christian Slater",
+   "photo": "https://image.tmdb.org/t/p/w185/6ww3uweEEXMlvtNjTlgBHxLErPF.jpg",
+   "character": "Rand Ridley (voice)",
+   "episodes": 18
+  },
+  {
+   "id": 224197,
+   "name": "Brett Gelman",
+   "photo": "https://image.tmdb.org/t/p/w185/ub2IuMWFNQGYghHTPq0lpmn2Ue0.jpg",
+   "character": "Magic Myc (voice)",
+   "episodes": 18
+  },
+  {
+   "id": 31531,
+   "name": "John DiMaggio",
+   "photo": "https://image.tmdb.org/t/p/w185/qcbQe71nSlULDsP1OxTqltEKFbl.jpg",
+   "character": "Glenn Dolphman (voice)",
+   "episodes": 18
+  },
+  {
+   "id": 141823,
+   "name": "Tisha Campbell",
+   "photo": "https://image.tmdb.org/t/p/w185/plfnHOee4nfZ6z0ENYBObbxrXUM.jpg",
+   "character": "Gigi Thompson (voice)",
+   "episodes": 18
+  },
+  {
+   "id": 198149,
+   "name": "Bobby Lee",
+   "photo": "https://image.tmdb.org/t/p/w185/90TyhVb7OfyHPmj3ZVX6hEjHGlD.jpg",
+   "character": "Dr. Andre Lee (voice)",
+   "episodes": 18
+  },
+  {
+   "id": 95875,
+   "name": "Andy Daly",
+   "photo": "https://image.tmdb.org/t/p/w185/mBbtTnfcxkFXH3RPomSO4VCyxYS.jpg",
+   "character": "J.R. Scheimpough (voice)",
+   "episodes": 18
+  },
+  {
+   "id": 1217648,
+   "name": "Chris Diamantopoulos",
+   "photo": "https://image.tmdb.org/t/p/w185/oenBtpk0RTId4wacQKYU4cPcq8Z.jpg",
+   "character": "ROBOTUS (voice)",
+   "episodes": 18
+  },
+  {
+   "id": 1852993,
+   "name": "Josh Robert Thompson",
+   "photo": "https://image.tmdb.org/t/p/w185/3zee6V6TzPvgZosq3MJFWoR1DLW.jpg",
+   "character": "The Pope (voice) / Gil (voice) / Matt / Canadian Scarface (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 1254995,
+   "name": "Alex Hirsch",
+   "photo": "https://image.tmdb.org/t/p/w185/pGoKJKbqI3AwcmQkmEKG9jBXdcw.jpg",
+   "character": "P.J. / Paul Rudd (voice) / Grassy Noel Atkinson (voice) / Grassy Noel (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 1251100,
+   "name": "Shion Takeuchi",
+   "photo": "https://image.tmdb.org/t/p/w185/4l87QnF5Fdm7iUk3CJHt5aKBljw.jpg",
+   "character": "Female Cop (voice) / A.I. Voice (voice) / Orrin / Gretchen (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 1260038,
+   "name": "Ron Funches",
+   "photo": "https://image.tmdb.org/t/p/w185/DtULMxPvAlOKfrwISxdEffIKlk.jpg",
+   "character": "Mr. Mothman (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 26998,
+   "name": "Suzy Nakamura",
+   "photo": "https://image.tmdb.org/t/p/w185/AkPYH6DKr0Bhv9kA2PTSGjpi11P.jpg",
+   "character": "Tamiko Ridley (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 15761,
+   "name": "Grey DeLisle",
+   "photo": "https://image.tmdb.org/t/p/w185/vrUHaXe1pG56yZkgH7Hs3LGRLTT.jpg",
+   "character": "Additional Voices (voice) / Taylor Swift / Queen of England / Barb Schriek / Ellen Degeneres / Judge Judy (voice) / Nadia (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 36801,
+   "name": "Adam Scott",
+   "photo": "https://image.tmdb.org/t/p/w185/b82C29R6fGiPoqIglQ4lzS6q2YX.jpg",
+   "character": "Ron Staedtler (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 60252,
+   "name": "Cheri Oteri",
+   "photo": "https://image.tmdb.org/t/p/w185/A56szuLpt2yttvnHB49KNUZmD4b.jpg",
+   "character": "Sitcom Mom (voice) / Kate / Dupli-Kate / Stemantha / Carrie Bradshaw (voice) / Additional Voices (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 441567,
+   "name": "James Adomian",
+   "photo": "https://image.tmdb.org/t/p/w185/auQ2a6mGhPiujtlSqDNSk6l7i1G.jpg",
+   "character": "Jesse Ventura / Alex Jones (voice) / David Blaine (voice) / Additional Voices (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 89599,
+   "name": "Eric Bauza",
+   "photo": "https://image.tmdb.org/t/p/w185/afOlsVPQxbtkom604MeCemjlwEV.jpg",
+   "character": "DNA Tester (voice) / Jason Bourne / Joey (voice) / Farmer (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 2959,
+   "name": "Kayvan Novak",
+   "photo": "https://image.tmdb.org/t/p/w185/2cJuw1nGFHyJTMj8YIh91cvErSm.jpg",
+   "character": "The Pope (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 99166,
+   "name": "Will Blagrove",
+   "photo": "https://image.tmdb.org/t/p/w185/iYmDCSLqiE3VKBOfH7xQQ7pYpEC.jpg",
+   "character": "Will (voice) / Jay-Z (voice) / Crisis Actor (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 75038,
+   "name": "Roger Craig Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/6oE356GbRHAf91Llw7LDpvsAf5L.jpg",
+   "character": "Buzz Aldrin (voice) / Keanu Reeves / Johnny Depp (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 2039030,
+   "name": "Carl Tart",
+   "photo": "https://image.tmdb.org/t/p/w185/tSGLxpTVzO3NotWtc3wkzNPdhlR.jpg",
+   "character": "Sporelando / Security Guard (voice) / Tupac / Threepac / Fourpac (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 21163,
+   "name": "Gary Cole",
+   "photo": "https://image.tmdb.org/t/p/w185/uWsqIlfHbyxkmBJLmq2mR93musF.jpg",
+   "character": "Sitcom Dad / Male Cop (voice) / Brett's father (voice)",
+   "episodes": 2
+  }
+ ],
+ "crew": [
+  {
+   "id": 1251100,
+   "name": "Shion Takeuchi",
+   "photo": "https://image.tmdb.org/t/p/w185/4l87QnF5Fdm7iUk3CJHt5aKBljw.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 2326251,
+   "name": "Alisha Brophy",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 74584,
+   "name": "Scott Thomas",
+   "photo": "https://image.tmdb.org/t/p/w185/7wzY1hkpMiNwde4XLiGnLwJecfM.jpg",
+   "jobs": [
+    "Creator"
+   ]
+  },
+  {
+   "id": 1254995,
+   "name": "Alex Hirsch",
+   "photo": "https://image.tmdb.org/t/p/w185/pGoKJKbqI3AwcmQkmEKG9jBXdcw.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 1348937,
+   "name": "Vitaliy Strokous",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 5338187,
+   "name": "Devon Kelly",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 5867976,
+   "name": "Mike Dow",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 2017761,
+   "name": "David Ochs",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 53215,
+   "name": "Pete Michels",
+   "photo": "https://image.tmdb.org/t/p/w185/2aGKvszKBp5eaPjpFQICN50UWlA.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 2440361,
+   "name": "Mollie Helms",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 2570872,
+   "name": "Burke Scurfield",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 5869649,
+   "name": "Scott Miles",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 4962262,
+   "name": "Adam Lederer",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1367712,
+   "name": "Mike Hollingsworth",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 2206124,
+   "name": "Mike Bertino",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 5338171,
+   "name": "Chase Mitchell",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:34:14.324Z"
+}

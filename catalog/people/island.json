@@ -1,0 +1,100 @@
+{
+ "show": "Island",
+ "slug": "island",
+ "tmdbId": 333101,
+ "cast": [
+  {
+   "id": 1599393,
+   "name": "Tom Sweet",
+   "photo": "https://image.tmdb.org/t/p/w185/w4CjZHZ5PNSEP4Z1BKuVgCeAXMV.jpg",
+   "character": "Jim Hawkins",
+   "episodes": 6
+  },
+  {
+   "id": 35013,
+   "name": "David Oyelowo",
+   "photo": "https://image.tmdb.org/t/p/w185/7UZHRwOKe2cYxj8SeNUklyPYkns.jpg",
+   "character": "Long John Silver",
+   "episodes": 6
+  },
+  {
+   "id": 39459,
+   "name": "Hayley Atwell",
+   "photo": "https://image.tmdb.org/t/p/w185/x57wXHexIjD2ywly9cRA4rov7cu.jpg",
+   "character": "Bess Hawkins",
+   "episodes": 6
+  },
+  {
+   "id": 54738,
+   "name": "Jack Huston",
+   "photo": "https://image.tmdb.org/t/p/w185/qWGoZaUbeuaOLbDvyP5txYr9Hct.jpg",
+   "character": "Aaron Graham",
+   "episodes": 6
+  },
+  {
+   "id": 1550587,
+   "name": "Tomer Capone",
+   "photo": "https://image.tmdb.org/t/p/w185/r6s7dkYZUJpd00C7p9itT6Gp8XB.jpg",
+   "character": "Billy Bones",
+   "episodes": 6
+  }
+ ],
+ "crew": [
+  {
+   "id": 1288924,
+   "name": "Robert Murphy",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 5652422,
+   "name": "Daniel Gratton",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 2128391,
+   "name": "Scott Huff",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1239412,
+   "name": "Colin Callender",
+   "photo": "https://image.tmdb.org/t/p/w185/xW3aW7ylF2JyXm5RyAFik1wXEaM.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1598982,
+   "name": "David A. Stern",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 113273,
+   "name": "Jeremy Lovering",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 6
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:42:34.322Z"
+}

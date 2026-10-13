@@ -1,0 +1,333 @@
+{
+ "show": "Full House",
+ "slug": "full-house",
+ "tmdbId": 4313,
+ "cast": [
+  {
+   "id": 32600,
+   "name": "John Stamos",
+   "photo": "https://image.tmdb.org/t/p/w185/5hFEsxkqI6uGa9ltX2soVqt8r1M.jpg",
+   "character": "Jesse Cochran / Jesse Katsopolis",
+   "episodes": 192
+  },
+  {
+   "id": 72450,
+   "name": "Bob Saget",
+   "photo": "https://image.tmdb.org/t/p/w185/yxTuHygLUF8h2927bP3dYDEYwwP.jpg",
+   "character": "Danny Tanner",
+   "episodes": 192
+  },
+  {
+   "id": 1218736,
+   "name": "Dave Coulier",
+   "photo": "https://image.tmdb.org/t/p/w185/mpWFTLJqVh3Wa42CG6X4tAND2bB.jpg",
+   "character": "Joey Gladstone",
+   "episodes": 192
+  },
+  {
+   "id": 31363,
+   "name": "Candace Cameron Bure",
+   "photo": "https://image.tmdb.org/t/p/w185/sDNFyYgyVmE5AGFCeLR0DVDzCji.jpg",
+   "character": "D.J. Tanner",
+   "episodes": 192
+  },
+  {
+   "id": 1234708,
+   "name": "Jodie Sweetin",
+   "photo": "https://image.tmdb.org/t/p/w185/tzeuWuShOHnDWVaZ0gN02QQvUU5.jpg",
+   "character": "Stephanie Tanner",
+   "episodes": 192
+  },
+  {
+   "id": 67849,
+   "name": "Mary-Kate Olsen",
+   "photo": "https://image.tmdb.org/t/p/w185/AsoqQdZiBBSfbNAP8HPuzu7ePUP.jpg",
+   "character": "Michelle Tanner",
+   "episodes": 187
+  },
+  {
+   "id": 67848,
+   "name": "Ashley Olsen",
+   "photo": "https://image.tmdb.org/t/p/w185/sebAhEGSCSsmrdLWDKiz8n0Vkww.jpg",
+   "character": "Michelle Tanner",
+   "episodes": 187
+  },
+  {
+   "id": 92509,
+   "name": "Lori Loughlin",
+   "photo": "https://image.tmdb.org/t/p/w185/uelwtzItSLYEgaSjfzxfQ1AE1YK.jpg",
+   "character": "Rebecca Katsopolis / Rebecca Donaldson",
+   "episodes": 136
+  },
+  {
+   "id": 1212537,
+   "name": "Andrea Barber",
+   "photo": "https://image.tmdb.org/t/p/w185/bdoXVaOWgdv1ugNwUdfdFJR3bwQ.jpg",
+   "character": "Kimmy Gibbler",
+   "episodes": 98
+  },
+  {
+   "id": 15827,
+   "name": "Scott Weinger",
+   "photo": "https://image.tmdb.org/t/p/w185/5EvrWMz2xi3hOkrEMNGH2Rts2jz.jpg",
+   "character": "Steve Peters / Steve Hale",
+   "episodes": 50
+  },
+  {
+   "id": 1234709,
+   "name": "Blake Tuomy-Wilhoit",
+   "photo": "https://image.tmdb.org/t/p/w185/sbHsPe5UXtcVsz2o2WxXrkjLkxz.jpg",
+   "character": "Nicky Katsopolis",
+   "episodes": 48
+  },
+  {
+   "id": 1236340,
+   "name": "Dylan Tuomy-Wilhoit",
+   "photo": null,
+   "character": "Alex Katsopolis",
+   "episodes": 48
+  },
+  {
+   "id": 104417,
+   "name": "Gail Edwards",
+   "photo": "https://image.tmdb.org/t/p/w185/vc5zsEl6IT1XBYnJzT4kC4OCFY8.jpg",
+   "character": "Vicky Larson",
+   "episodes": 18
+  },
+  {
+   "id": 97181,
+   "name": "Tahj Mowry",
+   "photo": "https://image.tmdb.org/t/p/w185/t11M2kWDMv9dleVjNYjNAcVEyJw.jpg",
+   "character": "Teddy",
+   "episodes": 14
+  },
+  {
+   "id": 8186,
+   "name": "Miko Hughes",
+   "photo": "https://image.tmdb.org/t/p/w185/6oBM2RVDryymOi966ZkCNEDEsws.jpg",
+   "character": "Aaron Bailey",
+   "episodes": 12
+  },
+  {
+   "id": 59017,
+   "name": "Jurnee Smollett-Bell",
+   "photo": "https://image.tmdb.org/t/p/w185/ohvV70Ar4rlL5I3WzxQGtRjpsgS.jpg",
+   "character": "Denise Frazer",
+   "episodes": 11
+  },
+  {
+   "id": 67385,
+   "name": "Blake McIver Ewing",
+   "photo": "https://image.tmdb.org/t/p/w185/8TFz5gIYNNttwVQZgllHbygYKv6.jpg",
+   "character": "Derek Boyd",
+   "episodes": 10
+  },
+  {
+   "id": 1545404,
+   "name": "Gary Griffin",
+   "photo": null,
+   "character": "Gary",
+   "episodes": 10
+  },
+  {
+   "id": 80109,
+   "name": "Marla Sokoloff",
+   "photo": "https://image.tmdb.org/t/p/w185/9al9Fhb4cNRIx3YSp2DlzWpWfi3.jpg",
+   "character": "Gia Mahan",
+   "episodes": 8
+  },
+  {
+   "id": 104504,
+   "name": "John Aprea",
+   "photo": "https://image.tmdb.org/t/p/w185/hZ8Wlv3WaRMqNrRtWZBkw4lcjJj.jpg",
+   "character": "Nick Katsopolis",
+   "episodes": 7
+  },
+  {
+   "id": 44161,
+   "name": "Richard Paul",
+   "photo": "https://image.tmdb.org/t/p/w185/nNJ9kzM5IkBgNW01QsyPpITLTgZ.jpg",
+   "character": "Mr. Strowbridge",
+   "episodes": 6
+  },
+  {
+   "id": 2902887,
+   "name": "Kathryn Zaremba",
+   "photo": null,
+   "character": "Lisa Leeper",
+   "episodes": 6
+  },
+  {
+   "id": 1231463,
+   "name": "Nathan Nishiguchi",
+   "photo": null,
+   "character": "Harry",
+   "episodes": 5
+  },
+  {
+   "id": 102198,
+   "name": "Yvonne Wilder",
+   "photo": "https://image.tmdb.org/t/p/w185/kH1HKeaTIhD8Mc1t7DOvUEwmFAA.jpg",
+   "character": "Irene Katsopolis",
+   "episodes": 5
+  }
+ ],
+ "crew": [
+  {
+   "id": 60621,
+   "name": "Jeff Franklin",
+   "photo": "https://image.tmdb.org/t/p/w185/7oPqgDS1YCNSneqg2DlkquywEJE.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 192
+  },
+  {
+   "id": 1209684,
+   "name": "Jesse Frederick",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 193
+  },
+  {
+   "id": 69877,
+   "name": "Thomas L. Miller",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 192
+  },
+  {
+   "id": 1355180,
+   "name": "Robert L. Boyett",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 192
+  },
+  {
+   "id": 1233592,
+   "name": "Dennis Rinsler",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 170
+  },
+  {
+   "id": 1237412,
+   "name": "Marc Warren",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 170
+  },
+  {
+   "id": 54644,
+   "name": "Joel Zwick",
+   "photo": "https://image.tmdb.org/t/p/w185/jA9eJVJMmngFNIIhSZddKglrCCf.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 125441,
+   "name": "Leonard Ripps",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1212628,
+   "name": "Kim Weiskopf",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 152316,
+   "name": "Russell Marcus",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 34651,
+   "name": "Peter Baldwin",
+   "photo": "https://image.tmdb.org/t/p/w185/2eJb5l3zPRgWvidF39CsHLCb8tV.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1212922,
+   "name": "Lee Shallat Chemel",
+   "photo": "https://image.tmdb.org/t/p/w185/skivbU829we6nJpIq2I7I3qlz9l.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1227344,
+   "name": "Rob Dames",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 84047,
+   "name": "Howard Storm",
+   "photo": "https://image.tmdb.org/t/p/w185/GiKbpF0lGqSNsD8y567S3BlrDW.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 152315,
+   "name": "Rich Correll",
+   "photo": "https://image.tmdb.org/t/p/w185/2ayuF4EcHbcw5hXb7YPivZdAyxX.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1212553,
+   "name": "Jack Shea",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:28:14.345Z"
+}

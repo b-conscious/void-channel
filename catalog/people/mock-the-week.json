@@ -1,0 +1,186 @@
+{
+ "show": "Mock the Week",
+ "slug": "mock-the-week",
+ "tmdbId": 11089,
+ "cast": [
+  {
+   "id": 151344,
+   "name": "Hugh Dennis",
+   "photo": "https://image.tmdb.org/t/p/w185/7JH7OE7Ln4Wx74BaOYo8yaZ6Rwh.jpg",
+   "character": "Self",
+   "episodes": 232
+  },
+  {
+   "id": 94006,
+   "name": "Dara Ó Briain",
+   "photo": "https://image.tmdb.org/t/p/w185/mKu8KTyWejSZCtc92bkfRKdrvfS.jpg",
+   "character": "Self - Host",
+   "episodes": 232
+  },
+  {
+   "id": 95530,
+   "name": "Andy Parsons",
+   "photo": "https://image.tmdb.org/t/p/w185/AZSHPuJzgIPry1LLqi1LtsSYCI.jpg",
+   "character": "Self",
+   "episodes": 142
+  },
+  {
+   "id": 94005,
+   "name": "Russell Howard",
+   "photo": "https://image.tmdb.org/t/p/w185/6DAnM1JwuBw43uzAz9qh5dpp0Kp.jpg",
+   "character": "Self",
+   "episodes": 65
+  },
+  {
+   "id": 82788,
+   "name": "Frankie Boyle",
+   "photo": "https://image.tmdb.org/t/p/w185/tg22wdAZ8OeWf6vW6DVAzlrOYx3.jpg",
+   "character": "Self",
+   "episodes": 64
+  },
+  {
+   "id": 95664,
+   "name": "Ed Byrne",
+   "photo": "https://image.tmdb.org/t/p/w185/4qoJeUpstjDwwrihVChx6JxQX9I.jpg",
+   "character": "Self - Panelist / Self",
+   "episodes": 61
+  },
+  {
+   "id": 1243624,
+   "name": "Milton Jones",
+   "photo": "https://image.tmdb.org/t/p/w185/j0Z2Aw2acbHDibjSle8NazDXESX.jpg",
+   "character": "Self - Panelist / Self",
+   "episodes": 45
+  },
+  {
+   "id": 91493,
+   "name": "Chris Addison",
+   "photo": "https://image.tmdb.org/t/p/w185/pDPJrs1VBpqHpBIlMwuMIQ8s5zK.jpg",
+   "character": "Self",
+   "episodes": 33
+  },
+  {
+   "id": 1645444,
+   "name": "Angela Barnes",
+   "photo": "https://image.tmdb.org/t/p/w185/mt9aF1j9xK8Cpxrtecpn0x8ZvFM.jpg",
+   "character": "Self - Panelist / Self",
+   "episodes": 30
+  },
+  {
+   "id": 1331123,
+   "name": "Ed Gamble",
+   "photo": "https://image.tmdb.org/t/p/w185/jyu3KAHCbGWfY1zlRTvGs6jPtry.jpg",
+   "character": "Self",
+   "episodes": 27
+  },
+  {
+   "id": 2216454,
+   "name": "Rhys James",
+   "photo": "https://image.tmdb.org/t/p/w185/myea6sjpQOP2iyrXppKS99s0IGc.jpg",
+   "character": "Self",
+   "episodes": 25
+  },
+  {
+   "id": 1272666,
+   "name": "Josh Widdicombe",
+   "photo": "https://image.tmdb.org/t/p/w185/7n7kjHkPIjM1CD4IuWExdsKOOrb.jpg",
+   "character": "Self",
+   "episodes": 22
+  },
+  {
+   "id": 1631043,
+   "name": "Rob Beckett",
+   "photo": "https://image.tmdb.org/t/p/w185/cNk7UPouvNyePdmPsOITVFhpe2J.jpg",
+   "character": "Self",
+   "episodes": 20
+  },
+  {
+   "id": 1255893,
+   "name": "Gary Delaney",
+   "photo": "https://image.tmdb.org/t/p/w185/zE9lsaYwUNGFr0B34ZJ8CeUprRz.jpg",
+   "character": "Self",
+   "episodes": 16
+  },
+  {
+   "id": 1785483,
+   "name": "Zoe Lyons",
+   "photo": "https://image.tmdb.org/t/p/w185/iOUpuajkcLXXa7oU1xsFa5uQv7q.jpg",
+   "character": "Self",
+   "episodes": 16
+  },
+  {
+   "id": 1684762,
+   "name": "James Acaster",
+   "photo": "https://image.tmdb.org/t/p/w185/jNqSgekau7kRFozf63LN0FNlFkM.jpg",
+   "character": "Self",
+   "episodes": 15
+  },
+  {
+   "id": 172309,
+   "name": "Rory Bremner",
+   "photo": "https://image.tmdb.org/t/p/w185/gGu57jokGFRQrvhC8I7IpHWEIff.jpg",
+   "character": "Self",
+   "episodes": 13
+  },
+  {
+   "id": 2027847,
+   "name": "Maisie Adam",
+   "photo": "https://image.tmdb.org/t/p/w185/fSeiZABgdwAbiUfj0PthkBGISaE.jpg",
+   "character": "Self",
+   "episodes": 13
+  },
+  {
+   "id": 1304658,
+   "name": "Romesh Ranganathan",
+   "photo": "https://image.tmdb.org/t/p/w185/21NoRDnHCwyAWv0JLEGXO925iTG.jpg",
+   "character": "Self",
+   "episodes": 12
+  },
+  {
+   "id": 585610,
+   "name": "Stewart Francis",
+   "photo": "https://image.tmdb.org/t/p/w185/6ANgnDtuXFKIW9gDjgU7CWHvPCH.jpg",
+   "character": "Self",
+   "episodes": 12
+  },
+  {
+   "id": 221857,
+   "name": "Miles Jupp",
+   "photo": "https://image.tmdb.org/t/p/w185/xVNI6kPi16lpIce0WQfS3DnIspT.jpg",
+   "character": "Self",
+   "episodes": 11
+  },
+  {
+   "id": 139075,
+   "name": "David Mitchell",
+   "photo": "https://image.tmdb.org/t/p/w185/mHN2NWjBsXseWqq7Zg8K31NS91n.jpg",
+   "character": "Self",
+   "episodes": 11
+  },
+  {
+   "id": 1645393,
+   "name": "Nish Kumar",
+   "photo": "https://image.tmdb.org/t/p/w185/6uKUb7Er6keYNbAF3BIwTwrMkKu.jpg",
+   "character": "Self - Panelist / Self",
+   "episodes": 9
+  },
+  {
+   "id": 1248209,
+   "name": "Holly Walsh",
+   "photo": "https://image.tmdb.org/t/p/w185/aao0ZbghGYQLMQlPt87ihRz0Won.jpg",
+   "character": "Self",
+   "episodes": 9
+  }
+ ],
+ "crew": [
+  {
+   "id": 1233327,
+   "name": "Dan Patterson",
+   "photo": null,
+   "jobs": [
+    "Creator"
+   ]
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:36:45.102Z"
+}

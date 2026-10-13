@@ -1,0 +1,327 @@
+{
+ "show": "Pinky and the Brain",
+ "slug": "pinky-and-the-brain",
+ "tmdbId": 2228,
+ "cast": [
+  {
+   "id": 43125,
+   "name": "Rob Paulsen",
+   "photo": "https://image.tmdb.org/t/p/w185/7buvKWIjPlspqruaO3b28V5owJr.jpg",
+   "character": "Pinky (voice)",
+   "episodes": 95
+  },
+  {
+   "id": 34521,
+   "name": "Maurice LaMarche",
+   "photo": "https://image.tmdb.org/t/p/w185/qCiL3EYAhLcNo0rNj5pczWo9MwG.jpg",
+   "character": "The Brain (voice)",
+   "episodes": 95
+  },
+  {
+   "id": 34983,
+   "name": "Tress MacNeille",
+   "photo": "https://image.tmdb.org/t/p/w185/gI2LsgByvSffQY34vabVnPmrHzw.jpg",
+   "character": "Rikki Lake (voice) / First Lady (voice) / Queen Roach / First Lady / Time Machine Computer (voice)",
+   "episodes": 32
+  },
+  {
+   "id": 15831,
+   "name": "Frank Welker",
+   "photo": "https://image.tmdb.org/t/p/w185/aC37aQtsfZZDZN5y3paDTLJJHCi.jpg",
+   "character": "Maurice (voice) / Grandfather (voice) / Ross Perot (voice)",
+   "episodes": 23
+  },
+  {
+   "id": 34982,
+   "name": "Jeff Bennett",
+   "photo": "https://image.tmdb.org/t/p/w185/6Fq3Q1e0Oz0j2J2fnFSl7fKCHd9.jpg",
+   "character": "Game Announcer (voice) / Sampson (voice) / Kilmer (voice)",
+   "episodes": 23
+  },
+  {
+   "id": 7505,
+   "name": "Roddy McDowall",
+   "photo": "https://image.tmdb.org/t/p/w185/mGO0pDPi5p91k2Og09HTf270rxL.jpg",
+   "character": "Snowball (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 35219,
+   "name": "Corey Burton",
+   "photo": "https://image.tmdb.org/t/p/w185/wcpFwdL7m01cZoBJiUSMQVakK2G.jpg",
+   "character": "Evil Clown (voice) / Cushing (voice) / Strawboater (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 23679,
+   "name": "Billy West",
+   "photo": "https://image.tmdb.org/t/p/w185/iNQtBsgV4wr3z5CEEFhR5U4Yedk.jpg",
+   "character": "Anthony H. (voice) / Larry (voice) / Dean (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 12077,
+   "name": "Jim Cummings",
+   "photo": "https://image.tmdb.org/t/p/w185/c0sQPRCM5Ri3F4gVyxPr4AcPmIq.jpg",
+   "character": "V/O #1 (voice) / Chuck (voice) / Punk (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 84495,
+   "name": "Jess Harnell",
+   "photo": "https://image.tmdb.org/t/p/w185/zQ2zg7PL3ut4JhfXMKSRV4FMnxR.jpg",
+   "character": "Wakk Skylicker (voice) / Alien Singer (voice) / Fred Spinatra (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 35159,
+   "name": "Laraine Newman",
+   "photo": "https://image.tmdb.org/t/p/w185/c50cGamQWIfDRDgYmHCiuj5Crpx.jpg",
+   "character": "Secretary (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 40680,
+   "name": "Julie Brown",
+   "photo": "https://image.tmdb.org/t/p/w185/hdTnxS4ry9eDaCZVcItiZ9MEJKk.jpg",
+   "character": "Danette Spoonabello (voice) / Minerva Mink (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 1219626,
+   "name": "Gail Matthius",
+   "photo": "https://image.tmdb.org/t/p/w185/kGpZuDcUJ0gszaW1BKXK2IBay7P.jpg",
+   "character": "Gina (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 1212836,
+   "name": "Paul Rugg",
+   "photo": "https://image.tmdb.org/t/p/w185/rr5KUJtzAAa39gqF22DzBrpGW6a.jpg",
+   "character": "Mr. Sultana (voice) / Mr. Director (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 35035,
+   "name": "Townsend Coleman",
+   "photo": "https://image.tmdb.org/t/p/w185/aMVAo35uihg08G8uc4Q4FiAS5ku.jpg",
+   "character": "Bobby-Bob Yokel (voice) / FBI Agent (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 175483,
+   "name": "Gabrielle Carteris",
+   "photo": "https://image.tmdb.org/t/p/w185/5HtRKrS5GB404n2HWqGw0xIj5I2.jpg",
+   "character": "",
+   "episodes": 2
+  },
+  {
+   "id": 35349,
+   "name": "Pat Musick",
+   "photo": "https://image.tmdb.org/t/p/w185/rGny7ACgjXXKWZc6Sajyuhe40Xj.jpg",
+   "character": "",
+   "episodes": 2
+  },
+  {
+   "id": 46433,
+   "name": "Dick Clark",
+   "photo": "https://image.tmdb.org/t/p/w185/5b0BckJqRZIwi1LcbuA8o2KPZTZ.jpg",
+   "character": "Dick Clark (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 8049,
+   "name": "Roger Rose",
+   "photo": "https://image.tmdb.org/t/p/w185/huGiGhkcHFhtT027UyWy9tbO8IW.jpg",
+   "character": "David L. (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 35158,
+   "name": "John Mariano",
+   "photo": "https://image.tmdb.org/t/p/w185/WJbEhM4040D2XBb1ko7OHR7t2q.jpg",
+   "character": "Robert (voice) / Bobby (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 2716,
+   "name": "Earl Boen",
+   "photo": "https://image.tmdb.org/t/p/w185/nRAlyqkAA84gCTDwjFR77avdfHK.jpg",
+   "character": "Santa (voice) / Earth (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 5176,
+   "name": "Sam McMurray",
+   "photo": "https://image.tmdb.org/t/p/w185/pbZSG0hprUcRkUF3q4NUUzvQX3E.jpg",
+   "character": "Taxman #1 (voice) / Shawn (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 2249,
+   "name": "Clyde Kusatsu",
+   "photo": "https://image.tmdb.org/t/p/w185/5dTSe1F9cnReZGHYzbCbVy7vbcf.jpg",
+   "character": "",
+   "episodes": 1
+  },
+  {
+   "id": 5589,
+   "name": "John Glover",
+   "photo": "https://image.tmdb.org/t/p/w185/aPmq20MXqFALrUxaaJoC2Xonumo.jpg",
+   "character": "",
+   "episodes": 1
+  }
+ ],
+ "crew": [
+  {
+   "id": 488,
+   "name": "Steven Spielberg",
+   "photo": "https://image.tmdb.org/t/p/w185/tZxcg19YQ3e8fJ0pOs7hjlnmmr6.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 95
+  },
+  {
+   "id": 1212834,
+   "name": "Tom Ruegger",
+   "photo": "https://image.tmdb.org/t/p/w185/kncofUBXuuyZMYuxcNO4PfY1krO.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 95
+  },
+  {
+   "id": 1212839,
+   "name": "Charles M. Howell IV",
+   "photo": "https://image.tmdb.org/t/p/w185/zIP7V6XdgrtWDnmioURY2DmPCAp.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1219301,
+   "name": "Tom Sheppard",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 21
+  },
+  {
+   "id": 562914,
+   "name": "Wendell Morris",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 1970998,
+   "name": "Kirk Tingblad",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 175459,
+   "name": "Charles Visser",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 1212838,
+   "name": "Gordon Bressack",
+   "photo": "https://image.tmdb.org/t/p/w185/6BUjoZEG79zy54YXh1NHV4hkL52.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 81587,
+   "name": "Russell Calabrese",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 1970996,
+   "name": "Nelson Recinos",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 67608,
+   "name": "Earl Kress",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 1222787,
+   "name": "Jed Spingarn",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 64149,
+   "name": "Peter Hastings",
+   "photo": "https://image.tmdb.org/t/p/w185/o5BXNCGeMiYS6AlRGigQCGVbr7K.jpg",
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1212840,
+   "name": "Liz Holzman",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1219478,
+   "name": "Mike Milo",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1574231,
+   "name": "Al Zegler",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 8
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:29:41.410Z"
+}

@@ -1,0 +1,334 @@
+{
+ "show": "Castle",
+ "slug": "castle",
+ "tmdbId": 1419,
+ "cast": [
+  {
+   "id": 51797,
+   "name": "Nathan Fillion",
+   "photo": "https://image.tmdb.org/t/p/w185/aW6vCxkUZtwb6iH2Wf88Uq0XNVv.jpg",
+   "character": "Richard Castle",
+   "episodes": 173
+  },
+  {
+   "id": 34408,
+   "name": "Stana Katic",
+   "photo": "https://image.tmdb.org/t/p/w185/4Kw0xJTzRc4VPfOVlaMr7OTfvN2.jpg",
+   "character": "Kate Beckett",
+   "episodes": 173
+  },
+  {
+   "id": 96349,
+   "name": "Molly C. Quinn",
+   "photo": "https://image.tmdb.org/t/p/w185/c3pWyH63Z7RHZkU3y3u6O8f07qf.jpg",
+   "character": "Alexis Castle",
+   "episodes": 173
+  },
+  {
+   "id": 62095,
+   "name": "Jon Huertas",
+   "photo": "https://image.tmdb.org/t/p/w185/fNNJu1SJLQlpD8LVFFGJw1JlQSn.jpg",
+   "character": "Javier Esposito",
+   "episodes": 173
+  },
+  {
+   "id": 114035,
+   "name": "Seamus Dever",
+   "photo": "https://image.tmdb.org/t/p/w185/izuwVXJowfoI5L51whUuHyjmdf8.jpg",
+   "character": "Kevin Ryan",
+   "episodes": 173
+  },
+  {
+   "id": 543204,
+   "name": "Susan Sullivan",
+   "photo": "https://image.tmdb.org/t/p/w185/cafgP4eWAKCwPP76qO7xSkbrSUz.jpg",
+   "character": "Martha Rodgers",
+   "episodes": 173
+  },
+  {
+   "id": 59154,
+   "name": "Tamala Jones",
+   "photo": "https://image.tmdb.org/t/p/w185/8QjSyrB8mk21dcZxrfsODMxFulS.jpg",
+   "character": "Lanie Parish",
+   "episodes": 173
+  },
+  {
+   "id": 1218219,
+   "name": "Penny Johnson Jerald",
+   "photo": "https://image.tmdb.org/t/p/w185/hv0eISflcwdUq0hsbalk2EnfctQ.jpg",
+   "character": "Victoria Gates",
+   "episodes": 93
+  },
+  {
+   "id": 31839,
+   "name": "Ruben Santiago-Hudson",
+   "photo": "https://image.tmdb.org/t/p/w185/tNuO8MO2jFwKo1VlQiq0tLH2rCz.jpg",
+   "character": "Roy Montgomery",
+   "episodes": 59
+  },
+  {
+   "id": 238609,
+   "name": "Maya Stojan",
+   "photo": "https://image.tmdb.org/t/p/w185/peqvjTecu9GHD6PVGJfMyK0UL6u.jpg",
+   "character": "Tory Ellis",
+   "episodes": 27
+  },
+  {
+   "id": 1256258,
+   "name": "Toks Olagundoye",
+   "photo": "https://image.tmdb.org/t/p/w185/2tKnfTA0gh6QnTcHb18hj8o70uG.jpg",
+   "character": "Hayley Shipton",
+   "episodes": 22
+  },
+  {
+   "id": 72028,
+   "name": "Arye Gross",
+   "photo": "https://image.tmdb.org/t/p/w185/7pNNrW5JGpHt2tJeXPOSB3BLzeX.jpg",
+   "character": "Sidney Perlmutter",
+   "episodes": 17
+  },
+  {
+   "id": 105658,
+   "name": "Sunkrish Bala",
+   "photo": "https://image.tmdb.org/t/p/w185/sY8vTJ2ZNkEqiELkeILRmjdrp2K.jpg",
+   "character": "Vikram Singh",
+   "episodes": 9
+  },
+  {
+   "id": 48810,
+   "name": "Scott Paulin",
+   "photo": "https://image.tmdb.org/t/p/w185/cGSy2R21wL02JzTbEQl4DxyMDNZ.jpg",
+   "character": "Jim Beckett",
+   "episodes": 9
+  },
+  {
+   "id": 36001,
+   "name": "Juliana Dever",
+   "photo": "https://image.tmdb.org/t/p/w185/A7Ojv4bGaCnDXGXYtjFteXrs1Yy.jpg",
+   "character": "Jenny Duffy-O'Malley",
+   "episodes": 8
+  },
+  {
+   "id": 1296595,
+   "name": "Myko Olivier",
+   "photo": "https://image.tmdb.org/t/p/w185/22ZXlw5tk2MSBk669KJIqXBTds5.jpg",
+   "character": "Pi",
+   "episodes": 7
+  },
+  {
+   "id": 113927,
+   "name": "Jack Coleman",
+   "photo": "https://image.tmdb.org/t/p/w185/qh76GEfTS4TR2BsJQAYYkEc3WTa.jpg",
+   "character": "William Bracken",
+   "episodes": 6
+  },
+  {
+   "id": 25879,
+   "name": "Geoff Pierson",
+   "photo": "https://image.tmdb.org/t/p/w185/vIhxKBwqV19CwHdPuycmkchYOba.jpg",
+   "character": "Michael Smith",
+   "episodes": 6
+  },
+  {
+   "id": 2391,
+   "name": "Michael Dorn",
+   "photo": "https://image.tmdb.org/t/p/w185/6mVjb0YsidC0gW9P8mXMkQirfcK.jpg",
+   "character": "Carter Burke",
+   "episodes": 6
+  },
+  {
+   "id": 1348901,
+   "name": "L.T. Tolliver",
+   "photo": "https://image.tmdb.org/t/p/w185/qyAgjTEOV6GlSAjyEHyodJIqHLX.jpg",
+   "character": "NYPD Uniform Officer / LT / Uniform Officer",
+   "episodes": 5
+  },
+  {
+   "id": 1586789,
+   "name": "Michelle Alegria",
+   "photo": "https://image.tmdb.org/t/p/w185/bXFKLYWhPpxZoKmxN6ahtchTBED.jpg",
+   "character": "Newscaster / News Anchor / Reporter",
+   "episodes": 5
+  },
+  {
+   "id": 83456,
+   "name": "Michael Trucco",
+   "photo": "https://image.tmdb.org/t/p/w185/qOA3cT2Gsmm9M6URoU4Ykynx2Oc.jpg",
+   "character": "Tom Demming",
+   "episodes": 4
+  },
+  {
+   "id": 1215144,
+   "name": "Victor Webster",
+   "photo": "https://image.tmdb.org/t/p/w185/16bNzaHZRXLGB8T6nByDCGY6lhI.jpg",
+   "character": "Josh Davidson",
+   "episodes": 4
+  },
+  {
+   "id": 159386,
+   "name": "Kristoffer Polaha",
+   "photo": "https://image.tmdb.org/t/p/w185/u7SIxQzDwzU1av7tJoHG62NzN1Y.jpg",
+   "character": "Caleb Brown",
+   "episodes": 4
+  }
+ ],
+ "crew": [
+  {
+   "id": 57532,
+   "name": "Andrew W. Marlowe",
+   "photo": "https://image.tmdb.org/t/p/w185/qWoJoAogMcH7vVoaQER8dgsAbuP.jpg",
+   "jobs": [
+    "Creator",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 12523,
+   "name": "Rob Bowman",
+   "photo": "https://image.tmdb.org/t/p/w185/k6a9XQHJBYi8hqRnwj65yBp0Xdj.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 173
+  },
+  {
+   "id": 41587,
+   "name": "Armyan Bernstein",
+   "photo": "https://image.tmdb.org/t/p/w185/8zJR5pHnTPwAshoK8ZrBYgtRCJm.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 173
+  },
+  {
+   "id": 1224192,
+   "name": "Terri Edda Miller",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 142
+  },
+  {
+   "id": 553985,
+   "name": "Terence Paul Winter",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 115
+  },
+  {
+   "id": 1224181,
+   "name": "Rob Hanning",
+   "photo": "https://image.tmdb.org/t/p/w185/ubzkMCom76NymhnyEXcKWDJZVEd.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 115
+  },
+  {
+   "id": 67855,
+   "name": "Alexi Hawley",
+   "photo": "https://image.tmdb.org/t/p/w185/eIyGbyHTfsIxEOPlD5lByW9A80y.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 94
+  },
+  {
+   "id": 80285,
+   "name": "Kate Sargeant",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 71
+  },
+  {
+   "id": 466391,
+   "name": "Will Beall",
+   "photo": "https://image.tmdb.org/t/p/w185/a7cGswu8HuOpJ7sLREl8XOAW7Tl.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 58
+  },
+  {
+   "id": 102439,
+   "name": "John Terlesky",
+   "photo": "https://image.tmdb.org/t/p/w185/wkfpuOX5BYmEcjwqrKQwD0gFXee.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 187863,
+   "name": "Jose Molina",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1224196,
+   "name": "Christine Boylan",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 23
+  },
+  {
+   "id": 60712,
+   "name": "Bill Roe",
+   "photo": "https://image.tmdb.org/t/p/w185/lJu0r12MWMDrQHSrp2VsNxCYmOR.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 1224179,
+   "name": "David Amann",
+   "photo": "https://image.tmdb.org/t/p/w185/AqSyYNJrEV4SaQhrIRelT3BAPi8.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 42111,
+   "name": "Bryan Spicer",
+   "photo": "https://image.tmdb.org/t/p/w185/dFW8saFuGyJUKI6JPueLoDHiWEs.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 170310,
+   "name": "David Grae",
+   "photo": "https://image.tmdb.org/t/p/w185/g0vdcycngFQIIDGDnuYwIJ5hekU.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 12
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:31:57.804Z"
+}

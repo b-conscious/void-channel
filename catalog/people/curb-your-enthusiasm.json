@@ -1,0 +1,334 @@
+{
+ "show": "Curb Your Enthusiasm",
+ "slug": "curb-your-enthusiasm",
+ "tmdbId": 4546,
+ "cast": [
+  {
+   "id": 16376,
+   "name": "Larry David",
+   "photo": "https://image.tmdb.org/t/p/w185/ojPx93eaDcanOVi4AH14uAFwXhn.jpg",
+   "character": "Larry David",
+   "episodes": 120
+  },
+  {
+   "id": 60074,
+   "name": "Jeff Garlin",
+   "photo": "https://image.tmdb.org/t/p/w185/8shJOwynglerVVxhOKbvDYTThBd.jpg",
+   "character": "Jeff Greene",
+   "episodes": 120
+  },
+  {
+   "id": 56910,
+   "name": "Susie Essman",
+   "photo": "https://image.tmdb.org/t/p/w185/xeVB4LdahB3dvia0WqThHKoqwtH.jpg",
+   "character": "Susie Greene",
+   "episodes": 120
+  },
+  {
+   "id": 57854,
+   "name": "Cheryl Hines",
+   "photo": "https://image.tmdb.org/t/p/w185/jUW4xdla64Vtq1o2Ob8Oc7MjT9C.jpg",
+   "character": "Cheryl David",
+   "episodes": 120
+  },
+  {
+   "id": 65920,
+   "name": "JB Smoove",
+   "photo": "https://image.tmdb.org/t/p/w185/x3bMhniW5Ncz4hEswcnGWefx4h.jpg",
+   "character": "Leon",
+   "episodes": 56
+  },
+  {
+   "id": 6105,
+   "name": "Richard Lewis",
+   "photo": "https://image.tmdb.org/t/p/w185/yyTBCwdS0A4rbii6dMPeY5TG0PF.jpg",
+   "character": "Richard Lewis",
+   "episodes": 45
+  },
+  {
+   "id": 12836,
+   "name": "Ted Danson",
+   "photo": "https://image.tmdb.org/t/p/w185/2QUEYVhrKbOkRKeFEUnc5sJby6a.jpg",
+   "character": "Ted Danson",
+   "episodes": 34
+  },
+  {
+   "id": 16302,
+   "name": "Bob Einstein",
+   "photo": "https://image.tmdb.org/t/p/w185/pRwCorfg2X4NiQfgneN2iqhShsf.jpg",
+   "character": "Marty Funkhouser",
+   "episodes": 22
+  },
+  {
+   "id": 179557,
+   "name": "Ashly Holloway",
+   "photo": "https://image.tmdb.org/t/p/w185/8YYBjYmjUsgJtmPriyHcJJHYU2C.jpg",
+   "character": "Sammy Greene",
+   "episodes": 17
+  },
+  {
+   "id": 10403,
+   "name": "Shelley Berman",
+   "photo": "https://image.tmdb.org/t/p/w185/2BSAgiQ1vuD7I04mteW0BGw89ro.jpg",
+   "character": "Nat David",
+   "episodes": 13
+  },
+  {
+   "id": 1226404,
+   "name": "Antoinette Spolar",
+   "photo": "https://image.tmdb.org/t/p/w185/qXZrBXn8QTUIbGx8kDPtT1goCiz.jpg",
+   "character": "Antoinette / Larry's Receptionist",
+   "episodes": 13
+  },
+  {
+   "id": 62171,
+   "name": "Ellia English",
+   "photo": "https://image.tmdb.org/t/p/w185/y1rk8Y1qnL96OiTBvuKE8zkkv31.jpg",
+   "character": "Auntie Rae",
+   "episodes": 12
+  },
+  {
+   "id": 4937,
+   "name": "Vince Vaughn",
+   "photo": "https://image.tmdb.org/t/p/w185/qImHvsd7SFJh46Ujx50xUfkeMNz.jpg",
+   "character": "Freddy Funkhouser",
+   "episodes": 11
+  },
+  {
+   "id": 2535,
+   "name": "Vivica A. Fox",
+   "photo": "https://image.tmdb.org/t/p/w185/oIzevp0dqjIxqRQ2VoSzjiDCBt.jpg",
+   "character": "Loretta Black",
+   "episodes": 11
+  },
+  {
+   "id": 1563895,
+   "name": "Carla Jeffery",
+   "photo": "https://image.tmdb.org/t/p/w185/v2rGchK6DeQ9VVgrKMWp7MYDZap.jpg",
+   "character": "Keysha",
+   "episodes": 10
+  },
+  {
+   "id": 1333921,
+   "name": "Nick Nervies",
+   "photo": "https://image.tmdb.org/t/p/w185/zTKeeCxb5VemjVL9v9EQNJ03Jmp.jpg",
+   "character": "Daryl",
+   "episodes": 10
+  },
+  {
+   "id": 156587,
+   "name": "Ann Ryerson",
+   "photo": "https://image.tmdb.org/t/p/w185/A1PlH6dw01Eb5xkbqjtv4Wc6e7x.jpg",
+   "character": "Nan Funkhouser",
+   "episodes": 10
+  },
+  {
+   "id": 27102,
+   "name": "Wanda Sykes",
+   "photo": "https://image.tmdb.org/t/p/w185/toPTeiRGN1Ha0DaXl8587i9aHUi.jpg",
+   "character": "Wanda",
+   "episodes": 9
+  },
+  {
+   "id": 56691,
+   "name": "Saverio Guerra",
+   "photo": null,
+   "character": "Mocha Joe / Joe D'Angelo",
+   "episodes": 9
+  },
+  {
+   "id": 30364,
+   "name": "Tracey Ullman",
+   "photo": "https://image.tmdb.org/t/p/w185/cmug3uUXKBo9fhCcJk3pkgt1nvM.jpg",
+   "character": "Irma Kostroski",
+   "episodes": 9
+  },
+  {
+   "id": 21125,
+   "name": "Richard Kind",
+   "photo": "https://image.tmdb.org/t/p/w185/yWmuVQeQUzb5OSMVDoWkR0IylCK.jpg",
+   "character": "Cousin Andy",
+   "episodes": 8
+  },
+  {
+   "id": 15886,
+   "name": "Julia Louis-Dreyfus",
+   "photo": "https://image.tmdb.org/t/p/w185/iEfHQNrVbVFesDPjdySom9nqsFg.jpg",
+   "character": "Julia Louis-Dreyfus",
+   "episodes": 8
+  },
+  {
+   "id": 16584,
+   "name": "Dana Lee",
+   "photo": "https://image.tmdb.org/t/p/w185/k9fWzIKYt2Cf3MNC1j1r7TUC2CR.jpg",
+   "character": "Mr. Takahashi / Takahashi / Car Customer #4 / Takahashi",
+   "episodes": 8
+  },
+  {
+   "id": 15900,
+   "name": "Paul Dooley",
+   "photo": "https://image.tmdb.org/t/p/w185/7nTdbpU4wIsSDZ8WCPXNJOG9KPI.jpg",
+   "character": "Cheryl's Father",
+   "episodes": 7
+  }
+ ],
+ "crew": [
+  {
+   "id": 16376,
+   "name": "Larry David",
+   "photo": "https://image.tmdb.org/t/p/w185/ojPx93eaDcanOVi4AH14uAFwXhn.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Story"
+   ],
+   "episodes": 120
+  },
+  {
+   "id": 60074,
+   "name": "Jeff Garlin",
+   "photo": "https://image.tmdb.org/t/p/w185/8shJOwynglerVVxhOKbvDYTThBd.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 120
+  },
+  {
+   "id": 35974,
+   "name": "Gavin Polone",
+   "photo": "https://image.tmdb.org/t/p/w185/eNxVSUj9ZNCLjHpxb4GIPTFz1zk.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 120
+  },
+  {
+   "id": 57405,
+   "name": "Jeff Schaffer",
+   "photo": "https://image.tmdb.org/t/p/w185/zjGUb5c4k6UiM3lyOwNk7GS04ED.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Story"
+   ],
+   "episodes": 104
+  },
+  {
+   "id": 1236714,
+   "name": "Erin O'Malley",
+   "photo": "https://image.tmdb.org/t/p/w185/fs9H3XXebEZMdYRwP2m4F3J2JGX.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 60
+  },
+  {
+   "id": 1237080,
+   "name": "Tim Gibbons",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 60
+  },
+  {
+   "id": 74159,
+   "name": "Robert B. Weide",
+   "photo": "https://image.tmdb.org/t/p/w185/y1EHey7WZLRLw0uzxsJzIuhJ3W0.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 50
+  },
+  {
+   "id": 6767,
+   "name": "Larry Charles",
+   "photo": "https://image.tmdb.org/t/p/w185/rt48JIfeIJPNNZftESWnMEuzAXN.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 57406,
+   "name": "Alec Berg",
+   "photo": "https://image.tmdb.org/t/p/w185/8qCkqxlyxrSybMnUWf85XQ11qMB.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Story"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 57407,
+   "name": "David Mandel",
+   "photo": "https://image.tmdb.org/t/p/w185/beom0HmSu1sP5YWo6JHETDFtTj0.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Story"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 122583,
+   "name": "Bryan Gordon",
+   "photo": "https://image.tmdb.org/t/p/w185/3xHTnnwfK2Ro1tcA4SEBRzItTwA.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 15452,
+   "name": "David Steinberg",
+   "photo": "https://image.tmdb.org/t/p/w185/zQ6hCCSmrzBTNYuaSE3TULljJyq.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1419631,
+   "name": "Justin Hurwitz",
+   "photo": "https://image.tmdb.org/t/p/w185/4a03MPhWE8u0NGJF9wt0wbBcFWn.jpg",
+   "jobs": [
+    "Story"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1213790,
+   "name": "Andy Ackerman",
+   "photo": "https://image.tmdb.org/t/p/w185/xwYjLYKSZJtOjFkrqEXBtRJNX1g.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 161927,
+   "name": "Carol Leifer",
+   "photo": "https://image.tmdb.org/t/p/w185/iOmKWQeGnjb1SzxrInmFENbagTO.jpg",
+   "jobs": [
+    "Story"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1240253,
+   "name": "Jon Hayman",
+   "photo": null,
+   "jobs": [
+    "Story"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:28:40.140Z"
+}

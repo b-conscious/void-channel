@@ -1,0 +1,331 @@
+{
+ "show": "Arrested Development",
+ "slug": "arrested-development",
+ "tmdbId": 4589,
+ "cast": [
+  {
+   "id": 23532,
+   "name": "Jason Bateman",
+   "photo": "https://image.tmdb.org/t/p/w185/8e6mt0vGjPo6eW52gqRuXy5YnfN.jpg",
+   "character": "Michael Bluth",
+   "episodes": 84
+  },
+  {
+   "id": 62010,
+   "name": "Portia De Rossi",
+   "photo": "https://image.tmdb.org/t/p/w185/cD0zpf1f7nuifgzkK2I9j3Edmag.jpg",
+   "character": "Lindsay Bluth Fünke",
+   "episodes": 84
+  },
+  {
+   "id": 21200,
+   "name": "Will Arnett",
+   "photo": "https://image.tmdb.org/t/p/w185/cXupYqk2ERP13XBkw816skYdVDO.jpg",
+   "character": "Gob Bluth",
+   "episodes": 84
+  },
+  {
+   "id": 39995,
+   "name": "Michael Cera",
+   "photo": "https://image.tmdb.org/t/p/w185/qjhNKsw0OLyZQgK4srhelBafcCf.jpg",
+   "character": "George Michael Bluth",
+   "episodes": 84
+  },
+  {
+   "id": 61178,
+   "name": "Alia Shawkat",
+   "photo": "https://image.tmdb.org/t/p/w185/kcTFBrPSQkenbPK76Iwj49c3Dku.jpg",
+   "character": "Maeby Fünke",
+   "episodes": 84
+  },
+  {
+   "id": 25147,
+   "name": "Tony Hale",
+   "photo": "https://image.tmdb.org/t/p/w185/3dEyZgTye0Ec17VGKp0mJ3aU6ty.jpg",
+   "character": "Byron 'Buster' Bluth",
+   "episodes": 84
+  },
+  {
+   "id": 212,
+   "name": "David Cross",
+   "photo": "https://image.tmdb.org/t/p/w185/aYsbAtUu5oWk1p8RY31k3w5Emul.jpg",
+   "character": "Tobias Fünke",
+   "episodes": 84
+  },
+  {
+   "id": 4175,
+   "name": "Jeffrey Tambor",
+   "photo": "https://image.tmdb.org/t/p/w185/e4IkxsEo5O4oUWrIpXlEhWa6lqB.jpg",
+   "character": "George Bluth Sr.",
+   "episodes": 84
+  },
+  {
+   "id": 41232,
+   "name": "Jessica Walter",
+   "photo": "https://image.tmdb.org/t/p/w185/dR7b2FmJGgjfSpwfz3AZzm6X13O.jpg",
+   "character": "Lucille Bluth",
+   "episodes": 84
+  },
+  {
+   "id": 6159,
+   "name": "Ron Howard",
+   "photo": "https://image.tmdb.org/t/p/w185/tDKn6gAgvARdQRfuem2JwyNcP3B.jpg",
+   "character": "Narrator",
+   "episodes": 84
+  },
+  {
+   "id": 31903,
+   "name": "Henry Winkler",
+   "photo": "https://image.tmdb.org/t/p/w185/mGlSRA5RDswEDmY8oWEizXliShp.jpg",
+   "character": "Barry Zuckerkorn",
+   "episodes": 32
+  },
+  {
+   "id": 939011,
+   "name": "John Beard",
+   "photo": null,
+   "character": "John Beard",
+   "episodes": 31
+  },
+  {
+   "id": 66776,
+   "name": "Liza Minnelli",
+   "photo": "https://image.tmdb.org/t/p/w185/1oGwXBirjCwPOfi2Qib9ZLFCTM4.jpg",
+   "character": "Lucille Austero",
+   "episodes": 21
+  },
+  {
+   "id": 52404,
+   "name": "Mae Whitman",
+   "photo": "https://image.tmdb.org/t/p/w185/y7fg9R5zvqDCZCUt3uwcyOoCOFp.jpg",
+   "character": "Ann Veal",
+   "episodes": 18
+  },
+  {
+   "id": 1237318,
+   "name": "Justin Grant Wade",
+   "photo": "https://image.tmdb.org/t/p/w185/1NILX6kCFOh8ll9cfiKdIdiAiXV.jpg",
+   "character": "Steve Holt",
+   "episodes": 16
+  },
+  {
+   "id": 42157,
+   "name": "Ed Begley Jr.",
+   "photo": "https://image.tmdb.org/t/p/w185/cdS6hZVabhpQ3UdIK0HNvYXj5IM.jpg",
+   "character": "Stan Sitwell",
+   "episodes": 15
+  },
+  {
+   "id": 52848,
+   "name": "Isla Fisher",
+   "photo": "https://image.tmdb.org/t/p/w185/vVeKcMyFMPcIDLYNAnGSGnQrJ3k.jpg",
+   "character": "Rebel Alley",
+   "episodes": 15
+  },
+  {
+   "id": 60278,
+   "name": "Maria Bamford",
+   "photo": "https://image.tmdb.org/t/p/w185/7nhgW2aGeSEL9aN3ThhM8KXwzmh.jpg",
+   "character": "Debrie",
+   "episodes": 15
+  },
+  {
+   "id": 1180698,
+   "name": "Kyle Mooney",
+   "photo": "https://image.tmdb.org/t/p/w185/xywmFOt1OkUGa2Ex2YnmjI6gyd7.jpg",
+   "character": "Murph",
+   "episodes": 14
+  },
+  {
+   "id": 20750,
+   "name": "Judy Greer",
+   "photo": "https://image.tmdb.org/t/p/w185/pTLjIjh83R424RGxIfq4U0yx947.jpg",
+   "character": "Kitty Sanchez",
+   "episodes": 13
+  },
+  {
+   "id": 1000094,
+   "name": "Justin Lee",
+   "photo": "https://image.tmdb.org/t/p/w185/dKfFeV2exBRvdekc5CGNFA3T9cn.jpg",
+   "character": "Annyong Bluth",
+   "episodes": 12
+  },
+  {
+   "id": 3041764,
+   "name": "B.W. Gonzalez",
+   "photo": null,
+   "character": "Lupe",
+   "episodes": 12
+  },
+  {
+   "id": 60074,
+   "name": "Jeff Garlin",
+   "photo": "https://image.tmdb.org/t/p/w185/8shJOwynglerVVxhOKbvDYTThBd.jpg",
+   "character": "Mont Meyers",
+   "episodes": 11
+  },
+  {
+   "id": 15286,
+   "name": "Christine Taylor",
+   "photo": "https://image.tmdb.org/t/p/w185/oeuYnwazeIJowHUAPfm086P87Gi.jpg",
+   "character": "Sally Sitwell",
+   "episodes": 11
+  }
+ ],
+ "crew": [
+  {
+   "id": 1220694,
+   "name": "Mitchell Hurwitz",
+   "photo": "https://image.tmdb.org/t/p/w185/uJXAEC6DZXpzuSwwyC496hvt4zR.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Story",
+    "Writer"
+   ],
+   "episodes": 84
+  },
+  {
+   "id": 6159,
+   "name": "Ron Howard",
+   "photo": "https://image.tmdb.org/t/p/w185/tDKn6gAgvARdQRfuem2JwyNcP3B.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 84
+  },
+  {
+   "id": 339,
+   "name": "Brian Grazer",
+   "photo": "https://image.tmdb.org/t/p/w185/rNFUflKlpTEbnWDHd2Of293E4lx.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 84
+  },
+  {
+   "id": 1521262,
+   "name": "David Schwartz",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 84
+  },
+  {
+   "id": 1232384,
+   "name": "Jim Vallely",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 81
+  },
+  {
+   "id": 1233562,
+   "name": "David Nevins",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 53
+  },
+  {
+   "id": 58868,
+   "name": "Troy Miller",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 19272,
+   "name": "Joe Russo",
+   "photo": "https://image.tmdb.org/t/p/w185/o0OXjFzL10jCy89iAs7UzzSbyoK.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 1224136,
+   "name": "Richard A. Rosenstock",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 64746,
+   "name": "Dean Lorey",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 116805,
+   "name": "Paul Feig",
+   "photo": "https://image.tmdb.org/t/p/w185/mE3eFY3gq1UQ7Rj2He2YbZ7PFya.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1237323,
+   "name": "Chuck Martin",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1230867,
+   "name": "Barbie Adler",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 19271,
+   "name": "Anthony Russo",
+   "photo": "https://image.tmdb.org/t/p/w185/xbINBnWn28YygYWUJ1aSAw0xPRv.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1213124,
+   "name": "Richard Day",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1237326,
+   "name": "John Levenstein",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:28:36.225Z"
+}

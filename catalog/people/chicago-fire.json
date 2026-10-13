@@ -1,0 +1,340 @@
+{
+ "show": "Chicago Fire",
+ "slug": "chicago-fire",
+ "tmdbId": 44006,
+ "cast": [
+  {
+   "id": 210271,
+   "name": "Taylor Kinney",
+   "photo": "https://image.tmdb.org/t/p/w185/lOYVNwhlvah02OnrGIZkFpyr4Wf.jpg",
+   "character": "Kelly Severide",
+   "episodes": 300
+  },
+  {
+   "id": 27552,
+   "name": "David Eigenberg",
+   "photo": "https://image.tmdb.org/t/p/w185/3JOY715n7Low0Y1a9YZAzhNjvZM.jpg",
+   "character": "Christopher Herrmann",
+   "episodes": 300
+  },
+  {
+   "id": 36091,
+   "name": "Christian Stolte",
+   "photo": "https://image.tmdb.org/t/p/w185/hE460cJmuckGHWKGdSgmPxD9ixY.jpg",
+   "character": "Randy 'Mouch' McHolland",
+   "episodes": 300
+  },
+  {
+   "id": 1368157,
+   "name": "Joe Miñoso",
+   "photo": "https://image.tmdb.org/t/p/w185/je6BoStc1WicNZQNJWSrf0kNhAG.jpg",
+   "character": "Joe Cruz",
+   "episodes": 295
+  },
+  {
+   "id": 1256126,
+   "name": "Randy Flagler",
+   "photo": "https://image.tmdb.org/t/p/w185/qCv65XyEg3qQt7rHwiqh55FsqQL.jpg",
+   "character": "Harold Capp",
+   "episodes": 287
+  },
+  {
+   "id": 19299,
+   "name": "Eamonn Walker",
+   "photo": "https://image.tmdb.org/t/p/w185/mJ2pENrcO4uRy2TNVUzg5cEI9b3.jpg",
+   "character": "Wallace Boden",
+   "episodes": 253
+  },
+  {
+   "id": 1525940,
+   "name": "Miranda Rae Mayo",
+   "photo": "https://image.tmdb.org/t/p/w185/dvCagUBHBNGwsozC8KS3tFPtCcj.jpg",
+   "character": "Stella Kidd",
+   "episodes": 231
+  },
+  {
+   "id": 41422,
+   "name": "Jesse Spencer",
+   "photo": "https://image.tmdb.org/t/p/w185/nFqghuc1WaM6HxYZYc86A06wJbC.jpg",
+   "character": "Matthew 'Matt' Casey",
+   "episodes": 204
+  },
+  {
+   "id": 1371298,
+   "name": "Kara Killmer",
+   "photo": "https://image.tmdb.org/t/p/w185/bfiSQa9YZXrYhlXgKazWc4jtoqD.jpg",
+   "character": "Sylvie Brett",
+   "episodes": 199
+  },
+  {
+   "id": 150672,
+   "name": "Yuriy Sardarov",
+   "photo": "https://image.tmdb.org/t/p/w185/kJwDhtc0WpCTOCl6aCg0HND9tcl.jpg",
+   "character": "Brian 'Otis' Zvonecek",
+   "episodes": 161
+  },
+  {
+   "id": 221600,
+   "name": "Monica Raymund",
+   "photo": "https://image.tmdb.org/t/p/w185/cG8OzzgiAEOO5q1Jw4pC1cdJf7E.jpg",
+   "character": "Gabriela Dawson",
+   "episodes": 139
+  },
+  {
+   "id": 1467220,
+   "name": "Daniel Kyri",
+   "photo": "https://image.tmdb.org/t/p/w185/ntw3rLadoyaIlX2gAt5okSCo4Xz.jpg",
+   "character": "Darren Ritter",
+   "episodes": 131
+  },
+  {
+   "id": 2317307,
+   "name": "Hanako Greensmith",
+   "photo": "https://image.tmdb.org/t/p/w185/bm5JcCwJpTfyGlJQxx6wZysKu2n.jpg",
+   "character": "Violet Mikami",
+   "episodes": 117
+  },
+  {
+   "id": 1860776,
+   "name": "Anthony Ferraris",
+   "photo": "https://image.tmdb.org/t/p/w185/pRDj9QVmy8Qedwwakuqy7bQAeND.jpg",
+   "character": "Tony",
+   "episodes": 115
+  },
+  {
+   "id": 1486207,
+   "name": "Alberto Rosende",
+   "photo": "https://image.tmdb.org/t/p/w185/hwEkJ9t5MjvJgfMTVzjWmFGgGbX.jpg",
+   "character": "Blake Gallo",
+   "episodes": 81
+  },
+  {
+   "id": 987035,
+   "name": "Charlie Barnett",
+   "photo": "https://image.tmdb.org/t/p/w185/hqAk1RLLXzPjo5GK0tQPe91ldRG.jpg",
+   "character": "Peter Mills",
+   "episodes": 69
+  },
+  {
+   "id": 1072743,
+   "name": "Jake Lockett",
+   "photo": "https://image.tmdb.org/t/p/w185/8kBLO3cuNNXdmuIcExlYwcNMBz2.jpg",
+   "character": "Sam Carver",
+   "episodes": 56
+  },
+  {
+   "id": 1396320,
+   "name": "Robyn Coffin",
+   "photo": "https://image.tmdb.org/t/p/w185/goPW2KVmZpG2XH8Oo97IOM9egZr.jpg",
+   "character": "Cindy Herrmann",
+   "episodes": 56
+  },
+  {
+   "id": 1522345,
+   "name": "Jocelyn Hudon",
+   "photo": "https://image.tmdb.org/t/p/w185/quI2sUAc3opQ3Bb2H2OMHEMchGf.jpg",
+   "character": "Paramedic Lyla 'Lizzie' Novak",
+   "episodes": 53
+  },
+  {
+   "id": 37014,
+   "name": "Lauren German",
+   "photo": "https://image.tmdb.org/t/p/w185/if1TbO8dSfPiDCMfy52nH7A2D7.jpg",
+   "character": "Leslie Shay",
+   "episodes": 47
+  },
+  {
+   "id": 88699,
+   "name": "Steven R. McQueen",
+   "photo": "https://image.tmdb.org/t/p/w185/y07CdWjGxsDU5qiukWpSEFDZT91.jpg",
+   "character": "Jimmy Borelli",
+   "episodes": 45
+  },
+  {
+   "id": 2958651,
+   "name": "Katelynn Shennett",
+   "photo": "https://image.tmdb.org/t/p/w185/iSii5BfSQtInsVkGDqzL4VoNkSV.jpg",
+   "character": "Kylie Estevez",
+   "episodes": 45
+  },
+  {
+   "id": 209196,
+   "name": "Annie Ilonzeh",
+   "photo": "https://image.tmdb.org/t/p/w185/CTJr6V472oxa92GDCd3Eqh4jDd.jpg",
+   "character": "Emily Foster",
+   "episodes": 42
+  },
+  {
+   "id": 26930,
+   "name": "Amy Morton",
+   "photo": "https://image.tmdb.org/t/p/w185/2qLHQpxvFMlMKf7qeBKGRTsJF4S.jpg",
+   "character": "Trudy Platt",
+   "episodes": 40
+  }
+ ],
+ "crew": [
+  {
+   "id": 7865,
+   "name": "Michael Brandt",
+   "photo": "https://image.tmdb.org/t/p/w185/13p3xvGWhCbSNgv9S2DiBcPnoWQ.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 295
+  },
+  {
+   "id": 8161,
+   "name": "Derek Haas",
+   "photo": "https://image.tmdb.org/t/p/w185/a2kkIGmfxO45TrFgvARHi8rCqlQ.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 274
+  },
+  {
+   "id": 117443,
+   "name": "Dick Wolf",
+   "photo": "https://image.tmdb.org/t/p/w185/tRMEuYNVFjXYJ7gh1sGJSxq9Vwq.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Story"
+   ],
+   "episodes": 295
+  },
+  {
+   "id": 1218298,
+   "name": "Peter Jankowski",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 295
+  },
+  {
+   "id": 72268,
+   "name": "Atli Örvarsson",
+   "photo": "https://image.tmdb.org/t/p/w185/fmg2HsSMUWAR2QYhOTFtPdqumIw.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 295
+  },
+  {
+   "id": 1218026,
+   "name": "Arthur W. Forney",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 252
+  },
+  {
+   "id": 1405245,
+   "name": "Reza Tabrizi",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 95
+  },
+  {
+   "id": 1215763,
+   "name": "Andrea Newman",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 95
+  },
+  {
+   "id": 212800,
+   "name": "Matt Whitney",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Story",
+    "Writer"
+   ],
+   "episodes": 82
+  },
+  {
+   "id": 840978,
+   "name": "Michael Gilvary",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 73
+  },
+  {
+   "id": 2229425,
+   "name": "Elizabeth Sherman",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 54
+  },
+  {
+   "id": 3297295,
+   "name": "Ashley J. Cooper",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 49
+  },
+  {
+   "id": 1158417,
+   "name": "Victor Teran",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 55116,
+   "name": "Joe Chappelle",
+   "photo": "https://image.tmdb.org/t/p/w185/tzKaHCZPh1u28yjIteXsW9pQQGf.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 3835229,
+   "name": "Danielle Nicki",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 173957,
+   "name": "Matt Earl Beesley",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 18
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:30.197Z"
+}

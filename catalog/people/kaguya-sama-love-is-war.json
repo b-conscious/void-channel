@@ -1,0 +1,322 @@
+{
+ "show": "Kaguya-sama: Love Is War",
+ "slug": "kaguya-sama-love-is-war",
+ "tmdbId": 83121,
+ "cast": [
+  {
+   "id": 1319218,
+   "name": "Makoto Furukawa",
+   "photo": "https://image.tmdb.org/t/p/w185/inLmBZhrqXeE9wlViyK28ocKJSw.jpg",
+   "character": "Miyuki Shirogane (voice)",
+   "episodes": 37
+  },
+  {
+   "id": 2251986,
+   "name": "Aoi Koga",
+   "photo": "https://image.tmdb.org/t/p/w185/uVpwheVV4aPROyY1toYv3v5HSPD.jpg",
+   "character": "Kaguya Shinomiya (voice)",
+   "episodes": 37
+  },
+  {
+   "id": 1820616,
+   "name": "Konomi Kohara",
+   "photo": "https://image.tmdb.org/t/p/w185/3wjTzpJpBiTkLexdMmo9a3wfgRT.jpg",
+   "character": "Chika Fujiwara (voice)",
+   "episodes": 37
+  },
+  {
+   "id": 2138291,
+   "name": "Ryota Suzuki",
+   "photo": "https://image.tmdb.org/t/p/w185/4Xq18mQttuW2yfRCflnWoU7UqQ5.jpg",
+   "character": "Yuu Ishigami (voice)",
+   "episodes": 37
+  },
+  {
+   "id": 1565358,
+   "name": "Yumiri Hanamori",
+   "photo": "https://image.tmdb.org/t/p/w185/zXVwGxsxwEvL1f6wxzTYtxytjDn.jpg",
+   "character": "Ai Hayasaka (voice)",
+   "episodes": 37
+  },
+  {
+   "id": 1530922,
+   "name": "Momo Asakura",
+   "photo": "https://image.tmdb.org/t/p/w185/gdzYEujO3I5nZCyAx95Mo47fZ86.jpg",
+   "character": "Nagisa Kashiwagi (voice)",
+   "episodes": 37
+  },
+  {
+   "id": 1613379,
+   "name": "Taku Yashiro",
+   "photo": "https://image.tmdb.org/t/p/w185/eVdB6myaNJ4h38UU9hHHlsaCWHn.jpg",
+   "character": "Tsubasa Tanuma (voice) / Kashiwagi's Boyfriend (voice)",
+   "episodes": 37
+  },
+  {
+   "id": 1251543,
+   "name": "Yutaka Aoyama",
+   "photo": "https://image.tmdb.org/t/p/w185/uURpUJDPpDDABdXG0x9TYPxQknX.jpg",
+   "character": "Narration (voice)",
+   "episodes": 37
+  },
+  {
+   "id": 1647636,
+   "name": "Miyu Tomita",
+   "photo": "https://image.tmdb.org/t/p/w185/rSR17l4HdchLkhpRuAZbGbXNmUS.jpg",
+   "character": "Miko Iino (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 1116334,
+   "name": "Rina Hidaka",
+   "photo": "https://image.tmdb.org/t/p/w185/7JupZGvqcq4dRxiTKpPxzg8NUS4.jpg",
+   "character": "Kobachi Osaragi (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 1972402,
+   "name": "Kana Ichinose",
+   "photo": "https://image.tmdb.org/t/p/w185/hBJx5tpLA2vkXqfkPZosGjW4e8C.jpg",
+   "character": "Maki Shijou (voice)",
+   "episodes": 16
+  },
+  {
+   "id": 1423159,
+   "name": "Haruka Fukuhara",
+   "photo": "https://image.tmdb.org/t/p/w185/vTosH8FMDuQK9u6CWavOPnNdmH1.jpg",
+   "character": "Tsubame Koyasu (voice)",
+   "episodes": 16
+  },
+  {
+   "id": 2206133,
+   "name": "Sayumi Suzushiro",
+   "photo": "https://image.tmdb.org/t/p/w185/7wEX0bXCs2djnp0dKsCqmMKZpZV.jpg",
+   "character": "Kei Shirogane (voice)",
+   "episodes": 14
+  },
+  {
+   "id": 1678727,
+   "name": "Madoka Asahina",
+   "photo": "https://image.tmdb.org/t/p/w185/aCOJPsbiwqIKClL1a26xuT7cMLE.jpg",
+   "character": "Karen Kino (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 1522605,
+   "name": "Ayaka Asai",
+   "photo": "https://image.tmdb.org/t/p/w185/tQCblqK0CJfddLPkYKcI94R2Pgh.jpg",
+   "character": "Erika Kose (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 84508,
+   "name": "Takehito Koyasu",
+   "photo": "https://image.tmdb.org/t/p/w185/8uBkNDKPNmp9JWgMUI02NVyfhi1.jpg",
+   "character": "Shirogane's Father (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 1678723,
+   "name": "Yuuki Takada",
+   "photo": "https://image.tmdb.org/t/p/w185/sbe8XOF0JHg6KB96fuqHuXGUQtK.jpg",
+   "character": "Rei Onodera (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 1454214,
+   "name": "Ari Ozawa",
+   "photo": "https://image.tmdb.org/t/p/w185/jrj6cIjnkk1FwJiSLIpGtUf8hWd.jpg",
+   "character": "Moeha Fujiwara (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 1647737,
+   "name": "Itaru Yamamoto",
+   "photo": "https://image.tmdb.org/t/p/w185/scgU56aao7WH8ZmRVDjkvYGhvTV.jpg",
+   "character": "Headmaster (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 2285491,
+   "name": "Rina Honnizumi",
+   "photo": "https://image.tmdb.org/t/p/w185/5p8wWjqrBHTkOPC5txO1eUXRBRY.jpg",
+   "character": "Gigako (voice) / Megako (voice) / Schoolgirl B (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 2480720,
+   "name": "Yu Okano",
+   "photo": "https://image.tmdb.org/t/p/w185/hjYWhH47fDiA81JxeMifeySa5mH.jpg",
+   "character": "Gou Kazamatsuri (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 1325953,
+   "name": "Taishi Murata",
+   "photo": "https://image.tmdb.org/t/p/w185/eVs2Ow2CyiFfoN02EUNyhmSYALE.jpg",
+   "character": "Team Leader Kazeno (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 1951289,
+   "name": "Marika Kouno",
+   "photo": "https://image.tmdb.org/t/p/w185/tGtrlF6iBDHoBEmRfPdOyVt7X18.jpg",
+   "character": "Kozue Makihara (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 1922616,
+   "name": "Yuka Nukui",
+   "photo": "https://image.tmdb.org/t/p/w185/bTFcrrgj9B8QAXa1NKqlsrdwWka.jpg",
+   "character": "Mirin Hinokuchi (voice) / Schoolgirl A (voice) / Nurse (voice)",
+   "episodes": 4
+  }
+ ],
+ "crew": [
+  {
+   "id": 1136676,
+   "name": "Yasuhiro Nakanishi",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 58
+  },
+  {
+   "id": 1640656,
+   "name": "Mamoru Hatakeyama",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 1307315,
+   "name": "Kei Haneoka",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 37
+  },
+  {
+   "id": 1608126,
+   "name": "Yukie Sugawara",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 2704696,
+   "name": "Takayuki Kikuchi",
+   "photo": "https://image.tmdb.org/t/p/w185/fBTLmHjk41r64bXWdInhfqJLZMB.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 2208431,
+   "name": "Tsuyoshi Tobita",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 2704698,
+   "name": "Aya Ikeda",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 2704695,
+   "name": "Yujiro Abe",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1609342,
+   "name": "Taro Kubo",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1243957,
+   "name": "Masakazu Obara",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 2704701,
+   "name": "Ryota Aikei",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 2998350,
+   "name": "Motoki Nakanishi",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 3557556,
+   "name": "Yuki Watanabe",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 2704702,
+   "name": "Kuniyasu Nishina",
+   "photo": "https://image.tmdb.org/t/p/w185/6FqKhJZ4vMnnyMbWudti7odtvYP.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1777183,
+   "name": "Nobukage Kimura",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 2686080,
+   "name": "Moe Suzuki",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:38:46.924Z"
+}

@@ -1,0 +1,325 @@
+{
+ "show": "Dutton Ranch",
+ "slug": "dutton-ranch",
+ "tmdbId": 299167,
+ "cast": [
+  {
+   "id": 17521,
+   "name": "Kelly Reilly",
+   "photo": "https://image.tmdb.org/t/p/w185/l8aQsryOQvxgX6SdZ4XtzU8KEXn.jpg",
+   "character": "Beth Dutton",
+   "episodes": 9
+  },
+  {
+   "id": 6614,
+   "name": "Cole Hauser",
+   "photo": "https://image.tmdb.org/t/p/w185/1SNoIDILoXtAUJu4f7nDCPVQH5j.jpg",
+   "character": "Rip Wheeler",
+   "episodes": 9
+  },
+  {
+   "id": 1980651,
+   "name": "Finn Little",
+   "photo": "https://image.tmdb.org/t/p/w185/jkMmLjj5Zk4CsABIxxFtOj0Zxic.jpg",
+   "character": "Carter",
+   "episodes": 9
+  },
+  {
+   "id": 937009,
+   "name": "Juan Pablo Raba",
+   "photo": "https://image.tmdb.org/t/p/w185/xXgB3pOpYWs8NlePS0QrRiYV5FD.jpg",
+   "character": "Joaquin",
+   "episodes": 9
+  },
+  {
+   "id": 224181,
+   "name": "Jai Courtney",
+   "photo": "https://image.tmdb.org/t/p/w185/6vEaNwbOKov6yzQx15CdtrqfK3L.jpg",
+   "character": "Rob-Will",
+   "episodes": 9
+  },
+  {
+   "id": 109641,
+   "name": "J.R. Villarreal",
+   "photo": "https://image.tmdb.org/t/p/w185/6aH3JZjgbTdNld8rtO7P9CZ2xKE.jpg",
+   "character": "Azul",
+   "episodes": 9
+  },
+  {
+   "id": 212776,
+   "name": "Marc Menchaca",
+   "photo": "https://image.tmdb.org/t/p/w185/fL0LmdBwau30M4AFPVJrpLRXXsU.jpg",
+   "character": "Zachariah",
+   "episodes": 9
+  },
+  {
+   "id": 211484,
+   "name": "Natalie Alyn Lind",
+   "photo": "https://image.tmdb.org/t/p/w185/kV3ubfjGlSBJKerh9ICmx9NgUXI.jpg",
+   "character": "Oreana",
+   "episodes": 9
+  },
+  {
+   "id": 228,
+   "name": "Ed Harris",
+   "photo": "https://image.tmdb.org/t/p/w185/kUbUA70WPiosPT4kBJMWtGk0ASd.jpg",
+   "character": "Everett McKinney",
+   "episodes": 9
+  },
+  {
+   "id": 516,
+   "name": "Annette Bening",
+   "photo": "https://image.tmdb.org/t/p/w185/kGslMAWcpv8MKzODhDRDkFE0uX7.jpg",
+   "character": "Beulah Jackson",
+   "episodes": 9
+  },
+  {
+   "id": 1030204,
+   "name": "Berto Colon",
+   "photo": "https://image.tmdb.org/t/p/w185/21cgPT5bNTVOuhKpU57ZyI32azs.jpg",
+   "character": "Miguel",
+   "episodes": 9
+  },
+  {
+   "id": 3292690,
+   "name": "Sterlin English",
+   "photo": "https://image.tmdb.org/t/p/w185/kjRYg9KdIKyIdJKBth1zyc5SRVY.jpg",
+   "character": "Austin / Austin Lewis",
+   "episodes": 9
+  },
+  {
+   "id": 2898087,
+   "name": "James Eddie",
+   "photo": "https://image.tmdb.org/t/p/w185/8OaW4hP1vt8fWvhBA2ihZw5mSCl.jpg",
+   "character": "Tommy",
+   "episodes": 8
+  },
+  {
+   "id": 6217098,
+   "name": "Alexander Lara",
+   "photo": null,
+   "character": "Ramon",
+   "episodes": 8
+  },
+  {
+   "id": 6217099,
+   "name": "Juan Navarrette",
+   "photo": null,
+   "character": "Guillermo",
+   "episodes": 8
+  },
+  {
+   "id": 3455927,
+   "name": "Clay L. James",
+   "photo": null,
+   "character": "Nico",
+   "episodes": 8
+  },
+  {
+   "id": 40039,
+   "name": "Josh Stewart",
+   "photo": "https://image.tmdb.org/t/p/w185/prgoT9fq5Z2ZCGmC1rrSZkq4wH9.jpg",
+   "character": "Sheriff Handy Wade / Sheriff Wade",
+   "episodes": 7
+  },
+  {
+   "id": 6217115,
+   "name": "Rene Mendoza",
+   "photo": null,
+   "character": "Frank",
+   "episodes": 7
+  },
+  {
+   "id": 1737443,
+   "name": "Hart Denton",
+   "photo": "https://image.tmdb.org/t/p/w185/eHQ2ZXXgBFAROpQsR34o1XC5ir5.jpg",
+   "character": "Chet",
+   "episodes": 5
+  },
+  {
+   "id": 6217088,
+   "name": "Morgan Wade",
+   "photo": null,
+   "character": "Carol",
+   "episodes": 4
+  },
+  {
+   "id": 2823609,
+   "name": "Cooper Tomlinson",
+   "photo": "https://image.tmdb.org/t/p/w185/vBMQbYT1DyWPCUp11dIiqZR9zhd.jpg",
+   "character": "Deputy Cecil Post",
+   "episodes": 2
+  },
+  {
+   "id": 1752954,
+   "name": "Kyle James",
+   "photo": "https://image.tmdb.org/t/p/w185/sTytQeeSGIRcw2xOZ42CCRba0cO.jpg",
+   "character": "Hoyt",
+   "episodes": 2
+  },
+  {
+   "id": 1446091,
+   "name": "Maritza Guerrero",
+   "photo": "https://image.tmdb.org/t/p/w185/2UnbcuTh8HNoB8143QoZC0X5kSs.jpg",
+   "character": "Denise",
+   "episodes": 2
+  },
+  {
+   "id": 6217096,
+   "name": "Mira Are",
+   "photo": null,
+   "character": "Vet Tech",
+   "episodes": 2
+  }
+ ],
+ "crew": [
+  {
+   "id": 56665,
+   "name": "Chad Feehan",
+   "photo": "https://image.tmdb.org/t/p/w185/kO7cUR8nd6Fn01OYkgpEuYKYfUb.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 930009,
+   "name": "Christina Alexandra Voros",
+   "photo": "https://image.tmdb.org/t/p/w185/9HIKusstJZZaT70y702KRcLCSsW.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1890532,
+   "name": "David Hutkin",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1215399,
+   "name": "Taylor Sheridan",
+   "photo": "https://image.tmdb.org/t/p/w185/enrOQII7bCIf7U0WbdxiuXGfzrs.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 17521,
+   "name": "Kelly Reilly",
+   "photo": "https://image.tmdb.org/t/p/w185/l8aQsryOQvxgX6SdZ4XtzU8KEXn.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 6614,
+   "name": "Cole Hauser",
+   "photo": "https://image.tmdb.org/t/p/w185/1SNoIDILoXtAUJu4f7nDCPVQH5j.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 4232,
+   "name": "Bob Yari",
+   "photo": "https://image.tmdb.org/t/p/w185/8PecTVSJk5uJmndCGTLwgsLPEhP.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 3317564,
+   "name": "Keith Cox",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1254,
+   "name": "Art Linson",
+   "photo": "https://image.tmdb.org/t/p/w185/p9JPMQt4RRHYdQgvnrmFNiZ4eW6.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 21390,
+   "name": "David C. Glasser",
+   "photo": "https://image.tmdb.org/t/p/w185/t26MlYwJl4TBLFkHz9pjixA8yo7.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 3176244,
+   "name": "Michael Friedman",
+   "photo": "https://image.tmdb.org/t/p/w185/h6qBemrwTBKJcuc5gL2ZDs8qLb1.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 228247,
+   "name": "Ron Burkle",
+   "photo": "https://image.tmdb.org/t/p/w185/hf69HPpxXieEPqSblJGqX5Hq31V.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 69414,
+   "name": "John Linson",
+   "photo": "https://image.tmdb.org/t/p/w185/1rL4s8P5TS0KwbMbkwU7TvttIDy.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 157730,
+   "name": "Greg Yaitanes",
+   "photo": "https://image.tmdb.org/t/p/w185/pC1K4bglE5uX1vKVO6NIijEWtfm.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1214445,
+   "name": "Phil Abraham",
+   "photo": "https://image.tmdb.org/t/p/w185/kSFThx7LRAFjFPEMERR4O0kuGzf.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 2229251,
+   "name": "Jessica Lowrey",
+   "photo": "https://image.tmdb.org/t/p/w185/qYFL5wIRRYQ6MBgp7fDb6LdaWbt.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:34:38.850Z"
+}

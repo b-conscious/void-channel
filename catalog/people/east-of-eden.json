@@ -1,0 +1,299 @@
+{
+ "show": "East of Eden",
+ "slug": "east-of-eden",
+ "tmdbId": 258165,
+ "cast": [
+  {
+   "id": 1373737,
+   "name": "Florence Pugh",
+   "photo": "https://image.tmdb.org/t/p/w185/2URrZb95t3kY6pLroKny3Enmabp.jpg",
+   "character": "Cathy Ames",
+   "episodes": 7
+  },
+  {
+   "id": 984629,
+   "name": "Christopher Abbott",
+   "photo": "https://image.tmdb.org/t/p/w185/bE7zzh60RXydH3p632ZZSmsTlcn.jpg",
+   "character": "Adam Trask",
+   "episodes": 7
+  },
+  {
+   "id": 1423520,
+   "name": "Mike Faist",
+   "photo": "https://image.tmdb.org/t/p/w185/xRl1Pa8a80L3QUT7LrTtlTZv1l4.jpg",
+   "character": "Charles Trask",
+   "episodes": 7
+  },
+  {
+   "id": 1255311,
+   "name": "Hoon Lee",
+   "photo": "https://image.tmdb.org/t/p/w185/3Ux4nTEfPySyZg6yBlu1uXR1TyT.jpg",
+   "character": "Lee",
+   "episodes": 7
+  },
+  {
+   "id": 8785,
+   "name": "Ciarán Hinds",
+   "photo": "https://image.tmdb.org/t/p/w185/d8wLIX9VYgwXRGSp1gmUdUxmApv.jpg",
+   "character": "Samuel Hamilton",
+   "episodes": 7
+  },
+  {
+   "id": 4744857,
+   "name": "Joseph Zada",
+   "photo": "https://image.tmdb.org/t/p/w185/8RnNxrgffoNOu7ZHPSGvYnfjtdI.jpg",
+   "character": "Cal Trask / Caleb \"Cal\" Trask",
+   "episodes": 7
+  },
+  {
+   "id": 75264,
+   "name": "Robert Morgan",
+   "photo": "https://image.tmdb.org/t/p/w185/dZhqn7yOmgetvM2mAWU7sEMmzu7.jpg",
+   "character": "Sheriff Quinn",
+   "episodes": 3
+  },
+  {
+   "id": 1014586,
+   "name": "Christopher Sommers",
+   "photo": "https://image.tmdb.org/t/p/w185/e86eKSvV5gr1qihDfG8Lpya04OC.jpg",
+   "character": "Mr. Bacon",
+   "episodes": 3
+  },
+  {
+   "id": 123540,
+   "name": "Brad McMurray",
+   "photo": "https://image.tmdb.org/t/p/w185/bfsTsUwYajWlVPgkcY9QzrWuVbi.jpg",
+   "character": "Joe Valery",
+   "episodes": 3
+  },
+  {
+   "id": 3614018,
+   "name": "Vaughan Reilly",
+   "photo": "https://image.tmdb.org/t/p/w185/yt2izl98e0R7FTGOHJ5y4glDGRV.jpg",
+   "character": "Adolescent Cathy",
+   "episodes": 2
+  },
+  {
+   "id": 2850902,
+   "name": "Joe Anders",
+   "photo": "https://image.tmdb.org/t/p/w185/lnPuALnFpjTcXmV6it3RmRm2gL5.jpg",
+   "character": "Aron Trask",
+   "episodes": 2
+  },
+  {
+   "id": 94871,
+   "name": "Anita Hegh",
+   "photo": "https://image.tmdb.org/t/p/w185/agMhKBpzNDd7n3K42qylRHye7qZ.jpg",
+   "character": "Liza Hamilton",
+   "episodes": 2
+  },
+  {
+   "id": 2286173,
+   "name": "Amelia Reynolds",
+   "photo": "https://image.tmdb.org/t/p/w185/bqtHpc5LPZtgymVQzJm7qqeXq2J.jpg",
+   "character": "Ethel",
+   "episodes": 2
+  },
+  {
+   "id": 6415091,
+   "name": "Zoe Phillips",
+   "photo": null,
+   "character": "Abra Bacon",
+   "episodes": 2
+  },
+  {
+   "id": 2426997,
+   "name": "Jack Barry",
+   "photo": "https://image.tmdb.org/t/p/w185/A1YjxMNVt3LWcIRrAb3RW2WEc2q.jpg",
+   "character": "Will Hamilton",
+   "episodes": 2
+  },
+  {
+   "id": 107472,
+   "name": "Oscar Redding",
+   "photo": null,
+   "character": "Rabbit Holman",
+   "episodes": 2
+  },
+  {
+   "id": 1399770,
+   "name": "Ella Becroft",
+   "photo": "https://image.tmdb.org/t/p/w185/o6kA8cAS0SJC5ld8WshQONi8UEu.jpg",
+   "character": "Mrs. Bacon",
+   "episodes": 2
+  },
+  {
+   "id": 6519164,
+   "name": "Gigi Morabito",
+   "photo": null,
+   "character": "Young Abra",
+   "episodes": 2
+  },
+  {
+   "id": 6519165,
+   "name": "Bodhi Aisher",
+   "photo": null,
+   "character": "Young Cal",
+   "episodes": 2
+  },
+  {
+   "id": 4741316,
+   "name": "Jonah Wren Phillips",
+   "photo": "https://image.tmdb.org/t/p/w185/zBy4aBLg10Qz8di9P12mBpnf97F.jpg",
+   "character": "Young Aron",
+   "episodes": 2
+  },
+  {
+   "id": 33310,
+   "name": "Tandi Wright",
+   "photo": "https://image.tmdb.org/t/p/w185/xLQ9j4pJ46HZhs5jMJ87w9zjv82.jpg",
+   "character": "Mrs. Garb",
+   "episodes": 2
+  },
+  {
+   "id": 6519548,
+   "name": "Phillip Brooks",
+   "photo": null,
+   "character": "Another Man 2 / Businessman",
+   "episodes": 2
+  },
+  {
+   "id": 3598880,
+   "name": "Costa D'Angelo",
+   "photo": "https://image.tmdb.org/t/p/w185/m0LwsL0MUEV9kzc4OS9blLcqURa.jpg",
+   "character": "Adolescent Adam",
+   "episodes": 1
+  },
+  {
+   "id": 1599393,
+   "name": "Tom Sweet",
+   "photo": "https://image.tmdb.org/t/p/w185/w4CjZHZ5PNSEP4Z1BKuVgCeAXMV.jpg",
+   "character": "Adolescent Charles",
+   "episodes": 1
+  }
+ ],
+ "crew": [
+  {
+   "id": 35028,
+   "name": "Zoe Kazan",
+   "photo": "https://image.tmdb.org/t/p/w185/rCJxFVtkyNUVTVCWYd6chx2Q19g.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1648110,
+   "name": "Antoine Douaihy",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 1173102,
+   "name": "Garth Davis",
+   "photo": "https://image.tmdb.org/t/p/w185/lqxIIqqe7T64Oj6I9mofH2irDfd.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 131827,
+   "name": "Laure de Clermont-Tonnerre",
+   "photo": "https://image.tmdb.org/t/p/w185/7xbK9EcfsfhuFkKv6bH2WrOD894.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 6202108,
+   "name": "Jill Arthur",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1373737,
+   "name": "Florence Pugh",
+   "photo": "https://image.tmdb.org/t/p/w185/2URrZb95t3kY6pLroKny3Enmabp.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 3028478,
+   "name": "David Levine",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 7671,
+   "name": "Jeb Stuart",
+   "photo": "https://image.tmdb.org/t/p/w185/jIDFAtot30xEHhEqi9T6ljb1Laj.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 322,
+   "name": "Steve Golin",
+   "photo": "https://image.tmdb.org/t/p/w185/yBx6smzYjn2sbWYgaftZI0iclE3.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 3869603,
+   "name": "Zack Hayden",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 3038536,
+   "name": "Elizabeth Niles",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 52515,
+   "name": "Laura Karpman",
+   "photo": "https://image.tmdb.org/t/p/w185/6dA2R1pXVHsI8n8k3eKzShdJzv7.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 6421371,
+   "name": "Alexander Chee",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:35:40.116Z"
+}

@@ -1,0 +1,49 @@
+{
+ "show": "Half in the Bag",
+ "slug": "half-in-the-bag",
+ "tmdbId": 319770,
+ "cast": [
+  {
+   "id": 1035398,
+   "name": "Jay Bauman",
+   "photo": "https://image.tmdb.org/t/p/w185/3sYyMa8z3zHw4Yixg5GphLlChYo.jpg",
+   "character": "Jay",
+   "episodes": 277
+  },
+  {
+   "id": 229164,
+   "name": "Mike Stoklasa",
+   "photo": "https://image.tmdb.org/t/p/w185/vhVXLOfKYnCCHWq05Ei31z1o6hk.jpg",
+   "character": "Mike",
+   "episodes": 277
+  },
+  {
+   "id": 1035399,
+   "name": "Rich Evans",
+   "photo": "https://image.tmdb.org/t/p/w185/cdNIgtVpEMDFYhifV2BfaHCZGx8.jpg",
+   "character": "Rich",
+   "episodes": 277
+  }
+ ],
+ "crew": [
+  {
+   "id": 229164,
+   "name": "Mike Stoklasa",
+   "photo": "https://image.tmdb.org/t/p/w185/vhVXLOfKYnCCHWq05Ei31z1o6hk.jpg",
+   "jobs": [
+    "Creator"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1035398,
+   "name": "Jay Bauman",
+   "photo": "https://image.tmdb.org/t/p/w185/3sYyMa8z3zHw4Yixg5GphLlChYo.jpg",
+   "jobs": [
+    "Creator"
+   ],
+   "episodes": 24
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:37:50.501Z"
+}

@@ -1,0 +1,313 @@
+{
+ "show": "Usagi Drop",
+ "slug": "usagi-drop",
+ "tmdbId": 45213,
+ "cast": [
+  {
+   "id": 1468619,
+   "name": "Ayu Matsuura",
+   "photo": "https://image.tmdb.org/t/p/w185/9Aji9SpWkjovzmDGUb6VJ9qYV4Z.jpg",
+   "character": "Rin Kaga (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 1091989,
+   "name": "Hiroshi Tsuchida",
+   "photo": "https://image.tmdb.org/t/p/w185/ySiUpcn6UbIzPl4e411ZJMzbIsJ.jpg",
+   "character": "Daikichi Kawachi (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 1149259,
+   "name": "Atsuko Mine",
+   "photo": "https://image.tmdb.org/t/p/w185/uAkNglHbTryYTDnn1D3efgxSYwP.jpg",
+   "character": "Sachiko Kawachi (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 148447,
+   "name": "Sayaka Ohara",
+   "photo": "https://image.tmdb.org/t/p/w185/4lAqrOmkOP3U9Owwijtvc8PaCDx.jpg",
+   "character": "Yukari Nitani (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 1468871,
+   "name": "Noa Sakai",
+   "photo": "https://image.tmdb.org/t/p/w185/qEzV0BG0iFoxT6XNlq3WvOifCNr.jpg",
+   "character": "Kouki Nitani (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 1468877,
+   "name": "Nanako Sudou",
+   "photo": "https://image.tmdb.org/t/p/w185/tiatLl2zPIufouFyFXwpeQ4Jdn0.jpg",
+   "character": "Reina Maeda (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 230471,
+   "name": "Kana Ueda",
+   "photo": "https://image.tmdb.org/t/p/w185/us6FMwXCeSUR2YyByxVcgOUjiIA.jpg",
+   "character": "Haruko Maeda (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 1321070,
+   "name": "Yumi Uchiyama",
+   "photo": "https://image.tmdb.org/t/p/w185/JvavoF3YOLCf4LHfl4XvYobANE.jpg",
+   "character": "Elementary School Students (voice) / Kazumi Kawachi (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 9711,
+   "name": "Maaya Sakamoto",
+   "photo": "https://image.tmdb.org/t/p/w185/jcjTJbxN3rYOtjSJihvbygvEFFZ.jpg",
+   "character": "Masako Yoshii (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 1254837,
+   "name": "Go Inoue",
+   "photo": "https://image.tmdb.org/t/p/w185/pfflyhOaWISQwwlNBfb4oG6Fk95.jpg",
+   "character": "Kawamura (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 553294,
+   "name": "Tomoyuki Shimura",
+   "photo": "https://image.tmdb.org/t/p/w185/vHMVy89m2BEr90iHWNd5ZDjyreM.jpg",
+   "character": "Hidaka (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 146452,
+   "name": "Yui Kano",
+   "photo": "https://image.tmdb.org/t/p/w185/4kmAdzBSlxRvp7Qa5o4aVri84NV.jpg",
+   "character": "Gotou (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 1246234,
+   "name": "Masakazu Itou",
+   "photo": "https://image.tmdb.org/t/p/w185/4j0I8MnNYQD9irSCDNV3IYdSW3F.jpg",
+   "character": "Kenji Kawachi (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 1921816,
+   "name": "Hayato Nakata",
+   "photo": "https://image.tmdb.org/t/p/w185/tVU9v4HzZ5tfbAxleeNQLcdpJJb.jpg",
+   "character": "Co-Worker with Goatee (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 1922934,
+   "name": "Mayu Iino",
+   "photo": "https://image.tmdb.org/t/p/w185/7AyGmwYj7eFmkxkVEiGr1fWRS9d.jpg",
+   "character": "Sayaka (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 1325953,
+   "name": "Taishi Murata",
+   "photo": "https://image.tmdb.org/t/p/w185/eVs2Ow2CyiFfoN02EUNyhmSYALE.jpg",
+   "character": "Co-Worker with Messy Hair (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 1253070,
+   "name": "Shun Takagi",
+   "photo": "https://image.tmdb.org/t/p/w185/e37YceVllMzygJ3twAw3NqdO4pb.jpg",
+   "character": "Tall Co-Worker (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 1241466,
+   "name": "Takahiro Mizushima",
+   "photo": "https://image.tmdb.org/t/p/w185/dg9ndsIxLAfxLuaFkGWgA2vw5j7.jpg",
+   "character": "Masako's Boyfriend (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 1243964,
+   "name": "Kouichi Sakaguchi",
+   "photo": "https://image.tmdb.org/t/p/w185/cdiTrNAAv6PXwZSxg2cO2ozldXs.jpg",
+   "character": "Hideyuki Maeda (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 1096528,
+   "name": "Daisuke Hirakawa",
+   "photo": "https://image.tmdb.org/t/p/w185/8uDi5NxFdxFvfVyo4n5CeOSLWEf.jpg",
+   "character": "Sayaka's Father (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 484514,
+   "name": "Tomohiro Waki",
+   "photo": "https://image.tmdb.org/t/p/w185/fhuLme0aJK2hYiZhtC7GPWbQ1yY.jpg",
+   "character": "Nabe-chin (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 1923224,
+   "name": "Kaichi Kaburagi",
+   "photo": "https://image.tmdb.org/t/p/w185/1AfxmaRdKzf1nlckR8ofPpeOvsl.jpg",
+   "character": "Nobu (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 2805256,
+   "name": "Masayuki Haruhara",
+   "photo": "https://image.tmdb.org/t/p/w185/7dMXvP3PBS6C6NhgBzw2355TqRH.jpg",
+   "character": "Nao (voice) / Kindergartener (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 4061392,
+   "name": "Keita Oda",
+   "photo": "https://image.tmdb.org/t/p/w185/sLFU4pAIVIyiOJsZyPDcEjiHhfl.jpg",
+   "character": "Yuu (voice)",
+   "episodes": 2
+  }
+ ],
+ "crew": [
+  {
+   "id": 1483904,
+   "name": "Taku Kishimoto",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 1325239,
+   "name": "Kanta Kamei",
+   "photo": "https://image.tmdb.org/t/p/w185/qpccHk7WHE4WeKaqwmv31LgAETr.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 1600163,
+   "name": "Junichi Shinzaka",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1846715,
+   "name": "Naoki Kitagawa",
+   "photo": "https://image.tmdb.org/t/p/w185/pG1WhCOcEujgHCEtLtIPlVjJIY4.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 4061026,
+   "name": "Tomoya Shikura",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1846714,
+   "name": "Atsushi Terada",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 235121,
+   "name": "Katsuji Morishita",
+   "photo": "https://image.tmdb.org/t/p/w185/fvPwab9wpOVjFsIhoAak3XBldnq.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1846716,
+   "name": "Yatsuho Tomikawa",
+   "photo": "https://image.tmdb.org/t/p/w185/fJoffuD65vrJ8vlS2DuJjIle6sX.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1057935,
+   "name": "Suguru Matsutani",
+   "photo": "https://image.tmdb.org/t/p/w185/m2Tr2VpvmOOnQ4UfZrrsAh8Dt2P.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1325228,
+   "name": "Susumu Mitsunaka",
+   "photo": "https://image.tmdb.org/t/p/w185/rLXm1yWmq1W3uwVXniLBVRFFHE.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1579862,
+   "name": "Yoshitaka Koyama",
+   "photo": "https://image.tmdb.org/t/p/w185/ipk8XAeLf9iJ8cDwbSALUJgaMd5.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1540865,
+   "name": "Yoshikazu Ui",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1919985,
+   "name": "Rokou Ogiwara",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1919986,
+   "name": "Ryutaro Sakaguchi",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1919984,
+   "name": "Yoshiaki Kyougoku",
+   "photo": "https://image.tmdb.org/t/p/w185/lBqNRORLCSxAIMy0jrxTwFaTXFc.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:40:19.379Z"
+}

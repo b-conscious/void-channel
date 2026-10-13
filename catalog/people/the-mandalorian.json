@@ -1,0 +1,331 @@
+{
+ "show": "The Mandalorian",
+ "slug": "the-mandalorian",
+ "tmdbId": 82856,
+ "cast": [
+  {
+   "id": 1253360,
+   "name": "Pedro Pascal",
+   "photo": "https://image.tmdb.org/t/p/w185/oKcMbVn0NJTNzQt0ClKKvVXkm60.jpg",
+   "character": "Din Djarin / The Mandalorian",
+   "episodes": 24
+  },
+  {
+   "id": 51798,
+   "name": "Katee Sackhoff",
+   "photo": "https://image.tmdb.org/t/p/w185/kzcwfDDrgXnVgyTfcpG0obOn7Qk.jpg",
+   "character": "Bo-Katan Kryze",
+   "episodes": 10
+  },
+  {
+   "id": 95747,
+   "name": "Misty Rosas",
+   "photo": "https://image.tmdb.org/t/p/w185/aCa0ukemG7x3wAxtR1BM5v0BvrL.jpg",
+   "character": "Frog Lady / Pirate Coxswain (Performance Artist) / Snivvian Bartender",
+   "episodes": 10
+  },
+  {
+   "id": 2456535,
+   "name": "Chris Bartlett",
+   "photo": "https://image.tmdb.org/t/p/w185/63o4rr3zUlfkKAxru94RSfosMo0.jpg",
+   "character": "RA-7 (Performance Artist) / Nevarro Copper Droid (Performance Artist) / Zero (Q9-0) (Performance Artist)",
+   "episodes": 10
+  },
+  {
+   "id": 1101,
+   "name": "Carl Weathers",
+   "photo": "https://image.tmdb.org/t/p/w185/oUwtC5hEbcIZv53WPerZ9HhlSJR.jpg",
+   "character": "Greef Karga",
+   "episodes": 10
+  },
+  {
+   "id": 1256020,
+   "name": "Emily Swallow",
+   "photo": "https://image.tmdb.org/t/p/w185/8wS86vFMoDnfAJzOL9yNqvXcCpA.jpg",
+   "character": "Armorer",
+   "episodes": 9
+  },
+  {
+   "id": 946854,
+   "name": "Brendan Wayne",
+   "photo": "https://image.tmdb.org/t/p/w185/klsNR0ld4NjURhhn3PYZetFkaCK.jpg",
+   "character": "Mandalorian Warrior / The Mandalorian Body Actor",
+   "episodes": 9
+  },
+  {
+   "id": 4808,
+   "name": "Giancarlo Esposito",
+   "photo": "https://image.tmdb.org/t/p/w185/MJOo4QZgMAb3y8QzOUDVFQusQZ.jpg",
+   "character": "Moff Gideon",
+   "episodes": 9
+  },
+  {
+   "id": 1105706,
+   "name": "Tait Fletcher",
+   "photo": "https://image.tmdb.org/t/p/w185/zAVsHT2GBLPaQ4RpTopnHvIrCbv.jpg",
+   "character": "Paz Vizsla / Heavy Infantry Mando / Alpha Trawler",
+   "episodes": 8
+  },
+  {
+   "id": 123812,
+   "name": "Lateef Crowder",
+   "photo": "https://image.tmdb.org/t/p/w185/mhGArPyh3N97t3PU4YnvLZTzHjl.jpg",
+   "character": "The Mandalorian Body Actor",
+   "episodes": 8
+  },
+  {
+   "id": 78452,
+   "name": "Gina Carano",
+   "photo": "https://image.tmdb.org/t/p/w185/6K89PVbt3v2N7cqbPyZiO74yuOj.jpg",
+   "character": "Cara Dune",
+   "episodes": 7
+  },
+  {
+   "id": 2252989,
+   "name": "Katy O'Brian",
+   "photo": "https://image.tmdb.org/t/p/w185/b7i6dQrHhCYu4Z9bgaXO5U2hrgP.jpg",
+   "character": "Elia Kane / Comms Officer",
+   "episodes": 7
+  },
+  {
+   "id": 55934,
+   "name": "Taika Waititi",
+   "photo": "https://image.tmdb.org/t/p/w185/ww6L2ksfJNMbuiIdDuvVKndUHsv.jpg",
+   "character": "IG-12 (voice) / IG-11 (voice) / IG-12 / IG-11 (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 1419125,
+   "name": "Mercedes Varnado",
+   "photo": "https://image.tmdb.org/t/p/w185/c8nW2hxfKzdrzWqRLSXKlHIXwSR.jpg",
+   "character": "Koska Reeves",
+   "episodes": 5
+  },
+  {
+   "id": 7242,
+   "name": "Temuera Morrison",
+   "photo": "https://image.tmdb.org/t/p/w185/AvtSC0f9QW7fMyFFNXEWDeQyfUk.jpg",
+   "character": "Boba Fett / Clone Troopers / Cloaked Figure",
+   "episodes": 5
+  },
+  {
+   "id": 167862,
+   "name": "Omid Abtahi",
+   "photo": "https://image.tmdb.org/t/p/w185/d4Itot5Khq2tIU2KKL3jFGBBACL.jpg",
+   "character": "Dr. Penn Pershing",
+   "episodes": 5
+  },
+  {
+   "id": 62787,
+   "name": "Rio Hackford",
+   "photo": "https://image.tmdb.org/t/p/w185/lzRk0FsLIJU8pNHhAlF5jijcdJr.jpg",
+   "character": "IG-11 (Performance Artist) / Riot Mar",
+   "episodes": 4
+  },
+  {
+   "id": 12110,
+   "name": "Amy Sedaris",
+   "photo": "https://image.tmdb.org/t/p/w185/AjVjRYI1PaC11i4FqGSK1TkwOmq.jpg",
+   "character": "Peli Motto",
+   "episodes": 4
+  },
+  {
+   "id": 1234388,
+   "name": "Simon Kassianides",
+   "photo": "https://image.tmdb.org/t/p/w185/3CyrW8ZRsXvBw0ogXHuxnArz7Dt.jpg",
+   "character": "Axe Woves",
+   "episodes": 4
+  },
+  {
+   "id": 178068,
+   "name": "Paul Sun-Hyung Lee",
+   "photo": "https://image.tmdb.org/t/p/w185/qyJG3qC1TImpJYN0zCgnFSQzzOF.jpg",
+   "character": "Captain Carson Teva",
+   "episodes": 4
+  },
+  {
+   "id": 21702,
+   "name": "Ming-Na Wen",
+   "photo": "https://image.tmdb.org/t/p/w185/eqCzFF83It56cUdjpskzvg8jgq.jpg",
+   "character": "Fennec Shand",
+   "episodes": 4
+  },
+  {
+   "id": 2947012,
+   "name": "Wesley Kimmel",
+   "photo": "https://image.tmdb.org/t/p/w185/lN3VfrQiYmU9ldZRHie8PQtnOe2.jpg",
+   "character": "Ragnar",
+   "episodes": 4
+  },
+  {
+   "id": 98392,
+   "name": "Parvesh Cheena",
+   "photo": "https://image.tmdb.org/t/p/w185/8N9EwDfLezI8b3v7ELW4aTCSixV.jpg",
+   "character": "Nevarro Copper Droid (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 1834,
+   "name": "Shirley Henderson",
+   "photo": "https://image.tmdb.org/t/p/w185/ufyhBJUrG3h4BrLNN8gMuYGhJd6.jpg",
+   "character": "Anzellan Crew (voice)",
+   "episodes": 4
+  }
+ ],
+ "crew": [
+  {
+   "id": 15277,
+   "name": "Jon Favreau",
+   "photo": "https://image.tmdb.org/t/p/w185/tnx7iMVydPQXGOoLsxXl84PXtbA.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 490,
+   "name": "Colin Wilson",
+   "photo": "https://image.tmdb.org/t/p/w185/jcPyj11WATIaAS9Uzk5DcSBHj3y.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 33
+  },
+  {
+   "id": 71538,
+   "name": "Dave Filoni",
+   "photo": "https://image.tmdb.org/t/p/w185/iMpXDe7D3eimy3Y8esJcF9czVbm.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 489,
+   "name": "Kathleen Kennedy",
+   "photo": "https://image.tmdb.org/t/p/w185/ndgYlie0PHkyqEiEBGM8SqrPOkr.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 928158,
+   "name": "Ludwig Göransson",
+   "photo": "https://image.tmdb.org/t/p/w185/3phYwmonUBcDXZ1DY5kHYjYYoor.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 51866,
+   "name": "Rick Famuyiwa",
+   "photo": "https://image.tmdb.org/t/p/w185/zvpQOPiD5RLfjKBJyNgHYNocy7X.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 2089199,
+   "name": "Joseph Shirley",
+   "photo": "https://image.tmdb.org/t/p/w185/7xswMkT1AWQ1t4UmMLNN0oU0Cx7.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 18997,
+   "name": "Bryce Dallas Howard",
+   "photo": "https://image.tmdb.org/t/p/w185/fmXhf4rJOrzc3QWwxVbNd7kP8wy.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 59026,
+   "name": "Peyton Reed",
+   "photo": "https://image.tmdb.org/t/p/w185/aucXNycAtFREMIKr6ikmHvd2Mmp.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1101,
+   "name": "Carl Weathers",
+   "photo": "https://image.tmdb.org/t/p/w185/oUwtC5hEbcIZv53WPerZ9HhlSJR.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 928830,
+   "name": "Deborah Chow",
+   "photo": "https://image.tmdb.org/t/p/w185/7XiXU4d7JqPGbhiGCvaRQclISRT.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 2625181,
+   "name": "Noah Kloor",
+   "photo": "https://image.tmdb.org/t/p/w185/6p1jKRXzukOLuaO7GUVxzfDQ1bq.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 109542,
+   "name": "Christopher L. Yost",
+   "photo": "https://image.tmdb.org/t/p/w185/wPZAV6uK5t3MRd2gBt5AqBTzCsa.jpg",
+   "jobs": [
+    "Teleplay",
+    "Story"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 984113,
+   "name": "Rachel Morrison",
+   "photo": "https://image.tmdb.org/t/p/w185/2R9ZCyNQzFlQXzxLodefPawisGn.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 151007,
+   "name": "Peter Ramsey",
+   "photo": "https://image.tmdb.org/t/p/w185/eAL9QdCEYyxiMP9cl9lQddg8zEa.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 931952,
+   "name": "Lee Isaac Chung",
+   "photo": "https://image.tmdb.org/t/p/w185/fwiIh7jECjefCco3ZCdug6i3t9U.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:50.868Z"
+}

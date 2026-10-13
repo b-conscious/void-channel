@@ -1,0 +1,331 @@
+{
+ "show": "Sliders",
+ "slug": "sliders",
+ "tmdbId": 1649,
+ "cast": [
+  {
+   "id": 90180,
+   "name": "Cleavant Derricks",
+   "photo": "https://image.tmdb.org/t/p/w185/2IujS80yQRVyM5RKo75HvGghGlf.jpg",
+   "character": "Rembrandt Brown",
+   "episodes": 87
+  },
+  {
+   "id": 3035,
+   "name": "Jerry O'Connell",
+   "photo": "https://image.tmdb.org/t/p/w185/siMZhO5SIUc6K5sTKyVJRXmkoiG.jpg",
+   "character": "Quinn Mallory",
+   "episodes": 69
+  },
+  {
+   "id": 56152,
+   "name": "Kari Wührer",
+   "photo": "https://image.tmdb.org/t/p/w185/sTWVUK4WBcSpuIotCjlU7sRaEH7.jpg",
+   "character": "Maggie Beckett",
+   "episodes": 48
+  },
+  {
+   "id": 110082,
+   "name": "Sabrina Lloyd",
+   "photo": "https://image.tmdb.org/t/p/w185/kvLlNaZTNL2mJPDI3aiLGt2Vwaz.jpg",
+   "character": "Wade Welles",
+   "episodes": 47
+  },
+  {
+   "id": 655,
+   "name": "John Rhys-Davies",
+   "photo": "https://image.tmdb.org/t/p/w185/qpXl1YnqQsUKYEDm3BB2zK5wbhe.jpg",
+   "character": "Maximillian Arturo",
+   "episodes": 47
+  },
+  {
+   "id": 129122,
+   "name": "Charlie O'Connell",
+   "photo": "https://image.tmdb.org/t/p/w185/rLSnUSzdVh5tbpOqY3rZGtkLzzj.jpg",
+   "character": "Officer O'Hara / Colin Mallory / Kit Richards",
+   "episodes": 19
+  },
+  {
+   "id": 51699,
+   "name": "Tembi Locke",
+   "photo": "https://image.tmdb.org/t/p/w185/oe9bXpFmv9udogSzy6Lk6HlwplJ.jpg",
+   "character": "Diana Davis",
+   "episodes": 18
+  },
+  {
+   "id": 182204,
+   "name": "Robert Floyd",
+   "photo": "https://image.tmdb.org/t/p/w185/hgjMzHSve1fMdLVYczfvBwL91f9.jpg",
+   "character": "Quinn Mallory",
+   "episodes": 18
+  },
+  {
+   "id": 39125,
+   "name": "Will Sasso",
+   "photo": "https://image.tmdb.org/t/p/w185/4F8p9Dg32WJl12ras7CzQzLFy2i.jpg",
+   "character": "Gomez Calhoun",
+   "episodes": 5
+  },
+  {
+   "id": 154163,
+   "name": "Lester Barrie",
+   "photo": null,
+   "character": "Elston Diggs",
+   "episodes": 5
+  },
+  {
+   "id": 1614112,
+   "name": "Linda Henning",
+   "photo": "https://image.tmdb.org/t/p/w185/n6MPWz0U59UTIxcZVUKpC2sX0h.jpg",
+   "character": "Mrs. Mallory",
+   "episodes": 5
+  },
+  {
+   "id": 131833,
+   "name": "John Walcutt",
+   "photo": "https://image.tmdb.org/t/p/w185/vkSOGwx6i5nRH1IhAjbmLBeKSeK.jpg",
+   "character": "Michael Mallory",
+   "episodes": 4
+  },
+  {
+   "id": 12876,
+   "name": "Peter Jurasik",
+   "photo": "https://image.tmdb.org/t/p/w185/7zqyg8kDaYHyXZfabxQ5M6tq5Fp.jpg",
+   "character": "Dr. Oberon Geiger",
+   "episodes": 3
+  },
+  {
+   "id": 18895,
+   "name": "Alex Bruhanski",
+   "photo": "https://image.tmdb.org/t/p/w185/sZGgvbsA2JJrQTyqdNOoDaBASkN.jpg",
+   "character": "Pavel Kurlienko",
+   "episodes": 3
+  },
+  {
+   "id": 1217125,
+   "name": "Clinton Derricks-Carroll",
+   "photo": "https://image.tmdb.org/t/p/w185/55K0Lm3TQtvDKnRuqhy3L00p6tn.jpg",
+   "character": "Rembrandt, Duke of Hemmingshire / Rembrandt Brown / Rembrandt Brown #2",
+   "episodes": 3
+  },
+  {
+   "id": 5494,
+   "name": "Gary Jones",
+   "photo": "https://image.tmdb.org/t/p/w185/w6Q2F6n7sq7jIZLGqk908qhd3Ac.jpg",
+   "character": "Michael Hurley",
+   "episodes": 3
+  },
+  {
+   "id": 1235633,
+   "name": "Jason Gaffney",
+   "photo": null,
+   "character": "Conrad Bennish Jr.",
+   "episodes": 3
+  },
+  {
+   "id": 97949,
+   "name": "Terry Markwell",
+   "photo": "https://image.tmdb.org/t/p/w185/p3Q6nUOYep389iwZ8slVFZbucTn.jpg",
+   "character": "Tess Martin",
+   "episodes": 3
+  },
+  {
+   "id": 42547,
+   "name": "Jay Acovone",
+   "photo": "https://image.tmdb.org/t/p/w185/ltaJoC5NUsE97f3GuP3d7BkANKJ.jpg",
+   "character": "Ben Siegel III / Dr. Tassler / Stu",
+   "episodes": 3
+  },
+  {
+   "id": 2252729,
+   "name": "Wes Charles Jr.",
+   "photo": null,
+   "character": "Malcolm Eastman",
+   "episodes": 3
+  },
+  {
+   "id": 18906,
+   "name": "Neil Dickson",
+   "photo": "https://image.tmdb.org/t/p/w185/rcNReyDrQ8izRg3qVOaTthb1Rpx.jpg",
+   "character": "Col. Angus Rickman",
+   "episodes": 3
+  },
+  {
+   "id": 2254288,
+   "name": "Reba Shaw Alexander",
+   "photo": null,
+   "character": "Secretary / Maid / Clerk",
+   "episodes": 3
+  },
+  {
+   "id": 63941,
+   "name": "Marshall R. Teague",
+   "photo": "https://image.tmdb.org/t/p/w185/yOlxb4cz9qzp6vDAE248VXH6lTK.jpg",
+   "character": "Redfield / Sheriff Redfield / General Kronus",
+   "episodes": 3
+  },
+  {
+   "id": 157488,
+   "name": "Israel Juarbe",
+   "photo": "https://image.tmdb.org/t/p/w185/mBe92723Bsmgdgi4sydN5zvn57A.jpg",
+   "character": "Gomez Calhoun",
+   "episodes": 3
+  }
+ ],
+ "crew": [
+  {
+   "id": 49917,
+   "name": "Tracy Tormé",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 7181,
+   "name": "Robert K. Weiss",
+   "photo": "https://image.tmdb.org/t/p/w185/ylm3uYLTXg8ccwjFqjimOaTKOUW.jpg",
+   "jobs": [
+    "Creator",
+    "Story"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 15959,
+   "name": "Richard Compton",
+   "photo": "https://image.tmdb.org/t/p/w185/tTackPM5n1V6G5QFoR6l2gT72pv.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1211962,
+   "name": "Chris Black",
+   "photo": "https://image.tmdb.org/t/p/w185/l7cfUXkaJxsNmfwJcrUAw3RluYG.jpg",
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1226211,
+   "name": "Scott Smith Miller",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 936290,
+   "name": "David E. Peckinpah",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Story",
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1216742,
+   "name": "Tony Blake",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1216743,
+   "name": "Paul Jackson",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 2275646,
+   "name": "Bill Dial",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1225816,
+   "name": "Keith Damron",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 3035,
+   "name": "Jerry O'Connell",
+   "photo": "https://image.tmdb.org/t/p/w185/siMZhO5SIUc6K5sTKyVJRXmkoiG.jpg",
+   "jobs": [
+    "Director",
+    "Story"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 79317,
+   "name": "Reza Badiyi",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1219359,
+   "name": "Marc Scott Zicree",
+   "photo": "https://image.tmdb.org/t/p/w185/aaJSVzLl8h1RnNWep1gMYsa0ZEh.jpg",
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1217774,
+   "name": "Nan Hagan",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 119874,
+   "name": "Josef Anderson",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 51694,
+   "name": "Jim Johnston",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:29.786Z"
+}

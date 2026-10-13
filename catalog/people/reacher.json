@@ -1,0 +1,326 @@
+{
+ "show": "Reacher",
+ "slug": "reacher",
+ "tmdbId": 108978,
+ "cast": [
+  {
+   "id": 64295,
+   "name": "Alan Ritchson",
+   "photo": "https://image.tmdb.org/t/p/w185/92YNEEpCyugkTzPprJwZpvVtvuK.jpg",
+   "character": "Jack Reacher",
+   "episodes": 32
+  },
+  {
+   "id": 2123496,
+   "name": "Maria Sten",
+   "photo": "https://image.tmdb.org/t/p/w185/7QlPWbZRH2ORMmAHKAj0rq54t4A.jpg",
+   "character": "Frances Neagley",
+   "episodes": 20
+  },
+  {
+   "id": 57997,
+   "name": "Malcolm Goodwin",
+   "photo": "https://image.tmdb.org/t/p/w185/h2AVP07OdXOsX3ERNwpsQuvrUEB.jpg",
+   "character": "Oscar Finlay",
+   "episodes": 9
+  },
+  {
+   "id": 1318650,
+   "name": "Willa Fitzgerald",
+   "photo": "https://image.tmdb.org/t/p/w185/hXvCqRAtmrfjozHtVNrBgXFzzao.jpg",
+   "character": "Roscoe Conklin",
+   "episodes": 8
+  },
+  {
+   "id": 86268,
+   "name": "Serinda Swan",
+   "photo": "https://image.tmdb.org/t/p/w185/mA4qtNZnn0A2oT1s4IIHseO8oiu.jpg",
+   "character": "Karla Dixon",
+   "episodes": 8
+  },
+  {
+   "id": 56547,
+   "name": "Chris Webster",
+   "photo": "https://image.tmdb.org/t/p/w185/yo97GZJnU75mMdTLNQ85SCWOTka.jpg",
+   "character": "KJ",
+   "episodes": 8
+  },
+  {
+   "id": 65772,
+   "name": "Shaun Sipos",
+   "photo": "https://image.tmdb.org/t/p/w185/jc3Zy3lhMGIfk43BkBNrfRrfun.jpg",
+   "character": "David O'Donnell",
+   "episodes": 8
+  },
+  {
+   "id": 14888,
+   "name": "Bruce McGill",
+   "photo": "https://image.tmdb.org/t/p/w185/j4mn0fPdhhXfRqQwheAwCU8Hwrm.jpg",
+   "character": "Mayor Teale",
+   "episodes": 8
+  },
+  {
+   "id": 1211873,
+   "name": "Ferdinand Kingsley",
+   "photo": "https://image.tmdb.org/t/p/w185/arGWhGhfBl8CvNuUoKkUmfrDG0b.jpg",
+   "character": "A.M.",
+   "episodes": 8
+  },
+  {
+   "id": 418,
+   "name": "Robert Patrick",
+   "photo": "https://image.tmdb.org/t/p/w185/qRv2Es9rZoloullTbzss3I5j1Mp.jpg",
+   "character": "Shane Langston",
+   "episodes": 8
+  },
+  {
+   "id": 1446006,
+   "name": "Sonya Cassidy",
+   "photo": "https://image.tmdb.org/t/p/w185/7z0VYq74tKFXoJtKrIUpmygJxak.jpg",
+   "character": "Susan Duffy",
+   "episodes": 8
+  },
+  {
+   "id": 1979105,
+   "name": "Johnny Berchtold",
+   "photo": "https://image.tmdb.org/t/p/w185/tGKPmmdo6ASnNx0GoHiGgDvnndJ.jpg",
+   "character": "Richard Beck",
+   "episodes": 8
+  },
+  {
+   "id": 177934,
+   "name": "Roberto Montesinos",
+   "photo": "https://image.tmdb.org/t/p/w185/gRYmaYEXawDmOngzOThnxDL2FHs.jpg",
+   "character": "Guillermo Villanueva",
+   "episodes": 8
+  },
+  {
+   "id": 2074238,
+   "name": "Olivier Richters",
+   "photo": "https://image.tmdb.org/t/p/w185/8Zz5WYE1Muc3AX9daxCxgNTRE5.jpg",
+   "character": "Paulie",
+   "episodes": 8
+  },
+  {
+   "id": 116278,
+   "name": "Brian Tee",
+   "photo": "https://image.tmdb.org/t/p/w185/ieqbktfBwcHkeikMfNDW94Yffzp.jpg",
+   "character": "Xavier Quinn",
+   "episodes": 8
+  },
+  {
+   "id": 1904,
+   "name": "Anthony Michael Hall",
+   "photo": "https://image.tmdb.org/t/p/w185/nLthzoCuNxxd3KteIrnnMg1066G.jpg",
+   "character": "Zachary Beck",
+   "episodes": 8
+  },
+  {
+   "id": 1247604,
+   "name": "Agnez Mo",
+   "photo": "https://image.tmdb.org/t/p/w185/7GuBJxf5szQRCKLk3iG2ztfCo39.jpg",
+   "character": "Lila Hoth",
+   "episodes": 8
+  },
+  {
+   "id": 1104414,
+   "name": "Sydelle Noel",
+   "photo": "https://image.tmdb.org/t/p/w185/fCOlRtkZVMOMDRPYhdRLeKqymVa.jpg",
+   "character": "Tamara Green",
+   "episodes": 8
+  },
+  {
+   "id": 1297494,
+   "name": "Anggun",
+   "photo": "https://image.tmdb.org/t/p/w185/4WxHGTehDvZudrunxTZmnR66CBi.jpg",
+   "character": "Amisha Hoth",
+   "episodes": 8
+  },
+  {
+   "id": 59238,
+   "name": "Christopher Rodriguez Marquette",
+   "photo": "https://image.tmdb.org/t/p/w185/8AL7UPXM4sVkOMgTHIxNdRi2SXP.jpg",
+   "character": "Jacob Merrick",
+   "episodes": 8
+  },
+  {
+   "id": 18472,
+   "name": "Kevin Corrigan",
+   "photo": "https://image.tmdb.org/t/p/w185/obSUGc68mQDvFONalMg25Xw5GZM.jpg",
+   "character": "Shaun Docherty",
+   "episodes": 8
+  },
+  {
+   "id": 76638,
+   "name": "Hugh Thompson",
+   "photo": "https://image.tmdb.org/t/p/w185/gqBxmvQH9ichNJlJguBjiJjiEVS.jpg",
+   "character": "Officer Baker",
+   "episodes": 8
+  },
+  {
+   "id": 1810651,
+   "name": "Maxwell Jenkins",
+   "photo": "https://image.tmdb.org/t/p/w185/7pAqHa0aMHpK6Z717g2WMxzpYya.jpg",
+   "character": "Young Reacher",
+   "episodes": 6
+  },
+  {
+   "id": 1891547,
+   "name": "Gavin White",
+   "photo": "https://image.tmdb.org/t/p/w185/yzgM2WWYrR8PaE0QTpsSkYz7xke.jpg",
+   "character": "Young Joe",
+   "episodes": 6
+  }
+ ],
+ "crew": [
+  {
+   "id": 78417,
+   "name": "Nick Santora",
+   "photo": "https://image.tmdb.org/t/p/w185/iipP9fTQhRuPJHFMhbpMCceBiiu.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 32
+  },
+  {
+   "id": 1311679,
+   "name": "Sam Hill",
+   "photo": "https://image.tmdb.org/t/p/w185/ftsp2x4z2MvjK7vAQyIB0ojTL4T.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 32
+  },
+  {
+   "id": 56737,
+   "name": "Don Granger",
+   "photo": "https://image.tmdb.org/t/p/w185/xoNLvv80bmhqGs8o4u03ZIE3EgT.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 32
+  },
+  {
+   "id": 1776104,
+   "name": "Marcy Ross",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 32
+  },
+  {
+   "id": 58433,
+   "name": "David Ellison",
+   "photo": "https://image.tmdb.org/t/p/w185/gaT9cIEJPm7nWxpJyZWMy4Ayv6y.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 32
+  },
+  {
+   "id": 1056052,
+   "name": "Lee Child",
+   "photo": "https://image.tmdb.org/t/p/w185/bJiJb69N2h4MdvdP2PjUpgJdCll.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 32
+  },
+  {
+   "id": 9183,
+   "name": "Paula Wagner",
+   "photo": "https://image.tmdb.org/t/p/w185/jRnMmW3USte8Qglpe57nJWlA38E.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 32
+  },
+  {
+   "id": 1688840,
+   "name": "Scott Sullivan",
+   "photo": "https://image.tmdb.org/t/p/w185/bHD6PhZni0YqK4MvcWfVN5yTzlC.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 32
+  },
+  {
+   "id": 29018,
+   "name": "Dana Goldberg",
+   "photo": "https://image.tmdb.org/t/p/w185/AtiT0HTrrrvVVjZgOXpxKxVFyAb.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 32
+  },
+  {
+   "id": 1130319,
+   "name": "Tony Morales",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 32
+  },
+  {
+   "id": 1772710,
+   "name": "Cait Duffy",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 2414790,
+   "name": "Lisa Kussner",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 4431386,
+   "name": "Matt Thunell",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 4079766,
+   "name": "Lillian Wang",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 3245625,
+   "name": "Michael J. Gutierrez",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 64295,
+   "name": "Alan Ritchson",
+   "photo": "https://image.tmdb.org/t/p/w185/92YNEEpCyugkTzPprJwZpvVtvuK.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 16
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:12.070Z"
+}

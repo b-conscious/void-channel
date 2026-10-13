@@ -1,0 +1,332 @@
+{
+ "show": "American Dad!",
+ "slug": "american-dad",
+ "tmdbId": 1433,
+ "cast": [
+  {
+   "id": 52139,
+   "name": "Seth MacFarlane",
+   "photo": "https://image.tmdb.org/t/p/w185/8oQJqM51Z0Qtdb7sE6ZfX1peNCB.jpg",
+   "character": "Stan Smith / Roger (voice)",
+   "episodes": 401
+  },
+  {
+   "id": 37600,
+   "name": "Wendy Schaal",
+   "photo": "https://image.tmdb.org/t/p/w185/qq9Jc77KD24FxxJrR7O2F3E6c8A.jpg",
+   "character": "Francine Smith (voice)",
+   "episodes": 401
+  },
+  {
+   "id": 81668,
+   "name": "Rachael MacFarlane",
+   "photo": "https://image.tmdb.org/t/p/w185/AnLEvMh9pl94uJOO2MnZFQB44b4.jpg",
+   "character": "Hayley Smith (voice)",
+   "episodes": 401
+  },
+  {
+   "id": 35091,
+   "name": "Scott Grimes",
+   "photo": "https://image.tmdb.org/t/p/w185/k5OCDhwZoFuNtN0o4EDkpBXQsFp.jpg",
+   "character": "Steve Smith (voice)",
+   "episodes": 401
+  },
+  {
+   "id": 23680,
+   "name": "Dee Bradley Baker",
+   "photo": "https://image.tmdb.org/t/p/w185/9oFnToDZWp0I484s7Ua1EzNQQ2m.jpg",
+   "character": "Klaus (voice)",
+   "episodes": 401
+  },
+  {
+   "id": 5211,
+   "name": "Jeff Fischer",
+   "photo": "https://image.tmdb.org/t/p/w185/wC4wsWAYZ51FNCb33GpDiCUrFDw.jpg",
+   "character": "Jeff Fischer (voice) / Donnie Patterson (voice) / Jeff Fischer / Glenn (voice)",
+   "episodes": 190
+  },
+  {
+   "id": 87003,
+   "name": "Curtis Armstrong",
+   "photo": "https://image.tmdb.org/t/p/w185/3ZAX6NoU47Qshk0svFxkEcJ5fhI.jpg",
+   "character": "Snot Lonstein / Eli Weisel (voice) / Snot Lonstein (voice) / Frank, the Judge (voice)",
+   "episodes": 124
+  },
+  {
+   "id": 2387,
+   "name": "Patrick Stewart",
+   "photo": "https://image.tmdb.org/t/p/w185/ufqtnLh3JJjPbEgxEag3MM5nZyv.jpg",
+   "character": "Avery Bullock / Patrick Stewart (voice) / Avery Bullock / Police Academy Chief (voice) / Avery Bullock (voice)",
+   "episodes": 122
+  },
+  {
+   "id": 24362,
+   "name": "Kevin Michael Richardson",
+   "photo": "https://image.tmdb.org/t/p/w185/xXt9Nh7RAT5bOen66TaXreNYmCl.jpg",
+   "character": "Ted Feedler / Nameless Bum (voice) / Principal Lewis / Billy / Steve Harvey (voice) / Dad (voice)",
+   "episodes": 109
+  },
+  {
+   "id": 52480,
+   "name": "Eddie Kaye Thomas",
+   "photo": "https://image.tmdb.org/t/p/w185/k8f8MK8KSOyLozl9pQGaSpYMbpM.jpg",
+   "character": "William / Barry Robinson (voice) / (voice) / Audience Member (voice)",
+   "episodes": 97
+  },
+  {
+   "id": 1224449,
+   "name": "Mike Barker",
+   "photo": "https://image.tmdb.org/t/p/w185/eUpPQD9qX3XdZpl5ItWiDvnWrWA.jpg",
+   "character": "(voice) / Terry Bates / Cashier (voice) / Jesus (voice)",
+   "episodes": 83
+  },
+  {
+   "id": 1219665,
+   "name": "Mike Henry",
+   "photo": "https://image.tmdb.org/t/p/w185/4b2315JgnH0O0hJPwLvl01EZEjo.jpg",
+   "character": "(voice) / Demolisher (voice) / Jackson / Taco (voice)",
+   "episodes": 74
+  },
+  {
+   "id": 28638,
+   "name": "David Koechner",
+   "photo": "https://image.tmdb.org/t/p/w185/fpTTe1ow3EdfRJ8PZgBJmpeghMS.jpg",
+   "character": "Wilbur Kentucky (voice) / Dick (voice) / Dick / Charles the Hunchback (voice)",
+   "episodes": 69
+  },
+  {
+   "id": 21125,
+   "name": "Richard Kind",
+   "photo": "https://image.tmdb.org/t/p/w185/yWmuVQeQUzb5OSMVDoWkR0IylCK.jpg",
+   "character": "Al Tuttle (voice) / Car Salesman (voice)",
+   "episodes": 63
+  },
+  {
+   "id": 1224451,
+   "name": "Daisuke Suzuki",
+   "photo": null,
+   "character": "Toshi Yoshida (voice)",
+   "episodes": 52
+  },
+  {
+   "id": 1217648,
+   "name": "Chris Diamantopoulos",
+   "photo": "https://image.tmdb.org/t/p/w185/oenBtpk0RTId4wacQKYU4cPcq8Z.jpg",
+   "character": "Guest #3 / Brad / Guy (voice) / Wedding Singer (voice) / Italian Man (voice)",
+   "episodes": 41
+  },
+  {
+   "id": 76492,
+   "name": "Matt McKenna",
+   "photo": null,
+   "character": "(voice) / Russian (voice) / Coach Andrews (voice)",
+   "episodes": 36
+  },
+  {
+   "id": 1224471,
+   "name": "Judah Miller",
+   "photo": "https://image.tmdb.org/t/p/w185/vN7RC1xkyHKD9XtiPtGVyKDztTp.jpg",
+   "character": "Mertz (voice) / Student (voice) / (voice)",
+   "episodes": 33
+  },
+  {
+   "id": 2495556,
+   "name": "Nicole Shabtai",
+   "photo": null,
+   "character": "Commercial Wife (voice) / Diner Patron (voice) / Esther Lonstein (voice)",
+   "episodes": 33
+  },
+  {
+   "id": 1906865,
+   "name": "Alex Cuthbertson",
+   "photo": null,
+   "character": "Various (voice) / Alien (voice) / (voice)",
+   "episodes": 32
+  },
+  {
+   "id": 95875,
+   "name": "Andy Daly",
+   "photo": "https://image.tmdb.org/t/p/w185/mBbtTnfcxkFXH3RPomSO4VCyxYS.jpg",
+   "character": "Kevin (voice) / Memphis Stormfront / Snoopaloompa (voice) / Bar Bro (voice)",
+   "episodes": 32
+  },
+  {
+   "id": 21088,
+   "name": "Alan Tudyk",
+   "photo": "https://image.tmdb.org/t/p/w185/jUuUbPuMGonFT5E2pcs4alfqaCN.jpg",
+   "character": "Tony Tonington (voice) / (voice) / Gus Derwitt (voice)",
+   "episodes": 30
+  },
+  {
+   "id": 15423,
+   "name": "Paget Brewster",
+   "photo": "https://image.tmdb.org/t/p/w185/nq9ZuGPvzyfS8dOuPWTQUw7Igxg.jpg",
+   "character": "Casey (voice) / Concession Counter Girl (voice) / Judy (voice)",
+   "episodes": 29
+  },
+  {
+   "id": 2494870,
+   "name": "Nic Wegener",
+   "photo": "https://image.tmdb.org/t/p/w185/sk1hZmK1bJGQAVuTXVz9hFII8LK.jpg",
+   "character": "Douglas (voice) / Surfer (voice) / Sleep Apnea Research Scientist (voice)",
+   "episodes": 28
+  }
+ ],
+ "crew": [
+  {
+   "id": 1224452,
+   "name": "Matt Weitzman",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 173
+  },
+  {
+   "id": 52139,
+   "name": "Seth MacFarlane",
+   "photo": "https://image.tmdb.org/t/p/w185/8oQJqM51Z0Qtdb7sE6ZfX1peNCB.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 173
+  },
+  {
+   "id": 1224449,
+   "name": "Mike Barker",
+   "photo": "https://image.tmdb.org/t/p/w185/eUpPQD9qX3XdZpl5ItWiDvnWrWA.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 172
+  },
+  {
+   "id": 1224456,
+   "name": "Brian Boyle",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 173
+  },
+  {
+   "id": 1224473,
+   "name": "Rick Wiener",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 172
+  },
+  {
+   "id": 1224453,
+   "name": "David Zuckerman",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 172
+  },
+  {
+   "id": 1224474,
+   "name": "Kenny Schwartz",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 172
+  },
+  {
+   "id": 1906864,
+   "name": "Matt Fusfeld",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 72
+  },
+  {
+   "id": 1906865,
+   "name": "Alex Cuthbertson",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 72
+  },
+  {
+   "id": 1224540,
+   "name": "Teresa Hsiao",
+   "photo": "https://image.tmdb.org/t/p/w185/811krXOMiBy0SQoYoUjpq6ulDBo.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 44
+  },
+  {
+   "id": 2494871,
+   "name": "Jansen Yee",
+   "photo": "https://image.tmdb.org/t/p/w185/9fuQpTAroOG4dREhxrZQbm5Hn1v.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 43
+  },
+  {
+   "id": 1224455,
+   "name": "Rodney Clouden",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 42
+  },
+  {
+   "id": 2110171,
+   "name": "Tim Parsons",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 42
+  },
+  {
+   "id": 1224457,
+   "name": "Joe Daniello",
+   "photo": "https://image.tmdb.org/t/p/w185/unWC2Q5WnlVC4lofgUYVGVxRBv.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 2494868,
+   "name": "Josue Cervantes",
+   "photo": "https://image.tmdb.org/t/p/w185/7UxYSnckHMVtGDKGjF0VsiCpb05.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 4041503,
+   "name": "Chris Bennett",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 39
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:29:21.420Z"
+}

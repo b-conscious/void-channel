@@ -1,0 +1,328 @@
+{
+ "show": "iCarly",
+ "slug": "icarly",
+ "tmdbId": 5371,
+ "cast": [
+  {
+   "id": 17743,
+   "name": "Miranda Cosgrove",
+   "photo": "https://image.tmdb.org/t/p/w185/qIGeoyXEVu1LxTH34TWx1YSHyQr.jpg",
+   "character": "Carly Shay",
+   "episodes": 107
+  },
+  {
+   "id": 133979,
+   "name": "Jennette McCurdy",
+   "photo": "https://image.tmdb.org/t/p/w185/cBG9ifemTBneYnjSBrWj3fDYi9c.jpg",
+   "character": "Sam Puckett",
+   "episodes": 107
+  },
+  {
+   "id": 212913,
+   "name": "Nathan Kress",
+   "photo": "https://image.tmdb.org/t/p/w185/3DAchXVcQvqxsrsRFcYrjZZXxnb.jpg",
+   "character": "Freddie Benson",
+   "episodes": 107
+  },
+  {
+   "id": 111512,
+   "name": "Jerry Trainor",
+   "photo": "https://image.tmdb.org/t/p/w185/7rZX87iBEYEQ3ZngaNVi3eyxNTT.jpg",
+   "character": "Spencer Shay",
+   "episodes": 107
+  },
+  {
+   "id": 221125,
+   "name": "Noah Munck",
+   "photo": "https://image.tmdb.org/t/p/w185/8CHEa4LezWiNm8LdJfjzrDnPos3.jpg",
+   "character": "Gibby Gibson",
+   "episodes": 66
+  },
+  {
+   "id": 102734,
+   "name": "Mary Scheer",
+   "photo": "https://image.tmdb.org/t/p/w185/51LZcrFlk0ocIhNvC7DoP0UwVGh.jpg",
+   "character": "Marissa Benson",
+   "episodes": 32
+  },
+  {
+   "id": 1238893,
+   "name": "BooG!e",
+   "photo": "https://image.tmdb.org/t/p/w185/rXLjmC99tqq66WVTst82zHi6zIM.jpg",
+   "character": "T-Bo",
+   "episodes": 28
+  },
+  {
+   "id": 1224220,
+   "name": "Jeremy Rowley",
+   "photo": "https://image.tmdb.org/t/p/w185/ykLbqHukBjKgBCEaP0X43kPkdFm.jpg",
+   "character": "Lewbert Sline",
+   "episodes": 13
+  },
+  {
+   "id": 78115,
+   "name": "Reed Alexander",
+   "photo": "https://image.tmdb.org/t/p/w185/rbkRwkrxFASI2cetBgU1JzHGI3I.jpg",
+   "character": "Nevel Papperman",
+   "episodes": 9
+  },
+  {
+   "id": 3133396,
+   "name": "Colin Spensor",
+   "photo": "https://image.tmdb.org/t/p/w185/sKd7ZzZTje4HNTgjRsW4UABa8RK.jpg",
+   "character": "Wesley",
+   "episodes": 9
+  },
+  {
+   "id": 3137228,
+   "name": "Mary Ann Springer",
+   "photo": "https://image.tmdb.org/t/p/w185/f4OoNGmUTa2g0wNN92yLPeg25g4.jpg",
+   "character": "Bad Girl / Wendy",
+   "episodes": 8
+  },
+  {
+   "id": 1582313,
+   "name": "Ethan Munck",
+   "photo": null,
+   "character": "Guppy Gibson / 5-Year-Old Gibby",
+   "episodes": 8
+  },
+  {
+   "id": 55538,
+   "name": "Tim Russ",
+   "photo": "https://image.tmdb.org/t/p/w185/pwCVxvFbkUnBr46pPFJLabNMHww.jpg",
+   "character": "Ted Franklin",
+   "episodes": 8
+  },
+  {
+   "id": 13924,
+   "name": "Mindy Sterling",
+   "photo": "https://image.tmdb.org/t/p/w185/hX99KTTCFxB4a2rB1SpDbr8imrK.jpg",
+   "character": "Francine Briggs",
+   "episodes": 8
+  },
+  {
+   "id": 186698,
+   "name": "Andrew Hill Newman",
+   "photo": "https://image.tmdb.org/t/p/w185/r2MklyCpyxzX1Q0I4vF9EapRbXs.jpg",
+   "character": "Albert Einstein / Mr. Henning / George (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 1598,
+   "name": "David St. James",
+   "photo": "https://image.tmdb.org/t/p/w185/bj8ICLc3bMlAwnIWtDyP57ApQt8.jpg",
+   "character": "Mr. Howard",
+   "episodes": 7
+  },
+  {
+   "id": 70804,
+   "name": "Dan Schneider",
+   "photo": "https://image.tmdb.org/t/p/w185/kUD4fR3yxW2PTFQjEHqWJq3SzEq.jpg",
+   "character": "Police Officer #1 / Dan Schneider (voice) / Man in Crowd",
+   "episodes": 6
+  },
+  {
+   "id": 492081,
+   "name": "Ryan Ochoa",
+   "photo": "https://image.tmdb.org/t/p/w185/iyDj6ejYExMS6mo1VkJoE8xsGiA.jpg",
+   "character": "Chuck",
+   "episodes": 5
+  },
+  {
+   "id": 191228,
+   "name": "Victoria Justice",
+   "photo": "https://image.tmdb.org/t/p/w185/47IQmeSdGg6CD4UxquwGbI5gARy.jpg",
+   "character": "Tori Vega / Shelby Marx",
+   "episodes": 5
+  },
+  {
+   "id": 87019,
+   "name": "Sean Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/wUOQ4TBz0SEbMdk6rpqUthpsd9p.jpg",
+   "character": "Dr. Dresdin",
+   "episodes": 5
+  },
+  {
+   "id": 1758156,
+   "name": "Dre Swain",
+   "photo": "https://image.tmdb.org/t/p/w185/9ue1smsQnlSwtioeQciHuRBJgYd.jpg",
+   "character": "W.O.W. Fan #3 / Abby / Toby's Mom (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 1325787,
+   "name": "Joseph Buttler",
+   "photo": "https://image.tmdb.org/t/p/w185/2CgvRX0GjRHygWVERL1TiTDC8Rj.jpg",
+   "character": "Mr. Stern",
+   "episodes": 5
+  },
+  {
+   "id": 1319519,
+   "name": "Deena Dill",
+   "photo": "https://image.tmdb.org/t/p/w185/3HennkZ7gpmROi1PIqF6X4VNDHl.jpg",
+   "character": "Charlotte Gibson",
+   "episodes": 5
+  },
+  {
+   "id": 1237322,
+   "name": "Jake Farrow",
+   "photo": null,
+   "character": "Christopher Cane / Rex Powers (voice) / Gavin / Rex Powers",
+   "episodes": 5
+  }
+ ],
+ "crew": [
+  {
+   "id": 70804,
+   "name": "Dan Schneider",
+   "photo": "https://image.tmdb.org/t/p/w185/kUD4fR3yxW2PTFQjEHqWJq3SzEq.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 107
+  },
+  {
+   "id": 1007917,
+   "name": "Michael Corcoran",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 107
+  },
+  {
+   "id": 166999,
+   "name": "Steve Hoefer",
+   "photo": "https://image.tmdb.org/t/p/w185/ojaV4B8T2aoVuEO2ff3cC5oB2Xj.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 47
+  },
+  {
+   "id": 1237322,
+   "name": "Jake Farrow",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 28
+  },
+  {
+   "id": 97258,
+   "name": "Adam Weissman",
+   "photo": "https://image.tmdb.org/t/p/w185/oWyxDGq3k66HqXfPKrHqOUJh8Pn.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 67966,
+   "name": "David Kendall",
+   "photo": "https://image.tmdb.org/t/p/w185/T8CQlPuHBRW0l3l5lmDBWaOaZP.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 186698,
+   "name": "Andrew Hill Newman",
+   "photo": "https://image.tmdb.org/t/p/w185/r2MklyCpyxzX1Q0I4vF9EapRbXs.jpg",
+   "jobs": [
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 1224501,
+   "name": "Matt Fleckenstein",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1948597,
+   "name": "Russ Reinsel",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1251161,
+   "name": "Arthur Gradstein",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1237566,
+   "name": "Roger Christiansen",
+   "photo": "https://image.tmdb.org/t/p/w185/Mtt5E0A18aSHiiHndBk78wNEuM.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1224134,
+   "name": "Steve Holland",
+   "photo": "https://image.tmdb.org/t/p/w185/m7FIFJs5ZP2DOSqg7HtLKG0zLvB.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 3416221,
+   "name": "Eric Goldberg",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 3416218,
+   "name": "Peter Tibbals",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1224133,
+   "name": "Steven Molaro",
+   "photo": "https://image.tmdb.org/t/p/w185/2NZtxlNz5IWS1XoC0MdeBdkUZ5l.jpg",
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 113897,
+   "name": "George Doty IV",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:29:04.536Z"
+}

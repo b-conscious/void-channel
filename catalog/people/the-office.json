@@ -1,0 +1,342 @@
+{
+ "show": "The Office",
+ "slug": "the-office",
+ "tmdbId": 2316,
+ "cast": [
+  {
+   "id": 11678,
+   "name": "Rainn Wilson",
+   "photo": "https://image.tmdb.org/t/p/w185/yRTElSeC3q9nBqBuleI6OODlDMS.jpg",
+   "character": "Dwight Schrute",
+   "episodes": 186
+  },
+  {
+   "id": 17697,
+   "name": "John Krasinski",
+   "photo": "https://image.tmdb.org/t/p/w185/pmVGDb6Yl6OyFcHVGbu1EYNfyFK.jpg",
+   "character": "Jim Halpert",
+   "episodes": 186
+  },
+  {
+   "id": 51856,
+   "name": "Jenna Fischer",
+   "photo": "https://image.tmdb.org/t/p/w185/mfKRbOHTPNi9jFSthtjl4FGVZv6.jpg",
+   "character": "Pam Beesly",
+   "episodes": 186
+  },
+  {
+   "id": 1230842,
+   "name": "Leslie David Baker",
+   "photo": "https://image.tmdb.org/t/p/w185/9h3xlV5IYqKinlQCW1ouU7sjwWF.jpg",
+   "character": "Stanley Hudson",
+   "episodes": 186
+  },
+  {
+   "id": 94622,
+   "name": "Brian Baumgartner",
+   "photo": "https://image.tmdb.org/t/p/w185/1O7ECkD4mOKAgMAbQADBpTKBzOP.jpg",
+   "character": "Kevin Malone",
+   "episodes": 186
+  },
+  {
+   "id": 113867,
+   "name": "Angela Kinsey",
+   "photo": "https://image.tmdb.org/t/p/w185/qHFidnMcFqUWdMFyjmXufBlYckd.jpg",
+   "character": "Angela Martin",
+   "episodes": 186
+  },
+  {
+   "id": 304282,
+   "name": "Kate Flannery",
+   "photo": "https://image.tmdb.org/t/p/w185/wFXWKB2IUyB6Cu08PyovyBAm9WT.jpg",
+   "character": "Meredith Palmer",
+   "episodes": 184
+  },
+  {
+   "id": 169200,
+   "name": "Phyllis Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/h9w9pQbiderRWAC2mi7spjzuIGz.jpg",
+   "character": "Phyllis Lapin",
+   "episodes": 184
+  },
+  {
+   "id": 85177,
+   "name": "Creed Bratton",
+   "photo": "https://image.tmdb.org/t/p/w185/r1VWJSP2c29qSj5PA6wMOe7RdVz.jpg",
+   "character": "Creed Bratton",
+   "episodes": 179
+  },
+  {
+   "id": 76094,
+   "name": "Oscar Nuñez",
+   "photo": "https://image.tmdb.org/t/p/w185/UBILHiRphJdlshvsyH920QSAhk.jpg",
+   "character": "Oscar Martinez",
+   "episodes": 175
+  },
+  {
+   "id": 107770,
+   "name": "B.J. Novak",
+   "photo": "https://image.tmdb.org/t/p/w185/o8Xf1khxhKGTz3QAplXD35opRA8.jpg",
+   "character": "Ryan Howard",
+   "episodes": 165
+  },
+  {
+   "id": 125167,
+   "name": "Mindy Kaling",
+   "photo": "https://image.tmdb.org/t/p/w185/m4veWEp9TEDallTZRobb7MLkd9K.jpg",
+   "character": "Kelly Kapoor",
+   "episodes": 156
+  },
+  {
+   "id": 27105,
+   "name": "Ed Helms",
+   "photo": "https://image.tmdb.org/t/p/w185/gPZ8tZaNQGAc3KZRIPp9rgGbEnN.jpg",
+   "character": "Andy Bernard",
+   "episodes": 151
+  },
+  {
+   "id": 4495,
+   "name": "Steve Carell",
+   "photo": "https://image.tmdb.org/t/p/w185/sSxw69G0znJuettMYGDCAXfSwSY.jpg",
+   "character": "Michael Scott",
+   "episodes": 140
+  },
+  {
+   "id": 1213125,
+   "name": "Paul Lieberstein",
+   "photo": "https://image.tmdb.org/t/p/w185/oLCaNVAw5cfE5q4e0PRsmHTuHfd.jpg",
+   "character": "Toby Flenderson",
+   "episodes": 136
+  },
+  {
+   "id": 64342,
+   "name": "Craig Robinson",
+   "photo": "https://image.tmdb.org/t/p/w185/mTyTrOWUSOBJMOlDpnd4OYx7FlJ.jpg",
+   "character": "Darryl Philbin",
+   "episodes": 118
+  },
+  {
+   "id": 475512,
+   "name": "Ellie Kemper",
+   "photo": "https://image.tmdb.org/t/p/w185/2rWtHAdr1lXQBzxOcVZ3CyYPDEI.jpg",
+   "character": "Erin Hannon",
+   "episodes": 101
+  },
+  {
+   "id": 464993,
+   "name": "Zach Woods",
+   "photo": "https://image.tmdb.org/t/p/w185/jolb1uMzDZGTKOKyhgeG3RIsL2W.jpg",
+   "character": "Gabe Lewis",
+   "episodes": 50
+  },
+  {
+   "id": 404,
+   "name": "Melora Hardin",
+   "photo": "https://image.tmdb.org/t/p/w185/ymH5zoBrtEfFWIkgKAhiEbtiAg4.jpg",
+   "character": "Jan Levinson",
+   "episodes": 41
+  },
+  {
+   "id": 170635,
+   "name": "Andy Buckley",
+   "photo": "https://image.tmdb.org/t/p/w185/urkCCe0bizypCkQ9bZhFhDzvskE.jpg",
+   "character": "David Wallace",
+   "episodes": 38
+  },
+  {
+   "id": 47646,
+   "name": "Catherine Tate",
+   "photo": "https://image.tmdb.org/t/p/w185/xqaqetDBODzlm4Yky99NOOzLstL.jpg",
+   "character": "Nellie Bertram",
+   "episodes": 34
+  },
+  {
+   "id": 62562,
+   "name": "David Denman",
+   "photo": "https://image.tmdb.org/t/p/w185/4I06ZD8SQ6pU1QYShiUXb711fJW.jpg",
+   "character": "Roy Anderson",
+   "episodes": 31
+  },
+  {
+   "id": 80591,
+   "name": "Rashida Jones",
+   "photo": "https://image.tmdb.org/t/p/w185/cgWGm9eYCretBWeljPVtpRV7n6V.jpg",
+   "character": "Karen Filippelli",
+   "episodes": 26
+  },
+  {
+   "id": 13548,
+   "name": "James Spader",
+   "photo": "https://image.tmdb.org/t/p/w185/3gurW3OgDOD4hcqDfgcqUnoNg34.jpg",
+   "character": "Robert California",
+   "episodes": 25
+  }
+ ],
+ "crew": [
+  {
+   "id": 1216630,
+   "name": "Greg Daniels",
+   "photo": "https://image.tmdb.org/t/p/w185/2lplV4pxfpEL7Rpdr7YFXmGx84x.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 186
+  },
+  {
+   "id": 39189,
+   "name": "Stephen Merchant",
+   "photo": "https://image.tmdb.org/t/p/w185/6WM2rK6390Nwk398syJbGcPvRct.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 188
+  },
+  {
+   "id": 17835,
+   "name": "Ricky Gervais",
+   "photo": "https://image.tmdb.org/t/p/w185/z293wonhuF0aYQtg1ROOSl1LObf.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 188
+  },
+  {
+   "id": 1035869,
+   "name": "Ben Silverman",
+   "photo": "https://image.tmdb.org/t/p/w185/mmlSuSF6wxv0FfaoOQwNCrC83YQ.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 186
+  },
+  {
+   "id": 58274,
+   "name": "Howard Klein",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 186
+  },
+  {
+   "id": 1213125,
+   "name": "Paul Lieberstein",
+   "photo": "https://image.tmdb.org/t/p/w185/oLCaNVAw5cfE5q4e0PRsmHTuHfd.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 185
+  },
+  {
+   "id": 107770,
+   "name": "B.J. Novak",
+   "photo": "https://image.tmdb.org/t/p/w185/o8Xf1khxhKGTz3QAplXD35opRA8.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 157
+  },
+  {
+   "id": 1216619,
+   "name": "Brent Forrester",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 141
+  },
+  {
+   "id": 1220649,
+   "name": "Jennifer Celotta",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 103
+  },
+  {
+   "id": 125167,
+   "name": "Mindy Kaling",
+   "photo": "https://image.tmdb.org/t/p/w185/m4veWEp9TEDallTZRobb7MLkd9K.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1215572,
+   "name": "Randall Einhorn",
+   "photo": "https://image.tmdb.org/t/p/w185/oY6fG94AZHBr6PnQ2lroNVOd5uX.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 84416,
+   "name": "Gene Stupnitsky",
+   "photo": "https://image.tmdb.org/t/p/w185/xAgtuSwjc8t7K4Z7AquN6a0wD0G.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 84417,
+   "name": "Lee Eisenberg",
+   "photo": "https://image.tmdb.org/t/p/w185/qxA2eLl3AmBKfXqeCQy7RDlZSkE.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 116805,
+   "name": "Paul Feig",
+   "photo": "https://image.tmdb.org/t/p/w185/mE3eFY3gq1UQ7Rj2He2YbZ7PFya.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 29009,
+   "name": "Ken Kwapis",
+   "photo": "https://image.tmdb.org/t/p/w185/u9VNf7dSQkDN9Ejh3yAUTvknTOW.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 1230847,
+   "name": "Justin Spitzer",
+   "photo": "https://image.tmdb.org/t/p/w185/7LiIHJLBv6Li1lmASD6mrigtKPo.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 12
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:28:34.319Z"
+}

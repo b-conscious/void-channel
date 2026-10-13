@@ -1,0 +1,326 @@
+{
+ "show": "Andromeda",
+ "slug": "andromeda",
+ "tmdbId": 2985,
+ "cast": [
+  {
+   "id": 51965,
+   "name": "Kevin Sorbo",
+   "photo": "https://image.tmdb.org/t/p/w185/a6rDi3tkNJwaVoP7VGbdGelwtYw.jpg",
+   "character": "Dylan Hunt",
+   "episodes": 110
+  },
+  {
+   "id": 69576,
+   "name": "Lisa Ryder",
+   "photo": "https://image.tmdb.org/t/p/w185/trvgfnULUcQiSQKJWi31csZgNl6.jpg",
+   "character": "Beka Valentine",
+   "episodes": 110
+  },
+  {
+   "id": 122876,
+   "name": "Laura Bertram",
+   "photo": "https://image.tmdb.org/t/p/w185/f726f8MdTOtke12QtNjvGbXVjVQ.jpg",
+   "character": "Trance Gemini",
+   "episodes": 110
+  },
+  {
+   "id": 166807,
+   "name": "Gordon Michael Woolvett",
+   "photo": "https://image.tmdb.org/t/p/w185/8fdk86FY8LjR9owIEJjtKX6kaLD.jpg",
+   "character": "Seamus Harper",
+   "episodes": 110
+  },
+  {
+   "id": 69574,
+   "name": "Lexa Doig",
+   "photo": "https://image.tmdb.org/t/p/w185/yMQ5Cr5W7CsATDqiDlw5zFFkIBI.jpg",
+   "character": "Andromeda Ascendant",
+   "episodes": 110
+  },
+  {
+   "id": 1226007,
+   "name": "Keith Hamilton Cobb",
+   "photo": "https://image.tmdb.org/t/p/w185/g8r1qz4wrMGJQoYuGLtUmrrlQMd.jpg",
+   "character": "Tyr Anasazi",
+   "episodes": 69
+  },
+  {
+   "id": 33355,
+   "name": "Steve Bacic",
+   "photo": "https://image.tmdb.org/t/p/w185/aGEGpzzXuggaLCU0wTaVHbBdYYu.jpg",
+   "character": "Telemachus Rhade / Gaheris Rhade / Gaheris Rhade / Telemachus Rhade",
+   "episodes": 44
+  },
+  {
+   "id": 27127,
+   "name": "Brent Stait",
+   "photo": "https://image.tmdb.org/t/p/w185/qA9VbhVk3lqPsEOfshXlvGlai1y.jpg",
+   "character": "Rev Bem",
+   "episodes": 28
+  },
+  {
+   "id": 119759,
+   "name": "Brandy Ledford",
+   "photo": "https://image.tmdb.org/t/p/w185/fQyIIX977L084N1b2ycuU4lC9i0.jpg",
+   "character": "Doyle",
+   "episodes": 22
+  },
+  {
+   "id": 52288,
+   "name": "Jim Byrnes",
+   "photo": "https://image.tmdb.org/t/p/w185/q6NzmS2O3fJ4Z2JJ22dSH5rGbJT.jpg",
+   "character": "Virgil Vox / Shineoa San / Virgil Vox (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 86788,
+   "name": "Janyse Jaud",
+   "photo": "https://image.tmdb.org/t/p/w185/7ZvfIfmgkU2B8jA25czUoKXXq6e.jpg",
+   "character": ". Pax Magellanic Avatar (voice) / (voice artist) / Clarion of Loss (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 196690,
+   "name": "Robert Saunders",
+   "photo": null,
+   "character": "The Abyss / Spirit of the Abyss / Enigma",
+   "episodes": 5
+  },
+  {
+   "id": 1233160,
+   "name": "Rik Kiviaho",
+   "photo": "https://image.tmdb.org/t/p/w185/wgSUQsr6NivVTeKD1HukLUOQ12p.jpg",
+   "character": "Rekeeb / High Guard Captain Perim / Head Monk",
+   "episodes": 4
+  },
+  {
+   "id": 42706,
+   "name": "Nicholas Lea",
+   "photo": "https://image.tmdb.org/t/p/w185/z9H2GArx5gU6iZBpiqSMJHE2VAQ.jpg",
+   "character": "Tri-Lorn",
+   "episodes": 4
+  },
+  {
+   "id": 152823,
+   "name": "Carmen Moore",
+   "photo": "https://image.tmdb.org/t/p/w185/cPUNFyRPEbgNpBfEVYKWNZtoGML.jpg",
+   "character": "Tri-Jema",
+   "episodes": 4
+  },
+  {
+   "id": 32749,
+   "name": "Alex Diakun",
+   "photo": "https://image.tmdb.org/t/p/w185/miWLKODjrAYpU2eKfanJcKESi97.jpg",
+   "character": "Höhne",
+   "episodes": 4
+  },
+  {
+   "id": 26075,
+   "name": "Alan Scarfe",
+   "photo": "https://image.tmdb.org/t/p/w185/cGFiiIK3rqo1nakzaAzAqEhzgbs.jpg",
+   "character": "Flavin",
+   "episodes": 3
+  },
+  {
+   "id": 43297,
+   "name": "Elizabeth Thai",
+   "photo": "https://image.tmdb.org/t/p/w185/4yHeSZW83qlCrKJC5w8uhoUjj6b.jpg",
+   "character": "Than Pilot / Refractions of Dawn / Twilight",
+   "episodes": 3
+  },
+  {
+   "id": 60723,
+   "name": "Kevan Ohtsji",
+   "photo": "https://image.tmdb.org/t/p/w185/wif0qBL0gbAvTOz181vmjNsTaWR.jpg",
+   "character": "Lt. Frymire / Burma Henchman",
+   "episodes": 3
+  },
+  {
+   "id": 62909,
+   "name": "Paul Campbell",
+   "photo": "https://image.tmdb.org/t/p/w185/yPxGQwgl1VAMU0Hzck3dJSoYkMB.jpg",
+   "character": "Crewman Bowlus / Lt. Bowlus",
+   "episodes": 3
+  },
+  {
+   "id": 27143,
+   "name": "John Tench",
+   "photo": "https://image.tmdb.org/t/p/w185/xF4Ylt8cD5HBkP8ERDmSTtSPnSN.jpg",
+   "character": "Gerentex",
+   "episodes": 3
+  },
+  {
+   "id": 89551,
+   "name": "Peter Kelamis",
+   "photo": "https://image.tmdb.org/t/p/w185/nV0lHILeENtQ8PbGa3E5Mrx607a.jpg",
+   "character": "Mayor Doge Miskich / Grask / Casino Thug",
+   "episodes": 3
+  },
+  {
+   "id": 43299,
+   "name": "John DeSantis",
+   "photo": "https://image.tmdb.org/t/p/w185/sMsA0ox2wXkW2Y4uZvYpbpyaGsu.jpg",
+   "character": "Behemoth / Stalin Kuleshov / Hsigo",
+   "episodes": 3
+  },
+  {
+   "id": 62911,
+   "name": "JR Bourne",
+   "photo": "https://image.tmdb.org/t/p/w185/ytic06VRha6addRGF7BSXXj9OkG.jpg",
+   "character": "Marshall Ataturk",
+   "episodes": 3
+  }
+ ],
+ "crew": [
+  {
+   "id": 1172762,
+   "name": "Robert Hewitt Wolfe",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1745,
+   "name": "Gene Roddenberry",
+   "photo": "https://image.tmdb.org/t/p/w185/qY3gWqAMDrrvNVUrwZ8lSa4IKtS.jpg",
+   "jobs": [
+    "Creator"
+   ]
+  },
+  {
+   "id": 175726,
+   "name": "Jorge Montesi",
+   "photo": "https://image.tmdb.org/t/p/w185/z45zSD5zStHZ6PwQeFt0fnrkjui.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 21
+  },
+  {
+   "id": 67484,
+   "name": "Ashley Miller",
+   "photo": "https://image.tmdb.org/t/p/w185/dvWGQk1DXtZii0rfAAzLjWbIJPP.jpg",
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 21
+  },
+  {
+   "id": 67485,
+   "name": "Zack Stentz",
+   "photo": "https://image.tmdb.org/t/p/w185/n5r6z0dsq98ljoPzJqvkPkywxDb.jpg",
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 21
+  },
+  {
+   "id": 1213078,
+   "name": "Matt Kiene",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 1213079,
+   "name": "Joe Reinkemeyer",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 1216739,
+   "name": "Larry Barber",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 1806540,
+   "name": "Paul Barber",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 44134,
+   "name": "Allan Eastman",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1818596,
+   "name": "Richard Flower",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 52044,
+   "name": "David Winning",
+   "photo": "https://image.tmdb.org/t/p/w185/pQXcLaJ05OVmQuK5uM6Uqeuk1Ce.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 173986,
+   "name": "Ethlie Ann Vare",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 15797,
+   "name": "Robert Engels",
+   "photo": "https://image.tmdb.org/t/p/w185/1f95RH0vkcI9HA5WaHyyHHSulQO.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 118463,
+   "name": "Peter DeLuise",
+   "photo": "https://image.tmdb.org/t/p/w185/sLkSOm6HBLB4VCfshQLdSEq63tr.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 25882,
+   "name": "Brad Turner",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:32.934Z"
+}

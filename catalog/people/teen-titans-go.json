@@ -1,0 +1,337 @@
+{
+ "show": "Teen Titans Go!",
+ "slug": "teen-titans-go",
+ "tmdbId": 45140,
+ "cast": [
+  {
+   "id": 113916,
+   "name": "Scott Menville",
+   "photo": "https://image.tmdb.org/t/p/w185/iLoApH8LbyJSKFmdgWxNR314GGa.jpg",
+   "character": "Robin (voice)",
+   "episodes": 454
+  },
+  {
+   "id": 60227,
+   "name": "Greg Cipes",
+   "photo": "https://image.tmdb.org/t/p/w185/x6kE9Ox4sR3HnrF6qtnjGNgujzV.jpg",
+   "character": "Beast Boy (voice)",
+   "episodes": 454
+  },
+  {
+   "id": 65640,
+   "name": "Khary Payton",
+   "photo": "https://image.tmdb.org/t/p/w185/4PgEGuAb2KkaRb7P9PdK40pPeVH.jpg",
+   "character": "Cyborg (voice)",
+   "episodes": 454
+  },
+  {
+   "id": 15762,
+   "name": "Tara Strong",
+   "photo": "https://image.tmdb.org/t/p/w185/Cm3X7CCSuYbjW1ZKJ8vxCj4SI7.jpg",
+   "character": "Raven (voice)",
+   "episodes": 454
+  },
+  {
+   "id": 113919,
+   "name": "Hynden Walch",
+   "photo": "https://image.tmdb.org/t/p/w185/oFfZaFF1o724BuZ3cLK6tl9L03.jpg",
+   "character": "Starfire (voice)",
+   "episodes": 454
+  },
+  {
+   "id": 60279,
+   "name": "Fred Tatasciore",
+   "photo": "https://image.tmdb.org/t/p/w185/8YCIAGSWcxeTmPfOWMtVjLSwGOH.jpg",
+   "character": "Pixel / Announcer (voice) / Icicle (voice) / Pepo / Krampus (voice)",
+   "episodes": 34
+  },
+  {
+   "id": 31531,
+   "name": "John DiMaggio",
+   "photo": "https://image.tmdb.org/t/p/w185/qcbQe71nSlULDsP1OxTqltEKFbl.jpg",
+   "character": "The Calculator (voice) / Deadman / Cook (voice) / 50% Chad / Swan Mascot (voice)",
+   "episodes": 19
+  },
+  {
+   "id": 63493,
+   "name": "Alexander Polinsky",
+   "photo": "https://image.tmdb.org/t/p/w185/lNm5DDCXaP0cOkRYRjfvRI4p6N2.jpg",
+   "character": "Zeep (voice) / Control Freak (voice)",
+   "episodes": 14
+  },
+  {
+   "id": 354368,
+   "name": "Larry Kenney",
+   "photo": "https://image.tmdb.org/t/p/w185/xfV4vhQdVw3vHsfXv6IH17lhxQJ.jpg",
+   "character": "The Chief (voice) / Original Lion-O (voice) / The Chief / Announcer (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 1471841,
+   "name": "Flula Borg",
+   "photo": "https://image.tmdb.org/t/p/w185/biegvuNWbzjXVZnp4rpKgbLlX6Q.jpg",
+   "character": "Robotman (voice) / Robotman / Suckerfish #1 (voice) / Robotman / Euro B-Boy (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 32905,
+   "name": "Rachel Dratch",
+   "photo": "https://image.tmdb.org/t/p/w185/j8vNwap7BM69dRz5zXVWvIn4lJ7.jpg",
+   "character": "Negative Girl (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 34985,
+   "name": "Cree Summer",
+   "photo": "https://image.tmdb.org/t/p/w185/7DRq0zPUUWu55pUbnc2roVnzOJ9.jpg",
+   "character": "Elasti-Girl (voice) / Elasti-Girl / Elasti-Bot (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 84490,
+   "name": "David Kaye",
+   "photo": "https://image.tmdb.org/t/p/w185/izxtFSio5twcVA1oJWPvobxpcZj.jpg",
+   "character": "Egghead / Glass Man (voice) / Superman / Egghead (voice) / Egghead (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 2703299,
+   "name": "William J. Regan",
+   "photo": null,
+   "character": "Billy 'Red' Regan (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 24362,
+   "name": "Kevin Michael Richardson",
+   "photo": "https://image.tmdb.org/t/p/w185/xXt9Nh7RAT5bOen66TaXreNYmCl.jpg",
+   "character": "Mammoth / See-More (voice) / Trigon / General Tucker / Harry (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 2703300,
+   "name": "Carl Burnett",
+   "photo": null,
+   "character": "Carl Burnett (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 2703301,
+   "name": "Frank Enea",
+   "photo": null,
+   "character": "Frank Enea (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 15761,
+   "name": "Grey DeLisle",
+   "photo": "https://image.tmdb.org/t/p/w185/vrUHaXe1pG56yZkgH7Hs3LGRLTT.jpg",
+   "character": "Mandy (voice) / Wonder Woman (voice) / Daphne Blake (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 34982,
+   "name": "Jeff Bennett",
+   "photo": "https://image.tmdb.org/t/p/w185/6Fq3Q1e0Oz0j2J2fnFSl7fKCHd9.jpg",
+   "character": "S. H. A. D. I. (voice) / Ed / S. H. A. D. I. / Brainiac (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 59297,
+   "name": "Eric Edelstein",
+   "photo": "https://image.tmdb.org/t/p/w185/d1ng4kzNijFQ8DSQWeU5P6XDgmA.jpg",
+   "character": "King Shark (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 87079,
+   "name": "Jaleel White",
+   "photo": "https://image.tmdb.org/t/p/w185/txSsldskYkO4PbxKML8NvUq2sCk.jpg",
+   "character": "Self (voice) / Miner (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 16845,
+   "name": "Nicole Sullivan",
+   "photo": "https://image.tmdb.org/t/p/w185/ttNPeB0AldfptvYCfPAgcxk0E4q.jpg",
+   "character": "Supergirl (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 89599,
+   "name": "Eric Bauza",
+   "photo": "https://image.tmdb.org/t/p/w185/afOlsVPQxbtkom604MeCemjlwEV.jpg",
+   "character": "Leader Jawn (voice) / Daffy Duck / Captain Boomerang (voice) / Joker Impressions (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 15100,
+   "name": "Lauren Tom",
+   "photo": "https://image.tmdb.org/t/p/w185/fTKFspRRQ275AkzvtPERLZnXe0n.jpg",
+   "character": "Jinx (voice) / Gizmo / Jinx (voice) / Gizmo (voice)",
+   "episodes": 5
+  }
+ ],
+ "crew": [
+  {
+   "id": 141043,
+   "name": "Sam Register",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 454
+  },
+  {
+   "id": 3151380,
+   "name": "Brady Klosterman",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 126
+  },
+  {
+   "id": 2001473,
+   "name": "Luke Cormican",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Story"
+   ],
+   "episodes": 120
+  },
+  {
+   "id": 1794785,
+   "name": "Ben Gruber",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 94
+  },
+  {
+   "id": 1903167,
+   "name": "Peter Rida Michail",
+   "photo": "https://image.tmdb.org/t/p/w185/itnEqzFmsj4e14kMXiSkg28tkdA.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Story",
+    "Writer"
+   ],
+   "episodes": 89
+  },
+  {
+   "id": 3326166,
+   "name": "James Krenzke",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 83
+  },
+  {
+   "id": 1461824,
+   "name": "Ken McIntyre",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 78
+  },
+  {
+   "id": 1252346,
+   "name": "Steve Borst",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 67
+  },
+  {
+   "id": 1719706,
+   "name": "Aaron Horvath",
+   "photo": "https://image.tmdb.org/t/p/w185/6AOmWzdJas3xh0xJOk1mHPstNs2.jpg",
+   "jobs": [
+    "Director",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 113901,
+   "name": "Michael Jelenic",
+   "photo": "https://image.tmdb.org/t/p/w185/rzfpbDQ3S3lDqnyMfcGzDv0QCwZ.jpg",
+   "jobs": [
+    "Director",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 38
+  },
+  {
+   "id": 2096629,
+   "name": "Dave Stone",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 27
+  },
+  {
+   "id": 459489,
+   "name": "Gene Grillo",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 27
+  },
+  {
+   "id": 30692,
+   "name": "John Loy",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 2779106,
+   "name": "Mike Nordstrom",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 1215728,
+   "name": "Amy Wolfram",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 3500625,
+   "name": "Jacquie Menville",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 19
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:34:29.518Z"
+}

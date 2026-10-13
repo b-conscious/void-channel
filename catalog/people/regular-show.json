@@ -1,0 +1,328 @@
+{
+ "show": "Regular Show",
+ "slug": "regular-show",
+ "tmdbId": 31132,
+ "cast": [
+  {
+   "id": 222169,
+   "name": "J.G. Quintel",
+   "photo": "https://image.tmdb.org/t/p/w185/iVrY1k1ggfYUy8o9eY8XHAhu6f1.jpg",
+   "character": "Mordecai / Hi Five Ghost (voice)",
+   "episodes": 245
+  },
+  {
+   "id": 1215264,
+   "name": "William Salyers",
+   "photo": "https://image.tmdb.org/t/p/w185/lB1R4NwWAlBnWkYCJdOrVDq92H2.jpg",
+   "character": "Rigby (voice)",
+   "episodes": 245
+  },
+  {
+   "id": 2,
+   "name": "Mark Hamill",
+   "photo": "https://image.tmdb.org/t/p/w185/zMQ93JTLW8KxusKhOlHFZhih3YQ.jpg",
+   "character": "Skips (voice)",
+   "episodes": 245
+  },
+  {
+   "id": 1251102,
+   "name": "Sam Marin",
+   "photo": "https://image.tmdb.org/t/p/w185/fWNACxcmaVQSJilCBCfqHoEbbLy.jpg",
+   "character": "Benson / Pops / Muscle Man (voice)",
+   "episodes": 245
+  },
+  {
+   "id": 75038,
+   "name": "Roger Craig Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/6oE356GbRHAf91Llw7LDpvsAf5L.jpg",
+   "character": "Briggs / Announcer / Baby Duck #3 (voice) / Chuck / Beatnik (voice) / Warranty Guy #1 (voice)",
+   "episodes": 136
+  },
+  {
+   "id": 1251087,
+   "name": "Minty Lewis",
+   "photo": "https://image.tmdb.org/t/p/w185/29CjHsPwIEDQVcjoJ1L3Fezlgbk.jpg",
+   "character": "Eileen / Zebra (voice) / Eileen / Jonno (voice) / Eileen (voice)",
+   "episodes": 70
+  },
+  {
+   "id": 1251103,
+   "name": "Janie Haddad Tompkins",
+   "photo": "https://image.tmdb.org/t/p/w185/jzTMYtdgVmq9jpKesss4xj9RZxE.jpg",
+   "character": "Janet / Chrissy (voice) / Margaret / Old Turtle (voice) / Margaret / Girl #2 (voice)",
+   "episodes": 60
+  },
+  {
+   "id": 76029,
+   "name": "Courtenay Taylor",
+   "photo": "https://image.tmdb.org/t/p/w185/f58KNRoimAh5Irddrek2mtPEBam.jpg",
+   "character": "Starla / Starla's Sister (Ana) / Muscle Baby (Tina) (voice) / Audrey / Beatnik Girl (voice) / Starla / Peggy / Teller (voice)",
+   "episodes": 43
+  },
+  {
+   "id": 571562,
+   "name": "Steve Blum",
+   "photo": "https://image.tmdb.org/t/p/w185/cpO0muunoigq1WHegeOEI1AIQAo.jpg",
+   "character": "Carter / Goose #2 / Playco #2 (voice) / Carter (voice) / Leon (voice)",
+   "episodes": 33
+  },
+  {
+   "id": 81663,
+   "name": "Vanessa Marshall",
+   "photo": "https://image.tmdb.org/t/p/w185/yZsWfaiOxaN5MZkWIKPbxz1KKS1.jpg",
+   "character": "Toothpick Sally (voice) / News Reporter / Old Lady (voice)",
+   "episodes": 29
+  },
+  {
+   "id": 60279,
+   "name": "Fred Tatasciore",
+   "photo": "https://image.tmdb.org/t/p/w185/8YCIAGSWcxeTmPfOWMtVjLSwGOH.jpg",
+   "character": "East Pines Worker / Bro #1 (voice) / Krampus / Space Santa / Operator (voice) / Karpov / President Davis / Aisa Goon #2 (voice)",
+   "episodes": 29
+  },
+  {
+   "id": 556275,
+   "name": "Matthew Mercer",
+   "photo": "https://image.tmdb.org/t/p/w185/fe1S317253vfMuNuIDjhp9vtNSs.jpg",
+   "character": "Chance Sureshot / Recap Robot (voice)",
+   "episodes": 28
+  },
+  {
+   "id": 167295,
+   "name": "John Cygan",
+   "photo": "https://image.tmdb.org/t/p/w185/sIcRLzUyeOL9ayYOUye3LFWkfuA.jpg",
+   "character": "Gimelli / Principal Party Horse (voice) / Cop (voice) / Narrator / Wavy Train Guy (voice)",
+   "episodes": 27
+  },
+  {
+   "id": 1817,
+   "name": "Linda Cardellini",
+   "photo": "https://image.tmdb.org/t/p/w185/bcycvynDprC1rrhBNrnBjn5uOUd.jpg",
+   "character": "Cloudy J / Girl #2 (voice) / Cloudy J / School Girl (voice) / Cloudy J (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 58114,
+   "name": "Ali Hillis",
+   "photo": "https://image.tmdb.org/t/p/w185/9HP8jHvYoe8KU5tsHRFigiDVetP.jpg",
+   "character": "Bird Walla / Bee (voice) / Victoria / Voice Over Lady (voice) / Fake Hi Five Ghost / Fake Audrey / Scientist #3 (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 34982,
+   "name": "Jeff Bennett",
+   "photo": "https://image.tmdb.org/t/p/w185/6Fq3Q1e0Oz0j2J2fnFSl7fKCHd9.jpg",
+   "character": "Chief Executive / Magician / Son (voice) / Eggscellent Knight / Maury Moto / Petition Guy (voice) / Rasta the Wishmaker / Trip / Repairman (voice)",
+   "episodes": 23
+  },
+  {
+   "id": 130081,
+   "name": "Robin Atkin Downes",
+   "photo": "https://image.tmdb.org/t/p/w185/qb4xPIJGiKyiQ2MhSDQzFWxN0jS.jpg",
+   "character": "Herold (voice) / Fitch Munderson / Dr. Kimmy (voice) / Gary (voice)",
+   "episodes": 22
+  },
+  {
+   "id": 84490,
+   "name": "David Kaye",
+   "photo": "https://image.tmdb.org/t/p/w185/izxtFSio5twcVA1oJWPvobxpcZj.jpg",
+   "character": "Beta Max / VHS Guy / Goon #2 (voice) / Reginald / Announcer / Pizza Guy (voice) / Beta Max / Microfiche / Eniac (voice)",
+   "episodes": 22
+  },
+  {
+   "id": 28010,
+   "name": "David Ogden Stiers",
+   "photo": "https://image.tmdb.org/t/p/w185/cgCTQt3RZVkhkusG77l4HwHEH6A.jpg",
+   "character": "Mr. Maellard (voice)",
+   "episodes": 18
+  },
+  {
+   "id": 79635,
+   "name": "Julian Holloway",
+   "photo": "https://image.tmdb.org/t/p/w185/jSyFsNIRvibQ9LKqAfJ4yIRuHaT.jpg",
+   "character": "Death / Duck Man (voice) / Archie (voice) / Death (voice)",
+   "episodes": 17
+  },
+  {
+   "id": 963818,
+   "name": "Troy Baker",
+   "photo": "https://image.tmdb.org/t/p/w185/mppX8pDkwNvx3dJzclwcGkngEb3.jpg",
+   "character": "Park Avenue / Guy #2 (voice) / Maximum Glove / Fred / Kid #1 (voice) / Bert Coleman (Normal, Fat & Old Lady) / Guy #1 / Guy #3 (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 43961,
+   "name": "D. C. Douglas",
+   "photo": "https://image.tmdb.org/t/p/w185/suXu7UYETw3LINlZjedvpxbwtnD.jpg",
+   "character": "Colonel Rawls / Chess TV Announcer (voice) / Colonel Rawls (voice) / Colonel Rawls / College Student #1 (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 5139,
+   "name": "Robert Englund",
+   "photo": "https://image.tmdb.org/t/p/w185/cjGEkiavinHa1dnetDvnEhlD2Wm.jpg",
+   "character": "Mystery Man (voice) / Stagman (voice) / Anti-Pops (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 29446,
+   "name": "Armin Shimerman",
+   "photo": "https://image.tmdb.org/t/p/w185/ntubNSuRnJ7icAEGj6JYEeguzTn.jpg",
+   "character": "Zingo #3 / Guy #1 (voice) / Waiter / Gopher Person / Guy (voice) / Mr. Murphy (voice)",
+   "episodes": 8
+  }
+ ],
+ "crew": [
+  {
+   "id": 222169,
+   "name": "J.G. Quintel",
+   "photo": "https://image.tmdb.org/t/p/w185/iVrY1k1ggfYUy8o9eY8XHAhu6f1.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 245
+  },
+  {
+   "id": 81613,
+   "name": "Brian A. Miller",
+   "photo": "https://image.tmdb.org/t/p/w185/avueJauOX1nf9YK7FjBZS9LTyed.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 245
+  },
+  {
+   "id": 81612,
+   "name": "Jennifer Pelphrey",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 245
+  },
+  {
+   "id": 1245738,
+   "name": "Curtis Lelash",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 245
+  },
+  {
+   "id": 1245739,
+   "name": "Rob Sorcher",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 245
+  },
+  {
+   "id": 5666,
+   "name": "Mark Mothersbaugh",
+   "photo": "https://image.tmdb.org/t/p/w185/AlC27GcWoXfAbP7IbncQyVPXITK.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 245
+  },
+  {
+   "id": 2270607,
+   "name": "John Enroth",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 166
+  },
+  {
+   "id": 1218544,
+   "name": "John Infantino",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 144
+  },
+  {
+   "id": 2573709,
+   "name": "Albert Fox",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 130
+  },
+  {
+   "id": 1219537,
+   "name": "Matt Price",
+   "photo": "https://image.tmdb.org/t/p/w185/cqIWGoKF6R9mcOqwmqwromuJRrC.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 100
+  },
+  {
+   "id": 1251095,
+   "name": "Benton Connor",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 62
+  },
+  {
+   "id": 1251101,
+   "name": "Sean Szeles",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 60
+  },
+  {
+   "id": 1251104,
+   "name": "Calvin Wong",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 1251105,
+   "name": "Rob Swartz",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 1251093,
+   "name": "Madeline Queripel",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 38
+  },
+  {
+   "id": 1251098,
+   "name": "Toby Jones",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 36
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:32.039Z"
+}

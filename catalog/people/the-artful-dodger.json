@@ -1,0 +1,280 @@
+{
+ "show": "The Artful Dodger",
+ "slug": "the-artful-dodger",
+ "tmdbId": 202208,
+ "cast": [
+  {
+   "id": 25663,
+   "name": "Thomas Brodie-Sangster",
+   "photo": "https://image.tmdb.org/t/p/w185/tapXeOg3wnezcjm2ENox0lL2b25.jpg",
+   "character": "Jack Dawkins",
+   "episodes": 16
+  },
+  {
+   "id": 11207,
+   "name": "David Thewlis",
+   "photo": "https://image.tmdb.org/t/p/w185/gJqz8h5AKaVvOLS0hm5Vdvel6JB.jpg",
+   "character": "Norbert Fagin",
+   "episodes": 16
+  },
+  {
+   "id": 992366,
+   "name": "Maia Mitchell",
+   "photo": "https://image.tmdb.org/t/p/w185/xGYAwTUFVpEvIyagMaeh9pBVVj0.jpg",
+   "character": "Belle Fox",
+   "episodes": 16
+  },
+  {
+   "id": 2056675,
+   "name": "Lucy-Rose Leonard",
+   "photo": "https://image.tmdb.org/t/p/w185/3e5JH0cQVcqEujWXbbduOTmCFpL.jpg",
+   "character": "Fanny Fox",
+   "episodes": 16
+  },
+  {
+   "id": 272408,
+   "name": "Damien Garvey",
+   "photo": "https://image.tmdb.org/t/p/w185/ihEzrFdYfagC41OA8jB3D3toVEG.jpg",
+   "character": "Edmund Fox",
+   "episodes": 16
+  },
+  {
+   "id": 3615123,
+   "name": "Vivienne Awosoga",
+   "photo": "https://image.tmdb.org/t/p/w185/nTicaswLzwzXp0M0c8HuNDO1wxf.jpg",
+   "character": "Hetty Baggett",
+   "episodes": 15
+  },
+  {
+   "id": 3808487,
+   "name": "Albert Latailakepa",
+   "photo": "https://image.tmdb.org/t/p/w185/xN96va5TNyc7fbtub6gfeWyErWe.jpg",
+   "character": "Aputi Savea",
+   "episodes": 15
+  },
+  {
+   "id": 96770,
+   "name": "Luke Carroll",
+   "photo": "https://image.tmdb.org/t/p/w185/kH1PPzVG2AaQljZZuRyOHPZOoSg.jpg",
+   "character": "Tim Billiberllary",
+   "episodes": 14
+  },
+  {
+   "id": 75193,
+   "name": "Kim Gyngell",
+   "photo": "https://image.tmdb.org/t/p/w185/kdEiIUbZG5T9GyL5KteLqe77u8F.jpg",
+   "character": "Alistair McGregor",
+   "episodes": 14
+  },
+  {
+   "id": 3404740,
+   "name": "Nicholas Burton",
+   "photo": "https://image.tmdb.org/t/p/w185/afneggcY8kMGJM6ZQi11pEMKUhy.jpg",
+   "character": "Rainsford Sneed",
+   "episodes": 14
+  },
+  {
+   "id": 51671,
+   "name": "Susie Porter",
+   "photo": "https://image.tmdb.org/t/p/w185/ynlvVxiKsmzJ5L7Rj6Kcntnczzh.jpg",
+   "character": "Jane Fox",
+   "episodes": 14
+  },
+  {
+   "id": 1094511,
+   "name": "Aljin Abella",
+   "photo": "https://image.tmdb.org/t/p/w185/mAsuTXH9xflaBUBYo3roUuV2bss.jpg",
+   "character": "Flashbang Rivera",
+   "episodes": 13
+  },
+  {
+   "id": 89564,
+   "name": "Tim Minchin",
+   "photo": "https://image.tmdb.org/t/p/w185/jIf1rJYaoJgB73iGPYu4U6Ce93.jpg",
+   "character": "Darius Cracksworth",
+   "episodes": 13
+  },
+  {
+   "id": 1947521,
+   "name": "Brigid Zengeni",
+   "photo": "https://image.tmdb.org/t/p/w185/e5N1sHH8iQK0QDg9FrYGYkMXCg1.jpg",
+   "character": "Rotty Falkirk",
+   "episodes": 12
+  },
+  {
+   "id": 2229725,
+   "name": "Michael Sheasby",
+   "photo": "https://image.tmdb.org/t/p/w185/vg4MwdHrHQHotX6ZfVWFfZFkZ3Z.jpg",
+   "character": "Sergeant Bramwell",
+   "episodes": 11
+  },
+  {
+   "id": 225270,
+   "name": "Huw Higginson",
+   "photo": "https://image.tmdb.org/t/p/w185/8rcClDBYrVvnvyhGeyYKRxJ8wth.jpg",
+   "character": "Father Cruikshanks",
+   "episodes": 9
+  },
+  {
+   "id": 62752,
+   "name": "Damon Herriman",
+   "photo": "https://image.tmdb.org/t/p/w185/hzh9i0BlAEQDAhJxEgkEcBxMlJv.jpg",
+   "character": "Lucien Gaines",
+   "episodes": 8
+  },
+  {
+   "id": 972356,
+   "name": "Luke Bracey",
+   "photo": "https://image.tmdb.org/t/p/w185/ot2h7IrXpC8XSnIZDSVsj2FQ5cx.jpg",
+   "character": "Henry Boxer",
+   "episodes": 8
+  },
+  {
+   "id": 75544,
+   "name": "Jeremy Sims",
+   "photo": "https://image.tmdb.org/t/p/w185/r2N4ysZWsftu5lK2C1zyGseW4vI.jpg",
+   "character": "Dickey Fox",
+   "episodes": 8
+  },
+  {
+   "id": 1058107,
+   "name": "Miranda Tapsell",
+   "photo": "https://image.tmdb.org/t/p/w185/2AlEvyXLzwAgD8SOMvovktC7qAL.jpg",
+   "character": "Red Scrubbs",
+   "episodes": 6
+  },
+  {
+   "id": 1196822,
+   "name": "Jessica De Gouw",
+   "photo": "https://image.tmdb.org/t/p/w185/vmKzmMooWodUju9GZzm9rS8mrAQ.jpg",
+   "character": "Peggy Gaines",
+   "episodes": 4
+  },
+  {
+   "id": 37289,
+   "name": "Tom Budge",
+   "photo": "https://image.tmdb.org/t/p/w185/m2IOaOruyGh2zBTyW0WMwztye6w.jpg",
+   "character": "Hon Mortimer Smales",
+   "episodes": 4
+  },
+  {
+   "id": 1922031,
+   "name": "Ezekiel Simat",
+   "photo": "https://image.tmdb.org/t/p/w185/adVTa4X5Fa8zjLL5xMCVywgrUhD.jpg",
+   "character": "Ned Monks",
+   "episodes": 4
+  },
+  {
+   "id": 4405611,
+   "name": "Stephen Ryan",
+   "photo": null,
+   "character": "Edwin The Butler",
+   "episodes": 4
+  }
+ ],
+ "crew": [
+  {
+   "id": 1782550,
+   "name": "David Maher",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1678791,
+   "name": "David Taylor",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 4386714,
+   "name": "James McNamara",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1258675,
+   "name": "Jo Porter",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1349380,
+   "name": "Antony Partos",
+   "photo": "https://image.tmdb.org/t/p/w185/pbEI5Js01U2BkqXXS3aAfTgoMXq.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 131776,
+   "name": "Jeffrey Walker",
+   "photo": "https://image.tmdb.org/t/p/w185/eifaOb3XPsf3d7jrXFml2DSIo5H.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 137902,
+   "name": "Andrew Knight",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1345496,
+   "name": "Corrie Chen",
+   "photo": "https://image.tmdb.org/t/p/w185/7C2kEXS1hRWOxYdLyTeiR4YhAdV.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 213098,
+   "name": "Gracie Otto",
+   "photo": "https://image.tmdb.org/t/p/w185/l8Q1tPES0VJUc4sYXiF5GGaY8he.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 3553534,
+   "name": "Vivienne Walshe",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 4404652,
+   "name": "Dan Knight",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:35:17.545Z"
+}

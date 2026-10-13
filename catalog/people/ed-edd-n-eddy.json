@@ -1,0 +1,224 @@
+{
+ "show": "Ed, Edd n Eddy",
+ "slug": "ed-edd-n-eddy",
+ "tmdbId": 606,
+ "cast": [
+  {
+   "id": 27120,
+   "name": "Matt Hill",
+   "photo": "https://image.tmdb.org/t/p/w185/c9LL79WphPAjDX4J9yHV5ZoANxy.jpg",
+   "character": "Ed (voice)",
+   "episodes": 126
+  },
+  {
+   "id": 106776,
+   "name": "Sam Vincent",
+   "photo": "https://image.tmdb.org/t/p/w185/eJadsFcztqQZQIKzL5cMyasi1oa.jpg",
+   "character": "Edd (voice)",
+   "episodes": 126
+  },
+  {
+   "id": 158503,
+   "name": "Tony Sampson",
+   "photo": "https://image.tmdb.org/t/p/w185/8PxxVNxuUWmFXy97a4sSjHVr9vO.jpg",
+   "character": "Eddy (voice)",
+   "episodes": 126
+  },
+  {
+   "id": 1218977,
+   "name": "Keenan Christensen",
+   "photo": "https://image.tmdb.org/t/p/w185/tBFBvuxwxE4aejwYTfjeOfUHkYT.jpg",
+   "character": "Jimmy (voice)",
+   "episodes": 126
+  },
+  {
+   "id": 45923,
+   "name": "Kathleen Barr",
+   "photo": "https://image.tmdb.org/t/p/w185/l7dk7Lki6dLfKVcPGrTq9aYWZj.jpg",
+   "character": "Kevin / Marie Kanker (voice)",
+   "episodes": 126
+  },
+  {
+   "id": 86788,
+   "name": "Janyse Jaud",
+   "photo": "https://image.tmdb.org/t/p/w185/7ZvfIfmgkU2B8jA25czUoKXXq6e.jpg",
+   "character": "Sarah / Lee Kanker (voice)",
+   "episodes": 126
+  },
+  {
+   "id": 89551,
+   "name": "Peter Kelamis",
+   "photo": "https://image.tmdb.org/t/p/w185/nV0lHILeENtQ8PbGa3E5Mrx607a.jpg",
+   "character": "Rolf (voice)",
+   "episodes": 126
+  },
+  {
+   "id": 116049,
+   "name": "David-Paul Grove",
+   "photo": "https://image.tmdb.org/t/p/w185/u5ERJwvYZBW1Fnqb4V98ycZx0nu.jpg",
+   "character": "Jonny (voice)",
+   "episodes": 126
+  },
+  {
+   "id": 188982,
+   "name": "Erin Fitzgerald",
+   "photo": "https://image.tmdb.org/t/p/w185/fAMOm2xRjbR7nDUo3FsNVy61U70.jpg",
+   "character": "May Kanker (voice) / Nazz / May Kanker (voice)",
+   "episodes": 101
+  },
+  {
+   "id": 74360,
+   "name": "Tabitha St. Germain",
+   "photo": "https://image.tmdb.org/t/p/w185/bscsV3Gg7bmaZvvcbyS1265QaVT.jpg",
+   "character": "Nazz (voice)",
+   "episodes": 26
+  },
+  {
+   "id": 1218979,
+   "name": "Jenn Forgie",
+   "photo": "https://image.tmdb.org/t/p/w185/mMklsMn3P6E97hEhW8qQVRP8bvo.jpg",
+   "character": "Nazz / May Kanker (voice)",
+   "episodes": 25
+  }
+ ],
+ "crew": [
+  {
+   "id": 588877,
+   "name": "Danny Antonucci",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Director",
+    "Writer"
+   ],
+   "episodes": 126
+  },
+  {
+   "id": 1717010,
+   "name": "Jono Howard",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 85
+  },
+  {
+   "id": 1717011,
+   "name": "Mike Kubat",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 2044154,
+   "name": "Rachel Connor",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 3854270,
+   "name": "Geoff Berner",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 3854703,
+   "name": "Michael Hockney",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1222509,
+   "name": "Keith Giffen",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1235446,
+   "name": "Marlowe Weisman",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 2044155,
+   "name": "Stacy Warnick",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 3609662,
+   "name": "Robert Leighton",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 2297270,
+   "name": "John Mein",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 2859474,
+   "name": "Rob Boutilier",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 3854682,
+   "name": "Aaron MacLaughlan",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1447323,
+   "name": "Scott Underwood",
+   "photo": "https://image.tmdb.org/t/p/w185/xGVDkJt7umdASrW6OYMUxgdesQd.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1221529,
+   "name": "Brent Miller",
+   "photo": "https://image.tmdb.org/t/p/w185/1ZNgnmIs3A5b2fSGwZhL5mVeMvq.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:29:38.337Z"
+}

@@ -1,0 +1,322 @@
+{
+ "show": "The Case Study of Vanitas",
+ "slug": "the-case-study-of-vanitas",
+ "tmdbId": 121964,
+ "cast": [
+  {
+   "id": 1256603,
+   "name": "Natsuki Hanae",
+   "photo": "https://image.tmdb.org/t/p/w185/alTb0DlcPIbcwM08WSmxFai58sd.jpg",
+   "character": "Vanitas (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1324666,
+   "name": "Kaito Ishikawa",
+   "photo": "https://image.tmdb.org/t/p/w185/fzjIkotjUHHs3wgftM9tqdsG8ph.jpg",
+   "character": "Noé (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1325949,
+   "name": "Inori Minase",
+   "photo": "https://image.tmdb.org/t/p/w185/cqOrQDUbbQLKpujzcK47YqjFdNp.jpg",
+   "character": "Jeanne (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1780773,
+   "name": "Shino Shimoji",
+   "photo": "https://image.tmdb.org/t/p/w185/8T2DboiJA3PC1OLJjhN12o4THYn.jpg",
+   "character": "Luca (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1254671,
+   "name": "Ai Kayano",
+   "photo": "https://image.tmdb.org/t/p/w185/l8ywp387rfdAS7mOExe3cEZnsk0.jpg",
+   "character": "Dominique (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1072774,
+   "name": "Yoko Hikasa",
+   "photo": "https://image.tmdb.org/t/p/w185/mP3bj0s1gqJ6tCKFLhu4b1CkJj7.jpg",
+   "character": "Veronica (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 9706,
+   "name": "Toshiyuki Morikawa",
+   "photo": "https://image.tmdb.org/t/p/w185/hrzGBe4nokgkBNFekNo5hlXB2Bv.jpg",
+   "character": "Ruthven (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1324472,
+   "name": "Kengo Kawanishi",
+   "photo": "https://image.tmdb.org/t/p/w185/s0CxrO6LixJBgqiHEUjKelAh8ei.jpg",
+   "character": "Roland (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1249235,
+   "name": "Tomoaki Maeno",
+   "photo": "https://image.tmdb.org/t/p/w185/w3lEuXSbEyzzNyO3YnxsF6wm2N5.jpg",
+   "character": "Olivier (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1325230,
+   "name": "Ayumu Murase",
+   "photo": "https://image.tmdb.org/t/p/w185/3aGM6KpcCIEKOXP9510tzaKc8uw.jpg",
+   "character": "Astolfo (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 83928,
+   "name": "Rie Kugimiya",
+   "photo": "https://image.tmdb.org/t/p/w185/xHonhNFpTpz9zCVXLAF7D4OuHLv.jpg",
+   "character": "Chloé (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1991242,
+   "name": "Daiki Hamano",
+   "photo": "https://image.tmdb.org/t/p/w185/bykeH3Rhmx9PPFegYNi6s310cNa.jpg",
+   "character": "Jean-Jacques (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 81244,
+   "name": "Akira Ishida",
+   "photo": "https://image.tmdb.org/t/p/w185/jnW2Gn2NlR2uwOCeyOuzypnTmkH.jpg",
+   "character": "The Teacher (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1696913,
+   "name": "Taro Kiuchi",
+   "photo": "https://image.tmdb.org/t/p/w185/wzLSYTwQGIXdfaSeXtDZ7FfMBFt.jpg",
+   "character": "Dante (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 555099,
+   "name": "Koji Yusa",
+   "photo": "https://image.tmdb.org/t/p/w185/vBo8dHvZvbG4kax0LcaWvrXUZuX.jpg",
+   "character": "Johann (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 203473,
+   "name": "Kaori Nazuka",
+   "photo": "https://image.tmdb.org/t/p/w185/cIMS99s6jpgGBbMnih8gx9hLPFi.jpg",
+   "character": "Naenia (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 3031472,
+   "name": "Riho Kuma",
+   "photo": "https://image.tmdb.org/t/p/w185/g0i1bkE52zFS13MEOaAx2NsdOan.jpg",
+   "character": "Child (voice) / Riche (voice) / Catherine's younger sister (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1695708,
+   "name": "Miyu Komaki",
+   "photo": "https://image.tmdb.org/t/p/w185/jkZMK6r8fZq22YCGqtA5MrEUb1M.jpg",
+   "character": "Jeanne's mother (voice) / Mina (voice) / Murr (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 3029669,
+   "name": "Ryosuke Hara",
+   "photo": "https://image.tmdb.org/t/p/w185/dMOLmxOvXS8zuQup3MyZlcSELvI.jpg",
+   "character": "Thomas Berneux (voice) / Villager (voice) / Villager A (voice)",
+   "episodes": 16
+  },
+  {
+   "id": 1991244,
+   "name": "Ryunosuke Watanuki",
+   "photo": "https://image.tmdb.org/t/p/w185/cJBw6vHWD4u9dAdBFA7CUqKUj9A.jpg",
+   "character": "Vampire A (voice) / Dragoon (voice) / Policeman (voice)",
+   "episodes": 15
+  },
+  {
+   "id": 2256610,
+   "name": "Miyuri Shimabukuro",
+   "photo": "https://image.tmdb.org/t/p/w185/rjhyRM2hn1deQG1V6cwC8AEEKNT.jpg",
+   "character": "Louis (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 114904,
+   "name": "Noriko Shitaya",
+   "photo": "https://image.tmdb.org/t/p/w185/apIw7RO7gz4QFIE94t1Dx83AD2L.jpg",
+   "character": "Amelia (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 1281498,
+   "name": "Mikako Komatsu",
+   "photo": "https://image.tmdb.org/t/p/w185/13tQEZ1tLdOmi7oGoRJ4xep1ODQ.jpg",
+   "character": "Mikhail (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 2734574,
+   "name": "Takuya Nakashima",
+   "photo": "https://image.tmdb.org/t/p/w185/ArZzFuBKq3KdjtUOsjzkfG4gEHN.jpg",
+   "character": "Gentleman C (voice) / Masked man (spider) (voice)",
+   "episodes": 5
+  }
+ ],
+ "crew": [
+  {
+   "id": 1149042,
+   "name": "Deko Akao",
+   "photo": "https://image.tmdb.org/t/p/w185/sOKxl6uLAJpkGTa7JPu1YXG0ZaP.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 43
+  },
+  {
+   "id": 2938640,
+   "name": "Nao Miyoshi",
+   "photo": "https://image.tmdb.org/t/p/w185/pTV2S7xB8QVjOVog3UqO7cytESe.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 33
+  },
+  {
+   "id": 3145425,
+   "name": "Goro Ishida",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1817520,
+   "name": "Masanori Miyake",
+   "photo": "https://image.tmdb.org/t/p/w185/kr6vrmfERGuQTb9X8KKzSvlEsYh.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1816776,
+   "name": "Hirotsugu Ogisu",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 3145420,
+   "name": "Ryuji Abe",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 3145413,
+   "name": "Naoki Amano",
+   "photo": "https://image.tmdb.org/t/p/w185/eu4h5txdkLo6kTRcII2PiaGfeqt.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 89839,
+   "name": "Yuki Kajiura",
+   "photo": "https://image.tmdb.org/t/p/w185/mbT24RyUOjhoy8FP5K9mc8DEPwB.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 2312558,
+   "name": "Noriyuki Nomata",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1972850,
+   "name": "Takayo Ikami",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 2531014,
+   "name": "Son Seung-hui",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 2381645,
+   "name": "Kenichi Nishida",
+   "photo": "https://image.tmdb.org/t/p/w185/6M1B2DQqWH8AQgQZWCwX7Nuospo.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 2565106,
+   "name": "Yoshifumi Sasahara",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1906529,
+   "name": "Daisuke Chiba",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1742101,
+   "name": "Hiromichi Matano",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 2933188,
+   "name": "Takahiro Tamano",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:40:04.739Z"
+}

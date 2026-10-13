@@ -1,0 +1,326 @@
+{
+ "show": "Riverdale",
+ "slug": "riverdale",
+ "tmdbId": 69050,
+ "cast": [
+  {
+   "id": 1680339,
+   "name": "KJ Apa",
+   "photo": "https://image.tmdb.org/t/p/w185/idpwm8ZdFnndjeQ3mKleF20hvRo.jpg",
+   "character": "Archie Andrews",
+   "episodes": 137
+  },
+  {
+   "id": 1136940,
+   "name": "Lili Reinhart",
+   "photo": "https://image.tmdb.org/t/p/w185/c7Wm0ZEGX6yqgjqOq4RuKMgtWEJ.jpg",
+   "character": "Betty Cooper",
+   "episodes": 137
+  },
+  {
+   "id": 1721740,
+   "name": "Camila Mendes",
+   "photo": "https://image.tmdb.org/t/p/w185/pZAWRHdJtJlDcWuQHlgIwX12s02.jpg",
+   "character": "Veronica Lodge",
+   "episodes": 137
+  },
+  {
+   "id": 56730,
+   "name": "Cole Sprouse",
+   "photo": "https://image.tmdb.org/t/p/w185/mQAXL0rUGwX316d1FBBQmloZzHu.jpg",
+   "character": "Jughead Jones",
+   "episodes": 137
+  },
+  {
+   "id": 1592855,
+   "name": "Madelaine Petsch",
+   "photo": "https://image.tmdb.org/t/p/w185/mfZo30YgMx7vhAUajM8OG6I6VM8.jpg",
+   "character": "Cheryl Blossom",
+   "episodes": 137
+  },
+  {
+   "id": 1724690,
+   "name": "Casey Cott",
+   "photo": "https://image.tmdb.org/t/p/w185/hIoxwQTXTzw4L0ZNZz201pAKdmj.jpg",
+   "character": "Kevin Keller",
+   "episodes": 137
+  },
+  {
+   "id": 6714,
+   "name": "Mädchen Amick",
+   "photo": "https://image.tmdb.org/t/p/w185/Af47IaCUF9BYzmGBycZiKjqIwYf.jpg",
+   "character": "Alice Cooper",
+   "episodes": 137
+  },
+  {
+   "id": 142113,
+   "name": "Vanessa Morgan",
+   "photo": "https://image.tmdb.org/t/p/w185/1hcow9vyGUtv1P6EpI7xbDIzOAs.jpg",
+   "character": "Toni Topaz",
+   "episodes": 119
+  },
+  {
+   "id": 1907002,
+   "name": "Charles Melton",
+   "photo": "https://image.tmdb.org/t/p/w185/sxWslNRZdiBcPgwdVqoj7nSclr6.jpg",
+   "character": "Reggie Mantle",
+   "episodes": 103
+  },
+  {
+   "id": 1475818,
+   "name": "Drew Ray Tanner",
+   "photo": "https://image.tmdb.org/t/p/w185/hEDc4uUmrx0pE93bwYoUWE6jvSB.jpg",
+   "character": "Fangs Fogarty",
+   "episodes": 100
+  },
+  {
+   "id": 112143,
+   "name": "Mark Consuelos",
+   "photo": "https://image.tmdb.org/t/p/w185/wz06awHQuxEwRiYgFl6f1iGLbJC.jpg",
+   "character": "Hiram Lodge",
+   "episodes": 84
+  },
+  {
+   "id": 116573,
+   "name": "Martin Cummins",
+   "photo": "https://image.tmdb.org/t/p/w185/gnc1YUrHiYciRWB4ZCJFk9boAHg.jpg",
+   "character": "Tom Keller / Mayor Keller / Tom Keller",
+   "episodes": 78
+  },
+  {
+   "id": 84457,
+   "name": "Marisol Nichols",
+   "photo": "https://image.tmdb.org/t/p/w185/xgCZ4aebwqSACsL8SHbdEDNfdyC.jpg",
+   "character": "Hermione Lodge (voice) / Hermione Lodge / Hermione Lodge / Apollonia Gomez",
+   "episodes": 74
+  },
+  {
+   "id": 22108,
+   "name": "Skeet Ulrich",
+   "photo": "https://image.tmdb.org/t/p/w185/moyTBJUTl82PaAhm8aHGwlvKr7r.jpg",
+   "character": "FP Jones",
+   "episodes": 73
+  },
+  {
+   "id": 62869,
+   "name": "Alvin Sanders",
+   "photo": "https://image.tmdb.org/t/p/w185/aATeiW7OlEwAM22NDW9uzo0GXTX.jpg",
+   "character": "Pop Tate",
+   "episodes": 71
+  },
+  {
+   "id": 97599,
+   "name": "Nathalie Boltt",
+   "photo": "https://image.tmdb.org/t/p/w185/mYvZlMSwvv6WDfJHfV6bYm4ddES.jpg",
+   "character": "Penelope Blossom",
+   "episodes": 61
+  },
+  {
+   "id": 1333812,
+   "name": "Barbara Wallace",
+   "photo": "https://image.tmdb.org/t/p/w185/eBXpiV5eYtPYln9Wa2badsNu78u.jpg",
+   "character": "Nana Rose Blossom",
+   "episodes": 52
+  },
+  {
+   "id": 58058,
+   "name": "Lochlyn Munro",
+   "photo": "https://image.tmdb.org/t/p/w185/bOJ03k0oe2R6snRgzV8M4Qtoo4O.jpg",
+   "character": "Hal Cooper",
+   "episodes": 51
+  },
+  {
+   "id": 8395,
+   "name": "Luke Perry",
+   "photo": "https://image.tmdb.org/t/p/w185/78TAr0wLoRHyubnYxjyHNCt70V2.jpg",
+   "character": "Fred Andrews",
+   "episodes": 48
+  },
+  {
+   "id": 1274517,
+   "name": "Erinn Westbrook",
+   "photo": "https://image.tmdb.org/t/p/w185/lt1VxqFqGc7bF1RWAryq27oCwME.jpg",
+   "character": "Tabitha Tate",
+   "episodes": 45
+  },
+  {
+   "id": 25389,
+   "name": "Peter Bryant",
+   "photo": "https://image.tmdb.org/t/p/w185/enc6Lz5tsntLpWGjbzMgOk1DHvv.jpg",
+   "character": "Waldo Weatherbee",
+   "episodes": 44
+  },
+  {
+   "id": 1717473,
+   "name": "Ashleigh Murray",
+   "photo": "https://image.tmdb.org/t/p/w185/ih90t5HZA3Y8LsYbNpzVdjNSuBW.jpg",
+   "character": "Josie McCoy",
+   "episodes": 41
+  },
+  {
+   "id": 77164,
+   "name": "Ryan Robbins",
+   "photo": "https://image.tmdb.org/t/p/w185/kZrq5a760JU1kHuxQ7Q8YCgsOr6.jpg",
+   "character": "Frank Andrews",
+   "episodes": 39
+  },
+  {
+   "id": 2439217,
+   "name": "Jordan Connor",
+   "photo": "https://image.tmdb.org/t/p/w185/w9MGO5bg7f91In6iTwvYZe8d3ke.jpg",
+   "character": "Sweet Pea",
+   "episodes": 36
+  }
+ ],
+ "crew": [
+  {
+   "id": 1098032,
+   "name": "Roberto Aguirre-Sacasa",
+   "photo": "https://image.tmdb.org/t/p/w185/PtJSrAk7LDqaV5jExCYl10lcsN.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 137
+  },
+  {
+   "id": 1721739,
+   "name": "Jon Goldwater",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 137
+  },
+  {
+   "id": 1395152,
+   "name": "Sarah Schechter",
+   "photo": "https://image.tmdb.org/t/p/w185/8UgL2O24cC8SniiryeYmZuafU4G.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 137
+  },
+  {
+   "id": 88967,
+   "name": "Greg Berlanti",
+   "photo": "https://image.tmdb.org/t/p/w185/1T24SiIIDMa9gAmq7QaYwZywq4y.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 137
+  },
+  {
+   "id": 53017,
+   "name": "Blake Neely",
+   "photo": "https://image.tmdb.org/t/p/w185/ip0bUF22rBJNqLu5hTPEtzZa6hp.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 137
+  },
+  {
+   "id": 1716162,
+   "name": "Sherri Chung",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 124
+  },
+  {
+   "id": 1228379,
+   "name": "Michael Grassi",
+   "photo": "https://image.tmdb.org/t/p/w185/e4qdx59zmqz1KzFg2nSwrsYWLzn.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 96
+  },
+  {
+   "id": 3189366,
+   "name": "Evan Kyle",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 49
+  },
+  {
+   "id": 3013089,
+   "name": "Chrissy Maroon",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 2017520,
+   "name": "Arabella Anderson",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 47
+  },
+  {
+   "id": 2441332,
+   "name": "Greg Murray",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 45
+  },
+  {
+   "id": 1758018,
+   "name": "Devon Turner",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 44
+  },
+  {
+   "id": 1768690,
+   "name": "Tessa Leigh Williams",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 44
+  },
+  {
+   "id": 1790284,
+   "name": "Brian E. Paterson",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 42
+  },
+  {
+   "id": 2441334,
+   "name": "Ace Hasan",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 41
+  },
+  {
+   "id": 1790283,
+   "name": "Britta Lundin",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 38
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:31:37.894Z"
+}

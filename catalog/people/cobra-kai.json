@@ -1,0 +1,346 @@
+{
+ "show": "Cobra Kai",
+ "slug": "cobra-kai",
+ "tmdbId": 77169,
+ "cast": [
+  {
+   "id": 56124,
+   "name": "William Zabka",
+   "photo": "https://image.tmdb.org/t/p/w185/1n1a8jM9lmk7lfDxtZoOesTkIIU.jpg",
+   "character": "Johnny Lawrence",
+   "episodes": 65
+  },
+  {
+   "id": 2877,
+   "name": "Ralph Macchio",
+   "photo": "https://image.tmdb.org/t/p/w185/AoqqL9UlyPrcTLnpzbQvKXPvXrz.jpg",
+   "character": "Daniel LaRusso",
+   "episodes": 65
+  },
+  {
+   "id": 43483,
+   "name": "Courtney Henggeler",
+   "photo": "https://image.tmdb.org/t/p/w185/81l7EjdcASyUiWYJeiYx3JR90Um.jpg",
+   "character": "Amanda LaRusso",
+   "episodes": 65
+  },
+  {
+   "id": 1185997,
+   "name": "Xolo Maridueña",
+   "photo": "https://image.tmdb.org/t/p/w185/tJMI7BpjlhHSMpzSz9e1XxygnKd.jpg",
+   "character": "Miguel Diaz",
+   "episodes": 65
+  },
+  {
+   "id": 1130555,
+   "name": "Tanner Buchanan",
+   "photo": "https://image.tmdb.org/t/p/w185/oYBcpWlaqyGtaDBjTXA7An0UGMi.jpg",
+   "character": "Robby Keene",
+   "episodes": 65
+  },
+  {
+   "id": 1223084,
+   "name": "Mary Mouser",
+   "photo": "https://image.tmdb.org/t/p/w185/l1fzBf881tEESxG2Ra7zOmeK4q5.jpg",
+   "character": "Samantha LaRusso",
+   "episodes": 65
+  },
+  {
+   "id": 114446,
+   "name": "Jacob Bertrand",
+   "photo": "https://image.tmdb.org/t/p/w185/n1L9dyr5be0MdAmhO9rJ3vtgiZH.jpg",
+   "character": "Eli 'Hawk' Moskowitz",
+   "episodes": 64
+  },
+  {
+   "id": 1776137,
+   "name": "Gianni DeCenzo",
+   "photo": "https://image.tmdb.org/t/p/w185/dm2WUDeJIOoxmSJXn4KycNGthla.jpg",
+   "character": "Demetri Alexopoulos / Demetri",
+   "episodes": 58
+  },
+  {
+   "id": 56117,
+   "name": "Martin Kove",
+   "photo": "https://image.tmdb.org/t/p/w185/cuRi6YRaCrXOFU8cmqf5uTk0sUV.jpg",
+   "character": "John Kreese",
+   "episodes": 56
+  },
+  {
+   "id": 1784330,
+   "name": "Vanessa Rubio",
+   "photo": "https://image.tmdb.org/t/p/w185/ArxMTCiBPA6dqxiPmdelYaq2NYl.jpg",
+   "character": "Carmen Diaz",
+   "episodes": 51
+  },
+  {
+   "id": 1254435,
+   "name": "Peyton List",
+   "photo": "https://image.tmdb.org/t/p/w185/yj7ANtdAQFg7iwmkXPSgKFKr9QM.jpg",
+   "character": "Tory Nichols",
+   "episodes": 49
+  },
+  {
+   "id": 2034963,
+   "name": "Owen Morgan",
+   "photo": "https://image.tmdb.org/t/p/w185/tvS2o9D5mkJe7NaeCVQzWUK6Qs1.jpg",
+   "character": "Bert",
+   "episodes": 35
+  },
+  {
+   "id": 1204318,
+   "name": "Aedin Mincks",
+   "photo": "https://image.tmdb.org/t/p/w185/81WMQalNlb0LFYCdeLaNamorHhW.jpg",
+   "character": "Mitch",
+   "episodes": 34
+  },
+  {
+   "id": 2034960,
+   "name": "Griffin Santopietro",
+   "photo": "https://image.tmdb.org/t/p/w185/aTN0UTHgqIwIbKHVCNNy8alp2OD.jpg",
+   "character": "Anthony LaRusso",
+   "episodes": 33
+  },
+  {
+   "id": 1892090,
+   "name": "Dallas Dupree Young",
+   "photo": "https://image.tmdb.org/t/p/w185/p86WOc1SrIo7G7OhHxRogtE8oGz.jpg",
+   "character": "Kenny Payne",
+   "episodes": 32
+  },
+  {
+   "id": 2316920,
+   "name": "Khalil Everage",
+   "photo": "https://image.tmdb.org/t/p/w185/yH7EekIAPiiiq8iPQQg7Ri5w9XH.jpg",
+   "character": "Chris",
+   "episodes": 31
+  },
+  {
+   "id": 60705,
+   "name": "Thomas Ian Griffith",
+   "photo": "https://image.tmdb.org/t/p/w185/4h1qQeZMG2drwEEat6WKG0rbPVC.jpg",
+   "character": "Terry Silver",
+   "episodes": 26
+  },
+  {
+   "id": 1554278,
+   "name": "Joe Seo",
+   "photo": "https://image.tmdb.org/t/p/w185/m0fzbLuBrqeG9hM7FWzxWiiB2km.jpg",
+   "character": "Kyler Park",
+   "episodes": 26
+  },
+  {
+   "id": 2761601,
+   "name": "Nathaniel Oh",
+   "photo": "https://image.tmdb.org/t/p/w185/rOOMDGrM9b7iiiUGIxkBZPBVOZu.jpg",
+   "character": "Nathaniel",
+   "episodes": 26
+  },
+  {
+   "id": 2034962,
+   "name": "Hannah Kepple",
+   "photo": "https://image.tmdb.org/t/p/w185/4mDK0CKHRhvgJyKiUwGCn6GnFod.jpg",
+   "character": "Moon",
+   "episodes": 24
+  },
+  {
+   "id": 56120,
+   "name": "Yuji Okumoto",
+   "photo": "https://image.tmdb.org/t/p/w185/eACYrrdj8kZnYMCpUTghbpJ9nVk.jpg",
+   "character": "Chozen Toguchi / Chozen",
+   "episodes": 24
+  },
+  {
+   "id": 2008015,
+   "name": "Rose Bianco",
+   "photo": "https://image.tmdb.org/t/p/w185/6eLLoQ4aUhLQOEo8xmKWszSIJs7.jpg",
+   "character": "Rosa / Rosa Diaz",
+   "episodes": 22
+  },
+  {
+   "id": 3367056,
+   "name": "Oona O'Brien",
+   "photo": "https://image.tmdb.org/t/p/w185/q0KLiQYE5U1edJAjnCr32IqYrX9.jpg",
+   "character": "Devon Lee / Devon",
+   "episodes": 22
+  },
+  {
+   "id": 1978934,
+   "name": "Nichole Brown",
+   "photo": "https://image.tmdb.org/t/p/w185/lIrX1ejSaoJltjmZNTTVSxu0L0l.jpg",
+   "character": "Aisha Robinson",
+   "episodes": 20
+  }
+ ],
+ "crew": [
+  {
+   "id": 347335,
+   "name": "Josh Heald",
+   "photo": "https://image.tmdb.org/t/p/w185/gAGqe7l5VMTdVZuah2YczbXOJUl.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 65
+  },
+  {
+   "id": 68844,
+   "name": "Hayden Schlossberg",
+   "photo": "https://image.tmdb.org/t/p/w185/kLkKtht08e9Z451RpD5l5ebpwZu.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 65
+  },
+  {
+   "id": 68843,
+   "name": "Jon Hurwitz",
+   "photo": "https://image.tmdb.org/t/p/w185/fl3yAMOLbQFF86m8amwH2Ufntjs.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Story",
+    "Writer"
+   ],
+   "episodes": 65
+  },
+  {
+   "id": 2888,
+   "name": "Will Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/8TlKqbXYgHmmaEoPBJ7djJ8Rxxa.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 130
+  },
+  {
+   "id": 74574,
+   "name": "Caleeb Pinkett",
+   "photo": "https://image.tmdb.org/t/p/w185/6NwFFp0EIXbH87U4nRZnAqYaDic.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 65
+  },
+  {
+   "id": 46080,
+   "name": "James Lassiter",
+   "photo": "https://image.tmdb.org/t/p/w185/fvANUnkbX7FfZhQtPRHnaBLKSiT.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 65
+  },
+  {
+   "id": 57295,
+   "name": "Susan Ekins",
+   "photo": "https://image.tmdb.org/t/p/w185/mruAPh5kRCFOi6xNbULsv91TYDa.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 65
+  },
+  {
+   "id": 1272997,
+   "name": "Leo Birenberg",
+   "photo": "https://image.tmdb.org/t/p/w185/dQ9tGEuLaDDoIxijfiUmdXfogiD.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 65
+  },
+  {
+   "id": 1433463,
+   "name": "Zach Robinson",
+   "photo": "https://image.tmdb.org/t/p/w185/zp5CKwVNtTJqqmybxDdcJuvQrfD.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 65
+  },
+  {
+   "id": 1308072,
+   "name": "Michael Jonathan Smith",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Teleplay",
+    "Story"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 2710745,
+   "name": "Luan Thomas",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 2710744,
+   "name": "Joe Piarulli",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 1452578,
+   "name": "Stacey Harman",
+   "photo": "https://image.tmdb.org/t/p/w185/txXFTa0ZRMR2p7oKPlPbcOW76Ts.jpg",
+   "jobs": [
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 2205530,
+   "name": "Alyssa Forleiter",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Story"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1208267,
+   "name": "Joel Novoa",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1475805,
+   "name": "Bob Dearden",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 11
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:56.458Z"
+}

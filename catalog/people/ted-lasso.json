@@ -1,0 +1,342 @@
+{
+ "show": "Ted Lasso",
+ "slug": "ted-lasso",
+ "tmdbId": 97546,
+ "cast": [
+  {
+   "id": 58224,
+   "name": "Jason Sudeikis",
+   "photo": "https://image.tmdb.org/t/p/w185/uuacnP9DOHMsmj8FhBi0cWWDgrn.jpg",
+   "character": "Ted Lasso",
+   "episodes": 44
+  },
+  {
+   "id": 1278487,
+   "name": "Hannah Waddingham",
+   "photo": "https://image.tmdb.org/t/p/w185/eHAICyhvjiRZCgzKyJCk9hWnnjr.jpg",
+   "character": "Rebecca Welton",
+   "episodes": 44
+  },
+  {
+   "id": 3555,
+   "name": "Jeremy Swift",
+   "photo": "https://image.tmdb.org/t/p/w185/muRh4WbyEE4S2763bv777ywpKP3.jpg",
+   "character": "Leslie Higgins",
+   "episodes": 44
+  },
+  {
+   "id": 21422,
+   "name": "Brett Goldstein",
+   "photo": "https://image.tmdb.org/t/p/w185/xYdFNE7EkncE8uiPJzT3RrkqcAQ.jpg",
+   "character": "Roy Kent",
+   "episodes": 44
+  },
+  {
+   "id": 1113365,
+   "name": "Brendan Hunt",
+   "photo": "https://image.tmdb.org/t/p/w185/7Z8q2WUop3q5BdyaBD6YvweGWrZ.jpg",
+   "character": "Coach Beard",
+   "episodes": 44
+  },
+  {
+   "id": 36594,
+   "name": "Juno Temple",
+   "photo": "https://image.tmdb.org/t/p/w185/vwCjlWQLQWbmcUT2Lwn9G0O8r2.jpg",
+   "character": "Keeley Jones",
+   "episodes": 44
+  },
+  {
+   "id": 1502430,
+   "name": "Phil Dunster",
+   "photo": "https://image.tmdb.org/t/p/w185/mKPBzvglLwMoL2LwShO8eHYGgjo.jpg",
+   "character": "Jamie Tartt",
+   "episodes": 35
+  },
+  {
+   "id": 1509615,
+   "name": "Nick Mohammed",
+   "photo": "https://image.tmdb.org/t/p/w185/2cFSHotCLLauzqq8iDKWK6meRAY.jpg",
+   "character": "Nathan Shelley",
+   "episodes": 35
+  },
+  {
+   "id": 2519330,
+   "name": "Toheeb Jimoh",
+   "photo": "https://image.tmdb.org/t/p/w185/mGOYOEflarb0BEYPBG9AodLWP2Z.jpg",
+   "character": "Sam Obisanya",
+   "episodes": 35
+  },
+  {
+   "id": 1711173,
+   "name": "Kola Bokinni",
+   "photo": "https://image.tmdb.org/t/p/w185/viNocsYg0dJo2OHs08S6lktorMi.jpg",
+   "character": "Isaac McAdoo",
+   "episodes": 35
+  },
+  {
+   "id": 2750233,
+   "name": "Billy Harris",
+   "photo": "https://image.tmdb.org/t/p/w185/dCQJjTUDkorhmWeaurj8SY8FoS.jpg",
+   "character": "Colin Hughes",
+   "episodes": 35
+  },
+  {
+   "id": 2741635,
+   "name": "Stephen Manas",
+   "photo": "https://image.tmdb.org/t/p/w185/uEfImsK3Obe3tpPOsUZCih5ZbO3.jpg",
+   "character": "Richard Montlaur",
+   "episodes": 35
+  },
+  {
+   "id": 2051182,
+   "name": "Adam Colborne",
+   "photo": "https://image.tmdb.org/t/p/w185/27xJhCGoWnqXy3VSuVSf48oAikJ.jpg",
+   "character": "Baz Primrose",
+   "episodes": 31
+  },
+  {
+   "id": 2452674,
+   "name": "Kevin Garry",
+   "photo": "https://image.tmdb.org/t/p/w185/mABhMAFl4ZIxkuVtwRUXrdBdlko.jpg",
+   "character": "Paul La Fleur",
+   "episodes": 31
+  },
+  {
+   "id": 75076,
+   "name": "Bronson Webb",
+   "photo": "https://image.tmdb.org/t/p/w185/foMvmr6ch16GGM1L413KA9UQKIO.jpg",
+   "character": "Jeremy Blumenthal",
+   "episodes": 31
+  },
+  {
+   "id": 30320,
+   "name": "Annette Badland",
+   "photo": "https://image.tmdb.org/t/p/w185/6ZoUX6K4WI2MZrhXb21vU5Mtc6P.jpg",
+   "character": "Mae Green (voice) / Mae Green",
+   "episodes": 31
+  },
+  {
+   "id": 2627590,
+   "name": "Cristo Fernández",
+   "photo": "https://image.tmdb.org/t/p/w185/irx5BVVLSQWY9m5NrhqyxPekwIY.jpg",
+   "character": "Dani Rojas",
+   "episodes": 30
+  },
+  {
+   "id": 1448201,
+   "name": "Moe Jeudy-Lamour",
+   "photo": "https://image.tmdb.org/t/p/w185/lrBIhtKkzzglwAMZRxEd8BCEzNl.jpg",
+   "character": "Thierry Zoreaux",
+   "episodes": 30
+  },
+  {
+   "id": 3170414,
+   "name": "Moe Hashim",
+   "photo": "https://image.tmdb.org/t/p/w185/4dhQQhhg2RkB8URhK4zkKxu1aWS.jpg",
+   "character": "Moe Bumbercatch",
+   "episodes": 25
+  },
+  {
+   "id": 1969534,
+   "name": "David Elsendoorn",
+   "photo": "https://image.tmdb.org/t/p/w185/duyTTNg2qXdhlvLToudZYd6gwVb.jpg",
+   "character": "Jan Maas",
+   "episodes": 25
+  },
+  {
+   "id": 590267,
+   "name": "Charlie Hiscock",
+   "photo": "https://image.tmdb.org/t/p/w185/1Tzjrh1mnarinpNZMReK0rVfjVS.jpg",
+   "character": "Will Kitman",
+   "episodes": 24
+  },
+  {
+   "id": 19775,
+   "name": "James Lance",
+   "photo": "https://image.tmdb.org/t/p/w185/xlcpKyVjwRR7RLrviI7Olo5S6FM.jpg",
+   "character": "Trent Crimm",
+   "episodes": 23
+  },
+  {
+   "id": 2799993,
+   "name": "Arlo White",
+   "photo": "https://image.tmdb.org/t/p/w185/wIgnqax5Ce446T8gqZxHLtG6Y5g.jpg",
+   "character": "Arlo White",
+   "episodes": 21
+  },
+  {
+   "id": 34257,
+   "name": "Anthony Stewart Head",
+   "photo": "https://image.tmdb.org/t/p/w185/eRfRWnoipu1Tx84fcuOEdfR87qb.jpg",
+   "character": "Rupert Mannion",
+   "episodes": 18
+  }
+ ],
+ "crew": [
+  {
+   "id": 1216859,
+   "name": "Bill Lawrence",
+   "photo": "https://image.tmdb.org/t/p/w185/75mV8qLqPA9oMy23lTxmcoEGWAe.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Teleplay",
+    "Story"
+   ],
+   "episodes": 44
+  },
+  {
+   "id": 58224,
+   "name": "Jason Sudeikis",
+   "photo": "https://image.tmdb.org/t/p/w185/uuacnP9DOHMsmj8FhBi0cWWDgrn.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 44
+  },
+  {
+   "id": 1222180,
+   "name": "Joe Kelly",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 44
+  },
+  {
+   "id": 1113365,
+   "name": "Brendan Hunt",
+   "photo": "https://image.tmdb.org/t/p/w185/7Z8q2WUop3q5BdyaBD6YvweGWrZ.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 44
+  },
+  {
+   "id": 1059011,
+   "name": "Marcus Mumford",
+   "photo": "https://image.tmdb.org/t/p/w185/3widQCAShGo229D5IKOYlcvKliQ.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 77
+  },
+  {
+   "id": 1785135,
+   "name": "Tom Howe",
+   "photo": "https://image.tmdb.org/t/p/w185/87DOUTcZoOZd5m2ewKx1cyROhtD.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 67
+  },
+  {
+   "id": 2342625,
+   "name": "Leann Bowen",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 44
+  },
+  {
+   "id": 2166850,
+   "name": "Jane Becker",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 44
+  },
+  {
+   "id": 58062,
+   "name": "Bill Wrubel",
+   "photo": "https://image.tmdb.org/t/p/w185/hVEtEE28GtisRwVAWBmVEncKm1D.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 44
+  },
+  {
+   "id": 1321773,
+   "name": "Jeff Ingold",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 44
+  },
+  {
+   "id": 2205532,
+   "name": "Jamie Lee",
+   "photo": "https://image.tmdb.org/t/p/w185/8co6X3EbcXJAHlJGxEmqCLhTK40.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 44
+  },
+  {
+   "id": 2505140,
+   "name": "Liza Katzer",
+   "photo": "https://image.tmdb.org/t/p/w185/m6MZXfzqN4tC1I9YqKEG6xPnMY7.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 44
+  },
+  {
+   "id": 21422,
+   "name": "Brett Goldstein",
+   "photo": "https://image.tmdb.org/t/p/w185/xYdFNE7EkncE8uiPJzT3RrkqcAQ.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 34
+  },
+  {
+   "id": 2452673,
+   "name": "Phoebe Walsh",
+   "photo": "https://image.tmdb.org/t/p/w185/m47w1LKeOITgbsmI001ZBboetsN.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 4029369,
+   "name": "Dylan Marron",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 3070853,
+   "name": "Julia Lindon",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 11
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:27.099Z"
+}

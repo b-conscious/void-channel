@@ -1,0 +1,329 @@
+{
+ "show": "Entourage",
+ "slug": "entourage",
+ "tmdbId": 1940,
+ "cast": [
+  {
+   "id": 16666,
+   "name": "Kevin Connolly",
+   "photo": "https://image.tmdb.org/t/p/w185/1QDmx5t0anO0wkfABfgLtkuLFOy.jpg",
+   "character": "Eric Murphy",
+   "episodes": 96
+  },
+  {
+   "id": 5090,
+   "name": "Adrian Grenier",
+   "photo": "https://image.tmdb.org/t/p/w185/ghSzUkiw7OjRq0poNOlCjbXbdU6.jpg",
+   "character": "Vincent Chase",
+   "episodes": 96
+  },
+  {
+   "id": 6863,
+   "name": "Kevin Dillon",
+   "photo": "https://image.tmdb.org/t/p/w185/wfBEjFfkJt1dORR0mKPu89qCcJK.jpg",
+   "character": "Johnny 'Drama' Chase",
+   "episodes": 96
+  },
+  {
+   "id": 98953,
+   "name": "Jerry Ferrara",
+   "photo": "https://image.tmdb.org/t/p/w185/yGziAkYkdtBmYolQg7MNkK5XP7J.jpg",
+   "character": "Turtle",
+   "episodes": 96
+  },
+  {
+   "id": 12799,
+   "name": "Jeremy Piven",
+   "photo": "https://image.tmdb.org/t/p/w185/pBD1jcAZiDrHWcFpJtBtqLRD4gR.jpg",
+   "character": "Ari Gold",
+   "episodes": 96
+  },
+  {
+   "id": 1190817,
+   "name": "Rex Lee",
+   "photo": "https://image.tmdb.org/t/p/w185/fSi2t7nysMai8hr4SVDDNKrzsjz.jpg",
+   "character": "Lloyd Lee",
+   "episodes": 78
+  },
+  {
+   "id": 68495,
+   "name": "Perrey Reeves",
+   "photo": "https://image.tmdb.org/t/p/w185/zkppOuOlGMP59ulwKdqC2tlg07B.jpg",
+   "character": "Melissa Gold / Mrs. Ari",
+   "episodes": 68
+  },
+  {
+   "id": 5578,
+   "name": "Debi Mazar",
+   "photo": "https://image.tmdb.org/t/p/w185/cU3LhqOjXzOqpGCSDFj5otlZreu.jpg",
+   "character": "Shauna Roberts",
+   "episodes": 32
+  },
+  {
+   "id": 59192,
+   "name": "Emmanuelle Chriqui",
+   "photo": "https://image.tmdb.org/t/p/w185/5ll30bFOYMlIucGNrqWQ4bAA14U.jpg",
+   "character": "Sloan McQuewick",
+   "episodes": 32
+  },
+  {
+   "id": 113563,
+   "name": "Rhys Coiro",
+   "photo": "https://image.tmdb.org/t/p/w185/pjPbrZHU0kJUiMOPYfxK8FeBwWQ.jpg",
+   "character": "Billy Walsh",
+   "episodes": 28
+  },
+  {
+   "id": 821,
+   "name": "Beverly D'Angelo",
+   "photo": "https://image.tmdb.org/t/p/w185/8fYQIA8dAaA4GOTxOFSKIvTqzi.jpg",
+   "character": "Barbara Miller",
+   "episodes": 25
+  },
+  {
+   "id": 156204,
+   "name": "Constance Zimmer",
+   "photo": "https://image.tmdb.org/t/p/w185/6lnaGnzw6ZBwomgdjN1cGqp7HNq.jpg",
+   "character": "Dana Gordon",
+   "episodes": 21
+  },
+  {
+   "id": 1894,
+   "name": "Scott Caan",
+   "photo": "https://image.tmdb.org/t/p/w185/hX5X4K7BfzOOGcxiNQ24EpPZrfC.jpg",
+   "character": "Scott Lavin",
+   "episodes": 19
+  },
+  {
+   "id": 1228248,
+   "name": "Cassidy Lehrman",
+   "photo": "https://image.tmdb.org/t/p/w185/5HyytSoA3Ns9455IdeWHPDwMLKb.jpg",
+   "character": "Sarah Gold",
+   "episodes": 18
+  },
+  {
+   "id": 95137,
+   "name": "Jonathan Keltz",
+   "photo": "https://image.tmdb.org/t/p/w185/yYGWBQsdSyDr6pfwLwLvTirEulI.jpg",
+   "character": "Jake Steinberg",
+   "episodes": 15
+  },
+  {
+   "id": 3671342,
+   "name": "Lucas Ellin",
+   "photo": null,
+   "character": "Jonah Gold",
+   "episodes": 14
+  },
+  {
+   "id": 144675,
+   "name": "Jordan Belfi",
+   "photo": "https://image.tmdb.org/t/p/w185/n5hN1Ik6gKGiX5xVpFUMeTjdGED.jpg",
+   "character": "Adam Davies",
+   "episodes": 14
+  },
+  {
+   "id": 115217,
+   "name": "Kate Albrecht",
+   "photo": "https://image.tmdb.org/t/p/w185/sclHbNFNKMVyvUkNezgaDiUzbOr.jpg",
+   "character": "Christy",
+   "episodes": 14
+  },
+  {
+   "id": 886,
+   "name": "William Fichtner",
+   "photo": "https://image.tmdb.org/t/p/w185/wWtJOoaNAwPparpzMNuRBjvxwEf.jpg",
+   "character": "Phil Yagoda",
+   "episodes": 13
+  },
+  {
+   "id": 99241,
+   "name": "Jamie-Lynn Sigler",
+   "photo": "https://image.tmdb.org/t/p/w185/Aur8H7qOzDUr9cRaqqOsCE5kLJp.jpg",
+   "character": "Jamie-Lynn Sigler",
+   "episodes": 13
+  },
+  {
+   "id": 17832,
+   "name": "Carla Gugino",
+   "photo": "https://image.tmdb.org/t/p/w185/dAqGOsHSzlP6RhaUURX2NrwITaq.jpg",
+   "character": "Amanda Daniels",
+   "episodes": 12
+  },
+  {
+   "id": 21163,
+   "name": "Gary Cole",
+   "photo": "https://image.tmdb.org/t/p/w185/uWsqIlfHbyxkmBJLmq2mR93musF.jpg",
+   "character": "Andrew Klein",
+   "episodes": 12
+  },
+  {
+   "id": 56890,
+   "name": "Malcolm McDowell",
+   "photo": "https://image.tmdb.org/t/p/w185/hL8ep4Hqj6izX7IlzE7Bbcfq62w.jpg",
+   "character": "Terrance McQuewick",
+   "episodes": 11
+  },
+  {
+   "id": 74607,
+   "name": "Autumn Reeser",
+   "photo": "https://image.tmdb.org/t/p/w185/ftDOWocmtT9YSZhV6bVrbsywIad.jpg",
+   "character": "Lizzie Grant",
+   "episodes": 10
+  }
+ ],
+ "crew": [
+  {
+   "id": 183036,
+   "name": "Doug Ellin",
+   "photo": "https://image.tmdb.org/t/p/w185/7jugVaVPHR6o1Gjtahuxz1ohZsw.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 96
+  },
+  {
+   "id": 183044,
+   "name": "Stephen Levinson",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 96
+  },
+  {
+   "id": 13240,
+   "name": "Mark Wahlberg",
+   "photo": "https://image.tmdb.org/t/p/w185/1Oc3XSLyb8hxmjmlgFENu582Kqw.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 96
+  },
+  {
+   "id": 183055,
+   "name": "Rob Weiss",
+   "photo": "https://image.tmdb.org/t/p/w185/6bsDFxMRGUiWtU2aNDHzCYw92NJ.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 94
+  },
+  {
+   "id": 1228263,
+   "name": "Denis Biggs",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 74
+  },
+  {
+   "id": 1228224,
+   "name": "Ally Musika",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 62
+  },
+  {
+   "id": 173667,
+   "name": "Julian Farino",
+   "photo": "https://image.tmdb.org/t/p/w185/hxXRkhFWCdKKklvU9OJk0WSHnZC.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 23
+  },
+  {
+   "id": 57199,
+   "name": "Mark Mylod",
+   "photo": "https://image.tmdb.org/t/p/w185/6Nwg31BrgPkCjZ054Pso3ctg3Ov.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 23
+  },
+  {
+   "id": 6767,
+   "name": "Larry Charles",
+   "photo": "https://image.tmdb.org/t/p/w185/rt48JIfeIJPNNZftESWnMEuzAXN.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 1212689,
+   "name": "Ken Whittingham",
+   "photo": "https://image.tmdb.org/t/p/w185/bylFyXnjWWIuoyAkhL9NZE7UKYT.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1223735,
+   "name": "Dan Attias",
+   "photo": "https://image.tmdb.org/t/p/w185/ouUeAsHwRliL4S0mu7lKDvEkEq4.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 33316,
+   "name": "David Nutter",
+   "photo": "https://image.tmdb.org/t/p/w185/obyikiv6rf8hgwUKJKRJdMT3YEK.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1215616,
+   "name": "Steve Tompkins",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 202648,
+   "name": "Brian Burns",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 204250,
+   "name": "Seith Mann",
+   "photo": "https://image.tmdb.org/t/p/w185/vm86Gdb8Cws713vO1HtpN324sTe.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1226503,
+   "name": "Michael Benson",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:28:51.351Z"
+}

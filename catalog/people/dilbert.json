@@ -1,0 +1,336 @@
+{
+ "show": "Dilbert",
+ "slug": "dilbert",
+ "tmdbId": 4956,
+ "cast": [
+  {
+   "id": 11511,
+   "name": "Daniel Stern",
+   "photo": "https://image.tmdb.org/t/p/w185/939oerf8bJPrqT2a0N0oGuM1bjn.jpg",
+   "character": "Dilbert (voice)",
+   "episodes": 30
+  },
+  {
+   "id": 1211,
+   "name": "Larry Miller",
+   "photo": "https://image.tmdb.org/t/p/w185/ajnXlXG20LJwAwxne8G94ucVj0v.jpg",
+   "character": "Pointy-Haired Boss (voice)",
+   "episodes": 30
+  },
+  {
+   "id": 165233,
+   "name": "Gordon Hunt",
+   "photo": "https://image.tmdb.org/t/p/w185/c9bouQbvHagV4MpjqoTDnrodQdq.jpg",
+   "character": "Wally (voice)",
+   "episodes": 30
+  },
+  {
+   "id": 1534,
+   "name": "Chris Elliott",
+   "photo": "https://image.tmdb.org/t/p/w185/oZFGgyDCZaanGfco1UdfxM4rHAJ.jpg",
+   "character": "Dogbert (voice)",
+   "episodes": 30
+  },
+  {
+   "id": 1188726,
+   "name": "Gary Kroeger",
+   "photo": null,
+   "character": "Various (voice)",
+   "episodes": 30
+  },
+  {
+   "id": 1218308,
+   "name": "Jim Wise",
+   "photo": "https://image.tmdb.org/t/p/w185/vtR5eybxBGMyeTB8yUWFP3um8zh.jpg",
+   "character": "Loud Howard (voice)",
+   "episodes": 30
+  },
+  {
+   "id": 5385,
+   "name": "Jackie Hoffman",
+   "photo": "https://image.tmdb.org/t/p/w185/jtvytvZxpRwGlJQxVMkvYRLjGWo.jpg",
+   "character": "Dilmom (voice)",
+   "episodes": 30
+  },
+  {
+   "id": 34983,
+   "name": "Tress MacNeille",
+   "photo": "https://image.tmdb.org/t/p/w185/gI2LsgByvSffQY34vabVnPmrHzw.jpg",
+   "character": "Various",
+   "episodes": 30
+  },
+  {
+   "id": 78798,
+   "name": "Tom Kenny",
+   "photo": "https://image.tmdb.org/t/p/w185/kftXtExrcoTTjyeYmSXJ0Ogr3R7.jpg",
+   "character": "Asok / Ratbert (voice) / Asok / Ratbert / Petru (voice) / Asok (voice)",
+   "episodes": 29
+  },
+  {
+   "id": 3138,
+   "name": "Kathy Griffin",
+   "photo": "https://image.tmdb.org/t/p/w185/khhZT54SfcKIZuPwTH55CB1I0Gf.jpg",
+   "character": "Alice (voice)",
+   "episodes": 18
+  },
+  {
+   "id": 34521,
+   "name": "Maurice LaMarche",
+   "photo": "https://image.tmdb.org/t/p/w185/qCiL3EYAhLcNo0rNj5pczWo9MwG.jpg",
+   "character": "Garbage Man / Billionaire (voice) / (voice) / Bob the Dinosaur (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 1206,
+   "name": "Jason Alexander",
+   "photo": "https://image.tmdb.org/t/p/w185/qRezZ2yhM2bmBERt7jVcxo8RVSA.jpg",
+   "character": "Catbert (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 23679,
+   "name": "Billy West",
+   "photo": "https://image.tmdb.org/t/p/w185/iNQtBsgV4wr3z5CEEFhR5U4Yedk.jpg",
+   "character": "Marketing Guy (voice) / Pointy-Haired Boss's Boss (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 16377,
+   "name": "Jerry Seinfeld",
+   "photo": "https://image.tmdb.org/t/p/w185/9OSptNQPVCUKZs1J3tqKcwtaB2v.jpg",
+   "character": "Comp-U-Comp (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 15277,
+   "name": "Jon Favreau",
+   "photo": "https://image.tmdb.org/t/p/w185/tnx7iMVydPQXGOoLsxXl84PXtbA.jpg",
+   "character": "Holden Callfielder (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 26510,
+   "name": "Eugene Levy",
+   "photo": "https://image.tmdb.org/t/p/w185/epZE1ZohKhEFCdCKYFyvtJEj0I7.jpg",
+   "character": "Plug Guard (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 1242260,
+   "name": "Harry Kalas",
+   "photo": null,
+   "character": "Announcer (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 7795,
+   "name": "Buck Henry",
+   "photo": "https://image.tmdb.org/t/p/w185/iAOjaj5OHMMXno65MwmDtkqHeb6.jpg",
+   "character": "Dadbert (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 9046,
+   "name": "Chazz Palminteri",
+   "photo": "https://image.tmdb.org/t/p/w185/mCbjKVyE5B2tleshbJw44tw3ktZ.jpg",
+   "character": "Leonardo da Vinci (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 15832,
+   "name": "Gilbert Gottfried",
+   "photo": "https://image.tmdb.org/t/p/w185/hkkAgJD0HKcuyd8EuvhyN5vHcDQ.jpg",
+   "character": "The Troll (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 20187,
+   "name": "Camryn Manheim",
+   "photo": "https://image.tmdb.org/t/p/w185/jBriBpXLkgJW7ONUIMuK1k99Ywp.jpg",
+   "character": "Juliet (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 13524,
+   "name": "Christopher Guest",
+   "photo": "https://image.tmdb.org/t/p/w185/ofLhsKLZ4YAet8XIsNj7oA3blgh.jpg",
+   "character": "The Dupey (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 2343176,
+   "name": "Russ Leatherman",
+   "photo": "https://image.tmdb.org/t/p/w185/pmc75eEhQSkyWiGbR5QXX5dRY6g.jpg",
+   "character": "Mr. Moviefone (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 43120,
+   "name": "Andy Dick",
+   "photo": "https://image.tmdb.org/t/p/w185/n4WT4oYoYrzSGAanlWPsneCzBPk.jpg",
+   "character": "The Assistant (voice)",
+   "episodes": 1
+  }
+ ],
+ "crew": [
+  {
+   "id": 1238257,
+   "name": "Scott Adams",
+   "photo": "https://image.tmdb.org/t/p/w185/px76PCY9LGYxhWR6f9jcIEWXbCJ.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 36
+  },
+  {
+   "id": 6767,
+   "name": "Larry Charles",
+   "photo": "https://image.tmdb.org/t/p/w185/rt48JIfeIJPNNZftESWnMEuzAXN.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 1447337,
+   "name": "Perry Zombolas",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 1216651,
+   "name": "Ned Goldreyer",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 3497277,
+   "name": "David Adam Silverman",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1212635,
+   "name": "Stephen Sustarsic",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1224488,
+   "name": "Andi Klein",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1222321,
+   "name": "Chris Dozois",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 2013407,
+   "name": "Gloria Jenkins",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 84975,
+   "name": "Seth Kearsley",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 85561,
+   "name": "Michael Goguen",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 2186869,
+   "name": "Ron Nelson",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1731698,
+   "name": "Mark Steen",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1120174,
+   "name": "Linda Miller",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1451634,
+   "name": "Rick Del Carmen",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 175450,
+   "name": "Alfred Gimeno",
+   "photo": "https://image.tmdb.org/t/p/w185/tkQEjSwaom1OWQzuA29pmIwUqsH.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:29:46.932Z"
+}

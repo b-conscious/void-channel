@@ -1,0 +1,324 @@
+{
+ "show": "The Shield",
+ "slug": "the-shield",
+ "tmdbId": 1414,
+ "cast": [
+  {
+   "id": 19654,
+   "name": "Michael Chiklis",
+   "photo": "https://image.tmdb.org/t/p/w185/pAkKjbzxP6Z6Y5zAGpwmWQo1iji.jpg",
+   "character": "Vic Mackey",
+   "episodes": 88
+  },
+  {
+   "id": 65797,
+   "name": "Catherine Dent",
+   "photo": "https://image.tmdb.org/t/p/w185/yA76zSo5uu3X85nYH2iIKKxgan7.jpg",
+   "character": "Danielle 'Danny' Sofer",
+   "episodes": 88
+  },
+  {
+   "id": 27740,
+   "name": "Walton Goggins",
+   "photo": "https://image.tmdb.org/t/p/w185/5lcVMJbWrNDFiWa1WxK4oR8zwev.jpg",
+   "character": "Shane Vendrell",
+   "episodes": 88
+  },
+  {
+   "id": 46921,
+   "name": "Michael Jace",
+   "photo": "https://image.tmdb.org/t/p/w185/dTHdnj0qfBx6sXr9cT4Xxu0AcIG.jpg",
+   "character": "Julien Lowe",
+   "episodes": 88
+  },
+  {
+   "id": 155934,
+   "name": "Jay Karnes",
+   "photo": "https://image.tmdb.org/t/p/w185/95DfDguAXfFfE7ZOdGQIvk5VheZ.jpg",
+   "character": "Holland 'Dutch' Wagenbach",
+   "episodes": 88
+  },
+  {
+   "id": 2137,
+   "name": "Benito Martinez",
+   "photo": "https://image.tmdb.org/t/p/w185/3lPxnrPCs31lnliBNEssgxw7Qxg.jpg",
+   "character": "David Aceveda",
+   "episodes": 88
+  },
+  {
+   "id": 30485,
+   "name": "CCH Pounder",
+   "photo": "https://image.tmdb.org/t/p/w185/yLOU0qA5MwJyoKMc0e4HyZz4oFV.jpg",
+   "character": "Claudette Wyms",
+   "episodes": 88
+  },
+  {
+   "id": 1224050,
+   "name": "Cathy Cahlin Ryan",
+   "photo": "https://image.tmdb.org/t/p/w185/kYqvWykKzUQYhoI3YcY4cTE84ps.jpg",
+   "character": "Corrine Mackey",
+   "episodes": 83
+  },
+  {
+   "id": 74293,
+   "name": "David Rees Snell",
+   "photo": "https://image.tmdb.org/t/p/w185/sglDPVgps2P7wj7XzFGMKg7D4m3.jpg",
+   "character": "Ronnie Gardocki",
+   "episodes": 81
+  },
+  {
+   "id": 42191,
+   "name": "Kenny Johnson",
+   "photo": "https://image.tmdb.org/t/p/w185/oFjEvGUEync0f2uiyGxMbinQkEl.jpg",
+   "character": "Curtis Lemansky",
+   "episodes": 65
+  },
+  {
+   "id": 169292,
+   "name": "David Marciano",
+   "photo": "https://image.tmdb.org/t/p/w185/dqgkHEuY3mgWI3AiBK99YN9srSt.jpg",
+   "character": "Steve Billings",
+   "episodes": 42
+  },
+  {
+   "id": 3949148,
+   "name": "Autumn Chiklis",
+   "photo": "https://image.tmdb.org/t/p/w185/aMogVXESqlvohcLiVEnKeig6ziW.jpg",
+   "character": "Cassidy Mackey",
+   "episodes": 35
+  },
+  {
+   "id": 21124,
+   "name": "Paula Garcés",
+   "photo": "https://image.tmdb.org/t/p/w185/ukwCVnfSp5qYGbdXHVeCwOXiZyu.jpg",
+   "character": "Tina Hanlon",
+   "episodes": 32
+  },
+  {
+   "id": 163642,
+   "name": "Michele Hicks",
+   "photo": "https://image.tmdb.org/t/p/w185/a0tUqX1glE7s15BxZYVcgAmnMxV.jpg",
+   "character": "Mara Sewell",
+   "episodes": 25
+  },
+  {
+   "id": 3476181,
+   "name": "Melanie Myers",
+   "photo": null,
+   "character": "Paula",
+   "episodes": 20
+  },
+  {
+   "id": 111451,
+   "name": "Matt Corboy",
+   "photo": "https://image.tmdb.org/t/p/w185/hkyyIuwqN6AqLZj6YHUPfYa2EKF.jpg",
+   "character": "Officer Ray Carlson / Ray Carlson",
+   "episodes": 17
+  },
+  {
+   "id": 66744,
+   "name": "Chaney Kley",
+   "photo": "https://image.tmdb.org/t/p/w185/5XSCZAgi1BUZrLp7eDyIxT46w01.jpg",
+   "character": "Officer Asher",
+   "episodes": 16
+  },
+  {
+   "id": 18471,
+   "name": "Anthony Anderson",
+   "photo": "https://image.tmdb.org/t/p/w185/reO1OjwFdtXmiO4LMDaBj6eatzK.jpg",
+   "character": "Antwon Mitchell",
+   "episodes": 15
+  },
+  {
+   "id": 11915,
+   "name": "Nigel Gibbs",
+   "photo": "https://image.tmdb.org/t/p/w185/eqDPaZWlBOriugBzUoy9ES4HKdA.jpg",
+   "character": "Assistant Chief Roy Phillips",
+   "episodes": 14
+  },
+  {
+   "id": 1225950,
+   "name": "F.J. Rio",
+   "photo": "https://image.tmdb.org/t/p/w185/wX9Ppt7Xta3skMT9vBQBCsyhP0V.jpg",
+   "character": "Cruz Pezuela",
+   "episodes": 14
+  },
+  {
+   "id": 515,
+   "name": "Glenn Close",
+   "photo": "https://image.tmdb.org/t/p/w185/4VHZ1GfLwN7MUgApy0LCBzdDF9L.jpg",
+   "character": "Captain Monica Rawling",
+   "episodes": 13
+  },
+  {
+   "id": 8332,
+   "name": "Laurie Holden",
+   "photo": "https://image.tmdb.org/t/p/w185/rRhtmJsZ5IiE0lYrLDmYOCiPK1P.jpg",
+   "character": "Agent Olivia Murray",
+   "episodes": 13
+  },
+  {
+   "id": 2178,
+   "name": "Forest Whitaker",
+   "photo": "https://image.tmdb.org/t/p/w185/4w7l5JUwnwFNBy7J93ZwYN1nihm.jpg",
+   "character": "Jon Kavanaugh",
+   "episodes": 13
+  },
+  {
+   "id": 1465854,
+   "name": "Kenneth Colom",
+   "photo": "https://image.tmdb.org/t/p/w185/qU8ABQpaDjsgMn2UIJQWDtwLFy0.jpg",
+   "character": "Officer Lucas",
+   "episodes": 11
+  }
+ ],
+ "crew": [
+  {
+   "id": 1216733,
+   "name": "Shawn Ryan",
+   "photo": "https://image.tmdb.org/t/p/w185/49EdiYMjYg0FzTI10zPyubxIPk7.jpg",
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 200043,
+   "name": "Kurt Sutter",
+   "photo": "https://image.tmdb.org/t/p/w185/A4c9xpj2VuZXGvSv6z1S912Xwnd.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 1216734,
+   "name": "Glen Mazzara",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 1223890,
+   "name": "Scott Rosenbaum",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 172666,
+   "name": "Charles H. Eglee",
+   "photo": "https://image.tmdb.org/t/p/w185/kcPQBNXLWkjHbKSbuYr22fhSw5f.jpg",
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 1223869,
+   "name": "Adam Fierro",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 43468,
+   "name": "Guy Ferland",
+   "photo": "https://image.tmdb.org/t/p/w185/oOBx7tqSGZ5BatZydBYRXfoKsRj.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 1216736,
+   "name": "Scott Brazil",
+   "photo": "https://image.tmdb.org/t/p/w185/8IGjbWma6GsgE4MHAad0kjWS92l.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1215143,
+   "name": "Dean White",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 47640,
+   "name": "Clark Johnson",
+   "photo": "https://image.tmdb.org/t/p/w185/k4EcCKRI7lqxrqYqVuffdSe9JBN.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 56435,
+   "name": "Stephen Kay",
+   "photo": "https://image.tmdb.org/t/p/w185/9HsKUi7Ab5jtIQ59OOGyvBtfJRI.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1224044,
+   "name": "Sarah Fain",
+   "photo": "https://image.tmdb.org/t/p/w185/uR99lyoApWWFxwLUbb1onPnlhBo.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1216419,
+   "name": "Gwyneth Horder-Payton",
+   "photo": "https://image.tmdb.org/t/p/w185/o9HPp232P2FoV7fWuyPrkdalSyw.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1374939,
+   "name": "Kim Clements",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 40256,
+   "name": "D.J. Caruso",
+   "photo": "https://image.tmdb.org/t/p/w185/f1SZVhhjvzVot596JYVJdf60dWY.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 19654,
+   "name": "Michael Chiklis",
+   "photo": "https://image.tmdb.org/t/p/w185/pAkKjbzxP6Z6Y5zAGpwmWQo1iji.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:31:38.544Z"
+}

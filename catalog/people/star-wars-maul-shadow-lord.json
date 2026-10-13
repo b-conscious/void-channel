@@ -1,0 +1,325 @@
+{
+ "show": "Star Wars: Maul - Shadow Lord",
+ "slug": "star-wars-maul-shadow-lord",
+ "tmdbId": 289219,
+ "cast": [
+  {
+   "id": 46362,
+   "name": "Sam Witwer",
+   "photo": "https://image.tmdb.org/t/p/w185/8flOyMoh9hBQPqi6ISD7W1mDjnY.jpg",
+   "character": "Stormtrooper #2 (voice) / Stormtrooper Commander (voice) / Maul (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 352,
+   "name": "Dennis Haysbert",
+   "photo": "https://image.tmdb.org/t/p/w185/lcnjaw2CFN6q9eaes1jTYrUB0rb.jpg",
+   "character": "Master Eeko-Dio Daki (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 1803286,
+   "name": "Gideon Adlon",
+   "photo": "https://image.tmdb.org/t/p/w185/2z8IfO0ccm932usPJUEcR1u6Oma.jpg",
+   "character": "Devon Izara (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 98103,
+   "name": "Richard Ayoade",
+   "photo": "https://image.tmdb.org/t/p/w185/qHKoy9kP4bsv4G9EkvU4FMUmYkS.jpg",
+   "character": "Two-Boots (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 52583,
+   "name": "Wagner Moura",
+   "photo": "https://image.tmdb.org/t/p/w185/53IbAed4t1dOWxY3iygbRYZBBnm.jpg",
+   "character": "Brander Lawson (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 81663,
+   "name": "Vanessa Marshall",
+   "photo": "https://image.tmdb.org/t/p/w185/yZsWfaiOxaN5MZkWIKPbxz1KKS1.jpg",
+   "character": "Rook Kast (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 1217648,
+   "name": "Chris Diamantopoulos",
+   "photo": "https://image.tmdb.org/t/p/w185/oenBtpk0RTId4wacQKYU4cPcq8Z.jpg",
+   "character": "Looti Vario / Stormtrooper #2 (voice) / Looti Vario (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 2487734,
+   "name": "David W. Collins",
+   "photo": "https://image.tmdb.org/t/p/w185/182mEyrOZuiv18XcwA1MjxEFgrr.jpg",
+   "character": "Spybot / Stormtrooper #2 (voice) / Spybot / Stormtrooper (voice) / Pyke Pilot #1 / Spybot (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 2438219,
+   "name": "Charlie Bushnell",
+   "photo": "https://image.tmdb.org/t/p/w185/msxgfKUvJsOb2ZxSbMdYzLcQAcM.jpg",
+   "character": "Rylee Lawson (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 571562,
+   "name": "Steve Blum",
+   "photo": "https://image.tmdb.org/t/p/w185/cpO0muunoigq1WHegeOEI1AIQAo.jpg",
+   "character": "Icarus / Stormtrooper #4 (voice) / Icarus (voice) / Icarus / Pyke Captain Kalt (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 1381894,
+   "name": "AJ LoCascio",
+   "photo": "https://image.tmdb.org/t/p/w185/pHycR75zn1mnGzDTEbxwXj1728P.jpg",
+   "character": "Marrok / Crimson Dawn Pilot (voice) / Marrok / Stormtrooper Commander #2 (voice) / Marrok / Commando #1 (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 2229812,
+   "name": "Christopher Swindle",
+   "photo": "https://image.tmdb.org/t/p/w185/2l4YhEsrcIopfLlhlwLuykmceSA.jpg",
+   "character": "Police Droids (voice) / Police Droids / Pyke Enforcer (voice) / Commando #2 (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 2514293,
+   "name": "Sam Corlett",
+   "photo": "https://image.tmdb.org/t/p/w185/9SQHs53DKbyn0JwdyxIeuiCiuYb.jpg",
+   "character": "Officer Reb (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 35467,
+   "name": "Keiko Agena",
+   "photo": "https://image.tmdb.org/t/p/w185/7v2XH9LQts17OQtsprzpNiWAWEu.jpg",
+   "character": "Chief Klyce (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 1864731,
+   "name": "Alastair James Murden",
+   "photo": "https://image.tmdb.org/t/p/w185/wu5GLxe6J6O9VZmlSiFf4gdMVer.jpg",
+   "character": "Lieutenant Blake (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 1178795,
+   "name": "Ben Diskin",
+   "photo": "https://image.tmdb.org/t/p/w185/4RWjcrPgfTG1yp19kFKRZYimv2B.jpg",
+   "character": "Imperial Announcer / Stormtrooper Commander #1 (voice) / Henchman #2 / Police Officer #1 (voice) / Imperial Announcer / Kebris (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 170317,
+   "name": "Dave Fennoy",
+   "photo": "https://image.tmdb.org/t/p/w185/1azEou77GcmST8hYJmV30PhAyO6.jpg",
+   "character": "Scorn (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 21063,
+   "name": "Pamela Adlon",
+   "photo": "https://image.tmdb.org/t/p/w185/5eIRHUbNOH7ibXa0IfUfFvj5I5L.jpg",
+   "character": "Rheena Sul (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 1371510,
+   "name": "Avery Kidd Waddell",
+   "photo": "https://image.tmdb.org/t/p/w185/rZ5NaRi0XzAx3pTLo4MaSxtwNa2.jpg",
+   "character": "Officer Wade / Pyke Guard (voice) / Officer Wade (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 589709,
+   "name": "Jonathan Lipow",
+   "photo": "https://image.tmdb.org/t/p/w185/mSy3SCQYg4QP1BU86w56MRmBbqD.jpg",
+   "character": "Police Officer #1 / Vendor (voice) / Announcer / Pyke Enforcer #3 (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 23680,
+   "name": "Dee Bradley Baker",
+   "photo": "https://image.tmdb.org/t/p/w185/9oFnToDZWp0I484s7Ua1EzNQQ2m.jpg",
+   "character": "Customer / Henchman #1 / Alien Mechanic / Bully Alien #1 / Bully Alien #2 (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 1213640,
+   "name": "Stephen Stanton",
+   "photo": "https://image.tmdb.org/t/p/w185/kAz8Ja6SdB2gzabQEgMG2Hb1H5w.jpg",
+   "character": "Marg Krim / Pyke Enforcer #2 (voice) / Marg Krim (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 71520,
+   "name": "Scott Whyte",
+   "photo": "https://image.tmdb.org/t/p/w185/cTsWZRSgWtkitBMwpikTr11kdYC.jpg",
+   "character": "Dryden Vos (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 6131483,
+   "name": "Brandon Blum",
+   "photo": null,
+   "character": "Officer Pak (voice)",
+   "episodes": 1
+  }
+ ],
+ "crew": [
+  {
+   "id": 71538,
+   "name": "Dave Filoni",
+   "photo": "https://image.tmdb.org/t/p/w185/iMpXDe7D3eimy3Y8esJcF9czVbm.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1354801,
+   "name": "Athena Yvette Portillo",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1228502,
+   "name": "Matt Michnovetz",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1700794,
+   "name": "Josh Rimes",
+   "photo": "https://image.tmdb.org/t/p/w185/8aRwqvPOGuiqOfKXnx5qzlnqEkl.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1371864,
+   "name": "Carrie Beck",
+   "photo": "https://image.tmdb.org/t/p/w185/lmYLSau8WS1t09aSn2BG5BAI73i.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1728772,
+   "name": "Brad Rau",
+   "photo": "https://image.tmdb.org/t/p/w185/tT2BOfNN9DlXx9nUESrriQsID2Z.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 51588,
+   "name": "Kevin Kiner",
+   "photo": "https://image.tmdb.org/t/p/w185/FtGnTCUaMTNDESIuwhEmzCNIpp.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1972437,
+   "name": "Deana Kiner",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 2171212,
+   "name": "Sean Kiner",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1845715,
+   "name": "Saul Ruiz",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 3078619,
+   "name": "Nate Villanueva",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1375617,
+   "name": "Steward Lee",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1310477,
+   "name": "Jennifer Corbett",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 109542,
+   "name": "Christopher L. Yost",
+   "photo": "https://image.tmdb.org/t/p/w185/wPZAV6uK5t3MRd2gBt5AqBTzCsa.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 2082529,
+   "name": "Julia Cooperman",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 6163312,
+   "name": "Tatyana Drewry Carvin",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:35:18.811Z"
+}

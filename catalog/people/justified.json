@@ -1,0 +1,336 @@
+{
+ "show": "Justified",
+ "slug": "justified",
+ "tmdbId": 1436,
+ "cast": [
+  {
+   "id": 18082,
+   "name": "Timothy Olyphant",
+   "photo": "https://image.tmdb.org/t/p/w185/7pHmRHE2wBNC9cBgNIRCBqFLoyZ.jpg",
+   "character": "Raylan Givens",
+   "episodes": 78
+  },
+  {
+   "id": 27740,
+   "name": "Walton Goggins",
+   "photo": "https://image.tmdb.org/t/p/w185/5lcVMJbWrNDFiWa1WxK4oR8zwev.jpg",
+   "character": "Boyd Crowder",
+   "episodes": 78
+  },
+  {
+   "id": 12538,
+   "name": "Nick Searcy",
+   "photo": "https://image.tmdb.org/t/p/w185/AnqbYGdLLaUaMfCtE0zYiRiI7E6.jpg",
+   "character": "Art Mullen",
+   "episodes": 78
+  },
+  {
+   "id": 3237,
+   "name": "Joelle Carter",
+   "photo": "https://image.tmdb.org/t/p/w185/vJUPZyMq0MDOKJ9hmnLNC3sNqLA.jpg",
+   "character": "Ava Crowder",
+   "episodes": 78
+  },
+  {
+   "id": 54414,
+   "name": "Jacob Pitts",
+   "photo": "https://image.tmdb.org/t/p/w185/hSgGV6HNDk9GHObRkOGyFue0WUu.jpg",
+   "character": "Tim Gutterson",
+   "episodes": 78
+  },
+  {
+   "id": 1224565,
+   "name": "Erica Tazel",
+   "photo": "https://image.tmdb.org/t/p/w185/9EWz9rv8cN5Xpd7ZPfXY29NeDqc.jpg",
+   "character": "Rachel Brooks",
+   "episodes": 78
+  },
+  {
+   "id": 57167,
+   "name": "Jere Burns",
+   "photo": "https://image.tmdb.org/t/p/w185/nAWNCtD4DDOIAR63zVA4XZ4C8eg.jpg",
+   "character": "Wynn Duffy",
+   "episodes": 46
+  },
+  {
+   "id": 97406,
+   "name": "Natalie Zea",
+   "photo": "https://image.tmdb.org/t/p/w185/rSRaRXvTtTBNMKb5vZpGPztf1UM.jpg",
+   "character": "Winona Hawkins",
+   "episodes": 45
+  },
+  {
+   "id": 1224149,
+   "name": "David Meunier",
+   "photo": "https://image.tmdb.org/t/p/w185/8gLRTQxeTUVtgGGb302f80peoMq.jpg",
+   "character": "Johnny Crowder",
+   "episodes": 35
+  },
+  {
+   "id": 10361,
+   "name": "Raymond J. Barry",
+   "photo": "https://image.tmdb.org/t/p/w185/8rJs8BQMoVqEjjCHCS4i7o7joJ6.jpg",
+   "character": "Arlo Givens",
+   "episodes": 22
+  },
+  {
+   "id": 62752,
+   "name": "Damon Herriman",
+   "photo": "https://image.tmdb.org/t/p/w185/hzh9i0BlAEQDAhJxEgkEcBxMlJv.jpg",
+   "character": "Dewey Crowe",
+   "episodes": 22
+  },
+  {
+   "id": 4654,
+   "name": "Jeremy Davies",
+   "photo": "https://image.tmdb.org/t/p/w185/tNtcpQnMxzl0OqVDsyA63oAgPbI.jpg",
+   "character": "Dickie Bennett",
+   "episodes": 20
+  },
+  {
+   "id": 123532,
+   "name": "Rick Gomez",
+   "photo": "https://image.tmdb.org/t/p/w185/gmVYPHJgmRVIzhaVYMns4kgBVqm.jpg",
+   "character": "David Vasquez",
+   "episodes": 19
+  },
+  {
+   "id": 211675,
+   "name": "Jesse Luken",
+   "photo": "https://image.tmdb.org/t/p/w185/AteY6dMT2yJXNR2mJWQ0uafWulT.jpg",
+   "character": "Jimmy Tolan",
+   "episodes": 16
+  },
+  {
+   "id": 34,
+   "name": "Mykelti Williamson",
+   "photo": "https://image.tmdb.org/t/p/w185/dR16zD9AjnHWbeN5OVmJWE0vSax.jpg",
+   "character": "Ellstin Limehouse",
+   "episodes": 15
+  },
+  {
+   "id": 29862,
+   "name": "Jim Beaver",
+   "photo": "https://image.tmdb.org/t/p/w185/mvawGDw5ge5rxgMKhTSggasOyin.jpg",
+   "character": "Drew Thompson / Shelby Parlow / Shelby Parlow / Drew Thompson",
+   "episodes": 14
+  },
+  {
+   "id": 481337,
+   "name": "Kaitlyn Dever",
+   "photo": "https://image.tmdb.org/t/p/w185/np5rBCFRdeS1sXePL8uY09ktoC4.jpg",
+   "character": "Loretta McCready",
+   "episodes": 13
+  },
+  {
+   "id": 202892,
+   "name": "Demetrius Grosse",
+   "photo": "https://image.tmdb.org/t/p/w185/zrfe74JgbQ2crdlsSe9Aos6h73c.jpg",
+   "character": "Errol",
+   "episodes": 13
+  },
+  {
+   "id": 4688,
+   "name": "Michael Rapaport",
+   "photo": "https://image.tmdb.org/t/p/w185/lrJnD5hT6kFlvlfSQa3CKctWvku.jpg",
+   "character": "Daryl Crowe Jr.",
+   "episodes": 13
+  },
+  {
+   "id": 74136,
+   "name": "Justin Welborn",
+   "photo": "https://image.tmdb.org/t/p/w185/pdtbHGo6slXfbtPlzZY5gW3aj0V.jpg",
+   "character": "Carl Lennon",
+   "episodes": 13
+  },
+  {
+   "id": 2203,
+   "name": "Neal McDonough",
+   "photo": "https://image.tmdb.org/t/p/w185/3mI3i1CpjATSCta1Tb2qsyl1KCh.jpg",
+   "character": "Robert Quarles",
+   "episodes": 12
+  },
+  {
+   "id": 1169467,
+   "name": "Abby Miller",
+   "photo": "https://image.tmdb.org/t/p/w185/3vczgnFlWgFaIk8axiGKYCPv09G.jpg",
+   "character": "Ellen May",
+   "episodes": 12
+  },
+  {
+   "id": 31467,
+   "name": "William Ragsdale",
+   "photo": "https://image.tmdb.org/t/p/w185/yupReGV7pi8go2jA9ZT0GCsw1xN.jpg",
+   "character": "Gary Hawkins",
+   "episodes": 12
+  },
+  {
+   "id": 12260,
+   "name": "Ron Eldard",
+   "photo": "https://image.tmdb.org/t/p/w185/5Ww9aaJZjg1N2S6zpJkrZmQVMEI.jpg",
+   "character": "Colton \"Colt\" Rhodes",
+   "episodes": 12
+  }
+ ],
+ "crew": [
+  {
+   "id": 21206,
+   "name": "Graham Yost",
+   "photo": "https://image.tmdb.org/t/p/w185/zbaUcbYdFU28bGoi6F2lJo0XUaX.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 78
+  },
+  {
+   "id": 84165,
+   "name": "Michael Dinner",
+   "photo": "https://image.tmdb.org/t/p/w185/edJOaqx62rvwB7riCygEAPlxgRM.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 78
+  },
+  {
+   "id": 1192876,
+   "name": "Dave Andron",
+   "photo": "https://image.tmdb.org/t/p/w185/AaHw5bY8oov5RqbMjsaEAn73fVj.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 78
+  },
+  {
+   "id": 56187,
+   "name": "Steve Porcaro",
+   "photo": "https://image.tmdb.org/t/p/w185/iRF33gOWVHuyqzpahuBjIq3Z9Eu.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 78
+  },
+  {
+   "id": 71946,
+   "name": "Don Kurt",
+   "photo": "https://image.tmdb.org/t/p/w185/edG4cRqP2UVxh6g7XuVWGexAc0P.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 65
+  },
+  {
+   "id": 18082,
+   "name": "Timothy Olyphant",
+   "photo": "https://image.tmdb.org/t/p/w185/7pHmRHE2wBNC9cBgNIRCBqFLoyZ.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 65
+  },
+  {
+   "id": 2235,
+   "name": "Elmore Leonard",
+   "photo": "https://image.tmdb.org/t/p/w185/cY5qLNesSXiyTBCVot4rawEHXSp.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Story",
+    "Writer"
+   ],
+   "episodes": 52
+  },
+  {
+   "id": 1224060,
+   "name": "Sarah Timberman",
+   "photo": "https://image.tmdb.org/t/p/w185/iAFPreg20BLABmSomZDEGNZhk36.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 52
+  },
+  {
+   "id": 1224058,
+   "name": "Carl Beverly",
+   "photo": "https://image.tmdb.org/t/p/w185/ds3sECoFkMdgQW303we8JGSJazV.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 52
+  },
+  {
+   "id": 1291030,
+   "name": "Benjamin Cavell",
+   "photo": "https://image.tmdb.org/t/p/w185/rumaFod7gzuOZbkQh9oYbtShPZc.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 208214,
+   "name": "Chris Provenzano",
+   "photo": "https://image.tmdb.org/t/p/w185/hDUYFmKJveiPYT8Xv0S2BR5ftqi.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 1237138,
+   "name": "Fred Golan",
+   "photo": "https://image.tmdb.org/t/p/w185/qF7vOu703KqsdFD2iCTvrWbPzuv.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 208073,
+   "name": "Ingrid Escajeda",
+   "photo": "https://image.tmdb.org/t/p/w185/eQCtpp720LmzCMBx6l1sS4BgEc3.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 29
+  },
+  {
+   "id": 30477,
+   "name": "Peter Werner",
+   "photo": "https://image.tmdb.org/t/p/w185/dTxEOaLPDKwxINxcG8Rtm9PRk1w.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 18250,
+   "name": "Jon Avnet",
+   "photo": "https://image.tmdb.org/t/p/w185/c8iDOTe30SgubSZK9hF4rS5tQDZ.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 55257,
+   "name": "Adam Arkin",
+   "photo": "https://image.tmdb.org/t/p/w185/66CugPTyelfdtYe0IV0U0LQP1sA.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:31:41.077Z"
+}

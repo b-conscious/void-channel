@@ -1,0 +1,329 @@
+{
+ "show": "Futurama",
+ "slug": "futurama",
+ "tmdbId": 615,
+ "cast": [
+  {
+   "id": 23679,
+   "name": "Billy West",
+   "photo": "https://image.tmdb.org/t/p/w185/iNQtBsgV4wr3z5CEEFhR5U4Yedk.jpg",
+   "character": "Fry / Professor Farnsworth / Zoidberg / Zapp Brannigan (voice)",
+   "episodes": 164
+  },
+  {
+   "id": 18980,
+   "name": "Katey Sagal",
+   "photo": "https://image.tmdb.org/t/p/w185/jdnBWdXlQG2Q2F6v9MPJkaWQ9Vd.jpg",
+   "character": "Leela (voice)",
+   "episodes": 164
+  },
+  {
+   "id": 31531,
+   "name": "John DiMaggio",
+   "photo": "https://image.tmdb.org/t/p/w185/qcbQe71nSlULDsP1OxTqltEKFbl.jpg",
+   "character": "Bender (voice)",
+   "episodes": 164
+  },
+  {
+   "id": 34983,
+   "name": "Tress MacNeille",
+   "photo": "https://image.tmdb.org/t/p/w185/gI2LsgByvSffQY34vabVnPmrHzw.jpg",
+   "character": "Mom (voice)",
+   "episodes": 164
+  },
+  {
+   "id": 34521,
+   "name": "Maurice LaMarche",
+   "photo": "https://image.tmdb.org/t/p/w185/qCiL3EYAhLcNo0rNj5pczWo9MwG.jpg",
+   "character": "Morbo / Kif Kroker (voice)",
+   "episodes": 164
+  },
+  {
+   "id": 15100,
+   "name": "Lauren Tom",
+   "photo": "https://image.tmdb.org/t/p/w185/fTKFspRRQ275AkzvtPERLZnXe0n.jpg",
+   "character": "Amy Wong (voice)",
+   "episodes": 164
+  },
+  {
+   "id": 31549,
+   "name": "Phil LaMarr",
+   "photo": "https://image.tmdb.org/t/p/w185/xP2kNlsmXtzXq0geutflO4K9mSE.jpg",
+   "character": "Hermes Conrad (voice)",
+   "episodes": 164
+  },
+  {
+   "id": 52794,
+   "name": "David Herman",
+   "photo": "https://image.tmdb.org/t/p/w185/wexIWmxk2uigMRLJ1WXYHroODuU.jpg",
+   "character": "Scruffy (voice)",
+   "episodes": 164
+  },
+  {
+   "id": 15831,
+   "name": "Frank Welker",
+   "photo": "https://image.tmdb.org/t/p/w185/aC37aQtsfZZDZN5y3paDTLJJHCi.jpg",
+   "character": "Tardigrades (voice) / Nibbler / Supercat (voice) / Mountain Lion (voice)",
+   "episodes": 129
+  },
+  {
+   "id": 87819,
+   "name": "Dawnn Lewis",
+   "photo": "https://image.tmdb.org/t/p/w185/ppxGgmkTczev2VsiOSMfaGUy580.jpg",
+   "character": "Coco Charm / Ensign Zinc (voice) / LaBarbara Conrad (voice) / LaBarbara Conrad / Influencer (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 60739,
+   "name": "Kath Soucie",
+   "photo": "https://image.tmdb.org/t/p/w185/dSE1JtsdA1aSgIIw415bsXtmkPg.jpg",
+   "character": "Cubert Farnsworth / Little Kids (voice) / Albert / Nina (voice) / Punk Kid / Butch's Girlfriend / Various Children (voice)",
+   "episodes": 17
+  },
+  {
+   "id": 78798,
+   "name": "Tom Kenny",
+   "photo": "https://image.tmdb.org/t/p/w185/kftXtExrcoTTjyeYmSXJ0Ogr3R7.jpg",
+   "character": "Abner Doubledeal / Yancy Fry Jr. / Gamester Alien (voice) / Abner Doubledeal (voice) / The Masked Unit / Abner Doubledeal (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 24362,
+   "name": "Kevin Michael Richardson",
+   "photo": "https://image.tmdb.org/t/p/w185/xXt9Nh7RAT5bOen66TaXreNYmCl.jpg",
+   "character": "URL / Barbados Slim / Curly Joe (voice) / Barbados Slim (voice) / URL (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 198,
+   "name": "Dan Castellaneta",
+   "photo": "https://image.tmdb.org/t/p/w185/AmeqWhP4A46AWkM4kVphg6jOTQX.jpg",
+   "character": "Robot Devil (voice) / The Robot Devil (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 1752,
+   "name": "George Takei",
+   "photo": "https://image.tmdb.org/t/p/w185/kfpkgfcuxcOrw2OCoAyQpPamQVv.jpg",
+   "character": "George Takei's Head (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 134779,
+   "name": "Feodor Chin",
+   "photo": "https://image.tmdb.org/t/p/w185/fbyQN0Hjk640yny5ZWqUZDBa8xq.jpg",
+   "character": "Scoop Chang (voice) / Leo Wong (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 23680,
+   "name": "Dee Bradley Baker",
+   "photo": "https://image.tmdb.org/t/p/w185/9oFnToDZWp0I484s7Ua1EzNQQ2m.jpg",
+   "character": "Georg Cantor (voice) / Gamester Alien #2 / Donkey Monster (voice) / Rusty the Donkey (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 1289968,
+   "name": "Cara Delevingne",
+   "photo": "https://image.tmdb.org/t/p/w185/c4tJZGeygZf0tX2VCyOqzxICijb.jpg",
+   "character": "Owl (voice) / Makeup Robot (voice) / TV Special Screams (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 19013,
+   "name": "Al Gore",
+   "photo": "https://image.tmdb.org/t/p/w185/d94rd5msc0XppeMvhwtONIadYc1.jpg",
+   "character": "Al Gore (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 35549,
+   "name": "Coolio",
+   "photo": "https://image.tmdb.org/t/p/w185/2RXxdCB68Haao2O9Fq8NCRpFkFm.jpg",
+   "character": "Kwanzaabot (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 181234,
+   "name": "Phil Hendrie",
+   "photo": "https://image.tmdb.org/t/p/w185/qKqWLCGboTHTFuLIlFsGstnY59f.jpg",
+   "character": "Free Waterfall Junior (voice) / Groovestick Waterfall / Bliss Waterfall / Waterfall Offspring (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 1218795,
+   "name": "Bill Nye",
+   "photo": "https://image.tmdb.org/t/p/w185/HfEBnQuiCMPjcsONf9FCpnEyJL.jpg",
+   "character": "Bill Nye the Science Head (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 1749,
+   "name": "Leonard Nimoy",
+   "photo": "https://image.tmdb.org/t/p/w185/weK8ZaqE4o99qLO0JP346DtgrYt.jpg",
+   "character": "Leonard Nimoy's Head (Voice)",
+   "episodes": 2
+  },
+  {
+   "id": 1753,
+   "name": "Nichelle Nichols",
+   "photo": "https://image.tmdb.org/t/p/w185/AnpsVcvctajCU7X8iJW6ID4GYUK.jpg",
+   "character": "Nichelle Nichols' Head (voice)",
+   "episodes": 2
+  }
+ ],
+ "crew": [
+  {
+   "id": 5741,
+   "name": "Matt Groening",
+   "photo": "https://image.tmdb.org/t/p/w185/2HmAw3AN93DGESPi3ibLZgBa8cT.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Story",
+    "Writer"
+   ],
+   "episodes": 164
+  },
+  {
+   "id": 1216644,
+   "name": "Ken Keeler",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 164
+  },
+  {
+   "id": 1219059,
+   "name": "Claudia Katz",
+   "photo": "https://image.tmdb.org/t/p/w185/xmuzXdUNdDdduFMFI3OezjWlo5K.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 164
+  },
+  {
+   "id": 94290,
+   "name": "David X. Cohen",
+   "photo": "https://image.tmdb.org/t/p/w185/wfCNHiOMKRQoXU0yHCy4rNsBFGZ.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 164
+  },
+  {
+   "id": 1219058,
+   "name": "Eric Rogers",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 72
+  },
+  {
+   "id": 68126,
+   "name": "Christopher Tyng",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 74052,
+   "name": "Peter Avanzino",
+   "photo": "https://image.tmdb.org/t/p/w185/mYuUspfecwtAnANHdouRb7nzyUI.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 34
+  },
+  {
+   "id": 1215618,
+   "name": "Eric Horsted",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 21
+  },
+  {
+   "id": 1216653,
+   "name": "Patric M. Verrone",
+   "photo": "https://image.tmdb.org/t/p/w185/1IaB8tqRMButdyY4qM09o8c48g4.jpg",
+   "jobs": [
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 1113192,
+   "name": "Crystal Chesney-Thompson",
+   "photo": "https://image.tmdb.org/t/p/w185/orVXh0YOpxIDYodzBolhgGENj62.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 2982979,
+   "name": "Cody Ziglar",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 51852,
+   "name": "Lew Morton",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 2004621,
+   "name": "Shirin Najafi",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 1219037,
+   "name": "Frank Marino",
+   "photo": "https://image.tmdb.org/t/p/w185/kCFrUGqNFtbuOP1Ix2yXldkl48B.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1447304,
+   "name": "Edmund Fong",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1218546,
+   "name": "Brian Sheesley",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 11
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:29:08.234Z"
+}

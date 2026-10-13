@@ -1,0 +1,330 @@
+{
+ "show": "Schitt's Creek",
+ "slug": "schitts-creek",
+ "tmdbId": 61662,
+ "cast": [
+  {
+   "id": 26510,
+   "name": "Eugene Levy",
+   "photo": "https://image.tmdb.org/t/p/w185/epZE1ZohKhEFCdCKYFyvtJEj0I7.jpg",
+   "character": "Johnny Rose",
+   "episodes": 79
+  },
+  {
+   "id": 11514,
+   "name": "Catherine O'Hara",
+   "photo": "https://image.tmdb.org/t/p/w185/gI2RyymLJ9ZrhEyJSD5EqSvFpCX.jpg",
+   "character": "Moira Rose",
+   "episodes": 79
+  },
+  {
+   "id": 1392152,
+   "name": "Dan Levy",
+   "photo": "https://image.tmdb.org/t/p/w185/2O9KqgCLHHMw5xmUpNexfWr2QVA.jpg",
+   "character": "David Rose",
+   "episodes": 79
+  },
+  {
+   "id": 1392140,
+   "name": "Annie Murphy",
+   "photo": "https://image.tmdb.org/t/p/w185/1cQ9Piq6kcTzmzJ9I4oGd7oFEdS.jpg",
+   "character": "Alexis Rose",
+   "episodes": 79
+  },
+  {
+   "id": 4570,
+   "name": "Emily Hampshire",
+   "photo": "https://image.tmdb.org/t/p/w185/cw5F0VKKSVzRvQB4CMRXhs6WxoH.jpg",
+   "character": "Stevie Budd",
+   "episodes": 79
+  },
+  {
+   "id": 1534,
+   "name": "Chris Elliott",
+   "photo": "https://image.tmdb.org/t/p/w185/oZFGgyDCZaanGfco1UdfxM4rHAJ.jpg",
+   "character": "Roland Schitt",
+   "episodes": 79
+  },
+  {
+   "id": 87571,
+   "name": "Jennifer Robertson",
+   "photo": "https://image.tmdb.org/t/p/w185/poEzn35CILuG3dtCRrTocU2TC2d.jpg",
+   "character": "Jocelyn Schitt",
+   "episodes": 79
+  },
+  {
+   "id": 53117,
+   "name": "Dustin Milligan",
+   "photo": "https://image.tmdb.org/t/p/w185/tHIrZBMjQuv2I6ptw3fYCkpJsNM.jpg",
+   "character": "Ted Mullens",
+   "episodes": 79
+  },
+  {
+   "id": 1392149,
+   "name": "Sarah Levy",
+   "photo": "https://image.tmdb.org/t/p/w185/l37vAd4fkzv9EH8r9eChuzrSPxu.jpg",
+   "character": "Twyla Sands",
+   "episodes": 62
+  },
+  {
+   "id": 199586,
+   "name": "Noah Reid",
+   "photo": "https://image.tmdb.org/t/p/w185/fMIRF0rPO7orxBSAAVhjJ5TAmBS.jpg",
+   "character": "Patrick Brewer",
+   "episodes": 45
+  },
+  {
+   "id": 178058,
+   "name": "Karen Robinson",
+   "photo": "https://image.tmdb.org/t/p/w185/sqdscZTt23nEUeWEEpRv7OM9i21.jpg",
+   "character": "Ronnie Lee",
+   "episodes": 45
+  },
+  {
+   "id": 1215427,
+   "name": "John Hemphill",
+   "photo": "https://image.tmdb.org/t/p/w185/ztveaEQz7z37q4KyaUEjgROd7jk.jpg",
+   "character": "Bob Currie",
+   "episodes": 28
+  },
+  {
+   "id": 73610,
+   "name": "Tim Rozon",
+   "photo": "https://image.tmdb.org/t/p/w185/c7r0ahbhIimXSgJkqUTUjVuKM2m.jpg",
+   "character": "Mutt Schitt",
+   "episodes": 23
+  },
+  {
+   "id": 3147246,
+   "name": "Marilyn Bellfontaine",
+   "photo": null,
+   "character": "Gwen Currie",
+   "episodes": 22
+  },
+  {
+   "id": 1807966,
+   "name": "Mary Kelly",
+   "photo": null,
+   "character": "Jazzagal",
+   "episodes": 17
+  },
+  {
+   "id": 2364548,
+   "name": "Jennifer Foster",
+   "photo": null,
+   "character": "Jazzagal",
+   "episodes": 16
+  },
+  {
+   "id": 2098769,
+   "name": "Lili Connor",
+   "photo": null,
+   "character": "Grace",
+   "episodes": 15
+  },
+  {
+   "id": 1223718,
+   "name": "Rizwan Manji",
+   "photo": "https://image.tmdb.org/t/p/w185/mBsLE1sDCWZXR9PWV8xptTpxkQc.jpg",
+   "character": "Ray Butani",
+   "episodes": 13
+  },
+  {
+   "id": 1503537,
+   "name": "Christina Song",
+   "photo": "https://image.tmdb.org/t/p/w185/mcZhWXHVmFsYNMOCkhTwnAvXcaX.jpg",
+   "character": "Jazzagal",
+   "episodes": 9
+  },
+  {
+   "id": 3148548,
+   "name": "Jacquelyn French",
+   "photo": null,
+   "character": "Jazzagal",
+   "episodes": 9
+  },
+  {
+   "id": 1651109,
+   "name": "Divine Brown",
+   "photo": null,
+   "character": "Jazzagal",
+   "episodes": 8
+  },
+  {
+   "id": 1239336,
+   "name": "Shakura S'Aida",
+   "photo": "https://image.tmdb.org/t/p/w185/uF8OQx0ETqFdplWLRn5rxFhsbtU.jpg",
+   "character": "Lena",
+   "episodes": 6
+  },
+  {
+   "id": 1540,
+   "name": "Robin Duke",
+   "photo": "https://image.tmdb.org/t/p/w185/6hMJWr2jlYrZ0ltj7fWgYtw4dfY.jpg",
+   "character": "Wendy Kurtz",
+   "episodes": 6
+  },
+  {
+   "id": 1461450,
+   "name": "Ma-Anne Dionisio",
+   "photo": null,
+   "character": "Jazzagal #2",
+   "episodes": 5
+  }
+ ],
+ "crew": [
+  {
+   "id": 26510,
+   "name": "Eugene Levy",
+   "photo": "https://image.tmdb.org/t/p/w185/epZE1ZohKhEFCdCKYFyvtJEj0I7.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 79
+  },
+  {
+   "id": 1392152,
+   "name": "Dan Levy",
+   "photo": "https://image.tmdb.org/t/p/w185/2O9KqgCLHHMw5xmUpNexfWr2QVA.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 79
+  },
+  {
+   "id": 1711369,
+   "name": "Ben Feigin",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 79
+  },
+  {
+   "id": 1721949,
+   "name": "Andrew Barnsley",
+   "photo": "https://image.tmdb.org/t/p/w185/1p4CsnawjaFsWwZas48u2vzXBH1.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 79
+  },
+  {
+   "id": 3145221,
+   "name": "Fred Levy",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 79
+  },
+  {
+   "id": 94239,
+   "name": "Maribeth Solomon",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 79
+  },
+  {
+   "id": 2942584,
+   "name": "David West Read",
+   "photo": "https://image.tmdb.org/t/p/w185/plZzKfgycLlWtZVMC8SrpC6IcVI.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 53
+  },
+  {
+   "id": 1515474,
+   "name": "Chris Pozzebon",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 76416,
+   "name": "Amanda Walsh",
+   "photo": "https://image.tmdb.org/t/p/w185/7UtpYscsKdVIOf38Mos0iVPXkgZ.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 27
+  },
+  {
+   "id": 1900242,
+   "name": "Matt Kippen",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 27
+  },
+  {
+   "id": 3148236,
+   "name": "Monica Heisey",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 27
+  },
+  {
+   "id": 82641,
+   "name": "Paul Fox",
+   "photo": "https://image.tmdb.org/t/p/w185/4cgyKVb0NYcDVjF1b3PVm56Sgsn.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 2942587,
+   "name": "Winter Tekenos-Levy",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 1212571,
+   "name": "Jerry Ciccoritti",
+   "photo": "https://image.tmdb.org/t/p/w185/6CiqMQ3MmMnnZz9WtFk2SlCRt53.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 1228379,
+   "name": "Michael Grassi",
+   "photo": "https://image.tmdb.org/t/p/w185/e4qdx59zmqz1KzFg2nSwrsYWLzn.jpg",
+   "jobs": [
+    "Story"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 1437358,
+   "name": "Rebecca Kohler",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 13
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:37:07.985Z"
+}

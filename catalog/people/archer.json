@@ -1,0 +1,326 @@
+{
+ "show": "Archer",
+ "slug": "archer",
+ "tmdbId": 10283,
+ "cast": [
+  {
+   "id": 185773,
+   "name": "H. Jon Benjamin",
+   "photo": "https://image.tmdb.org/t/p/w185/yZgBHrH8D9Jjo15fuQKnWV3U2OC.jpg",
+   "character": "Sterling Archer (voice)",
+   "episodes": 140
+  },
+  {
+   "id": 20750,
+   "name": "Judy Greer",
+   "photo": "https://image.tmdb.org/t/p/w185/pTLjIjh83R424RGxIfq4U0yx947.jpg",
+   "character": "Charlotte Vandertunt (voice) / Cheryl 'Cherlene' Tunt (voice) / Charlotte Stratton (voice)",
+   "episodes": 140
+  },
+  {
+   "id": 1242559,
+   "name": "Amber Nash",
+   "photo": "https://image.tmdb.org/t/p/w185/3ga0gnH4EgDuWxNRL2rFuWJzojs.jpg",
+   "character": "Detective Poovey (voice) / Pam Poovey (voice)",
+   "episodes": 140
+  },
+  {
+   "id": 51382,
+   "name": "Chris Parnell",
+   "photo": "https://image.tmdb.org/t/p/w185/9Ga03Y9TVIqTZJ4I9rfL740ibgJ.jpg",
+   "character": "Siegbert Fuchs (voice) / Cyril Figgis (voice)",
+   "episodes": 140
+  },
+  {
+   "id": 38674,
+   "name": "Aisha Tyler",
+   "photo": "https://image.tmdb.org/t/p/w185/gVvqznx4udJMgO86IbufADinfE9.jpg",
+   "character": "Lana Kane (voice) / Princess Lanaluakalani (voice)",
+   "episodes": 140
+  },
+  {
+   "id": 1225507,
+   "name": "Lucky Yates",
+   "photo": "https://image.tmdb.org/t/p/w185/xLy7nHYEx4RXDELr8qmpxKAQpt.jpg",
+   "character": "Dr. Krieger (voice) / Aaron Leibowitz (voice) / Crackers (voice)",
+   "episodes": 129
+  },
+  {
+   "id": 41232,
+   "name": "Jessica Walter",
+   "photo": "https://image.tmdb.org/t/p/w185/dR7b2FmJGgjfSpwfz3AZzm6X13O.jpg",
+   "character": "Malory Archer (voice)",
+   "episodes": 123
+  },
+  {
+   "id": 1215644,
+   "name": "Adam Reed",
+   "photo": "https://image.tmdb.org/t/p/w185/iqLTER1vnkDqKDQ465ZJs9QBvBB.jpg",
+   "character": "Ray Gillette (voice)",
+   "episodes": 116
+  },
+  {
+   "id": 74339,
+   "name": "Dave Willis",
+   "photo": "https://image.tmdb.org/t/p/w185/cAxDYGbinrHm1X6eJQi162pZ3Me.jpg",
+   "character": "Barry Dillon / Other Barry (voice) / Barry 6 (voice) / Barry Dillon (voice)",
+   "episodes": 28
+  },
+  {
+   "id": 14102,
+   "name": "George Coe",
+   "photo": "https://image.tmdb.org/t/p/w185/3VkamwMlEhr9rFe3o6zcoGkHqJw.jpg",
+   "character": "Woodhouse (voice)",
+   "episodes": 21
+  },
+  {
+   "id": 71535,
+   "name": "Tom Kane",
+   "photo": "https://image.tmdb.org/t/p/w185/sq49aVP56G50Nr5kCL7Ove6Z9jE.jpg",
+   "character": "Hans Hessler (voice) / Woodhouse (voice) / (voice)",
+   "episodes": 16
+  },
+  {
+   "id": 4671973,
+   "name": "Zebbie Gillispie",
+   "photo": "https://image.tmdb.org/t/p/w185/5gX5l35h6l3ihrpTgcyOHcfdlqN.jpg",
+   "character": "IIA Assassin (voice) / (voice)",
+   "episodes": 15
+  },
+  {
+   "id": 2224,
+   "name": "Christian Slater",
+   "photo": "https://image.tmdb.org/t/p/w185/6ww3uweEEXMlvtNjTlgBHxLErPF.jpg",
+   "character": "Slater (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 2959,
+   "name": "Kayvan Novak",
+   "photo": "https://image.tmdb.org/t/p/w185/2cJuw1nGFHyJTMj8YIh91cvErSm.jpg",
+   "character": "Fabian Kingsworth (voice) / Rex (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 145345,
+   "name": "Maggie Wheeler",
+   "photo": "https://image.tmdb.org/t/p/w185/thTeI4FAx02X1h6a2EPWG8me9Ua.jpg",
+   "character": "Trinette (voice) / Receptionist (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 4175,
+   "name": "Jeffrey Tambor",
+   "photo": "https://image.tmdb.org/t/p/w185/e4IkxsEo5O4oUWrIpXlEhWa6lqB.jpg",
+   "character": "Torvald Utne (voice) / Len Trexler (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 537,
+   "name": "Stephen Tobolowsky",
+   "photo": "https://image.tmdb.org/t/p/w185/uL8yfcm0dCFYFQt052kczVQVvac.jpg",
+   "character": "Robert (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 115504,
+   "name": "Peter Newman",
+   "photo": "https://image.tmdb.org/t/p/w185/thw1uYfCWqSN3iLsbWnBl2ZoFen.jpg",
+   "character": "(voice) / Maj. Nikolai Jackov (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 5372,
+   "name": "Ron Leibman",
+   "photo": "https://image.tmdb.org/t/p/w185/9jlCMwql67sAKSzDiADlRYveCRN.jpg",
+   "character": "Ron Cadillac (voice) / Ron Cadillac (archive sound) (uncredited)",
+   "episodes": 10
+  },
+  {
+   "id": 1480064,
+   "name": "Leigh Jackson",
+   "photo": null,
+   "character": "(voice) / Intercom (voice) / Secretary (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 47209,
+   "name": "Natalie Dew",
+   "photo": "https://image.tmdb.org/t/p/w185/7fb9VTH2G9rnSySF8QUjcmjXAat.jpg",
+   "character": "Zara Khan (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 1215648,
+   "name": "Neal Holman",
+   "photo": null,
+   "character": "(voice) / Brett Buckley (voice) / Kidnapper (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 67978,
+   "name": "Ona Grauer",
+   "photo": "https://image.tmdb.org/t/p/w185/vfcupzwyzs1CNrjuG0wW4B3eQcD.jpg",
+   "character": "'Veronica Deane' (voice) / Katya Kazanova (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 1225502,
+   "name": "Casey Willis",
+   "photo": "https://image.tmdb.org/t/p/w185/pe9205jnWz1EQTOw1o8kdnfS0pM.jpg",
+   "character": "(voice)",
+   "episodes": 8
+  }
+ ],
+ "crew": [
+  {
+   "id": 1215644,
+   "name": "Adam Reed",
+   "photo": "https://image.tmdb.org/t/p/w185/iqLTER1vnkDqKDQ465ZJs9QBvBB.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 140
+  },
+  {
+   "id": 1215646,
+   "name": "Matt Thompson",
+   "photo": "https://image.tmdb.org/t/p/w185/dXZux3KzcEg97YUREkCynZEYbZG.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 59
+  },
+  {
+   "id": 1486271,
+   "name": "J.G. Thirlwell",
+   "photo": "https://image.tmdb.org/t/p/w185/oF44PilAtIHT09Mwqb2W6nugnIP.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 58
+  },
+  {
+   "id": 2780752,
+   "name": "Mark Ganek",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1361864,
+   "name": "Matt Roller",
+   "photo": "https://image.tmdb.org/t/p/w185/8UxANstTiikHgbl5rncbjsd19CV.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1225502,
+   "name": "Casey Willis",
+   "photo": "https://image.tmdb.org/t/p/w185/pe9205jnWz1EQTOw1o8kdnfS0pM.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 3220109,
+   "name": "Pierre Cerrato",
+   "photo": "https://image.tmdb.org/t/p/w185/dXRdHD9k9S3ZuFJvmEML3byMVAk.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1459680,
+   "name": "Justin Wagner",
+   "photo": "https://image.tmdb.org/t/p/w185/xvV8lI0Fgb5MBvUdtT1752jcPMn.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 2173043,
+   "name": "Asha Michelle Wilson",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 2011040,
+   "name": "Megan Johnson",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1512868,
+   "name": "Shane Kosakowski",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 2264354,
+   "name": "Mike Arnold",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 3724052,
+   "name": "Kim Feigenbaum",
+   "photo": "https://image.tmdb.org/t/p/w185/o0KyN9RfOaReXT9TaLl8pvQroaz.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 2816794,
+   "name": "Chi Duong Sato",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 3739136,
+   "name": "Stephen Slesinski",
+   "photo": "https://image.tmdb.org/t/p/w185/adeblnBxaY1yT25dHRnlgRPTDcx.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 3702373,
+   "name": "Omaka Schultz",
+   "photo": "https://image.tmdb.org/t/p/w185/ve1YHWLgk8YadnhQ36fcmUcvyM1.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:29:20.179Z"
+}

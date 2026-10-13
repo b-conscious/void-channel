@@ -1,0 +1,348 @@
+{
+ "show": "Modern Family",
+ "slug": "modern-family",
+ "tmdbId": 1421,
+ "cast": [
+  {
+   "id": 18977,
+   "name": "Ed O'Neill",
+   "photo": "https://image.tmdb.org/t/p/w185/4RrxSno3UEtGWuMm4yJoaFzckpL.jpg",
+   "character": "Jay Pritchett",
+   "episodes": 250
+  },
+  {
+   "id": 63522,
+   "name": "Sofía Vergara",
+   "photo": "https://image.tmdb.org/t/p/w185/l79eVtn6bSOaiq7R0UGu60foMrK.jpg",
+   "character": "Gloria Delgado-Pritchett",
+   "episodes": 250
+  },
+  {
+   "id": 31171,
+   "name": "Julie Bowen",
+   "photo": "https://image.tmdb.org/t/p/w185/5ewqnbPAY0EzZObGHIKU4VsCanD.jpg",
+   "character": "Claire Dunphy",
+   "episodes": 250
+  },
+  {
+   "id": 15232,
+   "name": "Ty Burrell",
+   "photo": "https://image.tmdb.org/t/p/w185/4dwlnG1dcEPAf2cjNsYbYJn5E8Y.jpg",
+   "character": "Phil Dunphy",
+   "episodes": 250
+  },
+  {
+   "id": 204815,
+   "name": "Jesse Tyler Ferguson",
+   "photo": "https://image.tmdb.org/t/p/w185/fqUrdi93CVsbid2hptbS29gteQT.jpg",
+   "character": "Mitchell Pritchett",
+   "episodes": 250
+  },
+  {
+   "id": 156962,
+   "name": "Eric Stonestreet",
+   "photo": "https://image.tmdb.org/t/p/w185/lz0m88IjLZ8OcEHU2jhPvubcr7k.jpg",
+   "character": "Cameron Tucker",
+   "episodes": 250
+  },
+  {
+   "id": 91351,
+   "name": "Sarah Hyland",
+   "photo": "https://image.tmdb.org/t/p/w185/jJqnyZcxPwYOXUeB9jZWqBcDgmP.jpg",
+   "character": "Haley Dunphy",
+   "episodes": 250
+  },
+  {
+   "id": 42160,
+   "name": "Ariel Winter",
+   "photo": "https://image.tmdb.org/t/p/w185/1h0XaXnieP5CdTAeRGuALBJmD4R.jpg",
+   "character": "Alex Dunphy",
+   "episodes": 250
+  },
+  {
+   "id": 147710,
+   "name": "Nolan Gould",
+   "photo": "https://image.tmdb.org/t/p/w185/rnGYwEUairpCPmGIJcIwD86K9rI.jpg",
+   "character": "Luke Dunphy",
+   "episodes": 250
+  },
+  {
+   "id": 206737,
+   "name": "Rico Rodriguez",
+   "photo": "https://image.tmdb.org/t/p/w185/qjZhQwwrVFMYDZOget0xYrIMidC.jpg",
+   "character": "Manny Delgado",
+   "episodes": 250
+  },
+  {
+   "id": 1224228,
+   "name": "Aubrey Anderson-Emmons",
+   "photo": "https://image.tmdb.org/t/p/w185/dK2wK7L8Q1Up4ZMLau8IojRyp3o.jpg",
+   "character": "Lily Tucker-Pritchett",
+   "episodes": 202
+  },
+  {
+   "id": 1676910,
+   "name": "Jeremy Maguire",
+   "photo": "https://image.tmdb.org/t/p/w185/9ivrqXhtohfeEJXC6g415s3eeRm.jpg",
+   "character": "Joe Pritchett",
+   "episodes": 106
+  },
+  {
+   "id": 967692,
+   "name": "Reid Ewing",
+   "photo": "https://image.tmdb.org/t/p/w185/vvehuMULozr81NCCDEql1pWIrvS.jpg",
+   "character": "Dylan Marshall",
+   "episodes": 63
+  },
+  {
+   "id": 212604,
+   "name": "Adam Devine",
+   "photo": "https://image.tmdb.org/t/p/w185/8zU8zMs7cpjVzkBXis6I3wO3YeQ.jpg",
+   "character": "Andy Bailey",
+   "episodes": 23
+  },
+  {
+   "id": 20753,
+   "name": "Fred Willard",
+   "photo": "https://image.tmdb.org/t/p/w185/AaHxpkee9nQfBpQeDyJLoPNtYR6.jpg",
+   "character": "Frank Dunphy",
+   "episodes": 15
+  },
+  {
+   "id": 1388181,
+   "name": "Dana Powell",
+   "photo": "https://image.tmdb.org/t/p/w185/iEJB5IFSe84kRiAoKaM0NH0uVw0.jpg",
+   "character": "Pam Tucker / Pameron Tucker",
+   "episodes": 15
+  },
+  {
+   "id": 1459651,
+   "name": "Marsha Kramer",
+   "photo": "https://image.tmdb.org/t/p/w185/y3sOUxQIsoXbPudfZpQFtQgh6BC.jpg",
+   "character": "Margaret",
+   "episodes": 14
+  },
+  {
+   "id": 1055520,
+   "name": "Christian Barillas",
+   "photo": "https://image.tmdb.org/t/p/w185/v4yMxTOyqvALcnMtK9JkusAC9cH.jpg",
+   "character": "Ronaldo",
+   "episodes": 14
+  },
+  {
+   "id": 1052684,
+   "name": "Joe Mande",
+   "photo": "https://image.tmdb.org/t/p/w185/onIBAhW2omltRUOOK8LcYddWXwt.jpg",
+   "character": "Ben",
+   "episodes": 13
+  },
+  {
+   "id": 104785,
+   "name": "Kevin Daniels",
+   "photo": "https://image.tmdb.org/t/p/w185/poBtBxOZ4VxNox0I3Fd5nysviNg.jpg",
+   "character": "Longinus St. Germaine",
+   "episodes": 12
+  },
+  {
+   "id": 78729,
+   "name": "Nathan Lane",
+   "photo": "https://image.tmdb.org/t/p/w185/jLPp3RoDhwOpLimKj3NhhBofPfT.jpg",
+   "character": "Pepper Saltzman",
+   "episodes": 10
+  },
+  {
+   "id": 1547059,
+   "name": "Spenser McNeil",
+   "photo": "https://image.tmdb.org/t/p/w185/23anTG1diU6OtQoGmKXSnTyzn1v.jpg",
+   "character": "Reuben Rand",
+   "episodes": 10
+  },
+  {
+   "id": 1348611,
+   "name": "Kasey Mahaffy",
+   "photo": "https://image.tmdb.org/t/p/w185/cRfpCD2UTrl4l9xt46lz2F0j6n1.jpg",
+   "character": "Dom",
+   "episodes": 10
+  },
+  {
+   "id": 62879,
+   "name": "Chris Geere",
+   "photo": "https://image.tmdb.org/t/p/w185/y5Ti23z47KY0XG7lzSLxffB0QKn.jpg",
+   "character": "Arvin Fennerman",
+   "episodes": 9
+  }
+ ],
+ "crew": [
+  {
+   "id": 1215785,
+   "name": "Steven Levitan",
+   "photo": "https://image.tmdb.org/t/p/w185/xPT11b4ABpd9idTMBpoaaCH801J.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 250
+  },
+  {
+   "id": 1205496,
+   "name": "Christopher Lloyd",
+   "photo": "https://image.tmdb.org/t/p/w185/jqdMLOeJvxp9cvJ3jZDtsoCK9fq.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Story",
+    "Writer"
+   ],
+   "episodes": 250
+  },
+  {
+   "id": 1392978,
+   "name": "Iwona Sapienza",
+   "photo": "https://image.tmdb.org/t/p/w185/yL6TzbgdgyP9S8lQcqK6HIWWB2n.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 252
+  },
+  {
+   "id": 1224206,
+   "name": "Danny Zuker",
+   "photo": "https://image.tmdb.org/t/p/w185/15DVC0szoo5yweZISpuK459N33g.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 250
+  },
+  {
+   "id": 1224210,
+   "name": "Paul Corrigan",
+   "photo": "https://image.tmdb.org/t/p/w185/1CrWnw3EX1ShQlBRxbFKqSdXvZy.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 250
+  },
+  {
+   "id": 590342,
+   "name": "Jeffrey Morton",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 250
+  },
+  {
+   "id": 1224209,
+   "name": "Brad Walsh",
+   "photo": "https://image.tmdb.org/t/p/w185/hnlf6I4UfTRY8mviyhE1fAoGPcQ.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 250
+  },
+  {
+   "id": 1521263,
+   "name": "Gabriel Mann",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 250
+  },
+  {
+   "id": 1224216,
+   "name": "Abraham Higginbotham",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 226
+  },
+  {
+   "id": 1215780,
+   "name": "Jeffrey Richman",
+   "photo": "https://image.tmdb.org/t/p/w185/gUJpSfoxvXlF8VRpUlTardxBA0J.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 226
+  },
+  {
+   "id": 1224219,
+   "name": "Elaine Ko",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 178
+  },
+  {
+   "id": 1220648,
+   "name": "Stephen Lloyd",
+   "photo": "https://image.tmdb.org/t/p/w185/vUjJV0FaoV5Ef1no8OXHfwpQ11A.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 130
+  },
+  {
+   "id": 1230863,
+   "name": "Vali Chandrasekaran",
+   "photo": "https://image.tmdb.org/t/p/w185/fw9q5InvStOg5Fubc9etl1QPOuP.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 130
+  },
+  {
+   "id": 160428,
+   "name": "Dan O'Shannon",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 120
+  },
+  {
+   "id": 58062,
+   "name": "Bill Wrubel",
+   "photo": "https://image.tmdb.org/t/p/w185/hVEtEE28GtisRwVAWBmVEncKm1D.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 120
+  },
+  {
+   "id": 1237526,
+   "name": "Jon Pollack",
+   "photo": "https://image.tmdb.org/t/p/w185/rjEeMDcJws7ABdzKI5QG60EQmO2.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 106
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:28:45.761Z"
+}

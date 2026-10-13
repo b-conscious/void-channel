@@ -1,0 +1,332 @@
+{
+ "show": "Snowfall",
+ "slug": "snowfall",
+ "tmdbId": 71694,
+ "cast": [
+  {
+   "id": 1837297,
+   "name": "Damson Idris",
+   "photo": "https://image.tmdb.org/t/p/w185/y0dcRs4GF6Xx23OxDr1ytc8thlL.jpg",
+   "character": "Franklin Saint",
+   "episodes": 60
+  },
+  {
+   "id": 1846046,
+   "name": "Carter Hudson",
+   "photo": "https://image.tmdb.org/t/p/w185/iW6Pk9aFaC5o86IxpViI1OTMZed.jpg",
+   "character": "Teddy McDonald",
+   "episodes": 60
+  },
+  {
+   "id": 78994,
+   "name": "Sergio Peris-Mencheta",
+   "photo": "https://image.tmdb.org/t/p/w185/uPE1n0JpbicJ5gm2fNarbsx6Nc4.jpg",
+   "character": "Gustavo 'El Oso' Zapata",
+   "episodes": 60
+  },
+  {
+   "id": 61084,
+   "name": "Michael Hyatt",
+   "photo": "https://image.tmdb.org/t/p/w185/zXJ1mV2NlZuWYgTj8eTuUFhCgp5.jpg",
+   "character": "Cissy Saint",
+   "episodes": 60
+  },
+  {
+   "id": 131772,
+   "name": "Amin Joseph",
+   "photo": "https://image.tmdb.org/t/p/w185/kTr5Lf7NUullsj0g1klTOScwzRp.jpg",
+   "character": "Jerome Saint",
+   "episodes": 60
+  },
+  {
+   "id": 1945056,
+   "name": "Angela Lewis",
+   "photo": "https://image.tmdb.org/t/p/w185/5edEvw6KxxQcVJ4hT1zogwiyZDU.jpg",
+   "character": "Louanne 'Louie' Jones-Saint",
+   "episodes": 60
+  },
+  {
+   "id": 1855369,
+   "name": "Isaiah John",
+   "photo": "https://image.tmdb.org/t/p/w185/mKCuf0BZFsBUYnSTPTHaUtxmKa0.jpg",
+   "character": "Leon Simmons",
+   "episodes": 60
+  },
+  {
+   "id": 16607,
+   "name": "Alon Aboutboul",
+   "photo": "https://image.tmdb.org/t/p/w185/ja0vix3b43U5whDTYZascbeXlQo.jpg",
+   "character": "Avi Drexler",
+   "episodes": 27
+  },
+  {
+   "id": 1389367,
+   "name": "Gail Bean",
+   "photo": "https://image.tmdb.org/t/p/w185/8Ez5A8hoDwTLiWXZ7xSNlJAvCu7.jpg",
+   "character": "Wanda Bell",
+   "episodes": 25
+  },
+  {
+   "id": 211474,
+   "name": "Emily Rios",
+   "photo": "https://image.tmdb.org/t/p/w185/h8d9eg0wpyXcvJlunpZklh2asVY.jpg",
+   "character": "Lucia Villanueva",
+   "episodes": 20
+  },
+  {
+   "id": 1945055,
+   "name": "Filipe Valle Costa",
+   "photo": "https://image.tmdb.org/t/p/w185/vKWaJimJURzhJX5MrxZ3GcHvtzK.jpg",
+   "character": "Pedro Nava",
+   "episodes": 20
+  },
+  {
+   "id": 1344365,
+   "name": "Devyn A. Tyler",
+   "photo": "https://image.tmdb.org/t/p/w185/pxaSlugqt0Xea801qneVSBAK5g7.jpg",
+   "character": "Veronique Turner",
+   "episodes": 20
+  },
+  {
+   "id": 6950,
+   "name": "Kevin Carroll",
+   "photo": "https://image.tmdb.org/t/p/w185/8G4rrDJfwurNWv4BJY7PlPXqIiK.jpg",
+   "character": "Alton Williams",
+   "episodes": 19
+  },
+  {
+   "id": 220914,
+   "name": "Peta Sergeant",
+   "photo": "https://image.tmdb.org/t/p/w185/owkSN29t7P6hpazZKsUMt7FybrP.jpg",
+   "character": "Julia",
+   "episodes": 18
+  },
+  {
+   "id": 1181339,
+   "name": "Melvin Gregg",
+   "photo": "https://image.tmdb.org/t/p/w185/tIeYOezPPBpUmVuzYO7idcWPuUz.jpg",
+   "character": "Drew ‘Manboy’ Miller",
+   "episodes": 16
+  },
+  {
+   "id": 1809025,
+   "name": "Alejandro Edda",
+   "photo": "https://image.tmdb.org/t/p/w185/zqCvFCY9kWd3AkVv5Brwi7pZJ9W.jpg",
+   "character": "Ruben",
+   "episodes": 15
+  },
+  {
+   "id": 60062,
+   "name": "Scott Subiono",
+   "photo": "https://image.tmdb.org/t/p/w185/r0xy019yATZzwPqm8tcKuFNInnh.jpg",
+   "character": "Tony Marino",
+   "episodes": 15
+  },
+  {
+   "id": 1502321,
+   "name": "Malcolm M. Mays",
+   "photo": "https://image.tmdb.org/t/p/w185/oQXq8kql1NxdKB4zrDaQPJ8K3Q4.jpg",
+   "character": "Kevin Hamilton",
+   "episodes": 14
+  },
+  {
+   "id": 1291961,
+   "name": "Marcus Henderson",
+   "photo": "https://image.tmdb.org/t/p/w185/vTevIy7GKjhmpoAhoayifnwqgn2.jpg",
+   "character": "Andrew Wright",
+   "episodes": 14
+  },
+  {
+   "id": 58371,
+   "name": "Brandon Jay McLaren",
+   "photo": "https://image.tmdb.org/t/p/w185/jZKb3ziBI3r8I6Yd8m1zUWl2G4O.jpg",
+   "character": "Buckley",
+   "episodes": 14
+  },
+  {
+   "id": 1853370,
+   "name": "Evan Allen-Gessesse",
+   "photo": "https://image.tmdb.org/t/p/w185/x12B7aZwUH9eMyzjau25H3pDte8.jpg",
+   "character": "Renny",
+   "episodes": 14
+  },
+  {
+   "id": 1262228,
+   "name": "Tiffany Lonsdale",
+   "photo": "https://image.tmdb.org/t/p/w185/af1hRdTtlWqTbg8axVS79ki4niD.jpg",
+   "character": "Parissa",
+   "episodes": 13
+  },
+  {
+   "id": 3631436,
+   "name": "Kamron Alexander",
+   "photo": null,
+   "character": "Einstein",
+   "episodes": 12
+  },
+  {
+   "id": 11827,
+   "name": "DeRay Davis",
+   "photo": "https://image.tmdb.org/t/p/w185/c1kNORRWnzOoBRTM0XLIMe2raGo.jpg",
+   "character": "Peaches",
+   "episodes": 12
+  }
+ ],
+ "crew": [
+  {
+   "id": 83048,
+   "name": "Eric Amadio",
+   "photo": "https://image.tmdb.org/t/p/w185/lkyxcgNh5OTNSJvQeNT9byGPqYL.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer"
+   ],
+   "episodes": 60
+  },
+  {
+   "id": 1192876,
+   "name": "Dave Andron",
+   "photo": "https://image.tmdb.org/t/p/w185/AaHw5bY8oov5RqbMjsaEAn73fVj.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 60
+  },
+  {
+   "id": 6482,
+   "name": "John Singleton",
+   "photo": "https://image.tmdb.org/t/p/w185/at8EhmErucwWIUFaXfhnKIuUUgF.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 60
+  },
+  {
+   "id": 5795298,
+   "name": "Julie DeJoie",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 60
+  },
+  {
+   "id": 27679,
+   "name": "Michael London",
+   "photo": "https://image.tmdb.org/t/p/w185/qxfzz4zT1bEaG2bBYixR0zuFgqg.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 60
+  },
+  {
+   "id": 1131554,
+   "name": "Evan Silverberg",
+   "photo": "https://image.tmdb.org/t/p/w185/6XAGysO5hsUyWBQgHxwV06zrgdf.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 60
+  },
+  {
+   "id": 15106,
+   "name": "Thomas Schlamme",
+   "photo": "https://image.tmdb.org/t/p/w185/9ZFuqO0NJW6wqIlmLTexSQBrPvT.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 60
+  },
+  {
+   "id": 224386,
+   "name": "Trevor Engelson",
+   "photo": "https://image.tmdb.org/t/p/w185/ajEsOjgnsVmRChASQox4OW0QcBm.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 60
+  },
+  {
+   "id": 1303014,
+   "name": "Leonard Chang",
+   "photo": "https://image.tmdb.org/t/p/w185/cadsQTdJ78bdj3jbMWicfzlMf5A.jpg",
+   "jobs": [
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 2754528,
+   "name": "Ihuoma Ofordire",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 2096534,
+   "name": "Aziza Barnes",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1551062,
+   "name": "Alonso Alvarez",
+   "photo": "https://image.tmdb.org/t/p/w185/tzIXmmKY3PXmoTGqYfjglCl7iyl.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 56011,
+   "name": "Walter Mosley",
+   "photo": "https://image.tmdb.org/t/p/w185/ue4xP4qrsgHiszLchqRs3Fe42Ox.jpg",
+   "jobs": [
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 24294,
+   "name": "Ben Younger",
+   "photo": "https://image.tmdb.org/t/p/w185/Ae8okUhFcAywPYtHjbuyO9BDn44.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 2086621,
+   "name": "Sal Calleros",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1572172,
+   "name": "Logan Kibens",
+   "photo": "https://image.tmdb.org/t/p/w185/2pUTPYPbJ5Z5uO2M3NYqpnsEIxX.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:34:26.327Z"
+}

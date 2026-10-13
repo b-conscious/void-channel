@@ -1,0 +1,289 @@
+{
+ "show": "Peacemaker",
+ "slug": "peacemaker",
+ "tmdbId": 110492,
+ "cast": [
+  {
+   "id": 56446,
+   "name": "John Cena",
+   "photo": "https://image.tmdb.org/t/p/w185/rgB2eIOt7WyQjdgJCOuESdDlrjg.jpg",
+   "character": "Christopher 'Chris' Smith / Peacemaker",
+   "episodes": 16
+  },
+  {
+   "id": 1075037,
+   "name": "Danielle Brooks",
+   "photo": "https://image.tmdb.org/t/p/w185/hwrMFbcALcqrV7S2pRP9C5BXrU0.jpg",
+   "character": "Leota Adebayo",
+   "episodes": 16
+  },
+  {
+   "id": 234934,
+   "name": "Freddie Stroma",
+   "photo": "https://image.tmdb.org/t/p/w185/wZ8nqxyGvybdInXLBfQIjg2es5Z.jpg",
+   "character": "Adrian Chase / Vigilante",
+   "episodes": 16
+  },
+  {
+   "id": 87165,
+   "name": "Jennifer Holland",
+   "photo": "https://image.tmdb.org/t/p/w185/ynuKq1Pd6aVGwhb07uJ0PiYV4F6.jpg",
+   "character": "Emilia Harcourt",
+   "episodes": 16
+  },
+  {
+   "id": 559457,
+   "name": "Steve Agee",
+   "photo": "https://image.tmdb.org/t/p/w185/sbMpatWydjTl2cTcDXFMTgCkEBO.jpg",
+   "character": "John Economos",
+   "episodes": 16
+  },
+  {
+   "id": 418,
+   "name": "Robert Patrick",
+   "photo": "https://image.tmdb.org/t/p/w185/qRv2Es9rZoloullTbzss3I5j1Mp.jpg",
+   "character": "August 'Auggie' Smith / Blue Dragon / August 'Auggie' Smith / White Dragon",
+   "episodes": 16
+  },
+  {
+   "id": 23680,
+   "name": "Dee Bradley Baker",
+   "photo": "https://image.tmdb.org/t/p/w185/9oFnToDZWp0I484s7Ua1EzNQQ2m.jpg",
+   "character": "Eagly (voice)",
+   "episodes": 16
+  },
+  {
+   "id": 2697179,
+   "name": "Nhut Le",
+   "photo": "https://image.tmdb.org/t/p/w185/A9DmI30NVJZHZ67f1cgEp4PJeeV.jpg",
+   "character": "Rip Jagger / Judomaster",
+   "episodes": 9
+  },
+  {
+   "id": 58058,
+   "name": "Lochlyn Munro",
+   "photo": "https://image.tmdb.org/t/p/w185/bOJ03k0oe2R6snRgzV8M4Qtoo4O.jpg",
+   "character": "Larry Fitzgibbon / Detective Fitzgibbon",
+   "episodes": 9
+  },
+  {
+   "id": 105238,
+   "name": "Chukwudi Iwuji",
+   "photo": "https://image.tmdb.org/t/p/w185/5JILtFNmAmA8T4gRQrO5sn8krDv.jpg",
+   "character": "Clemson Murn",
+   "episodes": 8
+  },
+  {
+   "id": 81685,
+   "name": "Frank Grillo",
+   "photo": "https://image.tmdb.org/t/p/w185/kuEco4vo1xrsM8DyrNSZUEi593P.jpg",
+   "character": "Rick Flag Sr.",
+   "episodes": 8
+  },
+  {
+   "id": 1533764,
+   "name": "Annie Chang",
+   "photo": "https://image.tmdb.org/t/p/w185/aRCg4OFqRcSDuzsgLCHVrM7KRAd.jpg",
+   "character": "Sophie Song",
+   "episodes": 8
+  },
+  {
+   "id": 1718567,
+   "name": "Elizabeth Faith Ludlow",
+   "photo": "https://image.tmdb.org/t/p/w185/1uPWvmq1SsFqjJPhgZsr8GNXbcI.jpg",
+   "character": "Keeya",
+   "episodes": 8
+  },
+  {
+   "id": 1254331,
+   "name": "Sol Rodriguez",
+   "photo": "https://image.tmdb.org/t/p/w185/trBvJNWzg1uFkVXpzilfl6xLrzC.jpg",
+   "character": "Sasha Bordeaux",
+   "episodes": 8
+  },
+  {
+   "id": 51857,
+   "name": "Tim Meadows",
+   "photo": "https://image.tmdb.org/t/p/w185/u9MCgfy0n5jJ2GTsGALdist19C1.jpg",
+   "character": "Langston Fleury",
+   "episodes": 7
+  },
+  {
+   "id": 100878,
+   "name": "Rochelle Greenwood",
+   "photo": "https://image.tmdb.org/t/p/w185/1AsN5UFwBRibQJqKNhczDQlV7M9.jpg",
+   "character": "Peggy",
+   "episodes": 6
+  },
+  {
+   "id": 52705,
+   "name": "Zak Santiago",
+   "photo": "https://image.tmdb.org/t/p/w185/hzFNa8a6rAD9FtWqJoXj20F2xdq.jpg",
+   "character": "Prison Guard",
+   "episodes": 6
+  },
+  {
+   "id": 2439221,
+   "name": "Brandon Stanley",
+   "photo": "https://image.tmdb.org/t/p/w185/26wYqLBknyVfXQoLw1RSbhPeDV.jpg",
+   "character": "Agent Kline",
+   "episodes": 6
+  },
+  {
+   "id": 205560,
+   "name": "Kevin O'Grady",
+   "photo": "https://image.tmdb.org/t/p/w185/yTH5u9Sdh06i9BE8W4zU54DQqwU.jpg",
+   "character": "Johnson",
+   "episodes": 5
+  },
+  {
+   "id": 1815071,
+   "name": "Neil Webb",
+   "photo": "https://image.tmdb.org/t/p/w185/1kh8qAPiOix87Cg4vGBH9zZbVPV.jpg",
+   "character": "Cool Steve",
+   "episodes": 5
+  },
+  {
+   "id": 2300492,
+   "name": "Bzhaun Rhoden",
+   "photo": "https://image.tmdb.org/t/p/w185/eMLSCvqhfhSFk1lZsqcpIGru1pM.jpg",
+   "character": "Young Man",
+   "episodes": 5
+  },
+  {
+   "id": 1937912,
+   "name": "Reinaldo Faberlle",
+   "photo": "https://image.tmdb.org/t/p/w185/vVsxgN6hsbqeXMk9Gn0VvNbTSy2.jpg",
+   "character": "Agent Vega",
+   "episodes": 5
+  },
+  {
+   "id": 62562,
+   "name": "David Denman",
+   "photo": "https://image.tmdb.org/t/p/w185/4I06ZD8SQ6pU1QYShiUXb711fJW.jpg",
+   "character": "Keith Smith / Captain Triumph",
+   "episodes": 5
+  },
+  {
+   "id": 2453911,
+   "name": "Quinn Bennett",
+   "photo": "https://image.tmdb.org/t/p/w185/xbsq2FVxl8Nk6HbxM8l4LX57h9d.jpg",
+   "character": "Young Chris",
+   "episodes": 4
+  }
+ ],
+ "crew": [
+  {
+   "id": 15218,
+   "name": "James Gunn",
+   "photo": "https://image.tmdb.org/t/p/w185/pnKqZub3IlKYbyH9RRTMDOoqEn0.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 56446,
+   "name": "John Cena",
+   "photo": "https://image.tmdb.org/t/p/w185/rgB2eIOt7WyQjdgJCOuESdDlrjg.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 52259,
+   "name": "Peter Safran",
+   "photo": "https://image.tmdb.org/t/p/w185/p9gR2taQgpt9FI8lMzZJXfOGrPy.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 6377,
+   "name": "Clint Mansell",
+   "photo": "https://image.tmdb.org/t/p/w185/vAEGuBFwW7ZYczJcm4GAf09Clmo.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 51588,
+   "name": "Kevin Kiner",
+   "photo": "https://image.tmdb.org/t/p/w185/FtGnTCUaMTNDESIuwhEmzCNIpp.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 111119,
+   "name": "Matthew Miller",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1449583,
+   "name": "Alethea Jones",
+   "photo": "https://image.tmdb.org/t/p/w185/6QGlUkgxnpgG4l4puiWikneKKNJ.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 54733,
+   "name": "Greg Mottola",
+   "photo": "https://image.tmdb.org/t/p/w185/lVojULjLlvufE3fHZJ9zWMVAPk9.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 71548,
+   "name": "Peter Sollett",
+   "photo": "https://image.tmdb.org/t/p/w185/kl4ZBGmT6bEuD009nvZZbKZEIDv.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 37948,
+   "name": "Brad Anderson",
+   "photo": "https://image.tmdb.org/t/p/w185/4XCOsnXocIsOTLdVjktj3gqTu2b.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 54710,
+   "name": "Jody Hill",
+   "photo": "https://image.tmdb.org/t/p/w185/ch0paHlLOeUz1jfhzyOtohyjEpg.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 176794,
+   "name": "Rosemary Rodriguez",
+   "photo": "https://image.tmdb.org/t/p/w185/7axbNQacZRGusat0ya7plPGizZL.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:10.220Z"
+}

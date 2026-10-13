@@ -1,0 +1,323 @@
+{
+ "show": "Monster",
+ "slug": "monster",
+ "tmdbId": 30981,
+ "cast": [
+  {
+   "id": 225655,
+   "name": "Hidenobu Kiuchi",
+   "photo": "https://image.tmdb.org/t/p/w185/d7MW4HQjMsZnX3cy2dF8QJETCbf.jpg",
+   "character": "Tenma (voice) / Subordinate A (voice) / Guest D (voice)",
+   "episodes": 74
+  },
+  {
+   "id": 1249699,
+   "name": "Eiji Hanawa",
+   "photo": "https://image.tmdb.org/t/p/w185/kh48Z31EU5fftTnE8wDLKhN916r.jpg",
+   "character": "Host (voice) / Man Making a Toast (voice) / Driver (voice)",
+   "episodes": 50
+  },
+  {
+   "id": 89903,
+   "name": "Mamiko Noto",
+   "photo": "https://image.tmdb.org/t/p/w185/wCSD7Umgzc66p8VGXrrMZtSLSuS.jpg",
+   "character": "Nurse B (voice) / Nina (voice) / Children (voice)",
+   "episodes": 38
+  },
+  {
+   "id": 1241854,
+   "name": "Yasushi Miyabayashi",
+   "photo": "https://image.tmdb.org/t/p/w185/3hcXgyrX086sqDhqCOhdubzCXG8.jpg",
+   "character": "Bodyguard (voice) / Chairman (voice) / Guard (voice)",
+   "episodes": 38
+  },
+  {
+   "id": 1679,
+   "name": "Nozomu Sasaki",
+   "photo": "https://image.tmdb.org/t/p/w185/7usoPlvc9Xa1rDA2vxmVi0OvLDb.jpg",
+   "character": "Driver (voice) / Wolff's Subordinate B (voice) / Police Officer (voice)",
+   "episodes": 32
+  },
+  {
+   "id": 1244962,
+   "name": "Shiho Kawaragi",
+   "photo": "https://image.tmdb.org/t/p/w185/a4F48Ix2qxRLIiGAOoSlSwnd15F.jpg",
+   "character": "Female College Student (voice) / Female Reporter (voice) / Child (voice)",
+   "episodes": 26
+  },
+  {
+   "id": 20661,
+   "name": "Tsutomu Isobe",
+   "photo": "https://image.tmdb.org/t/p/w185/qP5vQMIbLNvSsSFkEMLZRVt4ZW5.jpg",
+   "character": "Inspector Lunge (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 617,
+   "name": "Ichiro Nagai",
+   "photo": "https://image.tmdb.org/t/p/w185/d5LuqwoIjMIqKvKmEk5y6AZY1Ww.jpg",
+   "character": "Dr. Reichwein (voice)",
+   "episodes": 20
+  },
+  {
+   "id": 82055,
+   "name": "Junko Takeuchi",
+   "photo": "https://image.tmdb.org/t/p/w185/zNjrblq3xS1idpCsmSl5P5eTon7.jpg",
+   "character": "Dieter (voice)",
+   "episodes": 19
+  },
+  {
+   "id": 1680,
+   "name": "Mami Koyama",
+   "photo": "https://image.tmdb.org/t/p/w185/4KjDxYsa7mMh8gbqSKCV2DixDAx.jpg",
+   "character": "Eva (voice)",
+   "episodes": 18
+  },
+  {
+   "id": 67471,
+   "name": "Hideyuki Tanaka",
+   "photo": "https://image.tmdb.org/t/p/w185/1D1PmELZexM6aod77gbh9GwvvGG.jpg",
+   "character": "Grimmer (voice)",
+   "episodes": 15
+  },
+  {
+   "id": 216453,
+   "name": "Takayuki Sugo",
+   "photo": "https://image.tmdb.org/t/p/w185/72SmjQLslGqH61JONZkSnEcvcRv.jpg",
+   "character": "Dr. Gillen (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 1285173,
+   "name": "Nobuyuki Katsube",
+   "photo": "https://image.tmdb.org/t/p/w185/txwUm39OWoz7Ke9QcNOK7zthhOX.jpg",
+   "character": "Roberto (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 90567,
+   "name": "Tomokazu Seki",
+   "photo": "https://image.tmdb.org/t/p/w185/jGQC9KkfNMh2wBgizw81GLX2KN2.jpg",
+   "character": "Karl (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 548002,
+   "name": "Takehiro Murozono",
+   "photo": "https://image.tmdb.org/t/p/w185/nxgAJkimmDyOTlIs6N75Lov3R8B.jpg",
+   "character": "Police Officer (voice) / Reporter C (voice) / Junkers (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 122479,
+   "name": "Nachi Nozawa",
+   "photo": "https://image.tmdb.org/t/p/w185/ymSdVvxobpqzCYxcmNLfzvyIGl2.jpg",
+   "character": "Visitor (voice) / Poppe (voice) / Franz Bonaparta (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 554418,
+   "name": "Michio Hazama",
+   "photo": "https://image.tmdb.org/t/p/w185/vjHAu5T8n04uhJ9CSaEAkXwEABQ.jpg",
+   "character": "Schuwald (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 1241883,
+   "name": "Nobuo Tanaka",
+   "photo": "https://image.tmdb.org/t/p/w185/93N7P2Yo2tqE69LSCdz00kG9Fhc.jpg",
+   "character": "Petr Capek (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 126287,
+   "name": "Toshihiko Nakajima",
+   "photo": "https://image.tmdb.org/t/p/w185/crf2w3vLJqRbDDtoggJFeDo0wn.jpg",
+   "character": "Lintner's Father (voice) / Guest B (voice) / Doctor A (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 4199833,
+   "name": "Mai Tsukada",
+   "photo": "https://image.tmdb.org/t/p/w185/2nQQLOPEU8i37e5jW7YJIlNx10g.jpg",
+   "character": "Young Anna (voice) / Anna (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 126280,
+   "name": "Kyoko Hikami",
+   "photo": "https://image.tmdb.org/t/p/w185/hjlzaZfei5EzkBsUrDu8FZfqsNu.jpg",
+   "character": "Lotte (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 1241598,
+   "name": "Hisayoshi Suganuma",
+   "photo": "https://image.tmdb.org/t/p/w185/axMNYDvCAcne4t3rzJho5g3lxJI.jpg",
+   "character": "Detective Suk (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 2679098,
+   "name": "Kyoko Hamura",
+   "photo": "https://image.tmdb.org/t/p/w185/y7IGz57MOlpFkkjKRUauJ98oxdW.jpg",
+   "character": "Boy B (voice) / Librarian (voice) / Orda (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 142701,
+   "name": "Yoshito Yasuhara",
+   "photo": "https://image.tmdb.org/t/p/w185/bGSGmvLjs24LjGJqR2Eik1wRnIR.jpg",
+   "character": "Heckel (voice)",
+   "episodes": 7
+  }
+ ],
+ "crew": [
+  {
+   "id": 221758,
+   "name": "Tatsuhiko Urahata",
+   "photo": "https://image.tmdb.org/t/p/w185/vi5FmymB2muVuvyyq0LWYsrg05a.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 93
+  },
+  {
+   "id": 1107186,
+   "name": "Ryosuke Nakamura",
+   "photo": "https://image.tmdb.org/t/p/w185/d1MKLMMDFWSQO3metTNHlVv0zEy.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 79
+  },
+  {
+   "id": 230411,
+   "name": "Masayuki Kojima",
+   "photo": "https://image.tmdb.org/t/p/w185/ghhW9DpZSKTtbfAsAODEQiDUCgJ.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 76
+  },
+  {
+   "id": 1089471,
+   "name": "Kazuyuki Fudeyasu",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 1252958,
+   "name": "Yukihiro Miyamoto",
+   "photo": "https://image.tmdb.org/t/p/w185/dhhgqt2K7MyBwaSAfCg4JRDfkTl.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 2094128,
+   "name": "Shigetaka Ikeda",
+   "photo": "https://image.tmdb.org/t/p/w185/bcb6DRNRUTLnWbsk2RSxRjDp41C.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 3748445,
+   "name": "Kentaro Nakamura",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 3821981,
+   "name": "Masahiro Hayashi",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1780647,
+   "name": "Masatoshi Hakata",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1307036,
+   "name": "Kenji Nagasaki",
+   "photo": "https://image.tmdb.org/t/p/w185/rbAMbBEu2MwpwTsavB7ZLhC5j7p.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 4069284,
+   "name": "Yuki Saito",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1388752,
+   "name": "Tomoki Kobayashi",
+   "photo": "https://image.tmdb.org/t/p/w185/gFOVcr1HjhvKmWBUJgTkrb28ITw.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 233655,
+   "name": "Kanji Wakabayashi",
+   "photo": "https://image.tmdb.org/t/p/w185/smhfXxP4CRXZwk2bPG7QAAullqJ.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 233653,
+   "name": "Atsushi Takahashi",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 4069299,
+   "name": "Ryu Nakamura",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1362698,
+   "name": "Tomohiko Ito",
+   "photo": "https://image.tmdb.org/t/p/w185/GyFpjtodiP19QlMue8Yu41N3gG.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:38:49.486Z"
+}

@@ -1,0 +1,330 @@
+{
+ "show": "The Americans",
+ "slug": "the-americans",
+ "tmdbId": 46533,
+ "cast": [
+  {
+   "id": 41292,
+   "name": "Keri Russell",
+   "photo": "https://image.tmdb.org/t/p/w185/4bLtisDjmCOemk3uC65NAlmdIjz.jpg",
+   "character": "Elizabeth Jennings",
+   "episodes": 75
+  },
+  {
+   "id": 29528,
+   "name": "Matthew Rhys",
+   "photo": "https://image.tmdb.org/t/p/w185/8uktKexgPn0tsW3dsXVNqkqiNh7.jpg",
+   "character": "Philip Jennings",
+   "episodes": 75
+  },
+  {
+   "id": 1149190,
+   "name": "Holly Taylor",
+   "photo": "https://image.tmdb.org/t/p/w185/4L31T8MryaStQ1UAp1EuBTOKqLk.jpg",
+   "character": "Paige Jennings",
+   "episodes": 75
+  },
+  {
+   "id": 1257562,
+   "name": "Keidrich Sellati",
+   "photo": "https://image.tmdb.org/t/p/w185/1IET3cOndkF5QDybmbP3kUojY7p.jpg",
+   "character": "Henry Jennings",
+   "episodes": 75
+  },
+  {
+   "id": 11315,
+   "name": "Noah Emmerich",
+   "photo": "https://image.tmdb.org/t/p/w185/qwPPHYWJ3a9yRwFXicbbHsf60Nm.jpg",
+   "character": "Stan Beeman",
+   "episodes": 75
+  },
+  {
+   "id": 130323,
+   "name": "Costa Ronin",
+   "photo": "https://image.tmdb.org/t/p/w185/6PjUNZ6HYCT5PlQdXFI1ue2tOls.jpg",
+   "character": "Oleg Igorevich Burov",
+   "episodes": 62
+  },
+  {
+   "id": 164312,
+   "name": "Lev Gorn",
+   "photo": "https://image.tmdb.org/t/p/w185/2cblHPwJPOPJbn92dwxF83QqrJh.jpg",
+   "character": "Arkady Ivanovich Zotov",
+   "episodes": 51
+  },
+  {
+   "id": 1257565,
+   "name": "Alison Wright",
+   "photo": "https://image.tmdb.org/t/p/w185/yVdCk5eWk5syRrBdxjrnJ1O2Rpg.jpg",
+   "character": "Martha Hanson",
+   "episodes": 46
+  },
+  {
+   "id": 1257563,
+   "name": "Annet Mahendru",
+   "photo": "https://image.tmdb.org/t/p/w185/kEeokLN5vJsOdKSEFaN36qlzCRa.jpg",
+   "character": "Nina Krilova / Nina Sergeevna Krilova",
+   "episodes": 43
+  },
+  {
+   "id": 19576,
+   "name": "Richard Thomas",
+   "photo": "https://image.tmdb.org/t/p/w185/fXFFkwrfbo9uAI5H9RoMtg8kerV.jpg",
+   "character": "Frank Gaad",
+   "episodes": 42
+  },
+  {
+   "id": 17640,
+   "name": "Susan Misner",
+   "photo": "https://image.tmdb.org/t/p/w185/nJHIk7BWzFrktuPdNE1WlLSEOQt.jpg",
+   "character": "Sandra Beeman",
+   "episodes": 41
+  },
+  {
+   "id": 1648765,
+   "name": "Brandon J. Dirden",
+   "photo": "https://image.tmdb.org/t/p/w185/qRb97MOBs8jnNjXUX1vwSuU2k9t.jpg",
+   "character": "Dennis Aderholt",
+   "episodes": 40
+  },
+  {
+   "id": 8924,
+   "name": "Frank Langella",
+   "photo": "https://image.tmdb.org/t/p/w185/86DEo3sBguyc1l46606yVKD28T4.jpg",
+   "character": "Gabriel",
+   "episodes": 34
+  },
+  {
+   "id": 452,
+   "name": "Margo Martindale",
+   "photo": "https://image.tmdb.org/t/p/w185/6ANuYnZZJTuQLL4bbt8vH1qDYje.jpg",
+   "character": "Claudia",
+   "episodes": 34
+  },
+  {
+   "id": 512749,
+   "name": "Danny Flaherty",
+   "photo": "https://image.tmdb.org/t/p/w185/2ZICtE27qlbiiiQhYiPeXSPlnWj.jpg",
+   "character": "Matthew Beeman",
+   "episodes": 23
+  },
+  {
+   "id": 171727,
+   "name": "Kelly AuCoin",
+   "photo": "https://image.tmdb.org/t/p/w185/fxQoskK0bbWybyz88R0aCGBQgFL.jpg",
+   "character": "Pastor Tim",
+   "episodes": 22
+  },
+  {
+   "id": 1663674,
+   "name": "Vera Cherny",
+   "photo": "https://image.tmdb.org/t/p/w185/xB9YuOCLm6IaAUpW73EApoAUiZA.jpg",
+   "character": "Tatiana Vyazemtseva",
+   "episodes": 19
+  },
+  {
+   "id": 1971683,
+   "name": "Aaron Roman Weiner",
+   "photo": "https://image.tmdb.org/t/p/w185/rpPcJrFmtBoiZk6k8yaxIMz05e0.jpg",
+   "character": "Agent Brooks",
+   "episodes": 18
+  },
+  {
+   "id": 1768394,
+   "name": "Amy Tribbey",
+   "photo": null,
+   "character": "Marilyn",
+   "episodes": 14
+  },
+  {
+   "id": 21709,
+   "name": "Russell G. Jones",
+   "photo": "https://image.tmdb.org/t/p/w185/znwYMEBAjFfKvOIyVSLTOPW7hqV.jpg",
+   "character": "Norm",
+   "episodes": 14
+  },
+  {
+   "id": 1437564,
+   "name": "Peter Mark Kendall",
+   "photo": "https://image.tmdb.org/t/p/w185/9Cj5ySZ6znkNcASB5CZeibuDGsd.jpg",
+   "character": "Hans",
+   "episodes": 14
+  },
+  {
+   "id": 1374770,
+   "name": "Anthony Arkin",
+   "photo": "https://image.tmdb.org/t/p/w185/q3o6olGDOpv2PYTIiZXuzLL5jFs.jpg",
+   "character": "Stavos",
+   "episodes": 14
+  },
+  {
+   "id": 115858,
+   "name": "Cotter Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/dmz3uYC2XLMulmvQYzqGVaqLmRw.jpg",
+   "character": "Deputy Attorney General",
+   "episodes": 14
+  },
+  {
+   "id": 19152,
+   "name": "Dylan Baker",
+   "photo": "https://image.tmdb.org/t/p/w185/4mw6xj8Aj3ixjjeUj9pZdZPTbvz.jpg",
+   "character": "William Crandall",
+   "episodes": 13
+  }
+ ],
+ "crew": [
+  {
+   "id": 1253180,
+   "name": "Joe Weisberg",
+   "photo": "https://image.tmdb.org/t/p/w185/s0ss4dUEf2hobIXAgdqI1qH6fPT.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 75
+  },
+  {
+   "id": 1231425,
+   "name": "Darryl Frank",
+   "photo": "https://image.tmdb.org/t/p/w185/8LchWLyEbBRPimCEB8vSOZtzxRM.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 75
+  },
+  {
+   "id": 1225545,
+   "name": "Justin Falvey",
+   "photo": "https://image.tmdb.org/t/p/w185/7mTutJBCklSITNGj3eM7G8FZc60.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 75
+  },
+  {
+   "id": 1215138,
+   "name": "Joel Fields",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 75
+  },
+  {
+   "id": 21206,
+   "name": "Graham Yost",
+   "photo": "https://image.tmdb.org/t/p/w185/zbaUcbYdFU28bGoi6F2lJo0XUaX.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 75
+  },
+  {
+   "id": 19659,
+   "name": "Nathan Barr",
+   "photo": "https://image.tmdb.org/t/p/w185/tffHPRmHgpmfe4LraLHXgpsazR.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 75
+  },
+  {
+   "id": 59583,
+   "name": "Stephen Schiff",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 62
+  },
+  {
+   "id": 2661438,
+   "name": "Mary Rae Thewlis",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 49
+  },
+  {
+   "id": 1214432,
+   "name": "Chris Long",
+   "photo": "https://image.tmdb.org/t/p/w185/kphn24MER5N0g7vnD69csE3onU4.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 36
+  },
+  {
+   "id": 12632,
+   "name": "Daniel Sackheim",
+   "photo": "https://image.tmdb.org/t/p/w185/mcmKeI9IIy2qUQcB3nJm6B1V8mi.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 1257567,
+   "name": "Melissa James Gibson",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 1293687,
+   "name": "Sneha Koorse",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 94126,
+   "name": "Lara Shapiro",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 23757,
+   "name": "Joshua Brand",
+   "photo": "https://image.tmdb.org/t/p/w185/w1Y4d7SE9fzNcV4y1lyk7P2CdnH.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 1376789,
+   "name": "Tracey Scott Wilson",
+   "photo": "https://image.tmdb.org/t/p/w185/bhu2GVQrrhUnwUSJZNpZKTKrhwD.jpg",
+   "jobs": [
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 5717,
+   "name": "Peter Ackerman",
+   "photo": "https://image.tmdb.org/t/p/w185/txir5eA8KQ3FL5w9EgrOBwUciLl.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 8
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:31:42.294Z"
+}

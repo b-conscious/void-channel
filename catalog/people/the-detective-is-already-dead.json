@@ -1,0 +1,322 @@
+{
+ "show": "The Detective Is Already Dead",
+ "slug": "the-detective-is-already-dead",
+ "tmdbId": 117061,
+ "cast": [
+  {
+   "id": 2944453,
+   "name": "Arata Nagai",
+   "photo": "https://image.tmdb.org/t/p/w185/2pBl4uYHU0TKAj3bTivTOaPbtnf.jpg",
+   "character": "Kimihiko Kimizuka (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 2076433,
+   "name": "Saki Miyashita",
+   "photo": "https://image.tmdb.org/t/p/w185/5I1KqliJdfISImVZN7nw8DrqEdA.jpg",
+   "character": "Siesta (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 1072776,
+   "name": "Ayana Taketatsu",
+   "photo": "https://image.tmdb.org/t/p/w185/7p9BhK5EZtHvXWhFa1WejhoNst3.jpg",
+   "character": "Nagisa Natsunagi (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 1695709,
+   "name": "Kanon Takao",
+   "photo": "https://image.tmdb.org/t/p/w185/w3h6h9R29uRsOv01qbk94ym2msm.jpg",
+   "character": "Yui Saikawa (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 2944458,
+   "name": "Saho Shirasu",
+   "photo": "https://image.tmdb.org/t/p/w185/2iNYxiui27dvP30WiYtVquO1HCN.jpg",
+   "character": "Charlotte Arisaka Anderson (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 1564652,
+   "name": "Maria Naganawa",
+   "photo": "https://image.tmdb.org/t/p/w185/tt0j0z34Oq3MyvDA3VeizskWcw4.jpg",
+   "character": "Alicia (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 233590,
+   "name": "Yoshitsugu Matsuoka",
+   "photo": "https://image.tmdb.org/t/p/w185/ugDwdWEXnmv43jcbnfAi4XwiQ8C.jpg",
+   "character": "Bat (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 1254300,
+   "name": "Mai Fuchigami",
+   "photo": "https://image.tmdb.org/t/p/w185/rWYdSVyjdyKoWj9SbJRTMJmYgbJ.jpg",
+   "character": "Fuubi Kase (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 84508,
+   "name": "Takehito Koyasu",
+   "photo": "https://image.tmdb.org/t/p/w185/8uBkNDKPNmp9JWgMUI02NVyfhi1.jpg",
+   "character": "Chameleon (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 3152766,
+   "name": "Minori Sano",
+   "photo": null,
+   "character": "Betelgeuse (voice) / (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 3152825,
+   "name": "Akiko Tanimae",
+   "photo": null,
+   "character": "(voice)",
+   "episodes": 12
+  },
+  {
+   "id": 3152828,
+   "name": "Hiroaki Moriyama",
+   "photo": null,
+   "character": "(voice)",
+   "episodes": 12
+  },
+  {
+   "id": 3152822,
+   "name": "Aiko Yamasaki",
+   "photo": null,
+   "character": "(voice)",
+   "episodes": 11
+  },
+  {
+   "id": 3152827,
+   "name": "Tetsushi Kajimoto",
+   "photo": "https://image.tmdb.org/t/p/w185/8mZrlPUSqLItPCWIYBx25vucdna.jpg",
+   "character": "(voice)",
+   "episodes": 11
+  },
+  {
+   "id": 3152821,
+   "name": "Joji Konagai",
+   "photo": null,
+   "character": "(voice)",
+   "episodes": 11
+  },
+  {
+   "id": 1565358,
+   "name": "Yumiri Hanamori",
+   "photo": "https://image.tmdb.org/t/p/w185/zXVwGxsxwEvL1f6wxzTYtxytjDn.jpg",
+   "character": "Hel (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 23987,
+   "name": "Jouji Nakata",
+   "photo": "https://image.tmdb.org/t/p/w185/wYhv4BtQnc6bZp2Qnh6GiYjmNKC.jpg",
+   "character": "Cerberus (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 3176246,
+   "name": "Takahiro Mori",
+   "photo": null,
+   "character": "(voice)",
+   "episodes": 2
+  },
+  {
+   "id": 3152755,
+   "name": "Nanae Yasuoka",
+   "photo": null,
+   "character": "(voice)",
+   "episodes": 1
+  },
+  {
+   "id": 3152817,
+   "name": "Momoka Arakawa",
+   "photo": null,
+   "character": "(voice)",
+   "episodes": 1
+  },
+  {
+   "id": 3176249,
+   "name": "Daisuke Nakamori",
+   "photo": null,
+   "character": "(voice)",
+   "episodes": 1
+  },
+  {
+   "id": 3176252,
+   "name": "Aoto Norifumi",
+   "photo": null,
+   "character": "(voice)",
+   "episodes": 1
+  },
+  {
+   "id": 2539429,
+   "name": "Yurina Amami",
+   "photo": "https://image.tmdb.org/t/p/w185/peSPIgRkaiowkDTNfw7GpbW2J5Z.jpg",
+   "character": "Cabin Attendant (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 124478,
+   "name": "Aya Hisakawa",
+   "photo": "https://image.tmdb.org/t/p/w185/5asVy8H7VSDQKVdURubT0QHjsld.jpg",
+   "character": "Rose Bennett (voice)",
+   "episodes": 1
+  }
+ ],
+ "crew": [
+  {
+   "id": 1149042,
+   "name": "Deko Akao",
+   "photo": "https://image.tmdb.org/t/p/w185/sOKxl6uLAJpkGTa7JPu1YXG0ZaP.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 2185087,
+   "name": "Yuuyu",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 2383314,
+   "name": "Shinichi Fukumoto",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 2417240,
+   "name": "40mP",
+   "photo": "https://image.tmdb.org/t/p/w185/kNdcFRzbrhqMAI71YnqaxID1nm0.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 1556274,
+   "name": "Fumihiko Shinozaki",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 3466570,
+   "name": "Sou Yurugi",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 3167893,
+   "name": "Naoki Tani",
+   "photo": "https://image.tmdb.org/t/p/w185/s4p00XDwOGE3Wk0pk3crX4Az7WI.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 3167906,
+   "name": "Tatsuya Yano",
+   "photo": "https://image.tmdb.org/t/p/w185/i9wf1fHdp3xJQDHwMouU21AmrPG.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 3235634,
+   "name": "Hiroaki Nagashima",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 2413512,
+   "name": "Fumio Itou",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 3235674,
+   "name": "Natsu Yoshioka",
+   "photo": "https://image.tmdb.org/t/p/w185/u6kO2oqqPpKWn7bOzfONbxQiv9h.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 2870796,
+   "name": "Marina Maki",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 2177603,
+   "name": "Yuki Kanezawa",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 3119724,
+   "name": "Rin Teraoka",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 2816319,
+   "name": "Ryuta Yamamoto",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 2842413,
+   "name": "Sota Yokote",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:40:37.611Z"
+}

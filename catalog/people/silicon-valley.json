@@ -1,0 +1,334 @@
+{
+ "show": "Silicon Valley",
+ "slug": "silicon-valley",
+ "tmdbId": 60573,
+ "cast": [
+  {
+   "id": 111678,
+   "name": "Thomas Middleditch",
+   "photo": "https://image.tmdb.org/t/p/w185/2c15BQ6DWSiDSBTRjvdsp8X4AAe.jpg",
+   "character": "Richard Hendricks",
+   "episodes": 53
+  },
+  {
+   "id": 464993,
+   "name": "Zach Woods",
+   "photo": "https://image.tmdb.org/t/p/w185/jolb1uMzDZGTKOKyhgeG3RIsL2W.jpg",
+   "character": "Donald 'Jared' Dunn",
+   "episodes": 53
+  },
+  {
+   "id": 466505,
+   "name": "Kumail Nanjiani",
+   "photo": "https://image.tmdb.org/t/p/w185/9EyrK1Cv7ey1h1GgmsVAOn45w6G.jpg",
+   "character": "Dinesh Chugtai",
+   "episodes": 53
+  },
+  {
+   "id": 41089,
+   "name": "Martin Starr",
+   "photo": "https://image.tmdb.org/t/p/w185/cxGxr0S1jnvOpOHyZDYXrg2GHju.jpg",
+   "character": "Bertram Gilfoyle",
+   "episodes": 53
+  },
+  {
+   "id": 58370,
+   "name": "Amanda Crew",
+   "photo": "https://image.tmdb.org/t/p/w185/diGTfFDOAjtfpClK3pJHkQIYhNc.jpg",
+   "character": "Monica Hall",
+   "episodes": 53
+  },
+  {
+   "id": 11154,
+   "name": "Matt Ross",
+   "photo": "https://image.tmdb.org/t/p/w185/qqPMm2lrjajJ1EpJ1jXEayz5oqP.jpg",
+   "character": "Gavin Belson",
+   "episodes": 53
+  },
+  {
+   "id": 1180979,
+   "name": "Josh Brener",
+   "photo": "https://image.tmdb.org/t/p/w185/sIyQYq2imu1V2RxRQ1zp70RSqTi.jpg",
+   "character": "Nelson 'Big Head' Bighetti",
+   "episodes": 53
+  },
+  {
+   "id": 1468779,
+   "name": "Jimmy O. Yang",
+   "photo": "https://image.tmdb.org/t/p/w185/1QfCVmdNo4AqBdN54kc9DTBx84X.jpg",
+   "character": "Jian-Yang",
+   "episodes": 48
+  },
+  {
+   "id": 8269,
+   "name": "Suzanne Cryer",
+   "photo": "https://image.tmdb.org/t/p/w185/hVqmp8WX9hRhZ3qE6ndk7PfkFDJ.jpg",
+   "character": "Laurie Bream",
+   "episodes": 45
+  },
+  {
+   "id": 51990,
+   "name": "T.J. Miller",
+   "photo": "https://image.tmdb.org/t/p/w185/rRrVvBxOkyYM5XdLXimShHR1Itn.jpg",
+   "character": "Erlich Bachman",
+   "episodes": 38
+  },
+  {
+   "id": 1217648,
+   "name": "Chris Diamantopoulos",
+   "photo": "https://image.tmdb.org/t/p/w185/oenBtpk0RTId4wacQKYU4cPcq8Z.jpg",
+   "character": "Russ Hanneman",
+   "episodes": 25
+  },
+  {
+   "id": 1214427,
+   "name": "Chris Williams",
+   "photo": "https://image.tmdb.org/t/p/w185/opLLZdBb1Wk7HmWsxMIkfdiPO36.jpg",
+   "character": "Hoover",
+   "episodes": 20
+  },
+  {
+   "id": 537,
+   "name": "Stephen Tobolowsky",
+   "photo": "https://image.tmdb.org/t/p/w185/uL8yfcm0dCFYFQt052kczVQVvac.jpg",
+   "character": "Jack Barker",
+   "episodes": 17
+  },
+  {
+   "id": 78497,
+   "name": "Scott Prendergast",
+   "photo": "https://image.tmdb.org/t/p/w185/pJCCkl8u5vTN8gRuWGwZpAsJJiW.jpg",
+   "character": "Scott",
+   "episodes": 16
+  },
+  {
+   "id": 1451076,
+   "name": "Rogelio T. Ramos",
+   "photo": "https://image.tmdb.org/t/p/w185/sL8NuitxpKOJj8n8Zj133mah9ag.jpg",
+   "character": "Executive",
+   "episodes": 16
+  },
+  {
+   "id": 169641,
+   "name": "Jill E. Alexander",
+   "photo": "https://image.tmdb.org/t/p/w185/sTmGEbLRaT3WP246jp9JnrCe41M.jpg",
+   "character": "Patrice",
+   "episodes": 15
+  },
+  {
+   "id": 1355655,
+   "name": "Aly Mawji",
+   "photo": "https://image.tmdb.org/t/p/w185/xNirZ3OY9jbg4xYmk3vdn1s7Qdm.jpg",
+   "character": "Aly Dutta / Naveen Dutt",
+   "episodes": 15
+  },
+  {
+   "id": 156739,
+   "name": "Bernard White",
+   "photo": "https://image.tmdb.org/t/p/w185/yW1MG2BHGBWxIAQ7F93TFtUNUFv.jpg",
+   "character": "Denpok Singh",
+   "episodes": 14
+  },
+  {
+   "id": 2532536,
+   "name": "Brian Tichnell",
+   "photo": "https://image.tmdb.org/t/p/w185/fIjblLikPGhnmTXXzuVgGybgkRZ.jpg",
+   "character": "Jason",
+   "episodes": 14
+  },
+  {
+   "id": 78431,
+   "name": "Ben Feldman",
+   "photo": "https://image.tmdb.org/t/p/w185/neArGlsh50NtcGzUM99Puz6TrFX.jpg",
+   "character": "Ron LaFlamme",
+   "episodes": 13
+  },
+  {
+   "id": 1937817,
+   "name": "Rachel Rosenbloom",
+   "photo": "https://image.tmdb.org/t/p/w185/58lYNI6L7jNSmfK2Fy59jpq65u6.jpg",
+   "character": "Becky",
+   "episodes": 12
+  },
+  {
+   "id": 1450445,
+   "name": "Chris Aquilino",
+   "photo": "https://image.tmdb.org/t/p/w185/sPda0771blW4Ou4H1tqnIHEgk78.jpg",
+   "character": "Danny",
+   "episodes": 11
+  },
+  {
+   "id": 113567,
+   "name": "Anna Khaja",
+   "photo": "https://image.tmdb.org/t/p/w185/Ys2OGtrsX8X9d4rfdUMMATOUa0.jpg",
+   "character": "Rachel",
+   "episodes": 9
+  },
+  {
+   "id": 1223812,
+   "name": "Ping Wu",
+   "photo": "https://image.tmdb.org/t/p/w185/2AfOOv8yLf3fmk3v08K9ofaqmH3.jpg",
+   "character": "Henry",
+   "episodes": 9
+  }
+ ],
+ "crew": [
+  {
+   "id": 17403,
+   "name": "Mike Judge",
+   "photo": "https://image.tmdb.org/t/p/w185/ol4kd4mSOK7Hx3r86ydez84bwEI.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 53
+  },
+  {
+   "id": 60932,
+   "name": "Dave Krinsky",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 60931,
+   "name": "John Altschuler",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 57406,
+   "name": "Alec Berg",
+   "photo": "https://image.tmdb.org/t/p/w185/8qCkqxlyxrSybMnUWf85XQ11qMB.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 53
+  },
+  {
+   "id": 67539,
+   "name": "Clay Tarver",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 53
+  },
+  {
+   "id": 24177,
+   "name": "Michael Rotenberg",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 53
+  },
+  {
+   "id": 53756,
+   "name": "Tom Lassally",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 53
+  },
+  {
+   "id": 3360093,
+   "name": "Jim Klever-Weis",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 53
+  },
+  {
+   "id": 1122300,
+   "name": "Carson D. Mell",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 23
+  },
+  {
+   "id": 1708292,
+   "name": "Andrew Law",
+   "photo": "https://image.tmdb.org/t/p/w185/ambF0ZmnMhHxZAd7cNHFLwur8Tt.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 1823296,
+   "name": "Rachele Lynn",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 1807681,
+   "name": "Shawn Boxe",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 59466,
+   "name": "Jamie Babbit",
+   "photo": "https://image.tmdb.org/t/p/w185/zySwCaK5XLylqpiJ4l2VhdO6Dw5.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 1692789,
+   "name": "Amy Aniobi",
+   "photo": "https://image.tmdb.org/t/p/w185/yScwP8fVHwMEW303wHSM98Qvjro.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 5204129,
+   "name": "Dan Lyons",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1319310,
+   "name": "Jessica Gao",
+   "photo": "https://image.tmdb.org/t/p/w185/u7HvgxVCqxeHnzBLIpyqRYf7bIt.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:28:53.865Z"
+}

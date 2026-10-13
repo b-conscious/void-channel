@@ -1,0 +1,322 @@
+{
+ "show": "Tower of God",
+ "slug": "tower-of-god",
+ "tmdbId": 97860,
+ "cast": [
+  {
+   "id": 2167408,
+   "name": "Taichi Ichikawa",
+   "photo": "https://image.tmdb.org/t/p/w185/ganKAEHhYhpknVd0q8TZiIoQoFy.jpg",
+   "character": "Bam (voice) / Jue Viole Grace / Bam (voice)",
+   "episodes": 39
+  },
+  {
+   "id": 1245094,
+   "name": "Nobuhiko Okamoto",
+   "photo": "https://image.tmdb.org/t/p/w185/7s1K2yQVF5iIWILaOfG7QrMZkXA.jpg",
+   "character": "Khun Aguero Agnes (voice)",
+   "episodes": 39
+  },
+  {
+   "id": 1248374,
+   "name": "Takuya Eguchi",
+   "photo": "https://image.tmdb.org/t/p/w185/hPPhUp0mM65Lc87Q8WXUEmGQAXx.jpg",
+   "character": "Shibisu (voice)",
+   "episodes": 29
+  },
+  {
+   "id": 1492992,
+   "name": "Yuma Uchida",
+   "photo": "https://image.tmdb.org/t/p/w185/2otstbLfQ7MXuFt1X8MFOb4OIgd.jpg",
+   "character": "Ja Wangnan (voice)",
+   "episodes": 26
+  },
+  {
+   "id": 2376443,
+   "name": "Sayumi Watabe",
+   "photo": "https://image.tmdb.org/t/p/w185/8TfNoecH2Oyghr0fIQBKMEaUElj.jpg",
+   "character": "Yeon Yihwa (voice)",
+   "episodes": 26
+  },
+  {
+   "id": 1253896,
+   "name": "Yu Shimamura",
+   "photo": "https://image.tmdb.org/t/p/w185/lAtWSXzLZ5DHYoEd8hooTfzirU3.jpg",
+   "character": "Yeo Goseng (voice)",
+   "episodes": 26
+  },
+  {
+   "id": 2076433,
+   "name": "Saki Miyashita",
+   "photo": "https://image.tmdb.org/t/p/w185/5I1KqliJdfISImVZN7nw8DrqEdA.jpg",
+   "character": "Yeo Miseng (voice)",
+   "episodes": 26
+  },
+  {
+   "id": 1264226,
+   "name": "Kenichirou Matsuda",
+   "photo": "https://image.tmdb.org/t/p/w185/YCEXgyl763zg62qhsjhWHRzGkL.jpg",
+   "character": "Kang Horyang (voice)",
+   "episodes": 26
+  },
+  {
+   "id": 2019889,
+   "name": "Kento Shiraishi",
+   "photo": "https://image.tmdb.org/t/p/w185/kQheInTNjl06xWak4kGQjPGzr4h.jpg",
+   "character": "Hon Akraptor (voice)",
+   "episodes": 26
+  },
+  {
+   "id": 1324472,
+   "name": "Kengo Kawanishi",
+   "photo": "https://image.tmdb.org/t/p/w185/s0CxrO6LixJBgqiHEUjKelAh8ei.jpg",
+   "character": "Prince (voice)",
+   "episodes": 26
+  },
+  {
+   "id": 1605644,
+   "name": "Rie Suegara",
+   "photo": "https://image.tmdb.org/t/p/w185/1UBLJoxpVEWblEjFnGlq9U5kkGa.jpg",
+   "character": "Endorsi Jahad (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 225603,
+   "name": "Kenta Miyake",
+   "photo": "https://image.tmdb.org/t/p/w185/7YL8vM2KYzPMeQqTpHWmNj6s1AP.jpg",
+   "character": "Rak Wraithraiser (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 1888529,
+   "name": "Akira Sekine",
+   "photo": "https://image.tmdb.org/t/p/w185/czYoPzAEK1gI7RxRiPyDSFYRm5x.jpg",
+   "character": "Anaak Jahad (voice)",
+   "episodes": 22
+  },
+  {
+   "id": 2018183,
+   "name": "Toshinari Fukamachi",
+   "photo": "https://image.tmdb.org/t/p/w185/o7BCrhWApisvlVSsb9JAVVCNW5M.jpg",
+   "character": "Hatz (voice)",
+   "episodes": 22
+  },
+  {
+   "id": 1072774,
+   "name": "Yoko Hikasa",
+   "photo": "https://image.tmdb.org/t/p/w185/mP3bj0s1gqJ6tCKFLhu4b1CkJj7.jpg",
+   "character": "Yuto / Hwaryun (voice) / Yuto (voice) / Hwaryun (Karen) (voice)",
+   "episodes": 20
+  },
+  {
+   "id": 135524,
+   "name": "Kenjiro Tsuda",
+   "photo": "https://image.tmdb.org/t/p/w185/yFpSPNHqYN4rdRiVpVaYmqXMkmi.jpg",
+   "character": "Lero Ro (voice)",
+   "episodes": 19
+  },
+  {
+   "id": 221773,
+   "name": "Saori Hayami",
+   "photo": "https://image.tmdb.org/t/p/w185/gLv9lO7dlUbIsmyJUvgegqAAXki.jpg",
+   "character": "Rachel (voice)",
+   "episodes": 18
+  },
+  {
+   "id": 225996,
+   "name": "Hiroyuki Yoshino",
+   "photo": "https://image.tmdb.org/t/p/w185/nZQbjjvAjPpjGYenY7kLDtW9e7N.jpg",
+   "character": "Quant Blitz (voice)",
+   "episodes": 17
+  },
+  {
+   "id": 1254120,
+   "name": "Mariko Honda",
+   "photo": "https://image.tmdb.org/t/p/w185/29XsXfTmJ6dat7cBvQk6Wc96IC0.jpg",
+   "character": "Yuri Jahad (voice)",
+   "episodes": 15
+  },
+  {
+   "id": 1971814,
+   "name": "Jun Kasama",
+   "photo": "https://image.tmdb.org/t/p/w185/x9H1klv1RrXaqyXAECx1rb56LFH.jpg",
+   "character": "Novick (voice)",
+   "episodes": 15
+  },
+  {
+   "id": 1241498,
+   "name": "Daisuke Ono",
+   "photo": "https://image.tmdb.org/t/p/w185/5rjl28lx84JjRS0hzq3Ajvx2dhp.jpg",
+   "character": "Phonsekal Laure (voice)",
+   "episodes": 14
+  },
+  {
+   "id": 552683,
+   "name": "Hochu Otsuka",
+   "photo": "https://image.tmdb.org/t/p/w185/3RHQcrsWnAFK6AifSis1lMq08cR.jpg",
+   "character": "Headon (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 1254260,
+   "name": "Kazuyuki Okitsu",
+   "photo": "https://image.tmdb.org/t/p/w185/vgyaK5dAxhvzAi6LJM3ZyaJd4mJ.jpg",
+   "character": "Evan Edroch (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 571993,
+   "name": "Shizuka Itoh",
+   "photo": "https://image.tmdb.org/t/p/w185/n47YvFPlJzl8HnsoDBtM8SUqG8q.jpg",
+   "character": "Black March (voice)",
+   "episodes": 13
+  }
+ ],
+ "crew": [
+  {
+   "id": 1470065,
+   "name": "Erika Yoshida",
+   "photo": "https://image.tmdb.org/t/p/w185/x8BqC3fkC69V2UQM4LGOBtRXhdT.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 1361675,
+   "name": "Kevin Penkin",
+   "photo": "https://image.tmdb.org/t/p/w185/ijrOjpyxj1yyTs1CEpFxA62xSpK.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 3750829,
+   "name": "Akira Suzuki",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 27
+  },
+  {
+   "id": 1900529,
+   "name": "Haruhito Nakayoshi",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 3103398,
+   "name": "Takaya Yamaguchi",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 2234439,
+   "name": "Takashi Sano",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 1848179,
+   "name": "Hirokazu Hanai",
+   "photo": "https://image.tmdb.org/t/p/w185/yLuJdzNglvR9U3pysr4FC4RMDF2.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 3024181,
+   "name": "Kun Gao",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 2765679,
+   "name": "Sae Whan Song",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 3024182,
+   "name": "Junkoo Kim",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 1029273,
+   "name": "Takeshi Miyamoto",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 4225528,
+   "name": "Riuji Yoshizaki",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 2750634,
+   "name": "Yoshitsugu Kimura",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 2815249,
+   "name": "Tsutomu Murakami",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1243958,
+   "name": "Taiki Nishimura",
+   "photo": "https://image.tmdb.org/t/p/w185/sFVL8toARcSJxf9Zm1FVpkU6iN4.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 2376290,
+   "name": "Shigeru Fukase",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:39:17.317Z"
+}

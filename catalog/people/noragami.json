@@ -1,0 +1,322 @@
+{
+ "show": "Noragami",
+ "slug": "noragami",
+ "tmdbId": 64710,
+ "cast": [
+  {
+   "id": 93801,
+   "name": "Hiroshi Kamiya",
+   "photo": "https://image.tmdb.org/t/p/w185/5aAAOlQ2hW5EqEQOzk4UeroxcTN.jpg",
+   "character": "Yato (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 1296667,
+   "name": "Maaya Uchida",
+   "photo": "https://image.tmdb.org/t/p/w185/lrcxZXkIgHU55dMs8C4DKkUohqJ.jpg",
+   "character": "Hiyori Iki (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 149894,
+   "name": "Yuki Kaji",
+   "photo": "https://image.tmdb.org/t/p/w185/8wKdPV11IwowfwoqGqMMNt9hmp6.jpg",
+   "character": "Yukine (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 235262,
+   "name": "Aki Toyosaki",
+   "photo": "https://image.tmdb.org/t/p/w185/crZpbb0ILJnH7mIYZV2l4uqQx1J.jpg",
+   "character": "Ebisu Kofuku (voice)",
+   "episodes": 20
+  },
+  {
+   "id": 186341,
+   "name": "Miyuki Sawashiro",
+   "photo": "https://image.tmdb.org/t/p/w185/11mGqwpmu8CoEy1YJgabj2g7MIv.jpg",
+   "character": "Bishamon (voice)",
+   "episodes": 20
+  },
+  {
+   "id": 131563,
+   "name": "Jun Fukuyama",
+   "photo": "https://image.tmdb.org/t/p/w185/eT9eloyIaIkTvTqMmpcsAleP2hM.jpg",
+   "character": "Kiyotsugu Hirano (voice)",
+   "episodes": 20
+  },
+  {
+   "id": 1241498,
+   "name": "Daisuke Ono",
+   "photo": "https://image.tmdb.org/t/p/w185/5rjl28lx84JjRS0hzq3Ajvx2dhp.jpg",
+   "character": "Daikoku (voice)",
+   "episodes": 19
+  },
+  {
+   "id": 83928,
+   "name": "Rie Kugimiya",
+   "photo": "https://image.tmdb.org/t/p/w185/xHonhNFpTpz9zCVXLAF7D4OuHLv.jpg",
+   "character": "Nora (voice)",
+   "episodes": 19
+  },
+  {
+   "id": 1157642,
+   "name": "Shinya Takahashi",
+   "photo": "https://image.tmdb.org/t/p/w185/19DN4yrD9c3E7BWthVEqvwhQNdb.jpg",
+   "character": "God B (voice) / Touno (voice) / Hotei (voice)",
+   "episodes": 17
+  },
+  {
+   "id": 9719,
+   "name": "Toru Okawa",
+   "photo": "https://image.tmdb.org/t/p/w185/dkVP18qK730qbki25nogZzBbfuM.jpg",
+   "character": "Regalia (voice) / Tenjin (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 1133618,
+   "name": "Asami Imai",
+   "photo": "https://image.tmdb.org/t/p/w185/6Ff0ilLyKLQOMMdqqqiuK3U9VSb.jpg",
+   "character": "Tomone (voice) / Olive Tavern Woman (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 1357106,
+   "name": "Kanami Satou",
+   "photo": "https://image.tmdb.org/t/p/w185/x4YEuNRfQ3LUMJklNblU99PuoJx.jpg",
+   "character": "Female Staff (voice) / Victim's Mother (voice) / Kinuha (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 1795137,
+   "name": "Minami Takahashi",
+   "photo": "https://image.tmdb.org/t/p/w185/9SRX6yrHGtGEJxcnLyGFhOZkXSH.jpg",
+   "character": "Akira Yamashita (voice) / Clerk (voice) / Ayakashi B (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 89968,
+   "name": "Kazuhiko Inoue",
+   "photo": "https://image.tmdb.org/t/p/w185/3BpYtYRiLAmTNbCm2LXlXnkMRit.jpg",
+   "character": "Kuraha (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 3705035,
+   "name": "Yuko Takayama",
+   "photo": "https://image.tmdb.org/t/p/w185/usGP40gd6v3tmDhXXN8Nx0qFHaZ.jpg",
+   "character": "Aimi Tabata (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 122660,
+   "name": "Miki Ito",
+   "photo": "https://image.tmdb.org/t/p/w185/6osSzjWq1MZ0XznG3UZHpB81lJF.jpg",
+   "character": "Sayuri Iki (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 221773,
+   "name": "Saori Hayami",
+   "photo": "https://image.tmdb.org/t/p/w185/gLv9lO7dlUbIsmyJUvgegqAAXki.jpg",
+   "character": "Tsuyu (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 1324614,
+   "name": "Yuki Takao",
+   "photo": "https://image.tmdb.org/t/p/w185/5EiqdQV7xhKmtL5QCwIchqXZa36.jpg",
+   "character": "Mineha (voice) / Miyu (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 1454214,
+   "name": "Ari Ozawa",
+   "photo": "https://image.tmdb.org/t/p/w185/jrj6cIjnkk1FwJiSLIpGtUf8hWd.jpg",
+   "character": "Tsuguha/Yui Fukuhara (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 2374681,
+   "name": "Hisako Tojo",
+   "photo": "https://image.tmdb.org/t/p/w185/oWXhLQN274DMfQfM39ukoZc70or.jpg",
+   "character": "Aiha (voice) / Miko B (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 1247770,
+   "name": "Takanori Hoshino",
+   "photo": "https://image.tmdb.org/t/p/w185/ypoZIKRueZs3Fo8zxxe65O7Qwt.jpg",
+   "character": "Kugaha (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 89878,
+   "name": "Ryotaro Okiayu",
+   "photo": "https://image.tmdb.org/t/p/w185/qbj3cFQqWwZ6x7S1jEpOJa57sEZ.jpg",
+   "character": "Ebisu (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 1243889,
+   "name": "Takehiro Hasu",
+   "photo": "https://image.tmdb.org/t/p/w185/wGYjmYeRs7EYKIQzOKCFE7P2QLn.jpg",
+   "character": "Ayakashi (voice) / Regalia C (voice) / God A (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 1315198,
+   "name": "Kanehira Yamamoto",
+   "photo": "https://image.tmdb.org/t/p/w185/8cDkO8oCkqsPliIqwFdnmJqHzDT.jpg",
+   "character": "Salaryman (voice) / Kunimi (voice)",
+   "episodes": 6
+  }
+ ],
+ "crew": [
+  {
+   "id": 1149042,
+   "name": "Deko Akao",
+   "photo": "https://image.tmdb.org/t/p/w185/sOKxl6uLAJpkGTa7JPu1YXG0ZaP.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 27
+  },
+  {
+   "id": 90138,
+   "name": "Taku Iwasaki",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 1582097,
+   "name": "Kayo Konishi",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 3185786,
+   "name": "Treow",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 1781839,
+   "name": "Yukio Kondo",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 2382136,
+   "name": "Hiroko Fukuda",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 2208431,
+   "name": "Tsuyoshi Tobita",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1582095,
+   "name": "Akiko Waba",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 2386063,
+   "name": "Masashi Abe",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 2646562,
+   "name": "Shuji Miyahara",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 2377813,
+   "name": "Satomi Nakamura",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1778173,
+   "name": "Satoshi Nakagawa",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 2177827,
+   "name": "Daisuke Tsukushi",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1558199,
+   "name": "Naomichi Yamato",
+   "photo": "https://image.tmdb.org/t/p/w185/tCL0EjB4qSDwZId9t4FnuPbLTEh.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1777186,
+   "name": "Yoshifumi Sueda",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1299765,
+   "name": "Tetsuo Hirakawa",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:39:00.115Z"
+}

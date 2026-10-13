@@ -1,0 +1,339 @@
+{
+ "show": "Phineas and Ferb",
+ "slug": "phineas-and-ferb",
+ "tmdbId": 1877,
+ "cast": [
+  {
+   "id": 67600,
+   "name": "Ashley French",
+   "photo": "https://image.tmdb.org/t/p/w185/ot6ib67jxvKVG1JCBl0ROPGtdeP.jpg",
+   "character": "Candace Flynn (voice)",
+   "episodes": 264
+  },
+  {
+   "id": 86905,
+   "name": "Caroline Rhea",
+   "photo": "https://image.tmdb.org/t/p/w185/mlZbWfwoGkoGlbDhOscfo9f0jT4.jpg",
+   "character": "Linda Flynn-Fletcher (voice)",
+   "episodes": 264
+  },
+  {
+   "id": 58965,
+   "name": "Alyson Stoner",
+   "photo": "https://image.tmdb.org/t/p/w185/oIjU19kaJv2laaYnAHemghHfyPh.jpg",
+   "character": "Isabella Garcia-Shapiro (voice)",
+   "episodes": 264
+  },
+  {
+   "id": 104644,
+   "name": "Dan Povenmire",
+   "photo": "https://image.tmdb.org/t/p/w185/jl42I66vZgly7vTfi660VEipuDn.jpg",
+   "character": "Heinz Doofenshmirtz (voice)",
+   "episodes": 264
+  },
+  {
+   "id": 567615,
+   "name": "Jeff 'Swampy' Marsh",
+   "photo": "https://image.tmdb.org/t/p/w185/bbJufeLLpO3bs8V4cslz6ttNqEY.jpg",
+   "character": "Francis Monogram (voice)",
+   "episodes": 264
+  },
+  {
+   "id": 23680,
+   "name": "Dee Bradley Baker",
+   "photo": "https://image.tmdb.org/t/p/w185/9oFnToDZWp0I484s7Ua1EzNQQ2m.jpg",
+   "character": "Dr. Diminutive (voice) / Perry the Platypus (voice)",
+   "episodes": 264
+  },
+  {
+   "id": 188024,
+   "name": "Vincent Martella",
+   "photo": "https://image.tmdb.org/t/p/w185/9vcbTBhKHsGrbZKEg4w9nFBWeQ6.jpg",
+   "character": "Phineas Flynn (voice)",
+   "episodes": 262
+  },
+  {
+   "id": 25663,
+   "name": "Thomas Brodie-Sangster",
+   "photo": "https://image.tmdb.org/t/p/w185/tapXeOg3wnezcjm2ENox0lL2b25.jpg",
+   "character": "Ferb Fletcher (voice)",
+   "episodes": 223
+  },
+  {
+   "id": 197285,
+   "name": "Bobby Gaylor",
+   "photo": "https://image.tmdb.org/t/p/w185/cnquuxR4N1JYPCYIgzFk5Ajdxxs.jpg",
+   "character": "Buford Van Stomm (voice)",
+   "episodes": 223
+  },
+  {
+   "id": 1214403,
+   "name": "Maulik Pancholy",
+   "photo": "https://image.tmdb.org/t/p/w185/89zHn7lNQEOfmOzv8A3LW3Gwqwm.jpg",
+   "character": "Baljeet Tjinder (voice)",
+   "episodes": 223
+  },
+  {
+   "id": 13474,
+   "name": "Richard O'Brien",
+   "photo": "https://image.tmdb.org/t/p/w185/9FMfj8IcXuwKrfBvdNRBKv6WPC1.jpg",
+   "character": "Lawrence Fletcher (voice)",
+   "episodes": 223
+  },
+  {
+   "id": 51583,
+   "name": "Mitchel Musso",
+   "photo": "https://image.tmdb.org/t/p/w185/ofaAVYn61scqEMtXmK9G7TIFNhA.jpg",
+   "character": "Jeremy Johnson (voice)",
+   "episodes": 223
+  },
+  {
+   "id": 1227581,
+   "name": "Tyler Alexander Mann",
+   "photo": "https://image.tmdb.org/t/p/w185/z85TAwX6DN2xXaHbKBA6zwN1WzH.jpg",
+   "character": "Carl Karl (voice)",
+   "episodes": 223
+  },
+  {
+   "id": 11024,
+   "name": "Kelly Hu",
+   "photo": "https://image.tmdb.org/t/p/w185/jLhnDPiUIrIcdKJYnnVSZ4nbgyh.jpg",
+   "character": "Stacy Hirano (voice) / Additional Voices (voice)",
+   "episodes": 223
+  },
+  {
+   "id": 1661268,
+   "name": "David Errigo Jr.",
+   "photo": "https://image.tmdb.org/t/p/w185/oTQuPPun1oDqd0PIRpl6QUZysuU.jpg",
+   "character": "Ferb Fletcher (voice)",
+   "episodes": 39
+  },
+  {
+   "id": 25311,
+   "name": "John O'Hurley",
+   "photo": "https://image.tmdb.org/t/p/w185/M0aWmocAAXZBpCtxNPACQvfGUP.jpg",
+   "character": "Ro-juh Doofengung (voice) / Roger Doofenshmirtz (voice)",
+   "episodes": 28
+  },
+  {
+   "id": 58737,
+   "name": "Jack McBrayer",
+   "photo": "https://image.tmdb.org/t/p/w185/cbr26xDPEiOuYQxggtCPbu5xhDU.jpg",
+   "character": "Irving (voice)",
+   "episodes": 19
+  },
+  {
+   "id": 95257,
+   "name": "Candi Milo",
+   "photo": "https://image.tmdb.org/t/p/w185/tUjXMG2118Oagj7IjWJDEdmtCRW.jpg",
+   "character": "Additional Voices (voice) / Sally (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 13922,
+   "name": "Seth Green",
+   "photo": "https://image.tmdb.org/t/p/w185/l4No5Eu6j0U80hCIkaSn17AOWrj.jpg",
+   "character": "Monty (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 130836,
+   "name": "John Viener",
+   "photo": "https://image.tmdb.org/t/p/w185/zOrJ9ypXMjtlhqfl8JRop7my3cr.jpg",
+   "character": "Norm-C3PO (voice) / Norm (voice) / Additional Voices (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 722,
+   "name": "Jennifer Grey",
+   "photo": "https://image.tmdb.org/t/p/w185/nFjdCB9uKbhJ6QYCSF7UDdC6FBK.jpg",
+   "character": "Additional Voices (voice) / Mrs. Pierpoint (voice) / Dr. Gevaarlijk (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 5727,
+   "name": "Diedrich Bader",
+   "photo": "https://image.tmdb.org/t/p/w185/z7CctykPTuXDfAs7pkAA7vW4b3T.jpg",
+   "character": "Captain Dirk Mortenson (voice) / Tom Totally (voice) / Albert (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 116088,
+   "name": "Logan Miller",
+   "photo": "https://image.tmdb.org/t/p/w185/xa62ZRSMFUUk4KS9kkKYZkNDlKi.jpg",
+   "character": "Johnny (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 67602,
+   "name": "Corbin Bleu",
+   "photo": "https://image.tmdb.org/t/p/w185/46szA5sJA9iuWFf4JfO4lECFqeH.jpg",
+   "character": "Coltrane (voice)",
+   "episodes": 4
+  }
+ ],
+ "crew": [
+  {
+   "id": 104644,
+   "name": "Dan Povenmire",
+   "photo": "https://image.tmdb.org/t/p/w185/jl42I66vZgly7vTfi660VEipuDn.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Story",
+    "Writer"
+   ],
+   "episodes": 223
+  },
+  {
+   "id": 567615,
+   "name": "Jeff 'Swampy' Marsh",
+   "photo": "https://image.tmdb.org/t/p/w185/bbJufeLLpO3bs8V4cslz6ttNqEY.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Story",
+    "Writer"
+   ],
+   "episodes": 223
+  },
+  {
+   "id": 127525,
+   "name": "Martin Olson",
+   "photo": "https://image.tmdb.org/t/p/w185/dbS6cSTldxscYFeszOqQklDe3u8.jpg",
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 97
+  },
+  {
+   "id": 1447210,
+   "name": "Robert Hughes",
+   "photo": "https://image.tmdb.org/t/p/w185/7r5iTGTwkI0GizUhRcjsqZP6AW7.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 76
+  },
+  {
+   "id": 1219082,
+   "name": "Scott D. Peterson",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 61
+  },
+  {
+   "id": 1367717,
+   "name": "Zac Moncrief",
+   "photo": "https://image.tmdb.org/t/p/w185/Aszz1tbkaXP4JcoZgfV24BN6KG5.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 56
+  },
+  {
+   "id": 1579739,
+   "name": "Jay Lender",
+   "photo": "https://image.tmdb.org/t/p/w185/54KA38aZ6urMe57uOepdx6L6zPt.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 49
+  },
+  {
+   "id": 1227584,
+   "name": "Kim Roberson",
+   "photo": "https://image.tmdb.org/t/p/w185/c6uGBpertAXJttDI8MtYmcN8x94.jpg",
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 1218548,
+   "name": "Kaz",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 45
+  },
+  {
+   "id": 1224460,
+   "name": "Jim Bernstein",
+   "photo": null,
+   "jobs": [
+    "Story"
+   ],
+   "episodes": 42
+  },
+  {
+   "id": 1227585,
+   "name": "Jon Colton Barry",
+   "photo": "https://image.tmdb.org/t/p/w185/eIzj5hXvvkdTdMGIQKZG5pPRxxS.jpg",
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 41
+  },
+  {
+   "id": 1227583,
+   "name": "Antoine Guilbaud",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 38
+  },
+  {
+   "id": 81594,
+   "name": "Sue Perrotto",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 37
+  },
+  {
+   "id": 1447319,
+   "name": "Joe Orrantia",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 35
+  },
+  {
+   "id": 81626,
+   "name": "Mike Diederich",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 35
+  },
+  {
+   "id": 1372002,
+   "name": "Aliki Theofilopoulos",
+   "photo": "https://image.tmdb.org/t/p/w185/7cefHijLnVWFLXWrVakYj1BSkW1.jpg",
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 35
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:29:26.992Z"
+}

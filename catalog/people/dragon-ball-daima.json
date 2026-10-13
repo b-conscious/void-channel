@@ -1,0 +1,286 @@
+{
+ "show": "Dragon Ball DAIMA",
+ "slug": "dragon-ball-daima",
+ "tmdbId": 236994,
+ "cast": [
+  {
+   "id": 90496,
+   "name": "Masako Nozawa",
+   "photo": "https://image.tmdb.org/t/p/w185/jxbXdejmPoiKnNoQz7Dkb80qC26.jpg",
+   "character": "Son Goku / Son Gohan / Son Goten / Gotenks (voice) / Son Goku (mini) (voice) / Son Goku (mini) / Son Goten (mini) (voice)",
+   "episodes": 20
+  },
+  {
+   "id": 1254052,
+   "name": "Koki Uchiyama",
+   "photo": "https://image.tmdb.org/t/p/w185/sllSm3iZZWVLTBrDZQRtWrZUfEj.jpg",
+   "character": "Glorio (voice)",
+   "episodes": 19
+  },
+  {
+   "id": 126485,
+   "name": "Yumiko Kobayashi",
+   "photo": "https://image.tmdb.org/t/p/w185/83IuLRuKivjifdFwfsKhmhTJKzd.jpg",
+   "character": "Kaiohshin (mini) (voice)",
+   "episodes": 18
+  },
+  {
+   "id": 2359492,
+   "name": "Fairouz Ai",
+   "photo": "https://image.tmdb.org/t/p/w185/coFu6WOVBZvqd1fw89vbHkiC0zB.jpg",
+   "character": "Panzy (voice)",
+   "episodes": 17
+  },
+  {
+   "id": 9714,
+   "name": "Showtaro Morikubo",
+   "photo": "https://image.tmdb.org/t/p/w185/mSTqMg8fls9pJO3Qwe47nawJ4vX.jpg",
+   "character": "King Gomah (voice)",
+   "episodes": 16
+  },
+  {
+   "id": 1072774,
+   "name": "Yoko Hikasa",
+   "photo": "https://image.tmdb.org/t/p/w185/mP3bj0s1gqJ6tCKFLhu4b1CkJj7.jpg",
+   "character": "Doctor Arinsu (voice)",
+   "episodes": 15
+  },
+  {
+   "id": 220709,
+   "name": "Mai Nakahara",
+   "photo": "https://image.tmdb.org/t/p/w185/s8DBmM540SRlRzUplaapMaDo8vV.jpg",
+   "character": "Bulma (mini) (voice)",
+   "episodes": 15
+  },
+  {
+   "id": 3290539,
+   "name": "Yudai Mino",
+   "photo": "https://image.tmdb.org/t/p/w185/ndM2zeVSLsb80JUBRCMF1BOUgai.jpg",
+   "character": "Vegeta (mini) (voice)",
+   "episodes": 15
+  },
+  {
+   "id": 1691564,
+   "name": "Tomohiro Yamaguchi",
+   "photo": "https://image.tmdb.org/t/p/w185/vj0zpzYm2wMuBR9pYfSs06HN6T5.jpg",
+   "character": "Piccolo (mini) (voice)",
+   "episodes": 15
+  },
+  {
+   "id": 3037731,
+   "name": "Reimi",
+   "photo": "https://image.tmdb.org/t/p/w185/rXoURgLsmneKuaQxtaL0klZPWGi.jpg",
+   "character": "Hybis (voice)",
+   "episodes": 15
+  },
+  {
+   "id": 126282,
+   "name": "Hiroshi Naka",
+   "photo": "https://image.tmdb.org/t/p/w185/9EmVmKWMczAd6qIGnmoYB2JBb7i.jpg",
+   "character": "Neba (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 1606164,
+   "name": "Junya Enoki",
+   "photo": "https://image.tmdb.org/t/p/w185/vBnNL3Jqy0zkS3ZgsXZmvDM9Dfz.jpg",
+   "character": "Degesu (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 2884636,
+   "name": "Mitsuki Nakamura",
+   "photo": "https://image.tmdb.org/t/p/w185/sPq3ivlFN8wERuCRzwUcZXGcAbT.jpg",
+   "character": "Gendarmerie (voice) / Majin (voice) / Gargoyle (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 2868853,
+   "name": "Ryo Yaginuma",
+   "photo": "https://image.tmdb.org/t/p/w185/mGYM5OGUJRf0FzSrKttqQt0Z1Yn.jpg",
+   "character": "Majin (voice) / Gendarmerie (voice) / Kadan Army Lizard Soldier (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 90567,
+   "name": "Tomokazu Seki",
+   "photo": "https://image.tmdb.org/t/p/w185/jGQC9KkfNMh2wBgizw81GLX2KN2.jpg",
+   "character": "Majin Kuu (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 122373,
+   "name": "Naoki Tatsuta",
+   "photo": "https://image.tmdb.org/t/p/w185/hgQOOPATD48vqos1YnRwqDTV2ab.jpg",
+   "character": "Narration (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 2871303,
+   "name": "Yusuke Handa",
+   "photo": "https://image.tmdb.org/t/p/w185/2d9PpE8u3UaOEBfmfu7fsOSrzI3.jpg",
+   "character": "Kibito (mini) (voice) / Gendarmerie (voice) / Majin (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 1243811,
+   "name": "Naomi Kusumi",
+   "photo": "https://image.tmdb.org/t/p/w185/uxRwh4kUUBOe4fSFEHEEmk9Yc4j.jpg",
+   "character": "King Kadan (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 4362670,
+   "name": "Shuki Imagawa",
+   "photo": "https://image.tmdb.org/t/p/w185/scxBXwhImiF37hHLERHmQQ6h6GN.jpg",
+   "character": "Customer (voice) / Kadan Army Goblin Soldier (voice) / Gendarmerie (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 1791299,
+   "name": "Yasunao Sakai",
+   "photo": "https://image.tmdb.org/t/p/w185/t7qLRiukHQqYcVdYYm5A7MSpG7C.jpg",
+   "character": "Gatekeeper (voice) / Kadan Army Cait Sith (voice) / Gendarmerie (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 219752,
+   "name": "Hiroki Takahashi",
+   "photo": "https://image.tmdb.org/t/p/w185/lFwGUkR5Lj09FVz7s0xwFgQgeRi.jpg",
+   "character": "Tamagami Number One (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 1566511,
+   "name": "Fukushi Ochiai",
+   "photo": "https://image.tmdb.org/t/p/w185/xE2FoiUjb9N51J7jg0U8eGmfK19.jpg",
+   "character": "Majin Duu (voice) / Majin Buu (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 2027062,
+   "name": "Maki Tsuruta",
+   "photo": "https://image.tmdb.org/t/p/w185/g5WTDFUbecLmrxWMUat9uKoMB5Q.jpg",
+   "character": "Amazoness (voice) / Babysitter (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 126690,
+   "name": "Ryuuzaburou Ootomo",
+   "photo": "https://image.tmdb.org/t/p/w185/fk3ebYlTjILTXkzJNvOi3SRUNb6.jpg",
+   "character": "Porunga of the Demon World (voice) / Dabura (voice) / Shenron (voice)",
+   "episodes": 5
+  }
+ ],
+ "crew": [
+  {
+   "id": 78322,
+   "name": "Akira Toriyama",
+   "photo": "https://image.tmdb.org/t/p/w185/9YorJMvF6DgfJcpATHbGyivZpS5.jpg",
+   "jobs": [
+    "Story"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 1254074,
+   "name": "Yuko Kakihara",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 3297971,
+   "name": "Aya Komaki",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 23
+  },
+  {
+   "id": 3423500,
+   "name": "Hiroki Koyama",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 4996305,
+   "name": "Kei Naito",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 1321399,
+   "name": "Kosuke Yamashita",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 3209805,
+   "name": "Kan Murakami",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1598074,
+   "name": "Kazuya Karasawa",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 5022777,
+   "name": "Takao Kiriyama",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 2935135,
+   "name": "Yuichi Tsuzuki",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 2382964,
+   "name": "Ryuta Kawahara",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 5189678,
+   "name": "Gaku Yano",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:39:09.674Z"
+}

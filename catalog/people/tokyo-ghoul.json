@@ -1,0 +1,322 @@
+{
+ "show": "Tokyo Ghoul",
+ "slug": "tokyo-ghoul",
+ "tmdbId": 61374,
+ "cast": [
+  {
+   "id": 1256603,
+   "name": "Natsuki Hanae",
+   "photo": "https://image.tmdb.org/t/p/w185/alTb0DlcPIbcwM08WSmxFai58sd.jpg",
+   "character": "Ken Kaneki (voice)",
+   "episodes": 48
+  },
+  {
+   "id": 1325034,
+   "name": "Sora Amamiya",
+   "photo": "https://image.tmdb.org/t/p/w185/AouA1SfwEazdSSj8rUS9K1WIF4H.jpg",
+   "character": "Touka Kirishima (voice)",
+   "episodes": 48
+  },
+  {
+   "id": 1247778,
+   "name": "Shintaro Asanuma",
+   "photo": "https://image.tmdb.org/t/p/w185/5D2YC0c4zg9TXyOi0PpIXRugvzb.jpg",
+   "character": "Nishiki Nishio (voice)",
+   "episodes": 48
+  },
+  {
+   "id": 9705,
+   "name": "Takahiro Sakurai",
+   "photo": "https://image.tmdb.org/t/p/w185/8s8owcKmpRAuhzEGjSdRpztthUg.jpg",
+   "character": "Uta (voice)",
+   "episodes": 48
+  },
+  {
+   "id": 1254135,
+   "name": "Sumire Morohoshi",
+   "photo": "https://image.tmdb.org/t/p/w185/6AoZkW7NxgsWXkoCkTGDSgFcyao.jpg",
+   "character": "Hinami Fueguchi (voice)",
+   "episodes": 48
+  },
+  {
+   "id": 1252998,
+   "name": "Yuuya Uchida",
+   "photo": "https://image.tmdb.org/t/p/w185/4xLLQGEDWtmLWUapo0UnfvCdsXp.jpg",
+   "character": "Arata Kirishima (voice)",
+   "episodes": 48
+  },
+  {
+   "id": 119143,
+   "name": "Kana Hanazawa",
+   "photo": "https://image.tmdb.org/t/p/w185/9UTBlNRopSOKyoWnCm74tyHOfR1.jpg",
+   "character": "Rize Kamishiro (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 83928,
+   "name": "Rie Kugimiya",
+   "photo": "https://image.tmdb.org/t/p/w185/xHonhNFpTpz9zCVXLAF7D4OuHLv.jpg",
+   "character": "Juuzou Suzuya (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 9719,
+   "name": "Toru Okawa",
+   "photo": "https://image.tmdb.org/t/p/w185/dkVP18qK730qbki25nogZzBbfuM.jpg",
+   "character": "Kureo Mado (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 1014991,
+   "name": "Toshiyuki Toyonaga",
+   "photo": "https://image.tmdb.org/t/p/w185/duhxGjWjgo6WagvGgKu529ztz7u.jpg",
+   "character": "Hideyoshi Nagachika (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 149894,
+   "name": "Yuki Kaji",
+   "photo": "https://image.tmdb.org/t/p/w185/8wKdPV11IwowfwoqGqMMNt9hmp6.jpg",
+   "character": "Ayato Kirishima (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 216453,
+   "name": "Takayuki Sugo",
+   "photo": "https://image.tmdb.org/t/p/w185/72SmjQLslGqH61JONZkSnEcvcRv.jpg",
+   "character": "Yoshimura (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 24647,
+   "name": "Katsuyuki Konishi",
+   "photo": "https://image.tmdb.org/t/p/w185/nYM5cH6U7cp4x9dIzW0enmEKmeV.jpg",
+   "character": "Koutarou Amon (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 83933,
+   "name": "Yutaka Nakano",
+   "photo": "https://image.tmdb.org/t/p/w185/qpI179YMdnMPaiH2rqieep3SYC3.jpg",
+   "character": "Yukinori Shinohara (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 126690,
+   "name": "Ryuuzaburou Ootomo",
+   "photo": "https://image.tmdb.org/t/p/w185/fk3ebYlTjILTXkzJNvOi3SRUNb6.jpg",
+   "character": "Iwao Kuroiwa (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 65427,
+   "name": "Yuji Ueda",
+   "photo": "https://image.tmdb.org/t/p/w185/nwJBK4WwsUCcBcX425GD2BroJDr.jpg",
+   "character": "Itsuki Marude (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 555099,
+   "name": "Koji Yusa",
+   "photo": "https://image.tmdb.org/t/p/w185/vBo8dHvZvbG4kax0LcaWvrXUZuX.jpg",
+   "character": "Tatara (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 135524,
+   "name": "Kenjiro Tsuda",
+   "photo": "https://image.tmdb.org/t/p/w185/yFpSPNHqYN4rdRiVpVaYmqXMkmi.jpg",
+   "character": "Nico (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 9711,
+   "name": "Maaya Sakamoto",
+   "photo": "https://image.tmdb.org/t/p/w185/jcjTJbxN3rYOtjSJihvbygvEFFZ.jpg",
+   "character": "Eto Yoshimura (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 1221102,
+   "name": "Yoshihisa Kawahara",
+   "photo": "https://image.tmdb.org/t/p/w185/p7mhXGetLcnIT7zSd1kiJrbC1t8.jpg",
+   "character": "Matsuri Washuu (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 1251325,
+   "name": "Tsuyoshi Koyama",
+   "photo": "https://image.tmdb.org/t/p/w185/xm7AT3bF4ARZvbx87ixXT8rNFgs.jpg",
+   "character": "Mougan Tanakamaru (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 1251007,
+   "name": "Anri Katsu",
+   "photo": "https://image.tmdb.org/t/p/w185/fXfYqB9QT5sBw0ooAvUSy4uccfD.jpg",
+   "character": "Enji Koma (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 1129852,
+   "name": "Fuyuka Ono",
+   "photo": "https://image.tmdb.org/t/p/w185/A00R9dwSJMSHbZGApsus28IAfAl.jpg",
+   "character": "Kaya Irimi (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 1296666,
+   "name": "Chinatsu Akasaki",
+   "photo": "https://image.tmdb.org/t/p/w185/nYYs30FgGrgr3uOiQ4ASmRpFca2.jpg",
+   "character": "Yoriko Kuroiwa (voice)",
+   "episodes": 1
+  }
+ ],
+ "crew": [
+  {
+   "id": 3068376,
+   "name": "Chuji Mikasano",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 61
+  },
+  {
+   "id": 2562541,
+   "name": "Toshinori Watanabe",
+   "photo": "https://image.tmdb.org/t/p/w185/7J24ZeJ6Dp6QFXfnXxHqGOUxm96.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 35
+  },
+  {
+   "id": 101361,
+   "name": "Shuhei Morita",
+   "photo": "https://image.tmdb.org/t/p/w185/fy7ghVSwH8CTttdvChIZ5eEbZTk.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 27
+  },
+  {
+   "id": 3013733,
+   "name": "Ren Onodera",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 3147029,
+   "name": "Kazumichi Ueda",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 931569,
+   "name": "Haruki Nakayama",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1506163,
+   "name": "Michiyuki Honma",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1919620,
+   "name": "Yutaka Yamada",
+   "photo": "https://image.tmdb.org/t/p/w185/yFzOAzF9UeToYaD78ODkosdfP9u.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1901654,
+   "name": "Tadahito Matsubayashi",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 552490,
+   "name": "Shin Matsuo",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1919984,
+   "name": "Yoshiaki Kyougoku",
+   "photo": "https://image.tmdb.org/t/p/w185/lBqNRORLCSxAIMy0jrxTwFaTXFc.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 3707551,
+   "name": "Soichi Shimada",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 2927510,
+   "name": "Seo Hye-jin",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1790494,
+   "name": "Masayuki Matsumoto",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1853321,
+   "name": "Taiji Kawanishi",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1842765,
+   "name": "Yoriyasu Kogawa",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:38:08.958Z"
+}

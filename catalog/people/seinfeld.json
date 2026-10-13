@@ -1,0 +1,328 @@
+{
+ "show": "Seinfeld",
+ "slug": "seinfeld",
+ "tmdbId": 1400,
+ "cast": [
+  {
+   "id": 16377,
+   "name": "Jerry Seinfeld",
+   "photo": "https://image.tmdb.org/t/p/w185/9OSptNQPVCUKZs1J3tqKcwtaB2v.jpg",
+   "character": "Jerry Seinfeld",
+   "episodes": 180
+  },
+  {
+   "id": 1206,
+   "name": "Jason Alexander",
+   "photo": "https://image.tmdb.org/t/p/w185/qRezZ2yhM2bmBERt7jVcxo8RVSA.jpg",
+   "character": "George Costanza",
+   "episodes": 180
+  },
+  {
+   "id": 50807,
+   "name": "Michael Richards",
+   "photo": "https://image.tmdb.org/t/p/w185/bAYwmBdPJAiFkossWq56pEDmUh4.jpg",
+   "character": "Cosmo Kramer",
+   "episodes": 180
+  },
+  {
+   "id": 15886,
+   "name": "Julia Louis-Dreyfus",
+   "photo": "https://image.tmdb.org/t/p/w185/iEfHQNrVbVFesDPjdySom9nqsFg.jpg",
+   "character": "Elaine Benes",
+   "episodes": 180
+  },
+  {
+   "id": 1223836,
+   "name": "Ruth Cohen",
+   "photo": null,
+   "character": "Ruthie Cohen (uncredited)",
+   "episodes": 100
+  },
+  {
+   "id": 4201,
+   "name": "Wayne Knight",
+   "photo": "https://image.tmdb.org/t/p/w185/yS3k7HZ8gSWyXrvvsX7V7oEmdHY.jpg",
+   "character": "Newman",
+   "episodes": 49
+  },
+  {
+   "id": 16376,
+   "name": "Larry David",
+   "photo": "https://image.tmdb.org/t/p/w185/ojPx93eaDcanOVi4AH14uAFwXhn.jpg",
+   "character": "Newman (voice) / Saddam Hussein (voice) / Man at Table (voice) (uncredited)",
+   "episodes": 44
+  },
+  {
+   "id": 62551,
+   "name": "Heidi Swedberg",
+   "photo": "https://image.tmdb.org/t/p/w185/aDMeu2mOXgCYOXEr3U795BYpl7t.jpg",
+   "character": "Susan Ross",
+   "episodes": 30
+  },
+  {
+   "id": 61964,
+   "name": "Estelle Harris",
+   "photo": "https://image.tmdb.org/t/p/w185/8L9umRwdjVs9CysJW24hhm2wNZ2.jpg",
+   "character": "Estelle Costanza",
+   "episodes": 29
+  },
+  {
+   "id": 26042,
+   "name": "Jerry Stiller",
+   "photo": "https://image.tmdb.org/t/p/w185/eGymLHTpIyxKyBjACsNTpEof6y4.jpg",
+   "character": "Frank Costanza",
+   "episodes": 29
+  },
+  {
+   "id": 3257316,
+   "name": "Norman Brenner",
+   "photo": "https://image.tmdb.org/t/p/w185/9ouH56thJietFVOGBRhM3KIMqFl.jpg",
+   "character": "Clerk / Passerby / Manager",
+   "episodes": 29
+  },
+  {
+   "id": 1211997,
+   "name": "Liz Sheridan",
+   "photo": "https://image.tmdb.org/t/p/w185/evXwVdTnsT34xXmMl80lorwfCyk.jpg",
+   "character": "Helen Seinfeld",
+   "episodes": 25
+  },
+  {
+   "id": 1212034,
+   "name": "Barney Martin",
+   "photo": "https://image.tmdb.org/t/p/w185/1yc6zG5AyjgDzH9GhyEVSroeBEi.jpg",
+   "character": "Morty Seinfeld",
+   "episodes": 24
+  },
+  {
+   "id": 25311,
+   "name": "John O'Hurley",
+   "photo": "https://image.tmdb.org/t/p/w185/M0aWmocAAXZBpCtxNPACQvfGUP.jpg",
+   "character": "J. Peterman",
+   "episodes": 22
+  },
+  {
+   "id": 78087,
+   "name": "Len Lesser",
+   "photo": "https://image.tmdb.org/t/p/w185/5qOuWP5I8JKVxD4WGyUfr4UaPHq.jpg",
+   "character": "Uncle Leo",
+   "episodes": 15
+  },
+  {
+   "id": 13732,
+   "name": "Richard Herd",
+   "photo": "https://image.tmdb.org/t/p/w185/e9ZYBIiIr2qLbeNxOXABgYOjzpW.jpg",
+   "character": "Wilhelm",
+   "episodes": 13
+  },
+  {
+   "id": 3273982,
+   "name": "Deck McKenzie",
+   "photo": "https://image.tmdb.org/t/p/w185/lmnMswLlylAf0WccqE6iDcDSSsL.jpg",
+   "character": "Security Guard / Man in Video Store / TMI Long Distance Operator",
+   "episodes": 13
+  },
+  {
+   "id": 1395891,
+   "name": "Peggy Lane",
+   "photo": "https://image.tmdb.org/t/p/w185/f5BBHjenRHa2zPOFApcO1IEyphs.jpg",
+   "character": "Reporter #1 / Card Player / Waitress #2",
+   "episodes": 12
+  },
+  {
+   "id": 3493531,
+   "name": "Lee Bear",
+   "photo": null,
+   "character": "George Steinbrenner",
+   "episodes": 12
+  },
+  {
+   "id": 9657,
+   "name": "Patrick Warburton",
+   "photo": "https://image.tmdb.org/t/p/w185/nDoOii5HaGwPxYa28xFC2sDkF8y.jpg",
+   "character": "David Puddy",
+   "episodes": 11
+  },
+  {
+   "id": 65748,
+   "name": "Richard Fancy",
+   "photo": "https://image.tmdb.org/t/p/w185/x99fMibFGHfXe3L6FD5cHWXDhU2.jpg",
+   "character": "Lippman",
+   "episodes": 11
+  },
+  {
+   "id": 168326,
+   "name": "Lauren Bowles",
+   "photo": "https://image.tmdb.org/t/p/w185/44IKklmPoS73RBd0L07kZb2jKcY.jpg",
+   "character": "Waitress #1 / Blonde Longhaired Woman / Waitress",
+   "episodes": 9
+  },
+  {
+   "id": 11764,
+   "name": "Ian Abercrombie",
+   "photo": "https://image.tmdb.org/t/p/w185/fKAYk2Fp5GzKizw4wlUgNPIt136.jpg",
+   "character": "Justin Pitt",
+   "episodes": 8
+  },
+  {
+   "id": 56576,
+   "name": "Steve Hytner",
+   "photo": "https://image.tmdb.org/t/p/w185/xQt4aD9zgn2OjZwPDpmoVjsUaQ0.jpg",
+   "character": "Kenny Bania",
+   "episodes": 7
+  }
+ ],
+ "crew": [
+  {
+   "id": 16376,
+   "name": "Larry David",
+   "photo": "https://image.tmdb.org/t/p/w185/ojPx93eaDcanOVi4AH14uAFwXhn.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 181
+  },
+  {
+   "id": 16377,
+   "name": "Jerry Seinfeld",
+   "photo": "https://image.tmdb.org/t/p/w185/9OSptNQPVCUKZs1J3tqKcwtaB2v.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 180
+  },
+  {
+   "id": 1223858,
+   "name": "Howard West",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 180
+  },
+  {
+   "id": 57406,
+   "name": "Alec Berg",
+   "photo": "https://image.tmdb.org/t/p/w185/8qCkqxlyxrSybMnUWf85XQ11qMB.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 180
+  },
+  {
+   "id": 166816,
+   "name": "Fred Barron",
+   "photo": "https://image.tmdb.org/t/p/w185/c7Wz4BmE1HIOrjNYMzOiWNt77y1.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 180
+  },
+  {
+   "id": 3030,
+   "name": "Andrew Scheinman",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 180
+  },
+  {
+   "id": 19471,
+   "name": "George Shapiro",
+   "photo": "https://image.tmdb.org/t/p/w185/5olYuUDiSj94CVrt9ETWrEm04HR.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 180
+  },
+  {
+   "id": 1213790,
+   "name": "Andy Ackerman",
+   "photo": "https://image.tmdb.org/t/p/w185/xwYjLYKSZJtOjFkrqEXBtRJNX1g.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 92
+  },
+  {
+   "id": 57405,
+   "name": "Jeff Schaffer",
+   "photo": "https://image.tmdb.org/t/p/w185/zjGUb5c4k6UiM3lyOwNk7GS04ED.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 86
+  },
+  {
+   "id": 1215063,
+   "name": "Tom Cherones",
+   "photo": "https://image.tmdb.org/t/p/w185/oZ4mCJU7TN3OKxxRSrymuiHpHTn.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 81
+  },
+  {
+   "id": 1216559,
+   "name": "Peter Mehlman",
+   "photo": "https://image.tmdb.org/t/p/w185/xO37vu0FzxG0cyuOkMVjnXfK9fm.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 6767,
+   "name": "Larry Charles",
+   "photo": "https://image.tmdb.org/t/p/w185/rt48JIfeIJPNNZftESWnMEuzAXN.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 1216673,
+   "name": "Max Pross",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 1216670,
+   "name": "Tom Gammill",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 44117,
+   "name": "Andy Robin",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 52864,
+   "name": "Gregg Kavet",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 11
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:28:10.589Z"
+}

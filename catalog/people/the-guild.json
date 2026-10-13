@@ -1,0 +1,243 @@
+{
+ "show": "The Guild",
+ "slug": "the-guild",
+ "tmdbId": 15768,
+ "cast": [
+  {
+   "id": 76527,
+   "name": "Felicia Day",
+   "photo": "https://image.tmdb.org/t/p/w185/wnggOc7HCXvjOGMbqxTftQbX6t5.jpg",
+   "character": "Codex",
+   "episodes": 70
+  },
+  {
+   "id": 224351,
+   "name": "Sandeep Parikh",
+   "photo": "https://image.tmdb.org/t/p/w185/xFDoXrRizfmDbqb0ZeCGGF7p3Z4.jpg",
+   "character": "Zaboo",
+   "episodes": 70
+  },
+  {
+   "id": 162669,
+   "name": "Jeff Lewis",
+   "photo": "https://image.tmdb.org/t/p/w185/jVh091GdEVRV6lxppsvD0RtJjTa.jpg",
+   "character": "Vork",
+   "episodes": 70
+  },
+  {
+   "id": 1245913,
+   "name": "Robin Thorsen",
+   "photo": "https://image.tmdb.org/t/p/w185/jyNtPyQwEqwJfagPN34c82o4U4d.jpg",
+   "character": "Clara",
+   "episodes": 70
+  },
+  {
+   "id": 208059,
+   "name": "Amy Okuda",
+   "photo": "https://image.tmdb.org/t/p/w185/mkiG0v1iZV8YDGzlTPhB8SNB3IK.jpg",
+   "character": "Tinkerballa",
+   "episodes": 70
+  },
+  {
+   "id": 1245912,
+   "name": "Vincent Caso",
+   "photo": "https://image.tmdb.org/t/p/w185/As9EdsUNA8VwGmv8IqC4tyFkGj1.jpg",
+   "character": "Bladezz",
+   "episodes": 70
+  },
+  {
+   "id": 2816500,
+   "name": "Brett Sheridan",
+   "photo": "https://image.tmdb.org/t/p/w185/kZY0ZyejxMPi5dW7yS277s93Vbj.jpg",
+   "character": "George / George Bean",
+   "episodes": 17
+  },
+  {
+   "id": 3033,
+   "name": "Wil Wheaton",
+   "photo": "https://image.tmdb.org/t/p/w185/3Jn3uSa79TwsK4D5fFyFzKag6ST.jpg",
+   "character": "Fawkes",
+   "episodes": 16
+  },
+  {
+   "id": 206827,
+   "name": "Viji Nathan",
+   "photo": "https://image.tmdb.org/t/p/w185/cJe3h81xaIdU17QRLqAAOIjuOkU.jpg",
+   "character": "Zaboo's Mom",
+   "episodes": 15
+  },
+  {
+   "id": 583111,
+   "name": "Michele Boyd",
+   "photo": "https://image.tmdb.org/t/p/w185/teBwQPszbQ9yaPVgtEZFRGjROIy.jpg",
+   "character": "Riley",
+   "episodes": 14
+  },
+  {
+   "id": 2815597,
+   "name": "Blake Sheridan",
+   "photo": null,
+   "character": "Baby (uncredited) / Baby",
+   "episodes": 13
+  },
+  {
+   "id": 2815594,
+   "name": "Gaby Gantvoort",
+   "photo": null,
+   "character": "Gaby / Gaby (uncredited)",
+   "episodes": 12
+  },
+  {
+   "id": 1363741,
+   "name": "Corey Martin Craig",
+   "photo": "https://image.tmdb.org/t/p/w185/2SY0ZK9wSgT81XPVs98CEpI6kwC.jpg",
+   "character": "Donovan",
+   "episodes": 10
+  },
+  {
+   "id": 1245914,
+   "name": "Tara Caso",
+   "photo": null,
+   "character": "Dena (uncredited) / Dena",
+   "episodes": 10
+  },
+  {
+   "id": 1245919,
+   "name": "Mike Rose",
+   "photo": null,
+   "character": "Valkyrie",
+   "episodes": 10
+  },
+  {
+   "id": 216782,
+   "name": "Fernando Chien",
+   "photo": "https://image.tmdb.org/t/p/w185/b7cPXueKRnJGBH057pE24rkEv5N.jpg",
+   "character": "Wade",
+   "episodes": 9
+  },
+  {
+   "id": 2816508,
+   "name": "Kenny Mittleider",
+   "photo": null,
+   "character": "Guy in Line / Convention goer / Party Guest",
+   "episodes": 9
+  },
+  {
+   "id": 1245916,
+   "name": "Teal Sherer",
+   "photo": null,
+   "character": "Venom",
+   "episodes": 9
+  },
+  {
+   "id": 2677755,
+   "name": "Aaron Jackson",
+   "photo": null,
+   "character": "Waiter / Convention Attendee / Left 4 Dead Bill / Samurai",
+   "episodes": 9
+  },
+  {
+   "id": 1245917,
+   "name": "J. Teddy Garces",
+   "photo": "https://image.tmdb.org/t/p/w185/1fqx8mqOB0x29HyziXHHRpglAEt.jpg",
+   "character": "Bruiser",
+   "episodes": 9
+  },
+  {
+   "id": 59225,
+   "name": "Sujata Day",
+   "photo": "https://image.tmdb.org/t/p/w185/fKdrLvYoNJf91yTDyKnZvEJWUVf.jpg",
+   "character": "Sula Morrison",
+   "episodes": 8
+  },
+  {
+   "id": 1578279,
+   "name": "Alexandra Hoover",
+   "photo": "https://image.tmdb.org/t/p/w185/nIUvkaRBCP617XJU6OqLvmVvb9B.jpg",
+   "character": "Theodora",
+   "episodes": 8
+  },
+  {
+   "id": 1245918,
+   "name": "Alexander Yi",
+   "photo": null,
+   "character": "Kwan",
+   "episodes": 7
+  },
+  {
+   "id": 2861573,
+   "name": "Crystal Siri",
+   "photo": null,
+   "character": "Office employee / Convention Attendee",
+   "episodes": 7
+  }
+ ],
+ "crew": [
+  {
+   "id": 76527,
+   "name": "Felicia Day",
+   "photo": "https://image.tmdb.org/t/p/w185/wnggOc7HCXvjOGMbqxTftQbX6t5.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 70
+  },
+  {
+   "id": 2794959,
+   "name": "Kim Evey",
+   "photo": "https://image.tmdb.org/t/p/w185/gpjNVzIqzDBEO2gRdKBZKUPBVW2.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 70
+  },
+  {
+   "id": 1087417,
+   "name": "Don Schiff",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 58
+  },
+  {
+   "id": 2050661,
+   "name": "Sean Becker",
+   "photo": "https://image.tmdb.org/t/p/w185/oIjaYD6TimXpq8xPzdB4J6O3it8.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 1711064,
+   "name": "Christopher Preksta",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1767301,
+   "name": "Jane Selle Morgan",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1212107,
+   "name": "Greg Benson",
+   "photo": "https://image.tmdb.org/t/p/w185/skhSdTqVcWIN9OgtEXSdH1iDqKe.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:37:38.236Z"
+}

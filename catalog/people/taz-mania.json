@@ -1,0 +1,231 @@
+{
+ "show": "Taz-Mania",
+ "slug": "taz-mania",
+ "tmdbId": 10126,
+ "cast": [
+  {
+   "id": 12077,
+   "name": "Jim Cummings",
+   "photo": "https://image.tmdb.org/t/p/w185/c0sQPRCM5Ri3F4gVyxPr4AcPmIq.jpg",
+   "character": "Taz / Bushwhacker Bob (voice)",
+   "episodes": 123
+  },
+  {
+   "id": 34521,
+   "name": "Maurice LaMarche",
+   "photo": "https://image.tmdb.org/t/p/w185/qCiL3EYAhLcNo0rNj5pczWo9MwG.jpg",
+   "character": "Hugh / Daniel Platypus (voice)",
+   "episodes": 123
+  },
+  {
+   "id": 35109,
+   "name": "Miriam Flynn",
+   "photo": "https://image.tmdb.org/t/p/w185/8o4nFOpCPrgJRhrUMHoouT1E9X3.jpg",
+   "character": "Jean (voice)",
+   "episodes": 123
+  },
+  {
+   "id": 93663,
+   "name": "Kellie Martin",
+   "photo": "https://image.tmdb.org/t/p/w185/vDy90F1H953nR1CfONVdCQ99YXw.jpg",
+   "character": "Molly (voice)",
+   "episodes": 123
+  },
+  {
+   "id": 73016,
+   "name": "Debi Derryberry",
+   "photo": "https://image.tmdb.org/t/p/w185/aCVgHnvGBw7ssZA9kl1Pnr5pJjU.jpg",
+   "character": "Jake (voice)",
+   "episodes": 123
+  },
+  {
+   "id": 198,
+   "name": "Dan Castellaneta",
+   "photo": "https://image.tmdb.org/t/p/w185/AmeqWhP4A46AWkM4kVphg6jOTQX.jpg",
+   "character": "Mr. Thickly (voice)",
+   "episodes": 123
+  },
+  {
+   "id": 41230,
+   "name": "John Astin",
+   "photo": "https://image.tmdb.org/t/p/w185/jHKGkaYWJSq2Ie3wjMbKpvWKtMT.jpg",
+   "character": "Bull Gator (voice)",
+   "episodes": 123
+  },
+  {
+   "id": 43125,
+   "name": "Rob Paulsen",
+   "photo": "https://image.tmdb.org/t/p/w185/7buvKWIjPlspqruaO3b28V5owJr.jpg",
+   "character": "Axl Gator / Francis X. Bushlad / Timothy Platypus (voice)",
+   "episodes": 123
+  },
+  {
+   "id": 148829,
+   "name": "Rosalyn Landor",
+   "photo": "https://image.tmdb.org/t/p/w185/7B4F8K3G9MdDUdgWhcb5qKnw7me.jpg",
+   "character": "Mum / Constance Koala (voice)",
+   "episodes": 123
+  },
+  {
+   "id": 110654,
+   "name": "Stan Freberg",
+   "photo": "https://image.tmdb.org/t/p/w185/msFe4Y7ud9k3DgcCmlXL0EZH6nR.jpg",
+   "character": "",
+   "episodes": 1
+  },
+  {
+   "id": 34978,
+   "name": "Arleen Sorkin",
+   "photo": "https://image.tmdb.org/t/p/w185/eZzTKXTBM7EXlcgUjWMiIJEs1tA.jpg",
+   "character": "Veronica (voice)",
+   "episodes": 1
+  }
+ ],
+ "crew": [
+  {
+   "id": 1212834,
+   "name": "Tom Ruegger",
+   "photo": "https://image.tmdb.org/t/p/w185/kncofUBXuuyZMYuxcNO4PfY1krO.jpg",
+   "jobs": [
+    "Creator"
+   ]
+  },
+  {
+   "id": 1217666,
+   "name": "Jean MacCurdy",
+   "photo": null,
+   "jobs": [
+    "Creator"
+   ]
+  },
+  {
+   "id": 1458349,
+   "name": "Art Vitello",
+   "photo": "https://image.tmdb.org/t/p/w185/tSml0Tmp3kUKAC0FW0ZjypxuHyi.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 86
+  },
+  {
+   "id": 3167143,
+   "name": "Keith Baxter",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 1447322,
+   "name": "Lenord Robinson",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 28
+  },
+  {
+   "id": 1214725,
+   "name": "Gary Hartle",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 28
+  },
+  {
+   "id": 147702,
+   "name": "Douglas McCarthy",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 27
+  },
+  {
+   "id": 81591,
+   "name": "Gordon Kent",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 23
+  },
+  {
+   "id": 35294,
+   "name": "Henry Gilroy",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 144393,
+   "name": "Bill Kopp",
+   "photo": "https://image.tmdb.org/t/p/w185/gh9Xhsq22tlWNPxrOIoY7iPBov1.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 1223736,
+   "name": "Mark Saraceni",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 179915,
+   "name": "Chris Otsuki",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 1218739,
+   "name": "Sindy McKay",
+   "photo": "https://image.tmdb.org/t/p/w185/ahIBJSMzSJbYi6qJobyg5zmbVN8.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1219479,
+   "name": "Mark Zaslove",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 2440574,
+   "name": "Jon McClenahan",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1248225,
+   "name": "Alan Katz",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:29:42.629Z"
+}

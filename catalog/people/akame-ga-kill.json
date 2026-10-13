@@ -1,0 +1,322 @@
+{
+ "show": "Akame ga Kill!",
+ "slug": "akame-ga-kill",
+ "tmdbId": 61223,
+ "cast": [
+  {
+   "id": 1388751,
+   "name": "Soma Saito",
+   "photo": "https://image.tmdb.org/t/p/w185/8W8Y02Jmjivw0kk5PDih9dqiyd9.jpg",
+   "character": "Tatsumi (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1325034,
+   "name": "Sora Amamiya",
+   "photo": "https://image.tmdb.org/t/p/w185/AouA1SfwEazdSSj8rUS9K1WIF4H.jpg",
+   "character": "Akame (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 203268,
+   "name": "Yukari Tamura",
+   "photo": "https://image.tmdb.org/t/p/w185/AigHQPetpcKee62ekHsYFSpQeWE.jpg",
+   "character": "Mine (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 148449,
+   "name": "Yuu Asakawa",
+   "photo": "https://image.tmdb.org/t/p/w185/2n7pYsUrUq4qg4VtQemndzIpOlb.jpg",
+   "character": "Leone (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1251007,
+   "name": "Anri Katsu",
+   "photo": "https://image.tmdb.org/t/p/w185/fXfYqB9QT5sBw0ooAvUSy4uccfD.jpg",
+   "character": "Daidara (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1256547,
+   "name": "Ayaka Ohashi",
+   "photo": "https://image.tmdb.org/t/p/w185/2nvtejsD4sc6QNlPhGedKvr3VS1.jpg",
+   "character": "Kurome (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 126693,
+   "name": "Eiji Takemoto",
+   "photo": "https://image.tmdb.org/t/p/w185/4FJFwO778aiLgbQ5gxW4djFj1sB.jpg",
+   "character": "Bols (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1325964,
+   "name": "Eriko Matsui",
+   "photo": "https://image.tmdb.org/t/p/w185/atMgu6hwHQisLA2tK8aVmevZYh6.jpg",
+   "character": "Suzuki (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1241562,
+   "name": "Hitomi Nabatame",
+   "photo": "https://image.tmdb.org/t/p/w185/jidfw5qDgZjC4TPY3YunJQxlEmr.jpg",
+   "character": "Nyau (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1169634,
+   "name": "Hozumi Goda",
+   "photo": "https://image.tmdb.org/t/p/w185/tEJYYjEPiKqQIapgRmLJ66EYOte.jpg",
+   "character": "Budo (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 23987,
+   "name": "Jouji Nakata",
+   "photo": "https://image.tmdb.org/t/p/w185/wYhv4BtQnc6bZp2Qnh6GiYjmNKC.jpg",
+   "character": "Liver (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1241464,
+   "name": "Junji Majima",
+   "photo": "https://image.tmdb.org/t/p/w185/xhxXPHHoqOp7Yimu9UJJcR1z58r.jpg",
+   "character": "Run (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 119143,
+   "name": "Kana Hanazawa",
+   "photo": "https://image.tmdb.org/t/p/w185/9UTBlNRopSOKyoWnCm74tyHOfR1.jpg",
+   "character": "Seryu Ubiquitous (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1357106,
+   "name": "Kanami Satou",
+   "photo": "https://image.tmdb.org/t/p/w185/x4YEuNRfQ3LUMJklNblU99PuoJx.jpg",
+   "character": "Aria (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 203473,
+   "name": "Kaori Nazuka",
+   "photo": "https://image.tmdb.org/t/p/w185/cIMS99s6jpgGBbMnih8gx9hLPFi.jpg",
+   "character": "Chelsea (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 90565,
+   "name": "Ken Narita",
+   "photo": "https://image.tmdb.org/t/p/w185/7fuRQk5eUp0MWQxxkw15RM1KxQM.jpg",
+   "character": "Dr. Stylish (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 550663,
+   "name": "Koji Ishii",
+   "photo": "https://image.tmdb.org/t/p/w185/ao882dlS1ERrar6iq0qedBVBAhH.jpg",
+   "character": "Honest (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 89903,
+   "name": "Mamiko Noto",
+   "photo": "https://image.tmdb.org/t/p/w185/wCSD7Umgzc66p8VGXrrMZtSLSuS.jpg",
+   "character": "Shelle (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 225656,
+   "name": "Masami Iwasaki",
+   "photo": "https://image.tmdb.org/t/p/w185/oPbAnYT409Ng3zkULTz0FewK6Es.jpg",
+   "character": "Borick (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 116323,
+   "name": "Risa Mizuno",
+   "photo": "https://image.tmdb.org/t/p/w185/3zk9Eqv19LQOU2unCHi2bJgwxmX.jpg",
+   "character": "Najenda (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 114299,
+   "name": "Ryohei Kimura",
+   "photo": "https://image.tmdb.org/t/p/w185/m4GktFKhjrVTewsZtqTusInHZqT.jpg",
+   "character": "Syura (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1252386,
+   "name": "Satomi Akesaka",
+   "photo": "https://image.tmdb.org/t/p/w185/lzNjOMm9jomHb7XlVsjJy53a4CC.jpg",
+   "character": "Esdeath (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 550091,
+   "name": "Satoshi Tsuruoka",
+   "photo": "https://image.tmdb.org/t/p/w185/yDPDu4TExWiuYQqgA44hFWeI87e.jpg",
+   "character": "Zank (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1247778,
+   "name": "Shintaro Asanuma",
+   "photo": "https://image.tmdb.org/t/p/w185/5D2YC0c4zg9TXyOi0PpIXRugvzb.jpg",
+   "character": "Susanoo (voice)",
+   "episodes": 24
+  }
+ ],
+ "crew": [
+  {
+   "id": 1307030,
+   "name": "Makoto Uezu",
+   "photo": "https://image.tmdb.org/t/p/w185/gR6nObmeyTO4fHd9BWHHbyHBonp.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 37
+  },
+  {
+   "id": 1388752,
+   "name": "Tomoki Kobayashi",
+   "photo": "https://image.tmdb.org/t/p/w185/gFOVcr1HjhvKmWBUJgTkrb28ITw.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 2044773,
+   "name": "Masanori Fujita",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 90138,
+   "name": "Taku Iwasaki",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1503517,
+   "name": "Touko Machida",
+   "photo": "https://image.tmdb.org/t/p/w185/5vGNMAmWxyEoQfiGZZJNmjaPYHf.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1630366,
+   "name": "Koujirou Nakamura",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 551775,
+   "name": "Hiroyuki Tsuchiya",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 2043193,
+   "name": "Akihisa Shibata",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1149037,
+   "name": "Masahiro Sonoda",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1481734,
+   "name": "Sumito Sasaki",
+   "photo": "https://image.tmdb.org/t/p/w185/yUGyAR0TEqU1Yn1FxSTozocIZ5A.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1566235,
+   "name": "Manabu Okamoto",
+   "photo": "https://image.tmdb.org/t/p/w185/t1DqmJ88f4bslhqDWaRzX53GEKG.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 2379722,
+   "name": "Daisuke Eguchi",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1880570,
+   "name": "Takahiro Kawakoshi",
+   "photo": "https://image.tmdb.org/t/p/w185/tMvP3yzpzOHdmTLClmed8ra6u0A.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 2376285,
+   "name": "Yoshiko Mikami",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1388755,
+   "name": "Kazuhiro Ozawa",
+   "photo": "https://image.tmdb.org/t/p/w185/bfGkfwEHS8p3HjTYmLWNuzkWWxU.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 2379724,
+   "name": "Mamiko Sekiya",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:38:31.744Z"
+}

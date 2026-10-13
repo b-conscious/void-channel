@@ -1,0 +1,330 @@
+{
+ "show": "Borgen",
+ "slug": "borgen",
+ "tmdbId": 42445,
+ "cast": [
+  {
+   "id": 32683,
+   "name": "Sidse Babett Knudsen",
+   "photo": "https://image.tmdb.org/t/p/w185/yVkWyBuJaup9I6FIgjZlGkczNNj.jpg",
+   "character": "Birgitte Nyborg",
+   "episodes": 30
+  },
+  {
+   "id": 90514,
+   "name": "Birgitte Hjort Sørensen",
+   "photo": "https://image.tmdb.org/t/p/w185/nFWcco0Z1Ic50g7YfZlaUrjBiEp.jpg",
+   "character": "Katrine Fønsmark",
+   "episodes": 30
+  },
+  {
+   "id": 228218,
+   "name": "Mikael Birkkjær",
+   "photo": "https://image.tmdb.org/t/p/w185/mAKWxBOuLkNtRZj8UtnLUK2O3RV.jpg",
+   "character": "Philip Christensen",
+   "episodes": 30
+  },
+  {
+   "id": 202582,
+   "name": "Lars Knutzon",
+   "photo": "https://image.tmdb.org/t/p/w185/egBCVi5HiBnpxpaAZ1QtHE49BxS.jpg",
+   "character": "Bent Sejrø",
+   "episodes": 30
+  },
+  {
+   "id": 82537,
+   "name": "Søren Malling",
+   "photo": "https://image.tmdb.org/t/p/w185/5jmNDae49UgMGMOKTdjIqb8klUg.jpg",
+   "character": "Torben Friis",
+   "episodes": 30
+  },
+  {
+   "id": 202593,
+   "name": "Benedikte Hansen",
+   "photo": "https://image.tmdb.org/t/p/w185/mol5DUffaIMZ47apbxbGmUZtoEB.jpg",
+   "character": "Hanne Holm",
+   "episodes": 30
+  },
+  {
+   "id": 1255678,
+   "name": "Emil Poulsen",
+   "photo": null,
+   "character": "Magnus Christensen",
+   "episodes": 30
+  },
+  {
+   "id": 202622,
+   "name": "Thomas Levin",
+   "photo": "https://image.tmdb.org/t/p/w185/8YFHfFmmmFgbuBaL6eEJwXoXUtU.jpg",
+   "character": "Ulrik Mørch",
+   "episodes": 30
+  },
+  {
+   "id": 562622,
+   "name": "Lisbeth Wulff",
+   "photo": "https://image.tmdb.org/t/p/w185/yxUsgmkzHiEdgvkEsHmZg2gVtQY.jpg",
+   "character": "Pia Munk",
+   "episodes": 30
+  },
+  {
+   "id": 1054388,
+   "name": "Søren Spanning",
+   "photo": "https://image.tmdb.org/t/p/w185/vMjKT4qwfVJWs739BGFP4yS5KZH.jpg",
+   "character": "Lars Hesselboe",
+   "episodes": 30
+  },
+  {
+   "id": 90060,
+   "name": "Pilou Asbæk",
+   "photo": "https://image.tmdb.org/t/p/w185/hUJAtjbYG7rqm54aoWtNWeeKjTY.jpg",
+   "character": "Kasper Juul",
+   "episodes": 30
+  },
+  {
+   "id": 1255679,
+   "name": "Freja Riemann",
+   "photo": "https://image.tmdb.org/t/p/w185/7hUb4V9DZAIGI3MeSixK5lPyYQz.jpg",
+   "character": "Laura Nyborg Christensen",
+   "episodes": 30
+  },
+  {
+   "id": 1255681,
+   "name": "Anders Juul",
+   "photo": "https://image.tmdb.org/t/p/w185/nxjAbZUngcyJ6mDaLuTwWHBM8SI.jpg",
+   "character": "Simon Bech",
+   "episodes": 30
+  },
+  {
+   "id": 4678297,
+   "name": "Kasper Lange",
+   "photo": "https://image.tmdb.org/t/p/w185/kTK8Le1uASzppqgx3MOhDPEttq.jpg",
+   "character": "Dan Vestergaard",
+   "episodes": 30
+  },
+  {
+   "id": 71154,
+   "name": "Peter Mygind",
+   "photo": "https://image.tmdb.org/t/p/w185/mjd8B5YiatzwE7kx1Uh2NQABMR1.jpg",
+   "character": "Michael Laugesen",
+   "episodes": 21
+  },
+  {
+   "id": 588177,
+   "name": "Morten Kirkskov",
+   "photo": "https://image.tmdb.org/t/p/w185/6IfBn2j0JfAsv5x5R94FSPW49kE.jpg",
+   "character": "Niels Erik Lund",
+   "episodes": 15
+  },
+  {
+   "id": 15085,
+   "name": "Ole Thestrup",
+   "photo": "https://image.tmdb.org/t/p/w185/rxeSHAJJbsvnGcb06Vm30uvB7Bq.jpg",
+   "character": "Svend Åge Saltum",
+   "episodes": 14
+  },
+  {
+   "id": 4464,
+   "name": "Bjarne Henriksen",
+   "photo": "https://image.tmdb.org/t/p/w185/6WLQcG8r9JsR9itrniXKunBfY4i.jpg",
+   "character": "Hans Christian Thorsen",
+   "episodes": 14
+  },
+  {
+   "id": 82534,
+   "name": "Iben Dorner",
+   "photo": "https://image.tmdb.org/t/p/w185/tHARjuvwRHHsaBlgRn62pdrA1nl.jpg",
+   "character": "Sanne",
+   "episodes": 13
+  },
+  {
+   "id": 101732,
+   "name": "Jens Jacob Tychsen",
+   "photo": "https://image.tmdb.org/t/p/w185/egEHW5fjXjZWudX6w2El8ivKHWP.jpg",
+   "character": "Jacob Kruse",
+   "episodes": 12
+  },
+  {
+   "id": 135945,
+   "name": "Petrine Agger",
+   "photo": "https://image.tmdb.org/t/p/w185/wjzYZU9Gxj979MYeGpjwTZxGUzf.jpg",
+   "character": "Pernille Madsen",
+   "episodes": 12
+  },
+  {
+   "id": 137444,
+   "name": "Patricia Schumann",
+   "photo": "https://image.tmdb.org/t/p/w185/5MvqhjzH6ODhYTnKfhaxdZy2ZS7.jpg",
+   "character": "Tanja",
+   "episodes": 11
+  },
+  {
+   "id": 46595,
+   "name": "Signe Egholm Olsen",
+   "photo": "https://image.tmdb.org/t/p/w185/rPlZ8JqoQGdDiJCJ8YhCeIgPhA6.jpg",
+   "character": "Anne Sophie Lindenkrone / Anne Sofie Lindenkrone",
+   "episodes": 11
+  },
+  {
+   "id": 88146,
+   "name": "Jannie Faurschou",
+   "photo": "https://image.tmdb.org/t/p/w185/3QbRYbA5u9c7x0XJucniUMvanvV.jpg",
+   "character": "Yvonne Kjær",
+   "episodes": 11
+  }
+ ],
+ "crew": [
+  {
+   "id": 1241108,
+   "name": "Adam Price",
+   "photo": "https://image.tmdb.org/t/p/w185/eJiR7YJilbjZodKpc8oMjmn8Pd.jpg",
+   "jobs": [
+    "Creator",
+    "Story",
+    "Writer"
+   ],
+   "episodes": 120
+  },
+  {
+   "id": 1255684,
+   "name": "Camilla Hammerich",
+   "photo": "https://image.tmdb.org/t/p/w185/g6YHqhmHcDaLstvW4KKpHPiX9gJ.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 1255682,
+   "name": "Jeppe Gjervig Gram",
+   "photo": "https://image.tmdb.org/t/p/w185/cPdUYu6Z0i6uQQm9VKhHn3TATkv.jpg",
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 43
+  },
+  {
+   "id": 141883,
+   "name": "Tobias Lindholm",
+   "photo": "https://image.tmdb.org/t/p/w185/tNl1qcd5QzwddNPycDtgNfG002u.jpg",
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 41
+  },
+  {
+   "id": 99747,
+   "name": "Jesper W. Nielsen",
+   "photo": "https://image.tmdb.org/t/p/w185/saKeKGUFwyMXxbtugjIpFHi67Ll.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 36
+  },
+  {
+   "id": 1020017,
+   "name": "Louise Friedberg",
+   "photo": "https://image.tmdb.org/t/p/w185/37eFZ1AW7FD3lVGKJK5SgHiZaHt.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 36
+  },
+  {
+   "id": 1066129,
+   "name": "Maja Jul Larsen",
+   "photo": "https://image.tmdb.org/t/p/w185/1NFyCUmbtLRjNMuImZn9kbDUBB0.jpg",
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 33
+  },
+  {
+   "id": 228979,
+   "name": "Jannik Tai Mosholt",
+   "photo": "https://image.tmdb.org/t/p/w185/6HJBWrNeADG7Rz2L56Lm2Bo7w0S.jpg",
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 32
+  },
+  {
+   "id": 1517987,
+   "name": "Maren Louise Käehne",
+   "photo": "https://image.tmdb.org/t/p/w185/bOKtkaxtC5IqkcsRQzDdg4BBblO.jpg",
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 2138483,
+   "name": "Ingolf Gabold",
+   "photo": "https://image.tmdb.org/t/p/w185/mGlU92AJVUgfbpMzYALuhfImkfz.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 1667966,
+   "name": "Emilie Lebech Kaae",
+   "photo": "https://image.tmdb.org/t/p/w185/ixfnXIBNh7NpIH7OpHLTl67JAy7.jpg",
+   "jobs": [
+    "Story"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 206476,
+   "name": "Mikkel Nørgaard",
+   "photo": "https://image.tmdb.org/t/p/w185/hS9bAmMnJRQ7aqYuiJIDzIStkK0.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 543592,
+   "name": "Annette K. Olesen",
+   "photo": "https://image.tmdb.org/t/p/w185/wz0RWPQCXMQuUHuunsjdb6nQJzB.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 82351,
+   "name": "Henrik Ruben Genz",
+   "photo": "https://image.tmdb.org/t/p/w185/1S5HkLFDnxfxwYAP2E2DDWquk2v.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 72372,
+   "name": "Charlotte Sieling",
+   "photo": "https://image.tmdb.org/t/p/w185/hcgSpUhuQV94zTsdkCuAXGUvKRL.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 118171,
+   "name": "Rumle Hammerich",
+   "photo": "https://image.tmdb.org/t/p/w185/zNNI3xGRVRisHkVfdA1xfFYUMKF.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:42:24.464Z"
+}

@@ -1,0 +1,323 @@
+{
+ "show": "AIBOU: Tokyo Detective Duo",
+ "slug": "aibou-tokyo-detective-duo",
+ "tmdbId": 40663,
+ "cast": [
+  {
+   "id": 233694,
+   "name": "Yutaka Mizutani",
+   "photo": "https://image.tmdb.org/t/p/w185/2TYdmWA09srHJ9FkrQpM0FVMJyD.jpg",
+   "character": "杉下右京(Ukyō Sugishita)",
+   "episodes": 462
+  },
+  {
+   "id": 2761104,
+   "name": "Takashi Yamanaka",
+   "photo": "https://image.tmdb.org/t/p/w185/sN9qD63aqJ8hc4em6k37XkSkeF2.jpg",
+   "character": "芹泽庆二(Keiji Serizawa)",
+   "episodes": 462
+  },
+  {
+   "id": 553109,
+   "name": "Kazuhisa Kawahara",
+   "photo": "https://image.tmdb.org/t/p/w185/6LC11rOEAOtWGBfAhSwS0wtX9dl.jpg",
+   "character": "伊丹宪一(Kenichi Itami)",
+   "episodes": 462
+  },
+  {
+   "id": 1602438,
+   "name": "Atsushi Yamanishi",
+   "photo": "https://image.tmdb.org/t/p/w185/z3KjHXsz2zzy255eoBPFIgQdnND.jpg",
+   "character": "角田六郎(Rokuro Kakuta)",
+   "episodes": 462
+  },
+  {
+   "id": 1034277,
+   "name": "Ryuji Katagiri",
+   "photo": "https://image.tmdb.org/t/p/w185/dIDUaPoilOpJJAMDJeXXqPMSvyq.jpg",
+   "character": "内村完尔(Kanji Uchimura)",
+   "episodes": 462
+  },
+  {
+   "id": 1622642,
+   "name": "Ryo Ono",
+   "photo": "https://image.tmdb.org/t/p/w185/8YKTnDTOkP35mTVBzgcStUwYPgo.jpg",
+   "character": "中园照生(Teruo Nakazono)",
+   "episodes": 462
+  },
+  {
+   "id": 550565,
+   "name": "Mitsuhiro Oikawa",
+   "photo": "https://image.tmdb.org/t/p/w185/as3aRjdzHrgxsCNmvKsjWl9blnq.jpg",
+   "character": "神户尊(Takeru Kambe)",
+   "episodes": 462
+  },
+  {
+   "id": 553443,
+   "name": "Satoshi Jinbo",
+   "photo": "https://image.tmdb.org/t/p/w185/8kVtQbERnvzw01Swx9OR4ASofLc.jpg",
+   "character": "Haruki Okouchi",
+   "episodes": 370
+  },
+  {
+   "id": 1179321,
+   "name": "Rokkaku Seiji",
+   "photo": "https://image.tmdb.org/t/p/w185/5HFngSMaHsUGS0lPni4c5Z24WF2.jpg",
+   "character": "Mamoru Yonezawa",
+   "episodes": 270
+  },
+  {
+   "id": 107961,
+   "name": "Koji Ishizaka",
+   "photo": "https://image.tmdb.org/t/p/w185/7GNWhEzs3mvOkxR6rM7J2NmbD3q.jpg",
+   "character": "Mineaki Kai",
+   "episodes": 195
+  },
+  {
+   "id": 13281,
+   "name": "Ittoku Kishibe",
+   "photo": "https://image.tmdb.org/t/p/w185/znOMfIwxlgnAs1mXqHJ1h7pihCB.jpg",
+   "character": "Koken Onoda",
+   "episodes": 187
+  },
+  {
+   "id": 58674,
+   "name": "Yukie Nakama",
+   "photo": "https://image.tmdb.org/t/p/w185/nQpfSd4eIZpDKNSNGXV1cBUhvfm.jpg",
+   "character": "Miyako Yashiro",
+   "episodes": 178
+  },
+  {
+   "id": 124128,
+   "name": "Sawa Suzuki",
+   "photo": "https://image.tmdb.org/t/p/w185/fh3qORqgkUOkjeRKDiZuMI29Z4t.jpg",
+   "character": "Miwako Okudera",
+   "episodes": 172
+  },
+  {
+   "id": 225663,
+   "name": "Yasufumi Terawaki",
+   "photo": "https://image.tmdb.org/t/p/w185/gEMhLFmU5K8DlHJ2WRLfomOa8Sa.jpg",
+   "character": "龟山薰(Kaoru Kameyama)",
+   "episodes": 172
+  },
+  {
+   "id": 1255179,
+   "name": "Saya Takagi",
+   "photo": "https://image.tmdb.org/t/p/w185/fE0KD8dwGtEnksW4A6Q0U1SoPRS.jpg",
+   "character": "Tamaki Miyabe",
+   "episodes": 168
+  },
+  {
+   "id": 1255183,
+   "name": "Anju Suzuki",
+   "photo": "https://image.tmdb.org/t/p/w185/go24xFAUFPz3GAzaiiUYxDqdf3I.jpg",
+   "character": "Sachiko Tsukimoto",
+   "episodes": 155
+  },
+  {
+   "id": 58050,
+   "name": "Takashi Sorimachi",
+   "photo": "https://image.tmdb.org/t/p/w185/xBA2SFFNRGgWI4YH1uWkXzHdf1q.jpg",
+   "character": "Wataru Kaburagi",
+   "episodes": 138
+  },
+  {
+   "id": 129827,
+   "name": "Yōsuke Asari",
+   "photo": "https://image.tmdb.org/t/p/w185/a41N4Www1BKYF3ZEkuxYx2GZo2U.jpg",
+   "character": "Toshio Aoki",
+   "episodes": 119
+  },
+  {
+   "id": 1187788,
+   "name": "Ryuzo Tanaka",
+   "photo": "https://image.tmdb.org/t/p/w185/gvemOqevgoELncRyGjr5gMicuOE.jpg",
+   "character": "Souei Mashiko",
+   "episodes": 118
+  },
+  {
+   "id": 932012,
+   "name": "Yōko Moriguchi",
+   "photo": "https://image.tmdb.org/t/p/w185/2npiaHIqeRojOw7QqKE9lTMjFFw.jpg",
+   "character": "Mari Koide",
+   "episodes": 81
+  },
+  {
+   "id": 117463,
+   "name": "Takaaki Enoki",
+   "photo": "https://image.tmdb.org/t/p/w185/tZ3q04MhRJfWeHkTmDpAYuIsTnL.jpg",
+   "character": "Yahiko Kusakabe",
+   "episodes": 80
+  },
+  {
+   "id": 1407396,
+   "name": "Yukiko Shinohara",
+   "photo": "https://image.tmdb.org/t/p/w185/3797As8HURRMWtGb02ogLyIxR56.jpg",
+   "character": "Reon Izumo",
+   "episodes": 61
+  },
+  {
+   "id": 104523,
+   "name": "Hiroki Narimiya",
+   "photo": "https://image.tmdb.org/t/p/w185/vSQJ51HUdoeEDCW5J18BD8VwzMM.jpg",
+   "character": "Tōru Kai",
+   "episodes": 57
+  },
+  {
+   "id": 1255182,
+   "name": "Sei Matobu",
+   "photo": "https://image.tmdb.org/t/p/w185/onxwXsi3gCZ3z3tkNqQR1wVG8QZ.jpg",
+   "character": "Etsuko Usui",
+   "episodes": 57
+  }
+ ],
+ "crew": [
+  {
+   "id": 1998707,
+   "name": "Kiyoshi Kuwata",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 236
+  },
+  {
+   "id": 16140,
+   "name": "Yoshihiro Ike",
+   "photo": "https://image.tmdb.org/t/p/w185/7Jx36LizCSXgpIzXjr0J6T4yRt8.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 79
+  },
+  {
+   "id": 1433816,
+   "name": "Yasuhiro Koshimizu",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 946135,
+   "name": "Seiji Izumi",
+   "photo": "https://image.tmdb.org/t/p/w185/375X3vxx5PjR1CinDmuP9A26wPm.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 23
+  },
+  {
+   "id": 1034272,
+   "name": "Hajime Hashimoto",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 2328382,
+   "name": "Toshiaki Kondo",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 1076573,
+   "name": "Takeharu Sakurai",
+   "photo": "https://image.tmdb.org/t/p/w185/63Q2lgYVU13RCU6ljdKCQswO2j1.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1255187,
+   "name": "Hakaru Sunamoto",
+   "photo": "https://image.tmdb.org/t/p/w185/6o6gLftRbLjKaAi2R47mkpfEfTv.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 2041216,
+   "name": "Toshio Ooi",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 2326599,
+   "name": "Seisuke Yoshino",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 239386,
+   "name": "Yasuharu Hasebe",
+   "photo": "https://image.tmdb.org/t/p/w185/ltHuIIqfzdtg85M3VSjpMeFabKj.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 2313019,
+   "name": "Mutsumi Yamamoto",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 2444963,
+   "name": "Toshiyuki Morishita",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 2057235,
+   "name": "Akira Uchikata",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 2164255,
+   "name": "Hajime Gonno",
+   "photo": "https://image.tmdb.org/t/p/w185/gql6rNkbqUro5BQncRC375jQyIW.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1283288,
+   "name": "Tomihiko Tokunaga",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:43:09.303Z"
+}

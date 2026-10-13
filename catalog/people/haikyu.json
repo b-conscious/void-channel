@@ -1,0 +1,323 @@
+{
+ "show": "Haikyu!!",
+ "slug": "haikyu",
+ "tmdbId": 60863,
+ "cast": [
+  {
+   "id": 1325230,
+   "name": "Ayumu Murase",
+   "photo": "https://image.tmdb.org/t/p/w185/3aGM6KpcCIEKOXP9510tzaKc8uw.jpg",
+   "character": "Shoyo Hinata (voice)",
+   "episodes": 85
+  },
+  {
+   "id": 1324666,
+   "name": "Kaito Ishikawa",
+   "photo": "https://image.tmdb.org/t/p/w185/fzjIkotjUHHs3wgftM9tqdsG8ph.jpg",
+   "character": "Tobio Kageyama (voice)",
+   "episodes": 85
+  },
+  {
+   "id": 1254290,
+   "name": "Yuu Hayashi",
+   "photo": "https://image.tmdb.org/t/p/w185/tCABSsjU9fWZqTtOAGTGcUnEF2p.jpg",
+   "character": "Ryunosuke Tanaka (voice)",
+   "episodes": 82
+  },
+  {
+   "id": 224413,
+   "name": "Satoshi Hino",
+   "photo": "https://image.tmdb.org/t/p/w185/8ZJIiwIVF2zDyyFr7oXewj0eEuu.jpg",
+   "character": "Daichi Sawamura (voice)",
+   "episodes": 81
+  },
+  {
+   "id": 19588,
+   "name": "Miyu Irino",
+   "photo": "https://image.tmdb.org/t/p/w185/8qEEhHUObNvGQr4e6eqLu5z4qTz.jpg",
+   "character": "Koshi Sugawara (voice)",
+   "episodes": 81
+  },
+  {
+   "id": 1254052,
+   "name": "Koki Uchiyama",
+   "photo": "https://image.tmdb.org/t/p/w185/sllSm3iZZWVLTBrDZQRtWrZUfEj.jpg",
+   "character": "Kei Tsukishima (voice)",
+   "episodes": 79
+  },
+  {
+   "id": 1388751,
+   "name": "Soma Saito",
+   "photo": "https://image.tmdb.org/t/p/w185/8W8Y02Jmjivw0kk5PDih9dqiyd9.jpg",
+   "character": "Tadashi Yamaguchi (voice)",
+   "episodes": 77
+  },
+  {
+   "id": 1245094,
+   "name": "Nobuhiko Okamoto",
+   "photo": "https://image.tmdb.org/t/p/w185/7s1K2yQVF5iIWILaOfG7QrMZkXA.jpg",
+   "character": "Yu Nishinoya (voice)",
+   "episodes": 76
+  },
+  {
+   "id": 1253008,
+   "name": "Yoshimasa Hosoya",
+   "photo": "https://image.tmdb.org/t/p/w185/lUR5oN1LrqGgp25IOcI1qOH1Ud5.jpg",
+   "character": "Asahi Azumane (voice)",
+   "episodes": 74
+  },
+  {
+   "id": 93801,
+   "name": "Hiroshi Kamiya",
+   "photo": "https://image.tmdb.org/t/p/w185/5aAAOlQ2hW5EqEQOzk4UeroxcTN.jpg",
+   "character": "Ittetsu Takeda (voice)",
+   "episodes": 70
+  },
+  {
+   "id": 1613352,
+   "name": "Toshiki Masuda",
+   "photo": "https://image.tmdb.org/t/p/w185/oMAk5Pu3aazmwFwiVOgyU7iW5ut.jpg",
+   "character": "Chikara Ennoshita (voice)",
+   "episodes": 61
+  },
+  {
+   "id": 203473,
+   "name": "Kaori Nazuka",
+   "photo": "https://image.tmdb.org/t/p/w185/cIMS99s6jpgGBbMnih8gx9hLPFi.jpg",
+   "character": "Kiyoko Shimizu (voice) / Karasuno Girls' Volleyball Club Member B (voice)",
+   "episodes": 54
+  },
+  {
+   "id": 72458,
+   "name": "Kazunari Tanaka",
+   "photo": "https://image.tmdb.org/t/p/w185/y89XvF4jqsFgCw5V6IWFfGENvYg.jpg",
+   "character": "Keishin Ukai (voice)",
+   "episodes": 52
+  },
+  {
+   "id": 2810091,
+   "name": "Nobuyori Sagara",
+   "photo": "https://image.tmdb.org/t/p/w185/65uEaQrGVzVIPT9vW6ygZhA9PhX.jpg",
+   "character": "Hisashi Kinoshita (voice) / Yuji Isehara (voice) / Kitagawa Daiichi Member C (voice)",
+   "episodes": 49
+  },
+  {
+   "id": 1249235,
+   "name": "Tomoaki Maeno",
+   "photo": "https://image.tmdb.org/t/p/w185/w3lEuXSbEyzzNyO3YnxsF6wm2N5.jpg",
+   "character": "Makoto Shimada (voice)",
+   "episodes": 47
+  },
+  {
+   "id": 1254135,
+   "name": "Sumire Morohoshi",
+   "photo": "https://image.tmdb.org/t/p/w185/6AoZkW7NxgsWXkoCkTGDSgFcyao.jpg",
+   "character": "Hitoka Yachi (voice)",
+   "episodes": 45
+  },
+  {
+   "id": 1251544,
+   "name": "Shuhei Sakaguchi",
+   "photo": "https://image.tmdb.org/t/p/w185/nMhYPT9sRr8TFHWkEggzXrzqgPe.jpg",
+   "character": "Yusuke Takinoue (voice)",
+   "episodes": 43
+  },
+  {
+   "id": 1870205,
+   "name": "Koutaro Nishiyama",
+   "photo": "https://image.tmdb.org/t/p/w185/6qKGsoetRrvOvlROdYx40CVlHtw.jpg",
+   "character": "Kawashita (voice) / Kazuhito Narita (voice)",
+   "episodes": 40
+  },
+  {
+   "id": 1205378,
+   "name": "Yuka Komatsu",
+   "photo": "https://image.tmdb.org/t/p/w185/iqlPvX1pwrbs9ju9WgMaRPuBiCs.jpg",
+   "character": "Tetsuro Kuroo as a Sixth Grader (voice) / Mrs. Hinata (voice) / Saeko Tanaka (voice)",
+   "episodes": 35
+  },
+  {
+   "id": 110665,
+   "name": "Daisuke Namikawa",
+   "photo": "https://image.tmdb.org/t/p/w185/iw0X8oDutxaBAri3Ifga8nhdUJK.jpg",
+   "character": "Toru Oikawa (voice)",
+   "episodes": 33
+  },
+  {
+   "id": 1319218,
+   "name": "Makoto Furukawa",
+   "photo": "https://image.tmdb.org/t/p/w185/inLmBZhrqXeE9wlViyK28ocKJSw.jpg",
+   "character": "Yutaro Kindaichi (voice)",
+   "episodes": 27
+  },
+  {
+   "id": 225996,
+   "name": "Hiroyuki Yoshino",
+   "photo": "https://image.tmdb.org/t/p/w185/nZQbjjvAjPpjGYenY7kLDtW9e7N.jpg",
+   "character": "Hajime Iwaizumi (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 1258552,
+   "name": "Atsushi Tamaru",
+   "photo": "https://image.tmdb.org/t/p/w185/coh8N88X0eBIHfPgHE9qFMrUMCD.jpg",
+   "character": "Akira Kunimi (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 122654,
+   "name": "Hisao Egawa",
+   "photo": "https://image.tmdb.org/t/p/w185/7uZ43mElJTJqLsQwTkntFN4REGT.jpg",
+   "character": "Keishin Ukai (voice)",
+   "episodes": 23
+  }
+ ],
+ "crew": [
+  {
+   "id": 1483904,
+   "name": "Taku Kishimoto",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 158
+  },
+  {
+   "id": 12183,
+   "name": "Mitsuhisa Ishikawa",
+   "photo": "https://image.tmdb.org/t/p/w185/lXN5l6C5qRHGX9t8AZOgiB0jGxg.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 85
+  },
+  {
+   "id": 2044642,
+   "name": "Keiji Ota",
+   "photo": "https://image.tmdb.org/t/p/w185/15NZaRqZHSguv6wF2SvuFoYlkiO.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 85
+  },
+  {
+   "id": 1315180,
+   "name": "Kozue Kananiwa",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 85
+  },
+  {
+   "id": 2385014,
+   "name": "Asami Tachibana",
+   "photo": "https://image.tmdb.org/t/p/w185/7BU7srwNo230kfXjsNsXOhXhmyG.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 85
+  },
+  {
+   "id": 1505059,
+   "name": "Yuki Hayashi",
+   "photo": "https://image.tmdb.org/t/p/w185/iCg4vtRXcuGAprflzCgG541hqfa.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 85
+  },
+  {
+   "id": 1325228,
+   "name": "Susumu Mitsunaka",
+   "photo": "https://image.tmdb.org/t/p/w185/rLXm1yWmq1W3uwVXniLBVRFFHE.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 67
+  },
+  {
+   "id": 2171817,
+   "name": "Mariko Ishikawa",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 62
+  },
+  {
+   "id": 1846715,
+   "name": "Naoki Kitagawa",
+   "photo": "https://image.tmdb.org/t/p/w185/pG1WhCOcEujgHCEtLtIPlVjJIY4.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 50
+  },
+  {
+   "id": 1928109,
+   "name": "Naoki Watanabe",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 50
+  },
+  {
+   "id": 1315181,
+   "name": "Hiroo Maruyama",
+   "photo": "https://image.tmdb.org/t/p/w185/uI0WlFnSK1YjERWtphtal8OWJ4q.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 35
+  },
+  {
+   "id": 3103111,
+   "name": "Kohei Takenaka",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 35
+  },
+  {
+   "id": 3103113,
+   "name": "Shingo Kunieda",
+   "photo": "https://image.tmdb.org/t/p/w185/u3N1dbOMaT91RIOkTPLUHaXKbE.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 35
+  },
+  {
+   "id": 235121,
+   "name": "Katsuji Morishita",
+   "photo": "https://image.tmdb.org/t/p/w185/fvPwab9wpOVjFsIhoAak3XBldnq.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 35
+  },
+  {
+   "id": 2135289,
+   "name": "Masako Sato",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 1827038,
+   "name": "Hiroyuki Fujita",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 25
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:38:23.547Z"
+}

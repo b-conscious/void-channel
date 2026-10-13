@@ -1,0 +1,305 @@
+{
+ "show": "Batman Beyond",
+ "slug": "batman-beyond",
+ "tmdbId": 513,
+ "cast": [
+  {
+   "id": 76621,
+   "name": "Will Friedle",
+   "photo": "https://image.tmdb.org/t/p/w185/Ao3fp9f4loVQ1Vvk6ph8HU5p0Lu.jpg",
+   "character": "Terry McGinnis / Batman (voice)",
+   "episodes": 52
+  },
+  {
+   "id": 34947,
+   "name": "Kevin Conroy",
+   "photo": "https://image.tmdb.org/t/p/w185/zvWhAwO2l8Kb5IJTwTbKzURypg7.jpg",
+   "character": "Bruce Wayne (voice)",
+   "episodes": 52
+  },
+  {
+   "id": 34985,
+   "name": "Cree Summer",
+   "photo": "https://image.tmdb.org/t/p/w185/7DRq0zPUUWu55pUbnc2roVnzOJ9.jpg",
+   "character": "Officer Williams partner (voice) / Max Gibson (voice)",
+   "episodes": 39
+  },
+  {
+   "id": 15100,
+   "name": "Lauren Tom",
+   "photo": "https://image.tmdb.org/t/p/w185/fTKFspRRQ275AkzvtPERLZnXe0n.jpg",
+   "character": "Dana Tan (voice) / Agent Lee (voice) / Green Lantern (voice)",
+   "episodes": 36
+  },
+  {
+   "id": 8893,
+   "name": "Stockard Channing",
+   "photo": "https://image.tmdb.org/t/p/w185/fsk0HkOVKtdcbHfsc99bQvMJep3.jpg",
+   "character": "Commissioner Barbara Gordon (voice)",
+   "episodes": 30
+  },
+  {
+   "id": 8437,
+   "name": "Teri Garr",
+   "photo": "https://image.tmdb.org/t/p/w185/iscVncnCVtM8Wl4FmcEkr6KDtRE.jpg",
+   "character": "Mary McGinnis (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 166406,
+   "name": "Ryan O'Donohue",
+   "photo": "https://image.tmdb.org/t/p/w185/mQKJsEQmmX8ymJEMTWgNEzZea6t.jpg",
+   "character": "Matt McGinnis (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 54859,
+   "name": "Sherman Howard",
+   "photo": "https://image.tmdb.org/t/p/w185/oaFzlV0kddSSSelh4VSIJaKt7Gf.jpg",
+   "character": "Derek Powers / Blight (voice) / Derek Powers (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 35219,
+   "name": "Corey Burton",
+   "photo": "https://image.tmdb.org/t/p/w185/wcpFwdL7m01cZoBJiUSMQVakK2G.jpg",
+   "character": "Captain (voice) / Istivan Hegedesh (voice) / General Norman (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 34934,
+   "name": "Bruce Timm",
+   "photo": "https://image.tmdb.org/t/p/w185/4G64qCUGFQ1Sfwa6MK7CzwAaHyL.jpg",
+   "character": "Jokerz Leader (voice) / J-Man (voice) / Top Hat Joker (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 13922,
+   "name": "Seth Green",
+   "photo": "https://image.tmdb.org/t/p/w185/l4No5Eu6j0U80hCIkaSn17AOWrj.jpg",
+   "character": "Nelson Nash (voice) / Nelson Nash / Dempsey (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 19975,
+   "name": "Michael Rosenbaum",
+   "photo": "https://image.tmdb.org/t/p/w185/ymiZjRwcS3gcCtsfv4w3GjRc2yc.jpg",
+   "character": "Carl (voice) / Carter Wilson / Terminal (voice) / Ollie (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 165299,
+   "name": "Sean Donnellan",
+   "photo": "https://image.tmdb.org/t/p/w185/4tsouu72zOZBdJD2MN3tj9T53m5.jpg",
+   "character": "Virtual News Anchor (voice) / Virtual Announcer (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 2249,
+   "name": "Clyde Kusatsu",
+   "photo": "https://image.tmdb.org/t/p/w185/5dTSe1F9cnReZGHYzbCbVy7vbcf.jpg",
+   "character": "Mr. Fong (voice) / Mr. Tan (voice) / Jimmy Lin (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 19547,
+   "name": "Gregg Berger",
+   "photo": "https://image.tmdb.org/t/p/w185/bMlJUmhblX50gQrnA8XWG7UuaLk.jpg",
+   "character": "Computer (voice) / Dispatch Agent (voice) / Pilot (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 5176,
+   "name": "Sam McMurray",
+   "photo": "https://image.tmdb.org/t/p/w185/pbZSG0hprUcRkUF3q4NUUzvQX3E.jpg",
+   "character": "Harry Tully (voice) / Burn (voice) / Chelsea's Dad (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 8192,
+   "name": "Joe Spano",
+   "photo": "https://image.tmdb.org/t/p/w185/rHiJspLrlb4uDmWfchwd8Fv13k7.jpg",
+   "character": "Sniper / Doctor #2 (voice) / Bennet (voice) / Boss (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 1238662,
+   "name": "Shannon Kenny",
+   "photo": "https://image.tmdb.org/t/p/w185/e4sDK6Gs1XfWFRimDA6T8f1PbCx.jpg",
+   "character": "Inque (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 92525,
+   "name": "Melissa Disney",
+   "photo": "https://image.tmdb.org/t/p/w185/59T1OcQ1unwode4Vwgo69L4l1Ac.jpg",
+   "character": "Curare (voice) / Blade (voice) / Curaré (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 10167,
+   "name": "George Lazenby",
+   "photo": "https://image.tmdb.org/t/p/w185/c2Sb2SYKhvwoq0MYrwpNTVuw6xH.jpg",
+   "character": "King (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 534301,
+   "name": "T'Keyah Crystal Keymáh",
+   "photo": "https://image.tmdb.org/t/p/w185/9C1wgFe9QkdRSCXR8nOrAIymCpO.jpg",
+   "character": "Old Woman (voice) / Dispatch Operator (voice) / Makeba (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 88183,
+   "name": "Omar Gooding",
+   "photo": "https://image.tmdb.org/t/p/w185/qDZ8WVbMQ3inSUn4k7XWqgCAIvm.jpg",
+   "character": "Trey (voice) / Jared Tate (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 24362,
+   "name": "Kevin Michael Richardson",
+   "photo": "https://image.tmdb.org/t/p/w185/xXt9Nh7RAT5bOen66TaXreNYmCl.jpg",
+   "character": "Pilot (voice) / Security Chief (voice) / Mr. Chandler (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 30488,
+   "name": "Miguel Sandoval",
+   "photo": "https://image.tmdb.org/t/p/w185/v5tHxTkgOqcdWgjoEhUj0a50NIK.jpg",
+   "character": "Dr. Blades (voice) / Bennie (voice) / Mendez (voice)",
+   "episodes": 3
+  }
+ ],
+ "crew": [
+  {
+   "id": 1217666,
+   "name": "Jean MacCurdy",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 52
+  },
+  {
+   "id": 34931,
+   "name": "Stan Berkowitz",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 34922,
+   "name": "Butch Lukic",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 34921,
+   "name": "Dan Riba",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 1214727,
+   "name": "Hilary Bader",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 182257,
+   "name": "Rich Fogel",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 34920,
+   "name": "Curt Geda",
+   "photo": "https://image.tmdb.org/t/p/w185/jRcadH8KfIBe4JZzifNC7Zmxrv6.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 34936,
+   "name": "Alan Burnett",
+   "photo": "https://image.tmdb.org/t/p/w185/3gNmuxxdQbZ6nX2F63SMQNVbmqz.jpg",
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1211813,
+   "name": "Paul Dini",
+   "photo": "https://image.tmdb.org/t/p/w185/yPRds0jAYIU1OETfZuwka5ro7lE.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1212835,
+   "name": "John P. McCann",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 186367,
+   "name": "Yukio Suzuki",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1212834,
+   "name": "Tom Ruegger",
+   "photo": "https://image.tmdb.org/t/p/w185/kncofUBXuuyZMYuxcNO4PfY1krO.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1217663,
+   "name": "John Shirley",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1217660,
+   "name": "Evan Dorkin",
+   "photo": "https://image.tmdb.org/t/p/w185/62iuk2Cg1nTslAclznEd1RHhyJX.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:29:29.448Z"
+}

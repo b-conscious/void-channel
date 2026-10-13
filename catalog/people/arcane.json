@@ -1,0 +1,331 @@
+{
+ "show": "Arcane",
+ "slug": "arcane",
+ "tmdbId": 94605,
+ "cast": [
+  {
+   "id": 130640,
+   "name": "Hailee Steinfeld",
+   "photo": "https://image.tmdb.org/t/p/w185/qDInsG0cxWNxS1X4t59TBZ5S6x5.jpg",
+   "character": "Vi (voice)",
+   "episodes": 18
+  },
+  {
+   "id": 989325,
+   "name": "Ella Purnell",
+   "photo": "https://image.tmdb.org/t/p/w185/jqrYg35GHuMGwGqEVUthqTLQnay.jpg",
+   "character": "Jinx (voice)",
+   "episodes": 18
+  },
+  {
+   "id": 116474,
+   "name": "Kevin Alejandro",
+   "photo": "https://image.tmdb.org/t/p/w185/bh4aQqP7kJzL2Ls9tj5OmhsBlqi.jpg",
+   "character": "Jayce (voice)",
+   "episodes": 17
+  },
+  {
+   "id": 1256258,
+   "name": "Toks Olagundoye",
+   "photo": "https://image.tmdb.org/t/p/w185/2tKnfTA0gh6QnTcHb18hj8o70uG.jpg",
+   "character": "Mel Medarda (voice)",
+   "episodes": 14
+  },
+  {
+   "id": 205258,
+   "name": "Harry Lloyd",
+   "photo": "https://image.tmdb.org/t/p/w185/qZSf6OzRpDaZdOCX6pynSRp6jVV.jpg",
+   "character": "Viktor (voice)",
+   "episodes": 14
+  },
+  {
+   "id": 234933,
+   "name": "Katie Leung",
+   "photo": "https://image.tmdb.org/t/p/w185/9gztOAk27dpZVspSJpb27ek7LlT.jpg",
+   "character": "Caitlyn (voice)",
+   "episodes": 14
+  },
+  {
+   "id": 216973,
+   "name": "Jason Spisak",
+   "photo": "https://image.tmdb.org/t/p/w185/yWxJDXNcocccr1LkEuVXapVdcXS.jpg",
+   "character": "Pim (voice) / Silco (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 136152,
+   "name": "JB Blanc",
+   "photo": "https://image.tmdb.org/t/p/w185/fHLyXboPlBDo1aoAl085YqaPjO8.jpg",
+   "character": "Bolbok / Vander (voice) / Warwick (voice) / Vander / Warwick (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 1224188,
+   "name": "Brett Tucker",
+   "photo": "https://image.tmdb.org/t/p/w185/6IUQyy2pA8PRXX1MEx088JH6pcu.jpg",
+   "character": "Singed / Sergeant Billingsworth (voice) / Singed (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 1522168,
+   "name": "Amirah Vann",
+   "photo": "https://image.tmdb.org/t/p/w185/fkPvdG6gA0ibs6V0DTGhcHx7sbV.jpg",
+   "character": "Sevika / Apothecary (voice) / Sevika (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 20903,
+   "name": "Josh Keaton",
+   "photo": "https://image.tmdb.org/t/p/w185/9ss2EXbN0VarF1tM2Qotwxy6fJs.jpg",
+   "character": "Deckard / Salo (voice) / Salo (voice) / Salo / Customs Agent (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 1664570,
+   "name": "Mia Sinclair Jenness",
+   "photo": "https://image.tmdb.org/t/p/w185/3eCX6PqGf6a3j1kJy2KAPGj9nR2.jpg",
+   "character": "Powder (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 1714807,
+   "name": "Reed Shannon",
+   "photo": "https://image.tmdb.org/t/p/w185/xPrV7wpwCDPGm8yb0RMAqGo8A6k.jpg",
+   "character": "Ekko (voice) / Firelight Leader (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 1347947,
+   "name": "Remy Hii",
+   "photo": "https://image.tmdb.org/t/p/w185/nCXWaFzPNgkr5cwoHkmkqIsQsXJ.jpg",
+   "character": "Marcus (voice) / Mr. Kiramman (voice) / Marcus / Mr. Kiramman (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 30434,
+   "name": "Ellen Thomas",
+   "photo": "https://image.tmdb.org/t/p/w185/e6v4bPKptR3XgbcbfbqgXDfVJrL.jpg",
+   "character": "Ambessa Medarda (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 971877,
+   "name": "Mick Wingert",
+   "photo": "https://image.tmdb.org/t/p/w185/2Apga68BihekhCSPHNk5pXqC5Gq.jpg",
+   "character": "Heimerdinger (voice) / Heimerdinger / Duty Captain (voice) / Heimerdinger / Heenot (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 1082094,
+   "name": "Dave B. Mitchell",
+   "photo": "https://image.tmdb.org/t/p/w185/r2EI55tU7v2UZw61cSQzrFrbvdn.jpg",
+   "character": "Hoskel / Enforcer (voice) / Hoskel (voice) / Warden (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 179012,
+   "name": "Abigail Marlowe",
+   "photo": "https://image.tmdb.org/t/p/w185/2hsCcJ7UFJ1Rw66mv8KQMlvsYy2.jpg",
+   "character": "Mrs. Kiramman (voice) / Mrs. Kiramman / Renni (voice) / Mrs. Kiramman / Lieutenant Eve (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 2815827,
+   "name": "Mara Junot",
+   "photo": "https://image.tmdb.org/t/p/w185/oeleO9LWLaY4H3YvcNymeXC1TuK.jpg",
+   "character": "Jules (voice) / Shoola / Female Enforcer (voice) / Shoola (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 4425829,
+   "name": "Abigail Ludrof",
+   "photo": null,
+   "character": "Additional Voices (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 127387,
+   "name": "Yuri Lowenthal",
+   "photo": "https://image.tmdb.org/t/p/w185/aLgXm0kbbIC8I5OBmnsK8TgVKwy.jpg",
+   "character": "Mylo (voice) / Mylo / Stall Holder (voice) / Mylo /  Thug #1 (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 75038,
+   "name": "Roger Craig Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/6oE356GbRHAf91Llw7LDpvsAf5L.jpg",
+   "character": "Claggor (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 1599422,
+   "name": "Erica Lindbeck",
+   "photo": "https://image.tmdb.org/t/p/w185/l5ISBt8S8Upct0fDgaEPuELp4zE.jpg",
+   "character": "Elora (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 54427,
+   "name": "Kimberly Brooks",
+   "photo": "https://image.tmdb.org/t/p/w185/iPlCk1VQ8fnAtsMow6HlCZoQc0w.jpg",
+   "character": "Margot / Sky (voice) / Sky (voice)",
+   "episodes": 6
+  }
+ ],
+ "crew": [
+  {
+   "id": 2000007,
+   "name": "Christian Linke",
+   "photo": "https://image.tmdb.org/t/p/w185/u1uCJkmVSeLQC1CwSB7UzXAVbqO.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 3299121,
+   "name": "Alex Yee",
+   "photo": "https://image.tmdb.org/t/p/w185/kvRKbXZcCnM6d1vcND4917iQ4kp.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 3299119,
+   "name": "Arnaud Delord",
+   "photo": "https://image.tmdb.org/t/p/w185/qUiWtDE38mU0E6zUK4vUBM8jbWt.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 27
+  },
+  {
+   "id": 90866,
+   "name": "Melinda Wunsch Dilger",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 27
+  },
+  {
+   "id": 1957346,
+   "name": "Pascal Charrue",
+   "photo": "https://image.tmdb.org/t/p/w185/4z0axhC1oXySE1RBFydKjIkJbpZ.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 3299112,
+   "name": "Thomas Vu",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 3299109,
+   "name": "Marc Merrill",
+   "photo": "https://image.tmdb.org/t/p/w185/jaokNgkziOsPgAwmw4l11pRQWoi.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 2530697,
+   "name": "Hervé Dupont",
+   "photo": "https://image.tmdb.org/t/p/w185/tFEjtbUvghc4tqNQoBVqQvwp1Wm.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 2000054,
+   "name": "Brandon Beck",
+   "photo": "https://image.tmdb.org/t/p/w185/17UtrvkKDBS31XtoBWMpDMONjQC.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 3299111,
+   "name": "Jane Chung",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 1957347,
+   "name": "Jérôme Combe",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 3299500,
+   "name": "Alex Seaver",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 2000008,
+   "name": "Alexander Temple",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 1656216,
+   "name": "Amanda Overton",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 12905,
+   "name": "Ash Brannon",
+   "photo": "https://image.tmdb.org/t/p/w185/meH6AhBnCyX4w0lBFvRQWDJmvjv.jpg",
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1410189,
+   "name": "Barth Maunoury",
+   "photo": "https://image.tmdb.org/t/p/w185/gp92EK40oPPr3AsqughlbGfJ2GD.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 9
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:58.335Z"
+}

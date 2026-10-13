@@ -1,0 +1,338 @@
+{
+ "show": "Superman & Lois",
+ "slug": "superman-and-lois",
+ "tmdbId": 95057,
+ "cast": [
+  {
+   "id": 78198,
+   "name": "Tyler Hoechlin",
+   "photo": "https://image.tmdb.org/t/p/w185/9AAjJeq9b0GyO0LmKQ9LHb9rzw0.jpg",
+   "character": "Clark Kent / Superman",
+   "episodes": 53
+  },
+  {
+   "id": 74577,
+   "name": "Elizabeth Tulloch",
+   "photo": "https://image.tmdb.org/t/p/w185/trC9dIUvgXyG2dDbofG75g4aMkK.jpg",
+   "character": "Lois Lane",
+   "episodes": 53
+  },
+  {
+   "id": 1393181,
+   "name": "Alex Garfin",
+   "photo": "https://image.tmdb.org/t/p/w185/j6gCiAUjfFSmnF38ZcrcX7YiqsH.jpg",
+   "character": "Jordan Kent",
+   "episodes": 53
+  },
+  {
+   "id": 2638587,
+   "name": "Inde Navarrette",
+   "photo": "https://image.tmdb.org/t/p/w185/qlNBUGON8FebgzcqVhhRSVFYSa5.jpg",
+   "character": "Sarah Cortez",
+   "episodes": 47
+  },
+  {
+   "id": 1367619,
+   "name": "Erik Valdez",
+   "photo": "https://image.tmdb.org/t/p/w185/gx6VVWA5l7oMhJ5pQ2f9VAWjl8Y.jpg",
+   "character": "Kyle Cushing",
+   "episodes": 46
+  },
+  {
+   "id": 1132104,
+   "name": "Wolé Parks",
+   "photo": "https://image.tmdb.org/t/p/w185/nstF434UXqCR3rig37TdbAdyNmZ.jpg",
+   "character": "John Henry Irons",
+   "episodes": 46
+  },
+  {
+   "id": 59192,
+   "name": "Emmanuelle Chriqui",
+   "photo": "https://image.tmdb.org/t/p/w185/5ll30bFOYMlIucGNrqWQ4bAA14U.jpg",
+   "character": "Lana Lang",
+   "episodes": 46
+  },
+  {
+   "id": 21043,
+   "name": "Dylan Walsh",
+   "photo": "https://image.tmdb.org/t/p/w185/A0XK6UEOuMKf66XpsZ1DBa9kXAR.jpg",
+   "character": "Samuel Lane",
+   "episodes": 45
+  },
+  {
+   "id": 1538574,
+   "name": "Sofia Hasmik",
+   "photo": "https://image.tmdb.org/t/p/w185/oFoWKuFSjHEPC0bNx31K8pKwSaP.jpg",
+   "character": "Chrissy Beppo",
+   "episodes": 40
+  },
+  {
+   "id": 1836442,
+   "name": "Tayler Buck",
+   "photo": "https://image.tmdb.org/t/p/w185/dKgt4g4jMnh3j3ExhB2JtvSNSOH.jpg",
+   "character": "Natalie Irons",
+   "episodes": 33
+  },
+  {
+   "id": 1719127,
+   "name": "Jordan Elsass",
+   "photo": "https://image.tmdb.org/t/p/w185/hhOrGz8Hwum9cKE3IzWKY6Ree4T.jpg",
+   "character": "Jonathan Kent",
+   "episodes": 30
+  },
+  {
+   "id": 2967,
+   "name": "Daisy Tormé",
+   "photo": "https://image.tmdb.org/t/p/w185/66xxYGWygWIUnbE7jtedJ3UoYMQ.jpg",
+   "character": "A.I. Device / Hedy (voice) / A.I. Device (voice) / Hedy (voice)",
+   "episodes": 27
+  },
+  {
+   "id": 2989123,
+   "name": "Joselyn Picard",
+   "photo": "https://image.tmdb.org/t/p/w185/8uqSOBKTX81XAXrTZ4rAAl9rlZV.jpg",
+   "character": "Sophie Cushing",
+   "episodes": 26
+  },
+  {
+   "id": 3136340,
+   "name": "Michael Bishop",
+   "photo": "https://image.tmdb.org/t/p/w185/dMSnH7obePHnPGmPzHysSA5uJFj.jpg",
+   "character": "Jonathan Kent",
+   "episodes": 23
+  },
+  {
+   "id": 144292,
+   "name": "Adam Rayner",
+   "photo": "https://image.tmdb.org/t/p/w185/3A0DTEZAzDx2i4Rl71hPkJSlLYa.jpg",
+   "character": "Bizarro Tal-Rho / Morgan Edge / Tal-Rho",
+   "episodes": 20
+  },
+  {
+   "id": 2582572,
+   "name": "Austin Anozie",
+   "photo": "https://image.tmdb.org/t/p/w185/1uA9awHpAgbhsWiD33ol9DttCeB.jpg",
+   "character": "Malcolm Teague",
+   "episodes": 18
+  },
+  {
+   "id": 169467,
+   "name": "Danny Wattley",
+   "photo": "https://image.tmdb.org/t/p/w185/aHh87mAQpdacOLnxvwfDJWvayAu.jpg",
+   "character": "Coach Gaines / Coach Gaines / Bizarro Coach Gaines",
+   "episodes": 18
+  },
+  {
+   "id": 1676394,
+   "name": "Leeah Wong",
+   "photo": "https://image.tmdb.org/t/p/w185/f3zbcitExWwgrKzkmUih7DvBdcc.jpg",
+   "character": "Emily Phan",
+   "episodes": 18
+  },
+  {
+   "id": 1951237,
+   "name": "Kelcey Mawema",
+   "photo": "https://image.tmdb.org/t/p/w185/iQtELMbdtehSAhXdDzFANOd88LN.jpg",
+   "character": "Denise Olowe",
+   "episodes": 17
+  },
+  {
+   "id": 1694992,
+   "name": "Zane Clifford",
+   "photo": "https://image.tmdb.org/t/p/w185/u1AF1wnjttYOE0fMAKSc3u7NJtl.jpg",
+   "character": "Timmy Ryan",
+   "episodes": 17
+  },
+  {
+   "id": 2080222,
+   "name": "Pavel Romano",
+   "photo": "https://image.tmdb.org/t/p/w185/pnhXhYkejct6lhHrfEt8WZwA3bW.jpg",
+   "character": "Corey Wellnitz",
+   "episodes": 17
+  },
+  {
+   "id": 1187262,
+   "name": "Dee Jay Jackson",
+   "photo": "https://image.tmdb.org/t/p/w185/5h8osWUxfQBEHv0jvUwAwrFXWmB.jpg",
+   "character": "Cobb Branden",
+   "episodes": 17
+  },
+  {
+   "id": 3120482,
+   "name": "Samantha Di Francesco",
+   "photo": "https://image.tmdb.org/t/p/w185/uP61OsQdLpK6RyYQGRTblB8SKUF.jpg",
+   "character": "Candice Pergande",
+   "episodes": 17
+  },
+  {
+   "id": 1265632,
+   "name": "Monique Phillips",
+   "photo": "https://image.tmdb.org/t/p/w185/gGX5ywM9sJ4CJsuqiA56PDzNPTC.jpg",
+   "character": "Aidy Manning",
+   "episodes": 16
+  }
+ ],
+ "crew": [
+  {
+   "id": 88967,
+   "name": "Greg Berlanti",
+   "photo": "https://image.tmdb.org/t/p/w185/1T24SiIIDMa9gAmq7QaYwZywq4y.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Story"
+   ],
+   "episodes": 53
+  },
+  {
+   "id": 209763,
+   "name": "Todd Helbing",
+   "photo": "https://image.tmdb.org/t/p/w185/wNwx7IQs1HHcMuR7gsBcKPEfFYd.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 53
+  },
+  {
+   "id": 1231387,
+   "name": "Brent Fletcher",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 76
+  },
+  {
+   "id": 20814,
+   "name": "Gregory Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/5qwhNXC5SZf3D7e1i6iNFvcp91P.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 53
+  },
+  {
+   "id": 1298521,
+   "name": "Kristi Korzec",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 53
+  },
+  {
+   "id": 211962,
+   "name": "Geoff Johns",
+   "photo": "https://image.tmdb.org/t/p/w185/1hiQjkIkeFoiwvD4yIk2Dq6tnOa.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 53
+  },
+  {
+   "id": 1395152,
+   "name": "Sarah Schechter",
+   "photo": "https://image.tmdb.org/t/p/w185/8UgL2O24cC8SniiryeYmZuafU4G.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 53
+  },
+  {
+   "id": 24051,
+   "name": "David Madden",
+   "photo": "https://image.tmdb.org/t/p/w185/9APs7N4K0BrEJZn25R1rZ4MZDbw.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 53
+  },
+  {
+   "id": 1155140,
+   "name": "Dan Romer",
+   "photo": "https://image.tmdb.org/t/p/w185/cOoq9WBHzuZ3L3BmPvUBiB7c67x.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 53
+  },
+  {
+   "id": 3079459,
+   "name": "Katie Aldrin",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 51
+  },
+  {
+   "id": 1597925,
+   "name": "Jai Jamison",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 49
+  },
+  {
+   "id": 3098930,
+   "name": "Andrew N. Wong",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 47
+  },
+  {
+   "id": 3106015,
+   "name": "Adam Mallinger",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 47
+  },
+  {
+   "id": 3372774,
+   "name": "Juliana James",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 1878868,
+   "name": "George Kitson",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 1803548,
+   "name": "Ian Samoil",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 16
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:26.489Z"
+}

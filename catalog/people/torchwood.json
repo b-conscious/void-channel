@@ -1,0 +1,324 @@
+{
+ "show": "Torchwood",
+ "slug": "torchwood",
+ "tmdbId": 424,
+ "cast": [
+  {
+   "id": 182287,
+   "name": "John Barrowman",
+   "photo": "https://image.tmdb.org/t/p/w185/kDx4ynZwEUtBgomulnCEO9mLobU.jpg",
+   "character": "Jack Harkness",
+   "episodes": 41
+  },
+  {
+   "id": 119908,
+   "name": "Eve Myles",
+   "photo": "https://image.tmdb.org/t/p/w185/5NipnvM12zbDjIbZf3tzLfQu4bf.jpg",
+   "character": "Gwen Cooper",
+   "episodes": 41
+  },
+  {
+   "id": 206162,
+   "name": "Kai Owen",
+   "photo": "https://image.tmdb.org/t/p/w185/b3ohZL5XgnsRS3uzx4flcJzE0SR.jpg",
+   "character": "Rhys Williams",
+   "episodes": 41
+  },
+  {
+   "id": 110875,
+   "name": "Gareth David-Lloyd",
+   "photo": "https://image.tmdb.org/t/p/w185/am5qnHQBGpRBWZ2l1DzlBFUY9xm.jpg",
+   "character": "Ianto Jones",
+   "episodes": 31
+  },
+  {
+   "id": 39659,
+   "name": "Burn Gorman",
+   "photo": "https://image.tmdb.org/t/p/w185/udgACYWqCSuu6nvtrSjmyU28B0V.jpg",
+   "character": "Owen Harper",
+   "episodes": 26
+  },
+  {
+   "id": 205659,
+   "name": "Naoko Mori",
+   "photo": "https://image.tmdb.org/t/p/w185/hUrrFXt0ncgnfX1cjxvjCZa6DHj.jpg",
+   "character": "Toshiko Sato",
+   "episodes": 26
+  },
+  {
+   "id": 1216389,
+   "name": "Tom Price",
+   "photo": "https://image.tmdb.org/t/p/w185/8jQX1v0ZlOFPH0pHlPIM9aoEw4F.jpg",
+   "character": "PC Andy Davidson",
+   "episodes": 14
+  },
+  {
+   "id": 100085,
+   "name": "Paul Kasey",
+   "photo": "https://image.tmdb.org/t/p/w185/f6P4xudwJVEtkzIYh8Ur23U44Sj.jpg",
+   "character": "Blowfish / Weevil",
+   "episodes": 13
+  },
+  {
+   "id": 66630,
+   "name": "Alexa Havins",
+   "photo": "https://image.tmdb.org/t/p/w185/5AZ5iCJLhBlZLuPIeIxqsRcX7H2.jpg",
+   "character": "Esther Drummond",
+   "episodes": 10
+  },
+  {
+   "id": 327,
+   "name": "Mekhi Phifer",
+   "photo": "https://image.tmdb.org/t/p/w185/jCvF0bpi9emIWBnu20MCMU0bwrf.jpg",
+   "character": "Rex Matheson",
+   "episodes": 10
+  },
+  {
+   "id": 8984,
+   "name": "Bill Pullman",
+   "photo": "https://image.tmdb.org/t/p/w185/AlLhgmcX5zh3frPT82OSPY9gqXO.jpg",
+   "character": "Oswald Danes",
+   "episodes": 10
+  },
+  {
+   "id": 3713,
+   "name": "Frances Fisher",
+   "photo": "https://image.tmdb.org/t/p/w185/3iNDgd54IIj8g8hGqhhUjM6TeWd.jpg",
+   "character": "The Mother",
+   "episodes": 10
+  },
+  {
+   "id": 54470,
+   "name": "Lauren Ambrose",
+   "photo": "https://image.tmdb.org/t/p/w185/67oLiPwWKhy0zqdfm6NX9cXD5is.jpg",
+   "character": "Jilly Kitzinger",
+   "episodes": 7
+  },
+  {
+   "id": 185825,
+   "name": "Sharon Morgan",
+   "photo": "https://image.tmdb.org/t/p/w185/7fwreHAcz74r3urkfJl0m8Sh5Qw.jpg",
+   "character": "Mary / Mary Cooper",
+   "episodes": 7
+  },
+  {
+   "id": 534446,
+   "name": "William Thomas",
+   "photo": "https://image.tmdb.org/t/p/w185/os93KSWHsZTwfft0raAfKSfXLbc.jpg",
+   "character": "Geraint Cooper",
+   "episodes": 6
+  },
+  {
+   "id": 2562525,
+   "name": "Rhodri Lewis",
+   "photo": null,
+   "character": "Johnny Davies",
+   "episodes": 5
+  },
+  {
+   "id": 2562528,
+   "name": "Aimee Davies",
+   "photo": null,
+   "character": "Mica Davies",
+   "episodes": 5
+  },
+  {
+   "id": 2562530,
+   "name": "Bear McCausland",
+   "photo": null,
+   "character": "Steven Carter",
+   "episodes": 5
+  },
+  {
+   "id": 62975,
+   "name": "Katy Wix",
+   "photo": "https://image.tmdb.org/t/p/w185/vVr5KhTeqvxTjgYE1xA6SnfxUuB.jpg",
+   "character": "Rhiannon Davies",
+   "episodes": 5
+  },
+  {
+   "id": 40662,
+   "name": "Madeleine Rakic-Platt",
+   "photo": null,
+   "character": "Lilly Frobisher",
+   "episodes": 5
+  },
+  {
+   "id": 1222255,
+   "name": "Hilary Maclean",
+   "photo": null,
+   "character": "Anna Frobisher",
+   "episodes": 5
+  },
+  {
+   "id": 32357,
+   "name": "Nicholas Farrell",
+   "photo": "https://image.tmdb.org/t/p/w185/gheuwhycSxpBRhGv7Qbfub2uuB2.jpg",
+   "character": "Brian Green",
+   "episodes": 5
+  },
+  {
+   "id": 1417351,
+   "name": "Cush Jumbo",
+   "photo": "https://image.tmdb.org/t/p/w185/yM3hmPlsSdAFcSUZkeiqs9M9qBf.jpg",
+   "character": "Lois Habiba",
+   "episodes": 5
+  },
+  {
+   "id": 438859,
+   "name": "Susan Brown",
+   "photo": "https://image.tmdb.org/t/p/w185/rbi81V4GUsOqjUfLvnoHj4lIAMf.jpg",
+   "character": "Bridget Spears",
+   "episodes": 5
+  }
+ ],
+ "crew": [
+  {
+   "id": 95894,
+   "name": "Russell T Davies",
+   "photo": "https://image.tmdb.org/t/p/w185/rDDLhm0Sw7JUqIf7CVkFbu06IEp.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 41
+  },
+  {
+   "id": 1213443,
+   "name": "Julie Gardner",
+   "photo": "https://image.tmdb.org/t/p/w185/jrixeeld9x4i3ub7yhalCVhwZYM.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 41
+  },
+  {
+   "id": 1580455,
+   "name": "Ben Foster",
+   "photo": "https://image.tmdb.org/t/p/w185/i1B8PZLuEBLFQKMMu8sb9G9W4w1.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 1022863,
+   "name": "Jane Tranter",
+   "photo": "https://image.tmdb.org/t/p/w185/gRd5R9QPo9algfBWS6v56gF8Mii.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 47203,
+   "name": "Murray Gold",
+   "photo": "https://image.tmdb.org/t/p/w185/ih1ELPTC9QMDbK2KxskidkRqMFM.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 204037,
+   "name": "Chris Chibnall",
+   "photo": "https://image.tmdb.org/t/p/w185/14AL2GwF5HuiyiKSEPpz22FONA8.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1216399,
+   "name": "Andy Goddard",
+   "photo": "https://image.tmdb.org/t/p/w185/luHJJTv9o9GT4gSqG9kysZfB7Or.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1184263,
+   "name": "Ashley Way",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1216417,
+   "name": "Euros Lyn",
+   "photo": "https://image.tmdb.org/t/p/w185/fJBgfdk5SlcZkrFulGvwovjw9tH.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 77213,
+   "name": "Jane Espenson",
+   "photo": "https://image.tmdb.org/t/p/w185/lOLMAy3Ur9pSzF59J9Gsx05zJzK.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 28839,
+   "name": "Colin Teague",
+   "photo": "https://image.tmdb.org/t/p/w185/BuLsEb5avaevQZyiU1FlWFvREM.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 934273,
+   "name": "Billy Gierhart",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1216408,
+   "name": "Catherine Tregenna",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 43468,
+   "name": "Guy Ferland",
+   "photo": "https://image.tmdb.org/t/p/w185/oOBx7tqSGZ5BatZydBYRXfoKsRj.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1215247,
+   "name": "John Fay",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1216419,
+   "name": "Gwyneth Horder-Payton",
+   "photo": "https://image.tmdb.org/t/p/w185/o9HPp232P2FoV7fWuyPrkdalSyw.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:36:53.358Z"
+}

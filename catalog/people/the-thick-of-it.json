@@ -1,0 +1,316 @@
+{
+ "show": "The Thick of It",
+ "slug": "the-thick-of-it",
+ "tmdbId": 4507,
+ "cast": [
+  {
+   "id": 12982,
+   "name": "Peter Capaldi",
+   "photo": "https://image.tmdb.org/t/p/w185/r5bEXZBOSA89SZvv4jjqa4iSgst.jpg",
+   "character": "Malcolm Tucker",
+   "episodes": 21
+  },
+  {
+   "id": 91493,
+   "name": "Chris Addison",
+   "photo": "https://image.tmdb.org/t/p/w185/pDPJrs1VBpqHpBIlMwuMIQ8s5zK.jpg",
+   "character": "Olly Reeder",
+   "episodes": 21
+  },
+  {
+   "id": 33450,
+   "name": "Joanna Scanlan",
+   "photo": "https://image.tmdb.org/t/p/w185/eznboWYymZjyr7WNJ5L1NEwltgX.jpg",
+   "character": "Terri Coverley",
+   "episodes": 21
+  },
+  {
+   "id": 1184006,
+   "name": "James Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/bt4uBGIuqe1HrEtCvr0EVM85vv2.jpg",
+   "character": "Glenn Cullen",
+   "episodes": 21
+  },
+  {
+   "id": 155530,
+   "name": "Rebecca Front",
+   "photo": "https://image.tmdb.org/t/p/w185/nRyl1ayLbJ7hlbt15SvIIcVv49Q.jpg",
+   "character": "Nicola Murray",
+   "episodes": 15
+  },
+  {
+   "id": 11279,
+   "name": "Roger Allam",
+   "photo": "https://image.tmdb.org/t/p/w185/hrtVjATnltwatFCOjhtCZTnN2hW.jpg",
+   "character": "Peter Mannion",
+   "episodes": 10
+  },
+  {
+   "id": 43024,
+   "name": "Vincent Franklin",
+   "photo": "https://image.tmdb.org/t/p/w185/yVUQNN5skc1eK1UwqeHpT1Vn1l9.jpg",
+   "character": "Stewart Pearson",
+   "episodes": 8
+  },
+  {
+   "id": 211395,
+   "name": "Olivia Poulet",
+   "photo": "https://image.tmdb.org/t/p/w185/eNvUae0kqviL1NT8DT6bNDe32Xy.jpg",
+   "character": "Emma Messinger",
+   "episodes": 8
+  },
+  {
+   "id": 167449,
+   "name": "Chris Langham",
+   "photo": "https://image.tmdb.org/t/p/w185/nBMD5a0XVnk8DQbj7yTjRXX5NHc.jpg",
+   "character": "Hugh Abbot",
+   "episodes": 6
+  },
+  {
+   "id": 210169,
+   "name": "Polly Kemp",
+   "photo": "https://image.tmdb.org/t/p/w185/50zJDtR3eeW1dc4eyxrukvRgEq3.jpg",
+   "character": "Robyn Murdoch",
+   "episodes": 6
+  },
+  {
+   "id": 234120,
+   "name": "Will Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/2MndmsbL0PE5oNj1t00v4jUwtaS.jpg",
+   "character": "Phil Smith",
+   "episodes": 6
+  },
+  {
+   "id": 195331,
+   "name": "Tony Gardner",
+   "photo": "https://image.tmdb.org/t/p/w185/vHrm0WK12fcrDzav8u7CxIMGyj2.jpg",
+   "character": "Dan Miller",
+   "episodes": 5
+  },
+  {
+   "id": 1236982,
+   "name": "Ben Willbond",
+   "photo": "https://image.tmdb.org/t/p/w185/lPbG2095GBoUkmpw6A2IbiyEnjV.jpg",
+   "character": "Adam Kenyon",
+   "episodes": 5
+  },
+  {
+   "id": 80420,
+   "name": "Geoffrey Streatfeild",
+   "photo": "https://image.tmdb.org/t/p/w185/95ifVdcQFLxNDHZgDyljFPATUuZ.jpg",
+   "character": "Fergus Williams",
+   "episodes": 5
+  },
+  {
+   "id": 2068585,
+   "name": "Samantha Harrington",
+   "photo": null,
+   "character": "Sam",
+   "episodes": 5
+  },
+  {
+   "id": 1337754,
+   "name": "Lucinda Raikes",
+   "photo": "https://image.tmdb.org/t/p/w185/5YgcWUFoIH2c3MoAFHDRCPbzvax.jpg",
+   "character": "Angela Heaney",
+   "episodes": 4
+  },
+  {
+   "id": 1503872,
+   "name": "Rebecca Gethings",
+   "photo": "https://image.tmdb.org/t/p/w185/fpkdB58uAGudXK7uUVqAWm2kt8b.jpg",
+   "character": "Helen Hatley",
+   "episodes": 4
+  },
+  {
+   "id": 126042,
+   "name": "Alex Macqueen",
+   "photo": "https://image.tmdb.org/t/p/w185/d8hfBJcYNXf3GJPFzKpOfkwLUg0.jpg",
+   "character": "Julius Nicholson / Lord Nicholson",
+   "episodes": 3
+  },
+  {
+   "id": 206724,
+   "name": "Justin Edwards",
+   "photo": "https://image.tmdb.org/t/p/w185/vhAAVpzdswyq95pmVyKv9PsQPyQ.jpg",
+   "character": "Ben Swain",
+   "episodes": 3
+  },
+  {
+   "id": 1541147,
+   "name": "Michael Colgan",
+   "photo": "https://image.tmdb.org/t/p/w185/xtyM1UWL3m2uabbLx6ujcwBwJ6m.jpg",
+   "character": "Mr. Chop / Declan",
+   "episodes": 3
+  },
+  {
+   "id": 482444,
+   "name": "Gareth Tunley",
+   "photo": "https://image.tmdb.org/t/p/w185/wRv4oH6LMcg0PZcRQrpkgFbNKyX.jpg",
+   "character": "Journalist",
+   "episodes": 3
+  },
+  {
+   "id": 1468197,
+   "name": "Graeme Mearns",
+   "photo": null,
+   "character": "Frankie",
+   "episodes": 2
+  },
+  {
+   "id": 173668,
+   "name": "Peter Sullivan",
+   "photo": "https://image.tmdb.org/t/p/w185/ctpyChBvhLIAQNS3RYMwHmk6C4n.jpg",
+   "character": "Geoffrey",
+   "episodes": 2
+  },
+  {
+   "id": 25655,
+   "name": "Zoe Telford",
+   "photo": "https://image.tmdb.org/t/p/w185/3oFNtRDlyUURPukWLSgkyc5rFk6.jpg",
+   "character": "Marianne Swift",
+   "episodes": 2
+  }
+ ],
+ "crew": [
+  {
+   "id": 88926,
+   "name": "Armando Iannucci",
+   "photo": "https://image.tmdb.org/t/p/w185/jFFx3mmVFA2ApjcVAhVVznjjrLI.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Writer"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 1214466,
+   "name": "Jon Plowman",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 21
+  },
+  {
+   "id": 1236984,
+   "name": "Andy Forssell",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 21
+  },
+  {
+   "id": 1233111,
+   "name": "Ian Martin",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 21
+  },
+  {
+   "id": 234120,
+   "name": "Will Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/2MndmsbL0PE5oNj1t00v4jUwtaS.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 1233110,
+   "name": "Sean Gray",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 93494,
+   "name": "Simon Blackwell",
+   "photo": "https://image.tmdb.org/t/p/w185/iwdYrjFlFEI04qQ2rcZcZBowvHD.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1220666,
+   "name": "Tony Roche",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 62946,
+   "name": "Jesse Armstrong",
+   "photo": "https://image.tmdb.org/t/p/w185/v2BvEzPuqrgcvElZF3sFjJoSZ0w.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1236983,
+   "name": "Natalie Bailey",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1222855,
+   "name": "Roger Drew",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 91493,
+   "name": "Chris Addison",
+   "photo": "https://image.tmdb.org/t/p/w185/pDPJrs1VBpqHpBIlMwuMIQ8s5zK.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 97055,
+   "name": "Billy Sneddon",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1795299,
+   "name": "Becky Martin",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 62948,
+   "name": "Sam Bain",
+   "photo": "https://image.tmdb.org/t/p/w185/h1bs9HiuTVOALLXwMnt2uGCCa3v.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:36:18.550Z"
+}

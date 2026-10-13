@@ -1,0 +1,330 @@
+{
+ "show": "House of the Dragon",
+ "slug": "house-of-the-dragon",
+ "tmdbId": 94997,
+ "cast": [
+  {
+   "id": 136532,
+   "name": "Matt Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/wxMdHj4UA6LgIU5MiA7CKySZeVU.jpg",
+   "character": "Prince Daemon Targaryen",
+   "episodes": 26
+  },
+  {
+   "id": 55412,
+   "name": "Steve Toussaint",
+   "photo": "https://image.tmdb.org/t/p/w185/9rJafPDkQP8YuLy9iY5v19ZfMIW.jpg",
+   "character": "Lord Corlys 'The Sea Snake' Velaryon",
+   "episodes": 26
+  },
+  {
+   "id": 1457238,
+   "name": "Sonoya Mizuno",
+   "photo": "https://image.tmdb.org/t/p/w185/WVROOHuk6G6QgVe0pU8R2i1fsE.jpg",
+   "character": "Mysaria 'The White Worm'",
+   "episodes": 26
+  },
+  {
+   "id": 2583704,
+   "name": "Fabien Frankel",
+   "photo": "https://image.tmdb.org/t/p/w185/nXh1h7KbdeZc41ucwGhzp1cOMnd.jpg",
+   "character": "Ser Criston Cole",
+   "episodes": 25
+  },
+  {
+   "id": 1584566,
+   "name": "Matthew Needham",
+   "photo": "https://image.tmdb.org/t/p/w185/sZHT2xFtnBawU3DoaWZACSv15gX.jpg",
+   "character": "Lord Larys 'Clubfoot' Strong",
+   "episodes": 21
+  },
+  {
+   "id": 1526130,
+   "name": "Kurt Egyiawan",
+   "photo": "https://image.tmdb.org/t/p/w185/bLzmxAmUxRj8wwxzlpaKKdg2Ccf.jpg",
+   "character": "Grand Maester Orwyle / Maester Orwyle",
+   "episodes": 21
+  },
+  {
+   "id": 1173984,
+   "name": "Olivia Cooke",
+   "photo": "https://image.tmdb.org/t/p/w185/wf71ctooNlVmiT8dxx0QmRAzyiX.jpg",
+   "character": "Queen Alicent Hightower",
+   "episodes": 20
+  },
+  {
+   "id": 2121005,
+   "name": "Emma D'Arcy",
+   "photo": "https://image.tmdb.org/t/p/w185/9Zlmb7VmtVCxkLq5yqFFRRxCaED.jpg",
+   "character": "Queen Rhaenyra Targaryen / Princess Rhaenyra Targaryen (voice)",
+   "episodes": 20
+  },
+  {
+   "id": 1829122,
+   "name": "Ewan Mitchell",
+   "photo": "https://image.tmdb.org/t/p/w185/v1PqysDnx5umfA2DqGyjwuAxc9C.jpg",
+   "character": "Prince Aemond Targaryen",
+   "episodes": 19
+  },
+  {
+   "id": 1789952,
+   "name": "Harry Collett",
+   "photo": "https://image.tmdb.org/t/p/w185/nDF4XWPBM5tGzOIHTMMWrTmWQRn.jpg",
+   "character": "Prince Jacaerys 'Jace' Velaryon",
+   "episodes": 18
+  },
+  {
+   "id": 1765227,
+   "name": "Tom Glynn-Carney",
+   "photo": "https://image.tmdb.org/t/p/w185/jJ3KqUW8ySGBwHXOCN3x2Wxjm5W.jpg",
+   "character": "King Aegon II Targaryen / Prince Aegon Targaryen",
+   "episodes": 18
+  },
+  {
+   "id": 1881108,
+   "name": "Bethany Antonia",
+   "photo": "https://image.tmdb.org/t/p/w185/yGEYjvyACYcC56iSDrvrd2exfIP.jpg",
+   "character": "Lady Baela Targaryen",
+   "episodes": 17
+  },
+  {
+   "id": 109322,
+   "name": "Jefferson Hall",
+   "photo": "https://image.tmdb.org/t/p/w185/rUhREsWITBvyoPdLiPJOadAwRYq.jpg",
+   "character": "Lord Jason Lannister / Ser Tyland Lannister / Ser Tyland Lannister",
+   "episodes": 17
+  },
+  {
+   "id": 1677635,
+   "name": "Phoebe Campbell",
+   "photo": "https://image.tmdb.org/t/p/w185/9y7G3Cm88GSZdDHEmDFz1qHyNqg.jpg",
+   "character": "Lady Rhaena Targaryen",
+   "episodes": 16
+  },
+  {
+   "id": 3594113,
+   "name": "Phia Saban",
+   "photo": "https://image.tmdb.org/t/p/w185/fBkNrVyKbsNBTnVxTZWhmVqXznA.jpg",
+   "character": "Princess Helaena Targaryen / Queen Helaena Targaryen",
+   "episodes": 16
+  },
+  {
+   "id": 2026407,
+   "name": "Abubakar Salim",
+   "photo": "https://image.tmdb.org/t/p/w185/cUddJiPnCTDDOBuk7jTmLsiODMb.jpg",
+   "character": "Alyn of Hull",
+   "episodes": 14
+  },
+  {
+   "id": 176199,
+   "name": "Kieran Bew",
+   "photo": "https://image.tmdb.org/t/p/w185/8vxcFlUeIwNH0uIoZq34uagaLAr.jpg",
+   "character": "Hugh",
+   "episodes": 14
+  },
+  {
+   "id": 201665,
+   "name": "Eve Best",
+   "photo": "https://image.tmdb.org/t/p/w185/oE0JEJS9un0FLpe3u5FxL1nvxLJ.jpg",
+   "character": "Princess Rhaenys Targaryen",
+   "episodes": 14
+  },
+  {
+   "id": 65301,
+   "name": "Phil Daniels",
+   "photo": "https://image.tmdb.org/t/p/w185/6yNFNjo3cWEcuAUrl0CNQnAnQ5M.jpg",
+   "character": "Maester Gerardys",
+   "episodes": 13
+  },
+  {
+   "id": 1014931,
+   "name": "Freddie Fox",
+   "photo": "https://image.tmdb.org/t/p/w185/sEFssmnAWoXygusP8IE4URmhmd5.jpg",
+   "character": "Ser Gwayne Hightower",
+   "episodes": 13
+  },
+  {
+   "id": 1782144,
+   "name": "Gayle Rankin",
+   "photo": "https://image.tmdb.org/t/p/w185/xquFFe3xB3P0wTdYmO8vWPjH8zP.jpg",
+   "character": "Alys Rivers",
+   "episodes": 13
+  },
+  {
+   "id": 126457,
+   "name": "Tom Bennett",
+   "photo": "https://image.tmdb.org/t/p/w185/4OdiLc6nFrTr7rSVxdKeMvfLF56.jpg",
+   "character": "Ulf",
+   "episodes": 13
+  },
+  {
+   "id": 7026,
+   "name": "Rhys Ifans",
+   "photo": "https://image.tmdb.org/t/p/w185/5X8XcIqCDxsQYyHdx7mBwPVkSTs.jpg",
+   "character": "Ser Otto Hightower",
+   "episodes": 13
+  },
+  {
+   "id": 1203108,
+   "name": "Paul Kennedy",
+   "photo": "https://image.tmdb.org/t/p/w185/1iEwnLK0DYHMe3wTrMx8NRzYngd.jpg",
+   "character": "Lord Jasper 'Ironrod' Wylde / Jasper Wylde",
+   "episodes": 13
+  }
+ ],
+ "crew": [
+  {
+   "id": 237053,
+   "name": "George R.R. Martin",
+   "photo": "https://image.tmdb.org/t/p/w185/1A7W0L9dZz0rCN1oj6h8YUvusdN.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 1167458,
+   "name": "Ryan J. Condal",
+   "photo": "https://image.tmdb.org/t/p/w185/iJLTtrR9JRsvcOnmK4BhCvWmFVm.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 75804,
+   "name": "Kevin De La Noy",
+   "photo": "https://image.tmdb.org/t/p/w185/w6oGrxZN5RwCFptnPfjhQgF2p2D.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 32
+  },
+  {
+   "id": 114404,
+   "name": "Miguel Sapochnik",
+   "photo": "https://image.tmdb.org/t/p/w185/jlZGTjiifvvFDoEtlwrKz7QxuJS.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 54268,
+   "name": "Vince Gerardis",
+   "photo": "https://image.tmdb.org/t/p/w185/in1UvXMaIx9EGezim7JToZb7IgZ.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 2460802,
+   "name": "David Hancock",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 1223926,
+   "name": "Sara Hess",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 10851,
+   "name": "Ramin Djawadi",
+   "photo": "https://image.tmdb.org/t/p/w185/wgUxW19nyPnrzj4ViVOpAfmhCdr.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 63291,
+   "name": "Ron Schmidt",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 1452715,
+   "name": "Loni Peristere",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 107926,
+   "name": "Philippa Goslett",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 1223199,
+   "name": "Melissa Bernstein",
+   "photo": "https://image.tmdb.org/t/p/w185/rSztwqMUIko8RkmwjxBse1XDW3g.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 3585585,
+   "name": "Jocelyn Diaz",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 4830337,
+   "name": "Ti Mikkel",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 2806478,
+   "name": "Shyam Popat",
+   "photo": "https://image.tmdb.org/t/p/w185/vWn0NK5EG8zVOm2RaohqwwxB48W.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 51600,
+   "name": "Clare Kilner",
+   "photo": "https://image.tmdb.org/t/p/w185/kV9BTesdE7vkLgyiivgTJMAYtq9.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 8
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:55.853Z"
+}

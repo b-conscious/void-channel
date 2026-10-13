@@ -1,0 +1,344 @@
+{
+ "show": "DC's Legends of Tomorrow",
+ "slug": "dcs-legends-of-tomorrow",
+ "tmdbId": 62643,
+ "cast": [
+  {
+   "id": 1046143,
+   "name": "Caity Lotz",
+   "photo": "https://image.tmdb.org/t/p/w185/nagw4Y9EVjCjw2r9BaXa67KjJsi.jpg",
+   "character": "Sara Lance / White Canary",
+   "episodes": 110
+  },
+  {
+   "id": 1134097,
+   "name": "Amy Louise Pemberton",
+   "photo": "https://image.tmdb.org/t/p/w185/kQ2PuLv1a3wRgjWZOCTAyo5ULsK.jpg",
+   "character": "Gideon (voice) / Gideon / Evil Gideon",
+   "episodes": 110
+  },
+  {
+   "id": 10862,
+   "name": "Dominic Purcell",
+   "photo": "https://image.tmdb.org/t/p/w185/5GtHSYdnH7o2x5UIm09XqqLoJKO.jpg",
+   "character": "Mick Rory / Heat Wave",
+   "episodes": 97
+  },
+  {
+   "id": 84076,
+   "name": "Nick Zano",
+   "photo": "https://image.tmdb.org/t/p/w185/t47PZJOUehQV4RFOEXoszMiOEjx.jpg",
+   "character": "Nathaniel 'Nate' Heywood / Steel",
+   "episodes": 94
+  },
+  {
+   "id": 1966585,
+   "name": "Tala Ashe",
+   "photo": "https://image.tmdb.org/t/p/w185/pWDsZY9BrTgKbgNBo24UrcrxPnz.jpg",
+   "character": "Zari Tomaz / Zari Tarazi",
+   "episodes": 77
+  },
+  {
+   "id": 17271,
+   "name": "Brandon Routh",
+   "photo": "https://image.tmdb.org/t/p/w185/iPonANuyk3eOHjADqd4h9sBwvX1.jpg",
+   "character": "Ray Palmer / The Atom / Clark Kent / Superman / Ray Palmer / The Atom",
+   "episodes": 75
+  },
+  {
+   "id": 984780,
+   "name": "Jes Macallan",
+   "photo": "https://image.tmdb.org/t/p/w185/opXduSlSdcy0wiHDeuVGkMCbtEP.jpg",
+   "character": "Ava Sharpe",
+   "episodes": 72
+  },
+  {
+   "id": 1399526,
+   "name": "Maisie Richardson-Sellers",
+   "photo": "https://image.tmdb.org/t/p/w185/7Rue8ZtZ8uLb1x0YC9viieunoC0.jpg",
+   "character": "Amaya Jiwe / Vixen / Charlie / Clotho (archive footage) (uncredited) / Charlie / Clotho",
+   "episodes": 67
+  },
+  {
+   "id": 127712,
+   "name": "Matt Ryan",
+   "photo": "https://image.tmdb.org/t/p/w185/qLx6rzn6MMcJtTals5Z7Mb6z4Y9.jpg",
+   "character": "John Constantine / Dr. Gwyn Davies",
+   "episodes": 63
+  },
+  {
+   "id": 476556,
+   "name": "Adam Tsekhman",
+   "photo": "https://image.tmdb.org/t/p/w185/evZD3VsuNt6hvuXhpctwc5lCnVd.jpg",
+   "character": "Gary Green",
+   "episodes": 61
+  },
+  {
+   "id": 2008565,
+   "name": "Olivia Swann",
+   "photo": "https://image.tmdb.org/t/p/w185/30yl2xiD6e5qGddQYH4l1WWbzDn.jpg",
+   "character": "Astra Logue",
+   "episodes": 45
+  },
+  {
+   "id": 1363086,
+   "name": "Franz Drameh",
+   "photo": "https://image.tmdb.org/t/p/w185/xSEv3SN8CSn0bozoOnPd77kEOiD.jpg",
+   "character": "Jefferson 'Jax' Jackson / Firestorm",
+   "episodes": 44
+  },
+  {
+   "id": 8536,
+   "name": "Victor Garber",
+   "photo": "https://image.tmdb.org/t/p/w185/FdhXl8qxsKgj22Ip99SRM9jUx1.jpg",
+   "character": "Dr. Martin Stein / Firestorm",
+   "episodes": 42
+  },
+  {
+   "id": 146457,
+   "name": "Arthur Darvill",
+   "photo": "https://image.tmdb.org/t/p/w185/igHv8StqS2xKIG70t84HwndpvRb.jpg",
+   "character": "Rip Hunter",
+   "episodes": 41
+  },
+  {
+   "id": 2637934,
+   "name": "Shayan Sobhian",
+   "photo": "https://image.tmdb.org/t/p/w185/tEZwkq4a7tCvAuK7aq87nVaTGZ1.jpg",
+   "character": "Behrad Tarazi",
+   "episodes": 39
+  },
+  {
+   "id": 76536,
+   "name": "Courtney Ford",
+   "photo": "https://image.tmdb.org/t/p/w185/bICbKfv0xHYgCBLD39IqwZjZxSS.jpg",
+   "character": "Nora Darhk / Marie Antoinette / Nora Darhk (voice) / Marie Antoinette",
+   "episodes": 30
+  },
+  {
+   "id": 1600095,
+   "name": "Lisseth Chavez",
+   "photo": "https://image.tmdb.org/t/p/w185/fFnGQVFGAtTZcmLAr7XuUhvtjEW.jpg",
+   "character": "Esperanza 'Spooner' Cruz",
+   "episodes": 28
+  },
+  {
+   "id": 3972,
+   "name": "Wentworth Miller",
+   "photo": "https://image.tmdb.org/t/p/w185/js09M98qo6rEyyIlTbRMI6XiZJH.jpg",
+   "character": "Leo Snart / Citizen Cold / Leonard Snart / Captain Cold",
+   "episodes": 24
+  },
+  {
+   "id": 1685831,
+   "name": "Ramona Young",
+   "photo": "https://image.tmdb.org/t/p/w185/3ZVDaqAKw3wjXBnT62FZn1hbock.jpg",
+   "character": "Mona Wu",
+   "episodes": 20
+  },
+  {
+   "id": 2203,
+   "name": "Neal McDonough",
+   "photo": "https://image.tmdb.org/t/p/w185/3mI3i1CpjATSCta1Tb2qsyl1KCh.jpg",
+   "character": "Damien Darhk",
+   "episodes": 20
+  },
+  {
+   "id": 28414,
+   "name": "Matt Letscher",
+   "photo": "https://image.tmdb.org/t/p/w185/4tFddqIAqUnPAl64sM335GhYPdM.jpg",
+   "character": "Eobard Thawne / Eobard Thawne / Reverse-Flash",
+   "episodes": 19
+  },
+  {
+   "id": 1465043,
+   "name": "Ciara Renée",
+   "photo": "https://image.tmdb.org/t/p/w185/jLL7Tpq7wespuebxro8YeEbe0nT.jpg",
+   "character": "Kendra Saunders / Hawkgirl",
+   "episodes": 16
+  },
+  {
+   "id": 1026019,
+   "name": "Casper Crump",
+   "photo": "https://image.tmdb.org/t/p/w185/cYTQKdVaDh6dXY57wUE5cV9woEt.jpg",
+   "character": "Vandal Savage",
+   "episodes": 11
+  },
+  {
+   "id": 2283764,
+   "name": "Raffi Barsoumian",
+   "photo": "https://image.tmdb.org/t/p/w185/b8VJ9HVJVmjZfgELG0ILLn9GCux.jpg",
+   "character": "Bishop / Bishop / Bishop Clone / Bishop / Younger Bishop",
+   "episodes": 10
+  }
+ ],
+ "crew": [
+  {
+   "id": 88967,
+   "name": "Greg Berlanti",
+   "photo": "https://image.tmdb.org/t/p/w185/1T24SiIIDMa9gAmq7QaYwZywq4y.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Story",
+    "Writer"
+   ],
+   "episodes": 110
+  },
+  {
+   "id": 171830,
+   "name": "Marc Guggenheim",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 110
+  },
+  {
+   "id": 1181359,
+   "name": "Phil Klemmer",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 110
+  },
+  {
+   "id": 1216615,
+   "name": "Andrew Kreisberg",
+   "photo": "https://image.tmdb.org/t/p/w185/dm1kNRSLuPKYW4X1CPdO50cqyYJ.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 41
+  },
+  {
+   "id": 1395152,
+   "name": "Sarah Schechter",
+   "photo": "https://image.tmdb.org/t/p/w185/8UgL2O24cC8SniiryeYmZuafU4G.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 110
+  },
+  {
+   "id": 53017,
+   "name": "Blake Neely",
+   "photo": "https://image.tmdb.org/t/p/w185/ip0bUF22rBJNqLu5hTPEtzZa6hp.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 110
+  },
+  {
+   "id": 1382170,
+   "name": "Grainne Godfree",
+   "photo": "https://image.tmdb.org/t/p/w185/hyJCZd2yKU5cFVFggmWrH25E9qk.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 97
+  },
+  {
+   "id": 1489551,
+   "name": "Keto Shimizu",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 94
+  },
+  {
+   "id": 1267203,
+   "name": "James Eagan",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 77
+  },
+  {
+   "id": 1382166,
+   "name": "Ray Utarnachitt",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 77
+  },
+  {
+   "id": 1266304,
+   "name": "Daniel James Chan",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 77
+  },
+  {
+   "id": 1223887,
+   "name": "Chris Fedak",
+   "photo": "https://image.tmdb.org/t/p/w185/hXpF1sWzhoFXPEnM7TvL8XMFwlC.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 33
+  },
+  {
+   "id": 2067967,
+   "name": "Marcelena Mayhorn",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 1365831,
+   "name": "Mark Bruner",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 1918898,
+   "name": "Matthew Maala",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 2637263,
+   "name": "Leah Poulliot",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 17
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:29.587Z"
+}

@@ -20,8 +20,21 @@ CREATE TABLE shows (
   tvmaze_id INTEGER, runtime INTEGER, premiered TEXT, tvmaze_network TEXT,
   episodes_total INTEGER, live INTEGER, review INTEGER, missing INTEGER, covered_pct INTEGER,
   hunted INTEGER NOT NULL DEFAULT 0, matched_at TEXT,
-  tmdb_id INTEGER, poster TEXT, backdrop TEXT, overview TEXT, genres TEXT, rating REAL
+  tmdb_id INTEGER, poster TEXT, backdrop TEXT, overview TEXT, genres TEXT, rating REAL, tags TEXT
 );
+CREATE TABLE people (
+  tmdb_id INTEGER PRIMARY KEY, name TEXT NOT NULL, photo TEXT
+);
+CREATE TABLE show_people (
+  show_slug TEXT NOT NULL REFERENCES shows(slug), person_id INTEGER NOT NULL REFERENCES people(tmdb_id),
+  role TEXT, kind TEXT NOT NULL, episodes INTEGER,
+  PRIMARY KEY (show_slug, person_id, kind)
+);
+CREATE INDEX idx_show_people_person ON show_people(person_id);
+CREATE VIEW connections AS
+  SELECT a.show_slug AS show_a, b.show_slug AS show_b, p.name AS via, a.role AS role_a, b.role AS role_b
+  FROM show_people a JOIN show_people b ON a.person_id = b.person_id AND a.show_slug < b.show_slug
+  JOIN people p ON p.tmdb_id = a.person_id;
 CREATE TABLE episodes (
   show_slug TEXT NOT NULL REFERENCES shows(slug), season INTEGER NOT NULL, number INTEGER NOT NULL,
   name TEXT, airdate TEXT, state TEXT NOT NULL,
@@ -49,8 +62,12 @@ CREATE VIEW review_queue AS
 const slugOf = (s) => s.toLowerCase().replace(/&/g, ' and ').replace(/['’]/g, '').replace(/[^a-z0-9]+/g, ' ').trim().replace(/ /g, '-');
 const ART_FILE = path.join(ROOT, 'catalog', 'art.json');
 const ART = fs.existsSync(ART_FILE) ? JSON.parse(fs.readFileSync(ART_FILE, 'utf8')) : {};
-const artCols = (slug) => { const a = ART[slug] || {}; return [a.tmdbId || null, a.poster || null, a.backdrop || null, a.overview || null, a.genres ? a.genres.join(', ') : null, a.rating || null]; };
-const insShow = db.prepare(`INSERT INTO shows VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)`);
+const tagsOf = (entry) => (entry.tags && entry.tags.length ? entry.tags.join(', ') : null);
+const artCols = (slug, entry) => { const a = ART[slug] || {}; return [a.tmdbId || null, a.poster || null, a.backdrop || null, a.overview || null, a.genres ? a.genres.join(', ') : null, a.rating || null, tagsOf(entry || {})]; };
+const insShow = db.prepare(`INSERT INTO shows VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)`);
+const insPerson = db.prepare(`INSERT OR IGNORE INTO people VALUES (?,?,?)`);
+const insSP = db.prepare(`INSERT OR REPLACE INTO show_people VALUES (?,?,?,?,?)`);
+const PEOPLE_DIR = path.join(ROOT, 'catalog', 'people');
 const insEp = db.prepare(`INSERT INTO episodes VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)`);
 
 let shows = 0, eps = 0;
@@ -60,12 +77,18 @@ for (const entry of LIST.shows) {
   const f = path.join(SHOWS_DIR, slug + '.json');
   const g = fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : null;
   if (!g || !g.seasons) {
-    insShow.run(slug, entry.name, entry.type, entry.network, null, null, null, null, null, null, null, null, null, 0, null, ...artCols(slug));
+    insShow.run(slug, entry.name, entry.type, entry.network, null, null, null, null, null, null, null, null, null, 0, null, ...artCols(slug, entry));
     continue;
   }
   insShow.run(slug, entry.name, entry.type, entry.network, g.tvmaze.id, g.tvmaze.runtime, g.tvmaze.premiered, g.tvmaze.network,
-    g.coverage.total, g.coverage.live, g.coverage.review, g.coverage.missing, g.coverage.pct, 1, g.matchedAt, ...artCols(slug));
+    g.coverage.total, g.coverage.live, g.coverage.review, g.coverage.missing, g.coverage.pct, 1, g.matchedAt, ...artCols(slug, entry));
   shows++;
+  const pf = path.join(PEOPLE_DIR, slug + '.json');
+  if (fs.existsSync(pf)) {
+    const pp = JSON.parse(fs.readFileSync(pf, 'utf8'));
+    for (const c of pp.cast) { insPerson.run(c.id, c.name, c.photo); insSP.run(slug, c.id, c.character || null, 'cast', c.episodes || null); }
+    for (const c of pp.crew) { insPerson.run(c.id, c.name, c.photo); insSP.run(slug, c.id, c.jobs.join(', '), 'crew', c.episodes || null); }
+  }
   for (const se of g.seasons) for (const e of se.episodes) {
     const p = e.file;
     insEp.run(slug, se.season, e.number, e.name, e.airdate, e.state,

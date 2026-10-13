@@ -1,0 +1,335 @@
+{
+ "show": "Foundation",
+ "slug": "foundation",
+ "tmdbId": 93740,
+ "cast": [
+  {
+   "id": 15440,
+   "name": "Jared Harris",
+   "photo": "https://image.tmdb.org/t/p/w185/r9nIq0jPz1oBm4WwtlZhqlsX8p0.jpg",
+   "character": "Hari Seldon",
+   "episodes": 30
+  },
+  {
+   "id": 72095,
+   "name": "Lee Pace",
+   "photo": "https://image.tmdb.org/t/p/w185/eeTc0d2AX1vFYVxZ6Qw7qZpg4Tz.jpg",
+   "character": "Brother Day",
+   "episodes": 30
+  },
+  {
+   "id": 2476148,
+   "name": "Lou Llobell",
+   "photo": "https://image.tmdb.org/t/p/w185/vjCaa2EhEFgkraE6l2Vypzb93fz.jpg",
+   "character": "Gaal Dornick",
+   "episodes": 30
+  },
+  {
+   "id": 212815,
+   "name": "Laura Birn",
+   "photo": "https://image.tmdb.org/t/p/w185/67BraXKgQwZplWBS7PUh8tWssWL.jpg",
+   "character": "Demerzel",
+   "episodes": 30
+  },
+  {
+   "id": 2476156,
+   "name": "Cassian Bilton",
+   "photo": "https://image.tmdb.org/t/p/w185/kOsyQKk5UvamKORAsu6F7FN2oDG.jpg",
+   "character": "Brother Dawn",
+   "episodes": 30
+  },
+  {
+   "id": 19260,
+   "name": "Terrence Mann",
+   "photo": "https://image.tmdb.org/t/p/w185/b8W9t5x8wF7B14Ui05wVLN9Z4fF.jpg",
+   "character": "Brother Dusk",
+   "episodes": 30
+  },
+  {
+   "id": 1765346,
+   "name": "Leah Harvey",
+   "photo": "https://image.tmdb.org/t/p/w185/j5bEw0gtE9RGTq2y4WoQ6HUa9di.jpg",
+   "character": "Salvor Hardin",
+   "episodes": 20
+  },
+  {
+   "id": 1229432,
+   "name": "Daniel MacPherson",
+   "photo": "https://image.tmdb.org/t/p/w185/aBvJnrSlzXeU8K3glUa6XQ6nbuK.jpg",
+   "character": "Hugo Crast",
+   "episodes": 10
+  },
+  {
+   "id": 90060,
+   "name": "Pilou Asbæk",
+   "photo": "https://image.tmdb.org/t/p/w185/hUJAtjbYG7rqm54aoWtNWeeKjTY.jpg",
+   "character": "The Mule",
+   "episodes": 10
+  },
+  {
+   "id": 1770527,
+   "name": "Synnøve Karlsen",
+   "photo": "https://image.tmdb.org/t/p/w185/9ooi8Km79CEXB5ZM2xLRtouO1wF.jpg",
+   "character": "Bayta Mallow",
+   "episodes": 10
+  },
+  {
+   "id": 1211864,
+   "name": "Sasha Behar",
+   "photo": "https://image.tmdb.org/t/p/w185/jAexiEsIiLxbV7q6RZthyCzvRmK.jpg",
+   "character": "Mari",
+   "episodes": 9
+  },
+  {
+   "id": 1476906,
+   "name": "Sandra Yi Sencindiver",
+   "photo": "https://image.tmdb.org/t/p/w185/zjX4lI5PZ0bd6sJ1tlfYayyy1WG.jpg",
+   "character": "Enjoiner Rue Corintha",
+   "episodes": 9
+  },
+  {
+   "id": 967696,
+   "name": "Brandon P Bell",
+   "photo": "https://image.tmdb.org/t/p/w185/47ONAXu2h91MjPlp0gX9mwD4wBl.jpg",
+   "character": "Han Pritcher",
+   "episodes": 9
+  },
+  {
+   "id": 1197895,
+   "name": "Cody Fern",
+   "photo": "https://image.tmdb.org/t/p/w185/bgxQmworCFDOnvBTgj7dTQ7CZ8O.jpg",
+   "character": "Toran Mallow",
+   "episodes": 9
+  },
+  {
+   "id": 51120,
+   "name": "Elliot Cowan",
+   "photo": "https://image.tmdb.org/t/p/w185/zxewsfDGYuCqV7gsZjMQct6BXMJ.jpg",
+   "character": "Lewis Pirenne",
+   "episodes": 8
+  },
+  {
+   "id": 1770528,
+   "name": "Ella-Rae Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/42Qe3Wfy5xqk3wwYDO1XSsjN7lO.jpg",
+   "character": "Queen Sareth I of Cloud Dominion",
+   "episodes": 8
+  },
+  {
+   "id": 2257497,
+   "name": "Haqi Ali",
+   "photo": "https://image.tmdb.org/t/p/w185/zPn1LWJ1Jb9rlYTJBn3B7B3kdri.jpg",
+   "character": "Handman Hahn",
+   "episodes": 8
+  },
+  {
+   "id": 234930,
+   "name": "Isabella Laughland",
+   "photo": "https://image.tmdb.org/t/p/w185/3vdUpjDwTxZQbaeI8dE0GOu0qzU.jpg",
+   "character": "Novice Claric Brother Constant",
+   "episodes": 8
+  },
+  {
+   "id": 62229,
+   "name": "Kulvinder Ghir",
+   "photo": "https://image.tmdb.org/t/p/w185/bnRyGF9rGX6vz0k1s4fFzuRugzn.jpg",
+   "character": "High Claric Brother Poly Verisof",
+   "episodes": 8
+  },
+  {
+   "id": 234923,
+   "name": "Alfred Enoch",
+   "photo": "https://image.tmdb.org/t/p/w185/eEVvPHmxRBcEGqtoTujncmwNDhR.jpg",
+   "character": "Raych Foss",
+   "episodes": 7
+  },
+  {
+   "id": 2353405,
+   "name": "Kubbra Sait",
+   "photo": "https://image.tmdb.org/t/p/w185/r10S8LU2HB2zTQx9KHeo8isufs6.jpg",
+   "character": "Phara",
+   "episodes": 7
+  },
+  {
+   "id": 31739,
+   "name": "Oliver Chris",
+   "photo": "https://image.tmdb.org/t/p/w185/xTnUMtP5MREaHD86XfJ5mYibawq.jpg",
+   "character": "Director Sef Sermak",
+   "episodes": 7
+  },
+  {
+   "id": 2437869,
+   "name": "Jairaj Varsani",
+   "photo": "https://image.tmdb.org/t/p/w185/pZgRlFBjk95gKNNiZFHZL7OQZeF.jpg",
+   "character": "Poly / Young Poly Verisof",
+   "episodes": 7
+  },
+  {
+   "id": 2957,
+   "name": "Alexander Siddig",
+   "photo": "https://image.tmdb.org/t/p/w185/oETjmdGRXgahgwGue7k52ZwMs5x.jpg",
+   "character": "Dr. Ebling Mis / Advocate Xylas",
+   "episodes": 7
+  }
+ ],
+ "crew": [
+  {
+   "id": 3893,
+   "name": "David S. Goyer",
+   "photo": "https://image.tmdb.org/t/p/w185/gf44Hr3HJuWK7ZMHQKzDNBe0ylI.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 507,
+   "name": "Josh Friedman",
+   "photo": "https://image.tmdb.org/t/p/w185/uThNFxSfRXGIGwsFU3SEutSqVwL.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 2687929,
+   "name": "Robyn Asimov",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 3412595,
+   "name": "Bill Bost",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 1377483,
+   "name": "David Kob",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 58433,
+   "name": "David Ellison",
+   "photo": "https://image.tmdb.org/t/p/w185/gaT9cIEJPm7nWxpJyZWMy4Ayv6y.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 1189868,
+   "name": "Leigh Dana Jackson",
+   "photo": "https://image.tmdb.org/t/p/w185/teUJxFJc0gLHaTnJ5aupEJaC2go.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 29018,
+   "name": "Dana Goldberg",
+   "photo": "https://image.tmdb.org/t/p/w185/AtiT0HTrrrvVVjZgOXpxKxVFyAb.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 77213,
+   "name": "Jane Espenson",
+   "photo": "https://image.tmdb.org/t/p/w185/lOLMAy3Ur9pSzF59J9Gsx05zJzK.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 21
+  },
+  {
+   "id": 1776104,
+   "name": "Marcy Ross",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 34396,
+   "name": "Roxann Dawson",
+   "photo": "https://image.tmdb.org/t/p/w185/46TogVXwdXoDqOnbcMulTXHaFzx.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1610867,
+   "name": "Gregory Goetz",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 3247282,
+   "name": "Olivia Purnell",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1989139,
+   "name": "Sarah Nolen",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1177777,
+   "name": "Alex Graves",
+   "photo": "https://image.tmdb.org/t/p/w185/c9KWBdhgtsoUFGdWbInk3WUnUbU.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 2242099,
+   "name": "Christopher J. Byrne",
+   "photo": "https://image.tmdb.org/t/p/w185/uRr8d2GtuH0Z5S5Fcgj7I3eJeII.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 10
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:40.163Z"
+}

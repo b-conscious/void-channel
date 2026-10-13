@@ -1,0 +1,326 @@
+{
+ "show": "Dickinson",
+ "slug": "dickinson",
+ "tmdbId": 89901,
+ "cast": [
+  {
+   "id": 130640,
+   "name": "Hailee Steinfeld",
+   "photo": "https://image.tmdb.org/t/p/w185/qDInsG0cxWNxS1X4t59TBZ5S6x5.jpg",
+   "character": "Emily Dickinson",
+   "episodes": 30
+  },
+  {
+   "id": 18271,
+   "name": "Toby Huss",
+   "photo": "https://image.tmdb.org/t/p/w185/dUqygHlDDnOBZLnE51MPJHkHWvQ.jpg",
+   "character": "Edward Dickinson",
+   "episodes": 30
+  },
+  {
+   "id": 1756169,
+   "name": "Adrian Enscoe",
+   "photo": "https://image.tmdb.org/t/p/w185/6eeB8SjySeTsnlDCI0dV2Gd97L8.jpg",
+   "character": "Austin Dickinson",
+   "episodes": 30
+  },
+  {
+   "id": 1724137,
+   "name": "Anna Baryshnikov",
+   "photo": "https://image.tmdb.org/t/p/w185/a7zp0wIARHtWR8RokyGo7mzOYxj.jpg",
+   "character": "Lavinia 'Vinnie' Dickinson",
+   "episodes": 30
+  },
+  {
+   "id": 989411,
+   "name": "Ella Hunt",
+   "photo": "https://image.tmdb.org/t/p/w185/obPoK7SkPqpNGm4RdyyKbEdprT6.jpg",
+   "character": "Sue Gilbert",
+   "episodes": 30
+  },
+  {
+   "id": 13636,
+   "name": "Jane Krakowski",
+   "photo": "https://image.tmdb.org/t/p/w185/hT9IGSgsE8VoWllOTtxR9JAoiK.jpg",
+   "character": "Mrs. Dickinson",
+   "episodes": 30
+  },
+  {
+   "id": 1717255,
+   "name": "Chinaza Uche",
+   "photo": "https://image.tmdb.org/t/p/w185/5fbbLI9BPiByyIIRYu9pbRQwyUN.jpg",
+   "character": "Henry",
+   "episodes": 25
+  },
+  {
+   "id": 2809218,
+   "name": "Sophie Zucker",
+   "photo": "https://image.tmdb.org/t/p/w185/z8aWP9ZV0gCHrkYyfaoacRPdM97.jpg",
+   "character": "Abby Wood",
+   "episodes": 19
+  },
+  {
+   "id": 2692636,
+   "name": "Kevin Yee",
+   "photo": "https://image.tmdb.org/t/p/w185/nRrHWjiGpEU2cu0wWFppHeEClJi.jpg",
+   "character": "Toshiaki",
+   "episodes": 18
+  },
+  {
+   "id": 1695508,
+   "name": "Gus Birney",
+   "photo": "https://image.tmdb.org/t/p/w185/iB04WUXBpVDEpbeU5FlZohkOdbU.jpg",
+   "character": "Jane Humphrey",
+   "episodes": 17
+  },
+  {
+   "id": 2809219,
+   "name": "Allegra Heart",
+   "photo": "https://image.tmdb.org/t/p/w185/4Z4jfdMPzhn93rXC1B9O0plWO5C.jpg",
+   "character": "Abiah Root",
+   "episodes": 17
+  },
+  {
+   "id": 21005,
+   "name": "Darlene Hunt",
+   "photo": "https://image.tmdb.org/t/p/w185/5d1SzkMsfpfw88Va7PsMdB8yQih.jpg",
+   "character": "Maggie",
+   "episodes": 17
+  },
+  {
+   "id": 1170657,
+   "name": "Amanda Warren",
+   "photo": "https://image.tmdb.org/t/p/w185/zoI2ejKVCDs7dy7RL1hGVOHOaXo.jpg",
+   "character": "Betty",
+   "episodes": 15
+  },
+  {
+   "id": 2809215,
+   "name": "Samuel Farnsworth",
+   "photo": "https://image.tmdb.org/t/p/w185/u0lNH28VssNwXHNS5BgnjVM1plc.jpg",
+   "character": "George Gould",
+   "episodes": 15
+  },
+  {
+   "id": 1223787,
+   "name": "Finn Jones",
+   "photo": "https://image.tmdb.org/t/p/w185/rKzzQ7oc80xDYDmZykBjmXWt0VZ.jpg",
+   "character": "Samuel Bowles",
+   "episodes": 10
+  },
+  {
+   "id": 16180,
+   "name": "Robert Picardo",
+   "photo": "https://image.tmdb.org/t/p/w185/9TOY0mhWRMlU5Ur8QHMoDecWs2n.jpg",
+   "character": "Ithamar Conkey",
+   "episodes": 10
+  },
+  {
+   "id": 1417739,
+   "name": "Pico Alexander",
+   "photo": "https://image.tmdb.org/t/p/w185/jhh38xor4lGRYEz29KVbMUEZw3c.jpg",
+   "character": "Henry 'Ship' Shipley",
+   "episodes": 9
+  },
+  {
+   "id": 1224251,
+   "name": "Erin Gerasimovich",
+   "photo": "https://image.tmdb.org/t/p/w185/cB29vVWFdsRVO3wWrRBkaeVHZ0f.jpg",
+   "character": "Anna",
+   "episodes": 9
+  },
+  {
+   "id": 2937426,
+   "name": "Neville Lee",
+   "photo": null,
+   "character": "Clara",
+   "episodes": 9
+  },
+  {
+   "id": 1560340,
+   "name": "Will Pullen",
+   "photo": "https://image.tmdb.org/t/p/w185/gffTjtaQbPNabhArPkd90HbkZlZ.jpg",
+   "character": "Frazar Stearns / Nobody",
+   "episodes": 8
+  },
+  {
+   "id": 1602747,
+   "name": "Gabriel Ebert",
+   "photo": "https://image.tmdb.org/t/p/w185/dYttZPsV9m3k1clffCzPkKCtmD4.jpg",
+   "character": "Thomas Wentworth Higginson",
+   "episodes": 7
+  },
+  {
+   "id": 2195140,
+   "name": "Ayo Edebiri",
+   "photo": "https://image.tmdb.org/t/p/w185/wrqYWaAmVPM2yueEEQUtMo6kCp2.jpg",
+   "character": "Hattie",
+   "episodes": 6
+  },
+  {
+   "id": 1025375,
+   "name": "Wiz Khalifa",
+   "photo": "https://image.tmdb.org/t/p/w185/d8RHCg06AHAyX4F89pDLiCMOktb.jpg",
+   "character": "Death",
+   "episodes": 6
+  },
+  {
+   "id": 2056594,
+   "name": "Nore Davis",
+   "photo": "https://image.tmdb.org/t/p/w185/gkFu0ScZrDg6HsxdUc4Rih77MsV.jpg",
+   "character": "Solomon",
+   "episodes": 6
+  }
+ ],
+ "crew": [
+  {
+   "id": 2353510,
+   "name": "Alena Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/eAIVHymvzRht9LMucKP6tk0H7Sh.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 1800154,
+   "name": "Diana Schmidt",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 2808244,
+   "name": "Alex Goldstone",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 1634055,
+   "name": "Josh Stern",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 41331,
+   "name": "Michael Sugar",
+   "photo": "https://image.tmdb.org/t/p/w185/dQpr2IM5wxfDswfJKPCyS0iv06Z.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 130640,
+   "name": "Hailee Steinfeld",
+   "photo": "https://image.tmdb.org/t/p/w185/qDInsG0cxWNxS1X4t59TBZ5S6x5.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 2511228,
+   "name": "Paul Lee",
+   "photo": "https://image.tmdb.org/t/p/w185/rvKfSQX9DJORBFJl3RZJ5rHiIq9.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 2362199,
+   "name": "Ashley Zalta",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 2095461,
+   "name": "Sofia Hultquist",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 1285806,
+   "name": "Ian Hultquist",
+   "photo": "https://image.tmdb.org/t/p/w185/xe4IBqK9sQAWJ4UdTUYLHGR4uUo.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 2808268,
+   "name": "Ken Greller",
+   "photo": "https://image.tmdb.org/t/p/w185/bVNgpea5WUaJO8vfaxGpmr4Cv9a.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 2809218,
+   "name": "Sophie Zucker",
+   "photo": "https://image.tmdb.org/t/p/w185/z8aWP9ZV0gCHrkYyfaoacRPdM97.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 2808272,
+   "name": "Robbie Macdonald",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 3309445,
+   "name": "R. Eric Thomas",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 2195140,
+   "name": "Ayo Edebiri",
+   "photo": "https://image.tmdb.org/t/p/w185/wrqYWaAmVPM2yueEEQUtMo6kCp2.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 3002062,
+   "name": "Ziwe",
+   "photo": "https://image.tmdb.org/t/p/w185/fLvuKhWMVeYU7raHTfpXcbVOcl1.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 11
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:34:17.520Z"
+}

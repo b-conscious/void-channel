@@ -1,0 +1,328 @@
+{
+ "show": "Wednesday",
+ "slug": "wednesday",
+ "tmdbId": 119051,
+ "cast": [
+  {
+   "id": 974169,
+   "name": "Jenna Ortega",
+   "photo": "https://image.tmdb.org/t/p/w185/cV4x7jNmsGLdKZn5I6xVF3Ltnmg.jpg",
+   "character": "Wednesday Addams / Goody Addams / Wednesday Addams",
+   "episodes": 16
+  },
+  {
+   "id": 2604515,
+   "name": "Emma Myers",
+   "photo": "https://image.tmdb.org/t/p/w185/v1Y8RP39135ZOary9M4MbkrCAdn.jpg",
+   "character": "Enid Sinclair",
+   "episodes": 16
+  },
+  {
+   "id": 1911865,
+   "name": "Hunter Doohan",
+   "photo": "https://image.tmdb.org/t/p/w185/ihno5ut6ha8TaubQFgl5Ozco2K1.jpg",
+   "character": "Tyler Galpin",
+   "episodes": 16
+  },
+  {
+   "id": 2189049,
+   "name": "Joy Sunday",
+   "photo": "https://image.tmdb.org/t/p/w185/phPn3BRW1vZzxkl3hgEy8umzXn.jpg",
+   "character": "Bianca Barclay",
+   "episodes": 16
+  },
+  {
+   "id": 3235624,
+   "name": "Moosa Mostafa",
+   "photo": "https://image.tmdb.org/t/p/w185/k9406KAf3HxF81dres7ZeV3tDZc.jpg",
+   "character": "Eugene Ottinger",
+   "episodes": 16
+  },
+  {
+   "id": 1908241,
+   "name": "Georgie Farmer",
+   "photo": "https://image.tmdb.org/t/p/w185/lWhHmiwqvtUIln5OPPVbXqtUofI.jpg",
+   "character": "Ajax Petropolus",
+   "episodes": 16
+  },
+  {
+   "id": 3235628,
+   "name": "Victor Dorobantu",
+   "photo": "https://image.tmdb.org/t/p/w185/jjvwYQsqCuG9XhZyZsmw3p8VEKo.jpg",
+   "character": "Thing",
+   "episodes": 15
+  },
+  {
+   "id": 2571568,
+   "name": "Luyanda Unati Lewis-Nyawo",
+   "photo": "https://image.tmdb.org/t/p/w185/pF82yYPbzJLLVHVar4UKBUPrxBw.jpg",
+   "character": "Sheriff Ritchie Santiago",
+   "episodes": 14
+  },
+  {
+   "id": 4943343,
+   "name": "Oliver Watson",
+   "photo": "https://image.tmdb.org/t/p/w185/bffdXPwsthhynZdiika5Vao28MQ.jpg",
+   "character": "Kent",
+   "episodes": 13
+  },
+  {
+   "id": 1011904,
+   "name": "Gwendoline Christie",
+   "photo": "https://image.tmdb.org/t/p/w185/kmlv5i02n3zKryBr2W3kSeWVKTD.jpg",
+   "character": "Larissa Weems / Principal Larissa Weems",
+   "episodes": 12
+  },
+  {
+   "id": 79079,
+   "name": "Jamie McShane",
+   "photo": "https://image.tmdb.org/t/p/w185/wojvRZMpAwytyoFTMFOpvZ26qJq.jpg",
+   "character": "Sheriff Donovan Galpin / Donovan Galpin",
+   "episodes": 11
+  },
+  {
+   "id": 2488176,
+   "name": "Isaac Ordonez",
+   "photo": "https://image.tmdb.org/t/p/w185/zSNeeC0lKZXvdFWCphVAvMLW4fR.jpg",
+   "character": "Pugsley Addams",
+   "episodes": 10
+  },
+  {
+   "id": 40481,
+   "name": "Luis Guzmán",
+   "photo": "https://image.tmdb.org/t/p/w185/kSdxUckOJj9R5VKrLUnRy14YhNV.jpg",
+   "character": "Gomez Addams",
+   "episodes": 10
+  },
+  {
+   "id": 1922,
+   "name": "Catherine Zeta-Jones",
+   "photo": "https://image.tmdb.org/t/p/w185/2fAo0jWy8zPl9jgR4DH5nLyL8Xa.jpg",
+   "character": "Morticia Addams",
+   "episodes": 10
+  },
+  {
+   "id": 6886,
+   "name": "Christina Ricci",
+   "photo": "https://image.tmdb.org/t/p/w185/m2cY5Er1loPgHkZYdFMEz6YeiwG.jpg",
+   "character": "Marilyn Thornhill",
+   "episodes": 10
+  },
+  {
+   "id": 884,
+   "name": "Steve Buscemi",
+   "photo": "https://image.tmdb.org/t/p/w185/n0pZumkrcZrAPMoPq684RhYnjPV.jpg",
+   "character": "Barry Dort",
+   "episodes": 8
+  },
+  {
+   "id": 453,
+   "name": "Riki Lindhome",
+   "photo": "https://image.tmdb.org/t/p/w185/kJAGFp0ZW5sY0NoysFZcfSRykZa.jpg",
+   "character": "Valerie Kinbott",
+   "episodes": 8
+  },
+  {
+   "id": 2724514,
+   "name": "Owen Painter",
+   "photo": "https://image.tmdb.org/t/p/w185/7x7WhM8eNOK7SRmDuiO2Ld47jZn.jpg",
+   "character": "Slurp / Isaac Night",
+   "episodes": 8
+  },
+  {
+   "id": 1477961,
+   "name": "Percy Hynes White",
+   "photo": "https://image.tmdb.org/t/p/w185/de84y3MlgDBnEtZZ3f7RDkYQPYs.jpg",
+   "character": "Xavier Thorpe",
+   "episodes": 8
+  },
+  {
+   "id": 26076,
+   "name": "Billie Piper",
+   "photo": "https://image.tmdb.org/t/p/w185/yCzwrP8iPQac943hW3nNA4ViuDd.jpg",
+   "character": "Isadora Capri",
+   "episodes": 8
+  },
+  {
+   "id": 4502345,
+   "name": "Noah B. Taylor",
+   "photo": "https://image.tmdb.org/t/p/w185/1w3evGYQenWgQZQkP65M4uiTUPm.jpg",
+   "character": "Bruno Yuson",
+   "episodes": 8
+  },
+  {
+   "id": 3131371,
+   "name": "Evie Templeton",
+   "photo": "https://image.tmdb.org/t/p/w185/1JV3FEULVnROl4APfkUprqTrFF6.jpg",
+   "character": "Agnes DeMille",
+   "episodes": 8
+  },
+  {
+   "id": 2899293,
+   "name": "Naomi J. Ogawa",
+   "photo": "https://image.tmdb.org/t/p/w185/iTPXpPNtJMv32Xnh2E4OUnBGoAE.jpg",
+   "character": "Yoko Tanaka",
+   "episodes": 8
+  },
+  {
+   "id": 3799620,
+   "name": "Johnna Dias-Watson",
+   "photo": "https://image.tmdb.org/t/p/w185/5TxQIV2C4n3PbLkfcHlkEkFrAuV.jpg",
+   "character": "Divina",
+   "episodes": 8
+  }
+ ],
+ "crew": [
+  {
+   "id": 18923,
+   "name": "Miles Millar",
+   "photo": "https://image.tmdb.org/t/p/w185/4phggQUKYg2WMMEy4JW8y6pKEVS.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 18924,
+   "name": "Alfred Gough",
+   "photo": "https://image.tmdb.org/t/p/w185/wZV1hProzjw9oR9HtjILDMn2K6A.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 531,
+   "name": "Danny Elfman",
+   "photo": "https://image.tmdb.org/t/p/w185/bcpur9bF56nLxzFzZowipA2wZhy.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 510,
+   "name": "Tim Burton",
+   "photo": "https://image.tmdb.org/t/p/w185/yHEHAHQpN9PfSEQx1UxZPczhcAi.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 1589118,
+   "name": "Steve Stark",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 1516820,
+   "name": "Andrew Mittman",
+   "photo": "https://image.tmdb.org/t/p/w185/jD7DNgrOfVWnUS5TE6jy2lie22z.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 168383,
+   "name": "Kayla Alpert",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 1106751,
+   "name": "Tommy Harper",
+   "photo": "https://image.tmdb.org/t/p/w185/A1WlNEHBuaYsjIqwCgdqModN7w6.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 2058406,
+   "name": "Kevin Miserocchi",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 21635,
+   "name": "Jonathan Glickman",
+   "photo": "https://image.tmdb.org/t/p/w185/ehTgRJFhBuV8iQtmL4TknUW1cdv.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 1033779,
+   "name": "Gail Berman",
+   "photo": "https://image.tmdb.org/t/p/w185/guvxCt4OjwQLyLuzsiNdH48stuc.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 71268,
+   "name": "Chris Bacon",
+   "photo": "https://image.tmdb.org/t/p/w185/jsSLnCFc19JfTMlyv0dLdHgFe4b.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 3886380,
+   "name": "Siena Butterfield",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 3886379,
+   "name": "Erika Vázquez",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 130569,
+   "name": "Kevin Lafferty",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1029064,
+   "name": "Karen Richards",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:52.167Z"
+}

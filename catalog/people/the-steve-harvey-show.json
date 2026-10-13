@@ -1,0 +1,323 @@
+{
+ "show": "The Steve Harvey Show",
+ "slug": "the-steve-harvey-show",
+ "tmdbId": 4107,
+ "cast": [
+  {
+   "id": 82587,
+   "name": "Steve Harvey",
+   "photo": "https://image.tmdb.org/t/p/w185/m9eYD66VtHPxgrXGhHw7gtugftE.jpg",
+   "character": "Steve Hightower",
+   "episodes": 122
+  },
+  {
+   "id": 5726,
+   "name": "Cedric the Entertainer",
+   "photo": "https://image.tmdb.org/t/p/w185/s6UrY5uofyxXsU5PydWBoLFReK0.jpg",
+   "character": "Cedric Robinson",
+   "episodes": 122
+  },
+  {
+   "id": 154105,
+   "name": "Merlin Santana",
+   "photo": "https://image.tmdb.org/t/p/w185/qHfpeH2MgneQfU1bsjDZetONupV.jpg",
+   "character": "Romeo Santana",
+   "episodes": 122
+  },
+  {
+   "id": 10128,
+   "name": "William Lee Scott",
+   "photo": "https://image.tmdb.org/t/p/w185/p6mISLnDP84gaBOiXSpOenFO8Zd.jpg",
+   "character": "Bullethead",
+   "episodes": 122
+  },
+  {
+   "id": 52116,
+   "name": "Wendy Raquel Robinson",
+   "photo": "https://image.tmdb.org/t/p/w185/3yaBYcN0BtlX9rTaatBQJxXOVPx.jpg",
+   "character": "Regina Greer",
+   "episodes": 122
+  },
+  {
+   "id": 74613,
+   "name": "Terri J. Vaughn",
+   "photo": "https://image.tmdb.org/t/p/w185/ysyR2IfVWZQMiC1V7Oc1dD242TC.jpg",
+   "character": "Lovita Jenkins",
+   "episodes": 101
+  },
+  {
+   "id": 1228710,
+   "name": "Lori Beth Denberg",
+   "photo": "https://image.tmdb.org/t/p/w185/bHXZACG5rXx70Wi7lPCgoYFqzYQ.jpg",
+   "character": "Lydia Gutman",
+   "episodes": 67
+  },
+  {
+   "id": 1526125,
+   "name": "Ariyan A. Johnson",
+   "photo": null,
+   "character": "Aisha",
+   "episodes": 22
+  },
+  {
+   "id": 1988,
+   "name": "Tracy Vilar",
+   "photo": "https://image.tmdb.org/t/p/w185/9R68ib49Lsmn8yHrN6U6Rix2LHr.jpg",
+   "character": "Sophia Ortiz",
+   "episodes": 21
+  },
+  {
+   "id": 2773381,
+   "name": "Netfa Perry",
+   "photo": null,
+   "character": "Sara",
+   "episodes": 21
+  },
+  {
+   "id": 65628,
+   "name": "The Lady of Rage",
+   "photo": "https://image.tmdb.org/t/p/w185/fo02WxT6qXAk2KMm9Dv5WkJI4PD.jpg",
+   "character": "Coretta Cox",
+   "episodes": 9
+  },
+  {
+   "id": 1216179,
+   "name": "Wayne Wilderson",
+   "photo": "https://image.tmdb.org/t/p/w185/wxGjX5fqMaw9pey8ysFZbetpKGD.jpg",
+   "character": "Byron Clark",
+   "episodes": 5
+  },
+  {
+   "id": 15411,
+   "name": "T.K. Carter",
+   "photo": "https://image.tmdb.org/t/p/w185/rqlDLtg8USZsO07VEiYQpQyjyA2.jpg",
+   "character": "T-Bone",
+   "episodes": 4
+  },
+  {
+   "id": 59645,
+   "name": "Kel Mitchell",
+   "photo": "https://image.tmdb.org/t/p/w185/LKNYjjNtq5EbntZUKQWUHcTVji.jpg",
+   "character": "Vincent",
+   "episodes": 4
+  },
+  {
+   "id": 77330,
+   "name": "Kenan Thompson",
+   "photo": "https://image.tmdb.org/t/p/w185/vHPhDGc1om91TzoIQ4zMscpNmxF.jpg",
+   "character": "Junior",
+   "episodes": 4
+  },
+  {
+   "id": 1230830,
+   "name": "Ronald Isley",
+   "photo": "https://image.tmdb.org/t/p/w185/6ryLmAKeyMqaNHWN3TeBgO1csS4.jpg",
+   "character": "Pretty Tony",
+   "episodes": 4
+  },
+  {
+   "id": 127931,
+   "name": "Dorien Wilson",
+   "photo": "https://image.tmdb.org/t/p/w185/bGv6dBkxrcX7U8zXO6nNOGKSYxw.jpg",
+   "character": "Warrington Steele",
+   "episodes": 4
+  },
+  {
+   "id": 36068,
+   "name": "Bianca Lawson",
+   "photo": "https://image.tmdb.org/t/p/w185/42R6bkLplss3180jdieJS1fhZt8.jpg",
+   "character": "Rosalind",
+   "episodes": 3
+  },
+  {
+   "id": 1734745,
+   "name": "Jackie Roberts",
+   "photo": null,
+   "character": "Tiffany Toussaint-Cartier",
+   "episodes": 2
+  },
+  {
+   "id": 63470,
+   "name": "Jennifer Lyons",
+   "photo": "https://image.tmdb.org/t/p/w185/2Eph4ijlHdB7TPRP6LSiJOj79pQ.jpg",
+   "character": "Kim",
+   "episodes": 2
+  },
+  {
+   "id": 141603,
+   "name": "Adele Givens",
+   "photo": "https://image.tmdb.org/t/p/w185/cKzuEd4GKn0pbPnDFEwcJvGwhqe.jpg",
+   "character": "Odetta",
+   "episodes": 2
+  },
+  {
+   "id": 80759,
+   "name": "Lisa Arrindell",
+   "photo": "https://image.tmdb.org/t/p/w185/zHHOTp6qt0grtnwFdKbZ2ZZYM4l.jpg",
+   "character": "Rachel",
+   "episodes": 2
+  },
+  {
+   "id": 1220722,
+   "name": "Thomas Anthony Jones",
+   "photo": "https://image.tmdb.org/t/p/w185/mKOUPSOLyImG0X9O9QT28pgupQM.jpg",
+   "character": "Male Exotic Dancer / Male Stripper",
+   "episodes": 2
+  },
+  {
+   "id": 122510,
+   "name": "Joe Colligan",
+   "photo": null,
+   "character": "Police Officer",
+   "episodes": 1
+  }
+ ],
+ "crew": [
+  {
+   "id": 1212805,
+   "name": "Winifred Hervey",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 60473,
+   "name": "Stan Lathan",
+   "photo": "https://image.tmdb.org/t/p/w185/IKRfdMseUutLDsTxgNADjjjNKf.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 122
+  },
+  {
+   "id": 1447200,
+   "name": "B. Mark Seabrooks",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 170502,
+   "name": "Walter Allen Bennett Jr.",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 4403518,
+   "name": "Manny Basanese",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 4655133,
+   "name": "Lawrence T. Holmes",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 3985115,
+   "name": "James Hannah",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1212806,
+   "name": "Jeffrey Duteil",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1234158,
+   "name": "Ben Montanio",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 157678,
+   "name": "Vince Cheung",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 4658568,
+   "name": "Kenneth Braun",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 182015,
+   "name": "Josslyn Luckett",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 552433,
+   "name": "Andrea Allen",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1219053,
+   "name": "Michael Rowe",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 3277416,
+   "name": "David Pincus",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 182009,
+   "name": "Joey Soloway",
+   "photo": "https://image.tmdb.org/t/p/w185/xwxHhd3SUf5UZBTIrdnAghgXYp9.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:28:29.408Z"
+}

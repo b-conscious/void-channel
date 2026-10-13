@@ -1,0 +1,328 @@
+{
+ "show": "The Last of Us",
+ "slug": "the-last-of-us",
+ "tmdbId": 100088,
+ "cast": [
+  {
+   "id": 1668004,
+   "name": "Bella Ramsey",
+   "photo": "https://image.tmdb.org/t/p/w185/vDbgxc7RYawpB1wK7JDEj62j06H.jpg",
+   "character": "Ellie Williams",
+   "episodes": 16
+  },
+  {
+   "id": 1253360,
+   "name": "Pedro Pascal",
+   "photo": "https://image.tmdb.org/t/p/w185/oKcMbVn0NJTNzQt0ClKKvVXkm60.jpg",
+   "character": "Joel Miller / Joel Miller (uncredited)",
+   "episodes": 12
+  },
+  {
+   "id": 111016,
+   "name": "Gabriel Luna",
+   "photo": "https://image.tmdb.org/t/p/w185/bIPORtYxTJPEUJIThbZrpqf4A11.jpg",
+   "character": "Tommy Miller",
+   "episodes": 9
+  },
+  {
+   "id": 1428070,
+   "name": "Isabela Merced",
+   "photo": "https://image.tmdb.org/t/p/w185/7O5GWIH8IHwU4kGZIhC3JkGDiZr.jpg",
+   "character": "Dina",
+   "episodes": 7
+  },
+  {
+   "id": 2569691,
+   "name": "Young Mazino",
+   "photo": "https://image.tmdb.org/t/p/w185/cRuVRx1DMe2hBkz5pssVqdpCtaQ.jpg",
+   "character": "Jesse",
+   "episodes": 7
+  },
+  {
+   "id": 210773,
+   "name": "Rutina Wesley",
+   "photo": "https://image.tmdb.org/t/p/w185/ujpdNAKxlv6TRI2mm0k3eSSZJkB.jpg",
+   "character": "Maria",
+   "episodes": 5
+  },
+  {
+   "id": 1151408,
+   "name": "Samuel Hoeksema",
+   "photo": "https://image.tmdb.org/t/p/w185/6TEscmA3aFBkdWX2DuozcUhHkBK.jpg",
+   "character": "Museum Clicker / Clicker",
+   "episodes": 4
+  },
+  {
+   "id": 1773397,
+   "name": "Danny Ramirez",
+   "photo": "https://image.tmdb.org/t/p/w185/7ZvcfWA5O5ULiupbHZtGGEPwnpI.jpg",
+   "character": "Manny Alvarez",
+   "episodes": 4
+  },
+  {
+   "id": 31512,
+   "name": "Robert John Burke",
+   "photo": "https://image.tmdb.org/t/p/w185/uWEaY5gypb6cp1bdUYG4uCKw4sK.jpg",
+   "character": "Seth",
+   "episodes": 4
+  },
+  {
+   "id": 30084,
+   "name": "Anna Torv",
+   "photo": "https://image.tmdb.org/t/p/w185/muZIxj33R2EEJhm28c9hBd0AiRk.jpg",
+   "character": "Tess",
+   "episodes": 3
+  },
+  {
+   "id": 1397605,
+   "name": "Lamar Johnson",
+   "photo": "https://image.tmdb.org/t/p/w185/4IEsKiSsyckleKsPsiIVtAh6QDy.jpg",
+   "character": "Henry Burrell",
+   "episodes": 3
+  },
+  {
+   "id": 481337,
+   "name": "Kaitlyn Dever",
+   "photo": "https://image.tmdb.org/t/p/w185/np5rBCFRdeS1sXePL8uY09ktoC4.jpg",
+   "character": "Abby Anderson",
+   "episodes": 3
+  },
+  {
+   "id": 1859934,
+   "name": "Tati Gabrielle",
+   "photo": "https://image.tmdb.org/t/p/w185/txZTL1HkPVxliTilbjlwR51VIt6.jpg",
+   "character": "Nora",
+   "episodes": 3
+  },
+  {
+   "id": 2964509,
+   "name": "Spencer Lord",
+   "photo": "https://image.tmdb.org/t/p/w185/61JPrN5oea9yGvf6QwCxVNWv7xh.jpg",
+   "character": "Owen",
+   "episodes": 3
+  },
+  {
+   "id": 82764,
+   "name": "Ariela Barer",
+   "photo": "https://image.tmdb.org/t/p/w185/1ylIA82xeDufEbBnb63lXAlSvD5.jpg",
+   "character": "Mel",
+   "episodes": 3
+  },
+  {
+   "id": 4872494,
+   "name": "Ezra Benedict Agbonkhese",
+   "photo": null,
+   "character": "Benji",
+   "episodes": 3
+  },
+  {
+   "id": 11514,
+   "name": "Catherine O'Hara",
+   "photo": "https://image.tmdb.org/t/p/w185/gI2RyymLJ9ZrhEyJSD5EqSvFpCX.jpg",
+   "character": "Gail",
+   "episodes": 3
+  },
+  {
+   "id": 82821,
+   "name": "Jeffrey Pierce",
+   "photo": "https://image.tmdb.org/t/p/w185/jvBxRML1PcV0Kuoj3cOckEhvryH.jpg",
+   "character": "Perry",
+   "episodes": 2
+  },
+  {
+   "id": 3907669,
+   "name": "Keivonn Woodard",
+   "photo": "https://image.tmdb.org/t/p/w185/w4gTsxfzUxJAaE70lduosYBCKR8.jpg",
+   "character": "Sam Burrell",
+   "episodes": 2
+  },
+  {
+   "id": 20211,
+   "name": "John Getz",
+   "photo": "https://image.tmdb.org/t/p/w185/NL52y1nH5SZMlJKfKpPBnofoJk.jpg",
+   "character": "Dr. Edelstein",
+   "episodes": 2
+  },
+  {
+   "id": 2081561,
+   "name": "Olivier Ross-Parent",
+   "photo": "https://image.tmdb.org/t/p/w185/9tFTbsfko6zKcrb9ZBXEPG3QIKK.jpg",
+   "character": "Clicker / Museum Clicker",
+   "episodes": 2
+  },
+  {
+   "id": 1253388,
+   "name": "Merle Dandridge",
+   "photo": "https://image.tmdb.org/t/p/w185/qoPX7VpSPl4GVuwnBPdfJ39Jt46.jpg",
+   "character": "Marlene",
+   "episodes": 2
+  },
+  {
+   "id": 2064124,
+   "name": "Nico Parker",
+   "photo": "https://image.tmdb.org/t/p/w185/gt0NJClVSCPCEfcPgcLj3f85uLa.jpg",
+   "character": "Sarah Miller",
+   "episodes": 2
+  },
+  {
+   "id": 15091,
+   "name": "Melanie Lynskey",
+   "photo": "https://image.tmdb.org/t/p/w185/kzrWI1sTgnA0H7TCIKzDOUtOW4n.jpg",
+   "character": "Kathleen Coghlan",
+   "episodes": 2
+  }
+ ],
+ "crew": [
+  {
+   "id": 1295692,
+   "name": "Neil Druckmann",
+   "photo": "https://image.tmdb.org/t/p/w185/bVUsM4aYiHbeSYE1xAw2H5Z1ANU.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 35796,
+   "name": "Craig Mazin",
+   "photo": "https://image.tmdb.org/t/p/w185/uEhna6qcMuyU5TP7irpTUZ2ZsZc.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 1551704,
+   "name": "Cecil O'Connor",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 2313937,
+   "name": "Jacqueline Lesko",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 1058615,
+   "name": "Carter Swan",
+   "photo": "https://image.tmdb.org/t/p/w185/AvLwGyrFlPO0siw3MYH13mOpahI.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 2457600,
+   "name": "Asad Qizilbash",
+   "photo": "https://image.tmdb.org/t/p/w185/hZdqsU1EmLsPDnW2LElvoRlSaFp.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 1223797,
+   "name": "Carolyn Strauss",
+   "photo": "https://image.tmdb.org/t/p/w185/o88ISZv7ILrPMHutX1XVr7trmkF.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 1396493,
+   "name": "Rose Lam",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 1970298,
+   "name": "Evan Wells",
+   "photo": "https://image.tmdb.org/t/p/w185/3ntVgs1tyRfec7iROG89hCoqpm5.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 278,
+   "name": "Gustavo Santaolalla",
+   "photo": "https://image.tmdb.org/t/p/w185/v0mUhWXq7BFsqysFO9lJ1yDbi1o.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 1639821,
+   "name": "David Fleming",
+   "photo": "https://image.tmdb.org/t/p/w185/dsWDTd4TOTY3vyCiDrsLwg3PZXj.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1574550,
+   "name": "Ali Abbasi",
+   "photo": "https://image.tmdb.org/t/p/w185/1mwdpvwjAG1NkvUwpdBMEMJnjK2.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 208453,
+   "name": "Peter Hoar",
+   "photo": "https://image.tmdb.org/t/p/w185/qfLft2v4stmVdXYEdanJhasYC5J.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 175311,
+   "name": "Jeremy Webb",
+   "photo": "https://image.tmdb.org/t/p/w185/hJcVQ62yQTBP5lLbhsIFpeHK2hD.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1217567,
+   "name": "Halley Wegryn Gross",
+   "photo": "https://image.tmdb.org/t/p/w185/9wtcZN1tZDu1bORAb4t8wfZAFwf.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 57199,
+   "name": "Mark Mylod",
+   "photo": "https://image.tmdb.org/t/p/w185/6Nwg31BrgPkCjZ054Pso3ctg3Ov.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:55.243Z"
+}

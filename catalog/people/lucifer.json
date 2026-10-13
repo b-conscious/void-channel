@@ -1,0 +1,334 @@
+{
+ "show": "Lucifer",
+ "slug": "lucifer",
+ "tmdbId": 63174,
+ "cast": [
+  {
+   "id": 192944,
+   "name": "Tom Ellis",
+   "photo": "https://image.tmdb.org/t/p/w185/zhjIyqpk5bsYgxsh5bSeS6VZtHm.jpg",
+   "character": "Lucifer Morningstar",
+   "episodes": 93
+  },
+  {
+   "id": 37014,
+   "name": "Lauren German",
+   "photo": "https://image.tmdb.org/t/p/w185/if1TbO8dSfPiDCMfy52nH7A2D7.jpg",
+   "character": "Chloe Decker",
+   "episodes": 93
+  },
+  {
+   "id": 116474,
+   "name": "Kevin Alejandro",
+   "photo": "https://image.tmdb.org/t/p/w185/bh4aQqP7kJzL2Ls9tj5OmhsBlqi.jpg",
+   "character": "Dan Espinoza",
+   "episodes": 93
+  },
+  {
+   "id": 21356,
+   "name": "D. B. Woodside",
+   "photo": "https://image.tmdb.org/t/p/w185/xdyGewr108rQWojpYlKw2QjrxCz.jpg",
+   "character": "Amenadiel",
+   "episodes": 93
+  },
+  {
+   "id": 515875,
+   "name": "Lesley-Ann Brandt",
+   "photo": "https://image.tmdb.org/t/p/w185/fW2ITcpENpNnHf4wuNltf3PSQTk.jpg",
+   "character": "Mazikeen 'Maze'",
+   "episodes": 93
+  },
+  {
+   "id": 46074,
+   "name": "Rachael Harris",
+   "photo": "https://image.tmdb.org/t/p/w185/1O0zLB0gMcNIuttpG3omWb4ZAvF.jpg",
+   "character": "Linda Martin",
+   "episodes": 93
+  },
+  {
+   "id": 56457,
+   "name": "Aimee Garcia",
+   "photo": "https://image.tmdb.org/t/p/w185/4z3mkoa8jHpqjzfbhzYMeKe2Mf7.jpg",
+   "character": "Ella Lopez",
+   "episodes": 80
+  },
+  {
+   "id": 1512021,
+   "name": "Scarlett Estevez",
+   "photo": "https://image.tmdb.org/t/p/w185/eGZsZRPJ0aUBGaght37a3pQXEjs.jpg",
+   "character": "Trixie Espinoza",
+   "episodes": 53
+  },
+  {
+   "id": 74423,
+   "name": "Tricia Helfer",
+   "photo": "https://image.tmdb.org/t/p/w185/cXwa8yT2Qv7EmCI8yjs5ldvMHmw.jpg",
+   "character": "Charlotte Richards",
+   "episodes": 47
+  },
+  {
+   "id": 11824,
+   "name": "Tom Welling",
+   "photo": "https://image.tmdb.org/t/p/w185/k4hAPoEUMjp6FWkBmLFnCjXWhoq.jpg",
+   "character": "Marcus Pierce",
+   "episodes": 26
+  },
+  {
+   "id": 211596,
+   "name": "Inbar Lavi",
+   "photo": "https://image.tmdb.org/t/p/w185/rdcdfVavWaKc0UCCV9ufdQaLIpc.jpg",
+   "character": "Eve",
+   "episodes": 14
+  },
+  {
+   "id": 1492326,
+   "name": "Brianna Hildebrand",
+   "photo": "https://image.tmdb.org/t/p/w185/8lGwV4rMQReWMlsXhLBYMRTYzTA.jpg",
+   "character": "Aurora Morningstar",
+   "episodes": 10
+  },
+  {
+   "id": 114000,
+   "name": "Kevin Rankin",
+   "photo": "https://image.tmdb.org/t/p/w185/fOW5R6BSgRvMrt2R7KAxSk7L4H2.jpg",
+   "character": "Malcolm Graham",
+   "episodes": 7
+  },
+  {
+   "id": 95047,
+   "name": "Graham McTavish",
+   "photo": "https://image.tmdb.org/t/p/w185/qpKVz46PkKVaXzthcJO4ldFPdM9.jpg",
+   "character": "Father Kinley",
+   "episodes": 6
+  },
+  {
+   "id": 53368,
+   "name": "Scott Porter",
+   "photo": "https://image.tmdb.org/t/p/w185/uvkZrnWSwxVn3oau2BwHuvUDzcb.jpg",
+   "character": "Carol",
+   "episodes": 6
+  },
+  {
+   "id": 2317686,
+   "name": "Cailan Robinson",
+   "photo": "https://image.tmdb.org/t/p/w185/alAyC2apdMXb8aUrdccWsFhxREO.jpg",
+   "character": "Cop",
+   "episodes": 5
+  },
+  {
+   "id": 352,
+   "name": "Dennis Haysbert",
+   "photo": "https://image.tmdb.org/t/p/w185/lcnjaw2CFN6q9eaes1jTYrUB0rb.jpg",
+   "character": "God",
+   "episodes": 5
+  },
+  {
+   "id": 116526,
+   "name": "Jeremiah Birkett",
+   "photo": "https://image.tmdb.org/t/p/w185/8iFr7rPmJ2YpjFANVCpL9T3UvcK.jpg",
+   "character": "Lee (Said Out Bitch)",
+   "episodes": 5
+  },
+  {
+   "id": 2653399,
+   "name": "Genevieve Gauss",
+   "photo": "https://image.tmdb.org/t/p/w185/1gPquaJyRgGewFBV7kFH0iCZ4kT.jpg",
+   "character": "Officer Cacuzza",
+   "episodes": 5
+  },
+  {
+   "id": 2750055,
+   "name": "Phil Kruse",
+   "photo": "https://image.tmdb.org/t/p/w185/zrMHdnLSuO33pLriiAVQDZ3kraw.jpg",
+   "character": "Lucifer/Michael Acting Double",
+   "episodes": 5
+  },
+  {
+   "id": 2308574,
+   "name": "Vinessa Vidotto",
+   "photo": "https://image.tmdb.org/t/p/w185/cU3X2gZk2Wjs8WQDjqpcR8CTVbW.jpg",
+   "character": "Remiel",
+   "episodes": 4
+  },
+  {
+   "id": 1214164,
+   "name": "Merrin Dungey",
+   "photo": "https://image.tmdb.org/t/p/w185/uzN9h2Q3fE92D3CB7V5pCNj2BBP.jpg",
+   "character": "Officer Sonja Harris",
+   "episodes": 4
+  },
+  {
+   "id": 2103399,
+   "name": "Marlo Franson",
+   "photo": "https://image.tmdb.org/t/p/w185/lRI7SiUQtyQIYffnyIvjiYnfJcy.jpg",
+   "character": "Detective Marlo",
+   "episodes": 4
+  },
+  {
+   "id": 58058,
+   "name": "Lochlyn Munro",
+   "photo": "https://image.tmdb.org/t/p/w185/bOJ03k0oe2R6snRgzV8M4Qtoo4O.jpg",
+   "character": "Anthony Paolucci",
+   "episodes": 3
+  }
+ ],
+ "crew": [
+  {
+   "id": 1222585,
+   "name": "Tom Kapinos",
+   "photo": "https://image.tmdb.org/t/p/w185/ol7GfeO0OIDCWGYzlg1LDLmwluO.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 112
+  },
+  {
+   "id": 3950,
+   "name": "Len Wiseman",
+   "photo": "https://image.tmdb.org/t/p/w185/aXsTPBb6dQ2T3PxLqy2ijf2nxrG.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 93
+  },
+  {
+   "id": 1222590,
+   "name": "Ildy Modrovich",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 93
+  },
+  {
+   "id": 1224406,
+   "name": "Jonathan Littman",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 93
+  },
+  {
+   "id": 770,
+   "name": "Jerry Bruckheimer",
+   "photo": "https://image.tmdb.org/t/p/w185/sYjNrmbMi4DGAPX6Kt8wVy7LNXI.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 93
+  },
+  {
+   "id": 1248201,
+   "name": "Joe Henderson",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 93
+  },
+  {
+   "id": 1512022,
+   "name": "KristieAnne Reed",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 93
+  },
+  {
+   "id": 964209,
+   "name": "Ben Decter",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 80
+  },
+  {
+   "id": 1219207,
+   "name": "Jeff Russo",
+   "photo": "https://image.tmdb.org/t/p/w185/xmH1qDuU8KC2evd7GXd0hCWWny1.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 70
+  },
+  {
+   "id": 1490537,
+   "name": "Chris Rafferty",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 45
+  },
+  {
+   "id": 1579755,
+   "name": "Mike Costa",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 45
+  },
+  {
+   "id": 207074,
+   "name": "Jason Ning",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 41
+  },
+  {
+   "id": 1957627,
+   "name": "Jen Graham Imada",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 33
+  },
+  {
+   "id": 1407158,
+   "name": "Jenn Kao",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 29
+  },
+  {
+   "id": 1264792,
+   "name": "Julia Fontana",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 29
+  },
+  {
+   "id": 192944,
+   "name": "Tom Ellis",
+   "photo": "https://image.tmdb.org/t/p/w185/zhjIyqpk5bsYgxsh5bSeS6VZtHm.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 26
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:47.218Z"
+}

@@ -1,0 +1,330 @@
+{
+ "show": "The Kids in the Hall",
+ "slug": "the-kids-in-the-hall",
+ "tmdbId": 1551,
+ "cast": [
+  {
+   "id": 56867,
+   "name": "Mark McKinney",
+   "photo": "https://image.tmdb.org/t/p/w185/fjoMrLiWWeKN0voBdZphBbS4kV0.jpg",
+   "character": "",
+   "episodes": 110
+  },
+  {
+   "id": 78576,
+   "name": "Scott Thompson",
+   "photo": "https://image.tmdb.org/t/p/w185/lBvadhxdANl9JQo6HkK7ou4jWkS.jpg",
+   "character": "",
+   "episodes": 110
+  },
+  {
+   "id": 21290,
+   "name": "Dave Foley",
+   "photo": "https://image.tmdb.org/t/p/w185/muHRRGDTE7ZWk3guqDAk9L4DqVX.jpg",
+   "character": "",
+   "episodes": 110
+  },
+  {
+   "id": 58955,
+   "name": "Kevin McDonald",
+   "photo": "https://image.tmdb.org/t/p/w185/ymwrW99x9gyN0zeRkqavt3lZMa9.jpg",
+   "character": "",
+   "episodes": 110
+  },
+  {
+   "id": 73499,
+   "name": "Bruce McCulloch",
+   "photo": "https://image.tmdb.org/t/p/w185/mknOQPuT4PTA5Qjxz4xx95krkwR.jpg",
+   "character": "",
+   "episodes": 110
+  },
+  {
+   "id": 1225532,
+   "name": "Paul Bellini",
+   "photo": "https://image.tmdb.org/t/p/w185/553ZCPH7aqhsGmQv6bRTzEXTWZY.jpg",
+   "character": "Pierre / Carmine / Self",
+   "episodes": 13
+  },
+  {
+   "id": 22014,
+   "name": "Tamara Gorski",
+   "photo": "https://image.tmdb.org/t/p/w185/8X81QbKX2CEDjanjIo1WXPSzNp0.jpg",
+   "character": "Girlfriend / Woman having lunch with director / Bruce's 'Special Friend'",
+   "episodes": 5
+  },
+  {
+   "id": 4847132,
+   "name": "Aaron Alexander",
+   "photo": null,
+   "character": "Student",
+   "episodes": 4
+  },
+  {
+   "id": 5888,
+   "name": "Nicole De Boer",
+   "photo": "https://image.tmdb.org/t/p/w185/wMbn79Fy2So26LpRA9QITodfexV.jpg",
+   "character": "Laura",
+   "episodes": 3
+  },
+  {
+   "id": 79402,
+   "name": "Tracy Wright",
+   "photo": "https://image.tmdb.org/t/p/w185/lr1E4ZmUkRR0WH1YvXD5vyBOekZ.jpg",
+   "character": "Sandra",
+   "episodes": 2
+  },
+  {
+   "id": 1482631,
+   "name": "John Balabik",
+   "photo": "https://image.tmdb.org/t/p/w185/tk0sWCQp40aionlibgZ1gfqIbQX.jpg",
+   "character": "Bingo",
+   "episodes": 2
+  },
+  {
+   "id": 120889,
+   "name": "Dayo Ade",
+   "photo": "https://image.tmdb.org/t/p/w185/rhYq3kLxIX1voOUsFSXnyOT50n7.jpg",
+   "character": "Rebel / Male Guard #1",
+   "episodes": 2
+  },
+  {
+   "id": 1243093,
+   "name": "Illya Woloshyn",
+   "photo": "https://image.tmdb.org/t/p/w185/42ZOlbn4ukhSgtRrwGrwdNpN1M5.jpg",
+   "character": "Son / Chad",
+   "episodes": 2
+  },
+  {
+   "id": 168792,
+   "name": "Mary Lewis",
+   "photo": "https://image.tmdb.org/t/p/w185/c4tUqI7RqFeIYjnYSvmpvncrNN4.jpg",
+   "character": "",
+   "episodes": 2
+  },
+  {
+   "id": 242212,
+   "name": "Daniel DeSanto",
+   "photo": "https://image.tmdb.org/t/p/w185/ntlDIsIjK8iBt1H77BETUSIthJr.jpg",
+   "character": "Son / John",
+   "episodes": 2
+  },
+  {
+   "id": 2136927,
+   "name": "Gladys O'Connor",
+   "photo": null,
+   "character": "Thirty Helens Agree #2 / Helen Bryant",
+   "episodes": 2
+  },
+  {
+   "id": 43257,
+   "name": "Krista Bridges",
+   "photo": "https://image.tmdb.org/t/p/w185/zFA8HVDbi7RO3cfk5oGjaQTAm9t.jpg",
+   "character": "Over-Eager Girlfriend",
+   "episodes": 1
+  },
+  {
+   "id": 1337235,
+   "name": "Bonnie Pritchard",
+   "photo": null,
+   "character": "The Mistress",
+   "episodes": 1
+  },
+  {
+   "id": 180686,
+   "name": "Anthony J. Mifsud",
+   "photo": "https://image.tmdb.org/t/p/w185/1ZEp0vuFxKzy1soNdQhdQi5leSZ.jpg",
+   "character": "Punk Rocker",
+   "episodes": 1
+  },
+  {
+   "id": 4846995,
+   "name": "Leslie Stamp",
+   "photo": null,
+   "character": "Dancer",
+   "episodes": 1
+  },
+  {
+   "id": 3054231,
+   "name": "Audrey Nesbitt",
+   "photo": null,
+   "character": "Convenience Store Girlfriend",
+   "episodes": 1
+  },
+  {
+   "id": 1835485,
+   "name": "Marcel St. Pierre",
+   "photo": null,
+   "character": "Wedding Guest / Bruce's Tiny Relative",
+   "episodes": 1
+  },
+  {
+   "id": 1374373,
+   "name": "Drew Coombs",
+   "photo": null,
+   "character": "Boyfriend",
+   "episodes": 1
+  },
+  {
+   "id": 160396,
+   "name": "Chris Robinson",
+   "photo": "https://image.tmdb.org/t/p/w185/6mSTPVm7daygyKZbC8kbpc1u5DZ.jpg",
+   "character": "Himself",
+   "episodes": 1
+  }
+ ],
+ "crew": [
+  {
+   "id": 73499,
+   "name": "Bruce McCulloch",
+   "photo": "https://image.tmdb.org/t/p/w185/mknOQPuT4PTA5Qjxz4xx95krkwR.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 21290,
+   "name": "Dave Foley",
+   "photo": "https://image.tmdb.org/t/p/w185/muHRRGDTE7ZWk3guqDAk9L4DqVX.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 56867,
+   "name": "Mark McKinney",
+   "photo": "https://image.tmdb.org/t/p/w185/fjoMrLiWWeKN0voBdZphBbS4kV0.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 58955,
+   "name": "Kevin McDonald",
+   "photo": "https://image.tmdb.org/t/p/w185/ymwrW99x9gyN0zeRkqavt3lZMa9.jpg",
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 78576,
+   "name": "Scott Thompson",
+   "photo": "https://image.tmdb.org/t/p/w185/lBvadhxdANl9JQo6HkK7ou4jWkS.jpg",
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 56158,
+   "name": "Lorne Michaels",
+   "photo": "https://image.tmdb.org/t/p/w185/lVBbmYJmYQWOODTPJFjOZzvS4x8.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 110
+  },
+  {
+   "id": 35479,
+   "name": "John Blanchard",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 95
+  },
+  {
+   "id": 64030,
+   "name": "Kelly Makin",
+   "photo": "https://image.tmdb.org/t/p/w185/cQqQJtSi5FEOVH6zri1Sldw54qE.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 56155,
+   "name": "Stephen Surjik",
+   "photo": "https://image.tmdb.org/t/p/w185/xZAl5XQqf51Yz4maYtLc6HSG62z.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 1029771,
+   "name": "Robert Boyd",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 4847148,
+   "name": "Jack Budgell",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 175916,
+   "name": "Michael Kennedy",
+   "photo": "https://image.tmdb.org/t/p/w185/hWHvh3jzGjCYb3ISzhuBD7HMeeC.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1243907,
+   "name": "Mark Sawers",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 18320,
+   "name": "Bronwen Hughes",
+   "photo": "https://image.tmdb.org/t/p/w185/uHO8CZKpu4LLpcuPwB1lfhccgWs.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 222108,
+   "name": "David Wellington",
+   "photo": "https://image.tmdb.org/t/p/w185/uSiyGzGwrlZFZhFRWgBQd29fC0C.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 55149,
+   "name": "John Paizs",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:46:02.579Z"
+}

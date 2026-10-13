@@ -1,0 +1,353 @@
+{
+ "show": "CSI: Crime Scene Investigation",
+ "slug": "csi-crime-scene-investigation",
+ "tmdbId": 1431,
+ "cast": [
+  {
+   "id": 117484,
+   "name": "George Eads",
+   "photo": "https://image.tmdb.org/t/p/w185/fBvMhnzAJTdqRVXlrOCL9sXJLbo.jpg",
+   "character": "Nick Stokes",
+   "episodes": 335
+  },
+  {
+   "id": 173849,
+   "name": "Eric Szmanda",
+   "photo": "https://image.tmdb.org/t/p/w185/tsPKC1I4mZx2cFmMozVL0E185Dm.jpg",
+   "character": "Greg Sanders",
+   "episodes": 332
+  },
+  {
+   "id": 1217657,
+   "name": "Robert David Hall",
+   "photo": "https://image.tmdb.org/t/p/w185/myVVloDAXZgmSXI0dxAPg8RN0JF.jpg",
+   "character": "Al Robbins",
+   "episodes": 327
+  },
+  {
+   "id": 925,
+   "name": "Paul Guilfoyle",
+   "photo": "https://image.tmdb.org/t/p/w185/c7unxeM13lF9pMhZhYwlNsSFjFe.jpg",
+   "character": "Jim Brass",
+   "episodes": 317
+  },
+  {
+   "id": 536,
+   "name": "Jorja Fox",
+   "photo": "https://image.tmdb.org/t/p/w185/hCRdbNzZjkhYyVoZPmhYF5OqpaX.jpg",
+   "character": "Sara Sidle",
+   "episodes": 305
+  },
+  {
+   "id": 1224393,
+   "name": "David Berman",
+   "photo": "https://image.tmdb.org/t/p/w185/5nLITn9pJtO3kTchHieHo8VZ4a5.jpg",
+   "character": "David Phillips",
+   "episodes": 284
+  },
+  {
+   "id": 19838,
+   "name": "Marg Helgenberger",
+   "photo": "https://image.tmdb.org/t/p/w185/wPfXSAsk1l9Ry2sqN1Ei8GwjI9E.jpg",
+   "character": "Catherine Willows",
+   "episodes": 264
+  },
+  {
+   "id": 17421,
+   "name": "Wallace Langham",
+   "photo": "https://image.tmdb.org/t/p/w185/pjc9iFeNMAAHI3zOsiP1anZ0wis.jpg",
+   "character": "David Hodges",
+   "episodes": 220
+  },
+  {
+   "id": 52267,
+   "name": "William L. Petersen",
+   "photo": "https://image.tmdb.org/t/p/w185/rA0QRKqpXef7ciO2zY6CnHZC3cO.jpg",
+   "character": "Gil Grissom",
+   "episodes": 194
+  },
+  {
+   "id": 40276,
+   "name": "Gary Dourdan",
+   "photo": "https://image.tmdb.org/t/p/w185/xsxjlW98I8ml4FCHV040b3XaBOi.jpg",
+   "character": "Warrick Brown",
+   "episodes": 183
+  },
+  {
+   "id": 1219224,
+   "name": "Jon Wellner",
+   "photo": "https://image.tmdb.org/t/p/w185/kIX1mef4re6MJs8nX0BHdRZyvXg.jpg",
+   "character": "Henry Andrews / Sam Tracy",
+   "episodes": 124
+  },
+  {
+   "id": 59293,
+   "name": "Archie Kao",
+   "photo": "https://image.tmdb.org/t/p/w185/f8XaepyD7MY5kAWuSYDP2ZKoHvw.jpg",
+   "character": "Archie Johnson / Campus Security Tech / M. Blaze",
+   "episodes": 102
+  },
+  {
+   "id": 1224404,
+   "name": "Larry Mitchell",
+   "photo": "https://image.tmdb.org/t/p/w185/hzHZ9LCiW4xypClp7aKNkdEzHaf.jpg",
+   "character": "Officer Mitchell",
+   "episodes": 98
+  },
+  {
+   "id": 78197,
+   "name": "Elisabeth Harnois",
+   "photo": "https://image.tmdb.org/t/p/w185/yq9H8T5urAGhzvEBxbw4gBjvDN2.jpg",
+   "character": "Morgan Brody",
+   "episodes": 85
+  },
+  {
+   "id": 12836,
+   "name": "Ted Danson",
+   "photo": "https://image.tmdb.org/t/p/w185/2QUEYVhrKbOkRKeFEUnc5sJby6a.jpg",
+   "character": "D.B. Russell",
+   "episodes": 84
+  },
+  {
+   "id": 1214364,
+   "name": "Liz Vassey",
+   "photo": "https://image.tmdb.org/t/p/w185/z21teBzbHoqcdS50kU73iLaKRRE.jpg",
+   "character": "Wendy Simms",
+   "episodes": 76
+  },
+  {
+   "id": 1951,
+   "name": "Elisabeth Shue",
+   "photo": "https://image.tmdb.org/t/p/w185/1pmjDSLvOuqKW1P2KRPlpFMeUFe.jpg",
+   "character": "Julie Finlay",
+   "episodes": 71
+  },
+  {
+   "id": 159456,
+   "name": "Marc Vann",
+   "photo": "https://image.tmdb.org/t/p/w185/7gJq2txaqjJYoDQCV4rrr19BvEg.jpg",
+   "character": "Conrad Ecklie",
+   "episodes": 67
+  },
+  {
+   "id": 2975,
+   "name": "Laurence Fishburne",
+   "photo": "https://image.tmdb.org/t/p/w185/2GbXERENPpl5MmlqOLlPVaVtifD.jpg",
+   "character": "Raymond Langston",
+   "episodes": 60
+  },
+  {
+   "id": 20805,
+   "name": "Louise Lombard",
+   "photo": "https://image.tmdb.org/t/p/w185/6znYbOI2Z8PfzZ6p9jHG5QdAeb2.jpg",
+   "character": "Sofia Curtis",
+   "episodes": 53
+  },
+  {
+   "id": 173886,
+   "name": "Joseph Patrick Kelly",
+   "photo": "https://image.tmdb.org/t/p/w185/wvUpGz4QG18czmQkFqx91KbD7Ha.jpg",
+   "character": "Hotel Security / Joe Metcalf",
+   "episodes": 42
+  },
+  {
+   "id": 21724,
+   "name": "Alex Carter",
+   "photo": "https://image.tmdb.org/t/p/w185/sFm1xJ1eGniPwyGMcq2piEFSl6V.jpg",
+   "character": "Detective Vartann",
+   "episodes": 40
+  },
+  {
+   "id": 117087,
+   "name": "Larry Sullivan",
+   "photo": "https://image.tmdb.org/t/p/w185/oNYTlrHyNEF9Ls2BnwQ0cKSWpUJ.jpg",
+   "character": "Andy Akers",
+   "episodes": 39
+  },
+  {
+   "id": 105190,
+   "name": "Sheeri Rappaport",
+   "photo": "https://image.tmdb.org/t/p/w185/4iLnTh5W8UYJjGGOY6dmEOsfutg.jpg",
+   "character": "Mandy Webster",
+   "episodes": 38
+  }
+ ],
+ "crew": [
+  {
+   "id": 1214544,
+   "name": "Ann Donahue",
+   "photo": "https://image.tmdb.org/t/p/w185/loRNThhBJCx3FJi2RQvX519WD1j.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 335
+  },
+  {
+   "id": 1039314,
+   "name": "Anthony E. Zuiker",
+   "photo": "https://image.tmdb.org/t/p/w185/fXCjUuwHvPhQTwYjckOjEdLdhVS.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 335
+  },
+  {
+   "id": 52267,
+   "name": "William L. Petersen",
+   "photo": "https://image.tmdb.org/t/p/w185/rA0QRKqpXef7ciO2zY6CnHZC3cO.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 335
+  },
+  {
+   "id": 770,
+   "name": "Jerry Bruckheimer",
+   "photo": "https://image.tmdb.org/t/p/w185/sYjNrmbMi4DGAPX6Kt8wVy7LNXI.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 335
+  },
+  {
+   "id": 1221343,
+   "name": "Carol Mendelsohn",
+   "photo": "https://image.tmdb.org/t/p/w185/8PlgEHno8Mvg4wqireq7ZQY6Y3a.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 335
+  },
+  {
+   "id": 1224407,
+   "name": "Cynthia Chvatal",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 335
+  },
+  {
+   "id": 1224406,
+   "name": "Jonathan Littman",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 312
+  },
+  {
+   "id": 1224408,
+   "name": "Louis Shaw Milito",
+   "photo": "https://image.tmdb.org/t/p/w185/br0wV5EuB07p6XifA8ENWCmlDtQ.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 289
+  },
+  {
+   "id": 155584,
+   "name": "Kenneth Fink",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 183
+  },
+  {
+   "id": 1219378,
+   "name": "Naren Shankar",
+   "photo": "https://image.tmdb.org/t/p/w185/z0wldNQR4EooAtpg5UrWUpwHruA.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 183
+  },
+  {
+   "id": 33279,
+   "name": "Danny Cannon",
+   "photo": "https://image.tmdb.org/t/p/w185/2jPyhdEnrA32MWsWDdQ9FJdz6vR.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 138
+  },
+  {
+   "id": 1224300,
+   "name": "Josh Berman",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 128
+  },
+  {
+   "id": 1218788,
+   "name": "Don McGill",
+   "photo": "https://image.tmdb.org/t/p/w185/9QMLJDoA3hYlWdOhQyTVqimPok9.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 106
+  },
+  {
+   "id": 1218784,
+   "name": "Andrew Dettmann",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 62
+  },
+  {
+   "id": 137475,
+   "name": "Richard J. Lewis",
+   "photo": "https://image.tmdb.org/t/p/w185/6w7g2lSOCMGw4GLu7gpbX4Gp5o9.jpg",
+   "jobs": [
+    "Director",
+    "Teleplay"
+   ],
+   "episodes": 44
+  },
+  {
+   "id": 1224348,
+   "name": "Alec Smight",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 42
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:00.286Z"
+}

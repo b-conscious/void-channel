@@ -1,0 +1,331 @@
+{
+ "show": "The Bear",
+ "slug": "the-bear",
+ "tmdbId": 136315,
+ "cast": [
+  {
+   "id": 206905,
+   "name": "Jeremy Allen White",
+   "photo": "https://image.tmdb.org/t/p/w185/pXRADDRhprgaQ4Bri44NH3bYeu6.jpg",
+   "character": "Carmen 'Carmy' Berzatto",
+   "episodes": 46
+  },
+  {
+   "id": 21042,
+   "name": "Ebon Moss-Bachrach",
+   "photo": "https://image.tmdb.org/t/p/w185/xD8GVNayMpiTZxLfahy2DseYcQq.jpg",
+   "character": "Richard 'Richie' Jerimovich",
+   "episodes": 46
+  },
+  {
+   "id": 2195140,
+   "name": "Ayo Edebiri",
+   "photo": "https://image.tmdb.org/t/p/w185/wrqYWaAmVPM2yueEEQUtMo6kCp2.jpg",
+   "character": "Sydney Adamu",
+   "episodes": 46
+  },
+  {
+   "id": 2320708,
+   "name": "Lionel Boyce",
+   "photo": "https://image.tmdb.org/t/p/w185/hpIxX5nkfA3pWCW8rYkEUCSBVyS.jpg",
+   "character": "Marcus Brooks",
+   "episodes": 46
+  },
+  {
+   "id": 1240486,
+   "name": "Abby Elliott",
+   "photo": "https://image.tmdb.org/t/p/w185/v7h08EsTce2pLHkZiaFe1QRuYbU.jpg",
+   "character": "Natalie 'Sugar' Berzatto",
+   "episodes": 46
+  },
+  {
+   "id": 59693,
+   "name": "Liza Colón-Zayas",
+   "photo": "https://image.tmdb.org/t/p/w185/q2gHcef0wckji0AS8ZEO6cYx065.jpg",
+   "character": "Bettina 'Tina' Marrero",
+   "episodes": 46
+  },
+  {
+   "id": 1646864,
+   "name": "Matty Matheson",
+   "photo": "https://image.tmdb.org/t/p/w185/p1H19bBP5ePOxNpfOXIYpMgRfS7.jpg",
+   "character": "Neil Fak",
+   "episodes": 44
+  },
+  {
+   "id": 1472895,
+   "name": "Edwin Lee Gibson",
+   "photo": "https://image.tmdb.org/t/p/w185/wyDPu35soTnBi4VClpS8fv2atkE.jpg",
+   "character": "Ebraheim",
+   "episodes": 40
+  },
+  {
+   "id": 1531587,
+   "name": "Corey Hendrix",
+   "photo": "https://image.tmdb.org/t/p/w185/jurlf1Ot0mofDsoFTqIBrezx68t.jpg",
+   "character": "Gary 'Sweeps' Woods",
+   "episodes": 34
+  },
+  {
+   "id": 17485,
+   "name": "Oliver Platt",
+   "photo": "https://image.tmdb.org/t/p/w185/ipBzOzgWRdxxYoM5xNN1cfenFaC.jpg",
+   "character": "Uncle Jimmy 'Cicero' Kalinowski",
+   "episodes": 27
+  },
+  {
+   "id": 2999327,
+   "name": "Ricky Staffieri",
+   "photo": "https://image.tmdb.org/t/p/w185/yYyvZSV4mQxqesIZLUdcvyyhG9D.jpg",
+   "character": "Theodore Fak",
+   "episodes": 26
+  },
+  {
+   "id": 3739374,
+   "name": "Jose M. Cervantes",
+   "photo": null,
+   "character": "Angel",
+   "episodes": 25
+  },
+  {
+   "id": 1776583,
+   "name": "Richard Esteras",
+   "photo": "https://image.tmdb.org/t/p/w185/kepvENRqMTNxdy2Gz9Hch1SJyVc.jpg",
+   "character": "Manny",
+   "episodes": 25
+  },
+  {
+   "id": 4053093,
+   "name": "Christopher Zucchero",
+   "photo": null,
+   "character": "Chi-Chi",
+   "episodes": 19
+  },
+  {
+   "id": 1573273,
+   "name": "Chris Witaske",
+   "photo": "https://image.tmdb.org/t/p/w185/2xnPBt6flYwQvKWdYZysgx88vvD.jpg",
+   "character": "Pete Katinsky",
+   "episodes": 19
+  },
+  {
+   "id": 155422,
+   "name": "Sarah Ramos",
+   "photo": "https://image.tmdb.org/t/p/w185/sx58FcjU6JZtU2fUt1GpjrwtxwM.jpg",
+   "character": "Jessica",
+   "episodes": 18
+  },
+  {
+   "id": 1782117,
+   "name": "Molly Gordon",
+   "photo": "https://image.tmdb.org/t/p/w185/5sMIadZ0CIL7IUCJHnqO4ZFsdEM.jpg",
+   "character": "Claire Dunlap",
+   "episodes": 15
+  },
+  {
+   "id": 93491,
+   "name": "Will Poulter",
+   "photo": "https://image.tmdb.org/t/p/w185/9blYMaj79VGC6BHTLmJp3V5S8r3.jpg",
+   "character": "Chef Luca",
+   "episodes": 15
+  },
+  {
+   "id": 4805197,
+   "name": "Paulie James",
+   "photo": null,
+   "character": "Charles 'Chuckie' DiValentino",
+   "episodes": 15
+  },
+  {
+   "id": 2099994,
+   "name": "Andrew Lopez",
+   "photo": "https://image.tmdb.org/t/p/w185/AmKaHv3slInKsjaBC8ruA5gtLAv.jpg",
+   "character": "Garrett",
+   "episodes": 13
+  },
+  {
+   "id": 16304,
+   "name": "Brian Koppelman",
+   "photo": "https://image.tmdb.org/t/p/w185/h5SW9E5sTHR5Jwyqy3tNj5tbBPp.jpg",
+   "character": "Nicholas 'Computer' Marshall (uncredited) / Nicholas 'Computer' Marshall",
+   "episodes": 13
+  },
+  {
+   "id": 1301577,
+   "name": "Rene Gube",
+   "photo": "https://image.tmdb.org/t/p/w185/yUlPKqkYNMkvtWEFHYssUMIjCbF.jpg",
+   "character": "Ever GM",
+   "episodes": 13
+  },
+  {
+   "id": 2109071,
+   "name": "Carmen Christopher",
+   "photo": "https://image.tmdb.org/t/p/w185/4RBv7ZNkB0Ayk6Z3HLwLppywr4T.jpg",
+   "character": "Chester",
+   "episodes": 12
+  },
+  {
+   "id": 68750,
+   "name": "Robert Townsend",
+   "photo": "https://image.tmdb.org/t/p/w185/saXSXNW1G1Wt9kN4r4Chjxm3YcU.jpg",
+   "character": "Emmanuel Adamu",
+   "episodes": 12
+  }
+ ],
+ "crew": [
+  {
+   "id": 1057655,
+   "name": "Christopher Storer",
+   "photo": "https://image.tmdb.org/t/p/w185/kG6I1GlaUtENJoJzrP7uxiJovy9.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 46
+  },
+  {
+   "id": 1347758,
+   "name": "Tyson Bidner",
+   "photo": "https://image.tmdb.org/t/p/w185/i4GJJrlrO1NhJ0tvBsVXEHfht6n.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 84
+  },
+  {
+   "id": 3114312,
+   "name": "Cooper Wehde",
+   "photo": "https://image.tmdb.org/t/p/w185/sZk7xBq6m3kMqxUEOv1UbdGNBYY.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 46
+  },
+  {
+   "id": 1199903,
+   "name": "Hiro Murai",
+   "photo": "https://image.tmdb.org/t/p/w185/dPUxYrlMqemvQQxGEQlCLGF04wy.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 46
+  },
+  {
+   "id": 1646864,
+   "name": "Matty Matheson",
+   "photo": "https://image.tmdb.org/t/p/w185/p1H19bBP5ePOxNpfOXIYpMgRfS7.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Story"
+   ],
+   "episodes": 46
+  },
+  {
+   "id": 1301577,
+   "name": "Rene Gube",
+   "photo": "https://image.tmdb.org/t/p/w185/yUlPKqkYNMkvtWEFHYssUMIjCbF.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 46
+  },
+  {
+   "id": 2901951,
+   "name": "Josh Senior",
+   "photo": "https://image.tmdb.org/t/p/w185/dazqfjP7CuAJyOFo47S5afHkS30.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 46
+  },
+  {
+   "id": 2205884,
+   "name": "Duccio Fabbri",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 38
+  },
+  {
+   "id": 1407445,
+   "name": "Joanna Calo",
+   "photo": "https://image.tmdb.org/t/p/w185/qOIwJU3GmXwpTF37tvugxBdLZxu.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 38
+  },
+  {
+   "id": 2193668,
+   "name": "Nate Matteson",
+   "photo": "https://image.tmdb.org/t/p/w185/irSPuydqIsBfoGRmOxYKQckh2Ci.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 38
+  },
+  {
+   "id": 3755696,
+   "name": "Catherine Schetina",
+   "photo": "https://image.tmdb.org/t/p/w185/fpy7cZpFsiWeoUROmhJtEPd1OUb.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 35
+  },
+  {
+   "id": 3500154,
+   "name": "Karen Joseph Adcock",
+   "photo": "https://image.tmdb.org/t/p/w185/h8JdiBYiIilUmY93q4mO6JHfg1u.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 23
+  },
+  {
+   "id": 81503,
+   "name": "J.A.Q.",
+   "photo": "https://image.tmdb.org/t/p/w185/mQ4BT0Xsyj4TQVhXzQGFyq5pcaD.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 3755693,
+   "name": "Sofya Levitsky-Weitz",
+   "photo": "https://image.tmdb.org/t/p/w185/OImFfGnY2fjhkyIQmkrQYH7lof.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 4125983,
+   "name": "Johnny Iguana",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 6194472,
+   "name": "Rachel Wiggins",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:35.802Z"
+}

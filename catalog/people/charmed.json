@@ -1,0 +1,340 @@
+{
+ "show": "Charmed",
+ "slug": "charmed",
+ "tmdbId": 1981,
+ "cast": [
+  {
+   "id": 26469,
+   "name": "Holly Marie Combs",
+   "photo": "https://image.tmdb.org/t/p/w185/smZy91UWhB8bZib6A28kTQ8w9sT.jpg",
+   "character": "Piper Halliwell",
+   "episodes": 178
+  },
+  {
+   "id": 24967,
+   "name": "Alyssa Milano",
+   "photo": "https://image.tmdb.org/t/p/w185/q5RAaX57dLvlpigAhbX3lCb2dkZ.jpg",
+   "character": "Phoebe Halliwell",
+   "episodes": 178
+  },
+  {
+   "id": 154133,
+   "name": "Dorian Gregory",
+   "photo": "https://image.tmdb.org/t/p/w185/waRpVruJ2tT8eN8K1jgpXoebD1h.jpg",
+   "character": "Darryl Morris",
+   "episodes": 156
+  },
+  {
+   "id": 69405,
+   "name": "Brian Krause",
+   "photo": "https://image.tmdb.org/t/p/w185/jW2vwTvcJAGxbiWMXD3p065Lhs1.jpg",
+   "character": "Leo Wyatt",
+   "episodes": 141
+  },
+  {
+   "id": 16850,
+   "name": "Rose McGowan",
+   "photo": "https://image.tmdb.org/t/p/w185/cWggkWqhs5IIuSHxjoRuxlze1C9.jpg",
+   "character": "Paige Matthews",
+   "episodes": 112
+  },
+  {
+   "id": 20402,
+   "name": "Julian McMahon",
+   "photo": "https://image.tmdb.org/t/p/w185/PirhJFimrT5iK0qru4SzlwLW4G.jpg",
+   "character": "Cole Turner",
+   "episodes": 68
+  },
+  {
+   "id": 19144,
+   "name": "Shannen Doherty",
+   "photo": "https://image.tmdb.org/t/p/w185/c3EXtxx7x4inTlf1O1GgKD5kYZa.jpg",
+   "character": "Prue Halliwell",
+   "episodes": 66
+  },
+  {
+   "id": 74472,
+   "name": "Drew Fuller",
+   "photo": "https://image.tmdb.org/t/p/w185/8NhujIOiLgzR0XiFkMRXEVtSXse.jpg",
+   "character": "Chris Halliwell",
+   "episodes": 28
+  },
+  {
+   "id": 100623,
+   "name": "Rebecca Balding",
+   "photo": "https://image.tmdb.org/t/p/w185/tuZkPmevwPMHeusEpmEJP2EpqNQ.jpg",
+   "character": "Elise Rothman / Aunt Jackie",
+   "episodes": 23
+  },
+  {
+   "id": 1221560,
+   "name": "Ted King",
+   "photo": "https://image.tmdb.org/t/p/w185/ar0XWZlVmpaxj3xQg6Pe2u0WFgH.jpg",
+   "character": "Andy Trudeau",
+   "episodes": 22
+  },
+  {
+   "id": 53862,
+   "name": "Kaley Cuoco",
+   "photo": "https://image.tmdb.org/t/p/w185/c01Ma8Jrr2OJ6uoikPwDK34Y8eK.jpg",
+   "character": "Billie Jenkins",
+   "episodes": 22
+  },
+  {
+   "id": 102729,
+   "name": "Greg Vaughan",
+   "photo": "https://image.tmdb.org/t/p/w185/8yIOWG3IgxNXu9IZu3TQdLSC521.jpg",
+   "character": "Dan Gordon",
+   "episodes": 22
+  },
+  {
+   "id": 154531,
+   "name": "Karis Paige Bryant",
+   "photo": "https://image.tmdb.org/t/p/w185/gG4szJEbtZWkJCsejRRjbNXuAR4.jpg",
+   "character": "Jenny Gordon",
+   "episodes": 22
+  },
+  {
+   "id": 56456,
+   "name": "James Read",
+   "photo": "https://image.tmdb.org/t/p/w185/sxyCUE3HzzBHkOP0NZBCBmFZIji.jpg",
+   "character": "Victor Bennett",
+   "episodes": 16
+  },
+  {
+   "id": 27568,
+   "name": "Jennifer Rhodes",
+   "photo": "https://image.tmdb.org/t/p/w185/dwEd76KplNjpu1Z6eHVPOpsZ9JG.jpg",
+   "character": "Penny Halliwell",
+   "episodes": 14
+  },
+  {
+   "id": 37008,
+   "name": "Michael Bailey Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/9ajqFWi9JN6LBE0tb0RU3UfwaQu.jpg",
+   "character": "Shax / Belthazor / Grimlock",
+   "episodes": 14
+  },
+  {
+   "id": 38583,
+   "name": "Ivan Sergei",
+   "photo": "https://image.tmdb.org/t/p/w185/2UML9oX6NfJqYDALnT6U32kMOnF.jpg",
+   "character": "Henry Mitchell",
+   "episodes": 13
+  },
+  {
+   "id": 1228602,
+   "name": "Amanda Sickler",
+   "photo": "https://image.tmdb.org/t/p/w185/hHAE9jFcKf3oUXu2y16XfYJoyan.jpg",
+   "character": "Sophie",
+   "episodes": 11
+  },
+  {
+   "id": 43442,
+   "name": "Kerr Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/2XHffxdkDVhaETNi6ajSntQ40du.jpg",
+   "character": "Kyle Brody",
+   "episodes": 10
+  },
+  {
+   "id": 66881,
+   "name": "Finola Hughes",
+   "photo": "https://image.tmdb.org/t/p/w185/6VQEOrue9NrsC2VnkhzO6R8udWR.jpg",
+   "character": "Patty Halliwell",
+   "episodes": 10
+  },
+  {
+   "id": 1228575,
+   "name": "Jason Simmons",
+   "photo": null,
+   "character": "Wyatt Halliwell",
+   "episodes": 10
+  },
+  {
+   "id": 1228577,
+   "name": "Kristopher Simmons",
+   "photo": "https://image.tmdb.org/t/p/w185/wGuDz2J070tszpbWcquqDKqui1W.jpg",
+   "character": "Wyatt Halliwell",
+   "episodes": 10
+  },
+  {
+   "id": 21318,
+   "name": "Scout Taylor-Compton",
+   "photo": "https://image.tmdb.org/t/p/w185/6ulce96cBPfmk2mDPpRLA70LvLW.jpg",
+   "character": "Fairy / Thistle",
+   "episodes": 10
+  },
+  {
+   "id": 154953,
+   "name": "Sandra Prosper",
+   "photo": "https://image.tmdb.org/t/p/w185/qgRGCHs4ORRslTJeqV1K8KLh0Wk.jpg",
+   "character": "Sheila Morris",
+   "episodes": 10
+  }
+ ],
+ "crew": [
+  {
+   "id": 1213587,
+   "name": "Constance M. Burge",
+   "photo": "https://image.tmdb.org/t/p/w185/7AdSFk33P8oqL4qsOz3N2LgBJ5.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Teleplay",
+    "Story"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1216749,
+   "name": "Brad Kern",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 158
+  },
+  {
+   "id": 28715,
+   "name": "Aaron Spelling",
+   "photo": "https://image.tmdb.org/t/p/w185/phWYm52D2TzUQm6Lv5KmLCc0dts.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 158
+  },
+  {
+   "id": 1218117,
+   "name": "Krista Vernoff",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 57
+  },
+  {
+   "id": 1223901,
+   "name": "Henry Alonso Myers",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 55
+  },
+  {
+   "id": 1215681,
+   "name": "Alison Schapker",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 55
+  },
+  {
+   "id": 1215682,
+   "name": "Monica Owusu-Breen",
+   "photo": "https://image.tmdb.org/t/p/w185/xCLDiN5F56OJTdNJy3fe1EZRoRW.jpg",
+   "jobs": [
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 55
+  },
+  {
+   "id": 1228565,
+   "name": "Cameron Litvack",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 54
+  },
+  {
+   "id": 60048,
+   "name": "Zack Estrin",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 47
+  },
+  {
+   "id": 1218197,
+   "name": "Chris Levinson",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 47
+  },
+  {
+   "id": 1214615,
+   "name": "Curtis Kheel",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 38
+  },
+  {
+   "id": 154623,
+   "name": "Daniel Cerone",
+   "photo": "https://image.tmdb.org/t/p/w185/7tULL0DKkjknISvEd63b4RR263V.jpg",
+   "jobs": [
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 37
+  },
+  {
+   "id": 1212542,
+   "name": "Jeannine Renshaw",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 34
+  },
+  {
+   "id": 1212204,
+   "name": "Javier Grillo-Marxuach",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 29
+  },
+  {
+   "id": 1027773,
+   "name": "Liz Sagal",
+   "photo": "https://image.tmdb.org/t/p/w185/t4YiF2Ezhv6AtAPcOpL07Rp2aNJ.jpg",
+   "jobs": [
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 139086,
+   "name": "John T. Kretchmer",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 17
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:35.446Z"
+}

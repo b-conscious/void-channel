@@ -1,0 +1,177 @@
+{
+ "show": "Show! Music Core",
+ "slug": "show-music-core",
+ "tmdbId": 35024,
+ "cast": [
+  {
+   "id": 2176671,
+   "name": "Lee Jung-ha",
+   "photo": "https://image.tmdb.org/t/p/w185/pCUlAO603SXqfvpp5cOCccNFsgL.jpg",
+   "character": "MC (Episode 832 - Present)",
+   "episodes": 971
+  },
+  {
+   "id": 3786426,
+   "name": "Sullyoon",
+   "photo": "https://image.tmdb.org/t/p/w185/7225PexjDkZvdJ80RI50zJgY4Di.jpg",
+   "character": "MC (Episode 804 - Present)",
+   "episodes": 971
+  },
+  {
+   "id": 2368916,
+   "name": "Jungwoo",
+   "photo": "https://image.tmdb.org/t/p/w185/pVvj4tdP6VcCGHSxhfiFzlBeqxX.jpg",
+   "character": "MC",
+   "episodes": 971
+  },
+  {
+   "id": 2021737,
+   "name": "Lee Know",
+   "photo": "https://image.tmdb.org/t/p/w185/sAjPzyMO6ClA667zAEH3DoT5TD2.jpg",
+   "character": "MC",
+   "episodes": 971
+  },
+  {
+   "id": 2117360,
+   "name": "Kim Min-ju",
+   "photo": "https://image.tmdb.org/t/p/w185/egMmX5YaltrE86tH6ywukCWoeqS.jpg",
+   "character": "MC",
+   "episodes": 971
+  },
+  {
+   "id": 2762543,
+   "name": "Younghoon",
+   "photo": "https://image.tmdb.org/t/p/w185/byheBXv7v29wEQrpfa5R5Wfh6Eq.jpg",
+   "character": "MC (Episode 832 - Present)",
+   "episodes": 971
+  },
+  {
+   "id": 3034130,
+   "name": "Hyunjae",
+   "photo": "https://image.tmdb.org/t/p/w185/5ssnDNrOuuXmn1S6gBf7tQOQvR8.jpg",
+   "character": "",
+   "episodes": 45
+  },
+  {
+   "id": 3121198,
+   "name": "Juyeon",
+   "photo": "https://image.tmdb.org/t/p/w185/x2Q1KrirXGr7dloGGWBeRKFATTB.jpg",
+   "character": "Special MC",
+   "episodes": 45
+  },
+  {
+   "id": 3121203,
+   "name": "Sunwoo",
+   "photo": "https://image.tmdb.org/t/p/w185/eklk8KH3kvCwmyVQmDY37Kstp2j.jpg",
+   "character": "Special MC",
+   "episodes": 45
+  },
+  {
+   "id": 3121204,
+   "name": "Eric",
+   "photo": "https://image.tmdb.org/t/p/w185/vHDof1Pl8L8vGXTqECnk5m8z6Dg.jpg",
+   "character": "Special MC",
+   "episodes": 45
+  },
+  {
+   "id": 3121201,
+   "name": "Q",
+   "photo": "https://image.tmdb.org/t/p/w185/jlIJK13GeigFtZmVRbyGv3dfgVz.jpg",
+   "character": "",
+   "episodes": 44
+  },
+  {
+   "id": 3121196,
+   "name": "Sangyeon",
+   "photo": "https://image.tmdb.org/t/p/w185/8Gc8A3GKK8SfFJa53L6K7Vmwbr6.jpg",
+   "character": "",
+   "episodes": 43
+  },
+  {
+   "id": 3121197,
+   "name": "Jacob",
+   "photo": "https://image.tmdb.org/t/p/w185/eVT9KFX5IT0CpEEKrOlx7yJaxIE.jpg",
+   "character": "",
+   "episodes": 43
+  },
+  {
+   "id": 3121199,
+   "name": "Kevin",
+   "photo": "https://image.tmdb.org/t/p/w185/6LsvQgGKTWkUXaiDyZS3tFZItUV.jpg",
+   "character": "",
+   "episodes": 43
+  },
+  {
+   "id": 3121200,
+   "name": "New",
+   "photo": "https://image.tmdb.org/t/p/w185/m6ipYcwkjEHpe2evsyWJPX0D20i.jpg",
+   "character": "",
+   "episodes": 43
+  },
+  {
+   "id": 3082513,
+   "name": "Ju Haknyeon",
+   "photo": "https://image.tmdb.org/t/p/w185/2UEP2SuUGPM8IOnv8pXTAipqW1b.jpg",
+   "character": "Special MC",
+   "episodes": 43
+  },
+  {
+   "id": 2919787,
+   "name": "Hur Hyun-jun",
+   "photo": "https://image.tmdb.org/t/p/w185/t2r6M5uMrZpYxQmDxxj2jT38GBu.jpg",
+   "character": "",
+   "episodes": 13
+  },
+  {
+   "id": 1875646,
+   "name": "Kang Mi-na",
+   "photo": "https://image.tmdb.org/t/p/w185/sIGBlUCXt8pBqZhjesm4PKthEIn.jpg",
+   "character": "Host",
+   "episodes": 4
+  },
+  {
+   "id": 2021741,
+   "name": "Hwang Hyun-jin",
+   "photo": "https://image.tmdb.org/t/p/w185/bvSSvxCELNewaWznct5kqAVnxfJ.jpg",
+   "character": "Host",
+   "episodes": 3
+  },
+  {
+   "id": 2064247,
+   "name": "Kang Chan-hee",
+   "photo": "https://image.tmdb.org/t/p/w185/2vBAQc9BKRAePO0NQcSp90KHMpk.jpg",
+   "character": "Host",
+   "episodes": 2
+  },
+  {
+   "id": 1471055,
+   "name": "Tiffany Young",
+   "photo": "https://image.tmdb.org/t/p/w185/v6Jn2LttE4CXMXabShD5fkguoRs.jpg",
+   "character": "Host",
+   "episodes": 2
+  },
+  {
+   "id": 1988291,
+   "name": "Ong Seong-wu",
+   "photo": "https://image.tmdb.org/t/p/w185/wkEE49MqC6oCeTC3YqMfmM0FOmt.jpg",
+   "character": "Host",
+   "episodes": 2
+  },
+  {
+   "id": 2097334,
+   "name": "Mark Lee",
+   "photo": "https://image.tmdb.org/t/p/w185/6CvnXqexz4eYxpx4SeoSfyXfpe.jpg",
+   "character": "Host",
+   "episodes": 2
+  },
+  {
+   "id": 1604826,
+   "name": "Cha Eun-woo",
+   "photo": "https://image.tmdb.org/t/p/w185/kZUO2s2ZsBRYZ8acu0wMzlGHpRS.jpg",
+   "character": "Host",
+   "episodes": 2
+  }
+ ],
+ "crew": [],
+ "fetchedAt": "2026-10-13T18:45:38.743Z"
+}

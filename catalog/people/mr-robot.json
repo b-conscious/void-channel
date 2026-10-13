@@ -1,0 +1,327 @@
+{
+ "show": "Mr. Robot",
+ "slug": "mr-robot",
+ "tmdbId": 62560,
+ "cast": [
+  {
+   "id": 17838,
+   "name": "Rami Malek",
+   "photo": "https://image.tmdb.org/t/p/w185/drLMI978uj3Rpc1TcIJarKf3Jfi.jpg",
+   "character": "Elliot Alderson",
+   "episodes": 45
+  },
+  {
+   "id": 2224,
+   "name": "Christian Slater",
+   "photo": "https://image.tmdb.org/t/p/w185/6ww3uweEEXMlvtNjTlgBHxLErPF.jpg",
+   "character": "Mr. Robot",
+   "episodes": 45
+  },
+  {
+   "id": 114601,
+   "name": "Carly Chaikin",
+   "photo": "https://image.tmdb.org/t/p/w185/qKwgQuSqe3vBmlcyLplXDt6fysW.jpg",
+   "character": "Darlene Alderson",
+   "episodes": 45
+  },
+  {
+   "id": 213486,
+   "name": "Martin Wallström",
+   "photo": "https://image.tmdb.org/t/p/w185/6zIR09NCAc2IyGnTwQLOCvieWp.jpg",
+   "character": "Tyrell Wellick",
+   "episodes": 45
+  },
+  {
+   "id": 117669,
+   "name": "Portia Doubleday",
+   "photo": "https://image.tmdb.org/t/p/w185/6lPDPTlxnFcTJF5dzmmPHVmH8ey.jpg",
+   "character": "Angela Moss (voice) / Angela Moss",
+   "episodes": 35
+  },
+  {
+   "id": 504787,
+   "name": "Grace Gummer",
+   "photo": "https://image.tmdb.org/t/p/w185/z9MiGb1QdivKRYCgxcbcPALOkI4.jpg",
+   "character": "Dominique DiPierro",
+   "episodes": 31
+  },
+  {
+   "id": 21136,
+   "name": "Michael Cristofer",
+   "photo": "https://image.tmdb.org/t/p/w185/yWZr1U6A4UAatvgqvX1zmOgB92S.jpg",
+   "character": "Phillip Price (voice) / Phillip Price",
+   "episodes": 31
+  },
+  {
+   "id": 14592,
+   "name": "BD Wong",
+   "photo": "https://image.tmdb.org/t/p/w185/w7Hs9m6ocS2qlibvrLOvmyCKbAN.jpg",
+   "character": "Whiterose",
+   "episodes": 22
+  },
+  {
+   "id": 1142724,
+   "name": "Stephanie Corneliussen",
+   "photo": "https://image.tmdb.org/t/p/w185/1GHECMoMmSkKiYkzRp0VsYxh6kJ.jpg",
+   "character": "Joanna Wellick",
+   "episodes": 21
+  },
+  {
+   "id": 1485907,
+   "name": "Vaishnavi Sharma",
+   "photo": "https://image.tmdb.org/t/p/w185/fZSmBrohBhYwrOrHGJHssmKsVeY.jpg",
+   "character": "Elliot's Mother",
+   "episodes": 17
+  },
+  {
+   "id": 1375002,
+   "name": "Sunita Mani",
+   "photo": "https://image.tmdb.org/t/p/w185/xQo4rkMEphSAt8F9D1OyWv0GBLx.jpg",
+   "character": "Trenton",
+   "episodes": 16
+  },
+  {
+   "id": 21369,
+   "name": "Gloria Reuben",
+   "photo": "https://image.tmdb.org/t/p/w185/7Ttd3nj1M9P8YE9LzCvGZcvPUQR.jpg",
+   "character": "Krista Gordon",
+   "episodes": 16
+  },
+  {
+   "id": 1580113,
+   "name": "Azhar Khan",
+   "photo": "https://image.tmdb.org/t/p/w185/3tTsEkJ8TkRtohF5gTLu4gmMF6B.jpg",
+   "character": "Sunil 'Mobley' Markesh",
+   "episodes": 15
+  },
+  {
+   "id": 41309,
+   "name": "Omar Metwally",
+   "photo": "https://image.tmdb.org/t/p/w185/2VGHH1yFCyZCM4h4Y65ynutDFtb.jpg",
+   "character": "Agent Santiago",
+   "episodes": 13
+  },
+  {
+   "id": 1688087,
+   "name": "Joey Bada$$",
+   "photo": "https://image.tmdb.org/t/p/w185/uwT51NJL2Dnx03p7wGKlkzdsUkp.jpg",
+   "character": "Leon",
+   "episodes": 13
+  },
+  {
+   "id": 176797,
+   "name": "Michael Drayer",
+   "photo": "https://image.tmdb.org/t/p/w185/9B1ViAnSTSmeG40H7o1KvNWoAsP.jpg",
+   "character": "Cisco",
+   "episodes": 12
+  },
+  {
+   "id": 21127,
+   "name": "Bobby Cannavale",
+   "photo": "https://image.tmdb.org/t/p/w185/wlp20ggyNI7x0xGUtTjC2Xl2XmD.jpg",
+   "character": "Irving",
+   "episodes": 11
+  },
+  {
+   "id": 1224256,
+   "name": "Michel Gill",
+   "photo": "https://image.tmdb.org/t/p/w185/Ai55jhEShtrViPvRvt2MuKidjzP.jpg",
+   "character": "Gideon Goddard",
+   "episodes": 11
+  },
+  {
+   "id": 1595506,
+   "name": "Jeremy Holm",
+   "photo": "https://image.tmdb.org/t/p/w185/cOOu1DOY6s59oAMMjtXJ70RicNU.jpg",
+   "character": "Man in Black / Mr. Sutherland",
+   "episodes": 11
+  },
+  {
+   "id": 1129795,
+   "name": "Annika Pergament",
+   "photo": "https://image.tmdb.org/t/p/w185/2TdAzItn9V4GCgQ22seOirPZp6a.jpg",
+   "character": "Annika Pergament / NY1 News Correspondent / NY1 Reporter",
+   "episodes": 11
+  },
+  {
+   "id": 58525,
+   "name": "Ron Cephas Jones",
+   "photo": "https://image.tmdb.org/t/p/w185/lT5Jl1jgZVPWZdEeFHGN1G0Yc9A.jpg",
+   "character": "Leslie Romero (uncredited) / Leslie Romero",
+   "episodes": 9
+  },
+  {
+   "id": 224183,
+   "name": "Ben Rappaport",
+   "photo": "https://image.tmdb.org/t/p/w185/dsnRZIHKRitKYkiJMyGurcswBe3.jpg",
+   "character": "Ollie Parker",
+   "episodes": 9
+  },
+  {
+   "id": 83726,
+   "name": "Elliot Villar",
+   "photo": "https://image.tmdb.org/t/p/w185/x230qsDMMmMRqarkEoPwhC0u8KY.jpg",
+   "character": "Fernando Vera (uncredited) / Fernando Vera",
+   "episodes": 9
+  },
+  {
+   "id": 130231,
+   "name": "Brian Stokes Mitchell",
+   "photo": "https://image.tmdb.org/t/p/w185/ga6mTDGIesmp6eMOEHI15grJFiE.jpg",
+   "character": "Scott Knowles",
+   "episodes": 8
+  }
+ ],
+ "crew": [
+  {
+   "id": 1331163,
+   "name": "Sam Esmail",
+   "photo": "https://image.tmdb.org/t/p/w185/mej39wMtNDsOI5HklLb65QAiM6K.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 45
+  },
+  {
+   "id": 322,
+   "name": "Steve Golin",
+   "photo": "https://image.tmdb.org/t/p/w185/yBx6smzYjn2sbWYgaftZI0iclE3.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 45
+  },
+  {
+   "id": 1485873,
+   "name": "Chad Hamilton",
+   "photo": "https://image.tmdb.org/t/p/w185/kWL8dRiwvwPGlsnIjoMwbD4JyOv.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 45
+  },
+  {
+   "id": 1497319,
+   "name": "Mac Quayle",
+   "photo": "https://image.tmdb.org/t/p/w185/6o7cCviQVf4JHhXukd7NA1XTUAQ.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 45
+  },
+  {
+   "id": 1123059,
+   "name": "Joseph E. Iberti",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 44
+  },
+  {
+   "id": 1580115,
+   "name": "Kyle Bradstreet",
+   "photo": "https://image.tmdb.org/t/p/w185/hLl2wcPhNhPdOVbVv0CHCyyX8Kt.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 44
+  },
+  {
+   "id": 1580164,
+   "name": "Randolph Leon",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 1580157,
+   "name": "Adam Penn",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 1693607,
+   "name": "Courtney Looney",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 2126039,
+   "name": "Amelia Gray",
+   "photo": "https://image.tmdb.org/t/p/w185/pOphMdyxjluRhhh6oZIb9BPR5cb.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 229378,
+   "name": "Robbie Pickering",
+   "photo": "https://image.tmdb.org/t/p/w185/wN4ION0B6WQ8PLqAr1hgIjDeSjz.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 205639,
+   "name": "Jim McKay",
+   "photo": "https://image.tmdb.org/t/p/w185/hrrBk9T8Ds0UH9NKds1gkbJioTo.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1688158,
+   "name": "Kor Adana",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1239766,
+   "name": "Nisha Ganatra",
+   "photo": "https://image.tmdb.org/t/p/w185/6vfke1SDPxNfQGaRZIZVHxjr6G8.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 19346,
+   "name": "Niels Arden Oplev",
+   "photo": "https://image.tmdb.org/t/p/w185/yGdxpPjMhIaeGaJL8TsVSpDuEbh.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1215145,
+   "name": "Tricia Brock",
+   "photo": "https://image.tmdb.org/t/p/w185/5OV41AzetM5WrJ0zKqmw4mShEk5.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:00.773Z"
+}

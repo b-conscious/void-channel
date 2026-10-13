@@ -1,0 +1,331 @@
+{
+ "show": "Outlander",
+ "slug": "outlander",
+ "tmdbId": 56570,
+ "cast": [
+  {
+   "id": 147056,
+   "name": "Caitríona Balfe",
+   "photo": "https://image.tmdb.org/t/p/w185/lerCNTjO6FQIam2lF5SXHA4dY7H.jpg",
+   "character": "Claire Randall Fraser",
+   "episodes": 101
+  },
+  {
+   "id": 209326,
+   "name": "Sam Heughan",
+   "photo": "https://image.tmdb.org/t/p/w185/toBZ2mxZ2AbYYBfFV3Xvwm2QR4I.jpg",
+   "character": "Jamie Fraser",
+   "episodes": 101
+  },
+  {
+   "id": 1623273,
+   "name": "Sophie Skelton",
+   "photo": "https://image.tmdb.org/t/p/w185/oBkearm8XdrYTEK0VCWCGmwURt6.jpg",
+   "character": "Brianna Randall Fraser / Brianna Randall / Brianna MacKenzie",
+   "episodes": 73
+  },
+  {
+   "id": 1287731,
+   "name": "Richard Rankin",
+   "photo": "https://image.tmdb.org/t/p/w185/gmtK4zTBxlOEcHQgvXOwdfLHObc.jpg",
+   "character": "Roger Wakefield MacKenzie / Roger MacKenzie / Roger Wakefield",
+   "episodes": 73
+  },
+  {
+   "id": 126667,
+   "name": "John Bell",
+   "photo": "https://image.tmdb.org/t/p/w185/aPMEzcv36aAXyCLgsRkP0H2ezf6.jpg",
+   "character": "Young Ian Murray / Ian Fraser Murray",
+   "episodes": 65
+  },
+  {
+   "id": 1317739,
+   "name": "Duncan Lacroix",
+   "photo": "https://image.tmdb.org/t/p/w185/5Ic9o2pMorNiD4HWvQ8rp5qY7h5.jpg",
+   "character": "Murtagh Fitzgibbons Fraser / Murtagh Fraser (archive footage) (uncredited)",
+   "episodes": 45
+  },
+  {
+   "id": 439097,
+   "name": "César Domboy",
+   "photo": "https://image.tmdb.org/t/p/w185/gM5gsLf5IzUOrhAtavVzkzEIVwN.jpg",
+   "character": "Fergus Claudel Fraser",
+   "episodes": 36
+  },
+  {
+   "id": 2063213,
+   "name": "Lauren Lyle",
+   "photo": "https://image.tmdb.org/t/p/w185/hlAAP180b300r6AdszNScugWKFq.jpg",
+   "character": "Marsali MacKimmie / Marsali MacKimmie Fraser (uncredited) / Marsali MacKimmie Fraser",
+   "episodes": 35
+  },
+  {
+   "id": 10920,
+   "name": "Tobias Menzies",
+   "photo": "https://image.tmdb.org/t/p/w185/hGhAw2obMEOu1K0ed9b3jds9thf.jpg",
+   "character": "Frank Randall / Jonathan 'Black Jack' Randall / Frank Randall (voice) / Jonathan 'Black Jack' Randall (voice)",
+   "episodes": 35
+  },
+  {
+   "id": 2667984,
+   "name": "Caitlin O'Ryan",
+   "photo": "https://image.tmdb.org/t/p/w185/c00uWdzG5vILES5DRRhyMDdWol.jpg",
+   "character": "Lizzie Wemyss",
+   "episodes": 33
+  },
+  {
+   "id": 188821,
+   "name": "David Berry",
+   "photo": "https://image.tmdb.org/t/p/w185/hiuSdXFjI7EIMv8Y83zh2KtGbbk.jpg",
+   "character": "Lord John Grey",
+   "episodes": 29
+  },
+  {
+   "id": 1850219,
+   "name": "Charles Vandervaart",
+   "photo": "https://image.tmdb.org/t/p/w185/wo18r0IXjPhrybDFXHH6l68BeNW.jpg",
+   "character": "William Ransom",
+   "episodes": 26
+  },
+  {
+   "id": 2667986,
+   "name": "Paul Gorman",
+   "photo": "https://image.tmdb.org/t/p/w185/kF0DMZGS2abZ1lixLqf94WjNZlb.jpg",
+   "character": "Josiah Beardsley / Keziah Beardsley / Josiah/Keziah Beardsley",
+   "episodes": 23
+  },
+  {
+   "id": 142388,
+   "name": "Izzy Meikle-Small",
+   "photo": "https://image.tmdb.org/t/p/w185/zQZyOJXQF8XApPRBoDJaasI3RHA.jpg",
+   "character": "Rachel Hunter / Rachel Murray",
+   "episodes": 21
+  },
+  {
+   "id": 1626565,
+   "name": "Grant O'Rourke",
+   "photo": "https://image.tmdb.org/t/p/w185/srxceYETofMyOftfnITYSL7aaxZ.jpg",
+   "character": "Rupert MacKenzie",
+   "episodes": 19
+  },
+  {
+   "id": 95047,
+   "name": "Graham McTavish",
+   "photo": "https://image.tmdb.org/t/p/w185/qpKVz46PkKVaXzthcJO4ldFPdM9.jpg",
+   "character": "Buck MacKenzie / Dougal MacKenzie",
+   "episodes": 19
+  },
+  {
+   "id": 39681,
+   "name": "Stephen Walters",
+   "photo": "https://image.tmdb.org/t/p/w185/zhtty4sSjw7vqKXeptF9odqkx5e.jpg",
+   "character": "Angus Mhor",
+   "episodes": 15
+  },
+  {
+   "id": 1034706,
+   "name": "Paul Donnelly",
+   "photo": "https://image.tmdb.org/t/p/w185/A4mdJj9KOkHza4IF85MfA5DAkN0.jpg",
+   "character": "Ronnie Sinclair",
+   "episodes": 15
+  },
+  {
+   "id": 4347695,
+   "name": "Rosa Morris",
+   "photo": null,
+   "character": "Mandy MacKenzie",
+   "episodes": 15
+  },
+  {
+   "id": 79648,
+   "name": "Hugh Ross",
+   "photo": "https://image.tmdb.org/t/p/w185/496ibxHVihO7l9RqwiacAwPZeqC.jpg",
+   "character": "Arch Bug",
+   "episodes": 14
+  },
+  {
+   "id": 3771372,
+   "name": "Blake Johnston-Miller",
+   "photo": null,
+   "character": "Jemmy MacKenzie",
+   "episodes": 14
+  },
+  {
+   "id": 1330044,
+   "name": "Diarmaid Murtagh",
+   "photo": "https://image.tmdb.org/t/p/w185/QHWy0m8t0JrxSwlxcWZrawfUdi.jpg",
+   "character": "William 'Buck' MacKenzie",
+   "episodes": 14
+  },
+  {
+   "id": 1111144,
+   "name": "Romann Berrux",
+   "photo": "https://image.tmdb.org/t/p/w185/hXJjRBPasF43TT0mxOs0fteC08Q.jpg",
+   "character": "Fergus (archive footage) (uncredited) / Fergus",
+   "episodes": 13
+  },
+  {
+   "id": 2382414,
+   "name": "Sarah Collier",
+   "photo": "https://image.tmdb.org/t/p/w185/lYeZf6PIghlu6ENEthHvmKNBbjQ.jpg",
+   "character": "Murdina Bug",
+   "episodes": 13
+  }
+ ],
+ "crew": [
+  {
+   "id": 2385,
+   "name": "Ronald D. Moore",
+   "photo": "https://image.tmdb.org/t/p/w185/6A086Blwpv0nuckrzPgvETlkfo1.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 101
+  },
+  {
+   "id": 1532773,
+   "name": "Diana Gabaldon",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 105
+  },
+  {
+   "id": 59811,
+   "name": "Bear McCreary",
+   "photo": "https://image.tmdb.org/t/p/w185/t4Rr2p9Q5ewMgagChxK2JmrcvKx.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 101
+  },
+  {
+   "id": 1217205,
+   "name": "Matthew B. Roberts",
+   "photo": "https://image.tmdb.org/t/p/w185/rFZYO6y9Redarom5Vf9lZlWY66H.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 76
+  },
+  {
+   "id": 1214393,
+   "name": "Toni Graphia",
+   "photo": "https://image.tmdb.org/t/p/w185/h6SwIDWljUGKCD5BezJ9Dw3haW1.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 76
+  },
+  {
+   "id": 1115253,
+   "name": "Maril Davis",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 76
+  },
+  {
+   "id": 121904,
+   "name": "Luke Schelhaas",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 47
+  },
+  {
+   "id": 15728,
+   "name": "Andy Harries",
+   "photo": "https://image.tmdb.org/t/p/w185/kWnRIlwORd0G0GBna0MKkSypCEZ.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 47
+  },
+  {
+   "id": 238445,
+   "name": "Jim Kohlberg",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 47
+  },
+  {
+   "id": 147056,
+   "name": "Caitríona Balfe",
+   "photo": "https://image.tmdb.org/t/p/w185/lerCNTjO6FQIam2lF5SXHA4dY7H.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 46
+  },
+  {
+   "id": 209326,
+   "name": "Sam Heughan",
+   "photo": "https://image.tmdb.org/t/p/w185/toBZ2mxZ2AbYYBfFV3Xvwm2QR4I.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 46
+  },
+  {
+   "id": 1219791,
+   "name": "Anne Kenney",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 42
+  },
+  {
+   "id": 1218835,
+   "name": "Ira Steven Behr",
+   "photo": "https://image.tmdb.org/t/p/w185/46tJvfTt1vAxEg6pSaGVOrFPjsb.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 29
+  },
+  {
+   "id": 2623497,
+   "name": "Danielle Berrow",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 29
+  },
+  {
+   "id": 4189915,
+   "name": "Margot Ye",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 4144821,
+   "name": "Tyler English-Beckwith",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 17
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:20.179Z"
+}

@@ -1,0 +1,330 @@
+{
+ "show": "The Mentalist",
+ "slug": "the-mentalist",
+ "tmdbId": 5920,
+ "cast": [
+  {
+   "id": 1284159,
+   "name": "Simon Baker",
+   "photo": "https://image.tmdb.org/t/p/w185/oay0Lo2zl0lJdguptxgx1BK9Xq7.jpg",
+   "character": "Patrick Jane",
+   "episodes": 151
+  },
+  {
+   "id": 17346,
+   "name": "Robin Tunney",
+   "photo": "https://image.tmdb.org/t/p/w185/vOmWyYNoVEaPPvoto4IW8dSXn7I.jpg",
+   "character": "Teresa Lisbon",
+   "episodes": 151
+  },
+  {
+   "id": 52947,
+   "name": "Tim Kang",
+   "photo": "https://image.tmdb.org/t/p/w185/Ae7qMN6fJTut145qpeSn1NOu8yx.jpg",
+   "character": "Kimball Cho",
+   "episodes": 151
+  },
+  {
+   "id": 61527,
+   "name": "Owain Yeoman",
+   "photo": "https://image.tmdb.org/t/p/w185/ubPMiDbNwgNhhAlDa4mIzuVZmXJ.jpg",
+   "character": "Wayne Rigsby",
+   "episodes": 139
+  },
+  {
+   "id": 74289,
+   "name": "Amanda Righetti",
+   "photo": "https://image.tmdb.org/t/p/w185/7kKpYggBan6rYKFumeRSm0eDGqA.jpg",
+   "character": "Grace Van Pelt / Grace Rigsby (Van Pelt)",
+   "episodes": 139
+  },
+  {
+   "id": 970561,
+   "name": "Joe Adler",
+   "photo": "https://image.tmdb.org/t/p/w185/bsle7zqj6HBs6NYstkwDwQY7EEf.jpg",
+   "character": "Jason Wylie",
+   "episodes": 26
+  },
+  {
+   "id": 53923,
+   "name": "Aunjanue Ellis-Taylor",
+   "photo": "https://image.tmdb.org/t/p/w185/e54DfgDyS67xdtomYODFule6Ofa.jpg",
+   "character": "Madeleine Hightower",
+   "episodes": 17
+  },
+  {
+   "id": 33241,
+   "name": "Michael Gaston",
+   "photo": "https://image.tmdb.org/t/p/w185/lXhqiW4J1n9bnbfwz0Kdf2sjGLU.jpg",
+   "character": "Gale Bertram",
+   "episodes": 17
+  },
+  {
+   "id": 17345,
+   "name": "Rockmond Dunbar",
+   "photo": "https://image.tmdb.org/t/p/w185/gim7zIrYkbKWsp2Kod7fp74fWyI.jpg",
+   "character": "Dennis Abbott",
+   "episodes": 16
+  },
+  {
+   "id": 21142,
+   "name": "Gregory Itzin",
+   "photo": "https://image.tmdb.org/t/p/w185/lUACgFTvuhRhAC3GwnpcWMGLxo4.jpg",
+   "character": "Virgil Minelli",
+   "episodes": 16
+  },
+  {
+   "id": 1256020,
+   "name": "Emily Swallow",
+   "photo": "https://image.tmdb.org/t/p/w185/8wS86vFMoDnfAJzOL9yNqvXcCpA.jpg",
+   "character": "Kim Fischer",
+   "episodes": 14
+  },
+  {
+   "id": 146516,
+   "name": "Josie Loren",
+   "photo": "https://image.tmdb.org/t/p/w185/vZJc51rwheOC0TCdUkA4KM1UfXu.jpg",
+   "character": "Michelle Vega",
+   "episodes": 13
+  },
+  {
+   "id": 3201,
+   "name": "Pruitt Taylor Vince",
+   "photo": "https://image.tmdb.org/t/p/w185/jqC1v8tF92QcmkQycnaLSuJiQfl.jpg",
+   "character": "J.J. LaRoche",
+   "episodes": 13
+  },
+  {
+   "id": 59177,
+   "name": "Michael Rady",
+   "photo": "https://image.tmdb.org/t/p/w185/a702olRCFvJNVdrQkBKbeNkaAey.jpg",
+   "character": "Luther Wainwright",
+   "episodes": 9
+  },
+  {
+   "id": 60632,
+   "name": "Rebecca Wisocky",
+   "photo": "https://image.tmdb.org/t/p/w185/rR3LZIHFs0pQz0wd9zDPdVvd3nv.jpg",
+   "character": "Brenda Shettrick",
+   "episodes": 9
+  },
+  {
+   "id": 74409,
+   "name": "Eric Winter",
+   "photo": "https://image.tmdb.org/t/p/w185/tDQSZv5rHm4s2hwwVWpp5EMQ0w9.jpg",
+   "character": "Craig O'Laughlin",
+   "episodes": 8
+  },
+  {
+   "id": 146162,
+   "name": "David Norona",
+   "photo": "https://image.tmdb.org/t/p/w185/dVqvetKJURsQW8yT1PLrKQEbiHh.jpg",
+   "character": "Osvaldo 'Oscar' Ardiles",
+   "episodes": 7
+  },
+  {
+   "id": 18472,
+   "name": "Kevin Corrigan",
+   "photo": "https://image.tmdb.org/t/p/w185/obSUGc68mQDvFONalMg25Xw5GZM.jpg",
+   "character": "Robert 'Bob' Kirkland",
+   "episodes": 7
+  },
+  {
+   "id": 1253360,
+   "name": "Pedro Pascal",
+   "photo": "https://image.tmdb.org/t/p/w185/oKcMbVn0NJTNzQt0ClKKvVXkm60.jpg",
+   "character": "Marcus Pike",
+   "episodes": 7
+  },
+  {
+   "id": 19664,
+   "name": "Samaire Armstrong",
+   "photo": "https://image.tmdb.org/t/p/w185/bZnUqJp89MiVOJTLfRuVA2cmwq7.jpg",
+   "character": "Summer Edgecombe",
+   "episodes": 7
+  },
+  {
+   "id": 1239520,
+   "name": "John Troy Donovan",
+   "photo": "https://image.tmdb.org/t/p/w185/fQF6kUfUX50aI8nNhV8E8eM5upo.jpg",
+   "character": "CBI Ron",
+   "episodes": 7
+  },
+  {
+   "id": 61219,
+   "name": "Jillian Bach",
+   "photo": "https://image.tmdb.org/t/p/w185/jR0oMyc6AWPizZqc0KHbwX9wtNl.jpg",
+   "character": "Sarah Harrigan",
+   "episodes": 6
+  },
+  {
+   "id": 29795,
+   "name": "Jack Plotnick",
+   "photo": "https://image.tmdb.org/t/p/w185/1BeShuLhc2HXZieyGEOVgDssAuR.jpg",
+   "character": "Brett Partridge",
+   "episodes": 5
+  },
+  {
+   "id": 31508,
+   "name": "Reed Diamond",
+   "photo": "https://image.tmdb.org/t/p/w185/z3ESNaXSeHiGmmhm49Og9FeXwG8.jpg",
+   "character": "Raymond \"Ray\" Haffner",
+   "episodes": 5
+  }
+ ],
+ "crew": [
+  {
+   "id": 1211883,
+   "name": "Bruno Heller",
+   "photo": "https://image.tmdb.org/t/p/w185/k33JqtocSqI13tf8QKTLbGQKrL4.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 151
+  },
+  {
+   "id": 1214432,
+   "name": "Chris Long",
+   "photo": "https://image.tmdb.org/t/p/w185/kphn24MER5N0g7vnD69csE3onU4.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 151
+  },
+  {
+   "id": 53017,
+   "name": "Blake Neely",
+   "photo": "https://image.tmdb.org/t/p/w185/ip0bUF22rBJNqLu5hTPEtzZa6hp.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 151
+  },
+  {
+   "id": 1227657,
+   "name": "Eoghan Mahony",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 138
+  },
+  {
+   "id": 1215660,
+   "name": "Tom Szentgyorgyi",
+   "photo": "https://image.tmdb.org/t/p/w185/gPiQnaMSfIexiPlEmyq5ZKVrinY.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 128
+  },
+  {
+   "id": 1213077,
+   "name": "Ashley Gable",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 94
+  },
+  {
+   "id": 154623,
+   "name": "Daniel Cerone",
+   "photo": "https://image.tmdb.org/t/p/w185/7tULL0DKkjknISvEd63b4RR263V.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 92
+  },
+  {
+   "id": 1239502,
+   "name": "Erika Green Swafford",
+   "photo": "https://image.tmdb.org/t/p/w185/egjqU6MdjAAfNvqBsyXnOoV6U7s.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 83
+  },
+  {
+   "id": 1347275,
+   "name": "David Appelbaum",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 77
+  },
+  {
+   "id": 1320139,
+   "name": "Jordan Harper",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 60
+  },
+  {
+   "id": 1216134,
+   "name": "Ken Woodruff",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 1100726,
+   "name": "Rebecca Perry Cutter",
+   "photo": "https://image.tmdb.org/t/p/w185/eMQtY3GrmWthnLTP3lolkz75nd6.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 27
+  },
+  {
+   "id": 1598062,
+   "name": "Marisa Wegrzyn",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 1288953,
+   "name": "John F. Showalter",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 47020,
+   "name": "Eric Laneuville",
+   "photo": "https://image.tmdb.org/t/p/w185/hrVy4Ws5sL7rOI7TbTlKrUVosMF.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 146887,
+   "name": "Charles Beeson",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 9
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:31:54.048Z"
+}

@@ -1,0 +1,338 @@
+{
+ "show": "Red Shoe Diaries",
+ "slug": "red-shoe-diaries",
+ "tmdbId": 1082,
+ "cast": [
+  {
+   "id": 12640,
+   "name": "David Duchovny",
+   "photo": "https://image.tmdb.org/t/p/w185/fD8GuLHOOSSAG98VjwN3NhAmqAJ.jpg",
+   "character": "Jake Winters",
+   "episodes": 66
+  },
+  {
+   "id": 42527,
+   "name": "Anthony Addabbo",
+   "photo": "https://image.tmdb.org/t/p/w185/9Y4nHQwItOA5zD75PiC97iltPIl.jpg",
+   "character": "Eddie Edwards / Billy Bar / Gabriel",
+   "episodes": 6
+  },
+  {
+   "id": 42325,
+   "name": "Audie England",
+   "photo": "https://image.tmdb.org/t/p/w185/14Z6y9xEonyYHpReIRIJ3ysHtn5.jpg",
+   "character": "Lily / The Call Girl / Runway Model (uncredited)",
+   "episodes": 6
+  },
+  {
+   "id": 42559,
+   "name": "Jennifer Burton",
+   "photo": "https://image.tmdb.org/t/p/w185/tL74b4JZlHGxm6LDfxnUwpcPrLd.jpg",
+   "character": "Darcie / Dominatrix #1 / The Fire Victim",
+   "episodes": 4
+  },
+  {
+   "id": 42548,
+   "name": "Brad Fisher",
+   "photo": null,
+   "character": "Michael / Cowboy / Lawyer",
+   "episodes": 4
+  },
+  {
+   "id": 42326,
+   "name": "Frederick Washburn",
+   "photo": null,
+   "character": "John / Jamie / Man in Trailer",
+   "episodes": 3
+  },
+  {
+   "id": 1770170,
+   "name": "Mark Zuelke",
+   "photo": "https://image.tmdb.org/t/p/w185/3Z3ZyzmzKNdOnDiXahoZcLFxHBy.jpg",
+   "character": "The Fireman / Photographer / Johnny",
+   "episodes": 3
+  },
+  {
+   "id": 42961,
+   "name": "Jacqueline Lovell",
+   "photo": "https://image.tmdb.org/t/p/w185/l07AerIqrXqVBUqY50v5urhhkvT.jpg",
+   "character": "Susan / Dakota / Bordello Woman",
+   "episodes": 3
+  },
+  {
+   "id": 1513681,
+   "name": "Patrick Budal",
+   "photo": null,
+   "character": "Max / Jean-Paul / Lola's Husband",
+   "episodes": 3
+  },
+  {
+   "id": 14407,
+   "name": "Matt LeBlanc",
+   "photo": "https://image.tmdb.org/t/p/w185/a7Fl1sLUq1UDJ4pHsnwpBdEiDEZ.jpg",
+   "character": "Kyle / Jed Cody",
+   "episodes": 2
+  },
+  {
+   "id": 117474,
+   "name": "Scott Plank",
+   "photo": "https://image.tmdb.org/t/p/w185/mvij8oEpguAdP7TpLBRahUAzfIU.jpg",
+   "character": "Zach / Nick",
+   "episodes": 2
+  },
+  {
+   "id": 539213,
+   "name": "Ron Marquette",
+   "photo": "https://image.tmdb.org/t/p/w185/vo9gZ16B4So1ATg4rzxGkzVHRFD.jpg",
+   "character": "Oliver Dunbar / Tom Cody",
+   "episodes": 2
+  },
+  {
+   "id": 1743,
+   "name": "Denise Crosby",
+   "photo": "https://image.tmdb.org/t/p/w185/1Eoo8o3xRGflJ9kHxg1eFVwAwQa.jpg",
+   "character": "The Psychiatrist / Officer Lynn 'Mona' McCabe",
+   "episodes": 2
+  },
+  {
+   "id": 42715,
+   "name": "Amber Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/6zUCOaxoRvIZLzDWbWWLOgeZMrf.jpg",
+   "character": "Beautiful Woman / Alia",
+   "episodes": 2
+  },
+  {
+   "id": 42730,
+   "name": "Jennifer Ciesar",
+   "photo": null,
+   "character": "Aleta / Sarah McCloud",
+   "episodes": 2
+  },
+  {
+   "id": 42703,
+   "name": "Alexandra Tydings",
+   "photo": "https://image.tmdb.org/t/p/w185/AsXg9FB1pI9JzzQCTvd9qOXFSeP.jpg",
+   "character": "Cecelia / Lynn",
+   "episodes": 2
+  },
+  {
+   "id": 42525,
+   "name": "Sue Kiel",
+   "photo": null,
+   "character": "Francine Sieff / Mistress Miranda",
+   "episodes": 2
+  },
+  {
+   "id": 42648,
+   "name": "Rhonda Aldrich",
+   "photo": "https://image.tmdb.org/t/p/w185/n4ASy7Ks7acrjIeyrhvmxgN4DIb.jpg",
+   "character": "Actress / TV Woman",
+   "episodes": 2
+  },
+  {
+   "id": 42526,
+   "name": "Dee McCafferty",
+   "photo": "https://image.tmdb.org/t/p/w185/luNGnB8AkS6WXdTDcwu80mHsatg.jpg",
+   "character": "Blue / Thug #2",
+   "episodes": 2
+  },
+  {
+   "id": 3157300,
+   "name": "Paula Venice",
+   "photo": null,
+   "character": "Dancer / Linda",
+   "episodes": 2
+  },
+  {
+   "id": 1682322,
+   "name": "Andrea Riave",
+   "photo": null,
+   "character": "Jana / Wealthy Woman",
+   "episodes": 2
+  },
+  {
+   "id": 975368,
+   "name": "Christina Fulton",
+   "photo": "https://image.tmdb.org/t/p/w185/MRfzLiD8HCm6c1ufYo0DPn37Yt.jpg",
+   "character": "Tanya / The Other Woman",
+   "episodes": 2
+  },
+  {
+   "id": 3157299,
+   "name": "Lorna Firman",
+   "photo": null,
+   "character": "Jill / Runway Model",
+   "episodes": 2
+  },
+  {
+   "id": 42556,
+   "name": "Neith Hunter",
+   "photo": "https://image.tmdb.org/t/p/w185/yk5jvqf6G4vTWLE7DEV5Pp4P0Ld.jpg",
+   "character": "Alice / Daughter",
+   "episodes": 2
+  }
+ ],
+ "crew": [
+  {
+   "id": 42113,
+   "name": "Zalman King",
+   "photo": "https://image.tmdb.org/t/p/w185/7nB4hQFfqMAvW1U1glPOOkrihwK.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 132
+  },
+  {
+   "id": 42129,
+   "name": "David Saunders",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 66
+  },
+  {
+   "id": 42114,
+   "name": "Patricia Louisianna Knop",
+   "photo": "https://image.tmdb.org/t/p/w185/cR0KgZC8tyAsm6HrrHYl1lkGIOw.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 66
+  },
+  {
+   "id": 9204,
+   "name": "George S. Clinton",
+   "photo": "https://image.tmdb.org/t/p/w185/tdJbE5zJV037lc2RwIRWv0cCJpZ.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 66
+  },
+  {
+   "id": 42128,
+   "name": "Rafael Eisenman",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Story"
+   ],
+   "episodes": 32
+  },
+  {
+   "id": 42833,
+   "name": "Melanie Finn",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 28899,
+   "name": "Chloe King",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1706638,
+   "name": "Elise D'Haene",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 42502,
+   "name": "Kathy MacQuarrie",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Story"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1144177,
+   "name": "Rod McCall",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Teleplay"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 3158729,
+   "name": "Henry Cobbold",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 42639,
+   "name": "Joëlle Bentolila",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 42736,
+   "name": "David Womark",
+   "photo": "https://image.tmdb.org/t/p/w185/iqzG7lO55wreKYtu70Fd8P2WBoa.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 42309,
+   "name": "Tibor Takács",
+   "photo": "https://image.tmdb.org/t/p/w185/6W3KQ7vcNEs1hOFCkGq9TyeXLFo.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 42638,
+   "name": "Stephen Halbert",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 16544,
+   "name": "Ted Kotcheff",
+   "photo": "https://image.tmdb.org/t/p/w185/kbayJIuimvJJUvMBgKWZz3KGjPa.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:45:59.451Z"
+}

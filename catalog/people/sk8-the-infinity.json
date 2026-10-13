@@ -1,0 +1,295 @@
+{
+ "show": "SK8 the Infinity",
+ "slug": "sk8-the-infinity",
+ "tmdbId": 110309,
+ "cast": [
+  {
+   "id": 2279389,
+   "name": "Chiaki Kobayashi",
+   "photo": "https://image.tmdb.org/t/p/w185/o0XZFXc50z28ICUpvfZ1QcTL2Yt.jpg",
+   "character": "Langa Hasegawa (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 1256915,
+   "name": "Tasuku Hatanaka",
+   "photo": "https://image.tmdb.org/t/p/w185/xPDqoxAia1ShoVC2aMS2ZDPDWzG.jpg",
+   "character": "Reki Kyan (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 84508,
+   "name": "Takehito Koyasu",
+   "photo": "https://image.tmdb.org/t/p/w185/8uBkNDKPNmp9JWgMUI02NVyfhi1.jpg",
+   "character": "Adam (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 122726,
+   "name": "Hikaru Midorikawa",
+   "photo": "https://image.tmdb.org/t/p/w185/pvzfUDE9UruEhRBrONVFk83o6Zh.jpg",
+   "character": "Cherry blossom (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 1613381,
+   "name": "Takuma Nagatsuka",
+   "photo": "https://image.tmdb.org/t/p/w185/5IdSSkG5qDJ36MPX3R6oLPk557K.jpg",
+   "character": "Miya Chinen (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 553282,
+   "name": "Yasunori Matsumoto",
+   "photo": "https://image.tmdb.org/t/p/w185/12vPpqoppN12i3Zk313dwQsUQYi.jpg",
+   "character": "Joe (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 225603,
+   "name": "Kenta Miyake",
+   "photo": "https://image.tmdb.org/t/p/w185/7YL8vM2KYzPMeQqTpHWmNj6s1AP.jpg",
+   "character": "Shadow (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 2868868,
+   "name": "Kohsuke Tanabe",
+   "photo": "https://image.tmdb.org/t/p/w185/3Q5NpVeR5Vr3CBF9QApyELeXpD9.jpg",
+   "character": "Coach (voice) / Classmate (voice) / Servant (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 2912799,
+   "name": "Yusuke Shirooka",
+   "photo": "https://image.tmdb.org/t/p/w185/p2JnzNyagTKD8GPMkWHowyma8A1.jpg",
+   "character": "Spectator (voice) / English Teacher (voice) / Prefectural Police HQ Chief (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 2877542,
+   "name": "Saki Endo",
+   "photo": "https://image.tmdb.org/t/p/w185/wFAIgWNFtN36A8kRR3XtpY3uwOT.jpg",
+   "character": "Landlady (voice) / Aunt (voice) / Miya's Mother (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 1065297,
+   "name": "Kensho Ono",
+   "photo": "https://image.tmdb.org/t/p/w185/wUYJ3HIeygHfh4rAqupE4RPoG3W.jpg",
+   "character": "Tadashi Kikuchi (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 2930867,
+   "name": "Arisa Sekine",
+   "photo": "https://image.tmdb.org/t/p/w185/z8GTafCwhgx6cgjpuUWHOWXZCkg.jpg",
+   "character": "Flower Shop Manager (voice) / Sketchy (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 2812912,
+   "name": "Shogo Sakata",
+   "photo": "https://image.tmdb.org/t/p/w185/fRRPNBz3OCNRdmLdUTdpq7dGqxM.jpg",
+   "character": "Spectator (voice) / Ramen Shop Clerk (voice) / Delinquent (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 2724028,
+   "name": "Yukiko Motoyoshi",
+   "photo": "https://image.tmdb.org/t/p/w185/1v2NKcXE0i5YtMHnYsmPQrZRUss.jpg",
+   "character": "Carla (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 2719917,
+   "name": "Noriaki Kanze",
+   "photo": "https://image.tmdb.org/t/p/w185/oMtucEisqIrqRVrhIgdMfqusKY2.jpg",
+   "character": "Takashi (voice) / Spectator (voice) / Classmate (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 2833580,
+   "name": "Mariko Nagai",
+   "photo": "https://image.tmdb.org/t/p/w185/hwSHTes6BFfEl9yi17tJlq0DPeR.jpg",
+   "character": "Young Ainosuke (voice) / Spectator (voice) / Female College Student (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 2395394,
+   "name": "Kenta Ohkuma",
+   "photo": "https://image.tmdb.org/t/p/w185/gqoWLlRapsptxefQa6ZKbOkBzP.jpg",
+   "character": "Manager Oka (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 210350,
+   "name": "Mie Sonozaki",
+   "photo": "https://image.tmdb.org/t/p/w185/iYnpn1e7Ba1oMK8ZdgAvqzxng9e.jpg",
+   "character": "Nanako Hasegawa (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 79004,
+   "name": "Takako Honda",
+   "photo": "https://image.tmdb.org/t/p/w185/LekbnCX6TcabG3EjSOKOgIGrvJ.jpg",
+   "character": "Kiriko Kamata (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 1407597,
+   "name": "Sayaka Senbongi",
+   "photo": "https://image.tmdb.org/t/p/w185/yLRKX9DPDGgTRKBQRFTUh3pvbU0.jpg",
+   "character": "Young Kikuchi (voice) / Koyomi Kyan (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 2435542,
+   "name": "Masamu Ono",
+   "photo": "https://image.tmdb.org/t/p/w185/tSgdV4MZDXt9B1xrWNIxslc4C2A.jpg",
+   "character": "Spectator (voice) / Classmate (voice) / Reporter (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 2892445,
+   "name": "Kanako Takeuchi",
+   "photo": "https://image.tmdb.org/t/p/w185/y8nZ2kODN9rwWzc0W6kknU2KkRK.jpg",
+   "character": "Spectator (voice) / Burger Shop Clerk (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 2652077,
+   "name": "Masaya Fukunishi",
+   "photo": "https://image.tmdb.org/t/p/w185/8paIbTobS6266x57pIhJCq3mBJh.jpg",
+   "character": "Kazu (voice) / Spectator (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 125618,
+   "name": "Showko Tsuda",
+   "photo": "https://image.tmdb.org/t/p/w185/aa43VZidp7EnZ6OeQMIMW6abQnB.jpg",
+   "character": "Aunt (voice)",
+   "episodes": 4
+  }
+ ],
+ "crew": [
+  {
+   "id": 1144162,
+   "name": "Ichiro Okouchi",
+   "photo": "https://image.tmdb.org/t/p/w185/bOACJgaqncJOSukAAErIlxBOor8.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1371965,
+   "name": "Hiroko Utsumi",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 1817520,
+   "name": "Masanori Miyake",
+   "photo": "https://image.tmdb.org/t/p/w185/kr6vrmfERGuQTb9X8KKzSvlEsYh.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1647637,
+   "name": "Ryo Takahashi",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 2376066,
+   "name": "Takahiro Hasui",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 2183852,
+   "name": "Takayuki Yamamoto",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1901653,
+   "name": "Takanori Yano",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 2376302,
+   "name": "Masatoyo Takada",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 2968156,
+   "name": "Takashi Yasui",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 2312558,
+   "name": "Noriyuki Nomata",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1906529,
+   "name": "Daisuke Chiba",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1680860,
+   "name": "Yoshiyuki Asai",
+   "photo": "https://image.tmdb.org/t/p/w185/jo1I3LAqxFDouN5ITt9ipWwfWFw.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1845836,
+   "name": "Tetsuya Miyanishi",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:39:47.031Z"
+}

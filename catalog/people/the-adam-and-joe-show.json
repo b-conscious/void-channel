@@ -1,0 +1,39 @@
+{
+ "show": "The Adam and Joe Show",
+ "slug": "the-adam-and-joe-show",
+ "tmdbId": 3242,
+ "cast": [
+  {
+   "id": 155532,
+   "name": "Adam Buxton",
+   "photo": "https://image.tmdb.org/t/p/w185/jD0Pl0QnNHuls1PmYtEnBNbuLKY.jpg",
+   "character": "",
+   "episodes": 22
+  },
+  {
+   "id": 155531,
+   "name": "Joe Cornish",
+   "photo": "https://image.tmdb.org/t/p/w185/u0svfsfJkMuHyXyGDK3YqB4t7q6.jpg",
+   "character": "",
+   "episodes": 22
+  },
+  {
+   "id": 1249939,
+   "name": "Cerys Matthews",
+   "photo": "https://image.tmdb.org/t/p/w185/qBo51T9hr9UYxD7GyddjuxNAhuU.jpg",
+   "character": "Self",
+   "episodes": 1
+  }
+ ],
+ "crew": [
+  {
+   "id": 155532,
+   "name": "Adam Buxton",
+   "photo": "https://image.tmdb.org/t/p/w185/jD0Pl0QnNHuls1PmYtEnBNbuLKY.jpg",
+   "jobs": [
+    "Creator"
+   ]
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:36:41.340Z"
+}

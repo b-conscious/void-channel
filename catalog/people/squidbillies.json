@@ -1,0 +1,280 @@
+{
+ "show": "Squidbillies",
+ "slug": "squidbillies",
+ "tmdbId": 539,
+ "cast": [
+  {
+   "id": 74337,
+   "name": "Dana Snyder",
+   "photo": "https://image.tmdb.org/t/p/w185/3s6O93oeY4QaAVUjrjSiBUKlMFu.jpg",
+   "character": "Granny Cuyler (voice)",
+   "episodes": 132
+  },
+  {
+   "id": 1217860,
+   "name": "Daniel McDevitt",
+   "photo": null,
+   "character": "Rusty Cuyler (voice)",
+   "episodes": 132
+  },
+  {
+   "id": 74339,
+   "name": "Dave Willis",
+   "photo": "https://image.tmdb.org/t/p/w185/cAxDYGbinrHm1X6eJQi162pZ3Me.jpg",
+   "character": "Narrator / Denny (voice)",
+   "episodes": 132
+  },
+  {
+   "id": 194756,
+   "name": "Todd Hanson",
+   "photo": null,
+   "character": "Dan Halen (voice)",
+   "episodes": 132
+  },
+  {
+   "id": 128207,
+   "name": "Patricia French",
+   "photo": "https://image.tmdb.org/t/p/w185/7reWTNf70I1PiSd6lvhp23HeYbj.jpg",
+   "character": "Aunt Lil (voice)",
+   "episodes": 132
+  },
+  {
+   "id": 1453041,
+   "name": "Bobby Ellerbee",
+   "photo": null,
+   "character": "Sheriff (voice)",
+   "episodes": 126
+  },
+  {
+   "id": 1217861,
+   "name": "Unknown Hinson",
+   "photo": null,
+   "character": "Early Cuyler (voice)",
+   "episodes": 123
+  },
+  {
+   "id": 3525664,
+   "name": "Scott Hilley",
+   "photo": null,
+   "character": "Reverend (voice)",
+   "episodes": 95
+  },
+  {
+   "id": 61110,
+   "name": "Fred Armisen",
+   "photo": "https://image.tmdb.org/t/p/w185/rhPN8Zx6nrtNiQN2JwPkJ3ZFJ9z.jpg",
+   "character": "Miguel",
+   "episodes": 85
+  },
+  {
+   "id": 16119,
+   "name": "Charles Napier",
+   "photo": "https://image.tmdb.org/t/p/w185/w16LEJlHDtqGWeFCk5a7a2GDeBK.jpg",
+   "character": "Sheriff (voice)",
+   "episodes": 85
+  },
+  {
+   "id": 1217859,
+   "name": "Danny Baker",
+   "photo": "https://image.tmdb.org/t/p/w185/cWoQhHuqwodHhVr4ZX1bvcfu4yp.jpg",
+   "character": "",
+   "episodes": 85
+  },
+  {
+   "id": 1217862,
+   "name": "Mary Kraft",
+   "photo": "https://image.tmdb.org/t/p/w185/tBjDa5g4E0PllqIg3KHUGDKJGU7.jpg",
+   "character": "Mother",
+   "episodes": 85
+  },
+  {
+   "id": 1055039,
+   "name": "Elizabeth Cook",
+   "photo": null,
+   "character": "Tammy (voice)",
+   "episodes": 63
+  },
+  {
+   "id": 1310349,
+   "name": "Jason Isbell",
+   "photo": "https://image.tmdb.org/t/p/w185/2SU5ZCaLd82DYR6autpT00QIbmM.jpg",
+   "character": "Pastor Nubbins (voice)",
+   "episodes": 29
+  },
+  {
+   "id": 56903,
+   "name": "Tracy Morgan",
+   "photo": "https://image.tmdb.org/t/p/w185/ec0OJVbs6NZKMbS1yiCAJKjeoJf.jpg",
+   "character": "Early Cuyler (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 89882,
+   "name": "Jesco White",
+   "photo": "https://image.tmdb.org/t/p/w185/3OFzEf6RW8Mia2UZIrhLpgSYpsn.jpg",
+   "character": "Ga-Ga-Pee-Pap Cuyler (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 4559681,
+   "name": "Max Willis",
+   "photo": null,
+   "character": "Baby / Macho Man Randy Cuyler (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 96072,
+   "name": "Jonathan Katz",
+   "photo": "https://image.tmdb.org/t/p/w185/4jtl2ZQhfGiKmSVpKkvXYVVgxi.jpg",
+   "character": "Therapist (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 223023,
+   "name": "Dan Triandiflou",
+   "photo": "https://image.tmdb.org/t/p/w185/vna4dkKcA74T6Rk3GkBFXHPRWmQ.jpg",
+   "character": "Durwood (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 1214837,
+   "name": "Isaac Hayes III",
+   "photo": "https://image.tmdb.org/t/p/w185/gwrgeBh1ujOhmrboBvOxIl1w2oD.jpg",
+   "character": "Prisoner (voice) / Ra (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 1214836,
+   "name": "George Lowe",
+   "photo": "https://image.tmdb.org/t/p/w185/4Co7SJBPxoYwwjtoPWo9iJxK8pf.jpg",
+   "character": "Announcer (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 224092,
+   "name": "T-Pain",
+   "photo": "https://image.tmdb.org/t/p/w185/cYMkeVg7gPXI49iWpQ22MgXYzyr.jpg",
+   "character": "T-Pain (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 3332349,
+   "name": "Kevin Gillespie",
+   "photo": null,
+   "character": "Kevin Gillespie (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 123255,
+   "name": "Paul Stanley",
+   "photo": "https://image.tmdb.org/t/p/w185/tcPAc5YiW5yjzlfqs8zwohAMaIp.jpg",
+   "character": "Paul Stanley GPS (voice)",
+   "episodes": 1
+  }
+ ],
+ "crew": [
+  {
+   "id": 1217864,
+   "name": "Jim Fortier",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Story",
+    "Writer"
+   ],
+   "episodes": 132
+  },
+  {
+   "id": 74339,
+   "name": "Dave Willis",
+   "photo": "https://image.tmdb.org/t/p/w185/cAxDYGbinrHm1X6eJQi162pZ3Me.jpg",
+   "jobs": [
+    "Creator",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 132
+  },
+  {
+   "id": 74341,
+   "name": "Matt Maiellaro",
+   "photo": "https://image.tmdb.org/t/p/w185/zaXkaZDCbHKgTrkh3boxe7M0kmH.jpg",
+   "jobs": [
+    "Creator"
+   ]
+  },
+  {
+   "id": 1215656,
+   "name": "Keith Crofford",
+   "photo": "https://image.tmdb.org/t/p/w185/vyNDOCtfryXLFDSvAv5iMXiQuTD.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 132
+  },
+  {
+   "id": 4559708,
+   "name": "Bradley Burch",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 132
+  },
+  {
+   "id": 4559705,
+   "name": "David Lee Powell",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 132
+  },
+  {
+   "id": 1493446,
+   "name": "Alan Steadman",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 1232064,
+   "name": "Casper Kelly",
+   "photo": "https://image.tmdb.org/t/p/w185/uJTvuDrGdO9JnEMWEyI4fFKzApV.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1245181,
+   "name": "Will Shepard",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 4560039,
+   "name": "Steve Fortier",
+   "photo": null,
+   "jobs": [
+    "Story"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1732826,
+   "name": "Pete Smith",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:30:26.911Z"
+}

@@ -1,0 +1,328 @@
+{
+ "show": "The Rookie",
+ "slug": "the-rookie",
+ "tmdbId": 79744,
+ "cast": [
+  {
+   "id": 51797,
+   "name": "Nathan Fillion",
+   "photo": "https://image.tmdb.org/t/p/w185/aW6vCxkUZtwb6iH2Wf88Uq0XNVv.jpg",
+   "character": "John Nolan",
+   "episodes": 145
+  },
+  {
+   "id": 1234713,
+   "name": "Melissa O'Neil",
+   "photo": "https://image.tmdb.org/t/p/w185/9KqgbNttW79hAP9xQ5Ffd2fjGk.jpg",
+   "character": "Lucy Chen",
+   "episodes": 145
+  },
+  {
+   "id": 74409,
+   "name": "Eric Winter",
+   "photo": "https://image.tmdb.org/t/p/w185/tDQSZv5rHm4s2hwwVWpp5EMQ0w9.jpg",
+   "character": "Tim Bradford",
+   "episodes": 145
+  },
+  {
+   "id": 134180,
+   "name": "Alyssa Diaz",
+   "photo": "https://image.tmdb.org/t/p/w185/ihLNjM4E1Fjx5h4l8EL6r3iDRTa.jpg",
+   "character": "Angela Lopez",
+   "episodes": 145
+  },
+  {
+   "id": 55755,
+   "name": "Richard T. Jones",
+   "photo": "https://image.tmdb.org/t/p/w185/hdko2C45Wr5G03Z8JwGjWMynP84.jpg",
+   "character": "Wade Grey",
+   "episodes": 145
+  },
+  {
+   "id": 202952,
+   "name": "Mekia Cox",
+   "photo": "https://image.tmdb.org/t/p/w185/r8RrebMle9U3Xiwl2hiD6pFdfSl.jpg",
+   "character": "Nyla Harper",
+   "episodes": 124
+  },
+  {
+   "id": 11023,
+   "name": "Shawn Ashmore",
+   "photo": "https://image.tmdb.org/t/p/w185/tXA1gFtsp9HWnzlQsaZSoZC8L4r.jpg",
+   "character": "Wesley Evers",
+   "episodes": 105
+  },
+  {
+   "id": 20381,
+   "name": "Jenna Dewan",
+   "photo": "https://image.tmdb.org/t/p/w185/8zZkN1ewGxN8MHiqB8lRmBle8yf.jpg",
+   "character": "Bailey Nune",
+   "episodes": 84
+  },
+  {
+   "id": 1600095,
+   "name": "Lisseth Chavez",
+   "photo": "https://image.tmdb.org/t/p/w185/fFnGQVFGAtTZcmLAr7XuUhvtjEW.jpg",
+   "character": "Celina Juarez",
+   "episodes": 65
+  },
+  {
+   "id": 84648,
+   "name": "Brent Huff",
+   "photo": "https://image.tmdb.org/t/p/w185/dMH054u4eDgZlMhf7SBdxdtlnQu.jpg",
+   "character": "Officer Quigley Smitty / Quigley Smitty",
+   "episodes": 61
+  },
+  {
+   "id": 564632,
+   "name": "Titus Makin Jr.",
+   "photo": "https://image.tmdb.org/t/p/w185/etChJvOSamrR5kkm3Y9Pv9StZiX.jpg",
+   "character": "Jackson West",
+   "episodes": 54
+  },
+  {
+   "id": 2492284,
+   "name": "Tru Valentino",
+   "photo": "https://image.tmdb.org/t/p/w185/asdesapLhK2sS2nUhP6GSxFv715.jpg",
+   "character": "Aaron Thorsen",
+   "episodes": 45
+  },
+  {
+   "id": 1411745,
+   "name": "Deric Augustine",
+   "photo": "https://image.tmdb.org/t/p/w185/lJNKxDavwDrGhingpGpzlKfd6I9.jpg",
+   "character": "Miles Penn",
+   "episodes": 33
+  },
+  {
+   "id": 6070,
+   "name": "Arjay Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/rOdeapCUOJ6Te9I2S6neHTA9tQX.jpg",
+   "character": "James Murray",
+   "episodes": 31
+  },
+  {
+   "id": 1957369,
+   "name": "Dylan Conrique",
+   "photo": "https://image.tmdb.org/t/p/w185/2fpCu29TbwncB6jnjZ2QfaMUbb7.jpg",
+   "character": "Tamara Colins",
+   "episodes": 24
+  },
+  {
+   "id": 2909039,
+   "name": "Jan M. Janssen",
+   "photo": "https://image.tmdb.org/t/p/w185/47Rukgkxuiulp31gckZSru38DOC.jpg",
+   "character": "Officer Jan (uncredited) / Kitchen Cop / Officer Jan",
+   "episodes": 21
+  },
+  {
+   "id": 970631,
+   "name": "Afton Williamson",
+   "photo": "https://image.tmdb.org/t/p/w185/xzXkZzMDNGNZVRktD7NyexkUvt0.jpg",
+   "character": "Talia Bishop",
+   "episodes": 20
+  },
+  {
+   "id": 83862,
+   "name": "Mercedes Mason",
+   "photo": "https://image.tmdb.org/t/p/w185/18Rqx5uTRhLSo6KOmU798F1QRTj.jpg",
+   "character": "Capt. Zoe Andersen",
+   "episodes": 20
+  },
+  {
+   "id": 1254399,
+   "name": "Angel Parker",
+   "photo": "https://image.tmdb.org/t/p/w185/bbdo6p0rPHQQOp867Uel3Gwfrin.jpg",
+   "character": "Luna Grey",
+   "episodes": 20
+  },
+  {
+   "id": 1222298,
+   "name": "Bridget Regan",
+   "photo": "https://image.tmdb.org/t/p/w185/ri1kEBkWa9ShTYbV2iJAFa0V4VU.jpg",
+   "character": "Monica Stevens",
+   "episodes": 19
+  },
+  {
+   "id": 1459071,
+   "name": "Crystal Coney",
+   "photo": "https://image.tmdb.org/t/p/w185/jt26yfGEnjL89oFN4kee4BDJvQq.jpg",
+   "character": "Nurse Lisa",
+   "episodes": 17
+  },
+  {
+   "id": 1541024,
+   "name": "Kanoa Goo",
+   "photo": "https://image.tmdb.org/t/p/w185/xKZ3ESOOEi9LWqRz4jrcHoCJJTN.jpg",
+   "character": "Chris Sanford",
+   "episodes": 14
+  },
+  {
+   "id": 1215617,
+   "name": "Felix Solis",
+   "photo": "https://image.tmdb.org/t/p/w185/hEiRxsPybmlmoynqw3UeA9AiSEY.jpg",
+   "character": "Matthew Garza",
+   "episodes": 13
+  },
+  {
+   "id": 83456,
+   "name": "Michael Trucco",
+   "photo": "https://image.tmdb.org/t/p/w185/qOA3cT2Gsmm9M6URoU4Ykynx2Oc.jpg",
+   "character": "ADA Sean Del Monte",
+   "episodes": 13
+  }
+ ],
+ "crew": [
+  {
+   "id": 67855,
+   "name": "Alexi Hawley",
+   "photo": "https://image.tmdb.org/t/p/w185/eIyGbyHTfsIxEOPlD5lByW9A80y.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 144
+  },
+  {
+   "id": 2409170,
+   "name": "Jon Steinberg",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 163
+  },
+  {
+   "id": 2409166,
+   "name": "Bill Norcross",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 144
+  },
+  {
+   "id": 6048,
+   "name": "Mark Gordon",
+   "photo": "https://image.tmdb.org/t/p/w185/lATsud5NyaXaKE5p8H1kEkUsbWN.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 144
+  },
+  {
+   "id": 2409164,
+   "name": "Michelle Chapman",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 144
+  },
+  {
+   "id": 51797,
+   "name": "Nathan Fillion",
+   "photo": "https://image.tmdb.org/t/p/w185/aW6vCxkUZtwb6iH2Wf88Uq0XNVv.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 144
+  },
+  {
+   "id": 1971806,
+   "name": "Jordan Gagne",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 144
+  },
+  {
+   "id": 1252002,
+   "name": "Brynn Malone",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 98
+  },
+  {
+   "id": 553985,
+   "name": "Terence Paul Winter",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 87
+  },
+  {
+   "id": 1453319,
+   "name": "Faye Brenner",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 76
+  },
+  {
+   "id": 2273305,
+   "name": "Natalie Callaghan",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 75
+  },
+  {
+   "id": 3014867,
+   "name": "Paula Puryear",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 64
+  },
+  {
+   "id": 60712,
+   "name": "Bill Roe",
+   "photo": "https://image.tmdb.org/t/p/w185/lJu0r12MWMDrQHSrp2VsNxCYmOR.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 58
+  },
+  {
+   "id": 1658553,
+   "name": "Fredrick Kotto",
+   "photo": "https://image.tmdb.org/t/p/w185/wV1FaylWnsS6BkOfX9xoktzsrgl.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 53
+  },
+  {
+   "id": 2273304,
+   "name": "Bill Rinier",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 49
+  },
+  {
+   "id": 2863421,
+   "name": "Zoe Cheng",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 41
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:10.834Z"
+}

@@ -1,0 +1,322 @@
+{
+ "show": "Moriarty the Patriot",
+ "slug": "moriarty-the-patriot",
+ "tmdbId": 100281,
+ "cast": [
+  {
+   "id": 1388751,
+   "name": "Soma Saito",
+   "photo": "https://image.tmdb.org/t/p/w185/8W8Y02Jmjivw0kk5PDih9dqiyd9.jpg",
+   "character": "William James Moriarty (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1253431,
+   "name": "Takuya Sato",
+   "photo": "https://image.tmdb.org/t/p/w185/xZgoTs6DOSneHkoOWL751pQzLru.jpg",
+   "character": "Albert James Moriarty (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 2279389,
+   "name": "Chiaki Kobayashi",
+   "photo": "https://image.tmdb.org/t/p/w185/o0XZFXc50z28ICUpvfZ1QcTL2Yt.jpg",
+   "character": "Louis James Moriarty (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1319218,
+   "name": "Makoto Furukawa",
+   "photo": "https://image.tmdb.org/t/p/w185/inLmBZhrqXeE9wlViyK28ocKJSw.jpg",
+   "character": "Sherlock Holmes (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 224413,
+   "name": "Satoshi Hino",
+   "photo": "https://image.tmdb.org/t/p/w185/8ZJIiwIVF2zDyyFr7oXewj0eEuu.jpg",
+   "character": "Sebastian Moran (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1247956,
+   "name": "Yuto Uemura",
+   "photo": "https://image.tmdb.org/t/p/w185/boQMSI9WA5x2LYDEsiq0udeKMNe.jpg",
+   "character": "Fred Porlock (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1206317,
+   "name": "Yuki Ono",
+   "photo": "https://image.tmdb.org/t/p/w185/oEx13CbNLsHzURdYafkFJYXDjfm.jpg",
+   "character": "John H. Watson (voice) / Unknown actor / Prostitute / Old man (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 2106489,
+   "name": "Taito Ban",
+   "photo": "https://image.tmdb.org/t/p/w185/pSExEOVmjAujKUyJJJSxC1WEzOM.jpg",
+   "character": "Railway staff B (voice) / Member of Parliament (voice) / Reporter (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 1717126,
+   "name": "Hana Sato",
+   "photo": "https://image.tmdb.org/t/p/w185/4npLYfxrVK5EwuipOvFKCXA0XmA.jpg",
+   "character": "Young lady B (voice) / Woman (voice) / Old Woman (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 2019924,
+   "name": "Motoki Sakuma",
+   "photo": "https://image.tmdb.org/t/p/w185/mZiHq4ka4H9wOjmk364ntcgkY0f.jpg",
+   "character": "Bremner (voice) / Worker B (voice) / Municipal police officer (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 1157642,
+   "name": "Shinya Takahashi",
+   "photo": "https://image.tmdb.org/t/p/w185/19DN4yrD9c3E7BWthVEqvwhQNdb.jpg",
+   "character": "Man (voice) / Yard (voice) / Robinson (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 1563028,
+   "name": "Fuminori Komatsu",
+   "photo": "https://image.tmdb.org/t/p/w185/zI2Wh6fiEkWfWREGDcyAsXsDhBc.jpg",
+   "character": "George Lestrade (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 1072774,
+   "name": "Yoko Hikasa",
+   "photo": "https://image.tmdb.org/t/p/w185/mP3bj0s1gqJ6tCKFLhu4b1CkJj7.jpg",
+   "character": "Irene Adler (voice) / James Bonde (voice) / Irene Adler / James Bonde (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 227879,
+   "name": "Kana Asumi",
+   "photo": "https://image.tmdb.org/t/p/w185/5GroiCPTO6PcYaZQXTGWltoT1kq.jpg",
+   "character": "Miss Hudson (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 2158087,
+   "name": "Hinata Tadokoro",
+   "photo": "https://image.tmdb.org/t/p/w185/sLgk7ah48Iu491ZFFFzI0uKcsPL.jpg",
+   "character": "Reporter (voice) / Bartender (voice) / Nobleman B (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 216448,
+   "name": "Hiroki Yasumoto",
+   "photo": "https://image.tmdb.org/t/p/w185/vNIGLl0wFmdhdnulMssQ1qyNeBs.jpg",
+   "character": "Mycroft Holmes (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 2103077,
+   "name": "Ikumi Hasegawa",
+   "photo": "https://image.tmdb.org/t/p/w185/aHLid4WeTafrtfqDRAZSw5K7dTj.jpg",
+   "character": "Boy (voice) / Child (voice) / Young lady A (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 126698,
+   "name": "Kenji Nojima",
+   "photo": "https://image.tmdb.org/t/p/w185/nRSPVjDkdpnrQabnK5mENH118zN.jpg",
+   "character": "Charles Augustus Milverton (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 224462,
+   "name": "Naoya Uchida",
+   "photo": "https://image.tmdb.org/t/p/w185/i1Vl4QbiEsyATmX2HSH2rIEyzeS.jpg",
+   "character": "Jack Renfield (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 1324650,
+   "name": "Shizuka Ishigami",
+   "photo": "https://image.tmdb.org/t/p/w185/kXTYBI7skkVSjQ4eg49iEGblt3f.jpg",
+   "character": "William James Moriarty (young) (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 1096527,
+   "name": "Tsuguo Mogami",
+   "photo": "https://image.tmdb.org/t/p/w185/gy1ovkyhWBN9RdIEP7pB5rSNDpD.jpg",
+   "character": "Gregson (voice) / Simon (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 2923370,
+   "name": "Seiyu Fujiwara",
+   "photo": "https://image.tmdb.org/t/p/w185/fIM22LFxjzGbN1ZlmULeRHEKU9v.jpg",
+   "character": "Railway staff C (voice) / Robber (voice) / Yard (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 1717125,
+   "name": "Yoshiaki Hasegawa",
+   "photo": "https://image.tmdb.org/t/p/w185/keP18EZCxYwtXguoMdZyjhI7S2f.jpg",
+   "character": "Worker A (voice) / Harry (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 2864258,
+   "name": "Yuki Sakakihara",
+   "photo": "https://image.tmdb.org/t/p/w185/4Jj08itCNpPrN1Sr3uv26h1p740.jpg",
+   "character": "Wiggins (voice) / Boy (voice)",
+   "episodes": 4
+  }
+ ],
+ "crew": [
+  {
+   "id": 1407594,
+   "name": "Go Zappa",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 35
+  },
+  {
+   "id": 1483904,
+   "name": "Taku Kishimoto",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 32
+  },
+  {
+   "id": 2801613,
+   "name": "Yoshihisa Heishi",
+   "photo": "https://image.tmdb.org/t/p/w185/1nKceWUfKlTmRsQ4QzPCmqx4ceX.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 229443,
+   "name": "Junichi Fujisaku",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1315181,
+   "name": "Hiroo Maruyama",
+   "photo": "https://image.tmdb.org/t/p/w185/uI0WlFnSK1YjERWtphtal8OWJ4q.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 3993873,
+   "name": "Toru Umemoto",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 2784992,
+   "name": "Kenji Hamada",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 3145191,
+   "name": "Yukio Haruyama",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 2385014,
+   "name": "Asami Tachibana",
+   "photo": "https://image.tmdb.org/t/p/w185/7BU7srwNo230kfXjsNsXOhXhmyG.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 2672427,
+   "name": "Daiki Kato",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 592039,
+   "name": "Kazuya Nomura",
+   "photo": "https://image.tmdb.org/t/p/w185/8t3kO8gjopSQMwoCRNxoXyBMYC.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 2861447,
+   "name": "Kazuki Yokoyama",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 2852536,
+   "name": "Asami Nakatani",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1962875,
+   "name": "Katsuya Shigehara",
+   "photo": "https://image.tmdb.org/t/p/w185/e0a0I9TGa3ErV4qRknggYEg7Ks0.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 2124763,
+   "name": "Haruo Okuno",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 2208434,
+   "name": "Michiru Itabisashi",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:40:07.906Z"
+}

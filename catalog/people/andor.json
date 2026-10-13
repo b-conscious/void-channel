@@ -1,0 +1,325 @@
+{
+ "show": "Andor",
+ "slug": "andor",
+ "tmdbId": 83867,
+ "cast": [
+  {
+   "id": 8688,
+   "name": "Diego Luna",
+   "photo": "https://image.tmdb.org/t/p/w185/qwbjcyDN37OHiln4a6P4LP31o7F.jpg",
+   "character": "Cassian Andor",
+   "episodes": 24
+  },
+  {
+   "id": 27397,
+   "name": "Anton Lesser",
+   "photo": "https://image.tmdb.org/t/p/w185/x0lmqgkmphvOCSTHk2oxsaxA9Ra.jpg",
+   "character": "Major Partagaz",
+   "episodes": 24
+  },
+  {
+   "id": 3709350,
+   "name": "Muhannad Bhaier",
+   "photo": "https://image.tmdb.org/t/p/w185/5hn7WeXi6wguwxTPTSmcmzHAs9.jpg",
+   "character": "Wilmon",
+   "episodes": 24
+  },
+  {
+   "id": 1640,
+   "name": "Stellan Skarsgård",
+   "photo": "https://image.tmdb.org/t/p/w185/mW7xmtGV4y79kQGn0zkKVGDMAmw.jpg",
+   "character": "Luthen Rael",
+   "episodes": 24
+  },
+  {
+   "id": 1182597,
+   "name": "Denise Gough",
+   "photo": "https://image.tmdb.org/t/p/w185/wWcby4ARYqr8d92ZdjyQcfaiJBW.jpg",
+   "character": "Dedra Meero",
+   "episodes": 24
+  },
+  {
+   "id": 1390505,
+   "name": "Kyle Soller",
+   "photo": "https://image.tmdb.org/t/p/w185/rLzduQpYJnZJKkXv3jRc7MDHwoI.jpg",
+   "character": "Syril Karn",
+   "episodes": 24
+  },
+  {
+   "id": 1371297,
+   "name": "Adria Arjona",
+   "photo": "https://image.tmdb.org/t/p/w185/gzrI92WZFANIBXOmXl3QGfb8Jak.jpg",
+   "character": "Bix Caleen",
+   "episodes": 24
+  },
+  {
+   "id": 139654,
+   "name": "Genevieve O'Reilly",
+   "photo": "https://image.tmdb.org/t/p/w185/4eOoW1PNBZfxRW0g8RmYH8bL6mq.jpg",
+   "character": "Mon Mothma",
+   "episodes": 24
+  },
+  {
+   "id": 1204956,
+   "name": "Faye Marsay",
+   "photo": "https://image.tmdb.org/t/p/w185/63vFGISlg0mD1c0tAjxlMMPgWVj.jpg",
+   "character": "Vel Sartha",
+   "episodes": 24
+  },
+  {
+   "id": 3718745,
+   "name": "Elizabeth Dulau",
+   "photo": "https://image.tmdb.org/t/p/w185/fYVzlUv3a8PnU69oQI4ML9w8yXq.jpg",
+   "character": "Kleya Marki",
+   "episodes": 24
+  },
+  {
+   "id": 62106,
+   "name": "Michael Jenn",
+   "photo": "https://image.tmdb.org/t/p/w185/3NQbYl0GUHewCxBQaLnQaAnRV9G.jpg",
+   "character": "Supervisor Lagret",
+   "episodes": 12
+  },
+  {
+   "id": 1805068,
+   "name": "Jacob James Beswick",
+   "photo": "https://image.tmdb.org/t/p/w185/itt2WMFn2RWgPyvgF3gvAvB7uhM.jpg",
+   "character": "Attendant Heert / Supervisor Heert",
+   "episodes": 12
+  },
+  {
+   "id": 39970,
+   "name": "Alastair Mackenzie",
+   "photo": "https://image.tmdb.org/t/p/w185/blGkrAkxxdzEs9NZnj9f21rzpjz.jpg",
+   "character": "Perrin Fertha",
+   "episodes": 11
+  },
+  {
+   "id": 1234529,
+   "name": "Dave Chapman",
+   "photo": "https://image.tmdb.org/t/p/w185/vbB6di8qduC3qDlNyJIg20N6m1Z.jpg",
+   "character": "B2EMO (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 589652,
+   "name": "Robert Emms",
+   "photo": "https://image.tmdb.org/t/p/w185/wyg6tXDnY5AOvmg3neQQhCsKtg.jpg",
+   "character": "Supervisor Lonni Jung",
+   "episodes": 10
+  },
+  {
+   "id": 1071127,
+   "name": "Varada Sethu",
+   "photo": "https://image.tmdb.org/t/p/w185/6QDtR46iOvyz7xoJnlxGsCnEmDX.jpg",
+   "character": "Cinta Kaz",
+   "episodes": 9
+  },
+  {
+   "id": 529302,
+   "name": "Joplin Sibtain",
+   "photo": "https://image.tmdb.org/t/p/w185/wQT5g9jdFgVzfdKfGVifgimwzoR.jpg",
+   "character": "Brasso",
+   "episodes": 9
+  },
+  {
+   "id": 72309,
+   "name": "Kathryn Hunter",
+   "photo": "https://image.tmdb.org/t/p/w185/ni98cNE8kOAj6kcpEVmIfi8iAsw.jpg",
+   "character": "Eedy Karn",
+   "episodes": 9
+  },
+  {
+   "id": 1901375,
+   "name": "Bronte Carmichael",
+   "photo": "https://image.tmdb.org/t/p/w185/fwm0THujqVnPjGeZ1rJndUFZhcP.jpg",
+   "character": "Leida",
+   "episodes": 9
+  },
+  {
+   "id": 93177,
+   "name": "Lee Ross",
+   "photo": "https://image.tmdb.org/t/p/w185/sQNOXntZ677YC9686kUl1NWGP18.jpg",
+   "character": "Kloris",
+   "episodes": 8
+  },
+  {
+   "id": 1260677,
+   "name": "Aidan Cook",
+   "photo": "https://image.tmdb.org/t/p/w185/wer8RvmA47i7QEcXlZXHE3dapYj.jpg",
+   "character": "Alien Bailiff (voice) / Doctor Quadpaw / KX Unit (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 3093534,
+   "name": "Ella Pellegrini",
+   "photo": "https://image.tmdb.org/t/p/w185/bgk2u6mGNGUeJnQxfCqA6lmRirg.jpg",
+   "character": "Dreena",
+   "episodes": 8
+  },
+  {
+   "id": 11280,
+   "name": "Ben Miles",
+   "photo": "https://image.tmdb.org/t/p/w185/mT3BqoFUkyktXLvefQA6VxaGHJz.jpg",
+   "character": "Tay Kolma",
+   "episodes": 7
+  },
+  {
+   "id": 176227,
+   "name": "Richard Dillane",
+   "photo": "https://image.tmdb.org/t/p/w185/4DVdlTFkhPlERFyFoeH6UoXb2un.jpg",
+   "character": "Davo Sculdun",
+   "episodes": 7
+  }
+ ],
+ "crew": [
+  {
+   "id": 19242,
+   "name": "Tony Gilroy",
+   "photo": "https://image.tmdb.org/t/p/w185/p0F3AoDTO3cEU2vnMzL9J4YuXNA.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1533516,
+   "name": "Nicholas Britell",
+   "photo": "https://image.tmdb.org/t/p/w185/AruRbW6IEk09KCFokffFecZIzZU.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 1230430,
+   "name": "Toby Haynes",
+   "photo": "https://image.tmdb.org/t/p/w185/dGYjPeDbn6hlUhzxlWSdCSpZnw4.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1729808,
+   "name": "Michelle Rejwan",
+   "photo": "https://image.tmdb.org/t/p/w185/jlr73lBzzxzCTBnIKTnTMDVP40y.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 67810,
+   "name": "John Gilroy",
+   "photo": "https://image.tmdb.org/t/p/w185/69tisbFpCtto4gPw4seJ8en7C1q.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 489,
+   "name": "Kathleen Kennedy",
+   "photo": "https://image.tmdb.org/t/p/w185/ndgYlie0PHkyqEiEBGM8SqrPOkr.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1213459,
+   "name": "Sanne Wohlenberg",
+   "photo": "https://image.tmdb.org/t/p/w185/eHwHwjxS6xH8lPiZ1h0fko5lMZq.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 8688,
+   "name": "Diego Luna",
+   "photo": "https://image.tmdb.org/t/p/w185/qwbjcyDN37OHiln4a6P4LP31o7F.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1162830,
+   "name": "Luke Hull",
+   "photo": "https://image.tmdb.org/t/p/w185/xe3PPk6oE3e0St7r4g4sYky1GTJ.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1374340,
+   "name": "Brandon Roberts",
+   "photo": "https://image.tmdb.org/t/p/w185/cbe1bPDOS8jmbopA6Mz4YZIGrB1.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1389816,
+   "name": "Ariel Kleiman",
+   "photo": "https://image.tmdb.org/t/p/w185/2lzYNItB5z5oZJ6RJxBeLMnYGB5.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 64817,
+   "name": "Beau Willimon",
+   "photo": "https://image.tmdb.org/t/p/w185/8BTQK12ibYIWPAPSkQktsTnrX99.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 57113,
+   "name": "Dan Gilroy",
+   "photo": "https://image.tmdb.org/t/p/w185/am569DiWC0blnbM98ZphiwBItsS.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 118606,
+   "name": "Janus Metz",
+   "photo": "https://image.tmdb.org/t/p/w185/nF7PSaUIufGNNYUpgo2arPxMp0D.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 113600,
+   "name": "Susanna White",
+   "photo": "https://image.tmdb.org/t/p/w185/clkJ2IVpaJSFIW7ROvURETtykhU.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 136505,
+   "name": "Benjamin Caron",
+   "photo": "https://image.tmdb.org/t/p/w185/87MIhTWrhTCX66u1GBcTcGRwhru.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:33.282Z"
+}

@@ -1,0 +1,325 @@
+{
+ "show": "The Critic",
+ "slug": "the-critic",
+ "tmdbId": 1839,
+ "cast": [
+  {
+   "id": 16165,
+   "name": "Jon Lovitz",
+   "photo": "https://image.tmdb.org/t/p/w185/jBXSLoDEVwYkNqSVWHV9yDo8whA.jpg",
+   "character": "Jay Sherman (voice)",
+   "episodes": 23
+  },
+  {
+   "id": 58136,
+   "name": "Christine Cavanaugh",
+   "photo": "https://image.tmdb.org/t/p/w185/8fDGffuBfbMTRTALHpSQQvuzSuO.jpg",
+   "character": "Marty Sherman (voice)",
+   "episodes": 23
+  },
+  {
+   "id": 16119,
+   "name": "Charles Napier",
+   "photo": "https://image.tmdb.org/t/p/w185/w16LEJlHDtqGWeFCk5a7a2GDeBK.jpg",
+   "character": "Duke Phillips (voice)",
+   "episodes": 23
+  },
+  {
+   "id": 19239,
+   "name": "Judith Ivey",
+   "photo": "https://image.tmdb.org/t/p/w185/yaeKvc55qRoE3snY5axr86dQnHp.jpg",
+   "character": "Eleanor Sherman (voice)",
+   "episodes": 23
+  },
+  {
+   "id": 26283,
+   "name": "Gerrit Graham",
+   "photo": "https://image.tmdb.org/t/p/w185/itz1a5P3RxCt8BySFbMxKCQ5yeZ.jpg",
+   "character": "Franklin Sherman (voice)",
+   "episodes": 23
+  },
+  {
+   "id": 200,
+   "name": "Nancy Cartwright",
+   "photo": "https://image.tmdb.org/t/p/w185/kJQEz3NAwHGdb2sQzAnBf1RmMV4.jpg",
+   "character": "Margo Sherman (voice)",
+   "episodes": 23
+  },
+  {
+   "id": 1213763,
+   "name": "Doris Grau",
+   "photo": null,
+   "character": "Doris Grossman (voice)",
+   "episodes": 23
+  },
+  {
+   "id": 34521,
+   "name": "Maurice LaMarche",
+   "photo": "https://image.tmdb.org/t/p/w185/qCiL3EYAhLcNo0rNj5pczWo9MwG.jpg",
+   "character": "Jeremy Hawke (voice)",
+   "episodes": 23
+  },
+  {
+   "id": 39214,
+   "name": "Nick Jameson",
+   "photo": "https://image.tmdb.org/t/p/w185/rOvaOcNigOLPeZkAFipAwBEJQF6.jpg",
+   "character": "Vlada Veramirovich (voice)",
+   "episodes": 23
+  },
+  {
+   "id": 14704,
+   "name": "Park Overall",
+   "photo": "https://image.tmdb.org/t/p/w185/fKl0zP4HuzMPxTvXZqDGHpN6U.jpg",
+   "character": "Alice Tompkins (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 6035,
+   "name": "Russi Taylor",
+   "photo": "https://image.tmdb.org/t/p/w185/r79GVF7LyBExJP7cRMob8QQZ6IU.jpg",
+   "character": "Penny Tompkins (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 34983,
+   "name": "Tress MacNeille",
+   "photo": "https://image.tmdb.org/t/p/w185/gI2LsgByvSffQY34vabVnPmrHzw.jpg",
+   "character": "(voice)",
+   "episodes": 7
+  },
+  {
+   "id": 30585,
+   "name": "Brenda Vaccaro",
+   "photo": "https://image.tmdb.org/t/p/w185/p2DWvZUUX9iucoBAnccdRg0mPLv.jpg",
+   "character": "Ardeth (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 2692655,
+   "name": "Gene Shalit",
+   "photo": "https://image.tmdb.org/t/p/w185/oq9UWYlAFpwKlGnnhI3za6fahRt.jpg",
+   "character": "Gene Shalit (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 24203,
+   "name": "Rhea Perlman",
+   "photo": "https://image.tmdb.org/t/p/w185/4S4PdeHea2pePiWHy8MlDODZRLP.jpg",
+   "character": "Ardeth (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 1227454,
+   "name": "Rex Reed",
+   "photo": "https://image.tmdb.org/t/p/w185/h0QLkKFcKKbBmWUjukeX2WDrfTW.jpg",
+   "character": "Rex Reed (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 1227456,
+   "name": "Jimmy Breslin",
+   "photo": null,
+   "character": "Jimmy Breslin (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 14414,
+   "name": "Kareem Abdul-Jabbar",
+   "photo": "https://image.tmdb.org/t/p/w185/aMbhI6nWjU3MkUhw9IIKnJz7UiX.jpg",
+   "character": "Kareem Abdul-Jabbar (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 1214166,
+   "name": "Michael Carrington",
+   "photo": "https://image.tmdb.org/t/p/w185/tk2OT9ACSq26XEQH0zH7CEkDVyd.jpg",
+   "character": "Spike Lee (voice) / Hoke (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 59070,
+   "name": "Morwenna Banks",
+   "photo": "https://image.tmdb.org/t/p/w185/oraLxvDNim7ixQEcJz9nVqgy0eT.jpg",
+   "character": "Olivia Hawke (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 823,
+   "name": "Jennifer Lien",
+   "photo": "https://image.tmdb.org/t/p/w185/5wafpjORY55TY5OC6d9Cyb36O2r.jpg",
+   "character": "Valerie Fox (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 13997,
+   "name": "June Lockhart",
+   "photo": "https://image.tmdb.org/t/p/w185/xTETf5AXFEyzmxOTBwyCUzi8fK3.jpg",
+   "character": "June Lockhart (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 178107,
+   "name": "Rod McKuen",
+   "photo": "https://image.tmdb.org/t/p/w185/l5dk5dZzDMIhaZKnCshXKCC3Lpy.jpg",
+   "character": "Rod McKuen (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 1188972,
+   "name": "Geraldo Rivera",
+   "photo": "https://image.tmdb.org/t/p/w185/sQV32b14pRkDoD11QzlyS51aTLA.jpg",
+   "character": "Geraldo Rivera (voice)",
+   "episodes": 1
+  }
+ ],
+ "crew": [
+  {
+   "id": 6056,
+   "name": "Mike Reiss",
+   "photo": "https://image.tmdb.org/t/p/w185/5ERCr9k2ycwpg4IYUgFyJFqOBfd.jpg",
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 162931,
+   "name": "Al Jean",
+   "photo": "https://image.tmdb.org/t/p/w185/hoa1W0dwWBBf6Pqm2Ye1y3larnb.jpg",
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1216560,
+   "name": "Bret Haaland",
+   "photo": "https://image.tmdb.org/t/p/w185/rifsF5YLlGzxTOzNJWvQh1GchFN.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1214800,
+   "name": "Lauren MacMullan",
+   "photo": "https://image.tmdb.org/t/p/w185/1K55bVLf94SdhCvrti5QW0GRMr0.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1215616,
+   "name": "Steve Tompkins",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1217856,
+   "name": "Alan Smart",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 2009173,
+   "name": "Dan Jeup",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 165787,
+   "name": "Rich Moore",
+   "photo": "https://image.tmdb.org/t/p/w185/oIAmkZf9LuJuMqR8zSchoD3FJT8.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 239,
+   "name": "Jon Vitti",
+   "photo": "https://image.tmdb.org/t/p/w185/rRk3EAiddu2veO3u8NwwV3U1oGR.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1216653,
+   "name": "Patric M. Verrone",
+   "photo": "https://image.tmdb.org/t/p/w185/1IaB8tqRMButdyY4qM09o8c48g4.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1216644,
+   "name": "Ken Keeler",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 3455856,
+   "name": "Richard Doctorow",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 66512,
+   "name": "Tom Brady",
+   "photo": "https://image.tmdb.org/t/p/w185/1JaIHowdrHRvfLt6VE3efu7pz9H.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1554416,
+   "name": "David Cutler",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1218546,
+   "name": "Brian Sheesley",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 97262,
+   "name": "Jennifer Ventimilia",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:29:45.035Z"
+}

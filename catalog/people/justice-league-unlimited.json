@@ -1,0 +1,329 @@
+{
+ "show": "Justice League Unlimited",
+ "slug": "justice-league-unlimited",
+ "tmdbId": 84200,
+ "cast": [
+  {
+   "id": 34947,
+   "name": "Kevin Conroy",
+   "photo": "https://image.tmdb.org/t/p/w185/zvWhAwO2l8Kb5IJTwTbKzURypg7.jpg",
+   "character": "Batman (voice)",
+   "episodes": 39
+  },
+  {
+   "id": 59222,
+   "name": "George Newbern",
+   "photo": "https://image.tmdb.org/t/p/w185/1Xx0K3KGqxyIpL6o2eVQKui86jS.jpg",
+   "character": "Superman (voice)",
+   "episodes": 39
+  },
+  {
+   "id": 112043,
+   "name": "Susan Eisenberg",
+   "photo": "https://image.tmdb.org/t/p/w185/Ak63eUqvD7PvehBkpd00pcHaGFE.jpg",
+   "character": "Wonder Woman (voice)",
+   "episodes": 39
+  },
+  {
+   "id": 29382,
+   "name": "Carl Lumbly",
+   "photo": "https://image.tmdb.org/t/p/w185/ew1URcenWNl1Uclsz9ADiRb0uBD.jpg",
+   "character": "J'onn J'onzz (voice)",
+   "episodes": 39
+  },
+  {
+   "id": 31549,
+   "name": "Phil LaMarr",
+   "photo": "https://image.tmdb.org/t/p/w185/xP2kNlsmXtzXq0geutflO4K9mSE.jpg",
+   "character": "Green Lantern (voice)",
+   "episodes": 39
+  },
+  {
+   "id": 6574,
+   "name": "Clancy Brown",
+   "photo": "https://image.tmdb.org/t/p/w185/1JeBRNG7VS7r64V9lOvej9bZXW5.jpg",
+   "character": "Lex Luthor (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 19975,
+   "name": "Michael Rosenbaum",
+   "photo": "https://image.tmdb.org/t/p/w185/ymiZjRwcS3gcCtsfv4w3GjRc2yc.jpg",
+   "character": "Deadshot (voice) / The Flash (voice) / Ghoul (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 85759,
+   "name": "Maria Canals-Barrera",
+   "photo": "https://image.tmdb.org/t/p/w185/bqlwEfG1oczOW0f8tsJ31lbIfPo.jpg",
+   "character": "Hawkgirl (voice) / Fire (voice) / Shayera Hol (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 30485,
+   "name": "CCH Pounder",
+   "photo": "https://image.tmdb.org/t/p/w185/yLOU0qA5MwJyoKMc0e4HyZz4oFV.jpg",
+   "character": "Amanda Waller (voice) / Amanda Waller / Juice (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 70422,
+   "name": "Kin Shriner",
+   "photo": "https://image.tmdb.org/t/p/w185/qWnX1bbfl3J9ahqRZZwvPHokMDq.jpg",
+   "character": "Green Arrow (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 571309,
+   "name": "Lex Lang",
+   "photo": "https://image.tmdb.org/t/p/w185/hrgjiwtrnI6meAg2Q1eTGpyTrDX.jpg",
+   "character": "Captain Cold (voice) / Thug Leader (voice) / Nardoc / Angry Patron (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 81667,
+   "name": "Jennifer Hale",
+   "photo": "https://image.tmdb.org/t/p/w185/oNQCrdiSm0mABCcE5YaHwuZQK8X.jpg",
+   "character": "Giganta (voice) / Zatanna (voice) / Killer Frost (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 35241,
+   "name": "Nicholle Tom",
+   "photo": "https://image.tmdb.org/t/p/w185/wt0yMc6HE4BluslbJ7aHbAoAr3Y.jpg",
+   "character": "Supergirl / Kara (voice) / Supergirl (voice) / Kara / Tea (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 7137,
+   "name": "Juliet Landau",
+   "photo": "https://image.tmdb.org/t/p/w185/fxLW9OteJEO2MGVaNc3oDL0EjR0.jpg",
+   "character": "Plastique (voice) / Tala (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 87118,
+   "name": "Michael Beach",
+   "photo": "https://image.tmdb.org/t/p/w185/7gCBCpK2OSzuUWk5iTZds9NjqkF.jpg",
+   "character": "Mr. Terrific (voice) / Devil Ray (voice) / Commander (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 2962,
+   "name": "Robert Foxworth",
+   "photo": "https://image.tmdb.org/t/p/w185/bBg01x7PFToWlMVhZBjfEbP9pOD.jpg",
+   "character": "Professor Hamilton (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 136930,
+   "name": "Chris Cox",
+   "photo": "https://image.tmdb.org/t/p/w185/sdLuGpLB0g5AtEr9VVnAqtIbZPt.jpg",
+   "character": "Captain Atom (voice) / Shining Knight (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 35219,
+   "name": "Corey Burton",
+   "photo": "https://image.tmdb.org/t/p/w185/wcpFwdL7m01cZoBJiUSMQVakK2G.jpg",
+   "character": "Brainiac (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 18999,
+   "name": "J.K. Simmons",
+   "photo": "https://image.tmdb.org/t/p/w185/ScmKoJ9eiSUOthAt1PDNLi8Fkw.jpg",
+   "character": "General Eiling (voice) / Eiling (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 27993,
+   "name": "Jeffrey Combs",
+   "photo": "https://image.tmdb.org/t/p/w185/dfWcxKNsyGuN18GjWkbOmMhO4c9.jpg",
+   "character": "The Question (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 9576,
+   "name": "Gina Torres",
+   "photo": "https://image.tmdb.org/t/p/w185/ukDNHgvEgdU95eaw6pngiAPucv4.jpg",
+   "character": "Vixen (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 6280,
+   "name": "Powers Boothe",
+   "photo": "https://image.tmdb.org/t/p/w185/xj3DBMqnEnyYfHEBcRHOxlpbQS4.jpg",
+   "character": "Gorilla Grodd (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 65002,
+   "name": "Dana Delany",
+   "photo": "https://image.tmdb.org/t/p/w185/sUzs7I87K4wSvLD7TjoYH6avRrL.jpg",
+   "character": "Loana (voice) / Lois Lane (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 81133,
+   "name": "Amy Acker",
+   "photo": "https://image.tmdb.org/t/p/w185/9lpLwfscOoG4jyYIH761SRnm09U.jpg",
+   "character": "The Huntress (voice)",
+   "episodes": 4
+  }
+ ],
+ "crew": [
+  {
+   "id": 105644,
+   "name": "Dwayne McDuffie",
+   "photo": "https://image.tmdb.org/t/p/w185/g72XJpetIstOArmmDKq5pHjfPTy.jpg",
+   "jobs": [
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 23
+  },
+  {
+   "id": 89596,
+   "name": "Joaquim Dos Santos",
+   "photo": "https://image.tmdb.org/t/p/w185/w45GPb3cW6TqPw4FxB5Hc6zzAwx.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 34921,
+   "name": "Dan Riba",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 1219302,
+   "name": "Matt Wayne",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1220917,
+   "name": "J. M. DeMatteis",
+   "photo": "https://image.tmdb.org/t/p/w185/cYtMwZr5TXF1FCTtLM8IK4EPKQf.jpg",
+   "jobs": [
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 34931,
+   "name": "Stan Berkowitz",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 212618,
+   "name": "Bob Goodman",
+   "photo": null,
+   "jobs": [
+    "Teleplay"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 34934,
+   "name": "Bruce Timm",
+   "photo": "https://image.tmdb.org/t/p/w185/4G64qCUGFQ1Sfwa6MK7CzwAaHyL.jpg",
+   "jobs": [
+    "Story"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1211813,
+   "name": "Paul Dini",
+   "photo": "https://image.tmdb.org/t/p/w185/yPRds0jAYIU1OETfZuwka5ro7lE.jpg",
+   "jobs": [
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 211962,
+   "name": "Geoff Johns",
+   "photo": "https://image.tmdb.org/t/p/w185/1hiQjkIkeFoiwvD4yIk2Dq6tnOa.jpg",
+   "jobs": [
+    "Teleplay"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1246236,
+   "name": "Jim Steranko",
+   "photo": null,
+   "jobs": [
+    "Story"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 113902,
+   "name": "Gail Simone",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1233653,
+   "name": "Darwyn Cooke",
+   "photo": null,
+   "jobs": [
+    "Teleplay"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 89597,
+   "name": "Warren Ellis",
+   "photo": "https://image.tmdb.org/t/p/w185/wBaDI3Q4oCxNddqiHjuwah9Gmzv.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1216615,
+   "name": "Andrew Kreisberg",
+   "photo": "https://image.tmdb.org/t/p/w185/dm1kNRSLuPKYW4X1CPdO50cqyYJ.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 141490,
+   "name": "Ron Zimmerman",
+   "photo": null,
+   "jobs": [
+    "Story"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:29:28.217Z"
+}

@@ -1,0 +1,336 @@
+{
+ "show": "The Good Doctor",
+ "slug": "the-good-doctor",
+ "tmdbId": 71712,
+ "cast": [
+  {
+   "id": 1281,
+   "name": "Freddie Highmore",
+   "photo": "https://image.tmdb.org/t/p/w185/9larfGVg8ALIVFkr7cZzv4Emh1F.jpg",
+   "character": "Dr. Shaun Murphy",
+   "episodes": 126
+  },
+  {
+   "id": 31028,
+   "name": "Richard Schiff",
+   "photo": "https://image.tmdb.org/t/p/w185/1kg1X6OWRuMdBBYqZLQ6UqMlEPC.jpg",
+   "character": "Dr. Aaron Glassman",
+   "episodes": 126
+  },
+  {
+   "id": 57686,
+   "name": "Hill Harper",
+   "photo": "https://image.tmdb.org/t/p/w185/cgaRPrgB4DBxogIgiLwuABVmJVw.jpg",
+   "character": "Dr. Marcus Andrews",
+   "episodes": 116
+  },
+  {
+   "id": 1215689,
+   "name": "Christina Chang",
+   "photo": "https://image.tmdb.org/t/p/w185/5e8zzySBeJzozWJixt3E2HmZSv1.jpg",
+   "character": "Dr. Audrey Lim",
+   "episodes": 115
+  },
+  {
+   "id": 1454610,
+   "name": "Paige Spara",
+   "photo": "https://image.tmdb.org/t/p/w185/elcx21E3X5xBjW31gXBJnWTSvYX.jpg",
+   "character": "Lea Dilallo",
+   "episodes": 114
+  },
+  {
+   "id": 1233749,
+   "name": "Fiona Gubelmann",
+   "photo": "https://image.tmdb.org/t/p/w185/c80VyX8RyupJXb7EqTxHNHtN4Cn.jpg",
+   "character": "Dr. Morgan Reznick",
+   "episodes": 113
+  },
+  {
+   "id": 10884,
+   "name": "Will Yun Lee",
+   "photo": "https://image.tmdb.org/t/p/w185/zR29E2BHrp6PF7bxD6bVq0nDZXm.jpg",
+   "character": "Dr. Alex Park",
+   "episodes": 112
+  },
+  {
+   "id": 221981,
+   "name": "Antonia Thomas",
+   "photo": "https://image.tmdb.org/t/p/w185/ybmnPYUzcr3RMdaXnZIw2jEw9ju.jpg",
+   "character": "Dr. Claire Browne",
+   "episodes": 80
+  },
+  {
+   "id": 2601751,
+   "name": "Bria Samoné Henderson",
+   "photo": "https://image.tmdb.org/t/p/w185/b2Zi6Hb6SLLunl3Ndr9OLz8bTld.jpg",
+   "character": "Dr. Jordan Allen",
+   "episodes": 66
+  },
+  {
+   "id": 1472747,
+   "name": "Noah Galvin",
+   "photo": "https://image.tmdb.org/t/p/w185/wKGpfo1BHeNMvFVGVJjGqOgiaMh.jpg",
+   "character": "Dr. Asher Wolke",
+   "episodes": 65
+  },
+  {
+   "id": 61852,
+   "name": "Nicholas Gonzalez",
+   "photo": "https://image.tmdb.org/t/p/w185/qS42BcrFb6MqfdWxq2QgrwDuwP.jpg",
+   "character": "Dr. Neil Melendez",
+   "episodes": 58
+  },
+  {
+   "id": 203639,
+   "name": "Elfina Luk",
+   "photo": "https://image.tmdb.org/t/p/w185/tRiLbmjqqF7vMEnFsGLyQqxCIZV.jpg",
+   "character": "Dalisay Villanueva",
+   "episodes": 53
+  },
+  {
+   "id": 1610710,
+   "name": "Chuku Modu",
+   "photo": "https://image.tmdb.org/t/p/w185/taoknxCAJcuzn71YKbCqc4hsYyR.jpg",
+   "character": "Dr. Jared Kalu",
+   "episodes": 36
+  },
+  {
+   "id": 1680899,
+   "name": "April Cameron",
+   "photo": "https://image.tmdb.org/t/p/w185/vijBJMDS1Rsb6XNcyAuAnzQPGB.jpg",
+   "character": "Alyssa Hawks",
+   "episodes": 31
+  },
+  {
+   "id": 3134,
+   "name": "Tamlyn Tomita",
+   "photo": "https://image.tmdb.org/t/p/w185/59QCb2Ox7lG9KuHrG53ZGanh4T3.jpg",
+   "character": "Allegra Aoki",
+   "episodes": 30
+  },
+  {
+   "id": 1222945,
+   "name": "Jasika Nicole",
+   "photo": "https://image.tmdb.org/t/p/w185/8Mh5BqATLCqCK1BVcu1icJsRsds.jpg",
+   "character": "Dr. Carly Lever",
+   "episodes": 26
+  },
+  {
+   "id": 33049,
+   "name": "Giacomo Baessato",
+   "photo": "https://image.tmdb.org/t/p/w185/69YI4Lo5P6GR5zp1c8ynFqW4lrh.jpg",
+   "character": "Jerome Martel",
+   "episodes": 25
+  },
+  {
+   "id": 51800,
+   "name": "Teryl Rothery",
+   "photo": "https://image.tmdb.org/t/p/w185/fB3XmJ4PRMGo28LxbvTHuYyL3gi.jpg",
+   "character": "Jen Lancaster",
+   "episodes": 24
+  },
+  {
+   "id": 1711179,
+   "name": "Brandon Larracuente",
+   "photo": "https://image.tmdb.org/t/p/w185/fpyAr0bxgSsmNXkDUeg1ASEjU7n.jpg",
+   "character": "Dr. Daniel Pérez",
+   "episodes": 23
+  },
+  {
+   "id": 937314,
+   "name": "Osvaldo Benavides",
+   "photo": "https://image.tmdb.org/t/p/w185/unlKWACoUgegUUA4p4zkMmkJkya.jpg",
+   "character": "Mateo Rendón Osma",
+   "episodes": 20
+  },
+  {
+   "id": 20403,
+   "name": "Beau Garrett",
+   "photo": "https://image.tmdb.org/t/p/w185/Avwi2Brbb6GgxrU337u6zAbGvj.jpg",
+   "character": "Jessica Preston",
+   "episodes": 19
+  },
+  {
+   "id": 68109,
+   "name": "Sheila Kelley",
+   "photo": "https://image.tmdb.org/t/p/w185/hM7V57prIElCPiPFuPQOWWFKmZA.jpg",
+   "character": "Debbie Wexler",
+   "episodes": 14
+  },
+  {
+   "id": 58395,
+   "name": "Karin Konoval",
+   "photo": "https://image.tmdb.org/t/p/w185/5e8YyNQjWre2UbExYBlJ7zva934.jpg",
+   "character": "Deena Petringa",
+   "episodes": 13
+  },
+  {
+   "id": 1090397,
+   "name": "Juliana Wimbles",
+   "photo": "https://image.tmdb.org/t/p/w185/bO3V0d7H9hwtIbO9iBe1D7UVpAR.jpg",
+   "character": "EMT #3 / Paramedic #1 / EMT #1",
+   "episodes": 13
+  }
+ ],
+ "crew": [
+  {
+   "id": 169061,
+   "name": "David Shore",
+   "photo": "https://image.tmdb.org/t/p/w185/5xVWN3KCGtGjGkEIrHqHrx8UikG.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 126
+  },
+  {
+   "id": 1213545,
+   "name": "Mike Listo",
+   "photo": "https://image.tmdb.org/t/p/w185/5fbVFsobCvTgC14WQkPI1O3knsk.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 126
+  },
+  {
+   "id": 18307,
+   "name": "Daniel Dae Kim",
+   "photo": "https://image.tmdb.org/t/p/w185/AtKRWsC4UhEjzorWlL2eguzZ9XM.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 126
+  },
+  {
+   "id": 2417650,
+   "name": "Erin Gunn",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 126
+  },
+  {
+   "id": 1767370,
+   "name": "Sebastian Lee",
+   "photo": "https://image.tmdb.org/t/p/w185/pPokpQl0kTUF1siFPljIrY35zHG.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 126
+  },
+  {
+   "id": 1767367,
+   "name": "David Kim",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 126
+  },
+  {
+   "id": 1155140,
+   "name": "Dan Romer",
+   "photo": "https://image.tmdb.org/t/p/w185/cOoq9WBHzuZ3L3BmPvUBiB7c67x.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 126
+  },
+  {
+   "id": 1223966,
+   "name": "Thomas L. Moran",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 52873,
+   "name": "David Hoselton",
+   "photo": "https://image.tmdb.org/t/p/w185/88QzwxOxpP6Yf5BUC07YcJ65yQE.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 1218783,
+   "name": "Liz Friedman",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 2430218,
+   "name": "David Renaud",
+   "photo": "https://image.tmdb.org/t/p/w185/bxWlQDlAbNyeqguwVWAH1yR00IG.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 1372075,
+   "name": "Jessica Grasl",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1205470,
+   "name": "Adam Scott Weissman",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 2417654,
+   "name": "Tracy Taylor",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1223964,
+   "name": "Peter Blake",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 2203995,
+   "name": "Mark Rozeman",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 8
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:49.095Z"
+}

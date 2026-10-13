@@ -1,0 +1,301 @@
+{
+ "show": "Red Dwarf",
+ "slug": "red-dwarf",
+ "tmdbId": 326,
+ "cast": [
+  {
+   "id": 137024,
+   "name": "Craig Charles",
+   "photo": "https://image.tmdb.org/t/p/w185/91wCJbGDEKzT7G35X04PdKIOKFS.jpg",
+   "character": "Dave Lister",
+   "episodes": 73
+  },
+  {
+   "id": 115787,
+   "name": "Danny John-Jules",
+   "photo": "https://image.tmdb.org/t/p/w185/bQx3j5tMTohmjoUgnFTn1p9RDHl.jpg",
+   "character": "Cat",
+   "episodes": 73
+  },
+  {
+   "id": 20511,
+   "name": "Chris Barrie",
+   "photo": "https://image.tmdb.org/t/p/w185/210iRxlqUWjCulX9HhkywDuG1dR.jpg",
+   "character": "Arnold Rimmer / Ace Rimmer / Arnold Rimmer",
+   "episodes": 68
+  },
+  {
+   "id": 162414,
+   "name": "Robert Llewellyn",
+   "photo": "https://image.tmdb.org/t/p/w185/h5JPeWgRabledCjy0Wh61vAX3a0.jpg",
+   "character": "Kryten",
+   "episodes": 61
+  },
+  {
+   "id": 151830,
+   "name": "Norman Lovett",
+   "photo": "https://image.tmdb.org/t/p/w185/wHjejt9qJoXY4gVXrLLbtUrRaSl.jpg",
+   "character": "Holly",
+   "episodes": 22
+  },
+  {
+   "id": 1215629,
+   "name": "Hattie Hayridge",
+   "photo": "https://image.tmdb.org/t/p/w185/A5N1xeNELOhNsBLKJHwx6z1nOYY.jpg",
+   "character": "Holly / Hilly",
+   "episodes": 19
+  },
+  {
+   "id": 535939,
+   "name": "Chloë Annett",
+   "photo": "https://image.tmdb.org/t/p/w185/wCvUW7mvulYwzxBgXxZE6XsYI7D.jpg",
+   "character": "Kochanski",
+   "episodes": 15
+  },
+  {
+   "id": 33403,
+   "name": "Mac McDonald",
+   "photo": "https://image.tmdb.org/t/p/w185/gejehuptBzsJlPiWKU8B9TTrc7r.jpg",
+   "character": "Captain Hollister",
+   "episodes": 11
+  },
+  {
+   "id": 1066858,
+   "name": "Tony Hawks",
+   "photo": "https://image.tmdb.org/t/p/w185/k4pkJkdMa28p5QuimXlHqzwY7VH.jpg",
+   "character": "Dispensing Machine (voice) / Caligula / The Guide",
+   "episodes": 8
+  },
+  {
+   "id": 95047,
+   "name": "Graham McTavish",
+   "photo": "https://image.tmdb.org/t/p/w185/qpKVz46PkKVaXzthcJO4ldFPdM9.jpg",
+   "character": "Ackerman",
+   "episodes": 5
+  },
+  {
+   "id": 1561568,
+   "name": "Daniel Barker",
+   "photo": null,
+   "character": "Dispensing Machine 402 / Other Voices (voice) / Alien Natural History Presenter (voice) / Lift (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 97889,
+   "name": "Clare Grogan",
+   "photo": "https://image.tmdb.org/t/p/w185/bJu9BAhLJm6K0YBUcU5ndblF8B6.jpg",
+   "character": "Kochanski",
+   "episodes": 4
+  },
+  {
+   "id": 162489,
+   "name": "Jake Wood",
+   "photo": "https://image.tmdb.org/t/p/w185/iT3fgc0L5usXTArJ4hueJN7msDT.jpg",
+   "character": "Kill Crazy",
+   "episodes": 4
+  },
+  {
+   "id": 1211844,
+   "name": "Rupert Bates",
+   "photo": "https://image.tmdb.org/t/p/w185/dSlzSPwXTcIptWpuD9yQFaUNSdr.jpg",
+   "character": "Trout a la Creme / Chef (voice) / Bodyguard / Dispensing Machine (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 1221808,
+   "name": "Paul Bradley",
+   "photo": "https://image.tmdb.org/t/p/w185/1P1NiqYkLIOb3yJDR2yl7VQlvnb.jpg",
+   "character": "Chen",
+   "episodes": 3
+  },
+  {
+   "id": 162398,
+   "name": "Tony Slattery",
+   "photo": "https://image.tmdb.org/t/p/w185/rxW6vimB3DHAXPHmeEYLILBdhJl.jpg",
+   "character": "Brooke (androids) (voice) / Dispensing Machine (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 1214783,
+   "name": "David Ross",
+   "photo": "https://image.tmdb.org/t/p/w185/zzyzQmsVAGMe0VMKoYKPC87KLIS.jpg",
+   "character": "Talkie Toaster (voice) / Kryten",
+   "episodes": 3
+  },
+  {
+   "id": 20999,
+   "name": "Mark Williams",
+   "photo": "https://image.tmdb.org/t/p/w185/gdlEDhxSmPv3hWHbpTuwCI5Jrtk.jpg",
+   "character": "Olaf Petersen",
+   "episodes": 3
+  },
+  {
+   "id": 1817194,
+   "name": "David Gillespie",
+   "photo": null,
+   "character": "Selby",
+   "episodes": 3
+  },
+  {
+   "id": 1828434,
+   "name": "Simon Gaffney",
+   "photo": null,
+   "character": "Young Rimmer",
+   "episodes": 3
+  },
+  {
+   "id": 2029867,
+   "name": "Karl Glenn Stimpson",
+   "photo": null,
+   "character": "MP Thornton",
+   "episodes": 3
+  },
+  {
+   "id": 109834,
+   "name": "Ricky Grover",
+   "photo": "https://image.tmdb.org/t/p/w185/jF8epQaE66IFbzEsQgmGzdGvkSl.jpg",
+   "character": "Baxter",
+   "episodes": 3
+  },
+  {
+   "id": 1223151,
+   "name": "Kika Mirylees",
+   "photo": "https://image.tmdb.org/t/p/w185/rhK8CF7AyPVPXGCPnpIDMdllkXK.jpg",
+   "character": "Doc Newton",
+   "episodes": 2
+  },
+  {
+   "id": 5537,
+   "name": "Sophie Winkleman",
+   "photo": "https://image.tmdb.org/t/p/w185/ZzBZMNSa6uLqZborMEfAaoIcj.jpg",
+   "character": "Katerina",
+   "episodes": 2
+  }
+ ],
+ "crew": [
+  {
+   "id": 1215632,
+   "name": "Doug Naylor",
+   "photo": "https://image.tmdb.org/t/p/w185/fAjUMpMEZmdgk0zxr9iVNUamTqP.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 73
+  },
+  {
+   "id": 1215631,
+   "name": "Rob Grant",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 36
+  },
+  {
+   "id": 16463,
+   "name": "Howard Goodall",
+   "photo": "https://image.tmdb.org/t/p/w185/8uWVPa2mwX4neQj26i2fPrO5DDI.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 73
+  },
+  {
+   "id": 66162,
+   "name": "Ed Bye",
+   "photo": "https://image.tmdb.org/t/p/w185/ryo49xrF9k8OtBlH9rXiYKLDrZd.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 1215634,
+   "name": "Paul Jackson",
+   "photo": "https://image.tmdb.org/t/p/w185/f2aQYwrxnnWBU2mhfjbpZrTSXbx.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 4585,
+   "name": "Henry Normal",
+   "photo": "https://image.tmdb.org/t/p/w185/jb0YWfVTQVyq9yJtT9stdUlUIPn.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 3113808,
+   "name": "Charles Armitage",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 109544,
+   "name": "Andy De Emmony",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1173675,
+   "name": "Paul Alexander",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1231413,
+   "name": "Juliet May",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 162414,
+   "name": "Robert Llewellyn",
+   "photo": "https://image.tmdb.org/t/p/w185/h5JPeWgRabledCjy0Wh61vAX3a0.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 162482,
+   "name": "James Hendrie",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 47976,
+   "name": "Kim Fuller",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:36:17.299Z"
+}

@@ -1,0 +1,340 @@
+{
+ "show": "The Blacklist",
+ "slug": "the-blacklist",
+ "tmdbId": 46952,
+ "cast": [
+  {
+   "id": 13548,
+   "name": "James Spader",
+   "photo": "https://image.tmdb.org/t/p/w185/3gurW3OgDOD4hcqDfgcqUnoNg34.jpg",
+   "character": "Raymond 'Red' Reddington",
+   "episodes": 218
+  },
+  {
+   "id": 142193,
+   "name": "Diego Klattenhoff",
+   "photo": "https://image.tmdb.org/t/p/w185/mpdtCA5birAW89dtkuAdR73wr2H.jpg",
+   "character": "Donald Ressler",
+   "episodes": 218
+  },
+  {
+   "id": 9464,
+   "name": "Harry Lennix",
+   "photo": "https://image.tmdb.org/t/p/w185/kNGiizWpetf4pyAkINkjkWacmCL.jpg",
+   "character": "Harold Cooper",
+   "episodes": 218
+  },
+  {
+   "id": 144583,
+   "name": "Hisham Tawfiq",
+   "photo": "https://image.tmdb.org/t/p/w185/go8XkwY6pbqfUDExs7o1U6O1r5u.jpg",
+   "character": "Dembe Zuma",
+   "episodes": 216
+  },
+  {
+   "id": 164431,
+   "name": "Amir Arison",
+   "photo": "https://image.tmdb.org/t/p/w185/5oecIPqgmQIcB0VEzBJVL9v5YBx.jpg",
+   "character": "Aram Mojtabai",
+   "episodes": 193
+  },
+  {
+   "id": 222141,
+   "name": "Megan Boone",
+   "photo": "https://image.tmdb.org/t/p/w185/pNLQpWTCX7WgNLfR7aYHQDg9Wod.jpg",
+   "character": "Elizabeth Keen",
+   "episodes": 174
+  },
+  {
+   "id": 81839,
+   "name": "Mozhan Navabi",
+   "photo": "https://image.tmdb.org/t/p/w185/s1LoPZVAzgGYuPXNNJv8mqoLMSe.jpg",
+   "character": "Samar Navabi",
+   "episodes": 104
+  },
+  {
+   "id": 1181353,
+   "name": "Ryan Eggold",
+   "photo": "https://image.tmdb.org/t/p/w185/6YZfGMzcugWwMquOIzGlsgx4wYN.jpg",
+   "character": "Tom Keen",
+   "episodes": 89
+  },
+  {
+   "id": 2200292,
+   "name": "Laura Sohn",
+   "photo": "https://image.tmdb.org/t/p/w185/iABra2b6kO0JfHdBnVMROYtkuuM.jpg",
+   "character": "Alina Park",
+   "episodes": 56
+  },
+  {
+   "id": 1913,
+   "name": "Susan Blommaert",
+   "photo": "https://image.tmdb.org/t/p/w185/pAzu79y0zHGaPfZNsT6t2ywTfzs.jpg",
+   "character": "Mr. Kaplan",
+   "episodes": 28
+  },
+  {
+   "id": 58966,
+   "name": "Deirdre Lovejoy",
+   "photo": "https://image.tmdb.org/t/p/w185/8Iv7NcwLcxen5ql8PAkCy9VpsTf.jpg",
+   "character": "Cynthia Panabaker",
+   "episodes": 28
+  },
+  {
+   "id": 1527646,
+   "name": "Jonathan Holtzman",
+   "photo": "https://image.tmdb.org/t/p/w185/jT4N2zn9u8iworAPb9bdzmAopYO.jpg",
+   "character": "Chuck",
+   "episodes": 28
+  },
+  {
+   "id": 2472584,
+   "name": "Diany Rodriguez",
+   "photo": "https://image.tmdb.org/t/p/w185/dGl8pV25xyKaJ1HzQrResfha5jf.jpg",
+   "character": "Weecha Xiu",
+   "episodes": 25
+  },
+  {
+   "id": 2622043,
+   "name": "Anya Banerjee",
+   "photo": "https://image.tmdb.org/t/p/w185/wQXxOrJAP0BCIacCMtraDoZh24Y.jpg",
+   "character": "Siya Malik",
+   "episodes": 22
+  },
+  {
+   "id": 231610,
+   "name": "Parminder Nagra",
+   "photo": "https://image.tmdb.org/t/p/w185/cjhduysHB3hXjzaCyH5VYEXkT1J.jpg",
+   "character": "Meera Malik",
+   "episodes": 22
+  },
+  {
+   "id": 1232538,
+   "name": "Teddy Coluca",
+   "photo": "https://image.tmdb.org/t/p/w185/jszbthMiyZ8KInginQVcuQ8DBuy.jpg",
+   "character": "Teddy Brimley",
+   "episodes": 20
+  },
+  {
+   "id": 1766272,
+   "name": "Genson Blimline",
+   "photo": null,
+   "character": "Morgan",
+   "episodes": 19
+  },
+  {
+   "id": 1752940,
+   "name": "Sami Bray",
+   "photo": "https://image.tmdb.org/t/p/w185/fy6vrFOhpGQ0lc3Kd1fDpndhqBV.jpg",
+   "character": "Agnes Keen",
+   "episodes": 18
+  },
+  {
+   "id": 2007198,
+   "name": "Alex Brightman",
+   "photo": "https://image.tmdb.org/t/p/w185/3QotS4a8RAI1jR6mjWAG4C8HIoq.jpg",
+   "character": "Herbie Hambright",
+   "episodes": 17
+  },
+  {
+   "id": 27260,
+   "name": "Laila Robins",
+   "photo": "https://image.tmdb.org/t/p/w185/ucHMLT7IUaWkd64ZPHtWjqxx8rq.jpg",
+   "character": "Katarina Rostova",
+   "episodes": 16
+  },
+  {
+   "id": 26473,
+   "name": "Fisher Stevens",
+   "photo": "https://image.tmdb.org/t/p/w185/wWC6wbLV56RJGtyytMmmGvi054t.jpg",
+   "character": "Marvin Gerard",
+   "episodes": 15
+  },
+  {
+   "id": 106791,
+   "name": "Aida Turturro",
+   "photo": "https://image.tmdb.org/t/p/w185/kEPpV3eHXOKXGWGtsxUUV6k1hai.jpg",
+   "character": "Heddie Hawkins",
+   "episodes": 13
+  },
+  {
+   "id": 11064,
+   "name": "David Strathairn",
+   "photo": "https://image.tmdb.org/t/p/w185/w5YM2cGefPnkoyIXCi2UrCQW53r.jpg",
+   "character": "Peter Kotsiopulos",
+   "episodes": 12
+  },
+  {
+   "id": 129759,
+   "name": "Reg Rogers",
+   "photo": "https://image.tmdb.org/t/p/w185/3VqnWd3d5BnnxxyAEnQ85mdOaG2.jpg",
+   "character": "Neville Townsend",
+   "episodes": 12
+  }
+ ],
+ "crew": [
+  {
+   "id": 52001,
+   "name": "Jon Bokenkamp",
+   "photo": "https://image.tmdb.org/t/p/w185/dhH9oElislVwxUUyt9jTT7jA3OK.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 218
+  },
+  {
+   "id": 1896838,
+   "name": "Laura Benson",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 262
+  },
+  {
+   "id": 1522988,
+   "name": "John Fox",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 218
+  },
+  {
+   "id": 13548,
+   "name": "James Spader",
+   "photo": "https://image.tmdb.org/t/p/w185/3gurW3OgDOD4hcqDfgcqUnoNg34.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 218
+  },
+  {
+   "id": 1313811,
+   "name": "John Eisendrath",
+   "photo": "https://image.tmdb.org/t/p/w185/wnFhuncDGTTvnxzftf6P3rQhJ0Q.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 218
+  },
+  {
+   "id": 1280070,
+   "name": "Dave Porter",
+   "photo": "https://image.tmdb.org/t/p/w185/flRW9QknVtU8HG7lLjMvflbhl2a.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 218
+  },
+  {
+   "id": 2043,
+   "name": "John Davis",
+   "photo": "https://image.tmdb.org/t/p/w185/kpXOBMUBZe8XpHYk7s0721kjjIk.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 207
+  },
+  {
+   "id": 1254577,
+   "name": "Lukas Reiter",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 206
+  },
+  {
+   "id": 1226600,
+   "name": "J.R. Orci",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 132
+  },
+  {
+   "id": 154623,
+   "name": "Daniel Cerone",
+   "photo": "https://image.tmdb.org/t/p/w185/7tULL0DKkjknISvEd63b4RR263V.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 130
+  },
+  {
+   "id": 587028,
+   "name": "Sean Hennen",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 129
+  },
+  {
+   "id": 2016522,
+   "name": "Allison Glock-Cooper",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 85
+  },
+  {
+   "id": 2016521,
+   "name": "T Cooper",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 85
+  },
+  {
+   "id": 2439376,
+   "name": "Kelli Johnson",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 69
+  },
+  {
+   "id": 1664012,
+   "name": "Taylor Martin",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 57
+  },
+  {
+   "id": 1915008,
+   "name": "Noah Schechter",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 54
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:07.732Z"
+}

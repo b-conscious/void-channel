@@ -1,0 +1,232 @@
+{
+ "show": "Primal",
+ "slug": "primal",
+ "tmdbId": 89456,
+ "cast": [
+  {
+   "id": 1281304,
+   "name": "Aaron LaPlante",
+   "photo": "https://image.tmdb.org/t/p/w185/sMFeRvmNAdlkZUOWKFK6TXOvzXU.jpg",
+   "character": "Constable (voice) / Spear (voice)",
+   "episodes": 30
+  },
+  {
+   "id": 1357722,
+   "name": "Laëtitia Eïdo",
+   "photo": "https://image.tmdb.org/t/p/w185/6AOHS2h4sei7Aq8IqBbXo4o5uGw.jpg",
+   "character": "Mira (voice) / Mira",
+   "episodes": 14
+  },
+  {
+   "id": 60279,
+   "name": "Fred Tatasciore",
+   "photo": "https://image.tmdb.org/t/p/w185/8YCIAGSWcxeTmPfOWMtVjLSwGOH.jpg",
+   "character": "Angry Villager / Mad-Man / Giroud (voice) / Killax / Thag / Brog / Villager 1",
+   "episodes": 6
+  },
+  {
+   "id": 3976053,
+   "name": "Amina Koroma",
+   "photo": "https://image.tmdb.org/t/p/w185/vAb9wjE9n2qseJKeujcxgjyiqfw.jpg",
+   "character": "Ima (voice) / Amara (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 1836598,
+   "name": "Jon Olson",
+   "photo": "https://image.tmdb.org/t/p/w185/crkYY5wcjoDn04BFlkF5WiR3d1A.jpg",
+   "character": "Moleman #3 (voice) / Bathos / Villager 2 / Krog / Shaman (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 83105,
+   "name": "Debra Wilson",
+   "photo": "https://image.tmdb.org/t/p/w185/3anRgUtqohXRNM6HtwGl1ZFgCS8.jpg",
+   "character": "Jabu / Jabu / Jabu's Mom / Daqiq",
+   "episodes": 3
+  },
+  {
+   "id": 6340928,
+   "name": "Tre Mosley",
+   "photo": null,
+   "character": "Symka / Abu / Abu / Amar",
+   "episodes": 3
+  },
+  {
+   "id": 31549,
+   "name": "Phil LaMarr",
+   "photo": "https://image.tmdb.org/t/p/w185/xP2kNlsmXtzXq0geutflO4K9mSE.jpg",
+   "character": "Lu / Ghashim / Lu",
+   "episodes": 2
+  },
+  {
+   "id": 1655072,
+   "name": "Sebastian Vázquez",
+   "photo": "https://image.tmdb.org/t/p/w185/t8STMNRfx8L6ME2bFrNhtmplfUa.jpg",
+   "character": "Shelton (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 78798,
+   "name": "Tom Kenny",
+   "photo": "https://image.tmdb.org/t/p/w185/kftXtExrcoTTjyeYmSXJ0Ogr3R7.jpg",
+   "character": "Monkey #1 / Monkey #2 (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 2403826,
+   "name": "Jacob Dudman",
+   "photo": "https://image.tmdb.org/t/p/w185/xBdCp4g2lsMHB9FgEV8Iopoqu0B.jpg",
+   "character": "Charles / Stevens (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 1040368,
+   "name": "Giles Matthey",
+   "photo": "https://image.tmdb.org/t/p/w185/aoVphKnWthaRKJRrpqOPS1LmUeW.jpg",
+   "character": "Blakely (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 20304,
+   "name": "Jeremy Crutchley",
+   "photo": "https://image.tmdb.org/t/p/w185/cXFWc8L1CyCfzpiBCzmSH5OAzgI.jpg",
+   "character": "Lord Darlington / Bertie (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 23680,
+   "name": "Dee Bradley Baker",
+   "photo": "https://image.tmdb.org/t/p/w185/9oFnToDZWp0I484s7Ua1EzNQQ2m.jpg",
+   "character": "Moleman #2 (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 2860186,
+   "name": "Boise Holmes",
+   "photo": null,
+   "character": "Shaman (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 81663,
+   "name": "Vanessa Marshall",
+   "photo": "https://image.tmdb.org/t/p/w185/yZsWfaiOxaN5MZkWIKPbxz1KKS1.jpg",
+   "character": "Female Leper (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 170317,
+   "name": "Dave Fennoy",
+   "photo": "https://image.tmdb.org/t/p/w185/1azEou77GcmST8hYJmV30PhAyO6.jpg",
+   "character": "Chief",
+   "episodes": 1
+  },
+  {
+   "id": 6342997,
+   "name": "Lilah Tartakovsky",
+   "photo": null,
+   "character": "Spear's Daughter",
+   "episodes": 1
+  }
+ ],
+ "crew": [
+  {
+   "id": 185438,
+   "name": "Genndy Tartakovsky",
+   "photo": "https://image.tmdb.org/t/p/w185/neLR8ws82ezlbhOyUvhtLXwQZWL.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 32
+  },
+  {
+   "id": 1547678,
+   "name": "Joanne Higginbottom",
+   "photo": "https://image.tmdb.org/t/p/w185/c8rs0ZiKa1dORNF61j5GfjbekPH.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 15221,
+   "name": "Tyler Bates",
+   "photo": "https://image.tmdb.org/t/p/w185/vZiif8NFGpzCw5TWbagXIWygQM1.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 60300,
+   "name": "Darrick Bachman",
+   "photo": null,
+   "jobs": [
+    "Story"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 141043,
+   "name": "Sam Register",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1218986,
+   "name": "Bryan Andrews",
+   "photo": "https://image.tmdb.org/t/p/w185/28gfwWcp0961McmxFld5nKdNXV3.jpg",
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1055222,
+   "name": "David Krentz",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 126638,
+   "name": "Mark Andrews",
+   "photo": "https://image.tmdb.org/t/p/w185/1z6t4TK2ZehNZ5gwaN7893aNhJf.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1218983,
+   "name": "Don Shank",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 3118800,
+   "name": "Nagisa Koyama",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:51.607Z"
+}

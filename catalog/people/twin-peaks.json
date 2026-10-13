@@ -1,0 +1,331 @@
+{
+ "show": "Twin Peaks",
+ "slug": "twin-peaks",
+ "tmdbId": 1920,
+ "cast": [
+  {
+   "id": 6677,
+   "name": "Kyle MacLachlan",
+   "photo": "https://image.tmdb.org/t/p/w185/7gNyx8fYAUdOp2jpCEH3dyFbeV.jpg",
+   "character": "Dale Cooper / Dougie Jones / Dale Cooper",
+   "episodes": 48
+  },
+  {
+   "id": 175468,
+   "name": "Michael Horse",
+   "photo": "https://image.tmdb.org/t/p/w185/5111zpfxrX6Udb6rFgWQF2W5wNV.jpg",
+   "character": "Tommy 'Hawk' Hill",
+   "episodes": 44
+  },
+  {
+   "id": 213799,
+   "name": "Harry Goaz",
+   "photo": "https://image.tmdb.org/t/p/w185/oeWNUiLjboZG3UdKr4ZWKDnK3LZ.jpg",
+   "character": "Andy Brennan",
+   "episodes": 39
+  },
+  {
+   "id": 6727,
+   "name": "Kimmy Robertson",
+   "photo": "https://image.tmdb.org/t/p/w185/nZAiIyKFNHfVdgEjvdBIPOb8m0B.jpg",
+   "character": "Lucy Moran / Lucy Brennan / Lucy Brennan (voice)",
+   "episodes": 39
+  },
+  {
+   "id": 6715,
+   "name": "Dana Ashbrook",
+   "photo": "https://image.tmdb.org/t/p/w185/sAR3KoRwOxV9sztnEuTi5nLrTlz.jpg",
+   "character": "Bobby Briggs",
+   "episodes": 37
+  },
+  {
+   "id": 6679,
+   "name": "Richard Beymer",
+   "photo": "https://image.tmdb.org/t/p/w185/q0RQwBRnBFonTgXXDyE7I8MgucV.jpg",
+   "character": "Benjamin Horne",
+   "episodes": 37
+  },
+  {
+   "id": 6714,
+   "name": "Mädchen Amick",
+   "photo": "https://image.tmdb.org/t/p/w185/Af47IaCUF9BYzmGBycZiKjqIwYf.jpg",
+   "character": "Shelly Briggs / Shelly / Shelly Johnson",
+   "episodes": 37
+  },
+  {
+   "id": 152759,
+   "name": "Peggy Lipton",
+   "photo": "https://image.tmdb.org/t/p/w185/kInR5Xfd2NqoxshUitOmM8Qr7SA.jpg",
+   "character": "Norma Jennings",
+   "episodes": 35
+  },
+  {
+   "id": 6717,
+   "name": "James Marshall",
+   "photo": "https://image.tmdb.org/t/p/w185/ieK50VhhwNXx0rgOidaEG3JqrDT.jpg",
+   "character": "James Hurley",
+   "episodes": 35
+  },
+  {
+   "id": 6681,
+   "name": "Sherilyn Fenn",
+   "photo": "https://image.tmdb.org/t/p/w185/dccP3pHxQ66Dg7swNlYRwxIJwyE.jpg",
+   "character": "Audrey Horne",
+   "episodes": 34
+  },
+  {
+   "id": 5616,
+   "name": "Everett McGill",
+   "photo": "https://image.tmdb.org/t/p/w185/nc3IMwRItjFzScYdJWR7MT9p5cW.jpg",
+   "character": "Big Ed Hurley",
+   "episodes": 32
+  },
+  {
+   "id": 6719,
+   "name": "Ray Wise",
+   "photo": "https://image.tmdb.org/t/p/w185/60313U01R1j9eueDBXiIh9o55RQ.jpg",
+   "character": "Leland Palmer / Leland Palmer (archive footage)",
+   "episodes": 32
+  },
+  {
+   "id": 6682,
+   "name": "Warren Frost",
+   "photo": "https://image.tmdb.org/t/p/w185/4W2Ym2m2wh17W0aOrc1XUlG0JDq.jpg",
+   "character": "Will Hayward",
+   "episodes": 31
+  },
+  {
+   "id": 6718,
+   "name": "Jack Nance",
+   "photo": "https://image.tmdb.org/t/p/w185/uYZ2D1gb7lO779L5nDn8XarZSvf.jpg",
+   "character": "Pete Martell / Pete Martell (archive footage)",
+   "episodes": 31
+  },
+  {
+   "id": 6720,
+   "name": "Joan Chen",
+   "photo": "https://image.tmdb.org/t/p/w185/7uMTJpY8B2hufXqmlxJpaUPpcJi.jpg",
+   "character": "Josie Packard (archive footage) / Jocelyn Packard",
+   "episodes": 31
+  },
+  {
+   "id": 6721,
+   "name": "Piper Laurie",
+   "photo": "https://image.tmdb.org/t/p/w185/ccMC4RssRDKU6cz6K7rxiq1t2Hp.jpg",
+   "character": "Catherine Martell (archive footage) / Catherine Martell / Katherine Martell",
+   "episodes": 31
+  },
+  {
+   "id": 6678,
+   "name": "Michael Ontkean",
+   "photo": "https://image.tmdb.org/t/p/w185/gzBtbwSCXVYm3EXtj5VlK7Sbs7c.jpg",
+   "character": "Harry S. Truman",
+   "episodes": 30
+  },
+  {
+   "id": 6684,
+   "name": "Lara Flynn Boyle",
+   "photo": "https://image.tmdb.org/t/p/w185/1VL97IlddM29sypHuI36XY2h5Z2.jpg",
+   "character": "Donna Hayward",
+   "episodes": 30
+  },
+  {
+   "id": 15855,
+   "name": "Wendy Robie",
+   "photo": "https://image.tmdb.org/t/p/w185/g8SGLWjiYasqg4dQhqhLEQbmiJO.jpg",
+   "character": "Nadine Hurley",
+   "episodes": 27
+  },
+  {
+   "id": 6725,
+   "name": "Russ Tamblyn",
+   "photo": "https://image.tmdb.org/t/p/w185/yNy2xvNTGVvFxIQthtxA5md6HDN.jpg",
+   "character": "Dr. Jacoby",
+   "episodes": 22
+  },
+  {
+   "id": 6726,
+   "name": "Sheryl Lee",
+   "photo": "https://image.tmdb.org/t/p/w185/kqAg6YjwTM1l7Ijffl6W3LCreSF.jpg",
+   "character": "Laura Palmer / Carrie Page / Laura Palmer / Laura Palmer / Maddy Ferguson",
+   "episodes": 21
+  },
+  {
+   "id": 15860,
+   "name": "Miguel Ferrer",
+   "photo": "https://image.tmdb.org/t/p/w185/n6VZ8OQmozHmnJQRwR55gBH8Tl0.jpg",
+   "character": "Albert Rosenfield",
+   "episodes": 19
+  },
+  {
+   "id": 1835701,
+   "name": "Al Strobel",
+   "photo": "https://image.tmdb.org/t/p/w185/1DI4eInEK8PbFfN4XdpsU7PzjTl.jpg",
+   "character": "Phillip Gerard / One-Armed Man",
+   "episodes": 18
+  },
+  {
+   "id": 123516,
+   "name": "Catherine E. Coulson",
+   "photo": "https://image.tmdb.org/t/p/w185/4SaHDcYbd5q859LM7kMH3lPweTD.jpg",
+   "character": "The Log Lady / Margaret Lanterman / The Log Lady",
+   "episodes": 18
+  }
+ ],
+ "crew": [
+  {
+   "id": 58837,
+   "name": "Mark Frost",
+   "photo": "https://image.tmdb.org/t/p/w185/oJuLEkHUW7YTTvOGw30NMjMZPvB.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 5602,
+   "name": "David Lynch",
+   "photo": "https://image.tmdb.org/t/p/w185/wwBzRDoIW6Ld64h6OkQ6ImCZKsR.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 5628,
+   "name": "Angelo Badalamenti",
+   "photo": "https://image.tmdb.org/t/p/w185/x80I3W87lIfuPn3A3smVrGSA8Bx.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 9319,
+   "name": "Sabrina S. Sutherland",
+   "photo": "https://image.tmdb.org/t/p/w185/yGzsmRDHPYZntzl8MHwqylOsSrM.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 15795,
+   "name": "Harley Peyton",
+   "photo": "https://image.tmdb.org/t/p/w185/aYUqlLNckOxTZ0cReII6iDFli0Q.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 15797,
+   "name": "Robert Engels",
+   "photo": "https://image.tmdb.org/t/p/w185/1f95RH0vkcI9HA5WaHyyHHSulQO.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 15798,
+   "name": "Lesli Linka Glatter",
+   "photo": "https://image.tmdb.org/t/p/w185/8F13UPsRnXWTDcp8iA3ZXMtfJa3.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1228035,
+   "name": "Barry Pullman",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 8750,
+   "name": "Caleb Deschanel",
+   "photo": "https://image.tmdb.org/t/p/w185/sY2ZKhy94GRy7CK2xseLtC67QjN.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 6592,
+   "name": "Duwayne Dunham",
+   "photo": "https://image.tmdb.org/t/p/w185/tXJrEHJ7QFAewyBOUpIPIMwW42C.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 15858,
+   "name": "Tim Hunter",
+   "photo": "https://image.tmdb.org/t/p/w185/n03G1gCKqxpi6udwINygNiLoGdn.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1077195,
+   "name": "Tina Rathborne",
+   "photo": "https://image.tmdb.org/t/p/w185/ypl3lhAwqfO4FmIwNeAm2miDtLg.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1213162,
+   "name": "Todd Holland",
+   "photo": "https://image.tmdb.org/t/p/w185/2BadWgY9hzJKpiRG63fo6NuE2Xw.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1215145,
+   "name": "Tricia Brock",
+   "photo": "https://image.tmdb.org/t/p/w185/5OV41AzetM5WrJ0zKqmw4mShEk5.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1228038,
+   "name": "Scott Frost",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 13488,
+   "name": "Graeme Clifford",
+   "photo": "https://image.tmdb.org/t/p/w185/mWTh8T8ZaWT7AZBuHGlIa0q2StP.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:31:25.316Z"
+}

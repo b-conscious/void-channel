@@ -1,0 +1,347 @@
+{
+ "show": "Chicago P.D.",
+ "slug": "chicago-p-d",
+ "tmdbId": 58841,
+ "cast": [
+  {
+   "id": 37203,
+   "name": "Jason Beghe",
+   "photo": "https://image.tmdb.org/t/p/w185/hrTwOPWek7nkPJgFhh6inFu7vSS.jpg",
+   "character": "Hank Voight",
+   "episodes": 268
+  },
+  {
+   "id": 1100549,
+   "name": "Marina Squerciati",
+   "photo": "https://image.tmdb.org/t/p/w185/j8OI9j2HUnKCIWgu8DBn7Mm3ryl.jpg",
+   "character": "Kim Burgess",
+   "episodes": 268
+  },
+  {
+   "id": 115730,
+   "name": "Patrick John Flueger",
+   "photo": "https://image.tmdb.org/t/p/w185/gfUmEGjAUwXJOJs0YekWx8aV2ZP.jpg",
+   "character": "Adam Ruzek",
+   "episodes": 268
+  },
+  {
+   "id": 26930,
+   "name": "Amy Morton",
+   "photo": "https://image.tmdb.org/t/p/w185/2qLHQpxvFMlMKf7qeBKGRTsJF4S.jpg",
+   "character": "Trudy Platt",
+   "episodes": 268
+  },
+  {
+   "id": 1261395,
+   "name": "LaRoyce Hawkins",
+   "photo": "https://image.tmdb.org/t/p/w185/vdBrE8uJNo8u0HZKudnctQ6gdOx.jpg",
+   "character": "Kevin Atwater",
+   "episodes": 266
+  },
+  {
+   "id": 1011102,
+   "name": "Jesse Lee Soffer",
+   "photo": "https://image.tmdb.org/t/p/w185/gVEaHfRNwChrtdGdgPLcFg6MLFI.jpg",
+   "character": "Jay Halstead",
+   "episodes": 190
+  },
+  {
+   "id": 208678,
+   "name": "Tracy Spiridakos",
+   "photo": "https://image.tmdb.org/t/p/w185/2OOEob2qdh8Mhvt5vV1RdLyZD4L.jpg",
+   "character": "Hailey Upton",
+   "episodes": 141
+  },
+  {
+   "id": 288,
+   "name": "Jon Seda",
+   "photo": "https://image.tmdb.org/t/p/w185/4Wwgtvieu2j4f6AHqUMgnDFufa5.jpg",
+   "character": "Antonio Dawson",
+   "episodes": 113
+  },
+  {
+   "id": 13550,
+   "name": "Elias Koteas",
+   "photo": "https://image.tmdb.org/t/p/w185/luevjlGy0tYQbAbcz0mVxCYqegH.jpg",
+   "character": "Alvin Olinsky",
+   "episodes": 107
+  },
+  {
+   "id": 54830,
+   "name": "Sophia Bush",
+   "photo": "https://image.tmdb.org/t/p/w185/dm4s2L4bChDZFIpjV01ELeNl05W.jpg",
+   "character": "Erin Lindsay",
+   "episodes": 84
+  },
+  {
+   "id": 1848255,
+   "name": "Benjamin Levy Aguilar",
+   "photo": "https://image.tmdb.org/t/p/w185/gD36ZUV6enndS1MvWlApmSsFT7z.jpg",
+   "character": "Franco Chavaro / Officer Dante Torres",
+   "episodes": 84
+  },
+  {
+   "id": 49271,
+   "name": "Brian Geraghty",
+   "photo": "https://image.tmdb.org/t/p/w185/4sqeUc4xYyzQ3Qpl5oxlQBTAAQk.jpg",
+   "character": "Sean Roman",
+   "episodes": 47
+  },
+  {
+   "id": 1331112,
+   "name": "Samuel Hunt",
+   "photo": "https://image.tmdb.org/t/p/w185/6bqJIYAw2PpJvCTfuc4EO2T26LV.jpg",
+   "character": "Greg 'Mouse' Gerwitz",
+   "episodes": 35
+  },
+  {
+   "id": 1521411,
+   "name": "Arienne Mandi",
+   "photo": "https://image.tmdb.org/t/p/w185/sQ57ecBQs1mkB1L3AEBnq9xJixz.jpg",
+   "character": "Officer Eva Imani",
+   "episodes": 25
+  },
+  {
+   "id": 2220238,
+   "name": "Ramona Edith Williams",
+   "photo": "https://image.tmdb.org/t/p/w185/AkOOexzUlu9XqB244XpgUAcpoHy.jpg",
+   "character": "Makayla Ward / Makayla Burgess",
+   "episodes": 25
+  },
+  {
+   "id": 228364,
+   "name": "Toya Turner",
+   "photo": "https://image.tmdb.org/t/p/w185/u7TE9O2B6I2izPI8BxeWoum38Gr.jpg",
+   "character": "Kiana Cook",
+   "episodes": 22
+  },
+  {
+   "id": 1600095,
+   "name": "Lisseth Chavez",
+   "photo": "https://image.tmdb.org/t/p/w185/fFnGQVFGAtTZcmLAr7XuUhvtjEW.jpg",
+   "character": "Vanessa Rojas",
+   "episodes": 20
+  },
+  {
+   "id": 74687,
+   "name": "Stella Maeve",
+   "photo": "https://image.tmdb.org/t/p/w185/mfQAwrchoRBH6F6LDvAw36SEHum.jpg",
+   "character": "Nadia Decotis",
+   "episodes": 18
+  },
+  {
+   "id": 2637343,
+   "name": "Sara Bues",
+   "photo": "https://image.tmdb.org/t/p/w185/qdaE83fxFcWwe05nccKGCfyGjYs.jpg",
+   "character": "ASA Nina Chapman",
+   "episodes": 16
+  },
+  {
+   "id": 59293,
+   "name": "Archie Kao",
+   "photo": "https://image.tmdb.org/t/p/w185/f8XaepyD7MY5kAWuSYDP2ZKoHvw.jpg",
+   "character": "Sheldon Jin",
+   "episodes": 15
+  },
+  {
+   "id": 1889037,
+   "name": "Alicia Hilton",
+   "photo": "https://image.tmdb.org/t/p/w185/oyYRo6OyeAz3jNXYUbdCR3kDCxk.jpg",
+   "character": "Detective",
+   "episodes": 14
+  },
+  {
+   "id": 34,
+   "name": "Mykelti Williamson",
+   "photo": "https://image.tmdb.org/t/p/w185/dR16zD9AjnHWbeN5OVmJWE0vSax.jpg",
+   "character": "Denny Woods",
+   "episodes": 14
+  },
+  {
+   "id": 210271,
+   "name": "Taylor Kinney",
+   "photo": "https://image.tmdb.org/t/p/w185/lOYVNwhlvah02OnrGIZkFpyr4Wf.jpg",
+   "character": "Kelly Severide",
+   "episodes": 12
+  },
+  {
+   "id": 8256,
+   "name": "Anne Heche",
+   "photo": "https://image.tmdb.org/t/p/w185/65LVuA01bmKCmr8yqY2Ae3IgeC4.jpg",
+   "character": "Katherine Brennan",
+   "episodes": 11
+  }
+ ],
+ "crew": [
+  {
+   "id": 117443,
+   "name": "Dick Wolf",
+   "photo": "https://image.tmdb.org/t/p/w185/tRMEuYNVFjXYJ7gh1sGJSxq9Vwq.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Story"
+   ],
+   "episodes": 268
+  },
+  {
+   "id": 1214477,
+   "name": "Matt Olmstead",
+   "photo": "https://image.tmdb.org/t/p/w185/3tK3c9pZlGFBJaOxwH00svHtu8U.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 84
+  },
+  {
+   "id": 1218298,
+   "name": "Peter Jankowski",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 268
+  },
+  {
+   "id": 72268,
+   "name": "Atli Örvarsson",
+   "photo": "https://image.tmdb.org/t/p/w185/fmg2HsSMUWAR2QYhOTFtPdqumIw.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 264
+  },
+  {
+   "id": 7865,
+   "name": "Michael Brandt",
+   "photo": "https://image.tmdb.org/t/p/w185/13p3xvGWhCbSNgv9S2DiBcPnoWQ.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 243
+  },
+  {
+   "id": 8161,
+   "name": "Derek Haas",
+   "photo": "https://image.tmdb.org/t/p/w185/a2kkIGmfxO45TrFgvARHi8rCqlQ.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 243
+  },
+  {
+   "id": 1218026,
+   "name": "Arthur W. Forney",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 221
+  },
+  {
+   "id": 1224405,
+   "name": "Rick Eid",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 159
+  },
+  {
+   "id": 1868485,
+   "name": "Gwen Sigan",
+   "photo": "https://image.tmdb.org/t/p/w185/9RuoHvUJmTLnWiFG2h4BstbIWRx.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 95
+  },
+  {
+   "id": 1224397,
+   "name": "Gavin Harris",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 95
+  },
+  {
+   "id": 2156320,
+   "name": "Chad Saxton",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 87
+  },
+  {
+   "id": 1211988,
+   "name": "Mark Tinker",
+   "photo": "https://image.tmdb.org/t/p/w185/uzM6K6QfJYJVwcbAwAluS6Ihuce.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 84
+  },
+  {
+   "id": 23628,
+   "name": "Eriq La Salle",
+   "photo": "https://image.tmdb.org/t/p/w185/3h8c10QW6k7Ck0IWko76SUMiD7F.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 80
+  },
+  {
+   "id": 1322120,
+   "name": "Danielle Gelber",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 61
+  },
+  {
+   "id": 37203,
+   "name": "Jason Beghe",
+   "photo": "https://image.tmdb.org/t/p/w185/hrTwOPWek7nkPJgFhh6inFu7vSS.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 56
+  },
+  {
+   "id": 2252671,
+   "name": "Matthew Thomas Brown",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Teleplay",
+    "Story"
+   ],
+   "episodes": 30
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:27.726Z"
+}

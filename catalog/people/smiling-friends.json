@@ -1,0 +1,292 @@
+{
+ "show": "Smiling Friends",
+ "slug": "smiling-friends",
+ "tmdbId": 126506,
+ "cast": [
+  {
+   "id": 2019870,
+   "name": "Michael Cusack",
+   "photo": "https://image.tmdb.org/t/p/w185/fBP86WH5BBYrZh4k5ZUjN1GRObU.jpg",
+   "character": "Pim Pimling / Allan Red (voice)",
+   "episodes": 27
+  },
+  {
+   "id": 2018847,
+   "name": "Zach Hadel",
+   "photo": "https://image.tmdb.org/t/p/w185/rnxk4BHlXicHVQCh0OI01PkPQ4F.jpg",
+   "character": "Charlie Dompler / Glep (voice)",
+   "episodes": 27
+  },
+  {
+   "id": 1113280,
+   "name": "Marc Moceri",
+   "photo": "https://image.tmdb.org/t/p/w185/yhOOtpjiefQRNwlzBjfPHTW0Ns.jpg",
+   "character": "Mr. Boss (voice)",
+   "episodes": 27
+  },
+  {
+   "id": 1599422,
+   "name": "Erica Lindbeck",
+   "photo": "https://image.tmdb.org/t/p/w185/l5ISBt8S8Upct0fDgaEPuELp4zE.jpg",
+   "character": "Maurine (voice) / Vivianne / Assistant (voice) / Jennifer / Mustard / The Princess (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 2210957,
+   "name": "Joshua Tomar",
+   "photo": "https://image.tmdb.org/t/p/w185/fVCVSbnewK2ofMbSaER8lufDSbA.jpg",
+   "character": "Officer Brule / Centaur (voice) / Officer Brule (voice) / (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 3376321,
+   "name": "Harry Partridge",
+   "photo": "https://image.tmdb.org/t/p/w185/nzGdYRKImCEuXlzjk3YVCkViGY6.jpg",
+   "character": "Grease (voice) / William Worm (voice) / Announcer (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 2630788,
+   "name": "Hans van Harken",
+   "photo": "https://image.tmdb.org/t/p/w185/e8wHkgCGSsEjM2OFsfw5QZ0w6Dc.jpg",
+   "character": "Priest (voice) / Jimmy Fallon (voice) / Bill (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 1298793,
+   "name": "Mick Lauer",
+   "photo": "https://image.tmdb.org/t/p/w185/gE18SWyqRjbfuAfNi5Al2M122pL.jpg",
+   "character": "Bug (voice) / Guy at the Gym / Crazy Cup / Elf (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 2589303,
+   "name": "David Dore",
+   "photo": null,
+   "character": "Party Bro / Forest Demon (voice) / Party Bro (voice) / Doctor (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 3376360,
+   "name": "Rodrigo Huerta",
+   "photo": null,
+   "character": "Devils / Jombo (voice) / Jacob the Goblin (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 229164,
+   "name": "Mike Stoklasa",
+   "photo": "https://image.tmdb.org/t/p/w185/vhVXLOfKYnCCHWq05Ei31z1o6hk.jpg",
+   "character": "Purple Alien (voice) / Screamer / Desmond (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 2443143,
+   "name": "Monica Franco",
+   "photo": "https://image.tmdb.org/t/p/w185/opDvaQDJtBMtLifdWEfDvlhhosV.jpg",
+   "character": "Wendy Worm (voice) / Zoey (voice) / Waitress (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 947200,
+   "name": "David Firth",
+   "photo": "https://image.tmdb.org/t/p/w185/gTSqoZQPn3bwOxiExZg4apdGS4B.jpg",
+   "character": "Shrimp (voice) / Fillmore (voice) / Mole Man (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 2247554,
+   "name": "Chris O'Neill",
+   "photo": "https://image.tmdb.org/t/p/w185/6Reto2jAiVnKsvWc3jCF77Tm5I5.jpg",
+   "character": "Smormu (voice) / Yeti (voice) / Guy in Line (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 3748393,
+   "name": "Lyle Rath",
+   "photo": "https://image.tmdb.org/t/p/w185/nVHhbdtuWtvJxHo3IhZgIhtxdv.jpg",
+   "character": "CEO (voice) / Mr. Man / Warren Buffett (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 15832,
+   "name": "Gilbert Gottfried",
+   "photo": "https://image.tmdb.org/t/p/w185/hkkAgJD0HKcuyd8EuvhyN5vHcDQ.jpg",
+   "character": "God (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 2671468,
+   "name": "James D. Rolfe",
+   "photo": "https://image.tmdb.org/t/p/w185/wiQZxZ9Bxos1z1tA4HgdZAv39tj.jpg",
+   "character": "Screamer",
+   "episodes": 1
+  },
+  {
+   "id": 199432,
+   "name": "Jim Knobeloch",
+   "photo": "https://image.tmdb.org/t/p/w185/m6B8YOYzd1YjrnvtOIdy9bzGEEH.jpg",
+   "character": "Horror Host",
+   "episodes": 1
+  },
+  {
+   "id": 70827,
+   "name": "Jane Badler",
+   "photo": "https://image.tmdb.org/t/p/w185/1y3ULLRX3Ga4BqmxJBmWKbkN6m.jpg",
+   "character": "TV Host",
+   "episodes": 1
+  },
+  {
+   "id": 1095143,
+   "name": "Perry Caravello",
+   "photo": "https://image.tmdb.org/t/p/w185/jRAvdnB7Gq1la7iMda1A4neA4fk.jpg",
+   "character": "Simon S. Salty",
+   "episodes": 1
+  },
+  {
+   "id": 1872417,
+   "name": "Clyde Boraine",
+   "photo": null,
+   "character": "Policeman",
+   "episodes": 1
+  },
+  {
+   "id": 2651256,
+   "name": "Chills",
+   "photo": "https://image.tmdb.org/t/p/w185/cJF9yFRNgKhpMxsiwIzrwQ4i1ZS.jpg",
+   "character": "Patron (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 1442069,
+   "name": "Finn Wolfhard",
+   "photo": "https://image.tmdb.org/t/p/w185/vgjd34eWfVL6GsLHwiwcAsjWLmo.jpg",
+   "character": "Man Living in Wall (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 1924482,
+   "name": "Nick Wolfhard",
+   "photo": "https://image.tmdb.org/t/p/w185/vRhppLc1ntrMBz0buLbam7aVvzm.jpg",
+   "character": "Graham Nelly / Bliblie (voice)",
+   "episodes": 1
+  }
+ ],
+ "crew": [
+  {
+   "id": 2019870,
+   "name": "Michael Cusack",
+   "photo": "https://image.tmdb.org/t/p/w185/fBP86WH5BBYrZh4k5ZUjN1GRObU.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 27
+  },
+  {
+   "id": 2018847,
+   "name": "Zach Hadel",
+   "photo": "https://image.tmdb.org/t/p/w185/rnxk4BHlXicHVQCh0OI01PkPQ4F.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 27
+  },
+  {
+   "id": 4738189,
+   "name": "David Hootselle",
+   "photo": "https://image.tmdb.org/t/p/w185/8bnOeJoJkXhg3OpCk1FSKDF7ZWv.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 2017333,
+   "name": "Brendan Caulfield",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 2589254,
+   "name": "Brendan Burch",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 5887699,
+   "name": "Anthony Price",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 4632251,
+   "name": "Paul ter Voorde",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 4513307,
+   "name": "Paul Georghiou",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1133015,
+   "name": "Jeff Liu",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 2589266,
+   "name": "Tina Tomar",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 2734575,
+   "name": "Mike Cowap",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1745299,
+   "name": "Emma Fitzsimons",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:37:58.141Z"
+}

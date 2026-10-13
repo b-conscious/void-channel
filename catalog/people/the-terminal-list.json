@@ -1,0 +1,327 @@
+{
+ "show": "The Terminal List",
+ "slug": "the-terminal-list",
+ "tmdbId": 120911,
+ "cast": [
+  {
+   "id": 73457,
+   "name": "Chris Pratt",
+   "photo": "https://image.tmdb.org/t/p/w185/cRH6HPAQ98PlOwwEvhYO4CM9lwu.jpg",
+   "character": "James Reece",
+   "episodes": 16
+  },
+  {
+   "id": 10478,
+   "name": "Jeanne Tripplehorn",
+   "photo": "https://image.tmdb.org/t/p/w185/q7D9MDnMVc5PAm99853gszHwJy7.jpg",
+   "character": "Secretary Hartley",
+   "episodes": 8
+  },
+  {
+   "id": 98522,
+   "name": "Riley Keough",
+   "photo": "https://image.tmdb.org/t/p/w185/du1FYr5dTQL6gCMX6ISnQBOxz2F.jpg",
+   "character": "Lauren Reece",
+   "episodes": 8
+  },
+  {
+   "id": 60900,
+   "name": "Taylor Kitsch",
+   "photo": "https://image.tmdb.org/t/p/w185/pTFkwvE2URbbftiaofexfolhkH9.jpg",
+   "character": "Ben Edwards",
+   "episodes": 8
+  },
+  {
+   "id": 206444,
+   "name": "Constance Wu",
+   "photo": "https://image.tmdb.org/t/p/w185/7nT6QsetU2RCUwopPmq2NFSnLDL.jpg",
+   "character": "Katie Buranek",
+   "episodes": 8
+  },
+  {
+   "id": 1981665,
+   "name": "Arlo Mertz",
+   "photo": "https://image.tmdb.org/t/p/w185/1vlaYuK9akbS9gNnJ13xbxdaOin.jpg",
+   "character": "Lucy Reece",
+   "episodes": 8
+  },
+  {
+   "id": 3072032,
+   "name": "Jared Shaw",
+   "photo": "https://image.tmdb.org/t/p/w185/4y3mbMlUibEjiZBPp7fo9NRWWCB.jpg",
+   "character": "Ernest 'Boozer' Vickers",
+   "episodes": 7
+  },
+  {
+   "id": 1094385,
+   "name": "LaMonica Garrett",
+   "photo": "https://image.tmdb.org/t/p/w185/yE5TBZ2qC5LAPDduBQAERo7EF3r.jpg",
+   "character": "Commander Bill Cox",
+   "episodes": 5
+  },
+  {
+   "id": 81391,
+   "name": "J. D. Pardo",
+   "photo": "https://image.tmdb.org/t/p/w185/uS616imhPsa4kt8veloLGQffx6f.jpg",
+   "character": "Tony Layun",
+   "episodes": 5
+  },
+  {
+   "id": 61904,
+   "name": "Christina Vidal Mitchell",
+   "photo": "https://image.tmdb.org/t/p/w185/crf8W71bjJIHPiFYB1ny4Dl3amY.jpg",
+   "character": "Mac Wilson",
+   "episodes": 5
+  },
+  {
+   "id": 2163724,
+   "name": "Tyner Rushing",
+   "photo": "https://image.tmdb.org/t/p/w185/wwMRrthFCUaQ4dvaxFGGxU71Xw1.jpg",
+   "character": "Liz Riley",
+   "episodes": 4
+  },
+  {
+   "id": 18461,
+   "name": "Nick Chinlund",
+   "photo": "https://image.tmdb.org/t/p/w185/lRmgWDIXqBTneGbKlJNSFyiis1e.jpg",
+   "character": "Admiral Gerald Pillar",
+   "episodes": 4
+  },
+  {
+   "id": 1939676,
+   "name": "Drew Starkey",
+   "photo": "https://image.tmdb.org/t/p/w185/iUPJrhsqgvF6CydzGfRzJG0wLiF.jpg",
+   "character": "Junior Alba",
+   "episodes": 4
+  },
+  {
+   "id": 2273501,
+   "name": "Alexis Louder",
+   "photo": "https://image.tmdb.org/t/p/w185/fCLuN1yyzMYPIuw7WndyYQ02cfv.jpg",
+   "character": "Nicole Deptula",
+   "episodes": 4
+  },
+  {
+   "id": 1334323,
+   "name": "Albert Valladares",
+   "photo": "https://image.tmdb.org/t/p/w185/iPF4sOLwAc1XIzodbqYwJsSTZDu.jpg",
+   "character": "Small Assassin / El Navajas",
+   "episodes": 3
+  },
+  {
+   "id": 1866917,
+   "name": "Scott C. Roe",
+   "photo": "https://image.tmdb.org/t/p/w185/5HmdlrurWBdGcJDBzYplSyxgncP.jpg",
+   "character": "Hargrove",
+   "episodes": 3
+  },
+  {
+   "id": 1053422,
+   "name": "Patrick Schwarzenegger",
+   "photo": "https://image.tmdb.org/t/p/w185/jKbI0OpFMMz4SPCU1VoMHXIbA3Y.jpg",
+   "character": "Donny Mitchell",
+   "episodes": 3
+  },
+  {
+   "id": 224181,
+   "name": "Jai Courtney",
+   "photo": "https://image.tmdb.org/t/p/w185/6vEaNwbOKov6yzQx15CdtrqfK3L.jpg",
+   "character": "Steve Horn",
+   "episodes": 3
+  },
+  {
+   "id": 32393,
+   "name": "Paul McCrane",
+   "photo": "https://image.tmdb.org/t/p/w185/nzFUnpptZ5hhiivD1lsUcPDB8V0.jpg",
+   "character": "Mike Tedesco",
+   "episodes": 3
+  },
+  {
+   "id": 55205,
+   "name": "Stephen Bishop",
+   "photo": "https://image.tmdb.org/t/p/w185/duiEwqhUI8gnMWHQ3K2DKO4Xo3w.jpg",
+   "character": "Richard Fontana",
+   "episodes": 3
+  },
+  {
+   "id": 1161712,
+   "name": "Hiram A. Murray",
+   "photo": null,
+   "character": "Jackson",
+   "episodes": 3
+  },
+  {
+   "id": 111116,
+   "name": "Matthew Rauch",
+   "photo": "https://image.tmdb.org/t/p/w185/y2SAw8H4qZGU5cOjazg5LeybiKr.jpg",
+   "character": "JAG Captain Howard",
+   "episodes": 3
+  },
+  {
+   "id": 1457999,
+   "name": "Arturo Castro",
+   "photo": "https://image.tmdb.org/t/p/w185/pbLoDCfjm3fLtGHVqQcnbM2d0cu.jpg",
+   "character": "Jordan Groff",
+   "episodes": 3
+  },
+  {
+   "id": 3608267,
+   "name": "Renata Friedman",
+   "photo": "https://image.tmdb.org/t/p/w185/9reZZrSgbzGEBRoF0HLGFdDv6qd.jpg",
+   "character": "Anne Howard",
+   "episodes": 3
+  }
+ ],
+ "crew": [
+  {
+   "id": 411398,
+   "name": "David DiGilio",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Teleplay"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 20907,
+   "name": "Antoine Fuqua",
+   "photo": "https://image.tmdb.org/t/p/w185/9zh0MmYIw1BP8V7y9N9K5Rjew4C.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 1436974,
+   "name": "Max Adams",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Teleplay"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 1117436,
+   "name": "Kat Samick",
+   "photo": "https://image.tmdb.org/t/p/w185/8AVQhZDjHL6OhGKC7VmnsH4qODl.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 3072032,
+   "name": "Jared Shaw",
+   "photo": "https://image.tmdb.org/t/p/w185/4y3mbMlUibEjiZBPp7fo9NRWWCB.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 73457,
+   "name": "Chris Pratt",
+   "photo": "https://image.tmdb.org/t/p/w185/cRH6HPAQ98PlOwwEvhYO4CM9lwu.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 2170890,
+   "name": "Tolu Awosika",
+   "photo": null,
+   "jobs": [
+    "Teleplay"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 3976905,
+   "name": "Hennah Sekander",
+   "photo": null,
+   "jobs": [
+    "Teleplay"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 104274,
+   "name": "Olumide Odebunmi",
+   "photo": null,
+   "jobs": [
+    "Teleplay"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 3011940,
+   "name": "Jack Carr",
+   "photo": "https://image.tmdb.org/t/p/w185/2ZSxpnFW3n25NvLRe6NLn0YDy05.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 2025045,
+   "name": "David Auge",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 2057759,
+   "name": "Jon Schumacher",
+   "photo": "https://image.tmdb.org/t/p/w185/t4G0iyMKPSFi23l1AoOJZ2DiKEw.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1372041,
+   "name": "Daniel Shattuck",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Teleplay"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 223574,
+   "name": "Ruth Barrett",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1215672,
+   "name": "Frederick E. O. Toye",
+   "photo": "https://image.tmdb.org/t/p/w185/nQKzsOdbVZGv16MezxCt4xJSTMa.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 31119,
+   "name": "Sylvain White",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:34:03.634Z"
+}

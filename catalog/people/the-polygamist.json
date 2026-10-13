@@ -1,0 +1,324 @@
+{
+ "show": "The Polygamist",
+ "slug": "the-polygamist",
+ "tmdbId": 322430,
+ "cast": [
+  {
+   "id": 5001531,
+   "name": "Gugu Gumede",
+   "photo": "https://image.tmdb.org/t/p/w185/5FxWANx3B6IT8y8qgDNbypKSOJM.jpg",
+   "character": "Joyce Gomora",
+   "episodes": 22
+  },
+  {
+   "id": 3700586,
+   "name": "S'Dumo Mtshali",
+   "photo": "https://image.tmdb.org/t/p/w185/u9IOLd6L7ae9SrFWWtz4wR7AblP.jpg",
+   "character": "Jonasi Gomora",
+   "episodes": 22
+  },
+  {
+   "id": 3361097,
+   "name": "Kwanele Mthethwa",
+   "photo": "https://image.tmdb.org/t/p/w185/tUzqFCKxuZqOUiBevGxP0w6Bi4q.jpg",
+   "character": "Matipa Nkosi",
+   "episodes": 22
+  },
+  {
+   "id": 2705989,
+   "name": "Kenneth Nkosi",
+   "photo": "https://image.tmdb.org/t/p/w185/xrpoWGq0SB8gsUf3sifnpHAj94g.jpg",
+   "character": "Magesh Gomora",
+   "episodes": 22
+  },
+  {
+   "id": 5287965,
+   "name": "Wonder Ndlovu",
+   "photo": "https://image.tmdb.org/t/p/w185/s5vLrXNi9Y0HDBK5KRFM5vOqr7f.jpg",
+   "character": "Menzi Gomora",
+   "episodes": 21
+  },
+  {
+   "id": 6287525,
+   "name": "Lwazie Keith Tsebesha",
+   "photo": "https://image.tmdb.org/t/p/w185/xi9kZyay5fhJDOGQsYM7ijMFIU3.jpg",
+   "character": "Sarah Gomora",
+   "episodes": 20
+  },
+  {
+   "id": 6287518,
+   "name": "Noluthando Shabalala",
+   "photo": "https://image.tmdb.org/t/p/w185/tNvBEQuFFoAjXDUPbeUDYqXB7Du.jpg",
+   "character": "Mpume Gomora",
+   "episodes": 18
+  },
+  {
+   "id": 5747648,
+   "name": "Luyanda Zwane",
+   "photo": "https://image.tmdb.org/t/p/w185/4WFZYjhVyrt45BY1b7sVyEbG5BK.jpg",
+   "character": "Lindani Mbatha",
+   "episodes": 18
+  },
+  {
+   "id": 2113486,
+   "name": "Celeste Ntuli",
+   "photo": "https://image.tmdb.org/t/p/w185/ibcwtJnVPMTS8VEfCTANvlqMzxY.jpg",
+   "character": "Essie Gomora",
+   "episodes": 17
+  },
+  {
+   "id": 6287533,
+   "name": "Vuyo Biyela",
+   "photo": "https://image.tmdb.org/t/p/w185/ugc5A825VdgCX9KW89oAngqe6t6.jpg",
+   "character": "Freedom",
+   "episodes": 15
+  },
+  {
+   "id": 5747760,
+   "name": "Mbali Cele",
+   "photo": null,
+   "character": "Sis Ntombi",
+   "episodes": 15
+  },
+  {
+   "id": 1141388,
+   "name": "S'Thandiwe Kgoroge",
+   "photo": null,
+   "character": "Mama Grace",
+   "episodes": 14
+  },
+  {
+   "id": 6387967,
+   "name": "Farieda Metsileng",
+   "photo": "https://image.tmdb.org/t/p/w185/iQDaQwF3yd489mcpAlQfwIYraum.jpg",
+   "character": "Buhle",
+   "episodes": 10
+  },
+  {
+   "id": 6387966,
+   "name": "Siyamthanda Banda",
+   "photo": "https://image.tmdb.org/t/p/w185/8SRZkfJnUfZ2SZVus70R5QUZCa0.jpg",
+   "character": "Bonginkosi",
+   "episodes": 7
+  },
+  {
+   "id": 4347717,
+   "name": "Thuli Thabethe",
+   "photo": "https://image.tmdb.org/t/p/w185/gJiC0krERe2bW1JuTahuqEK7lEA.jpg",
+   "character": "Thembi",
+   "episodes": 7
+  },
+  {
+   "id": 4123074,
+   "name": "Noxolo Mathula",
+   "photo": "https://image.tmdb.org/t/p/w185/cCdLDSf0BsBQgXvqQFeaPaUtZl5.jpg",
+   "character": "Zodwa",
+   "episodes": 7
+  },
+  {
+   "id": 6387964,
+   "name": "Rebone Sesing",
+   "photo": null,
+   "character": "Trinity Cele",
+   "episodes": 6
+  },
+  {
+   "id": 5287964,
+   "name": "Thandolwethu Zondi",
+   "photo": "https://image.tmdb.org/t/p/w185/5BqzcxTscCvSwTjkkD1Xr6d6NNp.jpg",
+   "character": "Xolani",
+   "episodes": 6
+  },
+  {
+   "id": 6387982,
+   "name": "Presley Mpofu",
+   "photo": null,
+   "character": "Joyce's Videographer",
+   "episodes": 6
+  },
+  {
+   "id": 6387983,
+   "name": "Chumande Kroza",
+   "photo": null,
+   "character": "Mkhize - J&J Security",
+   "episodes": 6
+  },
+  {
+   "id": 6387968,
+   "name": "Kgosi Molapo",
+   "photo": null,
+   "character": "Nkazimulo Gomora (7 yrs)",
+   "episodes": 4
+  },
+  {
+   "id": 6387976,
+   "name": "Prosperity Shongwe",
+   "photo": null,
+   "character": "Joyce's Stylist",
+   "episodes": 4
+  },
+  {
+   "id": 6387978,
+   "name": "Tsholofelo Tema",
+   "photo": null,
+   "character": "Joyce's Manager",
+   "episodes": 4
+  },
+  {
+   "id": 6387987,
+   "name": "Murendani Netshikandwana",
+   "photo": null,
+   "character": "Baby Ashley (4 yrs)",
+   "episodes": 4
+  }
+ ],
+ "crew": [
+  {
+   "id": 37092,
+   "name": "Akin Omotoso",
+   "photo": "https://image.tmdb.org/t/p/w185/49IQy9bmSvUfvAaIsjqIgEogWHX.jpg",
+   "jobs": [
+    "Creator",
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 6389495,
+   "name": "Sebabatso Mofokeng",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 1209274,
+   "name": "Rolie Nikiwe",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 5050645,
+   "name": "Pepsi Pokane",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 5001534,
+   "name": "Thuli Zuma",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 5131037,
+   "name": "Gugu Zuma-Ncube",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 2503445,
+   "name": "Zethu Mashika",
+   "photo": "https://image.tmdb.org/t/p/w185/ut2RFrsZeDVIWEwIs1Jo1Ibvbp3.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 4991671,
+   "name": "Nthabiseng Tau",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 6389551,
+   "name": "Busisiwe Zwane",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 6389592,
+   "name": "Tsale Makam",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 6392815,
+   "name": "Nonthuthuzelo Magoxo",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 2300652,
+   "name": "Zuko Nodada",
+   "photo": "https://image.tmdb.org/t/p/w185/4PqW4pYSjelVsb9VWiwqehx5utw.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 6395894,
+   "name": "Philbeth Diaho",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 6402868,
+   "name": "Nokuphiwa Magubane",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 6398477,
+   "name": "Nkosazana Zuma-Ncube",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 6389543,
+   "name": "Donald Ndlovu",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:44:26.692Z"
+}

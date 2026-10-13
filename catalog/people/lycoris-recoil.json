@@ -1,0 +1,295 @@
+{
+ "show": "Lycoris Recoil",
+ "slug": "lycoris-recoil",
+ "tmdbId": 154494,
+ "cast": [
+  {
+   "id": 1324927,
+   "name": "Chika Anzai",
+   "photo": "https://image.tmdb.org/t/p/w185/lk3Az9O67qrXR69rctwDDHWqi9d.jpg",
+   "character": "Chisato Nishikigi (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 2363904,
+   "name": "Shion Wakayama",
+   "photo": "https://image.tmdb.org/t/p/w185/b697ggFreuliEfl4TjLgxhJCQXr.jpg",
+   "character": "Takina Inoue (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 1220947,
+   "name": "Ami Koshimizu",
+   "photo": "https://image.tmdb.org/t/p/w185/e5sU0stGjTMtFoj0jjHH7OFUqYC.jpg",
+   "character": "Mizuki Nakahara (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 151182,
+   "name": "Misaki Kuno",
+   "photo": "https://image.tmdb.org/t/p/w185/hVtE4gdKaqofYZmXXtlJs4Q9XTL.jpg",
+   "character": "Kurumi (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 3272337,
+   "name": "Kosuke Sakaki",
+   "photo": "https://image.tmdb.org/t/p/w185/vRekZ84PwkHoxvQXmPFKFe0rPga.jpg",
+   "character": "Mika (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 1824771,
+   "name": "Takaki Otomari",
+   "photo": "https://image.tmdb.org/t/p/w185/AqFRg6Bi9WRf88e7JMuvuHpxGeA.jpg",
+   "character": "Officer (voice) / Yamadera (voice) / Majima's Minions (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 1264228,
+   "name": "Yoji Ueda",
+   "photo": "https://image.tmdb.org/t/p/w185/fHvIfE0Q7ab0DFlkNVFcXvTKX9y.jpg",
+   "character": "Shinji Yoshimatsu (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 148448,
+   "name": "Yoko Soumi",
+   "photo": "https://image.tmdb.org/t/p/w185/4gUG0v1HJPh0gLba6XOcLvTMpto.jpg",
+   "character": "Kusunoki (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 1951282,
+   "name": "Yoshihito Sasaki",
+   "photo": "https://image.tmdb.org/t/p/w185/s3dCKhdu453qD4piXkz43UpBKdI.jpg",
+   "character": "DA Operator (voice) / Culprit (voice) / Gotō (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 233590,
+   "name": "Yoshitsugu Matsuoka",
+   "photo": "https://image.tmdb.org/t/p/w185/ugDwdWEXnmv43jcbnfAi4XwiQ8C.jpg",
+   "character": "Majima (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 1157642,
+   "name": "Shinya Takahashi",
+   "photo": "https://image.tmdb.org/t/p/w185/19DN4yrD9c3E7BWthVEqvwhQNdb.jpg",
+   "character": "Reporter (voice) / Operator (voice) / Majima's Minions (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 2102121,
+   "name": "Maki Kawase",
+   "photo": "https://image.tmdb.org/t/p/w185/3LgHKyXM33oOtBzmYTDesftIzY0.jpg",
+   "character": "Fuki Harukawa (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 3612551,
+   "name": "Miki Hasegawa",
+   "photo": "https://image.tmdb.org/t/p/w185/hMwKP9N8S7RqueJM4rTDhzjOgyA.jpg",
+   "character": "Kusunoki's Assistant (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 2864258,
+   "name": "Yuki Sakakihara",
+   "photo": "https://image.tmdb.org/t/p/w185/4Jj08itCNpPrN1Sr3uv26h1p740.jpg",
+   "character": "Robota (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 3521404,
+   "name": "Aino Shimada",
+   "photo": "https://image.tmdb.org/t/p/w185/3uSfLSPk7wnlxEzki1p7IDuShl8.jpg",
+   "character": "DA Operator (voice) / CA (voice) / Kitamura (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 1645397,
+   "name": "Makoto Koichi",
+   "photo": "https://image.tmdb.org/t/p/w185/gpslQDgkGoL3Ap9QsK1nljeGPKJ.jpg",
+   "character": "Sakura Otome (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 3367301,
+   "name": "Satomi Otani",
+   "photo": "https://image.tmdb.org/t/p/w185/6Z16IaYapQnum6do1ZANcfDwqOj.jpg",
+   "character": "Himekaba (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 2870155,
+   "name": "Yuka Yagami",
+   "photo": "https://image.tmdb.org/t/p/w185/6VupTJXCf3Py697PlEPby9yjoFu.jpg",
+   "character": "Lycoris (voice) / Erica Nijinome (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 2717376,
+   "name": "Wakana Kowaka",
+   "photo": "https://image.tmdb.org/t/p/w185/jmj7QTeDlMvLFL4azofn1VTLwks.jpg",
+   "character": "Narrator (voice) / Itō (voice) / CA (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 1652653,
+   "name": "Hiroshi Shirokuma",
+   "photo": "https://image.tmdb.org/t/p/w185/bzSNLbRYd4vd7EZqkcjRH5Z1byP.jpg",
+   "character": "Abe (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 3040917,
+   "name": "Hodaka Mieno",
+   "photo": "https://image.tmdb.org/t/p/w185/kHljVtyBl2AsxmcDzCF1XsUP5Md.jpg",
+   "character": "Hibana Kagari (voice) / DA Operator (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 1613379,
+   "name": "Taku Yashiro",
+   "photo": "https://image.tmdb.org/t/p/w185/eVdB6myaNJ4h38UU9hHHlsaCWHn.jpg",
+   "character": "Mitani (voice) / Armed Group (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 2829569,
+   "name": "Reina Aoyama",
+   "photo": "https://image.tmdb.org/t/p/w185/dU45QxWjVQCsVflfuMOlU2dzgEO.jpg",
+   "character": "Announcer (voice) / DA Receptionist (voice) / Clerk (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 2963666,
+   "name": "Saki Kobari",
+   "photo": "https://image.tmdb.org/t/p/w185/fh1lk4kq1cGJXeCk8rEEmjiOT0A.jpg",
+   "character": "DA Staff (voice) / DA Operator (voice) / Train Announcement (voice)",
+   "episodes": 3
+  }
+ ],
+ "crew": [
+  {
+   "id": 2376291,
+   "name": "Yusuke Maruyama",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 934710,
+   "name": "Shingo Adachi",
+   "photo": "https://image.tmdb.org/t/p/w185/477Lr9iculxp4DInmIChYvFOjA0.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 1817520,
+   "name": "Masanori Miyake",
+   "photo": "https://image.tmdb.org/t/p/w185/kr6vrmfERGuQTb9X8KKzSvlEsYh.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 3499800,
+   "name": "Shuhei Mutsuki",
+   "photo": "https://image.tmdb.org/t/p/w185/bcyOeyDrIYwDpAYbqFUddeQqzAA.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 3653251,
+   "name": "Yusuke Kambayashi",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 2646564,
+   "name": "Yusuke Shibata",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 3519908,
+   "name": "Dai Katarayama",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 2160379,
+   "name": "Tomohisa Onoue",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1847889,
+   "name": "Akiko Seki",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 2160392,
+   "name": "Takahiro Shikama",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1506471,
+   "name": "Tetsuya Takeuchi",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1796082,
+   "name": "Takashi Sakuma",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 2376301,
+   "name": "Kakushi Ifuku",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:40:14.942Z"
+}

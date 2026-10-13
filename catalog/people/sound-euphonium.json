@@ -1,0 +1,322 @@
+{
+ "show": "Sound! Euphonium",
+ "slug": "sound-euphonium",
+ "tmdbId": 62564,
+ "cast": [
+  {
+   "id": 1309253,
+   "name": "Tomoyo Kurosawa",
+   "photo": "https://image.tmdb.org/t/p/w185/eSRnva88YVcUXlDHdVrhier2SGU.jpg",
+   "character": "Kumiko Oumae (voice)",
+   "episodes": 39
+  },
+  {
+   "id": 1324927,
+   "name": "Chika Anzai",
+   "photo": "https://image.tmdb.org/t/p/w185/lk3Az9O67qrXR69rctwDDHWqi9d.jpg",
+   "character": "Reina Kousaka (voice)",
+   "episodes": 39
+  },
+  {
+   "id": 1522605,
+   "name": "Ayaka Asai",
+   "photo": "https://image.tmdb.org/t/p/w185/tQCblqK0CJfddLPkYKcI94R2Pgh.jpg",
+   "character": "Hazuki Katou (voice)",
+   "episodes": 39
+  },
+  {
+   "id": 1339188,
+   "name": "Moe Toyota",
+   "photo": "https://image.tmdb.org/t/p/w185/pQdNOdP2KJVblznFQa9iECrZ3IM.jpg",
+   "character": "Sapphire 'Midori' Kawashima (voice)",
+   "episodes": 39
+  },
+  {
+   "id": 9705,
+   "name": "Takahiro Sakurai",
+   "photo": "https://image.tmdb.org/t/p/w185/8s8owcKmpRAuhzEGjSdRpztthUg.jpg",
+   "character": "Noboru Taki (voice)",
+   "episodes": 38
+  },
+  {
+   "id": 1966967,
+   "name": "Haruki Ishiya",
+   "photo": "https://image.tmdb.org/t/p/w185/5bugNo9kjEpzotXLkvMZ2pJ212h.jpg",
+   "character": "Shuuichi Tsukamoto (voice)",
+   "episodes": 31
+  },
+  {
+   "id": 1249310,
+   "name": "Minako Kotobuki",
+   "photo": "https://image.tmdb.org/t/p/w185/puocmMfvql6X1AvhFTolaV6Vh2r.jpg",
+   "character": "Asuka Tanaka (voice)",
+   "episodes": 28
+  },
+  {
+   "id": 2024493,
+   "name": "Conomi Fujimura",
+   "photo": "https://image.tmdb.org/t/p/w185/nJu6VuH4ff9EkR4E2oztfcLYcI6.jpg",
+   "character": "Natsuki Nakagawa (voice)",
+   "episodes": 27
+  },
+  {
+   "id": 221773,
+   "name": "Saori Hayami",
+   "photo": "https://image.tmdb.org/t/p/w185/gLv9lO7dlUbIsmyJUvgegqAAXki.jpg",
+   "character": "Haruka Ogasara (voice)",
+   "episodes": 26
+  },
+  {
+   "id": 1256108,
+   "name": "Yuri Yamaoka",
+   "photo": "https://image.tmdb.org/t/p/w185/1lMg102GwORAax6IMxUdnCkHH5D.jpg",
+   "character": "Yuuko Yoshikawa (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 144648,
+   "name": "Minori Chihara",
+   "photo": "https://image.tmdb.org/t/p/w185/qSqXpdLUq4prPtL7mkp0go6SbrF.jpg",
+   "character": "Kaori Nakaseko (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 124478,
+   "name": "Aya Hisakawa",
+   "photo": "https://image.tmdb.org/t/p/w185/5asVy8H7VSDQKVdURubT0QHjsld.jpg",
+   "character": "Michie Matsumoto (voice)",
+   "episodes": 21
+  },
+  {
+   "id": 2171824,
+   "name": "Miyuki Kobori",
+   "photo": "https://image.tmdb.org/t/p/w185/k7zHLPzMQkNAVIXqWz9AnR1wi9S.jpg",
+   "character": "Concert Band Member (voice) / Riko Nagase (voice)",
+   "episodes": 20
+  },
+  {
+   "id": 1221108,
+   "name": "Haruhi Nanao",
+   "photo": "https://image.tmdb.org/t/p/w185/1zdcXGwU3WRaiE281hjRuqfqeXg.jpg",
+   "character": "Concert Band Member (voice) / Akiko Oumae (voice)",
+   "episodes": 18
+  },
+  {
+   "id": 135524,
+   "name": "Kenjiro Tsuda",
+   "photo": "https://image.tmdb.org/t/p/w185/yFpSPNHqYN4rdRiVpVaYmqXMkmi.jpg",
+   "character": "Takuya Gotou (voice)",
+   "episodes": 17
+  },
+  {
+   "id": 1255653,
+   "name": "Manami Numakura",
+   "photo": "https://image.tmdb.org/t/p/w185/eDbMXgeTCA2D6i7894Ag43RADrk.jpg",
+   "character": "Concert Band Member (voice) / Mamiko Oumae (voice)",
+   "episodes": 16
+  },
+  {
+   "id": 1248340,
+   "name": "Haruka Tomatsu",
+   "photo": "https://image.tmdb.org/t/p/w185/geVvuA2zMGE5xzfc20aDelJSelu.jpg",
+   "character": "Mayu Kuroe (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 1325034,
+   "name": "Sora Amamiya",
+   "photo": "https://image.tmdb.org/t/p/w185/AouA1SfwEazdSSj8rUS9K1WIF4H.jpg",
+   "character": "Kanade Hisaishi (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 2961148,
+   "name": "Ayane Matsuda",
+   "photo": "https://image.tmdb.org/t/p/w185/ruWITfnYezWXb5GQSFhMU7srMDW.jpg",
+   "character": "Yayoi Kamiishi (voice) / Concert Band Member (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 1072774,
+   "name": "Yoko Hikasa",
+   "photo": "https://image.tmdb.org/t/p/w185/mP3bj0s1gqJ6tCKFLhu4b1CkJj7.jpg",
+   "character": "Aoi Saitou (voice) / Concert Band Member (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 1324470,
+   "name": "Azusa Tadokoro",
+   "photo": "https://image.tmdb.org/t/p/w185/kYQX26kSAUdPn5tDgMzdbjDSZdO.jpg",
+   "character": "Azusa Sasaki (voice) / Concert Band Member (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 1253846,
+   "name": "Daisuke Nakamura",
+   "photo": "https://image.tmdb.org/t/p/w185/dnWtdQYwMqx0A1o0IqV76pzlIIw.jpg",
+   "character": "Concert Band Member (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 1221114,
+   "name": "Yuichi Nakamura",
+   "photo": "https://image.tmdb.org/t/p/w185/wb8behVKjBHX9XXrEydvNINCYwH.jpg",
+   "character": "Masahiro Hashimoto (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 1492991,
+   "name": "Shiina Natsukawa",
+   "photo": "https://image.tmdb.org/t/p/w185/nywEk8MfRpKhbpDJBg9Gr0WRMJE.jpg",
+   "character": "Suzume Kamaya (voice)",
+   "episodes": 12
+  }
+ ],
+ "crew": [
+  {
+   "id": 186342,
+   "name": "Jukki Hanada",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 78
+  },
+  {
+   "id": 1247708,
+   "name": "Tatsuya Ishihara",
+   "photo": "https://image.tmdb.org/t/p/w185/oWunh6I30A3qcRsM06SvMH3Cwoq.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 44
+  },
+  {
+   "id": 24003,
+   "name": "Yota Tsuruoka",
+   "photo": "https://image.tmdb.org/t/p/w185/vdRDTEuplZlYMd115rzFcqTtG4Y.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 237224,
+   "name": "Yoko Hatta",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 1072778,
+   "name": "Naoko Yamada",
+   "photo": "https://image.tmdb.org/t/p/w185/28CWDjOjjZmbfXD2m7VuOF0w7F0.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 28
+  },
+  {
+   "id": 1301231,
+   "name": "Shunji Inoue",
+   "photo": "https://image.tmdb.org/t/p/w185/qMqGbJ89A8Nem3SE6bE7p64aC9k.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 1368258,
+   "name": "Akito Matsuda",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 1661035,
+   "name": "Taichi Ogawa",
+   "photo": "https://image.tmdb.org/t/p/w185/AnjExAzhocjwSWxQpwrmwn40H5k.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 1647493,
+   "name": "Masayuki Nishide",
+   "photo": "https://image.tmdb.org/t/p/w185/7JkLIvLcWIWp2nNYqALSfDnty6o.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 3421792,
+   "name": "Kazunari Okuma",
+   "photo": "https://image.tmdb.org/t/p/w185/erBb8eF6lg4MFB9u5Ri2vOn6C9j.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 3059684,
+   "name": "Yoko Kogawa",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 2188315,
+   "name": "Yosuke Miyake",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 3339418,
+   "name": "Manabu Kuroda",
+   "photo": "https://image.tmdb.org/t/p/w185/rMn5elH68tqGj8QBSjZo10zhvZx.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 1661040,
+   "name": "Takuya Yamamura",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1661036,
+   "name": "Noriyuki Kitanohara",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1661046,
+   "name": "Eisaku Kawanami",
+   "photo": "https://image.tmdb.org/t/p/w185/rE2JBPhkfymcVgGvA2kRFqPz7C9.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:40:28.820Z"
+}

@@ -1,0 +1,334 @@
+{
+ "show": "Grimm",
+ "slug": "grimm",
+ "tmdbId": 39351,
+ "cast": [
+  {
+   "id": 206757,
+   "name": "David Giuntoli",
+   "photo": "https://image.tmdb.org/t/p/w185/tMuuIilbbhyubO44kEuHnExa2qY.jpg",
+   "character": "Nick Burkhardt",
+   "episodes": 122
+  },
+  {
+   "id": 49815,
+   "name": "Silas Weir Mitchell",
+   "photo": "https://image.tmdb.org/t/p/w185/6TDZz2GdGDorb7ZGDpotMn27cOm.jpg",
+   "character": "Monroe",
+   "episodes": 122
+  },
+  {
+   "id": 62649,
+   "name": "Russell Hornsby",
+   "photo": "https://image.tmdb.org/t/p/w185/lA2XCK2GgwVoboX3NskkKp5rxOF.jpg",
+   "character": "Hank Griffin",
+   "episodes": 122
+  },
+  {
+   "id": 6071,
+   "name": "Sasha Roiz",
+   "photo": "https://image.tmdb.org/t/p/w185/hneSnvFh25FFRWRzd93EhO7S11p.jpg",
+   "character": "Sean Renard",
+   "episodes": 122
+  },
+  {
+   "id": 22075,
+   "name": "Reggie Lee",
+   "photo": "https://image.tmdb.org/t/p/w185/93my9HnsFT5DFq9oY1nCJ8Ttv22.jpg",
+   "character": "Drew Wu",
+   "episodes": 122
+  },
+  {
+   "id": 74577,
+   "name": "Elizabeth Tulloch",
+   "photo": "https://image.tmdb.org/t/p/w185/trC9dIUvgXyG2dDbofG75g4aMkK.jpg",
+   "character": "Juliette Silverton / Eve",
+   "episodes": 115
+  },
+  {
+   "id": 62065,
+   "name": "Bree Turner",
+   "photo": "https://image.tmdb.org/t/p/w185/sg3oQRV4oiVLePatDsDGgUTTK67.jpg",
+   "character": "Rosalee Calvert",
+   "episodes": 105
+  },
+  {
+   "id": 169041,
+   "name": "Claire Coffee",
+   "photo": "https://image.tmdb.org/t/p/w185/oH9qow1UNuHmqnNretjmEWrlkWW.jpg",
+   "character": "Adalind Schade",
+   "episodes": 92
+  },
+  {
+   "id": 23899,
+   "name": "Robert Blanche",
+   "photo": "https://image.tmdb.org/t/p/w185/rnXTCcTr2e2br7XGyfp9EFJdcqW.jpg",
+   "character": "Franco / Sgt. Franco",
+   "episodes": 37
+  },
+  {
+   "id": 112021,
+   "name": "Damien Puckler",
+   "photo": "https://image.tmdb.org/t/p/w185/9ZXtvFUaqBNXUsrsftxYcjbveEc.jpg",
+   "character": "Meisner",
+   "episodes": 32
+  },
+  {
+   "id": 1374991,
+   "name": "Jacqueline Toboni",
+   "photo": "https://image.tmdb.org/t/p/w185/mFblzvPhQheaGT6WKXw9gg8p3Tb.jpg",
+   "character": "Theresa 'Trubel' Rubel",
+   "episodes": 30
+  },
+  {
+   "id": 1327923,
+   "name": "Danny Bruno",
+   "photo": null,
+   "character": "Bud Wurstner / Bud",
+   "episodes": 23
+  },
+  {
+   "id": 157836,
+   "name": "Julianne Christie",
+   "photo": "https://image.tmdb.org/t/p/w185/hEiV9H8LIHe8VDqeTT8lqNs8awV.jpg",
+   "character": "Nancy Keary",
+   "episodes": 22
+  },
+  {
+   "id": 1264749,
+   "name": "Christian Lagadec",
+   "photo": "https://image.tmdb.org/t/p/w185/uDDxENl30lkcm4iLh9CZBwJwqmu.jpg",
+   "character": "Sebastien / Castle Spy",
+   "episodes": 17
+  },
+  {
+   "id": 1214673,
+   "name": "Alexis Denisof",
+   "photo": "https://image.tmdb.org/t/p/w185/luTHwbaLutoKYWJSpk2WyuPasvk.jpg",
+   "character": "Viktor Beckendorf",
+   "episodes": 17
+  },
+  {
+   "id": 2143986,
+   "name": "Hannah R. Loyd",
+   "photo": null,
+   "character": "Diana",
+   "episodes": 15
+  },
+  {
+   "id": 139553,
+   "name": "Anne Leighton",
+   "photo": "https://image.tmdb.org/t/p/w185/zdaDMKU4EaCasQ1sbttWPs2dqw9.jpg",
+   "character": "Rachel Wood",
+   "episodes": 13
+  },
+  {
+   "id": 1215388,
+   "name": "Philip Anthony-Rodriguez",
+   "photo": "https://image.tmdb.org/t/p/w185/bv3hFFxayfEj3LKGWuAM42ME07j.jpg",
+   "character": "Marcus Rispoli",
+   "episodes": 12
+  },
+  {
+   "id": 1254634,
+   "name": "Sharon Sachs",
+   "photo": "https://image.tmdb.org/t/p/w185/pi9tQwltHEjwySLkexqdQc7IqIE.jpg",
+   "character": "Dr. Harper",
+   "episodes": 10
+  },
+  {
+   "id": 2142975,
+   "name": "M. Ben Newman",
+   "photo": "https://image.tmdb.org/t/p/w185/9ZJAwAWqNr5SshqS3AKOdT9GDfn.jpg",
+   "character": "Jeremiah Rogers",
+   "episodes": 9
+  },
+  {
+   "id": 22063,
+   "name": "James Frain",
+   "photo": "https://image.tmdb.org/t/p/w185/1KnxsxRbVZkh5bdY3gA8v4YKhKR.jpg",
+   "character": "Eric Renard",
+   "episodes": 7
+  },
+  {
+   "id": 21041,
+   "name": "Shohreh Aghdashloo",
+   "photo": "https://image.tmdb.org/t/p/w185/7josGC8QO9V6V8AuFdaS2tjUF8W.jpg",
+   "character": "Stefania Vaduva Popescu",
+   "episodes": 7
+  },
+  {
+   "id": 1161,
+   "name": "Mary Elizabeth Mastrantonio",
+   "photo": "https://image.tmdb.org/t/p/w185/vbZ1E557K5oj34xLHR5ErO8wPCi.jpg",
+   "character": "Woman in Black / Kelly Burkhardt",
+   "episodes": 6
+  },
+  {
+   "id": 1837226,
+   "name": "Cazzey Louis Cereghino",
+   "photo": null,
+   "character": "Bar Fight Guy / Big Guy / Harold Big Johnson",
+   "episodes": 6
+  }
+ ],
+ "crew": [
+  {
+   "id": 87590,
+   "name": "David Greenwalt",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 122
+  },
+  {
+   "id": 21155,
+   "name": "Jim Kouf",
+   "photo": "https://image.tmdb.org/t/p/w185/nNFrSM8DICtVHUBZlZ3tDLlawqY.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 37
+  },
+  {
+   "id": 56913,
+   "name": "Stephen Carpenter",
+   "photo": "https://image.tmdb.org/t/p/w185/rxnq4y7hUpCz9C1RN7oRJ8YsC1c.jpg",
+   "jobs": [
+    "Creator",
+    "Story"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 21467,
+   "name": "Richard Marvin",
+   "photo": "https://image.tmdb.org/t/p/w185/k3ZtfEHVXfTfomOBcrbfw951VbI.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 122
+  },
+  {
+   "id": 1327476,
+   "name": "Akela Cooper",
+   "photo": "https://image.tmdb.org/t/p/w185/3gSUln2nnY0uJrXwOpDeQY19eC5.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 104404,
+   "name": "Norberto Barba",
+   "photo": "https://image.tmdb.org/t/p/w185/dGtWLR3P7F9ufp8ZPtAAlU4SqOJ.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 102638,
+   "name": "Terrence O'Hara",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 60705,
+   "name": "Thomas Ian Griffith",
+   "photo": "https://image.tmdb.org/t/p/w185/4h1qQeZMG2drwEEat6WKG0rbPVC.jpg",
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 1327920,
+   "name": "Sean Calder",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1234893,
+   "name": "Alan DiFiore",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1228518,
+   "name": "Dan E. Fesman",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1549328,
+   "name": "Brenna Kouf",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1546365,
+   "name": "Michael Golamco",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 47020,
+   "name": "Eric Laneuville",
+   "photo": "https://image.tmdb.org/t/p/w185/hrVy4Ws5sL7rOI7TbTlKrUVosMF.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 97847,
+   "name": "Aaron Lipstadt",
+   "photo": "https://image.tmdb.org/t/p/w185/u2YZCqtmwd4DJ1E3L3oCaib41Bv.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 30477,
+   "name": "Peter Werner",
+   "photo": "https://image.tmdb.org/t/p/w185/dTxEOaLPDKwxINxcG8Rtm9PRk1w.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:08.975Z"
+}

@@ -1,0 +1,333 @@
+{
+ "show": "Bates Motel",
+ "slug": "bates-motel",
+ "tmdbId": 46786,
+ "cast": [
+  {
+   "id": 21657,
+   "name": "Vera Farmiga",
+   "photo": "https://image.tmdb.org/t/p/w185/5Vs7huBmTKftwlsc2BPAntyaQYj.jpg",
+   "character": "Norma Bates",
+   "episodes": 50
+  },
+  {
+   "id": 1281,
+   "name": "Freddie Highmore",
+   "photo": "https://image.tmdb.org/t/p/w185/9larfGVg8ALIVFkr7cZzv4Emh1F.jpg",
+   "character": "Norman Bates",
+   "episodes": 50
+  },
+  {
+   "id": 41883,
+   "name": "Max Thieriot",
+   "photo": "https://image.tmdb.org/t/p/w185/aBiTMI3qB6FPOVhXw7b15pjJkmL.jpg",
+   "character": "Dylan Massett",
+   "episodes": 50
+  },
+  {
+   "id": 1173984,
+   "name": "Olivia Cooke",
+   "photo": "https://image.tmdb.org/t/p/w185/wf71ctooNlVmiT8dxx0QmRAzyiX.jpg",
+   "character": "Emma Decody",
+   "episodes": 50
+  },
+  {
+   "id": 21316,
+   "name": "Nestor Carbonell",
+   "photo": "https://image.tmdb.org/t/p/w185/4Xn03t2qDEMR2ecM7BtLwpvs3J0.jpg",
+   "character": "Alex Romero",
+   "episodes": 50
+  },
+  {
+   "id": 42191,
+   "name": "Kenny Johnson",
+   "photo": "https://image.tmdb.org/t/p/w185/oFjEvGUEync0f2uiyGxMbinQkEl.jpg",
+   "character": "Caleb Calhoun",
+   "episodes": 18
+  },
+  {
+   "id": 43858,
+   "name": "Ryan Hurst",
+   "photo": "https://image.tmdb.org/t/p/w185/467wpYYeeDyF4MeoDMuNp4bwgzH.jpg",
+   "character": "Chick Hogan",
+   "episodes": 15
+  },
+  {
+   "id": 61186,
+   "name": "Nicola Peltz",
+   "photo": "https://image.tmdb.org/t/p/w185/oDizBpZEeV5c3fDp3Wts4TsFNrq.jpg",
+   "character": "Bradley Martin",
+   "episodes": 14
+  },
+  {
+   "id": 219998,
+   "name": "Keenan Tracey",
+   "photo": "https://image.tmdb.org/t/p/w185/uXZLXdjGEFck8DlHGDsnHezX8qV.jpg",
+   "character": "Gunner",
+   "episodes": 14
+  },
+  {
+   "id": 25386,
+   "name": "Ian Tracey",
+   "photo": "https://image.tmdb.org/t/p/w185/dUzzLVVUF0pvGzS3xrIZ5tiC2TT.jpg",
+   "character": "Remo Wallace",
+   "episodes": 12
+  },
+  {
+   "id": 210904,
+   "name": "Aliyah O'Brien",
+   "photo": null,
+   "character": "Regina / Receptionist",
+   "episodes": 12
+  },
+  {
+   "id": 97604,
+   "name": "Kevin Rahm",
+   "photo": "https://image.tmdb.org/t/p/w185/oTqPhpva2ozz5gJxs1OALB5cebM.jpg",
+   "character": "Bob Paris",
+   "episodes": 10
+  },
+  {
+   "id": 1283527,
+   "name": "Isabelle McNally",
+   "photo": "https://image.tmdb.org/t/p/w185/qy2HTnN5GB2RyeqERL7T1mjcIn0.jpg",
+   "character": "Madeleine Loomis",
+   "episodes": 9
+  },
+  {
+   "id": 67979,
+   "name": "Michael Eklund",
+   "photo": "https://image.tmdb.org/t/p/w185/la3J6E12pbZHe0sE73EipKkzQOp.jpg",
+   "character": "Zane Morgan",
+   "episodes": 8
+  },
+  {
+   "id": 21710,
+   "name": "Michael O'Neill",
+   "photo": "https://image.tmdb.org/t/p/w185/u9Ejl9iS4ZJ36Y653UCe8huLaOn.jpg",
+   "character": "Nick Ford",
+   "episodes": 8
+  },
+  {
+   "id": 42710,
+   "name": "Keegan Connor Tracy",
+   "photo": "https://image.tmdb.org/t/p/w185/lP5rlqK8YIqobtFghURPbNdN5zw.jpg",
+   "character": "Blaire Watson",
+   "episodes": 8
+  },
+  {
+   "id": 53454,
+   "name": "Damon Gupton",
+   "photo": "https://image.tmdb.org/t/p/w185/cGLo2i8ghhq5wVkKDlAw3o4Pa36.jpg",
+   "character": "Gregg Edwards",
+   "episodes": 8
+  },
+  {
+   "id": 67206,
+   "name": "Andrew Howard",
+   "photo": "https://image.tmdb.org/t/p/w185/kba1JeCUYHufjB933G5xPRhO8lV.jpg",
+   "character": "Will Decody",
+   "episodes": 8
+  },
+  {
+   "id": 6858,
+   "name": "Mike Vogel",
+   "photo": "https://image.tmdb.org/t/p/w185/5pOkcl3D9JnGMR50gSDaAY2TIry.jpg",
+   "character": "Zack Shelby",
+   "episodes": 7
+  },
+  {
+   "id": 109151,
+   "name": "Jaime Ray Newman",
+   "photo": "https://image.tmdb.org/t/p/w185/2NZqIILL9BW8fSveWDGBDLoMYN8.jpg",
+   "character": "Rebecca Hamilton",
+   "episodes": 7
+  },
+  {
+   "id": 1257753,
+   "name": "Paloma Kwiatkowski",
+   "photo": "https://image.tmdb.org/t/p/w185/nvMkEC7kISakRzb71gVYqOiZ408.jpg",
+   "character": "Cody Brennan",
+   "episodes": 6
+  },
+  {
+   "id": 15424,
+   "name": "Michael Vartan",
+   "photo": "https://image.tmdb.org/t/p/w185/5HCb1CxwIgiZAjKMe9BG8VtHE80.jpg",
+   "character": "George Heldens",
+   "episodes": 6
+  },
+  {
+   "id": 26852,
+   "name": "Joshua Leonard",
+   "photo": "https://image.tmdb.org/t/p/w185/druE5TIt3eARRwWFDA0punUBGvs.jpg",
+   "character": "James Finnigan",
+   "episodes": 6
+  },
+  {
+   "id": 6069,
+   "name": "Austin Nichols",
+   "photo": "https://image.tmdb.org/t/p/w185/g58TUJ4jtZkrUcbnTbvMXX0dYT1.jpg",
+   "character": "Sam Loomis",
+   "episodes": 6
+  }
+ ],
+ "crew": [
+  {
+   "id": 161839,
+   "name": "Carlton Cuse",
+   "photo": "https://image.tmdb.org/t/p/w185/40GhFizBF2jwU3tUi5FsxJPzDjt.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 50
+  },
+  {
+   "id": 1236253,
+   "name": "Kerry Ehrin",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 50
+  },
+  {
+   "id": 983265,
+   "name": "Anthony Cipriano",
+   "photo": "https://image.tmdb.org/t/p/w185/6BfITYpVrvA8bZCtWpTTDmX2u7h.jpg",
+   "jobs": [
+    "Creator",
+    "Story",
+    "Teleplay"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 71268,
+   "name": "Chris Bacon",
+   "photo": "https://image.tmdb.org/t/p/w185/jsSLnCFc19JfTMlyv0dLdHgFe4b.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 100
+  },
+  {
+   "id": 1212609,
+   "name": "Tucker Gates",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 50
+  },
+  {
+   "id": 1276559,
+   "name": "John Powers Middleton",
+   "photo": "https://image.tmdb.org/t/p/w185/l1h0ZfBBCzCzbHnD9LF1YM0M2Ho.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 50
+  },
+  {
+   "id": 21657,
+   "name": "Vera Farmiga",
+   "photo": "https://image.tmdb.org/t/p/w185/5Vs7huBmTKftwlsc2BPAntyaQYj.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 2351588,
+   "name": "Philip Buiser",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 32
+  },
+  {
+   "id": 21036,
+   "name": "Roy Lee",
+   "photo": "https://image.tmdb.org/t/p/w185/7HGbsI8y3TGK8VQhN5rkaXtQnro.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 936422,
+   "name": "Mark Wolper",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 1828157,
+   "name": "Torrey Speer",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 1828089,
+   "name": "Erica Lipez",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1735045,
+   "name": "Bill Balas",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 167786,
+   "name": "Ed Bianchi",
+   "photo": "https://image.tmdb.org/t/p/w185/a2vb1qvl4iGqNggHip7Lk3RNJLb.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1335372,
+   "name": "Alyson Evans",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1225842,
+   "name": "Steve Kornacki",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:40.805Z"
+}

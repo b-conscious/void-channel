@@ -1,0 +1,344 @@
+{
+ "show": "Boston Legal",
+ "slug": "boston-legal",
+ "tmdbId": 4598,
+ "cast": [
+  {
+   "id": 13548,
+   "name": "James Spader",
+   "photo": "https://image.tmdb.org/t/p/w185/3gurW3OgDOD4hcqDfgcqUnoNg34.jpg",
+   "character": "Alan Shore",
+   "episodes": 101
+  },
+  {
+   "id": 1748,
+   "name": "William Shatner",
+   "photo": "https://image.tmdb.org/t/p/w185/puzpe91Lh0CzdRKg9iYilQsjoYk.jpg",
+   "character": "Denny Crane",
+   "episodes": 101
+  },
+  {
+   "id": 11850,
+   "name": "Candice Bergen",
+   "photo": "https://image.tmdb.org/t/p/w185/yDthvXPRkcwSVcPj9QZz3Z7ZH5B.jpg",
+   "character": "Shirley Schmidt",
+   "episodes": 91
+  },
+  {
+   "id": 136530,
+   "name": "Mark Valley",
+   "photo": "https://image.tmdb.org/t/p/w185/ffHfLKffDbh2BzGUE0KM88TvoYF.jpg",
+   "character": "Brad Chase",
+   "episodes": 70
+  },
+  {
+   "id": 9807,
+   "name": "René Auberjonois",
+   "photo": "https://image.tmdb.org/t/p/w185/1EZ6FnJGzwRl7XndkX8fBo8Tej3.jpg",
+   "character": "Paul Lewiston",
+   "episodes": 70
+  },
+  {
+   "id": 31171,
+   "name": "Julie Bowen",
+   "photo": "https://image.tmdb.org/t/p/w185/5ewqnbPAY0EzZObGHIKU4VsCanD.jpg",
+   "character": "Denise Bauer",
+   "episodes": 52
+  },
+  {
+   "id": 41517,
+   "name": "Christian Clemenson",
+   "photo": "https://image.tmdb.org/t/p/w185/uki9bmhoR4V4x0E7uVTCj9iZwNy.jpg",
+   "character": "Jerry Espenson",
+   "episodes": 50
+  },
+  {
+   "id": 54043,
+   "name": "Gary Anthony Williams",
+   "photo": "https://image.tmdb.org/t/p/w185/96BbiV8rQOeGyoDxgrepRd6lUjm.jpg",
+   "character": "Clarence Bell",
+   "episodes": 34
+  },
+  {
+   "id": 14101,
+   "name": "John Larroquette",
+   "photo": "https://image.tmdb.org/t/p/w185/rWXMelYm34YIBOzJJaQrBI50NEp.jpg",
+   "character": "Carl Sack",
+   "episodes": 33
+  },
+  {
+   "id": 72003,
+   "name": "Tara Summers",
+   "photo": "https://image.tmdb.org/t/p/w185/cCSQ3X9aue69JD8SVlwG00wrqzs.jpg",
+   "character": "Katie Lloyd",
+   "episodes": 33
+  },
+  {
+   "id": 156204,
+   "name": "Constance Zimmer",
+   "photo": "https://image.tmdb.org/t/p/w185/6lnaGnzw6ZBwomgdjN1cGqp7HNq.jpg",
+   "character": "Claire Simms",
+   "episodes": 24
+  },
+  {
+   "id": 19439,
+   "name": "Henry Gibson",
+   "photo": "https://image.tmdb.org/t/p/w185/2Py2ZzFfTobPIHEKRYuWHhxRDqF.jpg",
+   "character": "Judge Brown",
+   "episodes": 24
+  },
+  {
+   "id": 9825,
+   "name": "Saffron Burrows",
+   "photo": "https://image.tmdb.org/t/p/w185/2qMLZh9XWquBt7TZF9wmDiOtJdm.jpg",
+   "character": "Lorraine Weller",
+   "episodes": 20
+  },
+  {
+   "id": 25702,
+   "name": "Rhona Mitra",
+   "photo": "https://image.tmdb.org/t/p/w185/1YThpok3Wk3BBy0pcUTcpuZyOBB.jpg",
+   "character": "Tara Wilson",
+   "episodes": 20
+  },
+  {
+   "id": 2140,
+   "name": "Monica Potter",
+   "photo": "https://image.tmdb.org/t/p/w185/jCFOlFAjNPMkX9pJF2Au0cquZ6v.jpg",
+   "character": "Lori Colson",
+   "episodes": 20
+  },
+  {
+   "id": 40036,
+   "name": "Taraji P. Henson",
+   "photo": "https://image.tmdb.org/t/p/w185/jUU2X9mDwJaAniEmJOfvImBS9qb.jpg",
+   "character": "Whitney Rome",
+   "episodes": 20
+  },
+  {
+   "id": 172388,
+   "name": "Meredith Eaton",
+   "photo": "https://image.tmdb.org/t/p/w185/agxaT28ahH8LbyFi7GM8pxociIs.jpg",
+   "character": "Bethany Horowitz",
+   "episodes": 18
+  },
+  {
+   "id": 71727,
+   "name": "Betty White",
+   "photo": "https://image.tmdb.org/t/p/w185/2Vlr5E1EoD4GglLHoSolLztBQWM.jpg",
+   "character": "Catherine Piper",
+   "episodes": 16
+  },
+  {
+   "id": 14886,
+   "name": "Craig Bierko",
+   "photo": "https://image.tmdb.org/t/p/w185/btsSJRxc0i7Xty1R0iCYOnbTuDE.jpg",
+   "character": "Jeffrey Coho",
+   "episodes": 14
+  },
+  {
+   "id": 25703,
+   "name": "Lake Bell",
+   "photo": "https://image.tmdb.org/t/p/w185/sITVdq39jtR1l3VohWYDyxorx1v.jpg",
+   "character": "Sally Heep",
+   "episodes": 13
+  },
+  {
+   "id": 56595,
+   "name": "Marisa Coughlan",
+   "photo": "https://image.tmdb.org/t/p/w185/m6bzAs1IRRqWZjlVI01JeBUDL9u.jpg",
+   "character": "Melissa Hughes",
+   "episodes": 13
+  },
+  {
+   "id": 84850,
+   "name": "Justin Mentell",
+   "photo": "https://image.tmdb.org/t/p/w185/2DWh1LVIcgPiHxHgZkJKk1LJwiH.jpg",
+   "character": "Garrett Wells",
+   "episodes": 12
+  },
+  {
+   "id": 10403,
+   "name": "Shelley Berman",
+   "photo": "https://image.tmdb.org/t/p/w185/2BSAgiQ1vuD7I04mteW0BGw89ro.jpg",
+   "character": "Judge Robert Sanders",
+   "episodes": 11
+  },
+  {
+   "id": 3094896,
+   "name": "Jill Brennan",
+   "photo": null,
+   "character": "Gracie Jane",
+   "episodes": 11
+  }
+ ],
+ "crew": [
+  {
+   "id": 59650,
+   "name": "David E. Kelley",
+   "photo": "https://image.tmdb.org/t/p/w185/rn8r38XqBV4yNhm9AJY93i9Jf6m.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 101
+  },
+  {
+   "id": 1213545,
+   "name": "Mike Listo",
+   "photo": "https://image.tmdb.org/t/p/w185/5fbVFsobCvTgC14WQkPI1O3knsk.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 101
+  },
+  {
+   "id": 155007,
+   "name": "Bill D'Elia",
+   "photo": "https://image.tmdb.org/t/p/w185/7f7wWAkx0Ob59vPFXOAGDOh5UkQ.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 101
+  },
+  {
+   "id": 1215084,
+   "name": "Lawrence Broch",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 77
+  },
+  {
+   "id": 1213785,
+   "name": "Janet Leahy",
+   "photo": "https://image.tmdb.org/t/p/w185/qqIWK1VTKoKzsSCUQtfW0Bxn8ky.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 47
+  },
+  {
+   "id": 1213744,
+   "name": "Scott Kaufer",
+   "photo": "https://image.tmdb.org/t/p/w185/xauQHAVIJalypoxD43MdH4Zx0Ug.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 21
+  },
+  {
+   "id": 3668307,
+   "name": "Susan Dickes",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 1213735,
+   "name": "Michael Reisz",
+   "photo": "https://image.tmdb.org/t/p/w185/yUBGvoyNq97LAKICq6wkprutvqa.jpg",
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1228663,
+   "name": "Sanford Golden",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1372396,
+   "name": "Karen Wyscarver",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 57986,
+   "name": "Phoef Sutton",
+   "photo": "https://image.tmdb.org/t/p/w185/4F1uvWAqzDIOfC7OTwTAyf1BkwG.jpg",
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1216615,
+   "name": "Andrew Kreisberg",
+   "photo": "https://image.tmdb.org/t/p/w185/dm1kNRSLuPKYW4X1CPdO50cqyYJ.jpg",
+   "jobs": [
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1224053,
+   "name": "Corinne Brinkerhoff",
+   "photo": "https://image.tmdb.org/t/p/w185/iEeD2QAg2Sm14QAlgpivNtAlU8O.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 2324661,
+   "name": "Robert Yannetti",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1224091,
+   "name": "Steve Robin",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 202694,
+   "name": "Jonathan Shapiro",
+   "photo": "https://image.tmdb.org/t/p/w185/aMObIKvqEAjA2gQcJDRPho3BiU6.jpg",
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 7
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:10.434Z"
+}

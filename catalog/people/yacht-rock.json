@@ -1,0 +1,214 @@
+{
+ "show": "Yacht Rock",
+ "slug": "yacht-rock",
+ "tmdbId": 6264,
+ "cast": [
+  {
+   "id": 1684558,
+   "name": "Steve Huey",
+   "photo": null,
+   "character": "\"Hollywood\" Steve Huey / Baxter Skunkton / \"Hollywood\" Steve Huey",
+   "episodes": 12
+  },
+  {
+   "id": 1684559,
+   "name": "J.D. Ryznar",
+   "photo": null,
+   "character": "Michael McDonald / William Anderson",
+   "episodes": 12
+  },
+  {
+   "id": 1684560,
+   "name": "Hunter Stair",
+   "photo": null,
+   "character": "Jethro Tull / Kenny Loggins",
+   "episodes": 12
+  },
+  {
+   "id": 1696520,
+   "name": "Russell Walters",
+   "photo": null,
+   "character": "Bassist / David Paich / Patrick Simmons",
+   "episodes": 9
+  },
+  {
+   "id": 1696521,
+   "name": "Amos Przekaza",
+   "photo": null,
+   "character": "Drummer / The News / Doobie Drummer",
+   "episodes": 7
+  },
+  {
+   "id": 1408766,
+   "name": "Dan Sachoff",
+   "photo": "https://image.tmdb.org/t/p/w185/i0ogjEzllCYCo6W0JsxdIkQoYF2.jpg",
+   "character": "Gene Balboa / Gino Balzerelli / Gene Balboa",
+   "episodes": 6
+  },
+  {
+   "id": 1684561,
+   "name": "David B. Lyons",
+   "photo": null,
+   "character": "Krelkrelkrelkrelkrelkrel / Jack Moore / Brad (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 1293993,
+   "name": "Wade Randolph",
+   "photo": null,
+   "character": "Jeff \"Skunk\" Baxter (Skunk Double) / Daryl Hall",
+   "episodes": 5
+  },
+  {
+   "id": 1245733,
+   "name": "Justin Roiland",
+   "photo": "https://image.tmdb.org/t/p/w185/wYApP38aXe6ZcEtlBAfNRxJTQQi.jpg",
+   "character": "Christopher Cross",
+   "episodes": 4
+  },
+  {
+   "id": 1684562,
+   "name": "Lane Farnham",
+   "photo": null,
+   "character": "Jim Messina",
+   "episodes": 4
+  },
+  {
+   "id": 1696509,
+   "name": "Jeremy Hurlburt",
+   "photo": null,
+   "character": "Jeff \"Skunk\" Baxter",
+   "episodes": 4
+  },
+  {
+   "id": 1087245,
+   "name": "Drew Hancock",
+   "photo": "https://image.tmdb.org/t/p/w185/zJFrGcCFfuefiQyW3SHRXIib6LV.jpg",
+   "character": "Otes / John Oates",
+   "episodes": 4
+  },
+  {
+   "id": 1701437,
+   "name": "Luke Rose",
+   "photo": null,
+   "character": "Tom Savarese / Tom Savarese (DJ) / Guitarist",
+   "episodes": 4
+  },
+  {
+   "id": 1701438,
+   "name": "Todd Bishop",
+   "photo": null,
+   "character": "Walter Becker",
+   "episodes": 3
+  },
+  {
+   "id": 1181366,
+   "name": "Myke Chilian",
+   "photo": null,
+   "character": "Donald Fagen",
+   "episodes": 3
+  },
+  {
+   "id": 1701439,
+   "name": "Abed Gheith",
+   "photo": null,
+   "character": "Steve Perry",
+   "episodes": 3
+  },
+  {
+   "id": 1695728,
+   "name": "Kelly Kubik",
+   "photo": null,
+   "character": "Partygoer / Sarah",
+   "episodes": 3
+  },
+  {
+   "id": 559457,
+   "name": "Steve Agee",
+   "photo": "https://image.tmdb.org/t/p/w185/sbMpatWydjTl2cTcDXFMTgCkEBO.jpg",
+   "character": "Steve Porcaro",
+   "episodes": 3
+  },
+  {
+   "id": 1696517,
+   "name": "Erin Hill",
+   "photo": null,
+   "character": "Koko's Arm Candy #2 / Curious Onlooker / Parrothead Dancer",
+   "episodes": 3
+  },
+  {
+   "id": 1701457,
+   "name": "Erni Walker",
+   "photo": null,
+   "character": "Bette Midler / Partygoer / Parrothead Dancer",
+   "episodes": 3
+  },
+  {
+   "id": 1245919,
+   "name": "Mike Rose",
+   "photo": null,
+   "character": "Alex Van Halen / Dionne Warwick / Parrothead Dancer",
+   "episodes": 3
+  },
+  {
+   "id": 57194,
+   "name": "Dan Harmon",
+   "photo": "https://image.tmdb.org/t/p/w185/gDwFosoyPTd0pmnKParzGj3kaMg.jpg",
+   "character": "Ted Templeman",
+   "episodes": 2
+  },
+  {
+   "id": 1696519,
+   "name": "Jessie Matekunas",
+   "photo": null,
+   "character": "Curious Onlooker / Partygoer",
+   "episodes": 2
+  },
+  {
+   "id": 1696516,
+   "name": "Megan Geckler",
+   "photo": null,
+   "character": "Koko's Arm Candy #1 / Kiki \"Beaver\" Baxter",
+   "episodes": 2
+  }
+ ],
+ "crew": [
+  {
+   "id": 1684559,
+   "name": "J.D. Ryznar",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Director",
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1684562,
+   "name": "Lane Farnham",
+   "photo": null,
+   "jobs": [
+    "Creator"
+   ]
+  },
+  {
+   "id": 1684560,
+   "name": "Hunter Stair",
+   "photo": null,
+   "jobs": [
+    "Creator"
+   ]
+  },
+  {
+   "id": 1684558,
+   "name": "Steve Huey",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:37:28.074Z"
+}

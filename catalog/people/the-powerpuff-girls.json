@@ -1,0 +1,328 @@
+{
+ "show": "The Powerpuff Girls",
+ "slug": "the-powerpuff-girls",
+ "tmdbId": 607,
+ "cast": [
+  {
+   "id": 64948,
+   "name": "Cathy Cavadini",
+   "photo": "https://image.tmdb.org/t/p/w185/9sThx5Ajdy1aBJSppQDbTkmANlA.jpg",
+   "character": "Blossom (voice)",
+   "episodes": 135
+  },
+  {
+   "id": 15762,
+   "name": "Tara Strong",
+   "photo": "https://image.tmdb.org/t/p/w185/Cm3X7CCSuYbjW1ZKJ8vxCj4SI7.jpg",
+   "character": "Bubbles (voice)",
+   "episodes": 135
+  },
+  {
+   "id": 15274,
+   "name": "E. G. Daily",
+   "photo": "https://image.tmdb.org/t/p/w185/sWLXj0yvpMEsZTIsS1ReVQzGnwO.jpg",
+   "character": "Buttercup (voice)",
+   "episodes": 135
+  },
+  {
+   "id": 78798,
+   "name": "Tom Kenny",
+   "photo": "https://image.tmdb.org/t/p/w185/kftXtExrcoTTjyeYmSXJ0Ogr3R7.jpg",
+   "character": "Mayor / Snake / Lil' Arturo / Narrator (voice)",
+   "episodes": 135
+  },
+  {
+   "id": 71535,
+   "name": "Tom Kane",
+   "photo": "https://image.tmdb.org/t/p/w185/sq49aVP56G50Nr5kCL7Ove6Z9jE.jpg",
+   "character": "Professor Utonium / Him / Talking Dog (voice)",
+   "episodes": 135
+  },
+  {
+   "id": 51957,
+   "name": "Roger L. Jackson",
+   "photo": "https://image.tmdb.org/t/p/w185/kDAoLRPVKgfTXRhDep0JNouhyAV.jpg",
+   "character": "Mojo Jojo (voice)",
+   "episodes": 135
+  },
+  {
+   "id": 27694,
+   "name": "Jennifer Martin",
+   "photo": "https://image.tmdb.org/t/p/w185/v6nGkgJCEbhyEjhWnQjxeF7QucF.jpg",
+   "character": "Ms. Sara Bellum (voice)",
+   "episodes": 135
+  },
+  {
+   "id": 81667,
+   "name": "Jennifer Hale",
+   "photo": "https://image.tmdb.org/t/p/w185/oNQCrdiSm0mABCcE5YaHwuZQK8X.jpg",
+   "character": "Ms. Keane / Princess Morbucks / Sedusa (voice)",
+   "episodes": 135
+  },
+  {
+   "id": 12077,
+   "name": "Jim Cummings",
+   "photo": "https://image.tmdb.org/t/p/w185/c0sQPRCM5Ri3F4gVyxPr4AcPmIq.jpg",
+   "character": "Fuzzy Lumpkins (voice)",
+   "episodes": 135
+  },
+  {
+   "id": 34982,
+   "name": "Jeff Bennett",
+   "photo": "https://image.tmdb.org/t/p/w185/6Fq3Q1e0Oz0j2J2fnFSl7fKCHd9.jpg",
+   "character": "Ace / Grubber / Big Billy (voice)",
+   "episodes": 135
+  },
+  {
+   "id": 88450,
+   "name": "Chuck McCann",
+   "photo": "https://image.tmdb.org/t/p/w185/s3qNTQbRHRfbLd2rdtEl0Lmh2va.jpg",
+   "character": "The Amoeba Boys (voice)",
+   "episodes": 135
+  },
+  {
+   "id": 43125,
+   "name": "Rob Paulsen",
+   "photo": "https://image.tmdb.org/t/p/w185/7buvKWIjPlspqruaO3b28V5owJr.jpg",
+   "character": "Brick / Boomer (voice) / Puppet Pal Mitch (voice) / Dad / Little Utonium / Mr. Anoush / Junior / Schoolboy #1 (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 1217658,
+   "name": "Julie Nathanson",
+   "photo": "https://image.tmdb.org/t/p/w185/sWAQkAZcs8GnsLg6nQdWf4uI9M9.jpg",
+   "character": "Science Teacher / Schoolgirl #1 / Young Ms. Bellum (voice) / Robin (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 95257,
+   "name": "Candi Milo",
+   "photo": "https://image.tmdb.org/t/p/w185/tUjXMG2118Oagj7IjWJDEdmtCRW.jpg",
+   "character": "Newswoman (voice) / Cleaning Woman (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 31549,
+   "name": "Phil LaMarr",
+   "photo": "https://image.tmdb.org/t/p/w185/xP2kNlsmXtzXq0geutflO4K9mSE.jpg",
+   "character": "Katanga (voice) / Bouncer / Guvn'r / Big John / Peses Bill (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 24362,
+   "name": "Kevin Michael Richardson",
+   "photo": "https://image.tmdb.org/t/p/w185/xXt9Nh7RAT5bOen66TaXreNYmCl.jpg",
+   "character": "Alien Leader / Mailman / Government Man #3 (voice) / Shaquille Silverstein / Ya-Man / Announcer (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 89784,
+   "name": "Phyllis Diller",
+   "photo": "https://image.tmdb.org/t/p/w185/teELYDRWmPGAVCzH4n4lX17Wa4J.jpg",
+   "character": "Mask Scara (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 58136,
+   "name": "Christine Cavanaugh",
+   "photo": "https://image.tmdb.org/t/p/w185/8fDGffuBfbMTRTALHpSQQvuzSuO.jpg",
+   "character": "Bunny (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 15098,
+   "name": "June Foray",
+   "photo": "https://image.tmdb.org/t/p/w185/6s5sWcOPGtVdbMFtZwkWadArj2I.jpg",
+   "character": "Madame Argentina (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 154106,
+   "name": "Greg Eagles",
+   "photo": "https://image.tmdb.org/t/p/w185/gHFu8h2l0OPyfozNMjoLhanLzi1.jpg",
+   "character": "Sandman (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 2,
+   "name": "Mark Hamill",
+   "photo": "https://image.tmdb.org/t/p/w185/zMQ93JTLW8KxusKhOlHFZhih3YQ.jpg",
+   "character": "Criminal / Cop #1 (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 1218983,
+   "name": "Don Shank",
+   "photo": null,
+   "character": "Naked Guy / Snotty Bank Teller / Man #3 (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 31531,
+   "name": "John DiMaggio",
+   "photo": "https://image.tmdb.org/t/p/w185/qcbQe71nSlULDsP1OxTqltEKFbl.jpg",
+   "character": "Captain Crack McGraigen (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 23680,
+   "name": "Dee Bradley Baker",
+   "photo": "https://image.tmdb.org/t/p/w185/9oFnToDZWp0I484s7Ua1EzNQQ2m.jpg",
+   "character": "Parrot / Reginald (voice)",
+   "episodes": 1
+  }
+ ],
+ "crew": [
+  {
+   "id": 122967,
+   "name": "Craig McCracken",
+   "photo": "https://image.tmdb.org/t/p/w185/lLwber8dRlMhXXw5l1fIeyKicTB.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Writer"
+   ],
+   "episodes": 87
+  },
+  {
+   "id": 23739,
+   "name": "James L. Venable",
+   "photo": "https://image.tmdb.org/t/p/w185/6TzgaALTuc3l8lOctphitbSbh8W.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 135
+  },
+  {
+   "id": 1218982,
+   "name": "Randy Myers",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 47
+  },
+  {
+   "id": 1218980,
+   "name": "John McIntyre",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 46
+  },
+  {
+   "id": 185438,
+   "name": "Genndy Tartakovsky",
+   "photo": "https://image.tmdb.org/t/p/w185/neLR8ws82ezlbhOyUvhtLXwQZWL.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 1217424,
+   "name": "Chris Reccardi",
+   "photo": "https://image.tmdb.org/t/p/w185/oVPYq25hgFO0rsb3MgWOqeMSzXh.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 1087518,
+   "name": "Thomas Chase",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1087519,
+   "name": "Steve Rucker",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1218985,
+   "name": "Cindy Morrow",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 23
+  },
+  {
+   "id": 1218981,
+   "name": "Chris Savino",
+   "photo": "https://image.tmdb.org/t/p/w185/1bhVQMyLtEbifKvDj8k3DRstCqO.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 171254,
+   "name": "Michael Ryan",
+   "photo": "https://image.tmdb.org/t/p/w185/vsGhI7EWjNO0tSzu5uBxDQHu3QH.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 3835575,
+   "name": "Jason Butler Rote",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 81586,
+   "name": "Robert Alvarez",
+   "photo": "https://image.tmdb.org/t/p/w185/xptJnNsxOGz6tE3eJp1hyAVgOvD.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1122954,
+   "name": "Brian Larsen",
+   "photo": "https://image.tmdb.org/t/p/w185/A76emQX5pOx6Kfivckf0isZz5V5.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1224463,
+   "name": "Mike Kim",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 219954,
+   "name": "Lauren Faust",
+   "photo": "https://image.tmdb.org/t/p/w185/yoN9rhztaouYw5FxNPx02gMbLBE.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 7
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:29:37.712Z"
+}

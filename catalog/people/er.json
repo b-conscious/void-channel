@@ -1,0 +1,354 @@
+{
+ "show": "ER",
+ "slug": "er",
+ "tmdbId": 4588,
+ "cast": [
+  {
+   "id": 454973,
+   "name": "Laura Innes",
+   "photo": "https://image.tmdb.org/t/p/w185/eO6hk2e7rowODSAgAq61mnv62Cv.jpg",
+   "character": "Kerry Weaver",
+   "episodes": 259
+  },
+  {
+   "id": 13526,
+   "name": "Noah Wyle",
+   "photo": "https://image.tmdb.org/t/p/w185/nwyLCQepwg8FX7OXJ4AT4ej8c7i.jpg",
+   "character": "John Carter",
+   "episodes": 254
+  },
+  {
+   "id": 16307,
+   "name": "Maura Tierney",
+   "photo": "https://image.tmdb.org/t/p/w185/4BCrwdHdC4iRSDimvkoYaXg2qki.jpg",
+   "character": "Abby Lockhart",
+   "episodes": 208
+  },
+  {
+   "id": 11085,
+   "name": "Anthony Edwards",
+   "photo": "https://image.tmdb.org/t/p/w185/rP88gP87pa3je6Viem3081tESIV.jpg",
+   "character": "Mark Greene",
+   "episodes": 180
+  },
+  {
+   "id": 167146,
+   "name": "Yvette Freeman",
+   "photo": "https://image.tmdb.org/t/p/w185/dZEeLMoDL9O0SRLlmptaxzfUwbT.jpg",
+   "character": "Haleh Adams",
+   "episodes": 179
+  },
+  {
+   "id": 5725,
+   "name": "Goran Višnjić",
+   "photo": "https://image.tmdb.org/t/p/w185/2jFpq46QPjCbRmmGYdW9WSVC47W.jpg",
+   "character": "Luka Kovač",
+   "episodes": 177
+  },
+  {
+   "id": 87568,
+   "name": "Laura Cerón",
+   "photo": "https://image.tmdb.org/t/p/w185/umVKYWvpBPKXYady4rgOkcelmj3.jpg",
+   "character": "Chuny Marquez",
+   "episodes": 175
+  },
+  {
+   "id": 541733,
+   "name": "Deezer D",
+   "photo": "https://image.tmdb.org/t/p/w185/zIBcfwtnfTAcXDJXuGDQW2Gn2LX.jpg",
+   "character": "Malik McGrath",
+   "episodes": 172
+  },
+  {
+   "id": 23628,
+   "name": "Eriq La Salle",
+   "photo": "https://image.tmdb.org/t/p/w185/3h8c10QW6k7Ck0IWko76SUMiD7F.jpg",
+   "character": "Peter Benton",
+   "episodes": 171
+  },
+  {
+   "id": 83701,
+   "name": "Alex Kingston",
+   "photo": "https://image.tmdb.org/t/p/w185/pBK1qMZEFkRAFcfdLb7Z28f6qd2.jpg",
+   "character": "Elizabeth Corday",
+   "episodes": 160
+  },
+  {
+   "id": 157434,
+   "name": "Emily Wagner",
+   "photo": "https://image.tmdb.org/t/p/w185/q5bD23S8u4WkDxsAyYNs3ZNboS2.jpg",
+   "character": "Doris Pickman / Pickman",
+   "episodes": 149
+  },
+  {
+   "id": 33653,
+   "name": "Sherry Stringfield",
+   "photo": "https://image.tmdb.org/t/p/w185/7lPiHUumii7Bc6P5GLd9cVQPZO8.jpg",
+   "character": "Susan Lewis",
+   "episodes": 141
+  },
+  {
+   "id": 25654,
+   "name": "Julianna Margulies",
+   "photo": "https://image.tmdb.org/t/p/w185/erBzXAfkPCcW9sW2cGAcY50RdPm.jpg",
+   "character": "Carol Hathaway",
+   "episodes": 136
+  },
+  {
+   "id": 21132,
+   "name": "Abraham Benrubi",
+   "photo": "https://image.tmdb.org/t/p/w185/d5pQ1PCv0XDnYXZTbX2t5r4AMph.jpg",
+   "character": "Jerry Markovic",
+   "episodes": 134
+  },
+  {
+   "id": 327,
+   "name": "Mekhi Phifer",
+   "photo": "https://image.tmdb.org/t/p/w185/jCvF0bpi9emIWBnu20MCMU0bwrf.jpg",
+   "character": "Greg Pratt",
+   "episodes": 133
+  },
+  {
+   "id": 231610,
+   "name": "Parminder Nagra",
+   "photo": "https://image.tmdb.org/t/p/w185/cjhduysHB3hXjzaCyH5VYEXkT1J.jpg",
+   "character": "Neela Rasgotra",
+   "episodes": 129
+  },
+  {
+   "id": 1337441,
+   "name": "Lyn Alicia Henderson",
+   "photo": "https://image.tmdb.org/t/p/w185/kTzRrupnxlAMwGF3ujxnh2Rr6Wi.jpg",
+   "character": "Pamela Olbes",
+   "episodes": 128
+  },
+  {
+   "id": 31006,
+   "name": "Troy Evans",
+   "photo": "https://image.tmdb.org/t/p/w185/hRdsLKr430COdIIyeHY3QAdg45e.jpg",
+   "character": "Frank Martin",
+   "episodes": 126
+  },
+  {
+   "id": 1817,
+   "name": "Linda Cardellini",
+   "photo": "https://image.tmdb.org/t/p/w185/bcycvynDprC1rrhBNrnBjn5uOUd.jpg",
+   "character": "Samantha Taggart",
+   "episodes": 125
+  },
+  {
+   "id": 32393,
+   "name": "Paul McCrane",
+   "photo": "https://image.tmdb.org/t/p/w185/nzFUnpptZ5hhiivD1lsUcPDB8V0.jpg",
+   "character": "Robert Romano",
+   "episodes": 124
+  },
+  {
+   "id": 21702,
+   "name": "Ming-Na Wen",
+   "photo": "https://image.tmdb.org/t/p/w185/eqCzFF83It56cUdjpskzvg8jgq.jpg",
+   "character": "Jing-Mei Chen",
+   "episodes": 118
+  },
+  {
+   "id": 76463,
+   "name": "Ellen Crawford",
+   "photo": "https://image.tmdb.org/t/p/w185/hp7h2dP4F1wrdYyrMD3aFiMCcrE.jpg",
+   "character": "Lydia Wright",
+   "episodes": 116
+  },
+  {
+   "id": 169707,
+   "name": "Conni Marie Brazelton",
+   "photo": "https://image.tmdb.org/t/p/w185/qSGrmgQWt5hNSNH85qHHc0YglsK.jpg",
+   "character": "Connie Oligario",
+   "episodes": 115
+  },
+  {
+   "id": 35091,
+   "name": "Scott Grimes",
+   "photo": "https://image.tmdb.org/t/p/w185/k5OCDhwZoFuNtN0o4EDkpBXQsFp.jpg",
+   "character": "Archie Morris",
+   "episodes": 114
+  }
+ ],
+ "crew": [
+  {
+   "id": 4782,
+   "name": "Michael Crichton",
+   "photo": "https://image.tmdb.org/t/p/w185/c96x4JWCqxaUHwbzyzh3F5P4XcL.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 331
+  },
+  {
+   "id": 47333,
+   "name": "John Wells",
+   "photo": "https://image.tmdb.org/t/p/w185/j1cEQmFdSkew87UjO354qeppo1G.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 331
+  },
+  {
+   "id": 1211942,
+   "name": "Christopher Chulack",
+   "photo": "https://image.tmdb.org/t/p/w185/oXibKEW4hKZa4PlUHJASohZViCj.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 330
+  },
+  {
+   "id": 1237289,
+   "name": "Joe Sachs",
+   "photo": "https://image.tmdb.org/t/p/w185/wyYlAW2aeWtIN1n8IOmIG0uzYJP.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 196
+  },
+  {
+   "id": 1227308,
+   "name": "R. Scott Gemmill",
+   "photo": "https://image.tmdb.org/t/p/w185/yhZV8Yl3ToOlNxsNCIQ20BiVN4K.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 179
+  },
+  {
+   "id": 1211943,
+   "name": "Lydia Woodward",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 176
+  },
+  {
+   "id": 1181325,
+   "name": "David Zabel",
+   "photo": "https://image.tmdb.org/t/p/w185/6cNrETHijbFi7rm15dJUAxwAjKp.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 152
+  },
+  {
+   "id": 1236549,
+   "name": "Jack Orman",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 132
+  },
+  {
+   "id": 156967,
+   "name": "Dee Johnson",
+   "photo": "https://image.tmdb.org/t/p/w185/xj1I2QsWGNre5Hqd6GwPBq3M6L1.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 110
+  },
+  {
+   "id": 1230748,
+   "name": "Neal Baer",
+   "photo": "https://image.tmdb.org/t/p/w185/tLQ6ngyxWcutCWfPqdnSmzgsap8.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 95
+  },
+  {
+   "id": 1219528,
+   "name": "Carol Flint",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 88
+  },
+  {
+   "id": 1217558,
+   "name": "Janine Sherman Barrois",
+   "photo": "https://image.tmdb.org/t/p/w185/jfpUs55GMBbOzVHfLeO58p2zCVZ.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 84
+  },
+  {
+   "id": 42171,
+   "name": "Jonathan Kaplan",
+   "photo": "https://image.tmdb.org/t/p/w185/zpaZ3UpWRt3HrnR1Mv8u9Mg54Pa.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 41
+  },
+  {
+   "id": 1237308,
+   "name": "Richard Thorpe",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 1237285,
+   "name": "Lisa Zwerling",
+   "photo": "https://image.tmdb.org/t/p/w185/kmyJl8CQYrG0OQgRaqlDiUv05zX.jpg",
+   "jobs": [
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 23
+  },
+  {
+   "id": 1219788,
+   "name": "Paul Manning",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 15
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:31:29.087Z"
+}

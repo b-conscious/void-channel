@@ -1,0 +1,287 @@
+{
+ "show": "Tokyo Revengers",
+ "slug": "tokyo-revengers",
+ "tmdbId": 105009,
+ "cast": [
+  {
+   "id": 2603957,
+   "name": "Yuuki Shin",
+   "photo": "https://image.tmdb.org/t/p/w185/pyOAlLSA9ZabbVy5HD8j9QuUdV8.jpg",
+   "character": "Takemichi Hanagaki (voice)",
+   "episodes": 55
+  },
+  {
+   "id": 1647634,
+   "name": "Azumi Waki",
+   "photo": "https://image.tmdb.org/t/p/w185/nxm4DLWv0BOcK2owvAz5yafSAXj.jpg",
+   "character": "Hinata Tachibana (voice)",
+   "episodes": 55
+  },
+  {
+   "id": 1324468,
+   "name": "Ryota Osaka",
+   "photo": "https://image.tmdb.org/t/p/w185/d2TGy8Qkxe90tGDr9MCXFGkhbPl.jpg",
+   "character": "Naoto Tachibana (voice)",
+   "episodes": 55
+  },
+  {
+   "id": 1254290,
+   "name": "Yuu Hayashi",
+   "photo": "https://image.tmdb.org/t/p/w185/tCABSsjU9fWZqTtOAGTGcUnEF2p.jpg",
+   "character": "Manjiro 'Mikey' Sano (voice)",
+   "episodes": 55
+  },
+  {
+   "id": 1154452,
+   "name": "Tatsuhisa Suzuki",
+   "photo": "https://image.tmdb.org/t/p/w185/foytL2OreKzQcTNftz2qMgClKKg.jpg",
+   "character": "Ken 'Doraken' Ryuguji (voice)",
+   "episodes": 55
+  },
+  {
+   "id": 222350,
+   "name": "Takuma Terashima",
+   "photo": "https://image.tmdb.org/t/p/w185/n5uCihb318AzQCT9gieMlI2ueYL.jpg",
+   "character": "Atsushi Sendo (voice)",
+   "episodes": 55
+  },
+  {
+   "id": 1647556,
+   "name": "Yuya Hirose",
+   "photo": "https://image.tmdb.org/t/p/w185/jRe7ICqrCsaEWVD8jAmJdc7XwnQ.jpg",
+   "character": "Takuya Yamamoto (voice)",
+   "episodes": 55
+  },
+  {
+   "id": 1563016,
+   "name": "Shunsuke Takeuchi",
+   "photo": "https://image.tmdb.org/t/p/w185/p1bD76bPptJ41mKRtv0mIr8ZcvO.jpg",
+   "character": "Makoto Suzuki (voice)",
+   "episodes": 55
+  },
+  {
+   "id": 2319734,
+   "name": "Shota Hayama",
+   "photo": "https://image.tmdb.org/t/p/w185/q5THNf2FJdlzAFRcWtfwZGC4iqh.jpg",
+   "character": "Kazushi Yamagishi (voice)",
+   "episodes": 55
+  },
+  {
+   "id": 224413,
+   "name": "Satoshi Hino",
+   "photo": "https://image.tmdb.org/t/p/w185/8ZJIiwIVF2zDyyFr7oXewj0eEuu.jpg",
+   "character": "Masataka Koyomizu (voice)",
+   "episodes": 55
+  },
+  {
+   "id": 2376502,
+   "name": "Masaaki Mizunaka",
+   "photo": "https://image.tmdb.org/t/p/w185/cHb2pr4juxk8A3VTuDxgPWHM6WF.jpg",
+   "character": "Keisuke Baji (voice)",
+   "episodes": 55
+  },
+  {
+   "id": 1142780,
+   "name": "Subaru Kimura",
+   "photo": "https://image.tmdb.org/t/p/w185/8o24ix4Lk9WduRXFDI6Nmip5Deq.jpg",
+   "character": "Haruki Hayashida (voice)",
+   "episodes": 55
+  },
+  {
+   "id": 2799229,
+   "name": "Yukihiro Nozuyama",
+   "photo": "https://image.tmdb.org/t/p/w185/t3bTqgwBEiMxBZz0WPSNiADHB8s.jpg",
+   "character": "Ryohei Hayashi (voice)",
+   "episodes": 55
+  },
+  {
+   "id": 1324472,
+   "name": "Kengo Kawanishi",
+   "photo": "https://image.tmdb.org/t/p/w185/s0CxrO6LixJBgqiHEUjKelAh8ei.jpg",
+   "character": "Nahoya Kawata (voice)",
+   "episodes": 55
+  },
+  {
+   "id": 1241498,
+   "name": "Daisuke Ono",
+   "photo": "https://image.tmdb.org/t/p/w185/5rjl28lx84JjRS0hzq3Ajvx2dhp.jpg",
+   "character": "Yasuhiro Muto (voice)",
+   "episodes": 55
+  },
+  {
+   "id": 1597101,
+   "name": "Eiji Takeuchi",
+   "photo": "https://image.tmdb.org/t/p/w185/1qMbZGM7i9oEiHQvInY14UNZ2gk.jpg",
+   "character": "Nobutaka Osanai (voice)",
+   "episodes": 55
+  },
+  {
+   "id": 233590,
+   "name": "Yoshitsugu Matsuoka",
+   "photo": "https://image.tmdb.org/t/p/w185/ugDwdWEXnmv43jcbnfAi4XwiQ8C.jpg",
+   "character": "Takashi Mitsuya (voice)",
+   "episodes": 55
+  },
+  {
+   "id": 9714,
+   "name": "Showtaro Morikubo",
+   "photo": "https://image.tmdb.org/t/p/w185/mSTqMg8fls9pJO3Qwe47nawJ4vX.jpg",
+   "character": "Tetta Kisaki (voice)",
+   "episodes": 55
+  },
+  {
+   "id": 1248374,
+   "name": "Takuya Eguchi",
+   "photo": "https://image.tmdb.org/t/p/w185/hPPhUp0mM65Lc87Q8WXUEmGQAXx.jpg",
+   "character": "Shuji Hanma (voice)",
+   "episodes": 55
+  }
+ ],
+ "crew": [
+  {
+   "id": 1424871,
+   "name": "Yasuyuki Muto",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 85
+  },
+  {
+   "id": 2818478,
+   "name": "Takahiro Sasaki",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 55
+  },
+  {
+   "id": 1315181,
+   "name": "Hiroo Maruyama",
+   "photo": "https://image.tmdb.org/t/p/w185/uI0WlFnSK1YjERWtphtal8OWJ4q.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 55
+  },
+  {
+   "id": 3396038,
+   "name": "Yoshio Kaneko",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 55
+  },
+  {
+   "id": 2658630,
+   "name": "Haruki Satomi",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 55
+  },
+  {
+   "id": 1955718,
+   "name": "Hiroaki Matsuura",
+   "photo": "https://image.tmdb.org/t/p/w185/t08yVSNn7JKOHfWU91468rSb3f.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 55
+  },
+  {
+   "id": 1493763,
+   "name": "Hiroaki Tsutsumi",
+   "photo": "https://image.tmdb.org/t/p/w185/gjZTF2jtGqvGY4F6XywHCweVkMb.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 55
+  },
+  {
+   "id": 1506145,
+   "name": "Seiko Takagi",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1906526,
+   "name": "Koji Aritomi",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 2147194,
+   "name": "Yoriko Tomita",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1504290,
+   "name": "Rion Kujo",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 3842643,
+   "name": "Kenichi Kuhara",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 3073449,
+   "name": "Yoshinobu Kasai",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 3570336,
+   "name": "Yuu Harima",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 3073789,
+   "name": "Rei Nakahara",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 2764728,
+   "name": "Ryuhei Aoyagi",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:38:28.004Z"
+}

@@ -1,0 +1,338 @@
+{
+ "show": "Outer Banks",
+ "slug": "outer-banks",
+ "tmdbId": 100757,
+ "cast": [
+  {
+   "id": 2077864,
+   "name": "Chase Stokes",
+   "photo": "https://image.tmdb.org/t/p/w185/a9w81CDv6PQfeUdLFDgeOFpoU5T.jpg",
+   "character": "John B. Routledge",
+   "episodes": 50
+  },
+  {
+   "id": 1642789,
+   "name": "Madelyn Cline",
+   "photo": "https://image.tmdb.org/t/p/w185/6bFItWARGJFRrkhBaZtvLJf6VRQ.jpg",
+   "character": "Sarah Cameron",
+   "episodes": 50
+  },
+  {
+   "id": 2232225,
+   "name": "Madison Bailey",
+   "photo": "https://image.tmdb.org/t/p/w185/tCQKV0zCymQHRz9juO0nid7yc2K.jpg",
+   "character": "Kiara Carrera",
+   "episodes": 50
+  },
+  {
+   "id": 2119719,
+   "name": "Jonathan Daviss",
+   "photo": "https://image.tmdb.org/t/p/w185/iF4sSkonvlw1mdfAOFnr1CJtGeZ.jpg",
+   "character": "Pope Heyward",
+   "episodes": 50
+  },
+  {
+   "id": 1939676,
+   "name": "Drew Starkey",
+   "photo": "https://image.tmdb.org/t/p/w185/iUPJrhsqgvF6CydzGfRzJG0wLiF.jpg",
+   "character": "Rafe Cameron",
+   "episodes": 50
+  },
+  {
+   "id": 1974046,
+   "name": "Rudy Pankow",
+   "photo": "https://image.tmdb.org/t/p/w185/204FlvdJL9mLRkJP1tuJpg01Ml8.jpg",
+   "character": "JJ Maybank",
+   "episodes": 40
+  },
+  {
+   "id": 1215021,
+   "name": "Cullen Moss",
+   "photo": "https://image.tmdb.org/t/p/w185/zjVvER4Bg4mz38u2JQfLgypYrSP.jpg",
+   "character": "Shoupe / Deputy Shoupe / Sheriff Shoupe",
+   "episodes": 37
+  },
+  {
+   "id": 1628686,
+   "name": "Carlacia Grant",
+   "photo": "https://image.tmdb.org/t/p/w185/cY080cdAlJtu3J7GMHcnDP7ER1L.jpg",
+   "character": "Cleo",
+   "episodes": 34
+  },
+  {
+   "id": 1449393,
+   "name": "Austin North",
+   "photo": "https://image.tmdb.org/t/p/w185/AuamGbm12flhZ0K95hhdyhYAbBS.jpg",
+   "character": "Topper Thornton / Topper",
+   "episodes": 32
+  },
+  {
+   "id": 157412,
+   "name": "Charles Esten",
+   "photo": "https://image.tmdb.org/t/p/w185/pd5Z0xe1CCRtaprwxdnP1rncNxj.jpg",
+   "character": "Ward Cameron",
+   "episodes": 31
+  },
+  {
+   "id": 1784633,
+   "name": "Marland Burke",
+   "photo": "https://image.tmdb.org/t/p/w185/1cnzDgXGykQTYyPClntywkEZaSy.jpg",
+   "character": "Mike Carrera",
+   "episodes": 26
+  },
+  {
+   "id": 1890583,
+   "name": "Caroline Arapoglou",
+   "photo": "https://image.tmdb.org/t/p/w185/rsqUXf788KTP5KBGJdWve1GeAZv.jpg",
+   "character": "Rose / Rose Cameron",
+   "episodes": 25
+  },
+  {
+   "id": 41020,
+   "name": "E. Roger Mitchell",
+   "photo": "https://image.tmdb.org/t/p/w185/tKvwSO725HZ6cHdL2FzYCobPDzu.jpg",
+   "character": "Heyward",
+   "episodes": 24
+  },
+  {
+   "id": 2638304,
+   "name": "Fiona Palomo",
+   "photo": "https://image.tmdb.org/t/p/w185/fWA3iIpU1MH43J0ke2ui6vGbJ5R.jpg",
+   "character": "Sofia",
+   "episodes": 23
+  },
+  {
+   "id": 1292647,
+   "name": "Samantha Soule",
+   "photo": "https://image.tmdb.org/t/p/w185/eJgCwu6faqnWVbWWsOQ2iovWI7G.jpg",
+   "character": "Anna Carrera",
+   "episodes": 22
+  },
+  {
+   "id": 1233976,
+   "name": "J Anthony Crane",
+   "photo": null,
+   "character": "Chandler Groff",
+   "episodes": 20
+  },
+  {
+   "id": 1529205,
+   "name": "Julia Antonelli",
+   "photo": "https://image.tmdb.org/t/p/w185/pbKAJa081o5pSi9i5syoVObpytJ.jpg",
+   "character": "Wheezie Cameron / Wheezie",
+   "episodes": 20
+  },
+  {
+   "id": 1499398,
+   "name": "Nicholas Cirillo",
+   "photo": "https://image.tmdb.org/t/p/w185/wjZRcdKRqJ7Lod2rSTYlrdQxIOl.jpg",
+   "character": "Barry",
+   "episodes": 18
+  },
+  {
+   "id": 3131490,
+   "name": "Deion Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/iSP83nz4TCHaPBoxGadaUwktwgm.jpg",
+   "character": "Kelce",
+   "episodes": 16
+  },
+  {
+   "id": 134424,
+   "name": "Charles Halford",
+   "photo": "https://image.tmdb.org/t/p/w185/mrCy6dA5AHqczA4aJX4drCQ3tjC.jpg",
+   "character": "Big John",
+   "episodes": 14
+  },
+  {
+   "id": 92730,
+   "name": "Pollyanna McIntosh",
+   "photo": "https://image.tmdb.org/t/p/w185/c2YsFhPEEXEgqMTgASdvVoOkbnH.jpg",
+   "character": "Dalia",
+   "episodes": 12
+  },
+  {
+   "id": 3966121,
+   "name": "Chris Gerard",
+   "photo": "https://image.tmdb.org/t/p/w185/7Rdb5kSs1yj1rhYah4CJiLHDhWn.jpg",
+   "character": "Mr. Sunn",
+   "episodes": 11
+  },
+  {
+   "id": 2231939,
+   "name": "Tonia Jackson",
+   "photo": "https://image.tmdb.org/t/p/w185/sYejZeM9PEARBg1thoMThlYtpFi.jpg",
+   "character": "Mrs. Heyward / Cara Heyward",
+   "episodes": 11
+  },
+  {
+   "id": 1448904,
+   "name": "Rigo Sanchez",
+   "photo": "https://image.tmdb.org/t/p/w185/7txWYC6icQAcWWhoamTkO66teCg.jpg",
+   "character": "Lightner",
+   "episodes": 10
+  }
+ ],
+ "crew": [
+  {
+   "id": 74429,
+   "name": "Josh Pate",
+   "photo": "https://image.tmdb.org/t/p/w185/9AwNBQK1E2m8xUDa4RlbCGJp00Y.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 50
+  },
+  {
+   "id": 2432115,
+   "name": "Shannon Burke",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 50
+  },
+  {
+   "id": 77086,
+   "name": "Jonas Pate",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 50
+  },
+  {
+   "id": 1525811,
+   "name": "Fil Eisler",
+   "photo": "https://image.tmdb.org/t/p/w185/wxEJDXEIPAL4aPIZrAQSWffQdQO.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 50
+  },
+  {
+   "id": 2437483,
+   "name": "Joey Elkins",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Teleplay"
+   ],
+   "episodes": 33
+  },
+  {
+   "id": 6424427,
+   "name": "Crystal Garland",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Story"
+   ],
+   "episodes": 33
+  },
+  {
+   "id": 3125201,
+   "name": "Rachel Alter",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 6424431,
+   "name": "Kathleen Hale",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1658519,
+   "name": "Nicholas Schutt",
+   "photo": "https://image.tmdb.org/t/p/w185/mJFTtbc6k0ReoUD09VbwZpnHM38.jpg",
+   "jobs": [
+    "Story"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1038019,
+   "name": "Valerie Weiss",
+   "photo": "https://image.tmdb.org/t/p/w185/4MbkoqwBfuv71Zcnac5aaxBF0Pz.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1099278,
+   "name": "Gonzalo Amat",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 81727,
+   "name": "Darnell Martin",
+   "photo": "https://image.tmdb.org/t/p/w185/ckJYoBeDRT6DgqfyEA1LWdIQjr1.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 212406,
+   "name": "Erica Dunton",
+   "photo": "https://image.tmdb.org/t/p/w185/1NFkYeN7qAgck8eQhkwMOIMQtIJ.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 56670,
+   "name": "Darren Genet",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 118471,
+   "name": "Cherie Nowlan",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 55079,
+   "name": "Lukas Ettlin",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:34:00.436Z"
+}

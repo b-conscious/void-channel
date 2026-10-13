@@ -1,0 +1,331 @@
+{
+ "show": "Magnum P.I.",
+ "slug": "magnum-p-i",
+ "tmdbId": 734,
+ "cast": [
+  {
+   "id": 15112,
+   "name": "Tom Selleck",
+   "photo": "https://image.tmdb.org/t/p/w185/s9QR2FMnXSpq8Blx1KbbbaTrWee.jpg",
+   "character": "Thomas Magnum",
+   "episodes": 162
+  },
+  {
+   "id": 12296,
+   "name": "John Hillerman",
+   "photo": "https://image.tmdb.org/t/p/w185/zRuuhcWG1jjzZaQaeUEV76guU7D.jpg",
+   "character": "Jonathan Higgins",
+   "episodes": 162
+  },
+  {
+   "id": 42156,
+   "name": "Roger E. Mosley",
+   "photo": "https://image.tmdb.org/t/p/w185/yfwVeu1cPAFgRJEo8WaiBj6dWTS.jpg",
+   "character": "Terry 'TC' Calvin",
+   "episodes": 162
+  },
+  {
+   "id": 159648,
+   "name": "Larry Manetti",
+   "photo": "https://image.tmdb.org/t/p/w185/dMvNdXKMC0hHl0pvnKq1o2OYKyv.jpg",
+   "character": "Rick Wright",
+   "episodes": 162
+  },
+  {
+   "id": 2426911,
+   "name": "Gillian Dobb",
+   "photo": null,
+   "character": "Mabel / Agatha Chumley / Sylvia",
+   "episodes": 49
+  },
+  {
+   "id": 61146,
+   "name": "Kwan Hi Lim",
+   "photo": "https://image.tmdb.org/t/p/w185/ix47n3NSQFac5RdtZKUcf1p26Xd.jpg",
+   "character": "Lieutenant Yoshi Tanaka / Yoshi Tanaka",
+   "episodes": 25
+  },
+  {
+   "id": 1219196,
+   "name": "Jeff MacKay",
+   "photo": "https://image.tmdb.org/t/p/w185/hCFpLeC6AGiovLLF6Pk5liWt91Y.jpg",
+   "character": "Lieutenant McReynolds / The Coroner / Ski",
+   "episodes": 24
+  },
+  {
+   "id": 99885,
+   "name": "Kathleen Lloyd",
+   "photo": "https://image.tmdb.org/t/p/w185/1ltrA2vLvG6et8iRIqxuCY7pnyj.jpg",
+   "character": "Bridget Archer / Carol Baldwin",
+   "episodes": 19
+  },
+  {
+   "id": 3339,
+   "name": "Elisha Cook Jr.",
+   "photo": "https://image.tmdb.org/t/p/w185/lM7n3Feg9t2mkcMUmdJ5fCi54wJ.jpg",
+   "character": "Francis 'Ice Pick' Hofstetler / Harold W. Farber / Wilmer",
+   "episodes": 14
+  },
+  {
+   "id": 2361373,
+   "name": "Glenn Cannon",
+   "photo": null,
+   "character": "Bernard Kessler / Dr. Ibold",
+   "episodes": 12
+  },
+  {
+   "id": 1212053,
+   "name": "Jean Bruce Scott",
+   "photo": "https://image.tmdb.org/t/p/w185/rsKg27cGPuYERctVGwOXeIZjy6f.jpg",
+   "character": "Lt. Cmdr. Maggie Poole, USN",
+   "episodes": 11
+  },
+  {
+   "id": 119776,
+   "name": "Lance LeGault",
+   "photo": "https://image.tmdb.org/t/p/w185/dQOCLWXsB1VKFtg4TZqC9QCxpLJ.jpg",
+   "character": "Colonel Buck Greene / Buck Greene / John W. Newton",
+   "episodes": 11
+  },
+  {
+   "id": 20762,
+   "name": "Robert Apisa",
+   "photo": "https://image.tmdb.org/t/p/w185/sr7td6AvjYWGMHlAlETlgctI44P.jpg",
+   "character": "Mortician / Joe Soames / Mack",
+   "episodes": 9
+  },
+  {
+   "id": 2249,
+   "name": "Clyde Kusatsu",
+   "photo": "https://image.tmdb.org/t/p/w185/5dTSe1F9cnReZGHYzbCbVy7vbcf.jpg",
+   "character": "Naval Medical Examiner / Dr. Long Tang / Colonel Ki",
+   "episodes": 9
+  },
+  {
+   "id": 2141449,
+   "name": "Patrick Bishop",
+   "photo": null,
+   "character": "Pat / Keoki",
+   "episodes": 8
+  },
+  {
+   "id": 2319983,
+   "name": "Elissa Dulce Hoopai",
+   "photo": "https://image.tmdb.org/t/p/w185/8PFcJexeSx5x0zUPDv2zje2x8SD.jpg",
+   "character": "Rosine / Tiffany / Vicki",
+   "episodes": 8
+  },
+  {
+   "id": 4326808,
+   "name": "Robert L. Silva",
+   "photo": null,
+   "character": "Police Jailer / Officer / Police Officer",
+   "episodes": 8
+  },
+  {
+   "id": 4167964,
+   "name": "Dick Jensen",
+   "photo": null,
+   "character": "Mano / Police Detective Kinohe / Willie K.",
+   "episodes": 8
+  },
+  {
+   "id": 1628308,
+   "name": "Esmond Chung",
+   "photo": "https://image.tmdb.org/t/p/w185/gO460riV0eDbQKeajqEmwcukinn.jpg",
+   "character": "Police Sergeant Kenny Chung / Police Officer / George",
+   "episodes": 8
+  },
+  {
+   "id": 2942386,
+   "name": "James Grant Benton",
+   "photo": null,
+   "character": "Police Officer / Kika / Harry Meacham",
+   "episodes": 7
+  },
+  {
+   "id": 13946,
+   "name": "Paul Burke",
+   "photo": "https://image.tmdb.org/t/p/w185/nrlWptUxvfMlyGLXPnm5RZTxIQ9.jpg",
+   "character": "Admiral Hawkes / Admiral Kitchner",
+   "episodes": 6
+  },
+  {
+   "id": 40,
+   "name": "Orson Welles",
+   "photo": "https://image.tmdb.org/t/p/w185/e9lGmqQq3EsHeUQgQLByo275hcc.jpg",
+   "character": "Robin Masters (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 10345,
+   "name": "Soon-Tek Oh",
+   "photo": "https://image.tmdb.org/t/p/w185/m2qkVJLmfcNYQe85bJ5iuF6e8ha.jpg",
+   "character": "Dr. Bill Su / Dr. Ling / Nguyen Hue / Sato",
+   "episodes": 6
+  },
+  {
+   "id": 106730,
+   "name": "Branscombe Richmond",
+   "photo": "https://image.tmdb.org/t/p/w185/4UFwrT68uzusdG1hcPARjxpJUIx.jpg",
+   "character": "Smitty / Moki / Henchman",
+   "episodes": 6
+  }
+ ],
+ "crew": [
+  {
+   "id": 160145,
+   "name": "Donald P. Bellisario",
+   "photo": "https://image.tmdb.org/t/p/w185/8xjZRZvWfn0aaZVHlYxRUtlqJIR.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 162
+  },
+  {
+   "id": 227330,
+   "name": "Glen A. Larson",
+   "photo": "https://image.tmdb.org/t/p/w185/pGR6aRtBDuj1MRH06NyjhTGuB98.jpg",
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 158062,
+   "name": "Reuben Leder",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 1219867,
+   "name": "Chris Abbott",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 64745,
+   "name": "Jay Huguely",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 1213670,
+   "name": "Ray Austin",
+   "photo": "https://image.tmdb.org/t/p/w185/9WjyaTH7qgkzzZlOnBU3SrIlrcR.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 31900,
+   "name": "Michael Vejar",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 95224,
+   "name": "Ivan Dixon",
+   "photo": "https://image.tmdb.org/t/p/w185/zeSS32btkDqJ3lwwQ1iX6OOlyWu.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 152646,
+   "name": "Russ Mayberry",
+   "photo": "https://image.tmdb.org/t/p/w185/2i7TpOigvtPO3AT5fOpO4ZTIe8D.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 79933,
+   "name": "Robert Hamilton",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 44131,
+   "name": "Alan J. Levi",
+   "photo": "https://image.tmdb.org/t/p/w185/vAfic3zw64hKxQ8fbs08NSfAxRI.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1219845,
+   "name": "Lawrence Doheny",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1217776,
+   "name": "Babs Greyhosky",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 51574,
+   "name": "Bruce Cervi",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1178551,
+   "name": "Rob Gilmer",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 107331,
+   "name": "John Llewellyn Moxey",
+   "photo": "https://image.tmdb.org/t/p/w185/4XyBGODx6NiRiNQEqs4Vy0CR4aR.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:35:01.193Z"
+}

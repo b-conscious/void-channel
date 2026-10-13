@@ -1,0 +1,324 @@
+{
+ "show": "Babylon 5",
+ "slug": "babylon-5",
+ "tmdbId": 3137,
+ "cast": [
+  {
+   "id": 52301,
+   "name": "Jerry Doyle",
+   "photo": "https://image.tmdb.org/t/p/w185/shNe6vMSuC9XTmZo1wmKhUzp6ag.jpg",
+   "character": "Michael Garibaldi",
+   "episodes": 110
+  },
+  {
+   "id": 36217,
+   "name": "Mira Furlan",
+   "photo": "https://image.tmdb.org/t/p/w185/230eF35kgW0Jo2II1LmGPlRuw8a.jpg",
+   "character": "Delenn",
+   "episodes": 110
+  },
+  {
+   "id": 52302,
+   "name": "Richard Biggs",
+   "photo": "https://image.tmdb.org/t/p/w185/tgdq475c79cegroGWlIq9RIib21.jpg",
+   "character": "Stephen Franklin",
+   "episodes": 110
+  },
+  {
+   "id": 43773,
+   "name": "Andreas Katsulas",
+   "photo": "https://image.tmdb.org/t/p/w185/nUWW0rW02JEVxIvu8y0Y4W0oK41.jpg",
+   "character": "G'Kar",
+   "episodes": 110
+  },
+  {
+   "id": 12876,
+   "name": "Peter Jurasik",
+   "photo": "https://image.tmdb.org/t/p/w185/7zqyg8kDaYHyXZfabxQ5M6tq5Fp.jpg",
+   "character": "Londo Mollari",
+   "episodes": 110
+  },
+  {
+   "id": 52304,
+   "name": "Stephen Furst",
+   "photo": "https://image.tmdb.org/t/p/w185/ya5sNoy59M7OwywmlbnIhONk72u.jpg",
+   "character": "Vir Cotto",
+   "episodes": 110
+  },
+  {
+   "id": 49357,
+   "name": "Bill Mumy",
+   "photo": "https://image.tmdb.org/t/p/w185/pxjz9MOh1PMGV2SYu2hw7cmpO9e.jpg",
+   "character": "Lennier",
+   "episodes": 110
+  },
+  {
+   "id": 52300,
+   "name": "Claudia Christian",
+   "photo": "https://image.tmdb.org/t/p/w185/bwmh731OxEyzgtR95nRraLDZLyB.jpg",
+   "character": "Susan Ivanova",
+   "episodes": 89
+  },
+  {
+   "id": 2547,
+   "name": "Bruce Boxleitner",
+   "photo": "https://image.tmdb.org/t/p/w185/1x99F4oJTFAFY2HR4PbQdxiGyMH.jpg",
+   "character": "John Sheridan",
+   "episodes": 88
+  },
+  {
+   "id": 8894,
+   "name": "Jeff Conaway",
+   "photo": "https://image.tmdb.org/t/p/w185/wsgupkvJSLM1bOCOXGRtgyPtgAh.jpg",
+   "character": "Zack Allan",
+   "episodes": 74
+  },
+  {
+   "id": 11768,
+   "name": "Patricia Tallman",
+   "photo": "https://image.tmdb.org/t/p/w185/12nb9TIivhOdjpCPbLdj3CrCr4j.jpg",
+   "character": "Lyta Alexander",
+   "episodes": 47
+  },
+  {
+   "id": 1219402,
+   "name": "Julie Caitlin Brown",
+   "photo": null,
+   "character": "Guinevere Corey / Na'Toth",
+   "episodes": 45
+  },
+  {
+   "id": 121278,
+   "name": "Andrea Thompson",
+   "photo": "https://image.tmdb.org/t/p/w185/wYYVkFx8QD0TLS4rZIupGejAiDJ.jpg",
+   "character": "Talia Winters",
+   "episodes": 44
+  },
+  {
+   "id": 52308,
+   "name": "Jason Carter",
+   "photo": "https://image.tmdb.org/t/p/w185/g1igye9orIvwezl9fm4bjEyOz73.jpg",
+   "character": "Marcus Cole",
+   "episodes": 44
+  },
+  {
+   "id": 78150,
+   "name": "Josh Coxx",
+   "photo": "https://image.tmdb.org/t/p/w185/8Ytez6iD1f4mVSGbixkpfGO2v1l.jpg",
+   "character": "David Corwin",
+   "episodes": 36
+  },
+  {
+   "id": 51963,
+   "name": "Michael O'Hare",
+   "photo": "https://image.tmdb.org/t/p/w185/8O6zIIu31ndV6ZbmDhgoFf6XJbi.jpg",
+   "character": "Ambassador Jeffrey Sinclair / Jeffrey Sinclair",
+   "episodes": 25
+  },
+  {
+   "id": 1233418,
+   "name": "Ardwight Chamberlain",
+   "photo": null,
+   "character": "Ulkesh (voice) / Kosh (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 52312,
+   "name": "Tracy Scoggins",
+   "photo": "https://image.tmdb.org/t/p/w185/797JEq0yNZiPIAyLYHhycg6uhnW.jpg",
+   "character": "Elizabeth Lochley",
+   "episodes": 22
+  },
+  {
+   "id": 52306,
+   "name": "Robert Rusler",
+   "photo": "https://image.tmdb.org/t/p/w185/dZ9ZU5afsftWHThl3YmoekhzJNA.jpg",
+   "character": "Warren Keffer",
+   "episodes": 22
+  },
+  {
+   "id": 52307,
+   "name": "Mary Kay Adams",
+   "photo": "https://image.tmdb.org/t/p/w185/esRD52iCLHMWiKotVula0AWI2jM.jpg",
+   "character": "Na'Toth",
+   "episodes": 22
+  },
+  {
+   "id": 1233422,
+   "name": "Marianne Robertson",
+   "photo": null,
+   "character": "Tech #1 / Tech / Dome Tech",
+   "episodes": 20
+  },
+  {
+   "id": 1928426,
+   "name": "Mark Hendrickson",
+   "photo": null,
+   "character": "Alien / Narn Captain / Human / Alien Customer",
+   "episodes": 18
+  },
+  {
+   "id": 1942408,
+   "name": "Jonathan Chapman",
+   "photo": null,
+   "character": "Brakiri / Drazi Pilot / Ambassador",
+   "episodes": 15
+  },
+  {
+   "id": 1231315,
+   "name": "Kim Strauss",
+   "photo": "https://image.tmdb.org/t/p/w185/zBUcVzxKHaG8fldps4JCrC2o8qB.jpg",
+   "character": "Drazi Ambassador / Green Drazi / Narn",
+   "episodes": 14
+  }
+ ],
+ "crew": [
+  {
+   "id": 33045,
+   "name": "J. Michael Straczynski",
+   "photo": "https://image.tmdb.org/t/p/w185/ezbudNhoJcgIGZdx74D6kPmu1Yp.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Writer"
+   ],
+   "episodes": 92
+  },
+  {
+   "id": 1216979,
+   "name": "Larry DiTillio",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 51
+  },
+  {
+   "id": 1601611,
+   "name": "Douglas E. Wise",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 31900,
+   "name": "Michael Vejar",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 1226238,
+   "name": "David J. Eagle",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 51694,
+   "name": "Jim Johnston",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 67478,
+   "name": "Janet Greek",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 67460,
+   "name": "John C. Flinn III",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 15959,
+   "name": "Richard Compton",
+   "photo": "https://image.tmdb.org/t/p/w185/tTackPM5n1V6G5QFoR6l2gT72pv.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 75342,
+   "name": "Tony Dow",
+   "photo": "https://image.tmdb.org/t/p/w185/b1j04svpGN0YVJFKC8UukUutDRi.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1233430,
+   "name": "Kevin G. Cremin",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 67576,
+   "name": "Jesús Salvador Treviño",
+   "photo": "https://image.tmdb.org/t/p/w185/nZ2UUZzxd1jubhtAcne6wohlEq7.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 149431,
+   "name": "Bruce Seth Green",
+   "photo": "https://image.tmdb.org/t/p/w185/2ra9UQ6Kcqk4IcIftlt5woW2Ww2.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 65678,
+   "name": "John Lafia",
+   "photo": "https://image.tmdb.org/t/p/w185/qbs77g149SJUWlXhPGJR1rPsnka.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 67457,
+   "name": "John Copeland",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1096354,
+   "name": "Mario DiLeo",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:25.454Z"
+}

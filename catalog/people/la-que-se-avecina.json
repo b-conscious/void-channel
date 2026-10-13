@@ -1,0 +1,327 @@
+{
+ "show": "La que se avecina",
+ "slug": "la-que-se-avecina",
+ "tmdbId": 35338,
+ "cast": [
+  {
+   "id": 1205318,
+   "name": "Pablo Chiapella",
+   "photo": "https://image.tmdb.org/t/p/w185/AkOhRbgkzBp9QWUIjb8Bu8SaBPx.jpg",
+   "character": "Adam Rivers / Amador Rivas Latorre",
+   "episodes": 202
+  },
+  {
+   "id": 1253386,
+   "name": "Nacho Guerreros",
+   "photo": "https://image.tmdb.org/t/p/w185/iMm1ypzPfSqprieXCsovaDihnN0.jpg",
+   "character": "Coque Calatrava / George",
+   "episodes": 202
+  },
+  {
+   "id": 1192254,
+   "name": "Eva Isanta",
+   "photo": "https://image.tmdb.org/t/p/w185/3ZZrMnj17chrFZTc4MSu30EvVmr.jpg",
+   "character": "Maite Figueroa Espinosa / Mujer Jebediah",
+   "episodes": 202
+  },
+  {
+   "id": 560254,
+   "name": "Jordi Sánchez",
+   "photo": "https://image.tmdb.org/t/p/w185/1usE9CnFsHE0SUx16XehBJ3cPZq.jpg",
+   "character": "Tony Strong / Alcalde Strong / Antonio Recio Matamoros",
+   "episodes": 202
+  },
+  {
+   "id": 233766,
+   "name": "Nathalie Seseña",
+   "photo": "https://image.tmdb.org/t/p/w185/zhLyL3VPiGYlF1BLbzIVP5LGWA3.jpg",
+   "character": "Brenda Strong / Berta Escobar Indiano",
+   "episodes": 202
+  },
+  {
+   "id": 1253379,
+   "name": "Ricardo Arroyo",
+   "photo": "https://image.tmdb.org/t/p/w185/qlcQVz2rr7sFs5Vi8Yog0E39Bl0.jpg",
+   "character": "Vicente Maroto Pinilla",
+   "episodes": 187
+  },
+  {
+   "id": 67052,
+   "name": "Macarena Gómez",
+   "photo": "https://image.tmdb.org/t/p/w185/2IDVZhGw13p6YdnZ8s2E8nGbMWQ.jpg",
+   "character": "Hija Dorothy / Lola Trujillo Pacheco",
+   "episodes": 186
+  },
+  {
+   "id": 82701,
+   "name": "José Luis Gil",
+   "photo": "https://image.tmdb.org/t/p/w185/pNYTJTVEq4CKwEQvupmfMnTyYEq.jpg",
+   "character": "Enrique Pastor Hernández",
+   "episodes": 170
+  },
+  {
+   "id": 1253381,
+   "name": "Vanesa Romero",
+   "photo": "https://image.tmdb.org/t/p/w185/pKMYjVLuKJHmlMVp2sSLrj5GyGv.jpg",
+   "character": "Raquel Villanueva",
+   "episodes": 170
+  },
+  {
+   "id": 1405735,
+   "name": "Cristina Medina",
+   "photo": "https://image.tmdb.org/t/p/w185/2yK0XIO81LcwAjivVmtfAwSPlHW.jpg",
+   "character": "Nines Chacón",
+   "episodes": 154
+  },
+  {
+   "id": 1075029,
+   "name": "Antonio Pagudo",
+   "photo": "https://image.tmdb.org/t/p/w185/1O8W1c4GVPXPOnl3GcoHlPDlRBJ.jpg",
+   "character": "Javi Maroto Gutiérrez",
+   "episodes": 154
+  },
+  {
+   "id": 43321,
+   "name": "Fernando Tejero",
+   "photo": "https://image.tmdb.org/t/p/w185/btmXRLQoOAVFbaS8sfZxg7GqXG2.jpg",
+   "character": "Fermín Trujillo López",
+   "episodes": 127
+  },
+  {
+   "id": 1253380,
+   "name": "Carlota Boza",
+   "photo": "https://image.tmdb.org/t/p/w185/xg7qkhpFBHQcPgr5SV25fh3yRVs.jpg",
+   "character": "Carlota Rivas Figueroa",
+   "episodes": 127
+  },
+  {
+   "id": 1253382,
+   "name": "Nano Boza",
+   "photo": "https://image.tmdb.org/t/p/w185/dE7Asm8rHql5k8mzhaxDYrBhTn4.jpg",
+   "character": "Nano Rivas Figueroa",
+   "episodes": 118
+  },
+  {
+   "id": 1253384,
+   "name": "Rodrigo Espinar",
+   "photo": "https://image.tmdb.org/t/p/w185/4HCm0BSfjqIJhG7yzqV6X01Cl5a.jpg",
+   "character": "Rodrigo Rivas Figueroa",
+   "episodes": 116
+  },
+  {
+   "id": 1357287,
+   "name": "Luis Miguel Seguí",
+   "photo": "https://image.tmdb.org/t/p/w185/zk8zqKym7EBRisgL8DEkA07H3F4.jpg",
+   "character": "Alberto / Leo Romaní",
+   "episodes": 110
+  },
+  {
+   "id": 132999,
+   "name": "Petra Martínez",
+   "photo": "https://image.tmdb.org/t/p/w185/kh5K3lstUZTFPzMB8IfhUJ4Kppr.jpg",
+   "character": "Fina Palomares Pizarro / Calamity Fine",
+   "episodes": 109
+  },
+  {
+   "id": 1405734,
+   "name": "Cristina Castaño",
+   "photo": "https://image.tmdb.org/t/p/w185/cn4J9UDqNR6YbRnHFZV9UXreOwJ.jpg",
+   "character": "Judith Becker Hernández",
+   "episodes": 100
+  },
+  {
+   "id": 560247,
+   "name": "Miren Ibarguren",
+   "photo": "https://image.tmdb.org/t/p/w185/ndusbJn7YggtKhz37dIla81c72p.jpg",
+   "character": "Yoli Morcillo Carrascosa / Conchita Coletas",
+   "episodes": 93
+  },
+  {
+   "id": 6536,
+   "name": "Loles León",
+   "photo": "https://image.tmdb.org/t/p/w185/tGzS0iV3K4fTGIiOb1UJRpMOL8u.jpg",
+   "character": "Menchu Carrascosa Guerrero / Dorothy",
+   "episodes": 93
+  },
+  {
+   "id": 1443563,
+   "name": "Luis Merlo",
+   "photo": "https://image.tmdb.org/t/p/w185/2hE7L0oKlrYAXCWphosKWdkxgJ6.jpg",
+   "character": "Brian Quinn / Bruno Quiroga Linares",
+   "episodes": 93
+  },
+  {
+   "id": 1165486,
+   "name": "Isabel Ordaz",
+   "photo": "https://image.tmdb.org/t/p/w185/ondJNFb6S2dgxnXonMBRZnw4OTj.jpg",
+   "character": "Araceli Madariaga de la Vega",
+   "episodes": 88
+  },
+  {
+   "id": 565346,
+   "name": "Mariví Bilbao",
+   "photo": "https://image.tmdb.org/t/p/w185/z7zZdAlAZC1OwI56vW401nbrKoo.jpg",
+   "character": "Izaskun Sagastume",
+   "episodes": 80
+  },
+  {
+   "id": 1253385,
+   "name": "Eduardo García",
+   "photo": "https://image.tmdb.org/t/p/w185/lRJ8GhQojWRzelwgWWpw0c8mKUB.jpg",
+   "character": "Fran Pastor Madariaga",
+   "episodes": 80
+  }
+ ],
+ "crew": [
+  {
+   "id": 1404782,
+   "name": "Alberto Caballero",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Director",
+    "Writer"
+   ],
+   "episodes": 202
+  },
+  {
+   "id": 1404784,
+   "name": "Daniel Deorador",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 185
+  },
+  {
+   "id": 1404783,
+   "name": "Laura Caballero",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Director",
+    "Writer"
+   ],
+   "episodes": 166
+  },
+  {
+   "id": 2105373,
+   "name": "Santiago G. Lillo",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 202
+  },
+  {
+   "id": 1573634,
+   "name": "Sergio Mitjans",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 101
+  },
+  {
+   "id": 1577413,
+   "name": "Araceli Álvarez de Sotomayor",
+   "photo": "https://image.tmdb.org/t/p/w185/8cjX8DnRNJOqeMLo0vhCmMIHmJW.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 98
+  },
+  {
+   "id": 4472275,
+   "name": "Carla Nigra",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 28
+  },
+  {
+   "id": 1558150,
+   "name": "Mario Montero",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 212677,
+   "name": "Miguel Albaladejo",
+   "photo": "https://image.tmdb.org/t/p/w185/ywtbDDIz3TevcQymen7LzVpkwam.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 1473363,
+   "name": "Ricardo A. Solla",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 4604112,
+   "name": "Roberto Monge",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 2763352,
+   "name": "Javier Aguayo",
+   "photo": "https://image.tmdb.org/t/p/w185/8jLAzstevb1PMsi8DcTfYxDAE4k.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 125068,
+   "name": "Juan Luis Iborra",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 3084890,
+   "name": "David Méndez",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1008378,
+   "name": "Félix Sabroso",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 2726359,
+   "name": "Laura León",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:42:20.590Z"
+}

@@ -1,0 +1,326 @@
+{
+ "show": "The Night Manager",
+ "slug": "the-night-manager",
+ "tmdbId": 61859,
+ "cast": [
+  {
+   "id": 91606,
+   "name": "Tom Hiddleston",
+   "photo": "https://image.tmdb.org/t/p/w185/mclHxMm8aPlCPKptP67257F5GPo.jpg",
+   "character": "Jonathan Pine",
+   "episodes": 12
+  },
+  {
+   "id": 41419,
+   "name": "Hugh Laurie",
+   "photo": "https://image.tmdb.org/t/p/w185/akArncggHnusP5jxzMBKmJDRrMo.jpg",
+   "character": "Richard Roper",
+   "episodes": 12
+  },
+  {
+   "id": 2441,
+   "name": "Tom Hollander",
+   "photo": "https://image.tmdb.org/t/p/w185/cqZiJsImFZ6TaeShRRg49AZ9TyT.jpg",
+   "character": "Lance Corkoran",
+   "episodes": 12
+  },
+  {
+   "id": 39187,
+   "name": "Olivia Colman",
+   "photo": "https://image.tmdb.org/t/p/w185/lawJUdbLb1YW0niaYjiVGR9IBG8.jpg",
+   "character": "Angela Burr",
+   "episodes": 9
+  },
+  {
+   "id": 1590759,
+   "name": "Noah Jupe",
+   "photo": "https://image.tmdb.org/t/p/w185/cBhJisZrIsZzamiUCVjOZODcqOK.jpg",
+   "character": "Daniel Roper",
+   "episodes": 9
+  },
+  {
+   "id": 175154,
+   "name": "Michael Nardone",
+   "photo": "https://image.tmdb.org/t/p/w185/gdgKIHFT5gssY9R1vDWXTkDFU5C.jpg",
+   "character": "Frisky",
+   "episodes": 8
+  },
+  {
+   "id": 56100,
+   "name": "Alistair Petrie",
+   "photo": "https://image.tmdb.org/t/p/w185/b6KUFhtWtmmTIcs7gL9kZktzJzl.jpg",
+   "character": "Sandy Langbourne",
+   "episodes": 8
+  },
+  {
+   "id": 19116,
+   "name": "Aure Atika",
+   "photo": "https://image.tmdb.org/t/p/w185/1jK3B2T1FTHmM2DPmQt6EzZgAYL.jpg",
+   "character": "Sophie Alekan",
+   "episodes": 8
+  },
+  {
+   "id": 80149,
+   "name": "Douglas Hodge",
+   "photo": "https://image.tmdb.org/t/p/w185/tENL3Uxt07Rn21o0y0eolwTnkoZ.jpg",
+   "character": "Rex Mayhew",
+   "episodes": 7
+  },
+  {
+   "id": 1413390,
+   "name": "Diego Calva",
+   "photo": "https://image.tmdb.org/t/p/w185/k5khi8PwsYs2d7uL0uuO5zenL9R.jpg",
+   "character": "Teddy Dos Santos",
+   "episodes": 6
+  },
+  {
+   "id": 1932304,
+   "name": "Camila Morrone",
+   "photo": "https://image.tmdb.org/t/p/w185/vA6E9d9BZVvp7su4W77fpv5vmC3.jpg",
+   "character": "Roxana Bolaños",
+   "episodes": 6
+  },
+  {
+   "id": 1133349,
+   "name": "Elizabeth Debicki",
+   "photo": "https://image.tmdb.org/t/p/w185/nTTnQVTn13Ve4ifjRY9v8kVc99w.jpg",
+   "character": "Jed Marshall",
+   "episodes": 6
+  },
+  {
+   "id": 75074,
+   "name": "Paul Chahidi",
+   "photo": "https://image.tmdb.org/t/p/w185/gwQ5MfY68BvvyIbef3kr2XPilTx.jpg",
+   "character": "Basil Karapetian",
+   "episodes": 6
+  },
+  {
+   "id": 16752,
+   "name": "David Harewood",
+   "photo": "https://image.tmdb.org/t/p/w185/kjWRYwRGQco0C4p2iIh2RV86fi7.jpg",
+   "character": "Joel Steadman",
+   "episodes": 6
+  },
+  {
+   "id": 1182598,
+   "name": "Hayley Squires",
+   "photo": "https://image.tmdb.org/t/p/w185/nBchYkC2f1boBqJlYny5OVsxgFQ.jpg",
+   "character": "Sally Price-Jones",
+   "episodes": 6
+  },
+  {
+   "id": 30430,
+   "name": "Indira Varma",
+   "photo": "https://image.tmdb.org/t/p/w185/yaFCI907dcK2XkzO0HQgtK25kp2.jpg",
+   "character": "Mayra Cavendish",
+   "episodes": 6
+  },
+  {
+   "id": 10920,
+   "name": "Tobias Menzies",
+   "photo": "https://image.tmdb.org/t/p/w185/hGhAw2obMEOu1K0ed9b3jds9thf.jpg",
+   "character": "Geoffrey Dromgoole",
+   "episodes": 6
+  },
+  {
+   "id": 50994,
+   "name": "Unax Ugalde",
+   "photo": "https://image.tmdb.org/t/p/w185/t4jKbvmXSjMBnZZjNZEr3P46q6s.jpg",
+   "character": "Juan Carrascal",
+   "episodes": 6
+  },
+  {
+   "id": 3483,
+   "name": "Antonio de la Torre",
+   "photo": "https://image.tmdb.org/t/p/w185/d43JMOaio4mTZlov23gM2q8a6Uo.jpg",
+   "character": "Juan Apostol",
+   "episodes": 6
+  },
+  {
+   "id": 81840,
+   "name": "Adeel Akhtar",
+   "photo": "https://image.tmdb.org/t/p/w185/z1FSCVRLYP5FmHloQ2V9RGC3YYY.jpg",
+   "character": "Rob Singhal",
+   "episodes": 6
+  },
+  {
+   "id": 1208245,
+   "name": "Diego Santos",
+   "photo": null,
+   "character": "Martín Álvarez",
+   "episodes": 6
+  },
+  {
+   "id": 1131415,
+   "name": "Hovik Keuchkerian",
+   "photo": "https://image.tmdb.org/t/p/w185/o5cGKWHlZl4RFROYlT2hD95j0lN.jpg",
+   "character": "Tabby",
+   "episodes": 6
+  },
+  {
+   "id": 110581,
+   "name": "Natasha Little",
+   "photo": "https://image.tmdb.org/t/p/w185/5P27En9Wj8AwaKg5JyU2NJ8i0DI.jpg",
+   "character": "Caro Langbourne",
+   "episodes": 6
+  },
+  {
+   "id": 1470511,
+   "name": "Slavko Sobin",
+   "photo": "https://image.tmdb.org/t/p/w185/rynYUXrsjQ8fjVo7H82VP49qrGt.jpg",
+   "character": "Viktor",
+   "episodes": 6
+  }
+ ],
+ "crew": [
+  {
+   "id": 79886,
+   "name": "David Farr",
+   "photo": "https://image.tmdb.org/t/p/w185/gIovbZGYf45bX40ZISa6zVcTIGg.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1011,
+   "name": "Susanne Bier",
+   "photo": "https://image.tmdb.org/t/p/w185/tVp2J7hMAgJnaXtQojFN3VTVYaY.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 41419,
+   "name": "Hugh Laurie",
+   "photo": "https://image.tmdb.org/t/p/w185/akArncggHnusP5jxzMBKmJDRrMo.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 43558,
+   "name": "Stephen Garrett",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1209168,
+   "name": "William D. Johnson",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 91606,
+   "name": "Tom Hiddleston",
+   "photo": "https://image.tmdb.org/t/p/w185/mclHxMm8aPlCPKptP67257F5GPo.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1281632,
+   "name": "Simon Cornwell",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 132350,
+   "name": "Stephen Cornwell",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1978459,
+   "name": "Georgi Banks-Davies",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1348427,
+   "name": "Polly Hill",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 4805312,
+   "name": "Chris Rice",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 972989,
+   "name": "Michele Wolkoff",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 5913516,
+   "name": "Clare Cornwell",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 3086901,
+   "name": "Gaynor Holmes",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1973565,
+   "name": "Arthur Wang",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1054301,
+   "name": "Adrián Guerra",
+   "photo": "https://image.tmdb.org/t/p/w185/4ZfybKJ722RJh8lnEY24TKgsCtt.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 6
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:57.282Z"
+}

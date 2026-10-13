@@ -1,0 +1,325 @@
+{
+ "show": "Project Blue Book",
+ "slug": "project-blue-book",
+ "tmdbId": 79649,
+ "cast": [
+  {
+   "id": 49735,
+   "name": "Aidan Gillen",
+   "photo": "https://image.tmdb.org/t/p/w185/fWWRgyJEGjOPcx43CaFiUCWMBLo.jpg",
+   "character": "Allen Hynek",
+   "episodes": 20
+  },
+  {
+   "id": 1465190,
+   "name": "Michael Malarkey",
+   "photo": "https://image.tmdb.org/t/p/w185/pgbcK2FZbUOIN0FIPYxHiXsZ9Sq.jpg",
+   "character": "Michael Quinn",
+   "episodes": 20
+  },
+  {
+   "id": 79343,
+   "name": "Laura Mennell",
+   "photo": "https://image.tmdb.org/t/p/w185/onIPcCc3swg2q2k2vRcNtqYdwaQ.jpg",
+   "character": "Mimi Hynek",
+   "episodes": 20
+  },
+  {
+   "id": 140407,
+   "name": "Ksenia Solo",
+   "photo": "https://image.tmdb.org/t/p/w185/wILJwOPBqvxxYkWX0k8XmehMD8k.jpg",
+   "character": "Susie Miller",
+   "episodes": 20
+  },
+  {
+   "id": 2203,
+   "name": "Neal McDonough",
+   "photo": "https://image.tmdb.org/t/p/w185/3mI3i1CpjATSCta1Tb2qsyl1KCh.jpg",
+   "character": "James Harding",
+   "episodes": 20
+  },
+  {
+   "id": 1214447,
+   "name": "Michael Harney",
+   "photo": "https://image.tmdb.org/t/p/w185/j64sglNnGc5fAHPEkJ1TmKOITQP.jpg",
+   "character": "Hugh Valentine",
+   "episodes": 20
+  },
+  {
+   "id": 1829296,
+   "name": "Nicholas Holmes",
+   "photo": "https://image.tmdb.org/t/p/w185/7G7F6Yqk6VXv4xmL6yoMSF6gKyM.jpg",
+   "character": "Joel Hynek",
+   "episodes": 12
+  },
+  {
+   "id": 203294,
+   "name": "Jill Morrison",
+   "photo": "https://image.tmdb.org/t/p/w185/1Uezsm9dqRikCWPWXsYhEUkgAyQ.jpg",
+   "character": "Faye",
+   "episodes": 11
+  },
+  {
+   "id": 25386,
+   "name": "Ian Tracey",
+   "photo": "https://image.tmdb.org/t/p/w185/dUzzLVVUF0pvGzS3xrIZ5tiC2TT.jpg",
+   "character": "William / Fixer",
+   "episodes": 10
+  },
+  {
+   "id": 31512,
+   "name": "Robert John Burke",
+   "photo": "https://image.tmdb.org/t/p/w185/uWEaY5gypb6cp1bdUYG4uCKw4sK.jpg",
+   "character": "William Fairchild",
+   "episodes": 7
+  },
+  {
+   "id": 71467,
+   "name": "Matt O'Leary",
+   "photo": "https://image.tmdb.org/t/p/w185/xTjZWML92P7dMrlFTdyHIfaDgTv.jpg",
+   "character": "Henry Fuller",
+   "episodes": 6
+  },
+  {
+   "id": 1438278,
+   "name": "Jerod Haynes",
+   "photo": "https://image.tmdb.org/t/p/w185/lTlU5E7DOSoLLsE2i4DrEBWbAwL.jpg",
+   "character": "Daniel Banks",
+   "episodes": 5
+  },
+  {
+   "id": 156590,
+   "name": "Currie Graham",
+   "photo": "https://image.tmdb.org/t/p/w185/c0kOOb2HXq4BdUbFatw6B3TOTVk.jpg",
+   "character": "Cal Miller",
+   "episodes": 5
+  },
+  {
+   "id": 39213,
+   "name": "Keir O'Donnell",
+   "photo": "https://image.tmdb.org/t/p/w185/1GYWx3q4QNXIIBdwirZPiSHFFfJ.jpg",
+   "character": "Evan Blake",
+   "episodes": 4
+  },
+  {
+   "id": 11486,
+   "name": "Michael Imperioli",
+   "photo": "https://image.tmdb.org/t/p/w185/bCDwQGrecRujCibI8rvsxEc91We.jpg",
+   "character": "Edward Rizzuto",
+   "episodes": 3
+  },
+  {
+   "id": 1441919,
+   "name": "Caspar Phillipson",
+   "photo": "https://image.tmdb.org/t/p/w185/2344bWYuEN4NTL4ZVXBCxvpucN0.jpg",
+   "character": "John F. Kennedy",
+   "episodes": 3
+  },
+  {
+   "id": 52628,
+   "name": "Sofia Milos",
+   "photo": "https://image.tmdb.org/t/p/w185/ryK5xo9FTDAtTkC0P4oDes3szS1.jpg",
+   "character": "Daria",
+   "episodes": 3
+  },
+  {
+   "id": 83423,
+   "name": "Heather Doerksen",
+   "photo": "https://image.tmdb.org/t/p/w185/jf5agJ6xYVQ4Ozr7zXf0Ov9AOVj.jpg",
+   "character": "Donna Smith",
+   "episodes": 3
+  },
+  {
+   "id": 62307,
+   "name": "Zach McGowan",
+   "photo": "https://image.tmdb.org/t/p/w185/hX7UXULOo6PBALjUgl2gYKx9ZNw.jpg",
+   "character": "Duncan Booker",
+   "episodes": 2
+  },
+  {
+   "id": 49275,
+   "name": "Spencer Garrett",
+   "photo": "https://image.tmdb.org/t/p/w185/jJWISea4PvC9Mv5kWONAMKhEK7j.jpg",
+   "character": "Ryan Blackstone",
+   "episodes": 2
+  },
+  {
+   "id": 4029,
+   "name": "Bob Gunton",
+   "photo": "https://image.tmdb.org/t/p/w185/ulbVvuBToBN3aCGcV028hwO0MOP.jpg",
+   "character": "Harry S. Truman",
+   "episodes": 1
+  },
+  {
+   "id": 3491,
+   "name": "Thomas Kretschmann",
+   "photo": "https://image.tmdb.org/t/p/w185/7M0P39a3CVA22dJyv5YQEkTThU7.jpg",
+   "character": "Wernher von Braun",
+   "episodes": 1
+  },
+  {
+   "id": 4689,
+   "name": "Bronson Pinchot",
+   "photo": "https://image.tmdb.org/t/p/w185/wjroQcpf1wCYGz5f59xBY56e10y.jpg",
+   "character": "David Dubrovsky",
+   "episodes": 1
+  },
+  {
+   "id": 2529121,
+   "name": "Nolan Hupp",
+   "photo": "https://image.tmdb.org/t/p/w185/qEahuLNzg3Sj4kNJqQGdLEuoSY0.jpg",
+   "character": "Eric",
+   "episodes": 1
+  }
+ ],
+ "crew": [
+  {
+   "id": 1711125,
+   "name": "David O'Leary",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1823253,
+   "name": "Emily Brochin",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 23
+  },
+  {
+   "id": 1179841,
+   "name": "Daniel Wohl",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 51524,
+   "name": "Norma Bailey",
+   "photo": "https://image.tmdb.org/t/p/w185/12n7kdeiahiurgednQKK99DovFI.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 23779,
+   "name": "Jack Rapke",
+   "photo": "https://image.tmdb.org/t/p/w185/mK6wzRou2kvhPZNr2ZEF8mYIn3U.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 968859,
+   "name": "Jacqueline Levine",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 146177,
+   "name": "Barry Jossen",
+   "photo": "https://image.tmdb.org/t/p/w185/eSkjJvzHPbvxRKWHDCa13yazFE4.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 1218121,
+   "name": "Sean Jablonski",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 15795,
+   "name": "Harley Peyton",
+   "photo": "https://image.tmdb.org/t/p/w185/aYUqlLNckOxTZ0cReII6iDFli0Q.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 1799634,
+   "name": "Alec Wells",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 24,
+   "name": "Robert Zemeckis",
+   "photo": "https://image.tmdb.org/t/p/w185/lPYDQ5LYNJ12rJZENtyASmVZ1Ql.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1452715,
+   "name": "Loni Peristere",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 194227,
+   "name": "John Scott",
+   "photo": "https://image.tmdb.org/t/p/w185/fh0fGZZFKGgxzLua48wU6rG9Ilv.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1821554,
+   "name": "Linda Burstyn",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 43141,
+   "name": "Pete Travis",
+   "photo": "https://image.tmdb.org/t/p/w185/t8XwgU9MW2izGcH8Fv8dmczAlTB.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1219584,
+   "name": "Wendey Stanzler",
+   "photo": "https://image.tmdb.org/t/p/w185/fOQ8W880wtGbR8wNier8JKfWKIR.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:34:08.070Z"
+}

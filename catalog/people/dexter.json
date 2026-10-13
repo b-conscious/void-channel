@@ -1,0 +1,342 @@
+{
+ "show": "Dexter",
+ "slug": "dexter",
+ "tmdbId": 1405,
+ "cast": [
+  {
+   "id": 53820,
+   "name": "Michael C. Hall",
+   "photo": "https://image.tmdb.org/t/p/w185/7zUMGoujuev5PUwwv4Gl6ikB50k.jpg",
+   "character": "Dexter Morgan",
+   "episodes": 96
+  },
+  {
+   "id": 53828,
+   "name": "Jennifer Carpenter",
+   "photo": "https://image.tmdb.org/t/p/w185/sQeNgRFfCjt3EHMuaJBm8jRCLgw.jpg",
+   "character": "Debra Morgan",
+   "episodes": 96
+  },
+  {
+   "id": 22821,
+   "name": "David Zayas",
+   "photo": "https://image.tmdb.org/t/p/w185/w1E8n9gl2HcZEhfBOXdVzMvIlzg.jpg",
+   "character": "Angel Batista",
+   "episodes": 96
+  },
+  {
+   "id": 1736,
+   "name": "James Remar",
+   "photo": "https://image.tmdb.org/t/p/w185/ctMVpFDKKWCty60lLORf3IoJcv9.jpg",
+   "character": "Harry Morgan",
+   "episodes": 96
+  },
+  {
+   "id": 164380,
+   "name": "C.S. Lee",
+   "photo": "https://image.tmdb.org/t/p/w185/cjqzZKv7iCDk2o5Wp2TlhxuQi52.jpg",
+   "character": "Vince Masuka",
+   "episodes": 95
+  },
+  {
+   "id": 141610,
+   "name": "Luna Lauren Vélez",
+   "photo": "https://image.tmdb.org/t/p/w185/98BvmTJCZHx0jPv0oNcv04Jkmfb.jpg",
+   "character": "Maria LaGuerta",
+   "episodes": 84
+  },
+  {
+   "id": 6365,
+   "name": "Desmond Harrington",
+   "photo": "https://image.tmdb.org/t/p/w185/toJbvangSsh9MQHFU9MxQi3S6h6.jpg",
+   "character": "Joseph Quinn",
+   "episodes": 72
+  },
+  {
+   "id": 35551,
+   "name": "Julie Benz",
+   "photo": "https://image.tmdb.org/t/p/w185/avcCYkQjRM7qgE0MZ5VXcK3XcKz.jpg",
+   "character": "Rita Bennett",
+   "episodes": 49
+  },
+  {
+   "id": 25879,
+   "name": "Geoff Pierson",
+   "photo": "https://image.tmdb.org/t/p/w185/vIhxKBwqV19CwHdPuycmkchYOba.jpg",
+   "character": "Tom Matthews",
+   "episodes": 41
+  },
+  {
+   "id": 204747,
+   "name": "Christina Robinson",
+   "photo": "https://image.tmdb.org/t/p/w185/hgTH1l7pT8BbfTJgCOpTeBfAkVo.jpg",
+   "character": "Astor",
+   "episodes": 40
+  },
+  {
+   "id": 56457,
+   "name": "Aimee Garcia",
+   "photo": "https://image.tmdb.org/t/p/w185/4z3mkoa8jHpqjzfbhzYMeKe2Mf7.jpg",
+   "character": "Jamie Batista",
+   "episodes": 34
+  },
+  {
+   "id": 80378,
+   "name": "Preston Bailey",
+   "photo": "https://image.tmdb.org/t/p/w185/zRHivZKs5VzDdmI1dI6W0bGOKmX.jpg",
+   "character": "Cody Bennet / Cody Bennett",
+   "episodes": 27
+  },
+  {
+   "id": 154759,
+   "name": "Erik King",
+   "photo": "https://image.tmdb.org/t/p/w185/dhWzEMWYcQscPPiWQFc06bpz8Qq.jpg",
+   "character": "James Doakes",
+   "episodes": 25
+  },
+  {
+   "id": 1254593,
+   "name": "Luke Andrew Kruntchev",
+   "photo": "https://image.tmdb.org/t/p/w185/kNiCVZX8w59pAyt9LxOYqx4em8m.jpg",
+   "character": "Harrison / Harrison Morgan",
+   "episodes": 18
+  },
+  {
+   "id": 1223917,
+   "name": "Dana L. Wilson",
+   "photo": "https://image.tmdb.org/t/p/w185/vysjAjGDfBa4HnVPD1eVvYo7GB2.jpg",
+   "character": "Angie Miller",
+   "episodes": 18
+  },
+  {
+   "id": 116774,
+   "name": "David Ramsey",
+   "photo": "https://image.tmdb.org/t/p/w185/bZWO7WfBYI8iojTFozzqN2X3RWL.jpg",
+   "character": "Anton Briggs",
+   "episodes": 17
+  },
+  {
+   "id": 63312,
+   "name": "Yvonne Strahovski",
+   "photo": "https://image.tmdb.org/t/p/w185/2IQEjn5T8urx6ikXM87QGs5MrWg.jpg",
+   "character": "Hannah McKay",
+   "episodes": 17
+  },
+  {
+   "id": 30613,
+   "name": "Keith Carradine",
+   "photo": "https://image.tmdb.org/t/p/w185/pFChLHGcQrw0pSseRYQofQ3FN4N.jpg",
+   "character": "Frank Lundy",
+   "episodes": 15
+  },
+  {
+   "id": 54789,
+   "name": "Sean Patrick Flanery",
+   "photo": "https://image.tmdb.org/t/p/w185/aHQtxIjMEDWdXqvFJplx0Kcwdn6.jpg",
+   "character": "Jacob Elway",
+   "episodes": 12
+  },
+  {
+   "id": 3492,
+   "name": "Colin Hanks",
+   "photo": "https://image.tmdb.org/t/p/w185/iljyDSiJRcwJL8QXQZ2WTyU1wh5.jpg",
+   "character": "Travis Marshall",
+   "episodes": 12
+  },
+  {
+   "id": 33181,
+   "name": "Jimmy Smits",
+   "photo": "https://image.tmdb.org/t/p/w185/dD04JlfW5N8bVrx7Cawn4A6g1xp.jpg",
+   "character": "Miguel Prado",
+   "episodes": 12
+  },
+  {
+   "id": 12074,
+   "name": "John Lithgow",
+   "photo": "https://image.tmdb.org/t/p/w185/ajfuBSm1HuVqFJlbTmAlza62Xxr.jpg",
+   "character": "Arthur Mitchell",
+   "episodes": 12
+  },
+  {
+   "id": 1254594,
+   "name": "Evan George Kruntchev",
+   "photo": null,
+   "character": "Harrison Morgan",
+   "episodes": 12
+  },
+  {
+   "id": 76536,
+   "name": "Courtney Ford",
+   "photo": "https://image.tmdb.org/t/p/w185/bICbKfv0xHYgCBLD39IqwZjZxSS.jpg",
+   "character": "Christine Hill",
+   "episodes": 11
+  }
+ ],
+ "crew": [
+  {
+   "id": 1223737,
+   "name": "James Manos Jr.",
+   "photo": "https://image.tmdb.org/t/p/w185/iFPjg94U6LFZnp6oaN1Twift0Hn.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 949179,
+   "name": "Sara Colleton",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 96
+  },
+  {
+   "id": 52160,
+   "name": "John Goldwyn",
+   "photo": "https://image.tmdb.org/t/p/w185/sKcukctjmlltKGujIBDrIZ4zPf9.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 96
+  },
+  {
+   "id": 46353,
+   "name": "Daniel Licht",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 96
+  },
+  {
+   "id": 67352,
+   "name": "Scott Buck",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 84
+  },
+  {
+   "id": 53820,
+   "name": "Michael C. Hall",
+   "photo": "https://image.tmdb.org/t/p/w185/7zUMGoujuev5PUwwv4Gl6ikB50k.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 72
+  },
+  {
+   "id": 1175362,
+   "name": "Tim Schlattmann",
+   "photo": "https://image.tmdb.org/t/p/w185/mmNzMpaB6Xqx38cI3VTUTcvicbX.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 72
+  },
+  {
+   "id": 41795,
+   "name": "Manny Coto",
+   "photo": "https://image.tmdb.org/t/p/w185/6myC77o5oGEWE8PzP1sUw3uPcxD.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 1218786,
+   "name": "Wendy West",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 1212409,
+   "name": "Clyde Phillips",
+   "photo": "https://image.tmdb.org/t/p/w185/ue6gnd9FRbl5wKZ9yHVtWp6ra4y.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 56855,
+   "name": "Melissa Rosenberg",
+   "photo": "https://image.tmdb.org/t/p/w185/yxNMR5vKQoqDwnu3SXykTTZQTJJ.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 47
+  },
+  {
+   "id": 1223911,
+   "name": "Scott Reynolds",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 47
+  },
+  {
+   "id": 1216634,
+   "name": "Jace Richdale",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 36
+  },
+  {
+   "id": 154623,
+   "name": "Daniel Cerone",
+   "photo": "https://image.tmdb.org/t/p/w185/7tULL0DKkjknISvEd63b4RR263V.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 35
+  },
+  {
+   "id": 1223910,
+   "name": "Lauren Gussis",
+   "photo": "https://image.tmdb.org/t/p/w185/hA9eRqCYG0T7rAJLyzXJYKoU5Vm.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 34
+  },
+  {
+   "id": 172666,
+   "name": "Charles H. Eglee",
+   "photo": "https://image.tmdb.org/t/p/w185/kcPQBNXLWkjHbKSbuYr22fhSw5f.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 24
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:31:47.235Z"
+}

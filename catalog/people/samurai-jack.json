@@ -1,0 +1,327 @@
+{
+ "show": "Samurai Jack",
+ "slug": "samurai-jack",
+ "tmdbId": 2723,
+ "cast": [
+  {
+   "id": 31549,
+   "name": "Phil LaMarr",
+   "photo": "https://image.tmdb.org/t/p/w185/xP2kNlsmXtzXq0geutflO4K9mSE.jpg",
+   "character": "Samurai Jack (voice)",
+   "episodes": 60
+  },
+  {
+   "id": 10134,
+   "name": "Mako",
+   "photo": "https://image.tmdb.org/t/p/w185/x0dZQHKQOZ1ancuRw8slO3rAiPq.jpg",
+   "character": "Aku (voice)",
+   "episodes": 50
+  },
+  {
+   "id": 15761,
+   "name": "Grey DeLisle",
+   "photo": "https://image.tmdb.org/t/p/w185/vrUHaXe1pG56yZkgH7Hs3LGRLTT.jpg",
+   "character": "The High Priestess (voice) / Lil Red Hood's Mom / Grandma (voice) / Josephine Clench / Clerk (voice)",
+   "episodes": 15
+  },
+  {
+   "id": 24362,
+   "name": "Kevin Michael Richardson",
+   "photo": "https://image.tmdb.org/t/p/w185/xXt9Nh7RAT5bOen66TaXreNYmCl.jpg",
+   "character": "Guardian (voice) / Ultra Robot / Robot (voice) / Sheriff (voice)",
+   "episodes": 15
+  },
+  {
+   "id": 15762,
+   "name": "Tara Strong",
+   "photo": "https://image.tmdb.org/t/p/w185/Cm3X7CCSuYbjW1ZKJ8vxCj4SI7.jpg",
+   "character": "Little Girl / Lady #2 / Girl #1 (voice) / Ashi (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 34982,
+   "name": "Jeff Bennett",
+   "photo": "https://image.tmdb.org/t/p/w185/6Fq3Q1e0Oz0j2J2fnFSl7fKCHd9.jpg",
+   "character": "Ringmaster / Lil Aqualizer / Slave #2 (voice) / Huge Bear / Middle Bear / Lil Red Hood (voice) / Gargoyle (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 1190522,
+   "name": "Greg Baldwin",
+   "photo": "https://image.tmdb.org/t/p/w185/e8uUOVj8l2ZWY1RapVoQH0SES2a.jpg",
+   "character": "Aku (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 78798,
+   "name": "Tom Kenny",
+   "photo": "https://image.tmdb.org/t/p/w185/kftXtExrcoTTjyeYmSXJ0Ogr3R7.jpg",
+   "character": "Manager / Cop #6 (voice) / Leader / Chritchellite #1, #2 & #3 (voice) / Monkar / Og (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 81667,
+   "name": "Jennifer Hale",
+   "photo": "https://image.tmdb.org/t/p/w185/oNQCrdiSm0mABCcE5YaHwuZQK8X.jpg",
+   "character": "Narc (voice) / Waitress (voice) / Girl (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 31531,
+   "name": "John DiMaggio",
+   "photo": "https://image.tmdb.org/t/p/w185/qcbQe71nSlULDsP1OxTqltEKFbl.jpg",
+   "character": "The Scotsman (voice) / Ezekiel Clench / Alien Guard (voice) / Scotsman / Clansman #3 (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 43125,
+   "name": "Rob Paulsen",
+   "photo": "https://image.tmdb.org/t/p/w185/7buvKWIjPlspqruaO3b28V5owJr.jpg",
+   "character": "High Voice Guy / Taxi Driver / Cop #1 (voice) / Rothchild (voice) / Cole Lampkin / Lizor / Rothchild (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 80416,
+   "name": "Richard McGonagle",
+   "photo": "https://image.tmdb.org/t/p/w185/eso1WgiZiqwOb1vp2sOF6uJyJn1.jpg",
+   "character": "Slave Driver / Slave #3 / Slave #4 (voice) / Villiage Leader / Water Creature (voice) / Warrior / Viking (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 2249,
+   "name": "Clyde Kusatsu",
+   "photo": "https://image.tmdb.org/t/p/w185/5dTSe1F9cnReZGHYzbCbVy7vbcf.jpg",
+   "character": "Grand Master (voice) / Father (voice) / Old Man / Dad (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 52699,
+   "name": "Danny Mann",
+   "photo": "https://image.tmdb.org/t/p/w185/980QYqXIZCMn5Knx0vjROkw9vKo.jpg",
+   "character": "Kurtok / Soldier (voice) / Elder (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 85500,
+   "name": "Sab Shimono",
+   "photo": "https://image.tmdb.org/t/p/w185/aMmU3CK8TkHAJSDhsRBCYkse4Ck.jpg",
+   "character": "Emperor (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 31162,
+   "name": "Daran Norris",
+   "photo": "https://image.tmdb.org/t/p/w185/oLaegqPwuEdNNJVqrvcgI6guYsi.jpg",
+   "character": "Man #2 / Man #3 / Hunch Bishop / Prince (voice) / Spartok (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 346,
+   "name": "Mike Bell",
+   "photo": "https://image.tmdb.org/t/p/w185/jto31jgYo48AF52aTQnhLMNTn9Q.jpg",
+   "character": "Man (voice) / Biker 2 / Lady 3 / Victim (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 60739,
+   "name": "Kath Soucie",
+   "photo": "https://image.tmdb.org/t/p/w185/dSE1JtsdA1aSgIIw415bsXtmkPg.jpg",
+   "character": "Kid A / Daughter 1 / Daughter 2 / Mother (voice) / Olivia (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 35132,
+   "name": "Peter Renaday",
+   "photo": "https://image.tmdb.org/t/p/w185/dzigC811W3TRz6RJDKH4fXXrQs.jpg",
+   "character": "Priest (voice) / Grandmaster Tan Zang (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 23680,
+   "name": "Dee Bradley Baker",
+   "photo": "https://image.tmdb.org/t/p/w185/9oFnToDZWp0I484s7Ua1EzNQQ2m.jpg",
+   "character": "Bully #1 / Robot (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 86434,
+   "name": "Joe Alaskey",
+   "photo": "https://image.tmdb.org/t/p/w185/bYC9pHuC8ownvMlEgWoMEwItsUu.jpg",
+   "character": "General / Alien # 3 (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 84495,
+   "name": "Jess Harnell",
+   "photo": "https://image.tmdb.org/t/p/w185/zQ2zg7PL3ut4JhfXMKSRV4FMnxR.jpg",
+   "character": "Ringo / Waitress (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 34521,
+   "name": "Maurice LaMarche",
+   "photo": "https://image.tmdb.org/t/p/w185/qCiL3EYAhLcNo0rNj5pczWo9MwG.jpg",
+   "character": "Boss / Bouncer # 2 (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 298410,
+   "name": "Keegan-Michael Key",
+   "photo": "https://image.tmdb.org/t/p/w185/xmdzYXP9j87a43FSiL138nLesuS.jpg",
+   "character": "Da' Samurai (voice)",
+   "episodes": 1
+  }
+ ],
+ "crew": [
+  {
+   "id": 185438,
+   "name": "Genndy Tartakovsky",
+   "photo": "https://image.tmdb.org/t/p/w185/neLR8ws82ezlbhOyUvhtLXwQZWL.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Story",
+    "Writer"
+   ],
+   "episodes": 86
+  },
+  {
+   "id": 1215655,
+   "name": "Mike Lazzo",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 36
+  },
+  {
+   "id": 1218986,
+   "name": "Bryan Andrews",
+   "photo": "https://image.tmdb.org/t/p/w185/28gfwWcp0961McmxFld5nKdNXV3.jpg",
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 34
+  },
+  {
+   "id": 23739,
+   "name": "James L. Venable",
+   "photo": "https://image.tmdb.org/t/p/w185/6TzgaALTuc3l8lOctphitbSbh8W.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 1197422,
+   "name": "Amy Keating Rogers",
+   "photo": "https://image.tmdb.org/t/p/w185/6swIra9XBxv3wF3L1bGhKl8A0Ud.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1218982,
+   "name": "Randy Myers",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 23
+  },
+  {
+   "id": 1217424,
+   "name": "Chris Reccardi",
+   "photo": "https://image.tmdb.org/t/p/w185/oVPYq25hgFO0rsb3MgWOqeMSzXh.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 1122954,
+   "name": "Brian Larsen",
+   "photo": "https://image.tmdb.org/t/p/w185/A76emQX5pOx6Kfivckf0isZz5V5.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 81586,
+   "name": "Robert Alvarez",
+   "photo": "https://image.tmdb.org/t/p/w185/xptJnNsxOGz6tE3eJp1hyAVgOvD.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 185446,
+   "name": "Paul Rudish",
+   "photo": "https://image.tmdb.org/t/p/w185/tq6CnqnyFEQARhZNgjqeXsFs7QK.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1218988,
+   "name": "Charlie Bean",
+   "photo": "https://image.tmdb.org/t/p/w185/j2fUfkLdgSs5PyIiVpQqi2rH2Wl.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1055222,
+   "name": "David Krentz",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 60300,
+   "name": "Darrick Bachman",
+   "photo": null,
+   "jobs": [
+    "Story"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1214360,
+   "name": "Rob Renzetti",
+   "photo": "https://image.tmdb.org/t/p/w185/iOKGFyvQnei03QiZgf9aLHNoIx1.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 81634,
+   "name": "Chris Mitchell",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1447327,
+   "name": "Carey Yost",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:29:27.590Z"
+}

@@ -1,0 +1,331 @@
+{
+ "show": "Daredevil: Born Again",
+ "slug": "daredevil-born-again",
+ "tmdbId": 202555,
+ "cast": [
+  {
+   "id": 23458,
+   "name": "Charlie Cox",
+   "photo": "https://image.tmdb.org/t/p/w185/91fFBazOvuNjwjcES2b199Ukspn.jpg",
+   "character": "Matt Murdock / Daredevil",
+   "episodes": 17
+  },
+  {
+   "id": 7132,
+   "name": "Vincent D'Onofrio",
+   "photo": "https://image.tmdb.org/t/p/w185/qkyiLolEqYMGH25xD4sFIXAjZQB.jpg",
+   "character": "Wilson Fisk",
+   "episodes": 17
+  },
+  {
+   "id": 59237,
+   "name": "Margarita Levieva",
+   "photo": "https://image.tmdb.org/t/p/w185/7rSf7C5oKuvjgEBfe2GVv064Le.jpg",
+   "character": "Heather Glenn",
+   "episodes": 17
+  },
+  {
+   "id": 1900369,
+   "name": "Michael Gandolfini",
+   "photo": "https://image.tmdb.org/t/p/w185/949lN8eoD3oXx1TmpjzmPQvt2TI.jpg",
+   "character": "Daniel Blake",
+   "episodes": 17
+  },
+  {
+   "id": 292214,
+   "name": "Nikki M. James",
+   "photo": "https://image.tmdb.org/t/p/w185/p8QNdGGulI8RPWP5L0V4egWvsXM.jpg",
+   "character": "Kirsten Mcduffie",
+   "episodes": 17
+  },
+  {
+   "id": 2399904,
+   "name": "Arty Froushan",
+   "photo": "https://image.tmdb.org/t/p/w185/zYNvzONSgyfnC4efHXh6zcrVj4d.jpg",
+   "character": "Buck Cashman",
+   "episodes": 17
+  },
+  {
+   "id": 1352920,
+   "name": "Genneya Walton",
+   "photo": "https://image.tmdb.org/t/p/w185/eP3wMmU1drxDHW54t5hvDcIxs05.jpg",
+   "character": "BB Urich",
+   "episodes": 17
+  },
+  {
+   "id": 171955,
+   "name": "Zabryna Guevara",
+   "photo": "https://image.tmdb.org/t/p/w185/7NlCmTZoauvyqjNdzTZv2auwOXg.jpg",
+   "character": "Sheila Rivera",
+   "episodes": 17
+  },
+  {
+   "id": 8786,
+   "name": "Ayelet Zurer",
+   "photo": "https://image.tmdb.org/t/p/w185/wSDtipN1Ew19x7duWaNEP8kPMCx.jpg",
+   "character": "Vanessa Fisk",
+   "episodes": 17
+  },
+  {
+   "id": 1154844,
+   "name": "Hamish Allan-Headley",
+   "photo": "https://image.tmdb.org/t/p/w185/wUi5ldLGBg9zjxFnh46EdulABUV.jpg",
+   "character": "Powell",
+   "episodes": 15
+  },
+  {
+   "id": 47640,
+   "name": "Clark Johnson",
+   "photo": "https://image.tmdb.org/t/p/w185/k4EcCKRI7lqxrqYqVuffdSe9JBN.jpg",
+   "character": "Cherry",
+   "episodes": 13
+  },
+  {
+   "id": 85779,
+   "name": "Wilson Bethel",
+   "photo": "https://image.tmdb.org/t/p/w185/xHLjGi9onJXwHoZALZ9pLBVnH5x.jpg",
+   "character": "Benjamin Poindexter / Bullseye",
+   "episodes": 11
+  },
+  {
+   "id": 2342626,
+   "name": "Jeremy Isaiah Earl",
+   "photo": "https://image.tmdb.org/t/p/w185/ehOjnmZftrIxXXm8DzhVCydTRxO.jpg",
+   "character": "Cole North",
+   "episodes": 11
+  },
+  {
+   "id": 212154,
+   "name": "Deborah Ann Woll",
+   "photo": "https://image.tmdb.org/t/p/w185/btTnyvRLXOH0pz2SLBwyKbmnFhX.jpg",
+   "character": "Karen Page (archive footage) / Karen Page",
+   "episodes": 10
+  },
+  {
+   "id": 4253570,
+   "name": "Camila Rodriguez",
+   "photo": "https://image.tmdb.org/t/p/w185/vqNNL7osVfN1PsWUVeRD6ea7EDK.jpg",
+   "character": "Angela Del Toro",
+   "episodes": 10
+  },
+  {
+   "id": 26457,
+   "name": "Matthew Lillard",
+   "photo": "https://image.tmdb.org/t/p/w185/mIEKAfe0iC41RDXibbTy48LtNOi.jpg",
+   "character": "Mr. Charles",
+   "episodes": 8
+  },
+  {
+   "id": 3127,
+   "name": "Lili Taylor",
+   "photo": "https://image.tmdb.org/t/p/w185/vWcMUi3QyvCr3QuFbjtwyPx7WtU.jpg",
+   "character": "Gov Marge McCaffrey",
+   "episodes": 8
+  },
+  {
+   "id": 1730741,
+   "name": "Ruibo Qian",
+   "photo": "https://image.tmdb.org/t/p/w185/cizeDQOD92B4qFs4IkQy9FKdn9P.jpg",
+   "character": "Detective Angie Kim",
+   "episodes": 8
+  },
+  {
+   "id": 2735000,
+   "name": "Ashley Marie Ortiz",
+   "photo": null,
+   "character": "Soledad Ayala",
+   "episodes": 8
+  },
+  {
+   "id": 76855,
+   "name": "Tony Dalton",
+   "photo": "https://image.tmdb.org/t/p/w185/vWteTJu9Dyrax7gQq8ndTjx5s6V.jpg",
+   "character": "Jack Duquesne (uncredited) / Jack Duquesne",
+   "episodes": 6
+  },
+  {
+   "id": 21179,
+   "name": "John Benjamin Hickey",
+   "photo": "https://image.tmdb.org/t/p/w185/4sUI0QhpeATA3Ah1R5FQzPLrndC.jpg",
+   "character": "D.A. Hochberg",
+   "episodes": 6
+  },
+  {
+   "id": 24291,
+   "name": "Annie Parisse",
+   "photo": "https://image.tmdb.org/t/p/w185/qYi44BzmKixH1ISPD0e48W14Zns.jpg",
+   "character": "Ariana",
+   "episodes": 6
+  },
+  {
+   "id": 33241,
+   "name": "Michael Gaston",
+   "photo": "https://image.tmdb.org/t/p/w185/lXhqiW4J1n9bnbfwz0Kdf2sjGLU.jpg",
+   "character": "Chief Gallo",
+   "episodes": 5
+  },
+  {
+   "id": 1911865,
+   "name": "Hunter Doohan",
+   "photo": "https://image.tmdb.org/t/p/w185/ihno5ut6ha8TaubQFgl5Ozco2K1.jpg",
+   "character": "Muse / Bastian / Bastian (archive footage)",
+   "episodes": 5
+  }
+ ],
+ "crew": [
+  {
+   "id": 1246914,
+   "name": "Dario Scardapane",
+   "photo": "https://image.tmdb.org/t/p/w185/tA4ZCP3sB8HOfnA4N2t8LxlTz5d.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 61173,
+   "name": "Chris Ord",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 61174,
+   "name": "Matt Corman",
+   "photo": "https://image.tmdb.org/t/p/w185/Atlzide3s5DYjBSyz2UrOfpFuVc.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 5283835,
+   "name": "Devon Kliger",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 583479,
+   "name": "Aaron Moorhead",
+   "photo": "https://image.tmdb.org/t/p/w185/plvZ27ya8yxyyqSCHbwBMjFfJwS.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 1074560,
+   "name": "Justin Benson",
+   "photo": "https://image.tmdb.org/t/p/w185/mch4MNcOxVsej3O5ifugkZTFzWI.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 1381999,
+   "name": "Sana Amanat",
+   "photo": "https://image.tmdb.org/t/p/w185/82RbDrWssbFC9cYXGlZQHhmvwR9.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 57027,
+   "name": "Louis D'Esposito",
+   "photo": "https://image.tmdb.org/t/p/w185/ewtzT2ZMIX2DNyGUUkHLn36fjgF.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 1256726,
+   "name": "Brad Winderbaum",
+   "photo": "https://image.tmdb.org/t/p/w185/5cDwxRkPuRRiHw6TVlaIobnX5aC.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 10850,
+   "name": "Kevin Feige",
+   "photo": "https://image.tmdb.org/t/p/w185/kCBqXZ5PT5udYGEj2wfTSFbLMvT.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 989610,
+   "name": "Andrew Grush",
+   "photo": "https://image.tmdb.org/t/p/w185/hGSZFzDJqLXchO7731gILeWdGpW.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 1770856,
+   "name": "Taylor Stewart",
+   "photo": "https://image.tmdb.org/t/p/w185/t18vL3Js8rBw9fxRGgj5AbCBcJv.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 80161,
+   "name": "Iain B. MacDonald",
+   "photo": "https://image.tmdb.org/t/p/w185/cxCwbSjnomHNGgvW2EP6YSr4hXv.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 2569663,
+   "name": "Chris Gary",
+   "photo": "https://image.tmdb.org/t/p/w185/pLhe9DdNytnega9dqLEKIcNkw1t.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 7132,
+   "name": "Vincent D'Onofrio",
+   "photo": "https://image.tmdb.org/t/p/w185/qkyiLolEqYMGH25xD4sFIXAjZQB.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 23458,
+   "name": "Charlie Cox",
+   "photo": "https://image.tmdb.org/t/p/w185/91fFBazOvuNjwjcES2b199Ukspn.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:34:09.949Z"
+}

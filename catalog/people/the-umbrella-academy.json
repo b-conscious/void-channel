@@ -1,0 +1,334 @@
+{
+ "show": "The Umbrella Academy",
+ "slug": "the-umbrella-academy",
+ "tmdbId": 75006,
+ "cast": [
+  {
+   "id": 1520843,
+   "name": "Aidan Gallagher",
+   "photo": "https://image.tmdb.org/t/p/w185/kEfxXHGyyXgaXOl3u3MPVGsJmYm.jpg",
+   "character": "Number Five",
+   "episodes": 36
+  },
+  {
+   "id": 27578,
+   "name": "Elliot Page",
+   "photo": "https://image.tmdb.org/t/p/w185/wSdlM4Qyoi5AGj5eIIp8Bm0Sfkz.jpg",
+   "character": "Vanya Hargreeves / Number Seven / Viktor Hargreeves / Number Seven",
+   "episodes": 36
+  },
+  {
+   "id": 1017294,
+   "name": "Tom Hopper",
+   "photo": "https://image.tmdb.org/t/p/w185/4Bx09xFBXIWIhptQ10yJEPbB1HI.jpg",
+   "character": "Luther Hargreeves / Number One",
+   "episodes": 36
+  },
+  {
+   "id": 2026050,
+   "name": "Emmy Raver-Lampman",
+   "photo": "https://image.tmdb.org/t/p/w185/cBkHUBzqoqrnkxDXWlqQmm91pD2.jpg",
+   "character": "Allison Hargreeves / Number Three",
+   "episodes": 36
+  },
+  {
+   "id": 118616,
+   "name": "Robert Sheehan",
+   "photo": "https://image.tmdb.org/t/p/w185/1lCAN0FZeUhXZo5goabMxk5mYDl.jpg",
+   "character": "Klaus Hargreeves / Number Four",
+   "episodes": 36
+  },
+  {
+   "id": 1450392,
+   "name": "David Castañeda",
+   "photo": "https://image.tmdb.org/t/p/w185/tJL5BxRPjs0kezIKzjJHUGPUVmi.jpg",
+   "character": "Diego Hargreeves / Number Two",
+   "episodes": 36
+  },
+  {
+   "id": 1442976,
+   "name": "Justin H. Min",
+   "photo": "https://image.tmdb.org/t/p/w185/ephzwqElc1LzIDfm9fiVf38ppkK.jpg",
+   "character": "Ben Hargreeves / Number Six",
+   "episodes": 36
+  },
+  {
+   "id": 10132,
+   "name": "Colm Feore",
+   "photo": "https://image.tmdb.org/t/p/w185/oOxcf1qB1IvVZrBEE1PdrfMiyBK.jpg",
+   "character": "Sir Reginald Hargreeves",
+   "episodes": 33
+  },
+  {
+   "id": 1742596,
+   "name": "Ritu Arya",
+   "photo": "https://image.tmdb.org/t/p/w185/bBRGCBAW0wNS7fQeGQroOeA60yw.jpg",
+   "character": "Lila Pitts",
+   "episodes": 26
+  },
+  {
+   "id": 1776153,
+   "name": "Jordan Claire Robbins",
+   "photo": "https://image.tmdb.org/t/p/w185/fLAwoiSRXGKvceUm3i3XaV5Fb2I.jpg",
+   "character": "Grace",
+   "episodes": 24
+  },
+  {
+   "id": 23429,
+   "name": "Adam Godley",
+   "photo": "https://image.tmdb.org/t/p/w185/5a7c36DeI6GA73D5XC7rNX2VIvv.jpg",
+   "character": "Pogo (voice)",
+   "episodes": 16
+  },
+  {
+   "id": 61114,
+   "name": "Kate Walsh",
+   "photo": "https://image.tmdb.org/t/p/w185/jRg4pmjvI2063YnQ6PJidclOc4L.jpg",
+   "character": "The Handler",
+   "episodes": 16
+  },
+  {
+   "id": 2253,
+   "name": "Yusuf Gatewood",
+   "photo": "https://image.tmdb.org/t/p/w185/nMVfXlD0EZCZNQ8UK64MpJzDe5.jpg",
+   "character": "Raymond Chestnut",
+   "episodes": 13
+  },
+  {
+   "id": 1286537,
+   "name": "Cameron Britton",
+   "photo": "https://image.tmdb.org/t/p/w185/9HFxi8ZnBiby3AQ7tBOPDxXFkCT.jpg",
+   "character": "Hazel",
+   "episodes": 12
+  },
+  {
+   "id": 29384,
+   "name": "Sheila McCarthy",
+   "photo": "https://image.tmdb.org/t/p/w185/wIe1srcx1lllkE66Jx5j9mV2BEc.jpg",
+   "character": "Agnes",
+   "episodes": 11
+  },
+  {
+   "id": 164094,
+   "name": "Marin Ireland",
+   "photo": "https://image.tmdb.org/t/p/w185/jAIOQNraHjvIAdqk81QDV5Phupp.jpg",
+   "character": "Sissy Cooper",
+   "episodes": 11
+  },
+  {
+   "id": 1283705,
+   "name": "Ken Hall",
+   "photo": "https://image.tmdb.org/t/p/w185/yw3rdrwWG7YpASpATfM599lQyuE.jpg",
+   "character": "Herb / Pogo Body / Herb / Pogo Body",
+   "episodes": 11
+  },
+  {
+   "id": 84933,
+   "name": "Mary J. Blige",
+   "photo": "https://image.tmdb.org/t/p/w185/riQBsxzhbp8E7T9noJEZrEoLZWO.jpg",
+   "character": "Cha-Cha",
+   "episodes": 10
+  },
+  {
+   "id": 589162,
+   "name": "Genesis Rodriguez",
+   "photo": "https://image.tmdb.org/t/p/w185/gUI9KADVjfHiI8nMc87hkeaWEF3.jpg",
+   "character": "Sloane Hargreeves",
+   "episodes": 10
+  },
+  {
+   "id": 2082863,
+   "name": "Justin Paul Kelly",
+   "photo": "https://image.tmdb.org/t/p/w185/qmi6cqd7AIoMJGHhPTcAQscxKhe.jpg",
+   "character": "Harlan",
+   "episodes": 10
+  },
+  {
+   "id": 37154,
+   "name": "John Magaro",
+   "photo": "https://image.tmdb.org/t/p/w185/ah4Jm4Lmrgab9xdHwRId80S4REd.jpg",
+   "character": "Leonard Peabody",
+   "episodes": 10
+  },
+  {
+   "id": 557840,
+   "name": "Kristen Holden-Ried",
+   "photo": "https://image.tmdb.org/t/p/w185/lphlznej10kVTFkPcSFYCigaZV9.jpg",
+   "character": "Axel",
+   "episodes": 10
+  },
+  {
+   "id": 144560,
+   "name": "Jason Bryden",
+   "photo": "https://image.tmdb.org/t/p/w185/julZmecbULIhu1Ha9pkUDIeEgVA.jpg",
+   "character": "Otto",
+   "episodes": 9
+  },
+  {
+   "id": 2245098,
+   "name": "Eden Cupid",
+   "photo": "https://image.tmdb.org/t/p/w185/gZRl0z53LYZNfAfyqyKiVAu9B2t.jpg",
+   "character": "Young Allison",
+   "episodes": 9
+  }
+ ],
+ "crew": [
+  {
+   "id": 1227939,
+   "name": "Steve Blackman",
+   "photo": "https://image.tmdb.org/t/p/w185/ui2tZkndNgit4Gsb4nRPzKyjPZx.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 36
+  },
+  {
+   "id": 40832,
+   "name": "Mike Richardson",
+   "photo": "https://image.tmdb.org/t/p/w185/zGNDb805xzvTFRoXnITgZDPWSi3.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 36
+  },
+  {
+   "id": 63263,
+   "name": "Beau Bauman",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 36
+  },
+  {
+   "id": 65690,
+   "name": "Keith Goldberg",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 36
+  },
+  {
+   "id": 19282,
+   "name": "Scott Stuber",
+   "photo": "https://image.tmdb.org/t/p/w185/BIpxpQaS4v6eukU3Mgjc9KBf0l.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 36
+  },
+  {
+   "id": 1219207,
+   "name": "Jeff Russo",
+   "photo": "https://image.tmdb.org/t/p/w185/xmH1qDuU8KC2evd7GXd0hCWWny1.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 36
+  },
+  {
+   "id": 104831,
+   "name": "Jeff F. King",
+   "photo": "https://image.tmdb.org/t/p/w185/vOzeRBFopObv1hOZOATP4VJi552.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 1147923,
+   "name": "Jeremy Slater",
+   "photo": "https://image.tmdb.org/t/p/w185/iRey6rQs0C2Dd8HAfY6IkDnzqQu.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Teleplay"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 159780,
+   "name": "Jesse McKeown",
+   "photo": "https://image.tmdb.org/t/p/w185/ucSPy3cuq4RNSKds7anRJne9XH4.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 2195579,
+   "name": "Perrine Virgile",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 1219521,
+   "name": "Mark Goffman",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Teleplay"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 2702455,
+   "name": "Eric W. Phillips",
+   "photo": null,
+   "jobs": [
+    "Teleplay"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 208453,
+   "name": "Peter Hoar",
+   "photo": "https://image.tmdb.org/t/p/w185/qfLft2v4stmVdXYEdanJhasYC5J.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 2763288,
+   "name": "Robert Askins",
+   "photo": "https://image.tmdb.org/t/p/w185/vSDaUeRlRDKdc7iJdAEbYCcdUIl.jpg",
+   "jobs": [
+    "Teleplay",
+    "Story"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 175311,
+   "name": "Jeremy Webb",
+   "photo": "https://image.tmdb.org/t/p/w185/hJcVQ62yQTBP5lLbhsIFpeHK2hD.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 3676417,
+   "name": "Abbey Morris",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 6
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:52.775Z"
+}

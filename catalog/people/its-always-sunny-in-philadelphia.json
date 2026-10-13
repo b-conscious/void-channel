@@ -1,0 +1,335 @@
+{
+ "show": "It's Always Sunny in Philadelphia",
+ "slug": "its-always-sunny-in-philadelphia",
+ "tmdbId": 2710,
+ "cast": [
+  {
+   "id": 95101,
+   "name": "Charlie Day",
+   "photo": "https://image.tmdb.org/t/p/w185/c0HNhjChGybnHa4eoLyqO4dDu1j.jpg",
+   "character": "Charlie Kelly",
+   "episodes": 187
+  },
+  {
+   "id": 78597,
+   "name": "Rob Mac",
+   "photo": "https://image.tmdb.org/t/p/w185/gcep3ItyxaZ3ljH1IS6Lfkm8IAs.jpg",
+   "character": "Ronald 'Mac' McDonald",
+   "episodes": 187
+  },
+  {
+   "id": 95102,
+   "name": "Kaitlin Olson",
+   "photo": "https://image.tmdb.org/t/p/w185/z84SKRCVl9zPhP9AINVS8Bx8dRO.jpg",
+   "character": "Dee Reynolds",
+   "episodes": 187
+  },
+  {
+   "id": 77870,
+   "name": "Glenn Howerton",
+   "photo": "https://image.tmdb.org/t/p/w185/r3KJd0Ea7lyrAHWl2Ww8lMh29hx.jpg",
+   "character": "Dennis Reynolds",
+   "episodes": 183
+  },
+  {
+   "id": 518,
+   "name": "Danny DeVito",
+   "photo": "https://image.tmdb.org/t/p/w185/6kO4IN7ndoIGw2JhyhAQN3SFmdx.jpg",
+   "character": "Frank Reynolds",
+   "episodes": 180
+  },
+  {
+   "id": 139309,
+   "name": "Mary Elizabeth Ellis",
+   "photo": "https://image.tmdb.org/t/p/w185/dxU1L86zV6gjcOdATfO4uo6zIpt.jpg",
+   "character": "Waitress",
+   "episodes": 40
+  },
+  {
+   "id": 1219546,
+   "name": "David Hornsby",
+   "photo": "https://image.tmdb.org/t/p/w185/wL20daMDqsa9ALA7EQrzgFyIMvz.jpg",
+   "character": "Matthew 'Rickety Cricket' Mara",
+   "episodes": 27
+  },
+  {
+   "id": 1214638,
+   "name": "Artemis Pebdani",
+   "photo": "https://image.tmdb.org/t/p/w185/ctwVQYbcOuTIQJ866fi3AhzqKBM.jpg",
+   "character": "Artemis",
+   "episodes": 19
+  },
+  {
+   "id": 1232417,
+   "name": "Lynne Marie Stewart",
+   "photo": "https://image.tmdb.org/t/p/w185/pYesz7Pajx1vm5OYopiGYNvGQEN.jpg",
+   "character": "Bonnie Kelly / Charlie's Mom",
+   "episodes": 19
+  },
+  {
+   "id": 53931,
+   "name": "Sandy Martin",
+   "photo": "https://image.tmdb.org/t/p/w185/eX337npL58ObgIQZkIRehLdlvsi.jpg",
+   "character": "Mrs. Mac / Mac's Mom",
+   "episodes": 18
+  },
+  {
+   "id": 74124,
+   "name": "Andrew Friedman",
+   "photo": "https://image.tmdb.org/t/p/w185/gPtN48w2xh8kq2KwXHfHBqd1IHq.jpg",
+   "character": "Uncle Jack",
+   "episodes": 13
+  },
+  {
+   "id": 1212111,
+   "name": "Lance Barber",
+   "photo": "https://image.tmdb.org/t/p/w185/fq7clGUASCP8Oo4pCk5LGzGDypG.jpg",
+   "character": "Bill Ponderosa",
+   "episodes": 11
+  },
+  {
+   "id": 44178,
+   "name": "Gregory Scott Cummins",
+   "photo": "https://image.tmdb.org/t/p/w185/jU0FkHNoGP92vEIJqYrH2beKUoo.jpg",
+   "character": "Luther / Luther McDonald/Donald McDonald / Donald McDonald",
+   "episodes": 10
+  },
+  {
+   "id": 22125,
+   "name": "Jimmi Simpson",
+   "photo": "https://image.tmdb.org/t/p/w185/gerE8VqXfFyAs3QhbUlwEuZllKq.jpg",
+   "character": "Liam McPoyle",
+   "episodes": 9
+  },
+  {
+   "id": 74538,
+   "name": "Nate Mooney",
+   "photo": "https://image.tmdb.org/t/p/w185/kBcIrVvc9hTAiUOERK2pCQgX1Iw.jpg",
+   "character": "Ryan McPoyle",
+   "episodes": 9
+  },
+  {
+   "id": 60200,
+   "name": "Bob Wiltfong",
+   "photo": "https://image.tmdb.org/t/p/w185/k8eDXgkdWP0yIxWlyg7KeAoVx81.jpg",
+   "character": "Anchor / Chet Wallum / Chet",
+   "episodes": 8
+  },
+  {
+   "id": 54719,
+   "name": "Michael Naughton",
+   "photo": "https://image.tmdb.org/t/p/w185/zRuTJXoBmW9hdGCqg3V2b15l3HV.jpg",
+   "character": "The Waiter / HR Director",
+   "episodes": 7
+  },
+  {
+   "id": 1219297,
+   "name": "Brian Unger",
+   "photo": "https://image.tmdb.org/t/p/w185/aBrtRXhPvdmstl4oDq2Cp6MS6aW.jpg",
+   "character": "The Lawyer / The Attorney",
+   "episodes": 7
+  },
+  {
+   "id": 154826,
+   "name": "Catherine Reitman",
+   "photo": "https://image.tmdb.org/t/p/w185/8o7vcMrjk7u2t4a5NatGTxjghmR.jpg",
+   "character": "Maureen Ponderosa",
+   "episodes": 7
+  },
+  {
+   "id": 65227,
+   "name": "Travis Schuldt",
+   "photo": "https://image.tmdb.org/t/p/w185/zMZBaVXOXg497rFpLkkdfAJbi0F.jpg",
+   "character": "Ben (The Soldier)",
+   "episodes": 7
+  },
+  {
+   "id": 78152,
+   "name": "T.J. Hoban",
+   "photo": "https://image.tmdb.org/t/p/w185/wWzdSWNOzCBGhrZzbpcoFCfgIck.jpg",
+   "character": "The Master / Rex / Angel / Rex / Rex",
+   "episodes": 6
+  },
+  {
+   "id": 101796,
+   "name": "John Ponzio",
+   "photo": "https://image.tmdb.org/t/p/w185/a7qA9rY42My0G1516mPZkcHiel0.jpg",
+   "character": "Businessman #1 / Manager / Jumper",
+   "episodes": 5
+  },
+  {
+   "id": 208239,
+   "name": "Thesy Surface",
+   "photo": "https://image.tmdb.org/t/p/w185/6tgtKmmeGPJBOuYP9hXUvRZAYDz.jpg",
+   "character": "Margaret McPoyle",
+   "episodes": 5
+  },
+  {
+   "id": 124645,
+   "name": "Chad L. Coleman",
+   "photo": "https://image.tmdb.org/t/p/w185/lXcBz0qt4L767WqkTxl96RFTZvz.jpg",
+   "character": "Z",
+   "episodes": 5
+  }
+ ],
+ "crew": [
+  {
+   "id": 78597,
+   "name": "Rob Mac",
+   "photo": "https://image.tmdb.org/t/p/w185/gcep3ItyxaZ3ljH1IS6Lfkm8IAs.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 177
+  },
+  {
+   "id": 2781593,
+   "name": "Thomas Lofaro",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 236
+  },
+  {
+   "id": 77870,
+   "name": "Glenn Howerton",
+   "photo": "https://image.tmdb.org/t/p/w185/r3KJd0Ea7lyrAHWl2Ww8lMh29hx.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 177
+  },
+  {
+   "id": 95101,
+   "name": "Charlie Day",
+   "photo": "https://image.tmdb.org/t/p/w185/c0HNhjChGybnHa4eoLyqO4dDu1j.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 177
+  },
+  {
+   "id": 24177,
+   "name": "Michael Rotenberg",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 177
+  },
+  {
+   "id": 1219546,
+   "name": "David Hornsby",
+   "photo": "https://image.tmdb.org/t/p/w185/wL20daMDqsa9ALA7EQrzgFyIMvz.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 121
+  },
+  {
+   "id": 209177,
+   "name": "Scott Marder",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 101
+  },
+  {
+   "id": 169443,
+   "name": "Rob Rosell",
+   "photo": "https://image.tmdb.org/t/p/w185/A6iPBMZ4Sq6qPPd392odJL25a7Z.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 81
+  },
+  {
+   "id": 1346119,
+   "name": "Megan Ganz",
+   "photo": "https://image.tmdb.org/t/p/w185/2WJsgUMJEf7s5HE5LvfPYUocjlu.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 46
+  },
+  {
+   "id": 1212522,
+   "name": "Matt Shakman",
+   "photo": "https://image.tmdb.org/t/p/w185/kraLXlC9egJh4pTNTpKUYhkkNiu.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 43
+  },
+  {
+   "id": 1254628,
+   "name": "Lee Sung Jin",
+   "photo": "https://image.tmdb.org/t/p/w185/vQGDK0FF4prFJxivn942JYuvJIg.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 28
+  },
+  {
+   "id": 1733707,
+   "name": "Todd Biermann",
+   "photo": "https://image.tmdb.org/t/p/w185/9Ovjc0p7Wym2KMsw5zPlL86Zp8c.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 21
+  },
+  {
+   "id": 1736223,
+   "name": "Heath Cullens",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 2223,
+   "name": "Fred Savage",
+   "photo": "https://image.tmdb.org/t/p/w185/ux4TBPjG2kZDUlDiKb6eBK7BBFl.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 169448,
+   "name": "Richie Keen",
+   "photo": "https://image.tmdb.org/t/p/w185/7dILc8lBE0v6vqfVv3pmkQTUx2c.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 1223735,
+   "name": "Dan Attias",
+   "photo": "https://image.tmdb.org/t/p/w185/ouUeAsHwRliL4S0mu7lKDvEkEq4.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 16
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:28:39.438Z"
+}

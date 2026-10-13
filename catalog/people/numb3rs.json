@@ -1,0 +1,337 @@
+{
+ "show": "Numb3rs",
+ "slug": "numb3rs",
+ "tmdbId": 578,
+ "cast": [
+  {
+   "id": 52602,
+   "name": "Rob Morrow",
+   "photo": "https://image.tmdb.org/t/p/w185/nxF4xVyEtQLMxDXlhJHnCoKM4MI.jpg",
+   "character": "Don Eppes",
+   "episodes": 118
+  },
+  {
+   "id": 38582,
+   "name": "David Krumholtz",
+   "photo": "https://image.tmdb.org/t/p/w185/2vaimzfyPQVxZGHbQS5M3z3tZw0.jpg",
+   "character": "Charlie Eppes",
+   "episodes": 118
+  },
+  {
+   "id": 6167,
+   "name": "Judd Hirsch",
+   "photo": "https://image.tmdb.org/t/p/w185/7rJ0TZfMoPLTcO203tHhE6tcPKP.jpg",
+   "character": "Alan Eppes",
+   "episodes": 118
+  },
+  {
+   "id": 165284,
+   "name": "Alimi Ballard",
+   "photo": "https://image.tmdb.org/t/p/w185/7gIoTGYnLZ24tc1GXQq5TUayE6g.jpg",
+   "character": "David Sinclair",
+   "episodes": 118
+  },
+  {
+   "id": 43778,
+   "name": "Navi Rawat",
+   "photo": "https://image.tmdb.org/t/p/w185/bXCNzMxlDuuiuxKxzFx85MojRwW.jpg",
+   "character": "Amita Ramanujan",
+   "episodes": 112
+  },
+  {
+   "id": 52476,
+   "name": "Dylan Bruno",
+   "photo": "https://image.tmdb.org/t/p/w185/qXiqadUH3UeOoyZtcbwIIJS8np4.jpg",
+   "character": "Colby Granger",
+   "episodes": 104
+  },
+  {
+   "id": 12688,
+   "name": "Peter MacNicol",
+   "photo": "https://image.tmdb.org/t/p/w185/8gizugTP8hykdfBkOY0Qg0aqpiP.jpg",
+   "character": "Larry Fleinhardt",
+   "episodes": 99
+  },
+  {
+   "id": 150954,
+   "name": "Diane Farr",
+   "photo": "https://image.tmdb.org/t/p/w185/r63GxSo6qYV5Hy2YZK717fMvxYt.jpg",
+   "character": "Megan Reeves",
+   "episodes": 66
+  },
+  {
+   "id": 1211965,
+   "name": "Aya Sumika",
+   "photo": "https://image.tmdb.org/t/p/w185/63LzjzeE96IUsUmNb9tkvnpPcwi.jpg",
+   "character": "Liz Warner",
+   "episodes": 45
+  },
+  {
+   "id": 1216169,
+   "name": "Sophina Brown",
+   "photo": "https://image.tmdb.org/t/p/w185/mAeYSPBff7T4VwlnvNxAMn8xRnw.jpg",
+   "character": "Bianca Styles / Nikki Betancourt",
+   "episodes": 40
+  },
+  {
+   "id": 2394,
+   "name": "Alan Ruck",
+   "photo": "https://image.tmdb.org/t/p/w185/hj7CuWinT12hMKjRhSO4XEMVq7w.jpg",
+   "character": "Arnold Winslow",
+   "episodes": 16
+  },
+  {
+   "id": 95635,
+   "name": "Michelle Nolden",
+   "photo": "https://image.tmdb.org/t/p/w185/4ddqYDjKvEoYFl0pcrSpZoqHqYv.jpg",
+   "character": "Robin Brooks",
+   "episodes": 16
+  },
+  {
+   "id": 157067,
+   "name": "Matthew Yang King",
+   "photo": "https://image.tmdb.org/t/p/w185/4ck5cTZit0GZVynMSPOEbrF6qTp.jpg",
+   "character": "Matt Li / Tech",
+   "episodes": 14
+  },
+  {
+   "id": 110082,
+   "name": "Sabrina Lloyd",
+   "photo": "https://image.tmdb.org/t/p/w185/kvLlNaZTNL2mJPDI3aiLGt2Vwaz.jpg",
+   "character": "Terry Lake",
+   "episodes": 13
+  },
+  {
+   "id": 11074,
+   "name": "Kathy Najimy",
+   "photo": "https://image.tmdb.org/t/p/w185/nqbZF7Igr0SC8Xq8y0jwmx0mLDN.jpg",
+   "character": "Dr. Mildred Finch",
+   "episodes": 9
+  },
+  {
+   "id": 155705,
+   "name": "Leslie Silva",
+   "photo": "https://image.tmdb.org/t/p/w185/20OoGdQoKJ03TPWDisQyMV14hO2.jpg",
+   "character": "M.E. Ridenhour",
+   "episodes": 9
+  },
+  {
+   "id": 162869,
+   "name": "Susan Beaubian",
+   "photo": "https://image.tmdb.org/t/p/w185/q815QuPzyjV5ERLUgQqJOKnonXg.jpg",
+   "character": "FBI Tech Stendhauser",
+   "episodes": 9
+  },
+  {
+   "id": 38560,
+   "name": "Lou Diamond Phillips",
+   "photo": "https://image.tmdb.org/t/p/w185/yqGZwaGe8XgoxfO7zmx7weGBaXZ.jpg",
+   "character": "Agent Ian Edgerton",
+   "episodes": 9
+  },
+  {
+   "id": 17859,
+   "name": "Wendell Pierce",
+   "photo": "https://image.tmdb.org/t/p/w185/r6yKahL6Z8l9aUX5qvWxTmWl8Nm.jpg",
+   "character": "William Bradford",
+   "episodes": 5
+  },
+  {
+   "id": 883,
+   "name": "Will Patton",
+   "photo": "https://image.tmdb.org/t/p/w185/1V4DbU1mfEim4oaA5bvJywDAKwB.jpg",
+   "character": "Det. Gary Walker",
+   "episodes": 4
+  },
+  {
+   "id": 95796,
+   "name": "Dan Martin",
+   "photo": "https://image.tmdb.org/t/p/w185/brRz4upQrDPULNuoBUG6LFVK6NO.jpg",
+   "character": "Detective Cates",
+   "episodes": 4
+  },
+  {
+   "id": 1213802,
+   "name": "Gibby Brand",
+   "photo": "https://image.tmdb.org/t/p/w185/38syrYn2w3RouYVxuFQW8GznCOv.jpg",
+   "character": "Medical Examiner / Michael Sabello",
+   "episodes": 4
+  },
+  {
+   "id": 154657,
+   "name": "James Sie",
+   "photo": "https://image.tmdb.org/t/p/w185/yZ8SFsJJNmhgtNizwcWfknyBoBt.jpg",
+   "character": "FBI Tech / Lab Tech / Technician",
+   "episodes": 4
+  },
+  {
+   "id": 141610,
+   "name": "Luna Lauren Vélez",
+   "photo": "https://image.tmdb.org/t/p/w185/98BvmTJCZHx0jPv0oNcv04Jkmfb.jpg",
+   "character": "Claudia Gomez",
+   "episodes": 3
+  }
+ ],
+ "crew": [
+  {
+   "id": 1218778,
+   "name": "Nicolas Falacci",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 118
+  },
+  {
+   "id": 1218779,
+   "name": "Cheryl Heuton",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 118
+  },
+  {
+   "id": 893,
+   "name": "Tony Scott",
+   "photo": "https://image.tmdb.org/t/p/w185/5PYRgW97xk9iNVC8dS0seoIliRR.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 118
+  },
+  {
+   "id": 578,
+   "name": "Ridley Scott",
+   "photo": "https://image.tmdb.org/t/p/w185/zABJmN9opmqD4orWl3KSdCaSo7Q.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 118
+  },
+  {
+   "id": 1218831,
+   "name": "David W. Zucker",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 118
+  },
+  {
+   "id": 1218784,
+   "name": "Andrew Dettmann",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 117
+  },
+  {
+   "id": 2148,
+   "name": "Charlie Clouser",
+   "photo": "https://image.tmdb.org/t/p/w185/hRPE9KwQ2WJINdU02d97HFwszNc.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 117
+  },
+  {
+   "id": 70278,
+   "name": "Ken Sanzel",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 105
+  },
+  {
+   "id": 1935386,
+   "name": "Lewis Abel",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 105
+  },
+  {
+   "id": 1218788,
+   "name": "Don McGill",
+   "photo": "https://image.tmdb.org/t/p/w185/9QMLJDoA3hYlWdOhQyTVqimPok9.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 105
+  },
+  {
+   "id": 1218289,
+   "name": "Barry Schindel",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 53
+  },
+  {
+   "id": 1360905,
+   "name": "Sean Crouch",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 49
+  },
+  {
+   "id": 1360904,
+   "name": "J. David Harden",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 29
+  },
+  {
+   "id": 1193190,
+   "name": "Aaron Rahsaan Thomas",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1359897,
+   "name": "Robert Port",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 1215006,
+   "name": "John Behring",
+   "photo": "https://image.tmdb.org/t/p/w185/haJRuL73XiIMrFBahiZfaFql0gA.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 12
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:09.133Z"
+}

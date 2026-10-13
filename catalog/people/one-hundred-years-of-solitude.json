@@ -1,0 +1,307 @@
+{
+ "show": "One Hundred Years of Solitude",
+ "slug": "one-hundred-years-of-solitude",
+ "tmdbId": 207333,
+ "cast": [
+  {
+   "id": 1633150,
+   "name": "Claudio Cataño",
+   "photo": "https://image.tmdb.org/t/p/w185/k5L4EDlJVhqvzQojcwvbrohKeJm.jpg",
+   "character": "Colonel Aureliano Buendía",
+   "episodes": 15
+  },
+  {
+   "id": 71199,
+   "name": "Marleyda Soto",
+   "photo": "https://image.tmdb.org/t/p/w185/vjX9rxzRiJVilSRqtxCqytwHwDl.jpg",
+   "character": "Adult Úrsula Iguarán",
+   "episodes": 14
+  },
+  {
+   "id": 1591786,
+   "name": "Viña Machado",
+   "photo": "https://image.tmdb.org/t/p/w185/rFlD9tqCNDsoVUDj0wXlMCI07i6.jpg",
+   "character": "Adult Pilar Ternera",
+   "episodes": 8
+  },
+  {
+   "id": 2118332,
+   "name": "Carla Baratta",
+   "photo": "https://image.tmdb.org/t/p/w185/6SFvvX4LB1TySyjuldrVuQiwjce.jpg",
+   "character": "Adult Fernanda del Carpio",
+   "episodes": 8
+  },
+  {
+   "id": 1251175,
+   "name": "Maria Adelaida Puerta",
+   "photo": "https://image.tmdb.org/t/p/w185/noYeO2kPdmRIfv6xnDNSQoOQQzU.jpg",
+   "character": "Elderly Amaranta Buendía",
+   "episodes": 8
+  },
+  {
+   "id": 3042175,
+   "name": "Juanita Molina",
+   "photo": "https://image.tmdb.org/t/p/w185/y2x5rr85VVtlcbqum8vTypolDak.jpg",
+   "character": "Adult Renata Remedios \"Meme\" Buendía",
+   "episodes": 8
+  },
+  {
+   "id": 5070901,
+   "name": "Laura Taylor",
+   "photo": "https://image.tmdb.org/t/p/w185/8LDjS0vTkwDjEht2HTbGciSLGps.jpg",
+   "character": "Young Fernanda del Carpio",
+   "episodes": 8
+  },
+  {
+   "id": 3513369,
+   "name": "Emmanuel Restrepo",
+   "photo": "https://image.tmdb.org/t/p/w185/hcyTajG2qdIabNbfdQP4h4gXcL5.jpg",
+   "character": "Young José Arcadio \"El papa\"",
+   "episodes": 8
+  },
+  {
+   "id": 1043806,
+   "name": "Julián Román",
+   "photo": "https://image.tmdb.org/t/p/w185/hiZHji2jqSfdGNdWW6Rm2k1NQwY.jpg",
+   "character": "José Arcadio Segundo / Aureliano Segundo",
+   "episodes": 8
+  },
+  {
+   "id": 2374966,
+   "name": "Ángela Cano",
+   "photo": "https://image.tmdb.org/t/p/w185/9BaQO2i5kTluUkwsnK3bUB8SvlL.jpg",
+   "character": "Petra Cotes",
+   "episodes": 8
+  },
+  {
+   "id": 2606946,
+   "name": "Estefania Piñeres",
+   "photo": "https://image.tmdb.org/t/p/w185/sglSsX9DlO1PcWwmNdgZNUFAFOX.jpg",
+   "character": "Amaranta Úrsula",
+   "episodes": 8
+  },
+  {
+   "id": 2975578,
+   "name": "Obeida Benavides",
+   "photo": "https://image.tmdb.org/t/p/w185/io2uduzmG9RPuCBqPkcfH6PMXCN.jpg",
+   "character": "Elderly Pilar Ternera",
+   "episodes": 8
+  },
+  {
+   "id": 2021844,
+   "name": "Emiliano Pernia",
+   "photo": "https://image.tmdb.org/t/p/w185/dCvaYyf4lgvXOLcBYVKSe1s9kLa.jpg",
+   "character": "Aureliano José",
+   "episodes": 8
+  },
+  {
+   "id": 6479055,
+   "name": "Daniella Reyes",
+   "photo": "https://image.tmdb.org/t/p/w185/ii9uxjCjopey0GUhO1oZq07KvgM.jpg",
+   "character": "Remedios \"La Bella\"",
+   "episodes": 8
+  },
+  {
+   "id": 3920394,
+   "name": "Loren Sofia",
+   "photo": "https://image.tmdb.org/t/p/w185/pv2YGC1KPD9YC75IKIIhhvGVYXI.jpg",
+   "character": "Adult Amaranta Buendía / Adult Amaranta",
+   "episodes": 8
+  },
+  {
+   "id": 6441055,
+   "name": "Akima",
+   "photo": "https://image.tmdb.org/t/p/w185/i2qsG52yMzhHVZxO9v2UFnobHGo.jpg",
+   "character": "Adult Rebeca Buendía / Adult Rebeca",
+   "episodes": 8
+  },
+  {
+   "id": 3139504,
+   "name": "Rashed Estefenn",
+   "photo": null,
+   "character": "Young Magnífico",
+   "episodes": 6
+  },
+  {
+   "id": 1175778,
+   "name": "Diego Vásquez",
+   "photo": "https://image.tmdb.org/t/p/w185/w2LRcXCqcoMgGPH8nPguuSejriD.jpg",
+   "character": "Adult José Arcadio Buendía",
+   "episodes": 6
+  },
+  {
+   "id": 5120629,
+   "name": "Janer Villareal",
+   "photo": "https://image.tmdb.org/t/p/w185/fk8kwl9Rop4Dm8dLLRpCiGYCXDI.jpg",
+   "character": "Adult Arcadio",
+   "episodes": 6
+  },
+  {
+   "id": 6441057,
+   "name": "Dairis Van Grieken",
+   "photo": null,
+   "character": "Visitation",
+   "episodes": 6
+  },
+  {
+   "id": 6441059,
+   "name": "Rubén Alberto Prado Restrepo",
+   "photo": null,
+   "character": "Young Gerineldo",
+   "episodes": 6
+  },
+  {
+   "id": 4720016,
+   "name": "Enrique Poveda",
+   "photo": null,
+   "character": "Adult Gerineldo Márquez",
+   "episodes": 6
+  },
+  {
+   "id": 2599749,
+   "name": "Luis Fernando Gil",
+   "photo": null,
+   "character": "Adult Magnífico Visbal",
+   "episodes": 6
+  },
+  {
+   "id": 4724174,
+   "name": "Angela Maria Duarte",
+   "photo": null,
+   "character": "Matilde",
+   "episodes": 6
+  }
+ ],
+ "crew": [
+  {
+   "id": 1990800,
+   "name": "María Camila Arias",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 1381199,
+   "name": "Josep Amorós",
+   "photo": "https://image.tmdb.org/t/p/w185/4ymDozgfcLanlglQwi5XXhiQl9z.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 1850272,
+   "name": "Laura Mora",
+   "photo": "https://image.tmdb.org/t/p/w185/2ckemcq7t5XrYL85wpXJFAfVOc9.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1420294,
+   "name": "Alex Garcia Lopez",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 77162,
+   "name": "Rodrigo García",
+   "photo": "https://image.tmdb.org/t/p/w185/zmA2z8rbGEUX5A7TqQWeKgEIZnm.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 18492,
+   "name": "Jose Rivera",
+   "photo": "https://image.tmdb.org/t/p/w185/4sEg8rmuUhAo5GTxBa0LCaiKWw4.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1473392,
+   "name": "Gonzalo García Barcha",
+   "photo": "https://image.tmdb.org/t/p/w185/qJDjRISC53yYjCVaofm6BCq0RCm.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 2103856,
+   "name": "Diego Ramírez Schrempp",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 2829814,
+   "name": "Carolina Caicedo",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 3257584,
+   "name": "Juliana Flórez Luna",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 969242,
+   "name": "Andrés Calderón",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1679692,
+   "name": "Camilo Sanabria",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 4989444,
+   "name": "Juancho Valencia",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1028305,
+   "name": "Carlos Moreno",
+   "photo": "https://image.tmdb.org/t/p/w185/2N37bOdaq3s8dOZ4682jQSB3mMK.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:42:25.078Z"
+}

@@ -1,0 +1,323 @@
+{
+ "show": "Men Behaving Badly",
+ "slug": "men-behaving-badly",
+ "tmdbId": 20511,
+ "cast": [
+  {
+   "id": 60949,
+   "name": "Rob Schneider",
+   "photo": "https://image.tmdb.org/t/p/w185/nGHHon86e0rxVV1GVMRuKheqf6L.jpg",
+   "character": "Jamie Coleman",
+   "episodes": 35
+  },
+  {
+   "id": 56567,
+   "name": "Dina Spybey-Waters",
+   "photo": "https://image.tmdb.org/t/p/w185/aBW0vvA5nms1X3LQJYGWAGsxc2s.jpg",
+   "character": "Brenda Mikowski",
+   "episodes": 26
+  },
+  {
+   "id": 12260,
+   "name": "Ron Eldard",
+   "photo": "https://image.tmdb.org/t/p/w185/5Ww9aaJZjg1N2S6zpJkrZmQVMEI.jpg",
+   "character": "Kevin Murphy",
+   "episodes": 23
+  },
+  {
+   "id": 105647,
+   "name": "Justine Bateman",
+   "photo": "https://image.tmdb.org/t/p/w185/gNLnxLbyY5DsKZGCZH8h0QGTxdM.jpg",
+   "character": "Sarah Stretten",
+   "episodes": 22
+  },
+  {
+   "id": 77089,
+   "name": "Ken Marino",
+   "photo": "https://image.tmdb.org/t/p/w185/7MeXvFGhzBwDm6c7lvdalA3GJYM.jpg",
+   "character": "Steve Coprin",
+   "episodes": 13
+  },
+  {
+   "id": 113818,
+   "name": "Jenica Bergere",
+   "photo": "https://image.tmdb.org/t/p/w185/kyyH5jMD38hZySs6WfVv8jrpurW.jpg",
+   "character": "Katie",
+   "episodes": 13
+  },
+  {
+   "id": 43544,
+   "name": "James Greene",
+   "photo": "https://image.tmdb.org/t/p/w185/9cq8V23lcWHt4nXTDTMMdqFRyMs.jpg",
+   "character": "Harry",
+   "episodes": 6
+  },
+  {
+   "id": 19455,
+   "name": "Julia Campbell",
+   "photo": "https://image.tmdb.org/t/p/w185/dYXj6EEG1IKfGYT4odotllTRmBQ.jpg",
+   "character": "Cherie Miller",
+   "episodes": 5
+  },
+  {
+   "id": 20975,
+   "name": "Nada Despotovich",
+   "photo": "https://image.tmdb.org/t/p/w185/40Bqh3VoQlzdVmATLzfgSsdk6bX.jpg",
+   "character": "Claudia",
+   "episodes": 5
+  },
+  {
+   "id": 170774,
+   "name": "John Mendoza",
+   "photo": "https://image.tmdb.org/t/p/w185/jDLruSiHignphqrlJGnSkfjJ6Js.jpg",
+   "character": "Dominick",
+   "episodes": 3
+  },
+  {
+   "id": 33501,
+   "name": "Mark Christopher Lawrence",
+   "photo": "https://image.tmdb.org/t/p/w185/uQgXQbaDS0hoPyqUhs5Z97KIZPA.jpg",
+   "character": "Russell",
+   "episodes": 3
+  },
+  {
+   "id": 2553973,
+   "name": "Tamara Bick",
+   "photo": "https://image.tmdb.org/t/p/w185/rpG6S1D5acL76t4rpQZeZNjtpkW.jpg",
+   "character": "Liz",
+   "episodes": 2
+  },
+  {
+   "id": 149438,
+   "name": "Justin Jon Ross",
+   "photo": null,
+   "character": "Jordan",
+   "episodes": 2
+  },
+  {
+   "id": 56848,
+   "name": "Gary Bullock",
+   "photo": "https://image.tmdb.org/t/p/w185/eoS0PRHcIIdPqiPWF0bdbtZ0omh.jpg",
+   "character": "Man in Hospital Waiting Room / Freak",
+   "episodes": 2
+  },
+  {
+   "id": 55432,
+   "name": "Jamie Farr",
+   "photo": "https://image.tmdb.org/t/p/w185/4vzM97TVRJy4hkrYk2XsgTJWi6I.jpg",
+   "character": "Jamie Farr",
+   "episodes": 1
+  },
+  {
+   "id": 31469,
+   "name": "Andrea Elson",
+   "photo": "https://image.tmdb.org/t/p/w185/lRXieogWbQElmsMxpH2rI6ripzX.jpg",
+   "character": "Girl",
+   "episodes": 1
+  },
+  {
+   "id": 95857,
+   "name": "Elizabeth Ruscio",
+   "photo": "https://image.tmdb.org/t/p/w185/uBHRr1MsLldgo0ofBUn4g8tcFqY.jpg",
+   "character": "Ms. Jenkins",
+   "episodes": 1
+  },
+  {
+   "id": 27530,
+   "name": "Don Lake",
+   "photo": "https://image.tmdb.org/t/p/w185/zVcMF2Jtv1W3mvzYDE3JiFfw2PG.jpg",
+   "character": "Epstein",
+   "episodes": 1
+  },
+  {
+   "id": 62763,
+   "name": "Jarrad Paul",
+   "photo": "https://image.tmdb.org/t/p/w185/7je6AyygvrHNvbZ73mr4NaWwD.jpg",
+   "character": "Pipsqueak",
+   "episodes": 1
+  },
+  {
+   "id": 67017,
+   "name": "Shawn Christian",
+   "photo": "https://image.tmdb.org/t/p/w185/A81YwcqkVNtQ71FMa77zAfiGxrY.jpg",
+   "character": "The Plumber",
+   "episodes": 1
+  },
+  {
+   "id": 2462389,
+   "name": "Molly David",
+   "photo": null,
+   "character": "Ramona",
+   "episodes": 1
+  },
+  {
+   "id": 3272,
+   "name": "Drake Bell",
+   "photo": "https://image.tmdb.org/t/p/w185/6KxFiHrqiniS3oxV4NCz0sYNTuo.jpg",
+   "character": "Charlie Atwood",
+   "episodes": 1
+  },
+  {
+   "id": 1928007,
+   "name": "Ken Hanes",
+   "photo": "https://image.tmdb.org/t/p/w185/ieelfQvLSaMsQalmi7yOjdEjfaA.jpg",
+   "character": "Guy #1",
+   "episodes": 1
+  },
+  {
+   "id": 90658,
+   "name": "Kristin Bauer",
+   "photo": "https://image.tmdb.org/t/p/w185/nin3d2l1ExYVftXise7JLq6RFsq.jpg",
+   "character": "Robin",
+   "episodes": 1
+  }
+ ],
+ "crew": [
+  {
+   "id": 81912,
+   "name": "Simon Nye",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 128172,
+   "name": "Michael Zinberg",
+   "photo": "https://image.tmdb.org/t/p/w185/ssj871Em8e3Ik4oiIxj6lz3MGwg.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 157437,
+   "name": "James Burrows",
+   "photo": "https://image.tmdb.org/t/p/w185/b2hSq8OclJZdglNFM1Txaz5uBgs.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 64877,
+   "name": "Rod Daniel",
+   "photo": "https://image.tmdb.org/t/p/w185/mbzPVQePEbc2vZCRQuDdUvsfRoF.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 128603,
+   "name": "Neil Thompson",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 72942,
+   "name": "Gary Murphy",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1212911,
+   "name": "Jeff Melman",
+   "photo": "https://image.tmdb.org/t/p/w185/jGGU0EBFOWGUrlOLqO827yjWWqu.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 111943,
+   "name": "Jeff Filgo",
+   "photo": "https://image.tmdb.org/t/p/w185/zIPBykU1DJpg1OwtCLwvdiff87G.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 165901,
+   "name": "John Frink",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1212472,
+   "name": "Jackie Behan",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 20401,
+   "name": "Don Payne",
+   "photo": "https://image.tmdb.org/t/p/w185/JuqTsBm59pWgAJ1S08oRiuVCkP.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 15045,
+   "name": "Michael Lembeck",
+   "photo": "https://image.tmdb.org/t/p/w185/f1Bf2p9YvPIaTZMUhYxhCx5yxLP.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1215063,
+   "name": "Tom Cherones",
+   "photo": "https://image.tmdb.org/t/p/w185/oZ4mCJU7TN3OKxxRSrymuiHpHTn.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 7088,
+   "name": "Sam Simon",
+   "photo": "https://image.tmdb.org/t/p/w185/88bZbxTtkYbYaHayI2p0LODKQd.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 153950,
+   "name": "Brian K. Roberts",
+   "photo": "https://image.tmdb.org/t/p/w185/1DS8d5bxSkmAU6DnIr3JX5Bv7LL.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 134133,
+   "name": "Shelley Jensen",
+   "photo": "https://image.tmdb.org/t/p/w185/AbXIXwaMVQ04GA3aZDMN22IQPsY.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:36:26.834Z"
+}

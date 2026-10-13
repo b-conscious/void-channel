@@ -1,0 +1,326 @@
+{
+ "show": "CSI: NY",
+ "slug": "csi-ny",
+ "tmdbId": 2458,
+ "cast": [
+  {
+   "id": 33,
+   "name": "Gary Sinise",
+   "photo": "https://image.tmdb.org/t/p/w185/olRjiV8ZhBixQiTvrGwXhpVXxsV.jpg",
+   "character": "Mac Taylor",
+   "episodes": 197
+  },
+  {
+   "id": 12800,
+   "name": "Carmine Giovinazzo",
+   "photo": "https://image.tmdb.org/t/p/w185/hkI4Ybp0PnjfNScWYHqzNoE7jDG.jpg",
+   "character": "Danny Messer",
+   "episodes": 197
+  },
+  {
+   "id": 57686,
+   "name": "Hill Harper",
+   "photo": "https://image.tmdb.org/t/p/w185/cgaRPrgB4DBxogIgiLwuABVmJVw.jpg",
+   "character": "Sheldon Hawkes",
+   "episodes": 197
+  },
+  {
+   "id": 25987,
+   "name": "Eddie Cahill",
+   "photo": "https://image.tmdb.org/t/p/w185/duEjKuDs0UAMknHrKzQF2FcWcYC.jpg",
+   "character": "Donald Flack Jr.",
+   "episodes": 197
+  },
+  {
+   "id": 1217942,
+   "name": "Anna Belknap",
+   "photo": "https://image.tmdb.org/t/p/w185/o9JJ6thQO8cDhK0HBO06BQAUsFf.jpg",
+   "character": "Lindsay Monroe",
+   "episodes": 174
+  },
+  {
+   "id": 19976,
+   "name": "Robert Joy",
+   "photo": "https://image.tmdb.org/t/p/w185/kPY9ggs4qCi3oeEvkYP17Yvfm5r.jpg",
+   "character": "Sid Hammerback",
+   "episodes": 159
+  },
+  {
+   "id": 25972,
+   "name": "Melina Kanakaredes",
+   "photo": "https://image.tmdb.org/t/p/w185/wA41eJETN2U2WUE0EXBsHeIbS67.jpg",
+   "character": "Stella Bonasera",
+   "episodes": 140
+  },
+  {
+   "id": 60460,
+   "name": "A.J. Buckley",
+   "photo": "https://image.tmdb.org/t/p/w185/arGsJN4HuiNpFsRsNX81fDX1KJj.jpg",
+   "character": "Adam Ross",
+   "episodes": 129
+  },
+  {
+   "id": 6068,
+   "name": "Sela Ward",
+   "photo": "https://image.tmdb.org/t/p/w185/pzQuH9vm182Ar2vpUsakKzxPNV7.jpg",
+   "character": "Jo Danville",
+   "episodes": 57
+  },
+  {
+   "id": 101065,
+   "name": "Michelle Lee",
+   "photo": "https://image.tmdb.org/t/p/w185/r6QzFK8IBxO1Kp3zm3GJ3FUuwwR.jpg",
+   "character": "Jody Sun",
+   "episodes": 25
+  },
+  {
+   "id": 2684,
+   "name": "Emmanuelle Vaugier",
+   "photo": "https://image.tmdb.org/t/p/w185/jtQ4p9iQoD2uCgqbYRgccvGEG6X.jpg",
+   "character": "Jessica Angell",
+   "episodes": 25
+  },
+  {
+   "id": 20491,
+   "name": "Vanessa Ferlito",
+   "photo": "https://image.tmdb.org/t/p/w185/i128WKjZ3JkoJBOLw48hF4Uwu5V.jpg",
+   "character": "Aiden Burn",
+   "episodes": 24
+  },
+  {
+   "id": 3841314,
+   "name": "Lester G. Reynolds",
+   "photo": "https://image.tmdb.org/t/p/w185/zBGETMVW5HJTYwa1J2Cd19jApST.jpg",
+   "character": "Forensic Lab Tech",
+   "episodes": 17
+  },
+  {
+   "id": 4174,
+   "name": "Claire Forlani",
+   "photo": "https://image.tmdb.org/t/p/w185/e0Uk6QphxHZ9VTtxUT0ZkPgYWNs.jpg",
+   "character": "Peyton Driscoll",
+   "episodes": 8
+  },
+  {
+   "id": 34,
+   "name": "Mykelti Williamson",
+   "photo": "https://image.tmdb.org/t/p/w185/dR16zD9AjnHWbeN5OVmJWE0vSax.jpg",
+   "character": "Brigham Sinclair",
+   "episodes": 7
+  },
+  {
+   "id": 59219,
+   "name": "Kyle Gallner",
+   "photo": "https://image.tmdb.org/t/p/w185/wfdywrw6K3ti1uW1IYDWbUtU8se.jpg",
+   "character": "Reed Garrett",
+   "episodes": 6
+  },
+  {
+   "id": 28413,
+   "name": "Carmen Argenziano",
+   "photo": "https://image.tmdb.org/t/p/w185/aiHWJmsVn7iWuohSg6lzF23XYVr.jpg",
+   "character": "Stanton Gerrard",
+   "episodes": 6
+  },
+  {
+   "id": 11024,
+   "name": "Kelly Hu",
+   "photo": "https://image.tmdb.org/t/p/w185/jLhnDPiUIrIcdKJYnnVSZ4nbgyh.jpg",
+   "character": "Kaile Maka",
+   "episodes": 5
+  },
+  {
+   "id": 47953,
+   "name": "Sonya Walger",
+   "photo": "https://image.tmdb.org/t/p/w185/bHGtm29qlx6OYsgwOq84xd6MRpF.jpg",
+   "character": "Jane Parsons",
+   "episodes": 5
+  },
+  {
+   "id": 43442,
+   "name": "Kerr Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/2XHffxdkDVhaETNi6ajSntQ40du.jpg",
+   "character": "Drew Bedford",
+   "episodes": 4
+  },
+  {
+   "id": 69128,
+   "name": "Nelly",
+   "photo": "https://image.tmdb.org/t/p/w185/k82qmqN3V8Z1ABaZhIKMYfLevuj.jpg",
+   "character": "Terrence Davis",
+   "episodes": 4
+  },
+  {
+   "id": 62762,
+   "name": "Bess Wohl",
+   "photo": "https://image.tmdb.org/t/p/w185/6G82Kb4abS2GxieeQZX7rL2Ltva.jpg",
+   "character": "Kendall Novak",
+   "episodes": 4
+  },
+  {
+   "id": 61703,
+   "name": "Ron Yuan",
+   "photo": "https://image.tmdb.org/t/p/w185/7Co2MdR8T5zlXTrdZ9Z3qjlmKdV.jpg",
+   "character": "Evan Zao",
+   "episodes": 4
+  },
+  {
+   "id": 53922,
+   "name": "Ed Quinn",
+   "photo": "https://image.tmdb.org/t/p/w185/bG2FYOHVsDyNChBJk7goITz7w8T.jpg",
+   "character": "Frankie Mala",
+   "episodes": 4
+  }
+ ],
+ "crew": [
+  {
+   "id": 1039314,
+   "name": "Anthony E. Zuiker",
+   "photo": "https://image.tmdb.org/t/p/w185/fXCjUuwHvPhQTwYjckOjEdLdhVS.jpg",
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 1214544,
+   "name": "Ann Donahue",
+   "photo": "https://image.tmdb.org/t/p/w185/loRNThhBJCx3FJi2RQvX519WD1j.jpg",
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1221343,
+   "name": "Carol Mendelsohn",
+   "photo": "https://image.tmdb.org/t/p/w185/8PlgEHno8Mvg4wqireq7ZQY6Y3a.jpg",
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 171753,
+   "name": "Wendy Battles",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 93
+  },
+  {
+   "id": 1212641,
+   "name": "Pam Veasey",
+   "photo": "https://image.tmdb.org/t/p/w185/jKMbcotlZ514K9ktIzoASIFnsnB.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 1224334,
+   "name": "Rob Bailey",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 58839,
+   "name": "Peter M. Lenkov",
+   "photo": "https://image.tmdb.org/t/p/w185/boqqxkt8GcjCUmUsGRFzr3rSTDh.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 109095,
+   "name": "Oz Scott",
+   "photo": "https://image.tmdb.org/t/p/w185/sRNIQwZoq9GWmWHAnvDXFG6dv8K.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1224297,
+   "name": "Andrew Lipsitz",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 455852,
+   "name": "Adam Targum",
+   "photo": "https://image.tmdb.org/t/p/w185/34F194cpbVvYu3yBs6OK9j0knXD.jpg",
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 77458,
+   "name": "David Von Ancken",
+   "photo": "https://image.tmdb.org/t/p/w185/uKGriSHT7PvC0uSVWzks7LUl3g3.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 104404,
+   "name": "Norberto Barba",
+   "photo": "https://image.tmdb.org/t/p/w185/dGtWLR3P7F9ufp8ZPtAAlU4SqOJ.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 33280,
+   "name": "Trey Callaway",
+   "photo": "https://image.tmdb.org/t/p/w185/Al6d18nhGXny7TrCkmLOl5EkawF.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 83706,
+   "name": "Duane Clark",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1218785,
+   "name": "Alex Zakrzewski",
+   "photo": "https://image.tmdb.org/t/p/w185/10GE6tUYXEY3oE2j9uBRiSYkJ1U.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1309579,
+   "name": "Christine Moore",
+   "photo": "https://image.tmdb.org/t/p/w185/t13JxTioVwRFXMs3p27jgfjJWkE.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:05.332Z"
+}

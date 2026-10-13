@@ -1,0 +1,319 @@
+{
+ "show": "Life on Mars",
+ "slug": "life-on-mars",
+ "tmdbId": 3725,
+ "cast": [
+  {
+   "id": 183812,
+   "name": "Jason O'Mara",
+   "photo": "https://image.tmdb.org/t/p/w185/9Cs9PD5pwUkFQPLmpp5e6wkFQoY.jpg",
+   "character": "Det. Sam Tyler",
+   "episodes": 17
+  },
+  {
+   "id": 1037,
+   "name": "Harvey Keitel",
+   "photo": "https://image.tmdb.org/t/p/w185/7P30hza1neYWW3r7rSQOC736K2Z.jpg",
+   "character": "Lt. Gene Hunt",
+   "episodes": 17
+  },
+  {
+   "id": 15370,
+   "name": "Gretchen Mol",
+   "photo": "https://image.tmdb.org/t/p/w185/e3C1D1I09gtSGy4Ej1ewW2FFoew.jpg",
+   "character": "Policewoman Annie Norris",
+   "episodes": 17
+  },
+  {
+   "id": 11486,
+   "name": "Michael Imperioli",
+   "photo": "https://image.tmdb.org/t/p/w185/bCDwQGrecRujCibI8rvsxEc91We.jpg",
+   "character": "Det. Ray Carling",
+   "episodes": 17
+  },
+  {
+   "id": 114037,
+   "name": "Jonathan Murphy",
+   "photo": "https://image.tmdb.org/t/p/w185/HZINWtiDKAtwPrU4kvfIWippJg.jpg",
+   "character": "Det. Chris Skelton",
+   "episodes": 17
+  },
+  {
+   "id": 1223763,
+   "name": "Greg D'Agostino",
+   "photo": "https://image.tmdb.org/t/p/w185/nzYkajT6lrW7YlC8fd3hWNzztFN.jpg",
+   "character": "Detective",
+   "episodes": 17
+  },
+  {
+   "id": 1234587,
+   "name": "Chris Miskiewicz",
+   "photo": null,
+   "character": "",
+   "episodes": 17
+  },
+  {
+   "id": 206398,
+   "name": "John Cenatiempo",
+   "photo": "https://image.tmdb.org/t/p/w185/6cEyUFyS5Tw2LGY0HkjpMjMZDmG.jpg",
+   "character": "Sizable Ted",
+   "episodes": 13
+  },
+  {
+   "id": 3232,
+   "name": "Lisa Bonet",
+   "photo": "https://image.tmdb.org/t/p/w185/gzvRPbJxnDarHEa3YltnN35aYRx.jpg",
+   "character": "Detective Maya Daniels",
+   "episodes": 5
+  },
+  {
+   "id": 454415,
+   "name": "Tanya Fischer",
+   "photo": "https://image.tmdb.org/t/p/w185/qmY9nmTn1BmAmyd0OKlDsBHaBa7.jpg",
+   "character": "Windy",
+   "episodes": 5
+  },
+  {
+   "id": 94434,
+   "name": "Matthew Cowles",
+   "photo": "https://image.tmdb.org/t/p/w185/7QB1XFjVaBCCO8rqeg2LzUabp8N.jpg",
+   "character": "Cowboy Dan",
+   "episodes": 4
+  },
+  {
+   "id": 1221134,
+   "name": "Jennifer Ferrin",
+   "photo": "https://image.tmdb.org/t/p/w185/y3c2kLe1beggLb1szQ3DXjQDv3I.jpg",
+   "character": "Rose Tyler / Ruth Tyler",
+   "episodes": 4
+  },
+  {
+   "id": 74537,
+   "name": "Maggie Siff",
+   "photo": "https://image.tmdb.org/t/p/w185/ufiWZMq4z5yra0At3NlYvyZ72ws.jpg",
+   "character": "Maria Belanger",
+   "episodes": 3
+  },
+  {
+   "id": 1398851,
+   "name": "Ken Marks",
+   "photo": "https://image.tmdb.org/t/p/w185/kK2yQSxCyHd6kJpNPVd94D7TbVq.jpg",
+   "character": "Scientist / Newscaster",
+   "episodes": 3
+  },
+  {
+   "id": 124305,
+   "name": "Emerald-Angel Young",
+   "photo": "https://image.tmdb.org/t/p/w185/lliqGN60XcJzNCkxPUjszzSuUag.jpg",
+   "character": "Lullaby Girl / Keisha",
+   "episodes": 3
+  },
+  {
+   "id": 17642,
+   "name": "Deidre Goodwin",
+   "photo": "https://image.tmdb.org/t/p/w185/blAXw9QaByjg0AgCZM8hkXDwtXP.jpg",
+   "character": "Nurse",
+   "episodes": 3
+  },
+  {
+   "id": 68763,
+   "name": "Dean Winters",
+   "photo": "https://image.tmdb.org/t/p/w185/zxgOZAYGxa2qmiZkJKGRIhwbGhG.jpg",
+   "character": "Vic Tyler",
+   "episodes": 3
+  },
+  {
+   "id": 28036,
+   "name": "Michael Mulheren",
+   "photo": "https://image.tmdb.org/t/p/w185/fGyHTMXAWGQ290NQktWuEF6ep1g.jpg",
+   "character": "Patrolman / Sergeant",
+   "episodes": 2
+  },
+  {
+   "id": 61011,
+   "name": "Clarke Peters",
+   "photo": "https://image.tmdb.org/t/p/w185/ouDHDpocxXgXrosF3vShAEkOjHL.jpg",
+   "character": "Captain Bellow",
+   "episodes": 2
+  },
+  {
+   "id": 6906,
+   "name": "Lee Tergesen",
+   "photo": "https://image.tmdb.org/t/p/w185/qAldK2CeBVzeRZ9sqTd3zU9SiU1.jpg",
+   "character": "Lee Crocker",
+   "episodes": 2
+  },
+  {
+   "id": 566276,
+   "name": "Natalie Gal",
+   "photo": "https://image.tmdb.org/t/p/w185/4CKEZFv4RUnViYwgMJNrPGuKYDS.jpg",
+   "character": "Doll / Lauren",
+   "episodes": 2
+  },
+  {
+   "id": 163698,
+   "name": "Steven Marcus",
+   "photo": "https://image.tmdb.org/t/p/w185/jYyEdqNK0RnnA9GZyo6Ws7ClIkq.jpg",
+   "character": "Wino / Homeless Man / Wino",
+   "episodes": 2
+  },
+  {
+   "id": 11803,
+   "name": "Peter Greene",
+   "photo": "https://image.tmdb.org/t/p/w185/n49XdJsMwNRdc4qT9XVAGb3fIQW.jpg",
+   "character": "Jimmy McManus",
+   "episodes": 2
+  },
+  {
+   "id": 1364059,
+   "name": "Robert Creighton",
+   "photo": null,
+   "character": "Little Patrick",
+   "episodes": 2
+  }
+ ],
+ "crew": [
+  {
+   "id": 1213831,
+   "name": "Matthew Graham",
+   "photo": "https://image.tmdb.org/t/p/w185/gCnEZr19KQGMtjl88F0rln8xOn.jpg",
+   "jobs": [
+    "Creator"
+   ]
+  },
+  {
+   "id": 1227791,
+   "name": "Tony Jordan",
+   "photo": "https://image.tmdb.org/t/p/w185/e4boCL5TJrM8OF0VzEOsFOJ3Sgi.jpg",
+   "jobs": [
+    "Creator"
+   ]
+  },
+  {
+   "id": 150546,
+   "name": "Ashley Pharoah",
+   "photo": "https://image.tmdb.org/t/p/w185/hW1DCy64ubGcNRo6jaGhGAs0koK.jpg",
+   "jobs": [
+    "Creator"
+   ]
+  },
+  {
+   "id": 35971,
+   "name": "Michael Katleman",
+   "photo": "https://image.tmdb.org/t/p/w185/p6AJsa5dT8GIGVu068yDvIiQD7T.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1215390,
+   "name": "David Wilcox",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1215038,
+   "name": "Adele Lim",
+   "photo": "https://image.tmdb.org/t/p/w185/24LzafPLJvRkyAbXQIJ1Oa7LhDD.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1218785,
+   "name": "Alex Zakrzewski",
+   "photo": "https://image.tmdb.org/t/p/w185/10GE6tUYXEY3oE2j9uBRiSYkJ1U.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 3228,
+   "name": "Scott Rosenberg",
+   "photo": "https://image.tmdb.org/t/p/w185/ihudUGp6RV0KAjCCFwsal2xq8GV.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1246852,
+   "name": "Bryan Oh",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 5501,
+   "name": "Gary Fleder",
+   "photo": "https://image.tmdb.org/t/p/w185/w7P8UyWeyB2CB4Eq9wHlMVj7bQk.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 36185,
+   "name": "Jean de Segonzac",
+   "photo": "https://image.tmdb.org/t/p/w185/hh8hRu4aj2vJn2qX0x0pAvNj5BX.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 59649,
+   "name": "Michael Pressman",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 81727,
+   "name": "Darnell Martin",
+   "photo": "https://image.tmdb.org/t/p/w185/ckJYoBeDRT6DgqfyEA1LWdIQjr1.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 33341,
+   "name": "Rick Rosenthal",
+   "photo": "https://image.tmdb.org/t/p/w185/x6tbdygaKSXLuwpu6oW78ziRASG.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 88743,
+   "name": "Daniel Minahan",
+   "photo": "https://image.tmdb.org/t/p/w185/zBRWTVYdZ77HT1zWpZtLXZ8AW1F.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 59584,
+   "name": "David Petrarca",
+   "photo": "https://image.tmdb.org/t/p/w185/bMx7F5Kttg0HdQXZI2qQTo2Pi1A.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:36:50.824Z"
+}

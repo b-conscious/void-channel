@@ -1,0 +1,68 @@
+{
+ "show": "Station Zero",
+ "slug": "station-zero",
+ "tmdbId": 99707,
+ "cast": [
+  {
+   "id": 2548064,
+   "name": "Riggs Morales",
+   "photo": null,
+   "character": "Karaz",
+   "episodes": 3
+  },
+  {
+   "id": 1382072,
+   "name": "Carlito Rodriguez",
+   "photo": null,
+   "character": "Chino",
+   "episodes": 3
+  },
+  {
+   "id": 1651755,
+   "name": "Quan Zilla",
+   "photo": null,
+   "character": "Scooter",
+   "episodes": 3
+  }
+ ],
+ "crew": [
+  {
+   "id": 2548063,
+   "name": "Tramp Daly",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1651755,
+   "name": "Quan Zilla",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1382072,
+   "name": "Carlito Rodriguez",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 2371372,
+   "name": "Jason Centeno",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:30:57.827Z"
+}

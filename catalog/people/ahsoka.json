@@ -1,0 +1,298 @@
+{
+ "show": "Ahsoka",
+ "slug": "ahsoka",
+ "tmdbId": 114461,
+ "cast": [
+  {
+   "id": 5916,
+   "name": "Rosario Dawson",
+   "photo": "https://image.tmdb.org/t/p/w185/siTzOI810a0K46wv1TORXMw5N7J.jpg",
+   "character": "Ahsoka Tano",
+   "episodes": 16
+  },
+  {
+   "id": 1583307,
+   "name": "Natasha Liu Bordizzo",
+   "photo": "https://image.tmdb.org/t/p/w185/92hZjJ2f7HWATUEw4BbMMWlGXps.jpg",
+   "character": "Sabine Wren",
+   "episodes": 16
+  },
+  {
+   "id": 1243496,
+   "name": "Ivanna Sakhno",
+   "photo": "https://image.tmdb.org/t/p/w185/vYlE7CUEeIa99NYZZWnnwn95Jo1.jpg",
+   "character": "Shin Hati",
+   "episodes": 16
+  },
+  {
+   "id": 17628,
+   "name": "Mary Elizabeth Winstead",
+   "photo": "https://image.tmdb.org/t/p/w185/cBMtncBcUrKMTB8CifDG23THuCE.jpg",
+   "character": "Hera Syndulla",
+   "episodes": 16
+  },
+  {
+   "id": 2243207,
+   "name": "Eman Esfandi",
+   "photo": "https://image.tmdb.org/t/p/w185/lrDfNC81vTkFW9WApEDiC1euHZn.jpg",
+   "character": "Ezra Bridger",
+   "episodes": 13
+  },
+  {
+   "id": 17244,
+   "name": "Hayden Christensen",
+   "photo": "https://image.tmdb.org/t/p/w185/hqEgJYEUvZvL9ytmmiYBbbt63qd.jpg",
+   "character": "Anakin Skywalker",
+   "episodes": 12
+  },
+  {
+   "id": 71158,
+   "name": "Lars Mikkelsen",
+   "photo": "https://image.tmdb.org/t/p/w185/xw3bJxjf8yT8TS8zigEGWQYSaXH.jpg",
+   "character": "Grand Admiral Thrawn",
+   "episodes": 11
+  },
+  {
+   "id": 56614,
+   "name": "Ray Stevenson",
+   "photo": "https://image.tmdb.org/t/p/w185/9QCVNDgTgDEbGsa6w3JuECEPuQz.jpg",
+   "character": "Baylan Skoll",
+   "episodes": 8
+  },
+  {
+   "id": 113711,
+   "name": "Diana Lee Inosanto",
+   "photo": "https://image.tmdb.org/t/p/w185/23AVuWIZXwE7SCcMLl0zydHwRbC.jpg",
+   "character": "Morgan Elsbeth",
+   "episodes": 8
+  },
+  {
+   "id": 3075,
+   "name": "Rory McCann",
+   "photo": "https://image.tmdb.org/t/p/w185/meEHyiCRXTTCiYQMzP4VEdvEuD0.jpg",
+   "character": "Baylan Skoll",
+   "episodes": 8
+  },
+  {
+   "id": 20049,
+   "name": "David Tennant",
+   "photo": "https://image.tmdb.org/t/p/w185/mGfrEMbxjUWjek1WDSq1j4TULIR.jpg",
+   "character": "Huyang (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 1635199,
+   "name": "Paul Darnell",
+   "photo": "https://image.tmdb.org/t/p/w185/qkLDZ6JKk4s1ryXHZEAGARgqPGs.jpg",
+   "character": "Marrok",
+   "episodes": 4
+  },
+  {
+   "id": 1971156,
+   "name": "Nican Robinson",
+   "photo": "https://image.tmdb.org/t/p/w185/aoEPk3xJ3jl29mQERT9OBj54JnW.jpg",
+   "character": "First Officer Vic Hawkins",
+   "episodes": 4
+  },
+  {
+   "id": 51457,
+   "name": "Dawn Dininger",
+   "photo": "https://image.tmdb.org/t/p/w185/aBAQfSBbpsWnXUZkOxCBNm9qZcZ.jpg",
+   "character": "Lieutenant Mowaat / Lieutenant Beyta / Lieutenant Beyta Performance Artist",
+   "episodes": 4
+  },
+  {
+   "id": 2456535,
+   "name": "Chris Bartlett",
+   "photo": "https://image.tmdb.org/t/p/w185/63o4rr3zUlfkKAxru94RSfosMo0.jpg",
+   "character": "C1-D1 Protocol Droid / Home One Protocol Droid / Navigator Droid",
+   "episodes": 3
+  },
+  {
+   "id": 2207391,
+   "name": "Evan Whitten",
+   "photo": "https://image.tmdb.org/t/p/w185/hpj0eEjNldabPOZTlC55f0r8BvD.jpg",
+   "character": "Jacen Syndulla",
+   "episodes": 3
+  },
+  {
+   "id": 139654,
+   "name": "Genevieve O'Reilly",
+   "photo": "https://image.tmdb.org/t/p/w185/4eOoW1PNBZfxRW0g8RmYH8bL6mq.jpg",
+   "character": "Mon Mothma",
+   "episodes": 3
+  },
+  {
+   "id": 178068,
+   "name": "Paul Sun-Hyung Lee",
+   "photo": "https://image.tmdb.org/t/p/w185/qyJG3qC1TImpJYN0zCgnFSQzzOF.jpg",
+   "character": "Captain Carson Teva",
+   "episodes": 3
+  },
+  {
+   "id": 60397,
+   "name": "Jeryl Prescott",
+   "photo": "https://image.tmdb.org/t/p/w185/5hP35K1LvaZnt7nmwwZO2JpOwpz.jpg",
+   "character": "Aktropaw",
+   "episodes": 3
+  },
+  {
+   "id": 26054,
+   "name": "Claudia Black",
+   "photo": "https://image.tmdb.org/t/p/w185/eIYn2naiftYwPnclwcYgyWkEtuA.jpg",
+   "character": "Klothow",
+   "episodes": 3
+  },
+  {
+   "id": 3162442,
+   "name": "Jane Edwina Seymour",
+   "photo": "https://image.tmdb.org/t/p/w185/8lMdCGk7oV56bXwXxnI4SGLpUVh.jpg",
+   "character": "Lakesis",
+   "episodes": 3
+  },
+  {
+   "id": 51682,
+   "name": "Wes Chatham",
+   "photo": "https://image.tmdb.org/t/p/w185/lFoUyX8FZs3XvUWWItCm2ezvAEs.jpg",
+   "character": "Captain Enoch",
+   "episodes": 3
+  },
+  {
+   "id": 1304180,
+   "name": "LeeAnna Vamp",
+   "photo": "https://image.tmdb.org/t/p/w185/wqYjAcsmGHsM5en9ZLqYvvbARVC.jpg",
+   "character": "Lothal Protocol Droid / Corellia Protocol Droid",
+   "episodes": 2
+  },
+  {
+   "id": 109019,
+   "name": "Nelson Lee",
+   "photo": "https://image.tmdb.org/t/p/w185/3zKvaCGrZnxQLnlUxnCITeMp86K.jpg",
+   "character": "Senator Xiono",
+   "episodes": 2
+  }
+ ],
+ "crew": [
+  {
+   "id": 71538,
+   "name": "Dave Filoni",
+   "photo": "https://image.tmdb.org/t/p/w185/iMpXDe7D3eimy3Y8esJcF9czVbm.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 15277,
+   "name": "Jon Favreau",
+   "photo": "https://image.tmdb.org/t/p/w185/tnx7iMVydPQXGOoLsxXl84PXtbA.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 1371864,
+   "name": "Carrie Beck",
+   "photo": "https://image.tmdb.org/t/p/w185/lmYLSau8WS1t09aSn2BG5BAI73i.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 490,
+   "name": "Colin Wilson",
+   "photo": "https://image.tmdb.org/t/p/w185/jcPyj11WATIaAS9Uzk5DcSBHj3y.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 51588,
+   "name": "Kevin Kiner",
+   "photo": "https://image.tmdb.org/t/p/w185/FtGnTCUaMTNDESIuwhEmzCNIpp.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 489,
+   "name": "Kathleen Kennedy",
+   "photo": "https://image.tmdb.org/t/p/w185/ndgYlie0PHkyqEiEBGM8SqrPOkr.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 2171212,
+   "name": "Sean Kiner",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1972437,
+   "name": "Deana Kiner",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1118360,
+   "name": "Steph Green",
+   "photo": "https://image.tmdb.org/t/p/w185/fi8v6tzHeyuF1fC8saInVKVEOMN.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 51866,
+   "name": "Rick Famuyiwa",
+   "photo": "https://image.tmdb.org/t/p/w185/zvpQOPiD5RLfjKBJyNgHYNocy7X.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1313885,
+   "name": "Geeta Patel",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1341766,
+   "name": "Jennifer Getzinger",
+   "photo": "https://image.tmdb.org/t/p/w185/4r5ne782DlVyYA9OrzrGhMPGiHT.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 151007,
+   "name": "Peter Ramsey",
+   "photo": "https://image.tmdb.org/t/p/w185/eAL9QdCEYyxiMP9cl9lQddg8zEa.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:59.781Z"
+}

@@ -1,0 +1,327 @@
+{
+ "show": "MacGyver",
+ "slug": "macgyver",
+ "tmdbId": 2875,
+ "cast": [
+  {
+   "id": 26085,
+   "name": "Richard Dean Anderson",
+   "photo": "https://image.tmdb.org/t/p/w185/hHCSMRiI4OMT1AxgWQhugtipvy2.jpg",
+   "character": "Angus MacGyver",
+   "episodes": 139
+  },
+  {
+   "id": 37712,
+   "name": "Dana Elcar",
+   "photo": "https://image.tmdb.org/t/p/w185/iYYbcpWCikPFPvLWCqwKVvNVvrC.jpg",
+   "character": "Pete Thornton / Andy Colson",
+   "episodes": 125
+  },
+  {
+   "id": 14888,
+   "name": "Bruce McGill",
+   "photo": "https://image.tmdb.org/t/p/w185/j4mn0fPdhhXfRqQwheAwCU8Hwrm.jpg",
+   "character": "Jack Dalton",
+   "episodes": 18
+  },
+  {
+   "id": 71392,
+   "name": "Elyssa Davalos",
+   "photo": "https://image.tmdb.org/t/p/w185/ulsCQnwMDcxQXBjnkYpjIPWRJ9K.jpg",
+   "character": "Nicole Carpenter / Lisa Kohler",
+   "episodes": 8
+  },
+  {
+   "id": 1224872,
+   "name": "Robin Mossley",
+   "photo": "https://image.tmdb.org/t/p/w185/3fYKzwTHkBPmujChh76BJc7Asvh.jpg",
+   "character": "Charity Santa Claus / Wilt Bozer / Wrigley",
+   "episodes": 8
+  },
+  {
+   "id": 190235,
+   "name": "Susan Chapple",
+   "photo": "https://image.tmdb.org/t/p/w185/c1D1UsDwr6gW30UVDyZ4AY1x9gG.jpg",
+   "character": "Helen Wilson (uncredited) / Helen Wilson (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 65334,
+   "name": "Michael Des Barres",
+   "photo": "https://image.tmdb.org/t/p/w185/1XVPUgGP7xJC7IP4ALNltHx2C1c.jpg",
+   "character": "Murdoc",
+   "episodes": 7
+  },
+  {
+   "id": 10742,
+   "name": "Teri Hatcher",
+   "photo": "https://image.tmdb.org/t/p/w185/ySmnfZm8ZGabcwp4UwaMDeSzXqx.jpg",
+   "character": "Penny Parker",
+   "episodes": 6
+  },
+  {
+   "id": 2450469,
+   "name": "Kevin Hayes",
+   "photo": "https://image.tmdb.org/t/p/w185/6EaFbfcAdZkmwaD4KeF3RccsACZ.jpg",
+   "character": "Newscaster / Reporter / Vince King",
+   "episodes": 6
+  },
+  {
+   "id": 19111,
+   "name": "John Anderson",
+   "photo": "https://image.tmdb.org/t/p/w185/wcliAvgKHkwUmxkMUIGETp9tk1d.jpg",
+   "character": "Harry Jackson",
+   "episodes": 5
+  },
+  {
+   "id": 118004,
+   "name": "Bruce Harwood",
+   "photo": "https://image.tmdb.org/t/p/w185/hQK0UV0AAzEOP1m0oIQIhtNmXS.jpg",
+   "character": "Willis / Juice",
+   "episodes": 5
+  },
+  {
+   "id": 27145,
+   "name": "Dale Wilson",
+   "photo": "https://image.tmdb.org/t/p/w185/pvze2KdWMK16UEvJuSrJBTVL4Iy.jpg",
+   "character": "Colin Yardrow / Dennis / Sundance",
+   "episodes": 5
+  },
+  {
+   "id": 80342,
+   "name": "Jackson Davies",
+   "photo": "https://image.tmdb.org/t/p/w185/qiZWepesyBPuzafKU5p6wN0XUJI.jpg",
+   "character": "Sam Mulligan / Mike Kiley / Pat Lafferty",
+   "episodes": 5
+  },
+  {
+   "id": 79914,
+   "name": "Claire Vardiel",
+   "photo": "https://image.tmdb.org/t/p/w185/5WLZy5ssuF3Gb2xTc3En2lEh9Z9.jpg",
+   "character": "Betty / Pam / Eunice",
+   "episodes": 5
+  },
+  {
+   "id": 9777,
+   "name": "Cuba Gooding Jr.",
+   "photo": "https://image.tmdb.org/t/p/w185/2JguzbpOXoTGzSmLbWFlulKyyAe.jpg",
+   "character": "Ray Collins / Billy Colton",
+   "episodes": 4
+  },
+  {
+   "id": 20904,
+   "name": "James Hong",
+   "photo": "https://image.tmdb.org/t/p/w185/v3lfw5aHOy0paOCx6WHiSnwzbH0.jpg",
+   "character": "Lee Wenying / Commissioner Chu / Kuang",
+   "episodes": 4
+  },
+  {
+   "id": 13875,
+   "name": "Robert Donner",
+   "photo": "https://image.tmdb.org/t/p/w185/f1eVXNa1hCxPhwsl25hZTHo4NPI.jpg",
+   "character": "Milt Bozer / Benjamin Wintergreen / Vince",
+   "episodes": 4
+  },
+  {
+   "id": 58860,
+   "name": "Christopher Neame",
+   "photo": "https://image.tmdb.org/t/p/w185/6eLLa8rOAMGIjMrtedV9ERaGvZY.jpg",
+   "character": "Quayle / Erich von Leer / Duncan",
+   "episodes": 4
+  },
+  {
+   "id": 42146,
+   "name": "Kai Wulff",
+   "photo": "https://image.tmdb.org/t/p/w185/rP4donw54RqNZwJuMDLLhY9lX7u.jpg",
+   "character": "Ladysmith / Major Stepan Frolov / Hans Visser",
+   "episodes": 4
+  },
+  {
+   "id": 1218929,
+   "name": "Allan Lysell",
+   "photo": "https://image.tmdb.org/t/p/w185/6R4oL9JsU1fnax7QU6xWsJWXq7g.jpg",
+   "character": "Wrightman / Sheriff / Dorman",
+   "episodes": 4
+  },
+  {
+   "id": 1501487,
+   "name": "Gerry Bean",
+   "photo": "https://image.tmdb.org/t/p/w185/zI31tsi16v4DUCju9wbPwrFHSX0.jpg",
+   "character": "Dick Russell / Harris / Wilcox",
+   "episodes": 4
+  },
+  {
+   "id": 105791,
+   "name": "Charles Andre",
+   "photo": "https://image.tmdb.org/t/p/w185/ehfEA8Lth54VM5fwZeYdbRx2d9f.jpg",
+   "character": "Delaney / Carmine / Policeman #2",
+   "episodes": 4
+  },
+  {
+   "id": 100882,
+   "name": "Paul Batten",
+   "photo": "https://image.tmdb.org/t/p/w185/mOLRiNYLPSnTkXqDjlQv5eM0XEu.jpg",
+   "character": "Pettigrew / Walter Reese / Clerk",
+   "episodes": 4
+  },
+  {
+   "id": 1235532,
+   "name": "Bill Croft",
+   "photo": "https://image.tmdb.org/t/p/w185/xDgAWtePgX0sMY1vxjy5jfZgv71.jpg",
+   "character": "Donnelly / Max / Rote",
+   "episodes": 4
+  }
+ ],
+ "crew": [
+  {
+   "id": 1232954,
+   "name": "Lee David Zlotoff",
+   "photo": null,
+   "jobs": [
+    "Creator"
+   ],
+   "episodes": 139
+  },
+  {
+   "id": 21452,
+   "name": "John Rich",
+   "photo": "https://image.tmdb.org/t/p/w185/dmggiXsMI1IWCQ6hjpQhkNIwf20.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 139
+  },
+  {
+   "id": 99644,
+   "name": "Stephen Downing",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 139
+  },
+  {
+   "id": 31903,
+   "name": "Henry Winkler",
+   "photo": "https://image.tmdb.org/t/p/w185/mGlSRA5RDswEDmY8oWEizXliShp.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 139
+  },
+  {
+   "id": 31901,
+   "name": "John Sheppard",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 64
+  },
+  {
+   "id": 172972,
+   "name": "Rick Drew",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 46
+  },
+  {
+   "id": 115590,
+   "name": "Paul B. Margolis",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 23
+  },
+  {
+   "id": 3839599,
+   "name": "Marianne Clarkson",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 21
+  },
+  {
+   "id": 140458,
+   "name": "Stephen Kandel",
+   "photo": "https://image.tmdb.org/t/p/w185/39ng7T9J2cRDNDmtyH2Ab1y9qKM.jpg",
+   "jobs": [
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 1822,
+   "name": "Charles Correll",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 31900,
+   "name": "Michael Vejar",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 152578,
+   "name": "Michael Caffey",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 1219320,
+   "name": "Cliff Bole",
+   "photo": "https://image.tmdb.org/t/p/w185/mSMefTPt72AUtI73V1RxuCuNmRQ.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 1222971,
+   "name": "William Gereghty",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 41349,
+   "name": "Michael Preece",
+   "photo": "https://image.tmdb.org/t/p/w185/kw1yOMGRDFEFJd58GdSjrE6MDGg.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1433440,
+   "name": "James Schmerer",
+   "photo": "https://image.tmdb.org/t/p/w185/18a7AnHvV0Eg8LLFYEi6aewzeHU.jpg",
+   "jobs": [
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 8
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:34:18.794Z"
+}

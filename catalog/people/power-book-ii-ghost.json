@@ -1,0 +1,326 @@
+{
+ "show": "Power Book II: Ghost",
+ "slug": "power-book-ii-ghost",
+ "tmdbId": 97890,
+ "cast": [
+  {
+   "id": 548375,
+   "name": "Michael Rainey Jr.",
+   "photo": "https://image.tmdb.org/t/p/w185/5U6wNx2LAggfwK6gi6OYL3rGOvl.jpg",
+   "character": "Tariq St. Patrick",
+   "episodes": 40
+  },
+  {
+   "id": 76038,
+   "name": "Shane Johnson",
+   "photo": "https://image.tmdb.org/t/p/w185/jR35Lz3sciBc40mYVwhepEE8f4S.jpg",
+   "character": "Cooper Saxe",
+   "episodes": 40
+  },
+  {
+   "id": 84933,
+   "name": "Mary J. Blige",
+   "photo": "https://image.tmdb.org/t/p/w185/riQBsxzhbp8E7T9noJEZrEoLZWO.jpg",
+   "character": "Monet Stewart Tejada",
+   "episodes": 40
+  },
+  {
+   "id": 1748947,
+   "name": "Woody McClain",
+   "photo": "https://image.tmdb.org/t/p/w185/1nRgnpstpC902AnIhhY8cKpdlRK.jpg",
+   "character": "Cane Tejada",
+   "episodes": 40
+  },
+  {
+   "id": 1735641,
+   "name": "Gianni Paolo",
+   "photo": "https://image.tmdb.org/t/p/w185/wf1boiYyi7EkYqdzOJMHnnoodnY.jpg",
+   "character": "Brayden Weston",
+   "episodes": 40
+  },
+  {
+   "id": 5384,
+   "name": "Method Man",
+   "photo": "https://image.tmdb.org/t/p/w185/mYJFxOcrda410rS5JHPf0nPuimZ.jpg",
+   "character": "Davis Maclean",
+   "episodes": 40
+  },
+  {
+   "id": 1927708,
+   "name": "Lovell Adams-Gray",
+   "photo": "https://image.tmdb.org/t/p/w185/5eysJfGCUOtKWi3ap53TCivqYVz.jpg",
+   "character": "Dru Tejada",
+   "episodes": 40
+  },
+  {
+   "id": 1743021,
+   "name": "LaToya Tonodeo",
+   "photo": "https://image.tmdb.org/t/p/w185/k1cJi10VxU2wj0vduL4yX8D9wO8.jpg",
+   "character": "Diana Tejada",
+   "episodes": 40
+  },
+  {
+   "id": 181871,
+   "name": "Paige Hurd",
+   "photo": "https://image.tmdb.org/t/p/w185/a7h6eMUA7yu8myQ0JW4qci8xoUV.jpg",
+   "character": "Lauren / Lauren Baldwin",
+   "episodes": 30
+  },
+  {
+   "id": 1000757,
+   "name": "Paton Ashbrook",
+   "photo": "https://image.tmdb.org/t/p/w185/hgetvJ6nXkQ2OOz2DlaF9aF6F4E.jpg",
+   "character": "Jenny Sullivan",
+   "episodes": 23
+  },
+  {
+   "id": 1169341,
+   "name": "Alix Lapri",
+   "photo": "https://image.tmdb.org/t/p/w185/vULJGspMOIFMSgOW2EF99JpPhJ1.jpg",
+   "character": "Effie",
+   "episodes": 23
+  },
+  {
+   "id": 18291,
+   "name": "Larenz Tate",
+   "photo": "https://image.tmdb.org/t/p/w185/6BWajF1sbuwsvXHmdQDxP5MfZ5R.jpg",
+   "character": "Councilman Tate",
+   "episodes": 22
+  },
+  {
+   "id": 1399166,
+   "name": "Melanie Liburd",
+   "photo": "https://image.tmdb.org/t/p/w185/i8J8iK8vdSyKNRBa3lasmqGJAQh.jpg",
+   "character": "Caridad 'Carrie' Milgram",
+   "episodes": 20
+  },
+  {
+   "id": 2420739,
+   "name": "Daniel Bellomy",
+   "photo": "https://image.tmdb.org/t/p/w185/oB27pZGCu6HTpv75wueVBE3DZ3S.jpg",
+   "character": "Ezekiel 'Zeke' Cross",
+   "episodes": 20
+  },
+  {
+   "id": 1030204,
+   "name": "Berto Colon",
+   "photo": "https://image.tmdb.org/t/p/w185/21cgPT5bNTVOuhKpU57ZyI32azs.jpg",
+   "character": "Lorenzo Tejada",
+   "episodes": 17
+  },
+  {
+   "id": 3229762,
+   "name": "LightSkinKeisha",
+   "photo": "https://image.tmdb.org/t/p/w185/mwZ81VuL0LbZz2lUgv296DkFGll.jpg",
+   "character": "Brushaundria Carmichael",
+   "episodes": 16
+  },
+  {
+   "id": 53651,
+   "name": "Monique Gabriela Curnen",
+   "photo": "https://image.tmdb.org/t/p/w185/lJgLQs7cfM49m8VzVviwxIByz76.jpg",
+   "character": "Blanca Rodriguez",
+   "episodes": 14
+  },
+  {
+   "id": 3065284,
+   "name": "Bradley Gibson",
+   "photo": "https://image.tmdb.org/t/p/w185/lvsy8ahypVoRVv0Da5Utn8UL7xe.jpg",
+   "character": "Everett",
+   "episodes": 14
+  },
+  {
+   "id": 2802714,
+   "name": "Justin Marcel McManus",
+   "photo": "https://image.tmdb.org/t/p/w185/mXRlqv3NvkjTbULYD93Hhz1IZHI.jpg",
+   "character": "Jabari Reynolds",
+   "episodes": 12
+  },
+  {
+   "id": 1465486,
+   "name": "Quincy Tyler Bernstine",
+   "photo": "https://image.tmdb.org/t/p/w185/yaLaEHdxnhDqIMxyvzzx1pMKBVP.jpg",
+   "character": "Tameika Washington",
+   "episodes": 12
+  },
+  {
+   "id": 101519,
+   "name": "Naturi Naughton",
+   "photo": "https://image.tmdb.org/t/p/w185/7MAE01ucdjtV1lSeHB39BYayl3N.jpg",
+   "character": "Tasha St. Patrick",
+   "episodes": 11
+  },
+  {
+   "id": 3126059,
+   "name": "Cory Jeacoma",
+   "photo": "https://image.tmdb.org/t/p/w185/wkNK7y1yw9Res7Vs8638dCbQVws.jpg",
+   "character": "Trace Weston",
+   "episodes": 11
+  },
+  {
+   "id": 11365,
+   "name": "Mark Feuerstein",
+   "photo": "https://image.tmdb.org/t/p/w185/1XsbDSx7hqhaY9Sjjx86iTp43S0.jpg",
+   "character": "Steven Ott",
+   "episodes": 11
+  },
+  {
+   "id": 3229788,
+   "name": "Paris Morgan",
+   "photo": null,
+   "character": "Yasmine St. Patrick",
+   "episodes": 11
+  }
+ ],
+ "crew": [
+  {
+   "id": 1224562,
+   "name": "Courtney Kemp Agboh",
+   "photo": "https://image.tmdb.org/t/p/w185/A5bJdkkV1CVCZp5Zvs2lu59fwrk.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 756648,
+   "name": "Shana Stein",
+   "photo": "https://image.tmdb.org/t/p/w185/tfQvs7QDmLdb4uOHYE8TWwz3dHZ.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 2802686,
+   "name": "Danielle De Jesus",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 46088,
+   "name": "Mark Canton",
+   "photo": "https://image.tmdb.org/t/p/w185/7OiY4eak3DztX0lSj4cbmKLQuaj.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 62644,
+   "name": "50 Cent",
+   "photo": "https://image.tmdb.org/t/p/w185/7VfwFIwBxy7qBUErosWRDQOovl9.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 2802687,
+   "name": "Chris Selak",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 518758,
+   "name": "Bart Wenrich",
+   "photo": "https://image.tmdb.org/t/p/w185/uyXXVMMd5XU3NkjFtYwCL5PwmHa.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 1219207,
+   "name": "Jeff Russo",
+   "photo": "https://image.tmdb.org/t/p/w185/xmH1qDuU8KC2evd7GXd0hCWWny1.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 4013925,
+   "name": "Lacey Herbert",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 33
+  },
+  {
+   "id": 3345528,
+   "name": "Oneika Barrett",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1216147,
+   "name": "Anthony Hemingway",
+   "photo": "https://image.tmdb.org/t/p/w185/3npAesb4X5yvxPlUWRHTOFz9RCi.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1191192,
+   "name": "Marisol Adler",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1640010,
+   "name": "Erica A. Watson",
+   "photo": "https://image.tmdb.org/t/p/w185/9kshhxEXsjVcnbJbfxzsMHemOfV.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1402074,
+   "name": "Hernán Otaño",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 2802681,
+   "name": "Charles Ray Hamilton",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 2802677,
+   "name": "Aixsha Hiciano",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:34:55.375Z"
+}

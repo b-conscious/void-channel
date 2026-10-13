@@ -1,0 +1,251 @@
+{
+ "show": "NTSF:SD:SUV::",
+ "slug": "ntsf-sd-suv",
+ "tmdbId": 39106,
+ "cast": [
+  {
+   "id": 59843,
+   "name": "Paul Scheer",
+   "photo": "https://image.tmdb.org/t/p/w185/76c6ieidSECRslxVX4ZA5WBdz40.jpg",
+   "character": "Trent Hauser",
+   "episodes": 39
+  },
+  {
+   "id": 83873,
+   "name": "June Diane Raphael",
+   "photo": "https://image.tmdb.org/t/p/w185/AzzQxrUqcpX06RLiKYJr4fYYkG.jpg",
+   "character": "Piper Ferguson",
+   "episodes": 39
+  },
+  {
+   "id": 167411,
+   "name": "Brandon Johnson",
+   "photo": "https://image.tmdb.org/t/p/w185/4hPvsVP7uDBHDgj7JikIY3Wop18.jpg",
+   "character": "Alphonse",
+   "episodes": 39
+  },
+  {
+   "id": 35317,
+   "name": "Kate Mulgrew",
+   "photo": "https://image.tmdb.org/t/p/w185/cikUr2PEluEamVsLgrnWWLx9ZsI.jpg",
+   "character": "Kove",
+   "episodes": 39
+  },
+  {
+   "id": 41089,
+   "name": "Martin Starr",
+   "photo": "https://image.tmdb.org/t/p/w185/cxGxr0S1jnvOpOHyZDYXrg2GHju.jpg",
+   "character": "Sam Stern",
+   "episodes": 39
+  },
+  {
+   "id": 11008,
+   "name": "Rebecca Romijn",
+   "photo": "https://image.tmdb.org/t/p/w185/doqFBHNbNhoLF9RX9SYPqwu1mvd.jpg",
+   "character": "Jessie Nichols",
+   "episodes": 27
+  },
+  {
+   "id": 4514801,
+   "name": "Peter Blaine",
+   "photo": null,
+   "character": "Officer Garver / Robot S.A.M.",
+   "episodes": 26
+  },
+  {
+   "id": 11115,
+   "name": "Peter Serafinowicz",
+   "photo": "https://image.tmdb.org/t/p/w185/atXOX0UQzIZkcnpNj1cluBdHwAE.jpg",
+   "character": "SAM (voice)",
+   "episodes": 21
+  },
+  {
+   "id": 71403,
+   "name": "Rob Riggle",
+   "photo": "https://image.tmdb.org/t/p/w185/hQgOp8vWxl6KPZbqzKSSL4k6G1j.jpg",
+   "character": "President of the Navy",
+   "episodes": 14
+  },
+  {
+   "id": 543261,
+   "name": "Karen Gillan",
+   "photo": "https://image.tmdb.org/t/p/w185/qYx8CflXVq48nGKX1IJsDrAj0sT.jpg",
+   "character": "Daisy",
+   "episodes": 12
+  },
+  {
+   "id": 1590299,
+   "name": "Johnny Ray Meeks",
+   "photo": "https://image.tmdb.org/t/p/w185/fTlYmYFsE8MXBbcMifBoBLzMO4V.jpg",
+   "character": "Guard (as Johnny Meeks) / Officer Franks / Officer Foley",
+   "episodes": 7
+  },
+  {
+   "id": 937878,
+   "name": "Curtis Gwinn",
+   "photo": "https://image.tmdb.org/t/p/w185/1jciurTIeGHlkHZt3qAU89JU4ld.jpg",
+   "character": "Tucker",
+   "episodes": 4
+  },
+  {
+   "id": 27105,
+   "name": "Ed Helms",
+   "photo": "https://image.tmdb.org/t/p/w185/gPZ8tZaNQGAc3KZRIPp9rgGbEnN.jpg",
+   "character": "Eddie",
+   "episodes": 3
+  },
+  {
+   "id": 1087311,
+   "name": "Marcus Shultz",
+   "photo": null,
+   "character": "Kyle Lang (uncredited)",
+   "episodes": 3
+  },
+  {
+   "id": 159589,
+   "name": "Sonny Surowiec",
+   "photo": "https://image.tmdb.org/t/p/w185/aMtq73W52MRg4v0Divk3k1DMuv9.jpg",
+   "character": "Bad Guy #1 / Santa / Muscular Man",
+   "episodes": 3
+  },
+  {
+   "id": 63220,
+   "name": "Kerri Kenney",
+   "photo": "https://image.tmdb.org/t/p/w185/xamVMZJDIcEuclUNO1E5dVala9e.jpg",
+   "character": "4-Sight",
+   "episodes": 2
+  },
+  {
+   "id": 119592,
+   "name": "Aubrey Plaza",
+   "photo": "https://image.tmdb.org/t/p/w185/ejtGfjOAvUHBdVc3xTIV1HtJBi9.jpg",
+   "character": "The Rememberer",
+   "episodes": 2
+  },
+  {
+   "id": 1406450,
+   "name": "Jon Daly",
+   "photo": "https://image.tmdb.org/t/p/w185/v8lq3HUmdQk1t50DAP1vt3LcJJM.jpg",
+   "character": "Chad / Billy Pittman",
+   "episodes": 2
+  },
+  {
+   "id": 2878693,
+   "name": "Taylor Orci",
+   "photo": null,
+   "character": "Barfly / Whitney",
+   "episodes": 2
+  },
+  {
+   "id": 59841,
+   "name": "Matt Walsh",
+   "photo": "https://image.tmdb.org/t/p/w185/fp1JsNbZyhJ3PHpwZJVDYRz1RGF.jpg",
+   "character": "NASA Agent",
+   "episodes": 2
+  },
+  {
+   "id": 2029283,
+   "name": "Gilli Nissim",
+   "photo": "https://image.tmdb.org/t/p/w185/4BKGZWaYBjeiPgLxlgotF6APZ2z.jpg",
+   "character": "Janet / Sybil",
+   "episodes": 2
+  },
+  {
+   "id": 992429,
+   "name": "Morgan Walsh",
+   "photo": "https://image.tmdb.org/t/p/w185/i1HEQgxbuECLIc63EccVDiXBieU.jpg",
+   "character": "Woman / Single Mom",
+   "episodes": 2
+  },
+  {
+   "id": 115974,
+   "name": "Adam Pally",
+   "photo": "https://image.tmdb.org/t/p/w185/yY13PEaVbPoXT5MkitVxTfdAZnU.jpg",
+   "character": "David / Douchey Guy",
+   "episodes": 2
+  },
+  {
+   "id": 1162314,
+   "name": "Gian Molina",
+   "photo": null,
+   "character": "Gutierrez / Fro Yo Guy",
+   "episodes": 2
+  }
+ ],
+ "crew": [
+  {
+   "id": 59843,
+   "name": "Paul Scheer",
+   "photo": "https://image.tmdb.org/t/p/w185/76c6ieidSECRslxVX4ZA5WBdz40.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 1252234,
+   "name": "Jonathan Stern",
+   "photo": "https://image.tmdb.org/t/p/w185/uPA0eFHXGKkG0CUSebrk2DtBDb2.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 937878,
+   "name": "Curtis Gwinn",
+   "photo": "https://image.tmdb.org/t/p/w185/1jciurTIeGHlkHZt3qAU89JU4ld.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 1215655,
+   "name": "Mike Lazzo",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 1215656,
+   "name": "Keith Crofford",
+   "photo": "https://image.tmdb.org/t/p/w185/vyNDOCtfryXLFDSvAv5iMXiQuTD.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1113994,
+   "name": "Eric Appel",
+   "photo": "https://image.tmdb.org/t/p/w185/vRbnqV3te2xSsz3VPXZi8rKTBti.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 115974,
+   "name": "Adam Pally",
+   "photo": "https://image.tmdb.org/t/p/w185/yY13PEaVbPoXT5MkitVxTfdAZnU.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1893099,
+   "name": "Gil Ozeri",
+   "photo": "https://image.tmdb.org/t/p/w185/nCQ26myxkz5cq3RLTnBR1fRhJZm.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:30:41.798Z"
+}

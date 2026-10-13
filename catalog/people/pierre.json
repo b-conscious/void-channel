@@ -1,0 +1,80 @@
+{
+ "show": "Pierre",
+ "slug": "pierre",
+ "tmdbId": 334151,
+ "cast": [
+  {
+   "id": 16752,
+   "name": "David Harewood",
+   "photo": "https://image.tmdb.org/t/p/w185/kjWRYwRGQco0C4p2iIh2RV86fi7.jpg",
+   "character": "Pierre",
+   "episodes": 6
+  },
+  {
+   "id": 973,
+   "name": "Jason Flemyng",
+   "photo": "https://image.tmdb.org/t/p/w185/nYl0180ACnLzVlGbaAfuPtdGr9K.jpg",
+   "character": "DS Ronnie Miller",
+   "episodes": 6
+  },
+  {
+   "id": 145694,
+   "name": "Michele Austin",
+   "photo": "https://image.tmdb.org/t/p/w185/xwUikOrP51Y3FnKysZ4dr3saGFZ.jpg",
+   "character": "Charlotte Manners",
+   "episodes": 6
+  },
+  {
+   "id": 1332971,
+   "name": "Dean-Charles Chapman",
+   "photo": "https://image.tmdb.org/t/p/w185/xIVxI2ECxxN5J2XNkHPjRax0IHc.jpg",
+   "character": "Danny Headman",
+   "episodes": 6
+  },
+  {
+   "id": 1535014,
+   "name": "Nikkita Chadha",
+   "photo": "https://image.tmdb.org/t/p/w185/j0d1shh4OEBVjuZlFAoC1pugaps.jpg",
+   "character": "Alecia Khan",
+   "episodes": 6
+  },
+  {
+   "id": 3675179,
+   "name": "Gia Hunter",
+   "photo": "https://image.tmdb.org/t/p/w185/fK7xZRr1qhCjby0njwhsfgLyW0P.jpg",
+   "character": "Shelley",
+   "episodes": 1
+  }
+ ],
+ "crew": [
+  {
+   "id": 1361395,
+   "name": "Sarmad Masud",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 2863947,
+   "name": "Roy Williams",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1371047,
+   "name": "John Donnelly",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:36:02.107Z"
+}

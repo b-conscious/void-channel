@@ -1,0 +1,328 @@
+{
+ "show": "The Legend of Vox Machina",
+ "slug": "the-legend-of-vox-machina",
+ "tmdbId": 135934,
+ "cast": [
+  {
+   "id": 75037,
+   "name": "Laura Bailey",
+   "photo": "https://image.tmdb.org/t/p/w185/xrq33v9N78hhmApcfkoYx0TAw1A.jpg",
+   "character": "Vex'ahlia (voice)",
+   "episodes": 48
+  },
+  {
+   "id": 37713,
+   "name": "Taliesin Jaffe",
+   "photo": "https://image.tmdb.org/t/p/w185/6J7WD9B9ijvP8rw5hREV47MQbUt.jpg",
+   "character": "Percy (voice)",
+   "episodes": 48
+  },
+  {
+   "id": 34486,
+   "name": "Ashley Johnson",
+   "photo": "https://image.tmdb.org/t/p/w185/8s36QwB7Zq3PrbY1W6a6ctTFFoe.jpg",
+   "character": "Pike (voice)",
+   "episodes": 48
+  },
+  {
+   "id": 89966,
+   "name": "Liam O'Brien",
+   "photo": "https://image.tmdb.org/t/p/w185/ko7Bba6fQEaAbVFAp1kQHTzuYCp.jpg",
+   "character": "Vax'ildan (voice)",
+   "episodes": 48
+  },
+  {
+   "id": 1485055,
+   "name": "Marisha Ray",
+   "photo": "https://image.tmdb.org/t/p/w185/pLP67Y4iV6vQVaV1O2K7FNmvXJX.jpg",
+   "character": "Keyleth (voice)",
+   "episodes": 48
+  },
+  {
+   "id": 1221888,
+   "name": "Travis Willingham",
+   "photo": "https://image.tmdb.org/t/p/w185/clvP30k6cUMf4hukRQqZD3k9z4S.jpg",
+   "character": "Grog (voice)",
+   "episodes": 48
+  },
+  {
+   "id": 556275,
+   "name": "Matthew Mercer",
+   "photo": "https://image.tmdb.org/t/p/w185/fe1S317253vfMuNuIDjhp9vtNSs.jpg",
+   "character": "Ashari / Doty (voice) / Sylas Briarwood (voice) / Soldiers (voice)",
+   "episodes": 48
+  },
+  {
+   "id": 96116,
+   "name": "Sam Riegel",
+   "photo": "https://image.tmdb.org/t/p/w185/fgQMEXtqK4xubDf0a2P8r4VJ8SF.jpg",
+   "character": "Scanlan / Nobleman (voice) / Death Knight (voice) / Servant (voice)",
+   "episodes": 38
+  },
+  {
+   "id": 30430,
+   "name": "Indira Varma",
+   "photo": "https://image.tmdb.org/t/p/w185/yaFCI907dcK2XkzO0HQgtK25kp2.jpg",
+   "character": "Lady Allura Vysoren (voice)",
+   "episodes": 19
+  },
+  {
+   "id": 15761,
+   "name": "Grey DeLisle",
+   "photo": "https://image.tmdb.org/t/p/w185/vrUHaXe1pG56yZkgH7Hs3LGRLTT.jpg",
+   "character": "Delilah Briarwood / Townsperson (voice) / Delilah Briarwood (voice) / Lady De Rolo (voice)",
+   "episodes": 18
+  },
+  {
+   "id": 79510,
+   "name": "Esmé Creed-Miles",
+   "photo": "https://image.tmdb.org/t/p/w185/hmGkEC4OWsyDe7ZGVkZ7e1RjViD.jpg",
+   "character": "Cassandra (voice)",
+   "episodes": 15
+  },
+  {
+   "id": 109014,
+   "name": "Sunil Malhotra",
+   "photo": "https://image.tmdb.org/t/p/w185/vCuWowwG4dWVgUf9Oe2BFxWblNC.jpg",
+   "character": "Gilmore (voice) / Gilmore / Monk (voice)",
+   "episodes": 15
+  },
+  {
+   "id": 11024,
+   "name": "Kelly Hu",
+   "photo": "https://image.tmdb.org/t/p/w185/jLhnDPiUIrIcdKJYnnVSZ4nbgyh.jpg",
+   "character": "Anna Ripley (voice)",
+   "episodes": 14
+  },
+  {
+   "id": 968367,
+   "name": "Stephanie Beatriz",
+   "photo": "https://image.tmdb.org/t/p/w185/7gNPOlsVIdg7QQOv1gRfHjv1Sdb.jpg",
+   "character": "Lady Kima of Vord (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 34985,
+   "name": "Cree Summer",
+   "photo": "https://image.tmdb.org/t/p/w185/7DRq0zPUUWu55pUbnc2roVnzOJ9.jpg",
+   "character": "Raishan (voice) / Otherworldly Voice (voice) / Salda / Raishan (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 9576,
+   "name": "Gina Torres",
+   "photo": "https://image.tmdb.org/t/p/w185/ukDNHgvEgdU95eaw6pngiAPucv4.jpg",
+   "character": "Keeper Yennen (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 1323109,
+   "name": "Aisling Franciosi",
+   "photo": "https://image.tmdb.org/t/p/w185/g6qewxM4EEg02HUTLUw9KGkLdNj.jpg",
+   "character": "Kaylie (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 76669,
+   "name": "Wayne Brady",
+   "photo": "https://image.tmdb.org/t/p/w185/zRIYr4jl7LiEDbbaFcwFiRwLhw1.jpg",
+   "character": "Taryon Darrington (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 129101,
+   "name": "Lance Reddick",
+   "photo": "https://image.tmdb.org/t/p/w185/22mVtEXZbpt0J7S0LhIhdkfRrZV.jpg",
+   "character": "Thordak (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 65640,
+   "name": "Khary Payton",
+   "photo": "https://image.tmdb.org/t/p/w185/4PgEGuAb2KkaRb7P9PdK40pPeVH.jpg",
+   "character": "Sovereign Uriel Tal'Dorei (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 1487375,
+   "name": "Anjali Bhimani",
+   "photo": "https://image.tmdb.org/t/p/w185/eTqzTiQuykq7BCGfvxh6aLbJAJO.jpg",
+   "character": "Priestess (voice) / Head Cleric (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 342,
+   "name": "Eugene Byrd",
+   "photo": "https://image.tmdb.org/t/p/w185/4Vs64bmZC4MgOnwIhGEeZWUw7q1.jpg",
+   "character": "Additional Voices (voice) / Captain Jarett (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 1620226,
+   "name": "Ike Amadi",
+   "photo": "https://image.tmdb.org/t/p/w185/xsv09XrYPk5bdY3cAUwKqJnraxC.jpg",
+   "character": "Additional Voices (voice) / Earthbreaker Groon (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 76621,
+   "name": "Will Friedle",
+   "photo": "https://image.tmdb.org/t/p/w185/Ao3fp9f4loVQ1Vvk6ph8HU5p0Lu.jpg",
+   "character": "Kashaw (voice)",
+   "episodes": 5
+  }
+ ],
+ "crew": [
+  {
+   "id": 78438,
+   "name": "Chris Prynoski",
+   "photo": "https://image.tmdb.org/t/p/w185/m9a3hcH5zV5IvoCiYsuiWfY8Hir.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 96116,
+   "name": "Sam Riegel",
+   "photo": "https://image.tmdb.org/t/p/w185/fgQMEXtqK4xubDf0a2P8r4VJ8SF.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 96
+  },
+  {
+   "id": 34486,
+   "name": "Ashley Johnson",
+   "photo": "https://image.tmdb.org/t/p/w185/8s36QwB7Zq3PrbY1W6a6ctTFFoe.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 1485055,
+   "name": "Marisha Ray",
+   "photo": "https://image.tmdb.org/t/p/w185/pLP67Y4iV6vQVaV1O2K7FNmvXJX.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 75037,
+   "name": "Laura Bailey",
+   "photo": "https://image.tmdb.org/t/p/w185/xrq33v9N78hhmApcfkoYx0TAw1A.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 37713,
+   "name": "Taliesin Jaffe",
+   "photo": "https://image.tmdb.org/t/p/w185/6J7WD9B9ijvP8rw5hREV47MQbUt.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 1275700,
+   "name": "Ben Kalina",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 556275,
+   "name": "Matthew Mercer",
+   "photo": "https://image.tmdb.org/t/p/w185/fe1S317253vfMuNuIDjhp9vtNSs.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 89966,
+   "name": "Liam O'Brien",
+   "photo": "https://image.tmdb.org/t/p/w185/ko7Bba6fQEaAbVFAp1kQHTzuYCp.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 1516106,
+   "name": "Shannon Prynoski",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 1221888,
+   "name": "Travis Willingham",
+   "photo": "https://image.tmdb.org/t/p/w185/clvP30k6cUMf4hukRQqZD3k9z4S.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 108953,
+   "name": "Brandon Auman",
+   "photo": "https://image.tmdb.org/t/p/w185/vLrQ1R2A0Kabgm4i4oA7ac9soaF.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 36
+  },
+  {
+   "id": 101022,
+   "name": "Neal Acree",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 36
+  },
+  {
+   "id": 2676980,
+   "name": "Meredith Kecskemety",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 3882843,
+   "name": "Young Heller",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 2331976,
+   "name": "Eugene Lee",
+   "photo": "https://image.tmdb.org/t/p/w185/loh3vqezUbofBjj9e1xOcGeONE.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 12
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:34:30.756Z"
+}

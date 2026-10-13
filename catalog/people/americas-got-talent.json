@@ -1,0 +1,195 @@
+{
+ "show": "America's Got Talent",
+ "slug": "americas-got-talent",
+ "tmdbId": 4551,
+ "cast": [
+  {
+   "id": 77920,
+   "name": "Howie Mandel",
+   "photo": "https://image.tmdb.org/t/p/w185/lX5HyGJ6X6aVPwirx5Tt9CJcMzA.jpg",
+   "character": "Self - Judge",
+   "episodes": 441
+  },
+  {
+   "id": 10584,
+   "name": "Heidi Klum",
+   "photo": "https://image.tmdb.org/t/p/w185/dJFWrj9jK4Z6MSdTP2s8D4Rn5ZO.jpg",
+   "character": "Self - Guest Judge / Self - Judge",
+   "episodes": 277
+  },
+  {
+   "id": 165899,
+   "name": "Simon Cowell",
+   "photo": "https://image.tmdb.org/t/p/w185/pKllSRO03fLD6z0dMMQAuooKXhF.jpg",
+   "character": "Self - Judge",
+   "episodes": 267
+  },
+  {
+   "id": 36811,
+   "name": "Nick Cannon",
+   "photo": "https://image.tmdb.org/t/p/w185/u8b5uinYCwdlCu6P3qcKZqeCgQe.jpg",
+   "character": "Self - Host",
+   "episodes": 223
+  },
+  {
+   "id": 47984,
+   "name": "Mel B",
+   "photo": "https://image.tmdb.org/t/p/w185/drg8C5ROTnNJWfjHLQAzlfht0E3.jpg",
+   "character": "Self - Judge",
+   "episodes": 203
+  },
+  {
+   "id": 53256,
+   "name": "Terry Crews",
+   "photo": "https://image.tmdb.org/t/p/w185/pxTY4SglLo5hFcMH00MxPeC5u55.jpg",
+   "character": "Self - Host",
+   "episodes": 196
+  },
+  {
+   "id": 63522,
+   "name": "Sofía Vergara",
+   "photo": "https://image.tmdb.org/t/p/w185/l79eVtn6bSOaiq7R0UGu60foMrK.jpg",
+   "character": "Self - Judge",
+   "episodes": 159
+  },
+  {
+   "id": 133196,
+   "name": "Sharon Osbourne",
+   "photo": "https://image.tmdb.org/t/p/w185/1dSXEIPb2ZHB69XppoJ2W6hhMsk.jpg",
+   "character": "Self - Judge",
+   "episodes": 154
+  },
+  {
+   "id": 1220147,
+   "name": "Piers Morgan",
+   "photo": "https://image.tmdb.org/t/p/w185/gQ5I0N8rrvxIqnKdh7eBcbTphB8.jpg",
+   "character": "Self - Judge",
+   "episodes": 138
+  },
+  {
+   "id": 58098,
+   "name": "Howard Stern",
+   "photo": "https://image.tmdb.org/t/p/w185/5cNuUQPyN5b4M1TNMCDw6681GU.jpg",
+   "character": "Self - Judge",
+   "episodes": 110
+  },
+  {
+   "id": 28238,
+   "name": "David Hasselhoff",
+   "photo": "https://image.tmdb.org/t/p/w185/gRcqYNBUQWFxRoAVRNY7xHzOONP.jpg",
+   "character": "Self - Judge",
+   "episodes": 74
+  },
+  {
+   "id": 77897,
+   "name": "Tyra Banks",
+   "photo": "https://image.tmdb.org/t/p/w185/55It8YcERfqwTvli6XO7HLKIlxV.jpg",
+   "character": "Self - Host",
+   "episodes": 48
+  },
+  {
+   "id": 94743,
+   "name": "Jerry Springer",
+   "photo": "https://image.tmdb.org/t/p/w185/oz5L8n5aPc2WzRbehkb01BxtKKv.jpg",
+   "character": "Self - Host",
+   "episodes": 32
+  },
+  {
+   "id": 2870687,
+   "name": "Bailey Drew Sok",
+   "photo": null,
+   "character": "Self - Contestant",
+   "episodes": 25
+  },
+  {
+   "id": 143240,
+   "name": "Julianne Hough",
+   "photo": "https://image.tmdb.org/t/p/w185/gFVAIfRzOEVWs9PWJGA93Ttc6zw.jpg",
+   "character": "Self - Judge",
+   "episodes": 23
+  },
+  {
+   "id": 17773,
+   "name": "Gabrielle Union",
+   "photo": "https://image.tmdb.org/t/p/w185/toeSCybsYufRKfgz77AKy4C8axD.jpg",
+   "character": "Self - Judge",
+   "episodes": 23
+  },
+  {
+   "id": 151657,
+   "name": "Regis Philbin",
+   "photo": "https://image.tmdb.org/t/p/w185/bqUyIlaGBZqd4GTn8MVW47FZ4xX.jpg",
+   "character": "Self - Host",
+   "episodes": 16
+  },
+  {
+   "id": 33285,
+   "name": "Brandy Norwood",
+   "photo": "https://image.tmdb.org/t/p/w185/ie1IH8LQI3aGzke4FoYRbcdHv88.jpg",
+   "character": "Self - Judge",
+   "episodes": 16
+  },
+  {
+   "id": 113988,
+   "name": "Terry Fator",
+   "photo": "https://image.tmdb.org/t/p/w185/ijOkhzMOJxLb8iGxIsAbvdaLT66.jpg",
+   "character": "Self / Himself",
+   "episodes": 13
+  },
+  {
+   "id": 1391884,
+   "name": "Kadan Rockett",
+   "photo": null,
+   "character": "Self / Self - Contestant",
+   "episodes": 9
+  },
+  {
+   "id": 1966612,
+   "name": "Collins Key",
+   "photo": "https://image.tmdb.org/t/p/w185/kOhUSGZ9hqXbZm5HF0tCDet7i5M.jpg",
+   "character": "Himself - Contestant",
+   "episodes": 8
+  },
+  {
+   "id": 1216070,
+   "name": "Alesha Dixon",
+   "photo": "https://image.tmdb.org/t/p/w185/rVtsdNHKXXUlj9n91uYr1l8tOAk.jpg",
+   "character": "Self / Herself - Judge",
+   "episodes": 8
+  },
+  {
+   "id": 1935341,
+   "name": "Darci Lynne Farmer",
+   "photo": "https://image.tmdb.org/t/p/w185/spSENJCtjdyJ8QppN6cGO44gqTt.jpg",
+   "character": "Self - Contestant / Contestant",
+   "episodes": 8
+  },
+  {
+   "id": 2096167,
+   "name": "Grace VanderWaal",
+   "photo": "https://image.tmdb.org/t/p/w185/4v2uM7UXbAlYydrdf0rsaCrfP8x.jpg",
+   "character": "Herself / Self - Contestant",
+   "episodes": 8
+  }
+ ],
+ "crew": [
+  {
+   "id": 1221229,
+   "name": "Ken Warwick",
+   "photo": "https://image.tmdb.org/t/p/w185/fRzX8GIQOOjcViA3vt8SaBeN96f.jpg",
+   "jobs": [
+    "Creator"
+   ]
+  },
+  {
+   "id": 165899,
+   "name": "Simon Cowell",
+   "photo": "https://image.tmdb.org/t/p/w185/pKllSRO03fLD6z0dMMQAuooKXhF.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 515
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:44:21.039Z"
+}

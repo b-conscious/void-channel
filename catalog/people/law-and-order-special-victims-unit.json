@@ -1,0 +1,351 @@
+{
+ "show": "Law & Order: Special Victims Unit",
+ "slug": "law-and-order-special-victims-unit",
+ "tmdbId": 2734,
+ "cast": [
+  {
+   "id": 6240,
+   "name": "Mariska Hargitay",
+   "photo": "https://image.tmdb.org/t/p/w185/mF5BMaACeb1rlqp9Fz0f5z7N69H.jpg",
+   "character": "Olivia Benson",
+   "episodes": 598
+  },
+  {
+   "id": 21411,
+   "name": "Ice-T",
+   "photo": "https://image.tmdb.org/t/p/w185/96TdPckI16ggfHcPrSFf6bHYLLe.jpg",
+   "character": "Odafin 'Fin' Tutuola",
+   "episodes": 576
+  },
+  {
+   "id": 9175,
+   "name": "Dann Florek",
+   "photo": "https://image.tmdb.org/t/p/w185/cKAhUCW4LC0p5adSeIjRRoT05t1.jpg",
+   "character": "Donald Cragen",
+   "episodes": 333
+  },
+  {
+   "id": 32396,
+   "name": "Richard Belzer",
+   "photo": "https://image.tmdb.org/t/p/w185/pc5UOMd78kO7Us0nUvKOMgbigd2.jpg",
+   "character": "John Munch",
+   "episodes": 325
+  },
+  {
+   "id": 206637,
+   "name": "Kelli Giddish",
+   "photo": "https://image.tmdb.org/t/p/w185/3zcqEyAguRhYofePyJehWm19uUX.jpg",
+   "character": "Amanda Rollins / Kara Bawson",
+   "episodes": 286
+  },
+  {
+   "id": 22227,
+   "name": "Christopher Meloni",
+   "photo": "https://image.tmdb.org/t/p/w185/nHlFFbRTh85vkohBBtRQjYnWEtb.jpg",
+   "character": "Elliot Stabler",
+   "episodes": 284
+  },
+  {
+   "id": 1217599,
+   "name": "Peter Scanavino",
+   "photo": "https://image.tmdb.org/t/p/w185/kQzX89Ar4rEC1wwHcuDMr0YxUve.jpg",
+   "character": "Johnny Dubcek / Dominick 'Sonny' Carisi Jr.",
+   "episodes": 256
+  },
+  {
+   "id": 14592,
+   "name": "BD Wong",
+   "photo": "https://image.tmdb.org/t/p/w185/w7Hs9m6ocS2qlibvrLOvmyCKbAN.jpg",
+   "character": "George Huang",
+   "episodes": 232
+  },
+  {
+   "id": 42694,
+   "name": "Tamara Tunie",
+   "photo": "https://image.tmdb.org/t/p/w185/1KM30uSzeB27UEY7ICtTVDf16CQ.jpg",
+   "character": "Melinda Warner",
+   "episodes": 226
+  },
+  {
+   "id": 107515,
+   "name": "Raúl Esparza",
+   "photo": "https://image.tmdb.org/t/p/w185/m0qln1HWU0u29x4kAww719bndAw.jpg",
+   "character": "Rafael Barba",
+   "episodes": 130
+  },
+  {
+   "id": 65639,
+   "name": "Diane Neal",
+   "photo": "https://image.tmdb.org/t/p/w185/4hVzSxLMKD6oGKDy0u0xt2rdHqU.jpg",
+   "character": "Casey Novak / Amelia Chase",
+   "episodes": 113
+  },
+  {
+   "id": 59156,
+   "name": "Stephanie March",
+   "photo": "https://image.tmdb.org/t/p/w185/7iDG2vgajeDQJROkhkVjHYuKS3.jpg",
+   "character": "Alexandra Cabot",
+   "episodes": 97
+  },
+  {
+   "id": 72132,
+   "name": "Danny Pino",
+   "photo": "https://image.tmdb.org/t/p/w185/2Sp7Mq9aqwq5BIPpobWMG2F0O5x.jpg",
+   "character": "Nick Amaro",
+   "episodes": 95
+  },
+  {
+   "id": 1653331,
+   "name": "Frank Anello",
+   "photo": "https://image.tmdb.org/t/p/w185/w7tB4wlr8aQez0AycPdlReVRCFk.jpg",
+   "character": "NYPD Officer (uncredited)",
+   "episodes": 86
+  },
+  {
+   "id": 1478384,
+   "name": "Octavio Pisano",
+   "photo": "https://image.tmdb.org/t/p/w185/tjPKaq0RV4imE1uF8MMfC8T7lOY.jpg",
+   "character": "Joe Velasco",
+   "episodes": 84
+  },
+  {
+   "id": 1413757,
+   "name": "Kevin Kane",
+   "photo": "https://image.tmdb.org/t/p/w185/e0yDVCropmYrjJxHaVX0gxCiYiL.jpg",
+   "character": "Terry Bruno / Major Bowman / Scott Ryland",
+   "episodes": 69
+  },
+  {
+   "id": 2005718,
+   "name": "Aimé Donna Kelly",
+   "photo": "https://image.tmdb.org/t/p/w185/jVf2XzJeFbzEopz5LGS3yIRPUoP.jpg",
+   "character": "Renee Curry",
+   "episodes": 55
+  },
+  {
+   "id": 27107,
+   "name": "Mike Doyle",
+   "photo": "https://image.tmdb.org/t/p/w185/vWvYo2T80nz0F4hcXRBDpawUBo0.jpg",
+   "character": "Ryan O'Halloran / Karlan",
+   "episodes": 53
+  },
+  {
+   "id": 156648,
+   "name": "Joel de la Fuente",
+   "photo": "https://image.tmdb.org/t/p/w185/xRDyGJpIYG0IFEv1nLD3C23WSeA.jpg",
+   "character": "Ruben Morales",
+   "episodes": 52
+  },
+  {
+   "id": 1954844,
+   "name": "Caren Browning",
+   "photo": "https://image.tmdb.org/t/p/w185/rVKJIdPeSdKIYSUbAcOjQeqq81h.jpg",
+   "character": "Sheila Queen / Linda Davies / Judith Siper",
+   "episodes": 43
+  },
+  {
+   "id": 11903,
+   "name": "Joanna Merlin",
+   "photo": "https://image.tmdb.org/t/p/w185/6XmZtra49URbifNxnXo2NJsahRv.jpg",
+   "character": "Lena Petrovsky",
+   "episodes": 43
+  },
+  {
+   "id": 1377051,
+   "name": "Ryan Buggle",
+   "photo": "https://image.tmdb.org/t/p/w185/xHrCD0ixfZiJKcVJgExZvw9vPpK.jpg",
+   "character": "Noah Porter-Benson",
+   "episodes": 42
+  },
+  {
+   "id": 1367620,
+   "name": "Jamie Gray Hyder",
+   "photo": "https://image.tmdb.org/t/p/w185/xVg5JQTEsdTw9IVen33g3GkisLg.jpg",
+   "character": "Katriona Tamin",
+   "episodes": 36
+  },
+  {
+   "id": 50117,
+   "name": "Peter Hermann",
+   "photo": "https://image.tmdb.org/t/p/w185/96zXCakqy0xRa1u7mabWEX5o3sH.jpg",
+   "character": "Trevor Langan",
+   "episodes": 36
+  }
+ ],
+ "crew": [
+  {
+   "id": 117443,
+   "name": "Dick Wolf",
+   "photo": "https://image.tmdb.org/t/p/w185/tRMEuYNVFjXYJ7gh1sGJSxq9Vwq.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Story",
+    "Writer"
+   ],
+   "episodes": 526
+  },
+  {
+   "id": 935631,
+   "name": "Mike Post",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 598
+  },
+  {
+   "id": 1218298,
+   "name": "Peter Jankowski",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 594
+  },
+  {
+   "id": 1218268,
+   "name": "Julie Martin",
+   "photo": "https://image.tmdb.org/t/p/w185/vzeQvZ1yKT1h2jqnbhtnk2lNADA.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 301
+  },
+  {
+   "id": 6240,
+   "name": "Mariska Hargitay",
+   "photo": "https://image.tmdb.org/t/p/w185/mF5BMaACeb1rlqp9Fz0f5z7N69H.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 251
+  },
+  {
+   "id": 1230748,
+   "name": "Neal Baer",
+   "photo": "https://image.tmdb.org/t/p/w185/tLQ6ngyxWcutCWfPqdnSmzgsap8.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 196
+  },
+  {
+   "id": 1182532,
+   "name": "Warren Leight",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 175
+  },
+  {
+   "id": 1228160,
+   "name": "Michele Fazekas",
+   "photo": "https://image.tmdb.org/t/p/w185/d5WHruek1IV0VlwPurrnBrAzrcf.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 116
+  },
+  {
+   "id": 104404,
+   "name": "Norberto Barba",
+   "photo": "https://image.tmdb.org/t/p/w185/dGtWLR3P7F9ufp8ZPtAAlU4SqOJ.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 115
+  },
+  {
+   "id": 1472100,
+   "name": "Brianna Yellen",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Teleplay",
+    "Story"
+   ],
+   "episodes": 107
+  },
+  {
+   "id": 1218026,
+   "name": "Arthur W. Forney",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 71
+  },
+  {
+   "id": 2453966,
+   "name": "Kathy Dobie",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 68
+  },
+  {
+   "id": 187891,
+   "name": "Dawn DeNoon",
+   "photo": "https://image.tmdb.org/t/p/w185/oLQlCmbI3LF5jaYRdWJjiARGJii.jpg",
+   "jobs": [
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 64
+  },
+  {
+   "id": 1472874,
+   "name": "Céline C. Robinson",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 61
+  },
+  {
+   "id": 1371545,
+   "name": "Robert Brooks Cohen",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 60
+  },
+  {
+   "id": 101532,
+   "name": "Denis Hamill",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 59
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:31:55.328Z"
+}

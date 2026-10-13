@@ -1,0 +1,326 @@
+{
+ "show": "Family Matters",
+ "slug": "family-matters",
+ "tmdbId": 2685,
+ "cast": [
+  {
+   "id": 7672,
+   "name": "Reginald VelJohnson",
+   "photo": "https://image.tmdb.org/t/p/w185/dZtIIOI0PpD3dmTVfUOWiQzOY28.jpg",
+   "character": "Carl Winslow",
+   "episodes": 215
+  },
+  {
+   "id": 66145,
+   "name": "Darius McCrary",
+   "photo": "https://image.tmdb.org/t/p/w185/wtWf2R8kBKqQRYO3Y5szGjNSLRp.jpg",
+   "character": "Eddie Winslow",
+   "episodes": 215
+  },
+  {
+   "id": 1228661,
+   "name": "Kellie Shanygne Williams",
+   "photo": "https://image.tmdb.org/t/p/w185/oE166R7AXvnbdWwl72nE6JbTqVx.jpg",
+   "character": "Laura Winslow",
+   "episodes": 215
+  },
+  {
+   "id": 87079,
+   "name": "Jaleel White",
+   "photo": "https://image.tmdb.org/t/p/w185/txSsldskYkO4PbxKML8NvUq2sCk.jpg",
+   "character": "Steve Urkel",
+   "episodes": 208
+  },
+  {
+   "id": 1217872,
+   "name": "Jo Marie Payton",
+   "photo": "https://image.tmdb.org/t/p/w185/26XyFaCjA1vYa1vMh9tZEEUiL0B.jpg",
+   "character": "Harriette Winslow",
+   "episodes": 204
+  },
+  {
+   "id": 73030,
+   "name": "Rosetta LeNoire",
+   "photo": "https://image.tmdb.org/t/p/w185/bI7IRVBXANRTIj65dagqEhoWXCG.jpg",
+   "character": "Estelle Winslow",
+   "episodes": 159
+  },
+  {
+   "id": 1221990,
+   "name": "Bryton James",
+   "photo": "https://image.tmdb.org/t/p/w185/x8nQdEaQLADA9qs1OCqvFTxFyQw.jpg",
+   "character": "Richie Crawford",
+   "episodes": 144
+  },
+  {
+   "id": 1232350,
+   "name": "Jaimee Foxworth",
+   "photo": "https://image.tmdb.org/t/p/w185/uR2qK8mk0W4kcAzkgLjuOXxFpeT.jpg",
+   "character": "Judy Winslow",
+   "episodes": 97
+  },
+  {
+   "id": 44793,
+   "name": "Telma Hopkins",
+   "photo": "https://image.tmdb.org/t/p/w185/9uxf7rULOwEcIDV9JLFpy44L1hB.jpg",
+   "character": "Rachel Crawford",
+   "episodes": 92
+  },
+  {
+   "id": 1219808,
+   "name": "Shawn Harrison",
+   "photo": "https://image.tmdb.org/t/p/w185/2IAdiqCHzJX3zpusp4H3amEDtPX.jpg",
+   "character": "Waldo Geraldo Faldo / Guy in Towel",
+   "episodes": 84
+  },
+  {
+   "id": 1228657,
+   "name": "Cherie Johnson",
+   "photo": "https://image.tmdb.org/t/p/w185/hE2SrfoEoprYJOioT2d92TebriY.jpg",
+   "character": "Maxine Johnson",
+   "episodes": 58
+  },
+  {
+   "id": 1222290,
+   "name": "Michelle Thomas",
+   "photo": "https://image.tmdb.org/t/p/w185/2Na1OhhcBgNphRg4AI5ToT2bUXn.jpg",
+   "character": "Myra Monkhouse",
+   "episodes": 55
+  },
+  {
+   "id": 5852189,
+   "name": "Joseph Wright",
+   "photo": null,
+   "character": "Richie Crawford",
+   "episodes": 22
+  },
+  {
+   "id": 5852190,
+   "name": "Julius Wright",
+   "photo": null,
+   "character": "Richie Crawford",
+   "episodes": 22
+  },
+  {
+   "id": 149010,
+   "name": "Orlando Brown",
+   "photo": "https://image.tmdb.org/t/p/w185/bedZmTFMkTLmXwbSn2z0IQqQE02.jpg",
+   "character": "3J",
+   "episodes": 21
+  },
+  {
+   "id": 1212319,
+   "name": "Barry Jenner",
+   "photo": "https://image.tmdb.org/t/p/w185/Ake9c3048uM9KU0PuV1bV4dngcF.jpg",
+   "character": "Lt. Lieu Murtaugh",
+   "episodes": 18
+  },
+  {
+   "id": 146683,
+   "name": "Tammy Townsend",
+   "photo": "https://image.tmdb.org/t/p/w185/vIZSa3ITSLELHUywN9LcN8LwjZ8.jpg",
+   "character": "Greta McClure",
+   "episodes": 14
+  },
+  {
+   "id": 1212555,
+   "name": "Shavar Ross",
+   "photo": "https://image.tmdb.org/t/p/w185/nWReFunHu70dHOYQRN8MrsZukB2.jpg",
+   "character": "Weasel",
+   "episodes": 13
+  },
+  {
+   "id": 77033,
+   "name": "Judyann Elder",
+   "photo": "https://image.tmdb.org/t/p/w185/57WbfFy6g2zUVHmPfYUhRrffM6m.jpg",
+   "character": "Harriette Winslow / Sister Bernadette",
+   "episodes": 9
+  },
+  {
+   "id": 1735014,
+   "name": "Juan Pope",
+   "photo": "https://image.tmdb.org/t/p/w185/ucc4oGk140GBPVTkWNkreV0lxlw.jpg",
+   "character": "Orderly / Chain / Curtis Williams",
+   "episodes": 9
+  },
+  {
+   "id": 167109,
+   "name": "Marlon Young",
+   "photo": "https://image.tmdb.org/t/p/w185/yTGdGaBNLcWu7ZTawHx3lJzISmU.jpg",
+   "character": "Willie",
+   "episodes": 8
+  },
+  {
+   "id": 181578,
+   "name": "Randy Josselyn",
+   "photo": null,
+   "character": "Rodney Beckett",
+   "episodes": 7
+  },
+  {
+   "id": 14835,
+   "name": "Dick O'Neill",
+   "photo": "https://image.tmdb.org/t/p/w185/nOl3CenzWWOHxDPJG52h0yF7hu2.jpg",
+   "character": "Commissioner Geiss",
+   "episodes": 7
+  },
+  {
+   "id": 123003,
+   "name": "Ron Orbach",
+   "photo": null,
+   "character": "Nick Neidermeyer",
+   "episodes": 5
+  }
+ ],
+ "crew": [
+  {
+   "id": 1232185,
+   "name": "Michael Warren",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1232184,
+   "name": "William Bickley",
+   "photo": "https://image.tmdb.org/t/p/w185/sTRaAvQTcHtVmfhlzYZryAxYxMc.jpg",
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 152315,
+   "name": "Rich Correll",
+   "photo": "https://image.tmdb.org/t/p/w185/2ayuF4EcHbcw5hXb7YPivZdAyxX.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 75
+  },
+  {
+   "id": 1212492,
+   "name": "John Tracy",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 38
+  },
+  {
+   "id": 1212691,
+   "name": "David W. Duclon",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 54644,
+   "name": "Joel Zwick",
+   "photo": "https://image.tmdb.org/t/p/w185/jA9eJVJMmngFNIIhSZddKglrCCf.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1212902,
+   "name": "Sally Lapiduss",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1215067,
+   "name": "Pamela Eells",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1214858,
+   "name": "Felicia D. Henderson",
+   "photo": "https://image.tmdb.org/t/p/w185/6n2s3bU9nlXS7PsvS9LFVoR1ZYU.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1228751,
+   "name": "Greg Garcia",
+   "photo": "https://image.tmdb.org/t/p/w185/kTS992ggSastFJcYpu1IXX9eZ5a.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 2007272,
+   "name": "John Bowab",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 34651,
+   "name": "Peter Baldwin",
+   "photo": "https://image.tmdb.org/t/p/w185/2eJb5l3zPRgWvidF39CsHLCb8tV.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1212558,
+   "name": "Gerren Keith",
+   "photo": "https://image.tmdb.org/t/p/w185/wDylneD3VLETBRz9Pd0h83A2VT2.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 2202000,
+   "name": "James O'Keefe",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 28168,
+   "name": "Timothy Stack",
+   "photo": "https://image.tmdb.org/t/p/w185/wMOpamq0meq9NSE5MMMV4x1MjFJ.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 106713,
+   "name": "Kelly Sandefur",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:28:14.952Z"
+}

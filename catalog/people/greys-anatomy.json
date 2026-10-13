@@ -1,0 +1,337 @@
+{
+ "show": "Grey's Anatomy",
+ "slug": "greys-anatomy",
+ "tmdbId": 1416,
+ "cast": [
+  {
+   "id": 9280,
+   "name": "Ellen Pompeo",
+   "photo": "https://image.tmdb.org/t/p/w185/yPd4G2RcjXQPNWkKUPbWh5v1flC.jpg",
+   "character": "Meredith Grey",
+   "episodes": 466
+  },
+  {
+   "id": 171075,
+   "name": "Chandra Wilson",
+   "photo": "https://image.tmdb.org/t/p/w185/83Ynxlv3jV4ahkOiAEfunM7Rez2.jpg",
+   "character": "Miranda Bailey",
+   "episodes": 466
+  },
+  {
+   "id": 25544,
+   "name": "James Pickens Jr.",
+   "photo": "https://image.tmdb.org/t/p/w185/iddDcaysDQ6IVMUjJ97Bv3lTBCu.jpg",
+   "character": "Richard Webber",
+   "episodes": 466
+  },
+  {
+   "id": 9013,
+   "name": "Kevin McKidd",
+   "photo": "https://image.tmdb.org/t/p/w185/KtmEKOSehmQ35JfGjEjpqlypbP.jpg",
+   "character": "Owen Hunt",
+   "episodes": 384
+  },
+  {
+   "id": 20746,
+   "name": "Justin Chambers",
+   "photo": "https://image.tmdb.org/t/p/w185/5UGtBemc4GPaCWjCwVR3YYmIlzV.jpg",
+   "character": "Alex Karev",
+   "episodes": 357
+  },
+  {
+   "id": 236021,
+   "name": "Camilla Luddington",
+   "photo": "https://image.tmdb.org/t/p/w185/eKF5lSEdEtOCbsgb5mKjd8vYLck.jpg",
+   "character": "Jo Wilson",
+   "episodes": 297
+  },
+  {
+   "id": 210695,
+   "name": "Jesse Williams",
+   "photo": "https://image.tmdb.org/t/p/w185/m5Hfhph3XA7RvXMkHSAhxWEQwID.jpg",
+   "character": "Jackson Avery",
+   "episodes": 275
+  },
+  {
+   "id": 81684,
+   "name": "Caterina Scorsone",
+   "photo": "https://image.tmdb.org/t/p/w185/eLexGfeg4SyY9anPyNoh8hzKATD.jpg",
+   "character": "Amelia Shepherd",
+   "episodes": 257
+  },
+  {
+   "id": 18352,
+   "name": "Patrick Dempsey",
+   "photo": "https://image.tmdb.org/t/p/w185/2PpaYtXdaDmNi3jap4qPIdyVesL.jpg",
+   "character": "Derek Shepherd",
+   "episodes": 243
+  },
+  {
+   "id": 125055,
+   "name": "Sara Ramirez",
+   "photo": "https://image.tmdb.org/t/p/w185/5hi4tZfMQe5Cw236c7eIFYi0D1F.jpg",
+   "character": "Callie Torres",
+   "episodes": 235
+  },
+  {
+   "id": 2205,
+   "name": "Jessica Capshaw",
+   "photo": "https://image.tmdb.org/t/p/w185/ePpM2GPe5OXjtyesq06J3S1WCB.jpg",
+   "character": "Arizona Robbins",
+   "episodes": 224
+  },
+  {
+   "id": 17836,
+   "name": "Kim Raver",
+   "photo": "https://image.tmdb.org/t/p/w185/o9OYkG0b48125tim78ebyGeC4lO.jpg",
+   "character": "Teddy Altman",
+   "episodes": 221
+  },
+  {
+   "id": 25540,
+   "name": "Sandra Oh",
+   "photo": "https://image.tmdb.org/t/p/w185/zU8vjebHxcP60ESEL5Ok68KWZvj.jpg",
+   "character": "Cristina Yang",
+   "episodes": 215
+  },
+  {
+   "id": 1256638,
+   "name": "Kelly McCreary",
+   "photo": "https://image.tmdb.org/t/p/w185/fP88Xb6H5SbvtQ47ZGYcmGo0gTf.jpg",
+   "character": "Maggie Pierce",
+   "episodes": 203
+  },
+  {
+   "id": 198927,
+   "name": "Sarah Drew",
+   "photo": "https://image.tmdb.org/t/p/w185/65hUM3Egh5roemP3Cgn0bA38rDj.jpg",
+   "character": "April Kepner",
+   "episodes": 201
+  },
+  {
+   "id": 95475,
+   "name": "Jason George",
+   "photo": "https://image.tmdb.org/t/p/w185/eTiyxcbtEsdANo1NGFsfk3mZPW3.jpg",
+   "character": "Ben Warren",
+   "episodes": 199
+  },
+  {
+   "id": 87440,
+   "name": "Chris Carmack",
+   "photo": "https://image.tmdb.org/t/p/w185/ubJHfIw8aItjkY266hyTCc4NERA.jpg",
+   "character": "Atticus Lincoln",
+   "episodes": 150
+  },
+  {
+   "id": 1362995,
+   "name": "Giacomo Gianniotti",
+   "photo": "https://image.tmdb.org/t/p/w185/gym2kTV6aqHYRK2zFEhVnYBuPiR.jpg",
+   "character": "Andrew DeLuca",
+   "episodes": 137
+  },
+  {
+   "id": 58115,
+   "name": "Eric Dane",
+   "photo": "https://image.tmdb.org/t/p/w185/4PsLKBKN4e0zRT2oS4BjE8Xu1un.jpg",
+   "character": "Mark Sloan",
+   "episodes": 135
+  },
+  {
+   "id": 1450286,
+   "name": "Jake Borelli",
+   "photo": "https://image.tmdb.org/t/p/w185/szKuXklJNgRedQR3zMSmiTgCP96.jpg",
+   "character": "Levi Schmitt",
+   "episodes": 134
+  },
+  {
+   "id": 25541,
+   "name": "Katherine Heigl",
+   "photo": "https://image.tmdb.org/t/p/w185/1yYJI5qtkeJMZo9JU4KMVuO2Hy9.jpg",
+   "character": "Izzie Stevens",
+   "episodes": 122
+  },
+  {
+   "id": 217589,
+   "name": "Jerrika Hinton",
+   "photo": "https://image.tmdb.org/t/p/w185/iEk8Js3ypPvzE53rp7t6NRbyhAR.jpg",
+   "character": "Stephanie Edwards",
+   "episodes": 117
+  },
+  {
+   "id": 69210,
+   "name": "Chyler Leigh",
+   "photo": "https://image.tmdb.org/t/p/w185/yoL8HbWhnoTVugTV5qLJP8gVpIq.jpg",
+   "character": "Lexie Grey",
+   "episodes": 110
+  },
+  {
+   "id": 1583975,
+   "name": "Anthony Hill",
+   "photo": "https://image.tmdb.org/t/p/w185/dUaUfI29UIsq0jqCEdNlTsvAFjC.jpg",
+   "character": "Winston Ndugu",
+   "episodes": 110
+  }
+ ],
+ "crew": [
+  {
+   "id": 25539,
+   "name": "Shonda Rhimes",
+   "photo": "https://image.tmdb.org/t/p/w185/pIQbVxfjNwZ0DaAjo3q107nng1b.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 460
+  },
+  {
+   "id": 6048,
+   "name": "Mark Gordon",
+   "photo": "https://image.tmdb.org/t/p/w185/lATsud5NyaXaKE5p8H1kEkUsbWN.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 460
+  },
+  {
+   "id": 60189,
+   "name": "Betsy Beers",
+   "photo": "https://image.tmdb.org/t/p/w185/cTbDGjBHo6TGNTmCIdFDaeCJJa2.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 460
+  },
+  {
+   "id": 62156,
+   "name": "Linda Klein",
+   "photo": "https://image.tmdb.org/t/p/w185/zvIQYPvKysDMZMq5iP789i0ugDH.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 451
+  },
+  {
+   "id": 1224068,
+   "name": "Zoanne Clack",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 322
+  },
+  {
+   "id": 1218117,
+   "name": "Krista Vernoff",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 293
+  },
+  {
+   "id": 1224074,
+   "name": "Rob Corn",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 263
+  },
+  {
+   "id": 1224094,
+   "name": "Tony Phelan",
+   "photo": "https://image.tmdb.org/t/p/w185/bbILQrz4EPacATjCk2cZG1TR9Bh.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 202
+  },
+  {
+   "id": 1219929,
+   "name": "Joan Rater",
+   "photo": "https://image.tmdb.org/t/p/w185/i227263WtQwuxLj5E3DkyqxPcFz.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 202
+  },
+  {
+   "id": 1379194,
+   "name": "Meg Marinis",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 197
+  },
+  {
+   "id": 9280,
+   "name": "Ellen Pompeo",
+   "photo": "https://image.tmdb.org/t/p/w185/yPd4G2RcjXQPNWkKUPbWh5v1flC.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 167
+  },
+  {
+   "id": 1237127,
+   "name": "Fred Einesman",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 132
+  },
+  {
+   "id": 1215074,
+   "name": "Mark Wilding",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 113
+  },
+  {
+   "id": 1213170,
+   "name": "Allan Heinberg",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 86
+  },
+  {
+   "id": 44990,
+   "name": "Peter Horton",
+   "photo": "https://image.tmdb.org/t/p/w185/6k6CV4kDL6BBvdCVY04jrJSiC2B.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 60
+  },
+  {
+   "id": 1379192,
+   "name": "Austin Guzman",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 55
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:31:52.201Z"
+}

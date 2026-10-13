@@ -1,0 +1,322 @@
+{
+ "show": "Walker, Texas Ranger",
+ "slug": "walker-texas-ranger",
+ "tmdbId": 3772,
+ "cast": [
+  {
+   "id": 51576,
+   "name": "Chuck Norris",
+   "photo": "https://image.tmdb.org/t/p/w185/m3uLikdhi9qObRvGVHsKX5H93lR.jpg",
+   "character": "Cordell Walker",
+   "episodes": 202
+  },
+  {
+   "id": 51581,
+   "name": "Clarence Gilyard Jr.",
+   "photo": "https://image.tmdb.org/t/p/w185/mTxlCE2RqtRK4NehoX70n2NKmjO.jpg",
+   "character": "Jimmy Trivette",
+   "episodes": 202
+  },
+  {
+   "id": 51577,
+   "name": "Sheree J. Wilson",
+   "photo": "https://image.tmdb.org/t/p/w185/bqooOGsmXKtjFCtKH57ZjsLl2h7.jpg",
+   "character": "Alex Cahill",
+   "episodes": 202
+  },
+  {
+   "id": 31005,
+   "name": "Noble Willingham",
+   "photo": "https://image.tmdb.org/t/p/w185/8rED8ljY1Pp0E1U2zWvdlfsIBAW.jpg",
+   "character": "C.D. Parker",
+   "episodes": 178
+  },
+  {
+   "id": 22113,
+   "name": "Judson Mills",
+   "photo": "https://image.tmdb.org/t/p/w185/67hF0Z0FYCXYMhZnUPEOK7Ro27R.jpg",
+   "character": "Francis Gage",
+   "episodes": 49
+  },
+  {
+   "id": 19456,
+   "name": "Nia Peeples",
+   "photo": "https://image.tmdb.org/t/p/w185/8jHoDYNA739GXuQ82YjVo2Gdlzz.jpg",
+   "character": "Sydney Cooke",
+   "episodes": 49
+  },
+  {
+   "id": 92618,
+   "name": "James Wlcek",
+   "photo": "https://image.tmdb.org/t/p/w185/JHjsyPtQIYXhgdJk8rQPfJFyNM.jpg",
+   "character": "Trent Malloy",
+   "episodes": 14
+  },
+  {
+   "id": 4459667,
+   "name": "Trish Chandler",
+   "photo": null,
+   "character": "Secretary / Secretary (uncredited)",
+   "episodes": 10
+  },
+  {
+   "id": 60677,
+   "name": "Brad Leland",
+   "photo": "https://image.tmdb.org/t/p/w185/3jWExZ1SpkMvZtZiKnfiH3HCfSp.jpg",
+   "character": "Joey Dunbar / Luke / Ridgeway",
+   "episodes": 9
+  },
+  {
+   "id": 999706,
+   "name": "Ben Loggins",
+   "photo": "https://image.tmdb.org/t/p/w185/je49J62t5TohHXBCWasxwPrm7qu.jpg",
+   "character": "Rafe / Crawford / Bobby",
+   "episodes": 6
+  },
+  {
+   "id": 2859,
+   "name": "Gail Cronauer",
+   "photo": "https://image.tmdb.org/t/p/w185/wTLEWlXbkd17gImST3kApddu973.jpg",
+   "character": "Ted Lannon / Principal / Millie Hunt",
+   "episodes": 5
+  },
+  {
+   "id": 117437,
+   "name": "Patrick St. Esprit",
+   "photo": "https://image.tmdb.org/t/p/w185/1yrW51oGJEElYqG3BzX0N1Ky7Rd.jpg",
+   "character": "Lester Rawlins / Quint / Darby",
+   "episodes": 5
+  },
+  {
+   "id": 936924,
+   "name": "John S. Davies",
+   "photo": "https://image.tmdb.org/t/p/w185/octFcOhkHvFmBUOgucW9ChmeCMS.jpg",
+   "character": "Karl Jaeker / Harvey / Irv Feldman",
+   "episodes": 5
+  },
+  {
+   "id": 43010,
+   "name": "Thomas Rosales Jr.",
+   "photo": "https://image.tmdb.org/t/p/w185/tlJzLctGc6UmB7JQrkFcdMEuRx3.jpg",
+   "character": "Chico Valdes / Mendoza's Goon (uncredited) / Robber",
+   "episodes": 5
+  },
+  {
+   "id": 130935,
+   "name": "Shane Meier",
+   "photo": "https://image.tmdb.org/t/p/w185/z3lmQgYB1BX8cTOt4NTqjupgUqp.jpg",
+   "character": "Tommy Malloy",
+   "episodes": 4
+  },
+  {
+   "id": 86273,
+   "name": "Lisa Rotondi",
+   "photo": "https://image.tmdb.org/t/p/w185/igZNHX4Jt9BTVra2Q6qdqk3cnGR.jpg",
+   "character": "Buzz Lee",
+   "episodes": 4
+  },
+  {
+   "id": 1214299,
+   "name": "Gary Carter",
+   "photo": "https://image.tmdb.org/t/p/w185/ilKR7fDdwztYUKJZXycJPA8EZ4a.jpg",
+   "character": "Fly / Elwood Trask / Man on Ledge",
+   "episodes": 4
+  },
+  {
+   "id": 8229,
+   "name": "Rod Taylor",
+   "photo": "https://image.tmdb.org/t/p/w185/nSpfs8lXHxWcksZW3qC9ArMLAqZ.jpg",
+   "character": "Gordon Cahill",
+   "episodes": 4
+  },
+  {
+   "id": 11086,
+   "name": "Michael Ironside",
+   "photo": "https://image.tmdb.org/t/p/w185/mzHmxtKcMJjDqWxKd67mKQJFW1B.jpg",
+   "character": "Nolan Pierce",
+   "episodes": 4
+  },
+  {
+   "id": 136527,
+   "name": "Howard Jackson",
+   "photo": null,
+   "character": "Shakar / Howard Jackson / Mick",
+   "episodes": 4
+  },
+  {
+   "id": 15374,
+   "name": "Leon Rippy",
+   "photo": "https://image.tmdb.org/t/p/w185/jJfrzZ5BlJoWyU8JHbdnPxyGGf8.jpg",
+   "character": "Dewey Baker / Chastain / Vince Pike",
+   "episodes": 4
+  },
+  {
+   "id": 38129,
+   "name": "Robert Fuller",
+   "photo": "https://image.tmdb.org/t/p/w185/fmqLOoR07z1dj4iFIFKhmCWunNj.jpg",
+   "character": "Wade Harper / Ranger Cabe Wallace",
+   "episodes": 4
+  },
+  {
+   "id": 151263,
+   "name": "T.J. Thyne",
+   "photo": "https://image.tmdb.org/t/p/w185/wzPGaDjzimfGjIpRg6NjN9eqJxL.jpg",
+   "character": "Wallace Slausen",
+   "episodes": 4
+  },
+  {
+   "id": 21490,
+   "name": "Peter Onorati",
+   "photo": "https://image.tmdb.org/t/p/w185/1ZrzYcnGcoMKA0jmcoC15GsrOxz.jpg",
+   "character": "Sergeant Vincent Rosetti",
+   "episodes": 4
+  }
+ ],
+ "crew": [
+  {
+   "id": 457,
+   "name": "Albert S. Ruddy",
+   "photo": "https://image.tmdb.org/t/p/w185/jSkLkR79OmqYHg0kx4WWXI1TYPP.jpg",
+   "jobs": [
+    "Creator"
+   ]
+  },
+  {
+   "id": 455,
+   "name": "Paul Haggis",
+   "photo": "https://image.tmdb.org/t/p/w185/n5pW5ov3VD111K8cs97lPs1EMKw.jpg",
+   "jobs": [
+    "Creator"
+   ]
+  },
+  {
+   "id": 41349,
+   "name": "Michael Preece",
+   "photo": "https://image.tmdb.org/t/p/w185/kw1yOMGRDFEFJd58GdSjrE6MDGg.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 70
+  },
+  {
+   "id": 151333,
+   "name": "Tony Mordente",
+   "photo": "https://image.tmdb.org/t/p/w185/fcuF9NGA5NHGGdO0OWyaPFlm5zh.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 52094,
+   "name": "Jerry Jameson",
+   "photo": "https://image.tmdb.org/t/p/w185/4Dv01iWpgrWOgolZDk4LKVLxp34.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 1218135,
+   "name": "Rob Wright",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 68359,
+   "name": "Christian I. Nyby II",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 51576,
+   "name": "Chuck Norris",
+   "photo": "https://image.tmdb.org/t/p/w185/m3uLikdhi9qObRvGVHsKX5H93lR.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1222808,
+   "name": "Tom Blomquist",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 39759,
+   "name": "Alexander Singer",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 186715,
+   "name": "Luciano Comici",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 2349616,
+   "name": "Elizabeth Comici",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 31900,
+   "name": "Michael Vejar",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 160129,
+   "name": "Frank Lupo",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1219847,
+   "name": "Allan Cole",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 21479,
+   "name": "Andrew Stevens",
+   "photo": "https://image.tmdb.org/t/p/w185/6j3lBX2klVHVfZg5fMJfpxEyc7z.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:31:30.991Z"
+}

@@ -1,0 +1,316 @@
+{
+ "show": "My Brilliant Friend",
+ "slug": "my-brilliant-friend",
+ "tmdbId": 78154,
+ "cast": [
+  {
+   "id": 128748,
+   "name": "Alba Rohrwacher",
+   "photo": "https://image.tmdb.org/t/p/w185/swffcvnDnj5966fdLSnXOMY186.jpg",
+   "character": "Elena Greco / Older Elena (voice)",
+   "episodes": 34
+  },
+  {
+   "id": 2216174,
+   "name": "Anna Rita Vitolo",
+   "photo": "https://image.tmdb.org/t/p/w185/KeTrhHX9B8W89MKMIQYaMoUljZ.jpg",
+   "character": "Immacolata Greco",
+   "episodes": 26
+  },
+  {
+   "id": 2165956,
+   "name": "Gaia Girace",
+   "photo": "https://image.tmdb.org/t/p/w185/9Gc0XarD5g8vZFBhD9eh0GaHaNh.jpg",
+   "character": "Lila Cerullo / Lila Cerullo (young)",
+   "episodes": 25
+  },
+  {
+   "id": 2165955,
+   "name": "Margherita Mazzucco",
+   "photo": "https://image.tmdb.org/t/p/w185/cZNVzArDDrdOFteT0PTjY8IOhWf.jpg",
+   "character": "Elena Greco",
+   "episodes": 24
+  },
+  {
+   "id": 1871357,
+   "name": "Luca Gallone",
+   "photo": "https://image.tmdb.org/t/p/w185/hmj0JDwhAEgEz6Izrpd2tJP32o5.jpg",
+   "character": "Vittorio Greco",
+   "episodes": 21
+  },
+  {
+   "id": 1087190,
+   "name": "Alessio Gallo",
+   "photo": "https://image.tmdb.org/t/p/w185/tEAr8NW0ndjfJCn8TNXUe7B9Hmn.jpg",
+   "character": "Michele Solara",
+   "episodes": 18
+  },
+  {
+   "id": 2221744,
+   "name": "Francesco Serpico",
+   "photo": "https://image.tmdb.org/t/p/w185/licjkLpbqKU6Mg3FUpvDSGUXYB.jpg",
+   "character": "Nino Sarratore",
+   "episodes": 16
+  },
+  {
+   "id": 68165,
+   "name": "Valentina Acca",
+   "photo": "https://image.tmdb.org/t/p/w185/jJbzYC8xdr4zFwD2qkSFXRiRdat.jpg",
+   "character": "Nunzia Cerullo",
+   "episodes": 15
+  },
+  {
+   "id": 2216182,
+   "name": "Antonio Buonanno",
+   "photo": "https://image.tmdb.org/t/p/w185/1ndrOWudphL5qI9rBFv8cwcfKDd.jpg",
+   "character": "Fernando Cerullo",
+   "episodes": 15
+  },
+  {
+   "id": 2217743,
+   "name": "Eduardo Scarpetta",
+   "photo": "https://image.tmdb.org/t/p/w185/glcOrvJ7BWtG1ILCskEIYuCMlFz.jpg",
+   "character": "Pasquale Peluso",
+   "episodes": 15
+  },
+  {
+   "id": 2216565,
+   "name": "Pina Di Gennaro",
+   "photo": "https://image.tmdb.org/t/p/w185/kvLFK0AatAhyUWXpTaKk1IAUcKi.jpg",
+   "character": "Melina Cappuccio",
+   "episodes": 15
+  },
+  {
+   "id": 2217708,
+   "name": "Giovanni Amura",
+   "photo": "https://image.tmdb.org/t/p/w185/iV6HkQmf7TZYV0URcTov6waiWUx.jpg",
+   "character": "Stefano Carracci",
+   "episodes": 14
+  },
+  {
+   "id": 2217723,
+   "name": "Gennaro De Stefano",
+   "photo": "https://image.tmdb.org/t/p/w185/4pbcCuBKh9Y7DP7T10Kys3KWBSW.jpg",
+   "character": "Rino Cerullo",
+   "episodes": 14
+  },
+  {
+   "id": 2216178,
+   "name": "Imma Villa",
+   "photo": "https://image.tmdb.org/t/p/w185/r6dhbkUMe9XrvyPZRKPdo9Dyk0f.jpg",
+   "character": "Manuela Solara",
+   "episodes": 14
+  },
+  {
+   "id": 1871367,
+   "name": "Giovanni Buselli",
+   "photo": "https://image.tmdb.org/t/p/w185/i1DBXfA0LI2Dl8WiRnjNE2X4cm4.jpg",
+   "character": "Enzo Scanno",
+   "episodes": 14
+  },
+  {
+   "id": 2216574,
+   "name": "Sarah Falanga",
+   "photo": "https://image.tmdb.org/t/p/w185/301leMCt1doHjhO8TTeLsePamvq.jpg",
+   "character": "Maria Carracci",
+   "episodes": 14
+  },
+  {
+   "id": 2217726,
+   "name": "Elvis Esposito",
+   "photo": "https://image.tmdb.org/t/p/w185/iDQeX0DILPkQ6WbalJ1hjtEfqFo.jpg",
+   "character": "Marcello Solara",
+   "episodes": 14
+  },
+  {
+   "id": 2217733,
+   "name": "Rosaria Langellotto",
+   "photo": "https://image.tmdb.org/t/p/w185/yGSyInArA6yAwKthJj8aUQ0YHyY.jpg",
+   "character": "Gigliola Spagnuolo",
+   "episodes": 13
+  },
+  {
+   "id": 2217745,
+   "name": "Federica Sollazzo",
+   "photo": "https://image.tmdb.org/t/p/w185/1sSG6HnnfNgtER1wCACBtK8bSjV.jpg",
+   "character": "Pinuccia Carracci",
+   "episodes": 12
+  },
+  {
+   "id": 2217717,
+   "name": "Fabrizio Cottone",
+   "photo": "https://image.tmdb.org/t/p/w185/nEh4yU9cKrb6tVj2snFxbvqjyNJ.jpg",
+   "character": "Alfonso Carracci",
+   "episodes": 12
+  },
+  {
+   "id": 2217739,
+   "name": "Riccardo Palmieri",
+   "photo": null,
+   "character": "Gino",
+   "episodes": 12
+  },
+  {
+   "id": 2217740,
+   "name": "Francesca Pezzella",
+   "photo": null,
+   "character": "Carmela Peluso",
+   "episodes": 11
+  },
+  {
+   "id": 2164676,
+   "name": "Ulrike Migliaresi",
+   "photo": null,
+   "character": "Ada Cappuccio",
+   "episodes": 11
+  },
+  {
+   "id": 2216795,
+   "name": "Fabiana Ciancio",
+   "photo": null,
+   "character": "Neighbor",
+   "episodes": 11
+  }
+ ],
+ "crew": [
+  {
+   "id": 148085,
+   "name": "Saverio Costanzo",
+   "photo": "https://image.tmdb.org/t/p/w185/leEwjzZEw3D0bqgxla8IfyHIysJ.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Writer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 235397,
+   "name": "Elena Ferrante",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 64
+  },
+  {
+   "id": 46266,
+   "name": "Max Richter",
+   "photo": "https://image.tmdb.org/t/p/w185/keYPSx2YlyRCk8KY7YaZ81fZ1Y3.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 28
+  },
+  {
+   "id": 1912995,
+   "name": "Guido De Laurentiis",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 2216194,
+   "name": "Elena Recchia",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 56194,
+   "name": "Paolo Sorrentino",
+   "photo": "https://image.tmdb.org/t/p/w185/8cKFMD8yfLoJ3JahS4g5qXqUIoB.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1367586,
+   "name": "Jennifer Schuur",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1376798,
+   "name": "Lorenzo Mieli",
+   "photo": "https://image.tmdb.org/t/p/w185/rfDdIEbMQhOcuPVCCZDVQk9Wd7S.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 72051,
+   "name": "Domenico Procacci",
+   "photo": "https://image.tmdb.org/t/p/w185/zZYhgBDgVc39Jmjz11vajaWW06b.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 73855,
+   "name": "Francesco Piccolo",
+   "photo": "https://image.tmdb.org/t/p/w185/iNFgWkFhuJReYwHSnJhOyHjoYNk.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 373757,
+   "name": "Laura Paolucci",
+   "photo": "https://image.tmdb.org/t/p/w185/z7kV6BLJqXOaVPJMef8YOr25Jc.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 1032318,
+   "name": "Mario Gianani",
+   "photo": "https://image.tmdb.org/t/p/w185/xrmlIYjAuUUZ6kl1RLx66qH1V0l.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 1416378,
+   "name": "Laura Bispuri",
+   "photo": "https://image.tmdb.org/t/p/w185/AhhfVDES4kxp4LKlgqmoIfHqOHA.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 59911,
+   "name": "Daniele Luchetti",
+   "photo": "https://image.tmdb.org/t/p/w185/gTXCjDykIdwlGrmzr22ogIRXJQi.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 931211,
+   "name": "Alice Rohrwacher",
+   "photo": "https://image.tmdb.org/t/p/w185/8xDpjRUr6hlS7aGh8W0DkNbfby7.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:42:35.605Z"
+}

@@ -1,0 +1,339 @@
+{
+ "show": "Elementary",
+ "slug": "elementary",
+ "tmdbId": 1415,
+ "cast": [
+  {
+   "id": 9012,
+   "name": "Jonny Lee Miller",
+   "photo": "https://image.tmdb.org/t/p/w185/otCQdDtnrMvZ5tPC62zLx0SaXeR.jpg",
+   "character": "Sherlock Holmes",
+   "episodes": 154
+  },
+  {
+   "id": 140,
+   "name": "Lucy Liu",
+   "photo": "https://image.tmdb.org/t/p/w185/9nbtjqsx3De7hO2XDtrBQ7M9VCH.jpg",
+   "character": "Joan Watson",
+   "episodes": 154
+  },
+  {
+   "id": 1224051,
+   "name": "Jon Michael Hill",
+   "photo": "https://image.tmdb.org/t/p/w185/cn8a3KUxhBIV5mJ04JldUeGrx3D.jpg",
+   "character": "Marcus Bell",
+   "episodes": 154
+  },
+  {
+   "id": 18992,
+   "name": "Aidan Quinn",
+   "photo": "https://image.tmdb.org/t/p/w185/viUuUmhiGdsfoQh0IpO5N312qNd.jpg",
+   "character": "Thomas Gregson",
+   "episodes": 154
+  },
+  {
+   "id": 151431,
+   "name": "Jordan Gelber",
+   "photo": "https://image.tmdb.org/t/p/w185/owOVQbGQH4MM4fI86sDHYxxqhws.jpg",
+   "character": "Dr. Eugene Hawes",
+   "episodes": 25
+  },
+  {
+   "id": 216676,
+   "name": "Sutton Foster",
+   "photo": "https://image.tmdb.org/t/p/w185/8R0qYCtaxIId3y3XO5MBL3jIoSn.jpg",
+   "character": "Tara Parker",
+   "episodes": 24
+  },
+  {
+   "id": 1381,
+   "name": "John Noble",
+   "photo": "https://image.tmdb.org/t/p/w185/t9dB8uU27sQDaEEFMiQvp5sbrXU.jpg",
+   "character": "Morland Holmes",
+   "episodes": 15
+  },
+  {
+   "id": 82639,
+   "name": "Ophelia Lovibond",
+   "photo": "https://image.tmdb.org/t/p/w185/oH5fas23dQpLN5wrYcL02Nn0YmD.jpg",
+   "character": "Kitty Winter",
+   "episodes": 15
+  },
+  {
+   "id": 81697,
+   "name": "Nelsan Ellis",
+   "photo": "https://image.tmdb.org/t/p/w185/1oxqYxlZERsLT1rssot3Wfa88FX.jpg",
+   "character": "Shinwell Johnson",
+   "episodes": 12
+  },
+  {
+   "id": 5377,
+   "name": "Ato Essandoh",
+   "photo": "https://image.tmdb.org/t/p/w185/bXwpCbl2grM5UYv5l5DXMrqrlxp.jpg",
+   "character": "Alfredo Llamosa",
+   "episodes": 9
+  },
+  {
+   "id": 111922,
+   "name": "Robert Capron",
+   "photo": "https://image.tmdb.org/t/p/w185/aLXrKBU3pqHCg42G5DkHx2uk0SO.jpg",
+   "character": "Mason",
+   "episodes": 8
+  },
+  {
+   "id": 40275,
+   "name": "Tim Guinee",
+   "photo": "https://image.tmdb.org/t/p/w185/4ceLJK0hD8DhRBARGxfodluK8Bh.jpg",
+   "character": "Agent Dean McNally",
+   "episodes": 8
+  },
+  {
+   "id": 7026,
+   "name": "Rhys Ifans",
+   "photo": "https://image.tmdb.org/t/p/w185/5X8XcIqCDxsQYyHdx7mBwPVkSTs.jpg",
+   "character": "Mycroft Holmes",
+   "episodes": 7
+  },
+  {
+   "id": 6365,
+   "name": "Desmond Harrington",
+   "photo": "https://image.tmdb.org/t/p/w185/toJbvangSsh9MQHFU9MxQi3S6h6.jpg",
+   "character": "Michael / Michael Rowan",
+   "episodes": 7
+  },
+  {
+   "id": 22063,
+   "name": "James Frain",
+   "photo": "https://image.tmdb.org/t/p/w185/1KnxsxRbVZkh5bdY3gA8v4YKhKR.jpg",
+   "character": "Odin Reichenbach",
+   "episodes": 7
+  },
+  {
+   "id": 58502,
+   "name": "Natalie Dormer",
+   "photo": "https://image.tmdb.org/t/p/w185/vvl6bi59rQhoTjNZMHyRUX9zXLU.jpg",
+   "character": "Jamie Moriarty (voice) / Irene Adler / Jamie Moriarty",
+   "episodes": 5
+  },
+  {
+   "id": 205783,
+   "name": "Susan Pourfar",
+   "photo": "https://image.tmdb.org/t/p/w185/dn6InEOWjdiMbPlO4Bg7NHER5xr.jpg",
+   "character": "Emily Hankins",
+   "episodes": 5
+  },
+  {
+   "id": 1344349,
+   "name": "Liza J. Bennett",
+   "photo": "https://image.tmdb.org/t/p/w185/glLVAAggwOjWDLwKjIrLNkbkusI.jpg",
+   "character": "Hannah Gregson",
+   "episodes": 5
+  },
+  {
+   "id": 1650121,
+   "name": "Chasten Harmon",
+   "photo": "https://image.tmdb.org/t/p/w185/khg2iefLaUwwfuMKN1xAto0PVbY.jpg",
+   "character": "Chantal Milner",
+   "episodes": 5
+  },
+  {
+   "id": 1229230,
+   "name": "Rob Bartlett",
+   "photo": "https://image.tmdb.org/t/p/w185/6ZiIqeWg2wEIbDmYspbNRfQi92w.jpg",
+   "character": "Captain Dwyer",
+   "episodes": 5
+  },
+  {
+   "id": 168846,
+   "name": "Samantha Quan",
+   "photo": "https://image.tmdb.org/t/p/w185/ea3iZtXUd6OeVMrCMoNC58hZUCf.jpg",
+   "character": "Lin Wen",
+   "episodes": 5
+  },
+  {
+   "id": 440943,
+   "name": "Raza Jaffrey",
+   "photo": "https://image.tmdb.org/t/p/w185/kOgrGMKiX2DOQtRIJtfPfntJq39.jpg",
+   "character": "Andrew Paek",
+   "episodes": 4
+  },
+  {
+   "id": 92572,
+   "name": "Betty Gilpin",
+   "photo": "https://image.tmdb.org/t/p/w185/6GvlDnnKM0WxBt0jUipBJw5VgD5.jpg",
+   "character": "Fiona Helbron",
+   "episodes": 4
+  },
+  {
+   "id": 1364063,
+   "name": "Kristine Johnson",
+   "photo": "https://image.tmdb.org/t/p/w185/iG7dwvlfjXl8x21YqkroQdfKouX.jpg",
+   "character": "TV News Anchor / TV Reporter / Reporter",
+   "episodes": 4
+  }
+ ],
+ "crew": [
+  {
+   "id": 1212196,
+   "name": "Robert Doherty",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 1212201,
+   "name": "Craig Sweeny",
+   "photo": "https://image.tmdb.org/t/p/w185/6udgZNScvTq4eASUNsxEL1mW3YI.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 76
+  },
+  {
+   "id": 1218783,
+   "name": "Liz Friedman",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 73
+  },
+  {
+   "id": 1224053,
+   "name": "Corinne Brinkerhoff",
+   "photo": "https://image.tmdb.org/t/p/w185/iEeD2QAg2Sm14QAlgpivNtAlU8O.jpg",
+   "jobs": [
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 49
+  },
+  {
+   "id": 1224058,
+   "name": "Carl Beverly",
+   "photo": "https://image.tmdb.org/t/p/w185/ds3sECoFkMdgQW303we8JGSJazV.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 1224060,
+   "name": "Sarah Timberman",
+   "photo": "https://image.tmdb.org/t/p/w185/iAFPreg20BLABmSomZDEGNZhk36.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 1223964,
+   "name": "Peter Blake",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 1630938,
+   "name": "Christopher Silber",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 29
+  },
+  {
+   "id": 1224056,
+   "name": "Jason Tracey",
+   "photo": "https://image.tmdb.org/t/p/w185/b8HojF1ohN5UX3QuiRkDuD5QkE9.jpg",
+   "jobs": [
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 212618,
+   "name": "Bob Goodman",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 23
+  },
+  {
+   "id": 43468,
+   "name": "Guy Ferland",
+   "photo": "https://image.tmdb.org/t/p/w185/oOBx7tqSGZ5BatZydBYRXfoKsRj.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 21
+  },
+  {
+   "id": 15337,
+   "name": "John Polson",
+   "photo": "https://image.tmdb.org/t/p/w185/rsjpQFAvQSo05HflPSCODCCbYFl.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 1224055,
+   "name": "Jeffrey Paul King",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 1309579,
+   "name": "Christine Moore",
+   "photo": "https://image.tmdb.org/t/p/w185/t13JxTioVwRFXMs3p27jgfjJWkE.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 1172762,
+   "name": "Robert Hewitt Wolfe",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 7492,
+   "name": "Ron Fortunato",
+   "photo": "https://image.tmdb.org/t/p/w185/tAsIYFjjj2EnyU7GNyoAAqhk1Sm.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 11
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:38.919Z"
+}

@@ -1,0 +1,320 @@
+{
+ "show": "The Wild Thornberrys",
+ "slug": "the-wild-thornberrys",
+ "tmdbId": 2408,
+ "cast": [
+  {
+   "id": 22082,
+   "name": "Lacey Chabert",
+   "photo": "https://image.tmdb.org/t/p/w185/1q9Xe7QVi5oayhPMEiRPgd6FFKG.jpg",
+   "character": "Eliza Thornberry (voice)",
+   "episodes": 91
+  },
+  {
+   "id": 1212225,
+   "name": "Jodi Carlisle",
+   "photo": "https://image.tmdb.org/t/p/w185/aSthDn8AHUxZPBYgqEbXmJRYqKw.jpg",
+   "character": "Marianne Thornberry (voice)",
+   "episodes": 91
+  },
+  {
+   "id": 13472,
+   "name": "Tim Curry",
+   "photo": "https://image.tmdb.org/t/p/w185/8ZsGg3N3OZgxshqLOtA2kl5ckOP.jpg",
+   "character": "Nigel Thornberry (voice)",
+   "episodes": 91
+  },
+  {
+   "id": 1237,
+   "name": "Flea",
+   "photo": "https://image.tmdb.org/t/p/w185/nGQE7xf4YJeqO0a4lpFebhwI7R9.jpg",
+   "character": "Donnie Thornberry (voice)",
+   "episodes": 91
+  },
+  {
+   "id": 21320,
+   "name": "Danielle Harris",
+   "photo": "https://image.tmdb.org/t/p/w185/hgoVrVDEujZTZoxpElzXBSlIUyU.jpg",
+   "character": "Debbie Thornberry (voice)",
+   "episodes": 91
+  },
+  {
+   "id": 71535,
+   "name": "Tom Kane",
+   "photo": "https://image.tmdb.org/t/p/w185/sq49aVP56G50Nr5kCL7Ove6Z9jE.jpg",
+   "character": "Darwin (voice)",
+   "episodes": 91
+  },
+  {
+   "id": 87957,
+   "name": "Keith Szarabajka",
+   "photo": "https://image.tmdb.org/t/p/w185/z45Goe7lfBvs3cBP5igsCE8ISWG.jpg",
+   "character": "Kip O'Donnell / Puma (voice) / Kip O'Donnell (voice) / Kip O'Donnell / Otter (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 71727,
+   "name": "Betty White",
+   "photo": "https://image.tmdb.org/t/p/w185/2Vlr5E1EoD4GglLHoSolLztBQWM.jpg",
+   "character": "Sophie Hunter (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 23680,
+   "name": "Dee Bradley Baker",
+   "photo": "https://image.tmdb.org/t/p/w185/9oFnToDZWp0I484s7Ua1EzNQQ2m.jpg",
+   "character": "Young Finch / Sea Lion (voice) / Crocodile #1 (voice) / Tiger / Monkey (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 53283,
+   "name": "Jonathan Taylor Thomas",
+   "photo": "https://image.tmdb.org/t/p/w185/lv1ZNrdFGMa8lYjwQyJqePONaDY.jpg",
+   "character": "Tyler Tucker (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 35769,
+   "name": "Christopher Masterson",
+   "photo": "https://image.tmdb.org/t/p/w185/vDpW40I1UMul7j4ZwGylPuWHteC.jpg",
+   "character": "Shane G. (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 129297,
+   "name": "Jerry Sroka",
+   "photo": "https://image.tmdb.org/t/p/w185/cBckN5LToPys0xTprUDlbULKCoI.jpg",
+   "character": "Biederman / Otter (voice) / Biederman (voice) / Biederman / Tandori 1 (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 28248,
+   "name": "Dwight Schultz",
+   "photo": "https://image.tmdb.org/t/p/w185/kVXkC94gNdSWRvDAs0DqBCduJ4S.jpg",
+   "character": "Inspector Tabu (voice) / Baduk (voice) / Baduk / Poacher (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 6799,
+   "name": "Jeff Coopwood",
+   "photo": null,
+   "character": "Jim / Eagle (voice) / Driver / Guard / Tourist #2 (voice) / Chief / Villager (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 86432,
+   "name": "Dionne Quan",
+   "photo": "https://image.tmdb.org/t/p/w185/vGe0bMTfYDX1Wcw9ZCfY3YCSgai.jpg",
+   "character": "Girl (voice) / Batlaa (voice) / Shi Shou (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 16578,
+   "name": "Julia Nickson",
+   "photo": "https://image.tmdb.org/t/p/w185/lLtwvseiNe9pIjhC293nPmyRAET.jpg",
+   "character": "Villager / Forest Animal (voice) / Malay Woman / Wallah (voice) / Malay Wallah / Kid (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 1213976,
+   "name": "Michael Gough",
+   "photo": "https://image.tmdb.org/t/p/w185/a1dGHmgxR6xvnHY1CSw9GN7Yy9Z.jpg",
+   "character": "Conal (voice) / Rwiti Himona / Balloon Operator (voice) / Conal / Official (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 19547,
+   "name": "Gregg Berger",
+   "photo": "https://image.tmdb.org/t/p/w185/bMlJUmhblX50gQrnA8XWG7UuaLk.jpg",
+   "character": "Lion / Warthog (voice) / Lemke (voice) / Doctor / Water Buffalo (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 2169,
+   "name": "Michael Jeter",
+   "photo": "https://image.tmdb.org/t/p/w185/pNBf8X56wCOHH7cArsMYJuke4fO.jpg",
+   "character": "Biederman (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 2520445,
+   "name": "Jimmie Wood",
+   "photo": "https://image.tmdb.org/t/p/w185/u2GjeJxniPqRAzfBzXs5EKAZH31.jpg",
+   "character": "Grizzly Bear (voice) / Turf (voice) / Bone / Bodyguard (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 95257,
+   "name": "Candi Milo",
+   "photo": "https://image.tmdb.org/t/p/w185/tUjXMG2118Oagj7IjWJDEdmtCRW.jpg",
+   "character": "Emily (voice) / Civet Cat / Mousedeer / Forest Animal (voice) / Capybara / Parrot (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 21063,
+   "name": "Pamela Adlon",
+   "photo": "https://image.tmdb.org/t/p/w185/5eIRHUbNOH7ibXa0IfUfFvj5I5L.jpg",
+   "character": "Saiful (voice) / Tano (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 18917,
+   "name": "Erick Avari",
+   "photo": "https://image.tmdb.org/t/p/w185/aO53uKgLUCID9rCI0SRAIEdsIex.jpg",
+   "character": "Guard / Soldier (voice) / Guard (voice) / Hasim / Jigme / Nepal / Egypt Wallah (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 1720982,
+   "name": "Michael Moertl",
+   "photo": null,
+   "character": "Donnie's Father / Villager (voice) / Ticket Seller / Malay Wallah (voice) / Doorman / Teen / Driver (voice)",
+   "episodes": 3
+  }
+ ],
+ "crew": [
+  {
+   "id": 36697,
+   "name": "Gábor Csupó",
+   "photo": "https://image.tmdb.org/t/p/w185/h78onamy0s7rDWtlbarRVGZqWF.jpg",
+   "jobs": [
+    "Creator"
+   ]
+  },
+  {
+   "id": 946417,
+   "name": "Arlene Klasky",
+   "photo": "https://image.tmdb.org/t/p/w185/ao1l6vGslT9FVDcPaFMFTw1rYsi.jpg",
+   "jobs": [
+    "Creator"
+   ]
+  },
+  {
+   "id": 78488,
+   "name": "Cathy Malkasian",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 1449002,
+   "name": "Carol Millican",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 1573380,
+   "name": "Sylvia Keulen",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 1574489,
+   "name": "David Regal",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 78487,
+   "name": "Kate Boutilier",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 3211024,
+   "name": "Becky Bristow",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 2058639,
+   "name": "Joan Considine Johnson",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1222788,
+   "name": "Steve Ressel",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 160092,
+   "name": "Adam Beechen",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 116318,
+   "name": "Mark Risley",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 131242,
+   "name": "Anthony Bell",
+   "photo": "https://image.tmdb.org/t/p/w185/wBwPXLyDtvwLiRZQHJvHqJTBINz.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1574215,
+   "name": "Ron Noble",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1574214,
+   "name": "Sheila M. Anthony",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 3212228,
+   "name": "Peter Egan",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:29:55.213Z"
+}

@@ -1,0 +1,299 @@
+{
+ "show": "Loiter Squad",
+ "slug": "loiter-squad",
+ "tmdbId": 40520,
+ "cast": [
+  {
+   "id": 2108108,
+   "name": "Travis \"Taco\" Bennett",
+   "photo": "https://image.tmdb.org/t/p/w185/zspu3J7AVwdIN6bdGlfgAUVqQou.jpg",
+   "character": "Various",
+   "episodes": 31
+  },
+  {
+   "id": 1133834,
+   "name": "Tyler, The Creator",
+   "photo": "https://image.tmdb.org/t/p/w185/1jr8XMXd9C6yRk2VitXIum0FGSy.jpg",
+   "character": "Various",
+   "episodes": 31
+  },
+  {
+   "id": 2063166,
+   "name": "Davon 'Jasper' Wilson",
+   "photo": "https://image.tmdb.org/t/p/w185/d9BHn3eHUkBURW5TiQMfBu9mSbx.jpg",
+   "character": "Various",
+   "episodes": 31
+  },
+  {
+   "id": 2320708,
+   "name": "Lionel Boyce",
+   "photo": "https://image.tmdb.org/t/p/w185/hpIxX5nkfA3pWCW8rYkEUCSBVyS.jpg",
+   "character": "Various",
+   "episodes": 31
+  },
+  {
+   "id": 1301193,
+   "name": "Earl Sweatshirt",
+   "photo": "https://image.tmdb.org/t/p/w185/1mV6GaU1qnkH4fnKV8jYW2Jpsyv.jpg",
+   "character": "Various",
+   "episodes": 20
+  },
+  {
+   "id": 3448699,
+   "name": "Sydney Bennett",
+   "photo": "https://image.tmdb.org/t/p/w185/qIMvfQxtV8N9NwC5I1KOICCRMLE.jpg",
+   "character": "Various / Self",
+   "episodes": 12
+  },
+  {
+   "id": 2209856,
+   "name": "Mike G",
+   "photo": null,
+   "character": "Various",
+   "episodes": 11
+  },
+  {
+   "id": 1782145,
+   "name": "Domo Genesis",
+   "photo": null,
+   "character": "Various",
+   "episodes": 11
+  },
+  {
+   "id": 4626231,
+   "name": "Hodgy Beats",
+   "photo": null,
+   "character": "Various",
+   "episodes": 11
+  },
+  {
+   "id": 4626233,
+   "name": "Left Brain",
+   "photo": null,
+   "character": "Various",
+   "episodes": 11
+  },
+  {
+   "id": 521564,
+   "name": "Blake Anderson",
+   "photo": "https://image.tmdb.org/t/p/w185/6CAisTFUOPulSKZvDSSptZ6D299.jpg",
+   "character": "Self",
+   "episodes": 2
+  },
+  {
+   "id": 2075671,
+   "name": "IceJJFish",
+   "photo": null,
+   "character": "Himself",
+   "episodes": 1
+  },
+  {
+   "id": 60805,
+   "name": "Jukka Hildén",
+   "photo": "https://image.tmdb.org/t/p/w185/bNpt20Lf7Vj1lhaphDGfolEQx82.jpg",
+   "character": "Self",
+   "episodes": 1
+  },
+  {
+   "id": 60827,
+   "name": "Jarppi Leppälä",
+   "photo": "https://image.tmdb.org/t/p/w185/ZEHkFPTEnnYb2khyH59hj2ihpV.jpg",
+   "character": "Self",
+   "episodes": 1
+  },
+  {
+   "id": 60830,
+   "name": "Hannu-Pekka Parviainen",
+   "photo": "https://image.tmdb.org/t/p/w185/w3sSjbpYE0u42XFEYksYi4zuAjN.jpg",
+   "character": "Self",
+   "episodes": 1
+  },
+  {
+   "id": 9656,
+   "name": "Johnny Knoxville",
+   "photo": "https://image.tmdb.org/t/p/w185/7XDKsHsLC4uNYaGsuWG1tQXWRnu.jpg",
+   "character": "Self",
+   "episodes": 1
+  },
+  {
+   "id": 336,
+   "name": "Xzibit",
+   "photo": "https://image.tmdb.org/t/p/w185/qhwJ7hZH4ErQSu2mXwSur4AAD0H.jpg",
+   "character": "Self",
+   "episodes": 1
+  },
+  {
+   "id": 56584,
+   "name": "Bam Margera",
+   "photo": "https://image.tmdb.org/t/p/w185/4UiQ7FKhrwo0lUxBPPLZQSL2ZUb.jpg",
+   "character": "Self",
+   "episodes": 1
+  },
+  {
+   "id": 19274,
+   "name": "Seth Rogen",
+   "photo": "https://image.tmdb.org/t/p/w185/nYl9bvQzaPQLzlf0wf75clLN6Hi.jpg",
+   "character": "Self",
+   "episodes": 1
+  },
+  {
+   "id": 1548793,
+   "name": "Mac Miller",
+   "photo": "https://image.tmdb.org/t/p/w185/u8Uw0FML7CbjJw1j3Ox6IrdRZeQ.jpg",
+   "character": "Self",
+   "episodes": 1
+  },
+  {
+   "id": 95353,
+   "name": "Lil Wayne",
+   "photo": "https://image.tmdb.org/t/p/w185/90bC08uoGQ9d9AKNplaumlgnUAm.jpg",
+   "character": "Self",
+   "episodes": 1
+  },
+  {
+   "id": 130151,
+   "name": "George Clinton",
+   "photo": "https://image.tmdb.org/t/p/w185/wLRc7AUiuHS9e0nAXpXbWZO2h8O.jpg",
+   "character": "Self",
+   "episodes": 1
+  },
+  {
+   "id": 16832,
+   "name": "Tony Hawk",
+   "photo": "https://image.tmdb.org/t/p/w185/gYNmD0a7LemMX6zDZ1lyDs6YYwd.jpg",
+   "character": "Self",
+   "episodes": 1
+  },
+  {
+   "id": 4720,
+   "name": "Ye",
+   "photo": "https://image.tmdb.org/t/p/w185/8UXVqRvg0K3ct4Yt5tF1iTRB8a0.jpg",
+   "character": "Self",
+   "episodes": 1
+  }
+ ],
+ "crew": [
+  {
+   "id": 2063166,
+   "name": "Davon 'Jasper' Wilson",
+   "photo": "https://image.tmdb.org/t/p/w185/d9BHn3eHUkBURW5TiQMfBu9mSbx.jpg",
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 1133834,
+   "name": "Tyler, The Creator",
+   "photo": "https://image.tmdb.org/t/p/w185/1jr8XMXd9C6yRk2VitXIum0FGSy.jpg",
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 2108108,
+   "name": "Travis \"Taco\" Bennett",
+   "photo": "https://image.tmdb.org/t/p/w185/zspu3J7AVwdIN6bdGlfgAUVqQou.jpg",
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 2320708,
+   "name": "Lionel Boyce",
+   "photo": "https://image.tmdb.org/t/p/w185/hpIxX5nkfA3pWCW8rYkEUCSBVyS.jpg",
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 1252233,
+   "name": "Nick Weidenfeld",
+   "photo": "https://image.tmdb.org/t/p/w185/1z4TB5L9OXtkF7vgHPca1cMMVlv.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 1215656,
+   "name": "Keith Crofford",
+   "photo": "https://image.tmdb.org/t/p/w185/vyNDOCtfryXLFDSvAv5iMXiQuTD.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 56578,
+   "name": "Jeff Tremaine",
+   "photo": "https://image.tmdb.org/t/p/w185/3R8FemTgvyY1vLn9r0lYlL45P3Q.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 1734598,
+   "name": "Shanna Zablow Newton",
+   "photo": "https://image.tmdb.org/t/p/w185/fWVu8dgmkqEew5qta2tGWNjNXso.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 61440,
+   "name": "Lance Bangs",
+   "photo": "https://image.tmdb.org/t/p/w185/sqGj6TVrE3qj4bRJU8rfsqcXwJk.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 56580,
+   "name": "Dimitry Elyashkevich",
+   "photo": "https://image.tmdb.org/t/p/w185/1vdt84lHs3ZoYmyYSQeF22NNCh5.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 1692536,
+   "name": "Greg Iguchi",
+   "photo": "https://image.tmdb.org/t/p/w185/dQjUgZmfMcY3KFgyJJq5RIcAKWr.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 1301193,
+   "name": "Earl Sweatshirt",
+   "photo": "https://image.tmdb.org/t/p/w185/1mV6GaU1qnkH4fnKV8jYW2Jpsyv.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 1215655,
+   "name": "Mike Lazzo",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 10
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:30:43.111Z"
+}

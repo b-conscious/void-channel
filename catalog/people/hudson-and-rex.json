@@ -1,0 +1,324 @@
+{
+ "show": "Hudson & Rex",
+ "slug": "hudson-and-rex",
+ "tmdbId": 87940,
+ "cast": [
+  {
+   "id": 29879,
+   "name": "Mayko Nguyen",
+   "photo": "https://image.tmdb.org/t/p/w185/etSVpTK2HYgp1D1nKSGdv7Pq3zS.jpg",
+   "character": "Sarah Truong",
+   "episodes": 130
+  },
+  {
+   "id": 1260782,
+   "name": "Kevin Hanchard",
+   "photo": "https://image.tmdb.org/t/p/w185/fI4ohUgcQFUNBunvv75YtrkMuJi.jpg",
+   "character": "Joseph Donovan",
+   "episodes": 130
+  },
+  {
+   "id": 1228336,
+   "name": "Justin Kelly",
+   "photo": "https://image.tmdb.org/t/p/w185/9W6HyUPnHpxkxE20gKqRI0vnBoM.jpg",
+   "character": "Jesse Mills",
+   "episodes": 130
+  },
+  {
+   "id": 62920,
+   "name": "John Reardon",
+   "photo": "https://image.tmdb.org/t/p/w185/chG7Vt1YNBknKPhmW2Atq7yVrPq.jpg",
+   "character": "Charlie Hudson",
+   "episodes": 122
+  },
+  {
+   "id": 1128321,
+   "name": "Dan Abramovici",
+   "photo": "https://image.tmdb.org/t/p/w185/4bSe5xjUVFgVLQkpCkvWQGD9tuE.jpg",
+   "character": "Ronald Lyle",
+   "episodes": 21
+  },
+  {
+   "id": 214581,
+   "name": "Luke Roberts",
+   "photo": "https://image.tmdb.org/t/p/w185/79vmh7wsAC8zgWlZNTzdEH853Rb.jpg",
+   "character": "Mark",
+   "episodes": 14
+  },
+  {
+   "id": 1034219,
+   "name": "Bridget Wareham",
+   "photo": "https://image.tmdb.org/t/p/w185/qjkSQuvOtxdx7wAJZVL8Lel2udG.jpg",
+   "character": "Karma Poole",
+   "episodes": 10
+  },
+  {
+   "id": 2060364,
+   "name": "Andrew Bushell",
+   "photo": "https://image.tmdb.org/t/p/w185/x6gvG1kvBep1z8RBYCUWpDTVyly.jpg",
+   "character": "Michael Billinger / Michael",
+   "episodes": 6
+  },
+  {
+   "id": 164433,
+   "name": "Lanette Ware",
+   "photo": "https://image.tmdb.org/t/p/w185/8nJlQZ1z63fHUrLVxwbLpjPbMlx.jpg",
+   "character": "Sup. Vanessa Lewis",
+   "episodes": 5
+  },
+  {
+   "id": 147472,
+   "name": "Alan Doyle",
+   "photo": "https://image.tmdb.org/t/p/w185/yMsjqPBBxXnFGcm7n9Cj4QeBTGi.jpg",
+   "character": "Dalton",
+   "episodes": 4
+  },
+  {
+   "id": 166430,
+   "name": "Richard Chevolleau",
+   "photo": "https://image.tmdb.org/t/p/w185/hkWQGke9D25wvx7gL2F8Zor1jhb.jpg",
+   "character": "David Mason",
+   "episodes": 4
+  },
+  {
+   "id": 1461465,
+   "name": "Amanda Arcuri",
+   "photo": "https://image.tmdb.org/t/p/w185/7CyJM2A7ptMnrnx8HQVXMJeEDnj.jpg",
+   "character": "Camilla Donovan",
+   "episodes": 4
+  },
+  {
+   "id": 190897,
+   "name": "Raven Dauda",
+   "photo": "https://image.tmdb.org/t/p/w185/g7pj8LHrUTpmGMm3wCrUNqAE5fq.jpg",
+   "character": "Sergeant Jan Renley",
+   "episodes": 4
+  },
+  {
+   "id": 3784410,
+   "name": "Dana Puddicombe",
+   "photo": "https://image.tmdb.org/t/p/w185/4c3Bip7WAeEhPMxO7VqD8L7D5U0.jpg",
+   "character": "Nail salon owner / Natasha Horvath / Dr. Miranda Kelly",
+   "episodes": 4
+  },
+  {
+   "id": 4026087,
+   "name": "Patricia Andrews",
+   "photo": "https://image.tmdb.org/t/p/w185/ehcRrTrBZ3s9qhF6cGC6rBzuS6L.jpg",
+   "character": "Rita",
+   "episodes": 3
+  },
+  {
+   "id": 4033877,
+   "name": "Keely Hutton",
+   "photo": null,
+   "character": "Vet",
+   "episodes": 3
+  },
+  {
+   "id": 4028776,
+   "name": "Liam Williams",
+   "photo": null,
+   "character": "Clive Billington / Stunt Young Ty / Boone Cartwright",
+   "episodes": 3
+  },
+  {
+   "id": 4026980,
+   "name": "Mithun Mathew",
+   "photo": null,
+   "character": "Player #2 / Prison Guard / Imran Abas",
+   "episodes": 3
+  },
+  {
+   "id": 1239590,
+   "name": "Nicole Underhay",
+   "photo": "https://image.tmdb.org/t/p/w185/1YcPzRyTifX2BCDejv0uYkHZk2V.jpg",
+   "character": "Joan McCrow / Joan McCrae",
+   "episodes": 3
+  },
+  {
+   "id": 3705093,
+   "name": "Anshuman Pandey",
+   "photo": "https://image.tmdb.org/t/p/w185/e26fz0Yyy05O3sJctETDphGQL8b.jpg",
+   "character": "Jackson / Officer Jackson / Zaid Basheer",
+   "episodes": 3
+  },
+  {
+   "id": 2014908,
+   "name": "Darryl Hopkins",
+   "photo": "https://image.tmdb.org/t/p/w185/in8WA6JA0oHPizNJooPdDhhdX37.jpg",
+   "character": "T-Bone / Sergio / Man",
+   "episodes": 3
+  },
+  {
+   "id": 4209494,
+   "name": "Melissa Royle",
+   "photo": null,
+   "character": "Carolyn Meyers / Reporter",
+   "episodes": 3
+  },
+  {
+   "id": 4030532,
+   "name": "Paul Warford",
+   "photo": null,
+   "character": "Gordo / Aaron Iarr / Remy",
+   "episodes": 3
+  },
+  {
+   "id": 4026976,
+   "name": "Michelle Lambert",
+   "photo": null,
+   "character": "Cop / Officer / Constable",
+   "episodes": 3
+  }
+ ],
+ "crew": [
+  {
+   "id": 1230705,
+   "name": "Ken Cuperus",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 38552,
+   "name": "Gary Koftinoff",
+   "photo": "https://image.tmdb.org/t/p/w185/h1GY2B37GX5Qbop9kXqA04g3Egy.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 122
+  },
+  {
+   "id": 1669351,
+   "name": "Felipe Rodriguez",
+   "photo": "https://image.tmdb.org/t/p/w185/zIG3hq6VMjv6qhUcNQeWKsJeDU3.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 1251229,
+   "name": "John Vatcher",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1229851,
+   "name": "Derek Schreyer",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1261340,
+   "name": "Jessie Gabe",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1415152,
+   "name": "Alison Reid",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 3291463,
+   "name": "Keri Ferencz",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 2257542,
+   "name": "Mary Pedersen",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1233912,
+   "name": "Avrum Jacobson",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1548180,
+   "name": "Celeste Parr",
+   "photo": "https://image.tmdb.org/t/p/w185/pmBGhZqZD0SDFUZZNrH2H2iLTfx.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 2790121,
+   "name": "Joseph Milando",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1525597,
+   "name": "Vivian Lin",
+   "photo": "https://image.tmdb.org/t/p/w185/nJZcWNpTI2Po4Q7u65Ao7DINudS.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 101104,
+   "name": "Eleanore Lindo",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 20976,
+   "name": "T.J. Scott",
+   "photo": "https://image.tmdb.org/t/p/w185/2sDOBP18EL5qeGTRt1SUHAIfdWa.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 4216037,
+   "name": "Elsbeth McCall",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:35:33.818Z"
+}

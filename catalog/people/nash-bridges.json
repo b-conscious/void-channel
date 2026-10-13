@@ -1,0 +1,323 @@
+{
+ "show": "Nash Bridges",
+ "slug": "nash-bridges",
+ "tmdbId": 474,
+ "cast": [
+  {
+   "id": 25129,
+   "name": "Don Johnson",
+   "photo": "https://image.tmdb.org/t/p/w185/6s6oav541p7xspCG6PvXut7knkP.jpg",
+   "character": "Nash Bridges",
+   "episodes": 122
+  },
+  {
+   "id": 11159,
+   "name": "Cheech Marin",
+   "photo": "https://image.tmdb.org/t/p/w185/eecHDNRn9K80ZcuSocsMhQb2G1i.jpg",
+   "character": "Joe Dominguez",
+   "episodes": 122
+  },
+  {
+   "id": 58006,
+   "name": "Jodi Lyn O'Keefe",
+   "photo": "https://image.tmdb.org/t/p/w185/5F9ESeRIlPrUbUcSYRvmNv6uPFU.jpg",
+   "character": "Cassidy Bridges",
+   "episodes": 122
+  },
+  {
+   "id": 9210,
+   "name": "Jeff Perry",
+   "photo": "https://image.tmdb.org/t/p/w185/v0IRSMVlVIV6Z9zqbX1Et1Bka3H.jpg",
+   "character": "Harvey Leek",
+   "episodes": 122
+  },
+  {
+   "id": 113387,
+   "name": "Jaime Gomez",
+   "photo": "https://image.tmdb.org/t/p/w185/j7pTqqYGuQTAgcP393TQBwxwPi2.jpg",
+   "character": "Evan Cortez",
+   "episodes": 100
+  },
+  {
+   "id": 16433,
+   "name": "James Gammon",
+   "photo": "https://image.tmdb.org/t/p/w185/ar7am7PST1c91LYPYnrmJJxc9zH.jpg",
+   "character": "Nick Bridges",
+   "episodes": 70
+  },
+  {
+   "id": 4504229,
+   "name": "Ronald Russell",
+   "photo": null,
+   "character": "Officer Ronnie",
+   "episodes": 58
+  },
+  {
+   "id": 76244,
+   "name": "Yasmine Bleeth",
+   "photo": "https://image.tmdb.org/t/p/w185/pgVJEXaYS03nLH6A23wFMyzWYig.jpg",
+   "character": "Caitlin Cross",
+   "episodes": 46
+  },
+  {
+   "id": 1734,
+   "name": "Annette O'Toole",
+   "photo": "https://image.tmdb.org/t/p/w185/mCTEEzuNXlCdyl9uM4ot688IfVz.jpg",
+   "character": "Lisa Bridges",
+   "episodes": 32
+  },
+  {
+   "id": 11024,
+   "name": "Kelly Hu",
+   "photo": "https://image.tmdb.org/t/p/w185/jLhnDPiUIrIcdKJYnnVSZ4nbgyh.jpg",
+   "character": "Michelle Chan",
+   "episodes": 24
+  },
+  {
+   "id": 96554,
+   "name": "Mary Mara",
+   "photo": "https://image.tmdb.org/t/p/w185/92imYsDHRebUN7Aut53yQPekl3L.jpg",
+   "character": "Bryn Carson",
+   "episodes": 24
+  },
+  {
+   "id": 157847,
+   "name": "Cress Williams",
+   "photo": "https://image.tmdb.org/t/p/w185/pIOyAg9U0eAUvs8N2Xca7uRKlOe.jpg",
+   "character": "Antwon Babcock",
+   "episodes": 22
+  },
+  {
+   "id": 147977,
+   "name": "Wendy Moniz",
+   "photo": "https://image.tmdb.org/t/p/w185/o6h5BiaTiezKKEOaQKiGuTGeePe.jpg",
+   "character": "Rachel McCabe",
+   "episodes": 22
+  },
+  {
+   "id": 1213094,
+   "name": "Caroline Lagerfelt",
+   "photo": "https://image.tmdb.org/t/p/w185/8ynemfG1ypTk4QCCW4UvwfVNDYi.jpg",
+   "character": "Inger Dominguez",
+   "episodes": 19
+  },
+  {
+   "id": 10780,
+   "name": "Serena Scott Thomas",
+   "photo": "https://image.tmdb.org/t/p/w185/98oEsiUoJ4yocCKvdURzhvPnsw3.jpg",
+   "character": "Kelly Bridges",
+   "episodes": 9
+  },
+  {
+   "id": 11398,
+   "name": "Cary-Hiroyuki Tagawa",
+   "photo": "https://image.tmdb.org/t/p/w185/5F8MQ4J4qIqUwGIfcWN4osrTUtP.jpg",
+   "character": "A.J. Shimamura",
+   "episodes": 8
+  },
+  {
+   "id": 2166967,
+   "name": "Alie Ward",
+   "photo": "https://image.tmdb.org/t/p/w185/6q9tDGTv4Sr10E1wMn0q1AeteQl.jpg",
+   "character": "Miranda",
+   "episodes": 8
+  },
+  {
+   "id": 52801,
+   "name": "Patrick Fischler",
+   "photo": "https://image.tmdb.org/t/p/w185/vVj7GjHL9hOilbKwViXZpnUlbcQ.jpg",
+   "character": "Pepe",
+   "episodes": 7
+  },
+  {
+   "id": 3801,
+   "name": "Tracey Walter",
+   "photo": "https://image.tmdb.org/t/p/w185/9aALfdCcP0PDYcBmqB6auHF0Eud.jpg",
+   "character": "Angel",
+   "episodes": 7
+  },
+  {
+   "id": 91537,
+   "name": "Stephen Lee",
+   "photo": "https://image.tmdb.org/t/p/w185/faHDY2Y9n0oMY1Y1RI2COeiaODB.jpg",
+   "character": "Tony B.",
+   "episodes": 6
+  },
+  {
+   "id": 1855438,
+   "name": "Peggy Sandow",
+   "photo": null,
+   "character": "Officer Peggy",
+   "episodes": 6
+  },
+  {
+   "id": 77120,
+   "name": "Steve Austin",
+   "photo": "https://image.tmdb.org/t/p/w185/xLc81J33tXrzlMjEFxBTKP4kgO0.jpg",
+   "character": "Det. Jake Cage",
+   "episodes": 6
+  },
+  {
+   "id": 43774,
+   "name": "Daniel Roebuck",
+   "photo": "https://image.tmdb.org/t/p/w185/8HXirDk0o0b3wLdpZSG5tYj6kaT.jpg",
+   "character": "Richard Bettina",
+   "episodes": 6
+  },
+  {
+   "id": 1174943,
+   "name": "Golden Henning",
+   "photo": null,
+   "character": "Ulla / Olivia",
+   "episodes": 6
+  }
+ ],
+ "crew": [
+  {
+   "id": 161839,
+   "name": "Carlton Cuse",
+   "photo": "https://image.tmdb.org/t/p/w185/40GhFizBF2jwU3tUi5FsxJPzDjt.jpg",
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1216730,
+   "name": "Jed Seidel",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 33
+  },
+  {
+   "id": 1891176,
+   "name": "Jennifer Skelly",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 1214042,
+   "name": "Jim Charleston",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 28
+  },
+  {
+   "id": 17309,
+   "name": "Greg Beeman",
+   "photo": "https://image.tmdb.org/t/p/w185/eMZIGB6jbIldPK4YyZ44uf7ZIGg.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1216736,
+   "name": "Scott Brazil",
+   "photo": "https://image.tmdb.org/t/p/w185/8IGjbWma6GsgE4MHAad0kjWS92l.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1216733,
+   "name": "Shawn Ryan",
+   "photo": "https://image.tmdb.org/t/p/w185/49EdiYMjYg0FzTI10zPyubxIPk7.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1212287,
+   "name": "Colin Bucksey",
+   "photo": "https://image.tmdb.org/t/p/w185/apHHMfnkCVna1iYR3K5PA0TQ14D.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 43786,
+   "name": "Robert Mandel",
+   "photo": "https://image.tmdb.org/t/p/w185/kGtceObW3fJ8YpOe4AIFhPIcd3R.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1308680,
+   "name": "John Wirth",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 28974,
+   "name": "Damon Lindelof",
+   "photo": "https://image.tmdb.org/t/p/w185/9V75oRAKiI0chdg1wGh1wPqaXsG.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 44683,
+   "name": "David Jackson",
+   "photo": "https://image.tmdb.org/t/p/w185/wkUv3W35SvUJ41UrIeF6wUrV3fM.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1214083,
+   "name": "Daniel Truly",
+   "photo": "https://image.tmdb.org/t/p/w185/bjBmfZaOESqnAyX8IBwFeUExQLh.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1212609,
+   "name": "Tucker Gates",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 45645,
+   "name": "Deran Sarafian",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 2430657,
+   "name": "Patrick A. Duffy",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:17.325Z"
+}

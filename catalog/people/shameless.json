@@ -1,0 +1,326 @@
+{
+ "show": "Shameless",
+ "slug": "shameless",
+ "tmdbId": 34307,
+ "cast": [
+  {
+   "id": 3905,
+   "name": "William H. Macy",
+   "photo": "https://image.tmdb.org/t/p/w185/hdVEGSrP8qWlJnt0v5vSVcGOjy7.jpg",
+   "character": "Frank Gallagher",
+   "episodes": 134
+  },
+  {
+   "id": 206905,
+   "name": "Jeremy Allen White",
+   "photo": "https://image.tmdb.org/t/p/w185/pXRADDRhprgaQ4Bri44NH3bYeu6.jpg",
+   "character": "Lip Gallagher",
+   "episodes": 134
+  },
+  {
+   "id": 132213,
+   "name": "Ethan Cutkosky",
+   "photo": "https://image.tmdb.org/t/p/w185/fHa86X7KypnIB1koWXTTyErpRuI.jpg",
+   "character": "Carl Gallagher",
+   "episodes": 134
+  },
+  {
+   "id": 110531,
+   "name": "Shanola Hampton",
+   "photo": "https://image.tmdb.org/t/p/w185/4wDdVm3HgBJm9AhMNS0I6MZidBH.jpg",
+   "character": "Veronica Fisher",
+   "episodes": 134
+  },
+  {
+   "id": 81388,
+   "name": "Steve Howey",
+   "photo": "https://image.tmdb.org/t/p/w185/7pkqToPpwV6id92cHDwigS77qdv.jpg",
+   "character": "Kevin Ball",
+   "episodes": 134
+  },
+  {
+   "id": 1252801,
+   "name": "Emma Kenney",
+   "photo": "https://image.tmdb.org/t/p/w185/AvcM57XKunQCFGsu5cZZHkNre4z.jpg",
+   "character": "Debbie Gallagher",
+   "episodes": 134
+  },
+  {
+   "id": 37089,
+   "name": "Cameron Monaghan",
+   "photo": "https://image.tmdb.org/t/p/w185/u2nxAlWiFcc8qIjpTppFazl13CR.jpg",
+   "character": "Ian Gallagher",
+   "episodes": 134
+  },
+  {
+   "id": 4730,
+   "name": "Emmy Rossum",
+   "photo": "https://image.tmdb.org/t/p/w185/wq9ALe33ZGg38Yf1JsKnEcbhZQo.jpg",
+   "character": "Fiona Gallagher",
+   "episodes": 110
+  },
+  {
+   "id": 154816,
+   "name": "Michael Patrick McGill",
+   "photo": "https://image.tmdb.org/t/p/w185/kKKnwvtxhXaJtYpdZUtjXHO4f26.jpg",
+   "character": "Tommy",
+   "episodes": 82
+  },
+  {
+   "id": 80352,
+   "name": "Noel Fisher",
+   "photo": "https://image.tmdb.org/t/p/w185/rBD5Iwt9WITaUKGk1oxSPLjjpm2.jpg",
+   "character": "Mickey Milkovich",
+   "episodes": 73
+  },
+  {
+   "id": 1224161,
+   "name": "Jim Hoffmaster",
+   "photo": "https://image.tmdb.org/t/p/w185/dhBCEaB1qDndEXKS6GVGO3l4CYF.jpg",
+   "character": "Kermit",
+   "episodes": 58
+  },
+  {
+   "id": 2563541,
+   "name": "Christian Isaiah",
+   "photo": "https://image.tmdb.org/t/p/w185/2gD6D7Lp9CYqTLG2iNg6RR6QPkt.jpg",
+   "character": "Liam Gallagher",
+   "episodes": 50
+  },
+  {
+   "id": 3234,
+   "name": "Joan Cusack",
+   "photo": "https://image.tmdb.org/t/p/w185/59UIeHZFYrKyP20lXqijtfTXglO.jpg",
+   "character": "Sheila Jackson",
+   "episodes": 44
+  },
+  {
+   "id": 1677397,
+   "name": "Isidora Goreshter",
+   "photo": "https://image.tmdb.org/t/p/w185/rLy8wmjYw7LewisNawiuRuMtJCu.jpg",
+   "character": "Svetlana Yevgenivna",
+   "episodes": 44
+  },
+  {
+   "id": 503,
+   "name": "Justin Chatwin",
+   "photo": "https://image.tmdb.org/t/p/w185/nEHYlooGSwRzkhze1rQ7DOpJXLD.jpg",
+   "character": "Steve Wilton/Jimmy Lishman",
+   "episodes": 40
+  },
+  {
+   "id": 65728,
+   "name": "Scott Michael Campbell",
+   "photo": "https://image.tmdb.org/t/p/w185/p1fKMI59U489Rys9xvqzdTLxPrL.jpg",
+   "character": "Brad",
+   "episodes": 38
+  },
+  {
+   "id": 1155473,
+   "name": "Emma Greenwell",
+   "photo": "https://image.tmdb.org/t/p/w185/3c7zvchL0X6i3ptUgQk7WnJnZQQ.jpg",
+   "character": "Mandy Milkovich",
+   "episodes": 35
+  },
+  {
+   "id": 214695,
+   "name": "Kate Miner",
+   "photo": "https://image.tmdb.org/t/p/w185/c2GXh9l7LsBH1eNsKXIxheY1BrF.jpg",
+   "character": "Tami Tamietti",
+   "episodes": 33
+  },
+  {
+   "id": 439253,
+   "name": "Laura Slade Wiggins",
+   "photo": "https://image.tmdb.org/t/p/w185/xaDDy9Lsn8CEZe7b1JbdK5GKE8Z.jpg",
+   "character": "Karen Jackson",
+   "episodes": 30
+  },
+  {
+   "id": 1809024,
+   "name": "Kellen Michael",
+   "photo": "https://image.tmdb.org/t/p/w185/9w27xK5fDIEsZCGYx2TR1K9raUl.jpg",
+   "character": "Chuckie Slott",
+   "episodes": 26
+  },
+  {
+   "id": 62307,
+   "name": "Zach McGowan",
+   "photo": "https://image.tmdb.org/t/p/w185/hX7UXULOo6PBALjUgl2gYKx9ZNw.jpg",
+   "character": "Jody Silverman",
+   "episodes": 24
+  },
+  {
+   "id": 20212,
+   "name": "Dermot Mulroney",
+   "photo": "https://image.tmdb.org/t/p/w185/kkrMKD6b4vEdphVgKsenRY4NgiC.jpg",
+   "character": "Sean Pierce",
+   "episodes": 23
+  },
+  {
+   "id": 51390,
+   "name": "Emily Bergl",
+   "photo": "https://image.tmdb.org/t/p/w185/rZSSCh9fuiRM9imp9BfZt3qq6In.jpg",
+   "character": "Sammi Slott",
+   "episodes": 22
+  },
+  {
+   "id": 155825,
+   "name": "Dennis Cockrum",
+   "photo": "https://image.tmdb.org/t/p/w185/A3Or26SK7GFf9nv9OVd2X5DpLuO.jpg",
+   "character": "Terry Milkovich",
+   "episodes": 21
+  }
+ ],
+ "crew": [
+  {
+   "id": 47333,
+   "name": "John Wells",
+   "photo": "https://image.tmdb.org/t/p/w185/j1cEQmFdSkew87UjO354qeppo1G.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Writer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1212184,
+   "name": "Paul Abbott",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1219549,
+   "name": "Andrew Stearn",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 134
+  },
+  {
+   "id": 80161,
+   "name": "Iain B. MacDonald",
+   "photo": "https://image.tmdb.org/t/p/w185/cxCwbSjnomHNGgvW2EP6YSr4hXv.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 38
+  },
+  {
+   "id": 70557,
+   "name": "Nancy M. Pimental",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 1223172,
+   "name": "Etan Frankel",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 57199,
+   "name": "Mark Mylod",
+   "photo": "https://image.tmdb.org/t/p/w185/6Nwg31BrgPkCjZ054Pso3ctg3Ov.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1413536,
+   "name": "Sheila Callaghan",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1211942,
+   "name": "Christopher Chulack",
+   "photo": "https://image.tmdb.org/t/p/w185/oXibKEW4hKZa4PlUHJASohZViCj.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1218117,
+   "name": "Krista Vernoff",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1216147,
+   "name": "Anthony Hemingway",
+   "photo": "https://image.tmdb.org/t/p/w185/3npAesb4X5yvxPlUWRHTOFz9RCi.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1224211,
+   "name": "Joe Lawson",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1721898,
+   "name": "Davey Holmes",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 51984,
+   "name": "Mimi Leder",
+   "photo": "https://image.tmdb.org/t/p/w185/A7bFqiiPtsBScQssuNucMgPpU2Y.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 2351588,
+   "name": "Philip Buiser",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 2605460,
+   "name": "Molly Smith Metzler",
+   "photo": "https://image.tmdb.org/t/p/w185/9at0jbpq5FfobzDBIv8KUEwvbnu.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:31:49.043Z"
+}

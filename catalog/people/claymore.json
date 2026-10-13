@@ -1,0 +1,322 @@
+{
+ "show": "Claymore",
+ "slug": "claymore",
+ "tmdbId": 34791,
+ "cast": [
+  {
+   "id": 220710,
+   "name": "Houko Kuwashima",
+   "photo": "https://image.tmdb.org/t/p/w185/uZSmoh5jSdLwmkLaCnC3Xju6TTN.jpg",
+   "character": "Clare (voice)",
+   "episodes": 26
+  },
+  {
+   "id": 1250607,
+   "name": "Motoki Takagi",
+   "photo": "https://image.tmdb.org/t/p/w185/dvg7TIURP7qRTcwu8edt1evaJFX.jpg",
+   "character": "Yoma A (voice) / Raki (voice) / Townsman B (voice)",
+   "episodes": 26
+  },
+  {
+   "id": 1251423,
+   "name": "Toru Nara",
+   "photo": "https://image.tmdb.org/t/p/w185/rrfvhZpmGsgGxmBSo7SJ6rUfuXP.jpg",
+   "character": "Man 3 (voice) / Townsman D (voice) / Man B (voice)",
+   "episodes": 14
+  },
+  {
+   "id": 4187467,
+   "name": "Youichi Nishijima",
+   "photo": "https://image.tmdb.org/t/p/w185/8wrI6xZujZI0JqS9tTLLdKO6vuu.jpg",
+   "character": "Bandit A (voice) / Soldier (voice) / Yoma (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 1252588,
+   "name": "Hana Takeda",
+   "photo": "https://image.tmdb.org/t/p/w185/apuBGWMDjneXkArpEQV65G6RufR.jpg",
+   "character": "Deneve (voice) / Townswoman B (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 101913,
+   "name": "Kikuko Inoue",
+   "photo": "https://image.tmdb.org/t/p/w185/pPxGWy53FgYSC79zmxblmHe0gI3.jpg",
+   "character": "Miria (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 126484,
+   "name": "Miki Nagasawa",
+   "photo": "https://image.tmdb.org/t/p/w185/vawayMgXfIm2in79OQVS5WJeYp2.jpg",
+   "character": "Helen (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 1221114,
+   "name": "Yuichi Nakamura",
+   "photo": "https://image.tmdb.org/t/p/w185/wb8behVKjBHX9XXrEydvNINCYwH.jpg",
+   "character": "Villager B (voice) / Male 'Awakened' 2 (voice) / Man A (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 124478,
+   "name": "Aya Hisakawa",
+   "photo": "https://image.tmdb.org/t/p/w185/5asVy8H7VSDQKVdURubT0QHjsld.jpg",
+   "character": "Priscilla (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 77931,
+   "name": "Kotono Mitsuishi",
+   "photo": "https://image.tmdb.org/t/p/w185/dRqbE5D3uqfKnAPsHp9etsvO1Gg.jpg",
+   "character": "Jean (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 1361337,
+   "name": "Komina Matsushita",
+   "photo": "https://image.tmdb.org/t/p/w185/AbmDzbPVfrYRxVlja7UdOglgmM7.jpg",
+   "character": "Hilda (voice) / Female Passenger (voice) / Villager D (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 928115,
+   "name": "Kunihiro Kawamoto",
+   "photo": "https://image.tmdb.org/t/p/w185/vfoQnMOGWyT9POalpP7R80AbHAb.jpg",
+   "character": "Villager E (voice) / Man 4 (voice) / Townsman E (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 81243,
+   "name": "Romi Park",
+   "photo": "https://image.tmdb.org/t/p/w185/fl9vyA3HEkOyTiZBJBhAR3OSmrO.jpg",
+   "character": "Teresa (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 84505,
+   "name": "Hiroaki Hirata",
+   "photo": "https://image.tmdb.org/t/p/w185/mMWEdlssJm3TVuXW4Wb7pQeX20Z.jpg",
+   "character": "Rubel (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 555099,
+   "name": "Koji Yusa",
+   "photo": "https://image.tmdb.org/t/p/w185/vBo8dHvZvbG4kax0LcaWvrXUZuX.jpg",
+   "character": "Easley (voice) / Man with Long Hair (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 81860,
+   "name": "Ai Orikasa",
+   "photo": "https://image.tmdb.org/t/p/w185/6ztt20jMc4oprKbixp2sNrR2ykK.jpg",
+   "character": "Galatea (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 1154451,
+   "name": "Miho Miyagawa",
+   "photo": "https://image.tmdb.org/t/p/w185/leC9TNfgmz5qn5mdNlkLvg4hyPs.jpg",
+   "character": "Cynthia (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 68470,
+   "name": "Minami Takayama",
+   "photo": "https://image.tmdb.org/t/p/w185/4Gunxt2UWnAX74ZoXKtqK2rI0e.jpg",
+   "character": "Irene (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 587350,
+   "name": "Akeno Watanabe",
+   "photo": "https://image.tmdb.org/t/p/w185/4E05IJxvTGNHb2GSaiyxbCZ5nd8.jpg",
+   "character": "Veronica (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 1241854,
+   "name": "Yasushi Miyabayashi",
+   "photo": "https://image.tmdb.org/t/p/w185/3hcXgyrX086sqDhqCOhdubzCXG8.jpg",
+   "character": "Villager A (voice) / Priest Serene (voice) / Male Passenger (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 90134,
+   "name": "Tetsuya Kakihara",
+   "photo": "https://image.tmdb.org/t/p/w185/80DeAD6DYh030wsyUygFqDpNkSj.jpg",
+   "character": "Townsman C (voice) / Young Boy (voice) / The Awakened (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 1222153,
+   "name": "Rika Morinaga",
+   "photo": "https://image.tmdb.org/t/p/w185/jAOSfZn8GBSiMopwgQGFhKZ8iU7.jpg",
+   "character": "Diana (voice) / Claudia (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 146452,
+   "name": "Yui Kano",
+   "photo": "https://image.tmdb.org/t/p/w185/4kmAdzBSlxRvp7Qa5o4aVri84NV.jpg",
+   "character": "Pamela (voice) / Carla (voice) / Zelda (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 81851,
+   "name": "Emi Shinohara",
+   "photo": "https://image.tmdb.org/t/p/w185/ryGauSE9aoEh5DFMrlFw3H8sATC.jpg",
+   "character": "Ophelia (voice)",
+   "episodes": 4
+  }
+ ],
+ "crew": [
+  {
+   "id": 506610,
+   "name": "Yasuko Kobayashi",
+   "photo": "https://image.tmdb.org/t/p/w185/watatoeziTz0xoyWeppAeFow8KC.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 35
+  },
+  {
+   "id": 1440053,
+   "name": "Hiroyuki Tanaka",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 28
+  },
+  {
+   "id": 2811977,
+   "name": "Masanori Takumi",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 1822264,
+   "name": "Oyunam",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1089471,
+   "name": "Kazuyuki Fudeyasu",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1777186,
+   "name": "Yoshifumi Sueda",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 3247170,
+   "name": "Daisuke Nishida",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1491886,
+   "name": "Kim Dong-jun",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 4760534,
+   "name": "Lee Hak-Bin",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 3199856,
+   "name": "Woo Seung-wook",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 2537172,
+   "name": "Kim Min-sun",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 4018266,
+   "name": "Kim Jong-hak",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 3414968,
+   "name": "Eom Sang-yong",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 4159437,
+   "name": "Park Jin-kyeong",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 3444758,
+   "name": "Jo Yong-ju",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 3531870,
+   "name": "Lee Ho-se",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:39:32.390Z"
+}

@@ -1,0 +1,322 @@
+{
+ "show": "Blue Spring Ride",
+ "slug": "blue-spring-ride",
+ "tmdbId": 62602,
+ "cast": [
+  {
+   "id": 1296667,
+   "name": "Maaya Uchida",
+   "photo": "https://image.tmdb.org/t/p/w185/lrcxZXkIgHU55dMs8C4DKkUohqJ.jpg",
+   "character": "Futaba Yoshioka (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 149894,
+   "name": "Yuki Kaji",
+   "photo": "https://image.tmdb.org/t/p/w185/8wKdPV11IwowfwoqGqMMNt9hmp6.jpg",
+   "character": "Kou Mabuchi (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 1254671,
+   "name": "Ai Kayano",
+   "photo": "https://image.tmdb.org/t/p/w185/l8ywp387rfdAS7mOExe3cEZnsk0.jpg",
+   "character": "Yuuri Makita (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 1243881,
+   "name": "KENN",
+   "photo": "https://image.tmdb.org/t/p/w185/y7Gtn1PchXJ1MxmUxU9jtt138EO.jpg",
+   "character": "Aya Kominato (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 1281498,
+   "name": "Mikako Komatsu",
+   "photo": "https://image.tmdb.org/t/p/w185/13tQEZ1tLdOmi7oGoRJ4xep1ODQ.jpg",
+   "character": "Shuuko Murao (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 1096528,
+   "name": "Daisuke Hirakawa",
+   "photo": "https://image.tmdb.org/t/p/w185/8uDi5NxFdxFvfVyo4n5CeOSLWEf.jpg",
+   "character": "Youichi Tanaka (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 2871303,
+   "name": "Yusuke Handa",
+   "photo": "https://image.tmdb.org/t/p/w185/2d9PpE8u3UaOEBfmfu7fsOSrzI3.jpg",
+   "character": "High school boy (voice) / Schoolboy (voice) / Kou's friend (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 2875134,
+   "name": "Shintaro Ogawa",
+   "photo": "https://image.tmdb.org/t/p/w185/8kn3NhS551fEJ7FgC25jzcYWKHE.jpg",
+   "character": "Middle school boy (voice) / High school boy (voice) / Schoolboy (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 2047801,
+   "name": "Sohta Arai",
+   "photo": "https://image.tmdb.org/t/p/w185/t6hCcCRZM5JYH1WwcQuFG3YuPqo.jpg",
+   "character": "Homeroom Teacher (voice) / Kou's friend (voice) / Schoolboy (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 1492474,
+   "name": "Haruka Terui",
+   "photo": "https://image.tmdb.org/t/p/w185/tXqj7kZJaJuYKyOEA0Zmu4fEXH0.jpg",
+   "character": "Schoolgirl (voice) / Middle school girl (voice) / Female costumer (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 230472,
+   "name": "Ryoko Shiraishi",
+   "photo": "https://image.tmdb.org/t/p/w185/9HiasuMo5zn0nOGLcFJGQ5VvjWy.jpg",
+   "character": "Chie (voice) / Young Kou (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 90135,
+   "name": "Marina Inoue",
+   "photo": "https://image.tmdb.org/t/p/w185/f7PuEx1h2g4FLgMzk9wCrWuS9Eu.jpg",
+   "character": "Asumi (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 1324931,
+   "name": "Naomi Ohzora",
+   "photo": "https://image.tmdb.org/t/p/w185/qygKX6EtfvPdnPsMM0d41mPztP2.jpg",
+   "character": "Middle school girl (voice) / Schoolgirl (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 1325962,
+   "name": "Daiki Yamashita",
+   "photo": "https://image.tmdb.org/t/p/w185/rQNdJdZewk7VGP16ZNbpfJ9ZeMd.jpg",
+   "character": "Naitou (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 1243965,
+   "name": "Tomohisa Aso",
+   "photo": "https://image.tmdb.org/t/p/w185/4tC6CfvQnQpIMclDyGncKbz46w3.jpg",
+   "character": "Teacher (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 1498133,
+   "name": "Sarah Emi Bridcutt",
+   "photo": "https://image.tmdb.org/t/p/w185/aylO6RuIXR8eFrErnYMCPxjjQtt.jpg",
+   "character": "Schoolgirl (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 1966974,
+   "name": "Yuuta Kasuya",
+   "photo": "https://image.tmdb.org/t/p/w185/7XDwhDFNjkT23ZwLk3o7ExikGVM.jpg",
+   "character": "Middle school boy (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 1327641,
+   "name": "Haruka Chisuga",
+   "photo": "https://image.tmdb.org/t/p/w185/AtnSB4UrQubvajAxNmj55tVWxZO.jpg",
+   "character": "Schoolgirl (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 2182404,
+   "name": "Ryohei Arai",
+   "photo": "https://image.tmdb.org/t/p/w185/mwHX50NeeMFcebQONs1SSSH7iAI.jpg",
+   "character": "Schoolboy (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 1248915,
+   "name": "Yui Makino",
+   "photo": "https://image.tmdb.org/t/p/w185/zk9AlL7VnzQ5hgOhrHIaDm4Xeyc.jpg",
+   "character": "Yumi (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 1870205,
+   "name": "Koutaro Nishiyama",
+   "photo": "https://image.tmdb.org/t/p/w185/6qKGsoetRrvOvlROdYx40CVlHtw.jpg",
+   "character": "Middle school boy (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 124478,
+   "name": "Aya Hisakawa",
+   "photo": "https://image.tmdb.org/t/p/w185/5asVy8H7VSDQKVdURubT0QHjsld.jpg",
+   "character": "Kou's mother (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 233590,
+   "name": "Yoshitsugu Matsuoka",
+   "photo": "https://image.tmdb.org/t/p/w185/ugDwdWEXnmv43jcbnfAi4XwiQ8C.jpg",
+   "character": "Touma Kikuchi (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 1182773,
+   "name": "Umeka Shoji",
+   "photo": "https://image.tmdb.org/t/p/w185/PZWLxxNycIa2h7Ul973gECdP6s.jpg",
+   "character": "Female Teacher (voice)",
+   "episodes": 1
+  }
+ ],
+ "crew": [
+  {
+   "id": 117616,
+   "name": "Tomoko Konparu",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 21
+  },
+  {
+   "id": 1506802,
+   "name": "Ai Yoshimura",
+   "photo": "https://image.tmdb.org/t/p/w185/fYv4k10R7wyqQ4PkMENDvBvHc4e.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 1749022,
+   "name": "Yoshihiro Furusawa",
+   "photo": "https://image.tmdb.org/t/p/w185/8cVWxK1hw3YEqzjpE8cxI1gR8W4.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 2044773,
+   "name": "Masanori Fujita",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 3129637,
+   "name": "Satoshi Adachi",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1493763,
+   "name": "Hiroaki Tsutsumi",
+   "photo": "https://image.tmdb.org/t/p/w185/gjZTF2jtGqvGY4F6XywHCweVkMb.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1735180,
+   "name": "Shota Hashimoto",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1735178,
+   "name": "Keiko Osaki",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 2675120,
+   "name": "Takatoshi Suzuki",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1735199,
+   "name": "Yoshiyuki Ichihashi",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1735198,
+   "name": "Toshiharu Kudou",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1483900,
+   "name": "Miharu Hirami",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1735200,
+   "name": "Shinya Watada",
+   "photo": "https://image.tmdb.org/t/p/w185/uhehRIeu5DGjx66AEyOUPH8GHkN.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1325036,
+   "name": "Tomoyuki Kawamura",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1144111,
+   "name": "Shinpei Miyashita",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1754133,
+   "name": "Takumi Doyama",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:39:40.683Z"
+}

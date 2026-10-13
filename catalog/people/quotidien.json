@@ -1,0 +1,194 @@
+{
+ "show": "Quotidien",
+ "slug": "quotidien",
+ "tmdbId": 67824,
+ "cast": [
+  {
+   "id": 1384475,
+   "name": "Yann Barthès",
+   "photo": "https://image.tmdb.org/t/p/w185/zLT0hfVChU8sZmzZKEyUomqXmsD.jpg",
+   "character": "Self - Host",
+   "episodes": 1240
+  },
+  {
+   "id": 3342630,
+   "name": "Étienne Carbonnier",
+   "photo": "https://image.tmdb.org/t/p/w185/xJMLqVw402VaS8nwdYnVsiChDBC.jpg",
+   "character": "Self - Panelist",
+   "episodes": 1240
+  },
+  {
+   "id": 3227308,
+   "name": "Julien Bellver",
+   "photo": "https://image.tmdb.org/t/p/w185/ssmuRw2G0X3BvlhYJO4bNPSbAVY.jpg",
+   "character": "Self - Panelist",
+   "episodes": 1240
+  },
+  {
+   "id": 3459421,
+   "name": "Willy Papa",
+   "photo": "https://image.tmdb.org/t/p/w185/eJlKgaurabYOC3DmJt1HUOESl0G.jpg",
+   "character": "Self - Panelist",
+   "episodes": 1240
+  },
+  {
+   "id": 3429303,
+   "name": "Marc Beaugé",
+   "photo": "https://image.tmdb.org/t/p/w185/s7VCZMPDW5YXzpn9kVKPpDNmPlZ.jpg",
+   "character": "Self - Panelist",
+   "episodes": 1074
+  },
+  {
+   "id": 3429304,
+   "name": "Ambre Chalumeau",
+   "photo": "https://image.tmdb.org/t/p/w185/sTQBPRqzxH09z78meD88YQ4aene.jpg",
+   "character": "Self - Panelist",
+   "episodes": 768
+  },
+  {
+   "id": 3429293,
+   "name": "Paul Gasnier",
+   "photo": "https://image.tmdb.org/t/p/w185/meFMpq2o5RVBFyx5pOjBl45Pt70.jpg",
+   "character": "Self - Panelist",
+   "episodes": 689
+  },
+  {
+   "id": 3053054,
+   "name": "Azzeddine Ahmed-Chaouch",
+   "photo": "https://image.tmdb.org/t/p/w185/wR7D6c8WxZiDxLEubsJnk7rdGuW.jpg",
+   "character": "Self - Panelist",
+   "episodes": 635
+  },
+  {
+   "id": 3155354,
+   "name": "Jean-Michel Aphatie",
+   "photo": "https://image.tmdb.org/t/p/w185/dob5NmU8DfIh1YDziGBraQyY8tX.jpg",
+   "character": "Self - Panelist",
+   "episodes": 605
+  },
+  {
+   "id": 3429300,
+   "name": "Abda Sall",
+   "photo": "https://image.tmdb.org/t/p/w185/l6WfEySr2f89l8PnQnldz9SvpGR.jpg",
+   "character": "Self / Self - Panelist",
+   "episodes": 579
+  },
+  {
+   "id": 2567971,
+   "name": "Martin Weill",
+   "photo": "https://image.tmdb.org/t/p/w185/99WYUo9mqaDkD96knGqUlqsUjKc.jpg",
+   "character": "Self - Guest / Self - Panelist / Self",
+   "episodes": 538
+  },
+  {
+   "id": 3429297,
+   "name": "Paul Larrouturou",
+   "photo": "https://image.tmdb.org/t/p/w185/7mbnwPVjXfrhBW6UhDfG6zfVPfg.jpg",
+   "character": "Self - Panelist / Self - Guest",
+   "episodes": 445
+  },
+  {
+   "id": 3429305,
+   "name": "Maïa Mazaurette",
+   "photo": "https://image.tmdb.org/t/p/w185/qrbeILzv9qVV4XxkQGcpfTgYizm.jpg",
+   "character": "Self - Panelist",
+   "episodes": 439
+  },
+  {
+   "id": 1596218,
+   "name": "Nora Hamzawi",
+   "photo": null,
+   "character": "Self - Panelist / Self - Guest",
+   "episodes": 439
+  },
+  {
+   "id": 2710707,
+   "name": "Valentine Oberti",
+   "photo": "https://image.tmdb.org/t/p/w185/zYJPqk05TM9od3xXeaHaLU0d7TA.jpg",
+   "character": "Self - Panelist",
+   "episodes": 437
+  },
+  {
+   "id": 6471922,
+   "name": "Angèle Imbert",
+   "photo": "https://image.tmdb.org/t/p/w185/hekdVh2I0st4qDyUkiInr4gDQ3o.jpg",
+   "character": "Self - Panelist",
+   "episodes": 415
+  },
+  {
+   "id": 2562719,
+   "name": "Pablo Mira",
+   "photo": "https://image.tmdb.org/t/p/w185/t7jjP8yFLMFgR6oFxN5LyJvIoCW.jpg",
+   "character": "Self - Guest / Self - Panelist",
+   "episodes": 366
+  },
+  {
+   "id": 146288,
+   "name": "Jonathan Lambert",
+   "photo": "https://image.tmdb.org/t/p/w185/scQLnfutvoFLJ20qNklE2nW7ATA.jpg",
+   "character": "Self - Panelist",
+   "episodes": 362
+  },
+  {
+   "id": 1443476,
+   "name": "Eric Metzger",
+   "photo": "https://image.tmdb.org/t/p/w185/yPqCRk6eZAU3Jr9fnYR75ZMdRs1.jpg",
+   "character": "Self - Panelist",
+   "episodes": 362
+  },
+  {
+   "id": 1443477,
+   "name": "Quentin Margot",
+   "photo": "https://image.tmdb.org/t/p/w185/eYFxkf0j9EINaW4ztaWdZAtzjKI.jpg",
+   "character": "Self - Panelist",
+   "episodes": 362
+  },
+  {
+   "id": 1789141,
+   "name": "Vincent Dedienne",
+   "photo": "https://image.tmdb.org/t/p/w185/j6tser7BHGoi6cP7bQAXQlCGbMO.jpg",
+   "character": "Self - Panelist / Self - Guest",
+   "episodes": 296
+  },
+  {
+   "id": 2568953,
+   "name": "Hugo Clément",
+   "photo": "https://image.tmdb.org/t/p/w185/sc9Vs12WIp5PytGswcTQ6haaUZQ.jpg",
+   "character": "Self - Panelist / Self - Guest",
+   "episodes": 295
+  },
+  {
+   "id": 3429296,
+   "name": "Lilia Hassaine",
+   "photo": "https://image.tmdb.org/t/p/w185/z1M8BemQMOYCWgYssOJ10sdXJKg.jpg",
+   "character": "Self - Panelist / Self - Guest",
+   "episodes": 266
+  },
+  {
+   "id": 3429299,
+   "name": "Baptiste des Monstiers",
+   "photo": null,
+   "character": "Self - Panelist",
+   "episodes": 256
+  }
+ ],
+ "crew": [
+  {
+   "id": 2074488,
+   "name": "Laurent Bon",
+   "photo": null,
+   "jobs": [
+    "Creator"
+   ]
+  },
+  {
+   "id": 1384475,
+   "name": "Yann Barthès",
+   "photo": "https://image.tmdb.org/t/p/w185/zLT0hfVChU8sZmzZKEyUomqXmsD.jpg",
+   "jobs": [
+    "Creator"
+   ]
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:45:01.984Z"
+}

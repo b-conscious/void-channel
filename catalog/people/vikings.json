@@ -1,0 +1,324 @@
+{
+ "show": "Vikings",
+ "slug": "vikings",
+ "tmdbId": 44217,
+ "cast": [
+  {
+   "id": 26723,
+   "name": "Katheryn Winnick",
+   "photo": "https://image.tmdb.org/t/p/w185/vQSqH3ybDWZHZIqX4NZKhOCXAhQ.jpg",
+   "character": "Lagertha",
+   "episodes": 76
+  },
+  {
+   "id": 63764,
+   "name": "Gustaf Skarsgård",
+   "photo": "https://image.tmdb.org/t/p/w185/bfh0yP6Qr55jg9CGTGScXAw8Ftu.jpg",
+   "character": "Floki",
+   "episodes": 71
+  },
+  {
+   "id": 23498,
+   "name": "Alexander Ludwig",
+   "photo": "https://image.tmdb.org/t/p/w185/3KpzKT4iGhNivSISQMe6EwpAmCi.jpg",
+   "character": "Bjorn Lothbrok",
+   "episodes": 71
+  },
+  {
+   "id": 2074237,
+   "name": "Georgia Hirst",
+   "photo": "https://image.tmdb.org/t/p/w185/7xHIjmpI4jWUfB1EFiTMtYzpVXM.jpg",
+   "character": "Torvi",
+   "episodes": 69
+  },
+  {
+   "id": 11263,
+   "name": "Peter Franzén",
+   "photo": "https://image.tmdb.org/t/p/w185/zJ8JV2TefLQIT5DzMinl5eoK5YH.jpg",
+   "character": "King Harald Finehair",
+   "episodes": 54
+  },
+  {
+   "id": 1609347,
+   "name": "Alex Høgh Andersen",
+   "photo": "https://image.tmdb.org/t/p/w185/kDO1gFqMnsV5gCQsMgEL9BZongX.jpg",
+   "character": "Ivar Lothbrok / Ivar the Boneless",
+   "episodes": 51
+  },
+  {
+   "id": 1394429,
+   "name": "Jordan Patrick Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/v9hY8mCo7Dk5AptzZbLE2F8Tzhu.jpg",
+   "character": "Ubbe Lothbrok",
+   "episodes": 51
+  },
+  {
+   "id": 85977,
+   "name": "Clive Standen",
+   "photo": "https://image.tmdb.org/t/p/w185/4wYmTI77N6giNkJp6DOfSAsishK.jpg",
+   "character": "Rollo",
+   "episodes": 51
+  },
+  {
+   "id": 77700,
+   "name": "Travis Fimmel",
+   "photo": "https://image.tmdb.org/t/p/w185/kuTSw3I2hqb5N1QqYrXPX8zd8EA.jpg",
+   "character": "Ragnar Lothbrok",
+   "episodes": 49
+  },
+  {
+   "id": 1372317,
+   "name": "Marco Ilsø",
+   "photo": "https://image.tmdb.org/t/p/w185/xfcrAKFHq81VVO9axg1zP8JrYCN.jpg",
+   "character": "Hvitserk Lothbrok",
+   "episodes": 49
+  },
+  {
+   "id": 1779806,
+   "name": "Maude Hirst",
+   "photo": "https://image.tmdb.org/t/p/w185/7TArLsQhx3Na4XzMrj6kz6r7lA.jpg",
+   "character": "Helga",
+   "episodes": 44
+  },
+  {
+   "id": 126173,
+   "name": "Jennie Jacques",
+   "photo": "https://image.tmdb.org/t/p/w185/6Q4jbDB8cU7FSL3tFWdkLAxLM8I.jpg",
+   "character": "Judith",
+   "episodes": 42
+  },
+  {
+   "id": 220620,
+   "name": "Alyssa Sutherland",
+   "photo": "https://image.tmdb.org/t/p/w185/tPxURKufpOddRYTgg5FuBwNK4iT.jpg",
+   "character": "Aslaug",
+   "episodes": 41
+  },
+  {
+   "id": 3900,
+   "name": "Linus Roache",
+   "photo": "https://image.tmdb.org/t/p/w185/u98VM2S9mbUMCMPvCpk2OUn4Eg2.jpg",
+   "character": "King Ecbert",
+   "episodes": 41
+  },
+  {
+   "id": 1288730,
+   "name": "Moe Dunford",
+   "photo": "https://image.tmdb.org/t/p/w185/tJ64S9CzXXuVQQo6jpxLool6okw.jpg",
+   "character": "Aethelwulf",
+   "episodes": 41
+  },
+  {
+   "id": 20282,
+   "name": "John Kavanagh",
+   "photo": "https://image.tmdb.org/t/p/w185/wG5dUlNS4b7eUof6m32MaVFWdla.jpg",
+   "character": "The Seer / Pope Leo IV / The Seer (voice)",
+   "episodes": 39
+  },
+  {
+   "id": 1256160,
+   "name": "George Blagden",
+   "photo": "https://image.tmdb.org/t/p/w185/6wHqrUQoadDuh0lxLNw7Pnl4ABl.jpg",
+   "character": "Athelstan",
+   "episodes": 33
+  },
+  {
+   "id": 89888,
+   "name": "Adam Copeland",
+   "photo": "https://image.tmdb.org/t/p/w185/rIhGY2Qk3BX7O34j6h7VarvfaA8.jpg",
+   "character": "Kjetill Flatnose",
+   "episodes": 25
+  },
+  {
+   "id": 7523,
+   "name": "Jessalyn Gilsig",
+   "photo": "https://image.tmdb.org/t/p/w185/kfjBMofsdYT3AmGLdNwxmwqgAyI.jpg",
+   "character": "Siggy Haraldson",
+   "episodes": 24
+  },
+  {
+   "id": 1539216,
+   "name": "Ferdia Walsh-Peelo",
+   "photo": "https://image.tmdb.org/t/p/w185/zkBUotUEE6WNlKzd0QPwqf8PE3T.jpg",
+   "character": "Alfred",
+   "episodes": 24
+  },
+  {
+   "id": 82857,
+   "name": "Jasper Pääkkönen",
+   "photo": "https://image.tmdb.org/t/p/w185/6H80CzneYDcDIErQP9BKcYf8gZr.jpg",
+   "character": "Halfdan the Black",
+   "episodes": 23
+  },
+  {
+   "id": 1153821,
+   "name": "Edvin Endre",
+   "photo": "https://image.tmdb.org/t/p/w185/csP0OxPMM41Ri5pN39YX72mOV2z.jpg",
+   "character": "Erlendur",
+   "episodes": 22
+  },
+  {
+   "id": 2249305,
+   "name": "Ragga Ragnars",
+   "photo": "https://image.tmdb.org/t/p/w185/thDqwXUOQXSEIjfaDLQMeAV071.jpg",
+   "character": "Gunnhild",
+   "episodes": 22
+  },
+  {
+   "id": 1936932,
+   "name": "Alicia Agneson",
+   "photo": "https://image.tmdb.org/t/p/w185/a3IrkRmyqbm7NltqvN7ilWZZkx0.jpg",
+   "character": "Freydis / Katia",
+   "episodes": 21
+  }
+ ],
+ "crew": [
+  {
+   "id": 37631,
+   "name": "Michael Hirst",
+   "photo": "https://image.tmdb.org/t/p/w185/70lhWPCdSPv7aGpaoAPk9h6sFOR.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 89
+  },
+  {
+   "id": 1252225,
+   "name": "James Flynn",
+   "photo": "https://image.tmdb.org/t/p/w185/jSwPJzsHYE3HtjXqvoN9d8TyFeZ.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 49
+  },
+  {
+   "id": 1233108,
+   "name": "John Weber",
+   "photo": "https://image.tmdb.org/t/p/w185/vcQCrKrVcNh6chIe78usICD47uq.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 1664615,
+   "name": "Alan Gasmer",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 1228427,
+   "name": "Sheila Hockin",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 1664616,
+   "name": "Sherry Marsh",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 953724,
+   "name": "Morgan O'Sullivan",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 1233099,
+   "name": "Ciarán Donnelly",
+   "photo": "https://image.tmdb.org/t/p/w185/60Ti8EPFVmFMEe38Vb2L7JtSt8b.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 166437,
+   "name": "Ken Girotti",
+   "photo": "https://image.tmdb.org/t/p/w185/gzTr9lnkR5FLzM6ezQYlwoSG0Wv.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 66240,
+   "name": "Jeff Woolnough",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 2656366,
+   "name": "Steve Saint Leger",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 4160,
+   "name": "Helen Shaver",
+   "photo": "https://image.tmdb.org/t/p/w185/aSkTE6QggiwF0h0oU8neg4Xb5PL.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 123186,
+   "name": "Daniel Grou",
+   "photo": "https://image.tmdb.org/t/p/w185/2RhWnJb3phrzZ2kondASFdk2GrW.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1224779,
+   "name": "David Frazee",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 222108,
+   "name": "David Wellington",
+   "photo": "https://image.tmdb.org/t/p/w185/uSiyGzGwrlZFZhFRWgBQd29fC0C.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 936154,
+   "name": "Stephen St. Leger",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:54.631Z"
+}

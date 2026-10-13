@@ -1,0 +1,322 @@
+{
+ "show": "Goof Troop",
+ "slug": "goof-troop",
+ "tmdbId": 2235,
+ "cast": [
+  {
+   "id": 84213,
+   "name": "Bill Farmer",
+   "photo": "https://image.tmdb.org/t/p/w185/lhezx68R12s5Bsv7d77BrQb7tWA.jpg",
+   "character": "Goofy (voice)",
+   "episodes": 78
+  },
+  {
+   "id": 69344,
+   "name": "Dana Hill",
+   "photo": "https://image.tmdb.org/t/p/w185/kLFYJSiPfBmXTla2MKInPi4YAqX.jpg",
+   "character": "Max (voice)",
+   "episodes": 78
+  },
+  {
+   "id": 12077,
+   "name": "Jim Cummings",
+   "photo": "https://image.tmdb.org/t/p/w185/c0sQPRCM5Ri3F4gVyxPr4AcPmIq.jpg",
+   "character": "Pete (voice)",
+   "episodes": 78
+  },
+  {
+   "id": 43125,
+   "name": "Rob Paulsen",
+   "photo": "https://image.tmdb.org/t/p/w185/7buvKWIjPlspqruaO3b28V5owJr.jpg",
+   "character": "P.J. (voice)",
+   "episodes": 78
+  },
+  {
+   "id": 60741,
+   "name": "April Winchell",
+   "photo": "https://image.tmdb.org/t/p/w185/twx3xkmvRAuHHJp3xUd1sbxTZRS.jpg",
+   "character": "Peg (voice)",
+   "episodes": 78
+  },
+  {
+   "id": 200,
+   "name": "Nancy Cartwright",
+   "photo": "https://image.tmdb.org/t/p/w185/kJQEz3NAwHGdb2sQzAnBf1RmMV4.jpg",
+   "character": "Pistol (voice)",
+   "episodes": 78
+  },
+  {
+   "id": 15831,
+   "name": "Frank Welker",
+   "photo": "https://image.tmdb.org/t/p/w185/aC37aQtsfZZDZN5y3paDTLJJHCi.jpg",
+   "character": "Waffles the Cat / Chainsaw the Dog (voice) / Prince Freddy (voice) / Waffles / Chainsaw / Additional Voices (voice)",
+   "episodes": 27
+  },
+  {
+   "id": 35219,
+   "name": "Corey Burton",
+   "photo": "https://image.tmdb.org/t/p/w185/wcpFwdL7m01cZoBJiUSMQVakK2G.jpg",
+   "character": "Circus Ringmaster (voice) / How To Narrator / Melvin (voice) / How To Narrator (voice)",
+   "episodes": 15
+  },
+  {
+   "id": 51517,
+   "name": "Jerry Houser",
+   "photo": "https://image.tmdb.org/t/p/w185/A3HHKhK5PC5EgL14ENhhkiBvYGQ.jpg",
+   "character": "Spud (voice) / Duke (voice) / Beast (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 1213976,
+   "name": "Michael Gough",
+   "photo": "https://image.tmdb.org/t/p/w185/a1dGHmgxR6xvnHY1CSw9GN7Yy9Z.jpg",
+   "character": "Fester (voice) / Dentist (voice) / Fester Swollen (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 81178,
+   "name": "Charlie Adler",
+   "photo": "https://image.tmdb.org/t/p/w185/hVENHdlEqsX6vhBW4MTpfYEFFQ3.jpg",
+   "character": "The Magician's Hat (voice) / Street Theatre Teacher (voice) / Igor (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 34737,
+   "name": "Pat Fraley",
+   "photo": "https://image.tmdb.org/t/p/w185/snkbfNQ9JNUCEzG7SdRIR083P0u.jpg",
+   "character": "Mr. Huge (voice) / Wally (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 60257,
+   "name": "S. Scott Bullock",
+   "photo": "https://image.tmdb.org/t/p/w185/qJ54EQKCR9mmUgZGzRIw0XL1pXb.jpg",
+   "character": "Tooth (voice) / Pharaoh Gang Member (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 60739,
+   "name": "Kath Soucie",
+   "photo": "https://image.tmdb.org/t/p/w185/dSE1JtsdA1aSgIIw415bsXtmkPg.jpg",
+   "character": "Debbie (voice) / Nurse / Cynthia Snodfrew (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 80868,
+   "name": "Joe Piscopo",
+   "photo": "https://image.tmdb.org/t/p/w185/vDwqneRwYoDdV8gBJ624ALROZvi.jpg",
+   "character": "Myron the Bulk (voice) / Tan Roadster (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 19546,
+   "name": "Michael Bell",
+   "photo": "https://image.tmdb.org/t/p/w185/qZrtEHcKOFCbxtSedcdTU8f2uyW.jpg",
+   "character": "Dutch Spackle (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 44796,
+   "name": "Franklyn Ajaye",
+   "photo": "https://image.tmdb.org/t/p/w185/bgvjWwTlzE4fx9WWoyeH1PWLBOj.jpg",
+   "character": "(voice)",
+   "episodes": 1
+  },
+  {
+   "id": 95257,
+   "name": "Candi Milo",
+   "photo": "https://image.tmdb.org/t/p/w185/tUjXMG2118Oagj7IjWJDEdmtCRW.jpg",
+   "character": "Nails (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 25626,
+   "name": "Robert Ridgely",
+   "photo": "https://image.tmdb.org/t/p/w185/9KXMqTrSeIxcW6hlCJZ6CTzNeMB.jpg",
+   "character": "The Great Garbonzo (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 198,
+   "name": "Dan Castellaneta",
+   "photo": "https://image.tmdb.org/t/p/w185/AmeqWhP4A46AWkM4kVphg6jOTQX.jpg",
+   "character": "Baseball Coach (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 35243,
+   "name": "Ed Gilbert",
+   "photo": "https://image.tmdb.org/t/p/w185/uuyoM4Bo3zzmsDoOPzr5JeJaMdE.jpg",
+   "character": "Judge (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 18,
+   "name": "Brad Garrett",
+   "photo": "https://image.tmdb.org/t/p/w185/813ffbpoaoaJRdoe1yrbivboWKp.jpg",
+   "character": "Big Boy Bandit (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 123632,
+   "name": "David Doyle",
+   "photo": "https://image.tmdb.org/t/p/w185/kgyklBcLNPqyQf3Za7AU9JsBDYC.jpg",
+   "character": "Traffic Cop (voice)",
+   "episodes": 1
+  },
+  {
+   "id": 44894,
+   "name": "Jim Staahl",
+   "photo": "https://image.tmdb.org/t/p/w185/kKjOSVEOcNIAPgU6QujZYL2af5p.jpg",
+   "character": "Dr. Howard (voice)",
+   "episodes": 1
+  }
+ ],
+ "crew": [
+  {
+   "id": 1219698,
+   "name": "Bruce Talkington",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 4315707,
+   "name": "Stephen Levi",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 2012016,
+   "name": "Marion Rose Wells",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 568693,
+   "name": "Jymn Magon",
+   "photo": "https://image.tmdb.org/t/p/w185/tZlwzC3HIXWtGjcZxEhkAFsQWj.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1212635,
+   "name": "Stephen Sustarsic",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1180949,
+   "name": "Robert Taylor",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 3645561,
+   "name": "Cathryn Perdue",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1842061,
+   "name": "Jeff Saylor",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1214724,
+   "name": "Dean Stefan",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1719746,
+   "name": "Mirith J. Colao",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 169967,
+   "name": "Steve Cuden",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1214729,
+   "name": "Jan Strnad",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1436325,
+   "name": "Carl Swenson",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 90865,
+   "name": "Libby Hinson",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 4315710,
+   "name": "Mirith Schilder",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1842058,
+   "name": "Bruce Reid Schaefer",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:29:34.403Z"
+}

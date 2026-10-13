@@ -1,0 +1,330 @@
+{
+ "show": "Yellowstone",
+ "slug": "yellowstone",
+ "tmdbId": 73586,
+ "cast": [
+  {
+   "id": 1269,
+   "name": "Kevin Costner",
+   "photo": "https://image.tmdb.org/t/p/w185/608blZipRDZkDpzp8VItB64qMaT.jpg",
+   "character": "John Dutton",
+   "episodes": 53
+  },
+  {
+   "id": 56680,
+   "name": "Luke Grimes",
+   "photo": "https://image.tmdb.org/t/p/w185/c547Xiwf9feeDbGfQchfJCkC111.jpg",
+   "character": "Kayce Dutton",
+   "episodes": 53
+  },
+  {
+   "id": 17521,
+   "name": "Kelly Reilly",
+   "photo": "https://image.tmdb.org/t/p/w185/l8aQsryOQvxgX6SdZ4XtzU8KEXn.jpg",
+   "character": "Beth Dutton",
+   "episodes": 53
+  },
+  {
+   "id": 8210,
+   "name": "Wes Bentley",
+   "photo": "https://image.tmdb.org/t/p/w185/voD93lzFZrr9xfAggwFcPRBi84i.jpg",
+   "character": "Jamie Dutton",
+   "episodes": 53
+  },
+  {
+   "id": 6614,
+   "name": "Cole Hauser",
+   "photo": "https://image.tmdb.org/t/p/w185/1SNoIDILoXtAUJu4f7nDCPVQH5j.jpg",
+   "character": "Rip Wheeler",
+   "episodes": 53
+  },
+  {
+   "id": 205976,
+   "name": "Kelsey Asbille",
+   "photo": "https://image.tmdb.org/t/p/w185/zOr1U00vGsPMsieAJIFyYVUw8wa.jpg",
+   "character": "Monica Dutton",
+   "episodes": 53
+  },
+  {
+   "id": 2038314,
+   "name": "Brecken Merrill",
+   "photo": "https://image.tmdb.org/t/p/w185/j2cJIrlfMSVWCq491ZMnguhGjXP.jpg",
+   "character": "Tate Dutton",
+   "episodes": 53
+  },
+  {
+   "id": 84225,
+   "name": "Gil Birmingham",
+   "photo": "https://image.tmdb.org/t/p/w185/bWYOwtq0zUgpbEhTyiJHo2TmVju.jpg",
+   "character": "Thomas Rainwater",
+   "episodes": 53
+  },
+  {
+   "id": 31362,
+   "name": "Ian Bohen",
+   "photo": "https://image.tmdb.org/t/p/w185/qEi3UXB3rx9vithYZPtqW3U5e3L.jpg",
+   "character": "Ryan",
+   "episodes": 51
+  },
+  {
+   "id": 1333809,
+   "name": "Forrie J. Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/dlfukfoPCoF9PraKuyuIq7rmu8Y.jpg",
+   "character": "Lloyd",
+   "episodes": 51
+  },
+  {
+   "id": 2073671,
+   "name": "Denim Richards",
+   "photo": "https://image.tmdb.org/t/p/w185/A2Gl1Xi0wuC7xd9AYe41SldIUmA.jpg",
+   "character": "Colby",
+   "episodes": 51
+  },
+  {
+   "id": 1367234,
+   "name": "Mo Brings Plenty",
+   "photo": "https://image.tmdb.org/t/p/w185/2CxofuWPRZf3G0kYJytblYiHXIy.jpg",
+   "character": "Mo Brings Plenty / Rainwater's Driver / Mo",
+   "episodes": 40
+  },
+  {
+   "id": 1385813,
+   "name": "Jefferson White",
+   "photo": "https://image.tmdb.org/t/p/w185/8QSrhrWpqTBGJN3rfijXCvmOcb5.jpg",
+   "character": "Jimmy Hurdstrom",
+   "episodes": 39
+  },
+  {
+   "id": 1674161,
+   "name": "Ryan Bingham",
+   "photo": "https://image.tmdb.org/t/p/w185/mnTDK0M2ncJgTUm0T56AD4OxB83.jpg",
+   "character": "Walker",
+   "episodes": 37
+  },
+  {
+   "id": 2126445,
+   "name": "Jake Ream",
+   "photo": null,
+   "character": "Jake",
+   "episodes": 37
+  },
+  {
+   "id": 1230687,
+   "name": "Jennifer Landon",
+   "photo": "https://image.tmdb.org/t/p/w185/jpcNM8UJRcnPnCLasVMfA329wZ4.jpg",
+   "character": "Teeter",
+   "episodes": 32
+  },
+  {
+   "id": 147977,
+   "name": "Wendy Moniz",
+   "photo": "https://image.tmdb.org/t/p/w185/o6h5BiaTiezKKEOaQKiGuTGeePe.jpg",
+   "character": "Governor Perry / Lynelle Perry",
+   "episodes": 28
+  },
+  {
+   "id": 1980651,
+   "name": "Finn Little",
+   "photo": "https://image.tmdb.org/t/p/w185/jkMmLjj5Zk4CsABIxxFtOj0Zxic.jpg",
+   "character": "Carter",
+   "episodes": 24
+  },
+  {
+   "id": 1990667,
+   "name": "Ethan Lee",
+   "photo": null,
+   "character": "Ethan",
+   "episodes": 22
+  },
+  {
+   "id": 6413,
+   "name": "Danny Huston",
+   "photo": "https://image.tmdb.org/t/p/w185/mNz9t7MNANopavbLgcsZMMQBJ0u.jpg",
+   "character": "Dan Jenkins",
+   "episodes": 18
+  },
+  {
+   "id": 2736141,
+   "name": "Gabriel Gator Guilbeau",
+   "photo": null,
+   "character": "Gator",
+   "episodes": 17
+  },
+  {
+   "id": 1499908,
+   "name": "Hassie Harrison",
+   "photo": "https://image.tmdb.org/t/p/w185/f7aN9NZnSSLNu56TLaLpoIOMIOe.jpg",
+   "character": "Laramie",
+   "episodes": 17
+  },
+  {
+   "id": 2395140,
+   "name": "Kathryn Kelly",
+   "photo": "https://image.tmdb.org/t/p/w185/qy8hO9fSWjizOZ9QRlCp5E6qEyV.jpg",
+   "character": "Emily",
+   "episodes": 16
+  },
+  {
+   "id": 1182657,
+   "name": "John Emmet Tracy",
+   "photo": "https://image.tmdb.org/t/p/w185/tJUSztVpizjsXLpqvEVwSq91isp.jpg",
+   "character": "Ellis Steele",
+   "episodes": 14
+  }
+ ],
+ "crew": [
+  {
+   "id": 1215399,
+   "name": "Taylor Sheridan",
+   "photo": "https://image.tmdb.org/t/p/w185/enrOQII7bCIf7U0WbdxiuXGfzrs.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 55
+  },
+  {
+   "id": 69414,
+   "name": "John Linson",
+   "photo": "https://image.tmdb.org/t/p/w185/1rL4s8P5TS0KwbMbkwU7TvttIDy.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Story"
+   ],
+   "episodes": 53
+  },
+  {
+   "id": 1254,
+   "name": "Art Linson",
+   "photo": "https://image.tmdb.org/t/p/w185/p9JPMQt4RRHYdQgvnrmFNiZ4eW6.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 53
+  },
+  {
+   "id": 1269,
+   "name": "Kevin Costner",
+   "photo": "https://image.tmdb.org/t/p/w185/608blZipRDZkDpzp8VItB64qMaT.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 53
+  },
+  {
+   "id": 21390,
+   "name": "David C. Glasser",
+   "photo": "https://image.tmdb.org/t/p/w185/t26MlYwJl4TBLFkHz9pjixA8yo7.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 53
+  },
+  {
+   "id": 6041,
+   "name": "Brian Tyler",
+   "photo": "https://image.tmdb.org/t/p/w185/wLPLAOcEgA9vfNuXSX1QI1ajguU.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 53
+  },
+  {
+   "id": 4232,
+   "name": "Bob Yari",
+   "photo": "https://image.tmdb.org/t/p/w185/8PecTVSJk5uJmndCGTLwgsLPEhP.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 44
+  },
+  {
+   "id": 56435,
+   "name": "Stephen Kay",
+   "photo": "https://image.tmdb.org/t/p/w185/9HsKUi7Ab5jtIQ59OOGyvBtfJRI.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 34
+  },
+  {
+   "id": 2354280,
+   "name": "Breton Vivian",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 34
+  },
+  {
+   "id": 930009,
+   "name": "Christina Alexandra Voros",
+   "photo": "https://image.tmdb.org/t/p/w185/9HIKusstJZZaT70y702KRcLCSsW.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 43468,
+   "name": "Guy Ferland",
+   "photo": "https://image.tmdb.org/t/p/w185/oOBx7tqSGZ5BatZydBYRXfoKsRj.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 21053,
+   "name": "John Dahl",
+   "photo": "https://image.tmdb.org/t/p/w185/8WDCi9LJ9Lc7z6BSwGiQqfkSx61.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1256072,
+   "name": "John Coveny",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1398353,
+   "name": "Brett Conrad",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 167786,
+   "name": "Ed Bianchi",
+   "photo": "https://image.tmdb.org/t/p/w185/a2vb1qvl4iGqNggHip7Lk3RNJLb.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1118557,
+   "name": "Ben Richardson",
+   "photo": "https://image.tmdb.org/t/p/w185/qWUyygrFlpfvYrS8NNCMnpevIdB.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:14.607Z"
+}

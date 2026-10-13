@@ -1,0 +1,324 @@
+{
+ "show": "Mushoku Tensei: Jobless Reincarnation",
+ "slug": "mushoku-tensei-jobless-reincarnation",
+ "tmdbId": 94664,
+ "cast": [
+  {
+   "id": 1321070,
+   "name": "Yumi Uchiyama",
+   "photo": "https://image.tmdb.org/t/p/w185/JvavoF3YOLCf4LHfl4XvYobANE.jpg",
+   "character": "Rudeus Greyrat (voice)",
+   "episodes": 61
+  },
+  {
+   "id": 144655,
+   "name": "Tomokazu Sugita",
+   "photo": "https://image.tmdb.org/t/p/w185/cv5zuPZySNsHXu24pjKLYCRzJ2J.jpg",
+   "character": "Rudeus Greyrat's Former Self (voice) / Old Rudeus (voice)",
+   "episodes": 61
+  },
+  {
+   "id": 1324646,
+   "name": "Ai Kakuma",
+   "photo": "https://image.tmdb.org/t/p/w185/o3tQSeeJAeafJNvQs2IKvpKY7av.jpg",
+   "character": "Eris Boreas Greyrat (voice)",
+   "episodes": 33
+  },
+  {
+   "id": 1820616,
+   "name": "Konomi Kohara",
+   "photo": "https://image.tmdb.org/t/p/w185/3wjTzpJpBiTkLexdMmo9a3wfgRT.jpg",
+   "character": "Roxy Migurdia (voice)",
+   "episodes": 31
+  },
+  {
+   "id": 1254671,
+   "name": "Ai Kayano",
+   "photo": "https://image.tmdb.org/t/p/w185/l8ywp387rfdAS7mOExe3cEZnsk0.jpg",
+   "character": "Fizt (voice) / Sylphiette (voice)",
+   "episodes": 29
+  },
+  {
+   "id": 89883,
+   "name": "Rie Tanaka",
+   "photo": "https://image.tmdb.org/t/p/w185/wBWsjzwpFovyHDv027zU0oZyWHd.jpg",
+   "character": "Elinalise Dragonroad (voice)",
+   "episodes": 26
+  },
+  {
+   "id": 550091,
+   "name": "Satoshi Tsuruoka",
+   "photo": "https://image.tmdb.org/t/p/w185/yDPDu4TExWiuYQqgA44hFWeI87e.jpg",
+   "character": "Zanoba Shirone (voice)",
+   "episodes": 20
+  },
+  {
+   "id": 9706,
+   "name": "Toshiyuki Morikawa",
+   "photo": "https://image.tmdb.org/t/p/w185/hrzGBe4nokgkBNFekNo5hlXB2Bv.jpg",
+   "character": "Paul Greyrat (voice)",
+   "episodes": 19
+  },
+  {
+   "id": 1691384,
+   "name": "Lynn",
+   "photo": "https://image.tmdb.org/t/p/w185/eJ2NqgzpnzNbT6Nt9EpDfzqNeZM.jpg",
+   "character": "Lilia Greyrat (voice)",
+   "episodes": 19
+  },
+  {
+   "id": 110665,
+   "name": "Daisuke Namikawa",
+   "photo": "https://image.tmdb.org/t/p/w185/iw0X8oDutxaBAri3Ifga8nhdUJK.jpg",
+   "character": "Ruijerd Superdia (voice)",
+   "episodes": 18
+  },
+  {
+   "id": 2467933,
+   "name": "Saya Aizawa",
+   "photo": "https://image.tmdb.org/t/p/w185/3QoVKl1w7uBMf5ivJ4MccYkt4zR.jpg",
+   "character": "Norn Greyrat (voice)",
+   "episodes": 16
+  },
+  {
+   "id": 1678723,
+   "name": "Yuuki Takada",
+   "photo": "https://image.tmdb.org/t/p/w185/sbe8XOF0JHg6KB96fuqHuXGUQtK.jpg",
+   "character": "Aisha Greyrat (voice)",
+   "episodes": 16
+  },
+  {
+   "id": 1324468,
+   "name": "Ryota Osaka",
+   "photo": "https://image.tmdb.org/t/p/w185/d2TGy8Qkxe90tGDr9MCXFGkhbPl.jpg",
+   "character": "Cliff Grimoire (voice)",
+   "episodes": 16
+  },
+  {
+   "id": 2363904,
+   "name": "Shion Wakayama",
+   "photo": "https://image.tmdb.org/t/p/w185/b697ggFreuliEfl4TjLgxhJCQXr.jpg",
+   "character": "Shizuka Nanahoshi (voice)",
+   "episodes": 14
+  },
+  {
+   "id": 1452028,
+   "name": "Reina Ueda",
+   "photo": "https://image.tmdb.org/t/p/w185/2WV61uVU7y6XGYqNHLMpP0sApdu.jpg",
+   "character": "Ariel Anemoi Asura (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 1496002,
+   "name": "Minami Tanaka",
+   "photo": "https://image.tmdb.org/t/p/w185/cxuGdrWhQooTsE3TvjAwokyEkwr.jpg",
+   "character": "Pursena Adoldia (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 1254260,
+   "name": "Kazuyuki Okitsu",
+   "photo": "https://image.tmdb.org/t/p/w185/vgyaK5dAxhvzAi6LJM3ZyaJd4mJ.jpg",
+   "character": "Luke Notos Greyrat (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 2359492,
+   "name": "Fairouz Ai",
+   "photo": "https://image.tmdb.org/t/p/w185/coFu6WOVBZvqd1fw89vbHkiC0zB.jpg",
+   "character": "Linia Dedoldia (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 552683,
+   "name": "Hochu Otsuka",
+   "photo": "https://image.tmdb.org/t/p/w185/3RHQcrsWnAFK6AifSis1lMq08cR.jpg",
+   "character": "Talhand (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 1264228,
+   "name": "Yoji Ueda",
+   "photo": "https://image.tmdb.org/t/p/w185/fHvIfE0Q7ab0DFlkNVFcXvTKX9y.jpg",
+   "character": "Geese Nukadia (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 1254135,
+   "name": "Sumire Morohoshi",
+   "photo": "https://image.tmdb.org/t/p/w185/6AoZkW7NxgsWXkoCkTGDSgFcyao.jpg",
+   "character": "Juliette (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 1116333,
+   "name": "Hisako Kanemoto",
+   "photo": "https://image.tmdb.org/t/p/w185/yosLId8iiPcvDZpeoLuGkDKlorU.jpg",
+   "character": "Zenith Greyrat (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 1241505,
+   "name": "Kujira",
+   "photo": "https://image.tmdb.org/t/p/w185/dL2u3VyRBswwTEW4E8lbsHbqzeZ.jpg",
+   "character": "Man-God (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 9710,
+   "name": "Megumi Toyoguchi",
+   "photo": "https://image.tmdb.org/t/p/w185/qrnzkvoaODEplqhtkcyDgUa3Qtp.jpg",
+   "character": "Ghislaine Dedoldia (voice)",
+   "episodes": 9
+  }
+ ],
+ "crew": [
+  {
+   "id": 1494796,
+   "name": "Nobuhiro Osawa",
+   "photo": "https://image.tmdb.org/t/p/w185/lzbV0Av7RlBDXsJJD4ytrX85ziC.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 85
+  },
+  {
+   "id": 2362598,
+   "name": "Fuminori Yamazaki",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 71
+  },
+  {
+   "id": 2937591,
+   "name": "Rifujin na Magonote",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 63
+  },
+  {
+   "id": 1498115,
+   "name": "Yoshiaki Fujisawa",
+   "photo": "https://image.tmdb.org/t/p/w185/q8EUjY2Gwz0MXqhajjRhtrVSr8P.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 61
+  },
+  {
+   "id": 2025383,
+   "name": "Hiroki Hirano",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 1566235,
+   "name": "Manabu Okamoto",
+   "photo": "https://image.tmdb.org/t/p/w185/t1DqmJ88f4bslhqDWaRzX53GEKG.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 35
+  },
+  {
+   "id": 1015969,
+   "name": "Toshiya Ohno",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 2879096,
+   "name": "Ryosuke Shibuya",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 3956574,
+   "name": "Naoto Taniuchi",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 3258544,
+   "name": "Kohei Urushibara",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 3267330,
+   "name": "Atsushi Takayama",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 3021436,
+   "name": "Shingo Fujii",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 3892552,
+   "name": "Sayaka Tsuji",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 4755183,
+   "name": "Hiroki Nagashima",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 3023363,
+   "name": "Hirohisa Saito",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 3990193,
+   "name": "Tomoaki Takatsudo",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:38:20.348Z"
+}

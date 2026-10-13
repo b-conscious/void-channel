@@ -1,0 +1,329 @@
+{
+ "show": "IT: Welcome to Derry",
+ "slug": "it-welcome-to-derry",
+ "tmdbId": 200875,
+ "cast": [
+  {
+   "id": 1335818,
+   "name": "Taylour Paige",
+   "photo": "https://image.tmdb.org/t/p/w185/KTX1trmIfVa7MFkZmES1MVjl79.jpg",
+   "character": "Charlotte Hanlon",
+   "episodes": 8
+  },
+  {
+   "id": 1607522,
+   "name": "Jovan Adepo",
+   "photo": "https://image.tmdb.org/t/p/w185/aJcuEbYru85meNGzM0oSeW3nsd6.jpg",
+   "character": "Leroy Hanlon",
+   "episodes": 8
+  },
+  {
+   "id": 1736,
+   "name": "James Remar",
+   "photo": "https://image.tmdb.org/t/p/w185/ctMVpFDKKWCty60lLORf3IoJcv9.jpg",
+   "character": "General Francis Shaw",
+   "episodes": 8
+  },
+  {
+   "id": 936403,
+   "name": "Stephen Rider",
+   "photo": "https://image.tmdb.org/t/p/w185/hiBXBuspgPCsvX5jHJbxQUBZu8D.jpg",
+   "character": "Hank Grogan",
+   "episodes": 8
+  },
+  {
+   "id": 2382043,
+   "name": "Matilda Lawler",
+   "photo": "https://image.tmdb.org/t/p/w185/uKioAyk7zSyO1BCOs5OQtNB4QNP.jpg",
+   "character": "Marge Truman",
+   "episodes": 8
+  },
+  {
+   "id": 1754752,
+   "name": "Amanda Christine",
+   "photo": "https://image.tmdb.org/t/p/w185/ytG5JgrniXLY6elImmzTKjvGtCZ.jpg",
+   "character": "Ronnie Grogan",
+   "episodes": 8
+  },
+  {
+   "id": 2426851,
+   "name": "Clara Stack",
+   "photo": "https://image.tmdb.org/t/p/w185/yMK3IADqV2oReJMKdkrcEIBxdtu.jpg",
+   "character": "Lilly Bainbridge",
+   "episodes": 8
+  },
+  {
+   "id": 4216864,
+   "name": "Blake Cameron James",
+   "photo": "https://image.tmdb.org/t/p/w185/qM3hkhRmqKVRVi1M9jd8sSEMjXf.jpg",
+   "character": "Will Hanlon",
+   "episodes": 8
+  },
+  {
+   "id": 4718547,
+   "name": "Arian S. Cartaya",
+   "photo": "https://image.tmdb.org/t/p/w185/dxL75wIa93im4GPeIHGZc9MosHt.jpg",
+   "character": "Rich Santos",
+   "episodes": 8
+  },
+  {
+   "id": 172096,
+   "name": "Chris Chalk",
+   "photo": "https://image.tmdb.org/t/p/w185/j8IpJkLTAhalh5Q356VNojcIAtx.jpg",
+   "character": "Dick Hallorann",
+   "episodes": 8
+  },
+  {
+   "id": 131546,
+   "name": "Thomas Mitchell",
+   "photo": "https://image.tmdb.org/t/p/w185/sCDnrNgJWEuxiafyAEbayOe2gXw.jpg",
+   "character": "Colonel Fuller",
+   "episodes": 7
+  },
+  {
+   "id": 236022,
+   "name": "Kimberly Guerrero",
+   "photo": null,
+   "character": "Rose",
+   "episodes": 6
+  },
+  {
+   "id": 3238101,
+   "name": "Joshua Odjick",
+   "photo": "https://image.tmdb.org/t/p/w185/i8G947oyhD4ACFGwaQpveDcER71.jpg",
+   "character": "Taniel",
+   "episodes": 6
+  },
+  {
+   "id": 3467949,
+   "name": "Maya McNair",
+   "photo": "https://image.tmdb.org/t/p/w185/sGjeXXuC2ubZr0a7iKbHNplHATV.jpg",
+   "character": "Patty Stanton",
+   "episodes": 6
+  },
+  {
+   "id": 3424591,
+   "name": "Hannah Storey",
+   "photo": "https://image.tmdb.org/t/p/w185/8OwQHGUfGsAIDaYMLKHRfLMSIhV.jpg",
+   "character": "Rhonda Chambers",
+   "episodes": 6
+  },
+  {
+   "id": 2863703,
+   "name": "Maya Misaljevic",
+   "photo": "https://image.tmdb.org/t/p/w185/6IwB52j0sCAq55Y2vqJA8ATJuZk.jpg",
+   "character": "Elaine Morrison",
+   "episodes": 6
+  },
+  {
+   "id": 289,
+   "name": "Madeleine Stowe",
+   "photo": "https://image.tmdb.org/t/p/w185/k7iQLoCP11e7iVMp1LQimUQLZe8.jpg",
+   "character": "Ingrid Kersh",
+   "episodes": 6
+  },
+  {
+   "id": 12978,
+   "name": "Peter Outerbridge",
+   "photo": "https://image.tmdb.org/t/p/w185/nYH7DMzfqw511KQCe4z3gUBLzf6.jpg",
+   "character": "Clint Bowers",
+   "episodes": 6
+  },
+  {
+   "id": 2801074,
+   "name": "Shane Marriott",
+   "photo": "https://image.tmdb.org/t/p/w185/8DhpwjmioUCcbwcSsznc38VkatH.jpg",
+   "character": "Reggie Davis",
+   "episodes": 5
+  },
+  {
+   "id": 1570446,
+   "name": "Dorian Grey",
+   "photo": "https://image.tmdb.org/t/p/w185/nhmZX8pFDfGXjGyQSbELzsT13Y.jpg",
+   "character": "Loverboy Jax",
+   "episodes": 5
+  },
+  {
+   "id": 1788775,
+   "name": "Alixandra Fuchs",
+   "photo": "https://image.tmdb.org/t/p/w185/gD78BG4emMpyy9HgJ86cFbwz7yR.jpg",
+   "character": "Terri Bainbridge",
+   "episodes": 5
+  },
+  {
+   "id": 1727045,
+   "name": "Rudy Mancuso",
+   "photo": "https://image.tmdb.org/t/p/w185/7jP4syZQ4ccpd8H2HvyubRLHQcI.jpg",
+   "character": "Captain Pauly Russo",
+   "episodes": 4
+  },
+  {
+   "id": 60907,
+   "name": "Larry Day",
+   "photo": "https://image.tmdb.org/t/p/w185/zMQdq90V0lVWrcKYUZUzlacLEyX.jpg",
+   "character": "Stan Kersh",
+   "episodes": 4
+  },
+  {
+   "id": 4268259,
+   "name": "Liam Seamus Murphy",
+   "photo": null,
+   "character": "Morris Bainbridge",
+   "episodes": 4
+  }
+ ],
+ "crew": [
+  {
+   "id": 1113116,
+   "name": "Andy Muschietti",
+   "photo": "https://image.tmdb.org/t/p/w185/4ndnP2NNavhfGtJqihD4FVDsYMY.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1094761,
+   "name": "Barbara Muschietti",
+   "photo": "https://image.tmdb.org/t/p/w185/xWvPT4cOogigu2okyIXzN0VFhWc.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 131947,
+   "name": "Jason Fuchs",
+   "photo": "https://image.tmdb.org/t/p/w185/wer1ysjx2dgdLhj8W5lpmfORu9s.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 12374,
+   "name": "David Coatsworth",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 137905,
+   "name": "Bill Skarsgård",
+   "photo": "https://image.tmdb.org/t/p/w185/xBXLx1m0uzhXIbY3wN8lmPGeUHl.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 112690,
+   "name": "Dan Lin",
+   "photo": "https://image.tmdb.org/t/p/w185/skXxQ2MZ2OYpP0aFyBoieFTT3iK.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1252095,
+   "name": "Shelley Meals",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 228428,
+   "name": "Brad Caleb Kane",
+   "photo": "https://image.tmdb.org/t/p/w185/5kH9BzRX1osFjvWsh9vmjwTyE7h.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 21036,
+   "name": "Roy Lee",
+   "photo": "https://image.tmdb.org/t/p/w185/7HGbsI8y3TGK8VQhN5rkaXtQnro.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 40825,
+   "name": "Benjamin Wallfisch",
+   "photo": "https://image.tmdb.org/t/p/w185/dWcshjk0OUi3stGFFrwZIsYKZfQ.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1215659,
+   "name": "Andrew Bernstein",
+   "photo": "https://image.tmdb.org/t/p/w185/5Q4t7rtpHtp0vfstpQzug1KGZgS.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1630840,
+   "name": "Emmanuel Osei-Kuffour, Jr.",
+   "photo": "https://image.tmdb.org/t/p/w185/6EBtqWqwp4MpxBOpm8bxdLvfa6D.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 930629,
+   "name": "Jamie Travis",
+   "photo": "https://image.tmdb.org/t/p/w185/9sJniqmYze2yJlGTh0pWN9YLLio.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 5808019,
+   "name": "Guadalís Del Carmen",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 5618409,
+   "name": "Gabriel Hobson",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1379192,
+   "name": "Austin Guzman",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:47.804Z"
+}

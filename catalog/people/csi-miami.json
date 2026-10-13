@@ -1,0 +1,333 @@
+{
+ "show": "CSI: Miami",
+ "slug": "csi-miami",
+ "tmdbId": 1620,
+ "cast": [
+  {
+   "id": 16560,
+   "name": "David Caruso",
+   "photo": "https://image.tmdb.org/t/p/w185/4aflRWhJW8gvnYIXPY52KcNTzkO.jpg",
+   "character": "Horatio Caine",
+   "episodes": 232
+  },
+  {
+   "id": 6108,
+   "name": "Emily Procter",
+   "photo": "https://image.tmdb.org/t/p/w185/gFK8S0ZgaqDC8IgclgadDuB2eMm.jpg",
+   "character": "Calleigh Duquesne",
+   "episodes": 232
+  },
+  {
+   "id": 49706,
+   "name": "Adam Rodriguez",
+   "photo": "https://image.tmdb.org/t/p/w185/qFSbLvyNPZK40hY9gZXJDvq0qVK.jpg",
+   "character": "Eric Delko",
+   "episodes": 219
+  },
+  {
+   "id": 16937,
+   "name": "Rex Linn",
+   "photo": "https://image.tmdb.org/t/p/w185/dY8x6OrmS0dBdogxeF2QALrCvpI.jpg",
+   "character": "Frank Tripp",
+   "episodes": 187
+  },
+  {
+   "id": 4743,
+   "name": "Jonathan Togo",
+   "photo": "https://image.tmdb.org/t/p/w185/s6SVfTHfn4VLXmsl8l3QjJzpako.jpg",
+   "character": "Ryan Wolfe",
+   "episodes": 182
+  },
+  {
+   "id": 121769,
+   "name": "Eva LaRue",
+   "photo": "https://image.tmdb.org/t/p/w185/q07Ii35UFA3ayPPFBe98ARzbDg8.jpg",
+   "character": "Natalia Boa Vista",
+   "episodes": 153
+  },
+  {
+   "id": 19265,
+   "name": "Khandi Alexander",
+   "photo": "https://image.tmdb.org/t/p/w185/53IjZhkaywgsM0ZkDt3GJQtY5ls.jpg",
+   "character": "Alexx Woods",
+   "episodes": 145
+  },
+  {
+   "id": 111830,
+   "name": "Boti Bliss",
+   "photo": "https://image.tmdb.org/t/p/w185/vgntIUD6f7YrYvHilHkNCqNLyBF.jpg",
+   "character": "Maxine Valera",
+   "episodes": 74
+  },
+  {
+   "id": 334,
+   "name": "Omar Benson Miller",
+   "photo": "https://image.tmdb.org/t/p/w185/adlrkEpxDIcpxF7bpzMGErLxeHP.jpg",
+   "character": "Walter Simmons",
+   "episodes": 65
+  },
+  {
+   "id": 52628,
+   "name": "Sofia Milos",
+   "photo": "https://image.tmdb.org/t/p/w185/ryK5xo9FTDAtTkC0P4oDes3szS1.jpg",
+   "character": "Yelina Salas",
+   "episodes": 60
+  },
+  {
+   "id": 41517,
+   "name": "Christian Clemenson",
+   "photo": "https://image.tmdb.org/t/p/w185/uki9bmhoR4V4x0E7uVTCj9iZwNy.jpg",
+   "character": "Tom Loman",
+   "episodes": 52
+  },
+  {
+   "id": 51792,
+   "name": "Rory Cochrane",
+   "photo": "https://image.tmdb.org/t/p/w185/yBwm1RI4QCRXM0vkkDGVqdoiZLH.jpg",
+   "character": "Tim Speedle",
+   "episodes": 50
+  },
+  {
+   "id": 72440,
+   "name": "Brendan Fehr",
+   "photo": "https://image.tmdb.org/t/p/w185/401AgLwGGfGRmzUT5WxjKb9jUv4.jpg",
+   "character": "Dan Cooper",
+   "episodes": 35
+  },
+  {
+   "id": 56112,
+   "name": "David Lee Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/A3vP0a0CqmQSdslPRnEYDiyIZ3V.jpg",
+   "character": "Rick Stetler",
+   "episodes": 34
+  },
+  {
+   "id": 139747,
+   "name": "Brian Poth",
+   "photo": "https://image.tmdb.org/t/p/w185/907WvCRzIC0gBVaMGdhjntsQtCu.jpg",
+   "character": "Tyler Jenson",
+   "episodes": 30
+  },
+  {
+   "id": 55541,
+   "name": "Eddie Cibrian",
+   "photo": "https://image.tmdb.org/t/p/w185/swcAPvqyUlcn1SfVwcEBzhlFqVP.jpg",
+   "character": "Jesse Cardoza",
+   "episodes": 25
+  },
+  {
+   "id": 78595,
+   "name": "Wes Ramsey",
+   "photo": "https://image.tmdb.org/t/p/w185/77kRUwFr0cWndNlVKy1xQrMYSYS.jpg",
+   "character": "Kip Miller / Dave Benton",
+   "episodes": 25
+  },
+  {
+   "id": 32204,
+   "name": "Christopher Redman",
+   "photo": "https://image.tmdb.org/t/p/w185/hva0KA8hDx0Qq0wR3D04i5zk2wP.jpg",
+   "character": "Michael Travers",
+   "episodes": 25
+  },
+  {
+   "id": 25382,
+   "name": "Megalyn Echikunwoke",
+   "photo": "https://image.tmdb.org/t/p/w185/6MlcgFphohSBTvOTDMEQwQzs66A.jpg",
+   "character": "Tara Price",
+   "episodes": 23
+  },
+  {
+   "id": 181074,
+   "name": "Evan Ellingson",
+   "photo": "https://image.tmdb.org/t/p/w185/oVD1wwHf9JGgAaXGeKT2iNeyxzp.jpg",
+   "character": "Kyle Harmon",
+   "episodes": 18
+  },
+  {
+   "id": 56685,
+   "name": "Brooke Bloom",
+   "photo": "https://image.tmdb.org/t/p/w185/1MQEhhWgEfJ2Fqgw7uSGu0OA9Bj.jpg",
+   "character": "Cynthia Wells",
+   "episodes": 16
+  },
+  {
+   "id": 173824,
+   "name": "Armando Valdes-Kennedy",
+   "photo": "https://image.tmdb.org/t/p/w185/1CtqhPOwZTEG1hmjTROUXSqL2av.jpg",
+   "character": "Aaron Peters",
+   "episodes": 15
+  },
+  {
+   "id": 1218281,
+   "name": "Alana de la Garza",
+   "photo": "https://image.tmdb.org/t/p/w185/mspGEt558g1s1ZHGCPrIu2cRMRq.jpg",
+   "character": "Marisol Delko",
+   "episodes": 13
+  },
+  {
+   "id": 1259514,
+   "name": "Shelli Bergh",
+   "photo": "https://image.tmdb.org/t/p/w185/t2WXdfGaK0S9lNHcqukF4oTOK7b.jpg",
+   "character": "Paula Muro",
+   "episodes": 12
+  }
+ ],
+ "crew": [
+  {
+   "id": 1039314,
+   "name": "Anthony E. Zuiker",
+   "photo": "https://image.tmdb.org/t/p/w185/fXCjUuwHvPhQTwYjckOjEdLdhVS.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 232
+  },
+  {
+   "id": 1214544,
+   "name": "Ann Donahue",
+   "photo": "https://image.tmdb.org/t/p/w185/loRNThhBJCx3FJi2RQvX519WD1j.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1221343,
+   "name": "Carol Mendelsohn",
+   "photo": "https://image.tmdb.org/t/p/w185/8PlgEHno8Mvg4wqireq7ZQY6Y3a.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 770,
+   "name": "Jerry Bruckheimer",
+   "photo": "https://image.tmdb.org/t/p/w185/sYjNrmbMi4DGAPX6Kt8wVy7LNXI.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 240
+  },
+  {
+   "id": 1610946,
+   "name": "Krystal Houghton Ziv",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 67
+  },
+  {
+   "id": 1212393,
+   "name": "Scott Lautanen",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 28
+  },
+  {
+   "id": 1224315,
+   "name": "Marc Dube",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 28
+  },
+  {
+   "id": 55116,
+   "name": "Joe Chappelle",
+   "photo": "https://image.tmdb.org/t/p/w185/tzKaHCZPh1u28yjIteXsW9pQQGf.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 1222590,
+   "name": "Ildy Modrovich",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 1213367,
+   "name": "Barry O'Brien",
+   "photo": "https://image.tmdb.org/t/p/w185/7PU7FivEukXqOFSOnSWdvfjkJTt.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 1225830,
+   "name": "Sunil Nayar",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 21
+  },
+  {
+   "id": 1225826,
+   "name": "Steven Maeda",
+   "photo": "https://image.tmdb.org/t/p/w185/a00n6nPpeC5bv6tG9fHv099W2d3.jpg",
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 1224314,
+   "name": "C-Murder",
+   "photo": "https://image.tmdb.org/t/p/w185/x76Y9SJQQb1CzGVC12Iy3nKV1Ea.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 1224394,
+   "name": "Elizabeth Devine",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 1215703,
+   "name": "Karen Gaviola",
+   "photo": "https://image.tmdb.org/t/p/w185/tkJ0nzWQIvz4sAno7SZBZ1U6OMF.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 173957,
+   "name": "Matt Earl Beesley",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 15
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:31:59.040Z"
+}

@@ -1,0 +1,326 @@
+{
+ "show": "Bridgerton",
+ "slug": "bridgerton",
+ "tmdbId": 91239,
+ "cast": [
+  {
+   "id": 18031,
+   "name": "Ruth Gemmell",
+   "photo": "https://image.tmdb.org/t/p/w185/hPtU8FTFMOneRQg7LQQdkeakJOe.jpg",
+   "character": "Lady Violet Bridgerton",
+   "episodes": 32
+  },
+  {
+   "id": 1127887,
+   "name": "Luke Thompson",
+   "photo": "https://image.tmdb.org/t/p/w185/2MG3W8vmwYLcZaZzARv5O7GaLe2.jpg",
+   "character": "Benedict Bridgerton",
+   "episodes": 32
+  },
+  {
+   "id": 1439488,
+   "name": "Claudia Jessie",
+   "photo": "https://image.tmdb.org/t/p/w185/urv0p4Mi81m1jZO8YWF1i9NpLL7.jpg",
+   "character": "Eloise Bridgerton",
+   "episodes": 32
+  },
+  {
+   "id": 2908684,
+   "name": "Florence Hunt",
+   "photo": "https://image.tmdb.org/t/p/w185/2PQxOhgqnS4S4JNiAmQtquqgDjF.jpg",
+   "character": "Hyacinth Bridgerton",
+   "episodes": 32
+  },
+  {
+   "id": 1686681,
+   "name": "Will Tilston",
+   "photo": "https://image.tmdb.org/t/p/w185/fdIByL5EeTImhVHtSPaEMBErF2C.jpg",
+   "character": "Gregory Bridgerton",
+   "episodes": 32
+  },
+  {
+   "id": 109651,
+   "name": "Adjoa Andoh",
+   "photo": "https://image.tmdb.org/t/p/w185/4dsLkxU3Vcw1P97JoyGWlbYhV1h.jpg",
+   "character": "Lady Agatha Danbury",
+   "episodes": 32
+  },
+  {
+   "id": 5823,
+   "name": "Julie Andrews",
+   "photo": "https://image.tmdb.org/t/p/w185/ltU0aAunzQCTv5FwtB1sVWjyDi7.jpg",
+   "character": "Lady Whistledown (voice)",
+   "episodes": 32
+  },
+  {
+   "id": 1856875,
+   "name": "Golda Rosheuvel",
+   "photo": "https://image.tmdb.org/t/p/w185/nlSIvTWzMEzZGljKYgpZxGcsJtv.jpg",
+   "character": "Queen Charlotte",
+   "episodes": 32
+  },
+  {
+   "id": 1267240,
+   "name": "Nicola Coughlan",
+   "photo": "https://image.tmdb.org/t/p/w185/bhbFv73vlUM0hXlDdAGDrBBb40x.jpg",
+   "character": "Penelope Featherington / Penelope Bridgerton",
+   "episodes": 32
+  },
+  {
+   "id": 1794961,
+   "name": "Luke Newton",
+   "photo": "https://image.tmdb.org/t/p/w185/hQsWTiBUpE2Jywg8vvvrDLVmG5m.jpg",
+   "character": "Colin Bridgerton",
+   "episodes": 31
+  },
+  {
+   "id": 6416,
+   "name": "Polly Walker",
+   "photo": "https://image.tmdb.org/t/p/w185/eE8dtdlAwnMeramd1pA6eOQzhky.jpg",
+   "character": "Lady Portia Featherington",
+   "episodes": 29
+  },
+  {
+   "id": 52892,
+   "name": "Hugh Sachs",
+   "photo": "https://image.tmdb.org/t/p/w185/adKAI0xh68jPXRpL4QfQTCxdHLN.jpg",
+   "character": "Brimsley",
+   "episodes": 29
+  },
+  {
+   "id": 78329,
+   "name": "Lorraine Ashbourne",
+   "photo": "https://image.tmdb.org/t/p/w185/4cOOwDYkKcCf9G6fdGGDyAR4jru.jpg",
+   "character": "Mrs. Varley",
+   "episodes": 25
+  },
+  {
+   "id": 1278548,
+   "name": "Bessie Carter",
+   "photo": "https://image.tmdb.org/t/p/w185/rMzm3hoFQIisFFXOhsDvHI2Ka9z.jpg",
+   "character": "Prudence Dankworth / Prudence Featherington",
+   "episodes": 24
+  },
+  {
+   "id": 3060703,
+   "name": "Martins Imhangbe",
+   "photo": "https://image.tmdb.org/t/p/w185/ca8Zx7IuK1eNH7dCiLhjql28SEA.jpg",
+   "character": "Will Mondrich",
+   "episodes": 24
+  },
+  {
+   "id": 144291,
+   "name": "Joanna Bobin",
+   "photo": "https://image.tmdb.org/t/p/w185/o7EChpI39n23q6NHiUWtWPOdaVu.jpg",
+   "character": "Lady Cowper",
+   "episodes": 23
+  },
+  {
+   "id": 1522761,
+   "name": "Jessica Madsen",
+   "photo": "https://image.tmdb.org/t/p/w185/6dVwWe0bDFvmsBGOdPQwTf6qqTz.jpg",
+   "character": "Lady Cressida Penwood / Cressida Cowper",
+   "episodes": 23
+  },
+  {
+   "id": 16698,
+   "name": "Geraldine Alexander",
+   "photo": "https://image.tmdb.org/t/p/w185/7XAdGtL8byPLbPTd6oXIyYsiVW2.jpg",
+   "character": "Mrs. Wilson",
+   "episodes": 22
+  },
+  {
+   "id": 80860,
+   "name": "Jonathan Bailey",
+   "photo": "https://image.tmdb.org/t/p/w185/i9m6JsYKQot3kbMMFsvbEuFarvq.jpg",
+   "character": "Lord Anthony Bridgerton",
+   "episodes": 21
+  },
+  {
+   "id": 3109130,
+   "name": "Emma Naomi",
+   "photo": "https://image.tmdb.org/t/p/w185/AmZSHLD0ylTMrbrD2njPFrGTErj.jpg",
+   "character": "Alice Mondrich",
+   "episodes": 21
+  },
+  {
+   "id": 1198657,
+   "name": "Harriet Cains",
+   "photo": "https://image.tmdb.org/t/p/w185/tnYWhvS9ZUrO5Z2ErbAIqm3o0wU.jpg",
+   "character": "Philipa Featherington / Philipa Finch",
+   "episodes": 19
+  },
+  {
+   "id": 1215741,
+   "name": "Kathryn Drysdale",
+   "photo": "https://image.tmdb.org/t/p/w185/ryhIHc6gKVYKmgMxaFSLYv8Tbbi.jpg",
+   "character": "Genevieve Delacroix",
+   "episodes": 18
+  },
+  {
+   "id": 2301682,
+   "name": "Hannah Dodd",
+   "photo": "https://image.tmdb.org/t/p/w185/74dHuedzHpVqEr0fVvi1o10MQnq.jpg",
+   "character": "Lady Francesca Stirling / Francesca Bridgerton",
+   "episodes": 16
+  },
+  {
+   "id": 1768996,
+   "name": "Daniel Francis",
+   "photo": "https://image.tmdb.org/t/p/w185/ltLYFcQHcaS5wdxX085Lhn0vX5v.jpg",
+   "character": "Lord Marcus Anderson",
+   "episodes": 14
+  }
+ ],
+ "crew": [
+  {
+   "id": 1224075,
+   "name": "Chris Van Dusen",
+   "photo": "https://image.tmdb.org/t/p/w185/sm5KrdRKGZdPbTbQsz3GHTlDut1.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 32
+  },
+  {
+   "id": 1802871,
+   "name": "Kris Bowers",
+   "photo": "https://image.tmdb.org/t/p/w185/qL0TnImRmCRIcoQy1d3GjTPKCLn.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 56
+  },
+  {
+   "id": 155423,
+   "name": "Tom Verica",
+   "photo": "https://image.tmdb.org/t/p/w185/kNh4u2PUzXw3shi3M1tmYvsJu4y.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 32
+  },
+  {
+   "id": 60189,
+   "name": "Betsy Beers",
+   "photo": "https://image.tmdb.org/t/p/w185/cTbDGjBHo6TGNTmCIdFDaeCJJa2.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 32
+  },
+  {
+   "id": 25539,
+   "name": "Shonda Rhimes",
+   "photo": "https://image.tmdb.org/t/p/w185/pIQbVxfjNwZ0DaAjo3q107nng1b.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 32
+  },
+  {
+   "id": 1790275,
+   "name": "Jess Brownell",
+   "photo": "https://image.tmdb.org/t/p/w185/vtM6LI2IRufMiO5HUJLkBxltq28.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 4890481,
+   "name": "Geetika Lizardi",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 1754830,
+   "name": "Scott Collins",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 4891686,
+   "name": "Lauren Gamble",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1215145,
+   "name": "Tricia Brock",
+   "photo": "https://image.tmdb.org/t/p/w185/5OV41AzetM5WrJ0zKqmw4mShEk5.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1745472,
+   "name": "Daniel Robinson",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 2921787,
+   "name": "Abby McDonald",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 2254959,
+   "name": "Anya Adams",
+   "photo": "https://image.tmdb.org/t/p/w185/tRfg1JVoNmtHb6pIcPUr8bqPXtr.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 114597,
+   "name": "Julie Anne Robinson",
+   "photo": "https://image.tmdb.org/t/p/w185/aU45ueRolsFcMfdoxENSTXvAzTO.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 588044,
+   "name": "Jaffar Mahmood",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 232937,
+   "name": "Cheryl Dunye",
+   "photo": "https://image.tmdb.org/t/p/w185/cvWpqZsUJhjgaF6miieSN2sA30A.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:13.327Z"
+}

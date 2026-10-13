@@ -1,0 +1,322 @@
+{
+ "show": "Steins;Gate",
+ "slug": "steins-gate",
+ "tmdbId": 42509,
+ "cast": [
+  {
+   "id": 93803,
+   "name": "Mamoru Miyano",
+   "photo": "https://image.tmdb.org/t/p/w185/nuok8ueG7k9hPZ09Tpr8e7Qn0ah.jpg",
+   "character": "Rintaro Okabe (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1133618,
+   "name": "Asami Imai",
+   "photo": "https://image.tmdb.org/t/p/w185/6Ff0ilLyKLQOMMdqqqiuK3U9VSb.jpg",
+   "character": "Kurisu Makise (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 119143,
+   "name": "Kana Hanazawa",
+   "photo": "https://image.tmdb.org/t/p/w185/9UTBlNRopSOKyoWnCm74tyHOfR1.jpg",
+   "character": "Mayuri Shiina (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 90567,
+   "name": "Tomokazu Seki",
+   "photo": "https://image.tmdb.org/t/p/w185/jGQC9KkfNMh2wBgizw81GLX2KN2.jpg",
+   "character": "Itaru Hashida (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 203268,
+   "name": "Yukari Tamura",
+   "photo": "https://image.tmdb.org/t/p/w185/AigHQPetpcKee62ekHsYFSpQeWE.jpg",
+   "character": "Suzuha Amane (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1241347,
+   "name": "Haruko Momoi",
+   "photo": "https://image.tmdb.org/t/p/w185/cDjilVOYTQVhId9xmSLIrbk570W.jpg",
+   "character": "Faris Nyan-Nyan (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1123401,
+   "name": "Yu Kobayashi",
+   "photo": "https://image.tmdb.org/t/p/w185/p3OKrnliz2C8ub14Pn5pN3T8Q9B.jpg",
+   "character": "Luka Urushibara (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1247748,
+   "name": "Saori Goto",
+   "photo": "https://image.tmdb.org/t/p/w185/qgBV4N6InQTXtGus4tqxenSAjJi.jpg",
+   "character": "Moeka Kiryuu (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 219659,
+   "name": "Masaki Terasoma",
+   "photo": "https://image.tmdb.org/t/p/w185/eol7Ul4buAam9SmJDuFIWln0Cd3.jpg",
+   "character": "Yuugo Tennouji (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 147896,
+   "name": "Ayano Yamamoto",
+   "photo": "https://image.tmdb.org/t/p/w185/f1eYV3oWGTlGv2lB1ztS6iOQZr8.jpg",
+   "character": "Nae Tennouji (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 1605646,
+   "name": "Hiroko Ushida",
+   "photo": "https://image.tmdb.org/t/p/w185/oeGExoRCvCyUOO2WKlzzbNJcWaT.jpg",
+   "character": "Clerk (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 4288838,
+   "name": "Takayuki Saito",
+   "photo": null,
+   "character": "Rounder (voice) / Guest A (voice) / Man (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 1091989,
+   "name": "Hiroshi Tsuchida",
+   "photo": "https://image.tmdb.org/t/p/w185/ySiUpcn6UbIzPl4e411ZJMzbIsJ.jpg",
+   "character": "John Titor (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 2844832,
+   "name": "Katsunori Kobayashi",
+   "photo": "https://image.tmdb.org/t/p/w185/djDDvxOrphcFjAaTmbrAv64nOG4.jpg",
+   "character": "Announcer (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 1535757,
+   "name": "Naoko Sakakibara",
+   "photo": "https://image.tmdb.org/t/p/w185/mhRsEx4R6wN2kBJ5Jo3NeUKQYdQ.jpg",
+   "character": "Newscaster (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 1243480,
+   "name": "Mitsuru Ogata",
+   "photo": "https://image.tmdb.org/t/p/w185/hU4oLTtbjMSHbDfByuhQx9jzaym.jpg",
+   "character": "Dr. Nakabachi (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 3090361,
+   "name": "Takuya Sato",
+   "photo": "https://image.tmdb.org/t/p/w185/lswa7oAXwnJctOcfUzkkJPYX9LQ.jpg",
+   "character": "Announcer (voice) / Reporter (voice) / Guest B (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 4288902,
+   "name": "Takahito Soda",
+   "photo": null,
+   "character": "Rounder (voice) / Station Announcer (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 1210092,
+   "name": "Taira Kikumoto",
+   "photo": "https://image.tmdb.org/t/p/w185/46qjwn3xArvDSrtwXmBEE6GPaU7.jpg",
+   "character": "Yukitaka Akiha (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 1845076,
+   "name": "Kouji Takeda",
+   "photo": "https://image.tmdb.org/t/p/w185/teRbDEcwXamhm55yRgUQQZtAqIA.jpg",
+   "character": "Clerk (voice) / Viral Attacker (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 2070220,
+   "name": "Masaaki Itatori",
+   "photo": "https://image.tmdb.org/t/p/w185/7P16sjh0vq1PDaMWndShTsIZxNd.jpg",
+   "character": "Rounder (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 1139912,
+   "name": "Toa Yukinari",
+   "photo": "https://image.tmdb.org/t/p/w185/aR11JLaHVeTM1RgGULsU9zIiaZs.jpg",
+   "character": "Mother (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 2921834,
+   "name": "Mai Hirano",
+   "photo": "https://image.tmdb.org/t/p/w185/loO84Owz0wCqhI4Cji0fhqets1n.jpg",
+   "character": "Boy (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 913930,
+   "name": "Manabu Sakamaki",
+   "photo": "https://image.tmdb.org/t/p/w185/xJeBFm6McJIVmdjFlCqDRj8iyYr.jpg",
+   "character": "Street Vendor (voice)",
+   "episodes": 2
+  }
+ ],
+ "crew": [
+  {
+   "id": 186342,
+   "name": "Jukki Hanada",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 38
+  },
+  {
+   "id": 929856,
+   "name": "Takeshi Abo",
+   "photo": "https://image.tmdb.org/t/p/w185/l5HbzPFzkSUih3mhxcG2f4SymKG.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 3535781,
+   "name": "Jun Murakami",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1388755,
+   "name": "Kazuhiro Ozawa",
+   "photo": "https://image.tmdb.org/t/p/w185/bfGkfwEHS8p3HjTYmLWNuzkWWxU.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1606210,
+   "name": "Toshizo Nemoto",
+   "photo": "https://image.tmdb.org/t/p/w185/5OESTDPyickmDll6Bjb478VFJFh.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 550581,
+   "name": "Masahiro Yokotani",
+   "photo": "https://image.tmdb.org/t/p/w185/vFFo7ODIFfKuoKlRqGpGweIDFTE.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 233655,
+   "name": "Kanji Wakabayashi",
+   "photo": "https://image.tmdb.org/t/p/w185/smhfXxP4CRXZwk2bPG7QAAullqJ.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1388752,
+   "name": "Tomoki Kobayashi",
+   "photo": "https://image.tmdb.org/t/p/w185/gFOVcr1HjhvKmWBUJgTkrb28ITw.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1846182,
+   "name": "Koji Kobayashi",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1822255,
+   "name": "Hisato Shimoda",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1523902,
+   "name": "Tomoko Hiramuki",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1627364,
+   "name": "Yoshito Mikamo",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 2094128,
+   "name": "Shigetaka Ikeda",
+   "photo": "https://image.tmdb.org/t/p/w185/bcb6DRNRUTLnWbsk2RSxRjDp41C.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1144885,
+   "name": "Yuzuru Tachikawa",
+   "photo": "https://image.tmdb.org/t/p/w185/bosjVUAL6mVC7D58w9YxuP2reDw.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 550621,
+   "name": "Hiroshi Hamasaki",
+   "photo": "https://image.tmdb.org/t/p/w185/mnjtGa8F6tIwIWosILZ7m2GFZ4o.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 551775,
+   "name": "Hiroyuki Tsuchiya",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:38:40.037Z"
+}

@@ -1,0 +1,330 @@
+{
+ "show": "Avatar: The Last Airbender",
+ "slug": "avatar-the-last-airbender",
+ "tmdbId": 82452,
+ "cast": [
+  {
+   "id": 2447707,
+   "name": "Gordon Cormier",
+   "photo": "https://image.tmdb.org/t/p/w185/1l7hsuaMZ9lmpmJAkxJfM1nJq3p.jpg",
+   "character": "Aang",
+   "episodes": 15
+  },
+  {
+   "id": 2718335,
+   "name": "Kiawentiio",
+   "photo": "https://image.tmdb.org/t/p/w185/vsjD9XhOYk8GbYdH7vfMNEoOSLv.jpg",
+   "character": "Katara",
+   "episodes": 15
+  },
+  {
+   "id": 2595507,
+   "name": "Ian Ousley",
+   "photo": "https://image.tmdb.org/t/p/w185/ijBAHEOoDyCjt3iYhHm6yBVwka2.jpg",
+   "character": "Sokka",
+   "episodes": 15
+  },
+  {
+   "id": 1792920,
+   "name": "Dallas Liu",
+   "photo": "https://image.tmdb.org/t/p/w185/aismdzGeONTJHiPfofNaKGZSKZu.jpg",
+   "character": "Zuko",
+   "episodes": 15
+  },
+  {
+   "id": 178068,
+   "name": "Paul Sun-Hyung Lee",
+   "photo": "https://image.tmdb.org/t/p/w185/qyJG3qC1TImpJYN0zCgnFSQzzOF.jpg",
+   "character": "Uncle Iroh",
+   "episodes": 15
+  },
+  {
+   "id": 157067,
+   "name": "Matthew Yang King",
+   "photo": "https://image.tmdb.org/t/p/w185/4ck5cTZit0GZVynMSPOEbrF6qTp.jpg",
+   "character": "Appa/Momo(voice) / Appa / Momo (voice)",
+   "episodes": 14
+  },
+  {
+   "id": 3417134,
+   "name": "Elizabeth Yu",
+   "photo": "https://image.tmdb.org/t/p/w185/1oNayhi4DS9nbN9cncKpPtOZXeQ.jpg",
+   "character": "Azula / Princess Azula",
+   "episodes": 12
+  },
+  {
+   "id": 18307,
+   "name": "Daniel Dae Kim",
+   "photo": "https://image.tmdb.org/t/p/w185/AtKRWsC4UhEjzorWlL2eguzZ9XM.jpg",
+   "character": "Fire Lord Ozai",
+   "episodes": 11
+  },
+  {
+   "id": 2782707,
+   "name": "Thalia Tran",
+   "photo": "https://image.tmdb.org/t/p/w185/f5UdVlrtai1iQVAhy14uNONUkJf.jpg",
+   "character": "Mai",
+   "episodes": 9
+  },
+  {
+   "id": 2298635,
+   "name": "Momona Tamada",
+   "photo": "https://image.tmdb.org/t/p/w185/25vFWFpuMppnyXQAoJUfzNWwYZu.jpg",
+   "character": "Ty Lee",
+   "episodes": 9
+  },
+  {
+   "id": 2131,
+   "name": "Ken Leung",
+   "photo": "https://image.tmdb.org/t/p/w185/hpatUP6u74gkpDRmn9voNY9V43O.jpg",
+   "character": "Commander Zhao",
+   "episodes": 8
+  },
+  {
+   "id": 1771746,
+   "name": "Miyako",
+   "photo": "https://image.tmdb.org/t/p/w185/xMpZZBr9FxwIHAiOE9PLZ1wvlZs.jpg",
+   "character": "Toph Beifong",
+   "episodes": 7
+  },
+  {
+   "id": 23680,
+   "name": "Dee Bradley Baker",
+   "photo": "https://image.tmdb.org/t/p/w185/9oFnToDZWp0I484s7Ua1EzNQQ2m.jpg",
+   "character": "Appa/Momo(voice)",
+   "episodes": 7
+  },
+  {
+   "id": 3008571,
+   "name": "Ruy Iskandar",
+   "photo": "https://image.tmdb.org/t/p/w185/8xQXl6eGkhqBp35xoagbwjUSIv.jpg",
+   "character": "Lieutenant Jee",
+   "episodes": 6
+  },
+  {
+   "id": 3320666,
+   "name": "Maria Zhang",
+   "photo": "https://image.tmdb.org/t/p/w185/A8l9dWZH1oSBag58GfbFAT8wfB8.jpg",
+   "character": "Suki",
+   "episodes": 5
+  },
+  {
+   "id": 3169325,
+   "name": "Sebastian Amoruso",
+   "photo": "https://image.tmdb.org/t/p/w185/2pSyOp2UFdvDyw11jFIJ0XVUbwx.jpg",
+   "character": "Jet",
+   "episodes": 5
+  },
+  {
+   "id": 2225815,
+   "name": "Yvonne Chapman",
+   "photo": "https://image.tmdb.org/t/p/w185/rDbiwuGvzd8WOgyQNo5RTmbwvF1.jpg",
+   "character": "Kyoshi / Avatar Kyoshi",
+   "episodes": 5
+  },
+  {
+   "id": 205179,
+   "name": "Danny Pudi",
+   "photo": "https://image.tmdb.org/t/p/w185/w0zT8Y2dQHU8FgV03NJoHJE6tmD.jpg",
+   "character": "Sai / The Mechanist",
+   "episodes": 5
+  },
+  {
+   "id": 62717,
+   "name": "Rekha Sharma",
+   "photo": "https://image.tmdb.org/t/p/w185/expPWm2S08u334D9ZiN6MUOozRv.jpg",
+   "character": "Amita",
+   "episodes": 5
+  },
+  {
+   "id": 101015,
+   "name": "Chin Han",
+   "photo": "https://image.tmdb.org/t/p/w185/3XJXmYm6r4Hvm3izOArU58fhQrT.jpg",
+   "character": "Long Feng",
+   "episodes": 5
+  },
+  {
+   "id": 17155,
+   "name": "Lim Kay Siu",
+   "photo": null,
+   "character": "Gyatso",
+   "episodes": 4
+  },
+  {
+   "id": 929511,
+   "name": "Utkarsh Ambudkar",
+   "photo": "https://image.tmdb.org/t/p/w185/vUW5bFrkjWikNFzh5B6F11r5C3X.jpg",
+   "character": "King Bumi",
+   "episodes": 4
+  },
+  {
+   "id": 1261370,
+   "name": "Meegwun Fairbrother",
+   "photo": "https://image.tmdb.org/t/p/w185/npbmcqKhPNg1Ml0D2Ng3FGhTI6Z.jpg",
+   "character": "Avatar Kuruk",
+   "episodes": 4
+  },
+  {
+   "id": 5896912,
+   "name": "Lin Lin",
+   "photo": null,
+   "character": "Kyoshi Warrio Daitan / Kyoshi Warrior Daitan",
+   "episodes": 4
+  }
+ ],
+ "crew": [
+  {
+   "id": 209839,
+   "name": "Albert Kim",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 1190518,
+   "name": "Bryan Konietzko",
+   "photo": "https://image.tmdb.org/t/p/w185/5lPnGvtATjmPakR96dqPW3v4u8q.jpg",
+   "jobs": [
+    "Story",
+    "Teleplay"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 1190517,
+   "name": "Michael Dante DiMartino",
+   "photo": "https://image.tmdb.org/t/p/w185/8ey06cRWYe5TlKl5tyYQf57kknw.jpg",
+   "jobs": [
+    "Teleplay",
+    "Story"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 1420778,
+   "name": "Jabbar Raisani",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 112690,
+   "name": "Dan Lin",
+   "photo": "https://image.tmdb.org/t/p/w185/skXxQ2MZ2OYpP0aFyBoieFTT3iK.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 1686000,
+   "name": "Ryan Halprin",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 1224196,
+   "name": "Christine Boylan",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 1526939,
+   "name": "Takeshi Furukawa",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 978336,
+   "name": "Brendan Ferguson",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 2520589,
+   "name": "Keely MacDonald",
+   "photo": "https://image.tmdb.org/t/p/w185/zHMW9oqM9wPfxSHnaDslu0PkMe6.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 4071492,
+   "name": "Audrey Wong Kennedy",
+   "photo": "https://image.tmdb.org/t/p/w185/uPc5s11jcOQn2bdEju5bs9GquPj.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 236592,
+   "name": "Michael Goi",
+   "photo": "https://image.tmdb.org/t/p/w185/i67FTwfeC7KSFTytkMz4W2Cc9lc.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 3197119,
+   "name": "Lindsey Liberatore",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1391251,
+   "name": "Phinneas Kiyomura",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1379193,
+   "name": "Gabriel Llanas",
+   "photo": "https://image.tmdb.org/t/p/w185/zyoO4ha6SoMLboPAur222XEYD2O.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1646407,
+   "name": "Anu Menon",
+   "photo": "https://image.tmdb.org/t/p/w185/sORiYChAjDmIu2mAoA0dncecyMB.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:29:19.568Z"
+}

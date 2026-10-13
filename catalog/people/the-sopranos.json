@@ -1,0 +1,340 @@
+{
+ "show": "The Sopranos",
+ "slug": "the-sopranos",
+ "tmdbId": 1398,
+ "cast": [
+  {
+   "id": 4691,
+   "name": "James Gandolfini",
+   "photo": "https://image.tmdb.org/t/p/w185/vhtsFJZcfHdeDkFBoWMDzOS6xrP.jpg",
+   "character": "Tony Soprano",
+   "episodes": 86
+  },
+  {
+   "id": 36190,
+   "name": "Edie Falco",
+   "photo": "https://image.tmdb.org/t/p/w185/jS2Hnr5OmntpX0J7EpH70zAG0mz.jpg",
+   "character": "Carmela Soprano",
+   "episodes": 86
+  },
+  {
+   "id": 99241,
+   "name": "Jamie-Lynn Sigler",
+   "photo": "https://image.tmdb.org/t/p/w185/Aur8H7qOzDUr9cRaqqOsCE5kLJp.jpg",
+   "character": "Meadow Soprano",
+   "episodes": 86
+  },
+  {
+   "id": 1218240,
+   "name": "Robert Iler",
+   "photo": "https://image.tmdb.org/t/p/w185/vfTbVoV1Bp2fcDVHaGOIiQppk3J.jpg",
+   "character": "A.J. Soprano",
+   "episodes": 86
+  },
+  {
+   "id": 11478,
+   "name": "Lorraine Bracco",
+   "photo": "https://image.tmdb.org/t/p/w185/tAtpCzN4sTOy1RHpMpJj52zTO4S.jpg",
+   "character": "Jennifer Melfi",
+   "episodes": 86
+  },
+  {
+   "id": 11486,
+   "name": "Michael Imperioli",
+   "photo": "https://image.tmdb.org/t/p/w185/bCDwQGrecRujCibI8rvsxEc91We.jpg",
+   "character": "Christopher Moltisanti",
+   "episodes": 86
+  },
+  {
+   "id": 107622,
+   "name": "Steven Van Zandt",
+   "photo": "https://image.tmdb.org/t/p/w185/okh4QNQrGG647y5HnGSXAFFoIlp.jpg",
+   "character": "Silvio Dante",
+   "episodes": 86
+  },
+  {
+   "id": 21385,
+   "name": "Tony Sirico",
+   "photo": "https://image.tmdb.org/t/p/w185/yiTvFhaPlVIWETNObwqB72hgNeI.jpg",
+   "character": "Paulie Gualtieri",
+   "episodes": 86
+  },
+  {
+   "id": 68186,
+   "name": "Dominic Chianese",
+   "photo": "https://image.tmdb.org/t/p/w185/9OCAByYHjY6yO0s5ipBH3roaQpy.jpg",
+   "character": "Corrado 'Junior' Soprano",
+   "episodes": 86
+  },
+  {
+   "id": 106791,
+   "name": "Aida Turturro",
+   "photo": "https://image.tmdb.org/t/p/w185/kEPpV3eHXOKXGWGtsxUUV6k1hai.jpg",
+   "character": "Janice Soprano",
+   "episodes": 73
+  },
+  {
+   "id": 97188,
+   "name": "Steve Schirripa",
+   "photo": "https://image.tmdb.org/t/p/w185/2Nd2Hd4zIBCv4ZoXFhSkrJCx6wB.jpg",
+   "character": "Bobby 'Bacala' Baccalieri",
+   "episodes": 61
+  },
+  {
+   "id": 70767,
+   "name": "Drea de Matteo",
+   "photo": "https://image.tmdb.org/t/p/w185/9GTHIR3MjZYstqVLDdEgJSQUyw8.jpg",
+   "character": "Adriana La Cerva",
+   "episodes": 61
+  },
+  {
+   "id": 150651,
+   "name": "Dan Grimaldi",
+   "photo": "https://image.tmdb.org/t/p/w185/mbLQuZI9Kxybr8mfAAVc11ztqMc.jpg",
+   "character": "Patsy Parisi",
+   "episodes": 47
+  },
+  {
+   "id": 1218174,
+   "name": "Joseph R. Gannascoli",
+   "photo": "https://image.tmdb.org/t/p/w185/zEYyN6kNIhtaFwYnDKlfiCnxjqY.jpg",
+   "character": "Bakery Customer / Vito Spatafore",
+   "episodes": 39
+  },
+  {
+   "id": 87707,
+   "name": "John Ventimiglia",
+   "photo": "https://image.tmdb.org/t/p/w185/1KSrI47Q3mdb3XXoEpiNaZoWsGp.jpg",
+   "character": "Artie Bucco",
+   "episodes": 37
+  },
+  {
+   "id": 139703,
+   "name": "Sharon Angela",
+   "photo": "https://image.tmdb.org/t/p/w185/hKeENflE9HktZMKr5yJibzwHVbW.jpg",
+   "character": "Rosalie Aprile",
+   "episodes": 37
+  },
+  {
+   "id": 171719,
+   "name": "Vincent Curatola",
+   "photo": "https://image.tmdb.org/t/p/w185/e8qC4MLVTiGB5mWwL7lQddzDPel.jpg",
+   "character": "Johnny 'Sack' Sacramoni",
+   "episodes": 32
+  },
+  {
+   "id": 47774,
+   "name": "Vincent Pastore",
+   "photo": "https://image.tmdb.org/t/p/w185/dyRRn8POwLUMHT7lIISujioYOym.jpg",
+   "character": "Salvatore 'Big Pussy' Bonpensiero",
+   "episodes": 30
+  },
+  {
+   "id": 7164,
+   "name": "Frank Vincent",
+   "photo": "https://image.tmdb.org/t/p/w185/fa1gikNsPKvX1roWUo2bBmixnvp.jpg",
+   "character": "Phil Leotardo",
+   "episodes": 30
+  },
+  {
+   "id": 28033,
+   "name": "Arthur J. Nascarella",
+   "photo": "https://image.tmdb.org/t/p/w185/76LAigu7y50aPIhkAJbJZIC8p70.jpg",
+   "character": "Carlo Gervasi",
+   "episodes": 28
+  },
+  {
+   "id": 7133,
+   "name": "Max Casella",
+   "photo": "https://image.tmdb.org/t/p/w185/5CNTDSCBhWPclTLTyTBy8oHUkzb.jpg",
+   "character": "Benny Fazio",
+   "episodes": 28
+  },
+  {
+   "id": 1184596,
+   "name": "Maureen Van Zandt",
+   "photo": "https://image.tmdb.org/t/p/w185/ePfpKEsA8GRQzRoQqNWQuUucJxE.jpg",
+   "character": "Gabriella Dante",
+   "episodes": 28
+  },
+  {
+   "id": 24292,
+   "name": "Jerry Adler",
+   "photo": "https://image.tmdb.org/t/p/w185/8HZi9sk98qH5IroTc1vyyo2AZ3C.jpg",
+   "character": "Hesh Rabkin",
+   "episodes": 28
+  },
+  {
+   "id": 12957,
+   "name": "Nancy Marchand",
+   "photo": "https://image.tmdb.org/t/p/w185/4dPOOlSAGXZ9Bf5BcSc7I2QMEiA.jpg",
+   "character": "Livia Soprano / Livia Soprano (archive footage)",
+   "episodes": 27
+  }
+ ],
+ "crew": [
+  {
+   "id": 99898,
+   "name": "David Chase",
+   "photo": "https://image.tmdb.org/t/p/w185/jv6o40ugYcutRRMYDVJxvaqQ9aj.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 86
+  },
+  {
+   "id": 1298,
+   "name": "Brad Grey",
+   "photo": "https://image.tmdb.org/t/p/w185/mTYr0jWho1H3upPvhYiaPsyGap0.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 86
+  },
+  {
+   "id": 1223781,
+   "name": "Ilene Landress",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 86
+  },
+  {
+   "id": 62635,
+   "name": "Terence Winter",
+   "photo": "https://image.tmdb.org/t/p/w185/6zXJtYwjH9njuAcyCIeZXngVOgR.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 73
+  },
+  {
+   "id": 1215436,
+   "name": "Robin Green",
+   "photo": "https://image.tmdb.org/t/p/w185/7i59ozcPAKKkMaH6i1Eubf0zrcu.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 70
+  },
+  {
+   "id": 1215437,
+   "name": "Mitchell Burgess",
+   "photo": "https://image.tmdb.org/t/p/w185/7K1D3FvUwzv902NzihG02iFVGKB.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 70
+  },
+  {
+   "id": 1187819,
+   "name": "Matthew Weiner",
+   "photo": "https://image.tmdb.org/t/p/w185/s8aoKDSUhNAiil0P2JHnZKresrH.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 34
+  },
+  {
+   "id": 44797,
+   "name": "Tim Van Patten",
+   "photo": "https://image.tmdb.org/t/p/w185/vwcARZBg4PEzOwnPsXdjRWeUVrZ.jpg",
+   "jobs": [
+    "Director",
+    "Story"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 104019,
+   "name": "John Patterson",
+   "photo": "https://image.tmdb.org/t/p/w185/zxPHYJDXbxSXdGVHOMxkYvKIgML.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 16834,
+   "name": "Allen Coulter",
+   "photo": "https://image.tmdb.org/t/p/w185/q3KnyrQqaJ20kkIyo3Z5PqNCWlE.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 47005,
+   "name": "Alan Taylor",
+   "photo": "https://image.tmdb.org/t/p/w185/sXC2wNRo7lshghNnNaPdWQ9sqKe.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 155080,
+   "name": "Frank Renzulli",
+   "photo": "https://image.tmdb.org/t/p/w185/lEdN9zYJ1Hgfhg9zm2yDGzz7h6G.jpg",
+   "jobs": [
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1223734,
+   "name": "Jason Cahill",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 180421,
+   "name": "Michael Caleo",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1223736,
+   "name": "Mark Saraceni",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 3006,
+   "name": "Toni Kalem",
+   "photo": "https://image.tmdb.org/t/p/w185/m5PpCV3QTpTNR9KdKsnQnZo2Iof.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:31:26.569Z"
+}

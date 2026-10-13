@@ -1,0 +1,326 @@
+{
+ "show": "Boston Blue",
+ "slug": "boston-blue",
+ "tmdbId": 284736,
+ "cast": [
+  {
+   "id": 2680,
+   "name": "Donnie Wahlberg",
+   "photo": "https://image.tmdb.org/t/p/w185/8OQTlgl7eGAFlKTF2o8rZZT0MoF.jpg",
+   "character": "Det. Danny Reagan",
+   "episodes": 23
+  },
+  {
+   "id": 1031067,
+   "name": "Sonequa Martin-Green",
+   "photo": "https://image.tmdb.org/t/p/w185/xhxKESzX3R47VXLIN3lCHYHHaY7.jpg",
+   "character": "Det. Lena Silver",
+   "episodes": 23
+  },
+  {
+   "id": 8874,
+   "name": "Ernie Hudson",
+   "photo": "https://image.tmdb.org/t/p/w185/kgAdQA2ItCDVvKXufeDHc6Omiso.jpg",
+   "character": "Rev. Edwin Peters",
+   "episodes": 23
+  },
+  {
+   "id": 51873,
+   "name": "Maggie Lawson",
+   "photo": "https://image.tmdb.org/t/p/w185/9AZEDpnDrOMkCf9hqWhY4szrv3X.jpg",
+   "character": "Supt. Sarah Silver",
+   "episodes": 23
+  },
+  {
+   "id": 21369,
+   "name": "Gloria Reuben",
+   "photo": "https://image.tmdb.org/t/p/w185/7Ttd3nj1M9P8YE9LzCvGZcvPUQR.jpg",
+   "character": "DA Mae Silver",
+   "episodes": 23
+  },
+  {
+   "id": 1348591,
+   "name": "Marcus Scribner",
+   "photo": "https://image.tmdb.org/t/p/w185/mm7f9MssRDDAphGPp2OJE6Ial01.jpg",
+   "character": "Ofc. Jonah Silver",
+   "episodes": 23
+  },
+  {
+   "id": 2184164,
+   "name": "Mika Amonsen",
+   "photo": "https://image.tmdb.org/t/p/w185/uMSmuprmkmIPdtqJdeOIgHyS7md.jpg",
+   "character": "Ofc. Sean Reagan",
+   "episodes": 23
+  },
+  {
+   "id": 154988,
+   "name": "Marisa Ramirez",
+   "photo": "https://image.tmdb.org/t/p/w185/dE0Sx1J7V0FYviow3x554A0Aufh.jpg",
+   "character": "Maria Baez",
+   "episodes": 5
+  },
+  {
+   "id": 3543561,
+   "name": "Emily Mitchell",
+   "photo": "https://image.tmdb.org/t/p/w185/A6gzXB5KbLwnrMH07lX3i43Lahs.jpg",
+   "character": "Katie Larson",
+   "episodes": 3
+  },
+  {
+   "id": 1629633,
+   "name": "Ryan Broussard",
+   "photo": "https://image.tmdb.org/t/p/w185/9IJCebw6L5GTUfPEoonKYqwRQC6.jpg",
+   "character": "Detective Brian Rodgers",
+   "episodes": 3
+  },
+  {
+   "id": 6858,
+   "name": "Mike Vogel",
+   "photo": "https://image.tmdb.org/t/p/w185/5pOkcl3D9JnGMR50gSDaAY2TIry.jpg",
+   "character": "Seth Yates",
+   "episodes": 3
+  },
+  {
+   "id": 1912381,
+   "name": "Xochitl Gomez",
+   "photo": "https://image.tmdb.org/t/p/w185/q39DOx44YHrGF1h88R9HxRNZS3.jpg",
+   "character": "Penelope 'Penny' Bravo",
+   "episodes": 3
+  },
+  {
+   "id": 18354,
+   "name": "Bridget Moynahan",
+   "photo": "https://image.tmdb.org/t/p/w185/7WuwRCcwtBmJZ64pNsLbwhQCEA4.jpg",
+   "character": "Erin Reagan",
+   "episodes": 2
+  },
+  {
+   "id": 1541740,
+   "name": "Kenric Green",
+   "photo": "https://image.tmdb.org/t/p/w185/nAzs32lxuA6WgRg5XZI3ramUkTi.jpg",
+   "character": "Charlie",
+   "episodes": 2
+  },
+  {
+   "id": 41247,
+   "name": "Len Cariou",
+   "photo": "https://image.tmdb.org/t/p/w185/9VJeCcxHkPkN4xH4izmwYHXRMy2.jpg",
+   "character": "Henry Reagan",
+   "episodes": 2
+  },
+  {
+   "id": 1233014,
+   "name": "Jonathan Koensgen",
+   "photo": "https://image.tmdb.org/t/p/w185/9dlOCwupDLeeQkVcjxgPMKXBasf.jpg",
+   "character": "Patrick 'Sully' Sullivan",
+   "episodes": 1
+  },
+  {
+   "id": 2131928,
+   "name": "Matia Jackett",
+   "photo": "https://image.tmdb.org/t/p/w185/vSa8hT777ZRM8wcn6hwdDy4fM5S.jpg",
+   "character": "Phoebe Yates",
+   "episodes": 1
+  },
+  {
+   "id": 1181129,
+   "name": "Marie Ward",
+   "photo": "https://image.tmdb.org/t/p/w185/wMWAiGzlvwuzCrYAtTdcL8fr0lG.jpg",
+   "character": "Joanna Daniels",
+   "episodes": 1
+  },
+  {
+   "id": 3208077,
+   "name": "Braxton Fannin",
+   "photo": "https://image.tmdb.org/t/p/w185/r4BgZAzT5R3yG2H0XYGWgw6hI86.jpg",
+   "character": "Jimmy Holloway",
+   "episodes": 1
+  },
+  {
+   "id": 156648,
+   "name": "Joel de la Fuente",
+   "photo": "https://image.tmdb.org/t/p/w185/xRDyGJpIYG0IFEv1nLD3C23WSeA.jpg",
+   "character": "Bobby Mullins",
+   "episodes": 1
+  },
+  {
+   "id": 2238878,
+   "name": "Mark MacRae",
+   "photo": null,
+   "character": "Denzel",
+   "episodes": 1
+  },
+  {
+   "id": 2712739,
+   "name": "Steven Pigozzo",
+   "photo": "https://image.tmdb.org/t/p/w185/lyniNA63spZwYnUs3GSqtctP79q.jpg",
+   "character": "Det. Keith Ward",
+   "episodes": 1
+  },
+  {
+   "id": 1859238,
+   "name": "Chad Camilleri",
+   "photo": "https://image.tmdb.org/t/p/w185/81VFjI3OBVKfEqKqrZ8ETOyQwST.jpg",
+   "character": "Harold Baca",
+   "episodes": 1
+  },
+  {
+   "id": 1348213,
+   "name": "Anastasia Barzee",
+   "photo": "https://image.tmdb.org/t/p/w185/l2lXb9RnEcRMd4xyyr53WT45v2b.jpg",
+   "character": "Naomi Ballard",
+   "episodes": 1
+  }
+ ],
+ "crew": [
+  {
+   "id": 1311444,
+   "name": "Brandon Margolis",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 933104,
+   "name": "Brandon Sonnier",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 5452649,
+   "name": "Estevan",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 6127145,
+   "name": "Dave Metzger",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 6127158,
+   "name": "Dijorn Moss",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 21
+  },
+  {
+   "id": 6127160,
+   "name": "Trinea Moss",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 21
+  },
+  {
+   "id": 770,
+   "name": "Jerry Bruckheimer",
+   "photo": "https://image.tmdb.org/t/p/w185/sYjNrmbMi4DGAPX6Kt8wVy7LNXI.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 2680,
+   "name": "Donnie Wahlberg",
+   "photo": "https://image.tmdb.org/t/p/w185/8OQTlgl7eGAFlKTF2o8rZZT0MoF.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 1512022,
+   "name": "KristieAnne Reed",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 2819081,
+   "name": "Brian Chan",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 2819082,
+   "name": "Caleb Chan",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 1778029,
+   "name": "Sherwin Shilati",
+   "photo": "https://image.tmdb.org/t/p/w185/zp6XyBmmW4DrCMUpRBr0alGolOK.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1214368,
+   "name": "Randall Zisk",
+   "photo": "https://image.tmdb.org/t/p/w185/70VovaU7buN3vGFqdqzloCdUkBs.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 553985,
+   "name": "Terence Paul Winter",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1214867,
+   "name": "Anton Cropper",
+   "photo": "https://image.tmdb.org/t/p/w185/b9Fl0GK8Hc7NfmwzvD0H27baxQz.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 230339,
+   "name": "Sudz Sutherland",
+   "photo": "https://image.tmdb.org/t/p/w185/9fIvS5hYtTejoB8UAJGzbC1L46V.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:35:38.225Z"
+}

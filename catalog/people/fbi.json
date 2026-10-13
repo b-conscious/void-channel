@@ -1,0 +1,333 @@
+{
+ "show": "FBI",
+ "slug": "fbi",
+ "tmdbId": 80748,
+ "cast": [
+  {
+   "id": 34434,
+   "name": "Missy Peregrym",
+   "photo": "https://image.tmdb.org/t/p/w185/buMPx9vULW4crzXI2W3hAt3yg7.jpg",
+   "character": "Maggie Bell",
+   "episodes": 160
+  },
+  {
+   "id": 1370998,
+   "name": "Zeeko Zaki",
+   "photo": "https://image.tmdb.org/t/p/w185/r38igYNkkjIYnuZQhFtGV5t8ZLs.jpg",
+   "character": "Omar Adom 'OA' Zidan",
+   "episodes": 160
+  },
+  {
+   "id": 23958,
+   "name": "Jeremy Sisto",
+   "photo": "https://image.tmdb.org/t/p/w185/1XfuASLjBhGOhJ4os7juRJot2we.jpg",
+   "character": "Jubal Valentine",
+   "episodes": 160
+  },
+  {
+   "id": 1218281,
+   "name": "Alana de la Garza",
+   "photo": "https://image.tmdb.org/t/p/w185/mspGEt558g1s1ZHGCPrIu2cRMRq.jpg",
+   "character": "Isobel Castille",
+   "episodes": 136
+  },
+  {
+   "id": 58621,
+   "name": "John Boyd",
+   "photo": "https://image.tmdb.org/t/p/w185/oHgkm4VtuG1kFNqRCqPd5pKKMd0.jpg",
+   "character": "Stuart Scola",
+   "episodes": 135
+  },
+  {
+   "id": 1346258,
+   "name": "Taylor Anthony Miller",
+   "photo": "https://image.tmdb.org/t/p/w185/chwwDJCFrVhVXjn4Y0WhXd2FcUg.jpg",
+   "character": "Kelly Moran / FBI Analyst Kelly Moran",
+   "episodes": 121
+  },
+  {
+   "id": 1367840,
+   "name": "Vedette Lim",
+   "photo": "https://image.tmdb.org/t/p/w185/s8IBvTX99ft4VEUopSOzSg18fns.jpg",
+   "character": "Elise Taylor / FBI Analyst Elise Taylor",
+   "episodes": 119
+  },
+  {
+   "id": 932116,
+   "name": "James Chen",
+   "photo": "https://image.tmdb.org/t/p/w185/pdig815ZeMSEnxPnKKv91O3XhVB.jpg",
+   "character": "FBI Analyst Ian Lim / Ian Lim",
+   "episodes": 99
+  },
+  {
+   "id": 2824347,
+   "name": "Katherine Renee Kane",
+   "photo": "https://image.tmdb.org/t/p/w185/j3kpjIhqKzq1FeHXd0IqBHvFvPL.jpg",
+   "character": "Tiffany Wallace",
+   "episodes": 73
+  },
+  {
+   "id": 1437573,
+   "name": "Ebonée Noel",
+   "photo": "https://image.tmdb.org/t/p/w185/z6cSVDOhMrHWfuOYJBqLBPbzCdz.jpg",
+   "character": "Kristen Chazal",
+   "episodes": 41
+  },
+  {
+   "id": 1232068,
+   "name": "Roshawn Franklin",
+   "photo": "https://image.tmdb.org/t/p/w185/vfqsvDmeCazjMY3ny7Z13zLwOcz.jpg",
+   "character": "Trevor Hobbs",
+   "episodes": 30
+  },
+  {
+   "id": 1745901,
+   "name": "Thomas Philip O'Neill",
+   "photo": "https://image.tmdb.org/t/p/w185/ocMuZgyMRQQuT6XdI7edC1zQVCO.jpg",
+   "character": "Dr. Neil Mosbach / Neil Mosbach",
+   "episodes": 23
+  },
+  {
+   "id": 6068,
+   "name": "Sela Ward",
+   "photo": "https://image.tmdb.org/t/p/w185/pzQuH9vm182Ar2vpUsakKzxPNV7.jpg",
+   "character": "Dana Mosier",
+   "episodes": 22
+  },
+  {
+   "id": 2969415,
+   "name": "Juliana Aidén Martinez",
+   "photo": "https://image.tmdb.org/t/p/w185/qTbSpmvbrbOKRzgo3LxmuQ0yxkp.jpg",
+   "character": "Eva Ramos",
+   "episodes": 22
+  },
+  {
+   "id": 94423,
+   "name": "Shantel VanSanten",
+   "photo": "https://image.tmdb.org/t/p/w185/pjTcORzZ8TUKtJwYBuzgmT9aLsO.jpg",
+   "character": "Nina Chase",
+   "episodes": 17
+  },
+  {
+   "id": 2211581,
+   "name": "Carmen Lamar",
+   "photo": "https://image.tmdb.org/t/p/w185/zOilouDWJDthPT6X55z03hGSbsi.jpg",
+   "character": "Carla Flores",
+   "episodes": 13
+  },
+  {
+   "id": 1362526,
+   "name": "Mara Davi",
+   "photo": "https://image.tmdb.org/t/p/w185/hVdXIG1Rrma3b16iCIt0n9jsp9W.jpg",
+   "character": "Samantha Kelton",
+   "episodes": 13
+  },
+  {
+   "id": 3676667,
+   "name": "Caleb Reese Paul",
+   "photo": "https://image.tmdb.org/t/p/w185/akmFRMCTch7djzzFKAIZf6L4p5q.jpg",
+   "character": "Tyler Valentine / Tyler Kelton",
+   "episodes": 12
+  },
+  {
+   "id": 2211582,
+   "name": "Derek Hedlund",
+   "photo": "https://image.tmdb.org/t/p/w185/kiLmIgLW6ZBqfQaaV9IYGjBwBVJ.jpg",
+   "character": "JT",
+   "episodes": 9
+  },
+  {
+   "id": 1339929,
+   "name": "Catherine Haena Kim",
+   "photo": "https://image.tmdb.org/t/p/w185/uXqd6dR0GC0ffjqAHrvaBY0UcCY.jpg",
+   "character": "Emily Ryder",
+   "episodes": 9
+  },
+  {
+   "id": 168610,
+   "name": "Kathleen Munroe",
+   "photo": "https://image.tmdb.org/t/p/w185/co8l2AzgtCnx4SgJpcqDrIfIxli.jpg",
+   "character": "Rina Trenholm",
+   "episodes": 8
+  },
+  {
+   "id": 1127717,
+   "name": "Anthoula Katsimatides",
+   "photo": "https://image.tmdb.org/t/p/w185/2pCQoHgzo45ToYrhYZz17wfGJt7.jpg",
+   "character": "Sarah",
+   "episodes": 7
+  },
+  {
+   "id": 1472852,
+   "name": "Natasha Murray",
+   "photo": "https://image.tmdb.org/t/p/w185/5FHkeblkV6kY1tPJcPmE0nxg6ls.jpg",
+   "character": "Lisa Lewis / ERT Leader / ERT One",
+   "episodes": 7
+  },
+  {
+   "id": 1754480,
+   "name": "Nate Richman",
+   "photo": "https://image.tmdb.org/t/p/w185/n67Sj9iCe52sihZolnnZE1Che0O.jpg",
+   "character": "SWAT Leader Dan / SWAT Team Leader Dan",
+   "episodes": 7
+  }
+ ],
+ "crew": [
+  {
+   "id": 117443,
+   "name": "Dick Wolf",
+   "photo": "https://image.tmdb.org/t/p/w185/tRMEuYNVFjXYJ7gh1sGJSxq9Vwq.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Story",
+    "Writer"
+   ],
+   "episodes": 157
+  },
+  {
+   "id": 1631017,
+   "name": "Craig Turk",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1218298,
+   "name": "Peter Jankowski",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 157
+  },
+  {
+   "id": 72268,
+   "name": "Atli Örvarsson",
+   "photo": "https://image.tmdb.org/t/p/w185/fmg2HsSMUWAR2QYhOTFtPdqumIw.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 157
+  },
+  {
+   "id": 1224405,
+   "name": "Rick Eid",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Story",
+    "Writer"
+   ],
+   "episodes": 77
+  },
+  {
+   "id": 164266,
+   "name": "Alex Chapple",
+   "photo": "https://image.tmdb.org/t/p/w185/rUhHJBiXIqHk9zGaNdoS9xlhZQI.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 59
+  },
+  {
+   "id": 1218026,
+   "name": "Arthur W. Forney",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 55
+  },
+  {
+   "id": 60400,
+   "name": "Joe Halpin",
+   "photo": "https://image.tmdb.org/t/p/w185/kzG4QtksuprPOSWWtHqBjBiyW7K.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 34
+  },
+  {
+   "id": 3739050,
+   "name": "Heather Michaels",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 27
+  },
+  {
+   "id": 3739062,
+   "name": "York Walker",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 1331656,
+   "name": "Mike Weiss",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 57347,
+   "name": "Terry Miller",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 2176475,
+   "name": "Claire Demorest",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 36185,
+   "name": "Jean de Segonzac",
+   "photo": "https://image.tmdb.org/t/p/w185/hh8hRu4aj2vJn2qX0x0pAvNj5BX.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 582616,
+   "name": "Aaron Ginsburg",
+   "photo": "https://image.tmdb.org/t/p/w185/hlctZ8PY5GGN4wia5w1Vgf8gJYb.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1218214,
+   "name": "Milena Govich",
+   "photo": "https://image.tmdb.org/t/p/w185/at2GlzRTj6x70P59VlGbGdGJ5Pl.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 8
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:34:19.989Z"
+}

@@ -1,0 +1,337 @@
+{
+ "show": "Billions",
+ "slug": "billions",
+ "tmdbId": 62852,
+ "cast": [
+  {
+   "id": 13242,
+   "name": "Paul Giamatti",
+   "photo": "https://image.tmdb.org/t/p/w185/wbrVVJRr5TwhDZuvijBgOorzcAb.jpg",
+   "character": "Charles 'Chuck' Rhoades Jr.",
+   "episodes": 84
+  },
+  {
+   "id": 74537,
+   "name": "Maggie Siff",
+   "photo": "https://image.tmdb.org/t/p/w185/ufiWZMq4z5yra0At3NlYvyZ72ws.jpg",
+   "character": "Wendy Rhoades",
+   "episodes": 84
+  },
+  {
+   "id": 82167,
+   "name": "David Costabile",
+   "photo": "https://image.tmdb.org/t/p/w185/jTouM1QK24TXy5Q3T40t4AhR8GH.jpg",
+   "character": "Michael 'Wags' Wagner",
+   "episodes": 84
+  },
+  {
+   "id": 1046141,
+   "name": "Dola Rashad",
+   "photo": "https://image.tmdb.org/t/p/w185/tRG8AEfQczExg4cjLMfMdWKxUaq.jpg",
+   "character": "Kate Sacker",
+   "episodes": 84
+  },
+  {
+   "id": 1469243,
+   "name": "Daniel K. Isaac",
+   "photo": "https://image.tmdb.org/t/p/w185/8zuCFiQSrqhDgChyE3ATFTaazqm.jpg",
+   "character": "Ben Kim",
+   "episodes": 83
+  },
+  {
+   "id": 12645,
+   "name": "Jeffrey DeMunn",
+   "photo": "https://image.tmdb.org/t/p/w185/70bkLdlkBB7x2NztuJAh4pjdyxy.jpg",
+   "character": "Chuck Rhoades, Sr.",
+   "episodes": 75
+  },
+  {
+   "id": 1776040,
+   "name": "Asia Kate Dillon",
+   "photo": "https://image.tmdb.org/t/p/w185/hroRQpsMb4fe4VS4nC1hwoRCO1B.jpg",
+   "character": "Taylor Mason",
+   "episodes": 71
+  },
+  {
+   "id": 171727,
+   "name": "Kelly AuCoin",
+   "photo": "https://image.tmdb.org/t/p/w185/fxQoskK0bbWybyz88R0aCGBQgFL.jpg",
+   "character": "'Dollar' Bill Stearn",
+   "episodes": 69
+  },
+  {
+   "id": 20186,
+   "name": "Damian Lewis",
+   "photo": "https://image.tmdb.org/t/p/w185/puOXtVatFnAxoOmsFO8z7KTfyJW.jpg",
+   "character": "Bobby 'Axe' Axelrod",
+   "episodes": 66
+  },
+  {
+   "id": 1578815,
+   "name": "Dan Soder",
+   "photo": "https://image.tmdb.org/t/p/w185/v4RINpMo8sg8ACAFZYfLhqR9o5p.jpg",
+   "character": "Mafee",
+   "episodes": 64
+  },
+  {
+   "id": 187857,
+   "name": "Toby Leonard Moore",
+   "photo": "https://image.tmdb.org/t/p/w185/7GiM5k3T7QfvOOuXvrjNqduhIK4.jpg",
+   "character": "Bryan Connerty",
+   "episodes": 51
+  },
+  {
+   "id": 3407379,
+   "name": "Dhruv Maheshwari",
+   "photo": null,
+   "character": "Tuk Lal",
+   "episodes": 47
+  },
+  {
+   "id": 2199018,
+   "name": "Kira Visser",
+   "photo": null,
+   "character": "Donna",
+   "episodes": 46
+  },
+  {
+   "id": 163731,
+   "name": "Louis Cancelmi",
+   "photo": "https://image.tmdb.org/t/p/w185/4MUGuoK0WbLsTt3sg2CD4OsLynZ.jpg",
+   "character": "Victor Mateo",
+   "episodes": 45
+  },
+  {
+   "id": 995435,
+   "name": "Zina Wilde",
+   "photo": "https://image.tmdb.org/t/p/w185/aaGi4GM4BUx7BkUbpqhtiaWIKPR.jpg",
+   "character": "Axe's Second Assistant / Helena",
+   "episodes": 45
+  },
+  {
+   "id": 3419120,
+   "name": "Lilly Moran",
+   "photo": "https://image.tmdb.org/t/p/w185/lqN2ONHmSh3eFlOXV76ucAV6BAf.jpg",
+   "character": "Peach",
+   "episodes": 41
+  },
+  {
+   "id": 79991,
+   "name": "Stephen Kunken",
+   "photo": "https://image.tmdb.org/t/p/w185/4WbttnF6FOrx0DjKYoW9atYw21m.jpg",
+   "character": "Ari Spyros",
+   "episodes": 41
+  },
+  {
+   "id": 6437,
+   "name": "Ben Shenkman",
+   "photo": "https://image.tmdb.org/t/p/w185/AcIhNToOtxVc44GOP8IhcuOPqb3.jpg",
+   "character": "Ira Schirmer",
+   "episodes": 39
+  },
+  {
+   "id": 1377670,
+   "name": "Glenn Fleshler",
+   "photo": "https://image.tmdb.org/t/p/w185/x1Cef2yPZS7bJTwxI7DX3q0HNcv.jpg",
+   "character": "Orrin Bach",
+   "episodes": 38
+  },
+  {
+   "id": 50463,
+   "name": "Malin Akerman",
+   "photo": "https://image.tmdb.org/t/p/w185/u38qRcCAiO3SZdFKJKx3fncDyef.jpg",
+   "character": "Lara Axelrod",
+   "episodes": 37
+  },
+  {
+   "id": 66657,
+   "name": "Allan Havey",
+   "photo": null,
+   "character": "Karl Allard",
+   "episodes": 36
+  },
+  {
+   "id": 74541,
+   "name": "Corey Stoll",
+   "photo": "https://image.tmdb.org/t/p/w185/2eMxKecTZBiS60gPUVWcimYgGDp.jpg",
+   "character": "Mike Prince",
+   "episodes": 34
+  },
+  {
+   "id": 91669,
+   "name": "Daniel Breaker",
+   "photo": "https://image.tmdb.org/t/p/w185/jv0e6uXizpiYl46cLhSEC5ZKC5J.jpg",
+   "character": "Roger 'Scooter' Dunbar",
+   "episodes": 34
+  },
+  {
+   "id": 11067,
+   "name": "Terry Kinney",
+   "photo": "https://image.tmdb.org/t/p/w185/2Y6AeUUj1xUd5p7mRM9tFqUCN87.jpg",
+   "character": "Hall",
+   "episodes": 34
+  }
+ ],
+ "crew": [
+  {
+   "id": 16304,
+   "name": "Brian Koppelman",
+   "photo": "https://image.tmdb.org/t/p/w185/h5SW9E5sTHR5Jwyqy3tNj5tbBPp.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 84
+  },
+  {
+   "id": 16305,
+   "name": "David Levien",
+   "photo": "https://image.tmdb.org/t/p/w185/ffc02PxxyfR1JPbUE7eqPJgWXro.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 84
+  },
+  {
+   "id": 1466531,
+   "name": "Andrew Ross Sorkin",
+   "photo": "https://image.tmdb.org/t/p/w185/4fHvG29l8oCINDuVkjSRxeAu540.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 2676348,
+   "name": "Brendan Angelides",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 84
+  },
+  {
+   "id": 17329,
+   "name": "Neil Burger",
+   "photo": "https://image.tmdb.org/t/p/w185/vTNNx4d3uy6v30DmWCRcqeBxeGb.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 1497814,
+   "name": "Adam R. Perlman",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 1841563,
+   "name": "Matt Fennell",
+   "photo": "https://image.tmdb.org/t/p/w185/8JjiTwwTqS6At0MMTe7IzXG0rIs.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 2654076,
+   "name": "Emily Hornsby",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1212287,
+   "name": "Colin Bucksey",
+   "photo": "https://image.tmdb.org/t/p/w185/apHHMfnkCVna1iYR3K5PA0TQ14D.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 2661954,
+   "name": "Stephanie Mickus",
+   "photo": null,
+   "jobs": [
+    "Story"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 21053,
+   "name": "John Dahl",
+   "photo": "https://image.tmdb.org/t/p/w185/8WDCi9LJ9Lc7z6BSwGiQqfkSx61.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 2031385,
+   "name": "Matthew McLoota",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 86166,
+   "name": "Beth Schacter",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 2061804,
+   "name": "Alice O'Neill",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1256123,
+   "name": "Wes Jones",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1236846,
+   "name": "Willie Reale",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:31:50.329Z"
+}

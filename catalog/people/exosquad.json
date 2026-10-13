@@ -1,0 +1,239 @@
+{
+ "show": "Exosquad",
+ "slug": "exosquad",
+ "tmdbId": 699,
+ "cast": [
+  {
+   "id": 175854,
+   "name": "Michael Donovan",
+   "photo": "https://image.tmdb.org/t/p/w185/yutmM2NruR2oCWSESSPu3PG7g11.jpg",
+   "character": "Wolf Bronski (voice)",
+   "episodes": 52
+  },
+  {
+   "id": 26089,
+   "name": "Garry Chalk",
+   "photo": "https://image.tmdb.org/t/p/w185/jESGnBSP0OjFxJejN1OPsjXA9sJ.jpg",
+   "character": "Marsala / Shiva / Charles McKenna (voice)",
+   "episodes": 52
+  },
+  {
+   "id": 51800,
+   "name": "Teryl Rothery",
+   "photo": "https://image.tmdb.org/t/p/w185/fB3XmJ4PRMGo28LxbvTHuYyL3gi.jpg",
+   "character": "Maggie Weston (voice)",
+   "episodes": 52
+  },
+  {
+   "id": 46995,
+   "name": "Richard Newman",
+   "photo": "https://image.tmdb.org/t/p/w185/t7fBQZH581NgM1DCQYPEqzkqZ3D.jpg",
+   "character": "Governor General Phaeton / Captain Marcus (voice)",
+   "episodes": 52
+  },
+  {
+   "id": 86788,
+   "name": "Janyse Jaud",
+   "photo": "https://image.tmdb.org/t/p/w185/7ZvfIfmgkU2B8jA25czUoKXXq6e.jpg",
+   "character": "Rita Torres (voice)",
+   "episodes": 52
+  },
+  {
+   "id": 1235343,
+   "name": "Rob Morton",
+   "photo": "https://image.tmdb.org/t/p/w185/w36N9dPZnsAtXyKMXqrwYl7W7kD.jpg",
+   "character": "Tyhphonus (voice)",
+   "episodes": 52
+  },
+  {
+   "id": 27588,
+   "name": "Michael Benyaer",
+   "photo": "https://image.tmdb.org/t/p/w185/rN6CNG1XqFTf88rUO64RDlLLwO4.jpg",
+   "character": "Kaz Takagi / Praetorius (voice)",
+   "episodes": 52
+  },
+  {
+   "id": 89545,
+   "name": "Lisa Ann Beley",
+   "photo": "https://image.tmdb.org/t/p/w185/5Lz5k8JKoCE4NFK82gMOlMx6cK2.jpg",
+   "character": "Lt. Nara Burns(voice)",
+   "episodes": 52
+  },
+  {
+   "id": 15048,
+   "name": "Robby Benson",
+   "photo": "https://image.tmdb.org/t/p/w185/rYcDiM9LrStdlcb80N3WAR2CsHX.jpg",
+   "character": "Lt. J.T. Marsh (voice)",
+   "episodes": 52
+  },
+  {
+   "id": 1219890,
+   "name": "Walter Marsh",
+   "photo": null,
+   "character": "Admiral Winfield (voice)",
+   "episodes": 52
+  },
+  {
+   "id": 94168,
+   "name": "John Payne",
+   "photo": "https://image.tmdb.org/t/p/w185/btMhXmLswTUqBZaUqxVBaUls032.jpg",
+   "character": "Alec DeLeon / Sean Napier (voice)",
+   "episodes": 52
+  },
+  {
+   "id": 2312800,
+   "name": "Garrison Christiohn",
+   "photo": null,
+   "character": "Additional Voices (voice)",
+   "episodes": 52
+  },
+  {
+   "id": 58395,
+   "name": "Karin Konoval",
+   "photo": "https://image.tmdb.org/t/p/w185/5e8YyNQjWre2UbExYBlJ7zva934.jpg",
+   "character": "Additional Voices (voice)",
+   "episodes": 52
+  },
+  {
+   "id": 106789,
+   "name": "Ken Camroux-Taylor",
+   "photo": "https://image.tmdb.org/t/p/w185/nZzftcT77lqVCevGprQirn1BFYw.jpg",
+   "character": "Additional Voices (voice)",
+   "episodes": 52
+  },
+  {
+   "id": 2312390,
+   "name": "Ewan 'Sudsy' Clark",
+   "photo": null,
+   "character": "Additional Voices (voice)",
+   "episodes": 52
+  },
+  {
+   "id": 1235633,
+   "name": "Jason Gaffney",
+   "photo": null,
+   "character": "Additional Voices (voice)",
+   "episodes": 52
+  },
+  {
+   "id": 5437132,
+   "name": "John Payne",
+   "photo": null,
+   "character": "ExoTrooper Alec Deleon (voice)",
+   "episodes": 39
+  },
+  {
+   "id": 4115390,
+   "name": "Silvia Di Gregorio",
+   "photo": null,
+   "character": "Additional Voices (voice)",
+   "episodes": 39
+  },
+  {
+   "id": 84490,
+   "name": "David Kaye",
+   "photo": "https://image.tmdb.org/t/p/w185/izxtFSio5twcVA1oJWPvobxpcZj.jpg",
+   "character": "General Draconis (voice)",
+   "episodes": 39
+  },
+  {
+   "id": 1219628,
+   "name": "Wally Marsh",
+   "photo": null,
+   "character": "Admiral Winfield (voice)",
+   "episodes": 13
+  }
+ ],
+ "crew": [
+  {
+   "id": 2573813,
+   "name": "Jeff Segal",
+   "photo": null,
+   "jobs": [
+    "Creator"
+   ]
+  },
+  {
+   "id": 3306988,
+   "name": "Graham Morris",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 1213969,
+   "name": "Michael Edens",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 186409,
+   "name": "Mark Edward Edens",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 5437163,
+   "name": "Brian Miller",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 5282975,
+   "name": "Susan Talkington",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 68360,
+   "name": "Jim Carlson",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 365332,
+   "name": "Terrence McDonnell",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 4315707,
+   "name": "Stephen Levi",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 160086,
+   "name": "Bob Forward",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:30:02.795Z"
+}

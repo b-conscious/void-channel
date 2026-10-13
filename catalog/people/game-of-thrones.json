@@ -1,0 +1,334 @@
+{
+ "show": "Game of Thrones",
+ "slug": "game-of-thrones",
+ "tmdbId": 1399,
+ "cast": [
+  {
+   "id": 22970,
+   "name": "Peter Dinklage",
+   "photo": "https://image.tmdb.org/t/p/w185/9CAd7wr8QZyIN0E7nm8v1B6WkGn.jpg",
+   "character": "Tyrion 'The Halfman' Lannister",
+   "episodes": 73
+  },
+  {
+   "id": 239019,
+   "name": "Kit Harington",
+   "photo": "https://image.tmdb.org/t/p/w185/iGXlJbExWwZmo9sUDsYuzf4Sv4y.jpg",
+   "character": "Jon Snow",
+   "episodes": 73
+  },
+  {
+   "id": 12795,
+   "name": "Nikolaj Coster-Waldau",
+   "photo": "https://image.tmdb.org/t/p/w185/rpFOERbHkj7GWxkinUNiQ76sSGk.jpg",
+   "character": "Sir Jaime 'Kingslayer' Lannister",
+   "episodes": 73
+  },
+  {
+   "id": 17286,
+   "name": "Lena Headey",
+   "photo": "https://image.tmdb.org/t/p/w185/cDyZLf8ddz0EgoUjpv4jjzy7qxA.jpg",
+   "character": "Cersei Lannister",
+   "episodes": 73
+  },
+  {
+   "id": 1223786,
+   "name": "Emilia Clarke",
+   "photo": "https://image.tmdb.org/t/p/w185/iFY6t7Ux9r70WB7Sp0TTVz6eGtm.jpg",
+   "character": "Daenerys Targaryen",
+   "episodes": 73
+  },
+  {
+   "id": 1181313,
+   "name": "Maisie Williams",
+   "photo": "https://image.tmdb.org/t/p/w185/zk1rlBVci2fmnFhMezaPpa4kwZF.jpg",
+   "character": "Arya Stark",
+   "episodes": 73
+  },
+  {
+   "id": 239020,
+   "name": "Isaac Hempstead Wright",
+   "photo": "https://image.tmdb.org/t/p/w185/g6ZreLmGrrOzaUCGVFRNPAWfcso.jpg",
+   "character": "Brandon 'Bran' Stark",
+   "episodes": 73
+  },
+  {
+   "id": 1001657,
+   "name": "Sophie Turner",
+   "photo": "https://image.tmdb.org/t/p/w185/8ur4aHFakVCinWk0cvrGO8qAUhv.jpg",
+   "character": "Sansa Stark",
+   "episodes": 73
+  },
+  {
+   "id": 20508,
+   "name": "Iain Glen",
+   "photo": "https://image.tmdb.org/t/p/w185/d9CKAAiV1HvSnzzmpDzD0mC0HlX.jpg",
+   "character": "Ser Jorah Mormont",
+   "episodes": 70
+  },
+  {
+   "id": 1010135,
+   "name": "John Bradley",
+   "photo": "https://image.tmdb.org/t/p/w185/lQuxVtH8GkSLSZQhpmSdIi88DSF.jpg",
+   "character": "Samwell 'Sam' Tarly",
+   "episodes": 68
+  },
+  {
+   "id": 15498,
+   "name": "Liam Cunningham",
+   "photo": "https://image.tmdb.org/t/p/w185/y27shwpEYGq4vhdEajcmqucuq9x.jpg",
+   "character": "Davos Seaworth",
+   "episodes": 63
+  },
+  {
+   "id": 71586,
+   "name": "Alfie Allen",
+   "photo": "https://image.tmdb.org/t/p/w185/aF3SyXNd2JfktnYkUvC1tsFHJDu.jpg",
+   "character": "Theon Greyjoy",
+   "episodes": 63
+  },
+  {
+   "id": 49735,
+   "name": "Aidan Gillen",
+   "photo": "https://image.tmdb.org/t/p/w185/fWWRgyJEGjOPcx43CaFiUCWMBLo.jpg",
+   "character": "Petyr 'Littlefinger' Baelish",
+   "episodes": 60
+  },
+  {
+   "id": 3075,
+   "name": "Rory McCann",
+   "photo": "https://image.tmdb.org/t/p/w185/meEHyiCRXTTCiYQMzP4VEdvEuD0.jpg",
+   "character": "Sandor 'The Hound' Clegane",
+   "episodes": 59
+  },
+  {
+   "id": 195930,
+   "name": "Jerome Flynn",
+   "photo": "https://image.tmdb.org/t/p/w185/9bAjY1TW7f4yENBsWnj5MWVVWdk.jpg",
+   "character": "Bronn",
+   "episodes": 56
+  },
+  {
+   "id": 84423,
+   "name": "Conleth Hill",
+   "photo": "https://image.tmdb.org/t/p/w185/rMllryXDXq6NyJfmvakC775M9nR.jpg",
+   "character": "Lord Varys",
+   "episodes": 56
+  },
+  {
+   "id": 964792,
+   "name": "Jacob Anderson",
+   "photo": "https://image.tmdb.org/t/p/w185/cWO1DdhFXWs5r8baNOPaVaJ56x6.jpg",
+   "character": "Grey Worm",
+   "episodes": 53
+  },
+  {
+   "id": 1011904,
+   "name": "Gwendoline Christie",
+   "photo": "https://image.tmdb.org/t/p/w185/kmlv5i02n3zKryBr2W3kSeWVKTD.jpg",
+   "character": "Brienne of Tarth",
+   "episodes": 49
+  },
+  {
+   "id": 571418,
+   "name": "Kristofer Hivju",
+   "photo": "https://image.tmdb.org/t/p/w185/bACL39GihNmBnFRay78rS3PUHsH.jpg",
+   "character": "Tormund Giantsbane",
+   "episodes": 49
+  },
+  {
+   "id": 23229,
+   "name": "Carice van Houten",
+   "photo": "https://image.tmdb.org/t/p/w185/eVJqjb7D4FPRcZZ4nqtBk1gnkkj.jpg",
+   "character": "Melisandre",
+   "episodes": 47
+  },
+  {
+   "id": 1251069,
+   "name": "Nathalie Emmanuel",
+   "photo": "https://image.tmdb.org/t/p/w185/uh8EIhxKJxK7xsJlWcIgBkqyAKq.jpg",
+   "character": "Missandei",
+   "episodes": 46
+  },
+  {
+   "id": 58502,
+   "name": "Natalie Dormer",
+   "photo": "https://image.tmdb.org/t/p/w185/vvl6bi59rQhoTjNZMHyRUX9zXLU.jpg",
+   "character": "Margaery Tyrell",
+   "episodes": 44
+  },
+  {
+   "id": 8435,
+   "name": "Stephen Dillane",
+   "photo": "https://image.tmdb.org/t/p/w185/qjIa6pXD4Z7nL7nH2LxyHDfxNgC.jpg",
+   "character": "Stannis Baratheon",
+   "episodes": 40
+  },
+  {
+   "id": 1052255,
+   "name": "Charlotte Hope",
+   "photo": "https://image.tmdb.org/t/p/w185/ApsyxD8gK7TFYav2LRwE68D3YEE.jpg",
+   "character": "Myranda",
+   "episodes": 40
+  }
+ ],
+ "crew": [
+  {
+   "id": 9813,
+   "name": "David Benioff",
+   "photo": "https://image.tmdb.org/t/p/w185/xvNN5huL0X8yJ7h3IZfGG4O2zBD.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 73
+  },
+  {
+   "id": 228068,
+   "name": "D. B. Weiss",
+   "photo": "https://image.tmdb.org/t/p/w185/6Wt006TIQoDSSnl0YaKihfn3w7K.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 73
+  },
+  {
+   "id": 237053,
+   "name": "George R.R. Martin",
+   "photo": "https://image.tmdb.org/t/p/w185/1A7W0L9dZz0rCN1oj6h8YUvusdN.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 77
+  },
+  {
+   "id": 1223796,
+   "name": "Frank Doelger",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 73
+  },
+  {
+   "id": 1223797,
+   "name": "Carolyn Strauss",
+   "photo": "https://image.tmdb.org/t/p/w185/o88ISZv7ILrPMHutX1XVr7trmkF.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 73
+  },
+  {
+   "id": 10851,
+   "name": "Ramin Djawadi",
+   "photo": "https://image.tmdb.org/t/p/w185/wgUxW19nyPnrzj4ViVOpAfmhCdr.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 73
+  },
+  {
+   "id": 1187530,
+   "name": "Bernadette Caulfield",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 63
+  },
+  {
+   "id": 1575063,
+   "name": "Dave Hill",
+   "photo": "https://image.tmdb.org/t/p/w185/5gbT099mxWLWefsMJSyXXRJclqg.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 1223784,
+   "name": "Bryan Cogman",
+   "photo": "https://image.tmdb.org/t/p/w185/qOEG9Fc3cxuubfrZm2e5kNwbKS2.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 33316,
+   "name": "David Nutter",
+   "photo": "https://image.tmdb.org/t/p/w185/obyikiv6rf8hgwUKJKRJdMT3YEK.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 47005,
+   "name": "Alan Taylor",
+   "photo": "https://image.tmdb.org/t/p/w185/sXC2wNRo7lshghNnNaPdWQ9sqKe.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 57199,
+   "name": "Mark Mylod",
+   "photo": "https://image.tmdb.org/t/p/w185/6Nwg31BrgPkCjZ054Pso3ctg3Ov.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 88391,
+   "name": "Jeremy Podeswa",
+   "photo": "https://image.tmdb.org/t/p/w185/sk9cc9sGGI6oByOOZZB0y0GlAWm.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 114404,
+   "name": "Miguel Sapochnik",
+   "photo": "https://image.tmdb.org/t/p/w185/jlZGTjiifvvFDoEtlwrKz7QxuJS.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1177777,
+   "name": "Alex Graves",
+   "photo": "https://image.tmdb.org/t/p/w185/c9KWBdhgtsoUFGdWbInk3WUnUbU.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 88743,
+   "name": "Daniel Minahan",
+   "photo": "https://image.tmdb.org/t/p/w185/zBRWTVYdZ77HT1zWpZtLXZ8AW1F.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:42.255Z"
+}

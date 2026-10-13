@@ -1,0 +1,330 @@
+{
+ "show": "Home Improvement",
+ "slug": "home-improvement",
+ "tmdbId": 1558,
+ "cast": [
+  {
+   "id": 12898,
+   "name": "Tim Allen",
+   "photo": "https://image.tmdb.org/t/p/w185/k8XPNHBO459FaqkqqM4tfX5GMKk.jpg",
+   "character": "Tim Taylor",
+   "episodes": 203
+  },
+  {
+   "id": 134178,
+   "name": "Patricia Richardson",
+   "photo": null,
+   "character": "Jill Taylor",
+   "episodes": 203
+  },
+  {
+   "id": 53285,
+   "name": "Earl Hindman",
+   "photo": "https://image.tmdb.org/t/p/w185/pn5NlRAfwSN7Pbn9TlZleXYRGUs.jpg",
+   "character": "Wilson Wilson Jr.",
+   "episodes": 203
+  },
+  {
+   "id": 53286,
+   "name": "Richard Karn",
+   "photo": "https://image.tmdb.org/t/p/w185/z5n104kweeSaSfryLvsCY16XI96.jpg",
+   "character": "Al Borland",
+   "episodes": 203
+  },
+  {
+   "id": 52477,
+   "name": "Zachery Ty Bryan",
+   "photo": "https://image.tmdb.org/t/p/w185/tEIfky2Fv8dwy4I3nzqzSy56vPZ.jpg",
+   "character": "Brad Taylor",
+   "episodes": 203
+  },
+  {
+   "id": 181551,
+   "name": "Taran Noah Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/6kCN7d8ETqhjYpmCDkfanZHUmCP.jpg",
+   "character": "Mark Taylor",
+   "episodes": 203
+  },
+  {
+   "id": 53283,
+   "name": "Jonathan Taylor Thomas",
+   "photo": "https://image.tmdb.org/t/p/w185/lv1ZNrdFGMa8lYjwQyJqePONaDY.jpg",
+   "character": "Randy Taylor",
+   "episodes": 179
+  },
+  {
+   "id": 158077,
+   "name": "Debbe Dunning",
+   "photo": "https://image.tmdb.org/t/p/w185/zj4n8kd4Zkzbi7WOyYgBIOSQMKU.jpg",
+   "character": "Heidi / Kiki",
+   "episodes": 136
+  },
+  {
+   "id": 4041,
+   "name": "William O'Leary",
+   "photo": "https://image.tmdb.org/t/p/w185/qaTKXEh5rl8PP7XThJAjC5DUChs.jpg",
+   "character": "Marty Taylor",
+   "episodes": 30
+  },
+  {
+   "id": 6736,
+   "name": "Pamela Anderson",
+   "photo": "https://image.tmdb.org/t/p/w185/uqZP8OUpPOoRG9kFp38OJSh8TiT.jpg",
+   "character": "Lisa",
+   "episodes": 23
+  },
+  {
+   "id": 2679027,
+   "name": "Jim Labriola",
+   "photo": null,
+   "character": "Benny",
+   "episodes": 23
+  },
+  {
+   "id": 21485,
+   "name": "Blake Clark",
+   "photo": "https://image.tmdb.org/t/p/w185/pA4OZQPyATEX9AqZYUIOItQ447o.jpg",
+   "character": "Harry",
+   "episodes": 23
+  },
+  {
+   "id": 1225571,
+   "name": "Sherry Hursey",
+   "photo": "https://image.tmdb.org/t/p/w185/pOsH3Ow3y1cA6l7GjcgsfWn9BWa.jpg",
+   "character": "Ilene Markham",
+   "episodes": 16
+  },
+  {
+   "id": 100230,
+   "name": "Mickey Jones",
+   "photo": "https://image.tmdb.org/t/p/w185/tdCfPWmgFwQtrZZv7cIBWKKxH8.jpg",
+   "character": "Pete",
+   "episodes": 13
+  },
+  {
+   "id": 1785856,
+   "name": "Gary McGurk",
+   "photo": null,
+   "character": "Dwayne",
+   "episodes": 11
+  },
+  {
+   "id": 42141,
+   "name": "Casey Sander",
+   "photo": "https://image.tmdb.org/t/p/w185/xHVyamqUbJK2dmFCw7LOQzYREJF.jpg",
+   "character": "Rock",
+   "episodes": 10
+  },
+  {
+   "id": 43524,
+   "name": "Charles Robinson",
+   "photo": "https://image.tmdb.org/t/p/w185/zEy4ZnzuhhyueT5bef1jzQUFW7.jpg",
+   "character": "Bud Harper",
+   "episodes": 9
+  },
+  {
+   "id": 155845,
+   "name": "Mariangela Pino",
+   "photo": "https://image.tmdb.org/t/p/w185/e0G6lnk1qWSBQSSrFzuYdgULmhI.jpg",
+   "character": "Marie Morton",
+   "episodes": 8
+  },
+  {
+   "id": 1408764,
+   "name": "Shirley Prestia",
+   "photo": "https://image.tmdb.org/t/p/w185/cRZbZlWwVONaCgbkC5aOrH3MV0q.jpg",
+   "character": "Delores",
+   "episodes": 8
+  },
+  {
+   "id": 1217168,
+   "name": "Betsy Randle",
+   "photo": "https://image.tmdb.org/t/p/w185/ape88EvOukItaecujeUA2lBfPBe.jpg",
+   "character": "Karen Kelly",
+   "episodes": 7
+  },
+  {
+   "id": 76461,
+   "name": "Courtney Peldon",
+   "photo": "https://image.tmdb.org/t/p/w185/gOdV4kmqtsZ8YdEO2el4wmS3OIJ.jpg",
+   "character": "Lauren",
+   "episodes": 7
+  },
+  {
+   "id": 64932,
+   "name": "Tammy Lauren",
+   "photo": "https://image.tmdb.org/t/p/w185/ejgmvThwZwQBJ6QCIvrWCkTjjOJ.jpg",
+   "character": "Patty",
+   "episodes": 7
+  },
+  {
+   "id": 158037,
+   "name": "Jessica Wesson",
+   "photo": "https://image.tmdb.org/t/p/w185/5pTq1aLAPF9ytAycZ5fDrerZijr.jpg",
+   "character": "Jennifer Sudarsky",
+   "episodes": 7
+  },
+  {
+   "id": 33833,
+   "name": "Al Fann",
+   "photo": "https://image.tmdb.org/t/p/w185/eKYSzlwrxHOmoQVR89omuIReid.jpg",
+   "character": "Felix",
+   "episodes": 6
+  }
+ ],
+ "crew": [
+  {
+   "id": 34482,
+   "name": "Carmen Finestra",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 203
+  },
+  {
+   "id": 34481,
+   "name": "Matt Williams",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 203
+  },
+  {
+   "id": 34483,
+   "name": "David McFadzean",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 203
+  },
+  {
+   "id": 1212636,
+   "name": "Bob Bendetson",
+   "photo": "https://image.tmdb.org/t/p/w185/xLL7mUQPCbpFk00kYsigCNY7Yaf.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 203
+  },
+  {
+   "id": 1213768,
+   "name": "Elliot Shoenman",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 203
+  },
+  {
+   "id": 58072,
+   "name": "John Pasquin",
+   "photo": "https://image.tmdb.org/t/p/w185/xWFzQthcWx0PoBa7VLKu02GvN1d.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 33
+  },
+  {
+   "id": 14987,
+   "name": "Peter Bonerz",
+   "photo": "https://image.tmdb.org/t/p/w185/8qWxMGvASfbwbW9AbV2Fb4pP3t7.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 29
+  },
+  {
+   "id": 1213865,
+   "name": "Lloyd Garver",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 1212811,
+   "name": "Andrew Tsao",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 1220649,
+   "name": "Jennifer Celotta",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1215618,
+   "name": "Eric Horsted",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1225554,
+   "name": "Susan Estelle Jansen",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1225588,
+   "name": "Charlie Hauck",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1217779,
+   "name": "Elliot Stern",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1225610,
+   "name": "Tracy Gamble",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1225603,
+   "name": "David Maples",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:28:13.677Z"
+}

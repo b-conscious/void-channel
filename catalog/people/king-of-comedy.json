@@ -1,0 +1,81 @@
+{
+ "show": "King of Comedy",
+ "slug": "king-of-comedy",
+ "tmdbId": 277910,
+ "cast": [
+  {
+   "id": 2970787,
+   "name": "Jiang Long",
+   "photo": "https://image.tmdb.org/t/p/w185/gzeGCI47WIQgxEBeEUwxaZfs3k.jpg",
+   "character": "Zhou Ke",
+   "episodes": 24
+  },
+  {
+   "id": 2396870,
+   "name": "Yang Chaoyue",
+   "photo": "https://image.tmdb.org/t/p/w185/fIqlPh8S13ttFRTnHC2XZnmGc4C.jpg",
+   "character": "Chen Jiazhen",
+   "episodes": 24
+  },
+  {
+   "id": 3271562,
+   "name": "Zhang Chi",
+   "photo": "https://image.tmdb.org/t/p/w185/8cpnTxwKfojLHmI4GOMpQsW49LU.jpg",
+   "character": "Chen Jiahao",
+   "episodes": 24
+  },
+  {
+   "id": 2958042,
+   "name": "Jiang Shimeng",
+   "photo": null,
+   "character": "Lin Ximei",
+   "episodes": 24
+  },
+  {
+   "id": 3566740,
+   "name": "Song Muzi",
+   "photo": "https://image.tmdb.org/t/p/w185/i9KaDxU9vxcXb57wOBv3MrYUiR7.jpg",
+   "character": "Chen Junnan",
+   "episodes": 24
+  }
+ ],
+ "crew": [
+  {
+   "id": 4848612,
+   "name": "Wang Jianhua",
+   "photo": "https://image.tmdb.org/t/p/w185/cpxUvYxHusvwdartHMFKBXMPYTr.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 2970787,
+   "name": "Jiang Long",
+   "photo": "https://image.tmdb.org/t/p/w185/gzeGCI47WIQgxEBeEUwxaZfs3k.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 3015157,
+   "name": "Song Tianshuo",
+   "photo": "https://image.tmdb.org/t/p/w185/3wWntd8uI5upPj1zllh3P5sORad.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 5056463,
+   "name": "Peng Xu",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 24
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:43:46.494Z"
+}

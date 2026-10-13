@@ -1,0 +1,344 @@
+{
+ "show": "House",
+ "slug": "house",
+ "tmdbId": 1408,
+ "cast": [
+  {
+   "id": 41419,
+   "name": "Hugh Laurie",
+   "photo": "https://image.tmdb.org/t/p/w185/akArncggHnusP5jxzMBKmJDRrMo.jpg",
+   "character": "Gregory House",
+   "episodes": 176
+  },
+  {
+   "id": 2692,
+   "name": "Robert Sean Leonard",
+   "photo": "https://image.tmdb.org/t/p/w185/jXehZM0AWLJ2OIz4o0jFtHEzcMI.jpg",
+   "character": "James Wilson",
+   "episodes": 176
+  },
+  {
+   "id": 4987,
+   "name": "Omar Epps",
+   "photo": "https://image.tmdb.org/t/p/w185/iURSiniuHrfOCtjVMAw9HKxJh6z.jpg",
+   "character": "Eric Foreman",
+   "episodes": 176
+  },
+  {
+   "id": 41422,
+   "name": "Jesse Spencer",
+   "photo": "https://image.tmdb.org/t/p/w185/nFqghuc1WaM6HxYZYc86A06wJbC.jpg",
+   "character": "Robert Chase",
+   "episodes": 176
+  },
+  {
+   "id": 41420,
+   "name": "Lisa Edelstein",
+   "photo": "https://image.tmdb.org/t/p/w185/wWNU2koV7qksXLtXDtbuGcbnfa1.jpg",
+   "character": "Lisa Cuddy",
+   "episodes": 154
+  },
+  {
+   "id": 1224001,
+   "name": "Bobbin Bergstrom",
+   "photo": null,
+   "character": "ER Doctor / Nurse",
+   "episodes": 134
+  },
+  {
+   "id": 41421,
+   "name": "Jennifer Morrison",
+   "photo": "https://image.tmdb.org/t/p/w185/i6dkHIME0BOPhbcPESHZND3vmtk.jpg",
+   "character": "Allison Cameron",
+   "episodes": 132
+  },
+  {
+   "id": 31514,
+   "name": "Peter Jacobson",
+   "photo": "https://image.tmdb.org/t/p/w185/pGi9CnzEG4cLa2viUP89yvlPCyR.jpg",
+   "character": "Chris Taub",
+   "episodes": 105
+  },
+  {
+   "id": 59315,
+   "name": "Olivia Wilde",
+   "photo": "https://image.tmdb.org/t/p/w185/eODi1QKamyVa41eSK2SjU20VAZS.jpg",
+   "character": "Thirteen",
+   "episodes": 86
+  },
+  {
+   "id": 53493,
+   "name": "Kal Penn",
+   "photo": "https://image.tmdb.org/t/p/w185/yICM1JcxKbEpaqTUreY0yFMIc8W.jpg",
+   "character": "Lawrence Kutner",
+   "episodes": 40
+  },
+  {
+   "id": 20354,
+   "name": "Amber Tamblyn",
+   "photo": "https://image.tmdb.org/t/p/w185/bzw0lxvtbEnYT7fZ8fn6NeSzMn9.jpg",
+   "character": "Martha M. Masters",
+   "episodes": 24
+  },
+  {
+   "id": 51992,
+   "name": "Odette Annable",
+   "photo": "https://image.tmdb.org/t/p/w185/zbEaTdg8a7USjfH5LxaU2U3W6Zb.jpg",
+   "character": "Jessica Adams",
+   "episodes": 22
+  },
+  {
+   "id": 93285,
+   "name": "Lo Mutuc",
+   "photo": "https://image.tmdb.org/t/p/w185/1lNDk1RfiGlGdgLEF5E35PpEc22.jpg",
+   "character": "Chi Park",
+   "episodes": 22
+  },
+  {
+   "id": 24198,
+   "name": "Anne Dudek",
+   "photo": "https://image.tmdb.org/t/p/w185/mmBVUE0vasYPW3BEwz69tiN5g5B.jpg",
+   "character": "Amber Volakis",
+   "episodes": 19
+  },
+  {
+   "id": 532890,
+   "name": "Jennifer Crystal Foley",
+   "photo": "https://image.tmdb.org/t/p/w185/vPG5xITV0lbeAgLIm8bJKn9ApRA.jpg",
+   "character": "Rachel Taub",
+   "episodes": 17
+  },
+  {
+   "id": 2028647,
+   "name": "Liz Benoit",
+   "photo": "https://image.tmdb.org/t/p/w185/30hzudtXpPY5sEUOJvWKVtAlzpV.jpg",
+   "character": "Surgical Nurse / Nurse Anne",
+   "episodes": 12
+  },
+  {
+   "id": 1174794,
+   "name": "Stephanie Venditto",
+   "photo": "https://image.tmdb.org/t/p/w185/ogFRMQdnsSV3qV50YasnDCGU6ha.jpg",
+   "character": "Nurse Brenda Previn",
+   "episodes": 11
+  },
+  {
+   "id": 6068,
+   "name": "Sela Ward",
+   "photo": "https://image.tmdb.org/t/p/w185/pzQuH9vm182Ar2vpUsakKzxPNV7.jpg",
+   "character": "Stacy Warner",
+   "episodes": 10
+  },
+  {
+   "id": 51381,
+   "name": "Michael Weston",
+   "photo": "https://image.tmdb.org/t/p/w185/asS6TYplpuAdpuB0Evj65M42bWZ.jpg",
+   "character": "Lucas Douglas",
+   "episodes": 10
+  },
+  {
+   "id": 125024,
+   "name": "Ron Perkins",
+   "photo": "https://image.tmdb.org/t/p/w185/ld3OJ0WpMv0Rcml59WuVzKoQWaB.jpg",
+   "character": "Ron Simpson",
+   "episodes": 9
+  },
+  {
+   "id": 52,
+   "name": "David Morse",
+   "photo": "https://image.tmdb.org/t/p/w185/A6zGbkFjM3uajIakgsSeNTmSKqY.jpg",
+   "character": "Michael Tritter",
+   "episodes": 7
+  },
+  {
+   "id": 39391,
+   "name": "Edi Gathegi",
+   "photo": "https://image.tmdb.org/t/p/w185/dt8yMyycDlzxkjhmuuJJ4tXDbp4.jpg",
+   "character": "Jeffrey Cole",
+   "episodes": 7
+  },
+  {
+   "id": 36216,
+   "name": "Cynthia Watros",
+   "photo": "https://image.tmdb.org/t/p/w185/iVWPrP0j4SQlfSjnB03P6Ud5OrS.jpg",
+   "character": "Sam Carr",
+   "episodes": 7
+  },
+  {
+   "id": 210829,
+   "name": "Karolina Wydra",
+   "photo": "https://image.tmdb.org/t/p/w185/141nqX6Ikw7sXgWAkMTEbLbzqpU.jpg",
+   "character": "Dominika House",
+   "episodes": 6
+  }
+ ],
+ "crew": [
+  {
+   "id": 169061,
+   "name": "David Shore",
+   "photo": "https://image.tmdb.org/t/p/w185/5xVWN3KCGtGjGkEIrHqHrx8UikG.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 176
+  },
+  {
+   "id": 41424,
+   "name": "Katie Jacobs",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 176
+  },
+  {
+   "id": 9032,
+   "name": "Bryan Singer",
+   "photo": "https://image.tmdb.org/t/p/w185/ts06thbCv9Ug2mNpcbcrmLGRL4Q.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 176
+  },
+  {
+   "id": 45543,
+   "name": "Paul Attanasio",
+   "photo": "https://image.tmdb.org/t/p/w185/4KtcNH1Tu7CiiMJGXPSOlINhpmR.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 176
+  },
+  {
+   "id": 1223966,
+   "name": "Thomas L. Moran",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 176
+  },
+  {
+   "id": 1493983,
+   "name": "Jon Ehrlich",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 176
+  },
+  {
+   "id": 1604953,
+   "name": "Jason Derlatka",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 176
+  },
+  {
+   "id": 1223964,
+   "name": "Peter Blake",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 173
+  },
+  {
+   "id": 1213567,
+   "name": "Russel Friend",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 154
+  },
+  {
+   "id": 114407,
+   "name": "Garrett Lerner",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 154
+  },
+  {
+   "id": 1223977,
+   "name": "Pam Davis",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 128
+  },
+  {
+   "id": 1223926,
+   "name": "Sara Hess",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 81
+  },
+  {
+   "id": 1365869,
+   "name": "David Foster",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 68
+  },
+  {
+   "id": 41419,
+   "name": "Hugh Laurie",
+   "photo": "https://image.tmdb.org/t/p/w185/akArncggHnusP5jxzMBKmJDRrMo.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 66
+  },
+  {
+   "id": 12632,
+   "name": "Daniel Sackheim",
+   "photo": "https://image.tmdb.org/t/p/w185/mcmKeI9IIy2qUQcB3nJm6B1V8mi.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 52
+  },
+  {
+   "id": 52873,
+   "name": "David Hoselton",
+   "photo": "https://image.tmdb.org/t/p/w185/88QzwxOxpP6Yf5BUC07YcJ65yQE.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 37
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:31:52.809Z"
+}

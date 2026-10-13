@@ -1,0 +1,327 @@
+{
+ "show": "Cold Case",
+ "slug": "cold-case",
+ "tmdbId": 2171,
+ "cast": [
+  {
+   "id": 2208,
+   "name": "Kathryn Morris",
+   "photo": "https://image.tmdb.org/t/p/w185/q189KhrMoKyQJsvwOE7x2nWAeEi.jpg",
+   "character": "Lilly Rush",
+   "episodes": 156
+  },
+  {
+   "id": 72132,
+   "name": "Danny Pino",
+   "photo": "https://image.tmdb.org/t/p/w185/2Sp7Mq9aqwq5BIPpobWMG2F0O5x.jpg",
+   "character": "Scotty Valens",
+   "episodes": 156
+  },
+  {
+   "id": 44205,
+   "name": "Jeremy Ratchford",
+   "photo": "https://image.tmdb.org/t/p/w185/lpqoU3SIc2QB3JwfA2D8U85hHg5.jpg",
+   "character": "Nick Vera",
+   "episodes": 156
+  },
+  {
+   "id": 8175,
+   "name": "Thom Barry",
+   "photo": "https://image.tmdb.org/t/p/w185/9XhXqoqKqfQHZ5kGtuSkldcKYSF.jpg",
+   "character": "Will Jeffries",
+   "episodes": 156
+  },
+  {
+   "id": 9277,
+   "name": "John Finn",
+   "photo": "https://image.tmdb.org/t/p/w185/tEv7ZUiO4gafQnXEOp43WSEvRfp.jpg",
+   "character": "John Stillman",
+   "episodes": 156
+  },
+  {
+   "id": 10580,
+   "name": "Tracie Thoms",
+   "photo": "https://image.tmdb.org/t/p/w185/9PKUJJtqFRbZDhme6uDzIu0mRIE.jpg",
+   "character": "Kat Miller",
+   "episodes": 90
+  },
+  {
+   "id": 1320468,
+   "name": "Lilli Birdsell",
+   "photo": "https://image.tmdb.org/t/p/w185/u9c5Xq8uKVRmuIJ2eWsnC2B08Uu.jpg",
+   "character": "Vivian Harden",
+   "episodes": 18
+  },
+  {
+   "id": 49326,
+   "name": "Jonathan LaPaglia",
+   "photo": "https://image.tmdb.org/t/p/w185/75dsk5vK59ESagPhquplHNNkdmn.jpg",
+   "character": "Curtis Bell",
+   "episodes": 9
+  },
+  {
+   "id": 42374,
+   "name": "Nicki Aycox",
+   "photo": "https://image.tmdb.org/t/p/w185/vzsB1XQJJxMOG3nFpWzlEXRHIBz.jpg",
+   "character": "Christina Rush",
+   "episodes": 9
+  },
+  {
+   "id": 31532,
+   "name": "Josh Hopkins",
+   "photo": "https://image.tmdb.org/t/p/w185/ch8uh6RM55dmrAZdt8ByktQifg6.jpg",
+   "character": "Jason Kite",
+   "episodes": 8
+  },
+  {
+   "id": 24516,
+   "name": "Daniel Baldwin",
+   "photo": "https://image.tmdb.org/t/p/w185/8dp3G3EvnQrp3awh4gc1nNsI60j.jpg",
+   "character": "Moe Kitchener",
+   "episodes": 6
+  },
+  {
+   "id": 94516,
+   "name": "Bonnie Root",
+   "photo": "https://image.tmdb.org/t/p/w185/a7HivPQFSt9cJm8efvkACXIKQAR.jpg",
+   "character": "Alexandra Thomas",
+   "episodes": 6
+  },
+  {
+   "id": 35024,
+   "name": "Doug Spinuzza",
+   "photo": "https://image.tmdb.org/t/p/w185/p8bj1r3NovE0i0E3BOM2FTjvxI2.jpg",
+   "character": "Louie Amante",
+   "episodes": 6
+  },
+  {
+   "id": 203683,
+   "name": "Sonja Sohn",
+   "photo": "https://image.tmdb.org/t/p/w185/ywx9VUp66kr7vt3xiSKHRtYBjw1.jpg",
+   "character": "Toni Halstead",
+   "episodes": 5
+  },
+  {
+   "id": 156440,
+   "name": "Terri Hoyos",
+   "photo": "https://image.tmdb.org/t/p/w185/pJRgYTACmY4o1nD19P5PbjSe9X0.jpg",
+   "character": "Rosa Valens",
+   "episodes": 5
+  },
+  {
+   "id": 91658,
+   "name": "Kevin McCorkle",
+   "photo": "https://image.tmdb.org/t/p/w185/xNqAugDYN1IE0EbuwLGEe52L3kC.jpg",
+   "character": "Gil Sherman",
+   "episodes": 5
+  },
+  {
+   "id": 21127,
+   "name": "Bobby Cannavale",
+   "photo": "https://image.tmdb.org/t/p/w185/wlp20ggyNI7x0xGUtTjC2Xl2XmD.jpg",
+   "character": "Eddie Saccardo",
+   "episodes": 5
+  },
+  {
+   "id": 84457,
+   "name": "Marisol Nichols",
+   "photo": "https://image.tmdb.org/t/p/w185/xgCZ4aebwqSACsL8SHbdEDNfdyC.jpg",
+   "character": "Elisa",
+   "episodes": 5
+  },
+  {
+   "id": 13725,
+   "name": "Meredith Baxter",
+   "photo": "https://image.tmdb.org/t/p/w185/t1ZGoodKpmzxAYOgUXaxCWVv2gf.jpg",
+   "character": "Ellen Rush",
+   "episodes": 5
+  },
+  {
+   "id": 160375,
+   "name": "Ismael 'East' Carlo",
+   "photo": "https://image.tmdb.org/t/p/w185/nbvlR1qmZ6MryzmY0AJfeqkTVK4.jpg",
+   "character": "Ramiro Valens",
+   "episodes": 4
+  },
+  {
+   "id": 1217731,
+   "name": "Sarah Joy Brown",
+   "photo": "https://image.tmdb.org/t/p/w185/mUcBA4jfgP4FB7EkEQqDCHARphX.jpg",
+   "character": "Josie Sutton",
+   "episodes": 4
+  },
+  {
+   "id": 79087,
+   "name": "Robin Weigert",
+   "photo": "https://image.tmdb.org/t/p/w185/ifGimfhXs7WIyDJMIX8kJtUte88.jpg",
+   "character": "Anna Mayes",
+   "episodes": 4
+  },
+  {
+   "id": 43458,
+   "name": "Brennan Elliott",
+   "photo": "https://image.tmdb.org/t/p/w185/2PaH72EySxxqT2t1rEmINe9TdKJ.jpg",
+   "character": "Ray Williams",
+   "episodes": 4
+  },
+  {
+   "id": 10361,
+   "name": "Raymond J. Barry",
+   "photo": "https://image.tmdb.org/t/p/w185/8rJs8BQMoVqEjjCHCS4i7o7joJ6.jpg",
+   "character": "Paul Cooper",
+   "episodes": 4
+  }
+ ],
+ "crew": [
+  {
+   "id": 1214472,
+   "name": "Meredith Stiehm",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 156
+  },
+  {
+   "id": 1224406,
+   "name": "Jonathan Littman",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 156
+  },
+  {
+   "id": 770,
+   "name": "Jerry Bruckheimer",
+   "photo": "https://image.tmdb.org/t/p/w185/sYjNrmbMi4DGAPX6Kt8wVy7LNXI.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 156
+  },
+  {
+   "id": 1389038,
+   "name": "Michael A. Levine",
+   "photo": "https://image.tmdb.org/t/p/w185/oIZtTSPW6lDtfOwaPfm4tK5vkRu.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 156
+  },
+  {
+   "id": 1252869,
+   "name": "Veena Sud",
+   "photo": "https://image.tmdb.org/t/p/w185/i06xVLU9mfnBGjk02n5orXzKUZM.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 42
+  },
+  {
+   "id": 1218785,
+   "name": "Alex Zakrzewski",
+   "photo": "https://image.tmdb.org/t/p/w185/10GE6tUYXEY3oE2j9uBRiSYkJ1U.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 288710,
+   "name": "Liz W. Garcia",
+   "photo": "https://image.tmdb.org/t/p/w185/flUCA51HIIKBbSco2CaSphKDPn5.jpg",
+   "jobs": [
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 34453,
+   "name": "Kevin Bray",
+   "photo": "https://image.tmdb.org/t/p/w185/aQcedywDVuXZhjWoC8ymkjkGauE.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 177189,
+   "name": "Greg Plageman",
+   "photo": "https://image.tmdb.org/t/p/w185/tSJ9bekgALdiM619deuWFD4Jcbq.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1411681,
+   "name": "Tyler Bensinger",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 45649,
+   "name": "Paris Barclay",
+   "photo": "https://image.tmdb.org/t/p/w185/ovu2mHjElDUfVbXyWoXsowbumDd.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 163198,
+   "name": "Holly Dale",
+   "photo": "https://image.tmdb.org/t/p/w185/7MtKPEWzYcJQtEuOtcZfht4STib.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1630938,
+   "name": "Christopher Silber",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1213612,
+   "name": "Sean Whitesell",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 34396,
+   "name": "Roxann Dawson",
+   "photo": "https://image.tmdb.org/t/p/w185/46TogVXwdXoDqOnbcMulTXHaFzx.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 65817,
+   "name": "Chris Fisher",
+   "photo": "https://image.tmdb.org/t/p/w185/eLsLnRwAGDMBZ45axAcv0YLD4wh.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 8
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:08.525Z"
+}

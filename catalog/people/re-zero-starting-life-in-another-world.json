@@ -1,0 +1,322 @@
+{
+ "show": "Re:ZERO -Starting Life in Another World-",
+ "slug": "re-zero-starting-life-in-another-world",
+ "tmdbId": 65942,
+ "cast": [
+  {
+   "id": 1350418,
+   "name": "Yusuke Kobayashi",
+   "photo": "https://image.tmdb.org/t/p/w185/y4ukKDSobZJNuB4H3k89hkrKCDC.jpg",
+   "character": "Subaru Natsuki (voice)",
+   "episodes": 85
+  },
+  {
+   "id": 1492982,
+   "name": "Rie Takahashi",
+   "photo": "https://image.tmdb.org/t/p/w185/aeB7z0cBTASdjKOjQriBAO6hYq4.jpg",
+   "character": "Emilia (voice)",
+   "episodes": 85
+  },
+  {
+   "id": 1321070,
+   "name": "Yumi Uchiyama",
+   "photo": "https://image.tmdb.org/t/p/w185/JvavoF3YOLCf4LHfl4XvYobANE.jpg",
+   "character": "Puck (voice)",
+   "episodes": 85
+  },
+  {
+   "id": 1324665,
+   "name": "Rie Murakawa",
+   "photo": "https://image.tmdb.org/t/p/w185/pawIx7uhV1a2fAHjvTnrCP0KcHX.jpg",
+   "character": "Ram (voice)",
+   "episodes": 85
+  },
+  {
+   "id": 219563,
+   "name": "Satomi Arai",
+   "photo": "https://image.tmdb.org/t/p/w185/v95wU1gpSLAOJS5yKFTxyheXAW2.jpg",
+   "character": "Beatrice (voice)",
+   "episodes": 85
+  },
+  {
+   "id": 1325949,
+   "name": "Inori Minase",
+   "photo": "https://image.tmdb.org/t/p/w185/cqOrQDUbbQLKpujzcK47YqjFdNp.jpg",
+   "character": "Rem (voice) / The Voice (voice)",
+   "episodes": 85
+  },
+  {
+   "id": 1248374,
+   "name": "Takuya Eguchi",
+   "photo": "https://image.tmdb.org/t/p/w185/hPPhUp0mM65Lc87Q8WXUEmGQAXx.jpg",
+   "character": "Julius Juukulius (voice)",
+   "episodes": 36
+  },
+  {
+   "id": 1885279,
+   "name": "Kohei Amasaki",
+   "photo": "https://image.tmdb.org/t/p/w185/tnN5jLiLjcDa7qn88uLb1iAfivL.jpg",
+   "character": "Otto Suwen (voice)",
+   "episodes": 35
+  },
+  {
+   "id": 230471,
+   "name": "Kana Ueda",
+   "photo": "https://image.tmdb.org/t/p/w185/us6FMwXCeSUR2YyByxVcgOUjiIA.jpg",
+   "character": "Anastasia Hoshin (voice) / Foxidna (voice) / Anastasia Hoshin (voice)",
+   "episodes": 33
+  },
+  {
+   "id": 1245094,
+   "name": "Nobuhiko Okamoto",
+   "photo": "https://image.tmdb.org/t/p/w185/7s1K2yQVF5iIWILaOfG7QrMZkXA.jpg",
+   "character": "Garfiel Tinzel (voice)",
+   "episodes": 31
+  },
+  {
+   "id": 84508,
+   "name": "Takehito Koyasu",
+   "photo": "https://image.tmdb.org/t/p/w185/8uBkNDKPNmp9JWgMUI02NVyfhi1.jpg",
+   "character": "Roswaal A. Mathers (voice) / Roswaal L. Mathers (voice) / Roswaal L. Mathers (voice) / Roswaal A. Mathers (voice)",
+   "episodes": 30
+  },
+  {
+   "id": 202806,
+   "name": "Yui Horie",
+   "photo": "https://image.tmdb.org/t/p/w185/73yQlMWaiOMrhvPCNyOCbbCkILZ.jpg",
+   "character": "Ferris (voice)",
+   "episodes": 27
+  },
+  {
+   "id": 1222060,
+   "name": "Kenyu Horiuchi",
+   "photo": "https://image.tmdb.org/t/p/w185/qIsrjSbtdhmmUdd3xvpDHNWRuJp.jpg",
+   "character": "Wilhelm van Astrea (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1521765,
+   "name": "Eri Suzuki",
+   "photo": "https://image.tmdb.org/t/p/w185/1Fxr99sRJGgpzpW8dmDv2vWU74h.jpg",
+   "character": "Child (voice) / Meili Portroute (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1221114,
+   "name": "Yuichi Nakamura",
+   "photo": "https://image.tmdb.org/t/p/w185/wb8behVKjBHX9XXrEydvNINCYwH.jpg",
+   "character": "Reinhard van Astrea (voice)",
+   "episodes": 21
+  },
+  {
+   "id": 1951289,
+   "name": "Marika Kouno",
+   "photo": "https://image.tmdb.org/t/p/w185/tGtrlF6iBDHoBEmRfPdOyVt7X18.jpg",
+   "character": "Petra Leyte (voice)",
+   "episodes": 20
+  },
+  {
+   "id": 9711,
+   "name": "Maaya Sakamoto",
+   "photo": "https://image.tmdb.org/t/p/w185/jcjTJbxN3rYOtjSJihvbygvEFFZ.jpg",
+   "character": "Echidna (Artificial Spirit) (voice) / Echidna (voice)",
+   "episodes": 19
+  },
+  {
+   "id": 2019896,
+   "name": "Kouichi Souma",
+   "photo": "https://image.tmdb.org/t/p/w185/95jnjzfmKmZF0jsEBJCCymg5EQ5.jpg",
+   "character": "Team Member (voice) / Civil Officer (voice) / Patrasche (voice)",
+   "episodes": 18
+  },
+  {
+   "id": 89903,
+   "name": "Mamiko Noto",
+   "photo": "https://image.tmdb.org/t/p/w185/wCSD7Umgzc66p8VGXrrMZtSLSuS.jpg",
+   "character": "Elsa Granhiert (voice)",
+   "episodes": 17
+  },
+  {
+   "id": 1242005,
+   "name": "Yuka Iguchi",
+   "photo": "https://image.tmdb.org/t/p/w185/38ZjRGBLD4lvfU3mSMyIBCIq85D.jpg",
+   "character": "Crusch Karsten (voice) / Capella (Crusch) (voice)",
+   "episodes": 17
+  },
+  {
+   "id": 81244,
+   "name": "Akira Ishida",
+   "photo": "https://image.tmdb.org/t/p/w185/jnW2Gn2NlR2uwOCeyOuzypnTmkH.jpg",
+   "character": "Regulus Corneas (voice)",
+   "episodes": 16
+  },
+  {
+   "id": 203473,
+   "name": "Kaori Nazuka",
+   "photo": "https://image.tmdb.org/t/p/w185/cIMS99s6jpgGBbMnih8gx9hLPFi.jpg",
+   "character": "Frederica Baumann (voice)",
+   "episodes": 15
+  },
+  {
+   "id": 9716,
+   "name": "Kenji Nomura",
+   "photo": "https://image.tmdb.org/t/p/w185/rmTziYxlPje4PiKhPgqMEHu9Axd.jpg",
+   "character": "Ricardo Welkin (voice)",
+   "episodes": 15
+  },
+  {
+   "id": 2359492,
+   "name": "Fairouz Ai",
+   "photo": "https://image.tmdb.org/t/p/w185/coFu6WOVBZvqd1fw89vbHkiC0zB.jpg",
+   "character": "Shaula (voice)",
+   "episodes": 15
+  }
+ ],
+ "crew": [
+  {
+   "id": 550581,
+   "name": "Masahiro Yokotani",
+   "photo": "https://image.tmdb.org/t/p/w185/vFFo7ODIFfKuoKlRqGpGweIDFTE.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 107
+  },
+  {
+   "id": 1565177,
+   "name": "Kenichiro Suehiro",
+   "photo": "https://image.tmdb.org/t/p/w185/aNS2Hb3PfgckUMM8ELnbaDYIF7b.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 85
+  },
+  {
+   "id": 1647647,
+   "name": "Sho Tanaka",
+   "photo": "https://image.tmdb.org/t/p/w185/8uWkJIKbZuBEqY3Milyu6aLlDNY.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 66
+  },
+  {
+   "id": 1624751,
+   "name": "Masaharu Watanabe",
+   "photo": "https://image.tmdb.org/t/p/w185/8Ufxt5jOrdGJuoJM9RZyTYtUCRD.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 54
+  },
+  {
+   "id": 1627346,
+   "name": "Masahiro Shinohara",
+   "photo": "https://image.tmdb.org/t/p/w185/eI0QrAMx2GZgxFvLCUWI6FPT9rx.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 44
+  },
+  {
+   "id": 3242144,
+   "name": "Yoshiko Nakamura",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 27
+  },
+  {
+   "id": 551775,
+   "name": "Hiroyuki Tsuchiya",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 1608556,
+   "name": "Eiji Umehara",
+   "photo": "https://image.tmdb.org/t/p/w185/u4ZUYnGAOaq4PS7RnbtRenoIfM1.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 1627347,
+   "name": "Kazuomi Koga",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1627364,
+   "name": "Yoshito Mikamo",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1388755,
+   "name": "Kazuhiro Ozawa",
+   "photo": "https://image.tmdb.org/t/p/w185/bfGkfwEHS8p3HjTYmLWNuzkWWxU.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1627356,
+   "name": "Yoshinobu Tokumoto",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 5206268,
+   "name": "Hinako Masaki",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 2923290,
+   "name": "Hidekazu Hara",
+   "photo": "https://image.tmdb.org/t/p/w185/dmOl5Xdm0cznSHyKDIyPGN3NYiD.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 2378259,
+   "name": "Yasuaki Fujii",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 4991295,
+   "name": "Ichinosuke Akikaze",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:38:54.512Z"
+}

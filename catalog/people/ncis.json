@@ -1,0 +1,341 @@
+{
+ "show": "NCIS",
+ "slug": "ncis",
+ "tmdbId": 4614,
+ "cast": [
+  {
+   "id": 1230381,
+   "name": "Sean Murray",
+   "photo": "https://image.tmdb.org/t/p/w185/1RlMqC3qL5gKlfqyAR2xzgKjWrN.jpg",
+   "character": "Timothy McGee",
+   "episodes": 498
+  },
+  {
+   "id": 24813,
+   "name": "David McCallum",
+   "photo": "https://image.tmdb.org/t/p/w185/blpEToArrhcrYdRlQU6fJckUcuG.jpg",
+   "character": "Dr. Donald 'Ducky' Mallard",
+   "episodes": 457
+  },
+  {
+   "id": 19728,
+   "name": "Mark Harmon",
+   "photo": "https://image.tmdb.org/t/p/w185/jDRXlmBItH9IyXk9UhafpOSBIq7.jpg",
+   "character": "Leroy Jethro Gibbs",
+   "episodes": 435
+  },
+  {
+   "id": 1213580,
+   "name": "Brian Dietzen",
+   "photo": "https://image.tmdb.org/t/p/w185/njOHd9yWWGQrTS7btmp2vbMbQjE.jpg",
+   "character": "Jimmy Palmer",
+   "episodes": 400
+  },
+  {
+   "id": 27448,
+   "name": "Rocky Carroll",
+   "photo": "https://image.tmdb.org/t/p/w185/pqjqmRChGqhDXXY7Etka3bmOatN.jpg",
+   "character": "Leon Vance",
+   "episodes": 399
+  },
+  {
+   "id": 11680,
+   "name": "Pauley Perrette",
+   "photo": "https://image.tmdb.org/t/p/w185/xMZGzduDxRcamkUuirbfERzRzxK.jpg",
+   "character": "Abby Sciuto",
+   "episodes": 354
+  },
+  {
+   "id": 122727,
+   "name": "Michael Weatherly",
+   "photo": "https://image.tmdb.org/t/p/w185/o4UqLl3mx7SvFhr9xrpFv7VLpCS.jpg",
+   "character": "Tony DiNozzo / Anthony DiNozzo",
+   "episodes": 313
+  },
+  {
+   "id": 18975,
+   "name": "Wilmer Valderrama",
+   "photo": "https://image.tmdb.org/t/p/w185/uohkEwMGIGCq4k8P2AiomuKQwYv.jpg",
+   "character": "Nick Torres",
+   "episodes": 207
+  },
+  {
+   "id": 297502,
+   "name": "Cote De Pablo",
+   "photo": "https://image.tmdb.org/t/p/w185/py0I61VEXUyTvjHwWffClwfl9yb.jpg",
+   "character": "Ziva David",
+   "episodes": 195
+  },
+  {
+   "id": 204679,
+   "name": "Emily Wickersham",
+   "photo": "https://image.tmdb.org/t/p/w185/oWxiSZFx4QO1VQZQFtLqzWKyiAK.jpg",
+   "character": "Ellie Bishop",
+   "episodes": 174
+  },
+  {
+   "id": 1470346,
+   "name": "Diona Reasonover",
+   "photo": "https://image.tmdb.org/t/p/w185/eor8QzQjERWozp1iv7Tgw6TYnAG.jpg",
+   "character": "Kasie Hines",
+   "episodes": 162
+  },
+  {
+   "id": 164930,
+   "name": "Katrina Law",
+   "photo": "https://image.tmdb.org/t/p/w185/y7LzCN8BaoPPSXDBo0UwPQ4UwSB.jpg",
+   "character": "Jessica Knight",
+   "episodes": 101
+  },
+  {
+   "id": 21163,
+   "name": "Gary Cole",
+   "photo": "https://image.tmdb.org/t/p/w185/uWsqIlfHbyxkmBJLmq2mR93musF.jpg",
+   "character": "Alden Parker",
+   "episodes": 98
+  },
+  {
+   "id": 49,
+   "name": "Maria Bello",
+   "photo": "https://image.tmdb.org/t/p/w185/it1f5mxiGIWO0DzTBfwtLTjphZb.jpg",
+   "character": "Jack Sloane",
+   "episodes": 76
+  },
+  {
+   "id": 34485,
+   "name": "Lauren Holly",
+   "photo": "https://image.tmdb.org/t/p/w185/uJoOKPd6resnq9qA0ChbiNIk7ob.jpg",
+   "character": "Jenny Shepard",
+   "episodes": 61
+  },
+  {
+   "id": 8192,
+   "name": "Joe Spano",
+   "photo": "https://image.tmdb.org/t/p/w185/rHiJspLrlb4uDmWfchwd8Fv13k7.jpg",
+   "character": "T.C. Fornell",
+   "episodes": 56
+  },
+  {
+   "id": 1240417,
+   "name": "Duane Henry",
+   "photo": "https://image.tmdb.org/t/p/w185/mnYq3tMHrn5vnWFyMTVS2L5NrpU.jpg",
+   "character": "Clayton Reeves",
+   "episodes": 50
+  },
+  {
+   "id": 64154,
+   "name": "Sasha Alexander",
+   "photo": "https://image.tmdb.org/t/p/w185/2K3v9aG4JYJtsvZK6MeIhPU7t47.jpg",
+   "character": "Caitlin Todd",
+   "episodes": 49
+  },
+  {
+   "id": 18285,
+   "name": "Jennifer Esposito",
+   "photo": "https://image.tmdb.org/t/p/w185/xI3Jar2KwgzBYH79oVXUxvXisUq.jpg",
+   "character": "Alex Quinn",
+   "episodes": 24
+  },
+  {
+   "id": 79793,
+   "name": "Margo Harshman",
+   "photo": "https://image.tmdb.org/t/p/w185/54lKU4GzWrlDscUKIfjVtDauYaM.jpg",
+   "character": "Delilah Fielding",
+   "episodes": 20
+  },
+  {
+   "id": 17348,
+   "name": "Muse Watson",
+   "photo": "https://image.tmdb.org/t/p/w185/rq7pu8sh0borueON6MK5wkqc2ej.jpg",
+   "character": "Michael Franks",
+   "episodes": 19
+  },
+  {
+   "id": 128628,
+   "name": "Scottie Thompson",
+   "photo": "https://image.tmdb.org/t/p/w185/fx7b87WwORTZxzq8qWvPZS78phg.jpg",
+   "character": "Jeanne Benoit",
+   "episodes": 18
+  },
+  {
+   "id": 1237607,
+   "name": "Stephanie Mello",
+   "photo": "https://image.tmdb.org/t/p/w185/xFAszZ9xG96Tpj50aQxjNTlzGOi.jpg",
+   "character": "Cynthia Sumner",
+   "episodes": 15
+  },
+  {
+   "id": 62150,
+   "name": "Pancho Demmings",
+   "photo": "https://image.tmdb.org/t/p/w185/mvAaZccfae6mOAX7VYtNOdYzIMe.jpg",
+   "character": "Gerald Jackson",
+   "episodes": 14
+  }
+ ],
+ "crew": [
+  {
+   "id": 160145,
+   "name": "Donald P. Bellisario",
+   "photo": "https://image.tmdb.org/t/p/w185/8xjZRZvWfn0aaZVHlYxRUtlqJIR.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 507
+  },
+  {
+   "id": 1218788,
+   "name": "Don McGill",
+   "photo": "https://image.tmdb.org/t/p/w185/9QMLJDoA3hYlWdOhQyTVqimPok9.jpg",
+   "jobs": [
+    "Creator",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 2857027,
+   "name": "Brian Kirk",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 392
+  },
+  {
+   "id": 1216164,
+   "name": "Gary Glasberg",
+   "photo": "https://image.tmdb.org/t/p/w185/aTwYDWjRIR8ymEFPbJdHGDr90N9.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 192
+  },
+  {
+   "id": 1218791,
+   "name": "Dennis Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/cxsDfWfVvHQK81u04124mDJVMkJ.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 59
+  },
+  {
+   "id": 1237600,
+   "name": "Steven D. Binder",
+   "photo": "https://image.tmdb.org/t/p/w185/v3cXk3LoN0tY0Lz1NBPvkniwYui.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 59
+  },
+  {
+   "id": 102638,
+   "name": "Terrence O'Hara",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 52
+  },
+  {
+   "id": 1237602,
+   "name": "Christopher J. Waild",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 52
+  },
+  {
+   "id": 87472,
+   "name": "James Whitmore Jr.",
+   "photo": "https://image.tmdb.org/t/p/w185/g57k2R5KmUhmmTuCloNRBw38a0g.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 49
+  },
+  {
+   "id": 1216005,
+   "name": "Scott Williams",
+   "photo": "https://image.tmdb.org/t/p/w185/JqVRnwb6VhCOSAKkUTTAFCE0o1.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 1219869,
+   "name": "Tony Wharmby",
+   "photo": "https://image.tmdb.org/t/p/w185/qt0ASAf5GfxqCOeqxlPuMFByUNq.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 47
+  },
+  {
+   "id": 155129,
+   "name": "Frank Cardea",
+   "photo": "https://image.tmdb.org/t/p/w185/dVcfjRHb1plYFt3oHRphZsCYiA3.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 42
+  },
+  {
+   "id": 155128,
+   "name": "George Schenck",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 42
+  },
+  {
+   "id": 1237598,
+   "name": "David J. North",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 8573,
+   "name": "Thomas J. Wright",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 38
+  },
+  {
+   "id": 19728,
+   "name": "Mark Harmon",
+   "photo": "https://image.tmdb.org/t/p/w185/jDRXlmBItH9IyXk9UhafpOSBIq7.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 33
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:31:57.198Z"
+}

@@ -1,0 +1,326 @@
+{
+ "show": "Lexx",
+ "slug": "lexx",
+ "tmdbId": 1818,
+ "cast": [
+  {
+   "id": 1195335,
+   "name": "Michael McManus",
+   "photo": "https://image.tmdb.org/t/p/w185/4kQBcaaLE7QINTY1QDkQAZPITsr.jpg",
+   "character": "Kai",
+   "episodes": 61
+  },
+  {
+   "id": 117458,
+   "name": "Brian Downey",
+   "photo": "https://image.tmdb.org/t/p/w185/pu8RdLcFnmCtmEkcqnLLHMLkz5r.jpg",
+   "character": "Stanley H. Tweedle / Brud Parsnip",
+   "episodes": 61
+  },
+  {
+   "id": 144434,
+   "name": "Jeffrey Hirschfield",
+   "photo": "https://image.tmdb.org/t/p/w185/8DAOAg6lQvpTT3VCMHRFcHtZ6Ma.jpg",
+   "character": "P.T. Bando / Dick Dongler / 790 (voice)",
+   "episodes": 58
+  },
+  {
+   "id": 1227333,
+   "name": "Tom Gallant",
+   "photo": "https://image.tmdb.org/t/p/w185/jwgBpeaZoKm4LFC1hXIL4XxMZDw.jpg",
+   "character": "The Lexx (voice) / The Lexx",
+   "episodes": 57
+  },
+  {
+   "id": 68326,
+   "name": "Xenia Seeberg",
+   "photo": "https://image.tmdb.org/t/p/w185/cj3WNbzp4T1p2TwMZQqisE8s5RG.jpg",
+   "character": "Xev Bellringer / Prince",
+   "episodes": 54
+  },
+  {
+   "id": 44208,
+   "name": "Nigel Bennett",
+   "photo": "https://image.tmdb.org/t/p/w185/gaB8nZnEbGe8lIgZtoo1ObYSUEg.jpg",
+   "character": "Prince",
+   "episodes": 23
+  },
+  {
+   "id": 1212576,
+   "name": "Patricia Zentilli",
+   "photo": "https://image.tmdb.org/t/p/w185/whAW0k9PMpiQtCRAASGPk3vH2sP.jpg",
+   "character": "Bunny / Young woman / Laleen",
+   "episodes": 16
+  },
+  {
+   "id": 8801,
+   "name": "Rolf Kanies",
+   "photo": "https://image.tmdb.org/t/p/w185/wX6KscOnIT0zILwQyRBYVUwm4l9.jpg",
+   "character": "President Reginald J. Priest / Priest / Reginald J. Priest",
+   "episodes": 13
+  },
+  {
+   "id": 4925254,
+   "name": "Luise Wischermann",
+   "photo": "https://image.tmdb.org/t/p/w185/bcc8AwXWK1MRC1tUEpTsGi5MUiD.jpg",
+   "character": "Twinsister Lyekka / Lulu / Lyekka",
+   "episodes": 10
+  },
+  {
+   "id": 1196454,
+   "name": "Walter Borden",
+   "photo": "https://image.tmdb.org/t/p/w185/lNlV3tf7UwOf4U57cjvFdeIu03T.jpg",
+   "character": "Dr. Ernst W. Longbore / Dr. Longbore / Dr. Ernst Longbore",
+   "episodes": 8
+  },
+  {
+   "id": 82704,
+   "name": "John Dunsworth",
+   "photo": "https://image.tmdb.org/t/p/w185/lOFaPWFbtr733afDTcWeJlPODDn.jpg",
+   "character": "Old Cracker / Voice of Pilot / White Rook (voice) / Divine Predecessor (voice) (uncredited)",
+   "episodes": 8
+  },
+  {
+   "id": 50683,
+   "name": "Eva Habermann",
+   "photo": "https://image.tmdb.org/t/p/w185/mdkozijZooNyg2K8Dg26zAAJoYh.jpg",
+   "character": "Zev Bellringer (archive footage) / Zev Bellringer",
+   "episodes": 7
+  },
+  {
+   "id": 53934,
+   "name": "Ellen Dubin",
+   "photo": "https://image.tmdb.org/t/p/w185/cvf1pX4t6ZzDPsRi9J2xGrGj78c.jpg",
+   "character": "Genevieve G. Rota / Pope Genevieve / Giggerota (archive footage) / Queen",
+   "episodes": 7
+  },
+  {
+   "id": 101801,
+   "name": "Jeff Pustil",
+   "photo": null,
+   "character": "Schlemmi / Farley Kuckle / Fifi (archive footage)",
+   "episodes": 6
+  },
+  {
+   "id": 23721,
+   "name": "Dieter Laser",
+   "photo": "https://image.tmdb.org/t/p/w185/hrHIulgnKvgSwZFX1Idwq0bQIdR.jpg",
+   "character": "Mantrid",
+   "episodes": 5
+  },
+  {
+   "id": 1396881,
+   "name": "Anna Cameron",
+   "photo": null,
+   "character": "Black Bishop / Older Vlad / The Time Prophet",
+   "episodes": 5
+  },
+  {
+   "id": 1666663,
+   "name": "Minna Aaltonen",
+   "photo": null,
+   "character": "Vlad / White Bishop",
+   "episodes": 5
+  },
+  {
+   "id": 144433,
+   "name": "Lex Gigeroff",
+   "photo": null,
+   "character": "Bound Man / Barnabas K. Huffington / Nozzle (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 3125506,
+   "name": "Jon K. Loverin",
+   "photo": null,
+   "character": "Gloodel / Executioner / Handler",
+   "episodes": 4
+  },
+  {
+   "id": 2756832,
+   "name": "David Albiston",
+   "photo": null,
+   "character": "Mothbreeder / Moth Breeder",
+   "episodes": 4
+  },
+  {
+   "id": 1740897,
+   "name": "Glenn Wadman",
+   "photo": null,
+   "character": "Tour Guide / Prisoner / Officer",
+   "episodes": 4
+  },
+  {
+   "id": 3086834,
+   "name": "Anna Kathrin Bleuler",
+   "photo": null,
+   "character": "May / May (archive footage)",
+   "episodes": 4
+  },
+  {
+   "id": 165887,
+   "name": "Kevin Curran",
+   "photo": null,
+   "character": "Dougall",
+   "episodes": 4
+  },
+  {
+   "id": 2036931,
+   "name": "Tara Doyle",
+   "photo": null,
+   "character": "Tina",
+   "episodes": 4
+  }
+ ],
+ "crew": [
+  {
+   "id": 144430,
+   "name": "Paul Donovan",
+   "photo": "https://image.tmdb.org/t/p/w185/yRLN3vjr1sYqikeSjQTMULlnjG7.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Writer"
+   ],
+   "episodes": 49
+  },
+  {
+   "id": 144434,
+   "name": "Jeffrey Hirschfield",
+   "photo": "https://image.tmdb.org/t/p/w185/8DAOAg6lQvpTT3VCMHRFcHtZ6Ma.jpg",
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 43
+  },
+  {
+   "id": 144433,
+   "name": "Lex Gigeroff",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 108258,
+   "name": "Chris Bould",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 55641,
+   "name": "Marty Simon",
+   "photo": "https://image.tmdb.org/t/p/w185/dWeByBOLLfMCqTPIBlnzlE5AZRO.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 68580,
+   "name": "Christoph Schrewe",
+   "photo": "https://image.tmdb.org/t/p/w185/sOvgFEpBsGj49JUBfKn7mJv0jak.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1212287,
+   "name": "Colin Bucksey",
+   "photo": "https://image.tmdb.org/t/p/w185/apHHMfnkCVna1iYR3K5PA0TQ14D.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1337721,
+   "name": "William Fleming",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 67542,
+   "name": "Stephen Manuel",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1996356,
+   "name": "David McLeod",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 55189,
+   "name": "Bruce McDonald",
+   "photo": "https://image.tmdb.org/t/p/w185/eMYYaExetcCHcDV4zNOIgkyLFIu.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 4140080,
+   "name": "Carl Harvey",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 175323,
+   "name": "Robert Sigl",
+   "photo": "https://image.tmdb.org/t/p/w185/j15C42A8LmWV0DgpqGk1mXjMPfA.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1397031,
+   "name": "Srinivas Krishna",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 4140082,
+   "name": "Andrew Selzer",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1285993,
+   "name": "Tom de Ville",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:32.321Z"
+}

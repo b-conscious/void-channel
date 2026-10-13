@@ -1,0 +1,322 @@
+{
+ "show": "Uzaki-chan Wants to Hang Out!",
+ "slug": "uzaki-chan-wants-to-hang-out",
+ "tmdbId": 98986,
+ "cast": [
+  {
+   "id": 1071545,
+   "name": "Kenji Akabane",
+   "photo": "https://image.tmdb.org/t/p/w185/sBduxft8NwdbASvtL14bMx86cPq.jpg",
+   "character": "Shinichi Sakurai (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 1324931,
+   "name": "Naomi Ohzora",
+   "photo": "https://image.tmdb.org/t/p/w185/qygKX6EtfvPdnPsMM0d41mPztP2.jpg",
+   "character": "Hana Uzaki (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 1072776,
+   "name": "Ayana Taketatsu",
+   "photo": "https://image.tmdb.org/t/p/w185/7p9BhK5EZtHvXWhFa1WejhoNst3.jpg",
+   "character": "Ami Asai (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 2528585,
+   "name": "Tomoya Takagi",
+   "photo": "https://image.tmdb.org/t/p/w185/6rX6DUUSrk5dxavWa8GZl2ASYRV.jpg",
+   "character": "Itsuhito Sakaki (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 84509,
+   "name": "Yosuke Akimoto",
+   "photo": "https://image.tmdb.org/t/p/w185/uzBTKym7osTko49r5odq86nPKT5.jpg",
+   "character": "Akihiko Asai (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 221773,
+   "name": "Saori Hayami",
+   "photo": "https://image.tmdb.org/t/p/w185/gLv9lO7dlUbIsmyJUvgegqAAXki.jpg",
+   "character": "Tsuki Uzaki (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 1201637,
+   "name": "Yuko Sanpei",
+   "photo": "https://image.tmdb.org/t/p/w185/gms4G7ZRIQYXI9zsorkQr8aHnOU.jpg",
+   "character": "Kiri Uzaki (voice)",
+   "episodes": 14
+  },
+  {
+   "id": 1252626,
+   "name": "Shinichi Yamada",
+   "photo": "https://image.tmdb.org/t/p/w185/n5UAMRGAK7grPPwb0jgFKVEZ9Xt.jpg",
+   "character": "Narrator (voice)",
+   "episodes": 14
+  },
+  {
+   "id": 3689486,
+   "name": "Seina Kato",
+   "photo": "https://image.tmdb.org/t/p/w185/vqi2ISi89qfp3svj8ngS6N4dbD2.jpg",
+   "character": "Yanagi Uzaki (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 9720,
+   "name": "Hideo Ishikawa",
+   "photo": "https://image.tmdb.org/t/p/w185/gEjEDNGt3CHsyzFQdNqewZVbh0.jpg",
+   "character": "Fujio Uzaki (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 122660,
+   "name": "Miki Ito",
+   "photo": "https://image.tmdb.org/t/p/w185/6osSzjWq1MZ0XznG3UZHpB81lJF.jpg",
+   "character": "Haruko Sakurai (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 144655,
+   "name": "Tomokazu Sugita",
+   "photo": "https://image.tmdb.org/t/p/w185/cv5zuPZySNsHXu24pjKLYCRzJ2J.jpg",
+   "character": "Shiro Sakurai (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 2755188,
+   "name": "Haruna Nitta",
+   "photo": "https://image.tmdb.org/t/p/w185/fGJ7iT8xIrdo2OnjmE7WKgsHfIF.jpg",
+   "character": "Girl (voice) / Swim club member #1 (voice) / Miho Miho (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 1339189,
+   "name": "Saori Onishi",
+   "photo": "https://image.tmdb.org/t/p/w185/cziKB19QMFJ6DQDtxTn07uRY2hq.jpg",
+   "character": "Ito (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 3209841,
+   "name": "Take",
+   "photo": null,
+   "character": "Cat (voice) / Izakaya customer (voice) / Choco-mint Party applauses (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 3745236,
+   "name": "Junpei Mizunari",
+   "photo": "https://image.tmdb.org/t/p/w185/axlbVVCiaGe4SsOg674LYFEo1ec.jpg",
+   "character": "(voice)",
+   "episodes": 4
+  },
+  {
+   "id": 3745247,
+   "name": "Toshinori Yamazawa",
+   "photo": null,
+   "character": "(voice)",
+   "episodes": 4
+  },
+  {
+   "id": 2810845,
+   "name": "Masafumi Kobatake",
+   "photo": "https://image.tmdb.org/t/p/w185/rsIFdHICaG7iIfG7AhQuPTc7s0B.jpg",
+   "character": "Imura (voice) / (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 3152828,
+   "name": "Hiroaki Moriyama",
+   "photo": null,
+   "character": "(voice)",
+   "episodes": 4
+  },
+  {
+   "id": 3152827,
+   "name": "Tetsushi Kajimoto",
+   "photo": "https://image.tmdb.org/t/p/w185/8mZrlPUSqLItPCWIYBx25vucdna.jpg",
+   "character": "(voice)",
+   "episodes": 3
+  },
+  {
+   "id": 2755183,
+   "name": "Kami Daimon",
+   "photo": "https://image.tmdb.org/t/p/w185/vrgn9pQI6ozKJluDNOecfh20rcg.jpg",
+   "character": "Girl (voice) / (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 3053592,
+   "name": "Ahiru Ohira",
+   "photo": "https://image.tmdb.org/t/p/w185/9sohvV3i9j4ltbxIWmCE7XCH4Rs.jpg",
+   "character": "(voice)",
+   "episodes": 2
+  },
+  {
+   "id": 3215888,
+   "name": "Akiko Sue",
+   "photo": "https://image.tmdb.org/t/p/w185/vYi7UUGNIjBCeC24ZhMP21iFvvN.jpg",
+   "character": "(voice)",
+   "episodes": 2
+  },
+  {
+   "id": 3733551,
+   "name": "Akari Baba",
+   "photo": "https://image.tmdb.org/t/p/w185/jpQvYRhjxJ1NgojHEVwEk50FZPv.jpg",
+   "character": "(voice)",
+   "episodes": 2
+  }
+ ],
+ "crew": [
+  {
+   "id": 1260811,
+   "name": "Takashi Aoshima",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 3209841,
+   "name": "Take",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 3103113,
+   "name": "Shingo Kunieda",
+   "photo": "https://image.tmdb.org/t/p/w185/u3N1dbOMaT91RIOkTPLUHaXKbE.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 2483994,
+   "name": "Yu Tamura",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 1506165,
+   "name": "Asuka Yamazaki",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 1647493,
+   "name": "Masayuki Nishide",
+   "photo": "https://image.tmdb.org/t/p/w185/7JkLIvLcWIWp2nNYqALSfDnty6o.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 2658630,
+   "name": "Haruki Satomi",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 3209900,
+   "name": "Satoshi Igarashi",
+   "photo": "https://image.tmdb.org/t/p/w185/3HjLx71F8vbYlfSz7nOTDqH9Zrc.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 2383314,
+   "name": "Shinichi Fukumoto",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 1647647,
+   "name": "Sho Tanaka",
+   "photo": "https://image.tmdb.org/t/p/w185/8uWkJIKbZuBEqY3Milyu6aLlDNY.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 3723164,
+   "name": "Yuichiro Kubo",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 3167893,
+   "name": "Naoki Tani",
+   "photo": "https://image.tmdb.org/t/p/w185/s4p00XDwOGE3Wk0pk3crX4Az7WI.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 3167906,
+   "name": "Tatsuya Yano",
+   "photo": "https://image.tmdb.org/t/p/w185/i9wf1fHdp3xJQDHwMouU21AmrPG.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 3689158,
+   "name": "Yuri Morita",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 1647525,
+   "name": "Daiji Horiuchi",
+   "photo": "https://image.tmdb.org/t/p/w185/fuKGZtCMJVxqgGiXXumniCexThK.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1556274,
+   "name": "Fumihiko Shinozaki",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:38:41.305Z"
+}

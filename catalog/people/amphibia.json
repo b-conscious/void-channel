@@ -1,0 +1,315 @@
+{
+ "show": "Amphibia",
+ "slug": "amphibia",
+ "tmdbId": 85349,
+ "cast": [
+  {
+   "id": 88123,
+   "name": "Brenda Song",
+   "photo": "https://image.tmdb.org/t/p/w185/eyYiNWXquotE53lfjsgcwxgfvu.jpg",
+   "character": "Anne Boonchuy (voice)",
+   "episodes": 106
+  },
+  {
+   "id": 1919996,
+   "name": "Justin Felbinger",
+   "photo": "https://image.tmdb.org/t/p/w185/7qY0El4GT6MTb0xVzC5pQwcN2JU.jpg",
+   "character": "Sprig Plantar (voice)",
+   "episodes": 106
+  },
+  {
+   "id": 1435947,
+   "name": "Amanda Leighton",
+   "photo": "https://image.tmdb.org/t/p/w185/h5d07tlCEt7PYSDYYXpzfpwb62M.jpg",
+   "character": "Polly Plantar (voice)",
+   "episodes": 106
+  },
+  {
+   "id": 84213,
+   "name": "Bill Farmer",
+   "photo": "https://image.tmdb.org/t/p/w185/lhezx68R12s5Bsv7d77BrQb7tWA.jpg",
+   "character": "Hopediah Plantar (voice)",
+   "episodes": 106
+  },
+  {
+   "id": 2685661,
+   "name": "On Braly",
+   "photo": null,
+   "character": "Mrs. Boonchuy (voice)",
+   "episodes": 34
+  },
+  {
+   "id": 2661546,
+   "name": "Brian Sounalath",
+   "photo": "https://image.tmdb.org/t/p/w185/2QkZZ7CRjXZgcganOKMaLGbhVX6.jpg",
+   "character": "Mr. Boonchuy (voice)",
+   "episodes": 31
+  },
+  {
+   "id": 17401,
+   "name": "Stephen Root",
+   "photo": "https://image.tmdb.org/t/p/w185/2Zwi6AydqQQ9InVdhjYcfJXNzkp.jpg",
+   "character": "Mayor Toadstool (voice)",
+   "episodes": 15
+  },
+  {
+   "id": 105641,
+   "name": "James Patrick Stuart",
+   "photo": "https://image.tmdb.org/t/p/w185/sFDP6Ahkr3LuMr1kTsLzwB5jV93.jpg",
+   "character": "One-Eyed Wally (voice)",
+   "episodes": 15
+  },
+  {
+   "id": 2204537,
+   "name": "Laila Berzins",
+   "photo": "https://image.tmdb.org/t/p/w185/6FIOa6WKq8zEVQW3v6Y7lZiMTOE.jpg",
+   "character": "Sadie Croaker (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 65827,
+   "name": "Keith David",
+   "photo": "https://image.tmdb.org/t/p/w185/1x0QXavmIy3QmhyrOsV7gMnJaEx.jpg",
+   "character": "King Andrias (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 58737,
+   "name": "Jack McBrayer",
+   "photo": "https://image.tmdb.org/t/p/w185/cbr26xDPEiOuYQxggtCPbu5xhDU.jpg",
+   "character": "Toadie (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 1382187,
+   "name": "Kaitlyn Robrock",
+   "photo": "https://image.tmdb.org/t/p/w185/1joOQrgyU9ap9W1cvimh01XmKcO.jpg",
+   "character": "Felicia Sundew (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 98400,
+   "name": "Brian Maillard",
+   "photo": "https://image.tmdb.org/t/p/w185/e3oHa5S24Ad5aeA5GEFRq3uFE5m.jpg",
+   "character": "Leopold Loggle (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 1267375,
+   "name": "Anna Akana",
+   "photo": "https://image.tmdb.org/t/p/w185/taJmE5h3inYhvrLXO7Dq9IMGhEp.jpg",
+   "character": "Sasha Waybright (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 23680,
+   "name": "Dee Bradley Baker",
+   "photo": "https://image.tmdb.org/t/p/w185/9oFnToDZWp0I484s7Ua1EzNQQ2m.jpg",
+   "character": "Bessie (voice) / Archie (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 31531,
+   "name": "John DiMaggio",
+   "photo": "https://image.tmdb.org/t/p/w185/qcbQe71nSlULDsP1OxTqltEKFbl.jpg",
+   "character": "Stumpy (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 1625774,
+   "name": "Haley Tju",
+   "photo": "https://image.tmdb.org/t/p/w185/aWpL6i7PdGSUXCQCYq75mB1ODTR.jpg",
+   "character": "Marcy Wu (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 1423098,
+   "name": "Aisling Bea",
+   "photo": "https://image.tmdb.org/t/p/w185/9GDvJGiyRkCOmzlEUsMfWI0np89.jpg",
+   "character": "Captain Beatrix (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 963818,
+   "name": "Troy Baker",
+   "photo": "https://image.tmdb.org/t/p/w185/mppX8pDkwNvx3dJzclwcGkngEb3.jpg",
+   "character": "Captain Grime (voice) / Grime (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 24362,
+   "name": "Kevin Michael Richardson",
+   "photo": "https://image.tmdb.org/t/p/w185/xXt9Nh7RAT5bOen66TaXreNYmCl.jpg",
+   "character": "Mr. Flour (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 972599,
+   "name": "Katie Crown",
+   "photo": "https://image.tmdb.org/t/p/w185/mpkqHBsRDs4EAbmWCD0xswicruI.jpg",
+   "character": "Ivy Sundew (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 78589,
+   "name": "RuPaul",
+   "photo": "https://image.tmdb.org/t/p/w185/px8XeYcAzKzAto4MFYfs6kBSEWF.jpg",
+   "character": "Mr. X (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 2135035,
+   "name": "Zeno Robinson",
+   "photo": "https://image.tmdb.org/t/p/w185/PyoUSDPm4AiGcp6W2WTBD2zSMt.jpg",
+   "character": "Young Andrias (voice) / Additional Voices (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 58955,
+   "name": "Kevin McDonald",
+   "photo": "https://image.tmdb.org/t/p/w185/ymwrW99x9gyN0zeRkqavt3lZMa9.jpg",
+   "character": "Albus Duckweed (voice)",
+   "episodes": 3
+  }
+ ],
+ "crew": [
+  {
+   "id": 1656572,
+   "name": "Matt Braly",
+   "photo": "https://image.tmdb.org/t/p/w185/mXY5zPVc97CHmwGvIvYoWkUQTQ0.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 106
+  },
+  {
+   "id": 2224670,
+   "name": "Joe Johnston",
+   "photo": "https://image.tmdb.org/t/p/w185/26fpsUWy3cllRIZRAl8Jedo5JPe.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 2682438,
+   "name": "Jenn Strickland",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 2682392,
+   "name": "Adam Colás",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1251097,
+   "name": "Michele Cavin",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 23
+  },
+  {
+   "id": 2682464,
+   "name": "Jenava Mie",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 1943525,
+   "name": "Gloria Shen",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 2061712,
+   "name": "Kyler Spears",
+   "photo": "https://image.tmdb.org/t/p/w185/ciUmi4uGPXvME6Vh4FptrBM5X8D.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 21
+  },
+  {
+   "id": 2091700,
+   "name": "Bert Youn",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 2708377,
+   "name": "Todd McClintock",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 2826692,
+   "name": "Roxann Cole",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1245176,
+   "name": "Jack D. Ferraiolo",
+   "photo": "https://image.tmdb.org/t/p/w185/nAivBKA9ranxpWCxOrZfGJD4BKt.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 3417230,
+   "name": "Justin Charlebois",
+   "photo": null,
+   "jobs": [
+    "Story"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1903820,
+   "name": "Emily Brundige",
+   "photo": "https://image.tmdb.org/t/p/w185/21WaeK62oRrvCWWBUvHStTkEqMO.jpg",
+   "jobs": [
+    "Story"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 2746207,
+   "name": "Jeff Trammell",
+   "photo": "https://image.tmdb.org/t/p/w185/xmAkswFTKX6jO7nOd943f32GC03.jpg",
+   "jobs": [
+    "Story"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:34:57.321Z"
+}

@@ -1,0 +1,330 @@
+{
+ "show": "Jane the Virgin",
+ "slug": "jane-the-virgin",
+ "tmdbId": 61418,
+ "cast": [
+  {
+   "id": 180486,
+   "name": "Gina Rodriguez",
+   "photo": "https://image.tmdb.org/t/p/w185/2Mw6L8gpAhnXAgmJZkz85YxVmOt.jpg",
+   "character": "Jane Villanueva",
+   "episodes": 100
+  },
+  {
+   "id": 210826,
+   "name": "Andrea Navedo",
+   "photo": "https://image.tmdb.org/t/p/w185/yUmB8TKeY0eAQSO54BbxdyEhUrP.jpg",
+   "character": "Xiomara Villanueva",
+   "episodes": 100
+  },
+  {
+   "id": 572195,
+   "name": "Yael Grobglas",
+   "photo": "https://image.tmdb.org/t/p/w185/oAoQcDX3zbf7DG6yP20fDfroduf.jpg",
+   "character": "Petra Solano",
+   "episodes": 100
+  },
+  {
+   "id": 88675,
+   "name": "Justin Baldoni",
+   "photo": "https://image.tmdb.org/t/p/w185/a7Z3lA96nyZswEc80nXAKCWfXn1.jpg",
+   "character": "Rafael Solano",
+   "episodes": 100
+  },
+  {
+   "id": 46929,
+   "name": "Ivonne Coll",
+   "photo": "https://image.tmdb.org/t/p/w185/7cyzeWeX8zD4IwAUDfyE9BK8woY.jpg",
+   "character": "Alba Villanueva",
+   "episodes": 100
+  },
+  {
+   "id": 545087,
+   "name": "Jaime Camil",
+   "photo": "https://image.tmdb.org/t/p/w185/njvdXEGN3bSSXpsyVnyKQTXdf1V.jpg",
+   "character": "Rogelio De La Vega",
+   "episodes": 100
+  },
+  {
+   "id": 1371039,
+   "name": "Anthony Mendez",
+   "photo": "https://image.tmdb.org/t/p/w185/p6aJA6De9KWR8vlw1nK0VnVJtFy.jpg",
+   "character": "Narrator (voice)",
+   "episodes": 100
+  },
+  {
+   "id": 110475,
+   "name": "Brett Dier",
+   "photo": "https://image.tmdb.org/t/p/w185/o6qpQsBtIpU7EonNDktecfP9qTi.jpg",
+   "character": "Michael Cordero Jr.",
+   "episodes": 65
+  },
+  {
+   "id": 204723,
+   "name": "Yara Martinez",
+   "photo": "https://image.tmdb.org/t/p/w185/h7FcuyLMJ96EMqzcyjzrS5cYg34.jpg",
+   "character": "Dr. Luisa Alver",
+   "episodes": 44
+  },
+  {
+   "id": 23648,
+   "name": "Priscilla Barnes",
+   "photo": "https://image.tmdb.org/t/p/w185/3bEvjncb05fI7dIwzjeUrvc54qA.jpg",
+   "character": "Magda",
+   "episodes": 41
+  },
+  {
+   "id": 1908252,
+   "name": "Elias Janssen",
+   "photo": "https://image.tmdb.org/t/p/w185/lWnROuRZnQX0WPR2LTuVYNyayxX.jpg",
+   "character": "Mateo Solano Villanueva",
+   "episodes": 35
+  },
+  {
+   "id": 1222298,
+   "name": "Bridget Regan",
+   "photo": "https://image.tmdb.org/t/p/w185/ri1kEBkWa9ShTYbV2iJAFa0V4VU.jpg",
+   "character": "Rose Solano",
+   "episodes": 32
+  },
+  {
+   "id": 974169,
+   "name": "Jenna Ortega",
+   "photo": "https://image.tmdb.org/t/p/w185/cV4x7jNmsGLdKZn5I6xVF3Ltnmg.jpg",
+   "character": "Young Jane",
+   "episodes": 29
+  },
+  {
+   "id": 1937744,
+   "name": "Alfonso DiLuca",
+   "photo": "https://image.tmdb.org/t/p/w185/dGlgSPEEIsLPPSgNd3PIwHza2KQ.jpg",
+   "character": "Jorge / Jorge Garcia",
+   "episodes": 28
+  },
+  {
+   "id": 1383571,
+   "name": "Shelly Bhalla",
+   "photo": "https://image.tmdb.org/t/p/w185/jvbsMOamHKdYetmc3cp5RZWUbf1.jpg",
+   "character": "Krishna Dhawan / Krishna",
+   "episodes": 27
+  },
+  {
+   "id": 1937785,
+   "name": "Ella Allan",
+   "photo": "https://image.tmdb.org/t/p/w185/r7j2ZLgkRG4xixzqK9F3JegnHSH.jpg",
+   "character": "Ellie / Ellie Solano",
+   "episodes": 27
+  },
+  {
+   "id": 1937784,
+   "name": "Mia Allan",
+   "photo": "https://image.tmdb.org/t/p/w185/r6CtHSv7l6h3Sco8W8IEpW0VYZG.jpg",
+   "character": "Anna",
+   "episodes": 26
+  },
+  {
+   "id": 1010157,
+   "name": "Diane Guerrero",
+   "photo": "https://image.tmdb.org/t/p/w185/suyRRuMIjBdAzTxdFM7U9zHMPTv.jpg",
+   "character": "Lina Santillan / Lina",
+   "episodes": 24
+  },
+  {
+   "id": 104911,
+   "name": "Wes Armstrong",
+   "photo": "https://image.tmdb.org/t/p/w185/dR4VsFin9Nnnk3kutDZd1EWb5XL.jpg",
+   "character": "Scott",
+   "episodes": 22
+  },
+  {
+   "id": 134238,
+   "name": "Azie Tesfai",
+   "photo": "https://image.tmdb.org/t/p/w185/fWQtyjPDHArabFap9w4GuDhv7Qf.jpg",
+   "character": "Nadine Hansan",
+   "episodes": 21
+  },
+  {
+   "id": 1031885,
+   "name": "Keller Wortham",
+   "photo": "https://image.tmdb.org/t/p/w185/zHbobwYKYYStLDxJKpYI2HRwSok.jpg",
+   "character": "Esteban Santiago",
+   "episodes": 21
+  },
+  {
+   "id": 1771351,
+   "name": "Christopher Allen",
+   "photo": "https://image.tmdb.org/t/p/w185/iHoi2n84UTDjEzvJiWRwW2VKhl2.jpg",
+   "character": "Dennis",
+   "episodes": 19
+  },
+  {
+   "id": 95517,
+   "name": "Justina Machado",
+   "photo": "https://image.tmdb.org/t/p/w185/j5FaJXoyhMHlqv1l6TBdt1CH1oO.jpg",
+   "character": "Darcy Factor / Darci Factor",
+   "episodes": 19
+  },
+  {
+   "id": 5916,
+   "name": "Rosario Dawson",
+   "photo": "https://image.tmdb.org/t/p/w185/siTzOI810a0K46wv1TORXMw5N7J.jpg",
+   "character": "Jane \"JR\" Ramos / Jane Ramos",
+   "episodes": 18
+  }
+ ],
+ "crew": [
+  {
+   "id": 296963,
+   "name": "Jennie Snyder Urman",
+   "photo": "https://image.tmdb.org/t/p/w185/1PSLV9kQ5KGhTOrPrj61Wlx6vZa.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 81
+  },
+  {
+   "id": 1935386,
+   "name": "Lewis Abel",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 82
+  },
+  {
+   "id": 210285,
+   "name": "Paul Sciarrotta",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 81
+  },
+  {
+   "id": 1035869,
+   "name": "Ben Silverman",
+   "photo": "https://image.tmdb.org/t/p/w185/mmlSuSF6wxv0FfaoOQwNCrC83YQ.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 81
+  },
+  {
+   "id": 1679615,
+   "name": "Jorge Granier",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 81
+  },
+  {
+   "id": 22142,
+   "name": "Gary Pearl",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 81
+  },
+  {
+   "id": 51588,
+   "name": "Kevin Kiner",
+   "photo": "https://image.tmdb.org/t/p/w185/FtGnTCUaMTNDESIuwhEmzCNIpp.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 81
+  },
+  {
+   "id": 1215065,
+   "name": "David S. Rosenthal",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 80
+  },
+  {
+   "id": 11887,
+   "name": "Brad Silberling",
+   "photo": "https://image.tmdb.org/t/p/w185/5uTck65ic4c2sHB6wvkTInmECpr.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 59
+  },
+  {
+   "id": 59470,
+   "name": "Micah Schraft",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 59
+  },
+  {
+   "id": 1921456,
+   "name": "Leo Zisman",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 42
+  },
+  {
+   "id": 943669,
+   "name": "Carolina Rivera",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 35
+  },
+  {
+   "id": 83313,
+   "name": "Melanie Mayron",
+   "photo": "https://image.tmdb.org/t/p/w185/sI38VFYahukXe2NPVSCTMjP6nK6.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 1491971,
+   "name": "Gina Lamar",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 63710,
+   "name": "Jessica O'Toole",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 63711,
+   "name": "Amy Rardin",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 11
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:28:47.627Z"
+}

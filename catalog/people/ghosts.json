@@ -1,0 +1,329 @@
+{
+ "show": "Ghosts",
+ "slug": "ghosts",
+ "tmdbId": 126027,
+ "cast": [
+  {
+   "id": 53485,
+   "name": "Rose McIver",
+   "photo": "https://image.tmdb.org/t/p/w185/7oswXIUIGAZphpZMBhuXoUgOIJi.jpg",
+   "character": "Samantha Arondekar",
+   "episodes": 98
+  },
+  {
+   "id": 929511,
+   "name": "Utkarsh Ambudkar",
+   "photo": "https://image.tmdb.org/t/p/w185/vUW5bFrkjWikNFzh5B6F11r5C3X.jpg",
+   "character": "Jay Arondekar",
+   "episodes": 98
+  },
+  {
+   "id": 1561268,
+   "name": "Brandon Scott Jones",
+   "photo": "https://image.tmdb.org/t/p/w185/lgw6q8nuBLDet1VUIEbuS5FX9eJ.jpg",
+   "character": "Isaac Higgintoot",
+   "episodes": 98
+  },
+  {
+   "id": 2000332,
+   "name": "Danielle Pinnock",
+   "photo": "https://image.tmdb.org/t/p/w185/hFMGpNsziDjtFvrkQ6KCJSiRN4e.jpg",
+   "character": "Alberta Haynes",
+   "episodes": 98
+  },
+  {
+   "id": 1493747,
+   "name": "Richie Moriarty",
+   "photo": "https://image.tmdb.org/t/p/w185/cXQMQvEzZwALyfHuHUaq9bHvelY.jpg",
+   "character": "Pete Martino",
+   "episodes": 98
+  },
+  {
+   "id": 1072648,
+   "name": "Asher Grodman",
+   "photo": "https://image.tmdb.org/t/p/w185/vB7oRsWlQ5dIGsh2hdEG3OIdYUh.jpg",
+   "character": "Trevor Lefkowitz",
+   "episodes": 98
+  },
+  {
+   "id": 60632,
+   "name": "Rebecca Wisocky",
+   "photo": "https://image.tmdb.org/t/p/w185/rR3LZIHFs0pQz0wd9zDPdVvd3nv.jpg",
+   "character": "Hetty Woodstone",
+   "episodes": 98
+  },
+  {
+   "id": 1371263,
+   "name": "Devan Chandler Long",
+   "photo": "https://image.tmdb.org/t/p/w185/qPZeVZqH1z7n5LVKVdzwXbAHe6s.jpg",
+   "character": "Thorfinn",
+   "episodes": 98
+  },
+  {
+   "id": 2775164,
+   "name": "Román Zaragoza",
+   "photo": "https://image.tmdb.org/t/p/w185/uWkOkSLqj2POMqkeLk5E5UJzebv.jpg",
+   "character": "Sasappis",
+   "episodes": 98
+  },
+  {
+   "id": 1937801,
+   "name": "Sheila Carrasco",
+   "photo": "https://image.tmdb.org/t/p/w185/a3F6yzxjFKZDssAPOymXwYKjwe8.jpg",
+   "character": "Flower",
+   "episodes": 87
+  },
+  {
+   "id": 1404102,
+   "name": "Betsy Sodaro",
+   "photo": "https://image.tmdb.org/t/p/w185/mia2ZT1kMUnKUdT2Q9QZ7u80HJJ.jpg",
+   "character": "Nancy",
+   "episodes": 40
+  },
+  {
+   "id": 1015568,
+   "name": "Tristan D. Lalla",
+   "photo": "https://image.tmdb.org/t/p/w185/yyrn7MeftoEpTVidzCbaazoCvNp.jpg",
+   "character": "Mark",
+   "episodes": 29
+  },
+  {
+   "id": 1866130,
+   "name": "John Hartman",
+   "photo": "https://image.tmdb.org/t/p/w185/wVs9ncZ28tEIURhPLaXbOq53F4Q.jpg",
+   "character": "Nigel",
+   "episodes": 28
+  },
+  {
+   "id": 115596,
+   "name": "Arthur Holden",
+   "photo": "https://image.tmdb.org/t/p/w185/c8FXyHhiVXCsjvwxXOzuVi28z3i.jpg",
+   "character": "Creepy Dirk",
+   "episodes": 24
+  },
+  {
+   "id": 2167995,
+   "name": "Nigel Downer",
+   "photo": "https://image.tmdb.org/t/p/w185/evIxywR2os9C1hQCqRveKpQnSj9.jpg",
+   "character": "Cholera Victim Nigel",
+   "episodes": 21
+  },
+  {
+   "id": 1261373,
+   "name": "Cat Lemieux",
+   "photo": "https://image.tmdb.org/t/p/w185/b1k7V5G2ji8Yl5mP66bA9OWZ7Nu.jpg",
+   "character": "Cholera Victim Cat",
+   "episodes": 18
+  },
+  {
+   "id": 1852297,
+   "name": "Punam Patel",
+   "photo": "https://image.tmdb.org/t/p/w185/3SjcFZXnHRMS9ZixWKRGlQX3mVJ.jpg",
+   "character": "Bela",
+   "episodes": 17
+  },
+  {
+   "id": 1721408,
+   "name": "Stuart Fink",
+   "photo": "https://image.tmdb.org/t/p/w185/yRhZesWPPvg7fDnCBOxDWfW2qsv.jpg",
+   "character": "Cholera Victim Stuart",
+   "episodes": 17
+  },
+  {
+   "id": 3299002,
+   "name": "Christian Daoust",
+   "photo": "https://image.tmdb.org/t/p/w185/w6gfggQAVbz0YKSLopNkwOijPHc.jpg",
+   "character": "Jenkins",
+   "episodes": 10
+  },
+  {
+   "id": 1910,
+   "name": "Caroline Aaron",
+   "photo": "https://image.tmdb.org/t/p/w185/7nnic1Dao3XoScrwX7Ac39N2BC1.jpg",
+   "character": "Carol",
+   "episodes": 10
+  },
+  {
+   "id": 1488952,
+   "name": "Mary Holland",
+   "photo": "https://image.tmdb.org/t/p/w185/iwEK2fIrU1q7aijjD8FI9hCUMEL.jpg",
+   "character": "Patience",
+   "episodes": 9
+  },
+  {
+   "id": 162747,
+   "name": "Kathryn Greenwood",
+   "photo": "https://image.tmdb.org/t/p/w185/zVKcvl2SSFRBjKNK7ArJ9WEAQa8.jpg",
+   "character": "Margaret Farnsby",
+   "episodes": 7
+  },
+  {
+   "id": 3636659,
+   "name": "Cody Crain",
+   "photo": "https://image.tmdb.org/t/p/w185/ydcBR1eaYotPenw2McF42AojKjG.jpg",
+   "character": "Cholera Victim Cody",
+   "episodes": 7
+  },
+  {
+   "id": 112604,
+   "name": "Steven Yaffee",
+   "photo": "https://image.tmdb.org/t/p/w185/mXocbdbwai9N6xPUI8oCMw4hLCE.jpg",
+   "character": "Baxter",
+   "episodes": 7
+  }
+ ],
+ "crew": [
+  {
+   "id": 1220717,
+   "name": "Joe Port",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 94
+  },
+  {
+   "id": 1220718,
+   "name": "Joe Wiseman",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 94
+  },
+  {
+   "id": 54599,
+   "name": "Jeff Cardoni",
+   "photo": "https://image.tmdb.org/t/p/w185/6YWD0gufzug7sgWJD3rYJM28Cbx.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 98
+  },
+  {
+   "id": 1236982,
+   "name": "Ben Willbond",
+   "photo": "https://image.tmdb.org/t/p/w185/lPbG2095GBoUkmpw6A2IbiyEnjV.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 94
+  },
+  {
+   "id": 37756,
+   "name": "Alison Owen",
+   "photo": "https://image.tmdb.org/t/p/w185/oNkOmQoFc3ktKSbU2R1nWOH0wh1.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 94
+  },
+  {
+   "id": 9150,
+   "name": "Debra Hayward",
+   "photo": "https://image.tmdb.org/t/p/w185/5WmDBvSRv3iFtBUD5PIXnDo9phr.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 94
+  },
+  {
+   "id": 3097771,
+   "name": "Angie Stephenson",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 94
+  },
+  {
+   "id": 114253,
+   "name": "Simon Farnaby",
+   "photo": "https://image.tmdb.org/t/p/w185/xslxzBfDYYHNFnAMWyjjxFUTlEk.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 94
+  },
+  {
+   "id": 211681,
+   "name": "Jim Howick",
+   "photo": "https://image.tmdb.org/t/p/w185/1HzAboxM0ay7eed284VbSveG3ku.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 94
+  },
+  {
+   "id": 1405880,
+   "name": "Laurence Rickard",
+   "photo": "https://image.tmdb.org/t/p/w185/y2Hn3kX70wKduMMWdzd9eTOgMuT.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 94
+  },
+  {
+   "id": 1238457,
+   "name": "Martha Howe-Douglas",
+   "photo": "https://image.tmdb.org/t/p/w185/hk39eTYpKXAHJePNu0J6WBrCwR0.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 94
+  },
+  {
+   "id": 1246784,
+   "name": "Mathew Baynton",
+   "photo": "https://image.tmdb.org/t/p/w185/g3FnkjMKL5bsGQc0sEpuXFYK4u4.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 94
+  },
+  {
+   "id": 2738479,
+   "name": "Alison Carpenter",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 94
+  },
+  {
+   "id": 3162354,
+   "name": "John Timothy",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 53
+  },
+  {
+   "id": 4698092,
+   "name": "Brian Bahe",
+   "photo": "https://image.tmdb.org/t/p/w185/5ptxMRbEERSIcCkS9HGbN2Mu814.jpg",
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 3307311,
+   "name": "Lauren Bridges",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 43
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:34:45.801Z"
+}

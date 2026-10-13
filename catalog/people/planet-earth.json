@@ -1,0 +1,91 @@
+{
+ "show": "Planet Earth",
+ "slug": "planet-earth",
+ "tmdbId": 1044,
+ "cast": [
+  {
+   "id": 86543,
+   "name": "David Attenborough",
+   "photo": "https://image.tmdb.org/t/p/w185/xE6aLZ2Ma1VSoZGhOUW8TcbBMN6.jpg",
+   "character": "Self - Narrator",
+   "episodes": 11
+  }
+ ],
+ "crew": [
+  {
+   "id": 67589,
+   "name": "Alastair Fothergill",
+   "photo": "https://image.tmdb.org/t/p/w185/l2fqoPIjMxVLRgb8BU9AwCrDJJA.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 565212,
+   "name": "Mike Gunton",
+   "photo": "https://image.tmdb.org/t/p/w185/57Hih6kIaoxasdUXL8kv4cfOM8N.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1078996,
+   "name": "Tom Hugh-Jones",
+   "photo": "https://image.tmdb.org/t/p/w185/ufD54Dk3WGIlk6Z5FBMmf7hakva.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1221892,
+   "name": "Maureen Lemire",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1528,
+   "name": "George Fenton",
+   "photo": "https://image.tmdb.org/t/p/w185/gWfVsfSG4WMpbfk0OKUIEj0Gke6.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1221891,
+   "name": "Gary Parker",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 86543,
+   "name": "David Attenborough",
+   "photo": "https://image.tmdb.org/t/p/w185/xE6aLZ2Ma1VSoZGhOUW8TcbBMN6.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 929886,
+   "name": "Vanessa Berlowitz",
+   "photo": "https://image.tmdb.org/t/p/w185/vlmw1RgFfhcxYU3KKebqk1Ym4Tu.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:37:20.475Z"
+}

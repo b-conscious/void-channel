@@ -1,0 +1,323 @@
+{
+ "show": "Bleach",
+ "slug": "bleach",
+ "tmdbId": 30984,
+ "cast": [
+  {
+   "id": 78402,
+   "name": "Masakazu Morita",
+   "photo": "https://image.tmdb.org/t/p/w185/2INsHYbx9gEhhzXPHdqBDdvHjFt.jpg",
+   "character": "Ichigo Kurosaki (voice)",
+   "episodes": 416
+  },
+  {
+   "id": 23988,
+   "name": "Fumiko Orikasa",
+   "photo": "https://image.tmdb.org/t/p/w185/f5d1J13fksa1hK8u7AS95aO8b9.jpg",
+   "character": "Rukia Kuchiki (voice)",
+   "episodes": 416
+  },
+  {
+   "id": 216448,
+   "name": "Hiroki Yasumoto",
+   "photo": "https://image.tmdb.org/t/p/w185/vNIGLl0wFmdhdnulMssQ1qyNeBs.jpg",
+   "character": "Yasutora Sado (voice)",
+   "episodes": 416
+  },
+  {
+   "id": 70099,
+   "name": "Yuki Matsuoka",
+   "photo": "https://image.tmdb.org/t/p/w185/e8rNkMM9O7ULA1RJtLbvkN9789v.jpg",
+   "character": "Orihime Inoue (voice)",
+   "episodes": 416
+  },
+  {
+   "id": 82056,
+   "name": "Noriaki Sugiyama",
+   "photo": "https://image.tmdb.org/t/p/w185/szqqQ8T0gzuSxjU2rnWcthsaSJT.jpg",
+   "character": "Uryu Ishida (voice)",
+   "episodes": 416
+  },
+  {
+   "id": 81363,
+   "name": "Kentaro Ito",
+   "photo": "https://image.tmdb.org/t/p/w185/fIoreUBVEWcRLZanJlHUSQAjpeE.jpg",
+   "character": "Renji Abarai (voice)",
+   "episodes": 367
+  },
+  {
+   "id": 89878,
+   "name": "Ryotaro Okiayu",
+   "photo": "https://image.tmdb.org/t/p/w185/qbj3cFQqWwZ6x7S1jEpOJa57sEZ.jpg",
+   "character": "Byakuya Kuchki (voice)",
+   "episodes": 366
+  },
+  {
+   "id": 222386,
+   "name": "Mitsuaki Madono",
+   "photo": "https://image.tmdb.org/t/p/w185/j2zw5q1tqfFoMhEbolca6Sqrjbk.jpg",
+   "character": "Kon (voice)",
+   "episodes": 366
+  },
+  {
+   "id": 9706,
+   "name": "Toshiyuki Morikawa",
+   "photo": "https://image.tmdb.org/t/p/w185/hrzGBe4nokgkBNFekNo5hlXB2Bv.jpg",
+   "character": "Isshin Kurosaki (voice) / Kaname Tōsen (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 125617,
+   "name": "Masaya Onosaka",
+   "photo": "https://image.tmdb.org/t/p/w185/zaqlNEMaVBdwXHfdI4VSUgc3h0K.jpg",
+   "character": "Shinji Hirako (voice) / Gejigeji mukade (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 216454,
+   "name": "Kiyoyuki Yanada",
+   "photo": "https://image.tmdb.org/t/p/w185/rczC3GZJDzfMyilcnKPG9OD1F0R.jpg",
+   "character": "Tessai Tsukabishi (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 24647,
+   "name": "Katsuyuki Konishi",
+   "photo": "https://image.tmdb.org/t/p/w185/nYM5cH6U7cp4x9dIzW0enmEKmeV.jpg",
+   "character": "Shuhei Hisagi (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 216453,
+   "name": "Takayuki Sugo",
+   "photo": "https://image.tmdb.org/t/p/w185/72SmjQLslGqH61JONZkSnEcvcRv.jpg",
+   "character": "Yhwach (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 62318,
+   "name": "Shin-ichiro Miki",
+   "photo": "https://image.tmdb.org/t/p/w185/yL9Tx2HZgK7t5AssYl6oGE9bjdj.jpg",
+   "character": "Kisuke Urahara (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 115305,
+   "name": "Ryusei Nakao",
+   "photo": "https://image.tmdb.org/t/p/w185/fsxlwNIWj7taqpXRYETmXFk0x1P.jpg",
+   "character": "Mayuri Kurotsuchi (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 1483496,
+   "name": "Yuuichirou Umehara",
+   "photo": "https://image.tmdb.org/t/p/w185/lScrvZi4tKKpk3PbnIjLVjHVNJn.jpg",
+   "character": "Jugram Haschwalth (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 1072776,
+   "name": "Ayana Taketatsu",
+   "photo": "https://image.tmdb.org/t/p/w185/7p9BhK5EZtHvXWhFa1WejhoNst3.jpg",
+   "character": "Bambietta Basterbine (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 1254298,
+   "name": "Binbin Takaoka",
+   "photo": "https://image.tmdb.org/t/p/w185/83HQSAVEGUhYxIOfYHypsCBAHGN.jpg",
+   "character": "Genryusai Shigekuni Yamamoto (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 222385,
+   "name": "Keijin Okuda",
+   "photo": "https://image.tmdb.org/t/p/w185/8netOx2eE9CUxmO8TrCRqf073nF.jpg",
+   "character": "Akon (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 1254672,
+   "name": "Asami Seto",
+   "photo": "https://image.tmdb.org/t/p/w185/iKKCPgKrNd4pJ0iBOC1SBZy2Y4Y.jpg",
+   "character": "Shino Madarame (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 1241361,
+   "name": "Kumi Sakuma",
+   "photo": "https://image.tmdb.org/t/p/w185/iWjEntRMAiE7pLHXXhNuB2LkF4i.jpg",
+   "character": "Emilou Apacci (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 20664,
+   "name": "Koichi Yamadera",
+   "photo": "https://image.tmdb.org/t/p/w185/biov5jENp2XYfehkcdnRvi796Wi.jpg",
+   "character": "Quilge Opie (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 1096527,
+   "name": "Tsuguo Mogami",
+   "photo": "https://image.tmdb.org/t/p/w185/gy1ovkyhWBN9RdIEP7pB5rSNDpD.jpg",
+   "character": "Shinigami (voice) / Taketsuna Gori (voice) / Technology Development Bureau Staff (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 222404,
+   "name": "Shouto Kashii",
+   "photo": "https://image.tmdb.org/t/p/w185/ixtFvqyRJbFCuUbnVNyQpz2UL4n.jpg",
+   "character": "Mitchan (voice) / Marechiyo Ōmaeda (voice) / Rojuro Ōtoribashi (voice)",
+   "episodes": 4
+  }
+ ],
+ "crew": [
+  {
+   "id": 90048,
+   "name": "Noriyuki Abe",
+   "photo": "https://image.tmdb.org/t/p/w185/6nzuwp18s7P0Rt78uBVkzlUzaCb.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 588
+  },
+  {
+   "id": 17132,
+   "name": "Shiro Sagisu",
+   "photo": "https://image.tmdb.org/t/p/w185/8hbT6x1exPiGxqYpt59DkVxRPy.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 416
+  },
+  {
+   "id": 90049,
+   "name": "Masashi Sogo",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 357
+  },
+  {
+   "id": 3074385,
+   "name": "Kenta Shimoyama",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 96
+  },
+  {
+   "id": 1275117,
+   "name": "Masaki Hiramatsu",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 92
+  },
+  {
+   "id": 2431043,
+   "name": "Masahiro Okubo",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 88
+  },
+  {
+   "id": 1373229,
+   "name": "Tomohisa Taguchi",
+   "photo": "https://image.tmdb.org/t/p/w185/c2UHmjFjfQ9fxoFjz2990VdXWhF.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 60
+  },
+  {
+   "id": 2020039,
+   "name": "Genki Yoshimura",
+   "photo": "https://image.tmdb.org/t/p/w185/9pmtGFVRBvkLHau5ur2iGMFBvWR.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 42
+  },
+  {
+   "id": 1681345,
+   "name": "Mitsutaka Noshitani",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 38
+  },
+  {
+   "id": 3074458,
+   "name": "Junya Koshida",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 33
+  },
+  {
+   "id": 1481817,
+   "name": "Kazunori Mizuno",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 27
+  },
+  {
+   "id": 2136571,
+   "name": "Hodaka Kuramoto",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 1985472,
+   "name": "Yasuto Nishikata",
+   "photo": "https://image.tmdb.org/t/p/w185/1GSL6tavRCkjHzy9aMD6K3UC22R.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 1089471,
+   "name": "Kazuyuki Fudeyasu",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 1580407,
+   "name": "Rika Takasugi",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 2385308,
+   "name": "Hiroaki Nishimura",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 24
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:38:11.485Z"
+}

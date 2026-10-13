@@ -1,0 +1,351 @@
+{
+ "show": "NYPD Blue",
+ "slug": "nypd-blue",
+ "tmdbId": 194,
+ "cast": [
+  {
+   "id": 11901,
+   "name": "Dennis Franz",
+   "photo": "https://image.tmdb.org/t/p/w185/qk8fPsbwStSxpHOpHG95RmE8xkd.jpg",
+   "character": "Andy Sipowicz",
+   "episodes": 261
+  },
+  {
+   "id": 26008,
+   "name": "Gordon Clapp",
+   "photo": "https://image.tmdb.org/t/p/w185/tUW2ksSHy10xWjW5dujPtJUxGmD.jpg",
+   "character": "Greg Medavoy",
+   "episodes": 242
+  },
+  {
+   "id": 81372,
+   "name": "James McDaniel",
+   "photo": "https://image.tmdb.org/t/p/w185/faoSNK7MQxYQA0ZNTOBPxiVr5AT.jpg",
+   "character": "Arthur Fancy",
+   "episodes": 174
+  },
+  {
+   "id": 32897,
+   "name": "Nicholas Turturro",
+   "photo": "https://image.tmdb.org/t/p/w185/ljkk4jMBlYvYg02LHeeAK8DqoYM.jpg",
+   "character": "James Martinez",
+   "episodes": 154
+  },
+  {
+   "id": 21216,
+   "name": "Kim Delaney",
+   "photo": "https://image.tmdb.org/t/p/w185/3ZFuBZFljUkmeXftNAIG3a7WS7Q.jpg",
+   "character": "Diane Russell",
+   "episodes": 132
+  },
+  {
+   "id": 45397,
+   "name": "Bill Brochtrup",
+   "photo": "https://image.tmdb.org/t/p/w185/91v5Mw1e7rsUiO4pj8o3h0KSukb.jpg",
+   "character": "John Irvin",
+   "episodes": 129
+  },
+  {
+   "id": 33181,
+   "name": "Jimmy Smits",
+   "photo": "https://image.tmdb.org/t/p/w185/dD04JlfW5N8bVrx7Cawn4A6g1xp.jpg",
+   "character": "Bobby Simone",
+   "episodes": 110
+  },
+  {
+   "id": 67913,
+   "name": "Henry Simmons",
+   "photo": "https://image.tmdb.org/t/p/w185/mnjj5br0CGvYVdHrERhRHulLUfU.jpg",
+   "character": "Baldwin Jones",
+   "episodes": 107
+  },
+  {
+   "id": 121566,
+   "name": "Sharon Lawrence",
+   "photo": "https://image.tmdb.org/t/p/w185/bLu3mjAJKDq8WE3QfspIvInKGVu.jpg",
+   "character": "Sylvia Costas",
+   "episodes": 89
+  },
+  {
+   "id": 82622,
+   "name": "Charlotte Ross",
+   "photo": "https://image.tmdb.org/t/p/w185/aVPRnnTPWRhuylqQcivFBhNvXSv.jpg",
+   "character": "Connie McDowell / Laurie Richardson",
+   "episodes": 89
+  },
+  {
+   "id": 19184,
+   "name": "Mark-Paul Gosselaar",
+   "photo": "https://image.tmdb.org/t/p/w185/6TbZu1RXaBu3gvwoPlNWBqFoqxw.jpg",
+   "character": "John Clark Jr.",
+   "episodes": 87
+  },
+  {
+   "id": 49818,
+   "name": "Jacqueline Obradors",
+   "photo": "https://image.tmdb.org/t/p/w185/ehB4tbbnfOcWGtvz4aNdYUzUZhZ.jpg",
+   "character": "Rita Ortiz",
+   "episodes": 87
+  },
+  {
+   "id": 31647,
+   "name": "Garcelle Beauvais",
+   "photo": "https://image.tmdb.org/t/p/w185/ActblPTrzX8afGGqEbA8XbKq0ZX.jpg",
+   "character": "Valerie Haywood",
+   "episodes": 87
+  },
+  {
+   "id": 65344,
+   "name": "Esai Morales",
+   "photo": "https://image.tmdb.org/t/p/w185/cNYciYzUzxraGlw0BPql1QePi5H.jpg",
+   "character": "Tony Rodriguez",
+   "episodes": 87
+  },
+  {
+   "id": 121278,
+   "name": "Andrea Thompson",
+   "photo": "https://image.tmdb.org/t/p/w185/wYYVkFx8QD0TLS4rZIupGejAiDJ.jpg",
+   "character": "Jill Kirkendall",
+   "episodes": 66
+  },
+  {
+   "id": 26009,
+   "name": "Gail O'Grady",
+   "photo": "https://image.tmdb.org/t/p/w185/5OrxiE9AHlLxIUrV06Us5voVY4j.jpg",
+   "character": "Donna Abandando",
+   "episodes": 46
+  },
+  {
+   "id": 16560,
+   "name": "David Caruso",
+   "photo": "https://image.tmdb.org/t/p/w185/4aflRWhJW8gvnYIXPY52KcNTzkO.jpg",
+   "character": "John Kelly",
+   "episodes": 44
+  },
+  {
+   "id": 15851,
+   "name": "Amy Brenneman",
+   "photo": "https://image.tmdb.org/t/p/w185/4FJNcWqnYciJzsZRsORZuyxdKfb.jpg",
+   "character": "Janice Licalsi",
+   "episodes": 44
+  },
+  {
+   "id": 76546,
+   "name": "Ricky Schroder",
+   "photo": "https://image.tmdb.org/t/p/w185/g1PRiuBhWPE4Yn9BynfoPFb4tKD.jpg",
+   "character": "Danny Sorenson",
+   "episodes": 42
+  },
+  {
+   "id": 33653,
+   "name": "Sherry Stringfield",
+   "photo": "https://image.tmdb.org/t/p/w185/7lPiHUumii7Bc6P5GLd9cVQPZO8.jpg",
+   "character": "Laura Michaels",
+   "episodes": 22
+  },
+  {
+   "id": 1218007,
+   "name": "Justine Miceli",
+   "photo": "https://image.tmdb.org/t/p/w185/2eZ2hdKQFegbQCM783iTFQwqg2b.jpg",
+   "character": "Adrienne Lesniak",
+   "episodes": 22
+  },
+  {
+   "id": 156590,
+   "name": "Currie Graham",
+   "photo": "https://image.tmdb.org/t/p/w185/c0kOOb2HXq4BdUbFatw6B3TOTVk.jpg",
+   "character": "Thomas Bale",
+   "episodes": 20
+  },
+  {
+   "id": 66579,
+   "name": "Bonnie Somerville",
+   "photo": "https://image.tmdb.org/t/p/w185/jqEMCpxhAiPptkx0EboBDIOA521.jpg",
+   "character": "Laura Murphy",
+   "episodes": 20
+  },
+  {
+   "id": 1058172,
+   "name": "David Harris",
+   "photo": "https://image.tmdb.org/t/p/w185/5hBB94ZT9AeatPaTUHyNm4PnItR.jpg",
+   "character": "Officer Donny Simmons / Donny Simmons / Officer Donny Simmons (uncredited)",
+   "episodes": 17
+  }
+ ],
+ "crew": [
+  {
+   "id": 12115,
+   "name": "Steven Bochco",
+   "photo": "https://image.tmdb.org/t/p/w185/7xzmxnzITBVY2Y8XO5hRYzeu59g.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Story"
+   ],
+   "episodes": 261
+  },
+  {
+   "id": 151295,
+   "name": "David Milch",
+   "photo": "https://image.tmdb.org/t/p/w185/iwrjFR9JmpwgolCrdFpyGAb4Axz.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 174
+  },
+  {
+   "id": 1214470,
+   "name": "Bill Clark",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Story"
+   ],
+   "episodes": 239
+  },
+  {
+   "id": 1211988,
+   "name": "Mark Tinker",
+   "photo": "https://image.tmdb.org/t/p/w185/uzM6K6QfJYJVwcbAwAluS6Ihuce.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 224
+  },
+  {
+   "id": 1214477,
+   "name": "Matt Olmstead",
+   "photo": "https://image.tmdb.org/t/p/w185/3tK3c9pZlGFBJaOxwH00svHtu8U.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Story",
+    "Teleplay"
+   ],
+   "episodes": 129
+  },
+  {
+   "id": 1214469,
+   "name": "Nicholas Wootton",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Story",
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 118
+  },
+  {
+   "id": 81117,
+   "name": "Leonard Gardner",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Teleplay",
+    "Story"
+   ],
+   "episodes": 67
+  },
+  {
+   "id": 177189,
+   "name": "Greg Plageman",
+   "photo": "https://image.tmdb.org/t/p/w185/tSJ9bekgALdiM619deuWFD4Jcbq.jpg",
+   "jobs": [
+    "Story",
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 61
+  },
+  {
+   "id": 112549,
+   "name": "David Mills",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 58
+  },
+  {
+   "id": 1223924,
+   "name": "Jody Worth",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Teleplay"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 1224561,
+   "name": "Keith Eisner",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Story"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 17812,
+   "name": "Gregory Hoblit",
+   "photo": "https://image.tmdb.org/t/p/w185/1YUF4UpcCX3j3J65a4L1KoLOHAl.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 44
+  },
+  {
+   "id": 1214472,
+   "name": "Meredith Stiehm",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 1214475,
+   "name": "Gardner Stern",
+   "photo": null,
+   "jobs": [
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 1215660,
+   "name": "Tom Szentgyorgyi",
+   "photo": "https://image.tmdb.org/t/p/w185/gPiQnaMSfIexiPlEmyq5ZKVrinY.jpg",
+   "jobs": [
+    "Story",
+    "Teleplay"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 933119,
+   "name": "William M. Finkelstein",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Story"
+   ],
+   "episodes": 20
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:31:30.379Z"
+}

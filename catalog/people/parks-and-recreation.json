@@ -1,0 +1,334 @@
+{
+ "show": "Parks and Recreation",
+ "slug": "parks-and-recreation",
+ "tmdbId": 8592,
+ "cast": [
+  {
+   "id": 56322,
+   "name": "Amy Poehler",
+   "photo": "https://image.tmdb.org/t/p/w185/rwmvRonpluV6dCPiQissYrchvSD.jpg",
+   "character": "Leslie Knope",
+   "episodes": 122
+  },
+  {
+   "id": 86626,
+   "name": "Aziz Ansari",
+   "photo": "https://image.tmdb.org/t/p/w185/yUeQHM4ycUXrUgRWgKVYKNmKxfJ.jpg",
+   "character": "Tom Haverford",
+   "episodes": 122
+  },
+  {
+   "id": 17039,
+   "name": "Nick Offerman",
+   "photo": "https://image.tmdb.org/t/p/w185/f6z3mPVtaF40ewfdmZydprAjmYd.jpg",
+   "character": "Ron Swanson",
+   "episodes": 122
+  },
+  {
+   "id": 119592,
+   "name": "Aubrey Plaza",
+   "photo": "https://image.tmdb.org/t/p/w185/ejtGfjOAvUHBdVc3xTIV1HtJBi9.jpg",
+   "character": "April Ludgate",
+   "episodes": 122
+  },
+  {
+   "id": 73457,
+   "name": "Chris Pratt",
+   "photo": "https://image.tmdb.org/t/p/w185/cRH6HPAQ98PlOwwEvhYO4CM9lwu.jpg",
+   "character": "Andy Dwyer",
+   "episodes": 122
+  },
+  {
+   "id": 1219597,
+   "name": "Jim O'Heir",
+   "photo": "https://image.tmdb.org/t/p/w185/qrdzPtyh0lWQp8ZxRvWDqBxyi0P.jpg",
+   "character": "Jerry Gergich",
+   "episodes": 121
+  },
+  {
+   "id": 75318,
+   "name": "Retta",
+   "photo": "https://image.tmdb.org/t/p/w185/bIo8tjdn48wIPEdcJ0UCqqTzClV.jpg",
+   "character": "Donna Meagle",
+   "episodes": 118
+  },
+  {
+   "id": 80591,
+   "name": "Rashida Jones",
+   "photo": "https://image.tmdb.org/t/p/w185/cgWGm9eYCretBWeljPVtpRV7n6V.jpg",
+   "character": "Ann Perkins",
+   "episodes": 101
+  },
+  {
+   "id": 36801,
+   "name": "Adam Scott",
+   "photo": "https://image.tmdb.org/t/p/w185/b82C29R6fGiPoqIglQ4lzS6q2YX.jpg",
+   "character": "Ben Wyatt",
+   "episodes": 94
+  },
+  {
+   "id": 2879,
+   "name": "Rob Lowe",
+   "photo": "https://image.tmdb.org/t/p/w185/uY0u865QqHqT0YBtwdBXFfVI6Hr.jpg",
+   "character": "Chris Traeger",
+   "episodes": 75
+  },
+  {
+   "id": 15684,
+   "name": "Paul Schneider",
+   "photo": "https://image.tmdb.org/t/p/w185/69tLX644rRr1RT9gxajsWlNrf0Y.jpg",
+   "character": "Mark Brendanawicz",
+   "episodes": 30
+  },
+  {
+   "id": 1093709,
+   "name": "Jay Jackson",
+   "photo": "https://image.tmdb.org/t/p/w185/nKsCeoyzXRTf158Y0RN2xENcgQb.jpg",
+   "character": "Perd Hapley",
+   "episodes": 28
+  },
+  {
+   "id": 1356745,
+   "name": "Yvans Jourdain",
+   "photo": "https://image.tmdb.org/t/p/w185/r4r1LXryex5RLtKwRyWrh5Tp0Mm.jpg",
+   "character": "Councilman Howser",
+   "episodes": 19
+  },
+  {
+   "id": 168380,
+   "name": "Mo Collins",
+   "photo": "https://image.tmdb.org/t/p/w185/o34lPu8SgYNeMnZ9WJS2iBvhzmb.jpg",
+   "character": "Joan Callamezzo",
+   "episodes": 18
+  },
+  {
+   "id": 222121,
+   "name": "Ben Schwartz",
+   "photo": "https://image.tmdb.org/t/p/w185/hWEQe66jXUAGVhbU5dy8s0IrrAQ.jpg",
+   "character": "Jean-Ralphio Saperstein",
+   "episodes": 18
+  },
+  {
+   "id": 59842,
+   "name": "Jon Glaser",
+   "photo": "https://image.tmdb.org/t/p/w185/wJW4JrjHUo8SAptqlsfK3yZkBrx.jpg",
+   "character": "Councilman Jamm",
+   "episodes": 17
+  },
+  {
+   "id": 43544,
+   "name": "James Greene",
+   "photo": "https://image.tmdb.org/t/p/w185/9cq8V23lcWHt4nXTDTMMdqFRyMs.jpg",
+   "character": "Councilman Milton",
+   "episodes": 16
+  },
+  {
+   "id": 973651,
+   "name": "Billy Eichner",
+   "photo": "https://image.tmdb.org/t/p/w185/kScO4moqNlDbyCTZuIoBqyaml4l.jpg",
+   "character": "Craig / Craig Middlebrooks",
+   "episodes": 15
+  },
+  {
+   "id": 105014,
+   "name": "Andy Forrest",
+   "photo": "https://image.tmdb.org/t/p/w185/oSwU26hkcTPUYKytFa0NqoQUnju.jpg",
+   "character": "Kyle",
+   "episodes": 15
+  },
+  {
+   "id": 1228919,
+   "name": "Kevin Symons",
+   "photo": "https://image.tmdb.org/t/p/w185/lFcaLLMgVgGQK8QSfiUkoKuTDsU.jpg",
+   "character": "Councilman Dexhart",
+   "episodes": 14
+  },
+  {
+   "id": 1090276,
+   "name": "Alison Becker",
+   "photo": "https://image.tmdb.org/t/p/w185/A8DPg4s05eXNZSUyld4aQM0NUBQ.jpg",
+   "character": "Shauna Malwae-Tweep",
+   "episodes": 14
+  },
+  {
+   "id": 1361855,
+   "name": "Andrew Burlinson",
+   "photo": "https://image.tmdb.org/t/p/w185/a4qxBBaLs29go0SWRylGhI3SjDL.jpg",
+   "character": "Guitarist / Burly",
+   "episodes": 14
+  },
+  {
+   "id": 1020767,
+   "name": "Alan Yang",
+   "photo": "https://image.tmdb.org/t/p/w185/4Qd6rqSZTeWwqUB8KWWgWLl9cw4.jpg",
+   "character": "Bass Player / Chang / Alan",
+   "episodes": 13
+  },
+  {
+   "id": 1356746,
+   "name": "Richard Burch",
+   "photo": "https://image.tmdb.org/t/p/w185/5yzNnTc838r4oqO2RHHuxmWPzx7.jpg",
+   "character": "Herman Lerpiss",
+   "episodes": 11
+  }
+ ],
+ "crew": [
+  {
+   "id": 1226308,
+   "name": "Michael Schur",
+   "photo": "https://image.tmdb.org/t/p/w185/uFqjvTHNCfThf9ahEIYWFkszm9c.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 122
+  },
+  {
+   "id": 1216630,
+   "name": "Greg Daniels",
+   "photo": "https://image.tmdb.org/t/p/w185/2lplV4pxfpEL7Rpdr7YFXmGx84x.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 122
+  },
+  {
+   "id": 1290146,
+   "name": "Dean Holland",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 122
+  },
+  {
+   "id": 1241313,
+   "name": "Morgan Sackett",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 122
+  },
+  {
+   "id": 58274,
+   "name": "Howard Klein",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 122
+  },
+  {
+   "id": 95459,
+   "name": "David Miner",
+   "photo": "https://image.tmdb.org/t/p/w185/jjqOZQMbi5Jho7CysYKTyXbuwXq.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 116
+  },
+  {
+   "id": 1230199,
+   "name": "Daniel J. Goor",
+   "photo": "https://image.tmdb.org/t/p/w185/rYqZGv2eoUUCCNvQt04RXKV4OlR.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 84
+  },
+  {
+   "id": 1292220,
+   "name": "Harris Wittels",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 52
+  },
+  {
+   "id": 1020767,
+   "name": "Alan Yang",
+   "photo": "https://image.tmdb.org/t/p/w185/4Qd6rqSZTeWwqUB8KWWgWLl9cw4.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 1354982,
+   "name": "Rachna Fruchbom",
+   "photo": "https://image.tmdb.org/t/p/w185/hoRIeXSBNwNFBN7s9AiWHZTzRz8.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 1294737,
+   "name": "Aisha Muharrar",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1215424,
+   "name": "Norm Hiscock",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1212689,
+   "name": "Ken Whittingham",
+   "photo": "https://image.tmdb.org/t/p/w185/bylFyXnjWWIuoyAkhL9NZE7UKYT.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 58868,
+   "name": "Troy Miller",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1298804,
+   "name": "Dave King",
+   "photo": "https://image.tmdb.org/t/p/w185/sLwmPWUtt3w30YiPCX51khw7A9s.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1106222,
+   "name": "Katie Dippold",
+   "photo": "https://image.tmdb.org/t/p/w185/pOXb1BZeua7j4HIC8VTjuovduVM.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:28:38.828Z"
+}

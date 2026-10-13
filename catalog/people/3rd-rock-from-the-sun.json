@@ -1,0 +1,341 @@
+{
+ "show": "3rd Rock from the Sun",
+ "slug": "3rd-rock-from-the-sun",
+ "tmdbId": 155,
+ "cast": [
+  {
+   "id": 12074,
+   "name": "John Lithgow",
+   "photo": "https://image.tmdb.org/t/p/w185/ajfuBSm1HuVqFJlbTmAlza62Xxr.jpg",
+   "character": "Dick Solomon",
+   "episodes": 139
+  },
+  {
+   "id": 13635,
+   "name": "Kristen Johnston",
+   "photo": "https://image.tmdb.org/t/p/w185/am4NUVEhhaIVjaojq8XXBmtVWkz.jpg",
+   "character": "Sally Solomon",
+   "episodes": 139
+  },
+  {
+   "id": 58184,
+   "name": "Jane Curtin",
+   "photo": "https://image.tmdb.org/t/p/w185/wJVLls0zifqXZTVd89N0nIpuDP1.jpg",
+   "character": "Mary Albright",
+   "episodes": 139
+  },
+  {
+   "id": 24045,
+   "name": "Joseph Gordon-Levitt",
+   "photo": "https://image.tmdb.org/t/p/w185/z2FA8js799xqtfiFjBTicFYdfk.jpg",
+   "character": "Tommy Solomon",
+   "episodes": 139
+  },
+  {
+   "id": 67711,
+   "name": "French Stewart",
+   "photo": "https://image.tmdb.org/t/p/w185/5c1YaxSkFmwsqEnL7ARyQw2FQ3D.jpg",
+   "character": "Harry Solomon",
+   "episodes": 139
+  },
+  {
+   "id": 172200,
+   "name": "Simbi Khali",
+   "photo": "https://image.tmdb.org/t/p/w185/ofwqQRxW61EX6Ajzos0GPlt7yFq.jpg",
+   "character": "Nina Campbell",
+   "episodes": 135
+  },
+  {
+   "id": 159729,
+   "name": "Elmarie Wendel",
+   "photo": "https://image.tmdb.org/t/p/w185/cINR8tSxost2lKfwRr1sv51AaBB.jpg",
+   "character": "Mrs. Dubcek",
+   "episodes": 120
+  },
+  {
+   "id": 4201,
+   "name": "Wayne Knight",
+   "photo": "https://image.tmdb.org/t/p/w185/yS3k7HZ8gSWyXrvvsX7V7oEmdHY.jpg",
+   "character": "Don Orville",
+   "episodes": 101
+  },
+  {
+   "id": 942780,
+   "name": "Ian Lithgow",
+   "photo": "https://image.tmdb.org/t/p/w185/ioo8NP9esqVjVus9WteMUOSwf0U.jpg",
+   "character": "Leon",
+   "episodes": 48
+  },
+  {
+   "id": 97600,
+   "name": "David DeLuise",
+   "photo": "https://image.tmdb.org/t/p/w185/sVhASyuFr0sZeKzaO7q2kEiSSkg.jpg",
+   "character": "Bug Pollone",
+   "episodes": 46
+  },
+  {
+   "id": 101060,
+   "name": "Danielle Nicolet",
+   "photo": "https://image.tmdb.org/t/p/w185/xdXUDutVr67zKQXpH50277R4HbQ.jpg",
+   "character": "Caryn",
+   "episodes": 42
+  },
+  {
+   "id": 90659,
+   "name": "Chris Hogan",
+   "photo": "https://image.tmdb.org/t/p/w185/zp5unnFH8NI7GBH4Iyiv1toq3NL.jpg",
+   "character": "Aubrey Pitman",
+   "episodes": 41
+  },
+  {
+   "id": 1212456,
+   "name": "Ileen Getz",
+   "photo": null,
+   "character": "Judith",
+   "episodes": 32
+  },
+  {
+   "id": 146564,
+   "name": "Shay Astar",
+   "photo": "https://image.tmdb.org/t/p/w185/6RoufM4bl7yFkUQdHbOQdRQsC5v.jpg",
+   "character": "August",
+   "episodes": 26
+  },
+  {
+   "id": 40978,
+   "name": "Larisa Oleynik",
+   "photo": "https://image.tmdb.org/t/p/w185/i3W6ztn8kTKAaZoLS77Tz9GhP7C.jpg",
+   "character": "Alissa Strudwick",
+   "episodes": 21
+  },
+  {
+   "id": 15152,
+   "name": "James Earl Jones",
+   "photo": "https://image.tmdb.org/t/p/w185/sgc8yxYr8ecNn1TXjWXWx3wmUYA.jpg",
+   "character": "Narrator (voice) (uncredited)",
+   "episodes": 19
+  },
+  {
+   "id": 129332,
+   "name": "Jan Hooks",
+   "photo": "https://image.tmdb.org/t/p/w185/7wBfnEwb8U4cR6oowk136ub9WiP.jpg",
+   "character": "Vicki Dubcek",
+   "episodes": 17
+  },
+  {
+   "id": 1758526,
+   "name": "Ron West",
+   "photo": "https://image.tmdb.org/t/p/w185/ouL80vwjjvPtgj5JzwucWA0rstV.jpg",
+   "character": "Dr. Strudwick",
+   "episodes": 16
+  },
+  {
+   "id": 166421,
+   "name": "Chad Einbinder",
+   "photo": "https://image.tmdb.org/t/p/w185/5f0zP4u2VLhh6w6pgkaARs94z0r.jpg",
+   "character": "Rico / Police Officer",
+   "episodes": 12
+  },
+  {
+   "id": 172258,
+   "name": "John Platt",
+   "photo": null,
+   "character": "P.A. Announcer (voice) / Man / Passerby",
+   "episodes": 8
+  },
+  {
+   "id": 165304,
+   "name": "Blake Soper",
+   "photo": null,
+   "character": "Elman",
+   "episodes": 6
+  },
+  {
+   "id": 543,
+   "name": "Marianne Muellerleile",
+   "photo": "https://image.tmdb.org/t/p/w185/8mlAV0ChK35WXQrnlKoEzKNNrFR.jpg",
+   "character": "Lucy",
+   "episodes": 6
+  },
+  {
+   "id": 1748,
+   "name": "William Shatner",
+   "photo": "https://image.tmdb.org/t/p/w185/puzpe91Lh0CzdRKg9iYilQsjoYk.jpg",
+   "character": "Big Giant Head",
+   "episodes": 5
+  },
+  {
+   "id": 154295,
+   "name": "Michael Milhoan",
+   "photo": "https://image.tmdb.org/t/p/w185/oTXRBzb8KUGC2TXtXEIheGjBANG.jpg",
+   "character": "Coach Strickland / Coach",
+   "episodes": 5
+  }
+ ],
+ "crew": [
+  {
+   "id": 56157,
+   "name": "Terry Turner",
+   "photo": "https://image.tmdb.org/t/p/w185/jYqOIc1tYVuhRcWOchW9yxW1qPr.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Story",
+    "Writer"
+   ],
+   "episodes": 139
+  },
+  {
+   "id": 56156,
+   "name": "Bonnie Turner",
+   "photo": "https://image.tmdb.org/t/p/w185/vK10wcF9gfbOH8dhLrfkAxxDttw.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 139
+  },
+  {
+   "id": 1213293,
+   "name": "Christine Zander",
+   "photo": "https://image.tmdb.org/t/p/w185/x6b6ymLHBjMN6l8BhYjcrM3KQkK.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 139
+  },
+  {
+   "id": 59420,
+   "name": "Caryn Mandabach",
+   "photo": "https://image.tmdb.org/t/p/w185/9JMAeNmjFFc4d1RnPz4XHEFysLq.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 139
+  },
+  {
+   "id": 1213904,
+   "name": "Bob Kushell",
+   "photo": "https://image.tmdb.org/t/p/w185/3cbjeId7b9LUksQ0hyHHaOTLrBB.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 139
+  },
+  {
+   "id": 21767,
+   "name": "Tom Werner",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 139
+  },
+  {
+   "id": 1213910,
+   "name": "David Sacks",
+   "photo": "https://image.tmdb.org/t/p/w185/dVk0PjO0HnFdedrOk3pk1FbXqFk.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 139
+  },
+  {
+   "id": 172210,
+   "name": "Mike Schiff",
+   "photo": "https://image.tmdb.org/t/p/w185/dpAVgpgt7DgNUYfUOGcofyGrnxZ.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 139
+  },
+  {
+   "id": 1213908,
+   "name": "Bill Martin",
+   "photo": "https://image.tmdb.org/t/p/w185/5Y2Vil6rgLACuy9o6NpzrPmT7AB.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 139
+  },
+  {
+   "id": 59417,
+   "name": "Marcy Carsey",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 139
+  },
+  {
+   "id": 15239,
+   "name": "Terry Hughes",
+   "photo": "https://image.tmdb.org/t/p/w185/3OQlHfxkaFptZjkM4rjW29kyqdP.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 100
+  },
+  {
+   "id": 84843,
+   "name": "Robert Berlinger",
+   "photo": "https://image.tmdb.org/t/p/w185/kRiRdx498cwy73Prj4xBXHDvtB0.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 37
+  },
+  {
+   "id": 40629,
+   "name": "Linwood Boomer",
+   "photo": "https://image.tmdb.org/t/p/w185/ljviwTuF87ETq42nTqt3OQVhab0.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 3417055,
+   "name": "Jason Venokur",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 1224135,
+   "name": "David Goetsch",
+   "photo": "https://image.tmdb.org/t/p/w185/1woTfUvP7FGl1VLiKM3Z5TFMPPd.jpg",
+   "jobs": [
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 99044,
+   "name": "Jim O'Doherty",
+   "photo": "https://image.tmdb.org/t/p/w185/huVixyTopurIvUewTDNTHyVLgIH.jpg",
+   "jobs": [
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 14
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:28:22.486Z"
+}

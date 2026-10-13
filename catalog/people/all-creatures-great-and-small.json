@@ -1,0 +1,325 @@
+{
+ "show": "All Creatures Great & Small",
+ "slug": "all-creatures-great-and-small",
+ "tmdbId": 108255,
+ "cast": [
+  {
+   "id": 2693053,
+   "name": "Nicholas Ralph",
+   "photo": "https://image.tmdb.org/t/p/w185/bGT39QpwMEbEoeBCPoVJYsfauvj.jpg",
+   "character": "James Herriot",
+   "episodes": 48
+  },
+  {
+   "id": 54447,
+   "name": "Samuel West",
+   "photo": "https://image.tmdb.org/t/p/w185/bn1nd5zERi5wyHcA1YMGvrHAD5L.jpg",
+   "character": "Siegfried Farnon",
+   "episodes": 48
+  },
+  {
+   "id": 72857,
+   "name": "Anna Madeley",
+   "photo": "https://image.tmdb.org/t/p/w185/AeJzif36VlCz1QqpMhKWnlCugXf.jpg",
+   "character": "Mrs Hall",
+   "episodes": 48
+  },
+  {
+   "id": 1076119,
+   "name": "Rachel Shenton",
+   "photo": "https://image.tmdb.org/t/p/w185/oCStwXsSGTDwO8md00tzwAviyBk.jpg",
+   "character": "Helen Alderson / Helen Herriot",
+   "episodes": 42
+  },
+  {
+   "id": 1745556,
+   "name": "Callum Woodhouse",
+   "photo": "https://image.tmdb.org/t/p/w185/yEzRDJLHue072070yAB2y6ZrB0h.jpg",
+   "character": "Tristan Farnon",
+   "episodes": 33
+  },
+  {
+   "id": 2793072,
+   "name": "Imogen Clawson",
+   "photo": "https://image.tmdb.org/t/p/w185/zgbRQln7sO7hIuhnlHskUjFl7nQ.jpg",
+   "character": "Jenny Alderson",
+   "episodes": 26
+  },
+  {
+   "id": 1229255,
+   "name": "Tony Pitts",
+   "photo": "https://image.tmdb.org/t/p/w185/yKxag5eLZJ2Oex5bj8RXWIR3LnC.jpg",
+   "character": "Richard Alderson",
+   "episodes": 24
+  },
+  {
+   "id": 2794093,
+   "name": "Mollie Winnard",
+   "photo": "https://image.tmdb.org/t/p/w185/3hGMPaQj9q9acdDJJwCf7foUIyi.jpg",
+   "character": "Maggie",
+   "episodes": 17
+  },
+  {
+   "id": 175977,
+   "name": "Patricia Hodge",
+   "photo": "https://image.tmdb.org/t/p/w185/e9IwLFI1kB9hWCyH47S2GDkkpp6.jpg",
+   "character": "Mrs. Pumphrey",
+   "episodes": 14
+  },
+  {
+   "id": 1221995,
+   "name": "Will Thorp",
+   "photo": "https://image.tmdb.org/t/p/w185/UG9nu3tuJ4mOYVuAEgLya9ad6t.jpg",
+   "character": "Gerald Hammond",
+   "episodes": 13
+  },
+  {
+   "id": 2963128,
+   "name": "James Anthony-Rose",
+   "photo": null,
+   "character": "Richard Carmody",
+   "episodes": 9
+  },
+  {
+   "id": 96841,
+   "name": "Matthew Lewis",
+   "photo": "https://image.tmdb.org/t/p/w185/aPQCLK2gxWOallsFoEwjb1p9lWE.jpg",
+   "character": "Hugh Hulton",
+   "episodes": 7
+  },
+  {
+   "id": 1339199,
+   "name": "Gaia Wise",
+   "photo": "https://image.tmdb.org/t/p/w185/vyjUZOrhto3PKq4PuHG7270cum5.jpg",
+   "character": "Charlotte Beauvoir",
+   "episodes": 5
+  },
+  {
+   "id": 83735,
+   "name": "Maimie McCoy",
+   "photo": "https://image.tmdb.org/t/p/w185/41Ia0Sj8tcS0iYbqzmDVGZe4wtk.jpg",
+   "character": "Dorothy",
+   "episodes": 4
+  },
+  {
+   "id": 2082707,
+   "name": "Drew Cain",
+   "photo": null,
+   "character": "James Herriot Senior",
+   "episodes": 4
+  },
+  {
+   "id": 2326222,
+   "name": "Gabriel Quigley",
+   "photo": "https://image.tmdb.org/t/p/w185/z667ZLXqtz00srfuX8MMNnoxkuY.jpg",
+   "character": "Hannah Herriot",
+   "episodes": 4
+  },
+  {
+   "id": 550308,
+   "name": "Mark Noble",
+   "photo": "https://image.tmdb.org/t/p/w185/mNlwBaWbF6uDTjUqRQxpI4eKMxK.jpg",
+   "character": "Henry Dinsdale",
+   "episodes": 4
+  },
+  {
+   "id": 2794296,
+   "name": "Jon Furlong",
+   "photo": "https://image.tmdb.org/t/p/w185/cRAGW5M8F39cjhYT7KEZH7Ezzkp.jpg",
+   "character": "Mr Dobson",
+   "episodes": 4
+  },
+  {
+   "id": 2793073,
+   "name": "Alexis Platt",
+   "photo": null,
+   "character": "Dick Rudd",
+   "episodes": 3
+  },
+  {
+   "id": 3708184,
+   "name": "Conor Deane",
+   "photo": "https://image.tmdb.org/t/p/w185/qGpumpnCQZH8lRCPxzdanSgTDtQ.jpg",
+   "character": "Edward Hall",
+   "episodes": 3
+  },
+  {
+   "id": 10168,
+   "name": "Diana Rigg",
+   "photo": "https://image.tmdb.org/t/p/w185/tFZei9BMHqau7XN2PeQ0M24RT7G.jpg",
+   "character": "Mrs Pumphrey",
+   "episodes": 2
+  },
+  {
+   "id": 1821877,
+   "name": "Nigel Betts",
+   "photo": "https://image.tmdb.org/t/p/w185/h3gPBqCNBvEWnrdWrKFyA8yFC4n.jpg",
+   "character": "Dennis Handshaw",
+   "episodes": 2
+  },
+  {
+   "id": 1208278,
+   "name": "Charlie May-Clark",
+   "photo": "https://image.tmdb.org/t/p/w185/yZMqzLcV6w0oDgfpCNNoUGj7A4k.jpg",
+   "character": "Connie",
+   "episodes": 2
+  },
+  {
+   "id": 203176,
+   "name": "Kriss Dosanjh",
+   "photo": "https://image.tmdb.org/t/p/w185/xXCQwNIaNboBpv2L2x3cUGXUAGu.jpg",
+   "character": "George Pandhi",
+   "episodes": 2
+  }
+ ],
+ "crew": [
+  {
+   "id": 1239412,
+   "name": "Colin Callender",
+   "photo": "https://image.tmdb.org/t/p/w185/xW3aW7ylF2JyXm5RyAFik1wXEaM.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 590264,
+   "name": "Ben Vanstone",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 2793059,
+   "name": "Melissa Gallant",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 48
+  },
+  {
+   "id": 1225203,
+   "name": "Andy Hay",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 126945,
+   "name": "Brian Percival",
+   "photo": "https://image.tmdb.org/t/p/w185/zx4ZfHNPNF0h22UN8QMgBBAmcXW.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1129936,
+   "name": "Stewart Svaasand",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 195618,
+   "name": "Debbie O'Malley",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 2457403,
+   "name": "Maxine Alderton",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 5154765,
+   "name": "Jamie Crichton",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1368937,
+   "name": "Neil Jones",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 3256744,
+   "name": "Chloë Mi Lin Ewart",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1600786,
+   "name": "Jennie Paddon",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 4849285,
+   "name": "Jordan Hogg",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 283184,
+   "name": "Metin Hüseyin",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 2884147,
+   "name": "Sasha Ransome",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1227790,
+   "name": "Matt Evans",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:35:30.029Z"
+}

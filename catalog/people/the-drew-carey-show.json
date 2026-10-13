@@ -1,0 +1,324 @@
+{
+ "show": "The Drew Carey Show",
+ "slug": "the-drew-carey-show",
+ "tmdbId": 97,
+ "cast": [
+  {
+   "id": 83349,
+   "name": "Drew Carey",
+   "photo": "https://image.tmdb.org/t/p/w185/k2q4mpMhH0AlZVGvQwau2xSqjS3.jpg",
+   "character": "Drew Carey",
+   "episodes": 233
+  },
+  {
+   "id": 162606,
+   "name": "Ryan Stiles",
+   "photo": "https://image.tmdb.org/t/p/w185/u8mLAujNFBoce7RzFFhwaX0DaJZ.jpg",
+   "character": "Lewis Kiniski",
+   "episodes": 233
+  },
+  {
+   "id": 5727,
+   "name": "Diedrich Bader",
+   "photo": "https://image.tmdb.org/t/p/w185/z7CctykPTuXDfAs7pkAA7vW4b3T.jpg",
+   "character": "Oswald Lee Harvey",
+   "episodes": 233
+  },
+  {
+   "id": 162605,
+   "name": "Kathy Kinney",
+   "photo": "https://image.tmdb.org/t/p/w185/3UDuBZVbTjial2JrmLhJnNItLl4.jpg",
+   "character": "Mimi Bobeck",
+   "episodes": 233
+  },
+  {
+   "id": 24264,
+   "name": "Craig Ferguson",
+   "photo": "https://image.tmdb.org/t/p/w185/mBxNrOxdQeM7bVBveE47Syj9ES6.jpg",
+   "character": "Nigel Wick",
+   "episodes": 187
+  },
+  {
+   "id": 212821,
+   "name": "Christa Miller",
+   "photo": "https://image.tmdb.org/t/p/w185/gfLL2dM209v3WfVrovwGszjgtB3.jpg",
+   "character": "Kate O'Brien",
+   "episodes": 183
+  },
+  {
+   "id": 3911,
+   "name": "John Carroll Lynch",
+   "photo": "https://image.tmdb.org/t/p/w185/cIx1HYFOHmfeAGRDBJwdFK9ZMIM.jpg",
+   "character": "Steve Carey",
+   "episodes": 74
+  },
+  {
+   "id": 36216,
+   "name": "Cynthia Watros",
+   "photo": "https://image.tmdb.org/t/p/w185/iVWPrP0j4SQlfSjnB03P6Ud5OrS.jpg",
+   "character": "Kellie Newmark",
+   "episodes": 52
+  },
+  {
+   "id": 34457,
+   "name": "Ian Gomez",
+   "photo": "https://image.tmdb.org/t/p/w185/cQC480MDSmKdbusYMpjMAxf3erY.jpg",
+   "character": "Larry Almada",
+   "episodes": 39
+  },
+  {
+   "id": 87039,
+   "name": "Nan Martin",
+   "photo": "https://image.tmdb.org/t/p/w185/ldZew6Zn5K0yAtghvvJyMxECfjx.jpg",
+   "character": "Mrs. Louder",
+   "episodes": 26
+  },
+  {
+   "id": 61114,
+   "name": "Kate Walsh",
+   "photo": "https://image.tmdb.org/t/p/w185/jRg4pmjvI2063YnQ6PJidclOc4L.jpg",
+   "character": "Nicki Fifer",
+   "episodes": 22
+  },
+  {
+   "id": 154060,
+   "name": "Kelly Perine",
+   "photo": "https://image.tmdb.org/t/p/w185/5BDUR7EnygobWFxP8SXLatnijnE.jpg",
+   "character": "Chuck",
+   "episodes": 17
+  },
+  {
+   "id": 1229762,
+   "name": "Jonathan Mangum",
+   "photo": "https://image.tmdb.org/t/p/w185/q61Z5B1r26bLYN8tm6xaGK7If3O.jpg",
+   "character": "Scott",
+   "episodes": 17
+  },
+  {
+   "id": 75355,
+   "name": "Marion Ross",
+   "photo": "https://image.tmdb.org/t/p/w185/eZpOYvFoJnej8n7aKSi2LVvvlQu.jpg",
+   "character": "Beulah Carey",
+   "episodes": 16
+  },
+  {
+   "id": 162683,
+   "name": "Katy Selverstone",
+   "photo": "https://image.tmdb.org/t/p/w185/pNzfFFZoyG4TilvmHGkFu1zXGck.jpg",
+   "character": "Lisa Robbins",
+   "episodes": 16
+  },
+  {
+   "id": 83699,
+   "name": "Kyle Howard",
+   "photo": "https://image.tmdb.org/t/p/w185/bEpuGCBYeIoQeZkHXfnOV9dBaOb.jpg",
+   "character": "Evan",
+   "episodes": 15
+  },
+  {
+   "id": 74933,
+   "name": "Robert Torti",
+   "photo": "https://image.tmdb.org/t/p/w185/5GBQzIFY0VpuqhdNAoTqcuqd8hq.jpg",
+   "character": "Nick / Jay Clemens",
+   "episodes": 14
+  },
+  {
+   "id": 13451,
+   "name": "Jane Morris",
+   "photo": "https://image.tmdb.org/t/p/w185/8rNS5qEl8ALKa5spSExpuIUA4vR.jpg",
+   "character": "Nora O'Dougherty",
+   "episodes": 13
+  },
+  {
+   "id": 95102,
+   "name": "Kaitlin Olson",
+   "photo": "https://image.tmdb.org/t/p/w185/z84SKRCVl9zPhP9AINVS8Bx8dRO.jpg",
+   "character": "Traylor",
+   "episodes": 13
+  },
+  {
+   "id": 113818,
+   "name": "Jenica Bergere",
+   "photo": "https://image.tmdb.org/t/p/w185/kyyH5jMD38hZySs6WfVv8jrpurW.jpg",
+   "character": "Sharon Bridges",
+   "episodes": 12
+  },
+  {
+   "id": 4506903,
+   "name": "Tim O'Rourke",
+   "photo": null,
+   "character": "Tim",
+   "episodes": 11
+  },
+  {
+   "id": 15253,
+   "name": "Stanley Anderson",
+   "photo": "https://image.tmdb.org/t/p/w185/6kHp1SlLRw0NobVdY8X6DbBAPt8.jpg",
+   "character": "Drew's Dad (voice) / George Carey",
+   "episodes": 10
+  },
+  {
+   "id": 7166,
+   "name": "Kevin Pollak",
+   "photo": "https://image.tmdb.org/t/p/w185/ss4vL5itVF1I2AEC64k1vb79GEq.jpg",
+   "character": "Mr. Bell",
+   "episodes": 9
+  },
+  {
+   "id": 8854,
+   "name": "Bill Cobbs",
+   "photo": "https://image.tmdb.org/t/p/w185/xRBrI4rPkZuMBMDh8GPke20ZgUv.jpg",
+   "character": "Tony",
+   "episodes": 9
+  }
+ ],
+ "crew": [
+  {
+   "id": 83349,
+   "name": "Drew Carey",
+   "photo": "https://image.tmdb.org/t/p/w185/k2q4mpMhH0AlZVGvQwau2xSqjS3.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 157853,
+   "name": "Bruce Helford",
+   "photo": "https://image.tmdb.org/t/p/w185/x0aZv9wfD7gZqsXSyxT4KgG24Y.jpg",
+   "jobs": [
+    "Creator"
+   ]
+  },
+  {
+   "id": 198990,
+   "name": "W.G. Snuffy Walden",
+   "photo": "https://image.tmdb.org/t/p/w185/2DOuLS04OeI1t9i75oY7wz6gSyK.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 233
+  },
+  {
+   "id": 1212126,
+   "name": "Gerry Cohen",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 87
+  },
+  {
+   "id": 7088,
+   "name": "Sam Simon",
+   "photo": "https://image.tmdb.org/t/p/w185/88bZbxTtkYbYaHayI2p0LODKQd.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 57
+  },
+  {
+   "id": 122853,
+   "name": "Bob Koherr",
+   "photo": "https://image.tmdb.org/t/p/w185/s0kVuqPOgxxxc1ylduw0tR1RNzD.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 1213086,
+   "name": "Clay Graham",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 1213120,
+   "name": "Mitch Hunter",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 153950,
+   "name": "Brian K. Roberts",
+   "photo": "https://image.tmdb.org/t/p/w185/1DS8d5bxSkmAU6DnIr3JX5Bv7LL.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 1212106,
+   "name": "Steve Zuckerman",
+   "photo": "https://image.tmdb.org/t/p/w185/cCgUdhEvAavpIU7ankk7kmY8PrB.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 134133,
+   "name": "Shelley Jensen",
+   "photo": "https://image.tmdb.org/t/p/w185/AbXIXwaMVQ04GA3aZDMN22IQPsY.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 65503,
+   "name": "Lona Williams",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1213093,
+   "name": "Bruce Rasmussen",
+   "photo": "https://image.tmdb.org/t/p/w185/a5avkeMI18MZG32u7sDT5jF1cEe.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 66509,
+   "name": "Joey Gutierrez",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1213097,
+   "name": "Diane Burroughs",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1213119,
+   "name": "Brian Scully",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:28:16.821Z"
+}

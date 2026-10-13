@@ -1,0 +1,331 @@
+{
+ "show": "The Owl House",
+ "slug": "the-owl-house",
+ "tmdbId": 92685,
+ "cast": [
+  {
+   "id": 1546164,
+   "name": "Sarah-Nicole Robles",
+   "photo": "https://image.tmdb.org/t/p/w185/wfk8MRawUfhSpD4v6zwC3EuikIu.jpg",
+   "character": "Luz (voice)",
+   "episodes": 43
+  },
+  {
+   "id": 61980,
+   "name": "Wendie Malick",
+   "photo": "https://image.tmdb.org/t/p/w185/4yDh5iu4Qyib35aXfo7SStFpnNC.jpg",
+   "character": "Eda (voice)",
+   "episodes": 43
+  },
+  {
+   "id": 1254995,
+   "name": "Alex Hirsch",
+   "photo": "https://image.tmdb.org/t/p/w185/pGoKJKbqI3AwcmQkmEKG9jBXdcw.jpg",
+   "character": "King / Hooty (voice)",
+   "episodes": 43
+  },
+  {
+   "id": 1696230,
+   "name": "Issac Ryan Brown",
+   "photo": "https://image.tmdb.org/t/p/w185/xyS9AOh0YZsCEzlLkE5DHQhUhZa.jpg",
+   "character": "Gus (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 52404,
+   "name": "Mae Whitman",
+   "photo": "https://image.tmdb.org/t/p/w185/y7fg9R5zvqDCZCUt3uwcyOoCOFp.jpg",
+   "character": "Amity (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1859934,
+   "name": "Tati Gabrielle",
+   "photo": "https://image.tmdb.org/t/p/w185/txZTL1HkPVxliTilbjlwR51VIt6.jpg",
+   "character": "Willow (voice)",
+   "episodes": 23
+  },
+  {
+   "id": 1931321,
+   "name": "Cissy Jones",
+   "photo": "https://image.tmdb.org/t/p/w185/2PVc39eQL0RgF0MSJ4vruDbQviL.jpg",
+   "character": "Lilith / Dottie (voice) / Lilith (voice)",
+   "episodes": 17
+  },
+  {
+   "id": 217524,
+   "name": "Eden Riegel",
+   "photo": "https://image.tmdb.org/t/p/w185/lY2IJ2hy19pgmP2LDAzRispWi37.jpg",
+   "character": "Boscha (voice) / Additional Voices (voice)",
+   "episodes": 14
+  },
+  {
+   "id": 15761,
+   "name": "Grey DeLisle",
+   "photo": "https://image.tmdb.org/t/p/w185/vrUHaXe1pG56yZkgH7Hs3LGRLTT.jpg",
+   "character": "Additional Voices (voice) / Roselle (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 590012,
+   "name": "Matt Chapman",
+   "photo": null,
+   "character": "Additional Voices (voice)",
+   "episodes": 10
+  },
+  {
+   "id": 230567,
+   "name": "Arin Hanson",
+   "photo": "https://image.tmdb.org/t/p/w185/ffFSd162CTUKhs4xryOGYxHvAMD.jpg",
+   "character": "Papa Titan (voice) / Additional Voices (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 35111,
+   "name": "Bumper Robinson",
+   "photo": "https://image.tmdb.org/t/p/w185/9KU72zZXIfsGAPgHmhlJmTYvor9.jpg",
+   "character": "Principal Bump (voice) / Additional Voices (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 2135035,
+   "name": "Zeno Robinson",
+   "photo": "https://image.tmdb.org/t/p/w185/PyoUSDPm4AiGcp6W2WTBD2zSMt.jpg",
+   "character": "Hunter (voice) / Derwin / Additional Voices (voice) / Hunter / Golden Guard (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 23680,
+   "name": "Dee Bradley Baker",
+   "photo": "https://image.tmdb.org/t/p/w185/9oFnToDZWp0I484s7Ua1EzNQQ2m.jpg",
+   "character": "Additional Voices (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 29528,
+   "name": "Matthew Rhys",
+   "photo": "https://image.tmdb.org/t/p/w185/8uktKexgPn0tsW3dsXVNqkqiNh7.jpg",
+   "character": "Emperor Belos (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 1853492,
+   "name": "Dana Terrace",
+   "photo": "https://image.tmdb.org/t/p/w185/elrWI5mhbrcPCCzlckWA2eO3Bkv.jpg",
+   "character": "Additional Voices (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 54427,
+   "name": "Kimberly Brooks",
+   "photo": "https://image.tmdb.org/t/p/w185/iPlCk1VQ8fnAtsMow6HlCZoQc0w.jpg",
+   "character": "Skara (voice) / Additional Voices (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 136152,
+   "name": "JB Blanc",
+   "photo": "https://image.tmdb.org/t/p/w185/fHLyXboPlBDo1aoAl085YqaPjO8.jpg",
+   "character": "Additional Voices (voice) / Abomination Teacher (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 2495526,
+   "name": "Ryan O'Flanagan",
+   "photo": "https://image.tmdb.org/t/p/w185/ozFYAtM4S4RM90ptPUiLSgb13Kh.jpg",
+   "character": "Edric (voice) / Additional Voices (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 79077,
+   "name": "Mela Lee",
+   "photo": "https://image.tmdb.org/t/p/w185/wMv6cbT1ycQB0Bw5GwdFUxElz6u.jpg",
+   "character": "Kikimora (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 60279,
+   "name": "Fred Tatasciore",
+   "photo": "https://image.tmdb.org/t/p/w185/8YCIAGSWcxeTmPfOWMtVjLSwGOH.jpg",
+   "character": "Additional Voices (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 1585192,
+   "name": "Elizabeth Grullón",
+   "photo": "https://image.tmdb.org/t/p/w185/r6jInKY2TA3MnD4qrWueZoClHTO.jpg",
+   "character": "Camila (voice) / Camila-Gromila (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 24362,
+   "name": "Kevin Michael Richardson",
+   "photo": "https://image.tmdb.org/t/p/w185/xXt9Nh7RAT5bOen66TaXreNYmCl.jpg",
+   "character": "Additional Voices (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 177588,
+   "name": "André Sogliuzzo",
+   "photo": "https://image.tmdb.org/t/p/w185/lrebAFDCMthLuq6Oyzraac8MzQL.jpg",
+   "character": "Piniet (voice) / Additional Voices (voice)",
+   "episodes": 3
+  }
+ ],
+ "crew": [
+  {
+   "id": 1853492,
+   "name": "Dana Terrace",
+   "photo": "https://image.tmdb.org/t/p/w185/elrWI5mhbrcPCCzlckWA2eO3Bkv.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Story",
+    "Writer"
+   ],
+   "episodes": 50
+  },
+  {
+   "id": 1852754,
+   "name": "Zach Marcus",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 53
+  },
+  {
+   "id": 2506041,
+   "name": "John Bailey Owen",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 51
+  },
+  {
+   "id": 2067256,
+   "name": "Rachel Vine",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 44
+  },
+  {
+   "id": 2745629,
+   "name": "Lee Knox Ostertag",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 38
+  },
+  {
+   "id": 2745627,
+   "name": "Charley Feldman",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Story"
+   ],
+   "episodes": 28
+  },
+  {
+   "id": 1070336,
+   "name": "T. J. Hill",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 3115814,
+   "name": "Mikki Crisostomo",
+   "photo": null,
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 235915,
+   "name": "Emmy Cicierega",
+   "photo": "https://image.tmdb.org/t/p/w185/8dJfFsxzClF8OugZuR6IfUgkwa6.jpg",
+   "jobs": [
+    "Story"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1789959,
+   "name": "Stu Livingston",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 2206123,
+   "name": "Aminder Dhaliwal",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 2878691,
+   "name": "Bridget Underwood",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1219054,
+   "name": "Stephen Sandoval",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1039946,
+   "name": "Sage Cotugno",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1852759,
+   "name": "Amelia Lorenz",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1898769,
+   "name": "Bosook Coburn",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:39.524Z"
+}

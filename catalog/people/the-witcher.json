@@ -1,0 +1,326 @@
+{
+ "show": "The Witcher",
+ "slug": "the-witcher",
+ "tmdbId": 71912,
+ "cast": [
+  {
+   "id": 2146944,
+   "name": "Anya Chalotra",
+   "photo": "https://image.tmdb.org/t/p/w185/c3QiX7znSjTR7u2xj29KH6DAnMs.jpg",
+   "character": "Yennefer of Vengerberg",
+   "episodes": 32
+  },
+  {
+   "id": 2146942,
+   "name": "Freya Allan",
+   "photo": "https://image.tmdb.org/t/p/w185/8RuLG2mePw8YgFNUjWROBuxMrwT.jpg",
+   "character": "Princess Cirilla 'Ciri' of Cintra",
+   "episodes": 32
+  },
+  {
+   "id": 110425,
+   "name": "Eamon Farren",
+   "photo": "https://image.tmdb.org/t/p/w185/f4EX93f9MRCfjJc4kKAKqVqRsUW.jpg",
+   "character": "Cahir",
+   "episodes": 29
+  },
+  {
+   "id": 1503072,
+   "name": "Mimî M. Khayisa",
+   "photo": "https://image.tmdb.org/t/p/w185/kfwWaxcovzkahqDDhhJwPrGbnny.jpg",
+   "character": "Fringilla Vigo",
+   "episodes": 28
+  },
+  {
+   "id": 73968,
+   "name": "Henry Cavill",
+   "photo": "https://image.tmdb.org/t/p/w185/kN3A5oLgtKYAxa9lAkpsIGYKYVo.jpg",
+   "character": "Geralt of Rivia",
+   "episodes": 24
+  },
+  {
+   "id": 1353920,
+   "name": "Joey Batey",
+   "photo": "https://image.tmdb.org/t/p/w185/4uo4JPaK6KpdN7v8C1pbwKpNVJU.jpg",
+   "character": "Jaskier / The Sandpiper",
+   "episodes": 24
+  },
+  {
+   "id": 234929,
+   "name": "Anna Shaffer",
+   "photo": "https://image.tmdb.org/t/p/w185/te5rydQcq4v5m6Y8CVUT430rh1C.jpg",
+   "character": "Triss Merigold",
+   "episodes": 24
+  },
+  {
+   "id": 1386458,
+   "name": "Mahesh Jadu",
+   "photo": "https://image.tmdb.org/t/p/w185/pugsskE62XbyYRruJk8KGk3JVdC.jpg",
+   "character": "Vilgefortz of Roggeveen",
+   "episodes": 21
+  },
+  {
+   "id": 57578,
+   "name": "MyAnna Buring",
+   "photo": "https://image.tmdb.org/t/p/w185/boC5LKewKpz8zhtUmPScHfkSAlV.jpg",
+   "character": "Tissaia De Vries",
+   "episodes": 19
+  },
+  {
+   "id": 1700995,
+   "name": "Cassie Clare",
+   "photo": "https://image.tmdb.org/t/p/w185/bn18nRKMVGJ2EgUg82aXugtyZz9.jpg",
+   "character": "Philippa Eilhart",
+   "episodes": 17
+  },
+  {
+   "id": 1949684,
+   "name": "Mecia Simson",
+   "photo": "https://image.tmdb.org/t/p/w185/s6Sw1MjfQb0ElsHOFxZHJDZnCVx.jpg",
+   "character": "Francesca Findabair",
+   "episodes": 17
+  },
+  {
+   "id": 1573807,
+   "name": "Bart Edwards",
+   "photo": "https://image.tmdb.org/t/p/w185/d3pRjRWJMr6pTdFTpxuv0NXd42z.jpg",
+   "character": "Urcheon (Duny) / Duny / Emhyr",
+   "episodes": 15
+  },
+  {
+   "id": 2200173,
+   "name": "Wilson Mbomio",
+   "photo": "https://image.tmdb.org/t/p/w185/oWEC9KBCbZe2mwsw7Yr9R2zIOCE.jpg",
+   "character": "Dara",
+   "episodes": 15
+  },
+  {
+   "id": 1266313,
+   "name": "Royce Pierreson",
+   "photo": "https://image.tmdb.org/t/p/w185/oybeyUuA9zx1zo6RcJsMWt3lsip.jpg",
+   "character": "Istredd",
+   "episodes": 15
+  },
+  {
+   "id": 1725141,
+   "name": "Therica Wilson-Read",
+   "photo": "https://image.tmdb.org/t/p/w185/7Q03ooAeqdDk1vOS0yFY5aCBvM3.jpg",
+   "character": "Sabrina",
+   "episodes": 14
+  },
+  {
+   "id": 1417081,
+   "name": "Tom Canton",
+   "photo": "https://image.tmdb.org/t/p/w185/zzoJu7FvlJ1cf4cuuhDkhwloY1i.jpg",
+   "character": "Filavandrel",
+   "episodes": 13
+  },
+  {
+   "id": 95047,
+   "name": "Graham McTavish",
+   "photo": "https://image.tmdb.org/t/p/w185/qpKVz46PkKVaXzthcJO4ldFPdM9.jpg",
+   "character": "Sigismund Dijkstra",
+   "episodes": 13
+  },
+  {
+   "id": 1206337,
+   "name": "Hugh Skinner",
+   "photo": "https://image.tmdb.org/t/p/w185/7MHdNxS1gRnx0ZQGPrfS5eRjMe3.jpg",
+   "character": "Prince Radovid",
+   "episodes": 11
+  },
+  {
+   "id": 71158,
+   "name": "Lars Mikkelsen",
+   "photo": "https://image.tmdb.org/t/p/w185/xw3bJxjf8yT8TS8zigEGWQYSaXH.jpg",
+   "character": "Stregobor",
+   "episodes": 11
+  },
+  {
+   "id": 2979464,
+   "name": "Zhang Meng'er",
+   "photo": "https://image.tmdb.org/t/p/w185/lOJ0EIjNybCDT6J3ZLMDnqpoDXD.jpg",
+   "character": "Milva",
+   "episodes": 10
+  },
+  {
+   "id": 3495584,
+   "name": "Christelle Elwin",
+   "photo": "https://image.tmdb.org/t/p/w185/1UXruA5cEqdMACjUMuem8jN1N9G.jpg",
+   "character": "Mistle",
+   "episodes": 10
+  },
+  {
+   "id": 2348365,
+   "name": "Ben Radcliffe",
+   "photo": "https://image.tmdb.org/t/p/w185/b24QfBFJw4H83nwxW8hIWTgr8V3.jpg",
+   "character": "Giselher",
+   "episodes": 9
+  },
+  {
+   "id": 1109112,
+   "name": "Fabian McCallum",
+   "photo": "https://image.tmdb.org/t/p/w185/zVZDLHUovRJG2IZvXqqSFSYOMKn.jpg",
+   "character": "Kayleigh",
+   "episodes": 9
+  },
+  {
+   "id": 1730417,
+   "name": "Aggy K. Adams",
+   "photo": "https://image.tmdb.org/t/p/w185/9OU8Rz5VBSHAk3czTlkC0TdD7G5.jpg",
+   "character": "Iskra",
+   "episodes": 9
+  }
+ ],
+ "crew": [
+  {
+   "id": 1219517,
+   "name": "Lauren Schmidt Hissrich",
+   "photo": "https://image.tmdb.org/t/p/w185/gIYkS3iNC8gMrldAHF09QHPGELb.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 32
+  },
+  {
+   "id": 1318704,
+   "name": "Alik Sakharov",
+   "photo": "https://image.tmdb.org/t/p/w185/nsawlXcvphwnzz66ULKwMl9sKUx.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 32
+  },
+  {
+   "id": 7779,
+   "name": "Sean Daniel",
+   "photo": "https://image.tmdb.org/t/p/w185/8ImPWM8YCxPSvZCDrDdxeCgNBeU.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 32
+  },
+  {
+   "id": 1378478,
+   "name": "Jarosław Sawko",
+   "photo": "https://image.tmdb.org/t/p/w185/nPtLzioKqCXrZpOSCaQu8N62yY3.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 32
+  },
+  {
+   "id": 80577,
+   "name": "Tomek Bagiński",
+   "photo": "https://image.tmdb.org/t/p/w185/rpoFuGEQnKBxX4gqQM0RfzsyLht.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 32
+  },
+  {
+   "id": 1683406,
+   "name": "Jason F. Brown",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 32
+  },
+  {
+   "id": 1174045,
+   "name": "Simon Emanuel",
+   "photo": "https://image.tmdb.org/t/p/w185/clw3K31l1TKmoDoSPSBu1F8rVNc.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 63289,
+   "name": "Steve Gaub",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 3296786,
+   "name": "Clare Higgins",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 2487280,
+   "name": "Haily Hall",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 3352770,
+   "name": "Mike Otrowski",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1378479,
+   "name": "Piotr Sikora",
+   "photo": "https://image.tmdb.org/t/p/w185/4Pm9JPrcZStDTvKrFWsGEK9Dkuf.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 3352773,
+   "name": "Karol Żbikowski",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1018082,
+   "name": "Matthew O'Toole",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1098740,
+   "name": "Joseph Trapanese",
+   "photo": "https://image.tmdb.org/t/p/w185/3jh3094X5Usrsvd0QGMLP7EqwfI.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1772867,
+   "name": "Sonya Belousova",
+   "photo": "https://image.tmdb.org/t/p/w185/22d0AM5SxTAg1LIFr5EXeZd6se1.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 8
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:57.709Z"
+}

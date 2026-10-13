@@ -1,0 +1,332 @@
+{
+ "show": "The Simpsons",
+ "slug": "the-simpsons",
+ "tmdbId": 456,
+ "cast": [
+  {
+   "id": 198,
+   "name": "Dan Castellaneta",
+   "photo": "https://image.tmdb.org/t/p/w185/AmeqWhP4A46AWkM4kVphg6jOTQX.jpg",
+   "character": "Homer Simpson / Abe Simpson / Barney Gumble / Krusty the Clown / Groundskeeper Willie / Mayor Quimby (voice)",
+   "episodes": 806
+  },
+  {
+   "id": 199,
+   "name": "Julie Kavner",
+   "photo": "https://image.tmdb.org/t/p/w185/87kSPYlWcHvqOVEkhdqxysiAf6w.jpg",
+   "character": "Marge Simpson / Patty Bouvier / Selma Bouvier / Jacqueline Bouvier (voice)",
+   "episodes": 806
+  },
+  {
+   "id": 200,
+   "name": "Nancy Cartwright",
+   "photo": "https://image.tmdb.org/t/p/w185/kJQEz3NAwHGdb2sQzAnBf1RmMV4.jpg",
+   "character": "Bart Simpson / Maggie Simpson / Nelson Muntz / Ralph Wiggum (voice)",
+   "episodes": 806
+  },
+  {
+   "id": 5586,
+   "name": "Yeardley Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/9AjPwbb3uz4GfgOPBYsy2ILvwkB.jpg",
+   "character": "Lisa Simpson / Maggie Simpson (voice)",
+   "episodes": 806
+  },
+  {
+   "id": 5587,
+   "name": "Hank Azaria",
+   "photo": "https://image.tmdb.org/t/p/w185/yFDw4b0jucuFWNnGcBPfpYUtn16.jpg",
+   "character": "Moe Szyslak / Chief Wiggum / Apu / Comic Book Guy / Carl Carlson / Superintendent Chalmers (voice)",
+   "episodes": 806
+  },
+  {
+   "id": 6008,
+   "name": "Harry Shearer",
+   "photo": "https://image.tmdb.org/t/p/w185/wZpovXxQQqP7kxXPy2yj6QMbM55.jpg",
+   "character": "Ned Flanders / Mr. Burns / Smithers / Principal Skinner / Lenny Leonard (voice)",
+   "episodes": 806
+  },
+  {
+   "id": 6009,
+   "name": "Pamela Hayden",
+   "photo": "https://image.tmdb.org/t/p/w185/mPMtuVB6AEulRhlfn69y5RvgmNT.jpg",
+   "character": "Gloria Prince (voice) / Nancy (voice) / Ladies (voice)",
+   "episodes": 391
+  },
+  {
+   "id": 34983,
+   "name": "Tress MacNeille",
+   "photo": "https://image.tmdb.org/t/p/w185/gI2LsgByvSffQY34vabVnPmrHzw.jpg",
+   "character": "Herstory Narrator (voice) / Lindsay Naegle / Agnes Skinner (voice) / Agnes Skinner / Mrs. Fornby / Flight Attendent (voice)",
+   "episodes": 323
+  },
+  {
+   "id": 6036,
+   "name": "Marcia Wallace",
+   "photo": "https://image.tmdb.org/t/p/w185/bDCnZlPdUOyeQN0ewvoEjadBr9V.jpg",
+   "character": "Edna Krabappel / Ms. Melon (voice) / Crowd (voice) / Edna Krabappel (voice)",
+   "episodes": 179
+  },
+  {
+   "id": 6007,
+   "name": "Maggie Roswell",
+   "photo": "https://image.tmdb.org/t/p/w185/pLdSmH5HZYSwTd3aiPlZLbNzvPD.jpg",
+   "character": "Strawberry (voice) / Helen Lovejoy / Elizabeth Hoover (voice) / Gavin's Mom / Miss Hoover / Helen Lovejoy (voice)",
+   "episodes": 175
+  },
+  {
+   "id": 1216346,
+   "name": "Chris Edgerly",
+   "photo": "https://image.tmdb.org/t/p/w185/bjkN9Ugv6Kd3Z3y9p9DgWAc10Q7.jpg",
+   "character": "Record Employee / Angry Crowd (voice) / Announcer #1 (voice) / Gamer (voice)",
+   "episodes": 144
+  },
+  {
+   "id": 156910,
+   "name": "Karl Wiedergott",
+   "photo": "https://image.tmdb.org/t/p/w185/r5alSYfltRGa6m8eUT1CuGur2YE.jpg",
+   "character": "Bum #1 / Jetskier #3 (voice) / New England Church Members (voice) / Spooked Soldier / Legs (voice)",
+   "episodes": 110
+  },
+  {
+   "id": 6035,
+   "name": "Russi Taylor",
+   "photo": "https://image.tmdb.org/t/p/w185/r79GVF7LyBExJP7cRMob8QQZ6IU.jpg",
+   "character": "Gummy Sue (voice) / Wendell / Sherri / Terri / Lewis / Martin (voice) / Martin Prince / Various Students (voice)",
+   "episodes": 96
+  },
+  {
+   "id": 24362,
+   "name": "Kevin Michael Richardson",
+   "photo": "https://image.tmdb.org/t/p/w185/xXt9Nh7RAT5bOen66TaXreNYmCl.jpg",
+   "character": "Narrator (voice) / Omelette Chef (voice) / Demogorgon / Demogorgon Flanders (voice)",
+   "episodes": 93
+  },
+  {
+   "id": 110141,
+   "name": "Alex Désert",
+   "photo": "https://image.tmdb.org/t/p/w185/iz5fLxrOTKYUkpUmGXgVfCfIZxn.jpg",
+   "character": "Judge (voice) / Hockey Player (voice) / Partygoer #2 (voice)",
+   "episodes": 67
+  },
+  {
+   "id": 15761,
+   "name": "Grey DeLisle",
+   "photo": "https://image.tmdb.org/t/p/w185/vrUHaXe1pG56yZkgH7Hs3LGRLTT.jpg",
+   "character": "Terri Mackleberry / Laney (voice) / Sherri and Terri Mackleberry / Martin Prince / Hub's Mother (voice) / Terri / Sherri / Martin Prince (voice)",
+   "episodes": 54
+  },
+  {
+   "id": 3266,
+   "name": "Joe Mantegna",
+   "photo": "https://image.tmdb.org/t/p/w185/4jzvAE6B1eoiZDUnDUuMazirCPP.jpg",
+   "character": "Gordus Antonius (voice) / Fat Tony / Fat Tony's Former Father (voice) / Fat Tony (voice)",
+   "episodes": 47
+  },
+  {
+   "id": 14104,
+   "name": "Phil Hartman",
+   "photo": "https://image.tmdb.org/t/p/w185/m3QyeaVLzIo2fZJZaGbJalfD56t.jpg",
+   "character": "Evan Conover (voice) / Stockbroker / Horst (voice) / Troy McClure / Joey / Godfather / Lionel Hutz (voice)",
+   "episodes": 47
+  },
+  {
+   "id": 87819,
+   "name": "Dawnn Lewis",
+   "photo": "https://image.tmdb.org/t/p/w185/ppxGgmkTczev2VsiOSMfaGUy580.jpg",
+   "character": "Hotshot lawyer (voice) / Opal (voice) / Bernice Hibbert / Female Firefighter (voice)",
+   "episodes": 29
+  },
+  {
+   "id": 34521,
+   "name": "Maurice LaMarche",
+   "photo": "https://image.tmdb.org/t/p/w185/qCiL3EYAhLcNo0rNj5pczWo9MwG.jpg",
+   "character": "Jock #2 (voice) / Chef Naziwa / Marlon Brando (voice) / Additional Voices (voice)",
+   "episodes": 26
+  },
+  {
+   "id": 7090,
+   "name": "Kelsey Grammer",
+   "photo": "https://image.tmdb.org/t/p/w185/5zik4VJim6YTSWDjC7tkp13wxUp.jpg",
+   "character": "Sideshow Bob (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 16165,
+   "name": "Jon Lovitz",
+   "photo": "https://image.tmdb.org/t/p/w185/jBXSLoDEVwYkNqSVWHV9yDo8whA.jpg",
+   "character": "Artie Ziff / Rabbi (voice) / Hacky / Snitchy the Weasel (voice) / Artie Ziff (voice)",
+   "episodes": 20
+  },
+  {
+   "id": 2071546,
+   "name": "Jenny Yokobori",
+   "photo": "https://image.tmdb.org/t/p/w185/rmKvFx3CtHV1SzT8Q4NTPHJrdiN.jpg",
+   "character": "Truth-Anne (voice) / \"It Will Get Better\" Girl (voice) / Mascot Convention Attendee (voice)",
+   "episodes": 15
+  },
+  {
+   "id": 54427,
+   "name": "Kimberly Brooks",
+   "photo": "https://image.tmdb.org/t/p/w185/iPlCk1VQ8fnAtsMow6HlCZoQc0w.jpg",
+   "character": "Janey Powell (voice) / Carrie (voice) / Toby (voice)",
+   "episodes": 15
+  }
+ ],
+ "crew": [
+  {
+   "id": 5741,
+   "name": "Matt Groening",
+   "photo": "https://image.tmdb.org/t/p/w185/2HmAw3AN93DGESPi3ibLZgBa8cT.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 710
+  },
+  {
+   "id": 7088,
+   "name": "Sam Simon",
+   "photo": "https://image.tmdb.org/t/p/w185/88bZbxTtkYbYaHayI2p0LODKQd.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 806
+  },
+  {
+   "id": 3388,
+   "name": "James L. Brooks",
+   "photo": "https://image.tmdb.org/t/p/w185/mZBy39mFACFHMCqfbsN4Kc2qb2k.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 710
+  },
+  {
+   "id": 165843,
+   "name": "Matt Selman",
+   "photo": "https://image.tmdb.org/t/p/w185/hPhaKKXtgrrPySb8qw4YG474FkC.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 598
+  },
+  {
+   "id": 165901,
+   "name": "John Frink",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 576
+  },
+  {
+   "id": 1216642,
+   "name": "Josh Weinstein",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 95
+  },
+  {
+   "id": 1216618,
+   "name": "Bill Oakley",
+   "photo": "https://image.tmdb.org/t/p/w185/AuvdJwqYB6OP1x0dgzy4jLy7ZVP.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 95
+  },
+  {
+   "id": 1223622,
+   "name": "Steven Dean Moore",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 89
+  },
+  {
+   "id": 1223614,
+   "name": "Mark Kirkland",
+   "photo": "https://image.tmdb.org/t/p/w185/zf0qk4VGMxDP31X0Nf1k0L35pjG.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 85
+  },
+  {
+   "id": 3716251,
+   "name": "Kara Talve",
+   "photo": "https://image.tmdb.org/t/p/w185/uKmrhx5uZnQBlRR3LNhD5PnfYO3.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 78
+  },
+  {
+   "id": 1223635,
+   "name": "Matthew Nastuk",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 68
+  },
+  {
+   "id": 1223611,
+   "name": "Bob Anderson",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 67
+  },
+  {
+   "id": 963556,
+   "name": "John Swartzwelder",
+   "photo": "https://image.tmdb.org/t/p/w185/wCjtOY7TMIyKhYGOhiq2dfYcEPc.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 60
+  },
+  {
+   "id": 1223612,
+   "name": "Rob Oliver",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 42
+  },
+  {
+   "id": 165880,
+   "name": "Joel H. Cohen",
+   "photo": "https://image.tmdb.org/t/p/w185/ifvZ4xo81ERBQJ9rCNkfSu1296U.jpg",
+   "jobs": [
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 1710777,
+   "name": "Chris Clements",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 38
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:29:06.966Z"
+}

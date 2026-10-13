@@ -1,0 +1,342 @@
+{
+ "show": "The Good Wife",
+ "slug": "the-good-wife",
+ "tmdbId": 1435,
+ "cast": [
+  {
+   "id": 25654,
+   "name": "Julianna Margulies",
+   "photo": "https://image.tmdb.org/t/p/w185/erBzXAfkPCcW9sW2cGAcY50RdPm.jpg",
+   "character": "Alicia Florrick",
+   "episodes": 156
+  },
+  {
+   "id": 11870,
+   "name": "Christine Baranski",
+   "photo": "https://image.tmdb.org/t/p/w185/q6Zi3BYlmoim1JXXMGgRVS5C87x.jpg",
+   "character": "Diane Lockhart",
+   "episodes": 156
+  },
+  {
+   "id": 55547,
+   "name": "Matt Czuchry",
+   "photo": "https://image.tmdb.org/t/p/w185/2rjZFfUgD5jJewgQn3HC72aIEBn.jpg",
+   "character": "Cary Agos",
+   "episodes": 156
+  },
+  {
+   "id": 10697,
+   "name": "Alan Cumming",
+   "photo": "https://image.tmdb.org/t/p/w185/axil8ufunARfqyU4ceZNh36fkVQ.jpg",
+   "character": "Eli Gold",
+   "episodes": 140
+  },
+  {
+   "id": 128645,
+   "name": "Archie Panjabi",
+   "photo": "https://image.tmdb.org/t/p/w185/1kSx9zUPwpTe35TbL7T2BWOp3bp.jpg",
+   "character": "Kalinda Sharma",
+   "episodes": 134
+  },
+  {
+   "id": 2694,
+   "name": "Josh Charles",
+   "photo": "https://image.tmdb.org/t/p/w185/xmFdIoFKVRNUmXaslBlErA3UHfF.jpg",
+   "character": "Will Gardner",
+   "episodes": 107
+  },
+  {
+   "id": 38026,
+   "name": "Chris Noth",
+   "photo": "https://image.tmdb.org/t/p/w185/9awGeDN5MSbSefDMAyMglm96vcy.jpg",
+   "character": "Peter Florrick",
+   "episodes": 101
+  },
+  {
+   "id": 2139,
+   "name": "Makenzie Vega",
+   "photo": "https://image.tmdb.org/t/p/w185/yPJ11EdP5rggFUNorQtSCzIag9d.jpg",
+   "character": "Grace Florrick",
+   "episodes": 100
+  },
+  {
+   "id": 27103,
+   "name": "Graham Phillips",
+   "photo": "https://image.tmdb.org/t/p/w185/tDQQamh95HT4XcYJXyHzvT7QFE7.jpg",
+   "character": "Zach Florrick",
+   "episodes": 76
+  },
+  {
+   "id": 7471,
+   "name": "Zach Grenier",
+   "photo": "https://image.tmdb.org/t/p/w185/fSyQKZO39sUsqY283GXiScOg3Hi.jpg",
+   "character": "David Lee",
+   "episodes": 61
+  },
+  {
+   "id": 36554,
+   "name": "Mary Beth Peil",
+   "photo": "https://image.tmdb.org/t/p/w185/dngypOKbFTd4g0frMasQp5KZFn8.jpg",
+   "character": "Jackie Florrick",
+   "episodes": 49
+  },
+  {
+   "id": 1247,
+   "name": "Matthew Goode",
+   "photo": "https://image.tmdb.org/t/p/w185/3XaKKl0bKswTWbJ0Lh9nZ4UdAQo.jpg",
+   "character": "Finn Polmar",
+   "episodes": 30
+  },
+  {
+   "id": 24292,
+   "name": "Jerry Adler",
+   "photo": "https://image.tmdb.org/t/p/w185/8HZi9sk98qH5IroTc1vyyo2AZ3C.jpg",
+   "character": "Howard Lyman",
+   "episodes": 30
+  },
+  {
+   "id": 521,
+   "name": "Michael J. Fox",
+   "photo": "https://image.tmdb.org/t/p/w185/2JB4FMgQmnhbBlQ4SxWFN9EIVDi.jpg",
+   "character": "Louis Canning",
+   "episodes": 26
+  },
+  {
+   "id": 87932,
+   "name": "Renée Elise Goldsberry",
+   "photo": "https://image.tmdb.org/t/p/w185/xlcw1r2ieUlaDLK6CIs5MQ9HIgK.jpg",
+   "character": "Geneva Pine",
+   "episodes": 23
+  },
+  {
+   "id": 1417351,
+   "name": "Cush Jumbo",
+   "photo": "https://image.tmdb.org/t/p/w185/yM3hmPlsSdAFcSUZkeiqs9M9qBf.jpg",
+   "character": "Lucca Quinn",
+   "episodes": 22
+  },
+  {
+   "id": 47296,
+   "name": "Jeffrey Dean Morgan",
+   "photo": "https://image.tmdb.org/t/p/w185/m8bdrmh6ExDCGQ64E83mHg002YV.jpg",
+   "character": "Jason Crouse",
+   "episodes": 22
+  },
+  {
+   "id": 25908,
+   "name": "Sarah Steele",
+   "photo": "https://image.tmdb.org/t/p/w185/ytxx4G6gILYIJmBV7rdUiOm4hZF.jpg",
+   "character": "Marissa Gold",
+   "episodes": 22
+  },
+  {
+   "id": 1295493,
+   "name": "Chris Butler",
+   "photo": "https://image.tmdb.org/t/p/w185/kzBSndhWhSTlvAETwKJl0PGMLmZ.jpg",
+   "character": "Matan Brody",
+   "episodes": 21
+  },
+  {
+   "id": 450,
+   "name": "Mike Colter",
+   "photo": "https://image.tmdb.org/t/p/w185/9LG9AzoY2ak6M2kwhKlGkLOUUot.jpg",
+   "character": "Lemond Bishop",
+   "episodes": 21
+  },
+  {
+   "id": 76999,
+   "name": "Jess Weixler",
+   "photo": "https://image.tmdb.org/t/p/w185/G9tgkNOIeZeVwCJRZjzsALVduK.jpg",
+   "character": "Robyn Burdine",
+   "episodes": 19
+  },
+  {
+   "id": 66101,
+   "name": "Michael Boatman",
+   "photo": "https://image.tmdb.org/t/p/w185/r1zMBznI1N24SmNGdFzZCjptVwP.jpg",
+   "character": "Julius Cain",
+   "episodes": 18
+  },
+  {
+   "id": 1033475,
+   "name": "Nicole Roderick",
+   "photo": null,
+   "character": "Nora",
+   "episodes": 16
+  },
+  {
+   "id": 39389,
+   "name": "Titus Welliver",
+   "photo": "https://image.tmdb.org/t/p/w185/3hTwn7Maktr6ONq1VvfqyRacjiv.jpg",
+   "character": "Glenn Childs",
+   "episodes": 15
+  }
+ ],
+ "crew": [
+  {
+   "id": 1224547,
+   "name": "Michelle King",
+   "photo": "https://image.tmdb.org/t/p/w185/3hzUI7aOSGaBZmkZ2yZmWBDZIYJ.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 156
+  },
+  {
+   "id": 1224549,
+   "name": "Robert King",
+   "photo": "https://image.tmdb.org/t/p/w185/xnNxc367CQWHcxc2SRv72O4nNC1.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 156
+  },
+  {
+   "id": 1217560,
+   "name": "Brooke Kennedy",
+   "photo": "https://image.tmdb.org/t/p/w185/a1ZWnme2p58KpAZ28naDohtgP0w.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 156
+  },
+  {
+   "id": 578,
+   "name": "Ridley Scott",
+   "photo": "https://image.tmdb.org/t/p/w185/zABJmN9opmqD4orWl3KSdCaSo7Q.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 156
+  },
+  {
+   "id": 1218831,
+   "name": "David W. Zucker",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 156
+  },
+  {
+   "id": 225635,
+   "name": "David Buckley",
+   "photo": "https://image.tmdb.org/t/p/w185/q1yKKLlYetpFUhR9mrn8gw1SoxE.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 146
+  },
+  {
+   "id": 1223984,
+   "name": "Leonard Dick",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 133
+  },
+  {
+   "id": 1224561,
+   "name": "Keith Eisner",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 111
+  },
+  {
+   "id": 81826,
+   "name": "Ted Humphrey",
+   "photo": "https://image.tmdb.org/t/p/w185/jByvkNabYHmTqfCedh6kFF0wFca.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 99
+  },
+  {
+   "id": 893,
+   "name": "Tony Scott",
+   "photo": "https://image.tmdb.org/t/p/w185/5PYRgW97xk9iNVC8dS0seoIliRR.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 90
+  },
+  {
+   "id": 1631017,
+   "name": "Craig Turk",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 88
+  },
+  {
+   "id": 1497814,
+   "name": "Adam R. Perlman",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 23
+  },
+  {
+   "id": 176794,
+   "name": "Rosemary Rodriguez",
+   "photo": "https://image.tmdb.org/t/p/w185/7axbNQacZRGusat0ya7plPGizZL.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 128172,
+   "name": "Michael Zinberg",
+   "photo": "https://image.tmdb.org/t/p/w185/ssj871Em8e3Ik4oiIxj6lz3MGwg.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 156967,
+   "name": "Dee Johnson",
+   "photo": "https://image.tmdb.org/t/p/w185/xj1I2QsWGNre5Hqd6GwPBq3M6L1.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 87472,
+   "name": "James Whitmore Jr.",
+   "photo": "https://image.tmdb.org/t/p/w185/g57k2R5KmUhmmTuCloNRBw38a0g.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 12
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:05.974Z"
+}

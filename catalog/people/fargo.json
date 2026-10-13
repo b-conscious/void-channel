@@ -1,0 +1,326 @@
+{
+ "show": "Fargo",
+ "slug": "fargo",
+ "tmdbId": 60622,
+ "cast": [
+  {
+   "id": 17881,
+   "name": "Jason Schwartzman",
+   "photo": "https://image.tmdb.org/t/p/w185/gCjMdmW1DiPAClHVl4zHEIffIsE.jpg",
+   "character": "Josto Fadda / Narrator (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 1331652,
+   "name": "Allison Tolman",
+   "photo": "https://image.tmdb.org/t/p/w185/uMn33sVI4bhYdUhLJPxntOmisio.jpg",
+   "character": "Molly Solverson",
+   "episodes": 11
+  },
+  {
+   "id": 3492,
+   "name": "Colin Hanks",
+   "photo": "https://image.tmdb.org/t/p/w185/iljyDSiJRcwJL8QXQZ2WTyU1wh5.jpg",
+   "character": "Deputy Gus Grimly",
+   "episodes": 11
+  },
+  {
+   "id": 2632,
+   "name": "Chris Rock",
+   "photo": "https://image.tmdb.org/t/p/w185/5lILFeBvX3sC0EfbHhrvMEc7bPD.jpg",
+   "character": "Loy Cannon",
+   "episodes": 11
+  },
+  {
+   "id": 1498158,
+   "name": "Jessie Buckley",
+   "photo": "https://image.tmdb.org/t/p/w185/qbz9175DERSqsCQeYWGJWwqb38z.jpg",
+   "character": "Oraetta Mayflower",
+   "episodes": 11
+  },
+  {
+   "id": 17064,
+   "name": "Ben Whishaw",
+   "photo": "https://image.tmdb.org/t/p/w185/6iEdnDBCjuhJgATBMoieIr8p4oA.jpg",
+   "character": "Patrick 'Rabbi' Milligan",
+   "episodes": 11
+  },
+  {
+   "id": 54738,
+   "name": "Jack Huston",
+   "photo": "https://image.tmdb.org/t/p/w185/qWGoZaUbeuaOLbDvyP5txYr9Hct.jpg",
+   "character": "Odis Weff",
+   "episodes": 11
+  },
+  {
+   "id": 1343865,
+   "name": "Salvatore Esposito",
+   "photo": "https://image.tmdb.org/t/p/w185/lvTeMD1NqYmYbaH0jYek2oXaSvR.jpg",
+   "character": "Gaetano Fadda",
+   "episodes": 11
+  },
+  {
+   "id": 1503922,
+   "name": "Emyri Crutchfield",
+   "photo": "https://image.tmdb.org/t/p/w185/wsdVu6Duu5MjvAc82u1rrNM2AAK.jpg",
+   "character": "Ethelrida Pearl Smutny",
+   "episodes": 11
+  },
+  {
+   "id": 2090871,
+   "name": "Anji White",
+   "photo": "https://image.tmdb.org/t/p/w185/6JcZUdPQ3sz35g4N6JDarfRnPOo.jpg",
+   "character": "Dibrell Smutny",
+   "episodes": 11
+  },
+  {
+   "id": 1349102,
+   "name": "Jeremie Harris",
+   "photo": "https://image.tmdb.org/t/p/w185/ch08czz0JbGFm346bDpoladXwsG.jpg",
+   "character": "Leon Bittle",
+   "episodes": 11
+  },
+  {
+   "id": 2794859,
+   "name": "Matthew Elam",
+   "photo": "https://image.tmdb.org/t/p/w185/vYV8zfLEFOiOXTXoHfF1oEmwbYG.jpg",
+   "character": "Lemuel Cannon",
+   "episodes": 11
+  },
+  {
+   "id": 1531587,
+   "name": "Corey Hendrix",
+   "photo": "https://image.tmdb.org/t/p/w185/jurlf1Ot0mofDsoFTqIBrezx68t.jpg",
+   "character": "Omie Sparkman",
+   "episodes": 11
+  },
+  {
+   "id": 1806229,
+   "name": "James Vincent Meredith",
+   "photo": "https://image.tmdb.org/t/p/w185/bOYxSK324dA42IbUPERWpdBmVVX.jpg",
+   "character": "Opal Rackley",
+   "episodes": 11
+  },
+  {
+   "id": 1078993,
+   "name": "Francesco Acquaroli",
+   "photo": "https://image.tmdb.org/t/p/w185/djRTttvjXoRDHwdUpQdIngbfBnu.jpg",
+   "character": "Ebal Violante",
+   "episodes": 11
+  },
+  {
+   "id": 35103,
+   "name": "Gaetano Bruno",
+   "photo": "https://image.tmdb.org/t/p/w185/2mZJtu1TXqnUozLERvgdcE8AAcq.jpg",
+   "character": "Constant Calamita",
+   "episodes": 11
+  },
+  {
+   "id": 1782455,
+   "name": "Karen Aldridge",
+   "photo": "https://image.tmdb.org/t/p/w185/9hBfSIawa72L0MPt81ZBzlIYeug.jpg",
+   "character": "Zelmare Roulette",
+   "episodes": 11
+  },
+  {
+   "id": 71913,
+   "name": "Bokeem Woodbine",
+   "photo": "https://image.tmdb.org/t/p/w185/pnPyA5pJn94zUzuLWTNkGBNZxza.jpg",
+   "character": "Mike Milligan",
+   "episodes": 11
+  },
+  {
+   "id": 879,
+   "name": "Billy Bob Thornton",
+   "photo": "https://image.tmdb.org/t/p/w185/uJBFml6efjg34u2jvT5ugVa1cPI.jpg",
+   "character": "Narrator (voice) / Lorne Malvo",
+   "episodes": 11
+  },
+  {
+   "id": 7060,
+   "name": "Martin Freeman",
+   "photo": "https://image.tmdb.org/t/p/w185/nrO54AzrxiNgCjBUOSz6ebyxDZY.jpg",
+   "character": "Narrator / Lester Nygaard",
+   "episodes": 11
+  },
+  {
+   "id": 216442,
+   "name": "Brad Mann",
+   "photo": "https://image.tmdb.org/t/p/w185/xcs2hOfzAlSuqnjgQpIcChOWZol.jpg",
+   "character": "Gale Kitchen",
+   "episodes": 11
+  },
+  {
+   "id": 221082,
+   "name": "Russell Harvard",
+   "photo": "https://image.tmdb.org/t/p/w185/bSLWTNljHxOZYVCngWZLxpu3InV.jpg",
+   "character": "Mr. Wrench",
+   "episodes": 11
+  },
+  {
+   "id": 36594,
+   "name": "Juno Temple",
+   "photo": "https://image.tmdb.org/t/p/w185/vwCjlWQLQWbmcUT2Lwn9G0O8r2.jpg",
+   "character": "Dorothy 'Dot' Lyon",
+   "episodes": 10
+  },
+  {
+   "id": 17178,
+   "name": "Patrick Wilson",
+   "photo": "https://image.tmdb.org/t/p/w185/oym6H2QD9esk4yABjCHaUoNAOa8.jpg",
+   "character": "Lou Solverson",
+   "episodes": 10
+  }
+ ],
+ "crew": [
+  {
+   "id": 202816,
+   "name": "Noah Hawley",
+   "photo": "https://image.tmdb.org/t/p/w185/pxVP1lywEBA9y8x5Xe3kM7m4ai3.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 51
+  },
+  {
+   "id": 1226728,
+   "name": "Warren Littlefield",
+   "photo": "https://image.tmdb.org/t/p/w185/v798cWhlV2Gnt3tcqWkbI5e5yDE.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 51
+  },
+  {
+   "id": 1223,
+   "name": "Joel Coen",
+   "photo": "https://image.tmdb.org/t/p/w185/rgVaJNkZCgMarUcZuUAsVfXMWk3.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 51
+  },
+  {
+   "id": 1224,
+   "name": "Ethan Coen",
+   "photo": "https://image.tmdb.org/t/p/w185/lbL8LEcvuxNrzda37g3mysOS2qS.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 51
+  },
+  {
+   "id": 1219207,
+   "name": "Jeff Russo",
+   "photo": "https://image.tmdb.org/t/p/w185/xmH1qDuU8KC2evd7GXd0hCWWny1.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 51
+  },
+  {
+   "id": 1225665,
+   "name": "Kim Todd",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 1482,
+   "name": "John Cameron",
+   "photo": "https://image.tmdb.org/t/p/w185/uv1fsKsOxRGC8n1YL7fBGn4mkRP.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 2637811,
+   "name": "Lee Edward Colston",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1589118,
+   "name": "Steve Stark",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 41892,
+   "name": "Geyer Kosinski",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 6955,
+   "name": "Vincent Landay",
+   "photo": "https://image.tmdb.org/t/p/w185/A4V2flnz8E8Uvuk9XM77PrR8mGE.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 963861,
+   "name": "Dana Gonzales",
+   "photo": "https://image.tmdb.org/t/p/w185/iuOOySMCHUdmfnfqMNx2oDxdKtV.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1223187,
+   "name": "Michael Uppendahl",
+   "photo": "https://image.tmdb.org/t/p/w185/eUPgJlBiib0JbNwXQ9OCwJcP3Y7.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1226143,
+   "name": "Bob DeLaurentis",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1227885,
+   "name": "Dearbhla Walsh",
+   "photo": "https://image.tmdb.org/t/p/w185/iJLqz4QY8qgAUJfZVmjFIEr0HN9.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 33054,
+   "name": "Keith Gordon",
+   "photo": "https://image.tmdb.org/t/p/w185/qh2MpLx2B5CYZVKJz2VLXEuRMBC.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:31:41.684Z"
+}

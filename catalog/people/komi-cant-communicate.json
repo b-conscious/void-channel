@@ -1,0 +1,322 @@
+{
+ "show": "Komi Can't Communicate",
+ "slug": "komi-cant-communicate",
+ "tmdbId": 123876,
+ "cast": [
+  {
+   "id": 2251986,
+   "name": "Aoi Koga",
+   "photo": "https://image.tmdb.org/t/p/w185/uVpwheVV4aPROyY1toYv3v5HSPD.jpg",
+   "character": "Shoko Komi (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1919881,
+   "name": "Gakuto Kajiwara",
+   "photo": "https://image.tmdb.org/t/p/w185/kUer38jXf7vTD2TGGxJMZVYL5Te.jpg",
+   "character": "Hitohito Tadano (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1324665,
+   "name": "Rie Murakawa",
+   "photo": "https://image.tmdb.org/t/p/w185/pawIx7uhV1a2fAHjvTnrCP0KcHX.jpg",
+   "character": "Najimi Osana (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1116334,
+   "name": "Rina Hidaka",
+   "photo": "https://image.tmdb.org/t/p/w185/7JupZGvqcq4dRxiTKpPxzg8NUS4.jpg",
+   "character": "Ren Yamai (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1256913,
+   "name": "Rumi Okubo",
+   "photo": "https://image.tmdb.org/t/p/w185/cf4cnFMllu1yO3X0gCGGDdl8GXW.jpg",
+   "character": "Omoharu Nakanaka (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 1287794,
+   "name": "Yukiyo Fujii",
+   "photo": "https://image.tmdb.org/t/p/w185/tLG4K1iix3QNHFexf98mrZ25jT6.jpg",
+   "character": "Himiko Agari (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 2493237,
+   "name": "Ami Maeshima",
+   "photo": "https://image.tmdb.org/t/p/w185/yKOSGmrl4kWNijgjmoTT1Soz8oq.jpg",
+   "character": "Makeru Yadano (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 55662,
+   "name": "Noriko Hidaka",
+   "photo": "https://image.tmdb.org/t/p/w185/43OuwsjqGf7JxpFpUvB75OdDDXQ.jpg",
+   "character": "Narrator (voice)",
+   "episodes": 24
+  },
+  {
+   "id": 2955668,
+   "name": "Mari Uchiyama",
+   "photo": "https://image.tmdb.org/t/p/w185/mgyJl1FFjtb8Ba1cyLwOBxTXzOd.jpg",
+   "character": "Customer (voice) / Clerk (voice) / Male Student (voice)",
+   "episodes": 16
+  },
+  {
+   "id": 1065297,
+   "name": "Kensho Ono",
+   "photo": "https://image.tmdb.org/t/p/w185/wUYJ3HIeygHfh4rAqupE4RPoG3W.jpg",
+   "character": "Mono Shinobino (voice)",
+   "episodes": 14
+  },
+  {
+   "id": 1071545,
+   "name": "Kenji Akabane",
+   "photo": "https://image.tmdb.org/t/p/w185/sBduxft8NwdbASvtL14bMx86cPq.jpg",
+   "character": "Shigeo Chiarai (voice)",
+   "episodes": 14
+  },
+  {
+   "id": 3271042,
+   "name": "Norihito Hase",
+   "photo": "https://image.tmdb.org/t/p/w185/i3f20088m49mRJsfC4VCn8wvQZ8.jpg",
+   "character": "Shooting Gallery Owner (voice) / Male Student (voice) / Priest (voice)",
+   "episodes": 14
+  },
+  {
+   "id": 2934416,
+   "name": "Tooru Arizumi",
+   "photo": "https://image.tmdb.org/t/p/w185/l5HranSrC0OyKDEJFP1gsogHN36.jpg",
+   "character": "Delinquent 1 (voice) / Man (voice) / Sam Samurai (voice)",
+   "episodes": 14
+  },
+  {
+   "id": 2455684,
+   "name": "Live Mukai",
+   "photo": "https://image.tmdb.org/t/p/w185/t9Wai4L3xtr1S9uyDRward5VSpQ.jpg",
+   "character": "Kawai (voice) / Male Student (voice) / Baby (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 2884635,
+   "name": "Yuga Sato",
+   "photo": "https://image.tmdb.org/t/p/w185/A2xKRzxxYqAFrejZNvZPAbO1ZOv.jpg",
+   "character": "Taisei Sonoda (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 101913,
+   "name": "Kikuko Inoue",
+   "photo": "https://image.tmdb.org/t/p/w185/pPxGWy53FgYSC79zmxblmHe0gI3.jpg",
+   "character": "Shuko Komi (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 3077616,
+   "name": "Naoki Kuwata",
+   "photo": "https://image.tmdb.org/t/p/w185/6l8CnzcBvXSCljIyyEEyqFBQVCx.jpg",
+   "character": "Man (voice) / Announcement 1 (voice) / Male Student (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 1296667,
+   "name": "Maaya Uchida",
+   "photo": "https://image.tmdb.org/t/p/w185/lrcxZXkIgHU55dMs8C4DKkUohqJ.jpg",
+   "character": "Himeko Kishi (voice) / Hitomi Tadano (voice) / Ryoko Tenjoin (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 1498133,
+   "name": "Sarah Emi Bridcutt",
+   "photo": "https://image.tmdb.org/t/p/w185/aylO6RuIXR8eFrErnYMCPxjjQtt.jpg",
+   "character": "Akako Onigashima (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 2963666,
+   "name": "Saki Kobari",
+   "photo": "https://image.tmdb.org/t/p/w185/fh1lk4kq1cGJXeCk8rEEmjiOT0A.jpg",
+   "character": "Male Student (voice) / Shizuka Odoka (voice) / Customer (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 1164931,
+   "name": "Megumi Han",
+   "photo": "https://image.tmdb.org/t/p/w185/cwnwrPg1YvB19TbfouC4ShGPmbQ.jpg",
+   "character": "Chika Netsuno (voice) / Nokoko Inaka (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 1491336,
+   "name": "Ruriko Aoki",
+   "photo": "https://image.tmdb.org/t/p/w185/oIFCVeUfExnxu7jq5snnBScF6cB.jpg",
+   "character": "Nene Onemine (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 1241562,
+   "name": "Hitomi Nabatame",
+   "photo": "https://image.tmdb.org/t/p/w185/jidfw5qDgZjC4TPY3YunJQxlEmr.jpg",
+   "character": "Homeroom Teacher (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 2889600,
+   "name": "Yurika Moriyama",
+   "photo": "https://image.tmdb.org/t/p/w185/Kygf7PirIf1733RaaffLUP5Ldd.jpg",
+   "character": "Kaede Otori (voice)",
+   "episodes": 9
+  }
+ ],
+ "crew": [
+  {
+   "id": 1149042,
+   "name": "Deko Akao",
+   "photo": "https://image.tmdb.org/t/p/w185/sOKxl6uLAJpkGTa7JPu1YXG0ZaP.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 34
+  },
+  {
+   "id": 3086899,
+   "name": "Kazuki Kawagoe",
+   "photo": "https://image.tmdb.org/t/p/w185/nmOgB3yEt5N1KH1kKXbv5R8SLSx.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 27
+  },
+  {
+   "id": 1691548,
+   "name": "Yukari Hashimoto",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 3308174,
+   "name": "Yumi Suzumori",
+   "photo": "https://image.tmdb.org/t/p/w185/rRACnVuwDRZlEOfZRTBQ5AcAoCp.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 1789718,
+   "name": "Erkin Kawabata",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 2984607,
+   "name": "Toshihiro Maeya",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1853322,
+   "name": "Tohru Ishida",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 3263499,
+   "name": "Akira Koremoto",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 3245108,
+   "name": "Fuminori Ishimaru",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 2842413,
+   "name": "Sota Yokote",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 2859685,
+   "name": "Taiei Andou",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 3308164,
+   "name": "Kouki Uchinomiya",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 2933134,
+   "name": "Motomasa Maeda",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 3350700,
+   "name": "Jun Shinohara",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 3557242,
+   "name": "Sachiko Kanno",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 2900441,
+   "name": "Hiroaki Takagi",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:39:12.879Z"
+}

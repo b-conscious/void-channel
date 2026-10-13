@@ -1,0 +1,327 @@
+{
+ "show": "Star Wars: The Bad Batch",
+ "slug": "star-wars-the-bad-batch",
+ "tmdbId": 105971,
+ "cast": [
+  {
+   "id": 73890,
+   "name": "Michelle Ang",
+   "photo": "https://image.tmdb.org/t/p/w185/tDMYQX3cq7AQtKJh8kn7E7CyMze.jpg",
+   "character": "Omega (voice)",
+   "episodes": 47
+  },
+  {
+   "id": 23680,
+   "name": "Dee Bradley Baker",
+   "photo": "https://image.tmdb.org/t/p/w185/9oFnToDZWp0I484s7Ua1EzNQQ2m.jpg",
+   "character": "Clone Troopers / Commander Cody (voice) / Clone Troopers / Cut (voice) / Clone X Troopers / Commander Scorch / Vendor (voice)",
+   "episodes": 47
+  },
+  {
+   "id": 1703156,
+   "name": "Noshir Dalal",
+   "photo": "https://image.tmdb.org/t/p/w185/kPZhR7ZxU5hnOimPZcJQMJ3qjoy.jpg",
+   "character": "Axis Leader (voice) / Stormtrooper / Vice Admiral Rampart (voice) / Vice Admiral Rampart (voice)",
+   "episodes": 19
+  },
+  {
+   "id": 1178795,
+   "name": "Ben Diskin",
+   "photo": "https://image.tmdb.org/t/p/w185/4RWjcrPgfTG1yp19kFKRZYimv2B.jpg",
+   "character": "Imperial Technician / Lt. Holmes (voice) / AZI-3 / Imperial Pilot (voice) / AZI-3 (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 46774,
+   "name": "Gwendoline Yeo",
+   "photo": "https://image.tmdb.org/t/p/w185/qcT51wtWxdS51q9FQcDC455HrqY.jpg",
+   "character": "Nala Se / Villager #3 (voice) / Fighter #2 / Nala Se (voice) / Nala Se (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 24203,
+   "name": "Rhea Perlman",
+   "photo": "https://image.tmdb.org/t/p/w185/4S4PdeHea2pePiWHy8MlDODZRLP.jpg",
+   "character": "Cid (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 15293,
+   "name": "Keisha Castle-Hughes",
+   "photo": "https://image.tmdb.org/t/p/w185/9lBukGiFVV0pKNwndaNhRQVnNmt.jpg",
+   "character": "Emerie Karr (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 1213640,
+   "name": "Stephen Stanton",
+   "photo": "https://image.tmdb.org/t/p/w185/kAz8Ja6SdB2gzabQEgMG2Hb1H5w.jpg",
+   "character": "Admiral Tarkin (voice) / Governor Tarkin / Stormtrooper #1 (voice) / Admiral Tarkin / Fighter #1 (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 22125,
+   "name": "Jimmi Simpson",
+   "photo": "https://image.tmdb.org/t/p/w185/gerE8VqXfFyAs3QhbUlwEuZllKq.jpg",
+   "character": "Doctor Royce Hemlock / Stormtrooper #1 (voice) / Doctor Royce Hemlock (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 25113,
+   "name": "Shelby Young",
+   "photo": "https://image.tmdb.org/t/p/w185/oh4VeJpkORXoGJdIohNpXJyO3kt.jpg",
+   "character": "Bayrn (voice) / Ailish / Bayrn / Nanny Droid (voice) / Bayrn / Nanny Droid (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 89966,
+   "name": "Liam O'Brien",
+   "photo": "https://image.tmdb.org/t/p/w185/ko7Bba6fQEaAbVFAp1kQHTzuYCp.jpg",
+   "character": "Bolo / Scrapper (voice) / Bartender Droid / Stormtrooper #1 / Stormtrooper #3 (voice) / Bolo / Tactical Droid (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 27102,
+   "name": "Wanda Sykes",
+   "photo": "https://image.tmdb.org/t/p/w185/toPTeiRGN1Ha0DaXl8587i9aHUi.jpg",
+   "character": "Phee Genoa (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 96116,
+   "name": "Sam Riegel",
+   "photo": "https://image.tmdb.org/t/p/w185/fgQMEXtqK4xubDf0a2P8r4VJ8SF.jpg",
+   "character": "Ketch / Masked Guard #1 (voice) / Factory Worker #2 / Ketch (voice) / Ketch / Vendor (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 589709,
+   "name": "Jonathan Lipow",
+   "photo": "https://image.tmdb.org/t/p/w185/mSy3SCQYg4QP1BU86w56MRmBbqD.jpg",
+   "character": "Cartel Droid #1 / Gungi / Trandoshans (voice) / Stormtrooper #1 / Ugnaught (voice) / Ordo Moon Dragon / Refugee (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 1471378,
+   "name": "Helen Sadler",
+   "photo": "https://image.tmdb.org/t/p/w185/p0plAmQNO6KCNRECPKji8hiDK4e.jpg",
+   "character": "Doctor Scalder (voice) / Medical Officer / Doctor Scalder (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 78317,
+   "name": "Bob Bergen",
+   "photo": "https://image.tmdb.org/t/p/w185/soDD1xiV3zVQWOJzVdJwfgIqzfe.jpg",
+   "character": "Lama Su (voice) / Droid / Lama Su (voice) / Lama Su / Scrapper #2 (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 35219,
+   "name": "Corey Burton",
+   "photo": "https://image.tmdb.org/t/p/w185/wcpFwdL7m01cZoBJiUSMQVakK2G.jpg",
+   "character": "Cad Bane (voice) / Gobi Glie (voice) / Cad Bane / Scrapper #3 (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 71536,
+   "name": "Matthew Wood",
+   "photo": "https://image.tmdb.org/t/p/w185/u1UjHLTeS5Dregg85A3GICf7Nkf.jpg",
+   "character": "Bib Fortuna / Zygerrian #1 (voice) / Battle Droids / Factory Worker #1 / PA Voice (voice) / Imperial Driver #2 / Stormtrooper (voice)",
+   "episodes": 5
+  },
+  {
+   "id": 81667,
+   "name": "Jennifer Hale",
+   "photo": "https://image.tmdb.org/t/p/w185/oNQCrdiSm0mABCcE5YaHwuZQK8X.jpg",
+   "character": "Senator Chuchi (voice) / Commerce Guild Senator / Senator Chuchi (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 1732263,
+   "name": "Andy Allo",
+   "photo": "https://image.tmdb.org/t/p/w185/6qIvEPbFLeKjYdyMb1DXylDEgWU.jpg",
+   "character": "Lyana Hazard / Ms. Gaya (voice) / Lyana Hazard (voice) / Fighter #1 (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 4631431,
+   "name": "Ivan Sinitsin",
+   "photo": null,
+   "character": "SP-32 / Jax (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 4631432,
+   "name": "Olwyn M. Whelan",
+   "photo": null,
+   "character": "SP-54 / Eva (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 21702,
+   "name": "Ming-Na Wen",
+   "photo": "https://image.tmdb.org/t/p/w185/eqCzFF83It56cUdjpskzvg8jgq.jpg",
+   "character": "Fennec Shand (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 27762,
+   "name": "Ian McDiarmid",
+   "photo": "https://image.tmdb.org/t/p/w185/9OSZMsnwNtM8JrHrEdgQEwyTaPj.jpg",
+   "character": "Darth Sidious / Emperor Palpatine (voice) / Emperor Palpatine (voice)",
+   "episodes": 3
+  }
+ ],
+ "crew": [
+  {
+   "id": 71538,
+   "name": "Dave Filoni",
+   "photo": "https://image.tmdb.org/t/p/w185/iMpXDe7D3eimy3Y8esJcF9czVbm.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 47
+  },
+  {
+   "id": 1228502,
+   "name": "Matt Michnovetz",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 49
+  },
+  {
+   "id": 1728772,
+   "name": "Brad Rau",
+   "photo": "https://image.tmdb.org/t/p/w185/tT2BOfNN9DlXx9nUESrriQsID2Z.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 47
+  },
+  {
+   "id": 1310477,
+   "name": "Jennifer Corbett",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 47
+  },
+  {
+   "id": 1354801,
+   "name": "Athena Yvette Portillo",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 47
+  },
+  {
+   "id": 1371864,
+   "name": "Carrie Beck",
+   "photo": "https://image.tmdb.org/t/p/w185/lmYLSau8WS1t09aSn2BG5BAI73i.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 47
+  },
+  {
+   "id": 51588,
+   "name": "Kevin Kiner",
+   "photo": "https://image.tmdb.org/t/p/w185/FtGnTCUaMTNDESIuwhEmzCNIpp.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 47
+  },
+  {
+   "id": 3113703,
+   "name": "Amanda Rose Muñoz",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 1375617,
+   "name": "Steward Lee",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 3078619,
+   "name": "Nate Villanueva",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 1845715,
+   "name": "Saul Ruiz",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 2171212,
+   "name": "Sean Kiner",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 1972437,
+   "name": "Deana Kiner",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 2228299,
+   "name": "Ezra W. Nachman",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1222839,
+   "name": "Christian Taylor",
+   "photo": "https://image.tmdb.org/t/p/w185/g2QHJ08uE9e5UwLRqzlAUfA1wLp.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 2301155,
+   "name": "Gursimran Sandhu",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:34:05.542Z"
+}

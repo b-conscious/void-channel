@@ -1,0 +1,307 @@
+{
+ "show": "Firefly",
+ "slug": "firefly",
+ "tmdbId": 1437,
+ "cast": [
+  {
+   "id": 51797,
+   "name": "Nathan Fillion",
+   "photo": "https://image.tmdb.org/t/p/w185/aW6vCxkUZtwb6iH2Wf88Uq0XNVv.jpg",
+   "character": "Mal Reynolds",
+   "episodes": 11
+  },
+  {
+   "id": 9576,
+   "name": "Gina Torres",
+   "photo": "https://image.tmdb.org/t/p/w185/ukDNHgvEgdU95eaw6pngiAPucv4.jpg",
+   "character": "Zoë Washburne",
+   "episodes": 11
+  },
+  {
+   "id": 21088,
+   "name": "Alan Tudyk",
+   "photo": "https://image.tmdb.org/t/p/w185/jUuUbPuMGonFT5E2pcs4alfqaCN.jpg",
+   "character": "Hoban Washburne",
+   "episodes": 11
+  },
+  {
+   "id": 54882,
+   "name": "Morena Baccarin",
+   "photo": "https://image.tmdb.org/t/p/w185/4gyHyg6FJ1oFczOm5pmMkdEEo2J.jpg",
+   "character": "Inara Serra",
+   "episodes": 11
+  },
+  {
+   "id": 2059,
+   "name": "Adam Baldwin",
+   "photo": "https://image.tmdb.org/t/p/w185/lfbyJWNWGbiYfU0Yr1tjn6Trd2V.jpg",
+   "character": "Jayne Cobb",
+   "episodes": 11
+  },
+  {
+   "id": 72092,
+   "name": "Jewel Staite",
+   "photo": "https://image.tmdb.org/t/p/w185/ztxDIZvuPreUixO6ZPxwkCg2UlO.jpg",
+   "character": "Kaylee Frye",
+   "episodes": 11
+  },
+  {
+   "id": 55148,
+   "name": "Sean Maher",
+   "photo": "https://image.tmdb.org/t/p/w185/o7splcOIVAdbHnwohJOUAvXWVlk.jpg",
+   "character": "Simon Tam",
+   "episodes": 11
+  },
+  {
+   "id": 54881,
+   "name": "Summer Glau",
+   "photo": "https://image.tmdb.org/t/p/w185/rDTxblyw0AwU5oSeksgP7GwMyrF.jpg",
+   "character": "River Tam",
+   "episodes": 11
+  },
+  {
+   "id": 74570,
+   "name": "Ron Glass",
+   "photo": "https://image.tmdb.org/t/p/w185/wXkS9e8VZPWlc7jK3AaMXZ2OTUx.jpg",
+   "character": "Derrial Book",
+   "episodes": 11
+  },
+  {
+   "id": 84707,
+   "name": "Michael Fairman",
+   "photo": "https://image.tmdb.org/t/p/w185/zFLOZiKJJxhSTwgKgAGZyexOyUm.jpg",
+   "character": "Adelai Niska",
+   "episodes": 2
+  },
+  {
+   "id": 149640,
+   "name": "Jeff Ricketts",
+   "photo": "https://image.tmdb.org/t/p/w185/khiwfKygqFILzpvUNlu55EqQjFm.jpg",
+   "character": "Man / Blue Glove Man #1",
+   "episodes": 2
+  },
+  {
+   "id": 155825,
+   "name": "Dennis Cockrum",
+   "photo": "https://image.tmdb.org/t/p/w185/A3Or26SK7GFf9nv9OVd2X5DpLuO.jpg",
+   "character": "Other Man / Blue Glove Man #2",
+   "episodes": 2
+  },
+  {
+   "id": 53516,
+   "name": "Mark Sheppard",
+   "photo": "https://image.tmdb.org/t/p/w185/aTlqvlKgfyUAZT48AvEytqkMBC6.jpg",
+   "character": "Badger",
+   "episodes": 2
+  },
+  {
+   "id": 21142,
+   "name": "Gregory Itzin",
+   "photo": "https://image.tmdb.org/t/p/w185/lUACgFTvuhRhAC3GwnpcWMGLxo4.jpg",
+   "character": "Magistrate Higgins",
+   "episodes": 1
+  },
+  {
+   "id": 108213,
+   "name": "Isabella Hofmann",
+   "photo": "https://image.tmdb.org/t/p/w185/vPRXu2u0vewF6dRJLZ2p8rhrIou.jpg",
+   "character": "Regan Tam",
+   "episodes": 1
+  },
+  {
+   "id": 52930,
+   "name": "Carlos Jacott",
+   "photo": "https://image.tmdb.org/t/p/w185/jtZ0Eh0nS0qHUEP20iT02LTYoX2.jpg",
+   "character": "Lawrence Dobson",
+   "episodes": 1
+  },
+  {
+   "id": 150194,
+   "name": "Damion Poitier",
+   "photo": "https://image.tmdb.org/t/p/w185/pt7I3aZpZfP8E5vKEM4KNtNEjb6.jpg",
+   "character": "Henchman",
+   "episodes": 1
+  },
+  {
+   "id": 27736,
+   "name": "Tom Towles",
+   "photo": "https://image.tmdb.org/t/p/w185/ekBEknY5CAjX8zXkSjGVkS3WcAN.jpg",
+   "character": "Lund",
+   "episodes": 1
+  },
+  {
+   "id": 52366,
+   "name": "Andrew Bryniarski",
+   "photo": "https://image.tmdb.org/t/p/w185/7WecTlVEkck19VMXTcBfSkmshYL.jpg",
+   "character": "Crow",
+   "episodes": 1
+  },
+  {
+   "id": 2518,
+   "name": "Gregg Henry",
+   "photo": "https://image.tmdb.org/t/p/w185/j17nuAFulrbYP34g4Qw8SZRDNUo.jpg",
+   "character": "Sheriff Bourne",
+   "episodes": 1
+  },
+  {
+   "id": 14737,
+   "name": "Doug Savant",
+   "photo": "https://image.tmdb.org/t/p/w185/yJ9UjfZ3PcULd0OPZhZ4vv23KMG.jpg",
+   "character": "Commander Harken",
+   "episodes": 1
+  },
+  {
+   "id": 56165,
+   "name": "Branden Morgan",
+   "photo": "https://image.tmdb.org/t/p/w185/25OUQsBPNGxRMDKkf9jtcgYgGoY.jpg",
+   "character": "Survivor",
+   "episodes": 1
+  },
+  {
+   "id": 200096,
+   "name": "Lancer Dean Shull",
+   "photo": null,
+   "character": "Radio Operator",
+   "episodes": 1
+  },
+  {
+   "id": 2137,
+   "name": "Benito Martinez",
+   "photo": "https://image.tmdb.org/t/p/w185/3lPxnrPCs31lnliBNEssgxw7Qxg.jpg",
+   "character": "Boss",
+   "episodes": 1
+  }
+ ],
+ "crew": [
+  {
+   "id": 12891,
+   "name": "Joss Whedon",
+   "photo": "https://image.tmdb.org/t/p/w185/tAcIXWQWgGzoSsw2BUBuDbCGgii.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Writer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 202100,
+   "name": "Tim Minear",
+   "photo": "https://image.tmdb.org/t/p/w185/zOnOJmM0sShVbLgW2jB0j0r6D6U.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1215364,
+   "name": "Allan Kroeker",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 104876,
+   "name": "James A. Contner",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1222761,
+   "name": "David Solomon",
+   "photo": "https://image.tmdb.org/t/p/w185/xoiTCDv44cDMmUfkPlbuTPx2Rsr.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 43222,
+   "name": "Michael Grossman",
+   "photo": "https://image.tmdb.org/t/p/w185/fjH2OGTim2LseLtxBanDq4Sp24G.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 6198,
+   "name": "Vondie Curtis-Hall",
+   "photo": "https://image.tmdb.org/t/p/w185/eJbwjnUB3VGGioAtQTmiYI4k7lH.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1215026,
+   "name": "Marita Grabiak",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1174226,
+   "name": "Vern Gillum",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 77213,
+   "name": "Jane Espenson",
+   "photo": "https://image.tmdb.org/t/p/w185/lOLMAy3Ur9pSzF59J9Gsx05zJzK.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1219927,
+   "name": "Cheryl Cain",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1215761,
+   "name": "Ben Edlund",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1379807,
+   "name": "Drew Z. Greenberg",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 187863,
+   "name": "Jose Molina",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:34.216Z"
+}

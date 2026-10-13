@@ -1,0 +1,330 @@
+{
+ "show": "30 Rock",
+ "slug": "30-rock",
+ "tmdbId": 4608,
+ "cast": [
+  {
+   "id": 56323,
+   "name": "Tina Fey",
+   "photo": "https://image.tmdb.org/t/p/w185/yPTAi1iucXf85UpiFPtyiTSM6do.jpg",
+   "character": "Liz Lemon",
+   "episodes": 138
+  },
+  {
+   "id": 7447,
+   "name": "Alec Baldwin",
+   "photo": "https://image.tmdb.org/t/p/w185/hzKy7x574eeUS3wt1R3yvWBRpeR.jpg",
+   "character": "Jack Donaghy",
+   "episodes": 138
+  },
+  {
+   "id": 56903,
+   "name": "Tracy Morgan",
+   "photo": "https://image.tmdb.org/t/p/w185/ec0OJVbs6NZKMbS1yiCAJKjeoJf.jpg",
+   "character": "Tracy Jordan",
+   "episodes": 138
+  },
+  {
+   "id": 13636,
+   "name": "Jane Krakowski",
+   "photo": "https://image.tmdb.org/t/p/w185/hT9IGSgsE8VoWllOTtxR9JAoiK.jpg",
+   "character": "Jenna Maroney",
+   "episodes": 138
+  },
+  {
+   "id": 58737,
+   "name": "Jack McBrayer",
+   "photo": "https://image.tmdb.org/t/p/w185/cbr26xDPEiOuYQxggtCPbu5xhDU.jpg",
+   "character": "Kenneth Parcell",
+   "episodes": 138
+  },
+  {
+   "id": 66580,
+   "name": "Scott Adsit",
+   "photo": "https://image.tmdb.org/t/p/w185/hhFWlYAasLldXD1fvzwmmzo9X43.jpg",
+   "character": "Pete Hornberger",
+   "episodes": 138
+  },
+  {
+   "id": 52860,
+   "name": "Judah Friedlander",
+   "photo": "https://image.tmdb.org/t/p/w185/bwg3rqSxlHAUhpmRreSpECs0YZf.jpg",
+   "character": "Frank Rossitano",
+   "episodes": 138
+  },
+  {
+   "id": 164067,
+   "name": "Keith Powell",
+   "photo": "https://image.tmdb.org/t/p/w185/sfphECHCMs9REqOgDa410Cl65Cq.jpg",
+   "character": "James 'Toofer' Spurlock",
+   "episodes": 132
+  },
+  {
+   "id": 74618,
+   "name": "Katrina Bowden",
+   "photo": "https://image.tmdb.org/t/p/w185/ykdL2JKteaBexfDiS9jp9Msyori.jpg",
+   "character": "Cerie",
+   "episodes": 100
+  },
+  {
+   "id": 1214403,
+   "name": "Maulik Pancholy",
+   "photo": "https://image.tmdb.org/t/p/w185/89zHn7lNQEOfmOzv8A3LW3Gwqwm.jpg",
+   "character": "Jonathan",
+   "episodes": 95
+  },
+  {
+   "id": 1226288,
+   "name": "John Lutz",
+   "photo": "https://image.tmdb.org/t/p/w185/5DocEvgogUqmPFUXGQRf4sX4DXE.jpg",
+   "character": "J.D. Lutz",
+   "episodes": 84
+  },
+  {
+   "id": 207324,
+   "name": "Kevin Brown",
+   "photo": "https://image.tmdb.org/t/p/w185/wvJv6j2Jaf15Op4YmK1n2aLmCkL.jpg",
+   "character": "Dot Com Slattery",
+   "episodes": 84
+  },
+  {
+   "id": 1237522,
+   "name": "Grizz Chapman",
+   "photo": "https://image.tmdb.org/t/p/w185/stuOAcVnJ730fo7ByWkZpR4JneT.jpg",
+   "character": "Grizz Grizzwold",
+   "episodes": 80
+  },
+  {
+   "id": 205300,
+   "name": "Lonny Ross",
+   "photo": "https://image.tmdb.org/t/p/w185/6yO8KB9b3yoE5HjhVu8YWViQlX5.jpg",
+   "character": "Josh Girard",
+   "episodes": 36
+  },
+  {
+   "id": 1514319,
+   "name": "Sue Galloway",
+   "photo": "https://image.tmdb.org/t/p/w185/n9ZFqrVuXdgXaTASzoHnbDdaTwP.jpg",
+   "character": "Sue",
+   "episodes": 25
+  },
+  {
+   "id": 51382,
+   "name": "Chris Parnell",
+   "photo": "https://image.tmdb.org/t/p/w185/9Ga03Y9TVIqTZJ4I9rfL740ibgJ.jpg",
+   "character": "Dr. Leo Spaceman",
+   "episodes": 24
+  },
+  {
+   "id": 4168058,
+   "name": "Christine J. Noble",
+   "photo": "https://image.tmdb.org/t/p/w185/eJKpszzCYWRDiay4SaOxTPcfjox.jpg",
+   "character": "Set Dresser",
+   "episodes": 23
+  },
+  {
+   "id": 68763,
+   "name": "Dean Winters",
+   "photo": "https://image.tmdb.org/t/p/w185/zxgOZAYGxa2qmiZkJKGRIhwbGhG.jpg",
+   "character": "Dennis Duffy",
+   "episodes": 15
+  },
+  {
+   "id": 9281,
+   "name": "Elizabeth Banks",
+   "photo": "https://image.tmdb.org/t/p/w185/wMDFt9PUdxJWBzTwixiBfNpeN89.jpg",
+   "character": "Avery Jessup",
+   "episodes": 14
+  },
+  {
+   "id": 32905,
+   "name": "Rachel Dratch",
+   "photo": "https://image.tmdb.org/t/p/w185/j8vNwap7BM69dRz5zXVWvIn4lJ7.jpg",
+   "character": "Dr. Beauvoir / Pamela Smew / Elizabeth Taylor",
+   "episodes": 14
+  },
+  {
+   "id": 11006,
+   "name": "James Marsden",
+   "photo": "https://image.tmdb.org/t/p/w185/lf7OnfKZnMgNh9b98764tqSocGK.jpg",
+   "character": "Criss",
+   "episodes": 13
+  },
+  {
+   "id": 58224,
+   "name": "Jason Sudeikis",
+   "photo": "https://image.tmdb.org/t/p/w185/uuacnP9DOHMsmj8FhBi0cWWDgrn.jpg",
+   "character": "Floyd DeBarber",
+   "episodes": 12
+  },
+  {
+   "id": 54124,
+   "name": "Marceline Hugot",
+   "photo": "https://image.tmdb.org/t/p/w185/sgMqp6wANDPpnpu11VALilQUOlP.jpg",
+   "character": "Kathy Geiss",
+   "episodes": 12
+  },
+  {
+   "id": 62831,
+   "name": "Will Forte",
+   "photo": "https://image.tmdb.org/t/p/w185/4VEzbkL3HwHTUZAPA5PyypFG2U.jpg",
+   "character": "Paul L'astnamé / Tomas",
+   "episodes": 12
+  }
+ ],
+ "crew": [
+  {
+   "id": 56323,
+   "name": "Tina Fey",
+   "photo": "https://image.tmdb.org/t/p/w185/yPTAi1iucXf85UpiFPtyiTSM6do.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 138
+  },
+  {
+   "id": 1224760,
+   "name": "Robert Carlock",
+   "photo": "https://image.tmdb.org/t/p/w185/mZPYQ2LiITLJp3FsFEjotpBuFXb.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 138
+  },
+  {
+   "id": 56158,
+   "name": "Lorne Michaels",
+   "photo": "https://image.tmdb.org/t/p/w185/lVBbmYJmYQWOODTPJFjOZzvS4x8.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 138
+  },
+  {
+   "id": 1226326,
+   "name": "Marci Klein",
+   "photo": "https://image.tmdb.org/t/p/w185/cDd2RB1O83dznM1S9exrTLBVWq7.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 138
+  },
+  {
+   "id": 95459,
+   "name": "David Miner",
+   "photo": "https://image.tmdb.org/t/p/w185/jjqOZQMbi5Jho7CysYKTyXbuwXq.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 138
+  },
+  {
+   "id": 56325,
+   "name": "Jeff Richmond",
+   "photo": "https://image.tmdb.org/t/p/w185/tnzzrsVmJ2sZXDCKBDuDu7ZeE2H.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 137
+  },
+  {
+   "id": 175993,
+   "name": "John Riggi",
+   "photo": "https://image.tmdb.org/t/p/w185/jh3k2gQFRrx9Z9oFVqGx8shltX2.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 124
+  },
+  {
+   "id": 1213739,
+   "name": "Jack Burditt",
+   "photo": "https://image.tmdb.org/t/p/w185/2g9EPFt6LbhazHQZNdIJE1TXwac.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 93
+  },
+  {
+   "id": 93419,
+   "name": "Don Scardino",
+   "photo": "https://image.tmdb.org/t/p/w185/3yGJ8GcYZLURUweqmYhC77QyA1K.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 575706,
+   "name": "JoAnn Alfano",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 36
+  },
+  {
+   "id": 87673,
+   "name": "Beth McCarthy-Miller",
+   "photo": "https://image.tmdb.org/t/p/w185/AdsQpucZeQSiZsP3UCQTq8kAdkR.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1224765,
+   "name": "Matt Hubbard",
+   "photo": "https://image.tmdb.org/t/p/w185/gVmnAlRlBhb6y0AIf8e8pZsPnNe.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 1219201,
+   "name": "Michael Engler",
+   "photo": "https://image.tmdb.org/t/p/w185/qnxS47u4sW8Um71Fm6nZhbkiXQV.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 208664,
+   "name": "Kay Cannon",
+   "photo": "https://image.tmdb.org/t/p/w185/3d61uWFZjkIt3Xzgsb649DgXQHR.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1216561,
+   "name": "Ron Weiner",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1212755,
+   "name": "Gail Mancuso",
+   "photo": "https://image.tmdb.org/t/p/w185/yacqdjB95BaD28ZW1zhy3yeBujm.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 10
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:28:38.184Z"
+}

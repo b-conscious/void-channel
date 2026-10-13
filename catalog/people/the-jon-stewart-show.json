@@ -1,0 +1,60 @@
+{
+ "show": "The Jon Stewart Show",
+ "slug": "the-jon-stewart-show",
+ "tmdbId": 10267,
+ "cast": [
+  {
+   "id": 1218255,
+   "name": "Howard Feller",
+   "photo": null,
+   "character": "",
+   "episodes": 3
+  },
+  {
+   "id": 12219,
+   "name": "Jon Stewart",
+   "photo": "https://image.tmdb.org/t/p/w185/vb3o1WmC21HYMPktM7hT2eV390J.jpg",
+   "character": "",
+   "episodes": 3
+  },
+  {
+   "id": 524,
+   "name": "Natalie Portman",
+   "photo": "https://image.tmdb.org/t/p/w185/edPU5HxncLWa1YkgRPNkSd68ONG.jpg",
+   "character": "Self - Guest",
+   "episodes": 1
+  },
+  {
+   "id": 56890,
+   "name": "Malcolm McDowell",
+   "photo": "https://image.tmdb.org/t/p/w185/hL8ep4Hqj6izX7IlzE7Bbcfq62w.jpg",
+   "character": "Self - Guest",
+   "episodes": 1
+  },
+  {
+   "id": 19509,
+   "name": "Jessica Yu",
+   "photo": "https://image.tmdb.org/t/p/w185/eUkt2afdBtx261l5xz4fNSeFWIp.jpg",
+   "character": "Self - Guest",
+   "episodes": 1
+  },
+  {
+   "id": 6481094,
+   "name": "Fu Schnickens",
+   "photo": null,
+   "character": "Self - Guest",
+   "episodes": 1
+  }
+ ],
+ "crew": [
+  {
+   "id": 12219,
+   "name": "Jon Stewart",
+   "photo": "https://image.tmdb.org/t/p/w185/vb3o1WmC21HYMPktM7hT2eV390J.jpg",
+   "jobs": [
+    "Creator"
+   ]
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:31:11.117Z"
+}

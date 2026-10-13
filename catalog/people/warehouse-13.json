@@ -1,0 +1,326 @@
+{
+ "show": "Warehouse 13",
+ "slug": "warehouse-13",
+ "tmdbId": 15819,
+ "cast": [
+  {
+   "id": 120679,
+   "name": "Eddie McClintock",
+   "photo": "https://image.tmdb.org/t/p/w185/i3FO7cSxgWfBOWzticiklxcg3ab.jpg",
+   "character": "Pete Lattimer",
+   "episodes": 64
+  },
+  {
+   "id": 43277,
+   "name": "Joanne Kelly",
+   "photo": "https://image.tmdb.org/t/p/w185/D1iU7qiyM0Xj4XGFY6tNlqOaYD.jpg",
+   "character": "Myka Bering",
+   "episodes": 64
+  },
+  {
+   "id": 3712,
+   "name": "Saul Rubinek",
+   "photo": "https://image.tmdb.org/t/p/w185/vW4ERsjupcc9u1ipDR7w6h6sphe.jpg",
+   "character": "Arthur \"Artie\" Nielsen",
+   "episodes": 64
+  },
+  {
+   "id": 38706,
+   "name": "Allison Scagliotti",
+   "photo": "https://image.tmdb.org/t/p/w185/rIgA7yh7E8M3fVhMIbT4jzrn6cM.jpg",
+   "character": "Claudia Donovan",
+   "episodes": 64
+  },
+  {
+   "id": 80969,
+   "name": "Genelle Williams",
+   "photo": "https://image.tmdb.org/t/p/w185/aRMebSI4pURMpenZqpPmWiRKtto.jpg",
+   "character": "Leena",
+   "episodes": 48
+  },
+  {
+   "id": 90130,
+   "name": "Aaron Ashmore",
+   "photo": "https://image.tmdb.org/t/p/w185/kkGwF2nhgnYLUfXuH2CDvrHeUay.jpg",
+   "character": "Steve Jinks",
+   "episodes": 39
+  },
+  {
+   "id": 30485,
+   "name": "CCH Pounder",
+   "photo": "https://image.tmdb.org/t/p/w185/yLOU0qA5MwJyoKMc0e4HyZz4oFV.jpg",
+   "character": "Irene Frederic",
+   "episodes": 29
+  },
+  {
+   "id": 19277,
+   "name": "Todd Stashwick",
+   "photo": "https://image.tmdb.org/t/p/w185/seKRXV2HMS36ip4SfQq6PLRiLL2.jpg",
+   "character": "Hofgren",
+   "episodes": 20
+  },
+  {
+   "id": 1223059,
+   "name": "Jaime Murray",
+   "photo": "https://image.tmdb.org/t/p/w185/viqfbECKPLI8nRO6sya8YFu8yc2.jpg",
+   "character": "H.G. Wells",
+   "episodes": 14
+  },
+  {
+   "id": 57452,
+   "name": "Faran Tahir",
+   "photo": "https://image.tmdb.org/t/p/w185/eVYiHKj9OGRn3MeRqJuwROFqIkg.jpg",
+   "character": "Adwin Kosan",
+   "episodes": 10
+  },
+  {
+   "id": 6071,
+   "name": "Sasha Roiz",
+   "photo": "https://image.tmdb.org/t/p/w185/hneSnvFh25FFRWRzd93EhO7S11p.jpg",
+   "character": "Marcus Diamond",
+   "episodes": 8
+  },
+  {
+   "id": 16407,
+   "name": "Roger Rees",
+   "photo": "https://image.tmdb.org/t/p/w185/pVZwILdpzTXECMUvLOSu12RbTHa.jpg",
+   "character": "James MacPherson",
+   "episodes": 7
+  },
+  {
+   "id": 1213786,
+   "name": "Brent Spiner",
+   "photo": "https://image.tmdb.org/t/p/w185/wHaOTfxOEKOPssDYaSSB5zenml4.jpg",
+   "character": "Brother Adrian",
+   "episodes": 6
+  },
+  {
+   "id": 57905,
+   "name": "Lindsay Wagner",
+   "photo": "https://image.tmdb.org/t/p/w185/x1UwRfJt9Th5KJwZgKIcjDKmIo9.jpg",
+   "character": "Vanessa Calder",
+   "episodes": 6
+  },
+  {
+   "id": 35317,
+   "name": "Kate Mulgrew",
+   "photo": "https://image.tmdb.org/t/p/w185/cikUr2PEluEamVsLgrnWWLx9ZsI.jpg",
+   "character": "Jane Lattimer",
+   "episodes": 6
+  },
+  {
+   "id": 11024,
+   "name": "Kelly Hu",
+   "photo": "https://image.tmdb.org/t/p/w185/jLhnDPiUIrIcdKJYnnVSZ4nbgyh.jpg",
+   "character": "Abigail Chow",
+   "episodes": 6
+  },
+  {
+   "id": 21124,
+   "name": "Paula Garcés",
+   "photo": "https://image.tmdb.org/t/p/w185/ukwCVnfSp5qYGbdXHVeCwOXiZyu.jpg",
+   "character": "Dr. Kelly Hernandez",
+   "episodes": 6
+  },
+  {
+   "id": 190941,
+   "name": "Jeffrey R. Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/o6OlX4X3tSmdgOlLTiolDhkOwvL.jpg",
+   "character": "Mr. Keeler",
+   "episodes": 6
+  },
+  {
+   "id": 53516,
+   "name": "Mark Sheppard",
+   "photo": "https://image.tmdb.org/t/p/w185/aTlqvlKgfyUAZT48AvEytqkMBC6.jpg",
+   "character": "Benedict Valda",
+   "episodes": 6
+  },
+  {
+   "id": 1480855,
+   "name": "Jung-Yul Kim",
+   "photo": "https://image.tmdb.org/t/p/w185/l3osGD8HW3nY2NS4MrrqNLacCkU.jpg",
+   "character": "Mrs. Frederic's Bodyguard / Mrs. Frederick's Bodyguard",
+   "episodes": 5
+  },
+  {
+   "id": 218923,
+   "name": "Tyler Hynes",
+   "photo": "https://image.tmdb.org/t/p/w185/siTWzqou73esXFvRO1jcpl2fnYi.jpg",
+   "character": "Joshua Wheeler / Joshua Donovan",
+   "episodes": 5
+  },
+  {
+   "id": 82819,
+   "name": "Nolan Gerard Funk",
+   "photo": "https://image.tmdb.org/t/p/w185/nu8k4yKULdaK4bDOfBIBMdH6QqA.jpg",
+   "character": "Todd",
+   "episodes": 4
+  },
+  {
+   "id": 122888,
+   "name": "Ashley Williams",
+   "photo": "https://image.tmdb.org/t/p/w185/kaZQMxVAX2Z0M0BKphkg7rT54pi.jpg",
+   "character": "Sally Stukowski",
+   "episodes": 4
+  },
+  {
+   "id": 1904,
+   "name": "Anthony Michael Hall",
+   "photo": "https://image.tmdb.org/t/p/w185/nLthzoCuNxxd3KteIrnnMg1066G.jpg",
+   "character": "Walter Sykes",
+   "episodes": 4
+  }
+ ],
+ "crew": [
+  {
+   "id": 77213,
+   "name": "Jane Espenson",
+   "photo": "https://image.tmdb.org/t/p/w185/lOLMAy3Ur9pSzF59J9Gsx05zJzK.jpg",
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 199435,
+   "name": "D. Brent Mote",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 65817,
+   "name": "Chris Fisher",
+   "photo": "https://image.tmdb.org/t/p/w185/eLsLnRwAGDMBZ45axAcv0YLD4wh.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1218039,
+   "name": "Constantine Makris",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 80104,
+   "name": "Jack Kenny",
+   "photo": "https://image.tmdb.org/t/p/w185/y52nNWUShhjHQSRRpmV0nfbXeH2.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1379807,
+   "name": "Drew Z. Greenberg",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1224653,
+   "name": "Tawnia McKiernan",
+   "photo": "https://image.tmdb.org/t/p/w185/A7zodaeVOBWGmGaDVdfywwMNJAa.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 212618,
+   "name": "Bob Goodman",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1480950,
+   "name": "Deric A. Hughes",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1188199,
+   "name": "Benjamin Raab",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 56155,
+   "name": "Stephen Surjik",
+   "photo": "https://image.tmdb.org/t/p/w185/xZAl5XQqf51Yz4maYtLc6HSG62z.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1383187,
+   "name": "Ian Stokes",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 69396,
+   "name": "Nell Scovell",
+   "photo": "https://image.tmdb.org/t/p/w185/z8LA8G9ADqSw66ZqAVldOZfEXcV.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1237444,
+   "name": "Holly Harold",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 139045,
+   "name": "David Simkins",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1216615,
+   "name": "Andrew Kreisberg",
+   "photo": "https://image.tmdb.org/t/p/w185/dm1kNRSLuPKYW4X1CPdO50cqyYJ.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:31.647Z"
+}

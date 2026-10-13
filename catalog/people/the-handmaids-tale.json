@@ -1,0 +1,333 @@
+{
+ "show": "The Handmaid's Tale",
+ "slug": "the-handmaids-tale",
+ "tmdbId": 69478,
+ "cast": [
+  {
+   "id": 32798,
+   "name": "Elisabeth Moss",
+   "photo": "https://image.tmdb.org/t/p/w185/vZDe22EtLtcHvPr28l4ZM0b7qjG.jpg",
+   "character": "June Osborne / Offred / Ofjoseph",
+   "episodes": 66
+  },
+  {
+   "id": 63312,
+   "name": "Yvonne Strahovski",
+   "photo": "https://image.tmdb.org/t/p/w185/2IQEjn5T8urx6ikXM87QGs5MrWg.jpg",
+   "character": "Serena Joy Waterford",
+   "episodes": 58
+  },
+  {
+   "id": 43366,
+   "name": "Ann Dowd",
+   "photo": "https://image.tmdb.org/t/p/w185/zo44U71uiMNVW1HSiOa5F9MpqIq.jpg",
+   "character": "Aunt Lydia Clements",
+   "episodes": 50
+  },
+  {
+   "id": 2978,
+   "name": "Max Minghella",
+   "photo": "https://image.tmdb.org/t/p/w185/AhVDxsOOoAnwwVBL7ZY8W0mGsYJ.jpg",
+   "character": "Nick Blaine",
+   "episodes": 46
+  },
+  {
+   "id": 1034197,
+   "name": "Samira Wiley",
+   "photo": "https://image.tmdb.org/t/p/w185/m45A0hYcpnGckwxqs7j0I6Sp2Dj.jpg",
+   "character": "Moira Strand",
+   "episodes": 46
+  },
+  {
+   "id": 113970,
+   "name": "O-T Fagbenle",
+   "photo": "https://image.tmdb.org/t/p/w185/baIiZBDYpYXfG4SlonbcqyYg6l.jpg",
+   "character": "Luke Bankole",
+   "episodes": 46
+  },
+  {
+   "id": 1443712,
+   "name": "Madeline Brewer",
+   "photo": "https://image.tmdb.org/t/p/w185/jjol6Qa5MeRb3VIwgOXQdjhcn1.jpg",
+   "character": "Janine Lindo",
+   "episodes": 45
+  },
+  {
+   "id": 1232769,
+   "name": "Amanda Brugel",
+   "photo": "https://image.tmdb.org/t/p/w185/3W1RR8CzP5uk6sFt92i1QyjGLRT.jpg",
+   "character": "Rita Blue",
+   "episodes": 42
+  },
+  {
+   "id": 12763,
+   "name": "Joseph Fiennes",
+   "photo": "https://image.tmdb.org/t/p/w185/fcqZXeEyL6z5vkidPtsMu99JtpB.jpg",
+   "character": "Fred Waterford",
+   "episodes": 36
+  },
+  {
+   "id": 11367,
+   "name": "Bradley Whitford",
+   "photo": "https://image.tmdb.org/t/p/w185/oeDv2qZWTxELLaNtOIoeG72leNY.jpg",
+   "character": "Joseph Lawrence",
+   "episodes": 35
+  },
+  {
+   "id": 1603514,
+   "name": "Nina Kiri",
+   "photo": "https://image.tmdb.org/t/p/w185/hCELEsasRGhIsS7oRfdhfK3d1Jc.jpg",
+   "character": "Alma",
+   "episodes": 28
+  },
+  {
+   "id": 41557,
+   "name": "Ever Carradine",
+   "photo": "https://image.tmdb.org/t/p/w185/pXLhIYVT5bdJF37Drx4138bjX6c.jpg",
+   "character": "Naomi Lawrence / Naomi Putnam",
+   "episodes": 28
+  },
+  {
+   "id": 65727,
+   "name": "Sam Jaeger",
+   "photo": "https://image.tmdb.org/t/p/w185/8t4wSekn6vUyEmg9etTnvTaGJEV.jpg",
+   "character": "Mark Tuello",
+   "episodes": 26
+  },
+  {
+   "id": 1463848,
+   "name": "Bahia Watson",
+   "photo": "https://image.tmdb.org/t/p/w185/yY0XNzjm9ymWDmdzTQXAOUDFRwd.jpg",
+   "character": "Brianna",
+   "episodes": 24
+  },
+  {
+   "id": 6279,
+   "name": "Alexis Bledel",
+   "photo": "https://image.tmdb.org/t/p/w185/mhkQzBtp2wuYoKhYqJ4IpDtbS3t.jpg",
+   "character": "Emily Malek",
+   "episodes": 21
+  },
+  {
+   "id": 79991,
+   "name": "Stephen Kunken",
+   "photo": "https://image.tmdb.org/t/p/w185/4WbttnF6FOrx0DjKYoW9atYw21m.jpg",
+   "character": "Warren Putnam",
+   "episodes": 19
+  },
+  {
+   "id": 130365,
+   "name": "Jonathan Watton",
+   "photo": "https://image.tmdb.org/t/p/w185/vs8Uq0e9ij3JQwcFApeXWSLdThy.jpg",
+   "character": "Matthew Calhoun",
+   "episodes": 16
+  },
+  {
+   "id": 166481,
+   "name": "Angela Vint",
+   "photo": "https://image.tmdb.org/t/p/w185/nBzP92UT3YmzxXsD7sPrcHTMM8F.jpg",
+   "character": "Leah",
+   "episodes": 13
+  },
+  {
+   "id": 1881538,
+   "name": "Jordana Blake",
+   "photo": "https://image.tmdb.org/t/p/w185/qqVWP6mq0rGcHeQsDBAlsYB76J3.jpg",
+   "character": "Hannah Bankole",
+   "episodes": 12
+  },
+  {
+   "id": 1590230,
+   "name": "Edie Inksetter",
+   "photo": "https://image.tmdb.org/t/p/w185/kIJVcF4YYMS4UQFqrSIZyGYpRPq.jpg",
+   "character": "Aunt Elizabeth",
+   "episodes": 11
+  },
+  {
+   "id": 1256820,
+   "name": "Jenessa Grant",
+   "photo": "https://image.tmdb.org/t/p/w185/qg7kb8ulC79HYaSjEtlNvKPmuIm.jpg",
+   "character": "Dolores",
+   "episodes": 11
+  },
+  {
+   "id": 200673,
+   "name": "Kristen Lee Gutoskie",
+   "photo": "https://image.tmdb.org/t/p/w185/5th6QoSqsyxANx634tclKqKge4L.jpg",
+   "character": "Beth",
+   "episodes": 10
+  },
+  {
+   "id": 110911,
+   "name": "Tattiawna Jones",
+   "photo": "https://image.tmdb.org/t/p/w185/usiGiuzDFzESXbe38zkhpdOE9kF.jpg",
+   "character": "Lillie Fuller",
+   "episodes": 9
+  },
+  {
+   "id": 3668712,
+   "name": "Carey Cox",
+   "photo": "https://image.tmdb.org/t/p/w185/twQtbaP2SwLMsAobqDguFbyTgBW.jpg",
+   "character": "Rose Blaine",
+   "episodes": 9
+  }
+ ],
+ "crew": [
+  {
+   "id": 157125,
+   "name": "Bruce Miller",
+   "photo": "https://image.tmdb.org/t/p/w185/h66XSPXnWfkJVMGJRXHc4RoJXLH.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 66
+  },
+  {
+   "id": 32798,
+   "name": "Elisabeth Moss",
+   "photo": "https://image.tmdb.org/t/p/w185/vZDe22EtLtcHvPr28l4ZM0b7qjG.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 66
+  },
+  {
+   "id": 1244274,
+   "name": "Frank Siracusa",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 66
+  },
+  {
+   "id": 1226728,
+   "name": "Warren Littlefield",
+   "photo": "https://image.tmdb.org/t/p/w185/v798cWhlV2Gnt3tcqWkbI5e5yDE.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 66
+  },
+  {
+   "id": 1246843,
+   "name": "Fran Sears",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 66
+  },
+  {
+   "id": 1048377,
+   "name": "Eric Tuchman",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 66
+  },
+  {
+   "id": 1246840,
+   "name": "Daniel Wilson",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 66
+  },
+  {
+   "id": 1228427,
+   "name": "Sheila Hockin",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 66
+  },
+  {
+   "id": 1233108,
+   "name": "John Weber",
+   "photo": "https://image.tmdb.org/t/p/w185/vcQCrKrVcNh6chIe78usICD47uq.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 66
+  },
+  {
+   "id": 1492510,
+   "name": "Adam Taylor",
+   "photo": "https://image.tmdb.org/t/p/w185/pPSBjOmI2fHIabt5lCyAZLqag2f.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 66
+  },
+  {
+   "id": 1228166,
+   "name": "Yahlin Chang",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 56
+  },
+  {
+   "id": 1582519,
+   "name": "Kira Snyder",
+   "photo": "https://image.tmdb.org/t/p/w185/wQeoheJhWJzoPLnCmBkr48afTN6.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 46
+  },
+  {
+   "id": 1225665,
+   "name": "Kim Todd",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 43
+  },
+  {
+   "id": 2375167,
+   "name": "Lynn Renee Maxcy",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 39
+  },
+  {
+   "id": 1445807,
+   "name": "Jacey Heldrich",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 34
+  },
+  {
+   "id": 1589118,
+   "name": "Steve Stark",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 30
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:12.697Z"
+}

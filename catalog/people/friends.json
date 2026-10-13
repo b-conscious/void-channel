@@ -1,0 +1,358 @@
+{
+ "show": "Friends",
+ "slug": "friends",
+ "tmdbId": 1668,
+ "cast": [
+  {
+   "id": 4491,
+   "name": "Jennifer Aniston",
+   "photo": "https://image.tmdb.org/t/p/w185/PBSCmHDFdCMBhjx0EbXpTw4Z94.jpg",
+   "character": "Rachel Green",
+   "episodes": 228
+  },
+  {
+   "id": 14405,
+   "name": "Courteney Cox",
+   "photo": "https://image.tmdb.org/t/p/w185/cSOORhCRPJiwKghozXVXrOBi3Tp.jpg",
+   "character": "Monica Geller",
+   "episodes": 228
+  },
+  {
+   "id": 14406,
+   "name": "Lisa Kudrow",
+   "photo": "https://image.tmdb.org/t/p/w185/ziatnwJRiBJIcc8jlk6xoClhfOy.jpg",
+   "character": "Phoebe Buffay",
+   "episodes": 228
+  },
+  {
+   "id": 14407,
+   "name": "Matt LeBlanc",
+   "photo": "https://image.tmdb.org/t/p/w185/a7Fl1sLUq1UDJ4pHsnwpBdEiDEZ.jpg",
+   "character": "Joey Tribbiani",
+   "episodes": 228
+  },
+  {
+   "id": 14408,
+   "name": "Matthew Perry",
+   "photo": "https://image.tmdb.org/t/p/w185/ecDzkLWPV1z0x31I1GTjNmLxAHk.jpg",
+   "character": "Chandler Bing",
+   "episodes": 228
+  },
+  {
+   "id": 14409,
+   "name": "David Schwimmer",
+   "photo": "https://image.tmdb.org/t/p/w185/XtKzJ9lM5Xwa7vCmE4xNHy6Owf.jpg",
+   "character": "Ross Geller",
+   "episodes": 228
+  },
+  {
+   "id": 1226334,
+   "name": "James Michael Tyler",
+   "photo": "https://image.tmdb.org/t/p/w185/iv0sg7UaJz85boUfHtej31QQDvP.jpg",
+   "character": "Gunther",
+   "episodes": 145
+  },
+  {
+   "id": 827,
+   "name": "Elliott Gould",
+   "photo": "https://image.tmdb.org/t/p/w185/vqjRBbuqXOvalAx5JZEaWx6kQOw.jpg",
+   "character": "Jack Geller",
+   "episodes": 19
+  },
+  {
+   "id": 145345,
+   "name": "Maggie Wheeler",
+   "photo": "https://image.tmdb.org/t/p/w185/thTeI4FAx02X1h6a2EPWG8me9Ua.jpg",
+   "character": "Janice",
+   "episodes": 18
+  },
+  {
+   "id": 94978,
+   "name": "Christina Pickles",
+   "photo": "https://image.tmdb.org/t/p/w185/rNm1i3zTL6dyHWR5nmJ0v7J5llq.jpg",
+   "character": "Judy Geller",
+   "episodes": 17
+  },
+  {
+   "id": 22226,
+   "name": "Paul Rudd",
+   "photo": "https://image.tmdb.org/t/p/w185/6jtwNOLKy0LdsRAKwZqgYMAfd5n.jpg",
+   "character": "Mike Hannigan",
+   "episodes": 16
+  },
+  {
+   "id": 92255,
+   "name": "Jane Sibbett",
+   "photo": "https://image.tmdb.org/t/p/w185/bPtcUaWhHN7aQgtYUGeOp7M55nE.jpg",
+   "character": "Carol Willick",
+   "episodes": 14
+  },
+  {
+   "id": 15456,
+   "name": "Helen Baxendale",
+   "photo": "https://image.tmdb.org/t/p/w185/lS5HixP4NOe1QIn8EMKpKG2K2af.jpg",
+   "character": "Emily Waltham",
+   "episodes": 13
+  },
+  {
+   "id": 14984,
+   "name": "Jessica Hecht",
+   "photo": "https://image.tmdb.org/t/p/w185/5JVd1ZLnhdZVFInDy8Zut9M1M5C.jpg",
+   "character": "Susan Bunch",
+   "episodes": 12
+  },
+  {
+   "id": 1217289,
+   "name": "June Gable",
+   "photo": "https://image.tmdb.org/t/p/w185/pRSvxBUsCtjSsy4QekRl3hQqREl.jpg",
+   "character": "Estelle Leonard / Nurse",
+   "episodes": 10
+  },
+  {
+   "id": 1226497,
+   "name": "Cali Sheldon",
+   "photo": null,
+   "character": "Emma Geller-Green (uncredited)",
+   "episodes": 10
+  },
+  {
+   "id": 1226500,
+   "name": "Noelle Sheldon",
+   "photo": null,
+   "character": "Emma Geller-Green (uncredited)",
+   "episodes": 10
+  },
+  {
+   "id": 1771,
+   "name": "Giovanni Ribisi",
+   "photo": "https://image.tmdb.org/t/p/w185/8EAiS9D3YtGOrwNM0OrwmDpWK7s.jpg",
+   "character": "Frank Jr. / Condom Boy (uncredited)",
+   "episodes": 9
+  },
+  {
+   "id": 15112,
+   "name": "Tom Selleck",
+   "photo": "https://image.tmdb.org/t/p/w185/s9QR2FMnXSpq8Blx1KbbbaTrWee.jpg",
+   "character": "Richard Burke",
+   "episodes": 8
+  },
+  {
+   "id": 38674,
+   "name": "Aisha Tyler",
+   "photo": "https://image.tmdb.org/t/p/w185/gVvqznx4udJMgO86IbufADinfE9.jpg",
+   "character": "Charlie Wheeler",
+   "episodes": 8
+  },
+  {
+   "id": 25987,
+   "name": "Eddie Cahill",
+   "photo": "https://image.tmdb.org/t/p/w185/duEjKuDs0UAMknHrKzQF2FcWcYC.jpg",
+   "character": "Tag",
+   "episodes": 7
+  },
+  {
+   "id": 15100,
+   "name": "Lauren Tom",
+   "photo": "https://image.tmdb.org/t/p/w185/fTKFspRRQ275AkzvtPERLZnXe0n.jpg",
+   "character": "Julie",
+   "episodes": 7
+  },
+  {
+   "id": 56730,
+   "name": "Cole Sprouse",
+   "photo": "https://image.tmdb.org/t/p/w185/mQAXL0rUGwX316d1FBBQmloZzHu.jpg",
+   "character": "Ben Geller",
+   "episodes": 7
+  },
+  {
+   "id": 66579,
+   "name": "Bonnie Somerville",
+   "photo": "https://image.tmdb.org/t/p/w185/jqEMCpxhAiPptkx0EboBDIOA521.jpg",
+   "character": "Mona",
+   "episodes": 7
+  }
+ ],
+ "crew": [
+  {
+   "id": 163461,
+   "name": "Marta Kauffman",
+   "photo": "https://image.tmdb.org/t/p/w185/AsX4ZOoQP5oQVLiA51zdRiTNKTm.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 228
+  },
+  {
+   "id": 1216352,
+   "name": "David Crane",
+   "photo": "https://image.tmdb.org/t/p/w185/1NYo5ZYCSqoxQ5sqXLMDm3cqvKp.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 228
+  },
+  {
+   "id": 1218971,
+   "name": "Kevin S. Bright",
+   "photo": "https://image.tmdb.org/t/p/w185/qzDpbbso1S9l8FjD2WLzLbMwsyh.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 228
+  },
+  {
+   "id": 1217286,
+   "name": "Scott Silveri",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer",
+    "Teleplay",
+    "Story"
+   ],
+   "episodes": 141
+  },
+  {
+   "id": 1217284,
+   "name": "Shana Goldberg-Meehan",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer",
+    "Teleplay",
+    "Story"
+   ],
+   "episodes": 141
+  },
+  {
+   "id": 1215935,
+   "name": "Andrew Reich",
+   "photo": "https://image.tmdb.org/t/p/w185/z4zNzbr3FZzTPbFavXmBtFaGbeW.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 132
+  },
+  {
+   "id": 1215936,
+   "name": "Ted Cohen",
+   "photo": "https://image.tmdb.org/t/p/w185/ljRA8vLezAYCoyN8gGGtiAyXjpb.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 132
+  },
+  {
+   "id": 163499,
+   "name": "Greg Malins",
+   "photo": "https://image.tmdb.org/t/p/w185/723tcjkNAG00NfmWINUs0aWZMvH.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 117
+  },
+  {
+   "id": 1219223,
+   "name": "Adam Chase",
+   "photo": "https://image.tmdb.org/t/p/w185/a7ddCUFEUUhmoEl2Zi6IEXwQjJY.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 97
+  },
+  {
+   "id": 1224767,
+   "name": "Michael Borkow",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 72
+  },
+  {
+   "id": 1222112,
+   "name": "Michael Curtis",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 71
+  },
+  {
+   "id": 1212112,
+   "name": "Wil Calhoun",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 69
+  },
+  {
+   "id": 150641,
+   "name": "Gary Halvorson",
+   "photo": "https://image.tmdb.org/t/p/w185/9KwJweL5GN0y5rvsvBhBRlVtmb0.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 55
+  },
+  {
+   "id": 155411,
+   "name": "Mike Sikowitz",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 55
+  },
+  {
+   "id": 1226560,
+   "name": "Ira Ungerleider",
+   "photo": "https://image.tmdb.org/t/p/w185/vMFNbSct9A1bQrpajthzhA5caAj.jpg",
+   "jobs": [
+    "Story",
+    "Writer"
+   ],
+   "episodes": 53
+  },
+  {
+   "id": 1236672,
+   "name": "Jeff Astrof",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 46
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:28:11.188Z"
+}

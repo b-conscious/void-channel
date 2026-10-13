@@ -1,0 +1,336 @@
+{
+ "show": "Brothers",
+ "slug": "brothers",
+ "tmdbId": 250203,
+ "cast": [
+  {
+   "id": 10297,
+   "name": "Matthew McConaughey",
+   "photo": "https://image.tmdb.org/t/p/w185/lCySuYjhXix3FzQdS4oceDDrXKI.jpg",
+   "character": "Matthew McConaughey",
+   "episodes": 8
+  },
+  {
+   "id": 57755,
+   "name": "Woody Harrelson",
+   "photo": "https://image.tmdb.org/t/p/w185/igxYDQBbTEdAqaJxaW6ffqswmUU.jpg",
+   "character": "Woody Harrelson",
+   "episodes": 8
+  },
+  {
+   "id": 76511,
+   "name": "Natalie Martinez",
+   "photo": "https://image.tmdb.org/t/p/w185/cFn0OI9c8aypx20hm3XpTqkrMEx.jpg",
+   "character": "Valentina",
+   "episodes": 8
+  },
+  {
+   "id": 1098756,
+   "name": "Brittany Ishibashi",
+   "photo": "https://image.tmdb.org/t/p/w185/qIBMA7pQi4wnukwbTIn0YgzVMPn.jpg",
+   "character": "Joy",
+   "episodes": 8
+  },
+  {
+   "id": 6498589,
+   "name": "Nolan Almeida",
+   "photo": "https://image.tmdb.org/t/p/w185/iOZRVnGed3F3jOHmCsHJGosli1z.jpg",
+   "character": "Wyatt",
+   "episodes": 8
+  },
+  {
+   "id": 2382764,
+   "name": "Ella Grace Helton",
+   "photo": "https://image.tmdb.org/t/p/w185/px2Ixt87atJ82O62XykyV4ZyobE.jpg",
+   "character": "Clara",
+   "episodes": 8
+  },
+  {
+   "id": 6498591,
+   "name": "Noah Carganilla",
+   "photo": null,
+   "character": "River",
+   "episodes": 8
+  },
+  {
+   "id": 2601302,
+   "name": "Highdee Kuan",
+   "photo": "https://image.tmdb.org/t/p/w185/6g9a5LEdPp8ju4qRMIJbRIjjOqS.jpg",
+   "character": "Olive",
+   "episodes": 8
+  },
+  {
+   "id": 1926930,
+   "name": "Oona Yaffe",
+   "photo": "https://image.tmdb.org/t/p/w185/xZBwtJ2fR01TWRHUR5aBiQizZYW.jpg",
+   "character": "Kai",
+   "episodes": 8
+  },
+  {
+   "id": 11318,
+   "name": "Holland Taylor",
+   "photo": "https://image.tmdb.org/t/p/w185/jt9yFB3nLfZQ0c1DcnvvcfA11gB.jpg",
+   "character": "Ma Mac",
+   "episodes": 8
+  },
+  {
+   "id": 2655972,
+   "name": "Lisa Gilroy",
+   "photo": "https://image.tmdb.org/t/p/w185/zEv5PRAKeQo7a3yCGhm2DJwf20B.jpg",
+   "character": "Gwen Hillcrest Barnes-Davies",
+   "episodes": 3
+  },
+  {
+   "id": 54865,
+   "name": "Jeff Kober",
+   "photo": "https://image.tmdb.org/t/p/w185/rSHfqqDdNCBbia04NqxIB2U19wM.jpg",
+   "character": "TJ Travis",
+   "episodes": 2
+  },
+  {
+   "id": 12852,
+   "name": "Barry Corbin",
+   "photo": "https://image.tmdb.org/t/p/w185/avNg0rmudSPg30f8Xt9BwkPDC17.jpg",
+   "character": "Carl Travis",
+   "episodes": 2
+  },
+  {
+   "id": 6498592,
+   "name": "Dylan Ray Sullivan",
+   "photo": null,
+   "character": "Uber Driver",
+   "episodes": 1
+  },
+  {
+   "id": 3708949,
+   "name": "Xavier E.F. Nealy",
+   "photo": null,
+   "character": "College Kid #1",
+   "episodes": 1
+  },
+  {
+   "id": 3517395,
+   "name": "Lucas McCutchen",
+   "photo": "https://image.tmdb.org/t/p/w185/hLLSVrNLooPKAul6DaadywKfbht.jpg",
+   "character": "College Kid #2",
+   "episodes": 1
+  },
+  {
+   "id": 6498594,
+   "name": "Preston Powe",
+   "photo": null,
+   "character": "College Kid #3",
+   "episodes": 1
+  },
+  {
+   "id": 2531067,
+   "name": "Jonny Gallegos",
+   "photo": null,
+   "character": "Jesus",
+   "episodes": 1
+  },
+  {
+   "id": 1094672,
+   "name": "Larry Jack Dotson",
+   "photo": "https://image.tmdb.org/t/p/w185/7gpbyCX8m2PPmwvbdhrLdGssJED.jpg",
+   "character": "Older Man",
+   "episodes": 1
+  },
+  {
+   "id": 1865927,
+   "name": "Carol Hickey",
+   "photo": null,
+   "character": "Older Woman",
+   "episodes": 1
+  },
+  {
+   "id": 2915185,
+   "name": "Jill C. Holmes",
+   "photo": "https://image.tmdb.org/t/p/w185/cIHEmLXY92Y6xNnhSCQdNLm0VpI.jpg",
+   "character": "Principal Trish",
+   "episodes": 1
+  },
+  {
+   "id": 4570764,
+   "name": "Reece Turley",
+   "photo": null,
+   "character": "Trishan",
+   "episodes": 1
+  },
+  {
+   "id": 6498596,
+   "name": "Emma Le",
+   "photo": "https://image.tmdb.org/t/p/w185/78JcmV3xV3ofUaUilTZREDHPBeQ.jpg",
+   "character": "Helen",
+   "episodes": 1
+  },
+  {
+   "id": 1219824,
+   "name": "Matthew Posey",
+   "photo": "https://image.tmdb.org/t/p/w185/reqQqEFdG3jym88AI5PGAtpWvl1.jpg",
+   "character": "Bartender",
+   "episodes": 1
+  }
+ ],
+ "crew": [
+  {
+   "id": 10297,
+   "name": "Matthew McConaughey",
+   "photo": "https://image.tmdb.org/t/p/w185/lCySuYjhXix3FzQdS4oceDDrXKI.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Story"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 57755,
+   "name": "Woody Harrelson",
+   "photo": "https://image.tmdb.org/t/p/w185/igxYDQBbTEdAqaJxaW6ffqswmUU.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Story"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 2942584,
+   "name": "David West Read",
+   "photo": "https://image.tmdb.org/t/p/w185/plZzKfgycLlWtZVMC8SrpC6IcVI.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Story",
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 84417,
+   "name": "Lee Eisenberg",
+   "photo": "https://image.tmdb.org/t/p/w185/qxA2eLl3AmBKfXqeCQy7RDlZSkE.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 6497581,
+   "name": "Nick Sherman",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 6497580,
+   "name": "Mike Jones",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 141675,
+   "name": "Jason Winer",
+   "photo": "https://image.tmdb.org/t/p/w185/fMnQ8tZdlhMvRKdcoSsEcvnk26O.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 29018,
+   "name": "Dana Goldberg",
+   "photo": "https://image.tmdb.org/t/p/w185/AtiT0HTrrrvVVjZgOXpxKxVFyAb.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1222786,
+   "name": "Brett Baer",
+   "photo": "https://image.tmdb.org/t/p/w185/wENPc6rfpsWC4xXDGCq67kTh9nT.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 2957601,
+   "name": "Natalie Sandy",
+   "photo": "https://image.tmdb.org/t/p/w185/sS0WCryj9caZRebGsYZ9rqCx8jT.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 58433,
+   "name": "David Ellison",
+   "photo": "https://image.tmdb.org/t/p/w185/gaT9cIEJPm7nWxpJyZWMy4Ayv6y.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1224201,
+   "name": "Dave Finkel",
+   "photo": "https://image.tmdb.org/t/p/w185/2WHYqcDVmwkFFbzQArih7qfMKBy.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 3407319,
+   "name": "Jeremy Plager",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 4431386,
+   "name": "Matt Thunell",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 3412595,
+   "name": "Bill Bost",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 69226,
+   "name": "Trish Hofmann",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:35:54.666Z"
+}

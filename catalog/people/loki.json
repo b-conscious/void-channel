@@ -1,0 +1,331 @@
+{
+ "show": "Loki",
+ "slug": "loki",
+ "tmdbId": 84958,
+ "cast": [
+  {
+   "id": 91606,
+   "name": "Tom Hiddleston",
+   "photo": "https://image.tmdb.org/t/p/w185/mclHxMm8aPlCPKptP67257F5GPo.jpg",
+   "character": "Loki Laufeyson",
+   "episodes": 12
+  },
+  {
+   "id": 1252533,
+   "name": "Sophia Di Martino",
+   "photo": "https://image.tmdb.org/t/p/w185/qZdFp18btpQJfDoknxr7DgfRpcB.jpg",
+   "character": "Sylvie / The Variant",
+   "episodes": 12
+  },
+  {
+   "id": 1216606,
+   "name": "Gugu Mbatha-Raw",
+   "photo": "https://image.tmdb.org/t/p/w185/sHAnv0kw5JHzWBOP7gAezwqgl8J.jpg",
+   "character": "Judge Ravonna Renslayer",
+   "episodes": 12
+  },
+  {
+   "id": 134774,
+   "name": "Wunmi Mosaku",
+   "photo": "https://image.tmdb.org/t/p/w185/vp7qDA7cYZj0MDYk1k4wysmznnN.jpg",
+   "character": "Hunter B-15",
+   "episodes": 12
+  },
+  {
+   "id": 887,
+   "name": "Owen Wilson",
+   "photo": "https://image.tmdb.org/t/p/w185/5A46lNOwmpX77jAdhyKxU7e2Hub.jpg",
+   "character": "Mobius M. Mobius",
+   "episodes": 12
+  },
+  {
+   "id": 1370567,
+   "name": "Eugene Cordero",
+   "photo": "https://image.tmdb.org/t/p/w185/waruLSR8lXBjhAFL0J6ihuVY62d.jpg",
+   "character": "Casey / Hunter K-5E",
+   "episodes": 9
+  },
+  {
+   "id": 15762,
+   "name": "Tara Strong",
+   "photo": "https://image.tmdb.org/t/p/w185/Cm3X7CCSuYbjW1ZKJ8vxCj4SI7.jpg",
+   "character": "Miss Minutes (voice)",
+   "episodes": 9
+  },
+  {
+   "id": 1194878,
+   "name": "Neil Ellice",
+   "photo": null,
+   "character": "Hunter D-90",
+   "episodes": 8
+  },
+  {
+   "id": 690,
+   "name": "Ke Huy Quan",
+   "photo": "https://image.tmdb.org/t/p/w185/iestHyn7PLuVowj5Jaa1SGPboQ4.jpg",
+   "character": "Ouroboros 'OB'",
+   "episodes": 6
+  },
+  {
+   "id": 1561639,
+   "name": "Lauren Revard",
+   "photo": "https://image.tmdb.org/t/p/w185/9sQ1BF1pBaSat8FsX4Z4TCL7Gvk.jpg",
+   "character": "Time Keepers On-Set Reader / Miss Minutes On-Set Reader",
+   "episodes": 5
+  },
+  {
+   "id": 1674162,
+   "name": "Jonathan Majors",
+   "photo": "https://image.tmdb.org/t/p/w185/nsxnMbkl9Lpc12AmYwKi9SmsJ7e.jpg",
+   "character": "He Who Remains / Victor Timely / He Who Remains / Time Keepers (voice) (uncredited)",
+   "episodes": 5
+  },
+  {
+   "id": 2823696,
+   "name": "Sarafina King",
+   "photo": "https://image.tmdb.org/t/p/w185/hGtqwRTa8AuCPzIsSXlSnpqoK5B.jpg",
+   "character": "Minuteman #9",
+   "episodes": 4
+  },
+  {
+   "id": 1932179,
+   "name": "Rafael Casal",
+   "photo": "https://image.tmdb.org/t/p/w185/9PaSpVV6aU3rtFXG7oOpnEu92gv.jpg",
+   "character": "Hunter X-5 / Brad Wolfe",
+   "episodes": 4
+  },
+  {
+   "id": 148505,
+   "name": "Ilan Muallem",
+   "photo": "https://image.tmdb.org/t/p/w185/9XaGgOl1IrdAOafESWvqKcYqxiP.jpg",
+   "character": "Minuteman #11",
+   "episodes": 4
+  },
+  {
+   "id": 1310179,
+   "name": "Philip Fornah",
+   "photo": "https://image.tmdb.org/t/p/w185/mH6UjRLpoHkwwDzCMkzXfyFAlje.jpg",
+   "character": "Minuteman #1",
+   "episodes": 3
+  },
+  {
+   "id": 1396312,
+   "name": "Dave MacDonald",
+   "photo": "https://image.tmdb.org/t/p/w185/xqLpO30JWCyKkCQfuIBxIVSslpp.jpg",
+   "character": "Minuteman #2",
+   "episodes": 3
+  },
+  {
+   "id": 123169,
+   "name": "Michelle Rose",
+   "photo": "https://image.tmdb.org/t/p/w185/rrbWOv23N8wI93HSVE1Ml3Qu0cb.jpg",
+   "character": "Minuteman #3",
+   "episodes": 3
+  },
+  {
+   "id": 1535218,
+   "name": "Sasha Lane",
+   "photo": "https://image.tmdb.org/t/p/w185/iALlJMFPAH5xwfAzWHrZDNmHOSi.jpg",
+   "character": "Hunter C-20",
+   "episodes": 3
+  },
+  {
+   "id": 2582364,
+   "name": "Alvin Chon",
+   "photo": "https://image.tmdb.org/t/p/w185/no3YHFIk9uYgO6eCTneftmqHCPa.jpg",
+   "character": "Minuteman #10",
+   "episodes": 3
+  },
+  {
+   "id": 71083,
+   "name": "Kate Dickie",
+   "photo": "https://image.tmdb.org/t/p/w185/mlFYUmZycpRa7TGgDTfP0xanE1Q.jpg",
+   "character": "General Dox",
+   "episodes": 3
+  },
+  {
+   "id": 1232690,
+   "name": "Liz Carr",
+   "photo": "https://image.tmdb.org/t/p/w185/6BT2hgkSAPO7ceBT2VDcQT4pVSc.jpg",
+   "character": "Judge Gamble",
+   "episodes": 3
+  },
+  {
+   "id": 3430591,
+   "name": "Natasha Arancini",
+   "photo": "https://image.tmdb.org/t/p/w185/lFEujIACkxPwvcqSwVtXXiyTEpK.jpg",
+   "character": "On-Set Miss Minutes",
+   "episodes": 3
+  },
+  {
+   "id": 2647252,
+   "name": "Jon Levine",
+   "photo": "https://image.tmdb.org/t/p/w185/eeHUwEZ8VESvrX5ru1SNnkuakHA.jpg",
+   "character": "Paperwork Clerk",
+   "episodes": 2
+  },
+  {
+   "id": 1188389,
+   "name": "Aaron Beelner",
+   "photo": "https://image.tmdb.org/t/p/w185/q4C7R7eSqBNuPQ28kkfhXTMmlon.jpg",
+   "character": "Scanner Clerk",
+   "episodes": 2
+  }
+ ],
+ "crew": [
+  {
+   "id": 2094567,
+   "name": "Michael Waldron",
+   "photo": "https://image.tmdb.org/t/p/w185/qkvvUM56eHF2FqQvlsXjN6VLwCS.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 2927638,
+   "name": "Kevin R. Wright",
+   "photo": "https://image.tmdb.org/t/p/w185/qKlpTCliuOmIO3L9hu1b5sFzOGG.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 18
+  },
+  {
+   "id": 91606,
+   "name": "Tom Hiddleston",
+   "photo": "https://image.tmdb.org/t/p/w185/mclHxMm8aPlCPKptP67257F5GPo.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 113674,
+   "name": "Victoria Alonso",
+   "photo": "https://image.tmdb.org/t/p/w185/xF7Qe1tqgk9KtY8kThKHBWhMqxc.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 57027,
+   "name": "Louis D'Esposito",
+   "photo": "https://image.tmdb.org/t/p/w185/ewtzT2ZMIX2DNyGUUkHLn36fjgF.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1117748,
+   "name": "Stephen Broussard",
+   "photo": "https://image.tmdb.org/t/p/w185/ejtbqJKFgppX1iGlBl3L4P1kB9H.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 10850,
+   "name": "Kevin Feige",
+   "photo": "https://image.tmdb.org/t/p/w185/kCBqXZ5PT5udYGEj2wfTSFbLMvT.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 3119335,
+   "name": "Eric Martin",
+   "photo": "https://image.tmdb.org/t/p/w185/qKplNuiTexlMOM6gGvOYuhbuAtD.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1273153,
+   "name": "Natalie Holt",
+   "photo": "https://image.tmdb.org/t/p/w185/7JwlRzk3CdJezWR7HaDL1oorFZl.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1077115,
+   "name": "Kasra Farahani",
+   "photo": "https://image.tmdb.org/t/p/w185/wsVIJreOe2aUH9ppmKz8mXl5s7n.jpg",
+   "jobs": [
+    "Director",
+    "Teleplay"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 3119329,
+   "name": "Elissa Karasik",
+   "photo": "https://image.tmdb.org/t/p/w185/8f0ujbKMM9zKjutEIaYQJ2yWgh7.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 2395058,
+   "name": "Bisha K. Ali",
+   "photo": "https://image.tmdb.org/t/p/w185/yvW1A3ABdtVaNW2DNCtMDSk4mgg.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 4098816,
+   "name": "Katharyn Blair",
+   "photo": "https://image.tmdb.org/t/p/w185/j6fLoS8iSxWz0mmQbSdQiDxso4M.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1425339,
+   "name": "Kate Herron",
+   "photo": "https://image.tmdb.org/t/p/w185/j3zvFy9wMtZvW4krMPRfnNDvEAu.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 583479,
+   "name": "Aaron Moorhead",
+   "photo": "https://image.tmdb.org/t/p/w185/plvZ27ya8yxyyqSCHbwBMjFfJwS.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1074560,
+   "name": "Justin Benson",
+   "photo": "https://image.tmdb.org/t/p/w185/mch4MNcOxVsej3O5ifugkZTFzWI.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 6
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:49.662Z"
+}

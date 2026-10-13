@@ -1,0 +1,329 @@
+{
+ "show": "Mayday",
+ "slug": "mayday",
+ "tmdbId": 90,
+ "cast": [
+  {
+   "id": 32031,
+   "name": "Stephen Bogaert",
+   "photo": "https://image.tmdb.org/t/p/w185/iEnR0LaAnlJBwE9gDlB5r0v4XIt.jpg",
+   "character": "Self - Narrator (voice) / Narrator",
+   "episodes": 240
+  },
+  {
+   "id": 6267457,
+   "name": "Gregory Feith",
+   "photo": "https://image.tmdb.org/t/p/w185/bUM7Y7PuH80PKnevxm7Su6gmk9J.jpg",
+   "character": "Gregory Feith / Self",
+   "episodes": 12
+  },
+  {
+   "id": 6267521,
+   "name": "John Cox",
+   "photo": "https://image.tmdb.org/t/p/w185/3z7Gl68Tw9GqnpzrjbFVaM7lsRM.jpg",
+   "character": "John Cox",
+   "episodes": 7
+  },
+  {
+   "id": 6267580,
+   "name": "Robert Benzon",
+   "photo": "https://image.tmdb.org/t/p/w185/mjzX7XTeUBMTL2RDZqLfGUPXURy.jpg",
+   "character": "Bob Benzon",
+   "episodes": 7
+  },
+  {
+   "id": 6267700,
+   "name": "Tom Haueter",
+   "photo": "https://image.tmdb.org/t/p/w185/uk9hwzFClTj8nbbmI3u80pM3w7t.jpg",
+   "character": "Tom Haueter",
+   "episodes": 7
+  },
+  {
+   "id": 64888,
+   "name": "Von Flores",
+   "photo": "https://image.tmdb.org/t/p/w185/eK03vWc5KJ6UjVQTBizfujHUrFN.jpg",
+   "character": "Lead Investigator / Captain Shah / Ed Reyes",
+   "episodes": 6
+  },
+  {
+   "id": 1860588,
+   "name": "Leon Aureus",
+   "photo": "https://image.tmdb.org/t/p/w185/kNxQFS4ZBloyQ7tjGiT3gv8vwJB.jpg",
+   "character": "Lead Investigator / First Officer Rachman / Nepalese Investigator",
+   "episodes": 5
+  },
+  {
+   "id": 1844357,
+   "name": "Jon De Leon",
+   "photo": "https://image.tmdb.org/t/p/w185/b57ouFTD1MRvZ3rw1T2c9DUIwKg.jpg",
+   "character": "DFW Controller / Engineer / First Officer Harvino",
+   "episodes": 5
+  },
+  {
+   "id": 1797819,
+   "name": "Daniel Junghuan Park",
+   "photo": "https://image.tmdb.org/t/p/w185/c42xkDICidSvLnR8ro3KAW84PyI.jpg",
+   "character": "Yukihiko Usui / Maintenance/Ground Engineer / Air Traffic Controller",
+   "episodes": 5
+  },
+  {
+   "id": 1039383,
+   "name": "Jason Weinberg",
+   "photo": "https://image.tmdb.org/t/p/w185/xzpYHQ5M16RZxk7Cgk2pito0eAh.jpg",
+   "character": "Clint Crookshanks",
+   "episodes": 5
+  },
+  {
+   "id": 1849371,
+   "name": "Daniel Falk",
+   "photo": "https://image.tmdb.org/t/p/w185/tn8xZnAOHl2fR9JIxVO7Pbgz163.jpg",
+   "character": "Mark Moscicki / Air Traffic Controller / First Officer Lee Bruecher",
+   "episodes": 4
+  },
+  {
+   "id": 2180137,
+   "name": "Redd Ochoa",
+   "photo": "https://image.tmdb.org/t/p/w185/x6pSs3p35AX8aAOYWrapzCrenGl.jpg",
+   "character": "Captain Preeda Suttimai / Air Traffic Controller / NTSC Investigator",
+   "episodes": 4
+  },
+  {
+   "id": 180871,
+   "name": "Joseph Di Mambro",
+   "photo": "https://image.tmdb.org/t/p/w185/hrd0vZW8AINAOenYgjJvaDeAm37.jpg",
+   "character": "Captain Rafael Liberta / Captain Jose Moreno / GRIAA Investigator Sabogal",
+   "episodes": 4
+  },
+  {
+   "id": 1470370,
+   "name": "Allen Keng",
+   "photo": "https://image.tmdb.org/t/p/w185/nmeBTR6vDDXdp72z5gEu8VucvS.jpg",
+   "character": "Air Traffic Controller / Investigator / Maintenance Engineer",
+   "episodes": 4
+  },
+  {
+   "id": 2353583,
+   "name": "Jason Faulkner",
+   "photo": "https://image.tmdb.org/t/p/w185/fBHCquymlvRkUGciUs89mLW8Ohl.jpg",
+   "character": "NTSB Investigator Sedor / New York Controller #3 / Joseph Sedor",
+   "episodes": 4
+  },
+  {
+   "id": 188600,
+   "name": "Marty Moreau",
+   "photo": "https://image.tmdb.org/t/p/w185/luh6EbMbu7ihByoIeIh2wTgjFm5.jpg",
+   "character": "NTSB Investigator Pearce / Assistant Director, FBI, James Kallstrom / Flight Engineer Wahne",
+   "episodes": 4
+  },
+  {
+   "id": 1795959,
+   "name": "Dale Yim",
+   "photo": "https://image.tmdb.org/t/p/w185/nbv3mCVH9gqnNJ09WTOuSIM8CkO.jpg",
+   "character": "Eddie Ho / First Officer Yoon / Air Traffic Controller",
+   "episodes": 4
+  },
+  {
+   "id": 201691,
+   "name": "Genadijs Dolganovs",
+   "photo": "https://image.tmdb.org/t/p/w185/igwGcyoFEVs4j1qYSmSxF24e7f1.jpg",
+   "character": "Yaroslav Kudrinsky / Lead Investigator / Captain Yablontsev",
+   "episodes": 4
+  },
+  {
+   "id": 1461435,
+   "name": "David Rosser",
+   "photo": "https://image.tmdb.org/t/p/w185/3VA6DMRQlNTR8kNALfqQId1V2ou.jpg",
+   "character": "JIAAC Investigator Horacio Larrosa / Captain Moody / Captain MacQuarrie",
+   "episodes": 4
+  },
+  {
+   "id": 166489,
+   "name": "Bill Lake",
+   "photo": "https://image.tmdb.org/t/p/w185/u7r8ZHhgZ3vhLIKWjLy2noBezOZ.jpg",
+   "character": "FBI Special Agent / Robert Benzon / Captain Maus",
+   "episodes": 4
+  },
+  {
+   "id": 1903971,
+   "name": "Glen McDonald",
+   "photo": null,
+   "character": "TSB Investigator Chaulk / ATC Supervisor Patrick / Lt. Colonel Fernando Camargo",
+   "episodes": 3
+  },
+  {
+   "id": 2542584,
+   "name": "Ken Pak",
+   "photo": "https://image.tmdb.org/t/p/w185/eStr7QqLyfZqcOkv2kjxW6WW9G3.jpg",
+   "character": "Captain Yu / ASC Investigator / Air Traffic Controller",
+   "episodes": 3
+  },
+  {
+   "id": 171726,
+   "name": "Darrin Baker",
+   "photo": "https://image.tmdb.org/t/p/w185/jZxcxDEyIeg9x3zvycnnOatCgdf.jpg",
+   "character": "NTSB Investigator Evan Byrne / NTSB Investigator John DeLisi",
+   "episodes": 3
+  },
+  {
+   "id": 1958393,
+   "name": "Dan MacKay",
+   "photo": "https://image.tmdb.org/t/p/w185/dme7ZxmhtFYVyjuebCQmuFadv9f.jpg",
+   "character": "Jim Caruso / NTSB Investigator / Dennis Kemper",
+   "episodes": 3
+  }
+ ],
+ "crew": [
+  {
+   "id": 1706457,
+   "name": "Bernard Vaillot",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Director",
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1714518,
+   "name": "André Barro",
+   "photo": "https://image.tmdb.org/t/p/w185/xD37vRbcp81TP24kpDFqqP0FeJW.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1212935,
+   "name": "Alex Bystram",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 206
+  },
+  {
+   "id": 1212938,
+   "name": "Glen Salzman",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 197
+  },
+  {
+   "id": 1212941,
+   "name": "Katherine Buck",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 197
+  },
+  {
+   "id": 1212940,
+   "name": "John Vandervelde",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 197
+  },
+  {
+   "id": 1212936,
+   "name": "Larry Bambrick",
+   "photo": "https://image.tmdb.org/t/p/w185/vaapBjx8u7iJZpkJFZnSYgpqbl7.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 196
+  },
+  {
+   "id": 1212937,
+   "name": "Simon Lloyd",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 196
+  },
+  {
+   "id": 1212939,
+   "name": "Greg Lanning",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 98
+  },
+  {
+   "id": 1212942,
+   "name": "Samantha Linton",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 98
+  },
+  {
+   "id": 574848,
+   "name": "Tim Wolochatiuk",
+   "photo": "https://image.tmdb.org/t/p/w185/6a7pnbdDoRXAQGcu2rE0tSATl8C.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 56
+  },
+  {
+   "id": 3373230,
+   "name": "Mark Mainguy",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 28
+  },
+  {
+   "id": 1638932,
+   "name": "George D'Amato",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 2569276,
+   "name": "Christopher Blow",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 560853,
+   "name": "Carl Knutson",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 14
+  },
+  {
+   "id": 1896048,
+   "name": "Greg Gransden",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 14
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:37:24.898Z"
+}

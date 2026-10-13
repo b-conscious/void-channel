@@ -1,0 +1,253 @@
+{
+ "show": "WAR",
+ "slug": "war",
+ "tmdbId": 298852,
+ "cast": [
+  {
+   "id": 17287,
+   "name": "Dominic West",
+   "photo": "https://image.tmdb.org/t/p/w185/6y2M3EWslBPwPlugEFg8XDHfSJ0.jpg",
+   "character": "Morgan Henderson",
+   "episodes": 8
+  },
+  {
+   "id": 23459,
+   "name": "Sienna Miller",
+   "photo": "https://image.tmdb.org/t/p/w185/lq2mEeDbL98bSz0H7xcHA3F2Rrb.jpg",
+   "character": "Carla Duval",
+   "episodes": 8
+  },
+  {
+   "id": 1320609,
+   "name": "Phoebe Fox",
+   "photo": "https://image.tmdb.org/t/p/w185/1xY991AhQRGMlA7tq7L5iHLIBod.jpg",
+   "character": "Serena Byrne",
+   "episodes": 8
+  },
+  {
+   "id": 1256215,
+   "name": "James McArdle",
+   "photo": "https://image.tmdb.org/t/p/w185/4zvZYJqiF4ZZ0AYmTVL3ucyNB11.jpg",
+   "character": "Nicholas Taylor",
+   "episodes": 8
+  },
+  {
+   "id": 36666,
+   "name": "Pip Torrens",
+   "photo": "https://image.tmdb.org/t/p/w185/1n7pzFfT6jDHe8kc6I0AEfRryhz.jpg",
+   "character": "St John Smallwood",
+   "episodes": 8
+  },
+  {
+   "id": 2164506,
+   "name": "Archie Renaux",
+   "photo": "https://image.tmdb.org/t/p/w185/uTd18t2VJovN2jSJyhuG8Yy3PV6.jpg",
+   "character": "Johnny Warren",
+   "episodes": 8
+  },
+  {
+   "id": 2290611,
+   "name": "Emma Laird",
+   "photo": "https://image.tmdb.org/t/p/w185/aBhm7z7fn0d1O7ed3vP0nZzCSSj.jpg",
+   "character": "Molly Giordano",
+   "episodes": 8
+  },
+  {
+   "id": 289370,
+   "name": "Angel Coulby",
+   "photo": "https://image.tmdb.org/t/p/w185/n3msev0hkMMptGUW4WOfLEktFDA.jpg",
+   "character": "Gillian Pope",
+   "episodes": 8
+  },
+  {
+   "id": 58791,
+   "name": "Patrick Fabian",
+   "photo": "https://image.tmdb.org/t/p/w185/bbsYGlnvGUTTExcabKL1OIhcKyZ.jpg",
+   "character": "Eric McDaniel",
+   "episodes": 8
+  },
+  {
+   "id": 221857,
+   "name": "Miles Jupp",
+   "photo": "https://image.tmdb.org/t/p/w185/xVNI6kPi16lpIce0WQfS3DnIspT.jpg",
+   "character": "David Schill",
+   "episodes": 8
+  },
+  {
+   "id": 1537066,
+   "name": "Rose Williams",
+   "photo": "https://image.tmdb.org/t/p/w185/vIuF1Zp6bR1QzNjg6Jk68Vakc7b.jpg",
+   "character": "Flora Monroe",
+   "episodes": 8
+  },
+  {
+   "id": 1247491,
+   "name": "Akiya Henry",
+   "photo": "https://image.tmdb.org/t/p/w185/mB4L8sM5cplmaXTy6bkZkTmubpa.jpg",
+   "character": "Nora Okafor",
+   "episodes": 8
+  },
+  {
+   "id": 1216400,
+   "name": "Shaheen Jafargholi",
+   "photo": "https://image.tmdb.org/t/p/w185/tI2TSQ6Y3ppmKUyP2RuJwPPklwJ.jpg",
+   "character": "Saeed Masood",
+   "episodes": 8
+  },
+  {
+   "id": 1509615,
+   "name": "Nick Mohammed",
+   "photo": "https://image.tmdb.org/t/p/w185/2cFSHotCLLauzqq8iDKWK6meRAY.jpg",
+   "character": "Michael Stefanou",
+   "episodes": 8
+  },
+  {
+   "id": 2038688,
+   "name": "Honor Swinton Byrne",
+   "photo": "https://image.tmdb.org/t/p/w185/90w9RClgkcvu3pOavfj0ELuTFYW.jpg",
+   "character": "Bella Croft",
+   "episodes": 8
+  },
+  {
+   "id": 9139,
+   "name": "Celia Imrie",
+   "photo": "https://image.tmdb.org/t/p/w185/eEtVfESOVnkkdPLYkyQpalEwAwj.jpg",
+   "character": "Jo 'Budgie' Budge",
+   "episodes": 8
+  },
+  {
+   "id": 7063,
+   "name": "Nina Sosanya",
+   "photo": "https://image.tmdb.org/t/p/w185/nKqRWTF8hCsyjiSRCNMyShbmvrg.jpg",
+   "character": "'Her Majesty' Beatrice 'Queen Bea' Ubosi / Beatrice Ubosi",
+   "episodes": 8
+  },
+  {
+   "id": 1411985,
+   "name": "Femi Elufowoju Jr.",
+   "photo": "https://image.tmdb.org/t/p/w185/8CmhUB0SMPLpeEOg3Qgs9NQbfJE.jpg",
+   "character": "Simon Campbell",
+   "episodes": 1
+  },
+  {
+   "id": 1869934,
+   "name": "Clifford Samuel",
+   "photo": null,
+   "character": "Vonnte Adams",
+   "episodes": 1
+  },
+  {
+   "id": 5051549,
+   "name": "Adrianna Pawlowska",
+   "photo": null,
+   "character": "Magda",
+   "episodes": 1
+  },
+  {
+   "id": 2985148,
+   "name": "Aaron Tsindos",
+   "photo": null,
+   "character": "Jeremy Sampson",
+   "episodes": 1
+  },
+  {
+   "id": 1612721,
+   "name": "Christy Meyer",
+   "photo": "https://image.tmdb.org/t/p/w185/abJUb0FtGxhNi6VZuBZosirfDbx.jpg",
+   "character": "Film Journalist",
+   "episodes": 1
+  },
+  {
+   "id": 3476910,
+   "name": "Antonia Salib",
+   "photo": "https://image.tmdb.org/t/p/w185/84cvzx3jv1Cbf0HOug0QeRk8rWV.jpg",
+   "character": "Lucy Costigan",
+   "episodes": 1
+  },
+  {
+   "id": 3520900,
+   "name": "Jake Simmance",
+   "photo": "https://image.tmdb.org/t/p/w185/7LOahL8irYepnFzHh5T8MbJZseH.jpg",
+   "character": "Angus Cole",
+   "episodes": 1
+  }
+ ],
+ "crew": [
+  {
+   "id": 1287248,
+   "name": "George Kay",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1255294,
+   "name": "Ben Taylor",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1684523,
+   "name": "Willow Grylls",
+   "photo": "https://image.tmdb.org/t/p/w185/oUFlSGeG9NKDs68JzdffSCoDoqe.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 4719670,
+   "name": "Megan Spanjian",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 2298584,
+   "name": "Susan Breen",
+   "photo": "https://image.tmdb.org/t/p/w185/2qJfwiFxv75osieKNOaJZL7mJ1y.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 2392540,
+   "name": "Andrea Dewsbery",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 4309481,
+   "name": "Matt Sandford",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1812913,
+   "name": "Oli Julian",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 8
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:35:54.008Z"
+}

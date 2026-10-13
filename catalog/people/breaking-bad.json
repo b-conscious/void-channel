@@ -1,0 +1,331 @@
+{
+ "show": "Breaking Bad",
+ "slug": "breaking-bad",
+ "tmdbId": 1396,
+ "cast": [
+  {
+   "id": 17419,
+   "name": "Bryan Cranston",
+   "photo": "https://image.tmdb.org/t/p/w185/7Jahy5LZX2Fo8fGJltMreAI49hC.jpg",
+   "character": "Walter White",
+   "episodes": 62
+  },
+  {
+   "id": 84497,
+   "name": "Aaron Paul",
+   "photo": "https://image.tmdb.org/t/p/w185/8Ac9uuoYwZoYVAIJfRLzzLsGGJn.jpg",
+   "character": "Jesse Pinkman",
+   "episodes": 62
+  },
+  {
+   "id": 134531,
+   "name": "Anna Gunn",
+   "photo": "https://image.tmdb.org/t/p/w185/adppyeu1a4REN3khtgmXusrapFi.jpg",
+   "character": "Skyler White",
+   "episodes": 62
+  },
+  {
+   "id": 209674,
+   "name": "RJ Mitte",
+   "photo": "https://image.tmdb.org/t/p/w185/sNPA92ZrssYhlaB1UA2pWcLD9db.jpg",
+   "character": "Walter White Jr.",
+   "episodes": 62
+  },
+  {
+   "id": 14329,
+   "name": "Dean Norris",
+   "photo": "https://image.tmdb.org/t/p/w185/mKRrEbsxAX3ro700HsViFArRM7l.jpg",
+   "character": "Hank Schrader",
+   "episodes": 62
+  },
+  {
+   "id": 1217934,
+   "name": "Betsy Brandt",
+   "photo": "https://image.tmdb.org/t/p/w185/xAnuzyjdMbQq9L1c4JNwXL52Wm4.jpg",
+   "character": "Marie Schrader",
+   "episodes": 62
+  },
+  {
+   "id": 59410,
+   "name": "Bob Odenkirk",
+   "photo": "https://image.tmdb.org/t/p/w185/rF0Lb6SBhGSTvjRffmlKRSeI3jE.jpg",
+   "character": "Saul Goodman",
+   "episodes": 43
+  },
+  {
+   "id": 783,
+   "name": "Jonathan Banks",
+   "photo": "https://image.tmdb.org/t/p/w185/bswk26L13PvY4iMTwUTAsepXCLv.jpg",
+   "character": "Mike Ehrmantraut",
+   "episodes": 36
+  },
+  {
+   "id": 61535,
+   "name": "Steven Michael Quezada",
+   "photo": "https://image.tmdb.org/t/p/w185/pVYrDkwI6GWvCNL2kJhpDJfBFyd.jpg",
+   "character": "Steven Gomez",
+   "episodes": 33
+  },
+  {
+   "id": 4808,
+   "name": "Giancarlo Esposito",
+   "photo": "https://image.tmdb.org/t/p/w185/MJOo4QZgMAb3y8QzOUDVFQusQZ.jpg",
+   "character": "Gustavo Fring",
+   "episodes": 28
+  },
+  {
+   "id": 82945,
+   "name": "Charles Baker",
+   "photo": "https://image.tmdb.org/t/p/w185/l2plWtvYRcLX4CXf8azXIyANq.jpg",
+   "character": "Skinny Pete",
+   "episodes": 15
+  },
+  {
+   "id": 20379,
+   "name": "Christopher Cousins",
+   "photo": "https://image.tmdb.org/t/p/w185/9fmoeZLGbJfiYU6mIbrUkjF9wsR.jpg",
+   "character": "Ted Beneke",
+   "episodes": 13
+  },
+  {
+   "id": 191202,
+   "name": "Matt Jones",
+   "photo": "https://image.tmdb.org/t/p/w185/x13vFDaJHY1CxNvSPWujYe12bMc.jpg",
+   "character": "Badger",
+   "episodes": 12
+  },
+  {
+   "id": 9291,
+   "name": "Michael Shamus Wiles",
+   "photo": "https://image.tmdb.org/t/p/w185/qfCBvbCac2LO8ayIY2pre0eIMkv.jpg",
+   "character": "ASAC George Merkert",
+   "episodes": 11
+  },
+  {
+   "id": 564348,
+   "name": "Lavell Crawford",
+   "photo": "https://image.tmdb.org/t/p/w185/mvDs3bWKicnC98nGJNqrm4NaALd.jpg",
+   "character": "Huell",
+   "episodes": 11
+  },
+  {
+   "id": 88124,
+   "name": "Jesse Plemons",
+   "photo": "https://image.tmdb.org/t/p/w185/og4I51GsuwohdPgoELOHVMMqMre.jpg",
+   "character": "Todd",
+   "episodes": 11
+  },
+  {
+   "id": 159334,
+   "name": "Ray Campbell",
+   "photo": "https://image.tmdb.org/t/p/w185/nbapP8LvO1KZrmlpNWthEP40H75.jpg",
+   "character": "Tyrus Kitt",
+   "episodes": 10
+  },
+  {
+   "id": 147085,
+   "name": "Tina Parker",
+   "photo": "https://image.tmdb.org/t/p/w185/qa4BFhrCGQKwqdTgLJ8S2rr95hD.jpg",
+   "character": "Francesca (voice) / Francesca",
+   "episodes": 9
+  },
+  {
+   "id": 115688,
+   "name": "Carmen Serano",
+   "photo": "https://image.tmdb.org/t/p/w185/nzJEe2UqvvMIBJZP1aeFEj4EunN.jpg",
+   "character": "Carmen Molina",
+   "episodes": 9
+  },
+  {
+   "id": 211474,
+   "name": "Emily Rios",
+   "photo": "https://image.tmdb.org/t/p/w185/h8d9eg0wpyXcvJlunpZklh2asVY.jpg",
+   "character": "Andrea Cantillo",
+   "episodes": 9
+  },
+  {
+   "id": 78080,
+   "name": "Krysten Ritter",
+   "photo": "https://image.tmdb.org/t/p/w185/sOlFqP13d3GFp7ccCHgcfTgWIWu.jpg",
+   "character": "Jane Margolis",
+   "episodes": 9
+  },
+  {
+   "id": 42279,
+   "name": "Laura Fraser",
+   "photo": "https://image.tmdb.org/t/p/w185/4aD3xDLA22CIf6jdK0IAs75h8pp.jpg",
+   "character": "Lydia Rodarte-Quayle",
+   "episodes": 9
+  },
+  {
+   "id": 582668,
+   "name": "Jeremiah Bitsui",
+   "photo": "https://image.tmdb.org/t/p/w185/jB4u8jekprqQeB0xhdB4YSgO8FG.jpg",
+   "character": "Victor / Gus' Messenger",
+   "episodes": 8
+  },
+  {
+   "id": 1173,
+   "name": "Mark Margolis",
+   "photo": "https://image.tmdb.org/t/p/w185/rT5TYJIPLBkTqsrUs00AixGeaMM.jpg",
+   "character": "Tío Salamanca",
+   "episodes": 8
+  }
+ ],
+ "crew": [
+  {
+   "id": 66633,
+   "name": "Vince Gilligan",
+   "photo": "https://image.tmdb.org/t/p/w185/wJIxATESjzsjSgvRhVavOmdamXc.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 62
+  },
+  {
+   "id": 5162,
+   "name": "Mark Johnson",
+   "photo": "https://image.tmdb.org/t/p/w185/gLuXkOQjqB81aHMGJ2OtYzEpHQu.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 62
+  },
+  {
+   "id": 1280070,
+   "name": "Dave Porter",
+   "photo": "https://image.tmdb.org/t/p/w185/flRW9QknVtU8HG7lLjMvflbhl2a.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 62
+  },
+  {
+   "id": 29779,
+   "name": "Michelle MacLaren",
+   "photo": "https://image.tmdb.org/t/p/w185/3LcH5eNiysMWaepARllVrS4Dzn7.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 42
+  },
+  {
+   "id": 24951,
+   "name": "Peter Gould",
+   "photo": "https://image.tmdb.org/t/p/w185/a2dJSpUiXQ2NAxqSzztr6WsnhOJ.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 1223193,
+   "name": "George Mastras",
+   "photo": "https://image.tmdb.org/t/p/w185/2K0NELbA0Ow45ECudbO2eFc1Fe4.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 1223198,
+   "name": "Moira Walley-Beckett",
+   "photo": "https://image.tmdb.org/t/p/w185/1sRNcxMZVsVcY6NFNQzASJuR8By.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 1223203,
+   "name": "Gennifer Hutchison",
+   "photo": "https://image.tmdb.org/t/p/w185/b9aW3OIGhVOv7m8QdIzX87Bs4hl.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 21
+  },
+  {
+   "id": 212407,
+   "name": "J. Roberts",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 1223194,
+   "name": "Sam Catlin",
+   "photo": "https://image.tmdb.org/t/p/w185/xc9Ax2kpvQLayUaFL1d1NTUQ7df.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 111338,
+   "name": "Adam Bernstein",
+   "photo": "https://image.tmdb.org/t/p/w185/mnob89jXPcPfW85PPw7tTPCKSig.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 103009,
+   "name": "Thomas Schnauz",
+   "photo": "https://image.tmdb.org/t/p/w185/uMz5wsgv6QQAgFI809SgCCbwYn9.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 52034,
+   "name": "Michael Slovis",
+   "photo": "https://image.tmdb.org/t/p/w185/6L2U9eY6YisJlxlmQEwims8Gkf3.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1212287,
+   "name": "Colin Bucksey",
+   "photo": "https://image.tmdb.org/t/p/w185/apHHMfnkCVna1iYR3K5PA0TQ14D.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 29924,
+   "name": "John Shiban",
+   "photo": "https://image.tmdb.org/t/p/w185/rdmBnBQnxAab2FE2CP6A6hGnUXT.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 67367,
+   "name": "Rian Johnson",
+   "photo": "https://image.tmdb.org/t/p/w185/ggwlJvCn0laNGjcvwGchuwC00hQ.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:31:28.455Z"
+}

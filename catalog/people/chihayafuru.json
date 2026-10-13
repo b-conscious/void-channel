@@ -1,0 +1,322 @@
+{
+ "show": "Chihayafuru",
+ "slug": "chihayafuru",
+ "tmdbId": 45247,
+ "cast": [
+  {
+   "id": 1254672,
+   "name": "Asami Seto",
+   "photo": "https://image.tmdb.org/t/p/w185/iKKCPgKrNd4pJ0iBOC1SBZy2Y4Y.jpg",
+   "character": "Chihaya Ayase (voice)",
+   "episodes": 74
+  },
+  {
+   "id": 93803,
+   "name": "Mamoru Miyano",
+   "photo": "https://image.tmdb.org/t/p/w185/nuok8ueG7k9hPZ09Tpr8e7Qn0ah.jpg",
+   "character": "Taichi Mashima (voice)",
+   "episodes": 74
+  },
+  {
+   "id": 1254671,
+   "name": "Ai Kayano",
+   "photo": "https://image.tmdb.org/t/p/w185/l8ywp387rfdAS7mOExe3cEZnsk0.jpg",
+   "character": "Kanade Oe (voice) / Female Shiranami Karuta Society Member (voice)",
+   "episodes": 66
+  },
+  {
+   "id": 1251423,
+   "name": "Toru Nara",
+   "photo": "https://image.tmdb.org/t/p/w185/rrfvhZpmGsgGxmBSo7SJ6rUfuXP.jpg",
+   "character": "Yusei 'Porky' Nishida (voice)",
+   "episodes": 62
+  },
+  {
+   "id": 1251017,
+   "name": "Tsubasa Yonaga",
+   "photo": "https://image.tmdb.org/t/p/w185/7U1aZt695KSSkzs64AkReyY3Zup.jpg",
+   "character": "Tsutomu 'Desktomu' Komano (voice)",
+   "episodes": 59
+  },
+  {
+   "id": 1253008,
+   "name": "Yoshimasa Hosoya",
+   "photo": "https://image.tmdb.org/t/p/w185/lUR5oN1LrqGgp25IOcI1qOH1Ud5.jpg",
+   "character": "Arata Wataya (voice) / Sasagu Mori (voice) / Arata Wataya / Sasagu Mori (voice)",
+   "episodes": 51
+  },
+  {
+   "id": 1164931,
+   "name": "Megumi Han",
+   "photo": "https://image.tmdb.org/t/p/w185/cwnwrPg1YvB19TbfouC4ShGPmbQ.jpg",
+   "character": "Female Shiranami Karuta Society Member (voice) / Sumire Hanano (voice) / Elementary School Girl (voice)",
+   "episodes": 46
+  },
+  {
+   "id": 1324927,
+   "name": "Chika Anzai",
+   "photo": "https://image.tmdb.org/t/p/w185/lk3Az9O67qrXR69rctwDDHWqi9d.jpg",
+   "character": "Female Nagumo Karuta Society Member (voice) / Student (voice) / Yucawa High Girl (voice)",
+   "episodes": 45
+  },
+  {
+   "id": 2019945,
+   "name": "Yuya Murakami",
+   "photo": "https://image.tmdb.org/t/p/w185/a32VSI2jv6auNgEBatM0a1nbbls.jpg",
+   "character": "Yamakawa (voice) / Tournament Staff (voice) / Student (voice)",
+   "episodes": 43
+  },
+  {
+   "id": 2385848,
+   "name": "Kensuke Sato",
+   "photo": "https://image.tmdb.org/t/p/w185/qxpx78Scmxp3BOZhLLVDmYd5L67.jpg",
+   "character": "Yutaka Kibayashi (voice) / Man (voice) / Student (voice)",
+   "episodes": 40
+  },
+  {
+   "id": 19588,
+   "name": "Miyu Irino",
+   "photo": "https://image.tmdb.org/t/p/w185/8qEEhHUObNvGQr4e6eqLu5z4qTz.jpg",
+   "character": "Akihiro Tsukuba (voice)",
+   "episodes": 37
+  },
+  {
+   "id": 1241467,
+   "name": "Takashi Oohara",
+   "photo": "https://image.tmdb.org/t/p/w185/fO73WizpZWmg9QO3RpQD6CXs7F0.jpg",
+   "character": "Akihito Sudo (voice)",
+   "episodes": 35
+  },
+  {
+   "id": 3177005,
+   "name": "Mihoko Nakamichi",
+   "photo": "https://image.tmdb.org/t/p/w185/ozaEdNfGgUOJoRnI0eGpQVtdM2f.jpg",
+   "character": "Shinobu Wakamiya (voice)",
+   "episodes": 30
+  },
+  {
+   "id": 144100,
+   "name": "Toshiko Fujita",
+   "photo": "https://image.tmdb.org/t/p/w185/2u93ywtn7Xax1dEALrjOGGHg5hL.jpg",
+   "character": "Taeko Miyauchi (voice)",
+   "episodes": 30
+  },
+  {
+   "id": 65427,
+   "name": "Yuji Ueda",
+   "photo": "https://image.tmdb.org/t/p/w185/nwJBK4WwsUCcBcX425GD2BroJDr.jpg",
+   "character": "Shinichi Murao (voice) / Matoba-sensei (voice)",
+   "episodes": 30
+  },
+  {
+   "id": 84507,
+   "name": "Kazuya Nakai",
+   "photo": "https://image.tmdb.org/t/p/w185/cOHSa0FBrG3u9P6g8A56sInkvod.jpg",
+   "character": "Hiro Kinashi (voice)",
+   "episodes": 28
+  },
+  {
+   "id": 1221877,
+   "name": "Ayahi Takagaki",
+   "photo": "https://image.tmdb.org/t/p/w185/lvROZLr3kQHuD5hJsaEkclns9tc.jpg",
+   "character": "Rion Yamashiro (voice) / Taichi Mashima as an Elementary School Boy (voice)",
+   "episodes": 27
+  },
+  {
+   "id": 40325,
+   "name": "Megumi Hayashibara",
+   "photo": "https://image.tmdb.org/t/p/w185/3Alm4pmBIxpeeh0Sdippxdbkpne.jpg",
+   "character": "Midori Sakurazawa (voice)",
+   "episodes": 26
+  },
+  {
+   "id": 222342,
+   "name": "Kenji Takahashi",
+   "photo": "https://image.tmdb.org/t/p/w185/i61NF3EV5PvEobY8KpyWezR8BC9.jpg",
+   "character": "Tournament Staff (voice) / Hiroshi Tsuboguchi (voice) / Announcer (voice)",
+   "episodes": 25
+  },
+  {
+   "id": 68916,
+   "name": "Unsho Ishizuka",
+   "photo": "https://image.tmdb.org/t/p/w185/nmj1vTrJc0zvuUYqxSyWXmIGBlP.jpg",
+   "character": "Hideo Harada (voice)",
+   "episodes": 22
+  },
+  {
+   "id": 4011426,
+   "name": "Shuji Inaba",
+   "photo": "https://image.tmdb.org/t/p/w185/hidCCKsBHLkR414zw5nK5HVTJBn.jpg",
+   "character": "Portable Media Player Reader (voice) / Reader (voice) / First Round Reader (voice)",
+   "episodes": 20
+  },
+  {
+   "id": 2987160,
+   "name": "Yoko Nishino",
+   "photo": "https://image.tmdb.org/t/p/w185/94JuSKssSmgLp2EboMdG88bRHcH.jpg",
+   "character": "Female Nagumo Karuta Society Member (voice) / Tournament Staff (voice) / Kyudo Club Member (voice)",
+   "episodes": 20
+  },
+  {
+   "id": 2870068,
+   "name": "Wakana Minami",
+   "photo": "https://image.tmdb.org/t/p/w185/dvZnEqiV1c2s9TOcT9V5PFtGvQA.jpg",
+   "character": "Aki Inokuma (voice) / Cram School Girl (voice) / Female Student (voice)",
+   "episodes": 19
+  },
+  {
+   "id": 225603,
+   "name": "Kenta Miyake",
+   "photo": "https://image.tmdb.org/t/p/w185/7YL8vM2KYzPMeQqTpHWmNj6s1AP.jpg",
+   "character": "Hideo Harada (voice)",
+   "episodes": 18
+  }
+ ],
+ "crew": [
+  {
+   "id": 137703,
+   "name": "Morio Asaka",
+   "photo": "https://image.tmdb.org/t/p/w185/rJ0bls6YNx4ZPW8MtX8gUtkiXUv.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 76
+  },
+  {
+   "id": 1580888,
+   "name": "Toshio Nakatani",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 74
+  },
+  {
+   "id": 1321399,
+   "name": "Kosuke Yamashita",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 74
+  },
+  {
+   "id": 1254074,
+   "name": "Yuko Kakihara",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 73
+  },
+  {
+   "id": 78343,
+   "name": "Seiji Okuda",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 50
+  },
+  {
+   "id": 2022133,
+   "name": "Ayako Kato",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 37
+  },
+  {
+   "id": 207720,
+   "name": "Naoya Takayama",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 28
+  },
+  {
+   "id": 1361289,
+   "name": "Sumino Kawashima",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1494116,
+   "name": "Hideki Hosokawa",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1324085,
+   "name": "Kotono Watanabe",
+   "photo": "https://image.tmdb.org/t/p/w185/8DXeuvMfEjit2uP9UmmftEhFwPo.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1831499,
+   "name": "Akemi Moriyama",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 2028664,
+   "name": "Misuzu Chiba",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 2188333,
+   "name": "Kazuo Nogami",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1564399,
+   "name": "Akiko Nakano",
+   "photo": "https://image.tmdb.org/t/p/w185/bfyGdjgBExPvdEYHZEqNxRtcyAR.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1652934,
+   "name": "Toru Takahashi",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1361300,
+   "name": "Kunio Katsuki",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:40:34.506Z"
+}

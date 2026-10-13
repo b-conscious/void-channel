@@ -1,0 +1,322 @@
+{
+ "show": "Rent-a-Girlfriend",
+ "slug": "rent-a-girlfriend",
+ "tmdbId": 96316,
+ "cast": [
+  {
+   "id": 1922640,
+   "name": "Shun Horie",
+   "photo": "https://image.tmdb.org/t/p/w185/1OFi5ofRX0B2ldTPF8ThzLI2wKa.jpg",
+   "character": "Kazuya Kinoshita (voice)",
+   "episodes": 60
+  },
+  {
+   "id": 1325034,
+   "name": "Sora Amamiya",
+   "photo": "https://image.tmdb.org/t/p/w185/AouA1SfwEazdSSj8rUS9K1WIF4H.jpg",
+   "character": "Chizuru Mizuhara (voice)",
+   "episodes": 60
+  },
+  {
+   "id": 936275,
+   "name": "Aoi Yuuki",
+   "photo": "https://image.tmdb.org/t/p/w185/a5Mkd66GV1l3c9bZZtnvjUf33T2.jpg",
+   "character": "Mami Nanami (voice)",
+   "episodes": 60
+  },
+  {
+   "id": 1168909,
+   "name": "Nao Toyama",
+   "photo": "https://image.tmdb.org/t/p/w185/6WJDd1z946yFfZBgpC7dWi0FyQw.jpg",
+   "character": "Ruka Sarashina (voice)",
+   "episodes": 60
+  },
+  {
+   "id": 1492982,
+   "name": "Rie Takahashi",
+   "photo": "https://image.tmdb.org/t/p/w185/aeB7z0cBTASdjKOjQriBAO6hYq4.jpg",
+   "character": "Sumi Sakurasawa (voice)",
+   "episodes": 60
+  },
+  {
+   "id": 1356201,
+   "name": "Yu Serizawa",
+   "photo": "https://image.tmdb.org/t/p/w185/mQITB0XYHCZjYef39xsHnSHIH56.jpg",
+   "character": "Mini Yaemori (voice)",
+   "episodes": 60
+  },
+  {
+   "id": 1251011,
+   "name": "Yukari Nozawa",
+   "photo": "https://image.tmdb.org/t/p/w185/fItDKJF3RDg2EgOQcgW6z9mXeoY.jpg",
+   "character": "Nagomi Kinoshita (voice)",
+   "episodes": 60
+  },
+  {
+   "id": 1253138,
+   "name": "Sayuri Sadaoka",
+   "photo": "https://image.tmdb.org/t/p/w185/a0GG5lHBCwTdAQJDEUvw2hDbOFH.jpg",
+   "character": "Sayuri Ichinose (voice)",
+   "episodes": 60
+  },
+  {
+   "id": 1919881,
+   "name": "Gakuto Kajiwara",
+   "photo": "https://image.tmdb.org/t/p/w185/kUer38jXf7vTD2TGGxJMZVYL5Te.jpg",
+   "character": "Shun Kuribayashi (voice)",
+   "episodes": 60
+  },
+  {
+   "id": 2318578,
+   "name": "Masayuki Akasaka",
+   "photo": "https://image.tmdb.org/t/p/w185/bl7NzF6LzE2CrIr4gB06YCmeLJM.jpg",
+   "character": "User (voice) / Yoshiaki Kibe (voice) / Male Student (voice)",
+   "episodes": 60
+  },
+  {
+   "id": 2760561,
+   "name": "Saika Kitamori",
+   "photo": "https://image.tmdb.org/t/p/w185/5MeB4IOnthLzweVUsUSZsBrbx0m.jpg",
+   "character": "Female Student (voice) / Female University Student (voice) / Lungfish (voice)",
+   "episodes": 23
+  },
+  {
+   "id": 3027415,
+   "name": "Minami Kurisaka",
+   "photo": "https://image.tmdb.org/t/p/w185/baNcXGWfX1EZZI9LBHGkPXeKri0.jpg",
+   "character": "Woman (voice) / Tourist (voice) / Female University Student (voice)",
+   "episodes": 23
+  },
+  {
+   "id": 2859024,
+   "name": "Miki Natsutani",
+   "photo": "https://image.tmdb.org/t/p/w185/jWhlhKfVE8p9WBwisGuWPbrQkhe.jpg",
+   "character": "Harumi Kinoshita (voice)",
+   "episodes": 17
+  },
+  {
+   "id": 2674264,
+   "name": "Yuuki Sanpei",
+   "photo": "https://image.tmdb.org/t/p/w185/vUCZU6A9kTxPbcJ5uMy9OnIQO6I.jpg",
+   "character": "Kazuo Kinoshita (voice)",
+   "episodes": 15
+  },
+  {
+   "id": 3027370,
+   "name": "Takahiro Yoshino",
+   "photo": "https://image.tmdb.org/t/p/w185/mKTv7jrY5N3MUqCFONR53P7lQSO.jpg",
+   "character": "Male Student (voice) / Man (voice) / Takeshi Sasano (voice)",
+   "episodes": 14
+  },
+  {
+   "id": 4742374,
+   "name": "Takanori Miyazaki",
+   "photo": "https://image.tmdb.org/t/p/w185/hxVdPdduwKznsbYkUxLznOfp2BI.jpg",
+   "character": "Front Desk Clerk (voice) / Secretary (voice) / Man (voice)",
+   "episodes": 13
+  },
+  {
+   "id": 2766434,
+   "name": "Shoumaru Zouza",
+   "photo": "https://image.tmdb.org/t/p/w185/3LrTNwhBS02fTr9nPGmrPKBeBhf.jpg",
+   "character": "Karo [Top-Ranking Samurai] (voice) / Hiroshi Ushiide (voice) / Doctor (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 1779029,
+   "name": "Hitomi Sasaki",
+   "photo": "https://image.tmdb.org/t/p/w185/vTSAZyOVDNYfEBJcre8hkoto1Hd.jpg",
+   "character": "Child (voice) / Aquarium Announcer (voice) / Yoko Shinbo (voice)",
+   "episodes": 11
+  },
+  {
+   "id": 3027436,
+   "name": "Ryuji Yamamoto",
+   "photo": "https://image.tmdb.org/t/p/w185/4KQIK1y0eLAuwqGt2FI859AfMDF.jpg",
+   "character": "Audience (voice) / Student (voice) / Surfer (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 2590390,
+   "name": "Shoya Ishige",
+   "photo": "https://image.tmdb.org/t/p/w185/ohW9TNSoiL9n5SgLBbAj85wJXAA.jpg",
+   "character": "Passerby (voice) / Make-up Artist (voice) / Male Customer (voice)",
+   "episodes": 8
+  },
+  {
+   "id": 115305,
+   "name": "Ryusei Nakao",
+   "photo": "https://image.tmdb.org/t/p/w185/fsxlwNIWj7taqpXRYETmXFk0x1P.jpg",
+   "character": "Katsuhito Ichinose (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 2572592,
+   "name": "Satoshi Inomata",
+   "photo": "https://image.tmdb.org/t/p/w185/hAoRLGuberMhFY1f6ULJGiIu1e.jpg",
+   "character": "Passerby (voice) / Male Customer (voice) / Cameraman (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 1324588,
+   "name": "Genki Muro",
+   "photo": "https://image.tmdb.org/t/p/w185/6YF881kJuP2HaSb5PXRO4hWTZA.jpg",
+   "character": "Passerby (voice) / Male Customer (voice) / Nangu (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 1324666,
+   "name": "Kaito Ishikawa",
+   "photo": "https://image.tmdb.org/t/p/w185/fzjIkotjUHHs3wgftM9tqdsG8ph.jpg",
+   "character": "Umi Nakano (voice)",
+   "episodes": 6
+  }
+ ],
+ "crew": [
+  {
+   "id": 1294589,
+   "name": "Mitsutaka Hirota",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 94
+  },
+  {
+   "id": 1423160,
+   "name": "Hyadain",
+   "photo": "https://image.tmdb.org/t/p/w185/9ANw6J5WWzARXmriJqyPRpfqCaH.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 60
+  },
+  {
+   "id": 1627347,
+   "name": "Kazuomi Koga",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 53
+  },
+  {
+   "id": 2879110,
+   "name": "Rie Uehara",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 21
+  },
+  {
+   "id": 3025003,
+   "name": "Shinya Une",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 4263911,
+   "name": "Tadaaki Tsukada",
+   "photo": "https://image.tmdb.org/t/p/w185/vIb8IY2a40kurKiRRRmFLTM2eSw.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1564399,
+   "name": "Akiko Nakano",
+   "photo": "https://image.tmdb.org/t/p/w185/bfyGdjgBExPvdEYHZEqNxRtcyAR.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1793502,
+   "name": "Akira Mano",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 6
+  },
+  {
+   "id": 1406853,
+   "name": "Hiroshi Kimura",
+   "photo": "https://image.tmdb.org/t/p/w185/qcVTjYp5A5syqZHF8ML4Vu9mP4t.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 5589485,
+   "name": "Marie Koizumi",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1911224,
+   "name": "Fumi Tsubota",
+   "photo": "https://image.tmdb.org/t/p/w185/ihKsb3ofTnFFzBgo2rjVVrjRJj1.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 1601271,
+   "name": "Fumio Maezono",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 2799928,
+   "name": "Taku Yamada",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 2375442,
+   "name": "Kyohei Suzuki",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 2338091,
+   "name": "Hidehiko Kadota",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1815942,
+   "name": "Takashi Tanazawa",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:38:41.912Z"
+}

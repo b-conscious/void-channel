@@ -1,0 +1,329 @@
+{
+ "show": "The Dresden Files",
+ "slug": "the-dresden-files",
+ "tmdbId": 4955,
+ "cast": [
+  {
+   "id": 43231,
+   "name": "Paul Blackthorne",
+   "photo": "https://image.tmdb.org/t/p/w185/3OC1M0rKJO8B3JpwAeavk5EAscl.jpg",
+   "character": "Harry Dresden",
+   "episodes": 12
+  },
+  {
+   "id": 43232,
+   "name": "Valerie Cruz",
+   "photo": "https://image.tmdb.org/t/p/w185/rZxfXxcjxvxquQWFaWvmIbsY9ng.jpg",
+   "character": "Lt. Connie Murphy",
+   "episodes": 12
+  },
+  {
+   "id": 19260,
+   "name": "Terrence Mann",
+   "photo": "https://image.tmdb.org/t/p/w185/b8W9t5x8wF7B14Ui05wVLN9Z4fF.jpg",
+   "character": "Bob",
+   "episodes": 12
+  },
+  {
+   "id": 43243,
+   "name": "Raoul Bhaneja",
+   "photo": "https://image.tmdb.org/t/p/w185/yuIZwbt53OJcogTfbsv2UF2TTqE.jpg",
+   "character": "Kirmani",
+   "episodes": 12
+  },
+  {
+   "id": 43263,
+   "name": "Conrad Coates",
+   "photo": "https://image.tmdb.org/t/p/w185/synctEI6SoicViRJxHupyQgs6zv.jpg",
+   "character": "Morgan",
+   "episodes": 12
+  },
+  {
+   "id": 43258,
+   "name": "Matt Gordon",
+   "photo": "https://image.tmdb.org/t/p/w185/fPoMX7JeftDNXI9szI2Or9K1qpw.jpg",
+   "character": "Waldo Butters",
+   "episodes": 5
+  },
+  {
+   "id": 10210,
+   "name": "Daniel Kash",
+   "photo": "https://image.tmdb.org/t/p/w185/v8xa3aFbdk0t7RXpXiLlXI7QepH.jpg",
+   "character": "Justin Morningway",
+   "episodes": 3
+  },
+  {
+   "id": 43277,
+   "name": "Joanne Kelly",
+   "photo": "https://image.tmdb.org/t/p/w185/D1iU7qiyM0Xj4XGFY6tNlqOaYD.jpg",
+   "character": "",
+   "episodes": 2
+  },
+  {
+   "id": 43278,
+   "name": "Jane McLean",
+   "photo": "https://image.tmdb.org/t/p/w185/881JCibVnBU9ltmhuCrj8R5wrGJ.jpg",
+   "character": "",
+   "episodes": 2
+  },
+  {
+   "id": 20377,
+   "name": "Matthew Knight",
+   "photo": "https://image.tmdb.org/t/p/w185/2sINOLMONrjzsaww6uueHvPFNVQ.jpg",
+   "character": "",
+   "episodes": 2
+  },
+  {
+   "id": 43292,
+   "name": "Steve Byers",
+   "photo": "https://image.tmdb.org/t/p/w185/eVCF61X04zmBAyW8JFTXBdEXsBP.jpg",
+   "character": "Brady Whitfield",
+   "episodes": 1
+  },
+  {
+   "id": 43265,
+   "name": "Corey Sevier",
+   "photo": "https://image.tmdb.org/t/p/w185/wKt1pHZ5Q6kgkmZsNz53lNPzLR3.jpg",
+   "character": "",
+   "episodes": 1
+  },
+  {
+   "id": 43257,
+   "name": "Krista Bridges",
+   "photo": "https://image.tmdb.org/t/p/w185/zFA8HVDbi7RO3cfk5oGjaQTAm9t.jpg",
+   "character": "",
+   "episodes": 1
+  },
+  {
+   "id": 139419,
+   "name": "Karen Cliche",
+   "photo": "https://image.tmdb.org/t/p/w185/fVXdJyDRVDo7C5tTHauDm9zDvi9.jpg",
+   "character": "",
+   "episodes": 1
+  },
+  {
+   "id": 43310,
+   "name": "Christine Horne",
+   "photo": "https://image.tmdb.org/t/p/w185/lMkvMd3Z1RzTzkqbaJYcrrQVuNE.jpg",
+   "character": "",
+   "episodes": 1
+  },
+  {
+   "id": 158459,
+   "name": "Chris Owens",
+   "photo": "https://image.tmdb.org/t/p/w185/hT55s8UvUyzqzaf4Y7bXQgbjiY7.jpg",
+   "character": "",
+   "episodes": 1
+  },
+  {
+   "id": 210182,
+   "name": "Jennifer Kydd",
+   "photo": "https://image.tmdb.org/t/p/w185/fBwJd8pN9y4xQNllNH696qRwkyF.jpg",
+   "character": "",
+   "episodes": 1
+  },
+  {
+   "id": 43311,
+   "name": "Yannick Bisson",
+   "photo": "https://image.tmdb.org/t/p/w185/pUxydAXsxH7NwVuB2AFIjMrUxP7.jpg",
+   "character": "",
+   "episodes": 1
+  },
+  {
+   "id": 1238254,
+   "name": "Tyrone Savage",
+   "photo": "https://image.tmdb.org/t/p/w185/qr46UwG3NnPsdIK51hrZeNcOGfW.jpg",
+   "character": "",
+   "episodes": 1
+  },
+  {
+   "id": 1225942,
+   "name": "Louise Nicol",
+   "photo": null,
+   "character": "",
+   "episodes": 1
+  },
+  {
+   "id": 133335,
+   "name": "Tom Barnett",
+   "photo": null,
+   "character": "",
+   "episodes": 1
+  },
+  {
+   "id": 43286,
+   "name": "Laura Vandervoort",
+   "photo": "https://image.tmdb.org/t/p/w185/y3geQGnFG8Sbr7smthUTa84fv9v.jpg",
+   "character": "Natalie",
+   "episodes": 1
+  },
+  {
+   "id": 43264,
+   "name": "Meredith Henderson",
+   "photo": "https://image.tmdb.org/t/p/w185/fWdvvN5WZxOMKULvFDBXrSJPNPh.jpg",
+   "character": "",
+   "episodes": 1
+  },
+  {
+   "id": 43304,
+   "name": "Richard Blackburn",
+   "photo": "https://image.tmdb.org/t/p/w185/8SVhSOobpzyTptAlrME0fyh6bX5.jpg",
+   "character": "",
+   "episodes": 1
+  }
+ ],
+ "crew": [
+  {
+   "id": 151329,
+   "name": "Hans Beimler",
+   "photo": "https://image.tmdb.org/t/p/w185/x2OVyhfN10Y2ZEkfXloWBxR2FER.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1172762,
+   "name": "Robert Hewitt Wolfe",
+   "photo": null,
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Teleplay",
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 2963,
+   "name": "Nicolas Cage",
+   "photo": "https://image.tmdb.org/t/p/w185/y1RtezurZYveYkVNRht7CwEgSYY.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 139045,
+   "name": "David Simkins",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 18956,
+   "name": "Norman Golightly",
+   "photo": "https://image.tmdb.org/t/p/w185/3cjdt0hVLeD8SgDSzQkHpjzti23.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 157839,
+   "name": "Morgan Gendel",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1322323,
+   "name": "Robert J. Kral",
+   "photo": "https://image.tmdb.org/t/p/w185/oZHQ9lp3h6QfOISMZyrwdliebNh.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 3212228,
+   "name": "Peter Egan",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 43222,
+   "name": "Michael Grossman",
+   "photo": "https://image.tmdb.org/t/p/w185/fjH2OGTim2LseLtxBanDq4Sp24G.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1223193,
+   "name": "George Mastras",
+   "photo": "https://image.tmdb.org/t/p/w185/2K0NELbA0Ow45ECudbO2eFc1Fe4.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 44481,
+   "name": "Michael Nankin",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 139651,
+   "name": "Nick Copus",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1212587,
+   "name": "James Head",
+   "photo": "https://image.tmdb.org/t/p/w185/xyScu5BO0Lqok69OjoCVv0tvnG8.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 33341,
+   "name": "Rick Rosenthal",
+   "photo": "https://image.tmdb.org/t/p/w185/x6tbdygaKSXLuwpu6oW78ziRASG.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1197474,
+   "name": "Michael Robison",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1215383,
+   "name": "David Straiton",
+   "photo": "https://image.tmdb.org/t/p/w185/lYuNsYSpGNeEf2enIgyiQWQD7fB.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:34.838Z"
+}

@@ -1,0 +1,326 @@
+{
+ "show": "The Tudors",
+ "slug": "the-tudors",
+ "tmdbId": 2942,
+ "cast": [
+  {
+   "id": 1244,
+   "name": "Jonathan Rhys Meyers",
+   "photo": "https://image.tmdb.org/t/p/w185/3MvT0B15nt5JLp1dUcxmbqmjHUc.jpg",
+   "character": "Henry VIII of England",
+   "episodes": 38
+  },
+  {
+   "id": 73968,
+   "name": "Henry Cavill",
+   "photo": "https://image.tmdb.org/t/p/w185/kN3A5oLgtKYAxa9lAkpsIGYKYVo.jpg",
+   "character": "Charles Brandon",
+   "episodes": 38
+  },
+  {
+   "id": 120006,
+   "name": "Anthony Brophy",
+   "photo": "https://image.tmdb.org/t/p/w185/26WhNwllXnQR0Ym0pxoSr7NdGOm.jpg",
+   "character": "Ambassador Eustace Chapuys / Chapuys",
+   "episodes": 31
+  },
+  {
+   "id": 33394,
+   "name": "Maria Doyle Kennedy",
+   "photo": "https://image.tmdb.org/t/p/w185/dlZ5METJ8AKFjjlA6tjQiA9yfK3.jpg",
+   "character": "Catherine of Aragon",
+   "episodes": 30
+  },
+  {
+   "id": 82809,
+   "name": "Annabelle Wallis",
+   "photo": "https://image.tmdb.org/t/p/w185/2ZmO2Zz9TcR0rmSJHOkivcu0heR.jpg",
+   "character": "Jane Seymour",
+   "episodes": 28
+  },
+  {
+   "id": 33397,
+   "name": "Sarah Bolger",
+   "photo": "https://image.tmdb.org/t/p/w185/A3K2l5kkqTMQHtAkctzICqtbZMY.jpg",
+   "character": "Princess Mary Tudor / Mary Tudor",
+   "episodes": 28
+  },
+  {
+   "id": 58502,
+   "name": "Natalie Dormer",
+   "photo": "https://image.tmdb.org/t/p/w185/vvl6bi59rQhoTjNZMHyRUX9zXLU.jpg",
+   "character": "Anne Boleyn",
+   "episodes": 20
+  },
+  {
+   "id": 165434,
+   "name": "Nick Dunning",
+   "photo": "https://image.tmdb.org/t/p/w185/1hQQKmDYC7NMA5nEvYlVibuC9Nv.jpg",
+   "character": "Thomas Boleyn",
+   "episodes": 20
+  },
+  {
+   "id": 18325,
+   "name": "Jeremy Northam",
+   "photo": "https://image.tmdb.org/t/p/w185/lnvV2sEAl1oUkUuUEr51UjxIuRr.jpg",
+   "character": "Sir Thomas More",
+   "episodes": 20
+  },
+  {
+   "id": 27764,
+   "name": "Steven Waddington",
+   "photo": "https://image.tmdb.org/t/p/w185/hTsS9lg5Qi8KeWXmnMn45LfnIAx.jpg",
+   "character": "Duke of Buckingham",
+   "episodes": 20
+  },
+  {
+   "id": 2482,
+   "name": "David O'Hara",
+   "photo": "https://image.tmdb.org/t/p/w185/8Mqq3CqPv0d7K1SwaNfFNzcRfxX.jpg",
+   "character": "Henry Howard",
+   "episodes": 20
+  },
+  {
+   "id": 20810,
+   "name": "Joely Richardson",
+   "photo": "https://image.tmdb.org/t/p/w185/yv6aLd1TY06HUJqZshEfs8j5twD.jpg",
+   "character": "Catherine Parr",
+   "episodes": 20
+  },
+  {
+   "id": 22063,
+   "name": "James Frain",
+   "photo": "https://image.tmdb.org/t/p/w185/1KnxsxRbVZkh5bdY3gA8v4YKhKR.jpg",
+   "character": "Thomas Cromwell",
+   "episodes": 18
+  },
+  {
+   "id": 59316,
+   "name": "Max Brown",
+   "photo": "https://image.tmdb.org/t/p/w185/5UfXDvI6ewAzlNmc7Pqy3GfXWWm.jpg",
+   "character": "Edward Seymour",
+   "episodes": 18
+  },
+  {
+   "id": 25442,
+   "name": "Joss Stone",
+   "photo": "https://image.tmdb.org/t/p/w185/kFbmkxR4RjvEhKQ4Ad7LFVoevR4.jpg",
+   "character": "Anne of Cleves",
+   "episodes": 18
+  },
+  {
+   "id": 36672,
+   "name": "Tamzin Merchant",
+   "photo": "https://image.tmdb.org/t/p/w185/ghXLBqOWfaWWbTeoKHdVr3W4RV4.jpg",
+   "character": "Catherine Howard",
+   "episodes": 18
+  },
+  {
+   "id": 42216,
+   "name": "Charlotte Salt",
+   "photo": "https://image.tmdb.org/t/p/w185/ePVLhtUznTgS0N3xqrsas8fQjAz.jpg",
+   "character": "Lady Ursula Misseldon",
+   "episodes": 18
+  },
+  {
+   "id": 1221487,
+   "name": "Andrew McNair",
+   "photo": "https://image.tmdb.org/t/p/w185/kRbtWl7M2KKEKzWy3BQVF1E7nvU.jpg",
+   "character": "Thomas Seymour / Sir Thomas Seymour",
+   "episodes": 18
+  },
+  {
+   "id": 29540,
+   "name": "Simon Ward",
+   "photo": "https://image.tmdb.org/t/p/w185/dxcsfsuez7z4zDVJLtYLaMW0yp8.jpg",
+   "character": "Bishop Stephen Gardiner / Bishop Gardiner",
+   "episodes": 18
+  },
+  {
+   "id": 557840,
+   "name": "Kristen Holden-Ried",
+   "photo": "https://image.tmdb.org/t/p/w185/lphlznej10kVTFkPcSFYCigaZV9.jpg",
+   "character": "William Compton",
+   "episodes": 17
+  },
+  {
+   "id": 125237,
+   "name": "Pádraic Delaney",
+   "photo": "https://image.tmdb.org/t/p/w185/pnKHr0Kf9lfoY5FZpo1p9cVMWHJ.jpg",
+   "character": "George Boleyn",
+   "episodes": 15
+  },
+  {
+   "id": 20282,
+   "name": "John Kavanagh",
+   "photo": "https://image.tmdb.org/t/p/w185/wG5dUlNS4b7eUof6m32MaVFWdla.jpg",
+   "character": "Cardinal Campeggio / Cardinal Lorenzo Campeggio",
+   "episodes": 14
+  },
+  {
+   "id": 109861,
+   "name": "Jamie Thomas King",
+   "photo": "https://image.tmdb.org/t/p/w185/hE7R5CcybeolLiptWVvPnOkittU.jpg",
+   "character": "Sir Thomas Wyatt / Thomas Wyatt",
+   "episodes": 14
+  },
+  {
+   "id": 33401,
+   "name": "Bosco Hogan",
+   "photo": "https://image.tmdb.org/t/p/w185/sMa4b3F9KoHqReJ84pVybL0atQ2.jpg",
+   "character": "Bishop Fisher / John Fisher, Bishop of Rochester",
+   "episodes": 14
+  }
+ ],
+ "crew": [
+  {
+   "id": 37631,
+   "name": "Michael Hirst",
+   "photo": "https://image.tmdb.org/t/p/w185/70lhWPCdSPv7aGpaoAPk9h6sFOR.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 38
+  },
+  {
+   "id": 1228427,
+   "name": "Sheila Hockin",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 38
+  },
+  {
+   "id": 953724,
+   "name": "Morgan O'Sullivan",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 38
+  },
+  {
+   "id": 2238,
+   "name": "Eric Fellner",
+   "photo": "https://image.tmdb.org/t/p/w185/8fEalki5uMWg97FVDk3l2kvf2Dt.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 38
+  },
+  {
+   "id": 2236,
+   "name": "Tim Bevan",
+   "photo": "https://image.tmdb.org/t/p/w185/nyeqZJr6QVwD3iuLgK5vRgIdcmP.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 38
+  },
+  {
+   "id": 1230859,
+   "name": "Teri Weinberg",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 38
+  },
+  {
+   "id": 1252225,
+   "name": "James Flynn",
+   "photo": "https://image.tmdb.org/t/p/w185/jSwPJzsHYE3HtjXqvoN9d8TyFeZ.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 38
+  },
+  {
+   "id": 1035869,
+   "name": "Ben Silverman",
+   "photo": "https://image.tmdb.org/t/p/w185/mmlSuSF6wxv0FfaoOQwNCrC83YQ.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 38
+  },
+  {
+   "id": 1233099,
+   "name": "Ciarán Donnelly",
+   "photo": "https://image.tmdb.org/t/p/w185/60Ti8EPFVmFMEe38Vb2L7JtSt8b.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 64156,
+   "name": "Trevor Morris",
+   "photo": "https://image.tmdb.org/t/p/w185/bRbUFUSWSI0LSznh8kzxrN0olBl.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 88391,
+   "name": "Jeremy Podeswa",
+   "photo": "https://image.tmdb.org/t/p/w185/sk9cc9sGGI6oByOOZZB0y0GlAWm.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 1227885,
+   "name": "Dearbhla Walsh",
+   "photo": "https://image.tmdb.org/t/p/w185/iJLqz4QY8qgAUJfZVmjFIEr0HN9.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 80747,
+   "name": "Steve Shill",
+   "photo": "https://image.tmdb.org/t/p/w185/ceq5fV79ky8AqSyMbd2p4wA6pwe.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 15148,
+   "name": "Jon Amiel",
+   "photo": "https://image.tmdb.org/t/p/w185/tZf4VLvFobxizCzDQ6xQdygGT9.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 157771,
+   "name": "Charles McDougall",
+   "photo": "https://image.tmdb.org/t/p/w185/ty4SFTBrT7g2j9ywxuwCbpmKdND.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1231927,
+   "name": "Colm McCarthy",
+   "photo": "https://image.tmdb.org/t/p/w185/iTVWq0wCVoKf6pfrJvdTlVWyems.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:04.112Z"
+}

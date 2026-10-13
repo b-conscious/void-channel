@@ -1,0 +1,333 @@
+{
+ "show": "MINDHUNTER",
+ "slug": "mindhunter",
+ "tmdbId": 67744,
+ "cast": [
+  {
+   "id": 221611,
+   "name": "Jonathan Groff",
+   "photo": "https://image.tmdb.org/t/p/w185/3kmnYKAzSc3Lp7iK5pcj97Hx9Cm.jpg",
+   "character": "Holden Ford",
+   "episodes": 19
+  },
+  {
+   "id": 7497,
+   "name": "Holt McCallany",
+   "photo": "https://image.tmdb.org/t/p/w185/b1FEXFQ8ZnvXhVrMqCv5mTJ8aW3.jpg",
+   "character": "Bill Tench",
+   "episodes": 19
+  },
+  {
+   "id": 30084,
+   "name": "Anna Torv",
+   "photo": "https://image.tmdb.org/t/p/w185/muZIxj33R2EEJhm28c9hBd0AiRk.jpg",
+   "character": "Wendy Carr",
+   "episodes": 19
+  },
+  {
+   "id": 1718318,
+   "name": "Sonny Valicenti",
+   "photo": "https://image.tmdb.org/t/p/w185/j3neEkxxuyf4EnOE2qH0NHuonCS.jpg",
+   "character": "ADT Serviceman",
+   "episodes": 15
+  },
+  {
+   "id": 1233173,
+   "name": "Stacey Roca",
+   "photo": "https://image.tmdb.org/t/p/w185/sk7NshCULQUON7drnxTuqwD3Kv3.jpg",
+   "character": "Nancy Tench",
+   "episodes": 12
+  },
+  {
+   "id": 115858,
+   "name": "Cotter Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/dmz3uYC2XLMulmvQYzqGVaqLmRw.jpg",
+   "character": "Unit Chief Shepard",
+   "episodes": 11
+  },
+  {
+   "id": 1049916,
+   "name": "Hannah Gross",
+   "photo": "https://image.tmdb.org/t/p/w185/p94oyYrrywfSH3vkimTL1cbaWQt.jpg",
+   "character": "Debbie Mitford",
+   "episodes": 10
+  },
+  {
+   "id": 1947197,
+   "name": "Joe Tuttle",
+   "photo": "https://image.tmdb.org/t/p/w185/fqg24TAy08ss8ynjwMmOF5l9OOs.jpg",
+   "character": "Gregg Smith",
+   "episodes": 10
+  },
+  {
+   "id": 1947195,
+   "name": "Zachary Scott Ross",
+   "photo": "https://image.tmdb.org/t/p/w185/wqvF7gh6TXaSRlpsX90362B6izF.jpg",
+   "character": "Brian Tench",
+   "episodes": 10
+  },
+  {
+   "id": 118592,
+   "name": "Lauren Glazier",
+   "photo": "https://image.tmdb.org/t/p/w185/eGkiSkxzrJlg2eowMLIgFEV2oL5.jpg",
+   "character": "Kay Manz",
+   "episodes": 8
+  },
+  {
+   "id": 164382,
+   "name": "Albert Jones",
+   "photo": "https://image.tmdb.org/t/p/w185/tv3l8Lmvig9pHLmRUykOy4VPPDd.jpg",
+   "character": "Jim Barney",
+   "episodes": 8
+  },
+  {
+   "id": 49827,
+   "name": "Michael Cerveris",
+   "photo": "https://image.tmdb.org/t/p/w185/vahLGniF2yY8I11ZtzhhhXVTbDc.jpg",
+   "character": "Assistant Director Gunn",
+   "episodes": 6
+  },
+  {
+   "id": 19979,
+   "name": "June Carryl",
+   "photo": "https://image.tmdb.org/t/p/w185/7p0lxKz4KGfUPc8r5q5j7N8vy5N.jpg",
+   "character": "Camille Bell",
+   "episodes": 5
+  },
+  {
+   "id": 1223865,
+   "name": "Dohn Norwood",
+   "photo": "https://image.tmdb.org/t/p/w185/rYtDlfl1pjVrB28U4h69V1Q9i4n.jpg",
+   "character": "Commissioner Lee Brown",
+   "episodes": 5
+  },
+  {
+   "id": 118131,
+   "name": "Gareth Williams",
+   "photo": "https://image.tmdb.org/t/p/w185/yzPjk1qze7A3eqFCXdTGz6vGGzQ.jpg",
+   "character": "Chief Redding",
+   "episodes": 5
+  },
+  {
+   "id": 1286537,
+   "name": "Cameron Britton",
+   "photo": "https://image.tmdb.org/t/p/w185/9HFxi8ZnBiby3AQ7tBOPDxXFkCT.jpg",
+   "character": "Edmund Kemper",
+   "episodes": 4
+  },
+  {
+   "id": 127048,
+   "name": "Nate Corddry",
+   "photo": "https://image.tmdb.org/t/p/w185/uQXtMimmxvhdqQusgpQQnc0CnBz.jpg",
+   "character": "Detective Art Spencer",
+   "episodes": 4
+  },
+  {
+   "id": 80612,
+   "name": "Sierra Aylina McClain",
+   "photo": "https://image.tmdb.org/t/p/w185/nHs7MiFEZg9Zaf0McO3upc3oPJm.jpg",
+   "character": "Tanya Clifton",
+   "episodes": 4
+  },
+  {
+   "id": 1812246,
+   "name": "Siovhan Christensen",
+   "photo": "https://image.tmdb.org/t/p/w185/nQnAhvxcHZIOSplIs4GNzTCQ2Uk.jpg",
+   "character": "Beverly Belt",
+   "episodes": 4
+  },
+  {
+   "id": 1607560,
+   "name": "Alex Morf",
+   "photo": "https://image.tmdb.org/t/p/w185/vtBkkZW814FeCsdKcT343QFN02O.jpg",
+   "character": "Detective Ocasek",
+   "episodes": 3
+  },
+  {
+   "id": 1163969,
+   "name": "Katherine Banks",
+   "photo": "https://image.tmdb.org/t/p/w185/h89Pu7cHts2srnOoXcQemN8Ib21.jpg",
+   "character": "Wife / Joanne",
+   "episodes": 3
+  },
+  {
+   "id": 169615,
+   "name": "Regi Davis",
+   "photo": "https://image.tmdb.org/t/p/w185/yEUiqR2YbmmAPAEXH9l9NVhPaZw.jpg",
+   "character": "Mayor Jackson",
+   "episodes": 3
+  },
+  {
+   "id": 1667818,
+   "name": "Christopher Livingstone",
+   "photo": "https://image.tmdb.org/t/p/w185/nQfrQzgMBg81dlIZ64S2lye75Co.jpg",
+   "character": "Wayne Williams",
+   "episodes": 3
+  },
+  {
+   "id": 71824,
+   "name": "Erik Jensen",
+   "photo": "https://image.tmdb.org/t/p/w185/zovg17gF5GGcEJJSysRymhtJhzP.jpg",
+   "character": "Dr. Moritz",
+   "episodes": 3
+  }
+ ],
+ "crew": [
+  {
+   "id": 57573,
+   "name": "Joe Penhall",
+   "photo": "https://image.tmdb.org/t/p/w185/9dXtvOKfFyeAp8jNBxM0OAqosWv.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 7467,
+   "name": "David Fincher",
+   "photo": "https://image.tmdb.org/t/p/w185/tpEczFclQZeKAiCeKZZ0adRvtfz.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 1561486,
+   "name": "Jennifer Erwin",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 6885,
+   "name": "Charlize Theron",
+   "photo": "https://image.tmdb.org/t/p/w185/gd7ShD0yt4bsR2STeQ19KQ6hvXL.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 1117873,
+   "name": "Beth Kono",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 7475,
+   "name": "Ceán Chaffin",
+   "photo": "https://image.tmdb.org/t/p/w185/rk8DPo1CAMTWL0YjRsMFIy3gRmT.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 71262,
+   "name": "Joshua Donen",
+   "photo": "https://image.tmdb.org/t/p/w185/u4pXhQaYbf1qLvG30lJK34lvuuD.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Story",
+    "Teleplay"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 2373314,
+   "name": "Jason Hill",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 19
+  },
+  {
+   "id": 1583700,
+   "name": "Courtenay Miles",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Story",
+    "Teleplay"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1929504,
+   "name": "Jennifer Haley",
+   "photo": null,
+   "jobs": [
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 5
+  },
+  {
+   "id": 21712,
+   "name": "Carl Franklin",
+   "photo": "https://image.tmdb.org/t/p/w185/8xX5z2BXZZHynzaMruOB8VkQ077.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 55251,
+   "name": "Asif Kapadia",
+   "photo": "https://image.tmdb.org/t/p/w185/5FuAWpePS3R5UcIysUrmeNZEGFe.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 62721,
+   "name": "Andrew Douglas",
+   "photo": "https://image.tmdb.org/t/p/w185/v20rSTsJuRdQIM10ckHNO8ULsex.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 37618,
+   "name": "Andrew Dominik",
+   "photo": "https://image.tmdb.org/t/p/w185/blo8doyYK1Swsa4ThRgq3OT62J1.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 141883,
+   "name": "Tobias Lindholm",
+   "photo": "https://image.tmdb.org/t/p/w185/tNl1qcd5QzwddNPycDtgNfG002u.jpg",
+   "jobs": [
+    "Director",
+    "Teleplay"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 65779,
+   "name": "Doug Jung",
+   "photo": null,
+   "jobs": [
+    "Story"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:17.674Z"
+}

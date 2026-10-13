@@ -1,0 +1,326 @@
+{
+ "show": "Baskets",
+ "slug": "baskets",
+ "tmdbId": 64551,
+ "cast": [
+  {
+   "id": 58225,
+   "name": "Zach Galifianakis",
+   "photo": "https://image.tmdb.org/t/p/w185/qsDfoUlRnXHUiqZeBPWHzmgmKGX.jpg",
+   "character": "Chip Baskets / Dale Baskets",
+   "episodes": 40
+  },
+  {
+   "id": 1572541,
+   "name": "Martha Kelly",
+   "photo": "https://image.tmdb.org/t/p/w185/ac7HoARDIHdYNqpzgJBzpmKHXHR.jpg",
+   "character": "Martha Brooks",
+   "episodes": 40
+  },
+  {
+   "id": 44795,
+   "name": "Louie Anderson",
+   "photo": "https://image.tmdb.org/t/p/w185/6yxIwla3vi06Hd3l16S5kaXgSI0.jpg",
+   "character": "Christine Baskets",
+   "episodes": 40
+  },
+  {
+   "id": 167691,
+   "name": "Alex Morris",
+   "photo": "https://image.tmdb.org/t/p/w185/8bvNGjjZrSBeun0DBf9g8qGkuAS.jpg",
+   "character": "Ken",
+   "episodes": 20
+  },
+  {
+   "id": 1572544,
+   "name": "Ernest Adams",
+   "photo": "https://image.tmdb.org/t/p/w185/qujuGa0xg5uCdPFuD6tYlmcf4N7.jpg",
+   "character": "Eddie",
+   "episodes": 16
+  },
+  {
+   "id": 1572542,
+   "name": "Sabina Sciubba",
+   "photo": "https://image.tmdb.org/t/p/w185/wEIQhuJCU2exTg7oHBkB9pLsgWu.jpg",
+   "character": "Penelope",
+   "episodes": 12
+  },
+  {
+   "id": 1542763,
+   "name": "Malia Pyles",
+   "photo": "https://image.tmdb.org/t/p/w185/hkqwJU2WlsbSwxdHIRIIKru5Q0s.jpg",
+   "character": "Sarah Baskets",
+   "episodes": 11
+  },
+  {
+   "id": 2067701,
+   "name": "Julia Rose",
+   "photo": null,
+   "character": "Crystal",
+   "episodes": 11
+  },
+  {
+   "id": 114604,
+   "name": "Maree Cheatham",
+   "photo": "https://image.tmdb.org/t/p/w185/gtgvheeo3rR8N7o6gvo5S5EO9GP.jpg",
+   "character": "Maggie",
+   "episodes": 10
+  },
+  {
+   "id": 62834,
+   "name": "Ryun Yu",
+   "photo": "https://image.tmdb.org/t/p/w185/uO3ElZph31gIurIh13miL8yBy1I.jpg",
+   "character": "Daniel",
+   "episodes": 9
+  },
+  {
+   "id": 1004810,
+   "name": "Ellen D. Williams",
+   "photo": "https://image.tmdb.org/t/p/w185/r55DjhOcJjDm8ExbRTMpXUtjlqr.jpg",
+   "character": "Nicole",
+   "episodes": 8
+  },
+  {
+   "id": 1710603,
+   "name": "Garry Clemmons",
+   "photo": null,
+   "character": "Cody",
+   "episodes": 6
+  },
+  {
+   "id": 1219831,
+   "name": "Julie Ariola",
+   "photo": "https://image.tmdb.org/t/p/w185/tfecEx72CKtsN2Ry2lm6kK6QJyY.jpg",
+   "character": "Wanda",
+   "episodes": 6
+  },
+  {
+   "id": 194493,
+   "name": "Darcy Shean",
+   "photo": "https://image.tmdb.org/t/p/w185/b2CIf8boiNRZrVpS2LlR3keCOag.jpg",
+   "character": "Nan",
+   "episodes": 6
+  },
+  {
+   "id": 157166,
+   "name": "Eve Brenner",
+   "photo": "https://image.tmdb.org/t/p/w185/pjn3vXM6Yvj2MDIlgKXoMDDryAh.jpg",
+   "character": "Martha's Mother / Mrs. Brooks",
+   "episodes": 6
+  },
+  {
+   "id": 18859,
+   "name": "Andrea Marcovicci",
+   "photo": "https://image.tmdb.org/t/p/w185/zBsFSm1uDwA7AeE8USqwhTNSTPX.jpg",
+   "character": "Tammy",
+   "episodes": 6
+  },
+  {
+   "id": 1621502,
+   "name": "Mary Wiseman",
+   "photo": "https://image.tmdb.org/t/p/w185/85uKEsrzJ0pWMDKKwAQtYdMbnq4.jpg",
+   "character": "Trinity",
+   "episodes": 5
+  },
+  {
+   "id": 95051,
+   "name": "Tom Proctor",
+   "photo": "https://image.tmdb.org/t/p/w185/8ClnmTQE2OhUrpObFipRSXhByFR.jpg",
+   "character": "Bingo the Clown",
+   "episodes": 5
+  },
+  {
+   "id": 1710604,
+   "name": "Jason Clemmons",
+   "photo": null,
+   "character": "Logan",
+   "episodes": 5
+  },
+  {
+   "id": 1817710,
+   "name": "Lyric Lewis",
+   "photo": "https://image.tmdb.org/t/p/w185/nMsT9piweWhh2zV7E8EKc5xVQ5T.jpg",
+   "character": "Monica",
+   "episodes": 5
+  },
+  {
+   "id": 61014,
+   "name": "Haneefah Wood",
+   "photo": "https://image.tmdb.org/t/p/w185/s5dEHZlu9xg6tHWkyzOhlESzliv.jpg",
+   "character": "Ivy",
+   "episodes": 5
+  },
+  {
+   "id": 6916,
+   "name": "Peter Jason",
+   "photo": "https://image.tmdb.org/t/p/w185/xoqIuVvEH6BG6sOg4NnZzUKFnaf.jpg",
+   "character": "Uncle Jim",
+   "episodes": 5
+  },
+  {
+   "id": 204419,
+   "name": "Tommy Snider",
+   "photo": "https://image.tmdb.org/t/p/w185/cN8SBWVx8NGTlAYFkusR2MzBW1m.jpg",
+   "character": "Jode",
+   "episodes": 5
+  },
+  {
+   "id": 151321,
+   "name": "Jeanette O'Connor",
+   "photo": "https://image.tmdb.org/t/p/w185/A6Bsk2F5BPicJrRyoyoMxYzGwjc.jpg",
+   "character": "Joan",
+   "episodes": 5
+  }
+ ],
+ "crew": [
+  {
+   "id": 58225,
+   "name": "Zach Galifianakis",
+   "photo": "https://image.tmdb.org/t/p/w185/qsDfoUlRnXHUiqZeBPWHzmgmKGX.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 212431,
+   "name": "Jonathan Krisel",
+   "photo": "https://image.tmdb.org/t/p/w185/pxrlLJKeNStv1w0x61LFwiZCcrE.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Writer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 52849,
+   "name": "Louis C.K.",
+   "photo": "https://image.tmdb.org/t/p/w185/1ii770zdeX62UFGawTmNr2vddYb.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 60083,
+   "name": "Marc Gurvitz",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 65913,
+   "name": "M. Blair Breard",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 1232644,
+   "name": "Anna Dokoza",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 1234758,
+   "name": "Andrea Pett-Joseph",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 2057875,
+   "name": "Joshua Moshier",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 65918,
+   "name": "Dave Becky",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 1673347,
+   "name": "Andrew Bird",
+   "photo": "https://image.tmdb.org/t/p/w185/w38wou9Poy6u7m15d1SHxmHIvcB.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 2932477,
+   "name": "Samuel D. Hunter",
+   "photo": "https://image.tmdb.org/t/p/w185/fqbON3w2FhHQ5xvyhoiu65MxxeY.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 162609,
+   "name": "Karen Kilgariff",
+   "photo": "https://image.tmdb.org/t/p/w185/4GBJJkzzNQFyAL9knurHFFP69RX.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1807680,
+   "name": "Graham Wagner",
+   "photo": "https://image.tmdb.org/t/p/w185/5mQ8bOEe8z0rhNgATRgjS9NtjLI.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1222184,
+   "name": "Theresa Mulligan",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1823296,
+   "name": "Rachele Lynn",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 3962834,
+   "name": "Danica Radovanov",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:29:03.271Z"
+}

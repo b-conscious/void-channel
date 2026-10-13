@@ -1,0 +1,328 @@
+{
+ "show": "Deadwood",
+ "slug": "deadwood",
+ "tmdbId": 1406,
+ "cast": [
+  {
+   "id": 18082,
+   "name": "Timothy Olyphant",
+   "photo": "https://image.tmdb.org/t/p/w185/7pHmRHE2wBNC9cBgNIRCBqFLoyZ.jpg",
+   "character": "Seth Bullock",
+   "episodes": 36
+  },
+  {
+   "id": 6972,
+   "name": "Ian McShane",
+   "photo": "https://image.tmdb.org/t/p/w185/rteBJYNgD1yGsHg2HGZAIrYHz1t.jpg",
+   "character": "Al Swearengen",
+   "episodes": 36
+  },
+  {
+   "id": 27125,
+   "name": "Molly Parker",
+   "photo": "https://image.tmdb.org/t/p/w185/yxDfAinBmVkx8HHzRlJz4KvSnf8.jpg",
+   "character": "Alma Garret",
+   "episodes": 36
+  },
+  {
+   "id": 29862,
+   "name": "Jim Beaver",
+   "photo": "https://image.tmdb.org/t/p/w185/mvawGDw5ge5rxgMKhTSggasOyin.jpg",
+   "character": "Whitney Ellsworth",
+   "episodes": 36
+  },
+  {
+   "id": 6951,
+   "name": "W. Earl Brown",
+   "photo": "https://image.tmdb.org/t/p/w185/oBHcJc65nUmopx6lVc9ZvYYARZz.jpg",
+   "character": "Dan Dority",
+   "episodes": 36
+  },
+  {
+   "id": 87108,
+   "name": "Dayton Callie",
+   "photo": "https://image.tmdb.org/t/p/w185/miB43H7L4OYY5aRSxhoScjcOxu3.jpg",
+   "character": "Charlie Utter",
+   "episodes": 36
+  },
+  {
+   "id": 1370,
+   "name": "Brad Dourif",
+   "photo": "https://image.tmdb.org/t/p/w185/ex7AmuHM3owhUetYZAyOmN1ehWS.jpg",
+   "character": "Amos Cochran",
+   "episodes": 36
+  },
+  {
+   "id": 16861,
+   "name": "John Hawkes",
+   "photo": "https://image.tmdb.org/t/p/w185/c0mDB6TApVcJ3LLM1gicjyUeD5A.jpg",
+   "character": "Sol Star",
+   "episodes": 36
+  },
+  {
+   "id": 47533,
+   "name": "Paula Malcomson",
+   "photo": "https://image.tmdb.org/t/p/w185/9lJy6ze86ZfVcBcyBK9UZq8FJiC.jpg",
+   "character": "Trixie",
+   "episodes": 36
+  },
+  {
+   "id": 15374,
+   "name": "Leon Rippy",
+   "photo": "https://image.tmdb.org/t/p/w185/jJfrzZ5BlJoWyU8JHbdnPxyGGf8.jpg",
+   "character": "Tom Nuttall",
+   "episodes": 36
+  },
+  {
+   "id": 590,
+   "name": "William Sanderson",
+   "photo": "https://image.tmdb.org/t/p/w185/i3JfaavAFq9ayeJ4doUaOGjHMMW.jpg",
+   "character": "E. B. Farnum",
+   "episodes": 36
+  },
+  {
+   "id": 79087,
+   "name": "Robin Weigert",
+   "photo": "https://image.tmdb.org/t/p/w185/ifGimfhXs7WIyDJMIX8kJtUte88.jpg",
+   "character": "Calamity Jane",
+   "episodes": 36
+  },
+  {
+   "id": 144160,
+   "name": "Sean Bridgers",
+   "photo": "https://image.tmdb.org/t/p/w185/iUxN34HqjjUMgtETexAvrocY0e1.jpg",
+   "character": "Johnny Burns",
+   "episodes": 36
+  },
+  {
+   "id": 1223929,
+   "name": "Bree Seanna Wall",
+   "photo": "https://image.tmdb.org/t/p/w185/kdqf4Ds7gGUt7JJj6IPalQzFMeu.jpg",
+   "character": "Sofia Metz",
+   "episodes": 36
+  },
+  {
+   "id": 21165,
+   "name": "Kim Dickens",
+   "photo": "https://image.tmdb.org/t/p/w185/yr6kstI1hdLP6LXz2xyBB4ovduj.jpg",
+   "character": "Joanie Stubbs",
+   "episodes": 28
+  },
+  {
+   "id": 39389,
+   "name": "Titus Welliver",
+   "photo": "https://image.tmdb.org/t/p/w185/3hTwn7Maktr6ONq1VvfqyRacjiv.jpg",
+   "character": "Silas Adams",
+   "episodes": 27
+  },
+  {
+   "id": 6280,
+   "name": "Powers Boothe",
+   "photo": "https://image.tmdb.org/t/p/w185/xj3DBMqnEnyYfHEBcRHOxlpbQS4.jpg",
+   "character": "Cy Tolliver",
+   "episodes": 27
+  },
+  {
+   "id": 91387,
+   "name": "Keone Young",
+   "photo": "https://image.tmdb.org/t/p/w185/hHtr7OzP2I2U7FfA2hj8rPtAt8z.jpg",
+   "character": "Mr. Wu",
+   "episodes": 26
+  },
+  {
+   "id": 6916,
+   "name": "Peter Jason",
+   "photo": "https://image.tmdb.org/t/p/w185/xoqIuVvEH6BG6sOg4NnZzUKFnaf.jpg",
+   "character": "Con Stapleton",
+   "episodes": 25
+  },
+  {
+   "id": 134531,
+   "name": "Anna Gunn",
+   "photo": "https://image.tmdb.org/t/p/w185/adppyeu1a4REN3khtgmXusrapFi.jpg",
+   "character": "Martha Bullock",
+   "episodes": 24
+  },
+  {
+   "id": 4004,
+   "name": "Jeffrey Jones",
+   "photo": "https://image.tmdb.org/t/p/w185/2vlQDwmMlAAEKqdFIey0liR0T1E.jpg",
+   "character": "A.W. Merrick / A. W. Merrick",
+   "episodes": 21
+  },
+  {
+   "id": 94304,
+   "name": "Larry Cedar",
+   "photo": "https://image.tmdb.org/t/p/w185/mvfn1YoL9ACp4n51HZOD0TMs2Ah.jpg",
+   "character": "Leon",
+   "episodes": 21
+  },
+  {
+   "id": 39520,
+   "name": "Garret Dillahunt",
+   "photo": "https://image.tmdb.org/t/p/w185/7wHWTkIhre0j9L9CY2t5VVwg630.jpg",
+   "character": "Jack McCall / Francis Wolcott / Jack McCall / Francis Wolcott",
+   "episodes": 16
+  },
+  {
+   "id": 159261,
+   "name": "Brent Sexton",
+   "photo": "https://image.tmdb.org/t/p/w185/wjxWvYZZIWIKb7rQnJXRoXPRqwh.jpg",
+   "character": "Harry Manning",
+   "episodes": 14
+  }
+ ],
+ "crew": [
+  {
+   "id": 151295,
+   "name": "David Milch",
+   "photo": "https://image.tmdb.org/t/p/w185/iwrjFR9JmpwgolCrdFpyGAb4Axz.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 36
+  },
+  {
+   "id": 15802,
+   "name": "Gregg Fienberg",
+   "photo": null,
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 36
+  },
+  {
+   "id": 1076,
+   "name": "Reinhold Heil",
+   "photo": "https://image.tmdb.org/t/p/w185/ryxVIilNESLhSiqG73mi0jELlpO.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 1075,
+   "name": "Johnny Klimek",
+   "photo": "https://image.tmdb.org/t/p/w185/9yKc0b2sR8L0wd2rA0ax3n5HEgW.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 1211988,
+   "name": "Mark Tinker",
+   "photo": "https://image.tmdb.org/t/p/w185/uzM6K6QfJYJVwcbAwAluS6Ihuce.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 167786,
+   "name": "Ed Bianchi",
+   "photo": "https://image.tmdb.org/t/p/w185/a2vb1qvl4iGqNggHip7Lk3RNJLb.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 1214471,
+   "name": "Ted Mann",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 88743,
+   "name": "Daniel Minahan",
+   "photo": "https://image.tmdb.org/t/p/w185/zBRWTVYdZ77HT1zWpZtLXZ8AW1F.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 19012,
+   "name": "Davis Guggenheim",
+   "photo": "https://image.tmdb.org/t/p/w185/v0uvixJWNvXjur5kXoPDlAkTsEL.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1223925,
+   "name": "Regina Corrado",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 167784,
+   "name": "Elizabeth Sarnoff",
+   "photo": "https://image.tmdb.org/t/p/w185/3lZYyjfJfnVTNf78sPnACZzD3pq.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1223924,
+   "name": "Jody Worth",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 80747,
+   "name": "Steve Shill",
+   "photo": "https://image.tmdb.org/t/p/w185/ceq5fV79ky8AqSyMbd2p4wA6pwe.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 19016,
+   "name": "Michael Brook",
+   "photo": "https://image.tmdb.org/t/p/w185/PbHAuMBPkxtgyEmV6d69BTj2fZ.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 47005,
+   "name": "Alan Taylor",
+   "photo": "https://image.tmdb.org/t/p/w185/sXC2wNRo7lshghNnNaPdWQ9sqKe.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1521262,
+   "name": "David Schwartz",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 2
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:31:44.154Z"
+}

@@ -1,0 +1,313 @@
+{
+ "show": "Mieruko-chan",
+ "slug": "mieruko-chan",
+ "tmdbId": 121078,
+ "cast": [
+  {
+   "id": 1325034,
+   "name": "Sora Amamiya",
+   "photo": "https://image.tmdb.org/t/p/w185/AouA1SfwEazdSSj8rUS9K1WIF4H.jpg",
+   "character": "Miko Yotsuya (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 1779027,
+   "name": "Kaede Hondo",
+   "photo": "https://image.tmdb.org/t/p/w185/11BcHnuJYrOZhIftgUiQqfm7TK6.jpg",
+   "character": "Hana Yurikawa (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 992869,
+   "name": "Ayane Sakura",
+   "photo": "https://image.tmdb.org/t/p/w185/yPbTmntASE9psPIMhNGU5oo6vIH.jpg",
+   "character": "Yuria Niguredo (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 1221114,
+   "name": "Yuichi Nakamura",
+   "photo": "https://image.tmdb.org/t/p/w185/wb8behVKjBHX9XXrEydvNINCYwH.jpg",
+   "character": "Zen Tohno (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 571503,
+   "name": "Ikuko Tani",
+   "photo": "https://image.tmdb.org/t/p/w185/xoqhlFF7mPEC6fuTwjxmnYHIOuD.jpg",
+   "character": "Godmother (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 1565358,
+   "name": "Yumiri Hanamori",
+   "photo": "https://image.tmdb.org/t/p/w185/zXVwGxsxwEvL1f6wxzTYtxytjDn.jpg",
+   "character": "Kyousuke Yotsuya (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 1241562,
+   "name": "Hitomi Nabatame",
+   "photo": "https://image.tmdb.org/t/p/w185/jidfw5qDgZjC4TPY3YunJQxlEmr.jpg",
+   "character": "Tōko Yotsuya (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 1221143,
+   "name": "Nobuo Tobita",
+   "photo": "https://image.tmdb.org/t/p/w185/8p47dHvcEvr7CPYIHpxlQcpZmtm.jpg",
+   "character": "Junji Rousoku (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 122647,
+   "name": "Kohsuke Toriumi",
+   "photo": "https://image.tmdb.org/t/p/w185/vlRQ77taCCKh7itCZn3IWJUiYQr.jpg",
+   "character": "Mamoru Yotsuya (voice) / Small Man (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 2256610,
+   "name": "Miyuri Shimabukuro",
+   "photo": "https://image.tmdb.org/t/p/w185/rjhyRM2hn1deQG1V6cwC8AEEKNT.jpg",
+   "character": "Morino (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 2102121,
+   "name": "Maki Kawase",
+   "photo": "https://image.tmdb.org/t/p/w185/3LgHKyXM33oOtBzmYTDesftIzY0.jpg",
+   "character": "Yamazaki (voice)",
+   "episodes": 6
+  },
+  {
+   "id": 1717126,
+   "name": "Hana Sato",
+   "photo": "https://image.tmdb.org/t/p/w185/4npLYfxrVK5EwuipOvFKCXA0XmA.jpg",
+   "character": "Clerk (voice) / Arai (voice) / Monster (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 1781175,
+   "name": "Risae Matsuda",
+   "photo": "https://image.tmdb.org/t/p/w185/7bUMIZ3S1Wc73d5wgNCyiLYUhyU.jpg",
+   "character": "Sankai (voice) / Monster (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 2103088,
+   "name": "Masashi Yamane",
+   "photo": "https://image.tmdb.org/t/p/w185/tGGP0XOMzhFu8bhyAkeCLDs8WqT.jpg",
+   "character": "Hooded Man (voice) / Monster (voice) / Super Sankai (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 220709,
+   "name": "Mai Nakahara",
+   "photo": "https://image.tmdb.org/t/p/w185/s8DBmM540SRlRzUplaapMaDo8vV.jpg",
+   "character": "Zen's Mother (voice) / Mysterious Monster (voice)",
+   "episodes": 4
+  },
+  {
+   "id": 1250764,
+   "name": "Harumi Sakurai",
+   "photo": "https://image.tmdb.org/t/p/w185/ekqKChF19cjjrSB1LYpP6QDJoVR.jpg",
+   "character": "Kido (voice) / Gotsuka's Wife (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 2103085,
+   "name": "Makoto Sahara",
+   "photo": "https://image.tmdb.org/t/p/w185/nBt5Z2rXl5l9zvewBhcgY7TFsam.jpg",
+   "character": "Bookstore Clerk (voice) / Commentator (voice) / Godmother's Son (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 1496003,
+   "name": "Kaya Okuno",
+   "photo": "https://image.tmdb.org/t/p/w185/xG9g4LwNxbg7plMUNo0PfrgUJu6.jpg",
+   "character": "Child's Mother (voice) / Horiguchi (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 1564654,
+   "name": "Satsumi Matsuda",
+   "photo": "https://image.tmdb.org/t/p/w185/2t35t5W2hyBD0eQGCpJcG4m4zHh.jpg",
+   "character": "Sankai (voice) / Monster (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 1550514,
+   "name": "You Taichi",
+   "photo": "https://image.tmdb.org/t/p/w185/bt0oOFKknrOG7gNWusq9sc8UOhm.jpg",
+   "character": "Young Satoru (voice) / Fujita (voice)",
+   "episodes": 3
+  },
+  {
+   "id": 2769009,
+   "name": "Naoko Komatsu",
+   "photo": "https://image.tmdb.org/t/p/w185/miVudeHfBYVBkDVqCjTanQiSgnY.jpg",
+   "character": "Woman (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 1951282,
+   "name": "Yoshihito Sasaki",
+   "photo": "https://image.tmdb.org/t/p/w185/s3dCKhdu453qD4piXkz43UpBKdI.jpg",
+   "character": "Anaconda the Badger (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 1981445,
+   "name": "Shinnosuke Ogami",
+   "photo": "https://image.tmdb.org/t/p/w185/69w6vPB1Dqq7lnmZWODKgc8uKFE.jpg",
+   "character": "Monster (voice)",
+   "episodes": 2
+  },
+  {
+   "id": 1796608,
+   "name": "Hiroki Maeda",
+   "photo": "https://image.tmdb.org/t/p/w185/zmyLh0hNM7M9wijX608MKiVtSAZ.jpg",
+   "character": "Monster (voice) / Police Officer (voice)",
+   "episodes": 2
+  }
+ ],
+ "crew": [
+  {
+   "id": 2149551,
+   "name": "Kenta Ihara",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 1509839,
+   "name": "Takahiro Majima",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 3160103,
+   "name": "Shintaro Matsushima",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 3431379,
+   "name": "Akiyoshi Ando",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 2102835,
+   "name": "Hirotaka Kaneko",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 3431377,
+   "name": "Shuji Miyamoto",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1556274,
+   "name": "Fumihiko Shinozaki",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1506165,
+   "name": "Asuka Yamazaki",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 1647647,
+   "name": "Sho Tanaka",
+   "photo": "https://image.tmdb.org/t/p/w185/8uWkJIKbZuBEqY3Milyu6aLlDNY.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 3431391,
+   "name": "Hideyuki Hitomi",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 2998982,
+   "name": "Kana Utatane",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 3305875,
+   "name": "Mitsuki Kitamura",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 3336593,
+   "name": "Shunichi Kato",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 3319015,
+   "name": "Tatsuya Ishiguro",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1721935,
+   "name": "Masashi Nakamura",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:39:34.289Z"
+}

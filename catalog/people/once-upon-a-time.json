@@ -1,0 +1,332 @@
+{
+ "show": "Once Upon a Time",
+ "slug": "once-upon-a-time",
+ "tmdbId": 39272,
+ "cast": [
+  {
+   "id": 177231,
+   "name": "Lana Parrilla",
+   "photo": "https://image.tmdb.org/t/p/w185/jw0H1hMEW9xJ4atAzGMMRUFiys.jpg",
+   "character": "Regina Mills / Evil Queen",
+   "episodes": 156
+  },
+  {
+   "id": 18023,
+   "name": "Robert Carlyle",
+   "photo": "https://image.tmdb.org/t/p/w185/dLNeFPfJACiCiUz3oEdAjeKIwvZ.jpg",
+   "character": "Mr. Gold / Rumplestiltskin / Weaver",
+   "episodes": 156
+  },
+  {
+   "id": 1179337,
+   "name": "Jared Gilmore",
+   "photo": "https://image.tmdb.org/t/p/w185/9Zk5qu0lhyOsYfUyhJKOLwZqlRR.jpg",
+   "character": "Henry Mills",
+   "episodes": 139
+  },
+  {
+   "id": 41421,
+   "name": "Jennifer Morrison",
+   "photo": "https://image.tmdb.org/t/p/w185/i6dkHIME0BOPhbcPESHZND3vmtk.jpg",
+   "character": "Emma Swan",
+   "episodes": 136
+  },
+  {
+   "id": 77880,
+   "name": "Josh Dallas",
+   "photo": "https://image.tmdb.org/t/p/w185/f9cjzUtgasJTZgpdqFIREhUUxbQ.jpg",
+   "character": "David Nolan / Prince Charming",
+   "episodes": 135
+  },
+  {
+   "id": 417,
+   "name": "Ginnifer Goodwin",
+   "photo": "https://image.tmdb.org/t/p/w185/eByMpalFhQxUYuzA0srCN8rnfOZ.jpg",
+   "character": "Mary Margaret Blanchard / Snow White",
+   "episodes": 135
+  },
+  {
+   "id": 235767,
+   "name": "Colin O'Donoghue",
+   "photo": "https://image.tmdb.org/t/p/w185/8YF6zgCt1KUQ2VEx2RFP1P2CXCJ.jpg",
+   "character": "Captain Hook",
+   "episodes": 134
+  },
+  {
+   "id": 28660,
+   "name": "Emilie de Ravin",
+   "photo": "https://image.tmdb.org/t/p/w185/T4pyhFEPC8zSgUz9p3uQT2J5zX.jpg",
+   "character": "Belle",
+   "episodes": 117
+  },
+  {
+   "id": 54679,
+   "name": "Rebecca Mader",
+   "photo": "https://image.tmdb.org/t/p/w185/kuegzwWLntsMyZxcUBYsjuGWdoa.jpg",
+   "character": "Zelena / Wicked Witch of the West",
+   "episodes": 67
+  },
+  {
+   "id": 1055157,
+   "name": "Beverley Elliott",
+   "photo": "https://image.tmdb.org/t/p/w185/lf3TOeuzHkpVT8BG0CTjaQphQLN.jpg",
+   "character": "Granny",
+   "episodes": 61
+  },
+  {
+   "id": 52262,
+   "name": "Sean Maguire",
+   "photo": "https://image.tmdb.org/t/p/w185/lAp0mPeHNh0ATpCjTLyUGcMITWx.jpg",
+   "character": "Robin Hood",
+   "episodes": 55
+  },
+  {
+   "id": 1710,
+   "name": "Lee Arenberg",
+   "photo": "https://image.tmdb.org/t/p/w185/sjv8tdXzLwC8lZi6Ou6i6z5RbrW.jpg",
+   "character": "Leroy / Grumpy",
+   "episodes": 54
+  },
+  {
+   "id": 43928,
+   "name": "Meghan Ory",
+   "photo": "https://image.tmdb.org/t/p/w185/tO94Q2cAwcNCKhV7POeR0nqtE4r.jpg",
+   "character": "Ruby Lucas / Red Riding Hood",
+   "episodes": 46
+  },
+  {
+   "id": 53259,
+   "name": "Michael Raymond-James",
+   "photo": "https://image.tmdb.org/t/p/w185/1rSn1xKAwkJ19uFLyLovW9sN7Jo.jpg",
+   "character": "Neal Cassidy / Baelfire",
+   "episodes": 45
+  },
+  {
+   "id": 116049,
+   "name": "David-Paul Grove",
+   "photo": "https://image.tmdb.org/t/p/w185/u5ERJwvYZBW1Fnqb4V98ycZx0nu.jpg",
+   "character": "Doc",
+   "episodes": 45
+  },
+  {
+   "id": 99210,
+   "name": "Gabe Khouth",
+   "photo": "https://image.tmdb.org/t/p/w185/gHofmDYEuwjjTAOlybtqwvdoDS5.jpg",
+   "character": "Tom Clark / Sneezy",
+   "episodes": 42
+  },
+  {
+   "id": 1368501,
+   "name": "Faustino Di Bauda",
+   "photo": "https://image.tmdb.org/t/p/w185/aG152bt41mfZt98wczUbzAxwxgS.jpg",
+   "character": "Sleepy",
+   "episodes": 42
+  },
+  {
+   "id": 1226197,
+   "name": "Mig Macario",
+   "photo": "https://image.tmdb.org/t/p/w185/g8YZsr8SsPm4DAqPE7jmlcCYxxu.jpg",
+   "character": "Bashful",
+   "episodes": 37
+  },
+  {
+   "id": 1219459,
+   "name": "Michael Coleman",
+   "photo": "https://image.tmdb.org/t/p/w185/f8M7b7QuQIYF8fSqHBjGI2DwzBo.jpg",
+   "character": "Happy",
+   "episodes": 37
+  },
+  {
+   "id": 42710,
+   "name": "Keegan Connor Tracy",
+   "photo": "https://image.tmdb.org/t/p/w185/lP5rlqK8YIqobtFghURPbNdN5zw.jpg",
+   "character": "Mother Superior / Blue Fairy",
+   "episodes": 35
+  },
+  {
+   "id": 97943,
+   "name": "Raphael Sbarge",
+   "photo": "https://image.tmdb.org/t/p/w185/1xL5swcZQ1L3Ve5ekgG7t6JIhVG.jpg",
+   "character": "Archie Hopper / Jiminy Cricket",
+   "episodes": 34
+  },
+  {
+   "id": 1366697,
+   "name": "Jeffrey Kaiser",
+   "photo": "https://image.tmdb.org/t/p/w185/kfET4SneSuU1XAu0peYGNU3PlpA.jpg",
+   "character": "Dopey",
+   "episodes": 30
+  },
+  {
+   "id": 211598,
+   "name": "Andrew J. West",
+   "photo": "https://image.tmdb.org/t/p/w185/9cgJAb7Frqn9kBR3p73zASfPNBb.jpg",
+   "character": "Henry Mills",
+   "episodes": 24
+  },
+  {
+   "id": 1472792,
+   "name": "Alison Fernández",
+   "photo": "https://image.tmdb.org/t/p/w185/1ahA2jAc4A5C8yoTjOpjhSlgwFq.jpg",
+   "character": "Lucy Vidrio",
+   "episodes": 24
+  }
+ ],
+ "crew": [
+  {
+   "id": 1214366,
+   "name": "Edward Kitsis",
+   "photo": "https://image.tmdb.org/t/p/w185/5Re9mReATq4ZMRuxkona0YzQ1Dt.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Story",
+    "Writer"
+   ],
+   "episodes": 134
+  },
+  {
+   "id": 1214367,
+   "name": "Adam Horowitz",
+   "photo": "https://image.tmdb.org/t/p/w185/rw5D1tDe3CO9Wfuu5BD6eaMnkEA.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Story",
+    "Writer"
+   ],
+   "episodes": 134
+  },
+  {
+   "id": 1385175,
+   "name": "Steve Pearlman",
+   "photo": "https://image.tmdb.org/t/p/w185/7hiTSTS4C8fe7wx2LuyxKVXtqPP.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 156
+  },
+  {
+   "id": 4140,
+   "name": "Mark Isham",
+   "photo": "https://image.tmdb.org/t/p/w185/ayQ1j1T3wFk44kliy1u4atTT8um.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 156
+  },
+  {
+   "id": 1226598,
+   "name": "David H. Goodman",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 134
+  },
+  {
+   "id": 1245563,
+   "name": "Andrew Chambliss",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 107
+  },
+  {
+   "id": 77213,
+   "name": "Jane Espenson",
+   "photo": "https://image.tmdb.org/t/p/w185/lOLMAy3Ur9pSzF59J9Gsx05zJzK.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 109537,
+   "name": "Ralph Hemecker",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 28
+  },
+  {
+   "id": 3089533,
+   "name": "Cindy O'Connor",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 5858862,
+   "name": "Michael D. Simon",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 1370786,
+   "name": "Jerome Schwartz",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 20
+  },
+  {
+   "id": 33485,
+   "name": "Ron Underwood",
+   "photo": "https://image.tmdb.org/t/p/w185/3MxNvsTCxQIuAmEnmr5lRgxS20G.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 17
+  },
+  {
+   "id": 1370789,
+   "name": "Dana Horgan",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 1215143,
+   "name": "Dean White",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 1230678,
+   "name": "Kalinda Vazquez",
+   "photo": "https://image.tmdb.org/t/p/w185/jANSGnqviAxNvUykQscqejc0YA.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 63270,
+   "name": "Romeo Tirone",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 10
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:28.959Z"
+}

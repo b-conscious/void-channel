@@ -1,0 +1,300 @@
+{
+ "show": "Mystery Science Theater 3000",
+ "slug": "mystery-science-theater-3000",
+ "tmdbId": 1952,
+ "cast": [
+  {
+   "id": 30022,
+   "name": "Kevin Murphy",
+   "photo": "https://image.tmdb.org/t/p/w185/s1REGBYFGc2Ibo7QlQ95cbjaq2m.jpg",
+   "character": "Tom Servo (voice) / Professor Bobo / Officer Kevin / Tom Servo (voice)",
+   "episodes": 163
+  },
+  {
+   "id": 30019,
+   "name": "Trace Beaulieu",
+   "photo": "https://image.tmdb.org/t/p/w185/2AB4g7ZSEU3Q5C5Bt6xthvOYK87.jpg",
+   "character": "Crow T. Robot (voice) / Dr. Clayton Forrester",
+   "episodes": 128
+  },
+  {
+   "id": 117650,
+   "name": "Mary Jo Pehl",
+   "photo": "https://image.tmdb.org/t/p/w185/huWFK2lnHxDcocuk0uMpMrkwOcO.jpg",
+   "character": "The Power Steves Saxophone Player / Mary Jo from Deep 12 / Party Goer",
+   "episodes": 126
+  },
+  {
+   "id": 30020,
+   "name": "Michael J. Nelson",
+   "photo": "https://image.tmdb.org/t/p/w185/8yCJVVFtkrh6VmAnSBbmM9yqzYc.jpg",
+   "character": "Baywatch characters (voice) / Isaac Asimov Literary Doomsday Device (voice) / Morrissey",
+   "episodes": 119
+  },
+  {
+   "id": 30021,
+   "name": "Jim Mallon",
+   "photo": "https://image.tmdb.org/t/p/w185/uYkTlmNjdqvOlzpU2YpXyDkb39K.jpg",
+   "character": "Gypsy (voice) / Imperialistic Alien / Bowler-Hatted Guy",
+   "episodes": 116
+  },
+  {
+   "id": 117649,
+   "name": "Frank Conniff",
+   "photo": "https://image.tmdb.org/t/p/w185/dWiyYrczRjH78n6ppe9YiSU1u52.jpg",
+   "character": "TV's Frank",
+   "episodes": 109
+  },
+  {
+   "id": 30024,
+   "name": "Joel Hodgson",
+   "photo": "https://image.tmdb.org/t/p/w185/rAYnjJKAn28aXVGcV7WEinSVlD4.jpg",
+   "character": "Joel Robinson",
+   "episodes": 98
+  },
+  {
+   "id": 1714794,
+   "name": "Patrick Brantseg",
+   "photo": null,
+   "character": "Yakov Smirnoff / Tourist Son / Rooster",
+   "episodes": 51
+  },
+  {
+   "id": 68833,
+   "name": "Bill Corbett",
+   "photo": "https://image.tmdb.org/t/p/w185/wReOO15Rjtl6nBXk8EoG36Xgrwz.jpg",
+   "character": "Krankor / Space Mother (voice) / Crow T. Robot (voice) / Observer",
+   "episodes": 48
+  },
+  {
+   "id": 1228357,
+   "name": "Paul Chaplin",
+   "photo": "https://image.tmdb.org/t/p/w185/b72K2RguL85UWLklOxyzElSIRA1.jpg",
+   "character": "Stan Johnson (voice) / Huggy Bear / Party Goer",
+   "episodes": 31
+  },
+  {
+   "id": 1228337,
+   "name": "Bridget Jones Nelson",
+   "photo": "https://image.tmdb.org/t/p/w185/mmywoWl4YbpTus5Qbj6MX0K9W6T.jpg",
+   "character": "Flavia / Helen / Shelly",
+   "episodes": 17
+  },
+  {
+   "id": 117651,
+   "name": "J. Elvis Weinstein",
+   "photo": "https://image.tmdb.org/t/p/w185/iGz6v6jDNcCESVEjJ3Qa0nurIzV.jpg",
+   "character": "Tom Servo (archive audio) / Tom Servo (voice) / Dr. Laurence Erhardt",
+   "episodes": 14
+  },
+  {
+   "id": 1714796,
+   "name": "Beez McKeever",
+   "photo": null,
+   "character": "Steffi / Peasant / Villager #2 (voice)",
+   "episodes": 12
+  },
+  {
+   "id": 4546670,
+   "name": "Peter Rudrud",
+   "photo": null,
+   "character": "Tech Support Recording (voice) / Todd Gunderson / Sea World Representative (voice)",
+   "episodes": 7
+  },
+  {
+   "id": 1515928,
+   "name": "Bradley J. Keely",
+   "photo": null,
+   "character": "Little Amish Boy / Little Boy / Rodney",
+   "episodes": 3
+  },
+  {
+   "id": 4248762,
+   "name": "James Smith",
+   "photo": null,
+   "character": "Jerry",
+   "episodes": 2
+  },
+  {
+   "id": 1228348,
+   "name": "Robert Smith",
+   "photo": null,
+   "character": "Howard",
+   "episodes": 1
+  },
+  {
+   "id": 109255,
+   "name": "Leonard Maltin",
+   "photo": "https://image.tmdb.org/t/p/w185/5jQo1L8Vv10nZQQeMgSaCjLxJlB.jpg",
+   "character": "Leonard Maltin",
+   "episodes": 1
+  },
+  {
+   "id": 1228346,
+   "name": "Jack Beaulieu",
+   "photo": null,
+   "character": "Old Clayton Forrester",
+   "episodes": 1
+  },
+  {
+   "id": 1228360,
+   "name": "Mike Dodge",
+   "photo": null,
+   "character": "Bob the A-Bomb",
+   "episodes": 1
+  },
+  {
+   "id": 4248767,
+   "name": "Robert Czech",
+   "photo": null,
+   "character": "Sylvia",
+   "episodes": 1
+  },
+  {
+   "id": 1228354,
+   "name": "David Sussman",
+   "photo": null,
+   "character": "The Power Steves Accordion Player",
+   "episodes": 1
+  },
+  {
+   "id": 1714795,
+   "name": "Tim Paulson",
+   "photo": null,
+   "character": "Party Goer",
+   "episodes": 1
+  },
+  {
+   "id": 4577681,
+   "name": "Tim Johnson",
+   "photo": null,
+   "character": "Mike Down",
+   "episodes": 1
+  }
+ ],
+ "crew": [
+  {
+   "id": 30024,
+   "name": "Joel Hodgson",
+   "photo": "https://image.tmdb.org/t/p/w185/rAYnjJKAn28aXVGcV7WEinSVlD4.jpg",
+   "jobs": [
+    "Creator",
+    "Director"
+   ],
+   "episodes": 8
+  },
+  {
+   "id": 30021,
+   "name": "Jim Mallon",
+   "photo": "https://image.tmdb.org/t/p/w185/uYkTlmNjdqvOlzpU2YpXyDkb39K.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 176
+  },
+  {
+   "id": 30022,
+   "name": "Kevin Murphy",
+   "photo": "https://image.tmdb.org/t/p/w185/s1REGBYFGc2Ibo7QlQ95cbjaq2m.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 176
+  },
+  {
+   "id": 30019,
+   "name": "Trace Beaulieu",
+   "photo": "https://image.tmdb.org/t/p/w185/2AB4g7ZSEU3Q5C5Bt6xthvOYK87.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 176
+  },
+  {
+   "id": 30020,
+   "name": "Michael J. Nelson",
+   "photo": "https://image.tmdb.org/t/p/w185/8yCJVVFtkrh6VmAnSBbmM9yqzYc.jpg",
+   "jobs": [
+    "Director",
+    "Writer"
+   ],
+   "episodes": 176
+  },
+  {
+   "id": 1228354,
+   "name": "David Sussman",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 176
+  },
+  {
+   "id": 1228357,
+   "name": "Paul Chaplin",
+   "photo": "https://image.tmdb.org/t/p/w185/b72K2RguL85UWLklOxyzElSIRA1.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 176
+  },
+  {
+   "id": 117650,
+   "name": "Mary Jo Pehl",
+   "photo": "https://image.tmdb.org/t/p/w185/huWFK2lnHxDcocuk0uMpMrkwOcO.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 176
+  },
+  {
+   "id": 1228359,
+   "name": "Colleen Henjum",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 176
+  },
+  {
+   "id": 1228360,
+   "name": "Mike Dodge",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 176
+  },
+  {
+   "id": 117649,
+   "name": "Frank Conniff",
+   "photo": "https://image.tmdb.org/t/p/w185/dWiyYrczRjH78n6ppe9YiSU1u52.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 176
+  },
+  {
+   "id": 68833,
+   "name": "Bill Corbett",
+   "photo": "https://image.tmdb.org/t/p/w185/wReOO15Rjtl6nBXk8EoG36Xgrwz.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 1228337,
+   "name": "Bridget Jones Nelson",
+   "photo": "https://image.tmdb.org/t/p/w185/mmywoWl4YbpTus5Qbj6MX0K9W6T.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:30.378Z"
+}

@@ -1,0 +1,327 @@
+{
+ "show": "The Newsroom",
+ "slug": "the-newsroom",
+ "tmdbId": 15621,
+ "cast": [
+  {
+   "id": 8447,
+   "name": "Jeff Daniels",
+   "photo": "https://image.tmdb.org/t/p/w185/r0mkZJZnTSJO3HJRsMW5HtszxE8.jpg",
+   "character": "Will McAvoy",
+   "episodes": 25
+  },
+  {
+   "id": 1246,
+   "name": "Emily Mortimer",
+   "photo": "https://image.tmdb.org/t/p/w185/oZ4CZW2eW8lL2alD1mwZrFkfACI.jpg",
+   "character": "MacKenzie McHale",
+   "episodes": 25
+  },
+  {
+   "id": 17487,
+   "name": "John Gallagher Jr.",
+   "photo": "https://image.tmdb.org/t/p/w185/e4eEg5lH6Yk0OkpieUoUYdzl2Ui.jpg",
+   "character": "James Harper",
+   "episodes": 25
+  },
+  {
+   "id": 17486,
+   "name": "Alison Pill",
+   "photo": "https://image.tmdb.org/t/p/w185/ebcCkhqFtHvHx5dkBfVmlAknDxC.jpg",
+   "character": "Margaret Jordan",
+   "episodes": 25
+  },
+  {
+   "id": 1218218,
+   "name": "Thomas Sadoski",
+   "photo": "https://image.tmdb.org/t/p/w185/ciqrqKHUfFGlMPyUE35YSKEvxuL.jpg",
+   "character": "Don Keefer",
+   "episodes": 25
+  },
+  {
+   "id": 76788,
+   "name": "Dev Patel",
+   "photo": "https://image.tmdb.org/t/p/w185/byAo6xoleVSG5O9YpGrQ5YuCRX7.jpg",
+   "character": "Neelamani Sampat",
+   "episodes": 25
+  },
+  {
+   "id": 81364,
+   "name": "Olivia Munn",
+   "photo": "https://image.tmdb.org/t/p/w185/ha4W3WfxBopQK2FZmVochNrN1GT.jpg",
+   "character": "Sloan Sabbith",
+   "episodes": 25
+  },
+  {
+   "id": 8975,
+   "name": "Sam Waterston",
+   "photo": "https://image.tmdb.org/t/p/w185/cSCy9Ng1QJSbEi440342bL71ceF.jpg",
+   "character": "Charlie Skinner",
+   "episodes": 25
+  },
+  {
+   "id": 172096,
+   "name": "Chris Chalk",
+   "photo": "https://image.tmdb.org/t/p/w185/j8IpJkLTAhalh5Q356VNojcIAtx.jpg",
+   "character": "Gary Cooper",
+   "episodes": 24
+  },
+  {
+   "id": 1695597,
+   "name": "Margaret Judson",
+   "photo": "https://image.tmdb.org/t/p/w185/mjvdlcrIK17uShRGwSf1LQ2kdHM.jpg",
+   "character": "Tess Westin",
+   "episodes": 24
+  },
+  {
+   "id": 118546,
+   "name": "Adina Porter",
+   "photo": "https://image.tmdb.org/t/p/w185/2mXvJkXGVCoqyV1Gxmki9WrkRke.jpg",
+   "character": "Kendra James",
+   "episodes": 23
+  },
+  {
+   "id": 2818046,
+   "name": "John F. Carpenter",
+   "photo": "https://image.tmdb.org/t/p/w185/zULbR2xuTJThzTitsxEC1ehj0d5.jpg",
+   "character": "Herb Wilson",
+   "episodes": 23
+  },
+  {
+   "id": 1710602,
+   "name": "Thomas Matthews",
+   "photo": "https://image.tmdb.org/t/p/w185/7bcV9JSLIGxIbk6gfHNGomQz0WI.jpg",
+   "character": "Martin Stallworth",
+   "episodes": 22
+  },
+  {
+   "id": 61835,
+   "name": "Trieu Tran",
+   "photo": "https://image.tmdb.org/t/p/w185/wMcSqwcdCu8xoDismpffF1ujFxD.jpg",
+   "character": "Joey Phan",
+   "episodes": 22
+  },
+  {
+   "id": 203734,
+   "name": "Wynn Everett",
+   "photo": "https://image.tmdb.org/t/p/w185/hWLWcoqXumM9NY9vfByvQmmcFdb.jpg",
+   "character": "Tamara Hart",
+   "episodes": 19
+  },
+  {
+   "id": 168351,
+   "name": "Charlie Weirauch",
+   "photo": "https://image.tmdb.org/t/p/w185/x25ejOhDK23dnXGnImIzeBldFwU.jpg",
+   "character": "Jake Watson",
+   "episodes": 19
+  },
+  {
+   "id": 1058848,
+   "name": "Riley Voelkel",
+   "photo": "https://image.tmdb.org/t/p/w185/cwy2BBtgTEuotZsX7eAjUxgpAkA.jpg",
+   "character": "Jenna Johnson",
+   "episodes": 15
+  },
+  {
+   "id": 61659,
+   "name": "Chris Messina",
+   "photo": "https://image.tmdb.org/t/p/w185/l9DbQTK5pI6SOGpmfbADGLhdOYS.jpg",
+   "character": "Reese Lansing",
+   "episodes": 14
+  },
+  {
+   "id": 6352,
+   "name": "Jane Fonda",
+   "photo": "https://image.tmdb.org/t/p/w185/5Yb3nmRWXXZAxNhfhEuOMdfyVNN.jpg",
+   "character": "Leona Lansing",
+   "episodes": 10
+  },
+  {
+   "id": 504787,
+   "name": "Grace Gummer",
+   "photo": "https://image.tmdb.org/t/p/w185/z9MiGb1QdivKRYCgxcbcPALOkI4.jpg",
+   "character": "Hallie Shea",
+   "episodes": 10
+  },
+  {
+   "id": 35029,
+   "name": "David Harbour",
+   "photo": "https://image.tmdb.org/t/p/w185/qMFtMWlYVtFVyBoBhX5IoA5sN5a.jpg",
+   "character": "Elliot Hirsch",
+   "episodes": 10
+  },
+  {
+   "id": 4726,
+   "name": "Marcia Gay Harden",
+   "photo": "https://image.tmdb.org/t/p/w185/5vxcHIHABJxqhweAsTiXVOhT4SE.jpg",
+   "character": "Rebecca Halliday",
+   "episodes": 10
+  },
+  {
+   "id": 210305,
+   "name": "Kelen Coleman",
+   "photo": "https://image.tmdb.org/t/p/w185/g0PqX0spujEGTbRZeWGjMBJlGuS.jpg",
+   "character": "Lisa Lambert",
+   "episodes": 7
+  },
+  {
+   "id": 79586,
+   "name": "Sarah Scott Davis",
+   "photo": "https://image.tmdb.org/t/p/w185/jbGKqzAzgAhoXZfbhptt9bMrvDZ.jpg",
+   "character": "Terry Smith",
+   "episodes": 7
+  }
+ ],
+ "crew": [
+  {
+   "id": 13520,
+   "name": "Aaron Sorkin",
+   "photo": "https://image.tmdb.org/t/p/w185/hGkusztbd1rb23QFAjvpJxKSTAU.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Teleplay",
+    "Writer",
+    "Story"
+   ],
+   "episodes": 32
+  },
+  {
+   "id": 113225,
+   "name": "Alan Poul",
+   "photo": "https://image.tmdb.org/t/p/w185/wsZwsaJ20PPvndjIYnLiPYFRUEC.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 2997,
+   "name": "Scott Rudin",
+   "photo": "https://image.tmdb.org/t/p/w185/sSaFhz7Fiq6T969nqQfvgeu7fyl.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 25
+  },
+  {
+   "id": 54733,
+   "name": "Greg Mottola",
+   "photo": "https://image.tmdb.org/t/p/w185/lVojULjLlvufE3fHZJ9zWMVAPk9.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1216147,
+   "name": "Anthony Hemingway",
+   "photo": "https://image.tmdb.org/t/p/w185/3npAesb4X5yvxPlUWRHTOFz9RCi.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  },
+  {
+   "id": 15798,
+   "name": "Lesli Linka Glatter",
+   "photo": "https://image.tmdb.org/t/p/w185/8F13UPsRnXWTDcp8iA3ZXMtfJa3.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 88391,
+   "name": "Jeremy Podeswa",
+   "photo": "https://image.tmdb.org/t/p/w185/sk9cc9sGGI6oByOOZZB0y0GlAWm.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 1591512,
+   "name": "Jon Lovett",
+   "photo": "https://image.tmdb.org/t/p/w185/vMgNRXUHQhqbeA12MQLZxagmnn1.jpg",
+   "jobs": [
+    "Story"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 2787941,
+   "name": "Ian Reichbach",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 2
+  },
+  {
+   "id": 173667,
+   "name": "Julian Farino",
+   "photo": "https://image.tmdb.org/t/p/w185/hxXRkhFWCdKKklvU9OJk0WSHnZC.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1213125,
+   "name": "Paul Lieberstein",
+   "photo": "https://image.tmdb.org/t/p/w185/oLCaNVAw5cfE5q4e0PRsmHTuHfd.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 5872,
+   "name": "Joshua Marston",
+   "photo": "https://image.tmdb.org/t/p/w185/opvpMk86A1CIHPTSM0PEMfvPpqk.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 1177777,
+   "name": "Alex Graves",
+   "photo": "https://image.tmdb.org/t/p/w185/c9KWBdhgtsoUFGdWbInk3WUnUbU.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 21712,
+   "name": "Carl Franklin",
+   "photo": "https://image.tmdb.org/t/p/w185/8xX5z2BXZZHynzaMruOB8VkQ077.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 88743,
+   "name": "Daniel Minahan",
+   "photo": "https://image.tmdb.org/t/p/w185/zBRWTVYdZ77HT1zWpZtLXZ8AW1F.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  },
+  {
+   "id": 63513,
+   "name": "Jason Ensler",
+   "photo": null,
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 1
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:31:46.606Z"
+}

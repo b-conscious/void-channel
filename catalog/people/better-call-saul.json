@@ -1,0 +1,336 @@
+{
+ "show": "Better Call Saul",
+ "slug": "better-call-saul",
+ "tmdbId": 60059,
+ "cast": [
+  {
+   "id": 59410,
+   "name": "Bob Odenkirk",
+   "photo": "https://image.tmdb.org/t/p/w185/rF0Lb6SBhGSTvjRffmlKRSeI3jE.jpg",
+   "character": "Jimmy McGill",
+   "episodes": 63
+  },
+  {
+   "id": 783,
+   "name": "Jonathan Banks",
+   "photo": "https://image.tmdb.org/t/p/w185/bswk26L13PvY4iMTwUTAsepXCLv.jpg",
+   "character": "Mike Ehrmantraut",
+   "episodes": 63
+  },
+  {
+   "id": 62765,
+   "name": "Rhea Seehorn",
+   "photo": "https://image.tmdb.org/t/p/w185/tql4gvY8NfYvmAdmdp1olkwJnrq.jpg",
+   "character": "Kim Wexler",
+   "episodes": 63
+  },
+  {
+   "id": 58791,
+   "name": "Patrick Fabian",
+   "photo": "https://image.tmdb.org/t/p/w185/bbsYGlnvGUTTExcabKL1OIhcKyZ.jpg",
+   "character": "Howard Hamlin",
+   "episodes": 57
+  },
+  {
+   "id": 829372,
+   "name": "Michael Mando",
+   "photo": "https://image.tmdb.org/t/p/w185/gvM2wG66bjEpiirdeQdyG9EzUfv.jpg",
+   "character": "Nacho Varga",
+   "episodes": 49
+  },
+  {
+   "id": 4808,
+   "name": "Giancarlo Esposito",
+   "photo": "https://image.tmdb.org/t/p/w185/MJOo4QZgMAb3y8QzOUDVFQusQZ.jpg",
+   "character": "Gus Fring",
+   "episodes": 40
+  },
+  {
+   "id": 21731,
+   "name": "Michael McKean",
+   "photo": "https://image.tmdb.org/t/p/w185/xuEZeuylzznJcf0nDs1RlvuzaPr.jpg",
+   "character": "Chuck McGill",
+   "episodes": 33
+  },
+  {
+   "id": 76855,
+   "name": "Tony Dalton",
+   "photo": "https://image.tmdb.org/t/p/w185/vWteTJu9Dyrax7gQq8ndTjx5s6V.jpg",
+   "character": "Lalo Salamanca",
+   "episodes": 26
+  },
+  {
+   "id": 1173,
+   "name": "Mark Margolis",
+   "photo": "https://image.tmdb.org/t/p/w185/rT5TYJIPLBkTqsrUs00AixGeaMM.jpg",
+   "character": "Hector Salamanca",
+   "episodes": 22
+  },
+  {
+   "id": 62105,
+   "name": "Kerry Condon",
+   "photo": "https://image.tmdb.org/t/p/w185/bLP627Ar30kSqy5ZIYVJioCprOH.jpg",
+   "character": "Stacey Ehrmantraut",
+   "episodes": 18
+  },
+  {
+   "id": 582668,
+   "name": "Jeremiah Bitsui",
+   "photo": "https://image.tmdb.org/t/p/w185/jB4u8jekprqQeB0xhdB4YSgO8FG.jpg",
+   "character": "Victor",
+   "episodes": 17
+  },
+  {
+   "id": 159334,
+   "name": "Ray Campbell",
+   "photo": "https://image.tmdb.org/t/p/w185/nbapP8LvO1KZrmlpNWthEP40H75.jpg",
+   "character": "Tyrus Kitt",
+   "episodes": 17
+  },
+  {
+   "id": 265855,
+   "name": "Cara Pifko",
+   "photo": "https://image.tmdb.org/t/p/w185/oe6Xx56bpVYpcTJJNJFbzN0PWfA.jpg",
+   "character": "Paige Novick",
+   "episodes": 16
+  },
+  {
+   "id": 118937,
+   "name": "Dennis Boutsikaris",
+   "photo": "https://image.tmdb.org/t/p/w185/eholEaSnVKzse1l7ph6hDsfTTi7.jpg",
+   "character": "Rich Schweikart",
+   "episodes": 15
+  },
+  {
+   "id": 42157,
+   "name": "Ed Begley Jr.",
+   "photo": "https://image.tmdb.org/t/p/w185/cdS6hZVabhpQ3UdIK0HNvYXj5IM.jpg",
+   "character": "Clifford Main",
+   "episodes": 14
+  },
+  {
+   "id": 205209,
+   "name": "Josh Fadem",
+   "photo": "https://image.tmdb.org/t/p/w185/bd9d9AkcVFOIQkGxICPdaIuzMG.jpg",
+   "character": "Camera Guy",
+   "episodes": 14
+  },
+  {
+   "id": 1843906,
+   "name": "Julian Bonfiglio",
+   "photo": "https://image.tmdb.org/t/p/w185/ofrSnfnpSfXjYplqxXdDSrN7nnK.jpg",
+   "character": "Sound Guy",
+   "episodes": 14
+  },
+  {
+   "id": 147085,
+   "name": "Tina Parker",
+   "photo": "https://image.tmdb.org/t/p/w185/qa4BFhrCGQKwqdTgLJ8S2rr95hD.jpg",
+   "character": "Francesca Liddy",
+   "episodes": 14
+  },
+  {
+   "id": 16937,
+   "name": "Rex Linn",
+   "photo": "https://image.tmdb.org/t/p/w185/dY8x6OrmS0dBdogxeF2QALrCvpI.jpg",
+   "character": "Kevin Wachtell",
+   "episodes": 13
+  },
+  {
+   "id": 2097834,
+   "name": "Peter Diseth",
+   "photo": "https://image.tmdb.org/t/p/w185/9TtMmiS6UBu8Qjruu6Py1rTjBlV.jpg",
+   "character": "Bill Oakley",
+   "episodes": 12
+  },
+  {
+   "id": 1393520,
+   "name": "Vincent Fuentes",
+   "photo": "https://image.tmdb.org/t/p/w185/6r1hLeQBlsuAvL3rBHWikfQ4xFN.jpg",
+   "character": "Arturo",
+   "episodes": 11
+  },
+  {
+   "id": 1574846,
+   "name": "John Christian Love",
+   "photo": "https://image.tmdb.org/t/p/w185/8CvScYn9DofQim6qWf2gp3iog2k.jpg",
+   "character": "Ernesto",
+   "episodes": 11
+  },
+  {
+   "id": 66148,
+   "name": "Javier Grajeda",
+   "photo": "https://image.tmdb.org/t/p/w185/unwjwqAcrfnIcpDv9EcnlgfD67p.jpg",
+   "character": "Juan Bolsa",
+   "episodes": 11
+  },
+  {
+   "id": 168147,
+   "name": "Juan Carlos Cantu",
+   "photo": "https://image.tmdb.org/t/p/w185/zg0zGiingVYY2MxAsj0nAazHYMA.jpg",
+   "character": "Manuel Varga",
+   "episodes": 11
+  }
+ ],
+ "crew": [
+  {
+   "id": 66633,
+   "name": "Vince Gilligan",
+   "photo": "https://image.tmdb.org/t/p/w185/wJIxATESjzsjSgvRhVavOmdamXc.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 63
+  },
+  {
+   "id": 24951,
+   "name": "Peter Gould",
+   "photo": "https://image.tmdb.org/t/p/w185/a2dJSpUiXQ2NAxqSzztr6WsnhOJ.jpg",
+   "jobs": [
+    "Creator",
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 63
+  },
+  {
+   "id": 103009,
+   "name": "Thomas Schnauz",
+   "photo": "https://image.tmdb.org/t/p/w185/uMz5wsgv6QQAgFI809SgCCbwYn9.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 63
+  },
+  {
+   "id": 1223199,
+   "name": "Melissa Bernstein",
+   "photo": "https://image.tmdb.org/t/p/w185/rSztwqMUIko8RkmwjxBse1XDW3g.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 63
+  },
+  {
+   "id": 1223202,
+   "name": "Diane Mercer",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 63
+  },
+  {
+   "id": 5162,
+   "name": "Mark Johnson",
+   "photo": "https://image.tmdb.org/t/p/w185/gLuXkOQjqB81aHMGJ2OtYzEpHQu.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 63
+  },
+  {
+   "id": 1280070,
+   "name": "Dave Porter",
+   "photo": "https://image.tmdb.org/t/p/w185/flRW9QknVtU8HG7lLjMvflbhl2a.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 63
+  },
+  {
+   "id": 1626105,
+   "name": "Gordon Smith",
+   "photo": "https://image.tmdb.org/t/p/w185/oM204aEgATNdQZe8OCUxBxilFL2.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 43
+  },
+  {
+   "id": 1223203,
+   "name": "Gennifer Hutchison",
+   "photo": "https://image.tmdb.org/t/p/w185/b9aW3OIGhVOv7m8QdIzX87Bs4hl.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 40
+  },
+  {
+   "id": 1825196,
+   "name": "Alison Tatlock",
+   "photo": "https://image.tmdb.org/t/p/w185/ecwoedjgH2x5IecaR1oWcaujrD0.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 33
+  },
+  {
+   "id": 2109643,
+   "name": "Marion Dayre",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 24
+  },
+  {
+   "id": 76879,
+   "name": "Ann Cherkis",
+   "photo": "https://image.tmdb.org/t/p/w185/vk2bfDYsj9vDvDH0ALIzP4IOgjY.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 16
+  },
+  {
+   "id": 1366450,
+   "name": "Michael Morris",
+   "photo": "https://image.tmdb.org/t/p/w185/2tvHMQ1OcOUxeAMDQPI4cWGwnRo.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 3210944,
+   "name": "Ariel Levine",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 9
+  },
+  {
+   "id": 111338,
+   "name": "Adam Bernstein",
+   "photo": "https://image.tmdb.org/t/p/w185/mnob89jXPcPfW85PPw7tTPCKSig.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 4
+  },
+  {
+   "id": 1212287,
+   "name": "Colin Bucksey",
+   "photo": "https://image.tmdb.org/t/p/w185/apHHMfnkCVna1iYR3K5PA0TQ14D.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 3
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:32:57.085Z"
+}

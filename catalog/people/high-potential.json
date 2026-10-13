@@ -1,0 +1,330 @@
+{
+ "show": "High Potential",
+ "slug": "high-potential",
+ "tmdbId": 226637,
+ "cast": [
+  {
+   "id": 95102,
+   "name": "Kaitlin Olson",
+   "photo": "https://image.tmdb.org/t/p/w185/z84SKRCVl9zPhP9AINVS8Bx8dRO.jpg",
+   "character": "Morgan Gillory",
+   "episodes": 32
+  },
+  {
+   "id": 10582,
+   "name": "Daniel Sunjata",
+   "photo": "https://image.tmdb.org/t/p/w185/w3Wa0d7j2auA2R8FQvjrgfB3ozo.jpg",
+   "character": "Adam Karadec",
+   "episodes": 32
+  },
+  {
+   "id": 159657,
+   "name": "Judy Reyes",
+   "photo": "https://image.tmdb.org/t/p/w185/DQ8kIRHru9Zzy6CftVryHmIOJs.jpg",
+   "character": "Selena Soto",
+   "episodes": 32
+  },
+  {
+   "id": 1697199,
+   "name": "Javicia Leslie",
+   "photo": "https://image.tmdb.org/t/p/w185/eXZHYQQmL0GYvqYP1Sdbprkxo3A.jpg",
+   "character": "Daphne Forrester",
+   "episodes": 32
+  },
+  {
+   "id": 145246,
+   "name": "Deniz Akdeniz",
+   "photo": "https://image.tmdb.org/t/p/w185/dP8YJtscZgYH5qpYD0YUG6oSMSu.jpg",
+   "character": "Lev 'Oz' Ozdil",
+   "episodes": 32
+  },
+  {
+   "id": 3046586,
+   "name": "Amirah J",
+   "photo": "https://image.tmdb.org/t/p/w185/ywkWIPb8n56t4B746BqBBZ6RSOV.jpg",
+   "character": "Ava Gillory",
+   "episodes": 32
+  },
+  {
+   "id": 3598148,
+   "name": "Matthew Lamb",
+   "photo": "https://image.tmdb.org/t/p/w185/ebWptEAvCAzaD6QL4vEaY3GA80S.jpg",
+   "character": "Elliot Radovic",
+   "episodes": 32
+  },
+  {
+   "id": 1213573,
+   "name": "Taran Killam",
+   "photo": "https://image.tmdb.org/t/p/w185/aFHLtL5Ni57uIS0fN30HZBWbla6.jpg",
+   "character": "Ludo Radovic",
+   "episodes": 12
+  },
+  {
+   "id": 81388,
+   "name": "Steve Howey",
+   "photo": "https://image.tmdb.org/t/p/w185/7pkqToPpwV6id92cHDwigS77qdv.jpg",
+   "character": "Nick Wagner",
+   "episodes": 11
+  },
+  {
+   "id": 327,
+   "name": "Mekhi Phifer",
+   "photo": "https://image.tmdb.org/t/p/w185/jCvF0bpi9emIWBnu20MCMU0bwrf.jpg",
+   "character": "Arthur Ellis",
+   "episodes": 8
+  },
+  {
+   "id": 155228,
+   "name": "Susan Kelechi Watson",
+   "photo": "https://image.tmdb.org/t/p/w185/2hVnXxWj6j2R9edchIRsoSyxY5x.jpg",
+   "character": "Lucia",
+   "episodes": 6
+  },
+  {
+   "id": 81391,
+   "name": "J. D. Pardo",
+   "photo": "https://image.tmdb.org/t/p/w185/uS616imhPsa4kt8veloLGQffx6f.jpg",
+   "character": "Tom",
+   "episodes": 5
+  },
+  {
+   "id": 39520,
+   "name": "Garret Dillahunt",
+   "photo": "https://image.tmdb.org/t/p/w185/7wHWTkIhre0j9L9CY2t5VVwg630.jpg",
+   "character": "Lieutenant Melon",
+   "episodes": 4
+  },
+  {
+   "id": 3281000,
+   "name": "TJ Lee",
+   "photo": "https://image.tmdb.org/t/p/w185/wi2MXs4i0Ycn9mjKlUngT30BMV8.jpg",
+   "character": "Officer Lin",
+   "episodes": 4
+  },
+  {
+   "id": 95638,
+   "name": "John Pyper-Ferguson",
+   "photo": "https://image.tmdb.org/t/p/w185/2IYFYfH67yG1UGedH49BYjigMe.jpg",
+   "character": "Eric Hayworth",
+   "episodes": 4
+  },
+  {
+   "id": 4991548,
+   "name": "Hudson Macready",
+   "photo": null,
+   "character": "Ryder",
+   "episodes": 3
+  },
+  {
+   "id": 4061746,
+   "name": "Anthony Darrell",
+   "photo": null,
+   "character": "Male LAPD Officer / Major Crimes Detective",
+   "episodes": 3
+  },
+  {
+   "id": 206757,
+   "name": "David Giuntoli",
+   "photo": "https://image.tmdb.org/t/p/w185/tMuuIilbbhyubO44kEuHnExa2qY.jpg",
+   "character": "David Peck",
+   "episodes": 3
+  },
+  {
+   "id": 10431,
+   "name": "Jennifer Jason Leigh",
+   "photo": "https://image.tmdb.org/t/p/w185/7DbG2AO3nygHAkNC866HLPKkxv9.jpg",
+   "character": "Willa Quinn",
+   "episodes": 3
+  },
+  {
+   "id": 107939,
+   "name": "Jocko Sims",
+   "photo": "https://image.tmdb.org/t/p/w185/qcJASKAB9jt2s7seb3AwFP7DbeX.jpg",
+   "character": "Ronnie Oliver",
+   "episodes": 2
+  },
+  {
+   "id": 1360374,
+   "name": "Diandra Lyle",
+   "photo": "https://image.tmdb.org/t/p/w185/qsYa0g3wwF9AI7bzIJnoegHI3Jh.jpg",
+   "character": "M.E. Regina Rotter",
+   "episodes": 2
+  },
+  {
+   "id": 17941,
+   "name": "Domenick Lombardozzi",
+   "photo": "https://image.tmdb.org/t/p/w185/kLUR7XZRrINEqTFi8gUrzKpW74R.jpg",
+   "character": "Gio Conforth",
+   "episodes": 2
+  },
+  {
+   "id": 1453100,
+   "name": "Nick Wechsler",
+   "photo": "https://image.tmdb.org/t/p/w185/vUkfhJc2x3jrO9WY7D1405g4amE.jpg",
+   "character": "Jason Howard",
+   "episodes": 2
+  },
+  {
+   "id": 214695,
+   "name": "Kate Miner",
+   "photo": "https://image.tmdb.org/t/p/w185/c2GXh9l7LsBH1eNsKXIxheY1BrF.jpg",
+   "character": "Maya Price",
+   "episodes": 2
+  }
+ ],
+ "crew": [
+  {
+   "id": 47506,
+   "name": "Drew Goddard",
+   "photo": "https://image.tmdb.org/t/p/w185/2ff2wbCu0kc61JDHgBiPSqtb3e3.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 1341690,
+   "name": "Sarah Esberg",
+   "photo": "https://image.tmdb.org/t/p/w185/yPr9930dI79ygF1AWFehHmxDgV3.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 3233221,
+   "name": "Pierre Laugier",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 3233220,
+   "name": "Anthony Lancret",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 1566039,
+   "name": "Jean Nainchrik",
+   "photo": "https://image.tmdb.org/t/p/w185/1AoJb71FdYnrmFxOb6Mh4ieeww0.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 95102,
+   "name": "Kaitlin Olson",
+   "photo": "https://image.tmdb.org/t/p/w185/z84SKRCVl9zPhP9AINVS8Bx8dRO.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 208161,
+   "name": "Todd Harthan",
+   "photo": "https://image.tmdb.org/t/p/w185/zKEy67zWCVB9LG9pEOjyXuQxFVK.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 1560271,
+   "name": "Josh Kramon",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 1189772,
+   "name": "Jake Staley",
+   "photo": null,
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 31
+  },
+  {
+   "id": 1237324,
+   "name": "Victor Hsu",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 1378799,
+   "name": "Marc Halsey",
+   "photo": null,
+   "jobs": [
+    "Executive Producer",
+    "Story",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 29
+  },
+  {
+   "id": 1224447,
+   "name": "Dan Etheridge",
+   "photo": "https://image.tmdb.org/t/p/w185/72x19vc3Ba08BPRLehZlQnQzKvW.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 13
+  },
+  {
+   "id": 1224428,
+   "name": "Diane Ruggiero-Wright",
+   "photo": "https://image.tmdb.org/t/p/w185/5inO9qNWZOoIkdTh5cHeKIlcK0Q.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 12
+  },
+  {
+   "id": 3125722,
+   "name": "Nicole French",
+   "photo": "https://image.tmdb.org/t/p/w185/9QNWvwW5jcwbqWElyHFEiOnjGGS.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 5011280,
+   "name": "Andrea M. Scott",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 7
+  },
+  {
+   "id": 1224425,
+   "name": "Rob Thomas",
+   "photo": "https://image.tmdb.org/t/p/w185/zV9uZmGxYUkSaWKIRhIRTZBG1hR.jpg",
+   "jobs": [
+    "Executive Producer",
+    "Writer"
+   ],
+   "episodes": 6
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:34:32.653Z"
+}

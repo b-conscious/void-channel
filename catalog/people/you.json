@@ -1,0 +1,329 @@
+{
+ "show": "You",
+ "slug": "you",
+ "tmdbId": 78191,
+ "cast": [
+  {
+   "id": 110927,
+   "name": "Penn Badgley",
+   "photo": "https://image.tmdb.org/t/p/w185/3ekfkoj3YmRlCtez4OOZoVPiO7a.jpg",
+   "character": "Joe Goldberg",
+   "episodes": 50
+  },
+  {
+   "id": 2117434,
+   "name": "Victoria Pedretti",
+   "photo": "https://image.tmdb.org/t/p/w185/lzGbKFIBdecraIkofCB6YAOg1VR.jpg",
+   "character": "Love Quinn",
+   "episodes": 21
+  },
+  {
+   "id": 1488056,
+   "name": "Charlotte Ritchie",
+   "photo": "https://image.tmdb.org/t/p/w185/kcggpFclTsPSm5YRNxRboTNt84R.jpg",
+   "character": "Kate Galvin",
+   "episodes": 20
+  },
+  {
+   "id": 9825,
+   "name": "Saffron Burrows",
+   "photo": "https://image.tmdb.org/t/p/w185/2qMLZh9XWquBt7TZF9wmDiOtJdm.jpg",
+   "character": "Dottie Quinn",
+   "episodes": 15
+  },
+  {
+   "id": 1368507,
+   "name": "Elizabeth Lail",
+   "photo": "https://image.tmdb.org/t/p/w185/guu5KjmRBjAWr4JkRdPHeyqXJPX.jpg",
+   "character": "Guinevere Beck",
+   "episodes": 14
+  },
+  {
+   "id": 1819749,
+   "name": "Amy-Leigh Hickman",
+   "photo": "https://image.tmdb.org/t/p/w185/Bxy7FohhFnbfR6TkfdXsvxkUf0.jpg",
+   "character": "Nadia Farran",
+   "episodes": 14
+  },
+  {
+   "id": 75330,
+   "name": "Ambyr Childers",
+   "photo": "https://image.tmdb.org/t/p/w185/gBlz4eeOCM5LCcStAwaXtuXjMYt.jpg",
+   "character": "Candace Stone",
+   "episodes": 14
+  },
+  {
+   "id": 1859934,
+   "name": "Tati Gabrielle",
+   "photo": "https://image.tmdb.org/t/p/w185/txZTL1HkPVxliTilbjlwR51VIt6.jpg",
+   "character": "Marienne Bellamy",
+   "episodes": 12
+  },
+  {
+   "id": 1493225,
+   "name": "Shalita Grant",
+   "photo": "https://image.tmdb.org/t/p/w185/QcxKzPIwANyEnEJoaqDgyf70oh.jpg",
+   "character": "Sherry Conrad",
+   "episodes": 11
+  },
+  {
+   "id": 1816499,
+   "name": "Tilly Keeper",
+   "photo": "https://image.tmdb.org/t/p/w185/r0NcqL6Vgp6ZQJSQ6fl8kL8Db46.jpg",
+   "character": "Phoebe Borehall-Blaxworth",
+   "episodes": 11
+  },
+  {
+   "id": 74290,
+   "name": "Travis Van Winkle",
+   "photo": "https://image.tmdb.org/t/p/w185/o4WW1KYWKF2oVxUc22fYeDr6ZhZ.jpg",
+   "character": "Cary Conrad",
+   "episodes": 11
+  },
+  {
+   "id": 2126167,
+   "name": "Luca Padovan",
+   "photo": "https://image.tmdb.org/t/p/w185/4LotI2IGryLZc4UncPJngIx2ZT1.jpg",
+   "character": "Paco",
+   "episodes": 11
+  },
+  {
+   "id": 1838225,
+   "name": "Zach Cherry",
+   "photo": "https://image.tmdb.org/t/p/w185/fT3Wv8ef0Vn0daHWAObCp2Bd4Y.jpg",
+   "character": "Ethan Russell",
+   "episodes": 11
+  },
+  {
+   "id": 1778501,
+   "name": "James Scully",
+   "photo": "https://image.tmdb.org/t/p/w185/ou4HQggnbTkLCuG5VmK5vuZGg7X.jpg",
+   "character": "Forty Quinn",
+   "episodes": 11
+  },
+  {
+   "id": 1449086,
+   "name": "Griffin Matthews",
+   "photo": "https://image.tmdb.org/t/p/w185/qM2cgMy0J5NKsa05s1ZvkWwqcI6.jpg",
+   "character": "Teddy Lockwood",
+   "episodes": 10
+  },
+  {
+   "id": 221098,
+   "name": "Anna Camp",
+   "photo": "https://image.tmdb.org/t/p/w185/32H0SJbTK3tvLVgf3X1aiaUdcxe.jpg",
+   "character": "Maddie Lockwood / Reagan Lockwood",
+   "episodes": 10
+  },
+  {
+   "id": 1443712,
+   "name": "Madeline Brewer",
+   "photo": "https://image.tmdb.org/t/p/w185/jjol6Qa5MeRb3VIwgOXQdjhcn1.jpg",
+   "character": "Louise Flannery",
+   "episodes": 10
+  },
+  {
+   "id": 1039523,
+   "name": "Dylan Arnold",
+   "photo": "https://image.tmdb.org/t/p/w185/aeEErE7FcRbGkpxRRkGVdObB7j1.jpg",
+   "character": "Theo Engler",
+   "episodes": 10
+  },
+  {
+   "id": 25438,
+   "name": "Ed Speleers",
+   "photo": "https://image.tmdb.org/t/p/w185/hDWyZwBEMRklqNllfUinYajJJk6.jpg",
+   "character": "Rhys Montrose",
+   "episodes": 10
+  },
+  {
+   "id": 1371509,
+   "name": "Lukas Gage",
+   "photo": "https://image.tmdb.org/t/p/w185/xXknCnXtRBmqg38TkMuPFtugt5s.jpg",
+   "character": "Adam Pratt",
+   "episodes": 10
+  },
+  {
+   "id": 974169,
+   "name": "Jenna Ortega",
+   "photo": "https://image.tmdb.org/t/p/w185/cV4x7jNmsGLdKZn5I6xVF3Ltnmg.jpg",
+   "character": "Ellie Alves",
+   "episodes": 10
+  },
+  {
+   "id": 1292730,
+   "name": "Carmela Zumbado",
+   "photo": "https://image.tmdb.org/t/p/w185/fGH4gA2wssENiYfKbXLrTgaVXMD.jpg",
+   "character": "Delilah Alves",
+   "episodes": 10
+  },
+  {
+   "id": 2081650,
+   "name": "Nicole Kang",
+   "photo": "https://image.tmdb.org/t/p/w185/nU7BUc1YVWkS0pa0iSr6ZNtWxYb.jpg",
+   "character": "Lynn Lieser",
+   "episodes": 10
+  },
+  {
+   "id": 222088,
+   "name": "Shay Mitchell",
+   "photo": "https://image.tmdb.org/t/p/w185/o1nzesyowW8GY6YhtQlbaWemaRW.jpg",
+   "character": "Peach Salinger",
+   "episodes": 10
+  }
+ ],
+ "crew": [
+  {
+   "id": 88967,
+   "name": "Greg Berlanti",
+   "photo": "https://image.tmdb.org/t/p/w185/1T24SiIIDMa9gAmq7QaYwZywq4y.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Teleplay"
+   ],
+   "episodes": 50
+  },
+  {
+   "id": 1225899,
+   "name": "Sera Gamble",
+   "photo": "https://image.tmdb.org/t/p/w185/twgr4lp83L8x6T9xx51rFHFxnqZ.jpg",
+   "jobs": [
+    "Creator",
+    "Executive Producer",
+    "Writer",
+    "Teleplay"
+   ],
+   "episodes": 50
+  },
+  {
+   "id": 2430637,
+   "name": "Caroline Kepnes",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 51
+  },
+  {
+   "id": 1395152,
+   "name": "Sarah Schechter",
+   "photo": "https://image.tmdb.org/t/p/w185/8UgL2O24cC8SniiryeYmZuafU4G.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 50
+  },
+  {
+   "id": 53017,
+   "name": "Blake Neely",
+   "photo": "https://image.tmdb.org/t/p/w185/ip0bUF22rBJNqLu5hTPEtzZa6hp.jpg",
+   "jobs": [
+    "Original Music Composer"
+   ],
+   "episodes": 50
+  },
+  {
+   "id": 5392357,
+   "name": "Mairin Reed",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 34
+  },
+  {
+   "id": 109745,
+   "name": "Lee Toland Krieger",
+   "photo": "https://image.tmdb.org/t/p/w185/bMaMda5ArCRoS77aQZJSZegrPj5.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 30
+  },
+  {
+   "id": 2821728,
+   "name": "Kara Lee Corthron",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 26
+  },
+  {
+   "id": 5392361,
+   "name": "Dylan Cohen",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 23
+  },
+  {
+   "id": 5392366,
+   "name": "A.B. Chao",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 22
+  },
+  {
+   "id": 1844872,
+   "name": "Kelli Breslin",
+   "photo": "https://image.tmdb.org/t/p/w185/pF3FRk8ciNT9aHBs8dUAisZw32y.jpg",
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 15
+  },
+  {
+   "id": 5392373,
+   "name": "Maren Caldwell",
+   "photo": null,
+   "jobs": [
+    "Writer"
+   ],
+   "episodes": 11
+  },
+  {
+   "id": 74062,
+   "name": "Marcos Siega",
+   "photo": "https://image.tmdb.org/t/p/w185/uZD2ihL4iKzQxMtcLDH47AikT1V.jpg",
+   "jobs": [
+    "Director",
+    "Executive Producer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 74039,
+   "name": "Leslie Morgenstein",
+   "photo": "https://image.tmdb.org/t/p/w185/8055jy4vrCvA7NXujzo4VE49KhS.jpg",
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1813243,
+   "name": "Gina Girolamo",
+   "photo": null,
+   "jobs": [
+    "Executive Producer"
+   ],
+   "episodes": 10
+  },
+  {
+   "id": 1169988,
+   "name": "Silver Tree",
+   "photo": "https://image.tmdb.org/t/p/w185/zVRj2hUcBCuWHQ6ZzFnMTUZkIbg.jpg",
+   "jobs": [
+    "Director"
+   ],
+   "episodes": 8
+  }
+ ],
+ "fetchedAt": "2026-10-13T18:33:05.157Z"
+}
